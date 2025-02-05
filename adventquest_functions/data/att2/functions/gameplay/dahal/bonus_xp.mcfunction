@@ -4,7 +4,7 @@
 #################################################################
 
 execute as @s[scores={GAMELEVEL=..24,LEVELMASTER=0}] run scoreboard players set @s BONUS_XP_SPELL 0
-execute as @s[scores={GAMELEVEL=25..49,LEVELMASTER=0}] run scoreboard players set @s BONUS_XP_SPELL 1
+execute as @s[scores={GAMELEVEL=25..50,LEVELMASTER=0}] run scoreboard players set @s BONUS_XP_SPELL 1
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=1..49}] run scoreboard players set @s BONUS_XP_SPELL 2
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=50..99}] run scoreboard players set @s BONUS_XP_SPELL 3
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=100..149}] run scoreboard players set @s BONUS_XP_SPELL 4
