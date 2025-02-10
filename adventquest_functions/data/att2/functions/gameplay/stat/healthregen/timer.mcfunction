@@ -26,3 +26,6 @@ scoreboard players set @a[scores={TIMER_HER_EQ3=0}] HER_LVL_EQ3 0
 scoreboard players set @a[scores={TIMER_HER_EQ4=0}] HER_LVL_EQ4 0
 scoreboard players set @a[scores={TIMER_HER_SET=0}] HER_LVL_SET 0
 scoreboard players set @a[scores={TIMER_HER_EXT=0}] HER_LVL_EXT 0
+
+##POTION_TIP
+execute if score POTION_CHECK_HER TIMER matches 1 as @a[scores={TIMER_HER_PO=..200,HER_LVL_PO=0..,POTION_CUE=0}] run function att2:dialog/gameplay/potion_tip/her_time
