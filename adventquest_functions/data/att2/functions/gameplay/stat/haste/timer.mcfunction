@@ -26,3 +26,6 @@ scoreboard players set @a[scores={TIMER_HAS_EQ3=..0}] HAS_LVL_EQ3 0
 scoreboard players set @a[scores={TIMER_HAS_EQ4=..0}] HAS_LVL_EQ4 0
 scoreboard players set @a[scores={TIMER_HAS_SET=..0}] HAS_LVL_SET 0
 scoreboard players set @a[scores={TIMER_HAS_EXT=..0}] HAS_LVL_EXT 0
+
+##POTION_TIP
+execute if score POTION_CHECK_HAS TIMER matches 1 as @a[scores={TIMER_HAS_PO=..200,HAS_LVL_PO=0..,POTION_CUE=0}] run function att2:dialog/gameplay/potion_tip/has_time
