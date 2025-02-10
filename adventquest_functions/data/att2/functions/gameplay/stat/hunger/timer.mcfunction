@@ -26,3 +26,6 @@ scoreboard players set @a[scores={TIMER_HUN_EQ3=0}] HUN_LVL_EQ3 0
 scoreboard players set @a[scores={TIMER_HUN_EQ4=0}] HUN_LVL_EQ4 0
 scoreboard players set @a[scores={TIMER_HUN_SET=0}] HUN_LVL_SET 0
 scoreboard players set @a[scores={TIMER_HUN_EXT=0}] HUN_LVL_EXT 0
+
+##POTION_TIP
+execute if score POTION_CHECK_HUN TIMER matches 1 as @a[scores={TIMER_HUN_PO=..200,HUN_LVL_PO=0..,POTION_CUE=0}] run function att2:dialog/gameplay/potion_tip/hun_time
