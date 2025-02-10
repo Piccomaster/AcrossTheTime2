@@ -26,3 +26,5 @@ scoreboard players set @a[scores={TIMER_STR_EQ3=..0}] STR_LVL_EQ3 0
 scoreboard players set @a[scores={TIMER_STR_EQ4=..0}] STR_LVL_EQ4 0
 scoreboard players set @a[scores={TIMER_STR_SET=..0}] STR_LVL_SET 0
 scoreboard players set @a[scores={TIMER_STR_EXT=..0}] STR_LVL_EXT 0
+##POTION_TIP
+execute if score POTION_CHECK_STR TIMER matches 1 as @a[scores={TIMER_STR_PO=..200,STR_LVL_PO=0..,POTION_CUE=0}] at @s run function att2:gameplay/potion/str_time
