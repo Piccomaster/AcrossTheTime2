@@ -26,3 +26,6 @@ scoreboard players set @a[scores={TIMER_DAR_EQ3=..0}] DAR_LVL_EQ3 0
 scoreboard players set @a[scores={TIMER_DAR_EQ4=..0}] DAR_LVL_EQ4 0
 scoreboard players set @a[scores={TIMER_DAR_SET=..0}] DAR_LVL_SET 0
 scoreboard players set @a[scores={TIMER_DAR_EXT=..0}] DAR_LVL_EXT 0
+
+##POTION_TIP
+execute if score POTION_CHECK_DAR TIMER matches 1 as @a[scores={TIMER_DAR_PO=..200,DAR_LVL_PO=0..,POTION_CUE=0}] run function att2:dialog/gameplay/potion_tip/dar_time
