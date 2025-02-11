@@ -34,6 +34,7 @@ function att2:gameplay/dahal/action/spell24/persistence
 function att2:gameplay/dahal/action/spell27/persistence
 function att2:gameplay/dahal/action/spell28/persistence
 function att2:gameplay/dahal/action/spell30/persistence
+function att2:gameplay/dahal/action/spell32/persistence
 function att2:gameplay/dahal/action/spell41/persistence
 function att2:gameplay/dahal/action/spell44/persistence
 function att2:gameplay/dahal/action/spell45/persistence
