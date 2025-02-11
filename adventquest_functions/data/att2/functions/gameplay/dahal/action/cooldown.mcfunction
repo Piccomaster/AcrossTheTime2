@@ -71,6 +71,10 @@ execute as @a[scores={COOLDOWN28=1,SPELL_SLCT=271..280}] at @s run function att2
 function att2:gameplay/dahal/action/spell30_cooldown
 execute as @a[scores={COOLDOWN30=1,SPELL_SLCT=291..300}] at @s run function att2:dialogs/gameplay/dahal/spell30_ready
 
+###SpaceTeleport
+function att2:gameplay/dahal/action/spell32_cooldown
+execute as @a[scores={COOLDOWN32=1,SPELL_SLCT=311..315}] at @s run function att2:dialogs/gameplay/dahal/spell32_ready
+
 function att2:gameplay/dahal/action/spell34_cooldown
 execute as @a[scores={COOLDOWN34=1,SPELL_SLCT=331..340}] at @s run function att2:dialogs/gameplay/dahal/spell34_ready
 
