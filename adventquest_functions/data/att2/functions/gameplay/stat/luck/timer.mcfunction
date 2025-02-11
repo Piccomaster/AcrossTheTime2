@@ -26,3 +26,6 @@ scoreboard players set @a[scores={TIMER_LUC_EQ3=..0}] LUC_LVL_EQ3 0
 scoreboard players set @a[scores={TIMER_LUC_EQ4=..0}] LUC_LVL_EQ4 0
 scoreboard players set @a[scores={TIMER_LUC_SET=..0}] LUC_LVL_SET 0
 scoreboard players set @a[scores={TIMER_LUC_EXT=..0}] LUC_LVL_EXT 0
+
+##POTION_TIP
+execute if score POTION_CHECK_LUC TIMER matches 1 as @a[scores={TIMER_LUC_PO=..200,LUC_LVL_PO=0..,POTION_CUE=0}] run function att2:dialog/gameplay/potion_tip/luc_time

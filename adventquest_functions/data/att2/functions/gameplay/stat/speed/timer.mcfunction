@@ -26,3 +26,6 @@ scoreboard players set @a[scores={TIMER_SPD_EQ3=..0}] SPD_LVL_EQ3 0
 scoreboard players set @a[scores={TIMER_SPD_EQ4=..0}] SPD_LVL_EQ4 0
 scoreboard players set @a[scores={TIMER_SPD_SET=..0}] SPD_LVL_SET 0
 scoreboard players set @a[scores={TIMER_SPD_EXT=..0}] SPD_LVL_EXT 0
+
+##POTION_TIP
+execute if score POTION_CHECK_SPD TIMER matches 1 as @a[scores={TIMER_SPD_PO=..200,SPD_LVL_PO=0..,POTION_CUE=0}] at @s run function att2:dialog/dialog/gameplay/potion_tip_tip/spd_time
