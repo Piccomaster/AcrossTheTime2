@@ -30,6 +30,9 @@ execute as @s[scores={SPELL_SLCT=251..260,COOLDOWN26=1..}] run function att2:gam
 execute as @s[scores={SPELL_SLCT=261..270,COOLDOWN27=1..}] run function att2:gameplay/dahal/action/loadingfail
 execute as @s[scores={SPELL_SLCT=271..280,COOLDOWN28=1..}] run function att2:gameplay/dahal/action/loadingfail
 execute as @s[scores={SPELL_SLCT=291..300,COOLDOWN30=1..}] run function att2:gameplay/dahal/action/loadingfail
+###SpaceTeleport
+execute as @s[scores={SPELL_SLCT=311..315,COOLDOWN32=1..}] run function att2:gameplay/dahal/action/loadingfail
+
 execute as @s[scores={SPELL_SLCT=331..340,COOLDOWN34=1..}] run function att2:gameplay/dahal/action/loadingfail
 execute as @s[scores={SPELL_SLCT=391..400,COOLDOWN40=1..},tag=!Corrupted] run function att2:gameplay/dahal/action/loadingfail
 execute as @s[scores={SPELL_SLCT=401..410,COOLDOWN41=1..}] run function att2:gameplay/dahal/action/loadingfail
@@ -62,6 +65,12 @@ execute as @s[scores={SPELL_SLCT=251..260,COOLDOWN26=..0}] run function att2:gam
 execute as @s[scores={SPELL_SLCT=261..270,COOLDOWN27=..0}] run function att2:gameplay/dahal/action/spell27/go
 execute as @s[scores={SPELL_SLCT=271..280,COOLDOWN28=..0}] run function att2:gameplay/dahal/action/spell28/go
 execute as @s[scores={SPELL_SLCT=291..300,COOLDOWN30=..0}] run function att2:gameplay/dahal/action/spell30/go
+###SpaceTeleport
+execute as @s[scores={SPELL_SLCT=311..315,COOLDOWN32=..0,SPELL32_SET_OR_TP=1}] run function att2:gameplay/dahal/action/spell32/set_a_go
+execute as @s[scores={SPELL_SLCT=311..315,COOLDOWN32=..0,SPELL32_SET_OR_TP=2}] run function att2:gameplay/dahal/action/spell32/set_b_go
+execute as @s[scores={SPELL_SLCT=311..315,COOLDOWN32=..0,SPELL32_SET_OR_TP=3}] run function att2:gameplay/dahal/action/spell32/tp_a_go
+execute as @s[scores={SPELL_SLCT=311..315,COOLDOWN32=..0,SPELL32_SET_OR_TP=4}] run function att2:gameplay/dahal/action/spell32/tp_b_go
+
 execute as @s[scores={SPELL_SLCT=331..340,COOLDOWN34=..0}] run function att2:gameplay/dahal/action/spell34/go
 # Corruption
 execute as @s[scores={SPELL_SLCT=391..400},tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
