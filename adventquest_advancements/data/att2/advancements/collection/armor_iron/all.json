@@ -7,7 +7,7 @@
         "description": {"translate":"Find all Traditional armor"},
         "frame": "challenge"
     },
-    "parent": "att2:collection/armor_diamond",
+    "parent": "att2:collection/armor_iron",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
