@@ -12,6 +12,8 @@ advancement grant @a only att2:adventure/ouran_nofight
 scoreboard players set Real0 TIMER 1501
 scoreboard players set ouran_PNJ DIALOG -2
 scoreboard players set Ouran OURANOS -2
+## stop ouran_2_go
+setblock 7887 103 6771 minecraft:air
 
 
 #FRENCH LANGUAGE
