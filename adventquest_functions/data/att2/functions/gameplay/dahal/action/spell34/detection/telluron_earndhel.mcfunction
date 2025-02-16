@@ -14,8 +14,8 @@ execute unless score gerard_PNJ statDIALOG matches 1 at 00000000-0000-068a-0000-
 execute if score earndhel PANORAMA matches 0 positioned 29918 103 29986 run function att2:gameplay/dahal/action/spell34/create_panorama_marker
 
 #Checkpoints
-execute if score Earndhel0 CHECKPOINT matches 0 positioned 29982 75 29958 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Earndhel1 CHECKPOINT matches 0 positioned 29919 103 30006 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Earndhel0 CHECKPOINT matches 0 positioned 29982 77 29952 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Earndhel1 CHECKPOINT matches 0 positioned 29915 105 30002 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Earndhel2 CHECKPOINT matches 0 positioned 30000 73 29969 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 
 #Secrets
