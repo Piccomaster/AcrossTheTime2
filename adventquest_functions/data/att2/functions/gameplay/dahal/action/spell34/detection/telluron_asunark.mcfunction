@@ -15,23 +15,23 @@ execute if score asunark PANORAMA matches 0 positioned -3714 87 -4877 run functi
 execute if score island PANORAMA matches 0 positioned -4031 129 -4357 run function att2:gameplay/dahal/action/spell34/create_panorama_marker
 
 #Checkpoints
-execute if score Asunark0 CHECKPOINT matches 0 positioned -3690 69 -5017 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark1 CHECKPOINT matches 0 positioned -3543 71 -4942 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark2 CHECKPOINT matches 0 positioned -3450 11 -4942 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark3 CHECKPOINT matches 0 positioned -3463 29 -5023 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark4 CHECKPOINT matches 0 positioned -3436 69 -5040 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark5 CHECKPOINT matches 0 positioned -3410 73 -5141 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark6 CHECKPOINT matches 0 positioned -3505 74 -5058 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark7 CHECKPOINT matches 0 positioned -3628 69 -4918 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark8 CHECKPOINT matches 0 positioned -3443 45 -4854 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark9 CHECKPOINT matches 0 positioned -3529 28 -4838 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark10 CHECKPOINT matches 0 positioned -3380 47 -4887 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Asunark11 CHECKPOINT matches 0 positioned -3327 19 -4942 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Lost_island0 CHECKPOINT matches 0 positioned -4083 70 -4434 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Lost_island1 CHECKPOINT matches 0 positioned -4001 69 -4375 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Lost_island2 CHECKPOINT matches 0 positioned -4026 69 -4322 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Lost_island3 CHECKPOINT matches 0 positioned -3969 49 -4332 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Lost_island4 CHECKPOINT matches 0 positioned -3986 30 -4279 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark0 CHECKPOINT matches 0 positioned -3693 71 -5019 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark1 CHECKPOINT matches 0 positioned -3546 73 -4949 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark2 CHECKPOINT matches 0 positioned -3448 12 -4942 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark3 CHECKPOINT matches 0 positioned -3464 31 -5026 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark4 CHECKPOINT matches 0 positioned -3441 71 -5037 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark5 CHECKPOINT matches 0 positioned -3410 75 -5139 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark6 CHECKPOINT matches 0 positioned -3513 76 -5058 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark7 CHECKPOINT matches 0 positioned -3628 72 -4911 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark8 CHECKPOINT matches 0 positioned -3443 51 -4859 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark9 CHECKPOINT matches 0 positioned -3532 30 -4838 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark10 CHECKPOINT matches 0 positioned -3385 48 -4877 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Asunark11 CHECKPOINT matches 0 positioned -3335 16 -4942 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Lost_island0 CHECKPOINT matches 0 positioned -4086 72 -4440 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Lost_island1 CHECKPOINT matches 0 positioned -3998 72 -4369 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Lost_island2 CHECKPOINT matches 0 positioned -4028 75 -4312 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Lost_island3 CHECKPOINT matches 0 positioned -3969 50 -4339 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Lost_island4 CHECKPOINT matches 0 positioned -3986 32 -4276 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 
 #Secrets
 execute if score 31 SECRET_SIMPLE matches 0 positioned -3541 29 -4893 run function att2:gameplay/dahal/action/spell34/create_secret_marker
