@@ -8,23 +8,23 @@ execute if score nojelanth_past PANORAMA matches 0 positioned -7495 99 -4504 run
 execute if score nojelanth_forest PANORAMA matches 0 positioned -7543 132 -4183 run function att2:gameplay/dahal/action/spell34/create_panorama_marker
 
 #Checkpoints
-execute if score Nojelanth_past0 CHECKPOINT matches 0 positioned -7371 96 -4531 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past1 CHECKPOINT matches 0 positioned -7410 116 -4401 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past2 CHECKPOINT matches 0 positioned -7447 116 -4364 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past3 CHECKPOINT matches 0 positioned -7519 116 -4318 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past4 CHECKPOINT matches 0 positioned -7519 108 -4288 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past5 CHECKPOINT matches 0 positioned -7530 122 -4281 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past6 CHECKPOINT matches 0 positioned -7521 134 -4292 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past7 CHECKPOINT matches 0 positioned -7511 156 -4292 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past8 CHECKPOINT matches 0 positioned -7547 141 -4316 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past0 CHECKPOINT matches 0 positioned -7364 101 -4531 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past1 CHECKPOINT matches 0 positioned -7413 118 -4402 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past2 CHECKPOINT matches 0 positioned -7451 117 -4363 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past3 CHECKPOINT matches 0 positioned -7519 119 -4315 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past4 CHECKPOINT matches 0 positioned -7525 110 -4288 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past5 CHECKPOINT matches 0 positioned -7532 125 -4280 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past6 CHECKPOINT matches 0 positioned -7516 136 -4290 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past7 CHECKPOINT matches 0 positioned -7520 157 -4292 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past8 CHECKPOINT matches 0 positioned -7542 143 -4313 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_past9 CHECKPOINT matches 0 positioned -7522 200 -4292 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past10 CHECKPOINT matches 0 positioned -7676 30 -4185 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past11 CHECKPOINT matches 0 positioned -7574 10 -4150 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past12 CHECKPOINT matches 0 positioned -7510 9 -4179 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past13 CHECKPOINT matches 0 positioned -7552 22 -4131 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past14 CHECKPOINT matches 0 positioned -7620 14 -4225 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past15 CHECKPOINT matches 0 positioned -7594 44 -4164 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_past16 CHECKPOINT matches 0 positioned -7544 88 -4167 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past10 CHECKPOINT matches 0 positioned -7676 32 -4177 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past11 CHECKPOINT matches 0 positioned -7571 12 -4146 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past12 CHECKPOINT matches 0 positioned -7509 12 -4181 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past13 CHECKPOINT matches 0 positioned -7552 24 -4129 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past14 CHECKPOINT matches 0 positioned -7623 17 -4225 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past15 CHECKPOINT matches 0 positioned -7593 45 -4167 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_past16 CHECKPOINT matches 0 positioned -7547 91 -4161 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 
 #Secrets
 execute if score 46 SECRET_SIMPLE matches 0 positioned -7391 88 -4368 run function att2:gameplay/dahal/action/spell34/create_secret_marker

@@ -41,16 +41,16 @@ execute unless score guardian_PNJ statDIALOG matches 1 at 00000000-0000-150a-000
 execute if score ryliath PANORAMA matches 0 positioned -5105 116 -4963 run function att2:gameplay/dahal/action/spell34/create_panorama_marker
 
 #Checkpoints
-execute if score Ryliath0 CHECKPOINT matches 0 positioned -4968 77 -5017 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath1 CHECKPOINT matches 0 positioned -5095 105 -4942 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath2 CHECKPOINT matches 0 positioned -5085 79 -4982 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath3 CHECKPOINT matches 0 positioned -4994 96 -4943 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath4 CHECKPOINT matches 0 positioned -5030 75 -5065 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath5 CHECKPOINT matches 0 positioned -5115 105 -4962 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath6 CHECKPOINT matches 0 positioned -5046 104 -4931 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath7 CHECKPOINT matches 0 positioned -4932 90 -4969 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath8 CHECKPOINT matches 0 positioned -4968 122 -4915 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Ryliath9 CHECKPOINT matches 0 positioned -5043 149 -4880 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath0 CHECKPOINT matches 0 positioned -4976 79 -5017 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath1 CHECKPOINT matches 0 positioned -5098 107 -4943 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath2 CHECKPOINT matches 0 positioned -5082 81 -4980 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath3 CHECKPOINT matches 0 positioned -4994 98 -4941 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath4 CHECKPOINT matches 0 positioned -5023 78 -5060 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath5 CHECKPOINT matches 0 positioned -5118 107 -4962 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath6 CHECKPOINT matches 0 positioned -5049 107 -4922 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath7 CHECKPOINT matches 0 positioned -4927 92 -4962 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath8 CHECKPOINT matches 0 positioned -4968 123 -4914 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Ryliath9 CHECKPOINT matches 0 positioned -5048 151 -4889 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 
 #Secrets
 execute if score 1 SECRET_SIMPLE matches 0 positioned -4955 88 -5015 run function att2:gameplay/dahal/action/spell34/create_secret_marker
