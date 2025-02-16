@@ -25,7 +25,7 @@ execute unless score alfonso_PNJ statDIALOG matches 1 at 00000000-0000-142a-0000
 execute if score meleim PANORAMA matches 0 positioned -3750 110 -5912 run function att2:gameplay/dahal/action/spell34/create_panorama_marker
 
 #Checkpoints
-execute if score Meleim0 CHECKPOINT matches 0 positioned -3827 102 -5817 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Meleim0 CHECKPOINT matches 0 positioned -3821 104 -5824 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 
 #Secrets
 execute if score 21 SECRET_SIMPLE matches 0 positioned -3991 76 -5875 run function att2:gameplay/dahal/action/spell34/create_secret_marker
