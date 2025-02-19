@@ -3,6 +3,7 @@
 #Spectral bow lvl9												#
 #################################################################
 
+clear @s minecraft:bow{EquipmentID:"spectralbow"}
 give @s minecraft:bow{EquipmentType:"rangeWeapon",EquipmentID:"spectralbow",Rarity:"leg",Manufacturer:"traditional",Unbreakable:1,display:{Name:"\"§6Arc spectral\"","Lore":["{\"text\":\"§7Etends l'influence de ton maître\"}","{\"text\":\"§7pour 30 secondes.\"}","{\"text\":\"§7Extend your master's influence\"}","{\"text\":\"§7for 30 seconds."]},CustomModelData:1000000,Enchantments:[{id:"minecraft:power",lvl:17s},{id:"minecraft:infinity",lvl:1s}]} 1
 
 scoreboard players remove @s DAHAL 290
