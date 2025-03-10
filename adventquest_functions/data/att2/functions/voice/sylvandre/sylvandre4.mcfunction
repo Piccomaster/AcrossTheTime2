@@ -1,0 +1,2 @@
+execute positioned as 00000000-0000-003a-0000-00000000003a if score VF Voice matches 1 run playsound voiceact:sylvandre4 voice @a ~ ~ ~ 1 1 1
+execute positioned as 00000000-0000-003a-0000-00000000003a if score VF Voice matches 2 run playsound voiceact:en_sylvandre4 voice @a ~ ~ ~ 1 1 1
