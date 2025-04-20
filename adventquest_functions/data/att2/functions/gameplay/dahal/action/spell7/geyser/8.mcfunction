@@ -17,7 +17,7 @@ execute positioned ^ ^ ^5 run function att2:gameplay/dahal/action/spell7/geyser/
 execute positioned ^ ^ ^-5 run function att2:gameplay/dahal/action/spell7/geyser/8_effect
 execute as @a[distance=..6] run effect give @s minecraft:fire_resistance 2 0 true
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run effect give @s minecraft:wither 3 5 true
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] at @s unless entity @s[scores={SPELL7_EFFECT=1..}] run tp @s[tag=!owlkar] ~ ~0.04 ~ ~ ~
+execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] at @s unless entity @s[scores={SPELL7_EFFECT=1..}] run tp @s[tag=!owlkar] ~ ~0.07 ~ ~ ~
 tp @s ~ ~ ~ ~5 ~
 
 execute if score BonusDahalPower RUNE matches 0 run function att2:gameplay/dahal/action/spell7/damage/lvl8/bonus0
