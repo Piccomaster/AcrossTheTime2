@@ -13,7 +13,7 @@ execute if score Mainquest SIDEQUEST matches 1.. in minecraft:overworld run func
 execute if score second TIMECOUNTER matches 0 run function att2:gameplay/enveffect/bee/go
 execute if score second TIMECOUNTER matches 30 run function att2:gameplay/enveffect/bee/go
 execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enveffect/creeper/go
-execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enveffect/lava/go
+function att2:gameplay/enveffect/lava/go
 execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enveffect/conduit/go
 # Exception for Nightmare sq59 old Hill valley
 execute if score tic TIMECOUNTER matches 5 unless entity @a[x=7000,z=-7000,distance=..300] run function att2:gameplay/enveffect/void/go

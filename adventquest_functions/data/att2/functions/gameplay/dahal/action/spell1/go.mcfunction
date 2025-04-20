@@ -3,6 +3,7 @@
 #Process fire ball incantation									#
 #################################################################
 
+execute at @s run forceload add 0 0
 execute as @s[scores={SPELL1_SLCT=1,DAHAL=15..}] at @s run function att2:gameplay/dahal/action/spell1/lvl1
 execute as @s[scores={SPELL1_SLCT=2,DAHAL=60..}] at @s run function att2:gameplay/dahal/action/spell1/lvl2
 execute as @s[scores={SPELL1_SLCT=3,DAHAL=90..}] at @s run function att2:gameplay/dahal/action/spell1/lvl3
@@ -13,7 +14,6 @@ execute as @s[scores={SPELL1_SLCT=7,DAHAL=180..}] at @s run function att2:gamepl
 execute as @s[scores={SPELL1_SLCT=8,DAHAL=200..}] at @s run function att2:gameplay/dahal/action/spell1/lvl8
 execute as @s[scores={SPELL1_SLCT=9,DAHAL=220..}] at @s run function att2:gameplay/dahal/action/spell1/lvl9
 execute as @s[scores={SPELL1_SLCT=10,DAHAL=250..}] at @s run function att2:gameplay/dahal/action/spell1/lvl10
-
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL1_LVL
 

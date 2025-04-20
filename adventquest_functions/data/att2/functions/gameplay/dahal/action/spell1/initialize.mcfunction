@@ -3,7 +3,6 @@
 #Initialize spell1 for a given player							#
 #################################################################
 
-forceload add 0 0
 scoreboard objectives add COOLDOWN1 dummy
 scoreboard objectives add SPELL1_LVL dummy
 scoreboard objectives add SPELL1_CAP dummy

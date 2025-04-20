@@ -5,5 +5,5 @@
 
 execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/forbiddenentity/invocation_aura
 execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/forbiddenentity/item
-execute if score slime_kill TIMECOUNTER matches 1.. run function att2:gameplay/forbiddenentity/slime
+function att2:gameplay/forbiddenentity/slime
 execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/forbiddenentity/wolf
