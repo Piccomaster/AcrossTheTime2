@@ -3,7 +3,16 @@
 #Keep Bait working   						    #
 #################################################
 
-# If the owner is too far, a direct teleportation is done
-execute at @s as @a[gamemode=adventure] if score @e[distance=..0,limit=1] BELONG_PLAYER2 = @s[distance=20..] NUMEROJOUEUR run teleport @e[distance=..0] @s
-# If owner is in another dimension, a direct teleportation is done
-execute at @s as @a[gamemode=adventure] if score @e[distance=..0,limit=1] BELONG_PLAYER2 = @s NUMEROJOUEUR unless entity @s[distance=0..] run teleport @e[distance=..0] @s
+scoreboard players add golem spread 1
+
+teleport @s @a[distance=..0,limit=1]
+execute if score golem spread matches 1 run tp @s ~2 ~ ~
+execute if score golem spread matches 2 run tp @s ~-2 ~ ~
+execute if score golem spread matches 3 run tp @s ~ ~ ~2
+execute if score golem spread matches 4 run tp @s ~ ~ ~-2
+execute if score golem spread matches 5 run tp @s ~1.8 ~ ~-1.8
+execute if score golem spread matches 6 run tp @s ~-1.8 ~ ~1.8
+execute if score golem spread matches 7 run tp @s ~1.8 ~ ~1.8
+execute if score golem spread matches 8 run tp @s ~-1.8 ~ ~-1.8
+
+execute if score golem spread matches 8 run scoreboard players set golem spread 0

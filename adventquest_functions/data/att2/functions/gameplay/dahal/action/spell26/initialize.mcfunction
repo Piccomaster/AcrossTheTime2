@@ -8,6 +8,7 @@ scoreboard objectives add BELONG_PLAYER2 dummy
 scoreboard objectives add SPELL26_LVL dummy
 scoreboard objectives add SPELL26_CAP dummy
 scoreboard objectives add SPELL26_MAX dummy
+scoreboard objectives add spread dummy
 scoreboard players set @s COOLDOWN26 0
 scoreboard players set @s SPELL26_LVL 0
 scoreboard players set @s SPELL26_CAP 1
