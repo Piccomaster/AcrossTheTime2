@@ -3,7 +3,7 @@
 #Obtain book for spell selection								#
 #################################################################
 
-
+function att2:gameplay/dahal/action/spell32/data_set
 clear @s minecraft:written_book{title:"§6Téléportation spatiale"}
 clear @s minecraft:written_book{title:"§6Spatial Teleportation"}
 clear @s minecraft:written_book{title:"§6空间传送"}

@@ -6,7 +6,6 @@
 #update select 
 function att2:gameplay/dahal/action/spell31/data_set
 
-
 clear @s minecraft:written_book{title:"§6Dévoreur d'Or"}
 clear @s minecraft:written_book{title:"§6Gold Devourer"}
 clear @s minecraft:written_book{title:"§6吞金兽"}

@@ -3,6 +3,7 @@
 #Obtain book for spell selection								#
 #################################################################
 
+function att2:gameplay/dahal/action/spell40/data_set
 clear @s minecraft:written_book{title:"§0Corruption"}
 clear @s minecraft:written_book{title:"§0Corruption"}
 clear @s minecraft:written_book{title:"§0腐敗"}

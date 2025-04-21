@@ -3,6 +3,7 @@
 #Obtain book for spell selection								#
 #################################################################
 
+function att2:gameplay/dahal/action/spell11/data_set
 clear @s minecraft:written_book{title:"§aNova"}
 clear @s minecraft:written_book{title:"§aNova"}
 clear @s minecraft:written_book{title:"§a新星"}
