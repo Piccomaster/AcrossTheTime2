@@ -1,76 +1,76 @@
 {
-    "condition":"any_of",
-    "terms":[
+    "condition": "any_of",
+    "terms": [
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000001}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'0'}}}}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000002}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'1'}}}}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000003}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'2'}}}}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000004}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'3'}}}}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000005}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'4'}}}}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000006}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'5'}}}}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000007}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'6'}}}}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000008}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'7'}}}}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:spe,CustomModelData:10000009}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'8'}}}}"
             }
         }
     ]

@@ -1,33 +1,39 @@
 {
-    "condition":"any_of",
-    "terms":[
-        {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:player",
-              "equipment": {
-                "mainhand": {
-                  "items": [
-                    "minecraft:fishing_rod"
-                  ]
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:player",
-              "equipment": {
-                "offhand": {
-                  "items": [
-                    "minecraft:fishing_rod"
-                  ]
-                }
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:carrot_on_a_stick",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Dahal": "launcher"
               }
             }
           }
-    ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "offhand": {
+            "items": "minecraft:carrot_on_a_stick",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Dahal": "launcher"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }

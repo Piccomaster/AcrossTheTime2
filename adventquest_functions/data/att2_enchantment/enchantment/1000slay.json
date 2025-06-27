@@ -1,0 +1,20 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": "enchantment.att2.1000slay"
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:axes",
+  "weight": 1
+}

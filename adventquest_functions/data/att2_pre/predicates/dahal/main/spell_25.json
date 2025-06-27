@@ -5,10 +5,12 @@
         "type": "minecraft:player",
         "equipment": {
             "mainhand": {
-                "items": [
-                    "minecraft:fishing_rod"
-                ],
-                "nbt": "{Spell:spell25}"
+                "items": "minecraft:carrot_on_a_stick",
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "Spell": "spell25"
+                    }
+                }
             }
         }
     }

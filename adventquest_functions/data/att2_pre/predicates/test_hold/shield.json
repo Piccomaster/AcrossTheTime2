@@ -1,14 +1,89 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "minecraft:player",
-    "equipment": {
-      "offhand": {
-        "items": [
-          "minecraft:shield"
-        ]
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:diamond_sword"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:netherite_sword"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:wooden_sword"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:stone_sword"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:iron_sword"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:golden_sword"
+            ]
+          }
+        }
       }
     }
-  }
+  ]
 }

@@ -5,10 +5,12 @@
         "type": "minecraft:player",
         "equipment": {
             "offhand": {
-                "items": [
-                    "minecraft:fishing_rod"
-                ],
-                "nbt": "{Spell:spell21}"
+                "items": "minecraft:carrot_on_a_stick",
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "Spell": "spell21"
+                    }
+                }
             }
         }
     }

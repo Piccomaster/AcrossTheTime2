@@ -1,0 +1,20 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{SelectedItem:{components:{'minecraft:potion_contents':{custom_effects:[{id:'minecraft:water_breathing'}]}}}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "nbt": "{equipment:{offhand:{components:{'minecraft:potion_contents':{custom_effects:[{id:'minecraft:water_breathing'}]}}}}}"
+            }
+        }
+    ]
+}

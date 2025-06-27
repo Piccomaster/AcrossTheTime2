@@ -30,6 +30,16 @@
                     ]
                 }
             }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:light_blue_concrete_powder"
+                    ]
+                }
+            }
         }
     ]
 }

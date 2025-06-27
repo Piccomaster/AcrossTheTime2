@@ -1,0 +1,48 @@
+{
+    "anvil_cost": 7,
+    "description": {
+        "translate": "enchantment.att2.auto_mending"
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "any"
+    ],
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 1,
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "att2:gameplay/enchantment/trigger_function/auto_mending"
+                        }
+                    ]
+                },
+                "enchanted": "victim",
+                "requirements": {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "tags": [
+                            {
+                                "expected": false,
+                                "id": "minecraft:bypasses_invulnerability"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

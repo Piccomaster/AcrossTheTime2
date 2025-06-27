@@ -14,7 +14,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{EquipmentType:runic_word}}}"
+                "nbt":"{Item:{components:{EquipmentType:runic_word}}}"
             }
         }
     ]

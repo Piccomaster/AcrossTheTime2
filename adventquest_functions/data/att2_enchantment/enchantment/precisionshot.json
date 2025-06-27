@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.att2.precisionshot"
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "hand"
+  ],
+  "effects": {
+    "projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "att2:gameplay/enchantment/trigger_function/precisionshot"
+        }
+      }
+    ]
+  },
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 2
+}
