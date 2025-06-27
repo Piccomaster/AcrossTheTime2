@@ -43,7 +43,7 @@ execute store result score epi_set RECYCLER if entity @e[type=item,distance=..1,
 execute store result score epi_esc RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_esc,predicate=!att2_pre:recycle/error]
 execute store result score leg_armset RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/leg_armset,predicate=!att2_pre:recycle/shop,predicate=!att2_pre:recycle/error]
 execute store result score ult RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/ult,predicate=!att2_pre:recycle/shop,predicate=!att2_pre:recycle/error]
-execute store result score myt RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"myt"}}}]
+execute store result score myt RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{components:{Rarity:"myt"}}}]
 execute store result score number RECYCLER if entity @e[type=item,distance=..1]
 #from shop
 execute as @e[type=item,distance=..1,predicate=att2_pre:recyclebuy//leg,predicate=!att2_pre:recycle/error] run scoreboard players add leg_buy RECYCLER 1
