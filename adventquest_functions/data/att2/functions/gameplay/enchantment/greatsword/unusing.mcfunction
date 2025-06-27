@@ -12,4 +12,4 @@
 #execute store result score EFFECT SHIELD run attribute @s movement_efficiency get 100
 #attribute @s movement_speed modifier add greatsword_movement_speed 1 add_multiplied_total
 #attribute @s movement_speed modifier remove greatsword_movement_speed
-advancement revoke @s only att2_test:enchantment/greatsword/using 
+advancement revoke @s only att2_test:enchantment/greatsword/using

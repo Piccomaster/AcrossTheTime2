@@ -8,6 +8,7 @@ execute if data entity @s SelectedItem.components."minecraft:potion_contents".cu
 
 execute unless data entity @s SelectedItem.components."minecraft:potion_contents".custom_effects[{id:"minecraft:invisibility"}].duration store result score temp_value_2 CAL run data get entity @s equipment.offhand.components."minecraft:potion_contents".custom_effects[{id:"minecraft:invisibility"}].duration
 
+#Error here ?
 execute f data entity @s SelectedItem.components."minecraft:potion_contents".custom_effects[{id:"minecraft:invisibility"}].amplifier store result score temp_value_3 CAL irun data get entity @s SelectedItem.components."minecraft:potion_contents".custom_effects[{id:"minecraft:invisibility"}].amplifier
 
 execute unless data entity @s SelectedItem.components."minecraft:potion_contents".custom_effects[{id:"minecraft:invisibility"}].amplifier store result score temp_value_3 CAL run data get entity @s equipment.offhand.components."minecraft:potion_contents".custom_effects[{id:"minecraft:invisibility"}].amplifier

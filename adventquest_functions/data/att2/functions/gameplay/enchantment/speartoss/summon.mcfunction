@@ -14,6 +14,8 @@ data modify entity @e[type=arrow,tag=New,tag=SPEAR_ARROW,limit=1] Owner set from
 
 execute as @s[advancements={att2_test:enchantment/speartoss_wooden=true}] run data merge entity @e[type=item_display,tag=New,tag=SPEAR_ARROW,limit=1] {item:{id:"minecraft:wooden_hoe",count:1b},transformation:{translation:[0f,-1f,0f],scale:[1f,1f,1f]},item_display:"firstperson_lefthand"}
 execute as @s[advancements={att2_test:enchantment/speartoss_stone=true}] run data merge entity @e[type=item_display,tag=New,tag=SPEAR_ARROW,limit=1] {item:{id:"minecraft:stone_hoe",count:1b},transformation:{translation:[0f,-1f,0f],scale:[1f,1f,1f]},item_display:"firstperson_lefthand"}
+
+#Error here ?
 run data merge entity @e[type=item_display,tag=New,tag=SPEAR_ARROW,limit=1] {item:{id:"minecraft:iron_hoe",count:1b},transformation:{translation:[0f,-1f,0f],scale:[1f,1f,1f]},item_display:"firstperson_lefthand"}
 execute as @s[advancements={att2_test:enchantment/speartoss_diamond=true}] run data merge entity @e[type=item_display,tag=New,tag=SPEAR_ARROW,limit=1] {item:{id:"minecraft:diamond_hoe",count:1b},transformation:{translation:[0f,-1f,0f],scale:[1f,1f,1f]},item_display:"firstperson_lefthand"}
 execute as @s[advancements={att2_test:enchantment/speartoss_netherite=true}] run data merge entity @e[type=item_display,tag=New,tag=SPEAR_ARROW,limit=1] {item:{id:"minecraft:netherite_hoe",count:1b},transformation:{translation:[0f,-1f,0f],scale:[1f,1f,1f]},item_display:"firstperson_lefthand"}

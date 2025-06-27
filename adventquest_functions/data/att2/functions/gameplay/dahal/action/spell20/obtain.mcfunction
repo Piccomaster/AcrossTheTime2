@@ -9,7 +9,7 @@ clear @s minecraft:written_book[title:"§9次元口袋"]
 clear @s minecraft:written_book[title:"§9ストック"]
 clear @s minecraft:written_book[title:"§9스톡"]
 clear @s minecraft:written_book[title:"§9ستوك"]
-clear @s minecraft:written_book[title:"§9स्टॉक"}
+clear @s minecraft:written_book[title:"§9स्टॉक"]
 
 execute as @s[scores={SPELL20_CAP=1}] run scoreboard players operation @s SPELL_OP = cap2 SPELL20_LVL
 execute as @s[scores={SPELL20_CAP=2..}] run scoreboard players operation @s SPELL_OP = cap3 SPELL20_LVL

@@ -3,6 +3,8 @@
 #Initialize enchantment                    						#
 #################################################################
 
+#This whole function can't work
+
 
 scoreboard players add @s PRECISIONBLOCK 1
 execute if score @s PRECISIONBLOCK matches 10 run playsound minecraft:block.vault.close_shutter block @a ~ ~ ~ 1 2

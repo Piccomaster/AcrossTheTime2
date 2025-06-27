@@ -5,7 +5,7 @@
 
 
 execute as @e[tag=TEMP_SHOT,tag=HEADHUNTER,type=#minecraft:arrows] on origin store result score temp_value_1 CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."att2_enchantment:headhunter" 10
-execute as @e[tag=TEMP_SHOT,tag=HEADHUNTER,type=#minecraft:arrows] on origin store result score temp_value_2 CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:power" 
+execute as @e[tag=TEMP_SHOT,tag=HEADHUNTER,type=#minecraft:arrows] on origin store result score temp_value_2 CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:power"
 execute store result score temp_value_3 CAL run data get entity @e[tag=TEMP_SHOT,tag=HEADHUNTER,type=#minecraft:arrows,limit=1] damage 10
 ##damage cal
 #base damage X 10
