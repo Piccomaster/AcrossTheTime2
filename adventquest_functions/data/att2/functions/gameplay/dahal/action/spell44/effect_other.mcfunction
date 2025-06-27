@@ -14,3 +14,4 @@ execute if score @a[distance=..0,limit=1] SPELL44_SLCT matches 7 run effect give
 execute if score @a[distance=..0,limit=1] SPELL44_SLCT matches 8 run effect give @s minecraft:speed 75 2 true
 execute if score @a[distance=..0,limit=1] SPELL44_SLCT matches 9 run effect give @s minecraft:speed 90 2 true
 execute if score @a[distance=..0,limit=1] SPELL44_SLCT matches 10 run effect give @s minecraft:speed 120 2 true
+execute at @s run particle minecraft:poof ~ ~ ~ 0.5 0.5 0.5 0.1 20

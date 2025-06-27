@@ -4,10 +4,10 @@
 #################################################
 
 # Particle
-execute as @e[tag=GluttonPet,type=minecraft:frog] run function att2:gameplay/dahal/action/spell31/persistence_effect
+execute as @e[type=minecraft:frog,tag=GluttonPet] at @s run function att2:gameplay/dahal/action/spell31/persistence_effect
 
 # Make pet follow its owner
-execute as @e[type=minecraft:frog] unless entity @s[type=minecraft:frog,tag=!GluttonPet] unless entity @s[scores={SUMMON_TIMER=1..}] run function att2:gameplay/dahal/pet/follow_owner
+execute as @e[type=minecraft:frog,tag=GluttonPet,scores={SUMMON_TIMER=..0}] run function att2:gameplay/dahal/pet/follow_owner
 
 # Keep agro turtle juvenil
 execute as @e[type=minecraft:turtle,tag=Agro] run data merge entity @s {Age:-100}

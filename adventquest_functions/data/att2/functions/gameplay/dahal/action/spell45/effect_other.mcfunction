@@ -14,3 +14,5 @@ execute if score @a[distance=..0,limit=1] SPELL45_SLCT matches 7 run effect give
 execute if score @a[distance=..0,limit=1] SPELL45_SLCT matches 8 run effect give @s minecraft:strength 80 15 true
 execute if score @a[distance=..0,limit=1] SPELL45_SLCT matches 9 run effect give @s minecraft:strength 90 18 true
 execute if score @a[distance=..0,limit=1] SPELL45_SLCT matches 10 run effect give @s minecraft:strength 100 21 true
+
+execute at @s run particle minecraft:large_smoke ~ ~ ~ 0.5 0.5 0.5 0 5

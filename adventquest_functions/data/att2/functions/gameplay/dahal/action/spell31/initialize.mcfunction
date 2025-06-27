@@ -7,12 +7,14 @@ scoreboard objectives add COOLDOWN31 dummy
 scoreboard objectives add SPELL31_LVL dummy
 scoreboard objectives add SPELL31_CAP dummy
 scoreboard objectives add SPELL31 dummy
+scoreboard objectives add SPELL31_DATA dummy
 scoreboard objectives add spell31_run dummy
 scoreboard objectives add recycle_select_other dummy
 scoreboard objectives add recycle_select_com dummy
 scoreboard objectives add recycle_select_unc dummy
 scoreboard objectives add recycle_select_rar dummy
 scoreboard objectives add recycle_select_epi dummy
+scoreboard objectives add recycle_select_leg dummy
 scoreboard objectives add recycle_select_leg dummy
 scoreboard objectives add recycle_select_ult dummy
 
@@ -50,6 +52,28 @@ team add spell31
 team modify spell31 color gold
 team modify spell31 collisionRule never
 
+#set cooldown score | cooldown/200 -> second
+scoreboard players set lvl1 COOLDOWN31 24000
+scoreboard players set lvl2 COOLDOWN31 23100
+scoreboard players set lvl3 COOLDOWN31 22000
+scoreboard players set lvl4 COOLDOWN31 21000
+scoreboard players set lvl5 COOLDOWN31 20000
+scoreboard players set lvl6 COOLDOWN31 19000
+scoreboard players set lvl7 COOLDOWN31 18000
+scoreboard players set lvl8 COOLDOWN31 17000
+scoreboard players set lvl9 COOLDOWN31 16000
+scoreboard players set lvl10 COOLDOWN31 15000
+
+#set cooldown score | cooldown/200 -> second
+scoreboard players set other SPELL31_DATA 1
+scoreboard players set com SPELL31_DATA 1
+scoreboard players set unc SPELL31_DATA 2
+scoreboard players set rar SPELL31_DATA 3
+scoreboard players set epi SPELL31_DATA 7
+scoreboard players set epi_set SPELL31_DATA 9
+scoreboard players set leg SPELL31_DATA 15
+scoreboard players set leg_armset SPELL31_DATA 17
+scoreboard players set ult SPELL31_DATA 25
 
 
 

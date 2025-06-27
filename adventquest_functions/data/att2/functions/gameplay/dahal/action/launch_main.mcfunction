@@ -3,6 +3,9 @@
 #Launch the magical attack										#
 #################################################################
 
+#set Animation
+item modify entity @s[predicate=att2_pre:dahal/hold_main] weapon.mainhand {"function":"set_custom_data", "tag":{Launch:true}}
+
 #loading fail
 execute as @s[predicate=att2_pre:dahal/main/spell_1,scores={SPELL1_SLCT=1..10,COOLDOWN1=1..}] run function att2:gameplay/dahal/action/loadingfail/spell_1
 execute as @s[predicate=att2_pre:dahal/main/spell_2,scores={SPELL2_SLCT=1..10,COOLDOWN2=1..}] run function att2:gameplay/dahal/action/loadingfail/spell_2

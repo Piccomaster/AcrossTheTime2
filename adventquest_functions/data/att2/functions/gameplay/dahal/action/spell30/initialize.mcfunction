@@ -86,3 +86,15 @@ scoreboard players set 4 SPELL30 4
 scoreboard players set 3 SPELL30 3
 scoreboard players set 2 SPELL30 2
 scoreboard players set 1 SPELL30 1
+
+#set cooldown score | cooldown/200 -> second
+scoreboard players set lvl1 COOLDOWN30 24000
+scoreboard players set lvl2 COOLDOWN30 23000
+scoreboard players set lvl3 COOLDOWN30 22000
+scoreboard players set lvl4 COOLDOWN30 21000
+scoreboard players set lvl5 COOLDOWN30 20000
+scoreboard players set lvl6 COOLDOWN30 19000
+scoreboard players set lvl7 COOLDOWN30 18000
+scoreboard players set lvl8 COOLDOWN30 17000
+scoreboard players set lvl9 COOLDOWN30 16000
+scoreboard players set lvl10 COOLDOWN30 15000

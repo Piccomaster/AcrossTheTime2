@@ -3,4 +3,4 @@
 #Level and Cooldown	for Vitality pet							#
 #################################################################
 
-scoreboard players set @s COOLDOWN21 32000
+scoreboard players operation @s COOLDOWN21 = lvl1 COOLDOWN21

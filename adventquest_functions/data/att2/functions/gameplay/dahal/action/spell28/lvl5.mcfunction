@@ -3,8 +3,8 @@
 #Spectral bow lvl5												#
 #################################################################
 
-clear @s minecraft:bow{EquipmentID:"spectralbow"}
-give @s minecraft:bow{EquipmentType:"rangeWeapon",EquipmentID:"spectralbow",Manufacturer:"traditional",Unbreakable:1,display:{Name:"\"§9Arc spectral\"","Lore":["{\"text\":\"§7Etends l'influence de ton maître\"}","{\"text\":\"§7pour 60 secondes.\"}","{\"text\":\"§7Extend your master's influence\"}","{\"text\":\"§7for 60 seconds."]},CustomModelData:1000000,Enchantments:[{id:"minecraft:power",lvl:8s},{id:"minecraft:infinity",lvl:1s}]} 1
+clear @s minecraft:bow[custom_name={translate:"att2.spell.spectralbow.name"}]
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",SPECTRALBOW:"1",EquipmentID:"spectralbow"},custom_name={translate:"att2.spell.spectralbow.name"},lore=[{translate:"att2.spell.spectralbow.lore.1"},{translate:"att2.spell.spectralbow.lore.2"}],max_damage=777,enchantments={"infinity":1,"power":10},custom_model_data={floats:[1000000]},unbreakable={}]
 
 scoreboard players remove @s DAHAL 120
 function att2:gameplay/dahal/action/spell28/cooldown
@@ -14,4 +14,4 @@ scoreboard players operation @s SPELL28_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
-scoreboard players set @s SPELL28_EFFECT 900
+scoreboard players reset @s SPELL28_EFFECT

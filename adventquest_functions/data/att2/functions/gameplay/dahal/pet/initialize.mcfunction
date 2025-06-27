@@ -3,4 +3,5 @@
 #Initialize scores for pet          							#
 #################################################################
 
-scoreboard objectives add FOLLOW_PLAYER dummy
+scoreboard objectives add OWNER dummy
+scoreboard objectives add OWNER dummy

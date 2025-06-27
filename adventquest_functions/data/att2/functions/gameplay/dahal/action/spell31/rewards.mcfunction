@@ -16,7 +16,6 @@ execute if score @s spell31_rewards matches 100..199 run function att2:gameplay/
 execute if score @s spell31_rewards matches 100..199 run function att2:gameplay/dahal/action/spell31/coin/big2
 execute if score @s spell31_rewards matches 800..899 run function att2:gameplay/dahal/action/spell31/coin/big3
 execute if score @s spell31_rewards matches 800..899 run function att2:gameplay/dahal/action/spell31/coin/big4
-
 #diamond
 execute if score @s spell31_rewards matches 0..99 run function att2:gameplay/dahal/action/spell31/coin/diamond1
 execute if score @s spell31_rewards matches 0..99 run function att2:gameplay/dahal/action/spell31/coin/diamond2
@@ -30,5 +29,7 @@ execute if score @s spell31_rewards matches 994..999 run function att2:gameplay/
 #esc
 #execute if score @s spell31_rewards matches 0..49 run function att2:gameplay/dahal/action/spell31/coin/esc
 #execute if score @s spell31_rewards matches 950..999 run function att2:gameplay/dahal/action/spell31/coin/esc
+
+
 
 scoreboard players remove @s spell31_reward_go 1

@@ -31,7 +31,7 @@ scoreboard players operation enhancementBONUS SPDG += 100 ENHANCEMENT
 scoreboard players operation finalDG SPDG *= enhancementBONUS SPDG
 scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT
 #storage spell damage
-execute store result storage spdamage SP7 int 1 run scoreboard players get finalDG SPDG
+execute store result storage att2:sp_dmg SP7 int 1 run scoreboard players get finalDG SPDG
 #reset
 #scoreboard players reset slctlvl SPDG
 #scoreboard players reset finalDG SPDG

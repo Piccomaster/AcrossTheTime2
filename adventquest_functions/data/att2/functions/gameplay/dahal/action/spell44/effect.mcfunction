@@ -4,4 +4,4 @@
 #################################################################
 
 function att2:sound/dahal/spell44_effect
-particle minecraft:dust 1 1 1 5 ~ ~1 ~ 0 0 0 0 1 normal @s
+particle minecraft:dust{color:[1.0,1.0,1.0],scale:4.0} ~ ~1 ~ 0 0 0 0 1 normal @s

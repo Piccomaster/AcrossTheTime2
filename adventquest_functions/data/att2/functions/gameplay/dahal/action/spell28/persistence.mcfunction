@@ -3,13 +3,6 @@
 #Keep Spectral bow working   			        #
 #################################################
 
+execute as @a[scores={SPELL28_EFFECT=1..},predicate=att2_pre:dahal/spell28/hand] at @s run particle minecraft:dolphin ~ ~1 ~ 0.8 0.8 0.8 0.1 1 force
 
-execute as @a[scores={SPELL28_EFFECT=1..}] run scoreboard players remove @s SPELL28_EFFECT 1
 
-execute as @a[scores={SPELL28_EFFECT=1..}] at @s run particle minecraft:dolphin ~ ~1 ~ 0.8 0.8 0.8 0.1 1 force
-
-execute as @a[scores={SPELL28_EFFECT=60}] at @s run function att2:sound/dahal/invocation_end
-execute as @a[scores={SPELL28_EFFECT=1..60}] at @s run particle minecraft:cloud ~ ~1 ~ 0.3 0.8 0.3 0.1 1 force
-execute as @a[scores={SPELL28_EFFECT=1..20}] at @s run particle minecraft:cloud ~ ~1 ~ 0.3 0.8 0.3 0.1 4 force
-execute as @a[scores={SPELL28_EFFECT=0..1}] run function att2:gameplay/dahal/action/spell28/destroy_spectral_bow
-execute as @e[type=minecraft:item,nbt={Item:{tag:{EquipmentID:"spectralbow"}}}] run kill @s

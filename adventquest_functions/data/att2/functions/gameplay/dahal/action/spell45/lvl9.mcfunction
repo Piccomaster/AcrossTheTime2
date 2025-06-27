@@ -5,18 +5,22 @@
 
 execute as @a[distance=..9] at @s run function att2:gameplay/dahal/action/spell45/effect
 execute as @a[distance=..9] at @s run particle minecraft:angry_villager ~ ~1 ~ 1.5 1.5 1.5 0 25
-scoreboard players set @s[scores={HER_LVL_DAM=..2}] HER_LVL_DAM 2
-scoreboard players set @s[scores={HER_LVL_DAM=..2}] TIMER_HER_DAM 1750
-scoreboard players set @s[scores={STR_LVL_DAB=..6}] STR_LVL_DAB 6
-scoreboard players set @s[scores={STR_LVL_DAB=..6}] TIMER_STR_DAB 1750
+#set spell effect score
+scoreboard players operation SPELL45_HER CAL = lvl1 SPELL45_HER
+scoreboard players operation SPELL45_STR CAL = lvl1 SPELL45_STR
+scoreboard players operation SPELL45_TIMER CAL = lvl1 SPELL45_TIMER
+#TIMER
+scoreboard players operation @s SPELL45_TIMER = SPELL45_TIMER CAL
+#HER
+scoreboard players operation @s SPELL45_HER = SPELL45_HER CAL
+#STR
+scoreboard players operation @s SPELL45_STR = SPELL45_STR CAL
 ##other players
-execute at @s as @a[distance=..9] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HER_LVL_DAM=..2}] HER_LVL_DAM 2
-execute at @s as @a[distance=..9] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HER_LVL_DAM=..2}] TIMER_HER_DAM 1300
-execute at @s as @a[distance=..9] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={STR_LVL_DAB=..4}] STR_LVL_DAB 4
-execute at @s as @a[distance=..9] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={STR_LVL_DAB=..4}] TIMER_STR_DAB 1300
+execute at @s as @a[distance=0.1..9] run function att2:gameplay/dahal/action/spell45/other_player
 #effect other 
-execute at @s as @e[type=minecraft:wolf,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell45/effect_other
-execute at @s as @e[type=minecraft:iron_golem,scores={BELONG_PLAYER2=1..}] if score @s BELONG_PLAYER2 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell45/effect_other
+execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell45/effect_other
+
+#dahal
 scoreboard players remove @s DAHAL 200
 tag @a[distance=..9] add Berserk
 function att2:gameplay/dahal/action/spell45/cooldown

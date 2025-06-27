@@ -3,8 +3,8 @@
 #Obtain the magic sphere                         #
 ##################################################
 
-execute unless entity @s[nbt={Inventory:[{tag:{Spell:"spell44"}}]}] run kill @e[type=item,predicate=att2_pre:dahal/launcher/spell_44,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
+kill @e[type=item,predicate=att2_pre:dahal/launcher/spell_44,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
 
-execute unless entity @s[nbt={Inventory:[{tag:{Spell:"spell44"}}]}] run clear @s minecraft:written_book{Dahal:"book",Spell:"spell44"}
+clear @s minecraft:written_book[custom_data={Rarity:"unc",Dahal:"book",Spell:"spell44"}]
 
-execute unless entity @s[nbt={Inventory:[{tag:{Spell:"spell44"}}]}] run function att2:gameplay/dahal/action/spell44/obtain
+function att2:gameplay/dahal/action/spell44/obtain

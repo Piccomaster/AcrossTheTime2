@@ -6,7 +6,7 @@
 playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 0.1 1
 playsound piece2 block @s ~ ~ ~ 0.3 0.777
 
-scoreboard players set rar SPELL31 3
+scoreboard players operation rar SPELL31 = rar SPELL31_DATA
 scoreboard players operation rar SPELL31 *= @s SPELL31_CAP
 #from shop
 execute if predicate att2_pre:recycle/buy/rar if score rar SPELL31 matches 20.. run scoreboard players set rar SPELL31 20
@@ -33,5 +33,5 @@ function att2:gameplay/dahal/action/spell31/spell_xp
 
 #add item count
 scoreboard players operation @s spell31_count += rar SPELL31
-execute if score @s spell31_count matches 7777.. as @e[tag=GluttonPet,type=minecraft:frog] if score @a[distance=..0,limit=1] NUMEROJOUEUR = @s FOLLOW_PLAYER at @s run scoreboard players set @s spell31_reward_go 77
+execute if score @s spell31_count matches 7777.. as @e[tag=GluttonPet,type=minecraft:frog] if score @a[distance=..0,limit=1] NUMEROJOUEUR = @s OWNER at @s run scoreboard players set @s spell31_reward_go 77
 execute if score @s spell31_count matches 7777.. run scoreboard players set @s spell31_count 0

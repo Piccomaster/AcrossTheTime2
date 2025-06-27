@@ -3,4 +3,4 @@
 #Level and Cooldown	for Stock							        #
 #################################################################
 
-#scoreboard players set @s COOLDOWN20 80
+#scoreboard players operation @s COOLDOWN20 80

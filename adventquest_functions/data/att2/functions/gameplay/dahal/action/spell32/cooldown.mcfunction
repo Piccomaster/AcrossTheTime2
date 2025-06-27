@@ -3,8 +3,8 @@
 #Level and Cooldown	for Wolf							        #
 #################################################################
 
-scoreboard players set @s[scores={SPELL32_SLCT=1}] COOLDOWN32 1600
-scoreboard players set @s[scores={SPELL32_SLCT=2}] COOLDOWN32 1400
-scoreboard players set @s[scores={SPELL32_SLCT=3}] COOLDOWN32 1200
-scoreboard players set @s[scores={SPELL32_SLCT=4}] COOLDOWN32 1000
-scoreboard players set @s[scores={SPELL32_SLCT=5}] COOLDOWN32 800
+scoreboard players operation @s[scores={SPELL32_SLCT=1}] COOLDOWN32 = lvl1 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_SLCT=2}] COOLDOWN32 = lvl2 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_SLCT=3}] COOLDOWN32 = lvl3 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_SLCT=4}] COOLDOWN32 = lvl4 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_SLCT=5}] COOLDOWN32 = lvl5 COOLDOWN32

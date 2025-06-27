@@ -21,4 +21,4 @@ execute if score @s recycle_select_leg matches 1 if entity @e[type=minecraft:ite
 
 execute if score @s recycle_select_leg matches 1 if entity @e[type=minecraft:item,predicate=att2_pre:test_item/leg_armset,predicate=!att2_pre:test_item/error,distance=..2] run function att2:gameplay/dahal/action/spell31/detection/leg_armset_item
 
-execute if score @s recycle_select_ult matches 1 if entity @e[type=minecraft:item,predicate=att2_pre:test_item/ult,predicate=!att2_pre:test_item/error,distance=..2] run function att2:gameplay/dahal/action/spell31/detection/ult_item
+

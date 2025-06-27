@@ -4,7 +4,7 @@
 #################################################################
 
 scoreboard objectives add COOLDOWN25 dummy
-scoreboard objectives add BELONG_PLAYER1 dummy
+scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL25_LVL dummy
 scoreboard objectives add SPELL25_CAP dummy
 scoreboard objectives add SPELL25_MAX dummy
@@ -34,3 +34,6 @@ scoreboard players set 9 SPELL25_MAX 9
 scoreboard players set 10 SPELL25_MAX 10
 scoreboard players set 11 SPELL25_MAX 11
 scoreboard players set 12 SPELL25_MAX 12
+
+#set cooldown score | cooldown/200 -> second
+scoreboard players set lvl1 COOLDOWN25 20000

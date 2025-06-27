@@ -14,5 +14,5 @@ execute if score @a[distance=..0,limit=1] SPELL43_SLCT matches 8 run effect give
 execute if score @a[distance=..0,limit=1] SPELL43_SLCT matches 9 run effect give @s minecraft:absorption infinite 8 true
 execute if score @a[distance=..0,limit=1] SPELL43_SLCT matches 10 run effect give @s minecraft:absorption infinite 9 true
 
-execute at @s run particle minecraft:dust 0.9 0.9 0.1 1.0 ~ ~1 ~ 0.1 0.1 0.1 1 10 normal
-execute at @s run particle minecraft:dust 0.9 0.9 0.1 1.0 ~ ~1 ~ 0.2 0.1 0.2 1 10 normal
+execute at @s run particle minecraft:dust{color:[0.9,0.9,0.1],scale:1.0} ~ ~ ~ 0.1 0.1 0.1 1 10 normal
+execute at @s run particle minecraft:dust{color:[0.9,0.9,0.1],scale:1.0} ~ ~ ~ 0.2 0.1 0.2 1 10 normal

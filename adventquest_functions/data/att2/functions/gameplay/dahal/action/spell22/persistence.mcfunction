@@ -4,9 +4,9 @@
 #################################################
 
 # Particle
-execute at @e[type=minecraft:phantom,tag=ObstinacyPet1] run particle minecraft:dust 0.1 0.1 0.3 0.5 ~ ~0.5 ~ 0.1 0.1 0.1 0 3
-execute at @e[type=minecraft:phantom,tag=ObstinacyPet2] run particle minecraft:dust 0.1 0.1 0.3 0.75 ~ ~0.5 ~ 0.15 0.15 0.15 0 4
-execute at @e[type=minecraft:phantom,tag=ObstinacyPet3] run particle minecraft:dust 0.1 0.1 0.3 1 ~ ~0.5 ~ 0.25 0.25 0.25 0 5
+execute at @e[type=minecraft:phantom,tag=ObstinacyPet1] run particle minecraft:dust{color:[0.1,0.1,0.3],scale:0.5} ~ ~0.5 ~ 0.1 0.1 0.1 0 3
+execute at @e[type=minecraft:phantom,tag=ObstinacyPet2] run particle minecraft:dust{color:[0.1,0.1,0.3],scale:0.75} ~ ~0.5 ~ 0.15 0.15 0.15 0 4
+execute at @e[type=minecraft:phantom,tag=ObstinacyPet3] run particle minecraft:dust{color:[0.1,0.1,0.3],scale:1} ~ ~0.5 ~ 0.25 0.25 0.25 0 5
 
 # Make pet follow its owner
 execute as @e[type=minecraft:phantom] unless entity @s[type=minecraft:phantom,tag=!ObstinacyPet1,tag=!ObstinacyPet2,tag=!ObstinacyPet3] unless entity @s[scores={SUMMON_TIMER=1..}] run function att2:gameplay/dahal/pet/follow_owner
