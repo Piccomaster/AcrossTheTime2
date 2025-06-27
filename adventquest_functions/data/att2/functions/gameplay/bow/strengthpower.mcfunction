@@ -9,7 +9,11 @@ scoreboard players operation @s ARR_POWER2 /= 4 ARR_POWER
 scoreboard players operation @s ARR_POWER2 > 2 ARR_POWER
 scoreboard players operation @s ARR_POWER *= @s ARR_POWER2
 scoreboard players operation @s ARR_POWER /= 2 ARR_POWER
-execute at @s[scores={ARR_POWER=-2..}] as @e[nbt={pickup:1b},distance=..5,limit=1,sort=nearest,type=minecraft:arrow] run data merge entity @s {damage:0,Color:-1}
-execute at @s[scores={ARR_POWER=-2..}] as @e[nbt={pickup:1b},distance=..5,limit=1,sort=nearest,type=minecraft:spectral_arrow] run data merge entity @s {damage:0,Color:-1}
-execute at @s[scores={ARR_POWER=-2..}] as @e[nbt={pickup:2b},distance=..5,limit=1,sort=nearest,type=minecraft:arrow] run data merge entity @s {damage:0,Color:-1}
-execute at @s[scores={ARR_POWER=-2..}] as @e[nbt={pickup:2b},distance=..5,limit=1,sort=nearest,type=minecraft:spectral_arrow] run data merge entity @s {damage:0,Color:-1}
+#enchantment anchorshot damage percent
+scoreboard players operation @s ARR_POWER *= temp_value_1 CAL
+scoreboard players operation @s ARR_POWER /= 100 CAL
+scoreboard players reset temp_value_1 CAL
+#
+
+execute if score @s ARR_POWER matches -2.. at @s anchored eyes positioned ^ ^ ^ as @e[distance=..5,type=#minecraft:arrows] at @s on origin if score @s SHOOTING matches 1.. run tag @e[distance=..0,limit=1,type=#minecraft:arrows] add New_SHOOT
+execute as @e[tag=New_SHOOT] run data merge entity @s {damage:0}
