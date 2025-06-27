@@ -214,7 +214,7 @@ scoreboard objectives remove SPELLS_COUNT
 scoreboard objectives remove BONUS_XP_SPELL
 scoreboard objectives remove INVOC_DURATION
 
-scoreboard objectives remove FOLLOW_PLAYER
+scoreboard objectives remove OWNER
 
 scoreboard objectives remove COOLDOWN1
 scoreboard objectives remove SPELL1_LVL
@@ -294,12 +294,12 @@ scoreboard objectives remove SPELL24_EFFECT
 scoreboard objectives remove SPELL24_CAP
 
 scoreboard objectives remove COOLDOWN25
-scoreboard objectives remove BELONG_PLAYER1
+scoreboard objectives remove OWNER
 scoreboard objectives remove SPELL25_LVL
 scoreboard objectives remove SPELL25_CAP
 
 scoreboard objectives remove COOLDOWN26
-scoreboard objectives remove BELONG_PLAYER2
+scoreboard objectives remove OWNER
 scoreboard objectives remove SPELL26_LVL
 scoreboard objectives remove SPELL26_CAP
 
