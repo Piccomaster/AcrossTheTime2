@@ -3,24 +3,24 @@
 #Update entitydata for entity LVL 13			#
 #################################################
 
-execute as @s[scores={CLASSLEVEL=1}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:1.99},{Name:generic.max_health,Base:11.3}],Health:11.3}
-execute as @s[scores={CLASSLEVEL=2}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:1.99},{Name:generic.max_health,Base:24.57}],Health:24.57}
-execute as @s[scores={CLASSLEVEL=3}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:2.99},{Name:generic.max_health,Base:11.3}],Health:11.3}
-execute as @s[scores={CLASSLEVEL=4}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:4.33},{Name:generic.max_health,Base:47.03}],Health:47.03}
-execute as @s[scores={CLASSLEVEL=5}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:5},{Name:generic.max_health,Base:59.29}],Health:59.29}
-execute as @s[scores={CLASSLEVEL=6}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:5},{Name:generic.max_health,Base:78.69}],Health:78.69}
-execute as @s[scores={CLASSLEVEL=7}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:7.67},{Name:generic.max_health,Base:59.29}],Health:59.29}
-execute as @s[scores={CLASSLEVEL=8}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:10.34},{Name:generic.max_health,Base:104.21}],Health:104.21}
-execute as @s[scores={CLASSLEVEL=9}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:11.01},{Name:generic.max_health,Base:124.63}],Health:124.63}
-execute as @s[scores={CLASSLEVEL=10}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:11.01},{Name:generic.max_health,Base:155.27}],Health:155.27}
-execute as @s[scores={CLASSLEVEL=11}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:15.02},{Name:generic.max_health,Base:124.63}],Health:124.63}
-execute as @s[scores={CLASSLEVEL=12}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:19.53},{Name:generic.max_health,Base:206.32}],Health:206.32}
-execute as @s[scores={CLASSLEVEL=13}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:21.04},{Name:generic.max_health,Base:236.95}],Health:236.95}
-execute as @s[scores={CLASSLEVEL=14}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:21.04},{Name:generic.max_health,Base:288}],Health:288}
-execute as @s[scores={CLASSLEVEL=15}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:26.05},{Name:generic.max_health,Base:236.95}],Health:236.95}
-execute as @s[scores={CLASSLEVEL=16}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:29.06},{Name:generic.max_health,Base:339.06}],Health:339.06}
-execute as @s[scores={CLASSLEVEL=17}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:30.06},{Name:generic.max_health,Base:379.9}],Health:379.9}
-execute as @s[scores={CLASSLEVEL=18}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:30.06},{Name:generic.max_health,Base:461.58}],Health:461.58}
-execute as @s[scores={CLASSLEVEL=19}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:34.4},{Name:generic.max_health,Base:379.9}],Health:379.9}
-execute as @s[scores={CLASSLEVEL=20}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:34.4},{Name:generic.max_health,Base:563.69}],Health:563.69}
-execute as @s[scores={CLASSLEVEL=21}] run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:37.08},{Name:generic.max_health,Base:635.16}],Health:635.16}
+execute as @s[scores={CLASSLEVEL=1}] run data merge entity @s {attributes:[{id:attack_damage,base:1.99},{id:max_health,base:11.3}],Health:11.3}
+execute as @s[scores={CLASSLEVEL=2}] run data merge entity @s {attributes:[{id:attack_damage,base:1.99},{id:max_health,base:24.57}],Health:24.57}
+execute as @s[scores={CLASSLEVEL=3}] run data merge entity @s {attributes:[{id:attack_damage,base:2.99},{id:max_health,base:11.3}],Health:11.3}
+execute as @s[scores={CLASSLEVEL=4}] run data merge entity @s {attributes:[{id:attack_damage,base:4.33},{id:max_health,base:47.03}],Health:47.03}
+execute as @s[scores={CLASSLEVEL=5}] run data merge entity @s {attributes:[{id:attack_damage,base:5},{id:max_health,base:59.29}],Health:59.29}
+execute as @s[scores={CLASSLEVEL=6}] run data merge entity @s {attributes:[{id:attack_damage,base:5},{id:max_health,base:78.69}],Health:78.69}
+execute as @s[scores={CLASSLEVEL=7}] run data merge entity @s {attributes:[{id:attack_damage,base:7.67},{id:max_health,base:59.29}],Health:59.29}
+execute as @s[scores={CLASSLEVEL=8}] run data merge entity @s {attributes:[{id:attack_damage,base:10.34},{id:max_health,base:104.21}],Health:104.21}
+execute as @s[scores={CLASSLEVEL=9}] run data merge entity @s {attributes:[{id:attack_damage,base:11.01},{id:max_health,base:124.63}],Health:124.63}
+execute as @s[scores={CLASSLEVEL=10}] run data merge entity @s {attributes:[{id:attack_damage,base:11.01},{id:max_health,base:155.27}],Health:155.27}
+execute as @s[scores={CLASSLEVEL=11}] run data merge entity @s {attributes:[{id:attack_damage,base:15.02},{id:max_health,base:124.63}],Health:124.63}
+execute as @s[scores={CLASSLEVEL=12}] run data merge entity @s {attributes:[{id:attack_damage,base:19.53},{id:max_health,base:206.32}],Health:206.32}
+execute as @s[scores={CLASSLEVEL=13}] run data merge entity @s {attributes:[{id:attack_damage,base:21.04},{id:max_health,base:236.95}],Health:236.95}
+execute as @s[scores={CLASSLEVEL=14}] run data merge entity @s {attributes:[{id:attack_damage,base:21.04},{id:max_health,base:288}],Health:288}
+execute as @s[scores={CLASSLEVEL=15}] run data merge entity @s {attributes:[{id:attack_damage,base:26.05},{id:max_health,base:236.95}],Health:236.95}
+execute as @s[scores={CLASSLEVEL=16}] run data merge entity @s {attributes:[{id:attack_damage,base:29.06},{id:max_health,base:339.06}],Health:339.06}
+execute as @s[scores={CLASSLEVEL=17}] run data merge entity @s {attributes:[{id:attack_damage,base:30.06},{id:max_health,base:379.9}],Health:379.9}
+execute as @s[scores={CLASSLEVEL=18}] run data merge entity @s {attributes:[{id:attack_damage,base:30.06},{id:max_health,base:461.58}],Health:461.58}
+execute as @s[scores={CLASSLEVEL=19}] run data merge entity @s {attributes:[{id:attack_damage,base:34.4},{id:max_health,base:379.9}],Health:379.9}
+execute as @s[scores={CLASSLEVEL=20}] run data merge entity @s {attributes:[{id:attack_damage,base:34.4},{id:max_health,base:563.69}],Health:563.69}
+execute as @s[scores={CLASSLEVEL=21}] run data merge entity @s {attributes:[{id:attack_damage,base:37.08},{id:max_health,base:635.16}],Health:635.16}
