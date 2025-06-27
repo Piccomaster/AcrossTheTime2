@@ -4,7 +4,7 @@
 #################################################
 
 execute as @a at @s run function att2:sound/misc/quest_completed
-execute at @a run particle minecraft:dust 1 1 0 1 ~ ~1 ~ 1 1 1 0 100 normal
+execute at @a run particle minecraft:dust{color:[1,1,0],scale:1} ~ ~1 ~ 1 1 1 0 100 normal
 
 
 #FRENCH LANGUAGE
@@ -51,3 +51,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"< ","color":"dark_red","extra":[{"text"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"< ","color":"dark_red","extra":[{"text":"Missão concluída","color":"gold"},{"text":" >","color":"dark_red"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"< ","color":"dark_red","extra":[{"text":"任务完成","color":"gold"},{"text":" >","color":"dark_red"}]}

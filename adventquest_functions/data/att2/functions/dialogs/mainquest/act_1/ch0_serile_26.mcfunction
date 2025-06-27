@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Ele é um amigo seu?","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"他是你朋友吗？","color":"yellow","italic":true}]}

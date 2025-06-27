@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Caí em um lugar muito estranho. Tenho que encontrar uma maneira de alcançar essa anomalia temporal na outra sala, passando por esses corredores.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我掉进了一个很奇怪的地方。我必须想办法通过这些通道悄悄到达另一个房间的时间异常点。","color":"aqua"}]}

@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Tiid Klo Ul के लिए नया 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Tiid Klo Ul!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“化力解力”已升级！ ","color":"gold"}

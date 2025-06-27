@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lilith : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"Você salvou minha vida! Eu moro no final deste caminho lamacento à minha direita, nos pântanos. Venha até lá, eu mostrarei onde deixar as mercadorias.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"你真是帮大忙了！我住在沼泽右边这条泥泞小路的尽头。跟我一起回去，我会告诉你在哪里卸货。","color":"dark_aqua"}]}

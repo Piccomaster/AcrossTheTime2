@@ -53,6 +53,10 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Você é um aventureiro, eu acho? Olha, ela não é tão jovem quanto você, e acho que você deveria deixá-la fora de suas histórias.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"我猜，你是一名冒险家吧？听着，她已经上了岁数了，我觉得她不该参与你的胡闹。","color":"dark_aqua"}]}
 
 function att2:voice/ragnar/ragnar3
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_ragnar_lorth/player_answer_proposal_2
+
+

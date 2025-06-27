@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[अतीत को पीछे छ�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Deixar o passado para trás para seguir em frente]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[往者不可谏，来者犹可追]","color":"gold"}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Apressa-te! Pegue o pequeno caminho que sobe para o nordeste ao longo do palácio de Eolorion!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我们得快点！沿着Eolorion向东北方向的小路走！ ","color":"dark_aqua"}]}

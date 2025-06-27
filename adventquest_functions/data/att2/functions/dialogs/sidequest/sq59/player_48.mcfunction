@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Esta é a prova de que Mercúrio me falou... Vou ter que me preparar bem.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这是Mercurius告诉我的试炼...我得做好准备。","color":"aqua"}]}

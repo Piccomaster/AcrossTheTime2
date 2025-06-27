@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Felroth अपनी सभी जी�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Felroth recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"Felroth已然恢复如初了...","color":"gray","italic":true}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sélène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Pai, eu nunca pensei que você quisesse me procurar no seu estado...","color":"dark_green"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"父亲...我没想到你居然能找到我...","color":"dark_green"}]}

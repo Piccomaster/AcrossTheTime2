@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Seque suas lágrimas, não é sua culpa.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"把眼泪擦干净，这些事情不是你的错。","color":"dark_aqua"}]}

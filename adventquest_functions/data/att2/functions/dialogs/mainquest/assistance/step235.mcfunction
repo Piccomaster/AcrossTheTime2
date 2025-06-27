@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Certamente há um mecanismo que ativa a abertura do baú no centro da sala. Tenho que encontrar um e desbloquear os acessos para as diferentes salas.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"房间中央肯定有一种装置可以打开箱子。我必须找到并解锁一个通往不同房间的通道。","color":"aqua"}]}

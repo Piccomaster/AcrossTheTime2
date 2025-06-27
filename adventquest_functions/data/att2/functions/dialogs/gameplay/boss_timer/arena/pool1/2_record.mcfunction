@@ -26,3 +26,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"§6‖ ☼§4 पृथ्वी घट
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"§6‖ ☼§4 Tempo gasto para o Evento da Terra - Pacto de Schestrow§8:","color":"dark_red","extra":[{"score":{"name":"pool1_2_rm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_2_rs","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_2_rt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"§6‖ ☼§4 地之契约-Schestrown联盟§c用时§8:","color":"dark_red","extra":[{"score":{"name":"pool1_2_rm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_2_rs","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_2_rt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}

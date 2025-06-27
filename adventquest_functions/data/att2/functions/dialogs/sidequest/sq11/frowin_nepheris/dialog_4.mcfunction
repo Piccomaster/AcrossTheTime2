@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Frowin Nepheris : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"No momento certo, mostre-lhes o que custa saquear meu estabelecimento.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"来的真是时候，让他们看看破坏我的生意需要付出什么代价","color":"dark_aqua"}]}

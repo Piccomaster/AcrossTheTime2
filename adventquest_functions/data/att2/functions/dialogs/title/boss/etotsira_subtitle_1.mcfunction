@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"विश्व का शिक
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Caçador de mundos","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"盖世的猎者","color":"gray"}

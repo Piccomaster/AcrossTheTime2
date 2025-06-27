@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guarda : ","color":"green","extra":[{"text":"A família real de... Você não é qualquer pessoa, parece. Desculpe pela interrupção, mas nossa cidade é pobre apesar de sua aparência. Não posso permitir a entrada de mendigos e vagabundos, pois mal temos o suficiente para sobreviver ao inverno e dependemos muito do comércio para subsistir... Quer dizer, se é conhecimento que você está procurando, não poderia ter vindo a um lugar melhor! A Academia Dahäl fica na outra extremidade da cidade, de frente para as montanhas: você não pode perdê-la. Provavelmente concordarão em ajudá-lo em troca de alguns Cronotons.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"王室...看来你并非等闲之辈。很抱歉打扰了你，我们这个城市虽然外表看起来不错，实际上很贫穷。我不允许乞丐和流浪者进城，因为我们勉强才能熬过冬天，而且我们的生存极度依赖贸易……我是说，如果你渴求知识的话，你来对地方了！Dahäl学院就在城市的另一端，面朝大山：你绝不会错过的。他们可能只收取少许Chronotons就答应帮助你。”。","color":"dark_aqua"}]}

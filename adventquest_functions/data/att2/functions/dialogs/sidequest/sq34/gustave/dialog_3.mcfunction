@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° गुस्ताव : ","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Obrigado novamente pela ajuda. Mas agora você terá que nos deixar terminar esta ponte. Construir acima do vazio já não é fácil, e sobre a lava derretida, nem quero falar sobre isso...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"再次感谢你的帮助。但是你得等我们建完这座桥，建桥本身就很困难，更别说还得在这条岩浆河上面，我不想多说...","color":"dark_aqua"}]}

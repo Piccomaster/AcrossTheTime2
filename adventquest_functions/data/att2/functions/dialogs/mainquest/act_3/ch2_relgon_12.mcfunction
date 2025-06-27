@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Chegam os tempos em que os reis desaparecem no esquecimento ou no desespero.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"诸天暗淡、王权消弭之刻","color":"dark_aqua"}]}

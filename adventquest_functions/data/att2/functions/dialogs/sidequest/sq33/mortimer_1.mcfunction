@@ -57,3 +57,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"É uma amostra interessante! Como acordado, aqui estão seus Cronotons.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"多么有趣的样本！这些是事先说好的chronotons。","color":"dark_aqua"}]}

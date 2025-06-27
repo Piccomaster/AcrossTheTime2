@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Ah, aqui está o pupilo de J'zargo de volta. Ele temia vê-lo chegar e J'zargo esperava que o frio e a altitude fossem vencê-lo. Mas seus pequenos olhos de rato e seu jeito arrogante de falar são ridiculamente pequenos para que Gaya ponha fim à sua existência miserável...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"哦，J'zargo的学徒回来了。他害怕看到他来，并且J'zargo希望寒冷和高海拔能击败他。但他那双小老鼠似的眼睛和他傲慢的说话方式太傻了，Gaya也没有措辞能形容他这种悲惨的存在。","color":"dark_aqua"}]}

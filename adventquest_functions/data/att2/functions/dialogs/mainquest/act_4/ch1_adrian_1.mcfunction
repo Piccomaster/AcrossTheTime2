@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Aqui está ele finalmente! Desculpe, eu quis dizer, você é quem ativou o portal?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"他可算来了，啊真不好意思，我的意思是，你是那个激活传送门的人？ ","color":"dark_aqua"}]}

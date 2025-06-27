@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"अंधकार का से
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Servo das trevas, a ilusão mortal","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"暗之仆从，不灭幻象","color":"gray"}

@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Encontrei a gema mas ela caiu e agora está bloqueada por um mecanismo. É certamente algum tipo de proteção... Tenho que encontrar uma maneira de fazer cair todos os cristais de esmeralda dessas estruturas gigantes! A porta da torre noroeste abriu, devo começar por aí...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我看见了时间宝石，但它坠落下去并且被什么东西挡住了。这肯定是某种保护装置...我必须想办法让所有塔楼里的巨型绿宝石块掉下来！通往西北翼塔楼的门已经打开，看样子我得先从那里开始...","color":"aqua"}]}

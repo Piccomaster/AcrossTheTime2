@@ -41,3 +41,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- पैट्रिक को ल�
 
 # Portugais
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Patrick está sem madeira -°- : ","color":"gray","extra":[{"text":"Finalmente tenho a madeira que Patrick quer. Agora só preciso levá-la de volta para ele em Ryliath, em sua loja, e receber minha recompensa por esta missão.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Patrick 缺少木头 -°- : ","color":"gray","extra":[{"text":"我拿到了Patrick需要的木头。把这些木头带回Ryliath看看他会给我什么好处","color":"aqua","italic":true}]}

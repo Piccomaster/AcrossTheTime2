@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não sei se essa coisa está morta, mas é certo que destruí um gerador importante. Tenho que sair deste lugar muito rápido!!","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我不知道这东西是不是死了，但可以肯定的是，我摧毀了一个重要的能源核心。我必须尽快离开这个地方！！ ","color":"aqua"}]}

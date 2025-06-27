@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"Oh, você é um entregador, que ridículo, você não parece nada disso. Então não hesite se mudar de ideia.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"哦？你是送货员？这太荒唐了，看起来一点也不像。如果你想改变主意的话，那就不要犹豫了。","color":"dark_aqua"}]}

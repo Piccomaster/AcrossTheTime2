@@ -47,3 +47,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui estão os explosivos, vamos pegar o resto e levar de volta para Gregor.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"找到炸药了。休息一会儿然后回去带给Gregor吧","color":"aqua"}]}

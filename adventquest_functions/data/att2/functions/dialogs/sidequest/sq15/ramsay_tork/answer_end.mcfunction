@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ramsay Tork : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Maravilhoso, posso voltar ao trabalho. Aqui está sua recompensa!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"太好了，我可以回去工作了。这是你的酬劳！","color":"dark_aqua"}]}

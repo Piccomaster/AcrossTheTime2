@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Meu nome é ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":", mas me chamam de herói em Tellurön.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我的名字是","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":",但是他们都叫我Tellurön的英雄。","color":"aqua"},{"text":", ","color":"aqua"}]}

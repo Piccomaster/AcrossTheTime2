@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° गार्ड : ","color":"gre
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Guardião : ","color":"green","extra":[{"text":"Você sabia que o exército do rei está recrutando? Homens fortes como você seriam um grande trunfo em nossas fileiras... Você não se importa, não é? Não importa, você é bem-vindo a qualquer momento nestes lugares. Venha treinar aqui regularmente como os soldados para testar sua força na arena contra manequins inofensivos, e talvez você mude de ideia.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"你知道国王现在正在征兵吗 像你这样骨骼精奇的人一定会是成为军队里的宠儿的...不感兴趣？没关系，这儿随时欢迎你的到来。和那些士兵一样时不时来这儿的训练场打打傀儡，练练自己的技术，没准什么时候就改变主意了呢。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Entre agora. As gemas do tempo estão expostas no prédio.","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"进去吧。时间宝石就在这里面。","color":"yellow","italic":true}]}

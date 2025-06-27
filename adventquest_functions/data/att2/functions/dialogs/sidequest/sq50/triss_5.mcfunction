@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Não, encontre-o e ajude-o até que ele consiga o que está procurando ou acabe desistindo...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"并不，找到他并且协助他，直到他得到他正在寻找的东西，或者他最终放弃...","color":"dark_aqua"}]}

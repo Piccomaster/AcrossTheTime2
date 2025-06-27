@@ -53,6 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"gray","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","extra":[{"text":"Você é apenas a sombra do que já foi um dia!","color":"yellow","italic":true}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"你如今只是昔日辉煌之影，你不会是他！ ","color":"yellow","italic":true}]}
 
 
 function att2:voice/serile/serile52
+

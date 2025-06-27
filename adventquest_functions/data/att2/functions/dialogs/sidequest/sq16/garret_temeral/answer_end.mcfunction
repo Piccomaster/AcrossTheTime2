@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Garret : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Você conseguiu! Finalmente seremos capazes de reabastecer nossas tropas. O exército Eternän está mais uma vez em dívida com você! E aqui está um pouco do que nos resta para te agradecer.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"你做到了！我们终于可以补给我们的军队了。Eternän军队再次感谢您！这是我们为你准备的报酬。","color":"dark_aqua"}]}

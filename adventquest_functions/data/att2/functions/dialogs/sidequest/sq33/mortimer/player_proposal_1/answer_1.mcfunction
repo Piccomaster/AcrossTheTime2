@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Tem certeza? Muito bem, vamos fazer assim. Traga-me amostras de estruturas antigas das diferentes regiões de Sylberländ e eu lhe pagarei de acordo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"你确定？太好了，那就这样吧。把Sylberländ大陆不同地区的石阵样本带给我，我会给你相应的报酬。","color":"dark_aqua"}]}

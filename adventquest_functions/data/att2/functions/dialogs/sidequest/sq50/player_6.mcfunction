@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Olá, um aprendiz reclamou sobre queixas de J'zargo. Eu gostaria de falar com ele, e ouvi dizer que você sabe onde ele está...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你好，一个学徒向我抱怨了对J'zargo的不满。我想询问一下他，听说你知道他在哪里...","color":"aqua"}]}

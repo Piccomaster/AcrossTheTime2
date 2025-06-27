@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"आपके पास यह �
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Você já possui este feitiço.","color":"red"}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"你已拥有此法术","color":"red"}

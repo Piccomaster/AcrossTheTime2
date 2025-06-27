@@ -62,6 +62,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Brutus : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"*Sussurrando* Eu não sou realmente daqui, bendito seja você se nunca precisar conhecer o exílio... Finalmente, vou ajudá-lo: a oeste da aldeia, há um bosque cheio de vegetação.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（耳语）我不是这里的人，希望你永远不会知道背井离乡是什么感觉...让我帮你一把吧： 你得去寨子的西侧，那有个杂草丛生的小树林...","color":"dark_aqua"}]}
 
 function att2:voice/brutus/brutus2
 function att2:dialogs/mainquest/act_2/pnj_brutus/player_answer_proposal_2
+

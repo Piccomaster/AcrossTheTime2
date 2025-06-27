@@ -42,3 +42,6 @@ title @a[scores={LANGUAGE=9}] actionbar {"text":"~ ","color":"dark_red","extra":
 
 #PORTUGUESE LANGUAGE
 title @a[scores={LANGUAGE=10}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"Torneio : ","color":"gray"},{"text":"4","color":"red"},{"text":"/","color":"gray"},{"text":"5","color":"gold"},{"text":" - ","color":"dark_gray"},{"text":"Arena : ","color":"gray"},{"score":{"name":"Pool3","objective":"ARENA"},"color":"red"},{"text":"/","color":"gray"},{"text":"1","color":"gold"},{"text":" ~","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @a[scores={LANGUAGE=11}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"锦标赛 : ","color":"gray"},{"text":"4","color":"red"},{"text":"/","color":"gray"},{"text":"5","color":"gold"},{"text":" - ","color":"dark_gray"},{"text":"挑战 : ","color":"gray"},{"score":{"name":"Pool3","objective":"ARENA"},"color":"red"},{"text":"/","color":"gray"},{"text":"1","color":"gold"},{"text":" ~","color":"dark_red"}]}

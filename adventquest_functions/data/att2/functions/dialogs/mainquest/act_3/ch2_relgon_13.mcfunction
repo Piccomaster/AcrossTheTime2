@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Como nas horas mais sombrias deste mundo onde velhas vinganças são reavivadas.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"黑暗会挣脱荒古覆盖于今","color":"dark_aqua"}]}

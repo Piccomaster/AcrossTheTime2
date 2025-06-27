@@ -62,3 +62,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","ext
 function att2:dialogs/sidequest/sq35/nestor/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq35/nestor/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq35/nestor/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"抱歉，我没法帮你，我目前正在处理一个...邻里...问题。但是我听说最近有一个倾尽全力帮助别人的人来到了这片地区。如果你是那个人的话，我这里有一个困难想请你帮忙！ ","color":"dark_aqua"}]}

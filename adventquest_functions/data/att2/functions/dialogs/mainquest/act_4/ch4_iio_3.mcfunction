@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Iio : ","color":"yellow","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"Não há nada que você possua que ele possa realmente roubar. Porque seu valor está em seu coração de ouro e não em suas propriedades materiais.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"你没有什么是他能真正偷走的。因为你的勇气留在你黄金般的心中，而不是在那些物质财产里","color":"dark_aqua"}]}

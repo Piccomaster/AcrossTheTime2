@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Romuald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Oi meu amigo, estou tão feliz agora, você não pode imaginar. Sou eternamente grato por você ter trazido Mia e toda a sua família. Agora, estou me perguntando qual cachorro pode ser o pai dos filhotes dela...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"嗨，我的朋友，你知道吗？我现在很高兴。我永远感谢你把Mia和她的家人带给我，现在我想知道哪只狗可以成为她小狗的父亲...","color":"dark_aqua"}]}

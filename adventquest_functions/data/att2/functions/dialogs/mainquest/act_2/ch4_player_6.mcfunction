@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A estrada está bloqueada aqui, vou ter que voltar e fazer um pequeno desvio para o norte para chegar a Méleïm.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"道路被封死了，看样子得掉头沿另外一条路往北走才能去Méleïm了...","color":"aqua"}]}

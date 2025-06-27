@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"O que é este... lugar estranho?! Consigo ver um portal na sala ao lado, preciso encontrar uma maneira de sair daqui.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这...这是什么鬼地方？！我可以看到通往隔壁房间的传送门，我得想办法离开这里。","color":"aqua"}]}

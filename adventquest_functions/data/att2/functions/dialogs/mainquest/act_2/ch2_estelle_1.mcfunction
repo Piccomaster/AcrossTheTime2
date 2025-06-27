@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° एस्टेल: ","color":"g
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Estelle: ","color":"green","extra":[{"text":"Com certeza, eu me divertiria, mas com um garçom irresponsável e egoísta, eu duvido...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Estelle : ","color":"green","extra":[{"text":"我确实得找个乐子，但由像你这样不负责任且自私的服务员来干这差事，我对能否完成持怀疑态度...","color":"dark_aqua"}]}

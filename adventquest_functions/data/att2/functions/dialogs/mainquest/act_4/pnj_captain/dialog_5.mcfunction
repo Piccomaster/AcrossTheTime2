@@ -58,5 +58,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Se você está planejando se mudar para Eolorion, ficaríamos felizes em tê-lo conosco!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 队长 : ","color":"green","extra":[{"text":"如果您打算来到Eolorion定居，我们将夹道迎接！","color":"dark_aqua"}]}
 
 function att2:voice/capitaine/capitaine_dialogue5
+

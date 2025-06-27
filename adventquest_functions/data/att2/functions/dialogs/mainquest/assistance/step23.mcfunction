@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Preciso encontrar três pequenas chaves para abrir a porta do templo. Vou ter que dar uma olhada mais de perto naquelas torres ali no pântano.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我需要找到三把钥匙打开神殿的大门—先去看看它们有没有被藏在沼泽里的那些塔楼中吧。","color":"aqua"}]}

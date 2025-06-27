@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"अडिग रक्षक, �
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Protetor infalível, O último bastião","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"最后的防线，坚如磐石的守护者","color":"gray"}

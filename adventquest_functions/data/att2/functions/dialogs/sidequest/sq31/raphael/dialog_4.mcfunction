@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Raphaël : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"Obrigado novamente pela ajuda!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"感谢你的帮助！ ","color":"dark_aqua"}]}

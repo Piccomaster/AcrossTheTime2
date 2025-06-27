@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Babbu : ","color":"green","extr
 
 function att2:dialogs/sidequest/sq40/babbu/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq40/babbu/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"你知道我负责的是什么吗？听到这个消息你会很高兴的：你是一笔极易盈利生意的首位投资者-‘捕虾’-虾是大海的果实。你可以烧烤，水煮，烘培，油炸，爆炒。当然还可以做成，虾肉烤串，creole风味虾，虾秋葵汤。煎、炸、炒都可以。还能做成菠萝虾、柠檬虾、椰子虾、胡椒虾、虾汤、虾炖、虾沙拉、土豆虾、虾汉堡、虾三明治。呃...就这些了。对了，我发现了一些你可能感兴趣的东西。","color":"dark_aqua"}]}

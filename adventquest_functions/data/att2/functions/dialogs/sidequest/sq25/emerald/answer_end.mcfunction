@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Você encontrou o casaco dela? Então este caminho é o correto. Ela segue os passos da mãe dela e o trilho leva ao cemitério de Adanoï perto da cidade de Méleïm na costa leste. Talvez nos encontremos novamente. Boa sorte, senhor.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你找到她的夹克了？看来这条线索是正确的。她正在追寻着她母亲的脚步，这条路通往东海岸meleim镇附近的Adanoi公墓。也许我们会再次相遇。祝你好运，先生。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Muito bem, preciso encontrar esse Raphaël para Marlène. Ele é responsável pelo fornecimento e geralmente vai de Ryliath a Eolorion. Tenho que verificar a rota principal por onde subi para Eolorion, pode ter sido atacado ou ter tido um problema no caminho ...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好，我现在得帮Marlene找到Raphael。负责供给的Raphael通常会坐马车往返于Ryliath和Eolorion。我必须沿来Eolorion时的路线看看， 没准他在半路上受到了袭击，或是遇上了什么别的问题...","color":"aqua"}]}

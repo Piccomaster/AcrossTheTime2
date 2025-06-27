@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lioras : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Então você ainda está procurando por esses passagens secretas subterrâneas? Se você esqueceu a receita rúnica, eu te lembro: ","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". Vou deixar você continuar, eu fico aqui. Prefiro caçar segredos do que monstros que mordem menos...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"你还在寻找这些秘密的地下通道吗？如果你忘了符文配方，我会告诉你的：","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":"你可以继续搜寻了，但是我会留在这里。我宁愿搜寻情报，也不想被怪物咬屁股...","color":"dark_aqua"}]}

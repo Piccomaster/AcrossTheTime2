@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- अतीत के अवशे�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Os vestígios do passado -°- : ","color":"gray","extra":[{"text":"Encontrei uma chave em um baú perdido no deserto de Nojélanth. Certamente deve abrir um local em Nojélanth no passado.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 过去的遗址 -°- : ","color":"gray","extra":[{"text":"我在Nojelanth山脚下那片沙漠里找到了一个古老的箱子，里面的钥匙应该能开启过去的某个秘密。","color":"aqua","italic":true}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mercurius : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"Pressione o botão atrás de mim e... não resista, você economizará tempo. Ah, sugiro que você também tire toda a sua armadura.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"按下我身后的按钮…不要抵抗以便节省你的时间。哦，我建议你把所有的盔甲也脱下来。","color":"dark_aqua"}]}

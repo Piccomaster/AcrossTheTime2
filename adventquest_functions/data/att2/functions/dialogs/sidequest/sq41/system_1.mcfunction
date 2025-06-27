@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"François अपनी सभी ज़
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"François recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"François恢复了他所有的力量...","color":"gray","italic":true}

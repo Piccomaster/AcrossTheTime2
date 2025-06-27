@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Agora estamos na frente da estalagem. Aqui você poderá alugar um quarto para armazenar algumas de suas coisas e descansar.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"我们现在正站在酒店前面。你可以在这租间房来储存你的一些个人物品，以及休养生息。","color":"dark_aqua"}]}

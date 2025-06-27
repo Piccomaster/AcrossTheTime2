@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O aluno deve permanecer em silêncio, J'zargo precisa explicar a ele o que eles precisarão fazer juntos.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"这学徒应当保持安静，J'zargo必须向他解释他们需要一起做什么。","color":"dark_aqua"}]}

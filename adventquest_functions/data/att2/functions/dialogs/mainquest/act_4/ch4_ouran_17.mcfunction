@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Mãe! O estranho desrespeitoso e malvado me roubou e está tentando me machucar novamente!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"母亲！那个无礼又卑鄙的陌生人劫持了我，而且他还想再次伤害我！ ","color":"dark_aqua"}]}

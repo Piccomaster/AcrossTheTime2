@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Que vento poderoso, não poderei entrar enquanto estiver aí... Pergunto-me para onde ele me levará se eu o parar ou inverter...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好强力的风，它不消散我就无法进入此地...但如果我能关闭它或者改变它吹拂的方向， 它又会把我带到哪里去呢...","color":"aqua"}]}

@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Rob Harth : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Ótimo! Que alívio, finalmente livre desses monstros. Aqui estão alguns Chronotons para você!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"太好了！真是松了口气，终于摆脱了这些怪物。这是给你的Chronotons！","color":"dark_aqua"}]}

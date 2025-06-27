@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड : ","color":"gre
 
 #PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guardião : ","color":"green","extra":[{"text":"Você não pode passar! Minha missão é vigiar a área, nós cercamos a área porque monstros estavam vindo por essa passagem!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"禁止通行！我的任务是看守这片区域—因为道路有怪物出没，所以我们封锁了这里。","color":"dark_aqua"}]}

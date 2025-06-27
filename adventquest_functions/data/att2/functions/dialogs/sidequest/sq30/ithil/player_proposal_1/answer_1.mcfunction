@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Jaris : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Nos veremos novamente, meu amor! Não se preocupe, tudo vai dar certo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"我们一定会再次相见的，我的爱人！别担心，一切都会好起来的！","color":"dark_aqua"}]}

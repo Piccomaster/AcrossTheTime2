@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Espere! Ele não roubou esses planos com uma intenção ruim, ele fez isso por mim... Tudo é minha culpa! Sou eu a responsável...","color":"blue"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"！等等！他不是恶意去偷走这些设计图，他是为了我才这样的，都是我的错...是我让他去偷的！...","color":"blue"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hurriel Sun : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Ah, entendi. Acho que estava enganado sobre suas motivações. É melhor você sair desta casa antes que eu o transforme em um tolo miserável.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"哦，我明白了，我想我搞错了你的动机，在我把你变成一个糟糕的傻瓜之前，你最好离开这所房子。","color":"dark_aqua"}]}

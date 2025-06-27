@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"A pesquisa está progredindo bem? Se você esqueceu, deve encontrar monólitos antigos em toda a região de Sylberländ. Os elementos a serem devolvidos a mim são simplesmente pedaços de pedras cortadas, de preferência.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"探索过程还顺利吗？你得在整个Sylberländ大陆寻找这些古老的石头，最好带回来那种切割过的石头样本。","color":"dark_aqua"}]}

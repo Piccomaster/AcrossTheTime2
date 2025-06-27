@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rena Sun : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Saia deste templo, por favor...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"请离开这座寺庙...","color":"dark_aqua"}]}

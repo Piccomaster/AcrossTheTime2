@@ -8,47 +8,47 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Détruire le campement de bandits ! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"Cliquez ici - réponse 2"}}]}
+tellraw @a[scores={LANGUAGE=0},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Détruire le campement de bandits ! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"Cliquez ici - réponse 2"}}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Destroy the bandit encampment! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"Click here - answer 2"}}]}
+tellraw @a[scores={LANGUAGE=1},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Destroy the bandit encampment! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"Click here - answer 2"}}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[摧毀強盜營地！ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}
+tellraw @a[scores={LANGUAGE=2},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[摧毀強盜營地！ -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}
 
 
 #JAPANESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=3},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[盗賊のキャンプを破壊せよ！ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"ここをクリック - 回答 2"}}]}
+tellraw @a[scores={LANGUAGE=3},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[盗賊のキャンプを破壊せよ！ -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"ここをクリック - 回答 2"}}]}
 
 #KOREAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=4},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[도적 캠프를 파괴하라! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"여기를 클릭하세요 - 답변 2"}}]}
+tellraw @a[scores={LANGUAGE=4},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[도적 캠프를 파괴하라! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"여기를 클릭하세요 - 답변 2"}}]}
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[دمر معسكر اللصوص! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"انقر هنا - الإجابة 2"}}]}
+tellraw @a[scores={LANGUAGE=5},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[دمر معسكر اللصوص! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"انقر هنا - الإجابة 2"}}]}
 
 #RUSSIAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=6},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Уничтожить лагерь разбойников! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"Нажмите здесь - ответ 2"}}]}
+tellraw @a[scores={LANGUAGE=6},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Уничтожить лагерь разбойников! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"Нажмите здесь - ответ 2"}}]}
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[¡Destruir el campamento de bandidos! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 2"}}]}
+tellraw @a[scores={LANGUAGE=7},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[¡Destruir el campamento de bandidos! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"Haz clic aquí - respuesta 2"}}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Zerstöre das Banditenlager! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"Hier klicken - Antwort 2"}}]}
+tellraw @a[scores={LANGUAGE=8},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Zerstöre das Banditenlager! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"Hier klicken - Antwort 2"}}]}
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[डाकू के शिविर को नष्ट करो! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"यहाँ क्लिक करें - उत्तर 2"}}]}
+tellraw @a[scores={LANGUAGE=9},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[डाकू के शिविर को नष्ट करो! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"यहाँ क्लिक करें - उत्तर 2"}}]}
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Destrua o acampamento dos bandidos! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 2"}}]}
+tellraw @a[scores={LANGUAGE=10},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Destrua o acampamento dos bandidos! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 2"}}]}

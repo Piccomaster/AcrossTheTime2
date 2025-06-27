@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Deve haver um mecanismo no porão para desativar as portas principais de entrada. Tenho que prestar atenção à temporalidade em que me encontro...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"地下室肯定有一个机关是用来开关主入口门的。我必须注意一下在不同时间中观察这里能否给我一些提示...","color":"aqua"}]}

@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Perfeito, os Pelzion são meus! Agora posso planar para onde quiser graças a esta ferramenta. Vamos testá-los primeiro para sair desta torre...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"干的漂亮，这下Pelzions是我的了！现在我可以借助它飞到任何我想去的地方。在此之前，先让我尝试用它离开这座塔...","color":"aqua"}]}

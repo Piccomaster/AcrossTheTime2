@@ -56,3 +56,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"gre
 scoreboard players set philipo_tisdal_PNJ DIALOG 2
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"嘿，这里有个想找任务的旅行者！你来的正好，我现在负担很多：我必须独自管理我的农场，因为我的妻子...去世了...但是，这些恶心的老鼠把我的南瓜啃得稀烂！它们生命力很顽强，并且繁殖速度很快! 我不知道该怎么才能赶走它们。你能帮我清理它们吗？我会用一些Chronotons作为回报。 ","color":"dark_aqua"}]}

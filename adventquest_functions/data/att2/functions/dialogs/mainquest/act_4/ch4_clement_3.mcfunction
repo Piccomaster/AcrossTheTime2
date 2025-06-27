@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Clément : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"Ei! Você possui uma arma, você deve ser um guerreiro! Deixe-me levá-lo para encontrar Alréan, líder e anciã da vila. Ela oferecerá a você uma hospitalidade muito melhor do que a minha.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"嘿！你带着武器，你一定是位战士吧！让我带你去见Alrean，她是村子的领袖和长者。她会比我更热情地招待你。。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Decidiu aceitar minha ajuda? Muito bem, comece indo ao parlamento. Lá, você encontrará um museu: você precisa coletar três pedras conhecidas como ''gema do tempo''. Eu abrirei as portas do parlamento para você... Explicarei o resto depois.","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"你决定接受我的帮助了吗？那好，首先你得前往议会；然后，你会在议会大楼里发现一座博物馆。你需要在博物馆里面找到三块名为“时间宝石”的宝石。我会为你打开议会大楼的大门...剩下的待会再说。","color":"yellow","italic":true}]}

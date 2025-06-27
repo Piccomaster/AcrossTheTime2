@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'zargo... Não sei qual força me impediu de quebrar cada um dos seus dedos, cortar seus tornozelos e deixá-lo agonizando em um abismo...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'zargo...我不知道是哪种力量在阻止我去一根根掰断你的手指，将你的踝关节切断，让你在冰层的裂隙之中痛苦地挣扎...","color":"aqua"}]}

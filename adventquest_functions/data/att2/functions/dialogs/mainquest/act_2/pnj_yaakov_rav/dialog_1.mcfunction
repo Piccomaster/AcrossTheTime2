@@ -52,5 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Bem-vindo à minha humilde casa, estranho.... Se você está interessado em Dahäl, eu vendo todos os tipos de livros de encantamentos. Então, como posso ajudá-lo?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"小友，欢迎光临寒舍...如果你对Dahäl感兴趣的话，我这正好有卖各种各样的的法术书。那么，你有什么需要么？","color":"dark_aqua"}]}
+
 function att2:voice/yaakov/yaakov1
 function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_1

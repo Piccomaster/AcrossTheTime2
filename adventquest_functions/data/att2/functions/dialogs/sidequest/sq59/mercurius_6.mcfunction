@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mercurius : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"Ela está perto e, ao mesmo tempo, muito longe daqui... Vamos continuar otimistas: se você conseguiu chegar aqui, isso significa que você se conhece bem o suficiente para encontrar uma maneira de chegar lá.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"那个地方既近又远，仿佛触手可及却又遥不可及…不过，让我们保持乐观的心态看问题：既然你能够来到这里，就意味着你已经足够了解自己，有能力找到通往那里的道路。","color":"dark_aqua"}]}

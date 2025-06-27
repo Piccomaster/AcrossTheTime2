@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Deixei cair a primeira esmeralda. Ela ativou a abertura da porta na entrada da torre sudoeste. Agora só tenho que ir...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我成功降下了第一块巨型绿宝石。看样子西南翼塔楼的入口大门因此打开了，那接下来要去哪已经显而易见了...","color":"aqua"}]}

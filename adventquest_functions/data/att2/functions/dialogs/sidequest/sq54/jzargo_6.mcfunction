@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo não entende de qual casa o aluno está falando. O idiota deve achar que J'zargo vive com ele...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo不明白学徒说的是哪个家，这个白痴一定以为J'zargo和他住在一起...","color":"dark_aqua"}]}

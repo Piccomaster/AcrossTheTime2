@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Ajuda? J'zargo não precisa de ninguém, e especialmente não de um ignorante. Oh, mas J'zargo entende, o idiota está procurando alguém para ensinar-lhe as coisas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"帮助？J'zargo不需要任何人的，尤其不需要一些愚昧无知的人的帮助。哦，J'zargo明白了，这个白痴正在找人教他一些东西。","color":"dark_aqua"}]}

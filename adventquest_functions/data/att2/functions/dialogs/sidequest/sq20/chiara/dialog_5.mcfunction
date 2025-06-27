@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Olha quem voltou! Deixe o saque aqui.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"看谁回来了！快把我们的战利品放在这里。","color":"dark_aqua"}]}

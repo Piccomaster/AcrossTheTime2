@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Babbu : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Olá, ainda está tudo bem? Espero que o mapa tenha sido útil de alguma forma.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"嗨，进行的还顺利吗？希望我的地图对你有用。","color":"dark_aqua"}]}

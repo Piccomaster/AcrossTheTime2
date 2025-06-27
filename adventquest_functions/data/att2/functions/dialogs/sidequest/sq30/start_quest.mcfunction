@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[एक रहस्यमय चोर
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Um roubo misterioso]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[神秘盗窃案]","color":"gold"}

@@ -60,5 +60,7 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Você terá entendido: pela destruição, nenhum herói surge. Salvando-a, você também se salva...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你终会明白：毁灭无法成就英雄。拯救她，你也在救赎自己...","color":"dark_aqua"}]}
 
 function att2:voice/etotsira/etotsira59

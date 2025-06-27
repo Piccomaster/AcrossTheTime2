@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pronto! Esse Myrath falou sobre um ladrão, é certamente a pessoa que Emerald está procurando. Vamos pegar o restante do conteúdo do baú e levar a notícia a ele.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"解决了！这个Myrath说的贼，肯定是Emerald要找的人。我得把箱子里剩下的东西拿走，把这些消息告诉Emerald。","color":"aqua"}]}

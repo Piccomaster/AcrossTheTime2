@@ -55,3 +55,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 
 function att2:voice/namrin/namrin_sidequest16
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"...所以这是真的吗？我只知道一种方法来证明这个事情。我必须带你去一个地方。现在王冠放在这里是安全的，我绝对不想带着他它和你去我想带你去的地方。","color":"dark_aqua"}]}

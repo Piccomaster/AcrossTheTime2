@@ -64,6 +64,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Nós veremos, miúdo!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"走着瞧，卑贱的凡夫俗子！","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/aoran/aoran14

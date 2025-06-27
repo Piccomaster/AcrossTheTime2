@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Calypso : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"Eu entendo, mas parece que esta coisa não é um portal como os outros. Não tem nada a ver com o que você abriu há 4 anos.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"我明白了，但看起来这个东西并不像其他的传送门。它与你四年前打开的那个看着毫无关联。","color":"dark_aqua"}]}

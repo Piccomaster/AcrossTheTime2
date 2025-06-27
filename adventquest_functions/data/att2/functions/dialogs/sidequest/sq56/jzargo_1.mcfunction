@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O que?? O que o aluno está fazendo aqui? J'zargo desejava nunca mais ver esse sub-humano ignorante, barulhento e fedido!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"什么？？学徒在这里做什么？J'zargo希望永远不要看到这个无知、吵闹还臭气熏天的的下等人！","color":"dark_aqua"}]}

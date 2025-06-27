@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ormack : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"Saia da minha casa!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"那就滚出我家！","color":"dark_aqua"}]}

@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Agora eu repeli o ataque dos monstros em Eolorion, mas tenho que verificar se todos estão mortos...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已经击退了袭击Eolorion的怪物，但我得先看看它们是不是都死透了...","color":"aqua"}]}

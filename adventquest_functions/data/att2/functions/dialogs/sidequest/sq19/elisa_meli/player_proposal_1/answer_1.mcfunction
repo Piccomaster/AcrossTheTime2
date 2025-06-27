@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Elisa Meli : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"Que perspicácia... Aquela ladra é minha irmã, a vadia. Você está aqui por ela, hein, para me dizer que ela também rouba minhas maçãs?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"你的直觉也太敏锐了...我的姐姐是个小偷，那个臭婊子。你是为了她而来的吧，嗯？是不是想告诉我她也偷了我的苹果？ ","color":"dark_aqua"}]}

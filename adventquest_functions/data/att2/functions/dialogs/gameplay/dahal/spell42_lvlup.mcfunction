@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"चिकित्सा का नय�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Cura!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“治愈”已升级！","color":"gold"}

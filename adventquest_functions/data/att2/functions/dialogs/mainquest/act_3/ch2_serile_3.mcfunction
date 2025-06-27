@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"yellow","ex
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"... Precisamos voltar para o acampamento. Nos encontramos lá.","color":"dark_aqua","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"...我们必须回去了。营地见。","color":"dark_aqua","italic":true}]}

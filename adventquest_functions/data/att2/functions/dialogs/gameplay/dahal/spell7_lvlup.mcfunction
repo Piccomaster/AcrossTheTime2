@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Geyser के लिए नया स�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Gêiser!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“热泉”已升级！ ","color":"gold"}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Patrick Corth : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Vamos lá, não seja tão negativo, pelo menos você é pago para respirar um pouco de ar fresco!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"来吧，不要那么消极，至少你还可以呼吸新鲜空气！","color":"dark_aqua"}]}

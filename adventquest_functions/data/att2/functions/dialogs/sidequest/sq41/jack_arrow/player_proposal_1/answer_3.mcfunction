@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° जैक एरो : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Não há mais nenhum tesouro aqui, os piratas de Asunark roubaram tudo de nós! Por favor, não queremos problemas, já tivemos o suficiente... Espere, posso te mostrar o lugar onde um dos seus navios encalhou contendo um grande prêmio. O naufrágio está localizado ao sul daqui, na costa. Não é fácil de alcançar, por isso tenho certeza de que ninguém o roubou ainda.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"这里的宝藏早就被Asunark的海盗们全都抢走了！！求你了，我们已经受够了这样的日子，也不想惹什么麻烦...不过他们有一艘装着许多宝藏的船沉在了海底，我可以告诉你这艘船沉船的位置—从这里走到最南处的海岸，在里海岸不远的深海峡谷中就能找到了。这艘船的位置十分偏僻，我坚信至今不会有别人发现它。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Iio : ","color":"yellow","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"Esse é o meu Aoran. Tão compreensivo e paciente. Entre todos os meus filhos, você é definitivamente o meu favorito!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"这才是我的Aoran。如此善解人意又充满耐心。在我所有的孩子中，你绝对是我最喜欢的那个！ ","color":"dark_aqua"}]}

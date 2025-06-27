@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Espere um minuto. Vonaheim já está na posse da gema. Você terá que enfrentá-lo...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"等一下，Vonaheim已经拿到了那颗宝石。你将不得不面对他...","color":"dark_aqua"}]}

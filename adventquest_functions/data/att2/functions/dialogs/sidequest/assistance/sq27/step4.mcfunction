@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक यात्रा का �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O Fim de uma Jornada -°- : ","color":"gray","extra":[{"text":"Eu descobri, eu tenho que ir para Eolorion agora para encontrar Esmeralda. Ele me disse que estaria na estalagem.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"一路上的疑问更多了，我还是得去Eolorion看看。和Emerald在那边的旅店见面吧","color":"aqua","italic":true}]}

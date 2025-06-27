@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lucas : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Não tenho dúvida, perdoe-me se às vezes me deixo flutuar ao sabor do vento. Então, você deseja voar?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"我毫不怀疑，请原谅我有时让自己随风飘荡。那么，你想要飞翔吗？ ","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"*preocupado* Eu perdi muito tempo em Ouranos. As notícias que você está me dando são terríveis! Preciso urgentemente voltar para o meu mundo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"*不安*我在Ouranos浪费了太多时间。你告诉我的消息真的太糟糕了！ 我得赶紧回去！","color":"dark_aqua"}]}

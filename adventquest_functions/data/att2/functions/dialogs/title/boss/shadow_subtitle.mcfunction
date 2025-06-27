@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"अवर्णनीयता �
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Flagelo do vazio, o anacoreta desencarnado","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"虚之祸根，无之隐者","color":"gray"}

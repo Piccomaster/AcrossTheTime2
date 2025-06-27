@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Korlaph : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"Lucimène, estou vindo para me juntar a você...","color":"dark_red"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"Lucimène，我来找你了...","color":"dark_red"}]}

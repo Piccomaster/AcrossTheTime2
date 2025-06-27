@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Relgon, certo?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Relgon，对吧？","color":"dark_aqua"}]}

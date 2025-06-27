@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Babbu : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Tudo... tudo isso? Mas, você é a encarnação da generosidade!! Vou fazer bom uso desses Chronotons... Muito obrigado, meu amigo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"这...这么多？您是真的慷慨大方！我会好好利用这些Chronothons...非常感谢你，我的朋友！","color":"dark_aqua"}]}

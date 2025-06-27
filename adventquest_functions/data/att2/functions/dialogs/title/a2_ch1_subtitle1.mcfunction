@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"सिल्बरलैंड �
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"Perdido em Sylberländ","color":"dark_red"}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"Sylberländ的迷雾","color":"dark_red"}

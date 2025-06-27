@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Abrock : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Aqui estão 16 troncos, obrigado senhor.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"这是16个木头，谢谢你，先生。","color":"dark_aqua"}]}

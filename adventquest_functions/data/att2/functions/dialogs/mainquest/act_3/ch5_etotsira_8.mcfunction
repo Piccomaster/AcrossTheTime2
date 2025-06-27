@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Imploro que traga Relgon, filho de Irilion, de volta à vida. Para que o reino de Angband, como era antes desta guerra, possa renascer...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"我恳求您，让Irilion之子Relgon起死回生。只有这样，Angband王国才能焕发新生，重获战前盛景...","color":"dark_aqua"}]}

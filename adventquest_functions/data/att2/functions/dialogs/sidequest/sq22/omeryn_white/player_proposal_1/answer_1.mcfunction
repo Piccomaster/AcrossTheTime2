@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Omeryn White : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Aqui está a chave do meu armazém. Está em uma caverna. Ao sair daqui, siga o caminho à direita, entre na caverna e você a encontrará. Eu estarei aqui esperando por você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"这是我仓库的钥匙。它在一个山洞里。从这里出发沿着旁边的小路走，进入山洞，你会在里面找到我的仓库。我在这里等着你的好消息。","color":"dark_aqua"}]}

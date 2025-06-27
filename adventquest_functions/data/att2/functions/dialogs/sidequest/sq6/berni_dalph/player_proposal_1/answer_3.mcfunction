@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° बर्नी डाल्फ 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Não quero problemas, mas você, meu bravo senhor, pode estar em apuros.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"我不想惹麻烦，但你，勇敢的先生，你可能有麻烦了。","color":"dark_aqua"}]}

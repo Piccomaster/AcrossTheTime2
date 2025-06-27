@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Você não pode perder, é a floresta de bétulas na planície antes de entrar na nossa cidade. Os acampamentos desses bandidos estão escondidos lá. Afaste-os e destrua o acampamento deles para que não voltem. Agradeço antecipadamente e volte vivo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你很容易就能发现，进城前平原上的白桦林。这些强盗的营地就藏在那里。把他们赶走，摧毁他们的营地，他们就不会再来了。我现在对你表示感谢，希望你安全归来！","color":"dark_aqua"}]}

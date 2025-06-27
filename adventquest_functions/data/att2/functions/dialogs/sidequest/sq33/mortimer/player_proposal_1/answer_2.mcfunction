@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Entendi, volte quando quiser com amostras de estruturas antigas da região!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"我理解，你找到石阵样本之后，我会随时欢迎你的到来！ ","color":"dark_aqua"}]}

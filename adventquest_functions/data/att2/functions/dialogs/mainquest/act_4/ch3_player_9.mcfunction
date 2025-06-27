@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uma evolução do meu feitiço de terremoto! Vamos tentar isso na frente daquela parede danificada ali, tenho a sensação de que ela não vai resistir.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我的‘地震’咒语得到了强化！我得拿面前这堵残墙试试手，它肯定支撑不住的","color":"aqua"}]}

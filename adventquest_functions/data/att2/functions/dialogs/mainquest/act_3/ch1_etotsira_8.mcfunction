@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Devo admitir, você tem um talento inato para a luta. Mas como você não sabe, uma pessoa como você não pode ser corrompida pela fonte da corrupção.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"我承认，你的确拥有战斗的天赋；但除此之外，你要明白，像你这样的人是不可能被堕落泉源腐蚀的。","color":"dark_aqua"}]}

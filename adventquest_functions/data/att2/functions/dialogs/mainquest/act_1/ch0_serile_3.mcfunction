@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Continue, em breve estaremos no abrigo...","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"继续跑，我们很快就安全了...","color":"yellow","italic":true}]}

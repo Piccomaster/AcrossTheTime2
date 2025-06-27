@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hermona : ","color":"green","ex
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"没错，这里是我们治疗重伤人群和进行手术的地方...这场战争对双方都有着不可恢复的损失。在上次的战斗中，我们的损失惨重，现在物资匮乏，你可以帮我们寻找一些绷带吗?","color":"dark_aqua"}]}

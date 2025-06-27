@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"समय की लीग","col
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Liga do Tempo","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"时间联盟","color":"gray"}

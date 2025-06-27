@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Acho que sei onde estou agora, vamos continuar vendo o que há no final.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我想我知道自己现在在哪里，让我看看前面都有些什么。","color":"aqua","italic":true}]}

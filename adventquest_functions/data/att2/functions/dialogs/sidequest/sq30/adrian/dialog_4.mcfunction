@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Você encontrou alguma pista? Você está autorizado a usar nossos passagens secretas para sua investigação. Não se prive!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"你有没有发现什么线索？你可以使用我们宫殿的秘密通道来进行调查，不必拘束自己！ ","color":"dark_aqua"}]}

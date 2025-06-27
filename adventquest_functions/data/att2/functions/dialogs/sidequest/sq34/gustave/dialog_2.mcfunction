@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° गुस्ताव : ","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Não posso fazer nada sem esta carga e se isso durar muito tempo, terei que abandonar o local... Por favor, ajude-me pelo menos a encontrar meus colegas na estrada para a mina de Kert ao sul da região...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"没有那批石材我什么都干不了，如果耽搁太久，我就得放弃这个工程...请你帮我在kert沙漠的南边——通往kert矿场的路上找找我的工友...","color":"dark_aqua"}]}

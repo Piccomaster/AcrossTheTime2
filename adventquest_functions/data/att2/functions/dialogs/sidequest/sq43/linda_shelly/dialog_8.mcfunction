@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Vou tentar lidar com isso, mas é difícil viver sem ele...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"我会努力适应现在的生活，但是离开了他我真的很难过...","color":"dark_aqua"}]}

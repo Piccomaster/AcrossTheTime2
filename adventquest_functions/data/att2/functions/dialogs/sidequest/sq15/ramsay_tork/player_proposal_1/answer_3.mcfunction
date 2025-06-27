@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ramsay Tork : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Amigável... Mas dada a dificuldade e os riscos, eu posso entender. Aqui está seu adiantamento. O distrito da fundição fica em frente ao palácio a oeste.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"不错...考虑到困难和风险话，我可以理解，这是你的预付款。锻造厂在宫殿的西部。","color":"dark_aqua"}]}

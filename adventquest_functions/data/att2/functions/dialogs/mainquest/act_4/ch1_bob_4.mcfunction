@@ -58,3 +58,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Bob L. : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"E eu?! Não conto para nada?!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"那我呢，我又算是什么？！ ","color":"dark_aqua"}]}

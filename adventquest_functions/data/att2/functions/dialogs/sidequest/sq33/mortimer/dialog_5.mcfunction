@@ -61,3 +61,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","e
 
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_2/choice_1
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_2/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"什么？你在Sylberländ平原的一棵大树下找到了一座神庙？太有趣了！我得亲眼去见证一下...感谢你为我做的一切，这是我剩下的所有积蓄，请你收下。","color":"dark_aqua"}]}

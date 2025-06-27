@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Encontre o livro que só os sábios podem reconhecer, se você se lembrar do VITRIOL... A fórmula está inscrita para aqueles que possuem a pedra das cinco essências e que já absorveram duas vezes sua substância. Pegue-o, ele não me serve mais agora. Ele está alinhado com seu ser, então você terá que engoli-lo inteiro e realizar a incantação.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"找到那本只有智者才能辨认出的书，如果你还记得VITRIOL(硫酸，这玩意是研究不死术的那个炼金术士发明的，但在游戏里有一瓶对应的药剂，所以我就不翻译了)的话……那本书上记载着拥有贤者之石并已经吸收了其两次源质的人才能用到的术式。然后拿走它，那本书现在对我已经没用了。它与你的本质相契合，所以你必须通读它并念出咒语。","color":"dark_aqua"}]}

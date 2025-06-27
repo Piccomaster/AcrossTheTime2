@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Atrás desta gigantesca barreira de pedra, esconde-se um deserto de areia branca. Onde nunca cai chuva, estão escondidas velhas estruturas. 'Para quem perde a esperança nos confins da solidão mais simples, falta até mesmo o fruto de sua tristeza'","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"在这堵巨大的石头壁垒之后隐藏着一片白色沙漠。在从不下雨的地方埋藏着古老的建筑。“对于那囿于纯粹的孤独而失去希望的人，他思念着他的悲伤所结成的果实”。","color":"dark_aqua"}]}

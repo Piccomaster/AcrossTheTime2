@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- रिज से ब्रिज �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Da crista à ponte -°- : ","color":"gray","extra":[{"text":"Gustave está em um projeto para construir uma ponte entre a região de Kert e Worlëst. No entanto, ele tem um problema, o equipamento de construção deve ser entregue ao local e ainda não chegou. Eu tenho que descobrir onde está a carga e seus transportadores. Eles provavelmente seguiram pela estrada até a mina de Kert, no extremo sul da região.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 从山脊到桥 -°- : ","color":"gray","extra":[{"text":"Gustave计划修建一条连通Kert沙漠和Worlest森林的桥，可目前修建材料却迟迟没有送到。我必须找找那些工人，看货物究竟送到哪里了，他们应该走了那条通往Kert沙漠矿井的路。","color":"aqua","italic":true}]}

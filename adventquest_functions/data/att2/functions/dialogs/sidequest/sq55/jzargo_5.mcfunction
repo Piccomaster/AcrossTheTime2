@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Agora está feito. J'zargo está com frio, ele continuará suas pesquisas mais abaixo na montanha. Agora, o aluno se vira sem ele.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"现在门已经开了。J'zargo很冷，他会在山下继续他的研究。现在那学徒应该哪凉快哪待着去。","color":"dark_aqua"}]}

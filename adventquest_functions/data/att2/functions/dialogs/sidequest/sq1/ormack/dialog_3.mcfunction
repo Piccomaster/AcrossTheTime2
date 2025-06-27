@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ormack : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"O que você não entendeu, estrangeiro? Vá embora enquanto ainda pode...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"你还有什么不明白的？最好趁你还能走快走...","color":"dark_aqua"}]}

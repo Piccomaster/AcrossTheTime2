@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Hélèna Meli : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Hein, foi um golpe da Elisa? Ela está zangada comigo. Mas eu sou gentil com ela. Para o marido dela, certo? Ele é quem me escolheu, eu não o roubei... Bem, afinal ela é minha irmã, eu preciso me reconciliar com ela... Eu vou te dar um cavalo quando eles estiverem melhor. Obrigada pela sua ajuda.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"啊，那是Elisa干的？她居然生我的气。但是我对她很好的。 可她的丈夫，是他来找我的，我没有把他偷走...不过她毕竟是我的妹妹，我得跟她好好讨论一下...等我的马恢复健康了，我会你一匹马。感谢你的帮助。","color":"dark_aqua"}]}

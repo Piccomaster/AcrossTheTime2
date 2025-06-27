@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Você e eu não viemos do mesmo Tellurön. Eu vivi durante o que é chamado de Tellurön primitivo, durante minha primeira vida. Nada era o mesmo, o céu, as montanhas... Eu vi a destruição de um mundo.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你和我并非来自同一个“Tellurön”。我以前生活的地方，被称为“古Tellurön”。那儿的环境和现在的Tellurön完全不同：山啊、天空啊...就像世界末日一样。","color":"dark_aqua"}]}

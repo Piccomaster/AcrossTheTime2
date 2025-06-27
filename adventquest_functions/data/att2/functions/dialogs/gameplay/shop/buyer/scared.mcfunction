@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"क्षमा करें, मैं
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Desculpe, eu não posso comprar isso para você. Não quero ter nada a ver com essas coisas, devolva-as!","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"对不起，我不能收这些东西—我不知道这些物品有什么用。把它们拿回去吧！ ","color":"gray"}

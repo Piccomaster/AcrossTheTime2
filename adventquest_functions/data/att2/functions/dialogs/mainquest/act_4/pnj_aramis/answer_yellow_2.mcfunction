@@ -53,6 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Eu sei quem você é... Não sou tão generoso quanto Etotsira, veja. Nossa cidade está faminta, então, se você estiver disposto a nos ajudar, eu também farei um esforço.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"我知道你是谁...我也不像Etotsira那么大方。你看，我们的城市正在水深火热之中，所以如果你愿意帮助我们，我们自然会有所回报。","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis4
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_3_2
+

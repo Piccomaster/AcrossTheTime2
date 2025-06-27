@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mercurius : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"Todo o plano etéreo,","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"想象下整个以太空间...","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[गोला-बारूद की �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Falta de munição]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[武器补给]","color":"gold"}

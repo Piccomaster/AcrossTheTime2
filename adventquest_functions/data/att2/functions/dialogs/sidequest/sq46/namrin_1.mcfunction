@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Ei! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":", é um prazer te ver novamente! Estamos trabalhando ativamente para restaurar a ordem em Angband, não é fácil, ainda não vemos resultados, mas o fim da guerra parece ter acalmado todos.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"嘿！","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"，我们又见面了*惊喜*！ 我们正在努力恢复Angband的秩序，这可不是什么简单的事情，我们甚至看不到头，但是战争结束之后，大家终于能松下一口气了。","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_sidequest1
+

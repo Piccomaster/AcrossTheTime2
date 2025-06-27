@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lary Brett : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Aqui está, está aberto! Deve haver ainda mais monstros nestas catacumbas... Boa sorte para você, eu vou embora, vou voltar para casa.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"在这里，门开了！地下墓穴里肯定还有更多的怪物...祝你好运，我得回去了。","color":"dark_aqua"}]}

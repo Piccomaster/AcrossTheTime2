@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hill Valley, não é exatamente o que eu pensava como 'casa', especialmente não nesta época... Eu precisaria de um portal para voltar a Ryliath. Se eu me lembro bem, eu tinha que pular de um prédio na rua atrás da minha casa.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hill街区么?这并不完全是我心目中的“家”，尤其是这次…现在我需要一个传送门才能返回Ryliath。如果我记得没错的话，我之前是从我家后面街上的一栋楼上跳下去的。","color":"aqua"}]}

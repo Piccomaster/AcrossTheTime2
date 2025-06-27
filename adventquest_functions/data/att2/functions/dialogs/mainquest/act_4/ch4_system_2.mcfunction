@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Naër अपनी सारी से�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Naër está restaurando toda a sua saúde...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"Naër 已然恢复如初..","color":"gray","italic":true}

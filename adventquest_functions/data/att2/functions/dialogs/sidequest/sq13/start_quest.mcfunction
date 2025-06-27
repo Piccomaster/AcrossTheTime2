@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[अवशिष्ट आक्रम�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Uma invasão incontrolável]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[失控的侵略]","color":"gold"}

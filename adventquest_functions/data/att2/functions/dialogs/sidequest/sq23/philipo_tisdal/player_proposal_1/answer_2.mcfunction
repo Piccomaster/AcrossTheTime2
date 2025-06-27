@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Entendi, negócio fechado! Mas livre-se de todas essas criaturas! O ninho deles está atrás da minha casa e dos meus campos, sob as raízes de uma grande árvore. Você verá um buraco cavado profundamente no chão. Tome cuidado, eles são vorazes!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"我明白了，那就成交！但是你得帮我搞定这些恶心的老鼠！它们的巢穴在我家的后面，那棵大树的树根底下。你会看到它们挖的一个通往地底深处的洞穴,小心点，它们看到什么都吃！ ","color":"dark_aqua"}]}

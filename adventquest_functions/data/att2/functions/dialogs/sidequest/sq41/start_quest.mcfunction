@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[आप कभी नहीं जा�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Você nunca sabe o que vai conseguir]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[你永远不知道你会得到什么]","color":"gold"}

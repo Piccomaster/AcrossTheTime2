@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Posso subir nos trilhos que seguram a esmeralda em suspensão e desbloquear o mecanismo que impede seu movimento. Depois de fazer isso, posso voltar ao centro para ativar o mecanismo que, espero, transportará a esmeralda diretamente na frente do buraco...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我可以爬上悬挂绿宝石块的轨道，解锁阻止它移动的装置，然后我便可以返回中心启动整个系统，我希望它能直接将绿宝石块运到洞口...","color":"aqua"}]}

@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gregor Gacko : ","color":"green
 
 
 function att2:dialogs/sidequest/sq3/gregor_gacko/player_proposal_3/choice_1
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"所以，你改主意了？希望你知道我出的价仍然算数","color":"dark_aqua"}]}

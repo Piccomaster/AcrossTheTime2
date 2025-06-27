@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- विलंबित वितर
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma entrega atrasada -°- : ","color":"gray","extra":[{"text":"Lá, entreguei toda a carne ao dono da taverna de Méleïem, agora só preciso voltar para ver Sigfrid em Ryliath, e espero que ele me recompense com algo útil.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 迟到的配送 -°- : ","color":"gray","extra":[{"text":"生肉已经成功运送到Méleïm的酒馆了，现在回去看看Sigfrid能给我什么好东西","color":"aqua","italic":true}]}

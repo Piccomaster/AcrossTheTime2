@@ -77,3 +77,7 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Cassandre : ","color":"green","
 
 function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"发生了什么不好的事吗？是什么在困扰着你呢？","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*抽泣中*就是...我...你瞧，我找不到我的小猫Totoro了...我已经两天没看见过它了，我担心...","color":"dark_aqua"}]}

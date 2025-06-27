@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Bom dia. Apesar de não ter encontrado nada concreto em Scheströwn, estou voltando à minha busca por fósseis no rio. Mesmo que seja menos emocionante, graças a você posso continuar as escavações tranquilamente aqui.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"早上好。在Scheströwn废墟中找不到什么有价值的化石，我要重新开始在河中寻找化石。即使这里没有那么多有趣的东西，不过多亏了你，我才能在这里安静地挖掘。","color":"dark_aqua"}]}

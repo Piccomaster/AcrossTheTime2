@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ramsay Tork : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Bem, desculpe-me, 150 Chronotons funcionam? O distrito da fundição fica em frente ao palácio a oeste, se você aceitar.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"好吧，不好意思，150个Chronotons可以吗？如果你愿意的话，锻造厂在宫殿的西部。","color":"dark_aqua"}]}

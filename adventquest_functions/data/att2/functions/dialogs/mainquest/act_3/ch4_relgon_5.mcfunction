@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"A decisão não foi fácil, e eu sabia o quanto poderia afetar você. Namrïn será o próximo rei...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"这是个艰难的决定。我知道它会对你产生很大的影响。但Namrïn将会成为下一任国王...","color":"dark_aqua"}]}

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"... आपको इन barri.. of iro.
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"... terá que ... passar por estas barri.. of iro...","color":"dark_aqua","italic":true}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":"...必须去...通过...禁制...传..","color":"dark_aqua","italic":true}

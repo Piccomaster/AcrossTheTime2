@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Finalmente, há algo concreto: uma gema espacial estaria no templo da floresta de Worlëst. Wirth me disse que está no outro extremo da floresta, a nordeste de Ryliath. No entanto, um acampamento bárbaro foi montado na frente, terei que me infiltrar discretamente.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"目前打听到的情报是：有一块空间宝石被存放于Worlëst森林的一所神殿里—Wirth说那所神殿就在Ryliath东北部的森林尽头。但是，神殿前有一个蛮族人的营地，我必须先悄悄地潜入那个营地。","color":"aqua"}]}

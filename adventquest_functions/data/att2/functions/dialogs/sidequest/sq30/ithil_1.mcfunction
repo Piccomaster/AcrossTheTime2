@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Você é estúpido por fazer isso, Jaris? Não vê a bagunça que você causou no palácio?","color":"blue"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"你是不是傻啊，Jaris？你没看到你把宫殿搞得一团糟吗？ ","color":"blue"}]}

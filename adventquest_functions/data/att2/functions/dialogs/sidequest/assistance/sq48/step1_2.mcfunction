@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- भ्रष्ट बादल �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O covil da nuvem corrompida -°- : ","color":"gray","extra":[{"text":"Descobri um lugar escondido nas nuvens, preciso encontrar uma maneira de subir mais alto para continuar explorando.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 被破坏的云巢 -°- : ","color":"gray","extra":[{"text":"我在这片云迷宫里找到了一个隐藏入口。我应该想办法去到更高的地方，不行的话回城里找人问问。","color":"aqua","italic":true}]}

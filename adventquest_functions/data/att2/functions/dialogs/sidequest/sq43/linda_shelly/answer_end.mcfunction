@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Você o matou? Eu não tinha pensado nisso... Mas, de qualquer forma, ele deve ter procurado por isso. Agora eu não tenho nada, Sylvain era a única pessoa que me era querida... Deixe-me, eu quero ficar sozinha.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"你把他杀了？我没想过会变成这样...不过这是他自找的。现在我一无所有了，Sylvain是唯一亲近我的人...离我远些，我想一个人呆一会儿。","color":"dark_aqua"}]}

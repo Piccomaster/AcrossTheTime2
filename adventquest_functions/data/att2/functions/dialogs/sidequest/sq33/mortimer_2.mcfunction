@@ -57,3 +57,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Você encontrou todos eles! Muito obrigado, isso vai avançar muito minha pesquisa...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"你全都找到了！非常感谢，这些石头会在我的研究当中起到重要作用...","color":"dark_aqua"}]}

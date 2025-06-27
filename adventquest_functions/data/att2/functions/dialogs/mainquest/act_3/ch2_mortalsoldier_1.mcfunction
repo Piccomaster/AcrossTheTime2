@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° मृत्युसाधक �
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Soldado Mortal : ","color":"green","extra":[{"text":"Quem diabos é esse? Vamos lá, pessoal, peguem ele, eu odeio surpresas ruins!","color":"red"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mortal Soldier : ","color":"green","extra":[{"text":"快看，那TM的是谁？小的们，抓住他！我最讨厌这种“惊喜”了！","color":"red"}]}

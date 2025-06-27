@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[एक गलत जगह पर र�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Um armazém mal colocado]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[放置不当的仓库]","color":"gold"}

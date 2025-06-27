@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Elisa Meli : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"Aqui estão eles!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"给你俩苹果！","color":"dark_aqua"}]}

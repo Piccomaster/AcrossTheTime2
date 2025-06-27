@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[संकट में एक पु�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Uma sacerdotisa em apuros]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[苦恼的女祭司]","color":"gold"}

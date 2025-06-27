@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Claro que não, o poder se desvaneceu desde os eventos de 4 anos atrás. No entanto, ao questionar Etotsira sobre as gemas, ele me falou de sua preocupação sobre uma nova abertura de um portal temporal. De fato, segundo ele, um ressurgimento do poder das gemas deveria ser considerado. Então, eu disse a mim mesmo que era o momento perfeito para ter o poder necessário para transmutar a matéria da pedra.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"当然不是，自从四年前的事件之后，那股力量就已经衰退了。然而，当我向Etotsira询问关于宝石的事情时，他告诉我他担心时间之门会再次开启。确实，据他所说，应该考虑让宝石的力量复苏。我想，这正是获得转化贤者之石所需力量的绝佳时机。","color":"dark_aqua"}]}

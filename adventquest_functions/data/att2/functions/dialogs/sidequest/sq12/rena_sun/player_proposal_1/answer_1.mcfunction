@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rena Sun : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Obrigado. Tivemos tremores recentemente e agora parece que algo está bloqueando a porta do outro lado. Você pode entrar no templo subindo ao ponto mais alto dos campos acima, há uma abertura para a chuva entrar no templo. Eu vou orar por você!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"谢谢你。我们最近经历了一次地震，现在似乎有什么东西堵住了另一边的门。你可以爬到上面田野的最高处进入寺庙，那里有雨水进入寺庙的开口。我会为你祈祷的！","color":"dark_aqua"}]}

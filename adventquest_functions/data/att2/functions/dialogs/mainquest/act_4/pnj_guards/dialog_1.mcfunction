@@ -53,6 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड्स : ","color
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guardas : ","color":"green","extra":[{"text":"Solomba estranho! Fique onde está! Estranhos, proibidos em nossa terra, solomba! Siga-me agora até nosso chefe.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 警卫 : ","color":"green","extra":[{"text":"不属于Solomba的陌生人！站着别动 ！我们不欢迎外乡人踏足伟大的solomba！现在，跟着我去见我们的首领。","color":"dark_aqua"}]}
 
 function att2:voice/guard/guard13
 function att2:dialogs/mainquest/act_4/pnj_guards/player_answer_proposal_1
+

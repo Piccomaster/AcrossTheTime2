@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Um guarda de Ëarndhel me entregou pessoalmente uma mensagem do rei pedindo para eu falar com ele no Palácio de Ëarndhel.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"Ëarndhel的一名卫兵亲手将国王的一封信交给了我，希望我能前往Ëarndhel宫殿与他交谈。","color":"aqua","italic":true}]}

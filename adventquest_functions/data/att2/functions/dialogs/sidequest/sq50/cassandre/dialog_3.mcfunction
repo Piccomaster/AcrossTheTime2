@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Cassandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"Espero que não tenha acontecido nada com ele... Por favor, encontre-o!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"我希望它没出什么意外...求您了，帮我找到它吧！","color":"dark_aqua"}]}

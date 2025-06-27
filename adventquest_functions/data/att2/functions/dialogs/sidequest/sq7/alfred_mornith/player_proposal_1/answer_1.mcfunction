@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alfred Mornith : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"O colapso ocorreu na nossa entrada mais baixa. Temos explosivos, o suficiente para explodir tudo. O problema é que precisamos de mais fusíveis. Tenho alguns restantes nesta caixa atrás de mim, mas não será suficiente. Bem, há muitos nas minas, então quando você tiver o suficiente, vá até a entrada colapsada, coloque o fusível e acione a explosão.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"坍塌发生在采石场底部的入口处，我们有足够的炸药来炸开这些障碍。问题是，我们需要更多的引线。我身后这个箱子里还剩一些，但肯定不够，矿井里有很多。所以当你收集到足够的引线后，就去坍塌的入口处，使用引线并引爆炸药。","color":"dark_aqua"}]}

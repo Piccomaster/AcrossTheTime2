@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Embora não houvesse sinais de conflito, o medo de uma guerra violenta como as do passado distante atingiu o povo Eternän.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"尽管没有任何祸殃的微兆，但一如既往，对战争的恐惧还是笼罩在了Eternän的人民心上。","color":"dark_aqua"}]}

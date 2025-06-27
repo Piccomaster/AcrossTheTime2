@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कमांडर Trevor : ","c
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Comandante Trevor : ","color":"green","extra":[{"text":"Obrigado, mas não mude de ideia, você pode se arrepender.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"谢谢你，但不要改变主意，你可能会后悔。","color":"dark_aqua"}]}

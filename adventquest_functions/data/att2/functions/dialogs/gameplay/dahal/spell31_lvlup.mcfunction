@@ -26,3 +26,6 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"Goldfresser hat sich verbessert!","colo
 tellraw @s[scores={LANGUAGE=9}] {"text":"सोना खाने वाला अपग्रेड हो गया है!","color":"gold"}
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Devorador de Ouro foi aprimorado!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“吞金兽”已升级！","color":"gold"}

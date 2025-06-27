@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Então, você encontrou meu amigo na mansão? Certifique-se de que nada de ruim aconteça com ele...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"你在Sathnok宅邸里找到我的朋友了吗？希望你能找到他...","color":"dark_aqua"}]}

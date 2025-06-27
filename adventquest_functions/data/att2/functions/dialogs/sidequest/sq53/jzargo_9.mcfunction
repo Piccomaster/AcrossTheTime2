@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Ele deve passar pela floresta de Worlëst em Tellurön, pois um poder antigo despertou lá recentemente.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"他必须穿过Tellurön的Worlëst森林，因为那里最近苏醒了一股古老的力量。","color":"dark_aqua"}]}

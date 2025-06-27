@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*sarcasmo* Adivinha só, J'zargo, eu trouxe essa pedra por pura sorte para que você possa descrevê-la para mim e explicar o quão idiota eu sou por não entender seu valor...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*讽刺*你猜我发现了什么，J'zargo，我纯靠运气给你带来了这块石头，你可以向我解释一下它得用途，然后证明一下不理解它的价值的我是多么愚蠢...","color":"aqua"}]}

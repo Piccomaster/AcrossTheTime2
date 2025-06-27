@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° ल्यूकस : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Uma vez lá, entre na torre. Bons ventos!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"一旦你到了那里，就得想办法进入塔中。多说无益，祝你一路顺风！ ","color":"dark_aqua"}]}

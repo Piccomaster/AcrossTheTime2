@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"É Korlaph. De acordo com o que está escrito em seu diário, após a decisão de Tatiana de fazer uma escalada perigosa, a esposa dele morreu. Ele responsabilizou sua mãe exclusivamente... Então, ele estava em uma dor terrível. Sei do que estou falando, pois eu mesmo paguei o preço recentemente, sendo manipulado...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是Korlaph。他在日记中提到： 在Tatiana决定开始危险的攀登行动之后，他的妻子不幸去世了。他想要你的母亲为这件事负责...而且，他非常痛苦，做出了些不好的事。我知道我在说什么，我最近被人蛊惑，做了些错事，也付出了一些代价...","color":"aqua"}]}

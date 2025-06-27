@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Você encontrou o altar nas ruínas? Continue procurando, deve estar no porão...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"你在废墟中找到祭坛了吗？继续找找,一定是在地下的某处...","color":"dark_aqua"}]}

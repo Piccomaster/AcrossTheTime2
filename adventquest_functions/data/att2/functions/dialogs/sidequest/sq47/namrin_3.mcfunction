@@ -55,3 +55,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 
 function att2:voice/namrin/namrin_sidequest14
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"这些铭文！是王冠！终极错误的王冠！","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"，你找到了终极错误的王冠！这件神器是Môt创造的最可怕的神器之一！这也是Angband战争和许多其他战争背后的原因！","color":"dark_aqua"}]}

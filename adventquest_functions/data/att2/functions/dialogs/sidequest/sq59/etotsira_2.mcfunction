@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Não é um portal espacial ou temporal, mas mais uma espécie de emanação que te faz viver uma certa experiência específica para si mesmo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"它并不是一个空间或时间传送门，而更像是一种能让你体验某种特定个人经历的放射物质。","color":"dark_aqua"}]}

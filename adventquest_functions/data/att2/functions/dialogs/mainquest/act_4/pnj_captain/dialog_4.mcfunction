@@ -58,5 +58,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Terminado? Temos que garantir que todos os inimigos tenham sido eliminados. Se não se importar em ir um pouco mais adiante na estrada...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 队长 : ","color":"green","extra":[{"text":"这就结束了？但我们必须确保敌人被全歼了，如果你不介意，请沿道路再往前走一点...","color":"dark_aqua"}]}
 
 function att2:voice/capitaine/capitaine_dialogue3
+

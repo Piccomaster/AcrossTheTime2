@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Aqui está a loja do ferreiro! Deixarei você adivinhar o que o ferreiro tem para vender. Em seu campo de trabalho, ele é reconhecido como um dos melhores.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"这儿是铁匠铺！至于他卖什么嘛...我就先卖个关子。可以告诉你的是，在铁匠界，他可谓赫赫有名。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aramis finalmente me deu mais pistas. Diz-se que um ex-aluno da academia roubou um artefato de necromancia e também está à procura da gema do tempo. Eu tenho que encontrá-lo e cuidar disso pessoalmente! Vamos para o portão oeste da cidade onde está o Capitão para que ele me dê acesso.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aramis终于给了我一些线索。据他所说，一名曾经在Dahäl学院就读的学生偷了一件能够施放死灵术的远古遗物， 而且他也在寻找时间宝石。我必须赶紧找到那颗时间宝石并把它带回来！现在，我该去护卫队队长所在的西门，然后从他那儿离开城市。","color":"aqua"}]}

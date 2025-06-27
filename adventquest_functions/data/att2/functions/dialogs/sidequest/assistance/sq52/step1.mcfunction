@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की प्रसिद�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 2 -°- : ","color":"gray","extra":[{"text":"J'zargo me disse que ele estará no extremo sul do pântano de Owsästr para o próximo passo de sua busca...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 2 部分 -°- : ","color":"gray","extra":[{"text":"似乎J'zargo在Owsästr沼泽的南边找到了什么，我得过去看看。","color":"aqua","italic":true}]}

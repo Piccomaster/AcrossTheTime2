@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Clément : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"Ei! Você aí! Eu nunca te vi antes, de qual vila você vem?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"嘿，站住！我从未见过你，你来自哪个村镇？ ","color":"dark_aqua"}]}

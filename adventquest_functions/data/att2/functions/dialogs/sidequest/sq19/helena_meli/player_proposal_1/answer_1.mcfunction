@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hélèna Meli : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Uhul! Você não vai se arrepender...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"好的！我不会让你白白帮忙的...","color":"dark_aqua"}]}

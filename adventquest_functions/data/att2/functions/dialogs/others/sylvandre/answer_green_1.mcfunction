@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Ela é a esposa do meu tio, bem, era. Ele também era solomba, desculpe, quero dizer um estranho.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"她、她确实是我叔叔的妻子。我叔叔是...是“solomba”啊—啊抱歉，我的意思是我不认识他。","color":"dark_aqua"}]}

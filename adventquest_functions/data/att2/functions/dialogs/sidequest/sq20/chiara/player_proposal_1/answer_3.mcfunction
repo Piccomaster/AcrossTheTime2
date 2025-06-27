@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"E eu te considerava um mercenário, que decepção. Eu não farei nada, prometo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"我还以为你是个见钱眼开的人，太可惜了....我保证我什么都不会做的！！","color":"dark_aqua"}]}

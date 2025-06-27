@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[अंतिम चुनौती]","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[O desafio final]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[终极挑战]","color":"gold"}

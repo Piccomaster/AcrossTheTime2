@@ -49,3 +49,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"कांस्य स्कोर","co
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"PONTUAÇÃO DE BRONZE","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"铜牌时间","color":"gray"}

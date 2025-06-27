@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lilith : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"Muito obrigado, vá até minha casa ali, dentro há uma boa recompensa.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"非常感谢，我家就在那里，里面放着一些不错的奖励。","color":"dark_aqua"}]}

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Bem, se não é o herói de Tellurön aqui. Ouvi dizer que você arrancou uma gema das garras do gelado Vonaheim! Incrível, você realmente merece seu título!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"瞧瞧这是谁，这不是Tellurön的英雄嘛。我听说你从Vonaheim的手中夺得了一颗宝石！真令人难以置信，你果然名不虚传啊！ ","color":"dark_aqua"}]}

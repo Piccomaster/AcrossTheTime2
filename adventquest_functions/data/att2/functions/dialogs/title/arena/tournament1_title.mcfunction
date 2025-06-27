@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] title {"text":"- टूर्नामेंट I 
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] title {"text":"- Torneio I -","color":"dark_red","underlined":true}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] title {"text":"- 锦标赛 I -","color":"dark_red","underlined":true}

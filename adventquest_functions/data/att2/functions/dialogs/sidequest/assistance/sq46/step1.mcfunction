@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सोई हुई अंधक�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A escuridão adormecida -°- : ","color":"gray","extra":[{"text":"Aldelrion me aconselhou a falar com Namrïn. Ele ficará consolado ao saber do vínculo especial que tenho com seu falecido mestre Relgon.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"Aldelrion建议我去和Namrin聊聊。Namrin如果得知我和他已故的师父有如此联系的话，他应该会感到十分欣慰的。","color":"aqua","italic":true}]}

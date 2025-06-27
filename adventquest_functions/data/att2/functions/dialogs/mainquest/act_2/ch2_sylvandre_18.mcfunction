@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Se desejar, o mestre pode redefinir seus pontos de habilidade... Quero dizer, ah, quando você quiser reorientar suas aptidões...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"如果你愿意...呃， 我的意思是，如果你想调整一下你的能力，这所房子里的师傅能重置你的技能点。","color":"dark_aqua"}]}

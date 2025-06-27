@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sim, eu ouvi uma voz lá e pulei para dentro disso... Descobri diferentes lugares dos eventos que aconteceram há 4 anos. Foi como um sonho, ou melhor, um pesadelo...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我在那里听到了一个声音，然后我就跳进了那个东西……于是我见到了自己4年前经历过的各地的事。它就像一场梦，或者更准确地说，是一场噩梦...","color":"aqua"}]}

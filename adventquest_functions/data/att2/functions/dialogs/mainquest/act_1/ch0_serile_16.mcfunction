@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Merda! Logo ficaremos sem tempo! Pegue a última gema, rápido!!","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"干！我们快没时间了！去拿最后一颗时间宝石，快！！ ","color":"yellow","italic":true}]}

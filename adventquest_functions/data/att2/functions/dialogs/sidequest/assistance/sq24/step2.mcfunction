@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक दुर्भाग्य
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um incidente infeliz -°- : ","color":"gray","extra":[{"text":"Devolvi a mercadoria para Lilith, agora ela me oferece entrar em sua casa nos pântanos para me dar uma recompensa em troca do meu serviço.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 不幸的事件 -°- : ","color":"gray","extra":[{"text":"终于将Lilith的货物送到她家了，为了感谢我的帮助，Lilith盛情邀请我去她家拿点报酬","color":"aqua","italic":true}]}

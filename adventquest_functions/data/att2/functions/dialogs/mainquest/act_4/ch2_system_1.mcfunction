@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"मिएहनॉव अपनी स�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Miehanov está recuperando toda a sua saúde...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"Miehanov已然复原如初...","color":"gray","italic":true}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"A necromancia é uma arte antiga cujas origens se perderam... Infelizmente, ela não conhece mestre algum e, por isso, persiste em Sylberländ, não há nada que possamos fazer para erradicá-la. Espere, desde que você nos ofereceu sua ajuda, vou conceder a você uma nova habilidade para o seu feitiço de armazenamento. Pronto. Boa sorte...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"死灵术是一种起源已失传的古老技艺...不幸的是，它没有相应执掌者对其进行限制，因此它仍然存在于Sylberländ，我们无力将其断绝传承。等等，既然你主动提出要帮助我们，那我就传授你有关储物法术更高的造诣。好了。祝你好运......","color":"dark_aqua"}]}

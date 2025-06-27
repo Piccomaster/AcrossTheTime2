@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"No seu caso, duvido que você tenha absorvido o suficiente para sentir os efeitos prejudiciais...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"如此看来，我已然开始怀疑你是否已经过度吸收堕落泉源的力量，多到足以对你产生负面影响...","color":"dark_aqua"}]}

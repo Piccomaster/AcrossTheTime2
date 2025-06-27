@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Uh uh uh, sem o segundo Néleptron, sem passagem.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"呵呵，连第二个Néleptron都没有，就更别说放你通行了。","color":"dark_aqua"}]}

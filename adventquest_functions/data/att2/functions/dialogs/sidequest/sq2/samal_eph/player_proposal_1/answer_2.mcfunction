@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Samal Eph : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"Ahahah, que sarcasmo! Mas tenha um pouco de piedade de mim, estou à beira da loucura!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"啊...真是太讽刺了...让我自己待会，我快崩溃了！","color":"dark_aqua"}]}

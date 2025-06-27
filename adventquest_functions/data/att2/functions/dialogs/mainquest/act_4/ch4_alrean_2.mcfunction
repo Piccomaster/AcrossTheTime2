@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Certamente, não somos habitantes de Aspälïn, mas isso não nos torna selvagens.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"当然，我们虽然不是Aspälïn的居民，但这也不代表我们是野蛮人。","color":"dark_aqua"}]}

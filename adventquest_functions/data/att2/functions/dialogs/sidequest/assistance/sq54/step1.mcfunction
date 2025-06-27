@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की प्रसिद�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 4 -°- : ","color":"gray","extra":[{"text":"Mais um passo para acompanhar J'zargo em sua aventura louca... Por favor, que seja o último.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 4 部分 -°- : ","color":"gray","extra":[{"text":"苍天啊，J'zargo怎么还不结束这疯狂的探险。真希望没有下次了！ ","color":"aqua","italic":true}]}

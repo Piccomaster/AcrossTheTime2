@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Korlaph : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"*Furioso* Eu estava quase LÁ! Levou muita concentração e trabalho para chegar lá! Ela estava falando comigo, mas estava com tanta dor... Eu NÃO POSSO! Que ideia estúpida te trazer aqui... Selene, você realmente não entende nada! Sua mãe Tatiana! É por causa dela que minha Lucimène se encontra assim!","color":"dark_red"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"*愤怒*我差一点就成功了！！我花费了很多的专注和努力才到这一步！她在跟我说话，但她十分痛苦...可我什么都做不了!！ 把你带到这里真是个错误的选择...Selene你什么都不知道！你母亲Tatiana！就是因为她，我的Lucimene才会变成这样！","color":"dark_red"}]}

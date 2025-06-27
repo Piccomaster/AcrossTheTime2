@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- बाहरी समय से �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Memórias de um tempo distante -°- : ","color":"gray","extra":[{"text":"Aldelrion está procurando uma arma chamada ''Nekr al Felèvsil''. Deve estar nos escombros da cidade. Terei que vagar por Angor e lidar com esses mortais, esperando que um deles tenha essa arma...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 来自外时的记忆 -°- : ","color":"gray","extra":[{"text":"Aldelrion在苦苦寻找一件名为“希律王之死”的武器。我应该在Angor城的废墟里找找，说不定在那些活死人身上。","color":"aqua","italic":true}]}

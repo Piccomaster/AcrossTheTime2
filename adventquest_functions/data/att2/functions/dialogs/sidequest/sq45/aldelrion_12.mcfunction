@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Um ano, o que é isso? De qualquer forma, isso não é importante. Você deve falar sobre isso com Namrïn, ele estava tão desesperado depois do desaparecimento de seu mestre, ele ficará feliz em saber que sua alma emergiu do Éter.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"额，“年”？这是什么意思？不过这不重要。你应该和Namrïn谈谈，他在他师父去世后心情十分低落，如果他知道relgon的灵魂通过以太再次来到这个世界他会很高兴的。","color":"dark_aqua"}]}

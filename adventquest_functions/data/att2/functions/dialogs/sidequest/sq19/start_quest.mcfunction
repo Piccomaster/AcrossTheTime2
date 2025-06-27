@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[हेलेना के घोड़
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Os cavalos de Hélèna]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[毒马凶手]","color":"gold"}

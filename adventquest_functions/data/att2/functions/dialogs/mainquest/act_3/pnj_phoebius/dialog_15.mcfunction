@@ -54,5 +54,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Ah, sim, mil desculpas! Pegue e que você faça bom uso disso....","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"喔，我想起来了！真是不好意思，拿好它，希望你能物尽其用...","color":"dark_aqua"}]}
 
 function att2:voice/phoebius/phoebius16
+

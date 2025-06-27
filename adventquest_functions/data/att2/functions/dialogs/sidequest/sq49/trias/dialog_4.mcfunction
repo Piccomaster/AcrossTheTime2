@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extr
 
 function att2:dialogs/sidequest/sq49/trias/player_proposal_3/choice_1
 function att2:dialogs/sidequest/sq49/trias/player_proposal_3/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"好吧。很不幸，我不会接受你的拒绝的。把它还给我！否则我保证你会后悔你做出的选择。","color":"dark_aqua"}]}

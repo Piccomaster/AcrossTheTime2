@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"अवशोषण के लिए न
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Absorção!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“吸收·内化”已升级！","color":"gold"}

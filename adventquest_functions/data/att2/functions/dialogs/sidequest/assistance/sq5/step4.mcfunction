@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Mia finden -°- : ","color":"gray"
 #HINDI LANGUAGE
 
 tellraw @s[scores={LANGUAGE=9}] {"text":"-°- मिया खोजें -°- : ","color":"gray","extra":[{"text":"मुझे अलफोंस से मिलने और उसके द्वारा वादा की गई पुरस्कार प्राप्त करने की जरूरत है। इस नरसंहार के बाद, मुझे रोमुलाड को बताना चाहिए कि क्या हुआ, यह सुरक्षित है।","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 寻狗大作战 -°- : ","color":"gray","extra":[{"text":"Alphonse答应完事之后会有丰厚的报酬，至于洞穴里发生的惨案我还是别对Romuald全盘托出了吧，谨慎点说比较好...","color":"aqua","italic":true}]}

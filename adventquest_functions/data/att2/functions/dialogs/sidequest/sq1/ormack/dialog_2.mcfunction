@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ormack : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"O acampamento dos ladrões está ao sul da nossa vila, na floresta perto de uma mina. Seguindo o caminho ou ao longo das colinas, você encontrará facilmente...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"盗贼们的营地在这边南方靠近森林的矿坑里。跟着小径或是山丘应该很快就能看到了。","color":"dark_aqua"}]}

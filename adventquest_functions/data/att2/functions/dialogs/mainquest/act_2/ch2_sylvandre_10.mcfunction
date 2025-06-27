@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Se Estelle perguntar a você, não se esqueça de dizer a ela o quão benéfica foi esta visita para você! Eu gostaria que ela pensasse melhor de mim...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"如果Estelle问起你这事，记得告诉她你在我的指导下明白了不少知识！我想让她对我的评价能更高一些...你懂吧？","color":"dark_aqua"}]}

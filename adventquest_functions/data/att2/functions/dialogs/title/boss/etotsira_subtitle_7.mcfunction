@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"टेल्लुरॉन क�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Semideus em Tellurön","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Tellurön的半神","color":"gray"}

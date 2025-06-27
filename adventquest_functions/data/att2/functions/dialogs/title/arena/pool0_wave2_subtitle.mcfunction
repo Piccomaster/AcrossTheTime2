@@ -48,3 +48,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"लहर 2/4","color":"gray"}
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Onda 2/4","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"第 2/4 波","color":"gray"}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"(-)=(-) Police : ","color":"gray","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"LEVANTE AS MÃOS, VOCÊ ESTÁ PRESO!!","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"你被捕了，举起手来！","color":"dark_red"}]}

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Vamos ver qual é o problema que apareceu no centro do templo de Ëarndhel...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"让我看看Ëarndhel神殿中心到底出现了什么问题...","color":"aqua","italic":true}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Já tentei tapar o buraco na parede com uma porta que fiz... Mas essas aranhas estúpidas continuam entrando por outros meios. Não me atrevo a voltar... Mas se você se livrar delas para mim, vou oferecer um quarto para passar a noite!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"我尝试过用自制的隔板堵住墙上的洞...但那些混蛋蜘蛛总会试着用各种方法挤进来。我现在已经束手无策了...如果你能帮我把这些蜘蛛处理掉，我就给你一间房，让你在里头睡上一晚！ ","color":"dark_aqua"}]}

@@ -61,3 +61,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Certo.... Então você quer nos ajudar. Infelizmente, o reino está em guerra. Mas deixe-me contar sobre os eventos que mergulharam nosso mundo no caos.","color":"dark_aqua"}]}
 
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"嗯...所以说，阁下想助我们一臂之力。如阁下所见，这个王国正处于战乱之中—接下来，请允许我向阁下说明事情的来龙去脉。","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"O que você quer dizer, você o encontrou?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"什么意思，你找到了那个遗物？","color":"dark_aqua"}]}

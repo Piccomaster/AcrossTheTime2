@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Você achou que eu iria deixar você aproveitar essa descoberta sozinho?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"你认为我会让你独享这份成果?","color":"dark_aqua"}]}

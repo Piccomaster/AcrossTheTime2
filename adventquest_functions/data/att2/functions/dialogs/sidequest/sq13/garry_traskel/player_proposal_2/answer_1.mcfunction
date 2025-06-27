@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garry Traskel : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Obrigado, a entrada da mina não está longe da minha casa. Mate uns vinte desses animais e eu lhe recompensarei!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"谢谢你，地下通道的入口离我家不远。杀死二十只这样的怪物，我会奖励你的！","color":"dark_aqua"}]}

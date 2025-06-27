@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"चट्टान तोड़�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Destruidoras de rochas, espécie invasora","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"岩石粉碎者，入侵物种","color":"gray"}

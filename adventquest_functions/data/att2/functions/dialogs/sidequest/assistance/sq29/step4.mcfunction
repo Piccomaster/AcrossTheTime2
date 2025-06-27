@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- परेशान करने �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Bandidos Irritantes -°- : ","color":"gray","extra":[{"text":"Terminei com esses acampamentos de bandidos, devo informar Ragnar em Méleïm que minha missão está concluída.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 恼人的强盗 -°- : ","color":"gray","extra":[{"text":"这些强盗营地已经全部被我处理了，是时候回Méleïm告诉Ragnard我的工作已经圆满结束","color":"aqua","italic":true}]}

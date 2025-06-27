@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Esta torre não parece ter acesso.... No entanto, está conectada por uma ponte em seu topo com a outra torre. Deve haver uma entrada para esta.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这座高塔似乎没有入口...不过它顶上似乎有一座吊桥和旁边那座塔的塔顶相连。这样看来，对面那座塔一定会有入口。","color":"aqua"}]}

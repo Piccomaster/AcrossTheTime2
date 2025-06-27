@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gregor Gacko : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"Ótimo, sem você eu nunca teria conseguido libertá-lo. Cumprirei minha palavra, todas as minhas reservas são suas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"太棒了！没有你我永远也没法救他。感激不尽，我会把我的财富都赠于你。","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Violette : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"De fato, eu entendo. Você os receberá quando o cemitério e a cripta estiverem novamente acessíveis.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"好吧，我理解。只要墓地和地下室可以再次使用，你就可以得到这些Chronotons。","color":"dark_aqua"}]}

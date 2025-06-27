@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Infelizmente, a entidade devastadora não saciou sua loucura destrutiva após a aniquilação de Angor. Também causou caos em todas as regiões do globulo de Angor e nos globulos vizinhos...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"不幸的是，毁灭Angor不足以满足她破坏的欲望。她还在Angor及周边地区造成了混乱...","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Então... Tenho 7 entregas para fazer! Que trabalho chato e repetitivo... Lembro-me dos velhos tempos em que eu vagava por Tellurön vivendo aventuras épicas... Eu deveria ter me tornado um policial, já que gosto tanto de ação!","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这么说来...我今天得配送7个包裹！真是份无聊单调的差事...在Tellurön驰骋真是令人怀念。那次经历确实是一次史诗般的冒险...早知道自己这么好动，当初还不如做警察嘞！","color":"aqua"}]}

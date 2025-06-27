@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[J'zargo की महान खोज 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[A lendária missão de J'zargo - Parte 1]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[J'zargo的奇妙冒险-第1部分]","color":"gold"}

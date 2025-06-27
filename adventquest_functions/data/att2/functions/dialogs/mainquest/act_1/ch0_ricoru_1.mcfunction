@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ricoru : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ricoru : ","color":"green","extra":[{"text":"Obrigado pela entrega, logo ficaríamos sem ingredientes!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ricoru : ","color":"green","extra":[{"text":"谢谢您送来的包裹！我们正缺原材料呢！","color":"dark_aqua"}]}

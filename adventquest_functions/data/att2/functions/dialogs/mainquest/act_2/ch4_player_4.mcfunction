@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Olá, você é o Indra, certo? Eu sou um amigo do Wirth, ele me enviou até você para me ajudar na minha busca por um objeto... incomum.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"您好。我想，您应该就是Indra了？我是Wirth的朋友，他让我来向您打听有关我正在寻找的东西的消息...一些很奇特的东西。","color":"aqua"}]}

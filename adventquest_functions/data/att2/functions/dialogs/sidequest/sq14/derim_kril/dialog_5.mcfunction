@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Derim Kril : ","color":"green",
 
 function att2:dialogs/sidequest/sq14/derim_kril/player_proposal_2/choice_1
 function att2:dialogs/sidequest/sq14/derim_kril/player_proposal_2/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"所以，你找到我的钥匙了吗？","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Isso é uma ameaça?! E então, você gostaria de me matar?! Ahahaha, que idiota. Nossa magnificência não tolerará minha morte, então adeus à reunião e às perguntas.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"这是威胁吗？！然后呢，你想杀了我？！啊哈哈哈，真是个白痴。我们的陛下不会容忍我死亡，所以你就别想着谒见或提问了，滚吧。","color":"dark_aqua"}]}

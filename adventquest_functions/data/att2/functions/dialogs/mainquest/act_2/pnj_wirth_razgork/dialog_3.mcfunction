@@ -60,7 +60,11 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wirth Razgork : ","color":"green
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Tenha cuidado, pois um acampamento bárbaro também se instalou na frente dele e o acesso não é fácil. Tente se infiltrar no acampamento, com certeza encontrará um meio de entrar no templo. Já não sou tão jovem, estou começando a enferrujar e vejo em você uma alma de aventureiro! Ficaria feliz em ajudá-lo em sua busca. Boa sorte!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"但小心，有一群蛮族正在神殿前安营扎寨，想绕开他们入神殿可没那么容易。可以试试潜入他们的营地，你肯定能找到去神殿的路。我以前也是名身强力壮的冒险家，直到我的膝盖中了一箭...我看你骨骼精奇，想必是做冒险家的奇才！如果我的话能对你的冒险有所帮助，那我会很开心的！一路顺风！ ","color":"dark_aqua"}]}
 
 scoreboard players set wirth_razgork_PNJ DIALOG 4
 
 function att2:voice/wirth/wirth3
+
+

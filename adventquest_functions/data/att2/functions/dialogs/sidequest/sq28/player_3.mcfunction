@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Em Ëarndhel? Lembro-me de ter ajudado você lá há quatro anos com o negócio de... bebidas alcoólicas... Enfim, é passado agora. Bom viagem!","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Earndhel？我记得我在四年前...一个酒窖的任务中帮助过你...不管怎么说，这些都过去了。祝你们旅途愉快！ ","color":"aqua"}]}

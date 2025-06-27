@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Cheguei aos pântanos de Owsästr. Deve haver algum tipo de grande estrutura ligada à montanha e emergindo das águas estagnadas.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已经到达了Owsästr沼泽。沼泽旁的山脚下应该有一个巨大的遗迹—兀然矗立在沼泽的一滩滩死水中。","color":"aqua"}]}

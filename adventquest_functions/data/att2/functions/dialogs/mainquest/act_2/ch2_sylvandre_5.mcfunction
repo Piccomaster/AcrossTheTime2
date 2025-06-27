@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Tantas coisas mudaram nesses quatro anos, acho que você deveria dar uma olhada pela cidade! Siga-me!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"这四年来发生了不少变化，我觉得我应该带你四处逛逛！跟我来！ ","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[भाई गाको की बच �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Fuga do irmão Gacko]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[越狱行动]","color":"gold"}

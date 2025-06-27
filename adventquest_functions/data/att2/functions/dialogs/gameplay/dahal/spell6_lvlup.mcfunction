@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Explosive trap के लिए नय�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Armadilha Explosiva!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“爆炸陷阱”已升级！ ","color":"gold"}

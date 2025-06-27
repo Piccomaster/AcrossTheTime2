@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ormack : ","color":"green","ext
 
 execute if score SQ1 SIDEQUEST matches 0..99 run function att2:dialogs/sidequest/sq1/ormack/player_proposal_1/choice_1
 execute if score SQ1 SIDEQUEST matches 0..99 run function att2:dialogs/sidequest/sq1/ormack/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"请问你是？有什么事吗？","color":"dark_aqua"}]}

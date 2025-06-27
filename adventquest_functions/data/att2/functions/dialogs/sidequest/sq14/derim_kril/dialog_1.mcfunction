@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Derim Kril : ","color":"green",
 
 function att2:dialogs/sidequest/sq14/derim_kril/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq14/derim_kril/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"嗨，看得出来，你不是这里的人！ 我在地下通道里躲避怪物的入侵时弄丢了箱子的钥匙，我所有的钱都还在箱子里。 那些怪物吓得我不敢过去！请找到我的钥匙，我会给你一些Chronotons作为报酬！","color":"dark_aqua"}]}

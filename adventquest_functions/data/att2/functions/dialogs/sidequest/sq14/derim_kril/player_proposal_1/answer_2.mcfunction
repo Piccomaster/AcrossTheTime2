@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Derim Kril : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Hmm... tudo bem, traga-me essa chave e eu te darei o que você quiser. A entrada da galeria está na fachada oeste da vila.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"嗯...那好吧，把钥匙带给我，我会给你你想要的。地下通道的入口在村庄的西面。","color":"dark_aqua"}]}

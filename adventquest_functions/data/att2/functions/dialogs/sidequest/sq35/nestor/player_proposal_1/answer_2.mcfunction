@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Nestor : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Infelizmente, não me resta muito, os vilões que monopolizam minhas terras já tomaram quase tudo o que eu tinha. Livre-se deles da maneira que parecer mais eficaz para você, e eu lhe darei o que tenho, bem como toda a minha gratidão!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"可惜我没有什么值钱的东西了，抢占我地盘的那些强盗已经把我的钱几乎都抢走了。你可以用你的手段把他们都赶走，我会万分感激，并且我会把我所有的Chronotons都给你！ ","color":"dark_aqua"}]}

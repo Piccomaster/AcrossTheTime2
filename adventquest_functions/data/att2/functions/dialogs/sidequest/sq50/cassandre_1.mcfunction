@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Cassandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"Sim, é ele! Eu estava tão ansiosa por você, meu pequeno Totoro! Onde ele estava?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"对，就是它！我太担心你了，我的小Totoro！它在哪里？","color":"dark_aqua"}]}

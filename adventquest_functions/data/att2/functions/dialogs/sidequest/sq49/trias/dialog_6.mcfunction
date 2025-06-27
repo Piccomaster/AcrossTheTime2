@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"A terra das manhãs eternas é sublime. O tempo e as idades parecem não ter influência sobre este mundo...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"永恒之地的晨光之境十分的壮丽。时光飞逝，却无法在这个世界中留下任何东西...","color":"dark_aqua"}]}

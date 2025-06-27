@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rena Sun : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Uf, muito obrigado! Veja, não é muito, mas eu quero que você fique com isso...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"呼，非常感谢！拿着这个，虽然没有多少，但是希望你收着...","color":"dark_aqua"}]}

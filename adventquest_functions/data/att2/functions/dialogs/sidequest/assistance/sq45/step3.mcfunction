@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- बाहरी समय से �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Memórias de um tempo distante -°- : ","color":"gray","extra":[{"text":"Descobri o esconderijo onde este pequeno grupo está escondido. Posso ter mais sorte aqui para encontrar a arma que Aldelrion está procurando...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 来自外时的记忆 -°- : ","color":"gray","extra":[{"text":"我找到神秘教徒们的老巢了，看来有可能在这里找到Aldelrion所寻找的武器。","color":"aqua","italic":true}]}

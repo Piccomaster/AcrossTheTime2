@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Não, não eu, mas vá encontrar minha filha, Ithil: você a encontrará no andar de cima. Ela te guiará.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"不，不是我，去找我的女儿Ithil，她就在楼上。她会给你更多的指引。","color":"dark_aqua"}]}

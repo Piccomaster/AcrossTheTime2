@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- परेशान करने �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Bandidos Irritantes -°- : ","color":"gray","extra":[{"text":"Ragnar Lorth me deu a tarefa de livrar a floresta de Elvetta de todos os seus acampamentos de bandidos. A floresta de bétulas perto da cidade de Méleïm.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 恼人的强盗 -°- : ","color":"gray","extra":[{"text":"Méleïm的城主Ragnard_Lorth让我将Elvetta森林中所有的强盗团都清理干净，他们营地所在的白桦林就在Méleïm城附近","color":"aqua","italic":true}]}

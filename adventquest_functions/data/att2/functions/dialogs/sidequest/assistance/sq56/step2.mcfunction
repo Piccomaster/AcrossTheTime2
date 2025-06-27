@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की महान खो
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 6 -°- : ","color":"gray","extra":[{"text":"Triss me falou sobre uma invocação alternativa... J'zargo está em algum lugar na academia. Preciso encontrá-lo e detê-lo enquanto ainda há tempo.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 6 部分 -°- : ","color":"gray","extra":[{"text":"Triss提到J'zargo在进行一项召唤仪式，我必须趁他酿成大祸之前在学院里找到他！","color":"aqua","italic":true}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Malak : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Então é assim, os estranhos são realmente pragas nojentas que só merecem o bastão!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"看吧，现在的外地人都没一个好东西，走开！ ","color":"dark_aqua"}]}

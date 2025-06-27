@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guarda : ","color":"green","extra":[{"text":"Alto! Para onde você pensa que está indo?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"站住！你想去哪？","color":"dark_aqua"}]}

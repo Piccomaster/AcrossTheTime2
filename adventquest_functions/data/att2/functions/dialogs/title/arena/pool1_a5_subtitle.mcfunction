@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"Aoranos का गठबंध�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Aliança de Aoranos","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Aoranos联盟","color":"gray"}

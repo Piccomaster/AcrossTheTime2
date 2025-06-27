@@ -53,6 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Não tenho dúvidas sobre o seu valor em batalha ou em Dahäl. Mas tudo tem um preço, então se você quiser obter essa informação, terá que fazer um favor à nossa cidade primeiro.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"我不会质疑你在战斗或Dahäl方面的能力。但一切皆有代价，所以如果你想得到相关信息，你必须先帮我们的城市一个小忙。","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis6
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_3_2
+

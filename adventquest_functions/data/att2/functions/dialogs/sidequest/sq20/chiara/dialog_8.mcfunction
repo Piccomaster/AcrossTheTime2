@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Olá. Eu queria te agradecer por me deixar morar aqui. É uma bela aldeia e tão tranquila...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你好。我非常感谢你让我住在这里，这是一处美丽又宁静的村庄...","color":"dark_aqua"}]}

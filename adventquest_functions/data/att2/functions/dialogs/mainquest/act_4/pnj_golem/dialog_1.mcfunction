@@ -60,6 +60,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Golem : ","color":"green","extra
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"*Voz rouca e metálica* RRouahhhHhh..... Hmmmph... Ser pequeno? Mas o que ele está fazendo aqui? Não há um único ser de carne vivendo aqui. Ele não é deste mundo e não está convidado a ficar!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"*嘶哑的金属声音*RRouahhhHhh .....嗯...微小的生命？但他在这做什么？这里不存在血肉之躯。显然他并非此间之人，更不会被邀请留下！","color":"dark_aqua"}]}
 
 function att2:voice/golem/golem1
 function att2:dialogs/mainquest/act_4/pnj_golem/player_answer_proposal_1
+

@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alfred Mornith : ","color":"gre
 
 function att2:dialogs/sidequest/sq7/alfred_mornith/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq7/alfred_mornith/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"嘿，你迷路了吗？这是我家的采矿场！除非你想帮助我们解决个问题，否则我会请你离开。","color":"dark_aqua"}]}

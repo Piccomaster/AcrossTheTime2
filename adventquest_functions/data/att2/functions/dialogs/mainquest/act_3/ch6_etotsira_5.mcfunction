@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Você sabia que os Eternäns são imortais e invulneráveis enquanto tiverem a vontade de viver? É uma sorte para Sérile que ela não possuísse mais essa força no momento de seu assassinato.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你知道吗？Eternän人是永生的一族、长存不朽的一族—只要他们心怀“活着”的念头。Sérile很幸运，她在杀死Relgon时，Relgon心中已失去继续存活的渴望。","color":"dark_aqua"}]}

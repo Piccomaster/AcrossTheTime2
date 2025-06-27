@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lary Brett : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Você conseguiu o que queria, certo? Então agora me deixe em paz!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"你达到了你的目的对吧？所以你可以离开我了！","color":"dark_aqua"}]}

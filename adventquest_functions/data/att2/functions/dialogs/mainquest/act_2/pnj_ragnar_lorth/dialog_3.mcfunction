@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Você não tem nada melhor para fazer do que perambular pela minha casa?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你还待在我的住所里干嘛？你没事干了吗？！","color":"dark_aqua"}]}

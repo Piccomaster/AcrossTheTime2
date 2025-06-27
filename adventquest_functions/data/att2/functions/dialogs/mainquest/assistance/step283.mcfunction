@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile está determinada, devo tentar detê-lo antes que destrua toda a cidade... Ele gera uma espécie de esfera de Dahäl, devo destruí-la antes que ela carregue completamente seu poder.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile 下定了决心，我必须在她摧毀整个城市之前阻止她...她在创造和电相关的Dahäl球体，我必须在这个球状闪电成型之前摧毀它。","color":"aqua"}]}

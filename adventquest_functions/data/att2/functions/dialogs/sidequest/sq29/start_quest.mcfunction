@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[परेशान करने वा
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Bandidos irritantes]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[恼人的强盗]","color":"gold"}

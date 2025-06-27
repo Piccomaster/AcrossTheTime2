@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Eu nunca te odiei!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"我，我从来没有恨过你！","color":"dark_aqua"}]}

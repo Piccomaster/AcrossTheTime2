@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- बिल्ली पकड़ो
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Pegue o gato -°- : ","color":"gray","extra":[{"text":"Cassandre me contou sobre um tal J'zargo que roubou seu medalhão. Esse J'zargo não pode ser encontrado, mas Triss, uma maga da academia, o conhece bem. Eu precisarei ir falar com ela...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 抓猫 -°- : ","color":"gray","extra":[{"text":"Cassandre跟我说曾经有个叫J'zargo的家伙偷了她的勋章，不过人已经跑路了。学院的女法师Triss应该很了解这个人，我可以去拜访一下她。","color":"aqua","italic":true}]}

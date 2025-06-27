@@ -50,3 +50,6 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"⧼〈","color":"dark_red","ext
 
 title @s[scores={LANGUAGE=10}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Recycler pronto","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"“回收”已就绪","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}

@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Edwin Vortid : ","color":"green
 function att2:dialogs/sidequest/sq44/edwin_vortid/player_proposal_1/choice_1
 execute if score edwin_vortid_answer_2_1 SQ44 matches 0 run function att2:dialogs/sidequest/sq44/edwin_vortid/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq44/edwin_vortid/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"嘿，那个东张西望的，你知道Charles新开的赌场吗？我们可以在那里选择不同的赌注，有机会获得成堆的好装备！真的太爽了啦，我还卖掉了家里的一些东西去拼一把。你可别以为我是个乞丐！如果我能让更多人知道这个好地方，Charles会让我免费下注，这样我就可以继续赚钱啦！","color":"dark_aqua"}]}

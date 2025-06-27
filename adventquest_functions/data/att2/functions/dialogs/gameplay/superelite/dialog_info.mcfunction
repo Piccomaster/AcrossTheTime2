@@ -49,3 +49,6 @@ title @a[scores={LANGUAGE=9}] actionbar {"text":"~ ","color":"dark_gray","extra"
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] actionbar {"text":"~ ","color":"dark_gray","extra":[{"text":"Super Elite abatido...","color":"dark_red"},{"text":" ~","color":"dark_gray"}]}
+
+#Simplified Chinese LANGUAGE
+title @a[scores={LANGUAGE=11}] actionbar {"text":"~ ","color":"dark_gray","extra":[{"text":"超级精英怪死亡...","color":"dark_red"},{"text":" ~","color":"dark_gray"}]}

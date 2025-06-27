@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Eu! Egoísta? Eu não acho que isso esteja correto! Eu passo meu tempo ajudando as pessoas!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"我，自私？我可不这么觉得！我向来乐于助人！","color":"dark_aqua"}]}

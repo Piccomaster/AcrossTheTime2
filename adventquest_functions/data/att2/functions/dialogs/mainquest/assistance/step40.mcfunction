@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ativei todos os pilares da sala, mas as armadilhas não estão abertas... Algo deve estar bloqueando-as, desde que não seja o desgaste do tempo. No entanto, agora posso ir para a última ala do templo...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已经激活了大厅里的四根柱子，但阀门并没有被打开...如果不是因为磨损引发的机械故障，那就意味着还有什么东西在影响着阀门。而且...我似乎能前往未被探索的最后一侧了？","color":"aqua"}]}

@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Bem, você está aqui... Então, esses planos foram roubados por um simples residente de Ryliath? Se eu entendi corretamente, esse Jaris queria ter acesso aos quartos do palácio para roubar nossos bens mais preciosos... Portanto, ele será levado para o calabouço... Graças a você, conseguimos resolver essa questão. Obrigado! Gostaria de oferecer uma recompensa especial. Vá ver o Intendente da nossa cidade, a casa dele fica ao lado do ferreiro em frente à roda de paletas. Você não ficará decepcionado por ter ajudado a resolver esse caso!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"嗯，你来了...所以这些计划图被一个普通的Ryliath居民偷走了？如果我没理解错的话，这个Jaris想要进入宫殿房间偷走我们宝贵的财产...所以他会被关进监狱...多亏了你，我们才能解决这起案件。谢谢你！我想给你一个很好的奖励。去找我们镇上的行政长官，他家就在铁匠铺旁边。帮助我们解决这起案件的奖励绝对不会让你失望的！ ","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Finalmente você está aqui! Espero que ainda tenha o artefato com você. Pelo que sei, o que você encontrou no cemitério de Eol deve ter pertencido a membros de um pequeno grupo secreto que residia nesta velha fortaleza. Eles colocavam este artefato sobre um altar para realizar rituais sombrios. Descubra onde fica a câmara do altar. Mas cuidado, é um lugar de má fama... Pegue esta chave, ela tem o selo desta fortaleza. Eu a encontrei durante minhas escavações anteriores nos pântanos de Owsästr.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"你来啦！希望你还带着那个文物。据我所知，你在Eol墓地发现的东西属于居住在这座古老城堡中的一个小型秘密组织的成员。他们曾经将这件文物放在祭坛上进行黑暗仪式。你得找出祭坛室的位置，不过要注意，这里可不是什么好地方...拿上这把钥匙，我之前在Owsästr沼泽地的挖掘中找到了它，这把钥匙应该能打开Schetröwn废墟中的某个大门。","color":"dark_aqua"}]}

@@ -54,5 +54,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Ah... Entendi. Aqui está o selo de lava.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"喔...我明白了，拿好它，这就是炎狱之章。","color":"dark_aqua"}]}
 
 function att2:voice/phoebius/phoebius10
+

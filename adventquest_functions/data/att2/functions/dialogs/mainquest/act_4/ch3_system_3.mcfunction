@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"लिफ़्ट फिर से ऊ
 
 # PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"O elevador subiu de volta ao topo...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"大升降台回到了顶层...","color":"gray","italic":true}

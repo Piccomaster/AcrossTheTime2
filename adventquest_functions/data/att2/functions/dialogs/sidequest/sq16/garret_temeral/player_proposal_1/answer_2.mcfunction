@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garret : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Sim, eu suspeito que sim, e quando você terminar, não precisaremos mais dessas flechas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"好吧，不过我估计当你完成那个任务之后，我们也不需要这些箭了。","color":"dark_aqua"}]}

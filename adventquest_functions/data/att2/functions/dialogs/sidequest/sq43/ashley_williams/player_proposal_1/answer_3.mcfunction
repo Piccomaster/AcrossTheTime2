@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ashley Williams : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"Quem é você para me julgar!? Você não me assusta e eu não vou desistir!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"你凭什么指责我！？你吓不到我的，我也不是好惹的！","color":"dark_aqua"}]}

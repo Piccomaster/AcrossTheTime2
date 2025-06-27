@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Os campos infestados -°- : ","co
 
 
 function att2:dialogs/sidequest/sq10/mobs_killed_total
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 怪物田 -°- : ","color":"gray","extra":[{"text":"Ryliath城前的麦田和大谷仓已经被僵尸侵占了，Rob_Harth都被吓得不敢继续下田工作了，好心帮他清除掉15只吧","color":"aqua","italic":true}]}

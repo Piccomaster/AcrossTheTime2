@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Marta : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"Desculpe, mas parece que você não tem o suficiente. Venha me ver novamente quando tiver todo o dinheiro com você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"抱歉，您的钱似乎不太够...不过，这里一直欢迎您的光临。","color":"dark_aqua"}]}

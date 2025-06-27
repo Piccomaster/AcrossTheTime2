@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O que J'zargo está vendo? É o aluno idiota que ele conheceu em Kert. J'zargo sentiu seu cheiro de longe, pois o fedor dele cobre o do pântano.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo看到了什么?正是他在Kert遇到的那个白痴学徒。J'zargo隔老远就闻到他身上的味了。因为他的臭味盖过了沼泽本身的味道。","color":"dark_aqua"}]}

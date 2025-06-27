@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Entendi... Bem, acho que não temos mais escolha... Vou ter que te enviar para o lugar mais perigoso de Sylberländ. Nojélanth já foi uma cidade próspera, mas um evento sombrio a mergulhou no caos e hoje só restam ruínas...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"会这样啊...好吧...我想我们别无选择，我只能把你送到Sylberländ最危险的地方去了。 Nojelanth曾经是一座繁华的城市，但是一场邪恶的事件使其陷入了混乱，如今只剩下废墟...","color":"dark_aqua"}]}

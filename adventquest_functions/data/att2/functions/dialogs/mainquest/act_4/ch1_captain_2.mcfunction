@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Arqueiros em posição!... Acendam e fiquem prontos e disparem ao meu comando!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"弓箭手就位！  ...把弓箭点燃，原地待命，听我命令射击！ ","color":"dark_aqua"}]}

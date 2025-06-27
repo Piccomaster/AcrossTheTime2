@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Patrick Corth : ","color":"gree
 
 
 function att2:dialogs/sidequest/sq9/patrick_corth/player_proposal_2/choice_1
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"你拿到我的木头了吗？","color":"dark_aqua"}]}

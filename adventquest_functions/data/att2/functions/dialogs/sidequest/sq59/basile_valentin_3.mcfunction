@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Você não percebe a sorte que tem. Durante toda a minha vida, procurei quem realmente sou, meu propósito neste vasto mundo, sem encontrar uma resposta.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"你意识不到自己有多幸运。我一生都在追寻‘本我’，在这个广阔的世界里寻找我存在的意义，却始终没有找到答案。","color":"dark_aqua"}]}

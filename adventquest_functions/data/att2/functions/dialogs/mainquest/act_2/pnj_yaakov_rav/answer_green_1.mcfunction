@@ -53,6 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Na verdade, sou um mestre da arte de Dahäl e li muitos grimórios durante minha iniciação. Conheço as lendas que são contadas sobre isso. Mas essas não são coisas que as pessoas geralmente gostam de ouvir. Não é que minhas histórias não sejam emocionantes, mas geralmente é necessário um certo gosto pelo perigo para apreciá-las... Não sei se você é um daqueles que não tem medo de viajar pelo país para entender um trocadilho, ou se prefere uma xícara de chá à beira do fogo para ouvir apenas as anedotas redundantes de seus amigos entediantes...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"你没找错人，我确实知道关于那座传送门的传说——毕竟我初出茅庐的时候渎了不少奥术典籍。但是，人们通常不喜欢读这些-并非因为这些故事晦涩乏味，而是只有那些置之死地而后生的人才能明白这些传说故事的魅力...你是那种愿意为弄懂一句双关语而在广袤的大地上奔波的人吗？又或者说，你是那种喜欢在炉火旁一边喝茶，一边听无聊的伙伴讲那些杂七杂八的八卦轶闻的人吗？ ","color":"dark_aqua"}]}
 
 function att2:voice/yaakov/yaakov2
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_2
+

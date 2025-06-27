@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"सीक्रेट सीकर क�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Buscador de Segredos!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“寻找秘密”已升级！","color":"gold"}

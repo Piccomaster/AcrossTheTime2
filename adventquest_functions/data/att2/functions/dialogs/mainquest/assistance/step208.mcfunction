@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Há um mecanismo feito de turbinas bloqueando o caminho. Ao ativá-lo, eles serão acionados, eu terei que sair rapidamente desta área... Eu certamente estou chegando ao fim.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"有一种由涡轮机制成的机构阻塞通道。通过会激活进而触发它们，我将不得不赶紧离开这个区域...我应该马上就要到达尽头了。","color":"aqua"}]}

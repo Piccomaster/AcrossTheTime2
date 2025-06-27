@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की प्रसिद�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 4 -°- : ","color":"gray","extra":[{"text":"Encontrei um frasco estranho de sangue. Preciso levá-lo de volta para J'zargo...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 4 部分 -°- : ","color":"gray","extra":[{"text":"很奇特的血瓶，拿回去给J'zargo看看。","color":"aqua","italic":true}]}

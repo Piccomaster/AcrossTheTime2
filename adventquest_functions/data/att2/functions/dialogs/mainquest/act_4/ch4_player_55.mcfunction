@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Suei sangue e água para conseguir esses Néleptrons para vocês e... Ouvi dizer que Sua Excelência é mais generosa do que qualquer outro nesse reino e que seu esplendor só é igualado por sua gratidão...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我费了九牛二虎之力才为你弄到这些Néleptrons，而且……我听说他比那个王国里的任何人都更慷慨，他的辉煌与旁人对他的感激之情相得益彰...","color":"aqua"}]}

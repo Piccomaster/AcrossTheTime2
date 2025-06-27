@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Oh, que boa surpresa! Um guerreiro nos honra com sua presença em nossa humilde vila. Deixe-me oferecer uma de nossas roupas confortáveis para você...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"哦，真是太好了！一位战士光临我们这个小村庄真是我们的荣幸，请让我为您献上一件我们这舒适的衣服...","color":"dark_aqua"}]}

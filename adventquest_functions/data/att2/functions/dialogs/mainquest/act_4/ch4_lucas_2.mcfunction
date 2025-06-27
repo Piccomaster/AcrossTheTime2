@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lucas : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Nem uma palavra, humano de Tellurön. O vento não traz apenas folhas e nuvens, a informação voa muito mais rápido do que pensamos.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"不必多言，来自Tellurön的异乡人。风带来的不仅仅是树叶和云彩，它传递信息的速度更是远超我们想象。","color":"dark_aqua"}]}

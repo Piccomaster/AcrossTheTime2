@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक दुर्भाग्य
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um incidente infeliz -°- : ","color":"gray","extra":[{"text":"Uma jovem chamada Lilith parece ter batido em algo e destruído seu carrinho que transportava mercadorias. Ela me pediu para ajudá-la a levar o resto para casa, então devo segui-la pelo caminho lamacento e deixar tudo lá.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 不幸的事件 -°- : ","color":"gray","extra":[{"text":"Lilith在运送货物的途中不小心撞上了什么东西并且她的马车被完全撞坏了，她拜托我将剩下的货物带到她家去。我沿着这条泥泞的小路直走就可以找到Lilith的家","color":"aqua","italic":true}]}

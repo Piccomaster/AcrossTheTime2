@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Segundo Ithil, haveria gemas do tempo em outras dimensões. Ela abriu o caminho para mim até o portal de Billgart que fica no topo do palácio de Ryliath à beira da cascata.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"按Ithil公主的说法，我可以在其他维度找到时间宝石。她在Ryliath宫殿旁的瀑布顶上的山洞里帮我打开了通往Billgart的道路。","color":"aqua"}]}

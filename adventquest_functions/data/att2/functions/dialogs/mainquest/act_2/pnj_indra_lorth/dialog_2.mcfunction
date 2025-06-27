@@ -51,5 +51,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° इंद्रा लोर्�
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Minha filha se parece tanto comigo! Ela é tão destemida quanto eu era quando tinha a idade dela. E então ela herdou meu gosto por viagens....","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"我和我的女儿就像一个模子里刻出来的一样！我在她那个岁数的时候也是这么勇敢无畏。而现在，她继承了我对游历四方的热爱...","color":"dark_aqua"}]}
 
 function att2:voice/indra/indra_dialogue2

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Frowin Nepheris : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Se ser autoritário fosse suficiente... Esqueça...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"如果有权力的话好了...算了...","color":"dark_aqua"}]}

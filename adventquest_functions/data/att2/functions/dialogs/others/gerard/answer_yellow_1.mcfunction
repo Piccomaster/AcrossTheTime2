@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gerard : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Ah, bem, eu tinha minhas dúvidas... Desde que este portal maligno apareceu, a tranquilidade desta aldeia mudou completamente. Você vê o antigo dono, agora ido, eu enraizei e paguei um alto preço por esta casa. Então eu gostaria de terminar todos os anos que eu vivi aqui em paz.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"呃，我很疑惑...自从出现这个破传送门后，这座村庄的宁静氛围被完全打破了。如你所见，这座房子先前的居住者已经离开了，我为了在这儿定居，花了大价钱买下了这所房子...现在看来，我在这里的平静生活也要结束了。","color":"dark_aqua"}]}

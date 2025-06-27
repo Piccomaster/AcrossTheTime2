@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Boa noite estranho! O que te traz aqui a estas horas?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"晚上好陌生人，哪阵风把你吹到了这里？ ","color":"dark_aqua"}]}

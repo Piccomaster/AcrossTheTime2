@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Um viajante? Não, você realmente parece um guerreiro! Neste lugar está a porta que leva ao palácio de nosso magnífico soberano.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"一位旅者？不，你看起来更像个战士！这扇门通往我们伟大君主的宫殿。","color":"dark_aqua"}]}

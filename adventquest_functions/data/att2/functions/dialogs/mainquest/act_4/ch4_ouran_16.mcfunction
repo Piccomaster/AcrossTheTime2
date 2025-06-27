@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° ओरन : ","color":"gold","ex
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Não! Isso não é o fim! Você não tem o direito de se opor a mim, seu vermezinho! Ladrão! Blasfemo! Você receberá o castigo que merece pelo seu ultraje!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"不！还没有结束！你这个无名之辈，没有资格与我抗衡！偷窃者！亵渎者！你将为你的狂妄受到应有的惩罚！ ","color":"dark_aqua"}]}
 
 function att2:voice/aoran/aoran34
+

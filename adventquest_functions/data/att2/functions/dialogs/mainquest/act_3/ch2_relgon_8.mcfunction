@@ -60,3 +60,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Há trinta ciclos, cerca de trinta de seus anos, uma médium veio à cidade de Angor, trazendo consigo uma profecia sombria...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"三十个轮回前—按阁下的计算方式，大概是三十年前，一位灵媒来到Angor城，散布了一则至暗预言...","color":"dark_aqua"}]}

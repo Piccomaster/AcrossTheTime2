@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Romuald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Deixe-me em paz, eu preciso ficar sozinho!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"让我一个人呆着，我需要一个人呆着！ ","color":"dark_aqua"}]}

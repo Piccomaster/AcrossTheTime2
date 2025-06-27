@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Violette : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"Saia imediatamente da minha casa! Você não tem nada a fazer aqui...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"立刻离开我的房子！这里不需要你...","color":"dark_aqua"}]}

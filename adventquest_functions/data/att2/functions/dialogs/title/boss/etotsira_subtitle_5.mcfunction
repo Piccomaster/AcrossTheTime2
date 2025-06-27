@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"अगले दिन की �
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Amanhecer para a academia do dia seguinte","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"未来学识的明灯","color":"gray"}

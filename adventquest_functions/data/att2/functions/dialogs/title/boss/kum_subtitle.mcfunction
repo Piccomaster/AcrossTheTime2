@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"उल्लिकुम्म�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Descendência de Ullikummi, a rocha imutável","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Ullikummi的后裔,不动的磐石","color":"gray"}

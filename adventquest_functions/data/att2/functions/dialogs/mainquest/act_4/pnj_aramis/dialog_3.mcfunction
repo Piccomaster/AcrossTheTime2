@@ -51,5 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Apressa-te para o portão oeste da cidade, falaremos sobre a gema mais tarde.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"快去西城门吧，宝石的事稍后再谈。","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis_dialogue2
+

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não esteja tão certo, eu certamente aprendi muito, mas a sua arte, mesmo que às vezes entediante com a sua linguagem misteriosa, é interessante e agora estou curioso para saber qual prova esse personagem estava falando quando eu estava inconsciente.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"别太肯定了，我确实学到了很多，你的技艺有时因为你的神秘语言而显得枯燥，但至少其本身很有趣。现在嘛，我很好奇当我昏迷时那个家伙跟我说的试炼是什么。","color":"aqua"}]}

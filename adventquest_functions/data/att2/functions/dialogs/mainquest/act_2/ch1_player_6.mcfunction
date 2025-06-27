@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não tenho um tostão... Mas não posso voltar lá fora. Permitiria-me ficar aqui esta noite, e depois eu posso pagar-lhe mais tarde?","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"可我身无分文...但我不能回到那冰冷的夜色中。我先在这住一晚，等以后再还钱可以吗？ ","color":"aqua"}]}

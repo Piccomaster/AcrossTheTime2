@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sigfrid Barkon : ","color":"gre
 
 function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"你是冒险者吗？可以帮我个忙吗？我那负责运肉的运输商已经一周没有讯息了，我没办法长时间保存这些肉。你能把这批牛肉送到Méleïm吗？不用担心，我会付钱给你的。","color":"dark_aqua"}]}

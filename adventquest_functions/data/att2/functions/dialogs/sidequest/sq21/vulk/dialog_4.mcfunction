@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° वुल्क : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Oi, como vai você? A minha maça está adequada para você!?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"嘿，你还好吗？我的锤子你用着还顺手吗！？ ","color":"dark_aqua"}]}

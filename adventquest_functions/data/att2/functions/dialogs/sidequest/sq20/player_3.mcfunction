@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Esta é a parede que Chiara me falou. Está realmente bem danificada, um único golpe a fará cair. Espero que ninguém ouça...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这是Chiara告诉我的那堵墙。确实破损的很厉害，估计一下就能推倒。希望没人会注意到这个声音...","color":"aqua"}]}

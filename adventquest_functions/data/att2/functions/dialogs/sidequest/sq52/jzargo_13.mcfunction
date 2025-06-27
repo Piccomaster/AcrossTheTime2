@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Agora, o aprendiz deve deixar J'zargo em seus estudos. Ele pode ir brincar nas ruínas, já que esta viagem deve ter desgastado sua capacidade de se concentrar e parar de feder.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"现在，学徒必须远离J'zargo好让他进行研究。他可以跑去废墟里玩，因为这次旅行一定已经磨损了它集中注意力和停止散发臭味的能力。","color":"dark_aqua"}]}

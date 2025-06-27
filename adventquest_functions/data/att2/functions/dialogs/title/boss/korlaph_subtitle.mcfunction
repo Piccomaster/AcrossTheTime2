@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"भ्रष्ट अनुय�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Seguidor corrupto da coroa dos mortos","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"堕落亡灵之主的追随者","color":"gray"}

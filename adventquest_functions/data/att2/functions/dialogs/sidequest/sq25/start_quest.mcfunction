@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[एमेरेल्ड की या
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[A jornada de Emerald]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[Emerald的冒险之旅]","color":"gold"}

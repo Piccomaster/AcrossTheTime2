@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Indra Lorth : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Sim... você tem sorte. Acho que me lembro de algumas histórias sobre essas pedras. Existem várias espalhadas pelo mundo, e pelo que me disseram, a mais próxima deve estar ao sul, nos pântanos de Owsästr, onde há estruturas muito antigas que ainda estão sobre as águas paradas. A que está ao lado da montanha ainda guarda muitos segredos... E é lá que sugiro que você procure.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"嗯...你很幸运，我还记得一些有关空间宝石的故事。空间宝石散落在这个世界的各个角落，而据我所知，离这最近的一块在小镇南边的Owsästr沼泽—许多十分古老的建筑仍屹立在那里的水面上。而紧靠高山的那座遗迹似乎还藏着不少秘密...我觉得你可以去那里看看。","color":"dark_aqua"}]}

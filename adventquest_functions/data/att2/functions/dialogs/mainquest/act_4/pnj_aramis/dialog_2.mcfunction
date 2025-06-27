@@ -51,5 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Então, o que você está esperando para ajudar a Marlène? Eu não tenho tempo a perder com negociações.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"那么你还在等什么？快去帮助Marlene吧，我不想在这种事情上浪费口舌。","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis_dialogue1
+

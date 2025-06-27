@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"उच्च स्तर का अल
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Alerta de alto nível! Fusão do gerador principal de Ithax. Cerca de segurança comprometida! Atenção: Todos os passageiros devem evacuar a estação! Erro, mau funcionamento dos sistemas de segurança... Erro...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"最高级别警报！Ithax主发电机已融毁，安全围栏受损！注意：所有成员必须立即撤离此站点！错误，安全系统出现故障……错误……","color":"gray","italic":true}

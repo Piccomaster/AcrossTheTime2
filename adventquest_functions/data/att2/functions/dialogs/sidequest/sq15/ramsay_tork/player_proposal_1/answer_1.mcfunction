@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ramsay Tork : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Você é muito corajoso, a cidade de Angor é um verdadeiro labirinto além de ser invadida por bárbaros... O distrito da fundição está localizado em frente ao palácio a oeste. Boa sorte.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"你很勇敢，Angor城不仅被野蛮人占领了，还是一座巨大的迷宫...锻造厂位于宫殿西面，祝你好运。","color":"dark_aqua"}]}

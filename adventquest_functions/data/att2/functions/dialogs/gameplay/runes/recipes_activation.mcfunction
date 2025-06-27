@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"विधि तैयार हो र
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Preparando a receita...","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"合成成功","color":"green"}

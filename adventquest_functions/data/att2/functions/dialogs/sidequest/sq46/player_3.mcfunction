@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Você nunca tentou saber a razão da minha vinda para Angband. Acredito que é importante que eu te conte agora. Minhas capacidades foram a origem e o assunto de manipulações terríveis, que de certa forma, se basearam na cegueira que eu tinha em relação a mim mesmo. Além disso, vim em busca de sabedoria.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你从没问过我来Angband的原因。我相信告诉你这些事情是很重要的:我的力量是那可怖堕落的起源和载体，这些力量在某种程度上源于我对自己的盲目无知，顺带一提，我来这里是为了寻找一种智慧—能帮助我理解自己、看清真相，并指引我走出迷茫的智慧。","color":"aqua"}]}

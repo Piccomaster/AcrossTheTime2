@@ -84,3 +84,7 @@ tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","colo
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_1
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_2
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"“希律王”之死，原始的优雅与粗犷的力量混合在一起。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我明白你为什么要找回它。这真是一个了不起的东西。","color":"aqua"}]}

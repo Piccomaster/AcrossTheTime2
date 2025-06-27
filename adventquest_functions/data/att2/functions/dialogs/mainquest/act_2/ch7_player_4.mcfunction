@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Que estruturas impressionantes! Eu vejo a gema do espaço, está lá, bem no meio da sala! Mas não consigo acessá-la.... Bem, primeiro devo encontrar uma grande chave para abrir a grande porta no lado sul. Talvez na ala norte...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好壮观的建筑！我似乎看到空间宝石了，它就在——在大厅的正中央！但我现在没法拿到它...好吧，我现在先得找到一把能打开南翼大门的大钥匙，也许它刚好藏在北翼的房间里...","color":"aqua"}]}

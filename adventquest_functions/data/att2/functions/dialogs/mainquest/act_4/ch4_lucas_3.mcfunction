@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lucas : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Entonces, el guerrero de Tellurön requiere mi aliento para sus aspiraciones presentes...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"所以来自Tellurön的战士需要我传授吐纳之法来满足他现在的需求...","color":"dark_aqua"}]}

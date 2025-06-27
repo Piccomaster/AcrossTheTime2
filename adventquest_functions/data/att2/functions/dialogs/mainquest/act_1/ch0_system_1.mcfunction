@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"टीवी पर कार्यक�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"Há um programa na TV: ","color":"gray","italic":true,"extra":[{"text":"... A empresa Lambda tem orgulho de poder distribuir energia para o mundo todo. Venha visitar a primeira torre emissor de energia livre! <Lambda CORP, o futuro é seu!>","color":"gold","italic":false}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"","color":"gray","italic":true,"extra":[{"text":"电视正在播送节目：Lambda公司十分荣幸能为全世界提供电力，欢迎参观由Lambda公司承建的世界上第一座能源发射塔！ <Lambda公司，给予你未来的公司！>","color":"gold","italic":false}]}

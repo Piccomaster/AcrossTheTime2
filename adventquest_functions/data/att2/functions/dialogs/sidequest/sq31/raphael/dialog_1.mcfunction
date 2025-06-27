@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Raphaël : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"*Em pânico* Socorro! Por favor, tirem esses lobos daqui!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"*惊慌失措*救命！快把这些狼赶走！","color":"dark_aqua"}]}

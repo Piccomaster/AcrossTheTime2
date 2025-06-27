@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Você não pode perder o ninho, está perto da grande árvore ao lado do meu campo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"那个巢穴很显眼的，它就在我农场旁边的那棵大树附近。","color":"dark_aqua"}]}

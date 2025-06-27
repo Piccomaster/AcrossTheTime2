@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Namrïn é muito jovem para ver isso, mas você se parece muito com ele. Não estou falando de aparência física. Não, mas você parece ser movido pela mesma vontade, pela mesma força.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Namrïn还不够成熟，看不到这些东西.但你很像Relgon,我不是在说你长得像。而是你似乎拥有和他一样的意志和力量。","color":"dark_aqua"}]}

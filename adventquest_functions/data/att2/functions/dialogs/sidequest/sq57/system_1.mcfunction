@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Atricanth अपनी सभी जि
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Atricanth recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Atricanth恢复了他所有的力量...","color":"gray","italic":true}

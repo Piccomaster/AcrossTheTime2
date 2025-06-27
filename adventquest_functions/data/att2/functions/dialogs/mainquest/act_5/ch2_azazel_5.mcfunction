@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Azazel : ","color":"gold","extra
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"*atordoado* Ga... Gabrielle, é você?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"*震惊* Ga...Gabrielle，是...是你么？ ","color":"dark_aqua"}]}

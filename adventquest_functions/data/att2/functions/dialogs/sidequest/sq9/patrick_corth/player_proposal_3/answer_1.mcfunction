@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Patrick Corth : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Bem, coloque toda a madeira ali do lado direito fora e eu te devolverei seu dinheiro.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"好吧，把所有的木头都扔在我右边的外面，我会把你的钱还给你。","color":"dark_aqua"}]}

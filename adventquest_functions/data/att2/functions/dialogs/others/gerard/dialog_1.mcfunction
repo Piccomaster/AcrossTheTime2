@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gerard : ","color":"green","ext
 
 
 function att2:dialogs/others/gerard/player_answer_proposal_1
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"怎么又有陌生人在我家里？自从传送门被激活后，这儿每天都有一堆外来者...等下，你应该不是那个打开传送门的人吧？","color":"dark_aqua"}]}

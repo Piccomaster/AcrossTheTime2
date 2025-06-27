@@ -62,3 +62,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jack Arrow : ","color":"green",
 function att2:dialogs/sidequest/sq41/jack_arrow/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq41/jack_arrow/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq41/jack_arrow/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"你是怎么找到我们据点的？你不应该出现在这里！！","color":"dark_aqua"}]}

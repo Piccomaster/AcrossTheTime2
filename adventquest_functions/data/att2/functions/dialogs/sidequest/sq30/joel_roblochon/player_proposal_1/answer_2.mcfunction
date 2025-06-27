@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Joël Roblochon : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"O quê!? Você sabe quem eu sou? Eu sou Joël Roblochon, o grande e respeitado cozinheiro da família real! Não tolero ser falado neste tom, especialmente por alguém que vem da minha chaminé! Além disso, não sei nada sobre as passagens secretas do palácio...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"什么！？你知道我是谁吗？我是Joël_Roblochon，王室中最受人尊敬的大厨！我不能容忍你对我用这种语气说话！尤其是来从我的烟囱里爬出来的人！而且，我可不知道宫殿里有什么密道...","color":"dark_aqua"}]}

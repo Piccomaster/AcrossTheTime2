@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- पासाग खोलें -�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Limpar o caminho -°- : ","color":"gray","extra":[{"text":" : "},{"text":"Tenho que voltar e falar com Alfred Mornith para que ele me recompense pelo trabalho que realizei com sucesso.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 清障开路 -°- : ","color":"gray","extra":[{"text":" : "},{"text":"大功告成了，现在可以回去找Alfred拿奖赏了！ ","color":"aqua"}]}

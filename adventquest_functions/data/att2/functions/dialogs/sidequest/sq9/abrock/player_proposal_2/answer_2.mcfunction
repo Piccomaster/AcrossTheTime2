@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Abrock : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Quem você acha que sou? Sou o lenhador, não o rei da cidade. 30 Chronotons e eu não vou baixar mais o preço!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"你把我当成谁了，我是伐木工人，不是城市英雄。就30个Chronotons，不会再降了！","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sélène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Obrigado pela sua ajuda... Eu lhe devo muito.","color":"dark_green"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"感谢你的帮助...我欠你太多了。","color":"dark_green"}]}

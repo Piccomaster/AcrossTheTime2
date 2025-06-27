@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"क्या तुम सच �
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"¿Realmente creías que te dejaríamos hacer eso?...","color":"gold","bold":true}
+
+#Simplified Chinese LANGUAGE
+title @a[scores={LANGUAGE=11}] subtitle {"text":"你觉得我们会允许你作弊吗？","color":"gold","bold":true}

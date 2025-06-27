@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Raphaël : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"Uau! Uau! Uau! Então os cavaleiros são realmente os melhores homens do mundo! Vou contar a todos o que você fez por mim!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"哇！哇!哇！你真是世界上最好的男人！我会告诉大家你为我做了什么！","color":"dark_aqua"}]}

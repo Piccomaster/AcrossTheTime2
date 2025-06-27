@@ -61,7 +61,10 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Uma princesa de Angband? Problemas, que tipo de problemas?","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"一位Andbang的王女？问题？什么类型的问题？","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/aoran/aoran24
 execute as @a[x=7954,y=115,z=6772,distance=..30] run function att2:dialogs/mainquest/act_4/pnj_ouran/player_answer_proposal_18
+

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Abrock : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Ah, sim, então vamos lá, eu farei isso a 2 Chronotons por tronco.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"啊，行吧，那我就按每根原木2个Chronotons的价格来收费","color":"dark_aqua"}]}

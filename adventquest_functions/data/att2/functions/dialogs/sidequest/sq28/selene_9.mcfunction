@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sélène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"*Chorando* Pai? Eu… sinto muito... sinto muito...","color":"dark_green"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"*哭泣*父亲？我...对不起...对不起...","color":"dark_green"}]}

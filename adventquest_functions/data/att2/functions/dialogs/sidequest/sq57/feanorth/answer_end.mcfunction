@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Feanorth : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Excelente, você conseguiu! Eu sabia que seria fácil para você. Obrigado, agora poderemos investigar mais profundamente nas ruínas sem correr o risco de sermos incomodados por essas criaturas. Pegue esses Chronotons!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"太好了，你做到了！我就知道这对你来说轻而易举。谢谢你，我们可以不用冒着被这些生物袭击的危险去打清理废墟了。拿着这些Chronotons！","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[बाहरी समय की य�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Memórias de fora do tempo]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[来自外时的记忆]","color":"gold"}

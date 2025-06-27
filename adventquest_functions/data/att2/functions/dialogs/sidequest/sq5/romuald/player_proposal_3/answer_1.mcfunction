@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Romuald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Obrigado! Muito obrigado! *Arrotos* Vá para Méleïm, encontre Alyia lá, ela pode te ajudar!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"谢... 非常感谢你！（打嗝）去Méleïm镇上，在那里找到Alyia，她能帮到你！ ","color":"dark_aqua"}]}

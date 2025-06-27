@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"एजिलिटी पेट के 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Pet de Agilidade!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“迅捷之友”已升级！","color":"gold"}

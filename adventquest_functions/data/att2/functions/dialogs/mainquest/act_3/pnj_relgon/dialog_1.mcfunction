@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Os selos de fogo e lava são essenciais para acessar o covil de La Flamme Noire. Quando os encontrar, poderá colocá-los diretamente na grande porta no final do corredor de entrada da fortaleza de Angor.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"要想进入La_Flamme_Noire的栖息之所，必须先找到烈火之章和炎狱之章。找到之后将它们放在Angor宫殿长廊尽头的大门就可以了。","color":"dark_aqua"}]}

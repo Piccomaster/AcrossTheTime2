@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nolduron : ","color":"green","e
 
 
 scoreboard players set nolduron_PNJ DIALOG 2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"看看是谁来了，是我们名震七大维度的大英雄！Etotsira提前告诉过我你会过来的事儿，他一定也在等你。你重新启动了Ryliath的传送门，这就意味着我们现在可以和那个富饶的领地进行沟通交流了。总而言之，很高兴能再次见到你。不必紧张，把这儿当成自己家就行。","color":"dark_aqua"}]}

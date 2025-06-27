@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Tudo a seu tempo. Vou deixar você cuidar deles, encontre-me na minha fazenda.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"慢慢来，我会让你好好收拾他们，我在农场等你。","color":"dark_aqua"}]}

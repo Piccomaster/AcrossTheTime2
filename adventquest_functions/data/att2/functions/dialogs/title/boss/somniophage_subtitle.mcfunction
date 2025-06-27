@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"अवशोषित विद�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Sonhadores indómitos da tristeza rebelde","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"渴求叛逆之痛的桀骜之物","color":"gray"}

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Korlaph : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"Deixe-me concentrar, preciso falar com ela! Lucimène, você está segura agora, eu trouxe você de volta a este mundo para que pudéssemos nos reunir novamente!","color":"dark_red"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"不要打扰我，我要和她聊聊！Lucimène，你现在安全了，我把你带回了这个世界，我们终于可以再次团聚了！ ","color":"dark_red"}]}

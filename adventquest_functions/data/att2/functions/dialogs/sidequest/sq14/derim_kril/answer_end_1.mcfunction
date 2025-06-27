@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Derim Kril : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Ei! Você mentiu para mim, seu ladrão! Você vai pagar por isso!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"嘿！你骗我，你这个小偷！你会为此付出代价的！","color":"dark_aqua"}]}

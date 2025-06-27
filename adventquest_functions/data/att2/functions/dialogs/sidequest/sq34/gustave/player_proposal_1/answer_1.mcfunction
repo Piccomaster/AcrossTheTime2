@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gustave : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Eles tomaram o caminho para a mina de Kert. Ela está localizada ao sul da região. Passe pelo deserto até a grande ponte sobre o canyon, atravesse-a e continue na estrada. Espero que estejam bem e que nada tenha acontecido à carga.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"他们在通往Kert矿井的路上。往kert沙漠的南部走，穿过一个峡谷上的大桥，然后继续向前就能找到了。你只需要确保他们人没事，货物什么的都无所谓。","color":"dark_aqua"}]}

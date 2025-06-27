@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कमांडर Trevor : ","c
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Comandante Trevor : ","color":"green","extra":[{"text":"Você encontrou alguma pista? O quarto onde ocorreu o roubo agora está aberto: no fundo da biblioteca atrás de mim.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"你发现什么线索了吗？发生盗窃的房间已经打开了：就在我身后的图书馆里面。","color":"dark_aqua"}]}

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एडानोई काटाक
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- As Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"Myrath, este ser morto-vivo, falou de uma ladra. Aliás, Méleïm é mencionado no convite de Myrath. Estas são pistas muito boas para o futuro. Vamos voltar para Esmeralda na entrada sul do cemitério.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"活死人Myrath在他遗留的文献里提及到了一位女性盗墓者和Méleïm城，说明两者有一定的联系。我该回墓穴入口把新线索告诉Emerald","color":"aqua","italic":true}]}

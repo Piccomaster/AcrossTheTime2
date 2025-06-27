@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की किंवदं�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária missão de J'zargo - Parte 1 -°- : ","color":"gray","extra":[{"text":"Graças a Triss, sei um pouco mais sobre este J'zargo... Ela me disse que ele estava em busca de uma lenda e teria ido para o deserto de Kert. Vou encontrá-lo e acompanhá-lo nesta missão.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 1 部分 -°- : ","color":"gray","extra":[{"text":"多亏了Triss，我得知了更多关于这个家伙的行踪。J'zargo正在进行一项寻宝探险，他前往Kert沙漠去找神器了。我最好找到他并在探险中一直跟着他。","color":"aqua","italic":true}]}

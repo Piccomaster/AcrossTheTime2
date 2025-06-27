@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एडानोई काटाक
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- As Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"Este é um novo passo, agora tenho que encontrar uma entrada para entrar nas catacumbas do cemitério. Segundo Emerald, a filha de Emerald deve ter ido lá. Vamos procurar uma casa ao redor do cemitério e ver se um guarda pode nos ajudar.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"进展还不错，接下来就在墓园里找找进入地下墓穴的入口，Emerald的女儿一定是先我们一步进去了。不行的话我可以问问墓园旁住的守墓人，他应该会协助我的","color":"aqua","italic":true}]}

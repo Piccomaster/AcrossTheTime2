@@ -49,3 +49,6 @@ tellraw @a[scores={LANGUAGE=8}] {"text":"-°- Mia finden -°- : ","color":"gray"
 #HINDI LANGUAGE
 
 tellraw @a[scores={LANGUAGE=9}] {"text":"-°- मिया खोजें -°- : ","color":"gray","extra":[{"text":"यह ज्यादा जटिल नहीं है, मुझे अब मिया और उसके पिल्लों को रोमुलाड के पास ले जाना है। वह राइलिएथ के तवर्न में मेरा इंतजार कर रहे हैं।","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 寻狗大作战 -°- : ","color":"gray","extra":[{"text":"找到小狗Mia和她的幼崽们真是小事一桩，把它们带回去吧。Romuald这时应该在酒馆里等我了。","color":"aqua","italic":true}]}

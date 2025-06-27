@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"चांदी स्कोर","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"PONTUAÇÃO PRATA","color":"white"}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"银牌时间","color":"white"}

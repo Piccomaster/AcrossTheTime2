@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guarda : ","color":"green","extra":[{"text":"Você aí! Por ordem do Rei, vou levá-lo ao palácio. Por favor, venha comigo!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"你，站住！奉国王之命，我要带你去王宫。请跟我来！ ","color":"dark_aqua"}]}

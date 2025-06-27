@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"साधारण शैता�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Abominação fatal, a obscura encarnação do Éter","color":"dark_gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"恶中之恶, Aether的黑暗化身","color":"gray"}

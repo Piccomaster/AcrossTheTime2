@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Então nos perdemos? Desculpe, mas não tenho muito tempo para você agora...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"所以我们没有补给了？抱歉，我现在没有时间陪你...","color":"dark_aqua"}]}

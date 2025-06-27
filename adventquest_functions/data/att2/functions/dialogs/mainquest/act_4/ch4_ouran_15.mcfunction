@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° ओरन : ","color":"gold","ex
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Chega! Chega! Chega! Como você ousa me deixar assim! Você vai conhecer a verdadeira magnitude da minha raiva e do meu poder!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"够了！我受够了！你怎么敢这样对我！你马上就会知晓我的愤怒以及真正的强大！ ","color":"dark_aqua"}]}
 
 function att2:voice/aoran/aoran33
+

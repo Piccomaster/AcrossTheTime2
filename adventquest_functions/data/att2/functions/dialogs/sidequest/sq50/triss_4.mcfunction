@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Ele é bastante habilidoso, mas... acho que um pouco de ajuda faria uma grande diferença.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"他很机灵，但是...我认为给他一点帮助能起到作用。","color":"dark_aqua"}]}

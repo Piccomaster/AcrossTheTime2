@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Ah! Ela está na sala estúpida!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"啊！就是她，讨厌的家伙！ ","color":"dark_aqua"}]}

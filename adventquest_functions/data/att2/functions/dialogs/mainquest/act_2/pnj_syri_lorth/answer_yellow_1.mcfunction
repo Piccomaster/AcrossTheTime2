@@ -63,6 +63,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Não, eu não tenho nada disso... Mas você não parece ser o tipo de pessoa que procura problemas... Eu poderia ter um trabalho para você. Um velho conhecido continua me seguindo. Raj, um jovem pegajoso, vem à minha casa discretamente oferecendo-me flores feias e acompanhando-as com poemas tolos... e, como posso dizer... inapropriados. De qualquer forma, não sei como dizer-lhe para me deixar em paz... Se você puder 'convencê-lo' a não me assediar mais, eu o levarei para onde você quiser. Raj mora sob a grande ponte de Méleïm, no cais e muito perto da ponte levadiça. Volte para mim quando isso estiver resolvido.","color":"dark_aqua"}]}
 
-
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"嗯，说实话，我们手头没有相应的活...不过你看上去不像是那种会找我们麻烦的人...这样吧，帮我个忙。我的老相识-一个粘人的年轻小伙Raj，总是缠着我不放。他经常悄悄潜入我的住宅，送给我一些很丑的花。附带写的不咋地的诗文，呃...如何说的委婉点呢，总之，我不知道该怎么拒绝他。如果你能“说服”他，让他别再缠着我了，我就会带你去你想去的地方。Raj住在镇中码头附近的那座大桥下， 他的家离活动吊桥很近。等你办完这件事后再来找我吧。","color":"dark_aqua"}]}
 
 function att2:voice/syri/syri4
+
+

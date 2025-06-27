@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Você é uma criança incapaz. Você me condena, você vai ver, eu não vou deixar isso passar!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"你这个小崽子真没出息，还敢吓唬我，你等着，看我好好收拾它们！ ","color":"dark_aqua"}]}

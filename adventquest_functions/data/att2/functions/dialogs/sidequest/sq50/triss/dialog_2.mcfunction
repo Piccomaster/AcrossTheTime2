@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extr
 
 function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"所以，你怎么看？","color":"dark_aqua"}]}

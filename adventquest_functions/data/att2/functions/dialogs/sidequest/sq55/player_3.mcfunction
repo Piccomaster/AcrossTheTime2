@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui está um pedaço de papel: 'De todas as palavras que podem ser pronunciadas, as do arrependimento são frequentemente escritas no papel mais simples.' Aposto que é o que J'zargo está procurando. É hora de esclarecer suas intenções...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这是一张纸：“在所有可以被读出来的词语中，那些代表着遗憾的绝大多数都被写在最简单的纸上”我猜这就是J'zargo正在寻找的东西。是时候搞清楚他的意图了...","color":"aqua"}]}

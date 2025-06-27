@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Pfff, que bagunça, essa besta... Ah, o que o garotinho quer?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"噗，乱七八糟的，这个小畜生...哦，小伙子有什么事吗？ ","color":"dark_aqua"}]}

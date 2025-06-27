@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Azazel : ","color":"gold","extra
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"O que temos aqui...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"这是怎么回事...","color":"dark_aqua"}]}

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Então você já está nos deixando? Me falaram sobre sua missão. Só posso desejar boa sorte para você: são poucos os que retornam das expedições ao calabouço de Vonaheim... Mas, se há alguém que pode ter sucesso, tenho certeza de que será você! Vamos lá, pessoal! Vamos! Por que vocês não abrem a porta para ele?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"所以你现在要离开我们了？ 我知晓了你的任务，但也只能祝你好运：从对Vonaheim地牢发起的远征里回来的人少之又少...但是， 如果有人能成功的话非你不可！ 来吧伙计们！ 为他加油！ 有什么理由能不帮我们的勇士把大门打开呢？ ","color":"dark_aqua"}]}

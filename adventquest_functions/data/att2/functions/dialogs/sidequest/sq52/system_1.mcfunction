@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Torkant अपनी सभी जि�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Torkant recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Torkant的血量回满了...","color":"gray","italic":true}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon considera que um Néleptron não será suficiente para ter uma audiência com o rei. Começa a me irritar... Assim seja! Vamos buscar outro Néleptron, deve haver outro caminho que leve até lá.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon认为Néleptron的数量不足以参见国王。他快把我惹火了...算了！我们去找另一个Néleptron，那里应该有另一条路。","color":"aqua"}]}

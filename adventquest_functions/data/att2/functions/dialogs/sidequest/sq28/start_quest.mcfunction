@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[यात्रा का अंत]",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[O fim de uma jornada]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[旅途终点]","color":"gold"}

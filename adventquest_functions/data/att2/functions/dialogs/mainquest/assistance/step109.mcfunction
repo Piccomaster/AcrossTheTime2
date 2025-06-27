@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Desbloqueei uma nova habilidade com meus feitiços de fogo: derreter camadas finas de gelo. Parece-me que o gelo está ligado aos sistemas que permitem criar fluxos de ar que podem me erguer ao topo da torre principal... Preciso ir em direção à torre Oeste e derreter o gelo da porta para obter acesso a ela.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我的火系法术解锁了一项新能力：融化薄冰。薄冰与系统相连，系统可以产生气流，把我运到主塔顶部...我现在得先前往西侧，融化门上的冰，然后进入西侧塔楼。","color":"aqua"}]}

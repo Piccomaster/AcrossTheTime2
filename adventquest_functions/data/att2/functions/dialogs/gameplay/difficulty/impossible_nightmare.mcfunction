@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"असंभव! यदि आपने
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Impossível! Se você escolheu a dificuldade <NIGHTMARE>, não poderá voltar atrás...","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"不可能！选择了<梦魇>难度我就没法回头了...","color":"gray"}

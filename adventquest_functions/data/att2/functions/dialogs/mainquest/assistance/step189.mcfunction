@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Lucas, o artista do vento não pode me dar asas para planar, mas indicou onde posso encontrá-las. Tenho que pegar a catapulta e entrar na torre em frente a Zirthion.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"风师Lucas不能给我滑翔的翅膀，但他告诉我在哪里可以找到它们。我必须乘坐弹射器​​进入Zirthion前面的塔楼。","color":"aqua"}]}

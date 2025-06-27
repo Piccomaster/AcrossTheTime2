@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lucimène : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"Kor... Korlaph? Você é meu... meu amor?","color":"blue"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"Korlaph?你..你是亲爱的？","color":"blue"}]}

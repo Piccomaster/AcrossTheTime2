@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"E então? Guerreiros são pessoas respeitáveis, mas nada é bom demais para a nossa excelência reverenciada.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"那又怎样？战士的确是值得尊敬的人，但对于我们尊贵的陛下来说也就那样了。","color":"dark_aqua"}]}

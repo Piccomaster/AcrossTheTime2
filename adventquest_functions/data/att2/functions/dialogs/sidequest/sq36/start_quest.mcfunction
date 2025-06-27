@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[एक बाधित शोक]","co
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Um luto interrompido]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[逝者安息]","color":"gold"}

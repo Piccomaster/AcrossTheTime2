@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Isso? É uma coroa que confere o poder de ressurreição a quem a usa. É um artefato maligno e perigoso, mas o lugar onde eu a mantinha antes não era mais seguro. Eu estava procurando um lugar melhor para escondê-la.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这个？这是一顶能够给予佩戴它的人复活其他生物的力量的王冠。是一个邪恶且危险的物品，但之前保存它的地方不再安全。我在寻找一个更隐蔽的地方来保存它。","color":"aqua"}]}

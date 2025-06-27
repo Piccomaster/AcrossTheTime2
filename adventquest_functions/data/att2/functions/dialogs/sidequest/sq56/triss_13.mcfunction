@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Não, J'zargo, ele não é mau com você, ele está reagindo às suas ações. Eu sempre te amei, J'zargo, como a meu próprio filho, desde o dia em que te recebi sob meus cuidados. ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"a escolha não é minha: se ele te matar, você terá pago por seus erros; mas se ele deixar você viver, então você terá que reconhecer o mal que fez a ele e admitir que ele foi bom com você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"不，J'zargo，他对你没有恶意，他对你的行为作出的反应是正常的。我一直爱着你J'zargo，就像对我自己的儿子一样，从我开始照顾你的那一天起。","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"的选择不是我能决定的：如果他杀了你，那么你就是为你所做的付出了代价：但如果他让你活下去，那么你必须要明白你都对他做错了些什么并且承认他一直以来对你的好。","color":"dark_aqua"}]}

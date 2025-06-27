@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक रहस्यमय च�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um Roubo Misterioso -°- : ","color":"gray","extra":[{"text":"Eu tenho que falar com o cozinheiro, ele deve ter visto alguma coisa...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 神秘盗窃案 -°- : ","color":"gray","extra":[{"text":"我得和厨师聊聊，他应该见过什么","color":"aqua","italic":true}]}

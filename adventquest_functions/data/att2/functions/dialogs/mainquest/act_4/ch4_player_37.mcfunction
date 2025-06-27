@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"O quê?! Agora você vai me ouvir, seu pequeno vigarista! Deixe-me entrar, se não quiser ver esse Néleptron preso no seu...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"什么？！现在给我听着你这骗子！让我进去，你也不想看到这个Néleptron卡在你的皮燕里吧？！","color":"aqua"}]}

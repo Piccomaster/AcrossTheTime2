@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Nolduron : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"Entendo, mas se eu fiz você vir, não é para falar sobre isso, mas sobre outro problema. Desde que o portal para Ëarndhel foi recentemente reaberto, outra... 'anomalia' se manifestou espontaneamente lá, no templo onde você uma vez abriu o portal temporal para salvar o mundo - de acordo com a lenda.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"我懂，但我让你来不是为了谈这些，而是为了另一个问题。自从通往Ëarndhel的传送门重新开启以来，另一个…‘异常’自然降世了，根据传说----就在你曾经为了拯救世界而打开时间传送门的那座神殿里。","color":"dark_aqua"}]}

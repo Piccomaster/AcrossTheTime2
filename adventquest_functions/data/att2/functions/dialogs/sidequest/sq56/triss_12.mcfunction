@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Eu sinto o ódio dentro de você, ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" e não posso guardar rancor. Mas você tem a escolha, não precisa matá-lo...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"我感受到了你内心的仇恨，","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":"，我并不能对此感到怨恨。但你还有别的选择，你不一定要杀他...","color":"dark_aqua"}]}

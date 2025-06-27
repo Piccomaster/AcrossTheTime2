@@ -45,3 +45,6 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Eine Nacht in Sathnok -°- : ","co
 # HINDI LANGUAGE
 
 tellraw @s[scores={LANGUAGE=9}] {"text":"-°- साथनोक में एक रात -°- : ","color":"gray","extra":[{"text":"लिंडा ने मुझे उस मार्गदर्शक के बारे में बताया जिसने उन्हें मैनशन ले जाया। उसने स्थान के खतरे को अनदेखा किया और उनकी भोलापन का फायदा उठाया होगा... मुझे उस मार्गदर्शक से बात करनी होगी। उसका नाम एशली है और वह कोरटेक में रहता है।","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Sathnok惊魂夜 -°- : ","color":"gray","extra":[{"text":"我必须和这个所谓的Ashley向导好好聊聊，他家也在Kortaek。","color":"aqua","italic":true}]}

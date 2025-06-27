@@ -54,7 +54,10 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Eu não sei como você ficou sabendo deste artefato, mas não estou disposto a confiá-lo a qualquer um...","color":"dark_aqua"}]}
 
-
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"我不知道你是从哪听说了这个法器，但我不会轻易将其交付他人...","color":"dark_aqua"}]}
 function att2:voice/phoebius/phoebius2
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_4
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_5
+
+

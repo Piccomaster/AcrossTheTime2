@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Este mecanismo deve ser uma maneira de trazer a água de volta para a sala principal. Talvez se eu abrir os canos certos para fazer a água correr de ambos os lados até o final, eu desbloquearei um acesso a esta sala...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这个机器一定是用来向中央大厅运送水的。如果我能把水管调节到正确的位置，让水流从两端的起点流到各自所在的终点，应该就可以打开房间的大门...","color":"aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"J'zargo não é uma pessoa divertida, ele tem a reputação de ser um pequeno delinquente entre os alunos. Não podemos culpá-lo por tudo: ele não teve uma infância fácil. Há oito anos, quando eu ainda era apenas uma aprendiz em Dahäl, estendi a ele a minha mão, e agora gostaria que ele encontrasse um lugar entre nós. Sua vocação provavelmente não é ser Mestre de Dahäl, mas esta bolsa de estudos é tudo o que posso oferecer a ele, e tenho certeza de que um pouco de reconhecimento o fará se sentir melhor.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"J'zargo并不是一个有趣的人，他在学生中的名声就是个小混混。但我们并不能把这一切都归咎于他：他的童年过得并不轻松。在八年前我仅仅是一名dahal学徒时，我曾向他伸出了援手，现在我希望他能在我们之间找到一席之地。他的天职很可能就不是成为一个dahal大师，但我唯一能提供给他的只有dahal方面的学识，并且我确信多一点认可会令他感觉更好。","color":"dark_aqua"}]}

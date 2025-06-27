@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक रहस्यमय च�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um Roubo Misterioso -°- : ","color":"gray","extra":[{"text":"Bem, é melhor eu voltar para ver o rei e aprender mais sobre os segredos do lugar. Provavelmente encontrarei pistas melhores.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 神秘盗窃案 -°- : ","color":"gray","extra":[{"text":"我最好还是回去问问国王是否有其他密道，这样我可以更好锁定小偷的踪迹","color":"aqua","italic":true}]}

@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Que alívio, meus coelhos agora estarão mais tranquilos. Tudo graças a você, garoto. Pegue isso, é para você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"真是松了一口气，我的兔子现在安全多了，多亏了你，孩子。拿着，这是你应得的。","color":"dark_aqua"}]}

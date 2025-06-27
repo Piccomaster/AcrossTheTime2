@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Entonces, ¿encontraste algo interesante en las llanuras de Sylberländ? ¿No? Debes continuar buscando cerca de los monolitos, la piedra que me trajiste de este lugar es diferente de las demás.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"你在Sylberländ平原发现了什么有趣的东西吗？没有？你在那拿到的石头和其他石头不同，你得在那附近搜寻一下。","color":"dark_aqua"}]}

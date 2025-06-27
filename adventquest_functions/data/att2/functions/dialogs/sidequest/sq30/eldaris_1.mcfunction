@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° रानी एल्डार�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rainha Eldaris : ","color":"gold","extra":[{"text":"Senhor! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":", como você chegou aqui? E com qual propósito?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 女王 Eldaris : ","color":"gold","extra":[{"text":"我的天哪！","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"， 你是怎么来的？出于什么目的？","color":"dark_aqua"}]}

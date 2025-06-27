@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Babbu : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Obrigado, amigo. Vou desfrutar de um banquete divino com, claro, uma pequena garrafa de bebida alcoólica...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"谢谢你朋友，我终于能吃上一顿饱饭了，当然，还得来瓶小酒...","color":"dark_aqua"}]}

@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"नेक्रोमैंस�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Necromante, alienação do Éter","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"死灵法师，异化以太","color":"gray"}

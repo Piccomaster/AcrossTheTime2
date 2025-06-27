@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garry Traskel : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Vamos dizer 150 Chronotons! Negócio fechado! Mate cerca de quinze desses animais e você receberá a quantia!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"那就150个Chronotons！..成交！杀死大约十五只这样的怪物，这笔钱就是你的了！","color":"dark_aqua"}]}

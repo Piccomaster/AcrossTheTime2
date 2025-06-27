@@ -60,3 +60,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Amariel Kaleb : ","color":"gree
 
 
 function att2:dialogs/gameplay/inn/proposal_amariel_kaleb
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Amariel Kaleb : ","color":"green","extra":[{"text":"欢迎光临Kortaek旅馆。如果你想在这里休息,只需要花一点小钱。","color":"dark_aqua"}]}

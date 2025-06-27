@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Certo, então saia da minha casa o mais rápido possível! Eu encontrarei alguém mais gentil e caridoso do que você...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"好吧，那就快点离开我的房子！我会找到比你更好的人来帮我...","color":"dark_aqua"}]}

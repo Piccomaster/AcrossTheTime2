@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"É gentil da sua parte nos ajudar, mas agora eu tenho trabalho, vamos!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"很高心你帮助了我们，我现在终于有活干了！ ","color":"dark_aqua"}]}

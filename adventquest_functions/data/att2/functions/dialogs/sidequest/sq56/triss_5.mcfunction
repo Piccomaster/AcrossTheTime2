@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Estes são os elementos necessários para uma invocação alternativa... J'zargo deve estar em algum lugar na academia, e deve ser encontrado antes que ele invoque alguma entidade sinistra!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"这些都是一种另类的召唤仪式所需的要素...J'zargo一定在学院的某个地方，并且必须在他唤醒某个邪恶的实体之前找将他找到！","color":"dark_aqua"}]}

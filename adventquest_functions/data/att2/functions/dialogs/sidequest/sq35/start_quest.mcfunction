@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[एक घटता हुआ व्�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Um negócio em declínio]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[门可罗雀]","color":"gold"}

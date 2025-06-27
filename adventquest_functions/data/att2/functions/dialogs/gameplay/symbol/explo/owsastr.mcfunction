@@ -4,3 +4,6 @@
 #################################################################
 
 title @s actionbar {"text":"⚙ ","color":"dark_red","extra":[{"text":"Owsästr : ","color":"gray"},{"score":{"name":"Owsastr","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"44","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"⚙ ","color":"dark_red","extra":[{"text":"Owsästr沼泽 : ","color":"gray"},{"score":{"name":"Owsastr","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"44","color":"gold"},{"text":" ⚙","color":"dark_red"}]}

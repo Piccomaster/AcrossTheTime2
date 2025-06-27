@@ -51,5 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° एस्टेल : ","color":"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Estelle : ","color":"green","extra":[{"text":"Olá, você é amigo do Sylvandre? É a primeira vez que te vejo na cidade, no entanto. Ele sempre tenta me impressionar, ele é um pouco irritante e desajeitado, mas é gentil.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Estelle : ","color":"green","extra":[{"text":"你好，你是Sylvandre的朋友吗？我第一次在城里看到你。他总是想方设法吸引我的注意—虽然有些吵闹，又经常笨手笨脚，但他真的是一个很热心肠的人。","color":"dark_aqua"}]}
 
 function att2:voice/estelle/estelle_dialogue1
+

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Mia finden -°- : ","color":"gray"
 #HINDI LANGUAGE
 
 tellraw @s[scores={LANGUAGE=9}] {"text":"-°- मिया खोजें -°- : ","color":"gray","extra":[{"text":"अलफ़ॉन्स के कारण मुझे पता है कि मैं मिया को कहां खोज सकता हूँ। ऐसा लगता है कि मुझे खेतों के चारों ओर घुमने वाली नदी के किनारे जंगल के गहरे में एक गुफा ढूंढनी चाहिए।","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 寻狗大作战 -°- : ","color":"gray","extra":[{"text":"Alphonse建议我去森林深处一条河流旁的洞穴里看看，说不定小狗就在那里","color":"aqua","italic":true}]}

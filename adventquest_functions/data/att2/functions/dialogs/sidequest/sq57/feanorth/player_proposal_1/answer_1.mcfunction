@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Feanorth : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Obrigado, o povo Eternän já está eternamente grato a você. Eu o recompensarei com os poucos Chronotons que me restam no acampamento. Dirija-se aos bairros ocidentais de Angor, procure o ninho nas ruínas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"谢谢你，Eternän人会永远感谢你。我会给你我存在营地里的一些Chronotons。前往angor遗迹西部，在废墟中寻找那些生物的巢穴。","color":"dark_aqua"}]}

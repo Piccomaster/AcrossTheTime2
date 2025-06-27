@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alfred Mornith : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"Bem, eu ouvi o trabalho, foi um grande barulho! De qualquer forma, obrigado pela ajuda.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"好，我就知道你成功了，好大的动静！无论如何，感谢你的帮助。","color":"dark_aqua"}]}

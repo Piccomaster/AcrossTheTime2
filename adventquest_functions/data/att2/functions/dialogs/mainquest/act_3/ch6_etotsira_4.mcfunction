@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"A sua morte foi trágica. Paradoxalmente, Relgon foi tanto o mais capaz como o menos capaz de derrotar La Flamme Noire. E isso foi o que causou a sua queda.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"他的死是一场悲剧。讽刺的是，Relgon是最有可能战胜La_Flamme_Noire的人，但同时也是最可能被打败的人，而这，正是他陨落的原因。","color":"dark_aqua"}]}

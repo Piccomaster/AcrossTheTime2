@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Provavelmente é a partir deste lugar que a porta principal do templo se abre. Preciso dessas pedras turquesas para ativar o mecanismo. Deve haver algumas na área....","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这些青色的石头应该是用来打开这座神殿的。看样子数量还不太够—这附近应该还可以找到一些...","color":"aqua"}]}

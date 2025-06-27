@@ -63,6 +63,7 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"*Sarcasmo* Ooooh, estou com medo! Estou sendo intimidado? Se você acha que meu navio vai partir com você se algo acontecer comigo ou com meus entes queridos, você está enganado. Já conheci muitas pessoas que são muito mais intimidadoras que você, então sugiro que adote um tom diferente...","color":"dark_aqua"}]}
 
-
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"*讽刺地* 哇噢，我好害怕哦！你这是在威胁我吗？如果你觉得对我或是我的家人干点什么事出来就能迫使我开船的话，你可就大错特错了。我吃过的亏比你吃过的米还多嘞！你最好换个语气说话...","color":"dark_aqua"}]}
 
 function att2:voice/syri/syri6

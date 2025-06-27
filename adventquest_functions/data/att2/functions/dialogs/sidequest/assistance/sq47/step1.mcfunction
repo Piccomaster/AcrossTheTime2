@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- Rukyrion -°- : ","color":"gray","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"Eu deveria seguir Namrïn...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"我应该跟随Namrin。","color":"aqua","italic":true}]}

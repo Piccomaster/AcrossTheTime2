@@ -64,3 +64,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-<°>- साइड क्वेस्�
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Minha jornada termina aqui... No entanto, agora posso ajudar os povos de Sylberländ, Angband e Ouranos a descobrir todos os segredos que os reinos guardam.","color":"aqua"}]}
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-<°>- Missões secundárias completadas: ","color":"gray","extra":[{"score":{"name":"@s","objective":"SIDEQUEST"},"color":"red"},{"text":" / ","color":"gray"},{"text":"60","color":"dark_green"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我的主要任务到此告一段落了...但相对的，我现在可以尽情地帮助Sylberländ、Angband和Ouranos的人们，同时继续我在这片大地上的探索未知之旅了。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":"-<°>- 支线任务完成 : ","color":"gray","extra":[{"score":{"name":"@s","objective":"SIDEQUEST"},"color":"red"},{"text":" / ","color":"gray"},{"text":"60","color":"dark_green"}]}

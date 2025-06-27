@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*feliz e agradecida* Ahah, sim, suponho que ele deve ter te arrastado por toda parte. Sinto muito por você ter passado por isso, mas agora que ele voltou, está seguro agora!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*开心且感激*啊哈，是的，我想他一定是到处拖拖拉拉的。很抱歉你不得不经历这些，但现在他回来了，他现在安全了！","color":"dark_aqua"}]}

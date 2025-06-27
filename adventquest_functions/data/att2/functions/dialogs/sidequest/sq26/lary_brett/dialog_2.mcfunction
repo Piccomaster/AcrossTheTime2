@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lary Brett : ","color":"green",
 
 function att2:dialogs/sidequest/sq26/lary_brett/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq26/lary_brett/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"嗯？你想要什么？","color":"dark_aqua"}]}

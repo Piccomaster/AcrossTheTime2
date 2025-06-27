@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सोई हुई अंधक�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A escuridão adormecida -°- : ","color":"gray","extra":[{"text":"Namrïn não acredita que eu sou a reencarnação de Relgon. Eu preciso encontrar uma maneira de provar isso.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"Namrin不相信我是Relgon的转世，我应该想办法让他信服。","color":"aqua","italic":true}]}

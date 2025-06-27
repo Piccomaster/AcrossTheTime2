@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Omeryn White : ","color":"green
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"所以？你准备好在我的仓库里猎杀这些怪物了吗？","color":"dark_aqua"}]}

@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"क्रूर बौना, �
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Anão cruel, o carrasco dos corsários","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"残忍的侏儒。海盗中的刽子手","color":"gray"}

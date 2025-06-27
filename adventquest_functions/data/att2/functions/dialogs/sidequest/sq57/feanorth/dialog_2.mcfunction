@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Feanorth : ","color":"green","e
 
 function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"嘿！你又回来了。太好了！我知道你完成了很多辉煌的成就，我这里可能有一些麻烦，所以我需要你的帮助!—Atricanth巢穴里面有一些小生物，还好它们还没成年，但是如果放任不管就会形成灾难。这些生物在angor某处筑巢，但是我们的战士在不久前的战争中牺牲了许多，我们没有足够的人手去清剿这些生物，所以我希望可以借助你的力量帮助我们消灭这些生物。","color":"dark_aqua"}]}

@@ -41,3 +41,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- Wulk को लोहे की �
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Wulk precisa de ferro -°- : ","color":"gray","extra":[{"text":"Posso descer mais fundo nas minas e procurar os lingotes de ferro.","bold":false,"color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 缺铁的铁匠 -°- : ","color":"gray","extra":[{"text":"可以去往矿洞深处了，说不定在那可以找到一些铁矿","bold":false,"color":"aqua","italic":true}]}

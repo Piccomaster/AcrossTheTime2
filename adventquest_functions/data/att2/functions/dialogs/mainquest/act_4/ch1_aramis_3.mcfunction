@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Ele é um dos nossos antigos alunos, mas sua ganância pelo poder o levou a roubar uma de nossas relíquias proibidas: uma pedra de necromancia. Depois disso, ele fugiu para as montanhas com a mesma missão que você: encontrar o gem do tempo que lá se esconde. Muitos de nós morreram tentando impedi-lo ou defendendo nossa cidade.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"他曾从师于学院，但他对权力的觊觎促使他盗取了一件禁忌遗物： 一块死灵宝石。在那之后，他产生了和你相同的目标：寻找此地的时间宝石，他也正因此躲进深山。我们中的许多人在试图阻止他的过程中或是保卫我们的城市时牺牲了。","color":"dark_aqua"}]}

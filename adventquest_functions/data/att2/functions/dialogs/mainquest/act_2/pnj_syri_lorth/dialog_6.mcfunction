@@ -59,7 +59,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Pronto para ir a Asunark?","color":"dark_aqua"}]}
 
-
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"准备好前往Asunark岛屿了吗？","color":"dark_aqua"}]}
 
 function att2:voice/syri/syri_dialogue3
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_2
+

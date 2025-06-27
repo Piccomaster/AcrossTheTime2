@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ashley Williams : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"Não estou disponível, por favor volte em outro momento...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"我没空，请过一段时间再来吧...","color":"dark_aqua"}]}

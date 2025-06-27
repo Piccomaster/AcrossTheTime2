@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Da fonte de Dahäl brota poder que não é feito para ser usado nesse estado. Os mestres de Dahäl recebem apenas uma fração desse poder. No entanto, absorver este líquido confere capacidades que excedem as de um meio deus.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Dahäl泉源只允许使用者有节制地使用它的力量，Dahäl的掌控者们最多只能获得泉源力量的一小部分。如果你能完全吸收泉源，你就能得到超越半神之力。","color":"dark_aqua"}]}

@@ -58,8 +58,11 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Cuidado, estas montanhas podem esconder segredos terríveis...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"时刻保持警惕，山峦起伏间不知道藏着怎样可怕的秘密...","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis_dialogue3
 
 
 function att2:dialogs/others/aramis/grinder_indication
+

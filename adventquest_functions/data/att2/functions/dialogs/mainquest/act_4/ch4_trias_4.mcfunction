@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Presumivelmente, você não é deste mundo, não é?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"想必你并不是本土居民，对么？ ","color":"dark_aqua"}]}

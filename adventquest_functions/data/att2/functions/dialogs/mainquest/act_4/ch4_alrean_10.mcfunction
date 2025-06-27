@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Sim, sim, você tem que fazer isso. Mas você só poderá fazê-lo voando. Vá até a casa do artista do vento, ele vai te ajudar. Para encontrá-lo, siga a estrada na minha frente, atravesse a ponte e continue para o norte. Em seguida, suba as escadas que você encontrará no cruzamento e você encontrará a única casa excêntrica da cidade...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"是的，是的，你必须去。但你只能飞过去。去找风师的房子，他会帮你的。要找到他就沿着我面前的路走，穿过桥，然后继续往北走。接下来在十字路口爬上楼梯，你就会碰到镇上唯一一栋截然不同的房子...","color":"dark_aqua"}]}

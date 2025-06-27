@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wulk : ","color":"green","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Ótimo, você terá que ir até a mina explorada pelos mineradores de Ryliath. Não é muito complicado, fica na floresta ao leste. Um pequeno caminho o levará diretamente até lá. Você poderá derreter o minério e refiná-lo facilmente graças aos meus fornos.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"太好了，你要去的地方是Ryliath矿工们发现的矿场。那边的路很近，就在森林的东边，有一条泥土小路可以直达那里。只要用我的铁炉就可以很轻松地提炼铁矿了。","color":"dark_aqua"}]}

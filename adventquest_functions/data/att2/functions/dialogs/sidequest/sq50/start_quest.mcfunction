@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[बिल्ली पकड़ो]","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Pegue o gato]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[抓猫]","color":"gold"}

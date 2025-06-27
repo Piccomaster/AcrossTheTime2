@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Você já esqueceu o plano? Sem brincadeira, espere até a noite para entrar nos esgotos e depois quebre a parede enfraquecida abaixo do banco. Simples, não?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你忘了我们的计划？别逗我好嘛。等到晚上进入下水道，然后打破银行背面一处脆弱的墙壁，这不是很简单吗？？","color":"dark_aqua"}]}

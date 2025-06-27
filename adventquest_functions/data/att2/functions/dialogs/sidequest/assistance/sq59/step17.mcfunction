@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Então a anomalia na qual eu caí, seria uma emanação vinda de uma mistura? Eu preciso saber mais! Etotsira me disse que o Alquimista de Ëarndhel voltou.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"所以说，导致我陷入这些事情的异常现象，竟然是某个混合物发射的能量吗？我需要更多情报！按Etotsira所说，Ëarndhel的炼金术士回来了，要不去问问他吧。","color":"aqua","italic":true}]}

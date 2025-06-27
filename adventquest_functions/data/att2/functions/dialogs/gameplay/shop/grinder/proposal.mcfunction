@@ -36,3 +36,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपको मिलेगा: ","col
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Você receberá: ","color":"gray","extra":[{"score":{"name":"total","objective":"GRINDER"},"color":"yellow"},{"text":".","color":"gray"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"你将获得:","color":"gray","extra":[{"score":{"name":"total","objective":"GRINDER"},"color":"yellow"},{"text":"个符文粉末","color":"gray"}]}

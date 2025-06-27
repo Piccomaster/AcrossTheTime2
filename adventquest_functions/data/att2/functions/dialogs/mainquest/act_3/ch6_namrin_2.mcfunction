@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Tantas coisas aconteceram no último dia. La Flamme Noire não existe mais; Gaya, deusa de outro reino, apareceu para nós e nos ajudou enviando seus filhos para cá. Relgon está morto e Sérile nos abandonou...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"今天发生了太多事情：La_Flamme_Noire消泯于世；另一个王国的女神Gaya降下神迹，并向我们施以援手，将她的孩子送到这里；Relgon安眠了；Sérile抛弃了我们...","color":"dark_aqua"}]}

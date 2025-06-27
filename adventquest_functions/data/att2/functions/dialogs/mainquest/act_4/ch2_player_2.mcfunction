@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"O fluxo de ar foi interrompido. Eu preferiria que ele me levasse até o topo da torre, mas isso é um bom começo... Agora, vamos descer pela ventilação para ver se há algo interessante do outro lado.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"上升气流停止了，我宁愿它一直把我带到塔顶，不过这也算是个不错的开始……现在，我们沿着通风口下去看看，也许另一边有什么有趣的东西。。","color":"aqua"}]}

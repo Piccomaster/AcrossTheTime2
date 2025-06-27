@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Derim Kril : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Ah droga. Bem, não é nada, vou perguntar a ela imediatamente. Espere-me aqui!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"啊该死。好吧，没什么，我马上去问她。在这里等我！","color":"dark_aqua"}]}

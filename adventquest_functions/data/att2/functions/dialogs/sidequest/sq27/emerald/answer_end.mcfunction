@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Ela armou uma armadilha para você? Sempre tão engenhosa, hahaha! Tal mãe, tal filha... Hum, desculpe. Enfim, você ainda está vivo, isso é o mais importante! A mensagem que você me trouxe é perturbadora, fala sobre os picos cobertos de neve de Elchéol. É o nome da grande cadeia de montanhas ao norte da região. Encontre-me na primeira cidade nas montanhas quando puder, o caminho ainda é longo, mas estamos chegando perto do objetivo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"她给你留下了一个陷阱？她总机智，哈哈哈！真是有其母必有其女...哦，抱歉。见到你平安无事才是最重要的！你带来的这本书令我感到不安，它提到了关于Elcheol的雪山山峰，那是北部地区一座有名的山脉。如果你要来的话，我们在北国的雪城里见面。路途遥远，但是目标很近！","color":"dark_aqua"}]}

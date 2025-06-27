@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O aluno veio, mais uma vez. J'zargo teria preferido que ele tivesse ficado preso em Billgart, mas o aluno é muito sortudo e adora atrapalhar seu mestre.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"那学徒又来了。J'zargo本来希望他被困在Billgart那里，但是这个学徒太幸运了，并且太热衷于打扰他的师傅了。","color":"dark_aqua"}]}

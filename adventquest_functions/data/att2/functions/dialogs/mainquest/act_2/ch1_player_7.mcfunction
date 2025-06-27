@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Se eu passar a noite lá fora, vou congelar até a morte! E não comece a me contar que tipos de bestas eu poderia encontrar... Espere um segundo! Sou um especialista em lutas e caça com minha lâmina! E sou um mestre em Dahäl! Eu te imploro! Não há algo que eu possa fazer para pagar a noite?","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"如果在外面过夜，我一定会被冻死的！我也不想知道自己在外头会遇上什么野兽...等一下！我能用剑战斗和狩猎！我能熟练使用Dahäl咒语！求你了！我能为你做些什么来换取今晚在这留宿的许可吗？ ","color":"aqua"}]}

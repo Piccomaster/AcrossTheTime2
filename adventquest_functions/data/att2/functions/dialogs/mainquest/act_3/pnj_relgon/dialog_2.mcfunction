@@ -51,6 +51,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Está pronto para a batalha final?","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"阁下准备好迎接终局之战了么？","color":"dark_aqua"}]}
 
 function att2:voice/relgon/relgon_dialogue2
 function att2:dialogs/mainquest/act_3/pnj_relgon/player_answer_proposal_1
+

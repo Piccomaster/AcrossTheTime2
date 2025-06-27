@@ -64,3 +64,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Korlaph : ","color":"green","ex
 
 
 tellraw @a {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"...ABRAXAM ! ABRA..HA..DA...","color":"dark_red","obfuscated":true}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"我告诉你为什么我要把你带到这里...","color":"dark_red"}]}

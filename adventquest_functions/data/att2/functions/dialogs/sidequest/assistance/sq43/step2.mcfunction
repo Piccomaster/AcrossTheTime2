@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- लाभ का चाल -°- : 
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O isco do ganho -°- : ","color":"gray","extra":[{"text":"Finalmente encontrei a entrada secreta sob a cachoeira da mina de Kert. Vamos pegar tudo o que pudermos e voltar para Linda para dar-lhe uma parte do tesouro para que ela possa pagar suas dívidas.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 利益的诱饵 -°- : ","color":"gray","extra":[{"text":"已经成功清除Kert沙漠里矿井口的障碍了，把里面能拿的都拿上吧。回去分一部分给Linda好让她能还债。","color":"aqua","italic":true}]}

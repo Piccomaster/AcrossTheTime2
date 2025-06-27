@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Alréan não sabe nada sobre a gema do tempo, mas me aconselhou a falar com o artista do vento. Ele deve ser capaz de encontrar uma maneira para eu voar através da dimensão.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Alréan对时间宝石一无所知，但她建议我与风师交谈。他应该能找到让我在维度中飞行的方法。","color":"aqua"}]}

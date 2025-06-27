@@ -36,3 +36,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"बैंक में कुल क्
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Total de Chronoton no banco: ","color":"gold","extra":[{"score":{"name":"@s","objective":"BANK"},"color":"yellow"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"银行存款余额：","color":"gold","extra":[{"score":{"name":"@s","objective":"BANK"},"color":"yellow"}]}

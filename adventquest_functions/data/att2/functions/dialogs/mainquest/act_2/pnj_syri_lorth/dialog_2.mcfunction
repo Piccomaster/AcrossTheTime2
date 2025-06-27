@@ -81,8 +81,12 @@ tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","colo
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Minha mãe? Ah... Você é o viajante em busca de emoções de quem minha mãe falou! O mar está particularmente agitado nesta época do ano, e acabei de retornar de uma longa viagem. Convencer minha tripulação a partir só por causa dos seus belos olhos me parece bastante complicado. A menos que você pague o preço? 1000 Cronotons... não, 500 Cronotons serão suficientes porque você é amigo de Indra, afinal.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是Syri吗？令堂把你引荐给我，希望你能帮我一个忙...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"我妈吗？啊...你就是我妈所说的，那个想追求刺激的旅行者！很可惜，每年这时候的海况都很差，而且我们刚结束一次长途航行-就结论上看，如果仅仅是为了满足你的个人想法的话: 比起说服我，想要说服我的船员们更加困难-除非一些幸苦费。比如1000chronoton...啊不，看在你是我妈朋友的份上，500chronoton就行。","color":"dark_aqua"}]}
 
 function att2:voice/syri/syri2
 
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_1_0
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_1_1
+

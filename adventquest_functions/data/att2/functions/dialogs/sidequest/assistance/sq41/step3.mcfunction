@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- आप कभी नहीं ज�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Nunca se sabe o que você vai encontrar -°- : ","color":"gray","extra":[{"text":"Aqui estamos, agora que a passagem secreta está aberta, poderei me infiltrar dentro do covil e finalmente encontrar um tesouro inestimável digno do nome!","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 你永远不知道你会得到什么 -°- : ","color":"gray","extra":[{"text":"终于！密道打开了，我要进去狠狠搜刮一番！百万财产在等着我呢。","color":"aqua","italic":true}]}

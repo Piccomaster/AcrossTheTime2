@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Feanorth : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Você encontrou o ninho de Atricanth? Procure bem nas ruínas em direção aos bairros ocidentais de Angor.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"你找到Atricanth的巢穴了吗？那个地方藏得很隐蔽，没准需要彻底搜寻一遍angor废墟。","color":"dark_aqua"}]}

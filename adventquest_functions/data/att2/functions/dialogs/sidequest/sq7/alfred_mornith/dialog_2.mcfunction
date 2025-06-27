@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alfred Mornith : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"Você encontrou alguma? Há muitas nas minas, e então eu vou deixar você explodir a entrada.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"你找到一些引线了吗？矿井里有很多，之后你得炸毁入口。","color":"dark_aqua"}]}

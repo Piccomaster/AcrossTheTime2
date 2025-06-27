@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"Owsästr के पतन की
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Memórias sombrias da decadência de Owsästr","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Owsästr腐朽的黑暗回忆","color":"gray"}

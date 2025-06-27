@@ -60,5 +60,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"gray","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","extra":[{"text":"Mentiroso!","color":"yellow","italic":true}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"骗子...骗子！ ","color":"yellow","italic":true}]}
 
 function att2:voice/serile/serile62
+

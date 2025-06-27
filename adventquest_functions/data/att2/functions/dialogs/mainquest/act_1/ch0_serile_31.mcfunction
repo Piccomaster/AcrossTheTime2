@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Vou te enviar de volta ao passado, quatro anos após a sua jornada. Desculpe, não posso ir com você. Você terá que encontrar o Etotsira sozinho...","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"我会把你传送回上次冒险结束时的四年后。抱歉，我不能和你同行，你得靠自己的力量找到他...","color":"yellow","italic":true}]}

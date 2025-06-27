@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"A área está repleta de instabilidades temporais. Portais aparecem e desaparecem aleatoriamente, e levam aos tempos antigos: os tempos em que aconteceu o terrível evento, origem de suas aparições.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"这个区域充满了不稳定的时间流。传送门会随机出现和消失，并通向荒古：那正是那场灾劫降世的时代，也正是这不稳定的时间流们的起源。","color":"dark_aqua"}]}

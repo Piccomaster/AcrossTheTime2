@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"अनुयायियों का �
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Os lacaios recuperam sua saúde...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"随从们已然恢复如初...","color":"gray","italic":true}

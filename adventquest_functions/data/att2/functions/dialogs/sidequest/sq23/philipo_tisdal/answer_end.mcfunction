@@ -51,3 +51,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Não há mais criaturas vagando pelos meus campos? Muito bem, espero que não voltem... Pegue esses Cronotons.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"那些老鼠离开了我的农场？太好了，我希望它们不要再回来了...这是给你的Chronotons。","color":"dark_aqua"}]}

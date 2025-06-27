@@ -50,3 +50,6 @@ title @a[scores={LANGUAGE=9}] title {"text":"ᨑ ","color":"gray","extra":[{"tex
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] title {"text":"ᨑ ","color":"gray","extra":[{"text":"Jogabilidade e texturas","color":"dark_red"},{"text":" ᨑ","color":"gray"}]}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] title {"text":"ᨑ ","color":"gray","extra":[{"text":"游戏设计&材质设计","color":"dark_red"},{"text":" ᨑ","color":"gray"}]}

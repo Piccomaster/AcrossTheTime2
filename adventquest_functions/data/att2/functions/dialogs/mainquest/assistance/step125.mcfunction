@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Este ser de pedra gigante pede minha ajuda. De fato, posso ajudá-lo para obter ajuda em troca ou me livrar dele na esperança de que ele liberte meu caminho...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这个巨大的石像希望我能帮他的忙。确实，我应该帮助他，这样我就能得到他的帮助，或者不至于被他干掉。如果他能帮我解决前进的问题就好了...","color":"aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Abmup & Nomit अपनी सभी �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Abmup & Nomit recuperam todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Abmup&Nomit恢复了他们的力量...","color":"gray","italic":true}

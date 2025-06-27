@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hurriel Sun : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Então, você encontrou minha chave?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"那你找到我的钥匙了吗？ ","color":"dark_aqua"}]}

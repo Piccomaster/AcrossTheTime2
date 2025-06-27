@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ormack : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"Ah, boas notícias! Eu não conheço a identidade dos nossos ladrões, exceto que eles são pelo menos da região e conhecem bem o nosso acampamento... Na verdade, eu tive que banir, durante a última temporada, vários membros da aldeia após um assassinato que levou a uma série de vinganças, enfim, uma longa história. Não me surpreenderia se isso fosse uma das suas represálias. O grupo deles pode ter encontrado refúgio perto de uma mina localizada logo ao sul do nosso acampamento na floresta.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"啊，太好了！其实除了知道他们对我们营地了如指掌，还有他们本来是这里的人外就没什么情报了...其实在上一次会议的时候我不得不驱逐几个牵涉到连环杀人案的居民，要不报复行动真的是没完没了。况且我也不意外这也许也是他们报复的其中一环，他的组织可能在这边南方靠近森林的矿洞旁建了一个避难所。","color":"dark_aqua"}]}

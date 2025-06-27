@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Obrigado! Pegue as chaves. Sua casa está no mesmo bairro, logo à direita após sair da minha casa.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"谢谢惠顾！请拿好房子的钥匙。您的新家就在这片街区—出门右转后直走就是。","color":"dark_aqua"}]}

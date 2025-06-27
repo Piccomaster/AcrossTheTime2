@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[घोंसला साफ करे
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Limpar o ninho]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[清理巢穴]","color":"gold"}

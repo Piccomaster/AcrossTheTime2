@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sim, eu encontrei o templo nos pântanos e depois a gema que ele continha. Agora, você sabe onde eu poderia encontrar uma segunda?","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我在那片沼泽里发现了一座神殿，拿到了存放在那里的空间宝石。那么，我现在应该去哪找另一块空间宝石呢？ ","color":"aqua"}]}

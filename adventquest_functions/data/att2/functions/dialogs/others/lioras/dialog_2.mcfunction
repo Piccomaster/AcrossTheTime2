@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lioras : ","color":"green","ext
 
 
 execute if score lioras_PNJ DIALOG matches ..2 run scoreboard players set lioras_PNJ DIALOG 3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"嘿陌生人！你是打败Vonaheim的人吗？你的实力真令人感到振奋，你不会每天都找到像我这样经验丰富的冒险家。我想和你交流我的情报，也许你会比我那个的朋友更加兴奋...","color":"dark_aqua"}]}

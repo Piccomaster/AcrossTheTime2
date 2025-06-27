@@ -58,6 +58,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Eu sou um S, o último com Sérile no título. Sécar ou S é um título atribuído àqueles que passaram no antigo teste tradicional. Este é provavelmente o exercício mais difícil, longo e perigoso que existe. Os mestres voluntários, designados por La Flamme Noire, foram enviados ao glóbulo de Sécar e se perderam dentro dele. O objetivo era sair do glóbulo, o que poderia levar vários ciclos. Apesar do perigo, ninguém nunca morreu durante o teste: a semi-deusa sempre escolheu bem os contendores. Sérile e eu saímos no início da temporada, após uma estadia de dois ciclos...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我和Sérile一样，是最后一批拥有S头衔的人。Sécar简称S，只有通过远古试炼之人可被赋予这项头衔。这个试炼可谓是最困难、最漫长、最危险的考验。被La_Flamme_Noire看中的勇士们将被送入“Secar之球”并迷失其中。虽然他们只有“离开这座血池试炼场”这一个目标，但这一过程可以长达好几个轮回。尽管险象环生，但从未有人在这场试炼中失去生命：那位半神总能慧眼识珠。而我和Sérile在试炼开始不久就达成了目标—确切地说，我们俩只在里面待了两个轮回。","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_dialogue3
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4
+

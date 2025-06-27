@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक रहस्यमय च�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um Roubo Misterioso -°- : ","color":"gray","extra":[{"text":"O comandante me disse onde foi cometido o roubo. Há uma pequena sala secreta na biblioteca no fundo e atrás dele, eu preciso dar uma olhada.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 神秘盗窃案 -°- : ","color":"gray","extra":[{"text":"司令官提及被偷的地点在他背后图书馆深处的一间密室，我需要去那看看","color":"aqua","italic":true}]}

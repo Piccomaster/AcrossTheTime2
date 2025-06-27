@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O mestre e seu pupilo estão aos pés deste oceano de areia. Uma paisagem impressionante, muito mais do que J'zargo esperava.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"师傅和学徒就在这沙海的脚下。一片令人印象深刻的景观，远远超出了J'zargo的预期。","color":"dark_aqua"}]}

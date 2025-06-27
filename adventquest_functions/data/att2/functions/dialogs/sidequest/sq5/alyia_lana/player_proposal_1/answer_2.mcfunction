@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alyia Lana : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"Ah sim, Mia, seu cão... Eu não a vi, mas ouvi dizer que um cão vagueia pelos cais. Os agricultores também tiveram muitos desaparecimentos no seu gado, um animal deve ter atacado suas gaiolas e roubado coelhos... Você provavelmente pode começar por lá, as fazendas estão acima da aldeia.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"啊是的，他的狗Mia...我没见过，但我听说有一只狗在码头上闲逛。 农民的牲畜也有很多失踪，一定是它袭击了农民的小屋并抢走了兔子... 你可以去镇子上方的农场那边找找 ","color":"dark_aqua"}]}

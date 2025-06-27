@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Deixe-nos passar, estou apenas levando-o para ele!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"让我们进去，我会把他带到将军面前！","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin8
+

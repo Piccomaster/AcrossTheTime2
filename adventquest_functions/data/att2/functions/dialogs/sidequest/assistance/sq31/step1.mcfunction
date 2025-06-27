@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- आवश्यकता में
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma cidade em necessidade -°- : ","color":"gray","extra":[{"text":"Raphaël é responsável pelo suprimento e geralmente viaja de Ryliath para Eolorion, mas ele está desaparecido. Preciso verificar a rota principal por onde subi para Eolorion, ele pode ter sido atacado ou teve algum problema no caminho...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 一座需要帮助的城市 -°- : ","color":"gray","extra":[{"text":"Raphael负责补给的运输，他平常都是走从Ryliath通向Eolorion的那条主路的，可今天他出去很久了都没见回来。我需要在来时路上找找，说不定Raphael遭遇了什么不测。","color":"aqua","italic":true}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Olá, se você está procurando informações, você pode encontrar Aramis o Arquimago em seus aposentos nos andares superiores da academia.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"你好。如果想收集些关于时间宝石的情报，你可以到学院顶楼的办公室里找首席魔法师Aramis。","color":"dark_aqua"}]}

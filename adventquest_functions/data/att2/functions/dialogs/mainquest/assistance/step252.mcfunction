@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não posso ir mais longe se não desativar esta escotilha. É necessário que eu procure, enquanto passo pelas várias temporalidades, o mecanismo que a ativará.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"如果我不关闭这个舱口我就不能再进一步了。我有必要在穿梭于各个时间段的同时寻找激活它的机制。","color":"aqua"}]}

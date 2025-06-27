@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extr
 function att2:dialogs/sidequest/sq49/trias/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq49/trias/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq49/trias/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"你好！能再次见到你真是太好了。你手里的那把弓太显眼了。我记得我对你说过这把弓对我很重要，可以请你还给我吗？我会给你很多报酬的。","color":"dark_aqua"}]}

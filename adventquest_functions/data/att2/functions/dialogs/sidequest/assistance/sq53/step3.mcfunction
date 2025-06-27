@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की प्रसिद�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 3 -°- : ","color":"gray","extra":[{"text":"Encontrei uma esmeralda, acho que isso vai interessar a J'zargo. Vamos mostrar isso a ele.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 3 部分 -°- : ","color":"gray","extra":[{"text":"这大块绿宝石应该能满足J'zargo的好奇心了，把它带回去吧。","color":"aqua","italic":true}]}

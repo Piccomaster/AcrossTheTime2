@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A joia espacial está localizada no enorme ovo de vidro no centro do templo. A única maneira de acessá-la seria elevar o nível da água inundando a sala. Com certeza poderei fazer isso graças às quatro grandes armadilhas... Os quatro pilares devem controlar a abertura, mas o acesso a eles não pode ser feito a partir da sala central.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"空间宝石存放在大厅正中央的巨大玻璃蛋里。拿到它的唯一方法，就是升高水位， 让水淹没大厅——四个巨大的阀门似乎也印证了我的想法...大厅四周的四根大柱子应该可以控制它们的开闭，但我似乎不能直接从中央大厅到那儿，得另辟蹊径才行。","color":"aqua"}]}

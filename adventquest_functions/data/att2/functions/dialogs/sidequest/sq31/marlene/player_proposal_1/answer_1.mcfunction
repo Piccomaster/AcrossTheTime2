@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Precisa de ajuda? Eu ficarei feliz em ajudar. Os invernos aqui são rigorosos e dependemos muito do vale para obter alimentos. Todos estão contando com Raphaël, nosso principal transportador, mas, ei! Não há histórias sem incidentes! Não tivemos notícias dele há uma semana. Às vezes ele se atrasa, mas isso é preocupante, precisamos comer aqui!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"你来的正是时候。这里的冬天实在是太寒冷了，我们非常依赖山谷里的农作物。每个人都在盼望着我们的运粮主力Raphael能够回来，但是，任何事都会出现意外！我们已经一周没有他的消息了，虽然有时他来的很迟，但是现在我很担心，因为我们急需那些粮食！ ","color":"dark_aqua"}]}

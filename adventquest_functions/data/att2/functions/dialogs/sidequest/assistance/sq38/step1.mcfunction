@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक अंधेरे उप�
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um artefato sombrio -°- : ","color":"gray","extra":[{"text":"Walton me deu uma chave que certamente pode ser usada nas ruínas de Scheströwn. Devo explorar o local e encontrar a sala ritual que abriga o altar.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 黑暗之物 -°- : ","color":"gray","extra":[{"text":"Walton交给我的钥匙应该能开启一间用来举行仪式的密室，我得仔细搜搜这片遗迹。","color":"aqua","italic":true}]}

@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lilith : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"Hihihihi! Pegos! Você realmente achou que eu ia te oferecer uma recompensa? Você vai especialmente temperar minha boa sopa, humanos são tão apetitosos!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"hiahiahia！上钩了吧！你真的以为我会给你奖励吗？你这种食材肯定会让我的汤更加的美味，人类真的太香了！ ","color":"dark_aqua"}]}

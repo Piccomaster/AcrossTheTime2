@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"कोर्ट ऑफ केओस क
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Depósito da Escama Soberana do Caos: ","color":"light_purple","extra":[{"score":{"name":"@s","objective":"ESC"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"当前存储的混沌鳞片数量:","color":"light_purple","extra":[{"score":{"name":"@s","objective":"ESC"},"color":"gold"}]}

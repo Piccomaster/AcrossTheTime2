@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Violette : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"Muito obrigado, o cemitério está mais acima. Cuide-se!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"非常感谢，墓地在这里西边的高处。要多加小心！ ","color":"dark_aqua"}]}

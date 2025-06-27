@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- प्राचीन कर्त
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O dever imemorial -°- : ","color":"gray","extra":[{"text":"Encontrei um arco perdido nos escombros de estruturas antigas. É de uma qualidade rara, talvez seja o que Trias me mencionou.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 远古的义务 -°- : ","color":"gray","extra":[{"text":"我在遗迹废墟中找到了一把质量上乘的弓，这应该是Trias向我提到的那把。","color":"aqua","italic":true}]}

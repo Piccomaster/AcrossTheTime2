@@ -51,5 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Vamos lá, hop hop hop. Sem Néleptron, sem entrada!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"来吧，快快快。没有Néleptron就不可能放你进去！ ","color":"dark_aqua"}]}
 
 function att2:voice/skaolon/skaolon_dialogue1
+

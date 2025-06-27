@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Então o ladrão usou um passageiro secreto para a cozinha do palácio? Com estes planos em mãos, ele pode se esconder em qualquer lugar. No entanto, duvido muito que ele tenha usado este passageiro aqui, mas talvez isso ajude você a encontrar outras pistas. Vou abri-lo para você!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"所以小偷就偷偷摸摸从秘密通道溜进了宫殿的厨房？有了那些设计图，他可以躲在任何地方。但是我怀疑他有没有使用这里的秘密通道，或许这个通道会给你提供一些线索。我帮你打开它！","color":"dark_aqua"}]}

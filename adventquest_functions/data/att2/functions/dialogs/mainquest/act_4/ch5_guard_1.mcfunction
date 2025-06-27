@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड्स : ","color
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guardas : ","color":"green","extra":[{"text":"Grande Brynhild, um estranho passa por nossas terras. Devemos colocá-lo na prisão?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 警卫 : ","color":"green","extra":[{"text":"伟大的Brynhild，一个陌生人正穿行于我们的土地。我们该不该让他体验一下牢狱之灾？ ","color":"dark_aqua"}]}

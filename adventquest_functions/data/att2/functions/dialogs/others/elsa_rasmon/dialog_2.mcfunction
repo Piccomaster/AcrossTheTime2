@@ -45,3 +45,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Elsa Rasmon : ","color":"green"
 
 
 scoreboard players set elsa_rasmon_PNJ DIALOG 3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Elsa Rasmon : ","color":"green","extra":[{"text":"理我远一点，我不卖东西给小偷和杀人犯。如果你再靠近一步，我就动手了！","color":"dark_aqua"}]}

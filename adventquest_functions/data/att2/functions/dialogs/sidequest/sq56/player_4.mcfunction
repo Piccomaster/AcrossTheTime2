@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Acho, quer dizer, não sei se ele te falou sobre o projeto dele, mas não parece nada com um desejo de Miss Mundo... Quero dizer, não soa nada reconfortante.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我想，我的意思是，我不知道他是否告诉过你他的计划，但那听起来并不像是一个还留恋这个世界的人能有的想法...我的意思是，那听起来挺让人担心的。","color":"aqua"}]}

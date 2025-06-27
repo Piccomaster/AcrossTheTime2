@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[एक महत्वपूर्ण 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Uma emergência vital]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[至关重要的紧急情况]","color":"gold"}

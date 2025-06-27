@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Todos nós passamos por isso... Mas dizer que eu tive sorte pode ser um pouco exagerado. Então, o que era esse tipo de radiação que eu absorvi?","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"哎呀我们都经历过的啦…但要说我是幸运的就有点夸张了。所以我吸收的那种放射物质到底是什么？","color":"aqua"}]}

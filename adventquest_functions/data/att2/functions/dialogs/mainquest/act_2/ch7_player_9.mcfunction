@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Mas claro, eu entendi! Para acessar a gema, você precisa inundar a grande sala. Há portas que se abriram nos quatro cantos, poderei acessar estes grandes pilares para talvez ativar a abertura das escotilhas lá em cima.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"噢，我完全明白了！想要拿到空间宝石，就必须用水淹没这个大厅。大厅的四角各有一个门，而我可以通过这些门到达四根柱子处的平台—那儿应该有控制进水阀门的开关。","color":"aqua"}]}

@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui estou na outra ala da academia. Deve haver uma maneira de subir mais alto no período de tempo em que os sistemas funcionam. Um mecanismo de segurança com cores pode ser ativado.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我现在位于学院的另一侧。肯定有一种方法可以在这个体系工作的时间范围内爬得更高。也许我该激活带有颜色的安全机制。","color":"aqua"}]}

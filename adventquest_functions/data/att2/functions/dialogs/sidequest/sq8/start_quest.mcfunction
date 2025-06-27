@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[विलंबित डिलीव�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Entrega atrasada]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[迟到的配送]","color":"gold"}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Não, não é nostalgia. É algo que os mortais raramente experimentam, mesmo quando alcançam uma idade avançada. A nostalgia nasce das emoções que você ligou a algo, mas considerando todo o tempo que passei aqui, a quantidade de vezes que esqueci as emoções e as vivi novamente... Não, nostalgia não é o termo correto, mas não há nenhum que realmente transmita o significado dessa ferida.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"不，这不是怀旧之情。即使普通人到了老年也很难感受到这个情感。怀旧之情源于你与某物相连的情感，但是我们在这里度过了很长的时间，那些应该遗忘的情感却一次又一次地涌现在我们心头。不，用怀旧来描述并不准确，但是没有哪个词能真正传达出这种伤痛的意义。","color":"dark_aqua"}]}

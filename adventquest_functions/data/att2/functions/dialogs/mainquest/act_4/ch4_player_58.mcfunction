@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Agora ele tem um enxame inteiro que o protege e me segue... Eu devo tentar algo para me livrar disso! Talvez atirando uma flecha nesta campainha tenha algum efeito...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"那家伙现在有一大群一边保护他一边追踪我的爪牙……我必须想办法摆脱它们！也许向这个钟射一箭会有效果...","color":"aqua"}]}

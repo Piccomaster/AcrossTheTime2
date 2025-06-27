@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gregor Gacko : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"Ah! Ótimo, você trouxe-os. Segunda parte do plano: uma caverna natural passa muito perto da prisão e, por sorte, bem ao lado da cela dele. A entrada da caverna está localizada rio acima da minha casa. Siga o caminho e vire à primeira esquerda. Há um rio frio que flui para as profundezas. Preparei o dispositivo para derrubar a parede da prisão, você só precisa instalar o explosivo e explodir tudo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"啊！炸药带来了，太好了。计划的第二步： 有个自然洞穴通往监狱附近，幸运的是那个洞穴紧挨着他的牢房。洞穴的入口在我家那边的上游，跟着小路走，然后在第一个路口左转，那有一条冰冷的河流入那条深邃的洞穴里。我准备好了推倒监狱墙壁的装置，你只要装好炸药把一切都炸成碎片就好","color":"dark_aqua"}]}

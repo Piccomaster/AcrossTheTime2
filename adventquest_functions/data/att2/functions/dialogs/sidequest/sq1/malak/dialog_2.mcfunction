@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Malak : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Minhas colheitas, sentirei falta delas quando o inverno chegar... Vá até o nosso chefe, ajude-o e, quando encontrar meus cereais, traga-os de volta para mim!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"我的心血...冬天来临的时候我一定会想念他们的...去找他吧，看能不能帮上他什么忙。如果有看到我的谷物一定要记得带回来啊！ ","color":"dark_aqua"}]}

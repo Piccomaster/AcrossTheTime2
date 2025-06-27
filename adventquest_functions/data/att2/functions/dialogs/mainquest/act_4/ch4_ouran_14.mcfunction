@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° ओरन : ","color":"gold","ex
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Vamos, lacaios! Que um enxame de presas caia sobre seu cadáver despedaçado!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"上吧，忠仆们！让你们的尖牙包裹撕碎他的肉体！","color":"dark_aqua"}]}
 
 function att2:voice/aoran/aoran33
+

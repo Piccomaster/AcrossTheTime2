@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Deus sagrado... Bem, se este cachorro é tão importante para você, leve-o para longe daqui, e que eu nunca mais o veja!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"老天啊...好吧，如果这只狗对你那么重要，就把它们从这里带走，让我再也见不到它们！ ","color":"dark_aqua"}]}

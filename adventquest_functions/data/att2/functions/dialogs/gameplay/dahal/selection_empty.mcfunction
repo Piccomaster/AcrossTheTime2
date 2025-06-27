@@ -39,3 +39,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"कोई मंत्र चयनि�
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Nenhum feitiço selecionado...","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"未选择法术咒语...","color":"gray"}

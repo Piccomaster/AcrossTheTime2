@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lary Brett : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"O que você quer dizer? Certamente não vou dar as chaves do cemitério a um estranho como você! Mas certamente podemos resolver isso, se você se livrar de todos esses esqueletos que rondam a entrada.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"你什么意思？我绝对不会把墓地的钥匙交给你这样的陌生人！但是，如果你能清理在入口游荡的那些骷髅，我们还是有的谈的。","color":"dark_aqua"}]}

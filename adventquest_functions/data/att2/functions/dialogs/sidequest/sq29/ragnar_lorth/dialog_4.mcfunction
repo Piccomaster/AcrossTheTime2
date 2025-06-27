@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green
 
 function att2:dialogs/sidequest/sq29/ragnar_lorth/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq29/ragnar_lorth/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"又来meleim了？好吧，你来的正是时候，我确实有一个任务可以给你。我们最近在Elvetta白桦森林周围的货物运输中遭遇了一些强盗的袭击，尽管我们能够击退他们，但是这些强盗仍然带来了不小的困扰。你愿意帮我摧毁他们的营地吗？ ","color":"dark_aqua"}]}

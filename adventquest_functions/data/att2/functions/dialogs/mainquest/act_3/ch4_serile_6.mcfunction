@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"yellow","ex
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"E VOCÊ QUER QUE ESTE NAMRÏN, FILHO DE UM MENDIGO MISERÁVEL, TOME O MEU LUGAR?!","color":"dark_aqua","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sérile :","color":"yellow","extra":[{"text":"而你，想要Namrin，一个可怜乞丐的儿子，夺走本应属于我的王座？！","color":"dark_aqua","italic":true}]}

@@ -55,6 +55,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Phoebius : ","color":"green","ex
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Tudo bem, como posso ajudar você?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"好的，有什么我可以帮忙的吗？","color":"dark_aqua"}]}
+
 function att2:voice/phoebius/phoebius3
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_6
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_7

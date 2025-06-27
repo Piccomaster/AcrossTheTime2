@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O que este estranho quer de J'zargo, está procurando um mestre? Que tolo ele pode ser para nunca ter ouvido falar da academia Dahäl?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"这个陌生人想从J'zargo这里得到什么，他是在找一个师傅吗？他得有多傻才能没听说过dahal学院呢？","color":"dark_aqua"}]}

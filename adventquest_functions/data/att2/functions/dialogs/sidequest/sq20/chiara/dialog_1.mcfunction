@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","ext
 
 
 tp @a[x=-5108,y=88,z=-4976,distance=..10] -5096 84 -4977
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"嘿！谁让你进我房子的？你是不是想偷我箱子里的东西？赶紧出去，不然我叫警察了！","color":"dark_aqua"}]}

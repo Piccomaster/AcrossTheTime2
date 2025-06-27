@@ -50,3 +50,6 @@ title @a[scores={LANGUAGE=9}] title {"text":"⥪ ","color":"gray","extra":[{"tex
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] title {"text":"⥪ ","color":"gray","extra":[{"text":"E um grande obrigado a","color":"dark_red"},{"text":" ⥬","color":"gray"}]}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] title {"text":"⥪ ","color":"gray","extra":[{"text":"也特別感谢","color":"dark_red"},{"text":" ⥬","color":"gray"}]}

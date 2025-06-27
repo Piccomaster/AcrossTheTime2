@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एमरल्ड की या�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A jornada de Esmeralda -°- : ","color":"gray","extra":[{"text":"Esmeralda precisa da minha ajuda para encontrar sua filha. Ele disse que há uma pista na mina de Worlëst no lado leste. Vou ter que entrar lá sozinho e reunir pistas. Deve haver um jeito de encontrar um mecanismo para abrir um caminho ao longo dos trilhos da mina.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Emerald的冒险之旅 -°- : ","color":"gray","extra":[{"text":"Emerald迫切需要我的帮助来寻找他的女儿，他跟我说他女儿可能去了Worlest森林东面的一个矿洞里。现在有一堵墙阻碍了我继续向矿洞深处调查，我应该顺着地上的铁轨看看有没有其他方法清除阻碍","color":"aqua","italic":true}]}

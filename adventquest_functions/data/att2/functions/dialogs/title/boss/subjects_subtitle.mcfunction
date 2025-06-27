@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"असफल प्रयोग,
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Experiências falhadas, infecções abjetas","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"失败的实验品，卑劣的感染体","color":"gray"}

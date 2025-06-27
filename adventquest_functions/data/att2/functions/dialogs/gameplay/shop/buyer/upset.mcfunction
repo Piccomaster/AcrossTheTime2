@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"अपने कचरे को वा
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Pegue de volta o seu lixo, eu não sou uma lixeira!","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"这儿不是垃圾桶！把这些垃圾拿走！","color":"gray"}

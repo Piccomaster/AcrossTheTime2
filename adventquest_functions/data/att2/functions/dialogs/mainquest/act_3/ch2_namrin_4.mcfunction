@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Eu quase esqueci! Ei, você, o mortal que parece completamente perdido! O que aconteceu aqui? O que você está fazendo aqui?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"噢，我都快忘记这回事了！嘿！就你，那个好像迷路似的家伙！这儿发生了什么？你又在这做什么？","color":"dark_aqua"}]}

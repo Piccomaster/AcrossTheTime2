@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tenho que ganhar a confiança de Aramis para conseguir a ajuda dele em troca. Ele me disse que uma certa Marlène teria um problema para resolver, ela está na cozinha da Academia de Eolorion.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我必须贏得Aramis的信任才能得到他的帮助：他说学院厨房里的Marlene有个问题需要解决。","color":"aqua"}]}

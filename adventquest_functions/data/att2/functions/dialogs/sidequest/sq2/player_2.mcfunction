@@ -47,3 +47,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Parece que isso é usado para operar o elevador da mina. Certamente está faltando carvão para reiniciá-lo. Uma dúzia deve ser mais do que suficiente.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"看起来这本来好像是用来启动矿井电梯的装置，只是目前缺少煤矿所以不能启动，收集一些应该就够了。","color":"aqua"}]}

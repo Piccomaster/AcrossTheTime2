@@ -55,3 +55,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 
 function att2:voice/namrin/namrin_sidequest21
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"如果你能够使用这把剑，我会承认你告诉我的都是真的。","color":"dark_aqua"}]}

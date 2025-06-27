@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Você está de volta. Você provavelmente está se perguntando o que causou este ataque? Os esqueletos que você acabou de derrotar são capangas de Vonaheim. Porque, no final do caminho do outro lado do portão oeste de Eolorion está sua casa.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"你又回来了，在想这次袭击来源于哪么？事实上你刚刚射杀的骷髅是Vonaheim的爪牙。Eolorion西门那边的道路尽头就是他的巢穴。","color":"dark_aqua"}]}

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Mia finden -°- : ","color":"gray"
 #HINDI LANGUAGE
 
 tellraw @s[scores={LANGUAGE=9}] {"text":"-°- मिया खोजें -°- : ","color":"gray","extra":[{"text":"रोम्युल्ड ने मुझसे अपनी खोई हुई कुत्ती मिया को ढूंढने के लिए कहा। उन्होंने इसे मेलीम के पास खो दिया है, इसलिए मुझे नगर में नागरिकों से पूछ-ताछ करके कुछ संकेत पाने की आवश्यकता है।","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 寻狗大作战 -°- : ","color":"gray","extra":[{"text":"Romuald的小狗狗可能在Méleïm走丟了，我得去那边看看，顺便问问当地的居民","color":"aqua","italic":true}]}

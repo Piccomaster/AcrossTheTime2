@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lucimène : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"Onde... onde estou?","color":"blue"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"这是哪里...我在哪里？ ","color":"blue"}]}

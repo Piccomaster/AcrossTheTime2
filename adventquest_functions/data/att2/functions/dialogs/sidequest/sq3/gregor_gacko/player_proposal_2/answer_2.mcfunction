@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gregor Gacko : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"O conteúdo dos meus tesouros, tudo o que consegui ganhar na minha antiga vida... Nosso plano será o seguinte: recuperar explosivos e colocá-los atrás da prisão. Você encontrará esses explosivos na antiga mina que não está muito longe daqui, um caminho na floresta leva até lá. Bem, nós apenas teremos que nos encontrar aqui quando você os tiver.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"这些宝藏和供我余生的财富都是你的...我们的计划如下： 拿回炸药然后埋在监狱后面。你能在附近的旧矿井里找到这些炸药，一条林间小径会指引你到那里。然后，我们就在这里等你拿到后回来。","bold":false,"color":"dark_aqua"}]}

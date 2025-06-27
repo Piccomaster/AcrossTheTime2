@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Vou ter que subir até o topo do calabouço pela única torre aberta ao sul, para ter uma melhor visão e encontrar a localização de uma gema.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"现在只有南翼塔楼敞开了大门，这意味着我只能从那儿前往遗迹的顶部。只有前往遗迹的顶部，我才能拥有更好的视野，以方便自己确定时间宝石的位置。","color":"aqua"}]}

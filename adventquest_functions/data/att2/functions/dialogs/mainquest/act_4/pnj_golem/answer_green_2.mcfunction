@@ -64,5 +64,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Golem : ","color":"green","extra
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"Uma porta que o pequeno ser de carne será capaz de passar, se abre. Pedras pegajosas, portadoras de vontade, estão escondidas no final do caminho. Pedras pegajosas que despertarão seus membros da ruína.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"一扇只有小小的血肉之躯能够通过的门自行打开了，在那道路的尽头隐藏着承载自主意识的粘石，找到它，它会唤醒深埋于废墟中残存的四肢。","color":"dark_aqua"}]}
 
 function att2:voice/golem/golem4
+

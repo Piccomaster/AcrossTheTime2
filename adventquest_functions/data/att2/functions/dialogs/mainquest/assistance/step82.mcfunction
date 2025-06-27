@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Que fim trágico para Relgon... Todos esses eventos em Angband foram intensos. Eu preciso falar com Etotsira, aquele da minha época, ele será capaz de me explicar tudo claramente. Vamos agora voltar para o portal e retornar a Ëarndhel.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"没想到Relgon就这样迎来了他悲剧般的结局...在Angband发生的这一切实在是太刺激了。我必须和我那个时代的Etotsira谈谈，他能向我解释这一切。是时候从传送门那儿回Ëarndhel了。","color":"aqua"}]}

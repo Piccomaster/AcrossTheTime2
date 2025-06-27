@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"A memória dos antigos. Mas o ignorante não deve saber. 'O conhecimento mais primordial está gravado na última persistência do que eles foram.' Assim diz a lenda. Não precisa entender, o pupilo pode apenas seguir J'zargo e ficar para trás, o lugar é perigoso.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"古人的记忆。但是无知者一定不知道。“最原始的知识被铭刻在它们曾经存在的最后遗物之上”，传说也是如此。某人并不需要明白，学徒只要跟着J'zargo并待在后面就行了，这地方很危险。","color":"dark_aqua"}]}

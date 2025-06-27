@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Jaris : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Meu amor, eu fiz isso por você! Não se preocupe, vou colocá-los de volta ao lugar em breve. Veja, minha intuição estava certa, posso te alcançar quando eu quiser sem despertar ninguém, graças a este passage...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"亲爱的，为了你，我终于做到了！不用担心，我马上就把它们放回原位。你看，我的直觉是对的，多亏了这个秘密通道，我才能在不被任何人发现的情况下随时和你见面...","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Sim, J'zargo sabe e está cansado de ouvir o pupilo fazer perguntas. Ele se dirige a Billgart, perto de uma estrutura gigantesca cheia de segredos. Mas esse não é o seu objetivo, pois os maiores segredos não estão confinados em coisas tão visíveis.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"是的，J'zargo知道，他厌倦了听这个学徒提问。他将动身前往Billgart，靠近一个充满秘密的巨大结构。但其并不是他的目标，因为最伟大的秘密并不只是局限于这些可见的事物。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[Sathnok की रात]","color":"go
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Uma noite em Sathnok]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[Sathnok惊魂夜]","color":"gold"}

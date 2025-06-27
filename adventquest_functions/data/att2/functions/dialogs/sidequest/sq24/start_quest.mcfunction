@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[एक दुर्भाग्यप�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Um incidente infeliz]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[不幸的事件]","color":"gold"}

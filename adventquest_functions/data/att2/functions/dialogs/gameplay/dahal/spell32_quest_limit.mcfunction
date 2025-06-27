@@ -28,3 +28,6 @@ title @s[scores={LANGUAGE=8}] actionbar {"text":"Zwischensequenz oder Handlung i
 title @s[scores={LANGUAGE=9}] actionbar {"text":"कटसीन या कहानी प्रगति पर है, टेलीपोर्ट संभव नहीं।","color":"red"}
 #PORTUGUESE LANGUAGE
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Cena ou enredo em andamento, teletransporte impossível.","color":"red"}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"特殊场景/剧情进行中，无法传送","color":"red"}

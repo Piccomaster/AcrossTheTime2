@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Patrick Corth : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Já te adoro! Você não precisará cortar madeira, basta ir ao acampamento Jarat, ele lhe dará as 16 toras que me prometeu.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"我实在太崇拜你了！你不需要砍木头，去Jarat营地找人，他会给你他答应我的16根原木。","color":"dark_aqua"}]}

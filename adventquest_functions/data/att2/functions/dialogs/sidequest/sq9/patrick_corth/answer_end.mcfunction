@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Patrick Corth : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Aqui está, conforme combinado, seu dinheiro, com um bônus pela viagem.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"在这儿，按照约定给你的钱，还有这次旅行的报酬。","color":"dark_aqua"}]}

@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...Ele me reconheceu como 'amigo' quando eu o derrotei, é por isso... Mas como ele se transformou em um monstro assim? No entanto, ele parecia ser calmo, ponderado e sensível por natureza...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...当我打倒他的时候，他认出了我，说我是他的“朋友”，所以...但是，他怎么就变成了怪物？以前的他是那么的冷静、深思熟虑、警觉敏感...","color":"aqua"}]}

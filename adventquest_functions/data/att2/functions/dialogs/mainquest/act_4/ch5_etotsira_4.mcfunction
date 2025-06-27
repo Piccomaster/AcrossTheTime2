@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Sim, não tenho dúvidas sobre suas capacidades. Mas eu vou te ajudar quando você estiver se aproximando de Nojélanth...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"是的，我毫不怀疑你的能力。不过我会在你接近Nojelanth时帮助你...","color":"dark_aqua"}]}

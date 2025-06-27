@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Vulk : ","color":"green","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Perfeito, mal posso esperar para ver isso!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"那可太好了，我已经等不及看到那把武器了！ ","color":"dark_aqua"}]}

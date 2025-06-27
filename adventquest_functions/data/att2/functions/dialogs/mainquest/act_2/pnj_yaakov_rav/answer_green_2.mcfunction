@@ -53,6 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Diz-se que, no passado, muitos portais surgiam aleatoriamente em ambos os lados das dimensões. Alguns deles puderam ser estabilizados por antigos magos eminentes para conectar diferentes regiões de Tellurön. Para ativar o portal, eles tiveram que canalizar a energia necessária para seu funcionamento em pedras especiais.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"有传言说在古老的纪元里，两个不同维度间会随机地产生联通两界的传送门。为确保Tellurön各个维度的王国间能相互交流，法力高强的古代贤者们设法使其中的一些传送门能稳定地存留于世。与此同时，为保证传送门能随时敞开，他们将激活所需的能量注入了特制的石头中。","color":"dark_aqua"}]}
 
 function att2:voice/yaakov/yaakov3
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_3
+

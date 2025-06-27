@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gustave : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Sim... Dependendo da natureza do seu retorno, eu pagarei 200 Chronotons. Agora siga para o sul. Meus colegas pegaram o caminho para a mina de Kert. Após a ponte que atravessa o grande canyon, continue pelo caminho, é lá que eles devem estar, espero.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"当然...你要是能帮到我当然会有奖励，我会给你200个Chronotons。从这里向南走。我的工友们应该在前往Kert矿井的路上。穿过一座峡谷上的大桥，继续往前走，我希望他们会在那里出现。","color":"dark_aqua"}]}

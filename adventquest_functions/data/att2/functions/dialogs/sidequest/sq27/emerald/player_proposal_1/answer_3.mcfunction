@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Eu sabia que você estaria interessado nessas coisas. Os lugares que ela visita parecem estar relacionados com todos esses mortos voltando à vida... Mas o mais importante é encontrar minha filha! Tesouros não me interessam, pegue o que quiser nesses lugares sombrios, mas ajude-me a encontrá-la viva. Tenho certeza de que ela poderá lhe contar mais sobre os tesouros que está procurando... Vá para as minas dos Morniths seguindo o caminho a oeste de Méleïm. Boa sorte!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我知道你对这些东西感兴趣。她去过的地方似乎与那些死而复生的人有关...但最重要的是找到我的女儿！ 我对宝藏什么的不感兴，在那些阴森森的鬼地方你想拿什么都无所谓。但是请帮我确保她平安地活着。我相信她会透露出更多关于她所寻找的东西的信息...从Méleïm镇外的小路向西出发，前往Mornith采石场寻找我女儿的线索。祝你好运！","color":"dark_aqua"}]}

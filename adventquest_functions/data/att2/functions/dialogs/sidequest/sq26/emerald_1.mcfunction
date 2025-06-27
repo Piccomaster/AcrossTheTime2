@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Ah, você de novo! Aqui estamos em Adanoï, que é um lugar historicamente reconhecido na região. Parece que há catacumbas nos subterrâneos deste cemitério. Precisamos encontrar uma maneira de entrar lá para procurar mais pistas sobre o caminho da minha filha. Você poderia me ajudar novamente?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"咦？又是你！我们现在在Adanoi，这里据说是这片大陆上的一处历史遗迹。这片墓地的地下有个地下墓穴。我们得找到方法进入那里，这样才能找到更多关于我女儿去处的线索。你能再帮我一次吗？","color":"dark_aqua"}]}

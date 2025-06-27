@@ -58,6 +58,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon é como um pai para nós. Ele nos apresentou o uso de Dahäl e a luta com facas. Devo dizer que sou melhor na arte de Dahäl do que Sérile, mas ela me supera quando se trata de combate.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon就像我们的父亲。他教会我们使用Dahäl、使用刀剑与敌人战斗。说实话，我比Sérile更擅长使用Dahäl，但若是真刀真枪的打起来，我就比不过她了。","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_dialogue2
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4
+

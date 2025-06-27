@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rob Harth : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Vá embora, eu vou me virar sem você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"走开，没有你我也能应付。","color":"dark_aqua"}]}

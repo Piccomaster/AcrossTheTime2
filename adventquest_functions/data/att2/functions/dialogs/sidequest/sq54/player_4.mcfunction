@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uma frasco. Contém sangue... Bem conservado, mas parece estar ali há um tempo, pelo estado do recipiente. ''Essencial para seu mestre, assim como para qualquer ser, mas muito diferente dos outros devido à sua imutabilidade, carrega a energia, as emoções e até mesmo os valores de uma linhagem.'' Deve ser este o sangue de que fala o enigma de J'zargo.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一个试剂瓶。它里面装着血...保存得很好，但从它容器的状态来看，它似乎已经在这放了一段时间了。“对他的主人以及任何生物都是必不可少的，但是由于他的不变性，他与其他人又非常不同，他承载着能量、情感甚至于一脉的价值观。”这血液一定就是J'zargo的谜语所说的东西。","color":"aqua"}]}

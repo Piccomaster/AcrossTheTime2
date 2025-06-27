@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Então? Alguma notícia do Raphaël? O garoto certamente não está longe da estrada que liga Ryliath a Eolorion. Sua carroça não é feita para passeios na floresta ou escalada em montanhas...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"怎么样？有Raphael的消息吗？这孩子一定在来往Ryliath和Eolorion的路上。他的货车不适合在森林里穿梭或者爬山...","color":"dark_aqua"}]}

@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Elisa Meli : ","color":"green",
 
 
 function att2:dialogs/sidequest/sq19/elisa_meli/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"你好，你想买一个美味的苹果吗？","color":"dark_aqua"}]}

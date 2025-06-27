@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"De qualquer forma, agora que Sérile acredita ter eliminado todos os gigantes, é muito provável que ela tente usar o poder da fonte de Tellurön, independentemente das consequências para esta dimensão. Porque sem um portal, ela não poderá retornar a Angband para reivindicar seu título de rainha. Mas não haverá nada mais fácil para ela uma vez que ela tenha se apoderado da fonte.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"无论如何，既然Sérile相信她已经消灭了所有的阻碍，那么她就可能不计代价地抽取Tellurön泉源的力量。 没有传送门的她无法回到Angband夺取女王之位。但是，如果她得到了泉源的力量，所有事情对她来说都会是小菜一碟。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Um antigo passageiro leva a este deserto, e J'zargo sabe como abri-lo, porque ele não é tão ignorante quanto o pupilo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"一条古老的通道通向这片沙漠，J'zargo知道如何打开它，因为他不像那学徒那样无知。","color":"dark_aqua"}]}

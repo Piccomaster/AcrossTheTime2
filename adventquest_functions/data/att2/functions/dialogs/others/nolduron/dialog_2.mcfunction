@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Nolduron : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"Fico feliz que você esteja na área novamente. Você deve ter notado, alguns moradores não estão mais na vila. De fato, muitos comerciantes foram fazer negócios em outras regiões desde que você salvou as sete dimensões de Ranégot. Aliás, sua casa é sempre sua, você é sempre bem-vindo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"欢迎回来这里。你可能已经注意到有些居民已经不在村子里了。你将七个维度从Ranégot的手中解救出来后， 很多商人就离开这里去其他维度做生意了。顺带一提,我们一直留着你之前的房子—我们永远欢迎你的到来。","color":"dark_aqua"}]}

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Finalmente de volta a um mundo que eu gosto um pouco mais... Não sei exatamente onde fui parar, mas preciso saber mais. Vamos falar com Etotsira.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我终于回到了这个还算不错的世界...我不知道这段旅程何时才能结束，但我现在需要更多的情报。去和Etotsira聊一聊好了。","color":"aqua","italic":true}]}

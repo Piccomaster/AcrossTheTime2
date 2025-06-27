@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Owlkär अपने सभी जी�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Owlkär recupera todas as suas vidas....","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" Owlkär已然恢复如初...","color":"gray","italic":true}

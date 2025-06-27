@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mercurius : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"Legal... De qualquer forma, Aleluia! Estou esperando por este momento há uma eternidade! Você finalmente veio me libertar, hein!?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"很好...无论如何，赞美女神！我等这一刻已经太久了！你终于来救我于水火之中了！","color":"dark_aqua"}]}

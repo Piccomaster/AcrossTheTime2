@@ -53,5 +53,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Karön : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Karön : ","color":"green","extra":[{"text":"Eu cuidarei disso!","color":"red"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Karön : ","color":"green","extra":[{"text":"我会好好爱护它的！","color":"red"}]}
 
 function att2:voice/karon/karon2
+

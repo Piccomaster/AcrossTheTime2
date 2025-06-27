@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sorvo Miron : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"Serão 5 Cronotons!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"一共5个Chronotons！ ","color":"dark_aqua"}]}

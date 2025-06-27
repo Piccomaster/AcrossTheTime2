@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Joël Roblochon : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"O quê? Ainda não encontrou o ladrão?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"什么？还没找到小偷？ ","color":"dark_aqua"}]}

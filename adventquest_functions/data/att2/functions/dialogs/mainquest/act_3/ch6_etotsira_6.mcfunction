@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Bem... Depois disso, Sérile nunca mais foi vista. Obstáculos bloquearam seu acesso ao poder de Angband, primeiro Relgon, depois Namrïn e eu mesmo.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"嗯...那件事情发生后，Sérile就销声匿迹了。她与Angband的无上权柄始终隔着一堵墙，这堵墻先是Relgon，然后是Namrïn和我。","color":"dark_aqua"}]}

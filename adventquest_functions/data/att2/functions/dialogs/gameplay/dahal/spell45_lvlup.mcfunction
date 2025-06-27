@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"बर्सर्क के लिए 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Berserk!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“狂战士”已升级！","color":"gold"}

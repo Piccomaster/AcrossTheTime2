@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° इथिल : ","color":"green"
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Não... Sinto muito por isso...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"我无能为力了...真对不起...","color":"dark_aqua"}]}

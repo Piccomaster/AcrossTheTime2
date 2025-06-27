@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rena Sun : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Ah... Não tenho muito, mas... Vou te dar todo o meu dinheiro. Por favor, não faça nada que possa danificar o templo! Há outra maneira de passar para desbloquear a porta do outro lado: você pode entrar no templo escalando o ponto mais alto dos campos acima, lá há uma abertura para deixar a chuva entrar no templo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊...我没有很多，但是...我会把我所有的钱都给你。请不要做任何可能损坏寺庙的事情！还有另一个方法可以进入寺庙： 爬到上面田野的最高点，有一个漏雨水的开口可以进入寺庙","color":"dark_aqua"}]}

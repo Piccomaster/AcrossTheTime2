@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rob Harth : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Saudações amigo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"你好，我的朋友！","color":"dark_aqua"}]}

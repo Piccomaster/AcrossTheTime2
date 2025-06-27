@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की प्रसिद�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 3 -°- : ","color":"gray","extra":[{"text":"Felizmente eu estou aqui... Bem, eu preciso encontrar mais um item que J'zargo cobiça nesses locais distantes de Billgart.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 3 部分 -°- : ","color":"gray","extra":[{"text":"还好我在这，不然还有谁能帮忙去找遗物呢。这地方离主塔较远，不可掉以轻心。","color":"aqua","italic":true}]}

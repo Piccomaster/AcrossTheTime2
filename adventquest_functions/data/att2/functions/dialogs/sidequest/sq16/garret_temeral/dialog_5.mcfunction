@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garret : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"A guerra finalmente acabou, finalmente podemos abandonar as armas e reconstruir nosso reino!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"战争终于结束了，我们终于可以放下斗争，重建我们的王国了！","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Obrigado, eu tinha medo que você recusasse... Bem, esses insetos incômodos parecem sair do chão, mas eu encontrei a entrada do ninho deles. Você vê a árvore muito grande atrás da minha casa, fora dos meus campos? Há um buraco que vai fundo na raiz, eu não me atrevo a entrar. Não tenha piedade desses insetos.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"谢谢你，我还以为你会拒绝我...这些恶心人的老鼠应该是从地底钻出来的，我发现了它们巢穴入口。你能看到我房子后面，农场外面的那棵大树吗？树根下面有一个特别深的洞穴，我不敢进去。千万不要为这些动物感到可怜，它们可是很危险的。","color":"dark_aqua"}]}

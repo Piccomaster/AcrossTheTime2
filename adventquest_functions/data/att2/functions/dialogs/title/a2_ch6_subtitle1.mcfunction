@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"अंतिम रत्न","c
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"A última gema","color":"dark_red"}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"最后的宝石","color":"dark_red"}

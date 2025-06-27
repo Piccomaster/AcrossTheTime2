@@ -41,3 +41,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- आपको कभी नही�
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Você nunca sabe o que vai encontrar -°- : ","color":"gray","extra":[{"text":"Encontrei uma grande chave com um selo pirata inscrito nela. Jack Arrow estava certo sobre um tesouro interessante. Agora devo procurar o esconderijo dos piratas, que certamente esconde um grande saque.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 你永远不知道你会得到什么 -°- : ","color":"gray","extra":[{"text":"我找到一把带有海盗印章的钥匙，Jack_Arrow的确没骗我，我要找到这些海盗的藏身之所，那里肯定藏了大量宝藏。","color":"aqua","italic":true}]}

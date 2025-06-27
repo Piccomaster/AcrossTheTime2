@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo não gosta quando o aluno lhe dá ordens! Ele é desrespeitoso! Mas, ele vai pagar em breve, como todos os outros...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo不喜欢学徒给他下达命令！他很无礼！但是，他很快就会付出代价，就像他们都将...","color":"dark_aqua"}]}

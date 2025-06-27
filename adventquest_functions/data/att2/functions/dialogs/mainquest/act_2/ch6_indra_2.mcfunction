@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"°-° Indra Lorth : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"°-° Indra Lorth : ","color":"green","extra":[{"text":"Não na região de Sylberländ, segundo o meu conhecimento.... Finalmente, há uma ilha, ao largo das nossas costas.... Asunark, se me lembro corretamente. Um lugar paradisíaco, especialmente para um aventureiro, hehe. Há um santuário, os restos de uma antiga cidade cujas lendas dizem que conteria este precioso artefato que estás à procura!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"据我所知，它并不在Sylberländ领地内...它藏在一座岛上...如果我记的没错，那座岛的名字是Asunark。那儿是一个天堂——对于冒险家来说更是如此，哈哈。岛上有一座避难所，它是一座古代城市残存的遗迹，而根据有关这座城市的传说，那里正好存放着你所寻找的珍宝宝物！ ","color":"dark_aqua"}]}

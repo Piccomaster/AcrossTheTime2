@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"gray","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","extra":[{"text":"Você conhece meu nome... Então você falhou em matar Etotsira.","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"你知道我的名字...所以你没能杀掉Etotsira。","color":"yellow","italic":true}]}

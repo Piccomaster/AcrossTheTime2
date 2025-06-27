@@ -49,3 +49,6 @@ title @a[scores={LANGUAGE=9}] actionbar {"text":"~ ","color":"dark_red","extra":
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"Pontos de reputação","color":"red"},{"text":" : - ","color":"gray"},{"score":{"name":"reduce","objective":"REPUTATION"},"color":"red"},{"text":" ~","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @a[scores={LANGUAGE=11}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"声誉点数","color":"red"},{"text":" : - ","color":"gray"},{"score":{"name":"reduce","objective":"REPUTATION"},"color":"red"},{"text":" ~","color":"dark_red"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Não seja nostálgico, o passado parece maravilhoso, mas não é nada comparado ao que o futuro nos reserva. Todos nós sentimos falta dos tempos passados. O importante não é revivê-los, mas lembrar deles. Porque é assim que o tempo passa.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"不必恋旧, 过去看似美好，但它和未来相比不值一提。每个人都会怀念过去，但重点不在于沉湎其中，而在于将他们铭记心中—毕竟，逝者如斯。","color":"dark_aqua"}]}

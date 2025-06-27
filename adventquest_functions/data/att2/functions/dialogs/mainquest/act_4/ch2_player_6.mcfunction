@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Parece-me que o gelo está ligado aos sistemas que criam fluxos de ar, que podem me impulsionar até o topo da torre principal... As duas torres secundárias devem conter o mecanismo de ativação. Agora posso seguir para a torre oeste derretendo o gelo na porta que dá acesso a ela.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"在我看来，冰柱似乎与产生气流的系统相连，这些气流可以把我一直推到主塔顶……两座副塔中一定藏着激活装置。现在我可以用刚升级的火球术融化通往西塔的门上的冰，然后前往西塔。","color":"aqua"}]}

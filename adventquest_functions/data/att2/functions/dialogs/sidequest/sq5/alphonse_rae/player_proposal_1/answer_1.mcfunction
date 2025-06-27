@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Cachorro, lobo, não sei, mas a coisa está escondida em uma caverna à beira do rio, eu a vi! Estou velho demais para procurar a besta sozinho, mas vá se livrar dela e eu ficarei agradecido! Siga o rio através da floresta, a toca estará na margem direita...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"是狗是狼，我不知道，但我看到了那东西安静地躺在河边的一个山洞里！我年龄大了，不能一个人去找那些危险的动物，但是如果能帮忙驱走它我将不胜感激！沿着河流穿过森林，洞穴就在右岸...","color":"dark_aqua"}]}

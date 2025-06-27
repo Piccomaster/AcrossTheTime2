@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Armel Darsan : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"Então você tem a famosa chave de lava. Espero que o chefe tenha lhe dado por uma boa razão.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"所以你得到了那把赫赫有名的“炎狱之章”。希望村长是正当理由才给你的这把钥匙。","color":"dark_aqua"}]}

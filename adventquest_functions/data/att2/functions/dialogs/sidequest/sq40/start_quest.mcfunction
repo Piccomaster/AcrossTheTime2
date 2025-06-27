@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[कभी-कभी, बस पत्�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Às vezes, simplesmente não há pedras suficientes]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[有时，我猜只是没有足够的石头]","color":"gold"}

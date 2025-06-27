@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हेलेना के घो�
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Os cavalos de Hélèna -°- : ","color":"gray","extra":[{"text":"Elisa Meli é responsável pela intoxicação dos cavalos de Hélèna. Vamos encontrar sua irmã e dizer a ela que isso não vai acontecer novamente.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 毒马凶手 -°- : ","color":"gray","extra":[{"text":"嫌疑犯锁定了，是Elisa_Meli将有毒的苹果喂给Helena的马儿们吃。Elisa保证之后不再做类似的事情，是时候回去和Helena谈谈了","color":"aqua","italic":true}]}

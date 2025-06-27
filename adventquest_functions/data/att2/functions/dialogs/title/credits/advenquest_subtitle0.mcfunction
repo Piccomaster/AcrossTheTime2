@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"पछतावे का सम
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"Tempo de arrependimentos","color":"dark_purple"}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"悔忆之时","color":"dark_purple"}

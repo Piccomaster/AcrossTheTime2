@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"J'zargo, o fato de ele ter se lançado em tal busca prova inegavelmente sua determinação em ser conhecido e aceito...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"J'zargo他全身心投入到这样的的探索之中，這一事实无可争辩地证明了他想要被理解并接受的决心...","color":"dark_aqua"}]}

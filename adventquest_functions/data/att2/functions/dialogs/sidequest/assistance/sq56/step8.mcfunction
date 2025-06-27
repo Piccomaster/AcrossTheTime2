@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की महान खो
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 6 -°- : ","color":"gray","extra":[{"text":"É verdade que este medalhão pertence a Cassandre, vamos devolvê-lo a ela.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 6 部分 -°- : ","color":"gray","extra":[{"text":"这正是Cassandre的勋章，可以物归原主了。","color":"aqua","italic":true}]}

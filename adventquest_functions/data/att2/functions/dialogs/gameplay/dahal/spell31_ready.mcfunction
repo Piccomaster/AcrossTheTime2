@@ -36,7 +36,10 @@ title @s[scores={LANGUAGE=7}] actionbar {"text":"⧼〈","color":"dark_red","ext
 title @s[scores={LANGUAGE=8}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Goldfresser bereit","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 #HINDI LANGUAGE
 
-title @s[scores={LANGUAGE=9}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"सोना खाने वाला\" तैयार","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+title @s[scores={LANGUAGE=9}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"सोना खाने वाला" तैयार","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Devorador de Ouro pronto","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"“吞金兽”已就绪","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}

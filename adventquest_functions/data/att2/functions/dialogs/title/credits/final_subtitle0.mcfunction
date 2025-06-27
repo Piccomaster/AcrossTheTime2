@@ -50,3 +50,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"⟖ ","color":"gold","extra":[{"
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"⟖ ","color":"gold","extra":[{"text":"por jogar!","color":"gray"},{"text":" ⟕","color":"gold"}]}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"⟖ ","color":"gold","extra":[{"text":"的游玩！ ","color":"gray"},{"text":" ⟕","color":"gold"}]}

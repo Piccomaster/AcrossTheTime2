@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sélène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Você está certo... Agora entendo melhor por que você estava tão triste e desesperado, pai. Mas você poderia ter me contado a verdade sobre o desaparecimento da mamãe! Por que você escondeu tudo de mim?","color":"dark_green"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"你说的没错...我理解你为什么这么悲伤和绝望。可是父亲，你本可以告诉我母亲去世的真相！你为什么要瞒着我？","color":"dark_green"}]}

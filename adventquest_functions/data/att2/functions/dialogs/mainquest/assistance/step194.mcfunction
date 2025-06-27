@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Há uma espécie de porta horizontal que bloqueia meu progresso. Eu provavelmente tenho que ativar três mecanismos diferentes para abri-la. Devo procurar esses mecanismos dentro da área nublada não muito longe da porta.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"有道能量门挡住了我前进的脚步。我必须激活三种不同的机关才能打开它。我应该在离门不远的多云区域内寻找这些机关。","color":"aqua"}]}

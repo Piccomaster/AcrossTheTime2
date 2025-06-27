@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"फिर से जागृत
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Desperto novamente e maior","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"浴火涅槃的重生者","color":"gray"}

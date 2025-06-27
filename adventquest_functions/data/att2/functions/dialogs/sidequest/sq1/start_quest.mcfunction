@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[मलाक की चोरी क�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Colheitas roubadas de Malak]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[庄稼何处寻]","color":"gold"}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[प्राचीन कर्तव�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[O dever imemorial]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[远古的义务]","color":"gold"}

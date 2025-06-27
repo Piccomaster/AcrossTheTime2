@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hélèna Meli : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Oi, viajante! Aqui cuidamos dos cavalos dos habitantes das cidades e dos nômades como você! No momento, não há cavalos à venda, eles não caem das árvores esses animais! E eu tenho alguns, mas não sei o que está acontecendo com eles ultimamente: estão muito nervosos, se assustando com uma leve brisa. Preciso resolver isso, mas volte em breve!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"嘿旅行者！我们会照顾像您这样的旅行者和城市里居民们的马匹！但是现在没有马匹可以出售，它们可不是从树上掉下来的！我不知道在这段时间里它们发生了什么，一有些风吹草动它们就会变得惊慌失搓。我会尽快解决这些问题，很快就会恢复正常的！","color":"dark_aqua"}]}

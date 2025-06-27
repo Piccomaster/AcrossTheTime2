@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Sérile ainda é jovem e um pouco orgulhosa. Como seu pai em sua idade, mas isso mudará. Quando ela for humilde o suficiente para admitir que alguém mais pode ocupar o lugar de Azazel, então ela se tornará rainha...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Sérile还年轻，还有些叛逆，她父亲像她这么大的时候同样如此。人是会成长的，当她谦卑到能接纳其他人坐上Azazel的位置时，她就会成为王后...","color":"dark_aqua"}]}

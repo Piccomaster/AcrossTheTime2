@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ashley Williams : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"Você encontrou meu hangar? Ele está na entrada da mina de Kert.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"你找到我的仓库了吗？它在Kert矿井的入口。","color":"dark_aqua"}]}

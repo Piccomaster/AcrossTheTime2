@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Perfeito. Só mais um e finalmente poderei encontrar Etotsira em Ëarndhel. Bem, agora devo voltar para Méleïm e falar com Indra novamente. Ela saberá mais do que Wirth sobre a localização da última gema.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"完美。再找到一块空间宝石，我就可以前往Ëarndhel寻找Etotsira了。现在，我应该返回Méleïm，和Indra再聊上一次—相比Wirth，她更有可能知道最后一块空间宝石的藏身之地。","color":"aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"कुछ रूनों के प्
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Os efeitos de certas runas não podem ser ativados se não forem respeitadas as condições de nível do jogador ou a adição de mais de duas palavras rúnicas do mesmo tipo...","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"玩家无法激活超出自己等级的铭文，并且两个相同的符文无法同时生效...","color":"red"}

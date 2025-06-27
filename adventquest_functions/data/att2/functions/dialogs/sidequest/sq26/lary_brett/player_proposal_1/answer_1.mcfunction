@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lary Brett : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Há muitos mortos-vivos vagando por lá. Mas se você matar o suficiente e limpar o caminho, eu posso te ajudar!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"那里游荡的亡灵太多了。但如果你能帮忙干掉那些怪物并且清理出一条道路的话，我还是可以帮你的！ ","color":"dark_aqua"}]}

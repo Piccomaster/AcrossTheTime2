@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"चारा के लिए नया
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Isca!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“诱饵”已升级！","color":"gold"}

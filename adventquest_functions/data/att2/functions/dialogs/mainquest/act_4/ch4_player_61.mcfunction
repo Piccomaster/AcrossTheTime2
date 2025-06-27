@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Três gemas, e ainda nenhuma reação... Três é sempre o número mágico, mas quantas mais eu preciso?! Espero que Ithil possa me guiar para outra...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"三颗宝石了，却还没有任何反应……不过，三通常是个神奇的数字，可我还需要几颗？！希望Ithil能指引我再找到一颗...","color":"aqua"}]}

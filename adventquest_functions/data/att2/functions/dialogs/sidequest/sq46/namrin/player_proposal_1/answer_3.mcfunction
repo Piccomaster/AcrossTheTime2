@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 
 function att2:voice/namrin/namrin_sidequest9
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon经常只身一人穿越到其他维度，经历了数次轮回的历练！ ","color":"dark_aqua"}]}

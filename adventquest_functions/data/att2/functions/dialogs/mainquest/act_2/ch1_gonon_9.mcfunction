@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Aqui, beba este caldo, vai te dar força. Vou abrir a entrada da caverna para você, vá atrás do balcão.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"喏，把这碗汤喝了—它能给你补充体力。到柜台后面来，我会帮你打开通往储藏室的入口。","color":"dark_aqua"}]}

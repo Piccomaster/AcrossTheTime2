@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Sylvain, ele... Nunca deveríamos ter nos aventurado neste lugar amaldiçoado.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Sylvain，他...我们不应该冒险进入这个被诅咒的地方。","color":"dark_aqua"}]}

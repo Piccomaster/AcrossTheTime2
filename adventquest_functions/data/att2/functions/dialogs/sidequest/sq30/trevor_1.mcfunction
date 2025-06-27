@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Commandant Trevor : ","color":"g
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Você é aquele que o rei enviou para investigar? Hm... muito bem, mas estou de olho em você! O ladrão teve que se infiltrar através de uma rachadura no topo da sala secreta onde os planos estão escondidos, isso é tudo o que sabemos por enquanto. Vá para o fundo da biblioteca, a entrada estava escondida por uma fileira de livros, mas agora está aberta.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"你是国王派来调查的那个人吗？嗯...很好，但我会监督你的！目前我们唯一知道的就是：藏有设计图的密室顶部的有一条缝隙，小偷只能从那个地方进入。去图书馆的后面，入口被一排书架挡住了，现在已经打开了。","color":"dark_aqua"}]}

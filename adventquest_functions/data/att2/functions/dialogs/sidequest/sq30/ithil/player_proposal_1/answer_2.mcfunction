@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Jaris : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Não sei como te agradecer! Aqui estão eles!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"我不知道该怎么感谢你！这是宫殿设计图！","color":"dark_aqua"}]}

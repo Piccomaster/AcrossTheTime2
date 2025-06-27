@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"Ah, recebi a notícia de que a entrega chegou em segurança. Muito obrigado, aqui está seu pagamento, aventureiro-entregador.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"啊，我收到了快递安全到货的消息。非常感谢，这是付给您的，冒险家送货员。","color":"dark_aqua"}]}

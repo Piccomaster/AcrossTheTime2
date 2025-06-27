@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Os ignorantes são bons em dar lições, eles são cegos demais para ver a sorte que tiveram! Agora é minha vez de dar uma lição a eles!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"无知的人总是善于教育别人，他们眼瞎到根本看不到他们身上与生俱来的好运气！是时候该给他们上一课了！","color":"dark_aqua"}]}

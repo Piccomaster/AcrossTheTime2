@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"उपचार का नया स्
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Cicatrização!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“愈合”已升级！","color":"gold"}

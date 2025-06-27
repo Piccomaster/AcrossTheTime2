@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Que tal isso?! É raro encontrar pessoas tão interessantes como você! Mas eu não entendo por que você quis encontrar Etotsira? Ele mesmo não explicou para nós.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"如何？！像你这样有趣的人很少见！但我不明白你为什么想找Etotsira？他也没有向我们解释清楚缘由。","color":"dark_aqua"}]}

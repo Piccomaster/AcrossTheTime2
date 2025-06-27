@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- उभरता पुरातत
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Arqueólogo iniciante -°- : ","color":"gray","extra":[{"text":"Walton estava procurando o artefato que encontrei nas catacumbas do cemitério de Eol. Ele parecia saber como e onde usá-lo. Ele me disse para encontrá-lo nas ruínas de Scheströwn, ao norte do pântano de Owsästr.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 初露头角的考古学家 -°- : ","color":"gray","extra":[{"text":"Walton仔细研究了我从Eol墓园带回来的遗物，他好像知道了该怎么使用这件东西了。去Owsästr沼泽北边的Schestrown遗迹和Walton碰面。","color":"aqua","italic":true}]}

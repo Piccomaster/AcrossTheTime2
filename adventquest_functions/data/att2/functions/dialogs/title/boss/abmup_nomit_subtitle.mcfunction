@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"खतरनाक रक्ष�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Defesas perigosas, determinação fatal","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"危险的疣猪兽，坚韧至死的决心","color":"gray"}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"gray","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","extra":[{"text":"Você pode ser a reencarnação do mestre dos mestres, mas não me impedirá de cumprir meu destino. Porque você é mortal agora, e eu já te venci.","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"如果你想的话，肯定能成为万王之王，但你无法干预我的命运了，因为现在的你是凡体肉胎，而我更是刚刚战胜你。","color":"yellow","italic":true}]}

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- बाहरी समय से �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Memórias de um tempo distante -°- : ","color":"gray","extra":[{"text":"Finalmente tenho a arma ''Nekr al Felèvsil''! Devo levá-la de volta a Aldelrion em Angor.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 来自外时的记忆 -°- : ","color":"gray","extra":[{"text":"成功拿到了长戟“希律王之死”，得把它交还给Aldelrion。","color":"aqua","italic":true}]}

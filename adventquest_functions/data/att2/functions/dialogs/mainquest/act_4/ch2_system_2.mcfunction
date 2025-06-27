@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"वोनाहाइम अपनी �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Vonaheim está recuperando toda a sua saúde...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"Vonaheim已然复原如初...","color":"gray","italic":true}

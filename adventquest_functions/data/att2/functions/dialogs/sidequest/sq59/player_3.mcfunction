@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Olá Nolduron. Etotsira não mentiu para você: eu sou o autor desta mudança de portal, eu tinha alguns problemas importantes para resolver...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"又见面了，Nolduron。Etotsira说得没错：我是这次传送门变动的始作俑者。因为我当时要解决一个更重要的问题...","color":"aqua"}]}

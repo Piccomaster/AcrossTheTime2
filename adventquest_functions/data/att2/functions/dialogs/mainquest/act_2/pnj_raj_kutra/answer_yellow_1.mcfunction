@@ -54,6 +54,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"Como isso pode ser? Eu, o ilustre Raj, não seria apreciado pela doce Syri? Oh raiva, oh desespero... mas o que me tornarei... Deixe-me então ir, enrolado em um manto de solidão, em direção a horizontes ásperos que não suporto... Deixando minha bela nos braços de outro...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"怎么会这样？英俊潇洒的优秀男人Raj怎会得不到小甜心Syri的爱？噢，我愤怒无比... 噢，我失望透顶...失去了她我的世界将会变成什么样子...我得走了么- 披上那名为孤独的披风，痛苦地消失在远方那刺眼的地平线后，让自己的心上人依偎在别人的臂弯里...","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/raj/raj4
+

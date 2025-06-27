@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Pela perda de sua esposa e a destruição de seu povo, meu irmão Azazel perdeu a razão e desapareceu, deixando seu dever e Sérile, sua jovem filha, para trás.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"在接连失去他的妻子和子民后，我的兄弟Azazel理智崩坏并自此消失—他遗留下的血脉，年轻的女儿Sérile，继承了他的权力。","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Joël Roblochon : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"Olá! Normalmente é proibido entrar na minha cozinha, mas farei uma exceção com você. Acima de tudo, não toque em nada!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"嘿！正常情况下是禁止进入我的厨房的，不过我会对你破例。最重要的是，不准碰任何东西！","color":"dark_aqua"}]}

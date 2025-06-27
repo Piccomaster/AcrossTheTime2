@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo não é ignorante, ele sabe muitas coisas. E todos o desprezam sem razão. Mas J'zargo vai mostrar a eles...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo不是一个无知的人，他知道很多事情。所有人都无缘无故的鄙视他。但是J'zargo会向他们证明自己...","color":"dark_aqua"}]}

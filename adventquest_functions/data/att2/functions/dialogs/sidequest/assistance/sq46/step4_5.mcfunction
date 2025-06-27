@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सोता हुआ अंध�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A escuridão adormecida -°- : ","color":"gray","extra":[{"text":"Esta coroa é estranha, talvez eu encontre um uso para ela mais tarde...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"这顶奇异的黑色王冠应该在之后能派上用场。","color":"aqua","italic":true}]}

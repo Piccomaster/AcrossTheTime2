@@ -55,3 +55,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 
 function att2:voice/namrin/namrin_sidequest12
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"你好，你带了什么东西过来？","color":"dark_aqua"}]}

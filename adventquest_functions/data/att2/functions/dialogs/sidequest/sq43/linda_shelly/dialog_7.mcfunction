@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green
 
 function att2:dialogs/sidequest/sq43/linda_shelly/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq43/linda_shelly/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"你回来了？我还以为你不再帮我了，或者更糟糕的是你已经遭遇到不测了...","color":"dark_aqua"}]}

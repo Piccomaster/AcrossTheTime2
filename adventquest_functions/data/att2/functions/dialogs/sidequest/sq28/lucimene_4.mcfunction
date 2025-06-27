@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lucimène : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"Quem... quem são essas pessoas? *Uivo de dor* Você não pode imaginar... a dor que eu sinto...","color":"blue"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"谁..这些人是谁?*痛苦的哀嚎*你无法想象...我体验到的痛苦...","color":"blue"}]}

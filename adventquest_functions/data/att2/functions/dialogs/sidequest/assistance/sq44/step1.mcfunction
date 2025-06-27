@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- जीवन भर के लि�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Viciado para a vida -°- : ","color":"gray","extra":[{"text":"Edwin Vortid me contou sobre Charles que em troca de Chronotons ofereceria prêmios aleatórios... Vamos para a floresta de Soquaï perto da torrente, onde seu estabelecimento está localizado, para fazer algumas apostas.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 沉醉一生 -°- : ","color":"gray","extra":[{"text":"Edwin_Vortid说有个叫Charles的家伙开了个赌场，能用Chronotons和他随机交换一些物品。赌场就在Soquaï森林里的激流旁。","color":"aqua","italic":true}]}

@@ -51,5 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° इंद्रा लोर्�
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Então, você gosta da aventura? Eu viajei muito na minha vida e passei por muitos perigos. Às vezes penso que gostaria de voltar à estrada, se ao menos não tivesse essas dores nas costas... Aproveite enquanto a juventude é sua, há tantas belezas a descobrir no mundo.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"这么说来，你喜欢冒险？我曾历经过许多次冒险，无数次置之死地而后生... 我也曾想再次踏上征途，但背上伤口刺痛感却一次次把我拉回现实...当青春仍旧存于你手的时候，莫负光阴，尽情享受吧，大千世界的万千奇景等着你亲眼见证。","color":"dark_aqua"}]}
 
 function att2:voice/indra/indra_dialogue1
+

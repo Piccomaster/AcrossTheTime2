@@ -62,6 +62,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Brutus : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"Por trás, a fachada do templo está bastante degradada. Você deve conseguir encontrar uma entrada por lá. Passe pelas muralhas. Há uma escada sob o mirante leste, deve estar quebrada, mas você deve encontrar algo para repará-la na vila...","color":"dark_aqua"}]}
 
-
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"神殿其中一侧的墙体损毁严重，你应该可以在那找到入口，不过你需要从城墙上走到那去。在东侧的瞭望塔底下有节断裂的梯子，但你应该能靠寨子里的东西修好它...","color":"dark_aqua"}]}
 
 function att2:voice/brutus/brutus5
+

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Então está decidido, vou te enviar para Angband, 32.000 anos atrás. Enquanto a guerra do fogo devastava este reino. Você provavelmente me encontrará lá, mas eu não vou reconhecê-lo.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"一言为定。我会把你送到32000年前的Angband—一个正值战争时期的王国。你可能会在那遇见我，但那时的我并不认识你。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Agora posso ir a Ëarndhel e acabar com Etotsira. Se bem me lembro, a casa dele está um pouco isolada da aldeia e fica na extremidade norte da ponte.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"现在我可以去Earndhel找Etotsira算账了。如果我没记错，他的家离村子隔着一段距离—在大桥的北端。","color":"aqua"}]}

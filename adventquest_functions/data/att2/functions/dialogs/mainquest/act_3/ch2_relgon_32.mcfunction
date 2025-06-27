@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Felizmente, a entidade devastadora sempre retorna à fonte para descansar. Se você conseguir os dois selos que selam a entrada da antecâmara antes da fonte, podemos enfrentar uma última vez o monstro que causou esta guerra...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"所幸，这只怪物总会返回泉源附近休养生息。如果阁下能拿到封印通往泉源的道路的两个法器，封印就能解除，我们也就能再一次和罪魁祸首进行战斗了。","color":"dark_aqua"}]}

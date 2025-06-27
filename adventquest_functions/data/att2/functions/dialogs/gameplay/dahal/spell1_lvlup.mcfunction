@@ -13,7 +13,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlocked for Fireball!","colo
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“火球”已升級！ ","color":"gold"}
+tellraw @s {"text":"咒語“火球”已升級！ ","color":"gold"}
 
 #JAPANESE LANGUAGE
 
@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"फायर बॉल के लिए
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Bola de Fogo!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“火球”已升级！","color":"gold"}

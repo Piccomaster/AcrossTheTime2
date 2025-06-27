@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Estou na academia, mas não é o prédio principal. Tenho que procurar uma maneira de sair daqui para alcançar as seções mais seguras na temporalidade onde a ponte não está quebrada... Para isso, terei que abrir a porta principal. Pode haver sistemas e chaves escondidos nos diferentes períodos de tempo.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我到达了学院，但不是主楼。我必须想办法离开这里，到达还未崩塌的断桥的更安全的部分...为此，我将不得不打开大门。在不同的时间段中寻找可能存在的隐藏的机关和钥匙。","color":"aqua"}]}

@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Violette : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"A cripta e o cemitério estão acessíveis novamente? Incrível! Obrigado, então pegue isto. Também poderei informar ao meu vizinho que agora ele pode fazer seu trabalho nas catacumbas. Ele é um arqueólogo e realiza suas pesquisas na área. Ele é uma pessoa gentil e prestativa, mas bastante tímido.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"地下室和墓地可以再次进入了吗？太好了！谢谢你，请你收下这些Chronotons。我会告诉我的邻居，他现在可以在地下墓穴工作了。他是一名考古学家，从事该地区的研究。他是个乐于助人的好人，但是他很内向，不擅长和人交流。","color":"dark_aqua"}]}

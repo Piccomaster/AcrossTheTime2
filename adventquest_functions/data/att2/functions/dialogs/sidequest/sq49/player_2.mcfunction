@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sim, eu fui a Angband em duas ocasiões. É um pouco complicado, mas a última vez foi há cerca de 32.000 anos... quero dizer, ciclos. Eu participei de uma guerra que opôs La Flamme Noire e a maioria dos mortais aos Ethernäns. Os Ethernäns venceram, La Flamme Noire foi derrotada, mas Relgon pereceu...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我去了两次Angband。这可能有些复杂，但我上次去Angband是在32000年前...我的意思是，穿越回去....我参加了一场La_Flamme_Noire和大多数人类对抗Eternäns的战争。最终Eternäns取得了胜利，La_Flamme_Noire被击败了，但是Relgon湮没于世了...","color":"aqua"}]}

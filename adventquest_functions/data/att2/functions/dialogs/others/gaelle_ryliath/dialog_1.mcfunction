@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gaëlle : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"Bem-vindo ao banco Ryliath, você pode depositar seu dinheiro com segurança e retirá-lo a qualquer momento. Clique nos sinais para prosseguir com as transferências.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"欢迎光临Ryliath银行。您随时可以在这里存入或取出Chronoton—点击我旁边的告示牌即可进行相关操作。","color":"dark_aqua"}]}

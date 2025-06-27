@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Agora que conheço as origens do problema, terei que lidar pessoalmente com este S... Etotsira me aconselhou a encontrar gemas do tempo para estabelecer um portal do tempo em Ryliath para me trazer de volta ao meu tempo. Primeiro tenho que ver a família real de Ryliath, eles certamente poderão me dizer a localização de algumas gemas do tempo.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"既然明白了导致这一切的根源，我现在不得不亲自解决S的问题...Etotsira建议我去寻找时间宝石，好在Ryliath生成一个穿越时间的传送门， 这样我才能回到我所处的那个时代。首先，我得去和Ryliath的王室成员见个面，他们一定能告诉我时间宝石的位置。","color":"aqua"}]}

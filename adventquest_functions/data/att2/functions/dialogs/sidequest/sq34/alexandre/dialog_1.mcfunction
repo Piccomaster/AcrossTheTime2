@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alexandre : ","color":"green","
 
 function att2:dialogs/sidequest/sq34/alexandre/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq34/alexandre/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"万分感谢，我差点被它们剥了皮...我该怎么报答你？ ","color":"dark_aqua"}]}

@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"भेड़िये के लिए 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Lobo!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“呼狼引伴”已升级！","color":"gold"}

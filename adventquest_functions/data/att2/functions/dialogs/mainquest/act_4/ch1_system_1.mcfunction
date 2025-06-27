@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"कुछ मिनटों बाद.
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"Alguns minutos depois...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"几分钟后...","color":"gray","italic":true}

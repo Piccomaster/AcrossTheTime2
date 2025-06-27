@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Obrigado. Como eu disse, J'zargo está longe de ser um aluno exemplar. Na verdade, ele é certamente o menos talentoso de nós. E ele está bem ciente disso, o que não ajuda na sua autoestima. É por isso que ele decidiu partir em busca de... *suspiro* uma lenda.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"谢谢你。正如我所说，J'zargo远非一个模范学生。实际上，他肯定是我们中天赋最差的那一个。他也很清楚这一点，但这样对他的自尊没有好处。这就是他为什么决定离开并去寻找一个...*叹息*一个传奇。","color":"dark_aqua"}]}

@@ -48,3 +48,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"Angband का गठबंध�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Aliança de Angband","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Angband联盟","color":"gray"}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Ah, entendi, desculpe por questionar você. As pessoas raramente vêm visitar tão tarde durante a noite! Bem, você está com sorte, este é uma estalagem.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"噢...我明白了。很抱歉怀疑你，毕竟少有人在深夜到访。你很走运，这里是一家客栈。","color":"dark_aqua"}]}

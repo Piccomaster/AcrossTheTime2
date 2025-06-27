@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Nestor : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Os canalhas ainda não saíram do meu domínio. Por favor, mande-os embora rapidamente...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"那些混蛋还在我的地盘里。请快点把他们赶走...","color":"dark_aqua"}]}

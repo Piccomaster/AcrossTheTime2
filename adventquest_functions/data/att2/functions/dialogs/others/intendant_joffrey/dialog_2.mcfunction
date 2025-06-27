@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Joffrey : ","color":"
 
 scoreboard players set intendant_joffrey_PNJ DIALOG 5
 function att2:items/quest/keys/ryliath_house_key
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"噢，您就是帮助了国王Adrian的英雄吗？他委托我告诉您一个您一定不会拒绝的提议—国王为了感谢您对他的帮助，他决定将城内最好的房子的所有权转交给你。我本想把它卖个好价钱的，不过现在嘛...它是你的了！拿着这串钥匙吧！","color":"dark_aqua"}]}

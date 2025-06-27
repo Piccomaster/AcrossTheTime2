@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Hive अपनी सभी जिं�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Hive recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Hive恢复了他的力量...","color":"gray","italic":true}

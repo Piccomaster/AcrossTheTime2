@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Exatamente e é muito perspicaz da sua parte. Mas se você encontrar este arco em outras mãos, mãos que não estão prontas para entregá-lo a você, gostaria que trouxesse sua descrição para mim.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"没错，你很敏锐。但如果你在其他人的手中发现了这把弓，而那些人又不愿意把它交给你，我希望你能给我带来那些家伙的相关信息。","color":"dark_aqua"}]}

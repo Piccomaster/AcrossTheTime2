@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Aqui está uma das minhas lojas favoritas: No alquimista você encontrará todos os tipos de poções e flechas encantadas!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"这是我最爱的商铺之一：你可以在炼金术师这购买各式各样的药水和附魔箭矢！ ","color":"dark_aqua"}]}

@@ -60,5 +60,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Golem : ","color":"green","extra
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"No fim do caminho, as pedras pegajosas. Sua força e vontade, o ser de metal requer.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"在道路尽头存有粘石。他们的力量与意识是金属所需。","color":"dark_aqua"}]}
 
 function att2:voice/golem/golem6

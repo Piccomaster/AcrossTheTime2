@@ -59,6 +59,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Encontre-me no barco, reunirei minha tripulação e partiremos quando você quiser!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"来船上找我，我会带着船员把你送到你想去的地方！","color":"dark_aqua"}]}
 
 
 function att2:voice/syri/syri_dialogue2
+

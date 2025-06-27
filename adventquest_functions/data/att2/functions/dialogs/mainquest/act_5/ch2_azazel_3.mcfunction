@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Azazel : ","color":"gold","extra
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"Responda agora, antes que eu te esfole vivo!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"立刻回答，在我将你活剥生吞之前！ ","color":"dark_aqua"}]}

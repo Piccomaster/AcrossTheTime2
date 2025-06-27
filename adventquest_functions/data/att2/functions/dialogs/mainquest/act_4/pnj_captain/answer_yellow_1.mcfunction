@@ -64,5 +64,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"É sério? Como desejar, mas uma vez do outro lado, não abriremos você novamente até que o inimigo esteja derrotado... Vamos cobrir você dos muros, então não vá muito longe. ABRA A PORTA!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 队长 : ","color":"green","extra":[{"text":"哦？真的么？好吧如你所愿，但你一旦去了城墙另一边，直到敌人被全歼为止我们都不会打开城门...但我们会从城墙上支援你，不要走太远了。好了，关闭城门！","color":"dark_aqua"}]}
 
 function att2:voice/capitaine/capitaine4
+

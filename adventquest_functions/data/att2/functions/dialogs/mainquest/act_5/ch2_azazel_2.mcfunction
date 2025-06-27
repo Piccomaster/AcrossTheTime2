@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Azazel : ","color":"gold","extra
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"Quem és tu, insignificante mortal, e por que razão trivial te atreves a apresentar-te perante mim?...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"你这微不足道的凡人是谁，竟敢因为如此微不足道的理由站在我面前？？","color":"dark_aqua"}]}

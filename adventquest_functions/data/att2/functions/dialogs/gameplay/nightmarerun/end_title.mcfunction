@@ -52,3 +52,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"~ ","color":"dark_red","extra":[
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"~ ","color":"dark_red","extra":[{"text":"Tempo: ","color":"gray"},{"score":{"name":"Chrono_Hour_Result","objective":"NIGHTMARERUN"},"color":"red"},{"text":"h","color":"gray"},{"text":":","color":"gold"},{"score":{"name":"Chrono_Minute_Result","objective":"NIGHTMARERUN"},"color":"red"},{"text":"m","color":"gray"},{"score":{"name":"Chrono_Second_Result","objective":"NIGHTMARERUN"},"color":"red"},{"text":"s","color":"gray"},{"text":" ~","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] subtitle {"text":"~ ","color":"dark_red","extra":[{"text":"用时：","color":"gray"},{"score":{"name":"Chrono_Hour_Result","objective":"NIGHTMARERUN"},"color":"red"},{"text":"h","color":"gray"},{"text":":","color":"gold"},{"score":{"name":"Chrono_Minute_Result","objective":"NIGHTMARERUN"},"color":"red"},{"text":"m","color":"gray"},{"score":{"name":"Chrono_Second_Result","objective":"NIGHTMARERUN"},"color":"red"},{"text":"s","color":"gray"},{"text":" ~","color":"dark_red"}]}

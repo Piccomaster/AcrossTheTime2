@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Cassandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"Você não o encontrará, ele deixou a academia logo após o desaparecimento de Totoro. Mas Triss deve saber como localizá-lo...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"你找不到他的，他在Totoro消失后不久就离开了学院。不过Triss应该知道怎么找回他...","color":"dark_aqua"}]}

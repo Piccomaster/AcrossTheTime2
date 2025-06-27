@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extr
 
 function att2:dialogs/sidequest/sq49/trias/player_proposal_4/choice_1
 function att2:dialogs/sidequest/sq49/trias/player_proposal_4/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"这把弓是很久以前Angband一位最伟大的凡人赠予我的，它的比你们人类的历史都要久远很多。我继承了它的意志并承载着人类和永生者的希望。","color":"dark_aqua"}]}

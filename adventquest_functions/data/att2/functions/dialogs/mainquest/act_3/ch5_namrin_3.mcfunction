@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Acho que teremos que enfrentar La Flamme Noire sozinhos. Relgon confia em mim, e espero não decepcioná-lo...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我想，我们将不得不依靠自己的力量直面La_Flamme_Noire。Relgon那么相信我，希望我不会让他失望...","color":"dark_aqua"}]}

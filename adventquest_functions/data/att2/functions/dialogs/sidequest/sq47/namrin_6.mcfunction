@@ -55,3 +55,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 
 function att2:voice/namrin/namrin_sidequest18
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"这里是Irilion的墓地。有史以来最伟大的圣地——在无数年前Môt的暴行下，Angband创造者消逝的地方。","color":"dark_aqua"}]}

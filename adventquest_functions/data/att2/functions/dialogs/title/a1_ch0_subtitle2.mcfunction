@@ -46,3 +46,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"प्रस्तुत कर�
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"Apresenta","color":"dark_aqua"}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"制作","color":"dark_aqua"}

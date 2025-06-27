@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[पेटू चूहे]","color":"g
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Ratos glutões]","color":"gold"}
 
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[贪吃的老鼠]","color":"gold"}

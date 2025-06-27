@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Arqueólogo iniciante -°- : ","c
 
 
 function att2:dialogs/sidequest/sq37/mobs_killed_total
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 初露头角的考古学家 -°- : ","color":"gray","extra":[{"text":"Walton让我解决掉Soquaï激流附近那些凶猛的怪物，杀够一定数量之后它们就不会再来了。","color":"aqua","italic":true}]}

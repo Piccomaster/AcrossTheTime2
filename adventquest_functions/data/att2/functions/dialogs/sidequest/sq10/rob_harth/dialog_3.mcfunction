@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rob Harth : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Está pronto? Mate o maior número possível de monstros em minha terra, e eu não quero mais nenhum no meu celeiro.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"你准备好了吗？去我的田地里杀死尽可能多的怪物，我不想再在我的谷仓里看到它们。","color":"dark_aqua"}]}

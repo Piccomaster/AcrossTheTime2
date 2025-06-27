@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° हेलेना मेलि 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Olá, volte para me ver quando meus cavalos estiverem em melhor forma. Você precisa dar-lhes um pouco de tempo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"嘿，等我的马恢复好了再来找我，你得给它们恢复的时间。","color":"dark_aqua"}]}

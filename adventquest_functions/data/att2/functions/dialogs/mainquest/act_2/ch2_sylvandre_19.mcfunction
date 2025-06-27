@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Aqui está a casa do meu pai! Ele era um grande aventureiro no passado, mas agora está um pouco enferrujado haha!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"这儿是我父亲的房子！他以前是一位伟大的冒险家—尽管他现在有点名不副实。哈哈！ ","color":"dark_aqua"}]}

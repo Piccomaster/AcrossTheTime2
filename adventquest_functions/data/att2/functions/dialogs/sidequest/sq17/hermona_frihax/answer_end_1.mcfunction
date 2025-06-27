@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Hermona : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Que alívio, muito obrigado! Sou grata a você e, embora não tenha nada para lhe oferecer, saiba que a felicidade aguarda pessoas corajosas e generosas como você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"终于能松一口气了，非常感谢！我很感谢你为我们做的一些，虽然我们没有什么东西可以给你。但是像你这样慷慨又勇敢的人，一定会迎来幸福的。","color":"dark_aqua"}]}

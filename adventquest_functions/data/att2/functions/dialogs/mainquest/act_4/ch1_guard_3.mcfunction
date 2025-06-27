@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guarda : ","color":"green","extra":[{"text":"Você não pode avançar mais por enquanto. Eolorion foi atingida por uma tempestade e a neve bloqueou a outra extremidade do túnel.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"你目前无法再前进了。Eolorion遭遇了一场暴风雪，雪把隧道的另一端堵住了。","color":"dark_aqua"}]}

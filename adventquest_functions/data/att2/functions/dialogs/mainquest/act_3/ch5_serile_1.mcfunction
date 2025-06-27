@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"yellow","ex
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"Morra agora!","color":"dark_aqua","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"去死吧！","color":"dark_aqua","italic":true}]}

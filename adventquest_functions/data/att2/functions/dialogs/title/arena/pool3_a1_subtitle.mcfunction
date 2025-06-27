@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"आयामों का सं
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"União das Dimensões","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"维度联盟","color":"gray"}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° वुल्क : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Você encontrou esta arma intrigante em Worlëst? Ainda não? Sem problemas, sou paciente.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"你有在Worlëst森林里找到一把奇怪的武器吗？还没找到？没事，我有耐心。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"सभी किरणों को ज
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Todos os raios devem convergir para esta sala para continuar...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"要想前进，似乎得让外面的三条光束都会聚到这个房间...","color":"gray","italic":true}

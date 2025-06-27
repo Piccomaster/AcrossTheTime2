@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O aluno está impaciente, mas com que propósito? J'zargo duvida que ele lembre o motivo de estarmos aqui...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"这学徒很没有耐心，但是居然问我们的目的？J'zargo怀疑他是不是失忆了...","color":"dark_aqua"}]}

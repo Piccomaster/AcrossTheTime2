@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"महान वास्तु�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Grande Arquiteto, Demência da Criação","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"伟大的造物者，混沌的造物","color":"gray"}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Brynhild : ","color":"green","ex
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Brynhild : ","color":"green","extra":[{"text":"Herói? Herói falso... Em batalha.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Brynhild : ","color":"green","extra":[{"text":"英雄？想来是虚伪的英雄...会在战斗中原形毕露。","color":"dark_aqua"}]}

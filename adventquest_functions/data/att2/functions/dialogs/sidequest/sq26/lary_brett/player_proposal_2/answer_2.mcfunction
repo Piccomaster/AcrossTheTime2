@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lary Brett : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"O que .. O quê? Você não se atreveria! Sim? B ... B ... Muito bem, aqui estão as chaves ... Mantenha-as...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"什..什么？你不会这么做的！真的吗？...好的，这个是钥匙...给你...","color":"dark_aqua"}]}

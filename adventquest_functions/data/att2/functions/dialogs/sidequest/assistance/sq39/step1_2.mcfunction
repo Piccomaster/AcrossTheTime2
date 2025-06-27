@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- आगे बढ़ने के �
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Deixando o passado para trás para avançar -°- : ","color":"gray","extra":[{"text":"Não sei por que dei tanto dinheiro a este estranho, talvez um dia este bom gesto seja benéfico para mim...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 往者不可谏， 来者犹可追 -°- : ","color":"gray","extra":[{"text":"我不知哪来的勇气给这个流浪汉这么多的钱，希望他知恩图报！","color":"aqua","italic":true}]}

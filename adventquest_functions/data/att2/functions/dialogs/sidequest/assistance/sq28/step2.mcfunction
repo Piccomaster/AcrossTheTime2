@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- यात्रा का अं�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O Fim de uma Jornada -°- : ","color":"gray","extra":[{"text":"Korlaph está louco, eu tenho que me livrar dele. Ele está localizado no templo de Elchéol...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 旅途终点 -°- : ","color":"gray","extra":[{"text":"Korlaph已经彻底疯了，我必须打败他，在这Elcheol神庙里和他一战","color":"aqua","italic":true}]}

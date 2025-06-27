@@ -57,3 +57,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Carmen Ysta : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Muito obrigado pela sua ajuda, você trouxe tudo o que eu precisava. Finalmente poderei fazer minha sopa de cogumelos, você me contará as novidades! Aqui, isso é para recompensá-lo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"非常感谢你的帮助，你把我需要的都带来了。我终于可以做蘑菇煲了，到时候跟我说说你觉得味道怎么样！这些是给你的奖励。","color":"dark_aqua"}]}

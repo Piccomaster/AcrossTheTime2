@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Hmmm, você precisa de informações que só eu tenho? Então, elimine todos esses monstros e eu darei uma olhada na sua ''coisa''...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"嗯，你只需要我有的情报吗？去把那些怪物赶走，我就会查看一下你的那个“东西”...","color":"dark_aqua"}]}

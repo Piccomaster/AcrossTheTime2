@@ -51,5 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Brutus : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（Com uma voz pouco convincente）Brutus muito cansado; não quer lutar hoje.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（有些迟疑）Brutus疲惫至极，今天不想惹是生非.","color":"dark_aqua"}]}
 
 function att2:voice/brutus/brutus_dialogue1
+

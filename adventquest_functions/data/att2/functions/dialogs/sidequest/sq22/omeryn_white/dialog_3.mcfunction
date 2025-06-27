@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Omeryn White : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Você ainda não terminou? Que ousadia voltar para me ver sem se ocupar dos esqueletos! Eu gosto disso, mas vá, faça seu trabalho!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"你还没干完活？居然忙里偷闲过来看我！我挺喜欢有人来看我的。但是话说回来，赶紧去做你的工作！","color":"dark_aqua"}]}

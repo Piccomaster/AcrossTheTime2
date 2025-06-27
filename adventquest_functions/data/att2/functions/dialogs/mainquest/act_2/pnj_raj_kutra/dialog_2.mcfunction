@@ -65,8 +65,12 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Raj Kutra : ","color":"green","e
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Raj, é você? Eu queria falar com você sobre Syri Lorth...","color":"aqua"}]}
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"Ah, Syri, ela não é encantadora? Seus cabelos dourados flutuando no vento norte me transportam para sonhos...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你是Raj对吧？我想和你谈谈有关Syri_Lorth的事...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"啊，Syri。她真的很漂亮，不是吗？徐徐北风，金发飘荡，载吾入梦...","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/raj/raj2
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_1
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_0
+

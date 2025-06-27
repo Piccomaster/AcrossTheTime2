@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° अरामिस : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"A gema que você está procurando... O que é isso? Outro ataque... Traga sua ajuda para o portão oeste e então continuaremos esta conversa.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"你们在找的宝石...那是什么？等会，又有敌人来袭...你先去西门帮忙，稍后我们再谈。。","color":"dark_aqua"}]}

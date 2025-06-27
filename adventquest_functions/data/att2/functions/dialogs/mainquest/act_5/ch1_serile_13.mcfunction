@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"gray","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","extra":[{"text":"Então serei forçado a te matar mais uma vez!","color":"yellow","italic":true}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"那么我将不得不再次杀死你。 ","color":"yellow","italic":true}]}
 
 function att2:voice/serile/serile56
+

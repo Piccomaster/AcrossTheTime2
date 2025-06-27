@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil não tem mais informações para me dar sobre a localização de uma gema do tempo. Etotsira parece ser minha melhor opção para encontrar o que estou procurando. Vamos até Ëarndhel para conversar com ele.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil没有更多关于时间宝石位置的信息了。现在去找Etotsira似乎是当下的最佳选择。让我们去Earndhel和他谈谈吧。","color":"aqua"}]}

@@ -41,3 +41,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- Wulk को लोहे की �
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Wulk precisa de ferro -°- : ","color":"gray","extra":[{"text":"Wulk, o ferreiro, me pediu para coletar minério de ferro na mina localizada a leste de Ryliath na floresta.","bold":false,"color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 缺铁的铁匠 -°- : ","color":"gray","extra":[{"text":"差事源源不断吶...铁匠Wulk需要我帮忙去Ryliath东面的矿洞里取回一些铁矿","bold":false,"color":"aqua","italic":true}]}

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- कभी पता नहीं �
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Nunca se sabe o que se vai encontrar -°- : ","color":"gray","extra":[{"text":"Jack Arrow falou-me de um navio encalhado que pode conter um tesouro. Tenho de o encontrar, está a sul da região, nas profundezas do mar.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 你永远不知道你会得到什么 -°- : ","color":"gray","extra":[{"text":"Jack_Arrow透露了一艘沉船的位置，就在这片区域南部的深水区里。沉船里应该有不错的东西。","color":"aqua","italic":true}]}

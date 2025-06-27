@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Ei! Mas é ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_aqua"},{"text":"! Espere, Brynhild, é um herói! Ele reativou o portal de Ryliath e dizem que viajou para outras dimensões.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"嘿！但那是... ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_aqua"},{"text":"！ 等等，Brynhild， 他是一个英雄！他重新激活了Ryliath的传送门并且在其他维度旅行。","color":"dark_aqua"}]}

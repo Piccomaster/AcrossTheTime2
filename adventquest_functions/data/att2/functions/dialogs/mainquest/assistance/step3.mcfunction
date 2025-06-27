@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tenho que ir à cidade de Ryliath para obter mais pistas para encontrar Etotsira. Gonon me aconselhou a seguir a estrada para o sul.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我需要到Ryliath寻找有关Etotsira行踪的线索—Gonon建议我沿着道路往南走。","color":"aqua"}]}

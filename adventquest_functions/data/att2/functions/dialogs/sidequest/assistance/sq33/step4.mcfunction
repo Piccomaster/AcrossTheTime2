@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सिल्बरलैंड क
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Terminei a exploração. Agora devo voltar para informar Mortimer sobre a descoberta e contar o que encontrei lá.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Sylberländ的秘宝 -°- : ","color":"gray","extra":[{"text":"探索告一段落了，回去将我所发现的告诉Mortimer。","color":"aqua","italic":true}]}

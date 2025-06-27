@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Deixei cair dois esmeraldas, mas nenhuma porta nova se abriu... No entanto, desbloqueei uma sinergia com meu feitiço de terremoto. Parece que há um passagem bloqueada por pedra esfarelenta nas bordas da torre sul. Vamos derrubá-la!","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"现在，已经有两块巨型绿宝石落到了地上，但似乎没有任何门开启的迹象...不过，我的咒语“地震”的威力得到了增强。如果我没记错，南翼塔楼的边缘有一条被碎石堵住的通道。现在就去震塌那儿吧！","color":"aqua"}]}

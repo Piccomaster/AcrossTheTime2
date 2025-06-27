@@ -46,3 +46,6 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"~ ","color":"dark_red","extra":
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"Panorama descoberto","color":"dark_green"},{"text":" ~","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"发现鸟瞰点","color":"dark_green"},{"text":" ~","color":"dark_red"}]}

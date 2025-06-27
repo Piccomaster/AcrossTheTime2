@@ -38,3 +38,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"Nível do mercado negro: ","color":"go
 
 
 tellraw @s {"text":"~ ","color":"dark_red","extra":[{"score":{"name":"level","objective":"RECYCLER"},"color":"red"},{"text":"/","color":"gray"},{"text":"6","color":"gold"},{"text":" ~","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"黑市等级：","color":"gold"}

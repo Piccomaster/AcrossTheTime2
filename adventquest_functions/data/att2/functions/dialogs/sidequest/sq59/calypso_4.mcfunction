@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Calypso : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*corando* Isso... isso é normal, vamos. Estou de volta a Ëarndhel por um bom tempo. Você pode me visitar no templo quando quiser...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*脸红*这...这再正常不过了吧，好了，我已经回到Earndhel有一段时间了，如果你想的话，随时可以来神殿里见我...","color":"dark_aqua"}]}

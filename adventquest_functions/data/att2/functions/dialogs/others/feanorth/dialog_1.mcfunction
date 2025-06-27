@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Fëanorth : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Fëanorth : ","color":"green","extra":[{"text":"Nosso exército está pronto! A batalha que nos espera será decisiva. Estamos apenas esperando as ordens do General Relgon...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Fëanorth : ","color":"green","extra":[{"text":"我们的军队准备就绪！这场战斗事关我们的生死存亡，只待Relgon将军一声令下...","color":"dark_aqua"}]}

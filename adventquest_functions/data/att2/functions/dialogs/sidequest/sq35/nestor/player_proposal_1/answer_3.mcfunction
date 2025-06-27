@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Nestor : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Você está indo direto ao ponto e eu farei o mesmo. No entanto, mil Chronotons não estão ao meu alcance. Isso é precisamente parte do meu problema... Os sujos bandidos se instalaram na minha área e roubaram quase tudo. Mas se você se livrar deles, eu lhe darei o resto das minhas economias, ou seja, 500 Chronotons.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"我也和你一样喜欢直截了当。但是我没有1000个Chronotons。这也是我困扰的一部分...那些强盗抢占了我的地盘并且抢走了所有值钱的东西。但如果你能把他们赶走，我会把我家底——仅剩的500个Chronotons全都给你。","color":"dark_aqua"}]}

@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"रिसायकलर के लि�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Recycler!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“回收”已升级！","color":"gold"}

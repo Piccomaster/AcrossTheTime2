@@ -50,6 +50,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"Oh raiva, oh desespero... mas o que vou me tornar... ...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"噢，我愤怒无比...噢，我失望透顶...失去她我的世界将变成什么模样...","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/raj/raj_dialogue1
+
+

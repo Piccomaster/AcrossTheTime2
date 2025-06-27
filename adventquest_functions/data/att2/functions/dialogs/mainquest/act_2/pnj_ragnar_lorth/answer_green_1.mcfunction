@@ -57,5 +57,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"..... ... Pffuhahahaha!! Bem, não há dúvida sobre isso, você é um aventureiro! Não sei onde você encontra inspiração para essas histórias, embora o álcool ajude muito, eu acho, mas só um aventureiro poderia inventar isso! Saiba que quem você quer ver é minha mãe e ela não anda pelo país desde que a idade a alcançou. No entanto, ela ficará feliz em conhecer um de seus colegas, pelo menos enquanto você não tentar envolvê-la em sua aventura. Ela está localizada em uma casa com vista para o arco natural, ao norte da cidade. Na verdade, a casa dela fica ao lado da torre mais alta da vila.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"...噗哈哈哈哈哈！毫无疑问，你定然是个冒险家！我不知道你是从哪个犄角旮旯翻出这个故事的—或许酒精没少给你“出谋划策”。但我相信只有冒险家才会如此一本正经的满嘴跑火车！虽然你很想见我的母亲，但她自从上了年纪以后就很少外出了了...嘛，只要你没有什么出格的想法-比如让她和你一起去冒险之类的，我想她会很乐意见一见同道的晚辈。她住在镇北，在一座位于天然岩拱桥的屋子里—总之，她家就在镇中最高的那座塔的边上。","color":"dark_aqua"}]}
 
 function att2:voice/ragnar/ragnar2
+

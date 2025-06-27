@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O desafio supremo -°- : ","color
 
 
 function att2:dialogs/sidequest/sq60/exploit_total
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 终极挑战 -°- : ","color":"gray","extra":[{"text":"我早已无心回去了，这里还有更多谜团等待我去发掘...","color":"aqua","italic":true}]}

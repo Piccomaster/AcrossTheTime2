@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Vi muitas guerras na minha vida... Mas raras são aquelas que carregam seus males até as profundezas de nossas almas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"在我的一生中我见证了许多战争...但是很少有战争能将痛苦刻进我灵魂的深处。","color":"dark_aqua"}]}

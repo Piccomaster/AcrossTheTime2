@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Albert Dirac : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"Bem-vindo à Pousada Eolorion. Gostaria de descansar em um dos nossos quartos? Você pode alugar um por um dia a um preço muito razoável.","color":"dark_aqua"}]}
 
 scoreboard players set albert_dirac_PNJ DIALOG 2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"欢迎光临Eolorion旅馆。想在这里休息一下吗? 在这儿住一天很便宜的。","color":"dark_aqua"}]}

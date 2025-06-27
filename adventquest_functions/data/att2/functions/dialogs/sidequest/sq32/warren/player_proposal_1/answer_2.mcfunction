@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Warren : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Muito bem, posso oferecer-lhe cem Chronotons se você voltar com a mercadoria. Aqui não podemos mais passar, mas haverá outras cavernas ao norte. Volte com vida!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"好的，如果你带着货物回来，我可以给你100个Chronotons，不过这个山洞被堵死了，火山北边的尽头会有一条通往内部的洞穴，祝你平安归来！ ","color":"dark_aqua"}]}

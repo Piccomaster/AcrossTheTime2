@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"< ","color":"dark_red","extra":[{"text"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"< ","color":"dark_red","extra":[{"text":"Missão aceita","color":"gold"},{"text":" >","color":"dark_red"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"< ","color":"dark_red","extra":[{"text":"接受任务","color":"gold"},{"text":" >","color":"dark_red"}]}

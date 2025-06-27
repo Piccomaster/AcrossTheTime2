@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uma escotilha permitindo que um fluxo de ar corra em direção ao fundo da caverna está trancada. Tanta segurança para um único conduíte, deve esconder algo importante, devo encontrar uma maneira de abri-lo!","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一个允许气流沖向洞穴底部的管道被锁上了。既然会给管道加锁，那这后面一定藏有某些重要的东西。我必须想办法打开它！ ","color":"aqua"}]}

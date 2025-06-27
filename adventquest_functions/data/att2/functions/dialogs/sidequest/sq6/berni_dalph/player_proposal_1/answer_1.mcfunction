@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° बर्नी डाल्फ 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Você mencionou Hurriel? Coitada, ela é tão desajeitada... Bem, vou fazer uma exceção, mas não se esqueça de dizer a Hurriel que eu te ajudei...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"你说Hurriel吗？可怜的女人，她太笨了...好吧，我得破例了，但别忘了告诉Hurriel我帮助了你...","color":"dark_aqua"}]}

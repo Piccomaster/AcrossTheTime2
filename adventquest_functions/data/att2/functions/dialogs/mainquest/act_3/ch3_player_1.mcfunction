@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A aldeia Fênix está à minha esquerda. Devo ir lá primeiro para obter o selo antes de ir para Angor, isso vai me poupar tempo...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"左侧的小路就通往Phoenix村。去Angor之前，我最好先到那里拿其中一个法器，这样就可以节省时间了...","color":"aqua"}]}

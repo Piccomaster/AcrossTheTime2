@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Berni Dalph : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Olá senhor, pare, esta é a entrada para os esgotos. Ninguém tem o direito de entrar.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"你好先生，停下，这是下水道的入口，任何人都无权进入。","color":"dark_aqua"}]}

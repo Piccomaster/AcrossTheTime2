@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° रानी Eldaris : ","color"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rainha Eldaris : ","color":"gold","extra":[{"text":"De qualquer forma, aqui está o seu dinheiro... Agora vá, mas não nos traia, ou você se arrependerá.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 女王 Eldaris : ","color":"gold","extra":[{"text":"不管怎样，我把钱给你...你可以走了，但是不要出尔反尔，否则你会后悔的。","color":"dark_aqua"}]}

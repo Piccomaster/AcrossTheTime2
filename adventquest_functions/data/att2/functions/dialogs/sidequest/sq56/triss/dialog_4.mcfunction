@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Boa sorte. Espero que seu cinismo lhe traga felicidade.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"祝你好运。我希望你的愤世嫉俗能为你带来快乐。","color":"dark_aqua"}]}

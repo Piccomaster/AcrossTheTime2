@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mercurius : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"Oh, há uma maneira... Bem, talvez meu primeiro treinamento não tenha sido totalmente altruísta, porque ao te testar, esperava que você subisse os degraus com o objetivo final de passar um desafio ao alcance apenas do escolhido...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"哦，其实有个方法…好吧，也许我最初的训练并不是完全无私的，因为我在测试你的同时也希望你能够一步步提升，最终达到目标。这是一个只有被选中者才能接受的挑战...","color":"dark_aqua"}]}

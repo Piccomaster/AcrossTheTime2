@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Sim, claro, pegue tudo o que ele tem no porta-malas! Jaris vai entregar os planos e tudo vai ficar bem!","color":"blue"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"好的好的，旁边箱子里的东西你都可以拿走！Jaris会交出设计图，一切都会好起来的！ ","color":"blue"}]}

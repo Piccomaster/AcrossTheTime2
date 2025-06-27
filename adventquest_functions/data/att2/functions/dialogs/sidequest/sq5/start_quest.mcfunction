@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[मिया को खोजें]",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Encontrar Mia]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[寻狗大作战]","color":"gold"}

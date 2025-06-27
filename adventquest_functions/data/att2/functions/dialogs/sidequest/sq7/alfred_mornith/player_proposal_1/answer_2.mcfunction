@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alfred Mornith : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"Você não poderia saber, boa sorte.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"你不可能知道的，祝你好运。","color":"dark_aqua"}]}
