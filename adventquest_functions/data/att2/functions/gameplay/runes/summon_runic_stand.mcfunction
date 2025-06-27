@@ -4,4 +4,4 @@
 #####################################################
 
 #kill @e[tag=runicwordStand]
-summon minecraft:armor_stand ~-0.05 ~1.5 ~0.2 {Tags:["runicwordStand"],HandItems:[{},{}],ShowArms:1,Invisible:1,NoGravity:1,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+summon minecraft:armor_stand ~-0.05 ~1.5 ~0.2 {Tags:["runicwordStand"],equipment:{mainhand:{},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
