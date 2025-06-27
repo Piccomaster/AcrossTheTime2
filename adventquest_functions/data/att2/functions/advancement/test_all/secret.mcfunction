@@ -30,20 +30,9 @@ execute if score ice_melt SECRET matches 25.. run advancement grant @a only att2
 execute if score shulker SECRET matches 1.. run advancement grant @a only att2:secret/shulker_1
 execute if score shulker SECRET matches 3.. run advancement grant @a only att2:secret/shulker_3
 execute if score shulker SECRET matches 5.. run advancement grant @a only att2:secret/shulker_5
-execute if score shulker SECRET matches 10.. run advancement grant @a only att2:secret/shulker_10
+execute if score shulker SECRET matches 10.. run advancement grant @a only att2:secret/shulker_10 
 execute if score shulker SECRET matches 20.. run advancement grant @a only att2:secret/shulker_20
 execute if score shulker SECRET matches 35.. run advancement grant @a only att2:secret/shulker_35
 execute if score shulker SECRET matches 50.. run advancement grant @a only att2:secret/shulker_50
 execute if score shulker SECRET matches 75.. run advancement grant @a only att2:secret/shulker_75
-# SYMBOL
-execute if score Exploration SYMBOL matches 1.. run advancement grant @a only att2:secret/root
-execute if score Exploration SYMBOL matches 1.. run advancement grant @a only att2:secret/symbol_1
-execute if score Exploration SYMBOL matches 5.. run advancement grant @a only att2:secret/symbol_5
-execute if score Exploration SYMBOL matches 10.. run advancement grant @a only att2:secret/symbol_10
-execute if score Exploration SYMBOL matches 25.. run advancement grant @a only att2:secret/symbol_25
-execute if score Exploration SYMBOL matches 50.. run advancement grant @a only att2:secret/symbol_50
-execute if score Exploration SYMBOL matches 100.. run advancement grant @a only att2:secret/symbol_100
-execute if score Exploration SYMBOL matches 250.. run advancement grant @a only att2:secret/symbol_250
-execute if score Exploration SYMBOL matches 500.. run advancement grant @a only att2:secret/symbol_500
-execute if score Exploration SYMBOL matches 750.. run advancement grant @a only att2:secret/symbol_750
-execute if score Exploration SYMBOL matches 1000.. run advancement grant @a only att2:secret/symbol_1000
+execute if score shulker SECRET matches 93 run advancement grant @a only att2:secret/shulker_93
