@@ -3,11 +3,15 @@
 #Pick small Chronotons pieces                                    	#
 #####################################################################
 
-execute store result score @s CHRONOTONquart run data get entity @s Item.Count
-execute if score BonusChronoton RUNE matches 0 run scoreboard players operation @s CHRONOTONquart *= 500 OP_CHRONOTON2
-execute if score BonusChronoton RUNE matches 1 run scoreboard players operation @s CHRONOTONquart *= 600 OP_CHRONOTON2
-execute if score BonusChronoton RUNE matches 2 run scoreboard players operation @s CHRONOTONquart *= 700 OP_CHRONOTON2
-execute if score BonusChronoton RUNE matches 3 run scoreboard players operation @s CHRONOTONquart *= 800 OP_CHRONOTON2
-execute if score BonusChronoton RUNE matches 4 run scoreboard players operation @s CHRONOTONquart *= 900 OP_CHRONOTON2
-execute if score BonusChronoton RUNE matches 5 run scoreboard players operation @s CHRONOTONquart *= 1000 OP_CHRONOTON2
-function att2:gameplay/chronoton/ground/finalize
+execute store result score amethyst CHRONOTON run data get entity @s Item.count
+
+#cal amethyst coin
+scoreboard players operation cal CHRONOTON = BonusChronoton RUNE
+scoreboard players operation cal CHRONOTON *= 50 CAL
+scoreboard players operation cal CHRONOTON += 500 CAL
+execute if predicate att2_pre:test_item/drop run scoreboard players set cal CHRONOTON 500
+scoreboard players operation amethyst CHRONOTON *= cal CHRONOTON
+scoreboard players operation @a[distance=..0,limit=1] CHRONOTON += amethyst CHRONOTON
+#sound
+kill @s
+function att2:sound/misc/coins3
