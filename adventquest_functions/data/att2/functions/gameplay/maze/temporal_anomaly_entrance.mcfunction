@@ -14,8 +14,8 @@ execute if score achieved MAZE matches 6 as @a[x=-5339.0,y=78,z=-4674.0,distance
 execute if score achieved MAZE matches 7 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9545 71 -10441
 
 # Particle
-particle minecraft:dust 1 0 0.4 0.5 -5339.0 78 -4674.0 1.5 1 1 0 25 normal
-particle minecraft:dust 0.3 0 0.3 0.5 -5339.0 78 -4674.0 1.5 1 1 0 25 normal
+particle minecraft:dust{color:[1,0,0.4],scale:0.5} -5339.0 78 -4674.0 1.5 1 1 0 25 normal
+particle minecraft:dust{color:[0.3,0,0.3],scale:0.5} -5339.0 78 -4674.0 1.5 1 1 0 25 normal
 particle minecraft:portal -5339.0 78 -4674.0 1.5 1 1 1 25 normal
 particle minecraft:mycelium -5339.0 78 -4674.0 1.5 1 1 0.02 25 normal
 
