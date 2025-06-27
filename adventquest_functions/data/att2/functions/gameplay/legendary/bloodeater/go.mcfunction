@@ -3,9 +3,10 @@
 #Process the effect of Blood-eater Blutfresser   #
 ##################################################
 
-scoreboard players remove @e[scores={HOLDING_BE=1..}] HOLDING_BE 1
-execute if score tic TIMECOUNTER matches 10..15 run scoreboard players set @a[gamemode=adventure,nbt={SelectedItem:{tag:{EquipmentID:"bloodeater"}}}] HOLDING_BE 15
 
-execute as @a[scores={DAMAGE=1..,HOLDING_BE=1..,BE_EFFECT=200..,DAHAL=50..}] at @s run function att2:gameplay/legendary/bloodeater/effect
-
-scoreboard players set @a[scores={BE_EFFECT=1..}] BE_EFFECT 0
+#hold effect
+execute as @a[predicate=att2_pre:legendary/bloodeater/mainhand] at @s run function att2:gameplay/legendary/bloodeater/hold_go
+#particle effect
+execute as @e[scores={OWNER=0..},tag=BE_ATK,type=arrow] at @s run function att2:gameplay/legendary/bloodeater/using/atk_effect
+# un hold ->over
+#execute as @a[predicate=!att2_pre:legendary/bloodeater/mainhand] at @s run function att2:gameplay/legendary/bloodeater/reset
