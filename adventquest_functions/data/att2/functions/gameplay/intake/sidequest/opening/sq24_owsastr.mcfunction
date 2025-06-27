@@ -3,7 +3,7 @@
 #Manage intake goods in Owsastr	 	 	 		 #
 ##################################################
 
-clear @s minecraft:note_block{display:{"Lore":["{\"text\":\"§4§oGoods\"}"]}} 1
+clear @s minecraft:note_block[custom_name={translate:'item.quest.goods.name'}] 1
 scoreboard players add intake_goods SQ24 1
 execute positioned -4539 71 -4524 run function att2:gameplay/intake/effect
 

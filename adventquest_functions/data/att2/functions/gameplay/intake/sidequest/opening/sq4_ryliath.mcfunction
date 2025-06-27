@@ -3,7 +3,7 @@
 #Manage intake mushroom in Ryliath	 	 	 	 #
 ##################################################
 
-clear @s minecraft:brown_mushroom{display:{"Lore":["{\"text\":\"§4§oEdible mushroom\"}"]}} 1
+clear @s minecraft:brown_mushroom[custom_name={translate:'item.quest.edible_mushroom.name'}] 1
 scoreboard players add intake_mushroom SQ4 1
 execute positioned -5080 77 -5036 run function att2:gameplay/intake/effect
 
