@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the sell of chronotons_125				#
+#Use function to process the sell of chronotons				#
 #################################################################
 
 execute as @s[scores={ESC=..0}] at @s run function att2:dialogs/gameplay/shop/not_enough_esc

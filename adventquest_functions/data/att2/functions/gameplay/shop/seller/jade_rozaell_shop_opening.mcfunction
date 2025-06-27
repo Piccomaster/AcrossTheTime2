@@ -35,4 +35,4 @@ function att2:dialogs/gameplay/shop/items_selled_list/misc_list
 function att2:dialogs/gameplay/shop/showcase/spell/recycler
 function att2:dialogs/gameplay/shop/showcase/misc/bundle
 execute if score Mainquest SIDEQUEST matches 220.. run function att2:dialogs/gameplay/shop/showcase/spell/stock_upgrade_esc
-execute if score Mainquest SIDEQUEST matches 300.. run function att2:dialogs/gameplay/shop/showcase/misc/chronotons_125
+execute if score Mainquest SIDEQUEST matches 300.. run function att2:dialogs/gameplay/shop/showcase/misc/chronotons
