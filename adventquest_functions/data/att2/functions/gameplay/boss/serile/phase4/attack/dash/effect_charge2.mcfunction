@@ -3,4 +3,4 @@
 #Effect charge2                                 					#
 #####################################################################
 
-particle minecraft:item minecraft:ice ~ ~ ~ 0.6 0.5 0.6 0.2 75
+particle minecraft:item{item:"minecraft:ice"} ~ ~ ~ 0.6 0.5 0.6 0.2 75

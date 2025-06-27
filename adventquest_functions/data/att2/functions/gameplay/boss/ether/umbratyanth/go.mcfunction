@@ -32,7 +32,7 @@ execute if score Boss UMBRATYANTH matches 3 run function att2:gameplay/boss/ethe
 
 # Sonar effect
 execute if score Sonar UMBRATYANTH matches 0.. run scoreboard players add Sonar UMBRATYANTH 1
-execute if score Sonar UMBRATYANTH matches 0..10 as @a[x=-5158,y=119,z=-6911,distance=..300] at @s run particle minecraft:falling_dust minecraft:coal_block ~ ~0.5 ~ 0.2 0.2 0.2 0.25 1 normal
+execute if score Sonar UMBRATYANTH matches 0..10 as @a[x=-5158,y=119,z=-6911,distance=..300] at @s run particle minecraft:falling_dust{block_state:"minecraft:coal_block"} ~ ~0.5 ~ 0.2 0.2 0.2 0.25 1 normal
 execute if score Sonar UMBRATYANTH matches 5 as @a[x=-5158,y=119,z=-6911,distance=..300,gamemode=adventure] at @s run effect give @s minecraft:blindness 1 1 true
 execute if score Sonar UMBRATYANTH matches 5 if score Boss UMBRATYANTH matches -2..-1 run time set 6000
 execute if score Sonar UMBRATYANTH matches 10.. run scoreboard players set Sonar UMBRATYANTH 0
@@ -56,7 +56,7 @@ execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,
 
 # Enable Bossbar storing health of Umbra'Tyanth
 execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth value run data get entity 00000000-0000-012c-0000-00000000012c Health
-execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth max run data get entity 00000000-0000-012c-0000-00000000012c Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth max run data get entity 00000000-0000-012c-0000-00000000012c attributes[{id:"minecraft:max_health"}].base
 execute if score Boss UMBRATYANTH matches 0.. store result score 00000000-0000-012c-0000-00000000012c UMBRATYANTH run data get entity 00000000-0000-012c-0000-00000000012c Health 1
 
 # Portal transition between Elchéol temple and boss arena
@@ -64,7 +64,7 @@ execute if score Boss UMBRATYANTH matches -1.. run function att2:gameplay/boss/e
 
 # ESC trigger to activate the portal to the boss
 execute if score Boss UMBRATYANTH matches -2 if score SQ46 SIDEQUEST matches 3.. if entity @a[x=-5112,y=162,z=-6739,distance=..7,gamemode=adventure] unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run function att2:physicmod/reg1/elcheol_temple_portal_trigger_opening
-execute if score Boss UMBRATYANTH matches -2 if score SQ46 SIDEQUEST matches 3.. if entity @a[x=-5112,y=162,z=-6739,distance=..7,gamemode=adventure] unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run particle minecraft:dust 5 5 5 0.5 -5112 161.75 -6739 0.3 0.3 0.3 1 10 normal
+execute if score Boss UMBRATYANTH matches -2 if score SQ46 SIDEQUEST matches 3.. if entity @a[x=-5112,y=162,z=-6739,distance=..7,gamemode=adventure] unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run particle minecraft:dust{color:[5,5,5],scale:0.5} -5112 161.75 -6739 0.3 0.3 0.3 1 10 normal
 
 # Make challengers enters the arena
 execute if score SQ46 SIDEQUEST matches 3 if entity @a[x=-5114,y=163,z=-6738,dx=4,dy=4,dz=0,gamemode=adventure] unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure,tag=!Dead] as @a[distance=..100] run function att2:gameplay/boss/ether/umbratyanth/display_title

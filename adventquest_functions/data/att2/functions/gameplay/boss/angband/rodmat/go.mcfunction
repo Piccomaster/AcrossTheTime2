@@ -11,8 +11,8 @@
 execute if score Rodmat SQ45 matches 0.. run function att2:gameplay/boss/angband/rodmat/stopsound
 
 # Particules for entarance and exit of the arena
-particle minecraft:dust 1 0 0 1 3790 90.5 4386 0.1 1 1 0 5
-particle minecraft:dust 1 0 0 1 3734 90.5 4386 0.1 1 1 0 5
+particle minecraft:dust{color:[1,0,0],scale:1} 3790 90.5 4386 0.1 1 1 0 5
+particle minecraft:dust{color:[1,0,0],scale:1} 3734 90.5 4386 0.1 1 1 0 5
 
 # Music management
 execute if score Rodmat SQ45 matches 0.. as @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
@@ -20,7 +20,7 @@ execute if score Rodmat SQ45 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scor
 
 # Enable Bossbar storing health of Rodmat
 execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] store result bossbar minecraft:rodmat value run data get entity 00000000-0000-011c-0000-00000000011c Health
-execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] store result bossbar minecraft:rodmat max run data get entity 00000000-0000-011c-0000-00000000011c Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] store result bossbar minecraft:rodmat max run data get entity 00000000-0000-011c-0000-00000000011c attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score SQ45 SIDEQUEST matches 1..99 as @a[x=3791,y=89,z=4385,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/angband/rodmat/display_title

@@ -31,10 +31,10 @@ execute as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BO
 
 # Enable Bossbar storing health of Serile
 execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile value run data get entity 00000000-0000-022b-0000-00000000022b Health
-execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile max run data get entity 00000000-0000-022b-0000-00000000022b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile max run data get entity 00000000-0000-022b-0000-00000000022b attributes[{id:"minecraft:max_health"}].base
 # Enable Bossbar storing Timer
 execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:timer value run data get entity 00000000-0000-022b-0000-00000000010b Health
-execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:timer max run data get entity 00000000-0000-022b-0000-00000000010b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:timer max run data get entity 00000000-0000-022b-0000-00000000010b attributes[{id:"minecraft:max_health"}].base
 execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result score 00000000-0000-022b-0000-00000000010b SERILE run data get entity 00000000-0000-022b-0000-00000000010b Health 1
 bossbar set minecraft:timer visible false
 bossbar set minecraft:timer visible true

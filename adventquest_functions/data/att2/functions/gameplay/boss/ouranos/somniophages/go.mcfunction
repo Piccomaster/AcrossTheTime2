@@ -11,8 +11,8 @@
 execute if score Somniophages SQ48 matches 0.. run function att2:gameplay/boss/ouranos/somniophages/stopsound
 
 # Particules for entrance the arena
-particle minecraft:dust 1 0 0 1 6657.5 149.5 7058.0 0.1 1 1 0 2 normal
-particle minecraft:dust 1 0 0 1 6748 129 7067 0.1 1 1 0 1 normal
+particle minecraft:dust{color:[1,0,0],scale:1} 6657.5 149.5 7058.0 0.1 1 1 0 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} 6748 129 7067 0.1 1 1 0 1 normal
 
 # Music management
 execute if score Somniophages SQ48 matches 0.. as @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss

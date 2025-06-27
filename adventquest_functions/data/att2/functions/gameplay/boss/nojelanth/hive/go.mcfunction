@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-particle minecraft:dust 1 0 0 1 -7548 83.5 -4177 1 0 1 1 2 normal
-particle minecraft:dust 1 0 0 1 -7547 70.5 -4162 1 1 0 1 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7548 83.5 -4177 1 0 1 1 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7547 70.5 -4162 1 1 0 1 2 normal
 
 # Sound security
 stopsound @a * minecraft:entity.bee.loop

@@ -10,16 +10,16 @@ execute if score level DIFFICULTY matches 1.. as 00000000-0000-022b-0000-0000000
 
 # Attack choosing
 execute if score Timer1 SERILE matches 1..600 run scoreboard players add Timer1 SERILE 1
-execute if score Timer1 SERILE matches 295 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {Invulnerable:1,Attributes:[{Name:generic.follow_range,Base:1.0}]}
+execute if score Timer1 SERILE matches 295 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {Invulnerable:1,attributes:[{id:follow_range,base:1.0}]}
 execute if score Timer1 SERILE matches 300 as 00000000-0000-022b-0000-00000000022b at @p[x=1543.0,y=25,z=1495.0] run function att2:gameplay/boss/serile/phase1/serile_ambush_attack
-execute if score Timer1 SERILE matches 305 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {Invulnerable:0,Attributes:[{Name:generic.follow_range,Base:100.0}]}
+execute if score Timer1 SERILE matches 305 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {Invulnerable:0,attributes:[{id:follow_range,base:100.0}]}
 execute if score Timer1 SERILE matches 600 run function att2:gameplay/boss/serile/phase3/attack_loading_start
 
 # Attack loading
 execute if score Timer2 SERILE matches 1..200 run scoreboard players add Timer2 SERILE 1
 execute if score Timer2 SERILE matches 5 at @a run function att2:sound/misc/soft_corruption
 execute if score Timer2 SERILE matches 10 run scoreboard players set Timer4 SERILE 1
-execute if score Timer2 SERILE matches 50 positioned 1543.0 43 1495.0 as @e[type=end_crystal,distance=..5] at @s run data merge entity @s {BeamTarget:{X:1543.0,Y:25,Z:1495.0}}
+execute if score Timer2 SERILE matches 50 positioned 1543.0 43 1495.0 as @e[type=end_crystal,distance=..5] at @s run data merge entity @s {beam_target:{1543.0,25,1495.0}}
 execute if score Timer2 SERILE matches 50..200 as 00000000-0000-022b-0000-00000000022b at @s run tp @s ~ ~0.05 ~ ~1 ~
 execute if score Timer2 SERILE matches 200 as @p[x=1543.0,y=25,z=1495.0] run function att2:gameplay/boss/serile/phase3/attack_choosing
 

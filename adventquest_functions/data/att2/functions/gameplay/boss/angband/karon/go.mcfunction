@@ -11,8 +11,8 @@
 execute if score Karon ANGOR matches 0.. run function att2:gameplay/boss/angband/karon/stopsound
 
 # Particules for entarance and exit of the arena
-particle minecraft:dust 1 0 0 1 3510 124 4515 0.1 1.2 1.2 0 5 force
-particle minecraft:dust 1 0 0 1 3539 124 4515 0.1 1.2 1.2 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} 3510 124 4515 0.1 1.2 1.2 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} 3539 124 4515 0.1 1.2 1.2 0 5 force
 
 # Music management
 execute if score Karon ANGOR matches 0.. in minecraft:the_nether as @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
@@ -20,7 +20,7 @@ execute if score Karon ANGOR matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scor
 
 # Enable Bossbar storing health of Karön
 execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure] store result bossbar minecraft:karon value run data get entity 00000000-0000-005b-0000-00000000005b Health
-execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure] store result bossbar minecraft:karon max run data get entity 00000000-0000-005b-0000-00000000005b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure] store result bossbar minecraft:karon max run data get entity 00000000-0000-005b-0000-00000000005b attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 71 in minecraft:the_nether as @a[x=3509,y=123,z=4513,dx=0,dy=20,dz=4,gamemode=adventure] at @s unless entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/angband/karon/display_title

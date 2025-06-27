@@ -3,7 +3,7 @@
 #Expulsing Minion from Rodmat                                       #
 #####################################################################
 
-execute at 00000000-0000-011c-0000-00000000011c run particle minecraft:item minecraft:red_concrete ~ ~ ~ 0.25 0.25 0.25 0.5 5
+execute at 00000000-0000-011c-0000-00000000011c run particle minecraft:item{item:"minecraft:red_concrete"} ~ ~ ~ 0.25 0.25 0.25 0.5 5
 particle minecraft:lava ~ ~ ~ 0.25 0.25 0.25 0.5 1
 execute positioned 3751 90 4386 run function att2:summon/reg_2/rodmat_minion
 execute if score Rodmat_expulsing SQ45 matches 0 as @e[tag=RodmatMinion,tag=new] at @s run data merge entity @s {Motion:[4.5,0.25,-0.0]}

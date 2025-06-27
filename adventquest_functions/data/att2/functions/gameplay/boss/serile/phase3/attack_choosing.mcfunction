@@ -19,5 +19,5 @@ execute if score Choose_attack SERILE matches 7 run scoreboard players set Attac
 execute if score Choose_attack SERILE matches 8 run scoreboard players set Attack SERILE 9
 execute if score Choose_attack SERILE matches 9 run scoreboard players set Attack SERILE 10
 
-execute positioned 1543.0 43 1495.0 as @e[type=end_crystal,distance=..5] at @s run data merge entity @s {BeamTarget:{X:1543.0,Y:45,Z:1495.0}}
+execute positioned 1543.0 43 1495.0 as @e[type=end_crystal,distance=..5] at @s run data merge entity @s {beam_target:{1543.0,45,1495.0}}
 function att2:cinematic/tp_effect/serile

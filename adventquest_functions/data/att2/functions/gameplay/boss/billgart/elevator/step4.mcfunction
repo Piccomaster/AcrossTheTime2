@@ -19,9 +19,9 @@ execute positioned -1242 50 -615 run function att2:summon/reg_3/blaze0_class16
 execute positioned -1239 50 -618 run function att2:summon/reg_3/blaze0_class16
 execute positioned -1236 50 -615 run function att2:summon/reg_3/blaze0_class16
 
-particle minecraft:item minecraft:green_stained_glass -1239 60 -615 1 1 1 0.5 200
-particle minecraft:falling_dust minecraft:green_stained_glass -1239 60 -615 3 2 3 0 200
-particle minecraft:falling_dust minecraft:glass -1239 60 -615 2 1 2 0 100
+particle minecraft:item{item:"minecraft:green_stained_glass"} -1239 60 -615 1 1 1 0.5 200
+particle minecraft:falling_dust{block_state:"minecraft:green_stained_glass"} -1239 60 -615 3 2 3 0 200
+particle minecraft:falling_dust{block_state:"minecraft:glass"} -1239 60 -615 2 1 2 0 100
 
 scoreboard players set Elevator_steps BILLGART 4
 

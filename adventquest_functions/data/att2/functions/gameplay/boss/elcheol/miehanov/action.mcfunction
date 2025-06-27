@@ -6,7 +6,7 @@
 execute if score MiehTimer VONAHEIM matches 0 at @a run function att2:sound/mobs/vonaheim_evoking
 execute if score MiehTimer VONAHEIM matches 0..180 at 00000000-0000-008b-0000-00000000008b run particle minecraft:enchant ~ ~ ~ 1 1 1 0 5 normal
 execute if score MiehTimer VONAHEIM matches 50 at @a run function att2:sound/ambience/incoming2
-execute if score MiehTimer VONAHEIM matches 50..450 as 00000000-0000-008b-0000-00000000008b at @s run particle minecraft:item minecraft:packed_ice ~ ~2 ~ 0.3 0.5 0.3 0.01 7 normal
+execute if score MiehTimer VONAHEIM matches 50..450 as 00000000-0000-008b-0000-00000000008b at @s run particle minecraft:item{item:"minecraft:packed_ice"} ~ ~2 ~ 0.3 0.5 0.3 0.01 7 normal
 execute if score MiehTimer VONAHEIM matches 50 run data merge entity 00000000-0000-008b-0000-00000000008b {Invulnerable:1,Glowing:1}
 execute if score MiehTimer VONAHEIM matches 80 at @a run function att2:sound/misc/breath
 execute if score MiehTimer VONAHEIM matches 80 positioned -5622 166 -6349 run function att2:gameplay/boss/elcheol/miehanov/summon_minions

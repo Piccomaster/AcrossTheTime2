@@ -8,10 +8,10 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-particle minecraft:dust 1 0 0 1 -1239 177 -610 1.5 2 0.1 0 5 force
-particle minecraft:dust 1 0 0 1 -1239 177 -620 1.5 2 0.1 0 5 force
-particle minecraft:dust 1 0 0 1 -1244 177 -615 0.1 2 1.5 0 5 force
-particle minecraft:dust 1 0 0 1 -1234 177 -615 0.1 2 1.5 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -1239 177 -610 1.5 2 0.1 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -1239 177 -620 1.5 2 0.1 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -1244 177 -615 0.1 2 1.5 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -1234 177 -615 0.1 2 1.5 0 5 force
 
 # Music management
 execute if score Elevator BILLGART matches 0.. in minecraft:the_end as @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
@@ -20,16 +20,16 @@ execute if score Elevator BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] ru
 # Enable Bossbar storing health of Guardians Elevator
 # Emerald Guardiens
 execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_emerald value run data get entity 00000000-0000-012b-0000-00000000012b Health
-execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_emerald max run data get entity 00000000-0000-012b-0000-00000000012b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_emerald max run data get entity 00000000-0000-012b-0000-00000000012b attributes[{id:"minecraft:max_health"}].base
 # Iron Guardiens
 execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_iron value run data get entity 00000000-0000-013b-0000-00000000013b Health
-execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_iron max run data get entity 00000000-0000-013b-0000-00000000013b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_iron max run data get entity 00000000-0000-013b-0000-00000000013b attributes[{id:"minecraft:max_health"}].base
 # Silver Guardiens
 execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_silver value run data get entity 00000000-0000-011b-0000-00000000011b Health
-execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_silver max run data get entity 00000000-0000-011b-0000-00000000011b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:guardian_silver max run data get entity 00000000-0000-011b-0000-00000000011b attributes[{id:"minecraft:max_health"}].base
 # Elevator Level
 execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:elevator_level value run data get entity @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=ElevatorLevel,limit=1] Health
-execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:elevator_level max run data get entity @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=ElevatorLevel,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] store result bossbar minecraft:elevator_level max run data get entity @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=ElevatorLevel,limit=1] attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score EnterArena BILLGART matches ..0 in minecraft:the_end as @a[x=-1241,y=180,z=-609,dx=4,dy=-4,dz=0,gamemode=adventure] run function att2:gameplay/boss/billgart/elevator/enter_arena

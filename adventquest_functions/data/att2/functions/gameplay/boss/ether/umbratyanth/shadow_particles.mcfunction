@@ -7,7 +7,7 @@ particle minecraft:smoke ~ ~1.5 ~ 0.2 -1 0 0.2 0
 particle minecraft:mycelium ~ ~1.5 ~ 0.4 0.4 0.4 1 10
 particle minecraft:smoke ~ ~1.5 ~ -0.2 -1 0 0.2 0
 particle minecraft:smoke ~ ~1.5 ~ -0.1 -1 0.2 0.2 0
-particle minecraft:dust 0.025 0.025 0.025 5 ~ ~1.5 ~ 0 0 0 10 1
+particle minecraft:dust{color:[0.025,0.025,0.025],scale:5} ~ ~1.5 ~ 0 0 0 10 1
 
 execute if score @s TIMER matches 1..20 positioned ~-2.4 ~2 ~-4.8 run particle minecraft:smoke ~ ~ ~ 0.6 -0.4 1.2 0.3 0
 execute if score @s TIMER matches 6..25 positioned ~7.4 ~2 ~6 run particle minecraft:smoke ~ ~ ~ -1.85 -0.4 -1.5 0.3 0

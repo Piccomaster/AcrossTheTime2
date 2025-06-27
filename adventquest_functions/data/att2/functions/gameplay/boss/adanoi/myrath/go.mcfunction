@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-particle minecraft:dust 1 0 0 1 -3892 85 -5592 1 2 0 1 5 normal
-particle minecraft:dust 1 0 0 1 -3892 85 -5616 1 2 0 1 5 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -3892 85 -5592 1 2 0 1 5 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -3892 85 -5616 1 2 0 1 5 normal
 
 # Music management
 execute if score Myrath SQ26 matches 0.. as @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
@@ -17,7 +17,7 @@ execute if score Myrath SQ26 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scor
 
 # Enable Bossbar storing health of Myrath
 execute if score Myrath SQ26 matches 0.. if entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure] store result bossbar minecraft:myrath value run data get entity 00000000-0000-001c-0000-00000000001c Health
-execute if score Myrath SQ26 matches 0.. if entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure] store result bossbar minecraft:myrath max run data get entity 00000000-0000-001c-0000-00000000001c Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Myrath SQ26 matches 0.. if entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure] store result bossbar minecraft:myrath max run data get entity 00000000-0000-001c-0000-00000000001c attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score SQ26 SIDEQUEST matches 5 as @a[x=-3890,y=85,z=-5591,dx=-4,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/adanoi/myrath/display_title

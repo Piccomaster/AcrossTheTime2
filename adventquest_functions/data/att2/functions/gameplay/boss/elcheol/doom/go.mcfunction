@@ -8,7 +8,7 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-execute if score Doom SQ56 matches -1.. run particle minecraft:dust 1 0 0 1 -5229 145.5 -6293 0.25 1 0.25 1 2 normal
+execute if score Doom SQ56 matches -1.. run particle minecraft:dust{color:[1,0,0],scale:1} -5229 145.5 -6293 0.25 1 0.25 1 2 normal
 
 # Music management
 execute if score Doom SQ56 matches 0.. as @a[x=-5229,y=47,z=-6293,distance=..25,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_secretboss
@@ -16,7 +16,7 @@ execute if score Doom SQ56 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreb
 
 # Enable Bossbar storing health of Doom
 execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom value run data get entity 00000000-0000-026c-0000-00000000026c Health
-execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom max run data get entity 00000000-0000-026c-0000-00000000026c Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom max run data get entity 00000000-0000-026c-0000-00000000026c attributes[{id:"minecraft:max_health"}].base
 execute if score Doom SQ56 matches 0.. store result score 00000000-0000-026c-0000-00000000026c SQ56 run data get entity 00000000-0000-026c-0000-00000000026c Health 1
 
 # Make challengers enters the arena
@@ -26,7 +26,7 @@ execute if score Doom SQ56 matches -1.. if score EnterArena SQ56 matches 1.. run
 
 # ESC trigger to activate the portal to the boss
 execute if score Doom SQ56 matches -2 if score SQ56 SIDEQUEST matches 100 if entity @a[x=-5223,y=143,z=-6287,dx=-12,dy=3,dz=-12,gamemode=adventure] run function att2:physicmod/reg1/eolorion_doom_portal_opening
-execute if score Doom SQ56 matches -2 if score SQ56 SIDEQUEST matches 100 run particle minecraft:dust 5 5 5 0.5 -5229 142.75 -6293 0.3 0.3 0.3 1 10 normal
+execute if score Doom SQ56 matches -2 if score SQ56 SIDEQUEST matches 100 run particle minecraft:dust{color:[5,5,5],scale:0.5} -5229 142.75 -6293 0.3 0.3 0.3 1 10 normal
 
 # Start the boss fight (summoning Doom)
 execute if score Doom SQ56 matches -1 if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] run function att2:gameplay/boss/elcheol/doom/start
@@ -42,11 +42,11 @@ execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distanc
 
 
 # Testing if player drop the medaillon and open the secret in the academy after SQ56 completed
-execute if score SQ56 SIDEQUEST matches 100 if score secret SQ56 matches 0 if entity @a[x=-5254,y=104,z=-6338,distance=..4,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_star",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}}]}] run function att2:gameplay/boss/elcheol/doom/secret_medaillon
+execute if score SQ56 SIDEQUEST matches 100 if score secret SQ56 matches 0 if entity @a[x=-5254,y=104,z=-6338,distance=..4,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_star",count:1,components:{"minecraft:custom_name":{translate:'item.quest.medaillon.name'}}}]}] run function att2:gameplay/boss/elcheol/doom/secret_medaillon
 
 
 # Clean medaillon if player drop it after opend the secret in the academy after SQ56 completed
-execute if score SQ56 SIDEQUEST matches 100 if score secret SQ56 matches 1 as @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}}]}] at @s run clear @s minecraft:nether_star{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}
+execute if score SQ56 SIDEQUEST matches 100 if score secret SQ56 matches 1 as @a[nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.medaillon.name'}}}]}] at @s run clear @s minecraft:nether_star[custom_name={translate:'item.quest.medaillon.name'}]
 
 
 ##SPELL32 quest CHECK

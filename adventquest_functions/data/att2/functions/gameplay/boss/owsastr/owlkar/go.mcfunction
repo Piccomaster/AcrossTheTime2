@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-particle minecraft:dust 1 0 0 1.5 -5026 78 -4381 0 1.5 1.5 0 5 force
-particle minecraft:dust 1 0 0 1.5 -5065 73 -4381 0 1.5 1.5 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1.5} -5026 78 -4381 0 1.5 1.5 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1.5} -5065 73 -4381 0 1.5 1.5 0 5 force
 
 # Ray particle
 particle minecraft:end_rod -5037 79 -4394 0.1 5 0.1 0 5
@@ -23,7 +23,7 @@ execute if score Owlkar OWSASTR matches 0.. as @a[scores={MUSIC_BOSS=1..}] run s
 
 # Enable Bossbar storing health of Owlkär
 execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar value run data get entity 00000000-0000-002b-0000-00000000002b Health
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar max run data get entity 00000000-0000-002b-0000-00000000002b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar max run data get entity 00000000-0000-002b-0000-00000000002b attributes[{id:"minecraft:max_health"}].base
 
 # Mirror's particles
 execute if entity @e[nbt={UUID:[I;0,70463,0,70463]},tag=UtoNE] run function att2:gameplay/boss/owsastr/owlkar/mirror_ne_particle_ext

@@ -8,4 +8,4 @@ bossbar set minecraft:timer style notched_12
 bossbar set minecraft:timer players @a
 bossbar set minecraft:timer color yellow
 bossbar set minecraft:timer name "✠⁜☼⁜✠"
-execute store result bossbar minecraft:timer max run data get entity 00000000-0000-022b-0000-00000000010b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute store result bossbar minecraft:timer max run data get entity 00000000-0000-022b-0000-00000000010b attributes[{id:"minecraft:max_health"}].base

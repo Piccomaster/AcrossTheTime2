@@ -24,20 +24,20 @@ execute if score Rodmat_timer1 SQ45 matches 75 run function att2:gameplay/misc/p
 execute if score Rodmat_timer1 SQ45 matches 75 run scoreboard players operation Rodmat_expulsing SQ45 = @s POSITIONX
 execute if score Rodmat_timer1 SQ45 matches 75 run scoreboard players operation Rodmat_expulsing SQ45 %= 32 SQ45
 execute if score Rodmat_timer1 SQ45 matches 100..250 run function att2:gameplay/boss/angband/rodmat/expulsing_minions
-execute if score Rodmat_timer1 SQ45 matches 100 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:2,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:350}
-execute if score Rodmat_timer1 SQ45 matches 110 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:3,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:400}
-execute if score Rodmat_timer1 SQ45 matches 120 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:4,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:450}
-execute if score Rodmat_timer1 SQ45 matches 130 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:5,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:500}
-execute if score Rodmat_timer1 SQ45 matches 140 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:6,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:550}
-execute if score Rodmat_timer1 SQ45 matches 150 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:7,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:600}
-execute if score Rodmat_timer1 SQ45 matches 160 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:8,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:650}
-execute if score Rodmat_timer1 SQ45 matches 170 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:9,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:700}
-execute if score Rodmat_timer1 SQ45 matches 180 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:10,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:750}
-execute if score Rodmat_timer1 SQ45 matches 190 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:11,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:800}
-execute if score Rodmat_timer1 SQ45 matches 200 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:12,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:850}
-execute if score Rodmat_timer1 SQ45 matches 210 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:13,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:900}
-execute if score Rodmat_timer1 SQ45 matches 220 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:14,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:950}
-execute if score Rodmat_timer1 SQ45 matches 230 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:15,Attributes:[{Name:generic.max_health,Base:1000.0}],Health:1000}
+execute if score Rodmat_timer1 SQ45 matches 100 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:2,attributes:[{id:max_health,base:1000.0}],Health:350}
+execute if score Rodmat_timer1 SQ45 matches 110 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:3,attributes:[{id:max_health,base:1000.0}],Health:400}
+execute if score Rodmat_timer1 SQ45 matches 120 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:4,attributes:[{id:max_health,base:1000.0}],Health:450}
+execute if score Rodmat_timer1 SQ45 matches 130 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:5,attributes:[{id:max_health,base:1000.0}],Health:500}
+execute if score Rodmat_timer1 SQ45 matches 140 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:6,attributes:[{id:max_health,base:1000.0}],Health:550}
+execute if score Rodmat_timer1 SQ45 matches 150 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:7,attributes:[{id:max_health,base:1000.0}],Health:600}
+execute if score Rodmat_timer1 SQ45 matches 160 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:8,attributes:[{id:max_health,base:1000.0}],Health:650}
+execute if score Rodmat_timer1 SQ45 matches 170 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:9,attributes:[{id:max_health,base:1000.0}],Health:700}
+execute if score Rodmat_timer1 SQ45 matches 180 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:10,attributes:[{id:max_health,base:1000.0}],Health:750}
+execute if score Rodmat_timer1 SQ45 matches 190 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:11,attributes:[{id:max_health,base:1000.0}],Health:800}
+execute if score Rodmat_timer1 SQ45 matches 200 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:12,attributes:[{id:max_health,base:1000.0}],Health:850}
+execute if score Rodmat_timer1 SQ45 matches 210 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:13,attributes:[{id:max_health,base:1000.0}],Health:900}
+execute if score Rodmat_timer1 SQ45 matches 220 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:14,attributes:[{id:max_health,base:1000.0}],Health:950}
+execute if score Rodmat_timer1 SQ45 matches 230 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Size:15,attributes:[{id:max_health,base:1000.0}],Health:1000}
 execute if score Rodmat_timer1 SQ45 matches 250 run function att2:gameplay/boss/angband/rodmat/expulsing_end
 
 # Iteration

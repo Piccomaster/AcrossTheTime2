@@ -17,7 +17,7 @@ stopsound @a * minecraft:entity.ender_dragon.growl
 
 # Enable Bossbar storing health of Ouran
 execute if score OuranPhase3 OURANOS matches 0.. store result bossbar minecraft:ouran value run data get entity 00000000-0000-017b-0000-00000000017b Health
-execute if score OuranPhase3 OURANOS matches 0.. store result bossbar minecraft:ouran max run data get entity 00000000-0000-017b-0000-00000000017b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score OuranPhase3 OURANOS matches 0.. store result bossbar minecraft:ouran max run data get entity 00000000-0000-017b-0000-00000000017b attributes[{id:"minecraft:max_health"}].base
 execute if score OuranPhase3 OURANOS matches 0.. store result score 00000000-0000-017b-0000-00000000017b OURANOS run data get entity 00000000-0000-017b-0000-00000000017b Health 1
 bossbar set minecraft:ouran visible false
 bossbar set minecraft:ouran visible true

@@ -11,7 +11,7 @@
 execute if score Aozathreyon OURANOS matches 0.. run function att2:gameplay/boss/ouranos/aozathreyon/stopsound
 
 # Particules for entrance the arena
-particle minecraft:dust 1 0 0 1 7316 178 6577 0.1 2 2 0 5 normal
+particle minecraft:dust{color:[1,0,0],scale:1} 7316 178 6577 0.1 2 2 0 5 normal
 
 # Music management
 execute if score Aozathreyon OURANOS matches 0.. as @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
@@ -19,7 +19,7 @@ execute if score Aozathreyon OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] 
 
 # Enable Bossbar storing health of Aozathreyon
 execute if score Aozathreyon OURANOS matches 0.. if entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure] store result bossbar minecraft:aozathreyon value run data get entity 00000000-0000-015b-0000-00000000015b Health
-execute if score Aozathreyon OURANOS matches 0.. if entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure] store result bossbar minecraft:aozathreyon max run data get entity 00000000-0000-015b-0000-00000000015b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Aozathreyon OURANOS matches 0.. if entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure] store result bossbar minecraft:aozathreyon max run data get entity 00000000-0000-015b-0000-00000000015b attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 206 as @a[x=7317,y=175,z=6580,dx=0,dy=6,dz=-6,gamemode=adventure] at @s unless entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/ouranos/aozathreyon/display_title

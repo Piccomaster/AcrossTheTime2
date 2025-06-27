@@ -8,7 +8,7 @@
 #####################################################################
 
 # Particules for entarance and exit of the arena
-particle minecraft:dust 1 0 0 1 -5614 167 -6393 2 2 0.1 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -5614 167 -6393 2 2 0.1 0 5 force
 
 # Music management
 execute if score Miehanov VONAHEIM matches 0.. as @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
@@ -16,7 +16,7 @@ execute if score Miehanov VONAHEIM matches 0.. as @a[scores={MUSIC_BOSS=1..}] ru
 
 # Enable Bossbar storing health of Miehanov
 execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov value run data get entity 00000000-0000-008b-0000-00000000008b Health
-execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov max run data get entity 00000000-0000-008b-0000-00000000008b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov max run data get entity 00000000-0000-008b-0000-00000000008b attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 113 as @a[x=-5613,y=163,z=-6388,dx=-2,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/miehanov/display_title

@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-execute if score Scavenger SQ51 matches -2.. run particle minecraft:dust 1 0 0 1 -5552 53 -4577 1 1 0 1 2 normal
-execute if score Scavenger SQ51 matches -2.. run particle minecraft:dust 1 0 0 1 -5552 50 -4541 1 1 0 1 2 normal
+execute if score Scavenger SQ51 matches -2.. run particle minecraft:dust{color:[1,0,0],scale:1} -5552 53 -4577 1 1 0 1 2 normal
+execute if score Scavenger SQ51 matches -2.. run particle minecraft:dust{color:[1,0,0],scale:1} -5552 50 -4541 1 1 0 1 2 normal
 
 # Music management
 execute if score Scavenger SQ51 matches 0.. as @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
@@ -17,7 +17,7 @@ execute if score Scavenger SQ51 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run s
 
 # Enable Bossbar storing health of Scavenger
 execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] store result bossbar minecraft:scavenger value run data get entity 00000000-0000-019c-0000-00000000019c Health
-execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] store result bossbar minecraft:scavenger max run data get entity 00000000-0000-019c-0000-00000000019c Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] store result bossbar minecraft:scavenger max run data get entity 00000000-0000-019c-0000-00000000019c attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score SQ51 SIDEQUEST matches 1..99 as @a[x=-5553,y=52,z=-4578,dx=2,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/kert/scavenger/display_title
