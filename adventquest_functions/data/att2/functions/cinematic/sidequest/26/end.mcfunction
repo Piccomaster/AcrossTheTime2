@@ -3,7 +3,7 @@
 #Use function to process the SQ26 step7							#
 #################################################################
 
-kill @e[type=minecraft:villager,x=-4005,y=80,z=-5576,distance=..3]
+kill @e[type=minecraft:interaction,x=-4005,y=80,z=-5576,distance=..3]
 execute as @a run function att2:sound/misc/mission_progress
 scoreboard players set SQ26 SIDEQUEST 7
 scoreboard players set emerald_PNJ DIALOG 4

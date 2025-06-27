@@ -7,7 +7,7 @@ function att2:sound/misc/mission_progress
 scoreboard players set SQ30 SIDEQUEST 3
 
 function att2:cinematic/sidequest/30/library_secret
-kill @e[type=minecraft:villager,x=-4991,y=151,z=-4906,distance=..3]
+kill @e[type=minecraft:interaction,x=-4991,y=151,z=-4906,distance=..3]
 kill @e[type=minecraft:wolf,x=-4970,y=134,z=-4900,distance=..2]
 
 function att2:sound/dialogs/simple
