@@ -3,5 +3,6 @@
 #Obtain item shield_194          #
 #####################################
 
-give @s minecraft:shield{EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"has2_hun1_dar_3",display:{Name:"\"§9Émeraude tenace\"","Lore":["{\"text\":\"§7La couleur de l'espoir animera\"}","{\"text\":\"§7ta volonté, ma sœur.\"}","{\"text\":\"§7The color of hope will enliven\"}","{\"text\":\"§7your will, sister.\"}","{\"text\":\"§7HAS§a2 §7HUN§a1 §7DAR§c-3\"}"]},Damage:150,Enchantments:[{id:"minecraft:unbreaking",lvl:2s}],BlockEntityTag:{Base:13,Patterns:[{Color:8,Pattern:"cbo"},{Color:5,Pattern:"mr"}]},AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:shield[custom_data={EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",HAS:2,HUN:1,DAR:-3,Weapon:"194"},custom_name={translate:"weapon194.name"},lore=[{translate:"weapon194.lore.1"},{translate:"weapon194.lore.2"},{translate:"weapon194.stat"}],max_damage=335,damage=150,enchantments={"unbreaking":2},base_color="green",banner_patterns=[{color:"light_gray",pattern:"minecraft:curly_border"},{color:"lime",pattern:"minecraft:rhombus"}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

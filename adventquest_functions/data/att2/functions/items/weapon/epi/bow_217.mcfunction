@@ -3,5 +3,6 @@
 #Obtain item bow_217          #
 #####################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",Effect:"spd4_her2_str_1",display:{Name:"\"§5Arc du félon\"","Lore":["{\"text\":\"§7Le traître ne connaît pas de frère,\"}","{\"text\":\"§7il est seul, et c'est là se force.\"}","{\"text\":\"§7The traitor knows no brother,\"}","{\"text\":\"§7he is alone, and that is his strength.\"}","{\"text\":\"§7SPD§a4 §7HER§a2 §7STR§c-1\"}"]},Damage:260,Enchantments:[{id:"minecraft:power",lvl:8s},{id:"minecraft:punch",lvl:2s},{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",SPD:4,HER:2,STR:-1,Weapon:"217"},custom_name={translate:"weapon217.name"},lore=[{translate:"weapon217.lore.1"},{translate:"weapon217.lore.2"},{translate:"weapon217.stat"}],max_damage=385,damage=260,enchantments={"power":8,"punch":2,"unbreaking":1}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

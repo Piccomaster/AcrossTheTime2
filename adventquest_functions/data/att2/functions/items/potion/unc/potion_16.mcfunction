@@ -3,4 +3,4 @@
 #Obtain item potion_16          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"luc1_hun2_str_2_has_2",display:{Name:"\"§2Esuna\"","Lore":["{\"text\":\"§7Le savoir de la transmutation.\"}","{\"text\":\"§7The knowledge of transmutation.\"}","{\"text\":\"§7LUC§a1 §7HUN§a2 §7STR§c-2 §7HAS§c-2\"}"]},CustomPotionColor:65432,custom_potion_effects:[{id:fire_resistance,amplifier:0,duration:8000,show_particles:0b},{id:invisibility,amplifier:0,duration:4000,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={LUC:1,HUN:2,STR:-2,HAS:-2,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'16'},custom_name={translate:'potion16.name'},lore=[{translate:'potion16.lore.1'},{translate:'potion16.lore.2'},{translate:'potion16.stat'}],max_stack_size=16,potion_contents={custom_color:65432,custom_effects:[{amplifier:0,duration:8000,id:'fire_resistance',show_particles:0b},{amplifier:0,duration:4000,id:'invisibility',show_particles:0b}]}] 1

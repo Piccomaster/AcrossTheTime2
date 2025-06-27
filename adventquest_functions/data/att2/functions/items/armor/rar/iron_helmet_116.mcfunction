@@ -3,5 +3,6 @@
 #Obtain item iron_helmet_116          #
 #####################################
 
-give @s minecraft:iron_helmet{EquipmentType:"armor",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"has2_hun1_str_2",display:{Name:"\"§9Couvre-chef gayalien\"","Lore":["{\"text\":\"§7Les vieilles guerres laissent\"}","{\"text\":\"§7quelques souvenirs d'elles.\"}","{\"text\":\"§7The old wars leave\"}","{\"text\":\"§7some memories of them.\"}","{\"text\":\"§7HAS§a2 §7HUN§a1 §7STR§c-2\"}"]},Damage:50,Enchantments:[{id:"minecraft:projectile_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.93,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.36,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:iron_helmet[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'traditional',Shop:'buy',HAS:2,HUN:1,STR:-2,Armor:'116'},custom_name={translate:'armor116.name'},lore=[{translate:'armor116.lore.1'},{translate:'armor116.lore.2'},{translate:'armor116.stat'}],max_damage=170,damage=50,enchantments={'projectile_protection':1},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:2.93},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.36}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

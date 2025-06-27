@@ -3,4 +3,4 @@
 #Obtain item potion_1          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"hun7_her_4",display:{Name:"\"§7V.I.T.R.I.O.L\"","Lore":["{\"text\":\"§7Poison\"}","{\"text\":\"§7Poison.\"}","{\"text\":\"§7HUN§a7 §7HER§c-4\"}"]},CustomPotionColor:16777215,custom_potion_effects:[{id:wither,amplifier:4,duration:100,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={HUN:7,HER:-4,EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'1'},custom_name={translate:'potion1.name'},lore=[{translate:'potion1.lore.1'},{translate:'potion1.lore.2'},{translate:'potion1.stat'}],max_stack_size=16,potion_contents={custom_color:16777215,custom_effects:[{amplifier:4,duration:100,id:'wither',show_particles:0b}]}] 1

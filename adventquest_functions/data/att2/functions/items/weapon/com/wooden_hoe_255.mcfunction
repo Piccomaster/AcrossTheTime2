@@ -3,5 +3,6 @@
 #Obtain item wooden_hoe_255          #
 #####################################
 
-give @s minecraft:wooden_hoe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"teran",Type:"spear",Shop:"buy",Effect:"her_1",display:{Name:"\"§7Défectueuse\"","Lore":["{\"text\":\"§7Arme qui a bien trop vieilli...\"}","{\"text\":\"§7Weapon that has aged far too much...\"}","{\"text\":\"§7HER§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.41,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.87,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]}]} 1
+give @s minecraft:wooden_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"teran",Type:"spear",Shop:"buy",HER:-1,Weapon:"255"},custom_name={translate:"weapon255.name"},lore=[{translate:"weapon255.lore.1"},{translate:"weapon255.lore.2"},{translate:"weapon255.stat"}],max_damage=70,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:3.41},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.87},{slot:"mainhand",type:"knockback_resistance",id:"knockback_resistance",operation:"add_value",amount:0.02}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

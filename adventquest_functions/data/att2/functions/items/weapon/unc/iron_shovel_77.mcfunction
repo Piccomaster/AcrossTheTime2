@@ -3,5 +3,6 @@
 #Obtain item iron_shovel_77          #
 #####################################
 
-give @s minecraft:iron_shovel{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"res_1",display:{Name:"\"§2Argenterie\"","Lore":["{\"text\":\"§7Élégant mais certes faible.\"}","{\"text\":\"§7Elegant but certainly weak.\"}","{\"text\":\"§7RES§c-1\"}"]},Damage:175,Enchantments:[{id:"minecraft:smite",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.01,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:iron_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",RES:-1,Weapon:"77"},custom_name={translate:"weapon77.name"},lore=[{translate:"weapon77.lore.1"},{translate:"weapon77.lore.2"},{translate:"weapon77.stat"}],max_damage=260,damage=175,enchantments={"smite":2},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:2.01},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.7}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

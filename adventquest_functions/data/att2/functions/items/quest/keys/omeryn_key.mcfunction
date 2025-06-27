@@ -3,4 +3,4 @@
 #Obtain Key to Omeryn's storage                  #
 ##################################################
 
-give @s minecraft:brick{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cClef entrepôt d'Omeryn\"","Lore":["{\"text\":\"§4Omeryn's storage Key\"}"]}} 1
+give @s minecraft:brick[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.omeryn_key.name'},lore=[{translate:'item.quest.lore'}]] 1

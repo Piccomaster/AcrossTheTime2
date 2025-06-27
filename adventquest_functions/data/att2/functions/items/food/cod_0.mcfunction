@@ -3,4 +3,4 @@
 #Obtain cod_0         					 	 	 #
 ##################################################
 
-give @s minecraft:cod{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:cod[custom_data={EquipmentType:'food',Rarity:'misc'}]

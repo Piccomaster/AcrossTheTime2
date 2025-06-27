@@ -3,4 +3,4 @@
 #Obtain pumpkin_pie_0         					 #
 ##################################################
 
-give @s minecraft:pumpkin_pie{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:pumpkin_pie[custom_data={EquipmentType:'food',Rarity:'misc'}]

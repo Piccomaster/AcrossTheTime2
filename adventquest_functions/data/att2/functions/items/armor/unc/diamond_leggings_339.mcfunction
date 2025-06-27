@@ -3,5 +3,6 @@
 #Obtain item diamond_leggings_339          #
 #####################################
 
-give @s minecraft:diamond_leggings{EquipmentType:"armor",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"has2_luc_1",display:{Name:"\"§2Trépas du marcheur blanc\"","Lore":["{\"text\":\"§7Malchanceux celui qui portera ceci.\"}","{\"text\":\"§7Un futal qui pue quoi.\"}","{\"text\":\"§7Unlucky is the one who will wear this.\"}","{\"text\":\"§7A futal that stinks.\"}","{\"text\":\"§7HAS§a2 §7LUC§c-1\"}"]},Damage:350,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.6,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.45,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:diamond_leggings[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'delightful',Shop:'buy',HAS:2,LUC:-1,Armor:'339'},custom_name={translate:'armor339.name'},lore=[{translate:'armor339.lore.1'},{translate:'armor339.lore.2'},{translate:'armor339.stat'}],max_damage=490,damage=350,attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:3.6},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:0.45}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

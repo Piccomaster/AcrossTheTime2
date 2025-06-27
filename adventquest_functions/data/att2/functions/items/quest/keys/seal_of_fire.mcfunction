@@ -3,4 +3,4 @@
 #Obtain Seal of Fire                			 #
 ##################################################
 
-give @s minecraft:beetroot_seeds{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§4Sceau de Feu\"","Lore":["{\"text\":\"§6§oSeal of Fire\"}"]}} 1
+give @s minecraft:beetroot_seeds[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.seal_of_fire.name'},lore=[{translate:'item.quest.lore'}]] 1

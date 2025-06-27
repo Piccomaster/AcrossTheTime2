@@ -3,5 +3,6 @@
 #Obtain item golden_hoe_320          #
 #####################################
 
-give @s minecraft:golden_hoe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Type:"spear",Shop:"buy",Effect:"",display:{Name:"\"§2Taquinerie\"","Lore":["{\"text\":\"§7Un jeu d'enfant.\"}","{\"text\":\"§7Child's play.\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.54,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.88,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1
+give @s minecraft:golden_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Weapon:"320"},custom_name={translate:"weapon320.name"},lore=[{translate:"weapon320.lore.1"},{translate:"weapon320.lore.2"},{translate:"weapon320.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:10.54},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.88}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

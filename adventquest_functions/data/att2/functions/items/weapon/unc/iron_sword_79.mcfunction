@@ -3,5 +3,6 @@
 #Obtain item iron_sword_79          #
 #####################################
 
-give @s minecraft:iron_sword{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"",display:{Name:"\"§2Propre lame\"","Lore":["{\"text\":\"§7Mais cœur sali.\"}","{\"text\":\"§7But with a dirty heart.\"}"]},Damage:175,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:4.61,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.86,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:iron_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Weapon:"79"},custom_name={translate:"weapon79.name"},lore=[{translate:"weapon79.lore.1"},{translate:"weapon79.lore.2"},{translate:"weapon79.stat"}],max_damage=260,damage=175,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:4.61},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.86}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

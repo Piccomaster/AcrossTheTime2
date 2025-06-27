@@ -3,5 +3,6 @@
 #Obtain item golden_boots_146          #
 #####################################
 
-give @s minecraft:golden_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Effect:"luc_1",display:{Name:"\"§2Soulier d'Hygrien\"","Lore":["{\"text\":\"§7A la gloire des capitaines de Teltion.\"}","{\"text\":\"§7To the glory of the captains of Teltion.\"}","{\"text\":\"§7LUC§c-1\"}"]},Damage:0,Enchantments:[{id:"minecraft:projectile_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.7,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.34,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:golden_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'eternan',Shop:'buy',LUC:-1,Armor:'146'},custom_name={translate:'armor146.name'},lore=[{translate:'armor146.lore.1'},{translate:'C.lore.2'},{translate:'armor146.stat'}],max_damage=90,damage=0,enchantments={'projectile_protection':1},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:0.7},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.34}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

@@ -3,5 +3,7 @@
 #Obtain item stone_sword_190          #
 #####################################
 
-give @s minecraft:stone_sword{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"graceful",Shop:"buy",Effect:"str2_res1",display:{Name:"\"§6Âme d'Ulik'atar\"","Lore":["{\"text\":\"§7Ode à l'acharnement du premier\"}","{\"text\":\"§7inorganique, hurlement d'un roi.\"}","{\"text\":\"§7Ode to the fierceness of the first\"}","{\"text\":\"§7inorganic, scream of a king.\"}","{\"text\":\"§7STR§a2 §7RES§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:smite",lvl:4s},{id:"minecraft:unbreaking",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:20.61,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.47,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]} 1
+give @s minecraft:stone_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"graceful",Shop:"buy",STR:2,RES:1,Weapon:"190"},custom_name={translate:"weapon190.name"},lore=[{translate:"weapon190.lore.1"},{translate:"weapon190.lore.2"},{translate:"weapon190.stat"}],max_damage=140,damage=0,enchantments={"smite":4,"unbreaking":5},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:20.61},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.47},{slot:"mainhand",type:"max_health",id:"max_health",operation:"add_value",amount:2}
+]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

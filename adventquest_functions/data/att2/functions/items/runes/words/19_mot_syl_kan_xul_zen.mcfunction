@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:snort_pottery_sherd{EquipmentType:"runic_word",Rarity:"myt",display:{Name:"\"§3Enigme\"","Lore":["{\"text\":\"§7Enigma\"}","{\"text\":\"§eMot Syl Kan Xul Zen\"}","{\"text\":\"§aHealth Max:§2 +2\"}","{\"text\":\"§aChronoton:§2 +20%\"}","{\"text\":\"§aSpells Cooldown:§2 -10%\"}","{\"text\":\"§aSpell Power:§2 +10%\"}","{\"text\":\"§aDahäl Max:§2 +4\"}","{\"text\":\"§aSpells XP:§2 +1\"}","{\"text\":\"§aExperience:§2 +7,5%\"}","{\"text\":\"§aPotion Time:§2 +20s\"}","{\"text\":\"§aLoot Boss:§2 +1\"}","{\"text\":\"§cLevel Required:§4 50\"}"]}} 1
+give @s minecraft:snort_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'19'},custom_name={translate:'item.runeword.19.name'},lore=[{translate:'item.runeword.19.recipe'},{translate:'item.runeword.19.healh'},{translate:'item.runeword.19.chronoton'},{translate:'item.runeword.19.cooldown'},{translate:'item.runeword.19.dahal'},{translate:'item.runeword.19.dahal_xp'},{translate:'item.runeword.19.xp'},{translate:'item.runeword.19.potion'},{translate:'item.runeword.19.loot'},{translate:'item.runeword.19.limit'}]]

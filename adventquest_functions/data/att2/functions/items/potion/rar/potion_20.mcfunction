@@ -3,4 +3,4 @@
 #Obtain item potion_20          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"rar",Shop:"buy",Effect:"luc1",display:{Name:"\"§9Baraka\"","Lore":["{\"text\":\"§7Seconde chance.\"}","{\"text\":\"§7Second chance.\"}","{\"text\":\"§7LUC§a1\"}"]},CustomPotionColor:65280,custom_potion_effects:[{id:instant_health,amplifier:0,duration:2,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={LUC:1,EquipmentType:"potion",Rarity:"rar",Shop:"buy",Potion:'20'},custom_name={translate:'potion20.name'},lore=[{translate:'potion20.lore.1'},{translate:'potion20.lore.2'},{translate:'potion20.stat'}],max_stack_size=16,potion_contents={custom_color:65280,custom_effects:[{amplifier:0,duration:2,id:"instant_health",show_particles:0b}]}] 1

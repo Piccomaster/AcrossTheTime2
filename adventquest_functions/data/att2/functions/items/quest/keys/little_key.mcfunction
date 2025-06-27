@@ -3,4 +3,4 @@
 #Obtain Little Key    	 	 				 	 #
 ##################################################
 
-give @s minecraft:brick{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§7Petite Clef\"","Lore":["{\"text\":\"§4Little Key\"}"]}} 1
+give @s minecraft:brick[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.little_key.name'},lore=[{translate:'item.quest.lore'}]] 1

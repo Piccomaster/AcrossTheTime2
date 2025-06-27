@@ -3,5 +3,6 @@
 #Obtain item diamond_boots_183          #
 #####################################
 
-give @s minecraft:diamond_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"her_1",display:{Name:"\"§2Bottes du premier enfant\"","Lore":["{\"text\":\"§7Il ne reste plus que des reliques\"}","{\"text\":\"§7des vieilles traditions.\"}","{\"text\":\"§7All that remains are relics\"}","{\"text\":\"§7of the old traditions.\"}","{\"text\":\"§7HER§c-1\"}"]},Damage:295,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.95,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.38,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:diamond_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'delightful',Shop:'buy',HER:-1,Armor:'183'},custom_name={translate:'armor183.name'},lore=[{translate:'armor183.lore.1'},{translate:'armor183.lore.2'},{translate:'armor183.stat'}],max_damage=430,damage=295,attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount::0.95},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.38}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

@@ -3,4 +3,4 @@
 #Obtain item potion_5          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"dar1_has_2",display:{Name:"\"§7Tisane\"","Lore":["{\"text\":\"§7Apaise la douleur \"}","{\"text\":\"§7et soigne l'arthrose.\"}","{\"text\":\"§7Soothes pain\"}","{\"text\":\"§7and treats osteoarthritis.\"}","{\"text\":\"§7DAR§a1 §7HAS§c-2\"}"]},CustomPotionColor:11195266,custom_potion_effects:[{id:instant_health,amplifier:0,duration:0,show_particles:0b},{id:absorption,amplifier:2,duration:12000,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={DAR:1,HAS:-2,EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'5'},custom_name={translate:'potion5.name'},lore=[{translate:'potion5.lore.1'},{translate:'potion5.lore.2'},{translate:'potion5.stat'}],max_stack_size=16,potion_contents={custom_color:11195266,custom_effects:[{amplifier:0,duration:0,id:'instant_health',show_particles:0b},{amplifier:2,duration:12000,id:'absorption',show_particles:0b}]}] 1

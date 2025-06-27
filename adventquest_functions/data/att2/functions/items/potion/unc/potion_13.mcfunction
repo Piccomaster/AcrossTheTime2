@@ -3,4 +3,4 @@
 #Obtain item potion_13          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"str_2_has_4",display:{Name:"\"§2Ténacité\"","Lore":["{\"text\":\"§7Quand la parade n'est plus\"}","{\"text\":\"§7une option...\"}","{\"text\":\"§7When the parade is no longer\"}","{\"text\":\"§7an option...\"}","{\"text\":\"§7STR§c-2 §7HAS§c-4\"}"]},CustomPotionColor:16769410,custom_potion_effects:[{id:instant_health,amplifier:1,duration:0,show_particles:0b},{id:absorption,amplifier:5,duration:4000,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={STR:-2,HAS:-4,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'13'},custom_name={translate:'potion13.name'},lore=[{translate:'potion13.lore.1'},{translate:'potion13.lore.2'},{translate:'potion13.stat'}],max_stack_size=16,potion_contents={custom_color:16769410,custom_effects:[{amplifier:1,duration:0,id:'instant_health',show_particles:0b},{amplifier:5,duration:4000,id:'absorption',show_particles:0b}]}] 1

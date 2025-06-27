@@ -3,5 +3,6 @@
 #Obtain item iron_boots_130          #
 #####################################
 
-give @s minecraft:iron_boots{EquipmentType:"armor",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",Effect:"str2_dar2_spd2",display:{Name:"\"§6Pas de vif argent\"","Lore":["{\"text\":\"§7Ni beauté, ni célérité ne te manque\"}","{\"text\":\"§7et pour toi, aucune ne s'estompera.\"}","{\"text\":\"§7Neither beauty nor speed are you lacking\"}","{\"text\":\"§7and for you, none will fade.\"}","{\"text\":\"§7STR§a2 §7DAR§a2 §7SPD§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:thorns",lvl:3s},{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.77,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.95,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:iron_boots[custom_data={EquipmentType:'armor',Rarity:'leg',Manufacturer:'traditional',Shop:'buy',STR:2,DAR:2,SPD:2,Armor:'130'},custom_name={translate:'armor130.name'},lore=[{translate:'armor130.lore.1'},{translate:'armor130.lore.2'},{translate:'armor130.stat'}],max_damage=200,damage=0,enchantments={'thorns':3,'protection':2,'unbreaking':4},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:2.77},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:1.95}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

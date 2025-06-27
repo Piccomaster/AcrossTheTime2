@@ -3,5 +3,6 @@
 #Obtain item wooden_axe_9          #
 #####################################
 
-give @s minecraft:wooden_axe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"teran",Shop:"buy",Effect:"dar_1",display:{Name:"\"§2Hache de combat\"","Lore":["{\"text\":\"§7Outil indispensable du guerrier.\"}","{\"text\":\"§7Essential tool of the warrior.\"}","{\"text\":\"§7DAR§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:9.84,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.92,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30001,0,10000]}]} 1
+give @s minecraft:wooden_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"teran",Shop:"buy",DAR:-1,Weapon:"9"},custom_name={translate:"weapon9.name"},lore=[{translate:"weapon9.lore.1"},{translate:"weapon9.lore.2"},{translate:"weapon9.stat"}],max_damage=70,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:9.84},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.92},{slot:"mainhand",type:"knockback_resistance",id:"knockback_resistance",operation:"add_value",amount:0.02}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

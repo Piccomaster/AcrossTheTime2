@@ -3,5 +3,6 @@
 #Obtain item bow_41          #
 #####################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"spd2_res_1",display:{Name:"\"§9Vive flèche\"","Lore":["{\"text\":\"§7Juste et agile.\"}","{\"text\":\"§7Right and agile.\"}","{\"text\":\"§7SPD§a2 §7RES§c-1\"}"]},Damage:325,Enchantments:[{id:"minecraft:power",lvl:4s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",SPD:2,RES:-1,Weapon:"41"},custom_name={translate:"weapon41.name"},lore=[{translate:"weapon41.lore.1"},{translate:"weapon41.lore.2"},{translate:"weapon41.stat"}],max_damage=385,damage=325,enchantments={"power":4}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

@@ -3,5 +3,6 @@
 #Obtain item iron_shovel_76          #
 #####################################
 
-give @s minecraft:iron_shovel{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"dar1_has_1",display:{Name:"\"§2Dague d'élite\"","Lore":["{\"text\":\"§7Ou du moins, jusqu'alors...\"}","{\"text\":\"§7Or at least until then...\"}","{\"text\":\"§7DAR§a1 §7HAS§c-1\"}"]},Damage:175,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:1.21,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.6599999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:iron_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",DAR:1,HAS:-1,Weapon:"76"},custom_name={translate:"weapon76.name"},lore=[{translate:"weapon76.lore.1"},{translate:"weapon76.lore.2"},{translate:"weapon76.stat"}],max_damage=260,damage=175,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:1.21},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.66}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

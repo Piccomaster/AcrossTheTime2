@@ -3,5 +3,6 @@
 #Obtain item golden_chestplate_160          #
 #####################################
 
-give @s minecraft:golden_chestplate{EquipmentType:"armor",Rarity:"leg",Manufacturer:"eternan",Shop:"buy",Effect:"str2_res1_has2",display:{Name:"\"§6Métilnuji\"","Lore":["{\"text\":\"§7Complexité n'est pas gage de qualité,\"}","{\"text\":\"§7la carapace le prouve, incontestablement.\"}","{\"text\":\"§7Complexity is not a guarantee of quality,\"}","{\"text\":\"§7the shell proves it, undoubtedly.\"}","{\"text\":\"§7STR§a2 §7RES§a1 §7HAS§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:thorns",lvl:2s},{id:"minecraft:projectile_protection",lvl:2s},{id:"minecraft:unbreaking",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:10.14,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:5.4,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]} 1
+give @s minecraft:golden_chestplate[custom_data={EquipmentType:'armor',Rarity:'leg',Manufacturer:'eternan',Shop:'buy',STR:2,RES:1,HAS:2,Armor:'160'},custom_name={translate:'armor160.name'},lore=[{translate:'armor160.lore.1'},{translate:'armor160.lore.2'},{translate:'armor160.stat'}],max_damage=120,damage=0,enchantments={'thorns':2,'projectile_protection':2,'unbreaking':3},attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:10.14},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:5.4}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

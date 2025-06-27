@@ -3,4 +3,4 @@
 #Obtain Emerald of Innocence                     #
 ##################################################
 
-give @s minecraft:emerald_block{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cEmeraude d'innoncence\"","Lore":["{\"text\":\"§4§oEmerald of Innocence\"}"]}} 1
+give @s minecraft:emerald_block[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.emerald_of_innocence.name'},lore=[{translate:'item.quest.lore'}]] 1

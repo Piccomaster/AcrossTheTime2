@@ -3,5 +3,6 @@
 #Obtain item golden_shovel_141          #
 #####################################
 
-give @s minecraft:golden_shovel{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Effect:"her1_str_1",display:{Name:"\"§2Dague de jeu\"","Lore":["{\"text\":\"§7Quoi de plus amusant qu'un\"}","{\"text\":\"§7combat à l'arme.\"}","{\"text\":\"§7What more fun than\"}","{\"text\":\"§7a weapon fight.\"}","{\"text\":\"§7HER§a1 §7STR§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.12,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.72,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:golden_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",HER:1,STR:-1,Weapon:"141"},custom_name={translate:"weapon141.name"},lore=[{translate:"weapon141.lore.1"},{translate:"weapon141.lore.2"},{translate:"weapon141.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:2.12},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.72}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

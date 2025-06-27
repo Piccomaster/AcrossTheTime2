@@ -3,4 +3,4 @@
 #Obtain Turquoise gemstone                       #
 ##################################################
 
-give @s minecraft:prismarine_crystals{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cPierre de turquoise\"","Lore":["{\"text\":\"§4§oTurquoise gemstone\"}"]}} 1
+give @s minecraft:prismarine_crystals[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.turquoise_gemstone.name'},lore=[{translate:'item.quest.lore'}]] 1

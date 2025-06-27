@@ -3,5 +3,6 @@
 #Obtain item diamond_sword_118          #
 #####################################
 
-give @s minecraft:diamond_sword{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"str2_has2_her_2",display:{Name:"\"§9Le présent d'Ithil première\"","Lore":["{\"text\":\"§7Peut-être disparut-elle, mais \"}","{\"text\":\"§7jamais sa générosité ne s'effaça.\"}","{\"text\":\"§7She may have disappeared, but\"}","{\"text\":\"§7her generosity never vanished.\"}","{\"text\":\"§7STR§a2 §7HAS§a2 §7HER§c-2\"}"]},Damage:1275,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:13.24,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.85,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",STR:2,HAS:2,HER:-2,Weapon:"118"},custom_name={translate:"weapon118.name"},lore=[{translate:"weapon118.lore.1"},{translate:"weapon118.lore.2"},{translate:"weapon118.stat"}],max_damage=1560,damage=1275,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:13.24},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.85}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

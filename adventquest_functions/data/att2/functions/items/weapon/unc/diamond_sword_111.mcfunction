@@ -3,5 +3,6 @@
 #Obtain item diamond_sword_111          #
 #####################################
 
-give @s minecraft:diamond_sword{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"has1",display:{Name:"\"§2Courage de Samaël\"","Lore":["{\"text\":\"§7Il périt seul, mais mieux qu'un roi.\"}","{\"text\":\"§7He perished alone, but better than a king.\"}","{\"text\":\"§7HAS§a1\"}"]},Damage:1375,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.57,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.89,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",HAS:1,Weapon:"111"},custom_name={translate:"weapon111.name"},lore=[{translate:"weapon111.lore.1"},{translate:"weapon111.lore.2"},{translate:"weapon111.stat"}],max_damage=1560,damage=1375,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:6.57},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.89}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

@@ -3,5 +3,6 @@
 #Obtain item iron_sword_86          #
 #####################################
 
-give @s minecraft:iron_sword{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"her1_dar1_spd_1",display:{Name:"\"§9Rapière\"","Lore":["{\"text\":\"§7Grave et déterminée, telle est\"}","{\"text\":\"§7la détermination du guerrier sans maître.\"}","{\"text\":\"§7Serious and determined, such is\"}","{\"text\":\"§7the masterless warrior's determination.\"}","{\"text\":\"§7HER§a1 §7DAR§a1 §7SPD§c-1\"}"]},Damage:125,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:11.34,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.8200000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:iron_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",HER:1,DAR:1,SPD:-1,Weapon:"86"},custom_name={translate:"weapon86.name"},lore=[{translate:"weapon86.lore.1"},{translate:"weapon86.lore.2"},{translate:"weapon86.stat"}],max_damage=260,damage=125,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:11.34},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.82}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

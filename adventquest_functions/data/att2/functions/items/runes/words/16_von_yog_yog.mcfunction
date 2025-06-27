@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:sheaf_pottery_sherd{EquipmentType:"runic_word",Rarity:"leg",display:{Name:"\"§6Obscurité\"","Lore":["{\"text\":\"§7Gloom\"}","{\"text\":\"§eVon Yog Yog\"}","{\"text\":\"§aSpells Cooldown:§2 -20%\"}","{\"text\":\"§aExperience:§2 +15%\"}","{\"text\":\"§aPotion Time:§2 +40s\"}","{\"text\":\"§aLoot Boss:§2 +2\"}","{\"text\":\"§cLevel Required:§4 40\"}"]}} 1
+give @s minecraft:sheaf_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'16'},custom_name={translate:'item.runeword.16.name'},lore=[{translate:'item.runeword.16.recipe'},{translate:'item.runeword.16.cooldown'},{translate:'item.runeword.16.xp'},{translate:'item.runeword.16.potion'},{translate:'item.runeword.16.loot'},{translate:'item.runeword.16.limit'}]]

@@ -3,5 +3,6 @@
 #Obtain item diamond_sword_103          #
 #####################################
 
-give @s minecraft:diamond_sword{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",Effect:"has_1_dar_1",display:{Name:"\"§7Épée de Dramio\"","Lore":["{\"text\":\"§7Sans valeur... pour certains...\"}","{\"text\":\"§7Worthless... for some of us...\"}","{\"text\":\"§7HAS§c-1 §7DAR§c-1\"}"]},Damage:1450,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.19,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.88,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",HAS:-1,DAR:-1,Weapon:"103"},custom_name={translate:"weapon103.name"},lore=[{translate:"weapon103.lore.1"},{translate:"weapon103.lore.2"},{translate:"weapon103.stat"}],max_damage=1560,damage=1450,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:2.19},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.88}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

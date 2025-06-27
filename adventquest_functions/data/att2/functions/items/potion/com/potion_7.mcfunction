@@ -3,4 +3,4 @@
 #Obtain item potion_7          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"luc1_her_1_hun_2",display:{Name:"\"§7Alchemia\"","Lore":["{\"text\":\"§7Un mélange alambiqué\"}","{\"text\":\"§7et au goût douteux.\"}","{\"text\":\"§7A convoluted mixture\"}","{\"text\":\"§7with a questionable taste.\"}","{\"text\":\"§7LUC§a1 §7HER§c-1 §7HUN§c-2\"}"]},CustomPotionColor:10526975,custom_potion_effects:[{id:fire_resistance,amplifier:0,duration:8000,show_particles:0b},{id:night_vision,amplifier:0,duration:8000,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={LUC:1,HER:-1,HUN:-2,EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'7'},custom_name={translate:'potion7.name'},lore=[{translate:'potion7.lore.1'},{translate:'potion7.lore.2'},{translate:'potion7.stat'}],max_stack_size=16,potion_contents={custom_color:10526975,custom_effects:[{amplifier:0,duration:8000,id:'fire_resistance',show_particles:0b},{amplifier:0,duration:8000,id:'night_vision',show_particles:0b}]}] 1

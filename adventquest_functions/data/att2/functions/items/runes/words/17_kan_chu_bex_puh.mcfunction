@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:shelter_pottery_sherd{EquipmentType:"runic_word",Rarity:"leg",display:{Name:"\"§6Hérétique\"","Lore":["{\"text\":\"§7Heretic\"}","{\"text\":\"§eKan Chu Bex Puh\"}","{\"text\":\"§aChronoton:§2 +20%\"}","{\"text\":\"§aDahäl Max:§2 +8\"}","{\"text\":\"§aSpells XP:§2 +1\"}","{\"text\":\"§aPotion Time:§2 +60s\"}","{\"text\":\"§cLevel Required:§4 43\"}"]}} 1
+give @s minecraft:shelter_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'17'},custom_name={translate:'item.runeword.17.name'},lore=[{translate:'item.runeword.17.recipe'},{translate:'item.runeword.17.chronoton'},{translate:'item.runeword.17.dahal'},{translate:'item.runeword.17.dahal_xp'},{translate:'item.runeword.17.potion'},{translate:'item.runeword.17.limit'}]]

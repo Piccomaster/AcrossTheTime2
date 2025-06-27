@@ -3,5 +3,6 @@
 #Obtain item shield_221          #
 #####################################
 
-give @s minecraft:shield{EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"her1_dar_1",display:{Name:"\"§9Brise brise\"","Lore":["{\"text\":\"§7Une carapace qui ne protège\"}","{\"text\":\"§7pas que des coups...\"}","{\"text\":\"§7A shell that doesn't just\"}","{\"text\":\"§7protect against blows...\"}","{\"text\":\"§7HER§a1 §7DAR§c-1\"}"]},Damage:180,BlockEntityTag:{Base:0,Patterns:[{Color:4,Pattern:"mc"},{Color:4,Pattern:"flo"},{Color:8,Pattern:"cbo"},{Color:0,Pattern:"cr"},{Color:8,Pattern:"tts"},{Color:8,Pattern:"bts"}]},AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:shield[custom_data={EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",HER:1,DAR:-1,Weapon:"221"},custom_name={translate:"weapon221.name"},lore=[{translate:"weapon221.lore.1"},{translate:"weapon221.lore.2"},{translate:"weapon221.stat"}],max_damage=335,damage=180,enchantments={"221":2},base_color="white",banner_patterns=[{color:"yellow",pattern:"minecraft:circle"},{color:"yellow",pattern:"minecraft:flower"},{color:"light_gray",pattern:"minecraft:curly_border"},{color:"white",pattern:"minecraft:cross"},{color:"light_gray",pattern:"minecraft:triangles_top"},{color:"light_gray",pattern:"minecraft:triangles_bottom"}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

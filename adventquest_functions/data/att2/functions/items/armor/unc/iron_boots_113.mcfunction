@@ -3,5 +3,6 @@
 #Obtain item iron_boots_113          #
 #####################################
 
-give @s minecraft:iron_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"has1_spd_1",display:{Name:"\"§2Pied lourd\"","Lore":["{\"text\":\"§7Pour un pas de brute.\"}","{\"text\":\"§7For a bully's step.\"}","{\"text\":\"§7HAS§a1 §7SPD§c-1\"}"]},Damage:105,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.77,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.31,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:iron_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'traditional',Shop:'buy',HAS:1,SPD:-1,Armor:'113'},custom_name={translate:'armor113.name'},lore=[{translate:'armor113.lore.1'},{translate:'armor113.lore.2'},{translate:'armor113.stat'}],max_damage=200,damage=105,attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:0.77},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.31}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

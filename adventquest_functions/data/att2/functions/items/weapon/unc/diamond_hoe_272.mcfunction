@@ -3,5 +3,6 @@
 #Obtain item diamond_hoe_272          #
 #####################################
 
-give @s minecraft:diamond_hoe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Type:"spear",Shop:"buy",Effect:"dar1",display:{Name:"\"§2Diamant-chardon\"","Lore":["{\"text\":\"§7Très piquante.\"}","{\"text\":\"§7Very pungent.\"}","{\"text\":\"§7DAR§a1\"}"]},Damage:1400,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.94,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.8200000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",DAR:1,Weapon:"272"},custom_name={translate:"weapon272.name"},lore=[{translate:"weapon272.lore.1"},{translate:"weapon272.lore.2"},{translate:"weapon272.stat"}],max_damage=1560,damage=1400,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:6.94},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.82}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

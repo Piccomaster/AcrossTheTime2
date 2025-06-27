@@ -3,5 +3,6 @@
 #Obtain item wooden_shovel_6          #
 #####################################
 
-give @s minecraft:wooden_shovel{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"teran",Shop:"buy",Effect:"spd_1",display:{Name:"\"§7Couteau\"","Lore":["{\"text\":\"§7A table.\"}","{\"text\":\"§7Dinner's ready.\"}","{\"text\":\"§7SPD§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:0.9,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.78,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]} 1
+give @s minecraft:wooden_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"teran",Shop:"buy",SPD:-1,Weapon:"6"},custom_name={translate:"weapon6.name"},lore=[{translate:"weapon6.lore.1"},{translate:"weapon6.lore.2"},{translate:"weapon6.stat"}],max_damage=70,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:0.9},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.78},{slot:"mainhand",type:"knockback_resistance",id:"knockback_resistance",operation:"add_value",amount:0.02}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

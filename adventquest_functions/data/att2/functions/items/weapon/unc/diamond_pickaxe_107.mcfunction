@@ -3,5 +3,6 @@
 #Obtain item diamond_pickaxe_107          #
 #####################################
 
-give @s minecraft:diamond_pickaxe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"str1_spd_2",display:{Name:"\"§2Frappe ciel\"","Lore":["{\"text\":\"§7Comme terre.\"}","{\"text\":\"§7As soil.\"}","{\"text\":\"§7STR§a1 §7SPD§c-2\"}"]},Damage:1400,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:19.18,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:diamond_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",STR:1,SPD:-2,Weapon:"107"},custom_name={translate:"weapon107.name"},lore=[{translate:"weapon107.lore.1"},{translate:"weapon107.lore.2"},{translate:"weapon107.stat"}],max_damage=1560,damage=1400,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:19.18},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.94}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

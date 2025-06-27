@@ -3,5 +3,6 @@
 #Obtain item diamond_sword_123          #
 #####################################
 
-give @s minecraft:diamond_sword{EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"delightful",Shop:"buy",Effect:"str2_has2_hun1_res_1",display:{Name:"\"§5Ecthelion\"","Lore":["{\"text\":\"§7La force et l'honneur de l'immortel\"}","{\"text\":\"§7ne s'amenuisent guère face aux ténèbres.\"}","{\"text\":\"§7The strength and honor of the immortal hardly\"}","{\"text\":\"§7diminishes in the face of darkness.\"}","{\"text\":\"§7STR§a2 §7HAS§a2 §7HUN§a1 §7RES§c-1\"}"]},Damage:1100,Enchantments:[{id:"minecraft:smite",lvl:3s},{id:"minecraft:knockback",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:14.94,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"delightful",Shop:"buy",STR:2,HAS:2,HUN:1,RES:-1,Weapon:"123"},custom_name={translate:"weapon123.name"},lore=[{translate:"weapon123.lore.1"},{translate:"weapon123.lore.2"},{translate:"weapon123.stat"}],max_damage=1560,damage=1100,enchantments={"smite":3","knockback":2},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:14.94},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.5}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

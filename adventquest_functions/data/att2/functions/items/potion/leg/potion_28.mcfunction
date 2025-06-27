@@ -3,4 +3,4 @@
 #Obtain item potion_28          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"leg",Shop:"buy",Effect:"her3_hun3",display:{Name:"\"§6Ration de Survie\"","Lore":["{\"text\":\"§7L'existence même en dépend.\"}","{\"text\":\"§7The very existence depends on it.\"}","{\"text\":\"§7HER§a3 §7HUN§a3\"}"]},CustomPotionColor:16754081,custom_potion_effects:[{id:instant_health,amplifier:4,duration:2,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={HER:3,HUN:3,EquipmentType:"potion",Rarity:"leg",Shop:"buy",Potion:'28'},custom_name={translate:'potion28.name'},lore=[{translate:'potion28.lore.1'},{translate:'potion28.lore.2'},{translate:'potion28.stat'}],max_stack_size=16,potion_contents={custom_color:16754081,custom_effects:[{amplifier:4,duration:2,id:"instant_health",show_particles:0b}]}] 1

@@ -3,5 +3,6 @@
 #Obtain item iron_leggings_120          #
 #####################################
 
-give @s minecraft:iron_leggings{EquipmentType:"armor",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"str2_res_1",display:{Name:"\"§9Jambières robustes\"","Lore":["{\"text\":\"§7Solides, plus que ses sœurs.\"}","{\"text\":\"§7Stronger than its sisters.\"}","{\"text\":\"§7STR§a2 §7RES§c-1\"}"]},Damage:85,Enchantments:[{id:"minecraft:projectile_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.43,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.22,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:iron_leggings[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'traditional',Shop:'buy',STR:2,RES:-1,Armor:'120'},custom_name={translate:'armor120.name'},lore=[{translate:'armor120.lore.1'},{translate:'armor120.lore.2'},{translate:'armor120.stat'}],max_damage=230,damage=85,enchantments={'projectile_protection':1},attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:4.43},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:1.22}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

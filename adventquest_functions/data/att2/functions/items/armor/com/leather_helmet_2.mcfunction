@@ -3,5 +3,6 @@
 #Obtain item leather_helmet_2          #
 #####################################
 
-give @s minecraft:leather_helmet{EquipmentType:"armor",Rarity:"com",Manufacturer:"teran",Shop:"buy",Effect:"dar1_res_1_has_1_hun_1",display:{Name:"\"§7Capuche délabrée\"","Lore":["{\"text\":\"§7Augmente légèrement votre\"}","{\"text\":\"§7récupération de Dahäl.\"}","{\"text\":\"§7Slightly increase your\"}","{\"text\":\"§7Dahäl regeneration.\"}","{\"text\":\"§7DAR§a1 §7RES§c-1 §7HAS§c-1 §7HUN§c-1\"}"],color:6568012},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.12,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]} 1
+give @s minecraft:leather_helmet[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'teran',Shop:'buy',DAR:1,RES:-1,HAS:-1,HUN:-1,Armor:'2'},custom_name={translate:'armor2.name'},lore=[{translate:'armor2.lore.1'},{translate:'armor2.lore.2'},{translate:'armor2.stat'}],max_damage=60,damage=0,attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:1.12},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0},{slot:'feet',type:'knockback_resistance',id:'armor.helmet',operation:'add_value',amount:0.02}],dyed_color=6568012]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

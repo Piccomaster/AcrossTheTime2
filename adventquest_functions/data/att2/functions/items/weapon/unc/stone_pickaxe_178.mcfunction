@@ -3,5 +3,6 @@
 #Obtain item stone_pickaxe_178          #
 #####################################
 
-give @s minecraft:stone_pickaxe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"graceful",Shop:"buy",Effect:"dar_1",display:{Name:"\"§2Os du minéral\"","Lore":["{\"text\":\"§7Plus personne ne vous dira jamais\"}","{\"text\":\"§7que vous avez les os pointus.\"}","{\"text\":\"§7No one will ever tell you that\"}","{\"text\":\"§7you have pointy bones again.\"}","{\"text\":\"§7DAR§c-1\"}"]},Damage:40,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:16.25,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.96,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]}]} 1
+give @s minecraft:stone_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"graceful",Shop:"buy",DAR:-1,Weapon:"178"},custom_name={translate:"weapon178.name"},lore=[{translate:"weapon178.lore.1"},{translate:"weapon178.lore.2"},{translate:"weapon178.stat"}],max_damage=140,damage=40,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:16.25},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.96},{slot:"mainhand",type:"max_health",id:"max_health",operation:"add_value",amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

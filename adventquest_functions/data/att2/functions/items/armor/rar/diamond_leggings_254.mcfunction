@@ -3,5 +3,6 @@
 #Obtain item diamond_leggings_254          #
 #####################################
 
-give @s minecraft:diamond_leggings{EquipmentType:"armor",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"str1_hun1_her_1",display:{Name:"\"§9Skéléo\"","Lore":["{\"text\":\"§7Le strict nécessaire n'est jamais\"}","{\"text\":\"§7assez à ta convenance.\"}","{\"text\":\"§7The strict necessities are\"}","{\"text\":\"§7never enough for you.\"}","{\"text\":\"§7STR§a1 §7HUN§a1 §7HER§c-1\"}"]},Damage:275,Enchantments:[{id:"minecraft:blast_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.58,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.23,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:diamond_leggings[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'delightful',Shop:'buy',STR:1,HUN:1,HER:-1,Armor:'254'},custom_name={translate:'armor254.name'},lore=[{translate:'armor254.lore.1'},{translate:'armor254.lore.2'},{translate:'armor254.stat'}],max_damage=490,damage=275,enchantments={'blast_protection':1},attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:3.58},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:1.23}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

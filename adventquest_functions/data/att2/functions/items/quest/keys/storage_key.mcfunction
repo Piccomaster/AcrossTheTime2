@@ -3,4 +3,4 @@
 #Obtain Key to decommissioned hangar    	 	 #
 ##################################################
 
-give @s minecraft:brick{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cClef du Hangar désaffecté\"","Lore":["{\"text\":\"§4Decommissioned hangar Key\"}"]}} 1
+give @s minecraft:brick[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.storage_key.name'},lore=[{translate:'item.quest.lore'}]] 1

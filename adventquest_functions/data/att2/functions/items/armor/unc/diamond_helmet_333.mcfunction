@@ -3,5 +3,6 @@
 #Obtain item diamond_helmet_333          #
 #####################################
 
-give @s minecraft:diamond_helmet{EquipmentType:"armor",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"str1_hun_1",display:{Name:"\"§2Chevelure frivole\"","Lore":["{\"text\":\"§7Nul besoin de négliger l'élégance !\"}","{\"text\":\"§7No need to neglect elegance!\"}","{\"text\":\"§7STR§a1 §7HUN§c-1\"}"]},Damage:275,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.06,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.14,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:diamond_helmet[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'delightful',Shop:'buy',STR:1,HUN:-1,Armor:'333'},custom_name={translate:'armor333.name'},lore=[{translate:'armor333.lore.1'},{translate:'armor333.lore.2'},{translate:'armor333.stat'}],max_damage=360,damage=275,attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:2.06},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.14}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

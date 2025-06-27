@@ -3,4 +3,4 @@
 #Obtain item splash_potion_58          #
 #####################################
 
-give @s minecraft:splash_potion{EquipmentType:"potion",Rarity:"epi",Shop:"buy",Effect:"",display:{Name:"\"§5Gaz nauséabond\"","Lore":["{\"text\":\"§7Crée un nuage trouble écœurant\"}","{\"text\":\"§7et causant ainsi des nausées.\"}","{\"text\":\"§7Creates a sickening cloud causing nausea.\"}"]},CustomPotionColor:1920810,custom_potion_effects:[{id:wither,amplifier:6,duration:500,show_particles:0b},{id:blindness,amplifier:0,duration:500,show_particles:0b},{id:instant_damage,amplifier:6,duration:0,show_particles:0b}]} 1
+give @s minecraft:splash_potion[custom_data={EquipmentType:"potion",Rarity:"epi",Shop:"buy",Potion:'58'},custom_name={translate:'potion58.name'},lore=[{translate:'potion58.lore.1'},{translate:'potion58.lore.2'},{translate:'potion58.stat'}],max_stack_size=4,potion_contents={custom_color:1920810,custom_effects:[{amplifier:6,duration:500,id:"wither",show_particles:0b},{amplifier:0,duration:500,id:"blindness",show_particles:0b},{amplifier:6,duration:0,id:"instant_damage",show_particles:0b}]}] 1

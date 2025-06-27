@@ -3,4 +3,4 @@
 #Obtain cassandre medaillon                      #
 ##################################################
 
-give @s minecraft:nether_star{EquipmentType:"misc",Rarity:"que",display:{Name:"{\"text\":\"§cMédaillon\"}","Lore":["{\"text\":\"§4§oMedaillon\"}"]}} 1
+give @s minecraft:nether_star[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.medaillon.name'},lore=[{translate:'item.quest.lore'}]] 1

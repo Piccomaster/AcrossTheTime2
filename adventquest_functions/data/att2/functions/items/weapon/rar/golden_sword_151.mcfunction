@@ -3,5 +3,6 @@
 #Obtain item golden_sword_151          #
 #####################################
 
-give @s minecraft:golden_sword{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",Effect:"her1_dar1_spd_2",display:{Name:"\"§9Anteterän\"","Lore":["{\"text\":\"§7La seule chose qui te différencie\"}","{\"text\":\"§7d'eux, est ton ascendance...\"}","{\"text\":\"§7The only thing that sets you apart\"}","{\"text\":\"§7from them is your ancestry...\"}","{\"text\":\"§7HER§a1 §7DAR§a1 §7SPD§c-2\"}"]},Damage:0,Enchantments:[{id:"minecraft:knockback",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:8.73,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.69,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:golden_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",HER:1,DAR:1,SPD:-2,Weapon:"151"},custom_name={translate:"weapon151.name"},lore=[{translate:"weapon151.lore.1"},{translate:"weapon151.lore.2"},{translate:"weapon151.stat"}],max_damage=40,damage=0,enchantments={"knockback":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:8.73},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.69}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

@@ -3,5 +3,6 @@
 #Obtain item leather_chestplate_7          #
 #####################################
 
-give @s minecraft:leather_chestplate{EquipmentType:"armor",Rarity:"unc",Manufacturer:"teran",Shop:"buy",Effect:"dar2_str_2",display:{Name:"\"§2Tunique de seconde main\"","Lore":["{\"text\":\"§7Augmente un peu votre\"}","{\"text\":\"§7récupération de Dahäl.\"}","{\"text\":\"§7Increase a bit your\"}","{\"text\":\"§7Dahäl regeneration.\"}","{\"text\":\"§7DAR§a2 §7STR§c-2\"}"],color:10894924},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.79,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.69,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]} 1
+give @s minecraft:leather_chestplate[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'teran',Shop:'buy',DAR:2,STR:-2,Armor:'7'},custom_name={translate:'armor7.name'},lore=[{translate:'armor7.lore.1'},{translate:'armor7.lore.2'},{translate:'armor7.stat'}],max_damage=85,damage=0,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:2.79},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:0.69},{slot:'chest',type:'knockback_resistance',id:'armor.chestplate',operation:'add_value',amount:0.02}],dyed_color=10894924]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

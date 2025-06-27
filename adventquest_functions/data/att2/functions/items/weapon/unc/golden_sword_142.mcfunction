@@ -3,5 +3,6 @@
 #Obtain item golden_sword_142          #
 #####################################
 
-give @s minecraft:golden_sword{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Effect:"spd2_her_2",display:{Name:"\"§2Paresse de Dégiel\"","Lore":["{\"text\":\"§7Une bonne excuse pour ne rien faire.\"}","{\"text\":\"§7A good excuse for doing nothing.\"}","{\"text\":\"§7SPD§a2 §7HER§c-2\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:4.9,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:golden_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",SPD:2,HER:-2,Weapon:"142"},custom_name={translate:"weapon142.name"},lore=[{translate:"weapon142.lore.1"},{translate:"weapon142.lore.2"},{translate:"weapon142.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:4.9},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.81}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

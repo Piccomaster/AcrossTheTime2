@@ -3,5 +3,6 @@
 #Obtain item iron_helmet_100          #
 #####################################
 
-give @s minecraft:iron_helmet{EquipmentType:"armor",Rarity:"com",Manufacturer:"traditional",Shop:"buy",Effect:"",display:{Name:"\"§7Aveugle\"","Lore":["{\"text\":\"§7Vous bloquera la vue.\"}","{\"text\":\"§7It will block your view.\"}"]},Damage:100,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.93,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:iron_helmet[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'traditional',Shop:'buy',Armor:'100'},custom_name={translate:'armor100.name'},lore=[{translate:'armor100.lore.1'},{translate:'armor100.lore.2'},{translate:'armor100.stat'}],max_damage=170,damage=100,attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:0.93},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

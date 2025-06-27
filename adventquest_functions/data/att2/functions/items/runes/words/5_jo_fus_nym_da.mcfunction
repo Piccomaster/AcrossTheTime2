@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:burn_pottery_sherd{EquipmentType:"runic_word",Rarity:"unc",display:{Name:"\"§2Mélodie\"","Lore":["{\"text\":\"§7Melody\"}","{\"text\":\"§eJo Fus Nym Da\"}","{\"text\":\"§aDahäl Max:§2 +8\"}","{\"text\":\"§aLoot Boss:§2 +1\"}","{\"text\":\"§cLevel Required:§4 27\"}"]}} 1
+give @s minecraft:burn_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'5'},custom_name={translate:'item.runeword.5.name'},lore=[{translate:'item.runeword.5.recipe'},{translate:'item.runeword.5.dahal'},{translate:'item.runeword.5.loot'},{translate:'item.runeword.5.limit'}]]

@@ -3,5 +3,6 @@
 #Obtain item wooden_pickaxe_11          #
 #####################################
 
-give @s minecraft:wooden_pickaxe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"teran",Shop:"buy",Effect:"dar1_luc_1",display:{Name:"\"§2Masse d'arme\"","Lore":["{\"text\":\"§7Frappe, cogne...\"}","{\"text\":\"§7Knock, knock...\"}","{\"text\":\"§7DAR§a1 §7LUC§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:17.06,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]}]} 1
+give @s minecraft:wooden_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"teran",Shop:"buy",DAR:1,LUC:-1,Weapon:"11"},custom_name={translate:"weapon11.name"},lore=[{translate:"weapon11.lore.1"},{translate:"weapon11.lore.2"},{translate:"weapon11.stat"}],max_damage=70,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:17.06},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.94},{slot:"mainhand",type:"knockback_resistance",id:"knockback_resistance",operation:"add_value",amount:0.02}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

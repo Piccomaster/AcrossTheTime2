@@ -3,6 +3,6 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"epi_esc",Manufacturer:"traditional",Effect:"spd2_dar2_her1",display:{Name:"\"§dInfinity\"","Lore":["{\"text\":\"§7C'est plus près que ce que\"}","{\"text\":\"§7tu penses ! (en fait non)\"}","{\"text\":\"§7It's closer than you think!\"}","{\"text\":\"§7(no it isn't)\"}","{\"text\":\"§7SPD§a2 §7DAR§a2 §7HER§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:infinity",lvl:1s},{id:"minecraft:punch",lvl:2s},{id:"minecraft:flame",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @a minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"epi_esc",Manufacturer:"traditional",Shop:"buy",SPD:2,DAR:2,HER:1,Weapon:"172"},custom_name={translate:"weapon172.name"},lore=[{translate:"weapon172.lore.1"},{translate:"weapon172.lore.2"},{translate:"weapon172.stat"}],max_damage=385,damage=0,enchantments={"infinity":1,"punch":2,"flame":5}]
 
 advancement grant @s only att2:treasure/sovereign/bow_172

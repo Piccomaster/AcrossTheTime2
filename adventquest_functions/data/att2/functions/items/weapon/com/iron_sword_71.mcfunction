@@ -3,5 +3,6 @@
 #Obtain item iron_sword_71          #
 #####################################
 
-give @s minecraft:iron_sword{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",Effect:"has_2_luc_1",display:{Name:"\"§7Épée\"","Lore":["{\"text\":\"§7Entraîne-toi avec moi.\"}","{\"text\":\"§7Practice with me.\"}","{\"text\":\"§7HAS§c-2 §7LUC§c-1\"}"]},Damage:200,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.49,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.96,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:iron_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",HAS:-2,LUC:-1,Weapon:"71"},custom_name={translate:"weapon71.name"},lore=[{translate:"weapon71.lore.1"},{translate:"weapon71.lore.2"},{translate:"weapon71.stat"}],max_damage=260,damage=200,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:6.49},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.96}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

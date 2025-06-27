@@ -3,5 +3,6 @@
 #Obtain item diamond_chestplate_253          #
 #####################################
 
-give @s minecraft:diamond_chestplate{EquipmentType:"armor",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"str1_luc1_spd_2",display:{Name:"\"§9Buste superbe\"","Lore":["{\"text\":\"§7Tu le porteras avec fierté !\"}","{\"text\":\"§7You'll wear it with pride!\"}","{\"text\":\"§7STR§a1 §7LUC§a1 §7SPD§c-2\"}"]},Damage:310,Enchantments:[{id:"minecraft:projectile_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.47,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.76,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]} 1
+give @s minecraft:diamond_chestplate[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'delightful',Shop:'buy',STR:1,LUC:1,SPD:-2,Armor:'253'},custom_name={translate:'armor253.name'},lore=[{translate:'armor253.lore.1'},{translate:'armor253.lore.2'},{translate:'armor253.stat'}],max_damage=530,damage=310,enchantments={'projectile_protection':1},attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:6.47},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:1.76}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

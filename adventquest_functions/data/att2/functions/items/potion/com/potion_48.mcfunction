@@ -3,4 +3,4 @@
 #Obtain item potion_48          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"spd1_dar1_str_1",display:{Name:"\"§7Jus d'orange\"","Lore":["{\"text\":\"§7Sucré mais aigre.\"}","{\"text\":\"§7Sweet but sour.\"}","{\"text\":\"§7SPD§a1 §7DAR§a1 §7STR§c-1\"}"]},CustomPotionColor:16749568} 1
+give @s minecraft:potion[custom_data={SPD:1,DAR:1,STR:-1,EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'48'},custom_name={translate:'potion48.name'},lore=[{translate:'potion48.lore.1'},{translate:'potion48.lore.2'},{translate:'potion48.stat'}],max_stack_size=16,potion_contents={custom_color:16749568}] 1

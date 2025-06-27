@@ -3,5 +3,6 @@
 #Obtain item golden_pickaxe_138          #
 #####################################
 
-give @s minecraft:golden_pickaxe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Effect:"hun_1",display:{Name:"\"§2Vieille hallebarde\"","Lore":["{\"text\":\"§7Déjà désuète lors de sa conception.\"}","{\"text\":\"§7Already obsolete at the time of its conception.\"}","{\"text\":\"§7HUN§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:12.43,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.92,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:golden_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",HUN:-1,Weapon:"138"},custom_name={translate:"weapon138.name"},lore=[{translate:"weapon138.lore.1"},{translate:"weapon138.lore.2"},{translate:"weapon138.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:12.43},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.92}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

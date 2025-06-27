@@ -3,5 +3,6 @@
 #Obtain item golden_boots_145          #
 #####################################
 
-give @s minecraft:golden_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Effect:"",display:{Name:"\"§2Bottes de l'ordre\"","Lore":["{\"text\":\"§7Pour des pieds en désordre.\"}","{\"text\":\"§7For feet in disorder.\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.86,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.3,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:golden_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'eternan',Shop:'buy',Armor:'145'},custom_name={translate:'armor145.name'},lore=[{translate:'armor145.lore.1'},{translate:'armor145.lore.2'},{translate:'armor145.stat'}],max_damage=90,damage=0,attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:0.86},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.3}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

@@ -3,4 +3,4 @@
 #Obtain Emerald Key    	 	 				 	 #
 ##################################################
 
-give @s minecraft:emerald{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§2Clef d'Emeraude\"","Lore":["{\"text\":\"§4Emerald Key\"}"]}} 1
+give @s minecraft:emerald[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.emerald_key.name'},lore=[{translate:'item.quest.lore'}]] 1

@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Obtain amethyst                 				 #
+#Obtain amethyst of Chronotons                   #
 ##################################################
 
-give @s minecraft:glow_ink_sac{EquipmentType:"misc",Rarity:"cur",display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst\"}","{\"text\":\"§6+500 Chronotons\"}"]}} 1
+give @s minecraft:glow_ink_sac[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'amethyst'},custom_name={translate:'item.coin.amethyst.name'},lore=[{translate:'item.coin.amethyst.lore'}]]

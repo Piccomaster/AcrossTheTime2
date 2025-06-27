@@ -3,5 +3,6 @@
 #Obtain item diamond_sword_110          #
 #####################################
 
-give @s minecraft:diamond_sword{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"her1_res_1",display:{Name:"\"§2Infime mélodie\"","Lore":["{\"text\":\"§7Sifflante en filant à travers l'air.\"}","{\"text\":\"§7Whistles as it travels through the air.\"}","{\"text\":\"§7HER§a1 §7RES§c-1\"}"]},Damage:1400,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.37,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.73,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",HER:1,RES:-1,Weapon:"110"},custom_name={translate:"weapon110.name"},lore=[{translate:"weapon110.lore.1"},{translate:"weapon110.lore.2"},{translate:"weapon110.stat"}],max_damage=1560,damage=1400,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:3.37},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.73}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

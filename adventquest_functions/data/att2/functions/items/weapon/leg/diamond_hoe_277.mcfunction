@@ -3,5 +3,6 @@
 #Obtain item diamond_hoe_277          #
 #####################################
 
-give @s minecraft:diamond_hoe{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"delightful",Type:"spear",Shop:"buy",Effect:"str3_res1_hun2",display:{Name:"\"§6Apogée\"","Lore":["{\"text\":\"§7Celui capable de la manier sera porté\"}","{\"text\":\"§7au plus haut degré d'influence.\"}","{\"text\":\"§7The one able to wield it will be carried\"}","{\"text\":\"§7to the highest degree of influence.\"}","{\"text\":\"§7STR§a3 §7RES§a1 §7HUN§a2\"}"]},Damage:750,Enchantments:[{id:"minecraft:knockback",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:24.32,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.30000000000000004,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1
+give @s minecraft:diamond_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"delightful",Shop:"buy",STR:3,RES:1,HUN:2,Weapon:"277"},custom_name={translate:"weapon277.name"},lore=[{translate:"weapon277.lore.1"},{translate:"weapon277.lore.2"},{translate:"weapon277.stat"}],max_damage=1560,damage=750,enchantments={"knockback":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:24.32},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.3}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

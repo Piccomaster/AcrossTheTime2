@@ -3,4 +3,4 @@
 #Obtain Bandages                           		 #
 ##################################################
 
-give @s minecraft:bone_meal{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cBandages\"","Lore":["{\"text\":\"§4§oBandages\"}"]}} 1
+give @s minecraft:bone_meal[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.bandages.name'},lore=[{translate:'item.quest.lore'}]] 1

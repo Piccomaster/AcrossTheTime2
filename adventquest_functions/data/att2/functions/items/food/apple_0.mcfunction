@@ -3,4 +3,4 @@
 #Obtain apple_0         					 	 #
 ##################################################
 
-give @s minecraft:apple{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:apple[custom_data={EquipmentType:'food',Rarity:'misc'}]

@@ -3,4 +3,4 @@
 #Obtain item potion_27          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"leg",Shop:"buy",Effect:"str4",display:{Name:"\"§6Puissance Ineffable\"","Lore":["{\"text\":\"§7Faites exploser votre force,\"}","{\"text\":\"§7au prix d'une insatiable faim.\"}","{\"text\":\"§7Explode your strength,\"}","{\"text\":\"§7at the cost of insatiable hunger.\"}","{\"text\":\"§7STR§a4\"}"]},CustomPotionColor:4738620,custom_potion_effects:[{id:instant_health,amplifier:1,duration:2,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={STR:4,EquipmentType:"potion",Rarity:"leg",Shop:"buy",Potion:'27'},custom_name={translate:'potion27.name'},lore=[{translate:'potion27.lore.1'},{translate:'potion27.lore.2'},{translate:'potion27.stat'}],max_stack_size=16,potion_contents={custom_color:4738620,custom_effects:[{amplifier:1,duration:2,id:"instant_health",show_particles:0b}]}] 1

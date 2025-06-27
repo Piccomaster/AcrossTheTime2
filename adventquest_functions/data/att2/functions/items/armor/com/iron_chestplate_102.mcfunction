@@ -3,5 +3,6 @@
 #Obtain item iron_chestplate_102          #
 #####################################
 
-give @s minecraft:iron_chestplate{EquipmentType:"armor",Rarity:"com",Manufacturer:"traditional",Shop:"buy",Effect:"spd_2",display:{Name:"\"§7Chevalier de la rosette\"","Lore":["{\"text\":\"§7Il manque de virilité.\"}","{\"text\":\"§7He lacks manhood.\"}","{\"text\":\"§7SPD§c-2\"}"]},Damage:150,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.43,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]} 1
+give @s minecraft:iron_chestplate[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'traditional',Shop:'buy',SPD:-2,Armor:'102'},custom_name={translate:'armor102.name'},lore=[{translate:'armor102.lore.1'},{translate:'armor102.lore.2'},{translate:'armor102.stat'}],max_damage=245,damage=150,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:2.43},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:0}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

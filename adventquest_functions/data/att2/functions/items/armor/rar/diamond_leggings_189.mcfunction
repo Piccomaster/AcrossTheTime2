@@ -3,5 +3,6 @@
 #Obtain item diamond_leggings_189          #
 #####################################
 
-give @s minecraft:diamond_leggings{EquipmentType:"armor",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"res1_has_1_dar_1",display:{Name:"\"§9Aïeul du ciel\"","Lore":["{\"text\":\"§7Personne ne sut jamais d'où il vint\"}","{\"text\":\"§7ni où il alla, mais personne ne l'oublia.\"}","{\"text\":\"§7No one ever knew where he came from or\"}","{\"text\":\"§7where he went, but no one ever forgot him.\"}","{\"text\":\"§7RES§a1 §7HAS§c-1 §7DAR§c-1\"}"]},Damage:315,Enchantments:[{id:"minecraft:thorns",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.8,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.41,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:diamond_leggings[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'delightful',Shop:'buy',RES:1,HAS:-1,DAR:-1,Armor:'189'},custom_name={translate:'armor189.name'},lore=[{translate:'armor189.lore.1'},{translate:'armor189.lore.2'},{translate:'armor189.stat'}],max_damage=490,damage=315,enchantments={'thorns':1},attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:4.8},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:1.41}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

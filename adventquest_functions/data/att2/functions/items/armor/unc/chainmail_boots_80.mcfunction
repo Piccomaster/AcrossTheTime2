@@ -3,5 +3,6 @@
 #Obtain item chainmail_boots_80          #
 #####################################
 
-give @s minecraft:chainmail_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"graceful",Shop:"buy",Effect:"has1_hun_1",display:{Name:"\"§2Anti-rat\"","Lore":["{\"text\":\"§7Aucun rongeur ne pourra les percer.\"}","{\"text\":\"§7No rodents will be able to pierce them.\"}","{\"text\":\"§7HAS§a1 §7HUN§c-1\"}"]},Damage:95,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.98,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.24,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]} 1
+give @s minecraft:chainmail_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'graceful',Shop:'buy',HAS:1,HUN:-1,Armor:'80'},custom_name={translate:'armor80.name'},lore=[{translate:'armor80.lore.1'},{translate:'armor80.lore.2'},{translate:'armor80.stat'}],max_damage=190,damage=95,attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:0.98},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.24},{slot:'feet',type:'max_health',id:'armor.boots',operation:'add_value',amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

@@ -3,4 +3,4 @@
 #Obtain item potion_4          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"str_1_spd_2",display:{Name:"\"§7Cuirasse\"","Lore":["{\"text\":\"§7Une peau de fer pour un soldat \"}","{\"text\":\"§7sans bouclier.\"}","{\"text\":\"§7An iron skin for a soldier\"}","{\"text\":\"§7without a shield.\"}","{\"text\":\"§7STR§c-1 §7SPD§c-2\"}"]},CustomPotionColor:16769335,custom_potion_effects:[{id:absorption,amplifier:3,duration:8000,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={STR:-1,SPD:-2,EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'4'},custom_name={translate:'potion4.name'},lore=[{translate:'potion4.lore.1'},{translate:'potion4.lore.2'},{translate:'potion4.stat'}],max_stack_size=16,potion_contents={custom_color:16769335,custom_effects:[{amplifier:3,duration:8000,id:'absorption',show_particles:0b}]}] 1

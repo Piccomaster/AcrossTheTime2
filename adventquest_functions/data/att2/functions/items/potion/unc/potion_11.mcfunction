@@ -3,4 +3,4 @@
 #Obtain item potion_11          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"her2_dar2_has_3_hun_3",display:{Name:"\"§2Revigorant\"","Lore":["{\"text\":\"§7Pour le bien être du corps, de l'âme et de l'esprit.\"}","{\"text\":\"§7For the well-being of body, soul and mind.\"}","{\"text\":\"§7HER§a2 §7DAR§a2 §7HAS§c-3 §7HUN§c-3\"}"]},CustomPotionColor:16743033,custom_potion_effects:[{id:instant_health,amplifier:2,duration:0,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={HER:2,DAR:2,HAS:-3,HUN:-3,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'11'},custom_name={translate:'potion11.name'},lore=[{translate:'potion11.lore.1'},{translate:'potion11.lore.2'},{translate:'potion11.stat'}],max_stack_size=16,potion_contents={custom_color:16743033,custom_effects:[{amplifier:2,duration:0,id:'instant_health',show_particles:0b}]}] 1

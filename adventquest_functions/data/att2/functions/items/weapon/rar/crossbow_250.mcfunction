@@ -3,5 +3,6 @@
 #Obtain item crossbow_250          #
 #####################################
 
-give @s minecraft:crossbow{EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"spd2_her1_hun_1",display:{Name:"\"§9Empaumure modifiée\"","Lore":["{\"text\":\"§7Un ébeniste avec de l'imagination\"}","{\"text\":\"§7pourrait vous surprendre.\"}","{\"text\":\"§7A cabinet maker with an imagination\"}","{\"text\":\"§7might surprise you.\"}","{\"text\":\"§7SPD§a2 §7HER§a1 §7HUN§c-1\"}"]},Damage:225,Enchantments:[{id:"minecraft:power",lvl:3s},{id:"minecraft:quick_charge",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:crossbow[custom_data={EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",SPD:2,HER:1,HUN:-1,Weapon:"250"},custom_name={translate:"weapon250.name"},lore=[{translate:"weapon250.lore.1"},{translate:"weapon250.lore.2"},{translate:"weapon250.stat"}],max_damage=460,damage=225,enchantments={"power":3,"quick_charge":2}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

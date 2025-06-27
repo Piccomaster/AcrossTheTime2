@@ -3,4 +3,4 @@
 #Obtain item potion_46          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"hun5",display:{Name:"\"§2Satiété\"","Lore":["{\"text\":\"§7Rien d'organique en cette potion,\"}","{\"text\":\"§7et pourtant quel régal.\"}","{\"text\":\"§7Nothing organic about this potion,\"}","{\"text\":\"§7and yet what a treat.\"}","{\"text\":\"§7HUN§a5\"}"]},CustomPotionColor:65535} 1
+give @s minecraft:potion[custom_data={HUN:5,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'46'},custom_name={translate:'potion46.name'},lore=[{translate:'potion46.lore.1'},{translate:'potion46.lore.2'},{translate:'potion46.stat'}],max_stack_size=16,potion_contents={custom_color:65535}] 1

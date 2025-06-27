@@ -3,5 +3,6 @@
 #Obtain item bow_45          #
 #####################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",Effect:"str3_spd1_dar_2",display:{Name:"\"§5Äpril\"","Lore":["{\"text\":\"§7Envoûtant mais destructeur,\"}","{\"text\":\"§7il chasse sans distinction d'espèce.\"}","{\"text\":\"§7Charming but destructive,\"}","{\"text\":\"§7it hunts without distinction of species.\"}","{\"text\":\"§7STR§a3 §7SPD§a1 §7DAR§c-2\"}"]},Damage:200,Enchantments:[{id:"minecraft:power",lvl:6s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",STR:3,SPD:1,DAR:-2,Weapon:"45"},custom_name={translate:"weapon45.name"},lore=[{translate:"weapon45.lore.1"},{translate:"weapon45.lore.2"},{translate:"weapon45.stat"}],max_damage=385,damage=200,enchantments={"power":6}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

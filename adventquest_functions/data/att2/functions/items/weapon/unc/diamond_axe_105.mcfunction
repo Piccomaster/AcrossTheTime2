@@ -3,5 +3,6 @@
 #Obtain item diamond_axe_105          #
 #####################################
 
-give @s minecraft:diamond_axe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"hun_1",display:{Name:"\"§2Patience du prêtre\"","Lore":["{\"text\":\"§7Dissuasive\"}","{\"text\":\"§7Deterring\"}","{\"text\":\"§7HUN§c-1\"}"]},Damage:1475,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.74,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.9299999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",HUN:-1,Weapon:"105"},custom_name={translate:"weapon105.name"},lore=[{translate:"weapon105.lore.1"},{translate:"weapon105.lore.2"},{translate:"weapon105.stat"}],max_damage=1560,damage=1475,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:10.74},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.93}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

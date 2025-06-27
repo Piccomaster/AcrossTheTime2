@@ -3,4 +3,4 @@
 #Obtain Gear                           	 		 #
 ##################################################
 
-give @s minecraft:sunflower{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cNeleptron\"","Lore":["{\"text\":\"§4§oNeleptron\"}"]}} 1
+give @s minecraft:sunflower[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.neleptron.name'},lore=[{translate:'item.quest.lore'}]] 1

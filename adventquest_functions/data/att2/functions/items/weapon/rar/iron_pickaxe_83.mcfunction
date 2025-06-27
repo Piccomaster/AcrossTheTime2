@@ -3,5 +3,6 @@
 #Obtain item iron_pickaxe_83          #
 #####################################
 
-give @s minecraft:iron_pickaxe{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"str2_has1_spd_1_luc_1",display:{Name:"\"§9Iconoclaste\"","Lore":["{\"text\":\"§7Je n'ai pas peur de la cruauté\"}","{\"text\":\"§7ni de la violence gratuite.\"}","{\"text\":\"§7I am not afraid of cruelty\"}","{\"text\":\"§7or gratuitous violence.\"}","{\"text\":\"§7STR§a2 §7HAS§a1 §7SPD§c-1 §7LUC§c-1\"}"]},Damage:125,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:19.51,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.83,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:iron_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",STR:2,HAS:1,SPD:-1,LUC:-1,Weapon:"83"},custom_name={translate:"weapon83.name"},lore=[{translate:"weapon83.lore.1"},{translate:"weapon83.lore.2"},{translate:"weapon83.stat"}],max_damage=260,damage=125,enchantments={"bane_of_arthropods":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:19.51},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.83}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

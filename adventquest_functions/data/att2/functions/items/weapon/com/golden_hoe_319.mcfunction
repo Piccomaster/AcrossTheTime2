@@ -3,5 +3,6 @@
 #Obtain item golden_hoe_319          #
 #####################################
 
-give @s minecraft:golden_hoe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Type:"spear",Shop:"buy",Effect:"spd_1",display:{Name:"\"§7Écharde\"","Lore":["{\"text\":\"§7Bobo de bambin.\"}","{\"text\":\"§7Toddler hurdle.\"}","{\"text\":\"§7SPD§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:5.31,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.89,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1
+give @s minecraft:golden_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",Type:"spear",SPD:-1,Weapon:"319"},custom_name={translate:"weapon319.name"},lore=[{translate:"weapon319.lore.1"},{translate:"weapon319.lore.2"},{translate:"weapon319.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:5.31},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.89}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

@@ -3,4 +3,4 @@
 #Obtain item potion_50          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"hun3_her_1",display:{Name:"\"§2Amertume\"","Lore":["{\"text\":\"§7Pas besoin d'être gouteux pour être utile.\"}","{\"text\":\"§7No need to be tasty to be useful.\"}","{\"text\":\"§7HUN§a3 §7HER§c-1\"}"]},CustomPotionColor:9548132,custom_potion_effects:[{id:instant_health,amplifier:0,duration:2,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={HUN:3,HER:-1,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'50'},custom_name={translate:'potion50.name'},lore=[{translate:'potion50.lore.1'},{translate:'potion50.lore.2'},{translate:'potion50.stat'}],max_stack_size=16,potion_contents={custom_color:9548132,custom_effects:[{amplifier:0,duration:2,id:'instant_health',show_particles:0b}]}] 1

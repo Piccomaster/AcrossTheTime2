@@ -3,5 +3,6 @@
 #Obtain item golden_boots_162          #
 #####################################
 
-give @s minecraft:golden_boots{EquipmentType:"armor",Rarity:"leg",Manufacturer:"eternan",Shop:"buy",Effect:"str4_has2_hun1",display:{Name:"\"§6Rojolion ganth S\"","Lore":["{\"text\":\"§7Une agilité des plus exquises, \"}","{\"text\":\"§7à l'instar de la plus digne élite qui soit.\"}","{\"text\":\"§7An exquisite agility, like the most\"}","{\"text\":\"§7worthy elite there is.\"}","{\"text\":\"§7STR§a4 §7HAS§a2 §7HUN§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:thorns",lvl:2s},{id:"minecraft:feather_falling",lvl:2s},{id:"minecraft:unbreaking",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.95,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.07,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:golden_boots[custom_data={EquipmentType:'armor',Rarity:'leg',Manufacturer:'eternan',Shop:'buy',STR:4,HAS:2,HUN:1,Armor:'162'},custom_name={translate:'armor162.name'},lore=[{translate:'armor162.lore.1'},{translate:'armor162.lore.2'},{translate:'armor162.stat'}],max_damage=90,damage=0,enchantments={'thorns':2,'feather_falling':2,'unbreaking':3},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:2.95},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:2.07}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

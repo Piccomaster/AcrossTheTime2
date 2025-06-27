@@ -3,5 +3,6 @@
 #Obtain item golden_sword_155          #
 #####################################
 
-give @s minecraft:golden_sword{EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"eternan",Shop:"buy",Effect:"spd3_has3",display:{Name:"\"§5Sombre dévotion\"","Lore":["{\"text\":\"§7Inconscient au point d'en perdre ta couleur,\"}","{\"text\":\"§7violent au point d'en confondre ami d'ennemi.\"}","{\"text\":\"§7Unconscious to the point of losing your colour,\"}","{\"text\":\"§7violent to the point of confusing friend with enemy.\"}","{\"text\":\"§7SPD§a3 §7HAS§a3\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:17.72,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.62,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"eternan",Shop:"buy",SPD:3,HAS:3,Weapon:"155"},custom_name={translate:"weapon155.name"},lore=[{translate:"weapon155.lore.1"},{translate:"weapon155.lore.2"},{translate:"weapon155.stat"}],max_damage=40,damage=0,enchantments={"unbreaking":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:17.72},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.62}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

@@ -3,5 +3,6 @@
 #Obtain item diamond_sword_119          #
 #####################################
 
-give @s minecraft:diamond_sword{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"spd2_luc1_dar_2",display:{Name:"\"§9Souvenir perdu\"","Lore":["{\"text\":\"§7Ô temps lointains, \"}","{\"text\":\"§7Ô insouciance juvénile.\"}","{\"text\":\"§7O distant times,\"}","{\"text\":\"§7O youthful recklessness.\"}","{\"text\":\"§7SPD§a2 §7LUC§a1 §7DAR§c-2\"}"]},Damage:1300,Enchantments:[{id:"minecraft:sweeping",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:8.19,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.6699999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",SPD:2,LUC:1,DAR:-2,Weapon:"119"},custom_name={translate:"weapon119.name"},lore=[{translate:"weapon119.lore.1"},{translate:"weapon119.lore.2"},{translate:"weapon119.stat"}],max_damage=1560,damage=119,enchantments={"sweeping_edge":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:8.19},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.67}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

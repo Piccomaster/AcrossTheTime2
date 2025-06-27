@@ -3,5 +3,6 @@
 #Obtain item iron_hoe_263          #
 #####################################
 
-give @s minecraft:iron_hoe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"traditional",Type:"spear",Shop:"buy",Effect:"has_2",display:{Name:"\"§7Javelot lourd\"","Lore":["{\"text\":\"§7Très difficile à manier.\"}","{\"text\":\"§7Very difficult to handle.\"}","{\"text\":\"§7HAS§c-2\"}"]},Damage:200,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.78,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.91,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1
+give @s minecraft:iron_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"traditional",Type:"spear",Shop:"buy",HAS:-2,Weapon:"263"},custom_name={translate:"weapon263.name"},lore=[{translate:"weapon263.lore.1"},{translate:"weapon263.lore.2"},{translate:"weapon263.stat"}],max_damage=260,damage=200,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:3.78},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.91}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

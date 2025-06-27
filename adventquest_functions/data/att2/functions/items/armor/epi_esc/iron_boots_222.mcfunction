@@ -3,6 +3,6 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:iron_boots{EquipmentType:"armor",Rarity:"epi_esc",Manufacturer:"traditional",Effect:"str3_dar1_hun_1",display:{Name:"\"§dIndomptable\"","Lore":["{\"text\":\"§7Soyez responsable de ce que vous avez apprivoisé.\"}","{\"text\":\"§7Be responsible for what you have tamed.\"}","{\"text\":\"§7STR§a3 §7DAR§a1 §7HUN§c-1\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:blast_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.9,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.52,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:iron_boots[custom_data={EquipmentType:'armor',Rarity:'epi_esc',Manufacturer:'traditional',Shop:'buy',STR:3,DAR:1,HUN:-1,Armor:'222'},custom_name={translate:'armor222.name'},lore=[{translate:'armor222.lore.1'},{translate:'armor222.lore.2'},{translate:'armor222.stat'}],max_damage=190,damage=0,enchantments={'unbreaking':3,'blast_protection':1},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:1.9},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:1.52}]]
 
 advancement grant @s only att2:treasure/sovereign/iron_boots_222

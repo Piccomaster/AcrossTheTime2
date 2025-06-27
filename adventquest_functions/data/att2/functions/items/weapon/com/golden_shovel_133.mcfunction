@@ -3,5 +3,6 @@
 #Obtain item golden_shovel_133          #
 #####################################
 
-give @s minecraft:golden_shovel{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",Effect:"her_1_dar_1",display:{Name:"\"§7Tentative d'Hérold\"","Lore":["{\"text\":\"§7Un bout de ferraille digne de ce nom.\"}","{\"text\":\"§7A piece of junk worthy of the name.\"}","{\"text\":\"§7HER§c-1 §7DAR§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:0.67,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.6799999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:golden_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",HER:-1,DAR:-1,Weapon:"133"},custom_name={translate:"weapon133.name"},lore=[{translate:"weapon133.lore.1"},{translate:"weapon133.lore.2"},{translate:"weapon133.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:0.67},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.68}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

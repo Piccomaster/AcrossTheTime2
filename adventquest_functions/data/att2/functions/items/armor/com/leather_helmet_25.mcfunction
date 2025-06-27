@@ -3,5 +3,6 @@
 #Obtain item leather_helmet_25          #
 #####################################
 
-give @s minecraft:leather_helmet{EquipmentType:"armor",Rarity:"com",Manufacturer:"teran",Shop:"buy",Effect:"hun_1",display:{Name:"\"§7Couvre-chef\"","Lore":["{\"text\":\"§7Protège du soleil.\"}","{\"text\":\"§7Protects from the sun.\"}","{\"text\":\"§7HUN§c-1\"}"],color:3044734},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.91,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]} 1
+give @s minecraft:leather_helmet[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'teran',Shop:'buy',HUN:-1,Armor:'25'},custom_name={translate:'armor25.name'},lore=[{translate:'armor25.lore.1'},{translate:'armor25.lore.2'},{translate:'armor25.stat'}],max_damage=60,damage=0,attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:0.91},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0},{slot:'feet',type:'knockback_resistance',id:'armor.helmet',operation:'add_value',amount:0.02}],dyed_color=3044734]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

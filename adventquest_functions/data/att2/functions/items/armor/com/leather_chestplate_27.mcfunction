@@ -3,5 +3,6 @@
 #Obtain item leather_chestplate_27          #
 #####################################
 
-give @s minecraft:leather_chestplate{EquipmentType:"armor",Rarity:"com",Manufacturer:"teran",Shop:"buy",Effect:"",display:{Name:"\"§7Gilet sale\"","Lore":["{\"text\":\"§7Mieux que rien.\"}","{\"text\":\"§7Better than nothing.\"}"],color:14137496},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.36,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]} 1
+give @s minecraft:leather_chestplate[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'teran',Shop:'buy',Armor:'27'},custom_name={translate:'armor27.name'},lore=[{translate:'armor27.lore.1'},{translate:'armor27.lore.2'},{translate:'armor27.stat'}],max_damage=85,damage=0,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:2.36},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:0},{slot:'feet',type:'knockback_resistance',id:'armor.chestplate',operation:'add_value',amount:0.02}],dyed_color=14137496]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

@@ -3,5 +3,6 @@
 #Obtain item crossbow_328          #
 #####################################
 
-give @s minecraft:crossbow{EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",Effect:"str2_spd2_has_2",display:{Name:"\"§5Inspiration de Lucas\"","Lore":["{\"text\":\"§7Si créativité naît de patience,\"}","{\"text\":\"§7persévérance est mère d'efficacité...\"}","{\"text\":\"§7If creativity is born of patience,\"}","{\"text\":\"§7perseverance is the mother of efficiency...\"}","{\"text\":\"§7STR§a2 §7SPD§a2 §7HAS§c-2\"}"]},Damage:150,Enchantments:[{id:"minecraft:power",lvl:6s},{id:"minecraft:quick_charge",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:crossbow[custom_data={EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",STR:2,SPD:2,HAS:-2,Weapon:"328"},custom_name={translate:"weapon328.name"},lore=[{translate:"weapon328.lore.1"},{translate:"weapon328.lore.2"},{translate:"weapon328.stat"}],max_damage=460,damage=150,enchantments={"power":6,"quick_charge":2}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

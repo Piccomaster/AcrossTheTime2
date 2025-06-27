@@ -3,5 +3,6 @@
 #Obtain item diamond_pickaxe_121          #
 #####################################
 
-give @s minecraft:diamond_pickaxe{EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"delightful",Shop:"buy",Effect:"str1_has4_spd_1",display:{Name:"\"§5Suprême Méloquien\"","Lore":["{\"text\":\"§7Somptueux, rien ne te fit jamais\"}","{\"text\":\"§7perdre de ta puissance.\"}","{\"text\":\"§7Sumptuous, nothing ever made\"}","{\"text\":\"§7you weaken your power.\"}","{\"text\":\"§7STR§a1 §7HAS§a4 §7SPD§c-1\"}"]},Damage:1075,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:65.1,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.86,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:diamond_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"delightful",Shop:"buy",STR:1,HAS:4,SPD:-1,Weapon:"121"},custom_name={translate:"weapon121.name"},lore=[{translate:"weapon121.lore.1"},{translate:"weapon121.lore.2"},{translate:"weapon121.stat"}],max_damage=1560,damage=1075,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:65.1},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.86}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

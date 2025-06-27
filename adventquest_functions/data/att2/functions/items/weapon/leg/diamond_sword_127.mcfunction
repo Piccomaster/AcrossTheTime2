@@ -3,5 +3,6 @@
 #Obtain item diamond_sword_127          #
 #####################################
 
-give @s minecraft:diamond_sword{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"delightful",Shop:"buy",Effect:"str4_has3_her2_dar1",display:{Name:"\"§6Gurthang\"","Lore":["{\"text\":\"§7Je boirai ton sang avec joie,\"}","{\"text\":\"§7pour oublier le sang de Beleg.\"}","{\"text\":\"§7I will drink thy blood gladly, that so\"}","{\"text\":\"§7I may forget the blood of Beleg my master.\"}","{\"text\":\"§7STR§a4 §7HAS§a3 §7HER§a2 §7DAR§a1\"}"]},Damage:850,Enchantments:[{id:"minecraft:knockback",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:20.9,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5700000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"delightful",Shop:"buy",STR:4,HAS:3,HER:2,DAR:1,Weapon:"127"},custom_name={translate:"weapon127.name"},lore=[{translate:"weapon127.lore.1"},{translate:"weapon127.lore.2"},{translate:"weapon127.stat"}],max_damage=1560,damage=850,enchantments={"knockback":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:20.9},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.57}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

@@ -3,5 +3,6 @@
 #Obtain item diamond_pickaxe_98          #
 #####################################
 
-give @s minecraft:diamond_pickaxe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",Effect:"her_1",display:{Name:"\"§7Sceptre \"","Lore":["{\"text\":\"§7Le plus massif qui soit.\"}","{\"text\":\"§7The most massive ever.\"}","{\"text\":\"§7HER§c-1\"}"]},Damage:1475,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.05,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.98,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:diamond_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",HER:-1,Weapon:"98"},custom_name={translate:"weapon98.name"},lore=[{translate:"weapon98.lore.1"},{translate:"weapon98.lore.2"},{translate:"weapon98.stat"}],max_damage=1560,damage=1475,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:10.05},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.98}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

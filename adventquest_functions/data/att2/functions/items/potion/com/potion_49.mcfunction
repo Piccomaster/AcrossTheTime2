@@ -3,4 +3,4 @@
 #Obtain item potion_49          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"str1_res_1",display:{Name:"\"§7Potion ratée\"","Lore":["{\"text\":\"§7Pour les apprentis sorciers.\"}","{\"text\":\"§7For sorcerer's apprentices.\"}","{\"text\":\"§7STR§a1 §7RES§c-1\"}"]},CustomPotionColor:6579300} 1
+give @s minecraft:potion[custom_data={STR:1,RES:-1,EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'49'},custom_name={translate:'potion49.name'},lore=[{translate:'potion49.lore.1'},{translate:'potion49.lore.2'},{translate:'potion49.stat'}],max_stack_size=16,potion_contents={custom_color:6579300}] 1

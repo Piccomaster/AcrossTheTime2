@@ -3,4 +3,4 @@
 #Obtain Pierre taillée ancienne                  #
 ##################################################
 
-give @s minecraft:chiseled_stone_bricks{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cPierre taillée ancienne\"","Lore":["{\"text\":\"§4§oOld chipped stone\"}"]}} 1
+give @s minecraft:chiseled_stone_bricks[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.old_chipped_stone.name'},lore=[{translate:'item.quest.lore'}]] 1

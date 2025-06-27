@@ -3,5 +3,6 @@
 #Obtain item diamond_helmet_260          #
 #####################################
 
-give @s minecraft:diamond_helmet{EquipmentType:"armor",Rarity:"leg",Manufacturer:"delightful",Shop:"buy",Effect:"str3_res1_spd1",display:{Name:"\"§6Éclat du Néleptron\"","Lore":["{\"text\":\"§7Jadis forgé avec les fragments de la lumière\"}","{\"text\":\"§7sans fin, son éclat est déflagrant.\"}","{\"text\":\"§7Once forged with the fragments of the endless\"}","{\"text\":\"§7light, its brilliance is deflagrating.\"}","{\"text\":\"§7STR§a3 §7RES§a1 §7SPD§a1\"}"]},Damage:10,Enchantments:[{id:"minecraft:blast_protection",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.73,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.05,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:diamond_helmet[custom_data={EquipmentType:'armor',Rarity:'leg',Manufacturer:'delightful',Shop:'buy',STR:3,RES:1,SPD:1,Armor:'260'},custom_name={translate:'armor260.name'},lore=[{translate:'armor260.lore.1'},{translate:'armor260.lore.2'},{translate:'armor260.stat'}],max_damage=360,damage=10,enchantments={'blast_protection':4},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:6.73},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:1.05}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

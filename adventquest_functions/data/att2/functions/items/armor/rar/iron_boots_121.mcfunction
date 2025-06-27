@@ -3,5 +3,6 @@
 #Obtain item iron_boots_121          #
 #####################################
 
-give @s minecraft:iron_boots{EquipmentType:"armor",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"str1_spd1_dar_1",display:{Name:"\"§9Bottes de guerre\"","Lore":["{\"text\":\"§7Ont porté autant de personnes\"}","{\"text\":\"§7que de terribles souvenirs.\"}","{\"text\":\"§7Carried as many people\"}","{\"text\":\"§7as terrible memories.\"}","{\"text\":\"§7STR§a1 §7SPD§a1 §7DAR§c-1\"}"]},Damage:60,Enchantments:[{id:"minecraft:blast_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.37,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.71,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:iron_boots[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'traditional',Shop:'buy',STR:1,SPD:1,DAR:-1,Armor:'121'},custom_name={translate:'armor121.name'},lore=[{translate:'armor121.lore.1'},{translate:'armor121.lore.2'},{translate:'armor121.stat'}],max_damage=200,damage=60,enchantments={'blast_protection':1},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:1.37},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.71}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

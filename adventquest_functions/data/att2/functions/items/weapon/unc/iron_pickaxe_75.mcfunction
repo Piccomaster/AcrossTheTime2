@@ -3,5 +3,6 @@
 #Obtain item iron_pickaxe_75          #
 #####################################
 
-give @s minecraft:iron_pickaxe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"luc_1",display:{Name:"\"§2Brise roche\"","Lore":["{\"text\":\"§7Au prix de ta propre intégrité.\"}","{\"text\":\"§7At the cost of your own integrity.\"}","{\"text\":\"§7LUC§c-1\"}"]},Damage:175,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:14.22,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.9299999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:iron_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",LUC:-1,Weapon:"75"},custom_name={translate:"weapon75.name"},lore=[{translate:"weapon75.lore.1"},{translate:"weapon75.lore.2"},{translate:"weapon75.stat"}],max_damage=260,damage=175,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:14.22},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.93}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

@@ -3,5 +3,6 @@
 #Obtain item diamond_boots_203          #
 #####################################
 
-give @s minecraft:diamond_boots{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"delightful",Shop:"buy",Effect:"str1_her1_luc_1",SetId:"5",display:{Name:"\"§5Bottes Dinjirienne\"","Lore":["{\"text\":\"§aLe cours inlassable des âges ne saurait \"}","{\"text\":\"§aamenuir la gloire du temps des souvenirs.\"}","{\"text\":\"§aThe untiring course of the ages shall not\"}","{\"text\":\"§adiminish the glory of the time of memories.\"}","{\"text\":\"§7STR§a1 §7HER§a1 §7LUC§c-1\"}","{\"text\":\"§aBonus set completed: §7SPD§a2 §7LUC§a6\"}"]},Damage:25,Enchantments:[{id:"minecraft:thorns",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.96,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.22,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:diamond_boots[custom_data={EquipmentType:'armor',Rarity:'epi_set',Manufacturer:'delightful',Shop:'buy',STR:1,HER:1,LUC:-1,SetId:5,Armor:'203'},custom_name={translate:'armor203.name'},lore=[{translate:'armor203.lore.1'},{translate:'armor203.lore.2'},{translate:'armor203.stat'},{translate:'armor203.bonus'}],max_damage=430,damage=25,enchantments={'thorns':1},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:1.96},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:1.22}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

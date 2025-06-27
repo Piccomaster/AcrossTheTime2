@@ -3,4 +3,4 @@
 #Obtain Log of Wood                           	 #
 ##################################################
 
-give @s minecraft:spruce_log{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cBuche de bois\"","Lore":["{\"text\":\"§4§oLog of wood\"}"]}} 1
+give @s minecraft:spruce_log[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.log_of_wood.name'},lore=[{translate:'item.quest.lore'}]] 1

@@ -3,5 +3,6 @@
 #Obtain item diamond_boots_190          #
 #####################################
 
-give @s minecraft:diamond_boots{EquipmentType:"armor",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"has4_her_1",display:{Name:"\"§9Marque-terre\"","Lore":["{\"text\":\"§7Une empreinte pour laquelle aucun\"}","{\"text\":\"§7sol ne résiste, pas même la roche.\"}","{\"text\":\"§7A footprint for which no soil\"}","{\"text\":\"§7can resist, not even rock.\"}","{\"text\":\"§7HAS§a4 §7HER§c-1\"}"]},Damage:280,Enchantments:[{id:"minecraft:feather_falling",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.27,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.59,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:diamond_boots[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'delightful',Shop:'buy',HAS:4,HER:-1,Armor:'190'},custom_name={translate:'armor190.name'},lore=[{translate:'armor190.lore.1'},{translate:'armor190.lore.2'},{translate:'armor190.stat'}],max_damage=430,damage=280,enchantments={'feather_falling':1},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:1.27},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.59}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

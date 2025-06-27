@@ -3,5 +3,6 @@
 #Obtain item diamond_helmet_341          #
 #####################################
 
-give @s minecraft:diamond_helmet{EquipmentType:"armor",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"str2_hun1_her_1",display:{Name:"\"§9Protège crâne du voyageur\"","Lore":["{\"text\":\"§7Une flèche perdue peut arriver vite...\"}","{\"text\":\"§7A stray arrow can happen quickly...\"}","{\"text\":\"§7STR§a2 §7HUN§a1 §7HER§c-1\"}"]},Damage:225,Enchantments:[{id:"minecraft:projectile_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.56,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.53,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:diamond_helmet[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'delightful',Shop:'buy',STR:2,HUN:1,HER:-1,Armor:'341'},custom_name={translate:'armor341.name'},lore=[{translate:'armor341.lore.1'},{translate:'armor341.lore.2'},{translate:'armor341.stat'}],max_damage=360,damage=225,enchantments={'projectile_protection':1},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:2.56},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.53}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

@@ -3,4 +3,4 @@
 #Obtain item potion_51          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"dar3_spd_2",display:{Name:"\"§2Dépuratif simple\"","Lore":["{\"text\":\"§7Purifie l'organisme.\"}","{\"text\":\"§7Purifies the body.\"}","{\"text\":\"§7DAR§a3 §7SPD§c-2\"}"]},CustomPotionColor:9548221,custom_potion_effects:[{id:instant_health,amplifier:1,duration:2,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={DAR:3,SPD:-2,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'51'},custom_name={translate:'potion51.name'},lore=[{translate:'potion51.lore.1'},{translate:'potion51.lore.2'},{translate:'potion51.stat'}],max_stack_size=16,potion_contents={custom_color:9548221,custom_effects:[{amplifier:1,duration:2,id:'instant_health',show_particles:0b}]}] 1

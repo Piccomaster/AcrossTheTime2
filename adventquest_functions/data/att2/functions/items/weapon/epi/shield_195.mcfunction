@@ -3,5 +3,6 @@
 #Obtain item shield_195          #
 #####################################
 
-give @s minecraft:shield{EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",Effect:"spd2_her1_luc1_str_1",display:{Name:"\"§5L'échec d'Agart\"","Lore":["{\"text\":\"§7Il ne suffit pas qu'au désir d'un seul\"}","{\"text\":\"§7pour que perdure la paix d'un monde.\"}","{\"text\":\"§7The desire of one is not enough for\"}","{\"text\":\"§7the peace of a world to endure.\"}","{\"text\":\"§7SPD§a2 §7HER§a1 §7LUC§a1 §7STR§c-1\"}"]},Damage:75,Enchantments:[{id:"minecraft:unbreaking",lvl:3s}],BlockEntityTag:{Base:13,Patterns:[{Color:0,Pattern:"sku"},{Color:0,Pattern:"flo"},{Color:5,Pattern:"bts"},{Color:5,Pattern:"tts"},{Color:13,Pattern:"cr"}]},AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:shield[custom_data={EquipmentType:"rangeWeapon",Rarity:"195",Manufacturer:"traditional",Shop:"buy",SPD:2,HER:1,LUC:1,STR:-1,Weapon:"195"},custom_name={translate:"weapon195.name"},lore=[{translate:"weapon195.lore.1"},{translate:"weapon195.lore.2"},{translate:"weapon195.stat"}],max_damage=335,damage=75,enchantments={"unbreaking":3},base_color="green",banner_patterns=[{color:"white",pattern:"minecraft:skull"},{color:"white",pattern:"minecraft:flower"},{color:"lime",pattern:"minecraft:triangles_bottom"},{color:"lime",pattern:"minecraft:triangles_top"},{color:"green",pattern:"minecraft:cross"}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

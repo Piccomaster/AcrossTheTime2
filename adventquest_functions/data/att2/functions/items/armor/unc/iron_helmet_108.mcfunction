@@ -3,5 +3,6 @@
 #Obtain item iron_helmet_108          #
 #####################################
 
-give @s minecraft:iron_helmet{EquipmentType:"armor",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"",display:{Name:"\"§2Pesti gris\"","Lore":["{\"text\":\"§7Mistigri.\"}"]},Damage:90,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.44,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.21,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:iron_helmet[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'traditional',Shop:'buy',Armor:'108'},custom_name={translate:'armor108.name'},lore=[{translate:'armor108.lore.1'},{translate:'armor108.lore.2'},{translate:'armor108.stat'}],max_damage=170,damage=90,attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:1.44},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.21}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

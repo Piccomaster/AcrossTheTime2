@@ -3,5 +3,6 @@
 #Obtain item chainmail_leggings_72          #
 #####################################
 
-give @s minecraft:chainmail_leggings{EquipmentType:"armor",Rarity:"com",Manufacturer:"graceful",Shop:"buy",Effect:"str_1",display:{Name:"\"§7Porte bleu\"","Lore":["{\"text\":\"§7Ne protège pas des hématomes.\"}","{\"text\":\"§7Does not protect against bruising.\"}","{\"text\":\"§7STR§c-1\"}"]},Damage:155,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.8,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]} 1
+give @s minecraft:chainmail_leggings[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'graceful',Shop:'buy',STR:-1,Armor:'72'},custom_name={translate:'armor72.name'},lore=[{translate:'armor72.lore.1'},{translate:'armor72.lore.2'},{translate:'armor72.stat'}],max_damage=220,damage=155,attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:1.8},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:0},{slot:'legs',type:'max_health',id:'armor.leggings',operation:'add_value',amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

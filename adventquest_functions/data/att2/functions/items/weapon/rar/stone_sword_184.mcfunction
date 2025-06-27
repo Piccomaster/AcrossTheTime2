@@ -3,5 +3,6 @@
 #Obtain item stone_sword_184          #
 #####################################
 
-give @s minecraft:stone_sword{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"graceful",Shop:"buy",Effect:"str2_dar_2",display:{Name:"\"§9Outum oblijt\"","Lore":["{\"text\":\"§7Aux plus vils comme aux meilleurs.\"}","{\"text\":\"§7To the vilest as well as the best.\"}","{\"text\":\"§7STR§a2 §7DAR§c-2\"}"]},Damage:17,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:11.34,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.8200000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]} 1
+give @s minecraft:stone_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"graceful",Shop:"buy",STR:2,DAR:-2,Weapon:"184"},custom_name={translate:"weapon184.name"},lore=[{translate:"weapon184.lore.1"},{translate:"weapon184.lore.2"},{translate:"weapon184.stat"}],max_damage=140,damage=17,enchantments={"unbreaking":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:11.34},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.82},{slot:"mainhand",type:"max_health",id:"max_health",operation:"add_value",amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

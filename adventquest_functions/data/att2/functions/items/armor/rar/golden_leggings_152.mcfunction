@@ -3,5 +3,6 @@
 #Obtain item golden_leggings_152          #
 #####################################
 
-give @s minecraft:golden_leggings{EquipmentType:"armor",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",Effect:"str2_dar1_hun_2",display:{Name:"\"§9Ska ou ra\"","Lore":["{\"text\":\"§7Ta petitesse ne te gène point,\"}","{\"text\":\"§7car elle t'assure protection...\"}","{\"text\":\"§7Your lowliness does not bother you,\"}","{\"text\":\"§7because it ensures your protection...\"}","{\"text\":\"§7STR§a2 §7DAR§a1 §7HUN§c-2\"}"]},Damage:0,Enchantments:[{id:"minecraft:protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.16,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.22,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:golden_leggings[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'eternan',Shop:'buy',STR:2,DAR:1,HUN:-2,Armor:'152'},custom_name={translate:'armor152.name'},lore=[{translate:'armor152.lore.1'},{translate:'armor152.lore.2'},{translate:'armor152.stat'}],max_damage=110,damage=0,enchantments={'protection':1},attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:4.16},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:1.22}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

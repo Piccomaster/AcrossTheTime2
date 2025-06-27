@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:prize_pottery_sherd{EquipmentType:"runic_word",Rarity:"leg",display:{Name:"\"§6Splendeur\"","Lore":["{\"text\":\"§7Splendor\"}","{\"text\":\"§eSyl Da Ave Qi Ra\"}","{\"text\":\"§aHealth Max:§2 +2\"}","{\"text\":\"§aChronoton:§2 +20%\"}","{\"text\":\"§aSpell Power:§2 +10%\"}","{\"text\":\"§aExperience:§2 +7,5%\"}","{\"text\":\"§aLoot Boss:§2 +1\"}","{\"text\":\"§cLevel Required:§4 45\"}"]}} 1
+give @s minecraft:prize_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'15'},custom_name={translate:'item.runeword.15.name'},lore=[{translate:'item.runeword.15.recipe'},{translate:'item.runeword.15.chronoton'},{translate:'item.runeword.15.xp'},{translate:'item.runeword.15.loot'},{translate:'item.runeword.15.limit'}]]

@@ -3,5 +3,6 @@
 #Obtain item diamond_helmet_176          #
 #####################################
 
-give @s minecraft:diamond_helmet{EquipmentType:"armor",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"hun_1",display:{Name:"\"§2Fausse couronne\"","Lore":["{\"text\":\"§7Presque aussi cher.\"}","{\"text\":\"§7Almost as expensive.\"}","{\"text\":\"§7HUN§c-1\"}"]},Damage:265,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.86,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.13,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:diamond_helmet[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'delightful',Shop:'buy',HUN:-1,Armor:'176'},custom_name={translate:'armor176.name'},lore=[{translate:'armor176.lore.1'},{translate:'armor176.lore.2'},{translate:'armor176.stat'}],max_damage=360,damage=265,attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:1.86},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.13}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

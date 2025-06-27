@@ -3,6 +3,6 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:diamond_helmet{EquipmentType:"armor",Rarity:"epi_esc",Manufacturer:"delightful",Effect:"has4_luc1_dar_2",display:{Name:"\"§dSuprématie\"","Lore":["{\"text\":\"§7Réveillez-vous, votre vérriable\"}","{\"text\":\"§7émancipation est une fantaisie.\"}","{\"text\":\"§7Wake to see, your true\"}","{\"text\":\"§7emancipation is a fantasy.\"}","{\"text\":\"§7HAS§a4 §7LUC§a1 §7DAR§c-2\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:1s},{id:"minecraft:projectile_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.81,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.6,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:diamond_helmet[custom_data={EquipmentType:'armor',Rarity:'epi_esc',Manufacturer:'delightful',Shop:'buy',HAS:4,LUC:1,DAR:-2,Armor:'215'},custom_name={translate:'armor215.name'},lore=[{translate:'armor215.lore.1'},{translate:'armor215.lore.2'},{translate:'armor215.stat'}],max_damage=190,damage=0,enchantments={'unbreaking':1,'projectile_protection':1},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:4.81},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.6}]]
 
 advancement grant @s only att2:treasure/sovereign/diamond_helmet_215

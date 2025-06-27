@@ -3,4 +3,6 @@
 #Obtain Ecaille Souveraine du Chaos              #
 ##################################################
 
-give @s minecraft:quartz{EquipmentType:"misc",Rarity:"unk",display:{Name:"\"§d§oEcaille Souveraine du Chaos\"","Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}} 1
+function att2:gameplay/runes/recipe_effect
+
+give @s minecraft:quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'},custom_name={translate:'item.coin.esc.name'},lore=[{translate:'item.coin.esc.lore.1'},{translate:'item.coin.esc.lore.2'}]] 1

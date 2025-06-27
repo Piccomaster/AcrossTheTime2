@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:danger_pottery_sherd{EquipmentType:"runic_word",Rarity:"unc",display:{Name:"\"§2Rime\"","Lore":["{\"text\":\"§7Rhyme\"}","{\"text\":\"§eEhl Hal Ra Ra\"}","{\"text\":\"§aExperience:§2 +15%\"}","{\"text\":\"§aPotion Time:§2 +20s\"}","{\"text\":\"§cLevel Required:§4 22\"}"]}} 1
+give @s minecraft:danger_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'6'},custom_name={translate:'item.runeword.6.name'},lore=[{translate:'item.runeword.6.recipe'},{translate:'item.runeword.6.xp'},{translate:'item.runeword.6.potion'},{translate:'item.runeword.6.limit'}]]

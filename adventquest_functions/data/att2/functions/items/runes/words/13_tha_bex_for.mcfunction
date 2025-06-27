@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:mourner_pottery_sherd{EquipmentType:"runic_word",Rarity:"epi",display:{Name:"\"§5Éternité\"","Lore":["{\"text\":\"§7Eternity\"}","{\"text\":\"§eTha Bex For\"}","{\"text\":\"§aSpells Cooldown:§2 -10%\"}","{\"text\":\"§aSpell Power:§2 +10%\"}","{\"text\":\"§aDahäl Max:§2 +4\"}","{\"text\":\"§aPotion Time:§2 +20s\"}","{\"text\":\"§aLoot Boss:§2 +1\"}","{\"text\":\"§cLevel Required:§4 42\"}"]}} 1
+give @s minecraft:mourner_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'13'},custom_name={translate:'item.runeword.13.name'},lore=[{translate:'item.runeword.13.recipe'},{translate:'item.runeword.13.cooldown'},{translate:'item.runeword.13.dahal'},{translate:'item.runeword.13.potion'},{translate:'item.runeword.13.loot'},{translate:'item.runeword.13.limit'}]]

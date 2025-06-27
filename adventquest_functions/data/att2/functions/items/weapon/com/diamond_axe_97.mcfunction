@@ -3,5 +3,6 @@
 #Obtain item diamond_axe_97          #
 #####################################
 
-give @s minecraft:diamond_axe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",Effect:"",display:{Name:"\"§7Hache d'ornement\"","Lore":["{\"text\":\"§7A l'apparat d'un puissant dignitaire.\"}","{\"text\":\"§7To the pomp of a powerful dignitary.\"}"]},Damage:1450,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:4.96,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",Weapon:"97"},custom_name={translate:"weapon97.name"},lore=[{translate:"weapon97.lore.1"},{translate:"weapon97.lore.2"},{translate:"weapon97.stat"}],max_damage=1560,damage=1450,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:4.96},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.94}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

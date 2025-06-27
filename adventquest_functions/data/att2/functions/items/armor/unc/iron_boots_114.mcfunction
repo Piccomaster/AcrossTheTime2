@@ -3,5 +3,6 @@
 #Obtain item iron_boots_114          #
 #####################################
 
-give @s minecraft:iron_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"dar_1",display:{Name:"\"§2Pinols\"","Lore":["{\"text\":\"§7Ne les oublie pas César.\"}","{\"text\":\"§7Don't forget them, Caesar.\"}","{\"text\":\"§7DAR§c-1\"}"]},Damage:100,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.95,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.34,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:iron_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'traditional',Shop:'buy',DAR:-1,Armor:'114'},custom_name={translate:'armor114.name'},lore=[{translate:'armor114.lore.1'},{translate:'armor114.lore.2'},{translate:'armor114.stat'}],max_damage=200,damage=100,attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:0.95},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.34}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

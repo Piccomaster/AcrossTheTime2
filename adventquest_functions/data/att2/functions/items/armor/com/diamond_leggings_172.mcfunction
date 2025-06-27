@@ -3,5 +3,6 @@
 #Obtain item diamond_leggings_172          #
 #####################################
 
-give @s minecraft:diamond_leggings{EquipmentType:"armor",Rarity:"com",Manufacturer:"delightful",Shop:"buy",Effect:"str_1",display:{Name:"\"§7Tiléo\"","Lore":["{\"text\":\"§7A ceux qui sauront te reconnaître.\"}","{\"text\":\"§7To those who will recognize you.\"}","{\"text\":\"§7STR§c-1\"}"]},Damage:355,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.9,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:diamond_leggings[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'delightful',Shop:'buy',STR:-1,Armor:'172'},custom_name={translate:'armor172.name'},lore=[{translate:'armor172.lore.1'},{translate:'armor172.lore.2'},{translate:'armor172.stat'}],max_damage=490,damage=355,attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:1.9},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:0}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

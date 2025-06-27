@@ -3,5 +3,6 @@
 #Obtain item diamond_helmet_168          #
 #####################################
 
-give @s minecraft:diamond_helmet{EquipmentType:"armor",Rarity:"com",Manufacturer:"delightful",Shop:"buy",Effect:"dar_1",display:{Name:"\"§7Casque clair\"","Lore":["{\"text\":\"§7Qui sait à qui il appartint ?\"}","{\"text\":\"§7Who knows who it belonged to?\"}","{\"text\":\"§7DAR§c-1\"}"]},Damage:250,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.98,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:diamond_helmet[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'delightful',Shop:'buy',DAR:-1,Armor:'168'},custom_name={translate:'armor168.name'},lore=[{translate:'armor168.lore.1'},{translate:'armor168.lore.2'},{translate:'armor168.stat'}],max_damage=360,damage=250,attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:0.98},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

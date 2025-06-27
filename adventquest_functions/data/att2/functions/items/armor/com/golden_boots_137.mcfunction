@@ -3,5 +3,6 @@
 #Obtain item golden_boots_137          #
 #####################################
 
-give @s minecraft:golden_boots{EquipmentType:"armor",Rarity:"com",Manufacturer:"eternan",Shop:"buy",Effect:"has_2",display:{Name:"\"§7Chaussettes dorées\"","Lore":["{\"text\":\"§7Garde les pieds au frais.\"}","{\"text\":\"§7Keep your feet on the spawning ground.\"}","{\"text\":\"§7HAS§c-2\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.48,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]} 1
+give @s minecraft:golden_boots[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'eternan',Shop:'buy',HAS:-2,Armor:'137'},custom_name={translate:'armor137.name'},lore=[{translate:'armor137.lore.1'},{translate:'armor137.lore.2'},{translate:'armor137.stat'}],max_damage=90,damage=0,attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:0.48},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

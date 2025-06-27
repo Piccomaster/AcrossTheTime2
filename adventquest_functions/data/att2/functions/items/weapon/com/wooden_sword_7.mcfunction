@@ -3,5 +3,6 @@
 #Obtain item wooden_sword_7          #
 #####################################
 
-give @s minecraft:wooden_sword{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"teran",Shop:"buy",Effect:"has_1",display:{Name:"\"§7Nathaniel\"","Lore":["{\"text\":\"§7Pas peur du danger !\"}","{\"text\":\"§7Not scary about danger!\"}","{\"text\":\"§7HAS§c-1\"}"]},Damage:0,Enchantments:[{id:"minecraft:sweeping_edge",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:4.46,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.91,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]} 1
+give @s minecraft:wooden_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"teran",Shop:"buy",HAS:-1,Weapon:"7"},custom_name={translate:"weapon7.name"},lore=[{translate:"weapon7.lore.1"},{translate:"weapon7.lore.2"},{translate:"weapon7.stat"}],max_damage=70,damage=0,enchantments={"sweeping_edge_edge":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:4.46},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.91},{slot:"mainhand",type:"knockback_resistance",id:"knockback_resistance",operation:"add_value",amount:0.02}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

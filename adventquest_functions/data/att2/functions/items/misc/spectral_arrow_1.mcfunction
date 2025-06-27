@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Obtain arrow_0         					 	 #
+#Obtain spectral_arrow_0         				 #
 ##################################################
 
-give @s minecraft:spectral_arrow 3
+give @s minecraft:spectral_arrow[custom_data={EquipmentType:'arrow',Rarity:'misc'},custom_data={EquipmentType:'arrow',Rarity:'misc'}] 3

@@ -3,5 +3,6 @@
 #Obtain item golden_shovel_132          #
 #####################################
 
-give @s minecraft:golden_shovel{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",Effect:"res_1",display:{Name:"\"§7Contrefaçon\"","Lore":["{\"text\":\"§7Aucun mystère sur son origine.\"}","{\"text\":\"§7No mystery as to its origin.\"}","{\"text\":\"§7RES§c-1\"}"]},Damage:8,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:0.42,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.8,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",RES:-1,Weapon:"132"},custom_name={translate:"weapon132.name"},lore=[{translate:"weapon132.lore.1"},{translate:"weapon132.lore.2"},{translate:"weapon132.stat"}],max_damage=40,damage=8,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:132X},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.8}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

@@ -3,5 +3,6 @@
 #Obtain item diamond_pickaxe_125          #
 #####################################
 
-give @s minecraft:diamond_pickaxe{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"delightful",Shop:"buy",Effect:"str5",display:{Name:"\"§6La voix du maître\"","Lore":["{\"text\":\"§7Hurle aux années perdues, ton cri fera\"}","{\"text\":\"§7trembler ciel et cœurs jusqu'aux confins du temps.\"}","{\"text\":\"§7Howl at the lost years, your cry will\"}","{\"text\":\"§7make heaven and hearts tremble to the ends of time.\"}","{\"text\":\"§7STR§a5\"}"]},Damage:700,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:7s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:90.87,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:diamond_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"delightful",Shop:"buy",STR:5,Weapon:"125"},custom_name={translate:"weapon125.name"},lore=[{translate:"weapon125.lore.1"},{translate:"weapon125.lore.2"},{translate:"weapon125.stat"}],max_damage=1560,damage=700,enchantments={"bane_of_arthropods":7},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:90.87},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.81}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

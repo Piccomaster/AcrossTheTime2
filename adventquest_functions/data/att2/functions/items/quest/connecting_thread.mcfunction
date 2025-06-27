@@ -3,4 +3,4 @@
 #Obtain Connecting thread                		 #
 ##################################################
 
-give @s minecraft:string{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cFil conducteur\"","Lore":["{\"text\":\"§4§oConnecting thread\"}"]}} 1
+give @s minecraft:string[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.connecting_thread.name'},lore=[{translate:'item.quest.lore'}]] 1

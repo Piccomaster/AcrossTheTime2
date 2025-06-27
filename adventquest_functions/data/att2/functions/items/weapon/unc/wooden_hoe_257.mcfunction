@@ -3,5 +3,6 @@
 #Obtain item wooden_hoe_257          #
 #####################################
 
-give @s minecraft:wooden_hoe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"teran",Type:"spear",Shop:"buy",Effect:"",display:{Name:"\"§2Haste banale\"","Lore":["{\"text\":\"§7Pratique pour se défendre de la cavalerie.\"}","{\"text\":\"§7Convenient for defending yourself from cavalry.\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.84,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.87,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]}]} 1
+give @s minecraft:wooden_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"teran",Shop:"buy",Weapon:"257"},custom_name={translate:"weapon257.name"},lore=[{translate:"weapon257.lore.1"},{translate:"weapon257.lore.2"},{translate:"weapon257.stat"}],max_damage=70,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:10.84},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.87},{slot:"mainhand",type:"knockback_resistance",id:"knockback_resistance",operation:"add_value",amount:0.02}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

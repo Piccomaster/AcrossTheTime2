@@ -3,5 +3,6 @@
 #Obtain item golden_sword_134          #
 #####################################
 
-give @s minecraft:golden_sword{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",Effect:"hun_1",display:{Name:"\"§7Pseudo guerrier\"","Lore":["{\"text\":\"§7Mieux vaut être seul que mal accompagné.\"}","{\"text\":\"§7Better alone than in bad company.\"}","{\"text\":\"§7HUN§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.06,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.91,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:golden_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",HUN:-1,Weapon:"134"},custom_name={translate:"weapon134.name"},lore=[{translate:"weapon134.lore.1"},{translate:"weapon134.lore.2"},{translate:"weapon134.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:2.06},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.91}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com
