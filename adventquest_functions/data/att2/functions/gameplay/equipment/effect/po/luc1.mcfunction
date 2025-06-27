@@ -6,7 +6,8 @@
 ##revoke test
 advancement revoke @s only att2_test:test_potion/potion20
 
-scoreboard players set @s LUC_LVL_PO 1
+##
+scoreboard players set @s LUC_PO 1
 scoreboard players set @s TIMER_LUC_PO 20000
 
 function att2:gameplay/equipment/effect/po/time_bonus/luc

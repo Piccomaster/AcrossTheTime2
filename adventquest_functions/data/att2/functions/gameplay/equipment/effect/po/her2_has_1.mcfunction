@@ -6,10 +6,12 @@
 ##revoke test
 advancement revoke @s only att2_test:test_potion/potion52
 
-scoreboard players set @s HER_LVL_PO 2
+##
+scoreboard players set @s HER_PO 2
 scoreboard players set @s TIMER_HER_PO 6000
 
-scoreboard players set @s HAS_LVL_PO -1
+##
+scoreboard players set @s HAS_PO -1
 scoreboard players set @s TIMER_HAS_PO 6000
 
 function att2:gameplay/equipment/effect/po/time_bonus/her
