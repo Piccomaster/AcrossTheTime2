@@ -3,26 +3,22 @@
 #Manage the timer for dahal regen                #
 ##################################################
 
-scoreboard players remove @a[scores={TIMER_DAR_LE=0..}] TIMER_DAR_LE 20
-scoreboard players remove @a[scores={TIMER_DAR_OH=0..}] TIMER_DAR_OH 20
-scoreboard players remove @a[scores={TIMER_DAR_PO=0..}] TIMER_DAR_PO 20
-scoreboard players remove @a[scores={TIMER_DAR_DAB=0..}] TIMER_DAR_DAB 20
-scoreboard players remove @a[scores={TIMER_DAR_DAM=0..}] TIMER_DAR_DAM 20
-scoreboard players remove @a[scores={TIMER_DAR_EQ1=0..}] TIMER_DAR_EQ1 20
-scoreboard players remove @a[scores={TIMER_DAR_EQ2=0..}] TIMER_DAR_EQ2 20
-scoreboard players remove @a[scores={TIMER_DAR_EQ3=0..}] TIMER_DAR_EQ3 20
-scoreboard players remove @a[scores={TIMER_DAR_EQ4=0..}] TIMER_DAR_EQ4 20
-scoreboard players remove @a[scores={TIMER_DAR_SET=0..}] TIMER_DAR_SET 20
-scoreboard players remove @a[scores={TIMER_DAR_EXT=0..}] TIMER_DAR_EXT 20
+#remove time
+scoreboard players remove @s[scores={TIMER_DAR_SP=1..}] TIMER_DAR_SP 1
 
-scoreboard players set @a[scores={TIMER_DAR_LE=..0}] DAR_LVL_LE 0
-scoreboard players set @a[scores={TIMER_DAR_OH=..0}] DAR_LVL_OH 0
-scoreboard players set @a[scores={TIMER_DAR_PO=..0}] DAR_LVL_PO 0
-scoreboard players set @a[scores={TIMER_DAR_DAB=..0}] DAR_LVL_DAB 0
-scoreboard players set @a[scores={TIMER_DAR_DAM=..0}] DAR_LVL_DAM 0
-scoreboard players set @a[scores={TIMER_DAR_EQ1=..0}] DAR_LVL_EQ1 0
-scoreboard players set @a[scores={TIMER_DAR_EQ2=..0}] DAR_LVL_EQ2 0
-scoreboard players set @a[scores={TIMER_DAR_EQ3=..0}] DAR_LVL_EQ3 0
-scoreboard players set @a[scores={TIMER_DAR_EQ4=..0}] DAR_LVL_EQ4 0
-scoreboard players set @a[scores={TIMER_DAR_SET=..0}] DAR_LVL_SET 0
-scoreboard players set @a[scores={TIMER_DAR_EXT=..0}] DAR_LVL_EXT 0
+scoreboard players remove @s[scores={TIMER_DAR_EQ=1..}] TIMER_DAR_EQ 1
+
+scoreboard players remove @s[scores={TIMER_DAR_EXT=1..}] TIMER_DAR_EXT 1
+
+scoreboard players remove @s[scores={TIMER_DAR_PO=1..}] TIMER_DAR_PO 1
+
+scoreboard players remove @s[scores={TIMER_DAR_EH=1..}] TIMER_DAR_EH 1
+
+#remove attribute
+scoreboard players reset @s[scores={TIMER_DAR_EQ=..0}] DAR_EQ
+scoreboard players reset @s[scores={TIMER_DAR_SP=..0}] DAR_SP
+scoreboard players reset @s[scores={TIMER_DAR_EXT=..0}] DAR_EXT
+scoreboard players reset @s[scores={TIMER_DAR_PO=..0}] DAR_PO
+scoreboard players reset @s[scores={TIMER_DAR_EH=..0}] DAR_EH
+##POTION_TIP
+execute as @a[scores={TIMER_DAR_PO=..200,DAR_LVL_PO=0..,POTION_CHECK_DAR=1}] run function att2:dialogs/gameplay/potion_tip/dar_time

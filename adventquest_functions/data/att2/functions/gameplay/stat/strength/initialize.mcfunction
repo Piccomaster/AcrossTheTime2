@@ -3,56 +3,38 @@
 #Initialize strength                             #
 ##################################################
 
+scoreboard objectives add STR dummy
+scoreboard players set @s STR 0
+
+scoreboard objectives add STR_DATA dummy
+scoreboard players set @s STR_DATA 0
+
 scoreboard objectives add STR_TOT dummy
 scoreboard players set @s STR_TOT 0
 
 scoreboard objectives add STR_BASE dummy
 scoreboard players set @s STR_BASE 0
 
-scoreboard objectives add STR_LVL_LE dummy
-scoreboard players set @s STR_LVL_LE 0
+scoreboard objectives add STR_EQ dummy
+scoreboard players set @s STR_EQ 0
 
-scoreboard objectives add STR_LVL_OH dummy
-scoreboard players set @s STR_LVL_OH 0
+scoreboard objectives add STR_SP dummy
+scoreboard players set @s STR_SP 0
 
-scoreboard objectives add STR_LVL_PO dummy
-scoreboard players set @s STR_LVL_PO 0
+scoreboard objectives add STR_PO dummy
+scoreboard players set @s STR_PO 0
 
-scoreboard objectives add STR_LVL_DAB dummy
-scoreboard players set @s STR_LVL_DAB 0
+scoreboard objectives add STR_EH dummy
+scoreboard players set @s STR_EH 0
 
-scoreboard objectives add STR_LVL_DAM dummy
-scoreboard players set @s STR_LVL_DAM 0
+scoreboard objectives add STR_EXT dummy
+scoreboard players set @s STR_EXT 0
 
-scoreboard objectives add STR_LVL_EQ1 dummy
-scoreboard players set @s STR_LVL_EQ1 0
-
-scoreboard objectives add STR_LVL_EQ2 dummy
-scoreboard players set @s STR_LVL_EQ2 0
-
-scoreboard objectives add STR_LVL_EQ3 dummy
-scoreboard players set @s STR_LVL_EQ3 0
-
-scoreboard objectives add STR_LVL_EQ4 dummy
-scoreboard players set @s STR_LVL_EQ4 0
-
-scoreboard objectives add STR_LVL_SET dummy
-scoreboard players set @s STR_LVL_SET 0
-
-scoreboard objectives add STR_LVL_EXT dummy
-scoreboard players set @s STR_LVL_EXT 0
-
-scoreboard objectives add TIMER_STR_LE dummy
-scoreboard objectives add TIMER_STR_OH dummy
-scoreboard objectives add TIMER_STR_PO dummy
-scoreboard objectives add TIMER_STR_DAB dummy
-scoreboard objectives add TIMER_STR_DAM dummy
-scoreboard objectives add TIMER_STR_EQ1 dummy
-scoreboard objectives add TIMER_STR_EQ2 dummy
-scoreboard objectives add TIMER_STR_EQ3 dummy
-scoreboard objectives add TIMER_STR_EQ4 dummy
-scoreboard objectives add TIMER_STR_SET dummy
+scoreboard objectives add TIMER_STR_SP dummy
+scoreboard objectives add TIMER_STR_EQ dummy
 scoreboard objectives add TIMER_STR_EXT dummy
+scoreboard objectives add TIMER_STR_PO dummy
+scoreboard objectives add TIMER_STR_EH dummy
 
 scoreboard objectives add STR_UPGRADE_REQ dummy
 scoreboard players set @s STR_UPGRADE_REQ 1

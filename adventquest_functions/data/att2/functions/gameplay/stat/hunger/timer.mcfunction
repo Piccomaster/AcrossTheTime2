@@ -3,26 +3,22 @@
 #Manage the timer for hunger                     #
 ##################################################
 
-scoreboard players remove @a[scores={TIMER_HUN_LE=0..}] TIMER_HUN_LE 1
-scoreboard players remove @a[scores={TIMER_HUN_OH=0..}] TIMER_HUN_OH 1
-scoreboard players remove @a[scores={TIMER_HUN_PO=0..}] TIMER_HUN_PO 1
-scoreboard players remove @a[scores={TIMER_HUN_DAB=0..}] TIMER_HUN_DAB 1
-scoreboard players remove @a[scores={TIMER_HUN_DAM=0..}] TIMER_HUN_DAM 1
-scoreboard players remove @a[scores={TIMER_HUN_EQ1=0..}] TIMER_HUN_EQ1 1
-scoreboard players remove @a[scores={TIMER_HUN_EQ2=0..}] TIMER_HUN_EQ2 1
-scoreboard players remove @a[scores={TIMER_HUN_EQ3=0..}] TIMER_HUN_EQ3 1
-scoreboard players remove @a[scores={TIMER_HUN_EQ4=0..}] TIMER_HUN_EQ4 1
-scoreboard players remove @a[scores={TIMER_HUN_SET=0..}] TIMER_HUN_SET 1
-scoreboard players remove @a[scores={TIMER_HUN_EXT=0..}] TIMER_HUN_EXT 1
+#remove time
+scoreboard players remove @s[scores={TIMER_HUN_SP=1..}] TIMER_HUN_SP 1
 
-scoreboard players set @a[scores={TIMER_HUN_LE=0}] HUN_LVL_LE 0
-scoreboard players set @a[scores={TIMER_HUN_OH=0}] HUN_LVL_OH 0
-scoreboard players set @a[scores={TIMER_HUN_PO=0}] HUN_LVL_PO 0
-scoreboard players set @a[scores={TIMER_HUN_DAB=0}] HUN_LVL_DAB 0
-scoreboard players set @a[scores={TIMER_HUN_DAM=0}] HUN_LVL_DAM 0
-scoreboard players set @a[scores={TIMER_HUN_EQ1=0}] HUN_LVL_EQ1 0
-scoreboard players set @a[scores={TIMER_HUN_EQ2=0}] HUN_LVL_EQ2 0
-scoreboard players set @a[scores={TIMER_HUN_EQ3=0}] HUN_LVL_EQ3 0
-scoreboard players set @a[scores={TIMER_HUN_EQ4=0}] HUN_LVL_EQ4 0
-scoreboard players set @a[scores={TIMER_HUN_SET=0}] HUN_LVL_SET 0
-scoreboard players set @a[scores={TIMER_HUN_EXT=0}] HUN_LVL_EXT 0
+scoreboard players remove @s[scores={TIMER_HUN_EQ=1..}] TIMER_HUN_EQ 1
+
+scoreboard players remove @s[scores={TIMER_HUN_EXT=1..}] TIMER_HUN_EXT 1
+
+scoreboard players remove @s[scores={TIMER_HUN_PO=1..}] TIMER_HUN_PO 1
+
+scoreboard players remove @s[scores={TIMER_HUN_EH=1..}] TIMER_HUN_EH 1
+
+#remove attribute
+scoreboard players reset @s[scores={TIMER_HUN_EQ=..0}] HUN_EQ
+scoreboard players reset @s[scores={TIMER_HUN_SP=..0}] HUN_SP
+scoreboard players reset @s[scores={TIMER_HUN_EXT=..0}] HUN_EXT
+scoreboard players reset @s[scores={TIMER_HUN_PO=..0}] HUN_PO
+scoreboard players reset @s[scores={TIMER_HUN_EH=..0}] HUN_EH
+##POTION_TIP
+execute as @a[scores={TIMER_HUN_PO=..200,HUN_LVL_PO=0..,POTION_CHECK_HUN=1}] run function att2:dialogs/gameplay/potion_tip/hun_time

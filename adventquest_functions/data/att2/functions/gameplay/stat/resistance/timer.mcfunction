@@ -3,26 +3,23 @@
 #Manage the timer for resistance                 #
 ##################################################
 
-scoreboard players remove @a[scores={TIMER_RES_LE=0..}] TIMER_RES_LE 20
-scoreboard players remove @a[scores={TIMER_RES_OH=0..}] TIMER_RES_OH 20
-scoreboard players remove @a[scores={TIMER_RES_PO=0..}] TIMER_RES_PO 20
-scoreboard players remove @a[scores={TIMER_RES_DAB=0..}] TIMER_RES_DAB 20
-scoreboard players remove @a[scores={TIMER_RES_DAM=0..}] TIMER_RES_DAM 20
-scoreboard players remove @a[scores={TIMER_RES_EQ1=0..}] TIMER_RES_EQ1 20
-scoreboard players remove @a[scores={TIMER_RES_EQ2=0..}] TIMER_RES_EQ2 20
-scoreboard players remove @a[scores={TIMER_RES_EQ3=0..}] TIMER_RES_EQ3 20
-scoreboard players remove @a[scores={TIMER_RES_EQ4=0..}] TIMER_RES_EQ4 20
-scoreboard players remove @a[scores={TIMER_RES_SET=0..}] TIMER_RES_SET 20
-scoreboard players remove @a[scores={TIMER_RES_EXT=0..}] TIMER_RES_EXT 20
+#remove time
+scoreboard players remove @s[scores={TIMER_RES_SP=1..}] TIMER_RES_SP 1
 
-scoreboard players set @a[scores={TIMER_RES_LE=..0}] RES_LVL_LE 0
-scoreboard players set @a[scores={TIMER_RES_OH=..0}] RES_LVL_OH 0
-scoreboard players set @a[scores={TIMER_RES_PO=..0}] RES_LVL_PO 0
-scoreboard players set @a[scores={TIMER_RES_DAB=..0}] RES_LVL_DAB 0
-scoreboard players set @a[scores={TIMER_RES_DAM=..0}] RES_LVL_DAM 0
-scoreboard players set @a[scores={TIMER_RES_EQ1=..0}] RES_LVL_EQ1 0
-scoreboard players set @a[scores={TIMER_RES_EQ2=..0}] RES_LVL_EQ2 0
-scoreboard players set @a[scores={TIMER_RES_EQ3=..0}] RES_LVL_EQ3 0
-scoreboard players set @a[scores={TIMER_RES_EQ4=..0}] RES_LVL_EQ4 0
-scoreboard players set @a[scores={TIMER_RES_SET=..0}] RES_LVL_SET 0
-scoreboard players set @a[scores={TIMER_RES_EXT=..0}] RES_LVL_EXT 0
+scoreboard players remove @s[scores={TIMER_RES_EQ=1..}] TIMER_RES_EQ 1
+
+scoreboard players remove @s[scores={TIMER_RES_EXT=1..}] TIMER_RES_EXT 1
+
+scoreboard players remove @s[scores={TIMER_RES_PO=1..}] TIMER_RES_PO 1
+
+scoreboard players remove @s[scores={TIMER_RES_EH=1..}] TIMER_RES_EH 1
+
+#remove attribute
+#remove attribute
+scoreboard players reset @s[scores={TIMER_RES_EQ=..0}] RES_EQ
+scoreboard players reset @s[scores={TIMER_RES_SP=..0}] RES_SP
+scoreboard players reset @s[scores={TIMER_RES_EXT=..0}] RES_EXT
+scoreboard players reset @s[scores={TIMER_RES_PO=..0}] RES_PO
+scoreboard players reset @s[scores={TIMER_RES_EH=..0}] RES_EH
+##POTION_TIP
+execute as @a[scores={TIMER_RES_PO=..200,RES_LVL_PO=0..,POTION_CHECK_RES=1}] run function att2:dialogs/gameplay/potion_tip/res_time
