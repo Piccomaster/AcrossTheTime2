@@ -15,3 +15,4 @@ title @s[scores={LANGUAGE=7}] actionbar {"text":"No hay caballos en esta dimensi
 title @s[scores={LANGUAGE=8}] actionbar {"text":"Es gibt keine Pferde in dieser Dimension.","color":"red"}
 title @s[scores={LANGUAGE=9}] actionbar {"text":"इस आयाम में कोई घोड़े नहीं हैं।","color":"red"}
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Não há cavalos nesta dimensão.","color":"red"}
+title @s[scores={LANGUAGE=11}] actionbar {"text":"异次元空间内没有马匹","color":"red"}

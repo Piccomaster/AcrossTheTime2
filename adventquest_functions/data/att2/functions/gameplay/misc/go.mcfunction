@@ -10,11 +10,11 @@ function att2:gameplay/misc/quest_icon/go
 ##itemrarity_color
 function att2:gameplay/misc/itemrarity_color/go
 ##chest particle
-#execute if score chest_color TIMECOUNTER matches 10 as @a run function att2:gameplay/misc/chesteffect/eye_effect/go
-execute if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/chesteffect/overworld_go
-execute if entity @a[scores={DIMENSION=6}] run function att2:gameplay/misc/chesteffect/angband_go
-execute if entity @a[scores={DIMENSION=7}] run function att2:gameplay/misc/chesteffect/billgart_go
-execute if entity @a[scores={DIMENSION=4}] run function att2:gameplay/misc/chesteffect/ouran_go
+execute as @a run function att2:gameplay/misc/chesteffect/eye_effect/go
+#execute if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/chesteffect/overworld_go
+#execute if entity @a[scores={DIMENSION=6}] run function att2:gameplay/misc/chesteffect/angband_go
+#execute if entity @a[scores={DIMENSION=7}] run function att2:gameplay/misc/chesteffect/billgart_go
+#execute if entity @a[scores={DIMENSION=4}] run function att2:gameplay/misc/chesteffect/ouran_go
 ##
 function att2:gameplay/misc/title_effect/go
 execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/fire_immune/go
