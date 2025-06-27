@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "greatsword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#minecraft:swords",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "att2_enchantment:greatsword"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

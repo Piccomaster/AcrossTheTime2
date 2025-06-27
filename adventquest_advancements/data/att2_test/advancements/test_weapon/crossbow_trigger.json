@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shield"
+    },
+    "title": {
+      "translate": "test"
+    },
+    "description": {
+      "translate": "crossbow"
+    },
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "att2:advancement/test_all/combat/crossbow_trigger"
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "item": "minecraft:crossbow"
+        }
+      }
+    }
+  }
+}

@@ -1,18 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:cake"
-        },
-        "title": {
-            "translate": "test"
-        },
-        "description": {
-            "translate": "apple"
-        },
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:gameplay/equipment/effect/po/her1_dar1_hun1_spd_3"
     },
@@ -24,7 +10,11 @@
                     "items": [
                         "minecraft:potion"
                     ],
-                    "nbt": "{Effect:her1_dar1_hun1_spd_3}"
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "Potion": "18"
+                        }
+                    }
                 }
             }
         }

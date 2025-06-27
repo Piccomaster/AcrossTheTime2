@@ -1,0 +1,13 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/enchantment/trigger_function/treasurehunter"
+  },
+  "criteria": {
+    "lootchest_reg1c6t1_trigger": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "att2:item_data/main_test"
+      }
+    }
+  }
+}

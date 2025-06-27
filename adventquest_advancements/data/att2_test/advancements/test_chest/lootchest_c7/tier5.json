@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:air"
+            "id": "minecraft:chest"
         },
         "title": {"translate":"C7 Tier 5 Trigger"},
         "description": {"translate":"TEST"},
@@ -10,7 +10,7 @@
         "announce_to_chat": false
     },
     "rewards": {
-        "function": "att2:advancement/test_all/treasure/lootchest_c7/tier5"
+        "function": "att2:advancement/test_all/treasure/chest/lootchest_c7/tier5"
             },
     "criteria": {
         "lootchest_reg1c7t5_trigger": {

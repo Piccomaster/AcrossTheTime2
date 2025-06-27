@@ -1,18 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:cake"
-        },
-        "title": {
-            "translate": "test"
-        },
-        "description": {
-            "translate": "apple"
-        },
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:gameplay/equipment/effect/po/str3_res1_luc2"
     },
@@ -24,7 +10,11 @@
                     "items": [
                         "minecraft:potion"
                     ],
-                    "nbt": "{Effect:str3_res1_luc2}"
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "Potion": "55"
+                        }
+                    }
                 }
             }
         }

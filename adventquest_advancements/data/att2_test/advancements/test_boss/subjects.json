@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:target"
+            "id": "minecraft:target"
         },
         "title": {"translate":"boss_kill"},
         "description": {"translate":"Triggered!"},
@@ -16,30 +16,6 @@
             "conditions": {
                 "entity": {
                     "nbt": "{UUID:[I;0,395,0,395]}"
-                }
-            }
-        },
-        "subjects2": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "nbt": "{UUID:[I;0,411,0,411]}"
-                }
-            }
-        },
-        "subjects3": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "nbt": "{UUID:[I;0,523,0,523]}"
-                }
-            }
-        },
-        "subjects4": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "nbt": "{UUID:[I;0,539,0,539]}"
                 }
             }
         }

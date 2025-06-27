@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/misc/chair/return"
+  },
+  "criteria": {
+    "left": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:['CHAIR']}"
+        }
+      }
+    }
+  }
+}

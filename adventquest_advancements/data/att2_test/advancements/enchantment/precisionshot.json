@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "precisionshot": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "att2_enchantment:precisionshot"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
