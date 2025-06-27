@@ -10,13 +10,7 @@ setblock -3845 102 -5808 minecraft:cyan_stained_glass
 playsound entity.experience_orb.touch master @a ~ ~ ~ 10 0.1 1
 
 
-#FRENCH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=0}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"Point de passage de la ville de Méleïm découvert!","color":"yellow"}]}
-
-
-#ENGLISH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=1..}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"WAYPOINT of Méleïm discovered!","color":"yellow"}]}
+#waypoint discovered
+function att2:dialogs/gameplay/waypoint/meleim_discovered
 
 function att2:advancement/test_all/journey/waypoints
