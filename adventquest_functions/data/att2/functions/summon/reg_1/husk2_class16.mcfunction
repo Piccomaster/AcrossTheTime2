@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon husk class_17 region_1  		       	 #
+
 ##################################################
 
-summon minecraft:husk ~ ~ ~ {Tags:["LVL0","CLASS16","Reg1","Undead"],Attributes:[{Name:generic.follow_range,Base:27.0}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:netherite_axe",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:12,Patterns:[{Pattern:gra,Color:4},{Pattern:mc,Color:12},{Pattern:cbo,Color:12},{Pattern:gru,Color:12},{Pattern:gra,Color:12}]}}}],ArmorItems:[{},{},{id:"minecraft:netherite_chestplate",Count:1},{id:"minecraft:netherite_helmet",Count:1}]}
+
+
+summon minecraft:husk ~ ~ ~ {Tags:["LVL0","CLASS16","Reg1","Undead"],attributes:[{id:follow_range,base:27.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:netherite_axe",count:1,components:{enchantments:{"minecraft:knockback":1}}},offhand:{id:"minecraft:shield",count:1,components:{base_color:brown,banner_patterns:[{pattern:gradient,color:yellow},{pattern:circle,color:brown},{pattern:curly_border,color:brown},{pattern:gradient_up,color:brown},{pattern:gradient,color:brown}]}},{},{},chest:{id:"minecraft:netherite_chestplate",count:1},head:{id:"minecraft:netherite_helmet",count:1}}}

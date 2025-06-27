@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon barbare of Jarat class_6 region_1  		 #
+
 ##################################################
 
-summon minecraft:zombified_piglin ~ ~ ~ {AngerTime:1000000,Tags:["Undead","LVL0","CLASS6","Reg1"],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:wooden_axe",Count:1},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:5,Patterns:[{Pattern:gra,Color:5},{Pattern:bts,Color:13},{Pattern:mr,Color:13},{Pattern:gra,Color:5}]}}}],ArmorItems:[{id:"minecraft:iron_boots",Count:1},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:6202454}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:6202454}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;-1815698322,-1557576803,-1445788368,299149132],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiMmI1ZWExZTgwOTA3MmVmOWI2YjY5ZTcxZGM3ZDA2OWViYmY0NzIxOTE5YTk5MmU0YmY3NDJjZDRlYmI3YiJ9fX0="}]}}}}]}
+
+
+summon minecraft:zombified_piglin ~ ~ ~ {AngerTime:1000000,Tags:["Undead","LVL0","CLASS6","Reg1"],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:wooden_axe",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:lime,banner_patterns:[{pattern:gradient,color:lime},{pattern:triangles_bottom,color:green},{pattern:rhombus,color:green},{pattern:gradient,color:lime}]}},feet:{id:"minecraft:iron_boots",count:1},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:6202454}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:6202454}},head:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;-1815698322,-1557576803,-1445788368,299149132],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiMmI1ZWExZTgwOTA3MmVmOWI2YjY5ZTcxZGM3ZDA2OWViYmY0NzIxOTE5YTk5MmU0YmY3NDJjZDRlYmI3YiJ9fX0="}]}}}}}

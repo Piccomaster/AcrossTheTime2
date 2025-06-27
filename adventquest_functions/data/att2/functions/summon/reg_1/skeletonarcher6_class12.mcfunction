@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon skeleton archer class_12 region_1  		 #
+
 ##################################################
 
-summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS12","Reg1","Undead"],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],Attributes:[{Name:generic.movement_speed,Base:0.225}],HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:power",lvl:3}]}},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:3,Patterns:[{Pattern:gra,Color:11},{Pattern:bts,Color:9},{Pattern:mr,Color:9},{Pattern:gra,Color:0}]}}}],ArmorItems:[{id:"minecraft:iron_boots",Count:1},{id:"minecraft:iron_leggings",Count:1},{id:"minecraft:iron_chestplate",Count:1},{id:"minecraft:iron_helmet",Count:1,tag:{Unbreakable:1b}}]}
+
+
+summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS12","Reg1","Undead"],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},attributes:[{id:movement_speed,base:0.225}],equipment:{mainhand:{id:"minecraft:bow",count:1,components:{enchantments:{"minecraft:power":3}}},offhand:{id:"minecraft:shield",count:1,components:{base_color:light_blue,banner_patterns:[{pattern:gradient,color:blue},{pattern:triangles_bottom,color:cyan},{pattern:rhombus,color:cyan},{pattern:gradient,color:white}]}},feet:{id:"minecraft:iron_boots",count:1},legs:{id:"minecraft:iron_leggings",count:1},chest:{id:"minecraft:iron_chestplate",count:1},head:{id:"minecraft:iron_helmet",count:1,components:{unbreakable:1b}}}}

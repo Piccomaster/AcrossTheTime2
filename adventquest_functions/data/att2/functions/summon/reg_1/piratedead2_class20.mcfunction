@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon piratedead class_20 region_1  		 	 #
+
 ##################################################
 
-summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS20","Reg1","Undead"],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],Attributes:[{Name:generic.movement_speed,Base:0.225}],HandItems:[{id:"minecraft:iron_axe",Count:1b},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:7,Patterns:[{Pattern:cr,Color:7},{Pattern:sku,Color:15},{Pattern:gru,Color:15},{Pattern:cbo,Color:15}]}}}],ArmorItems:[{id:"minecraft:iron_boots",Count:1},{id:"minecraft:iron_leggings",Count:1},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:12504282}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;-1419224673,-74300076,-1875340534,847343896],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU5ZjZmYzAzZDczZGZhYmE3ZjlhZDI0NjQ4ZTViNTlhZDljYzAyMmFlYzUyNGRjZGVmNDQzNGQxMjViIn19fQ=="}]}}}}]}
+
+
+summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS20","Reg1","Undead"],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},attributes:[{id:movement_speed,base:0.225}],equipment:{mainhand:{id:"minecraft:iron_axe",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:gray,banner_patterns:[{pattern:cross,color:gray},{pattern:skull,color:black},{pattern:gradient_up,color:black},{pattern:curly_border,color:black}]}},feet:{id:"minecraft:iron_boots",count:1},legs:{id:"minecraft:iron_leggings",count:1},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:12504282}},head:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;-1419224673,-74300076,-1875340534,847343896],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU5ZjZmYzAzZDczZGZhYmE3ZjlhZDI0NjQ4ZTViNTlhZDljYzAyMmFlYzUyNGRjZGVmNDQzNGQxMjViIn19fQ=="}]}}}}}

@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon stray class_15 region_1  		       	 #
+
 ##################################################
 
-summon minecraft:stray ~ ~ ~ {Attributes:[{Name:generic.movement_speed,Base:0.22}],Tags:["LVL0","CLASS15","Reg1","Undead"],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:diamond_sword",Count:1},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:3,Patterns:[{Pattern:gra,Color:11},{Pattern:bts,Color:9},{Pattern:mr,Color:9},{Pattern:gra,Color:0}]}}}],ArmorItems:[{},{},{id:"minecraft:chainmail_chestplate",Count:1,tag:{Unbreakable:1b}},{id:"minecraft:chainmail_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:15}],Unbreakable:1b}}]}
+
+
+summon minecraft:stray ~ ~ ~ {attributes:[{id:movement_speed,base:0.22}],Tags:["LVL0","CLASS15","Reg1","Undead"],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:diamond_sword",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:light_blue,banner_patterns:[{pattern:gradient,color:blue},{pattern:triangles_bottom,color:cyan},{pattern:rhombus,color:cyan},{pattern:gradient,color:white}]}},{},{},chest:{id:"minecraft:chainmail_chestplate",count:1,components:{unbreakable:1b}},head:{id:"minecraft:chainmail_helmet",count:1,components:{enchantments:{"minecraft:protection":15},unbreakable:1b}}}}

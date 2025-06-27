@@ -3,4 +3,4 @@
 #Summon zombie pigman class_18 region_2  		 #
 ##################################################
 
-summon minecraft:zombified_piglin ~ ~ ~ {Attributes:[{Name:generic.movement_speed,Base:0.22}],Tags:["LVL0","CLASS18","Reg2","Undead"],AngerTime:1000000,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:wooden_axe",Count:1b},{}],ArmorItems:[{},{id:"minecraft:chainmail_legging",Count:1},{id:"minecraft:chainmail_chestplate",Count:1},{id:"minecraft:leather_helmet",Count:1,tag:{display:{color:9589788}}}]}
+summon minecraft:zombified_piglin ~ ~ ~ {attributes:[{id:movement_speed,base:0.22}],Tags:["LVL0","CLASS18","Reg2","Undead"],AngerTime:1000000,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:wooden_axe",count:1},offhand:{},{},{id:"minecraft:chainmail_legging",count:1},chest:{id:"minecraft:chainmail_chestplate",count:1},head:{id:"minecraft:leather_helmet",count:1,components:{dyed_color:9589788}}}}

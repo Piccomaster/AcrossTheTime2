@@ -3,4 +3,4 @@
 #Summon spider class_12 region_1  		     	 #
 ##################################################
 
-summon minecraft:spider ~ ~ ~ {Tags:["LVL0","CLASS12","Reg1"],Attributes:[{Name:generic.follow_range,Base:30.0},{Name:generic.movement_speed,Base:0.20}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}]}
+summon minecraft:spider ~ ~ ~ {Tags:["LVL0","CLASS12","Reg1"],attributes:[{id:follow_range,base:30.0},{id:movement_speed,base:0.20}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:iron_boots",count:1},legs:{id:"minecraft:iron_leggings",count:1},chest:{id:"minecraft:iron_chestplate",count:1},head:{id:"minecraft:iron_helmet",count:1}}}

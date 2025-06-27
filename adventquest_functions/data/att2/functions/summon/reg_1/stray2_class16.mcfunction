@@ -3,4 +3,4 @@
 #Summon stray class_16 region_1  		       	 #
 ##################################################
 
-summon minecraft:stray ~ ~ ~ {Attributes:[{Name:generic.movement_speed,Base:0.22}],Tags:["LVL0","CLASS16","Reg1","Undead"],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:diamond_shovel",Count:1},{id:"minecraft:diamond_shovel",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:7}],Unbreakable:1b}}]}
+summon minecraft:stray ~ ~ ~ {attributes:[{id:movement_speed,base:0.22}],Tags:["LVL0","CLASS16","Reg1","Undead"],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:diamond_shovel",count:1},offhand:{id:"minecraft:diamond_shovel",count:1},{},{},{},head:{id:"minecraft:chainmail_helmet",count:1,components:{enchantments:{"minecraft:protection":7},unbreakable:1b}}}}

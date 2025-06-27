@@ -3,4 +3,4 @@
 #Summon slime class_6 region_1  		       	 #
 ##################################################
 
-summon minecraft:slime ~ ~ ~ {Tags:["LVL0","CLASS6","Reg1"],Size:1,Attributes:[{Name:generic.movement_speed,Base:0.50}]}
+summon minecraft:slime ~ ~ ~ {Tags:["LVL0","CLASS6","Reg1"],Size:1,attributes:[{id:movement_speed,base:0.50}]}

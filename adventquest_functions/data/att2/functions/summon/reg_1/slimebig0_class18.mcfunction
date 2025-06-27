@@ -3,4 +3,4 @@
 #Summon slime class_18 region_1  		       	 #
 ##################################################
 
-summon minecraft:slime ~ ~ ~ {Tags:["LVL0","CLASS18","Reg1"],Size:5,Attributes:[{Name:generic.movement_speed,Base:0.25}]}
+summon minecraft:slime ~ ~ ~ {Tags:["LVL0","CLASS18","Reg1"],Size:5,attributes:[{id:movement_speed,base:0.25}]}

@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon stray Minions arena  		       	     #
+
 ##################################################
 
-summon minecraft:stray ~ ~ ~ {Glowing:1,Tags:["LVL0","CLASS16","ArenaMinion","Undead","Mighty1"],PersistenceRequired:1,DeathLootTable:"att2:empty",Attributes:[{Name:generic.movement_speed,Base:0.20},{Name:generic.follow_range,Base:100.0}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:wooden_sword",Count:1},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:3,Patterns:[{Pattern:gra,Color:11},{Pattern:bts,Color:9},{Pattern:mr,Color:9},{Pattern:gra,Color:0}]}}}],ArmorItems:[{},{},{id:"minecraft:leather_chestplate",Count:1,tag:{Unbreakable:1b}},{id:"minecraft:leather_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:20}],Unbreakable:1b}}]}
+
+
+summon minecraft:stray ~ ~ ~ {Glowing:1,Tags:["LVL0","CLASS16","ArenaMinion","Undead","Mighty1"],PersistenceRequired:1,DeathLootTable:"att2:empty",attributes:[{id:movement_speed,base:0.20},{id:follow_range,base:100.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:wooden_sword",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:light_blue,banner_patterns:[{pattern:gradient,color:blue},{pattern:triangles_bottom,color:cyan},{pattern:rhombus,color:cyan},{pattern:gradient,color:white}]}},{},{},chest:{id:"minecraft:leather_chestplate",count:1,components:{unbreakable:1b}},head:{id:"minecraft:leather_helmet",count:1,components:{enchantments:{"minecraft:protection":20},unbreakable:1b}}}}

@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon revenant Minions arena  		 	     #
+
 ##################################################
 
-summon minecraft:skeleton ~ ~ ~ {Glowing:1,Tags:["LVL0","CLASS20","ArenaMinion","Undead","Mighty5"],PersistenceRequired:1,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],Attributes:[{Name:generic.movement_speed,Base:0.275},{Name:generic.follow_range,Base:100.0}],HandItems:[{id:"minecraft:netherite_hoe",Count:1b},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:7,Patterns:[{Pattern:bri,Color:8},{Pattern:ss,Color:7}]}}}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1},{id:"minecraft:netherite_leggings",Count:1},{id:"minecraft:netherite_chestplate",Count:1},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;-703913912,-1230946243,-1599774903,-587597650],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViYzUwOGU5NTA5ODEzMDA3YWFjYTBhMzQ5Y2RkYmZmMTYzNDhjMmQzOWFjZWU5ZjI0M2UxNDkwNTc4YzkxMCJ9fX0="}]}}}}]}
+
+
+summon minecraft:skeleton ~ ~ ~ {Glowing:1,Tags:["LVL0","CLASS20","ArenaMinion","Undead","Mighty5"],PersistenceRequired:1,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},attributes:[{id:movement_speed,base:0.275},{id:follow_range,base:100.0}],equipment:{mainhand:{id:"minecraft:netherite_hoe",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:gray,banner_patterns:[{pattern:bricks,color:light_gray},{pattern:small_stripes,color:gray}]}},feet:{id:"minecraft:netherite_boots",count:1},legs:{id:"minecraft:netherite_leggings",count:1},chest:{id:"minecraft:netherite_chestplate",count:1},head:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;-703913912,-1230946243,-1599774903,-587597650],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViYzUwOGU5NTA5ODEzMDA3YWFjYTBhMzQ5Y2RkYmZmMTYzNDhjMmQzOWFjZWU5ZjI0M2UxNDkwNTc4YzkxMCJ9fX0="}]}}}}}
