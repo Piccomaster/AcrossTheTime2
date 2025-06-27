@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Témérité"},
-        "description": {"translate":"This is the virtue of the best, because only them achieved the unachievable."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_wooden/shield_62",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "shield_63": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§6Témérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telle est la vertu des meilleurs, car eux\\\"}\",\"{\\\"text\\\":\\\"§7seuls atteignirent l'inatteignable.\\\"}\",\"{\\\"text\\\":\\\"§7This is the virtue of the best, because\\\"}\",\"{\\\"text\\\":\\\"§7only them achieved the unachievable.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HER§a1 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.shield_63"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.shield_63"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/shield_62",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "shield_63": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "63"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

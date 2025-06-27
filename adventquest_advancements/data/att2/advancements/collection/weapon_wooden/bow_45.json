@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Äpril      "},
-        "description": {"translate":"Charming but destructive, it hunts without distinction of species."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden/bow_44",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "bow_45": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§5Äpril\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Envoûtant mais destructeur,\\\"}\",\"{\\\"text\\\":\\\"§7il chasse sans distinction d'espèce.\\\"}\",\"{\\\"text\\\":\\\"§7Charming but destructive,\\\"}\",\"{\\\"text\\\":\\\"§7it hunts without distinction of species.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_45"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_45"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/bow_44",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "bow_45": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "45"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

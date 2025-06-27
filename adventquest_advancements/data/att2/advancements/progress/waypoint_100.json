@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:beacon"
+            "id": "minecraft:beacon"
         },
-        "title": {"translate":"Are you some sort of magician?"},
-        "description": {"translate":"Use a waypoint 100 times."},
+        "title": {"translate":"att2.advancement.progress.title.waypoint_100"},
+        "description": {"translate":"att2.advancement.progress.description.waypoint_100"},
         "frame": "challenge"
     },
     "parent": "att2:progress/waypoint_50",

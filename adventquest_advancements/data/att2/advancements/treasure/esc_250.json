@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:quartz"
+            "id": "minecraft:quartz"
         },
-        "title": {"translate":"Gourmandize"},
-        "description": {"translate":"Store 250 Ecailles Souveraines du Chaos"},
+        "title": {"translate": "att2.advancement.treasure.title.esc_250"},
+        "description": {"translate": "att2.advancement.treasure.description.esc_250"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/esc_100",

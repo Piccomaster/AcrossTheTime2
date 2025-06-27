@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Trépas du marcheur blanc"},
-        "description": {"translate":"Unlucky is the one who will wear this. A futal that stinks."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/leggings_335",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_leggings_339": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Trépas du marcheur blanc\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Malchanceux celui qui portera ceci.\\\"}\",\"{\\\"text\\\":\\\"§7Un futal qui pue quoi.\\\"}\",\"{\\\"text\\\":\\\"§7Unlucky is the one who will wear this.\\\"}\",\"{\\\"text\\\":\\\"§7A futal that stinks.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.leggings_339"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.leggings_339"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/leggings_335",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_leggings_339": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "339"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

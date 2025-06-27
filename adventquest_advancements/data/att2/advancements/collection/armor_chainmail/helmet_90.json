@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_helmet"
-        },
-        "title": {"translate":"Prince de Sylberländ"},
-        "description": {"translate":"Shine, marvel and motivate by your charisma, because only you alone could."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_helmet"
     },
-    "parent": "att2:collection/armor_chainmail/helmet_83",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "chainmail_helmet_90": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Prince de Sylberländ\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rayonne, émerveille et motive\\\"}\",\"{\\\"text\\\":\\\"§7par ton charisme, car toi seul le saurais.\\\"}\",\"{\\\"text\\\":\\\"§7Shine, marvel and motivate by\\\"}\",\"{\\\"text\\\":\\\"§7your charisma, because only you alone could.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.helmet_90"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.helmet_90"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/helmet_83",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "chainmail_helmet_90": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "90"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

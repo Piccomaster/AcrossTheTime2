@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:player_head"
+            "id": "minecraft:player_head"
         },
-        "title": {"translate":"Humanoids Genocider"},
-        "description": {"translate":"Kill 500 Humanoids"},
+        "title": {"translate":"att2.advancement.mobskilled.title.humanoids_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.humanoids_killed_500"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/humanoids_killed_250",

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_boots"
+            "id": "minecraft:iron_boots"
         },
-        "title": {"translate":"Gotta go fast!"},
-        "description": {"translate":"Sprint 5km"}
+        "title": {"translate":"att2.advancement.progress.title.sprint_500000"},
+        "description": {"translate":"att2.advancement.progress.description.sprint_500000"}
     },
     "parent": "att2:progress/sprint_100000",
     "rewards": {

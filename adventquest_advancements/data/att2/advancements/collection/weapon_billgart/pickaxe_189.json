@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_pickaxe"
-        },
-        "title": {"translate":"Supplice éternel"},
-        "description": {"translate":"No rest for those who cannot die, no dreams for those who cannot sleep."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
     },
-    "parent": "att2:collection/weapon_billgart/pickaxe_187",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "stone_pickaxe_189": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§6Supplice éternel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas de repos pour ceux qui ne savent\\\"}\",\"{\\\"text\\\":\\\"§7mourir, pas de rêve pour ceux qui ne peuvent dormir.\\\"}\",\"{\\\"text\\\":\\\"§7No rest for those who cannot die,\\\"}\",\"{\\\"text\\\":\\\"§7no dreams for those who cannot sleep.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a5 §7HER§a2 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.pickaxe_189"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.pickaxe_189"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/pickaxe_187",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "stone_pickaxe_189": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "189"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

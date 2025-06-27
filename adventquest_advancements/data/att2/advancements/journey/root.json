@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:compass"
+            "id": "minecraft:compass"
         },
-        "title": {"translate":"The Journey"},
-        "description": {"translate":"Discover Sylberländ"},
-        "background": "minecraft:textures/block/magenta_stained_glass.png",
+        "title": {"translate":"att2.advancement.journey.title.root"},
+        "description": {"translate":"att2.advancement.journey.description.root"},
+        "background": "minecraft:block/magenta_stained_glass",
         "show_toast": true,
         "announce_to_chat": true
     },

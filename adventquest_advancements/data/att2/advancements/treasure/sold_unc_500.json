@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:green_candle"
+            "id": "minecraft:green_candle"
         },
-        "title": {"translate":"Uncommon selling"},
-        "description": {"translate":"Sell 500 uncommon items"},
+        "title": {"translate": "att2.advancement.treasure.title.sold_unc_500"},
+        "description": {"translate": "att2.advancement.treasure.description.sold_unc_500"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/sold_1000",

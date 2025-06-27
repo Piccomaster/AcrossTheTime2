@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_chestplate"
-        },
-        "title": {"translate":"La foi du guerrier"},
-        "description": {"translate":"Untiring hope, spread your justice so that it may benefit everyone."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
     },
-    "parent": "att2:collection/armor_chainmail/chestplate_85",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "chainmail_chestplate_92": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§5La foi du guerrier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Infatigable espoir, répands ta\\\"}\",\"{\\\"text\\\":\\\"§7justice pour qu'elle profite à tous.\\\"}\",\"{\\\"text\\\":\\\"§7Untiring hope, spread your\\\"}\",\"{\\\"text\\\":\\\"§7justice so that it may benefit everyone.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.chestplate_92"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.chestplate_92"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/chestplate_85",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "chainmail_chestplate_92": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "92"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

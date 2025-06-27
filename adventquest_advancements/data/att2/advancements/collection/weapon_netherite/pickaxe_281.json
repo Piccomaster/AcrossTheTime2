@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_pickaxe"
-        },
-        "title": {"translate":"Batte nulle"},
-        "description": {"translate":"Used only at tavern exits."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
     },
-    "parent": "att2:collection/weapon_netherite/pickaxe_280",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_pickaxe_281": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§7Batte nulle\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utilisée seulement pour les sorties de taverne.\\\"}\",\"{\\\"text\\\":\\\"§7Used only at tavern exits.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.pickaxe_281"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.pickaxe_281"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/pickaxe_280",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_pickaxe_281": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "281"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

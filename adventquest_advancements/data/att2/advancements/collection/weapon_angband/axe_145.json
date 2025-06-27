@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_axe"
-        },
-        "title": {"translate":"Pli du viellard"},
-        "description": {"translate":"Behind this worn-out appearance lies a youthful spirit."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
     },
-    "parent": "att2:collection/weapon_angband/axe_144",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "golden_axe_145": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_axe"],
-                    "nbt": "{display:{Name:\"\\\"§9Pli du viellard\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Derrière cette apparence usée, se\\\"}\",\"{\\\"text\\\":\\\"§7cache un esprit jeune.\\\"}\",\"{\\\"text\\\":\\\"§7Behind this worn-out appearance\\\"}\",\"{\\\"text\\\":\\\"§7lies a youthful spirit.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.axe_145"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.axe_145"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/axe_144",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_axe_145": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "145"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

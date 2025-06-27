@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_sword"
+            "id": "minecraft:golden_sword"
         },
-        "title": {"translate":"Golden weapon break"},
-        "description": {"translate":"Destroy a golden weapon in battle"}
+        "title": {"translate":"att2.advancement.combat.title.break_golden_weapon"},
+        "description": {"translate":"att2.advancement.combat.description.break_golden_weapon"}
     },
     "parent": "att2:combat/break_weapon",
     "rewards": {

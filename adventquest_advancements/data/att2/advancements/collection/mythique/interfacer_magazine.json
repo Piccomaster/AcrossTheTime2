@@ -1,21 +1,29 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shulker_shell"
+            "id": "minecraft:shulker_shell"
         },
-        "title": {"translate":"Interfacer Dahäl Magazine"},
-        "description": {"translate":"Hold the legendary firearm INTERFACER magazine"},
+        "title": {"translate": "att2.advancement.collection.mythique.title.interfacer_magazine"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.interfacer_magazine"},
         "frame": "challenge",
         "hidden":true
     },
     "parent": "att2:collection/mythique/interfacer",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_25",
+        "function": "att2:advancement/test_all/collection/interfacer_magazine",
         "experience": 25000
                 },
     "criteria": {
-        "interfacer_magazine": {
-            "trigger": "minecraft:impossible"
+    "interfacer_magazine": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                "items": ["minecraft:shulker_shell"],
+                "nbt": "{Tags:[IFDahalMagasin]}"
+                }
+            ]
         }
     }
+ }
 }

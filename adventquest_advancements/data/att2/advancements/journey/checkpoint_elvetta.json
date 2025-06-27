@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Elvetta Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Elvetta"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_elvetta"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_elvetta"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_elvetta",

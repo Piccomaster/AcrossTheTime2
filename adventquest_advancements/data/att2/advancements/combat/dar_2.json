@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:potion"
+            "id": "minecraft:potion"
         },
-        "title": {"translate":"Magic regen"},
-        "description": {"translate":"To play the sorcerer's apprentice"}
+        "title": {"translate":"att2.advancement.combat.title.dar_2"},
+        "description": {"translate":"巫师的学徒"}
     },
     "parent": "att2:combat/root",
     "rewards": {

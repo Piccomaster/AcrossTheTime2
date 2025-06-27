@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Angband road Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Angband road"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_angband_road"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_angband_road"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_angband",

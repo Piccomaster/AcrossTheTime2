@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_axe"
-        },
-        "title": {"translate":"Hache perdue"},
-        "description": {"translate":"Not lost, some things find no true master."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
     },
-    "parent": "att2:collection/weapon_iron/axe_81",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_axe_88": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_axe"],
-                    "nbt": "{display:{Name:\"\\\"§5Hache perdue\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Guère égarées, certaines choses \\\"}\",\"{\\\"text\\\":\\\"§7ne trouvent aucun digne maître.\\\"}\",\"{\\\"text\\\":\\\"§7Not lost, some things\\\"}\",\"{\\\"text\\\":\\\"§7find no true master.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a2 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.axe_88"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.axe_88"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/axe_81",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "iron_axe_88": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "88"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

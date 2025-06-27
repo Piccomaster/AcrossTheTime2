@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Souliers remarquables"},
-        "description": {"translate":"Greatly increase your Dahäl regeneration."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_leather/boots_13",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "leather_boots_17": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Souliers remarquables\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente grandement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aGreatly increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1 §7SPD§c-1\\\"}\"],color:4171030}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.boots_17"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.boots_17"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/boots_13",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "leather_boots_17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "17"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

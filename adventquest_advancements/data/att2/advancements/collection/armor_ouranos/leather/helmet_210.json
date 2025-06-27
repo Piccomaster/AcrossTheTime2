@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Capuche des songes"},
-        "description": {"translate":"The distance becomes subjective, the altitude anodyne, the speed affable, when the knowledge of Iio's children carries you."},
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_ouranos",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "leather_helmet_210": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Capuche des songes\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLa distance devient subjective, l'altitude anodine, la vitesse\\\"}\",\"{\\\"text\\\":\\\"§aaffable, quand vous porte le savoir des enfants d'Iio.\\\"}\",\"{\\\"text\\\":\\\"§aThe distance becomes subjective, the altitude anodyne, the speed\\\"}\",\"{\\\"text\\\":\\\"§aaffable, when the knowledge of Iio's children carries you.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7DAR§c-1\\\"}\"],color:12696977}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.title.helmet_210"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.description.helmet_210"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "leather_helmet_210": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "210"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

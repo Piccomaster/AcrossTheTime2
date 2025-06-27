@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_axe"
-        },
-        "title": {"translate":"Lame de l'ancien"},
-        "description": {"translate":"Time doesn't make you decadent, but it will make you nostalgic."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
     },
-    "parent": "att2:collection/weapon_ouranos/axe_205",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "stone_axe_208": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_axe"],
-                    "nbt": "{display:{Name:\"\\\"§5Lame de l'ancien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le temps ne fait pas ta décadence,\\\"}\",\"{\\\"text\\\":\\\"§7mais il te rendra nostalgique.\\\"}\",\"{\\\"text\\\":\\\"§7Time doesn't make you decadent,\\\"}\",\"{\\\"text\\\":\\\"§7but it will make you nostalgic.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.axe_208"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.axe_208"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/axe_205",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "stone_axe_208": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "208"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

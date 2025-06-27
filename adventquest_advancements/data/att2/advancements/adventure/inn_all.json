@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:green_bed"
+            "id": "minecraft:green_bed"
         },
-        "title": {"translate":"The world is the traveller's inn!"},
-        "description": {"translate":"Booked a room in all inns of Sylberländ."},
+        "title": {"translate":"att2.advancement.adventure.title.inn_all"},
+        "description": {"translate":"att2.advancement.adventure.description.inn_all"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/inn_10",

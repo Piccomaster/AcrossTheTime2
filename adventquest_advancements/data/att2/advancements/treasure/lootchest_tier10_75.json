@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:trapped_chest"
+            "id": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Lost Chest Connoisseur"},
-        "description": {"translate":"Open 75 Lost Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier10_75"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier10_75"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier10_30",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

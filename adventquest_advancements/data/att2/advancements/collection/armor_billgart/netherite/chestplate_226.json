@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_chestplate"
-        },
-        "title": {"translate":"Corps luisant"},
-        "description": {"translate":"He seizes by his brilliance."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
     },
-    "parent": "att2:collection/armor_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_chestplate_226": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§2Corps luisant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il saisit par son éclat.\\\"}\",\"{\\\"text\\\":\\\"§7He seizes by his brilliance.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.chestplate_226"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.chestplate_226"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_chestplate_226": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "226"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

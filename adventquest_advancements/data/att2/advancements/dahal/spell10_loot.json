@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:writable_book"
+            "id": "minecraft:writable_book"
         },
-        "title": {"translate":"Earthquake"},
-        "description": {"translate":"Find Earthquake spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell10_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell10_loot"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

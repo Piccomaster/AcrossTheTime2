@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_axe"
-        },
-        "title": {"translate":"Simpléclat"},
-        "description": {"translate":"Shine of remarkable finesse."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
     },
-    "parent": "att2:collection/weapon_diamond",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_axe_96": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_axe"],
-                    "nbt": "{display:{Name:\"\\\"§7Simpléclat\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brille d'une finesse remarquable.\\\"}\",\"{\\\"text\\\":\\\"§7Shine of remarkable finesse.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.axe_96"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.axe_96"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_axe_96": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "96"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

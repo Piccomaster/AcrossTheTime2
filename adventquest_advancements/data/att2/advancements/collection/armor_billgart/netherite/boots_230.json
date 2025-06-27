@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Pieds luisants"},
-        "description": {"translate":"One small step, but one too many."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_boots_230": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§2Pieds luisants\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un petit pas, mais un de trop.\\\"}\",\"{\\\"text\\\":\\\"§7One small step, but one too many.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.boots_230"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.boots_230"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_boots_230": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "230"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

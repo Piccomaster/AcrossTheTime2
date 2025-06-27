@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"Serious matters start there!"},
-        "description": {"translate":"Across The Time"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_19"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_19"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_18",

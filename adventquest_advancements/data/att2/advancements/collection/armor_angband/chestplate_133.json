@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_chestplate"
-        },
-        "title": {"translate":"Plaque en or"},
-        "description": {"translate":"More beautiful than useful."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
     },
-    "parent": "att2:collection/armor_angband",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_chestplate_133": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§7Plaque en or\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus belle qu'utile.\\\"}\",\"{\\\"text\\\":\\\"§7More beautiful than useful.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.chestplate_133"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.chestplate_133"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_chestplate_133": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "133"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

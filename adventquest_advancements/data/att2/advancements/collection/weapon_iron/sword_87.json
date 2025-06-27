@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_sword"
-        },
-        "title": {"translate":"La seconde option"},
-        "description": {"translate":"The one that always gets you out of bad situations."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
     },
-    "parent": "att2:collection/weapon_iron/sword_86",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_sword_87": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_sword"],
-                    "nbt": "{display:{Name:\"\\\"§9La seconde option\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Celle qui vous sort toujours\\\"}\",\"{\\\"text\\\":\\\"§7des mauvaises passes.\\\"}\",\"{\\\"text\\\":\\\"§7The one that always gets\\\"}\",\"{\\\"text\\\":\\\"§7you out of bad situations.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.sword_87"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.sword_87"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/sword_86",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_sword_87": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "87"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

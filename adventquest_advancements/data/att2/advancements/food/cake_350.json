@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cake"
+            "id": "minecraft:cake"
         },
-        "title": {"translate":"Diabetic!"},
-        "description": {"translate":"Eat 50 cakes"},
+        "title": {"translate":"att2.advancement.food.title.cake_350"},
+        "description": {"translate":"att2.advancement.food.description.cake_350"},
         "frame": "challenge"
     },
     "parent": "att2:food/cake_105",

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_helmet"
-        },
-        "title": {"translate":"Coquille vide"},
-        "description": {"translate":"Duh..."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
     },
-    "parent": "att2:collection/armor_billgart/netherite/helmet_224",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_helmet_316": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Coquille vide\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Gné !\\\"}\",\"{\\\"text\\\":\\\"§7Duh...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.helmet_316"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.helmet_316"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/helmet_224",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_helmet_316": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "316"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"I am the invincible!"},
-        "description": {"translate":"Discover and activate 350 checkpoints"},
+        "title": {"translate":"att2.advancement.progress.title.checkpoint_350"},
+        "description": {"translate":"att2.advancement.progress.description.checkpoint_350"},
         "frame": "challenge"
     },
     "parent": "att2:progress/checkpoint_200",

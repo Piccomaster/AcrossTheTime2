@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Grande chute"},
-        "description": {"translate":"A thousand times he wandered to the ends of the world, and across the land he saw it."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_billgart/netherite/boots_327",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_boots_243": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Grande chute\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mille fois, il s'égara aux confins du monde,\\\"}\",\"{\\\"text\\\":\\\"§7et par-delà les terres, il la vit.\\\"}\",\"{\\\"text\\\":\\\"§7A thousand times he wandered to the ends\\\"}\",\"{\\\"text\\\":\\\"§7of the world, and across the land he saw it.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7LUC§a1 §7HUN§a1 §7HER§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.boots_243"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.boots_243"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/boots_327",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_boots_243": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "243"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

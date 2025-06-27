@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_hoe"
-        },
-        "title": {"translate":"Lance du destin"},
-        "description": {"translate":"Covered with a silver leaf, it turns it into a destructive weapon."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_hoe"
     },
-    "parent": "att2:collection/weapon_iron/hoe_267",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_hoe_268": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§5Lance du destin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Recouverte d’une feuille d’argent,\\\"}\",\"{\\\"text\\\":\\\"§7elle en fait une arme destructrice.\\\"}\",\"{\\\"text\\\":\\\"§7Covered with a silver leaf,\\\"}\",\"{\\\"text\\\":\\\"§7it turns it into a destructive weapon.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7LUC§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.hoe_268"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.hoe_268"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/hoe_267",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "iron_hoe_268": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "268"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

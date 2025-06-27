@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_sword"
-        },
-        "title": {"translate":"Minia"},
-        "description": {"translate":"The more you know... the more you kill..."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
     },
-    "parent": "att2:collection/weapon_stone/sword_16",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "wooden_sword_23": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§9Minia\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus tu en sais...\\\"}\",\"{\\\"text\\\":\\\"§7plus tu en tues.\\\"}\",\"{\\\"text\\\":\\\"§7The more you know...\\\"}\",\"{\\\"text\\\":\\\"§7the more you kill.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a3 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.sword_23"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.sword_23"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/sword_16",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "wooden_sword_23": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "23"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_shovel"
+            "id": "minecraft:diamond_shovel"
         },
-        "title": {"translate":"Diamond dagger hit"},
-        "description": {"translate":"Strike 250 times with a diamond dagger"},
+        "title": {"translate": "att2.advancement.weapons.title.diamond_dagger_250"},
+        "description": {"translate": "att2.advancement.weapons.description.diamond_dagger_250"},
         "frame": "goal"
     },
     "parent": "att2:weapons/diamond_dagger_50",

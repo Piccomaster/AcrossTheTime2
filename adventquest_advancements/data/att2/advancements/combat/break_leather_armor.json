@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather_chestplate"
+            "id": "minecraft:leather_chestplate"
         },
-        "title": {"translate":"Leather armor break"},
-        "description": {"translate":"Destroy any leather armor in battle"}
+        "title": {"translate":"att2.advancement.combat.title.break_leather_armor"},
+        "description": {"translate":"att2.advancement.combat.description.break_leather_armor"}
     },
     "parent": "att2:combat/break_armor",
     "rewards": {

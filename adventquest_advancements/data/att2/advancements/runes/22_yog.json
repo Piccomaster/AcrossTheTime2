@@ -1,31 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:glowstone_dust",
-            "nbt" : "{CustomModelData:10000023}"
-        },
-        "title": {"translate":"Yog"},
-        "description": {"translate":"Drop Rune Tier A."},
-        "frame": "challenge"
-    },
-    "parent": "att2:runes/21_syl",
-    "rewards": {
-        "function": "att2:advancement/exploit_10",
-        "experience": 3500
-                },
-    "criteria": {
-        "collection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": [
-                        "minecraft:glowstone_dust"
-                        ],
-                    "nbt" : "{CustomModelData:10000023}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            10000023
+          ]
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.runes.title.22_yog"
+    },
+    "description": {
+      "translate": "att2.advancement.runes.description.22_yog"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:runes/21_syl",
+  "rewards": {
+    "function": "att2:advancement/test_all/runes/22_yog",
+    "experience": 3500
+  },
+  "criteria": {
+    "collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Runelvl": "22"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

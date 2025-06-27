@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Adanoï Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Adanoï"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_adanoi"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_adanoi"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_adanoi",

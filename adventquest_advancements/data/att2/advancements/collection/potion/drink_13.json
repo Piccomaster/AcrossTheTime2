@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:16769410}"
-        },
-        "title": {"translate":"Ténacité"},
-        "description": {"translate":"When the parade is no longer an option..."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_12",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_13": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§2Ténacité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand la parade n'est plus\\\"}\",\"{\\\"text\\\":\\\"§7une option...\\\"}\",\"{\\\"text\\\":\\\"§7When the parade is no longer\\\"}\",\"{\\\"text\\\":\\\"§7an option...\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-2 §7HAS§c-4\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "13"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_13"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_13"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_12",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "13"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

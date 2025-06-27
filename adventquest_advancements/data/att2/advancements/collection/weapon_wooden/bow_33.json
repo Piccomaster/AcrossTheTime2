@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Vieille branche"},
-        "description": {"translate":"For Balien, my brother."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "bow_33": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§7Vieille branche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A Balien, mon frère.\\\"}\",\"{\\\"text\\\":\\\"§7For Balien, my brother.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_33"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_33"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "bow_33": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "33"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

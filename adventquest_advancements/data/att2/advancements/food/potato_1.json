@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:potato"
+            "id": "minecraft:potato"
         },
-        "title": {"translate":"Potato tasty"},
-        "description": {"translate":"Eat a baked potato"}
+        "title": {"translate":"att2.advancement.food.title.potato_1"},
+        "description": {"translate":"att2.advancement.food.description.potato_1"}
     },
     "parent": "att2:food/root",
     "rewards": {

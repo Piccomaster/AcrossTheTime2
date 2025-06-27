@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_sword"
-        },
-        "title": {"translate":"Courage de Samaël"},
-        "description": {"translate":"He perished alone, but better than a king."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
     },
-    "parent": "att2:collection/weapon_diamond/sword_110",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_sword_111": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Courage de Samaël\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il périt seul, mais mieux qu'un roi.\\\"}\",\"{\\\"text\\\":\\\"§7He perished alone, but better than a king.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.sword_111"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.sword_111"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/sword_110",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_sword_111": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "111"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

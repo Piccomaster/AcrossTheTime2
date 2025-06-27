@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:dark_oak_planks"
+            "id": "minecraft:dark_oak_planks"
         },
-        "title": {"translate":"Méleïm house"},
-        "description": {"translate":"Get the Méleïm house"},
+        "title": {"translate":"att2.advancement.adventure.title.house_meleim"},
+        "description": {"translate":"att2.advancement.adventure.description.house_meleim"},
         "frame": "goal"
     },
     "parent": "att2:adventure/root",

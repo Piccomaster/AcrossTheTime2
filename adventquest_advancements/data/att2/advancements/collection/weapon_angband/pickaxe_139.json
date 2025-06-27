@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_pickaxe"
-        },
-        "title": {"translate":"Le bras du géant"},
-        "description": {"translate":"It takes at least an arm like that to handle it."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe"
     },
-    "parent": "att2:collection/weapon_angband/pickaxe_138",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_pickaxe_139": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§2Le bras du géant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il faut au moins un bras comme\\\"}\",\"{\\\"text\\\":\\\"§7ça pour la manier.\\\"}\",\"{\\\"text\\\":\\\"§7It takes at least an arm\\\"}\",\"{\\\"text\\\":\\\"§7like that to handle it.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.pickaxe_139"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.pickaxe_139"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/pickaxe_138",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_pickaxe_139": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "139"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:writable_book"
+            "id": "minecraft:writable_book"
         },
-        "title": {"translate":"Story"},
-        "description": {"translate":"Across The Time"},
-        "background": "minecraft:textures/block/chiseled_quartz_block.png",
+        "title": {"translate":"att2.advancement.story.title.root"},
+        "description": {"translate":"att2.advancement.story.description.root"},
+        "background": "minecraft:block/chiseled_quartz_block",
         "show_toast": false
     },
     "criteria": {

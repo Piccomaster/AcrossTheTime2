@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_axe"
-        },
-        "title": {"translate":"Patience du prêtre"},
-        "description": {"translate":"Deterring"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
     },
-    "parent": "att2:collection/weapon_diamond/axe_104",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_axe_105": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_axe"],
-                    "nbt": "{display:{Name:\"\\\"§2Patience du prêtre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dissuasive\\\"}\",\"{\\\"text\\\":\\\"§7Deterring\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.axe_105"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.axe_105"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/axe_104",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_axe_105": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "105"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

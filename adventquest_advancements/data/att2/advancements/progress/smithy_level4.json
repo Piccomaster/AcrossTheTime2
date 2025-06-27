@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chipped_anvil"
+            "id": "minecraft:chipped_anvil"
         },
-        "title": {"translate":"Expert Black Smith"},
-        "description": {"translate":"Reach the level 4 of the smithy"},
+        "title": {"translate":"att2.advancement.progress.title.smithy_level4"},
+        "description": {"translate":"att2.advancement.progress.description.smithy_level4"},
         "frame": "goal"
     },
     "parent": "att2:progress/smithy_level3",

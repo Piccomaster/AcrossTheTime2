@@ -1,44 +1,70 @@
-
-
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"The Art Of Alchimancy - Part 1"},
-        "description": {"translate":"Find “Introduction” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p1"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p1"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/root",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "al1_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Introduction - Partie 1\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Introduction - Partie 1"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al1_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Introduction - Part 1\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Introduction - Part 1"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al1_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7引言 - Part 1\\\"}\"]}}"      
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7引言 - Part 1"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -46,10 +72,9 @@
     },
     "requirements": [
         [
-            "al1_fe",
-            "al1_eg",
-            "al1_ch"
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }
-

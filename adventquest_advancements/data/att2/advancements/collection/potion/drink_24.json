@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:14438144}"
-        },
-        "title": {"translate":"Berserk"},
-        "description": {"translate":"A passing madness, for a vengeful fury."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_23",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "potion_24": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§5Berserk\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une folie passagère,\\\"}\",\"{\\\"text\\\":\\\"§7pour une furie vengeresse.\\\"}\",\"{\\\"text\\\":\\\"§7A passing madness,\\\"}\",\"{\\\"text\\\":\\\"§7for a vengeful fury.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a4 §7SPD§c-2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "24"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_24"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_24"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_23",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "potion_24": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "24"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

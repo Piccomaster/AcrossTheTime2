@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shelter_pottery_sherd"
+            "id": "minecraft:shelter_pottery_sherd"
         },
-        "title": {"translate":"Heretic"},
-        "description": {"translate":"Make runic word: Kan Chu Bex Puh"},
+        "title": {"translate":"att2.advancement.runes.title.17_kan_chu_bex_puh"},
+        "description": {"translate":"att2.advancement.runes.description.17_kan_chu_bex_puh"},
         "frame": "challenge"
     },
-    "parent": "att2:runes/root",
+    "parent": "att2:runes/words/16_von_yog_yog",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000

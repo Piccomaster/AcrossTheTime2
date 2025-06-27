@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Sylberländ plain NPC"},
-        "description": {"translate":"Talk to all Sylberländ plain people"},
+        "title": {"translate":"att2.advancement.journey.title.pnj_plain"},
+        "description": {"translate":"att2.advancement.journey.description.pnj_plain"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_plain",

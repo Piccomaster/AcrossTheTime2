@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"Good bye my friend..."},
-        "description": {"translate":"Time for regrets"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_15"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_15"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_14",

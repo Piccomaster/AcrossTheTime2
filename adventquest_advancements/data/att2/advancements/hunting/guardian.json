@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
+            "id": "minecraft:player_head",
             "nbt": "{SkullOwner:{Id:[I;262009349,-667859094,-1766740374,-318250460],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY2NDhhMTQ3NDhhM2IwMGVmNjM5MWY2NjljYTE5YjhhOTFlYzJmMzFmNDNhOTljZGZmOWY3YjUxMTg2OWY2MiJ9fX0=\"}]}}}"
         },
-        "title": {"translate":"Guardian"},
-        "description": {"translate":"Kill Guardian boss"},
+        "title": {"translate":"att2.advancement.hunting.title.guardian"},
+        "description": {"translate":"att2.advancement.hunting.description.guardian"},
         "frame": "challenge",
         "hidden": true
     },

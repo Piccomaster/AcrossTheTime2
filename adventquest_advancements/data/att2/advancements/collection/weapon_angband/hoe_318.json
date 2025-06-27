@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_hoe"
-        },
-        "title": {"translate":"Pointe rudimentaire"},
-        "description": {"translate":"Ineffective at will."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe"
     },
-    "parent": "att2:collection/weapon_angband",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_hoe_318": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§7Pointe rudimentaire\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inefficace à souhait.\\\"}\",\"{\\\"text\\\":\\\"§7Ineffective at will.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.hoe_318"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.hoe_318"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_hoe_318": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "318"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

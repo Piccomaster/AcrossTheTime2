@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:mangrove_button"
+            "id": "minecraft:mangrove_button"
         },
-        "title": {"translate":"Minor miner"},
-        "description": {"translate":"Mine a minor runic mineral"}
+        "title": {"translate": "att2.advancement.treasure.title.mining_runic_minor"},
+        "description": {"translate": "att2.advancement.treasure.description.mining_runic_minor"}
     },
     "parent": "att2:treasure/root",
         "rewards": {

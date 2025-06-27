@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_sword"
-        },
-        "title": {"translate":"Paresse de Dégiel"},
-        "description": {"translate":"A good excuse for doing nothing."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
     },
-    "parent": "att2:collection/weapon_angband/sword_135",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_sword_142": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Paresse de Dégiel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une bonne excuse pour ne rien faire.\\\"}\",\"{\\\"text\\\":\\\"§7A good excuse for doing nothing.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HER§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.sword_142"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.sword_142"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/sword_135",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_sword_142": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "142"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:birch_planks"
+            "id": "minecraft:birch_planks"
         },
-        "title": {"translate":"Home sweet home"},
-        "description": {"translate":"Recover your former home"},
+        "title": {"translate":"att2.advancement.adventure.title.home_sweet_home"},
+        "description": {"translate":"att2.advancement.adventure.description.home_sweet_home"},
         "frame": "goal"
     },
     "parent": "att2:adventure/root",

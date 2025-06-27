@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Bandana"},
-        "description": {"translate":"Not as white as before."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_leather/helmet_32",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_helmet_33": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Bandana\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus aussi blanc qu'avant.\\\"}\",\"{\\\"text\\\":\\\"§7Not as white as before.\\\"}\"],color:14540253}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.helmet_33"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.helmet_33"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/helmet_32",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_helmet_33": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "33"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

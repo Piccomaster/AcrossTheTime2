@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Adanoï Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Adanoï"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_adanoi"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_adanoi"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_adanoi",

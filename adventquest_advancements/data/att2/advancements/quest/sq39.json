@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"Leaving the past behind to step forward"},
-        "description": {"translate":"Successfully complete this side quest"},
+        "title": {"translate":"att2.advancement.quest.title.sq39"},
+        "description": {"translate":"att2.advancement.quest.description.sq39"},
         "frame": "goal"
     },
     "parent": "att2:quest/root",

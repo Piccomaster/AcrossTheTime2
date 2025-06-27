@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_sword"
-        },
-        "title": {"translate":"Dimmu Borgir"},
-        "description": {"translate":"Forgive, we shall not.	Forget, we shall not."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword"
     },
-    "parent": "att2:collection/weapon_billgart/sword_185",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "stone_sword_188": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_sword"],
-                    "nbt": "{display:{Name:\"\\\"§5Dimmu Borgir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Nous ne pardonnerons pas.\\\"}\",\"{\\\"text\\\":\\\"§7Nous n'oublierons pas.\\\"}\",\"{\\\"text\\\":\\\"§7Forgive, we shall not.\\\"}\",\"{\\\"text\\\":\\\"§7Forget, we shall not.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a4 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.sword_188"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.sword_188"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/sword_185",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "stone_sword_188": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "188"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

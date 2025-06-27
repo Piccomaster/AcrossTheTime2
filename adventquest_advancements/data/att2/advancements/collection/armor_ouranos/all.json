@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:raw_gold_block"
+            "id": "minecraft:raw_gold_block"
         },
-        "title": {"translate":"All Ouranos Armor"},
-        "description": {"translate":"Find all Ouranos armor"},
+        "title": {"translate": "att2.advancement.collection.armor_ouranos.title.all"},
+        "description": {"translate": "att2.advancement.collection.armor_ouranos.description.all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/armor_ouranos",

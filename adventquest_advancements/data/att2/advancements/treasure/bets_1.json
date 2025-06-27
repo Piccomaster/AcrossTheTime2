@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_carrot"
+            "id": "minecraft:golden_carrot"
         },
-        "title": {"translate":"Gambling"},
-        "description": {"translate":"Deal 1 bet"}
+        "title": {"translate": "att2.advancement.treasure.title.bets_1"},
+        "description": {"translate": "att2.advancement.treasure.description.bets_1"}
     },
     "parent": "att2:treasure/root",
         "rewards": {

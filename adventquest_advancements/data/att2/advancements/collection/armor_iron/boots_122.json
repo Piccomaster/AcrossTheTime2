@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_boots"
-        },
-        "title": {"translate":"Beaux Pinols"},
-        "description": {"translate":"Caesar never stopped wearing them, as he had promised."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
     },
-    "parent": "att2:collection/armor_iron/boots_121",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_boots_122": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Beaux Pinols\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7César n'a jamais cessé de les\\\"}\",\"{\\\"text\\\":\\\"§7porter, comme il l'avait promis.\\\"}\",\"{\\\"text\\\":\\\"§7Caesar never stopped wearing\\\"}\",\"{\\\"text\\\":\\\"§7them, as he had promised.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7STR§c-1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.boots_122"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.boots_122"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/boots_121",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_boots_122": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "122"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

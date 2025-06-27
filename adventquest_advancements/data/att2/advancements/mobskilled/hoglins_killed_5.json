@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather"
+            "id": "minecraft:leather"
         },
-        "title": {"translate":"Hoglin Killer"},
-        "description": {"translate":"Kill 5 Hoglins"}
+        "title": {"translate":"att2.advancement.mobskilled.title.hoglins_killed_5"},
+        "description": {"translate":"att2.advancement.mobskilled.description.hoglins_killed_5"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

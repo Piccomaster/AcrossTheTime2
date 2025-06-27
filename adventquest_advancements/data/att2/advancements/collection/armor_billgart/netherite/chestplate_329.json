@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_chestplate"
-        },
-        "title": {"translate":"Mue de Ulli'Kummi"},
-        "description": {"translate":"Legacy of the monumental petrified colossus. Giant who never wanted to stop growing."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
     },
-    "parent": "att2:collection/armor_billgart/netherite/chestplate_236",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_chestplate_329": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Mue de Ulli'Kummi\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aHéritage du monumental colosse pétrifié.\\\"}\",\"{\\\"text\\\":\\\"§aGéant qui jamais ne voulut cesser de grandir.\\\"}\",\"{\\\"text\\\":\\\"§aLegacy of the monumental petrified colossus.\\\"}\",\"{\\\"text\\\":\\\"§aGiant who never wanted to stop growing.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.chestplate_329"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.chestplate_329"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/chestplate_236",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_chestplate_329": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "329"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

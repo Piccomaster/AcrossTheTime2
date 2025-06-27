@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Écrin de célérité"},
-        "description": {"translate":"They carry you everywhere so be worthy and give them the best protection."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_diamond/boots_190",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_boots_191": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Écrin de célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ils vous portent partout alors soyez-en\\\"}\",\"{\\\"text\\\":\\\"§7digne et donnez leur la plus belle des protections.\\\"}\",\"{\\\"text\\\":\\\"§7They carry you everywhere so be worthy\\\"}\",\"{\\\"text\\\":\\\"§7and give them the best protection.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.boots_191"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.boots_191"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/boots_190",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_boots_191": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "191"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

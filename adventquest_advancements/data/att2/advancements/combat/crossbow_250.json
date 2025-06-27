@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:crossbow"
+            "id": "minecraft:crossbow"
         },
-        "title": {"translate":"Friendly fire"},
-        "description": {"translate":"Shoot 250 arrows with your crossbow"},
+        "title": {"translate":"att2.advancement.combat.title.crossbow_250"},
+        "description": {"translate":"att2.advancement.combat.description.crossbow_250"},
         "frame": "goal"
     },
     "parent": "att2:combat/crossbow_50",

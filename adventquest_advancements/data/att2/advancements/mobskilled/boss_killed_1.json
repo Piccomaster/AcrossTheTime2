@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:structure_void"
+            "id": "minecraft:structure_void"
         },
-        "title": {"translate":"Boss Killer"},
-        "description": {"translate":"Kill 1 Boss"}
+        "title": {"translate":"att2.advancement.mobskilled.title.boss_killed_1"},
+        "description": {"translate":"att2.advancement.mobskilled.description.boss_killed_1"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Arc      "},
-        "description": {"translate":"Soon to be fishing rod."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden/bow_35",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "bow_36": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§7Arc\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bientôt canne à pêche.\\\"}\",\"{\\\"text\\\":\\\"§7Soon to be fishing rod.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_36"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_36"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/bow_35",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "bow_36": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "36"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

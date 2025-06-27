@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_axe"
-        },
-        "title": {"translate":"Hache de jeu"},
-        "description": {"translate":"A toy for the Eternäns."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
     },
-    "parent": "att2:collection/weapon_angband/axe_129",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_axe_136": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_axe"],
-                    "nbt": "{display:{Name:\"\\\"§2Hache de jeu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un jouet pour les Eternäns.\\\"}\",\"{\\\"text\\\":\\\"§7A toy for the Eternäns.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.axe_136"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.axe_136"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/axe_129",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_axe_136": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "136"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

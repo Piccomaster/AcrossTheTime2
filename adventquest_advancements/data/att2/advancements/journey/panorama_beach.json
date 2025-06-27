@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Beach Panorama"},
-        "description": {"translate":"Discover the panorama of Astray Beach"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_beach"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_beach"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_beach",

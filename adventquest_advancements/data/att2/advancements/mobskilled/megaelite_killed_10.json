@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:target"
+            "id": "minecraft:target"
         },
-        "title": {"translate":"Ultimate Elite Slayer"},
-        "description": {"translate":"Kill 10 Ultimate Elites"},
+        "title": {"translate":"att2.advancement.mobskilled.title.megaelite_killed_10"},
+        "description": {"translate":"att2.advancement.mobskilled.description.megaelite_killed_10"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/megaelite_killed_3",

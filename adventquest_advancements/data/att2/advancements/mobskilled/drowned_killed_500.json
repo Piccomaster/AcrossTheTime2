@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:zombie_head"
+            "id": "minecraft:zombie_head"
         },
-        "title": {"translate":"Drowned Genocider"},
-        "description": {"translate":"Kill 500 Drowned Zombies"},
+        "title": {"translate":"att2.advancement.mobskilled.title.drowned_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.drowned_killed_500"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/drowned_killed_250",

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather_boots"
+            "id": "minecraft:leather_boots"
         },
-        "title": {"translate":"You Can Never Be Too Careful!"},
-        "description": {"translate":"Sneak 10km"},
+        "title": {"translate":"att2.advancement.progress.title.sneak_1000000"},
+        "description": {"translate":"att2.advancement.progress.description.sneak_1000000"},
         "frame": "goal"
     },
     "parent": "att2:progress/sneak_250000",

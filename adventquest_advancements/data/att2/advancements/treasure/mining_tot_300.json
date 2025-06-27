@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:raw_gold"
+            "id": "minecraft:raw_gold"
         },
-        "title": {"translate":"Eternän Miner"},
-        "description": {"translate":"Mine 300 Runic Minerals"},
+        "title": {"translate": "att2.advancement.treasure.title.mining_tot_300"},
+        "description": {"translate": "att2.advancement.treasure.description.mining_tot_300"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/mining_tot_150",

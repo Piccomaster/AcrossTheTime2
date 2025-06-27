@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:potion"
+            "id": "minecraft:potion"
         },
-        "title": {"translate":"Quenched"},
-        "description": {"translate":"Lust for power"}
+        "title": {"translate":"att2.advancement.combat.title.dar_12"},
+        "description": {"translate":"渴望力量"}
     },
     "parent": "att2:combat/dar_6",
     "rewards": {

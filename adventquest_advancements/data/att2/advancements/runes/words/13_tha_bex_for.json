@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:mourner_pottery_sherd"
+            "id": "minecraft:mourner_pottery_sherd"
         },
-        "title": {"translate":"Eternity"},
-        "description": {"translate":"Make runic word: Tha Bex For"},
+        "title": {"translate":"att2.advancement.runes.title.13_tha_bex_for"},
+        "description": {"translate":"att2.advancement.runes.description.13_tha_bex_for"},
         "frame": "goal"
     },
-    "parent": "att2:runes/root",
+    "parent": "att2:runes/words/12_ave_qi_gal_jo_wej",
     "rewards": {
         "function": "att2:advancement/exploit_30",
         "experience": 10000

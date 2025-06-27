@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Rossignol"},
-        "description": {"translate":"May your arrows fly like a nightingale."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden/bow_41",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "bow_42": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§9Rossignol\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puissent tes flèches voler\\\"}\",\"{\\\"text\\\":\\\"§7à la manière du rossignol.\\\"}\",\"{\\\"text\\\":\\\"§7May your arrows fly\\\"}\",\"{\\\"text\\\":\\\"§7like a nightingale.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7RES§c-1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_42"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_42"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/bow_41",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "bow_42": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "42"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

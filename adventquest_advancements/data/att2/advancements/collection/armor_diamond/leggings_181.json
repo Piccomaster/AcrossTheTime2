@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Cilice de cristal"},
-        "description": {"translate":"Certainly extremely uncomfortable."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_diamond/leggings_180",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_leggings_181": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Cilice de cristal\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Certes extrêmement inconfortable.\\\"}\",\"{\\\"text\\\":\\\"§7Certainly extremely uncomfortable.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.leggings_181"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.leggings_181"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/leggings_180",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_leggings_181": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "181"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

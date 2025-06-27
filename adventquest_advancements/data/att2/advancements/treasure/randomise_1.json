@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:oak_hanging_sign"
+            "id": "minecraft:oak_hanging_sign"
         },
-        "title": {"translate":"No time"},
-        "description": {"translate":"Force a store reset one time!"}
+        "title": {"translate": "att2.advancement.treasure.title.randomise_1"},
+        "description": {"translate": "att2.advancement.treasure.description.randomise_1"}
     },
     "parent": "att2:treasure/root",
         "rewards": {

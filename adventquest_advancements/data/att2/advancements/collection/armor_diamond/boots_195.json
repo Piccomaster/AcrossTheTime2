@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Galön le servant"},
-        "description": {"translate":"With unfailing fidelity, let your master's voice be your strength."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_diamond/boots_191",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_boots_195": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Galön le servant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7D'une fidélité infaillible, laisse la\\\"}\",\"{\\\"text\\\":\\\"§7voix de ton maître faire ta force.\\\"}\",\"{\\\"text\\\":\\\"§7With unfailing fidelity, let your\\\"}\",\"{\\\"text\\\":\\\"§7master's voice be your strength.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7HER§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.boots_195"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.boots_195"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/boots_191",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_boots_195": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "195"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

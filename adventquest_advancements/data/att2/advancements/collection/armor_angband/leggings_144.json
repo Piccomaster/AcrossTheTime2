@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_leggings"
-        },
-        "title": {"translate":"Jambière impeccable"},
-        "description": {"translate":"It's all a matter of perspective."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_leggings"
     },
-    "parent": "att2:collection/armor_angband/leggings_143",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_leggings_144": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Jambière impeccable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tout est une question de point de vue.\\\"}\",\"{\\\"text\\\":\\\"§7It's all a matter of perspective.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.leggings_144"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.leggings_144"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/leggings_143",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_leggings_144": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "144"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

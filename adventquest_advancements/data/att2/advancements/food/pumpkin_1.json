@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:pumpkin_pie"
+            "id": "minecraft:pumpkin_pie"
         },
-        "title": {"translate":"Pumpkin pie tasty"},
-        "description": {"translate":"Eat a pumpkin pie"}
+        "title": {"translate":"att2.advancement.food.title.pumpkin_1"},
+        "description": {"translate":"att2.advancement.food.description.pumpkin_1"}
     },
     "parent": "att2:food/root",
     "rewards": {

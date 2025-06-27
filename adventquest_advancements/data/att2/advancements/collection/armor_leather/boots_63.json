@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Bottes des Otauriens"},
-        "description": {"translate":"From the abyssal depths to the stream of inaccessible mounts, grants the power of Otaur's heirs."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_leather/boots_59",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_boots_63": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Bottes des Otauriens\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Des profondeurs abyssales jusqu'au ruisseau des monts\\\"}\",\"{\\\"text\\\":\\\"§7 inaccessibles, octroie le pouvoir des héritiers d'Otaur.\\\"}\",\"{\\\"text\\\":\\\"§7From the abyssal depths to the stream of inaccessible\\\"}\",\"{\\\"text\\\":\\\"§7mounts, grants the power of Otaur's heirs.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2\\\"}\"],color:733402}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.boots_63"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.boots_63"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/boots_59",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_boots_63": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "63"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

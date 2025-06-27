@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "id": "minecraft:shield"
         },
-        "title": {"translate":"Get Away From Me"},
-        "description": {"translate":"Block a cave spider attack"}
+        "title": {"translate":"att2.advancement.combat.title.get_away"},
+        "description": {"translate":"att2.advancement.combat.description.get_away"}
     },
     "parent": "att2:combat/deflect_arrow",
     "rewards": {

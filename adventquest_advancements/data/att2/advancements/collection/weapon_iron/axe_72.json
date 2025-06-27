@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_axe"
-        },
-        "title": {"translate":"Coupe bois"},
-        "description": {"translate":"But also the bones !"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
     },
-    "parent": "att2:collection/weapon_iron/axe_65",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_axe_72": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_axe"],
-                    "nbt": "{display:{Name:\"\\\"§2Coupe bois\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais aussi les os !\\\"}\",\"{\\\"text\\\":\\\"§7But also the bones !\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.axe_72"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.axe_72"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/axe_65",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_axe_72": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "72"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

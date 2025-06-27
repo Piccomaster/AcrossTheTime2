@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_shovel"
-        },
-        "title": {"translate":"Argenterie"},
-        "description": {"translate":"Elegant but certainly weak."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
     },
-    "parent": "att2:collection/weapon_iron/shovel_76",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_shovel_77": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§2Argenterie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Élégant mais certes faible.\\\"}\",\"{\\\"text\\\":\\\"§7Elegant but certainly weak.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.shovel_77"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.shovel_77"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/shovel_76",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_shovel_77": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "77"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

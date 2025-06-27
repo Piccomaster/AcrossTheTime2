@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Massive légèreté"},
-        "description": {"translate":"Always weigh the pros and cons."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/helmet_333",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_helmet_337": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Massive légèreté\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Toujours peser le pour et le contre.\\\"}\",\"{\\\"text\\\":\\\"§7Always weigh the pros and cons.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.helmet_337"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.helmet_337"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/helmet_333",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_helmet_337": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "337"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

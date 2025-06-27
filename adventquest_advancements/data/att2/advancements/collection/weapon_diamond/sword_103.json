@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_sword"
-        },
-        "title": {"translate":"Épée de Dramio"},
-        "description": {"translate":"Worthless... for some of us..."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
     },
-    "parent": "att2:collection/weapon_diamond/sword_102",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_sword_103": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Épée de Dramio\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sans valeur... pour certains...\\\"}\",\"{\\\"text\\\":\\\"§7Worthless... for some of us...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.sword_103"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.sword_103"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/sword_102",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_sword_103": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "103"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

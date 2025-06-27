@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_block"
+            "id": "minecraft:gold_block"
         },
-        "title": {"translate":"Moneybags"},
-        "description": {"translate":"Raise 50000 Chronotons"},
+        "title": {"translate": "att2.advancement.treasure.title.chronotons_50000"},
+        "description": {"translate": "att2.advancement.treasure.description.chronotons_50000"},
         "frame": "goal"
     },
     "parent": "att2:treasure/chronotons_25000",

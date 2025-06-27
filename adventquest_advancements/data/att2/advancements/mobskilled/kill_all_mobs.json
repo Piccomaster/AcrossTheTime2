@@ -5,10 +5,10 @@
       "item": "minecraft:diamond_sword"
     },
     "title": {
-      "translate": "Serial Killer"
+      "translate":"att2.advancement.mobskilled.title.kill_all_mobs"
     },
     "description": {
-      "translate": "Kill all types of animals and monsters."
+      "translate":"att2.advancement.mobskilled.description.kill_all_mobs"
     },
     "frame": "challenge"
   },

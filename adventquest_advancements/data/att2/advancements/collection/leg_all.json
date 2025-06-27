@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:orange_candle"
+            "id": "minecraft:orange_candle"
         },
-        "title": {"translate":"All Legendaries"},
-        "description": {"translate":"Find all legendary items"},
+        "title": {"translate": "att2.advancement.collection.title.leg_all"},
+        "description": {"translate": "att2.advancement.collection.description.leg_all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/epi_all",

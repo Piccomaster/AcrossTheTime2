@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_axe"
-        },
-        "title": {"translate":"La décapitation pour les nuls"},
-        "description": {"translate":"Separate the head from the body, and voila!"},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
     },
-    "parent": "att2:collection/weapon_netherite/axe_299",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_axe_308": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_axe"],
-                    "nbt": "{display:{Name:\"\\\"§5La décapitation pour les nuls\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Séparez la tête du corps,\\\"}\",\"{\\\"text\\\":\\\"§7et le tour est joué !\\\"}\",\"{\\\"text\\\":\\\"§7Separate the head from the body,\\\"}\",\"{\\\"text\\\":\\\"§7and voila!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7HUN§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.axe_308"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.axe_308"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/axe_299",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_axe_308": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "308"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

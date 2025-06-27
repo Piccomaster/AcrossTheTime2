@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_hoe"
-        },
-        "title": {"translate":"Pertuisane"},
-        "description": {"translate":"Break the guards of its opponents, to take them by the throat..."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_hoe"
     },
-    "parent": "att2:collection/weapon_stone/hoe_258",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "wooden_hoe_259": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Pertuisane\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brise les gardes de ses adversaires,\\\"}\",\"{\\\"text\\\":\\\"§7pour les prendre à la gorge...\\\"}\",\"{\\\"text\\\":\\\"§7Break the guards of its opponents,\\\"}\",\"{\\\"text\\\":\\\"§7to take them by the throat...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.hoe_259"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.hoe_259"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/hoe_258",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "wooden_hoe_259": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "259"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

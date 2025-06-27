@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_axe"
-        },
-        "title": {"translate":"Arme du chef"},
-        "description": {"translate":"Yes indeed, it's the real one!"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
     },
-    "parent": "att2:collection/weapon_angband/axe_128",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_axe_129": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_axe"],
-                    "nbt": "{display:{Name:\"\\\"§7Arme du chef\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Si si, c'est la vraie !\\\"}\",\"{\\\"text\\\":\\\"§7Yes indeed, it's the real one!\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.axe_129"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.axe_129"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/axe_128",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_axe_129": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "129"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_chestplate"
+            "id": "minecraft:golden_chestplate"
         },
-        "title": {"translate":"Eternän!"},
-        "description": {"translate":"Find a piece of golden armor"}
+        "title": {"translate":"att2.advancement.adventure.title.golden_armor"},
+        "description": {"translate":"att2.advancement.adventure.description.golden_armor"}
     },
     "parent": "att2:adventure/root",
     "rewards": {

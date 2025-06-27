@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:16777108}"
-        },
-        "title": {"translate":"Écran de Fumée"},
-        "description": {"translate":"Out of sight, out of mind. Still, anyway out of mind."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_14",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_15": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§2Écran de Fumée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas vu, pas pris.\\\"}\",\"{\\\"text\\\":\\\"§7Vu, mais pas pris quand même.\\\"}\",\"{\\\"text\\\":\\\"§7Out of sight, out of mind.\\\"}\",\"{\\\"text\\\":\\\"§7Still, anyway out of mind.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7STR§c-3\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "15"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_15"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_15"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_14",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "15"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
-        "title": {"translate":"Eol"},
-        "description": {"translate":"Discover Eol Valley"}
+        "title": {"translate":"att2.advancement.journey.title.discover_eol"},
+        "description": {"translate":"att2.advancement.journey.description.discover_eol"}
     },
     "parent": "att2:journey/discover_soquai",
     "rewards": {

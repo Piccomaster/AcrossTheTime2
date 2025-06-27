@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:experience_bottle"
+            "id": "minecraft:experience_bottle"
         },
-        "title": {"translate":"GRAND MASTER LEVEL 150"},
-        "description": {"translate":"Reach the level Master 150"},
+        "title": {"translate":"att2.advancement.progress.title.gamelevelmaster_150"},
+        "description": {"translate":"att2.advancement.progress.description.gamelevelmaster_150"},
         "frame": "challenge"
     },
     "parent": "att2:progress/gamelevelmaster_100",

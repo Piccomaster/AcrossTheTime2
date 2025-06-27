@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Poême de l'enfant mort"},
-        "description": {"translate":"Time devours precious beauty for you, in war for the love of you."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_diamond/helmet_185",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_helmet_192": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Poême de l'enfant mort\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le temps dévore la précieuse beauté,\\\"}\",\"{\\\"text\\\":\\\"§7pour toi et en guerre pour ton amour.\\\"}\",\"{\\\"text\\\":\\\"§7Time devours precious beauty\\\"}\",\"{\\\"text\\\":\\\"§7for you, in war for the love of you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.helmet_192"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.helmet_192"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/helmet_185",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_helmet_192": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "192"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:5311231}"
-        },
-        "title": {"translate":"Vision Nocturne"},
-        "description": {"translate":"Like a cat in the dark night, be on the lookout for your prey."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_7",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_8": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§7Vision Nocturne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tel un chat dans la nuit noire,\\\"}\",\"{\\\"text\\\":\\\"§7soyez à l'affût de vos proies.\\\"}\",\"{\\\"text\\\":\\\"§7Like a cat in the dark night,\\\"}\",\"{\\\"text\\\":\\\"§7be on the lookout for your prey.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "8"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_8"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_8"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_7",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "8"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

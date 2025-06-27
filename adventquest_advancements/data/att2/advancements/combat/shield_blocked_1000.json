@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "id": "minecraft:shield"
         },
-        "title": {"translate":"Shield God"},
-        "description": {"translate":"Deflect 1000 attacks with your shield"},
+        "title": {"translate":"att2.advancement.combat.title.shield_blocked_1000"},
+        "description": {"translate":"att2.advancement.combat.description.shield_blocked_1000"},
         "frame": "challenge"
     },
     "parent": "att2:combat/shield_blocked_250",

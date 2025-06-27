@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:apple"
+            "id": "minecraft:apple"
         },
-        "title": {"translate":"Apple tasty"},
-        "description": {"translate":"Eat an apple"}
+        "title": {"translate":"att2.advancement.food.title.apple_1"},
+        "description": {"translate":"att2.advancement.food.description.apple_1"}
     },
     "parent": "att2:food/root",
     "rewards": {

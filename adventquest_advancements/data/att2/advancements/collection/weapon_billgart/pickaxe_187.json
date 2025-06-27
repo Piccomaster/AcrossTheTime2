@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_pickaxe"
-        },
-        "title": {"translate":"Heyr himma simður"},
-        "description": {"translate":"Hymn of supplication to the divinity unable to protect us from ourselves."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
     },
-    "parent": "att2:collection/weapon_billgart/pickaxe_186",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "stone_pickaxe_187": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§5Heyr himma simður\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Hymne de supplication vers la divinité\\\"}\",\"{\\\"text\\\":\\\"§7incapable de nous protéger de nous-même.\\\"}\",\"{\\\"text\\\":\\\"§7Hymn of supplication to the divinity\\\"}\",\"{\\\"text\\\":\\\"§7unable to protect us from ourselves.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a2 §7LUC§a1 §7SPD§c-4\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.pickaxe_187"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.pickaxe_187"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/pickaxe_186",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "stone_pickaxe_187": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "187"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_leggings"
-        },
-        "title": {"translate":"Grèves ensanglantées"},
-        "description": {"translate":"Were violently pierced by the wide fangs of the nisirion."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
     },
-    "parent": "att2:collection/armor_iron/leggings_112",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_leggings_119": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Grèves ensanglantées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Furent violemment percées par\\\"}\",\"{\\\"text\\\":\\\"§7les larges crocs du nisirion.\\\"}\",\"{\\\"text\\\":\\\"§7Were violently pierced by\\\"}\",\"{\\\"text\\\":\\\"§7the wide fangs of the nisirion.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.leggings_119"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.leggings_119"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/leggings_112",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_leggings_119": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "119"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

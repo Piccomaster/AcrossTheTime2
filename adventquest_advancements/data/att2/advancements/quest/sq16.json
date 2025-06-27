@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"Short of ammunition"},
-        "description": {"translate":"Successfully complete this side quest"},
+        "title": {"translate":"att2.advancement.quest.title.sq16"},
+        "description": {"translate":"att2.advancement.quest.description.sq16"},
         "frame": "goal"
     },
     "parent": "att2:quest/root",

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bamboo_block"
+            "id": "minecraft:bamboo_block"
         },
-        "title": {"translate":"All Bows"},
-        "description": {"translate":"Find all bow items"},
+        "title": {"translate": "att2.advancement.collection.title.bow_all"},
+        "description": {"translate": "att2.advancement.collection.description.bow_all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/root",

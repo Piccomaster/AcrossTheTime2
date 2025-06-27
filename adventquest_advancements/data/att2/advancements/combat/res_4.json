@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:turtle_helmet"
+            "id": "minecraft:turtle_helmet"
         },
-        "title": {"translate":"Tank"},
-        "description": {"translate":"If the tanks succeed, then victory follows"}
+        "title": {"translate":"att2.advancement.combat.title.res_4"},
+        "description": {"translate":"att2.advancement.combat.description.res_4"}
     },
     "parent": "att2:combat/res_2",
     "rewards": {

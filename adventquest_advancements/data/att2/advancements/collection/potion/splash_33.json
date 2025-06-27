@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:splash_potion",
-            "nbt": "{CustomPotionColor:5262918}"
-        },
-        "title": {"translate":"Dissolvant"},
-        "description": {"translate":"Solve et coagula."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/splash_32",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "splash_potion_33": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:splash_potion"],
-                    "nbt": "{display:{Name:\"\\\"§7Dissolvant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Solve et coagula.\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "33"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.splash_33"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.splash_33"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/splash_32",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "splash_potion_33": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:splash_potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "33"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

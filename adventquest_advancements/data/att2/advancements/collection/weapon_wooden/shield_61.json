@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Infranchissable"},
-        "description": {"translate":"A will of metal, which not even the torrent or the storm diminishes."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_wooden/shield_60",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "shield_61": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§5Infranchissable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une volonté de métal, que même\\\"}\",\"{\\\"text\\\":\\\"§7le torrent ou la tempête n'amenuise.\\\"}\",\"{\\\"text\\\":\\\"§7A will of metal, which not even\\\"}\",\"{\\\"text\\\":\\\"§7the torrent or the storm diminishes.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.shield_61"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.shield_61"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/shield_60",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "shield_61": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "61"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

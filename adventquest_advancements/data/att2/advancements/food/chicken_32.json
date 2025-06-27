@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_chicken"
+            "id": "minecraft:cooked_chicken"
         },
-        "title": {"translate":"Chicken addict"},
-        "description": {"translate":"Eat 32 chicken thighs"},
+        "title": {"translate":"att2.advancement.food.title.chicken_32"},
+        "description": {"translate":"att2.advancement.food.description.chicken_32"},
         "frame": "challenge"
     },
     "parent": "att2:food/chicken_16",

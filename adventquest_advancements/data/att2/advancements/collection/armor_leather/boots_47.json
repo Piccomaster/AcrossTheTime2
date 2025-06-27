@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Coureuse"},
-        "description": {"translate":"A good pair for the run."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_leather/boots_46",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_boots_47": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Coureuse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une bonne paire pour la course.\\\"}\",\"{\\\"text\\\":\\\"§7A good pair for the run.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7HAS§a1 §7DAR§c-1\\\"}\"],color:3323647}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.boots_47"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.boots_47"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/boots_46",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_boots_47": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "47"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

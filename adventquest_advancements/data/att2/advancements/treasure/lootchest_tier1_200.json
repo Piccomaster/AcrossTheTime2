@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chest"
+            "id": "minecraft:chest"
         },
-        "title": {"translate":"Obvious Chest Addict"},
-        "description": {"translate":"Open 200 Obvious Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier1_200"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier1_200"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/lootchest_tier1_100",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_shovel"
+            "id": "minecraft:wooden_shovel"
         },
-        "title": {"translate":"Wooden dagger strike"},
-        "description": {"translate":"Strike once with a wooden dagger"}
+        "title": {"translate": "att2.advancement.weapons.title.wooden_dagger_1"},
+        "description": {"translate": "att2.advancement.weapons.description.wooden_dagger_1"}
     },
     "parent": "att2:weapons/root",
     "rewards": {

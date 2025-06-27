@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Cuirasse de Zirthion"},
-        "description": {"translate":"Rendered rather figurative than anything else, due to the lack of fights."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/chestplate_338",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_chestplate_342": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Cuirasse de Zirthion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rendue plus figurative qu'autre chose, \\\"}\",\"{\\\"text\\\":\\\"§7de par la rareté des combats.\\\"}\",\"{\\\"text\\\":\\\"§7Rendered rather figurative than anything else,\\\"}\",\"{\\\"text\\\":\\\"§7due to the lack of fights.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§a1 §7SPD§c-3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.chestplate_342"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.chestplate_342"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/chestplate_338",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_chestplate_342": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "342"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

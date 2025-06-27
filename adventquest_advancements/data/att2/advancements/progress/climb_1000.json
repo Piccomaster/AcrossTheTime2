@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:ladder"
+            "id": "minecraft:ladder"
         },
-        "title": {"translate":"There Is a First For Everything"},
-        "description": {"translate":"Climb 10m"}
+        "title": {"translate":"att2.advancement.progress.title.climb_1000"},
+        "description": {"translate":"att2.advancement.progress.description.climb_1000"}
     },
     "parent": "att2:progress/root",
     "rewards": {

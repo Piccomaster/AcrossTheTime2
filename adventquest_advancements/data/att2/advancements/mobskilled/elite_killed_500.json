@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:glow_item_frame"
+            "id": "minecraft:glow_item_frame"
         },
-        "title": {"translate":"Elite Exterminator"},
-        "description": {"translate":"Kill 500 Elites"},
+        "title": {"translate":"att2.advancement.mobskilled.title.elite_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.elite_killed_500"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/elite_killed_250",

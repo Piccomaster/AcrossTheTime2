@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_sword"
-        },
-        "title": {"translate":"Pointe d'acier"},
-        "description": {"translate":"It will last until the end of the war."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
     },
-    "parent": "att2:collection/weapon_iron/sword_71",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_sword_78": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Pointe d'acier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle tiendra \\\"}\",\"{\\\"text\\\":\\\"§7jusqu'à la fin de la guerre.\\\"}\",\"{\\\"text\\\":\\\"§7It will last\\\"}\",\"{\\\"text\\\":\\\"§7until the end of the war.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.sword_78"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.sword_78"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/sword_71",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_sword_78": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "78"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_sword"
-        },
-        "title": {"translate":"Ecthelion"},
-        "description": {"translate":"The strength and honor of the immortal hardly diminishes in the face of darkness."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
     },
-    "parent": "att2:collection/weapon_diamond/sword_119",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_sword_123": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§5Ecthelion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La force et l'honneur de l'immortel\\\"}\",\"{\\\"text\\\":\\\"§7ne s'amenuisent guère face aux ténèbres.\\\"}\",\"{\\\"text\\\":\\\"§7The strength and honor of the immortal hardly\\\"}\",\"{\\\"text\\\":\\\"§7diminishes in the face of darkness.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7HUN§a1 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.sword_123"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.sword_123"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/sword_119",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_sword_123": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "123"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:trapped_chest"
+            "id": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Secret Chest Fanatic"},
-        "description": {"translate":"Open 150 Secret Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier7_150"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier7_150"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier7_75",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

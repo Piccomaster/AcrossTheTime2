@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:65535}"
-        },
-        "title": {"translate":"Beatitude"},
-        "description": {"translate":"Reality like a hauntingly joy has finally undone from its complexity."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "potion_23": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§5Beatitude\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La réalité comme une lancinante joie\\\"}\",\"{\\\"text\\\":\\\"§7s'est enfin défaite de sa complexité.\\\"}\",\"{\\\"text\\\":\\\"§7Reality like a hauntingly joy\\\"}\",\"{\\\"text\\\":\\\"§7has finally undone from its complexity.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7LUC§a1 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "23"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_23"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_23"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "potion_23": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "23"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

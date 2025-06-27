@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Ëarndhel Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Ëarndhel"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_earndhel"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_earndhel"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_earndhel",

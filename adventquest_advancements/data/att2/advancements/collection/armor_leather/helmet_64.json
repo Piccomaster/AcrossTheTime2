@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Capuche inquiétante"},
-        "description": {"translate":"Bad omens arise, when fate strikes the luckiest...."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_leather/helmet_48",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "leather_helmet_64": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Capuche inquiétante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aMauvais augures surviennent,\\\"}\",\"{\\\"text\\\":\\\"§aquand le destin frappe les plus chanceux...\\\"}\",\"{\\\"text\\\":\\\"§aBad omens arise, when\\\"}\",\"{\\\"text\\\":\\\"§afate strikes the luckiest....\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§a1\\\"}\"],color:8130571}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.helmet_64"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.helmet_64"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/helmet_48",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "leather_helmet_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "64"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

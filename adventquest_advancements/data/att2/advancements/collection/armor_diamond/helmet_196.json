@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Soleil de sang"},
-        "description": {"translate":"The dawn has a crimson hue, born of the fomentations of the sunrise and the filth of death."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_diamond/helmet_200",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_helmet_196": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Soleil de sang\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'aurore arbore une teinte écarlate, naissant\\\"}\",\"{\\\"text\\\":\\\"§7des fomentations du lever et des immondices de la mort.\\\"}\",\"{\\\"text\\\":\\\"§7The dawn has a crimson hue, born of the fomentations\\\"}\",\"{\\\"text\\\":\\\"§7of the sunrise and the filth of death.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.helmet_196"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.helmet_196"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/helmet_200",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_helmet_196": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "196"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

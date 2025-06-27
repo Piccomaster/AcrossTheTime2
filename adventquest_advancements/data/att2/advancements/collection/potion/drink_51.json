@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:9548221}"
-        },
-        "title": {"translate":"Dépuratif simple"},
-        "description": {"translate":"Purifies the body."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_50",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_51": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§2Dépuratif simple\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Purifie l'organisme.\\\"}\",\"{\\\"text\\\":\\\"§7Purifies the body.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a3 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "51"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_51"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_51"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_50",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_51": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "51"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

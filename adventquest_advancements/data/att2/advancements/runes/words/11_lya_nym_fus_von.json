@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:howl_pottery_sherd"
+            "id": "minecraft:howl_pottery_sherd"
         },
-        "title": {"translate":"Memory"},
-        "description": {"translate":"Make runic word: Chu Lya Ehl"},
+        "title": {"translate":"att2.advancement.runes.title.11_lya_nym_fus_von"},
+        "description": {"translate":"att2.advancement.runes.description.11_lya_nym_fus_von"},
         "frame": "goal"
     },
     "parent": "att2:runes/root",

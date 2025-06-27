@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_hoe"
-        },
-        "title": {"translate":"Apogée"},
-        "description": {"translate":"The one able to wield it will be carried to the highest degree of influence."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
     },
-    "parent": "att2:collection/weapon_diamond/hoe_276",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_hoe_277": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§6Apogée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Celui capable de la manier sera porté\\\"}\",\"{\\\"text\\\":\\\"§7au plus haut degré d'influence.\\\"}\",\"{\\\"text\\\":\\\"§7The one able to wield it will be carried\\\"}\",\"{\\\"text\\\":\\\"§7to the highest degree of influence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1 §7HUN§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.hoe_277"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.hoe_277"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/hoe_276",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_hoe_277": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "277"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

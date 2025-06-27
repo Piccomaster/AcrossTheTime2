@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Fumée claire"},
-        "description": {"translate":"More intense than a cloud."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_ouranos",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "bow_214": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§2Fumée claire\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus intense qu'un nuage.\\\"}\",\"{\\\"text\\\":\\\"§7More intense than a cloud.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.bow_214"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.bow_214"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "bow_214": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "214"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

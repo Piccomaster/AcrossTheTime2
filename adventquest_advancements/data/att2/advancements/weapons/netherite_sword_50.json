@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_sword"
+            "id": "minecraft:netherite_sword"
         },
-        "title": {"translate":"Obsidian sword smash"},
-        "description": {"translate":"Strike 50 times with an obsidian sword"},
+        "title": {"translate": "att2.advancement.weapons.title.netherite_sword_50"},
+        "description": {"translate": "att2.advancement.weapons.description.netherite_sword_50"},
         "frame": "goal"
     },
     "parent": "att2:weapons/netherite_sword_1",

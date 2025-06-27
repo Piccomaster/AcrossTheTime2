@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_leggings"
-        },
-        "title": {"translate":"Caleçon de Jaris"},
-        "description": {"translate":"Avoid breathing"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
     },
-    "parent": "att2:collection/armor_netherite/leggings_269",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_leggings_270": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§7Caleçon de Jaris\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Evitez de respirer\\\"}\",\"{\\\"text\\\":\\\"§7Avoid breathing\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.leggings_270"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.leggings_270"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/leggings_269",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_leggings_270": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "270"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:zombie_head"
+            "id": "minecraft:zombie_head"
         },
-        "title": {"translate":"Husk Slayer"},
-        "description": {"translate":"Kill 250 Husks"},
+        "title": {"translate":"att2.advancement.mobskilled.title.husks_killed_250"},
+        "description": {"translate":"att2.advancement.mobskilled.description.husks_killed_250"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/husks_killed_50",

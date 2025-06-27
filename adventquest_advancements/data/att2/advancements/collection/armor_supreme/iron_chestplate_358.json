@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_chestplate"
-        },
-        "title": {"translate":"Égide des désirs infinis"},
-        "description": {"translate":"Repeller of greedy souls, transforms every lust into an invincible force."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
     },
-    "parent": "att2:collection/supreme",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "iron_chestplate_358": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§aÉgide des désirs infinis\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Repousseur des âmes avides,\\\"}\",\"{\\\"text\\\":\\\"§7transforme chaque convoitise en une force invincible.\\\"}\",\"{\\\"text\\\":\\\"§7Repeller of greedy souls,\\\"}\",\"{\\\"text\\\":\\\"§7transforms every lust into an invincible force.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a3 §7LUC§a3 §7HUN§a3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_supreme.title.iron_chestplate_358"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_supreme.description.iron_chestplate_358"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/supreme",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "iron_chestplate_358": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "358"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

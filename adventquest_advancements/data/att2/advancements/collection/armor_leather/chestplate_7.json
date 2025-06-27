@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Tunique de seconde main"},
-        "description": {"translate":"Increase a bit your Dahäl regeneration."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_leather/chestplate_3",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_chestplate_7": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§2Tunique de seconde main\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Augmente un peu votre\\\"}\",\"{\\\"text\\\":\\\"§7récupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§7Increase a bit your\\\"}\",\"{\\\"text\\\":\\\"§7Dahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-2\\\"}\"],color:10894924}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.chestplate_7"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.chestplate_7"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/chestplate_3",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_chestplate_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "7"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

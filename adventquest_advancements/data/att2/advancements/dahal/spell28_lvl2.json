@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Spectral Bow Apprentice"},
-        "description": {"translate":"Reach level 2 with Spectral Bow spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell28_lvl2"},
+        "description": {"translate":"att2.advancement.dahal.description.spell28_lvl2"}
     },
     "parent": "att2:dahal/spell28_loot",
     "rewards": {

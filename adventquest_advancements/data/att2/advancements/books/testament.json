@@ -1,42 +1,70 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"Korlaph's Testament"},
-        "description": {"translate":"Find “Korlaph's Last Wish” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.testament"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.testament"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/my_last_words",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "testament_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Ma dernière volonté\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Ma dernière volonté"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "testament_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7My last wish\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7My last wish"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "testament_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7遗言\\\"}\"]}}"      
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7遗言"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -44,9 +72,9 @@
     },
     "requirements": [
         [
-            "testament_fe",
-            "testament_eg",
-            "testament_ch"
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

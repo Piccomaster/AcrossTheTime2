@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_strad"
+            "id": "minecraft:music_disc_strad"
         },
-        "title": {"translate":"100%!"},
-        "description": {"translate":"Complete 100% of all map quests."}
+        "title": {"translate":"att2.advancement.progress.title.game_percentage_100"},
+        "description": {"translate":"att2.advancement.progress.description.game_percentage_100"}
     },
     "parent": "att2:progress/game_percentage_90",
     "rewards": {

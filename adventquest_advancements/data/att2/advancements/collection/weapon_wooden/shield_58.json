@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Garde impeccable"},
-        "description": {"translate":"Properly maintained equipment is the true value of the warrior."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_wooden/shield_57",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "shield_58": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§9Garde impeccable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un équipement entretenu fait\\\"}\",\"{\\\"text\\\":\\\"§7la véritable valeur du guerrier.\\\"}\",\"{\\\"text\\\":\\\"§7Properly maintained equipment is\\\"}\",\"{\\\"text\\\":\\\"§7the true value of the warrior.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.shield_58"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.shield_58"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/shield_57",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "shield_58": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "58"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

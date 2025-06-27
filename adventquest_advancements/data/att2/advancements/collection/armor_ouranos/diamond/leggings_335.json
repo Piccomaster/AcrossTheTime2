@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Grimpant de treillis"},
-        "description": {"translate":"Armature of lower limbs."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_ouranos",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_leggings_335": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Grimpant de treillis\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Armature de membres inférieurs.\\\"}\",\"{\\\"text\\\":\\\"§7Armature of lower limbs.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.leggings_335"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.leggings_335"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_leggings_335": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "335"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

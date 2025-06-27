@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_boots"
-        },
-        "title": {"translate":"Glisse froid"},
-        "description": {"translate":"You'll lose your toes in it."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
     },
-    "parent": "att2:collection/armor_chainmail",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "chainmail_boots_74": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_boots"],
-                    "nbt": "{display:{Name:\"\\\"§7Glisse froid\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vous en perdrez vos orteils.\\\"}\",\"{\\\"text\\\":\\\"§7You'll lose your toes in it.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.boots_74"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.boots_74"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "chainmail_boots_74": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "74"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

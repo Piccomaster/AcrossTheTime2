@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_helmet"
-        },
-        "title": {"translate":"Associé du vice"},
-        "description": {"translate":"Sometimes it is better to be in bad company than alone."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
     },
-    "parent": "att2:collection/armor_netherite/helmet_282",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_helmet_289": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Associé du vice\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parfois il vaut mieux être mal\\\"}\",\"{\\\"text\\\":\\\"§7accompagné, que seul.\\\"}\",\"{\\\"text\\\":\\\"§7Sometimes it is better to be in\\\"}\",\"{\\\"text\\\":\\\"§7bad company than alone.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7HUN§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.helmet_289"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.helmet_289"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/helmet_282",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_helmet_289": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "289"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

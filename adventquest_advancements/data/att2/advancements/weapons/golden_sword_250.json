@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_sword"
+            "id": "minecraft:golden_sword"
         },
-        "title": {"translate":"Golden sword hit"},
-        "description": {"translate":"Strike 250 times with a golden sword"},
+        "title": {"translate": "att2.advancement.weapons.title.golden_sword_250"},
+        "description": {"translate": "att2.advancement.weapons.description.golden_sword_250"},
         "frame": "goal"
     },
     "parent": "att2:weapons/golden_sword_50",

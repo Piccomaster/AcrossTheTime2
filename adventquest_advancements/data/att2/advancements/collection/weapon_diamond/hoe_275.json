@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_hoe"
-        },
-        "title": {"translate":"Faîte des jeux"},
-        "description": {"translate":"Faster, higher, stronger!"},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
     },
-    "parent": "att2:collection/weapon_diamond/hoe_274",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_hoe_275": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Faîte des jeux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus vite, plus haut, plus fort !\\\"}\",\"{\\\"text\\\":\\\"§7Faster, higher, stronger!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.hoe_275"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.hoe_275"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/hoe_274",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_hoe_275": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "275"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

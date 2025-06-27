@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanting_table"
+            "id": "minecraft:enchanting_table"
         },
-        "title": {"translate":"Dahäl Insider"},
-        "description": {"translate":"Launch spells 250 times"},
+        "title": {"translate":"att2.advancement.dahal.title.spell_launch_250"},
+        "description": {"translate":"att2.advancement.dahal.description.spell_launch_250"},
         "frame": "goal"
     },
     "parent": "att2:dahal/spell_launch_50",

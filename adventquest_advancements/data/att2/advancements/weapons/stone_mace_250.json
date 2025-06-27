@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_pickaxe"
+            "id": "minecraft:stone_pickaxe"
         },
-        "title": {"translate":"Billgart mace hit"},
-        "description": {"translate":"Strike 250 times with a Billgart mace"},
+        "title": {"translate": "att2.advancement.weapons.title.stone_mace_250"},
+        "description": {"translate": "att2.advancement.weapons.description.stone_mace_250"},
         "frame": "goal"
     },
     "parent": "att2:weapons/stone_mace_50",

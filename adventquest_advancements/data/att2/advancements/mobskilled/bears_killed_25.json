@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:rabbit_foot"
+            "id": "minecraft:rabbit_foot"
         },
-        "title": {"translate":"Bear Slayer"},
-        "description": {"translate":"Kill 25 Bears"},
+        "title": {"translate":"att2.advancement.mobskilled.title.bears_killed_25"},
+        "description": {"translate":"att2.advancement.mobskilled.description.bears_killed_25"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/bears_killed_5",

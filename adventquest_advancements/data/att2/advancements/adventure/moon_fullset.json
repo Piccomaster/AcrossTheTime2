@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_chestplate"
+            "id": "minecraft:diamond_chestplate"
         },
-        "title": {"translate":"The moon full set"},
-        "description": {"translate":"Complete the moon legendary set"},
+        "title": {"translate":"att2.advancement.adventure.title.moon_fullset"},
+        "description": {"translate":"att2.advancement.adventure.description.moon_fullset"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/leg_full_set",

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_sword"
-        },
-        "title": {"translate":"Cimeterre ébranlé"},
-        "description": {"translate":"Curved like your enemy."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
     },
-    "parent": "att2:collection/weapon_netherite/sword_285",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_sword_294": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Cimeterre ébranlé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Courbée comme ton ennemi.\\\"}\",\"{\\\"text\\\":\\\"§7Curved like your enemy.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a1 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.sword_294"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.sword_294"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/sword_285",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_sword_294": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "294"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

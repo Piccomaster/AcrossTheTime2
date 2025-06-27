@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:experience_bottle"
+            "id": "minecraft:experience_bottle"
         },
-        "title": {"translate":"MASTER ETERNÄN"},
-        "description": {"translate":"Reach the level Master MAX"},
+        "title": {"translate":"att2.advancement.progress.title.gamelevelmaster_300"},
+        "description": {"translate":"att2.advancement.progress.description.gamelevelmaster_300"},
         "frame": "challenge",
         "hidden": true
     },

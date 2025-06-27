@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_pickaxe"
+            "id": "minecraft:netherite_pickaxe"
         },
-        "title": {"translate":"Obsidian mace strike"},
-        "description": {"translate":"Strike once with an obsidian mace"}
+        "title": {"translate": "att2.advancement.weapons.title.netherite_mace_1"},
+        "description": {"translate": "att2.advancement.weapons.description.netherite_mace_1"}
     },
     "parent": "att2:weapons/root",
     "rewards": {

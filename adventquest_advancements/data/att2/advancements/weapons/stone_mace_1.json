@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_pickaxe"
+            "id": "minecraft:stone_pickaxe"
         },
-        "title": {"translate":"Billgart mace strike"},
-        "description": {"translate":"Strike once with a Billgart mace"}
+        "title": {"translate": "att2.advancement.weapons.title.stone_mace_1"},
+        "description": {"translate": "att2.advancement.weapons.description.stone_mace_1"}
     },
     "parent": "att2:weapons/root",
     "rewards": {

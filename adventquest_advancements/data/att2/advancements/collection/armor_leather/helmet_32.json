@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Voile épais"},
-        "description": {"translate":"Not even elegant."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_leather/helmet_25",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_helmet_32": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Voile épais\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même pas élégant.\\\"}\",\"{\\\"text\\\":\\\"§7Not even elegant.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"],color:5346949}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.helmet_32"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.helmet_32"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/helmet_25",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_helmet_32": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "32"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

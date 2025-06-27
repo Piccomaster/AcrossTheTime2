@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:item_frame"
+            "id": "minecraft:item_frame"
         },
-        "title": {"translate":"Lord Elite Genocider"},
-        "description": {"translate":"Kill 50 Lord Elites"},
+        "title": {"translate":"att2.advancement.mobskilled.title.elite_tier20_killed_50"},
+        "description": {"translate":"att2.advancement.mobskilled.description.elite_tier20_killed_50"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/elite_tier20_killed_25",

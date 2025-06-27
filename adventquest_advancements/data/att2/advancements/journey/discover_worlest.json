@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
-        "title": {"translate":"Worlëst"},
-        "description": {"translate":"Discover Worlëst forest"}
+        "title": {"translate":"att2.advancement.journey.title.discover_worlest"},
+        "description": {"translate":"att2.advancement.journey.description.discover_worlest"}
     },
     "parent": "att2:journey/discover_ryliath",
     "rewards": {

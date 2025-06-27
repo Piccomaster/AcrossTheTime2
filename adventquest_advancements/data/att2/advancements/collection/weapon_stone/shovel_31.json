@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_shovel"
-        },
-        "title": {"translate":"Feu mère lia"},
-        "description": {"translate":"Whose soiled image was washed with blood."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel"
     },
-    "parent": "att2:collection/weapon_stone/shovel_27",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "wooden_shovel_31": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§6Feu mère lia\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dont l'image salie fut\\\"}\",\"{\\\"text\\\":\\\"§7lavée dans le sang.\\\"}\",\"{\\\"text\\\":\\\"§7Whose soiled image\\\"}\",\"{\\\"text\\\":\\\"§7was washed with blood.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a3 §7HER§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.shovel_31"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.shovel_31"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/shovel_27",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "wooden_shovel_31": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "31"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

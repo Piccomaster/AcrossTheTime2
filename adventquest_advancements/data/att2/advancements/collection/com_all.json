@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:light_gray_candle"
+            "id": "minecraft:light_gray_candle"
         },
-        "title": {"translate":"All Commons"},
-        "description": {"translate":"Find all common items"},
+        "title": {"translate": "att2.advancement.collection.title.com_all"},
+        "description": {"translate": "att2.advancement.collection.description.com_all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/root",

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Souche de Ulli'Kummi"},
-        "description": {"translate":"Legacy of the monumental petrified colossus. Giant who never wanted to stop growing."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_billgart/netherite/boots_238",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_boots_331": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Souche de Ulli'Kummi\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aHéritage du monumental colosse pétrifié.\\\"}\",\"{\\\"text\\\":\\\"§aGéant qui jamais ne voulut cesser de grandir.\\\"}\",\"{\\\"text\\\":\\\"§aLegacy of the monumental petrified colossus.\\\"}\",\"{\\\"text\\\":\\\"§aGiant who never wanted to stop growing.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.boots_331"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.boots_331"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/boots_238",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_boots_331": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "331"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

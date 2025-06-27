@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:orange_dye"
+            "id": "minecraft:orange_dye"
         },
-        "title": {"translate":"Suprême mending"},
-        "description": {"translate":"Repair a suprême item"},
+        "title": {"translate": "att2.advancement.treasure.title.mending_ult"},
+        "description": {"translate": "att2.advancement.treasure.description.mending_ult"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/mending_leg",
@@ -13,7 +13,7 @@
             "experience": 25000
     },
     "criteria": {
-        "mending_ult": {
+        "mending_leg": {
             "trigger": "minecraft:impossible"
         }
     }

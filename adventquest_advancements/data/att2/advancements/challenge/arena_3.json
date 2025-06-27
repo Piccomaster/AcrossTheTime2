@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:item_frame"
+            "id": "minecraft:item_frame"
         },
-        "title": {"translate":"DIMENSION CHAMPION ARENA"},
-        "description": {"translate":"Complete all arenas three times."},
+        "title": {"translate":"att2.advancement.challenge.title.arena_3"},
+        "description": {"translate":"att2.advancement.challenge.description.arena_3"},
         "frame": "goal"
     },
     "parent": "att2:challenge/arena_2",

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_chestplate"
+            "id": "minecraft:diamond_chestplate"
         },
-        "title": {"translate":"The artist of Ouranos full set"},
-        "description": {"translate":"Complete the artist of Ouranos legendary set"},
+        "title": {"translate":"att2.advancement.adventure.title.artist_fullset"},
+        "description": {"translate":"att2.advancement.adventure.description.artist_fullset"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/leg_full_set",

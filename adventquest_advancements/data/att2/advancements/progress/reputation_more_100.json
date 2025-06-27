@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:torch"
+            "id": "minecraft:torch"
         },
-        "title": {"translate":"The beginning of celebrity"},
-        "description": {"translate":"Reach 100 in reputation"},
+        "title": {"translate":"att2.advancement.progress.title.reputation_more_100"},
+        "description": {"translate":"att2.advancement.progress.description.reputation_more_100"},
         "frame": "goal"
     },
     "parent": "att2:progress/reputation_more_50",

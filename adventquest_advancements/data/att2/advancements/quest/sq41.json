@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"You never know what you're gonna get"},
-        "description": {"translate":"Successfully complete this side quest"},
+        "title": {"translate":"att2.advancement.quest.title.sq41"},
+        "description": {"translate":"att2.advancement.quest.description.sq41"},
         "frame": "challenge"
     },
     "parent": "att2:quest/sq40",

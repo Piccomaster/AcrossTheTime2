@@ -1,42 +1,70 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"Spaceship Log 1"},
-        "description": {"translate":"Find “Spaceship Log 1”"},
+        "title": {
+            "translate": "att2.advancement.books.title.ship_log_1"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.ship_log_1"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/root",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "sl1_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7 27/01/2489\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7 27/01/2489"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "sl1_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7 01/27/2489\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7 01/27/2489"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "sl1_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§72489/01/27\\\"}\"]}}"      
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§72489/01/27"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -44,9 +72,9 @@
     },
     "requirements": [
         [
-            "sl1_fe",
-            "sl1_eg",
-            "sl1_ch"
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

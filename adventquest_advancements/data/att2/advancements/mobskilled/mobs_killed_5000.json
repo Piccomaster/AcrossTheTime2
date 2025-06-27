@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_sword"
+            "id": "minecraft:netherite_sword"
         },
-        "title": {"translate":"Slaughterer"},
-        "description": {"translate":"Kill 5000 enemies"},
+        "title": {"translate":"att2.advancement.mobskilled.title.mobs_killed_5000"},
+        "description": {"translate":"att2.advancement.mobskilled.description.mobs_killed_5000"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/mobs_killed_2500",

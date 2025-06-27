@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:7507199}"
-        },
-        "title": {"translate":"Mixture Esotérique"},
-        "description": {"translate":"When there is no more, there is still more."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_21",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "potion_22": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§9Mixture Esotérique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand il n'y en a plus,\\\"}\",\"{\\\"text\\\":\\\"§7il y en a encore.\\\"}\",\"{\\\"text\\\":\\\"§7When there is no more,\\\"}\",\"{\\\"text\\\":\\\"§7there is still more.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7DAR§a3 §7HER§c-2 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "22"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_22"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_22"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_21",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "potion_22": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "22"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

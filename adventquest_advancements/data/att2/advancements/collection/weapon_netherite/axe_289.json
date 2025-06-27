@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_axe"
-        },
-        "title": {"translate":"Doloire affûtée"},
-        "description": {"translate":"To damage leather or wood"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
     },
-    "parent": "att2:collection/weapon_netherite/axe_288",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_axe_289": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_axe"],
-                    "nbt": "{display:{Name:\"\\\"§2Doloire affûtée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pour doler le cuir ou le bois\\\"}\",\"{\\\"text\\\":\\\"§7To damage leather or wood\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.axe_289"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.axe_289"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/axe_288",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_axe_289": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "289"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

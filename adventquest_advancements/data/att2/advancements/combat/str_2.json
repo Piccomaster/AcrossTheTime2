@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:anvil"
+            "id": "minecraft:anvil"
         },
-        "title": {"translate":"Strength!"},
-        "description": {"translate":"Build up strength"}
+        "title": {"translate":"att2.advancement.combat.title.str_2"},
+        "description": {"translate":"att2.advancement.combat.description.str_2"}
     },
     "parent": "att2:combat/root",
     "rewards": {

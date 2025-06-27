@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Sommet immuable"},
-        "description": {"translate":"Standing at the very top, nothing can reach it."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_billgart/leather/helmet_223",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_helmet_231": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Sommet immuable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trônant tout en haut,\\\"}\",\"{\\\"text\\\":\\\"§7rien ne l'atteint.\\\"}\",\"{\\\"text\\\":\\\"§7Standing at the very top,\\\"}\",\"{\\\"text\\\":\\\"§7nothing can reach it.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HAS§c-2\\\"}\"],color:2127385}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.helmet_231"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.helmet_231"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/leather/helmet_223",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_helmet_231": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "231"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

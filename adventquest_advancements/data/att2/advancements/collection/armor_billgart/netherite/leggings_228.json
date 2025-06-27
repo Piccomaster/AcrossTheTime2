@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_leggings"
-        },
-        "title": {"translate":"Jambes luisantes"},
-        "description": {"translate":"Never bend."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
     },
-    "parent": "att2:collection/armor_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_leggings_228": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Jambes luisantes\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne plie jamais.\\\"}\",\"{\\\"text\\\":\\\"§7Never bend.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.leggings_228"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.leggings_228"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_leggings_228": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "228"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Pimprenelle"},
-        "description": {"translate":"A chalice of beauty, to face bitterness and confusion..."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/helmet_252",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_helmet_256": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Pimprenelle\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un calice de beauté, pour affronter\\\"}\",\"{\\\"text\\\":\\\"§7l'amertume et la confusion...\\\"}\",\"{\\\"text\\\":\\\"§7A chalice of beauty, to face\\\"}\",\"{\\\"text\\\":\\\"§7bitterness and confusion...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7LUC§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.helmet_256"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.helmet_256"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/helmet_252",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_helmet_256": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "256"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Horizon du désespoir"},
-        "description": {"translate":"Light, like a distant line, gets lost in the darkest emptiness."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_diamond/chestplate_187",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_chestplate_193": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§5Horizon du désespoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La lumière comme une ligne lointaine,\\\"}\",\"{\\\"text\\\":\\\"§7se perd dans le néant le plus obscur.\\\"}\",\"{\\\"text\\\":\\\"§7Light, like a distant line, gets\\\"}\",\"{\\\"text\\\":\\\"§7lost in the darkest emptiness.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HAS§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.chestplate_193"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.chestplate_193"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/chestplate_187",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_chestplate_193": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "193"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

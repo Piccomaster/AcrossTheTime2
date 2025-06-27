@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Vieille capuche"},
-        "description": {"translate":"Dragged on the floor."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_leather",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_helmet_24": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§7Vieille capuche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A traîné par terre.\\\"}\",\"{\\\"text\\\":\\\"§7Dragged on the floor.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7HUN§c-1\\\"}\"],color:8948846}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.helmet_24"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.helmet_24"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_helmet_24": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "24"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

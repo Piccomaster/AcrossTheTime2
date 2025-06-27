@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_sword"
+            "id": "minecraft:wooden_sword"
         },
-        "title": {"translate":"Damage Control"},
-        "description": {"translate":"Deal 1k melee damage"},
+        "title": {"translate":"att2.advancement.combat.title.damage_dealt_1000"},
+        "description": {"translate":"att2.advancement.combat.description.damage_dealt_1000"},
         "frame": "goal"
     },
     "parent": "att2:combat/damage_dealt",

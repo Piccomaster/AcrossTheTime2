@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Academy present Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Academy present"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_academy_present"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_academy_present"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_nojelanth_present",

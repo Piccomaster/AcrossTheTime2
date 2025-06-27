@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Lure Apprentice"},
-        "description": {"translate":"Reach level 2 with Lure spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell24_lvl2"},
+        "description": {"translate":"att2.advancement.dahal.description.spell24_lvl2"}
     },
     "parent": "att2:dahal/spell24_loot",
     "rewards": {

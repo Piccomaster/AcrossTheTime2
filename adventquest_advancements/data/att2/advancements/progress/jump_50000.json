@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chainmail_boots"
+            "id": "minecraft:chainmail_boots"
         },
-        "title": {"translate":"Jumping Jack Flash"},
-        "description": {"translate":"Jump 50000 times"},
+        "title": {"translate":"att2.advancement.progress.title.jump_50000"},
+        "description": {"translate":"att2.advancement.progress.description.jump_50000"},
         "frame": "challenge"
     },
     "parent": "att2:progress/jump_10000",

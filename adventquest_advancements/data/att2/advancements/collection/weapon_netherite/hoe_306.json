@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_hoe"
-        },
-        "title": {"translate":"Sommité"},
-        "description": {"translate":"At the edge of the point, you could not aspire to less lethality."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_hoe"
     },
-    "parent": "att2:collection/weapon_netherite/hoe_297",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_hoe_306": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Sommité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A l'orée de la pointe, tu ne saurais\\\"}\",\"{\\\"text\\\":\\\"§7aspirer à moins de létalité.\\\"}\",\"{\\\"text\\\":\\\"§7At the edge of the point, you could\\\"}\",\"{\\\"text\\\":\\\"§7not aspire to less lethality.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a2 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.hoe_306"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.hoe_306"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/hoe_297",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_hoe_306": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "306"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

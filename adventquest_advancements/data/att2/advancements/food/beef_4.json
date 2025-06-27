@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_beef"
+            "id": "minecraft:cooked_beef"
         },
-        "title": {"translate":"Beef desire"},
-        "description": {"translate":"Eat 4 beef steaks"},
+        "title": {"translate":"att2.advancement.food.title.beef_4"},
+        "description": {"translate":"att2.advancement.food.description.beef_4"},
         "frame": "goal"
     },
     "parent": "att2:food/beef_1",

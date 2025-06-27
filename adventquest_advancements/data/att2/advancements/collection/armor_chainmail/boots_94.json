@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_boots"
-        },
-        "title": {"translate":"Âme en peine"},
-        "description": {"translate":"Contemplate the freedom, in this peacock moth, which flees from your macabre form."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
     },
-    "parent": "att2:collection/armor_chainmail/boots_89",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "chainmail_boots_94": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Âme en peine\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Contemple la liberté, dans ce paon\\\"}\",\"{\\\"text\\\":\\\"§7de nuit, qui s'enfuit loin de ta forme macabre.\\\"}\",\"{\\\"text\\\":\\\"§7Contemplate the freedom, in this peacock\\\"}\",\"{\\\"text\\\":\\\"§7 moth, which flees from your macabre form.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7DAR§a3 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.boots_94"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.boots_94"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/boots_89",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "chainmail_boots_94": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "94"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

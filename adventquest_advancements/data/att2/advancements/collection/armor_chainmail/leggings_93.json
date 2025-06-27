@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_leggings"
-        },
-        "title": {"translate":"Sinistre cliquetis"},
-        "description": {"translate":"An endless thrill, an ode to fear and insecurity...."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_leggings"
     },
-    "parent": "att2:collection/armor_chainmail/leggings_87",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "chainmail_leggings_93": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Sinistre cliquetis\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Interminable frisson, ode à la\\\"}\",\"{\\\"text\\\":\\\"§7crainte et à l'insécurité...\\\"}\",\"{\\\"text\\\":\\\"§7An endless thrill, an ode\\\"}\",\"{\\\"text\\\":\\\"§7to fear and insecurity....\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7SPD§a1 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.leggings_93"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.leggings_93"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/leggings_87",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "chainmail_leggings_93": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "93"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

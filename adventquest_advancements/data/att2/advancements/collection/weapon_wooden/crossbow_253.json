@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Mÿre Suprême"},
-        "description": {"translate":"Confers the simplest piece of wood, with relentless destructive power."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_wooden/crossbow_252",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "crossbow_253": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§6Mÿre Suprême\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Confère au plus simple morceau de bois,\\\"}\",\"{\\\"text\\\":\\\"§7une implacable puissance destructrice.\\\"}\",\"{\\\"text\\\":\\\"§7Confers the simplest piece of wood,\\\"}\",\"{\\\"text\\\":\\\"§7with relentless destructive power.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7DAR§a2 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.crossbow_253"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.crossbow_253"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/crossbow_252",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "crossbow_253": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "253"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

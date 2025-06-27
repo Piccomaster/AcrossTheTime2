@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:saddle"
+            "id": "minecraft:saddle"
         },
-        "title": {"translate":"Galop 7"},
-        "description": {"translate":"Ride 5km on horseback"},
+        "title": {"translate":"att2.advancement.progress.title.horse_500000"},
+        "description": {"translate":"att2.advancement.progress.description.horse_500000"},
         "frame": "goal"
     },
     "parent": "att2:progress/horse_50000",

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Collants de barde"},
-        "description": {"translate":"No one suspects the cheerful luron."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather/leggings_44",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_leggings_45": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Collants de barde\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Personne ne suspecte le gai luron.\\\"}\",\"{\\\"text\\\":\\\"§7No one suspects the cheerful luron.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a1 §7HER§c-2\\\"}\"],color:11803544}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_45"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_45"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/leggings_44",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_leggings_45": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "45"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

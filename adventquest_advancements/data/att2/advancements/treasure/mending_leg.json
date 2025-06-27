@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:orange_dye"
+            "id": "minecraft:orange_dye"
         },
-        "title": {"translate":"Legendary mending"},
-        "description": {"translate":"Repair a legendary item"},
+        "title": {"translate": "att2.advancement.treasure.title.mending_leg"},
+        "description": {"translate": "att2.advancement.treasure.description.mending_leg"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/mending_epi_esc",

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_block"
+            "id": "minecraft:diamond_block"
         },
-        "title": {"translate":"Diamond"},
-        "description": {"translate":"Armor"},
+        "title": {"translate": "att2.advancement.collection.title.armor_diamond"},
+        "description": {"translate": "att2.advancement.collection.description.armor_diamond"},
         "show_toast": false,
         "announce_to_chat": false
     },

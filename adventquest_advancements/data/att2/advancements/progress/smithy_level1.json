@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:damaged_anvil"
+            "id": "minecraft:damaged_anvil"
         },
-        "title": {"translate":"Apprentice Black Smith"},
-        "description": {"translate":"Reach the level 1 of the smithy"}
+        "title": {"translate":"att2.advancement.progress.title.smithy_level1"},
+        "description": {"translate":"att2.advancement.progress.description.smithy_level1"}
     },
     "parent": "att2:progress/root",
     "rewards": {

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_leggings"
-        },
-        "title": {"translate":"Jambière de Bâtilen"},
-        "description": {"translate":"Be agile, without ever neglecting your defense, my brother-in-law."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_leggings"
     },
-    "parent": "att2:collection/armor_chainmail/leggings_86",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "chainmail_leggings_87": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Jambière de Bâtilen\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Soit agile, sans jamais négliger\\\"}\",\"{\\\"text\\\":\\\"§7ta défense, mon beau-frère.\\\"}\",\"{\\\"text\\\":\\\"§7Be agile, without ever neglecting\\\"}\",\"{\\\"text\\\":\\\"§7your defense, my brother-in-law.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.leggings_87"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.leggings_87"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/leggings_86",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "chainmail_leggings_87": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "87"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

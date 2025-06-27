@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Pantalon de paysan"},
-        "description": {"translate":"Too many projects, too many regrets."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather/leggings_29",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_leggings_36": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Pantalon de paysan\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trop de projets, trop de regrets.\\\"}\",\"{\\\"text\\\":\\\"§7Too many projects, too many regrets.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"],color:2591784}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_36"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_36"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/leggings_29",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_leggings_36": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "36"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

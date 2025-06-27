@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spider_eye"
+            "id": "minecraft:spider_eye"
         },
-        "title": {"translate":"Spider Genocider"},
-        "description": {"translate":"Kill 500 Spiders"},
+        "title": {"translate":"att2.advancement.mobskilled.title.spiders_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.spiders_killed_500"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/spiders_killed_250",

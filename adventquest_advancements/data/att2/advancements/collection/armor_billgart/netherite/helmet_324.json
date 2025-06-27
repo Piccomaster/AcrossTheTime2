@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_helmet"
-        },
-        "title": {"translate":"Refuge minéral"},
-        "description": {"translate":"The empty eyes of your terrifying face, will reveal his fate to the enemy who dares watch them."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
     },
-    "parent": "att2:collection/armor_billgart/netherite/helmet_320",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_helmet_324": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Refuge minéral\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les yeux vides de ton terrifiant visage, révèleront\\\"}\",\"{\\\"text\\\":\\\"§7son destin à l’ennemi qui osera les observer.\\\"}\",\"{\\\"text\\\":\\\"§7The empty eyes of your terrifying face, will reveal\\\"}\",\"{\\\"text\\\":\\\"§7his fate to the enemy who dares watch them.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7LUC§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.helmet_324"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.helmet_324"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/helmet_320",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_helmet_324": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "324"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

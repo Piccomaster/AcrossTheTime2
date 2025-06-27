@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lingering_potion"
+            "id": "minecraft:lingering_potion"
         },
-        "title": {"translate":"Lingering potion"},
-        "description": {"translate":"Thrown a lingering potion"}
+        "title": {"translate":"att2.advancement.progress.title.lingering_1"},
+        "description": {"translate":"att2.advancement.progress.description.lingering_1"}
     },
     "parent": "att2:progress/root",
     "rewards": {

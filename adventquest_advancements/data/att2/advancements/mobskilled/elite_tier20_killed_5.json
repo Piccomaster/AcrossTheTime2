@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:item_frame"
+            "id": "minecraft:item_frame"
         },
-        "title": {"translate":"Lord Elite Killer"},
-        "description": {"translate":"Kill 5 Lord Elites"}
+        "title": {"translate":"att2.advancement.mobskilled.title.elite_tier20_killed_5"},
+        "description": {"translate":"att2.advancement.mobskilled.description.elite_tier20_killed_5"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

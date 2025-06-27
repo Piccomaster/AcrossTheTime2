@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_scrap"
+            "id": "minecraft:netherite_scrap"
         },
-        "title": {"translate":"Painful Memory"},
-        "description": {"translate":"Fall back into the devastated Hill Valley."},
+        "title": {"translate":"att2.advancement.adventure.title.painfull_memory"},
+        "description": {"translate":"att2.advancement.adventure.description.painfull_memory"},
         "hidden":true
     },
     "parent": "att2:adventure/root",

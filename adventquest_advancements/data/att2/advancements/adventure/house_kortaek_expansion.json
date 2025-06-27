@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:jungle_wood"
+            "id": "minecraft:jungle_wood"
         },
-        "title": {"translate":"Kortaek house expansion"},
-        "description": {"translate":"Buy the Kortaek house expansion"},
+        "title": {"translate":"att2.advancement.adventure.title.house_kortaek_expansion"},
+        "description": {"translate":"att2.advancement.adventure.description.house_kortaek_expansion"},
         "frame": "goal"
     },
     "parent": "att2:adventure/house_kortaek",

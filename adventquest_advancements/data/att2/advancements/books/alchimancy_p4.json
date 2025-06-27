@@ -1,42 +1,70 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"The Art Of Alchimancy - Part 4"},
-        "description": {"translate":"Find “My first results” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p4"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p4"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/alchimancy_p3",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "al4_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Mes premiers résultats - Partie 4\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Mes premiers résultats - Partie 4"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al4_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7My first results - Part 4\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7My first results - Part 4"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al4_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7我的第一个作品 - Part 4\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7My first results - Part 4"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -44,10 +72,9 @@
     },
     "requirements": [
         [
-            "al4_fe",
-            "al4_eg",
-            "al4_ch"
-
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Temple Panorama"},
-        "description": {"translate":"Discover the panorama of Ouranos temple"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_ouranos_temple"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_ouranos_temple"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_ouranos",

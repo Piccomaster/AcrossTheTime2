@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_chestplate"
-        },
-        "title": {"translate":"Artisan du Chaos"},
-        "description": {"translate":"In this sleeping reality of thousand fertile precipices, mute Entropy invested of will, perceived while waking up, the ultimate destructive desire until the fall of the mountains."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
     },
-    "parent": "att2:collection/armor_iron/chestplate_128",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "iron_chestplate_303": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Artisan du Chaos\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aEn cette réalité dormante de mille précipices féconds, muette Entropie investie de volonté, \\\"}\",\"{\\\"text\\\":\\\"§aperçut en s'éveillant, l'ultime désir destructeur jusqu'à la chute des montagnes.\\\"}\",\"{\\\"text\\\":\\\"§aIn this sleeping reality of thousand fertile precipices, mute Entropy invested of will,\\\"}\",\"{\\\"text\\\":\\\"§aperceived while waking up, the ultimate destructive desire until the fall of the mountains.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HAS§a2 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.chestplate_303"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.chestplate_303"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/chestplate_128",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_chestplate_303": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "303"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

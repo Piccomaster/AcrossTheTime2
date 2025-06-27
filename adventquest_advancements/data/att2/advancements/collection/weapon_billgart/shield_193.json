@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Pih'um totritkl"},
-        "description": {"translate":"Do not use it as a shield. Thank you."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_billgart/shield_192",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "shield_193": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§2Pih'um totritkl\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne pas s'en servir comme d'un\\\"}\",\"{\\\"text\\\":\\\"§7bouclier. Merci.\\\"}\",\"{\\\"text\\\":\\\"§7Do not use it as a shield.\\\"}\",\"{\\\"text\\\":\\\"§7Thank you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.shield_193"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.shield_193"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/shield_192",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "shield_193": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "193"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

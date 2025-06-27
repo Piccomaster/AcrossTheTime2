@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Somptueuse célérité"},
-        "description": {"translate":"Like shooting stars, your arrows are blasting."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden/bow_47",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "bow_48": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§6Somptueuse célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telles des étoiles filantes, \\\"}\",\"{\\\"text\\\":\\\"§7fusent tes flèches.\\\"}\",\"{\\\"text\\\":\\\"§7Like shooting stars,\\\"}\",\"{\\\"text\\\":\\\"§7your arrows are blasting.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7LUC§a1 §7HUN§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_48"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_48"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/bow_47",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "bow_48": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "48"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

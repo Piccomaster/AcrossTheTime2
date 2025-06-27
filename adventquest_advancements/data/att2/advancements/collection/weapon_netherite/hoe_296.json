@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_hoe"
-        },
-        "title": {"translate":"Pilum d'argent"},
-        "description": {"translate":"The revenants fear him."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_hoe"
     },
-    "parent": "att2:collection/weapon_netherite/hoe_287",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_hoe_296": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§2Pilum d'argent\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les revenants le craignent.\\\"}\",\"{\\\"text\\\":\\\"§7The revenants fear him.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.hoe_296"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.hoe_296"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/hoe_287",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_hoe_296": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "296"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

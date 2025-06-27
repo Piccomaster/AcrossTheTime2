@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:mushroom_stew"
+            "id": "minecraft:mushroom_stew"
         },
-        "title": {"translate":"Gastronomy"},
-        "description": {"translate":"Eat some mushroom stew"}
+        "title": {"translate":"att2.advancement.food.title.gastronomy"},
+        "description": {"translate":"att2.advancement.food.description.gastronomy"}
     },
     "parent": "att2:food/root",
     "rewards": {

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Gold Devourer Apprentice"},
-        "description": {"translate":"Reach level 2 with Gold Devourer spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell31_lvl2"},
+        "description": {"translate":"att2.advancement.dahal.description.spell31_lvl2"}
     },
     "parent": "att2:dahal/spell31_loot",
     "rewards": {
@@ -12,7 +12,7 @@
         "experience": 100
                 },
     "criteria": {
-        "spell31_lvl2": {
+        "spell30_lvl2": {
             "trigger": "minecraft:impossible"
         }
     }

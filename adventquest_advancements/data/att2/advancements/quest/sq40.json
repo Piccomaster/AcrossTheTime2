@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"Sometimes, I guess there's just not enough rocks"},
-        "description": {"translate":"Successfully complete this side quest"},
+        "title": {"translate":"att2.advancement.quest.title.sq40"},
+        "description": {"translate":"att2.advancement.quest.description.sq40"},
         "frame": "goal"
     },
     "parent": "att2:quest/sq39",

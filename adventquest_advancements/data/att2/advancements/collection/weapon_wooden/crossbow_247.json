@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Onagre portatif"},
-        "description": {"translate":"Sometimes you have to alleviate yourself."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_wooden/crossbow_246",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "crossbow_247": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§2Onagre portatif\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parfois il faut savoir s'alléger.\\\"}\",\"{\\\"text\\\":\\\"§7Sometimes you have to alleviate yourself.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.crossbow_247"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.crossbow_247"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/crossbow_246",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "crossbow_247": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "247"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

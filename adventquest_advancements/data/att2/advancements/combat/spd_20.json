@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Faster faster faster!"},
-        "description": {"translate":"Faster than light"},
+        "title": {"translate":"att2.advancement.combat.title.spd_20"},
+        "description": {"translate":"att2.advancement.combat.description.spd_20"},
         "frame": "goal"
     },
     "parent": "att2:combat/spd_12",

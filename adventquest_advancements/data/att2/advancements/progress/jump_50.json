@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chainmail_boots"
+            "id": "minecraft:chainmail_boots"
         },
-        "title": {"translate":"Unto The Locust"},
-        "description": {"translate":"Jump 50 times"}
+        "title": {"translate":"att2.advancement.progress.title.jump_50"},
+        "description": {"translate":"att2.advancement.progress.description.jump_50"}
     },
     "parent": "att2:progress/root",
     "function": "att2:advancement/exploit_1",

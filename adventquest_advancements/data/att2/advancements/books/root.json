@@ -1,45 +1,32 @@
-
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"A Beautiful Life Begins by Reading"},
-        "description": {"translate":"Young people must read more books"},
-        "background": "minecraft:textures/map/map_background.png",
+        "title": {
+            "translate": "att2.advancement.books.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.root"
+        },
+        "background": "minecraft:map/map_background",
         "show_toast": true,
         "announce_to_chat": true
     },
     "criteria": {
-        "ch": {
+        "cons": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7感受你的内在...\\\"}\"]}}"
-                    }
-                ]
-            }
-        },
-        "fe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Ressentez ce que vous êtes...\\\"}\"]}}"
-                    }
-                ]
-            }
-        },
-        "eg": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Feel what you are...\\\"}\"]}}"
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:custom_data": 
+                                {
+                                    "Conscience":"book"
+                                }
+                            
+                        }
                     }
                 ]
             }

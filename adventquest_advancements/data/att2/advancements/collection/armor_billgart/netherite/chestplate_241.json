@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_chestplate"
-        },
-        "title": {"translate":"Coque carbonique"},
-        "description": {"translate":"Protection, in the finest form that carbon can possess."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
     },
-    "parent": "att2:collection/armor_billgart/netherite/chestplate_326",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_chestplate_241": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§5Coque carbonique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une protection, de la plus fine forme\\\"}\",\"{\\\"text\\\":\\\"§7que le carbone puisse posséder.\\\"}\",\"{\\\"text\\\":\\\"§7Protection, in the finest form\\\"}\",\"{\\\"text\\\":\\\"§7that carbon can possess.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.chestplate_241"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.chestplate_241"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/chestplate_326",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_chestplate_241": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "241"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

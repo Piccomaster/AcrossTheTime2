@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Nonchalance Somniophage"},
-        "description": {"translate":"Nothing is more pleasant than feeling free from the forces of gravity."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/boots_259",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_boots_348": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Nonchalance Somniophage\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rien de plus agréable que de ne plus\\\"}\",\"{\\\"text\\\":\\\"§7se sentir soumis, aux forces de la gravité.\\\"}\",\"{\\\"text\\\":\\\"§7Nothing is more pleasant than feeling free\\\"}\",\"{\\\"text\\\":\\\"§7from the forces of gravity.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7SPD§a2 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.boots_348"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.boots_348"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/boots_259",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_boots_348": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "348"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:anvil"
+            "id": "minecraft:anvil"
         },
-        "title": {"translate":"Barbarian!"},
-        "description": {"translate":"Strong against strong"},
+        "title": {"translate":"att2.advancement.combat.title.str_16"},
+        "description": {"translate":"att2.advancement.combat.description.str_16"},
         "frame": "goal"
     },
     "parent": "att2:combat/str_10",

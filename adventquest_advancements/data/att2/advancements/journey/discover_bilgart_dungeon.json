@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:jungle_boat"
+            "id": "minecraft:jungle_boat"
         },
-        "title": {"translate":"Billgart Dungeon"},
-        "description": {"translate":"Discover Billgart Dungeon"}
+        "title": {"translate":"att2.advancement.journey.title.discover_bilgart_dungeon"},
+        "description": {"translate":"att2.advancement.journey.description.discover_bilgart_dungeon"}
     },
     "parent": "att2:journey/discover_bilgart",
     "rewards": {

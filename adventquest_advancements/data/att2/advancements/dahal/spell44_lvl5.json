@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Elusive Veteran"},
-        "description": {"translate":"Reach level 5 with Elusive spell"},
+        "title": {"translate":"att2.advancement.dahal.title.spell44_lvl5"},
+        "description": {"translate":"att2.advancement.dahal.description.spell44_lvl5"},
         "frame": "goal"
     },
     "parent": "att2:dahal/spell44_lvl2",

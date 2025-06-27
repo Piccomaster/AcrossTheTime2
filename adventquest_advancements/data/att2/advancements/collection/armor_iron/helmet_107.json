@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_helmet"
-        },
-        "title": {"translate":"Vieil heaume"},
-        "description": {"translate":"From the Eastern Army."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_helmet"
     },
-    "parent": "att2:collection/armor_iron/helmet_100",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_helmet_107": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Vieil heaume\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7De l'armée de l'Est.\\\"}\",\"{\\\"text\\\":\\\"§7From the Eastern Army.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.helmet_107"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.helmet_107"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/helmet_100",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_helmet_107": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "107"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

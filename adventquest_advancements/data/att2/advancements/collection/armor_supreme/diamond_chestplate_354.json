@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Carapace extratellurienne"},
-        "description": {"translate":"Forged in the bowels of a dying star, it repels the assaults of the celestial void."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_supreme/iron_chestplate_358",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "diamond_chestplate_354": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§aCarapace extratellurienne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Forgée dans les entrailles d’un astre mourant,\\\"}\",\"{\\\"text\\\":\\\"§7elle repousse les assauts du vide céleste.\\\"}\",\"{\\\"text\\\":\\\"§7Forged in the bowels of a dying star,\\\"}\",\"{\\\"text\\\":\\\"§7it repels the assaults of the celestial void.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a3 §7HAS§a3 §7DAR§a2 §7HUN§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_supreme.title.diamond_chestplate_354"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_supreme.description.diamond_chestplate_354"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor_supreme/iron_chestplate_358",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "diamond_chestplate_354": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "354"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_chestplate"
-        },
-        "title": {"translate":"S          "},
-        "description": {"translate":"The uniform of a million challenges reveals in you the exception of the chosen ones."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
     },
-    "parent": "att2:collection/armor_angband/chestplate_160",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_chestplate_164": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6S\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aL'uniforme aux millions d'épreuves\\\"}\",\"{\\\"text\\\":\\\"§arévèle chez vous l'exception des élus.\\\"}\",\"{\\\"text\\\":\\\"§aThe uniform of a million challenges reveals\\\"}\",\"{\\\"text\\\":\\\"§ain you the exception of the chosen ones.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7DAR§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.chestplate_164"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.chestplate_164"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/chestplate_160",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_chestplate_164": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "164"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

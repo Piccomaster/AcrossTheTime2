@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_shovel"
-        },
-        "title": {"translate":"Nuage des cités endormies"},
-        "description": {"translate":"And don't remind me of home or	I might notice where I am."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_shovel"
     },
-    "parent": "att2:collection/weapon_ouranos/shovel_210",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "stone_shovel_212": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§6Nuage des cités endormies\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Et ne me rappelez pas la maison\\\"}\",\"{\\\"text\\\":\\\"§7ou je pourrais réaliser où je suis.\\\"}\",\"{\\\"text\\\":\\\"§7And don't remind me of home or\\\"}\",\"{\\\"text\\\":\\\"§7I might notice where I am.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.shovel_212"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.shovel_212"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/shovel_210",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "stone_shovel_212": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "212"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

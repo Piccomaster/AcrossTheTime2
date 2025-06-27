@@ -1,46 +1,36 @@
-
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"The Awakening"},
-        "description": {"translate":"Everything is in the book, but it's a pity you don't read it."},
+        "title": {
+            "translate": "att2.advancement.books.title.consciousness"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.consciousness"
+        },
         "show_toast": true,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/root",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "ch": {
+        "cons": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7感受你的内在...\\\"}\"]}}"      
-                    }
-                ]
-            }
-        },
-        "fe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Ressentez ce que vous êtes...\\\"}\"]}}"      
-                    }
-                ]
-            }
-        },
-        "eg": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Feel what you are...\\\"}\"]}}"      
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:custom_data": 
+                                {
+                                    "Conscience":"book"
+                                }
+                            
+                        }
                     }
                 ]
             }
@@ -54,6 +44,3 @@
         ]
     ]
 }
-
-
-

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_axe"
+            "id": "minecraft:stone_axe"
         },
-        "title": {"translate":"Ouranos axe combo"},
-        "description": {"translate":"Strike 1000 times with an Ouranos axe"},
+        "title": {"translate": "att2.advancement.weapons.title.stone_axe_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.stone_axe_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/stone_axe_250",

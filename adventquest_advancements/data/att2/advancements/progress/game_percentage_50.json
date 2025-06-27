@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_ward"
+            "id": "minecraft:music_disc_ward"
         },
-        "title": {"translate":"50%!"},
-        "description": {"translate":"Complete 50% of all map quests."}
+        "title": {"translate":"att2.advancement.progress.title.game_percentage_50"},
+        "description": {"translate":"att2.advancement.progress.description.game_percentage_50"}
     },
     "parent": "att2:progress/game_percentage_40",
     "rewards": {

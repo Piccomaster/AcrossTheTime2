@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Couvre-jambe"},
-        "description": {"translate":"Or rather: leg scratcher."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather/leggings_36",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_leggings_37": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Couvre-jambe\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ou plutôt : gratte jambe.\\\"}\",\"{\\\"text\\\":\\\"§7Or rather: leg scratcher.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"],color:5586769}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_37"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_37"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/leggings_36",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_leggings_37": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "37"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

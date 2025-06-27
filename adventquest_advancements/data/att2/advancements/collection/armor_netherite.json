@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_block"
+            "id": "minecraft:netherite_block"
         },
-        "title": {"translate":"Obsidian"},
-        "description": {"translate":"Armor"},
+        "title": {"translate": "att2.advancement.collection.title.armor_netherite"},
+        "description": {"translate": "att2.advancement.collection.description.armor_netherite"},
         "show_toast": false,
         "announce_to_chat": false
     },

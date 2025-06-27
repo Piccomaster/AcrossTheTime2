@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spectral_arrow"
+            "id": "minecraft:spectral_arrow"
         },
-        "title": {"translate":"Targeting"},
-        "description": {"translate":"Shoot something with a spectral arrow"}
+        "title": {"translate":"att2.advancement.combat.title.shoot_spectral_arrow"},
+        "description": {"translate":"att2.advancement.combat.description.shoot_spectral_arrow"}
     },
     "parent": "att2:combat/shoot_arrow",
     "rewards": {

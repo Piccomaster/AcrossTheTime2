@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Tunique stupéfiante"},
-        "description": {"translate":"Drastically increase your Dahäl regeneration."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_leather/chestplate_15",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "leather_chestplate_20": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Tunique stupéfiante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente drastiquement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aDrastically increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a3 §7STR§c-1 §7RES§c-1\\\"}\"],color:0}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.chestplate_20"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.chestplate_20"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/chestplate_15",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_chestplate_20": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "20"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

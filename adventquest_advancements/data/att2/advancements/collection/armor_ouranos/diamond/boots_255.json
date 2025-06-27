@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Chaussures du grimpeur"},
-        "description": {"translate":"Even the clouds are climbable."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/boots_344",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_boots_255": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Chaussures du grimpeur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même les nuages s'escaladent.\\\"}\",\"{\\\"text\\\":\\\"§7Even the clouds are climbable.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.boots_255"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.boots_255"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/boots_344",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_boots_255": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "255"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"You don't take revenge on a demigod so easily!"},
-        "description": {"translate":"The emergence of hatred"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_10"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_10"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_9",

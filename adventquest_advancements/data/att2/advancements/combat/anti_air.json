@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bow"
+            "id": "minecraft:bow"
         },
-        "title": {"translate":"Anti-Air"},
-        "description": {"translate":"Shoot down a phantom with a bow or crossbow"},
+        "title": {"translate":"att2.advancement.combat.title.anti_air"},
+        "description": {"translate":"att2.advancement.combat.description.anti_air"},
         "frame": "challenge"
     },
     "parent": "att2:combat/shoot_arrow",

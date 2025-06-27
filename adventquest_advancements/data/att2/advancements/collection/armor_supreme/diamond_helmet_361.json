@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Masque des ères oubliées"},
-        "description": {"translate":"He who wears it sees through the ashes of the past, secrets buried beneath silence."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_supreme/chainmail_helmet_357",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "diamond_helmet_361": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§aMasque des ères oubliées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Celui qui le porte voit à travers les cendres du passé,\\\"}\",\"{\\\"text\\\":\\\"§7 les secrets enfouis sous le silence.\\\"}\",\"{\\\"text\\\":\\\"§7He who wears it sees through the ashes of the past,\\\"}\",\"{\\\"text\\\":\\\"§7 secrets buried beneath silence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a4 §7DAR§a4 §7LUC§a1 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_supreme.title.diamond_helmet_361"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_supreme.description.diamond_helmet_361"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor_supreme/chainmail_helmet_357",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "diamond_helmet_361": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "361"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

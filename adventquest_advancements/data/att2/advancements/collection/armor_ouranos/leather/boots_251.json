@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Haine de Sôrän"},
-        "description": {"translate":"Let us break this peace so quiet, that even the eternal mornings may fear us."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_ouranos/leather/leggings_250",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_boots_251": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Haine de Sôrän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brisons cette paix si tranquille, pour\\\"}\",\"{\\\"text\\\":\\\"§7que même les matins éternels nous craignent.\\\"}\",\"{\\\"text\\\":\\\"§7Let us break this peace so quiet, that\\\"}\",\"{\\\"text\\\":\\\"§7even the eternal mornings may fear us.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7DAR§c-1\\\"}\"],color:16514979}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.title.boots_251"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.description.boots_251"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/leather/leggings_250",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_boots_251": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "251"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

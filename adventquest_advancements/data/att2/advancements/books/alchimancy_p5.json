@@ -1,42 +1,70 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"The Art Of Alchimancy - Part 5"},
-        "description": {"translate":"Find “A significant advance” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p5"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p5"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/alchimancy_p4",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "al5_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Une avancée considérable - Partie 5\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Une avancée considérable - Partie 5"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al5_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7A significant advance - Part 5\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7A significant advance - Part 5"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al5_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7重大突破 - Part 5\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7重大突破 - Part 5"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -44,10 +72,9 @@
     },
     "requirements": [
         [
-            "al5_fe",
-            "al5_eg",
-            "al5_ch"
-
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_shovel"
-        },
-        "title": {"translate":"Dague de jeu"},
-        "description": {"translate":"What more fun than a weapon fight."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_shovel"
     },
-    "parent": "att2:collection/weapon_angband/shovel_140",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_shovel_141": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§2Dague de jeu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quoi de plus amusant qu'un\\\"}\",\"{\\\"text\\\":\\\"§7combat à l'arme.\\\"}\",\"{\\\"text\\\":\\\"§7What more fun than\\\"}\",\"{\\\"text\\\":\\\"§7a weapon fight.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.shovel_141"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.shovel_141"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/shovel_140",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_shovel_141": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "141"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,22 +1,30 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_leggings",
+            "id": "minecraft:netherite_leggings",
             "nbt": "{CustomModelData:10000002}"
         },
-        "title": {"translate":"Liber Hermetis"},
-        "description": {"translate":"Find the Hermetic Leggings Mythical set"},
+        "title": {"translate": "att2.advancement.collection.mythique.title.liber_hermetis"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.liber_hermetis"},
         "frame": "challenge",
         "hidden":true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_30",
+        "function": "att2:advancement/test_all/collection/liber_hermetis",
         "experience": 10000
                 },
     "criteria": {
-        "liber_hermetis": {
-            "trigger": "minecraft:impossible"
+    "liber_hermetis": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                "items": ["minecraft:netherite_leggings"],
+                "nbt": "{EquipmentID:liberhermetis}"
+                }
+            ]
         }
     }
+ }
 }

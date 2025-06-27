@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_boots"
-        },
-        "title": {"translate":"Bottes de Cédrin"},
-        "description": {"translate":"Uncomfortable and useless."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
     },
-    "parent": "att2:collection/armor_chainmail/boots_74",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "chainmail_boots_75": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_boots"],
-                    "nbt": "{display:{Name:\"\\\"§7Bottes de Cédrin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inconfortables et inutiles.\\\"}\",\"{\\\"text\\\":\\\"§7Uncomfortable and useless.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.boots_75"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.boots_75"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/boots_74",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "chainmail_boots_75": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "75"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Chasseur"},
-        "description": {"translate":"Precise but cumbersome"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden/bow_36",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "bow_37": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§2Chasseur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Précis mais encombrant.\\\"}\",\"{\\\"text\\\":\\\"§7Precise but cumbersome\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_37"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_37"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/bow_36",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "bow_37": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "37"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_pickaxe"
-        },
-        "title": {"translate":"Cœur de marbre"},
-        "description": {"translate":"Here, there is no greater quality, because the coldness does not exempt from ardour."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
     },
-    "parent": "att2:collection/weapon_billgart/pickaxe_182",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "stone_pickaxe_183": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§9Cœur de marbre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ici, il n'est de plus grande qualité,\\\"}\",\"{\\\"text\\\":\\\"§7car le froid n'exempte pas de fougue.\\\"}\",\"{\\\"text\\\":\\\"§7Here, there is no greater quality, because\\\"}\",\"{\\\"text\\\":\\\"§7the coldness does not exempt from ardour.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7DAR§a2 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.pickaxe_183"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.pickaxe_183"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/pickaxe_182",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "stone_pickaxe_183": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "183"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_rabbit"
+            "id": "minecraft:cooked_rabbit"
         },
-        "title": {"translate":"Rabbit craving"},
-        "description": {"translate":"Eat 16 cooked rabbits"},
+        "title": {"translate":"att2.advancement.food.title.rabbit_16"},
+        "description": {"translate":"att2.advancement.food.description.rabbit_16"},
         "frame": "goal"
     },
     "parent": "att2:food/rabbit_4",

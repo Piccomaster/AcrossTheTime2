@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_axe"
-        },
-        "title": {"translate":"Hache vaillante"},
-        "description": {"translate":"Never fails those who handle it boldly."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
     },
-    "parent": "att2:collection/weapon_angband/axe_137",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "golden_axe_144": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_axe"],
-                    "nbt": "{display:{Name:\"\\\"§9Hache vaillante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne fait jamais défaut à ceux qui\\\"}\",\"{\\\"text\\\":\\\"§7la manient avec ardeur.\\\"}\",\"{\\\"text\\\":\\\"§7Never fails those who\\\"}\",\"{\\\"text\\\":\\\"§7handle it boldly.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a2 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.axe_144"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.axe_144"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/axe_137",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_axe_144": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "144"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

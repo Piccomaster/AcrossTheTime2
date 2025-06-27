@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bone"
+            "id": "minecraft:bone"
         },
-        "title": {"translate":"Wolf Killer"},
-        "description": {"translate":"Kill 10 Wolves"}
+        "title": {"translate":"att2.advancement.mobskilled.title.wolfs_killed_10"},
+        "description": {"translate":"att2.advancement.mobskilled.description.wolfs_killed_10"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:16187275}"
-        },
-        "title": {"translate":"Nectar somptueux"},
-        "description": {"translate":"Legendary royal drink which only the wealthy have the chance to taste."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_29",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "potion_55": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§6Nectar somptueux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Boisson légendaire royale dont seul les plus\\\"}\",\"{\\\"text\\\":\\\"§7fortunés ont la chance d'y gouter.\\\"}\",\"{\\\"text\\\":\\\"§7Legendary royal drink which only\\\"}\",\"{\\\"text\\\":\\\"§7the wealthy have the chance to taste.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1 §7LUC§a2\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "55"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_55"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_55"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_29",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "potion_55": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "55"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

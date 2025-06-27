@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Sylberländ Valley Panorama"},
-        "description": {"translate":"Discover the panorama of the great Valley of Sylberländ"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_silberland_valley"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_silberland_valley"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_volcano",

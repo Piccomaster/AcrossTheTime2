@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_chestplate"
-        },
-        "title": {"translate":"Aigle rayonnant"},
-        "description": {"translate":"Imperial, with a single wing movement, he asserted his superiority."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
     },
-    "parent": "att2:collection/armor_iron/chestplate_124",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "iron_chestplate_128": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Aigle rayonnant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Impérial, d'un unique mouvement\\\"}\",\"{\\\"text\\\":\\\"§7d'aile, il affirma sa supériorité.\\\"}\",\"{\\\"text\\\":\\\"§7Imperial, with a single wing movement,\\\"}\",\"{\\\"text\\\":\\\"§7he asserted his superiority.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.chestplate_128"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.chestplate_128"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/chestplate_124",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_chestplate_128": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "128"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

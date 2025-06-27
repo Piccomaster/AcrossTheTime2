@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_shovel"
-        },
-        "title": {"translate":"Scramasaxe pour Marion"},
-        "description": {"translate":"Slash at will, whether in your name or in your mother's."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
     },
-    "parent": "att2:collection/weapon_netherite/shovel_302",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_shovel_303": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Scramasaxe pour Marion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Entaille à volonté, que ce soit en ton nom\\\"}\",\"{\\\"text\\\":\\\"§7ou en celui de ta mère.\\\"}\",\"{\\\"text\\\":\\\"§7Slash at will, whether in your name\\\"}\",\"{\\\"text\\\":\\\"§7or in your mother's.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.shovel_303"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.shovel_303"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/shovel_302",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_shovel_303": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "303"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

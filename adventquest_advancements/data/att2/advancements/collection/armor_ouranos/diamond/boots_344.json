@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Patte de la brume"},
-        "description": {"translate":"Where there's smoke there's fire. As does loot for chest."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/boots_340",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_boots_344": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Patte de la brume\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il n'y a pas de fumée sans feu.\\\"}\",\"{\\\"text\\\":\\\"§7Ni de coffre sans butin.\\\"}\",\"{\\\"text\\\":\\\"§7Where there's smoke there's fire.\\\"}\",\"{\\\"text\\\":\\\"§7As does loot for chest.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.boots_344"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.boots_344"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/boots_340",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_boots_344": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "344"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

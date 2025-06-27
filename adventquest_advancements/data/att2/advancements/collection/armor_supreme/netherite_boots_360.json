@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Solerets du crépuscule éternel"},
-        "description": {"translate":"Each step echoes in the twilight of the dusk, treading an ever-lost dawn."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_supreme/iron_boots_356",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "netherite_boots_360": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§aSolerets du crépuscule éternel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Chaque pas résonne dans l’écho d’un soir,\\\"}\",\"{\\\"text\\\":\\\"§7foulant l’aube à jamais perdue.\\\"}\",\"{\\\"text\\\":\\\"§7Each step echoes in the twilight of the dusk,\\\"}\",\"{\\\"text\\\":\\\"§7 treading an ever-lost dawn.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a3 §7HAS§a3 §7DAR§a3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_supreme.title.netherite_boots_360"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_supreme.description.netherite_boots_360"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor_supreme/iron_boots_356",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "netherite_boots_360": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "360"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

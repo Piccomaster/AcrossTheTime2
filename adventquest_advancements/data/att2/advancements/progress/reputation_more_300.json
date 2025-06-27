@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:torch"
+            "id": "minecraft:torch"
         },
-        "title": {"translate":"Hero in Tellurön"},
-        "description": {"translate":"Reach 300 in reputation"},
+        "title": {"translate":"att2.advancement.progress.title.reputation_more_300"},
+        "description": {"translate":"att2.advancement.progress.description.reputation_more_300"},
         "frame": "challenge"
     },
     "parent": "att2:progress/reputation_more_200",

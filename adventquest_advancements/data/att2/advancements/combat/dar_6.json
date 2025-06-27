@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:potion"
+            "id": "minecraft:potion"
         },
-        "title": {"translate":"Self-sufficiency"},
-        "description": {"translate":"Free yourself right now"}
+        "title": {"translate":"att2.advancement.combat.title.dar_6"},
+        "description": {"translate":"解放自我"}
     },
     "parent": "att2:combat/dar_2",
     "rewards": {

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:writable_book"
+            "id": "minecraft:writable_book"
         },
-        "title": {"translate":"Tiid Klo Ul"},
-        "description": {"translate":"Find Tiid Klo Ul spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell9_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell9_loot"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

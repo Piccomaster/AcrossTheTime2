@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Collants inquiétants"},
-        "description": {"translate":"Bad omens arise, when fate strikes the luckiest...."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather/leggings_50",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "leather_leggings_66": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Collants inquiétants\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aMauvais augures surviennent,\\\"}\",\"{\\\"text\\\":\\\"§aquand le destin frappe les plus chanceux...\\\"}\",\"{\\\"text\\\":\\\"§aBad omens arise, when\\\"}\",\"{\\\"text\\\":\\\"§afate strikes the luckiest....\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a2 §7RES§c-1\\\"}\"],color:8130571}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_66"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_66"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/leggings_50",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "leather_leggings_66": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "66"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

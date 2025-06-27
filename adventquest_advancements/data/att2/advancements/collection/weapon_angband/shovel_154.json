@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_shovel"
-        },
-        "title": {"translate":"Tréfonds glaciaux"},
-        "description": {"translate":"At the very bottom lies the unexpected, curled up in a petrifying breeze and burning with absurd coldness..."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_shovel"
     },
-    "parent": "att2:collection/weapon_angband/shovel_149",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_shovel_154": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§5Tréfonds glaciaux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tout en bas se cache l'inattendu, lové dans une\\\"}\",\"{\\\"text\\\":\\\"§7brise pétrifiante et brûlant d'une froideur absurde...\\\"}\",\"{\\\"text\\\":\\\"§7At the very bottom lies the unexpected, curled up in\\\"}\",\"{\\\"text\\\":\\\"§7a petrifying breeze and burning with absurd coldness...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7DAR§a2 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.shovel_154"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.shovel_154"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/shovel_149",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_shovel_154": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "154"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

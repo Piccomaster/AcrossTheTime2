@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_pickaxe"
-        },
-        "title": {"translate":"Méloquien"},
-        "description": {"translate":"Immense and unshakeable, you persist."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
     },
-    "parent": "att2:collection/weapon_diamond/pickaxe_107",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_pickaxe_114": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§9Méloquien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Immense et inébranlable, tu persistes.\\\"}\",\"{\\\"text\\\":\\\"§7Immense and unshakeable, you persist.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.pickaxe_114"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.pickaxe_114"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/pickaxe_107",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_pickaxe_114": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "114"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

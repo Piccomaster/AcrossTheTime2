@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cake"
+            "id": "minecraft:cake"
         },
-        "title": {"translate":"Food"},
-        "description": {"translate":"The world is full of friends and food"},
-        "background": "minecraft:textures/block/purpur_block.png",
+        "title": {"translate":"att2.advancement.food.title.root"},
+        "description": {"translate":"att2.advancement.food.description.root"},
+        "background": "minecraft:block/purpur_block",
         "show_toast": true,
         "announce_to_chat": true
     },

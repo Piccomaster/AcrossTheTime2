@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_sword"
-        },
-        "title": {"translate":"Épée"},
-        "description": {"translate":"Blunt."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
     },
-    "parent": "att2:collection/weapon_stone/sword_7",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "wooden_sword_8": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Épée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emoussée.\\\"}\",\"{\\\"text\\\":\\\"§7Blunt.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.sword_8"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.sword_8"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/sword_7",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "wooden_sword_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "8"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

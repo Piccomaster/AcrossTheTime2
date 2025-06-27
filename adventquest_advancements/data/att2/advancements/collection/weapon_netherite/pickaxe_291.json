@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_pickaxe"
-        },
-        "title": {"translate":"Heurtoir transformé"},
-        "description": {"translate":"Hitting on people is more fun than doors."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
     },
-    "parent": "att2:collection/weapon_netherite/pickaxe_290",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_pickaxe_291": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§2Heurtoir transformé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Heurter les gens, c'est plus sympa que les portes.\\\"}\",\"{\\\"text\\\":\\\"§7Hitting on people is more fun than doors.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.pickaxe_291"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.pickaxe_291"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/pickaxe_290",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_pickaxe_291": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "291"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

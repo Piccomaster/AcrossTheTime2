@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Sandalette du citoyen"},
-        "description": {"translate":"City fashion."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_netherite/boots_272",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_boots_279": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§2Sandalette du citoyen\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La mode de la cité.\\\"}\",\"{\\\"text\\\":\\\"§7City fashion.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.boots_279"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.boots_279"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/boots_272",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_boots_279": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "279"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_helmet"
-        },
-        "title": {"translate":"Tiare de la princesse"},
-        "description": {"translate":"As impertinent as their privileges are, it would be costly for its owner to get rid of them."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_helmet"
     },
-    "parent": "att2:collection/armor_chainmail/helmet_95",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "chainmail_helmet_297": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Tiare de la princesse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAussi impertinents que sont leurs privilèges,\\\"}\",\"{\\\"text\\\":\\\"§ail coûterait à sa détentrice de s'en passer.\\\"}\",\"{\\\"text\\\":\\\"§aAs impertinent as their privileges are,\\\"}\",\"{\\\"text\\\":\\\"§ait would be costly for its owner to get rid of them.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.helmet_297"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.helmet_297"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/helmet_95",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "chainmail_helmet_297": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "297"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

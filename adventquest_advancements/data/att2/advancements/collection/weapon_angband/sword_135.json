@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_sword"
-        },
-        "title": {"translate":"Souvenir brisé"},
-        "description": {"translate":"Not all wounds heal."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
     },
-    "parent": "att2:collection/weapon_angband/sword_134",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_sword_135": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Souvenir brisé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Toutes les blessures ne guérissent pas.\\\"}\",\"{\\\"text\\\":\\\"§7Not all wounds heal.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-2 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.sword_135"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.sword_135"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/sword_134",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_sword_135": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "135"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

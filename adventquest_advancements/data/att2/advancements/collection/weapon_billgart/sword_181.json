@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_sword"
-        },
-        "title": {"translate":"Pointe aiguisée"},
-        "description": {"translate":"For the fastest of my friends."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword"
     },
-    "parent": "att2:collection/weapon_billgart/sword_180",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_sword_181": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Pointe aiguisée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pour le plus rapide de mes amis.\\\"}\",\"{\\\"text\\\":\\\"§7For the fastest of my friends.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.sword_181"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.sword_181"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/sword_180",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_sword_181": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "181"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

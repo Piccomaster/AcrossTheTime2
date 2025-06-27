@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:melon"
+            "id": "minecraft:melon"
         },
-        "title": {"translate":"All Crossbows"},
-        "description": {"translate":"Find all crossbow items"},
+        "title": {"translate": "att2.advancement.collection.title.crossbow_all"},
+        "description": {"translate": "att2.advancement.collection.description.crossbow_all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/root",

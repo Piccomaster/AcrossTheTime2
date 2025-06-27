@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_shovel"
-        },
-        "title": {"translate":"Tranchoir d'infini tourment"},
-        "description": {"translate":"Every scar he leaves in his wake tears the mind with eternal pain."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
     },
-    "parent": "att2:collection/weapon_netherite/shovel_310",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_shovel_315": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§6Tranchoir d'infini tourment\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Chaque cicatrice qu’il laisse dans son sillage\\\"}\",\"{\\\"text\\\":\\\"§7déchire l'esprit d'une éternelle souffrance.\\\"}\",\"{\\\"text\\\":\\\"§7Every scar he leaves in his wake\\\"}\",\"{\\\"text\\\":\\\"§7tears the mind with eternal pain.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a2 §7HER§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.shovel_315"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.shovel_315"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/shovel_310",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_shovel_315": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "315"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

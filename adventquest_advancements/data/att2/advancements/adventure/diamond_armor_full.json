@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_chestplate"
+            "id": "minecraft:diamond_chestplate"
         },
-        "title": {"translate":"Full diamond!"},
-        "description": {"translate":"Protect yourself with a full set of diamond armor"}
+        "title": {"translate":"att2.advancement.adventure.title.diamond_armor_full"},
+        "description": {"translate":"att2.advancement.adventure.description.diamond_armor_full"}
     },
     "parent": "att2:adventure/diamond_armor",
     "rewards": {

@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:16777215}"
-        },
-        "title": {"translate":"Sublime Furtivité"},
-        "description": {"translate":"Death is elusive."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "potion_19": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§9Sublime Furtivité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La mort est insaisissable.\\\"}\",\"{\\\"text\\\":\\\"§7Death is elusive.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7SPD§c-4\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "19"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_19"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_19"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "potion_19": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "19"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

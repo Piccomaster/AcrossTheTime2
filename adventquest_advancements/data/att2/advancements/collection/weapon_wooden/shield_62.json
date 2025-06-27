@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Désespoir"},
-        "description": {"translate":"All is lost, the end is so near, but it will not come as long as the energy of despair lives in you."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_wooden/shield_61",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "shield_62": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§5Désespoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tout est perdu, la fin est si proche, mais elle ne viendra pas\\\"}\",\"{\\\"text\\\":\\\"§7tant que l'énergie du désespoir t'habitera.\\\"}\",\"{\\\"text\\\":\\\"§7All is lost, the end is so near, but it will\\\"}\",\"{\\\"text\\\":\\\"§7not come as long as the energy of despair lives in you.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7DAR§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.shield_62"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.shield_62"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/shield_61",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "shield_62": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "62"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

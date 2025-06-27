@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_hoe"
-        },
-        "title": {"translate":"Reste de joute"},
-        "description": {"translate":"Worn spear."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
     },
-    "parent": "att2:collection/weapon_diamond/hoe_270",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_hoe_271": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§7Reste de joute\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Lance usée.\\\"}\",\"{\\\"text\\\":\\\"§7Worn spear.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.hoe_271"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.hoe_271"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/hoe_270",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_hoe_271": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "271"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_pickaxe"
-        },
-        "title": {"translate":"Guédéron"},
-        "description": {"translate":"You are strong, very strong, the strongest of us."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
     },
-    "parent": "att2:collection/weapon_iron/pickaxe_75",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_pickaxe_82": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§9Guédéron\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tu es fort, très fort,\\\"}\",\"{\\\"text\\\":\\\"§7le plus fort d'entre nous.\\\"}\",\"{\\\"text\\\":\\\"§7You are strong, very strong,\\\"}\",\"{\\\"text\\\":\\\"§7the strongest of us.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.pickaxe_82"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.pickaxe_82"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/pickaxe_75",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_pickaxe_82": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "82"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

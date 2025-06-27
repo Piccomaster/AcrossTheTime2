@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Roc       "},
-        "description": {"translate":"Old as the world but still so resilient."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_wooden/shield_58",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "shield_59": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§9Roc\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vieux comme le monde\\\"}\",\"{\\\"text\\\":\\\"§7et pourtant si résistant.\\\"}\",\"{\\\"text\\\":\\\"§7Old as the world but still\\\"}\",\"{\\\"text\\\":\\\"§7so resilient.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7SPD§c-3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.shield_59"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.shield_59"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/shield_58",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "shield_59": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "59"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

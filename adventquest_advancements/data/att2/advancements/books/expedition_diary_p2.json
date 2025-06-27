@@ -1,42 +1,70 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"Myorain's Diary - Part 2"},
-        "description": {"translate":"Find “Following my expedition diary” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.expedition_diary_p2"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.expedition_diary_p2"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/expedition_diary_p1",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "myorain_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Suite à mon journal d'expédition\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Suite à mon journal d'expédition"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "myorain_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Following my expedition diary\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Following my expedition diary"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "myorain_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7我的探险日记\\\"}\"]}}"      
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7我的探险日记"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -44,9 +72,9 @@
     },
     "requirements": [
         [
-            "myorain_fe",
-            "myorain_eg",
-            "myorain_ch"
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

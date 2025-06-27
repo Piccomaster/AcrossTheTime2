@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_pickaxe"
-        },
-        "title": {"translate":"Kot'ho"},
-        "description": {"translate":"There's nothing more to say."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
     },
-    "parent": "att2:collection/weapon_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_pickaxe_176": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§7Kot'ho\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rien à ajouter.\\\"}\",\"{\\\"text\\\":\\\"§7There's nothing more to say.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.pickaxe_176"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.pickaxe_176"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_pickaxe_176": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "176"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

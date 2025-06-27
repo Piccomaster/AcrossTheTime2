@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Bottes du prince"},
-        "description": {"translate":"What took them out of their master's foot is a mystery... or a tragedy."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_leather/boots_59",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "leather_boots_51": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Bottes du prince\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ce qui les a retirées du pied de leur\\\"}\",\"{\\\"text\\\":\\\"§7maître est un mystère... ou une tragédie.\\\"}\",\"{\\\"text\\\":\\\"§7What took them out of their master's foot\\\"}\",\"{\\\"text\\\":\\\"§7is a mystery... or a tragedy.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7DAR§a3 §7LUC§c-1\\\"}\"],color:3983}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.boots_51"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.boots_51"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/boots_59",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "leather_boots_51": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "51"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

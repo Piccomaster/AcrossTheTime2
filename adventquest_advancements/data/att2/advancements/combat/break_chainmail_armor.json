@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chainmail_chestplate"
+            "id": "minecraft:chainmail_chestplate"
         },
-        "title": {"translate":"Chainmail armor break"},
-        "description": {"translate":"Destroy any chainmail armor in battle"}
+        "title": {"translate":"att2.advancement.combat.title.break_chainmail_armor"},
+        "description": {"translate":"att2.advancement.combat.description.break_chainmail_armor"}
     },
     "parent": "att2:combat/break_armor",
     "rewards": {

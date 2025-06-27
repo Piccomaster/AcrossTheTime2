@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "id": "minecraft:shield"
         },
-        "title": {"translate":"Barrage"},
-        "description": {"translate":"Block 100 damage with your shield"},
+        "title": {"translate":"att2.advancement.combat.title.damage_block_100"},
+        "description": {"translate":"att2.advancement.combat.description.damage_block_100"},
         "frame": "goal"
     },
     "parent": "att2:combat/damage_block",

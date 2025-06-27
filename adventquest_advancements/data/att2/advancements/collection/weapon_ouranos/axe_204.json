@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_axe"
-        },
-        "title": {"translate":"Hache du marchand"},
-        "description": {"translate":"He's always been mysterious..."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
     },
-    "parent": "att2:collection/weapon_ouranos/axe_201",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "stone_axe_204": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_axe"],
-                    "nbt": "{display:{Name:\"\\\"§9Hache du marchand\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il a toujours été mystérieux...\\\"}\",\"{\\\"text\\\":\\\"§7He's always been mysterious...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.axe_204"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.axe_204"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/axe_201",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "stone_axe_204": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "204"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

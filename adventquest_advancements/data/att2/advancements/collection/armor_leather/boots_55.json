@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Méjobora"},
-        "description": {"translate":"The lily is your virtue, the rose your anger and the columbine your sorrow."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_leather/boots_67",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "leather_boots_55": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Méjobora\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le lys est ta vertu, la rose ta colère\\\"}\",\"{\\\"text\\\":\\\"§7et l'ancolie ta peine.\\\"}\",\"{\\\"text\\\":\\\"§7The lily is your virtue, the rose your anger\\\"}\",\"{\\\"text\\\":\\\"§7and the columbine your sorrow.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a3 §7LUC§a1\\\"}\"],color:16776099}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.boots_55"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.boots_55"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/boots_67",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_boots_55": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "55"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:4738620}"
-        },
-        "title": {"translate":"Puissance Ineffable"},
-        "description": {"translate":"Explode your strength, at the cost of insatiable hunger."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "potion_27": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§6Puissance Ineffable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Faites exploser votre force,\\\"}\",\"{\\\"text\\\":\\\"§7au prix d'une insatiable faim.\\\"}\",\"{\\\"text\\\":\\\"§7Explode your strength,\\\"}\",\"{\\\"text\\\":\\\"§7at the cost of insatiable hunger.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "27"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_27"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_27"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "potion_27": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "27"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

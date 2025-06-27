@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_shovel"
-        },
-        "title": {"translate":"Aube éternelle"},
-        "description": {"translate":"The night is wrong and weak, let the day roll into your blade and shine with a thousand shines..."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel"
     },
-    "parent": "att2:collection/weapon_diamond/shovel_122",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_shovel_126": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§6Aube éternelle\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La nuit est fausse et faible, laisse le jour \\\"}\",\"{\\\"text\\\":\\\"§7se lover en ta lame et briller de mille éclats...\\\"}\",\"{\\\"text\\\":\\\"§7The night is wrong and weak, let the day\\\"}\",\"{\\\"text\\\":\\\"§7roll into your blade and shine with a thousand shines...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a4 §7HAS§a4\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.shovel_126"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.shovel_126"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/shovel_122",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_shovel_126": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "126"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:baked_potato"
+            "id": "minecraft:baked_potato"
         },
-        "title": {"translate":"Potato craving"},
-        "description": {"translate":"Eat 32 baked potatoes"},
+        "title": {"translate":"att2.advancement.food.title.potato_32"},
+        "description": {"translate":"att2.advancement.food.description.potato_32"},
         "frame": "goal"
     },
     "parent": "att2:food/potato_8",

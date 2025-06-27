@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone"
+            "id": "minecraft:redstone"
         },
-        "title": {"translate":"Little supper"},
-        "description": {"translate":"Enough to satiate"}
+        "title": {"translate":"att2.advancement.combat.title.hun_4"},
+        "description": {"translate":"att2.advancement.combat.description.hun_4"}
     },
     "parent": "att2:combat/hun_2",
     "rewards": {

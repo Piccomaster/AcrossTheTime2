@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_pickaxe"
-        },
-        "title": {"translate":"Garde famille"},
-        "description": {"translate":"Flawless, it protects and serves the family that gave birth to it."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe"
     },
-    "parent": "att2:collection/weapon_stone/pickaxe_20",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "wooden_pickaxe_26": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§5Garde famille\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sans failles, il protège et sert\\\"}\",\"{\\\"text\\\":\\\"§7la famille qui l'a vu naître.\\\"}\",\"{\\\"text\\\":\\\"§7Flawless, it protects and serves\\\"}\",\"{\\\"text\\\":\\\"§7the family that gave birth to it.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.pickaxe_26"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.pickaxe_26"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/pickaxe_20",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "wooden_pickaxe_26": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "26"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

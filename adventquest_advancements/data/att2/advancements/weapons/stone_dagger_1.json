@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_shovel"
+            "id": "minecraft:stone_shovel"
         },
-        "title": {"translate":"Ouranos dagger strike"},
-        "description": {"translate":"Strike once with an Ouranos dagger"}
+        "title": {"translate": "att2.advancement.weapons.title.stone_dagger_1"},
+        "description": {"translate": "att2.advancement.weapons.description.stone_dagger_1"}
     },
     "parent": "att2:weapons/root",
     "rewards": {

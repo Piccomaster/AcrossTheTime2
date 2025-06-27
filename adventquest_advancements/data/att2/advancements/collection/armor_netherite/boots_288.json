@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Chacelïn"},
-        "description": {"translate":"No I assure you, my fickleness is not a sign of lunacy. Go to hell."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_netherite/boots_287",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_boots_288": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Chacelïn\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Non je t'assure, mon inconstance n'est\\\"}\",\"{\\\"text\\\":\\\"§7aucunement témoin de lunatisme. Va crever.\\\"}\",\"{\\\"text\\\":\\\"§7No I assure you, my fickleness is not\\\"}\",\"{\\\"text\\\":\\\"§7a sign of lunacy. Go to hell.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.boots_288"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.boots_288"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/boots_287",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_boots_288": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "288"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

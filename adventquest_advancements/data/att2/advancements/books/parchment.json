@@ -1,42 +1,70 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"Ancient Parchment"},
-        "description": {"translate":"Find the “Ancient Parchment”"},
+        "title": {
+            "translate": "att2.advancement.books.title.parchment"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.parchment"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/root",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "parchment_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Adanoï\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Adanoï"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "parchment_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Adanoï\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Adanoï"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "parchment_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Adanoï\\\"}\"]}}"      
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Adanoï"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -44,9 +72,9 @@
     },
     "requirements": [
         [
-            "parchment_fe",
-            "parchment_eg",
-            "parchment_ch"
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

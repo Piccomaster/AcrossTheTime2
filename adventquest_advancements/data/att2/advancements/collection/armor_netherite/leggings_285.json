@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_leggings"
-        },
-        "title": {"translate":"Conception instable"},
-        "description": {"translate":"Caprice of the soldier a little too indebted."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
     },
-    "parent": "att2:collection/armor_netherite/leggings_278",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_leggings_285": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Conception instable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Caprice du soldat un peu trop endetté.\\\"}\",\"{\\\"text\\\":\\\"§7Caprice of the soldier a little too indebted.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.leggings_285"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.leggings_285"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/leggings_278",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_leggings_285": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "285"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:white_candle"
+            "id": "minecraft:white_candle"
         },
-        "title": {"translate":"Misc selling"},
-        "description": {"translate":"Sell 1000 misc items"},
+        "title": {"translate": "att2.advancement.treasure.title.sold_misc_1000"},
+        "description": {"translate": "att2.advancement.treasure.description.sold_misc_1000"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/sold_1000",

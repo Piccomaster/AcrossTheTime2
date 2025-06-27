@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wither_skeleton_skull"
+            "id": "minecraft:wither_skeleton_skull"
         },
-        "title": {"translate":"Are you an Eternän ?"},
-        "description": {"translate":"Complete the main quest without dying once in gameplay in Nightmare difficulty."},
+        "title": {"translate":"att2.advancement.story.title.nodeath_nightmare"},
+        "description": {"translate":"att2.advancement.story.description.nodeath_nightmare"},
         "frame": "challenge",
         "hidden": true
     },

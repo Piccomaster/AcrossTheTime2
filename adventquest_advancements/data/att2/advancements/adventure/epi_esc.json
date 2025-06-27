@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_sword"
+            "id": "minecraft:diamond_sword"
         },
-        "title": {"translate":"Sovereign"},
-        "description": {"translate":"Find a sovereign item"},
+        "title": {"translate":"att2.advancement.adventure.title.epi_esc"},
+        "description": {"translate":"att2.advancement.adventure.description.epi_esc"},
         "frame": "goal"
     },
     "parent": "att2:adventure/rar",

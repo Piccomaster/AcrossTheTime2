@@ -1,30 +1,42 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:glowstone_dust",
-            "nbt" : "{CustomModelData:10000007}"
-        },
-        "title": {"translate":"Nym"},
-        "description": {"translate":"Drop Rune Tier C."}
-    },
-    "parent": "att2:runes/5_ra",
-    "rewards": {
-        "function": "att2:advancement/exploit_3",
-        "experience": 1700
-                },
-    "criteria": {
-        "collection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": [
-                        "minecraft:glowstone_dust"
-                        ],
-                    "nbt" : "{CustomModelData:10000007}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            10000007
+          ]
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.runes.title.6_nym"
+    },
+    "description": {
+      "translate": "att2.advancement.runes.description.6_nym"
     }
+  },
+  "parent": "att2:runes/5_ra",
+  "rewards": {
+    "function": "att2:advancement/test_all/runes/6_nym",
+    "experience": 1700
+  },
+  "criteria": {
+    "collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Runelvl": "6"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
 }

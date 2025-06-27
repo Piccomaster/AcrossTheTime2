@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Bûche façonnée"},
-        "description": {"translate":"Confection of an annoyed logger."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_wooden/crossbow_245",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "crossbow_246": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§2Bûche façonnée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Confection d'un bûcheron agacé.\\\"}\",\"{\\\"text\\\":\\\"§7Confection of an annoyed logger.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.crossbow_246"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.crossbow_246"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/crossbow_245",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "crossbow_246": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "246"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

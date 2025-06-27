@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:raw_iron"
+            "id": "minecraft:raw_iron"
         },
-        "title": {"translate":"Professional Miner"},
-        "description": {"translate":"Mine 150 Runic Minerals"},
+        "title": {"translate": "att2.advancement.treasure.title.mining_tot_150"},
+        "description": {"translate": "att2.advancement.treasure.description.mining_tot_150"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mining_tot_75",

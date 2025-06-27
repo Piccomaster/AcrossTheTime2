@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_hoe"
-        },
-        "title": {"translate":"Déid gal éther"},
-        "description": {"translate":"Work of the will of all those who were once lost, blazing from the field of a billion individuals."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe"
     },
-    "parent": "att2:collection/weapon_angband/hoe_324",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_hoe_325": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§6Déid gal éther\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Œuvre de la volonté de tous ceux qui jadis furent perdus,\\\"}\",\"{\\\"text\\\":\\\"§7flambant du champ d'un milliard d'individus.\\\"}\",\"{\\\"text\\\":\\\"§7Work of the will of all those who were once lost,\\\"}\",\"{\\\"text\\\":\\\"§7blazing from the field of a billion individuals.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HER§a1 §7DAR§a1 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.hoe_325"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.hoe_325"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/hoe_324",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_hoe_325": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "325"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

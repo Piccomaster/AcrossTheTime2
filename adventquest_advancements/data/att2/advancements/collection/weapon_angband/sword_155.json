@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_sword"
-        },
-        "title": {"translate":"Sombre dévotion"},
-        "description": {"translate":"Unconscious to the point of losing your colour, violent to the point of confusing friend with enemy."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
     },
-    "parent": "att2:collection/weapon_angband/sword_151",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_sword_155": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§5Sombre dévotion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inconscient au point d'en perdre ta couleur,\\\"}\",\"{\\\"text\\\":\\\"§7violent au point d'en confondre ami d'ennemi.\\\"}\",\"{\\\"text\\\":\\\"§7Unconscious to the point of losing your colour,\\\"}\",\"{\\\"text\\\":\\\"§7violent to the point of confusing friend with enemy.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7HAS§a3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.sword_155"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.sword_155"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/sword_151",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_sword_155": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "155"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

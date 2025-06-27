@@ -1,31 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:glowstone_dust",
-            "nbt" : "{CustomModelData:10000021}"
-        },
-        "title": {"translate":"Puh"},
-        "description": {"translate":"Drop Rune Tier A."},
-        "frame": "challenge"
-    },
-    "parent": "att2:runes/19_bex",
-    "rewards": {
-        "function": "att2:advancement/exploit_10",
-        "experience": 3300
-                },
-    "criteria": {
-        "collection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": [
-                        "minecraft:glowstone_dust"
-                        ],
-                    "nbt" : "{CustomModelData:10000021}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            10000021
+          ]
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.runes.title.20_puh"
+    },
+    "description": {
+      "translate": "att2.advancement.runes.description.20_puh"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:runes/19_bex",
+  "rewards": {
+    "function": "att2:advancement/test_all/runes/20_puh",
+    "experience": 3300
+  },
+  "criteria": {
+    "collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Runelvl": "20"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

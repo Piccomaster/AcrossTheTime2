@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Pénombre"},
-        "description": {"translate":"The primordial night doesn't seem that far away anymore."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_diamond/leggings_181",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_leggings_188": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Pénombre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'étrenne nuit ne semble plus\\\"}\",\"{\\\"text\\\":\\\"§7aussi lointaine.\\\"}\",\"{\\\"text\\\":\\\"§7The primordial night doesn't seem\\\"}\",\"{\\\"text\\\":\\\"§7that far away anymore.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.leggings_188"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.leggings_188"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/leggings_181",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_leggings_188": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "188"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

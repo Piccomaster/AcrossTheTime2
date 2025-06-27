@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Fausse capuche"},
-        "description": {"translate":"The surprise effect is yours, because it is indeed a helmet that is hidden underneath."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_leather/helmet_56",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "leather_helmet_48": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Fausse capuche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'effet de surprise est vôtre, car\\\"}\",\"{\\\"text\\\":\\\"§7c'est bien un casque qui se cache dessous.\\\"}\",\"{\\\"text\\\":\\\"§7The surprise effect is yours, because\\\"}\",\"{\\\"text\\\":\\\"§7it is indeed a helmet that is hidden underneath.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7SPD§c-1\\\"}\"],color:7595754}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.helmet_48"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.helmet_48"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/helmet_56",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "leather_helmet_48": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "48"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_sword"
-        },
-        "title": {"translate":"Gurthang"},
-        "description": {"translate":"I will drink thy blood gladly, that so	I may forget the blood of Beleg my master."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
     },
-    "parent": "att2:collection/weapon_diamond/sword_123",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_sword_127": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§6Gurthang\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Je boirai ton sang avec joie,\\\"}\",\"{\\\"text\\\":\\\"§7pour oublier le sang de Beleg.\\\"}\",\"{\\\"text\\\":\\\"§7I will drink thy blood gladly, that so\\\"}\",\"{\\\"text\\\":\\\"§7I may forget the blood of Beleg my master.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a3 §7HER§a2 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.sword_127"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.sword_127"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/sword_123",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_sword_127": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "127"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

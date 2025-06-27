@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Phoenix NPC"},
-        "description": {"translate":"Talk to all Phoenix people"},
+        "title": {"translate":"att2.advancement.journey.title.pnj_phoenix"},
+        "description": {"translate":"att2.advancement.journey.description.pnj_phoenix"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_phoenix",

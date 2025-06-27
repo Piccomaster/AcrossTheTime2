@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"L'échec d'Agart"},
-        "description": {"translate":"The desire of one is not enough for the peace of a world to endure."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_billgart/shield_194",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "shield_195": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§5L'échec d'Agart\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il ne suffit pas qu'au désir d'un seul\\\"}\",\"{\\\"text\\\":\\\"§7pour que perdure la paix d'un monde.\\\"}\",\"{\\\"text\\\":\\\"§7The desire of one is not enough for\\\"}\",\"{\\\"text\\\":\\\"§7the peace of a world to endure.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HER§a1 §7LUC§a1 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.shield_195"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.shield_195"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/shield_194",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "shield_195": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "195"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

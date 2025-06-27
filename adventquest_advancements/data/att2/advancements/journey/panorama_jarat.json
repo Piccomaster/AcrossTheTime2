@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Jarat Panorama"},
-        "description": {"translate":"Discover the panorama of Jarat campement"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_jarat"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_jarat"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_jarat",

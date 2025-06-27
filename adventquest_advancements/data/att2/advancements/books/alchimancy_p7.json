@@ -1,42 +1,70 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"The Art Of Alchimancy - Part 7"},
-        "description": {"translate":"Find “A great power” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p7"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p7"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/alchimancy_p6",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "al7_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Un immense pouvoir - Partie 7\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Un immense pouvoir - Partie 7"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al7_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7A great power - Part 7\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7A great power - Part 7"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al7_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7奇妙的力量 - Part 7\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7奇妙的力量 - Part 7"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -44,10 +72,9 @@
     },
     "requirements": [
         [
-            "al7_fe",
-            "al7_eg",
-            "al7_ch"
-
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

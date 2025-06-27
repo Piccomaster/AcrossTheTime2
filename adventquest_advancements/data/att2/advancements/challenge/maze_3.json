@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:spruce_hanging_sign"
         },
-        "title": {"translate":"MAZE III!"},
-        "description": {"translate":"Complete the maze 3."}
+        "title": {"translate":"att2.advancement.challenge.title.maze_3"},
+        "description": {"translate":"att2.advancement.challenge.description.maze_3"}
     },
     "parent": "att2:challenge/maze_2",
     "rewards": {

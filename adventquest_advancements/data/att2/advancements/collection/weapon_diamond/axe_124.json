@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_axe"
-        },
-        "title": {"translate":"Songes fulgurants"},
-        "description": {"translate":"The strength and honor of the immortal hardly diminishes in the face of darkness."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
     },
-    "parent": "att2:collection/weapon_diamond/axe_120",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_axe_124": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_axe"],
-                    "nbt": "{display:{Name:\"\\\"§6Songes fulgurants\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Claire comme obscure, rien ne peut bouleverser\\\"}\",\"{\\\"text\\\":\\\"§7l'éclat de la plus splendide des nuits.\\\"}\",\"{\\\"text\\\":\\\"§7Light as dark, nothing can upset\\\"}\",\"{\\\"text\\\":\\\"§7the brightness of the most splendid night.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§a2 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.axe_124"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.axe_124"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/axe_120",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_axe_124": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "124"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

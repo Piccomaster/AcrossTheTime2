@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Chaussures inconfortables"},
-        "description": {"translate":"But less than clogs."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_leather/boots_38",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_boots_39": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§2Chaussures inconfortables\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais moins que des sabots.\\\"}\",\"{\\\"text\\\":\\\"§7But less than clogs.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"],color:4020859}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.boots_39"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.boots_39"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/boots_38",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_boots_39": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "39"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

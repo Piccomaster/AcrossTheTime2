@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:zombie_head"
+            "id": "minecraft:zombie_head"
         },
-        "title": {"translate":"Zombie Genocider"},
-        "description": {"translate":"Kill 500 Zombies"},
+        "title": {"translate":"att2.advancement.mobskilled.title.zombies_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.zombies_killed_500"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/zombies_killed_250",

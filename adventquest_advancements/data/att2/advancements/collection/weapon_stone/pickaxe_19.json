@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_pickaxe"
-        },
-        "title": {"translate":"Masse de guerre"},
-        "description": {"translate":"Strength is better than agility."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe"
     },
-    "parent": "att2:collection/weapon_stone/pickaxe_12",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "wooden_pickaxe_19": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§9Masse de guerre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La force vaut mieux que l'agilité.\\\"}\",\"{\\\"text\\\":\\\"§7Strength is better than agility.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§c-2 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.pickaxe_19"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.pickaxe_19"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/pickaxe_12",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "wooden_pickaxe_19": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "19"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

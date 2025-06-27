@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Éclaireuse des âges noirs"},
-        "description": {"translate":"It pierces the darkness of forgotten ages, guiding those who dare tread the shadows."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_supreme/bow_338",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "crossbow_339": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§aÉclaireuse des âges noirs\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle perce les ténèbres d’époques oubliées,\\\"}\",\"{\\\"text\\\":\\\"§7guidant ceux qui osent fouler l’ombre.\\\"}\",\"{\\\"text\\\":\\\"§7It pierces the darkness of forgotten ages,\\\"}\",\"{\\\"text\\\":\\\"§7guiding those who dare tread the shadows.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7SPD§a2 §7RES§a1 §7HER§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_supreme.title.crossbow_339"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_supreme.description.crossbow_339"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon_supreme/bow_338",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "crossbow_339": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "339"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

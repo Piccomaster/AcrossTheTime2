@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chiseled_stone_bricks"
+            "id": "minecraft:chiseled_stone_bricks"
         },
-        "title": {"translate":"Silverfish Slayer"},
-        "description": {"translate":"Kill 250 Silverfish"},
+        "title": {"translate":"att2.advancement.mobskilled.title.silverfish_killed_250"},
+        "description": {"translate":"att2.advancement.mobskilled.description.silverfish_killed_250"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/silverfish_killed_50",

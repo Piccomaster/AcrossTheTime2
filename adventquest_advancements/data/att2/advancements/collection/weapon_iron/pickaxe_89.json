@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_pickaxe"
-        },
-        "title": {"translate":"Suprême Guédéron"},
-        "description": {"translate":"Your legendary strength cannot be broken by any of us."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
     },
-    "parent": "att2:collection/weapon_iron/pickaxe_83",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_pickaxe_89": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§5Suprême Guédéron\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ta force légendaire ne saurait être \\\"}\",\"{\\\"text\\\":\\\"§7brisée par aucun d'entre nous.\\\"}\",\"{\\\"text\\\":\\\"§7Your legendary strength cannot\\\"}\",\"{\\\"text\\\":\\\"§7be broken by any of us.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.pickaxe_89"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.pickaxe_89"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/pickaxe_83",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "iron_pickaxe_89": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "89"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

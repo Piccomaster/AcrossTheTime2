@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_pickaxe"
-        },
-        "title": {"translate":"Sceptre "},
-        "description": {"translate":"The most massive ever."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
     },
-    "parent": "att2:collection/weapon_diamond",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_pickaxe_98": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§7Sceptre \\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le plus massif qui soit.\\\"}\",\"{\\\"text\\\":\\\"§7The most massive ever.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.pickaxe_98"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.pickaxe_98"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_pickaxe_98": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "98"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_leggings"
-        },
-        "title": {"translate":"Pantalon du robuste"},
-        "description": {"translate":"Combines flexibility and protection."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_leggings"
     },
-    "parent": "att2:collection/armor_chainmail/leggings_73",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "chainmail_leggings_78": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Pantalon du robuste\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Combine souplesse et protection.\\\"}\",\"{\\\"text\\\":\\\"§7Combines flexibility and protection.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.leggings_78"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.leggings_78"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/leggings_73",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "chainmail_leggings_78": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "78"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

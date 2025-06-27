@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_chestplate"
-        },
-        "title": {"translate":"Paladin"},
-        "description": {"translate":"Alone he goes, but the respect of all: masters, warriors and kings, he has."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
     },
-    "parent": "att2:collection/armor_iron/chestplate_118",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_chestplate_124": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§5Paladin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Seul il va, mais le respect de tous :\\\"}\",\"{\\\"text\\\":\\\"§7maîtres, guerriers et rois, il a.\\\"}\",\"{\\\"text\\\":\\\"§7Alone he goes, but the respect of all:\\\"}\",\"{\\\"text\\\":\\\"§7masters, warriors and kings, he has.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HER§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.chestplate_124"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.chestplate_124"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/chestplate_118",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "iron_chestplate_124": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "124"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

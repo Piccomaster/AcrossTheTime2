@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_leggings"
-        },
-        "title": {"translate":"Vei gal atar"},
-        "description": {"translate":"Your pain will finally end, along with your tomorrows."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
     },
-    "parent": "att2:collection/armor_billgart/netherite/leggings_325",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_leggings_242": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Vei gal atar\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ta peine prendra finalement fin,\\\"}\",\"{\\\"text\\\":\\\"§7en même temps que tes lendemains.\\\"}\",\"{\\\"text\\\":\\\"§7Your pain will finally end,\\\"}\",\"{\\\"text\\\":\\\"§7along with your tomorrows.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a2 §7DAR§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.leggings_242"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.leggings_242"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/leggings_325",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_leggings_242": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "242"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

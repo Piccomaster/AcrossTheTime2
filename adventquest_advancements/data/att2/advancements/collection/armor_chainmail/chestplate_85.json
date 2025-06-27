@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_chestplate"
-        },
-        "title": {"translate":"Faux mage"},
-        "description": {"translate":"Who said a magician couldn't use his muscles."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
     },
-    "parent": "att2:collection/armor_chainmail/chestplate_84",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "chainmail_chestplate_85": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Faux mage\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Qui à dit qu'un mage ne savait\\\"}\",\"{\\\"text\\\":\\\"§7pas se servir de ses muscles.\\\"}\",\"{\\\"text\\\":\\\"§7Who said a magician\\\"}\",\"{\\\"text\\\":\\\"§7couldn't use his muscles.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a3 §7HAS§c-2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.chestplate_85"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.chestplate_85"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/chestplate_84",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "chainmail_chestplate_85": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "85"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

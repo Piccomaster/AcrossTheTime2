@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_sword"
-        },
-        "title": {"translate":"Fierté du village"},
-        "description": {"translate":"Others have a hatchet..."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
     },
-    "parent": "att2:collection/weapon_diamond",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_sword_102": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Fierté du village\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7D'autres ont une hache de guerre...\\\"}\",\"{\\\"text\\\":\\\"§7Others have a hatchet...\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.sword_102"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.sword_102"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_sword_102": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "102"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

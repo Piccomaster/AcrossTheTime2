@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_leggings"
-        },
-        "title": {"translate":"Grenouille"},
-        "description": {"translate":"Thin legs."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
     },
-    "parent": "att2:collection/armor_iron",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_leggings_103": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§7Grenouille\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fines jambes.\\\"}\",\"{\\\"text\\\":\\\"§7Thin legs.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.leggings_103"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.leggings_103"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_leggings_103": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "103"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

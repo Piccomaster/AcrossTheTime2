@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cake"
+            "id": "minecraft:cake"
         },
-        "title": {"translate":"Cake Time!"},
-        "description": {"translate":"Eat a whole cake"},
+        "title": {"translate":"att2.advancement.food.title.cake_7"},
+        "description": {"translate":"att2.advancement.food.description.cake_7"},
         "frame": "goal"
     },
     "parent": "att2:food/cake_1",

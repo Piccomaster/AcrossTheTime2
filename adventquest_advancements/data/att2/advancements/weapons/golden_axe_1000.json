@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_axe"
+            "id": "minecraft:golden_axe"
         },
-        "title": {"translate":"Golden axe combo"},
-        "description": {"translate":"Strike 600 times with a golden axe"},
+        "title": {"translate": "att2.advancement.weapons.title.golden_axe_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.golden_axe_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/golden_axe_250",

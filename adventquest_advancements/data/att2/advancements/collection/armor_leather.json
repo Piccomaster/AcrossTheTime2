@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:copper_block"
+            "id": "minecraft:copper_block"
         },
-        "title": {"translate":"Leather"},
-        "description": {"translate":"Armor"},
+        "title": {"translate": "att2.advancement.collection.title.armor_leather"},
+        "description": {"translate": "att2.advancement.collection.description.armor_leather"},
         "show_toast": false,
         "announce_to_chat": false
     },

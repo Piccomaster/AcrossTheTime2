@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:phantom_membrane"
+            "id": "minecraft:phantom_membrane"
         },
-        "title": {"translate":"Phantom Eliminator"},
-        "description": {"translate":"Kill 25 Phantoms"},
+        "title": {"translate":"att2.advancement.mobskilled.title.phantoms_killed_25"},
+        "description": {"translate":"att2.advancement.mobskilled.description.phantoms_killed_25"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/phantoms_killed_5",

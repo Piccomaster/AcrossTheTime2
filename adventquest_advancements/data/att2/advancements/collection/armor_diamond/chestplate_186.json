@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Torse du gardien"},
-        "description": {"translate":"Be worthy of its courage, cause it has seen hard times and worse."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_diamond/chestplate_179",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_chestplate_186": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Torse du gardien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Soyez digne de son courage,\\\"}\",\"{\\\"text\\\":\\\"§7car il en vit des rudes et des pires encore.\\\"}\",\"{\\\"text\\\":\\\"§7Be worthy of its courage, cause it\\\"}\",\"{\\\"text\\\":\\\"§7has seen hard times and worse.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7SPD§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.chestplate_186"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.chestplate_186"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/chestplate_179",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_chestplate_186": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "186"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

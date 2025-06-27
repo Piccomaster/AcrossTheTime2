@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lime_candle"
+            "id": "minecraft:lime_candle"
         },
-        "title": {"translate":"All Supremes"},
-        "description": {"translate":"Find all supreme items"},
+        "title": {"translate": "att2.advancement.collection.title.ult_all"},
+        "description": {"translate": "att2.advancement.collection.description.ult_all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/leg_all",

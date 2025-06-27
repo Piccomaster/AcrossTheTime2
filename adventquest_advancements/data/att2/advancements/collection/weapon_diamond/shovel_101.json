@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_shovel"
-        },
-        "title": {"translate":"Petit secret"},
-        "description": {"translate":"No one will know, not even the older ones!"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel"
     },
-    "parent": "att2:collection/weapon_diamond/shovel_100",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_shovel_101": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§7Petit secret\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Personne ne le saura,\\\"}\",\"{\\\"text\\\":\\\"§7pas même les grands !\\\"}\",\"{\\\"text\\\":\\\"§7No one will know,\\\"}\",\"{\\\"text\\\":\\\"§7not even the older ones!\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.shovel_101"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.shovel_101"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/shovel_100",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_shovel_101": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "101"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

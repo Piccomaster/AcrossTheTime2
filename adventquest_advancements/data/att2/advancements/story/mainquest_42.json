@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"It's time for payback"},
-        "description": {"translate":"The end of the trip"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_42"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_42"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_41",

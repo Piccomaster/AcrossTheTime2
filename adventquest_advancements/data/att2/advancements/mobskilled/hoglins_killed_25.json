@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather"
+            "id": "minecraft:leather"
         },
-        "title": {"translate":"Hoglin Eliminator"},
-        "description": {"translate":"Kill 25 Hoglins"},
+        "title": {"translate":"att2.advancement.mobskilled.title.hoglins_killed_25"},
+        "description": {"translate":"att2.advancement.mobskilled.description.hoglins_killed_25"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/hoglins_killed_5",

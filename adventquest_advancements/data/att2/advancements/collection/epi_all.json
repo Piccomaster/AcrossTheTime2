@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:purple_candle"
+            "id": "minecraft:purple_candle"
         },
-        "title": {"translate":"All Epics"},
-        "description": {"translate":"Find all epic items"},
+        "title": {"translate": "att2.advancement.collection.title.epi_all"},
+        "description": {"translate": "att2.advancement.collection.description.epi_all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/rar_all",

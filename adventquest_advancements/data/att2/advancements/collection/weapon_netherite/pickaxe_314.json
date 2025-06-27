@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_pickaxe"
-        },
-        "title": {"translate":"Broyeuse d'espérance"},
-        "description": {"translate":"Dark are the hours that saw the awakening, blackened by the blood of the persecutors of the lost half-immortal."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
     },
-    "parent": "att2:collection/weapon_netherite/pickaxe_309",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_pickaxe_314": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§6Broyeuse d'espérance\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sombre sont les heures qui virent l'éveil, noircies par le sang\\\"}\",\"{\\\"text\\\":\\\"§7des persécuteurs du semi-immortel égaré.\\\"}\",\"{\\\"text\\\":\\\"§7Dark are the hours that saw the awakening, blackened by\\\"}\",\"{\\\"text\\\":\\\"§7the blood of the persecutors of the lost half-immortal.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HUN§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.pickaxe_314"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.pickaxe_314"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/pickaxe_309",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_pickaxe_314": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "314"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

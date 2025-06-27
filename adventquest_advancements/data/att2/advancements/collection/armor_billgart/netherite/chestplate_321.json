@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_chestplate"
-        },
-        "title": {"translate":"Membrane crystalline"},
-        "description": {"translate":"A geode; to its shape, for protection."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
     },
-    "parent": "att2:collection/armor_billgart/netherite/chestplate_317",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_chestplate_321": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Membrane crystalline\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une géode ; à sa forme, pour protection.\\\"}\",\"{\\\"text\\\":\\\"§7A geode; to its shape, for protection.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.chestplate_321"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.chestplate_321"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/chestplate_317",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_chestplate_321": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "321"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Kert mine Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Kert mine"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_kert_mine"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_kert_mine"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_kert_mine",

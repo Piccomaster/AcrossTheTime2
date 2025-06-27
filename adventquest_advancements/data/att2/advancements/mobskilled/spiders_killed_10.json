@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spider_eye"
+            "id": "minecraft:spider_eye"
         },
-        "title": {"translate":"Spider Killer"},
-        "description": {"translate":"Kill 10 Spiders"}
+        "title": {"translate":"att2.advancement.mobskilled.title.spiders_killed_10"},
+        "description": {"translate":"att2.advancement.mobskilled.description.spiders_killed_10"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

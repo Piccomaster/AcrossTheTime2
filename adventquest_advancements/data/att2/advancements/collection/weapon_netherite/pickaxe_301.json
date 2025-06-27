@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_pickaxe"
-        },
-        "title": {"translate":"Casse-tête"},
-        "description": {"translate":"It's not just thinking	that causes headaches."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
     },
-    "parent": "att2:collection/weapon_netherite/pickaxe_300",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_pickaxe_301": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§9Casse-tête\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il n'y a pas que la réflexion\\\"}\",\"{\\\"text\\\":\\\"§7qui cause des mots de têtes.\\\"}\",\"{\\\"text\\\":\\\"§7It's not just thinking\\\"}\",\"{\\\"text\\\":\\\"§7that causes headaches.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.pickaxe_301"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.pickaxe_301"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/pickaxe_300",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_pickaxe_301": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "301"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Randonneur insulaire"},
-        "description": {"translate":"The measure of the effort is only a matter of point of view..."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_netherite/boots_280",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_boots_287": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Randonneur insulaire\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La mesure de l'effort n'est\\\"}\",\"{\\\"text\\\":\\\"§7qu'une question de point de vue...\\\"}\",\"{\\\"text\\\":\\\"§7The measure of the effort is only\\\"}\",\"{\\\"text\\\":\\\"§7a matter of point of view...\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.boots_287"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.boots_287"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/boots_280",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_boots_287": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "287"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

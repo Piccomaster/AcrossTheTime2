@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:11195266}"
-        },
-        "title": {"translate":"Tisane   "},
-        "description": {"translate":"Soothes pain and treats osteoarthritis."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_4",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_5": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§7Tisane\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Apaise la douleur \\\"}\",\"{\\\"text\\\":\\\"§7et soigne l'arthrose.\\\"}\",\"{\\\"text\\\":\\\"§7Soothes pain\\\"}\",\"{\\\"text\\\":\\\"§7and treats osteoarthritis.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "5"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_5"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_5"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_4",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "5"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_leggings"
-        },
-        "title": {"translate":"Irrationnelle exuvie"},
-        "description": {"translate":"Like the molt of a life-filled mineral, this armor will provide unparalleled robustness to its wearer."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
     },
-    "parent": "att2:collection/armor_billgart/netherite/leggings_322",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_leggings_325": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Irrationnelle exuvie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telle la mue d'un minéral pourvu de vie, cette armure \\\"}\",\"{\\\"text\\\":\\\"§7accordera une robustesse sans égal à son porteur.\\\"}\",\"{\\\"text\\\":\\\"§7Like the molt of a life-filled mineral, this armor\\\"}\",\"{\\\"text\\\":\\\"§7will provide unparalleled robustness to its wearer.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7DAR§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.leggings_325"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.leggings_325"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/leggings_322",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_leggings_325": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "325"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

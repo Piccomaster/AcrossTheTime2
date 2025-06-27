@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Préservation atomique"},
-        "description": {"translate":"Strips of malachite, fitting to the fine particle."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_billgart/netherite/boots_319",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_boots_323": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Préservation atomique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Grèves de malachite, seyant\\\"}\",\"{\\\"text\\\":\\\"§7jusqu'à la fine particule.\\\"}\",\"{\\\"text\\\":\\\"§7Strips of malachite,\\\"}\",\"{\\\"text\\\":\\\"§7fitting to the fine particle.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7HUN§a1 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.boots_323"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.boots_323"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/boots_319",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_boots_323": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "323"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

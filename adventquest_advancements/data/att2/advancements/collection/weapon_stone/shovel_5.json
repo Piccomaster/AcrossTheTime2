@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_shovel"
-        },
-        "title": {"translate":"Surin"},
-        "description": {"translate":"Overrated, just useless."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel"
     },
-    "parent": "att2:collection/weapon_stone",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "wooden_shovel_5": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§7Surin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Surestimé, quasiment inutile.\\\"}\",\"{\\\"text\\\":\\\"§7Overrated, just useless.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.shovel_5"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.shovel_5"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "wooden_shovel_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "5"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

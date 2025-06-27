@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_leggings"
-        },
-        "title": {"translate":"Les jambes du grand-père"},
-        "description": {"translate":"Never giving up."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
     },
-    "parent": "att2:collection/armor_iron/leggings_111",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_leggings_112": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Les jambes du grand-père\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7N'ont jamais lâché.\\\"}\",\"{\\\"text\\\":\\\"§7Never giving up.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.leggings_112"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.leggings_112"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/leggings_111",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_leggings_112": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "112"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

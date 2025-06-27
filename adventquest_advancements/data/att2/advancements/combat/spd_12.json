@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Fast and Furious!"},
-        "description": {"translate":"Still a buster"}
+        "title": {"translate":"att2.advancement.combat.title.spd_12"},
+        "description": {"translate":"att2.advancement.combat.description.spd_12"}
     },
     "parent": "att2:combat/spd_6",
     "rewards": {

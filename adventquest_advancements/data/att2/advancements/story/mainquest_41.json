@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"An organism not so perfect"},
-        "description": {"translate":"Across The Time"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_41"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_41"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_40",

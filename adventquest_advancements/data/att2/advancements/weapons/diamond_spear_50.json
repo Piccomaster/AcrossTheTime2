@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_hoe"
+            "id": "minecraft:diamond_hoe"
         },
-        "title": {"translate":"Diamond spear smash"},
-        "description": {"translate":"Strike 50 times with a diamond spear"},
+        "title": {"translate": "att2.advancement.weapons.title.diamond_spear_50"},
+        "description": {"translate": "att2.advancement.weapons.description.diamond_spear_50"},
         "frame": "goal"
     },
     "parent": "att2:weapons/diamond_spear_1",

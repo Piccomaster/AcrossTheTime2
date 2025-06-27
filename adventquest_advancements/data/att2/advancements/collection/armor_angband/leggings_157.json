@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_leggings"
-        },
-        "title": {"translate":"Pantrenel"},
-        "description": {"translate":"Following you and spying on you until the confrontation, together and against your will, you move forward."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_leggings"
     },
-    "parent": "att2:collection/armor_angband/leggings_152",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_leggings_157": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Pantrenel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Te talonnant et t'épiant jusqu'à l'affrontement,\\\"}\",\"{\\\"text\\\":\\\"§7ensemble et malgré vous, vous avancez.\\\"}\",\"{\\\"text\\\":\\\"§7Following you and spying on you until the confrontation, \\\"}\",\"{\\\"text\\\":\\\"§7together and against your will, you move forward.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HUN§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.leggings_157"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.leggings_157"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/leggings_152",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_leggings_157": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "157"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

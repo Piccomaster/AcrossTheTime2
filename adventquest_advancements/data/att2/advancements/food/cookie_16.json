@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cookie"
+            "id": "minecraft:cookie"
         },
-        "title": {"translate":"Cookie desire"},
-        "description": {"translate":"Eat 16 cookies"},
+        "title": {"translate":"att2.advancement.food.title.cookie_16"},
+        "description": {"translate":"att2.advancement.food.description.cookie_16"},
         "frame": "goal"
     },
     "parent": "att2:food/cookie_1",

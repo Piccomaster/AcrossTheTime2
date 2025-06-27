@@ -1,12 +1,15 @@
-
 {
     "display": {
         "icon": {
-            "item": "minecraft:ender_eye",
+            "id": "minecraft:ender_eye",
             "nbt": "{Enchantments:[{}]}"
         },
-        "title": {"translate":"Full of knowledge"},
-        "description": {"translate":"Collect all books."},
+        "title": {
+            "translate": "att2.advancement.books.title.all_books"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.all_books"
+        },
         "frame": "challenge",
         "hidden": true
     },

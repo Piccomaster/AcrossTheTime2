@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather_boots"
+            "id": "minecraft:leather_boots"
         },
-        "title": {"translate":"Prudence est Mère de Sûreté"},
-        "description": {"translate":"Sneak 50km"},
+        "title": {"translate":"att2.advancement.progress.title.sneak_5000000"},
+        "description": {"translate":"att2.advancement.progress.description.sneak_5000000"},
         "frame": "challenge"
     },
     "parent": "att2:progress/sneak_1000000",

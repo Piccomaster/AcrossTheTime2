@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_sword"
+            "id": "minecraft:stone_sword"
         },
-        "title": {"translate":"Billgart sword combo"},
-        "description": {"translate":"Strike 750 times with a Billgart sword"},
+        "title": {"translate": "att2.advancement.weapons.title.stone_sword_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.stone_sword_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/stone_sword_250",

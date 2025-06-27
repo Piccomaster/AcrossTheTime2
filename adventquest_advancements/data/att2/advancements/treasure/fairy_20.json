@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:scute"
+            "id": "minecraft:scute"
         },
-        "title": {"translate":"Fairy meal"},
-        "description": {"translate":"Catch 20 Lost Souls"},
+        "title": {"translate": "att2.advancement.treasure.title.fairy_20"},
+        "description": {"translate": "att2.advancement.treasure.description.fairy_20"},
         "frame": "goal"
     },
     "parent": "att2:treasure/fairy_5",

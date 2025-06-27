@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_boots"
-        },
-        "title": {"translate":"Patins"},
-        "description": {"translate":"Slippery, to their disadvantage."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
     },
-    "parent": "att2:collection/armor_iron/boots_105",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_boots_106": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_boots"],
-                    "nbt": "{display:{Name:\"\\\"§7Patins\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Glissants, à leur désavantage.\\\"}\",\"{\\\"text\\\":\\\"§7Slippery, to their disadvantage.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.boots_106"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.boots_106"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/boots_105",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_boots_106": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "106"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

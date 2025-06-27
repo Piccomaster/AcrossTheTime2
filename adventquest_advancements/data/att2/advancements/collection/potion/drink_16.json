@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:65432}"
-        },
-        "title": {"translate":"Esuna      "},
-        "description": {"translate":"The knowledge of transmutation."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_15",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_16": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§2Esuna\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le savoir de la transmutation.\\\"}\",\"{\\\"text\\\":\\\"§7The knowledge of transmutation.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HUN§a2 §7STR§c-2 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "16"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_16"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_16"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_15",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_16": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "16"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

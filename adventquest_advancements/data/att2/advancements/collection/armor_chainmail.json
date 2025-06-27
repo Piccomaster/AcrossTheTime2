@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:calcite"
+            "id": "minecraft:calcite"
         },
-        "title": {"translate":"Chainmail"},
-        "description": {"translate":"Armor"},
+        "title": {"translate": "att2.advancement.collection.title.armor_chainmail"},
+        "description": {"translate": "att2.advancement.collection.description.armor_chainmail"},
         "show_toast": false,
         "announce_to_chat": false
     },

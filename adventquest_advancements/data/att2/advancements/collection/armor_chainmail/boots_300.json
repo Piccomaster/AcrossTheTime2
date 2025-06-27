@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_boots"
-        },
-        "title": {"translate":"Pouvoir de la duchesse"},
-        "description": {"translate":"As impertinent as their privileges are, it would be costly for its owner to get rid of them."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
     },
-    "parent": "att2:collection/armor_chainmail/boots_98",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "chainmail_boots_300": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Pouvoir de la duchesse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAussi impertinents que sont leurs privilèges,\\\"}\",\"{\\\"text\\\":\\\"§ail coûterait à sa détentrice de s'en passer.\\\"}\",\"{\\\"text\\\":\\\"§aAs impertinent as their privileges are,\\\"}\",\"{\\\"text\\\":\\\"§ait would be costly for its owner to get rid of them.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.boots_300"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.boots_300"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/boots_98",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "chainmail_boots_300": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "300"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

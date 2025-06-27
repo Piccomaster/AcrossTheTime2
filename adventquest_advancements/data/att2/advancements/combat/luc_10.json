@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:rabbit_foot"
+            "id": "minecraft:rabbit_foot"
         },
-        "title": {"translate":"Successfulness!"},
-        "description": {"translate":"The luck of the devil"}
+        "title": {"translate":"att2.advancement.combat.title.luc_10"},
+        "description": {"translate":"att2.advancement.combat.description.luc_10"}
     },
     "parent": "att2:combat/luc_4",
     "rewards": {

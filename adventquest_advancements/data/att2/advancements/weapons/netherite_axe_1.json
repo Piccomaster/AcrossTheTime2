@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_axe"
+            "id": "minecraft:netherite_axe"
         },
-        "title": {"translate":"Obsidian axe strike"},
-        "description": {"translate":"Strike once with an obsidian axe"}
+        "title": {"translate": "att2.advancement.weapons.title.netherite_axe_1"},
+        "description": {"translate": "att2.advancement.weapons.description.netherite_axe_1"}
     },
     "parent": "att2:weapons/root",
     "rewards": {

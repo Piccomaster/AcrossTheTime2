@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_pickaxe"
+            "id": "minecraft:golden_pickaxe"
         },
-        "title": {"translate":"The Destructor"},
-        "description": {"translate":"Validate All Advancements of Monster Hunter"},
+        "title": {"translate":"att2.advancement.mobskilled.title.the_destructor"},
+        "description": {"translate":"att2.advancement.mobskilled.description.the_destructor"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/root",

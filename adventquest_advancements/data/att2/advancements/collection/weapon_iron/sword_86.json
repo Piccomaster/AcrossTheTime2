@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_sword"
-        },
-        "title": {"translate":"Rapière"},
-        "description": {"translate":"Serious and determined, such is the masterless warrior's determination."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
     },
-    "parent": "att2:collection/weapon_iron/sword_79",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_sword_86": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_sword"],
-                    "nbt": "{display:{Name:\"\\\"§9Rapière\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Grave et déterminée, telle est\\\"}\",\"{\\\"text\\\":\\\"§7la détermination du guerrier sans maître.\\\"}\",\"{\\\"text\\\":\\\"§7Serious and determined, such is\\\"}\",\"{\\\"text\\\":\\\"§7the masterless warrior's determination.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.sword_86"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.sword_86"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/sword_79",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_sword_86": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "86"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

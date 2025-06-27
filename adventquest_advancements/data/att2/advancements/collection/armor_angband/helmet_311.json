@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_helmet"
-        },
-        "title": {"translate":"Parure du soldat Eternän"},
-        "description": {"translate":"The disciples who walk in the footsteps of him who is eternal will always set themselves up as sentinels of this world."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
     },
-    "parent": "att2:collection/armor_angband/helmet_155",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_helmet_311": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Parure du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.helmet_311"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.helmet_311"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/helmet_155",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_helmet_311": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "311"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

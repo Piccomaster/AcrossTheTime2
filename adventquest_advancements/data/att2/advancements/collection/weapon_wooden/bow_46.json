@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Oncle de sang"},
-        "description": {"translate":"Sting, pierce and kill, to you to whom hope was shattered."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden/bow_45",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "bow_46": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§5Oncle de sang\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pique, perce et tue, toi\\\"}\",\"{\\\"text\\\":\\\"§7à qui on brisa tout espoir.\\\"}\",\"{\\\"text\\\":\\\"§7Sting, pierce and kill, to you\\\"}\",\"{\\\"text\\\":\\\"§7to whom hope was shattered.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a3 §7LUC§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_46"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_46"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/bow_45",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "bow_46": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "46"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

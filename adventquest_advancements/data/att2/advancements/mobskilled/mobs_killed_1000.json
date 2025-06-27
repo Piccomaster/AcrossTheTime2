@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_shovel"
+            "id": "minecraft:diamond_shovel"
         },
-        "title": {"translate":"Exterminator"},
-        "description": {"translate":"Kill 1000 enemies"},
+        "title": {"translate":"att2.advancement.mobskilled.title.mobs_killed_1000"},
+        "description": {"translate":"att2.advancement.mobskilled.description.mobs_killed_1000"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/mobs_killed_500",

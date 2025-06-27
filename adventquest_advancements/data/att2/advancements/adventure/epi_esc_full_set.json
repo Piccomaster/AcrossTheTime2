@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_pickaxe"
+            "id": "minecraft:diamond_pickaxe"
         },
-        "title": {"translate":"Full sovereign set"},
-        "description": {"translate":"Get yourself equipped a full sovereign armor and weapon set"},
+        "title": {"translate":"att2.advancement.adventure.title.epi_esc_full_set"},
+        "description": {"translate":"att2.advancement.adventure.description.epi_esc_full_set"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/rar_full_set",

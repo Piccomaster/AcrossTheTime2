@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_ingot"
+            "id": "minecraft:gold_ingot"
         },
-        "title": {"translate":"Wealthy"},
-        "description": {"translate":"Raise 5000 Chronotons"},
+        "title": {"translate": "att2.advancement.treasure.title.chronotons_5000"},
+        "description": {"translate": "att2.advancement.treasure.description.chronotons_5000"},
         "frame": "goal"
     },
     "parent": "att2:treasure/chronotons_2500",

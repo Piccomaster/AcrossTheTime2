@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bow"
+            "id": "minecraft:bow"
         },
-        "title": {"translate":"Cupidon"},
-        "description": {"translate":"Shoot an arrow with your bow"}
+        "title": {"translate":"att2.advancement.combat.title.bow"},
+        "description": {"translate":"att2.advancement.combat.description.bow"}
     },
     "parent": "att2:combat/root",
     "rewards": {

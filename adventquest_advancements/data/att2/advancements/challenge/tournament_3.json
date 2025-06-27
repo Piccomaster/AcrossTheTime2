@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spawner"
+            "id": "minecraft:spawner"
         },
-        "title": {"translate":"TOURNAMENT III"},
-        "description": {"translate":"Complete the third Tournament of arenas event."},
+        "title": {"translate":"att2.advancement.challenge.title.tournament_3"},
+        "description": {"translate":"att2.advancement.challenge.description.tournament_3"},
         "frame": "goal"
     },
     "parent": "att2:challenge/tournament_2",

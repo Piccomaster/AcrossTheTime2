@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_carrot"
+            "id": "minecraft:golden_carrot"
         },
-        "title": {"translate":"Nocturnal"},
-        "description": {"translate":"Use night vision magic"}
+        "title": {"translate":"att2.advancement.adventure.title.nocturnal"},
+        "description": {"translate":"att2.advancement.adventure.description.nocturnal"}
     },
     "parent": "att2:adventure/root",
     "rewards": {

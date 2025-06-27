@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Humeur de la lune"},
-        "description": {"translate":"From your cold glow, and your immutable silence, you incarnated, incarnate and will incarnate immortal freedom."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_diamond/boots_199",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_boots_208": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Humeur de la lune\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDe ta froide lueur, et de ton immuable silence,\\\"}\",\"{\\\"text\\\":\\\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\\\"}\",\"{\\\"text\\\":\\\"§aFrom your cold glow, and your immutable silence, you\\\"}\",\"{\\\"text\\\":\\\"§aincarnated, incarnate and will incarnate immortal freedom.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.boots_208"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.boots_208"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/boots_199",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_boots_208": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "208"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

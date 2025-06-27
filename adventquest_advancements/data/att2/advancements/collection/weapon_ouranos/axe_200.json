@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_axe"
-        },
-        "title": {"translate":"Petit cri"},
-        "description": {"translate":"It's a beginning."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
     },
-    "parent": "att2:collection/weapon_ouranos/axe_198",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_axe_200": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_axe"],
-                    "nbt": "{display:{Name:\"\\\"§2Petit cri\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7C'est un début.\\\"}\",\"{\\\"text\\\":\\\"§7It's a beginning.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.axe_200"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.axe_200"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/axe_198",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_axe_200": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "200"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

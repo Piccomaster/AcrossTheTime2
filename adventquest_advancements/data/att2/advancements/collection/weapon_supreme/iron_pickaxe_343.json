@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_pickaxe"
-        },
-        "title": {"translate":"Écraseur de l'aube"},
-        "description": {"translate":"It crushes the promises of dawn, leaving only the silence of an aborted day."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
     },
-    "parent": "att2:collection/weapon_supreme/iron_axe_342",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "iron_pickaxe_343": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§aÉcraseur de l'aube\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Broie les promesses du matin,\\\"}\",\"{\\\"text\\\":\\\"§7ne laissant que le silence d’un jour avorté.\\\"}\",\"{\\\"text\\\":\\\"§7It crushes the promises of dawn,\\\"}\",\"{\\\"text\\\":\\\"§7leaving only the silence of an aborted day.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7SPD§a3 §7DAR§a3 §7HUN§a3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_supreme.title.iron_pickaxe_343"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_supreme.description.iron_pickaxe_343"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon_supreme/iron_axe_342",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "iron_pickaxe_343": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "343"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

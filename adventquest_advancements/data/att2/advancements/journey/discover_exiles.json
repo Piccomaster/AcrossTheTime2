@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:dark_oak_boat"
+            "id": "minecraft:dark_oak_boat"
         },
-        "title": {"translate":"Exiles Camp"},
-        "description": {"translate":"Discover the Exiles campement"}
+        "title": {"translate":"att2.advancement.journey.title.discover_exiles"},
+        "description": {"translate":"att2.advancement.journey.description.discover_exiles"}
     },
     "parent": "att2:journey/discover_angband",
     "rewards": {

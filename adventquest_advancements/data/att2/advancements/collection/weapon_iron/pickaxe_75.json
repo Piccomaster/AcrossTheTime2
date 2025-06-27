@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_pickaxe"
-        },
-        "title": {"translate":"Brise roche"},
-        "description": {"translate":"At the cost of your own integrity."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
     },
-    "parent": "att2:collection/weapon_iron/pickaxe_74",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_pickaxe_75": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§2Brise roche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Au prix de ta propre intégrité.\\\"}\",\"{\\\"text\\\":\\\"§7At the cost of your own integrity.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.pickaxe_75"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.pickaxe_75"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/pickaxe_74",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_pickaxe_75": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "75"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

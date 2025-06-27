@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_pickaxe"
-        },
-        "title": {"translate":"Iconoclaste"},
-        "description": {"translate":"I am not afraid of cruelty	or gratuitous violence."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
     },
-    "parent": "att2:collection/weapon_iron/pickaxe_82",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_pickaxe_83": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§9Iconoclaste\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Je n'ai pas peur de la cruauté\\\"}\",\"{\\\"text\\\":\\\"§7ni de la violence gratuite.\\\"}\",\"{\\\"text\\\":\\\"§7I am not afraid of cruelty\\\"}\",\"{\\\"text\\\":\\\"§7or gratuitous violence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a1 §7SPD§c-1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.pickaxe_83"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.pickaxe_83"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/pickaxe_82",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_pickaxe_83": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "83"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

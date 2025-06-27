@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_salmon"
+            "id": "minecraft:cooked_salmon"
         },
-        "title": {"translate":"Salmon desire"},
-        "description": {"translate":"Eat 4 cooked salmons"},
+        "title": {"translate":"att2.advancement.food.title.salmon_4"},
+        "description": {"translate":"att2.advancement.food.description.salmon_4"},
         "frame": "goal"
     },
     "parent": "att2:food/salmon_1",

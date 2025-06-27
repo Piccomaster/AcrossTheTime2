@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_pickaxe"
-        },
-        "title": {"translate":"Rorkt'acel"},
-        "description": {"translate":"Better on the ground than in your hands."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
     },
-    "parent": "att2:collection/weapon_billgart/pickaxe_178",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_pickaxe_179": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§2Rorkt'acel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mieux au sol que dans vos mains.\\\"}\",\"{\\\"text\\\":\\\"§7Better on the ground than in your hands.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.pickaxe_179"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.pickaxe_179"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/pickaxe_178",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_pickaxe_179": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "179"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

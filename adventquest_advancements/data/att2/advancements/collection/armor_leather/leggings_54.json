@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Liberté"},
-        "description": {"translate":"Run away without any discomfort, to distant horizons and carry the wind with you."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather/leggings_66",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "leather_leggings_54": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§6Liberté\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7File sans-gêne, vers des horizons lointains\\\"}\",\"{\\\"text\\\":\\\"§7et porte le vent avec toi.\\\"}\",\"{\\\"text\\\":\\\"§7Run away without any discomfort, to distant horizons\\\"}\",\"{\\\"text\\\":\\\"§7and carry the wind with you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7DAR§a1\\\"}\"],color:2302737}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_54"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_54"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/leggings_66",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_leggings_54": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "54"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

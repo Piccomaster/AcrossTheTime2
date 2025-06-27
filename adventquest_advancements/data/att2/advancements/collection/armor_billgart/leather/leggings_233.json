@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Jambes infatiguables"},
-        "description": {"translate":"In great rumblings, you go on your way."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_billgart/leather/leggings_227",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_leggings_233": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Jambes infatiguables\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En de grands grondements,\\\"}\",\"{\\\"text\\\":\\\"§7se poursuit ta route.\\\"}\",\"{\\\"text\\\":\\\"§7In great rumblings,\\\"}\",\"{\\\"text\\\":\\\"§7you go on your way.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§c-1\\\"}\"],color:2127385}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.leggings_233"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.leggings_233"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/leather/leggings_227",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_leggings_233": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "233"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

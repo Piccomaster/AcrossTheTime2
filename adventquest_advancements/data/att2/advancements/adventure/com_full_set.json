@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_axe"
+            "id": "minecraft:wooden_axe"
         },
-        "title": {"translate":"Full common set"},
-        "description": {"translate":"Get yourself equipped a full common armor and weapon set"},
+        "title": {"translate":"att2.advancement.adventure.title.com_full_set"},
+        "description": {"translate":"att2.advancement.adventure.description.com_full_set"},
         "frame": "goal"
     },
     "parent": "att2:adventure/root",

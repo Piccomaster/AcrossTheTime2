@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Pointe-pied"},
-        "description": {"translate":"She wore them so elegantly."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_diamond/boots_174",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_boots_175": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§7Pointe-pied\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle les portait avec tant d'élégance.\\\"}\",\"{\\\"text\\\":\\\"§7She wore them so elegantly.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.boots_175"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.boots_175"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/boots_174",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_boots_175": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "175"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

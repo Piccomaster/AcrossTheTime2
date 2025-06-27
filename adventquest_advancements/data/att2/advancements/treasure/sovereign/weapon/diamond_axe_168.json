@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
+    },
+    "title": {
+      "translate": "att2.advancement.treasure.title.diamond_axe_168"
+    },
+    "description": {
+      "translate": "att2.advancement.treasure.description.diamond_axe_168"
+    },
+    "frame": "goal"
+  },
+  "parent": "att2:treasure/sovereign/wooden_axe_165",
+  "rewards": {
+    "function": "att2:advancement/test_all/treasure/all_epi_esc",
+    "experience": 250
+  },
+  "criteria": {
+    "diamond_axe_168": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "168"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

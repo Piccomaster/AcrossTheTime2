@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Garde de Phœnix"},
-        "description": {"translate":"Wears the Phœnix emblem."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_angband/shield_160",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "shield_161": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§2Garde de Phœnix\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Arbore l'emblème de Phœnix.\\\"}\",\"{\\\"text\\\":\\\"§7Wears the Phœnix emblem.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.shield_161"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.shield_161"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/shield_160",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "shield_161": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "161"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:skeleton_skull"
+            "id": "minecraft:skeleton_skull"
         },
-        "title": {"translate":"Vex Genocider"},
-        "description": {"translate":"Kill 250 Vexes"},
+        "title": {"translate":"att2.advancement.mobskilled.title.vex_killed_250"},
+        "description": {"translate":"att2.advancement.mobskilled.description.vex_killed_250"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/vex_killed_100",

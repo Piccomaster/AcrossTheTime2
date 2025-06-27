@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_pickaxe"
-        },
-        "title": {"translate":"Os du minéral"},
-        "description": {"translate":"No one will ever tell you that you have pointy bones again."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
     },
-    "parent": "att2:collection/weapon_billgart/pickaxe_176",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_pickaxe_178": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§2Os du minéral\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus personne ne vous dira jamais\\\"}\",\"{\\\"text\\\":\\\"§7que vous avez les os pointus.\\\"}\",\"{\\\"text\\\":\\\"§7No one will ever tell you that\\\"}\",\"{\\\"text\\\":\\\"§7you have pointy bones again.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.pickaxe_178"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.pickaxe_178"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/pickaxe_176",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_pickaxe_178": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "178"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

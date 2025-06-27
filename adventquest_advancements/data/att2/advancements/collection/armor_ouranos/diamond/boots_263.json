@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Fuite bleu"},
-        "description": {"translate":"The gold, lost in the pearly horizon, tightens and yellows to gain the darkness that is beginning to dawn."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/boots_348",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_boots_263": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Fuite bleu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'or, perdu dans l'horizon nacré, se resserre\\\"}\",\"{\\\"text\\\":\\\"§7et jaunit pour gagner l'obscurité qui commence à poindre.\\\"}\",\"{\\\"text\\\":\\\"§7The gold, lost in the pearly horizon, tightens and\\\"}\",\"{\\\"text\\\":\\\"§7yellows to gain the darkness that is beginning to dawn.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HER§a1 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.boots_263"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.boots_263"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/boots_348",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_boots_263": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "263"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

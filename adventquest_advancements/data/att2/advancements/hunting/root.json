@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:sunflower"
+            "id": "minecraft:sunflower"
         },
-        "title": {"translate":"Boss Trophies"},
-        "description": {"translate":"Predators"},
-        "background": "minecraft:textures/block/obsidian.png",
+        "title": {"translate":"att2.advancement.hunting.title.root"},
+        "description": {"translate":"att2.advancement.hunting.description.root"},
+        "background": "minecraft:block/obsidian",
         "show_toast": false,
         "announce_to_chat": false
     },

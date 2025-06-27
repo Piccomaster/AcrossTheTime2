@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:light_blue_dye"
+            "id": "minecraft:light_blue_dye"
         },
-        "title": {"translate":"Rare mending"},
-        "description": {"translate":"Repair a rare item"},
+        "title": {"translate": "att2.advancement.treasure.title.mending_rar"},
+        "description": {"translate": "att2.advancement.treasure.description.mending_rar"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_unc",

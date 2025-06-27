@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:anvil"
+            "id": "minecraft:anvil"
         },
-        "title": {"translate":"Badass!"},
-        "description": {"translate":"Biggest badass in the Tellurön"},
+        "title": {"translate":"att2.advancement.combat.title.str_25"},
+        "description": {"translate":"att2.advancement.combat.description.str_25"},
         "frame": "goal"
     },
     "parent": "att2:combat/str_16",

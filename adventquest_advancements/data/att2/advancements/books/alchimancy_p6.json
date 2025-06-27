@@ -1,42 +1,70 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"The Art Of Alchimancy - Part 6"},
-        "description": {"translate":"Find “The ghost” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p6"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p6"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/alchimancy_p5",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
-        "al6_fe": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Le revenant - Partie 6\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Le revenant - Partie 6"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al6_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7The ghost - Part 6\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7The ghost - Part 6"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al6_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7幽魂 - Part 6\\\"}\"]}}"                        
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7幽魂 - Part 6"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -44,10 +72,9 @@
     },
     "requirements": [
         [
-            "al6_fe",
-            "al6_eg",
-            "al6_ch"
-
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

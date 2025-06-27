@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
-        "title": {"translate":"Méleïm"},
-        "description": {"translate":"Discover Méleïm town"}
+        "title": {"translate":"att2.advancement.journey.title.discover_meleim"},
+        "description": {"translate":"att2.advancement.journey.description.discover_meleim"}
     },
     "parent": "att2:journey/discover_plain",
     "rewards": {

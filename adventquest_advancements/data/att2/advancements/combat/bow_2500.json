@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bow"
+            "id": "minecraft:bow"
         },
-        "title": {"translate":"And you have my bow"},
-        "description": {"translate":"Shoot 2500 arrows with your bow"},
-        "frame": "goal"
+        "title": {"translate":"att2.advancement.combat.title.bow_2500"},
+        "description": {"translate":"att2.advancement.combat.description.bow_2500"},
+        "frame": "challenge"
     },
     "parent": "att2:combat/bow_1000",
     "rewards": {

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_helmet"
-        },
-        "title": {"translate":"Masqu'roc"},
-        "description": {"translate":"Those golems will see nothing."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
     },
-    "parent": "att2:collection/armor_billgart/netherite/helmet_316",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_helmet_320": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Masqu'roc\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ces golems n'y verront que du feu.\\\"}\",\"{\\\"text\\\":\\\"§7Those golems will see nothing.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.helmet_320"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.helmet_320"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/helmet_316",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_helmet_320": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "320"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

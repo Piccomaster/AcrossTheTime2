@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:arrow"
+            "id": "minecraft:arrow"
         },
-        "title": {"translate":"Sniper duel"},
-        "description": {"translate":"Kill a skeleton with an arrow from more than 40 meters"},
+        "title": {"translate":"att2.advancement.combat.title.sniper_duel"},
+        "description": {"translate":"att2.advancement.combat.description.sniper_duel"},
         "frame": "challenge"
     },
     "parent": "att2:combat/shoot_arrow",
@@ -12,22 +12,35 @@
         "function": "att2:advancement/exploit_5",
         "experience": 250
                 },
-    "criteria": {
-        "killed_skeleton": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true
-                },
-                "entity": {
-                    "type": "minecraft:skeleton",
-                    "distance": {
+            "criteria": {
+                "killed_skeleton": {
+                    "conditions": {
+                    "entity": [
+                        {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                        "type": "minecraft:skeleton",
+                        "distance": {
                         "horizontal": {
-                            "min": 40
+                            "min": 40.0
+                        }
                         }
                     }
+                    }
+                    ],
+                    "killing_blow": {
+                        "tags": [
+                        {
+                        "expected": true,
+                        "id": "minecraft:is_projectile"
+                        }
+                    ]
                 }
-            }
+                },
+            "trigger": "minecraft:player_killed_entity"
         }
-    }
+    }             
 }
+
+

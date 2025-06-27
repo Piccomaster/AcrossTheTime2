@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Persiflage"},
-        "description": {"translate":"When ingenuity works of charity for the purest beauty."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_ouranos",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "crossbow_326": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§2Persiflage\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand l'ingéniosité fait œuvre de charité\\\"}\",\"{\\\"text\\\":\\\"§7à la beauté la plus pure.\\\"}\",\"{\\\"text\\\":\\\"§7When ingenuity works of charity\\\"}\",\"{\\\"text\\\":\\\"§7for the purest beauty.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.crossbow_326"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.crossbow_326"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "crossbow_326": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "326"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

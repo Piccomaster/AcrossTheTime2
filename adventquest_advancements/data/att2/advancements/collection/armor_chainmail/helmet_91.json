@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_helmet"
-        },
-        "title": {"translate":"Haute Miauletère"},
-        "description": {"translate":"O hard evening, may I look forward to defeat you and to deliver your corpse to the night."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_helmet"
     },
-    "parent": "att2:collection/armor_chainmail/helmet_90",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "chainmail_helmet_91": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Haute Miauletère\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ô dure soirée, qu'il me tarde de te vaincre\\\"}\",\"{\\\"text\\\":\\\"§7et délivrer ton cadavre à la nuit.\\\"}\",\"{\\\"text\\\":\\\"§7O hard evening, may I look forward to defeat\\\"}\",\"{\\\"text\\\":\\\"§7you and to deliver your corpse to the night.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.helmet_91"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.helmet_91"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/helmet_90",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "chainmail_helmet_91": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "91"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

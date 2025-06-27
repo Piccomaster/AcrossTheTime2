@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_cat"
+            "id": "minecraft:music_disc_cat"
         },
-        "title": {"translate":"60%!"},
-        "description": {"translate":"Complete 60% of all map quests."}
+        "title": {"translate":"att2.advancement.progress.title.game_percentage_60"},
+        "description": {"translate":"att2.advancement.progress.description.game_percentage_60"}
     },
     "parent": "att2:progress/game_percentage_50",
     "rewards": {

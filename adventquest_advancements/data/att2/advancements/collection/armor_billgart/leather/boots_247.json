@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Obscurité éblouissante"},
-        "description": {"translate":"A billion screams, confined in a colourless silence, but of a cold and terrifying heat."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_billgart/leather/boots_234",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "leather_boots_247": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Obscurité éblouissante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un milliard de hurlements, confinés dans un silence\\\"}\",\"{\\\"text\\\":\\\"§7sans couleur, mais d'une chaleur froide et terrifiante.\\\"}\",\"{\\\"text\\\":\\\"§7A billion screams, confined in a colourless silence,\\\"}\",\"{\\\"text\\\":\\\"§7but of a cold and terrifying heat.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7HER§a1\\\"}\"],color:695551}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.boots_247"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.boots_247"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/leather/boots_234",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_boots_247": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "247"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

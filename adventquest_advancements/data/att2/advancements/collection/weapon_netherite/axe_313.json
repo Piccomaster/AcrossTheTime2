@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_axe"
-        },
-        "title": {"translate":"Pacte de régicide"},
-        "description": {"translate":"The king is dead, long live the king!"},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
     },
-    "parent": "att2:collection/weapon_netherite/axe_308",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_axe_313": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_axe"],
-                    "nbt": "{display:{Name:\"\\\"§6Pacte de régicide\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le roi est mort,\\\"}\",\"{\\\"text\\\":\\\"§7vive le roi !\\\"}\",\"{\\\"text\\\":\\\"§7The king is dead,\\\"}\",\"{\\\"text\\\":\\\"§7long live the king!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.axe_313"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.axe_313"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/axe_308",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_axe_313": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "313"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

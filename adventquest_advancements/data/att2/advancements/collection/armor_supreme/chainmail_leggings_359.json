@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_leggings"
-        },
-        "title": {"translate":"Gardien des temps inflexibles"},
-        "description": {"translate":"Merciless as the flow of time, it defies anyone who tries to bend destiny."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_leggings"
     },
-    "parent": "att2:collection/supreme",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "chainmail_leggings_359": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§aGardien des temps inflexibles\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Impitoyable comme le cours du temps,\\\"}\",\"{\\\"text\\\":\\\"§7défie quiconque tente de plier le destin.\\\"}\",\"{\\\"text\\\":\\\"§7Merciless as the flow of time,\\\"}\",\"{\\\"text\\\":\\\"§7it defies anyone who tries to bend destiny.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a1 §7LUC§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_supreme.title.chainmail_leggings_359"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_supreme.description.chainmail_leggings_359"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/supreme",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "chainmail_leggings_359": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "359"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_shovel"
+            "id": "minecraft:wooden_shovel"
         },
-        "title": {"translate":"Ouch!"},
-        "description": {"translate":"Take damage"}
+        "title": {"translate":"att2.advancement.combat.title.damage_taken"},
+        "description": {"translate":"承受1点伤害"}
     },
     "parent": "att2:combat/root",
     "rewards": {

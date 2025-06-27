@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:ladder"
+            "id": "minecraft:ladder"
         },
-        "title": {"translate":"Don't Stop at The Top"},
-        "description": {"translate":"Climb 1km"},
+        "title": {"translate":"att2.advancement.progress.title.climb_100000"},
+        "description": {"translate":"att2.advancement.progress.description.climb_100000"},
         "frame": "goal"
     },
     "parent": "att2:progress/climb_25000",

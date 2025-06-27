@@ -1,29 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_boots"
-        },
-        "title": {"translate":"Chaussure de l'immortel"},
-        "description": {"translate":"Walk in his footsteps, and never again will you fail."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_boots"
     },
-    "parent": "att2:collection/armor_angband/boots_153",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "golden_boots_154": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Chaussure de l'immortel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Marchez dans ses pas, et jamais\\\"}\",\"{\\\"text\\\":\\\"§7plus vous ne faillirez.\\\"}\",\"{\\\"text\\\":\\\"§7Walk in his footsteps,\\\"}\",\"{\\\"text\\\":\\\"§7and never again will you fail.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.boots_154"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.boots_154"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/boots_153",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_boots_154": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_boots",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "154"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

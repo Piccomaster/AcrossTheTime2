@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"Third Gem of Time"},
-        "description": {"translate":"Across The Time"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_35"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_35"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_34",

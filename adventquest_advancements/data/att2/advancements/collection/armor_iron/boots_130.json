@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_boots"
-        },
-        "title": {"translate":"Pas de vif argent"},
-        "description": {"translate":"Neither beauty nor speed are you lacking and for you, none will fade."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
     },
-    "parent": "att2:collection/armor_iron/boots_126",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "iron_boots_130": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Pas de vif argent\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ni beauté, ni célérité ne te manque\\\"}\",\"{\\\"text\\\":\\\"§7et pour toi, aucune ne s'estompera.\\\"}\",\"{\\\"text\\\":\\\"§7Neither beauty nor speed are you lacking\\\"}\",\"{\\\"text\\\":\\\"§7and for you, none will fade.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a2 §7SPD§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.boots_130"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.boots_130"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/boots_126",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_boots_130": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "130"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

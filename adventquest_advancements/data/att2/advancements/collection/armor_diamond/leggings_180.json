@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Sublime coupe vent"},
-        "description": {"translate":"But not the most subtle..."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_diamond/leggings_173",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_leggings_180": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Sublime coupe vent\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais pas le plus subtil...\\\"}\",\"{\\\"text\\\":\\\"§7But not the most subtle...\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.leggings_180"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.leggings_180"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/leggings_173",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_leggings_180": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "180"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

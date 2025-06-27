@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_axe"
+            "id": "minecraft:iron_axe"
         },
-        "title": {"translate":"Full uncommon set"},
-        "description": {"translate":"Get yourself equipped a full uncommon armor and weapon set"},
+        "title": {"translate":"att2.advancement.adventure.title.unc_full_set"},
+        "description": {"translate":"att2.advancement.adventure.description.unc_full_set"},
         "frame": "goal"
     },
     "parent": "att2:adventure/com_full_set",

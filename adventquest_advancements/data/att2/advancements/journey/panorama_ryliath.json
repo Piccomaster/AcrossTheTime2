@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Ryliath Panorama"},
-        "description": {"translate":"Discover the panorama of Ryliath"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_ryliath"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_ryliath"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_ryliath",

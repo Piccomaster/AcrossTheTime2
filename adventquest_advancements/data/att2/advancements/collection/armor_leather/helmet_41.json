@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Chapeau"},
-        "description": {"translate":"A great headgear."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_leather/helmet_40",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_helmet_41": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Chapeau\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un couvre-chef de choix.\\\"}\",\"{\\\"text\\\":\\\"§7A great headgear.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7LUC§a1 §7STR§c-2\\\"}\"],color:14791239}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.helmet_41"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.helmet_41"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/helmet_40",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_helmet_41": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "41"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_shovel"
+            "id": "minecraft:golden_shovel"
         },
-        "title": {"translate":"Butcher"},
-        "description": {"translate":"Kill 100 enemies"},
+        "title": {"translate":"att2.advancement.mobskilled.title.mobs_killed_100"},
+        "description": {"translate":"att2.advancement.mobskilled.description.mobs_killed_100"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/mobs_killed_25",

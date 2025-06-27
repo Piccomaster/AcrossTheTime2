@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_helmet"
-        },
-        "title": {"translate":"Tête luisante"},
-        "description": {"translate":"Never reveals itself."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
     },
-    "parent": "att2:collection/armor_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_helmet_224": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Tête luisante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne se dévoile jamais.\\\"}\",\"{\\\"text\\\":\\\"§7Never reveals itself.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.helmet_224"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.helmet_224"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_helmet_224": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "224"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

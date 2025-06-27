@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Culotte des Otauriens"},
-        "description": {"translate":"From the abyssal depths to the stream of inaccessible mounts, grants the power of Otaur's heirs."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather/leggings_58",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_leggings_62": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Culotte des Otauriens\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Des profondeurs abyssales jusqu'au ruisseau des monts\\\"}\",\"{\\\"text\\\":\\\"§7 inaccessibles, octroie le pouvoir des héritiers d'Otaur.\\\"}\",\"{\\\"text\\\":\\\"§7From the abyssal depths to the stream of inaccessible\\\"}\",\"{\\\"text\\\":\\\"§7mounts, grants the power of Otaur's heirs.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7SPD§c-2\\\"}\"],color:739290}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_62"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_62"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/leggings_58",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_leggings_62": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "62"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

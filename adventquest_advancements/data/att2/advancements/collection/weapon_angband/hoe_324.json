@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_hoe"
-        },
-        "title": {"translate":"Oscillar"},
-        "description": {"translate":"The eternal light is hardly the ally of the one who has no choice but to bear it."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe"
     },
-    "parent": "att2:collection/weapon_angband/hoe_323",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_hoe_324": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§5Oscillar\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La lumière éternelle n'est guère l'alliée\\\"}\",\"{\\\"text\\\":\\\"§7de celui qui n'a d'autre choix que de la supporter.\\\"}\",\"{\\\"text\\\":\\\"§7The eternal light is hardly the ally of \\\"}\",\"{\\\"text\\\":\\\"§7the one who has no choice but to bear it.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7LUC§a1 §7HUN§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.hoe_324"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.hoe_324"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/hoe_323",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_hoe_324": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "324"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

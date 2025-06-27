@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_axe"
-        },
-        "title": {"translate":"Brise de Damien"},
-        "description": {"translate":"A good weapon for a brave boy."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
     },
-    "parent": "att2:collection/weapon_ouranos",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_axe_198": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_axe"],
-                    "nbt": "{display:{Name:\"\\\"§7Brise de Damien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une bonne arme pour un fier garçon.\\\"}\",\"{\\\"text\\\":\\\"§7A good weapon for a brave boy.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.axe_198"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.axe_198"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_axe_198": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "198"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

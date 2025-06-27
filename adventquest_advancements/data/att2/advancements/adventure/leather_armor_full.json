@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather_chestplate"
+            "id": "minecraft:leather_chestplate"
         },
-        "title": {"translate":"Full leather!"},
-        "description": {"translate":"Protect yourself with a full set of leather armor"}
+        "title": {"translate":"att2.advancement.adventure.title.leather_armor_full"},
+        "description": {"translate":"att2.advancement.adventure.description.leather_armor_full"}
     },
     "parent": "att2:adventure/leather_armor",
     "rewards": {

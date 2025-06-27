@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:emerald_block"
+            "id": "minecraft:emerald_block"
         },
-        "title": {"translate":"Billgart"},
-        "description": {"translate":"Armor"},
+        "title": {"translate": "att2.advancement.collection.title.armor_billgart"},
+        "description": {"translate": "att2.advancement.collection.description.armor_billgart"},
         "show_toast": false,
         "announce_to_chat": false
     },

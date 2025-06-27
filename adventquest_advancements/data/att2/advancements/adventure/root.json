@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:torch"
+            "id": "minecraft:torch"
         },
-        "title": {"translate":"The Adventure Begins"},
-        "description": {"translate":"Home Is Behind, The World Ahead"},
-        "background": "minecraft:textures/block/custom/futuristic_slab.png",
+        "title": {"translate":"att2.advancement.adventure.title.root"},
+        "description": {"translate":"att2.advancement.adventure.description.root"},
+        "background": "minecraft:block/custom/futuristic_slab",
         "show_toast": true,
         "announce_to_chat": true
     },

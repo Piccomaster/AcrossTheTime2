@@ -1,11 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:writable_book"
+            "id": "minecraft:writable_book"
         },
-        "title": {"translate":"Gold Devourer"},
-        "description": {"translate":"Find Gold Devourer spell"},
-        "hidden": true
+        "title": {"translate":"att2.advancement.dahal.title.spell31_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell31_loot"}
     },
     "parent": "att2:dahal/root",
     "rewards": {
@@ -13,7 +12,7 @@
         "experience": 50
                 },
     "criteria": {
-        "spell31_loot": {
+        "spell30_loot": {
             "trigger": "minecraft:impossible"
         }
     }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_chicken"
+            "id": "minecraft:cooked_chicken"
         },
-        "title": {"translate":"Chicken craving"},
-        "description": {"translate":"Eat 16 chicken thighs"},
+        "title": {"translate":"att2.advancement.food.title.chicken_16"},
+        "description": {"translate":"att2.advancement.food.description.chicken_16"},
         "frame": "goal"
     },
     "parent": "att2:food/chicken_4",

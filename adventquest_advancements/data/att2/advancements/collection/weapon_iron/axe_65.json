@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_axe"
-        },
-        "title": {"translate":"Hache"},
-        "description": {"translate":"A little discovery."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
     },
-    "parent": "att2:collection/weapon_iron/axe_64",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_axe_65": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_axe"],
-                    "nbt": "{display:{Name:\"\\\"§7Hache\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une petite découverte.\\\"}\",\"{\\\"text\\\":\\\"§7A little discovery.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.axe_65"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.axe_65"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/axe_64",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_axe_65": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "65"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

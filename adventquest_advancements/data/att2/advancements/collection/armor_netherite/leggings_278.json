@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_leggings"
-        },
-        "title": {"translate":"Guêtre d'apparat"},
-        "description": {"translate":"But that's not what I asked for!"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
     },
-    "parent": "att2:collection/armor_netherite/leggings_277",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_leggings_278": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Guêtre d'apparat\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais c'est pas ça que j'avais demandé !\\\"}\",\"{\\\"text\\\":\\\"§7But that's not what I asked for!\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.leggings_278"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.leggings_278"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/leggings_277",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_leggings_278": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "278"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

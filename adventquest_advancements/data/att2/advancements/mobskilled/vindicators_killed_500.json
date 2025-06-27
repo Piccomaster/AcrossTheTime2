@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:zombie_head"
+            "id": "minecraft:zombie_head"
         },
-        "title": {"translate":"Vindicator Genocider"},
-        "description": {"translate":"Kill 500 Vindicators"},
+        "title": {"translate":"att2.advancement.mobskilled.title.vindicators_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.vindicators_killed_500"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/vindicators_killed_250",

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Sathnok Panorama"},
-        "description": {"translate":"Discover the panorama of Sathnok manor"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_sathnok"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_sathnok"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_sathnok",

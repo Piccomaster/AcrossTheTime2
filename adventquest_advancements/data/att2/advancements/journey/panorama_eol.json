@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Eol Panorama"},
-        "description": {"translate":"Discover the panorama of Eol Valley"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_eol"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_eol"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_eol",

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Pas du vaniteux"},
-        "description": {"translate":"You're not following in anyone's footsteps!"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_diamond/boots_175",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_boots_182": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§2Pas du vaniteux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vous ne marchez dans les pas\\\"}\",\"{\\\"text\\\":\\\"§7de personne !\\\"}\",\"{\\\"text\\\":\\\"§7You're not following in\\\"}\",\"{\\\"text\\\":\\\"§7anyone's footsteps!\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.boots_182"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.boots_182"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/boots_175",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_boots_182": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "182"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

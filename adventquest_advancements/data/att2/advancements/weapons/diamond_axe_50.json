@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_axe"
+            "id": "minecraft:diamond_axe"
         },
-        "title": {"translate":"Diamond axe smash"},
-        "description": {"translate":"Strike 50 times with a diamond axe"},
+        "title": {"translate": "att2.advancement.weapons.title.diamond_axe_50"},
+        "description": {"translate": "att2.advancement.weapons.description.diamond_axe_50"},
         "frame": "goal"
     },
     "parent": "att2:weapons/diamond_axe_1",

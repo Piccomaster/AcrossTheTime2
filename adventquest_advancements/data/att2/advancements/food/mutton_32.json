@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_mutton"
+            "id": "minecraft:cooked_mutton"
         },
-        "title": {"translate":"Mutton addict"},
-        "description": {"translate":"Eat 32 cooked mutton"},
+        "title": {"translate":"att2.advancement.food.title.mutton_32"},
+        "description": {"translate":"att2.advancement.food.description.mutton_32"},
         "frame": "challenge"
     },
     "parent": "att2:food/mutton_16",
