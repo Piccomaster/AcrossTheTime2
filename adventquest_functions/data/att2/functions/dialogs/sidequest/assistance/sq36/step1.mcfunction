@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- अवरोधित शोक -�
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um luto interrompido -°- : ","color":"gray","extra":[{"text":"Preciso encontrar a entrada para a cripta dos pais falecidos de Violette no cemitério de Eol. Tenho que descobrir como acessar as catacumbas para poder abrir a entrada da cripta por dentro. Depois disso, só preciso voltar e contar a notícia para Violette perto do riacho.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 逝者安息 -°- : ","color":"gray","extra":[{"text":"Violette已故的父母葬在了Eol墓园，我需要找到她父母的棺椁。得想办法先进入地下墓穴，然后从内部找到进入安置棺椁房间的入口，成功找到后再把进展告诉Violette。","color":"aqua","italic":true}]}

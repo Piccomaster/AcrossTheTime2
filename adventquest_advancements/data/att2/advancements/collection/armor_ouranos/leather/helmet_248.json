@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Rage de Sôrän"},
-        "description": {"translate":"Let us break this peace so quiet, that even the eternal mornings may fear us."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_ouranos",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_helmet_248": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Rage de Sôrän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brisons cette paix si tranquille, pour\\\"}\",\"{\\\"text\\\":\\\"§7que même les matins éternels nous craignent.\\\"}\",\"{\\\"text\\\":\\\"§7Let us break this peace so quiet, that\\\"}\",\"{\\\"text\\\":\\\"§7even the eternal mornings may fear us.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§c-1\\\"}\"],color:16514979}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.title.helmet_248"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.description.helmet_248"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_helmet_248": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "248"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

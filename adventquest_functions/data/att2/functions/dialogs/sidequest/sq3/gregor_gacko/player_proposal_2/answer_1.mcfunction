@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gregor Gacko : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"Então você pode seguir o seu caminho. Pena para você, eu não teria sido mesquinho...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"然后你就可以上路了，对你来说太糟糕了，我不会吝啬的...","bold":false,"color":"dark_aqua"}]}

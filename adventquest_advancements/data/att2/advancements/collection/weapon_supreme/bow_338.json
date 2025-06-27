@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Traqueur des lignes brisées"},
-        "description": {"translate":"It hunts the fractures of fate, where the threads of time have unraveled."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/supreme",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "bow_338": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§aTraqueur des lignes brisées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il chasse les fractures du destin,\\\"}\",\"{\\\"text\\\":\\\"§7 là où les fils du temps se sont effilochés.\\\"}\",\"{\\\"text\\\":\\\"§7It hunts the fractures of fate,\\\"}\",\"{\\\"text\\\":\\\"§7where the threads of time have unraveled.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a3 §7DAR§a3 §7LUC§a1 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_supreme.title.bow_338"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_supreme.description.bow_338"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/supreme",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "bow_338": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "338"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garry Traskel : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Volte para mim quando você tiver caçado esses animais nos túneis...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"当你在隧道里杀够了这些怪物后回来找我...","color":"dark_aqua"}]}

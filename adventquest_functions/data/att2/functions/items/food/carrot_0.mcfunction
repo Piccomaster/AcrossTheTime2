@@ -3,4 +3,4 @@
 #Obtain carrot_0         					 	 #
 ##################################################
 
-give @s minecraft:carrot{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:carrot[custom_data={EquipmentType:'food',Rarity:'misc'}]

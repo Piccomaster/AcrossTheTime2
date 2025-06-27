@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- जैसी माँ, वैस�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Como mãe, como filha -°- : ","color":"gray","extra":[{"text":"Bem, aqui estou mais informado graças à história encontrada na caverna. Tenho que voltar para ver Esmeralda na taberna de Méleïm para dizer a ela que ela pode ir para uma cidade chamada Eolorion.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"我在墓穴里找到了一份遗留的笔记，上面记录着Emerald的女儿动身前往一个叫做Eolorion的城市了。把这个好消息告诉Emerald吧，他这时应该在一家酒馆里休息","color":"aqua","italic":true}]}

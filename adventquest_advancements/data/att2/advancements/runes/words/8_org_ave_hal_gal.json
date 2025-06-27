@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:friend_pottery_sherd"
+            "id": "minecraft:friend_pottery_sherd"
         },
-        "title": {"translate":"Evocation"},
-        "description": {"translate":"Make runic word: Org Ave Hal Gal"},
+        "title": {"translate":"att2.advancement.runes.title.8_org_ave_hal_gal"},
+        "description": {"translate":"att2.advancement.runes.description.8_org_ave_hal_gal"},
         "frame": "goal"
     },
-    "parent": "att2:runes/root",
+    "parent": "att2:runes/words/7_wej_ust_chu_tha",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 7500

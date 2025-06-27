@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:torch"
+            "id": "minecraft:torch"
         },
-        "title": {"translate":"Increase your notoriety"},
-        "description": {"translate":"Reach 50 in reputation"},
+        "title": {"translate":"att2.advancement.progress.title.reputation_more_50"},
+        "description": {"translate":"att2.advancement.progress.description.reputation_more_50"},
         "frame": "goal"
     },
     "parent": "att2:progress/root",

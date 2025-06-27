@@ -20,3 +20,5 @@ execute if score Bob_timer EOLORION matches 20 positioned -5254.8 107 -6314 run 
 execute if score Bob_timer EOLORION matches 500..515 run particle minecraft:flame -5255.0 107 -6314 0 0 0 0.2 10
 execute if score Bob_timer EOLORION matches 520 run summon minecraft:fireball -5254.8 107 -6314 {Motion:[1.2,0.0,0.0],ExplosionPower:0,Silent:1}
 execute if score Bob_timer EOLORION matches 520 positioned -5254.8 107 -6314 run function att2:sound/misc/fireball_launch
+#return 1->make command block runing
+return 1

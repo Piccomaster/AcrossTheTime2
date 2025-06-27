@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Hermona : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Ótimo e bem a tempo! Você tem a cota? Eu consegui levantar uma pequena quantia de dinheiro para recompensar sua coragem. Obrigado novamente...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"太好了，你来的真及时！你有其他需要吗？我筹集了一小笔钱来感谢你。非常感谢你的帮助...","color":"dark_aqua"}]}

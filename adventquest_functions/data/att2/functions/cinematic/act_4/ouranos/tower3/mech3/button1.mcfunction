@@ -19,3 +19,5 @@ execute positioned 7696 127 5967 run function att2:summon/reg_4/skeletonfly0_cla
 
 execute positioned 7698 127 5947 run function att2:summon/reg_4/skeletonfly0_class13
 execute positioned 7698 127 5947 run function att2:summon/reg_4/skeletonfly0_class13
+#return 1->make command block runing
+return 1

@@ -56,6 +56,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"O quê, o quê?! Não, espera, só pode ser um mal-entendido! NÃO ME MATE, POR FAVOR!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"什、什么？！等、等一下！这其中一定是有什么误会！别杀我，求求您！","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/raj/raj5
+

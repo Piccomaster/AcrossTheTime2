@@ -21,7 +21,7 @@ tellraw @a[scores={LANGUAGE=10}] {"selector":"@s","extra":[{"text":" alcançou o
 
 execute at @s run function att2:sound/misc/level_up
 execute at @s run particle minecraft:flash ~ ~1.5 ~ 0.25 0.25 0.25 1 1 normal
-execute at @s run particle minecraft:dust 5 5 5 1 ~ ~1.5 ~ 5 5 5 0.5 1000 normal
+execute at @s run particle minecraft:dust{color:[5,5,5],scale:1} ~ ~1.5 ~ 5 5 5 0.5 1000 normal
 execute at @s run particle minecraft:end_rod ~ ~1.5 ~ 0.25 0.25 0.25 0.5 100 normal
 execute at @s run particle minecraft:firework ~ ~1.5 ~ 0.25 0.25 0.25 0.5 100 normal
 execute at @s run particle minecraft:totem_of_undying ~ ~1.5 ~ 0.25 0.25 0.25 1 100 normal

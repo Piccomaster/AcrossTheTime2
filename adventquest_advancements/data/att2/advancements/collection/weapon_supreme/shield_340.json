@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Muraille inébranlable de Sästr"},
-        "description": {"translate":"Raised against the assailants, defies even the breath of the gods."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/supreme",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "shield_340": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§aMuraille inébranlable de Sästr\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dressée contre les assaillants,\\\"}\",\"{\\\"text\\\":\\\"§7défie jusqu’au souffle des dieux.\\\"}\",\"{\\\"text\\\":\\\"§7Raised against the assailants,\\\"}\",\"{\\\"text\\\":\\\"§7 defies even the breath of the gods.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7SPD§a2 §7DAR§a2 §7LUC§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_supreme.title.shield_340"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_supreme.description.shield_340"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/supreme",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "shield_340": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "340"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

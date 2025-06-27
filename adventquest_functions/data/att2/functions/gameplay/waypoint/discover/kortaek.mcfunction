@@ -10,13 +10,7 @@ setblock -5533 86 -4678 minecraft:cyan_stained_glass
 playsound entity.experience_orb.touch master @a ~ ~ ~ 10 0.1 1
 
 
-#FRENCH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=0}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"Point de passage du village de Kortaek découvert!","color":"yellow"}]}
-
-
-#ENGLISH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=1..}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"WAYPOINT of Kortaek discovered!","color":"yellow"}]}
+#waypoint discovered
+function att2:dialogs/gameplay/waypoint/kortaek_discovered
 
 function att2:advancement/test_all/journey/waypoints

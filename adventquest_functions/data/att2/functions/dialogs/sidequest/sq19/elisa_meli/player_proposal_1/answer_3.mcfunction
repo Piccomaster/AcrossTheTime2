@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Elisa Meli : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"O quê! Eu não sou quem tem, não quero dizer... Mas que direito tem um idiota como... Você não seria um guarda!? Espere, não, por favor, não me coloque na prisão, eu não queria machucar os cavalos dela!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"什么！我没下毒，呃，我的意思是...像你这样的蠢货有什么权力...等等，你不会是警卫吧！？额，不不不，请不要把我关进监狱，我不是故意想伤害她的马的！","color":"dark_aqua"}]}

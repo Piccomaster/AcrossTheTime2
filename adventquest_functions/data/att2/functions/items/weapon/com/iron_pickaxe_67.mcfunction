@@ -3,5 +3,6 @@
 #Obtain item iron_pickaxe_67          #
 #####################################
 
-give @s minecraft:iron_pickaxe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",Effect:"hun_1",display:{Name:"\"§7Marteau\"","Lore":["{\"text\":\"§7Plante les piquets.\"}","{\"text\":\"§7Plant the poles.\"}","{\"text\":\"§7HUN§c-1\"}"]},Damage:200,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.05,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.95,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:iron_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",HUN:-1,Weapon:"67"},custom_name={translate:"weapon67.name"},lore=[{translate:"weapon67.lore.1"},{translate:"weapon67.lore.2"},{translate:"weapon67.stat"}],max_damage=260,damage=200,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:6.05},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.95}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

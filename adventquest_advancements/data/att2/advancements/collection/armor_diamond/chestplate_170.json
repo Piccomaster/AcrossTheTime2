@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Caillou"},
-        "description": {"translate":"Brilliant does not make quality."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_diamond",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_chestplate_170": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§7Caillou\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brillant ne fait pas qualité.\\\"}\",\"{\\\"text\\\":\\\"§7Brilliant does not make quality.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.chestplate_170"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.chestplate_170"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_chestplate_170": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "170"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

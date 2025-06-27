@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Daril Gram : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Você estaria disposto a entregá-lo a eles? Um grupo de fanáticos se esconde em Angor, a oeste. São eles que fizeram isso com meu filho... Traga-me a cabeça do chefe deles e eu te recompensarei...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"你愿意帮我报仇吗？一群疯子藏在Angor西部的废墟中。他们就是这样对待我的儿子的...砍下他们老大的头，我会给你报酬的...","color":"dark_aqua"}]}

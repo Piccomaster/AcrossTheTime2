@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Ok, ok. Então o cofre se conecta a um túnel de esgoto sob a cidade. Já explorei o lugar e há uma fraqueza em uma parede, ela precisará cair: é lá que você terá que intervir. Durante a noite ninguém verá nada, então vá para os esgotos e leve tudo o que puder! Mas não ouse falhar, não teremos uma segunda chance!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"好好好。我搜遍了这片城市，我发现城市下方的下水道能连接到银行金库的墙，那堵墙很脆弱，可以把它推倒。这也是你需要干的那部分，但是你得在晚上偷偷进入下水道，在不被别人发现的情况下带走银行金库里的所有东西！这个计划只许成功不许失败！","color":"dark_aqua"}]}

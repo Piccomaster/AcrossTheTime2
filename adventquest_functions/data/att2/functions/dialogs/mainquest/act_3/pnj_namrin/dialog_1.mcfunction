@@ -58,6 +58,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Sérile e eu treinamos muito durante a nossa juventude, na verdade, foi só isso que fizemos... Conseguir o verdadeiro controle de Dahäl não é fácil.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我和Sérile在年轻的时候没少做过训练—事实上，我们的青春就是由日复一日的练习组成的...完全控制Dahäl并非易事。","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_dialogue1
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4
+

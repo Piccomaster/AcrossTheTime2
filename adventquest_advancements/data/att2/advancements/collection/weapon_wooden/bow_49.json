@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Frère d'arme d'Amarianne"},
-        "description": {"translate":"Go with the one archer because she is our mother's chosen one."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden/bow_48",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "bow_49": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§6Frère d'arme d'Amarianne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vas avec l'unique archère\\\"}\",\"{\\\"text\\\":\\\"§7car elle est l'élue de notre mère.\\\"}\",\"{\\\"text\\\":\\\"§7Go with the one archer\\\"}\",\"{\\\"text\\\":\\\"§7because she is our mother's chosen one.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a1 §7HER§a2 §7DAR§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_49"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_49"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/bow_48",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "bow_49": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "49"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

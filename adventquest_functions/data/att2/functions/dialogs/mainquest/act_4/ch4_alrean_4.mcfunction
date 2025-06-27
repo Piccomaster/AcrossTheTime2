@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Então você é mais especial do que pensávamos. Você passou pelo portal próximo, não é?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"那么你比我们想象的还要特别，你是穿过附近的传送门来的，对吗？ ","color":"dark_aqua"}]}

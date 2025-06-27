@@ -17,3 +17,5 @@ execute if score Neth1 TIMER matches 300 as @p[x=3723,y=95,z=4353,distance=..15,
 
 execute if score Neth1 TIMER matches 301.. run scoreboard players set cinematic SQ45 4
 execute if score Neth1 TIMER matches ..300 run function att2:cinematic/neth1_iteration
+#return 1->make command block runing
+return 1

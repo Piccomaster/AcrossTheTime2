@@ -11,3 +11,5 @@ execute as @a[distance=..10] run function att2:dialogs/sidequest/sq33/mortimer/p
 
 scoreboard players add @a CHRONOTON 200
 tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+200 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+#return 1->make command block runing
+return 1

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° इथिल : ","color":"green"
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Novamente? Bem, devo dizer que estou ficando sem soluções... As gemas do tempo foram criadas em nosso mundo e quase nenhuma delas saiu de lá. Então não se preocupe em procurá-las nos outros reinos...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"又来？好吧，我必须说我快没辙了……时间宝石是在我们的世界里创造的，而且根本没几颗流落在外。所以别费心去其他王国寻找它们了...","color":"dark_aqua"}]}

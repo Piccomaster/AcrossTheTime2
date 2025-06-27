@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:skeleton_skull"
+            "id": "minecraft:skeleton_skull"
         },
-        "title": {"translate":"Ghast Killer"},
-        "description": {"translate":"Kill 1 Ghast"}
+        "title": {"translate":"att2.advancement.mobskilled.title.ghasts_killed_1"},
+        "description": {"translate":"att2.advancement.mobskilled.description.ghasts_killed_1"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

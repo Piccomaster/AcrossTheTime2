@@ -61,9 +61,12 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Você acha isso? E por que razão absurda eu deveria perdoar o insulto que um ninguém me fez?","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"你是这么想的么？我为什么要因为某个无足轻重的人对我的轻视而愚蠢地原谅他呢？","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/aoran/aoran10
 
 execute as @a[x=7954,y=115,z=6772,distance=..30] run function att2:dialogs/mainquest/act_4/pnj_ouran/player_answer_proposal_4
 execute as @a[x=7954,y=115,z=6772,distance=..30] run function att2:dialogs/mainquest/act_4/pnj_ouran/player_answer_proposal_5
+

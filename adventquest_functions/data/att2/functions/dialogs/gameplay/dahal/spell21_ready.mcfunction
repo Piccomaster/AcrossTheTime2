@@ -49,3 +49,6 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"⧼〈","color":"dark_red","ext
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Familiar de vitalidade pronto","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"“治愈之友”已就绪","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_boots"
-        },
-        "title": {"translate":"Bottes d'élite"},
-        "description": {"translate":"Go, go, go and go again."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
     },
-    "parent": "att2:collection/armor_chainmail/boots_81",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "chainmail_boots_88": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Bottes d'élite\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Allèrent, vont et iront encore.\\\"}\",\"{\\\"text\\\":\\\"§7Go, go, go and go again.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7LUC§a1 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.boots_88"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.boots_88"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/boots_81",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "chainmail_boots_88": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "88"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_sword"
-        },
-        "title": {"translate":"Propre lame"},
-        "description": {"translate":"But with a dirty heart."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
     },
-    "parent": "att2:collection/weapon_iron/sword_78",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_sword_79": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Propre lame\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais cœur sali.\\\"}\",\"{\\\"text\\\":\\\"§7But with a dirty heart.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.sword_79"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.sword_79"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/sword_78",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_sword_79": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "79"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

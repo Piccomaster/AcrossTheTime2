@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*respiração ofegante* Eu... quase... morri... Felizmente, a anomalia temporal me trouxe de volta a um lugar que eu nunca pensei que estaria!","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*呼吸急促*我几乎...已经...快死了...所幸，时间乱流将我带到了一个我从未想过自己会到的地方！ ","color":"aqua"}]}

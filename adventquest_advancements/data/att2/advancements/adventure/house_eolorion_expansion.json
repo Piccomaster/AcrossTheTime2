@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_wood"
+            "id": "minecraft:spruce_wood"
         },
-        "title": {"translate":"Eolorion house expansion"},
-        "description": {"translate":"Buy the Eolorion house expansion"},
+        "title": {"translate":"att2.advancement.adventure.title.house_eolorion_expansion"},
+        "description": {"translate":"att2.advancement.adventure.description.house_eolorion_expansion"},
         "frame": "goal"
     },
     "parent": "att2:adventure/house_eolorion",

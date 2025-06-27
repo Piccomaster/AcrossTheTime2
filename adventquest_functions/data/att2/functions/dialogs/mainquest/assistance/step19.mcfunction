@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui estou em Méleïm, devo falar com o chefe da cidade para encontrar Indra, ele provavelmente a conhece. Sua casa fica logo em frente à grande ponte, sobre uma rocha com vista para o mar.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已经到达了Méleïm，接下来要做的便是找到镇长，让他告诉我Indra的住处。镇长的家应该就在大桥的正前面，在一块可以眺望到大海的巨大岩石顶上。","color":"aqua"}]}

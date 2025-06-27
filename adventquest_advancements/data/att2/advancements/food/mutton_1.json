@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_mutton"
+            "id": "minecraft:cooked_mutton"
         },
-        "title": {"translate":"Mutton tasty"},
-        "description": {"translate":"Eat a cooked mutton"}
+        "title": {"translate":"att2.advancement.food.title.mutton_1"},
+        "description": {"translate":"att2.advancement.food.description.mutton_1"}
     },
     "parent": "att2:food/root",
     "rewards": {

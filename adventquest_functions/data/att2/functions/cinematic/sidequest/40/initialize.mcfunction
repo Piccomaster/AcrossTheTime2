@@ -4,3 +4,5 @@
 ##################################################
 
 scoreboard objectives add SQ40 dummy
+#return 1->make command block runing
+return 1

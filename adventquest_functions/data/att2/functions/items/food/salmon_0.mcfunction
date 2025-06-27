@@ -3,4 +3,4 @@
 #Obtain salmon_0         					 	 #
 ##################################################
 
-give @s minecraft:salmon{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:salmon[custom_data={EquipmentType:'food',Rarity:'misc'}]

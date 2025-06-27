@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° रानी Eldaris : ","color"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rainha Eldaris : ","color":"gold","extra":[{"text":"Se é só isso, leve esses Cronotons. Mas não venha nos trair, ou você se arrependerá.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 女王 Eldaris : ","color":"gold","extra":[{"text":"如果这样的话，请拿着这些Chronotons。但是不要把事情说出去，否则你会后悔的。","color":"dark_aqua"}]}

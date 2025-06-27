@@ -3,4 +3,4 @@
 #Obtain item potion_25          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"epi",Shop:"buy",Effect:"dar4_has_2",display:{Name:"\"§5Élixir Prestigieux\"","Lore":["{\"text\":\"§7Le Dahäl ne peut manquer,\"}","{\"text\":\"§7à celui qui goute à ce breuvage.\"}","{\"text\":\"§7The Dahäl cannot be missed\"}","{\"text\":\"§7by anyone who tastes this beverage.\"}","{\"text\":\"§7DAR§a4 §7HAS§c-2\"}"]},CustomPotionColor:11735039,custom_potion_effects:[{id:instant_health,amplifier:4,duration:2,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={DAR:4,HAS:-2,EquipmentType:"potion",Rarity:"epi",Shop:"buy",Potion:'25'},custom_name={translate:'potion25.name'},lore=[{translate:'potion25.lore.1'},{translate:'potion25.lore.2'},{translate:'potion25.stat'}],max_stack_size=16,potion_contents={custom_color:11735039,custom_effects:[{amplifier:4,duration:2,id:"instant_health",show_particles:0b}]}] 1

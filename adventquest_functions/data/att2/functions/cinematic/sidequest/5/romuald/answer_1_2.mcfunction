@@ -11,3 +11,5 @@ function att2:gameplay/pnj_talk/dialog_playsound/romuald
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq5/romuald/player_proposal_2/answer_1
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq5/romuald/player_proposal_3/choice_1
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq5/romuald/player_proposal_3/choice_2
+#return 1->make command block runing
+return 1

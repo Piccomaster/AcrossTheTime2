@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Esprit de la lune"},
-        "description": {"translate":"From your cold glow, and your immutable silence, you incarnated, incarnate and will incarnate immortal freedom."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_diamond/helmet_196",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_helmet_205": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Esprit de la lune\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDe ta froide lueur, et de ton immuable silence,\\\"}\",\"{\\\"text\\\":\\\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\\\"}\",\"{\\\"text\\\":\\\"§aFrom your cold glow, and your immutable silence, you\\\"}\",\"{\\\"text\\\":\\\"§aincarnated, incarnate and will incarnate immortal freedom.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.helmet_205"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.helmet_205"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/helmet_196",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_helmet_205": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "205"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

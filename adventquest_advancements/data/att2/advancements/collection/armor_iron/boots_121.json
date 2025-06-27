@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_boots"
-        },
-        "title": {"translate":"Bottes de guerre"},
-        "description": {"translate":"Carried as many people as terrible memories."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
     },
-    "parent": "att2:collection/armor_iron/boots_114",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_boots_121": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Bottes de guerre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ont porté autant de personnes\\\"}\",\"{\\\"text\\\":\\\"§7que de terribles souvenirs.\\\"}\",\"{\\\"text\\\":\\\"§7Carried as many people\\\"}\",\"{\\\"text\\\":\\\"§7as terrible memories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.boots_121"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.boots_121"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/boots_114",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_boots_121": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "121"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

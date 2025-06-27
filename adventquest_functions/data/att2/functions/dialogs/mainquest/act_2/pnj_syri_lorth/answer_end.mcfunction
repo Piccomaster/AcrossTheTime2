@@ -65,6 +65,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Bem, eu não esperava que fosse tão rápido; que alívio! Minhas estadias em Méleïm estavam se tornando dolorosas demais. Encontre-me no barco, reunirei minha tripulação e partiremos quando você quiser!","color":"dark_aqua"}]}
 
-
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"好吧，我没想到你做事这么利索。呼，终于把他打发掉了！自从被他缠上，我在镇里的生活便愈发难受...我这就去召集船员，等你准备好了后就到船上找我，我会把你送去你想去的地方！","color":"dark_aqua"}]}
 
 function att2:voice/syri/syri5
+
+

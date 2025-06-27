@@ -3,7 +3,7 @@
 #Recycleur lvl1													#
 #################################################################
 #tellraw @a[scores={LANGUAGE=2}] {"text":"SET放置A点","color":"gold"}
-clear @s minecraft:quartz{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}} 1
+clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 1
 scoreboard players remove @s DAHAL 350
 execute at @s[scores={SPELL32_SET_OR_TP=1}] at @s run function att2:gameplay/dahal/action/spell32/summon_set_a
 function att2:gameplay/dahal/action/spell32/cooldown

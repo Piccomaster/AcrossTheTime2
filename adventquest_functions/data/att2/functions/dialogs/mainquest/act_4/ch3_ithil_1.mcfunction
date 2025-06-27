@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° इथिल : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Eu sei quem você é. Você está vindo pelas gemas do tempo, não é? Meu pai insistiu que eu te ajudasse... Devo avisá-lo: você ficará surpreso, até mesmo aterrorizado com o que está esperando por você.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"我知道你是谁，你是为了时间宝石而来的，对吧？但我父亲坚持要我帮你……我必须警告你：接下来你所要面对的东西可能会使你惊讶甚至是恐惧。","color":"dark_aqua"}]}

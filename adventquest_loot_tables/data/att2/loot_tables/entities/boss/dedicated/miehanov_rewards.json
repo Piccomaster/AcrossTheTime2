@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:shield",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str1_res1_her1_luc1\",display:{Name:\"\\\"§6Témérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telle est la vertu des meilleurs, car eux\\\"}\",\"{\\\"text\\\":\\\"§7seuls atteignirent l'inatteignable.\\\"}\",\"{\\\"text\\\":\\\"§7This is the virtue of the best, because\\\"}\",\"{\\\"text\\\":\\\"§7only them achieved the unachievable.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HER§a1 §7LUC§a1\\\"}\"]},Damage:50,Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}],BlockEntityTag:{Base:0,Patterns:[{Pattern:\"mr\",Color:8},{Pattern:\"cbo\",Color:7},{Pattern:\"gru\",Color:0},{Pattern:\"flo\",Color:3},{Pattern:\"mc\",Color:4},{Pattern:\"flo\",Color:0}]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/shield_63"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"delightful\",Effect:\"str1_her1_luc_1\",SetId:\"5\",display:{Name:\"\\\"§5Casque Dinjirien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLe cours inlassable des âges ne saurait \\\"}\",\"{\\\"text\\\":\\\"§aamenuir la gloire du temps des souvenirs.\\\"}\",\"{\\\"text\\\":\\\"§aThe untiring course of the ages shall not\\\"}\",\"{\\\"text\\\":\\\"§adiminish the glory of the time of memories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7LUC§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7SPD§a2 §7LUC§a6\\\"}\"]},Damage:35,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.93,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.61,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/diamond_helmet_200"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"delightful\",Effect:\"str3_dar1_luc_1\",SetId:\"5\",display:{Name:\"\\\"§5Plastron Dinjirien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLe cours inlassable des âges ne saurait \\\"}\",\"{\\\"text\\\":\\\"§aamenuir la gloire du temps des souvenirs.\\\"}\",\"{\\\"text\\\":\\\"§aThe untiring course of the ages shall not\\\"}\",\"{\\\"text\\\":\\\"§adiminish the glory of the time of memories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7DAR§a1 §7LUC§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7SPD§a2 §7LUC§a6\\\"}\"]},Damage:50,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:7.85,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.45,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/diamond_chestplate_201"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,16 +81,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"delightful\",Effect:\"str2_dar1_luc_1\",SetId:\"5\",display:{Name:\"\\\"§5Jambière Dinjirienne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLe cours inlassable des âges ne saurait \\\"}\",\"{\\\"text\\\":\\\"§aamenuir la gloire du temps des souvenirs.\\\"}\",\"{\\\"text\\\":\\\"§aThe untiring course of the ages shall not\\\"}\",\"{\\\"text\\\":\\\"§adiminish the glory of the time of memories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a1 §7LUC§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7SPD§a2 §7LUC§a6\\\"}\"]},Damage:45,Enchantments:[{id:\"minecraft:thorns\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:5.89,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.83,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/diamond_leggings_202"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -119,14 +101,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"delightful\",Effect:\"str1_her1_luc_1\",SetId:\"5\",display:{Name:\"\\\"§5Bottes Dinjirienne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLe cours inlassable des âges ne saurait \\\"}\",\"{\\\"text\\\":\\\"§aamenuir la gloire du temps des souvenirs.\\\"}\",\"{\\\"text\\\":\\\"§aThe untiring course of the ages shall not\\\"}\",\"{\\\"text\\\":\\\"§adiminish the glory of the time of memories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7LUC§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7SPD§a2 §7LUC§a6\\\"}\"]},Damage:25,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.96,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.22,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/diamond_boots_203"
                 }
             ]
         }
     ]
 }
+

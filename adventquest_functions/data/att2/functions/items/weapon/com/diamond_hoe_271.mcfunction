@@ -3,5 +3,6 @@
 #Obtain item diamond_hoe_271          #
 #####################################
 
-give @s minecraft:diamond_hoe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Type:"spear",Shop:"buy",Effect:"spd_1",display:{Name:"\"§7Reste de joute\"","Lore":["{\"text\":\"§7Lance usée.\"}","{\"text\":\"§7Worn spear.\"}","{\"text\":\"§7SPD§c-1\"}"]},Damage:1450,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.14,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.8200000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1
+give @s minecraft:diamond_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Type:"spear",Shop:"buy",Weapon:"271"},custom_name={translate:"weapon271.name"},lore=[{translate:"weapon271.lore.1"},{translate:"weapon271.lore.2"},{translate:"weapon271.stat"}],max_damage=1560,damage=1450,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:3.14},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.82}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

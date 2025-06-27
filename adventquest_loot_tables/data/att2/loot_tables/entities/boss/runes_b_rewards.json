@@ -11,8 +11,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -26,16 +24,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000010,display:{Name:\"{\\\"text\\\":\\\"§eVon\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 19\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/9_von"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -49,16 +43,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000011,display:{Name:\"{\\\"text\\\":\\\"§eEhl\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 21\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/10_ehl"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -72,16 +62,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000012,display:{Name:\"{\\\"text\\\":\\\"§eAve\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 23\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/11_ave"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -95,16 +81,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000013,display:{Name:\"{\\\"text\\\":\\\"§eChu\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 25\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/12_chu"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -118,16 +100,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000014,display:{Name:\"{\\\"text\\\":\\\"§eFor\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 27\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/13_for"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -141,16 +119,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000015,display:{Name:\"{\\\"text\\\":\\\"§eDa\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 29\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/14_da"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -164,16 +138,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000016,display:{Name:\"{\\\"text\\\":\\\"§eWej\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 31\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/15_wej"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -187,16 +157,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000017,display:{Name:\"{\\\"text\\\":\\\"§eUst\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 33\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/16_ust"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glowstone_dust",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -210,14 +176,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000018,display:{Name:\"{\\\"text\\\":\\\"§eLya\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 35\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/17_lya"
                 }
             ]
         }
     ]
 }
+

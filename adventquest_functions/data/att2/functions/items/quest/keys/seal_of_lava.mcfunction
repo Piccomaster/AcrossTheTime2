@@ -3,4 +3,4 @@
 #Obtain Seal of Lava                			 #
 ##################################################
 
-give @s minecraft:pumpkin_seeds{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§4Sceau de la Lave\"","Lore":["{\"text\":\"§6§oSeal of Lava\"}"]}} 1
+give @s minecraft:pumpkin_seeds[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.seal_of_lava.name'},lore=[{translate:'item.quest.lore'}]] 1

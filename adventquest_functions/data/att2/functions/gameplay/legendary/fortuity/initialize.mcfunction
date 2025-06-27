@@ -3,5 +3,5 @@
 #Initialize Fortuity Sword			            	#
 #####################################################
 
-scoreboard objectives add HOLDING_FS dummy
-scoreboard players set @s HOLDING_FS 0
+scoreboard objectives add FORTUITY dummy
+scoreboard players set @s FORTUITY 0

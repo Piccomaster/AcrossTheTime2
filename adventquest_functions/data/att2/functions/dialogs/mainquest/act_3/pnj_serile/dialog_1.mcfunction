@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sérile : ","color":"yellow","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"Desculpe, eu não tenho muito tempo para você. Você não tem nada para fazer?","color":"dark_aqua","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"抱歉，我现在没什么空。你没有要做的事情吗？ ","color":"dark_aqua","italic":true}]}

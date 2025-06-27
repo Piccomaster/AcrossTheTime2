@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"«Essencial para seu mestre assim como para qualquer ser, mas muito diferente dos outros devido à sua imutabilidade, ele carrega a energia, as emoções e até os valores de uma linhagem.»","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"“对他的主人以及任何生物都是必不可少的，但是由于他的不变性，他与其他人又非常不同，他承载着能量、情感甚至于一脉的价值观”","color":"dark_aqua"}]}

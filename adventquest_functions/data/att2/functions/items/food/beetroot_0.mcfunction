@@ -3,4 +3,4 @@
 #Obtain beetroot_0         					 	 #
 ##################################################
 
-give @s minecraft:beetroot{EquipmentType:"misc",Rarity:"misc",display:{Name:"{\"text\":\"Jorïn\"}"}}
+give @s minecraft:beetroot[custom_data={EquipmentType:'food',Rarity:'misc'}]

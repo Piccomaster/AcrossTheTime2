@@ -3,5 +3,6 @@
 #Obtain item leather_helmet_41          #
 #####################################
 
-give @s minecraft:leather_helmet{EquipmentType:"armor",Rarity:"rar",Manufacturer:"teran",Shop:"buy",Effect:"dar1_luc1_str_2",display:{Name:"\"§9Chapeau\"","Lore":["{\"text\":\"§7Un couvre-chef de choix.\"}","{\"text\":\"§7A great headgear.\"}","{\"text\":\"§7DAR§a1 §7LUC§a1 §7STR§c-2\"}"],color:14791239},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.93,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.36,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]} 1
+give @s minecraft:leather_helmet[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'teran',Shop:'buy',DAR:1,LUC:1,STR:-2,Armor:'41'},custom_name={translate:'armor41.name'},lore=[{translate:'armor41.lore.1'},{translate:'armor41.lore.2'},{translate:'armor41.stat'}],max_damage=60,damage=0,enchantments={'unbreaking':1},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:2.93},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.36},{slot:'head',type:'knockback_resistance',id:'armor.helmet',operation:'add_value',amount:0.02}],dyed_color=14791239]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

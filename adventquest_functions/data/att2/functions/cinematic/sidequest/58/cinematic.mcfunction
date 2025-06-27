@@ -19,3 +19,5 @@ execute if score Real2 TIMER matches 200 as @a[gamemode=spectator] run function 
 
 execute if score Real2 TIMER matches 201.. run scoreboard players set cinematic SQ58 2
 execute if score Real2 TIMER matches ..200 run function att2:cinematic/real2_iteration
+#return 1->make command block runing
+return 1

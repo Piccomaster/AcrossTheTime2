@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° बर्नी डाल्फ 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Vamos dizer que isso ajudará, mas se você for pego, não diga que eu deixei você passar.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"也许这些东西会起作用，但是如果你被抓住了，不要说是我让你通过的。","color":"dark_aqua"}]}

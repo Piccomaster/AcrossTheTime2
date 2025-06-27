@@ -3,7 +3,7 @@
 #Manage lock opening for emeraldkey1 in billgart 		#
 #########################################################
 
-clear @s minecraft:emerald{display:{"Lore":["{\"text\":\"§4Emerald Key\"}"]}} 1
+clear @s minecraft:emerald[custom_name={translate:'item.quest.emerald_key.name'}] 1
 execute in minecraft:the_end positioned -967 36 -617 run function att2:sound/misc/unlock1
 execute in minecraft:the_end positioned -967 36 -617 run function att2:sound/misc/stone_falling
 

@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Homer : ","color":"green","extra
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"Querida, é você? Ah não, esqueci, você não pode mais se mover. Bem, você parece não entender, esta ilha é amaldiçoada, contém uma espécie de monstro sob estas antigas estruturas. Olhe para minha esposa, ela perdeu o uso das pernas por causa dos monstros que esta ilha contém!! Não fique por aqui se você não quer enlouquecer completamente. Para mim acabou, não há mais nada a fazer... Felizmente minha esposa mantém a cabeça!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"是你吗，我的点心？噢不，我忘了，你现在哪也不能去了。你似乎还不知道，这座岛是被诅咒的，岛上的古老建筑下正在蛰伏着一种怪物。看看我的妻子，她就是因为这座岛上的怪物而失去了双腿！如果你不想彻底变疯，就不要呆在这里。对我来说，一切都结束了，已经不用再战斗了...不过幸运的是，我的妻子还能留着头回来！","color":"dark_aqua"}]}

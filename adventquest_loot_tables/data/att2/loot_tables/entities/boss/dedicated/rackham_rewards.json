@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:wooden_shovel",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"str1_spd3_her2\",display:{Name:\"\\\"§6Feu mère lia\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dont l'image salie fut\\\"}\",\"{\\\"text\\\":\\\"§7lavée dans le sang.\\\"}\",\"{\\\"text\\\":\\\"§7Whose soiled image\\\"}\",\"{\\\"text\\\":\\\"§7was washed with blood.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a3 §7HER§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:smite\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.28,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.27,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/wooden_shovel_31"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:iron_pickaxe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str1_has2_hun3\",display:{Name:\"\\\"§6Don d'Adros\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sur ton chemin se dresseront moult\\\"}\",\"{\\\"text\\\":\\\"§7tyrans,mais aucun ne te résistera !\\\"}\",\"{\\\"text\\\":\\\"§7On your way will rise many tyrants,\\\"}\",\"{\\\"text\\\":\\\"§7but none will resist you!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7HUN§a3\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:77.33,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/iron_pickaxe_93"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:chainmail_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"graceful\",Effect:\"res1_spd1_dar2_luc1\",display:{Name:\"\\\"§6Peau de dragon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7D'innombrables écailles valent\\\"}\",\"{\\\"text\\\":\\\"§7mieux qu'une paire de cuirasse.\\\"}\",\"{\\\"text\\\":\\\"§7Countless scales are better than\\\"}\",\"{\\\"text\\\":\\\"§7a pair of shields.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7SPD§a1 §7DAR§a2 §7LUC§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.06,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.4,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/chainmail_leggings_97"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:chainmail_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,14 +81,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"graceful\",Effect:\"str3_has3_her1\",display:{Name:\"\\\"§6Horizon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Là tu resteras, sans jamais t'élever\\\"}\",\"{\\\"text\\\":\\\"§7ni t'enfoncer. Mais là tu excelleras.\\\"}\",\"{\\\"text\\\":\\\"§7There you will stay, without ever rising\\\"}\",\"{\\\"text\\\":\\\"§7or sinking. But then you'll excel.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7HER§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:feather_falling\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.13,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.95,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/chainmail_boots_98"
                 }
             ]
         }
     ]
 }
+

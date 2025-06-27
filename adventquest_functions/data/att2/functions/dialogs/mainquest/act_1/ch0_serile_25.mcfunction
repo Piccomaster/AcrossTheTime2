@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Entendi. Isso é bom! Caso contrário, a morte teria sido a única saída... De qualquer forma, quem te forçou, ou devo dizer ''guiou'' você até a fonte da corrupção?","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"我明白了。这是件好事，不然你就只能以死来寻求解脱了...言归正传，是谁强迫你，或者说，“引导”你接触墮落泉源的？","color":"yellow","italic":true}]}

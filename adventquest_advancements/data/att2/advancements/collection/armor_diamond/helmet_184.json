@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Casque antique"},
-        "description": {"translate":"Time is incapable of blunting your stone will."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_diamond/helmet_177",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_helmet_184": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Casque antique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le temps est bien incapable\\\"}\",\"{\\\"text\\\":\\\"§7d'émousser ta volonté de pierre.\\\"}\",\"{\\\"text\\\":\\\"§7Time is incapable of blunting\\\"}\",\"{\\\"text\\\":\\\"§7your stone will.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.helmet_184"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.helmet_184"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/helmet_177",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_helmet_184": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "184"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

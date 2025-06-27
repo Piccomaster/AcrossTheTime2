@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "using_trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:iron_sword",
+          "predicates": {
+            "minecraft:custom_data": {
+              "EquipmentID": "bloodeater"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -3,4 +3,4 @@
 #Level and Cooldown	for bait							        #
 #################################################################
 
-scoreboard players set @s COOLDOWN24 10000
+scoreboard players operation @s COOLDOWN24 = lvl1 COOLDOWN24

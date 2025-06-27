@@ -56,3 +56,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"gre
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"嘿，你还没有回应我的问题。你有时间帮我把这些老鼠从我的农场里赶走吗？ ","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Violette : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"Você encontrou a cripta dos meus pais? Não sabe como entrar nas catacumbas? Droga, eu esqueci de te falar sobre a fonte no centro do cemitério. Ela contém um mecanismo que abre as catacumbas. Meu vizinho Walton me contou sobre isso, você precisa pressionar os botões em uma certa ordem: diamante > ferro > ouro > esmeralda.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"你找到我父母的墓穴了吗？啊，你不知道如何进入地下墓穴？抱歉，我忘了告诉你墓地中心的水池。它隐藏着打开地下墓穴的方法。我的邻居Walton告诉我，你必须按一定的顺序按下按钮：钻石>铁>金>绿宝石。","color":"dark_aqua"}]}

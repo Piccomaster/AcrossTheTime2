@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Excroissance"},
-        "description": {"translate":"When a blister becomes a weapon."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_wooden/crossbow_247",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "crossbow_248": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§2Excroissance\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand une boursouflure devient une arme.\\\"}\",\"{\\\"text\\\":\\\"§7When a blister becomes a weapon.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.crossbow_248"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.crossbow_248"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/crossbow_247",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "crossbow_248": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "248"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

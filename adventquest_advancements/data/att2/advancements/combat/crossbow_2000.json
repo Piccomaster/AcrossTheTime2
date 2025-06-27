@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:crossbow"
+            "id": "minecraft:crossbow"
         },
-        "title": {"translate":"THIS… IS MY BOOMSTICK!"},
-        "description": {"translate":"Shoot 2000 arrows with your crossbow"},
+        "title": {"translate":"att2.advancement.combat.title.crossbow_2000"},
+        "description": {"translate":"att2.advancement.combat.description.crossbow_2000"},
         "frame": "challenge"
     },
     "parent": "att2:combat/crossbow_1000",

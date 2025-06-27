@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- वल्क का गर्व -
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O Orgulho de Vulk -°- : ","color":"gray","extra":[{"text":"Tenho que ajudar Vulk a recuperar uma antiga massa que Henry Johns disse estar no templo de Worlëst. Deve estar escondida por algum mecanismo ou passagem secreta.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Vulk之傲 -°- : ","color":"gray","extra":[{"text":"Henry_Johns提到过一把上古锤子，正藏在我拿到第一块时间宝石的神殿里，这应该就是Vulk所需要的武器。当然，这把锤子应该被藏得很隐蔽，我得好好找找看神殿内部是否有密室或密道","color":"aqua","italic":true}]}

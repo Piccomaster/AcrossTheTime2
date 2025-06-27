@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_shovel"
+            "id": "minecraft:iron_shovel"
         },
-        "title": {"translate":"Supremes"},
-        "description": {"translate":"Find an Supremes item"}
+        "title": {"translate":"att2.advancement.adventure.title.ult"},
+        "description": {"translate":"att2.advancement.adventure.description.ult"}
     },
     "parent": "att2:adventure/leg",
     "rewards": {

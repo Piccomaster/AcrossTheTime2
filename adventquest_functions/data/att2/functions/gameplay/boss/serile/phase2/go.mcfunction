@@ -31,13 +31,13 @@ stopsound @a * minecraft:weather.rain
 
 # Enable Bossbar storing health of last sphere
 execute store result bossbar minecraft:sphere9 value run data get entity 00000000-0000-022b-0000-00000000009b Health
-execute store result bossbar minecraft:sphere9 max run data get entity 00000000-0000-022b-0000-00000000009b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute store result bossbar minecraft:sphere9 max run data get entity 00000000-0000-022b-0000-00000000009b attributes[{id:"minecraft:max_health"}].base
 execute store result score 00000000-0000-022b-0000-00000000009b SERILE run data get entity 00000000-0000-022b-0000-00000000009b Health 1
 execute if score Sphere9 SERILE matches 1 run bossbar set minecraft:sphere9 visible false
 execute if score Sphere9 SERILE matches 1 run bossbar set minecraft:sphere9 visible true
 # Enable Bossbar storing health of Serile
 execute store result bossbar minecraft:serile value run data get entity 00000000-0000-022b-0000-00000000022b Health
-execute store result bossbar minecraft:serile max run data get entity 00000000-0000-022b-0000-00000000022b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute store result bossbar minecraft:serile max run data get entity 00000000-0000-022b-0000-00000000022b attributes[{id:"minecraft:max_health"}].base
 bossbar set minecraft:serile visible false
 bossbar set minecraft:serile visible true
 

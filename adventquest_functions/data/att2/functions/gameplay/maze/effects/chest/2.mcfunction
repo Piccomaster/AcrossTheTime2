@@ -3,4 +3,4 @@
 #Chest maze effect                  								#
 #####################################################################
 
-particle minecraft:dust 0 0.5 1 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 20 normal
+particle minecraft:dust{color:[0,0.5,1],scale:0.25} ~ ~0.5 ~ 0.3 0.3 0.3 0 20 normal

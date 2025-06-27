@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Ah, que interessante! Agora percebo que era você! Não vou estragar a surpresa para você, mas saiba que isso será um desafio difícil.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"哦，有意思！原来那就是你啊！虽然这有些难度，但我会尽力不揭穿这个秘密的。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[उत्पातक]","color":"gold"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Criadores de problemas]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[闹事者]","color":"gold"}

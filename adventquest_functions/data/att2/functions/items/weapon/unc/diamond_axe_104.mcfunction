@@ -3,5 +3,6 @@
 #Obtain item diamond_axe_104          #
 #####################################
 
-give @s minecraft:diamond_axe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"",display:{Name:"\"§2Pourfend-roi\"","Lore":["{\"text\":\"§7Signa la fin d'un monarque.\"}","{\"text\":\"§7Signed the end of a monarch.\"}"]},Damage:1450,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:8.21,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.91,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Weapon:"104"},custom_name={translate:"weapon104.name"},lore=[{translate:"weapon104.lore.1"},{translate:"weapon104.lore.2"},{translate:"weapon104.stat"}],max_damage=1560,damage=1450,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:8.21},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.91}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

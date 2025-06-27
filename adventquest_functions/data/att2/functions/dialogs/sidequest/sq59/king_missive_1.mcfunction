@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"मेरे प्यारे दो�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"Meu caro amigo, se você está lendo esta carta, isso significa que o portal para Ëarndhel foi finalmente restaurado. Etotsira nos avisou que a interrupção abrupta do portal foi sua culpa. Temíamos ter perdido uma ligação comercial importante que acabara de ser aberta desde o seu retorno. Esta é uma oportunidade para o nosso reino e queríamos aproveitar essa situação. No entanto, há outra coisa que gostaria de discutir pessoalmente com você, é bastante urgente. Volte para mim no palácio de Ëarndhel assim que puder!","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":"我亲爱的朋友，如果你正在阅读这封信，那么意味着通往Ëarndhel的传送门终于被修复了。Etotsira曾警示我们，传送门的突然中断源自于你。我们担心会因此失去你回来后刚刚建立的重要商业联系。这对我们的王国来说是一个机遇，我们本想借此机会大展拳脚。然而，还有另一件十分紧急的事情，我希望能与你当面详谈。请尽快回到Earndhel的皇宫来找我！","color":"gray","italic":true}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Clément : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"Ilvaléi? Nunca ouvi falar antes. Deve ser realmente muito, muito longe!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"Hillvalley？ 我从未听闻，想来与这相隔甚远！ ","color":"dark_aqua"}]}

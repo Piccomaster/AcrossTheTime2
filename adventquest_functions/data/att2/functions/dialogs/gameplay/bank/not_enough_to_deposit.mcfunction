@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gaelle : ","color":"green","extr
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Desculpe, mas você não tem Chronoton suficiente para depositar essa quantidade...","color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"抱歉，您现有的金额小于存入金额。","color":"gold"}]}

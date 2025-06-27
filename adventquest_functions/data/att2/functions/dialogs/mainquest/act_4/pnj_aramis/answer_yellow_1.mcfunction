@@ -53,6 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Ah, é? E o que te faz pensar que vou te ajudar? Não desconheço o poder dessas pedras, então por favor seja mais cuidadoso com o que você pede.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"哦,是吗？那你凭什么认为我会帮你？我又不是不知道这些宝石的力量，所以你提要求的时候最好悠着点.","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis5
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_2_2
+

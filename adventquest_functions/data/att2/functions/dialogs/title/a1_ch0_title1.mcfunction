@@ -49,3 +49,6 @@ title @a[scores={LANGUAGE=9}] title {"text":"_.-*° ","color":"dark_red","extra"
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] title {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Ato 1","color":"gray","underlined":true},{"text":" | ","color":"dark_red","bold":true},{"text":"Dia 1","color":"gray","underlined":true},{"text":" °*-._","color":"dark_red"}]}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] title {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 1","color":"gray","underlined":true},{"text":" | ","color":"dark_red","bold":true},{"text":"第一天","color":"gray","underlined":true},{"text":" °*-._","color":"dark_red"}]}

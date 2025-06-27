@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_chestplate"
-        },
-        "title": {"translate":"Gemme-cœur abandonné"},
-        "description": {"translate":"No heat, by the stones or by the cold wind until the future. Alone, it lies."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
     },
-    "parent": "att2:collection/armor_billgart/netherite/chestplate_321",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_chestplate_326": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§5Gemme-cœur abandonné\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aucune chaleur, par les pierres ou par le vent\\\"}\",\"{\\\"text\\\":\\\"§7froid jusqu'à l'avenir. Seul, il demeure.\\\"}\",\"{\\\"text\\\":\\\"§7No heat, by the stones or by the cold wind\\\"}\",\"{\\\"text\\\":\\\"§7until the future. Alone, it lies.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HUN§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.chestplate_326"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.chestplate_326"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/chestplate_321",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_chestplate_326": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "326"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

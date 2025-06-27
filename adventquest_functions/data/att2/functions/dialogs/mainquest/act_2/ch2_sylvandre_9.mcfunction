@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Estamos na casa de Maria, ela era uma grande arqueira. Embora ela não corra mais pelas florestas, ela continua sendo nossa especialista em fazer arcos e flechas.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"这里是Maria的家，她曾经是一名出色的弓箭手。尽管现在她无法再在树林中驰骋，但她仍是制作弓弩与箭矢的专家。","color":"dark_aqua"}]}

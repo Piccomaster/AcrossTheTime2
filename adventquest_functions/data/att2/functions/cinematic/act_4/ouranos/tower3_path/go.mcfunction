@@ -15,3 +15,5 @@ particle minecraft:cloud 7550 141 6632 7 7 0 0.5 20 normal
 
 # TP
 execute as @a[x=7537,y=127,z=6632,dx=27,dy=27,dz=5,gamemode=adventure] at @s run tp @s ~ ~ ~0.3
+#return 1->make command block runing
+return 1

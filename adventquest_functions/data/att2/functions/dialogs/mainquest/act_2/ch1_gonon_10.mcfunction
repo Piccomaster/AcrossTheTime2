@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Obrigado, estranho! Como prometido, você pode descansar aqui!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"谢谢你！陌生人，我说话算话，现在你拥有一间房间了！ ","color":"dark_aqua"}]}

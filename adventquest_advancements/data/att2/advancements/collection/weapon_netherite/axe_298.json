@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_axe"
-        },
-        "title": {"translate":"Herminette de Cédrin"},
-        "description": {"translate":"We will not entrust it to the nervous one..."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
     },
-    "parent": "att2:collection/weapon_netherite/axe_289",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_axe_298": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_axe"],
-                    "nbt": "{display:{Name:\"\\\"§9Herminette de Cédrin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7On se gardera de la confier au nerveux...\\\"}\",\"{\\\"text\\\":\\\"§7We will not entrust it to the nervous one...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7SPD§a1 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.axe_298"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.axe_298"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/axe_289",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_axe_298": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "298"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

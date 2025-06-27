@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Extratellur अपनी सारी �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Extratellur está restaurando toda a sua saúde...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"Extratellur恢复了他们所有的力量...","color":"gray","italic":true}

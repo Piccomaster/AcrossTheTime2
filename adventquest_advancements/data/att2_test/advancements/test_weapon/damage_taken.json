@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shield"
+        },
+        "title": {"translate":"test"},
+        "description": {"translate":"hurt"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "att2:advancement/test_all/combat/damage_taken"
+                },
+    "criteria": {
+        "damage_taken": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    }
+}
+
+

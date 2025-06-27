@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Não, não diga isso, Relgon. Você tem que confiar em mim, se outro foi enviado, significa que você precisará dele. A vontade dela é benevolente...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"别那么说嘛，Relgon。相信我，在这个节骨眼上，如果有谁被送到这里，那就意味着你一定会需要他—“她”的意志永远是仁慈的...","color":"dark_aqua"}]}

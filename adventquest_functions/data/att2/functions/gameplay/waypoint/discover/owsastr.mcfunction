@@ -10,13 +10,7 @@ setblock -4661 70 -4546 minecraft:cyan_stained_glass
 playsound entity.experience_orb.touch master @a ~ ~ ~ 10 0.1 1
 
 
-#FRENCH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=0}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"Point de passage des marais Owsästr découvert!","color":"yellow"}]}
-
-
-#ENGLISH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=1..}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"WAYPOINT of Owsästr discovered!","color":"yellow"}]}
+#waypoint discovered
+function att2:dialogs/gameplay/waypoint/owsastr_discovered
 
 function att2:advancement/test_all/journey/waypoints

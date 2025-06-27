@@ -6,9 +6,9 @@
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run effect give @s minecraft:wither 4 3 true
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run effect give @s minecraft:slowness 2 0 true
 
-particle minecraft:item minecraft:iron_block ~ ~0.2 ~ 3.5 0.25 3.5 0.1 7 normal
-particle minecraft:item minecraft:gray_concrete ~ ~0.2 ~ 3.5 0.25 3.5 0.1 7 normal
-particle minecraft:item minecraft:dirt ~ ~0.2 ~ 3.5 0.25 3.5 0.1 7 normal
+particle minecraft:item{item:"minecraft:iron_block"} ~ ~0.2 ~ 3.5 0.25 3.5 0.1 7 normal
+particle minecraft:item{item:"minecraft:gray_concrete"} ~ ~0.2 ~ 3.5 0.25 3.5 0.1 7 normal
+particle minecraft:item{item:"minecraft:dirt"} ~ ~0.2 ~ 3.5 0.25 3.5 0.1 7 normal
 particle minecraft:ash ~ ~0.2 ~ 3.5 0.25 3.5 0.1 70 normal
 particle minecraft:campfire_cosy_smoke ~ ~ ~ 3.5 0 3.5 0.01 7 normal
 

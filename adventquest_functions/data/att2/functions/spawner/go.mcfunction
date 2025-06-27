@@ -24,6 +24,9 @@ execute if score 140s SPAWNER_TIMER matches ..0 run function att2:spawner/go_140
 execute if score 300s SPAWNER_TIMER matches ..0 run function att2:spawner/go_300
 
 execute if score level DIFFICULTY matches -1..1 store result score numberPlayer COUNT if entity @a
+#make number <=5
+execute if score numberPlayer COUNT matches 5.. run scoreboard players set numberPlayer COUNT 5
+
 execute if score level DIFFICULTY matches 2 run scoreboard players set numberPlayer COUNT 5
 
 execute if score numberPlayer COUNT matches 1 run function att2:spawner/timer_reset/1player

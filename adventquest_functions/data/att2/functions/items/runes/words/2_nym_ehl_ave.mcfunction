@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:arms_up_pottery_sherd{EquipmentType:"runic_word",Rarity:"com",display:{Name:"\"§7Soutien\"","Lore":["{\"text\":\"§7Support\"}","{\"text\":\"§eNym Ehl Ave\"}","{\"text\":\"§aSpells Cooldown:§2 -10%\"}","{\"text\":\"§aLoot Boss:§2 +1\"}","{\"text\":\"§cLevel Required:§4 20\"}"]}} 1
+give @s minecraft:arms_up_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'2'},custom_name={translate:'item.runeword.2.name'},lore=[{translate:'item.runeword.2.recipe'},{translate:'item.runeword.2.cooldown'},{translate:'item.runeword.2.loot'},{translate:'item.runeword.2.limit'}]]

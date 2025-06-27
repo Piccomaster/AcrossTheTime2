@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Derim Kril : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Ei, ladrão, nós vamos fazer você pagar pelos seus crimes!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"嘿小偷，我们会让你为你的罪行付出代价！ ","color":"dark_aqua"}]}

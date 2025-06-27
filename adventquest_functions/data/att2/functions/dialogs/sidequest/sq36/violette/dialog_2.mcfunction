@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Violette : ","color":"green","e
 function att2:dialogs/sidequest/sq36/violette/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq36/violette/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq36/violette/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"你想对我做什么？等等！我认识你。我听说你在这片地区帮助过我们中的一些人...你不知道，几年前我失去了父母。他们被埋在高处Eol山谷的墓地中。不幸的是，几个月前，有许多怪物开始始在那里徘徊。奇怪的是，我父母墓穴的入口被反锁了，我希望有人能帮我打开墓穴入口，这样我就可以进去了。你会帮我吗？ ","color":"dark_aqua"}]}

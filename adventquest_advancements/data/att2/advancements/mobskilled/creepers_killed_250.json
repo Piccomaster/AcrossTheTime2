@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:creeper_head"
+            "id": "minecraft:creeper_head"
         },
-        "title": {"translate":"Creeper Genocider"},
-        "description": {"translate":"Kill 250 Creepers"},
+        "title": {"translate":"att2.advancement.mobskilled.title.creepers_killed_250"},
+        "description": {"translate":"att2.advancement.mobskilled.description.creepers_killed_250"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/creepers_killed_100",

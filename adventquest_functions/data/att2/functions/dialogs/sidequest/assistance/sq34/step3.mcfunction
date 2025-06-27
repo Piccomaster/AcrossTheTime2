@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- रिज से ब्रिज �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Da crista à ponte -°- : ","color":"gray","extra":[{"text":"Infelizmente, nem todos sobreviveram ao ataque e Alexandre, o único sobrevivente, ainda precisará de ajuda para trazer a carga de volta ao local.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 从山脊到桥 -°- : ","color":"gray","extra":[{"text":"除了Alexandre，其他工人都在突袭中牺牲了。Alexandre拜托我将货物送回去。","color":"aqua","italic":true}]}

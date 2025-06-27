@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Muito bem, herói em tellurön, confio-lhe este arco por agora. Mas quando você não conseguir mais usá-lo, peço que o devolva. Eu então estarei em Angband. Adeus, que a sorte esteja com você...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"很好，Tellurön的英雄，我把这把弓托付给你。当你不再使用它的时候，请你把它还给我。在不久之后我将回到Angband。再见，祝你旅途顺利...","color":"dark_aqua"}]}

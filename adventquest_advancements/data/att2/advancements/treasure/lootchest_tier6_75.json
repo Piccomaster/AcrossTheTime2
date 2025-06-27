@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:trapped_chest"
+            "id": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Wanted Chest Amateur"},
-        "description": {"translate":"Open 75 Wanted Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier6_75"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier6_75"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier6_25",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

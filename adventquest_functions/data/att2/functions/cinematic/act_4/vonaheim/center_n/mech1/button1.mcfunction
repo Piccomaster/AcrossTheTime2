@@ -8,3 +8,5 @@ function att2:physicmod/reg1/vonaheim/center_n/mech1_button1
 
 scoreboard players add center_n_mech1 VONAHEIM 1
 execute if score center_n_mech1 VONAHEIM matches 2 run function att2:cinematic/act_4/vonaheim/center_n/mech1/end
+#return 1->make command block runing
+return 1

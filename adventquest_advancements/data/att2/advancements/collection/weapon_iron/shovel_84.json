@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_shovel"
-        },
-        "title": {"translate":"Dague du père"},
-        "description": {"translate":"A memory does not protect,	a weapon can."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
     },
-    "parent": "att2:collection/weapon_iron/shovel_77",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_shovel_84": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Dague du père\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un souvenir ne protège pas,\\\"}\",\"{\\\"text\\\":\\\"§7une arme le peut.\\\"}\",\"{\\\"text\\\":\\\"§7A memory does not protect,\\\"}\",\"{\\\"text\\\":\\\"§7a weapon can.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7DAR§a3 §7HER§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.shovel_84"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.shovel_84"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/shovel_77",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_shovel_84": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "84"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

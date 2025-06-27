@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lucas : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Acho que você já encontrou essas entidades de olhos grandes com pele semelhante a nuvens. Nós as chamamos de peixes dos sonhos ou somniófagos. Mas você sabia que na verdade eles não voam? Essas criaturas operam neste vasto mundo sem nenhuma atração para baixo graças a uma substância em seus corpos que anula o efeito da gravidade. Suas mandíbulas lhes concedem movimento em qualquer direção. A arte de cortar o ar com Pelzion é muito prática, mas frequentemente muito perigosa...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"我猜你已经和那些云里的大眼怪物打过交道了—我们一般叫它们“梦鱼”。但你知道吗？它们并不是真的在飞。它们体内的一种物质能使它们不受重力的影响，这也是它们能在这无边无际的世界中漂浮的原因，而下肢能让它们上下左右四处飘动。使用Pelzion腾云驾雾确实十分便利，但是风险也不小...","color":"dark_aqua"}]}

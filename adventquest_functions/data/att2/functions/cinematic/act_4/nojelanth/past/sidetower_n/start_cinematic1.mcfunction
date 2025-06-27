@@ -10,3 +10,5 @@ execute positioned -7543 141 -4321 run function att2:summon/reg_1/putrid2_class2
 execute positioned -7546 141 -4321 run function att2:summon/reg_1/putrid2_class20
 execute positioned -7543 141 -4312 run function att2:summon/reg_1/putridarcher5_class20
 execute positioned -7546 141 -4312 run function att2:summon/reg_1/putridarcher5_class20
+#return 1->make command block runing
+return 1

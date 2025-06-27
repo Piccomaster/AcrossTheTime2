@@ -62,3 +62,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gerard : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Se eu vim morar em Ëarndhel foi precisamente por seu lado pacífico e tranquilo. Agora estranhos estão chegando através deste portal maligno e você é a causa... Não quero mais vê-lo em minha casa! Vá viajar para outro lugar!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"我当初来Earndhel居住，正是因为它是一处安静祥和的好地方。但现在，成群的陌生人蜂拥而入你打开的那道破传送们...我不想再在自己的房子里看到你！到别处去吧！","color":"dark_aqua"}]}

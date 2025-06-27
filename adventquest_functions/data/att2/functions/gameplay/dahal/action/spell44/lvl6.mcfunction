@@ -6,23 +6,26 @@
 execute as @a[distance=..6] at @s run function att2:gameplay/dahal/action/spell44/effect
 execute as @a[distance=..6] at @s run particle minecraft:poof ~ ~ ~ 0.5 0.5 0.5 0.3 120
 effect give @s minecraft:invisibility 50 0 true
-scoreboard players set @s[scores={HUN_LVL_DAM=..3}] HUN_LVL_DAM 3
-scoreboard players set @s[scores={HUN_LVL_DAM=..3}] TIMER_HUN_DAM 1000
-scoreboard players set @s[scores={HAS_LVL_DAB=..3}] HAS_LVL_DAB 3
-scoreboard players set @s[scores={HAS_LVL_DAB=..3}] TIMER_HAS_DAB 1000
-scoreboard players set @s[scores={SPD_LVL_DAB=..2}] SPD_LVL_DAB 2
-scoreboard players set @s[scores={SPD_LVL_DAB=..2}] TIMER_SPD_DAB 1000
+#set spell effect score
+scoreboard players operation SPELL44_HUN CAL = lvl6 SPELL44_HUN
+scoreboard players operation SPELL44_HAS CAL = lvl6 SPELL44_HAS
+scoreboard players operation SPELL44_SPD CAL = lvl6 SPELL44_SPD
+scoreboard players operation SPELL44_TIMER CAL = lvl6 SPELL44_TIMER
+#TIMER
+scoreboard players set SPELL44_TIMER CAL 1000
+scoreboard players operation @s SPELL44_TIMER = SPELL44_TIMER CAL
+#HUN
+scoreboard players operation @s SPELL44_HUN = SPELL44_HUN CAL
+#HAS
+scoreboard players operation @s SPELL44_HAS = SPELL44_HAS CAL
+#SPD
+scoreboard players operation @s SPELL44_SPD = SPELL44_SPD CAL
 ##other players
-execute at @s as @a[distance=..6] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run effect give @s minecraft:invisibility 35 0 true
-execute at @s as @a[distance=..6] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HUN_LVL_DAM=..2}] HUN_LVL_DAM 2
-execute at @s as @a[distance=..6] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HUN_LVL_DAM=..2}] TIMER_HUN_DAM 700
-execute at @s as @a[distance=..6] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HAS_LVL_DAB=..2}] HAS_LVL_DAB 2
-execute at @s as @a[distance=..6] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HAS_LVL_DAB=..2}] TIMER_HAS_DAB 700
-execute at @s as @a[distance=..6] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={SPD_LVL_DAB=..1}] SPD_LVL_DAB 1
-execute at @s as @a[distance=..6] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={SPD_LVL_DAB=..1}] TIMER_SPD_DAB 700
+execute at @s as @a[distance=0.1..6] run function att2:gameplay/dahal/action/spell44/other_player
 #effect other 
-execute at @s as @e[type=minecraft:wolf,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
-execute at @s as @e[type=minecraft:iron_golem,scores={BELONG_PLAYER2=1..}] if score @s BELONG_PLAYER2 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
+execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
+
+#dahal
 scoreboard players remove @s DAHAL 75
 tag @a[distance=..6] add Elusive
 function att2:gameplay/dahal/action/spell44/cooldown

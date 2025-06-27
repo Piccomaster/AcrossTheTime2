@@ -3,5 +3,6 @@
 #Obtain item golden_shovel_158          #
 #####################################
 
-give @s minecraft:golden_shovel{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"eternan",Shop:"buy",Effect:"str3_spd2_has1",display:{Name:"\"§6Lelrïm tar\"","Lore":["{\"text\":\"§7Panache et grandiloquence ne sont\"}","{\"text\":\"§7l'apanage que des faquins et faux héros.\"}","{\"text\":\"§7Panache and grandiloquence are\"}","{\"text\":\"§7the prerogative only of fake and false heroes.\"}","{\"text\":\"§7STR§a3 §7SPD§a2 §7HAS§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:6s},{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:5.05,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:0.24,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:golden_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"eternan",Shop:"buy",STR:3,SPD:2,HAS:1,Weapon:"158"},custom_name={translate:"weapon158.name"},lore=[{translate:"weapon158.lore.1"},{translate:"weapon158.lore.2"},{translate:"weapon158.stat"}],max_damage=40,damage=0,enchantments={"bane_of_arthropods":6,"unbreaking":4},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:5.05},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:0.24}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

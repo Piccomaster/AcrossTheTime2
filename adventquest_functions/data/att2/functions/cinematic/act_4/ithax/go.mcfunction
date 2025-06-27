@@ -89,3 +89,5 @@ execute if score train_moving ITHAX matches 405 positioned -7434 133 -5991 run f
 
 execute if score train_moving ITHAX matches 1.. run scoreboard players add train_moving ITHAX 1
 execute if score train_moving ITHAX matches 410.. run scoreboard players set train_moving ITHAX -1
+#return 1->make command block runing
+return 1

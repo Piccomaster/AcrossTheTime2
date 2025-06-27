@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"गया की विफलत
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Fracasso de Gaya, guardião dos tempos perdidos","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Gaya失败的造物, 旧时代的守卫","color":"gray"}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:rabbit_foot"
+            "id": "minecraft:rabbit_foot"
         },
-        "title": {"translate":"Fortunate!"},
-        "description": {"translate":"Taking actions to maximise your chances"}
+        "title": {"translate":"att2.advancement.combat.title.luc_4"},
+        "description": {"translate":"att2.advancement.combat.description.luc_4"}
     },
     "parent": "att2:combat/luc_2",
     "rewards": {

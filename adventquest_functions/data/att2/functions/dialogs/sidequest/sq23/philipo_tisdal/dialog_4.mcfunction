@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"gre
 
 
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"你回来了？我觉得我们有些急躁了，我总是需要别人的帮助。请告诉我你需要多少个chronotons才愿意帮我...","color":"dark_aqua"}]}

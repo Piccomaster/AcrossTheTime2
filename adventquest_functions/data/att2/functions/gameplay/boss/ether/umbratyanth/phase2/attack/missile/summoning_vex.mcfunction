@@ -3,7 +3,7 @@
 #Manage Umbra's missile apparition                                	#
 #####################################################################
 
-execute at 00000000-0000-012c-0000-00000000012c run particle minecraft:item minecraft:hopper ~ ~1.2 ~ 0 0.2 0 0.1 5 normal
+execute at 00000000-0000-012c-0000-00000000012c run particle minecraft:item{item:"minecraft:hopper"} ~ ~1.2 ~ 0 0.2 0 0.1 5 normal
 
 execute if score Missile UMBRATYANTH matches 1 at 00000000-0000-012c-0000-00000000012c run function att2:summon/reg_1/umbratyanth_minions5
 execute as @e[tag=UmbraMissile] run function att2:gameplay/boss/ether/umbratyanth/phase2/attack/missile/init_vex

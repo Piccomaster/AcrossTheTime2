@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/enchantment/trigger_function/test"
+  },
+  "criteria": {
+    "1000slay": {
+      "trigger": "minecraft:entity_killed_player"
+    }
+  }
+}

@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"स्पेक्ट्रल धन�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Arco Espectral!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“虚实之弓”已升级！","color":"gold"}

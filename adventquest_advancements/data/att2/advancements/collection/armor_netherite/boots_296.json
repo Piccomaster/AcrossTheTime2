@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Silence de Sylberländ"},
-        "description": {"translate":"..."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_netherite/boots_292",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_boots_296": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Silence de Sylberländ\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7...\\\"}\",\"{\\\"text\\\":\\\"§7§kIl est des choses qu'aucun ne voudrait entendre.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7DAR§a2 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.boots_296"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.boots_296"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/boots_292",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_boots_296": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "296"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

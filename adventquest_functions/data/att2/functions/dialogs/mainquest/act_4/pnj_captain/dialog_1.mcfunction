@@ -58,6 +58,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Você está surdo? Saia da frente, é perigoso aqui!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 队长 : ","color":"green","extra":[{"text":"你TM耳聋吗？赶紧滚开，这里十分危险！","color":"dark_aqua"}]}
 
 function att2:voice/capitaine/capitaine2
 function att2:dialogs/mainquest/act_4/pnj_captain/player_answer_proposal_1
+

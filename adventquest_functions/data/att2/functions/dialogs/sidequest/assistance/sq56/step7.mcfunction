@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की महान खो
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 6 -°- : ","color":"gray","extra":[{"text":"O medalhão emite vibrações estranhas na academia, deve estar escondendo algo...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 6 部分 -°- : ","color":"gray","extra":[{"text":"学院深处传来了奇怪的震响，好像和勋章产生了共振。应该有间密室。","color":"aqua","italic":true}]}

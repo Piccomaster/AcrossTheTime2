@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Claro que não, oh, eu acho que entendi, você vem de muito longe... De um lugar que não pode ser alcançado nem a pé nem voando.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"当然不是，哦，我想我明白了，你来自很远的地方……是一个步行乃至于飞行都遥不可及的地方。。","color":"dark_aqua"}]}

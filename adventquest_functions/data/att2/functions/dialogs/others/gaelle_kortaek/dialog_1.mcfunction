@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gaëlle : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"Bem-vindo ao banco Kortaek, você pode depositar seu dinheiro com segurança e, é claro, pode retirá-lo a qualquer momento aqui. Clique nos painéis para prosseguir com as transferências.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"欢迎光临Kortaek银行，您可以放心地将自己身上的钱存入此处，随时都可以取走它们。点击窗口旁的告示牌即可进行相关操作。","color":"dark_aqua"}]}

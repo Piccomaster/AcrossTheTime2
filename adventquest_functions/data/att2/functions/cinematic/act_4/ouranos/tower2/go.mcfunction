@@ -13,3 +13,5 @@ particle minecraft:sweep_attack 7396 176.5 6460 0.6 0.1 0.1 0 2 normal
 particle minecraft:sweep_attack 7400 174.5 6470 1.0 0.1 0.1 0 2 normal
 particle minecraft:sweep_attack 7400 174.5 6470 0.1 0.1 1.0 0 2 normal
 particle minecraft:sweep_attack 7383 173.5 6472 0.1 0.1 1.0 0 2 normal
+#return 1->make command block runing
+return 1

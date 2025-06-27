@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stripped_spruce_log"
+            "id": "minecraft:stripped_spruce_log"
         },
-        "title": {"translate":"All Leggings"},
-        "description": {"translate":"Find all leggings items"},
+        "title": {"translate": "att2.advancement.collection.title.leggings_all"},
+        "description": {"translate": "att2.advancement.collection.description.leggings_all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/root",

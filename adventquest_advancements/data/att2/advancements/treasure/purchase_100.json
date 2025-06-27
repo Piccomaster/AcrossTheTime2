@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:name_tag"
+            "id": "minecraft:name_tag"
         },
-        "title": {"translate":"Investment"},
-        "description": {"translate":"Buy 100 items from a merchant"},
+        "title": {"translate": "att2.advancement.treasure.title.purchase_100"},
+        "description": {"translate": "att2.advancement.treasure.description.purchase_100"},
         "frame": "goal"
     },
     "parent": "att2:treasure/purchase_25",

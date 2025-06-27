@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_axe"
+            "id": "minecraft:stone_axe"
         },
-        "title": {"translate":"Full rare set"},
-        "description": {"translate":"Get yourself equipped a full rare armor and weapon set"},
+        "title": {"translate":"att2.advancement.adventure.title.rar_full_set"},
+        "description": {"translate":"att2.advancement.adventure.description.rar_full_set"},
         "frame": "goal"
     },
-    "parent": "att2:adventure/rar",
+    "parent": "att2:adventure/unc_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 2500

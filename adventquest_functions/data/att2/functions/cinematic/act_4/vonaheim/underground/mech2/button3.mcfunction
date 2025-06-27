@@ -8,3 +8,5 @@ function att2:physicmod/reg1/vonaheim/underground/mech2_button3
 
 scoreboard players add underground_mech2 VONAHEIM 1
 execute if score underground_mech2 VONAHEIM matches 3 run function att2:cinematic/act_4/vonaheim/underground/mech2/end
+#return 1->make command block runing
+return 1

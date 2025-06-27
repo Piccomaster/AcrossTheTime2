@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O aluno traz um simples osso para J'zargo. Ele é idiota e faz J'zargo perder tempo... Oh, mas há algumas inscrições engraçadas nele. O idiota nem percebeu o que estava carregando, mas felizmente J'zargo está aqui para entender seu valor.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"这学徒仅仅给J'zargo带来了一根骨头。他是个白痴，浪费了J'zargo的时间...哦？但是上面有一些有趣的雕刻。这个白痴甚至没有注意到他拿出来的是什么，但是，唉，谁让J'zargo了解它的价值呢？","color":"dark_aqua"}]}

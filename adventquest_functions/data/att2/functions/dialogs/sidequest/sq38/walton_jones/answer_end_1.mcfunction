@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"*Ofegante* Ufa, você realmente não foi com suavidade lá... Eu pensei que estava vendo minhas últimas horas. Ainda não sei o que está escondido nos escombros, mas terei que fazer algumas escavações. Volte mais tarde, talvez eu tenha feito algumas descobertas até lá...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"*气喘吁吁*呼，还好你没下狠手...我差点以为我要死了。我得继续挖掘这片废墟中的隐藏的秘密。过一段时间再来找我吧，也许到时候我会有一些新发现...","color":"dark_aqua"}]}

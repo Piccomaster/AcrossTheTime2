@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"Marque-terre"},
-        "description": {"translate":"A footprint for which no soil can resist, not even rock."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_diamond/boots_183",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_boots_190": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Marque-terre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une empreinte pour laquelle aucun\\\"}\",\"{\\\"text\\\":\\\"§7sol ne résiste, pas même la roche.\\\"}\",\"{\\\"text\\\":\\\"§7A footprint for which no soil\\\"}\",\"{\\\"text\\\":\\\"§7can resist, not even rock.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.boots_190"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.boots_190"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/boots_183",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_boots_190": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "190"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

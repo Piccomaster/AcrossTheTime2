@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Omeryn White : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Que ousadia!... Eu gosto disso! Aqui estão 30 Cronotons! Pegue também a chave do armazém. Está em uma caverna ao lado.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"发什么神经！...我喜欢！这是30个Chronotons！拿好仓库的钥匙。去房子后面的山洞里找到我的仓库，然后完成你的工作。","color":"dark_aqua"}]}

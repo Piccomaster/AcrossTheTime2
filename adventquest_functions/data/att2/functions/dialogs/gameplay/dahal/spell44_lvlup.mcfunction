@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"लुब्धक के लिए न
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Elusivo!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“影战士”已升级！","color":"gold"}

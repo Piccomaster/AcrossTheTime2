@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_chestplate"
-        },
-        "title": {"translate":"Résiliente broigne"},
-        "description": {"translate":"Strengthen the body, preserve your mind."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
     },
-    "parent": "att2:collection/armor_netherite/chestplate_276",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_chestplate_283": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Résiliente broigne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fortifie le corps, garde ton esprit.\\\"}\",\"{\\\"text\\\":\\\"§7Strengthen the body, preserve your mind.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.chestplate_283"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.chestplate_283"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/chestplate_276",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_chestplate_283": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "283"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"Your Story!"},
-        "description": {"translate":"Write notes and make a book."}
+        "title": {"translate":"att2.advancement.adventure.title.your_story"},
+        "description": {"translate":"att2.advancement.adventure.description.your_story"}
     },
     "parent": "att2:adventure/root",
     "rewards": {

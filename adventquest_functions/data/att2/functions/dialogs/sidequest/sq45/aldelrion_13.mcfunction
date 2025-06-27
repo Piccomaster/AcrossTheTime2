@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Leve também este distintivo. Encontrei-o nos escombros pouco antes de você voltar. Deve ter pertencido a um pequeno grupo na região, deixo você descobrir sua utilidade, não preciso dele...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"拿着这个‘神秘徽章’。在你回来之前，我在废墟的碎石中找到了它。这个东西肯定是angor废墟中一个小团体的，你会知道它的用途的，我不需要它...","color":"dark_aqua"}]}

@@ -3,5 +3,6 @@
 #Obtain item iron_pickaxe_74          #
 #####################################
 
-give @s minecraft:iron_pickaxe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"str1_her_1",display:{Name:"\"§2Masse du garde\"","Lore":["{\"text\":\"§7Fléau du mendiant.\"}","{\"text\":\"§7The beggar's plague.\"}","{\"text\":\"§7STR§a1 §7HER§c-1\"}"]},Damage:175,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:11.48,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:iron_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",STR:1,HER:-1,Weapon:"74"},custom_name={translate:"weapon74.name"},lore=[{translate:"weapon74.lore.1"},{translate:"weapon74.lore.2"},{translate:"weapon74.stat"}],max_damage=260,damage=175,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:11.48},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.94}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Kortaek NPC"},
-        "description": {"translate":"Talk to all Kortaek people"},
+        "title": {"translate":"att2.advancement.journey.title.pnj_kortaek"},
+        "description": {"translate":"att2.advancement.journey.description.pnj_kortaek"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_kortaek",

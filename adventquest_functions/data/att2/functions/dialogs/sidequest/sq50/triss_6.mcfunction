@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Ele deve estar no deserto de Kert agora. Seja paciente com ele, mesmo que ele pareça irritante, você o ajudará muito. Mas tome muito cuidado para não dizer que fui eu quem te enviou!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"他现在一定在Kert沙漠。对待他要有耐心，即使他看起来很令人讨厌，你会帮能到他很多。但是你一定要小心，不要说是我派你来的！","color":"dark_aqua"}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:water_bucket"
+            "id": "minecraft:water_bucket"
         },
-        "title": {"translate":"Whale Level"},
-        "description": {"translate":"Swim 25km"},
+        "title": {"translate":"att2.advancement.progress.title.swim_2500000"},
+        "description": {"translate":"att2.advancement.progress.description.swim_2500000"},
         "frame": "challenge"
     },
     "parent": "att2:progress/swim_500000",

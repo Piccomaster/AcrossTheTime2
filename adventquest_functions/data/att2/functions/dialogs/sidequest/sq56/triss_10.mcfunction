@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Enquanto você os respeitar, faz sentido. A propósito, Cassandre ficaria muito feliz se você devolvesse o medalhão dela.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"只要你能尊重他们，就会有成效的。顺带一提，如果你把勋章还给Cassandre的话她会很高兴的。","color":"dark_aqua"}]}

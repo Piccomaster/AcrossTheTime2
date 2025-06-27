@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Aqui estou eu em Hill Valley, na época em que tudo começou para mim... Se me lembro bem, o portão estava no alto de um prédio atrás do meu apartamento. Vou ter que pular de outro prédio para não mudar...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"对了，这里是Hill_Valley，我所有冒险的起点...如果我没记错，传送门就在我公寓后面的一栋建筑物的高处。我必须从另一栋楼跳下来，这样才能回到原样...","color":"aqua","italic":true}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:goat_horn"
+            "id": "minecraft:goat_horn"
         },
-        "title": {"translate":"You are the goat !"},
-        "description": {"translate":"Reach beyond max level for all skills at once"},
+        "title": {"translate":"att2.advancement.combat.title.all_stats_max"},
+        "description": {"translate":"att2.advancement.combat.description.all_stats_max"},
 		"frame": "challenge"
     },
     "parent": "att2:combat/root",

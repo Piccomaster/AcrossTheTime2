@@ -16,7 +16,7 @@ title @s[scores={LANGUAGE=1}] actionbar {"text":"⧼〈","color":"dark_red","ext
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"“地震”已就緒","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+title @s actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"“地震”已就緒","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 
 #JAPANESE LANGUAGE
 
@@ -49,3 +49,6 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"⧼〈","color":"dark_red","ext
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Earthquake pronto","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"“地震”已就绪","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}

@@ -12,4 +12,6 @@ execute at 00000000-0000-027a-0000-00000000027a as @p[distance=..10] run functio
 tag 00000000-0000-027a-0000-00000000027a remove QUEST
 
 #REWARDS
-execute positioned -5051 75 -5083 run function att2:summon/reg_1/horse4_class4
+execute positioned -5051 75 -5083 run function att2:summon/ride/horse4_class4
+#return 1->make command block runing
+return 1

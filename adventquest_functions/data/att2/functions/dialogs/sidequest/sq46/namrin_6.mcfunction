@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Desculpe, mas por mais que eu goste de você e me sinta grato por suas ações, não consigo acreditar que você seja a reencarnação de Relgon.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"抱歉，尽管我对你心存感激，并且我的行为也对你有所亏欠，但我还是无法相信你是Relgon的转世。","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_sidequest10
+

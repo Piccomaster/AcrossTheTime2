@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Indra Lorth : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Esta ilha está longe, você precisará de um barco para ir até lá... Oh, não faça essa cara, eu sei quem pode te levar lá! Minha filha, Syri, é capitã de um navio mercante. Embora ela não forneça serviços gratuitamente, tenho certeza de que você encontrará uma maneira de convencê-la a ajudá-lo. Ela está precisamente nos grandes cais orientais de Méleïm.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"但是，那座岛离这里很远，你得坐船才能去那儿...噢，别露出那种表情嘛，我恰好知道一个可以帮到你的人！我的女儿Syri是一艘商用船的船长。虽然她不接受无偿服务， 但我相信你一定有办法说服她。她现在正好在Méleïm东边的港口，快去找她吧。","color":"dark_aqua"}]}

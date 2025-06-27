@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:blaze_powder"
+            "id": "minecraft:blaze_powder"
         },
-        "title": {"translate":"Blaze Eliminator"},
-        "description": {"translate":"Kill 25 Blazes"},
+        "title": {"translate":"att2.advancement.mobskilled.title.blazes_killed_25"},
+        "description": {"translate":"att2.advancement.mobskilled.description.blazes_killed_25"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/blazes_killed_5",

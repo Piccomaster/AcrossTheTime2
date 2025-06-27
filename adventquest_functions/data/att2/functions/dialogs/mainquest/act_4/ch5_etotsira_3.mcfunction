@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Você terá que passar pelo deserto de Kert. Vá para o oeste de Ryliath, onde as montanhas cospem fogo, e encontre um jeito de atravessar os rios de lava.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你将穿过位于Kert的沙漠，前往Ryliath的西部。你需要在群山吞吐烈焰之处找到一条穿越熔岩河的道路。","color":"dark_aqua"}]}

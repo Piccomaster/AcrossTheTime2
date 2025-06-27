@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:skeleton_skull"
+            "id": "minecraft:skeleton_skull"
         },
-        "title": {"translate":"Ghast Genocider"},
-        "description": {"translate":"Kill 100 Ghasts"},
+        "title": {"translate":"att2.advancement.mobskilled.title.ghasts_killed_100"},
+        "description": {"translate":"att2.advancement.mobskilled.description.ghasts_killed_100"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/ghasts_killed_25",

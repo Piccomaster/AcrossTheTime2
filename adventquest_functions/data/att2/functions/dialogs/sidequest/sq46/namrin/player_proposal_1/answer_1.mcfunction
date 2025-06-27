@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 
 function att2:voice/namrin/namrin_sidequest7
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"保护世界一部分的人并不会被称为救世主。但是对于Relgon来说，他把Angband在陷入灭亡之中拯救了出来，我说的不是他救了某些人或者其他的生命，Relgon是真的做到了保护整个Angband这个事情! ","color":"dark_aqua"}]}

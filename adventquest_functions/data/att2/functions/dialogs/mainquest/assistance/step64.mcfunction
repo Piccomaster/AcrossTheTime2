@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A situação neste reino está caótica. Eu devo ajudá-los e para isso, devo reunir dois selos: um com o símbolo de lava e o outro de fogo, para levá-los até o covil do monstro devastador. O primeiro está em uma aldeia chamada Fênix.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这个王国的局势一片混乱， 我必须帮助他们。为此， 我必须收集两个封印法器：炎狱之章和烈火之章，然后将它们带到那只怪物的巢穴。第一个法器在一座叫“Phoenix”的村庄里。","color":"aqua"}]}

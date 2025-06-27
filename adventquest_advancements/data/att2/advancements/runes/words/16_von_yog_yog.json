@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:sheaf_pottery_sherd"
+            "id": "minecraft:sheaf_pottery_sherd"
         },
-        "title": {"translate":"Gloom"},
-        "description": {"translate":"Make runic word: Von Yog Yog"},
+        "title": {"translate":"att2.advancement.runes.title.16_von_yog_yog"},
+        "description": {"translate":"att2.advancement.runes.description.16_von_yog_yog"},
         "frame": "challenge"
     },
-    "parent": "att2:runes/root",
+    "parent": "att2:runes/words/15_syl_da_ave_qi_ra",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000

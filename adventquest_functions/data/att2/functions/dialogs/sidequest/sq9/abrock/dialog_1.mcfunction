@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Abrock : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Quem é você, estrangeiro? Eu sou o lenhador, vou para a floresta com meu machado, corto a madeira e a trago aqui para trocá-la.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"你是谁，外地人？ 我是伐木工，我带着斧头走进森林，把那些木头带到这里来做交易。","color":"dark_aqua"}]}

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_pickaxe"
-        },
-        "title": {"translate":"Masse"},
-        "description": {"translate":"Very heavy."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe"
     },
-    "parent": "att2:collection/weapon_stone",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "wooden_pickaxe_3": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§7Masse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Très lourde.\\\"}\",\"{\\\"text\\\":\\\"§7Very heavy.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.pickaxe_3"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.pickaxe_3"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "wooden_pickaxe_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "3"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:10708955}"
-        },
-        "title": {"translate":"Philtre magique"},
-        "description": {"translate":"Enough to prove the sincerity of intentions, laudable to the creation of these infusions."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_25",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "potion_54": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§5Philtre magique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7De quoi prouver la sincérité des intentions,\\\"}\",\"{\\\"text\\\":\\\"§7louables à la création de ces infusions.\\\"}\",\"{\\\"text\\\":\\\"§7Enough to prove the sincerity of intentions,\\\"}\",\"{\\\"text\\\":\\\"§7laudable to the creation of these infusions.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a3 §7HUN§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "54"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_54"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_54"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_25",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "potion_54": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "54"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

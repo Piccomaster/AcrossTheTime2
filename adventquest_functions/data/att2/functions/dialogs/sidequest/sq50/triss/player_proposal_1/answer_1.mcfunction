@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Entendo que é uma tarefa enorme que estou pedindo. Não guardarei rancor de você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"我知道我求于你的是一项艰巨的任务。假若你没能做到我也并不会对你有任何的怨恨。","color":"dark_aqua"}]}

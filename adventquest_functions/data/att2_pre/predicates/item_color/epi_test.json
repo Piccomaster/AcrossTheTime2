@@ -6,7 +6,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:epi}}}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: epi}}}}"
             }
         },
         {
@@ -14,7 +14,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:epi_esc}}}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: epi_esc}}}}"
             }
         },
         {
@@ -22,7 +22,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:epi_set}}}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: epi_set}}}}"
             }
         }
     ]

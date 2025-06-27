@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:splash_potion"
+            "id": "minecraft:splash_potion"
         },
-        "title": {"translate":"Thrown away"},
-        "description": {"translate":"Thrown 25 splash potions"},
+        "title": {"translate":"att2.advancement.progress.title.splash_25"},
+        "description": {"translate":"att2.advancement.progress.description.splash_25"},
         "frame": "goal"
     },
     "parent": "att2:progress/splash_5",

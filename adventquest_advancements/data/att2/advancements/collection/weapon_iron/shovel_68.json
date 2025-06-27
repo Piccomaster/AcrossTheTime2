@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_shovel"
-        },
-        "title": {"translate":"Dague"},
-        "description": {"translate":"Property of Kevïn."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
     },
-    "parent": "att2:collection/weapon_iron",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_shovel_68": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§7Dague\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Propriété de Kevïn.\\\"}\",\"{\\\"text\\\":\\\"§7Property of Kevïn.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.shovel_68"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.shovel_68"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_shovel_68": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "68"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -3,4 +3,4 @@
 #Level and Cooldown	for Wolf							        #
 #################################################################
 
-scoreboard players set @s COOLDOWN25 20000
+scoreboard players operation @s COOLDOWN25 = lvl1 COOLDOWN25

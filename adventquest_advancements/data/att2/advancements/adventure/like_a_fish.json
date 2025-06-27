@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:water_bucket"
+            "id": "minecraft:water_bucket"
         },
-        "title": {"translate":"Like A Fish In Water"},
-        "description": {"translate":"Go for a swim"}
+        "title": {"translate":"att2.advancement.adventure.title.like_a_fish"},
+        "description": {"translate":"att2.advancement.adventure.description.like_a_fish"}
     },
     "parent": "att2:adventure/root",
     "rewards": {

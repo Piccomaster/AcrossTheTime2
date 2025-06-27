@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की किंवदं�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária missão de J'zargo - Parte 1 -°- : ","color":"gray","extra":[{"text":"Bem, esse J'zargo está realmente longe de ser simpático... Vou procurar sozinho nessas cavernas perto de Kortaek para encontrar uma memória dos antigos.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 1 部分 -°- : ","color":"gray","extra":[{"text":"这小子没一句好话，算了，我还是亲自去山洞里调查吧，希望能找到一件远古遗物。","color":"aqua","italic":true}]}

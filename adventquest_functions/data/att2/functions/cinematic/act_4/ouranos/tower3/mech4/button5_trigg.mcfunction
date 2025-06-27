@@ -13,3 +13,5 @@ function att2:cinematic/act_4/ouranos/tower3/mech4/block3_trigg
 
 
 execute if blocks 7703 134 5972 7711 134 5972 7703 134 5975 masked run function att2:cinematic/act_4/ouranos/tower3/mech4/end
+#return 1->make command block runing
+return 1

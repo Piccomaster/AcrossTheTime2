@@ -5,4 +5,4 @@
 
 scoreboard objectives add HORSE dummy
 
-scoreboard players set @a HORSE 0
+scoreboard players set @s HORSE 0

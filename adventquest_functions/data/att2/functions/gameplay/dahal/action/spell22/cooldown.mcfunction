@@ -3,4 +3,4 @@
 #Level and Cooldown	for Obstinacy pet							#
 #################################################################
 
-scoreboard players set @s COOLDOWN22 32000
+scoreboard players operation @s COOLDOWN22 = lvl1 COOLDOWN22

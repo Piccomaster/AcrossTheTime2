@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Isso mesmo, nos vemos em breve nessa floresta. Espero que esse poder antigo não te encontre antes de eu chegar...*em voz baixa* por favor, que isso aconteça.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"就这样吧，那片森林里见。我希望这股古老的力量不会在我之前找到你...*低声说*真希望这股力量可以把他干掉。","color":"aqua"}]}

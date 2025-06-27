@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एडानोई काटाक
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- As Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"Limpei a área... Vamos pedir a Lary Brett para abrir as Catacumbas de Adanoï para mim.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"Adanoï墓园里都清理干净了，现在Lary应该可以帮我打开地下墓穴的入口了","color":"aqua","italic":true}]}

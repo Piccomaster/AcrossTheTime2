@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_pickaxe"
-        },
-        "title": {"translate":"Pourfend-roche"},
-        "description": {"translate":"It is so robust that even the rock	bends under its will."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe"
     },
-    "parent": "att2:collection/weapon_angband/pickaxe_146",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "golden_pickaxe_147": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§9Pourfend-roche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle est si robuste que même\\\"}\",\"{\\\"text\\\":\\\"§7la roche ploie sous sa volonté.\\\"}\",\"{\\\"text\\\":\\\"§7It is so robust that even the rock\\\"}\",\"{\\\"text\\\":\\\"§7bends under its will.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7DAR§a1 §7HAS§c-1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.pickaxe_147"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.pickaxe_147"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/pickaxe_146",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_pickaxe_147": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "147"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

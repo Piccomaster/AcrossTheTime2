@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_chestplate"
+            "id": "minecraft:netherite_chestplate"
         },
-        "title": {"translate":"The Ulli'Kummi full set"},
-        "description": {"translate":"Complete the legendary set of Ulli'Kummi"},
+        "title": {"translate":"att2.advancement.adventure.title.ulli_kummi_fullset"},
+        "description": {"translate":"att2.advancement.adventure.description.ulli_kummi_fullset"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/leg_full_set",

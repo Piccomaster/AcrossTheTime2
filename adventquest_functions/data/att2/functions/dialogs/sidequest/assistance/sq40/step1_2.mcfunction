@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- कभी-कभी, मुझे 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Às vezes, acho que simplesmente não há pedras suficientes -°- : ","color":"gray","extra":[{"text":"Babbu me deu um mapa. Ele indica um lugar específico marcado com uma cruz no sul da região. Tenho que ir ver o que está escondido lá.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 有时， 我猜只是没有足够的石头 -°- : ","color":"gray","extra":[{"text":"Babbu给了我一张地图，上面有一个地方被着重标记了出来。我得去看看那里究竟藏了什么宝贝。","color":"aqua","italic":true}]}

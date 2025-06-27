@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:glow_ink_sac"
+            "id": "minecraft:glow_ink_sac"
         },
-        "title": {"translate":"Veteran Seller"},
-        "description": {"translate":"Reach the level 2 of the item recycler."},
+        "title": {"translate":"att2.advancement.progress.title.recycler_level2"},
+        "description": {"translate":"att2.advancement.progress.description.recycler_level2"},
         "frame": "goal"
     },
     "parent": "att2:progress/recycler_level1",

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Angor North Panorama"},
-        "description": {"translate":"Discover the panorama of the north of Angor city"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_angor_south"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_angor_south"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_angor",

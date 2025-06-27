@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Oh, este não é um assunto trivial. Lamento não poder ajudar você sozinho, mas são os tipos de segredos que apenas nosso rei possui.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"哦，这可不是小事。很遗憾，我无能为力，那是我们国王才能掌握的秘密。","color":"dark_aqua"}]}

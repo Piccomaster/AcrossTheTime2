@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:writable_book"
+            "id": "minecraft:writable_book"
         },
-        "title": {"translate":"Vitality Pet"},
-        "description": {"translate":"Find Vitality Pet spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell21_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell21_loot"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

@@ -15,3 +15,5 @@ execute in minecraft:the_nether positioned 3569 45 4580 run function att2:summon
 execute in minecraft:the_nether positioned 3568 45 4581 run function att2:summon/reg_2/mortal1_class9
 
 scoreboard players set winged_mech5 ANGOR 3
+#return 1->make command block runing
+return 1

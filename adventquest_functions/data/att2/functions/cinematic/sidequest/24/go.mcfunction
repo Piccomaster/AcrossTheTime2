@@ -18,3 +18,5 @@ execute if score SQ24 SIDEQUEST matches 3 if entity @a[x=-4518,y=59,z=-4536,dx=-
 
 # Player death detection
 execute if score SQ24 SIDEQUEST matches 3 unless entity @a[x=-4518,y=59,z=-4536,dx=-21,dy=9,dz=-27,gamemode=adventure] run function att2:cinematic/sidequest/24/fail
+#return 1->make command block runing
+return 1

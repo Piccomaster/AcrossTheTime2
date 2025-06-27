@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Lá, essas são as ruínas do santuário enterrado! J'zargo nunca se perde, e o aluno idiota teria se perdido sem ele!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"这里，这就是被埋藏的圣堂遗迹！J'zargo永远不会迷路，如果没有他，白痴学徒一定会迷路！","color":"dark_aqua"}]}

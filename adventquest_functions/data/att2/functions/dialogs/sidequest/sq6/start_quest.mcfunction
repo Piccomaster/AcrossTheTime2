@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[Hurriel की चाबी]","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[A chave de Hurriel]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[下水道里的钥匙]","color":"gold"}

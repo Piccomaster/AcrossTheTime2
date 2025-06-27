@@ -3,5 +3,6 @@
 #Obtain item stone_pickaxe_179          #
 #####################################
 
-give @s minecraft:stone_pickaxe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"graceful",Shop:"buy",Effect:"str_1",display:{Name:"\"§2Rorkt'acel\"","Lore":["{\"text\":\"§7Mieux au sol que dans vos mains.\"}","{\"text\":\"§7Better on the ground than in your hands.\"}","{\"text\":\"§7STR§c-1\"}"]},Damage:25,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:12.68,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]}]} 1
+give @s minecraft:stone_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"graceful",Shop:"buy",STR:-1,Weapon:"179"},custom_name={translate:"weapon179.name"},lore=[{translate:"weapon179.lore.1"},{translate:"weapon179.lore.2"},{translate:"weapon179.stat"}],max_damage=140,damage=25,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:12.68},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.94},{slot:"mainhand",type:"max_health",id:"max_health",operation:"add_value",amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

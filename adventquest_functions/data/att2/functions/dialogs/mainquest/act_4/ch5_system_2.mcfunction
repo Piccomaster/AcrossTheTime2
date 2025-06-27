@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"गार्डियन चला ज�
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"O Guardião se retira...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"守卫者离开了...","color":"gray","italic":true}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A chefe da aldeia de Kortaek me mostrou o caminho para Nojélanth. Tenho que me aventurar no grande cânion e ir ao fundo em uma caverna.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Kortaek村长指给了我去Nojelanth的路。我必须进入大峡谷，再在它的底部找到一个山洞。","color":"aqua"}]}

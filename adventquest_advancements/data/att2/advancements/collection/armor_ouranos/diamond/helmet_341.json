@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Protège crâne du voyageur"},
-        "description": {"translate":"A stray arrow can happen quickly..."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/helmet_337",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_helmet_341": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Protège crâne du voyageur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une flèche perdue peut arriver vite...\\\"}\",\"{\\\"text\\\":\\\"§7A stray arrow can happen quickly...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HUN§a1 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.helmet_341"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.helmet_341"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/helmet_337",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_helmet_341": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "341"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"एंगबैंड का उ
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Salvador de Angband","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Angband的救世主","color":"gray"}

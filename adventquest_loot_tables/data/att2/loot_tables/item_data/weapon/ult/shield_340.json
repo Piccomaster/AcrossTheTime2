@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "weapon340.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "weapon340.lore.1"
+                  },
+                  {
+                    "translate": "weapon340.lore.2"
+                  },
+                  {
+                    "translate": "weapon340.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "rangeWeapon",
+                  "Rarity": "ult",
+                  "Manufacturer": "traditional",
+                  "STR": 2,
+                  "HAS": 2,
+                  "SPD": 2,
+                  "DAR": 2,
+                  "LUC": 2,
+                  "Weapon": "340"
+                },
+                "minecraft:enchantments": {
+                  "unbreaking": 20
+                },
+                "minecraft:base_color": "lime",
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "blue",
+                    "pattern": "minecraft:gradient"
+                  },
+                  {
+                    "color": "blue",
+                    "pattern": "minecraft:curly_border"
+                  },
+                  {
+                    "color": "purple",
+                    "pattern": "minecraft:border"
+                  },
+                  {
+                    "color": "blue",
+                    "pattern": "minecraft:creeper"
+                  },
+                  {
+                    "color": "yellow",
+                    "pattern": "minecraft:flower"
+                  },
+                  {
+                    "color": "purple",
+                    "pattern": "minecraft:triangles_top"
+                  }
+                ],
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 335
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

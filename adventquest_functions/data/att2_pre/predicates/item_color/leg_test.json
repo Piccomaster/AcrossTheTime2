@@ -6,7 +6,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:leg_armset}}}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: leg_armset}}}}"
             }
         },
         {
@@ -14,7 +14,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:leg}}}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: leg}}}}"
             }
         }
     ]

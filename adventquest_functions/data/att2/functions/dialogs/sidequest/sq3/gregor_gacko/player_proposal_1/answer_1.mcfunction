@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gregor Gacko : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"Meu irmão Tyrgols se envolveu no sequestro de cargas. Eu recusei fazer parte do seu plano, mas por causa disso, ele foi pego. Agora ele está na prisão... Você poderia me ajudar a tirá-lo de lá?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"我哥Tyrgols去劫持货车的车队了，我拒绝了他的计划，但正因为如此，他被抓住了。现在他在监狱里...你能帮我让他脱身吗？","bold":false,"color":"dark_aqua"}]}

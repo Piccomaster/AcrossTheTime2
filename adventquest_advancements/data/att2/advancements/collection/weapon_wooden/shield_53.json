@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Bouclier de Ryliath"},
-        "description": {"translate":"Wears the Ryliath emblem."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_wooden/shield_52",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "shield_53": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§2Bouclier de Ryliath\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Arbore l'emblème de Ryliath.\\\"}\",\"{\\\"text\\\":\\\"§7Wears the Ryliath emblem.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.shield_53"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.shield_53"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/shield_52",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "shield_53": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "53"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

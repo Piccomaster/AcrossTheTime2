@@ -18,3 +18,5 @@ execute as @a[x=7206,y=163,z=6717,dx=27,dy=27,dz=5,gamemode=adventure] at @s run
 
 # Stop
 execute if score Mainquest SIDEQUEST matches 193 run function att2:cinematic/act_4/ouranos/tower2_path/wind_stop
+#return 1->make command block runing
+return 1

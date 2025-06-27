@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:arrow"
+            "id": "minecraft:arrow"
         },
-        "title": {"translate":"Provident"},
-        "description": {"translate":"Stack 64 arrows"}
+        "title": {"translate":"att2.advancement.combat.title.arrow"},
+        "description": {"translate":"att2.advancement.combat.description.arrow"}
     },
     "parent": "att2:combat/root",
     "rewards": {

@@ -1,31 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:glowstone_dust",
-            "nbt" : "{CustomModelData:10000017}"
-        },
-        "title": {"translate":"Ust"},
-        "description": {"translate":"Drop Rune Tier B."},
-        "frame": "goal"
-    },
-    "parent": "att2:runes/15_wej",
-    "rewards": {
-        "function": "att2:advancement/exploit_5",
-        "experience": 2800
-                },
-    "criteria": {
-        "collection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": [
-                        "minecraft:glowstone_dust"
-                        ],
-                    "nbt" : "{CustomModelData:10000017}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            10000017
+          ]
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.runes.title.16_ust"
+    },
+    "description": {
+      "translate": "att2.advancement.runes.description.16_ust"
+    },
+    "frame": "goal"
+  },
+  "parent": "att2:runes/15_wej",
+  "rewards": {
+    "function": "att2:advancement/test_all/runes/16_ust",
+    "experience": 2800
+  },
+  "criteria": {
+    "collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Runelvl": "16"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- आवश्यकता में
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma cidade em necessidade -°- : ","color":"gray","extra":[{"text":"Encontrei Raphaël, ele está vivo mas seu carrinho está quebrado e os lobos o atacaram. Felizmente, ele conseguiu se refugiar na altura do riacho, eu devo ajudá-lo!","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 一座需要帮助的城市 -°- : ","color":"gray","extra":[{"text":"Raphael没有大碍，不过他的马车坏了而且有一群狼袭击了他，还好他在水流上游的高地里躲了起来。我必须得救他！ ","color":"aqua","italic":true}]}

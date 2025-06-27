@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[वुल्क की गर्व]",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[O orgulho de Vulk]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[Vulk之傲]","color":"gold"}

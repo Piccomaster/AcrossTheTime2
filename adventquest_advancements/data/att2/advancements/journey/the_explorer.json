@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_boots"
+            "id": "minecraft:diamond_boots"
         },
-        "title": {"translate":"The Explorer"},
-        "description": {"translate":"Discover all panoramas"},
+        "title": {"translate":"att2.advancement.journey.title.the_explorer"},
+        "description": {"translate":"att2.advancement.journey.description.the_explorer"},
         "frame": "challenge"
     },
     "parent": "att2:journey/root",

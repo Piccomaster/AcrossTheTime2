@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:blade_pottery_sherd{EquipmentType:"runic_word",Rarity:"unc",display:{Name:"\"§2Abondance\"","Lore":["{\"text\":\"§7Abundance\"}","{\"text\":\"§eFor Tha Gal Hal\"}","{\"text\":\"§aExperience:§2 +7,5%\"}","{\"text\":\"§aDahäl Max:§2 +4\"}","{\"text\":\"§aPotion Time:§2 +20s\"}","{\"text\":\"§cLevel Required:§4 25\"}"]}} 1
+give @s minecraft:blade_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'3'},custom_name={translate:'item.runeword.3.name'},lore=[{translate:'item.runeword.3.recipe'},{translate:'item.runeword.3.dahal'},{translate:'item.runeword.3.xp'},{translate:'item.runeword.3.loot'},{translate:'item.runeword.3.limit'}]]

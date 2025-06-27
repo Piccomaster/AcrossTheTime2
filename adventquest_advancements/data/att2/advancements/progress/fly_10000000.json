@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Feel The Gulfstream"},
-        "description": {"translate":"Fly 100km"},
+        "title": {"translate":"att2.advancement.progress.title.fly_10000000"},
+        "description": {"translate":"att2.advancement.progress.description.fly_10000000"},
         "frame": "goal"
     },
     "parent": "att2:progress/fly_2500000",

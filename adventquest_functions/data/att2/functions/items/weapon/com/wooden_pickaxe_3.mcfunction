@@ -3,5 +3,6 @@
 #Obtain item wooden_pickaxe_3          #
 #####################################
 
-give @s minecraft:wooden_pickaxe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"teran",Shop:"buy",Effect:"has_1",display:{Name:"\"§7Masse\"","Lore":["{\"text\":\"§7Très lourde.\"}","{\"text\":\"§7Very heavy.\"}","{\"text\":\"§7HAS§c-1\"}"]},Damage:0,Enchantments:[{id:"minecraft:knockback",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.85,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]}]} 1
+give @s minecraft:wooden_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"teran",Shop:"buy",HAS:-1,Weapon:"3"},custom_name={translate:"weapon3.name"},lore=[{translate:"weapon3.lore.1"},{translate:"weapon3.lore.2"},{translate:"weapon3.stat"}],max_damage=70,damage=0,enchantments={"knockback":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:6.85},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.94},{slot:"mainhand",type:"knockback_resistance",id:"knockback_resistance",operation:"add_value",amount:0.02}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

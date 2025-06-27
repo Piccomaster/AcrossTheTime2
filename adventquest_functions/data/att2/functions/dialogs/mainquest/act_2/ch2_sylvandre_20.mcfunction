@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"A taberna é como minha segunda casa, é onde trabalho. É um lugar acolhedor onde muitos viajantes se reúnem para uma boa bebida!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"这儿是我工作的地方—酒馆，它就像我的第二个家。里面温暖、舒适，有很多旅者会相聚于此，在里头喝上一杯！ ","color":"dark_aqua"}]}

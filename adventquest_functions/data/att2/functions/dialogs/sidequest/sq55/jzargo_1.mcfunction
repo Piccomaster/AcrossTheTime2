@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"'De todas as palavras que podem ser pronunciadas, as do arrependimento são frequentemente escritas no papel mais simples.' J'zargo está tão perto...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"“在所有可以被读出来的词语中，那些代表着遗憾的绝大多数都被写在最简单的纸上”，J'zargo是如此接近...","color":"dark_aqua"}]}

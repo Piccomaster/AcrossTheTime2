@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:splash_potion",
+            "id": "minecraft:splash_potion",
 			"nbt": "{Potion:\"minecraft:harming\"}"
         },
-        "title": {"translate":"Death by Alchemy"},
-        "description": {"translate":"Kill a mob with a splash potion"}
+        "title": {"translate":"att2.advancement.combat.title.death_by_alchemy"},
+        "description": {"translate":"用喷溅型药水击杀1只生物"}
     },
     "parent": "att2:combat/root",
     "rewards": {

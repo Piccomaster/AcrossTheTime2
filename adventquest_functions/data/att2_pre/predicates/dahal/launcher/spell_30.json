@@ -3,9 +3,6 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:item",
-        "items": [
-            "minecraft:fishing_rod"
-        ],
-        "nbt": "{Item:{tag:{Spell:spell30}}}"
+        "nbt": "{Item:{id:'minecraft:carrot_on_a_stick',components:{'minecraft:custom_data':{Spell:'spell30'}}}}"
     }
 }

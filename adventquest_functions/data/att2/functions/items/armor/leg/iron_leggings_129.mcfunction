@@ -3,5 +3,6 @@
 #Obtain item iron_leggings_129          #
 #####################################
 
-give @s minecraft:iron_leggings{EquipmentType:"armor",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",Effect:"str2_her2",display:{Name:"\"§6Porte-nuit\"","Lore":["{\"text\":\"§7Rampante, traînant sur le sol glacial,\"}","{\"text\":\"§7l'ombre ténue ne meurt jamais.\"}","{\"text\":\"§7Crawling, crawling on the icy ground,\"}","{\"text\":\"§7the tenuous shadow never dies.\"}","{\"text\":\"§7STR§a2 §7HER§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:projectile_protection",lvl:5s},{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.3,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.48,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:iron_leggings[custom_data={EquipmentType:'armor',Rarity:'leg',Manufacturer:'traditional',Shop:'buy',STR:2,HER:2,Armor:'129'},custom_name={translate:'armor129.name'},lore=[{translate:'armor129.lore.1'},{translate:'armor129.lore.2'},{translate:'armor129.stat'}],max_damage=230,damage=0,enchantments={'projectile_protection':5,'unbreaking':4},attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:9.3},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:3.48}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:player_head"
+            "id": "minecraft:player_head"
         },
-        "title": {"translate":"Humanoids Killer"},
-        "description": {"translate":"Kill 10 Humanoids"}
+        "title": {"translate":"att2.advancement.mobskilled.title.humanoids_killed_10"},
+        "description": {"translate":"att2.advancement.mobskilled.description.humanoids_killed_10"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

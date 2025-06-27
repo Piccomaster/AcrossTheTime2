@@ -13,3 +13,5 @@ execute if score SQ31 SIDEQUEST matches 0 run function att2:cinematic/sidequest/
 
 function att2:dialogs/title/a4_ch2_title1
 function att2:dialogs/title/a4_ch2_subtitle1
+#return 1->make command block runing
+return 1

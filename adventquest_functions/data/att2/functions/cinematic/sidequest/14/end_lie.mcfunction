@@ -20,3 +20,5 @@ tp 00000000-0000-055a-0000-00000000055a 3906 49 3902 -180 0
 xp add @a 3000 points
 
 advancement grant @a only att2:quest/sq14
+#return 1->make command block runing
+return 1

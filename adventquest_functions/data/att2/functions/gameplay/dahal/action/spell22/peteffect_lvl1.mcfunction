@@ -7,5 +7,7 @@ scoreboard players add @s SPELL22_LVL 1
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL22_LVL += @s BONUS_XP_SPELL
 
-scoreboard players set @s[scores={DAR_LVL_DAB=..1}] DAR_LVL_DAB 1
-scoreboard players set @s[scores={DAR_LVL_DAB=..1}] TIMER_DAR_DAB 20
+#DAR
+scoreboard players operation @s DAR_SP += 1 CAL
+#timer set
+scoreboard players set @s TIMER_DAR_SP 20

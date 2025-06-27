@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garry Traskel : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Desculpe-nos, foi um mal-entendido. A situação atual no reino tem sido bastante incerta nos últimos anos... Eu lhe darei 100 Chronotons se você aceitar!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"不好意思，刚才是误会，近些年王国的情况很不明朗...如果你愿意帮我的话，我可以给你100个Chronotons！","color":"dark_aqua"}]}

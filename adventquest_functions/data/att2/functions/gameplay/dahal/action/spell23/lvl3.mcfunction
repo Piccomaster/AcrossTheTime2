@@ -3,14 +3,13 @@
 #Agility pet lvl3											    #
 #################################################################
 
+# Incase the player already as a pet, the previous one should be destroyed
+execute at @s as @e[type=#att2_entity:sp_follow_pet,scores={OWNER=0..}] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR at @s run function att2:gameplay/dahal/pet/kill
 function att2:summon/dahal/parrot0_class0
-##change chinese language
-execute if entity @s[scores={LANGUAGE=2}] run data merge entity @e[tag=NewPet,type=minecraft:parrot,distance=0..5,limit=1,sort=nearest] {CustomName:"\"迅捷之友\""}
-
-scoreboard players operation @e[tag=NewPet] FOLLOW_PLAYER = @s NUMEROJOUEUR
-execute as @e[tag=NewPet] run tag @s add AgilityPet3
-execute as @e[tag=NewPet] run tag @s remove NewPet
-execute as @e[tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
+scoreboard players operation @e[type=parrot,tag=NewPet] OWNER = @s NUMEROJOUEUR
+execute as @e[type=parrot,tag=NewPet] run tag @s add AgilityPet3
+execute as @e[type=parrot,tag=NewPet] run tag @s remove NewPet
+execute as @e[type=parrot,tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
 
 scoreboard players remove @s DAHAL 200
 function att2:gameplay/dahal/action/spell23/cooldown

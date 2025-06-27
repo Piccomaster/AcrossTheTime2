@@ -48,3 +48,6 @@ tellraw @s[scores={LANGUAGE=9}] [{"score":{"name":"*","objective":"LIMIT77"},"co
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] [{"score":{"name":"*","objective":"LIMIT77"},"color":"gold","bold":true,"italic":false},{"text":"+ segredos revelados!","color":"aqua"}]
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] [{"text":"发现","color":"aqua"},{"score":{"name":"*","objective":"LIMIT77"},"color":"gold","bold":true,"italic":false},{"text":"+个秘密","color":"aqua"}]

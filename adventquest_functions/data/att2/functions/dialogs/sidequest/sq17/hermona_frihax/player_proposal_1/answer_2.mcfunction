@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hermona : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Que pena... Bem, teremos que lidar com isso. Se você mudar de ideia, sabe onde me encontrar.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"那太糟糕了...好吧，我们必须得解决这个问题，你要是改变主意的话，请回来找我吧。","color":"dark_aqua"}]}

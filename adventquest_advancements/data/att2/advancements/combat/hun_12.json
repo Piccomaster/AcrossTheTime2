@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone"
+            "id": "minecraft:redstone"
         },
-        "title": {"translate":"Great feast"},
-        "description": {"translate":"Fill your belly"},
+        "title": {"translate":"att2.advancement.combat.title.hun_12"},
+        "description": {"translate":"att2.advancement.combat.description.hun_12"},
 		"frame": "goal"
     },
     "parent": "att2:combat/hun_8",

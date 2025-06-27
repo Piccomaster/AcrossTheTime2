@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Sim, não é. Seu pleno potencial só pode ser revelado em minhas mãos, pois ele não é nada mais do que a prole e a impregnação do meu próprio poder.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"我清楚你的感受。但是只有我能激发它的全部潜力，因为这把弓是由我的力量孕育而出的。","color":"dark_aqua"}]}

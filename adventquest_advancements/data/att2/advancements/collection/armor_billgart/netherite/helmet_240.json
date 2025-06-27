@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_helmet"
-        },
-        "title": {"translate":"Gork'holïn"},
-        "description": {"translate":"Koderh'ui, parm rakanishu."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
     },
-    "parent": "att2:collection/armor_billgart/netherite/helmet_324",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_helmet_240": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Gork'holïn\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Eptrohrïn, dobrekta.\\\"}\",\"{\\\"text\\\":\\\"§7Koderh'ui, parm rakanishu.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7DAR§a2 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.helmet_240"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.helmet_240"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/helmet_324",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_helmet_240": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "240"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

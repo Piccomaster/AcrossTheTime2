@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"सेरील ने अपनी स
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Sérile recupera toda a sua saúde...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"Sérile已然恢复如初...","color":"gray","italic":true}

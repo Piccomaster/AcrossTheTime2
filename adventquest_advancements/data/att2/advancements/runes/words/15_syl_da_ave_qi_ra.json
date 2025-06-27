@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:prize_pottery_sherd"
+            "id": "minecraft:prize_pottery_sherd"
         },
-        "title": {"translate":"Splendor"},
-        "description": {"translate":"Make runic word: Syl Da Ave Qi Ra"},
+        "title": {"translate":"att2.advancement.runes.title.15_syl_da_ave_qi_ra"},
+        "description": {"translate":"att2.advancement.runes.description.15_syl_da_ave_qi_ra"},
         "frame": "challenge"
     },
     "parent": "att2:runes/root",

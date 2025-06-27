@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_sword"
+            "id": "minecraft:stone_sword"
         },
-        "title": {"translate":"Full Mythical set"},
-        "description": {"translate":"Get yourself equipped a full Mythical armor and weapon set"},
+        "title": {"translate":"att2.advancement.adventure.title.myt_full_set"},
+        "description": {"translate":"att2.advancement.adventure.description.myt_full_set"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/ult_full_set",

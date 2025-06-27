@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"टेलुरोन में 
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"Retorno a Tellurön","color":"dark_red"}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"返回Tellurön","color":"dark_red"}

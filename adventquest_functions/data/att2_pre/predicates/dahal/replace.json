@@ -6,7 +6,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{tag:{Dahal:launcher}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Dahal:'launcher'}}}}"
             }
         },
         {
@@ -14,7 +14,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{tag:{Dahal:book}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Dahal:'book'}}}}"
             }
         },
         {
@@ -22,10 +22,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "items": [
-                    "minecraft:written_book"
-                ],
-                "nbt": "{Item:{tag:{Conscience:book}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Conscience:'book'}}}}"
             }
         }
     ]

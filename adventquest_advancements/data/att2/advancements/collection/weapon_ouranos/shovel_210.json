@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_shovel"
-        },
-        "title": {"translate":"Tendre promesse"},
-        "description": {"translate":"O sweet light of awakening, O deep and inalienable hope."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_shovel"
     },
-    "parent": "att2:collection/weapon_ouranos/shovel_207",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "stone_shovel_210": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§5Tendre promesse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ô douce lumière de l'éveil,\\\"}\",\"{\\\"text\\\":\\\"§7ô profond espoir inaliénable.\\\"}\",\"{\\\"text\\\":\\\"§7O sweet light of awakening,\\\"}\",\"{\\\"text\\\":\\\"§7O deep and inalienable hope.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.shovel_210"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.shovel_210"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/shovel_207",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "stone_shovel_210": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "210"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

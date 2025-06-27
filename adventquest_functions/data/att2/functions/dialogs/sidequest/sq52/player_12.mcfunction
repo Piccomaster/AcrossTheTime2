@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Este item é magnífico, tem a forma de uma lágrima. O que J'zargo dizia já: ‘‘Para quem perde a esperança nos confins da solidão mais simples, a própria fruta de sua tristeza está ausente’’. Sim, deve ser isso que ele está procurando. Esperamos que ele fique satisfeito com isso e volte para a academia...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这件物品很华丽，它有一个泪珠的形狀。J'zargo之前说过的话“对于那囿于纯粹的孤独而失去希望的人，他思念着他的悲伤所结成的果实”。是的，这一定是他正在寻找的东西。希望他会对此感到满意并回到学院去...","color":"aqua"}]}

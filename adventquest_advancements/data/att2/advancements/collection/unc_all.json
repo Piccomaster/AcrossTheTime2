@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:green_candle"
+            "id": "minecraft:green_candle"
         },
-        "title": {"translate":"All Uncommons"},
-        "description": {"translate":"Find all uncommon items"},
+        "title": {"translate": "att2.advancement.collection.title.unc_all"},
+        "description": {"translate": "att2.advancement.collection.description.unc_all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/com_all",

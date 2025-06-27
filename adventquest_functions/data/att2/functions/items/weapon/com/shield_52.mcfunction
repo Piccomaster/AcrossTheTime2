@@ -3,5 +3,6 @@
 #Obtain item shield_52          #
 #####################################
 
-give @s minecraft:shield{EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",Effect:"spd_2",display:{Name:"\"§7Bouclier Barbare\"","Lore":["{\"text\":\"§7Baston !\"}","{\"text\":\"§7Fight!\"}","{\"text\":\"§7SPD§c-2\"}"]},Damage:280,BlockEntityTag:{Base:5,Patterns:[{Pattern:gra,Color:5},{Pattern:bts,Color:13},{Pattern:mr,Color:13},{Pattern:gra,Color:5}]},AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:shield[custom_data={EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",SPD:-2,Weapon:"52"},custom_name={translate:"weapon52.name"},lore=[{translate:"weapon52.lore.1"},{translate:"weapon52.lore.2"},{translate:"weapon52.stat"}],max_damage=335,damage=280,base_color="lime",banner_patterns=[{color:"lime",pattern:"minecraft:gradient"},{color:"green",pattern:"minecraft:triangles_bottom"},{color:"green",pattern:"minecraft:rhombus"},{color:"lime",pattern:"minecraft:gradient"}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

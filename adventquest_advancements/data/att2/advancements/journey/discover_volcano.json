@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
-        "title": {"translate":"Volcano"},
-        "description": {"translate":"Discover Volcano region"}
+        "title": {"translate":"att2.advancement.journey.title.discover_volcano"},
+        "description": {"translate":"att2.advancement.journey.description.discover_volcano"}
     },
     "parent": "att2:journey/discover_worlest",
     "rewards": {

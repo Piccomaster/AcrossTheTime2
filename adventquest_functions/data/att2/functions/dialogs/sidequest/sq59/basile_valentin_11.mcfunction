@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Este personagem no seu sonho, você me disse que já o tinha visto antes de nos conhecermos pela primeira vez?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"关于你梦中的这个家伙，你说你在我们第一次见面之前就已经见过它了？","color":"dark_aqua"}]}

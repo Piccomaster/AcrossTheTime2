@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Há muitas coisas que você não sabe. E é por isso que entre nós dois, eu sou o chamado sábio. Mas não é com este título que eu vou lutar contra você: prepare-se para enfrentar um semideus.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你不知道的事情还有很多—显然在我们两人之间，我才是更应被称作智者的那个。但我并不打算用这个头衔和你战斗：准备好直面“半神”的力量吧。","color":"dark_aqua"}]}

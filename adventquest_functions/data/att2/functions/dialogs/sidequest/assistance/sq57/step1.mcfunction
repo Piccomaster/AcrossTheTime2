@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- घोंसला साफ क�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Limpar o ninho -°- : ","color":"gray","extra":[{"text":"Feanorth me pediu para ajudá-lo a limpar um ninho de Atricanth instalado nos bairros ocidentais de Angor...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 清理巢穴 -°- : ","color":"gray","extra":[{"text":"Feanorth请求我清除怪物Atricanth的巢穴，我应该去Angor西边的街区看看。","color":"aqua","italic":true}]}

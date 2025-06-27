@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Arbalète de mauvaise facture"},
-        "description": {"translate":"A weapon that has been used far too much."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_wooden",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "crossbow_243": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§7Arbalète de mauvaise facture\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une arme qui a beaucoup trop servi.\\\"}\",\"{\\\"text\\\":\\\"§7A weapon that has been used far too much.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.crossbow_243"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.crossbow_243"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "crossbow_243": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "243"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

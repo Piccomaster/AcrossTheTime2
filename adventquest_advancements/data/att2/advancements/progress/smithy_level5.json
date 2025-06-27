@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:anvil"
+            "id": "minecraft:anvil"
         },
-        "title": {"translate":"Eminent Black Smith"},
-        "description": {"translate":"Reach the level 5 of the smithy"},
+        "title": {"translate":"att2.advancement.progress.title.smithy_level5"},
+        "description": {"translate":"att2.advancement.progress.description.smithy_level5"},
         "frame": "challenge"
     },
     "parent": "att2:progress/smithy_level4",

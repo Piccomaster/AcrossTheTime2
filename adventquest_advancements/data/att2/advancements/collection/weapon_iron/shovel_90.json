@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_shovel"
-        },
-        "title": {"translate":"L'espoir de Sora"},
-        "description": {"translate":"A single strike, a peak, and an entire empire collapsed!"},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
     },
-    "parent": "att2:collection/weapon_iron/shovel_85",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_shovel_90": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§5L'espoir de Sora\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une simple frappe, une pointe,\\\"}\",\"{\\\"text\\\":\\\"§7et un empire entier s'effondra !\\\"}\",\"{\\\"text\\\":\\\"§7A single strike, a peak,\\\"}\",\"{\\\"text\\\":\\\"§7and an entire empire collapsed!\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a6 §7DAR§a2 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.shovel_90"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.shovel_90"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/shovel_85",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "iron_shovel_90": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "90"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

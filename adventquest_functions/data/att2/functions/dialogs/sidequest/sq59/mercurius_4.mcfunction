@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mercurius : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"Impossível, estou preso aqui. Mas você... não te treinei à toa! Eu esperava que alguém viesse me salvar e esse dia parece ter finalmente chegado! Então, se você quer se livrar dessa 'anomalia', terá que me tirar daqui.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"绝无可能！我被困在这里了。但有你在...我没白训练你！我一直希望能有人来救我，这一天终于要到来了！所以如果你想摆脱这个“异常”，你就得让我离开这。","color":"dark_aqua"}]}

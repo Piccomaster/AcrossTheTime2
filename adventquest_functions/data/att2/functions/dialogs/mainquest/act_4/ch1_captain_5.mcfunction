@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Bom, você sabe lidar com esses malditos monstros. Hahaha, você é muito bom nisso! Precisamos de mais pessoas como você.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"好吧， 你说你知道如何对付这些该死的怪物。哈哈哈， 真TM是个好小子！ 我们就该提拔更多像你这样的人。","color":"dark_aqua"}]}

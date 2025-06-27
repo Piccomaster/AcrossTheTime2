@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:item_frame"
+            "id": "minecraft:item_frame"
         },
-        "title": {"translate":"MEGA COMBO!"},
-        "description": {"translate":"Kill 10 enemies consecutively."},
+        "title": {"translate":"att2.advancement.combat.title.combo_10"},
+        "description": {"translate":"att2.advancement.combat.description.combo_10"},
         "frame": "goal"
     },
     "parent": "att2:combat/combo_5",

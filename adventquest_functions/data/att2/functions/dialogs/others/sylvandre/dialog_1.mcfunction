@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Você está gostando da minha cidade? Não hesite em falar com os comerciantes e moradores, eles certamente podem ajudá-lo em sua jornada.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"你喜欢这座城市吗？别害羞，多和商人、居民们聊聊吧，他们肯定能祝你一臂之力的！","color":"dark_aqua"}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
-        "title": {"translate":"Kortaek"},
-        "description": {"translate":"Discover Kortaek village"}
+        "title": {"translate":"att2.advancement.journey.title.discover_kortaek"},
+        "description": {"translate":"att2.advancement.journey.description.discover_kortaek"}
     },
     "parent": "att2:journey/discover_kert",
     "rewards": {

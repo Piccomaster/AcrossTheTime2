@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Fierté de Lodera"},
-        "description": {"translate":"Even though you never went into battle, they always remembered you."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_wooden/shield_59",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "shield_60": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§9Fierté de Lodera\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bien que jamais tu n'allasses au\\\"}\",\"{\\\"text\\\":\\\"§7combat, ils te reconnurent toujours.\\\"}\",\"{\\\"text\\\":\\\"§7Even though you never went into battle,\\\"}\",\"{\\\"text\\\":\\\"§7they always remembered you.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.shield_60"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.shield_60"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/shield_59",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "shield_60": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "60"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

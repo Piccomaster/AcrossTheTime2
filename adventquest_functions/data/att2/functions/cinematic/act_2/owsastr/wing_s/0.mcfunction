@@ -18,3 +18,5 @@ execute positioned -4969 71 -4292 run function att2:summon/reg_1/shulkerlg0_clas
 execute positioned -4986 86 -4310 run function att2:summon/reg_1/shulkerlg0_class0
 execute positioned -4983 83 -4296 run function att2:summon/reg_1/shulkerlg0_class0
 execute positioned -4989 89 -4294 run function att2:summon/reg_1/shulkerlg0_class0
+#return 1->make command block runing
+return 1

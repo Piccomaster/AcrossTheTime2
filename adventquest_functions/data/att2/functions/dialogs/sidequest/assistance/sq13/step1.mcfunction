@@ -53,3 +53,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":"-°- Uma invasão incontrolável -°- 
 
 
 function att2:dialogs/sidequest/sq13/mobs_killed_total
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 失控的侵略 -°- : ","color":"gray","extra":[{"text":"我需要在Phoenix村旁的洞穴里清理十只左右岩浆史莱姆，完事之后再找Garry领取奖赏","color":"aqua","italic":true}]}

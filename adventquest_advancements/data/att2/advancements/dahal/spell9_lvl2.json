@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Tiid Klo Ul Apprentice"},
-        "description": {"translate":"Reach level 2 with Tiid Klo Ul spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell9_lvl2"},
+        "description": {"translate":"att2.advancement.dahal.description.spell9_lvl2"}
     },
     "parent": "att2:dahal/spell9_loot",
     "rewards": {

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:rabbit_foot"
+            "id": "minecraft:rabbit_foot"
         },
-        "title": {"translate":"Baraka!"},
-        "description": {"translate":"When you are going through hell, keep going"},
+        "title": {"translate":"att2.advancement.combat.title.luc_18"},
+        "description": {"translate":"att2.advancement.combat.description.luc_18"},
 		"frame": "goal"
     },
     "parent": "att2:combat/luc_10",

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_shovel"
-        },
-        "title": {"translate":"Canivet"},
-        "description": {"translate":"Instead of the pocketknife."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
     },
-    "parent": "att2:collection/weapon_netherite",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_shovel_282": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§7Canivet\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Canif à la place du canif.\\\"}\",\"{\\\"text\\\":\\\"§7Instead of the pocketknife.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.shovel_282"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.shovel_282"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_shovel_282": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "282"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

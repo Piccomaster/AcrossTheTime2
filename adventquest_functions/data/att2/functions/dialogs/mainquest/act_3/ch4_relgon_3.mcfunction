@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"A hora se aproxima quando teremos que enfrentar La Flamme Noire. Se tudo correr como esperamos, se sairmos vivos e vitoriosos desta provação, não poderei permanecer no trono de Angband. Este não é o meu lugar.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"事到如今，我们将不得不面对La_Flamme_Noire。如果进展如我们所愿，我们在这次劫难中存活并取胜，我不会坐上Angband的王座，我不配拥有它。","color":"dark_aqua"}]}

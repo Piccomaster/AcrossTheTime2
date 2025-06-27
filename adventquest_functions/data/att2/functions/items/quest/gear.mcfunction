@@ -3,4 +3,4 @@
 #Obtain Gear                           	 		 #
 ##################################################
 
-give @s minecraft:tripwire_hook{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cEngrenage\"","Lore":["{\"text\":\"§4§oGear\"}"]}} 1
+give @s minecraft:tripwire_hook[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.gear.name'},lore=[{translate:'item.quest.lore'}]] 1

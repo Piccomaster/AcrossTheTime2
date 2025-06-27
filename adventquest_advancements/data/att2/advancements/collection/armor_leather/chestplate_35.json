@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Passe sueur"},
-        "description": {"translate":"Is full of it..."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_leather/chestplate_34",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_chestplate_35": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§2Passe sueur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En est gorgé...\\\"}\",\"{\\\"text\\\":\\\"§7Is full of it....\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"],color:15659731}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.chestplate_35"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.chestplate_35"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/chestplate_34",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_chestplate_35": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "35"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

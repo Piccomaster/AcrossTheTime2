@@ -41,3 +41,6 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"इस प्रकार क�
 
 #PORTUGUESE LANGUAGE
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Só pode trocar com um feitiço deste tipo","color":"red"}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"背包中仅有一个同种法术时才可以切换","color":"red"}

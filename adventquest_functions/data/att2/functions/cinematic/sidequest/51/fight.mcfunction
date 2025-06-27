@@ -9,3 +9,5 @@ execute as 00000000-0000-089a-0000-00000000089a at @s run tp @s ~ ~ ~ 45 0
 function att2:gameplay/checkpoint/telluron_present/kert_desert8
 function att2:physicmod/reg1/kert/jzargo_barrier1_sq51
 function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

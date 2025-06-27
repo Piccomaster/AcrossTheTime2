@@ -12,3 +12,5 @@ function att2:gameplay/reputation/add_5
 xp add @a 10000 points
 
 advancement grant @a only att2:quest/sq41
+#return 1->make command block runing
+return 1

@@ -3,5 +3,6 @@
 #Obtain item diamond_helmet_337          #
 #####################################
 
-give @s minecraft:diamond_helmet{EquipmentType:"armor",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"spd2_her_1",display:{Name:"\"§2Massive légèreté\"","Lore":["{\"text\":\"§7Toujours peser le pour et le contre.\"}","{\"text\":\"§7Always weigh the pros and cons.\"}","{\"text\":\"§7SPD§a2 §7HER§c-1\"}"]},Damage:275,Enchantments:[{id:"minecraft:fire_protection",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.91,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.17,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:diamond_helmet[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'delightful',Shop:'buy',SPD:2,HER:-1,Armor:'337'},custom_name={translate:'armor337.name'},lore=[{translate:'armor337.lore.1'},{translate:'armor337.lore.2'},{translate:'armor337.stat'}],max_damage=360,damage=275,enchantments={'fire_protection':2},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:1.91},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.17}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

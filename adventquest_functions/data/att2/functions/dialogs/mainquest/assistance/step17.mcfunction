@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Agora que depositei a primeira gema, preciso falar novamente com Wirth Razgork para obter mais informações sobre a próxima. Provavelmente ele ainda está em casa na cidade.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"现在，第一块空间宝石已经安置妥当，我得再次拜访Wirth_Razgork，从他那里打听有关下一块空间宝石的情报。如果一切正常，他应该还在自己的家里。","color":"aqua"}]}

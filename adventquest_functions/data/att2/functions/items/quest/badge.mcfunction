@@ -3,4 +3,4 @@
 #Obtain Badge                         			 #
 ##################################################
 
-give @s minecraft:nether_star{EquipmentType:"misc",Rarity:"que",display:{Name:"{\"text\":\"§cInsigne\"}","Lore":["{\"text\":\"§4§oBadge\"}"]}} 1
+give @s minecraft:nether_star[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.badge.name'},lore=[{translate:'item.quest.lore'}]] 1

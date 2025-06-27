@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Então, como você está gostando da sua nova casa? Ryliath é uma cidade bastante pacífica, especialmente na área onde você mora. Você pode se considerar privilegiado. Parece que o rei gosta de você, mas eu acho que você mereceu isso...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"您喜欢那所新房子吗？Ryliath是一座十分宁静祥和的城市—您住宅的周边更是如此。国王似乎很中意您，您或许可以考虑从国王那儿获得一些特权—虽然我觉得您似乎已经有了...","color":"dark_aqua"}]}

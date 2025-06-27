@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"विश्वों का व
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Destruidor de mundos, a devastação final","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"世界毁灭者，最终破坏者","color":"gray"}

@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": "minecraft:shield",
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": "att2_enchantment:precisionblock"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

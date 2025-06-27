@@ -11,3 +11,5 @@ function att2:gameplay/stat/luck/initialize
 function att2:gameplay/stat/resistance/initialize
 function att2:gameplay/stat/speed/initialize
 function att2:gameplay/stat/strength/initialize
+
+function att2:gameplay/stat/buff_level_data/initialize

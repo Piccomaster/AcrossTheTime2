@@ -3,9 +3,9 @@
         "icon": {
             "item": "minecraft:trident"
         },
-        "title": {"translate":"Challenge"},
-        "description": {"translate":"You are not ready!"},
-        "background": "minecraft:textures/block/green_concrete.png",
+        "title": {"translate":"att2.advancement.challenge.title.root"},
+        "description": {"translate":"att2.advancement.challenge.description.root"},
+        "background": "minecraft:block/green_concrete",
         "show_toast": false
     },
     "criteria": {

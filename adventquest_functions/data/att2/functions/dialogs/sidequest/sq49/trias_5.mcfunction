@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"*surpreso* ? Mestre Flamme Noire e Relgon? Você está dizendo que eles estão mortos?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"*震惊*？！Flamme_Noire和Relgon？你说他们死了？！","color":"dark_aqua"}]}

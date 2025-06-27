@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_axe"
+            "id": "minecraft:wooden_axe"
         },
-        "title": {"translate":"Wooden axe hit"},
-        "description": {"translate":"Strike 250 times with a wooden axe"},
+        "title": {"translate": "att2.advancement.weapons.title.wooden_axe_250"},
+        "description": {"translate": "att2.advancement.weapons.description.wooden_axe_250"},
         "frame": "goal"
     },
     "parent": "att2:weapons/wooden_axe_50",

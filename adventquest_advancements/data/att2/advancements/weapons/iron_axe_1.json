@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_axe"
+            "id": "minecraft:iron_axe"
         },
-        "title": {"translate":"Iron axe strike"},
-        "description": {"translate":"Strike once with an iron axe"}
+        "title": {"translate": "att2.advancement.weapons.title.iron_axe_1"},
+        "description": {"translate": "att2.advancement.weapons.description.iron_axe_1"}
     },
     "parent": "att2:weapons/root",
     "rewards": {

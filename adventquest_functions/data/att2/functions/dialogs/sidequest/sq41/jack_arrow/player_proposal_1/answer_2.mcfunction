@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° जैक एरो : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Você não encontrará nenhum tesouro aqui... Você está no esconderijo de antigos marinheiros e soldados que escolheram viver uma vida de liberdade.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"你不会在这里找到什么宝藏...这个地方是一处向往着自由生活的前水手兼士兵的藏身之处。","color":"dark_aqua"}]}

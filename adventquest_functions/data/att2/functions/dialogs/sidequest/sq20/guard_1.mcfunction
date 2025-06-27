@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° गार्ड : ","color":"gre
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Guarda : ","color":"green","extra":[{"text":"Bem, obrigado por nos entregar este ladrão. Seu passado de devassidão finalmente o alcançou. Ele passará algum tempo aqui, em nossas prisões... Este é um bônus pela sua captura.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"不错，感谢你把这个小偷交给我们，他会为之前的种种恶行付出代价。他得在监狱里待一段时间了...这是你帮助我们逮捕他的奖励。","color":"dark_aqua"}]}

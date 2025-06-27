@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Korlaph : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"Você não sabe nada sobre o que aconteceu naquelas malditas montanhas! Você não suspeita o quanto sofri com as decisões inconscientes de sua esposa! Mas graças a esta coroa, consegui extrair uma nova e criativa energia daquela dor... Agora, VÃO EMBORA OU EU VOU MATAR TODOS VOCÊS!","color":"dark_red"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"你对那些发生的山里的事情一无所知！你不知道我因为你妻子无意间的抉择而承受了多么大的痛苦！但是多亏了这顶王冠，我可以从痛苦中汲取全新的力量...现在..快走!!!否则我杀了你们！","color":"dark_red"}]}

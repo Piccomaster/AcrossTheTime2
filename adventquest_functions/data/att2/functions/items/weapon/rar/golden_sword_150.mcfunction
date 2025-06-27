@@ -3,5 +3,6 @@
 #Obtain item golden_sword_150          #
 #####################################
 
-give @s minecraft:golden_sword{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",Effect:"spd1_dar1_luc1_has_1",display:{Name:"\"§9Épée du soldat\"","Lore":["{\"text\":\"§7Une véritable épée pour un soldat\"}","{\"text\":\"§7immortel d'Angor.\"}","{\"text\":\"§7A real sword for an immortal\"}","{\"text\":\"§7soldier of Angor.\"}","{\"text\":\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.96,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.83,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:golden_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",SPD:1,DAR:1,LUC:1,HAS:-1,Weapon:"150"},custom_name={translate:"weapon150.name"},lore=[{translate:"weapon150.lore.1"},{translate:"weapon150.lore.2"},{translate:"weapon150.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:10.96},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.83}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

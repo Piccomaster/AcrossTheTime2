@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:phantom_membrane"
+            "id": "minecraft:phantom_membrane"
         },
-        "title": {"translate":"The Phantom Menace"},
-        "description": {"translate":"Get attacked by phantoms"}
+        "title": {"translate":"att2.advancement.combat.title.the_phantom_menace"},
+        "description": {"translate":"att2.advancement.combat.description.the_phantom_menace"}
     },
     "parent": "att2:combat/damage_taken",
     "rewards": {

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_axe"
-        },
-        "title": {"translate":"Premio gal Môt"},
-        "description": {"translate":"Pleasing the child of darkness and in his intentions, following him ..."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
     },
-    "parent": "att2:collection/weapon_angband/axe_152",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_axe_156": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_axe"],
-                    "nbt": "{display:{Name:\"\\\"§6Premio gal Môt\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Complaire à l'enfant du ténébreux\\\"}\",\"{\\\"text\\\":\\\"§7et dans ses desseins, le suivre...\\\"}\",\"{\\\"text\\\":\\\"§7Pleasing the child of darkness\\\"}\",\"{\\\"text\\\":\\\"§7and in his intentions, following him ...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.axe_156"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.axe_156"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/axe_152",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_axe_156": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "156"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

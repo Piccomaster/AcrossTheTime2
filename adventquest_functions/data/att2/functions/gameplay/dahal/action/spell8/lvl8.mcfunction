@@ -7,7 +7,7 @@ kill @e[type=arrow,tag=swarm]
 execute at @s run function att2:gameplay/dahal/action/spell8/effect/8
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell8/damage_cal
-execute at @s as @e[distance=..12,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell8/damage with storage spdamage
+execute at @s as @e[distance=..12,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell8/damage with storage att2:sp_dmg
 
 scoreboard players remove @s DAHAL 200
 function att2:gameplay/dahal/action/spell8/cooldown

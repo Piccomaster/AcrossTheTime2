@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","ex
 
 
 function att2:dialogs/sidequest/sq27/emerald/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你找到什么东西了吗？得抓紧时间。Méleïm镇西部的Mornith采石场，沿着镇外小路向西走，你会看到北部山区里有一处大规模的采石场。据我所知Mornith的地下石场内有一条非常宽阔的矿道通往Mornith矿井，但是被一个巨大的路障挡住了","color":"dark_aqua"}]}

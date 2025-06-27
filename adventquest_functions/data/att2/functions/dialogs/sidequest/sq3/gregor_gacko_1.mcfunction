@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gregor Gacko : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"Que tolo, você realmente achou que iríamos deixar você ir depois disso? De qualquer forma, obrigado por sujar suas mãos por mim. É hora de morrer, pobre idiota.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"真是个傻子。你真的认为发生了这些后我们会放你走？无论如何，感谢你替我干了脏活。现在你该去死了，蠢货。","color":"dark_aqua"}]}

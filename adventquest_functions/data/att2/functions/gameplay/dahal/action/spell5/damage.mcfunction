@@ -3,4 +3,4 @@
 #damage go          											#
 #################################################################
 
-$damage @s $(SP5) minecraft:magic by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+$damage @s $(SP5) att2_damage:magic by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]

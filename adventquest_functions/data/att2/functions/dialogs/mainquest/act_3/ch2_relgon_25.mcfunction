@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Nós, Eternäns, não teríamos conseguido cumprir a vontade deste monstro: Angband não poderia ser governado por um ser do caos, mesmo que tenha sido nosso aliado por tanto tempo; por esta discordância surgiram conflitos entre os Eternäns e os mortais.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"但是，我们Eternän一族的子民不会屈服于这只怪物，Angband不能被一个陷入混沌的生物所统治，即使她曾和我们做了很久的盟友。于是，Eternän和凡人们的意见不合导致了冲突。","color":"dark_aqua"}]}

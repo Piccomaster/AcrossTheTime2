@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sélène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Então você sabia que mamãe estava morta e nunca me contou nada? Korlaph, você seria capaz de trazer de volta o espírito da minha mãe?","color":"dark_green"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"可是你早就知道我母亲已经去世了，那你为什么没有告诉我？Korlaph，你能把我母亲的灵魂带回来吗？","color":"dark_green"}]}

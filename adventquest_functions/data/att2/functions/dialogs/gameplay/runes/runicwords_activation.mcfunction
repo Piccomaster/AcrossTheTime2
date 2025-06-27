@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"स्थापित रून शब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Ativação das palavras-rúnicas instaladas: ","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"已激活的铭文:","color":"green"}

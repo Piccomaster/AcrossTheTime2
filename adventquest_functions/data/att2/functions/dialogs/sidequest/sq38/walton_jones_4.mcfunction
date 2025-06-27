@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Eu... eu não controlo mais meu corpo... Não! Saia da minha cabeça!! Aaaaahhhhh!!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"我...我控制不住我的身体了...不！从我的脑袋里滚出去！！啊啊啊啊！！","color":"dark_aqua"}]}

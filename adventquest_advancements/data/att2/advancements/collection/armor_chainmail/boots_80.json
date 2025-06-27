@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_boots"
-        },
-        "title": {"translate":"Anti-rat"},
-        "description": {"translate":"No rodents will be able to pierce them."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
     },
-    "parent": "att2:collection/armor_chainmail/boots_75",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "chainmail_boots_80": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_boots"],
-                    "nbt": "{display:{Name:\"\\\"§2Anti-rat\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aucun rongeur ne pourra les percer.\\\"}\",\"{\\\"text\\\":\\\"§7No rodents will be able to pierce them.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.boots_80"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.boots_80"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/boots_75",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "chainmail_boots_80": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "80"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

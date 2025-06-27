@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[हीरो की उपलब्ध
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[A Realização do Herói]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[英雄的成就]","color":"gold"}

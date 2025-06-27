@@ -5,15 +5,15 @@
 
 particle minecraft:dust -0.3 -0.3 0 0.3 ~ ~7 ~ 0.1 0.1 0.1 0.2 50 normal
 particle minecraft:dust -0.1 -0.1 -5 0.3 ~ ~7 ~ 0.01 0.01 0.01 0.2 100 normal
-particle minecraft:dust 1 0.9 0 0.3 ~ ~7 ~ 0.3 0.3 0.3 0.2 50 normal
-particle minecraft:item minecraft:gold_block ~ ~7 ~ 0.01 0.01 0.01 3 10 normal
+particle minecraft:dust{color:[1,0.9,0],scale:0.3} ~ ~7 ~ 0.3 0.3 0.3 0.2 50 normal
+particle minecraft:item{item:"minecraft:gold_block"} ~ ~7 ~ 0.01 0.01 0.01 3 10 normal
 particle minecraft:flash ~ ~7 ~ 0.01 0.01 0.01 1 1 normal
 
 
 # particle minecraft:end_rod ~ ~2 ~ 0.1 1 0.1 0.05 3
 # particle minecraft:mycelium ~ ~2 ~ 2 2 2 0 5
 # particle minecraft:dolphin ~ ~2 ~ 2 2 2 0 5
-# particle minecraft:falling_dust minecraft:gold_block ~ ~2 ~ 0.3 1 0.3 0.5 3
+# particle minecraft:falling_dust{block_state:"minecraft:gold_block"} ~ ~2 ~ 0.3 1 0.3 0.5 3
 # particle minecraft:cloud ~ ~5 ~ 1.5 0 1.5 0 3
 # 
 # particle minecraft:dolphin ~ ~7 ~ 0.2 0.2 0.2 1 10 normal

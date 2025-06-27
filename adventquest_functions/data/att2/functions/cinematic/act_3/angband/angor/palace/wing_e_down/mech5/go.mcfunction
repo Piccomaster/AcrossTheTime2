@@ -27,3 +27,5 @@ execute if score winged_mech5 ANGOR matches 1..3 in minecraft:the_nether as @e[t
 execute if score winged_mech5 ANGOR matches 1 if score Neth1 TIMER matches 0..179 run scoreboard players add Neth1 TIMER 1
 execute if score winged_mech5 ANGOR matches 1 if score Neth1 TIMER matches 180.. run scoreboard players set Neth1 TIMER 0
 execute if score winged_mech5 ANGOR matches 1 if score Neth1 TIMER matches 180.. in minecraft:the_nether run playsound minecraft:forcefield2 ambient @a 3561 47 4572 2 1
+#return 1->make command block runing
+return 1

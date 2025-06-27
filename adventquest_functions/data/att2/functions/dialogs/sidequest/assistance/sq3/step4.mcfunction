@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- भाई गैको का फ�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A fuga do irmão Gacko -°- : ","color":"gray","extra":[{"text":"Libertei Tyrgols de sua cela, agora só preciso voltar para Gregor para receber minha recompensa.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 越狱行动 -°- : ","color":"gray","extra":[{"text":"废了我九牛二虎之力终于将Tyrgols從牢房里救了出来，回Gregor那领取报酬吧。","color":"aqua","italic":true}]}

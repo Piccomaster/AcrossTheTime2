@@ -20,3 +20,5 @@ execute if score SQ50 SIDEQUEST matches 3 if score cinematic SQ50 matches 2 at 0
 execute if score SQ50 SIDEQUEST matches 2 if score cinematic SQ50 matches 1 at 00000000-0000-153a-0000-00000000153a if entity @a[distance=..40] run function att2:cinematic/sidequest/50/cassandre/cinematic1
 execute if score SQ50 SIDEQUEST matches 3 if score cinematic SQ50 matches 3 at 00000000-0000-090a-0000-00000000090a if entity @a[distance=..40] run function att2:cinematic/sidequest/50/triss/cinematic1
 execute if score SQ50 SIDEQUEST matches 3 if score cinematic SQ50 matches 5 at 00000000-0000-090a-0000-00000000090a if entity @a[distance=..40] run function att2:cinematic/sidequest/50/triss/cinematic2
+#return 1->make command block runing
+return 1

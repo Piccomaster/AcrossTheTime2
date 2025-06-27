@@ -3,5 +3,6 @@
 #Obtain item diamond_chestplate_334          #
 #####################################
 
-give @s minecraft:diamond_chestplate{EquipmentType:"armor",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"dar1_spd_1",display:{Name:"\"§2Faux Skéléo\"","Lore":["{\"text\":\"§7Le meilleur, du meilleur, du... plus nul.\"}","{\"text\":\"§7The best, of the best, of... the worst.\"}","{\"text\":\"§7DAR§a1 §7SPD§c-1\"}"]},Damage:400,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.33,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.96,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]} 1
+give @s minecraft:diamond_chestplate[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'delightful',Shop:'buy',DAR:1,SPD:-1,Armor:'334'},custom_name={translate:'armor334.name'},lore=[{translate:'armor334.lore.1'},{translate:'armor334.lore.2'},{translate:'armor334.stat'}],max_damage=530,damage=400,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:3.33},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:0.96}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

@@ -3,9 +3,6 @@
 #Use function to process the dialog system 						#
 #################################################################
 
-
-function att2:dialogs/gameplay/shop/runepowder_display
-
 #FRENCH LANGUAGE
 tellraw @s[scores={LANGUAGE=0}] {"text":"Déposez vos runes dans le broyeur...","color":"gray"}
 
@@ -38,3 +35,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"अपनी रून्स को ग
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Coloque suas runas no moedor...","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"将符文放入研磨器中...","color":"gray"}

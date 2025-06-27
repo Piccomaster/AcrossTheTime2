@@ -41,3 +41,5 @@ execute if score tower3_mech1 OURANOS matches 1..2 if score tower3_mech1_timer O
 
 execute if score tower3_mech1 OURANOS matches 1..2 if score tower3_mech1_timer OURANOS matches ..200 run scoreboard players add tower3_mech1_timer OURANOS 1
 execute if score tower3_mech1 OURANOS matches 1..2 if score tower3_mech1_timer OURANOS matches 201.. run scoreboard players set tower3_mech1_timer OURANOS 0
+#return 1->make command block runing
+return 1

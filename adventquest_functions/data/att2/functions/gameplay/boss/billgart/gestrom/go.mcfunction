@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-particle minecraft:dust 1 0 0 1 -1139 200 -679 0.1 1 1 0 5 force
-particle minecraft:dust 1 0 0 1 -1134.0 201 -668 0.8 1.2 0.1 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -1139 200 -679 0.1 1 1 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -1134.0 201 -668 0.8 1.2 0.1 0 5 force
 
 # Music management
 execute if score Gestrom BILLGART matches 0.. in minecraft:the_end as @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
@@ -17,7 +17,7 @@ execute if score Gestrom BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] run
 
 # Enable Bossbar storing health of Geström
 execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom value run data get entity 00000000-0000-014b-0000-00000000014b Health
-execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom max run data get entity 00000000-0000-014b-0000-00000000014b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom max run data get entity 00000000-0000-014b-0000-00000000014b attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 169 in minecraft:the_end as @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/gestrom/display_title

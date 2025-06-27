@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_leggings"
-        },
-        "title": {"translate":"Molletière intangible"},
-        "description": {"translate":"As strong as rock, As rigid as stone."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
     },
-    "parent": "att2:collection/armor_billgart/netherite/leggings_318",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_leggings_322": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Molletière intangible\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aussi costaud que la roche,\\\"}\",\"{\\\"text\\\":\\\"§7Aussi rigide que la pierre.\\\"}\",\"{\\\"text\\\":\\\"§7As strong as rock,\\\"}\",\"{\\\"text\\\":\\\"§7As rigid as stone.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.leggings_322"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.leggings_322"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/leggings_318",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_leggings_322": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "322"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

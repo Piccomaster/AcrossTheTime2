@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-particle minecraft:dust 1 0 0 1.5 -4003 39 -4279 0 1.5 1.5 0 3
-particle minecraft:dust 1 0 0 1.5 -4028 39 -4279 0 1.5 1.5 0 3
+particle minecraft:dust{color:[1,0,0],scale:1.5} -4003 39 -4279 0 1.5 1.5 0 3
+particle minecraft:dust{color:[1,0,0],scale:1.5} -4028 39 -4279 0 1.5 1.5 0 3
 
 # Sound security
 stopsound @a * minecraft:block.fire.ambient
@@ -21,7 +21,7 @@ execute if score Rackham SQ41 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run sco
 
 # Enable Bossbar storing health of Rackham
 execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] store result bossbar minecraft:rackham value run data get entity 00000000-0000-010c-0000-00000000010c Health
-execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] store result bossbar minecraft:rackham max run data get entity 00000000-0000-010c-0000-00000000010c Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] store result bossbar minecraft:rackham max run data get entity 00000000-0000-010c-0000-00000000010c attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score SQ41 SIDEQUEST matches 1..99 as @a[x=-4002,y=37,z=-4281,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/asunark/rackham/display_title

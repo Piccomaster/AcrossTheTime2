@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Nojélanth present Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Nojélanth present"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_nojelanth_present"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_nojelanth_present"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_nojelanth_present",

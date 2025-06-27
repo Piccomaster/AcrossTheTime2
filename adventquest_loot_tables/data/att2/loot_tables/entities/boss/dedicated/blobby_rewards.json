@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:crossbow",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str4_dar2_hun1\",display:{Name:\"\\\"§6Mÿre Suprême\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Confère au plus simple morceau de bois,\\\"}\",\"{\\\"text\\\":\\\"§7une implacable puissance destructrice.\\\"}\",\"{\\\"text\\\":\\\"§7Confers the simplest piece of wood,\\\"}\",\"{\\\"text\\\":\\\"§7with relentless destructive power.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7DAR§a2 §7HUN§a1\\\"}\"]},Damage:75,Enchantments:[{id:\"minecraft:power\",lvl:10s},{id:\"minecraft:piercing\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/crossbow_253"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:netherite_sword",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"harmonious\",Effect:\"str4_luc1\",display:{Name:\"\\\"§6Œuvre Magistrale\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Forgée par les meilleurs armuriers de Sylberländ,\\\"}\",\"{\\\"text\\\":\\\"§7 en commémoration de l’accession au trône du roi Adros.\\\"}\",\"{\\\"text\\\":\\\"§7Forged by Sylberländ's finest blacksmiths,\\\"}\",\"{\\\"text\\\":\\\"§7 in commemoration of King Adros' accession to the throne.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7LUC§a1\\\"}\"]},Damage:1050,Enchantments:[{id:\"minecraft:sweeping\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:24.13,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_sword_316"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:chainmail_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"graceful\",Effect:\"str2_spd1_dar1\",SetId:\"9\",display:{Name:\"\\\"§6Tiare de la princesse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAussi impertinents que sont leurs privilèges,\\\"}\",\"{\\\"text\\\":\\\"§ail coûterait à sa détentrice de s'en passer.\\\"}\",\"{\\\"text\\\":\\\"§aAs impertinent as their privileges are,\\\"}\",\"{\\\"text\\\":\\\"§ait would be costly for its owner to get rid of them.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7DAR§a1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7LUC§a4\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:1s},{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.6,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.09,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg_armset/chainmail_helmet_297"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:chainmail_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,16 +81,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"graceful\",Effect:\"str1_has1_her1\",SetId:\"9\",display:{Name:\"\\\"§6Emblème de la noblesse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAussi impertinents que sont leurs privilèges,\\\"}\",\"{\\\"text\\\":\\\"§ail coûterait à sa détentrice de s'en passer.\\\"}\",\"{\\\"text\\\":\\\"§aAs impertinent as their privileges are,\\\"}\",\"{\\\"text\\\":\\\"§ait would be costly for its owner to get rid of them.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HER§a1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7LUC§a4\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:blast_protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:13.2,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.36,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg_armset/chainmail_chestplate_298"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:chainmail_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -119,16 +101,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"graceful\",Effect:\"str1_has1_her1\",SetId:\"9\",display:{Name:\"\\\"§6Fortune de la comtesse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAussi impertinents que sont leurs privilèges,\\\"}\",\"{\\\"text\\\":\\\"§ail coûterait à sa détentrice de s'en passer.\\\"}\",\"{\\\"text\\\":\\\"§aAs impertinent as their privileges are,\\\"}\",\"{\\\"text\\\":\\\"§ait would be costly for its owner to get rid of them.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HER§a1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7LUC§a4\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.9,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.27,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg_armset/chainmail_leggings_299"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:chainmail_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -143,14 +121,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"graceful\",Effect:\"str2_spd1_dar1\",SetId:\"9\",display:{Name:\"\\\"§6Pouvoir de la duchesse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAussi impertinents que sont leurs privilèges,\\\"}\",\"{\\\"text\\\":\\\"§ail coûterait à sa détentrice de s'en passer.\\\"}\",\"{\\\"text\\\":\\\"§aAs impertinent as their privileges are,\\\"}\",\"{\\\"text\\\":\\\"§ait would be costly for its owner to get rid of them.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7DAR§a1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7LUC§a4\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:1s},{id:\"minecraft:feather_falling\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.3,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.18,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg_armset/chainmail_boots_300"
                 }
             ]
         }
     ]
 }
+

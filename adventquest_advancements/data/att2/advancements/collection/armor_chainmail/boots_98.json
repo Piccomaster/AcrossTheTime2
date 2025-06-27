@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_boots"
-        },
-        "title": {"translate":"Horizon"},
-        "description": {"translate":"There you will stay, without ever rising or sinking. But then you'll excel."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
     },
-    "parent": "att2:collection/armor_chainmail/boots_94",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "chainmail_boots_98": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Horizon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Là tu resteras, sans jamais t'élever\\\"}\",\"{\\\"text\\\":\\\"§7ni t'enfoncer. Mais là tu excelleras.\\\"}\",\"{\\\"text\\\":\\\"§7There you will stay, without ever rising\\\"}\",\"{\\\"text\\\":\\\"§7or sinking. But then you'll excel.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7HER§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.boots_98"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.boots_98"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/boots_94",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "chainmail_boots_98": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "98"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

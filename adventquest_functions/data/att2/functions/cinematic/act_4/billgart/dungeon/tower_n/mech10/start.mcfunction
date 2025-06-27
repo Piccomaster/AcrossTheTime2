@@ -21,3 +21,5 @@ execute positioned -1252 117 -701 run function att2:summon/reg_3/golem_upsidedow
 execute positioned -1252 117 -703 run function att2:summon/reg_3/golem_upsidedown0
 execute positioned -1252 117 -705 run function att2:summon/reg_3/golem_upsidedown0
 execute positioned -1252 117 -707 run function att2:summon/reg_3/golem_upsidedown0
+#return 1->make command block runing
+return 1

@@ -12,3 +12,5 @@ function att2:physicmod/reg1/kert/mine_secret
 
 #access symbol room under from the blast
 setblock -5356 51 -4438 minecraft:air
+#return 1->make command block runing
+return 1

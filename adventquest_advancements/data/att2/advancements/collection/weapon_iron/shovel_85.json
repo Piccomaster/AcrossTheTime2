@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_shovel"
-        },
-        "title": {"translate":"Fine lame"},
-        "description": {"translate":"A short range guarantees a precise and fatal blow."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
     },
-    "parent": "att2:collection/weapon_iron/shovel_84",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_shovel_85": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Fine lame\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une courte portée garantit\\\"}\",\"{\\\"text\\\":\\\"§7un coup précis et fatal.\\\"}\",\"{\\\"text\\\":\\\"§7A short range guarantees\\\"}\",\"{\\\"text\\\":\\\"§7a precise and fatal blow.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.shovel_85"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.shovel_85"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/shovel_84",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_shovel_85": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "85"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

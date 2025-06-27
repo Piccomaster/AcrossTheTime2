@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"असंगत परिवा�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Família incongruente, a prole de Skrappy","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Skrappy的后代, 不相称的家庭","color":"gray"}

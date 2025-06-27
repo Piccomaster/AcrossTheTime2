@@ -11,7 +11,7 @@ scoreboard players set @s COMPLETION 0
 scoreboard players set Game_percentage_progress EXPLOIT 0
 scoreboard players set Points_completion EXPLOIT 100
 scoreboard players set Total_objectives EXPLOIT 102
-scoreboard players set Total_point EXPLOIT 19377
+scoreboard players set Total_point EXPLOIT 18510
 
 function att2:advancement/initialize_secret_chest
 function att2:advancement/exploit_rewards/initialize
@@ -19,6 +19,7 @@ function att2:advancement/exploit_rewards/initialize
 scoreboard objectives add statMOBSKILLED minecraft.custom:minecraft.mob_kills
 scoreboard objectives add statZOMBIEKILLED minecraft.killed:minecraft.zombie
 scoreboard objectives add statSKELETKILLED minecraft.killed:minecraft.skeleton
+scoreboard objectives add statSKELETKILLED1 minecraft.killed:minecraft.stray
 scoreboard objectives add statPIGMANKILLED minecraft.killed:minecraft.zombified_piglin
 scoreboard objectives add statCREEPKILLED minecraft.killed:minecraft.creeper
 scoreboard objectives add statHUSKKILLED minecraft.killed:minecraft.husk
@@ -108,6 +109,8 @@ scoreboard objectives add statSALMON minecraft.used:minecraft.cooked_salmon
 scoreboard objectives add statFLESH minecraft.used:minecraft.rotten_flesh
 scoreboard objectives add statJORIN minecraft.used:minecraft.beetroot
 scoreboard objectives add statCOOKIE minecraft.used:minecraft.cookie
+scoreboard objectives add statKELP minecraft.used:minecraft.dried_kelp
+
 
 scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_time
 

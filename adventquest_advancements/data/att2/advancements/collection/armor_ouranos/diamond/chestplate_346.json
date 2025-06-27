@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Bourrasque mélancolique"},
-        "description": {"translate":"The disillusioned veteran will never again let go of the wind. Weighed down by wounds that nothing can erase."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/chestplate_257",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_chestplate_346": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§5Bourrasque mélancolique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'aguerri désabusé ne se relâchera jamais plus au gré du vent.\\\"}\",\"{\\\"text\\\":\\\"§7 Alourdi par des blessures que rien ne saurait effacer.\\\"}\",\"{\\\"text\\\":\\\"§7The disillusioned veteran will never again let go of the wind.\\\"}\",\"{\\\"text\\\":\\\"§7Weighed down by wounds that nothing can erase.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HUN§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.chestplate_346"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.chestplate_346"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/chestplate_257",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_chestplate_346": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "346"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

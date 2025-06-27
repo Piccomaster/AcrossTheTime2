@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"त nightmaresa सबसे ब
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Seu pior pesadelo","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"你的梦魇","color":"gray"}

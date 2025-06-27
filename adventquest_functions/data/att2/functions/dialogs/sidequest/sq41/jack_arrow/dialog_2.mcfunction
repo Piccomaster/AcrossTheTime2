@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Jack Arrow : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Não fique por aqui. Embora eu seja neutro em qualquer conflito, meus acólitos estão longe de ser o mesmo, especialmente neste lugar!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"不要在这附近停留。尽管我在每次的冲突中都保持中立，但是追随我的人和我可不一样的，特别是在这个据点！","color":"dark_aqua"}]}

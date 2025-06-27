@@ -35,3 +35,6 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"टेलीपोर्टे�
 
 #PORTUGUESE LANGUAGE
 title @s[scores={LANGUAGE=10}] actionbar {"text":"O ponto de teletransporte está muito longe.","color":"red"}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"距离传送点过远","color":"red"}

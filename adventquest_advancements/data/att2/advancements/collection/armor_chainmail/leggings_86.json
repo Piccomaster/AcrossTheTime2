@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_leggings"
-        },
-        "title": {"translate":"Péctour"},
-        "description": {"translate":"As in the days of green moons and yellow woods."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_leggings"
     },
-    "parent": "att2:collection/armor_chainmail/leggings_79",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "chainmail_leggings_86": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Péctour\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Comme aux temps des lunes\\\"}\",\"{\\\"text\\\":\\\"§7vertes et des bois jaunes.\\\"}\",\"{\\\"text\\\":\\\"§7As in the days of green moons\\\"}\",\"{\\\"text\\\":\\\"§7and yellow woods.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.leggings_86"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.leggings_86"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/leggings_79",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "chainmail_leggings_86": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "86"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

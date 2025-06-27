@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"O resultado das minhas pesquisas certamente não foi apenas para servir a mim mesmo, mas para ajudar os outros e a pessoa que salvou o mundo do cataclismo... Então, vou ajudá-lo em sua última missão e guiá-lo para alcançar seu teste!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"我研究的最终目的当然不仅仅是为了一己私欲，而是为了帮助他人，还有那位曾经从灾劫中救世的英雄…所以，我会在你的最后一次探险中帮助你，并指引你完成你的考验！","color":"dark_aqua"}]}

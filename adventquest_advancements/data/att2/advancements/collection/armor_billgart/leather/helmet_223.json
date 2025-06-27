@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Capuche immobile"},
-        "description": {"translate":"Pass the time, fast or slow."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_helmet_223": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Capuche immobile\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Passe le temps, vite ou lentement.\\\"}\",\"{\\\"text\\\":\\\"§7Pass the time, fast or slow.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7SPD§c-2\\\"}\"],color:4218913}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.helmet_223"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.helmet_223"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_helmet_223": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "223"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

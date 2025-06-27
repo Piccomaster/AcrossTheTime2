@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"A carne de boi está na minha adega, deve haver oito fatias nos meus baús. Transporte-a para a taberna de Méleïm. E não toque na carne, se faltar uma, você não será pago! Boa viagem, volte para mim quando terminar!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"牛肉在我的地窖里，箱子里肯定有八块。将它运送到Méleïm的小酒馆，并且不要动小心思，如果少了，你不会得到报酬！ 祝你旅途愉快，完成后回来找我！","color":"dark_aqua"}]}

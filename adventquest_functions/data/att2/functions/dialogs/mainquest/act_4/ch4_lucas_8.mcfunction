@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° ल्यूकस : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Há um lugar, uma antiga torre apenas a alguns minutos de distância em linha reta... Siga-me, eu mostrarei o caminho.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"有个地方，一座旧塔，离这里的直线距离只需几分钟就能到达……跟我来，我给你指路。","color":"dark_aqua"}]}

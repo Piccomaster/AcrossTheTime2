@@ -5,7 +5,7 @@
 
 playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 0.8
 
-scoreboard players set ult SPELL31 25
+scoreboard players operation ult SPELL31 = ult SPELL31_DATA
 scoreboard players operation ult SPELL31 *= @s SPELL31_CAP
 
 scoreboard players operation @s CHRONOTON += ult SPELL31

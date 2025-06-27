@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Angor north Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Angor north"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_angor_north"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_angor_north"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_angor",

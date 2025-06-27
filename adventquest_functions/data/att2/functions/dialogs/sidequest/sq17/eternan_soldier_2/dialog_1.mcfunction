@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Eternän Soldier : ","color":"gr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"Espero que você faça bom uso da minha espada. Boa viagem, herói.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"希望我的剑对你有用。祝你旅途顺利，我的英雄！ ","color":"dark_aqua"}]}

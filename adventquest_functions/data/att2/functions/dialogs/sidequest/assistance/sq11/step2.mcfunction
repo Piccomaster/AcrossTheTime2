@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- मुसीबतें खड़
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Arruaceiros -°- : ","color":"gray","extra":[{"text":"Eu preciso me livrar desses arruaceiros e depois só precisarei vê-lo para ele me oferecer algo em troca.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 闹事者 -°- : ","color":"gray","extra":[{"text":"赶走那群滋事者之后再和酒店老板谈谈，看他能给我什么奖赏","color":"aqua","italic":true}]}

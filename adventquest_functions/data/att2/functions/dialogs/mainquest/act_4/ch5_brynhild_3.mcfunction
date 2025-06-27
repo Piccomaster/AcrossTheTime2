@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Brynhild : ","color":"green","ex
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Brynhild : ","color":"green","extra":[{"text":"Herói? Sim, ele é. O que você quer, herói?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Brynhild : ","color":"green","extra":[{"text":"英雄？对，他就是。英雄，你想要什么？ ","color":"dark_aqua"}]}

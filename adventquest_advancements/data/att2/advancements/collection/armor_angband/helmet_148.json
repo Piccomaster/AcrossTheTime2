@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_helmet"
-        },
-        "title": {"translate":"Tête platinée"},
-        "description": {"translate":"Protects with longevity the most important of your assets."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
     },
-    "parent": "att2:collection/armor_angband/helmet_147",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "golden_helmet_148": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Tête platinée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Protège avec longévité le plus\\\"}\",\"{\\\"text\\\":\\\"§7important de vos atouts.\\\"}\",\"{\\\"text\\\":\\\"§7Protects with longevity the most\\\"}\",\"{\\\"text\\\":\\\"§7important of your assets.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7STR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.helmet_148"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.helmet_148"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/helmet_147",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_helmet_148": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "148"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

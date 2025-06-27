@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- साथनोक में ए�
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma noite em Sathnok -°- : ","color":"gray","extra":[{"text":"Linda conseguiu voltar viva da mansão de Sathnok, mas seu amigo ficou lá. Tenho que encontrá-lo, vivo se possível... Deve haver catacumbas lá, preciso encontrar uma entrada para iniciar a busca.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Sathnok惊魂夜 -°- : ","color":"gray","extra":[{"text":"Linda成功活着从Sathnok庄园逃出了，她的好伙伴却没有这么幸运。不管是死是活，我得在庄园里找到她的伙伴。庄园和一个地下墓穴连着，我需要想办法找到入口。","color":"aqua","italic":true}]}

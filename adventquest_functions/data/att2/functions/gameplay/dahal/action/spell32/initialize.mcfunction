@@ -6,10 +6,8 @@ scoreboard objectives add COOLDOWN32 dummy
 scoreboard objectives add SPELL32_LVL dummy
 scoreboard objectives add SPELL32_EFFECT dummy
 scoreboard objectives add SPELL32_CAP dummy
-scoreboard objectives add spell_32_armor_stand dummy
-scoreboard objectives add SPELL32_ARMORSTAND_DATA_A dummy
-scoreboard objectives add SPELL32_ARMORSTAND_DATA_B dummy
-scoreboard objectives add SPELL32_ARMORSTAND_PROTECT dummy
+scoreboard objectives add SPELL32_DATA_A dummy
+scoreboard objectives add SPELL32_DATA_B dummy
 scoreboard objectives add SPELL32_SET dummy
 scoreboard objectives add SPELL32_TP dummy
 scoreboard objectives add ESC_CHECK dummy
@@ -29,8 +27,8 @@ scoreboard players set @s tp_point_set_a 0
 scoreboard players set @s tp_point_set_b 0
 scoreboard players set @s ESC_CHECK 0
 scoreboard players set @s TP_CHECK 0
-scoreboard players set @s SPELL32_ARMORSTAND_DATA_A 0
-scoreboard players set @s SPELL32_ARMORSTAND_DATA_B 0
+scoreboard players set @s SPELL32_DATA_A 0
+scoreboard players set @s SPELL32_DATA_B 0
 scoreboard players set @s SPELL32_SET_EFFCT 0
 scoreboard players set @s SPELL32_SET 0
 scoreboard players set @s SPELL32_TP 0
@@ -45,13 +43,10 @@ scoreboard players set cap3 SPELL32_LVL 400
 scoreboard players set cap4 SPELL32_LVL 800
 scoreboard players set cap5 SPELL32_LVL 1600
 
-team add tp_waypoint_color_player1
-team add tp_waypoint_color_player2
-team add tp_waypoint_color_player3
-team add tp_waypoint_color_player4
-team add tp_waypoint_color_player5
-team modify tp_waypoint_color_player1 color gold
-team modify tp_waypoint_color_player2 color dark_green
-team modify tp_waypoint_color_player3 color dark_red
-team modify tp_waypoint_color_player4 color dark_purple
-team modify tp_waypoint_color_player5 color black
+
+#set cooldown score | cooldown/200 -> second
+scoreboard players set lvl1 COOLDOWN32 1600
+scoreboard players set lvl2 COOLDOWN32 1400
+scoreboard players set lvl3 COOLDOWN32 1200
+scoreboard players set lvl4 COOLDOWN32 1000
+scoreboard players set lvl5 COOLDOWN32 800

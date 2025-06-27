@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Sim. Ele não é um aventureiro, então não deve estar muito longe dos trilhos que vão para Ryliath. Vá e não demore muito, ok?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"没错。这孩子可不是什么冒险家，他不会离通往Ryliath的小路太远。现在出发吧，不要耽误太久，好么？ ","color":"dark_aqua"}]}

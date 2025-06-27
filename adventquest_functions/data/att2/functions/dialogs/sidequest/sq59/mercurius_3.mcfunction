@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mercurius : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"Eu uma anomalia? Você me trata assim quando eu te ensinei a pular, nadar, atirar com arco e flecha, colocar lingotes de ferro em buracos...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"我？异常？可别忘了是谁教会了你如何跳跃、游泳、射箭，还有把铁锭放进洞里（ATT1开门的方式），你居然这样对我...","color":"dark_aqua"}]}

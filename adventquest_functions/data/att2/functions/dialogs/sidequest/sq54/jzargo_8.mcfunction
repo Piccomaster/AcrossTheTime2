@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo parte para seu ponto de busca final, para um templo perdido nas cúpulas de Elchéol. E depois, finalmente, eles verão do que J'zargo é verdadeiramente capaz...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo将动身前往他最终的搜寻地点，前往Elchéols山顶上的一座失落的神庙。在那之后，呵，他们将看到J'zargo真正的能力。","color":"dark_aqua"}]}

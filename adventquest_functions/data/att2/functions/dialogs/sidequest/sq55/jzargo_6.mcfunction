@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O aluno veio se desculpar com J'zargo? Oh, sim, aqui está o último artefato que J'zargo estava procurando. Lá, sua jornada está chegando ao fim!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"学徒是来向J'zargo道歉的吗？哦，是了，这是j'zargo在寻找的最后一样物品。就在这了，他的旅程即将结束！","color":"dark_aqua"}]}

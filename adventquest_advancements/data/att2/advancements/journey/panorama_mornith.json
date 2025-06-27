@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Mornith Mine Panorama"},
-        "description": {"translate":"Discover the panorama of the Mornith mining exploitation"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_mornith"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_mornith"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_mornith",

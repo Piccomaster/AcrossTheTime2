@@ -13,3 +13,5 @@ summon minecraft:arrow -5610 95 -6361 {Motion:[-0.3,-1.0,0.0],damage:5.0}
 
 scoreboard players add underground_mech2 VONAHEIM 1
 execute if score underground_mech2 VONAHEIM matches 3 run function att2:cinematic/act_4/vonaheim/underground/mech2/end
+#return 1->make command block runing
+return 1

@@ -13,3 +13,5 @@ summon minecraft:falling_block -7548 129 -4176 {Time:1,BlockState:{Name:"minecra
 summon minecraft:falling_block -7547 129 -4177 {Time:1,BlockState:{Name:"minecraft:shroomlight"}}
 summon minecraft:falling_block -7548 129 -4178 {Time:1,BlockState:{Name:"minecraft:shroomlight"}}
 summon minecraft:falling_block -7548 128 -4177 {Time:1,BlockState:{Name:"minecraft:shroomlight"}}
+#return 1->make command block runing
+return 1

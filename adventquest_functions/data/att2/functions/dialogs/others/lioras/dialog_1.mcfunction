@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lioras : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Eu te asseguro! Existe um lugar em Sylberländ com áreas subterrâneas estranhas, escritos até falam de um povo ao leste de nossa região. Se você fosse um pouco curioso, teria lido os antigos grimórios da academia e teria sabido disso... Hmm, espera, este estranho está nos ouvindo...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"我向你们保证！Sylberländ东部有一个地方有奇怪的地下区域，有些书里还提到我们地区东部有一个民族。如果你觉得有兴趣，你去读学院里面的书籍，你就会知道这一点...嗯等等，这个陌生人正在听我们说话...","color":"dark_aqua"}]}

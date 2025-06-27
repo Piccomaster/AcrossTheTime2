@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Angor Palace Panorama"},
-        "description": {"translate":"Discover the panorama of Angor palace"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_angor_palace"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_angor_palace"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_angor_palace",

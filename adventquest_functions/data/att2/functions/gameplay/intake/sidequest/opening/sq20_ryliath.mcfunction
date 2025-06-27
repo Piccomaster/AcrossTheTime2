@@ -3,7 +3,7 @@
 #Manage intake booty in Ryliath	 	 	 		 #
 ##################################################
 
-clear @s minecraft:diamond{display:{"Lore":["{\"text\":\"§4§oBooty\"}"]}} 1
+clear @s minecraft:diamond[custom_name={translate:'item.quest.booty.name'}] 1
 scoreboard players add intake_booty SQ20 1
 execute positioned -5102 84 -4972 run function att2:gameplay/intake/effect
 

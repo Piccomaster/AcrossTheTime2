@@ -57,3 +57,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A parede está desmoronando aos meus pés, pode haver uma entrada aqui... Um tremor suficientemente forte deve resolver.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"地上这些碎石看起来很松散，下面可能有一个入口...也许一阵强力的震动可以震开这片碎石。","color":"aqua"}]}

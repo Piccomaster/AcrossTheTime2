@@ -21,3 +21,5 @@ execute if score winged_mech3 ANGOR matches 1 if score Neth1 TIMER matches 1 in 
 execute if score winged_mech3 ANGOR matches 1 if score Neth1 TIMER matches 0 run scoreboard players set winged_mech3 ANGOR 2
 
 execute if score winged_mech3 ANGOR matches 1 if score Neth1 TIMER matches 0.. run scoreboard players remove Neth1 TIMER 1
+#return 1->make command block runing
+return 1

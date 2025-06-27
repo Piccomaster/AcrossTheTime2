@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:deepslate_diamond_ore"
+            "id": "minecraft:deepslate_diamond_ore"
         },
-        "title": {"translate":"All Delightful Armor"},
-        "description": {"translate":"Find all Delightful armor"},
+        "title": {"translate": "att2.advancement.collection.armor_diamond.title.all"},
+        "description": {"translate": "att2.advancement.collection.armor_diamond.description.all"},
         "frame": "challenge"
     },
     "parent": "att2:collection/armor_diamond",

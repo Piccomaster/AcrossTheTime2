@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"एथर लीग","color":"gr
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Liga do Éter","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"以太联盟","color":"gray"}

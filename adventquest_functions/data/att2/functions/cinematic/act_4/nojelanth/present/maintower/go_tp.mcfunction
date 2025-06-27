@@ -22,3 +22,5 @@ execute positioned -6023 125.0 -4296 run function att2:cinematic/act_4/nojelanth
 execute positioned -6028 136.0 -4302 run function att2:cinematic/act_4/nojelanth/tp_effect
 execute positioned -6029 136.0 -4282 run function att2:cinematic/act_4/nojelanth/tp_effect
 execute positioned -6013 162.0 -4294 run function att2:cinematic/act_4/nojelanth/tp_effect
+#return 1->make command block runing
+return 1

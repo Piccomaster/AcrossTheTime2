@@ -55,6 +55,10 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Infelizmente, eles foram dispersos por todo o mundo, ou até perdidos. No entanto, diz-se que o portal poderia funcionar, mesmo com fragmentos destas pedras. Estas também são chamadas de ''gema do espaço''. Se você estiver interessado em usar o portal de Ryliath, então você precisará de pelo menos três gemas para fazê-lo funcionar...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"但不幸的是，这些石头散落于世界各地，甚至下落不明。但据传说所言，即使只拥有这些石头的碎片，你也可以成功激活传送门。而这些石头也被称为“时空之石”，空间宝石能让你在各个维度间迁跃，时间宝石更能使你跨越岁月长河。如果你想激活Ryliath的传送门，至少需要找到三颗“空间宝石”。","color":"dark_aqua"}]}
 
 function att2:voice/yaakov/yaakov4
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_4
+
+

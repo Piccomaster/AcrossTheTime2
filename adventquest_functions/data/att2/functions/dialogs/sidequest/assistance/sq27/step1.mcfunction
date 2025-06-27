@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- जैसी मां, वैस�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tal mãe, tal filha -°- : ","color":"gray","extra":[{"text":"Emerald perguntou entre os habitantes de Méleïm e sua filha aparentemente se aproximou da operação de mineração dos Morniths a oeste de Méleïm. É uma pedreira que normalmente está enterrada nas montanhas. Emerald está cansado, ele precisa descansar... Eu tenho que encontrar uma maneira de entrar nas minas e procurar por rastros dela.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"Emerald果然从居民那打听到了一些消息。他女儿去了Méleïm西边的Morniths矿场，那是一个深入山脉里的采石场。经历了这一系列的探索调查，Emerald已经很疲惫了，他需要好好休息，接下来我要独自前往Morniths矿场找到更多他女儿的足迹","color":"aqua","italic":true}]}

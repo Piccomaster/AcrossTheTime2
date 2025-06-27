@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Ryliath Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Ryliath"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_ryliath"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_ryliath"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_ryliath",

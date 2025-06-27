@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_helmet"
-        },
-        "title": {"translate":"Morion des Lorth"},
-        "description": {"translate":"Although prompt to counsel others, conceals his face in a strange way."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
     },
-    "parent": "att2:collection/armor_netherite/helmet_289",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_helmet_293": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Morion des Lorth\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bien qu’amène et prompt à conseiller ses congénères,\\\"}\",\"{\\\"text\\\":\\\"§7dissimule son visage d’une bien étrange façon.\\\"}\",\"{\\\"text\\\":\\\"§7Although prompt to counsel others,\\\"}\",\"{\\\"text\\\":\\\"§7conceals his face in a strange way.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.helmet_293"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.helmet_293"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/helmet_289",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_helmet_293": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "293"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

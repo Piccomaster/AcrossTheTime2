@@ -22,7 +22,7 @@ execute if score Neth0 TIMER matches 120..200 in minecraft:the_nether run functi
 #Dialog Namrin
 execute if score Neth0 TIMER matches 120 run function att2:dialogs/mainquest/act_3/ch5_namrin_2
 execute if score Neth0 TIMER matches 120 run function att2:voice/namrin/namrin12
-execute if score Neth0 TIMER matches 130 as 00000000-0000-006a-0000-00000000006a run data merge entity @s {HandItems:[{id:"minecraft:golden_sword",Count:1},{}]}
+execute if score Neth0 TIMER matches 130 as 00000000-0000-006a-0000-00000000006a run data merge entity @s {equipment:{mainhand:{id:"minecraft:golden_sword",count:1},offhand:{}}}
 execute if score Neth0 TIMER matches 130 as @a[scores={DIMENSION=6}] at @s run function att2:sound/misc/sword_unsheathe
 execute if score Neth0 TIMER matches 190 run function att2:dialogs/mainquest/act_3/ch5_relgon_4
 execute if score Neth0 TIMER matches 190 run function att2:voice/relgon/relgon50

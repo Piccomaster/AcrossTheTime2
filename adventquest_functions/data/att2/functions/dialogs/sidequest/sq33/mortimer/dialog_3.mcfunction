@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Como você está? Graças a você, finalmente posso estudar este enigma que são essas estruturas estranhas dispostas em todo o país. Dê-me mais um pouco de tempo, certamente em breve poderei aprender algumas coisas interessantes sobre essas pedras...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"你还好吗？多亏了你，我终于可以继续研究这个谜题，这些奇怪的石阵分散在这片大陆的各个地方，再给我一点时间，我很快就能研究出关于这个石头的其他有趣的信息...","color":"dark_aqua"}]}

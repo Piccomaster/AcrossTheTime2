@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_chestplate"
-        },
-        "title": {"translate":"Nu gal menä"},
-        "description": {"translate":"Your form becomes your strength, because it is the only thing that really matters."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
     },
-    "parent": "att2:collection/armor_angband/chestplate_150",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_chestplate_156": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§5Nu gal menä\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Votre forme devient votre force, car c'est la\\\"}\",\"{\\\"text\\\":\\\"§7seule chose qui importe vraiment.\\\"}\",\"{\\\"text\\\":\\\"§7Your form becomes your strength, because it is\\\"}\",\"{\\\"text\\\":\\\"§7the only thing that really matters.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7DAR§a2 §7HUN§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.chestplate_156"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.chestplate_156"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/chestplate_150",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_chestplate_156": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "156"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

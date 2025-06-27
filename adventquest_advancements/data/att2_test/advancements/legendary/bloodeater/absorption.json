@@ -1,0 +1,28 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/bloodeater/apply_health"
+  },
+  "criteria": {
+    "healing": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:absorption": {
+                    "amplifier": 100
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

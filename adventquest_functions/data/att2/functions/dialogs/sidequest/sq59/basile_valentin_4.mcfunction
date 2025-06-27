@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"É o resultado de anos de pesquisa para completar a busca dos alquimistas: a pedra filosofal. Se eu escolhi este lugar exato para depositar esta substância no centro do templo de Ëarndhel, é para usar os poderes das 9 gemas que você trouxe na época para alcançar a quintessência e absorver suas emanações.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"这是多年研究的成果，我完成了炼金术士们的毕生追求：贤者之石。之所以选择这个地方，并将这种物质放置在Earndhel神殿的中心，是为了利用你当时带回来的9颗宝石的力量，我要糅合它们的精髓并让这种物质吸收因此散发出的能量。","color":"dark_aqua"}]}

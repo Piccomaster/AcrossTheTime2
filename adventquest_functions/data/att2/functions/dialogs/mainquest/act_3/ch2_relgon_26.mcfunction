@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"A guerra eclodiu. A maioria dos domínios mortais cedeu ao medo de La Flamme Noire, expulsaram-nos, mataram-nos...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"战争爆发了。但是，大部分凡人们对La_Flamme_Noire充满恐惧—于是，他们驱逐我们、杀害我们...","color":"dark_aqua"}]}

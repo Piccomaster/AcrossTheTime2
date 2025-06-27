@@ -78,3 +78,5 @@ execute if score path3_mech2_timer1 OURANOS matches 1..9999 run scoreboard playe
 
 execute if score path3_mech2_timer2 OURANOS matches ..0 run scoreboard players set path3_mech2_timer2 OURANOS 100
 execute if score path3_mech2_timer2 OURANOS matches 1..100 run scoreboard players remove path3_mech2_timer2 OURANOS 1
+#return 1->make command block runing
+return 1

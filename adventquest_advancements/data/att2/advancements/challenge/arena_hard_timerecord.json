@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:trident"
+            "id": "minecraft:trident"
         },
-        "title": {"translate":"HARD ARENA TIME RECORD !"},
-        "description": {"translate":"Complete the arena event in hard difficulty within the time limit: 59m."},
+        "title": {"translate":"att2.advancement.challenge.title.arena_hard_timerecord"},
+        "description": {"translate":"att2.advancement.challenge.description.arena_hard_timerecord"},
         "frame": "challenge"
     },
     "parent": "att2:challenge/arena_hard",

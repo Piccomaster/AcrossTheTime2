@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "wooden_axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": "#minecraft:shovels",
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "att2_enchantment:combohit"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

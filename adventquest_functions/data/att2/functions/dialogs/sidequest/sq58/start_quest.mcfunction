@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[अतीत के अवशेष]",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Os restos do passado]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[过去的遗址]","color":"gold"}

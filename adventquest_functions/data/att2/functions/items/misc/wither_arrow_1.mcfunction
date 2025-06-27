@@ -3,4 +3,4 @@
 #Obtain arrow_0         					 	 #
 ##################################################
 
-give @s minecraft:tipped_arrow{Potion:"minecraft:thick",custom_potion_effects:[{id:wither,amplifier:2,duration:100}],Color:0} 1
+give @s minecraft:tipped_arrow[custom_data={EquipmentType:'arrow',Rarity:'misc'},custom_name={translate:'att2.misc.wither_arrow_1'},minecraft:potion_contents={custom_effects:[{amplifier:2,duration:100,id:"wither"}]}] 2

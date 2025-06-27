@@ -3,5 +3,6 @@
 #Obtain item iron_axe_73          #
 #####################################
 
-give @s minecraft:iron_axe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"has1_hun_1",display:{Name:"\"§2Hache vénale\"","Lore":["{\"text\":\"§7La confiance est un concept idiot.\"}","{\"text\":\"§7Trust is a silly concept.\"}","{\"text\":\"§7HAS§a1 §7HUN§c-1\"}"]},Damage:175,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:11.43,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.92,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:iron_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",HAS:1,HUN:-1,Weapon:"73"},custom_name={translate:"weapon73.name"},lore=[{translate:"weapon73.lore.1"},{translate:"weapon73.lore.2"},{translate:"weapon73.stat"}],max_damage=260,damage=175,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:11.43},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.92}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

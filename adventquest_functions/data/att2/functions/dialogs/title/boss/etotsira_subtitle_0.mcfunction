@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"गया के पहले �
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Filho dos primeiros filhos de Gaya","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Gaya的嗣子","color":"gray"}

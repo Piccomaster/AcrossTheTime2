@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garret : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Então, você encontrou o quartel? Localize a grande ponte que sobe para o leste da cidade; o quartel está abaixo da segunda parte dessa ponte.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"你找到军营了吗？他就在Angor废墟东部的那座巨大楼梯顶层的下方。","color":"dark_aqua"}]}

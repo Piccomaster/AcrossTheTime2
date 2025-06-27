@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:bow",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str2_res1_hun2\",display:{Name:\"\\\"§6Lueurs du matin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tant espérées, elles annihilent les ténèbres\\\"}\",\"{\\\"text\\\":\\\"§7si tenaces, sans la moindre difficulté.\\\"}\",\"{\\\"text\\\":\\\"§7So much hoped for, they annihilate the darkness \\\"}\",\"{\\\"text\\\":\\\"§7so tenacious, without the slightest difficulty.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7HUN§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:power\",lvl:12s},{id:\"minecraft:flame\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/bow_219"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"delightful\",Effect:\"str4\",display:{Name:\"\\\"§6Ultime Skéléo\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il suffit d'un grain de poussière, d'une goutte,\\\"}\",\"{\\\"text\\\":\\\"§7d'un soupçon, pour révéler nature.\\\"}\",\"{\\\"text\\\":\\\"§7All it takes is a speck of dust, a drop,\\\"}\",\"{\\\"text\\\":\\\"§7a hint, to reveal nature.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4\\\"}\"]},Damage:15,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:8.25,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.3,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/diamond_leggings_262"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,14 +61,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"delightful\",Effect:\"str1_res1_her1_luc1\",display:{Name:\"\\\"§6Fuite bleu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'or, perdu dans l'horizon nacré, se resserre\\\"}\",\"{\\\"text\\\":\\\"§7et jaunit pour gagner l'obscurité qui commence à poindre.\\\"}\",\"{\\\"text\\\":\\\"§7The gold, lost in the pearly horizon, tightens and\\\"}\",\"{\\\"text\\\":\\\"§7yellows to gain the darkness that is beginning to dawn.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HER§a1 §7LUC§a1\\\"}\"]},Damage:5,Enchantments:[{id:\"minecraft:feather_falling\",lvl:5s},{id:\"minecraft:projectile_protection\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.88,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.3,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/diamond_boots_263"
                 }
             ]
         }
     ]
 }
+

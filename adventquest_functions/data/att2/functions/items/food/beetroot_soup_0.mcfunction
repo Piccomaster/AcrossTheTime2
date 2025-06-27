@@ -3,4 +3,4 @@
 #Obtain beetroot_soup_0         				 #
 ##################################################
 
-give @s minecraft:beetroot_soup{EquipmentType:"misc",Rarity:"misc",display:{Name:"{\"text\":\"Jorïn soup\"}"}}
+give @s minecraft:beetroot_soup[custom_data={EquipmentType:'food',Rarity:'misc'}]

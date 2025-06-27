@@ -4,7 +4,7 @@
 #################################################################
 
 scoreboard players add @a SIDEQUEST 1
-clear @a minecraft:note_block{display:{"Lore":["{\"text\":\"§4§oCargo of food\"}"]}} 64
+clear @a minecraft:note_block[custom_name={translate:'item.quest.cargo_of_food.name'}] 64
 scoreboard players set SQ31 SIDEQUEST 100
 function att2:dialogs/sidequest/completed_effect
 scoreboard players set marlene_PNJ DIALOG 4
@@ -21,3 +21,5 @@ function att2:items/food/bread_0
 tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+300 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq31
+#return 1->make command block runing
+return 1

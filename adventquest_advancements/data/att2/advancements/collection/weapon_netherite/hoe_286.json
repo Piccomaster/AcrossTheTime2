@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_hoe"
-        },
-        "title": {"translate":"Lance de l'élève"},
-        "description": {"translate":"The fighter's first accessory."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_hoe"
     },
-    "parent": "att2:collection/weapon_netherite",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_hoe_286": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§7Lance de l'élève\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le premier accessoire du combattant.\\\"}\",\"{\\\"text\\\":\\\"§7The fighter's first accessory.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.hoe_286"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.hoe_286"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_hoe_286": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "286"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

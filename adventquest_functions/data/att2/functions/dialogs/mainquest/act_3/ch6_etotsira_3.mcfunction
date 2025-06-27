@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Não há dúvida sobre isso: você é a reencarnação de Relgon. Não sei por que Gaya demorou tanto para trazer de volta sua força vital, mas isso coincide estranhamente com o advento da nova fonte Tellurön.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你的想法是对的：你是Relgon的转世。我不知道为什么Gaya花了这么长时间才把你的灵魂带回， 但奇怪的是，在你回归的同时，Tellurön出现了新的堕落泉源。","color":"dark_aqua"}]}

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Brigandine"},
-        "description": {"translate":"The brigand's female."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/chestplate_334",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_chestplate_338": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§2Brigandine\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La dame du brigand.\\\"}\",\"{\\\"text\\\":\\\"§7The brigand's female.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.chestplate_338"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.chestplate_338"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/chestplate_334",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_chestplate_338": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "338"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

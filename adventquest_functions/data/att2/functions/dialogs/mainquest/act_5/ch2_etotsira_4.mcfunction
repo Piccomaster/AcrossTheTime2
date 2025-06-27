@@ -60,5 +60,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Apenas Gaya sabe o que o futuro reserva para você, mas claramente, para mim, sua história não termina aqui... Volte à era da sua epopeia, só lá você poderá se preparar para os próximos testes... Por mais difíceis que sejam...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"只有Gaya知道你未来的命运，但对我来说，你的历史显然不会在此终结……回到你那宏伟的时代去吧，只有在那里，你才能为接下来的试炼养精蓄锐...无论前路有多艰险。","color":"dark_aqua"}]}
 
 function att2:voice/etotsira/etotsira60
+
+

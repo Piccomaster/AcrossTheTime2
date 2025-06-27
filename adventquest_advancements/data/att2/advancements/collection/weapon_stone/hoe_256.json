@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_hoe"
-        },
-        "title": {"translate":"Épieu"},
-        "description": {"translate":"Useful for game hunting."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_hoe"
     },
-    "parent": "att2:collection/weapon_stone/hoe_255",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "wooden_hoe_256": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§2Épieu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utile pour la chasse au gibier.\\\"}\",\"{\\\"text\\\":\\\"§7Useful for game hunting.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.hoe_256"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.hoe_256"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/hoe_255",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "wooden_hoe_256": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "256"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

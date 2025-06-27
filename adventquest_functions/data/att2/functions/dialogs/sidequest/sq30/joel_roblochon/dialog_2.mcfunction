@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Joël Roblochon : ","color":"gr
 function att2:dialogs/sidequest/sq30/joel_roblochon/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq30/joel_roblochon/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq30/joel_roblochon/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"嘿，小心点儿！你在这壁炉里搞什么鬼？这座宫殿真是个瑞士奶酪，到处都是些秘密通道！嗯...这到是可以解释我前天在烟囱底部发现的那只烧焦的靴子...","color":"dark_aqua"}]}

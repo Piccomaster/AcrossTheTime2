@@ -58,3 +58,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Sim, por uma vez podemos agradecer por não ter ferido nenhum dos nossos, Robert...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"是的， 这次我们要感谢你没有误伤任何人， Robert....","color":"dark_aqua"}]}

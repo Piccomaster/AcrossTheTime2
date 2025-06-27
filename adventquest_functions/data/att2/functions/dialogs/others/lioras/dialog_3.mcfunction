@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lioras : ","color":"green","ext
 
 
 execute if score lioras_PNJ DIALOG matches ..3 run scoreboard players set lioras_PNJ DIALOG 4
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"好吧，根据学院的书籍记载，在Sylberländ以东有一个地下建筑，而且我知道在黑森林内的Mornith矿场高处的屋子内有一个入口。然而，要打开它，你需要一个古代符文的公式：","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":"。 好吧，无论如何没有人能够收集到这样的符文，但你永远不知道，也许你会是解开这个谜题的人。","color":"dark_aqua"}]}

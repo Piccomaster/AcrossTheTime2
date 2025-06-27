@@ -56,3 +56,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hermona : ","color":"green","ex
 
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"哦，你受伤了？我来帮你治疗，坚持住！不过请你认真考虑一下我的请求：为我们的战地医院寻找一些绷带好吗？","color":"dark_aqua"}]}

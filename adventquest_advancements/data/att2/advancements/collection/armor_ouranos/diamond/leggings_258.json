@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Chant d'espoir"},
-        "description": {"translate":"Carries positivity, loud and clear, to chase away error and fear."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/leggings_254",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_leggings_258": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Chant d'espoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Porte la positivité, à cor et à cri,\\\"}\",\"{\\\"text\\\":\\\"§7pour chasser au loin l'erreur et la crainte.\\\"}\",\"{\\\"text\\\":\\\"§7Carries positivity, loud and clear,\\\"}\",\"{\\\"text\\\":\\\"§7to chase away error and fear.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7LUC§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.leggings_258"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.leggings_258"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/leggings_254",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_leggings_258": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "258"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

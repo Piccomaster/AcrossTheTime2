@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Eu planejava oferecer Chronotons a você, mas se você tiver sucesso, posso prometer uma das nossas casas a um preço baixo. Agora dirija-se para Elvetta, é a floresta de bétulas antes de entrar na cidade na planície. Encontre os bandidos e destrua o acampamento deles para que eles nunca voltem. Boa sorte!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"我本来打算给你一些Chronotons的，但是如果你成功了，我可以保把我们的一间房子低价卖给你。向着Elvetta出发。在进入小镇之前的那个白桦林里。找到强盗并摧毁他们的营地，把他们全都赶走，祝你好运！ ","color":"dark_aqua"}]}

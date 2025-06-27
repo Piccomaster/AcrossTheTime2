@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Não terminou aí. Em uma única hora, ela arruinou a cidade de Angor, cuspindo seu fogo negro por todos os lados, que nunca se apagava. Um grande parte do povo Eternän morreu naquele dia.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"但事情远未了结。仅仅在一小时内，她摧毀了Angor城，黑色的火焰铺天盖地—那一天，大部分Eternän的人失去了生命。","color":"dark_aqua"}]}

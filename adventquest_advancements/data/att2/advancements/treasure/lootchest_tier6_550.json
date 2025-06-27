@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chest"
+            "id": "minecraft:chest"
         },
-        "title": {"translate":"Wanted Chest Addict"},
-        "description": {"translate":"Open 550 Wanted Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier6_550"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier6_550"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/lootchest_tier6_350",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

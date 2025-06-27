@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- उभरता पुरातत
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Arqueólogo iniciante -°- : ","color":"gray","extra":[{"text":"Eu terminei com essas criaturas... Vou dizer ao Walton que elas não vão voltar.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 初露头角的考古学家 -°- : ","color":"gray","extra":[{"text":"成功击退那些怪物了，我得把这个消息告诉Walton。","color":"aqua","italic":true}]}

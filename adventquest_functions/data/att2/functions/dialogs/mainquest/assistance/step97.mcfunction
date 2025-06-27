@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A cidade de Eolorion está sendo atacada. Aramis está contando comigo para ajudar o exército a repelir o inimigo, eu tenho que ir para a porta grande a oeste da cidade.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Eolorion遭到了袭击，Aramis希望我能帮助护卫队击退敌人。我现在得去位于城市西边的大门。","color":"aqua"}]}

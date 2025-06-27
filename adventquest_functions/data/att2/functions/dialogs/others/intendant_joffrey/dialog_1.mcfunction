@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Olá, eu sou o intendente da cidade de Ryliath. Eu cuido de tudo o que diz respeito à administração aqui. Se você está procurando uma verdadeira aventura, você a encontrará aqui... ... ... .. . Eu invejo você tanto, viajante!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"你好，我是Ryliath城的行政长官，负责处理所有和行政有关的事务。如果您渴望一场真正的冒险，您一定可以在这里实现这个愿望的...我真的很羡慕您啊，旅行者！","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*um pouco envergonhado com a situação* Ah... obrigado, Calypso... Estou me sentindo melhor. Preciso falar com Etotsira sobre o portal que se abriu no templo.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*有些尴尬*呃...谢谢你Calypso...我现在好多了。现在我需要和Etotsira聊聊在神殿里打开的传送门。","color":"aqua"}]}

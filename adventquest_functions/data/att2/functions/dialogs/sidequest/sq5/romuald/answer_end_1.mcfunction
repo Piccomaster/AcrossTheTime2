@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Romuald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*Surpresa e entusiasmo* Oh! Minha pequena Mia voltou! Quão preocupado eu estava com você! Mas o que são todos esses filhotes? Ahhh, acho que entendi, minha pequena Mia queria formar sua família, é por isso que ela foi embora! Mas você não precisava fazer isso, minha bela, seus bebês são mais do que bem-vindos! Obrigado, estranho, obrigado, obrigado, obrigado! Aqui está uma recompensa digna das suas ações. Vamos, meus pequenos, vamos para casa, não tenho mais nada a fazer nesta taverna.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"（惊喜和热情）哦！我的小米娅回来了！我真的担心死你了！但是这些小狗是？ 啊哈，我想我明白了，我的小米娅想要组建她的家庭，这就是她离开的原因！ 但你不需要这样做，我的小美人儿，这里非常欢迎你的宝宝！ 谢谢你陌生人，谢谢，谢谢谢谢！你的所作所为值得拥有这些奖励。 来吧，我的孩子们，我们回家吧，在这个小酒馆没什么可做的。","color":"dark_aqua"}]}

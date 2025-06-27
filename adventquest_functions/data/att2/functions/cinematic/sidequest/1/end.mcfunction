@@ -24,3 +24,5 @@ function att2:items/food/bread_0
 tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+75 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq1
+#return 1->make command block runing
+return 1

@@ -3,5 +3,6 @@
 #Obtain item bow_216          #
 #####################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"str2_spd_3",display:{Name:"\"§9Air lourd\"","Lore":["{\"text\":\"§7Le temps mauvais pèse sur son cœur\"}","{\"text\":\"§7autant que sur sa volonté...\"}","{\"text\":\"§7Bad weather weighs on his heart\"}","{\"text\":\"§7as much as on his will...\"}","{\"text\":\"§7STR§a2 §7SPD§c-3\"}"]},Damage:280,Enchantments:[{id:"minecraft:power",lvl:6s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",STR:2,SPD:-3,Weapon:"216"},custom_name={translate:"weapon216.name"},lore=[{translate:"weapon216.lore.1"},{translate:"weapon216.lore.2"},{translate:"weapon216.stat"}],max_damage=385,damage=280,enchantments={"power":6}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

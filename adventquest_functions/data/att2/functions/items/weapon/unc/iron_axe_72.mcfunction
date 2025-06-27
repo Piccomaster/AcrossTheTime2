@@ -3,5 +3,6 @@
 #Obtain item iron_axe_72          #
 #####################################
 
-give @s minecraft:iron_axe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Effect:"",display:{Name:"\"§2Coupe bois\"","Lore":["{\"text\":\"§7Mais aussi les os !\"}","{\"text\":\"§7But also the bones !\"}"]},Damage:175,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.29,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.92,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:iron_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Weapon:"72"},custom_name={translate:"weapon72.name"},lore=[{translate:"weapon72.lore.1"},{translate:"weapon72.lore.2"},{translate:"weapon72.stat"}],max_damage=260,damage=175,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:10.29},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.92}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

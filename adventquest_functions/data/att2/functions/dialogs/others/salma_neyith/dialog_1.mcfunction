@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Salma Neyith : ","color":"green
 
 
 scoreboard players set salma_neyith_PNJ DIALOG 2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Salma Neyith : ","color":"green","extra":[{"text":"欢迎来到我的旅馆。如果您在找一处休息的地方，您可以在这儿租一间房—绝对物有所值。","color":"dark_aqua"}]}

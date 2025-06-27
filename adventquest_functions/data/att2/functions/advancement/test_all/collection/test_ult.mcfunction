@@ -3,6 +3,8 @@
 #Process all test of collection advancement 			        #
 #################################################################
 
+# RARITY
+advancement grant @s only att2:adventure/ult
 # Exploit
 function att2:advancement/exploit_5
 

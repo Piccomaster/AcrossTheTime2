@@ -27,3 +27,5 @@ execute if score SQ46 SIDEQUEST matches 4..5 as @a[x=-5111,y=169,z=-6736,dx=-2,d
 
 # End when player talk to Namrïn
 execute if score SQ46 SIDEQUEST matches 5 at 00000000-0000-006a-0000-00000000006a if entity @a[distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/46/end
+#return 1->make command block runing
+return 1

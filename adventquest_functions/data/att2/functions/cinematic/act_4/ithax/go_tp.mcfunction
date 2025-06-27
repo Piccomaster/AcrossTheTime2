@@ -14,3 +14,5 @@ execute positioned -7425 158.0 -5934 run function att2:cinematic/act_4/ithax/tp_
 # Effect
 execute as @a[x=-7456,y=157,z=-6010,distance=..1,gamemode=adventure] at @s run function att2:cinematic/act_4/ithax/tp_effect
 execute as @a[x=-7425,y=157,z=-5934,distance=..1,gamemode=adventure] at @s run function att2:cinematic/act_4/ithax/tp_effect
+#return 1->make command block runing
+return 1

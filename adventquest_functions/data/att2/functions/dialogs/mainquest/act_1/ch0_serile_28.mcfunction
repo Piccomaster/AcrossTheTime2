@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Todo mal tem uma origem, alguém responsável por isso... No seu caso, está claro que essa pessoa é Etotsira. O que estou prestes a dizer não é agradável, você está pronto para ouvir?","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"万恶皆有源，总会有人扛这担子...显而易见，Etotsira得对你负责。 我要说些不那么愉快的事情了，你准备好了吗？","color":"yellow","italic":true}]}

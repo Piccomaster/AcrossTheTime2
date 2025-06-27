@@ -3,4 +3,4 @@
 #Obtain baked_potato_0         					 #
 ##################################################
 
-give @s minecraft:baked_potato{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:baked_potato[custom_data={EquipmentType:'food',Rarity:'misc'}]

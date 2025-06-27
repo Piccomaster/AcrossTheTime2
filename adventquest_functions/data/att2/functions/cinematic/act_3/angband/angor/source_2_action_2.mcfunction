@@ -9,3 +9,5 @@ execute as @a[scores={DIMENSION=6}] at @s run tp ~ ~2 ~226
 
 effect give @a[scores={DIMENSION=6}] minecraft:night_vision 1000 0 true
 effect give @a[scores={DIMENSION=6}] minecraft:levitation 1 1 true
+#return 1->make command block runing
+return 1

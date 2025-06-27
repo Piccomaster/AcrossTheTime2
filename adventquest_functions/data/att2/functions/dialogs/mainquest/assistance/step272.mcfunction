@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Outro mecanismo bloqueia meu progresso. E para facilitar meu trabalho, este monstro ainda está me perseguindo. Aparentemente, devo ativar interruptores para carregar a porta e abri-la.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"另一个机制阻碍了我的进步。而且为了让我的处境雪上加霜-这个怪物还在追我。我显然必须激活开关才能给门充电并打开它。","color":"aqua"}]}

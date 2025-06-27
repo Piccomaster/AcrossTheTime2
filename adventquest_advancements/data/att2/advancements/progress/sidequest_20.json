@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"20 SIDE QUESTS"},
-        "description": {"translate":"Complete 20 side quests"},
+        "title": {"translate":"att2.advancement.progress.title.sidequest_20"},
+        "description": {"translate":"att2.advancement.progress.description.sidequest_20"},
         "frame": "goal"
     },
     "parent": "att2:progress/sidequest_10",

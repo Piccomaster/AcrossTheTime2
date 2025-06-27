@@ -3,5 +3,6 @@
 #Obtain item diamond_shovel_100          #
 #####################################
 
-give @s minecraft:diamond_shovel{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",Effect:"str_1",display:{Name:"\"§7Gemme coupante\"","Lore":["{\"text\":\"§7Trésor de la nature.\"}","{\"text\":\"§7Treasure of nature.\"}","{\"text\":\"§7STR§c-1\"}"]},Damage:1500,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:1.68,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.87,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:diamond_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",STR:-1,Weapon:"100"},custom_name={translate:"weapon100.name"},lore=[{translate:"weapon100.lore.1"},{translate:"weapon100.lore.2"},{translate:"weapon100.stat"}],max_damage=1560,damage=1500,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:1.68},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.87}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

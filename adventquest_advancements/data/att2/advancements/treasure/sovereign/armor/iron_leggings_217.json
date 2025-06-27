@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
+    },
+    "title": {
+      "translate": "att2.advancement.treasure.title.iron_leggings_217"
+    },
+    "description": {
+      "translate": "att2.advancement.treasure.description.iron_leggings_217"
+    },
+    "frame": "goal"
+  },
+  "parent": "att2:treasure/sovereign/leather_leggings_221",
+  "rewards": {
+    "function": "att2:advancement/test_all/treasure/all_epi_esc",
+    "experience": 250
+  },
+  "criteria": {
+    "iron_leggings_217": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "217"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -72,3 +72,7 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Romuald : ","color":"green","ext
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Romuald, sinto muito, mas seu cachorro, Mia... Ela está morta...","color":"aqua"}]}
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*Triste* ... Isso é o que eu temia... Este mundo é cruel demais, não vale mais do que o fundo de uma garrafa de bebida... Mesmo assim, obrigado pelo esforço que você fez e aqui estão alguns Cronotons. Agora eu quero ficar sozinho.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Romuald，对不起，你的狗米娅...她死了...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"（悲伤）...这就是我所害怕的...这个世界太残酷了，都不如喝完一瓶酒值得... 无论如何谢谢你，给你带来了麻烦，这里有一些Chronotons，现在我想一个人呆着。","color":"dark_aqua"}]}

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Fa oveur man"},
-        "description": {"translate":"Almost fantastic, but close to absolutely useless."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "bow_197": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§2Fa oveur man\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Presque génial, mais pas loin\\\"}\",\"{\\\"text\\\":\\\"§7d'absolument inutile.\\\"}\",\"{\\\"text\\\":\\\"§7Almost fantastic, but close to\\\"}\",\"{\\\"text\\\":\\\"§7absolutely useless.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.bow_197"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.bow_197"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "bow_197": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "197"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

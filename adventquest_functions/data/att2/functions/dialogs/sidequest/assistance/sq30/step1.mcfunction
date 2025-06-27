@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक रहस्यमय च�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um Roubo Misterioso -°- : ","color":"gray","extra":[{"text":"Aparentemente, foram roubados planos secretos do Palácio. O comandante está informado deste caso, mas o rei conta comigo para procurar pistas e encontrar o ladrão... O comandante está me esperando no andar do palácio, na biblioteca.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 神秘盗窃案 -°- : ","color":"gray","extra":[{"text":"很明显有人偷了整个宫殿的结构图，总司令官已经开始着手调查小偷。 但是国王对我格外信任，让我去调查并抓住这个小偷，我得去宫殿上层的图书馆里和司令官见面","color":"aqua","italic":true}]}

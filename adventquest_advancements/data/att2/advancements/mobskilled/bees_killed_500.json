@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:honeycomb"
+            "id": "minecraft:honeycomb"
         },
-        "title": {"translate":"Bee Genocider"},
-        "description": {"translate":"Kill 500 Bees"},
+        "title": {"translate":"att2.advancement.mobskilled.title.bees_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.bees_killed_500"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/bees_killed_250",

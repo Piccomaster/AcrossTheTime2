@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_pickaxe"
-        },
-        "title": {"translate":"Don d'Adros"},
-        "description": {"translate":"On your way will rise many tyrants, but none will resist you!"},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
     },
-    "parent": "att2:collection/weapon_iron/pickaxe_89",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "iron_pickaxe_93": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§6Don d'Adros\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sur ton chemin se dresseront moult\\\"}\",\"{\\\"text\\\":\\\"§7tyrans,mais aucun ne te résistera !\\\"}\",\"{\\\"text\\\":\\\"§7On your way will rise many tyrants,\\\"}\",\"{\\\"text\\\":\\\"§7but none will resist you!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7HUN§a3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.pickaxe_93"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.pickaxe_93"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/pickaxe_89",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_pickaxe_93": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "93"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

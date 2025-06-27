@@ -61,3 +61,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","
 
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_1
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"你会得到你的奖励。但我不是给你奖励的人，也许你会在你生活的不经意间得到了它。请相信我。","color":"dark_aqua"}]}

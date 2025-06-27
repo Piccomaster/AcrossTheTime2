@@ -16,7 +16,7 @@ execute if score Mainquest SIDEQUEST matches 218.. if score SQ48 SIDEQUEST match
 execute if score Mainquest SIDEQUEST matches 1.. if entity @a[x=7668,y=190,z=7189,distance=..50,gamemode=adventure] run function att2:cinematic/sidequest/48/ghost/go
 execute if score Mainquest SIDEQUEST matches 218.. if score SQ50 SIDEQUEST matches 0 if score cassandre_PNJ DIALOG matches 1 if entity @a[x=-5301,y=115,z=-6302,dx=1,dy=-4,dz=13,gamemode=adventure] run function att2:cinematic/sidequest/50/cassandre/update_dialog
 execute if score Mainquest SIDEQUEST matches 120.. if score SQ57 SIDEQUEST matches 0 if score move_feanorth SQ57 matches 0 in minecraft:the_nether positioned 3419 31 3763 if entity @a[distance=..25,gamemode=adventure] run function att2:cinematic/sidequest/57/feanorth/summon_pnj
-execute if score Mainquest SIDEQUEST matches 218.. if score SQ58 SIDEQUEST matches 0 if entity @a[x=-6176,y=31,z=-4179,distance=..10,gamemode=adventure,nbt={Inventory:[{id:"minecraft:brick",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4Lab Key IF33\"}"]}}}]}] run function att2:cinematic/sidequest/58/step1
+execute if score Mainquest SIDEQUEST matches 218.. if score SQ58 SIDEQUEST matches 0 if entity @a[x=-6176,y=31,z=-4179,distance=..10,gamemode=adventure,nbt={Inventory:[{id:"minecraft:brick",count:1,components:{"minecraft:custom_name":{translate:'item.quest.lab_key.name'}}}]}] run function att2:cinematic/sidequest/58/step1
 execute if score Mainquest SIDEQUEST matches 300.. if score SQ59 SIDEQUEST matches 0 if entity @a[x=-5030,y=76,z=-5041,distance=..15,gamemode=adventure] run function att2:cinematic/sidequest/59/step0/cinematic1
 
 ### Processing go of all sidequests
@@ -95,3 +95,5 @@ execute in minecraft:overworld if score SQ58 SIDEQUEST matches 1..99 run functio
 execute in minecraft:overworld if score SQ59 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/59/go
 execute in minecraft:overworld if score SQ59 SIDEQUEST matches 100 run function att2:cinematic/sidequest/59/step18/portal_go
 execute if score SQ60 SIDEQUEST matches 1..99 if entity @a[scores={EXPLOIT=19377..}] run function att2:cinematic/sidequest/60/end
+#return 1->make command block runing
+return 1

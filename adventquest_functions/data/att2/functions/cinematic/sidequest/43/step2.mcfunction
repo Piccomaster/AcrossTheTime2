@@ -9,3 +9,5 @@ function att2:cinematic/sidequest/43/secret_waterfalling
 function att2:dialogs/sidequest/sq43/player_1
 scoreboard players set linda_shelly_PNJ DIALOG 7
 scoreboard players set SQ43 SIDEQUEST 2
+#return 1->make command block runing
+return 1

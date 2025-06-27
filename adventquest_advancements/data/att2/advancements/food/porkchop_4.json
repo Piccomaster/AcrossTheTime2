@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_porkchop"
+            "id": "minecraft:cooked_porkchop"
         },
-        "title": {"translate":"Porkchop desire"},
-        "description": {"translate":"Eat 4 cooked porkchops"},
+        "title": {"translate":"att2.advancement.food.title.porkchop_4"},
+        "description": {"translate":"att2.advancement.food.description.porkchop_4"},
         "frame": "goal"
     },
     "parent": "att2:food/porkchop_1",

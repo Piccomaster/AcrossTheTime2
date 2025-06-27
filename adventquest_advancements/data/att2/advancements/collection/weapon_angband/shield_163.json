@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shield"
-        },
-        "title": {"translate":"Métilnuji eternän"},
-        "description": {"translate":"To you, the immortal, for whom neither age nor fatigue	have any meaning. A simple rest will wipe them out."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
     },
-    "parent": "att2:collection/weapon_angband/shield_162",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "shield_163": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§6Métilnuji eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A toi l'immortel pour qui ni l'âge, ni la fatigue\\\"}\",\"{\\\"text\\\":\\\"§7n'ont de sens. Un simple repos les effacera.\\\"}\",\"{\\\"text\\\":\\\"§7To you, the immortal, for whom neither age nor fatigue\\\"}\",\"{\\\"text\\\":\\\"§7have any meaning. A simple rest will wipe them out.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a2 §7DAR§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.shield_163"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.shield_163"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/shield_162",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "shield_163": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "163"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

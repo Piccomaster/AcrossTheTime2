@@ -20,8 +20,8 @@ execute if score GuardianSound ITHAX matches 200 as 00000000-0000-007b-0000-0000
 execute if score GuardianSound ITHAX matches 400.. run scoreboard players set GuardianSound ITHAX 0
 
 # Particules for entrance the arena
-particle minecraft:dust 1 0 0 1 -7442 135 -5999 1 1 0.1 0 3 normal
-particle minecraft:dust 1 0 0 1 -7426 135 -5999 1 1 0.1 0 3 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7442 135 -5999 1 1 0.1 0 3 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7426 135 -5999 1 1 0.1 0 3 normal
 
 # Generator effect
 execute if score Guardian ITHAX matches 0.. run function att2:gameplay/boss/ithax/guardian/generator_effect
@@ -33,7 +33,7 @@ execute if score Guardian ITHAX matches 0.. as @a[scores={MUSIC_BOSS=1..}] run s
 # Enable Bossbar storing health of Guardian
 # Guardian
 execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] store result bossbar minecraft:guardian value run data get entity 00000000-0000-007b-0000-00000000007b Health
-execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] store result bossbar minecraft:guardian max run data get entity 00000000-0000-007b-0000-00000000007b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] store result bossbar minecraft:guardian max run data get entity 00000000-0000-007b-0000-00000000007b attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 274 as @a[x=-7441,y=134,z=-5998,dx=-2,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/ithax/guardian/display_title

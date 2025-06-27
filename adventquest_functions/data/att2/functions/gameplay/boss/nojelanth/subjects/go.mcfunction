@@ -8,12 +8,12 @@
 #####################################################################
 
 # Particules for entrance the arena
-particle minecraft:dust 1 0 0 1 -7415 114.0 -4374.0 0.1 0.7 0.7 0 2 normal
-particle minecraft:dust 1 0 0 1 -7453 114.0 -4379.0 0.1 0.7 0.7 0 2 normal
-particle minecraft:dust 1 0 0 1 -7436.0 114.0 -4396 0.7 0.7 0.1 0 2 normal
-particle minecraft:dust 1 0 0 1 -7431.0 114.0 -4358 0.7 0.7 0.1 0 2 normal
-particle minecraft:dust 1 0 0 1 -7415 110 -4377 0.1 0.7 0.7 0 2 normal
-particle minecraft:dust 1 0 0 1 -7434 110 -4396 0.7 0.7 0.1 0 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7415 114.0 -4374.0 0.1 0.7 0.7 0 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7453 114.0 -4379.0 0.1 0.7 0.7 0 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7436.0 114.0 -4396 0.7 0.7 0.1 0 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7431.0 114.0 -4358 0.7 0.7 0.1 0 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7415 110 -4377 0.1 0.7 0.7 0 2 normal
+particle minecraft:dust{color:[1,0,0],scale:1} -7434 110 -4396 0.7 0.7 0.1 0 2 normal
 
 # Music management
 execute if score Subjects NOJELANTH matches 0.. as @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
@@ -22,16 +22,16 @@ execute if score Subjects NOJELANTH matches 0.. as @a[scores={MUSIC_BOSS=1..}] r
 # Enable Bossbar storing health of Subjects
 # Subject0135
 execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0135 value run data get entity 00000000-0000-018b-0000-00000000018b Health
-execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0135 max run data get entity 00000000-0000-018b-0000-00000000018b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0135 max run data get entity 00000000-0000-018b-0000-00000000018b attributes[{id:"minecraft:max_health"}].base
 # Subject0257
 execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0257 value run data get entity 00000000-0000-019b-0000-00000000019b Health
-execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0257 max run data get entity 00000000-0000-019b-0000-00000000019b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0257 max run data get entity 00000000-0000-019b-0000-00000000019b attributes[{id:"minecraft:max_health"}].base
 # Subject0312
 execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0312 value run data get entity 00000000-0000-020b-0000-00000000020b Health
-execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0312 max run data get entity 00000000-0000-020b-0000-00000000020b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0312 max run data get entity 00000000-0000-020b-0000-00000000020b attributes[{id:"minecraft:max_health"}].base
 # Subject0482
 execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0482 value run data get entity 00000000-0000-021b-0000-00000000021b Health
-execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0482 max run data get entity 00000000-0000-021b-0000-00000000021b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0482 max run data get entity 00000000-0000-021b-0000-00000000021b attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7432,y=113,z=-4357,dx=1,dy=1,dz=0,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title

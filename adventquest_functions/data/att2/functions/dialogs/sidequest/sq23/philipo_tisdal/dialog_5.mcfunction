@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Olá, obrigado novamente pela sua ajuda. Tenha cuidado se for aos pântanos, é perigoso lá!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"您好，再次感谢您的帮助。如果您要去沼泽的话请多加小心，那里十分危险！ ","color":"dark_aqua"}]}

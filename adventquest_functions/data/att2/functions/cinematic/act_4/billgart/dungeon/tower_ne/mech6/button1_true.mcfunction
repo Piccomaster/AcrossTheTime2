@@ -18,3 +18,5 @@ execute positioned -1151 120 -678 run function att2:summon/reg_3/blaze0_class13
 execute positioned -1151 120 -672 run function att2:summon/reg_3/blaze0_class13
 execute positioned -1151 120 -657 run function att2:summon/reg_3/blaze0_class13
 execute positioned -1151 120 -651 run function att2:summon/reg_3/blaze0_class13
+#return 1->make command block runing
+return 1

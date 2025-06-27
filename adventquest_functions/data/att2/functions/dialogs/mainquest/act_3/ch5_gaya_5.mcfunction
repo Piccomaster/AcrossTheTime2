@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gaya : ","color":"dark_green","e
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gaya : ","color":"dark_green","extra":[{"text":"Boa sorte, meu filho.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gaya : ","color":"dark_green","extra":[{"text":"祝你好运，我的子嗣。","color":"dark_aqua"}]}

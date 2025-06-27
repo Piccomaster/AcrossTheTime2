@@ -80,6 +80,10 @@ tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","colo
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"O que você quer? Um amigo de Indra, você diz? Wirth... Hmmmm, ah sim claro! Ele ajudou muito minha mãe em suas viagens, como eu pude esquecer! Se ele te enviou para me ver, deve haver um motivo e eu gostaria de saber qual é.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"镇长您好。Indra的朋友Wirth Razgork把她引荐给我， 我希望能...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你想干啥？你的意思是，Indra的朋友是吗？Wirth...嗯...噢，我想起来了，是有这么个人。我母亲游历四方时可没少受他的帮助！我怎么就把这事忘了呢！如果真是他叫你来见我母亲，那肯定事出有因—能说来给我听听么？","color":"dark_aqua"}]}
 
 function att2:voice/ragnar/ragnar1
 function att2:dialogs/mainquest/act_2/pnj_ragnar_lorth/player_answer_proposal_1
+

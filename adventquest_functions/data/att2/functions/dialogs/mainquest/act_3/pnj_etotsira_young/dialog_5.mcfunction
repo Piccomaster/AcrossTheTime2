@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Você não parece em paz. Qualquer que seja o seu problema, não se esqueça de que você não sabe o que o futuro reserva para você, mas também o passado...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你看起来焦躁不安。不论你心中还有什么问题，都不要忘了，“来者犹可追，往者不可谏”","color":"dark_aqua"}]}

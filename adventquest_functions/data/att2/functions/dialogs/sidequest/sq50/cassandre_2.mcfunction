@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Cassandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"Não posso te agradecer o suficiente! Não acho que ele tenha ido lá sozinho, na verdade, suspeito que J'zargo o escondeu. Ele é mau comigo e ainda roubou meu medalhão!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"我对您不胜感激！我不认为它是自己跑去那里的，我实际上怀疑是J'zargo把它藏起来了。他待我很不好，他甚至偷了我的勋章！","color":"dark_aqua"}]}

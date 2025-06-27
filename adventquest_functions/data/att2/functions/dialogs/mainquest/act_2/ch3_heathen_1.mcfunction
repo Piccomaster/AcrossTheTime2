@@ -53,5 +53,7 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° बारबर : ","color":"gre
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Bárbaro : ","color":"green","extra":[{"text":"Quem diabos é esse? Está perdido, garotinho? Vamos, vou ser legal: sai daqui antes que a gente venha te buscar!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 蛮族 : ","color":"green","extra":[{"text":"噢我的老天，看看谁来了？小家伙，你迷路了吗？来来来，让我们好好招待一番！ ","color":"dark_aqua"}]}
 
 function att2:voice/barbar/barbar1

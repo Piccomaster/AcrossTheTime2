@@ -21,3 +21,5 @@ summon minecraft:falling_block -4278 16 -6085 {Time:1,BlockState:{Name:"minecraf
 summon minecraft:falling_block -4278 17 -6085 {Time:1,BlockState:{Name:"minecraft:stone"},Motion:[1.7,0.2,-1.32]}
 summon minecraft:falling_block -4278 17 -6086 {Time:1,BlockState:{Name:"minecraft:andesite"},Motion:[1.7,0.6,-0.32]}
 summon minecraft:falling_block -4278 17 -6085 {Time:1,BlockState:{Name:"minecraft:andesite"},Motion:[1.5,0.5,-0.22]}
+#return 1->make command block runing
+return 1

@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:stone_sword",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"graceful\",Effect:\"str2_res1\",display:{Name:\"\\\"§6Âme d'Ulik'atar\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ode à l'acharnement du premier\\\"}\",\"{\\\"text\\\":\\\"§7inorganique, hurlement d'un roi.\\\"}\",\"{\\\"text\\\":\\\"§7Ode to the fierceness of the first\\\"}\",\"{\\\"text\\\":\\\"§7inorganic, scream of a king.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:smite\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:20.61,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.47,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/stone_sword_190"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:netherite_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"harmonious\",Effect:\"str2_luc1_has_3\",SetId:\"8\",display:{Name:\"\\\"§5Nickel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aL'élu de ce monde, à qui obéissent temps et\\\"}\",\"{\\\"text\\\":\\\"§aespace, ne connaît aucune limite à sa volonté.\\\"}\",\"{\\\"text\\\":\\\"§aThe chosen one of this world, to whom\\\"}\",\"{\\\"text\\\":\\\"§atime and space obey, knows no limit to his will.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7LUC§a1 §7HAS§c-3\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a3 §7HAS§a3 §7SPD§a4\\\"}\"]},Damage:125,Enchantments:[{id:\"minecraft:feather_falling\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.99,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.11,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/netherite_boots_238"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,14 +61,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"str3_has3_her1\",display:{Name:\"\\\"§6Obscurité éblouissante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un milliard de hurlements, confinés dans un silence\\\"}\",\"{\\\"text\\\":\\\"§7sans couleur, mais d'une chaleur froide et terrifiante.\\\"}\",\"{\\\"text\\\":\\\"§7A billion screams, confined in a colourless silence,\\\"}\",\"{\\\"text\\\":\\\"§7but of a cold and terrifying heat.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7HER§a1\\\"}\"],color:695551},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.19,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.6,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_boots_247"
                 }
             ]
         }
     ]
 }
+

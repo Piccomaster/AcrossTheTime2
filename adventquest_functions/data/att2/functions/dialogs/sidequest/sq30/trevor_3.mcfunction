@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Commandant Trevor : ","color":"g
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Não espere! Por favor, não conte ao rei o que você acabou de ver! Porque se essa é a sua intenção, eu prefiro esconder você imediatamente do que enfrentar a ira do meu rei!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"等一下啊！请不要对国王说你刚才的发现的事！如果你是为了这件事而来，那我宁愿把你灭口也不愿意面对国王的怒火！","color":"dark_aqua"}]}

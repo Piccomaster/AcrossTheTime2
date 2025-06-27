@@ -1,11 +1,15 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_upgrade_smithing_template"
+            "id": "minecraft:netherite_upgrade_smithing_template"
         },
-        "title": {"translate":"Runes"},
-        "description": {"translate":"Secret of the elders"},
-        "background": "minecraft:textures/block/cobblestone.png",
+        "title": {
+            "translate": "att2.advancement.runes.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.runes.description.root"
+        },
+        "background": "minecraft:block/cobblestone",
         "show_toast": false
     },
     "criteria": {
@@ -14,9 +18,7 @@
             "conditions": {
                 "items": [
                     {
-                    "items": [
-                        "minecraft:glowstone_dust"
-                        ]
+                        "items": "minecraft:glowstone_dust"
                     }
                 ]
             }

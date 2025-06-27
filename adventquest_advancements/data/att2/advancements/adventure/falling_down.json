@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:black_wool"
+            "id": "minecraft:black_wool"
         },
-        "title": {"translate":"Isolation"},
-        "description": {"translate":"Stepped into true void"},
+        "title": {"translate":"att2.advancement.adventure.title.falling_down"},
+        "description": {"translate":"att2.advancement.adventure.description.falling_down"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/root",

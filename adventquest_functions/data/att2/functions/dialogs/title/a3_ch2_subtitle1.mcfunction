@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"युद्ध में एक
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"Um reino em guerra","color":"dark_red"}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"战时王国","color":"dark_red"}

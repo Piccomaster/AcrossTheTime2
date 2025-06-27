@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Brrr... Está frio aqui... Estou exausto. Ela poderia ter me enviado diretamente para uma cidade ou algo assim...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"呃...这荒郊野地里好冷啊，她应该直接把我送到一座城市或者至少有个能遮风挡雨的地方才对(请多通过《醒神之书》来查看游戏内容)...","color":"aqua"}]}

@@ -3,5 +3,10 @@
 #Apply health regen bonus effect                 #
 ##################################################
 
-scoreboard players set @s TIMER_HER_TOT 80
-effect give @s minecraft:regeneration 3 2 true
+effect give @s[scores={TIMER_HER_TOT=..0}] minecraft:regeneration 3 2 true
+scoreboard players operation @s[scores={TIMER_HER_TOT=..0}] TIMER_HER_TOT = bonus_14 HER_DATA
+#get score
+scoreboard players operation TIMER_HER_TOT HER_DATA = bonus_14 HER_DATA
+scoreboard players operation TIMER_HER_TOT HER_DATA /= 20 CAL
+scoreboard players operation HER_LVL HER_DATA = 3 CAL
+scoreboard players operation HER_TIME HER_DATA = 3 CAL

@@ -3,6 +3,6 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:item",
-        "nbt": "{Item:{tag:{Dahal:launcher}}}"
+        "nbt": "{Item:{id:'minecraft:carrot_on_a_stick',components:{'minecraft:custom_data':{Dahal:'launcher'}}}}"
     }
 }

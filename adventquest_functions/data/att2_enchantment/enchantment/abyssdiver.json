@@ -1,0 +1,34 @@
+{
+    "anvil_cost": 7,
+    "description": {
+        "translate": "enchantment.att2.abyssdiver"
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 2,
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.33333334,
+                    "per_level_above_first": 0.33333334
+                },
+                "attribute": "minecraft:water_movement_efficiency",
+                "id": "minecraft:enchantment.depth_strider",
+                "operation": "add_value"
+            }
+        ]
+    }
+}

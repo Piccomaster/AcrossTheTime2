@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Calypso : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"Em Ëarndhel. Você estava inconsciente no templo, então eu te trouxe aqui.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"你在Ëarndhel神殿中昏迷了， 所以我把你带到这来了。","color":"dark_aqua"}]}

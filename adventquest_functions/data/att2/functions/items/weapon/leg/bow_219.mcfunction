@@ -3,5 +3,6 @@
 #Obtain item bow_219          #
 #####################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",Effect:"str2_res1_hun2",display:{Name:"\"§6Lueurs du matin\"","Lore":["{\"text\":\"§7Tant espérées, elles annihilent les ténèbres\"}","{\"text\":\"§7si tenaces, sans la moindre difficulté.\"}","{\"text\":\"§7So much hoped for, they annihilate the darkness \"}","{\"text\":\"§7so tenacious, without the slightest difficulty.\"}","{\"text\":\"§7STR§a2 §7RES§a1 §7HUN§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:power",lvl:12s},{id:"minecraft:flame",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",STR:2,RES:1,HUN:2,Weapon:"219"},custom_name={translate:"weapon219.name"},lore=[{translate:"weapon219.lore.1"},{translate:"weapon219.lore.2"},{translate:"weapon219.stat"}],max_damage=385,damage=0,enchantments={"power":12,"flame":5}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

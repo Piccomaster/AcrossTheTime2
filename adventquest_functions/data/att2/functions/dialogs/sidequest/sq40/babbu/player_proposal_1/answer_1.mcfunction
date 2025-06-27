@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Babbu : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"É um mapa antigo que eu pesquei na costa de Asunark. Parece indicar um lugar na região sul, eu o guardei esperando vendê-lo, mas você pode ficar com ele. Pelo menos isso eu te devo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"这是我在Asunark海岸找到的一张地图。地图中指引的位置似乎在meleim南边的沙滩处，我一直在找一个合适的时机卖出这个地图。不过现在它是你的了，我欠你的。","color":"dark_aqua"}]}

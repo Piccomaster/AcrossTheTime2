@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Elisa Meli : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"Matar cavalos? Eu não fui tão longe!... Bem, admito, fui eu que fiz isso. Ainda assim, ela sempre foi privilegiada, os pais deram a ela o estábulo, e agora ela está roubando meu Gregor... Tudo o que peço é o respeito dela! E meu homem!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"毒马？我从来没想那样做！...好吧，我承认，是我干的。我做到了。她总是有特殊的待遇，父母把马厩给了她，她现在又抢走了我的“Gregor”...我只想让她尊重我和我的男人！ ","color":"dark_aqua"}]}

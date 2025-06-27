@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Desculpe, aqui não fazemos crédito... Você sabe, não somos tão ricos quanto as pessoas de Ryliath, a cidade vizinha... Além disso, não confio o suficiente em você. Vou ter que pedir que saia.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"抱歉，我们这不提供赊账服务...你也知道，我们的生活向来拮据，不像附近那座城市Ryliath里的居民那么富裕...再者说，我无法完全相信你。如果你不打算付钱，那我只能请你离开了。","color":"dark_aqua"}]}

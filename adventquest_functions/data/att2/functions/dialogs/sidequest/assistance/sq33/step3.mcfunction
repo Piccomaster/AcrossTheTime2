@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सिल्बरलैंड क
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer decifrou uma pista interessante sobre uma pedra. Parece que há algo escondido onde estão os monólitos nas planícies de Sylberländ.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Sylberländ的秘宝 -°- : ","color":"gray","extra":[{"text":"Mortimer从一块石头上得到了一些有用的讯息，Sylberländ大平原上的那处遗迹里似乎藏了些什么。","color":"aqua","italic":true}]}

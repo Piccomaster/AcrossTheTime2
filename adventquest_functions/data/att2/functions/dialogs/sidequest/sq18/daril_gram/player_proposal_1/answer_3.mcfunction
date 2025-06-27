@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Daril Gram : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"No entanto, isso não o isenta de dar lições... Vá embora, eu alcançarei meus objetivos sem a sua ajuda...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"但这样并不能让那些疯子的行为得到原谅...走开，就算没有你的帮助，我也要为我的儿子报仇...","color":"dark_aqua"}]}

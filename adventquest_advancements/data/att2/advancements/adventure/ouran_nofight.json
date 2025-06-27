@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:sunflower"
+            "id": "minecraft:sunflower"
             },
-        "title": {"translate":"Smooth talker"},
-        "description": {"translate":"Find a way to get the Gem of Time without fighting Ouran."},
+        "title": {"translate":"att2.advancement.adventure.title.ouran_nofight"},
+        "description": {"translate":"att2.advancement.adventure.description.ouran_nofight"},
         "frame": "challenge",
         "hidden": true
     },

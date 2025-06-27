@@ -1,23 +1,36 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"Last words of Sélène"},
-        "description": {"translate":"Find “My last words” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.my_last_words"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.my_last_words"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/invitation_to_the_council",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
     "criteria": {
         "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -27,8 +40,14 @@
             "conditions": {
                 "items": [
                     {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -38,8 +57,14 @@
             "conditions": {
                 "items": [
                     {
-                        "item":["minecraft:written_book"],
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7\\\"}\"]}}"      
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7"
+                                }
+                            ]
+                        }
                     }
                 ]
             }

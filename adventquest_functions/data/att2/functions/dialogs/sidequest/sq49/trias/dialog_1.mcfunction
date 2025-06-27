@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Zirthion é uma cidade linda, não é? Paz e serenidade são as palavras-chave neste lugar...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Zirtion是一座美丽的城市，对不对？这座城市充满了宁静与和平...","color":"dark_aqua"}]}

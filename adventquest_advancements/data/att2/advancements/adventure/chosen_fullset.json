@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_pickaxe"
+            "id": "minecraft:stone_pickaxe"
         },
-        "title": {"translate":"The chosen one full set"},
-        "description": {"translate":"Complete the epic set of the chosen one"},
+        "title": {"translate":"att2.advancement.adventure.title.chosen_fullset"},
+        "description": {"translate":"att2.advancement.adventure.description.chosen_fullset"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/epi_full_set",

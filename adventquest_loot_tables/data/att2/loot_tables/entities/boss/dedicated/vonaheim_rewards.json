@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"str2_has2_hun1\",display:{Name:\"\\\"§6Cache fureur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Par tout temps, le ciel te paraît sombre\\\"}\",\"{\\\"text\\\":\\\"§7mais personne ne lève jamais les yeux sur toi.\\\"}\",\"{\\\"text\\\":\\\"§7In all weathers, the sky seems dark to you\\\"}\",\"{\\\"text\\\":\\\"§7but no one ever looks up at you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7HUN§a1\\\"}\"],color:2302737},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:blast_protection\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:5.9,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.98,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_helmet_52"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"str2_res1_has1\",display:{Name:\"\\\"§6Manteau de sang\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Insatiable pour le sang, aucune\\\"}\",\"{\\\"text\\\":\\\"§7éclaboussure ne t'altère.\\\"}\",\"{\\\"text\\\":\\\"§7Insatiable for blood,\\\"}\",\"{\\\"text\\\":\\\"§7no spatter alters you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7HAS§a1\\\"}\"],color:11012662},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:protection\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:8.66,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.99,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_chestplate_53"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"str3_spd2_dar1\",display:{Name:\"\\\"§6Liberté\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7File sans-gêne, vers des horizons lointains\\\"}\",\"{\\\"text\\\":\\\"§7et porte le vent avec toi.\\\"}\",\"{\\\"text\\\":\\\"§7Run away without any discomfort, to distant horizons\\\"}\",\"{\\\"text\\\":\\\"§7and carry the wind with you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7DAR§a1\\\"}\"],color:2302737},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:fire_protection\",lvl:7s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.06,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.4,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_leggings_54"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,14 +81,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"res1_her3_luc1\",display:{Name:\"\\\"§6Méjobora\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le lys est ta vertu, la rose ta colère\\\"}\",\"{\\\"text\\\":\\\"§7et l'ancolie ta peine.\\\"}\",\"{\\\"text\\\":\\\"§7The lily is your virtue, the rose your anger\\\"}\",\"{\\\"text\\\":\\\"§7and the columbine your sorrow.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a3 §7LUC§a1\\\"}\"],color:16776099},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:feather_falling\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.13,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.95,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_boots_55"
                 }
             ]
         }
     ]
 }
+

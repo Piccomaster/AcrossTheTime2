@@ -17,3 +17,5 @@ execute if score wingwd_steps ANGOR matches 3 in minecraft:the_nether run functi
 execute if score wingwd_steps ANGOR matches 4 in minecraft:the_nether run function att2:physicmod/reg2/angor_palace/wing_wd/mech1_step4
 execute if score wingwd_steps ANGOR matches 5 in minecraft:the_nether run function att2:physicmod/reg2/angor_palace/wing_wd/mech1_step5
 execute if score wingwd_steps ANGOR matches 6 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/palace/wing_w_down/mech1/step_end
+#return 1->make command block runing
+return 1

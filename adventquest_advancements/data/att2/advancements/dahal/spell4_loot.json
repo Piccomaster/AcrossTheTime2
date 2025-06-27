@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:writable_book"
+            "id": "minecraft:writable_book"
         },
-        "title": {"translate":"Power Ray"},
-        "description": {"translate":"Find Power Ray spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell4_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell4_loot"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

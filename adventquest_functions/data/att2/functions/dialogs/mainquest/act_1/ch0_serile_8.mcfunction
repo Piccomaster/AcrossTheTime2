@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Os eventos que você acabou de testemunhar são apenas os primeiros sinais dessa maldição. Não se preocupe, como você é mortal, você não cairá em loucura, como Namégot e Ranégot antes de você... No seu caso, você deve morrer em algumas semanas.","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"你刚才经历的事情只是诅咒的开始。别担心，鉴于你只是普通人，你不会像Namégot和Ranégot那样陷入疯狂...你只会在几周后死去。","color":"yellow","italic":true}]}

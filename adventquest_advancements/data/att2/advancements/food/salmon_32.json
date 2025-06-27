@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_salmon"
+            "id": "minecraft:cooked_salmon"
         },
-        "title": {"translate":"Salmon addict"},
-        "description": {"translate":"Eat 32 cooked salmons"},
+        "title": {"translate":"att2.advancement.food.title.salmon_32"},
+        "description": {"translate":"att2.advancement.food.description.salmon_32"},
         "frame": "challenge"
     },
     "parent": "att2:food/salmon_16",

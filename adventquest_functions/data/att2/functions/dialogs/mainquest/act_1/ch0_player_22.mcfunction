@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Que horas são? Oh, pensei que já tinha entregado esta carta importante no tribunal. Bem, agora que estou acordado, não conseguirei voltar a dormir. Preciso trazer esta carta...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"现在几点了？噢，我还以为我已经把这封重要的信送到法院了。好吧，既然已经醒了，我也没法睡回笼觉了。我得带上这封信...","color":"aqua"}]}

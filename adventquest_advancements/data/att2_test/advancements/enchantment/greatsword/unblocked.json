@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "greatsword_blocked": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#minecraft:swords",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "att2_enchantment:greatsword"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

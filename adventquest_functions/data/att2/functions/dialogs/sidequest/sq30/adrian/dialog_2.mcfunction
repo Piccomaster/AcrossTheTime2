@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","
 
 
 function att2:dialogs/sidequest/sq30/adrian/player_proposal_1/choice_1
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"来得正好，我想和你谈谈在宫殿中发生的一起盗窃案：我们著名的建筑师Corbus的宫殿设计图被人偷走了。这些计划和Ryliath秘密档案的一部分，其中包括了城市和宫殿中的那些秘密通道，这些设计图十分重要，你能帮我我们找回来吗？你可以得到国王承诺的奖励！ ","color":"dark_aqua"}]}

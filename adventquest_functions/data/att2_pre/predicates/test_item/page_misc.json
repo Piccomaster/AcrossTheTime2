@@ -1,0 +1,29 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "type": "minecraft:item",
+            "predicate": {
+                "nbt": "{Item:{components:{'minecraft:custom_data':{CHEST:'page_ne'}}}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "type": "minecraft:item",
+            "predicate": {
+                "nbt": "{Item:{components:{'minecraft:custom_data':{CHEST:'page_pr'}}}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "type": "minecraft:item",
+            "predicate": {
+                "nbt": "{Item:{components:{'minecraft:custom_data':{CHEST:'drop'}}}}"
+            }
+        }
+    ]
+}

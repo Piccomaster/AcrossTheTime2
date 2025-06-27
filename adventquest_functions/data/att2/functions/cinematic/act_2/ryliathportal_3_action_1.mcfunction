@@ -18,3 +18,5 @@ function att2:cinematic/sidequest/11/frowin_nepheris/update_dialog
 function att2:cinematic/sidequest/20/chiara/update_dialog
 
 execute as @a run function att2:gameplay/leveling/add_1_skillpoint
+#return 1->make command block runing
+return 1

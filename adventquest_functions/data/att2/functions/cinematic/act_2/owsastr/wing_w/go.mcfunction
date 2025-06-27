@@ -73,7 +73,7 @@ execute if score wingw OWSASTR matches 190..259 run particle minecraft:flame -50
 execute if score wingw OWSASTR matches 190..259 run particle minecraft:end_rod -5012.0 78 -4381 0 2 2 0 2
 execute if score wingw OWSASTR matches 200 positioned -5013 77 -4381 run function att2:sound/misc/burning
 execute if score wingw OWSASTR matches 240 run function att2:physicmod/reg1/owsastr/wingw_doorburning0
-execute if score wingw OWSASTR matches 240..259 run particle minecraft:block minecraft:coal_block -5012.0 78 -4381 0 2 2 0 2
+execute if score wingw OWSASTR matches 240..259 run particle block{block_state:"minecraft:coal_block"} -5012.0 78 -4381 0 2 2 0 2
 execute if score wingw OWSASTR matches 259 run function att2:physicmod/reg1/owsastr/wingw_doorburning1
 
 #=======================#
@@ -82,3 +82,5 @@ execute if score wingw OWSASTR matches 259 run function att2:physicmod/reg1/owsa
 
 execute if score wingw OWSASTR matches 1..80 run scoreboard players add wingw OWSASTR 1
 execute if score wingw OWSASTR matches 82..259 run scoreboard players add wingw OWSASTR 1
+#return 1->make command block runing
+return 1

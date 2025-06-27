@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui está o livro, está escrito na capa: 'Visita Interiora Terrae Rectificando Invenies Occultum Lapidem'","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这有本书，封面上写着：“Visita_Interiora_Terrae_Rectificando_Invenies_Occultum_Lapidem（此处是拉丁文，大概意思是：寻访真我，贤明自现）”","color":"aqua"}]}

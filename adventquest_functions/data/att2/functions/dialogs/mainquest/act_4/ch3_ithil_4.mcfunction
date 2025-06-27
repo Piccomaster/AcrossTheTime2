@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° इथिल : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Sim, eu sei, vi você sair com uma gema do tempo e gostaria de saber onde encontrar outra. Aqui está, à minha direita, a entrada para o portal que leva à dimensão de Ouranos: outro reino que provavelmente contém o que você está procurando...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"是的，我知道，我看到了你带着一颗时间宝石成功返程，现在你想知道另外一颗的下落对吧。在我右边，就是通往Ouranos维度的传送门入口，在那个王国里可能就有你要找的东西...","color":"dark_aqua"}]}

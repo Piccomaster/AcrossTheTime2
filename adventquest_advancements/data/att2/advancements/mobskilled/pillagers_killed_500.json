@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:conduit"
+            "id": "minecraft:conduit"
         },
-        "title": {"translate":"Pillager Genocider"},
-        "description": {"translate":"Kill 500 Pillagers"},
+        "title": {"translate":"att2.advancement.mobskilled.title.pillagers_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.pillagers_killed_500"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/pillagers_killed_250",

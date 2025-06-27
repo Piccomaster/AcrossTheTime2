@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"इसे हासिल करने 
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"Para conseguir isso... vou te fazer... uma pergunta muito simples...","color":"dark_aqua","italic":true}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":"想实现这个...要问你...很简单...","color":"dark_aqua","italic":true}

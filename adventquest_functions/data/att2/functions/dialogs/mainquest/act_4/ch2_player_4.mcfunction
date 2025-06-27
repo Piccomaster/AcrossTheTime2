@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Este necromante não parece muito feliz em me ver. Se ele acha que está me impressionando, ele está enganado! Além disso, ao destruir a ponte, esse idiota abriu uma brecha que revela um caminho nas ruínas...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这个死灵法师不太待见我啊， 但如果他认为这样就能使我退却， 那就大错特错了！ 更何况他自作聪明的举动毁掉了桥， 在废墟中有一条通道因此显露出来了...","color":"aqua"}]}

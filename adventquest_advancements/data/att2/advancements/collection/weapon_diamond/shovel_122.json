@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_shovel"
-        },
-        "title": {"translate":"Sordide destin"},
-        "description": {"translate":"You will never clean yourself of the blood, which you shed with cruelty."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel"
     },
-    "parent": "att2:collection/weapon_diamond/shovel_117",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_shovel_122": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§5Sordide destin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jamais tu ne te laveras du sang,\\\"}\",\"{\\\"text\\\":\\\"§7que tu as versé avec cruauté.\\\"}\",\"{\\\"text\\\":\\\"§7You will never clean yourself of the blood,\\\"}\",\"{\\\"text\\\":\\\"§7which you shed with cruelty.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a2 §7DAR§c-1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.shovel_122"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.shovel_122"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/shovel_117",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_shovel_122": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "122"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

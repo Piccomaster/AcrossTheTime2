@@ -25,3 +25,15 @@ scoreboard players set cap7 SPELL5_LVL 550
 scoreboard players set cap8 SPELL5_LVL 1000
 scoreboard players set cap9 SPELL5_LVL 2000
 scoreboard players set cap10 SPELL5_LVL 4000
+
+#set cooldown score | cooldown/200 -> second
+scoreboard players set lvl1 COOLDOWN5 2400
+scoreboard players set lvl2 COOLDOWN5 2200
+scoreboard players set lvl3 COOLDOWN5 2000
+scoreboard players set lvl4 COOLDOWN5 1800
+scoreboard players set lvl5 COOLDOWN5 1600
+scoreboard players set lvl6 COOLDOWN5 1400
+scoreboard players set lvl7 COOLDOWN5 1200
+scoreboard players set lvl8 COOLDOWN5 1100
+scoreboard players set lvl9 COOLDOWN5 1000
+scoreboard players set lvl10 COOLDOWN5 750

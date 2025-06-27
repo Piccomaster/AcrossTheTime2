@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lioras : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Você conseguiu abrir a entrada para o subterrâneo? É fascinante, o grimório estava certo. Eu adoraria acompanhá-lo, mas se você me disser que está infestado por seres poderosos, eu ficarei aqui. Eu valorizo minha vida...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"你成功打开了那个神秘的地下入口？？？这真是令人着迷，看来书籍记载的没错。我真的很想跟着你一起去探索，但是如果那里充满了危险，那我还是留在这里珍惜我的生命吧...","color":"dark_aqua"}]}

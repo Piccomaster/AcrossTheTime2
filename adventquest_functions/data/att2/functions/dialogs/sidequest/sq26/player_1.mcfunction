@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Certamente é a entrada para as catacumbas de que Emerald me falou. Está trancado. Alguém deve ter a chave, talvez um zelador. Vamos procurar uma casa ao redor do cemitério...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这里肯定是Emerald告诉我的地下墓穴的入口。它被人锁住了，也许这个墓穴的看护人有钥匙。我得在墓地附近找找房子...","color":"aqua"}]}

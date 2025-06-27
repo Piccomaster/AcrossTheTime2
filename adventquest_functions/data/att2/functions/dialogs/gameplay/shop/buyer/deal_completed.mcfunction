@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपके आगमन के लि
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Obrigado pela sua visita.","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"谢谢惠顾","color":"gray"}

@@ -94,3 +94,8 @@ tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","colo
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O aluno está curioso demais sobre coisas que não o concernem e sua feiura em si é uma falta de respeito para com seu generoso mestre.","color":"dark_aqua"}]}
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*em voz baixa* Que filho da mãe... Mas as intenções dele realmente são preocupantes...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"只是好奇，你打算如何让不敬的人付出代价？","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"学徒对与他无关的事情过于好奇了，他的丑陋本身就是对他慷慨的师傅的大不敬。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*小声说*真是个混蛋...但他的意图真的很令人担忧...","color":"aqua"}]}

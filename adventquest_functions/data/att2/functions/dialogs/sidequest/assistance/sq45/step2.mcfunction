@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- बाहरी समय से �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Memórias de um tempo distante -°- : ","color":"gray","extra":[{"text":"Encontrei um emblema estranho. Deve pertencer a um pequeno grupo misterioso que certamente ainda está escondido nesta cidade...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 来自外时的记忆 -°- : ","color":"gray","extra":[{"text":"我找到一个奇特的徽章，它们应该属于藏在这片废墟之中的神秘教徒们。","color":"aqua","italic":true}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_chestplate"
+            "id": "minecraft:diamond_chestplate"
         },
-        "title": {"translate":"Diamond armor break"},
-        "description": {"translate":"Destroy any diamond armor in battle"}
+        "title": {"translate":"att2.advancement.combat.title.break_diamond_armor"},
+        "description": {"translate":"att2.advancement.combat.description.break_diamond_armor"}
     },
     "parent": "att2:combat/break_armor",
     "rewards": {

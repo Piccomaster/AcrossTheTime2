@@ -62,3 +62,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Carmen Ysta : ","color":"green"
 function att2:dialogs/sidequest/sq4/carmen_ysta/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq4/carmen_ysta/player_proposal_1/choice_2
 scoreboard players set carmen_ysta_PNJ DIALOG 2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"冒险者你好，我叫Carmen_Ysta，我负责管理Ryliath的杂货铺，在这里你能买到各种食物和小零食。或者，如果你想找个活干，我需要一些蘑菇来做出蘑菇煲的配方...而且，如果你帮我的话，我还可以给你几碗，你愿意帮助我么？ ","color":"dark_aqua"}]}

@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Sim... A guerra finalmente acabou, os mortais pararam de atacar os Eternäns... Vai demorar muito tempo até que os ressentimentos desapareçam, é verdade... Mas agora tenho muita esperança.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"是的...战争终于结束了，凡人们停止了对Eternän的攻击...但说实话，双方的隔阂还需要相当长的时间才能释怀...但我对此仍旧充满希望。","color":"dark_aqua"}]}

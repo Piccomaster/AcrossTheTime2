@@ -3,5 +3,6 @@
 #Obtain item crossbow_245          #
 #####################################
 
-give @s minecraft:crossbow{EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",Effect:"res_1",display:{Name:"\"§7Mort-bois\"","Lore":["{\"text\":\"§7Le bois, ça pourrit...\"}","{\"text\":\"§7Wood, it rots...\"}","{\"text\":\"§7RES§c-1\"}"]},Damage:305,AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:crossbow[custom_data={EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",RES:-1,Weapon:"245"},custom_name={translate:"weapon245.name"},lore=[{translate:"weapon245.lore.1"},{translate:"weapon245.stat"}],max_damage=460,damage=305]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

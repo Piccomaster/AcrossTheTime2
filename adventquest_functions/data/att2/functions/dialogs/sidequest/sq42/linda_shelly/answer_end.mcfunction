@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"*Desmoronada* Não!... Você tem certeza? Ele estava usando uma camisa e calças verdes. Ele... nunca deveria ter ouvido esse maldito guia... Ele encheu a cabeça do meu Sylvain com promessas de maravilhas nesta mansão, que ele havia garantido que estava sem perigo... Ele, por outro lado, voltou vivo... O covarde, ele está na vila e se recusou a falar comigo! Por favor, vá falar com ele. O nome dele é Ashley Williams...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"*崩溃*不!...你确定吗？他穿着一件绿色的衬衫和裤子。他...根本就不该听这个混蛋向导的话...他向Sylvain承诺过，在Sathnok宅邸里有一些值钱的东西，还保证过没有任何危险...可结果呢，他到是安然无恙地回来了，把Sylvain丢在那边...这个胆小鬼缩在村子里面不肯跟我说话！我求求你，去和他谈谈。他的名字是Ashley_Williams...","color":"dark_aqua"}]}

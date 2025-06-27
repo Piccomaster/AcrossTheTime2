@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_chestplate"
-        },
-        "title": {"translate":"Jaseran de câlisse"},
-        "description": {"translate":"It's throwing a tantrum. Yes, it is."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
     },
-    "parent": "att2:collection/armor_netherite/chestplate_275",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_chestplate_276": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§2Jaseran de câlisse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7C'est avoir la montée de lait. Oh que oui...\\\"}\",\"{\\\"text\\\":\\\"§7It's throwing a tantrum. Yes, it is.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.chestplate_276"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.chestplate_276"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/chestplate_275",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_chestplate_276": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "276"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

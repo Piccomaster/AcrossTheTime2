@@ -46,3 +46,6 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"आपकी सामग्र
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Seu estoque está no éter de outro mundo... Você não pode acessá-lo desta dimensão.","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"你的储物箱位于另一个维度中...你无法在这个维度中召唤它。","color":"gray","italic":true}

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- लाभ का चाल -°- : 
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O isco do ganho -°- : ","color":"gray","extra":[{"text":"Ashley gostaria de ter outra chance de se redimir. Ele me disse que preparou um sistema ferroviário na mina de Kert para abrir a entrada de um tesouro enterrado cujo valor poderia ajudar Linda. Aparentemente, ela tem dívidas, o dinheiro certamente poderia ajudá-la... Vou tentar encontrar este tesouro e confiar a ela parte dele.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 利益的诱饵 -°- : ","color":"gray","extra":[{"text":"Ashley希望我能给他一次弥补的机会，他在Kert沙漠的矿井里安置了一些铁轨以便能顺利进入宝藏库，里面的宝藏应该能帮Linda解决燃眉之急。的确，Linda欠下的债不是个小数目，有了这些钱她就能改善现状。我要想办法进入金库。","color":"aqua","italic":true}]}

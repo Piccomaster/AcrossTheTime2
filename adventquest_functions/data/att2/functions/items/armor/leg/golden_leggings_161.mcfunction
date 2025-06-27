@@ -3,5 +3,6 @@
 #Obtain item golden_leggings_161          #
 #####################################
 
-give @s minecraft:golden_leggings{EquipmentType:"armor",Rarity:"leg",Manufacturer:"eternan",Shop:"buy",Effect:"str1_spd3_dar1",display:{Name:"\"§6Mustésèv gal azazel\"","Lore":["{\"text\":\"§7D'aucuns disent qu'un roi ne marche pas,\"}","{\"text\":\"§7il se meut, porté par sa Majesté.\"}","{\"text\":\"§7Some say that a king does not walk,\"}","{\"text\":\"§7he moves, carried by his majesty.\"}","{\"text\":\"§7STR§a1 §7SPD§a3 §7DAR§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.3,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.48,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:golden_leggings[custom_data={EquipmentType:'armor',Rarity:'leg',Manufacturer:'eternan',Shop:'buy',STR:1,SPD:3,DAR:1,Armor:'161'},custom_name={translate:'armor161.name'},lore=[{translate:'armor161.lore.1'},{translate:'armor161.lore.2'},{translate:'armor161.stat'}],max_damage=110,damage=0,enchantments={'protection':3,'unbreaking':3},attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:9.3},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:3.48}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

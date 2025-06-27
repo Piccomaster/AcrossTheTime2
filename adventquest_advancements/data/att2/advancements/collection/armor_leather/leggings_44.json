@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Braies propres"},
-        "description": {"translate":"Anonymity is priceless."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather/leggings_37",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_leggings_44": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Braies propres\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'anonymat n'a pas de prix.\\\"}\",\"{\\\"text\\\":\\\"§7Anonymity is priceless.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7HAS§c-2\\\"}\"],color:5645236}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_44"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_44"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/leggings_37",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_leggings_44": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "44"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

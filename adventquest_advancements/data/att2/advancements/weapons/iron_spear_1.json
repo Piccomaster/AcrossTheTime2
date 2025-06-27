@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_hoe"
+            "id": "minecraft:iron_hoe"
         },
-        "title": {"translate":"Iron spear strike"},
-        "description": {"translate":"Strike once with an iron spear"}
+        "title": {"translate": "att2.advancement.weapons.title.iron_spear_1"},
+        "description": {"translate": "att2.advancement.weapons.description.iron_spear_1"}
     },
     "parent": "att2:weapons/root",
     "rewards": {

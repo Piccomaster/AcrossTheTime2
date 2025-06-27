@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Course éperdue"},
-        "description": {"translate":"Get away, run away, fly away, lead me astray, to dreamer's hideaway"},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_billgart/leather/leggings_233",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "leather_leggings_246": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§6Course éperdue\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sauvez-vous, fuyez, envolez-vous,\\\"}\",\"{\\\"text\\\":\\\"§7égarez-moi, dans la cachette du rêveur\\\"}\",\"{\\\"text\\\":\\\"§7Get away, run away, fly away,\\\"}\",\"{\\\"text\\\":\\\"§7lead me astray, to dreamer's hideaway\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7DAR§a3\\\"}\"],color:12470537}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.leggings_246"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.leggings_246"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/leather/leggings_233",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_leggings_246": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "246"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

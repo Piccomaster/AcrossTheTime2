@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Segundo Indra Lorth, uma grande estrutura nos pântanos de Owsästr abrigaria uma gema espacial. Eu preciso ir para o sul, mas ainda tenho um longo caminho a percorrer. Indra me aconselhou a ir ao estábulo de Méleïm e pegar um cavalo para facilitar meus deslocamentos.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"据Indra_Lorth所说，Owsästr沼泽的一个巨型遗迹里应该藏有空间宝石，所以现在我需要往南出发前往那片沼泽。然而，沼泽离这里很远—Indra建议我先在Méleïm镇的马厩那里买一匹马，这样赶路就相对容易了。","color":"aqua"}]}

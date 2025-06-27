@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:item_frame"
+            "id": "minecraft:item_frame"
         },
-        "title": {"translate":"WORLD CHAMPION ARENA"},
-        "description": {"translate":"Complete all arenas twice."},
+        "title": {"translate":"att2.advancement.challenge.title.arena_2"},
+        "description": {"translate":"att2.advancement.challenge.description.arena_2"},
         "frame": "goal"
     },
     "parent": "att2:challenge/arena_1",

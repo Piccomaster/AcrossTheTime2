@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Colère de Sôrän"},
-        "description": {"translate":"Let us break this peace so quiet, that even the eternal mornings may fear us."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_ouranos/leather/helmet_248",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_chestplate_249": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Colère de Sôrän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brisons cette paix si tranquille, pour\\\"}\",\"{\\\"text\\\":\\\"§7que même les matins éternels nous craignent.\\\"}\",\"{\\\"text\\\":\\\"§7Let us break this peace so quiet, that\\\"}\",\"{\\\"text\\\":\\\"§7even the eternal mornings may fear us.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7HUN§c-1\\\"}\"],color:16514979}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.title.chestplate_249"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.description.chestplate_249"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/leather/helmet_248",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_chestplate_249": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "249"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

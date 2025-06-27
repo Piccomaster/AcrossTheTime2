@@ -17,3 +17,5 @@ execute as @p[distance=..15] run function att2:dialogs/sidequest/sq33/mortimer_2
 xp add @a 5000 points
 execute if score choice SQ33 matches 1 run scoreboard players add @a CHRONOTON 400
 execute if score choice SQ33 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+400 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+#return 1->make command block runing
+return 1

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Estas colunas de ar quente são correntes ascendentes poderosas. Elas poderão me permitir subir mais alto. No entanto, estou lutando para ser levado pela corrente. Talvez eu devesse ter algo ou um feitiço que possa me deixar mais leve...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这些热空气柱形成了强大的上升气流，它可以让我飞起来。但是我很容易被气流冲的晕头转向。也许有什么特殊物品能让我保持平衡...","color":"aqua"}]}

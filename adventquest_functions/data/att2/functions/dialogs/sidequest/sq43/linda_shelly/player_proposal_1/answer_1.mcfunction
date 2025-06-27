@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Se ele acha que esses Chronotons vão me fazer esquecer tudo isso... Obrigada, mas agora por favor me deixe sozinha...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"他居然认为这点Chronotons会让我忘却这些痛苦...谢谢你，但是现在请你先离开，让我冷静一下...","color":"dark_aqua"}]}

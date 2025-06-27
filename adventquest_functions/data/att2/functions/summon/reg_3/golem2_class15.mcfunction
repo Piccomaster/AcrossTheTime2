@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon golem class_15 region_3  		       	 #
+
 ##################################################
 
-summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS15","Reg3","Undead"],Silent:1,Attributes:[{Name:generic.movement_speed,Base:0.2}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:stone_sword",Count:1},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:5,Patterns:[{Pattern:ss,Color:5},{Pattern:gru,Color:13},{Pattern:gra,Color:13},{Pattern:tt,Color:7},{Pattern:tt,Color:13},{Pattern:bt,Color:7},{Pattern:bt,Color:13},{Pattern:mr,Color:7},{Pattern:mr,Color:13},{Pattern:flo,Color:7},{Pattern:flo,Color:13},{Pattern:bts,Color:8},{Pattern:bts,Color:13},{Pattern:tts,Color:8},{Pattern:tts,Color:13}]}}}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:4218913}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:4218913}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:4218913}}},{id:"minecraft:shears",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:projectile_protection",lvl:9}],CustomModelData:10010007,Unbreakable:1}}]}
+
+
+summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS15","Reg3","Undead"],Silent:1,attributes:[{id:movement_speed,base:0.2}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:stone_sword",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:lime,banner_patterns:[{pattern:small_stripes,color:lime},{pattern:gradient_up,color:green},{pattern:gradient,color:green},{pattern:triangle_top,color:gray},{pattern:triangle_top,color:green},{pattern:triangle_bottom,color:gray},{pattern:triangle_bottom,color:green},{pattern:rhombus,color:gray},{pattern:rhombus,color:green},{pattern:flower,color:gray},{pattern:flower,color:green},{pattern:triangles_bottom,color:light_gray},{pattern:triangles_bottom,color:green},{pattern:triangles_top,color:light_gray},{pattern:triangles_top,color:green}]}},feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:4218913}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:4218913}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:4218913}},head:{id:"minecraft:shears",count:1,components:{enchantments:{"minecraft:protection":5,"minecraft:projectile_protection":9},custom_model_data:{floats:[10010007]},unbreakable:1}}}}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"°-° युनि : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"°-° Yuni : ","color":"green","extra":[{"text":"Obrigado por trazer os ''Pantalon''.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Yuni : ","color":"green","extra":[{"text":"谢谢您将“Pantalon”送来，辛苦了。","color":"dark_aqua"}]}

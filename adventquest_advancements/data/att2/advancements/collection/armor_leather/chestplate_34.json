@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Tunique de paysan"},
-        "description": {"translate":"No projects, no trouble."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_leather/chestplate_27",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_chestplate_34": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§2Tunique de paysan\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas de projet, pas d'ennuis.\\\"}\",\"{\\\"text\\\":\\\"§7No projects, no trouble.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"],color:14021098}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.chestplate_34"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.chestplate_34"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/chestplate_27",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_chestplate_34": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "34"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

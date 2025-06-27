@@ -3,6 +3,7 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:diamond_pickaxe{EquipmentType:"meleeWeapon",Rarity:"epi_esc",Manufacturer:"delightful",Effect:"str3_res1_her_2",display:{Name:"\"§dCataclysme\"","Lore":["{\"text\":\"§7Contemplez mon œuvre,\"}","{\"text\":\"§7ô puissants, et désespérez !\"}","{\"text\":\"§7Look on my works, Ye Mighty,\"}","{\"text\":\"§7and despair!\"}","{\"text\":\"§7STR§a3 §7RES§a1 §7HER§c-2\"}"]},Damage:784,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:52.1,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.8200000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:diamond_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",STR:3,RES:1,HER:-2,Weapon:"169"},custom_name={translate:"weapon169.name"},lore=[{translate:"weapon169.lore.1"},{translate:"weapon169.lore.2"},{translate:"weapon169.stat"}],max_damage=1560,damage=784,enchantments={"169":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:52.1},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.82}]]
+
 
 advancement grant @s only att2:treasure/sovereign/diamond_pickaxe_169

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Você não é o herói de Tellurön mencionado nas lendas? De qualquer forma, se você não confia em mim, não poderei ajudá-lo!","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"难道你并非那位被口口传颂的Tellurön的英雄？那好吧，如果你不相信我，那么我也不会帮你！","color":"yellow","italic":true}]}

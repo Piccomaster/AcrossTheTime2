@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[पहाड़ी से पुल �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Do cume à ponte]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[从山脊到桥]","color":"gold"}

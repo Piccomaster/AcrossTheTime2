@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira me poupou... Eu poderia estar enganado sobre ele. Agora tenho que ir para Angband através do portal na sala revelada em sua casa, para conhecer um tal de Relgon.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira宽恕了我...我可能看错他了。现在，我需要穿过在他房间里的传送门前往Angband，去见一个叫Relgon的人。","color":"aqua"}]}

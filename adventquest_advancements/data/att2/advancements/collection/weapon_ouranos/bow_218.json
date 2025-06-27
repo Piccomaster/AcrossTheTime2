@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Zéphyr"},
-        "description": {"translate":"Untiringly, carry dreams to wonderful horizons."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_ouranos/bow_217",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "bow_218": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§5Zéphyr\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inlassablement, emporte les rêves\\\"}\",\"{\\\"text\\\":\\\"§7vers des horizons merveilleux.\\\"}\",\"{\\\"text\\\":\\\"§7Untiringly, carry dreams\\\"}\",\"{\\\"text\\\":\\\"§7to wonderful horizons.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a1 §7LUC§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.bow_218"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.bow_218"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/bow_217",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "bow_218": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "218"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

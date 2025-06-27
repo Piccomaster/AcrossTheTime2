@@ -25,7 +25,7 @@ execute if score Real0 TIMER matches 250 at @a run function att2:sound/legendary
 execute if score Real0 TIMER matches 270 run function att2:physicmod/reg1/vonaheim/wing_e/mech5_ice3
 execute if score Real0 TIMER matches 300..399 as @a[gamemode=spectator] run tp @s -5615 121 -6387 -90 -80
 execute if score Real0 TIMER matches 300..309 as @a[x=-5616,y=115,z=-6386,dx=4,dy=48,dz=-5] at @s run function att2:sound/misc/wind
-execute if score Real0 TIMER matches 300..399 as @a[x=-5614,y=140,z=-6387,distance=..40] at @s run particle minecraft:item minecraft:ice -5614 115 -6387 1 20 1 1 50 force @s
+execute if score Real0 TIMER matches 300..399 as @a[x=-5614,y=140,z=-6387,distance=..40] at @s run particle minecraft:item{item:"minecraft:ice"} -5614 115 -6387 1 20 1 1 50 force @s
 execute if score Real0 TIMER matches 320 positioned -5614 120 -6377 run function att2:sound/door/stone_trap1
 execute if score Real0 TIMER matches 320 at @a run function att2:sound/misc/energy_dynamic
 execute if score Real0 TIMER matches 320 run function att2:physicmod/reg1/vonaheim/wing_e/mech5_trap1
@@ -41,3 +41,5 @@ execute if score Real0 TIMER matches 401 run scoreboard players set Mainquest SI
 
 execute if score Real0 TIMER matches 401.. run setblock -5562 113 -6366 minecraft:air
 execute if score Real0 TIMER matches ..400 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

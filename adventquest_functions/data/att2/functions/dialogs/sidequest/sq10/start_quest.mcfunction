@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[संक्रमित खेत]","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Campos infestados]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[怪物田]","color":"gold"}

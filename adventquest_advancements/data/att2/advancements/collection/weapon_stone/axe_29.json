@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_axe"
-        },
-        "title": {"translate":"Trillon"},
-        "description": {"translate":"Insatiable, he gathered a hundred souls before running to his death."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe"
     },
-    "parent": "att2:collection/weapon_stone/axe_25",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "wooden_axe_29": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_axe"],
-                    "nbt": "{display:{Name:\"\\\"§6Trillon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Insatiable, il amassa cent âmes\\\"}\",\"{\\\"text\\\":\\\"§7puis courut à sa perte.\\\"}\",\"{\\\"text\\\":\\\"§7Insatiable, he gathered a hundred souls\\\"}\",\"{\\\"text\\\":\\\"§7before running to his death.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.axe_29"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.axe_29"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/axe_25",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "wooden_axe_29": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "29"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

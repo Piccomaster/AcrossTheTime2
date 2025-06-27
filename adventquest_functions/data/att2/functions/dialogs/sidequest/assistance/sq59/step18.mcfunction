@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Agora eu sei a origem da anomalia, mas o que experimentei ainda está sem resposta... Eu devo passar pela provação que Mercurius me contou! Basil Valentin me disse que eu saberia mais com a pedra que ele me deu, mas primeiro eu devo encontrar um livro na biblioteca do palácio de Ryliath e fazer algum tipo de ritual.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我已经知道了异常现象的起源，但这仍然没法解释我经历的这些事情...我必须完成Mercurius跟我提及的那个考验！Basil_Valentin告诉我，使用他给我的那块石头，我就能知道更多信息。但首先，我必须在Ryliath宫殿的图书馆里找到一本书并进行某种仪式。","color":"aqua","italic":true}]}

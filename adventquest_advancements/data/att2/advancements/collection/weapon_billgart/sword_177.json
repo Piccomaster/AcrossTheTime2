@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_sword"
-        },
-        "title": {"translate":"Rark ul   "},
-        "description": {"translate":"Disappointing."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword"
     },
-    "parent": "att2:collection/weapon_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_sword_177": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Rark ul\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Décevant.\\\"}\",\"{\\\"text\\\":\\\"§7Disappointing.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.sword_177"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.sword_177"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_sword_177": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "177"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

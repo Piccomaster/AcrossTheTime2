@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Eternän Soldier : ","color":"gr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"Hermona me disse que devo minha vida ao bandagem que você trouxe para ela! Quero te agradecer, pegue esta arma, eu te dou de presente.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"Hermona告诉我，因为你带来的绷带才能保住我的性命！我得好好谢谢你，这些装备你拿着吧。","color":"dark_aqua"}]}

@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Marta : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"Então, você gosta de Méleïm? O som das ondas quebrando contra as rochas é muito relaxante e o cheiro do mar é muito revigorante, não é?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"喜欢Méleïm吗？也希望您能喜欢那套房子，相信它能给您绝无仅有的体验—浪击岩石之声，放松您的身心海散；清咸之气，治愈您的心灵！","color":"dark_aqua"}]}

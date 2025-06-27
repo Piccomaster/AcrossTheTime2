@@ -24,3 +24,5 @@ execute if score choice SQ20 matches 2 run tellraw @a {"text":"* ","color":"dark
 function att2:cinematic/sidequest/20/chiara/move_pnj_1
 
 advancement grant @a only att2:quest/sq20
+#return 1->make command block runing
+return 1

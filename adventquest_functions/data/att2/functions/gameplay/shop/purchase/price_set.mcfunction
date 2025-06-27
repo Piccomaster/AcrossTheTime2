@@ -2234,66 +2234,69 @@ scoreboard players set tropical_fish PRICES 2
 scoreboard players operation tropical_fish PRICES *= discount discount_calc
 scoreboard players operation tropical_fish PRICES /= 100 discount_calc
 #horse
-scoreboard players set class1_0 PRICES 20
-scoreboard players operation class1_0 PRICES *= discount discount_calc
-scoreboard players operation class1_0 PRICES /= 100 discount_calc
-scoreboard players set class2_0 PRICES 40
-scoreboard players operation class2_0 PRICES *= discount discount_calc
-scoreboard players operation class2_0 PRICES /= 100 discount_calc
-scoreboard players set class3_0 PRICES 60
-scoreboard players operation class3_0 PRICES *= discount discount_calc
-scoreboard players operation class3_0 PRICES /= 100 discount_calc
-scoreboard players set class3_4 PRICES 30
-scoreboard players operation class3_4 PRICES *= discount discount_calc
-scoreboard players operation class3_4 PRICES /= 100 discount_calc
-scoreboard players set class4_0 PRICES 100
-scoreboard players operation class4_0 PRICES *= discount discount_calc
-scoreboard players operation class4_0 PRICES /= 100 discount_calc
-scoreboard players set class4_4 PRICES 50
-scoreboard players operation class4_4 PRICES *= discount discount_calc
-scoreboard players operation class4_4 PRICES /= 100 discount_calc
-scoreboard players set class5_5 PRICES 70
-scoreboard players operation class5_5 PRICES *= discount discount_calc
-scoreboard players operation class5_5 PRICES /= 100 discount_calc
-scoreboard players set class5_8 PRICES 80
-scoreboard players operation class5_8 PRICES *= discount discount_calc
-scoreboard players operation class5_8 PRICES /= 100 discount_calc
-scoreboard players set class6_5 PRICES 90
-scoreboard players operation class6_5 PRICES *= discount discount_calc
-scoreboard players operation class6_5 PRICES /= 100 discount_calc
-scoreboard players set class6_8 PRICES 100
-scoreboard players operation class6_8 PRICES *= discount discount_calc
-scoreboard players operation class6_8 PRICES /= 100 discount_calc
-scoreboard players set class7_7 PRICES 50
-scoreboard players operation class7_7 PRICES *= discount discount_calc
-scoreboard players operation class7_7 PRICES /= 100 discount_calc
-scoreboard players set class8_1 PRICES 250
-scoreboard players operation class8_1 PRICES *= discount discount_calc
-scoreboard players operation class8_1 PRICES /= 100 discount_calc
-scoreboard players set class8_6 PRICES 150
-scoreboard players operation class8_6 PRICES *= discount discount_calc
-scoreboard players operation class8_6 PRICES /= 100 discount_calc
-scoreboard players set class9_9 PRICES 160
-scoreboard players operation class9_9 PRICES *= discount discount_calc
-scoreboard players operation class9_9 PRICES /= 100 discount_calc
-scoreboard players set class10_1 PRICES 100
-scoreboard players operation class10_1 PRICES *= discount discount_calc
-scoreboard players operation class10_1 PRICES /= 100 discount_calc
-scoreboard players set class10_10 PRICES 300
-scoreboard players operation class10_10 PRICES *= discount discount_calc
-scoreboard players operation class10_10 PRICES /= 100 discount_calc
-scoreboard players set class11_6 PRICES 200
-scoreboard players operation class11_6 PRICES *= discount discount_calc
-scoreboard players operation class11_6 PRICES /= 100 discount_calc
-scoreboard players set class12_2 PRICES 350
-scoreboard players operation class12_2 PRICES *= discount discount_calc
-scoreboard players operation class12_2 PRICES /= 100 discount_calc
-scoreboard players set class12_11 PRICES 400
-scoreboard players operation class12_11 PRICES *= discount discount_calc
-scoreboard players operation class12_11 PRICES /= 100 discount_calc
-scoreboard players set class16_3 PRICES 600
-scoreboard players operation class16_3 PRICES *= discount discount_calc
-scoreboard players operation class16_3 PRICES /= 100 discount_calc
+scoreboard players set camel_class0_0 PRICES 1000
+scoreboard players operation camel_class0_0 PRICES *= discount discount_calc
+scoreboard players operation camel_class0_0 PRICES /= 100 discount_calc
+scoreboard players set horse_class1_0 PRICES 20
+scoreboard players operation horse_class1_0 PRICES *= discount discount_calc
+scoreboard players operation horse_class1_0 PRICES /= 100 discount_calc
+scoreboard players set horse_class2_0 PRICES 40
+scoreboard players operation horse_class2_0 PRICES *= discount discount_calc
+scoreboard players operation horse_class2_0 PRICES /= 100 discount_calc
+scoreboard players set horse_class3_0 PRICES 60
+scoreboard players operation horse_class3_0 PRICES *= discount discount_calc
+scoreboard players operation horse_class3_0 PRICES /= 100 discount_calc
+scoreboard players set horse_class3_4 PRICES 30
+scoreboard players operation horse_class3_4 PRICES *= discount discount_calc
+scoreboard players operation horse_class3_4 PRICES /= 100 discount_calc
+scoreboard players set horse_class4_0 PRICES 100
+scoreboard players operation horse_class4_0 PRICES *= discount discount_calc
+scoreboard players operation horse_class4_0 PRICES /= 100 discount_calc
+scoreboard players set horse_class4_4 PRICES 50
+scoreboard players operation horse_class4_4 PRICES *= discount discount_calc
+scoreboard players operation horse_class4_4 PRICES /= 100 discount_calc
+scoreboard players set horse_class5_5 PRICES 70
+scoreboard players operation horse_class5_5 PRICES *= discount discount_calc
+scoreboard players operation horse_class5_5 PRICES /= 100 discount_calc
+scoreboard players set horse_class5_8 PRICES 80
+scoreboard players operation horse_class5_8 PRICES *= discount discount_calc
+scoreboard players operation horse_class5_8 PRICES /= 100 discount_calc
+scoreboard players set horse_class6_5 PRICES 90
+scoreboard players operation horse_class6_5 PRICES *= discount discount_calc
+scoreboard players operation horse_class6_5 PRICES /= 100 discount_calc
+scoreboard players set horse_class6_8 PRICES 100
+scoreboard players operation horse_class6_8 PRICES *= discount discount_calc
+scoreboard players operation horse_class6_8 PRICES /= 100 discount_calc
+scoreboard players set horse_class7_7 PRICES 50
+scoreboard players operation horse_class7_7 PRICES *= discount discount_calc
+scoreboard players operation horse_class7_7 PRICES /= 100 discount_calc
+scoreboard players set horse_class8_1 PRICES 250
+scoreboard players operation horse_class8_1 PRICES *= discount discount_calc
+scoreboard players operation horse_class8_1 PRICES /= 100 discount_calc
+scoreboard players set horse_class8_6 PRICES 150
+scoreboard players operation horse_class8_6 PRICES *= discount discount_calc
+scoreboard players operation horse_class8_6 PRICES /= 100 discount_calc
+scoreboard players set horse_class9_9 PRICES 160
+scoreboard players operation horse_class9_9 PRICES *= discount discount_calc
+scoreboard players operation horse_class9_9 PRICES /= 100 discount_calc
+scoreboard players set horse_class10_1 PRICES 100
+scoreboard players operation horse_class10_1 PRICES *= discount discount_calc
+scoreboard players operation horse_class10_1 PRICES /= 100 discount_calc
+scoreboard players set horse_class10_10 PRICES 300
+scoreboard players operation horse_class10_10 PRICES *= discount discount_calc
+scoreboard players operation horse_class10_10 PRICES /= 100 discount_calc
+scoreboard players set horse_class11_6 PRICES 200
+scoreboard players operation horse_class11_6 PRICES *= discount discount_calc
+scoreboard players operation horse_class11_6 PRICES /= 100 discount_calc
+scoreboard players set horse_class12_2 PRICES 350
+scoreboard players operation horse_class12_2 PRICES *= discount discount_calc
+scoreboard players operation horse_class12_2 PRICES /= 100 discount_calc
+scoreboard players set horse_class12_11 PRICES 400
+scoreboard players operation horse_class12_11 PRICES *= discount discount_calc
+scoreboard players operation horse_class12_11 PRICES /= 100 discount_calc
+scoreboard players set horse_class16_3 PRICES 600
+scoreboard players operation horse_class16_3 PRICES *= discount discount_calc
+scoreboard players operation horse_class16_3 PRICES /= 100 discount_calc
 #misc
 #spell
 #scoreboard players set spell1 PRICES 150
@@ -2387,9 +2390,6 @@ scoreboard players operation tool_esc PRICES /= 100 discount_calc
 scoreboard players set tool_leg PRICES 900
 scoreboard players operation tool_leg PRICES *= discount discount_calc
 scoreboard players operation tool_leg PRICES /= 100 discount_calc
-scoreboard players set tool_ult PRICES 1250
-scoreboard players operation tool_ult PRICES *= discount discount_calc
-scoreboard players operation tool_ult PRICES /= 100 discount_calc
 #reparation prices
 scoreboard players set mending_com PRICES 25
 scoreboard players operation mending_com PRICES *= discount discount_calc
@@ -2446,3 +2446,124 @@ scoreboard players operation spectral_arrow_0 PRICES /= 100 discount_calc
 scoreboard players set spectral_arrow_1 PRICES 10
 scoreboard players operation spectral_arrow_1 PRICES *= discount discount_calc
 scoreboard players operation spectral_arrow_1 PRICES /= 100 discount_calc 
+#fishing##
+#rod
+scoreboard players set rod_com PRICES 100
+scoreboard players operation rod_com PRICES *= discount discount_calc
+scoreboard players operation rod_com PRICES /= 100 discount_calc 
+scoreboard players set rod_unc PRICES 150
+scoreboard players operation rod_unc PRICES *= discount discount_calc
+scoreboard players operation rod_unc PRICES /= 100 discount_calc 
+scoreboard players set rod_rar PRICES 300
+scoreboard players operation rod_rar PRICES *= discount discount_calc
+scoreboard players operation rod_rar PRICES /= 100 discount_calc 
+scoreboard players set rod_epi PRICES 500
+scoreboard players operation rod_epi PRICES *= discount discount_calc
+scoreboard players operation rod_epi PRICES /= 100 discount_calc 
+scoreboard players set rod_leg PRICES 600
+scoreboard players operation rod_leg PRICES *= discount discount_calc
+scoreboard players operation rod_leg PRICES /= 100 discount_calc 
+scoreboard players set rod_ult PRICES 900
+scoreboard players operation rod_ult PRICES *= discount discount_calc
+scoreboard players operation rod_ult PRICES /= 100 discount_calc 
+#bait
+scoreboard players set bait_com PRICES 20
+scoreboard players operation bait_com PRICES *= discount discount_calc
+scoreboard players operation bait_com PRICES /= 100 discount_calc 
+scoreboard players set bait_unc PRICES 40
+scoreboard players operation bait_unc PRICES *= discount discount_calc
+scoreboard players operation bait_unc PRICES /= 100 discount_calc 
+scoreboard players set bait_rar PRICES 60
+scoreboard players operation bait_rar PRICES *= discount discount_calc
+scoreboard players operation bait_rar PRICES /= 100 discount_calc 
+scoreboard players set bait_epi PRICES 80
+scoreboard players operation bait_epi PRICES *= discount discount_calc
+scoreboard players operation bait_epi PRICES /= 100 discount_calc 
+scoreboard players set bait_leg PRICES 100
+scoreboard players operation bait_leg PRICES *= discount discount_calc
+scoreboard players operation bait_leg PRICES /= 100 discount_calc 
+scoreboard players set bait_ult PRICES 120
+scoreboard players operation bait_ult PRICES *= discount discount_calc
+scoreboard players operation bait_ult PRICES /= 100 discount_calc 
+
+#rune craft
+scoreboard players set 1_gal PRICES 10
+scoreboard players set 1_gal_esc PRICES 0
+
+scoreboard players set 2_tha PRICES 16
+scoreboard players set 2_tha_esc PRICES 0
+
+scoreboard players set 3_fus PRICES 24
+scoreboard players set 3_fus_esc PRICES 0
+
+scoreboard players set 4_org PRICES 34
+scoreboard players set 4_org_esc PRICES 0
+
+scoreboard players set 5_jo PRICES 46
+scoreboard players set 5_jo_esc PRICES 0
+
+scoreboard players set 6_ra PRICES 60
+scoreboard players set 6_ra_esc PRICES 0
+
+scoreboard players set 7_nym PRICES 76
+scoreboard players set 7_nym_esc PRICES 0
+
+scoreboard players set 8_inu PRICES 94
+scoreboard players set 8_inu_esc PRICES 0
+
+scoreboard players set 9_hal PRICES 120
+scoreboard players set 9_hal_esc PRICES 0
+
+scoreboard players set 10_von PRICES 320
+scoreboard players set 10_von_esc PRICES 0
+
+scoreboard players set 11_ehl PRICES 400
+scoreboard players set 11_ehl_esc PRICES 0
+
+scoreboard players set 12_ave PRICES 490
+scoreboard players set 12_ave_esc PRICES 0
+
+scoreboard players set 13_chu PRICES 590
+scoreboard players set 13_chu_esc PRICES 0
+
+scoreboard players set 14_for PRICES 700
+scoreboard players set 14_for_esc PRICES 0
+
+scoreboard players set 15_da PRICES 820
+scoreboard players set 15_da_esc PRICES 0
+
+scoreboard players set 16_wej PRICES 950
+scoreboard players set 16_wej_esc PRICES 0
+
+scoreboard players set 17_ust PRICES 1090
+scoreboard players set 17_ust_esc PRICES 0
+
+scoreboard players set 18_lya PRICES 1300
+scoreboard players set 18_lya_esc PRICES 0
+
+scoreboard players set 19_qi PRICES 1800
+scoreboard players set 19_qi_esc PRICES 1
+
+scoreboard players set 20_bex PRICES 2300
+scoreboard players set 20_bex_esc PRICES 1
+
+scoreboard players set 21_puh PRICES 2850
+scoreboard players set 21_puh_esc PRICES 1
+
+scoreboard players set 22_syl PRICES 3450
+scoreboard players set 22_syl_esc PRICES 1
+
+scoreboard players set 23_yog PRICES 4100
+scoreboard players set 23_yog_esc PRICES 1
+
+scoreboard players set 24_kan PRICES 4800
+scoreboard players set 24_kan_esc PRICES 1
+
+scoreboard players set 25_xul PRICES 5550
+scoreboard players set 25_xul_esc PRICES 2
+
+scoreboard players set 26_zen PRICES 6350
+scoreboard players set 26_zen_esc PRICES 2
+
+scoreboard players set 27_mot PRICES 7777
+scoreboard players set 27_mot_esc PRICES 3

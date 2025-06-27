@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_hoe"
-        },
-        "title": {"translate":"Framée"},
-        "description": {"translate":"Traditional piece."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
     },
-    "parent": "att2:collection/weapon_diamond",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_hoe_270": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§7Framée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pièce traditionnelle.\\\"}\",\"{\\\"text\\\":\\\"§7Traditional piece.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.hoe_270"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.hoe_270"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_hoe_270": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "270"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

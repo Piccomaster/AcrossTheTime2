@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{equipment:{mainhand:{components:{'minecraft:custom_data':{EquipmentType:'armor'}}}}}"
+    }
+}

@@ -24,16 +24,16 @@ execute as @a[x=3545,y=45,z=4887,dx=-77,dy=-10,dz=43,scores={ANGOR_BOSS=0}] run 
 execute as @p[x=3514.0,y=56,z=4924] unless score FlammeNoire ANGOR matches -2..-1 unless score FlammeNoire ANGOR matches 9 run function att2:gameplay/boss/angband/flamme_noire/eyes
 
 # Particules for exit of the arena
-particle minecraft:dust 1 0 0 1 3480 44 4917 1.2 1.5 0.1 0 7 force
-particle minecraft:dust 1 0 0 1 3540 44 4913 0.25 2.0 0.25 0 3 force
-particle minecraft:dust 1 0 0 1 3541 44 4912 0.25 2.0 0.25 0 3 force
-particle minecraft:dust 1 0 0 1 3542 44 4911 0.25 2.0 0.25 0 3 force
-particle minecraft:dust 1 0 0 1 3543 44 4910 0.25 2.0 0.25 0 3 force
-particle minecraft:dust 1 0 0 1 3544 44 4909 0.25 2.0 0.25 0 3 force
+particle minecraft:dust{color:[1,0,0],scale:1} 3480 44 4917 1.2 1.5 0.1 0 7 force
+particle minecraft:dust{color:[1,0,0],scale:1} 3540 44 4913 0.25 2.0 0.25 0 3 force
+particle minecraft:dust{color:[1,0,0],scale:1} 3541 44 4912 0.25 2.0 0.25 0 3 force
+particle minecraft:dust{color:[1,0,0],scale:1} 3542 44 4911 0.25 2.0 0.25 0 3 force
+particle minecraft:dust{color:[1,0,0],scale:1} 3543 44 4910 0.25 2.0 0.25 0 3 force
+particle minecraft:dust{color:[1,0,0],scale:1} 3544 44 4909 0.25 2.0 0.25 0 3 force
 
 # Enable Bossbar storing health of Flamme Noire
 execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire value run data get entity @e[type=minecraft:ghast,nbt={UUID:[I;0,91,0,107]},limit=1] Health
-execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire max run data get entity @e[type=minecraft:ghast,nbt={UUID:[I;0,91,0,107]},limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire max run data get entity @e[type=minecraft:ghast,nbt={UUID:[I;0,91,0,107]},limit=1] attributes[{id:"minecraft:max_health"}].base
 
 # Security because Ghast are killed in one Fireball
 execute if score FlammeNoire ANGOR matches 0..9 at 00000000-0000-005b-0000-00000000006b as @e[type=minecraft:fireball,tag=FireballSpell,distance=..7] run data merge entity @s {Motion:[0.0,4.0,0.0]}

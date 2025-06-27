@@ -72,7 +72,7 @@ execute if score Real2 TIMER matches 3600 run function att2:dialogs/sidequest/sq
 execute if score Real2 TIMER matches 3600 as 00000000-0000-081a-0000-00000000081a at @s run tp @s -5106 163 -6755 -70 0
 
 execute if score Real2 TIMER matches 4100 run function att2:dialogs/sidequest/sq28/selene_8
-execute if score Real2 TIMER matches 4100 as 00000000-0000-081a-0000-00000000081a at @s run particle minecraft:item minecraft:black_wool ~ ~1 ~ 0.5 1 0.5 1 100 normal @a
+execute if score Real2 TIMER matches 4100 as 00000000-0000-081a-0000-00000000081a at @s run particle minecraft:item{item:"minecraft:black_wool"} ~ ~1 ~ 0.5 1 0.5 1 100 normal @a
 execute if score Real2 TIMER matches 4100 positioned -5105 164 -6756 run function att2:sound/dahal/spell4_effect
 execute if score Real2 TIMER matches 4100 positioned -5105 164 -6756 run function att2:sound/misc/big_explosion
 execute if score Real2 TIMER matches 4110 as 00000000-0000-082a-0000-00000000082a at @s run tp @s -5094 163 -6750 120 50
@@ -91,3 +91,5 @@ execute if score Real2 TIMER matches 4400 run kill 00000000-0000-081a-0000-00000
 
 execute if score Real2 TIMER matches 4451.. run function att2:cinematic/sidequest/28/step2
 execute if score Real2 TIMER matches ..4450 run function att2:cinematic/real2_iteration
+#return 1->make command block runing
+return 1

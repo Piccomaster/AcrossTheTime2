@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spyglass"
+            "id": "minecraft:spyglass"
         },
-        "title": {"translate":"The Hunter Of Worlds"},
-        "description": {"translate":"Travel in all dimensions"},
+        "title": {"translate":"att2.advancement.journey.title.the_worlds_hunter"},
+        "description": {"translate":"att2.advancement.journey.description.the_worlds_hunter"},
         "frame": "goal"
     },
     "parent": "att2:journey/root",

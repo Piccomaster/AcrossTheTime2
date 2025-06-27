@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- आवश्यकता में
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma cidade em necessidade -°- : ","color":"gray","extra":[{"text":"Raphaël está são e salvo, mas a cidade de Eolorion realmente precisa desses suprimentos, eu tenho que trazer uma carga de volta para Marlène...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 一座需要帮助的城市 -°- : ","color":"gray","extra":[{"text":"Raphael平安无事，Eolorion急需这些供给品，我得替Raphael将补给带回给Marlene。","color":"aqua","italic":true}]}

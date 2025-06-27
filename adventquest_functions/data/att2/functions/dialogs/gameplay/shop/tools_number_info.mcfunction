@@ -113,3 +113,13 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"<Soberano> - ","color":"light_purple",
 tellraw @s[scores={LANGUAGE=10}] {"text":"<Épico> - ","color":"dark_purple","extra":[{"score":{"name":"@s","objective":"TOOLS_EPI"},"color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=10}] {"text":"<Lendário> - ","color":"gold","extra":[{"score":{"name":"@s","objective":"TOOLS_LEG"},"color":"dark_red"}]}
 execute if score level statSMITH matches 5 run tellraw @s[scores={LANGUAGE=10}] {"text":"<Supremo> - ","color":"green","extra":[{"score":{"name":"@s","objective":"TOOLS_ULT"},"color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"拥有修理工具的数量：","color":"gray"}
+tellraw @s[scores={LANGUAGE=11}] {"text":"<普通> - ","color":"gray","extra":[{"score":{"name":"@s","objective":"TOOLS_COM"},"color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":"<常见> - ","color":"dark_green","extra":[{"score":{"name":"@s","objective":"TOOLS_UNC"},"color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":"<稀有> - ","color":"blue","extra":[{"score":{"name":"@s","objective":"TOOLS_RAR"},"color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":"<奇珍> - ","color":"light_purple","extra":[{"score":{"name":"@s","objective":"TOOLS_ESC"},"color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":"<史诗> - ","color":"dark_purple","extra":[{"score":{"name":"@s","objective":"TOOLS_EPI"},"color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":"<传说> - ","color":"gold","extra":[{"score":{"name":"@s","objective":"TOOLS_LEG"},"color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":"<终极> - ","color":"green","extra":[{"score":{"name":"@s","objective":"TOOLS_ULT"},"color":"dark_red"}]}

@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Berni Dalph : ","color":"green"
 function att2:dialogs/sidequest/sq6/berni_dalph/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq6/berni_dalph/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq6/berni_dalph/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"不，先生，这是国王的命令，严禁进入下水道...","color":"dark_aqua"}]}

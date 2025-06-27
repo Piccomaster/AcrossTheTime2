@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"*surpreso* O aluno está agindo de forma estranha hoje, talvez a atmosfera deste mundo o esteja deixando doente?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"*惊讶*学徒今天的表现很奇怪，莫非是这个世界的环境让他得病了？","color":"dark_aqua"}]}

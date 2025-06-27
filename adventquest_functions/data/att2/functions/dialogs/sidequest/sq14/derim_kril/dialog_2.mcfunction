@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Derim Kril : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Alguma notícia sobre minha chave? Ela deve estar no fundo dos túneis, entre as culturas. Procure bem!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"有我的钥匙的消息吗？它肯定在地下通道的底部，在那些作物之间，好好找找！","color":"dark_aqua"}]}

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_helmet"
-        },
-        "title": {"translate":"Pesti gris"},
-        "description": {"translate":"Mistigri."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_helmet"
     },
-    "parent": "att2:collection/armor_iron/helmet_107",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_helmet_108": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Pesti gris\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mistigri.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.helmet_108"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.helmet_108"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/helmet_107",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_helmet_108": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "108"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -16,3 +16,5 @@ execute positioned -5692 85 -6414 run function att2:summon/reg_1/vindicator0_cla
 execute positioned -5704 85 -6414 run function att2:summon/reg_1/vindicator0_class9
 execute positioned -5686 85 -6419 run function att2:summon/reg_1/skeletonarcher0_class10
 execute positioned -5710 85 -6419 run function att2:summon/reg_1/skeletonarcher0_class10
+#return 1->make command block runing
+return 1

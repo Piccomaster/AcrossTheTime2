@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Talvez, mas sem querer ser rude, Relgon foi responsável por façanhas que vão muito além de qualquer coisa que alguém já tenha conseguido.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"或许吧，但是我不想显得很无礼，你要知道Relgon完成过的壮举远远超出任何人的想象。","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_sidequest6
+

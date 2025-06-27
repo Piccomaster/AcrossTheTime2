@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_axe"
-        },
-        "title": {"translate":"Âme de jade"},
-        "description": {"translate":"Unsuspected, surprising, dazzling such is your crystal bite."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
     },
-    "parent": "att2:collection/weapon_iron/axe_88",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "iron_axe_92": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_axe"],
-                    "nbt": "{display:{Name:\"\\\"§6Âme de jade\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Insoupçonnée, surprenante, éclatante\\\"}\",\"{\\\"text\\\":\\\"§7telle est ta morsure de cristal.\\\"}\",\"{\\\"text\\\":\\\"§7Unsuspected, surprising, dazzling\\\"}\",\"{\\\"text\\\":\\\"§7such is your crystal bite.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a2 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.axe_92"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.axe_92"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/axe_88",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_axe_92": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "92"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

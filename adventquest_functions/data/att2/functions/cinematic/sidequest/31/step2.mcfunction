@@ -9,3 +9,5 @@ function att2:physicmod/reg1/eol_raphael_damaged_vehicle
 
 scoreboard players set SQ31 SIDEQUEST 2
 scoreboard players set cinematic1 SQ31 1
+#return 1->make command block runing
+return 1

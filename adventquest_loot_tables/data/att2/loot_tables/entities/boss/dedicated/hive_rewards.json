@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:potion",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"potion\",Rarity:\"leg\",Effect:\"str4\",display:{Name:\"\\\"§6Puissance Ineffable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Faites exploser votre force,\\\"}\",\"{\\\"text\\\":\\\"§7au prix d'une insatiable faim.\\\"}\",\"{\\\"text\\\":\\\"§7Explode your strength,\\\"}\",\"{\\\"text\\\":\\\"§7at the cost of insatiable hunger.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4\\\"}\"]},CustomPotionColor:4738620,custom_potion_effects:[{id:instant_health,amplifier:1,duration:2,show_particles:0b}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/potion/leg/potion_27"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:potion",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"potion\",Rarity:\"leg\",Effect:\"has4_spd2_dar2_hun2\",display:{Name:\"\\\"§6Quintessence\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Là où l'harmonie s'opère,\\\"}\",\"{\\\"text\\\":\\\"§7le grand oeuvre peut s'accomplir.\\\"}\",\"{\\\"text\\\":\\\"§7Where harmony takes place,\\\"}\",\"{\\\"text\\\":\\\"§7the great work can be accomplished.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7SPD§a2 §7DAR§a2 §7HUN§a2\\\"}\"]},CustomPotionColor:7012497,custom_potion_effects:[{id:instant_health,amplifier:0,duration:2,show_particles:0b}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/potion/leg/potion_29"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:potion",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,14 +61,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"potion\",Rarity:\"leg\",Effect:\"str3_res1_luc2\",display:{Name:\"\\\"§6Nectar somptueux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Boisson légendaire royale dont seul les plus\\\"}\",\"{\\\"text\\\":\\\"§7fortunés ont la chance d'y gouter.\\\"}\",\"{\\\"text\\\":\\\"§7Legendary royal drink which only\\\"}\",\"{\\\"text\\\":\\\"§7the wealthy have the chance to taste.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1 §7LUC§a2\\\"}\"]},CustomPotionColor:16187275,custom_potion_effects:[{id:instant_health,amplifier:7,duration:0,show_particles:0b},{id:night_vision,amplifier:0,duration:1200,show_particles:0b},{id:fire_resistance,amplifier:0,duration:400,show_particles:0b}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/potion/leg/potion_55"
                 }
             ]
         }
     ]
 }
+

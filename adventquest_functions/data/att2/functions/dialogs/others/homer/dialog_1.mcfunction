@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Homer : ","color":"green","extra
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"O que... O quê? Não estou alucinando, você é real? Ah... Parece que sim... Anos atrás, eu teria ficado feliz em ver um dos meus semelhantes... Mas agora, como dizer... Humm... Estou muito tentado a te nocautear e te assar no espeto. Se você ficar nesta ilha, é por sua conta e risco! No entanto, se encontrar pedras turquesas, eu as comprarei de você por 2 Chronotons cada... Elas são tão bonitas!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"这...这？我没眼花吧，真的是你吗？啊...你真的很像他...如果是放在几年前，见到自己以前的伙伴能让我开心死...不过现在嘛...怎么说呢...嗯...说实话，我现在很想把你敲晕，然后把你煮着吃了—你来这座岛，就得自负风险！不过嘛，如果你能找到一些蓝色的石头，那就另当别论了—我会用一个石头2个Chronoton的价格从你那回收它们...它们实在是太漂亮了！","color":"dark_aqua"}]}

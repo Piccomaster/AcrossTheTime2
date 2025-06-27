@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não, Sérile, me escute. Relgon nunca quis te remover do seu lugar como rainha. Ele desejava testar sua humildade e paciência uma última vez, fazendo você acreditar que não assumiria seu papel. Mas ele não teve tempo para se explicar...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"不，Sérile，听我说。 Relgon从未想过要剥夺你女王的地位。他只是想试探你对知晓自己无法登上王座后的做法，来最后一次考验你的谦逊和耐心。但时间紧迫，他无法向你详细说明此事...","color":"aqua"}]}

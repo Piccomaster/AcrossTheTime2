@@ -25,5 +25,5 @@ execute as @s[scores={STR_TOT=45..49}] run function att2:gameplay/legendary/ruky
 execute as @s[scores={STR_TOT=50..}] run function att2:gameplay/legendary/rukyrion/damage_up/level_ultima
 
 # Visual effect
-execute at @s run particle minecraft:item minecraft:nether_wart_block ~ ~ ~ 0 0 0 1.2 250 normal
+execute at @s run particle minecraft:item{item:"minecraft:nether_wart_block"} ~ ~ ~ 0 0 0 1.2 250 normal
 execute at @s run function att2:sound/legendary/rukyrion_top

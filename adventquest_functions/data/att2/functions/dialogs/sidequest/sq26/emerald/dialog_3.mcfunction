@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Então, você encontrou alguma pista sobre o caminho da minha filha nas catacumbas? Deve haver certamente uma antiga pequena cripta no fundo do cemitério com vista para a entrada das catacumbas...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你有发现我女儿在地下墓穴中留下的蛛丝马迹吗？在墓地底部，靠近地下墓穴入口的地方肯定有一个古老的小墓穴...","color":"dark_aqua"}]}

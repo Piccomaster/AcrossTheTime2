@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° रोमुयाल्ड : ",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Ahh... Hã... Obrigado *arroto* Hora de dormir. *cai em coma*","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"啊...额...谢（打嗝）..该睡觉了（陷入昏迷）。","color":"dark_aqua"}]}

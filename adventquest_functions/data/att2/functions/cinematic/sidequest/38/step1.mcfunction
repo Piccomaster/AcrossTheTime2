@@ -17,3 +17,5 @@ execute at 00000000-0000-134a-0000-00000000134a as @p[distance=..10] run functio
 xp add @a 5000 points
 
 advancement grant @a only att2:quest/sq37
+#return 1->make command block runing
+return 1

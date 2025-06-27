@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Posso fazer uma pergunta agora? Não acredito que você tenha atravessado os mundos e enfrentado a guerra por mera bondade. Você estava procurando por algo, não estava? Mas pelo quê?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"我现在可以问你一个问题吗？我不认为你只是出于善意而穿越到这个世界来阻止这场战争。你应该在寻找些什么，不是吗？还是为了什么别的？","color":"dark_aqua"}]}

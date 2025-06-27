@@ -3,5 +3,7 @@
 #Obtain item stone_sword_191          #
 #####################################
 
-give @s minecraft:stone_sword{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"graceful",Shop:"buy",Effect:"str4",display:{Name:"\"§6Nisirion gal mandézäl\"","Lore":["{\"text\":\"§7Même la plus stable des choses ne saura jamais\"}","{\"text\":\"§7s'opposer à l'indéfectible dessein d'Entropie.\"}","{\"text\":\"§7Even the most stable of things will never stand\"}","{\"text\":\"§7in the way of Entropy's unwavering purpose.\"}","{\"text\":\"§7STR§a4\"}"]},Damage:0,Enchantments:[{id:"minecraft:sweeping",lvl:3s},{id:"minecraft:unbreaking",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:22.67,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5700000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]} 1
+give @s minecraft:stone_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"graceful",Shop:"buy",STR:4,Weapon:"191"},custom_name={translate:"weapon191.name"},lore=[{translate:"weapon191.lore.1"},{translate:"weapon191.lore.2"},{translate:"weapon191.stat"}],max_damage=140,damage=0,enchantments={"sweeping_edge":3,"unbreaking":5},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:22.67},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.57},{slot:"mainhand",type:"max_health",id:"max_health",operation:"add_value",amount:2}
+]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

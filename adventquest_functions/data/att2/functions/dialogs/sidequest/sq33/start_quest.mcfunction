@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[Sylberländ का खजाना]","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Tesouro de Sylberländ]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[Sylberländ的秘宝]","color":"gold"}

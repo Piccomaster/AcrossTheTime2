@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Umbra'Tyanth अपने सभी ज
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Umbra'Tyanth recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Umbra'Tyanth恢复了所有的力量...","color":"gray","italic":true}

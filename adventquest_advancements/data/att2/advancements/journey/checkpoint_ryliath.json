@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Ryliath Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Ryliath"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_ryliath"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_ryliath"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_ryliath",

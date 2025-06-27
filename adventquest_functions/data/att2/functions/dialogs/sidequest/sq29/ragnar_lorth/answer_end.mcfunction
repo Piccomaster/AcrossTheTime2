@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Você teve sucesso? Bem, eu já não acreditava mais nisso. Espero que esses bandidos nunca mais voltem a se instalar aqui. Você merece uma recompensa. Vá falar com a minha empregada logo abaixo, ela lhe dará um preço reduzido em uma de nossas propriedades.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你搞定了？好吧，我相信他们被你赶跑了。希望这些强盗永远不会再来了。我欠你一份人情。去楼下和我的管家谈谈。你要买房子的话，她会给你打个折。","color":"dark_aqua"}]}

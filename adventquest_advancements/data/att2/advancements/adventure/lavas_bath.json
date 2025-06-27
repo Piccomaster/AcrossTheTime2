@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lava_bucket"
+            "id": "minecraft:lava_bucket"
         },
-        "title": {"translate":"It's Hot"},
-        "description": {"translate":"Swim in lava"},
+        "title": {"translate":"att2.advancement.adventure.title.lavas_bath"},
+        "description": {"translate":"att2.advancement.adventure.description.lavas_bath"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/like_a_fish",

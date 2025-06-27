@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एमराल्ड की य�
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A jornada de Esmeralda -°- : ","color":"gray","extra":[{"text":"Parece que Esmeralda acha que sua filha foi para o cemitério de Adanoï perto de Méleïm. Preciso me juntar a Esmeralda lá para continuar ajudando...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Emerald的冒险之旅 -°- : ","color":"gray","extra":[{"text":"毫无疑问，Emerald觉得他女儿前往了在Méleïm附件的Adanoï墓园，我应该去那里和Emerald碰面看看我还能帮他什么","color":"aqua","italic":true}]}

@@ -3,7 +3,7 @@
 #Process Scheströwn Shadow effect2					#
 #####################################################
 
-particle minecraft:item minecraft:black_wool ~ ~1.9 ~ 0.01 0.01 0.01 1 5 normal
+particle minecraft:item{item:"minecraft:black_wool"} ~ ~1.9 ~ 0.01 0.01 0.01 1 5 normal
 
 particle minecraft:nautilus ~0.1 ~1.7 ~-0.8 0 0.3 0.3 0 1
 particle minecraft:nautilus ~0.1 ~1.7 ~-1.1 0 0.3 0.3 0 1

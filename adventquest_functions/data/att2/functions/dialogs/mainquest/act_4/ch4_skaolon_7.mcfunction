@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Você? Um herói? Ahahahaha, não. Bem, como você é engraçado, vou te fazer uma proposta: nosso rei exímio adora a iguaria refinada que são os Néleptrons. Traga-nos alguns e talvez o deixemos entrar.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"你？英雄？啊哈哈哈，不是。好吧，既然你这么有趣，那我跟你做个交易：我们挑剔的国王喜欢精致的贡品—Néleptrons。给我们带一些来，也许我们会让你进去。","color":"dark_aqua"}]}

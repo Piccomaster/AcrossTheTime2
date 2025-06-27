@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:end_crystal"
+            "id": "minecraft:end_crystal"
         },
-        "title": {"translate":"Wanderlust"},
-        "description": {"translate":"Discover all waypoints"},
+        "title": {"translate":"att2.advancement.journey.title.waypoint_all"},
+        "description": {"translate":"att2.advancement.journey.description.waypoint_all"},
         "frame": "challenge"
     },
     "parent": "att2:journey/root",

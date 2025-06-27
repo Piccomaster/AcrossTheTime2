@@ -8,10 +8,12 @@
                 "type": "minecraft:player",
                 "equipment": {
                     "mainhand": {
-                        "items": [
-                            "minecraft:fishing_rod"
-                        ],
-                        "nbt": "{Spell:spell9}"
+                        "items": "minecraft:carrot_on_a_stick",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Spell": "spell9"
+                            }
+                        }
                     }
                 }
             }
@@ -23,10 +25,12 @@
                 "type": "minecraft:player",
                 "equipment": {
                     "mainhand": {
-                        "items": [
-                            "minecraft:fishing_rod"
-                        ],
-                        "nbt": "{Spell:spell11}"
+                        "items": "minecraft:carrot_on_a_stick",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Spell": "spell11"
+                            }
+                        }
                     }
                 }
             }
@@ -38,10 +42,12 @@
                 "type": "minecraft:player",
                 "equipment": {
                     "mainhand": {
-                        "items": [
-                            "minecraft:fishing_rod"
-                        ],
-                        "nbt": "{Spell:spell40}"
+                        "items": "minecraft:carrot_on_a_stick",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Spell": "spell40"
+                            }
+                        }
                     }
                 }
             }

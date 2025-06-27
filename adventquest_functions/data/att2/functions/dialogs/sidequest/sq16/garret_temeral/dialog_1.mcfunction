@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","ext
 function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"嘿，年轻人，感谢你为我们Eternäns带来的帮助。如果你有时间，我这里有一份任务想请你完成！我们的非常缺乏箭矢，这导致我们很难守住阵地。没有箭的话，即使是最好的弓箭手也毫无价值...我们城市的废墟里到处都有箭矢,你能帮我们收集一些箭矢回来吗？","color":"dark_aqua"}]}

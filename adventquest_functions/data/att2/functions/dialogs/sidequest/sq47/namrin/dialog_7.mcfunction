@@ -51,5 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"O que você está esperando? Volte com a espada de Relgon, se o que você afirma for verdade...","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"你在犹豫什么？如果你说的是真的话，请带着Relgon的剑回来...","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_sidequest22
+

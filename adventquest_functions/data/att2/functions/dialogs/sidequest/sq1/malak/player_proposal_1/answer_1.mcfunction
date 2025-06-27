@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Malak : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Recompensa? Claro. E também fará a felicidade de uma senhora idosa... Infelizmente, não sei nada sobre a identidade deles ou o lugar onde estão escondidos. Você deve procurar o chefe da aldeia, ele fez grandes esforços para caçá-los, em vão. A cabana dele fica bem ao lado da porta da frente do acampamento e ele não demorará a voltar.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"酬劳...?那当然，一点举手之劳就能让我这个老人幸福很久了...可惜我不清楚他们的情报、躲藏地点之类的。你可能要去拜访营地的头头，他已经和这些家伙对峙很久了,只是目前还没什么成果。他的小屋在营地前门右手边，应该很快就会回来了。","color":"dark_aqua"}]}

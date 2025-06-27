@@ -74,9 +74,13 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Negan Greyson : ","color":"gree
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"Sim, quero esquecer minhas habilidades!","color":"aqua"}]}
 
 
-tellraw @s[scores={GAMELEVEL=0..9}] {"text":" [50 CHRONOTONS -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hoverEvent":{"action":"show_text","value":"-<°>-"}}
-tellraw @s[scores={GAMELEVEL=10..19}] {"text":" [100 CHRONOTONS -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hoverEvent":{"action":"show_text","value":"-<°>-"}}
-tellraw @s[scores={GAMELEVEL=20..29}] {"text":" [200 CHRONOTONS -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hoverEvent":{"action":"show_text","value":"-<°>-"}}
-tellraw @s[scores={GAMELEVEL=30..39}] {"text":" [300 CHRONOTONS -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hoverEvent":{"action":"show_text","value":"-<°>-"}}
-tellraw @s[scores={GAMELEVEL=40..49}] {"text":" [400 CHRONOTONS -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hoverEvent":{"action":"show_text","value":"-<°>-"}}
-tellraw @s[scores={GAMELEVEL=50..}] {"text":" [500 CHRONOTONS -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hoverEvent":{"action":"show_text","value":"-<°>-"}}
+tellraw @s[scores={GAMELEVEL=0..9}] {"text":" [50 CHRONOTONS -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hover_event":{"action":"show_text","value":"-<°>-"}}
+tellraw @s[scores={GAMELEVEL=10..19}] {"text":" [100 CHRONOTONS -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hover_event":{"action":"show_text","value":"-<°>-"}}
+tellraw @s[scores={GAMELEVEL=20..29}] {"text":" [200 CHRONOTONS -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hover_event":{"action":"show_text","value":"-<°>-"}}
+tellraw @s[scores={GAMELEVEL=30..39}] {"text":" [300 CHRONOTONS -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hover_event":{"action":"show_text","value":"-<°>-"}}
+tellraw @s[scores={GAMELEVEL=40..49}] {"text":" [400 CHRONOTONS -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hover_event":{"action":"show_text","value":"-<°>-"}}
+tellraw @s[scores={GAMELEVEL=50..}] {"text":" [500 CHRONOTONS -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:dialogs/others/negan_greyson/chronoton_trigger"},"hover_event":{"action":"show_text","value":"-<°>-"}}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Negan Greyson : ","color":"green","extra":[{"text":"你好！你需要帮助吗？我可以帮你重置能力点，让你以一个更好的状态踏上冒险之路。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我想重置我的能力点！ ","color":"aqua"}]}

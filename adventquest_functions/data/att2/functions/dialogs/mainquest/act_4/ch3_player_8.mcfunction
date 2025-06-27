@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Merda, deveria haver uma segurança... Evidentemente, aqueles que construíram este lugar não queriam que alguém pegasse essa gema... Esmeraldas parecem ser usadas como fonte de energia aqui. Cada torre tem sua própria esmeralda, eu precisarei visitar todas elas.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"该死，这里居然有安保措施……显然，建造这个地方的人不想让人拿走那颗宝石……不过这里似乎把绿宝石当作能量源，每座塔都有对应的绿宝石，我得把它们都探访一遍。","color":"aqua"}]}

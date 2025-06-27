@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Espere... *Enxugando suas lágrimas* Desculpe... Então, eu fui com outras duas pessoas para uma excursão na mansão abandonada de Sathnok. Monstros aterrorizantes assombram esses lugares. Nós nos perdemos em catacumbas, eu entrei em pânico, corri e milagrosamente encontrei a saída. Mas meu amigo, Sylvain, não o vi desde então. Ele deve ainda estar lá, então por favor, encontre-o! Eu te darei tudo o que eu tenho.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"等等...*擦干眼泪*抱歉...我会告诉你实情:我和另外两个人一起去Sathnok参观一座废弃的宅邸。我们当时在地下墓穴了迷路还遇到了一些恐怖的怪物，最后我找到了出口捡回了一条命。但我的朋友Sylvain没有出来。他一定还在那边，请你找到他！我会给你我的一切...","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ title @a[scores={LANGUAGE=9}] title {"text":"धोखेबाज़","color":"
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] title {"text":"TRAPACEIRO","color":"yellow"}
+
+#Simplified Chinese LANGUAGE
+title @a[scores={LANGUAGE=11}] title {"text":"管好你自己！","color":"yellow"}

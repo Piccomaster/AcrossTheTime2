@@ -6,7 +6,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:epi}},PickupDelay:0s,OnGround:1b}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: epi}}},PickupDelay:0s}"
             }
         },
         {
@@ -14,7 +14,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:epi_esc}},PickupDelay:0s,OnGround:1b}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: epi_esc}}},PickupDelay:0s}"
             }
         }
     ]

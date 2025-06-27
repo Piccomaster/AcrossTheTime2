@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[कभी भी कुछ भी प�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Nunca deixe nada para trás]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[永远不要留下任何东西]","color":"gold"}

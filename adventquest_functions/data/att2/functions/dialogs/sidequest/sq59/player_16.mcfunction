@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hm... um desafio, já que é original. Vamos lá, por que não, isso meio que se tornou meu passatempo favorito. Onde está esse teste?","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"嗯…这是个挑战，还挺有新意的。也行吧，为什么不玩玩呢，这几乎成了我最喜欢的消遣方式了。这个考验在哪里？","color":"aqua"}]}

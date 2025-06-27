@@ -4,8 +4,8 @@
 ##################################################
 
 
-execute unless entity @s[nbt={Inventory:[{tag:{Spell:"spell2"}}]}] run kill @e[type=item,predicate=att2_pre:dahal/launcher/spell_2,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
+kill @e[type=item,predicate=att2_pre:dahal/launcher/spell_2,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
 
-execute unless entity @s[nbt={Inventory:[{tag:{Spell:"spell2"}}]}] run clear @s minecraft:written_book{Dahal:"book",Spell:"spell2"}
+clear @s minecraft:written_book[custom_data={Rarity:"rar",Dahal:"book",Spell:"spell2"}]
 
-execute unless entity @s[nbt={Inventory:[{tag:{Spell:"spell2"}}]}] run function att2:gameplay/dahal/action/spell2/obtain
+function att2:gameplay/dahal/action/spell2/obtain

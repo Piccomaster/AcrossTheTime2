@@ -3,5 +3,6 @@
 #Obtain item diamond_hoe_273          #
 #####################################
 
-give @s minecraft:diamond_hoe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Type:"spear",Shop:"buy",Effect:"str1_has_3",display:{Name:"\"§2Long poinçon\"","Lore":["{\"text\":\"§7Fabrication ancestrale.\"}","{\"text\":\"§7Ancestral manufacture.\"}","{\"text\":\"§7STR§a1 §7HAS§c-3\"}"]},Damage:1425,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:9.41,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.86,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",STR:1,HAS:-3,Weapon:"273"},custom_name={translate:"weapon273.name"},lore=[{translate:"weapon273.lore.1"},{translate:"weapon273.lore.2"},{translate:"weapon273.stat"}],max_damage=1560,damage=1425,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:9.41},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.86}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

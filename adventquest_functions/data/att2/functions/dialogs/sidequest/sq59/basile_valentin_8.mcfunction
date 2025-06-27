@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Vá para a biblioteca do palácio de Ryliath. Nunca consegui acessá-la, mas um colega alquimista em Ryliath me falou sobre suas pesquisas que seu falecido irmão 'Nicolas Flamel' roubou. Foi ele quem recebeu todos os louros, ele tinha uma posição vantajosa no ponto mais alto do palácio e era o mais respeitado na cidade.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"前往Ryliath宫殿的图书馆吧。通往那里的大门从未向我敞开过，但Ryliath的一位同行告诉我，他已故的兄弟“Nicolas_Flamel”曾窃取了一些研究成果。依靠这些他获得了无上荣誉，他在宫殿之顶占据了一块风水宝地，是城里最受尊敬的人。","color":"dark_aqua"}]}

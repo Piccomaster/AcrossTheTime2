@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:40188}"
-        },
-        "title": {"translate":"Cataplasme     "},
-        "description": {"translate":"Effective medicinal porridge thus promoting the rapid elimination of toxins."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_52",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "potion_53": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§9Cataplasme\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bouillie médicinale effective favorisant\\\"}\",\"{\\\"text\\\":\\\"§7ainsi l'élimination rapide des toxines.\\\"}\",\"{\\\"text\\\":\\\"§7Effective medicinal porridge thus promoting\\\"}\",\"{\\\"text\\\":\\\"§7the rapid elimination of toxins.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7SPD§a1 §7HUN§c-4\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "53"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_53"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_53"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_52",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "potion_53": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "53"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

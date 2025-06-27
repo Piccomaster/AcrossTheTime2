@@ -9,3 +9,5 @@ function att2:physicmod/reg4/tower3/mech4_end
 
 execute positioned 7716 141 5956 run function att2:summon/reg_4/ghast3_class16
 execute positioned 7698 141 5956 run function att2:summon/reg_4/ghast3_class16
+#return 1->make command block runing
+return 1

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° रानी एल्डार�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rainha Eldaris : ","color":"gold","extra":[{"text":"Uma última coisa: você tem minha autorização para usar nosso portal. Eu apenas pediria que você volte e nos veja quando encontrar a gema.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 女王 Eldaris : ","color":"gold","extra":[{"text":"最后一件事：您得到了我的授权，可以自由使用我们的传送门。我只希望你在找到宝石后能回来看看我们。。","color":"dark_aqua"}]}

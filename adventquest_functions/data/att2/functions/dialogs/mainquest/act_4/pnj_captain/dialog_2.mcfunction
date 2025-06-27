@@ -58,5 +58,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Subam no muro, é essencial fazer o inimigo recuar!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 队长 : ","color":"green","extra":[{"text":"上城墙！将敌人击退至关重要！","color":"dark_aqua"}]}
 
 function att2:voice/capitaine/capitaine_dialogue1
+

@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_pickaxe",
+            "id": "minecraft:diamond_pickaxe",
             "nbt": "{CustomModelData:10000005}"
         },
-        "title": {"translate":"Sästr"},
-        "description": {"translate":"Hold the mythical mace SÄSTR"},
+        "title": {"translate": "att2.advancement.collection.mythique.title.sastr"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.sastr"},
         "frame": "challenge",
         "hidden":true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_20",
+        "function": "att2:advancement/test_all/collection/sastr",
         "experience": 5000
                 },
     "criteria": {

@@ -3,26 +3,27 @@
 #Keep Thunder working   						#
 #################################################
 
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=50..60}] at @s run particle minecraft:enchant ~ ~0.1 ~ 2 0 2 0 15 normal
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=60}] at @s as @a run function att2:sound/dahal/imminent
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run particle minecraft:end_rod ~ ~ ~ 1 0 1 0 10
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run particle minecraft:electric_spark ~ ~ ~ 1 0 1 0 10
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run particle minecraft:dolphin ~ ~2 ~ 0 1 0 0 5 normal
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run particle minecraft:end_rod ~ ~2 ~ 0.2 1 0.2 0 3 normal
-
+execute if score @s SPELL5_EFFECT matches 60 run function att2:sound/dahal/imminent
+#particle
+execute if score @s SPELL5_EFFECT matches 50..60 run particle minecraft:enchant ~ ~0.1 ~ 2 0 2 0 15 normal
+particle minecraft:end_rod ~ ~ ~ 1 0 1 0 10
+particle minecraft:electric_spark ~ ~ ~ 1 0 1 0 10
+particle minecraft:dolphin ~ ~2 ~ 0 1 0 0 5 normal
+particle minecraft:end_rod ~ ~2 ~ 0.2 1 0.2 0 3 normal
 # For spell level exceeding 8, a row of thunder will appear
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=8..50}] run scoreboard players operation @s SPELL5_OP = @s SPELL5_EFFECT
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=8..50}] run scoreboard players operation @s SPELL5_OP %= 10 SPELL5_OP
+scoreboard players operation @s[scores={SPELL5_EFFECT=..0,SPELL5_SLCT=7..}] SPELL5_OP = @s SPELL5_EFFECT
+scoreboard players operation @s[scores={SPELL5_EFFECT=..0,SPELL5_SLCT=7..}] SPELL5_OP %= 10 SPELL5_OP
+#damage
+execute if score @s SPELL5_SLCT matches 1 run function att2:gameplay/dahal/action/spell5/thunder1
+execute if score @s SPELL5_SLCT matches 2 run function att2:gameplay/dahal/action/spell5/thunder2
+execute if score @s SPELL5_SLCT matches 3 run function att2:gameplay/dahal/action/spell5/thunder3
+execute if score @s SPELL5_SLCT matches 4 run function att2:gameplay/dahal/action/spell5/thunder4
+execute if score @s SPELL5_SLCT matches 5 run function att2:gameplay/dahal/action/spell5/thunder5
+execute if score @s SPELL5_SLCT matches 6 run function att2:gameplay/dahal/action/spell5/thunder6
+execute if score @s SPELL5_SLCT matches 7 run function att2:gameplay/dahal/action/spell5/thunder7
+execute if score @s SPELL5_SLCT matches 8 run function att2:gameplay/dahal/action/spell5/thunder8
+execute if score @s SPELL5_SLCT matches 9 run function att2:gameplay/dahal/action/spell5/thunder9
+execute if score @s SPELL5_SLCT matches 10 run function att2:gameplay/dahal/action/spell5/thunder10
 
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=1}] at @s run function att2:gameplay/dahal/action/spell5/thunder1
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=2}] at @s run function att2:gameplay/dahal/action/spell5/thunder2
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=3}] at @s run function att2:gameplay/dahal/action/spell5/thunder3
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=4}] at @s run function att2:gameplay/dahal/action/spell5/thunder4
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=5}] at @s run function att2:gameplay/dahal/action/spell5/thunder5
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=6}] at @s run function att2:gameplay/dahal/action/spell5/thunder6
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=7}] at @s run function att2:gameplay/dahal/action/spell5/thunder7
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=8}] at @s run function att2:gameplay/dahal/action/spell5/thunder8
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=9}] at @s run function att2:gameplay/dahal/action/spell5/thunder9
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=..0,SPELL5_SLCT=10}] at @s run function att2:gameplay/dahal/action/spell5/thunder10
-
-execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] run scoreboard players remove @s SPELL5_EFFECT 1
+#remove
+scoreboard players remove @s[scores={SPELL5_EFFECT=-100..}] SPELL5_EFFECT 1

@@ -71,15 +71,15 @@ execute as @a[scores={TEMPERATURE=..-1,ARMORSCORE=..1},gamemode=adventure] run s
 
 # -- Mythical
 # If the user is holding Fenrir, disable effects of negative temperature
-execute as @a[scores={TEMPERATURE=..-1},nbt={SelectedItem:{tag:{EquipmentID:"fenrir"}}},gamemode=adventure] run scoreboard players set @s TEMPERATURE 0
+execute as @a[scores={TEMPERATURE=..-1},nbt={SelectedItem:{components:{EquipmentID:"fenrir"}}},gamemode=adventure] run scoreboard players set @s TEMPERATURE 0
 # If the user is holding Kinuil, disable effects of positive temperature
-execute as @a[scores={TEMPERATURE=1..},nbt={SelectedItem:{tag:{EquipmentID:"kinuil"}}},gamemode=adventure] run scoreboard players set @s TEMPERATURE 0
+execute as @a[scores={TEMPERATURE=1..},nbt={SelectedItem:{components:{EquipmentID:"kinuil"}}},gamemode=adventure] run scoreboard players set @s TEMPERATURE 0
 
 # Process effect
 execute as @a[gamemode=adventure] run function att2:gameplay/enveffect/temperature/effect
 
 # Cold shiver effect
-execute as @a[scores={TEMPERATURE=..-2}] at @s run particle minecraft:item minecraft:ice ~ ~1 ~ 0.25 0.25 0.25 0 1 normal @s
+execute as @a[scores={TEMPERATURE=..-2}] at @s run particle minecraft:item{item:"minecraft:ice"} ~ ~1 ~ 0.25 0.25 0.25 0 1 normal @s
 execute if score cold_Malus2_Timer TEMPERATURE matches 800 as @a[scores={TEMPERATURE=-4}] at @s run scoreboard players set @s SHAKE_S 30
 execute if score cold_Malus3_Timer TEMPERATURE matches 400 as @a[scores={TEMPERATURE=-5}] at @s run scoreboard players set @s SHAKE_S 30
 execute if score cold_Malus4_Timer TEMPERATURE matches 200 as @a[scores={TEMPERATURE=-6}] at @s run scoreboard players set @s SHAKE_S 30

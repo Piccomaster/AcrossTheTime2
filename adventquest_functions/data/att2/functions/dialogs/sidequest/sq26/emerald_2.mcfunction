@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Sim, só ela se aventuraria em um lugar assim! Estamos mais longe de encontrá-la! Vou para Méleïm interrogar os habitantes. Talvez alguns a tenham visto recentemente...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"没错，只有她会冒险进入那种地方！她离我们更远了！我得去Méleïm问问村民。也许最近有些人会看到她...","color":"dark_aqua"}]}

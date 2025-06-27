@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Esta escada está quebrada. Deveria ser capaz de acessar a parte isolada do acampamento através das ameias, mas primeiro terei que consertá-la.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这段梯子已经损坏了。我似乎可以通过城墙上的甬道前往被树木隔开的营地西边，但我得先想办法修复这段梯子。","color":"aqua"}]}

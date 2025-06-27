@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Eu entendo... Eu esperarei seu retorno ou que outra pessoa venha me ajudar, pois estou começando a enfraquecer.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我理解...我会等你回来或其他人来帮助我，因为我实在没力气了。","color":"dark_aqua"}]}

@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Carmen Ysta : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Droga! Que pena, avise-me se mudar de ideia.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"好吧，真可惜，如果你改了主意请告诉我 ","color":"dark_aqua"}]}

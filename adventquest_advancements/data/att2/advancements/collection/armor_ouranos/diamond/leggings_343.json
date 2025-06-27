@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Colère d'Aoran"},
-        "description": {"translate":"Will you risk putting on that which will make you as irascible as the King of Ouranos?"},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/leggings_339",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_leggings_343": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Colère d'Aoran\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vous risquerez-vous à revêtir ce qui vous rendra aussi\\\"}\",\"{\\\"text\\\":\\\"§7irascible que le Roi d'Ouranos ?\\\"}\",\"{\\\"text\\\":\\\"§7Will you risk putting on that which will make you\\\"}\",\"{\\\"text\\\":\\\"§7as irascible as the King of Ouranos?\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.leggings_343"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.leggings_343"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/leggings_339",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_leggings_343": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "343"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

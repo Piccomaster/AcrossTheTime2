@@ -14,7 +14,7 @@ kill @e[type=minecraft:armor_stand,x=-5057,y=76,z=-5060,distance=..3]
 function att2:gameplay/pnj_talk/dialog_playsound/patrick_corth
 execute at 00000000-0000-022a-0000-00000000022a as @p[distance=..15] run function att2:dialogs/sidequest/sq9/patrick_corth/answer_end
 
-clear @a minecraft:brick{display:{"Lore":["{\"text\":\"§4Abrock's Key\"}"]}} 1
+#clear @a minecraft:brick{display:{"Lore":["{\"text\":\"§4Abrock's Key\"}"]}} 1
 
 #REWARDS
 xp add @a 2000 points
@@ -29,3 +29,5 @@ execute if score choice SQ9 matches 4 run scoreboard players add @a CHRONOTON 84
 execute if score choice SQ9 matches 4 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+84 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq9
+#return 1->make command block runing
+return 1

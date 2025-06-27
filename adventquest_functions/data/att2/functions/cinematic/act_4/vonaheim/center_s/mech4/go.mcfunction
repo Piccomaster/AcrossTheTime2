@@ -18,3 +18,5 @@ execute if score center_s_mech4 VONAHEIM matches 0 as @a[x=-5615,y=110,z=-6389,d
 
 # Effect
 execute if score center_s_mech4 VONAHEIM matches 0 as @a[x=-5615,y=110,z=-6389,dx=2,dy=-2,dz=33,gamemode=adventure] run effect give @s minecraft:levitation 1 0 true
+#return 1->make command block runing
+return 1

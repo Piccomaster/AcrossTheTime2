@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"ज्ञात राज्य�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Estranho dos reinos conhecidos","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"来自已知领域的未知物种","color":"gray"}

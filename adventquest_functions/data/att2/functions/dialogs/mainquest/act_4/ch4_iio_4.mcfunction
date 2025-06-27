@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Iio : ","color":"yellow","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"Vamos lá, meu doce filho, agora que ele ganhou seu jogo, dê a ele o que ele veio buscar.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"来吧，我亲爱的孩子，既然他赢了你的游戏，就让他得偿所愿吧。","color":"dark_aqua"}]}

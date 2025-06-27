@@ -3,4 +3,4 @@
 #Obtain cooked_salmon_0         				 #
 ##################################################
 
-give @s minecraft:cooked_salmon{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:cooked_salmon[custom_data={EquipmentType:'food',Rarity:'misc'}]

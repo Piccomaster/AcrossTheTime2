@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Sim, costumava ser... Quando olho para isso, sinto um sentimento de segurança, mas também uma tristeza profunda e amarga.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"是的，至少曾经是...每当我看见它的时候，我会感到一丝丝温暖，但随之而来的确是无尽的哀愁。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[मार्ग साफ करें
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Limpar o passageiro]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[清障开路]","color":"gold"}

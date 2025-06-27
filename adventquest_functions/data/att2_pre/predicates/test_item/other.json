@@ -6,7 +6,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:arrow\"},PickupDelay:0s,OnGround:1b}"
+                "nbt": "{Item:{id:\"minecraft:arrow\"},PickupDelay:0s}"
             }
         },
         {
@@ -14,7 +14,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:spectral_arrow\"},PickupDelay:0s,OnGround:1b}"
+                "nbt": "{Item:{id:\"minecraft:spectral_arrow\"},PickupDelay:0s}"
             }
         },
         {
@@ -22,7 +22,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:apple\"},PickupDelay:0s,OnGround:1b}"
+                "nbt": "{Item:{id:\"minecraft:apple\"},PickupDelay:0s}"
             }
         },
         {
@@ -30,7 +30,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:potato\"},PickupDelay:0s,OnGround:1b}"
+                "nbt": "{Item:{id:\"minecraft:potato\"},PickupDelay:0s}"
             }
         },
         {
@@ -38,7 +38,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:carrot\"},PickupDelay:0s,OnGround:1b}"
+                "nbt": "{Item:{id:\"minecraft:carrot\"},PickupDelay:0s}"
             }
         },
         {
@@ -46,7 +46,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:beetroot\"},PickupDelay:0s,OnGround:1b}"
+                "nbt": "{Item:{id:\"minecraft:beetroot\"},PickupDelay:0s}"
             }
         },
         {
@@ -54,7 +54,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:bread\"},PickupDelay:0s,OnGround:1b}"
+                "nbt": "{Item:{id:\"minecraft:bread\"},PickupDelay:0s}"
             }
         },
         {
@@ -62,7 +62,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:rotten_flesh\"},PickupDelay:0s,OnGround:1b}"
+                "nbt": "{Item:{id:\"minecraft:rotten_flesh\"},PickupDelay:0s}"
             }
         }
     ]

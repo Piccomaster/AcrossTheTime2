@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_boots"
+            "id": "minecraft:iron_boots"
         },
-        "title": {"translate":"One Giant Leap For Mankind"},
-        "description": {"translate":"Sprint 100km"},
+        "title": {"translate":"att2.advancement.progress.title.sprint_10000000"},
+        "description": {"translate":"att2.advancement.progress.description.sprint_10000000"},
         "frame": "goal"
     },
     "parent": "att2:progress/sprint_2500000",

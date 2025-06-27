@@ -8,3 +8,5 @@ execute in minecraft:the_nether positioned 3539 89 4582 run function att2:sound/
 execute in minecraft:the_nether positioned 3539 89 4582 run function att2:sound/misc/unlock1
 scoreboard players add wingeu_mech2 ANGOR 1
 execute if score wingeu_mech2 ANGOR matches 2 run function att2:cinematic/act_3/angband/angor/palace/wing_e_up/mech2/end
+#return 1->make command block runing
+return 1

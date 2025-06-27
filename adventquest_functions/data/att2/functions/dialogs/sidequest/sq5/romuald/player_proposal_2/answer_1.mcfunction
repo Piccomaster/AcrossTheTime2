@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Romuald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Sim, bem, é verdade. Eu tenho um problema aqui! *Arrotos* Na época, eu era um soldado de Ryliath e levava uma vida tranquila... Ao sair do exército, adotei um cachorro chamado Mia, ela é como uma filha para mim, sabe? E... Bem, ela desapareceu enquanto eu fazia uma escala em Méleïm. Procurei por ela em todos os lugares, dia e noite na cidade... Sem encontrá-la! *Soluços* Estou cansado e quero acariciar seu pelagem macia e abraçá-la novamente! Mas se você puder me ajudar, eu daria qualquer coisa para vê-la novamente! Por favor, encontre-a!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"啊额，对，我确实有麻烦！ （打嗝）那时候，我还是一名Ryliath的士兵，过着平静的生活... 离开军队后，我收养了Mia，一只狗狗，你知道吗，她对我来说就像女儿一样。 然后...有一次我在Méleïm过夜的时候她居然失踪了，我到处都找遍了，在城里从天黑找到天亮... 还没有找到！（哽咽）我受够了，我现在只想靠在她的毛发上抱着她！ 你可以帮我找到她吗？为了再见她一面我愿意付出一切！求你了，帮我找到她！ ","color":"dark_aqua"}]}

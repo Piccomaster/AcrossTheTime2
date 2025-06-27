@@ -16,7 +16,7 @@ stopsound @a * minecraft:entity.phantom.bite
 stopsound @a * minecraft:entity.phantom.swoop
 
 # Particules for entrance the arena
-particle minecraft:dust 1 0 0 1 7884 127 6772 0.1 2.5 2.5 0 7 normal
+particle minecraft:dust{color:[1,0,0],scale:1} 7884 127 6772 0.1 2.5 2.5 0 7 normal
 
 # Make challengers enters the arena
 execute as @a[x=7883,y=121,z=6766,dx=0,dy=12,dz=12,gamemode=adventure] at @s run tp @s 7933 116 6772

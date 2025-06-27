@@ -63,3 +63,5 @@ summon minecraft:falling_block -1238 125 -674 {Time:1,BlockState:{Name:"minecraf
 summon minecraft:falling_block -1238 126 -674 {Time:1,BlockState:{Name:"minecraft:emerald_block"}}
 summon minecraft:falling_block -1238 127 -674 {Time:1,BlockState:{Name:"minecraft:emerald_block"}}
 summon minecraft:falling_block -1239 130 -675 {Time:1,BlockState:{Name:"minecraft:emerald_block"}}
+#return 1->make command block runing
+return 1

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Compagnon"},
-        "description": {"translate":"A journey is more pleasant with friends."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_ouranos/crossbow_326",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "crossbow_327": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§9Compagnon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un périple est plus agréable entre amis.\\\"}\",\"{\\\"text\\\":\\\"§7A journey is more pleasant with friends.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HUN§a1 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.crossbow_327"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.crossbow_327"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/crossbow_326",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "crossbow_327": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "327"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

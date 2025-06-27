@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Meus irmãos e irmãs, aqui estamos finalmente no momento fatal que mais uma vez determinará o futuro de nosso reino. Sejam fortes, vocês precisarão...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"同胞们，现在是决定我们王国未来的关键时刻！一定要坚持住...！","color":"dark_aqua"}]}

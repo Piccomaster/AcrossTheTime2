@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_helmet"
-        },
-        "title": {"translate":"Chute dorée"},
-        "description": {"translate":"Finally found a use."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
     },
-    "parent": "att2:collection/armor_angband/helmet_131",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_helmet_132": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§7Chute dorée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trouva finalement une utilité.\\\"}\",\"{\\\"text\\\":\\\"§7Finally found a use.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.helmet_132"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.helmet_132"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/helmet_131",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_helmet_132": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "132"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

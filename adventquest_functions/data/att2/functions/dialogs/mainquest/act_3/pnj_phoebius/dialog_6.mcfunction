@@ -54,7 +54,10 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Relgon? Por que ele não veio pessoalmente? Você não parece um Eternän, na verdade, nem parece ser daqui...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Relgon？他为什么不亲自到访？你看起来不像Eternän，我感觉你都不像本土居民...","color":"dark_aqua"}]}
 
 function att2:voice/phoebius/phoebius7
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_12
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_13
+

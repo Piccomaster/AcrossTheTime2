@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- अतीत के अवशे�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Os vestígios do passado -°- : ","color":"gray","extra":[{"text":"Aqui estou em uma espécie de laboratório secreto. Vamos explorar o mais longe possível para encontrar o que está escondido lá...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 过去的遗址 -°- : ","color":"gray","extra":[{"text":"我找到了森林中一个隐藏的实验室，我得弄清楚里面究竟藏了什么。","color":"aqua","italic":true}]}

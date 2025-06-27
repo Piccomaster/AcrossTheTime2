@@ -56,5 +56,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Sim, há uma maneira de ativá-lo. Você precisa de 3 fragmentos de pedras chamadas: ''Gema do Espaço''. Infelizmente, elas estão espalhadas por todo o mundo.","color":"dark_aqua"}]}
 
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"是的，确实有激活那个传送门的方法-你需要找到三颗名为“空间宝石”的宝石。但很不幸，这些石头如今散落于世界各处。","color":"dark_aqua"}]}
+
 function att2:voice/yaakov/yaakov6
 function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_4

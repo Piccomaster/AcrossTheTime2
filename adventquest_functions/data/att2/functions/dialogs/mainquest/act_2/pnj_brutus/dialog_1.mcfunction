@@ -51,6 +51,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Brutus : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"Quem é vo-... *Mudando a voz* Quem é você? Se quer problemas, vá para outro lugar, ou eu te nocautearei!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"你是...（改变语调）你是谁？想来找事的话我要动手了！","color":"dark_aqua"}]}
 
 function att2:voice/brutus/brutus1
 function att2:dialogs/mainquest/act_2/pnj_brutus/player_answer_proposal_1
+

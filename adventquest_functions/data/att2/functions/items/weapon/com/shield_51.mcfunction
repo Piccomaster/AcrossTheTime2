@@ -3,5 +3,6 @@
 #Obtain item shield_51          #
 #####################################
 
-give @s minecraft:shield{EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",Effect:"luc_1",display:{Name:"\"§7Vieil écu\"","Lore":["{\"text\":\"§7Jadis une force de la nature.\"}","{\"text\":\"§7Once a force of nature.\"}","{\"text\":\"§7LUC§c-1\"}"]},Damage:300,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],BlockEntityTag:{Base:8,Patterns:[{Color:7,Pattern:"sc"},{Color:8,Pattern:"cr"},{Color:8,Pattern:"bo"},{Color:8,Pattern:"bts"},{Color:8,Pattern:"tts"},{Color:8,Pattern:"flo"}]},AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:shield[custom_data={EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",LUC:-1,Weapon:"51"},custom_name={translate:"weapon51.name"},lore=[{translate:"weapon51.lore.1"},{translate:"weapon51.lore.2"},{translate:"weapon51.stat"}],max_damage=335,damage=300,enchantments={"unbreaking":1},base_color="light_gray",banner_patterns=[{color:"gray",pattern:"minecraft:straight_cross"},{color:"light_gray",pattern:"minecraft:cross"},{color:"light_gray",pattern:"minecraft:border"},{color:"light_gray",pattern:"minecraft:triangles_bottom"},{color:"light_gray",pattern:"minecraft:triangles_top"},{color:"light_gray",pattern:"minecraft:flower"}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

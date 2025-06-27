@@ -14,3 +14,5 @@ execute positioned -3338 12 -4942 as @a[distance=11..25] run scoreboard players 
 kill @e[type=minecraft:giant,x=-3338,y=13,z=-4942,distance=..10]
 kill @e[type=minecraft:guardian,x=-3338,y=13,z=-4942,distance=..5]
 kill @e[type=minecraft:creeper,x=-3338,y=13,z=-4942,distance=..5]
+#return 1->make command block runing
+return 1

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Buste superbe"},
-        "description": {"translate":"You'll wear it with pride!"},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/chestplate_342",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_chestplate_253": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Buste superbe\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tu le porteras avec fierté !\\\"}\",\"{\\\"text\\\":\\\"§7You'll wear it with pride!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.chestplate_253"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.chestplate_253"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/chestplate_342",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_chestplate_253": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "253"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

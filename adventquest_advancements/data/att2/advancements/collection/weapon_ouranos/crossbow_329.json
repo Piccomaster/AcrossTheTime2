@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Unkempt Harold"},
-        "description": {"translate":"Did I fire six shots, or only five? Three? Seven. Whatever."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_ouranos/crossbow_328",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "crossbow_329": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§6Unkempt Harold\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7J'ai tiré quoi, six fois ? Ou Cinq ?\\\"}\",\"{\\\"text\\\":\\\"§7Trois ? Sept. Peu Importe.\\\"}\",\"{\\\"text\\\":\\\"§7Did I fire six shots, or only five?\\\"}\",\"{\\\"text\\\":\\\"§7Three? Seven. Whatever.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HER§a1 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.crossbow_329"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.crossbow_329"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/crossbow_328",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "crossbow_329": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "329"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

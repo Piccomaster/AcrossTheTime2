@@ -3,4 +3,4 @@
 #Display reward bronze effect 					 #
 ##################################################
 
-summon firework_rocket ~ ~1 ~ {Silent:1,LifeTime:10,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1,Colors:[I;11743532],FadeColors:[I;14188952]}],Flight:1}}}}
+summon firework_rocket ~ ~1 ~ {Silent:1,LifeTime:10,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{Explosions:[{shape:large_ball,has_twinkle:1,colors:[I;11743532],fade_colors:[I;14188952]}],flight_duration:1}}}}

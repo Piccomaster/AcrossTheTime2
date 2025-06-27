@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Edwin Vortid : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"Hmm... Não posso dizer não.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"啊嗯...好吧好吧，谢谢你。","color":"dark_aqua"}]}

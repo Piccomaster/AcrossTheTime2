@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:65535}"
-        },
-        "title": {"translate":"Satiété"},
-        "description": {"translate":"Nothing organic about this potion, and yet what a treat."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_18",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_46": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§2Satiété\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rien d'organique en cette potion,\\\"}\",\"{\\\"text\\\":\\\"§7et pourtant quel régal.\\\"}\",\"{\\\"text\\\":\\\"§7Nothing organic about this potion,\\\"}\",\"{\\\"text\\\":\\\"§7and yet what a treat.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a5\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "46"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_46"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_46"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_18",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_46": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "46"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

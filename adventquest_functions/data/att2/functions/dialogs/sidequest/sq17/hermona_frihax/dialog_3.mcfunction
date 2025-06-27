@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hermona : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Você encontrou os curativos? Deixe-os de lado quando tiver tudo. Pronto, você deve se sentir um pouco melhor agora...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"你找到绷带了吗？当你找够了之后把它们放到旁边就好了。现在你应该感觉好多了...","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alexandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"Aqui, isso é tudo o que eu tenho. Mas meu companheiro não sobreviveu ao ataque dos monstros, não posso abandonar a carga aqui e sem ele será complicado movê-la. Ajude-me a levar isso de volta para o local de trabalho, por favor!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"给你，这是我所有的Chronotons，但是我的同伴没能在怪物的袭击中活下来，我不能把石材丢在这里，但我一个人搬运很困难，请你帮我把这些石材带回工地！","color":"dark_aqua"}]}

@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gaelle : ","color":"green","extr
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Desculpe, mas você não tem Chronotons suficientes na sua conta para retirar essa quantidade...","color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"抱歉，银行内现有余额小于取出金额。","color":"gold"}]}

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[लाभ का प्रलोभन
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[A isca do lucro]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[利益的诱饵]","color":"gold"}

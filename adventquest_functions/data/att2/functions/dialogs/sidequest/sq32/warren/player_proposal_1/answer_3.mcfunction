@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Warren : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Hmm, é metade do valor das minhas mercadorias, mas sem você eu perco tudo... Bem, eu vou te dar quando você trouxer as mercadorias de volta. Aconselho você a seguir outro caminho, este está bloqueado.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"嗯..好吧，这已经是我货物一半的价钱了，但是没有你的话，我就什么都没有了..好吧，如果你能把货物带回来，我会给你应有的报酬,我建议你往北边走到火山的尽头，那里还有一条路可以进入火山，这边的路被堵死了。","color":"dark_aqua"}]}

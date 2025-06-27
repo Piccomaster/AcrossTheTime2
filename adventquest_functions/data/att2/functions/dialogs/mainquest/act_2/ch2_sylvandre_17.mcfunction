@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"O palácio é o maior orgulho da nossa cidade. Ele pode resistir a um cerco de mais de dois anos! É o lar do nosso rei, sua rainha e sua filha, a jovem princesa. Apenas alguns privilegiados têm permissão para entrar...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"这座宫殿是我们城市最引以为傲的建筑。它能抵抗两年以上的围攻！这是国王、王后及年轻公主的府邸。只有少数持有特权的人才会被准许入内...","color":"dark_aqua"}]}

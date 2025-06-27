@@ -20,3 +20,5 @@ execute if score Real1 TIMER matches 700 run data merge entity 00000000-0000-153
 
 execute if score Real1 TIMER matches 701.. run function att2:cinematic/sidequest/50/end
 execute if score Real1 TIMER matches ..700 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

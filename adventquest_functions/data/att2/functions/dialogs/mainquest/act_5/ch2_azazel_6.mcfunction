@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Azazel : ","color":"gold","extra
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"Como isso é possível? Por qual milagre... Sérile...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"这怎么可能？这是何等的奇迹！...Sérile...我的宝贝女儿...","color":"dark_aqua"}]}

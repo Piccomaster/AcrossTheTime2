@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor148.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor148.lore.1"
+                  },
+                  {
+                    "translate": "armor148.lore.2"
+                  },
+                  {
+                    "translate": "armor148.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "rar",
+                  "Manufacturer": "eternan",
+                  "SPD": 2,
+                  "LUC": 1,
+                  "STR": -2,
+                  "Armor": "148"
+                },
+                "minecraft:enchantments": {
+                  "unbreaking": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.helmet",
+                    "amount": 2.71,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.helmet",
+                    "amount": 0.33,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 80
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

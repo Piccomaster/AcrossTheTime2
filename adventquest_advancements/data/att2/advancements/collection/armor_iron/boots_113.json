@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_boots"
-        },
-        "title": {"translate":"Pied lourd"},
-        "description": {"translate":"For a bully's step."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
     },
-    "parent": "att2:collection/armor_iron/boots_106",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_boots_113": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_boots"],
-                    "nbt": "{display:{Name:\"\\\"§2Pied lourd\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pour un pas de brute.\\\"}\",\"{\\\"text\\\":\\\"§7For a bully's step.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.boots_113"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.boots_113"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/boots_106",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_boots_113": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "113"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

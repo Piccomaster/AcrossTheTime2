@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_sword",
+            "id": "minecraft:wooden_sword",
             "nbt": "{CustomModelData:10000000}"
         },
-        "title": {"translate":"Fortuity"},
-        "description": {"translate":"Hold the mythical sword FORTUITY"},
+        "title": {"translate": "att2.advancement.collection.mythique.title.fortuity"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.fortuity"},
         "frame": "challenge",
         "hidden":true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_5",
+        "function": "att2:advancement/test_all/collection/fortuity",
         "experience": 50
                 },
     "criteria": {

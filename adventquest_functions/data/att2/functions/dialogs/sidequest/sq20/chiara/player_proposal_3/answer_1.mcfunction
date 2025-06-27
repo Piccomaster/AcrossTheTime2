@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Você tem a alma de um verdadeiro trapaceiro... Afinal, se esse é o preço a pagar pela tranquilidade... Está bem, saúde!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你真是个大骗子...就当是为这宁静的生活所付出的代价好了...我同意了，成交！","color":"dark_aqua"}]}

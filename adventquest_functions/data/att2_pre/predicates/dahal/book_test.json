@@ -3,6 +3,6 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:item",
-        "nbt": "{Item:{tag:{Dahal:book}}}"
+        "nbt": "{Item:{id:'minecraft:written_book',components:{'minecraft:custom_data':{Dahal:'book'}}}}"
     }
 }

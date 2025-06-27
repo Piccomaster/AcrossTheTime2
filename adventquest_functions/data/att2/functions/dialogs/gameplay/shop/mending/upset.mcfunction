@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"मैं इसके साथ कु
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Eu não posso fazer nada com isso!","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"这东西能修？！？！ ","color":"gray"}

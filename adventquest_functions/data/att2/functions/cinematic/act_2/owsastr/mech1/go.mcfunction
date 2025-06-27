@@ -47,7 +47,7 @@ execute if score mech1 OWSASTR matches 5 if block -4945 72 -4379 minecraft:acaci
 execute if score mech1 OWSASTR matches 5 if block -4945 72 -4379 minecraft:acacia_wood positioned -4944 76 -4386 run function att2:summon/reg_1/skeletonarcher0_class7
 execute if score mech1 OWSASTR matches 5 if block -4945 72 -4379 minecraft:acacia_wood positioned -4940 71 -4381 run function att2:summon/reg_1/slimesmall0_class6
 execute if score mech1 OWSASTR matches 5 if block -4945 72 -4379 minecraft:acacia_wood positioned -4946 71 -4381 run function att2:sound/misc/mirror_moving_2
-execute if score mech1 OWSASTR matches 5 if block -4945 72 -4379 minecraft:acacia_wood run summon minecraft:armor_stand -4945.1 70.9 -4380.15 {HandItems:[{},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:0}}}],ShowArms:1,Invisible:1,Invulnerable:1,NoGravity:1,DisabledSlots:2039552,Pose:{LeftArm:[90f,0f,-45f],RightArm:[90f,0f,-45f]},Rotation:[0.0f,0.0f]}
+execute if score mech1 OWSASTR matches 5 if block -4945 72 -4379 minecraft:acacia_wood run summon minecraft:armor_stand -4945.1 70.9 -4380.15 {equipment:{mainhand:{},offhand:{id:"minecraft:shield",count:1,components:{BlockEntityTag:{base:0}}}},ShowArms:1,Invisible:1,Invulnerable:1,NoGravity:1,DisabledSlots:2039552,Pose:{LeftArm:[90f,0f,-45f],RightArm:[90f,0f,-45f]},Rotation:[0.0f,0.0f]}
 execute if score mech1 OWSASTR matches 5 if block -4945 72 -4379 minecraft:acacia_wood run function att2:physicmod/reg1/owsastr/mirror1_rotation
 
 execute if score mech1 OWSASTR matches 6..7 run particle minecraft:end_rod -4933 75.5 -4370 0.1 2 0.1 0 1
@@ -66,3 +66,5 @@ execute if score mech1 OWSASTR matches 7 if block -4948 77 -4374 minecraft:mossy
 execute if score mech1 OWSASTR matches 7 if block -4948 77 -4374 minecraft:mossy_stone_bricks as @a at @s run function att2:sound/door/large_stone_door
 execute if score mech1 OWSASTR matches 7 if block -4948 77 -4374 minecraft:mossy_stone_bricks run function att2:physicmod/reg1/owsastr/door1
 
+#return 1->make command block runing
+return 1

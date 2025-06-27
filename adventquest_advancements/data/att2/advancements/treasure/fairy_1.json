@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:scute"
+            "id": "minecraft:scute"
         },
-        "title": {"translate":"Lost soul"},
-        "description": {"translate":"Catch your first Lost Soul"}
+        "title": {"translate": "att2.advancement.treasure.title.fairy_1"},
+        "description": {"translate": "att2.advancement.treasure.description.fairy_1"}
     },
     "parent": "att2:treasure/root",
         "rewards": {

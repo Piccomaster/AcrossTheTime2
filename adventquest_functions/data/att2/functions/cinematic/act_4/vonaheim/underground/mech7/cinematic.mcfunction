@@ -12,7 +12,7 @@ execute if score Real0 TIMER matches 100 run function att2:cinematic/act_4/vonah
 execute if score Real0 TIMER matches 110..149 as @a[gamemode=spectator] at @s run tp @s -5698 80 -6420 ~-9 0
 execute if score Real0 TIMER matches 120 at @a run function att2:sound/misc/breath
 execute if score Real0 TIMER matches 150..349 as @a[gamemode=spectator] at @s run tp @s -5698 81 -6420 180 10
-execute if score Real0 TIMER matches 160..170 run particle minecraft:block minecraft:redstone_block -5698 81 -6431 1.5 0 1.5 1 100 force
+execute if score Real0 TIMER matches 160..170 run particle block{block_state:"minecraft:redstone_block"} -5698 81 -6431 1.5 0 1.5 1 100 force
 execute if score Real0 TIMER matches 170..250 at 00000000-0000-006b-0000-00000000006b run particle minecraft:crit ~ ~ ~ 1 1 1 0 5 normal
 execute if score Real0 TIMER matches 200..250 as 00000000-0000-006b-0000-00000000006b at @s run tp @s ~ ~0.01 ~ ~5 ~
 execute if score Real0 TIMER matches 200 at @a run function att2:sound/mobs/vonaheim_laughing
@@ -30,3 +30,5 @@ execute if score Real0 TIMER matches 350 as @a[gamemode=spectator] run function 
 
 execute if score Real0 TIMER matches 351 run scoreboard players set underground_mech7 VONAHEIM 2
 execute if score Real0 TIMER matches ..350 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

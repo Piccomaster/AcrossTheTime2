@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_chestplate"
+            "id": "minecraft:netherite_chestplate"
         },
-        "title": {"translate":"Full obsidian!"},
-        "description": {"translate":"Protect yourself with a full set of netherite armor"}
+        "title": {"translate":"att2.advancement.adventure.title.netherite_armor_full"},
+        "description": {"translate":"att2.advancement.adventure.description.netherite_armor_full"}
     },
     "parent": "att2:adventure/netherite_armor",
     "rewards": {

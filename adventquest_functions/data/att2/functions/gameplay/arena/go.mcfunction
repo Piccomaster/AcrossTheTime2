@@ -57,7 +57,7 @@ execute if score Tournament ARENA matches 5 positioned 5000 125 -5000 if entity 
 function att2:gameplay/arena/return_to_ryliath
 
 # Test if player took mythical armor set loot because can be droped just once
-execute if score Hermetique_Helmet ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] run scoreboard players set Hermetique_Helmet ARENA 1
-execute if score Hermetique_Chestplate ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] run scoreboard players set Hermetique_Chestplate ARENA 1
-execute if score Hermetique_Leggings ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] run scoreboard players set Hermetique_Leggings ARENA 1
-execute if score Hermetique_Boots ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] run scoreboard players set Hermetique_Boots ARENA 1
+execute if score Hermetique_Helmet ARENA matches 0 if entity @a[nbt={Inventory:[{components:{"minecraft:custom_data":{EquipmentID:"carminahermetica"}}}]}] run scoreboard players set Hermetique_Helmet ARENA 1
+execute if score Hermetique_Chestplate ARENA matches 0 if entity @a[nbt={Inventory:[{components:{"minecraft:custom_data":{EquipmentID:"corpushermeticum"}}}]}] run scoreboard players set Hermetique_Chestplate ARENA 1
+execute if score Hermetique_Leggings ARENA matches 0 if entity @a[nbt={Inventory:[{components:{"minecraft:custom_data":{EquipmentID:"liberhermetis"}}}]}] run scoreboard players set Hermetique_Leggings ARENA 1
+execute if score Hermetique_Boots ARENA matches 0 if entity @a[nbt={Inventory:[{components:{"minecraft:custom_data":{EquipmentID:"thricegreatesthermes"}}}]}] run scoreboard players set Hermetique_Boots ARENA 1

@@ -27,3 +27,5 @@ execute if score Real0 TIMER matches 301 run scoreboard players set Mainquest SI
 
 execute if score Real0 TIMER matches 301.. run setblock 7303 127 6995 minecraft:air
 execute if score Real0 TIMER matches ..300 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

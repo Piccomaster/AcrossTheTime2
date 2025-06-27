@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_boots"
-        },
-        "title": {"translate":"Patte de la bête"},
-        "description": {"translate":"Make the earth tremble and bring panic and distress with you."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
     },
-    "parent": "att2:collection/armor_iron/boots_122",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_boots_126": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Patte de la bête\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fait trembler la terre et apporte\\\"}\",\"{\\\"text\\\":\\\"§7la panique et la détresse avec toi.\\\"}\",\"{\\\"text\\\":\\\"§7Make the earth tremble and bring\\\"}\",\"{\\\"text\\\":\\\"§7panic and distress with you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HUN§a1 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.boots_126"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.boots_126"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/boots_122",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "iron_boots_126": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "126"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

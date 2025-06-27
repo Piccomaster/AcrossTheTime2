@@ -51,6 +51,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"*Voz seca e cansada* Bem-vindo à nossa academia, jovem viajante. Eu sou o arquimago Aramis, mestre do lugar e intendente da cidade de Eolorion. Disseram-me que você estava me procurando, o que você quer?","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"*干涩、疲惫的声音*欢迎来到我们的学院，年轻的旅行者。我是大贤者Aramis，Eolorion之主与城市管理者。我听说你在找我，你想要什么？","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis1
 function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_1
+

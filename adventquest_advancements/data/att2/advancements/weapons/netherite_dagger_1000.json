@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_shovel"
+            "id": "minecraft:netherite_shovel"
         },
-        "title": {"translate":"Obsidian dagger combo"},
-        "description": {"translate":"Strike 1000 times with an obsidian dagger"},
+        "title": {"translate": "att2.advancement.weapons.title.netherite_dagger_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.netherite_dagger_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/netherite_dagger_250",

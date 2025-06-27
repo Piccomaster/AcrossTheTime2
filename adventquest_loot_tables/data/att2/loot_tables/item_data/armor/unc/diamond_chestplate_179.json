@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor179.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor179.lore.1"
+                  },
+                  {
+                    "translate": "armor179.lore.2"
+                  },
+                  {
+                    "translate": "armor179.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "unc",
+                  "Manufacturer": "delightful",
+                  "STR": -1,
+                  "Armor": "179"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.chestplate",
+                    "amount": 3.23,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.chestplate",
+                    "amount": 0.74,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:damage": 390,
+                "minecraft:max_damage": 530
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

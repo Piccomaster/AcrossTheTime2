@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"O portal da sua cidade, sei que ele também permite a passagem para outras épocas. Não tenho outra escolha senão usar este, porque o lugar de onde venho não pode ser alcançado por nenhum cavalo ou barco.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"通过你们城市的传送门，我知道它也能通往其他维度。我别无选择，因为我来的地方任何马匹或船只都无法到达。","color":"aqua"}]}

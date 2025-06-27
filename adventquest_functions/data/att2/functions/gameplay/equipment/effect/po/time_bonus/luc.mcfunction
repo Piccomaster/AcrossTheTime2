@@ -5,7 +5,7 @@
 
 
 ##POTION TIP set
-scoreboard players set POTION_CHECK_LUC TIMER 1
+scoreboard players set @s POTION_CHECK_LUC 1
 execute if score BonusTimePotion RUNE matches 1.. run scoreboard players add @s TIMER_LUC_PO 400
 execute if score BonusTimePotion RUNE matches 2.. run scoreboard players add @s TIMER_LUC_PO 400
 execute if score BonusTimePotion RUNE matches 3.. run scoreboard players add @s TIMER_LUC_PO 400

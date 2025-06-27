@@ -3,4 +3,4 @@
 #Summon diamond                 				 #
 ##################################################
 
-summon minecraft:item ~ ~ ~ {PickupDelay:20,Motion:[0.1,0.3,0.0],Item:{id:"minecraft:diamond",Count:1,tag:{display:{Name:"{\"text\":\"§b§oDiamant\"}","Lore":["{\"text\":\"§b§oDiamond\"}","{\"text\":\"§6+50 Chronotons\"}"]}}}}
+summon minecraft:item ~ ~ ~ {PickupDelay:20,Motion:[0.1,0.3,0.0],Item:{id:"minecraft:diamond",Count:4,components:{display:{Name:"{\"text\":\"§b§o钻石\"}","Lore":["{\"text\":\"§b§oDiamond\"}","{\"text\":\"§6+50 Chronotons\"}"]}}}}

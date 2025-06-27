@@ -59,6 +59,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Você ainda não cuidou do Raj? Ele mora debaixo da grande ponte de Méleïm, no cais, bem perto da ponte levadiça. Como ele é insuportável...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"你还没有解决Raj的事情？他的家就在码头附近的那座大桥下，离活动吊桥很近。于我而言，他真的很烦...","color":"dark_aqua"}]}
 
 
 function att2:voice/syri/syri_dialogue1
+

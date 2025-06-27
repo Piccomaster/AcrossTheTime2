@@ -18,3 +18,5 @@ execute if score Real2 TIMER matches 80 run function att2:sound/dahal/loading_fa
 execute if score Real2 TIMER matches 85 run effect give @s minecraft:blindness 1 0 true
 execute if score Real2 TIMER matches 90 run effect give @s minecraft:blindness 1 0 true
 execute if score Real2 TIMER matches 95 run effect give @s minecraft:blindness 1 0 true
+#return 1->make command block runing
+return 1

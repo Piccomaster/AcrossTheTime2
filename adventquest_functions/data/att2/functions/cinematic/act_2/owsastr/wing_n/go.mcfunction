@@ -20,3 +20,5 @@ execute if score wingN OWSASTR matches 2.. run function att2:cinematic/act_2/ows
 execute if score wingNSecret OWSASTR matches 3 if block -4975 73 -4412 minecraft:acacia_wood positioned -4975 73 -4412 run function att2:sound/misc/quick_burning
 execute if score wingNSecret OWSASTR matches 3 if block -4975 73 -4412 minecraft:acacia_wood positioned -4975 73 -4412 run function att2:sound/misc/secret
 execute if score wingNSecret OWSASTR matches 3 if block -4975 73 -4412 minecraft:acacia_wood run function att2:physicmod/reg1/owsastr/wingn_secret
+#return 1->make command block runing
+return 1

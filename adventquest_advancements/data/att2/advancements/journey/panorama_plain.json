@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Sylberländ Plain Panorama"},
-        "description": {"translate":"Discover the panorama of Sylberländ plain"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_plain"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_plain"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_plain",

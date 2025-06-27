@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Cheguei ao topo das fortificações do palácio, mas as portas para os níveis superiores estão fechadas. Devo tentar ir para uma ala inferior, talvez encontre lá um passagem, ou uma grande chave.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我到达了宫殿防御工事的顶部，但上层的门已关闭。我应该先去堡垒下翼碰碰运气，我也许会在那儿找到一条通道，或是一把大钥匙。","color":"aqua"}]}

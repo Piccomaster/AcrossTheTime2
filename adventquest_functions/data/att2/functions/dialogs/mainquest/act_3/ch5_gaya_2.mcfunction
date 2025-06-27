@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gaya : ","color":"dark_green","e
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gaya : ","color":"dark_green","extra":[{"text":"Infelizmente, ele não é meu filho. Tudo que tem um começo, também tem um fim, mas você não pode ignorar isso...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gaya : ","color":"dark_green","extra":[{"text":"很不幸，他并非我的孩子。万物既有始，自然也有终，不要忽略了这点，我的孩子。","color":"dark_aqua"}]}

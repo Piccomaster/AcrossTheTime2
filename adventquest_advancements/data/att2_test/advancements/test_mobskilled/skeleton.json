@@ -1,25 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:target"
-        },
-        "title": {"translate":"test"},
-        "description": {"translate":"skeleton"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
+  "display": {
+    "icon": {
+      "item": "minecraft:target"
     },
-    "rewards": {
-        "function": "att2:advancement/test_all/mobskilled/skeleton"
+    "title": {
+      "translate": "test"
     },
-    "criteria": {
-        "minecraft:skeleton": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-            "entity": {
-              "type": "minecraft:skeleton"
-            }
-          }
+    "description": {
+      "translate": "skeleton"
+    },
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "att2:advancement/test_all/mobskilled/skeleton"
+  },
+  "criteria": {
+    "skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton"
         }
+      }
+    },
+    "stray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:stray"
+        }
+      }
     }
+  },
+  "requirements": [
+    [
+      "skeleton",
+      "stray"
+    ]
+  ]
 }

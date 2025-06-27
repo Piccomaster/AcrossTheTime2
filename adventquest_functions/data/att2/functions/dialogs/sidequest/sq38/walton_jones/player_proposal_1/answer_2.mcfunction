@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Ah, espere... Ah sim! Lembro dessas palavras encontradas por meu pai no cemitério dos antigos em Ëarndhel, onde ele encontrou os primeiros rastros desse grupo ritualista... Tenho seu caderno, vou tentar recitar essas palavras sem errar: -Klaa...tu, Bar..ada, Nikto-","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"呃，等等...啊，有的！我记得我的父亲在Earndhel一处古墓地里发现过一段话，他在那里找到了这些仪式团体的第一批痕迹...我有他的考察笔记，我尽量一字不差地念出这些咒语：-Klaa .. .tu, Bar..ada, Nikto-","color":"dark_aqua"}]}

@@ -3,5 +3,6 @@
 #Obtain item leather_boots_38          #
 #####################################
 
-give @s minecraft:leather_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"teran",Shop:"buy",Effect:"",display:{Name:"\"§2Bottines usées\"","Lore":["{\"text\":\"§7N'ont jamais convenu à personne.\"}","{\"text\":\"§7Never suited anyone.\"}"],color:9600315},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:1s},{id:"minecraft:blast_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.74,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.3,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]} 1
+give @s minecraft:leather_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'teran',Shop:'buy',Armor:'38'},custom_name={translate:'armor38.name'},lore=[{translate:'armor38.lore.1'},{translate:'armor38.lore.2'},{translate:'armor38.stat'}],max_damage=70,damage=0,enchantments={'unbreaking':1,'blast_protection':1},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:0.74},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.3},{slot:'feet',type:'knockback_resistance',id:'armor.boots',operation:'add_value',amount:0.02}],dyed_color=9600315]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

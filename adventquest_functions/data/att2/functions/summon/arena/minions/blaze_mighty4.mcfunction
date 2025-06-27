@@ -3,4 +3,4 @@
 #Summon blaze Minions arena  		        	 #
 ##################################################
 
-summon minecraft:blaze ~ ~ ~ {Glowing:1,Tags:["LVL0","CLASS19","ArenaMinion","Mighty4"],PersistenceRequired:1,DeathLootTable:"att2:empty",Attributes:[{Name:generic.follow_range,Base:100.0}],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon minecraft:blaze ~ ~ ~ {Glowing:1,Tags:["LVL0","CLASS19","ArenaMinion","Mighty4"],PersistenceRequired:1,DeathLootTable:"att2:empty",attributes:[{id:follow_range,base:100.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:diamond_boots",count:1},legs:{id:"minecraft:diamond_leggings",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},head:{id:"minecraft:diamond_helmet",count:1}}}

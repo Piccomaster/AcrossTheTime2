@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Ouranos tower Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Ouranos tower"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_ouranos_tower"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_ouranos_tower"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_ouranos",

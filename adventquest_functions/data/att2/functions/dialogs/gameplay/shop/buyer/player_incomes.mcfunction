@@ -48,3 +48,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपको ","color":"dark_gray","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Você obtém ","color":"dark_gray","extra":[{"score":{"name":"total","objective":"RECYCLER"},"color":"yellow"},{"text":" Cronotons.","color":"dark_gray"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"你获得了 ","color":"dark_gray","extra":[{"score":{"name":"total","objective":"RECYCLER"},"color":"yellow"},{"text":" Chronotons.","color":"dark_gray"}]}

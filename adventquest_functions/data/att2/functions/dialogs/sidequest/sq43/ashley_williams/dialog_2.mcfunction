@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ashley Williams : ","color":"gr
 function att2:dialogs/sidequest/sq43/ashley_williams/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq43/ashley_williams/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq43/ashley_williams/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"是的，你想要什么？","color":"dark_aqua"}]}

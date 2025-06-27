@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_leggings"
-        },
-        "title": {"translate":"Complice du Chaos"},
-        "description": {"translate":"In this sleeping reality of thousand fertile precipices, mute Entropy invested of will, perceived while waking up, the ultimate destructive desire until the fall of the mountains."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
     },
-    "parent": "att2:collection/armor_iron/leggings_129",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "iron_leggings_304": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§6Complice du Chaos\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aEn cette réalité dormante de mille précipices féconds, muette Entropie investie de volonté, \\\"}\",\"{\\\"text\\\":\\\"§aperçut en s'éveillant, l'ultime désir destructeur jusqu'à la chute des montagnes.\\\"}\",\"{\\\"text\\\":\\\"§aIn this sleeping reality of thousand fertile precipices, mute Entropy invested of will,\\\"}\",\"{\\\"text\\\":\\\"§aperceived while waking up, the ultimate destructive desire until the fall of the mountains.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HAS§a2 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.leggings_304"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.leggings_304"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/leggings_129",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_leggings_304": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "304"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanting_table"
+            "id": "minecraft:enchanting_table"
         },
-        "title": {"translate":"Armor for the masses"},
-        "description": {"translate":"Obtain armor with an enchantment"}
+        "title": {"translate":"att2.advancement.adventure.title.enchanting_armor"},
+        "description": {"translate":"att2.advancement.adventure.description.enchanting_armor"}
     },
     "parent": "att2:adventure/root",
     "rewards": {

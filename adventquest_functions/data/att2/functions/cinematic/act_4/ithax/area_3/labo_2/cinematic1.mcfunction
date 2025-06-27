@@ -17,3 +17,5 @@ execute if score Real0 TIMER matches 50 run data merge entity 00000000-0000-007b
 
 execute if score Real0 TIMER matches 51.. run scoreboard players set area3_event14 ITHAX -1
 execute if score Real0 TIMER matches ..50 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

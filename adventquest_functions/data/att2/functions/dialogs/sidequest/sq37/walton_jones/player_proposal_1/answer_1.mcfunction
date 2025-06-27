@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Fechado, eu vou dar uma olhada quando você espantar esses monstros. Desça e caminhe ao longo do córrego, você não terá dificuldade em encontrá-los...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"成交，你把那些怪物赶跑之后我会去检查的。沿着房子下面的激流走下去，你很容易就能找到它们...","color":"dark_aqua"}]}

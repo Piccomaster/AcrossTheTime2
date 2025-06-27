@@ -1,28 +1,42 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
-        "title": {"translate":"Vonaheim"},
-        "description": {"translate":"Discover Vonaheim dungeon"}
+        "title": {
+            "translate": "att2.advancement.journey.title.discover_vonaheim"
+        },
+        "description": {
+            "translate": "att2.advancement.journey.ZZZ.discover_vonaheim"
+        }
     },
     "parent": "att2:journey/discover_eolorion",
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 250
-                },
+    },
     "criteria": {
         "discover_vonaheim": {
             "trigger": "minecraft:location",
-          "conditions": {
-                "player": [{
+            "conditions": {
+                "player": [
+                    {
                         "condition": "minecraft:location_check",
                         "predicate": {
-                "dimension": "overworld",
-                "position": {
-                    "x": {"min":-5646.0,"max":-5563.0},
-                    "y": {"min":70.0,"max":150.0},
-                    "z": {"min":-6268.0,"max":-6191.0}
+                            "dimension": "overworld",
+                            "position": {
+                                "x": {
+                                    "min": -5646.0,
+                                    "max": -5563.0
+                                },
+                                "y": {
+                                    "min": 70.0,
+                                    "max": 150.0
+                                },
+                                "z": {
+                                    "min": -6268.0,
+                                    "max": -6191.0
+                                }
                             }
                         }
                     }

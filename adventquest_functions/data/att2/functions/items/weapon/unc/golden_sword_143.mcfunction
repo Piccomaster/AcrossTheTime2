@@ -3,5 +3,6 @@
 #Obtain item golden_sword_143          #
 #####################################
 
-give @s minecraft:golden_sword{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Effect:"hun1_dar_2",display:{Name:"\"§2Trop longue lame\"","Lore":["{\"text\":\"§7Dans quelle fiction crois-tu être ?\"}","{\"text\":\"§7What fiction do you think you're in?\"}","{\"text\":\"§7HUN§a1 §7DAR§c-2\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:7.55,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.89,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:golden_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",HUN:1,DAR:-2,Weapon:"143"},custom_name={translate:"weapon143.name"},lore=[{translate:"weapon143.lore.1"},{translate:"weapon143.lore.2"},{translate:"weapon143.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:7.55},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.89}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

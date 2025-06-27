@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo está entediado com eles... É hora de J'zargo partir, o que ele procura não está neste reino. Ele deve ir para Billgart.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo对这些东西感到厌烦了...J'zargo是时候离开了，他要找的东西不在这座王国之中。他必须前往Billgart。","color":"dark_aqua"}]}

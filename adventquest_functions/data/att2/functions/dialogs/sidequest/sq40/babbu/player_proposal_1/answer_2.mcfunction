@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Babbu : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Ah, entendo, mas por enquanto estou apenas começando o negócio. Não se preocupe, com esse velho navio eu certamente ficarei rico em breve! Camarões são o futuro e eu estaria pronto para te dar metade do que possuo. Por enquanto, posso te passar este mapa. Provavelmente leva a um tesouro!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"哈，我理解你，但是我是刚开始做生意。而虾会指引着我们的未来，到时我会给你一半的分成。我刚才给你的这个地图可能标记着某处宝藏的位置。放心，有了这艘沉船的宝藏，我们很快就会发家致富的！","color":"dark_aqua"}]}

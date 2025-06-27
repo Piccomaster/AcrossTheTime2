@@ -53,6 +53,10 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Brutus : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"*Sussurrando* Nem me fale! Eu realmente não sou do tipo que bate nas pessoas.... Mas deixe-me ajudá-lo: a oeste da vila, há um bosque cheio de vegetação.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（耳语）别这样！我不是那些随意动粗的家伙...让我帮你一把吧： 你得去寨子的西侧，那有个杂草丛生的小树林...","color":"dark_aqua"}]}
 
 function att2:voice/brutus/brutus3
 function att2:dialogs/mainquest/act_2/pnj_brutus/player_answer_proposal_2
+
+

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Owsästr Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Owsästr"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_owsastr"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_owsastr"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_owsastr",

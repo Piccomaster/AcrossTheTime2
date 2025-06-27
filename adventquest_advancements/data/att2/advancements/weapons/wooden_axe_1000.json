@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_axe"
+            "id": "minecraft:wooden_axe"
         },
-        "title": {"translate":"Wooden axe combo"},
-        "description": {"translate":"Strike 600 times with a wooden axe"},
+        "title": {"translate": "att2.advancement.weapons.title.wooden_axe_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.wooden_axe_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/wooden_axe_250",

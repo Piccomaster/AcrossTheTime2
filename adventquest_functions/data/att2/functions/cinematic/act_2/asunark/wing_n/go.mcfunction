@@ -15,3 +15,5 @@ execute if score Asunark0 TIMER matches 3 positioned -3457 30 -5001 run function
 execute if score Asunark0 TIMER matches 2 positioned -3457 30 -5001 run function att2:sound/misc/unlock1
 execute if score Asunark0 TIMER matches 1 positioned -3457 30 -5001 run function att2:sound/misc/unlock1
 execute if score Asunark0 TIMER matches ..1 run function att2:cinematic/act_2/asunark/wing_n/failed
+#return 1->make command block runing
+return 1

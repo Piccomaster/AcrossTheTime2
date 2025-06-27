@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_helmet"
-        },
-        "title": {"translate":"Do al dézäl"},
-        "description": {"translate":"Hope is a more powerful weapon than anger, fear or sadness."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
     },
-    "parent": "att2:collection/armor_angband/helmet_148",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_helmet_155": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Do al dézäl\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'espoir est une arme plus puissante\\\"}\",\"{\\\"text\\\":\\\"§7que la colère, la peur ou la tristesse.\\\"}\",\"{\\\"text\\\":\\\"§7Hope is a more powerful weapon\\\"}\",\"{\\\"text\\\":\\\"§7than anger, fear or sadness.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7LUC§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.helmet_155"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.helmet_155"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/helmet_148",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_helmet_155": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "155"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

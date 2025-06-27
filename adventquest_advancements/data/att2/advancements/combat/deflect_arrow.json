@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "id": "minecraft:shield"
         },
-        "title": {"translate":"Not Today"},
-        "description": {"translate":"Deflect an arrow with a shield"}
+        "title": {"translate":"att2.advancement.combat.title.deflect_arrow"},
+        "description": {"translate":"用盾牌抵挡1只箭"}
     },
     "parent": "att2:combat/shield",
     "rewards": {
@@ -27,3 +27,4 @@
     }
   }
 }
+

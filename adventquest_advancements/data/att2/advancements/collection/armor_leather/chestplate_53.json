@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Manteau de sang"},
-        "description": {"translate":"Insatiable for blood, no spatter alters you."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_leather/chestplate_65",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "leather_chestplate_53": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Manteau de sang\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Insatiable pour le sang, aucune\\\"}\",\"{\\\"text\\\":\\\"§7éclaboussure ne t'altère.\\\"}\",\"{\\\"text\\\":\\\"§7Insatiable for blood,\\\"}\",\"{\\\"text\\\":\\\"§7no spatter alters you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7HAS§a1\\\"}\"],color:11012662}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.chestplate_53"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.chestplate_53"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/chestplate_65",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_chestplate_53": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "53"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

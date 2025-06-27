@@ -14,3 +14,6 @@ execute if score @s SPELL31_CAP matches 7.. run xp add @s 100
 execute if score @s SPELL31_CAP matches 8.. run xp add @s 100
 execute if score @s SPELL31_CAP matches 9.. run xp add @s 100
 execute if score @s SPELL31_CAP matches 10.. run xp add @s 100
+
+#update frog score
+execute at @s as @e[type=minecraft:frog,scores={OWNER=0..}] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players operation @s SPELL31_CAP = @a[distance=..0,limit=1] SPELL31_CAP

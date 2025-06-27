@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Indra me falou sobre uma ilha distante ao sul. Vou ter que zarpar para explorá-la. Syri, sua filha, comanda uma tripulação que viaja regularmente de barco para negócios, ela está nos grandes cais de Méleïm.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Indra告诉我， 南边的一座岛上可能藏着空间宝石，所以我必须坐船到那探索一番；与此同时，她的女儿Syri正掌管着一艘经常出海奔波的商用船—而Syri现在就在Méleïm的港口。","color":"aqua"}]}

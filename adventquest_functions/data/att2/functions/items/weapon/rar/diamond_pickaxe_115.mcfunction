@@ -3,5 +3,6 @@
 #Obtain item diamond_pickaxe_115          #
 #####################################
 
-give @s minecraft:diamond_pickaxe{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"str1_spd2_hun_2",display:{Name:"\"§9Tenacité de Marion\"","Lore":["{\"text\":\"§7Solide comme le diamant, elle va.\"}","{\"text\":\"§7Solid as a diamond, she goes.\"}","{\"text\":\"§7STR§a1 §7SPD§a2 §7HUN§c-2\"}"]},Damage:1300,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:33.45,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.9,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:diamond_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",STR:1,SPD:2,HUN:-2,Weapon:"115"},custom_name={translate:"weapon115.name"},lore=[{translate:"weapon115.lore.1"},{translate:"weapon115.lore.2"},{translate:"weapon115.stat"}],max_damage=1560,damage=1300,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:33.45},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.9}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

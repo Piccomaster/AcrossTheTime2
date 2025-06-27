@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° एटर्नेन सैन�
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Soldado Eternän : ","color":"green","extra":[{"text":"... Tudo bem, vou deixar você passar, mas você será responsável.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"...我明白了，你们可以进来，但后果自负。","color":"dark_aqua"}]}
 
 function att2:voice/guard/guard5
+

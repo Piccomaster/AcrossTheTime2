@@ -16,3 +16,5 @@ execute at 00000000-0000-137a-0000-00000000137a as @p run give @s minecraft:fill
 xp add @a 4000 points
 
 advancement grant @a only att2:quest/sq39
+#return 1->make command block runing
+return 1

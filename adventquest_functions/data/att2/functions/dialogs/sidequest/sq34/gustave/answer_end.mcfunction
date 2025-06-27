@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गुस्ताव : ","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Ótimo, você voltou! Alexandre, onde está Géro? Ele... vocês foram atacados, não foram? Eu terei que anunciar isso para a família real... Quando eu disse que precisávamos de proteção reforçada para este trabalho, a construção deles agora vai andar muito mais devagar. Bom, pegue esses 200 Chronotons. Não temos tempo a perder...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"太好了，你终于回来了！Alexandre，Géro在哪？他不会...你们被怪物袭击了是吗？*叹气*看来我得向王室报告这件事情...我们需要人手保护我们工作当中的安全，现在的建造速度很慢。拿好，这是200个Chronotons，我们现在时间紧迫...","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° सोरवो मिरोन 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"Ah, você é o entregador de carne de Ryliath? Bem, você não chegou exatamente cedo! Estávamos perto de uma escassez. Pão não é a melhor maneira de atrair pessoas para nossa taberna. Coloque tudo no depósito ao lado. Obrigado!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"啊，你是Ryliath的送肉员？好吧，你来可真迟！我们离断货不远了，面包可不是我们小酒馆吸引人的招牌。把那些肉都放在旁边的储藏室里吧，谢谢你！","color":"dark_aqua"}]}

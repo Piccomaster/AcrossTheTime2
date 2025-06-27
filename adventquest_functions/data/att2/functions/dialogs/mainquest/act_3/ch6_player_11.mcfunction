@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Agora entendi. A pessoa que me enviou aqui, a que me instilou o medo de uma morte precoce, a que se apresentou como S... Ela é Sérile, e me manipulou para encontrar você e te matar.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我终于明白了。那个把我送到这的人，那个不想让我早早死去的人，那个自称是“S”的人.... 她就是Sérile，她蛊惑了我，企图让我找到你、杀死你。","color":"aqua"}]}

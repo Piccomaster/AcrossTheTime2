@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° रानी एल्डार�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rainha Eldaris : ","color":"gold","extra":[{"text":"Pelo que sei, uma delas está nas altas montanhas. Na lendária cidade de Eolorion, lar da Academia Dahäl.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 女王 Eldaris : ","color":"gold","extra":[{"text":"据我所知，其中之一位于高山之上。在传奇之城Eolorion，那里是Dahäl学院的所在地。","color":"dark_aqua"}]}

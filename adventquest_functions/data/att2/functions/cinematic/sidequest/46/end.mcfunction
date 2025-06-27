@@ -14,3 +14,5 @@ execute as @a run function att2:dialogs/sidequest/sq47/start_quest
 xp add @a 20000 points
 
 advancement grant @a only att2:quest/sq46
+#return 1->make command block runing
+return 1

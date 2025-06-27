@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:gold_nugget",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -22,16 +20,12 @@
                                 "min": 2,
                                 "max": 5
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§e§oPetite pièce\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§e§oSmall coin\\\"}\",\"{\\\"text\\\":\\\"§6+1 Chronoton\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/chronoton/small"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:gold_ingot",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -45,16 +39,12 @@
                                 "min": 1,
                                 "max": 2
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§e§oGrande pièce\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§e§oBig coin\\\"}\",\"{\\\"text\\\":\\\"§6+5 Chronotons\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/chronoton/big"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -68,16 +58,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§b§oDiamant\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§b§oDiamond\\\"}\",\"{\\\"text\\\":\\\"§6+50 Chronotons\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/chronoton/diamond"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:glow_ink_sac",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -91,16 +77,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§a§oAméthyste\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§a§oAmethyst\\\"}\",\"{\\\"text\\\":\\\"§6+500 Chronotons\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/chronoton/amethyst"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:copper_ingot",
                     "conditions": [
                         {
                             "condition": "random_chance",
@@ -114,14 +96,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§c§oRubis\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§c§oRuby\\\"}\",\"{\\\"text\\\":\\\"§6+1000 Chronotons\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/chronoton/ruby"
                 }
             ]
         }
     ]
 }
+

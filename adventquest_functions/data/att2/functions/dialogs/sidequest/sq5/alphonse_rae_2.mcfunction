@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Claro, eu queria ter certeza de que o problema foi bem resolvido! Agora vá e mate esses bovinos antes que eles escapem! Eu vou oferecer uma recompensa se você eliminar todos eles.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"我肯定要来，我得确保这些畜生真的被你解决了！现在在它们逃跑之前去杀了这些畜生！如果你把它们全都消灭了，我会给你奖励。","color":"dark_aqua"}]}

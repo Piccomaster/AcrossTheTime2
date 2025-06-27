@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rena Sun : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Ahhh! Mas! Não há mais portas, com certeza eu não terei problemas para passar... Onde vou dormir agora? ... Bem, pegue isso, mas vá embora daqui, não quero mais te ver. Mas por que...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊！你在干什么？！门已经没了，我确实可以过去了...但是我现在要去哪里睡觉？好吧，拿着这些，但是赶快离开这里，我不想再见到你了。真的是...","color":"dark_aqua"}]}

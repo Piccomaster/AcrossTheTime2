@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Marta : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"Obrigado, a chave da casa é sua.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"谢谢惠顾，请拿好房子的钥匙。","color":"dark_aqua"}]}

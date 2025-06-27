@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"Billgart का गठबंध�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Aliança de Billgart","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"Billgart联盟","color":"gray"}

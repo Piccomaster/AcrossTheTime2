@@ -6,10 +6,10 @@
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..3] run data merge entity @s {Fire:80}
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell3/damage_cal
-execute at @s as @e[distance=..3,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell3/damage with storage spdamage
+execute at @s as @e[distance=..3,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell3/damage with storage att2:sp_dmg
 execute if entity @a[tag=fireMelting] run function att2:gameplay/dahal/action/spell3/enable_fire_melting
 
-particle minecraft:item minecraft:soul_lantern ~ ~1 ~ 0 0 0 1 20 normal
+particle minecraft:item{item:"minecraft:soul_lantern"} ~ ~1 ~ 0 0 0 1 20 normal
 particle minecraft:soul ~ ~1 ~ 0 0 0 0.5 20 normal
 particle minecraft:soul_fire_flame ~ ~1 ~ 0 0 0 1 40 normal
 particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.05 0.05 0.05 0.05 10 normal

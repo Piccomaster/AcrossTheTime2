@@ -9,3 +9,5 @@ execute at @a run function att2:sound/misc/resolution
 
 scoreboard players set tower_nw_mech1 BILLGART 2
 scoreboard players set tower_nw_mech1_timer BILLGART 0
+#return 1->make command block runing
+return 1

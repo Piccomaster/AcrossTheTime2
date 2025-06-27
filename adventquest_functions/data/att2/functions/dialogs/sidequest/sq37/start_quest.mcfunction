@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[उभरता हुआ पुरा
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Arqueólogo iniciante]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[初露头角的考古学家]","color":"gold"}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Eternän Soldier : ","color":"gr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"Você viu a espada de Relgon? Ela é linda, não acha? É uma espada lendária e muito poderosa que Relgon forjou a partir de materiais extremamente raros.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"你有见过Relgon的佩剑吗？它真的很漂亮，对不对？那是一把传说中的剑、一把威力无穷的剑—Relgon用一种极其稀有的材料铸成了它。","color":"dark_aqua"}]}

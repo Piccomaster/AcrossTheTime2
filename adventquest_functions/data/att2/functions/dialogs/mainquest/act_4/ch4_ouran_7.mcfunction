@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° ओरन : ","color":"gold","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Exatamente, eu sou Aoran, luz deste mundo, discípulo de Iio, semideus e monarca do reino das manhãs eternas. E você, quem...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"正是如此,吾乃Aoran,是此间之光辉,更是执掌光明与日曜律法的神明Iio的子嗣,永昼之国的半神与君主。而你，算什么东西？","color":"dark_aqua"}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_hoe"
+            "id": "minecraft:wooden_hoe"
         },
-        "title": {"translate":"Combatant"},
-        "description": {"translate":"Entering a fight for the 2500th time!"}
+        "title": {"translate":"att2.advancement.combat.title.start_battle_2500"},
+        "description": {"translate":"att2.advancement.combat.description.start_battle_2500"}
     },
     "parent": "att2:combat/start_battle_500",
     "rewards": {

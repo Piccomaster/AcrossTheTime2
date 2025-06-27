@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chest"
+            "id": "minecraft:chest"
         },
-        "title": {"translate":"Rapacious"},
-        "description": {"translate":"Open 2500 Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.chest_2500"},
+        "description": {"translate": "att2.advancement.treasure.description.chest_2500"},
         "frame": "goal"
     },
     "parent": "att2:treasure/chest_1000",

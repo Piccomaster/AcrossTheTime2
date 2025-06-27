@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/loneshadow/attack_trigger"
+  },
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:diamond_shovel",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "EquipmentID": "loneshadow"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

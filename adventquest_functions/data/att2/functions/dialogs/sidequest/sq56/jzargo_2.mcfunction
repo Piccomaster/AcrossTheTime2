@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Ele pensa muito de si mesmo, mas isso mais uma vez prova sua ignorância; o mundo está cheio de poderes inconcebíveis, e um deles em breve estará na posse de J'zargo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"他自视甚高，但这又一次证明了他的无知；这个世界充满了不可思议的力量，并且其中之一很快就会落入J'zargo的手中！","color":"dark_aqua"}]}

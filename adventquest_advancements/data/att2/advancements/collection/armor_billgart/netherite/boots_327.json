@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Germe de Ulgok'keström"},
-        "description": {"translate":"When a breastplate replaces the unalterable material of the foundations of the eternal kingdom."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_billgart/netherite/boots_323",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_boots_327": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Germe de Ulgok'keström\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand une cuirasse se substitue à la matière\\\"}\",\"{\\\"text\\\":\\\"§7inaltérable des fondations du sempiternel royaume.\\\"}\",\"{\\\"text\\\":\\\"§7When a breastplate replaces the unalterable material\\\"}\",\"{\\\"text\\\":\\\"§7of the foundations of the eternal kingdom.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a2 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.title.boots_327"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.netherite.description.boots_327"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/netherite/boots_323",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_boots_327": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "327"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

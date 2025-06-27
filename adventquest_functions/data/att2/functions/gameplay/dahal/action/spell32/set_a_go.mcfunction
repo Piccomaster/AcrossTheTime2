@@ -3,30 +3,24 @@
 #Process Golem incantation								        #
 #################################################################
 
+#set check score
+scoreboard players set CHECK CAL 0
+#get esc score
+execute store result score ESC_COUNT CAL run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
 ##对玩家距离点位和esc数量进行检测
-execute as @s[scores={tp_spell32_timer=1..}] at @s run function att2:dialogs/gameplay/dahal/spell32_quest_limit
-execute as @s[scores={DIMENSION=2}] at @s run function att2:dialogs/gameplay/dahal/spell32_quest_limit
-execute unless entity @s[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] as @s at @s run function att2:dialogs/gameplay/dahal/spell32_esc_not_enough
-execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL32_SLCT=1,DAHAL=350..},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl1_set_a
-execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL32_SLCT=2,DAHAL=350..},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl2_set_a
-execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL32_SLCT=3,DAHAL=350..},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl3_set_a
-execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL32_SLCT=4,DAHAL=350..},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl4_set_a
-execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL32_SLCT=5,DAHAL=350..},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl5_set_a
-##player color
-execute if entity @s[scores={NUMEROJOUEUR=1}] run team join tp_waypoint_color_player1 @e[tag=SpaceTeleportSpellSETA,tag=player1]
-execute if entity @s[scores={NUMEROJOUEUR=2}] run team join tp_waypoint_color_player2 @e[tag=SpaceTeleportSpellSETA,tag=player2]
-execute if entity @s[scores={NUMEROJOUEUR=3}] run team join tp_waypoint_color_player3 @e[tag=SpaceTeleportSpellSETA,tag=player3]
-execute if entity @s[scores={NUMEROJOUEUR=4}] run team join tp_waypoint_color_player4 @e[tag=SpaceTeleportSpellSETA,tag=player4]
-execute if entity @s[scores={NUMEROJOUEUR=5}] run team join tp_waypoint_color_player5 @e[tag=SpaceTeleportSpellSETA,tag=player5]
-
-scoreboard players operation @s SPELL_OP = @s SPELL32_LVL
-execute as @s[scores={SPELL32_CAP=1}] run scoreboard players operation @s SPELL_OP -= cap2 SPELL32_LVL
-execute as @s[scores={SPELL32_CAP=2}] run scoreboard players operation @s SPELL_OP -= cap3 SPELL32_LVL
-execute as @s[scores={SPELL32_CAP=3}] run scoreboard players operation @s SPELL_OP -= cap4 SPELL32_LVL
-execute as @s[scores={SPELL32_CAP=4}] run scoreboard players operation @s SPELL_OP -= cap5 SPELL32_LVL
-execute as @s[scores={SPELL32_CAP=5}] run scoreboard players set @s SPELL_OP -1
-
-execute as @s[scores={SPELL_OP=0..}] run function att2:gameplay/dahal/action/spell32/lvlup
-execute as @s[scores={SPELL_OP=0..}] run scoreboard players add @s SPELL32_CAP 1
-scoreboard players set @s SPELL_OP -1
-
+execute if score @s tp_spell32_timer matches 1.. run function att2:dialogs/gameplay/dahal/spell32_quest_limit
+execute if score @s DIMENSION matches 2 run function att2:dialogs/gameplay/dahal/spell32_quest_limit
+execute if score ESC_COUNT CAL matches ..0 run function att2:dialogs/gameplay/dahal/spell32_esc_not_enough
+execute if score @s DAHAL matches ..349 run function att2:dialogs/gameplay/dahal/dahal_not_enough
+#if
+execute unless score @s DAHAL matches ..349 unless score @s tp_spell32_timer matches 1.. unless score @s DIMENSION matches 2 unless score ESC_COUNT CAL matches ..0 run scoreboard players set CHECK CAL 1
+#launch go
+execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 1 run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl1_set_a
+execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 2 run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl2_set_a
+execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 3 run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl3_set_a
+execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 4 run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl4_set_a
+execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 5 run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl5_set_a
+#reset
+scoreboard players reset CHECK CAL 
+#xp_cal
+execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 1.. run function att2:gameplay/dahal/action/spell32/xp_cal

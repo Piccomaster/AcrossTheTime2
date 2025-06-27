@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[जैसी माँ, वैसी �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Tal mãe, tal filha]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[有其母必有其女]","color":"gold"}

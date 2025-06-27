@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_pickaxe"
-        },
-        "title": {"translate":"Fracasseur d'atricanth"},
-        "description": {"translate":"Even the insect of the crash is frightened	at the sight of your sharp shine!"},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe"
     },
-    "parent": "att2:collection/weapon_angband/pickaxe_147",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_pickaxe_153": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§5Fracasseur d'atricanth\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même l'insecte du fracas est pris\\\"}\",\"{\\\"text\\\":\\\"§7d'effroi à la vue de ton éclat tranchant !\\\"}\",\"{\\\"text\\\":\\\"§7Even the insect of the crash is frightened\\\"}\",\"{\\\"text\\\":\\\"§7at the sight of your sharp shine!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7HUN§a1 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.pickaxe_153"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.pickaxe_153"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/pickaxe_147",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_pickaxe_153": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "153"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

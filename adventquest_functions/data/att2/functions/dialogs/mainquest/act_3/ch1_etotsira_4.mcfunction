@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Era isso que eu temia. Como você não vai querer ouvir nenhuma das minhas explicações, e eu não vou deixar você me matar, ambos sabemos o resultado dessa conversa.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"...唉，我最担心的事还是发生了。既然你不愿意听我作任何解释，那我也不能放任你杀死我—这次谈话的结果，想必我们两都心知肚明了。","color":"dark_aqua"}]}

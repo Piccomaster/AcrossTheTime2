@@ -39,3 +39,5 @@ execute if score path3_mech3_timer OURANOS matches 50 positioned 7432 144 6246 r
 # Iteration
 execute if score path3_mech3_timer OURANOS matches 51.. run scoreboard players set path3_mech3_timer OURANOS 0
 execute if score path3_mech3_timer OURANOS matches 0..50 run scoreboard players add path3_mech3_timer OURANOS 1
+#return 1->make command block runing
+return 1

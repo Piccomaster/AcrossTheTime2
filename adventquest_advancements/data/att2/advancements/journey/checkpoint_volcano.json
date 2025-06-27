@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Volcano Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Volcano"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_volcano"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_volcano"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_volcano",

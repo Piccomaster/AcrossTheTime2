@@ -3,5 +3,6 @@
 #Obtain item bow_218          #
 #####################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",Effect:"str1_spd1_luc1_dar_1",display:{Name:"\"§5Zéphyr\"","Lore":["{\"text\":\"§7Inlassablement, emporte les rêves\"}","{\"text\":\"§7vers des horizons merveilleux.\"}","{\"text\":\"§7Untiringly, carry dreams\"}","{\"text\":\"§7to wonderful horizons.\"}","{\"text\":\"§7STR§a1 §7SPD§a1 §7LUC§a1 §7DAR§c-1\"}"]},Damage:200,Enchantments:[{id:"minecraft:power",lvl:7s},{id:"minecraft:punch",lvl:3s},{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",STR:1,SPD:1,LUC:1,DAR:-1,Weapon:"218"},custom_name={translate:"weapon218.name"},lore=[{translate:"weapon218.lore.1"},{translate:"weapon218.lore.2"},{translate:"weapon218.stat"}],max_damage=385,damage=200,enchantments={"power":7,"punch":3,"unbreaking":1}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

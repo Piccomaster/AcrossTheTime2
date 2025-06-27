@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"कारॉन अपनी सभी 
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Karön recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"挑战失败，Karön的状态已经恢复到最佳...","color":"gray","italic":true}

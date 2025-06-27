@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chest"
+            "id": "minecraft:chest"
         },
-        "title": {"translate":"Treasure!"},
-        "description": {"translate":"Open a chest"},
-        "background": "minecraft:textures/block/gold_block.png",
+        "title": {"translate": "att2.advancement.treasure.title.root"},
+        "description": {"translate": "att2.advancement.treasure.description.root"},
+        "background": "minecraft:block/gold_block",
         "show_toast": true,
         "announce_to_chat": true
     },

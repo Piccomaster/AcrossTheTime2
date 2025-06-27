@@ -14,3 +14,5 @@ function att2:cinematic/sidequest/54/jzargo/move_pnj
 xp add @a 8000 points
 
 advancement grant @a only att2:quest/sq53
+#return 1->make command block runing
+return 1

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:beacon"
+            "id": "minecraft:beacon"
         },
-        "title": {"translate":"Quantum expert!"},
-        "description": {"translate":"Use a waypoint 25 times."},
+        "title": {"translate":"att2.advancement.progress.title.waypoint_25"},
+        "description": {"translate":"att2.advancement.progress.description.waypoint_25"},
         "frame": "goal"
     },
     "parent": "att2:progress/waypoint_5",

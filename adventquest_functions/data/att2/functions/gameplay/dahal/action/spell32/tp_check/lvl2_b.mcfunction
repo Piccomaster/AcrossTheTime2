@@ -5,23 +5,14 @@
 
 
 ##重置tp和esc检测计分板
-scoreboard players set @s TP_CHECK 0
-scoreboard players set @s ESC_CHECK 0
+scoreboard players set DISTANCE CAL 0
+scoreboard players set ESC_COUNT CAL 0 
 ##对玩家与盔甲架的距离进行检测，在其范围内将TP_CHECK设置为1 Detect the distance between the player and the armor stand, and set TP_CHECK to 1 within its range.
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player1] at @s run scoreboard players set @a[distance=..60,scores={NUMEROJOUEUR=1,SPELL32_SLCT=2,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player2] at @s run scoreboard players set @a[distance=..60,scores={NUMEROJOUEUR=2,SPELL32_SLCT=2,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player3] at @s run scoreboard players set @a[distance=..60,scores={NUMEROJOUEUR=3,SPELL32_SLCT=2,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player4] at @s run scoreboard players set @a[distance=..60,scores={NUMEROJOUEUR=4,SPELL32_SLCT=2,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player5] at @s run scoreboard players set @a[distance=..60,scores={NUMEROJOUEUR=5,SPELL32_SLCT=2,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-##对玩家身上的esc数量进行检测，距离范围在60以内，且持有量足够时将ESC_CHECK设置为1 Detect the amount of ESC on the player, and set ESC_CHECK to 1 if the distance is within 60 and the player has enough.
-scoreboard players set @s[scores={TP_CHECK=1},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] ESC_CHECK 1
-##将对应距离复制到Distance上为消耗ESC提供对应数值
-scoreboard players set @s[scores={ESC_CHECK=1}] DISTANCE_CHECK 1
-scoreboard players set @s[scores={ESC_CHECK=3}] DISTANCE_CHECK 3
-scoreboard players set @s[scores={ESC_CHECK=5}] DISTANCE_CHECK 5
+execute at @s as @e[type=armor_stand,tag=SPELL32_SET_B,distance=..80] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set DISTANCE CAL 1
+#get esc score
+execute store result score ESC_COUNT CAL run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
 ##玩家不在范围内或身上esc数量不足时出现文字提示
-execute as @s[scores={TP_CHECK=0}] run function att2:dialogs/gameplay/dahal/spell32_limit_distance
-execute as @s[scores={TP_CHECK=1..,ESC_CHECK=0}] run function att2:dialogs/gameplay/dahal/spell32_esc_not_enough
-
-
-
+execute if score DISTANCE CAL matches 0 run function att2:dialogs/gameplay/dahal/spell32_limit_distance
+execute if score DISTANCE CAL matches 1.. if score ESC_COUNT CAL matches ..0 run function att2:dialogs/gameplay/dahal/spell32_esc_not_enough
+##将对应距离复制到Distance上为消耗ESC提供对应数值
+execute if score DISTANCE CAL matches 1.. if score ESC_COUNT CAL matches 1.. run scoreboard players set @s ESC_CHECK 1

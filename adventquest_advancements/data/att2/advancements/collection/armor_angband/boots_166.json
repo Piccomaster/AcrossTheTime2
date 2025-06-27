@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_boots"
-        },
-        "title": {"translate":"S          "},
-        "description": {"translate":"The uniform of a million challenges reveals in you the exception of the chosen ones."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_boots"
     },
-    "parent": "att2:collection/armor_angband/boots_162",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_boots_166": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6S\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aL'uniforme aux millions d'épreuves\\\"}\",\"{\\\"text\\\":\\\"§arévèle chez vous l'exception des élus.\\\"}\",\"{\\\"text\\\":\\\"§aThe uniform of a million challenges reveals\\\"}\",\"{\\\"text\\\":\\\"§ain you the exception of the chosen ones.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.boots_166"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.boots_166"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/boots_162",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_boots_166": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "166"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

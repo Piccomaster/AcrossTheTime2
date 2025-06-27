@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Frowin Nepheris : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Obrigado novamente pela sua ajuda, mas por favor volte para trás do balcão.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"再次感谢您的帮助，但请回到柜台后面。","color":"dark_aqua"}]}

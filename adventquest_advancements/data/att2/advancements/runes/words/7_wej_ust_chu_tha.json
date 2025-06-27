@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:explorer_pottery_sherd"
+            "id": "minecraft:explorer_pottery_sherd"
         },
-        "title": {"translate":"Prudence"},
-        "description": {"translate":"Make runic word: Wej Ust Chu Tha"},
+        "title": {"translate":"att2.advancement.runes.title.7_wej_ust_chu_tha"},
+        "description": {"translate":"att2.advancement.runes.description.7_wej_ust_chu_tha"},
         "frame": "goal"
     },
     "parent": "att2:runes/root",

@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[सोई हुई अंधेरी
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[A escuridão que dorme]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[沉睡的黑暗]","color":"gold"}

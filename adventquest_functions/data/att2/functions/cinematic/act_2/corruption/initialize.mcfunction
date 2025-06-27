@@ -18,3 +18,5 @@ scoreboard players set Corruption12 SIDEQUEST 0
 scoreboard players set Corruption13 SIDEQUEST 0
 scoreboard players set Corruption14 SIDEQUEST 0
 scoreboard players set Corruption15 SIDEQUEST 0
+#return 1->make command block runing
+return 1

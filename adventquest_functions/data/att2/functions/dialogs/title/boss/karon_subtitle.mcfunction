@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"डेस्पोट, अंग
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Déspota, mestre dos mortais de Angor, adorador da Chama Negra","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"暴君, Angor的人王, La Flamme Noire的信徒","color":"gray"}

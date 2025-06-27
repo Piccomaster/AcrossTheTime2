@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"(336 घंटे बाद)","c
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"(336 horas depois)","color":"dark_red"}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"(336小时后)","color":"dark_red"}

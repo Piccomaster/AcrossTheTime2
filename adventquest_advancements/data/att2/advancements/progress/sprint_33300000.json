@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_boots"
+            "id": "minecraft:iron_boots"
         },
-        "title": {"translate":"Insane Bolt"},
-        "description": {"translate":"Sprint 333km"},
+        "title": {"translate":"att2.advancement.progress.title.sprint_33300000"},
+        "description": {"translate":"att2.advancement.progress.description.sprint_33300000"},
         "frame": "challenge"
     },
     "parent": "att2:progress/sprint_10000000",

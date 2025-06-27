@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[चक्र की चोरी]","co
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[O Roubo do Ciclo]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[午夜大劫案]","color":"gold"}

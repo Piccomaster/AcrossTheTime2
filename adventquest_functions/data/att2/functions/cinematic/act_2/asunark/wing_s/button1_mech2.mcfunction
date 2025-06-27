@@ -8,3 +8,5 @@ function att2:physicmod/reg1/asunark/wings_button1_mech2
 
 scoreboard players add wings_mech2 ASUNARK 1
 function att2:cinematic/act_2/asunark/wing_s/trigger_mech2
+#return 1->make command block runing
+return 1

@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Esta escultura no centro de Ryliath é intrigante... Devo seguir o conselho de Sylvandre e consultar o Mestre de Dahäl, Yaakov Rav. Ele mora nas alturas de Ryliath, perto da cachoeira.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"正对Ryliath城门的这座雕塑看起来有点意思...我应该听从Sylvandre的建议，去和Dahäl大师Yaakov_Rav见上一面。他的家应该Ryliath高处的瀑布旁边。","color":"aqua"}]}

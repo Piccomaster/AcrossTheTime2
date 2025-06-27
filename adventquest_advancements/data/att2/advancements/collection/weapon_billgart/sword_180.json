@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_sword"
-        },
-        "title": {"translate":"Roche simple"},
-        "description": {"translate":"Will do the trick."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword"
     },
-    "parent": "att2:collection/weapon_billgart/sword_177",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_sword_180": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Roche simple\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fera l'affaire.\\\"}\",\"{\\\"text\\\":\\\"§7Will do the trick.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.sword_180"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.sword_180"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/sword_177",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_sword_180": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "180"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lapis_block"
+            "id": "minecraft:lapis_block"
         },
-        "title": {"translate":"Potions"},
-        "description": {"translate":"Drinking, throwing and lingering"},
+        "title": {"translate": "att2.advancement.collection.title.potion"},
+        "description": {"translate": "att2.advancement.collection.description.potion"},
         "show_toast": false,
         "announce_to_chat": false
     },

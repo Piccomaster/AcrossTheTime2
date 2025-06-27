@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Brynhild : ","color":"green","ex
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Brynhild : ","color":"green","extra":[{"text":"No final do cânion, sob a vila... Boa sorte, Solomba.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Brynhild : ","color":"green","extra":[{"text":"在峡谷的尽头，在村子正下方...愿solomba保佑你","color":"dark_aqua"}]}

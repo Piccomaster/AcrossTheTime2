@@ -3,7 +3,7 @@
 #Generate thunder effect						#
 #################################################
 
-particle minecraft:item minecraft:snow ~ ~ ~ 0.1 4 0.1 0.25 200 normal @a
+particle minecraft:item{item:"minecraft:snow"} ~ ~ ~ 0.1 4 0.1 0.25 200 normal @a
 particle minecraft:electric_spark ~ ~ ~ 0.2 3 0.2 0 100 normal
 particle minecraft:totem_of_undying ~ ~ ~ 0.1 4 0.1 0.5 50 normal
 particle minecraft:end_rod ~ ~ ~ 0.1 4 0.1 0.25 100 normal

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"क्या आप t... जारी �
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"Você quer continuar o t...?","color":"dark_aqua","italic":true}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":"你要继续么...？","color":"dark_aqua","italic":true}

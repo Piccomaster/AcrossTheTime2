@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Tenho certeza de que este é o teste que Mercurius me falou! Espero poder acessá-lo e sair quando eu quiser, porque pode ser um dos testes mais difíceis da minha nova vida...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我敢肯定，这就是Mercurius跟我说的考验！希望我可以在这里来去自如，毕竟这可能是我开启新生活后遇上的最困难的考验之一...","color":"aqua","italic":true}]}

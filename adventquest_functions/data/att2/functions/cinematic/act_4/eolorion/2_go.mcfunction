@@ -17,3 +17,5 @@ execute if score Real0 TIMER matches 5 run scoreboard players set Wave EOLORION 
 
 execute if score Real0 TIMER matches 5.. run setblock -5365 101 -6303 minecraft:air
 execute if score Real0 TIMER matches ..4 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

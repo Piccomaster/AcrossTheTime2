@@ -3,5 +3,6 @@
 #Obtain item iron_pickaxe_93          #
 #####################################
 
-give @s minecraft:iron_pickaxe{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",Effect:"str1_has2_hun3",display:{Name:"\"§6Don d'Adros\"","Lore":["{\"text\":\"§7Sur ton chemin se dresseront moult\"}","{\"text\":\"§7tyrans,mais aucun ne te résistera !\"}","{\"text\":\"§7On your way will rise many tyrants,\"}","{\"text\":\"§7but none will resist you!\"}","{\"text\":\"§7STR§a1 §7HAS§a2 §7HUN§a3\"}"]},Damage:0,Enchantments:[{id:"minecraft:knockback",lvl:1s},{id:"minecraft:unbreaking",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:77.33,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:iron_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",STR:1,HAS:2,HUN:3,Weapon:"93"},custom_name={translate:"weapon93.name"},lore=[{translate:"weapon93.lore.1"},{translate:"weapon93.lore.2"},{translate:"weapon93.stat"}],max_damage=260,damage=0,enchantments={"knockback":1,"unbreaking":2},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:77.33},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.81}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

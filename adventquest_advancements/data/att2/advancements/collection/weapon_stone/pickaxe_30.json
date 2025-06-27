@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_pickaxe"
-        },
-        "title": {"translate":"Brise âge"},
-        "description": {"translate":"Without gentleness or consideration, faces age with violence."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe"
     },
-    "parent": "att2:collection/weapon_stone/pickaxe_26",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "wooden_pickaxe_30": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§6Brise âge\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sans douceur ni égard,\\\"}\",\"{\\\"text\\\":\\\"§7affronte l'âge avec violence.\\\"}\",\"{\\\"text\\\":\\\"§7Without gentleness or consideration,\\\"}\",\"{\\\"text\\\":\\\"§7faces age with violence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.pickaxe_30"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.pickaxe_30"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/pickaxe_26",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "wooden_pickaxe_30": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "30"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

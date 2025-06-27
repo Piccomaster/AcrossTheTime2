@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Inspiration de Lucas"},
-        "description": {"translate":"If creativity is born of patience, perseverance is the mother of efficiency..."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_ouranos/crossbow_327",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "crossbow_328": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§5Inspiration de Lucas\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Si créativité naît de patience,\\\"}\",\"{\\\"text\\\":\\\"§7persévérance est mère d'efficacité...\\\"}\",\"{\\\"text\\\":\\\"§7If creativity is born of patience,\\\"}\",\"{\\\"text\\\":\\\"§7perseverance is the mother of efficiency...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.crossbow_328"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.crossbow_328"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/crossbow_327",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "crossbow_328": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "328"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

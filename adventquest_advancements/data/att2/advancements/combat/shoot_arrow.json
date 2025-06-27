@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:arrow"
+            "id": "minecraft:arrow"
         },
-        "title": {"translate":"Take Aim"},
-        "description": {"translate":"Shoot something with an arrow"}
+        "title": {"translate":"att2.advancement.combat.title.shoot_arrow"},
+        "description": {"translate":"att2.advancement.combat.description.shoot_arrow"}
     },
     "parent": "att2:combat/root",
     "rewards": {

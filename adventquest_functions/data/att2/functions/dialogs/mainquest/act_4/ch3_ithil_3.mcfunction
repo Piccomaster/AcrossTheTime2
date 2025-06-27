@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° इथिल : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Aqui vamos nós. Nesta sala há um portal para Billgart. Eu não vou te acompanhar mais. Boa sorte, você vai precisar...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"让我们直入正题，这个房间里有一个通往Billgart的传送门，而接下来的路你要独自前行，祝你好运...","color":"dark_aqua"}]}

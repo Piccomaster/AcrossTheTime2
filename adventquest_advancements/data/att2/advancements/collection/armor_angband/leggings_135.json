@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_leggings"
-        },
-        "title": {"translate":"Jambière de l'Eternän"},
-        "description": {"translate":"A little too long...."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_leggings"
     },
-    "parent": "att2:collection/armor_angband",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_leggings_135": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§7Jambière de l'Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un peu trop grandes...\\\"}\",\"{\\\"text\\\":\\\"§7A little too long....\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.leggings_135"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.leggings_135"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_leggings_135": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "135"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

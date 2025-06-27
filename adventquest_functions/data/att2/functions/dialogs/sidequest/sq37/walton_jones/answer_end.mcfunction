@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Então, me mostre isso... Hmmm, entendi. Eu estava procurando no vale de Eol provas da existência deste artefato, mas todos esses monstros no cemitério estavam impedindo meu progresso... Com você, os problemas parecem desaparecer rapidamente sob a pressão das suas armas. Podemos formar uma boa equipe, então encontre-me na frente das ruínas de Schetröwn antes do pântano de Owsästr.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"所以，让我看看...嗯，我明白了，我只是在Eol山谷寻找这件神器存在的证据，但墓地里的所有这些怪物都在阻止我的脚步...有了你，那些怪物在你的威压下迅速消退。也许我们可以组成一支优秀的团队，所以在Owsästr沼泽前的Schetröwn废墟中与我碰面吧。","color":"dark_aqua"}]}

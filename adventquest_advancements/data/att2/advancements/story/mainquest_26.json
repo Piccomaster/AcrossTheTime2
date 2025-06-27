@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"It's not the size that matters"},
-        "description": {"translate":"Across The Time"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_26"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_26"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_25",

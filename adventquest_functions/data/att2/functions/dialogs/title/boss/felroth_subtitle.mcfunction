@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"वर्लेस्ट के 
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Guardião eternamente dedicado ao templo de Worlëst","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"看守Worlëst神庙的不朽护卫","color":"gray"}

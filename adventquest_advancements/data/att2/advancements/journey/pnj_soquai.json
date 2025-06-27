@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Soquaï forest NPC"},
-        "description": {"translate":"Talk to all Soquaï forest people"},
+        "title": {"translate":"att2.advancement.journey.title.pnj_soquai"},
+        "description": {"translate":"att2.advancement.journey.description.pnj_soquai"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_soquai",

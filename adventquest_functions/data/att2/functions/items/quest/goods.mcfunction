@@ -3,4 +3,4 @@
 #Obtain Goods                					 #
 ##################################################
 
-give @s minecraft:note_block{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cMarchandise\"","Lore":["{\"text\":\"§4§oGoods\"}"]}} 1
+give @s minecraft:note_block[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.goods.name'},lore=[{translate:'item.quest.lore'}]] 1

@@ -51,3 +51,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui eu matei o suficiente, essa sujeira não deve se reproduzir mais... Vou voltar para ver Philipo para anunciar as boas novas.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我杀的应该够多了，这些虫子应该不会再繁殖了...我得回去告诉Philipo这个好消息。","color":"aqua"}]}

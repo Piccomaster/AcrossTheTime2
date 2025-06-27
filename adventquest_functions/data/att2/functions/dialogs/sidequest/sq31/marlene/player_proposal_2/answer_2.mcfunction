@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Puxa vida, o que você quer que eu faça com seu dinheiro? Em Eolorion não nos alimentamos com moedas e isso não vai trazer Raphaël de volta para nós.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"我的天哪，你想让我用你的钱做什么？在Eolorion，我们从来不会把硬币当饭吃，这也不会让Raphael回到我们的身边!","color":"dark_aqua"}]}

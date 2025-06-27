@@ -5,5 +5,6 @@
 
 scoreboard players set @s DAR_UPGRADE_REQ 3
 scoreboard players add @s DAR_BASE 1
+scoreboard players add @s DAR_TOT 1
 scoreboard players remove @s SKILLPOINT 2
 function att2:gameplay/stat/upgrade_effect

@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Doom सभी अपनी ज़ि�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Doom recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Doom的血量回满了...","color":"gray","italic":true}

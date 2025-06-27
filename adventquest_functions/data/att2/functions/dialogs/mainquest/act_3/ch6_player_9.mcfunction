@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Olá, Etotsira... Eu não sei. Aconteceu tanta coisa: a queda de um semideus, a traição de Sérile, a morte de Relgon e o aparecimento de Gaya...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你好，Etotsira...我有些迷茫。大事接踵而至：半神陨落、Sérile背叛、Relgon离世、Gaya显灵...","color":"aqua"}]}

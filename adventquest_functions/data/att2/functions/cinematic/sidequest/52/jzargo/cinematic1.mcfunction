@@ -30,3 +30,5 @@ execute if score Real1 TIMER matches 1450 positioned -5342 51 -3780 run function
 
 execute if score Real1 TIMER matches 1501.. run scoreboard players set cinematic SQ52 2
 execute if score Real1 TIMER matches ..1500 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

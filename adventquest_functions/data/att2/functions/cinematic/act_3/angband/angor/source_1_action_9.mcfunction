@@ -13,3 +13,5 @@ execute in minecraft:the_nether positioned 3511 42 4691 run function att2:summon
 
 execute in minecraft:the_nether as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~-30 ~
 kill 00000000-0000-001a-0000-00000000001a
+#return 1->make command block runing
+return 1

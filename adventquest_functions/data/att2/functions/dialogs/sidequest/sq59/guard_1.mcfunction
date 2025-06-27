@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Guard : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"Heróis em Tellurön! Tenho uma carta do nosso rei Nolduron para lhes dar.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"Tellurön的英雄！这里有一份国王Nolduron的信件需要交给你。","color":"dark_aqua"}]}

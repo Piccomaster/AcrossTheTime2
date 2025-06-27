@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"L'improbable"},
-        "description": {"translate":"You don't just have to believe in it to make it happen."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_diamond/helmet_184",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_helmet_185": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9L'improbable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il ne suffit pas d'y croire,\\\"}\",\"{\\\"text\\\":\\\"§7pour que ça se produise.\\\"}\",\"{\\\"text\\\":\\\"§7You don't just have to believe in it\\\"}\",\"{\\\"text\\\":\\\"§7to make it happen.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.helmet_185"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.helmet_185"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/helmet_184",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_helmet_185": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "185"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

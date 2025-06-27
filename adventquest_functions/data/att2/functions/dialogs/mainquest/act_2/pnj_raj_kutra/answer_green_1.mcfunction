@@ -54,6 +54,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"Quem diabos é você para se colocar entre ela e eu? Embora ela ainda não tenha tido coragem de confessar seu amor por mim, saiba que o amor dela é verdadeiro e tão inabalável quanto o céu é com o mar. Agora, por favor, parta.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"你TM谁啊？真是胆大包天，竟敢插手我和她的事情？ 虽然她还不敢表达对我的爱，但我知道，她的我的爱没有半分虚假，就像天空对大海那样。请你离开吧。","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/raj/raj3
+

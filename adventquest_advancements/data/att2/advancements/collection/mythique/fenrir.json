@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_sword",
+            "id": "minecraft:diamond_sword",
             "nbt": "{CustomModelData:10000002}"
         },
-        "title": {"translate":"Fenrir"},
-        "description": {"translate":"Hold the mythical sword FENRIR"},
+        "title": {"translate": "att2.advancement.collection.mythique.title.fenrir"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.fenrir"},
         "frame": "challenge",
         "hidden":true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_30",
+        "function": "att2:advancement/test_all/collection/fenrir",
         "experience": 10000
                 },
     "criteria": {

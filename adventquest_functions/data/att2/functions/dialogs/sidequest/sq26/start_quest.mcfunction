@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[अडानोई की भूमि
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Catacumbas de Adanoï]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[Adanoï之墓]","color":"gold"}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Sim, porque eles estão prontos para se sacrificar para proteger seus irmãos, irmãs, tias, tios, sobrinhas e sobrinhos, não importa quão distantes eles estejam...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"是的，因为他们愿意为了保护自己的兄弟姐妹、叔叔阿姨、侄子侄女们而牺牲自己，无论他们关系亲疏...","color":"dark_aqua"}]}

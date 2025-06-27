@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cookie"
+            "id": "minecraft:cookie"
         },
-        "title": {"translate":"Cookie addict"},
-        "description": {"translate":"Eat 128 cookies"},
+        "title": {"translate":"att2.advancement.food.title.cookie_128"},
+        "description": {"translate":"att2.advancement.food.description.cookie_128"},
         "frame": "challenge"
     },
     "parent": "att2:food/cookie_64",

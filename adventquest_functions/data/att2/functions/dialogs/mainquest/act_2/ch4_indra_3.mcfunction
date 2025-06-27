@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Indra Lorth : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Os pântanos não estão muito perto, então aconselho você a encontrar uma montaria. Você pode comprar um cavalo no estábulo de Eric Melsath, ele os vende por pouco se você prometer cuidar deles. E tenha cuidado, não é muito seguro lá com os insetos que andam por aí... Boa sorte!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"沼泽离这有相当长的一段距离，所以使用代步工具是个不错的选择——你可以在Eric_Melsath经营的马厩里买上一匹马。如果你愿意承担抚养它的责任，Eric就会把马以低价出售给你。最后， 希望你在沼泽时能提高警惕—如果你听见了虫子的声音，那就说明这里并不安全...祝你好运！ ","color":"dark_aqua"}]}

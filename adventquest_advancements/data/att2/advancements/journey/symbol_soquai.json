@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Soquaï Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Soquaï"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_soquai"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_soquai"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_soquai",

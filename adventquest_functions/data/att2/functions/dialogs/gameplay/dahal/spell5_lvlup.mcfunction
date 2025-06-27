@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Thunder के लिए नया स�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Trovão!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“雷击”已升级！ ","color":"gold"}

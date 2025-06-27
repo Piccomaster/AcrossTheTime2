@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_chestplate"
-        },
-        "title": {"translate":"Chef-d'œuvre d'Arnaud"},
-        "description": {"translate":"He'll be a great blacksmith!"},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
     },
-    "parent": "att2:collection/armor_iron",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_chestplate_101": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§7Chef-d'œuvre d'Arnaud\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il sera un grand forgeron !\\\"}\",\"{\\\"text\\\":\\\"§7He'll be a great blacksmith!\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.chestplate_101"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.chestplate_101"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_chestplate_101": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "101"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

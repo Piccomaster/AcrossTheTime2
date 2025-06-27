@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lectern"
+            "id": "minecraft:lectern"
         },
-        "title": {"translate":"MasterChef"},
-        "description": {"translate":"Make 500 recipes"},
+        "title": {"translate":"att2.advancement.progress.title.recipe_500"},
+        "description": {"translate":"att2.advancement.progress.description.recipe_500"},
         "frame": "challenge"
     },
     "parent": "att2:progress/recipe_250",

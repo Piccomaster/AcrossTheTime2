@@ -58,5 +58,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"O que você está fazendo aqui? Saia do meu quarto!","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"你在这儿做什么？马上离开我的房间！","color":"dark_aqua"}]}
 
 function att2:voice/ithil/ithil_dialogue1
+

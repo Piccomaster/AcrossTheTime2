@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Malak : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Obrigado mais uma vez.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"实在是感谢万分","color":"dark_aqua"}]}

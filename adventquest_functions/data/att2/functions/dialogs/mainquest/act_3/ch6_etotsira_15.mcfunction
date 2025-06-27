@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Você esteve em Angband por mais de duas semanas! Eu tive tempo suficiente para usar o portal que você abriu! Além disso, a família real estará esperando por sua visita. Eles nunca viram o portal em funcionamento e provavelmente estarão muito interessados no que você pode contar sobre isso.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你可是在Angband待了足足两个多星期！这时间够我把那个传送门研究个底朝天了！顺带一提，王室成员现在应该正等着你去找他们。他们从未见过被激活的传送门，所以，如果你能和他们说些有关传送门的事情，他们想来会很感兴趣。","color":"dark_aqua"}]}

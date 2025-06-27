@@ -11,3 +11,5 @@ function att2:cinematic/sidequest/26/lary_brett/move_pnj
 
 function att2:gameplay/pnj_talk/dialog_playsound/lary_brett
 function att2:dialogs/sidequest/sq26/lary_brett_1
+#return 1->make command block runing
+return 1

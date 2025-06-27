@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हीरो की उपलब�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Realização do Herói -°- : ","color":"gray","extra":[{"text":"Eu me encontro em um lugar estranho que me lembra memórias dolorosas da minha velha jornada. Vamos tentar sair passando por essas provas novamente...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我发现自己身处一个陌生的地方，它让我想起了自己过往旅途中的痛苦回忆。现在也只能再经历一次这些试炼，看看这样能不能摆脱现在的困境了...","color":"aqua","italic":true}]}

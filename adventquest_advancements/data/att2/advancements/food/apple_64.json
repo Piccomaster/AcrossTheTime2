@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:apple"
+            "id": "minecraft:apple"
         },
-        "title": {"translate":"Apple craving"},
-        "description": {"translate":"Eat 64 apples"},
+        "title": {"translate":"att2.advancement.food.title.apple_64"},
+        "description": {"translate":"att2.advancement.food.description.apple_64"},
         "frame": "goal"
     },
     "parent": "att2:food/apple_16",

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Um muro de vidro bloqueia o caminho. Eu tenho que encontrar um jeito de destrancar o grande sino na minha frente e fazê-lo tocar para esperar a abertura do passagem...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一堵玻璃墙挡住了去路。我得想办法让前面的大铃铛运作起来，比如敲响它...希望能打开通道...","color":"aqua"}]}

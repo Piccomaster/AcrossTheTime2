@@ -3,81 +3,6 @@
 #Process all test of Progress advancement 			            #
 #################################################################
 
-# EXPLOIT
-advancement grant @a[scores={EXPLOIT=50..}] only att2:progress/exploit_50
-advancement grant @a[scores={EXPLOIT=250..}] only att2:progress/exploit_250
-advancement grant @a[scores={EXPLOIT=1000..}] only att2:progress/exploit_1000
-advancement grant @a[scores={EXPLOIT=2500..}] only att2:progress/exploit_2500
-advancement grant @a[scores={EXPLOIT=5000..}] only att2:progress/exploit_5000
-advancement grant @a[scores={EXPLOIT=10000..}] only att2:progress/exploit_10000
-
-# SIDEQUEST
-advancement grant @a[scores={SIDEQUEST=1..}] only att2:progress/sidequest_1
-advancement grant @a[scores={SIDEQUEST=5..}] only att2:progress/sidequest_5
-advancement grant @a[scores={SIDEQUEST=10..}] only att2:progress/sidequest_10
-advancement grant @a[scores={SIDEQUEST=20..}] only att2:progress/sidequest_20
-advancement grant @a[scores={SIDEQUEST=30..}] only att2:progress/sidequest_30
-advancement grant @a[scores={SIDEQUEST=40..}] only att2:progress/sidequest_40
-advancement grant @a[scores={SIDEQUEST=50..}] only att2:progress/sidequest_50
-
-# GAME PERCENTAGE
-execute if score Game_percentage_progress EXPLOIT matches 10.. run advancement grant @a only att2:progress/game_percentage_10
-execute if score Game_percentage_progress EXPLOIT matches 20.. run advancement grant @a only att2:progress/game_percentage_20
-execute if score Game_percentage_progress EXPLOIT matches 30.. run advancement grant @a only att2:progress/game_percentage_30
-execute if score Game_percentage_progress EXPLOIT matches 40.. run advancement grant @a only att2:progress/game_percentage_40
-execute if score Game_percentage_progress EXPLOIT matches 50.. run advancement grant @a only att2:progress/game_percentage_50
-execute if score Game_percentage_progress EXPLOIT matches 60.. run advancement grant @a only att2:progress/game_percentage_60
-execute if score Game_percentage_progress EXPLOIT matches 70.. run advancement grant @a only att2:progress/game_percentage_70
-execute if score Game_percentage_progress EXPLOIT matches 80.. run advancement grant @a only att2:progress/game_percentage_80
-execute if score Game_percentage_progress EXPLOIT matches 90.. run advancement grant @a only att2:progress/game_percentage_90
-execute if score Game_percentage_progress EXPLOIT matches 100.. run advancement grant @a only att2:progress/game_percentage_100
-
-# LEVEL
-advancement grant @a[scores={GAMELEVEL=10..}] only att2:progress/gamelevel_10
-advancement grant @a[scores={GAMELEVEL=20..}] only att2:progress/gamelevel_20
-advancement grant @a[scores={GAMELEVEL=30..}] only att2:progress/gamelevel_30
-advancement grant @a[scores={GAMELEVEL=40..}] only att2:progress/gamelevel_40
-advancement grant @a[scores={GAMELEVEL=50..}] only att2:progress/gamelevel_50
-advancement grant @a[scores={LEVELMASTER=20..}] only att2:progress/gamelevelmaster_20
-advancement grant @a[scores={LEVELMASTER=40..}] only att2:progress/gamelevelmaster_40
-advancement grant @a[scores={LEVELMASTER=60..}] only att2:progress/gamelevelmaster_60
-advancement grant @a[scores={LEVELMASTER=80..}] only att2:progress/gamelevelmaster_80
-advancement grant @a[scores={LEVELMASTER=100..}] only att2:progress/gamelevelmaster_100
-advancement grant @a[scores={LEVELMASTER=150..}] only att2:progress/gamelevelmaster_150
-advancement grant @a[scores={LEVELMASTER=200..}] only att2:progress/gamelevelmaster_200
-advancement grant @a[scores={LEVELMASTER=300..}] only att2:progress/gamelevelmaster_300
-
-# RECIPE
-execute if score RecipeCount RUNE matches 1.. run advancement grant @a only att2:progress/recipe_1
-execute if score RecipeCount RUNE matches 5.. run advancement grant @a only att2:progress/recipe_5
-execute if score RecipeCount RUNE matches 25.. run advancement grant @a only att2:progress/recipe_25
-execute if score RecipeCount RUNE matches 100.. run advancement grant @a only att2:progress/recipe_100
-execute if score RecipeCount RUNE matches 250.. run advancement grant @a only att2:progress/recipe_250
-execute if score RecipeCount RUNE matches 500.. run advancement grant @a only att2:progress/recipe_500
-
-# REPUTATION
-execute if score heros REPUTATION matches ..-100 run advancement grant @a only att2:progress/reputation_less_100
-execute if score heros REPUTATION matches 50.. run advancement grant @a only att2:progress/reputation_more_50
-execute if score heros REPUTATION matches 100.. run advancement grant @a only att2:progress/reputation_more_100
-execute if score heros REPUTATION matches 200.. run advancement grant @a only att2:progress/reputation_more_200
-execute if score heros REPUTATION matches 300.. run advancement grant @a only att2:progress/reputation_more_300
-
-# CHECKPOINT
-execute if score All CHECKPOINT matches 1.. run advancement grant @a only att2:progress/checkpoint_1
-execute if score All CHECKPOINT matches 5.. run advancement grant @a only att2:progress/checkpoint_5
-execute if score All CHECKPOINT matches 25.. run advancement grant @a only att2:progress/checkpoint_25
-execute if score All CHECKPOINT matches 50.. run advancement grant @a only att2:progress/checkpoint_50
-execute if score All CHECKPOINT matches 100.. run advancement grant @a only att2:progress/checkpoint_100
-execute if score All CHECKPOINT matches 200.. run advancement grant @a only att2:progress/checkpoint_200
-execute if score All CHECKPOINT matches 350.. run advancement grant @a only att2:progress/checkpoint_350
-
-# WAYPOINT
-execute if score count_used WAYPOINT matches 1.. run advancement grant @a only att2:progress/waypoint_1
-execute if score count_used WAYPOINT matches 5.. run advancement grant @a only att2:progress/waypoint_5
-execute if score count_used WAYPOINT matches 25.. run advancement grant @a only att2:progress/waypoint_25
-execute if score count_used WAYPOINT matches 50.. run advancement grant @a only att2:progress/waypoint_50
-execute if score count_used WAYPOINT matches 100.. run advancement grant @a only att2:progress/waypoint_100
-
 # SWIM
 advancement grant @a[scores={statSWIM=1000..}] only att2:progress/swim_1000
 advancement grant @a[scores={statSWIM=50000..}] only att2:progress/swim_50000
@@ -148,3 +73,13 @@ advancement grant @a[scores={statLINGERUSED=5..}] only att2:progress/lingering_5
 advancement grant @a[scores={statLINGERUSED=20..}] only att2:progress/lingering_20
 advancement grant @a[scores={statLINGERUSED=50..}] only att2:progress/lingering_50
 advancement grant @a[scores={statLINGERUSED=100..}] only att2:progress/lingering_100
+
+# RARITY
+advancement grant @a[nbt={Inventory:[{components:{Rarity:"com"}}]}] only att2:adventure/com
+advancement grant @a[nbt={Inventory:[{components:{Rarity:"unc"}}]}] only att2:adventure/unc
+advancement grant @a[nbt={Inventory:[{components:{Rarity:"rar"}}]}] only att2:adventure/rar
+advancement grant @a[nbt={Inventory:[{components:{Rarity:"epi"}}]}] only att2:adventure/epi
+advancement grant @a[nbt={Inventory:[{components:{Rarity:"epi_set"}}]}] only att2:adventure/epi
+advancement grant @a[nbt={Inventory:[{components:{Rarity:"epi_esc"}}]}] only att2:adventure/epi_esc
+advancement grant @a[nbt={Inventory:[{components:{Rarity:"leg"}}]}] only att2:adventure/leg
+advancement grant @a[nbt={Inventory:[{components:{Rarity:"leg_set"}}]}] only att2:adventure/leg

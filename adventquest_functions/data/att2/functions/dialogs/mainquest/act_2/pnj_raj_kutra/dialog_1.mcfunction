@@ -52,6 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"Saudações sinceras! O que deseja, estranho viajante? Talvez uma xícara de chá? Mas venha, sente-se! Visitas não me sobrecarregam, especialmente porque não tenho o suficiente para estar satisfeito.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"向您致以真挚的问候，陌生的旅行者！您需要什么吗？一杯咖啡？来来来，进来坐会吧！您的拜访并不令我感到惊讶-倒不如说，我以接待来访的客人为乐。","color":"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/raj/raj1
+

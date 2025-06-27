@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_axe"
-        },
-        "title": {"translate":"Hachereau"},
-        "description": {"translate":"Old carved stone."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
     },
-    "parent": "att2:collection/weapon_netherite",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_axe_278": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_axe"],
-                    "nbt": "{display:{Name:\"\\\"§7Hachereau\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ancienne pierre taillée.\\\"}\",\"{\\\"text\\\":\\\"§7Old carved stone.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.axe_278"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.axe_278"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_axe_278": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "278"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

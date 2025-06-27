@@ -25,3 +25,5 @@ execute if score wingS OWSASTR matches 2 run particle end_rod -4965.0 80.0 -4364
 
 execute if score wingS OWSASTR matches 2 run particle end_rod -4961 80.5 -4364 2 0.1 0.1 0 1
 execute if score wingS OWSASTR matches 2 run particle end_rod -4958 80.5 -4367 0.1 0.1 2 0 1
+#return 1->make command block runing
+return 1

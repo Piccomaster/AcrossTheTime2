@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"पहले पत्थर क
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Guardiã eterna da primeira pedra","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"源生之石的不朽护卫","color":"gray"}

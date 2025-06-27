@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"Malak's stolen crops"},
-        "description": {"translate":"Successfully complete this side quest"},
+        "title": {"translate":"att2.advancement.quest.title.sq1"},
+        "description": {"translate":"att2.advancement.quest.description.sq1"},
         "frame": "goal"
     },
     "parent": "att2:quest/root",

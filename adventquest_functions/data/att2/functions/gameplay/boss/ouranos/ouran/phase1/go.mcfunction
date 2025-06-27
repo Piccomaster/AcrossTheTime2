@@ -13,13 +13,13 @@ execute if score OuranPhase1 OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] 
 
 # Enable Bossbar storing health of Ouran
 execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey1 value run data get entity 00000000-0000-017b-0000-00000000001b Health
-execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey1 max run data get entity 00000000-0000-017b-0000-00000000001b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey1 max run data get entity 00000000-0000-017b-0000-00000000001b attributes[{id:"minecraft:max_health"}].base
 execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey2 value run data get entity 00000000-0000-017b-0000-00000000002b Health
-execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey2 max run data get entity 00000000-0000-017b-0000-00000000002b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey2 max run data get entity 00000000-0000-017b-0000-00000000002b attributes[{id:"minecraft:max_health"}].base
 execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey3 value run data get entity 00000000-0000-017b-0000-00000000003b Health
-execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey3 max run data get entity 00000000-0000-017b-0000-00000000003b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey3 max run data get entity 00000000-0000-017b-0000-00000000003b attributes[{id:"minecraft:max_health"}].base
 execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey4 value run data get entity 00000000-0000-017b-0000-00000000004b Health
-execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey4 max run data get entity 00000000-0000-017b-0000-00000000004b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] store result bossbar minecraft:ouranlackey4 max run data get entity 00000000-0000-017b-0000-00000000004b attributes[{id:"minecraft:max_health"}].base
 
 # Start the boss fight (summoning Ouran)
 execute if score OuranPhase1 OURANOS matches -1 if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] run function att2:gameplay/boss/ouranos/ouran/phase1/start

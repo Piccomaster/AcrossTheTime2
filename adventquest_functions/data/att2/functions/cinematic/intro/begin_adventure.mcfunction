@@ -4,8 +4,7 @@
 #####################################################
 
 # Getting Player number registered + Security stop language choice
-execute store result score numberRegistered COUNT if entity @a[team=ally]
-fill 788 80 893 802 84 893 minecraft:glass
+fill 783 80 893 804 83 893 minecraft:glass
 # Reset begin proposal
 setblock 641 87 1088 minecraft:air
 # Reset time clock
@@ -21,3 +20,5 @@ effect give @a minecraft:slow_falling 10 10 true
 clear @a
 # Security dimension loading
 execute in the_nether run tp @a 3572 86 3812
+#return 1->make command block runing
+return 1

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Esprit du guerrier"},
-        "description": {"translate":"Fighting doesn't have the same savour in all worlds."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/helmet_341",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_helmet_252": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Esprit du guerrier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le combat n'a pas la même\\\"}\",\"{\\\"text\\\":\\\"§7saveur dans tous les mondes.\\\"}\",\"{\\\"text\\\":\\\"§7Fighting doesn't have the same\\\"}\",\"{\\\"text\\\":\\\"§7savour in all worlds.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.helmet_252"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.helmet_252"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/helmet_341",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_helmet_252": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "252"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

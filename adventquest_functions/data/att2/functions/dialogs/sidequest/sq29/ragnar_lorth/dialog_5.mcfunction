@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Então você encontrou esses bandidos? Procure o acampamento deles na floresta de bétulas, deve haver alguns. Destrua-os e não falemos mais sobre eles!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你找到强盗的营地了吗？他们的营地在meleim镇外的Elvetta白桦森林中，应该有几个据点，把他们全部摧毁，我不想再谈论这些强盗的事了！ ","color":"dark_aqua"}]}

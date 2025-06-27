@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आप एक बॉस लड़ाई
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"É impossível mudar a dificuldade se você estiver no meio de uma luta contra um chefe...","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"我不能在打boss的时候更换游戏难度...","color":"gray"}

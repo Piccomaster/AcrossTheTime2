@@ -40,3 +40,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपके पास पर्या�
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Você não tem o suficiente de: ","color":"gray","extra":[{"text":"<Repair Tool - Sovereign>","color":"light_purple"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"没有足够的：","color":"gray","extra":[{"text":"<修理工具- 奇珍>","color":"light_purple"}]}

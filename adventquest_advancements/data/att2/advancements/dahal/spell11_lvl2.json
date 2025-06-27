@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Nova Apprentice"},
-        "description": {"translate":"Reach level 2 with Nova spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell11_lvl2"},
+        "description": {"translate":"att2.advancement.dahal.description.spell11_lvl2"}
     },
     "parent": "att2:dahal/spell11_loot",
     "rewards": {

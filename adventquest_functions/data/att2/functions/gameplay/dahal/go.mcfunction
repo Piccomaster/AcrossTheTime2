@@ -1,15 +1,19 @@
 #################################################################
 #Made by Adventquest											#
-#Process Dahäl in general   									#
+#Detect whenever a player use the magic sphere					#
+#Plus process every cooldown and spell persistance				#
 #################################################################
 
-function att2:gameplay/dahal/action/go
 
-#Allow player to regenerate his Dahäl. The function dahalregen also manage the corruption persistence.
-execute if score DahalRegen TIMER matches 3 as @a run function att2:gameplay/dahal/dahalregen
-execute if score DahalRegen TIMER matches 1.. run scoreboard players remove DahalRegen TIMER 1
-execute if score DahalRegen TIMER matches ..0 run scoreboard players set DahalRegen TIMER 20
+function att2:gameplay/dahal/action/go
+#per
+execute if score tic TIMECOUNTER matches 6 as @a at @s run function att2:gameplay/dahal/dahalregen
 #launcher replace
-#unless data entity @s SelectedItem 
-execute as @e[type=item,predicate=att2_pre:dahal/replace,predicate=att2_pre:dahal/pickup] run function att2:gameplay/dahal/replace
-execute as @a at @s run function att2:gameplay/dahal/score_set
+execute as @e[type=item,predicate=att2_pre:dahal/book_test,predicate=att2_pre:dahal/pickup] at @s run function att2:gameplay/dahal/launcher/select
+execute as @e[type=item,predicate=att2_pre:dahal/launcher_test,predicate=att2_pre:dahal/pickup] at @s run function att2:gameplay/dahal/book/select
+execute as @e[type=item,predicate=att2_pre:conscience,predicate=att2_pre:dahal/pickup] at @s run function att2:gameplay/give_book
+#test
+execute as @a[scores={TEST=1..}] run say 法术
+
+#reset sp time must at there
+function att2:gameplay/dahal/time_set

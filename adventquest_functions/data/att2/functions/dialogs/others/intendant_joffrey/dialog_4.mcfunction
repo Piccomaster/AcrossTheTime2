@@ -45,3 +45,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Joffrey : ","color":"
 
 
 function att2:dialogs/others/intendant_joffrey/player_answer_proposal_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"有什么能帮您的吗？噢，您就是那位激活传送门的旅行者吗？国王的部下找到我，说要给Ryliath最好的房子打个折—这是专属于您的优惠！现在仅需3000Chronoton即可入住！成交？","color":"dark_aqua"}]}

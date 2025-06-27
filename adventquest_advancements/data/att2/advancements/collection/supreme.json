@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:emerald_block"
+            "id": "minecraft:emerald_block"
         },
-        "title": {"translate":"Supreme"},
-        "description": {"translate":"Items"},
+        "title": {"translate": "att2.advancement.collection.title.supreme"},
+        "description": {"translate": "att2.advancement.collection.description.supreme"},
         "show_toast": false,
         "announce_to_chat": false
     },

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_axe"
-        },
-        "title": {"translate":"Celdron"},
-        "description": {"translate":"Combines strength and finesse."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe"
     },
-    "parent": "att2:collection/weapon_stone/axe_10",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "wooden_axe_17": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_axe"],
-                    "nbt": "{display:{Name:\"\\\"§9Celdron\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Lie force et finesse.\\\"}\",\"{\\\"text\\\":\\\"§7Combines strength and finesse.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a2 §7HAS§c-2 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.axe_17"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.axe_17"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/axe_10",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "wooden_axe_17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "17"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

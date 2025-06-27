@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की प्रसिद�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 2 -°- : ","color":"gray","extra":[{"text":"Uma lágrima em minha mão... Este deve ser o objeto que J'zargo está procurando neste lugar. Nesse caso, vamos falar com ele novamente.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 2 部分 -°- : ","color":"gray","extra":[{"text":"拿到了一块很精致的泪水晶石，这应该就是J'zargo想找的遗物。不用在这里继续待下去了。","color":"aqua","italic":true}]}

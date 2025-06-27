@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Eu estava esperando por você! Os planos foram devolvidos ao seu lugar. O ladrão certamente terá sido intimidado pelos meios que levantamos para encontrá-lo... A guarda permanecerá em alerta, e os planos estarão agora seguros. Vá ver o Intendente da nossa cidade para receber sua recompensa, a casa dele fica ao lado do ferreiro em frente à roda de paletas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"我在等你呢！宫殿计划图被放回了原位。我们寻找他的手段肯定让他害怕了...警卫将随时保持警惕，计划图现在安全了。你可以去找我们镇上的行政长官要你的奖励，他的房子在铁匠铺的旁边。","color":"dark_aqua"}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_shovel"
+            "id": "minecraft:wooden_shovel"
         },
-        "title": {"translate":"Wooden dagger combo"},
-        "description": {"translate":"Strike 1000 times with a wooden dagger"},
+        "title": {"translate": "att2.advancement.weapons.title.wooden_dagger_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.wooden_dagger_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/wooden_dagger_250",

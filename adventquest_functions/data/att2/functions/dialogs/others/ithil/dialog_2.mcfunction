@@ -51,5 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Estamos na sala dos portais dimensionais. Tenha cuidado, ou não...","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"这里就是维度传送间。请注意安全....","color":"dark_aqua"}]}
 
 function att2:voice/ithil/ithil_dialogue2
+

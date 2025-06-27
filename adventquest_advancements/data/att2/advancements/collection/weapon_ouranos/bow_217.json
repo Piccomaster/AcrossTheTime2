@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Arc du félon"},
-        "description": {"translate":"The traitor knows no brother, he is alone, and that is his strength."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_ouranos/bow_216",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "bow_217": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§5Arc du félon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le traître ne connaît pas de frère,\\\"}\",\"{\\\"text\\\":\\\"§7il est seul, et c'est là se force.\\\"}\",\"{\\\"text\\\":\\\"§7The traitor knows no brother,\\\"}\",\"{\\\"text\\\":\\\"§7he is alone, and that is his strength.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7HER§a2 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.bow_217"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.bow_217"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/bow_216",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "bow_217": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "217"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

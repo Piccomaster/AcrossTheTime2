@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:clock"
+            "id": "minecraft:clock"
         },
-        "title": {"translate":"Race against dimensions"},
-        "description": {"translate":"Complete a nightmare run before the allotted time of 20 minutes."},
+        "title": {"translate":"att2.advancement.challenge.title.nightmarerun_gold"},
+        "description": {"translate":"att2.advancement.challenge.description.nightmarerun_gold"},
         "frame": "challenge"
     },
     "parent": "att2:challenge/nightmarerun_silver",

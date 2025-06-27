@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- संकट में एक प�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma sacerdotisa em apuros -°- : ","color":"gray","extra":[{"text":"A sacerdotisa Rena Sun em Méleïm não consegue mais alcançar seu templo, pois algo está bloqueando a entrada. Preciso encontrar uma maneira de destrancar a porta. Posso simplesmente destruir a porta com magia ou fazer o que ela me disse. Aparentemente, há uma abertura no topo dos campos de cenoura, onde a água da chuva entra em um poço. Eu devo ser capaz de pular sem me machucar.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 苦恼的女祭司 -°- : ","color":"gray","extra":[{"text":"门另一边的石头阻碍了Rena_Sun进入神殿的道路，看来我需另想他法，除了直接使用魔法将门破坏之外，也可以按照Rena的建议通过山顶萝卜田中的井安全进入神殿，从门另一侧清除障碍","color":"aqua","italic":true}]}

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_chestplate"
-        },
-        "title": {"translate":"Plastron impeccable"},
-        "description": {"translate":"Undying as the will of the honourable soldier must be."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
     },
-    "parent": "att2:collection/armor_iron/chestplate_117",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_chestplate_118": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Plastron impeccable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inébranlable comme doit être\\\"}\",\"{\\\"text\\\":\\\"§7la volonté du digne soldat.\\\"}\",\"{\\\"text\\\":\\\"§7Undying as the will of\\\"}\",\"{\\\"text\\\":\\\"§7the honourable soldier must be.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.chestplate_118"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.chestplate_118"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/chestplate_117",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_chestplate_118": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "118"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

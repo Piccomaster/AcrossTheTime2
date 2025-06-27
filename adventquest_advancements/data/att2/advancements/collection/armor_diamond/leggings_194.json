@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Princesse de lumière"},
-        "description": {"translate":"Imbued with an endless hope, she shines with an incredible will and grace."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_diamond/leggings_189",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_leggings_194": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Princesse de lumière\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Imbue d'un espoir sans fin, elle rayonne\\\"}\",\"{\\\"text\\\":\\\"§7d'une volonté et d'une grâce inouïes.\\\"}\",\"{\\\"text\\\":\\\"§7Imbued with an endless hope, she shines\\\"}\",\"{\\\"text\\\":\\\"§7with an incredible will and grace.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.leggings_194"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.leggings_194"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/leggings_189",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_leggings_194": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "194"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

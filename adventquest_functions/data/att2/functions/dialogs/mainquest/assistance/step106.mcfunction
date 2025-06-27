@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Há uma grande porta com duas fechaduras, então eu tenho que encontrar duas grandes chaves. Certamente estão nas asas da masmorra, vou ter que explorá-las.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一扇有两把锁的大门挡住了前进的道路，所以我现在得找到两把大钥匙，他们肯定分散在地牢的两翼。这就意味着，我必须把两个地方全探索一遍。","color":"aqua"}]}

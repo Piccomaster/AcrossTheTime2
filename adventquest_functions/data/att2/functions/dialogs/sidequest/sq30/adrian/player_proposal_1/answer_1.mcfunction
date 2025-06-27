@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Muito bem, o comandante foi informado sobre este assunto e, com sua paranoia, ele já fala de uma conspiração. Ele é um excelente tático e estrategista, mas medíocre na dedução de fatos e na busca de pistas... Junte-se a ele no andar do palácio na biblioteca, conto com você!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"很好，指挥官知道了这件事，但是由于他的偏执，他已经在谈什么阴谋论了，虽然他是一很好的战略家,但是在案件推理和寻找线索方面却很平庸...他在宫殿上层的图书馆等待你的加入，我期待你的表现！","color":"dark_aqua"}]}

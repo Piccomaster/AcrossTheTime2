@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Edwin Vortid : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"Então você foi até Charles e apostou alguns Chronotons? É viciante, né!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"所以你要去Charles那里下注赚些Chronotons？真的会上瘾耶！","color":"dark_aqua"}]}

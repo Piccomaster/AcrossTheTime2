@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"कोई है? लोहे की �
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"Tem alguém? Atravessa a barreira de ferro.","color":"dark_aqua","italic":true}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":"那是谁？快进铁门！","color":"dark_aqua","italic":true}

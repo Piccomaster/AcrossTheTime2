@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_chestplate"
-        },
-        "title": {"translate":"Perpétuelle apogée"},
-        "description": {"translate":"Rise up, grow up, raise up, more and more and relentlessly to reach the ultimate goal."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/chestplate_346",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_chestplate_261": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Perpétuelle apogée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Lève-toi, grandis, élève-toi, plus encore\\\"}\",\"{\\\"text\\\":\\\"§7et sans relâche pour atteindre l'ultime finalité.\\\"}\",\"{\\\"text\\\":\\\"§7Rise up, grow up, raise up, more and more\\\"}\",\"{\\\"text\\\":\\\"§7and relentlessly to reach the ultimate goal.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a4\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.chestplate_261"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.chestplate_261"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/chestplate_346",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_chestplate_261": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "261"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

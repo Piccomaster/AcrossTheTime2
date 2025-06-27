@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"अपने माल को काउ
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Coloque seus produtos no balcão...","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"请将你的不要的装备丢到柜台上...","color":"gray"}

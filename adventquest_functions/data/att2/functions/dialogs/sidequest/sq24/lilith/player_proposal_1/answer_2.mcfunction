@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lilith : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"Então eu esperarei aqui sozinha para implorar na lama para que alguém venha me ajudar...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"所以我要独自在这个泥泞的地方苦苦祈求有好心人来帮我...","color":"dark_aqua"}]}

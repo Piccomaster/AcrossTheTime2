@@ -9,3 +9,5 @@ function att2:cinematic/sidequest/42/step1
 
 function att2:gameplay/pnj_talk/dialog_playsound/linda_shelly
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq42/linda_shelly/player_proposal_2/answer_2
+#return 1->make command block runing
+return 1

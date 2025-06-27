@@ -3,4 +3,4 @@
 #damage go          											#
 #################################################################
 
-$damage @s $(SP8) minecraft:magic by @a[distance=..0,limit=1]
+$damage @s $(SP8) att2_damage:magic by @a[distance=..0,limit=1]

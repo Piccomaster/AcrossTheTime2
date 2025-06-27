@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Os alquimistas sempre tiveram o gosto de falar em enigmas para sua busca fantástica... Vá vê-lo, pode até estar relacionado a este evento.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"炼金术士们总是喜欢用谜一样的表述方式来描述他们那些异想天开的追求（谜语人滚出Earndhel！）……去见见他吧，这可能和这次事件有关联。","color":"dark_aqua"}]}

@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"प्राप्त सट्टे �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Pontuação de raridade da aposta obtida: ","color":"gray","extra":[{"score":{"name":"estimate","objective":"GAMBLING"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"下注积分：","color":"gray","extra":[{"score":{"name":"estimate","objective":"GAMBLING"},"color":"gold","hover_event": {"action": "show_text","value": [{"text": "此积分只用来显示此次下注的[运气]"}]}}]}

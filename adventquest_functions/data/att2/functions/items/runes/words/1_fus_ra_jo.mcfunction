@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:archer_pottery_sherd{EquipmentType:"runic_word",Rarity:"com",display:{Name:"\"§7Ferveur\"","Lore":["{\"text\":\"§7Fervor\"}","{\"text\":\"§eFus Ra Jo\"}","{\"text\":\"§aExperience:§2 +7,5%\"}","{\"text\":\"§cLevel Required:§4 10\"}"]}} 1
+give @s minecraft:archer_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'1'},custom_name={translate:'item.runeword.1.name'},lore=[{translate:'item.runeword.1.recipe'},{translate:'item.runeword.1.xp'},{translate:'item.runeword.1.limit'}]]

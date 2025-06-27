@@ -4,4 +4,4 @@
 #################################################################
 
 
-tellraw @s {"text":" <-°-> ","color":"dark_red","extra":[{"text":" ????? ","color":"dark_red","obfuscated":true,"extra":[{"text":" <-°-> ","color":"dark_red","obfuscated":false}]}]}
+tellraw @s {text:" <-°-> ","color":"dark_red","extra":[{text:" ????? ","color":"dark_red","obfuscated":true,"extra":[{text:" <-°-> ","color":"dark_red","obfuscated":false}]}]}

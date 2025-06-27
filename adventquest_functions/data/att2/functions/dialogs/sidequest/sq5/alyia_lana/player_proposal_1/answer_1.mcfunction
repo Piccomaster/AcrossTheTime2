@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alyia Lana : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"Ahah, você é engraçado.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"哈哈，你真有趣。","color":"dark_aqua"}]}

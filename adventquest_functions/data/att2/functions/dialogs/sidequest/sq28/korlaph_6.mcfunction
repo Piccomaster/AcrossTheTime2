@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Korlaph : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"Cale-se! Não consigo conter minha energia para mantê-la conosco! Não se preocupe, meu amor, fiz enormes progressos...","color":"dark_red"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"闭嘴！我控制不住力量让她留在我们身边了！别担心亲爱的，我马上就能掌握这股力量了...","color":"dark_red"}]}

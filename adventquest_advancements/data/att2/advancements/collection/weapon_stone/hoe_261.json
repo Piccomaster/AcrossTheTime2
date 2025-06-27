@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_hoe"
-        },
-        "title": {"translate":"Offense céleste"},
-        "description": {"translate":"In the firmament sparkles with a thousand fire, the bloody tip of its blade."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_hoe"
     },
-    "parent": "att2:collection/weapon_stone/hoe_260",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "wooden_hoe_261": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§6Offense céleste\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Au firmament scintille de mille feu,\\\"}\",\"{\\\"text\\\":\\\"§7la pointe sanglante de sa lame.\\\"}\",\"{\\\"text\\\":\\\"§7In the firmament sparkles with a thousand fire,\\\"}\",\"{\\\"text\\\":\\\"§7the bloody tip of its blade.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7DAR§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.hoe_261"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.hoe_261"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/hoe_260",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "wooden_hoe_261": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "261"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

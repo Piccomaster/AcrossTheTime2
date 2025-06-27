@@ -63,3 +63,5 @@ scoreboard players set tower3_mech5_button1 OURANOS 0
 scoreboard players set tower3_mech5_button2 OURANOS 0
 scoreboard players set tower3_mech5_button3 OURANOS 0
 scoreboard players set tower3_mech5_button4 OURANOS 0
+#return 1->make command block runing
+return 1

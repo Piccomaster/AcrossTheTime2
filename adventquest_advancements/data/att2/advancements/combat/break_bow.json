@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bow"
+            "id": "minecraft:bow"
         },
-        "title": {"translate":"Bow break"},
-        "description": {"translate":"Destroy a bow in battle"}
+        "title": {"translate":"att2.advancement.combat.title.break_bow"},
+        "description": {"translate":"att2.advancement.combat.description.break_bow"}
     },
     "parent": "att2:combat/shoot_arrow",
     "rewards": {

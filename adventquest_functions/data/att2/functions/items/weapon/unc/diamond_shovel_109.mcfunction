@@ -3,5 +3,6 @@
 #Obtain item diamond_shovel_109          #
 #####################################
 
-give @s minecraft:diamond_shovel{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"dar1_luc_1",display:{Name:"\"§2Servitude\"","Lore":["{\"text\":\"§7Sans relâche.\"}","{\"text\":\"§7Without respite.\"}","{\"text\":\"§7DAR§a1 §7LUC§c-1\"}"]},Damage:1450,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.03,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:diamond_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",DAR:1,LUC:-1,Weapon:"109"},custom_name={translate:"weapon109.name"},lore=[{translate:"weapon109.lore.1"},{translate:"weapon109.lore.2"},{translate:"weapon109.stat"}],max_damage=1560,damage=1450,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:3.03},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.81}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

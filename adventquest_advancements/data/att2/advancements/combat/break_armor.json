@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Naked"},
-        "description": {"translate":"Destroy any armor in battle"}
+        "title": {"translate":"att2.advancement.combat.title.break_armor"},
+        "description": {"translate":"att2.advancement.combat.description.break_armor"}
     },
     "parent": "att2:combat/root",
     "rewards": {

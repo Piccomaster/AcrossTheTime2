@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garret : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Você terá que ter cuidado, as ruínas de Angor estão repletas de perigos. É em nosso antigo quartel que você encontrará a maior quantidade, bem, espero que sim... O quartel está localizado a leste da cidade, é um prédio maior do que os outros, e uma ponte que atravessa uma das ruas secundárias leva até lá! Traga de volta cerca de 150 flechas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"你一定要多加小心，Angor废墟中现在危机四伏。在我们的军营里，你可以找到很多箭...军营就在Angor废墟的东部，它比其他建筑更加显眼，在东部的一座巨大的楼梯顶层的下方！帮我们找回大概150支箭。","color":"dark_aqua"}]}

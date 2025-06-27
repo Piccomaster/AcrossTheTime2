@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Iio : ","color":"yellow","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"¿Mau? Não diga isso... Você não se divertiu? É verdade, ele é forte, mas você é muito mais doce do que ele.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"别这样，别这么说……难道你玩得不开心吗？没错，他是很强大，但你比他可爱多了。","color":"dark_aqua"}]}

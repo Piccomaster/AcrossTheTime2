@@ -60,3 +60,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Albert Dirac : ","color":"green
 
 
 function att2:dialogs/gameplay/inn/proposal_albert_dirac
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"一间房间30Chronotons一晚!","color":"dark_aqua"}]}

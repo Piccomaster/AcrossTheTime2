@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक अच्छी तरह �
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma vingança bem merecida -°- : ","color":"gray","extra":[{"text":"Eu devo trazer a cabeça de Dermist de volta para Daril Gram para provar a ele que a vingança foi feita.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 恶有恶报 -°- : ","color":"gray","extra":[{"text":"将Dermist的头颅带给Daril吧，冤冤相报何时了，也该结束这场疯狂的复仇了","color":"aqua","italic":true}]}

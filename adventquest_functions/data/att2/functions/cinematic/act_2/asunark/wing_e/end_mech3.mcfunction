@@ -20,3 +20,5 @@ execute positioned -3283 25 -4935 run function att2:summon/reg_1/slimemedium0_cl
 execute positioned -3290 25 -4928 run function att2:summon/reg_1/slimemedium0_class5
 execute positioned -3304 25 -4928 run function att2:summon/reg_1/slimemedium0_class5
 execute positioned -3311 25 -4935 run function att2:summon/reg_1/slimemedium0_class5
+#return 1->make command block runing
+return 1

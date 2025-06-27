@@ -17,3 +17,5 @@ execute positioned -1142 96 -535 run function att2:summon/reg_3/golemarcher0_cla
 execute positioned -1142 96 -547 run function att2:summon/reg_3/golemarcher1_class14
 execute positioned -1142 96 -559 run function att2:summon/reg_3/golemarcher2_class15
 execute positioned -1142 96 -577 run function att2:summon/reg_3/golemarcher3_class16
+#return 1->make command block runing
+return 1

@@ -29,16 +29,16 @@ execute if score Shadow_timer1 SQ38 matches 1000 run function att2:gameplay/boss
 execute if score Shadow_timer1 SQ38 matches 1000 run effect give @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] minecraft:darkness 25 1 true
 execute if score Shadow_timer1 SQ38 matches 1000..1600 positioned -4375 53 -5054 run function att2:gameplay/boss/schestrown/shadow/effect3
 execute if score Shadow_timer1 SQ38 matches 1100 positioned -4375 57 -5054 run function att2:sound/misc/scary_eldersound
-execute if score Shadow_timer1 SQ38 matches 1100..1600 positioned -4375 57 -5054 run particle minecraft:dust 0 0 0 1 ~ ~ ~ 5 5 5 0 10
+execute if score Shadow_timer1 SQ38 matches 1100..1600 positioned -4375 57 -5054 run particle minecraft:dust{color:[0,0,0],scale:1} ~ ~ ~ 5 5 5 0 10
 execute if score Shadow_timer1 SQ38 matches 1200 positioned -4375 57 -5054 run function att2:sound/misc/scary_eldersound
-execute if score Shadow_timer1 SQ38 matches 1200..1600 positioned -4375 57 -5054 run particle minecraft:dust 0 0 0 1.5 ~ ~ ~ 5 5 5 0 10
+execute if score Shadow_timer1 SQ38 matches 1200..1600 positioned -4375 57 -5054 run particle minecraft:dust{color:[0,0,0],scale:1.5} ~ ~ ~ 5 5 5 0 10
 execute if score Shadow_timer1 SQ38 matches 1300 positioned -4375 57 -5054 run function att2:sound/misc/scary_eldersound
-execute if score Shadow_timer1 SQ38 matches 1300..1600 positioned -4375 57 -5054 run particle minecraft:dust 0 0 0 2 ~ ~ ~ 5 5 5 0 10
+execute if score Shadow_timer1 SQ38 matches 1300..1600 positioned -4375 57 -5054 run particle minecraft:dust{color:[0,0,0],scale:2} ~ ~ ~ 5 5 5 0 10
 execute if score Shadow_timer1 SQ38 matches 1400 positioned -4375 57 -5054 run function att2:sound/misc/scary_eldersound
-execute if score Shadow_timer1 SQ38 matches 1400..1600 positioned -4375 57 -5054 run particle minecraft:dust 0 0 0 2.5 ~ ~ ~ 5 5 5 0 10
+execute if score Shadow_timer1 SQ38 matches 1400..1600 positioned -4375 57 -5054 run particle minecraft:dust{color:[0,0,0],scale:2.5} ~ ~ ~ 5 5 5 0 10
 execute if score Shadow_timer1 SQ38 matches 1500 positioned -4375 57 -5054 run function att2:sound/misc/scary_eldersound
-execute if score Shadow_timer1 SQ38 matches 1500..1600 positioned -4375 57 -5054 run particle minecraft:dust 0 0 0 3 ~ ~ ~ 5 5 5 0 10
-execute if score Shadow_timer1 SQ38 matches 1500..1600 as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] at @s run particle minecraft:dust 0 0 0 3 ~ ~1.5 ~ 0.1 0.1 0.1 0 5
+execute if score Shadow_timer1 SQ38 matches 1500..1600 positioned -4375 57 -5054 run particle minecraft:dust{color:[0,0,0],scale:3} ~ ~ ~ 5 5 5 0 10
+execute if score Shadow_timer1 SQ38 matches 1500..1600 as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] at @s run particle minecraft:dust{color:[0,0,0],scale:3} ~ ~1.5 ~ 0.1 0.1 0.1 0 5
 execute if score Shadow_timer1 SQ38 matches 1600 run function att2:gameplay/boss/schestrown/shadow/attack_end
 
 execute if score Shadow_timer2 SQ38 matches 400 as 00000000-0000-008c-0000-00000000008c at @s run tp @s -4366 53 -5085

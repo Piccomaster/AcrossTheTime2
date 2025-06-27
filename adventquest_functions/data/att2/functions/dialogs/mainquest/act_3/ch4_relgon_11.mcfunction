@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*Sem entusiasmo* A batalha está próxima. Nosso exército em breve partirá para enfrentar La Flamme Noire. Sua ajuda teria sido bem-vinda mais uma vez, mas se você recusar, não posso obrigá-lo a fazer isso.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*面无表情*终局之战即将来临。我们的军队很快就要启程，直面La_Flamme_Noire的烈焰。我们诚挚希望阁下能再次祝我们一臂之力，但如果阁下拒绝，我们也不会强求。","color":"dark_aqua"}]}

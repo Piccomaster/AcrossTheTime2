@@ -19,3 +19,5 @@ execute if score Real0 TIMER matches 150 as @a[gamemode=spectator] run function 
 
 execute if score Real0 TIMER matches 151.. run scoreboard players set past_building_mech5 NOJELANTH -1
 execute if score Real0 TIMER matches ..150 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

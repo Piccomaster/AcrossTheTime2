@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Bem, tenho muitas coisas para entregar, começando com estas calças que supostamente pertenciam a alguém famoso. Preciso levá-las de volta à loja H&H no shopping center.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"行吧，还得送这么多包裹呢。先从这条裤子开始吧—这应该是某位有名人士的裤子。我得把它送回商场里的H&H商店。","color":"aqua"}]}

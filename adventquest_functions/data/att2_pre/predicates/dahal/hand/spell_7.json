@@ -1,0 +1,37 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "Spell": "spell7"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "offhand": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "Spell": "spell7"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

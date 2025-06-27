@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Insigne des cieux"},
-        "description": {"translate":"Pure creativity is only possible with absolute freedom and a limitless mind."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/helmet_260",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_helmet_349": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Insigne des cieux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLa créativité pure n'est envisageable qu'à la faveur \\\"}\",\"{\\\"text\\\":\\\"§ad'une liberté absolue et d'un esprit sans limite.\\\"}\",\"{\\\"text\\\":\\\"§aPure creativity is only possible with\\\"}\",\"{\\\"text\\\":\\\"§aabsolute freedom and a limitless mind.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a3 §7HER§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.helmet_349"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.helmet_349"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/helmet_260",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_helmet_349": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "349"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

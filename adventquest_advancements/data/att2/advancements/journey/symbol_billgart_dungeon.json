@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Billgart dungeon Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Billgart dungeon"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_billgart_dungeon"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_billgart_dungeon"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_bilgart_dungeon",

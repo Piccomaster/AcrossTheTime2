@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Sim, ela tem medo de altura... Já faz muito tempo desde que a vimos. Mas deixe-me esclarecer você: você está no reino de Ouranos ou Aoranos. Nossa aldeia é Zirthion, e é o lugar habitado mais próximo da residência de nosso rei. Nosso mundo não é como o seu, novos rostos são muito mais raros aqui. Além disso, nós valorizamos muito a hospitalidade. Aqui, as pessoas são muito mais tranquilas, e nossos guerreiros não nascem de conflitos entre humanos, mas de jornadas perigosas e confrontos com as muitas criaturas hostis que povoam nosso reino.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"是的，她恐高……我们很久没见过她了。不过让我来给你讲讲：你现在身处的是Ouranos王国，也叫Aoranos。我们的村庄叫Zirthion，是离国王住处最近的人类聚居地。我们的世界与你们的不同，这里很少见到新面孔。而且，我们非常重视待客之道。在这里，人们更加平和，我们的战士不是诞生于人类之间的冲突，而是源自危险的旅程和与王国中众多敌对生物的战斗。","color":"dark_aqua"}]}

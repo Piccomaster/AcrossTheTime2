@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"L'ultime aube"},
-        "description": {"translate":"Already it came and for the second time gave birth to an endless day."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_diamond/boots_203",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_boots_199": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6L'ultime aube\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jà elle vint et pour la seconde fois\\\"}\",\"{\\\"text\\\":\\\"§7elle enfanta un jour sans fin.\\\"}\",\"{\\\"text\\\":\\\"§7Already it came and for the second time\\\"}\",\"{\\\"text\\\":\\\"§7gave birth to an endless day.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7LUC§a1 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.boots_199"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.boots_199"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/boots_203",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_boots_199": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "199"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

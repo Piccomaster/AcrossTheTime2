@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Esta é uma boa prova da chegada da filha de Emerald a este lugar. ''Tina'' está escrito na jaqueta, deve ser o nome dela. Isso me disse algo... Felizmente, não há corpo. Agora leve a jaqueta de volta para Emerald.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这是Emerald的女儿来到这里的证据。“Tina”写在这个夹克上，应该是她的名字。上面有些信息...还好没有看到尸体。我得把这个夹克带给Emerald。","color":"aqua"}]}

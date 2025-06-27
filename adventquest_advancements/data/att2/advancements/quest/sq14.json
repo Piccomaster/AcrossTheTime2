@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"The key to profitability"},
-        "description": {"translate":"Successfully complete this side quest"},
+        "title": {"translate":"att2.advancement.quest.title.sq14"},
+        "description": {"translate":"att2.advancement.quest.description.sq14"},
         "frame": "goal"
     },
     "parent": "att2:quest/root",

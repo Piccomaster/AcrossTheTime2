@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Tyrgols Gacko : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Tyrgols Gacko : ","color":"green","extra":[{"text":"*Espirrando* Você não foi nada gentil com o explosivo! Acho que foi o Gregor quem te enviou. Certo, nos encontraremos na casa do meu irmão!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Tyrgols Gacko : ","color":"green","extra":[{"text":"（*打喷嚏*）你用炸药的方式很粗犷啊...我猜是Gregor让你来的。挺好，我们到我的兄弟那里再会！","color":"dark_aqua"}]}

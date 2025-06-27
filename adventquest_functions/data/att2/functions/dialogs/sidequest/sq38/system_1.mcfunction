@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"शैडो अपनी सभी ज
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Sombra recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Shadow恢复了他所有的力量...","color":"gray","italic":true}

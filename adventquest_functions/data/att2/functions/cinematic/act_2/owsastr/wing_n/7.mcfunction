@@ -27,3 +27,5 @@ execute as @e[nbt={UUID:[I;0,65807,0,65807]},tag=UtoS] run scoreboard players se
 
 ##data merge marker
 function att2:cinematic/act_2/owsastr/marker_set
+#return 1->make command block runing
+return 1

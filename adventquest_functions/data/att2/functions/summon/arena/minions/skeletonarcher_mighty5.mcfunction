@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon skeleton archer Minions arena  		     #
+
 ##################################################
 
-summon minecraft:skeleton ~ ~ ~ {Glowing:1,Tags:["LVL0","CLASS20","Undead","ArenaMinion","Mighty5"],PersistenceRequired:1,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],Attributes:[{Name:generic.movement_speed,Base:0.275},{Name:generic.follow_range,Base:100.0}],HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:power",lvl:5}]}},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:4,Patterns:[{Pattern:gra,Color:8},{Pattern:mc,Color:7},{Pattern:cbo,Color:3},{Pattern:gru,Color:7},{Pattern:gra,Color:8}]}}}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1}]}}]}
+
+
+summon minecraft:skeleton ~ ~ ~ {Glowing:1,Tags:["LVL0","CLASS20","Undead","ArenaMinion","Mighty5"],PersistenceRequired:1,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},attributes:[{id:movement_speed,base:0.275},{id:follow_range,base:100.0}],equipment:{mainhand:{id:"minecraft:bow",count:1,components:{enchantments:{"minecraft:power":5}}},offhand:{id:"minecraft:shield",count:1,components:{base_color:yellow,banner_patterns:[{pattern:gradient,color:light_gray},{pattern:circle,color:gray},{pattern:curly_border,color:light_blue},{pattern:gradient_up,color:gray},{pattern:gradient,color:light_gray}]}},feet:{id:"minecraft:netherite_boots",count:1,components:{unbreakable:{},enchantments:{"minecraft:protection":1}}},legs:{id:"minecraft:netherite_leggings",count:1,components:{unbreakable:{},enchantments:{"minecraft:protection":1}}},chest:{id:"minecraft:netherite_chestplate",count:1,components:{unbreakable:{},enchantments:{"minecraft:protection":1}}},head:{id:"minecraft:netherite_helmet",count:1,components:{unbreakable:{},enchantments:{"minecraft:protection":1}}}}}

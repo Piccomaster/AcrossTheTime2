@@ -3,4 +3,4 @@
 #Obtain Cargo of Food                            #
 ##################################################
 
-give @s minecraft:note_block{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cCargaison de nourriture\"","Lore":["{\"text\":\"§4§oCargo of food\"}"]}} 1
+give @s minecraft:note_block[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.cargo_of_food.name'},lore=[{translate:'item.quest.lore'}]] 1

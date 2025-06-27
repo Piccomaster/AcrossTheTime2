@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:quartz"
+            "id": "minecraft:quartz"
         },
-        "title": {"translate":"Ecaille Souveraine du Chaos"},
-        "description": {"translate":"Find your first Ecaille Souveraine du Chaos"}
+        "title": {"translate": "att2.advancement.treasure.title.esc_1"},
+        "description": {"translate": "att2.advancement.treasure.description.esc_1"}
     },
     "parent": "att2:treasure/root",
         "rewards": {
@@ -13,7 +13,15 @@
     },
     "criteria": {
         "esc_1": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:quartz"],
+                    "nbt": "{Rarity:unk}"
+                    }
+                ]
+            }
         }
     }
 }

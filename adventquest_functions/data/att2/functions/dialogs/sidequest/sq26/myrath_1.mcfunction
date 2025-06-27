@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Myrath : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Myrath : ","color":"green","extra":[{"text":"Eu te peguei, seu ladrão imundo! Você não vai mais escapar de mim! O quê? Mas você não é... Tanto faz! Você sofrerá minha ira!","color":"dark_red"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Myrath : ","color":"green","extra":[{"text":"我抓到你了，你这个肮脏的小偷！你再也逃不掉了！什么？你不是她...太糟糕了！你会遭受我的怒火！ ","color":"dark_red"}]}

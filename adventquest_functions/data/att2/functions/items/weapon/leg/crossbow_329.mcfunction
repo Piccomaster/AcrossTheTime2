@@ -3,5 +3,6 @@
 #Obtain item crossbow_329          #
 #####################################
 
-give @s minecraft:crossbow{EquipmentType:"rangeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",Effect:"str4_her1_dar1",display:{Name:"\"§6Unkempt Harold\"","Lore":["{\"text\":\"§7J'ai tiré quoi, six fois ? Ou Cinq ?\"}","{\"text\":\"§7Trois ? Sept. Peu Importe.\"}","{\"text\":\"§7Did I fire six shots, or only five?\"}","{\"text\":\"§7Three? Seven. Whatever.\"}","{\"text\":\"§7STR§a4 §7HER§a1 §7DAR§a1\"}"]},Damage:50,Enchantments:[{id:"minecraft:power",lvl:8s},{id:"minecraft:multishot",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:crossbow[custom_data={EquipmentType:"rangeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",STR:4,HER:1,DAR:1,Weapon:"329"},custom_name={translate:"weapon329.name"},lore=[{translate:"weapon329.lore.1"},{translate:"weapon329.lore.2"},{translate:"weapon329.stat"}],max_damage=460,damage=50,enchantments={"power":8,"multishot":1}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

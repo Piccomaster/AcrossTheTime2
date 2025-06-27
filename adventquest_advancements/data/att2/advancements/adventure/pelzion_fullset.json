@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:elytra"
+            "id": "minecraft:elytra"
         },
-        "title": {"translate":"Pelzion full set"},
-        "description": {"translate":"Complete the epic set of Pelzion"},
+        "title": {"translate":"att2.advancement.adventure.title.pelzion_fullset"},
+        "description": {"translate":"att2.advancement.adventure.description.pelzion_fullset"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/epi_full_set",

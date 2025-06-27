@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Éclat du Néleptron"},
-        "description": {"translate":"Once forged with the fragments of the endless light, its brilliance is deflagrating."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/helmet_345",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_helmet_260": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Éclat du Néleptron\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jadis forgé avec les fragments de la lumière\\\"}\",\"{\\\"text\\\":\\\"§7sans fin, son éclat est déflagrant.\\\"}\",\"{\\\"text\\\":\\\"§7Once forged with the fragments of the endless\\\"}\",\"{\\\"text\\\":\\\"§7light, its brilliance is deflagrating.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1 §7SPD§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.helmet_260"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.helmet_260"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/helmet_345",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_helmet_260": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "260"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

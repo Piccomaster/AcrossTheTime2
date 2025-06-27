@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tenho certeza de que é este, mas Basile já havia recitado essas palavras para mim sem precisar deste livro... Ele não teria me dito para ir a este lugar fazer algo que eu poderia ter feito em qualquer outro lugar.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我确定就是这本书，但Basile之前已经向我复诵这些话了，并不需要这本书……他不会叫我去一个特定的地方做一件我随处都能做的事情。","color":"aqua"}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_pigstep"
+            "id": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Nojélanth desert Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Nojélanth desert"},
+        "title": {"translate":"att2.advancement.journey.title.symbol_nojelanth_desert"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_nojelanth_desert"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_nojelanth_present",

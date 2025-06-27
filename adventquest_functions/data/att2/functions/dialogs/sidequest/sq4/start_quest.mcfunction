@@ -59,3 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[मशरूम का सूप]","co
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[A sopa de cogumelos]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[蘑菇煲]","color":"gold"}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Feanorth : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Hmm, muito bem, como consegui reunir alguns tesouros de guerra nos restos de Angor, poderei dar-lhe 750 Chronotons por esta missão. Vá para o distrito oeste de Angor, você encontrará o ninho nas ruínas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"嗯....好吧，还好我在angor遗迹中搜寻过一些宝贝，这次任务我可以给你750个Chronotons。前往angor遗迹西区你会在废墟中找到那些生物的巢穴。","color":"dark_aqua"}]}

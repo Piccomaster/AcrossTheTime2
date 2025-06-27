@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"‘Vitality Pet’ के लिए न
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Familiar de Vitalidade!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“治愈之友”已升级！","color":"gold"}

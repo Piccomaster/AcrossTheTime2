@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Sabedoria? Qual sabedoria?","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"智慧？什么智慧？","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_sidequest3
+

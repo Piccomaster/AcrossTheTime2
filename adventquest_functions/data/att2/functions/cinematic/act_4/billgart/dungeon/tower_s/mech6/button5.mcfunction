@@ -11,3 +11,5 @@
 scoreboard players add tower_s_mech6_button5 BILLGART 1
 execute if score tower_s_mech6_button5 BILLGART matches 1 run function att2:cinematic/act_4/billgart/dungeon/tower_s/mech6/button5_1
 execute if score tower_s_mech6_button5 BILLGART matches 2 run function att2:cinematic/act_4/billgart/dungeon/tower_s/mech6/button5_2
+#return 1->make command block runing
+return 1

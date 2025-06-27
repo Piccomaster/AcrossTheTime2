@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"°-° इंद्रा लोर्�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"°-° Indra Lorth : ","color":"green","extra":[{"text":"Oh... Olha só quem voltou, é o nosso promissor buscador de gemas! Então, encontrou o que estava interessado?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"噢...看看是谁回来了，是那展露头角的宝石探险家！那么，你有在那个有意思的地方找到什么东西吗？ ","color":"dark_aqua"}]}

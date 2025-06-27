@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lucas : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Pare aí, estranho, que bom vento te traz aqui? Não! Espere, não jogue suas palavras ao vento! Deixe-me apresentar. Eu sou Lucas, o ilustre, o artista do vento...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"停下，陌生人，是哪阵好风把你吹到这里来的？别着急，等等，别让你的话随风飘散了，让我来自我介绍一下。我是Lucas，一位天资卓绝的出色风师...","color":"dark_aqua"}]}

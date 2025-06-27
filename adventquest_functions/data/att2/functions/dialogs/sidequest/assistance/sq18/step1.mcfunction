@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक अच्छी तरह �
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma vingança bem merecida -°- : ","color":"gray","extra":[{"text":"O filho de Daril Gram foi mutilado por fanáticos, seu pai quer que eu me vingue deles, que acabe com esses monstros. O acampamento deles está no distrito mais ocidental de Angor.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 恶有恶报 -°- : ","color":"gray","extra":[{"text":"Daril的儿子被一群疯狂的邪教徒残忍地截肢了，他让我替他对这群人复仇。这群疯子的老巢在Angor废墟靠西边比较远的地方","color":"aqua","italic":true}]}

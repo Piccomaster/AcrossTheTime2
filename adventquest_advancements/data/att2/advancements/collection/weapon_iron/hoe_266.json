@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_hoe"
-        },
-        "title": {"translate":"Flèche de fer"},
-        "description": {"translate":"Sharp as a razor blade."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_hoe"
     },
-    "parent": "att2:collection/weapon_iron/hoe_265",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_hoe_266": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Flèche de fer\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tranchant comme une lame de rasoir.\\\"}\",\"{\\\"text\\\":\\\"§7Sharp as a razor blade.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.hoe_266"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.hoe_266"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/hoe_265",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_hoe_266": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "266"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -15,3 +15,6 @@ execute as @s[scores={DAR_BASE=3}] if entity @s[scores={SKILLPOINT=4..}] run fun
 execute as @s[scores={DAR_BASE=2}] if entity @s[scores={SKILLPOINT=3..}] run function att2:gameplay/stat/dahalregen/lvl/3
 execute as @s[scores={DAR_BASE=1}] if entity @s[scores={SKILLPOINT=2..}] run function att2:gameplay/stat/dahalregen/lvl/2
 execute as @s[scores={DAR_BASE=0}] if entity @s[scores={SKILLPOINT=1..}] run function att2:gameplay/stat/dahalregen/lvl/1
+
+
+

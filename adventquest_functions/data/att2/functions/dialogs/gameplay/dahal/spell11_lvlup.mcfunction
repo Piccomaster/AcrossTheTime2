@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Nova के लिए नया स्�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Nova!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“超新星”已升级！ ","color":"gold"}

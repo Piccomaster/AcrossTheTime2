@@ -53,5 +53,7 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° बारबर : ","color":"gre
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Bárbaro : ","color":"green","extra":[{"text":"Quem diabos é você? Eu não te conheço! Alerta de intruso!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 蛮族 : ","color":"green","extra":[{"text":"你TM的是谁！我可不认识你。有人入侵！","color":"dark_aqua"}]}
 
 function att2:voice/barbar/barbar2

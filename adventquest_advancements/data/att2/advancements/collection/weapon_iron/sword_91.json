@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_sword"
-        },
-        "title": {"translate":"Médara"},
-        "description": {"translate":"Go with pride, because only you could contemplate the darkness without flinching."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
     },
-    "parent": "att2:collection/weapon_iron/sword_87",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_sword_91": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_sword"],
-                    "nbt": "{display:{Name:\"\\\"§5Médara\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Va avec fierté, car toi seule pourrait\\\"}\",\"{\\\"text\\\":\\\"§7contempler les ténèbres sans fléchir.\\\"}\",\"{\\\"text\\\":\\\"§7Go with pride, because only you could\\\"}\",\"{\\\"text\\\":\\\"§7contemplate the darkness without flinching.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.sword_91"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.sword_91"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/sword_87",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "iron_sword_91": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "91"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

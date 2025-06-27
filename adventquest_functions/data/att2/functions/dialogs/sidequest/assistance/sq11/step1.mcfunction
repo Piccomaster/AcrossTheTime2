@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- मुसीबतें खड़
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Arruaceiros -°- : ","color":"gray","extra":[{"text":"Nepheris me pediu para expulsar os arruaceiros na taverna dele no andar de cima.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 闹事者 -°- : ","color":"gray","extra":[{"text":"Nepheris让我赶走楼上那群闹事者","color":"aqua","italic":true}]}

@@ -60,3 +60,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","ext
 
 
 function att2:dialogs/gameplay/inn/proposal_nestor
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"你回来了？真的是感激不尽。我的客人终于可以回来了，我也终于可以和我的家人团聚。","color":"dark_aqua"}]}

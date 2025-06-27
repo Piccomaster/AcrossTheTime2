@@ -3,4 +3,4 @@
 #Obtain rabbit_0         					 	 #
 ##################################################
 
-give @s minecraft:rabbit{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:rabbit[custom_data={EquipmentType:'food',Rarity:'misc'}]

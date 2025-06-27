@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- यात्रा का अं�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O Fim de uma Jornada -°- : ","color":"gray","extra":[{"text":"Emerald sabe onde está sua filha Selene, tenho que procurá-la antes que algo aconteça com ela. Uma subida me espera até um antigo santuário na montanha, há um caminho que sobe para o nordeste ao longo do palácio de Eolorion!","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 旅途终点 -°- : ","color":"gray","extra":[{"text":"Emerald弄清楚他的女儿Sélène沿着Eolorion东北方向去往雪山了，穿过冰冻的河流后有一条道路可以直通山顶的古老圣所，我最好赶紧出发以免他女儿遭遇不测","color":"aqua","italic":true}]}

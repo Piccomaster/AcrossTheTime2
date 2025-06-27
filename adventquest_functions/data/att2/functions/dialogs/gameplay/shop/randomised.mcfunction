@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"स्टोर रीसेट कि�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Lojas resetadas!","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"商店重置！","color":"gray"}

@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"No entanto, há uma reação adversa que ganhou seu nome na fonte: a corrupção. Ao usá-la, nenhum ser pode permanecer indefinidamente no controle de sua própria pessoa. Todos eventualmente sucumbem a ela. Namrïn resistiu por 29 milênios; para Ranwë, ou Ranégot, bastaram apenas 200 anos...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"然而，这世上存在一种离经叛道般的力量泉源，其本质与它的名字如出一辙：“墮落”一旦陷入其中，不论谁都终将屈服于它。Namrïn坚持了两万九千年；而Ranwë和Ranégot只坚持了200年...","color":"dark_aqua"}]}

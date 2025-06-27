@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Armel Darsan : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"Bem-vindo à vila estrangeira de Fênix! Espero que você não tenha vindo nos causar problemas, estamos bem estabelecidos e queremos permanecer protegidos! Se você está procurando o chefe da vila, ele está na cabana no topo do pico atrás de mim.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"欢迎来到凤凰村！希望你不会给我们带来麻烦—我们在这里过的十分安稳！如果你在找村长的话，他就在我身后那座小山山顶上的小屋里。","color":"dark_aqua"}]}

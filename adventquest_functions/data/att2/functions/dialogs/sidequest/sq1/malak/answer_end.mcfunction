@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Malak : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Uhu! Céréais doces e macios, estou tão feliz por vê-los novamente... Aqui está sua recompensa, meu pequeno...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"耶呼！我可爱又宝贝的谷物们... 好开心又能见到你们...这是我的一点小心意，拿去吧！ ","color":"dark_aqua"}]}

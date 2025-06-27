@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Cicatrization Apprentice"},
-        "description": {"translate":"Reach level 2 with Cicatrization spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell41_lvl2"},
+        "description": {"translate":"att2.advancement.dahal.description.spell41_lvl2"}
     },
     "parent": "att2:dahal/spell41_loot",
     "rewards": {

@@ -3,5 +3,6 @@
 #Obtain item leather_boots_39          #
 #####################################
 
-give @s minecraft:leather_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"teran",Shop:"buy",Effect:"has_1",display:{Name:"\"§2Chaussures inconfortables\"","Lore":["{\"text\":\"§7Mais moins que des sabots.\"}","{\"text\":\"§7But less than clogs.\"}","{\"text\":\"§7HAS§c-1\"}"],color:4020859},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.07,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.38,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]} 1
+give @s minecraft:leather_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'teran',Shop:'buy',HAS:-1,Armor:'39'},custom_name={translate:'armor39.name'},lore=[{translate:'armor39.lore.1'},{translate:'armor39.lore.2'},{translate:'armor39.stat'}],max_damage=70,damage=0,attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:1.07},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.38},{slot:'feet',type:'knockback_resistance',id:'armor.boots',operation:'add_value',amount:0.02}],dyed_color=4020859]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

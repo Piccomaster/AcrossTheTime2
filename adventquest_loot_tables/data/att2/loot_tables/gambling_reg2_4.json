@@ -25,8 +25,8 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{Rarity:\"reg2_c7\"}"
+                            "function": "set_components",
+                            "components": {"minecraft:custom_data":{"Rarity":"reg2_c7"}}
                         }
                     ]
                 },
@@ -49,8 +49,8 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{Rarity:\"reg2_c8\"}"
+                            "function": "set_components",
+                            "components": {"minecraft:custom_data":{"Rarity":"reg2_c8"}}
                         }
                     ]
                 },
@@ -73,8 +73,8 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{Rarity:\"reg2_c9\"}"
+                            "function": "set_components",
+                            "components": {"minecraft:custom_data":{"Rarity":"reg2_c9"}}
                         }
                     ]
                 },
@@ -97,8 +97,8 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{Rarity:\"reg2_c10\"}"
+                            "function": "set_components",
+                            "components": {"minecraft:custom_data":{"Rarity":"reg2_c10"}}
                         }
                     ]
                 }

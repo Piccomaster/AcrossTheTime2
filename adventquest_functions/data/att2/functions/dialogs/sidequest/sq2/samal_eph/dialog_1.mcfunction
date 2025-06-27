@@ -62,3 +62,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Samal Eph : ","color":"green","
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"这是幻觉吗？！唯一的出口崩塌之后我都以为我死定了。太感谢你了！我本来应该要把铁矿带给Ryliath的铁匠的，是他叫你来的吗？ ","color":"dark_aqua"}]}

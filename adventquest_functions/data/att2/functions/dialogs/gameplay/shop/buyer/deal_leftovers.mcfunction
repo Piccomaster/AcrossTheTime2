@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"धन्यवाद, लेकिन 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Obrigado, mas leve seus restos de volta, eu não quero.","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"谢谢你，但是请把这些东西拿回去，我不收他们","color":"gray"}

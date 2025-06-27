@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Dahäl Spell"},
-        "description": {"translate":"The way of the S"},
-        "background": "minecraft:textures/block/nether_wart_block.png",
+        "title": {"translate":"att2.advancement.dahal.title.root"},
+        "description": {"translate":"att2.advancement.dahal.description.root"},
+        "background": "minecraft:block/nether_wart_block",
         "show_toast": true,
         "announce_to_chat": true
     },

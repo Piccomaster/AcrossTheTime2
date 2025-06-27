@@ -11,11 +11,11 @@ execute if score End0 TIMER matches 1..79 in minecraft:the_end as @a[gamemode=sp
 execute if score End0 TIMER matches 20 at @a run function att2:sound/door/largestructure_falling
 execute if score End0 TIMER matches 20 at @a run function att2:sound/misc/stone_falling
 execute if score End0 TIMER matches 20 in minecraft:the_end run function att2:physicmod/reg3/dungeon/tower_sw/mech2_button1
-execute if score End0 TIMER matches 20 run particle minecraft:falling_dust minecraft:green_stained_glass -1327 79 -553 1 0 1 1 100 force
+execute if score End0 TIMER matches 20 run particle minecraft:falling_dust{block_state:"minecraft:green_stained_glass"} -1327 79 -553 1 0 1 1 100 force
 execute if score End0 TIMER matches 80 at @a run function att2:sound/misc/loading_energy
 execute if score End0 TIMER matches 80..199 in minecraft:the_end as @a[gamemode=spectator] run tp @s -1339 60 -560 20 10
 execute if score End0 TIMER matches 100..199 in minecraft:the_end run function att2:cinematic/act_4/billgart/dungeon/tower_sw/mech2/laser_particle
-execute if score End0 TIMER matches 120 run summon minecraft:end_crystal -1338.2 56.5 -541.0 {ShowBottom:0,BeamTarget:{X:-1365,Y:55,Z:-541}}
+execute if score End0 TIMER matches 120 run summon minecraft:end_crystal -1338.2 56.5 -541.0 {ShowBottom:0,beam_target:{-1365,55,-541}}
 execute if score End0 TIMER matches 120 at @a run function att2:sound/misc/desintegration
 execute if score End0 TIMER matches 120..180 run particle minecraft:explosion -1363 56 -541 1 1 1 0 2 force
 execute if score End0 TIMER matches 130 at @a run function att2:sound/misc/glass_melting
@@ -40,3 +40,5 @@ execute if score End0 TIMER matches 350 as @a[gamemode=spectator] run function a
 
 execute if score End0 TIMER matches 351.. run scoreboard players set tower_sw_mech2 BILLGART 2
 execute if score End0 TIMER matches ..350 run function att2:cinematic/end0_iteration
+#return 1->make command block runing
+return 1

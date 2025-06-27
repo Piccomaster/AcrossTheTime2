@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Babbu : ","color":"green","extr
 function att2:dialogs/sidequest/sq39/babbu/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq39/babbu/player_proposal_1/choice_2
 execute if score Mainquest SIDEQUEST matches 82.. run function att2:dialogs/sidequest/sq39/babbu/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"你还有更多的Chronotons吗？ ","color":"dark_aqua"}]}

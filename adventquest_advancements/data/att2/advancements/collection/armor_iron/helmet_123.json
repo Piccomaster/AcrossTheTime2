@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_helmet"
-        },
-        "title": {"translate":"Distinction du capitaine"},
-        "description": {"translate":"May your head shine proudly in the eyes of both your own and your enemies."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_helmet"
     },
-    "parent": "att2:collection/armor_iron/helmet_116",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_helmet_123": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Distinction du capitaine\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisse ta tête briller fièrement\\\"}\",\"{\\\"text\\\":\\\"§7aux yeux des tiens et ceux de tes ennemis.\\\"}\",\"{\\\"text\\\":\\\"§7May your head shine proudly in the eyes\\\"}\",\"{\\\"text\\\":\\\"§7of both your own and your enemies.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.helmet_123"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.helmet_123"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/helmet_116",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "iron_helmet_123": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "123"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

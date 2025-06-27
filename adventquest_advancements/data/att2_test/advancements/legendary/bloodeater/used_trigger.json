@@ -1,0 +1,20 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/bloodeater/used_trigger"
+  },
+  "criteria": {
+    "use_trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:iron_sword",
+          "predicates": {
+            "minecraft:custom_data": {
+              "EquipmentID": "bloodeater"
+            }
+          }
+        }
+      }
+    }
+  }
+}

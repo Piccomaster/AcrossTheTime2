@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bow",
+            "id": "minecraft:bow",
             "nbt": "{CustomModelData:10000100}"
         },
-        "title": {"translate":"Lost Past"},
-        "description": {"translate":"Hold the mythical bow LOST PAST"},
+        "title": {"translate": "att2.advancement.collection.mythique.title.lost_past"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.lost_past"},
         "frame": "challenge",
         "hidden":true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_20",
+        "function": "att2:advancement/test_all/collection/lost_past",
         "experience": 5000
                 },
     "criteria": {

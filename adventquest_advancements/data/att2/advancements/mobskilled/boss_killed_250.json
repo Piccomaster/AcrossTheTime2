@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:structure_void"
+            "id": "minecraft:structure_void"
         },
-        "title": {"translate":"Boss Genocider"},
-        "description": {"translate":"Kill 250 Bosses"},
+        "title": {"translate":"att2.advancement.mobskilled.title.boss_killed_250"},
+        "description": {"translate":"att2.advancement.mobskilled.description.boss_killed_250"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/boss_killed_100",

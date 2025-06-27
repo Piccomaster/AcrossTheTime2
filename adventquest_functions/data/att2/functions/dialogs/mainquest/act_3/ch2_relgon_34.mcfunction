@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Bom. Eu confiei o primeiro selo ao chefe de uma aldeia mortal que permaneceu leal a nós: Fênix. Apenas diga a ele: 'Estou voltando para Angor', e ele o entregará a você. Eu dissolvi o segundo na fortaleza de Angor. Infelizmente, não consegui encontrá-lo porque os mortais que invadiram nossa cidade tiveram que movê-lo...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"好。我将其中一个封印法器托付给了一个仍忠于我们的村庄“Phoenix村”的村长。阁下只需告诉他“我要回Angor”，他就会把法器交给阁下。至于第二个法器，我将它藏在了Angor的王宫之中。不幸的是，入侵Angor的敌人出现得太快，百忙之中我忘记了它藏于何处。","color":"dark_aqua"}]}

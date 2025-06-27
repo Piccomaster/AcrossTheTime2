@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone"
+            "id": "minecraft:redstone"
         },
-        "title": {"translate":"Medic!"},
-        "description": {"translate":"Use powerful regenerating magic"}
+        "title": {"translate":"att2.advancement.combat.title.her_5"},
+        "description": {"translate":"att2.advancement.combat.description.her_5"}
     },
     "parent": "att2:combat/her_2",
     "rewards": {

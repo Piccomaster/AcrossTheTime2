@@ -3,16 +3,16 @@
 #Obtain the magic sphere                         #
 ##################################################
 
-execute unless score @s SPELL5_SLCT matches 1.. unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run scoreboard players set @s SPELL5_SLCT 1
-execute if score @s SPELL5_SLCT matches 1.. unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run kill @e[type=item,predicate=att2_pre:dahal/book/spell_5,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
-execute if score @s SPELL5_SLCT matches 1 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl1
-execute if score @s SPELL5_SLCT matches 2 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl2
-execute if score @s SPELL5_SLCT matches 3 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl3
-execute if score @s SPELL5_SLCT matches 4 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl4
-execute if score @s SPELL5_SLCT matches 5 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl5
-execute if score @s SPELL5_SLCT matches 6 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl6
-execute if score @s SPELL5_SLCT matches 7 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl7
-execute if score @s SPELL5_SLCT matches 8 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl8
-execute if score @s SPELL5_SLCT matches 9 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl9
-execute if score @s SPELL5_SLCT matches 10 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell5"}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl10
+execute unless score @s SPELL5_SLCT matches 1.. unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run scoreboard players set @s SPELL5_SLCT 1
+execute if score @s SPELL5_SLCT matches 1.. unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run kill @e[type=item,predicate=att2_pre:dahal/book/spell_5,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
+execute if score @s SPELL5_SLCT matches 1 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl1
+execute if score @s SPELL5_SLCT matches 2 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl2
+execute if score @s SPELL5_SLCT matches 3 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl3
+execute if score @s SPELL5_SLCT matches 4 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl4
+execute if score @s SPELL5_SLCT matches 5 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl5
+execute if score @s SPELL5_SLCT matches 6 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl6
+execute if score @s SPELL5_SLCT matches 7 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl7
+execute if score @s SPELL5_SLCT matches 8 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl8
+execute if score @s SPELL5_SLCT matches 9 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl9
+execute if score @s SPELL5_SLCT matches 10 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell5"}}}]}] run function att2:gameplay/dahal/launcher/spell_5/lvl10
 

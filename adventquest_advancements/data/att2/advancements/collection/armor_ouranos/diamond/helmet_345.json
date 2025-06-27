@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_helmet"
-        },
-        "title": {"translate":"Idéal nostalgique"},
-        "description": {"translate":"It will let itself be tamed, as long as we give it time; leading to precious heady memories."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/helmet_256",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_helmet_345": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Idéal nostalgique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il se laissera apprivoiser, pourvu qu'on lui laisse\\\"}\",\"{\\\"text\\\":\\\"§7le temps ; portant vers de précieux souvenirs enivrants.\\\"}\",\"{\\\"text\\\":\\\"§7It will let itself be tamed, as long as we give it time;\\\"}\",\"{\\\"text\\\":\\\"§7leading to precious heady memories.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.helmet_345"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.helmet_345"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/helmet_256",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_helmet_345": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "345"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

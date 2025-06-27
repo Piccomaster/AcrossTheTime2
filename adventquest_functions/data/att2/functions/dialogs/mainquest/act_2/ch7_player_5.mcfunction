@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Esta ilha é vasta e está em ruínas, a exploração será difícil. Vamos começar pelos lugares onde podemos caminhar, terei que dar a volta para chegar ao outro lado...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这座岛的面积很大，而且到处是废墟，探索这里并非易事—能走到哪儿就探索到哪儿吧，只是得先想办法绕路到对岸才行...","color":"aqua"}]}

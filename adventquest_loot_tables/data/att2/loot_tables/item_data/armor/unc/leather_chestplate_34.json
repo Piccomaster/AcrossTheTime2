@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor34.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor34.lore.1"
+                  },
+                  {
+                    "translate": "armor34.lore.2"
+                  },
+                  {
+                    "translate": "armor34.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "unc",
+                  "Manufacturer": "teran",
+                  "STR": -1,
+                  "Armor": "34"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.chestplate",
+                    "amount": 4.53,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.chestplate",
+                    "amount": 0.56,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "armor.chestplate",
+                    "amount": 0.02,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:dyed_color": 14021098,
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 85
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

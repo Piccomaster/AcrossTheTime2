@@ -82,6 +82,7 @@ execute in minecraft:overworld positioned -7551 144 -4310 as @s[distance=..6] if
 execute in minecraft:the_nether positioned 3761 65 4337 as @s[distance=..6] if score 76 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/76
 execute in minecraft:the_nether positioned 3760 68 4348 as @s[distance=..6] if score 77 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/77
 execute in minecraft:the_nether positioned 3776 96 4411 as @s[distance=..6] if score 78 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/78
+#execute in minecraft:the_nether positioned 3543 123 4509 as @s[distance=..6] if score 79 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/79
 execute in minecraft:the_nether positioned 3511 42 4581 as @s[distance=..6] if score 80 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/80
 execute in minecraft:the_nether positioned 3444 55 4516 as @s[distance=..6] if score 81 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/81
 execute in minecraft:the_nether positioned 3548 73 4464 as @s[distance=..6] if score 82 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/82

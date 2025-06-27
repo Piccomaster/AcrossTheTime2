@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Aqui estamos diante da clarividente, ou melhor, da mestra das runas. Ela é uma mística trabalhando em uma arte que realmente ainda tenho dificuldade em entender, você certamente terá mais afinidade com essa arte do que eu...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"在这个地方的是位灵媒，更确切地说，是符文世界的女性主宰。她是一位神秘的艺术家，从事着一种我实在难以理解的艺术，你想必对这门艺术会更有亲和力…","color":"dark_aqua"}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"A friend always here to help"},
-        "description": {"translate":"Across The Time"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_36"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_36"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_35",

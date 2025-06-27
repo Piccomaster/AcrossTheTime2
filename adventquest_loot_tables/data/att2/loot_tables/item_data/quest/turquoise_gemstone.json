@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "item.quest.turquoise_gemstone.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.quest.lore"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "misc",
+                  "Rarity": "que"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

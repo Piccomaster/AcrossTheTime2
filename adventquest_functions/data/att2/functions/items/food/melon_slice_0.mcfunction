@@ -3,4 +3,4 @@
 #Obtain melon_slice_0         				 	 #
 ##################################################
 
-give @s minecraft:melon_slice{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:melon_slice[custom_data={EquipmentType:'food',Rarity:'misc'}]

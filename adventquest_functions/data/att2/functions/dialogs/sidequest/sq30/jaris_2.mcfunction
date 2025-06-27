@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Jaris : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Não diga isso! Eu devo assumir minhas responsabilidades! Foi minha ideia, eu os roubei para ver Ithil, ela não sabia. No entanto, estou pronto para entregar os planos...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"别说了！我必须承担我的责任！这一切是我的主意，我偷这些设计图是为了和Ithil见面，她什么都不知道。不过我已经准备好归还这些设计图了...","color":"dark_aqua"}]}

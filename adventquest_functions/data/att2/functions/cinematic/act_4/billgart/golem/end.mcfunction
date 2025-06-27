@@ -10,3 +10,5 @@ scoreboard players set golem_PNJ DIALOG 3
 function att2:cinematic/end0_init
 scoreboard players set golem_mech1 BILLGART 7
 function att2:physicmod/reg3/golem/end
+#return 1->make command block runing
+return 1

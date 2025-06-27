@@ -15,3 +15,5 @@ execute positioned -5030 80 -5034 run function att2:particle/ryliath_timeportal_
 execute positioned -5030 80 -5034 run function att2:sound/misc/time_portal
 
 execute as @a run function att2:gameplay/leveling/add_1_skillpoint
+#return 1->make command block runing
+return 1

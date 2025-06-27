@@ -6,7 +6,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:que}}}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: que}}}}"
             }
         },
         {
@@ -14,7 +14,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:myt}}}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: myt}}}}"
             }
         },
         {
@@ -22,7 +22,15 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{tag:{Rarity:unk}}}"
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: unk}}}}"
+            }
+        },
+        {
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+                "type":"minecraft:item",
+                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: ult}}}}"
             }
         }
     ]

@@ -3,4 +3,4 @@
 #Obtain item potion_2          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"str1_spd_1_hun_3_luc_2",display:{Name:"\"§7Jaja\"","Lore":["{\"text\":\"§7C'pa parsk jui bourré, que tu vam'faire la lorame\"}","{\"text\":\"§7Is'not because I'm drunk, yo're go'uing turelec me.\"}","{\"text\":\"§7STR§a1 §7SPD§c-1 §7HUN§c-3 §7LUC§c-2\"}"]},CustomPotionColor:9055327,custom_potion_effects:[{id:nausea,amplifier:0,duration:200,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={STR:1,SPD:-1,HUN:-3,LUC:-2,EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'2'},custom_name={translate:'potion2.name'},lore=[{translate:'potion2.lore.1'},{translate:'potion2.lore.2'},{translate:'potion2.stat'}],max_stack_size=16,potion_contents={custom_color:9055327,custom_effects:[{amplifier:0,duration:200,id:'nausea',show_particles:0b}]}] 1

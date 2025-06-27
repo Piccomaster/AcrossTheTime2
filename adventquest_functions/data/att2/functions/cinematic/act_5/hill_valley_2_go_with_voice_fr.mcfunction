@@ -20,7 +20,7 @@ execute if score Real0 TIMER matches 700 run function att2:voice/serile/serile47
 execute if score Real0 TIMER matches 1000 run function att2:dialogs/mainquest/act_5/ch1_player_7
 execute if score Real0 TIMER matches 1150 run function att2:dialogs/mainquest/act_5/ch1_serile_5
 execute if score Real0 TIMER matches 1150 run function att2:voice/serile/serile48
-execute if score Real0 TIMER matches 1180 as 00000000-0000-001a-0000-00000000001a at @s run data merge entity @s {Rotation:[90.0f,-20.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:33}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:16775967}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:33}}},{id:"minecraft:shears",Count:1,tag:{CustomModelData:10010009,Unbreakable:1}}]}
+execute if score Real0 TIMER matches 1180 as 00000000-0000-001a-0000-00000000001a at @s run data merge entity @s {Rotation:[90.0f,-20.0f],equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dye_color:33}},legs:{id:"minecraft:leather_leggings",count:1,components:{dye_color:16775967}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dye_color:33}},head:{id:"minecraft:shears",count:1,components:{custom_model_data:{floats:[10010009]},unbreakable:{}}}}}
 execute if score Real0 TIMER matches 1180 at @a run function att2:sound/shop/opening
 execute if score Real0 TIMER matches 1200 run function att2:physicmod/reg1/hill_valley/barrier1
 execute if score Real0 TIMER matches 1249 run function att2:cinematic/tp_effect/serile

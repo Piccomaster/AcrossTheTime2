@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_sword"
-        },
-        "title": {"translate":"Fleuret tordu"},
-        "description": {"translate":"A certain Z would have thrown it."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
     },
-    "parent": "att2:collection/weapon_netherite",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_sword_284": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Fleuret tordu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un certain Z l'aurait jeté.\\\"}\",\"{\\\"text\\\":\\\"§7A certain Z would have thrown it.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.sword_284"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.sword_284"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_sword_284": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "284"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

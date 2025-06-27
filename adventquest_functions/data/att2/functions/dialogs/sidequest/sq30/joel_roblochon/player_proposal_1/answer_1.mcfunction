@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Joël Roblochon : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"Tudo bem. A única saída secreta que conheço está logo à frente, após o corredor que leva ao meu estoque de carne. Ative a alavanca escondida atrás da parede da prateleira iluminada por duas tochas.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"不管怎么说。我唯一知道的密道就在前面，在我储存肉类的房间那里。只要激活隐藏在两个红石火把中间的那个拉杆就好了。","color":"dark_aqua"}]}

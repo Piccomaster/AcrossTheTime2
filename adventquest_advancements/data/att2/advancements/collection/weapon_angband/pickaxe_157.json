@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_pickaxe"
-        },
-        "title": {"translate":"Nekr al Felèvsil"},
-        "description": {"translate":"The Secarian beasts once feared your claws as much as your name."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe"
     },
-    "parent": "att2:collection/weapon_angband/pickaxe_153",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_pickaxe_157": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§6Nekr al Felèvsil\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les bêtes Sécariennes ont jadis\\\"}\",\"{\\\"text\\\":\\\"§7craint tes griffes autant que ton nom.\\\"}\",\"{\\\"text\\\":\\\"§7The Secarian beasts once feared\\\"}\",\"{\\\"text\\\":\\\"§7your claws as much as your name.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a4\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.pickaxe_157"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.pickaxe_157"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/pickaxe_153",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_pickaxe_157": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "157"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

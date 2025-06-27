@@ -3,5 +3,6 @@
 #Obtain item diamond_pickaxe_106          #
 #####################################
 
-give @s minecraft:diamond_pickaxe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",Effect:"has2_hun_1",display:{Name:"\"§2Loquien\"","Lore":["{\"text\":\"§7Grandis, sans jamais t'abâtardir.\"}","{\"text\":\"§7Grow up, but never spoil yourself.\"}","{\"text\":\"§7HAS§a2 §7HUN§c-1\"}"]},Damage:1450,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:14.74,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1
+give @s minecraft:diamond_pickaxe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"delightful",Shop:"buy",HAS:2,HUN:-1,Weapon:"106"},custom_name={translate:"weapon106.name"},lore=[{translate:"weapon106.lore.1"},{translate:"weapon106.lore.2"},{translate:"weapon106.stat"}],max_damage=1560,damage=1450,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:14.74},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.94}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

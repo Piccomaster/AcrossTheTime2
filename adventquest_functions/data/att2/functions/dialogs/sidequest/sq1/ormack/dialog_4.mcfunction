@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ormack : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"Soube da confusão que você causou em nossa vila. Considerando que você trouxe de volta as colheitas de Malak, estou pronto para te perdoar.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"我听说了你在这里搞出的篓子,不过看在你都把Malak的作物找回来的份上,就原谅你吧。","color":"dark_aqua"}]}

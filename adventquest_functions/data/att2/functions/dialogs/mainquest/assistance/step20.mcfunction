@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Indra é a mãe do chefe de Méleïm. Ela está localizada na casa sobre a rocha em forma de arco, ao lado da torre mais alta da vila. Vou falar com ela e veremos o que acontece.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Indra是Méleïm镇长的母亲，她的居住地是一座位于岩拱顶上的小屋，在小镇最高的塔楼旁。我应该去和她聊聊，这样我就知道下一步该怎么走了。","color":"aqua"}]}

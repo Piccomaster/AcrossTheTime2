@@ -3,6 +3,6 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:item",
-        "nbt": "{Item:{tag:{EquipmentType:rune,Rarity:spe}}}"
+        "nbt": "{Item:{components:{'minecraft:custom_data':{EquipmentType:'rune',Rarity:'spe'}}}}"
     }
 }

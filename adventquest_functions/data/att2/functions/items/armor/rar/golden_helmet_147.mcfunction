@@ -3,5 +3,6 @@
 #Obtain item golden_helmet_147          #
 #####################################
 
-give @s minecraft:golden_helmet{EquipmentType:"armor",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",Effect:"str2_dar1_res_1",display:{Name:"\"§9Casque du courageux\"","Lore":["{\"text\":\"§7Couvert d'entailles, il arbore\"}","{\"text\":\"§7les marques de nombreuses victoires.\"}","{\"text\":\"§7Covered with notches, it bears\"}","{\"text\":\"§7the marks of many victories.\"}","{\"text\":\"§7STR§a2 §7DAR§a1 §7RES§c-1\"}"]},Damage:0,Enchantments:[{id:"minecraft:fire_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.58,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.49,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:golden_helmet[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'eternan',Shop:'buy',STR:2,DAR:1,RES:-1,Armor:'147'},custom_name={translate:'armor147.name'},lore=[{translate:'armor147.lore.1'},{translate:'armor147.lore.2'},{translate:'armor147.stat'}],max_damage=80,damage=0,enchantments={'fire_protection':1},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:2.58},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.49}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

@@ -16,3 +16,5 @@ execute if score SQ36 SIDEQUEST matches 2 if entity @a[x=-5168,y=120,z=-5807,dis
 
 # Quest Completed when player is close to PNJ Violette
 execute if score SQ36 SIDEQUEST matches 3 at 00000000-0000-130a-0000-00000000130a if entity @a[distance=..5] run function att2:cinematic/sidequest/36/end
+#return 1->make command block runing
+return 1

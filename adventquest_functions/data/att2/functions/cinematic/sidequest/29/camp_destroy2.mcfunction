@@ -14,3 +14,5 @@ clone -4131 53 -5668 -4110 58 -5650 -4148 69 -5655 replace force
 setblock -4137 55 -5647 minecraft:air
 
 kill @e[type=minecraft:armor_stand,x=-4132,y=69,z=-5652,distance=..3]
+#return 1->make command block runing
+return 1

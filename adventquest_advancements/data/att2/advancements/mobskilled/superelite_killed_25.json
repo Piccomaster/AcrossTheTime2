@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:target"
+            "id": "minecraft:target"
         },
-        "title": {"translate":"Super Elite Slayer"},
-        "description": {"translate":"Kill 25 Super Elites"},
+        "title": {"translate":"att2.advancement.mobskilled.title.superelite_killed_25"},
+        "description": {"translate":"att2.advancement.mobskilled.description.superelite_killed_25"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/superelite_killed_5",

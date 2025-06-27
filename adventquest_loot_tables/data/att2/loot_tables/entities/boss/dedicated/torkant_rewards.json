@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_axe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"delightful\",Effect:\"str2_spd2_has2_luc1\",display:{Name:\"\\\"§6Songes fulgurants\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Claire comme obscure, rien ne peut bouleverser\\\"}\",\"{\\\"text\\\":\\\"§7l'éclat de la plus splendide des nuits.\\\"}\",\"{\\\"text\\\":\\\"§7Light as dark, nothing can upset\\\"}\",\"{\\\"text\\\":\\\"§7the brightness of the most splendid night.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§a2 §7LUC§a1\\\"}\"]},Damage:800,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:39.44,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.64,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/diamond_axe_124"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_pickaxe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"delightful\",Effect:\"str5\",display:{Name:\"\\\"§6La voix du maître\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Hurle aux années perdues, ton cri fera\\\"}\",\"{\\\"text\\\":\\\"§7trembler ciel et cœurs jusqu'aux confins du temps.\\\"}\",\"{\\\"text\\\":\\\"§7Howl at the lost years, your cry will\\\"}\",\"{\\\"text\\\":\\\"§7make heaven and hearts tremble to the ends of time.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a5\\\"}\"]},Damage:700,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:7s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:90.87,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/diamond_pickaxe_125"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:chainmail_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"graceful\",Effect:\"str2_her2\",display:{Name:\"\\\"§6Le Roi solitaire\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne dévoile pas trop vite le sommet de ta tête,\\\"}\",\"{\\\"text\\\":\\\"§7mendiant, tu sembles, mais royale est ta valeur.\\\"}\",\"{\\\"text\\\":\\\"§7Don't reveal the top of your head too quickly,\\\"}\",\"{\\\"text\\\":\\\"§7beggar, you seem to be, but royal is your value.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:thorns\",lvl:3s},{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:fire_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.44,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.89,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/chainmail_helmet_95"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:chainmail_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,14 +81,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"graceful\",Effect:\"has5_spd3\",display:{Name:\"\\\"§6Alsham\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Suis le jour, suis les rêves passés,\\\"}\",\"{\\\"text\\\":\\\"§7car rien n'est impossible pour toi.\\\"}\",\"{\\\"text\\\":\\\"§7Follow the day, follow past dreams,\\\"}\",\"{\\\"text\\\":\\\"§7because nothing is impossible for you.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a5 §7SPD§a3\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:thorns\",lvl:3s},{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.87,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:5.25,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/chainmail_chestplate_96"
                 }
             ]
         }
     ]
 }
+

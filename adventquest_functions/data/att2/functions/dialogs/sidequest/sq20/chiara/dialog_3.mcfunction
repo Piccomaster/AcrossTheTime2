@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","ext
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"准备好塞满你的钱袋子了吗？ ","color":"dark_aqua"}]}

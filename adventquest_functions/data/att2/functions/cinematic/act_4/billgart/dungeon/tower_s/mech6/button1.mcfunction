@@ -13,3 +13,5 @@ execute if score tower_s_mech6_button1 BILLGART matches 1 run function att2:cine
 execute if score tower_s_mech6_button1 BILLGART matches 2 run function att2:cinematic/act_4/billgart/dungeon/tower_s/mech6/button1_2
 execute if score tower_s_mech6_button1 BILLGART matches 3 run function att2:cinematic/act_4/billgart/dungeon/tower_s/mech6/button1_3
 execute if score tower_s_mech6_button1 BILLGART matches 4 run function att2:cinematic/act_4/billgart/dungeon/tower_s/mech6/button1_4
+#return 1->make command block runing
+return 1

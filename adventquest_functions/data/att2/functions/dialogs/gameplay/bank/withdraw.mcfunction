@@ -41,3 +41,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gaelle : ","color":"green","extr
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Você acabou de retirar: ","color":"gold"},{"score":{"name":"@s","objective":"BANK_ACTION"},"color":"yellow"},{"text":" Chronotons","color":"yellow"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"取出货币的金额：","color":"gold"},{"score":{"name":"@s","objective":"BANK_ACTION"},"color":"yellow"},{"text":" Chronoton","color":"yellow"}]}

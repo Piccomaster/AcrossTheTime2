@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Não é tão simples, isso levaria muito tempo. Especialmente porque acabei de gerar um para você. Mas ainda há uma solução: quando você viajou de sua época até agora, você usou as chamadas 'gemas de tempo'?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"这可不是件容易的事情。我需要花很长时间才能构筑传送门—何況我不久前才刚给你做出了一个。不过，还是有一个可行的办法：你是借助“时间宝石”折跃的，对吧？","color":"dark_aqua"}]}

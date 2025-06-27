@@ -23,3 +23,5 @@ function att2:dialogs/gameplay/runes/runicwords/16_von_yog_yog
 function att2:dialogs/gameplay/runes/runicwords/17_kan_chu_bex_puh
 function att2:dialogs/gameplay/runes/runicwords/18_ust_xul_lya_zen_da
 function att2:dialogs/gameplay/runes/runicwords/19_mot_syl_kan_xul_zen
+function att2:dialogs/gameplay/runes/runicwords/20_bex_lya_qi_wej_yog
+function att2:dialogs/gameplay/runes/runicwords/21_hal_kan_puh_syl_mot

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Você era jovem demais para entender. E... eu estava fraco naquela época... Korlaph havia me anunciado a notícia, mas no final das contas sem admitir toda a verdade sobre as circunstâncias da morte de Tatiana. Eu não sabia da existência dessa Lucimène... E então, Korlaph deve ter sucumbido a esse mal misterioso...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你当时太小了，理解不了这些事情。而且...当时我很软弱...Korlaph告诉我你母亲的消息。但是却没有告诉我Tatiana死亡的真相。我不知道Lucimene的事情...最后，Korlaph一定是被这股邪恶的力量控制了...","color":"dark_aqua"}]}

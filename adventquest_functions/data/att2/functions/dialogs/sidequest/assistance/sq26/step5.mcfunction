@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एडानोई काटाक
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- As Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"As catacumbas de Adanoï podem ser abertas, vamos descobrir uma pista sobre a passagem da filha de Esmeralda.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"继续下到墓穴深处以调查更多关于Emerald女儿的踪迹","color":"aqua","italic":true}]}

@@ -28,3 +28,5 @@ execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_cl
 execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
 execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
 execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
+#return 1->make command block runing
+return 1

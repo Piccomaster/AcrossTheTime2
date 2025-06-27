@@ -3,4 +3,4 @@
 #Obtain Arrows of Eternän Army                   #
 ##################################################
 
-give @s minecraft:arrow{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cFlèches de l'armée Eternän\"","Lore":["{\"text\":\"§4§oArrows of Eternän Army\"}"]}} 1
+give @s minecraft:arrow[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.eternan_arrows.name'},lore=[{translate:'item.quest.lore'}]] 1

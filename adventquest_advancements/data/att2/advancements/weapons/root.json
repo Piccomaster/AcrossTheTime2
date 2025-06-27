@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_sword"
+            "id": "minecraft:iron_sword"
         },
-        "title": {"translate":"Weapons"},
-        "description": {"translate":"Your first weapon"},
-        "background": "minecraft:textures/block/brown_terracotta.png",
+        "title": {"translate": "att2.advancement.weapons.title.root"},
+        "description": {"translate": "att2.advancement.weapons.description.root"},
+        "background": "minecraft:block/brown_terracotta",
         "show_toast": true,
         "announce_to_chat": true
     },

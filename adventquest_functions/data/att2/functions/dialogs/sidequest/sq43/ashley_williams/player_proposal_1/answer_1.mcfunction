@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ashley Williams : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"Sinto muito pelo que aconteceu com o amigo dela. Mas não sou o único responsável. Sylvain veio até mim, ele precisava de dinheiro. Como eu frequentemente faço expedições e esta mansão abandonada era uma oportunidade para eles, decidimos ir lá.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"我为她朋友的遭遇感到很抱歉。但这件事不能全怪在我头上。Sylvain来找我说他需要钱，因为我经常去探险，知道很多情报，而Sathnok那里的废弃宅邸对他们来说是一个发家的好机会，所以我们才决定去探索这个宅邸。","color":"dark_aqua"}]}

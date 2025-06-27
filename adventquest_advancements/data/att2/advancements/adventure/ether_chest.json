@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:ender_chest"
+            "id": "minecraft:ender_chest"
         },
-        "title": {"translate":"Ether Chest"},
-        "description": {"translate":"Interact with an enderchest for the first time"}
+        "title": {"translate":"att2.advancement.adventure.title.ether_chest"},
+        "description": {"translate":"att2.advancement.adventure.description.ether_chest"}
     },
     "parent": "att2:adventure/root",
     "rewards": {

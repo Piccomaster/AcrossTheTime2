@@ -20,3 +20,5 @@ execute if score golem_mech1_timer BILLGART matches 2 run kill @e[type=minecraft
 
 execute if score golem_mech1_timer BILLGART matches ..0 run scoreboard players set golem_mech1 BILLGART 5
 execute if score golem_mech1_timer BILLGART matches 1.. run scoreboard players remove golem_mech1_timer BILLGART 1
+#return 1->make command block runing
+return 1

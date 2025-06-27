@@ -4,6 +4,8 @@
 ##################################################
 
 kill @e[type=minecraft:shulker,tag=Objective]
-execute as @a[scores={NUMEROJOUEUR=1}] run give @s minecraft:player_head{display:{Name:"\"§cBoite à Muffins\"","Lore":["{\"text\":\"Box of Muffins!\"}"]},SkullOwner:{Id:[I;711669273,-1203418200,-2085767501,1855722035],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUzZGEyNzU5ZGY0NGM1MTdiM2U2MzgxYjBmY2IyMjRjYTY0ODE0N2EzYTFkOGY2YTdmZjIzNjQ2ZGI3NDY2MCJ9fX0="}]}}}
+execute as @a[scores={NUMEROJOUEUR=1}] run function att2:items/quest/box_of_muffins
 summon minecraft:shulker 2095 96 2003 {Tags:["Objective"],NoAI:1,Silent:1,Glowing:1,PersistenceRequired:1,Invulnerable:1,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}],DeathLootTable:"att2:empty"}
 team join objective_main @e[type=minecraft:shulker,tag=Objective]
+#return 1->make command block runing
+return 1

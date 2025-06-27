@@ -4,3 +4,5 @@
 #################################################################
 
 function att2:dialogs/mainquest/act_2/ch6_system_1
+#return 1->make command block runing
+return 1

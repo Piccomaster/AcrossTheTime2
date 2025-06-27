@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:turtle_helmet"
+            "id": "minecraft:turtle_helmet"
         },
-        "title": {"translate":"Toughness"},
-        "description": {"translate":"When you are going through hell, keep going"},
+        "title": {"translate":"att2.advancement.combat.title.res_8"},
+        "description": {"translate":"att2.advancement.combat.description.res_8"},
 		"frame": "goal"
     },
     "parent": "att2:combat/res_6",

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Spell collector"},
-        "description": {"translate":"Buy all spells"},
+        "title": {"translate":"att2.advancement.dahal.title.spell_all_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell_all_loot"},
         "frame": "goal"
     },
     "parent": "att2:dahal/root",

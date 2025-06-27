@@ -23,3 +23,5 @@ execute if score Neth1 TIMER matches 850 run function att2:dialogs/sidequest/sq4
 execute if score Neth1 TIMER matches 901.. run function att2:cinematic/sidequest/47/step3
 execute if score Neth1 TIMER matches 151..900 run function att2:cinematic/neth1_iteration
 execute if score Neth1 TIMER matches ..149 run function att2:cinematic/neth1_iteration
+#return 1->make command block runing
+return 1

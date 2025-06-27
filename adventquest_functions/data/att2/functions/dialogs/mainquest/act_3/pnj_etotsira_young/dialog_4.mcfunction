@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Você notou que parece não haver dias aqui? Na verdade, há, mas duram cerca de duas semanas do nosso mundo e resultam em uma flutuação cíclica na intensidade luminosa do ar de fundo.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"不知道你有没有觉得这里似乎没有昼夜？其实是有的，只不过这里的“昼夜”指的是我们四周气体发光亮度的周期性变化，而且这一周期长达两周。","color":"dark_aqua"}]}

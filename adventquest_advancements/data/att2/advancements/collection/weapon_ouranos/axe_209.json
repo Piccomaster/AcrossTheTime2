@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_axe"
-        },
-        "title": {"translate":"Vent septemtrional"},
-        "description": {"translate":"Beyond the horizon comes a force that no man can tame."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
     },
-    "parent": "att2:collection/weapon_ouranos/axe_208",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "stone_axe_209": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_axe"],
-                    "nbt": "{display:{Name:\"\\\"§5Vent septemtrional\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Par-delà l'horizon nous vient une\\\"}\",\"{\\\"text\\\":\\\"§7force qu'aucun homme ne sait dompter.\\\"}\",\"{\\\"text\\\":\\\"§7Beyond the horizon comes a force\\\"}\",\"{\\\"text\\\":\\\"§7that no man can tame.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7SPD§a1 §7HAS§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.axe_209"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.axe_209"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/axe_208",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "stone_axe_209": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "209"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

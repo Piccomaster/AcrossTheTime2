@@ -8,15 +8,15 @@
 #####################################################################
 
 # Particules for entarance and exit of the arena
-particle minecraft:dust 1 0 0 1 -4636 58 -5505 1.5 1.5 0 0 5 force
-particle minecraft:dust 1 0 0 1 -4636 59 -5537 1.5 1.5 0 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -4636 58 -5505 1.5 1.5 0 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -4636 59 -5537 1.5 1.5 0 0 5 force
 
 # Music management
 execute if score Felroth WORLEST matches 0.. as @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
 execute if score Felroth WORLEST matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Felroth
-execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] store result bossbar minecraft:felroth max run data get entity 00000000-0000-001b-0000-00000000001b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] store result bossbar minecraft:felroth max run data get entity 00000000-0000-001b-0000-00000000001b attributes[{id:"minecraft:max_health"}].base
 execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] store result bossbar minecraft:felroth value run data get entity 00000000-0000-001b-0000-00000000001b Health
 
 # Make challengers enters the arena

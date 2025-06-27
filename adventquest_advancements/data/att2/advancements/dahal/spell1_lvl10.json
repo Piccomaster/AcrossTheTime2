@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Fireball Master"},
-        "description": {"translate":"Reach level 10 with Fireball spell"},
+        "title": {"translate":"att2.advancement.dahal.title.spell1_lvl10"},
+        "description": {"translate":"att2.advancement.dahal.description.spell1_lvl10"},
         "frame": "challenge"
     },
     "parent": "att2:dahal/spell1_lvl5",

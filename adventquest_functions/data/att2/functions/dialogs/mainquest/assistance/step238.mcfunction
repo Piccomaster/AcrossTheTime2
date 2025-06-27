@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A segurança ativou-se e apareceu outro cadeado na frente da porta principal. Tenho que descer e desativar a segurança, e então procurar outra chave grande para sair deste edifício.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"安保系统自动启动了，另一把锁出现在大门前。我必须下去关掉安全装置，然后再寻找另一把大钥匙才能离开这栋大楼。","color":"aqua"}]}

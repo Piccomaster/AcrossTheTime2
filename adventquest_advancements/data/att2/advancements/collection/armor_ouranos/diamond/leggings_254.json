@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Skéléo"},
-        "description": {"translate":"The strict necessities are never enough for you."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/leggings_343",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_leggings_254": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Skéléo\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le strict nécessaire n'est jamais\\\"}\",\"{\\\"text\\\":\\\"§7assez à ta convenance.\\\"}\",\"{\\\"text\\\":\\\"§7The strict necessities are\\\"}\",\"{\\\"text\\\":\\\"§7never enough for you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HUN§a1 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.leggings_254"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.leggings_254"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/leggings_343",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_leggings_254": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "254"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

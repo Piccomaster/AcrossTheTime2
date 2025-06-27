@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:name_tag"
+            "id": "minecraft:name_tag"
         },
-        "title": {"translate":"Collection"},
-        "description": {"translate":"Catch them all !"},
-        "background": "minecraft:textures/block/diamond_block.png",
+        "title": {"translate": "att2.advancement.collection.title.root"},
+        "description": {"translate": "att2.advancement.collection.description.root"},
+        "background": "minecraft:block/diamond_block",
         "show_toast": false,
         "announce_to_chat": false
     },

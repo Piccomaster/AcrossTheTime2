@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Soulier du dimanche"},
-        "description": {"translate":"Elegance will make you pleased."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_leather/boots_39",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_boots_46": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Soulier du dimanche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'élégance vous rendra heureux.\\\"}\",\"{\\\"text\\\":\\\"§7Elegance will make you pleased.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7SPD§c-2\\\"}\"],color:5558126}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.boots_46"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.boots_46"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/boots_39",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_boots_46": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "46"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Com este aviso, Azazel, nosso rei, fez a médium passar diante dos olhos de Flamme Noire, guardiã da única fonte, para que ela pudesse escanear sua alma. Mas ela não viu malícia alguma nesta mulher.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"国王Azazel听到后，让那位灵媒面对守护者Flamme_Noire的目光—Flamme_Noire能查知人灵魂的纯净与否。但是，她并未在那位灵媒身上察觉到任何恶意。","color":"dark_aqua"}]}

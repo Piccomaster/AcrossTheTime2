@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Armel Darsan : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"Por favor, não me machuquem.... Por favor, saiam! Por favor, saiam!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"请不要伤害我...离开这里！求你了！","color":"dark_aqua"}]}

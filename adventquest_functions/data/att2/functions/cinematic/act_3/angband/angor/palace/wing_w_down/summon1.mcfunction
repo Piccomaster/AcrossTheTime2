@@ -36,3 +36,5 @@ execute in minecraft:the_nether positioned 3457 65 4549 run function att2:summon
 execute in minecraft:the_nether positioned 3457 65 4543 run function att2:summon/reg_2/mortal3_class10
 execute in minecraft:the_nether positioned 3463 65 4543 run function att2:summon/reg_2/mortal4_class11
 execute in minecraft:the_nether positioned 3460 66 4546 run function att2:summon/reg_2/mortal6_class12
+#return 1->make command block runing
+return 1

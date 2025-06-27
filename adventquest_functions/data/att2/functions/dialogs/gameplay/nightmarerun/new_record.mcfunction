@@ -49,3 +49,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"नया रिकॉर्ड!","colo
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"NOVO RECORDE!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"达成新纪录！","color":"gold"}

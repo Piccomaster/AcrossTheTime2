@@ -23,4 +23,6 @@ execute if score area1_event6 ITHAX matches 1 run function att2:cinematic/act_4/
 execute if score area1_event9 ITHAX matches 1 run function att2:cinematic/act_4/ithax/area_1/conduit/cinematic1
 
 # cards particle effect
-execute if score Mainquest SIDEQUEST matches 226..227 run particle minecraft:dust 1 1 1 0.2 -7411.4 157.0 -6003.0 0.1 0.1 0.1 0 20 normal
+execute if score Mainquest SIDEQUEST matches 226..227 run particle minecraft:dust{color:[1,1,1],scale:0.2} -7411.4 157.0 -6003.0 0.1 0.1 0.1 0 20 normal
+#return 1->make command block runing
+return 1

@@ -23,3 +23,5 @@ execute positioned -971 35 -617 run function att2:summon/reg_3/silverfish0_class
 execute positioned -987 30 -617 run function att2:summon/reg_3/golemarcher1_class12
 execute positioned -987 30 -617 run function att2:summon/reg_3/golemarcher2_class14
 execute positioned -987 30 -617 run function att2:summon/reg_3/golemarcher3_class16
+#return 1->make command block runing
+return 1

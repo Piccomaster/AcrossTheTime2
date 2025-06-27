@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:plenty_pottery_sherd{EquipmentType:"runic_word",Rarity:"epi",display:{Name:"\"§5Esprit\"","Lore":["{\"text\":\"§7Spirit\"}","{\"text\":\"§ePuh Wej Von Org\"}","{\"text\":\"§aDahäl Max:§2 +8\"}","{\"text\":\"§aSpells XP:§2 +2\"}","{\"text\":\"§aExperience:§2 +15%\"}","{\"text\":\"§aPotion Time:§2 +40s\"}","{\"text\":\"§cLevel Required:§4 38\"}"]}} 1
+give @s minecraft:plenty_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'14'},custom_name={translate:'item.runeword.14.name'},lore=[{translate:'item.runeword.14.recipe'},{translate:'item.runeword.14.dahal'},{translate:'item.runeword.14.dahal_xp'},{translate:'item.runeword.14.xp'},{translate:'item.runeword.14.potion'},{translate:'item.runeword.14.limit'}]]

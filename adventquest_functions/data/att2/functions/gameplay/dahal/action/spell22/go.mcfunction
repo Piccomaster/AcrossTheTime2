@@ -3,8 +3,6 @@
 #Process Obstinacy pet incantation								#
 #################################################################
 
-# Incase the player already as a pet, the previous one should be destroyed
-execute at @s as @e[scores={FOLLOW_PLAYER=0..},tag=!invminecarts.invisible_minecart] if score @s FOLLOW_PLAYER = @p NUMEROJOUEUR run kill @s
 execute as @s[scores={SPELL22_SLCT=1,DAHAL=80..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell22/lvl1
 execute as @s[scores={SPELL22_SLCT=2,DAHAL=140..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell22/lvl2
 execute as @s[scores={SPELL22_SLCT=3,DAHAL=200..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell22/lvl3

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_shovel"
-        },
-        "title": {"translate":"Lelrïm tar"},
-        "description": {"translate":"Panache and grandiloquence are the prerogative only of fake and false heroes."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_shovel"
     },
-    "parent": "att2:collection/weapon_angband/shovel_154",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_shovel_158": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§6Lelrïm tar\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Panache et grandiloquence ne sont\\\"}\",\"{\\\"text\\\":\\\"§7l'apanage que des faquins et faux héros.\\\"}\",\"{\\\"text\\\":\\\"§7Panache and grandiloquence are\\\"}\",\"{\\\"text\\\":\\\"§7the prerogative only of fake and false heroes.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7HAS§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.shovel_158"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.shovel_158"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/shovel_154",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_shovel_158": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "158"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

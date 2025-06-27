@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Romuald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Então, você descobriu algo sobre minha Mia? A última vez que a vi foi nos arredores de Méleïm. Eu estava com Alyia...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"所以...你有没有打探到我的Mia的消息？ 我上次见到她是在Méleïm，当时我和Alyia在一起...","color":"dark_aqua"}]}

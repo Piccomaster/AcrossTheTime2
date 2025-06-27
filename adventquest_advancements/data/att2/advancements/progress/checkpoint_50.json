@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"You don't die just once..."},
-        "description": {"translate":"Discover and activate 50 checkpoints"},
+        "title": {"translate":"att2.advancement.progress.title.checkpoint_50"},
+        "description": {"translate":"att2.advancement.progress.description.checkpoint_50"},
         "frame": "goal"
     },
     "parent": "att2:progress/checkpoint_25",

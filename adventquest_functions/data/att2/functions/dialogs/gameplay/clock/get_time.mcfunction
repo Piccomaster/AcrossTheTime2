@@ -42,5 +42,7 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"आपका समय: ","color":"gold
 tellraw @a[scores={LANGUAGE=10}] {"text":"Seu tempo: ","color":"gold"}
 
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"你的游玩时间：","color":"gold"}
 
 tellraw @a {"text":"~ ","color":"dark_red","extra":[{"score":{"name":"hour","objective":"TIMECOUNTER"},"color":"red"},{"text":"h","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"minute","objective":"TIMECOUNTER"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"second","objective":"TIMECOUNTER"},"color":"red"},{"text":"s","color":"gray"},{"text":" ~","color":"dark_red"}]}

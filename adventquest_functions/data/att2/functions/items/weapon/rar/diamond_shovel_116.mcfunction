@@ -3,5 +3,6 @@
 #Obtain item diamond_shovel_116          #
 #####################################
 
-give @s minecraft:diamond_shovel{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"has2_dar1_her_1",display:{Name:"\"§9Souffle roche\"","Lore":["{\"text\":\"§7A l'impact de ta table.\"}","{\"text\":\"§7At the impact of your face.\"}","{\"text\":\"§7HAS§a2 §7DAR§a1 §7HER§c-1\"}"]},Damage:1275,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:5.23,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.72,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:diamond_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",HAS:2,DAR:1,HER:-1,Weapon:"116"},custom_name={translate:"weapon116.name"},lore=[{translate:"weapon116.lore.1"},{translate:"weapon116.lore.2"},{translate:"weapon116.stat"}],max_damage=1560,damage=116,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:1275},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.72}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

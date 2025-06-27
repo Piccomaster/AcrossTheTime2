@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_axe"
+            "id": "minecraft:diamond_axe"
         },
-        "title": {"translate":"Full Supremes set"},
-        "description": {"translate":"Get yourself equipped a full Supremes armor and weapon set"},
+        "title": {"translate":"att2.advancement.adventure.title.ult_full_set"},
+        "description": {"translate":"att2.advancement.adventure.description.ult_full_set"},
         "frame": "goal"
     },
-    "parent": "att2:adventure/ult",
+    "parent": "att2:adventure/leg_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 50000

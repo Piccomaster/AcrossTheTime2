@@ -43,5 +43,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Clément : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"Diz-se que um peixe sonhador está preso em uma nuvem por ciclos. O rei deste mundo o teria feito prisioneiro por capricho. Cheio de tristeza, o fluxo de lágrimas que derrama alimenta o grande riacho que atravessa nossa cidade. Uma história de partir o coração e um destino triste para esta criatura... Se tudo isso for verdade, eu gostaria de libertá-lo de suas correntes um dia. Mesmo que às vezes sejam perigosos, esses animais não merecem tanta crueldade!","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"传说，有一条梦鱼在云朵里面被困了很久很久。—这个世界的国王一时兴起，把它关押了起来。泪水从它的眼角留下，汇聚成了穿过这座城市的溪流。多么令人心碎的故事，多么可怜的生物...如果一切都是真的，希望有一天，有人能除去它的枷锁，给它久违的自由—哪怕它会遇到一些危险，它也不应该受到如此残忍的对待！","color":"dark_aqua"}]}
 
 function att2:voice/clement/clement_dialogue2
+

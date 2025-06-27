@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Carmen Ysta : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Fantástico! Na verdade, não estou procurando por qualquer cogumelo: uma variedade rara cresce em uma caverna no meio da floresta. A entrada não é fácil de encontrar, na verdade, está escondida por arbustos e fica na beira de um lago. Ao sair de Ryliath, vá direto ao norte na floresta, você irá encontrá-la.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"太好了！不过不是随便一种蘑菇就可以的，而是在林中洞穴里一种很少见的蘑菇。那个洞口比较难找，它应该在隐藏在灌木丛里的小池塘边。从Ryliath出去后，在森林里向北走，你就能看到了 ","color":"dark_aqua"}]}

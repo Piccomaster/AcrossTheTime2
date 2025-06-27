@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_shovel"
-        },
-        "title": {"translate":"Rouleciel"},
-        "description": {"translate":"Here's to you, Adrian, a brave warrior	who will never go into decline."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_shovel"
     },
-    "parent": "att2:collection/weapon_ouranos/shovel_206",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "stone_shovel_207": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Rouleciel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A toi, Adrian, guerrier valeureux\\\"}\",\"{\\\"text\\\":\\\"§7qui ne connaîtra jamais de déclin.\\\"}\",\"{\\\"text\\\":\\\"§7Here's to you, Adrian, a brave warrior\\\"}\",\"{\\\"text\\\":\\\"§7who will never go into decline.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7DAR§a2 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.shovel_207"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.shovel_207"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/shovel_206",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "stone_shovel_207": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "207"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Pas du rock"},
-        "description": {"translate":"Slow as a rock, fast as a landslide."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_billgart/leather/boots_229",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_boots_234": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Pas du rock\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Lent comme une pierre,\\\"}\",\"{\\\"text\\\":\\\"§7rapide comme un éboulement.\\\"}\",\"{\\\"text\\\":\\\"§7Slow as a rock,\\\"}\",\"{\\\"text\\\":\\\"§7fast as a landslide.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-1\\\"}\"],color:2127385}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.boots_234"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.boots_234"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/leather/boots_229",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_boots_234": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "234"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- Rukyrion -°- : ","color":"gray","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"Segundo Namrïn, estou no cemitério de Irilion, onde deve estar a espada lendária que apenas Relgon pode carregar. Vamos finalmente provar a ele de quem sou a reencarnação!","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"我到达了Namrin提及的Irilion墓地，而且找到了旧时只有Relgon才能使用的剑，现在Namrin应该相信我就是Relgon的转世了吧。","color":"aqua","italic":true}]}

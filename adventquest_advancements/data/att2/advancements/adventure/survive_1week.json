@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:recovery_compass"
+            "id": "minecraft:recovery_compass"
         },
-        "title": {"translate":"Master Survivor"},
-        "description": {"translate":"Survive 1 week without dying"}
+        "title": {"translate":"att2.advancement.adventure.title.survive_1week"},
+        "description": {"translate":"att2.advancement.adventure.description.survive_1week"}
     },
     "parent": "att2:adventure/survive_1cycle",
     "rewards": {

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Jambière Dinjirienne"},
-        "description": {"translate":"The untiring course of the ages shall not diminish the glory of the time of memories."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_diamond/leggings_194",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_leggings_202": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Jambière Dinjirienne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLe cours inlassable des âges ne saurait \\\"}\",\"{\\\"text\\\":\\\"§aamenuir la gloire du temps des souvenirs.\\\"}\",\"{\\\"text\\\":\\\"§aThe untiring course of the ages shall not\\\"}\",\"{\\\"text\\\":\\\"§adiminish the glory of the time of memories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.leggings_202"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.leggings_202"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/leggings_194",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_leggings_202": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "202"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

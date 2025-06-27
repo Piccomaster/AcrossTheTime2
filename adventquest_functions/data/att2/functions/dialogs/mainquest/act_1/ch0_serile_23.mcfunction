@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Aqui está, sua expectativa de vida aumentou. Parabéns. Mas você ainda não está livre disso.","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"好了，这样一来你的预期寿命就得到延长了。恭喜你。但你仍未摆脱它的影响。","color":"yellow","italic":true}]}

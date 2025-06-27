@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Braies pauvres"},
-        "description": {"translate":"Too many times soiled."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_leggings_28": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§7Braies pauvres\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trop de fois souillées.\\\"}\",\"{\\\"text\\\":\\\"§7Too many times soiled.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1 §7SPD§c-1\\\"}\"],color:6446425}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_28"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_28"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_leggings_28": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "28"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

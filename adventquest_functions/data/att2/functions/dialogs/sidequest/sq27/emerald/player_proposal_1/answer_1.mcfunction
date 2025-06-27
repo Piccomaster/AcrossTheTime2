@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Você é uma pessoa boa! Serei eternamente grato a você e sinto que estamos nos aproximando dela. Dirija-se às minas de Mornith seguindo o caminho a oeste de Méleïm. Boa sorte!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你真是个好人！我会永远感谢你，我觉得我们离她越来越近了。从Méleïm镇外的小路向西出发，前往Mornith采石场寻找我女儿的线索。祝你好运！","color":"dark_aqua"}]}

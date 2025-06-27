@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- घोंसला साफ क�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Limpar o ninho -°- : ","color":"gray","extra":[{"text":"Finalmente me livrei dessas pragas, vamos levar a notícia a Feanorth.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 清理巢穴 -°- : ","color":"gray","extra":[{"text":"总算解决了这些害虫，回去和Feanorth说一声吧。","color":"aqua","italic":true}]}

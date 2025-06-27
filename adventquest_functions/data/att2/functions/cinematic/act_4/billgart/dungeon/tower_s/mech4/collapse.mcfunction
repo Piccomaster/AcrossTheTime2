@@ -15,3 +15,5 @@ execute positioned -1262 78 -497 run function att2:summon/reg_3/silverfish0_clas
 execute positioned -1262 78 -497 run function att2:summon/reg_3/silverfish0_class9
 execute positioned -1262 78 -497 run function att2:summon/reg_3/silverfish0_class9
 execute positioned -1262 78 -497 run function att2:summon/reg_3/silverfish0_class9
+#return 1->make command block runing
+return 1

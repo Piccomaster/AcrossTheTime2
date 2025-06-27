@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Ah, não é nada. Você sabe, eu sou o primeiro Eternän, como foram Relgon, Azazel, Flamme Noire e tantos outros que perdemos durante esta guerra... Os primeiros Eternäns passaram por todas as eras deste mundo e aprenderam a suportar as piores feridas para que possamos lembrar das eras primordiais...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"哈，没什么的，我其实最初那些Eternän，就像Relgon、Azazel、Flamme_Noire还有我们在这场战争中失去的许多人一样...最初的Eternän经历过这个世界中每一个时代，他们早就学会了忍受最深重的创伤，以便他们能够铭记那段远古的时光...","color":"dark_aqua"}]}

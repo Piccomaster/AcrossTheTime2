@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Um golem gigante bloqueia meu caminho. Tenho que encontrar uma maneira de me livrar dele e derrubar a esmeralda gigante que ele segura com um mecanismo.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一个巨大的石像挡住了我的去路。我必须想办法击败它，然后利用机械装置让那颗巨型绿宝石块落到地上。","color":"aqua"}]}

@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"म्युटेंट प्�
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Protozoário mutante, o parasita esférico","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"突变的原生生物，球状寄生虫","color":"gray"}

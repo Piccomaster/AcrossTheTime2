@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° इथिल : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Não, eu não acho. Se meu pai parece surpreso ao ver o portão no fundo da cidade funcionando, é porque ele é um bom ator. Porque sempre tivemos portais em Ryliath, mesmo antes de você chegar. E se você precisar de Gemas do Tempo, terá que viajar para outro reino. Eu poderia te mostrar isso agora. Se você não amarelar.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"不，我不这么认为。虽然我的父亲对于城市中那扇传送门被激活表现得十分惊讶，但那是因为他出色的演技。因为在我们这里，甚至在你来之前就一直有传送门。如果你需要时间宝石，你就得迁跃去其他王国。我现在就可以带你去看看，前提是你不会被吓破胆。","color":"dark_aqua"}]}

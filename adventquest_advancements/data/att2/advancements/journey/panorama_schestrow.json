@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Schestrow Panorama"},
-        "description": {"translate":"Discover the panorama of Schestrow ruins"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_schestrow"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_schestrow"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_tears_forest",

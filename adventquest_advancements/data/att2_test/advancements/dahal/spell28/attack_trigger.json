@@ -1,0 +1,61 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/dahal/action/spell28/reduce/attack_trigger"
+  },
+  "criteria": {
+    "spectralbow_left": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "#minecraft:arrows"
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:bow",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "EquipmentID": "spectralbow"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "spectralbow_right": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "#minecraft:arrows"
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:bow",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "EquipmentID": "spectralbow"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spectralbow_left",
+      "spectralbow_right"
+    ]
+  ]
+}

@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"कालकोठरी का 
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Aliança das Masmorras","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"地牢联盟","color":"gray"}

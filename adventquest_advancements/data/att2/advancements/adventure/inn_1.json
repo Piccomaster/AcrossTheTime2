@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:white_bed"
+            "id": "minecraft:white_bed"
         },
-        "title": {"translate":"A little nap!"},
-        "description": {"translate":"Booked a room in an inn to sleep."}
+        "title": {"translate":"att2.advancement.adventure.title.inn_1"},
+        "description": {"translate":"att2.advancement.adventure.description.inn_1"}
     },
     "parent": "att2:adventure/root",
     "rewards": {

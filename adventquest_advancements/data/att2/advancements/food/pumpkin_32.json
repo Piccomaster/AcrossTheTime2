@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:pumpkin_pie"
+            "id": "minecraft:pumpkin_pie"
         },
-        "title": {"translate":"Pumpkin pie craving"},
-        "description": {"translate":"Eat 32 pumpkin pies"},
+        "title": {"translate":"att2.advancement.food.title.pumpkin_32"},
+        "description": {"translate":"att2.advancement.food.description.pumpkin_32"},
         "frame": "goal"
     },
     "parent": "att2:food/pumpkin_8",

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ashley Williams : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"Eu vou te contar tudo! Atualmente estou fazendo um sistema para limpar o caminho para uma sala secreta nas minas de Kert. Eu tinha um vagão de explosivos na mina, mas ainda me faltavam trilhos para levá-lo até lá. No entanto, eu precisava de dinheiro para comprá-los, daí nossa visita à mansão abandonada. Aqui, dou-lhe a chave do meu galpão, você encontrará os trilhos lá dentro. Se você chegar ao final, pode encontrar um tesouro considerável que ajudará Linda a pagar suas dívidas. Infelizmente, não posso trazer Sylvain de volta, mas os dois concordaram com os riscos deste desvio...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"我什么都说！我目前正在制作一套装置来打开Kert矿井中一个秘密房间的入口。为了打开这个洞口，我在矿井里装备了一辆塞满炸药的货车和一辆启动炸药车的动力矿车，但是我需要钱卖一些铁轨然后连接它们之间的轨道，所以我才会和他们去Sathnok的废弃宅邸。这里有我放铁轨的仓库钥匙。如果你能启动那个装置打开秘密入口，你会得到一笔可观的财产。唉，我没能把Sylvain带回来，但是我们两人都有同意承担这次行动的风险...","color":"dark_aqua"}]}

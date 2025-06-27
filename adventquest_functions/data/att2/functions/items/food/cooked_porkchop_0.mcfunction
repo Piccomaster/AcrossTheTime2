@@ -3,4 +3,4 @@
 #Obtain cooked_porkchop_0         				 #
 ##################################################
 
-give @s minecraft:cooked_porkchop{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:cooked_porkchop[custom_data={EquipmentType:'food',Rarity:'misc'}]

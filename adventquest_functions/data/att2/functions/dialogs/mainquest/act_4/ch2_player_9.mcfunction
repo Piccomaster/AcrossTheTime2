@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não há nenhuma estalactite para derrubar... Desta vez, acho que realmente não tenho escolha. Agora só me resta esperar que o vento me leve o suficiente para atravessar.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"没有钟乳石可以利用了……这次我觉得我真的没有别的选择了。现在我只能希望风能足够支撑我飘过去。","color":"aqua"}]}

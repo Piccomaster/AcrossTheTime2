@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gerard : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Obrigado por trazer esta flor para mim...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"谢谢您把这朵花送过来...","color":"dark_aqua"}]}

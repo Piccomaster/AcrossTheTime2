@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"स्वार्म एरो के 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Flecha de Enxame!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“烈焰箭雨”已升级！ ","color":"gold"}

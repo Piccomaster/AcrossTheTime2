@@ -29,3 +29,5 @@ scoreboard players set past_sidetower_n_button8 NOJELANTH 0
 scoreboard players set past_sidetower_n_button9 NOJELANTH 0
 scoreboard players set past_sidetower_n_button10 NOJELANTH 0
 scoreboard players set past_sidetower_n_secret NOJELANTH 0
+#return 1->make command block runing
+return 1

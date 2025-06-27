@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Precisamente. Além disso, o assassinato de Namrïn já é sua culpa. Lembra quando você foi para a Desolação: Namégot, era ele.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"正是如此。另外，了结Namrin的人正是你。还记得你在“荒芜之地”遇到的人“Namégot”吗，他就是Namrïn。","color":"dark_aqua"}]}

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": {"translate":"Arrondisseuse d'angle"},
-        "description": {"translate":"When there is a need to reduce the temptations, nothing beats the eternal silence of the protagonists."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
     },
-    "parent": "att2:collection/weapon_wooden/crossbow_251",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "crossbow_252": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§5Arrondisseuse d'angle\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand il y a besoin d'atténuer les tentions,\\\"}\",\"{\\\"text\\\":\\\"§7rien ne vaut le silence éternel des protagonistes.\\\"}\",\"{\\\"text\\\":\\\"§7When there is a need to reduce the temptations,\\\"}\",\"{\\\"text\\\":\\\"§7nothing beats the eternal silence of the protagonists.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a2 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.crossbow_252"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.crossbow_252"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/crossbow_251",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "crossbow_252": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "252"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -3,7 +3,7 @@
 #Manage intake rail in Kert	mine	 	 	 	 #
 ##################################################
 
-clear @s minecraft:rail{display:{"Lore":["{\"text\":\"§4§oUndamaged Rail\"}"]}} 1
+clear @s minecraft:rail[custom_name={translate:'item.quest.rail.name'}] 1
 scoreboard players add intake_rail1 SQ43 1
 execute positioned -5223 48 -4448 run function att2:gameplay/intake/effect
 

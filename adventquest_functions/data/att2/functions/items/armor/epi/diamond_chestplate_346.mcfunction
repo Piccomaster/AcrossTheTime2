@@ -3,5 +3,6 @@
 #Obtain item diamond_chestplate_346          #
 #####################################
 
-give @s minecraft:diamond_chestplate{EquipmentType:"armor",Rarity:"epi",Manufacturer:"delightful",Shop:"buy",Effect:"str2_hun1_has_1",display:{Name:"\"§5Bourrasque mélancolique\"","Lore":["{\"text\":\"§7L'aguerri désabusé ne se relâchera jamais plus au gré du vent.\"}","{\"text\":\"§7 Alourdi par des blessures que rien ne saurait effacer.\"}","{\"text\":\"§7The disillusioned veteran will never again let go of the wind.\"}","{\"text\":\"§7Weighed down by wounds that nothing can erase.\"}","{\"text\":\"§7STR§a2 §7HUN§a1 §7HAS§c-1\"}"]},Damage:100,Enchantments:[{id:"minecraft:fire_protection",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:8.11,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.53,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]} 1
+give @s minecraft:diamond_chestplate[custom_data={EquipmentType:'armor',Rarity:'epi',Manufacturer:'delightful',Shop:'buy',STR:2,HUN:1,HAS:-1,Armor:'346'},custom_name={translate:'armor346.name'},lore=[{translate:'armor346.lore.1'},{translate:'armor346.lore.2'},{translate:'armor346.stat'}],max_damage=530,damage=100,enchantments={'fire_protection':3},attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:8.11},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:2.53}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

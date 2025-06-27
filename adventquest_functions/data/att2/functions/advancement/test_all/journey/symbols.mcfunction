@@ -50,3 +50,15 @@ execute if score Zirthion SYMBOL matches 30 run advancement grant @a only att2:j
 
 # All
 execute if score Exploration SYMBOL matches 1305.. run advancement grant @a only att2:journey/the_traveler
+# SYMBOL
+execute if score Exploration SYMBOL matches 1.. run advancement grant @a only att2:secret/root
+execute if score Exploration SYMBOL matches 1.. run advancement grant @a only att2:secret/symbol_1
+execute if score Exploration SYMBOL matches 5.. run advancement grant @a only att2:secret/symbol_5
+execute if score Exploration SYMBOL matches 10.. run advancement grant @a only att2:secret/symbol_10
+execute if score Exploration SYMBOL matches 25.. run advancement grant @a only att2:secret/symbol_25
+execute if score Exploration SYMBOL matches 50.. run advancement grant @a only att2:secret/symbol_50
+execute if score Exploration SYMBOL matches 100.. run advancement grant @a only att2:secret/symbol_100
+execute if score Exploration SYMBOL matches 250.. run advancement grant @a only att2:secret/symbol_250
+execute if score Exploration SYMBOL matches 500.. run advancement grant @a only att2:secret/symbol_500
+execute if score Exploration SYMBOL matches 750.. run advancement grant @a only att2:secret/symbol_750
+execute if score Exploration SYMBOL matches 1000.. run advancement grant @a only att2:secret/symbol_1000

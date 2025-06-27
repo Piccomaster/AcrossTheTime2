@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"फायर लाइन के लि
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Linha de Fogo!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“火线冲击”已升级！ ","color":"gold"}

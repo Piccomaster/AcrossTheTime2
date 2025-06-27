@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "39"
+        }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.treasure.title.splash_potion_39"
+    },
+    "description": {
+      "translate": "att2.advancement.treasure.description.splash_potion_39"
+    },
+    "frame": "goal"
+  },
+  "parent": "att2:treasure/sovereign/potion_26",
+  "rewards": {
+    "function": "att2:advancement/test_all/treasure/all_epi_esc",
+    "experience": 250
+  },
+  "criteria": {
+    "splash_potion_39": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:splash_potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "39"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

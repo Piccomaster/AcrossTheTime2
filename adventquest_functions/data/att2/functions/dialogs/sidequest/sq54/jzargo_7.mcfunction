@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Não, J'zargo não terminou com suas pesquisas! E se o aluno ignorante não mudar sua atitude, J'zargo não ensinará mais nada.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"不，J'zargo的研究还没有结束！如果无知的学徒再不改改他的语气，J'zargo就不会再教他任何东西了。","color":"dark_aqua"}]}

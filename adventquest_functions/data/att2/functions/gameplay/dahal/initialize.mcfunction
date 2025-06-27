@@ -9,7 +9,7 @@ scoreboard objectives add DAHAL1 dummy
 scoreboard objectives add OP_DAHAL dummy
 scoreboard objectives add DAHALMAX dummy
 scoreboard objectives add HOLDING_MS dummy
-scoreboard objectives add MAGICSPH minecraft.used:minecraft.fishing_rod
+scoreboard objectives add MAGICSPH minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add SPELL_SLCT dummy
 scoreboard objectives add SPELL_OP dummy
 scoreboard objectives add SPELLS_COUNT dummy

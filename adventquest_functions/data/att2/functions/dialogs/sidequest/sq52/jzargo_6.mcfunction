@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"É apenas uma das muitas habilidades de J'zargo. O pupilo pode saber algum dia, mas por agora continua estúpido e fedido.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"这只是J'zargo的众多技能之一。学徒可能有一天会知道，但现在他仍然是又蠢又臭的。","color":"dark_aqua"}]}

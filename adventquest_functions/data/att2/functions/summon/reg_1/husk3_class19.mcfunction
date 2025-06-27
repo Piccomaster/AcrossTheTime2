@@ -3,4 +3,4 @@
 #Summon husk class_19 region_1  		       	 #
 ##################################################
 
-summon minecraft:husk ~ ~ ~ {Tags:["LVL0","CLASS19","Reg1","Undead"],Attributes:[{Name:generic.follow_range,Base:28.0}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:netherite_pickaxe",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:3}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1},{id:"minecraft:netherite_leggings",Count:1},{id:"minecraft:netherite_chestplate",Count:1},{id:"minecraft:netherite_helmet",Count:1}]}
+summon minecraft:husk ~ ~ ~ {Tags:["LVL0","CLASS19","Reg1","Undead"],attributes:[{id:follow_range,base:28.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:netherite_pickaxe",count:1,components:{enchantments:{"minecraft:knockback":3}}},offhand:{},feet:{id:"minecraft:netherite_boots",count:1},legs:{id:"minecraft:netherite_leggings",count:1},chest:{id:"minecraft:netherite_chestplate",count:1},head:{id:"minecraft:netherite_helmet",count:1}}}

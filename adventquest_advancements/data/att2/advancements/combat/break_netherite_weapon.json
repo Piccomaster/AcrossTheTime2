@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_sword"
+            "id": "minecraft:netherite_sword"
         },
-        "title": {"translate":"Obsidian weapon break"},
-        "description": {"translate":"Destroy an obsidian weapon in battle"}
+        "title": {"translate":"att2.advancement.combat.title.break_netherite_weapon"},
+        "description": {"translate":"att2.advancement.combat.description.break_netherite_weapon"}
     },
     "parent": "att2:combat/break_weapon",
     "rewards": {

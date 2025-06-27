@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor232.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor232.lore.1"
+                  },
+                  {
+                    "translate": "armor232.lore.2"
+                  },
+                  {
+                    "translate": "armor232.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "rar",
+                  "Manufacturer": "teran",
+                  "HER": 2,
+                  "HUN": 1,
+                  "STR": -1,
+                  "Armor": "232"
+                },
+                "minecraft:enchantments": {
+                  "unbreaking": 5,
+                  "projectile_protection": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.chestplate",
+                    "amount": 6.08,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.chestplate",
+                    "amount": 1.87,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "armor.chestplate",
+                    "amount": 0.02,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:dyed_color": 2127385,
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 85
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

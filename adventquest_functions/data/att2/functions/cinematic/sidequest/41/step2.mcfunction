@@ -10,3 +10,5 @@ execute if score choice SQ41 matches 1 as @p run function att2:dialogs/sidequest
 
 #making blocked chest accessible
 fill -4531 38 -4202 -4531 38 -4202 minecraft:spruce_stairs[waterlogged=true,facing=south,half=top]
+#return 1->make command block runing
+return 1

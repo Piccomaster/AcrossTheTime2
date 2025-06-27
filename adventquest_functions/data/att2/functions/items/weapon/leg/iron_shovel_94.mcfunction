@@ -3,5 +3,6 @@
 #Obtain item iron_shovel_94          #
 #####################################
 
-give @s minecraft:iron_shovel{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",Effect:"str3_spd2",display:{Name:"\"§6Requiem du jour\"","Lore":["{\"text\":\"§7La lumière n'est qu'illusoire, tout\"}","{\"text\":\"§7n'est que nuit et ne se révèle qu'alors.\"}","{\"text\":\"§7The light is only illusory, everything\"}","{\"text\":\"§7is night and is only revealed then.\"}","{\"text\":\"§7STR§a3 §7SPD§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:4s},{id:"minecraft:unbreaking",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:11.67,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.29000000000000004,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:iron_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",STR:3,SPD:2,Weapon:"94"},custom_name={translate:"weapon94.name"},lore=[{translate:"weapon94.lore.1"},{translate:"weapon94.lore.2"},{translate:"weapon94.stat"}],max_damage=260,damage=0,enchantments={"bane_of_arthropods":4,"unbreaking":2},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:11.67},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.29}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

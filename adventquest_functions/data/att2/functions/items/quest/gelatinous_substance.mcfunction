@@ -3,4 +3,4 @@
 #Obtain Gelatinous substance                     #
 ##################################################
 
-give @s minecraft:slime_ball{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cSubstance gélatineuse\"","Lore":["{\"text\":\"§4§oGelatinous substance\"}"]}} 1
+give @s minecraft:slime_ball[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.gelatinous_substance.name'},lore=[{translate:'item.quest.lore'}]] 1

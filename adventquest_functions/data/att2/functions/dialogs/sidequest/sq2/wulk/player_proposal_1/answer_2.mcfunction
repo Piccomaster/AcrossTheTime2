@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wulk : ","color":"green","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Bem, eu entendo, não tem problema. Avise-me se mudar de ideia.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"好吧我知道了，没关系。如果你改变想法了再跟我说。","color":"dark_aqua"}]}

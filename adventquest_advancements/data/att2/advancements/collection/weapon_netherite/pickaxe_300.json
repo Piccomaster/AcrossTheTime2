@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_pickaxe"
-        },
-        "title": {"translate":"Maillet argenté"},
-        "description": {"translate":"A glimmer of hope."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
     },
-    "parent": "att2:collection/weapon_netherite/pickaxe_291",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_pickaxe_300": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§9Maillet argenté\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une lueur d'espoir.\\\"}\",\"{\\\"text\\\":\\\"§7A glimmer of hope.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.pickaxe_300"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.pickaxe_300"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/pickaxe_291",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_pickaxe_300": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "300"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

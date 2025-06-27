@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Ouran Gate Panorama"},
-        "description": {"translate":"Discover the panorama of Ouran Gate"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_ouran_gate"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_ouran_gate"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_ouranos",

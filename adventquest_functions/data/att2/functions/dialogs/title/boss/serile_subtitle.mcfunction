@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"भूल गए साम्र
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Princesa caída do reino esquecido, elite entre as elites","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"失落王国的堕落公主，精英中的精英","color":"gray"}

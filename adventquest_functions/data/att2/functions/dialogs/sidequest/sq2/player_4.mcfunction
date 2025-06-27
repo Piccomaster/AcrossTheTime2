@@ -49,3 +49,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A represa está aberta! O pequeno lago subterrâneo foi parcialmente esvaziado, finalmente posso alcançar a sala que estava bloqueada.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"水坝打开了！地底湖的水被排掉了一些，终于可以到那个之前被堵住的房间去了。","color":"aqua"}]}

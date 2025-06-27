@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*falso entusiasmo* Sim, incrível, acho que sua jornada finalmente está chegando ao fim, J'zargo! Talvez você devesse voltar para a academia de Dahäl para celebrar sua vitória?!","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*假装热情*是的，太棒了，我想你的旅程终于结束了J'zargo！也许你该回到dahal学院去庆祝你的胜利？！","color":"aqua"}]}

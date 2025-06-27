@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_helmet"
-        },
-        "title": {"translate":"Tête de l'érudit"},
-        "description": {"translate":"Protects your thoughts, literally."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_helmet"
     },
-    "parent": "att2:collection/armor_iron/helmet_108",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "iron_helmet_115": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Tête de l'érudit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Protège vos pensées, littéralement.\\\"}\",\"{\\\"text\\\":\\\"§7Protects your thoughts, literally.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7DAR§a2 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.helmet_115"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.helmet_115"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/helmet_108",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_helmet_115": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "115"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

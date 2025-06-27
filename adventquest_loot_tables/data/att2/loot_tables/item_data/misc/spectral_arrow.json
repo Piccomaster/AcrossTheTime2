@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "EquipmentType": "arrow",
+                  "Rarity": "misc"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

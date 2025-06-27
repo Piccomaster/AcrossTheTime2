@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "id": "minecraft:shield"
         },
-        "title": {"translate":"Blast Shield"},
-        "description": {"translate":"Survive a creeper's blast with your shield"}
+        "title": {"translate":"att2.advancement.combat.title.blast_shield"},
+        "description": {"translate":"att2.advancement.combat.description.blast_shield"}
     },
     "parent": "att2:combat/get_away",
     "rewards": {

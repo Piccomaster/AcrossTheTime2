@@ -37,3 +37,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपके पास अब पर्
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Você não tem mais pó rúnico suficiente!","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"符文粉末数量不足！","color":"red","bold":"true"}

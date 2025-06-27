@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपकी इन्वेंट्�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Seu inventário está cheio...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"你的背包已满...","color":"gray","italic":true}

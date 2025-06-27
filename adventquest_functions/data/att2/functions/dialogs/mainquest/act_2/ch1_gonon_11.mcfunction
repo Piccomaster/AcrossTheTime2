@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Você dormiu bem? Se você está procurando equipamento ou trabalho... Eu aconselho você a ir para Ryliath. Siga a estrada de terra em frente à minha pousada, ela vai te guiar até lá.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"休息的如何？如果你想找点活干或者休整装备的话...我建议你去Ryliath看看。沿着客栈门口的泥土小路走，它会指引你到那的。","color":"dark_aqua"}]}

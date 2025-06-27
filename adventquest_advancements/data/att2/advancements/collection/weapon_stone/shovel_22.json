@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_shovel"
-        },
-        "title": {"translate":"Coupe-joue"},
-        "description": {"translate":"Smile, to the end..."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel"
     },
-    "parent": "att2:collection/weapon_stone/shovel_21",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "wooden_shovel_22": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Coupe-joue\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Souriez, jusqu'à la fin...\\\"}\",\"{\\\"text\\\":\\\"§7Smile, to the end...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7HAS§c-1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.shovel_22"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.shovel_22"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/shovel_21",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "wooden_shovel_22": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "22"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

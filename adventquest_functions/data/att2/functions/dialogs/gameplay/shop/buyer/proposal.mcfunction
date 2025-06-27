@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"उम्म... मैं तुम्�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Hum... Eu te dou ","color":"gray","extra":[{"score":{"name":"total","objective":"RECYCLER"},"color":"yellow"},{"text":" por isso.","color":"gray"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"嗯...我决定出","color":"gray","extra":[{"score":{"name":"total","objective":"RECYCLER"},"color":"yellow"},{"text":"买这些物品","color":"gray"}]}

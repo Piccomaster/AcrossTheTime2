@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"E você trouxe de volta para mim. Você realmente é um herói, bom para uma nação inteira e para um ancião insignificante entre os anciãos.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"你把它还给了我。你是个英雄，你为Angband和这个国家的人们付出了许多，即使是在这个国家中的那些老者也受到过你的照顾。","color":"dark_aqua"}]}

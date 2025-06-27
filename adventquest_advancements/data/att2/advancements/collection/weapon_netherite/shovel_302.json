@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_shovel"
-        },
-        "title": {"translate":"Épluchoir"},
-        "description": {"translate":"The heads look like igname."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
     },
-    "parent": "att2:collection/weapon_netherite/shovel_293",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_shovel_302": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Épluchoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les têtes ressemblent à des patates douces.\\\"}\",\"{\\\"text\\\":\\\"§7The heads look like igname.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.shovel_302"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.shovel_302"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/shovel_293",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_shovel_302": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "302"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

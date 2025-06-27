@@ -10,3 +10,5 @@ execute at @a run function att2:sound/misc/mission_progress
 execute at @a run function att2:sound/misc/energy_impact
 
 execute positioned -1349 82 -690 run function att2:summon/reg_3/golemarcher2_class13
+#return 1->make command block runing
+return 1

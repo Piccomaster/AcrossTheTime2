@@ -37,3 +37,6 @@ title @s[scores={LANGUAGE=10}] actionbar {"text":"Escamas soberanas do caos insu
 
 
 
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"混沌鳞片不足，无法驱动法术","color":"red"}

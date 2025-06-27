@@ -3,4 +3,4 @@
 #Level and Cooldown	for Agility pet								#
 #################################################################
 
-scoreboard players set @s COOLDOWN23 32000
+scoreboard players operation @s COOLDOWN23 = lvl1 COOLDOWN23

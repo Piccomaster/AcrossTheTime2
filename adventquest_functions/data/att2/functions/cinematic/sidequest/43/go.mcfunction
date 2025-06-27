@@ -15,3 +15,5 @@ execute if score SQ43 SIDEQUEST matches 1 if entity @e[type=minecraft:tnt_mineca
 
 # End when player announce to Linda the Ashley death
 execute if score SQ43 SIDEQUEST matches 1..99 if score choice SQ43 matches 3 at 00000000-0000-139a-0000-00000000139a if entity @a[distance=..5] run function att2:cinematic/sidequest/43/end
+#return 1->make command block runing
+return 1

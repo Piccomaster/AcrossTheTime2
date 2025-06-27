@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:turtle_helmet"
+            "id": "minecraft:turtle_helmet"
         },
-        "title": {"translate":"Steel skin"},
-        "description": {"translate":"The finest steel has to go through the hottest fire"}
+        "title": {"translate":"att2.advancement.combat.title.res_6"},
+        "description": {"translate":"att2.advancement.combat.description.res_6"}
     },
     "parent": "att2:combat/res_4",
     "rewards": {

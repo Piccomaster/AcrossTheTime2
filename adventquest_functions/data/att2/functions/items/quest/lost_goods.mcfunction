@@ -3,4 +3,4 @@
 #Obtain Lost Goods                				 #
 ##################################################
 
-give @s minecraft:note_block{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cMarchandises perdues\"","Lore":["{\"text\":\"§4§oLost Goods\"}"]}} 1
+give @s minecraft:note_block[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.lost_goods.name'},lore=[{translate:'item.quest.lore'}]] 1

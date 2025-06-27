@@ -1,0 +1,66 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "translate": "armor31.name"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "armor31.lore.1"
+                                    },
+                                    {
+                                        "translate": "armor31.lore.2"
+                                    },
+                                    {
+                                        "translate": "armor31.stat"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "EquipmentType": "armor",
+                                    "Rarity": "com",
+                                    "Manufacturer": "teran",
+                                    "Armor": "31"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "slot": "head",
+                                        "type": "armor",
+                                        "id": "armor.helmet",
+                                        "operation": "add_value",
+                                        "amount": 0.5
+                                    },
+                                    {
+                                        "slot": "head",
+                                        "type": "armor_toughness",
+                                        "id": "armor.helmet",
+                                        "operation": "add_value",
+                                        "amount": 0
+                                    },
+                                    {
+                                        "slot": "head",
+                                        "type": "knockback_resistance",
+                                        "id": "armor.helmet",
+                                        "operation": "add_value",
+                                        "amount": 0.02
+                                    }
+                                ],
+                                "minecraft:dyed_color": 8948846,
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 70
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

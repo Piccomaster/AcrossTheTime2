@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- रिज से ब्रिज �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Da crista à ponte -°- : ","color":"gray","extra":[{"text":"Encontrei a carga, mas não vi ninguém além de sinais de uma luta sangrenta... Tenho que ir ver na caverna ao lado.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 从山脊到桥 -°- : ","color":"gray","extra":[{"text":"见着货物了，可周围除了打斗留下的血迹之外再也见不到其他任何人，我应该在旁边的山洞里找找。","color":"aqua","italic":true}]}

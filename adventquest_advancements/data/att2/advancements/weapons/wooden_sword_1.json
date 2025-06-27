@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_sword"
+            "id": "minecraft:wooden_sword"
         },
-        "title": {"translate":"Wooden sword strike"},
-        "description": {"translate":"Strike once with a wooden sword"}
+        "title": {"translate": "att2.advancement.weapons.title.wooden_sword_1"},
+        "description": {"translate": "att2.advancement.weapons.description.wooden_sword_1"}
     },
     "parent": "att2:weapons/root",
     "rewards": {

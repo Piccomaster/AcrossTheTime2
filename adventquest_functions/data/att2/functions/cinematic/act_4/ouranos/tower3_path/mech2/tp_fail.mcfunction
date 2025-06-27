@@ -22,3 +22,5 @@ scoreboard players set path3_mech2_timer2 OURANOS 0
 scoreboard players set path3_mech2_circles OURANOS 0
 
 function att2:physicmod/reg4/tower3_path/mech2_reset
+#return 1->make command block runing
+return 1

@@ -12,3 +12,5 @@ execute in minecraft:the_nether positioned 3486 56 4516 run function att2:summon
 execute in minecraft:the_nether positioned 3481 56 4511 run function att2:summon/reg_2/mortal3_class9
 
 execute if score wingwd_mech8 ANGOR matches 0 run scoreboard players set wingwd_mech8 ANGOR 1
+#return 1->make command block runing
+return 1

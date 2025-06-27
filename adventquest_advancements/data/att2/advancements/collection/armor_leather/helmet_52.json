@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_helmet"
-        },
-        "title": {"translate":"Cache fureur"},
-        "description": {"translate":"In all weathers, the sky seems dark to you but no one ever looks up at you."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
     },
-    "parent": "att2:collection/armor_leather/helmet_64",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "leather_helmet_52": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Cache fureur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Par tout temps, le ciel te paraît sombre\\\"}\",\"{\\\"text\\\":\\\"§7mais personne ne lève jamais les yeux sur toi.\\\"}\",\"{\\\"text\\\":\\\"§7In all weathers, the sky seems dark to you\\\"}\",\"{\\\"text\\\":\\\"§7but no one ever looks up at you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7HUN§a1\\\"}\"],color:2302737}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.helmet_52"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.helmet_52"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/helmet_64",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_helmet_52": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "52"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

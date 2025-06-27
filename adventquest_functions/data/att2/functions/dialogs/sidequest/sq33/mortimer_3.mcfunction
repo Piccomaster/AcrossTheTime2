@@ -57,3 +57,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Ah, você está aqui novamente, chegou na hora certa. Encontrei muitas semelhanças entre essas pedras, mas acima de tudo consegui isolar um símbolo único em uma das pedras que você encontrou nas planícies de Sylberländ. Pode haver outras coisas escondidas nesses lugares específicos. Se você pudesse ir até lá e dar uma olhada, eu agradeceria. Preciso de mais informações para aprofundar minha pesquisa.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"啊，你来的真及时。我发现这些石头有很多相似之处，但最重要的是，我发现你在Sylberländ平原处发现的一块石头上有着一块特殊的标记，也许那个地方还藏着些什么别的东西。我需要更多信息来进行更深入的研究，如果你能去那里查看一番的话，我将感激不尽。","color":"dark_aqua"}]}

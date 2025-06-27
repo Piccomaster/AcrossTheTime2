@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_axe"
+            "id": "minecraft:iron_axe"
         },
-        "title": {"translate":"Iron axe hit"},
-        "description": {"translate":"Strike 250 times with an iron axe"},
+        "title": {"translate": "att2.advancement.weapons.title.iron_axe_250"},
+        "description": {"translate": "att2.advancement.weapons.description.iron_axe_250"},
         "frame": "goal"
     },
     "parent": "att2:weapons/iron_axe_50",

@@ -8,3 +8,5 @@ execute positioned -3443 29 -5007 run function att2:summon/reg_1/zombie0_class6
 execute positioned -3443 29 -5007 run function att2:summon/reg_1/zombie0_class6
 execute positioned -3443 29 -5007 run function att2:summon/reg_1/zombie0_class6
 execute positioned -3443 29 -5007 run function att2:summon/reg_1/zombie0_class6
+#return 1->make command block runing
+return 1

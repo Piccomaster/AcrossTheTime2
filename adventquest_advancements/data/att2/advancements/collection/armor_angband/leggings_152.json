@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_leggings"
-        },
-        "title": {"translate":"Ska ou ra"},
-        "description": {"translate":"Your lowliness does not bother you, because it ensures your protection..."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_leggings"
     },
-    "parent": "att2:collection/armor_angband/leggings_151",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "golden_leggings_152": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Ska ou ra\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ta petitesse ne te gène point,\\\"}\",\"{\\\"text\\\":\\\"§7car elle t'assure protection...\\\"}\",\"{\\\"text\\\":\\\"§7Your lowliness does not bother you,\\\"}\",\"{\\\"text\\\":\\\"§7because it ensures your protection...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a1 §7HUN§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.leggings_152"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.leggings_152"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/leggings_151",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_leggings_152": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "152"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -42,3 +42,5 @@ execute if score Real0 TIMER matches 651.. run setblock 2047 92 1999 minecraft:r
 
 execute if score Real0 TIMER matches ..200 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 202..650 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

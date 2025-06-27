@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bread"
+            "id": "minecraft:bread"
         },
-        "title": {"translate":"Bread addict"},
-        "description": {"translate":"Eat 100 breads"},
+        "title": {"translate":"att2.advancement.food.title.bread_100"},
+        "description": {"translate":"att2.advancement.food.description.bread_100"},
         "frame": "challenge"
     },
     "parent": "att2:food/bread_64",

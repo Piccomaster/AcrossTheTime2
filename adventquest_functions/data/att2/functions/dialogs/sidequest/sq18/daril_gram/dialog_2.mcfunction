@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Daril Gram : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Os fanáticos? Estão eles mortos? Faça-os sofrer, para que conheçam o amargor da desolação...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"那些疯子死了吗？一定要让他们得到应有的惩罚，让他们知道死亡的痛苦...","color":"dark_aqua"}]}

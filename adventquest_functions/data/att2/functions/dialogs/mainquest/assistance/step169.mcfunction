@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"O último esmeralda está pronto para ser liberado, só preciso encontrar as duas chaves de esmeralda para abrir a porta no centro. Elas devem estar no topo da torre. Depois poderei ativar o mecanismo de queda!","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"最后一颗绿宝石已经准备好释放了，我只需要找到两把翡翠钥匙就可以打开中间的门。他们一定要在在塔的最顶端。然后我就可以启动掉落机制了！","color":"aqua"}]}

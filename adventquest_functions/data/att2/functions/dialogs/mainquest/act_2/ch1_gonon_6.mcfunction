@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Um guerreiro que é mestre de Dahäl! Esses não crescem em árvores! Hoje é meu dia de sorte!... ou noite...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"一名掌握Dahäl法术的旅者！ 真是难得一遇！今天一定是我的“幸运日”...或者说，“幸运夜”...","color":"dark_aqua"}]}

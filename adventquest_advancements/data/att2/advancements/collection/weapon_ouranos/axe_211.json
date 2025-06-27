@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_axe"
-        },
-        "title": {"translate":"Destin d'Aoran"},
-        "description": {"translate":"Born to reign, fallen to save, as the day,	he returned, and till evening he stood."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
     },
-    "parent": "att2:collection/weapon_ouranos/axe_209",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "stone_axe_211": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_axe"],
-                    "nbt": "{display:{Name:\"\\\"§6Destin d'Aoran\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Né pour régner, tombé pour sauver,\\\"}\",\"{\\\"text\\\":\\\"§7comme le jour, il revint, et jusqu'au soir, il tint.\\\"}\",\"{\\\"text\\\":\\\"§7Born to reign, fallen to save, as the day,\\\"}\",\"{\\\"text\\\":\\\"§7he returned, and till evening he stood.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.axe_211"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.axe_211"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/axe_209",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "stone_axe_211": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "211"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

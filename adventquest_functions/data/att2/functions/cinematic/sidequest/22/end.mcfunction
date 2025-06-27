@@ -18,3 +18,5 @@ scoreboard players add @a CHRONOTON 100
 tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+100 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq22
+#return 1->make command block runing
+return 1

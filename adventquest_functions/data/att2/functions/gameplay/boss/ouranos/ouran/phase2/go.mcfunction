@@ -13,7 +13,7 @@ execute if score OuranPhase2 OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] 
 
 # Enable Bossbar storing health of Ouran
 execute if score OuranPhase2 OURANOS matches 0.. store result bossbar minecraft:swarm value run data get entity 00000000-0000-017b-0000-00000000005b Health
-execute if score OuranPhase2 OURANOS matches 0.. store result bossbar minecraft:swarm max run data get entity 00000000-0000-017b-0000-00000000005b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score OuranPhase2 OURANOS matches 0.. store result bossbar minecraft:swarm max run data get entity 00000000-0000-017b-0000-00000000005b attributes[{id:"minecraft:max_health"}].base
 bossbar set minecraft:swarm visible false
 bossbar set minecraft:swarm visible true
 

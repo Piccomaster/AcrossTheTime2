@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_leggings"
-        },
-        "title": {"translate":"Collants suspects"},
-        "description": {"translate":"Among the crowd he knows how to hide, and without anyone seeing, he strikes."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
     },
-    "parent": "att2:collection/armor_leather/leggings_45",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_leggings_58": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Collants suspects\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parmi la foule il sait se cacher,\\\"}\",\"{\\\"text\\\":\\\"§7et sans que personne ne voie, il frappe.\\\"}\",\"{\\\"text\\\":\\\"§7Among the crowd he knows how to hide,\\\"}\",\"{\\\"text\\\":\\\"§7and without anyone seeing, he strikes.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7RES§c-1\\\"}\"],color:5507847}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.leggings_58"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.leggings_58"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/leggings_45",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_leggings_58": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "58"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

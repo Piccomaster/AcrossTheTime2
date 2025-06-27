@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की प्रसिद�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 5 -°- : ","color":"gray","extra":[{"text":"Agora que encontrei este papel, posso levá-lo de volta a J'zargo, que está nas alturas de Elchéol.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 5 部分 -°- : ","color":"gray","extra":[{"text":"去Elcheol雪山顶将奇怪的卷轴给J'zargo。","color":"aqua","italic":true}]}

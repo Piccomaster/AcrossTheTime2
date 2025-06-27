@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Kert NPC"},
-        "description": {"translate":"Talk to all Kert people"},
+        "title": {"translate":"att2.advancement.journey.title.pnj_kert"},
+        "description": {"translate":"att2.advancement.journey.description.pnj_kert"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_kert",

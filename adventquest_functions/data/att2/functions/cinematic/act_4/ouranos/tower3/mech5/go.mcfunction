@@ -40,3 +40,5 @@ execute if score tower3_mech5_button4 OURANOS matches 1.. run particle minecraft
 execute if score tower3_mech5_button4 OURANOS matches 1.. run particle minecraft:sweep_attack 7713 173.5 5955 1 0.1 0.1 0 2 normal
 execute if score tower3_mech5_button4 OURANOS matches 1.. run particle minecraft:sweep_attack 7701 173.5 5954 1 0.1 0.1 0 2 normal
 execute if score tower3_mech5_button4 OURANOS matches 1.. run particle minecraft:sweep_attack 7701 173.5 5955 1 0.1 0.1 0 2 normal
+#return 1->make command block runing
+return 1

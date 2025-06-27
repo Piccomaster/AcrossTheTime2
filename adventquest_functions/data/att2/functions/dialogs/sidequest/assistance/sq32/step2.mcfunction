@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- कभी कुछ पीछे �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Nunca deixe nada para trás -°- : ","color":"gray","extra":[{"text":"Encontrei a entrada de uma caverna ao norte das montanhas vulcânicas. Agora posso continuar meu caminho e encontrar a mercadoria perdida de Warren.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 永远不要留下任何东西 -°- : ","color":"gray","extra":[{"text":"我在火山脚找到了一个洞穴的入口。沿着道路继续走，希望能早点发现那些遗失的货物。","color":"aqua","italic":true}]}

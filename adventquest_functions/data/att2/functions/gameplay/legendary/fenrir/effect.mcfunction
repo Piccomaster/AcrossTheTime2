@@ -6,7 +6,7 @@
 effect give @s minecraft:slowness 1 15 true
 effect give @s minecraft:wither 2 4 true
 
-particle minecraft:dust 0.84 0.98 0.95 0.8 ~ ~1 ~ 0.3 0.4 0.3 0 7 normal
+particle minecraft:dust{color:[0.84,0.98,0.95],scale:0.8} ~ ~1 ~ 0.3 0.4 0.3 0 7 normal
 
 execute as @s[tag=Iced1,scores={ICED=200}] run function att2:sound/legendary/fenrir_froze
 

@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"गोलम के लिए नया
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Golem!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“傀儡召唤”已升级！","color":"gold"}

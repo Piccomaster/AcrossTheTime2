@@ -16,6 +16,8 @@ execute as @a run scoreboard players operation @s XPPROCESS += @s GAMELEVEL
 
 # Getting 4 + nbPlayer 
 execute store result score numberPlayer XPPROCESS if entity @a
+#make number <=5
+execute if score numberPlayer XPPROCESS matches 5.. run scoreboard players set numberPlayer XPPROCESS 5
 scoreboard players add numberPlayer XPPROCESS 4
 
 # Multiplying (lvlOfAPlayer+5) * (4+nbPLayer)

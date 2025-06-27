@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
+            "id": "minecraft:player_head",
             "nbt": "{SkullOwner:{Id:[I;1784466105,123749197,-1499804063,-463378262],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI1ODZlYzMwMjQ4YWZjZjY0ZDYxZmYxMzE5OGM0MWNmY2RiZjgxYmRjNjYwYzc4NTU3NDBmODFiMmU0YmU1MiJ9fX0=\"}]}}}"
         },
-        "title": {"translate":"Sérile"},
-        "description": {"translate":"Survive Sérile boss"},
+        "title": {"translate":"att2.advancement.hunting.title.serile"},
+        "description": {"translate":"att2.advancement.hunting.description.serile"},
         "frame": "challenge",
         "hidden": true
     },

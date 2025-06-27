@@ -10,7 +10,7 @@ scoreboard players remove @s[tag=Corrupted] DAHAL 100
 # stopsound @s[tag=Corrupted,scores={MUSIC_BOSS=0}] music
 tag @s[tag=Corrupted,scores={MUSIC_BOSS=0}] add NoAutoMusic
 
-execute at @s[tag=Corrupted] run particle minecraft:item minecraft:nether_wart_block ~ ~1 ~ 0 0 0 1.2 500 force @a
+execute at @s[tag=Corrupted] run particle minecraft:item{item:"minecraft:nether_wart_block"} ~ ~1 ~ 0 0 0 1.2 500 force @a
 execute at @s[tag=Corrupted] run function att2:sound/dahal/corruption_start
 
 # Spell launch total count for advancement

@@ -3,5 +3,6 @@
 #Obtain item stone_shovel_199          #
 #####################################
 
-give @s minecraft:stone_shovel{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"graceful",Shop:"buy",Effect:"spd_1_hun_1",display:{Name:"\"§7Coupe papier\"","Lore":["{\"text\":\"§7Le fléau des mots et lettres.\"}","{\"text\":\"§7The scourge of words and letters.\"}","{\"text\":\"§7SPD§c-1 §7HUN§c-1\"}"]},Damage:55,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:1.84,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.85,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]} 1
+give @s minecraft:stone_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"graceful",Shop:"buy",SPD:-1,HUN:-1,Weapon:"199"},custom_name={translate:"weapon199.name"},lore=[{translate:"weapon199.lore.1"},{translate:"weapon199.lore.2"},{translate:"weapon199.stat"}],max_damage=140,damage=55,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:199X},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:199X},{slot:"mainhand",type:"max_health",id:"max_health",operation:"add_value",amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

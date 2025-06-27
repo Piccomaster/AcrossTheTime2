@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Ultime Skéléo"},
-        "description": {"translate":"All it takes is a speck of dust, a drop, a hint, to reveal nature."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/leggings_347",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "diamond_leggings_262": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§6Ultime Skéléo\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il suffit d'un grain de poussière, d'une goutte,\\\"}\",\"{\\\"text\\\":\\\"§7d'un soupçon, pour révéler nature.\\\"}\",\"{\\\"text\\\":\\\"§7All it takes is a speck of dust, a drop,\\\"}\",\"{\\\"text\\\":\\\"§7a hint, to reveal nature.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.leggings_262"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.leggings_262"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/leggings_347",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_leggings_262": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "262"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

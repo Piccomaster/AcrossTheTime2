@@ -16,3 +16,5 @@ execute as @e[type=minecraft:stray,tag=VonMinion,x=-5614,y=167,z=-6369,distance=
 
 function att2:cinematic/real0_init
 scoreboard players set center_s_mech5 VONAHEIM 3
+#return 1->make command block runing
+return 1

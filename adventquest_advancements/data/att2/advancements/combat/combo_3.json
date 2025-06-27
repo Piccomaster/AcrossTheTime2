@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:item_frame"
+            "id": "minecraft:item_frame"
         },
-        "title": {"translate":"COMBO!"},
-        "description": {"translate":"Kill 3 enemies consecutively."}
+        "title": {"translate":"att2.advancement.combat.title.combo_3"},
+        "description": {"translate":"att2.advancement.combat.description.combo_3"}
     },
     "parent": "att2:combat/root",
     "rewards": {

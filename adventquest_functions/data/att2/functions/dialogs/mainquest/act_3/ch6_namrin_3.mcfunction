@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Quero dizer, com esses eventos, esqueci de te agradecer por isso. Porque nada disso teria sido possível sem você.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"其实我想说，在这些事情发生之余，我忘了向您道谢。如果没有您，这一切都不可能发生。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"O pupilo tem sorte, ele ainda não percebe isso porque é muito idiota. J'zargo não vai perder tempo explicando sua descoberta para ele, pois ele esqueceria tudo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"学徒很幸运，他还没有意识到，由此可见他太愚蠢了。J'zargo不会浪费时间向他解释他的发现，因为他会忘记这一切。","color":"dark_aqua"}]}

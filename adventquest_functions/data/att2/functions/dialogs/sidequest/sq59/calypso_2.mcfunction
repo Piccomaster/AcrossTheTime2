@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Calypso : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"Sim, estou feliz em te ver novamente. Eu esperava que você voltasse para nos ver um dia. Descanse um pouco mais, eu fiz algumas poções para você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"是的，很高兴再次见到你。我一直希望有一天你能回来看看我们，再多休息一会儿吧，我给你准备了一些药剂。","color":"dark_aqua"}]}

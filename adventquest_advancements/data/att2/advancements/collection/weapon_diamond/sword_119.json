@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_sword"
-        },
-        "title": {"translate":"Souvenir perdu"},
-        "description": {"translate":"O distant times, O youthful recklessness."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
     },
-    "parent": "att2:collection/weapon_diamond/sword_118",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_sword_119": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§9Souvenir perdu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ô temps lointains, \\\"}\",\"{\\\"text\\\":\\\"§7Ô insouciance juvénile.\\\"}\",\"{\\\"text\\\":\\\"§7O distant times,\\\"}\",\"{\\\"text\\\":\\\"§7O youthful recklessness.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.sword_119"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.sword_119"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/sword_118",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_sword_119": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "119"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

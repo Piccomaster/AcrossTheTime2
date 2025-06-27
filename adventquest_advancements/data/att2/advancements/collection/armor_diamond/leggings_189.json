@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Aïeul du ciel"},
-        "description": {"translate":"No one ever knew where he came from or where he went, but no one ever forgot him."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_diamond/leggings_188",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_leggings_189": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Aïeul du ciel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Personne ne sut jamais d'où il vint\\\"}\",\"{\\\"text\\\":\\\"§7ni où il alla, mais personne ne l'oublia.\\\"}\",\"{\\\"text\\\":\\\"§7No one ever knew where he came from or\\\"}\",\"{\\\"text\\\":\\\"§7where he went, but no one ever forgot him.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.leggings_189"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.leggings_189"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond/leggings_188",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_leggings_189": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "189"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

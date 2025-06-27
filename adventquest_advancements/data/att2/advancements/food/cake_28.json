@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cake"
+            "id": "minecraft:cake"
         },
-        "title": {"translate":"Happy Birthday!"},
-        "description": {"translate":"Eat 4 cakes"},
+        "title": {"translate":"att2.advancement.food.title.cake_28"},
+        "description": {"translate":"att2.advancement.food.description.cake_28"},
         "frame": "goal"
     },
     "parent": "att2:food/cake_7",

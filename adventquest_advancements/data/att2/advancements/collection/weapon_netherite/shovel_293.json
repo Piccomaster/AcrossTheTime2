@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_shovel"
-        },
-        "title": {"translate":"Dépeçoir"},
-        "description": {"translate":"The hunter's creed."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
     },
-    "parent": "att2:collection/weapon_netherite/shovel_292",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_shovel_293": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§2Dépeçoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le crédo du chasseur.\\\"}\",\"{\\\"text\\\":\\\"§7The hunter's creed.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.shovel_293"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.shovel_293"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/shovel_292",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_shovel_293": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "293"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

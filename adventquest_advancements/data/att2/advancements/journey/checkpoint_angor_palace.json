@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Angor palace Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Angor palace"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_angor_palace"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_angor_palace"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_angor_palace",

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Frowin Nepheris : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Perfeito, suba as escadas, eles estão na mesa de trás! Você pode tentar a diplomacia, mas, para ser sincero, não acredito muito nesses assuntos.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"太好了，上楼吧，他们在后桌！您可以尝试交涉，但是我真的不认为这能解决问题。","color":"dark_aqua"}]}

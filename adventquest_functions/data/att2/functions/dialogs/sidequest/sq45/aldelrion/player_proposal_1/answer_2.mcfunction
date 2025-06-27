@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"De mim? Não muito. Mas as recompensas da vida nem sempre vêm de onde esperamos. Ao me ajudar voluntariamente, você pode se surpreender.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"从我这里吗？我没有什么东西能给你。生活中的回报不会总是如我们所愿。如果你愿意帮助我，没准会有些意外收获。","color":"dark_aqua"}]}

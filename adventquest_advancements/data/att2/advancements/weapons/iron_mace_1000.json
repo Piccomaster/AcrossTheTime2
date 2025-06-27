@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_pickaxe"
+            "id": "minecraft:iron_pickaxe"
         },
-        "title": {"translate":"Iron mace combo"},
-        "description": {"translate":"Strike 500 times with an iron mace"},
+        "title": {"translate": "att2.advancement.weapons.title.iron_mace_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.iron_mace_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/iron_mace_250",

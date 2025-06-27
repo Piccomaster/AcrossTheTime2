@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Vulk : ","color":"green","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"O que é Wulk? Não, isso não significa nada para mim, e que nome ridículo... Além disso, é impossível que outro ferreiro possa forjar tal obra do nada... Se você encontrar tempo, meu pedido sempre será válido.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"谁是Wulk？多么可笑的名字，它跟我没有任何关系...而且，不会有任何一位铁匠可以凭空打造出那把武器...等到你有时间的时候再来帮我也不迟。","color":"dark_aqua"}]}

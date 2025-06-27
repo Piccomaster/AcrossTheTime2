@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Aqui está minha proposta: Recentemente, minha adega foi invadida por aranhas quando uma das paredes que levava a uma caverna escura desmoronou, permitindo que esses monstros irritantes entrassem na minha sala de armazenamento.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"我的委托是：最近这所房屋的地窖里老是有蜘蛛—地窖靠近洞穴的那堵墙塌了，于是那些烦人的蜘蛛沿着洞穴爬进了我的储藏室。","color":"dark_aqua"}]}

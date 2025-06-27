@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*para si mesmo* Mantenha a calma, mantenha a calma... Pense, o que Relgon teria feito... Na verdade, tenho certeza de que ele seria capaz de cortá-lo ao meio verticalmente, mas ele teria permanecido calmo.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*自言自语*冷静，冷静...仔细想想，如果是Relgon会做什么...事实上我确信他有能力直直地把他剁成两半，但他会保持冷静。","color":"aqua"}]}

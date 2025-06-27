@@ -28,3 +28,5 @@ execute if score Real0 TIMER matches 249 as @a[x=-5904,y=116,z=-4375,distance=..
 
 execute if score Real0 TIMER matches 251.. run scoreboard players set present_building_mech1 NOJELANTH -1
 execute if score Real0 TIMER matches ..250 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

@@ -35,3 +35,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Nicolas Chavez : ","color":"gree
 
 # Português (Portuguese)
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nicolas Chavez : ","color":"green","extra":[{"text":"Ei, estranho! Todos nesta vila me chamam de louco, mas recentemente apareceu uma anomalia no templo. Ninguém acredita em mim, mas bastaria conferir com os próprios olhos… Todos aqui são supersticiosos demais! Enfim, as histórias contadas sobre Nojélanth provavelmente explicam tudo isso. Eu mesmo não acreditava nessas velhas lendas até ver essa anomalia… Tome cuidado!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nicolas Chavez : ","color":"green","extra":[{"text":"嘿，陌生人！这个村子里每个人都说我疯了，但最近神庙里出现了一个异常现象。没人相信我，但只要亲眼去看看就知道了……他们都太迷信了！不过，关于Nojélanth的传说大概能解释这一切。连我自己都不信那些古老传说，直到我看到那个异常……小心点！","color":"dark_aqua"}]}

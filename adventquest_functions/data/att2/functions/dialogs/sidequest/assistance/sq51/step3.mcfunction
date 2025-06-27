@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की किंवदं�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária missão de J'zargo - Parte 1 -°- : ","color":"gray","extra":[{"text":"Um osso com gravuras, com certeza encontrei o que J'zargo estava procurando. Vamos levar isso de volta para ele.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 1 部分 -°- : ","color":"gray","extra":[{"text":"一块雕刻精致的骨头！这应该是J'zargo来这里的目的，返回洞口吧。","color":"aqua","italic":true}]}

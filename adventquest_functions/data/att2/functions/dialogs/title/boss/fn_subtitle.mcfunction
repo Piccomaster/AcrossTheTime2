@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"विकृत अर्ध-द
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Deusa meio-corrompida ","color":"gray","extra":[{"text":" / ","color":"dark_red","strikethrough":true},{"text":" Não faça isso...","color":"black","obfuscated":true}]}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"堕落的半神 ","color":"gray","extra":[{"text":" / ","color":"dark_red","strikethrough":true},{"text":" 非禮勿動...","color":"black","obfuscated":true}]}

@@ -60,3 +60,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"... como uma área estratégica, mal podemos nos dar ao luxo de deixá-la nas mãos do inimigo.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"...这里作为战略要地，我们承担不起它被敌军占领的代价。","color":"dark_aqua"}]}

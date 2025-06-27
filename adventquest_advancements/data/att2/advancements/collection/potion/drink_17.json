@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:12022783}"
-        },
-        "title": {"translate":"Préparation Subtile"},
-        "description": {"translate":"A hidden formula, an art mastered, and it's done."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_16",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_17": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§2Préparation Subtile\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une formule cachée, un art maîtrisé,\\\"}\",\"{\\\"text\\\":\\\"§7et le tour est joué.\\\"}\",\"{\\\"text\\\":\\\"§7A hidden formula, an art mastered,\\\"}\",\"{\\\"text\\\":\\\"§7and it's done.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "17"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_17"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_17"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_16",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "17"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

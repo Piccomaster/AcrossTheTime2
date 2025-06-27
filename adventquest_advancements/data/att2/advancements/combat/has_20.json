@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gunpowder"
+            "id": "minecraft:gunpowder"
         },
-        "title": {"translate":"Hysteria!"},
-        "description": {"translate":"Give me your heart and your soul"},
+        "title": {"translate":"att2.advancement.combat.title.has_20"},
+        "description": {"translate":"att2.advancement.combat.description.has_20"},
 		"frame": "goal"
     },
     "parent": "att2:combat/has_12",

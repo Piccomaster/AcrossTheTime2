@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marion Marsot : ","color":"green
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marion Marsot : ","color":"green","extra":[{"text":"Deixe-me em paz, vá embora! Eu... eu te imploro...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Marion Marsot : ","color":"green","extra":[{"text":"离我远点！我...我求求你...","color":"dark_aqua"}]}

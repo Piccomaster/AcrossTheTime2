@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rena Sun : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Ah, entendo... Continuarei rezando para que alguém venha me ajudar. Infelizmente, sou a única pessoa que ainda se preocupa com este templo...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊，我明白了...我会继续祈祷有人来帮助我。唉，我是唯一还在关心这座寺庙的人...","color":"dark_aqua"}]}

@@ -27,3 +27,5 @@ particle minecraft:poof -5252 71.5 -5405 1 0 1 0 20 normal
 
 scoreboard objectives add TIMESINCEDEATH minecraft.custom:minecraft.time_since_death
 advancement grant @a only att2:dahal/spell20_loot
+#return 1->make command block runing
+return 1

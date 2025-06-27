@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- यात्रा का अं�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O Fim de uma Jornada -°- : ","color":"gray","extra":[{"text":"Korlaph não está mais neste mundo e Emerald encontrou sua filha Selene. Antes de eu partir, ela me deu um mapa mostrando um lugar secreto nos pântanos de Owsästr. É estranho, este lugar mostra a entrada para a masmorra. Deve haver algo escondido lá...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 旅途终点 -°- : ","color":"gray","extra":[{"text":"Korlaph已经不复存在了，Emerald也成功与他女儿团聚了。告别之前他女儿赠予了我一张地图，上面好像标记了一个秘密地牢，就藏在Owsästr沼泽里。通常这种地方会隐藏着什么东西，我应该去碰碰运气","color":"aqua","italic":true}]}

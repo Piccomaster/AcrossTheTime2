@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_pickaxe"
+            "id": "minecraft:netherite_pickaxe"
         },
-        "title": {"translate":"Obsidian mace hit"},
-        "description": {"translate":"Strike 250 times with an obsidian mace"},
+        "title": {"translate": "att2.advancement.weapons.title.netherite_mace_250"},
+        "description": {"translate": "att2.advancement.weapons.description.netherite_mace_250"},
         "frame": "goal"
     },
     "parent": "att2:weapons/netherite_mace_50",

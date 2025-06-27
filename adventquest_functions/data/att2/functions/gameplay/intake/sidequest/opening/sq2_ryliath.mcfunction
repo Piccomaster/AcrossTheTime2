@@ -3,7 +3,7 @@
 #Manage intake iron ingot in Ryliath	 	 	 #
 ##################################################
 
-clear @s minecraft:iron_ingot{display:{"Lore":["{\"text\":\"§4§oIron ingot\"}"]}} 1
+clear @s minecraft:iron_ingot[custom_name={translate:'item.quest.iron_ingot.name'}] 1
 scoreboard players add intake_ingot SQ2 1
 execute positioned -5063 102 -4958 run function att2:gameplay/intake/effect
 

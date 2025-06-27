@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chest"
+            "id": "minecraft:chest"
         },
-        "title": {"translate":"Accessible Chest Addict"},
-        "description": {"translate":"Open 250 Accessible Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier2_250"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier2_250"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/lootchest_tier2_100",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

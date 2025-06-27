@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हेलेना के घो�
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Os cavalos de Hélèna -°- : ","color":"gray","extra":[{"text":"Os cavalos de Hélèna estão doentes, aparentemente alguém estaria com raiva dela e daria maçãs envenenadas aos seus cavalos. Tenho que ir para Ryliath para ver se encontro alguém que possa ter uma rixa com ela... ","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 毒马凶手 -°- : ","color":"gray","extra":[{"text":"Helena的马儿们都生病了，一定是有人对她很不满然后把有毒的苹果喂给马儿们吃。在Ryliath城里调查一下看看谁最有嫌疑","color":"aqua","italic":true}]}

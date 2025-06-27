@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Recentemente, nasceu uma nova esperança. Etotsira, enviado de outro reino, permitiu-nos, com sua ajuda, expulsar os mortais da cidade de Angor. Nossa situação parecia melhorar desde sua chegada.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"不久前，事情出现了转机。在另一个世界的旅者Etotsira的帮助下，觊觎泉源力量的敌人被赶出了Angor城。自从他到来后，局势终于开始明朗起来。","color":"dark_aqua"}]}

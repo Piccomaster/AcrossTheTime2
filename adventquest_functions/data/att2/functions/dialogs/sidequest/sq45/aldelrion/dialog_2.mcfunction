@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Eu não sei o que aconteceu com meu filho. Ele deixou Angband há tanto tempo, mas quero acreditar que ele ainda está vivo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"我不知道我儿子怎么了。他很久以前就离开了Angband，但是我相信他过得很好。","color":"dark_aqua"}]}

@@ -57,3 +57,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Nestor : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Você conseguiu expulsá-los de vez? Excelente! Finalmente poderei retomar os negócios. Aqui, é para você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"你把他们赶走了？太好了！我终于可以正常营业了。这些Chronotons是给你。","color":"dark_aqua"}]}

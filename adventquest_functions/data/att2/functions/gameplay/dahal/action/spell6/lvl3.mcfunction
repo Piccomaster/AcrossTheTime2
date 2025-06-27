@@ -5,6 +5,8 @@
 
 function att2:gameplay/dahal/action/spell6/summon_positionkeeper
 execute as @a run function att2:gameplay/dahal/action/spell6/sound_effect
+#select time
+function att2:gameplay/dahal/action/spell6/time_select
 scoreboard players remove @s DAHAL 50
 function att2:gameplay/dahal/action/spell6/cooldown
 scoreboard players add @s SPELL6_LVL 2

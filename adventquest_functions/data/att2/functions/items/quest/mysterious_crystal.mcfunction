@@ -1,6 +1,6 @@
 ##################################################
-#Made by Adventquest                             #
+#Made by Adventquest    神秘水晶                         #
 #Obtain Mysterious Crystal    	 	 			 #
 ##################################################
 
-give @s minecraft:red_stained_glass{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cCristal Mystérieux\"","Lore":["{\"text\":\"§4Mysterious Crystal\"}"]}} 1
+give @s minecraft:red_stained_glass[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.mysterious_crystal.name'},lore=[{translate:'item.quest.lore'}]] 1

@@ -24,3 +24,5 @@ execute if score samal_eph_PNJ DIALOG matches 3 run scoreboard players add @a CH
 execute if score samal_eph_PNJ DIALOG matches 3 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+100 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq2
+#return 1->make command block runing
+return 1

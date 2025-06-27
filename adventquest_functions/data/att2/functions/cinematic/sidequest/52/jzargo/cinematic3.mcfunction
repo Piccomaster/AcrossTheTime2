@@ -30,3 +30,5 @@ execute if score Real1 TIMER matches 700 run function att2:physicmod/reg1/nojela
 execute if score Real1 TIMER matches 701.. run function att2:cinematic/sidequest/52/step2
 execute if score Real1 TIMER matches 7..700 run function att2:cinematic/real1_iteration
 execute if score Real1 TIMER matches ..4 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

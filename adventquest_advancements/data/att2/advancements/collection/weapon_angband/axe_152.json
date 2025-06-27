@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_axe"
-        },
-        "title": {"translate":"La honte de l'assassin"},
-        "description": {"translate":"So your ruthless deeds did not in any way cover you with the glory you so longed for?"},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
     },
-    "parent": "att2:collection/weapon_angband/axe_145",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "golden_axe_152": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_axe"],
-                    "nbt": "{display:{Name:\"\\\"§5La honte de l'assassin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ainsi tes impitoyables actions ne te couvrirent\\\"}\",\"{\\\"text\\\":\\\"§7nullement de la gloire à laquelle tu aspirais tant ?\\\"}\",\"{\\\"text\\\":\\\"§7So your ruthless deeds did not in any way\\\"}\",\"{\\\"text\\\":\\\"§7cover you with the glory you so longed for?\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7HAS§a1 §7LUC§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.axe_152"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.axe_152"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/axe_145",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "golden_axe_152": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "152"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

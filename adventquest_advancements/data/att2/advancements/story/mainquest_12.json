@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"After the words, time for action!"},
-        "description": {"translate":"Time for regrets"},
+        "title": {"translate":"att2.advancement.story.title.mainquest_12"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_12"},
         "frame": "goal"
     },
     "parent": "att2:story/mainquest_11",

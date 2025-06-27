@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:brewer_pottery_sherd{EquipmentType:"runic_word",Rarity:"unc",display:{Name:"\"§2Impatience\"","Lore":["{\"text\":\"§7Impatience\"}","{\"text\":\"§eInu Von Ust\"}","{\"text\":\"§aSpells Cooldown:§2 -20%\"}","{\"text\":\"§aSpells XP:§2 +1\"}","{\"text\":\"§aPotion Time:§2 +20s\"}","{\"text\":\"§cLevel Required:§4 30\"}"]}} 1
+give @s minecraft:brewer_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'XXX',RuneWord:'4'},custom_name={translate:'item.runeword.4.name'},lore=[{translate:'item.runeword.4.recipe'},{translate:'item.runeword.4.cooldown'},{translate:'item.runeword.4.dahal_xp'},{translate:'item.runeword.4.potion'},{translate:'item.runeword.4.limit'}]]

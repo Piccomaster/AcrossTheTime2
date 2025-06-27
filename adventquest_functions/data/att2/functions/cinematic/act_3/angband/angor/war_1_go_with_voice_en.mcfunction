@@ -18,7 +18,7 @@ execute if score Neth0 TIMER matches 50 in minecraft:the_nether run tp @a 3525 4
 
 #Summon Army
 execute if score Neth0 TIMER matches 69 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_1_action_0
-execute if score Neth0 TIMER matches 69 as 00000000-0000-007a-0000-00000000007a run data merge entity @s {HandItems:[{id:"minecraft:diamond_sword",tag:{Damage:1560s},Count:1},{}]}
+execute if score Neth0 TIMER matches 69 as 00000000-0000-007a-0000-00000000007a run data merge entity @s {equipment:{mainhand:{id:"minecraft:diamond_sword",components:{Damage:1560s},count:1},offhand:{}}}
 
 #Cinematic Army March
 execute if score Neth0 TIMER matches 75 run effect clear @a[scores={DIMENSION=6}] minecraft:blindness

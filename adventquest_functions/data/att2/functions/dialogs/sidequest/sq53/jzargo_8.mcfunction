@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"A jornada de J'zargo? Não, ele não encontrou tudo! J'zargo não gosta de festejar como aqueles idiotas do tipo de aluno.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo的旅程？不，他还没有找全！J'zargo不喜欢像那些和学徒一样的白痴去开party。","color":"dark_aqua"}]}

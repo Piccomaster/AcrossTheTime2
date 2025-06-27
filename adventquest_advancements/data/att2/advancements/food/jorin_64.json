@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:beetroot"
+            "id": "minecraft:beetroot"
         },
-        "title": {"translate":"Jorïn craving"},
-        "description": {"translate":"Eat 64 jorïns"},
+        "title": {"translate":"att2.advancement.food.title.jorin_64"},
+        "description": {"translate":"att2.advancement.food.description.jorin_64"},
         "frame": "goal"
     },
     "parent": "att2:food/jorin_16",

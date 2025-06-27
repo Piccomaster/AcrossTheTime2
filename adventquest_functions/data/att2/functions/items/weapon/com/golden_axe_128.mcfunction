@@ -3,5 +3,6 @@
 #Obtain item golden_axe_128          #
 #####################################
 
-give @s minecraft:golden_axe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",Effect:"spd_1",display:{Name:"\"§7Mauvaise réplique\"","Lore":["{\"text\":\"§7De manufacture Terän...\"}","{\"text\":\"§7Made by Terän...\"}","{\"text\":\"§7SPD§c-1\"}"]},Damage:12,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.7,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.92,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:golden_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",Shop:"buy",SPD:-1,Weapon:"128"},custom_name={translate:"weapon128.name"},lore=[{translate:"weapon128.lore.1"},{translate:"weapon128.lore.2"},{translate:"weapon128.stat"}],max_damage=40,damage=12,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:2.7},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.92}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

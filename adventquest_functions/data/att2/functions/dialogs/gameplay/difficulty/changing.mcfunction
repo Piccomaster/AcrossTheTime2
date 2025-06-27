@@ -68,3 +68,8 @@ execute if score level DIFFICULTY matches 1 run tellraw @s[scores={LANGUAGE=9}] 
 execute if score level DIFFICULTY matches -1 run tellraw @s[scores={LANGUAGE=10}] {"text":"Você escolheu a dificuldade: ","color":"dark_red","extra":[{"text":"APPRENTICE","color":"dark_green"}]}
 execute if score level DIFFICULTY matches 0 run tellraw @s[scores={LANGUAGE=10}] {"text":"Você escolheu a dificuldade: ","color":"dark_red","extra":[{"text":"VETERAN","color":"gold"}]}
 execute if score level DIFFICULTY matches 1 run tellraw @s[scores={LANGUAGE=10}] {"text":"Você escolheu a dificuldade: ","color":"dark_red","extra":[{"text":"MASTER","color":"red"}]}
+
+#Simplified Chinese LANGUAGE
+execute if score level DIFFICULTY matches -1 run tellraw @s[scores={LANGUAGE=11}] {"text":"选择游戏难度：","color":"dark_red","extra":[{"text":"入门","color":"dark_green"}]}
+execute if score level DIFFICULTY matches 0 run tellraw @s[scores={LANGUAGE=11}] {"text":"选择游戏难度：","color":"dark_red","extra":[{"text":"资深","color":"gold"}]}
+execute if score level DIFFICULTY matches 1 run tellraw @s[scores={LANGUAGE=11}] {"text":"选择游戏难度：","color":"dark_red","extra":[{"text":"大师","color":"red"}]}

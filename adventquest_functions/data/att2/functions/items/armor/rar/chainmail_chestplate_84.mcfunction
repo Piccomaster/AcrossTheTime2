@@ -3,5 +3,6 @@
 #Obtain item chainmail_chestplate_84          #
 #####################################
 
-give @s minecraft:chainmail_chestplate{EquipmentType:"armor",Rarity:"rar",Manufacturer:"graceful",Shop:"buy",Effect:"spd3_res_1",display:{Name:"\"§9Flexibilité\"","Lore":["{\"text\":\"§7Se tord sans jamais rompre,\"}","{\"text\":\"§7encaisse sans jamais fléchir.\"}","{\"text\":\"§7Twists without ever breaking,\"}","{\"text\":\"§7handles without ever bending.\"}","{\"text\":\"§7SPD§a3 §7RES§c-1\"}"]},Damage:105,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:5.54,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.62,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]} 1
+give @s minecraft:chainmail_chestplate[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'graceful',Shop:'buy',SPD:3,RES:-1,Armor:'84'},custom_name={translate:'armor84.name'},lore=[{translate:'armor84.lore.1'},{translate:'armor84.lore.2'},{translate:'armor84.stat'}],max_damage=230,damage=105,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:5.54},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:1.62},{slot:'chest',type:'max_health',id:'armor.chestplate',operation:'add_value',amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

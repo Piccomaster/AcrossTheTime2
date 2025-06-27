@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"कर्कश विलाप,
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Lamentação amarga, o desviado em declínio","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"苦痛哀嚎，迷途桎梏","color":"gray"}

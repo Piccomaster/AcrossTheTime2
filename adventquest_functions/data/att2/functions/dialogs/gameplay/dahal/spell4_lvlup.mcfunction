@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Power Ray के लिए नया �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Raio de Poder!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“能量射线”已升级！ ","color":"gold"}

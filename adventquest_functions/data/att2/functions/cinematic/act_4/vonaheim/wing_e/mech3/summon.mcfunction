@@ -10,3 +10,5 @@ function att2:summon/reg_1/vindicator1_class9
 function att2:summon/reg_1/vindicator2_class9
 function att2:summon/reg_1/skeleton10_class10
 function att2:summon/reg_1/skeleton9_class10
+#return 1->make command block runing
+return 1

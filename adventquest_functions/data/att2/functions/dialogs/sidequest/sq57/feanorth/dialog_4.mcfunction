@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Feanorth : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"A guerra acabou, mas um longo trabalho de limpeza, investigação e reconstrução nos espera em Angor...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"战争结束了，但是我们需要在angor废墟中进行漫长的探查，而且我们需要清理并重建我们的家园...","color":"dark_aqua"}]}

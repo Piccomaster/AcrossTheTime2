@@ -3,5 +3,6 @@
 #Obtain item golden_shovel_149          #
 #####################################
 
-give @s minecraft:golden_shovel{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",Effect:"str1_has1_her_1",display:{Name:"\"§9Dague d'Améthyste\"","Lore":["{\"text\":\"§7La trahison et le meurtre du meilleur,\"}","{\"text\":\"§7ainsi tu sauveras ceux que tu aimes.\"}","{\"text\":\"§7The betrayal and murder of the best,\"}","{\"text\":\"§7so you'll save those you love.\"}","{\"text\":\"§7STR§a1 §7HAS§a1 §7HER§c-1\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:5.77,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.65,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:golden_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",STR:1,HAS:1,HER:-1,Weapon:"149"},custom_name={translate:"weapon149.name"},lore=[{translate:"weapon149.lore.1"},{translate:"weapon149.lore.2"},{translate:"weapon149.stat"}],max_damage=40,damage=0,enchantments={"unbreaking":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:5.77},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.65}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

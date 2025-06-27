@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Um osso gravado, uma lágrima de cristal, uma esmeralda estranha, sangue imperishable e um pergaminho antigo...","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一块有着雕刻的骨头，一滴水晶眼泪，一块奇怪的绿宝石，一小瓶没有变质的血液，还有一张古老的卷轴...","color":"aqua"}]}

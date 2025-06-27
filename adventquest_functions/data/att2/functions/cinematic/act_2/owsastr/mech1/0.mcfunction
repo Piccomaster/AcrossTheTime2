@@ -10,3 +10,5 @@ execute as @e[nbt={UUID:[I;0,65551,0,65551]}] run tag @s add UtoS
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] if entity @e[nbt={UUID:[I;0,65567,0,65567]},tag=WtoN] unless score mech1 OWSASTR matches 0..1 run scoreboard players set mech1 OWSASTR 5
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] if entity @e[nbt={UUID:[I;0,65567,0,65567]},tag=UtoN] unless score mech1 OWSASTR matches 0..1 if block -4945 79 -4380 minecraft:cracked_stone_bricks run scoreboard players set mech1 OWSASTR 6
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] if entity @e[nbt={UUID:[I;0,65567,0,65567]},tag=UtoN] unless score mech1 OWSASTR matches 0..1 unless block -4945 79 -4380 minecraft:cracked_stone_bricks run scoreboard players set mech1 OWSASTR 7
+#return 1->make command block runing
+return 1

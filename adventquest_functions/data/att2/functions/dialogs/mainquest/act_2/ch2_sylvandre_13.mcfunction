@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"*Limpa a garganta* Esta área tem uma má reputação, há uma loja suspeita que comprará armas que você não usa mais. Aparentemente, eles também vendem alguns itens especiais...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"*清了清嗓*这地方风评不佳—这里有家收购你不再会使用的物品的黑店；与此同时，他们也顺带出售一些别的东西，至于在哪买么...","color":"dark_aqua"}]}

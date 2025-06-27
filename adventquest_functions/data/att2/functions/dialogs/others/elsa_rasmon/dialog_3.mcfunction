@@ -44,5 +44,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Elsa Rasmon : ","color":"green",
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Elsa Rasmon : ","color":"green","extra":[{"text":"Bom, como você quiser...","color":"dark_aqua"}]}
 
 
-data merge entity 00000000-0000-054a-0000-00000000054a {Tags:["LVL0","CLASS12","Reg2","Undead"],NoAI:0,Invulnerable:0,AngerTime:1000000,Health:20,AbsorptionAmount:0,Attributes:[{Name:generic.follow_range,Base:30.0},{Name:generic.max_health,Base:30,Health:0.5},{Name:generic.attack_damage,Base:4.0}],Health:30,HandItems:[{id:"minecraft:iron_sword",Count:1},{}]}
+data merge entity 00000000-0000-054a-0000-00000000054a {Tags:["LVL0","CLASS12","Reg2","Undead"],NoAI:0,Invulnerable:0,AngerTime:1000000,Health:20,AbsorptionAmount:0,attributes:[{id:follow_range,base:30.0},{id:max_health,base:30,Health:0.5},{id:attack_damage,base:4.0}],Health:30,equipment:{mainhand:{id:"minecraft:iron_sword",count:1},offhand:{}}}
 kill @e[type=minecraft:villager,x=3898,y=49,z=3907,distance=0..3]
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Elsa Rasmon : ","color":"green","extra":[{"text":"好吧，如你所愿...","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Relgon, esse nome não lhe é estranho. Como eu disse antes, você não pode ser afetado pela corrupção. Pois seu espírito é um dos mais fortes que os 7 reinos já carregaram, e acabei de abrir seu potencial máximo. Agora você não sentirá mais o peso da maldição que pesava sobre você.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Relgon，这个名字对你来说并不陌生。正如我先前所言，你必不可能被墮落泉源的力量所影响，因为你的灵魂是七王囯有史以来最强大的灵魂之一，而我刚刚激发了它的全潜力。现在的你，应该再也不会因为诅咒而感到困扰了。","color":"dark_aqua"}]}

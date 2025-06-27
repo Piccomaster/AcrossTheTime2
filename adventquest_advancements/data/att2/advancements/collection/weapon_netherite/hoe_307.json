@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_hoe"
-        },
-        "title": {"translate":"Perfection du lancier"},
-        "description": {"translate":"Who seeks perfection, will achieve excellence."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_hoe"
     },
-    "parent": "att2:collection/weapon_netherite/hoe_306",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_hoe_307": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Perfection du lancier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Qui cherche la perfection,\\\"}\",\"{\\\"text\\\":\\\"§7aboutira à l'excellence.\\\"}\",\"{\\\"text\\\":\\\"§7Who seeks perfection,\\\"}\",\"{\\\"text\\\":\\\"§7will achieve excellence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.hoe_307"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.hoe_307"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/hoe_306",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_hoe_307": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "307"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

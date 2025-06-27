@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एक रहस्यमय च�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um Roubo Misterioso -°- : ","color":"gray","extra":[{"text":"O cozinheiro me contou sobre um passagem secreta na sala onde ele guarda toda a carne fresca. Eu vou ter que encontrá-lo e continuar minha pesquisa sobre esse potencial ladrão de planos.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 神秘盗窃案 -°- : ","color":"gray","extra":[{"text":"厨师告诉我在他的生肉储藏间里有一条密道，我可以从这里继续调查小偷究竟去了哪里","color":"aqua","italic":true}]}

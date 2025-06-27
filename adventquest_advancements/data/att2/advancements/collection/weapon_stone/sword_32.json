@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_sword"
-        },
-        "title": {"translate":"Dernières volontés d'Hélène"},
-        "description": {"translate":"Madness finally gains meaning, when it lets itself be guided by revenge."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
     },
-    "parent": "att2:collection/weapon_stone/sword_28",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "wooden_sword_32": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§6Dernières volontés d'Hélène\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La folie prend enfin un sens,\\\"}\",\"{\\\"text\\\":\\\"§7quand elle se laisse guider par la vengeance.\\\"}\",\"{\\\"text\\\":\\\"§7Madness finally gains meaning,\\\"}\",\"{\\\"text\\\":\\\"§7when it lets itself be guided by revenge.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a1 §7LUC§a1 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.sword_32"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.sword_32"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/sword_28",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "wooden_sword_32": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "32"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

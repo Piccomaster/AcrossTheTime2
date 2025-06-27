@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_hoe"
+            "id": "minecraft:netherite_hoe"
         },
-        "title": {"translate":"Obsidian spear smash"},
-        "description": {"translate":"Strike 50 times with an obsidian spear"},
+        "title": {"translate": "att2.advancement.weapons.title.netherite_spear_50"},
+        "description": {"translate": "att2.advancement.weapons.description.netherite_spear_50"},
         "frame": "goal"
     },
     "parent": "att2:weapons/netherite_spear_1",

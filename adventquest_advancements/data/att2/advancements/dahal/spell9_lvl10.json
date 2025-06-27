@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Tiid Klo Ul Master"},
-        "description": {"translate":"Reach level 10 with Tiid Klo Ul spell"},
+        "title": {"translate":"att2.advancement.dahal.title.spell9_lvl10"},
+        "description": {"translate":"att2.advancement.dahal.description.spell9_lvl10"},
         "frame": "challenge"
     },
     "parent": "att2:dahal/spell9_lvl5",

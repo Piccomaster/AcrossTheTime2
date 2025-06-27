@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपका भ्रष्टाच�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Sua corrupção se intensifica...","color":"black"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“堕落”的诅咒加剧了...","color":"gold"}

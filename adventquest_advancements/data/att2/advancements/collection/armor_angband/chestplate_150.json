@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_chestplate"
-        },
-        "title": {"translate":"Gloire de Sonmir"},
-        "description": {"translate":"Never before has a chest strap been worn with such pride."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
     },
-    "parent": "att2:collection/armor_angband/chestplate_149",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "golden_chestplate_150": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Gloire de Sonmir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jamais un plastron ne fut porté\\\"}\",\"{\\\"text\\\":\\\"§7avec autant de fierté.\\\"}\",\"{\\\"text\\\":\\\"§7Never before has a chest strap\\\"}\",\"{\\\"text\\\":\\\"§7been worn with such pride.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.chestplate_150"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.chestplate_150"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/chestplate_149",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_chestplate_150": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "150"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

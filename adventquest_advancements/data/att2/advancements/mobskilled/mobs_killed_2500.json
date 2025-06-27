@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_shovel"
+            "id": "minecraft:netherite_shovel"
         },
-        "title": {"translate":"Murderer"},
-        "description": {"translate":"Kill 2500 enemies"},
+        "title": {"translate":"att2.advancement.mobskilled.title.mobs_killed_2500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.mobs_killed_2500"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/mobs_killed_1000",

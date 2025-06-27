@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Você acha que está me intimidando? Eu não sou culpada de nada: não fui eu que entrei no banco para roubar o dinheiro... E sua agressão só fará com que minha acusação pareça ainda mais real aos olhos de todos!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你以为我是好惹的吗？我什么都没做：在银行偷钱的人又不是我...而你的威胁只会让大家更相信我对你的指责！ ","color":"dark_aqua"}]}

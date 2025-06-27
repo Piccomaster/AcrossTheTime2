@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hermona : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Obrigado, você será de grande ajuda para nós. Ainda deve haver bandagens nas ruínas de Angor. Eu tinha, na minha antiga residência, um estoque considerável de bandagens. No entanto, se elas não foram consumidas pelo fogo... Minha casa está no bairro que fica sobre a cidade. Por favor, traga-me um mínimo de 6 pacotes de 64 bandagens. Boa sorte...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"谢谢你，真是帮了我一个大忙。Angor废墟中应该还有一些绷带，在我原来的住所里应该还有很多，希望没有被烧干净。在Angor东部的废墟中，有一座巨大的楼梯可以通往我的住所。请给我带来6包64条的绷带。祝你好运...","color":"dark_aqua"}]}

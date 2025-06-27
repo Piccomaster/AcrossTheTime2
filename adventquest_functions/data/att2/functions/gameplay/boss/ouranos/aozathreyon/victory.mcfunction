@@ -19,8 +19,8 @@ function att2:physicmod/reg4/aozathreyon_end
 function att2:sound/door/simple_glassdoor
 function att2:gameplay/checkpoint/ouranos/tower3_road3
 
-particle minecraft:item minecraft:blue_stained_glass 7293 175 6577 1 7 1 1 500 normal
-particle minecraft:item minecraft:yellow_stained_glass 7293 175 6577 1 7 1 1 200 normal
+particle minecraft:item{item:"minecraft:blue_stained_glass"} 7293 175 6577 1 7 1 1 500 normal
+particle minecraft:item{item:"minecraft:yellow_stained_glass"} 7293 175 6577 1 7 1 1 200 normal
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/aozathreyon
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/aozathreyon_master

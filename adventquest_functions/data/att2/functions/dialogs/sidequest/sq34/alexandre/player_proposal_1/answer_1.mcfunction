@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alexandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"Sim, o local deve esperar. Meu colega ficou preso nesta sujeira enquanto defendia a carga e os cavalos... Ajude-me a levar o equipamento de volta para o local, eu nunca vou conseguir sozinho!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"啊对，那边一定等急了。我的工友在保护货物的时候和马匹一起被卷入了泥土里...帮我把这些石材带回工地，我一个人肯定回不去的！","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Violette : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"Meus pais me deixaram uma fortuna bastante grande, então posso lhe dar Chronotons em retorno.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"我的父母给我留下了一笔相当大的财产，所以我可以给你Chronotons作为回报。","color":"dark_aqua"}]}

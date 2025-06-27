@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:lingering_potion",
-            "nbt": "{CustomPotionColor:11735039}"
-        },
-        "title": {"translate":"Rosée        "},
-        "description": {"translate":"Through science the abyss has opened, and the clouds have distilled the Dew."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/lingering_42",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "lingering_potion_43": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:lingering_potion"],
-                    "nbt": "{display:{Name:\"\\\"§9Rosée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Par la science les abîmes se sont ouverts, \\\"}\",\"{\\\"text\\\":\\\"§7et les nuages ont distillé la Rosée.\\\"}\",\"{\\\"text\\\":\\\"§7Through science the abyss has opened,\\\"}\",\"{\\\"text\\\":\\\"§7 and the clouds have distilled the Dew.\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "43"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.lingering_43"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.lingering_43"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/lingering_42",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "lingering_potion_43": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:lingering_potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "43"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

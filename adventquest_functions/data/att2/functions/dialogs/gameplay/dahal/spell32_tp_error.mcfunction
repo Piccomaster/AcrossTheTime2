@@ -26,3 +26,6 @@ title @s[scores={LANGUAGE=8}] actionbar {"text":"Transferanweisung abgebrochen."
 title @s[scores={LANGUAGE=9}] actionbar {"text":"स्थानांतरण मार्गदर्शन रद्द कर दिया गया।","color":"dark_red"}
 ##PT
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Orientação de transferência abortada.","color":"dark_red"}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"传送引导中止","color":"dark_red"}

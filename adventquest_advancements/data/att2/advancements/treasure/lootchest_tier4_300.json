@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chest"
+            "id": "minecraft:chest"
         },
-        "title": {"translate":"Arduous Chest Addict"},
-        "description": {"translate":"Open 300 Arduous Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier4_300"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier4_300"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/lootchest_tier4_200",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

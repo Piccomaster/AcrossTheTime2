@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Brave or not!"},
-        "description": {"translate":"Discover and activate 25 checkpoints"},
+        "title": {"translate":"att2.advancement.progress.title.checkpoint_25"},
+        "description": {"translate":"att2.advancement.progress.description.checkpoint_25"},
         "frame": "goal"
     },
     "parent": "att2:progress/checkpoint_5",

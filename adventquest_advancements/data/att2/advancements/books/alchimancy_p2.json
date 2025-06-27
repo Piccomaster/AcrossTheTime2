@@ -1,45 +1,70 @@
-
-
-
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate":"The Art Of Alchimancy - Part 2"},
-        "description": {"translate":"Find “A curse” book."},
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p2"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p2"
+        },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
     "parent": "att2:books/alchimancy_p1",
-    "criteria": {
-        "al2_fe": {
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
+        "criteria": {
+        "fe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Une malédiction - Partie 2\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7A curse - Part 2"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al2_eg": {
+        "eg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7A curse - Part 2\\\"}\"]}}"    
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Introduction - Part 1"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
-        "al2_ch": {
+        "ch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7诅咒 - Part 2\\\"}\"]}}"      
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7诅咒 - Part 2"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -47,9 +72,9 @@
     },
     "requirements": [
         [
-            "al2_fe",
-            "al2_eg",
-            "al2_ch"
+            "fe",
+            "eg",
+            "ch"
         ]
     ]
 }

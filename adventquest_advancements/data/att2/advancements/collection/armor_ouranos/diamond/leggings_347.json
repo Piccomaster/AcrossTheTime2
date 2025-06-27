@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_leggings"
-        },
-        "title": {"translate":"Confiance céleste"},
-        "description": {"translate":"Take a step into the void. Accept it. Learn It. Make it your own! Now it's yours..."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/leggings_258",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_leggings_347": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Confiance céleste\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Faites un pas dans le vide. Acceptez-le. Apprenez-le.\\\"}\",\"{\\\"text\\\":\\\"§7Appropriez-le vous ! Il vous appartient, désormais...\\\"}\",\"{\\\"text\\\":\\\"§7Take a step into the void. Accept it. Learn It.\\\"}\",\"{\\\"text\\\":\\\"§7Make it your own! Now it's yours...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7LUC§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.leggings_347"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.leggings_347"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/leggings_258",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_leggings_347": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "347"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,30 +1,44 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:splash_potion",
-            "nbt": "{CustomPotionColor:16715280}"
-        },
-        "title": {"translate":"Vertu    "},
-        "description": {"translate":"All the benefits of nature, in such a small vial."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "splash_potion_36": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:splash_potion"],
-                    "nbt": "{display:{Name:\"\\\"§9Vertu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tous les bienfaits de la nature,\\\"}\",\"{\\\"text\\\":\\\"§7dans une si petite fiole.\\\"}\",\"{\\\"text\\\":\\\"§7All the benefits of nature,\\\"}\",\"{\\\"text\\\":\\\"§7 in such a small vial.\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "36"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.splash_36"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.splash_36"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/splash_56",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "splash_potion_36": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:splash_potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "36"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

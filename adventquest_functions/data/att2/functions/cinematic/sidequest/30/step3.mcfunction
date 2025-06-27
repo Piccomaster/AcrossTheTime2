@@ -15,3 +15,5 @@ function att2:dialogs/sidequest/sq30/player_1
 
 #open secret chest library
 setblock -4972 162 -4904 minecraft:redstone_block
+#return 1->make command block runing
+return 1

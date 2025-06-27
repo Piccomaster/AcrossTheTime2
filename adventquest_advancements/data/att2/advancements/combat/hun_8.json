@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone"
+            "id": "minecraft:redstone"
         },
-        "title": {"translate":"Buffet dinner"},
-        "description": {"translate":"Binge eating disorder"}
+        "title": {"translate":"att2.advancement.combat.title.hun_8"},
+        "description": {"translate":"att2.advancement.combat.description.hun_8"}
     },
     "parent": "att2:combat/hun_4",
     "rewards": {

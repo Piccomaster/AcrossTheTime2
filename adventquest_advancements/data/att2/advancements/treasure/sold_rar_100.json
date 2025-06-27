@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:blue_candle"
+            "id": "minecraft:blue_candle"
         },
-        "title": {"translate":"Rare selling"},
-        "description": {"translate":"Sell 100 rare items"},
+        "title": {"translate": "att2.advancement.treasure.title.sold_rar_100"},
+        "description": {"translate": "att2.advancement.treasure.description.sold_rar_100"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/sold_1000",

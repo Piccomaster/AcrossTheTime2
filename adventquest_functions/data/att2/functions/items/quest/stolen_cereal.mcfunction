@@ -3,4 +3,4 @@
 #Obtain Stolen Cereal                  			 #
 ##################################################
 
-give @s minecraft:wheat{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cCéréale volée\"","Lore":["{\"text\":\"§4§oStolen Cereal\"}"]}} 1
+give @s minecraft:wheat[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.stolen_cereal.name'},lore=[{translate:'item.quest.lore'}]] 1

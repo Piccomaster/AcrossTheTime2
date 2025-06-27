@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:angler_pottery_sherd"
+            "id": "minecraft:angler_pottery_sherd"
         },
-        "title": {"translate":"Hope"},
-        "description": {"translate":"Make runic word: Gal Org Inu"},
+        "title": {"translate":"att2.advancement.runes.title.0_gal_org_inu"},
+        "description": {"translate":"att2.advancement.runes.description.0_gal_org_inu"},
         "frame": "goal"
     },
     "parent": "att2:runes/root",

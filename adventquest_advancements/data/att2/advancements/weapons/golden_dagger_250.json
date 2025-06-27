@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_shovel"
+            "id": "minecraft:golden_shovel"
         },
-        "title": {"translate":"Golden dagger hit"},
-        "description": {"translate":"Strike 250 times with a golden dagger"},
+        "title": {"translate": "att2.advancement.weapons.title.golden_dagger_250"},
+        "description": {"translate": "att2.advancement.weapons.description.golden_dagger_250"},
         "frame": "goal"
     },
     "parent": "att2:weapons/golden_dagger_50",

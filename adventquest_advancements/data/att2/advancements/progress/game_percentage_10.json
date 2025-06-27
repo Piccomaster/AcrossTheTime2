@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_stal"
+            "id": "minecraft:music_disc_stal"
         },
-        "title": {"translate":"10%!"},
-        "description": {"translate":"Complete 10% of all map quests."}
+        "title": {"translate":"att2.advancement.progress.title.game_percentage_10"},
+        "description": {"translate":"att2.advancement.progress.description.game_percentage_10"}
     },
     "parent": "att2:progress/root",
     "rewards": {

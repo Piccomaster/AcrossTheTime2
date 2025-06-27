@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile é muito poderosa. Tenho que enfraquecê-la, tentar sobreviver a todo custo e argumentar com ela antes que ela destrua tudo com o poder da fonte!","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile太强大了。我得不断削弱她，不惜一切代价保持状态，在她运用泉源之力毁灭一切前把道理和她讲明白！ ","color":"aqua"}]}

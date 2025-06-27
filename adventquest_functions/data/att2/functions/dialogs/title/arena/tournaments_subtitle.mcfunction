@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"पूर्ण","color":"gray"}
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Concluído","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"已完成","color":"gray"}

@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Finalmente estou em Nojélanth! Mas me encontro em outra temporalidade onde tudo parece ganhar vida... Tenho que encontrar a academia e entrar lá de qualquer maneira.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我终于回到Nojelanth了！但我发现自己处于另一个时间，一切似乎都变得生机盎然...我必须找到学院并不计代价地闯进去。","color":"aqua"}]}

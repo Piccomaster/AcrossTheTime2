@@ -83,6 +83,10 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uma gema do tempo.","color":"aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"你在寻找什么？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一颗时间宝石。","color":"aqua"}]}
 
 function att2:voice/golem/golem2
 function att2:dialogs/mainquest/act_4/pnj_golem/player_answer_proposal_3
+

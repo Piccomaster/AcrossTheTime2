@@ -54,5 +54,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Você não me impressiona... Então venha, eu vou esperar por você!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"你并未给我留下一个好印象...来吧，动手吧，我拭目以待！","color":"dark_aqua"}]}
 
 function att2:voice/phoebius/phoebius12
+

@@ -21,3 +21,5 @@ execute if score Real0 TIMER matches 200 as @a[gamemode=spectator] run function 
 
 execute if score Real0 TIMER matches 201 run scoreboard players set path3_mech3 OURANOS 2
 execute if score Real0 TIMER matches ..200 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

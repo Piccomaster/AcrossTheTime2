@@ -3,6 +3,8 @@
 #Fireline lvl4													#
 #################################################################
 
+#tag reset
+tag @e[scores={GAMELEVEL=0..},team=hostile,tag=SP2_ATKED] remove SP2_ATKED
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell2/damage_cal
 

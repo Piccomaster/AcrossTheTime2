@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:purple_carpet"
+            "id": "minecraft:purple_carpet"
         },
-        "title": {"translate":"Sharp Attack"},
-        "description": {"translate":"Hurt by spikes trap"}
+        "title": {"translate":"att2.advancement.adventure.title.spikes"},
+        "description": {"translate":"att2.advancement.adventure.description.spikes"}
     },
     "parent": "att2:adventure/spider_man",
     "rewards": {

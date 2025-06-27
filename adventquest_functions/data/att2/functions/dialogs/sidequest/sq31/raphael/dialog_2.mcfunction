@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Raphaël : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"Obrigado, cavaleiro, você salvou minha vida! Mas... olhe para o meu carro! E meu pobre Cachou, ele foi devorado... Ele entrou em pânico quando os viu e nos tirou da estrada... Como vou transportar toda a minha carga para Eolorion agora? Eles devem estar me esperando! Quantos dias já estou preso aqui?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"谢谢你，勇士，你救了我的命！但是...我的货车！我可怜的Kashu都被它们啃的只剩骨头了，...狼群出现的时候Kashu被吓到了，我们被它甩到了路边...我现在怎么把我所有的货物运到Eolorion？他们一定在等我！我被困在这里多少天了？ ","color":"dark_aqua"}]}

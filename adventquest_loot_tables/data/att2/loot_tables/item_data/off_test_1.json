@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:quartz",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "translate": "item.coin.esc.name"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "item.coin.esc.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.coin.esc.lore.2"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "EquipmentType": "misc",
+                                    "Rarity": "unk",
+                                    "Coin": "esc"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

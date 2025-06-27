@@ -12,3 +12,5 @@ execute at 00000000-0000-082a-0000-00000000082a as @p run give @s minecraft:fill
 function att2:gameplay/pnj_talk/dialog_playsound/selene
 execute at 00000000-0000-082a-0000-00000000082a as @p run function att2:dialogs/sidequest/sq28/selene_15
 execute as 00000000-0000-082a-0000-00000000082a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
+#return 1->make command block runing
+return 1

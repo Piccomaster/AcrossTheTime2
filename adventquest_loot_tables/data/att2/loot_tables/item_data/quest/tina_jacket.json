@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "item.quest.tina_jacket.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.quest.lore"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "misc",
+                  "Rarity": "que"
+                },
+                "minecraft:enchantments": {
+                  "protection": 1,
+                  "unbreaking": 10
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor",
+                    "amount": 4.25,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:armor_toughness",
+                    "amount": 1.22,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:knockback_resistance",
+                    "amount": 0.02,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

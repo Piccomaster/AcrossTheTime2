@@ -58,7 +58,7 @@ execute if score Neth0 TIMER matches 930 in minecraft:the_nether as 00000000-000
 execute if score Neth0 TIMER matches 930 run function att2:dialogs/mainquest/act_3/ch5_namrin_9
 execute if score Neth0 TIMER matches 930 run function att2:voice/namrin/namrin19
 execute if score Neth0 TIMER matches 950 run function att2:cinematic/act_3/angband/angor/source_1_action_8
-execute if score Neth0 TIMER matches 950..1000 in minecraft:the_nether run particle minecraft:item minecraft:soul_sand 3511 43.5 4691.0 0.2 0 0.2 0.01 2 force @a
+execute if score Neth0 TIMER matches 950..1000 in minecraft:the_nether run particle minecraft:item{item:"minecraft:soul_sand"} 3511 43.5 4691.0 0.2 0 0.2 0.01 2 force @a
 
 # Relgon Falling
 execute if score Neth0 TIMER matches 1000 run function att2:cinematic/act_3/angband/angor/source_1_action_9

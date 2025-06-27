@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_leggings"
-        },
-        "title": {"translate":"Mustésèv gal azazel"},
-        "description": {"translate":"Some say that a king does not walk, he moves, carried by his majesty."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_leggings"
     },
-    "parent": "att2:collection/armor_angband/leggings_313",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_leggings_161": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§6Mustésèv gal azazel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7D'aucuns disent qu'un roi ne marche pas,\\\"}\",\"{\\\"text\\\":\\\"§7il se meut, porté par sa Majesté.\\\"}\",\"{\\\"text\\\":\\\"§7Some say that a king does not walk,\\\"}\",\"{\\\"text\\\":\\\"§7he moves, carried by his majesty.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a3 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.leggings_161"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.leggings_161"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/leggings_313",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_leggings_161": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "161"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

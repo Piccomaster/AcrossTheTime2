@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:conduit"
+            "id": "minecraft:conduit"
         },
-        "title": {"translate":"Pillager Slayer"},
-        "description": {"translate":"Kill 250 Pillagers"},
+        "title": {"translate":"att2.advancement.mobskilled.title.pillagers_killed_250"},
+        "description": {"translate":"att2.advancement.mobskilled.description.pillagers_killed_250"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/pillagers_killed_50",

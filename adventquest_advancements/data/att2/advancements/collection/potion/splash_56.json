@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:splash_potion",
-            "nbt": "{CustomPotionColor:5740891}"
-        },
-        "title": {"translate":"Révulsif"},
-        "description": {"translate":"Decongests certain parts of the body."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/splash_35",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "splash_potion_56": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:splash_potion"],
-                    "nbt": "{display:{Name:\"\\\"§2Révulsif\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Décongestionne certaines parties du corps.\\\"}\",\"{\\\"text\\\":\\\"§7Decongests certain parts of the body.\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "56"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.splash_56"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.splash_56"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/splash_35",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "splash_potion_56": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:splash_potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "56"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

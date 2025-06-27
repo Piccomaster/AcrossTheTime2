@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:end_crystal"
+            "id": "minecraft:end_crystal"
         },
-        "title": {"translate":"Mythique"},
-        "description": {"translate":"Weapon"},
+        "title": {"translate": "att2.advancement.collection.title.mythique"},
+        "description": {"translate": "att2.advancement.collection.description.mythique"},
         "show_toast": false,
         "announce_to_chat": false
     },

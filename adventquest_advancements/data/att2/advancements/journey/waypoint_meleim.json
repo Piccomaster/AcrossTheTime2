@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:end_crystal"
+            "id": "minecraft:end_crystal"
         },
-        "title": {"translate":"Waypoint Méleïm"},
-        "description": {"translate":"Discover the waypoint of Méleïm"}
+        "title": {"translate":"att2.advancement.journey.title.waypoint_meleim"},
+        "description": {"translate":"att2.advancement.journey.description.waypoint_meleim"}
     },
     "parent": "att2:journey/discover_meleim",
     "rewards": {

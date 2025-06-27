@@ -9,3 +9,5 @@ time set 6000
 stopsound @a
 tag @a add NoAutoMusic
 execute as @a at @s run function att2:sound/music/battle/serile_intro
+#return 1->make command block runing
+return 1

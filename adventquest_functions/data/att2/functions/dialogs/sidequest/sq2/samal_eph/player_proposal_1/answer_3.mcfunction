@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Samal Eph : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"O que você quer dizer? Isso é uma ameaça? Acredito que você não percebe, no momento, eu não tenho mais nada a perder!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"你是什么意思？你在威胁我吗？你什么都不知道，我已经没有什么好失去的了！","color":"dark_aqua"}]}

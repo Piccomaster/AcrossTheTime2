@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° एलेक्जांद्�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"Socorro! Eles vão me matar!!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"救命！他们要杀了我！！ ","color":"dark_aqua"}]}

@@ -3,5 +3,6 @@
 #Obtain item leather_chestplate_35          #
 #####################################
 
-give @s minecraft:leather_chestplate{EquipmentType:"armor",Rarity:"unc",Manufacturer:"teran",Shop:"buy",Effect:"res_1",display:{Name:"\"§2Passe sueur\"","Lore":["{\"text\":\"§7En est gorgé...\"}","{\"text\":\"§7Is full of it....\"}","{\"text\":\"§7RES§c-1\"}"],color:15659731},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.12,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.67,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]} 1
+give @s minecraft:leather_chestplate[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'teran',Shop:'buy',RES:-1,Armor:'35'},custom_name={translate:'armor35.name'},lore=[{translate:'armor35.lore.1'},{translate:'armor35.lore.2'},{translate:'armor35.stat'}],max_damage=85,damage=0,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:3.12},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:0.67},{slot:'chest',type:'knockback_resistance',id:'armor.chestplate',operation:'add_value',amount:0.02}],dyed_color=15659731]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

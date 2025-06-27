@@ -3,6 +3,7 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:diamond_sword{EquipmentType:"meleeWeapon",Rarity:"epi_esc",Manufacturer:"delightful",Effect:"str1_spd1_luc1_hun_1",display:{Name:"\"§dSabre de lumière\"","Lore":["{\"text\":\"§7Puisse la lumière sacrée s'abattre inéluctablement\"}","{\"text\":\"§7sur les adorateurs des ténèbres.\"}","{\"text\":\"§7May the sacred light inevitably\"}","{\"text\":\"§7fall on the worshipers of darkness.\"}","{\"text\":\"§7STR§a1 §7SPD§a1 §7LUC§a1 §7HUN§c-1\"}"]},Damage:784,Enchantments:[{id:"minecraft:smite",lvl:6s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:18.67,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.6,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]} 1
+give @s minecraft:diamond_sword[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",STR:1,SPD:1,LUC:1,HUN:-1,Weapon:"171"},custom_name={translate:"weapon171.name"},lore=[{translate:"weapon171.lore.1"},{translate:"weapon171.lore.2"},{translate:"weapon171.stat"}],max_damage=1560,damage=784,enchantments={"smite":6},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:18.67},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.6}]]
+
 
 advancement grant @s only att2:treasure/sovereign/diamond_sword_171

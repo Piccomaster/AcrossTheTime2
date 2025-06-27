@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Aqui está, você sabe tudo agora! Eu vou deixar você agora. Ah, aliás, uma lenda nos conta que a escultura à nossa frente foi usada como um portal de teletransporte por nossos ancestrais. É por isso que se tornou o símbolo da cidade. De qualquer forma, se estiver interessado, eu recomendo fortemente que vá ver o mestre de Dahäl. Bem, tenho que voltar ao trabalho, boa sorte com o resto!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"好了，你大概都已经了解了！我得先走一步了。噢，提醒你一句：传说，在我们面前的这座门扉雕塑曾被先民用作传送门，也正是因为这个传说，它成为了这座城市的象征。不管怎样，如果你对它感兴趣的话，我建议你回去见见那位Dahäl大师。好啦，我得先回去工作了，祝你好运！ ","color":"dark_aqua"}]}

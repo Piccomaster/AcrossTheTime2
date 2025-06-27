@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sorvo Miron : ","color":"green",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"Eu tenho uma bebida muito especial, um elixir de vigor, bem, é assim que meus clientes mais fiéis a chamam. 2 Cronotons por copo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"我有一种非常特别的饮品，一种活力灵药，嗯，我最忠实的客户是这么评价的。2个Chronotons一杯！ ","color":"dark_aqua"}]}

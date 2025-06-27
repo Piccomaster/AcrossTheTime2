@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Tunique statique"},
-        "description": {"translate":"Elusive in its monotony."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_chestplate_225": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§2Tunique statique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Insaisissable dans sa monotonie.\\\"}\",\"{\\\"text\\\":\\\"§7Elusive in its monotony.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-2 §7HER§c-1\\\"}\"],color:4218913}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.chestplate_225"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.chestplate_225"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_chestplate_225": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "225"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

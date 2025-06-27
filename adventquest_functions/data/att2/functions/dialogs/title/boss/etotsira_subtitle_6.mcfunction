@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"ज्ञानी, नायक
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Sábio, esperança dos heróis","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"智者与勇者的希望","color":"gray"}

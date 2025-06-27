@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon zombie pigman class_19 region_2  		 #
+
 ##################################################
 
-summon minecraft:zombified_piglin ~ ~ ~ {Attributes:[{Name:generic.movement_speed,Base:0.22}],Tags:["LVL0","CLASS19","Reg2","Undead"],AngerTime:1000000,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:wooden_pickaxe",Count:1b},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:14,Patterns:[{Pattern:cbo,Color:1}]}}}],ArmorItems:[{id:"minecraft:golden_boots",Count:1},{id:"minecraft:leather_leggings",Count:1},{id:"minecraft:leather_chestplate",Count:1},{id:"minecraft:golden_helmet",Count:1}]}
+
+
+summon minecraft:zombified_piglin ~ ~ ~ {attributes:[{id:movement_speed,base:0.22}],Tags:["LVL0","CLASS19","Reg2","Undead"],AngerTime:1000000,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:wooden_pickaxe",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:red,banner_patterns:[{pattern:curly_border,color:orange}]}},feet:{id:"minecraft:golden_boots",count:1},legs:{id:"minecraft:leather_leggings",count:1},chest:{id:"minecraft:leather_chestplate",count:1},head:{id:"minecraft:golden_helmet",count:1}}}

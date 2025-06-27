@@ -3,5 +3,6 @@
 #Obtain item wooden_shovel_21          #
 #####################################
 
-give @s minecraft:wooden_shovel{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"teran",Shop:"buy",Effect:"has2_dar2_her_3",display:{Name:"\"§9Héda le père\"","Lore":["{\"text\":\"§7Tombé à la guerre.\"}","{\"text\":\"§7Fallen for war.\"}","{\"text\":\"§7HAS§a2 §7DAR§a2 §7HER§c-3\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.96,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.47,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]} 1
+give @s minecraft:wooden_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"teran",Shop:"buy",HAS:2,DAR:2,HER:-3,Weapon:"21"},custom_name={translate:"weapon21.name"},lore=[{translate:"weapon21.lore.1"},{translate:"weapon21.lore.2"},{translate:"weapon21.stat"}],max_damage=70,damage=0,enchantments={"unbreaking":2},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:3.96},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.47},{slot:"mainhand",type:"knockback_resistance",id:"knockback_resistance",operation:"add_value",amount:0.02}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

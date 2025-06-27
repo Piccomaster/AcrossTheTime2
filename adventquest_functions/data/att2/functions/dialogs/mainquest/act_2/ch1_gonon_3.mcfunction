@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Nós damos as boas-vindas a qualquer homem que haja: seja ele cidadão de Sylberlândia, pertença à civilização Jarat, ou seja apenas um viajante! Não queremos causar problemas!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"我们欢迎任何人—不论他是Sylberländ的王国公民，还是Jarat部落的一员，乃至于一位风尘仆仆的旅者！毕竟我们可不想招惹什么麻烦！ ","color":"dark_aqua"}]}

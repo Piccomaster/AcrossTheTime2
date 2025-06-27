@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की प्रसिद�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 4 -°- : ","color":"gray","extra":[{"text":"Para não mudar, eu precisarei encontrar outro item para J'zargo nesta caverna em Worlëst...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- J'zargo 的奇妙冒险 - 第 4 部分 -°- : ","color":"gray","extra":[{"text":"好吧，Worlest矿洞里似乎还藏着一件遗物。","color":"aqua","italic":true}]}

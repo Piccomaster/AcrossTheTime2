@@ -63,3 +63,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Korlaph : ","color":"green","ex
 
 
 tellraw @a {"text":"A.BRA.HA.DA.BRA","obfuscated":true,"color":"dark_red"}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"别担心亲爱的，我现在就在这儿！","color":"dark_red"}]}

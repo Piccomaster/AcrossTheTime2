@@ -64,5 +64,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"É uma horda de esqueletos! Se você tem um arco ou sabe como usar o Dahäl, vá até o topo das fortificações de dentro do muro!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 队长 : ","color":"green","extra":[{"text":"是一堆骷髅！如果您有弓或知道如何使用Dahäl，请从城墙中的通道移步至城墙顶部协助我们！","color":"dark_aqua"}]}
 
 function att2:voice/capitaine/capitaine3
+

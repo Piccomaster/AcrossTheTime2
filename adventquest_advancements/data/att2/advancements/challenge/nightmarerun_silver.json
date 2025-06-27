@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:clock"
+            "id": "minecraft:clock"
         },
-        "title": {"translate":"Race against death"},
-        "description": {"translate":"Complete a nightmare run before the allotted time of 25 minutes."},
+        "title": {"translate":"att2.advancement.challenge.title.nightmarerun_silver"},
+        "description": {"translate":"att2.advancement.challenge.description.nightmarerun_silver"},
         "frame": "goal"
     },
     "parent": "att2:challenge/nightmarerun_bronze",

@@ -4,3 +4,5 @@
 #####################################################
 
 tp @s 802 80 908
+#return 1->make command block runing
+return 1

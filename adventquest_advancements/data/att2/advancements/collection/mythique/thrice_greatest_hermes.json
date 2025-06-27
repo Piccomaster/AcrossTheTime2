@@ -1,22 +1,36 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_boots",
+            "id": "minecraft:netherite_boots",
             "nbt": "{CustomModelData:10000003}"
         },
-        "title": {"translate":"Thrice Greatest Hermes"},
-        "description": {"translate":"Find the Hermetic Boots Mythical set"},
+        "title": {
+            "translate": "att2.advancement.collection.mythique.title.thrice_greatest_hermes"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.mythique.description.thrice_greatest_hermes"
+        },
         "frame": "challenge",
-        "hidden":true
+        "hidden": true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_30",
+        "function": "att2:advancement/test_all/collection/thrice_greatest_hermes",
         "experience": 10000
-                },
+    },
     "criteria": {
         "thrice_greatest_hermes": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_boots"
+                        ],
+                        "nbt": "{EquipmentID:thricegreatesthermes}"
+                    }
+                ]
+            }
         }
     }
 }

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"De fato, o nome dela é Sélène, mas desde que sua mãe Tatiana morreu, ela adotou o apelido dela: 'Tina'. Sélène já não via muito sua mãe por causa do trabalho dela, então quando a perdeu aos 7 anos, ficou inconsolável. Ela decidiu seguir os passos da mãe a partir dos 13 anos. É preciso dizer que eu não estive à altura... Mas agora Sélène tem 17 anos e eu não quero perdê-la como perdi sua mãe. Ela é tudo o que me resta... Não me decepcione.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"实际上我女儿的名字是Sélène，但自从她的母亲Tatiana去世后，她开始用她母亲的名字：“Tina”。因为她的母亲忙于工作，Sélène年幼的时候很少见到她的母亲，当她仅仅7岁就失去了母亲的时候，Sélène她很难过。她从13岁就决定追随她母亲的脚步。不得不说，我是一个不称职的父亲...但是现在Sélène已经17岁了，我不想像失去她的母亲一样失去我的女儿。 她现在是我生命的全部...如果失去了她，我真的不知道该怎么办。","color":"dark_aqua"}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Nada mesmo... No entanto, posso guiá-lo um pouco. De fato, após algumas pesquisas, parece que esta emanação é o resultado de uma mistura preparada com o maior cuidado. Não sei o suficiente sobre essa arte, por isso aconselho você a procurar Basil Valentin, nosso alquimista. Ele está de volta a Ëarndhel, você pode encontrá-lo em seu laboratório em casa.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"我毫无头绪……不过，我或许能给你一些指引。事实上经过一些研究，这股放射物质似乎是由一种精心调配的混合物质产生的结果。我对这门技艺了解不多，所以我建议你去找我们的炼金术士Basil_Valentin。他已经回到Earndhel了，你可以在他家的炼金坊里找到他。","color":"dark_aqua"}]}

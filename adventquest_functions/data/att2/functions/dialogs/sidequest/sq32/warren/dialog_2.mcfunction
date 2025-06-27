@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Warren : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Então, você encontrou outra maneira de alcançar minha mercadoria perdida? Há outras cavernas indo para o norte.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"您有找到其他通往我的货车的路吗？在北边的火山尽头，还有一条路通往火山内部。","color":"dark_aqua"}]}

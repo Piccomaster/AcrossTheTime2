@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Billgart Panorama"},
-        "description": {"translate":"Discover the panorama of Billgart Dimension"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_bilgart"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_bilgart"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_bilgart",

@@ -16,24 +16,24 @@ execute if score 8_org_ave_hal_gal_ehl RUNE matches 1 run scoreboard players add
 execute if score 8_org_ave_hal_gal_ehl RUNE matches 1 if entity @p[scores={GAMELEVEL=35..}] run tag @s add active_words
 
 #FRENCH LANGUAGE
-execute if entity @p[scores={LANGUAGE=0}] run data merge entity @s {CustomName:"\"Évocation\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=0}] run data merge entity @s {CustomName:"Évocation",CustomNameVisible:1b}
 #ENGLISH LANGUAGE
-execute if entity @p[scores={LANGUAGE=1}] run data merge entity @s {CustomName:"\"Evocation\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=1}] run data merge entity @s {CustomName:"Evocation",CustomNameVisible:1b}
 #CHINESE LANGUAGE
-execute if entity @p[scores={LANGUAGE=2}] run data merge entity @s {CustomName:"\"共鸣\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=2}] run data merge entity @s {CustomName:"共鸣",CustomNameVisible:1b}
 #JAPANESE LANGUAGE
-execute if entity @p[scores={LANGUAGE=3}] run data merge entity @s {CustomName:"\"かんき\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=3}] run data merge entity @s {CustomName:"かんき",CustomNameVisible:1b}
 #KOREAN LANGUAGE
-execute if entity @p[scores={LANGUAGE=4}] run data merge entity @s {CustomName:"\"소환\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=4}] run data merge entity @s {CustomName:"소환",CustomNameVisible:1b}
 #ARABIC LANGUAGE
-execute if entity @p[scores={LANGUAGE=5}] run data merge entity @s {CustomName:"\"استحضار\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=5}] run data merge entity @s {CustomName:"استحضار",CustomNameVisible:1b}
 #RUSSIAN LANGUAGE
-execute if entity @p[scores={LANGUAGE=6}] run data merge entity @s {CustomName:"\"Вызов\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=6}] run data merge entity @s {CustomName:"Вызов",CustomNameVisible:1b}
 #SPANISH LANGUAGE
-execute if entity @p[scores={LANGUAGE=7}] run data merge entity @s {CustomName:"\"Evocación\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=7}] run data merge entity @s {CustomName:"Evocación",CustomNameVisible:1b}
 #GERMAN LANGUAGE
-execute if entity @p[scores={LANGUAGE=8}] run data merge entity @s {CustomName:"\"Beschwörung\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=8}] run data merge entity @s {CustomName:"Beschwörung",CustomNameVisible:1b}
 #HINDI LANGUAGE
-execute if entity @p[scores={LANGUAGE=9}] run data merge entity @s {CustomName:"\"आह्वान\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=9}] run data merge entity @s {CustomName:"आह्वान",CustomNameVisible:1b}
 #PORTUGUESE LANGUAGE
-execute if entity @p[scores={LANGUAGE=10}] run data merge entity @s {CustomName:"\"Evocação\"",CustomNameVisible:1b}
+execute if entity @p[scores={LANGUAGE=10}] run data merge entity @s {CustomName:"Evocação",CustomNameVisible:1b}

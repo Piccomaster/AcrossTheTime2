@@ -21,3 +21,5 @@ execute if score Real0 TIMER matches 251 in minecraft:the_nether run tp @a 3525 
 
 execute if score Real0 TIMER matches 251.. run setblock 1539 6 1495 minecraft:air
 execute if score Real0 TIMER matches ..250 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

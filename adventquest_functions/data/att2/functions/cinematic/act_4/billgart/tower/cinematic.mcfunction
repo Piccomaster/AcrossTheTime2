@@ -26,3 +26,5 @@ execute if score End0 TIMER matches 300 as @a[gamemode=spectator] run function a
 
 execute if score End0 TIMER matches 301.. run function att2:cinematic/act_4/billgart/tower/end
 execute if score End0 TIMER matches ..300 run function att2:cinematic/end0_iteration
+#return 1->make command block runing
+return 1

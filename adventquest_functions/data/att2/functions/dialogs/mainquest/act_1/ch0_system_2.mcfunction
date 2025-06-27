@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"प्रकाश में कदम 
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"Dê um passo na luz...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"踏入光芒...","color":"gray","italic":true}

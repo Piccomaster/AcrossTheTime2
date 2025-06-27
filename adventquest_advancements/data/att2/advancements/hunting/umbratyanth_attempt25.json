@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:black_dye"
+            "id": "minecraft:black_dye"
         },
-        "title": {"translate":"Just one more time..."},
-        "description": {"translate":"Start a fight against Umbra'Tyanth for the 25th time."},
+        "title": {"translate":"att2.advancement.hunting.title.umbratyanth_attempt25"},
+        "description": {"translate":"att2.advancement.hunting.description.umbratyanth_attempt25"},
         "frame": "challenge",
         "hidden": false
     },

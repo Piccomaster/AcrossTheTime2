@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Wirth me aconselhou a ir para Méleïm e falar com Indra Lorth para descobrir a localização de uma segunda gema espacial. É uma pequena cidade ao lado de um grande penhasco a leste da região. Devo seguir as placas na estrada.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"为了找到第二块空间宝石的藏身之处，Wirth建议我去小镇Méleïm和Indra_Lorth聊聊——那座小镇位于这片领地的东部，凭依着一座巨大的临海悬崖。按Wirth所说，我只要沿着路牌前进就行—只要不迷路，那什么都好说。","color":"aqua"}]}

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Chant du vent"},
-        "description": {"translate":"It is not a musical instrument, and yet, I like to hear it."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_ouranos/bow_214",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "bow_215": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§9Chant du vent\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ce n'est pas un instrument de musique,\\\"}\",\"{\\\"text\\\":\\\"§7et pourant, qu'il me plait de l'entendre.\\\"}\",\"{\\\"text\\\":\\\"§7It is not a musical instrument,\\\"}\",\"{\\\"text\\\":\\\"§7and yet, I like to hear it.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7DAR§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.bow_215"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.bow_215"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/bow_214",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "bow_215": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "215"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

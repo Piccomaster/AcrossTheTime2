@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° ल्यूकस : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Desculpe, mas não posso te dar um. Posso fazer novos para você, mas o vento terá tempo de mudar mil vezes de direção antes que minha tarefa termine.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"抱歉，但我已无余裕。我只能给你做新的，但在我制作完成之前，风的方向可能已经转变了上千次。","color":"dark_aqua"}]}

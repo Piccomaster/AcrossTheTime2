@@ -50,3 +50,6 @@ title @a[scores={LANGUAGE=9}] title {"text":"_.-*° ","color":"dark_red","extra"
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] title {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Algum tempo","color":"gray","underlined":true},{"text":" | ","color":"dark_red","bold":true},{"text":"mais tarde,","color":"gray","underlined":true},{"text":" °*-._","color":"dark_red"}]}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] title {"text":"_.-*° ","color":"dark_red","extra":[{"text":"过了","color":"gray","underlined":true},{"text":" | ","color":"dark_red","bold":true},{"text":"不久","color":"gray","underlined":true},{"text":" °*-._","color":"dark_red"}]}

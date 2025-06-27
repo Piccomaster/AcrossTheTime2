@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_leggings"
-        },
-        "title": {"translate":"Prélude à la fausse aurore"},
-        "description": {"translate":"Exhausted by the torment, and yet in front of a terrible fate, deprived of rest."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
     },
-    "parent": "att2:collection/armor_netherite/leggings_286",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_leggings_291": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Prélude à la fausse aurore\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Exténuée par le supplice, et pourtant au devant\\\"}\",\"{\\\"text\\\":\\\"§7d'un destin effroyable, amputée de repos.\\\"}\",\"{\\\"text\\\":\\\"§7Exhausted by the torment, and yet in front\\\"}\",\"{\\\"text\\\":\\\"§7of a terrible fate, deprived of rest.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.leggings_291"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.leggings_291"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/leggings_286",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_leggings_291": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "291"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

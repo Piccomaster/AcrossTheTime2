@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:turtle_helmet"
+            "id": "minecraft:turtle_helmet"
         },
-        "title": {"translate":"Shielding"},
-        "description": {"translate":"Become resistant"}
+        "title": {"translate":"att2.advancement.combat.title.res_2"},
+        "description": {"translate":"att2.advancement.combat.description.res_2"}
     },
     "parent": "att2:combat/root",
     "rewards": {

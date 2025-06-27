@@ -3,8 +3,8 @@
 #Spectral Axe lvl5												#
 #################################################################
 
-clear @s minecraft:diamond_axe{EquipmentID:"spectralaxe"}
-give @s minecraft:diamond_axe{EquipmentType:"meleeWeapon",EquipmentID:"spectralaxe",Manufacturer:"delightful",Unbreakable:1,display:{Name:"\"§9Hache spectrale\"","Lore":["{\"text\":\"§7Renforce la volonté de ton maître\"}","{\"text\":\"§7pour 60 secondes.\"}","{\"text\":\"§7Strengthen your master's will\"}","{\"text\":\"§7for 60 seconds."]},CustomModelData:1000000,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:20.00,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.86,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+clear @s minecraft:diamond_axe[custom_name={translate:"att2.spell.spectralaxe.name"}]
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",SPECTRALAXE:5,EquipmentID:"spectralaxe"},custom_name={translate:"att2.spell.spectralaxe.name"},lore=[{translate:"att2.spell.spectralaxe.lore.1"},{translate:"att2.spell.spectralaxe.lore.2"}],max_damage=777,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:25},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.72}],custom_model_data={floats:[1000000]},unbreakable={}]
 
 scoreboard players remove @s DAHAL 120
 function att2:gameplay/dahal/action/spell27/cooldown
@@ -14,4 +14,4 @@ scoreboard players operation @s SPELL27_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
-scoreboard players set @s SPELL27_EFFECT 900
+scoreboard players reset @s SPELL27_EFFECT

@@ -56,3 +56,6 @@ tellraw @s {"text":"~ ","color":"dark_red","extra":[{"score":{"name":"level","ob
 
 
 function att2:gameplay/shop/smith_leveling/black_lvl_data
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"铁匠等级：","color":"gold"}

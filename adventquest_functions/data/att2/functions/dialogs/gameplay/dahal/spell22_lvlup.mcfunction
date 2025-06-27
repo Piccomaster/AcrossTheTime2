@@ -46,3 +46,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"‘Obstinacy Pet’ के लिए �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para o Familiar de Obstinação!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“魔力之友”已升级！","color":"gold"}

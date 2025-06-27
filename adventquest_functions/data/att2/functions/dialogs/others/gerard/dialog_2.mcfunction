@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gerard : ","color":"green","extr
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"O que mais você quer? Fui muito legal em deixar você entrar na minha casa, mas não abuse da hospitalidade. Parece-me que você é um viajante, certo? Então vá viajar para outro lugar por favor...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"还想要什么别的吗？我虽然不介意你进我家，但也请不要得寸进尺。你看起来像个旅行者，对吗？那请到别的地方去旅行吧...","color":"dark_aqua"}]}

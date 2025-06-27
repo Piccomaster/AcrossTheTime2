@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:crossbow",
+            "id": "minecraft:crossbow",
             "nbt": "{CustomModelData:10000100}"
         },
-        "title": {"translate":"Interfacer"},
-        "description": {"translate":"Hold the mythical weapon INTERFACER"},
+        "title": {"translate": "att2.advancement.collection.mythique.title.interfacer"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.interfacer"},
         "frame": "challenge",
         "hidden":true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_15",
+        "function": "att2:advancement/test_all/collection/interfacer",
         "experience": 5000
                 },
     "criteria": {

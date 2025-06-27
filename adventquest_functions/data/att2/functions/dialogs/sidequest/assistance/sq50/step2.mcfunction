@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- बिल्ली पकड़ो
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Pegue o gato -°- : ","color":"gray","extra":[{"text":"Encontrei o gato de Cassandre. Vamos levá-lo para casa.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 抓猫 -°- : ","color":"gray","extra":[{"text":"找到Cassandre的猫猫了，把它带回去吧。","color":"aqua","italic":true}]}

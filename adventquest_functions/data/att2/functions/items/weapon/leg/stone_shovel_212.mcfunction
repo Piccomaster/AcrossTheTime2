@@ -3,5 +3,7 @@
 #Obtain item stone_shovel_212          #
 #####################################
 
-give @s minecraft:stone_shovel{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"graceful",Shop:"buy",Effect:"str2_dar3",display:{Name:"\"§6Nuage des cités endormies\"","Lore":["{\"text\":\"§7Et ne me rappelez pas la maison\"}","{\"text\":\"§7ou je pourrais réaliser où je suis.\"}","{\"text\":\"§7And don't remind me of home or\"}","{\"text\":\"§7I might notice where I am.\"}","{\"text\":\"§7STR§a2 §7DAR§a3\"}"]},Damage:0,Enchantments:[{id:"minecraft:smite",lvl:5s},{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:7.51,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:0,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]} 1
+give @s minecraft:stone_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"graceful",Shop:"buy",STR:2,DAR:3,Weapon:"212"},custom_name={translate:"weapon212.name"},lore=[{translate:"weapon212.lore.1"},{translate:"weapon212.lore.2"},{translate:"weapon212.stat"}],max_damage=140,damage=0,enchantments={"smite":5,"unbreaking":4},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:7.51},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:0},{slot:"mainhand",type:"max_health",id:"max_health",operation:"add_value",amount:2}
+]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

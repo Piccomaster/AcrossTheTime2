@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- कभी कुछ पीछे �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Nunca deixe nada para trás -°- : ","color":"gray","extra":[{"text":"Finalmente consegui as mercadorias do Warren. Só preciso levar tudo de volta...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 永远不要留下任何东西 -°- : ","color":"gray","extra":[{"text":"成功取回Warren的货物了，赶紧将它们带出去吧！","color":"aqua","italic":true}]}

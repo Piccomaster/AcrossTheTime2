@@ -3,4 +3,4 @@
 #Obtain item potion_24          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"epi",Shop:"buy",Effect:"str3_has4_spd_2_her_1",display:{Name:"\"§5Berserk\"","Lore":["{\"text\":\"§7Une folie passagère,\"}","{\"text\":\"§7pour une furie vengeresse.\"}","{\"text\":\"§7A passing madness,\"}","{\"text\":\"§7for a vengeful fury.\"}","{\"text\":\"§7STR§a3 §7HAS§a4 §7SPD§c-2 §7HER§c-1\"}"]},CustomPotionColor:14438144} 1
+give @s minecraft:potion[custom_data={STR:3,HAS:4,SPD:-2,HER:-1,EquipmentType:"potion",Rarity:"epi",Shop:"buy",Potion:'24'},custom_name={translate:'potion24.name'},lore=[{translate:'potion24.lore.1'},{translate:'potion24.lore.2'},{translate:'potion24.stat'}],max_stack_size=16,potion_contents={custom_color:14438144}] 1

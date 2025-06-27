@@ -3,4 +3,4 @@
 #Obtain cooked_mutton_0         				 #
 ##################################################
 
-give @s minecraft:cooked_mutton{EquipmentType:"misc",Rarity:"misc"}
+give @s minecraft:cooked_mutton[custom_data={EquipmentType:'food',Rarity:'misc'}]

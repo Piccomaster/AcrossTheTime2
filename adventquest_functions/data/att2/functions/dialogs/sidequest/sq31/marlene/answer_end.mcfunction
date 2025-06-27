@@ -94,3 +94,8 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","e
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sim. Um bando de lobos é a causa desse contratempo, mas isso já é coisa do passado. Ele me pediu para transportar isso, e o resto não deve demorar mais.","color":"aqua"}]}
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Ótimo! Como eu sempre digo, não há motivo para se preocupar!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"这些是补给吗？是那个孩子运来的一部分，对吧？他没出什么意外吧？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"对。狼群引发了一场事故，不过都过去了，索性人没事，他让我把这些补给带回来，剩下那些补给他应该很快就能送过来。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"太好了！我就说过没什么好担心的！","color":"dark_aqua"}]}

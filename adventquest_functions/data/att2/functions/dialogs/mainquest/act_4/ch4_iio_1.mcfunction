@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Iio : ","color":"yellow","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"Vamos, vamos... Acalme-se, meu pequeno Aoran...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"乖，乖，冷静下来，我的小Aoran...","color":"dark_aqua"}]}

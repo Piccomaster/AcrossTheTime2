@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gaëlle : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"Bem-vindo ao banco Méleïm, você pode depositar e retirar seu Chronoton com segurança, aqui e em todos os nossos bancos pela região. Clique nos sinais para proceder com as transferências.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"欢迎光临Méleïm银行，您可在此存入或取出Chronoton—存款金额全大陆银行共通，无丢失风险。点击告示牌进行存取操作。","color":"dark_aqua"}]}

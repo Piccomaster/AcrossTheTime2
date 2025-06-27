@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Com licença, mestre, mas encontramos esta pessoa perto da ponte em direção a Ocar. Ele diz que veio de outro reino, e nós, Sérile e eu, pudemos observar o portal interdimensional. Além disso, ele diz estar procurando alguém....","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"抱歉，将军，我们在通往Ocar的桥附近发现了这名可疑人物。他声称自己来自另一个王国—而我和Sérile也能在他附近看到跨维度的传送门。除此之外，他还说，他在寻找某个人.... ","color":"dark_aqua"}]}

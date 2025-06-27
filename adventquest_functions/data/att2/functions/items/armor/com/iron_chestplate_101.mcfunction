@@ -3,5 +3,6 @@
 #Obtain item iron_chestplate_101          #
 #####################################
 
-give @s minecraft:iron_chestplate{EquipmentType:"armor",Rarity:"com",Manufacturer:"traditional",Shop:"buy",Effect:"str_1",display:{Name:"\"§7Chef-d'œuvre d'Arnaud\"","Lore":["{\"text\":\"§7Il sera un grand forgeron !\"}","{\"text\":\"§7He'll be a great blacksmith!\"}","{\"text\":\"§7STR§c-1\"}"]},Damage:145,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.04,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]} 1
+give @s minecraft:iron_chestplate[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'traditional',Shop:'buy',STR:-1,Armor:'101'},custom_name={translate:'armor101.name'},lore=[{translate:'armor101.lore.1'},{translate:'armor101.lore.2'},{translate:'armor101.stat'}],max_damage=245,damage=145,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:2.04},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:0}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

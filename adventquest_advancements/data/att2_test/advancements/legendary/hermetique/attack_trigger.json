@@ -1,0 +1,28 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/hermetique/attack_trigger"
+  },
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "reference",
+            "name": "att2_pre:legendary/hermetique/all"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -3,6 +3,6 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:diamond_axe{EquipmentType:"meleeWeapon",Rarity:"epi_esc",Manufacturer:"delightful",Effect:"str2_spd2_dar_2",display:{Name:"\"§dFureur cosmique\"","Lore":["{\"text\":\"§7Des profondeurs de l'univers primordial,\"}","{\"text\":\"§7bouillonne le courroux des anciens.\"}","{\"text\":\"§7From the depths of the primordial universe,\"}","{\"text\":\"§7the wrath of the ancients is boiling.\"}","{\"text\":\"§7STR§a2 §7SPD§a2 §7DAR§c-2\"}"]},Damage:784,Enchantments:[{id:"minecraft:fire_aspect",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:26.6,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.6799999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",STR:2,SPD:2,DAR:-2,Weapon:"168"},custom_name={translate:"weapon168.name"},lore=[{translate:"weapon168.lore.1"},{translate:"weapon168.lore.2"},{translate:"weapon168.stat"}],max_damage=1560,damage=784,enchantments={"fire_aspect":3},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:26.6},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.68}]]
 
 advancement grant @s only att2:treasure/sovereign/diamond_axe_168

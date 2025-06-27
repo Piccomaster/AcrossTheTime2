@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_axe"
+            "id": "minecraft:iron_axe"
         },
-        "title": {"translate":"Iron axe combo"},
-        "description": {"translate":"Strike 600 times with an iron axe"},
+        "title": {"translate": "att2.advancement.weapons.title.iron_axe_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.iron_axe_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/iron_axe_250",

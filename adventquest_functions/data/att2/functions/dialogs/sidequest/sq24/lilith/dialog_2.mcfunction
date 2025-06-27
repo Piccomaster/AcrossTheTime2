@@ -54,3 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lilith : ","color":"green","ext
 
 function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"打扰一下，你可以帮助我吗？这里人太少了，我现在很虚弱，没办法一个人把这些货物都带回家，我不能把这些东西丢在这里不管...","color":"dark_aqua"}]}

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Black forest Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Black forest"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_black_forest"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_black_forest"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_black_forest",

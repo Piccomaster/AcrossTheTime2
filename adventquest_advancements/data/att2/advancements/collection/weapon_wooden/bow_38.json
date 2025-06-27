@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow"
-        },
-        "title": {"translate":"Arc de Bâtilen"},
-        "description": {"translate":"Keep your enemies in the distance."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
     },
-    "parent": "att2:collection/weapon_wooden/bow_37",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "bow_38": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§2Arc de Bâtilen\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Garde au loin\\\"}\",\"{\\\"text\\\":\\\"§7tes ennemis.\\\"}\",\"{\\\"text\\\":\\\"§7Keep your enemies\\\"}\",\"{\\\"text\\\":\\\"§7in the distance.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.bow_38"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.bow_38"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_wooden/bow_37",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "bow_38": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "38"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_hoe"
-        },
-        "title": {"translate":"Écharde"},
-        "description": {"translate":"Toddler hurdle."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe"
     },
-    "parent": "att2:collection/weapon_angband/hoe_318",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_hoe_319": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§7Écharde\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bobo de bambin.\\\"}\",\"{\\\"text\\\":\\\"§7Toddler hurdle.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.hoe_319"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.hoe_319"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/hoe_318",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_hoe_319": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "319"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

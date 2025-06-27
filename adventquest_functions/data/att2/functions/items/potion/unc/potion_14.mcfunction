@@ -3,4 +3,4 @@
 #Obtain item potion_14          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"has2_spd2_str_3",display:{Name:"\"§2Falcon\"","Lore":["{\"text\":\"§7Le prédateur aux aguets est toujours\"}","{\"text\":\"§7prêt à s'abattre sur son ennemi.\"}","{\"text\":\"§7The predator on the lookout\"}","{\"text\":\"§7is always ready to fall on his enemy.\"}","{\"text\":\"§7HAS§a2 §7SPD§a2 §7STR§c-3\"}"]},CustomPotionColor:9879515,custom_potion_effects:[{id:night_vision,amplifier:0,duration:6000,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={HAS:2,SPD:2,STR:-3,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'14'},custom_name={translate:'potion14.name'},lore=[{translate:'potion14.lore.1'},{translate:'potion14.lore.2'},{translate:'potion14.stat'}],max_stack_size=16,potion_contents={custom_color:9879515,custom_effects:[{amplifier:0,duration:6000,id:'night_vision',show_particles:0b}]}] 1

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:beacon"
+            "id": "minecraft:beacon"
         },
-        "title": {"translate":"Teleportation !"},
-        "description": {"translate":"Use a waypoint 5 times."},
+        "title": {"translate":"att2.advancement.progress.title.waypoint_5"},
+        "description": {"translate":"att2.advancement.progress.description.waypoint_5"},
         "frame": "goal"
     },
     "parent": "att2:progress/waypoint_1",

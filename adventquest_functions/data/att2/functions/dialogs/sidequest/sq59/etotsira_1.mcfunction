@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Anomalia? Sim, estou ciente. Sua aparição está correlacionada com a abertura do portal espacial que você abriu para se juntar ao seu tempo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"异常？我的确知道。它的出现与你为了穿越时空而打开的空间传送门有关。","color":"dark_aqua"}]}

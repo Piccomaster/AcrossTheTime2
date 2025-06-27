@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
-        "title": {"translate":"Black Forest"},
-        "description": {"translate":"Discover Black forest"}
+        "title": {"translate":"att2.advancement.journey.title.discover_black_forest"},
+        "description": {"translate":"att2.advancement.journey.description.discover_black_forest"}
     },
     "parent": "att2:journey/discover_soquai",
     "rewards": {

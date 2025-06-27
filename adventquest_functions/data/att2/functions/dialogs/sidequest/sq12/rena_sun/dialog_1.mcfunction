@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rena Sun : ","color":"green","e
 function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"你好，你来得正好！我需要有人帮忙...请帮我打开我房间里通向旁边庙宇的门。那里很少有人参观，而且只有我一个人负责打理。","color":"dark_aqua"}]}

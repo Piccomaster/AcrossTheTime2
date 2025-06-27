@@ -20,4 +20,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a","color":"gray","extra":[{"text"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a","color":"gray","extra":[{"text":" : "},{"text":"真是懷念啊……不過我沒時間再去探索這個熟悉得不能再熟悉的領地了！","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a","color":"gray","extra":[{"text":" : "},{"text":"真是怀念啊……不过我没时间再去探索这个熟悉的不能再熟悉的区域了!","color":"aqua"}]}

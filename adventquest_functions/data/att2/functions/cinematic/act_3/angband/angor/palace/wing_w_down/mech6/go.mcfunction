@@ -96,3 +96,5 @@ execute if score Neth1 TIMER matches 1 if score wingwd_mech6 ANGOR matches 10..4
 execute if score Neth1 TIMER matches 1 if score wingwd_mech6 ANGOR matches 10..40 positioned 3454 37 4546 run function att2:sound/door/large_trap1
 
 execute if score wingwd_mech6 ANGOR matches 10..40 if score Neth1 TIMER matches 0.. run scoreboard players remove Neth1 TIMER 1
+#return 1->make command block runing
+return 1

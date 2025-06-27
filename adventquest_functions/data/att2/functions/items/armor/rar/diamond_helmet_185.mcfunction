@@ -3,5 +3,6 @@
 #Obtain item diamond_helmet_185          #
 #####################################
 
-give @s minecraft:diamond_helmet{EquipmentType:"armor",Rarity:"rar",Manufacturer:"delightful",Shop:"buy",Effect:"str1_spd_1",display:{Name:"\"§9L'improbable\"","Lore":["{\"text\":\"§7Il ne suffit pas d'y croire,\"}","{\"text\":\"§7pour que ça se produise.\"}","{\"text\":\"§7You don't just have to believe in it\"}","{\"text\":\"§7to make it happen.\"}","{\"text\":\"§7STR§a1 §7SPD§c-1\"}"]},Damage:230,Enchantments:[{id:"minecraft:blast_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.4,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.53,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:diamond_helmet[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'delightful',Shop:'buy',STR:1,SPD:-1,Armor:'185'},custom_name={translate:'armor185.name'},lore=[{translate:'armor185.lore.1'},{translate:'armor185.lore.2'},{translate:'armor185.stat'}],max_damage=360,damage=230,enchantments={'blast_protection':1},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:2.4},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.53}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

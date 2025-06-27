@@ -17,3 +17,5 @@ execute if score Real1 TIMER matches 300 as @a[gamemode=spectator] run function 
 
 execute if score Real1 TIMER matches 301.. run scoreboard players set Arena KORTAEK 3
 execute if score Real1 TIMER matches ..300 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Todo esse dinheiro? Você tem certeza? Não sei como te agradecer... Isso aliviará muitas dívidas. Sabe, com esses Chronotons eu até poderei comprar a casa dos meus pais. Você sempre será bem-vindo.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"这么多钱？你确定吗？我不知道该怎么感谢你...这样会减轻我很多的债务。你知道吗，有了这些Chronotons，我甚至能买下我父母留下的房子。我随时欢迎你。","color":"dark_aqua"}]}

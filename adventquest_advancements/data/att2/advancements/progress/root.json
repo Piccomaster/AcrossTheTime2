@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lantern"
+            "id": "minecraft:lantern"
         },
-        "title": {"translate":"Progress"},
-        "description": {"translate":"First Step"},
-        "background": "minecraft:textures/block/lime_concrete.png",
+        "title": {"translate":"att2.advancement.progress.title.root"},
+        "description": {"translate":"att2.advancement.progress.description.root"},
+        "background": "minecraft:block/lime_concrete",
         "show_toast": false
     },
     "criteria": {

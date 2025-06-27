@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Siga em frente, eu te encontrarei lá, *em voz baixa* se o meu dia estiver radiante, se eu encontrar uma arma laranja e se eu de repente sentir vontade de ser tratado como uma porcaria.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"去吧去吧，我会在那里找到你的，*低声说*就当我现在过得很好，没准我还会找到橙色武器，说不定我还会很怀念被当成狗屎一样对待的感觉。","color":"aqua"}]}

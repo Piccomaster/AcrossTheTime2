@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bread"
+            "id": "minecraft:bread"
         },
-        "title": {"translate":"Panem"},
-        "description": {"translate":"Eat bread"}
+        "title": {"translate":"att2.advancement.food.title.bread_1"},
+        "description": {"translate":"att2.advancement.food.description.bread_1"}
     },
     "parent": "att2:food/root",
     "rewards": {

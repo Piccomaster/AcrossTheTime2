@@ -38,11 +38,11 @@ execute if score Neth0 TIMER matches 1650 run function att2:dialogs/mainquest/ac
 execute if score Neth0 TIMER matches 1650 run function att2:voice/relgon/relgon40
 execute if score Neth0 TIMER matches 1740..1780 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity 00000000-0000-001a-0000-00000000001a feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 1740..1780 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing entity 00000000-0000-007a-0000-00000000007a feet run teleport @s ^ ^ ^0.03 ~ ~
-execute if score Neth0 TIMER matches 1750 as 00000000-0000-001a-0000-00000000001a run data merge entity @s {HandItems:[{id:"minecraft:golden_sword",Count:1b},{id:"minecraft:golden_sword",Count:1b}]}
+execute if score Neth0 TIMER matches 1750 as 00000000-0000-001a-0000-00000000001a run data merge entity @s {equipment:{mainhand:{id:"minecraft:golden_sword",count:1b},offhand:{id:"minecraft:golden_sword",count:1b}}}
 execute if score Neth0 TIMER matches 1750 in minecraft:the_nether positioned 3482 62 3763 run function att2:sound/misc/sword_unsheathe
 execute if score Neth0 TIMER matches 1830 run function att2:dialogs/mainquest/act_3/ch4_serile_7
 execute if score Neth0 TIMER matches 1830 run function att2:voice/serile/serile42
-execute if score Neth0 TIMER matches 1880 as 00000000-0000-001a-0000-00000000001a run data merge entity @s {HandItems:[{},{}]}
+execute if score Neth0 TIMER matches 1880 as 00000000-0000-001a-0000-00000000001a run data merge entity @s {equipment:{mainhand:{},offhand:{}}}
 execute if score Neth0 TIMER matches 1880 run function att2:cinematic/tp_effect/serile
 execute if score Neth0 TIMER matches 1880 in minecraft:the_nether as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~-30 ~
 execute if score Neth0 TIMER matches 1900 run kill 00000000-0000-001a-0000-00000000001a

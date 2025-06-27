@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"एंगबैंड के आ
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] subtitle {"text":"na dimensão de Angband...","color":"dark_red"}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] subtitle {"text":"Angband所在的维度中...","color":"dark_red"}

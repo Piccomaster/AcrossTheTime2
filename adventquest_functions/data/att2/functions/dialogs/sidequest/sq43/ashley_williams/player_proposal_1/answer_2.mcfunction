@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ashley Williams : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"Eu nunca quis que isso acontecesse. Estou bravo comigo mesmo. Não me machuque... Eu vou me redimir, prometo!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"我从未想过会发生这样的事。我对我的所作所为很后悔。请不要伤害我...我会补偿的你们的，我发誓！","color":"dark_aqua"}]}

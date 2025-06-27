@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"O caminho ainda está bloqueado por uma espécie de portão de energia. Há esses tipos de aros levitando no caminho, talvez ao entrar neles eu ative a abertura da porta.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"路径依然被某种能量门挡住了。路上有这样的铁环悬浮着，说不定依次穿过它们就能打开门了。","color":"aqua"}]}

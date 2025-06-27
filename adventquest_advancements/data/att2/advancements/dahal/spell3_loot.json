@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:writable_book"
+            "id": "minecraft:writable_book"
         },
-        "title": {"translate":"Inferno"},
-        "description": {"translate":"Find Inferno spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell3_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell3_loot"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

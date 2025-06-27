@@ -3,5 +3,6 @@
 #Obtain item chainmail_boots_88          #
 #####################################
 
-give @s minecraft:chainmail_boots{EquipmentType:"armor",Rarity:"rar",Manufacturer:"graceful",Shop:"buy",Effect:"has2_luc1_str_1",display:{Name:"\"§9Bottes d'élite\"","Lore":["{\"text\":\"§7Allèrent, vont et iront encore.\"}","{\"text\":\"§7Go, go, go and go again.\"}","{\"text\":\"§7HAS§a2 §7LUC§a1 §7STR§c-1\"}"]},Damage:50,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.32,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.68,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]} 1
+give @s minecraft:chainmail_boots[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'graceful',Shop:'buy',HAS:2,LUC:1,STR:-1,Armor:'88'},custom_name={translate:'armor88.name'},lore=[{translate:'armor88.lore.1'},{translate:'armor88.lore.2'},{translate:'armor88.stat'}],max_damage=190,damage=50,attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:1.32},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.68},{slot:'feet',type:'max_health',id:'armor.boots',operation:'add_value',amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

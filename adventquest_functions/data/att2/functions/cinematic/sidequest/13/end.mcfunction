@@ -23,3 +23,5 @@ execute if score choice SQ13 matches 1 run scoreboard players add @a CHRONOTON 1
 execute if score choice SQ13 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+100 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq13
+#return 1->make command block runing
+return 1

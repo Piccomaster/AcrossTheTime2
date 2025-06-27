@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Agora que meu arco voltou para mim, retornarei ao meu próprio mundo. Que a sorte esteja com você, viajante.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"现在我找回了我的弓，我将回到我自己的世界。愿你旅途顺利，旅行者。","color":"dark_aqua"}]}

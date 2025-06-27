@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_hoe"
-        },
-        "title": {"translate":"Burin aiguisé"},
-        "description": {"translate":"It becomes a personal matter."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
     },
-    "parent": "att2:collection/weapon_diamond/hoe_273",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_hoe_274": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Burin aiguisé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En devient une affaire personnelle.\\\"}\",\"{\\\"text\\\":\\\"§7It becomes a personal matter.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7DAR§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.hoe_274"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.hoe_274"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/hoe_273",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_hoe_274": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "274"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

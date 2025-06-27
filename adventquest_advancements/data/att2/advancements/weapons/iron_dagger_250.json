@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_shovel"
+            "id": "minecraft:iron_shovel"
         },
-        "title": {"translate":"Iron dagger hit"},
-        "description": {"translate":"Strike 250 times with an iron dagger"},
+        "title": {"translate": "att2.advancement.weapons.title.iron_dagger_250"},
+        "description": {"translate": "att2.advancement.weapons.description.iron_dagger_250"},
         "frame": "goal"
     },
     "parent": "att2:weapons/iron_dagger_50",

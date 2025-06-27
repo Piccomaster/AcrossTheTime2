@@ -49,3 +49,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"स्वर्ण स्कोर","co
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"PONTUAÇÃO DE OURO","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"金牌时间","color":"gold"}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Sinto que isso vai me custar todas as minhas economias... Bem, já tenho uma chance com você por perto! Ninguém quis me ajudar de qualquer forma. Vá explorar a região de Sylberländ e eu lhe darei 100 Chronotons por cada amostra que você trouxer de volta.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"我觉得这样会花光我所有的积蓄...好吧，我已经有机会得到你的帮助了！反正没人愿意帮我。你去探索Sylberländ大陆的每个地图，每带回一个石阵样本，我就会给你100个Chronorons。","color":"dark_aqua"}]}

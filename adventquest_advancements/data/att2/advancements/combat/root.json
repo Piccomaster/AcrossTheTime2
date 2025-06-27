@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "id": "minecraft:shield"
         },
-        "title": {"translate":"Fight"},
-        "description": {"translate":"Your first weapon"},
-        "background": "minecraft:textures/block/bone_block_top.png",
+        "title": {"translate":"att2.advancement.combat.title.root"},
+        "description": {"translate":"att2.advancement.combat.description.root"},
+        "background": "minecraft:block/bone_block_top",
         "show_toast": false,
         "announce_to_chat": false
     },

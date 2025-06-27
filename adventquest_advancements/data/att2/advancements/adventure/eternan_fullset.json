@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_hoe"
+            "id": "minecraft:golden_hoe"
         },
-        "title": {"translate":"The soldat Eternän full set"},
-        "description": {"translate":"Complete the epic set of the soldat Eternän"},
+        "title": {"translate":"att2.advancement.adventure.title.eternan_fullset"},
+        "description": {"translate":"att2.advancement.adventure.description.eternan_fullset"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/epi_full_set",

@@ -11,3 +11,5 @@ execute if score wingeu_mech2 ANGOR matches 3 unless entity @e[x=3553,y=93,z=458
 execute if score wingeu_mech2 ANGOR matches 4 unless entity @e[x=3553,y=93,z=4585,distance=..7,type=minecraft:ghast] run function att2:physicmod/reg2/angor_palace/wing_eu/mech2_door2
 execute if score wingeu_mech2 ANGOR matches 4 unless entity @e[x=3553,y=93,z=4585,distance=..7,type=minecraft:ghast] run function att2:cinematic/act_3/angband/angor/palace/wing_e_up/mech2/step
 execute if score wingeu_mech2 ANGOR matches 5 unless entity @e[x=3553,y=93,z=4585,distance=..7,type=minecraft:ghast] run function att2:cinematic/act_3/angband/angor/palace/wing_e_up/mech2/step
+#return 1->make command block runing
+return 1

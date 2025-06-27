@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
-        "title": {"translate":"Mangrove"},
-        "description": {"translate":"Discover Mangrove Forest"}
+        "title": {"translate":"att2.advancement.journey.title.discover_mangrove"},
+        "description": {"translate":"att2.advancement.journey.description.discover_mangrove"}
     },
     "parent": "att2:journey/discover_beach",
     "rewards": {

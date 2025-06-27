@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[ज़रूरत में एक �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Uma cidade em necessidade]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[一座需要帮助的城市]","color":"gold"}

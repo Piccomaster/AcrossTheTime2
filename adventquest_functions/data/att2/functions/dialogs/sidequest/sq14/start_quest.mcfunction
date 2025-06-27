@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[लाभ का कुंजी]","co
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[A chave para a lucratividade]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[获利之钥]","color":"gold"}

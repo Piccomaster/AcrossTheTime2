@@ -3,4 +3,4 @@
 #Obtain item potion_12          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"str2_has2_luc_2",display:{Name:"\"§2Adrénaline\"","Lore":["{\"text\":\"§7L'excès est bien souvent létal.\"}","{\"text\":\"§7Excess is often lethal.\"}","{\"text\":\"§7STR§a2 §7HAS§a2 §7LUC§c-2\"}"]},CustomPotionColor:9457212,custom_potion_effects:[{id:wither,amplifier:2,duration:100,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={STR:2,HAS:2,LUC:-2,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'12'},custom_name={translate:'potion12.name'},lore=[{translate:'potion12.lore.1'},{translate:'potion12.lore.2'},{translate:'potion12.stat'}],max_stack_size=16,potion_contents={custom_color:9457212,custom_effects:[{amplifier:2,duration:100,id:'wither',show_particles:0b}]}] 1

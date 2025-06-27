@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Ele estava prestes a colocá-los de volta no lugar! Isso não é essencial? Era para um infeliz passageiro secreto que leva ao meu quarto. Por favor, não diga nada aos guardas e ao meu pai. Nós nos amamos! Eu te imploro, se você tem um coração, você entenderá nossa situação!","color":"blue"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"他正要把这个设计图放回原位！这难道不是最重要的吗？只是碰巧有一条秘密通道通往我的房间而已。请不要把这个事情告诉我的父亲和守卫们。我和他彼此相爱！我求求你，如果你有良心的话，你会理解我们的处境！ ","color":"blue"}]}

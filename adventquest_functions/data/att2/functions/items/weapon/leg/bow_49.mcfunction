@@ -3,5 +3,6 @@
 #Obtain item bow_49          #
 #####################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",Effect:"str3_spd1_her2_dar2",display:{Name:"\"§6Frère d'arme d'Amarianne\"","Lore":["{\"text\":\"§7Vas avec l'unique archère\"}","{\"text\":\"§7car elle est l'élue de notre mère.\"}","{\"text\":\"§7Go with the one archer\"}","{\"text\":\"§7because she is our mother's chosen one.\"}","{\"text\":\"§7STR§a3 §7SPD§a1 §7HER§a2 §7DAR§a2\"}"]},Damage:50,Enchantments:[{id:"minecraft:power",lvl:10s},{id:"minecraft:flame",lvl:3s},{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"leg",Manufacturer:"traditional",Shop:"buy",STR:3,SPD:1,HER:2,DAR:2,Weapon:"49"},custom_name={translate:"weapon49.name"},lore=[{translate:"weapon49.lore.1"},{translate:"weapon49.lore.2"},{translate:"weapon49.stat"}],max_damage=385,damage=50,enchantments={"power":10,"flame":3,"unbreaking":1}]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

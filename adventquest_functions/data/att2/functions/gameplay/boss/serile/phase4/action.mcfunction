@@ -5,10 +5,10 @@
 
 # Attack choosing
 execute if score Timer1 SERILE matches 1..400 run scoreboard players add Timer1 SERILE 1
-execute if score Timer1 SERILE matches 195 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {Attributes:[{Name:generic.follow_range,Base:1.0}]}
+execute if score Timer1 SERILE matches 195 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {attributes:[{id:follow_range,base:1.0}]}
 execute if score Timer1 SERILE matches 200 as 00000000-0000-022b-0000-00000000022b at @p[x=2286,y=97,z=1788] run tp @s ~ ~5 ~
 execute if score Timer1 SERILE matches 200 as 00000000-0000-022b-0000-00000000022b at @s run function att2:gameplay/boss/serile/phase1/serile_ambush_effect
-execute if score Timer1 SERILE matches 205 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {Attributes:[{Name:generic.follow_range,Base:100.0}]}
+execute if score Timer1 SERILE matches 205 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {attributes:[{id:follow_range,base:100.0}]}
 execute if score Timer1 SERILE matches 400 as @p[x=1543.0,y=25,z=1495.0] run function att2:gameplay/boss/serile/phase4/attack_choosing
 
 # End timing

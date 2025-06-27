@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:trapped_chest"
+            "id": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Arduous Chest Fanatic"},
-        "description": {"translate":"Open 200 Arduous Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier4_200"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier4_200"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier4_100",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

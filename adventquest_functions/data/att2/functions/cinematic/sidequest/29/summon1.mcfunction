@@ -11,3 +11,5 @@ execute positioned -4159 71 -5584 run function att2:summon/reg_1/thief3_class5
 execute positioned -4159 71 -5584 run function att2:summon/reg_1/thief4_class8
 execute positioned -4159 71 -5584 run function att2:summon/reg_1/thiefarcher2_class6
 execute positioned -4159 71 -5584 run function att2:summon/reg_1/thiefarcher3_class8
+#return 1->make command block runing
+return 1

@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"De acordo com o rei e a rainha de Ryliath, uma gema do tempo será encontrada na lendária cidade de Eolorion! Localizada nas altas montanhas de Elchéol no norte da região, a cidade também abriga uma academia de Dahäl. Então, eu deveria ser capaz de aprender um pouco mais sobre a localização exata da gema.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"根据Ryliath国王和王后的说法，我可以在传说之城Eolorion找到一颗时间宝石。这座城市地处北边的Elcheol山上，同时也是Dahäl学院的所在。我应该能在那儿知道更多有关宝石确切位置的消息。","color":"aqua"}]}

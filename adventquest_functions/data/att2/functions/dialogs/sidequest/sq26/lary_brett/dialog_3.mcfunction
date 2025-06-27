@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lary Brett : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Então você limpou a entrada das catacumbas? Não? Eu não vou abrir enquanto houver todos esses mortos-vivos rondando por aqui...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"你清理了地下入口附近的亡灵吗？还没有？只要这些亡灵还在到处游荡，我就不会帮你开门...","color":"dark_aqua"}]}

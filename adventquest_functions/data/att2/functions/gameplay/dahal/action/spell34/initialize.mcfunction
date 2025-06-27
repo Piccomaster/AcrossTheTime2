@@ -44,3 +44,15 @@ team modify detect_secret color dark_purple
 team modify detect_symbol color light_purple
 team modify detect_chest color gray
 team modify detect_minerals_runes color black
+
+#set cooldown score | cooldown/200 -> second
+scoreboard players set lvl1 COOLDOWN34 2000
+scoreboard players set lvl2 COOLDOWN34 2400
+scoreboard players set lvl3 COOLDOWN34 2800
+scoreboard players set lvl4 COOLDOWN34 3200
+scoreboard players set lvl5 COOLDOWN34 3600
+scoreboard players set lvl6 COOLDOWN34 4000
+scoreboard players set lvl7 COOLDOWN34 4400
+scoreboard players set lvl8 COOLDOWN34 4900
+scoreboard players set lvl9 COOLDOWN34 5400
+scoreboard players set lvl10 COOLDOWN34 6000

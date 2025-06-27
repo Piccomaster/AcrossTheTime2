@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Daril Gram : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Que a força da justiça guie seus passos...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"愿正义的力量指引着你的方向...","color":"dark_aqua"}]}

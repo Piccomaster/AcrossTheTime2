@@ -24,26 +24,28 @@ execute if score SQ45 SIDEQUEST matches 1 if entity @a[x=3494,y=35,z=4371,distan
 execute if score SQ45 SIDEQUEST matches 1 if entity @a[x=3418,y=35,z=4477,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3418,y=35,z=4477,distance=..45,tag=Fuyard] positioned 3418 35 4477 run function att2:cinematic/sidequest/45/summon_fuyard
 
 # Particle Fuyard
-execute as @e[type=minecraft:stray,tag=Fuyard] at @s run particle minecraft:dust 1 0.1 0.2 0.4 ~ ~1 ~ 0.05 0.3 0.05 0 1 normal
-execute as @e[type=minecraft:stray,tag=Fuyard] at @s run particle minecraft:dust 1 0.45 0.1 0.4 ~ ~1 ~ 0.05 0.3 0.05 0 1 normal
+execute as @e[type=minecraft:stray,tag=Fuyard] at @s run particle minecraft:dust{color:[1,0.1,0.2],scale:0.4} ~ ~1 ~ 0.05 0.3 0.05 0 1 normal
+execute as @e[type=minecraft:stray,tag=Fuyard] at @s run particle minecraft:dust{color:[1,0.45,0.1],scale:0.4} ~ ~1 ~ 0.05 0.3 0.05 0 1 normal
 
 # Step2 when player have Badge
-execute if score SQ45 SIDEQUEST matches 1 if entity @a[gamemode=adventure,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oBadge\"}"]}}}]}] run function att2:cinematic/sidequest/45/step2
+execute if score SQ45 SIDEQUEST matches 1 if entity @a[gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.badge.name'}}}]}] run function att2:cinematic/sidequest/45/step2
 
 # Step3 when player are in front of sectarian door with badge
-execute if score SQ45 SIDEQUEST matches 2 if entity @a[x=3743,y=61,z=4338,distance=..4,gamemode=adventure,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oBadge\"}"]}}}]}] run function att2:cinematic/sidequest/45/step3
+execute if score SQ45 SIDEQUEST matches 2 if entity @a[x=3743,y=61,z=4338,distance=..4,gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.badge.name'}}}]}] run function att2:cinematic/sidequest/45/step3
 
 # Step4 when player found Nekr al Felèvsil 
-execute if score SQ45 SIDEQUEST matches 1..3 if entity @a[gamemode=adventure,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§7Les bêtes Sécariennes ont jadis\"}","{\"text\":\"§7craint tes griffes autant que ton nom.\"}","{\"text\":\"§7The Secarian beasts once feared\"}","{\"text\":\"§7your claws as much as your name.\"}","{\"text\":\"§7STR§a2 §7HAS§a4\"}"]}}}]}] run function att2:cinematic/sidequest/45/step4
+execute if score SQ45 SIDEQUEST matches 1..3 if entity @a[gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'weapon157.name'}}}]}] run function att2:cinematic/sidequest/45/step4
 
 # Start cinematic when player is close to Aldelrion with Nekr al Felèvsil 
-execute if score SQ45 SIDEQUEST matches 4 if score cinematic SQ45 matches 2 at 00000000-0000-149a-0000-00000000149a if entity @a[distance=..5,gamemode=adventure,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§7Les bêtes Sécariennes ont jadis\"}","{\"text\":\"§7craint tes griffes autant que ton nom.\"}","{\"text\":\"§7The Secarian beasts once feared\"}","{\"text\":\"§7your claws as much as your name.\"}","{\"text\":\"§7STR§a2 §7HAS§a4\"}"]}}}]}] run function att2:cinematic/sidequest/45/aldelrion/start_cinematic2
+execute if score SQ45 SIDEQUEST matches 4 if score cinematic SQ45 matches 2 at 00000000-0000-149a-0000-00000000149a if entity @a[distance=..5,gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'weapon157.name'}}}]}] run function att2:cinematic/sidequest/45/aldelrion/start_cinematic2
 
 # Step4 quest when player is close to PNJ Aldelrion with Nekr al Felèvsil
 execute if score SQ45 SIDEQUEST matches 4 if score cinematic SQ45 matches 3 at 00000000-0000-149a-0000-00000000149a if entity @a[distance=..40] run function att2:cinematic/sidequest/45/aldelrion/cinematic2
 
 # Security with auto validate of Nekr al Felèvsil
-# execute if score SQ45 SIDEQUEST matches 4 if score cinematic SQ45 matches 4 at 00000000-0000-149a-0000-00000000149a as @a[distance=..5,gamemode=adventure,nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Les bêtes Sécariennes ont jadis\"}","{\"text\":\"§7craint tes griffes autant que ton nom.\"}","{\"text\":\"§7The Secarian beasts once feared\"}","{\"text\":\"§7your claws as much as your name.\"}","{\"text\":\"§7STR§a2 §7HAS§a4\"}"]}}}}] run function att2:cinematic/sidequest/45/aldelrion/answer_1_2
+# execute if score SQ45 SIDEQUEST matches 4 if score cinematic SQ45 matches 4 at 00000000-0000-149a-0000-00000000149a as @a[distance=..5,gamemode=adventure,nbt={SelectedItem:{components:{"minecraft:custom_name":{translate:'weapon157.name'}}}}] run function att2:cinematic/sidequest/45/aldelrion/answer_1_2
 
 # End quest when player is close to PNJ Aldelrion with Nekr al Felèvsil
 execute if score SQ45 SIDEQUEST matches 4 if score cinematic SQ45 matches 5 at 00000000-0000-149a-0000-00000000149a if entity @a[distance=..40] run function att2:cinematic/sidequest/45/aldelrion/cinematic3
+#return 1->make command block runing
+return 1

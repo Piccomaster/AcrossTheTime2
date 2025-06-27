@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Malak : ","color":"green","extr
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"嗯，有生面孔？看起来好像不是坏人，而且也没人会对我这个老女人下手...不过也许他能帮得上忙？希望...他会帮我吧...我收获的小麦都，不！见！了！肯定是被哪个外地人偷了...这就是为什么我很讨厌他们一直在附近绕来绕去...","color":"dark_aqua"}]}

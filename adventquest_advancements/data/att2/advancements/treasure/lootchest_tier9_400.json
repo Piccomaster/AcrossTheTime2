@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chest"
+            "id": "minecraft:chest"
         },
-        "title": {"translate":"Forgotten Chest Addict"},
-        "description": {"translate":"Open 400 Forgotten Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier9_400"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier9_400"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/lootchest_tier9_200",
@@ -18,3 +18,4 @@
         }
     }
 }
+    

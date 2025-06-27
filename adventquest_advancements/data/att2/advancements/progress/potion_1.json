@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:glass_bottle"
+            "id": "minecraft:glass_bottle"
         },
-        "title": {"translate":"Thirsty"},
-        "description": {"translate":"Drink a potion"}
+        "title": {"translate":"att2.advancement.progress.title.potion_1"},
+        "description": {"translate":"att2.advancement.progress.description.potion_1"}
     },
     "parent": "att2:progress/root",
     "rewards": {

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Eu entenderia se você não me deixasse usá-los na sua cidade. Vou encontrar outra forma de usá-los, mas eu realmente preciso obtê-los. Uma informação simples sobre sua localização me ajudaria muito.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我能理解，即使您不让我在您的城市里使用它们，我也会另想办法借助它们的力量，但我必须得到它们。只要告诉我它们的位置就好。","color":"aqua"}]}

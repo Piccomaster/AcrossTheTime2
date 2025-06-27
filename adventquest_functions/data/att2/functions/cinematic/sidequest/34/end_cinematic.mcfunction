@@ -22,3 +22,5 @@ execute if score Real2 TIMER matches 200 run function att2:cinematic/sidequest/3
 
 execute if score Real2 TIMER matches 201.. run scoreboard players set cinematic SQ34 2
 execute if score Real2 TIMER matches ..200 run function att2:cinematic/real2_iteration
+#return 1->make command block runing
+return 1

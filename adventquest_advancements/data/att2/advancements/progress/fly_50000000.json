@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Bird Migration"},
-        "description": {"translate":"Fly 500km"},
+        "title": {"translate":"att2.advancement.progress.title.fly_50000000"},
+        "description": {"translate":"att2.advancement.progress.description.fly_50000000"},
         "frame": "challenge"
     },
     "parent": "att2:progress/fly_10000000",

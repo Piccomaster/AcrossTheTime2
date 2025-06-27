@@ -58,5 +58,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wirth Razgork : ","color":"green
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Então, você encontrou esta gema? Você não estaria pensando em relançar o portal de Ryliath por acaso? De qualquer forma, eu provavelmente posso te ajudar com o resto.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"这么说，你已经拿到那块宝石了？难道说...你是想重新激活Ryliath的传送门？不管怎样，我应该能帮你处理余下的琐事。","color":"dark_aqua"}]}
 
 function att2:voice/wirth/wirth6
+

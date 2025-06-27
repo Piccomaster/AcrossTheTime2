@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {"translate":"Chaussures stagnantes"},
-        "description": {"translate":"Thus by age and to infinity."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
     },
-    "parent": "att2:collection/armor_billgart",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "leather_boots_229": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§2Chaussures stagnantes\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ainsi par l'âge et jusqu'à l'infini.\\\"}\",\"{\\\"text\\\":\\\"§7Thus by age and to infinity.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§c-1\\\"}\"],color:4218913}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.boots_229"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.boots_229"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "leather_boots_229": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "229"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

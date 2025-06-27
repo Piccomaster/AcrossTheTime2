@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_hoe"
-        },
-        "title": {"translate":"Aiguillon"},
-        "description": {"translate":"Small needle on pruned branch."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_hoe"
     },
-    "parent": "att2:collection/weapon_iron/hoe_263",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "iron_hoe_264": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§2Aiguillon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Petite aiguille sur branche taillée.\\\"}\",\"{\\\"text\\\":\\\"§7Small needle on pruned branch.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.hoe_264"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.hoe_264"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/hoe_263",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_hoe_264": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "264"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

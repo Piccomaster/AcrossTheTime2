@@ -16,4 +16,6 @@
 #################################################################
 
 # When player has the key and is close to PNJ Derim Krill
-execute if score derim_kril_PNJ DIALOG matches 2 at 00000000-0000-055a-0000-00000000055a if entity @a[distance=..5,gamemode=adventure,nbt={Inventory:[{id:"minecraft:brick",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4Derim's Key\"}"]}}}]}] run scoreboard players set derim_kril_PNJ DIALOG 5
+execute if score derim_kril_PNJ DIALOG matches 2 at 00000000-0000-055a-0000-00000000055a if entity @a[distance=..5,gamemode=adventure,nbt={Inventory:[{id:"minecraft:brick",count:1,components:{"minecraft:custom_name":{translate:'item.quest.derim_key.name'}}}]}] run scoreboard players set derim_kril_PNJ DIALOG 5
+#return 1->make command block runing
+return 1

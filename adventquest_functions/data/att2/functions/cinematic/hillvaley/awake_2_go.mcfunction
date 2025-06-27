@@ -17,3 +17,5 @@ execute if score Real0 TIMER matches 440 run function att2:dialogs/title/a1_ch0_
 
 execute if score Real0 TIMER matches 441.. run function att2:cinematic/hillvaley/awake_2_action_1
 execute if score Real0 TIMER matches ..440 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

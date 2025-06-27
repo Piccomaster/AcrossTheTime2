@@ -3,5 +3,6 @@
 #Obtain item iron_hoe_268          #
 #####################################
 
-give @s minecraft:iron_hoe{EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"traditional",Type:"spear",Shop:"buy",Effect:"str2_spd1_luc1_dar_2",display:{Name:"\"§5Lance du destin\"","Lore":["{\"text\":\"§7Recouverte d’une feuille d’argent,\"}","{\"text\":\"§7elle en fait une arme destructrice.\"}","{\"text\":\"§7Covered with a silver leaf,\"}","{\"text\":\"§7it turns it into a destructive weapon.\"}","{\"text\":\"§7STR§a2 §7SPD§a1 §7LUC§a1 §7DAR§c-2\"}"]},Damage:50,Enchantments:[{id:"minecraft:smite",lvl:3s},{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:17.99,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.39,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",STR:2,SPD:1,LUC:1,DAR:-2,Weapon:"268"},custom_name={translate:"weapon268.name"},lore=[{translate:"weapon268.lore.1"},{translate:"weapon268.lore.2"},{translate:"weapon268.stat"}],max_damage=260,damage=50,enchantments={"smite":3,"unbreaking":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:17.99},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.39}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

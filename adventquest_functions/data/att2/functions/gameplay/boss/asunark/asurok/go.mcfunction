@@ -8,9 +8,9 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-execute if score winge_mech3 ASUNARK matches 4 run particle minecraft:dust 1 0 0 1.5 -3318 13 -4942 0.6 1.0 1.0 0 5 force
-particle minecraft:dust 1 0 0 1.5 -3297 7.5 -4922 0.8 0.8 0 0 2 force
-particle minecraft:dust 1 0 0 1.5 -3297 7.5 -4962 0.8 0.8 0 0 2 force
+execute if score winge_mech3 ASUNARK matches 4 run particle minecraft:dust{color:[1,0,0],scale:1.5} -3318 13 -4942 0.6 1.0 1.0 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1.5} -3297 7.5 -4922 0.8 0.8 0 0 2 force
+particle minecraft:dust{color:[1,0,0],scale:1.5} -3297 7.5 -4962 0.8 0.8 0 0 2 force
 
 # Sound security
 stopsound @a block minecraft:block.bubble_column.bubble_pop
@@ -25,7 +25,7 @@ execute if score Asurok ASUNARK matches 0.. as @a[scores={MUSIC_BOSS=1..}] run s
 
 # Enable Bossbar storing health of Asurok
 execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] store result bossbar minecraft:asurok value run data get entity 00000000-0000-003b-0000-00000000003b Health
-execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] store result bossbar minecraft:asurok max run data get entity 00000000-0000-003b-0000-00000000003b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] store result bossbar minecraft:asurok max run data get entity 00000000-0000-003b-0000-00000000003b attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 39 as @a[x=-3319,y=12,z=-4943,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/asunark/asurok/display_title

@@ -3,4 +3,4 @@
 #Obtain item splash_potion_31          #
 #####################################
 
-give @s minecraft:splash_potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"",display:{Name:"\"§7Mort aux rats\"","Lore":["{\"text\":\"§7Effets altérés sur les êtres ténébreux.\"}","{\"text\":\"§7Altered effects on dark beings.\"}"]},CustomPotionColor:6472250,custom_potion_effects:[{id:instant_damage,amplifier:1,duration:2,show_particles:0b}]} 1
+give @s minecraft:splash_potion[custom_data={EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'31'},custom_name={translate:'potion31.name'},lore=[{translate:'potion31.lore.1'},{translate:'potion31.lore.2'},{translate:'potion31.stat'}],max_stack_size=4,potion_contents={custom_color:6472250,custom_effects:[{amplifier:1,duration:2,id:'instant_damage',show_particles:0b}]}] 1

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_axe"
+            "id": "minecraft:golden_axe"
         },
-        "title": {"translate":"Full legendary set"},
-        "description": {"translate":"Get yourself equipped a full legendary armor and weapon set"},
+        "title": {"translate":"att2.advancement.adventure.title.leg_full_set"},
+        "description": {"translate":"att2.advancement.adventure.description.leg_full_set"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/epi_full_set",

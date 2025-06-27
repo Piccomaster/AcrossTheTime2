@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_chestplate"
-        },
-        "title": {"translate":"Métilnuji"},
-        "description": {"translate":"Complexity is not a guarantee of quality, the shell proves it, undoubtedly."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
     },
-    "parent": "att2:collection/armor_angband/chestplate_312",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_chestplate_160": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Métilnuji\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Complexité n'est pas gage de qualité,\\\"}\",\"{\\\"text\\\":\\\"§7la carapace le prouve, incontestablement.\\\"}\",\"{\\\"text\\\":\\\"§7Complexity is not a guarantee of quality,\\\"}\",\"{\\\"text\\\":\\\"§7the shell proves it, undoubtedly.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7HAS§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.chestplate_160"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.chestplate_160"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/chestplate_312",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_chestplate_160": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "160"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

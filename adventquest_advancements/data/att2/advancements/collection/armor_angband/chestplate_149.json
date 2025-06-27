@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_chestplate"
-        },
-        "title": {"translate":"Plastron éternel"},
-        "description": {"translate":"Was, is and will be, he will be able to recover from everything."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
     },
-    "parent": "att2:collection/armor_angband/chestplate_142",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "golden_chestplate_149": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Plastron éternel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fut, est et sera, il saura se\\\"}\",\"{\\\"text\\\":\\\"§7remettre de tout.\\\"}\",\"{\\\"text\\\":\\\"§7Was, is and will be, he will be\\\"}\",\"{\\\"text\\\":\\\"§7able to recover from everything.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HAS§a1 §7DAR§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.chestplate_149"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.chestplate_149"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/chestplate_142",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_chestplate_149": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "149"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

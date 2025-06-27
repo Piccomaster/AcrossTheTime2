@@ -53,5 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Seu valor já é mais que reconhecido, mas ainda estou ansioso para ver isso, meu amigo!","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"你的所作所为都得到了大家的认可，如果你真的能证明你说的话，我会很开心，我的朋友！","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_sidequest11
+
+

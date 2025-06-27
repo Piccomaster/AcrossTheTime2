@@ -3,4 +3,4 @@
 #Obtain Charcoal                           		 #
 ##################################################
 
-give @s minecraft:charcoal{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cCharbon de bois\"","Lore":["{\"text\":\"§4§oCharcoal\"}"]}} 1
+give @s minecraft:charcoal[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.charcoal.name'},lore=[{translate:'item.quest.lore'}]] 1

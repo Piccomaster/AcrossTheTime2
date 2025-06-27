@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Espero que sua missão esteja indo bem. Tenha cuidado! No momento, as estradas não são necessariamente seguras. Às vezes enviamos algumas tropas para proteger os comboios e missões de reconhecimento, mas fora das cidades, nas profundezas das florestas, podem haver grandes perigos. Mas, bom, alguém que percorreu toda a região para conseguir a façanha de ativar um portal antigo como o de Ryliath, meus conselhos de prudência provavelmente são em vão.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"我希望你的任务进展顺利。请多加小心！现在路上也不一定安全。我们有时会派出一些部队来保护车队和执行侦察任务，但在城市之外的森林深处可能还有很大的危险。但是，嘿，有人走遍了整个大陆，成功地在Ryliath完成了激活古老传送门的壮举，我的谨慎肯定是徒劳的。","color":"dark_aqua"}]}

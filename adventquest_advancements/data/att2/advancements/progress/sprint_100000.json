@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_boots"
+            "id": "minecraft:iron_boots"
         },
-        "title": {"translate":"One Small Step For Man"},
-        "description": {"translate":"Sprint 1km"}
+        "title": {"translate":"att2.advancement.progress.title.sprint_100000"},
+        "description": {"translate":"att2.advancement.progress.description.sprint_100000"}
     },
     "parent": "att2:progress/root",
     "rewards": {

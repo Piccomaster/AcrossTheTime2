@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:target"
+            "id": "minecraft:target"
         },
         "title": {"translate":"test"},
         "description": {"translate":"pillager"},

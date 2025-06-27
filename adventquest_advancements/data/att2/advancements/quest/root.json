@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
-        "title": {"translate":"Quests"},
-        "description": {"translate":"Getting A Little On The Side"},
-        "background": "minecraft:textures/block/brain_coral_block.png",
+        "title": {"translate":"att2.advancement.quest.title.root"},
+        "description": {"translate":"att2.advancement.quest.description.root"},
+        "background": "minecraft:block/brain_coral_block",
         "show_toast": false
     },
     "criteria": {

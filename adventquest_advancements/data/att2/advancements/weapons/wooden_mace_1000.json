@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_pickaxe"
+            "id": "minecraft:wooden_pickaxe"
         },
-        "title": {"translate":"Wooden mace combo"},
-        "description": {"translate":"Strike 500 times with a wooden mace"},
+        "title": {"translate": "att2.advancement.weapons.title.wooden_mace_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.wooden_mace_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/wooden_mace_250",

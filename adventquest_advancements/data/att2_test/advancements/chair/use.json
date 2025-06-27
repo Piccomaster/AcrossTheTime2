@@ -1,0 +1,20 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/misc/chair/use"
+  },
+  "criteria": {
+    "cooked_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:scaffolding",
+          "predicates": {
+            "minecraft:custom_data": {
+              "chair": "true"
+            }
+          }
+        }
+      }
+    }
+  }
+}

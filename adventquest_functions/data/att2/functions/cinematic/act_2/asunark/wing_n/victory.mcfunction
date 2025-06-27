@@ -10,3 +10,5 @@ execute positioned -3457 29 -5005 run function att2:summon/reg_1/guardian0_class
 execute positioned -3460 32 -4997 run function att2:summon/reg_1/guardian0_class3
 
 function att2:cinematic/act_2/asunark/wing_n/initialize
+#return 1->make command block runing
+return 1

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bow"
+            "id": "minecraft:bow"
         },
-        "title": {"translate":"The Hunter"},
-        "description": {"translate":"Hunt a Squid with your bow"}
+        "title": {"translate":"att2.advancement.combat.title.hunter"},
+        "description": {"translate":"att2.advancement.combat.description.hunter"}
     },
     "parent": "att2:combat/shoot_arrow",
     "rewards": {

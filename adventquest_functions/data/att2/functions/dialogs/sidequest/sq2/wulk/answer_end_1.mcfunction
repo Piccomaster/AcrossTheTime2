@@ -57,3 +57,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Wulk : ","color":"green","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Incrível! Você acabou encontrando! Você não viu meu assistente? Bem... Ele deve ter se perdido na floresta. Espero que nada tenha acontecido com ele. De qualquer forma, muito obrigado pela sua ajuda. Esta é a minha recompensa para você.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"太棒了！你成功地带回了铁矿！不过你没看到我的徒弟吗？嗯...他可能在森林里迷路了，希望他没事。不管怎么说，非常感谢你的帮忙，这是给你的报酬。","color":"dark_aqua"}]}

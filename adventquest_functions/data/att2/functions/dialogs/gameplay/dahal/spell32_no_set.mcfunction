@@ -26,3 +26,6 @@ title @s[scores={LANGUAGE=8}] actionbar {"text":"Kein entsprechender Teleportpun
 title @s[scores={LANGUAGE=9}] actionbar {"text":"कोई संबंधित टेलीपोर्ट पॉइंट नहीं बनाया गया।","color":"dark_red"}
 ##PT
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Nenhum ponto de teletransporte correspondente foi criado.","color":"dark_red"}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"未创建对应传送点","color":"dark_red"}

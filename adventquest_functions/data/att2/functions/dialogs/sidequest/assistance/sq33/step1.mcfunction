@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सिल्बरलैंड क
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer falou comigo sobre estruturas monolíticas dispostas em diferentes lugares de Sylberländ. Ele me pediu para aproveitar a oportunidade e trazer amostras de pedra de cada lugar onde eu encontrar essas estruturas. Segundo suas informações, existem oito estruturas diferentes espalhadas por toda a região.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Sylberländ的秘宝 -°- : ","color":"gray","extra":[{"text":"Mortimer和我谈到了分布在Sylberländ不同地方的巨石结构。他让我借此机会从每个我发现这些结构的地方带回一些石头样本，根据他的信息，该地区散布着八个不同的结构。","color":"aqua","italic":true}]}

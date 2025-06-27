@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor255.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor255.lore.1"
+                  },
+                  {
+                    "translate": "armor255.lore.2"
+                  },
+                  {
+                    "translate": "armor255.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "rar",
+                  "Manufacturer": "delightful",
+                  "HER": 1,
+                  "HAS": -2,
+                  "Armor": "255"
+                },
+                "minecraft:enchantments": {
+                  "feather_falling": 3
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.boots",
+                    "amount": 1.52,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.boots",
+                    "amount": 0.81,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:damage": 290,
+                "minecraft:max_damage": 430
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

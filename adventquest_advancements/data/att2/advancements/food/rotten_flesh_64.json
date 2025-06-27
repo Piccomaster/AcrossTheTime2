@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:rotten_flesh"
+            "id": "minecraft:rotten_flesh"
         },
-        "title": {"translate":"Starving"},
-        "description": {"translate":"Eat 64 rotten flesh"},
+        "title": {"translate":"att2.advancement.food.title.rotten_flesh_64"},
+        "description": {"translate":"att2.advancement.food.description.rotten_flesh_64"},
         "frame": "goal"
     },
     "parent": "att2:food/rotten_flesh_16",

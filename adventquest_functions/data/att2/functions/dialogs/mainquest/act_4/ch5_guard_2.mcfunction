@@ -53,5 +53,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड्स : ","color
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guardas : ","color":"green","extra":[{"text":"Sobreviva, e você terá o favor do nosso chefe!","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 警卫 : ","color":"green","extra":[{"text":"solomba与你同在！你将得到我们首领的青睐！ ","color":"dark_aqua"}]}
 
 function att2:voice/guard/guard16
+

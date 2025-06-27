@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_block"
+            "id": "minecraft:iron_block"
         },
-        "title": {"translate":"Iron"},
-        "description": {"translate":"Weapon"},
+        "title": {"translate": "att2.advancement.collection.title.weapon_iron"},
+        "description": {"translate": "att2.advancement.collection.description.weapon_iron"},
         "show_toast": false,
         "announce_to_chat": false
     },

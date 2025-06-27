@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira me contou sobre uma antiga academia: Nojélanth, localizada em um deserto distante. Eu tenho que ir para o Deserto de Kert perto da área vulcânica.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira告诉我一所古老的学院：Nojelanth，位于遥远的沙漠中。我必须前往火山区附近的Kert沙漠。","color":"aqua"}]}

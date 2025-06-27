@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_helmet"
-        },
-        "title": {"translate":"Miauletère"},
-        "description": {"translate":"O sneaky morning, may I look forward to surprise you and be reborn again."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_helmet"
     },
-    "parent": "att2:collection/armor_chainmail/helmet_82",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "chainmail_helmet_83": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Miauletère\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ô sournois matin, qu'il me tarde\\\"}\",\"{\\\"text\\\":\\\"§7de te surprendre et renaître encore.\\\"}\",\"{\\\"text\\\":\\\"§7O sneaky morning, may I look forward\\\"}\",\"{\\\"text\\\":\\\"§7to surprise you and be reborn again.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.helmet_83"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.helmet_83"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/helmet_82",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "chainmail_helmet_83": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "83"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:dried_kelp"
+        },
+        "title": {"translate":"att2.advancement.food.title.kelp_16"},
+        "description": {"translate":"att2.advancement.food.description.kelp_16"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/kelp_16",
+    "rewards": {
+        "experience": 2500
+                },
+    "criteria": {
+            "kelp_16": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -10,3 +10,5 @@ scoreboard players set intake_charcoal SQ2 0
 scoreboard players set elevator SQ2 0
 scoreboard players set elevator_moving SQ2 0
 scoreboard players set water_dam SQ2 0
+#return 1->make command block runing
+return 1

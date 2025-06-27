@@ -44,3 +44,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Não necessariamente, o portal de Ryliath também pode funcionar com gemas de tempo. Mas se você tiver alguma pergunta ou dúvida, estarei aqui esperando para esclarecer você.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"不必，时间宝石同样能用于Ryliath的那个传送门。不过，如果你还是犹疑不定，我会在这等着解答你的问题。","color":"dark_aqua"}]}

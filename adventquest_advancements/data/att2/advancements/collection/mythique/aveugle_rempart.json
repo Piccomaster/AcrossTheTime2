@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield",
+            "id": "minecraft:shield",
             "nbt": "{BlockEntityTag:{Base:8,Patterns:[{Pattern:cr,Color:14},{Pattern:flo,Color:15},{Pattern:cbo,Color:14},{Pattern:ms,Color:15},{Pattern:cs,Color:15},{Pattern:mc,Color:14},{Pattern:bts,Color:8},{Pattern:tts,Color:8},{Pattern:cbo,Color:7}]}}"
         },
-        "title": {"translate":"Aveugle Rempart"},
-        "description": {"translate":"Hold the mythical shield AVEUGLE REMPART"},
+        "title": {"translate": "att2.advancement.collection.mythique.title.aveugle_rempart"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.aveugle_rempart"},
         "frame": "challenge",
         "hidden":true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/myt_20",
+        "function": "att2:advancement/test_all/collection/aveugle_rempart",
         "experience": 5000
                 },
     "criteria": {

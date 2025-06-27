@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:anvil"
+            "id": "minecraft:anvil"
         },
-        "title": {"translate":"Tinkering"},
-        "description": {"translate":"Repair 5 items"},
+        "title": {"translate": "att2.advancement.treasure.title.mending_5"},
+        "description": {"translate": "att2.advancement.treasure.description.mending_5"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_1",

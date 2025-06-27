@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_nugget"
+            "id": "minecraft:gold_nugget"
         },
-        "title": {"translate":"The Beginning of Fortune"},
-        "description": {"translate":"Raise 100 Chronotons"}
+        "title": {"translate": "att2.advancement.treasure.title.chronotons_100"},
+        "description": {"translate": "att2.advancement.treasure.description.chronotons_100"}
     },
     "parent": "att2:treasure/money",
         "rewards": {

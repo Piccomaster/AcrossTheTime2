@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lary Brett : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Olá, o que você está fazendo por aqui? Ah, um viajante novamente... Um conselho, evite o cemitério por agora: alguns dos mortos voltaram à vida e estão atacando a todos. A cidade de Méleïm não pretende me ajudar a resolver isso... Enfim, sozinho, eu não me atrevo a me aventurar por lá...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"你好，你在这附近做什么?啊，又来一个旅行者...我给你个忠告:现在赶紧离开这个墓地，一些死者活了过来并且正在攻击其他人。Méleïm镇并不打算帮我解决这个问题...总之，我一个人也不敢去冒险...","color":"dark_aqua"}]}

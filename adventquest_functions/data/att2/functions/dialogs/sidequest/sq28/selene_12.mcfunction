@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sélène : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"O que ele fez com a mãe é imperdoável e ele recebeu o que merecia, não falemos mais sobre ele... Mas espere, eu encontrei este mapa durante minha viagem... Será mais útil para você do que para mim. Pegue-o como um agradecimento.","color":"dark_green"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"他对母亲的所作所为是不可原谅的，他得到了他应有的结果，我们不要再讨论他了...等一下，我在旅途中发现了这张藏宝图...或许你比我需要它，请把它当作我的谢礼吧。","color":"dark_green"}]}

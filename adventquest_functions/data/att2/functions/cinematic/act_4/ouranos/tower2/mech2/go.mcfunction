@@ -10,3 +10,5 @@ execute if score tower2_mech2 OURANOS matches 5.. run effect give @a[x=7401,y=64
 
 # cinematic
 execute if score tower2_mech2 OURANOS matches 5 run function att2:cinematic/act_4/ouranos/tower2/mech2/cinematic
+#return 1->make command block runing
+return 1

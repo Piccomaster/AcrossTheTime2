@@ -3,26 +3,30 @@
 #Manage the timer for health regen               #
 ##################################################
 
-scoreboard players remove @a[scores={TIMER_HER_LE=0..}] TIMER_HER_LE 1
-scoreboard players remove @a[scores={TIMER_HER_OH=0..}] TIMER_HER_OH 1
-scoreboard players remove @a[scores={TIMER_HER_PO=0..}] TIMER_HER_PO 1
-scoreboard players remove @a[scores={TIMER_HER_DAB=0..}] TIMER_HER_DAB 1
-scoreboard players remove @a[scores={TIMER_HER_DAM=0..}] TIMER_HER_DAM 1
-scoreboard players remove @a[scores={TIMER_HER_EQ1=0..}] TIMER_HER_EQ1 1
-scoreboard players remove @a[scores={TIMER_HER_EQ2=0..}] TIMER_HER_EQ2 1
-scoreboard players remove @a[scores={TIMER_HER_EQ3=0..}] TIMER_HER_EQ3 1
-scoreboard players remove @a[scores={TIMER_HER_EQ4=0..}] TIMER_HER_EQ4 1
-scoreboard players remove @a[scores={TIMER_HER_SET=0..}] TIMER_HER_SET 1
-scoreboard players remove @a[scores={TIMER_HER_EXT=0..}] TIMER_HER_EXT 1
+#remove time
+scoreboard players remove @s[scores={TIMER_HER_SP=1..}] TIMER_HER_SP 1
 
-scoreboard players set @a[scores={TIMER_HER_LE=0}] HER_LVL_LE 0
-scoreboard players set @a[scores={TIMER_HER_OH=0}] HER_LVL_OH 0
-scoreboard players set @a[scores={TIMER_HER_PO=0}] HER_LVL_PO 0
-scoreboard players set @a[scores={TIMER_HER_DAB=0}] HER_LVL_DAB 0
-scoreboard players set @a[scores={TIMER_HER_DAM=0}] HER_LVL_DAM 0
-scoreboard players set @a[scores={TIMER_HER_EQ1=0}] HER_LVL_EQ1 0
-scoreboard players set @a[scores={TIMER_HER_EQ2=0}] HER_LVL_EQ2 0
-scoreboard players set @a[scores={TIMER_HER_EQ3=0}] HER_LVL_EQ3 0
-scoreboard players set @a[scores={TIMER_HER_EQ4=0}] HER_LVL_EQ4 0
-scoreboard players set @a[scores={TIMER_HER_SET=0}] HER_LVL_SET 0
-scoreboard players set @a[scores={TIMER_HER_EXT=0}] HER_LVL_EXT 0
+scoreboard players remove @s[scores={TIMER_HER_EQ=1..}] TIMER_HER_EQ 1
+
+scoreboard players remove @s[scores={TIMER_HER_EXT=1..}] TIMER_HER_EXT 1
+
+scoreboard players remove @s[scores={TIMER_HER_PO=1..}] TIMER_HER_PO 1
+
+scoreboard players remove @s[scores={TIMER_HER_EH=1..}] TIMER_HER_EH 1
+
+#remove attribute
+scoreboard players reset @s[scores={TIMER_HER_EQ=..0}] HER_EQ
+scoreboard players reset @s[scores={TIMER_HER_SP=..0}] HER_SP
+scoreboard players reset @s[scores={TIMER_HER_EXT=..0}] HER_EXT
+scoreboard players reset @s[scores={TIMER_HER_PO=..0}] HER_PO
+scoreboard players reset @s[scores={TIMER_HER_EH=..0}] HER_EH
+scoreboard players reset @s HER_FO
+#add extra her
+execute if score level DIFFICULTY matches -1 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 5
+
+execute if score level DIFFICULTY matches 0 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 3
+
+execute if score level DIFFICULTY matches 1 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 1
+
+##POTION_TIP
+execute as @a[scores={TIMER_HER_PO=..200,HER_LVL_PO=0..,POTION_CHECK_HER=1}] run function att2:dialogs/gameplay/potion_tip/her_time

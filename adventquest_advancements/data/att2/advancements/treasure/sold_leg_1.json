@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:orange_candle"
+            "id": "minecraft:orange_candle"
         },
-        "title": {"translate":"Legendary selling"},
-        "description": {"translate":"Sell 1 legendary item"},
+        "title": {"translate": "att2.advancement.treasure.title.sold_leg_1"},
+        "description": {"translate": "att2.advancement.treasure.description.sold_leg_1"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/sold_1000",

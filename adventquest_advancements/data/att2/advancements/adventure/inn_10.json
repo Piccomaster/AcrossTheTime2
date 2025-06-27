@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:brown_bed"
+            "id": "minecraft:brown_bed"
         },
-        "title": {"translate":"Heavy sleeper!"},
-        "description": {"translate":"Sleep in an inn at least 10 times."},
+        "title": {"translate":"att2.advancement.adventure.title.inn_10"},
+        "description": {"translate":"att2.advancement.adventure.description.inn_10"},
         "frame": "goal"
     },
     "parent": "att2:adventure/inn_1",

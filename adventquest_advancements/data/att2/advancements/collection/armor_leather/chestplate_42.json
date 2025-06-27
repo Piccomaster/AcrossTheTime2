@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Souselet"},
-        "description": {"translate":"Marked with a trace of combat."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_leather/chestplate_35",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "leather_chestplate_42": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Souselet\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Orné d'une trace de combat.\\\"}\",\"{\\\"text\\\":\\\"§7Marked with a trace of combat.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7RES§c-2\\\"}\"],color:12693170}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_leather.title.chestplate_42"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_leather.description.chestplate_42"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_leather/chestplate_35",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "leather_chestplate_42": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "42"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

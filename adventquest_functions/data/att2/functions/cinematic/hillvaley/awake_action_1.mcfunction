@@ -10,7 +10,9 @@ function att2:dialogs/title/a1_ch0_title1
 function att2:dialogs/title/a1_ch0_subtitle1
 
 time set 24000
-give @a[scores={NUMEROJOUEUR=1}] minecraft:leather_leggings{Unbreakable:1,display:{color:33,Name:"\"§cPantalon de Freddy\"","Lore":["{\"text\":\"Freddy's trousers!\"}"]}}
+execute as @a[scores={NUMEROJOUEUR=1}] run function att2:items/quest/freddys_trousers
 
 summon minecraft:shulker 1970 117 2059 {Tags:["Objective"],NoAI:1,Silent:1,Glowing:1,PersistenceRequired:1,Invulnerable:1,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}],DeathLootTable:"att2:empty"}
 team join objective_main @e[type=minecraft:shulker,tag=Objective]
+#return 1->make command block runing
+return 1

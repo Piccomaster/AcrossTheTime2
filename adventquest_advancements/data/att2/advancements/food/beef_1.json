@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_beef"
+            "id": "minecraft:cooked_beef"
         },
-        "title": {"translate":"Beef tasty"},
-        "description": {"translate":"Eat a beef steak"}
+        "title": {"translate":"att2.advancement.food.title.beef_1"},
+        "description": {"translate":"att2.advancement.food.description.beef_1"}
     },
     "parent": "att2:food/root",
     "rewards": {

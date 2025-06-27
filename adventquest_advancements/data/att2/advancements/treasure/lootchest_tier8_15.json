@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_ingot"
+            "id": "minecraft:gold_ingot"
         },
-        "title": {"translate":"Unseen Chest Neophyte"},
-        "description": {"translate":"Open 15 Unseen Chests"}
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier8_15"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier8_15"}
     },
     "parent": "att2:treasure/root",
     "rewards": {
@@ -17,3 +17,4 @@
         }
     }
 }
+    

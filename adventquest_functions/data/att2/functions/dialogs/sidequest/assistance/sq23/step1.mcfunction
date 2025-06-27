@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Ratos glutões -°- : ","color":"
 
 
 function att2:dialogs/sidequest/sq23/mobs_killed_total
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 贪吃的老鼠 -°- : ","color":"gray","extra":[{"text":"现在沼泽地区域只剩下Philipo一个人打理他的南瓜田了，前不久他的南瓜田还闹起了鼠灾，都是一些超大型的老鼠！老鼠们的老巢入口藏在南瓜田外一棵大树脚下，我需要想办法进入巢穴并彻底消灭这些骯脏的动物","color":"aqua","italic":true}]}

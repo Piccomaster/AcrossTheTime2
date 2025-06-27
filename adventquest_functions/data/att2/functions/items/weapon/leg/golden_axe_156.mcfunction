@@ -3,5 +3,6 @@
 #Obtain item golden_axe_156          #
 #####################################
 
-give @s minecraft:golden_axe{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"eternan",Shop:"buy",Effect:"str1_res1_luc1",display:{Name:"\"§6Premio gal Môt\"","Lore":["{\"text\":\"§7Complaire à l'enfant du ténébreux\"}","{\"text\":\"§7et dans ses desseins, le suivre...\"}","{\"text\":\"§7Pleasing the child of darkness\"}","{\"text\":\"§7and in his intentions, following him ...\"}","{\"text\":\"§7STR§a1 §7RES§a1 §7LUC§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:smite",lvl:8s},{id:"minecraft:unbreaking",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:62.94,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.76,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:golden_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"eternan",Shop:"buy",STR:1,RES:1,LUC:1,Weapon:"156"},custom_name={translate:"weapon156.name"},lore=[{translate:"weapon156.lore.1"},{translate:"weapon156.lore.2"},{translate:"weapon156.stat"}],max_damage=40,damage=156,enchantments={"smite":8,"unbreaking":3},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:62.94},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.76}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_leg

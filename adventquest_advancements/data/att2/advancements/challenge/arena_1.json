@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:item_frame"
+            "id": "minecraft:item_frame"
         },
-        "title": {"translate":"REGIONAL CHAMPION ARENA"},
-        "description": {"translate":"Complete all arenas for the first time."},
+        "title": {"translate":"att2.advancement.challenge.title.arena_1"},
+        "description": {"translate":"att2.advancement.challenge.description.arena_1"},
         "frame": "goal"
     },
     "parent": "att2:challenge/root",

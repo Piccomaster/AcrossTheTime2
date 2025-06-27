@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pelo que Aramis me disse, Vonaheim teria erguido uma imensa estrutura com a ajuda de seus servos. Certamente ele encontrou a gema do Tempo... Então eu tenho que procurar a casa dele. Vamos começar pegando o caminho oeste de Eolorion.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aramis说，Vonaheim在他其爪牙的帮助下建造了一座巨大的城堡。他肯定找到了时间宝石...这意味着，我现在得先找到那座城堡。先沿路往Eolorion的西边走走看吧。","color":"aqua"}]}

@@ -4,19 +4,18 @@
 #################################################################
 
 #
-execute at @s as @e[scores={FOLLOW_PLAYER=0..},tag=!invminecarts.invisible_minecart] if score @s FOLLOW_PLAYER = @p NUMEROJOUEUR run kill @s
+execute at @s as @e[type=#att2_entity:sp_follow_pet,scores={OWNER=0..}] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR at @s run function att2:gameplay/dahal/pet/kill
 function att2:summon/dahal/frog0_class0
 #run
 scoreboard players set @s spell31_run 1
-##change chinese language
-execute if entity @s[scores={LANGUAGE=2}] run data merge entity @e[tag=NewPet,type=minecraft:frog,distance=0..5,limit=1,sort=nearest] {CustomName:"\"吞金兽\""}
 ##name color
-team join spell31 @e[tag=NewPet,type=minecraft:frog,distance=..10]
-scoreboard players operation @e[tag=NewPet] FOLLOW_PLAYER = @s NUMEROJOUEUR
+team join spell31 @e[type=minecraft:frog,tag=NewPet,distance=..10]
+scoreboard players operation @e[type=minecraft:frog,tag=NewPet] OWNER = @s NUMEROJOUEUR
+scoreboard players operation @e[type=minecraft:frog,tag=NewPet] SPELL31_CAP = @s SPELL31_CAP
 
-execute as @e[tag=NewPet] run tag @s add GluttonPet
-execute as @e[tag=NewPet] run tag @s remove NewPet
-execute as @e[tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
+execute as @e[type=minecraft:frog,tag=NewPet] run tag @s add GluttonPet
+execute as @e[type=minecraft:frog,tag=NewPet] run tag @s remove NewPet
+execute as @e[type=minecraft:frog,tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
 
 scoreboard players remove @s DAHAL 350
 function att2:gameplay/dahal/action/spell31/cooldown

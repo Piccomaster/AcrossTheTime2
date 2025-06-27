@@ -8,3 +8,5 @@ execute as @e[nbt={UUID:[I;0,65551,0,65551]}] unless entity @s[tag=UtoN] run tel
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] run function att2:cinematic/act_2/owsastr/remove_all_tag
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] run tag @s add UtoN
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] unless score mech1 OWSASTR matches 0..1 run scoreboard players set mech1 OWSASTR 4
+#return 1->make command block runing
+return 1

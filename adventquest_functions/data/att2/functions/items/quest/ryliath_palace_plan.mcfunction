@@ -3,4 +3,4 @@
 #Obtain Ryliath palace plan                      #
 ##################################################
 
-give @s minecraft:paper{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cPlan du palais de Ryliath\"","Lore":["{\"text\":\"§4§oPlan of Ryliath palace\"}"]}} 1
+give @s minecraft:paper[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.ryliath_palace_plan.name'},lore=[{translate:'item.quest.lore'}]] 1

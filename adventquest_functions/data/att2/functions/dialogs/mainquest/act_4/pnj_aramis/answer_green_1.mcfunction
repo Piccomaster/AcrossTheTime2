@@ -53,6 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"O portal da cidade foi ativado.... Você precisará de gemas espaciais para isso. E não sinto que esse tipo de negócio seja um verdadeiro desafio para você.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"城市的传送门已经激活过了....所以，你需要更多的时间宝石。事实上我不觉得做到这种事情能对你构成挑战。","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis2
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_2_1
+

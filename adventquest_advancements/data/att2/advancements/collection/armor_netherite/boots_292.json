@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": {"translate":"Vagabondage dimensionnel"},
-        "description": {"translate":"Beautiful heavy steel, good elasticity at the ankles, a balanced weight on the toes."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
     },
-    "parent": "att2:collection/armor_netherite/boots_288",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_boots_292": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5Vagabondage dimensionnel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Du bel acier bien lourd, une bonne élasticité aux chevilles,\\\"}\",\"{\\\"text\\\":\\\"§7 un poids équilibré sur les orteils.\\\"}\",\"{\\\"text\\\":\\\"§7Beautiful heavy steel, good elasticity at the ankles,\\\"}\",\"{\\\"text\\\":\\\"§7a balanced weight on the toes.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HAS§a3 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.boots_292"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.boots_292"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/boots_288",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_boots_292": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "292"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

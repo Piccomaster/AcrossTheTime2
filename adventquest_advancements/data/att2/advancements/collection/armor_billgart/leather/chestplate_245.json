@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_chestplate"
-        },
-        "title": {"translate":"Raison inexistante"},
-        "description": {"translate":"At the intersection of extreme thinking and the last quarter of an hour, there is a large pile of tissue."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
     },
-    "parent": "att2:collection/armor_billgart/leather/chestplate_232",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "leather_chestplate_245": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Raison inexistante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A l'intersection de l'extrême pensée et du dernier\\\"}\",\"{\\\"text\\\":\\\"§7quart d'heure, se trouve une grande pile de tissus.\\\"}\",\"{\\\"text\\\":\\\"§7At the intersection of extreme thinking and the last\\\"}\",\"{\\\"text\\\":\\\"§7quarter of an hour, there is a large pile of tissue.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a5 §7HER§a5 §7LUC§a1 §7HUN§c-6\\\"}\"],color:16714478}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.chestplate_245"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.chestplate_245"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/leather/chestplate_232",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_chestplate_245": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "245"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

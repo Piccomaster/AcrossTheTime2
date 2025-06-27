@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_sword"
+            "id": "minecraft:iron_sword"
         },
-        "title": {"translate":"Iron weapon break"},
-        "description": {"translate":"Destroy an iron weapon in battle"}
+        "title": {"translate":"att2.advancement.combat.title.break_iron_weapon"},
+        "description": {"translate":"att2.advancement.combat.description.break_iron_weapon"}
     },
     "parent": "att2:combat/break_weapon",
     "rewards": {

@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Que luta! Foi impressionante. Você merece ficar com a arma daquela coisa horrível que atacou você... Bem, não tenho mais nada a fazer aqui, vou voltar para Soquaï para procurar fósseis, será menos perigoso... Especialmente agora que você expulsou todos os monstros do torrente.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"这真是一场惊心动魄的战斗！太令人印象深刻了。那把恐怖的武器你就留着吧...嗯，这里估计没有我要做的事情了，我要回Soquaï继续挖掘化石了，在你赶跑了那边的怪物之后，我至少不用冒着风险去干活了。","color":"dark_aqua"}]}

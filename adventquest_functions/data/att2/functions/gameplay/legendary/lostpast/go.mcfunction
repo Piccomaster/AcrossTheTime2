@@ -3,19 +3,9 @@
 #Process the effect of Lost Past	             #
 ##################################################
 
-scoreboard players set @a[scores={LP_USE=1..},nbt=!{SelectedItem:{tag:{EquipmentID:"lostpast"}}}] LP_USE 0
-scoreboard players remove @a[scores={HOLDING_LP=1..}] HOLDING_LP 1
-execute if score tic TIMECOUNTER matches 10..15 run scoreboard players set @a[gamemode=adventure,nbt={SelectedItem:{tag:{EquipmentID:"lostpast"}}}] HOLDING_LP 15
-
-execute as @a[scores={HOLDING_LP=1..,SHOOTING_LP=1..,LP_USE=0..,DAHAL=30..}] run function att2:gameplay/legendary/lostpast/updatearrow
-
-#In case the player doesn't have enough Dahäl, we reset the score SHOOTING_LP to 0
-scoreboard players set @a[scores={SHOOTING_LP=1..}] SHOOTING_LP 0
-
-execute as @e[scores={SHOOTING_LP=1..},type=!player] run function att2:gameplay/legendary/lostpast/upgradearrow
-
-execute as @e[scores={SHOOTING_LP=1..}] at @s run particle minecraft:firework ~ ~ ~ 0 0 0 0.1 5 force @a
-
-scoreboard players set @e[scores={SHOOTING_LP=3..},type=!player,nbt={inGround:1b}] INGROUND 1
-kill @e[scores={SHOOTING_LP=3..,INGROUND=1..},type=!player]
-scoreboard players reset @a INGROUND
+# un hold ->over
+execute as @a[scores={SHOOTING_LP=1..},predicate=!att2_pre:legendary/lostpast/hand] at @s run function att2:gameplay/legendary/lostpast/reset
+#hold effect
+execute as @a[predicate=att2_pre:legendary/lostpast/hand] at @s run function att2:gameplay/legendary/lostpast/hold_go
+#arrow effect
+execute as @e[type=#minecraft:arrows,tag=LP_SHOOTED] at @s run function att2:gameplay/legendary/lostpast/arrow_effect

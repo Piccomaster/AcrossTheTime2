@@ -6,14 +6,13 @@
 execute positioned ~1 ~ ~1 run function att2:summon/dahal/wolf0_class7
 execute positioned ~ ~ ~ run function att2:summon/dahal/wolf0_class7
 execute positioned ~1 ~ ~-1 run function att2:summon/dahal/wolf0_class7
-scoreboard players operation @e[tag=Spell25] BELONG_PLAYER1 = @s NUMEROJOUEUR
-execute as @e[tag=Spell25] run tag @s remove Spell25
+scoreboard players operation @e[type=wolf,tag=NewInvo,tag=Spell25] OWNER = @s NUMEROJOUEUR
 scoreboard players remove @s DAHAL 130
 function att2:gameplay/dahal/action/spell25/cooldown
 execute as @e[tag=NewInvo,type=minecraft:wolf,distance=..7] at @s run data modify entity @s Owner set from entity @p UUID
 
 scoreboard players set @s SPELL25_MAX 3
-execute at @s as @e[type=minecraft:wolf,tag=!NewInvo,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell25/wolf_max
+execute at @s as @e[type=minecraft:wolf,tag=!NewInvo,scores={OWNER=1..}] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell25/wolf_max
 
 scoreboard players add @s SPELL25_LVL 4
 function att2:gameplay/dahal/bonus_xp

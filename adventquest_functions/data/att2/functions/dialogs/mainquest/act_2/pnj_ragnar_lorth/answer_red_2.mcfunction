@@ -56,5 +56,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"E não te ver causará ainda menos! Boa sorte na sua busca....","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"然而她见不到你就更不会有什么影响！祝你好运...","color":"dark_aqua"}]}
 
 function att2:voice/ragnar/ragnar5
+

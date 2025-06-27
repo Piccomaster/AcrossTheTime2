@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:iron_shovel"
-        },
-        "title": {"translate":"Requiem du jour"},
-        "description": {"translate":"The light is only illusory, everything	is night and is only revealed then."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
     },
-    "parent": "att2:collection/weapon_iron/shovel_90",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "iron_shovel_94": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:iron_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§6Requiem du jour\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La lumière n'est qu'illusoire, tout\\\"}\",\"{\\\"text\\\":\\\"§7n'est que nuit et ne se révèle qu'alors.\\\"}\",\"{\\\"text\\\":\\\"§7The light is only illusory, everything\\\"}\",\"{\\\"text\\\":\\\"§7is night and is only revealed then.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.shovel_94"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.shovel_94"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/shovel_90",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_shovel_94": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "94"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

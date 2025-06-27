@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_hoe"
-        },
-        "title": {"translate":"Bâton travaillé"},
-        "description": {"translate":"Rather primitive as an instrument..."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe"
     },
-    "parent": "att2:collection/weapon_angband/hoe_320",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "golden_hoe_321": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§2Bâton travaillé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plutôt primitif comme instrument...\\\"}\",\"{\\\"text\\\":\\\"§7Rather primitive as an instrument...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.hoe_321"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.hoe_321"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/hoe_320",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_hoe_321": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "321"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

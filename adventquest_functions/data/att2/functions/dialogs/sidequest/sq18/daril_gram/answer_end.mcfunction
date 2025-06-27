@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Daril Gram : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Finalmente… Você vingou Daniel. Eles não machucarão mais ninguém… Aqui, é para você…","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"结束了...你为Daniel报了仇。那些疯子不会再伤害别人了...这是给你的报酬...","color":"dark_aqua"}]}

@@ -23,7 +23,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:fishing_rod"
+                            "minecraft:carrot_on_a_stick"
                         ],
                         "nbt": "{Dahal:launcher}"
                     }

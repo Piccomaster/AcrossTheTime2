@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alexandre : ","color":"green","
 
 
 function att2:dialogs/sidequest/sq34/alexandre/player_proposal_2/choice_1
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"所以，你会帮我带着石材回到工地吗？","color":"dark_aqua"}]}

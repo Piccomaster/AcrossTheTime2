@@ -3,5 +3,6 @@
 #Obtain item golden_helmet_148          #
 #####################################
 
-give @s minecraft:golden_helmet{EquipmentType:"armor",Rarity:"rar",Manufacturer:"eternan",Shop:"buy",Effect:"spd2_luc1_str_2",display:{Name:"\"§9Tête platinée\"","Lore":["{\"text\":\"§7Protège avec longévité le plus\"}","{\"text\":\"§7important de vos atouts.\"}","{\"text\":\"§7Protects with longevity the most\"}","{\"text\":\"§7important of your assets.\"}","{\"text\":\"§7SPD§a2 §7LUC§a1 §7STR§c-2\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.71,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.33,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]} 1
+give @s minecraft:golden_helmet[custom_data={EquipmentType:'armor',Rarity:'rar',Manufacturer:'eternan',Shop:'buy',SPD:2,LUC:1,STR:-2,Armor:'148'},custom_name={translate:'armor148.name'},lore=[{translate:'armor148.lore.1'},{translate:'armor148.lore.2'},{translate:'armor148.stat'}],max_damage=80,damage=0,enchantments={'unbreaking':1},attribute_modifiers=[{slot:'head',type:'armor',id:'armor.helmet',operation:'add_value',amount:2.71},{slot:'head',type:'armor_toughness',id:'armor.helmet',operation:'add_value',amount:0.33}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

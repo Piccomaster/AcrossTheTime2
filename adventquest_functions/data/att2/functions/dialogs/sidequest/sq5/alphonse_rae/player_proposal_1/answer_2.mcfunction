@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Ah, sim, e como ele acha que estou sem meus coelhos, garoto? Enfim, a coisa se esconde em uma caverna à beira do rio, eu a vi! Siga o riacho através da floresta, a toca estará na margem direita...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"啊，是的，他怎么会明白我没有我的兔子崽崽会怎么样呢？我看见那东西就安静地躺在河边的一个山洞里！顺着溪流穿过森林，洞穴就在右岸...","color":"dark_aqua"}]}

@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"सक्रिय लावा,
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Magma animado, o sectário prejudicial","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"躁动岩浆，极恶教主","color":"gray"}

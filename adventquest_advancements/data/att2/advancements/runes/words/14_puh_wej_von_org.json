@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:plenty_pottery_sherd"
+            "id": "minecraft:plenty_pottery_sherd"
         },
-        "title": {"translate":"Spirit"},
-        "description": {"translate":"Make runic word: Puh Wej Von Org"},
+        "title": {"translate":"att2.advancement.runes.title.14_puh_wej_von_org"},
+        "description": {"translate":"att2.advancement.runes.description.14_puh_wej_von_org"},
         "frame": "goal"
     },
-    "parent": "att2:runes/root",
+    "parent": "att2:runes/words/13_tha_bex_for",
     "rewards": {
         "function": "att2:advancement/exploit_30",
         "experience": 10000

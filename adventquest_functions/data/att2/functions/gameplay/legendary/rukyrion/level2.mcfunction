@@ -11,5 +11,5 @@ scoreboard players set @s TIMER_SPD_LE 60
 scoreboard players remove @s DAHAL 25
 
 # Visual effect
-execute at @s run particle minecraft:item minecraft:nether_wart_block ~ ~ ~ 0 0 0 1.2 100 normal
+execute at @s run particle minecraft:item{item:"minecraft:nether_wart_block"} ~ ~ ~ 0 0 0 1.2 100 normal
 execute at @s run playsound minecraft:entity.ender_dragon.growl player @s ~ ~ ~ 0.1 0.2

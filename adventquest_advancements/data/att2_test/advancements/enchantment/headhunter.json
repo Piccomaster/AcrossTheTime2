@@ -1,0 +1,66 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/enchantment/trigger_function/headhunter"
+  },
+  "criteria": {
+    "headhunter_left": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "#minecraft:arrows",
+              "nbt": "{Tags:['HEADHUNTER']}"
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:bow",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "att2_enchantment:headhunter"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "headhunter_right": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "#minecraft:arrows"
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:bow",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "att2_enchantment:headhunter"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "headhunter_left",
+      "headhunter_right"
+    ]
+  ]
+}

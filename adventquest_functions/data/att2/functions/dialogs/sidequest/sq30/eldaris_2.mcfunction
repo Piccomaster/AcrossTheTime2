@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° रानी एल्डार�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Rainha Eldaris : ","color":"gold","extra":[{"text":"Ouça, por favor, e tente entender. Adrian, meu rei, se destaca em sua função, mas apesar de coisas muito mais importantes para sua esposa...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 女王 Eldaris : ","color":"gold","extra":[{"text":"请你听我解释。我的国王Adrian,他在自己的职责上表现的十分出色，但是对于他的妻子来说，需要其他更重要的事...","color":"dark_aqua"}]}

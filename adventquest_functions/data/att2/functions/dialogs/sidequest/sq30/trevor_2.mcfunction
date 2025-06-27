@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Commandant Trevor : ","color":"g
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"...visitas inesperadas... Eu desejo você, mais de uma vez por lua, minha querida... O que!? Quem é você!? E como você chegou aqui!?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"...暗中观察...我想和你一起度过今晚，亲爱的...什么！？你是谁！？你是怎么到这个地方的？！","color":"dark_aqua"}]}

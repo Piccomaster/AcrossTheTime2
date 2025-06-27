@@ -3,4 +3,4 @@
 #Obtain item potion_54          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"epi",Shop:"buy",Effect:"str2_spd3_hun1_dar_2",display:{Name:"\"§5Philtre magique\"","Lore":["{\"text\":\"§7De quoi prouver la sincérité des intentions,\"}","{\"text\":\"§7louables à la création de ces infusions.\"}","{\"text\":\"§7Enough to prove the sincerity of intentions,\"}","{\"text\":\"§7laudable to the creation of these infusions.\"}","{\"text\":\"§7STR§a2 §7SPD§a3 §7HUN§a1 §7DAR§c-2\"}"]},CustomPotionColor:10708955,custom_potion_effects:[{id:instant_health,amplifier:4,duration:0,show_particles:0b},{id:water_breathing,amplifier:0,duration:1200,show_particles:0b}]} 1
+give @s minecraft:potion[custom_data={STR:2,SPD:3,HUN:1,DAR:-2,EquipmentType:"potion",Rarity:"epi",Shop:"buy",Potion:'54'},custom_name={translate:'potion54.name'},lore=[{translate:'potion54.lore.1'},{translate:'potion54.lore.2'},{translate:'potion54.stat'}],max_stack_size=16,potion_contents={custom_color:10708955,custom_effects:[{amplifier:4,duration:0,id:"instant_health",show_particles:0b},{amplifier:0,duration:1200,id:"water_breathing",show_particles:0b}]}] 1

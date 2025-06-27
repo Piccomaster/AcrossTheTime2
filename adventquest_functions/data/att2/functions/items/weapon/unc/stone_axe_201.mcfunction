@@ -3,5 +3,6 @@
 #Obtain item stone_axe_201          #
 #####################################
 
-give @s minecraft:stone_axe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"graceful",Shop:"buy",Effect:"str1_has_1",display:{Name:"\"§2Équarisseur\"","Lore":["{\"text\":\"§7Les bêtes te craignent.\"}","{\"text\":\"§7The beasts fear you.\"}","{\"text\":\"§7STR§a1 §7HAS§c-1\"}"]},Damage:37,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:11.19,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.9299999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30001,0,10000]}]} 1
+give @s minecraft:stone_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"graceful",Shop:"buy",STR:1,HAS:-1,Weapon:"201"},custom_name={translate:"weapon201.name"},lore=[{translate:"weapon201.lore.1"},{translate:"weapon201.lore.2"},{translate:"weapon201.stat"}],max_damage=140,damage=37,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:11.19},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.93},{slot:"mainhand",type:"max_health",id:"max_health",operation:"add_value",amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

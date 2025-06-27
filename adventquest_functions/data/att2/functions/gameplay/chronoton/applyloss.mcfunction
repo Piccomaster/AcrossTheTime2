@@ -3,10 +3,8 @@
 #Apply loss for Chronotons when dying							#
 #################################################################
 
-scoreboard players operation @s CHRONOTONquart = @s CHRONOTON
-execute if score level DIFFICULTY matches -1 run scoreboard players operation @s CHRONOTONquart /= 20 OP_CHRONOTON2
-execute if score level DIFFICULTY matches 0 run scoreboard players operation @s CHRONOTONquart /= 10 OP_CHRONOTON2
-execute if score level DIFFICULTY matches 1 run scoreboard players operation @s CHRONOTONquart /= 5 OP_CHRONOTON2
-execute if score level DIFFICULTY matches 2 run scoreboard players operation @s CHRONOTONquart /= 2 OP_CHRONOTON2
-scoreboard players operation @s CHRONOTON -= @s CHRONOTONquart
-scoreboard players set @s CHRONOTONquart 0
+execute if score level DIFFICULTY matches -1 run scoreboard players operation @s CHRONOTON *= 95 CAL
+execute if score level DIFFICULTY matches 0 run scoreboard players operation @s CHRONOTON *= 90 CAL
+execute if score level DIFFICULTY matches 1 run scoreboard players operation @s CHRONOTON *= 80 CAL
+execute if score level DIFFICULTY matches 2 run scoreboard players operation @s CHRONOTON *= 50 CAL
+scoreboard players operation @s CHRONOTON /= 100 CHRONOTON

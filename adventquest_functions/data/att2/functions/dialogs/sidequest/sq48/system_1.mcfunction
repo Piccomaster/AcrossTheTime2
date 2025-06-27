@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"सोम्नियोफैग स�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Somniofagos recuperam todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Somniophages恢复了它们所有的力量...","color":"gray","italic":true}

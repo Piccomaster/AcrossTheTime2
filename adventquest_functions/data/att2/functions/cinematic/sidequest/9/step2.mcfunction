@@ -23,3 +23,5 @@ function att2:items/quest/log_of_wood
 function att2:items/quest/log_of_wood
 function att2:items/quest/log_of_wood
 function att2:items/quest/log_of_wood
+#return 1->make command block runing
+return 1

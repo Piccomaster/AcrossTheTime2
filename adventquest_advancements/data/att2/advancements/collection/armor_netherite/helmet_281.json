@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_helmet"
-        },
-        "title": {"translate":"Armet sanglant"},
-        "description": {"translate":"No battle ever made him old"},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
     },
-    "parent": "att2:collection/armor_netherite/helmet_274",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "netherite_helmet_281": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Armet sanglant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aucune bataille ne le fit jamais vieillir\\\"}\",\"{\\\"text\\\":\\\"§7No battle ever made him old\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.helmet_281"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.helmet_281"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/helmet_274",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "netherite_helmet_281": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_helmet"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "281"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

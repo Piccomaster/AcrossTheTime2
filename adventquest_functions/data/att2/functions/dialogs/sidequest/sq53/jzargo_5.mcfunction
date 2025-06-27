@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Lá, J'zargo descobrirá quais segredos estão escondidos nesse lugar tão distante. 'Gota d'água no mar, folha na árvore, seu brilho único só se revela para os desinteressados e humildes.' Ele não quer mais ver o aluno insolente, se o encontrar novamente, transformará esse verme miserável em pó usando seu Dahäl.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"在那里，J'zargo将会发现这处与世隔绝的地方都藏着哪些秘密。“海里的水滴，树上的叶子，它那独特的光芒只展示给那些无畏且谦逊的人。”他现在不想再看到那个无礼的学徒，如果再遇到他，他将用他的dahal把那可悲的虫子炸成灰。","color":"dark_aqua"}]}

@@ -17,3 +17,5 @@ scoreboard players set tower_nw_mech3_yellow BILLGART 0
 
 function att2:physicmod/reg3/dungeon/tower_nw/mech3_reset
 execute at @s run function att2:sound/misc/power_failure
+#return 1->make command block runing
+return 1

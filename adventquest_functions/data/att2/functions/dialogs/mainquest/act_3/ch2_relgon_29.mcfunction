@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Isso não impediu La Flamme Noire de entrar, mas definitivamente restringiu o acesso mortal à fonte. Além disso, ela continuou a espalhar o medo no reino nos últimos trinta ciclos.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"虽然封印无法阻挡La_Flamme_Noire，但成功断绝了其他人接近泉源的可能。与此同时，她也在过去三十个轮回中不断地在王国降下灾祸。","color":"dark_aqua"}]}

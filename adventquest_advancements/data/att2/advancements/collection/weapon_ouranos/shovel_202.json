@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_shovel"
-        },
-        "title": {"translate":"Vieille dague"},
-        "description": {"translate":"Never rust."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_shovel"
     },
-    "parent": "att2:collection/weapon_ouranos/shovel_199",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "stone_shovel_202": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§2Vieille dague\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne rouille jamais.\\\"}\",\"{\\\"text\\\":\\\"§7Never rust.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7HUN§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.shovel_202"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.shovel_202"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/shovel_199",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_shovel_202": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "202"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

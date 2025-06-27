@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_shovel"
-        },
-        "title": {"translate":"Âme volcanique"},
-        "description": {"translate":"As you were born, my sister."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel"
     },
-    "parent": "att2:collection/weapon_diamond/shovel_116",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_shovel_117": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Âme volcanique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telle tu naquis, ma sœur.\\\"}\",\"{\\\"text\\\":\\\"§7As you were born, my sister.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a1 §7HAS§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.shovel_117"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.shovel_117"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/shovel_116",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_shovel_117": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "117"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

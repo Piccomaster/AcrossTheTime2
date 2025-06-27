@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_sword"
-        },
-        "title": {"translate":"Rondelle abîmée"},
-        "description": {"translate":"Judicious to give up the fight with this in hand..."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
     },
-    "parent": "att2:collection/weapon_netherite/sword_284",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "netherite_sword_285": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Rondelle abîmée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Judicieux d'abandonner le combat avec ceci en main...\\\"}\",\"{\\\"text\\\":\\\"§7Judicious to give up the fight with this in hand...\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.sword_285"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.sword_285"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/sword_284",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_sword_285": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "285"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

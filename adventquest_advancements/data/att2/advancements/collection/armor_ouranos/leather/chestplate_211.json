@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:elytra"
-        },
-        "title": {"translate":"Pelzion"},
-        "description": {"translate":"The distance becomes subjective, the altitude anodyne, the speed affable, when the knowledge of Iio's children carries you."},
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
     },
-    "parent": "att2:collection/armor_ouranos/leather/helmet_210",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "iron_chestplate_211": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:elytra"],
-                    "nbt": "{display:{Name:\"\\\"§5Pelzion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLa distance devient subjective, l'altitude anodine, la vitesse\\\"}\",\"{\\\"text\\\":\\\"§aaffable, quand vous porte le savoir des enfants d'Iio.\\\"}\",\"{\\\"text\\\":\\\"§aThe distance becomes subjective, the altitude anodyne, the speed\\\"}\",\"{\\\"text\\\":\\\"§aaffable, when the knowledge of Iio's children carries you.\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.title.chestplate_211"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.leather.description.chestplate_211"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/leather/helmet_210",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "leather_chestplate_211": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:elytra"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "211"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

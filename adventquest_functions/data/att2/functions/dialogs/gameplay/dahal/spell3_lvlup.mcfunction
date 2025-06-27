@@ -45,3 +45,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Inferno के लिए नया स�
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Inferno!","color":"gold"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"“烈焰灼地”已升级！ ","color":"gold"}

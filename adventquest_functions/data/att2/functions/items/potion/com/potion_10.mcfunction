@@ -3,4 +3,4 @@
 #Obtain item potion_10          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"com",Shop:"buy",Effect:"dar1_spd_3",display:{Name:"\"§7Boisson Infecte\"","Lore":["{\"text\":\"§7Se boucher le nez,\"}","{\"text\":\"§7semble être la meilleure solution.\"}","{\"text\":\"§7Hold your nose,\"}","{\"text\":\"§7seems to be the best solution.\"}","{\"text\":\"§7DAR§a1 §7SPD§c-3\"}"]},CustomPotionColor:12028367} 1
+give @s minecraft:potion[custom_data={DAR:1,SPD:-3,EquipmentType:'potion',Rarity:'com',Shop:'buy',Potion:'10'},custom_name={translate:'potion10.name'},lore=[{translate:'potion10.lore.1'},{translate:'potion10.lore.2'},{translate:'potion10.stat'}],max_stack_size=16,potion_contents={custom_color:12028367}] 1

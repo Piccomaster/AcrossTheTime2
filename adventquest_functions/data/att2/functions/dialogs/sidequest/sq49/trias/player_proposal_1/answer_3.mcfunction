@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Você é tão honrado quanto generoso. Mas, por favor, aceite minhas mais sinceras apreciações e esta modesta, mas prometida, recompensa.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"我从未见过像你这样高尚又慷慨的人。请接受我最诚挚的感谢,还有我之前承诺过的，虽然不多，但还是请你收下这些报酬。","color":"dark_aqua"}]}

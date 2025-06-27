@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- कभी-कभी, मुझे 
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Às vezes, acho que simplesmente não há pedras suficientes -°- : ","color":"gray","extra":[{"text":"Eu só encontrei uma pequena chave com uma inscrição estranha. Com certeza deve abrir outro baú ou uma porta nas proximidades que eu espero que esconda um verdadeiro tesouro...","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 有时， 我猜只是没有足够的石头 -°- : ","color":"gray","extra":[{"text":"我找到一把带有奇怪铭文的钥匙，应该能打开藏在附近的一个箱子或一扇门。希望能找到真正的宝藏。","color":"aqua","italic":true}]}

@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Sim, eu sei, mas eu ficarei aliviada quando você se livrar desses malditos planos. O pai não me deixa te ver, então se ele descobrir que você é o autor desse roubo, ele te jogará na prisão sem hesitar!","color":"blue"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"我当然知道，你得把这些该死的设计图放回原位，我才能放心。我的父亲不让我见你，如果他知道这个盗窃案是你搞出来的，他一定会把你送进监狱的！","color":"blue"}]}

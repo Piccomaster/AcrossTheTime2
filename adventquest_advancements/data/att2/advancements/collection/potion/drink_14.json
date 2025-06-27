@@ -1,29 +1,43 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor:9879515}"
-        },
-        "title": {"translate":"Falcon      "},
-        "description": {"translate":"The predator on the lookout is always ready to fall on his enemy."},
-        "show_toast": false,
-        "announce_to_chat": true
-    },
-    "parent": "att2:collection/potion/drink_13",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "potion_14": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§2Falcon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le prédateur aux aguets est toujours\\\"}\",\"{\\\"text\\\":\\\"§7prêt à s'abattre sur son ennemi.\\\"}\",\"{\\\"text\\\":\\\"§7The predator on the lookout\\\"}\",\"{\\\"text\\\":\\\"§7is always ready to fall on his enemy.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a2 §7STR§c-3\\\"}\"]}}"
-                    }
-                ]
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "predicates": {
+        "minecraft:custom_data": {
+          "Potion": "14"
         }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_14"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_14"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion/drink_13",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "potion_14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:potion"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Potion": "14"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

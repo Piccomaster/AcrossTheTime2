@@ -5,7 +5,7 @@
 
 playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 0.8
 
-scoreboard players set leg SPELL31 15
+scoreboard players operation leg SPELL31 = leg SPELL31_DATA
 scoreboard players operation leg SPELL31 *= @s SPELL31_CAP
 
 scoreboard players operation @s CHRONOTON += leg SPELL31
@@ -30,5 +30,5 @@ function att2:gameplay/dahal/action/spell31/spell_xp
 
 #add item count
 scoreboard players operation @s spell31_count += leg SPELL31
-execute if score @s spell31_count matches 7777.. as @e[tag=GluttonPet,type=minecraft:frog] if score @a[distance=..0,limit=1] NUMEROJOUEUR = @s FOLLOW_PLAYER at @s run scoreboard players set @s spell31_reward_go 77
+execute if score @s spell31_count matches 7777.. as @e[tag=GluttonPet,type=minecraft:frog] if score @a[distance=..0,limit=1] NUMEROJOUEUR = @s OWNER at @s run scoreboard players set @s spell31_reward_go 77
 execute if score @s spell31_count matches 7777.. run scoreboard players set @s spell31_count 0

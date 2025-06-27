@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_chestplate"
-        },
-        "title": {"translate":"Toute-puissante Thoréën"},
-        "description": {"translate":"Of a quasi-imperceptible superiority, it exacerbates from soma to the obstinacy of its carrier."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
     },
-    "parent": "att2:collection/armor_netherite/chestplate_290",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_chestplate_294": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Toute-puissante Thoréën\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7D'une supériorité quasi-imperceptible, elle exacerbe\\\"}\",\"{\\\"text\\\":\\\"§7du soma jusqu'à l'obstination de son porteur.\\\"}\",\"{\\\"text\\\":\\\"§7Of a quasi-imperceptible superiority, it exacerbates\\\"}\",\"{\\\"text\\\":\\\"§7from soma to the obstinacy of its carrier.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7HER§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.chestplate_294"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.chestplate_294"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/chestplate_290",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_chestplate_294": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "294"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

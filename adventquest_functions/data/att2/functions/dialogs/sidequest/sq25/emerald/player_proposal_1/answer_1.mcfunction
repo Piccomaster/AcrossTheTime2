@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Na verdade, é minha filha: ela ainda é jovem e eu comecei a viagem para encontrá-la. Ela sempre foi apaixonada por encontrar tesouros, mas faz o que quer e já se passaram quatro anos desde que ela partiu... No entanto, encontrei uma pista em uma mina não muito longe a leste daqui. Infelizmente, a idade está me alcançando, então gostaria que você desse uma olhada. Certamente há lugares escondidos onde ela pode ter se escondido. Conto com você!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"她是我的女儿：她还很年轻的时候我就开始寻找她。她一直热衷于寻宝，但她总是随心所欲，自从她离开已经快四年了...不过我在东边离这里不远的矿井里发现了一条线索。唉，岁月不饶人啊，我想请你进去查看一下。她肯定溜到了一些隐蔽的地方。我现在只能指望你了！ ","color":"dark_aqua"}]}

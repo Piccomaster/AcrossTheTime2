@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_shovel"
-        },
-        "title": {"translate":"Lancinement"},
-        "description": {"translate":"Discreet, it inexorably leads to an incisive cold."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel"
     },
-    "parent": "att2:collection/weapon_stone/shovel_22",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "wooden_shovel_27": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:wooden_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§5Lancinement\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Discret, il conduit inexorablement\\\"}\",\"{\\\"text\\\":\\\"§7vers un froid incisif.\\\"}\",\"{\\\"text\\\":\\\"§7Discreet, it inexorably leads\\\"}\",\"{\\\"text\\\":\\\"§7to an incisive cold.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7DAR§a2 §7HER§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.shovel_27"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.shovel_27"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/shovel_22",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "wooden_shovel_27": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "27"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

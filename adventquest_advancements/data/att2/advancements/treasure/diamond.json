@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond"
+            "id": "minecraft:diamond"
         },
-        "title": {"translate":"My precious"},
-        "description": {"translate":"Better a diamond with a flaw than a pebble without"},
-        "frame": "goal"
+        "title": {"translate": "att2.advancement.treasure.title.diamond"},
+        "description": {"translate": "att2.advancement.treasure.description.diamond"},
+        "frame": "challenge"
     },
     "parent": "att2:treasure/money",
     "rewards": {
@@ -18,8 +18,9 @@
             "conditions": {
                 "items": [
                     { 
-                    "items": ["minecraft:diamond"],
-                    "nbt": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§b§oDiamant\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§b§oDiamond\\\"}\",\"{\\\"text\\\":\\\"§6+50 Chronotons\\\"}\"]}}"
+                    "items": [
+                        "minecraft:diamond"
+                        ]
                     }
                 ]
             }

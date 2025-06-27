@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"उल्कोगुमी अपन�
 
 # PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Ulkoggumi está restaurando toda a sua saúde de volta...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"Ulkokgumi 已然恢复如初...","color":"gray","italic":true}

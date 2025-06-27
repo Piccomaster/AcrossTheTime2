@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"No entanto, no covil da guardiã, não encontramos Flamme Noire, a única meia-deusa do reino de Angband, mas sim um monstro colossal e destrutivo... Flamme Noire tinha se transformado horrivelmente.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"然而，我们没有在守护者的巢穴中发现这位Angband王国唯一的半神Flamme_Noire。迎接我们的，是一只庞大的、破坏性极强的怪物—Flamme_Noire身上发生了惊天巨变。","color":"dark_aqua"}]}

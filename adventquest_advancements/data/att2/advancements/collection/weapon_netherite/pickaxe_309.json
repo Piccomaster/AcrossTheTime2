@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_pickaxe"
-        },
-        "title": {"translate":"Concasseur d'os"},
-        "description": {"translate":"Seeing her, many are the warriors who broke a leg."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
     },
-    "parent": "att2:collection/weapon_netherite/pickaxe_301",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "netherite_pickaxe_309": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§5Concasseur d'os\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En la voyant, nombreux sont les guerriers\\\"}\",\"{\\\"text\\\":\\\"§7qui ont pris leurs jambes à leur cou.\\\"}\",\"{\\\"text\\\":\\\"§7Seeing her, many are the warriors\\\"}\",\"{\\\"text\\\":\\\"§7who broke a leg.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.pickaxe_309"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.pickaxe_309"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/pickaxe_301",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_pickaxe_309": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_pickaxe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "309"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

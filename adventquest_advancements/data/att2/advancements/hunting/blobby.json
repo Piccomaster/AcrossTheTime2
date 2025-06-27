@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
+            "id": "minecraft:player_head",
             "nbt": "{SkullOwner:{Id:[I;2131429491,-546682343,-1681000759,251135175],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0=\"}]}}}"
         },
-        "title": {"translate":"Blobby"},
-        "description": {"translate":"Kill Blobby boss"},
+        "title": {"translate":"att2.advancement.hunting.title.blobby"},
+        "description": {"translate":"att2.advancement.hunting.description.blobby"},
         "hidden": true
     },
     "parent": "att2:hunting/root",

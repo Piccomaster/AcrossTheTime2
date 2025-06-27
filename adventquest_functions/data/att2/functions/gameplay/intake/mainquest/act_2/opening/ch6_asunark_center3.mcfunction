@@ -3,7 +3,7 @@
 #Manage intake gemstone in Asunark center pillar se #
 #####################################################
 
-clear @s minecraft:prismarine_crystals{display:{"Lore":["{\"text\":\"§4§oTurquoise gemstone\"}"]}} 1
+clear @s minecraft:prismarine_crystals[custom_name={translate:'item.quest.turquoise_gemstone.name'}] 1
 scoreboard players add Pillar_SE ASUNARK 1
 execute positioned -3422 29 -4921 run function att2:gameplay/intake/effect
 

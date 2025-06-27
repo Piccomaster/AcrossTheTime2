@@ -60,3 +60,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*Sem entusiasmo, seriamente* Bem-vindo viajante. Eu sou Relgon, General dos exércitos de Eternäns e representante do trono de Angband. Qual é o seu nome e de que reino você vem?","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*冷漠严肃地*欢迎你，旅行者。我是Relgon，Eternäns军队的将军和Angband王室的代表。敢问阁下姓甚名谁，来自哪个王国？","color":"dark_aqua"}]}

@@ -6,3 +6,5 @@
 tag @e[tag=fireSeal] remove fireSeal
 tp @s ~ ~ ~ 180 0
 function att2:cinematic/neth0_iteration
+#return 1->make command block runing
+return 1

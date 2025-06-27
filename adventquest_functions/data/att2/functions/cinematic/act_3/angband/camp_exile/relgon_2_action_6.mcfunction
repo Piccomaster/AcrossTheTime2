@@ -9,3 +9,5 @@ function att2:dialogs/title/a3_ch3_subtitle1
 
 tag @a remove NoAutoMusic
 scoreboard players set @a MUSIC_TIMER 1000
+#return 1->make command block runing
+return 1

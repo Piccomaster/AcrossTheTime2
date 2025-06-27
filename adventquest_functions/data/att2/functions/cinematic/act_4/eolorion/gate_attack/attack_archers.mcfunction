@@ -28,3 +28,5 @@ summon minecraft:arrow -5347 111 -6302 {Fire:100,Motion:[-0.7,2.1,-0.5],damage:4
 summon minecraft:arrow -5352 118 -6307 {Fire:100,Motion:[-0.7,1.5,-0.3],damage:4.0,pickup:0}
 summon minecraft:arrow -5345 131 -6315 {Fire:100,Motion:[-1.1,1.0,0.0],damage:4.0,pickup:0}
 summon minecraft:arrow -5363 121 -6297 {Fire:100,Motion:[-0.7,0.9,-0.6],damage:4.0,pickup:0}
+#return 1->make command block runing
+return 1

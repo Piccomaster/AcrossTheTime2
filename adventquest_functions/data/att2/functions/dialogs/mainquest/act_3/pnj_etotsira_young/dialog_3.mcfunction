@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"La Flamme Noire me lembra um daqueles monstros que invadiram Tellurön há muito tempo. Não há nada que me aterrorize mais do que a memória deles...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"La_Flamme_Noire让我回忆起很久以前入侵Tellurön的那些怪物，没有什么东西比这些记忆更让我感到恐惧...","color":"dark_aqua"}]}

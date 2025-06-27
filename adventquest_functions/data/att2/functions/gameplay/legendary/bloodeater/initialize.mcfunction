@@ -3,10 +3,8 @@
 #Initialize Blood-eater 	            	        #
 #####################################################
 
-scoreboard objectives add HOLDING_BE dummy
-scoreboard objectives add BE_EFFECT minecraft.custom:minecraft.damage_dealt
-scoreboard players set @s HOLDING_BE 0
-scoreboard players set @s BE_EFFECT 0
-scoreboard players set 300 BE_EFFECT 300
-scoreboard players set 200 BE_EFFECT 200
-scoreboard players set 100 BE_EFFECT 100
+scoreboard objectives add BE_USING dummy
+scoreboard objectives add BE_TIME dummy
+scoreboard objectives add BE_ATK dummy
+scoreboard objectives add BE_COOLDOWN dummy
+

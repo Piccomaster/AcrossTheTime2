@@ -3,5 +3,6 @@
 #Obtain item golden_leggings_136          #
 #####################################
 
-give @s minecraft:golden_leggings{EquipmentType:"armor",Rarity:"com",Manufacturer:"eternan",Shop:"buy",Effect:"spd_2",display:{Name:"\"§7Aspän\"","Lore":["{\"text\":\"§7Cadeau de ton cousin.\"}","{\"text\":\"§7A gift from your cousin.\"}","{\"text\":\"§7SPD§c-2\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.25,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:golden_leggings[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'eternan',Shop:'buy',SPD:-2,Armor:'136'},custom_name={translate:'armor136.name'},lore=[{translate:'armor136.lore.1'},{translate:'armor136.lore.2'},{translate:'armor136.stat'}],max_damage=110,damage=0,attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:1.25},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:0}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

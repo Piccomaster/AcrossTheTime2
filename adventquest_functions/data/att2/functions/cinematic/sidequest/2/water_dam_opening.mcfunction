@@ -24,3 +24,5 @@ execute if score Real2 TIMER matches 199 as @a[gamemode=spectator] run function 
 
 execute if score Real2 TIMER matches 201.. run scoreboard players set water_dam SQ2 0
 execute if score Real2 TIMER matches ..200 run function att2:cinematic/real2_iteration
+#return 1->make command block runing
+return 1

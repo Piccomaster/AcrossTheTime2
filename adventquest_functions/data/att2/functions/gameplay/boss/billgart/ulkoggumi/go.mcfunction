@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-particle minecraft:dust 1 0 0 1 -1137 111 -560 0.1 1 1 0 5 force
-particle minecraft:dust 1 0 0 1 -1134 107 -541 1 1 0.1 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -1137 111 -560 0.1 1 1 0 5 force
+particle minecraft:dust{color:[1,0,0],scale:1} -1134 107 -541 1 1 0.1 0 5 force
 
 # Music management
 execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end as @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
@@ -17,7 +17,7 @@ execute if score Ulkoggumi BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] r
 
 # Enable Bossbar storing health of Ulkoggumi
 execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] store result bossbar minecraft:ulkoggumi value run data get entity 00000000-0000-010b-0000-00000000010b Health
-execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] store result bossbar minecraft:ulkoggumi max run data get entity 00000000-0000-010b-0000-00000000010b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] store result bossbar minecraft:ulkoggumi max run data get entity 00000000-0000-010b-0000-00000000010b attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 161 in minecraft:the_end as @a[x=-1138,y=110,z=-561,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/ulkoggumi/display_title

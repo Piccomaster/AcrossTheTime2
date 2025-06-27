@@ -3,5 +3,6 @@
 #Obtain item diamond_axe_96          #
 #####################################
 
-give @s minecraft:diamond_axe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",Effect:"has_1",display:{Name:"\"§7Simpléclat\"","Lore":["{\"text\":\"§7Brille d'une finesse remarquable.\"}","{\"text\":\"§7Shine of remarkable finesse.\"}","{\"text\":\"§7HAS§c-1\"}"]},Damage:1500,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:5.62,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.96,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Shop:"buy",HAS:-1,Weapon:"96"},custom_name={translate:"weapon96.name"},lore=[{translate:"weapon96.lore.1"},{translate:"weapon96.lore.2"},{translate:"weapon96.stat"}],max_damage=1560,damage=1500,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:5.62},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.96}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_com

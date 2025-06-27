@@ -1,28 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_hoe"
-        },
-        "title": {"translate":"Long poinçon"},
-        "description": {"translate":"Ancestral manufacture."},
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
     },
-    "parent": "att2:collection/weapon_diamond/hoe_272",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_com_unc"
-        },
-    "criteria": {
-        "diamond_hoe_273": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§2Long poinçon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fabrication ancestrale.\\\"}\",\"{\\\"text\\\":\\\"§7Ancestral manufacture.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§c-3\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.hoe_273"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.hoe_273"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/hoe_272",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_hoe_273": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "273"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

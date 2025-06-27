@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[जिंदगी भर की ल�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Viciado para sempre]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[沉醉一生]","color":"gold"}

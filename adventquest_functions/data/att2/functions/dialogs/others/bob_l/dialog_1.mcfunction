@@ -58,5 +58,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Bob L. : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"Ei! Cuidado aí, moleque! Eu, o grande Bob Laïnonne, estou praticando lançar bolas de fogo poderosas. Vai, afasta-se daqui agora.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"嘿，你小子给我小心点！我是伟大的Bob_Laïnonne，正在练习发射强力火球。给我离开这里—麻溜点！","color":"dark_aqua"}]}
 
 function att2:voice/bob/bob_dialogue1
+

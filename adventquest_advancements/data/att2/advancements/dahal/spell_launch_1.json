@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanting_table"
+            "id": "minecraft:enchanting_table"
         },
-        "title": {"translate":"Novice"},
-        "description": {"translate":"Launch a spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell_launch_1"},
+        "description": {"translate":"att2.advancement.dahal.description.spell_launch_1"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

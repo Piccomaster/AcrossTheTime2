@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[वुल्क को लोहे �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"[Wulk precisa de ferro]","color":"gold"}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"[缺铁的铁匠]","color":"gold"}

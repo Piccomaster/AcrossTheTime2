@@ -5,4 +5,4 @@
 
 
 particle minecraft:instant_effect ~ ~ ~ 0.75 0 0.75 0 2 normal
-particle minecraft:dust 0 1 1 1 ~ ~ ~ 0.75 0 0.75 0 2 normal
+particle minecraft:dust{color:[0,1,1],scale:1} ~ ~ ~ 0.75 0 0.75 0 2 normal

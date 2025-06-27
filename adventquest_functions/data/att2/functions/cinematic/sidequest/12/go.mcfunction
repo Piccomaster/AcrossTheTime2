@@ -13,3 +13,5 @@
 
 # Quest Completed when player is close to PNJ Rena Sun
 execute if score choice SQ12 matches 1..2 run function att2:cinematic/sidequest/12/end
+#return 1->make command block runing
+return 1

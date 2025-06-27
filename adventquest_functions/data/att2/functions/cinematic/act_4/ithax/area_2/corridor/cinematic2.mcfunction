@@ -14,3 +14,5 @@ execute if score Real0 TIMER matches 5 run function att2:physicmod/reg1/ithax/ar
 
 execute if score Real0 TIMER matches 6.. run scoreboard players set area2_event10 ITHAX -1
 execute if score Real0 TIMER matches ..5 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

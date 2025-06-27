@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:end_crystal"
+            "id": "minecraft:end_crystal"
         },
-        "title": {"translate":"Waypoint Owsästr"},
-        "description": {"translate":"Discover the waypoint of Owsästr"}
+        "title": {"translate":"att2.advancement.journey.title.waypoint_owsastr"},
+        "description": {"translate":"att2.advancement.journey.description.waypoint_owsastr"}
     },
     "parent": "att2:journey/discover_owsastr",
     "rewards": {

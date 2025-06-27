@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"O sistema de abertura da grande porta central agora é visível, há 3 fechaduras douradas. Já tenho uma chave grande, então tenho que encontrar mais duas. Elas devem estar fora no pântano!","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"打开中间这扇大门的方法已经很明显了。这里有三个金色的锁，对应三把大钥匙—我已经有了一把，还得再找两把...它们一定就藏在外面的沼泽里！","color":"aqua"}]}

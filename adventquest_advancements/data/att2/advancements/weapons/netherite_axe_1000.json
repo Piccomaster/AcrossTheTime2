@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_axe"
+            "id": "minecraft:netherite_axe"
         },
-        "title": {"translate":"Obsidian axe combo"},
-        "description": {"translate":"Strike 600 times with an obsidian axe"},
+        "title": {"translate": "att2.advancement.weapons.title.netherite_axe_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.netherite_axe_1000"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/netherite_axe_250",

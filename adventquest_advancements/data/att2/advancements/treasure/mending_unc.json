@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lime_dye"
+            "id": "minecraft:lime_dye"
         },
-        "title": {"translate":"Uncommon mending"},
-        "description": {"translate":"Repair an uncommon item"},
+        "title": {"translate": "att2.advancement.treasure.title.mending_unc"},
+        "description": {"translate": "att2.advancement.treasure.description.mending_unc"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_com",

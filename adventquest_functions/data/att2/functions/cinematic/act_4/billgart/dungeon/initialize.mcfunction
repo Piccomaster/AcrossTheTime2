@@ -72,3 +72,5 @@ scoreboard players set tower_ne_mech8 BILLGART 0
 scoreboard players set tower_ne_mech9 BILLGART 0
 scoreboard players set tower_ne_mech10 BILLGART 0
 scoreboard players set tower_ne_mech11 BILLGART 0
+#return 1->make command block runing
+return 1

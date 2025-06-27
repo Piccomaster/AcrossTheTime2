@@ -3,5 +3,6 @@
 #Obtain item iron_axe_80          #
 #####################################
 
-give @s minecraft:iron_axe{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",Effect:"spd1_dar1_luc1_has_2",display:{Name:"\"§9Cœur de Myla\"","Lore":["{\"text\":\"§7Telles vont les choses,\"}","{\"text\":\"§7sans retour possible.\"}","{\"text\":\"§7That is how things are,\"}","{\"text\":\"§7with no return possible.\"}","{\"text\":\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-2\"}"]},Damage:125,Enchantments:[{id:"minecraft:sharpness",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:19.79,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.85,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
+give @s minecraft:iron_axe[custom_data={EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"traditional",Shop:"buy",SPD:1,DAR:1,LUC:1,HAS:-2,Weapon:"80"},custom_name={translate:"weapon80.name"},lore=[{translate:"weapon80.lore.1"},{translate:"weapon80.lore.2"},{translate:"weapon80.stat"}],max_damage=260,damage=125,enchantments={"sharpness":1},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:19.79},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.85}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_rar

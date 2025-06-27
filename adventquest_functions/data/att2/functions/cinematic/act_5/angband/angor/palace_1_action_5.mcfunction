@@ -12,3 +12,5 @@ function att2:dialogs/title/credits/advenquest_title0
 function att2:dialogs/title/credits/advenquest_subtitle0
 tag @a remove NoAutoMusic
 scoreboard players set @a MUSIC_TIMER 6000
+#return 1->make command block runing
+return 1

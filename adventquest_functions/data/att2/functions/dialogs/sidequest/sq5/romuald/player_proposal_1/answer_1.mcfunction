@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° रोमुयाल्ड : ",
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"O que... o que está acontecendo?! Eu não estava dormindo, eu juro! Mas... Você não é o capitão! Por que você fez isso!? Você acha que é aceitável acordar pessoas honestas assim? Deixe-me... *arroto* Em paz! Eu não sou bom para nada mesmo! Eu preferiria não procurar mais e apodrecer sozinho aqui...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"什么... 发生什么事了？！我发誓我刚才没在睡觉！ 额...你不是船长！那你想要干嘛？！ 你觉得把老实人从睡梦中吵醒很礼貌吗？给我（打嗝）安静！ 我没那么一无是处！我也不想在这里进行毫无意义的搜寻，在这里发霉烂掉...","color":"dark_aqua"}]}

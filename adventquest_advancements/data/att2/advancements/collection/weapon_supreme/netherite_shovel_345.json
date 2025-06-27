@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_shovel"
-        },
-        "title": {"translate":"Le dernier soupir"},
-        "description": {"translate":"A whisper of agony that ends the song of the living and the damned."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
     },
-    "parent": "att2:collection/supreme",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "netherite_shovel_345": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§aLe dernier soupir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un murmure d’agonie qui clôt\\\"}\",\"{\\\"text\\\":\\\"§7le chant des vivants et des damnés.\\\"}\",\"{\\\"text\\\":\\\"§7A whisper of agony that ends\\\"}\",\"{\\\"text\\\":\\\"§7the song of the living and the damned.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a5 §7SPD§a3 §7RES§a1 §7HER§a1 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_supreme.title.netherite_shovel_345"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_supreme.description.netherite_shovel_345"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/supreme",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "netherite_shovel_345": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "345"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -51,3 +51,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Se eu entendi corretamente, o aventureiro que estou procurando é Wirth Razgork. Ele é o pai de Sylvandre. Se ele puder me ajudar a encontrar essas gemas espaciais, é melhor eu ir falar com ele. Sua casa está localizada a leste da cidade.","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"如果我没理解错，我需要找到一位叫Wirth_Razgork的冒险家—他是Sylvandre的父亲。如果他真的有关于那些空间宝石的情报的话， 我最好还是先和他聊聊。他的家应该就在这座城市的东边。","color":"aqua"}]}

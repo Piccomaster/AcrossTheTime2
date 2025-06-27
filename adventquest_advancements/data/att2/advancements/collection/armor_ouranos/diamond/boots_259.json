@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_boots"
-        },
-        "title": {"translate":"La douleur de l'éternän"},
-        "description": {"translate":"No matter what the injury, nothing is worse for him than being away from his own people."},
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
     },
-    "parent": "att2:collection/armor_ouranos/diamond/boots_255",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_epi"
-        },
-    "criteria": {
-        "diamond_boots_259": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§5La douleur de l'éternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Peu importe la blessure, rien n'est pire\\\"}\",\"{\\\"text\\\":\\\"§7pour lui qu'être loin des siens.\\\"}\",\"{\\\"text\\\":\\\"§7No matter what the injury, nothing is worse\\\"}\",\"{\\\"text\\\":\\\"§7for him than being away from his own people.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7DAR§a3 §7HER§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.title.boots_259"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_ouranos.diamond.description.boots_259"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_ouranos/diamond/boots_255",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "diamond_boots_259": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "259"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

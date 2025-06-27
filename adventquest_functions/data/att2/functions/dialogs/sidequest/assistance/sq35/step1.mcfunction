@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um negócio em declínio -°- : "
 
 
 function att2:dialogs/sidequest/sq35/mobs_killed_total
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 门可罗雀 -°- : ","color":"gray","extra":[{"text":"只有解决掉附近的强盗后，Nestor才能重新经营他的旅馆。是时候给那些混混一点教训。","color":"aqua","italic":true}]}

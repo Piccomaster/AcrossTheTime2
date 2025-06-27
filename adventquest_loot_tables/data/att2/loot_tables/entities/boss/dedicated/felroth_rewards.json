@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"rar\",Manufacturer:\"teran\",Effect:\"str1_luc_1\",display:{Name:\"\\\"§9Capuche suspecte\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parmi la foule il sait se cacher,\\\"}\",\"{\\\"text\\\":\\\"§7et sans que personne ne voie, il frappe.\\\"}\",\"{\\\"text\\\":\\\"§7Among the crowd he knows how to hide,\\\"}\",\"{\\\"text\\\":\\\"§7and without anyone seeing, he strikes.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§c-1\\\"}\"],color:5507847},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:6s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.3,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.55,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/leather_helmet_56"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"rar\",Manufacturer:\"teran\",Effect:\"str1_her_1\",display:{Name:\"\\\"§9Chandail suspect\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parmi la foule il sait se cacher,\\\"}\",\"{\\\"text\\\":\\\"§7et sans que personne ne voie, il frappe.\\\"}\",\"{\\\"text\\\":\\\"§7Among the crowd he knows how to hide,\\\"}\",\"{\\\"text\\\":\\\"§7and without anyone seeing, he strikes.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§c-1\\\"}\"],color:3487028},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:6s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.61,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.21,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/leather_chestplate_57"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"rar\",Manufacturer:\"teran\",Effect:\"has2_res_1\",display:{Name:\"\\\"§9Collants suspects\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parmi la foule il sait se cacher,\\\"}\",\"{\\\"text\\\":\\\"§7et sans que personne ne voie, il frappe.\\\"}\",\"{\\\"text\\\":\\\"§7Among the crowd he knows how to hide,\\\"}\",\"{\\\"text\\\":\\\"§7and without anyone seeing, he strikes.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7RES§c-1\\\"}\"],color:5507847},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:6s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.46,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.66,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/leather_leggings_58"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,14 +81,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"rar\",Manufacturer:\"teran\",Effect:\"spd2_hun_1\",display:{Name:\"\\\"§9Bottes suspectes\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parmi la foule il sait se cacher,\\\"}\",\"{\\\"text\\\":\\\"§7et sans que personne ne voie, il frappe.\\\"}\",\"{\\\"text\\\":\\\"§7Among the crowd he knows how to hide,\\\"}\",\"{\\\"text\\\":\\\"§7and without anyone seeing, he strikes.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HUN§c-1\\\"}\"],color:3487028},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:6s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.15,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.11,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/leather_boots_59"
                 }
             ]
         }
     ]
 }
+

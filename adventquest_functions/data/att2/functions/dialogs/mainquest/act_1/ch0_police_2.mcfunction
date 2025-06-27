@@ -53,5 +53,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"(-)=(-) Police : ","color":"gray","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"O PARLAMENTO ESTÁ CERCADO!! VOCÊ NÃO PODE ESCAPAR..! SAIA DO PRÉDIO E LEVANTE AS MÃOS!!","color":"dark_red"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"你已经被包围了！！你插翅难飞！马上举起双手离开大楼！","color":"dark_red"}]}
 
 function att2:voice/police/police2
+
+

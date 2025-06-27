@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garret : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Isso mesmo, tudo tem um preço para vocês mortais. Mas vou tentar reunir as poucas peças de Chronotons que nos restam para recompensá-lo se você voltar com um par de centenas de flechas. Vá para o quartel de Angor, que fica ao leste da cidade.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"不用担心，对于你这样的人我们都会开出一个不错的价格的。前往Angor废墟东部的军营吧，如果你可以带着一百多只箭回来的话，我会为你筹备一些我们攒下来的Chronotons。","color":"dark_aqua"}]}

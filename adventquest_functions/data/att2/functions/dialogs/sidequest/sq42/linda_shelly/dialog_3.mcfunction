@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green
 
 
 function att2:dialogs/sidequest/sq42/linda_shelly/player_proposal_2/choice_1
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"这个地方十分危险。我希望他没有遇到什么危险...","color":"dark_aqua"}]}

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"अमान्य नुस्खा..
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"AReceita inválida...","color":"red"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"无效配方","color":"red"}

@@ -3,5 +3,6 @@
 #Obtain item leather_leggings_8          #
 #####################################
 
-give @s minecraft:leather_leggings{EquipmentType:"armor",Rarity:"unc",Manufacturer:"teran",Shop:"buy",Effect:"dar1_spd_1_hun_1",display:{Name:"\"§2Braies de seconde main\"","Lore":["{\"text\":\"§7Augmente un peu votre\"}","{\"text\":\"§7récupération de Dahäl.\"}","{\"text\":\"§7Increase a bit your\"}","{\"text\":\"§7Dahäl regeneration.\"}","{\"text\":\"§7DAR§a1 §7SPD§c-1 §7HUN§c-1\"}"],color:10894924},Damage:0,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.09,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.52,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]} 1
+give @s minecraft:leather_leggings[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'teran',Shop:'buy',DAR:1,SPD:-1,HUN:-1,Armor:'8'},custom_name={translate:'armor8.name'},lore=[{translate:'armor8.lore.1'},{translate:'armor8.lore.2'},{translate:'armor8.stat'}],max_damage=80,damage=0,attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:2.09},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:0.52},{slot:'legs',type:'knockback_resistance',id:'armor.leggings',operation:'add_value',amount:0.02}],dyed_color=10894924]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

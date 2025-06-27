@@ -3,4 +3,4 @@
 #Obtain item potion_18          #
 #####################################
 
-give @s minecraft:potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"her1_dar1_hun1_spd_3",display:{Name:"\"§2Tonique\"","Lore":["{\"text\":\"§7Stimulez vos sens.\"}","{\"text\":\"§7Stimulate your senses.\"}","{\"text\":\"§7HER§a1 §7DAR§a1 §7HUN§a1 §7SPD§c-3\"}"]},CustomPotionColor:8881843} 1
+give @s minecraft:potion[custom_data={HER:1,DAR:1,HUN:1,SPD:-3,EquipmentType:'potion',Rarity:'unc',Shop:'buy',Potion:'18'},custom_name={translate:'potion18.name'},lore=[{translate:'potion18.lore.1'},{translate:'potion18.lore.2'},{translate:'potion18.stat'}],max_stack_size=16,potion_contents={custom_color:8881843}] 1

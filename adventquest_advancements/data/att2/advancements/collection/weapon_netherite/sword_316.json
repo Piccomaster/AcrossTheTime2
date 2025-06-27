@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_sword"
-        },
-        "title": {"translate":"Œuvre Magistrale"},
-        "description": {"translate":"Forged by Sylberländ's finest blacksmiths, in commemoration of King Adros' accession to the throne."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
     },
-    "parent": "att2:collection/weapon_netherite/sword_311",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "netherite_sword_316": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_sword"],
-                    "nbt": "{display:{Name:\"\\\"§6Œuvre Magistrale\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Forgée par les meilleurs armuriers de Sylberländ,\\\"}\",\"{\\\"text\\\":\\\"§7 en commémoration de l’accession au trône du roi Adros.\\\"}\",\"{\\\"text\\\":\\\"§7Forged by Sylberländ's finest blacksmiths,\\\"}\",\"{\\\"text\\\":\\\"§7 in commemoration of King Adros' accession to the throne.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7LUC§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.sword_316"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.sword_316"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/sword_311",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "netherite_sword_316": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "316"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

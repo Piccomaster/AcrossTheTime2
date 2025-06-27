@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपने अधिकतम स्�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Você atingiu o nível máximo!","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"已达到等级上限！ ","color":"gray"}

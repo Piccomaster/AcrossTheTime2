@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Nolduron : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"Ah! Querido amigo, eu estava esperando por você!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"啊！我亲爱的朋友！我等你好久了！","color":"dark_aqua"}]}

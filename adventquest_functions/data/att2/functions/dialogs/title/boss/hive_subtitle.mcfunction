@@ -47,3 +47,6 @@ title @s[scores={LANGUAGE=9}] subtitle {"text":"उपनिवेश का द
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] subtitle {"text":"Coração da colônia, o enxame imperioso","color":"gray"}
+
+#Simplified Chinese
+title @s[scores={LANGUAGE=11}] subtitle {"text":"领地核心，狂暴蜂群","color":"gray"}

@@ -3,4 +3,4 @@
 #Obtain item splash_potion_36          #
 #####################################
 
-give @s minecraft:splash_potion{EquipmentType:"potion",Rarity:"rar",Shop:"buy",Effect:"",display:{Name:"\"§9Vertu\"","Lore":["{\"text\":\"§7Tous les bienfaits de la nature,\"}","{\"text\":\"§7dans une si petite fiole.\"}","{\"text\":\"§7All the benefits of nature,\"}","{\"text\":\"§7 in such a small vial.\"}"]},CustomPotionColor:16715280,custom_potion_effects:[{id:instant_health,amplifier:4,duration:0,show_particles:0b}]} 1
+give @s minecraft:splash_potion[custom_data={EquipmentType:"potion",Rarity:"rar",Shop:"buy",Potion:'36'},custom_name={translate:'potion36.name'},lore=[{translate:'potion36.lore.1'},{translate:'potion36.lore.2'},{translate:'potion36.stat'}],max_stack_size=4,potion_contents={custom_color:16715280,custom_effects:[{amplifier:4,duration:0,id:"instant_health",show_particles:0b}]}] 1

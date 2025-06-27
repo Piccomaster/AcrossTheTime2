@@ -56,5 +56,8 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Vá ver Marlène na cozinha da academia. Ela vai te contar mais sobre uma entrega que já esperamos demais.","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"去魔法学院的厨房找Marlene，她会告诉你更多关于我们期待已久的货物的相关信息。","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis7
+

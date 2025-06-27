@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Worlëst forest Panorama"},
-        "description": {"translate":"Discover the panorama of the Worlëst forest"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_worlest_forest"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_worlest_forest"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_worlest",

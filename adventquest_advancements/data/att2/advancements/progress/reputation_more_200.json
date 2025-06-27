@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:torch"
+            "id": "minecraft:torch"
         },
-        "title": {"translate":"Starification"},
-        "description": {"translate":"Reach 200 in reputation"},
+        "title": {"translate":"att2.advancement.progress.title.reputation_more_200"},
+        "description": {"translate":"att2.advancement.progress.description.reputation_more_200"},
         "frame": "goal"
     },
     "parent": "att2:progress/reputation_more_100",

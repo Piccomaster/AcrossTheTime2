@@ -55,3 +55,6 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 
 function att2:voice/namrin/namrin_sidequest20
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"他告诉我，这里是他锻造Rukyrion剑的地方：“Divine_blood”。这是一把只有relgon才能掌控的传奇之剑，其他人使用只会被这把剑的能量伤害。在relgon去世后，我把它的剑藏到了这里。","color":"dark_aqua"}]}

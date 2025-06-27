@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:elytra"
+            "id": "minecraft:elytra"
         },
-        "title": {"translate":"The Voyager"},
-        "description": {"translate":"Discover all regions of Sylberländ and all the dimensions"},
+        "title": {"translate":"att2.advancement.journey.title.the_voyager"},
+        "description": {"translate":"att2.advancement.journey.description.the_voyager"},
         "frame": "challenge"
     },
     "parent": "att2:journey/root",

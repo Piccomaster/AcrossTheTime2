@@ -10,3 +10,5 @@ function att2:physicmod/reg1/owsastr/lilith_sq24_dooropen
 function att2:gameplay/reputation/add_3
 scoreboard players set SQ24 SIDEQUEST 2
 scoreboard players set lilith_PNJ DIALOG 4
+#return 1->make command block runing
+return 1

@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Frowin Nepheris : ","color":"gr
 function att2:dialogs/sidequest/sq11/frowin_nepheris/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq11/frowin_nepheris/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq11/frowin_nepheris/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"嘿，你是修复传送门的英雄吗？你真是足智多谋！如果你喜欢打架，我有一件事想告诉你： 一群暴徒经常来捣乱和吓唬顾客，他们现在就在楼上。当然，会有报酬给你的。","color":"dark_aqua"}]}

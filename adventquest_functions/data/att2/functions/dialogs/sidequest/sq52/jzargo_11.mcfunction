@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Agora, J'zargo deve pensar. Como ele deveria... O mapa, sim! As ruínas de um santuário enterrado na areia...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"现在，J'zargo必须想想，他该怎么...地图里面，对了！被沙子所掩埋的圣堂遗迹...","color":"dark_aqua"}]}

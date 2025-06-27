@@ -3,4 +3,4 @@
 #Obtain Big coin of Chronotons                   #
 ##################################################
 
-give @s minecraft:gold_ingot{EquipmentType:"misc",Rarity:"cur",display:{Name:"{\"text\":\"§e§oGrande pièce\"}","Lore":["{\"text\":\"§e§oBig coin\"}","{\"text\":\"§6+5 Chronotons\"}"]}} 1
+give @s minecraft:gold_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'big'},custom_name={translate:'item.coin.big.name'},lore=[{translate:'item.coin.big.lore'}]] 

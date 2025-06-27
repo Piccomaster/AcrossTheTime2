@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- यात्रा का अं�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O Fim de uma Jornada -°- : ","color":"gray","extra":[{"text":"Korlaph não está mais, eu preciso falar com Selene e Emerald.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 旅途终点 -°- : ","color":"gray","extra":[{"text":"Korlaph战败了，我现在得和Sélène还有Emerald谈谈","color":"aqua","italic":true}]}

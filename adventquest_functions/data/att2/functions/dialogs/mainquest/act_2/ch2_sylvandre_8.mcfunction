@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sylvandre : ","color":"green","e
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sylvandre: ","color":"green","extra":[{"text":"Esta é a casa da costureira, ela tem dons de Dahäl. Ela pode vender roupas encantadas para você.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"这里住着位女裁缝，她在运用Dahäl咒语上有着得天独厚的天赋。你可以在她那买到适合法师的附魔装备。","color":"dark_aqua"}]}

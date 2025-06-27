@@ -1,27 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_hoe"
-        },
-        "title": {"translate":"Génèse des temps perdus"},
-        "description": {"translate":"Forged in the echo of erased eras, it revives what was never meant to return."},
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_hoe"
     },
-    "parent": "att2:collection/weapon_supreme/netherite_shovel_345",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_ult"
-        },
-    "criteria": {
-        "netherite_hoe_344": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:netherite_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§aGénèse des temps perdus\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Forgée dans l’écho des ères effacées,\\\"}\",\"{\\\"text\\\":\\\"§7elle ranime ce qui jamais ne devait revenir.\\\"}\",\"{\\\"text\\\":\\\"§7Forged in the echo of erased eras,\\\"}\",\"{\\\"text\\\":\\\"§7it revives what was never meant to return.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7SPD§a4 §7DAR§a5 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_supreme.title.netherite_hoe_344"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_supreme.description.netherite_hoe_344"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon_supreme/netherite_shovel_345",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "netherite_hoe_344": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "344"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

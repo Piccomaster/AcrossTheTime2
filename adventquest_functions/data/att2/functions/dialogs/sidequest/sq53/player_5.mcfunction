@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"É uma esmeralda comum, nada de valor aqui... Ou talvez... 'Gota d'água no mar, folha na árvore, seu brilho único só se revela para os desinteressados e humildes.'","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"这是一颗普通的绿宝石，在这周围也没有什么有价值的了...或许...“海里的水滴，树上的叶子，它那独特的光芒只展示给那些无畏且谦逊的人”","color":"aqua"}]}

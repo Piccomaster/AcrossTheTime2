@@ -3,5 +3,6 @@
 #Obtain item chainmail_boots_81          #
 #####################################
 
-give @s minecraft:chainmail_boots{EquipmentType:"armor",Rarity:"unc",Manufacturer:"graceful",Shop:"buy",Effect:"",display:{Name:"\"§2Lourde patte\"","Lore":["{\"text\":\"§7Sans entrain ni discrétion.\"}","{\"text\":\"§7Without enthusiasm or discretion.\"}"]},Damage:100,Enchantments:[{id:"minecraft:blast_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.04,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.33,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]} 1
+give @s minecraft:chainmail_boots[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'graceful',Shop:'buy',Armor:'81'},custom_name={translate:'armor81.name'},lore=[{translate:'armor81.lore.1'},{translate:'armor81.lore.2'},{translate:'armor81.stat'}],max_damage=190,damage=100,enchantments={'blast_protection':1},attribute_modifiers=[{slot:'feet',type:'armor',id:'armor.boots',operation:'add_value',amount:1.04},{slot:'feet',type:'armor_toughness',id:'armor.boots',operation:'add_value',amount:0.33},{slot:'feet',type:'max_health',id:'armor.boots',operation:'add_value',amount:2}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_unc

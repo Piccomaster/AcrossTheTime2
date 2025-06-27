@@ -21,4 +21,4 @@ execute as @a[scores={HOLDING_RUK=1..,DAMAGE=1..,RUK_EFFECT=51..90,DAHAL=25..}] 
 # First level (no dahäl consumption)
 execute as @a[scores={HOLDING_RUK=1..,DAMAGE=1..}] at @s run function att2:gameplay/legendary/rukyrion/level0
 execute as @a[scores={HOLDING_RUK=1..,DAMAGE=1..,RUK_EFFECT=..40}] at @s run function att2:gameplay/legendary/rukyrion/level1
-execute as @a[scores={HOLDING_RUK=1..,DAMAGE=1..,RUK_EFFECT=40..}] at @s run particle minecraft:dust 1 0 0 2 ~ ~1 ~ 2 2 2 2 50 normal
+execute as @a[scores={HOLDING_RUK=1..,DAMAGE=1..,RUK_EFFECT=40..}] at @s run particle minecraft:dust{color:[1,0,0],scale:2} ~ ~1 ~ 2 2 2 2 50 normal

@@ -44,3 +44,6 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uma grande porta de esmeralda bloqueia meu caminho. Certamente há algo importante escondido atrás dela... Preciso encontrar uma chave de esmeralda por aqui...","color":"aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一扇巨大的绿宝石大门挡住了我的去路。门后肯定隐藏着一些重要的东西...我必须在这四周找到一把翡翠钥匙...","color":"aqua"}]}

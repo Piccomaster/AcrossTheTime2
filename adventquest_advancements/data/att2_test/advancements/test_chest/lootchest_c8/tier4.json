@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:air"
+            "id": "minecraft:chest"
         },
         "title": {"translate":"C8 Tier 4 Trigger"},
         "description": {"translate":"TEST"},
@@ -10,7 +10,7 @@
         "announce_to_chat": false
     },
     "rewards": {
-        "function": "att2:advancement/test_all/treasure/lootchest_c8/tier4"
+        "function": "att2:advancement/test_all/treasure/chest/lootchest_c8/tier4"
             },
     "criteria": {
         "lootchest_reg1c8t4_trigger": {

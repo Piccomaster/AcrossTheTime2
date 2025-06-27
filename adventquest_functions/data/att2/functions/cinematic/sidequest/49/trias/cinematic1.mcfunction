@@ -14,3 +14,5 @@ execute if score Real1 TIMER matches 100 run function att2:dialogs/sidequest/sq4
 
 execute if score Real1 TIMER matches 201.. run function att2:cinematic/sidequest/49/end
 execute if score Real1 TIMER matches ..200 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

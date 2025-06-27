@@ -12,3 +12,5 @@ function att2:cinematic/sidequest/3/tyrgols_gacko/kill_pnj
 
 function att2:sound/dialogs/simple
 function att2:dialogs/sidequest/sq3/tyrgols_gacko_1
+#return 1->make command block runing
+return 1

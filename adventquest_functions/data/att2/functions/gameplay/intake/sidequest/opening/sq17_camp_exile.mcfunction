@@ -3,7 +3,7 @@
 #Manage intake bandages in Exile Camp		 	 #
 ##################################################
 
-clear @s minecraft:bone_meal{display:{"Lore":["{\"text\":\"§4§oBandages\"}"]}} 1
+clear @s minecraft:bone_meal[custom_name={translate:'item.quest.bandages.name'}] 1
 scoreboard players add intake_bandages SQ17 1
 execute positioned 3435 32 3746 run function att2:gameplay/intake/effect
 

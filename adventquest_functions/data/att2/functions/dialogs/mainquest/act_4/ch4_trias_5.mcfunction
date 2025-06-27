@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Então não tomarei mais o seu tempo e irei direto ao ponto: estou procurando por um objeto que é importante para mim. O que um nobre aventureiro como você chamaria de relíquia, eu vejo como um objeto ao qual atribuo um grande valor pessoal. É um arco grande, com características bastante singulares mas que passam despercebidas fora do contexto de seu uso.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"多说无益，我就直接进入正题了：我正在寻找一件对我来说很重要的物品。像你这样高贵的冒险者可能会称之为遗物，但对我来说，它是一件我赋予了极大个人价值的物品。那是一把大弓，具有非常独特的特征，但在不使用的情况下并不显眼。","color":"dark_aqua"}]}

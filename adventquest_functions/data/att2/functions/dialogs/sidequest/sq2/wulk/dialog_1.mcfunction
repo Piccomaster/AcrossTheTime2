@@ -62,3 +62,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wulk : ","color":"green","extra
 function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_2
 scoreboard players set wulk_PNJ DIALOG 2
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"你好啊旅行者！来坐会吧，别害羞！我的名字是Wulk，如同你所见我是个铁匠，已经做这行很多年了。唉，很抱歉今天都没什么成果，但是我已经没有做装备的材料了。我不久前请我的徒弟去帮我找了一些，只是他还没有回来...你愿意拨空帮我带一些铁矿回来吗？我会好好报答你的。","color":"dark_aqua"}]}

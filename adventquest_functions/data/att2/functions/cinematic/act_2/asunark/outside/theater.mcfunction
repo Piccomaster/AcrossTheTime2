@@ -21,3 +21,5 @@ execute positioned -3625 66 -4930 run function att2:summon/reg_1/drowned0_class7
 execute positioned -3632 66 -4929 run function att2:summon/reg_1/drowned0_class7
 execute positioned -3624 66 -4921 run function att2:summon/reg_1/drowned0_class7
 execute positioned -3631 66 -4921 run function att2:summon/reg_1/drowned0_class7
+#return 1->make command block runing
+return 1

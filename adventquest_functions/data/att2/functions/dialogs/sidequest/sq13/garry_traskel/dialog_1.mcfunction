@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garry Traskel : ","color":"gree
 function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"嘿，冒险家！怪物已经入侵了我们位于地下深处的作物田，但这里没有人愿意冒险去驱逐它们。你可以帮我们吗？","color":"dark_aqua"}]}

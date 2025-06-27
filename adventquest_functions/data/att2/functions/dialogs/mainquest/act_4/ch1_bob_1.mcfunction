@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Bob L. : ","color":"green","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"*Ostentoso, imaturo* Parece que precisamos de um mago talentoso aqui!? AHAHAHA, eu sou BOB LAÏNONNE, o piromago mais poderoso de todo o reino de Tellurön!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"*张扬而幼稚地*看来我们这需要一位天资卓绝的魔导师？！AHAHAHAHA，我是BOBLAÏNONNE，整个Tellurön王国最强大的火法师！ ","color":"dark_aqua"}]}

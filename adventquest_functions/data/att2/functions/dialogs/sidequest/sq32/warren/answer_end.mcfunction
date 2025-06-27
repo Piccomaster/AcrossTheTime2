@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Warren : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Você salvou minha vida! Graças a você eu não perdi tudo, os negócios estão se recuperando!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"你救了我的命啊！感谢你的帮助，我才没有失去一切，这样我就可以继续做生意了！ ","color":"dark_aqua"}]}

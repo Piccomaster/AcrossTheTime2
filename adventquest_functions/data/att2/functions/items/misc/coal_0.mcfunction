@@ -1,6 +1,6 @@
 ##################################################
-#Made by Adventquest                             #
+#Made by Adventquest            木炭                 #
 #Obtain coal_0         					 	 	 #
 ##################################################
 
-give @s minecraft:charcoal{display:{Name:"{\"text\":\"Charbon\"}","Lore":["{\"text\":\"§7§oCoal\"}"]}} 1
+give @s minecraft:charcoal[custom_data={EquipmentType:'coal',Rarity:'misc'}] 1

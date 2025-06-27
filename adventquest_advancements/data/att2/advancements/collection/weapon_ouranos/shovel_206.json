@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_shovel"
-        },
-        "title": {"translate":"Dernier recours"},
-        "description": {"translate":"The wise man always has a back seat."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_shovel"
     },
-    "parent": "att2:collection/weapon_ouranos/shovel_203",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "stone_shovel_206": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:stone_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Dernier recours\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le sage a toujours un second plan.\\\"}\",\"{\\\"text\\\":\\\"§7The wise man always has a back seat.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7LUC§a1 §7HUN§c-2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.shovel_206"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.shovel_206"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_ouranos/shovel_203",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "stone_shovel_206": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "206"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

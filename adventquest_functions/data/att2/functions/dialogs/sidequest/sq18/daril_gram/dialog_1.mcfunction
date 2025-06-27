@@ -55,3 +55,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Daril Gram : ","color":"green",
 function att2:dialogs/sidequest/sq18/daril_gram/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq18/daril_gram/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq18/daril_gram/player_proposal_1/choice_3
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"*悲伤和愤怒*Daniel...这...这些混蛋不会逍遥法外的！除了让那些疯子死以外，我找不到任何方式来让他们补偿你！我需要一位刺客...我愿意为了复仇而付出一切。","color":"dark_aqua"}]}

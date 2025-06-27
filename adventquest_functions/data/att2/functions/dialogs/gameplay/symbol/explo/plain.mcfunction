@@ -4,3 +4,6 @@
 #################################################################
 
 title @s actionbar {"text":"⚙ ","color":"dark_red","extra":[{"text":"Sylberländ Plain : ","color":"gray"},{"score":{"name":"Plain","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"24","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+title @s[scores={LANGUAGE=11}] actionbar {"text":"⚙ ","color":"dark_red","extra":[{"text":"Sylberländ平原 : ","color":"gray"},{"score":{"name":"Plain","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"24","color":"gold"},{"text":" ⚙","color":"dark_red"}]}

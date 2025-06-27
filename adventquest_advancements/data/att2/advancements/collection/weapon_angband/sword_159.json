@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_sword"
-        },
-        "title": {"translate":"Kron ganth dinjir"},
-        "description": {"translate":"Remember the time before time, and transcend yourself through the hands of the true master."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
     },
-    "parent": "att2:collection/weapon_angband/sword_155",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_sword_159": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§6Kron ganth dinjir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Souviens-toi du temps avant le temps,\\\"}\",\"{\\\"text\\\":\\\"§7et transcende-toi dans les mains du vrai maître.\\\"}\",\"{\\\"text\\\":\\\"§7Remember the time before time, and transcend\\\"}\",\"{\\\"text\\\":\\\"§7yourself through the hands of the true master.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a2 §7DAR§a2\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.sword_159"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.sword_159"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/sword_155",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_sword_159": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "159"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

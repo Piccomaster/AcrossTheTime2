@@ -8,3 +8,5 @@ function att2:cinematic/tp_effect/serile
 function att2:cinematic/real0_iteration
 function att2:dialogs/mainquest/act_1/ch0_serile_3
 function att2:voice/serile/serile3
+#return 1->make command block runing
+return 1

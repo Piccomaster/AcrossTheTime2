@@ -42,3 +42,5 @@ execute if score choice SQ5 matches 1..2 at 00000000-0000-004a-0000-00000000004a
 
 # Player talk to Alphonse Rae to receive rewards
 execute if score choice SQ5 matches 3 at 00000000-0000-013a-0000-00000000013a if entity @a[distance=..5] run function att2:cinematic/sidequest/5/end
+#return 1->make command block runing
+return 1

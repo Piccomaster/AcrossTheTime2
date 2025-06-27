@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Não este. Este não é o livro que você deve abrir... Seu autor fez questão de escondê-lo dos olhos de todos...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"不是这本。这不是你应该打开的书……它的作者曾为确保其不会轻易为众人所见，于是将它藏匿于所有人的视线之外...","color":"dark_aqua"}]}

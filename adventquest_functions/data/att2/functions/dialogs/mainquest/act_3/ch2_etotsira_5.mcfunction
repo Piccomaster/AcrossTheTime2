@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"dark_blue"
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"dark_blue","extra":[{"text":"*Voz na minha cabeça* Sim, você é! Não perca esta oportunidade de ganhar a confiança deles!","italic":true,"color":"blue"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"*来自脑中的声音*没错，就这样！不要错过这个获取他们信任的好机会！","color":"dark_aqua"}]}

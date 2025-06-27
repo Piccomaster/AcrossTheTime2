@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title": {"translate":"Exiles Camp Panorama"},
-        "description": {"translate":"Discover the panorama of Exiles Camp"},
+        "title": {"translate":"att2.advancement.journey.title.panorama_exiles"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_exiles"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_exiles",

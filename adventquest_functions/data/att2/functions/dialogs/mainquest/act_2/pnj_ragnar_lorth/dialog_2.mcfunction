@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Méleïm é uma bela pequena cidade na lateral de um penhasco. Seu passado nem sempre foi glorioso, mas não é menos tumultuado! Tire um tempo para visitar nossas lojas, e se seu coração está voltado para o mar, você provavelmente encontrará uma tripulação para se integrar!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Méleïm是一座美丽的滨海崖镇。虽然它的过往并没有什么值得称道的东西，但此处的繁华热闹却从未改变！ 你可以再在此小憩一下，逛逛镇中的商铺；如果你向往大海的话，没准还能找到志同道合的弄潮好手！","color":"dark_aqua"}]}

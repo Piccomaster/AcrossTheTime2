@@ -6,7 +6,7 @@
 scoreboard players set in_fight BOSS 1
 execute positioned 1543.0 10 1495.0 run function att2:summon/reg_1/serile_timer
 execute as 00000000-0000-022b-0000-00000000022b at @s run teleport @s 1543.0 15 1495.0
-execute as 00000000-0000-022b-0000-00000000022b run data merge entity @s {Invulnerable:1,Glowing:1,NoAI:0,Attributes:[{Name:generic.attack_damage,Base:75.0},{name:generic.movement_speed,Base:0.35},{Name:generic.follow_range,Base:100.0},{Name:generic.knockback_resistance,Base:1.0}]}
+execute as 00000000-0000-022b-0000-00000000022b run data merge entity @s {Invulnerable:1,Glowing:1,NoAI:0,attributes:[{id:attack_damage,base:75.0},{id:movement_speed,base:0.35},{id:follow_range,base:100.0},{id:knockback_resistance,base:1.0}]}
 bossbar set minecraft:serile color white
 
 scoreboard players set Phase4 SERILE 0

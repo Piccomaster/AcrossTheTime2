@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Kum अपनी सभी जिंद
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Kum recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Kum的血量回满了...","color":"gray","italic":true}

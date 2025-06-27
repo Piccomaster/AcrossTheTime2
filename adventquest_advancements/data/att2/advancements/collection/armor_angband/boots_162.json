@@ -1,29 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_boots"
-        },
-        "title": {"translate":"Rojolion ganth S"},
-        "description": {"translate":"An exquisite agility, like the most worthy elite there is."},
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_boots"
     },
-    "parent": "att2:collection/armor_angband/boots_314",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_leg"
-        },
-    "criteria": {
-        "golden_boots_162": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:golden_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Rojolion ganth S\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une agilité des plus exquises, \\\"}\",\"{\\\"text\\\":\\\"§7à l'instar de la plus digne élite qui soit.\\\"}\",\"{\\\"text\\\":\\\"§7An exquisite agility, like the most\\\"}\",\"{\\\"text\\\":\\\"§7worthy elite there is.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a2 §7HUN§a1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_angband.title.boots_162"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_angband.description.boots_162"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_angband/boots_314",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "golden_boots_162": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_boots",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "162"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

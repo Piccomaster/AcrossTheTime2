@@ -14,6 +14,9 @@ scoreboard players operation @s GAMELEVEL > @a GAMELEVEL
 # execute if score level DIFFICULTY matches 1 run scoreboard players add @s GAMELEVEL 6
 
 execute if score level DIFFICULTY matches -1..1 store result score numberPlayer DIFFICULTY if entity @a
+#make number <=5
+execute if score numberPlayer DIFFICULTY matches 5.. run scoreboard players set numberPlayer DIFFICULTY 5
+
 execute if score level DIFFICULTY matches -1..1 run scoreboard players remove numberPlayer DIFFICULTY 1
 execute if score level DIFFICULTY matches -1..1 run scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
 execute if score level DIFFICULTY matches -1..1 run scoreboard players operation @s GAMELEVEL += numberPlayer DIFFICULTY

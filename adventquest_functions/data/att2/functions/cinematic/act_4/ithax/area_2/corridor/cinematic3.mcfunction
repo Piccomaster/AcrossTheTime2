@@ -22,3 +22,5 @@ execute if score Real0 TIMER matches 60 positioned -7451 157 -5944 run function 
 execute if score Real0 TIMER matches 61.. run scoreboard players set area2_event11 ITHAX -1
 execute if score Real0 TIMER matches 22..60 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches ..20 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

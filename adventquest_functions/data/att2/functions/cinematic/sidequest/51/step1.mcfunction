@@ -14,3 +14,5 @@ tag 00000000-0000-090a-0000-00000000090a remove QUEST
 xp add @a 5000 points
 
 advancement grant @a only att2:quest/sq50
+#return 1->make command block runing
+return 1

@@ -14,3 +14,5 @@ execute if score tower_sw_mech4 BILLGART matches 100 run function att2:physicmod
 
 execute if score tower_sw_mech4 BILLGART matches 121.. run scoreboard players set tower_sw_mech4 BILLGART 0
 execute if score tower_sw_mech4 BILLGART matches ..120 run scoreboard players add tower_sw_mech4 BILLGART 1
+#return 1->make command block runing
+return 1

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:carrot"
+            "id": "minecraft:carrot"
         },
-        "title": {"translate":"Carrot addict"},
-        "description": {"translate":"Eat 100 carrots"},
+        "title": {"translate":"att2.advancement.food.title.carrot_100"},
+        "description": {"translate":"att2.advancement.food.description.carrot_100"},
         "frame": "challenge"
     },
     "parent": "att2:food/carrot_64",

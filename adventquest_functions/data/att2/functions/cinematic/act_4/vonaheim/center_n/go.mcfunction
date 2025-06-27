@@ -22,7 +22,7 @@ particle minecraft:instant_effect -5607 108.5 -6531.5 0.5 1 1 0.2 2 normal
 particle minecraft:instant_effect -5591.5 107.5 -6517 1 1 0.5 0.2 2 normal
 particle minecraft:instant_effect -5591.5 107.5 -6503 1 1 0.5 0.2 2 normal
 # Boss area deep down
-particle minecraft:item minecraft:ice -5614 30 -6510 6 0 6 2.5 100 force
+particle minecraft:item{item:"minecraft:ice"} -5614 30 -6510 6 0 6 2.5 100 force
 
 ### TP
 # Boss area down
@@ -52,3 +52,5 @@ effect give @a[x=-5599,y=85,z=-6528,dx=3,dy=8,dz=3,gamemode=adventure] minecraft
 # Boss area up
 effect give @a[x=-5616,y=201,z=-6512,dx=4,dy=2,dz=4,gamemode=adventure] minecraft:levitation 1 1 true
 execute as @a[x=-5616,y=156,z=-6512,dx=4,dy=32,dz=4,gamemode=adventure] run effect give @s minecraft:levitation 1 10 true
+#return 1->make command block runing
+return 1

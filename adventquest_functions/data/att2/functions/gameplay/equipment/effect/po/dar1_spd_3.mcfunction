@@ -6,10 +6,12 @@
 ##revoke test
 advancement revoke @s only att2_test:test_potion/potion10
 
-scoreboard players set @s DAR_LVL_PO 1
+##
+scoreboard players set @s DAR_PO 1
 scoreboard players set @s TIMER_DAR_PO 7000
 
-scoreboard players set @s SPD_LVL_PO -3
+##
+scoreboard players set @s SPD_PO -3
 scoreboard players set @s TIMER_SPD_PO 5000
 
 function att2:gameplay/equipment/effect/po/time_bonus/dar

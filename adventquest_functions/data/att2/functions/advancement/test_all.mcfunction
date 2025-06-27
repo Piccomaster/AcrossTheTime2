@@ -6,12 +6,6 @@
 ### remove recipe
 recipe take @a *
 
-### Percentage exploit calcul
-scoreboard players operation Game_percentage EXPLOIT = @a[scores={NUMEROJOUEUR=1}] COMPLETION
-scoreboard players operation Game_percentage EXPLOIT *= Points_completion EXPLOIT
-scoreboard players operation Game_percentage EXPLOIT /= Total_objectives EXPLOIT
-scoreboard players operation Game_percentage_progress EXPLOIT = Game_percentage EXPLOIT
-
 ### Test if any Chest is open by player
 execute as @a[gamemode=adventure] at @s if score @s openCHEST matches 1.. run function att2:advancement/add_chest_score
 execute as @a[gamemode=adventure] at @s if score @s openTRAPCHEST matches 1.. run function att2:advancement/add_chest_score
@@ -30,20 +24,20 @@ scoreboard players set @a openSHULKER 0
 # Adventure
 function att2:advancement/test_all/adventure
 
-# Challenge
-function att2:advancement/test_all/challenge
+# Cake
+execute as @a[advancements={att2:food/cake_350=false}] run function att2:advancement/test_all/food/cake
+
+# Journey
+function att2:advancement/test_all/journey
 
 # Combat
 function att2:advancement/test_all/combat
 
-# Cake
-execute as @a[advancements={att2:food/cake_350=false}] run function att2:advancement/test_all/food/cake
+# Treasure
+function att2:advancement/test_all/treasure
 
-# Hunting
-function att2:advancement/test_all/hunting
-
-# Journey
-function att2:advancement/test_all/journey
+# Secret
+function att2:advancement/test_all/secret
 
 # Progress
 function att2:advancement/test_all/progress
@@ -51,11 +45,3 @@ function att2:advancement/test_all/progress
 # Quest
 function att2:advancement/test_all/quest
 
-# Secret
-function att2:advancement/test_all/secret
-
-# Spell
-function att2:advancement/test_all/spell
-
-# Treasure
-function att2:advancement/test_all/treasure

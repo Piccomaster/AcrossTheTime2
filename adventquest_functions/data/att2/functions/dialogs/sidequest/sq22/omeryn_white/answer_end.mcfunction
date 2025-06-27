@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Omeryn White : ","color":"green"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Então o trabalho está terminado? Bem, acho que você teve a ousadia de se servir dos meus baús... Não importa, eu gosto muito de você! Mas como compensação, você não terá nada mais!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"你完成任务了？我猜你的勇敢已经帮你拿到了我箱子里的奖励...不过那些不重要，我很喜欢你！我很喜欢你！不过因为这些怪物，我什么都给不了你！","color":"dark_aqua"}]}

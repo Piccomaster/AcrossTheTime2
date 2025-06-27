@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Fatalmente e apesar deste aviso, a premonição da médium se concretizou. Durante sua última tentativa de evitar esta desgraça, Azazel escolheu desvendar este mistério com a ajuda de Flamme Noire, sua esposa Gabrielle e eu mesmo.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"很不幸，尽管灵媒提前做出预警，但预言仍旧映入现实。国王Azazel决定殊死一搏，希望能在我、他的妻子Gabrielle和Flamme_Noire的帮助下打破死局。","color":"dark_aqua"}]}

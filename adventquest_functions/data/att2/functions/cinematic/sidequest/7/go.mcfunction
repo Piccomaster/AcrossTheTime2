@@ -8,3 +8,5 @@
 #############################################################
 
 execute if score SQ7 SIDEQUEST matches 2 at 00000000-0000-012a-0000-00000000012a if entity @a[distance=..5] run function att2:cinematic/sidequest/7/end
+#return 1->make command block runing
+return 1

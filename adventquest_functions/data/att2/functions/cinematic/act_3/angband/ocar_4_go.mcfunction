@@ -34,3 +34,5 @@ execute if score Neth0 TIMER matches 500 run scoreboard players set Mainquest SI
 
 execute if score Neth0 TIMER matches 500.. in minecraft:the_nether run setblock 3589 30 3729 minecraft:air
 execute if score Neth0 TIMER matches 330..499 run function att2:cinematic/neth0_iteration
+#return 1->make command block runing
+return 1

@@ -26,3 +26,5 @@ execute if score Real1 TIMER matches 900 run function att2:physicmod/reg1/eolori
 
 execute if score Real1 TIMER matches 901.. run function att2:cinematic/sidequest/56/step4
 execute if score Real1 TIMER matches ..900 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

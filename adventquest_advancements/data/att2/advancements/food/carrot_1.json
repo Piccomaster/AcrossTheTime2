@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:carrot"
+            "id": "minecraft:carrot"
         },
-        "title": {"translate":"Carrot tasty"},
-        "description": {"translate":"Eat a carrot"}
+        "title": {"translate":"att2.advancement.food.title.carrot_1"},
+        "description": {"translate":"att2.advancement.food.description.carrot_1"}
     },
     "parent": "att2:food/root",
     "rewards": {

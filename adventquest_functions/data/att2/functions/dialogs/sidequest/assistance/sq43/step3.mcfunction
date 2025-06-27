@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- लाभ का चाल -°- : 
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- O isco do ganho -°- : ","color":"gray","extra":[{"text":"E assim está feito, Ashley recebeu o que merecia. Vamos contar isso para a Linda!","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 利益的诱饵 -°- : ","color":"gray","extra":[{"text":"已经给Ashley好好上了一课！回去跟Linda说一声。","color":"aqua","italic":true}]}

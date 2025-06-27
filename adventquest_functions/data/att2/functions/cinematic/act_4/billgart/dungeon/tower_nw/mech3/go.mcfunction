@@ -26,3 +26,5 @@ execute if score tower_nw_mech3_yellow BILLGART matches 0 if block -1340 78 -685
 execute if score tower_nw_mech3_secret BILLGART matches 0 if block -1336 78 -701 minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/secret
 
 execute if score tower_nw_mech3 BILLGART matches 10 run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/end
+#return 1->make command block runing
+return 1

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Warren : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Obrigado, a entrada aqui está bloqueada. Mas pode haver um caminho alternativo se você seguir para o norte. Tome cuidado.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"谢谢，这里的入口被堵死了，不过在火山北部的尽头还有一个洞口可以进入火山内部,请多加小心。","color":"dark_aqua"}]}

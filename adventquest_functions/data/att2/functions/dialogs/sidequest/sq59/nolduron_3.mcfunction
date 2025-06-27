@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Nolduron : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"Por enquanto, ainda não sabemos. Etotsira não soube como extrair nada disso. Você poderia ir ao templo e dar uma olhada?","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"目前，我们对那个怪东西仍然一无所知。就连Etotsira也对如何获取更多信息感到束手无策，能拜托你去神殿看看吗？","color":"dark_aqua"}]}

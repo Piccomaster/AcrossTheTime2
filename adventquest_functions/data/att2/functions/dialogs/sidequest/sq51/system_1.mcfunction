@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Scavenger अपनी सारी ज
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Scavenger recupera todas as suas vidas...","color":"gray","italic":true}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"Scavenger的血量又回满了...","color":"gray","italic":true}

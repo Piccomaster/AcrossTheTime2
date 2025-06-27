@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.att2.anchorshot"
+  },
+  "effects": {
+    "projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "att2:gameplay/enchantment/trigger_function/anchorshot"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 1
+}

@@ -50,3 +50,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Bem feito! Eu pensei que você tinha sido pego pelos guardas! Muito bem, aqui está como combinado, sua parte do bolo! Agora, adeus Ryliath! Ainda bem que você ativou este portal, qual seria uma melhor fuga!? Tchau!","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"太好了！我还以为你被警察抓住了！干的不错，按照我们的约定，这是你的分成！现在，我得离开Ryliath了！还好你激活了这个传送门，这样我就可以完美脱身了！再见！ ","color":"dark_aqua"}]}

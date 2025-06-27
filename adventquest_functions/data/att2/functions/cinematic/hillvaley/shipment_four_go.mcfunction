@@ -16,3 +16,5 @@ execute if score Real0 TIMER matches 60 run function att2:dialogs/mainquest/act_
 execute if score Real0 TIMER matches 121.. run setblock 2031 91 1978 minecraft:air
 execute if score Real0 TIMER matches 121.. run setblock 1995 91 1978 minecraft:redstone_block
 execute if score Real0 TIMER matches ..120 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

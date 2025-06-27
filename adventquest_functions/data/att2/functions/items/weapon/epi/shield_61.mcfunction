@@ -3,5 +3,6 @@
 #Obtain item shield_61          #
 #####################################
 
-give @s minecraft:shield{EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",Shop:"buy",Effect:"str2_her1_luc_1",display:{Name:"\"§5Infranchissable\"","Lore":["{\"text\":\"§7Une volonté de métal, que même\"}","{\"text\":\"§7le torrent ou la tempête n'amenuise.\"}","{\"text\":\"§7A will of metal, which not even\"}","{\"text\":\"§7the torrent or the storm diminishes.\"}","{\"text\":\"§7STR§a2 §7HER§a1 §7LUC§c-1\"}"]},Damage:125,Enchantments:[{id:"minecraft:unbreaking",lvl:3s}],BlockEntityTag:{Base:0,Patterns:[{Pattern:"cr",Color:15},{Pattern:"sc",Color:15},{Pattern:"mc",Color:15},{Pattern:"flo",Color:14},{Pattern:"cbo",Color:12}]},AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1
+give @s minecraft:shield[custom_data={EquipmentType:"rangeWeapon",Rarity:"61",Manufacturer:"traditional",Shop:"buy",STR:2,HER:1,LUC:-1,Weapon:"61"},custom_name={translate:"weapon61.name"},lore=[{translate:"weapon61.lore.1"},{translate:"weapon61.lore.2"},{translate:"weapon61.stat"}],max_damage=335,damage=125,enchantments={"unbreaking":3},base_color="white",banner_patterns=[{color:"black",pattern:"minecraft:cross"},{color:"black",pattern:"minecraft:straight_cross"},{color:"black",pattern:"minecraft:circle"},{color:"red",pattern:"minecraft:flower"},{color:"brown",pattern:"minecraft:curly_border"}]]
+
 function att2:gameplay/shop/smith_leveling/add_buying_epi

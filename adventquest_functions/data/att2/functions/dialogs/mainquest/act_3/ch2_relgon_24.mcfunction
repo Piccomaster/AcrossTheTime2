@@ -33,7 +33,7 @@ tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"في يأسهم، بادر البشر بالتعبد لـ\"لا فلام نوار\"، مُقدّمين التضحيات والعروض باسمها. وسمعتهم. وبمقابل الدماء المسفوكة، توقفت عن مهاجمة المدن البشرية.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"في يأسهم، بادر البشر بالتعبد لـ"لا فلام نوار"، مُقدّمين التضحيات والعروض باسمها. وسمعتهم. وبمقابل الدماء المسفوكة، توقفت عن مهاجمة المدن البشرية.","color":"dark_aqua"}]}
 
 
 #RUSSIAN LANGUAGE
@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Desesperados, os mortais então adulteraram La Flamme Noire, fazendo sacrifícios e oferendas em seu nome. E ela os ouviu. Assim, em troca do sangue derramado, ela não atacou mais as cidades mortais.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"绝望的凡人们转而信奉La_Flamme_Noire，甚至不惜献出生命祭祀她。她听到了那些呼唤。于是，作为对血祭的回应，她不再攻击其他城市。","color":"dark_aqua"}]}

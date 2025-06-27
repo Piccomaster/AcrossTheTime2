@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Uma última coisa... Ele tentará te corromper novamente. Talvez até tente colocar a culpa em você, ou até em mim.","color":"yellow","italic":true}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° S : ","color":"gray","extra":[{"text":"最后一件事...他会再次尝试对你洗脑，也许他会把这一切的责任推给你，甚至是推给我。","color":"yellow","italic":true}]}

@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_chestplate"
-        },
-        "title": {"translate":"Flexibilité"},
-        "description": {"translate":"Twists without ever breaking, handles without ever bending."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
     },
-    "parent": "att2:collection/armor_chainmail/chestplate_77",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "chainmail_chestplate_84": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:chainmail_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Flexibilité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Se tord sans jamais rompre,\\\"}\",\"{\\\"text\\\":\\\"§7encaisse sans jamais fléchir.\\\"}\",\"{\\\"text\\\":\\\"§7Twists without ever breaking,\\\"}\",\"{\\\"text\\\":\\\"§7handles without ever bending.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7RES§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.chestplate_84"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.chestplate_84"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/chestplate_77",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "chainmail_chestplate_84": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "84"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

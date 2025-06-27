@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Claro, eu o protegi de assassinos cruéis como você. Mas talvez seja ingênuo acreditar que a tolerância reside no coração de todos.","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"那是当然，我能保护他免受像你这样的凶恶的杀手的伤害。但是，如果相信宽容是存在于每一个人的心中的话那就太天真了。","color":"dark_aqua"}]}

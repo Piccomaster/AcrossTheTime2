@@ -3,6 +3,7 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:iron_shovel{EquipmentType:"meleeWeapon",Rarity:"epi_esc",Manufacturer:"traditional",Effect:"spd3_luc1",display:{Name:"\"§dPoignard acéré\"","Lore":["{\"text\":\"§7Pénétrez jusqu'aux entrailles de vos ennemis.\"}","{\"text\":\"§7Pierce through to the bowels of your enemies.\"}","{\"text\":\"§7SPD§a3 §7LUC§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.99,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]} 1
+give @s minecraft:iron_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",SPD:3,LUC:1,Weapon:"167"},custom_name={translate:"weapon167.name"},lore=[{translate:"weapon167.lore.1"},{translate:"weapon167.lore.2"},{translate:"weapon167.stat"}],max_damage=260,damage=0,enchantments={"unbreaking":3},attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:6.99},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.5}]]
+
 
 advancement grant @s only att2:treasure/sovereign/iron_shovel_167

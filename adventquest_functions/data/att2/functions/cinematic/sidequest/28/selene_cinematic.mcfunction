@@ -24,3 +24,5 @@ execute if score Real2 TIMER matches 850 as 00000000-0000-082a-0000-00000000082a
 
 execute if score Real2 TIMER matches 851.. run scoreboard players set cinematic SQ28 3
 execute if score Real2 TIMER matches ..850 run function att2:cinematic/real2_iteration
+#return 1->make command block runing
+return 1

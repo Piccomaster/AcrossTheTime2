@@ -3,4 +3,4 @@
 #Obtain Little mechanical element                #
 ##################################################
 
-give @s minecraft:tripwire_hook{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cPetit élément mécanique\"","Lore":["{\"text\":\"§4§oLittle mechanical element\"}"]}} 1
+give @s minecraft:tripwire_hook[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.little_mechanical_element.name'},lore=[{translate:'item.quest.lore'}]] 1

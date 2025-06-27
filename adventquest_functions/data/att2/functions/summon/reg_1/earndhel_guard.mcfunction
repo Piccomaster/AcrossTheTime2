@@ -1,6 +1,11 @@
 ##################################################
+
 #Made by Adventquest                             #
+
 #Summon earndhel guard  		     	 		 #
+
 ##################################################
 
-summon minecraft:zombified_piglin ~ ~ ~ {Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,CustomName:"\"Guard\"",Silent:1,PersistenceRequired:1,HandItems:[{id:"minecraft:iron_sword",Count:1},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:8,Patterns:[{Pattern:"cbo",Color:11},{Pattern:"flo",Color:15},{Pattern:"mr",Color:4},{Pattern:"dls",Color:0},{Pattern:"flo",Color:15},{Pattern:"mc",Color:0},{Pattern:"bo",Color:11}]}}}],ArmorItems:[{id:"minecraft:iron_boots",Count:1},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:10202063}}},{id:"minecraft:iron_chestplate",Count:1},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;2054176960,1836339083,-1467832164,-719418412],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY2ZmZmMWU4MDYwZWU0ZDg4NWNhOWYxNWRiYzAyMjQwN2ExZWZiYzNjNDU4Mjg2OWEzZGE1N2Y4NDIxMCJ9fX0="}]}}}}]}
+
+
+summon minecraft:zombified_piglin ~ ~ ~ {Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,CustomName:"Guard",Silent:1,PersistenceRequired:1,equipment:{mainhand:{id:"minecraft:iron_sword",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:light_gray,banner_patterns:[{pattern:curly_border,color:blue},{pattern:flower,color:black},{pattern:rhombus,color:yellow},{pattern:stripe_downleft,color:white},{pattern:flower,color:black},{pattern:circle,color:white},{pattern:border,color:blue}]}},feet:{id:"minecraft:iron_boots",count:1},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:10202063}},chest:{id:"minecraft:iron_chestplate",count:1},head:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;2054176960,1836339083,-1467832164,-719418412],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY2ZmZmMWU4MDYwZWU0ZDg4NWNhOWYxNWRiYzAyMjQwN2ExZWZiYzNjNDU4Mjg2OWEzZGE1N2Y4NDIxMCJ9fX0="}]}}}}}

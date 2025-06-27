@@ -3,6 +3,6 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:iron_leggings{EquipmentType:"armor",Rarity:"epi_esc",Manufacturer:"traditional",Effect:"str4_res_2",display:{Name:"\"§dGrand soulèvement\"","Lore":["{\"text\":\"§7Ce qui vient au monde pour ne rien troubler\"}","{\"text\":\"§7 ne mérite ni égards ni patience.\"}","{\"text\":\"§7What comes to the world and doesn't disturb anything\"}","{\"text\":\"§7deserves neither consideration nor patience.\"}","{\"text\":\"§7STR§a4 §7RES§c-2\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:blast_protection",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.87,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.81,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:iron_leggings[custom_data={EquipmentType:'armor',Rarity:'epi_esc',Manufacturer:'traditional',Shop:'buy',STR:4,RES:-2,Armor:'217'},custom_name={translate:'armor217.name'},lore=[{translate:'armor217.lore.1'},{translate:'armor217.lore.2'},{translate:'armor217.stat'}],max_damage=190,damage=0,enchantments={'unbreaking':3,'blast_protection':3},attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:4.87},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:2.81}]]
 
 advancement grant @s only att2:treasure/sovereign/iron_leggings_217

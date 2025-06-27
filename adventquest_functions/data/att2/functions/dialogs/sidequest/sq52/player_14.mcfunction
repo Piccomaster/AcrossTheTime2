@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hmm, agora devo admitir que estou impressionado... A vasta maioria das pessoas parece não saber o que é um reino, e ainda menos em qual vivem.","color":"aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"额嗯，这话有些令人惊讶，我必须承认...绝大多数人似乎不知道王国是什么，甚至更不知道他们生活在哪里。","color":"aqua"}]}

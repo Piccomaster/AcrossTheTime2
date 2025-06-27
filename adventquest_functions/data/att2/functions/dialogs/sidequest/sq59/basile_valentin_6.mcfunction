@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"O resultado da minha experiência você conhece... Mas não é o que eu esperava, pois não funcionou em mim... A situação se tornou irônica, não sou mais a pessoa mais experiente quando me coloco na sua frente a partir de agora...","color":"dark_aqua"}]}
+
+#Simplified Chinese
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"你知道我实验的结果…但它并不是我所期望的，因为它对我的所作所为没有反应…情况变得讽刺起来，现在当我站在你面前时，我不再是这方面最权威的人了...","color":"dark_aqua"}]}

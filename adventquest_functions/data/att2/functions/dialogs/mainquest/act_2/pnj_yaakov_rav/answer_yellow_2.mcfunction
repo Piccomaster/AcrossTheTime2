@@ -53,6 +53,7 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Certo, então para resumir, o portal de Ryliath está inativo há séculos porque está faltando a energia que ele precisa. Seriam necessários 3 fragmentos de pedras chamadas: ''Gema do Espaço'' para energizá-lo novamente. Infelizmente, essas foram roubadas e espalhadas pelo mundo.","color":"dark_aqua"}]}
 
-
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"好吧，那我长话短说。由于缺少维持迁跃所需的能量，数个世纪以来，Ryliath的传送门一直处于休眠状态。而为了使其激活，你需要找到三颗名为“空间宝石”的宝石。但很不幸，目前这些石头散落于世界各处。","color":"dark_aqua"}]}
 function att2:voice/yaakov/yaakov5
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_4

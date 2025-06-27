@@ -37,3 +37,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"रूनिक पाउडर: ","col
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Pós rúnicos: ","color":"yellow","extra":[{"score":{"name":"stock","objective":"RUNE_POWDER"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"当前符文粉末数量：","color":"yellow","extra":[{"score":{"name":"stock","objective":"RUNE_POWDER"},"color":"gold"}]}

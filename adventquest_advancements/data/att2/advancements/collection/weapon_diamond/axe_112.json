@@ -1,29 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:diamond_axe"
-        },
-        "title": {"translate":"Sacédon"},
-        "description": {"translate":"The truth is yours, and only you can make it heard."},
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
     },
-    "parent": "att2:collection/weapon_diamond/axe_105",
-    "rewards": {
-        "function": "att2:advancement/test_all/collection/test_rar"
-        },
-    "criteria": {
-        "diamond_axe_112": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                    "items": ["minecraft:diamond_axe"],
-                    "nbt": "{display:{Name:\"\\\"§9Sacédon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La vérité est tienne, et toi seul\\\"}\",\"{\\\"text\\\":\\\"§7pourra la faire entendre.\\\"}\",\"{\\\"text\\\":\\\"§7The truth is yours, and only\\\"}\",\"{\\\"text\\\":\\\"§7you can make it heard.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7SPD§a1 §7LUC§c-1\\\"}\"]}}"
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection.weapon_diamond.title.axe_112"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_diamond.description.axe_112"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_diamond/axe_105",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "diamond_axe_112": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "112"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -49,3 +49,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- साथनोक में ए�
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma noite em Sathnok -°- : ","color":"gray","extra":[{"text":"Encontrei o corpo de alguém. Certamente o de Sylvain... Tenho que voltar para Linda e anunciar a descoberta macabra.","color":"aqua","italic":true}]}
+
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Sathnok惊魂夜 -°- : ","color":"gray","extra":[{"text":"我找到Sylvain的遗体了，我必须把这个噩耗告诉Linda。","color":"aqua","italic":true}]}

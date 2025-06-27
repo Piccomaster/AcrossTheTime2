@@ -3,4 +3,4 @@
 #Summon Golem Statut  		     				 #
 ##################################################
 
-summon minecraft:iron_golem ~ ~ ~ {Invulnerable:1,NoAI:1,Silent:1,PersistenceRequired:1,Rotation:[0.0f,0.0f],Attributes:[{Name:generic.max_health,Base:1.0}],Health:1,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],DeathLootTable:"att2:empty"}
+summon minecraft:iron_golem ~ ~ ~ {Invulnerable:1,NoAI:1,Silent:1,PersistenceRequired:1,Rotation:[0.0f,0.0f],attributes:[{id:max_health,base:1.0}],Health:1,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},DeathLootTable:"att2:empty"}

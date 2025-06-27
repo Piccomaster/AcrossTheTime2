@@ -1,0 +1,48 @@
+{
+    "anvil_cost": 7,
+    "description": {
+        "translate": "enchantment.att2.sscombo"
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:swords",
+    "weight": 1,
+        "effects": {
+        "minecraft:post_attack": [
+            {
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "att2:gameplay/enchantment/trigger_function/armorbreak"
+                        }
+                    ]
+                },
+                "enchanted": "attacker",
+                "requirements": {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "tags": [
+                            {
+                                "expected": false,
+                                "id": "minecraft:bypasses_armor"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
