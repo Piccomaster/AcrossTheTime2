@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:netherite_shovel",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"harmonious\",Effect:\"str3_has2_her1\",display:{Name:\"\\\"§6Tranchoir d'infini tourment\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Chaque cicatrice qu’il laisse dans son sillage\\\"}\",\"{\\\"text\\\":\\\"§7déchire l'esprit d'une éternelle souffrance.\\\"}\",\"{\\\"text\\\":\\\"§7Every scar he leaves in his wake\\\"}\",\"{\\\"text\\\":\\\"§7tears the mind with eternal pain.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a2 §7HER§a1\\\"}\"]},Damage:1150,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:7s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:11.07,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.31999999999999995,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_shovel_315"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:netherite_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"harmonious\",Effect:\"str2_her1_hun1_spd_3\",SetId:\"8\",display:{Name:\"\\\"§5Œil d'argent\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aL'élu de ce monde, à qui obéissent temps et\\\"}\",\"{\\\"text\\\":\\\"§aespace, ne connaît aucune limite à sa volonté.\\\"}\",\"{\\\"text\\\":\\\"§aThe chosen one of this world, to whom\\\"}\",\"{\\\"text\\\":\\\"§atime and space obey, knows no limit to his will.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7HUN§a1 §7SPD§c-3\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a3 §7HAS§a3 §7SPD§a4\\\"}\"]},Damage:100,Enchantments:[{id:\"minecraft:protection\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.91,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.61,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/netherite_helmet_235"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,14 +61,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"str2_res1\",display:{Name:\"\\\"§61-j#!A\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Comme dit si bien le fou : le sens n'est\\\"}\",\"{\\\"text\\\":\\\"§7qu'une question de point de vue.\\\"}\",\"{\\\"text\\\":\\\"§7As the fool says: meaning is only\\\"}\",\"{\\\"text\\\":\\\"§7a matter of point of view.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1\\\"}\"],color:15465761},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:thorns\",lvl:10s},{id:\"minecraft:projectile_protection\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.2,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_helmet_244"
                 }
             ]
         }
     ]
 }
+

@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "weapon153.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "weapon153.lore.1"
+                  },
+                  {
+                    "translate": "weapon153.lore.2"
+                  },
+                  {
+                    "translate": "weapon153.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "meleeWeapon",
+                  "Rarity": "epi",
+                  "Manufacturer": "eternan",
+                  "STR": 2,
+                  "HER": 1,
+                  "HUN": 1,
+                  "SPD": -2,
+                  "Weapon": "153"
+                },
+                "minecraft:enchantments": {
+                  "unbreaking": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:attack_damage",
+                    "amount": 61.18,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:attack_speed",
+                    "amount": -0.84,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 40
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

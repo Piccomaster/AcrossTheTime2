@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:bow",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str3_spd1_her2_dar2\",display:{Name:\"\\\"§6Frère d'arme d'Amarianne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vas avec l'unique archère\\\"}\",\"{\\\"text\\\":\\\"§7car elle est l'élue de notre mère.\\\"}\",\"{\\\"text\\\":\\\"§7Go with the one archer\\\"}\",\"{\\\"text\\\":\\\"§7because she is our mother's chosen one.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a1 §7HER§a2 §7DAR§a2\\\"}\"]},Damage:50,Enchantments:[{id:\"minecraft:power\",lvl:10s},{id:\"minecraft:flame\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/bow_49"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:crossbow",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str4_her1_dar1\",display:{Name:\"\\\"§6Unkempt Harold\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7J'ai tiré quoi, six fois ? Ou Cinq ?\\\"}\",\"{\\\"text\\\":\\\"§7Trois ? Sept. Peu Importe.\\\"}\",\"{\\\"text\\\":\\\"§7Did I fire six shots, or only five?\\\"}\",\"{\\\"text\\\":\\\"§7Three? Seven. Whatever.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HER§a1 §7DAR§a1\\\"}\"]},Damage:50,Enchantments:[{id:\"minecraft:power\",lvl:8s},{id:\"minecraft:multishot\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/crossbow_329"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"delightful\",Effect:\"str4_has1\",display:{Name:\"\\\"§6Soleil de sang\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'aurore arbore une teinte écarlate, naissant\\\"}\",\"{\\\"text\\\":\\\"§7des fomentations du lever et des immondices de la mort.\\\"}\",\"{\\\"text\\\":\\\"§7The dawn has a crimson hue, born of the fomentations\\\"}\",\"{\\\"text\\\":\\\"§7of the sunrise and the filth of death.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a1\\\"}\"]},Damage:10,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:3s},{id:\"minecraft:fire_protection\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.06,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.89,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/diamond_helmet_196"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,16 +81,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"delightful\",Effect:\"str3_spd2_has2\",display:{Name:\"\\\"§6Umbra métilnuji\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une diamant parmi les diamants,\\\"}\",\"{\\\"text\\\":\\\"§7un secours seyant celui d'une déité.\\\"}\",\"{\\\"text\\\":\\\"§7A diamond among diamonds,\\\"}\",\"{\\\"text\\\":\\\"§7a deity-like rescue.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7HAS§a2\\\"}\"]},Damage:20,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:11.7,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.68,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/diamond_chestplate_197"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -119,16 +101,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"delightful\",Effect:\"str2_res1_her1\",display:{Name:\"\\\"§6Reine de la nuit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pleure à jamais dans le plus ténébreux des cauchemars\\\"}\",\"{\\\"text\\\":\\\"§7et vois naître ta puissance en plus primordial des effrois.\\\"}\",\"{\\\"text\\\":\\\"§7Cry forever in the darkest of nightmares and\\\"}\",\"{\\\"text\\\":\\\"§7see your power born in the most primordial of frights.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7HER§a1\\\"}\"]},Damage:15,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:thorns\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:7.47,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.69,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/diamond_leggings_198"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -143,14 +121,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"delightful\",Effect:\"str3_luc1_hun1\",display:{Name:\"\\\"§6L'ultime aube\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jà elle vint et pour la seconde fois\\\"}\",\"{\\\"text\\\":\\\"§7elle enfanta un jour sans fin.\\\"}\",\"{\\\"text\\\":\\\"§7Already it came and for the second time\\\"}\",\"{\\\"text\\\":\\\"§7gave birth to an endless day.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7LUC§a1 §7HUN§a1\\\"}\"]},Damage:5,Enchantments:[{id:\"minecraft:feather_falling\",lvl:5s},{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.13,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.07,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/diamond_boots_199"
                 }
             ]
         }
     ]
 }
+

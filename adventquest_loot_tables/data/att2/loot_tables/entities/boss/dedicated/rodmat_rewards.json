@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_axe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"eternan\",Effect:\"str1_res1_luc1\",display:{Name:\"\\\"§6Premio gal Môt\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Complaire à l'enfant du ténébreux\\\"}\",\"{\\\"text\\\":\\\"§7et dans ses desseins, le suivre...\\\"}\",\"{\\\"text\\\":\\\"§7Pleasing the child of darkness\\\"}\",\"{\\\"text\\\":\\\"§7and in his intentions, following him ...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7LUC§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:smite\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:62.94,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.76,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/golden_axe_156"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_pickaxe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"eternan\",Effect:\"str2_has4\",display:{Name:\"\\\"§6Nekr al Felèvsil\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les bêtes Sécariennes ont jadis\\\"}\",\"{\\\"text\\\":\\\"§7craint tes griffes autant que ton nom.\\\"}\",\"{\\\"text\\\":\\\"§7The Secarian beasts once feared\\\"}\",\"{\\\"text\\\":\\\"§7your claws as much as your name.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a4\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:88.56,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/golden_pickaxe_157"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_hoe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"eternan\",Type:\"spear\",Effect:\"str4_her1_dar1_hun1\",display:{Name:\"\\\"§6Déid gal éther\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Œuvre de la volonté de tous ceux qui jadis furent perdus,\\\"}\",\"{\\\"text\\\":\\\"§7flambant du champ d'un milliard d'individus.\\\"}\",\"{\\\"text\\\":\\\"§7Work of the will of all those who were once lost,\\\"}\",\"{\\\"text\\\":\\\"§7blazing from the field of a billion individuals.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HER§a1 §7DAR§a1 §7HUN§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:7s},{id:\"minecraft:sweeping\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:33.85,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.43999999999999995,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/golden_hoe_325"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,16 +81,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"eternan\",Effect:\"str3_her2_luc1\",display:{Name:\"\\\"§6Dré\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Résonnante comme le plus puissant\\\"}\",\"{\\\"text\\\":\\\"§7des chants, telle est la victoire.\\\"}\",\"{\\\"text\\\":\\\"§7Resounding as the most powerful\\\"}\",\"{\\\"text\\\":\\\"§7of songs, that is victory.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HER§a2 §7LUC§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.06,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.89,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/golden_helmet_159"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -119,16 +101,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"eternan\",Effect:\"str2_res1_has2\",display:{Name:\"\\\"§6Métilnuji\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Complexité n'est pas gage de qualité,\\\"}\",\"{\\\"text\\\":\\\"§7la carapace le prouve, incontestablement.\\\"}\",\"{\\\"text\\\":\\\"§7Complexity is not a guarantee of quality,\\\"}\",\"{\\\"text\\\":\\\"§7the shell proves it, undoubtedly.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7HAS§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:10.14,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:5.4,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/golden_chestplate_160"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -143,16 +121,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"eternan\",Effect:\"str1_spd3_dar1\",display:{Name:\"\\\"§6Mustésèv gal azazel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7D'aucuns disent qu'un roi ne marche pas,\\\"}\",\"{\\\"text\\\":\\\"§7il se meut, porté par sa Majesté.\\\"}\",\"{\\\"text\\\":\\\"§7Some say that a king does not walk,\\\"}\",\"{\\\"text\\\":\\\"§7he moves, carried by his majesty.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a3 §7DAR§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.3,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.48,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/golden_leggings_161"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -167,14 +141,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"eternan\",Effect:\"str4_has2_hun1\",display:{Name:\"\\\"§6Rojolion ganth S\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une agilité des plus exquises, \\\"}\",\"{\\\"text\\\":\\\"§7à l'instar de la plus digne élite qui soit.\\\"}\",\"{\\\"text\\\":\\\"§7An exquisite agility, like the most\\\"}\",\"{\\\"text\\\":\\\"§7worthy elite there is.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a2 §7HUN§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:feather_falling\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.95,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.07,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/golden_boots_162"
                 }
             ]
         }
     ]
 }
+

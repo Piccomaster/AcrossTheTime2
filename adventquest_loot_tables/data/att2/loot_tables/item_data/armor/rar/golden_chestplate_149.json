@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor149.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor149.lore.1"
+                  },
+                  {
+                    "translate": "armor149.lore.2"
+                  },
+                  {
+                    "translate": "armor149.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "rar",
+                  "Manufacturer": "eternan",
+                  "RES": 1,
+                  "HAS": 1,
+                  "DAR": -1,
+                  "Armor": "149"
+                },
+                "minecraft:enchantments": {
+                  "blast_protection": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.chestplate",
+                    "amount": 5.52,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.chestplate",
+                    "amount": 1.52,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 120
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

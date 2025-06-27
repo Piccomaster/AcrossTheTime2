@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:iron_sword",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str1_res1_her1_dar1\",display:{Name:\"\\\"§6Vœu nocturne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Porte-nous par ta voix et seuls les\\\"}\",\"{\\\"text\\\":\\\"§7initiés sauront te reconnaître, Tarja.\\\"}\",\"{\\\"text\\\":\\\"§7Carry us by your voice and only\\\"}\",\"{\\\"text\\\":\\\"§7the initiated will recognize you, Tarja.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HER§a1 §7DAR§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:sweeping\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:20.19,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5800000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/iron_sword_95"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_hoe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"delightful\",Type:\"spear\",Effect:\"str3_res1_hun2\",display:{Name:\"\\\"§6Apogée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Celui capable de la manier sera porté\\\"}\",\"{\\\"text\\\":\\\"§7au plus haut degré d'influence.\\\"}\",\"{\\\"text\\\":\\\"§7The one able to wield it will be carried\\\"}\",\"{\\\"text\\\":\\\"§7to the highest degree of influence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1 §7HUN§a2\\\"}\"]},Damage:750,Enchantments:[{id:\"minecraft:knockback\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:24.32,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.30000000000000004,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/diamond_hoe_277"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"delightful\",Effect:\"str3_has2\",SetId:\"6\",display:{Name:\"\\\"§6Esprit de la lune\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDe ta froide lueur, et de ton immuable silence,\\\"}\",\"{\\\"text\\\":\\\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\\\"}\",\"{\\\"text\\\":\\\"§aFrom your cold glow, and your immutable silence, you\\\"}\",\"{\\\"text\\\":\\\"§aincarnated, incarnate and will incarnate immortal freedom.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a2\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7HAS§a4 §7SPD§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:7.6,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.95,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg_armset/diamond_helmet_205"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,16 +81,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"delightful\",Effect:\"her2_hun1\",SetId:\"6\",display:{Name:\"\\\"§6Cœur de la lune\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDe ta froide lueur, et de ton immuable silence,\\\"}\",\"{\\\"text\\\":\\\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\\\"}\",\"{\\\"text\\\":\\\"§aFrom your cold glow, and your immutable silence, you\\\"}\",\"{\\\"text\\\":\\\"§aincarnated, incarnate and will incarnate immortal freedom.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7HUN§a1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7HAS§a4 §7SPD§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:15.2,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.79,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg_armset/diamond_chestplate_206"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -119,16 +101,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"delightful\",Effect:\"her2_hun1\",SetId:\"6\",display:{Name:\"\\\"§6Pensée de la lune\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDe ta froide lueur, et de ton immuable silence,\\\"}\",\"{\\\"text\\\":\\\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\\\"}\",\"{\\\"text\\\":\\\"§aFrom your cold glow, and your immutable silence, you\\\"}\",\"{\\\"text\\\":\\\"§aincarnated, incarnate and will incarnate immortal freedom.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7HUN§a1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7HAS§a4 §7SPD§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:11.4,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.84,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg_armset/diamond_leggings_207"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -143,16 +121,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"delightful\",Effect:\"str3_spd2\",SetId:\"6\",display:{Name:\"\\\"§6Humeur de la lune\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDe ta froide lueur, et de ton immuable silence,\\\"}\",\"{\\\"text\\\":\\\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\\\"}\",\"{\\\"text\\\":\\\"§aFrom your cold glow, and your immutable silence, you\\\"}\",\"{\\\"text\\\":\\\"§aincarnated, incarnate and will incarnate immortal freedom.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7HAS§a4 §7SPD§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.8,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.89,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg_armset/diamond_boots_208"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:nether_star",
                     "weight": 1,
                     "conditions": [
                         {
@@ -167,14 +141,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"que\",Rarity:\"que\",display:{Name:\"\\\"§cMédaillon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§4§oMedaillon\\\"}\"]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/medaillon"
                 }
             ]
         }
     ]
 }
+

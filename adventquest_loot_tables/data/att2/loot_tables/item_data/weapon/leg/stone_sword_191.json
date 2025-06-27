@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "weapon191.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "weapon191.lore.1"
+                  },
+                  {
+                    "translate": "weapon191.lore.2"
+                  },
+                  {
+                    "translate": "weapon191.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "meleeWeapon",
+                  "Rarity": "leg",
+                  "Manufacturer": "graceful",
+                  "STR": 4,
+                  "Weapon": "191"
+                },
+                "minecraft:enchantments": {
+                  "sweeping_edge": 3,
+                  "unbreaking": 5
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:attack_damage",
+                    "amount": 22.67,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:attack_speed",
+                    "amount": -0.57,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "minecraft:max_health",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 140
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

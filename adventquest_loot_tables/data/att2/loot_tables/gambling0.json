@@ -1,84 +1,126 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
         {
-            "rolls": {
-                "min": 3,
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.1
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
                 "max": 5
+              }
             },
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:gold_nugget",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.1
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 5
-                            }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§e§oPetite pièce\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§e§oSmall coin\\\"}\",\"{\\\"text\\\":\\\"§6+1 Chronoton\\\"}\"]}}"
-                        }
-                    ]
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "item.coin.small.name"
                 },
-                {
-                    "type": "item",
-                    "name": "minecraft:gold_ingot",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§e§oGrande pièce\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§e§oBig coin\\\"}\",\"{\\\"text\\\":\\\"§6+5 Chronotons\\\"}\"]}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:diamond",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.005
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§b§oDiamant\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§b§oDiamond\\\"}\",\"{\\\"text\\\":\\\"§6+50 Chronotons\\\"}\"]}}"
-                        }
-                    ]
+                "minecraft:lore": [
+                  {
+                    "translate": "item.coin.small.lore"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "misc",
+                  "Rarity": "cur",
+                  "Coin": "small"
                 }
-            ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.05
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "item.coin.big.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.coin.big.lore"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "misc",
+                  "Rarity": "cur",
+                  "Coin": "big"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.005
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "item.coin.diamond.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.coin.diamond.lore"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "misc",
+                  "Rarity": "cur",
+                  "Coin": "diamond"
+                }
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

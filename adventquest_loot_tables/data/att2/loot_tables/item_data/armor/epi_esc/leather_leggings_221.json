@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor221.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor221.lore.1"
+                  },
+                  {
+                    "translate": "armor221.lore.2"
+                  },
+                  {
+                    "translate": "armor221.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "epi_esc",
+                  "Manufacturer": "teran",
+                  "HAS": 3,
+                  "SPD": 2,
+                  "HER": -1,
+                  "Armor": "221"
+                },
+                "minecraft:enchantments": {
+                  "unbreaking": 35,
+                  "protection": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.leggings",
+                    "amount": 6.45,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.leggings",
+                    "amount": 1.9,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "armor.leggings",
+                    "amount": 0.02,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:dyed_color": 15121664,
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 190
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

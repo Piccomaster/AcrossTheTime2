@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor229.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor229.lore.1"
+                  },
+                  {
+                    "translate": "armor229.lore.2"
+                  },
+                  {
+                    "translate": "armor229.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "unc",
+                  "Manufacturer": "teran",
+                  "HAS": 2,
+                  "SPD": -1,
+                  "Armor": "229"
+                },
+                "minecraft:enchantments": {
+                  "unbreaking": 3,
+                  "feather_falling": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.boots",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.boots",
+                    "amount": 0.51,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "armor.boots",
+                    "amount": 0.02,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:dyed_color": 4218913,
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 70
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

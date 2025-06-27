@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:bow",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str2_luc1_hun2\",display:{Name:\"\\\"§6Somptueuse célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telles des étoiles filantes, \\\"}\",\"{\\\"text\\\":\\\"§7fusent tes flèches.\\\"}\",\"{\\\"text\\\":\\\"§7Like shooting stars,\\\"}\",\"{\\\"text\\\":\\\"§7your arrows are blasting.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7LUC§a1 §7HUN§a2\\\"}\"]},Damage:75,Enchantments:[{id:\"minecraft:power\",lvl:8s},{id:\"minecraft:punch\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/bow_48"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:netherite_pickaxe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"harmonious\",Effect:\"str2_spd2_hun2\",display:{Name:\"\\\"§6Broyeuse d'espérance\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sombre sont les heures qui virent l'éveil, noircies par le sang\\\"}\",\"{\\\"text\\\":\\\"§7des persécuteurs du semi-immortel égaré.\\\"}\",\"{\\\"text\\\":\\\"§7Dark are the hours that saw the awakening, blackened by\\\"}\",\"{\\\"text\\\":\\\"§7the blood of the persecutors of the lost half-immortal.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HUN§a2\\\"}\"]},Damage:1250,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:sharpness\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:78.35,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.79,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_pickaxe_314"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:iron_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str2_has3_hun1\",display:{Name:\"\\\"§6Cornes\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Surmonte ton crâne et insuffle stupeurs\\\"}\",\"{\\\"text\\\":\\\"§7et cauchemars même aux plus mauvais.\\\"}\",\"{\\\"text\\\":\\\"§7Surmount your skull and breathe stupor\\\"}\",\"{\\\"text\\\":\\\"§7and nightmares into even the worst.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a3 §7HUN§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:5.26,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.3,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/iron_helmet_127"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:iron_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,14 +81,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str2_res1_luc1\",display:{Name:\"\\\"§6Aigle rayonnant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Impérial, d'un unique mouvement\\\"}\",\"{\\\"text\\\":\\\"§7d'aile, il affirma sa supériorité.\\\"}\",\"{\\\"text\\\":\\\"§7Imperial, with a single wing movement,\\\"}\",\"{\\\"text\\\":\\\"§7he asserted his superiority.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7LUC§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:blast_protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.59,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:5.11,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/iron_chestplate_128"
                 }
             ]
         }
     ]
 }
+

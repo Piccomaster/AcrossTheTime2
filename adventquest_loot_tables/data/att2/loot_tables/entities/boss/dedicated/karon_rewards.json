@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_axe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",Effect:\"str3_spd2_has1_luc_2\",display:{Name:\"\\\"§5La honte de l'assassin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ainsi tes impitoyables actions ne te couvrirent\\\"}\",\"{\\\"text\\\":\\\"§7nullement de la gloire à laquelle tu aspirais tant ?\\\"}\",\"{\\\"text\\\":\\\"§7So your ruthless deeds did not in any way\\\"}\",\"{\\\"text\\\":\\\"§7cover you with the glory you so longed for?\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7HAS§a1 §7LUC§c-2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:33.02,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.77,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/golden_axe_152"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_pickaxe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",Effect:\"str2_her1_hun1_spd_2\",display:{Name:\"\\\"§5Fracasseur d'atricanth\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même l'insecte du fracas est pris\\\"}\",\"{\\\"text\\\":\\\"§7d'effroi à la vue de ton éclat tranchant !\\\"}\",\"{\\\"text\\\":\\\"§7Even the insect of the crash is frightened\\\"}\",\"{\\\"text\\\":\\\"§7at the sight of your sharp shine!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7HUN§a1 §7SPD§c-2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:61.18,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.84,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/golden_pickaxe_153"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_shovel",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,16 +61,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",Effect:\"has4_dar2_res_1\",display:{Name:\"\\\"§5Tréfonds glaciaux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tout en bas se cache l'inattendu, lové dans une\\\"}\",\"{\\\"text\\\":\\\"§7brise pétrifiante et brûlant d'une froideur absurde...\\\"}\",\"{\\\"text\\\":\\\"§7At the very bottom lies the unexpected, curled up in\\\"}\",\"{\\\"text\\\":\\\"§7a petrifying breeze and burning with absurd coldness...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7DAR§a2 §7RES§c-1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:sweeping\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:5.37,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.19999999999999996,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/golden_shovel_154"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_sword",
                     "weight": 1,
                     "conditions": [
                         {
@@ -95,16 +81,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",Effect:\"spd3_has3\",display:{Name:\"\\\"§5Sombre dévotion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inconscient au point d'en perdre ta couleur,\\\"}\",\"{\\\"text\\\":\\\"§7violent au point d'en confondre ami d'ennemi.\\\"}\",\"{\\\"text\\\":\\\"§7Unconscious to the point of losing your colour,\\\"}\",\"{\\\"text\\\":\\\"§7violent to the point of confusing friend with enemy.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7HAS§a3\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:17.72,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.62,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/golden_sword_155"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_hoe",
                     "weight": 1,
                     "conditions": [
                         {
@@ -119,16 +101,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",Type:\"spear\",Effect:\"str1_res1_luc1_hun_2\",display:{Name:\"\\\"§5Oscillar\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La lumière éternelle n'est guère l'alliée\\\"}\",\"{\\\"text\\\":\\\"§7de celui qui n'a d'autre choix que de la supporter.\\\"}\",\"{\\\"text\\\":\\\"§7The eternal light is hardly the ally of \\\"}\",\"{\\\"text\\\":\\\"§7the one who has no choice but to bear it.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7LUC§a1 §7HUN§c-2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:smite\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:25.36,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.51,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/golden_hoe_324"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_helmet",
                     "weight": 1,
                     "conditions": [
                         {
@@ -143,16 +121,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"eternan\",Effect:\"res1_dar_1\",SetId:\"11\",display:{Name:\"\\\"§5Parure du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7DAR§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7HAS§a2 §7SPD§a2 §7DAR§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.16,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.91,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/golden_helmet_311"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -167,16 +141,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"eternan\",Effect:\"str2_has_1\",SetId:\"11\",display:{Name:\"\\\"§5Atour du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7HAS§a2 §7SPD§a2 §7DAR§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.32,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.64,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/golden_chestplate_312"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -191,16 +161,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"eternan\",Effect:\"str2_spd_1\",SetId:\"11\",display:{Name:\"\\\"§5Jambards du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7HAS§a2 §7SPD§a2 §7DAR§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.74,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.73,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/golden_leggings_313"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_boots",
                     "weight": 1,
                     "conditions": [
                         {
@@ -215,14 +181,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"eternan\",Effect:\"res1_str_1\",SetId:\"11\",display:{Name:\"\\\"§5Empreinte du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7STR§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a2 §7HAS§a2 §7SPD§a2 §7DAR§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.58,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.82,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/golden_boots_314"
                 }
             ]
         }
     ]
 }
+

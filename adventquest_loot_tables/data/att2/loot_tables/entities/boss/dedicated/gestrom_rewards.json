@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:shield",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"leg\",Manufacturer:\"traditional\",Effect:\"str2_dar2_hun2\",display:{Name:\"\\\"§6Absolue Tenacité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Endure, fier comme le ciel, tenace comme le temps,\\\"}\",\"{\\\"text\\\":\\\"§7jusqu'à l'horizon inaccessible de persévérance.\\\"}\",\"{\\\"text\\\":\\\"§7Endures, proud as the sky, tenacious as time,\\\"}\",\"{\\\"text\\\":\\\"§7to the unattainable horizon of perseverance.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a2 §7HUN§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:7s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}],BlockEntityTag:{Base:15,Patterns:[{Color:5,Pattern:\"dls\"},{Color:5,Pattern:\"bl\"},{Color:13,Pattern:\"br\"},{Color:13,Pattern:\"tl\"},{Color:5,Pattern:\"tr\"},{Color:13,Pattern:\"drs\"}]}}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/shield_196"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:netherite_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"harmonious\",Effect:\"res1_dar2_has_2_spd_1\",SetId:\"8\",display:{Name:\"\\\"§5Volonté de fer\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aL'élu de ce monde, à qui obéissent temps et\\\"}\",\"{\\\"text\\\":\\\"§aespace, ne connaît aucune limite à sa volonté.\\\"}\",\"{\\\"text\\\":\\\"§aThe chosen one of this world, to whom\\\"}\",\"{\\\"text\\\":\\\"§atime and space obey, knows no limit to his will.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7DAR§a2 §7HAS§c-2 §7SPD§c-1\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a3 §7HAS§a3 §7SPD§a4\\\"}\"]},Damage:150,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.4,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/netherite_leggings_237"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_leggings",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,12 +61,10 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"spd4_dar3\",display:{Name:\"\\\"§6Course éperdue\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sauvez-vous, fuyez, envolez-vous,\\\"}\",\"{\\\"text\\\":\\\"§7égarez-moi, dans la cachette du rêveur\\\"}\",\"{\\\"text\\\":\\\"§7Get away, run away, fly away,\\\"}\",\"{\\\"text\\\":\\\"§7lead me astray, to dreamer's hideaway\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7DAR§a3\\\"}\"],color:12470537},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9.79,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.81,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_leggings_246"
                 }
             ]
         }

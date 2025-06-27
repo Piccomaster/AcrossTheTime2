@@ -7,8 +7,6 @@
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:stone_sword",
                     "weight": 1,
                     "conditions": [
                         {
@@ -23,16 +21,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"graceful\",Effect:\"str4\",display:{Name:\"\\\"§6Nisirion gal mandézäl\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même la plus stable des choses ne saura jamais\\\"}\",\"{\\\"text\\\":\\\"§7s'opposer à l'indéfectible dessein d'Entropie.\\\"}\",\"{\\\"text\\\":\\\"§7Even the most stable of things will never stand\\\"}\",\"{\\\"text\\\":\\\"§7in the way of Entropy's unwavering purpose.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:22.67,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5700000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/stone_sword_191"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:netherite_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -47,16 +41,12 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"harmonious\",Effect:\"str1_has_3\",SetId:\"8\",display:{Name:\"\\\"§5Cœur d'or\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aL'élu de ce monde, à qui obéissent temps et\\\"}\",\"{\\\"text\\\":\\\"§aespace, ne connaît aucune limite à sa volonté.\\\"}\",\"{\\\"text\\\":\\\"§aThe chosen one of this world, to whom\\\"}\",\"{\\\"text\\\":\\\"§atime and space obey, knows no limit to his will.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§c-3\\\"}\",\"{\\\"text\\\":\\\"§aBonus set completed§7: §7STR§a3 §7HAS§a3 §7SPD§a4\\\"}\"]},Damage:175,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.86,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.24,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi_set/netherite_chestplate_236"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:leather_chestplate",
                     "weight": 1,
                     "conditions": [
                         {
@@ -71,14 +61,13 @@
                                 "min": 1,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg\",Manufacturer:\"teran\",Effect:\"has5_her5_luc1_hun_6\",display:{Name:\"\\\"§6Raison inexistante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A l'intersection de l'extrême pensée et du dernier\\\"}\",\"{\\\"text\\\":\\\"§7quart d'heure, se trouve une grande pile de tissus.\\\"}\",\"{\\\"text\\\":\\\"§7At the intersection of extreme thinking and the last\\\"}\",\"{\\\"text\\\":\\\"§7quarter of an hour, there is a large pile of tissue.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a5 §7HER§a5 §7LUC§a1 §7HUN§c-6\\\"}\"],color:16714478},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:8.99,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.85,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]}"
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_chestplate_245"
                 }
             ]
         }
     ]
 }
+

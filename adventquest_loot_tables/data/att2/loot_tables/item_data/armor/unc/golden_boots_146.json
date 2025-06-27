@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor146.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor146.lore.1"
+                  },
+                  {
+                    "translate": "C.lore.2"
+                  },
+                  {
+                    "translate": "armor146.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "unc",
+                  "Manufacturer": "eternan",
+                  "LUC": -1,
+                  "Armor": "146"
+                },
+                "minecraft:enchantments": {
+                  "projectile_protection": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.boots",
+                    "amount": 0.7,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.boots",
+                    "amount": 0.34,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 90
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

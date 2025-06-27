@@ -1,0 +1,59 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "translate": "armor137.name"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "armor137.lore.1"
+                                    },
+                                    {
+                                        "translate": "armor137.lore.2"
+                                    },
+                                    {
+                                        "translate": "armor137.stat"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "EquipmentType": "armor",
+                                    "Rarity": "com",
+                                    "Manufacturer": "eternan",
+                                    "HAS": -2,
+                                    "Armor": "137"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "slot": "feet",
+                                        "type": "armor",
+                                        "id": "armor.boots",
+                                        "operation": "add_value",
+                                        "amount": 0.48
+                                    },
+                                    {
+                                        "slot": "feet",
+                                        "type": "armor_toughness",
+                                        "id": "armor.boots",
+                                        "operation": "add_value",
+                                        "amount": 0
+                                    }
+                                ],
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 90
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
