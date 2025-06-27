@@ -13,3 +13,5 @@ execute if score FN_angry TIMER matches 105..130 if entity @a[x=3550,y=52,z=4498
 #=======================#
 
 execute if score FN_angry TIMER matches 1 in minecraft:the_nether run setblock 3555 38 4497 minecraft:air
+#return 1->make command block runing
+return 1

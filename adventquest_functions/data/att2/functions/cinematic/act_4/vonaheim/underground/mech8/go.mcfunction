@@ -178,3 +178,5 @@ execute if score underground_mech8 VONAHEIM matches 6.. run particle minecraft:i
 execute unless score underground_mech8 VONAHEIM matches 1..4 as @a[x=-5735,y=96,z=-6354,dx=2,dy=-3,dz=-2,gamemode=adventure] at @s run tp @s -5734 ~-1 -6355
 # 2
 execute if score underground_mech8 VONAHEIM matches 0..1 as @a[x=-5747,y=107,z=-6368,dx=-2,dy=3,dz=2,gamemode=adventure] at @s run tp @s -5748 ~-2 -6367
+#return 1->make command block runing
+return 1

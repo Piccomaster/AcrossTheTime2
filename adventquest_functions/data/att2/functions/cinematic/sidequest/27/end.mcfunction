@@ -12,3 +12,5 @@ function att2:sound/misc/mission_progress
 function att2:gameplay/pnj_talk/dialog_playsound/emerald
 function att2:dialogs/sidequest/sq27/player_4
 execute as @p[distance=..10] run function att2:dialogs/sidequest/sq27/emerald/answer_end
+#return 1->make command block runing
+return 1

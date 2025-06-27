@@ -11,3 +11,5 @@ execute positioned -4569 69 -6102 run function att2:summon/reg_1/wardenknight2_c
 execute positioned -4569 69 -6102 as @e[distance=..5] run data merge entity @s {PersistenceRequired:1}
 execute positioned -4573 69 -6102 run function att2:summon/reg_1/wardenknight2_class18
 execute positioned -4573 69 -6102 as @e[distance=..5] run data merge entity @s {PersistenceRequired:1}
+#return 1->make command block runing
+return 1

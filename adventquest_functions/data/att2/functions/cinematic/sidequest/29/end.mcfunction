@@ -24,3 +24,5 @@ advancement grant @a only att2:quest/sq29
 setblock -3725 70 -5813 minecraft:redstone_torch
 setblock -3732 70 -5799 minecraft:redstone_torch
 setblock -3766 92 -5809 minecraft:stone
+#return 1->make command block runing
+return 1

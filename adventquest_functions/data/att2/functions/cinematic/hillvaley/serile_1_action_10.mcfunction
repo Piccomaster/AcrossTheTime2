@@ -14,3 +14,5 @@ effect give @a minecraft:blindness 2 0 true
 effect give @a minecraft:nausea 8 0 true
 tp @a 1991 113.6 2060
 spawnpoint @a 1992 113 2062
+#return 1->make command block runing
+return 1

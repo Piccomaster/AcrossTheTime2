@@ -15,3 +15,5 @@ execute if score SQ11 SIDEQUEST matches 2 at 00000000-0000-028a-0000-00000000028
 
 # Trigg area when player fight Troublemakers
 execute if score troublemakers_fight SQ11 matches 1 if entity @a[x=-5008,y=80,z=-5039,dx=17,dy=-4,dz=-14,gamemode=adventure] unless entity @e[type=minecraft:zombified_piglin,x=-5008,y=80,z=-5039,dx=17,dy=-4,dz=-14] run function att2:cinematic/sidequest/11/troublemakers/fight_end
+#return 1->make command block runing
+return 1

@@ -12,3 +12,5 @@ execute in overworld unless block 7971 109 6771 minecraft:air unless block 7971 
 
 execute in overworld positioned 7971 109 6773 run forceload add ~ ~
 execute in the_end positioned 22 64 0 run forceload add ~ ~
+#return 1->make command block runing
+return 1

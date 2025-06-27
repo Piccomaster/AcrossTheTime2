@@ -4,3 +4,5 @@
 ##################################################
 
 teleport @s ^ ^ ^0.2 ~ ~
+#return 1->make command block runing
+return 1

@@ -15,3 +15,5 @@ execute if score underground_mech9 VONAHEIM matches 0 run function att2:cinemati
 
 ### Wind
 execute if score underground_mech9 VONAHEIM matches 2 run function att2:cinematic/act_4/vonaheim/underground/mech9/wind
+#return 1->make command block runing
+return 1

@@ -14,3 +14,5 @@ execute if score vulk_timer SQ21 matches 0..100000 run scoreboard players add vu
 
 # Rewards when player is close to PNJ Vulk
 execute if score vulk_timer SQ21 matches 100000.. at 00000000-0000-067a-0000-00000000067a if entity @a[distance=..5] run function att2:cinematic/sidequest/21/vulk/rewards
+#return 1->make command block runing
+return 1

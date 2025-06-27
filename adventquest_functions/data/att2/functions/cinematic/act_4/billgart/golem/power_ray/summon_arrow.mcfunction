@@ -20,3 +20,5 @@ execute as @e[tag=GolemPowerRayArrow,tag=newGolemPRA] store result entity @s Mot
 execute as @e[tag=GolemPowerRayArrow,tag=newGolemPRA] store result entity @s Motion[2] double 0.05 run scoreboard players get @s MOTIONZ
 
 tag @e[tag=GolemPowerRayArrow,tag=newGolemPRA] remove newGolemPRA
+#return 1->make command block runing
+return 1

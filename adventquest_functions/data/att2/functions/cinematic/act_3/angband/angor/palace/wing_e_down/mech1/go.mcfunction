@@ -25,3 +25,5 @@ execute if score winged_mech1_button_2 ANGOR matches 1 in minecraft:the_nether a
 execute if score winged_mech1_button_2 ANGOR matches 1 if blocks 3577 38 4535 3581 38 4552 3577 43 4535 masked run function att2:cinematic/act_3/angband/angor/palace/wing_e_down/mech1/button2_end
 
 execute if score winged_mech1_button_1 ANGOR matches 2 if score winged_mech1_button_2 ANGOR matches 2 run function att2:cinematic/act_3/angband/angor/palace/wing_e_down/mech1/button3
+#return 1->make command block runing
+return 1

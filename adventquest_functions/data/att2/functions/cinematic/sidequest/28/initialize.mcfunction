@@ -12,3 +12,5 @@ scoreboard players set cinematic_timer2 SQ28 0
 scoreboard players set Korlaph SQ28 -1
 scoreboard players set move_emerald SQ28 0
 scoreboard players set fenrir_timer SQ28 0
+#return 1->make command block runing
+return 1

@@ -4,3 +4,5 @@
 ##################################################
 
 scoreboard players set mech1 OWSASTR 0
+#return 1->make command block runing
+return 1

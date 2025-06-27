@@ -9,3 +9,5 @@ execute as @e[nbt={UUID:[I;0,65551,0,65551]}] run function att2:cinematic/act_2/
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] run tag @s add UtoW
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] unless block -4946 72 -4381 minecraft:gold_block unless score mech1 OWSASTR matches 0..1 run scoreboard players set mech1 OWSASTR 2
 execute as @e[nbt={UUID:[I;0,65551,0,65551]}] if block -4946 72 -4381 minecraft:gold_block unless score mech1 OWSASTR matches 0..1 run scoreboard players set mech1 OWSASTR 3
+#return 1->make command block runing
+return 1

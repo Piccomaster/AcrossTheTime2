@@ -20,3 +20,5 @@ execute as @a[x=-5612,y=159,z=-6532,dx=64,dy=2,dz=2,gamemode=adventure] at @s ru
 # Effect
 execute as @a[x=-5546,y=97,z=-6532,dx=-2,dy=10,dz=280,gamemode=adventure] run effect give @s minecraft:jump_boost 5 255 true
 execute as @a[x=-5612,y=159,z=-6532,dx=63,dy=10,dz=2,gamemode=adventure] run effect give @s minecraft:jump_boost 5 255 true
+#return 1->make command block runing
+return 1

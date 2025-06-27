@@ -11,15 +11,15 @@ execute if score Real0 TIMER matches 0 run function att2:cinematic/hillvaley/bat
 execute if score Real0 TIMER matches 10 run function att2:gameplay/checkpoint/telluron_future/hill_valley2
 execute as @a if score Real0 TIMER matches 15 anchored feet at @s facing entity @e[type=minecraft:zombie,x=1995,y=96,z=2055,distance=..7,limit=1] feet run teleport @s ^ ^ ^ ~ ~
 execute if score Real0 TIMER matches 25 run effect give @a minecraft:blindness 1 0 true
-execute if score Real0 TIMER matches 40 as @e[type=minecraft:zombie,x=1995,y=96,z=2055,distance=..7] run data merge entity @s {Silent:0,NoAI:0,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],DeathLootTable:"att2:empty",ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_helmet",Count:1,tag:{Unbreakable:1b,display:{color:11839558}}}],CustomName:"\"Zombie\""}
+execute if score Real0 TIMER matches 40 as @e[type=minecraft:zombie,x=1995,y=96,z=2055,distance=..7] run data merge entity @s {Silent:0,NoAI:0,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},DeathLootTable:"att2:empty",equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:5526612}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:5526612}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:5526612}},head:{id:"minecraft:leather_helmet",count:1,components:{unbreakable:{},dyed_color:11839558}}},CustomName:"ZOMBIE"}
 execute if score Real0 TIMER matches 59 run function att2:dialogs/mainquest/act_1/ch0_player_23
 
 execute if score Real0 TIMER matches 0..60 run function att2:gameplay/dahal/action/spell1/enable_zombie_instantkill
 
-execute if score Real0 TIMER matches 0..60 run particle minecraft:dust 0.05 0 0.2 1.3 2013 99 2055 0 1.5 2 0 10 normal
-execute if score Real0 TIMER matches 0..60 run particle minecraft:dust 0.15 0.1 0.4 1.3 2013 99 2055 0 1.5 2 0 10 normal
-execute if score Real0 TIMER matches 0..60 run particle minecraft:dust 0.05 0 0.2 1.3 2007.0 98 2057 0.5 0.5 0 0 10 normal
-execute if score Real0 TIMER matches 0..60 run particle minecraft:dust 0.15 0.1 0.4 1.3 2007.0 98 2057 0.5 0.5 0 0 10 normal
+execute if score Real0 TIMER matches 0..60 run particle minecraft:dust{color:[0.05,0,0.2],scale:1.3} 2013 99 2055 0 1.5 2 0 10 normal
+execute if score Real0 TIMER matches 0..60 run particle minecraft:dust{color:[0.15,0.1,0.4],scale:1.3} 2013 99 2055 0 1.5 2 0 10 normal
+execute if score Real0 TIMER matches 0..60 run particle minecraft:dust{color:[0.05,0,0.2],scale:1.3} 2007.0 98 2057 0.5 0.5 0 0 10 normal
+execute if score Real0 TIMER matches 0..60 run particle minecraft:dust{color:[0.15,0.1,0.4],scale:1.3} 2007.0 98 2057 0.5 0.5 0 0 10 normal
 execute if score Real0 TIMER matches 0..60 as @a at @s run function att2:gameplay/dahal/action/spell40/showeffect
 
 #Skip to the second part of the cinematic when the player had killed all the enemies
@@ -42,3 +42,5 @@ execute if score Real0 TIMER matches 140 run function att2:voice/serile/serile11
 execute if score Real0 TIMER matches 401.. run function att2:cinematic/hillvaley/battle_2_action_4
 execute if score Real0 TIMER matches ..59 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 61..400 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

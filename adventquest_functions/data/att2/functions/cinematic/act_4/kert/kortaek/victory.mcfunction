@@ -11,3 +11,5 @@ effect give @a minecraft:blindness 5 2 true
 tp @a -5478 76 -4726 -90 0
 execute in minecraft:overworld run spawnpoint @a -5478 76 -4726
 scoreboard players set Arena KORTAEK -1
+#return 1->make command block runing
+return 1

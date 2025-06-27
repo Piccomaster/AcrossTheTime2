@@ -16,3 +16,5 @@ execute if score Real1 TIMER matches 300 run kill @a[x=7328,y=127,z=7408,distanc
 
 execute if score Real1 TIMER matches 301.. run function att2:cinematic/sidequest/49/end
 execute if score Real1 TIMER matches ..300 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

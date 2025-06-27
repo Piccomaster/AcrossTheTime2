@@ -16,3 +16,5 @@ execute if score path2_mech3_circles OURANOS matches 5 if entity @a[x=7287,y=159
 execute if score path2_mech3_circles OURANOS matches 6 if entity @a[x=7254,y=117,z=6436,dx=-7,dy=-18,dz=7,gamemode=adventure] run function att2:cinematic/act_4/ouranos/tower2_path/mech3/circle6
 execute if score path2_mech3_circles OURANOS matches 7 if entity @a[x=7198,y=101,z=6408,dx=-7,dy=-18,dz=7,gamemode=adventure] run function att2:cinematic/act_4/ouranos/tower2_path/mech3/circle7
 execute if score path2_mech3_circles OURANOS matches 8 if entity @a[x=7122,y=82,z=6363,dx=-7,dy=-18,dz=7,gamemode=adventure] run function att2:cinematic/act_4/ouranos/tower2_path/mech3/circle8
+#return 1->make command block runing
+return 1

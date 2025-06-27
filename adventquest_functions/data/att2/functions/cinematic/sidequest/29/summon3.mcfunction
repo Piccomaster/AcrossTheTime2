@@ -15,3 +15,5 @@ execute positioned -4043 73 -5610 run function att2:summon/reg_1/thiefarcher0_cl
 execute positioned -4043 73 -5610 run function att2:summon/reg_1/thiefarcher1_class6
 execute positioned -4043 73 -5610 run function att2:summon/reg_1/thiefarcher2_class7
 execute positioned -4043 73 -5610 run function att2:summon/reg_1/thiefarcher3_class8
+#return 1->make command block runing
+return 1

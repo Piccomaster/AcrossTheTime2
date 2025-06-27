@@ -9,3 +9,5 @@ scoreboard players set intake_old_chipped_stone SQ33 0
 scoreboard players set mortimer_timer SQ33 0
 scoreboard players set move_mortimer SQ33 0
 scoreboard players set player_talking SQ33 0
+#return 1->make command block runing
+return 1

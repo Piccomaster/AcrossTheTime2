@@ -27,3 +27,5 @@ execute if score choice SQ5 matches 3 run tellraw @a {"text":"* ","color":"dark_
 execute if score choice SQ5 matches 3 run give @a minecraft:cooked_rabbit 5
 
 advancement grant @a only att2:quest/sq5
+#return 1->make command block runing
+return 1

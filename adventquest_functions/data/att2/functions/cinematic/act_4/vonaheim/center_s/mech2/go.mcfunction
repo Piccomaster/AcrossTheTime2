@@ -38,3 +38,5 @@ execute if score center_s_mech2 VONAHEIM matches 290 positioned -5613 101 -6409 
 
 execute if score center_s_mech2 VONAHEIM matches 300 run scoreboard players set center_s_mech2 VONAHEIM 0
 execute if score center_s_mech2 VONAHEIM matches 0..299 run scoreboard players add center_s_mech2 VONAHEIM 1
+#return 1->make command block runing
+return 1

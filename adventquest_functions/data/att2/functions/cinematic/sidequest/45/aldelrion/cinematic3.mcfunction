@@ -20,3 +20,5 @@ execute if score Neth1 TIMER matches 1000..1200 as 00000000-0000-149a-0000-00000
 
 execute if score Neth1 TIMER matches 1201.. run function att2:cinematic/sidequest/45/end
 execute if score Neth1 TIMER matches ..1200 run function att2:cinematic/neth1_iteration
+#return 1->make command block runing
+return 1

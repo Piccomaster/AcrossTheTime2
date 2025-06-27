@@ -11,3 +11,5 @@ function att2:dialogs/sidequest/completed_effect
 xp add @a 25000 points
 
 advancement grant @a only att2:quest/sq49
+#return 1->make command block runing
+return 1

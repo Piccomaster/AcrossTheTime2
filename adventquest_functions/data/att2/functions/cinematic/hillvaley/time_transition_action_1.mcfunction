@@ -10,3 +10,5 @@ clear @a
 weather clear 100000
 stopsound @a
 tag @a add NoAutoMusic
+#return 1->make command block runing
+return 1

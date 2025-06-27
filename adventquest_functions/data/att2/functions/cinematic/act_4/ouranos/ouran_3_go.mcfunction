@@ -17,3 +17,5 @@ execute if score Real0 TIMER matches 101 in overworld positioned 7971 109 6773 r
 
 execute if score Real0 TIMER matches 101.. run setblock 730 76 824 minecraft:air
 execute if score Real0 TIMER matches ..100 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

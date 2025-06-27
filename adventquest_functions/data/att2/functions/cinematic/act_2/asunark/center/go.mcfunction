@@ -24,3 +24,5 @@ execute if score Pillar_NE ASUNARK matches 16 run particle minecraft:electric_sp
 execute if score Pillar_NW ASUNARK matches 16 run particle minecraft:electric_spark -3464 31.5 -4963 0.3 1.5 0.3 0.1 15
 execute if score Pillar_SE ASUNARK matches 16 run particle minecraft:electric_spark -3422 31.5 -4921 0.3 1.5 0.3 0.1 15
 execute if score Pillar_SW ASUNARK matches 16 run particle minecraft:electric_spark -3464 31.5 -4921 0.3 1.5 0.3 0.1 15
+#return 1->make command block runing
+return 1

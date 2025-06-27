@@ -14,3 +14,5 @@ function att2:gameplay/nightmarerun/save_score
 function att2:gameplay/nightmarerun/save_score_to_beat
 
 function att2:gameplay/nightmarerun/initialize
+#return 1->make command block runing
+return 1

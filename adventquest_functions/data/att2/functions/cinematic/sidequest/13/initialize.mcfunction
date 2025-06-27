@@ -10,3 +10,5 @@ scoreboard players set KillCount SQ13 0
 scoreboard players set choice SQ13 0
 scoreboard players set garry_traskel_answer_2_2 SQ13 0
 scoreboard players set garry_traskel_answer_3_1 SQ13 0
+#return 1->make command block runing
+return 1

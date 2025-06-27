@@ -30,3 +30,5 @@ particle minecraft:end_rod -4914.0 73 -4381 3.5 0.3 0.2 0 1
 particle minecraft:end_rod -4907 72.5 -4381 3.5 0.3 0.2 0 1
 particle minecraft:end_rod -4902.0 72 -4381 3.5 0.3 0.2 0 1
 particle minecraft:end_rod -4896 71.5 -4381 3.5 0.3 0.2 0 1
+#return 1->make command block runing
+return 1

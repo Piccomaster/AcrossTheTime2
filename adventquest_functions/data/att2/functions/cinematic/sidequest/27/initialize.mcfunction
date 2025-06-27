@@ -5,3 +5,5 @@
 
 scoreboard objectives add SQ27 dummy
 scoreboard players set move_emerald SQ27 0
+#return 1->make command block runing
+return 1

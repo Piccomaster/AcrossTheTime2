@@ -12,3 +12,5 @@ execute if score tower_sw_mech1 BILLGART matches 0 in minecraft:the_end if entit
 
 # Cinematic
 execute if score tower_sw_mech1 BILLGART matches 1 in minecraft:the_end run function att2:cinematic/act_4/billgart/dungeon/tower_sw/mech1/cinematic
+#return 1->make command block runing
+return 1

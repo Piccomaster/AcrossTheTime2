@@ -82,3 +82,5 @@ execute if score tower_nw_mech1_timer BILLGART matches 1600 in minecraft:the_end
 execute if score tower_nw_mech1_timer BILLGART matches 1650 in minecraft:the_end run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech1/power_up
 execute if score tower_nw_mech1_timer BILLGART matches 1650 in minecraft:the_end run function att2:physicmod/reg3/dungeon/tower_nw/mech1_powerup33
 execute if score tower_nw_mech1_timer BILLGART matches 1651.. in minecraft:the_end run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech1/end
+#return 1->make command block runing
+return 1

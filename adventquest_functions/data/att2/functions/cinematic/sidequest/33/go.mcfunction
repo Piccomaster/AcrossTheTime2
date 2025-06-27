@@ -16,3 +16,5 @@ execute positioned -4270 58 -5620 run function att2:cinematic/sidequest/33/parti
 
 # trigg if the player pass through the cave
 execute if score player_talking SQ33 matches 0 if entity @a[x=-4277,y=60,z=-5620,distance=..5,gamemode=adventure] run scoreboard players set player_talking SQ33 1
+#return 1->make command block runing
+return 1

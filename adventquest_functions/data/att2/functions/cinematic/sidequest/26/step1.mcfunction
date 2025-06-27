@@ -19,3 +19,5 @@ function att2:dialogs/sidequest/sq26/player_0
 xp add @a 2000
 
 advancement grant @a only att2:quest/sq25
+#return 1->make command block runing
+return 1

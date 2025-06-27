@@ -12,3 +12,5 @@ execute positioned 7707 172 5952 run function att2:summon/reg_4/blaze0_class15
 execute positioned 7711 172 5956 run function att2:summon/reg_4/blaze0_class15
 execute positioned 7707 172 5960 run function att2:summon/reg_4/blaze0_class15
 execute positioned 7703 172 5956 run function att2:summon/reg_4/blaze0_class15
+#return 1->make command block runing
+return 1

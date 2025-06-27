@@ -11,3 +11,5 @@ function att2:dialogs/sidequest/sq56/player_14
 
 #hidden chest access
 setblock -5258 103 -6332 minecraft:redstone_torch
+#return 1->make command block runing
+return 1

@@ -11,3 +11,5 @@ effect give @a minecraft:blindness 2 1
 summon minecraft:shulker 2062 105 1937 {Tags:["Objective"],NoAI:1,Silent:1,Glowing:1,PersistenceRequired:1,Invulnerable:1,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}],DeathLootTable:"att2:empty"}
 summon minecraft:shulker 2072 98 1940 {Tags:["Objective"],NoAI:1,Silent:1,Glowing:1,PersistenceRequired:1,Invulnerable:1,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}],DeathLootTable:"att2:empty"}
 team join objective_main @e[type=minecraft:shulker,tag=Objective]
+#return 1->make command block runing
+return 1

@@ -13,3 +13,5 @@ scoreboard players set underground_mech6 VONAHEIM 0
 scoreboard players set underground_mech7 VONAHEIM 0
 scoreboard players set underground_mech8 VONAHEIM 0
 scoreboard players set underground_mech9 VONAHEIM 0
+#return 1->make command block runing
+return 1

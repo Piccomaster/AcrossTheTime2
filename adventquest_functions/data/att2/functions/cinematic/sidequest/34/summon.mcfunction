@@ -12,3 +12,5 @@ execute positioned -5536 101 -4326 run function att2:summon/reg_1/husk2_class19
 execute positioned -5540 100 -4322 run function att2:summon/reg_1/husk4_class20
 
 scoreboard players set husk_trigg SQ34 1
+#return 1->make command block runing
+return 1

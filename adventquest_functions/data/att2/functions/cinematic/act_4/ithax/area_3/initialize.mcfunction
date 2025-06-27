@@ -44,3 +44,5 @@ scoreboard players set area3_monitoring_block4 ITHAX 0
 scoreboard players set area3_monitoring_block5 ITHAX 0
 scoreboard players set area3_monitoring_block6 ITHAX 0
 scoreboard players set area3_monitoring_block7 ITHAX 0
+#return 1->make command block runing
+return 1

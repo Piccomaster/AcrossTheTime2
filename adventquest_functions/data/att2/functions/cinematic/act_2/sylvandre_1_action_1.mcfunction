@@ -11,3 +11,5 @@ scoreboard players set gonon_PNJ DIALOG 2
 gamerule doDaylightCycle true
 weather clear 10d
 time set 0
+#return 1->make command block runing
+return 1

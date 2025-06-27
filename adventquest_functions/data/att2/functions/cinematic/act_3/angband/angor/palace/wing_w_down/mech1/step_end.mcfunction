@@ -10,3 +10,5 @@ execute in minecraft:the_nether run kill @e[type=minecraft:arrow,x=3471,y=36,z=4
 
 scoreboard players set wingwd_mech1 ANGOR 0
 scoreboard players set wingwd_steps ANGOR 0
+#return 1->make command block runing
+return 1

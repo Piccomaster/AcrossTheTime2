@@ -10,3 +10,5 @@ function att2:cinematic/sidequest/59/start_cinematic
 function att2:physicmod/reg1/ryliathportal_space
 execute positioned -5030 80 -5034 run function att2:particle/ryliath_portal_set
 execute positioned -5030 80 -5034 run function att2:sound/misc/space_portal
+#return 1->make command block runing
+return 1

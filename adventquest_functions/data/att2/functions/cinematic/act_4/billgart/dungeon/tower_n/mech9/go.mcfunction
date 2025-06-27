@@ -11,7 +11,7 @@ execute if score End0 TIMER matches 1..199 in minecraft:the_end as @a[gamemode=s
 execute if score End0 TIMER matches 5 at @a run function att2:sound/misc/gears
 execute if score End0 TIMER matches 60 in minecraft:the_end run function att2:physicmod/reg3/dungeon/tower_n/mech9_end
 execute if score End0 TIMER matches 60 at @a run function att2:sound/misc/wall_falling
-execute if score End0 TIMER matches 120 run particle minecraft:item minecraft:slime_block -1239 105 -735 0.5 0.5 0.5 1 200 force
+execute if score End0 TIMER matches 120 run particle minecraft:item{item:"minecraft:slime_block"} -1239 105 -735 0.5 0.5 0.5 1 200 force
 execute if score End0 TIMER matches 120 at @a run function att2:sound/misc/energy_impact
 execute if score End0 TIMER matches 120 at @a run function att2:sound/misc/resolution
 execute if score End0 TIMER matches 200 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
@@ -22,3 +22,5 @@ execute if score End0 TIMER matches 200 as @a[gamemode=spectator] run function a
 
 execute if score End0 TIMER matches 201.. run scoreboard players set tower_n_mech9 BILLGART 2
 execute if score End0 TIMER matches ..200 run function att2:cinematic/end0_iteration
+#return 1->make command block runing
+return 1

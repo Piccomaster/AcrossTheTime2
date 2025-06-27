@@ -23,3 +23,5 @@ execute if score cinematic_timer SQ59 matches 500 positioned -4996 172 -4912 as 
 
 execute if score cinematic_timer SQ59 matches 501.. run function att2:cinematic/sidequest/59/step19
 execute if score cinematic_timer SQ59 matches 1..500 run scoreboard players add cinematic_timer SQ59 1
+#return 1->make command block runing
+return 1

@@ -23,3 +23,5 @@ execute if score tower_ne_mech8 BILLGART matches 350 in minecraft:the_end run fu
 
 execute if score tower_ne_mech8 BILLGART matches 351.. run scoreboard players set tower_ne_mech8 BILLGART 0
 execute if score tower_ne_mech8 BILLGART matches 1..350 run scoreboard players add tower_ne_mech8 BILLGART 1
+#return 1->make command block runing
+return 1

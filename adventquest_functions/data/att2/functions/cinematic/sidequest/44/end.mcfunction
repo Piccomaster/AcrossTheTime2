@@ -12,3 +12,5 @@ scoreboard players set SQ44 SIDEQUEST 100
 xp add @a 7500 points
 
 advancement grant @a only att2:quest/sq44
+#return 1->make command block runing
+return 1

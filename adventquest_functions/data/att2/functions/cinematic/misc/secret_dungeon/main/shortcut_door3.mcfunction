@@ -15,3 +15,5 @@ execute positioned -4609 89 -6136 run function att2:summon/reg_1/wardenminion0_c
 execute positioned -4609 89 -6136 as @e[distance=..5] run data merge entity @s {PersistenceRequired:1}
 execute positioned -4609 89 -6140 run function att2:summon/reg_1/wardenminion0_class19
 execute positioned -4609 89 -6140 as @e[distance=..5] run data merge entity @s {PersistenceRequired:1}
+#return 1->make command block runing
+return 1

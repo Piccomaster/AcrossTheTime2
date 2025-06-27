@@ -17,3 +17,5 @@ execute if score SQ29 SIDEQUEST matches 5 at 00000000-0000-036a-0000-00000000036
 
 # Step5 when Player destroyed all bandit camp
 execute if score SQ29 SIDEQUEST matches 4 run function att2:cinematic/sidequest/29/step5
+#return 1->make command block runing
+return 1

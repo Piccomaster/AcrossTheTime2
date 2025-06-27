@@ -13,3 +13,5 @@ execute if score Real2 TIMER matches ..301 run function att2:cinematic/real2_ite
 #=======================#
 
 execute if score Real2 TIMER matches 302.. run setblock -4801 70 -5262 minecraft:air
+#return 1->make command block runing
+return 1

@@ -18,3 +18,5 @@ execute if score past_sidetower_n_button3 NOJELANTH matches 10 positioned -7549 
 execute if score past_sidetower_n_button3 NOJELANTH matches 10 run scoreboard players set past_sidetower_n_button3 NOJELANTH 0
 
 function att2:cinematic/act_4/nojelanth/past/sidetower_n/enigma_detection
+#return 1->make command block runing
+return 1

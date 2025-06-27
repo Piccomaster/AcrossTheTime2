@@ -7,3 +7,5 @@ execute as @a[x=-4276,y=56,z=-5621,dx=9,dy=5,dz=3,gamemode=adventure] at @s run 
 particle minecraft:entity_effect ~ ~ ~ 3 1 1 0 5 normal
 particle minecraft:smoke ~ ~ ~ 3 1 1 0 5 normal
 particle minecraft:mycelium ~ ~ ~ 3 1 1 0 50 normal
+#return 1->make command block runing
+return 1

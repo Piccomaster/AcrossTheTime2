@@ -14,3 +14,5 @@ execute if score Mainquest SIDEQUEST matches 122.. run tp 00000000-0000-094a-000
 kill 00000000-0000-097a-0000-00000000097a
 
 function att2:dialogs/sidequest/sq30/player_3
+#return 1->make command block runing
+return 1

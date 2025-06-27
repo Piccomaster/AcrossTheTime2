@@ -9,3 +9,5 @@ tag 00000000-0000-140a-0000-00000000140a remove QUEST
 scoreboard players add @a SIDEQUEST 1
 scoreboard players set SQ42 SIDEQUEST 100
 scoreboard players set SQ43 SIDEQUEST 1
+#return 1->make command block runing
+return 1

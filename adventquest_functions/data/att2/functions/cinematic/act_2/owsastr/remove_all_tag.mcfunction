@@ -18,3 +18,5 @@ tag @s remove NtoE
 tag @s remove EtoS
 tag @s remove StoW
 tag @s remove WtoN
+#return 1->make command block runing
+return 1

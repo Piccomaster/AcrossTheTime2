@@ -15,3 +15,5 @@ playsound minecraft:eboulement3 master @a ~ ~ ~ 1 1 1
 playsound minecraft:eboulement3 master @a ~ ~ ~ 1 1 1
 execute positioned -5206 56 -5313 run function att2:summon/reg_1/cavespider0_class1
 execute positioned -5215 56 -5312 run function att2:summon/reg_1/cavespider0_class1
+#return 1->make command block runing
+return 1

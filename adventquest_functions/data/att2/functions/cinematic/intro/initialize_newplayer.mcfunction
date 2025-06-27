@@ -6,11 +6,6 @@
 execute if score Mainquest SIDEQUEST matches 1.. run tp @s -5192 73 -5342
 execute if score Mainquest SIDEQUEST matches 0 run tp @s 1993 113 2062
 
-execute if score numberPlayerAlly COUNT matches 4 run function att2:cinematic/intro/newplayer5
-execute if score numberPlayerAlly COUNT matches 3 run function att2:cinematic/intro/newplayer4
-execute if score numberPlayerAlly COUNT matches 2 run function att2:cinematic/intro/newplayer3
-execute if score numberPlayerAlly COUNT matches 1 run function att2:cinematic/intro/newplayer2
-
 scoreboard players set @s MUSIC_BOSS 0
 scoreboard players set @s LANGUAGE 1
 scoreboard players set @s PANORAMA 0
@@ -37,8 +32,11 @@ function att2:gameplay/speceffect/initialize
 function att2:gameplay/stat/initialize
 function att2:advancement/initialize
 
-execute store result score numberRegistered COUNT if entity @a[team=ally]
-
 execute if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/update_book
 function att2:dialogs/gameplay/dahal/use_tip
 function att2:gameplay/dahal/action/spell1/obtain
+
+function att2:dialogs/gameplay/intro/translate_tip
+function att2:dialogs/gameplay/intro/language_tip
+#return 1->make command block runing
+return 1

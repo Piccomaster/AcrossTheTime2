@@ -10,3 +10,5 @@ execute as @p at @s run function att2:items/quest/keys/omeryn_key
 
 function att2:gameplay/pnj_talk/dialog_playsound/omeryn_white
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/answer_1
+#return 1->make command block runing
+return 1

@@ -8,7 +8,7 @@ scoreboard players set SQ18 SIDEQUEST 100
 function att2:dialogs/sidequest/completed_effect
 function att2:gameplay/reputation/add_4
 scoreboard players set daril_gram_PNJ DIALOG 3
-clear @a minecraft:player_head{display:{"Lore":["{\"text\":\"Dermist head\"}"]}} 64
+clear @a minecraft:player_head[custom_name={translate:'item.quest.dermist_head.name'}] 64
 
 function att2:gameplay/pnj_talk/dialog_playsound/daril_gram
 execute as @p[distance=..10] run function att2:dialogs/sidequest/sq18/daril_gram/answer_end
@@ -22,3 +22,5 @@ execute if score choice SQ18 matches 2 run scoreboard players add @a CHRONOTON 2
 execute if score choice SQ18 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+225 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq18
+#return 1->make command block runing
+return 1

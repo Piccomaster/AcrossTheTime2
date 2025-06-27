@@ -13,3 +13,5 @@ kill 00000000-0000-008a-0000-00000000008a
 execute in minecraft:the_nether run kill @e[type=!minecraft:player,tag=!spell20_chest,x=3824,y=42,z=4705,distance=..5]
 
 execute in minecraft:the_nether run function att2:physicmod/reg2/source/barrier2
+#return 1->make command block runing
+return 1

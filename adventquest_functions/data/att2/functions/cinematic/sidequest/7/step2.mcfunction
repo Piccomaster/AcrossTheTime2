@@ -5,3 +5,5 @@
 
 scoreboard players set SQ7 SIDEQUEST 2
 function att2:sound/misc/mission_progress
+#return 1->make command block runing
+return 1

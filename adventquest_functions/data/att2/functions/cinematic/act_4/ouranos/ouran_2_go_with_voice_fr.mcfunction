@@ -3,7 +3,7 @@
 #Process cinematic ouranos ouran_2_go  		 	 #
 ##################################################
 
-execute if score Real0 TIMER matches 0 run summon minecraft:armor_stand 7955.05 114.9 6772.90 {Rotation:[90.0f,0.0f],HandItems:[{id:"minecraft:sunflower",Count:1},{}],ShowArms:1,Invisible:1,NoGravity:1,DisabledSlots:2039583,Pose:{RightArm:[-90f,0f,0f]}}
+execute if score Real0 TIMER matches 0 run summon minecraft:armor_stand 7955.05 114.9 6772.90 {Rotation:[90.0f,0.0f],equipment:{mainhand:{id:"minecraft:sunflower",count:1},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1,DisabledSlots:2039583,Pose:{RightArm:[-90f,0f,0f]}}
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch4_player_53
 execute if score Real0 TIMER matches 100 run function att2:dialogs/mainquest/act_4/ch4_ouran_1
 execute if score Real0 TIMER matches 100 run function att2:voice/aoran/aoran1

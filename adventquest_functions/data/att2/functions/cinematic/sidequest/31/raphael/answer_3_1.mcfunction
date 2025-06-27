@@ -10,3 +10,5 @@ execute as @e[type=minecraft:horse,x=-5311,y=108,z=-5814,distance=..30,limit=1] 
 
 function att2:gameplay/pnj_talk/dialog_playsound/raphael
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq31/raphael/player_proposal_1/answer_2
+#return 1->make command block runing
+return 1

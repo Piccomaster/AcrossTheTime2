@@ -14,3 +14,5 @@ scoreboard players set jack_arrow_PNJ DIALOG 2
 xp add @a 5000 points
 
 advancement grant @a only att2:quest/sq40
+#return 1->make command block runing
+return 1

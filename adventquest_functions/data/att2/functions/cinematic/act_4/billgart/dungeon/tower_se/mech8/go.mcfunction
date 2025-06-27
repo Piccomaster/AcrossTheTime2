@@ -20,3 +20,5 @@ execute if score tower_se_mech8 BILLGART matches 7 if score tower_se_mech8_count
 # Trigg end
 execute if score tower_se_mech8 BILLGART matches 1..7 if entity @a[x=-1175,y=115,z=-587,dx=62,dy=7,dz=59,gamemode=adventure] unless entity @e[x=-1175,y=115,z=-587,dx=62,dy=7,dz=59,type=minecraft:wither_skeleton] run function att2:cinematic/act_4/billgart/dungeon/tower_se/mech8/end
 execute if score tower_se_mech8 BILLGART matches 8 if entity @a[x=-1175,y=115,z=-587,dx=62,dy=7,dz=59,gamemode=adventure] run function att2:cinematic/act_4/billgart/dungeon/tower_se/mech8/end
+#return 1->make command block runing
+return 1

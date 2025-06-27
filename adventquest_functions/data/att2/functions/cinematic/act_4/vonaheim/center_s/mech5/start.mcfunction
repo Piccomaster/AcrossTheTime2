@@ -17,3 +17,5 @@ execute positioned -5625 166 -6358 run function att2:summon/reg_1/vonaheim_stray
 data merge entity 00000000-0000-006b-0000-00000000006b {Invulnerable:1,NoAI:1,Rotation:[-180.0f,0.0f]}
 
 execute as @e[tag=NewInvo,x=-5614,y=167,z=-6369,distance=..50] run function att2:gameplay/invocation/action/summon
+#return 1->make command block runing
+return 1

@@ -17,3 +17,5 @@ execute if score path2_mech4 OURANOS matches 7 if score path2_mech4_counter OURA
 # Trigg end
 execute if score path2_mech4 OURANOS matches 1..7 if entity @a[x=7488,y=158,z=6455,dx=-57,dy=-26,dz=53,gamemode=adventure] unless entity @e[x=7488,y=158,z=6455,dx=-57,dy=-26,dz=53,type=minecraft:skeleton] run function att2:cinematic/act_4/ouranos/tower2_path/mech4/end
 execute if score path2_mech4 OURANOS matches 8 if entity @a[x=7488,y=158,z=6455,dx=-57,dy=-26,dz=53,gamemode=adventure] run function att2:cinematic/act_4/ouranos/tower2_path/mech4/end
+#return 1->make command block runing
+return 1

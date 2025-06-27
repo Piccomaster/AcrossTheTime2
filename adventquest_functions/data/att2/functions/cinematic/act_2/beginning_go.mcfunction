@@ -19,3 +19,5 @@ execute if score Real1 TIMER matches 500 run scoreboard players set quest_assist
 
 execute if score Real1 TIMER matches 501.. run setblock -5253 68 -5404 minecraft:air
 execute if score Real1 TIMER matches ..500 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

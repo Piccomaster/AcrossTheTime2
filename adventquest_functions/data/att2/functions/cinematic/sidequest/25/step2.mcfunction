@@ -8,3 +8,5 @@ scoreboard players set SQ25 SIDEQUEST 2
 
 function att2:sound/dialogs/simple
 function att2:dialogs/sidequest/sq25/player_1
+#return 1->make command block runing
+return 1

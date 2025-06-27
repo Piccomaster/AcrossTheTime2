@@ -23,7 +23,7 @@ execute if score wing_e_mech5 VONAHEIM matches 1 as @a[scores={WIND=..0},x=-5616
 execute if score center_s_mech0 VONAHEIM matches 0 run particle minecraft:instant_effect -5614 125 -6387 1 5 1 0.2 10 normal
 execute if score center_s_mech0 VONAHEIM matches 0 run particle minecraft:instant_effect -5624 133 -6359 1 0.5 1 0.2 2 normal
 execute if score center_s_mech0 VONAHEIM matches 0 run particle minecraft:instant_effect -5604 133 -6359 1 0.5 1 0.2 2 normal
-execute if score wing_e_mech5 VONAHEIM matches 1 as @a[x=-5614,y=140,z=-6387,distance=..40,gamemode=adventure] run particle minecraft:item minecraft:ice -5614 115 -6387 1 20 1 1 50 force @s
+execute if score wing_e_mech5 VONAHEIM matches 1 as @a[x=-5614,y=140,z=-6387,distance=..40,gamemode=adventure] run particle minecraft:item{item:"minecraft:ice"} -5614 115 -6387 1 20 1 1 50 force @s
 
 # TP
 execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5613,y=115,z=-6388,dx=-2,dy=0,dz=8,gamemode=adventure] at @s run tp @s -5614 115 ~0.25 0 0
@@ -97,3 +97,5 @@ execute if score center_s_mech0 VONAHEIM matches 1 run particle minecraft:instan
 # Effect
 execute if score center_s_mech0 VONAHEIM matches 1 as @a[x=-5615,y=101,z=-6439,dx=2,dy=16,dz=-2,gamemode=adventure] run effect give @s minecraft:levitation 1 9 true
 execute if score center_s_mech0 VONAHEIM matches 1 as @a[x=-5615,y=101,z=-6439,dx=2,dy=16,dz=-2,gamemode=adventure] run effect give @s minecraft:jump_boost 3 255 true
+#return 1->make command block runing
+return 1

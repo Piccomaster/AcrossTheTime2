@@ -5,3 +5,5 @@
 
 function att2:cinematic/real1_init
 scoreboard players set cinematic SQ54 3
+#return 1->make command block runing
+return 1

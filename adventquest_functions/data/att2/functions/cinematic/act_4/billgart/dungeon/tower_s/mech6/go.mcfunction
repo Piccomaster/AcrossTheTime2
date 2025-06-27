@@ -23,3 +23,5 @@ execute if score End0 TIMER matches 200 as @a[gamemode=spectator] run function a
 
 execute if score End0 TIMER matches 201.. run scoreboard players set tower_s_mech6 BILLGART 8
 execute if score End0 TIMER matches ..200 run function att2:cinematic/end0_iteration
+#return 1->make command block runing
+return 1

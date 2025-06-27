@@ -17,3 +17,5 @@ execute positioned -5584 109.9 -6420 run function att2:summon/reg_1/vonaheim_squ
 execute positioned -5584 108.1 -6420 run function att2:summon/reg_1/vonaheim_squid
 
 function att2:physicmod/reg1/vonaheim/center_s/mech3_barrier1
+#return 1->make command block runing
+return 1

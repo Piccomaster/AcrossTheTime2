@@ -11,3 +11,5 @@ scoreboard players set proposal_1 SQ56 0
 scoreboard players set proposal_2 SQ56 0
 scoreboard players set proposal_3 SQ56 0
 scoreboard players set secret SQ56 0
+#return 1->make command block runing
+return 1

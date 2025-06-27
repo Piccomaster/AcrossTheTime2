@@ -11,3 +11,5 @@ scoreboard players set wingwd_mech6 ANGOR 0
 scoreboard players set wingwd_mech7 ANGOR 0
 scoreboard players set wingwd_mech8 ANGOR 0
 scoreboard players set wingwd_mech9 ANGOR 0
+#return 1->make command block runing
+return 1

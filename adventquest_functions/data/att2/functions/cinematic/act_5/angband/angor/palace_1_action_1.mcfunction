@@ -10,3 +10,5 @@ function att2:dialogs/title/outro_title1
 function att2:dialogs/title/outro_subtitle1
 function att2:gameplay/checkpoint/angband/angor_palace18
 scoreboard objectives setdisplay sidebar
+#return 1->make command block runing
+return 1

@@ -43,3 +43,5 @@ execute if score SQ26 SIDEQUEST matches 7 if score move_emerald SQ26 matches 0 u
 
 # Move PNJ Emerald to Méleïm
 execute if score SQ26 SIDEQUEST matches 7 if score move_emerald SQ26 matches 1 if entity @a[x=-3788,y=70,z=-5876,distance=10..20,gamemode=adventure] run function att2:cinematic/sidequest/26/emerald/summon_pnj
+#return 1->make command block runing
+return 1

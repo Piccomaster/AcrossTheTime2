@@ -13,3 +13,5 @@ scoreboard players set Wave EOLORION 4
 scoreboard players set @a MUSIC_BOSS 0
 scoreboard players set captain_PNJ DIALOG 5
 scoreboard players set aramis_PNJ DIALOG 4
+#return 1->make command block runing
+return 1

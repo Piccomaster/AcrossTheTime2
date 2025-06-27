@@ -35,3 +35,5 @@ execute if score End0 TIMER matches 851 run scoreboard players set Mainquest SID
 
 execute if score End0 TIMER matches 851.. in minecraft:overworld run setblock 734 76 826 minecraft:air
 execute if score End0 TIMER matches ..850 run function att2:cinematic/end0_iteration
+#return 1->make command block runing
+return 1

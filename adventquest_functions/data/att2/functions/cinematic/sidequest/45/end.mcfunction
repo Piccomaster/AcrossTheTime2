@@ -17,3 +17,5 @@ execute if score badge SQ45 matches 0 at 00000000-0000-149a-0000-00000000149a as
 xp add @a 10000 points
 
 advancement grant @a only att2:quest/sq45
+#return 1->make command block runing
+return 1

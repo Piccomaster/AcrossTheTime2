@@ -47,3 +47,5 @@ execute positioned 7448 138 6465 run function att2:summon/reg_4/skeleton0_class1
 execute positioned 7448 138 6465 run function att2:summon/reg_4/skeleton0_class13_path2_mech4
 
 scoreboard players set path2_mech4 OURANOS 1
+#return 1->make command block runing
+return 1

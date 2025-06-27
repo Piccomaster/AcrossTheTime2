@@ -16,3 +16,5 @@ scoreboard players set n_4 OW_LIGHT 0
 scoreboard players set n_5 OW_LIGHT 0
 scoreboard players set n_6 OW_LIGHT 0
 scoreboard players set n_7 OW_LIGHT 0
+#return 1->make command block runing
+return 1

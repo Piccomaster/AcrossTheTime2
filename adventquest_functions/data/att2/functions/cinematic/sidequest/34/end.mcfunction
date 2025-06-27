@@ -20,3 +20,5 @@ execute if score choice SQ32 matches 2 run scoreboard players add @a CHRONOTON 2
 execute if score choice SQ32 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+200 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq34
+#return 1->make command block runing
+return 1

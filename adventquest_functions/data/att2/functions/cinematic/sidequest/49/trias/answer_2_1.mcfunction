@@ -12,3 +12,5 @@ execute as @a[distance=..10] run function att2:dialogs/sidequest/sq49/trias/play
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq49/trias/player_proposal_2/choice_1
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq49/trias/player_proposal_2/choice_3
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq49/trias/player_proposal_2/choice_4
+#return 1->make command block runing
+return 1

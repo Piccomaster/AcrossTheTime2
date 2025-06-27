@@ -17,3 +17,5 @@ execute as @e[type=minecraft:armor_stand,tag=NtoE] at @s run data merge entity @
 execute as @e[type=minecraft:armor_stand,tag=EtoS] at @s run data merge entity @s {Marker:1} 
 execute as @e[type=minecraft:armor_stand,tag=StoW] at @s run data merge entity @s {Marker:1} 
 execute as @e[type=minecraft:armor_stand,tag=WtoN] at @s run data merge entity @s {Marker:1}
+#return 1->make command block runing
+return 1

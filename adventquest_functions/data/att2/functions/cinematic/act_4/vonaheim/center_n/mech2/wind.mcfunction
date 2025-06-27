@@ -29,3 +29,5 @@ execute as @a[x=-5529,y=128,z=-6482,dx=-6,dy=2,dz=-9,gamemode=adventure] run eff
 execute if score center_n_wind VONAHEIM matches 500 run scoreboard players set center_n_wind VONAHEIM 0
 scoreboard players add center_n_wind VONAHEIM 1
 scoreboard players remove @a[scores={VONAHEIM=1..}] VONAHEIM 1
+#return 1->make command block runing
+return 1

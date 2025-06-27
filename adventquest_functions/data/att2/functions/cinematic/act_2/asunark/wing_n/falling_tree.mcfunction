@@ -9,3 +9,5 @@ function att2:physicmod/reg1/asunark/wingn_fallingtree
 execute positioned -3336 71 -5130 run function att2:summon/reg_1/skeletonarcher0_class6
 execute positioned -3336 71 -5130 run function att2:summon/reg_1/skeletonarcher0_class6
 execute positioned -3336 71 -5130 run function att2:summon/reg_1/skeletonarcher0_class6
+#return 1->make command block runing
+return 1

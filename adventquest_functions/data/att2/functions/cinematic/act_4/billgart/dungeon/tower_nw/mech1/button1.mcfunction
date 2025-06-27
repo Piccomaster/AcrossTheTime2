@@ -72,3 +72,5 @@ execute positioned -1349 18 -655 run function att2:summon/reg_3/villager_tower_n
 
 scoreboard players set tower_nw_mech1_timer BILLGART 0
 scoreboard players set tower_nw_mech1 BILLGART 1
+#return 1->make command block runing
+return 1

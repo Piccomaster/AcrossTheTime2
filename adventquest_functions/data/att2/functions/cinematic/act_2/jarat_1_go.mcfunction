@@ -19,3 +19,5 @@ execute if score Real0 TIMER matches 250 run scoreboard players set Mainquest SI
 
 execute if score Real0 TIMER matches 250.. run setblock -4633 63 -5401 minecraft:air
 execute if score Real0 TIMER matches ..249 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

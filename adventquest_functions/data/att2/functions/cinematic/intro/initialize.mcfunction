@@ -12,3 +12,5 @@ scoreboard players set button3 INTRO 0
 scoreboard players set button4 INTRO 0
 
 gamerule announceAdvancements false
+#return 1->make command block runing
+return 1

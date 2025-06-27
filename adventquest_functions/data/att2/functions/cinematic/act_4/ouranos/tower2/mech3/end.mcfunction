@@ -10,3 +10,5 @@ function att2:physicmod/reg4/tower2/mech3_end
 
 bossbar set minecraft:ouranos_timer visible false
 bossbar remove minecraft:ouranos_timer
+#return 1->make command block runing
+return 1

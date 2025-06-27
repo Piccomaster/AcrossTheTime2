@@ -23,7 +23,7 @@ execute if score cinematic1 SQ31 matches 300 as @a run function att2:dialogs/sid
 execute if score cinematic1 SQ31 matches 1..301 run data merge entity @e[type=minecraft:skeleton_horse,x=-5313,y=108,z=-5817,distance=..5,limit=1] {EatingHaystack:1,Rotation:[180.0f,0.0f]}
 execute if score cinematic1 SQ31 matches 301 if score SQ31 SIDEQUEST matches 3 unless entity @a[x=-5324,y=105,z=-5819,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/31/kill_pnj
 
-execute if score cinematic1 SQ31 matches 302 positioned -5261 105 -6287 if entity @a[distance=..4,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oCargo of food\"}"]}}}]}] run function att2:cinematic/sidequest/31/end
+execute if score cinematic1 SQ31 matches 302 positioned -5261 105 -6287 if entity @a[distance=..4,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.cargo_of_food.name'}}}]}] run function att2:cinematic/sidequest/31/end
 
 
 #============================#
@@ -31,3 +31,5 @@ execute if score cinematic1 SQ31 matches 302 positioned -5261 105 -6287 if entit
 #============================#
 
 execute if score cinematic1 SQ31 matches 2..300 run scoreboard players add cinematic1 SQ31 1
+#return 1->make command block runing
+return 1

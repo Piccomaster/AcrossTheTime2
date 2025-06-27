@@ -13,7 +13,7 @@ execute if score End0 TIMER matches 60..119 in minecraft:the_end as @a[gamemode=
 execute if score End0 TIMER matches 80 in minecraft:the_end run function att2:physicmod/reg3/dungeon/tower_se/mech3_end1
 execute if score End0 TIMER matches 80 at @a run function att2:sound/door/energy_impact
 execute if score End0 TIMER matches 120..199 in minecraft:the_end as @a[gamemode=spectator] run tp @s -1134 48 -539 0 0
-execute if score End0 TIMER matches 120 run particle minecraft:item minecraft:green_stained_glass -1134 50 -532 0.5 0.5 0.5 1 100 normal
+execute if score End0 TIMER matches 120 run particle minecraft:item{item:"minecraft:green_stained_glass"} -1134 50 -532 0.5 0.5 0.5 1 100 normal
 execute if score End0 TIMER matches 120 at @a run function att2:sound/misc/simple_glassdoor
 execute if score End0 TIMER matches 120 in minecraft:the_end run function att2:physicmod/reg3/dungeon/tower_se/mech3_end2
 execute if score End0 TIMER matches 150 at @a run function att2:sound/misc/resolution
@@ -25,3 +25,5 @@ execute if score End0 TIMER matches 200 as @a[gamemode=spectator] run function a
 
 execute if score End0 TIMER matches 201.. run scoreboard players set tower_se_mech3 BILLGART 5
 execute if score End0 TIMER matches ..200 run function att2:cinematic/end0_iteration
+#return 1->make command block runing
+return 1

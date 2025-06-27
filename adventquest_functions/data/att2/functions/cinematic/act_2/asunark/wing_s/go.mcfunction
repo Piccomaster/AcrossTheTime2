@@ -50,3 +50,5 @@ execute if score wings_mech1 ASUNARK matches 90 at @a run function att2:sound/mi
 
 execute if score wings_mech1 ASUNARK matches 100 positioned -3443 31 -4897 run function att2:sound/door/simple_glassdoor
 execute if score wings_mech1 ASUNARK matches 100 run function att2:physicmod/reg1/asunark/wings_completed_mech1_4
+#return 1->make command block runing
+return 1

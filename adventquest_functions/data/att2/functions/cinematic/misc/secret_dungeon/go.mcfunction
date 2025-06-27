@@ -54,3 +54,5 @@ execute positioned -5424 131 -5854 if entity @a[distance=..10] run setblock -542
 ### Trigger
 # Main Door
 execute if entity @a[x=-4578,y=59,z=-6013,dx=14,dy=-10,dz=14,gamemode=adventure] if score seal_west SECRET_DUNGEON matches 1 if score seal_east SECRET_DUNGEON matches 1 if score seal_south SECRET_DUNGEON matches 1 if score seal_north SECRET_DUNGEON matches 1 run function att2:cinematic/misc/secret_dungeon/main/boss_door/opening
+#return 1->make command block runing
+return 1

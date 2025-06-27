@@ -21,3 +21,5 @@ execute if score cinematic_timer1 SQ28 matches 100 run data merge entity 0000000
 
 execute if score cinematic_timer1 SQ28 matches 101.. run scoreboard players set cinematic_timer1 SQ28 0
 execute if score cinematic_timer1 SQ28 matches 1..100 run scoreboard players add cinematic_timer1 SQ28 1
+#return 1->make command block runing
+return 1

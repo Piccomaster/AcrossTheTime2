@@ -14,3 +14,5 @@ function att2:cinematic/tp_effect/relgon
 
 #TP ETOTSIRA
 tp 00000000-0000-008a-0000-00000000008a 3486 43 4443 -60 0
+#return 1->make command block runing
+return 1

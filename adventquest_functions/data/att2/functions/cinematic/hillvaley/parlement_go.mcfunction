@@ -31,12 +31,12 @@ execute if score Real0 TIMER matches 5..7 run function att2:gameplay/dahal/actio
 #Gemme destruction when picked up
 execute if score Real0 TIMER matches 5..7 if entity @a[x=2062,y=106,z=1937,distance=..1.7,gamemode=adventure] run kill @e[type=armor_stand,x=2062,y=106,z=1937,distance=..5]
 execute if score Real0 TIMER matches 5..7 if entity @a[x=2062,y=106,z=1937,distance=..1.7,gamemode=adventure] run kill @e[type=shulker,x=2062,y=106,z=1937,distance=..5]
-execute if score Real0 TIMER matches 5..7 if entity @a[x=2072,y=99,z=1940,distance=..1.7,gamemode=adventure] run kill @e[type=armor_stand,x=2072,y=99,z=1940,distance=..5]
-execute if score Real0 TIMER matches 5..7 if entity @a[x=2072,y=99,z=1940,distance=..1.7,gamemode=adventure] run kill @e[type=shulker,x=2072,y=99,z=1940,distance=..5]
+execute if score Real0 TIMER matches 5..7 if entity @a[x=2072,y=98,z=1940,distance=..1.7,gamemode=adventure] run kill @e[type=armor_stand,x=2072,y=98,z=1940,distance=..5]
+execute if score Real0 TIMER matches 5..7 if entity @a[x=2072,y=98,z=1940,distance=..1.7,gamemode=adventure] run kill @e[type=shulker,x=2072,y=98,z=1940,distance=..5]
 
 #Gemme pick detection (first order)
-execute if score Real0 TIMER matches 5 if entity @a[x=2072,y=99,z=1940,distance=..1.7,gamemode=adventure] run function att2:cinematic/hillvaley/parlement_action_1
-execute if score Real0 TIMER matches 5 if entity @a[x=2072,y=99,z=1940,distance=..1.7,gamemode=adventure] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 5 if entity @a[x=2072,y=98,z=1940,distance=..1.7,gamemode=adventure] run function att2:cinematic/hillvaley/parlement_action_1
+execute if score Real0 TIMER matches 5 if entity @a[x=2072,y=98,z=1940,distance=..1.7,gamemode=adventure] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 6 if entity @a[x=2062,y=106,z=1937,distance=..1.7,gamemode=adventure] run scoreboard players set Real0 TIMER 8
 
 #Gemme pick detection (second order)
@@ -88,3 +88,5 @@ execute if score Real0 TIMER matches 291.. run setblock 2040 91 1978 minecraft:a
 execute if score Real0 TIMER matches 8..130 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 132..230 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 232..290 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

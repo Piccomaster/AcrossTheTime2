@@ -17,3 +17,5 @@ scoreboard players set path3_mech2 OURANOS 3
 
 bossbar set minecraft:ouranos_timer visible false
 bossbar remove minecraft:ouranos_timer
+#return 1->make command block runing
+return 1

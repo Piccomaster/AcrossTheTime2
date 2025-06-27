@@ -12,3 +12,5 @@ scoreboard players set mortimer_PNJ DIALOG 6
 xp add @a 5000 points
 
 advancement grant @a only att2:quest/sq33
+#return 1->make command block runing
+return 1

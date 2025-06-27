@@ -12,3 +12,5 @@ execute if score SQ8 SIDEQUEST matches 2 at 00000000-0000-030a-0000-00000000030a
 
 # Player walk to Sorvo Miron to give meat
 execute if score SQ8 SIDEQUEST matches 1 at 00000000-0000-044a-0000-00000000044a if entity @a[distance=..5] run function att2:physicmod/reg1/meleim/sorvo_miron_door1
+#return 1->make command block runing
+return 1

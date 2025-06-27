@@ -8,3 +8,5 @@ function att2:cinematic/tp_effect/serile
 function att2:cinematic/real0_iteration
 setblock 2122 97 1999 minecraft:barrier
 setblock 2122 97 2000 minecraft:barrier
+#return 1->make command block runing
+return 1

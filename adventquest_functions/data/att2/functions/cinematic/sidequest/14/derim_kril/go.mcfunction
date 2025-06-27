@@ -11,3 +11,5 @@
 
 # Quest is already Completed but the player is close to PNJ Derim Krill and he want to kill him.
 execute at 00000000-0000-055a-0000-00000000055a if entity @a[distance=..5] run function att2:cinematic/sidequest/14/derim_kril/revenge
+#return 1->make command block runing
+return 1

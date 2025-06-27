@@ -46,3 +46,5 @@ execute positioned -1132 116 -541 run function att2:summon/reg_3/golem0_class9_t
 execute positioned -1128 116 -535 run function att2:summon/reg_3/golem0_class9_tower_se_mech8
 
 scoreboard players set tower_se_mech8 BILLGART 1
+#return 1->make command block runing
+return 1

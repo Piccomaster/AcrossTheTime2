@@ -46,3 +46,5 @@ execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 200 r
 execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 200 positioned -5360 118 -6300 run function att2:sound/misc/fireball_launch
 execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 260 run summon minecraft:fireball -5360 118 -6300 {Motion:[-1.8,-0.3,-0.3],ExplosionPower:3}
 execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 260 positioned -5360 118 -6300 run function att2:sound/misc/fireball_launch
+#return 1->make command block runing
+return 1

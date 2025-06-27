@@ -8,3 +8,5 @@ function att2:cinematic/real2_init
 scoreboard players set choice SQ38 1
 scoreboard players set cinematic SQ38 1
 function att2:gameplay/reputation/remove_5
+#return 1->make command block runing
+return 1

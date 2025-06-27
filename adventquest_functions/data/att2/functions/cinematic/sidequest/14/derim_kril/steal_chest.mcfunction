@@ -14,3 +14,5 @@ function att2:gameplay/reputation/remove_10
 function att2:cinematic/sidequest/14/derim_kril/pnj_fight
 
 execute at 00000000-0000-055a-0000-00000000055a as @p[distance=..10] run function att2:dialogs/sidequest/sq14/derim_kril/answer_end_1
+#return 1->make command block runing
+return 1

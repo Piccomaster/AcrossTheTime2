@@ -8,3 +8,5 @@ function att2:cinematic/sidequest/59/end_cinematic
 execute at @a run function att2:sound/misc/mission_progress
 scoreboard players set SQ59 SIDEQUEST 17
 execute positioned 29937 95 30017 run function att2:cinematic/sidequest/59/step17/basile_valentin/summon_pnj
+#return 1->make command block runing
+return 1

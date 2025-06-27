@@ -25,3 +25,5 @@ scoreboard players set area1_event8 ITHAX 0
 scoreboard players set area1_event9 ITHAX 0
 scoreboard players set area1_mech1 ITHAX 0
 scoreboard players set area1_mech2 ITHAX 0
+#return 1->make command block runing
+return 1

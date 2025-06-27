@@ -5,14 +5,14 @@
 
 execute if score Real0 TIMER matches 1 as @a[x=7608,y=100,z=6772,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
 execute if score Real0 TIMER matches 1..159 as @a[gamemode=spectator] run tp @s 7603 101 6772 -90 40
-execute if score Real0 TIMER matches 40 run summon minecraft:item 7608 100 6772 {Item:{id:"minecraft:sunflower",Count:1}}
+execute if score Real0 TIMER matches 40 run summon minecraft:item 7608 100 6772 {Item:{id:"minecraft:sunflower",count:1}}
 execute if score Real0 TIMER matches 60 positioned 7608 100 6772 run function att2:sound/misc/absorption
 execute if score Real0 TIMER matches 60 run particle minecraft:cloud 7608 99.5 6772 0.2 0.5 0.2 0.1 20 normal
-execute if score Real0 TIMER matches 70 run kill @e[x=7608,y=99,z=6772,distance=..2,type=minecraft:item,nbt={Item:{id:"minecraft:sunflower",Count:1b}}]
-execute if score Real0 TIMER matches 100 run summon minecraft:item 7608 100 6772 {Item:{id:"minecraft:sunflower",Count:1}}
+execute if score Real0 TIMER matches 70 run kill @e[x=7608,y=99,z=6772,distance=..2,type=minecraft:item,nbt={Item:{id:"minecraft:sunflower",count:1}}]
+execute if score Real0 TIMER matches 100 run summon minecraft:item 7608 100 6772 {Item:{id:"minecraft:sunflower",count:1}}
 execute if score Real0 TIMER matches 120 positioned 7608 100 6772 run function att2:sound/misc/absorption
 execute if score Real0 TIMER matches 120 run particle minecraft:cloud 7608 99.5 6772 0.2 0.5 0.2 0.1 20 normal
-execute if score Real0 TIMER matches 130 run kill @e[x=7608,y=99,z=6772,distance=..2,type=minecraft:item,nbt={Item:{id:"minecraft:sunflower",Count:1b}}]
+execute if score Real0 TIMER matches 130 run kill @e[x=7608,y=99,z=6772,distance=..2,type=minecraft:item,nbt={Item:{id:"minecraft:sunflower",count:1}}]
 execute if score Real0 TIMER matches 160..499 as @a[gamemode=spectator] run tp @s 7569 128 6772 -90 0
 execute if score Real0 TIMER matches 180 at @a run function att2:sound/misc/emerald_growing
 execute if score Real0 TIMER matches 180 run function att2:physicmod/reg4/ouran_portal_left
@@ -49,3 +49,5 @@ execute if score Real0 TIMER matches 501 run scoreboard players set Mainquest SI
 
 execute if score Real0 TIMER matches 501.. run setblock 7614 99 6771 minecraft:air
 execute if score Real0 TIMER matches ..500 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

@@ -11,3 +11,5 @@ execute if score tower_n_mech10 BILLGART matches 0 in minecraft:the_end if entit
 
 # Players levitation stop on player who live the room
 execute if score tower_n_mech10 BILLGART matches 1 in minecraft:the_end run effect clear @a[x=-1262,y=122,z=-709,dx=2,dy=4,dz=-5,gamemode=adventure] minecraft:levitation
+#return 1->make command block runing
+return 1

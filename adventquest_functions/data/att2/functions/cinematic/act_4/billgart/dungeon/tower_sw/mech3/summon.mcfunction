@@ -29,3 +29,5 @@ execute positioned -1343 108 -555 run function att2:summon/reg_3/golem0_class13
 execute positioned -1343 108 -555 run function att2:summon/reg_3/golem0_class13
 execute positioned -1343 108 -555 run function att2:summon/reg_3/golem0_class13
 execute positioned -1343 108 -555 run function att2:summon/reg_3/golem0_class13
+#return 1->make command block runing
+return 1

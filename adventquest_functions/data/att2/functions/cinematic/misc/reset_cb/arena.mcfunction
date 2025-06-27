@@ -70,3 +70,5 @@ execute in overworld positioned 5000 122 -5029 run forceload add ~ ~
 execute in overworld positioned 5000 122 -5029 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 4 if score Pool4_A1 ARENA matches -1.. run function att2:gameplay/arena/pool4/1/go",auto:1}
 
 execute in overworld unless block 5000 97 -5000 minecraft:air if block 754 86 733 minecraft:air unless block 5000 122 -5029 minecraft:air run scoreboard players set arena RESETCB 1
+#return 1->make command block runing
+return 1

@@ -32,7 +32,7 @@ execute if score Real0 TIMER matches 175 positioned -5606 166 -6349 run function
 execute if score Real0 TIMER matches 180 at @a run function att2:sound/mobs/vonaheim_laughing
 execute if score Real0 TIMER matches 180..300 as @a[gamemode=spectator] run tp @s -5614 167 -6359 0 -15
 execute if score Real0 TIMER matches 180..300 as 00000000-0000-006b-0000-00000000006b at @s run tp @s ~ ~ ~ ~15 ~
-execute if score Real0 TIMER matches 180..300 as 00000000-0000-006b-0000-00000000006b at @s run particle minecraft:item minecraft:packed_ice ~ ~2 ~ 0.3 0.5 0.3 0.01 5 normal
+execute if score Real0 TIMER matches 180..300 as 00000000-0000-006b-0000-00000000006b at @s run particle minecraft:item{item:"minecraft:packed_ice"} ~ ~2 ~ 0.3 0.5 0.3 0.01 5 normal
 execute if score Real0 TIMER matches 240 at @a run function att2:sound/misc/breath
 execute if score Real0 TIMER matches 250 run function att2:physicmod/reg1/vonaheim/center_s/mech5_icecube
 execute if score Real0 TIMER matches 250 at @a run function att2:sound/misc/platform_moving
@@ -46,3 +46,5 @@ execute if score Real0 TIMER matches 300 as @a[gamemode=spectator] run function 
 
 execute if score Real0 TIMER matches 301 run function att2:cinematic/act_4/vonaheim/center_s/mech5/end
 execute if score Real0 TIMER matches ..300 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

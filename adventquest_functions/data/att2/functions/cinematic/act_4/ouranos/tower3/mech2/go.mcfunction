@@ -84,3 +84,5 @@ particle minecraft:cloud 7703 89.5 5966 0.25 1 0.25 0 2 normal
 particle minecraft:cloud 7707 96.5 5945 0.25 1 0.25 0 2 normal
 particle minecraft:cloud 7707 102.5 5942 0.25 1 0.25 0 2 normal
 particle minecraft:cloud 7707 73.5 5947 0.25 1 0.25 0 2 normal
+#return 1->make command block runing
+return 1

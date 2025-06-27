@@ -12,3 +12,5 @@ kill 00000000-0000-006a-0000-00000000006a
 
 execute in minecraft:the_nether as 00000000-0000-008a-0000-00000000008a at @s run tp @s ~ ~-30 ~
 kill 00000000-0000-008a-0000-00000000008a
+#return 1->make command block runing
+return 1

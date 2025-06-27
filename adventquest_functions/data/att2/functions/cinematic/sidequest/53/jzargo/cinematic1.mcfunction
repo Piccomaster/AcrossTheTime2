@@ -37,3 +37,5 @@ execute if score Real1 TIMER matches 1100 at 00000000-0000-089a-0000-00000000089
 execute if score Real1 TIMER matches 1101.. run function att2:cinematic/sidequest/53/step2
 execute if score Real1 TIMER matches 652..1100 run function att2:cinematic/real1_iteration
 execute if score Real1 TIMER matches ..650 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

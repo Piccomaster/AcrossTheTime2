@@ -10,3 +10,5 @@ execute if score tower_ne_mech7 BILLGART matches 3 run function att2:cinematic/a
 execute if score tower_ne_mech7 BILLGART matches 0..2 if score tower_ne_mech7_reset BILLGART matches 3 run function att2:cinematic/act_4/billgart/dungeon/tower_ne/mech7/reset
 execute if score tower_ne_mech7_reset BILLGART matches 1 run function att2:physicmod/reg3/dungeon/tower_ne/mech7_false1
 execute if score tower_ne_mech7_reset BILLGART matches 2 run function att2:physicmod/reg3/dungeon/tower_ne/mech7_false2
+#return 1->make command block runing
+return 1

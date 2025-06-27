@@ -21,3 +21,5 @@ execute positioned -5615 142 -6461 run function att2:summon/reg_1/vindicator1_cl
 execute positioned -5615 142 -6460 run function att2:summon/reg_1/vindicator2_class9
 execute positioned -5616 142 -6461 run function att2:summon/reg_1/vindicator1_class9
 execute positioned -5616 142 -6460 run function att2:summon/reg_1/vindicator2_class9
+#return 1->make command block runing
+return 1

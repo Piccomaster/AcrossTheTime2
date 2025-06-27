@@ -63,3 +63,5 @@ function att2:cinematic/sidequest/57/initialize
 function att2:cinematic/sidequest/58/initialize
 function att2:cinematic/sidequest/59/initialize
 function att2:cinematic/sidequest/60/initialize
+#return 1->make command block runing
+return 1

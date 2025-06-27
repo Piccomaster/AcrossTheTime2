@@ -5,4 +5,6 @@
 
 function att2:summon/pnj/basile_valentin
 execute as 00000000-0000-157a-0000-00000000157a at @s run tp @s ~ ~ ~ 180 0
-summon minecraft:villager ~-0.1 ~ ~ {Rotation:[180.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}
+summon minecraft:villager ~-0.1 ~ ~ {Rotation:[180.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,attributes:[{id:movement_speed,base:0.001},{id:max_health,base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}
+#return 1->make command block runing
+return 1

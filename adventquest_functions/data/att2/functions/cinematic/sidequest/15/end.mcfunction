@@ -24,3 +24,5 @@ execute if score choice SQ15 matches 2 run tellraw @a {"text":"* ","color":"dark
 execute if score choice SQ15 matches 3 at 00000000-0000-051a-0000-00000000051a as @p run function att2:items/armor/rar/golden_leggings_152
 
 advancement grant @a only att2:quest/sq15
+#return 1->make command block runing
+return 1

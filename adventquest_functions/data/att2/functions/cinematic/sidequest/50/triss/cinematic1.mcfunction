@@ -23,3 +23,5 @@ execute if score Real1 TIMER matches 1400 at 00000000-0000-090a-0000-00000000090
 
 execute if score Real1 TIMER matches 1401.. run function att2:cinematic/sidequest/50/triss/end_cinematic1
 execute if score Real1 TIMER matches ..1400 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

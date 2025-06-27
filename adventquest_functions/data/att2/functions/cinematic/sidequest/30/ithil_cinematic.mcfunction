@@ -35,3 +35,5 @@ execute if score Real2 TIMER matches 1401 as @a[x=-4950,y=145,z=-4915,distance=.
 
 execute if score Real2 TIMER matches 1401.. run scoreboard players set cinematic SQ30 4
 execute if score Real2 TIMER matches ..1400 run function att2:cinematic/real2_iteration
+#return 1->make command block runing
+return 1

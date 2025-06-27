@@ -23,3 +23,5 @@ function att2:items/food/mushroom_stew_0
 function att2:items/food/mushroom_stew_0
 
 advancement grant @a only att2:quest/sq4
+#return 1->make command block runing
+return 1

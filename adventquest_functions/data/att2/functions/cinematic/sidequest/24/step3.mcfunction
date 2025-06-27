@@ -14,3 +14,5 @@ teleport @a[x=-4526,y=71,z=-4527,distance=..50,gamemode=adventure] -4526 63 -454
 execute in minecraft:overworld run spawnpoint @a -4526 71 -4519
 
 scoreboard players set SQ24 SIDEQUEST 3
+#return 1->make command block runing
+return 1

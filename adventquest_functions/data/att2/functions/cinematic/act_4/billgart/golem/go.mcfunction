@@ -17,3 +17,5 @@ execute if score golem_mech1 BILLGART matches 6 in minecraft:the_end run functio
 execute if score golem_mech1 BILLGART matches 7 in minecraft:the_end run function att2:cinematic/act_4/billgart/golem/destroy_tower
 
 execute if score golem_mech1 BILLGART matches 8 in minecraft:the_end run function att2:cinematic/act_4/billgart/golem/power_ray
+#return 1->make command block runing
+return 1

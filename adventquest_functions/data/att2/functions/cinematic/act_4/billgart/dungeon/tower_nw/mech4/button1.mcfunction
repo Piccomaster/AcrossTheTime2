@@ -19,3 +19,5 @@ execute positioned -1331 105 -669 run function att2:summon/reg_3/silverfish0_cla
 function att2:physicmod/reg3/dungeon/tower_nw/mech4_button1
 execute at @a run function att2:sound/door/simple_glassdoor
 execute at @a run function att2:sound/misc/resolution
+#return 1->make command block runing
+return 1

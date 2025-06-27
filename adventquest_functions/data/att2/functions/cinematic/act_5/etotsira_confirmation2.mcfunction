@@ -19,3 +19,5 @@ execute in overworld positioned 2344 98 1789 run forceload remove ~ ~
 execute in overworld positioned 2198 97 2036 run forceload remove ~ ~
 execute in overworld positioned 2311 104 2083 run forceload remove ~ ~
 execute in overworld positioned 2225 99 1945 run forceload remove ~ ~
+#return 1->make command block runing
+return 1

@@ -16,3 +16,5 @@ function att2:dialogs/sidequest/sq24/player_1
 execute positioned -4528 62 -4551 run function att2:gameplay/boss/rewards_start
 
 advancement grant @a only att2:quest/sq24
+#return 1->make command block runing
+return 1

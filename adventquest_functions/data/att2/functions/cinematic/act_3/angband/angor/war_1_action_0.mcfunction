@@ -75,3 +75,5 @@ execute positioned 3524.0 40.5 4384 run function att2:summon/pnj/eternan_soldier
 execute positioned 3527.0 40.5 4384 run function att2:summon/pnj/eternan_soldiers_4
 execute positioned 3529.0 40.5 4384 run function att2:summon/pnj/eternan_soldiers_4
 execute positioned 3531.0 40.5 4384 run function att2:summon/pnj/eternan_soldiers_4
+#return 1->make command block runing
+return 1

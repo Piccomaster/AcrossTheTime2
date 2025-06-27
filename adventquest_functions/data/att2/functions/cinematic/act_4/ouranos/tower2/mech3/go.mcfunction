@@ -45,3 +45,5 @@ execute if score tower2_mech3_circles OURANOS matches 15 positioned 7377 62 6460
 
 execute if score tower2_mech3 OURANOS matches ..0 run function att2:cinematic/act_4/ouranos/tower2/mech3/fail
 execute if score tower2_mech3 OURANOS matches 1..1000 run scoreboard players remove tower2_mech3 OURANOS 1
+#return 1->make command block runing
+return 1

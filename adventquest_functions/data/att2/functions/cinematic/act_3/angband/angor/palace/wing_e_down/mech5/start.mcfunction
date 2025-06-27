@@ -8,3 +8,5 @@ scoreboard players set winged_mech5 ANGOR 1
 scoreboard players set winged_mech5_e ANGOR 1
 scoreboard players set winged_mech5_w ANGOR 1
 scoreboard players set Neth1 TIMER 0
+#return 1->make command block runing
+return 1

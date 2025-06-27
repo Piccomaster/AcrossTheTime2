@@ -16,3 +16,5 @@ xp add @a 1500 points
 function att2:physicmod/reg1/worlest_gregor_gacko_door
 
 advancement grant @a only att2:quest/sq3
+#return 1->make command block runing
+return 1

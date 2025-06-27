@@ -12,3 +12,5 @@ execute if score samal_eph_PNJ DIALOG matches 2 if score samal_eph_move SQ2 matc
 
 # Water dam opening cinematic 
 execute if score water_dam SQ2 matches 1 run function att2:cinematic/sidequest/2/water_dam_opening
+#return 1->make command block runing
+return 1

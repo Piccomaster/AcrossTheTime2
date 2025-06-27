@@ -40,3 +40,5 @@ execute if score wingeu_mech3_chest3 ANGOR matches 3 if score Neth1 TIMER matche
 execute if score wingeu_mech3_chest3 ANGOR matches 3 if score Neth1 TIMER matches 60 in minecraft:the_nether positioned 3685 83 4584 run function att2:cinematic/act_3/angband/angor/palace/wing_e_up/mech3/move
 execute if score wingeu_mech3_chest3 ANGOR matches 3 if score Neth1 TIMER matches 30 in minecraft:the_nether positioned 3688 83 4584 run function att2:cinematic/act_3/angband/angor/palace/wing_e_up/mech3/move
 execute if score wingeu_mech3_chest3 ANGOR matches 3 if score Neth1 TIMER matches 0 in minecraft:the_nether positioned 3688 83 4584 run function att2:cinematic/act_3/angband/angor/palace/wing_e_up/mech3/chest_east4
+#return 1->make command block runing
+return 1

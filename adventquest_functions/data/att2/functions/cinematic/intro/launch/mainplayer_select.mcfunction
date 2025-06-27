@@ -15,3 +15,5 @@ setblock 795 72 927 minecraft:redstone_block
 #Destroy pression_plate proposal
 fill 789 80 908 788 80 909 minecraft:air
 fill 788 79 909 789 79 908 minecraft:glass
+#return 1->make command block runing
+return 1

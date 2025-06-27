@@ -91,3 +91,5 @@ execute positioned -1235 171.55 -614 run function att2:summon/reg_3/dungeon_elev
 execute positioned -1235 171.55 -615 run function att2:summon/reg_3/dungeon_elevator
 execute positioned -1235 171.55 -616 run function att2:summon/reg_3/dungeon_elevator
 execute positioned -1235 171.55 -617 run function att2:summon/reg_3/dungeon_elevator
+#return 1->make command block runing
+return 1

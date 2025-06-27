@@ -35,3 +35,5 @@ execute if score Neth0 TIMER matches 205 run scoreboard players set Mainquest SI
 
 execute if score Neth0 TIMER matches 205.. in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_2_action_2
 execute if score Neth0 TIMER matches ..204 run function att2:cinematic/neth0_iteration
+#return 1->make command block runing
+return 1

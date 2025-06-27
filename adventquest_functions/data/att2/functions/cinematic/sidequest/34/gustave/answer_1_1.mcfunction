@@ -10,3 +10,5 @@ function att2:cinematic/sidequest/34/step1
 
 function att2:gameplay/pnj_talk/dialog_playsound/gustave
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq34/gustave/player_proposal_1/answer_1
+#return 1->make command block runing
+return 1

@@ -15,3 +15,5 @@ effect give @s minecraft:darkness 6 0 true
 
 function att2:sound/misc/soft_corruption
 function att2:particle/soft_corruption
+#return 1->make command block runing
+return 1

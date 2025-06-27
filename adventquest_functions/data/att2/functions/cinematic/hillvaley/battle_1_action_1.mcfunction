@@ -15,4 +15,6 @@ scoreboard players set spells TUTORIAL 1
 fill 1991 101 1992 1977 96 2006 minecraft:barrier replace minecraft:air
 fill 1990 101 1993 1978 96 2005 minecraft:air replace minecraft:barrier
 
-execute as @e[type=minecraft:zombie,x=1979,y=96,z=1997,distance=..5] run data merge entity @s {Silent:0,NoAI:0,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],DeathLootTable:"att2:empty",ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_helmet",Count:1,tag:{Unbreakable:1b,display:{color:11839558}}}],CustomName:"\"Zombie\""}
+execute as @e[type=minecraft:zombie,x=1979,y=96,z=1997,distance=..5] run data merge entity @s {Silent:0,NoAI:0,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},DeathLootTable:"att2:empty",equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:5526612}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:5526612}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:5526612}},head:{id:"minecraft:leather_helmet",count:1,components:{unbreakable:{},dyed_color:11839558}}},CustomName:"ZOMBIE"}
+#return 1->make command block runing
+return 1

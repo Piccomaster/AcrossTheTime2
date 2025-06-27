@@ -12,3 +12,5 @@ execute at 00000000-0000-067a-0000-00000000067a as @p[distance=..10] run functio
 
 #REWARDS
 execute at 00000000-0000-067a-0000-00000000067a as @p run function att2:items/weapon/leg/stone_pickaxe_189
+#return 1->make command block runing
+return 1

@@ -24,3 +24,5 @@ execute as @e[nbt={UUID:[I;0,65567,0,65567]},tag=wasWtoN] unless block -4945 79 
 
 execute as @e[nbt={UUID:[I;0,65567,0,65567]}] run tag @s remove wasUtoN
 execute as @e[nbt={UUID:[I;0,65567,0,65567]}] run tag @s remove wasWtoN
+#return 1->make command block runing
+return 1

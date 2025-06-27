@@ -72,3 +72,5 @@ particle minecraft:instant_effect 6582.0 115 6971.0 2 10 2 0.2 10 normal
 particle minecraft:instant_effect 6588.0 130 7004.0 2 10 2 0.2 10 normal
 particle minecraft:instant_effect 6615.0 135 6987.0 2 7 2 0.2 10 normal
 particle minecraft:instant_effect 6632.0 145 7015.0 2 7 2 0.2 10 normal
+#return 1->make command block runing
+return 1

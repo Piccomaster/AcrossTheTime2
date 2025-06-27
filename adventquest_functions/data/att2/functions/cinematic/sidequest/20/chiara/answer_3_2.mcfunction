@@ -10,3 +10,5 @@ function att2:cinematic/sidequest/20/chiara/fight_begin
 
 function att2:gameplay/pnj_talk/dialog_playsound/chiara
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/answer_3
+#return 1->make command block runing
+return 1

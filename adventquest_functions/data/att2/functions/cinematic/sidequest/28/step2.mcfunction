@@ -13,3 +13,5 @@ execute as @a run function att2:gameplay/checkpoint/effect
 execute in minecraft:overworld run spawnpoint @a -5130 163 -6756
 
 function att2:gameplay/boss/elcheol/korlaph/display_title
+#return 1->make command block runing
+return 1

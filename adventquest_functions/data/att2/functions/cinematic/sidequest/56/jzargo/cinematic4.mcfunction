@@ -28,3 +28,5 @@ execute if score Real1 TIMER matches 600 run kill @e[type=minecraft:wither,x=-52
 
 execute if score Real1 TIMER matches 601.. run function att2:cinematic/sidequest/56/step3
 execute if score Real1 TIMER matches ..600 run function att2:cinematic/real1_iteration
+#return 1->make command block runing
+return 1

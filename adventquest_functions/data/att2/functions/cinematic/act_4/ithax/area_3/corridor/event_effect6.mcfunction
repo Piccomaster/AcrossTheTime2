@@ -9,3 +9,5 @@ team join hostile @e[type=minecraft:enderman,tag=GuardianMinions]
 team join hostile 00000000-0000-007b-0000-00000000007b
 data merge entity 00000000-0000-007b-0000-00000000007b {NoAI:0}
 execute positioned -7458 132 -5855 run function att2:sound/mobs/guardian_scream
+#return 1->make command block runing
+return 1

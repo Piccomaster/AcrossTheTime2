@@ -13,3 +13,5 @@ execute positioned -5188 67 -5342 run function att2:summon/reg_1/cavespider0_cla
 execute positioned -5196 67 -5337 run function att2:summon/reg_1/cavespider0_class1
 
 scoreboard players set gonon_PNJ DIALOG 1
+#return 1->make command block runing
+return 1

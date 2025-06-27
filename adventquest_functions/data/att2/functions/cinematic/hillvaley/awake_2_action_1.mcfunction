@@ -6,7 +6,9 @@
 setblock 1997 92 2063 minecraft:air
 setblock 1997 92 2061 minecraft:redstone_block
 
-summon minecraft:zombie 1994 96.5 2054 {Rotation:[-90.0f,0.0f],NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.max_health,Base:30,Health:0.5},{Name:generic.attack_damage,Base:2.0}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:Darkauron}}]}
-summon minecraft:zombie 1996 96.5 2056 {Rotation:[-180.0f,0.0f],NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.max_health,Base:30,HealF:0.5},{Name:generic.attack_damage,Base:2.0}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:5526612}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:BowlOfSoup}}]}
+summon minecraft:zombie 1994 96.5 2054 {Rotation:[-90.0f,0.0f],NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,attributes:[{id:max_health,base:30,Health:0.5},{id:attack_damage,base:2.0}],equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:5526612}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:5526612}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:5526612}},head:{id:"minecraft:player_head",count:1,components:{profile:{name:Darkauron}}}}}
+summon minecraft:zombie 1996 96.5 2056 {Rotation:[-180.0f,0.0f],NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,attributes:[{id:max_health,base:30},{id:attack_damage,base:2.0}],equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:5526612}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:5526612}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:5526612}},head:{id:"minecraft:player_head",count:1,components:{profile:{name:BowlOfSoup}}}}}
 
 effect give @a minecraft:saturation 2 250 true
+#return 1->make command block runing
+return 1

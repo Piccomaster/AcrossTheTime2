@@ -45,3 +45,5 @@ execute if score area3_labo_water ITHAX matches 0..16 run particle minecraft:ele
 execute if score area3_labo_water ITHAX matches 14 as @a[x=-7431,y=159,z=-5916,dx=21,dy=-3,dz=-19,gamemode=adventure] at @s if block ~ ~ ~ minecraft:water run function att2:cinematic/act_4/ithax/area_3/labo_1/water_effect
 execute if score area3_labo_water ITHAX matches 16.. run scoreboard players set area3_labo_water ITHAX 0
 execute if score area3_event19 ITHAX matches 1 run function att2:cinematic/act_4/ithax/area_3/corridor/laser_effect
+#return 1->make command block runing
+return 1

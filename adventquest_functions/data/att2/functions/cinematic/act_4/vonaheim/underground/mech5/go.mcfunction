@@ -142,3 +142,5 @@ execute if score underground_mech5_EW VONAHEIM matches ..329 run scoreboard play
 
 execute if score underground_mech5_NS VONAHEIM matches 543 run scoreboard players set underground_mech5_NS VONAHEIM 0
 execute if score underground_mech5_NS VONAHEIM matches ..542 run scoreboard players add underground_mech5_NS VONAHEIM 1
+#return 1->make command block runing
+return 1

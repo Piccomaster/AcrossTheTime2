@@ -13,3 +13,5 @@ function att2:gameplay/arena/victory
 xp add @a 1000000 points
 
 advancement grant @a only att2:quest/sq59
+#return 1->make command block runing
+return 1

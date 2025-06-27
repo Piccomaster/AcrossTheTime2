@@ -26,3 +26,5 @@ execute if score SQ37 SIDEQUEST matches 3 if score move_walton SQ37 matches 1 if
 
 # Begin next quest SQ38 when Player is close to Walton in Scheströwn
 execute if score SQ37 SIDEQUEST matches 3 if entity @a[x=-4472,y=72,z=-4986,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/38/step1
+#return 1->make command block runing
+return 1

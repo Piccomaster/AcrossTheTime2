@@ -33,3 +33,5 @@ execute if score SQ30 SIDEQUEST matches 8 if score cinematic SQ30 matches 3 if e
 
 # Complete quest Player is close to Adrian
 execute if score SQ30 SIDEQUEST matches 9 at 00000000-0000-084a-0000-00000000084a if entity @a[distance=..5] run function att2:cinematic/sidequest/30/end
+#return 1->make command block runing
+return 1

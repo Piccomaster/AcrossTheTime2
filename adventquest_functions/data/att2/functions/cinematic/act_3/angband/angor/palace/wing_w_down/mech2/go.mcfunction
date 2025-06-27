@@ -17,3 +17,5 @@ execute if score Neth1 TIMER matches 1 in minecraft:the_nether as @a[gamemode=sp
 
 execute if score Neth1 TIMER matches ..0 run scoreboard players set wingwd_mech2 ANGOR 3
 execute if score Neth1 TIMER matches 0.. run scoreboard players remove Neth1 TIMER 1
+#return 1->make command block runing
+return 1

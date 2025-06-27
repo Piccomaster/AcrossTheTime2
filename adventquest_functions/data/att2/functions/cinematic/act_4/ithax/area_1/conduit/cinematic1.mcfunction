@@ -19,3 +19,5 @@ execute if score Real0 TIMER matches 35 run kill @e[type=minecraft:enderman,tag=
 execute if score Real0 TIMER matches 36.. run scoreboard players set area1_event9 ITHAX -1
 execute if score Real0 TIMER matches 22..35 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches ..20 run function att2:cinematic/real0_iteration
+#return 1->make command block runing
+return 1

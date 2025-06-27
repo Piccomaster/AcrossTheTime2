@@ -12,3 +12,5 @@ execute positioned -7431 157 -5947 run function att2:physicmod/reg1/ithax/door_c
 tp 00000000-0000-007b-0000-00000000007b -7453 156 -5942
 kill 00000000-0000-007b-0000-00000000007b
 kill @e[type=minecraft:enderman,tag=GuardianMinions]
+#return 1->make command block runing
+return 1

@@ -9,3 +9,5 @@ function att2:cinematic/tp_effect/namrin
 
 # Relgon body dying
 execute positioned 3824 42 4705 run function att2:summon/reg_2/relgon_corpse
+#return 1->make command block runing
+return 1

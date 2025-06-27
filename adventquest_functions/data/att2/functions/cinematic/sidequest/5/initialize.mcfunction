@@ -12,3 +12,5 @@ scoreboard players set alyia_lana_answer_2_1 SQ5 0
 scoreboard players set alphonse_rae_move SQ5 0
 scoreboard players set area_trigg SQ5 0
 scoreboard players set choice SQ5 0
+#return 1->make command block runing
+return 1

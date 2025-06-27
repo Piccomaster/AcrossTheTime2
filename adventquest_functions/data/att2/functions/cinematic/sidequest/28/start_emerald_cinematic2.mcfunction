@@ -5,3 +5,5 @@
 
 function att2:cinematic/real2_init
 scoreboard players set choice SQ28 2
+#return 1->make command block runing
+return 1

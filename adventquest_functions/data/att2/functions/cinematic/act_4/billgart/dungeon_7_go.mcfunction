@@ -17,3 +17,5 @@ execute if score End0 TIMER matches 11 run scoreboard players set Mainquest SIDE
 
 execute if score End0 TIMER matches 11.. in minecraft:the_end run setblock -1306 68 -581 minecraft:air
 execute if score End0 TIMER matches ..10 run function att2:cinematic/end0_iteration
+#return 1->make command block runing
+return 1

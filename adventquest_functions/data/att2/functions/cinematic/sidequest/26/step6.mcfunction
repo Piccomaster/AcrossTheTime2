@@ -10,3 +10,5 @@ function att2:physicmod/reg1/adanoi_myrath_dooropen
 
 function att2:sound/dialogs/simple
 function att2:dialogs/sidequest/sq26/player_3
+#return 1->make command block runing
+return 1

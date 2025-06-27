@@ -6,3 +6,5 @@
 scoreboard players set alexandre_PNJ DIALOG 3
 function att2:cinematic/real2_init
 scoreboard players set cinematic SQ34 1
+#return 1->make command block runing
+return 1

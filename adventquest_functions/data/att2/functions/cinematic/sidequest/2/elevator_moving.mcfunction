@@ -22,3 +22,5 @@ execute if score elevator_moving SQ2 matches 200 run function att2:cinematic/sid
 # Iteration
 execute if score elevator_moving SQ2 matches 1..200 run scoreboard players add elevator_moving SQ2 1
 execute if score elevator_moving SQ2 matches 201.. run scoreboard players set elevator_moving SQ2 0
+#return 1->make command block runing
+return 1

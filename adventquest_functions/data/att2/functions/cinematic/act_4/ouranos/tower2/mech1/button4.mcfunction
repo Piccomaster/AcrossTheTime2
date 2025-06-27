@@ -9,4 +9,6 @@ function att2:physicmod/reg4/tower2/mech1_button4
 execute at @a run function att2:sound/misc/resolution
 execute at @a run function att2:sound/misc/glass_breaking
 
-particle minecraft:item minecraft:yellow_stained_glass 7390 186 6456 1 1 1 1 1000 normal
+particle minecraft:item{item:"minecraft:yellow_stained_glass"} 7390 186 6456 1 1 1 1 1000 normal
+#return 1->make command block runing
+return 1

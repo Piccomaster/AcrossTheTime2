@@ -19,3 +19,5 @@ execute if score SQ13 SIDEQUEST matches 1 if score KillCount SQ13 matches 10 run
 
 # Quest Completed when player is close to PNJ Rob harth
 execute if score SQ13 SIDEQUEST matches 2 if score KillCount SQ13 matches 10 at 00000000-0000-053a-0000-00000000053a if entity @a[distance=..5] run function att2:cinematic/sidequest/13/end
+#return 1->make command block runing
+return 1

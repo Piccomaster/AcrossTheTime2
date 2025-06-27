@@ -13,3 +13,5 @@ function att2:sound/dialogs/simple
 function att2:dialogs/sidequest/sq26/emerald/answer_end
 function att2:dialogs/sidequest/sq26/player_4
 function att2:dialogs/sidequest/sq26/emerald_2
+#return 1->make command block runing
+return 1

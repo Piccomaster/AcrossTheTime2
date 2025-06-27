@@ -12,3 +12,5 @@ kill 00000000-0000-003c-0000-00000000003c
 function att2:dialogs/sidequest/sq24/player_1
 
 advancement grant @a only att2:quest/sq24
+#return 1->make command block runing
+return 1

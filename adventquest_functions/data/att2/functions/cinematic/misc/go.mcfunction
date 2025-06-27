@@ -60,3 +60,5 @@ execute if score Mainquest SIDEQUEST matches 163..168 in minecraft:the_end if en
 execute if score Mainquest SIDEQUEST matches 158..160 in minecraft:the_end if entity @a[x=-1138,y=110,z=-561,dx=0,dy=2,dz=2,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 161
 #Last Nojelanth portal
 execute if score Mainquest SIDEQUEST matches 255..259 in minecraft:overworld if entity @a[x=-6022,y=201,z=-4292,distance=..3,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 260
+#return 1->make command block runing
+return 1

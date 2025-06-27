@@ -34,3 +34,5 @@ execute if score Neth1 TIMER matches 30 in minecraft:the_nether positioned 3551 
 
 execute if score Neth1 TIMER matches 10 in minecraft:the_nether positioned 3551 85 4551 run function att2:sound/misc/resolution
 execute if score Neth1 TIMER matches 0 run scoreboard players set wingeu_mech4 ANGOR 3
+#return 1->make command block runing
+return 1

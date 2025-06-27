@@ -16,3 +16,5 @@ execute if score tower2_mech1_button2 OURANOS matches 1 run particle minecraft:s
 
 # Button 3 wind
 execute if score tower2_mech1_button3 OURANOS matches 0 run particle minecraft:cloud 7406 177.5 6460 0.7 0.25 0.25 0 2 normal
+#return 1->make command block runing
+return 1
