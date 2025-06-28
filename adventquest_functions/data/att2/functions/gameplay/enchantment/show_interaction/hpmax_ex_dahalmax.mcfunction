@@ -17,7 +17,7 @@ execute store result storage att2:enchantment now_lvl_show int 1 run scoreboard 
 execute as @e[tag=GET,limit=1,type=armor_stand] unless predicate att2_pre:enchantment/test_hold/head run scoreboard players reset hpmax_ex_dahalmax ENCHANTMENT
 #feedback error
 execute unless data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/empty
-execute unless score hpmax_ex_dahalmax ENCHANTMENT matches 0.. if data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/error
+execute unless score hpmax_ex_dahalmax ENCHANTMENT matches 0.. if data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/item_error
 #summon interaction display
 execute if score hpmax_ex_dahalmax ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/summon_interaction with storage att2:enchantment
 #particle

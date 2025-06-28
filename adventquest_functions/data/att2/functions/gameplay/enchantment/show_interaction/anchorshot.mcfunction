@@ -17,7 +17,7 @@ execute store result storage att2:enchantment now_lvl_show int 1 run scoreboard 
 execute as @e[tag=GET,limit=1,type=armor_stand] unless predicate att2_pre:enchantment/test_hold/bow run scoreboard players reset anchorshot ENCHANTMENT
 #feedback error
 execute unless data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/empty
-execute unless score anchorshot ENCHANTMENT matches 0.. if data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/error
+execute unless score anchorshot ENCHANTMENT matches 0.. if data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/item_error
 #summon interaction display
 execute if score anchorshot ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/summon_interaction with storage att2:enchantment
 #particle

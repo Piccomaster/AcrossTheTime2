@@ -18,6 +18,8 @@ execute if score remove ENCHANTMENT matches 2 run scoreboard players set remove_
 
 execute if score remove ENCHANTMENT matches 2 run function att2:gameplay/enchantment/remove_interaction
 
+#1000slay_remove
+execute if score 1000slay ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/1000slay_remove
 #auto_mending_remove
 execute if score auto_mending ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/auto_mending_remove
 #reinforce_remove

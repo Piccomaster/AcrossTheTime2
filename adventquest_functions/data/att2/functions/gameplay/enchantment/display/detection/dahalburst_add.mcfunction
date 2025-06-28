@@ -8,16 +8,6 @@ execute if score dahalburst ENCHANTMENT matches 0..4 run function att2:gameplay/
 execute if score dahalburst ENCHANTMENT matches 0..4 store result storage att2:enchantment end_lvl_show int 1 run scoreboard players add dahalburst ENCHANTMENT 1
 
 #cal and set Materials cost
-scoreboard players operation esc_cost ENCHANTMENT = dahalburst ENCHANTMENT
-scoreboard players operation esc_cost ENCHANTMENT -= now_lvl_show ENCHANTMENT
-scoreboard players operation esc_cost ENCHANTMENT *= 3 CAL
-execute store result storage att2:enchantment esc_cost int 1 run scoreboard players get esc_cost ENCHANTMENT
-
-scoreboard players operation rune_cost ENCHANTMENT = dahalburst ENCHANTMENT
-scoreboard players operation rune_cost ENCHANTMENT -= now_lvl_show ENCHANTMENT
-scoreboard players operation rune_cost ENCHANTMENT *= 50 CAL
-execute store result storage att2:enchantment rune_cost int 1 run scoreboard players get rune_cost ENCHANTMENT
-#check player esc 
-execute store result score esc_count ENCHANTMENT run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
+function att2:gameplay/enchantment/display/price_set/dahalburst
 #return macao
 execute if score dahalburst ENCHANTMENT matches 0..5 run function att2:gameplay/enchantment/display/update with storage att2:enchantment

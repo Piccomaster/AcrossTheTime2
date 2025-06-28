@@ -49,3 +49,6 @@ scoreboard objectives add TREASUREHUNTER_TIME dummy
 scoreboard objectives add TREASUREHUNTER dummy
 
 scoreboard objectives add FORCEPUSH dummy
+
+#price set
+function att2:gameplay/enchantment/display/price_set/initialize

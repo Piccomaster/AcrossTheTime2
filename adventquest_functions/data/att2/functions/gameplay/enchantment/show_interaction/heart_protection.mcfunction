@@ -17,7 +17,7 @@ execute store result storage att2:enchantment now_lvl_show int 1 run scoreboard 
 execute as @e[tag=GET,limit=1,type=armor_stand] unless predicate att2_pre:enchantment/test_hold/chest run scoreboard players reset heart_protection ENCHANTMENT
 #feedback error
 execute unless data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/empty
-execute unless score heart_protection ENCHANTMENT matches 0.. if data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/error
+execute unless score heart_protection ENCHANTMENT matches 0.. if data entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand run function att2:dialogs/gameplay/enchantment/item_error
 #summon interaction display
 execute if score heart_protection ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/summon_interaction with storage att2:enchantment
 #particle

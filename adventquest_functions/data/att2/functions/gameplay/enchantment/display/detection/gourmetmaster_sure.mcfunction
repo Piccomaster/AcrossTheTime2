@@ -8,8 +8,7 @@ execute if score sure ENCHANTMENT matches 2 if score gourmetmaster ENCHANTMENT m
 execute if score sure ENCHANTMENT matches 2 if score gourmetmaster ENCHANTMENT matches 1.. store result storage att2:enchantment gourmetmaster int 1 run scoreboard players get gourmetmaster ENCHANTMENT
 
 #cal and set Materials cost
-#check player esc 
-execute store result score esc_count ENCHANTMENT run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
+function att2:gameplay/enchantment/display/price_set/gourmetmaster
 execute if score sure ENCHANTMENT matches 2 if score esc_count ENCHANTMENT >= esc_cost ENCHANTMENT if score stock RUNE_POWDER >= rune_cost ENCHANTMENT run scoreboard players set ready ENCHANTMENT 0
 #get esc/rune cost
 execute store result storage att2:enchantment esc_cost int 1 run scoreboard players get esc_cost ENCHANTMENT
