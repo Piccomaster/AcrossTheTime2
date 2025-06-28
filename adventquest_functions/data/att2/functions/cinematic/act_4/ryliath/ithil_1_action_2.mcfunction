@@ -17,6 +17,7 @@ scoreboard players add @a SPELL20_LVL 1
 scoreboard players add @a SPELL20_CAP 1
 execute as @a run function att2:gameplay/dahal/action/spell20/lvlup
 
-summon minecraft:villager -5043 149 -4876.6 {Rotation:[180.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,attributes:[{id:movement_speed,base:0.001},{id:max_health,base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}
+execute positioned -5043 149 -4876.6 run function att2:summon/pnj/_interaction
+#summon minecraft:villager -5043 149 -4876.6 {Rotation:[180.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,attributes:[{id:movement_speed,base:0.001},{id:max_health,base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}
 #return 1->make command block runing
 return 1

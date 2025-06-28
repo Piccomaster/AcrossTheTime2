@@ -19,3 +19,4 @@ scoreboard players operation @s SPELL41_HER > 1 CAL
 scoreboard players operation @s SPELL41_SPD *= 70 CAL
 scoreboard players operation @s SPELL41_SPD /= 100 CAL
 scoreboard players add @s[scores={SPELL41_SPD=..-2}] 1
+# Hum error here ???

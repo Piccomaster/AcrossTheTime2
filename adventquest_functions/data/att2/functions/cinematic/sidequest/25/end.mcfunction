@@ -3,7 +3,7 @@
 #Use function to process the SQ25 end 							#
 #################################################################
 
-kill @e[type=minecraft:villager,x=-4330,y=71,z=-5207,distance=..3]
+kill @e[type=minecraft:interaction,x=-4330,y=71,z=-5207,distance=..3]
 scoreboard players set SQ25 SIDEQUEST 3
 scoreboard players set emerald_PNJ DIALOG 3
 clear @a minecraft:leather_chestplate[custom_name={translate:'item.quest.tina_jacket.name'}] 1

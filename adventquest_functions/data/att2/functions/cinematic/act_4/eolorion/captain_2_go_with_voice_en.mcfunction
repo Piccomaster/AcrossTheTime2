@@ -5,7 +5,7 @@
 
 execute if score Real0 TIMER matches 0 as 00000000-0000-088a-0000-00000000088a at @s run tp @s -5348.1 110.5 -6291.9 -135 30
 execute if score Real0 TIMER matches 0..300 as 00000000-0000-095a-0000-00000000095a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
-execute if score Real0 TIMER matches 5 run kill @e[type=minecraft:villager,x=-5346.4,y=108,z=-6295.4,distance=..3]
+execute if score Real0 TIMER matches 5 run kill @e[type=minecraft:interaction,x=-5346.4,y=108,z=-6295.4,distance=..3]
 execute if score Real0 TIMER matches 10 run function att2:cinematic/act_4/eolorion/gate_attack/gate_closing
 execute if score Real0 TIMER matches 10 run function att2:cinematic/act_4/eolorion/gate_attack/doors_closing
 execute if score Real0 TIMER matches 20 run function att2:dialogs/mainquest/act_4/ch1_captain_5

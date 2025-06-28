@@ -16,6 +16,7 @@ scoreboard players operation @s SPELL44_SPD = SPELL44_SPD CAL
 scoreboard players operation @s SPELL44_HUN *= 70 CAL
 scoreboard players operation @s SPELL44_HUN /= 100 CAL
 scoreboard players add @s[scores={SPELL44_HER=..-2}] 1
+#Error here
 #HAS
 scoreboard players operation @s SPELL44_HAS *= 70 CAL
 scoreboard players operation @s SPELL44_HAS /= 100 CAL

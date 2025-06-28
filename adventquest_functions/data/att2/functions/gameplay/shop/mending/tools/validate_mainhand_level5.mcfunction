@@ -81,5 +81,5 @@ item modify entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Eq
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{EquipmentType:"rangeWeapon",Rarity:"legcom"}}}}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_leg
 item modify entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{EquipmentType:"rangeWeapon",Rarity:"leg"}}}}] hotbar.0 att2:mending/level5/weapon/leg
 #ult
-execute if entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{EquipmentType:"rangeWeapon",Rarity:"ultcom"}}}}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_ult
-item modify entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{EquipmentType:"rangeWeapon",Rarity:"ult"}}}}] hotbar.0 att2:mending/level5/weapon/ult
+execute if entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{EquipmentType:"rangeWeapon",Rarity:"ultcom"}}}}}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_ult
+item modify entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{EquipmentType:"rangeWeapon",Rarity:"ult"}}}}}] hotbar.0 att2:mending/level5/weapon/ult

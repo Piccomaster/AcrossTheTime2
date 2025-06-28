@@ -4,7 +4,7 @@
 #################################################################
 
 function att2:physicmod/reg1/plain_omeryn_white_door
-data merge entity 00000000-0000-070a-0000-00000000070a {Tags:["LVL0","CLASS6","Undead"],DeathLootTable:"att2:chest/reg1/c4_omerynkey",AngerTime:1000000,AbsorptionAmount:0,Invulnerable:0,NoAI:0,equipment:{mainhand:{id:"minecraft:iron_axe",count:1},offhand:{}}}
-kill @e[type=minecraft:villager,x=-4386,y=69,z=-5810,distance=..3]
+data merge entity 00000000-0000-070a-0000-00000000070a {Tags:["LVL0","CLASS6","Undead"],DeathLootTable:"att2:chest/reg1/c4_omerynkey",AngerTime:1000000,AbsorptionAmount:0,Invulnerable:0b,NoAI:0b,equipment:{mainhand:{id:"minecraft:iron_axe",count:1},offhand:{}}}
+kill @e[type=minecraft:interaction,x=-4386,y=69,z=-5810,distance=..3]
 #return 1->make command block runing
 return 1

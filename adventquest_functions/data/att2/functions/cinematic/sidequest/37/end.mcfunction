@@ -5,7 +5,7 @@
 
 scoreboard players set SQ37 SIDEQUEST 3
 scoreboard players set walton_jones_PNJ DIALOG 4
-kill @e[type=minecraft:villager,x=-4887,y=78,z=-5655,distance=..3]
+kill @e[type=minecraft:interaction,x=-4887,y=78,z=-5655,distance=..3]
 function att2:sound/misc/mission_progress
 function att2:sound/dialogs/simple
 function att2:dialogs/sidequest/sq37/walton_jones/answer_end

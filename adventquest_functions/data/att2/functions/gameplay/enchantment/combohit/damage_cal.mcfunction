@@ -15,4 +15,5 @@ scoreboard players operation temp_value_1 CAL /= 100 CAL
 execute store result storage att2:damage temp int 1 run scoreboard players get temp_value_1 CAL
 
 ##effect go
+#Error here ?
 execute @e[tag=TEMP] run function att2:gameplay/enchantment/combohit/effect

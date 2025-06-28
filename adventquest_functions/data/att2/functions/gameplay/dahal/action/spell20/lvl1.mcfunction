@@ -27,6 +27,6 @@ execute if entity @s[scores={NUMEROJOUEUR=3}] as @e[type=minecraft:chest_minecar
 execute if entity @s[scores={NUMEROJOUEUR=4}] unless entity @e[type=minecraft:chest_minecart,tag=spell20_chest,tag=own_player4] run function att2:gameplay/dahal/action/spell20/summon/chest1_player4
 execute if entity @s[scores={NUMEROJOUEUR=4}] as @e[type=minecraft:chest_minecart,tag=!NewInvo,tag=chest1,tag=own_player4] at @s run function att2:gameplay/dahal/action/spell20/tp_chest
 
-execute if entity @s[scores={NUMEROJOUEUR=5}] unless entity @e[type=minecraft:chest_minecart,tag=spell20_chest,tag=own_player5] run function att2:gameplay/dahal/action/spell20/summon/chest1_player5 
+execute if entity @s[scores={NUMEROJOUEUR=5}] unless entity @e[type=minecraft:chest_minecart,tag=spell20_chest,tag=own_player5] run function att2:gameplay/dahal/action/spell20/summon/chest1_player5
 execute if entity @s[scores={NUMEROJOUEUR=5}] as @e[type=minecraft:chest_minecart,tag=!NewInvo,tag=chest1,tag=own_player5] at @s run function att2:gameplay/dahal/action/spell20/tp_chest
 

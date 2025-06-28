@@ -13,7 +13,7 @@ execute if score Real1 TIMER matches 2 as @e[type=minecraft:armor_stand,tag=Arte
 execute if score Real1 TIMER matches 2 positioned -4373.77 58.6 -5053.12 as @e[type=minecraft:armor_stand,tag=Artefact,distance=..1] run function att2:cinematic/sidequest/38/artefact/reach
 execute if score Real1 TIMER matches 3 run function att2:cinematic/sidequest/38/artefact/placed
 
-execute if score Real1 TIMER matches 50 run kill @e[type=minecraft:villager,x=-4472,y=72,z=-4986,distance=..3]
+execute if score Real1 TIMER matches 50 run kill @e[type=minecraft:interaction,x=-4472,y=72,z=-4986,distance=..3]
 execute if score Real1 TIMER matches 50 as 00000000-0000-134a-0000-00000000134a run tp @s -4386 54 -5054 -90 0
 execute if score Real1 TIMER matches 50 run function att2:dialogs/sidequest/sq38/walton_jones_1
 execute if score Real1 TIMER matches 150 as @a at @s anchored feet facing entity 00000000-0000-134a-0000-00000000134a feet run teleport @s ^ ^ ^0.00001 ~ ~

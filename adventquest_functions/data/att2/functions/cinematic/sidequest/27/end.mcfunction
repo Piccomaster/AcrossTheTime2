@@ -3,7 +3,7 @@
 #Use function to process the SQ27 end 							#
 #################################################################
 
-kill @e[type=minecraft:villager,x=-3788,y=70,z=-5876,distance=..3]
+kill @e[type=minecraft:interaction,x=-3788,y=70,z=-5876,distance=..3]
 scoreboard players set SQ27 SIDEQUEST 4
 scoreboard players set emerald_PNJ DIALOG 6
 function att2:gameplay/reputation/add_2
