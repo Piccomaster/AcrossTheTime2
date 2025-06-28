@@ -3,4 +3,4 @@
 #####################################
 
 scoreboard players set @s SUMMON_TIMER 60
-tag @s remove NewInvo 
+tag @s remove NewInvo

@@ -94,7 +94,7 @@ execute if score pool3_1_nm BOSS_TIME matches 0.. run scoreboard players operati
 scoreboard players operation total_nm BOSS_TIME = total_m BOSS_TIME
 
 
-#minute->hour <if need hour we can use this> 
+#minute->hour <if need hour we can use this>
 #execute if score total_m BOSS_TIME matches 60.. run scoreboard players operation total_nm BOSS_TIME %= 60 BOSS_TIME
 #execute if score total_m BOSS_TIME matches 60.. run scoreboard players operation total_nh BOSS_TIME /= total_m BOSS_TIME
 

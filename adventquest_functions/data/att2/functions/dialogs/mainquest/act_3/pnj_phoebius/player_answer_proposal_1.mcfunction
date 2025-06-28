@@ -21,31 +21,31 @@ tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #JAPANESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[私はあなたの助けを求めに来ました。-->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"ここをクリック - 回答 2"}}]} 
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[私はあなたの助けを求めに来ました。-->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"ここをクリック - 回答 2"}}]}
 
 #KOREAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[당신의 도움을 구하러 왔습니다. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"여기를 클릭하십시오 - 답변 2"}}]} 
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[당신의 도움을 구하러 왔습니다. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"여기를 클릭하십시오 - 답변 2"}}]}
 
 #ARABIC LANGUAGE
 
-tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[أنا هنا لطلب مساعدتكم. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"انقر هنا - الإجابة 2"}}]} 
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[أنا هنا لطلب مساعدتكم. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"انقر هنا - الإجابة 2"}}]}
 
 #RUSSIAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Я пришел, чтобы попросить вашей помощи. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"Нажмите здесь - ответ 2"}}]} 
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Я пришел, чтобы попросить вашей помощи. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"Нажмите здесь - ответ 2"}}]}
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Estoy aquí para pedir tu ayuda. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"Haz clic aquí - respuesta 2"}}]} 
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Estoy aquí para pedir tu ayuda. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"Haz clic aquí - respuesta 2"}}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Ich bin hier, um um Ihre Hilfe zu bitten. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"Klicke hier - Antwort 2"}}]} 
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Ich bin hier, um um Ihre Hilfe zu bitten. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"Klicke hier - Antwort 2"}}]}
 
 #HINDI LANGUAGE
 
-tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[मैं आपकी मदद के लिए यहाँ हूँ। -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"यहाँ क्लिक करें - उत्तर 2"}}]} 
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[मैं आपकी मदद के लिए यहाँ हूँ। -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_2"},"hover_event":{"action":"show_text","value":"यहाँ क्लिक करें - उत्तर 2"}}]}
 
 #PORTUGUESE LANGUAGE
 

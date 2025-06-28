@@ -19,7 +19,7 @@ scoreboard players operation rune_cost ENCHANTMENT = longreach ENCHANTMENT
 scoreboard players operation rune_cost ENCHANTMENT -= now_lvl_show ENCHANTMENT
 scoreboard players operation rune_cost ENCHANTMENT *= 50 CAL
 execute store result storage att2:enchantment rune_cost int 1 run scoreboard players get rune_cost ENCHANTMENT
-#check player esc 
+#check player esc
 execute store result score esc_count ENCHANTMENT run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
 #return macao
 execute if score longreach ENCHANTMENT >= now_lvl_show ENCHANTMENT run function att2:gameplay/enchantment/display/update with storage att2:enchantment

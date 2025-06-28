@@ -11,4 +11,4 @@ give @a minecraft:iron_sword[minecraft:custom_model_data={floats:[10000007]},min
 
 # Sein sterbender Stolz
 # trinkt die Erinnerung
-# an eine blutige 
+# an eine blutige

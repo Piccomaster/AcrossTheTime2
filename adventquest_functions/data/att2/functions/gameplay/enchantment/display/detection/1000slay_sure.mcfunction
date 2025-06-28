@@ -7,7 +7,7 @@ execute if score sure ENCHANTMENT matches 2 if score 1000slay ENCHANTMENT matche
 execute if score sure ENCHANTMENT matches 2 if score 1000slay ENCHANTMENT matches 1.. run function att2:dialogs/gameplay/enchantment/sure2
 execute if score sure ENCHANTMENT matches 2 if score 1000slay ENCHANTMENT matches 1.. store result storage att2:enchantment 1000slay int 1 run scoreboard players get 1000slay ENCHANTMENT
 #cal and set Materials cost
-#check player esc 
+#check player esc
 execute store result score esc_count ENCHANTMENT run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
 execute if score sure ENCHANTMENT matches 2 if score esc_count ENCHANTMENT >= esc_cost ENCHANTMENT if score stock RUNE_POWDER >= rune_cost ENCHANTMENT run scoreboard players set ready ENCHANTMENT 0
 #get esc/rune cost

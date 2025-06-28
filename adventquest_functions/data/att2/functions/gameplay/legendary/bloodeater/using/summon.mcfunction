@@ -13,7 +13,7 @@ execute as 00000001-0000-006f-0000-00010000006f at @s run tp @s ^ ^ ^1
 execute as @e[tag=New,type=arrow,tag=BE_ATK] run data modify entity @s Motion set from entity 00000001-0000-006f-0000-00010000006f Pos
 #
 execute as @e[tag=New,type=arrow,tag=BE_ATK,distance=..10] at @s run function att2:gameplay/legendary/bloodeater/using/atk_score
-#back 
+#back
 tp 00000001-0000-006f-0000-00010000006f 0.0 0.0 0.0
 #owner set
 scoreboard players operation @e[tag=New,type=arrow,tag=BE_ATK,distance=..10] OWNER = @s NUMEROJOUEUR

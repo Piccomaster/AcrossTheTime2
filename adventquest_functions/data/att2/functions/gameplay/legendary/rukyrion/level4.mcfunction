@@ -12,7 +12,7 @@ scoreboard players remove @s DAHAL 50
 # execute as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile,tag=!Undead] run effect give @s minecraft:instant_damage 1 5
 # execute as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile,tag=Undead] run effect give @s minecraft:instant_health 1 5
 
-#Determine area damage based on the player's strength points: 
+#Determine area damage based on the player's strength points:
 #Equipment - Helmet 4, Chestplate 3, Pants 4, Boots 4, Shield 2, Weapon 0, RY 12, Fallen 18, Potion 4.
 execute as @s[scores={STR_TOT=..14}] run function att2:gameplay/legendary/rukyrion/damage_up/level0
 execute as @s[scores={STR_TOT=15..19}] run function att2:gameplay/legendary/rukyrion/damage_up/level1

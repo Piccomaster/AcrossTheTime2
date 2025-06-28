@@ -12,4 +12,4 @@ execute if score @s DESPAWN_TIMER matches 2 unless entity @s[tag=KeepOriginalDat
 execute if score @s DESPAWN_TIMER matches 1 unless entity @s[tag=KeepOriginalData] run kill @s
 
 
-scoreboard players remove @s DESPAWN_TIMER 1 
+scoreboard players remove @s DESPAWN_TIMER 1

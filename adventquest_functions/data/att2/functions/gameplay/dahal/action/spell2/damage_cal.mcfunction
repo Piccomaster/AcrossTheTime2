@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#set spell2 damage  			
+#set spell2 damage
 #Damage=MinDamage+(MaxDamage−MinDamage)*[(SLCT_LVL-1)/(MAX_LVL-1)]^2   #
 #################################################################
 

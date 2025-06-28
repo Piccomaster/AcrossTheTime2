@@ -48,7 +48,7 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {equipment:{mainhand:{id:"minecraft:skull_pottery_sherd",components:{"minecraft:custom_name":{translate:'item.runeword.18.name'}}},offhand:{}}} run function att2:gameplay/runes/runicwords_name/18_ust_xul_lya_zen_da
 #19 Mot Syl Kan Xul Zen
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {equipment:{mainhand:{id:"minecraft:snort_pottery_sherd",components:{"minecraft:custom_name":{translate:'item.runeword.19.name'}}},offhand:{}}} run function att2:gameplay/runes/runicwords_name/19_mot_syl_kan_xul_zen
-#mot 
+#mot
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {equipment:{mainhand:{id:"minecraft:glowstone_dust",components:{EquipmentType:"runic_word"}},offhand:{}}} run function att2:gameplay/runes/runicwords_name/incompleted
 #re cal
 scoreboard players operation BonusDahalMax RUNE *= 4 RUNE

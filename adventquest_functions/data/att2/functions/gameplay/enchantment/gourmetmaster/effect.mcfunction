@@ -4,7 +4,7 @@
 #################################################################
 
 execute store result score temp_value_1 CAL run data get entity @s equipment.head.components."minecraft:enchantments"."att2_enchantment:gourmetmaster"
-#food GOURMETMASTER max 16(20) |min -12(-16) | ENLVL MAX 4 
+#food GOURMETMASTER max 16(20) |min -12(-16) | ENLVL MAX 4
 execute if score @s GOURMETMASTER matches 1.. run scoreboard players operation @s GOURMETMASTER += temp_value_1 CAL
 execute if score @s GOURMETMASTER matches ..0 run scoreboard players operation @s GOURMETMASTER -= temp_value_1 CAL
 #set time

@@ -60,7 +60,7 @@ execute if score Neth0 TIMER matches 1035..1085 as 00000000-0000-001a-0000-00000
 execute if score Neth0 TIMER matches 1090 run tp 00000000-0000-001a-0000-00000000001a @e[nbt={UUID:[I;0,131135,0,131135]},limit=1]
 execute if score Neth0 TIMER matches 1091 run function att2:cinematic/tp_effect/serile
 execute if score Neth0 TIMER matches 1095 run function att2:cinematic/act_3/angband/ocar_2_action_4
-execute if score Neth0 TIMER matches 1100..1135 as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~ ~ ~2 ~ 
+execute if score Neth0 TIMER matches 1100..1135 as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~ ~ ~2 ~
 execute if score Neth0 TIMER matches 1140 run tp 00000000-0000-001a-0000-00000000001a @e[nbt={UUID:[I;0,131151,0,131151]},limit=1]
 execute if score Neth0 TIMER matches 1141 run function att2:cinematic/tp_effect/serile
 execute if score Neth0 TIMER matches 1145 run function att2:cinematic/act_3/angband/ocar_2_action_5

@@ -3,7 +3,7 @@
 #Keep Tiid Klo Ul working   					#
 #################################################
 
-# Iteration is done on any entity (including ennemies) with the score SPELL9_EFFECT above 1 
+# Iteration is done on any entity (including ennemies) with the score SPELL9_EFFECT above 1
 scoreboard players remove @s[scores={SPELL9_EFFECT=1..}] SPELL9_EFFECT 1
 # Stop effect
 execute if score @s SPELL9_EFFECT matches ..0 run function att2:gameplay/dahal/action/spell9/stop

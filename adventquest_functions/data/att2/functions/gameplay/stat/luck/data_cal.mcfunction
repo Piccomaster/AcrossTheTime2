@@ -3,7 +3,7 @@
 #Sum all stat for dahal regen                    #
 ##################################################
 
-#CAL LUC 
+#CAL LUC
 scoreboard players operation @s LUC_DATA = @s LUC_TOT
 scoreboard players operation @s LUC_DATA *= 50 CAL
 execute if score @s LUC_DATA matches ..-1 run scoreboard players operation @s LUC_DATA *= -1 CAL

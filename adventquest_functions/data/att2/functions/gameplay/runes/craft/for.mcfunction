@@ -4,7 +4,7 @@
 #################################################################
 
 ##set price
-#rune powder 
+#rune powder
 scoreboard players operation temp_value_10 CAL = 14_for PRICES
 #esc count
 scoreboard players operation temp_value_11 CAL = 14_for_esc PRICES

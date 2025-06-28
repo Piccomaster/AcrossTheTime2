@@ -7,7 +7,7 @@
 tellraw @s[scores={LANGUAGE=0}] {"text":"Nouveau niveau débloqué pour Téléportation !","color":"gold"}
 #ENGLISH LANGUAGE
 tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for teleportation spell!","color":"gold"}
-#CHINESE LANGUAGE 
+#CHINESE LANGUAGE
 tellraw @s[scores={LANGUAGE=2}] {"text":"“空间传送”已升级！","color":"gold"}
 #JAPANESE LANGUAGE
 tellraw @s[scores={LANGUAGE=3}] {"text":"テレポーテーションの新しいレベルが解放されました！","color":"gold"}

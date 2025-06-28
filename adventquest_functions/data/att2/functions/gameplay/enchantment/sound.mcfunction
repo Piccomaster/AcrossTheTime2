@@ -3,8 +3,8 @@
 #Initialize enchantment                    						#
 #################################################################
 
-#龙吟block.respawn_anchor.set_spawn	
-#烂了 block.respawn_anchor.deplete	
+#龙吟block.respawn_anchor.set_spawn
+#烂了 block.respawn_anchor.deplete
 #充能
 playsound minecraft:block.respawn_anchor.set_spawn player @a ~ ~ ~ 1 1
 playsound minecraft:block.respawn_anchor.deplete player @a ~ ~ ~ 1 1

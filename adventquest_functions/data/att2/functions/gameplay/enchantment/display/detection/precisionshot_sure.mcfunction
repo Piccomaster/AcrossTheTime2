@@ -8,7 +8,7 @@ execute if score sure ENCHANTMENT matches 2 if score precisionshot ENCHANTMENT m
 execute if score sure ENCHANTMENT matches 2 if score precisionshot ENCHANTMENT matches 1.. store result storage att2:enchantment precisionshot int 1 run scoreboard players get precisionshot ENCHANTMENT
 
 #cal and set Materials cost
-#check player esc 
+#check player esc
 execute store result score esc_count ENCHANTMENT run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
 execute if score sure ENCHANTMENT matches 2 if score esc_count ENCHANTMENT >= esc_cost ENCHANTMENT if score stock RUNE_POWDER >= rune_cost ENCHANTMENT run scoreboard players set ready ENCHANTMENT 0
 #get esc/rune cost

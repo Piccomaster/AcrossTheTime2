@@ -10,7 +10,7 @@ scoreboard players operation @s RES_TOT += @s RES_EQ
 scoreboard players operation @s RES_TOT += @s RES_EXT
 scoreboard players operation @s RES_TOT += @s RES_PO
 scoreboard players operation @s RES_TOT += @s RES_EH
-#CAL RES 
+#CAL RES
 scoreboard players operation @s RES_DATA = @s RES_TOT
 scoreboard players operation @s RES_DATA /= 2 CAL
 scoreboard players operation @s RES_DATA *= 20 CAL

@@ -10,7 +10,7 @@ scoreboard players operation @s DAHAL -= DAHAL CAL
 execute store result score temp_value_11 CAL run data get entity @s Health
 execute store result score temp_value_12 CAL run attribute @s max_health get
 #add health
-scoreboard players operation temp_value_11 CAL += temp_value_10 CAL 
+scoreboard players operation temp_value_11 CAL += temp_value_10 CAL
 #absorption cal -> temp_value_13
 execute if score temp_value_11 CAL >= temp_value_12 CAL run scoreboard players operation temp_value_13 CAL = temp_value_11 CAL
 #max health limit

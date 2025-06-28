@@ -9,7 +9,7 @@ scoreboard players add temp_value_1 CAL 1
 #get SPD/HUN number
 
 #Error here ? (Missing value)
-scoreboard players operation HUN ATTRIBUTE = temp_value_1 
+scoreboard players operation HUN ATTRIBUTE = temp_value_1
 #return SPD/HUN number
 scoreboard players operation @s HUN_EH += HUN ATTRIBUTE
 #time->hunger

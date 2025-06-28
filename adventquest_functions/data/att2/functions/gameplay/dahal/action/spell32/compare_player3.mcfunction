@@ -3,7 +3,7 @@
 #Summon a position keeper for a recycler                    #
 #############################################################
 
-##将盔甲架的编号赋予一个三界之外的计分板 
+##将盔甲架的编号赋予一个三界之外的计分板
 execute if entity @s[tag=SpaceTeleportSpellSETA,tag=player3] run scoreboard players operation compare_3_a spell_32_armor_stand = @e[tag=SpaceTeleportSpellSETA,tag=player3] SPELL32_ARMORSTAND_DATA_A
 
 execute if entity @s[tag=SpaceTeleportSpellSETB,tag=player3] run scoreboard players operation compare_3_a spell_32_armor_stand = @e[tag=SpaceTeleportSpellSETB,tag=player3] SPELL32_ARMORSTAND_DATA_B

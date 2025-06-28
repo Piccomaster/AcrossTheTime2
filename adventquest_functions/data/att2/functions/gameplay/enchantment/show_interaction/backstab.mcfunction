@@ -6,7 +6,7 @@
 #reset
 function att2:gameplay/enchantment/remove_interaction
 function att2:gameplay/enchantment/reset
-#get lvl data 
+#get lvl data
 execute store result score backstab ENCHANTMENT run data get entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:backstab"
 execute unless score backstab ENCHANTMENT matches 0.. run scoreboard players set backstab ENCHANTMENT 0
 

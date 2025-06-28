@@ -10,7 +10,7 @@ scoreboard players operation @s SPD_TOT += @s SPD_EQ
 scoreboard players operation @s SPD_TOT += @s SPD_EXT
 scoreboard players operation @s SPD_TOT += @s SPD_PO
 scoreboard players operation @s SPD_TOT += @s SPD_EH
-#GET SPD 
+#GET SPD
 scoreboard players operation @s SPD_DATA = @s SPD_TOT
 scoreboard players add @s SPD_DATA 10
 #CAL SPD

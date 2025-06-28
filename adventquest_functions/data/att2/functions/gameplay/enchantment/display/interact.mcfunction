@@ -7,7 +7,7 @@
 advancement revoke @s only att2_test:test_interacted/enchantment/interact
 #if not emptyhand->reset
 execute if data entity @s SelectedItem run function att2:gameplay/enchantment/display/reset
-#rotation reset 
+#rotation reset
 data merge entity @e[type=item_display,tag=ENCHANTMENT,tag=ROTATION,limit=1,distance=..10] {transformation:{translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},start_interpolation:0,interpolation_duration:0}
 scoreboard players set rotation ENCHANTMENT 1
 #player->SET

@@ -44,5 +44,5 @@ execute if score reward MIMIC matches 90.. run loot spawn ~ ~2 ~ loot att2:chest
 execute if score reward MIMIC matches 95.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c10t5
 execute if score reward MIMIC matches 100.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c10t10
 
-#remove 
+#remove
 tp @e[tag=MIMIC,distance=..2] ~ -10 ~

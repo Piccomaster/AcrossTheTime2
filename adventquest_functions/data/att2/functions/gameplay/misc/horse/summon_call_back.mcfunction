@@ -6,7 +6,7 @@
 
 ##特效
 scoreboard players set @s SUMMON_TIMER 60
-tag @s add NewInvo 
+tag @s add NewInvo
 ##无马计数
 execute as @s[tag=player_horse_1] run scoreboard players set @a[scores={NUMEROJOUEUR=1}] HORSE_SET 0
 execute as @s[tag=player_horse_2] run scoreboard players set @a[scores={NUMEROJOUEUR=2}] HORSE_SET 0

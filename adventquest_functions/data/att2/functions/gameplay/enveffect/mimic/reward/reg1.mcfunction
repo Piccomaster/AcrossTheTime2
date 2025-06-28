@@ -44,5 +44,5 @@ execute if score reward MIMIC matches 90.. run loot spawn ~ ~2 ~ loot att2:chest
 execute if score reward MIMIC matches 95.. run loot spawn ~ ~2 ~ loot att2:chest/reg1/c10t5
 execute if score reward MIMIC matches 100.. run loot spawn ~ ~2 ~ loot att2:chest/reg1/c10t10
 execute as @e[type=minecraft:item,distance=..30,predicate=!att2_pre:test_item/health] run data merge entity @s {Health:32767s}
-#remove 
+#remove
 tp @e[tag=MIMIC,distance=..1] ~ -10 ~
