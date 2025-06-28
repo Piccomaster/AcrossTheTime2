@@ -1043,7 +1043,7 @@ scoreboard players operation weapon243 PRICES *= discount discount_calc
 scoreboard players operation weapon243 PRICES /= 100 discount_calc
 scoreboard players set weapon244 PRICES 75
 scoreboard players operation weapon244 PRICES *= discount discount_calc
-scoreboard players operation weapon244 PRICES /= 100 discount_calcS
+scoreboard players operation weapon244 PRICES /= 100 discount_calc
 scoreboard players set weapon245 PRICES 75
 scoreboard players operation weapon245 PRICES *= discount discount_calc
 scoreboard players operation weapon245 PRICES /= 100 discount_calc
