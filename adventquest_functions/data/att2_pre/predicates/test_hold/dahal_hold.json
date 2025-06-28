@@ -5,7 +5,6 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
         "equipment": {
           "mainhand": {
             "items": "minecraft:carrot_on_a_stick",
@@ -22,7 +21,6 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
         "equipment": {
           "offhand": {
             "items": "minecraft:carrot_on_a_stick",

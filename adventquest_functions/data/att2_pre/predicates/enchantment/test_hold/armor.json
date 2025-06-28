@@ -4,7 +4,12 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "items": "#minecraft:enchantable/armor"
+        "items": "#minecraft:enchantable/armor",
+        "predicates": {
+          "minecraft:custom_data": {
+            "EquipmentType": "armor"
+          }
+        }
       }
     }
   }

@@ -5,10 +5,14 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
         "equipment": {
           "offhand": {
-            "items": "minecraft:bow"
+            "items": "minecraft:bow",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentType": "rangeWeapon"
+              }
+            }
           }
         }
       }
@@ -17,10 +21,14 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
         "equipment": {
           "mainhand": {
-            "items": "minecraft:bow"
+            "items": "minecraft:bow",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentType": "rangeWeapon"
+              }
+            }
           }
         }
       }

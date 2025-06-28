@@ -4,10 +4,9 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "items": "minecraft:scaffolding",
                 "predicates": {
                     "minecraft:custom_data": {
-                        "chair": "true"
+                        "Rarity": "myt"
                     }
                 }
             }

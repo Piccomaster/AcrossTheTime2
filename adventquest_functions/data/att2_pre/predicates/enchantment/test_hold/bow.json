@@ -4,7 +4,12 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "items": "#minecraft:enchantable/bow"
+        "items": "minecraft:bow",
+        "predicates": {
+          "minecraft:custom_data": {
+            "EquipmentType": "rangeWeapon"
+          }
+        }
       }
     }
   }

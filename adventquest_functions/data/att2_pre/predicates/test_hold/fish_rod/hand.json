@@ -5,7 +5,6 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
         "equipment": {
           "mainhand": {
             "items": "minecraft:fishing_rod",
@@ -22,7 +21,6 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
         "equipment": {
           "offhand": {
             "items": "minecraft:fishing_rod",
