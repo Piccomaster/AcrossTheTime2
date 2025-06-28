@@ -1,0 +1,61 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "translate": "item.legendary.kinuil.name"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "item.legendary.kinuil.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.legendary.kinuil.lore.2"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "EquipmentType": "meleeWeapon",
+                                    "Rarity": "myt",
+                                    "EquipmentID": "kinuil"
+                                },
+                                "minecraft:enchantments": {
+                                    "fire_aspect": 2
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "id": "minecraft:attack_damage",
+                                        "amount": 28.54,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "id": "minecraft:attack_speed",
+                                        "amount": -0.78,
+                                        "operation": "add_multiplied_base",
+                                        "slot": "mainhand"
+                                    }
+                                ],
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        10000001
+                                    ]
+                                },
+                                "unbreakable": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

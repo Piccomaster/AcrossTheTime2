@@ -1,0 +1,33 @@
+########################################################################################
+#optimized for loot unused in the map Across The Time 2 - Time For Regrets since V2.0.0#
+########################################################################################
+
+##################
+# Delete files	#
+##################
+
+
+* Chest:
+	- Reg1: [c1t5 - c1t9] + [c2t7 - c2t9] + [c3t6 - c3t8] + [c4t8 - c4t9] + [c5t1 / c5t7 - c5t9] + [c6t8 - c6t9] + [c7t10] + [c9t1] + [c10t1] + asunarkstone[c4t7 - c4t10]
+	- Reg2: [c1 - c4] + [c5t6 - c5t10] + [c6t8 - c6t9] + [c7t1 - c7t6 / c7t9] + [c8t1 - c8t7 / c8t10] + [c9t1 - c9t8] + [c10t1 / c10t6 - c10t9]
+	- Reg3: [c1 - c6] + [t1] + [c7t10] + [c9t1 - c9t5] + [c9t7 - c9t8] + [c9t10] + [c10t1 - c10t8]
+	- Reg4: [c1 - c6] + [c10] + [c7t8] + [c8t9 - c8t10]
+
+
+* Entities:
+	- Reg1: asunarkstone[l1 - l2] + asunarkstone[l5 - l11] + [l8t1 - l8t2] + [l9t1 - l9t3] + [l10t1 - l10t4] + [l11t1 - l11t5]
+	- Reg2: [l1 / l3 / l7] + [t1 - t2]
+	- Reg3: [l1 / l3] + [t1 - t4]
+	- Reg4: [l1 / l2 / l4] + [t1 - t6]
+
+
+* files att2:minecraft/loot_tables
+
+
+##################
+# Replace tags	#
+##################
+
+* ^[{"function":"set_count","count":{"min":1,"max":1}},$ -> ^[$
+
+* ^,"weight":1,$ -> ^,$

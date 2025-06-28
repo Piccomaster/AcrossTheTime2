@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "potion48.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "potion48.lore.1"
+                  },
+                  {
+                    "translate": "potion48.lore.2"
+                  },
+                  {
+                    "translate": "potion48.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "SPD": 1,
+                  "DAR": 1,
+                  "STR": -1,
+                  "EquipmentType": "potion",
+                  "Rarity": "com",
+                  "Potion": "48"
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 16749568
+                },
+                "max_stack_size": 16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

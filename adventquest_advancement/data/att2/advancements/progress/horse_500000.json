@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:saddle"
+        },
+        "title": {"translate":"att2.advancement.progress.title.horse_500000"},
+        "description": {"translate":"att2.advancement.progress.description.horse_500000"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/horse_50000",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+    },
+    "criteria": {
+        "horse_500000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

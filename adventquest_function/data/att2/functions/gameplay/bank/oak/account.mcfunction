@@ -1,0 +1,7 @@
+#################################################################
+#Made by Adventquest											#
+#Display bank account of the player								#
+#################################################################
+#give @a minecraft:oak_sign{front_text:{messages:['{"click_event":{"action":"run_command","value":"/say 1"},"text":"点击执行"}','{"click_event":{"action":"run_command","value":"/say 2"},"text":""}','{"click_event":{"action":"run_command","value":"/say 3"},"text":""}','{"click_event":{"action":"run_command","value":"/say 4"},"text":""}']}}
+#give @p minecraft:oak_sign{BlockEntityTag:{Text1:"[{\"text\":\"无\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"click_event\":{\"action\":\"run_command\",\"value\":\"/FUNCTIAD AD\"}}]",Text2:"[{\"text\":\"\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Text3:"[{\"text\":\"\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Text4:"[{\"text\":\"\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"}} 1
+setblock -5051 91 -4989 minecraft:oak_sign{front_text:{messages:['{"click_event":{"action":"run_command","value":"/say 1"},"text":"+_..-"}','{"click_event":{"action":"run_command","value":"/say 2"},"text":""}','{"click_event":{"action":"run_command","value":"/say 3"},"text":""}','{"click_event":{"action":"run_command","value":"/say 4"},"text":""}']}}

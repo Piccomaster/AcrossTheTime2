@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:wither_skeleton ~ ~ ~ {Rotation:[-135.0f,15.0f],NoAI:1,Invulnerable:1,CustomName:"NAMRÏN",CustomNameVisible:1,Silent:1,PersistenceRequired:1,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:golden_shovel",count:1},offhand:{id:"minecraft:fishing_rod",count:1,components:{Damage:64,unbreakable:1}},feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:5511704,enchantments:{"minecraft:protection":7}}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:3281476,enchantments:{"minecraft:protection":7}}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:5511704,enchantments:{"minecraft:protection":7}}},head:{id:"minecraft:shears",count:1,components:{custom_model_data:{floats:[10010001]},unbreakable:1}}},UUID:[I;0,106,0,106],Tags:["PNJ"]}

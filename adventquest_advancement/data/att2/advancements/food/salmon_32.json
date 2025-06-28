@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cooked_salmon"
+        },
+        "title": {"translate":"att2.advancement.food.title.salmon_32"},
+        "description": {"translate":"att2.advancement.food.description.salmon_32"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/salmon_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 1000
+                },
+    "criteria": {
+            "salmon_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

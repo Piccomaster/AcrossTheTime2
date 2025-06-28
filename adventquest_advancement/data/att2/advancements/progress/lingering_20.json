@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:lingering_potion"
+        },
+        "title": {"translate":"att2.advancement.progress.title.lingering_20"},
+        "description": {"translate":"att2.advancement.progress.description.lingering_20"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/lingering_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2000
+    },
+    "criteria": {
+        "lingering_20": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

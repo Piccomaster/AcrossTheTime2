@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:skull_pottery_sherd"
+        },
+        "title": {"translate":"att2.advancement.runes.title.18_ust_xul_lya_zen_da"},
+        "description": {"translate":"att2.advancement.runes.description.18_ust_xul_lya_zen_da"},
+        "frame": "challenge"
+    },
+    "parent": "att2:runes/words/17_kan_chu_bex_puh",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:skull_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

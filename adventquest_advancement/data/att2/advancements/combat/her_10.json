@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone"
+        },
+        "title": {"translate":"att2.advancement.combat.title.her_10"},
+        "description": {"translate":"att2.advancement.combat.description.her_10"}
+    },
+    "parent": "att2:combat/her_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "her_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

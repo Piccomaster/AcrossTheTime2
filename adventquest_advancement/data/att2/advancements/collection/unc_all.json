@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:green_candle"
+        },
+        "title": {"translate": "att2.advancement.collection.title.unc_all"},
+        "description": {"translate": "att2.advancement.collection.description.unc_all"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/com_all",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 30000
+                },
+    "criteria": {
+        "unc_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

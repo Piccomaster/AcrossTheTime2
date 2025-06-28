@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "potion5.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "potion5.lore.1"
+                  },
+                  {
+                    "translate": "potion5.lore.2"
+                  },
+                  {
+                    "translate": "potion5.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "DAR": 1,
+                  "HAS": -2,
+                  "EquipmentType": "potion",
+                  "Rarity": "com",
+                  "Potion": "5"
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 11195266,
+                  "custom_effects": [
+                    {
+                      "amplifier":0,
+                      "duration":0,
+                      "id":"instant_health",
+                      "show_particles":0},                    {
+                      "amplifier":2,
+                      "duration":12000,
+                      "id":"absorption",
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "max_stack_size":16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor122.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor122.lore.1"
+                  },
+                  {
+                    "translate": "armor122.lore.2"
+                  },
+                  {
+                    "translate": "armor122.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "rar",
+                  "Manufacturer": "traditional",
+                  "HAS": 4,
+                  "STR": -1,
+                  "HUN": -1,
+                  "Armor": "122"
+                },
+                "minecraft:enchantments": {
+                  "feather_falling": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.boots",
+                    "amount": 1.13,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.boots",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:damage": 65,
+                "minecraft:max_damage": 200
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

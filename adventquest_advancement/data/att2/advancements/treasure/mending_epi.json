@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:purple_dye"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.mending_epi"},
+        "description": {"translate": "att2.advancement.treasure.description.mending_epi"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mending_rar",
+        "rewards": {
+            "function": "att2:advancement/exploit_20",
+            "experience": 2500
+    },
+    "criteria": {
+        "mending_epi": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

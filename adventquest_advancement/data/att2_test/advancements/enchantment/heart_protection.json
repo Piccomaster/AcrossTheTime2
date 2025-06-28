@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/enchantment/trigger_function/heart_protection"
+  },
+  "criteria": {
+    "heart_protection": {
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  }
+}

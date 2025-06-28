@@ -1,0 +1,30 @@
+#################################################################
+#Made by Adventquest											#
+#Initialize enchantment                    						#
+#################################################################
+
+#add temp tag
+tag @s add TEMP
+#GET damage
+execute store result score temp_value_1 CAL run data get entity @s equipment.offhand.components."minecraft:enchantments"."att2_enchantment:precisionblock" 10
+execute store result score temp_value_2 CAL run attribute @s attack_damage get 50
+#CAL DAMAGE
+scoreboard players add temp_value_1 CAL 100
+scoreboard players operation temp_value_2 CAL *= temp_value_1 CAL
+scoreboard players operation temp_value_2 CAL /= 100 CAL
+scoreboard players operation temp_value_2 CAL /= 100 CAL
+#macao
+execute store result storage att2:temp damage int 1 run scoreboard players get temp_value_1 CAL
+#damage go
+execute on attacker at @s run function att2:gameplay/enchantment/precisionblock/damage with storage att2:temp
+#make attacker knockback
+execute on attacker run tag @s add TEMP
+data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @s Rotation
+execute as 00000001-0000-006f-0000-00010000006f at @s run tp @s ^ ^0.1 ^1
+data modify entity 00000001-0000-006f-0000-00010000006f Pos[1] set value 0.2
+execute as @e[tag=TEMP,type=!player] run data modify entity @s Motion set from entity 00000001-0000-006f-0000-00010000006f Pos
+tp 00000001-0000-006f-0000-00010000006f 0.0 0.0 0.0
+function att2:gameplay/enchantment/greatsword/block1
+#reset
+tag @e[tag=TEMP] remove TEMP
+advancement revoke @s only att2_test:enchantment/greatsword/blocked

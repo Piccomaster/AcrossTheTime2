@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_leggings"
+        },
+        "title": {"translate":"Cnémide de l'oracle"},
+        "description": {"translate":"A persistent rumor maintains that they were lost at a game of chance."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/iron_leggings_217",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "netherite_leggings_309": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

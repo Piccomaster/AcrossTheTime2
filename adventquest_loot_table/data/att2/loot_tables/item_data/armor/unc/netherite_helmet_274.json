@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "armor274.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "armor274.lore.1"
+                  },
+                  {
+                    "translate": "armor274.lore.2"
+                  },
+                  {
+                    "translate": "armor274.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "armor",
+                  "Rarity": "unc",
+                  "Manufacturer": "harmonious",
+                  "Armor": "274"
+                },
+                "minecraft:enchantments": {
+                  "fire_protection": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armor.helmet",
+                    "amount": 1.44,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "armor.helmet",
+                    "amount": 0.21,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "armor.helmet",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "armor.helmet",
+                    "amount": 0.01,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:damage": 270,
+                "minecraft:max_damage": 400
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

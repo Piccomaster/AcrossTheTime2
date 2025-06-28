@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:baked_potato"
+        },
+        "title": {"translate":"att2.advancement.food.title.potato_8"},
+        "description": {"translate":"att2.advancement.food.description.potato_8"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/potato_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "potato_8": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_shovel"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.iron_dagger_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.iron_dagger_1000"},
+        "frame": "challenge"
+    },
+    "parent": "att2:weapons/iron_dagger_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "iron_dagger_1000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

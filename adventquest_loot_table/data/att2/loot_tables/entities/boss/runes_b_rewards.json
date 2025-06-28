@@ -1,0 +1,188 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "bonus_rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/9_von"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0045
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/10_ehl"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0035
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/11_ave"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0025
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/12_chu"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00175
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/13_for"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00125
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/14_da"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.001
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/15_wej"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0009
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/16_ust"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00075
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/17_lya"
+                }
+            ]
+        }
+    ]
+}
+

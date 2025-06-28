@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_leggings"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.armor_chainmail.title.leggings_97"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_chainmail.description.leggings_97"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_chainmail/leggings_93",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "chainmail_leggings_97": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:chainmail_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "97"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

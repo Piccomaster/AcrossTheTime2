@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:lapis_block"
+        },
+        "title": {"translate": "att2.advancement.collection.title.potion"},
+        "description": {"translate": "att2.advancement.collection.description.potion"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/root",
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:fishing_rod"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

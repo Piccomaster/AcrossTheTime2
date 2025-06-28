@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.sword_180"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.sword_180"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_billgart/sword_177",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "stone_sword_180": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:stone_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "180"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

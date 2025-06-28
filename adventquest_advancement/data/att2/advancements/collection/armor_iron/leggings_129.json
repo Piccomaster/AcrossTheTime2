@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.leggings_129"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.leggings_129"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/leggings_125",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_leggings_129": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "129"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

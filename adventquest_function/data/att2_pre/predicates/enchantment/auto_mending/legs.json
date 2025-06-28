@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "legs": {
+                "items": "#minecraft:leg_armor",
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": "att2_enchantment:auto_mending"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

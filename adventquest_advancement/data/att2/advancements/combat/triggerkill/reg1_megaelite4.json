@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "title": {"translate":"MEGAELITE KILLED"},
+        "description": {"translate":"Triggered!"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/test_all/combat/triggerkill_reg1_megaelite4"
+    },
+    "criteria": {
+        "triggerkill_reg1_megaelite4": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"SUPER\",\"MEGA\",\"ELITE4\",\"Reg1\"]}"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon Rodmat 	 								 #
+##################################################
+
+summon minecraft:magma_cube ~ ~ ~ {Tags:["LVL0","CLASS20","ArenaBoss","Rodmat"],DeathLootTable:"att2:empty",PersistenceRequired:1,Size:5,attributes:[{id:follow_range,base:100.0},{id:attack_damage,base:50.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:diamond_boots",count:1,components:{enchantments:{"minecraft:protection":10}}},legs:{id:"minecraft:diamond_leggings",count:1,components:{enchantments:{"minecraft:protection":10}}},chest:{id:"minecraft:diamond_chestplate",count:1,components:{enchantments:{"minecraft:protection":10}}},head:{id:"minecraft:diamond_helmet",count:1,components:{enchantments:{"minecraft:protection":10}}}},active_effects:[{id:resistance,amplifier:3,duration:2147483647,ambient:1,show_particles:0b}]}

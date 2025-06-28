@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"Poignard acéré"},
+        "description": {"translate":"Pierce through to the bowels of your enemies."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "iron_shovel_167": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

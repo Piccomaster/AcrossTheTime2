@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:sheaf_pottery_sherd"
+        },
+        "title": {"translate":"att2.advancement.runes.title.16_von_yog_yog"},
+        "description": {"translate":"att2.advancement.runes.description.16_von_yog_yog"},
+        "frame": "challenge"
+    },
+    "parent": "att2:runes/words/15_syl_da_ave_qi_ra",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:sheaf_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

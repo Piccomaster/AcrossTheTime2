@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cake"
+        },
+        "title": {"translate":"att2.advancement.food.title.cake_7"},
+        "description": {"translate":"att2.advancement.food.description.cake_7"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/cake_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 150
+                },
+    "criteria": {
+        "cake_7": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

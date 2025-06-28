@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item splash_potion_33 as tellraw          #
+#####################################
+
+tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "potion33.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:splash_potion","count": 1,"components": {"minecraft:custom_name":{"translate":"potion33.name"},"minecraft:lore":[{"translate":"potion33.lore.1"},{"translate":"potion33.lore.2"},{"translate":"potion33.stat"}],"minecraft:custom_data":{"EquipmentType":"potion","Rarity":"com","Shop":"buy","Potion":"33"},"minecraft:potion_contents":{"custom_color":5262918,"custom_effects":[{"amplifier":1,"duration":200,"id":"wither","show_particles":false}]},"max_stack_size":4}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/com/splash_potion_33"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "potion33","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

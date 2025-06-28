@@ -1,0 +1,1 @@
+title @a subtitle {"text":"⟖","color":"dark_red","extra":[{"text":"Piccomaster","color":"gray"},{"text":" ╢╟ ","color":"gold"},{"text":"ricoru","color":"gray"},{"text":" ⟕","color":"dark_red"}]}

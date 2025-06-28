@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:target"
+        },
+        "title": {"translate":"boss_kill"},
+        "description": {"translate":"Triggered!"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:hunting/atricanth_master_timerecord",
+    "criteria": {
+        "atricanth1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{UUID:[I;0,636,0,636]}"
+                }
+            }
+        },
+        "atricanth2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{UUID:[I;0,652,0,652]}"
+                }
+            }
+        }
+    }
+}

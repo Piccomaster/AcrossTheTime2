@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.mobs_killed_500"},
+        "description": {"translate":"att2.advancement.mobskilled.description.mobs_killed_500"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/mobs_killed_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2500
+    },
+    "criteria": {
+        "mobs_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

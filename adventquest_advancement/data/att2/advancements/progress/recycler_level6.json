@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:glow_ink_sac"
+        },
+        "title": {"translate":"att2.advancement.progress.title.recycler_level6"},
+        "description": {"translate":"att2.advancement.progress.description.recycler_level6"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/recycler_level5",
+    "rewards": {
+        "function": "att2:advancement/exploit_75",
+        "experience": 25000
+                },
+    "criteria": {
+        "recycler_level6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

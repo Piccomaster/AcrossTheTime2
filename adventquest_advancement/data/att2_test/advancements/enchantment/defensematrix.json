@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "defensematrix": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "att2_enchantment:defensematrix"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

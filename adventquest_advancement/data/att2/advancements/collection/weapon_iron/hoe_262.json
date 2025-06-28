@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_hoe"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.hoe_262"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.hoe_262"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_hoe_262": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_hoe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "262"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

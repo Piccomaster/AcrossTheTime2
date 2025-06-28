@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:turtle_helmet"
+        },
+        "title": {"translate":"att2.advancement.combat.title.res_6"},
+        "description": {"translate":"att2.advancement.combat.description.res_6"}
+    },
+    "parent": "att2:combat/res_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "res_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

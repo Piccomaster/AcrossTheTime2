@@ -1,0 +1,13 @@
+#########################################################
+#Made by Adventquest									#
+#Display bosstimer           					        #
+#########################################################
+
+##time reset
+
+scoreboard players operation pool0_total_rt BOSS_TIME = pool0_total_nt BOSS_TIME
+scoreboard players operation pool0_total_rs BOSS_TIME = pool0_total_ns BOSS_TIME
+scoreboard players operation pool0_total_rm BOSS_TIME = pool0_total_nm BOSS_TIME
+
+function att2:dialogs/gameplay/boss_timer/new_record
+function att2:dialogs/gameplay/boss_timer/arena/pool0/pool0_record

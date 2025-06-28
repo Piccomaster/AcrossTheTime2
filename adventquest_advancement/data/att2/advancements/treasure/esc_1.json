@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:quartz"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.esc_1"},
+        "description": {"translate": "att2.advancement.treasure.description.esc_1"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_5",
+            "experience": 1000
+    },
+    "criteria": {
+        "esc_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:quartz"],
+                    "nbt": "{Rarity:unk}"
+                    }
+                ]
+            }
+        }
+    }
+}

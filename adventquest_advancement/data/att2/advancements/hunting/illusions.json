@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;2140320726,1591757494,-1347542522,-1185854877],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBlMTNkMTg0NzRmYzk0ZWQ1NWFlYjcwNjk1NjZlNDY4N2Q3NzNkYWMxNmY0YzNmODcyMmZjOTViZjlmMmRmYSJ9fX0=\"}]}}}"
+        },
+        "title": {"translate":"att2.advancement.hunting.title.illusions"},
+        "description": {"translate":"att2.advancement.hunting.description.illusions"},
+        "hidden": true
+    },
+    "parent": "att2:hunting/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2500
+    },
+    "criteria": {
+        "illusions": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_250 as tellraw          #
+#####################################
+
+tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "weapon250.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:crossbow","count": 1,"components": {"minecraft:custom_name":{"translate":"weapon250.name"},"minecraft:lore":[{"translate":"weapon250.lore.1"},{"translate":"weapon250.lore.2"},{"translate":"weapon250.stat"}],"minecraft:custom_data":{"EquipmentType":"rangeWeapon","Rarity":"rar","Manufacturer":"traditional","Shop":"buy","SPD":"2","HER":"1","HUN":"-1","Weapon":"250"},"minecraft:enchantments":{"power":3,"quick_charge":2},"minecraft:damage":225,"minecraft:max_damage":460}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/crossbow_250"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "weapon250","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

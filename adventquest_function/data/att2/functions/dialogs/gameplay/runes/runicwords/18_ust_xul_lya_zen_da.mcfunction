@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+tellraw @a {"text":"⚙ ","bold":true,"color":"dark_red","extra":[{"text":"<","color":"gold","bold":false},{"translate":"item.runeword.18.name","hover_event":{"action":"show_item",id:"minecraft:skull_pottery_sherd","components":{"minecraft:custom_name":{"translate":"item.runeword.18.name"},"minecraft:lore":[{"translate":"item.runeword.18.recipe"},{"translate":"item.runeword.18.bonus.health"},{"translate":"item.runeword.18.bonus.cooldown"},{"translate":"item.runeword.18.bonus.dahal"},{"translate":"item.runeword.18.bonus.dahal_xp"},{"translate":"item.runeword.18.bonus.potion"},{"translate":"item.runeword.18.limit"}]}}},{"text":">","color":"gold","bold":false},{"text":" <= ","color":"gray","bold":true},{"text":"Ust","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Xul","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Lya","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Zen","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Da","color":"yellow","bold":false}]}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.chestplate_109"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.chestplate_109"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/chestplate_102",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_chestplate_109": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "109"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

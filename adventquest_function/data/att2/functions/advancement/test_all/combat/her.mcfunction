@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Process adding Tier Elite score 			                    #
+#################################################################
+
+### TOTAL STAT
+# HER
+advancement grant @a[scores={HER_TOT=2..}] only att2:combat/her_2
+advancement grant @a[scores={HER_TOT=5..}] only att2:combat/her_5
+advancement grant @a[scores={HER_TOT=10..}] only att2:combat/her_10
+advancement grant @a[scores={HER_TOT=16..}] only att2:combat/her_16
+
+# ALL STATS MAX (+2 from natural max level)
+advancement grant @a[scores={LUC_TOT=12..,HUN_TOT=14..,DAR_TOT=14..,HER_TOT=10..,RES_TOT=10..,HAS_TOT=14..,SPD_TOT=14..,STR_TOT=16..}] only att2:combat/all_stats_max

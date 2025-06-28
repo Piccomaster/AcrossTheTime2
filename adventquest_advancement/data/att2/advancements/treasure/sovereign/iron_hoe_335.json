@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_hoe"
+        },
+        "title": {"translate":"Prédominance inénarrable"},
+        "description": {"translate":"It is very difficult to express oneself in words when faced with such a book."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "iron_hoe_335": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

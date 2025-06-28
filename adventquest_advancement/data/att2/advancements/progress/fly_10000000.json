@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:feather"
+        },
+        "title": {"translate":"att2.advancement.progress.title.fly_10000000"},
+        "description": {"translate":"att2.advancement.progress.description.fly_10000000"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/fly_2500000",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+    },
+    "criteria": {
+        "fly_10000000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

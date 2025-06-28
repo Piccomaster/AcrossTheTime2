@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_boots"
+        },
+        "title": {"translate":"Allure étherique"},
+        "description": {"translate":"I've worn lots of shoes. I bet if I think about it real hard I can remember my first pair of shoes."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/iron_boots_222",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "netherite_boots_310": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

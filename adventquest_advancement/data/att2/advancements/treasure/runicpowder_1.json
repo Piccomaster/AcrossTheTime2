@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "title": {"translate":"Test the grinder"},
+        "description": {"translate":"Grind for 1 runic powders."}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_2",
+            "experience": 500
+    },
+    "criteria": {
+        "runicpowder_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

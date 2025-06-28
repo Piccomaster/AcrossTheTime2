@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.title.leggings_246"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_billgart.leather.description.leggings_246"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_billgart/leather/leggings_233",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_leggings_246": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:leather_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "246"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

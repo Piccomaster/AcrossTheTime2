@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.axe_289"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.axe_289"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/axe_288",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "netherite_axe_289": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "289"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

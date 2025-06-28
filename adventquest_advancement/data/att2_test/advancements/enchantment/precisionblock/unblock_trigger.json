@@ -1,0 +1,22 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/enchantment/precisionblock/unblock_trigger"
+  },
+  "criteria": {
+    "cooked_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "att2_enchantment:precisionblock"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

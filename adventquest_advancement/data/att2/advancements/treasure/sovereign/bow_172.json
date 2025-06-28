@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Infinity"},
+        "description": {"translate":"It's closer than you think! (no it isn't)"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "bow_172": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

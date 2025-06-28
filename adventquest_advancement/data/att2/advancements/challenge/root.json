@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"att2.advancement.challenge.title.root"},
+        "description": {"translate":"att2.advancement.challenge.description.root"},
+        "background": "minecraft:block/green_concrete",
+        "show_toast": false
+    },
+    "criteria": {
+        "inventory": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    }
+}

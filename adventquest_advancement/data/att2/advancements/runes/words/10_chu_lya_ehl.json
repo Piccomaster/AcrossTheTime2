@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:heartbreak_pottery_sherd"
+        },
+        "title": {"translate":"att2.advancement.runes.title.10_chu_lya_ehl"},
+        "description": {"translate":"att2.advancement.runes.description.10_chu_lya_ehl"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/words/9_da_for_inu",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 7500
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:heartbreak_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

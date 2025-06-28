@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": {"translate":"att2.advancement.challenge.title.nightmarerun_bronze"},
+        "description": {"translate":"att2.advancement.challenge.description.nightmarerun_bronze"},
+        "frame": "goal"
+    },
+    "parent": "att2:challenge/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 10000
+                },
+    "criteria": {
+        "nightmarerun_bronze": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

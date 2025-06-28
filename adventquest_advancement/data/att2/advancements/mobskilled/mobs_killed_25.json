@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.mobs_killed_25"},
+        "description": {"translate":"att2.advancement.mobskilled.description.mobs_killed_25"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 500
+    },
+    "criteria": {
+        "mobs_killed_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

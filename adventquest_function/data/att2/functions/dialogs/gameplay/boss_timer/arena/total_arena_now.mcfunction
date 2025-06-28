@@ -1,0 +1,32 @@
+#########################################################
+#Made by Adventquest									#
+#Display bosstimer           					        #
+#########################################################
+
+#FRENCH LANGUAGE
+tellraw @s[scores={LANGUAGE=0}] {"text":"§6‖ ☼§4 Temps écoulé pour terminer le tournoi I-V§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#ENGLISH LANGUAGE
+tellraw @s[scores={LANGUAGE=1}] {"text":"§6‖ ☼§4 Time taken for TournamentI-V§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#CHINESE LANGUAGE
+tellraw @s[scores={LANGUAGE=2}] {"text":"§6‖ ☼§4 锦标赛I-V§c用时§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] {"text":"§6‖ ☼§4 トーナメントI-Vにかかった時間§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] {"text":"§6‖ ☼§4 토너먼트 I-V에 소요된 시간§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] {"text":"§6‖ ☼§4 الوقت المستغرق للبطولة I-V§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] {"text":"§6‖ ☼§4 Время, затраченное на турнир I-V§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] {"text":"§6‖ ☼§4 Tiempo tomado para el torneo I-V§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] {"text":"§6‖ ☼§4 Zeitaufwand für das Turnier I-V§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] {"text":"§6‖ ☼§4 टूर्नामेंट I-V के लिए लिया गया समय§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+#PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] {"text":"§6‖ ☼§4 Tempo gasto para o torneio I-V§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+
+
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"§6‖ ☼§4 锦标赛I-V§c用时§8:","color":"dark_red","extra":[{"score":{"name":"total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}

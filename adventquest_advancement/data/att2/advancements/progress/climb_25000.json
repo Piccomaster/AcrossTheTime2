@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ladder"
+        },
+        "title": {"translate":"att2.advancement.progress.title.climb_25000"},
+        "description": {"translate":"att2.advancement.progress.description.climb_25000"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/climb_1000",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+    },
+    "criteria": {
+        "climb_25000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

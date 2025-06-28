@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_scrap"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.painfull_memory"},
+        "description": {"translate":"att2.advancement.adventure.description.painfull_memory"},
+        "hidden":true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "painfull_memory": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

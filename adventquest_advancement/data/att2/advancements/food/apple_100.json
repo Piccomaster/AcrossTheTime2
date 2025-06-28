@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:apple"
+        },
+        "title": {"translate":"att2.advancement.food.title.apple_100"},
+        "description": {"translate":"att2.advancement.food.description.apple_100"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/apple_64",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 1000
+                },
+    "criteria": {
+            "apple_100": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

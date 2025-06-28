@@ -1,0 +1,140 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell1}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell2}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell3}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell4}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell5}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell6}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell7}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell8}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{Spell:spell10}"
+                    }
+                }
+            }
+        }
+    ]
+}

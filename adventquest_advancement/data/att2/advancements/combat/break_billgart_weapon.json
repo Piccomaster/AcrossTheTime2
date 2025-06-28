@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stone_sword"
+        },
+        "title": {"translate":"att2.advancement.combat.title.break_billgart_weapon"},
+        "description": {"translate":"att2.advancement.combat.description.break_billgart_weapon"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/break_weapon",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "break_billgart_weapon": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {"max": 2},
+                "item": {
+                    "items": [
+                    "minecraft:stone_sword",
+                    "minecraft:stone_pickaxe"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_billgart_weapon"
+        ]
+    ]
+}

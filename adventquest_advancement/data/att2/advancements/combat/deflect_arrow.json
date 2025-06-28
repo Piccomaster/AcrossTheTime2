@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shield"
+        },
+        "title": {"translate":"att2.advancement.combat.title.deflect_arrow"},
+        "description": {"translate":"用盾牌抵挡1只箭"}
+    },
+    "parent": "att2:combat/shield",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 75
+                },
+"criteria": {
+    "deflected_arrow": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+            "blocked": true,
+            "type": {
+              "direct_entity": {
+                "type": "#minecraft:arrows"
+              }
+            }
+          }
+      }
+    }
+  }
+}
+

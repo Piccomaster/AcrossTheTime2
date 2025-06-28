@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:rotten_flesh"
+        },
+        "title": {"translate":"att2.advancement.food.title.rotten_flesh_16"},
+        "description": {"translate":"att2.advancement.food.description.rotten_flesh_16"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/rotten_flesh_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "rotten_flesh_16": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

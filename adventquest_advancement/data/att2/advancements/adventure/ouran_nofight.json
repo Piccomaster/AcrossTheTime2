@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:sunflower"
+            },
+        "title": {"translate":"att2.advancement.adventure.title.ouran_nofight"},
+        "description": {"translate":"att2.advancement.adventure.description.ouran_nofight"},
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "experience": 50000
+    },
+    "criteria": {
+        "ouran_nofight": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

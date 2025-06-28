@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:feather"
+        },
+        "title": {"translate":"att2.advancement.journey.title.panorama_silberland_valley"},
+        "description": {"translate":"att2.advancement.journey.description.panorama_silberland_valley"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_volcano",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "panorama_silberland_valley": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

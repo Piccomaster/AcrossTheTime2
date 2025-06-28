@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:wolf ~ ~ ~ {Rotation:[-180.0f,0.0f],Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,attributes:[{id:attack_damage,base:0.0}],active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}],Passengers:[{id:"minecraft:zombified_piglin",UUID:[I;0,1642,0,1642],Tags:["PNJ"],Rotation:[-180.0f,0.0f],NoAI:1,Invulnerable:1,CustomName:"NOLDURON",CustomNameVisible:1,Silent:1,PersistenceRequired:1,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:iron_boots",count:1},legs:{id:"minecraft:iron_leggings",count:1},chest:{id:"minecraft:iron_chestplate",count:1},head:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;-1449597390,-934916985,-1895079813,1744769094],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRkZmQ4ZDExNjU5ZDE4ZWVkNzc3MDZhYzY3ZGUzNjQyM2JmOWE2MzRjZTM5NjAzYWZjOTRkMzA2YWU3In19fQ=="}]}}}}}]}

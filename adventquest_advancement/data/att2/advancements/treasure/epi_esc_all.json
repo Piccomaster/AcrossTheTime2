@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:quartz"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.epi_esc_all"},
+        "description": {"translate": "att2.advancement.treasure.description.epi_esc_all"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_75",
+            "experience": 50000
+    },
+    "criteria": {
+        "epi_esc_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

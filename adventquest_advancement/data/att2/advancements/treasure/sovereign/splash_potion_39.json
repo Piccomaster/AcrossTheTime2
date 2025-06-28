@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:16774058}"
+        },
+        "title": {"translate":"Anti-mortem"},
+        "description": {"translate":"Death in rout will not be able to face the ultimate enlightenment."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/potion_26",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "splash_potion_39": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

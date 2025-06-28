@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:recovery_compass"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.survive_1week"},
+        "description": {"translate":"att2.advancement.adventure.description.survive_1week"}
+    },
+    "parent": "att2:adventure/survive_1cycle",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "survive_1week": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

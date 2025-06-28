@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "att2.advancement.treasure.title.chainmail_chestplate_220"
+    },
+    "description": {
+      "translate": "att2.advancement.treasure.description.chainmail_chestplate_220"
+    },
+    "frame": "goal"
+  },
+  "parent": "att2:treasure/sovereign",
+  "rewards": {
+    "function": "att2:advancement/test_all/treasure/all_epi_esc",
+    "experience": 250
+  },
+  "criteria": {
+    "chainmail_chestplate_220": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_chestplate"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "220"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

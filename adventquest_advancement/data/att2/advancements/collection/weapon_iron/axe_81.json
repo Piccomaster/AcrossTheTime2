@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.axe_81"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.axe_81"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/axe_80",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "iron_axe_81": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "81"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

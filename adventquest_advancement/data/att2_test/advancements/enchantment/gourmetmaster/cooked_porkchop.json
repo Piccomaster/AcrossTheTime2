@@ -1,0 +1,29 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/enchantment/gourmetmaster/food/cooked_porkchop"
+  },
+  "criteria": {
+    "cooked_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cooked_porkchop"]
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "#minecraft:enchantable/head_armor",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "att2_enchantment:gourmetmaster"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

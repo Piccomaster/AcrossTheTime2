@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:target"
+        },
+        "title": {"translate":"boss_kill"},
+        "description": {"translate":"Triggered!"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:hunting/ted_master_timerecord",
+    "criteria": {
+        "ted1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{UUID:[I;0,572,0,572]}"
+                }
+            }
+        }
+    }
+}

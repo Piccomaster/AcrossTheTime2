@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "title": {"translate":"Haubert remarquable"},
+        "description": {"translate":"Protruding mesh weave, woven with the utmost skill."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "chainmail_chestplate_220": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

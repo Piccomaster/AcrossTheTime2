@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_boots"
+        },
+        "title": {"translate":"att2.advancement.progress.title.sprint_500000"},
+        "description": {"translate":"att2.advancement.progress.description.sprint_500000"}
+    },
+    "parent": "att2:progress/sprint_100000",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+    },
+    "criteria": {
+        "sprint_500000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

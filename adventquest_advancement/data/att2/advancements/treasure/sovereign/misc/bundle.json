@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bundle"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.bundle"},
+        "description": {"translate": "att2.advancement.treasure.description.bundle"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "experience": 777
+    },
+    "criteria": {
+        "bow_172": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:bundle"]
+                    }
+                ]
+            }
+        }
+    }
+}

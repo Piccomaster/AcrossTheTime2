@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:raw_iron"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.mining_tot_75"},
+        "description": {"translate": "att2.advancement.treasure.description.mining_tot_75"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mining_tot_25",
+        "rewards": {
+            "function": "att2:advancement/exploit_10",
+            "experience": 2500
+    },
+    "criteria": {
+        "mining_tot_75": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:target"
+        },
+        "title": {"translate":"boss_kill"},
+        "description": {"translate":"Triggered!"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:hunting/extratellur_master_timerecord",
+    "criteria": {
+        "extratellur1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden",
+                    "nbt": "{Tags:[\"EL1\"]}"
+                }
+            }
+        },
+        "extratellur2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden",
+                    "nbt": "{Tags:[\"EL2\"]}"
+                }
+            }
+        }
+    }
+}

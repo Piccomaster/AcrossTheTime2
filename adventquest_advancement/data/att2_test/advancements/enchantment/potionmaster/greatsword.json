@@ -1,0 +1,22 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/enchantment/greatsword/test"
+  },
+  "criteria": {
+    "use_lp": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:swords",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "att2_enchantment:greatsword"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

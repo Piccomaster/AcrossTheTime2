@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Unseen Chest Addict"},
+        "description": {"translate":"Open 400 Unseen Chests"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/lootchest_tier8_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 5000
+                },
+    "criteria": {
+        "lootchest_tier8_400": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

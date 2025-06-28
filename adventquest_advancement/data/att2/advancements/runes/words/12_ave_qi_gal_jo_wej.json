@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:miner_pottery_sherd"
+        },
+        "title": {"translate":"att2.advancement.runes.title.12_ave_qi_gal_jo_wej"},
+        "description": {"translate":"att2.advancement.runes.description.12_ave_qi_gal_jo_wej"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/words/11_lya_nym_fus_von",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:miner_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

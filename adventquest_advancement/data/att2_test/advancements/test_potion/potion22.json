@@ -1,0 +1,22 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/equipment/effect/po/has3_dar3_her_2_hun_1"
+    },
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "Potion": "22"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

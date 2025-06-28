@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:end_stone"
+        },
+        "title": {"translate":"att2.advancement.journey.title.discover_bilgart"},
+        "description": {"translate":"att2.advancement.journey.description.discover_bilgart"}
+    },
+    "parent": "att2:journey/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "discover_bilgart": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_end",
+                "position": {
+                    "x": {"min":-693.0,"max":-602.0},
+                    "y": {"min":60.0,"max":110.0},
+                    "z": {"min":-637.0,"max":-576.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

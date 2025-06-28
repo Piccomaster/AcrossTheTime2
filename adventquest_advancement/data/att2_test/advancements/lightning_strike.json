@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "test"
+    },
+    "description": {
+      "translate": "light"
+    },
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "att2:gameplay/pnj_talk/light_test"
+  },
+  "criteria": {
+    "light": {
+      "trigger": "minecraft:lightning_strike"
+    }
+  }
+}

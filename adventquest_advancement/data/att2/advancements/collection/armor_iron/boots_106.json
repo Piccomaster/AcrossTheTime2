@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.armor_iron.title.boots_106"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_iron.description.boots_106"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_iron/boots_105",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "iron_boots_106": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_boots"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "106"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

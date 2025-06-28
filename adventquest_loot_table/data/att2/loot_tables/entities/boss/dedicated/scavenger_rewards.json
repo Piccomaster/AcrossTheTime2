@@ -1,0 +1,93 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.025
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/bow_48"
+                },
+                {
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.025
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_pickaxe_314"
+                },
+                {
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.025
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/iron_helmet_127"
+                },
+                {
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.025
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/iron_chestplate_128"
+                }
+            ]
+        }
+    ]
+}
+

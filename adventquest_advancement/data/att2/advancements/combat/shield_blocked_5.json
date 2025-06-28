@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:arrow"
+        },
+        "title": {"translate":"att2.advancement.combat.title.shield_blocked_5"},
+        "description": {"translate":"att2.advancement.combat.description.shield_blocked_5"}
+    },
+    "parent": "att2:combat/deflect_arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "shield_blocked_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:rabbit_stew"
+        },
+        "title": {"translate":"att2.advancement.food.title.balanced_diet"},
+        "description": {"translate":"att2.advancement.food.description.balanced_diet"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/gastronomy",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 5000
+                },
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:apple"
+                    ]
+                }
+            }
+        },
+        "mushroom_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:mushroom_stew"
+                    ]
+                }
+            }
+        },
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:bread"
+                    ]
+                }
+            }
+        },
+        "cooked_porkchop": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cooked_porkchop"
+                    ]
+                }
+            }
+        },
+        "cooked_cod": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cooked_cod"
+                    ]
+                }
+            }
+        },
+        "cooked_salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cooked_salmon"
+                    ]
+                }
+            }
+        },
+        "melon_slice": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:melon_slice"
+                    ]
+                }
+            }
+        },
+        "cooked_beef": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cooked_beef"
+                    ]
+                }
+            }
+        },
+        "cooked_chicken": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cooked_chicken"
+                    ]
+                }
+            }
+        },
+        "cooked_rabbit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cooked_rabbit"
+                    ]
+                }
+            }
+        },
+        "cooked_mutton": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cooked_mutton"
+                    ]
+                }
+            }
+        },
+        "rotten_flesh": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:rotten_flesh"
+                    ]
+                }
+            }
+        },
+        "carrot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:carrot"
+                    ]
+                }
+            }
+        },
+        "baked_potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:baked_potato"
+                    ]
+                }
+            }
+        },
+        "pumpkin_pie": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:pumpkin_pie"
+                    ]
+                }
+            }
+        },
+        "beetroot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:beetroot"
+                    ]
+                }
+            }
+        },
+        "beetroot_soup": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:beetroot_soup"
+                    ]
+                }
+            }
+        },
+        "dried_kelp": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:dried_kelp"
+                    ]
+                }
+            }
+        }
+    }
+}

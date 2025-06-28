@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.leather_armor"},
+        "description": {"translate":"att2.advancement.adventure.description.leather_armor"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 25
+                },
+    "criteria": {
+        "leather_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "leather_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "leather_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "leather_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "leather_helmet",
+            "leather_chestplate",
+            "leather_leggings",
+            "leather_boots"
+        ]
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.shovel_310"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.shovel_310"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_netherite/shovel_303",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_shovel_310": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "weapon": "310"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

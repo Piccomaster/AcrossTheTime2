@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chest"
+        },
+        "title": {"translate":"C2 Tier 6 Trigger"},
+        "description": {"translate":"TEST"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "att2:advancement/test_all/treasure/chest/lootchest_c2/tier6"
+            },
+    "criteria": {
+        "lootchest_reg1c2t6_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c2t6"
+            }
+        },
+        "lootchest_reg2c2t6_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c2t6"
+            }
+        },
+        "lootchest_reg3c2t6_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c2t6"
+            }
+        },
+        "lootchest_reg4c2t6_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c2t6"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lootchest_reg1c2t6_trigger",
+            "lootchest_reg2c2t6_trigger",
+            "lootchest_reg3c2t6_trigger",
+            "lootchest_reg4c2t6_trigger"
+        ]
+    ]
+}

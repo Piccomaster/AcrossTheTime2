@@ -1,0 +1,11 @@
+##################################################
+
+#Made by Adventquest                             #
+
+#Summon zombie pigman class_12 region_2  		 #
+
+##################################################
+
+
+
+summon minecraft:zombified_piglin ~ ~ ~ {attributes:[{id:movement_speed,base:0.22}],Tags:["LVL0","CLASS12","Reg2","Undead"],AngerTime:1000000,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:golden_sword",count:1,components:{enchantments:{"minecraft:fire_aspect":2}}},offhand:{id:"minecraft:shield",count:1,components:{base_color:red,banner_patterns:[{pattern:curly_border,color:orange}]}},feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:9049620}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:9589788}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:9049620}},head:{id:"minecraft:leather_helmet",count:1,components:{dyed_color:9589788}}}}

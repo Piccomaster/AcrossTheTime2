@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:danger_pottery_sherd"
+        },
+        "title": {"translate":"att2.advancement.runes.title.6_ehl_hal_ra_ra"},
+        "description": {"translate":"att2.advancement.runes.description.6_ehl_hal_ra_ra"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/words/5_jo_fus_nym_da",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 5000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:danger_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

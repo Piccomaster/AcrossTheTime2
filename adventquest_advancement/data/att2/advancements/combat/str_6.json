@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:anvil"
+        },
+        "title": {"translate":"att2.advancement.combat.title.str_6"},
+        "description": {"translate":"att2.advancement.combat.description.str_6"}
+    },
+    "parent": "att2:combat/str_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+                },
+    "criteria": {
+        "str_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

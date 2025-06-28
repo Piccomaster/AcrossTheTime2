@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:experience_bottle"
+        },
+        "title": {"translate":"att2.advancement.progress.title.gamelevelmaster_100"},
+        "description": {"translate":"att2.advancement.progress.description.gamelevelmaster_100"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/gamelevelmaster_80",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 100000
+                },
+    "criteria": {
+        "gamelevelmaster_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

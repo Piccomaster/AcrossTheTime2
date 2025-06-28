@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "test"
+    },
+    "description": {
+      "translate": "block"
+    },
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "att2:gameplay/pnj_talk/engaged"
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager"
+        }
+      }
+    }
+  }
+}

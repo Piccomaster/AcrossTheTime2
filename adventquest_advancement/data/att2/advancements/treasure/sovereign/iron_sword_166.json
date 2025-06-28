@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Le patriarche"},
+        "description": {"translate":"Your spirit guides my life."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "iron_sword_166": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

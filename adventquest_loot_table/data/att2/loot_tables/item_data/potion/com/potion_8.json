@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "potion8.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "potion8.lore.1"
+                  },
+                  {
+                    "translate": "potion8.lore.2"
+                  },
+                  {
+                    "translate": "potion8.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "SPD": -2,
+                  "EquipmentType": "potion",
+                  "Rarity": "com",
+                  "Potion": "8"
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 5311231,
+                  "custom_effects": [
+                    {
+                      "amplifier":0,
+                      "duration":10000,
+                      "id":"night_vision",
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "max_stack_size":16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

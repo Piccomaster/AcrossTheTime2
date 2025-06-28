@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shield"
+        },
+        "title": {"translate":"att2.advancement.combat.title.damage_block_10000"},
+        "description": {"translate":"att2.advancement.combat.description.damage_block_10000"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/damage_block_2500",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2000
+                },
+    "criteria": {
+        "damage_block_10000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

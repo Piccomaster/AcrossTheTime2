@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:arms_up_pottery_sherd"
+        },
+        "title": {"translate":"att2.advancement.runes.title.2_nym_ehl_ust"},
+        "description": {"translate":"att2.advancement.runes.description.2_nym_ehl_ust"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/words/1_fus_ra_jo",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:arms_up_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

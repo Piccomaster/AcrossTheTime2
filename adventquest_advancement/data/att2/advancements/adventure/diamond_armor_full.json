@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.diamond_armor_full"},
+        "description": {"translate":"att2.advancement.adventure.description.diamond_armor_full"}
+    },
+    "parent": "att2:adventure/diamond_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "diamond_armor_full": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

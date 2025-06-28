@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book"
+        },
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p6"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p6"
+        },
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/alchimancy_p5",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
+    "criteria": {
+        "fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Le revenant - Partie 6"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7The ghost - Part 6"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7幽魂 - Part 6"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fe",
+            "eg",
+            "ch"
+        ]
+    ]
+}

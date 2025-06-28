@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "title": {"translate":"Master grinder"},
+        "description": {"translate":"Grind for a total of 500 runic powders."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/runicpowder_100",
+        "rewards": {
+            "function": "att2:advancement/exploit_20",
+            "experience": 5000
+    },
+    "criteria": {
+        "runicpowder_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

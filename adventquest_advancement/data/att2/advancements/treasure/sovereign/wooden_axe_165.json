@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_axe"
+        },
+        "title": {"translate":"Couperet sanglant"},
+        "description": {"translate":"Blood calls blood!"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "wooden_axe_165": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

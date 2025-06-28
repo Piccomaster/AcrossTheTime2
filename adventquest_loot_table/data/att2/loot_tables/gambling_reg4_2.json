@@ -1,0 +1,204 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 4,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:light_blue_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.5
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Rarity:\"reg4_c3\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cyan_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.1
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Rarity:\"reg4_c4\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pink_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.05
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Rarity:\"reg4_c5\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:magenta_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Rarity:\"reg4_c6\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:purple_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.005
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Rarity:\"reg4_c7\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:yellow_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.001
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Rarity:\"reg4_c8\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:orange_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0005
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Rarity:\"reg4_c9\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:red_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0001
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Rarity:\"reg4_c10\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

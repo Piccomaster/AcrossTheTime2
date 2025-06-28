@@ -1,0 +1,666 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:elytra"
+        },
+        "title": {"translate":"att2.advancement.journey.title.the_voyager"},
+        "description": {"translate":"att2.advancement.journey.description.the_voyager"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "discover_ryliath": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5036.0,"max":-5024.0},
+                    "y": {"min":60.0,"max":90.0},
+                    "z": {"min":-5059.0,"max":-5053.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_worlest": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5244.0,"max":-5238.0},
+                    "y": {"min":70.0,"max":75.0},
+                    "z": {"min":-5408.0,"max":-5388.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_worlest_mine": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4618.0,"max":-4563.0},
+                    "y": {"min":65.0,"max":80.0},
+                    "z": {"min":-5210.0,"max":-5139.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_vonaheim": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5646.0,"max":-5563.0},
+                    "y": {"min":70.0,"max":150.0},
+                    "z": {"min":-6268.0,"max":-6191.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_volcano": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5546.0,"max":-5386.0},
+                    "y": {"min":60.0,"max":150.0},
+                    "z": {"min":-5572.0,"max":-5045.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_tears_forest": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4555.0,"max":-4323.0},
+                    "y": {"min":60.0,"max":130.0},
+                    "z": {"min":-5835.0,"max":-5100.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_soquai": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5113.0,"max":-4747.0},
+                    "y": {"min":70.0,"max":120.0},
+                    "z": {"min":-5600.0,"max":-5513.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_sathnok": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5970.0,"max":-5895.0},
+                    "y": {"min":70.0,"max":140.0},
+                    "z": {"min":-4800.0,"max":-4700.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_plain": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "biome": "minecraft:plains",
+                "position": {
+                    "x": {"min":-4500.0,"max":-4200.0},
+                    "y": {"min":60.0,"max":120.0},
+                    "z": {"min":-5770.0,"max":-5480.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_phoenix": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3868.0,"max":3883.0},
+                    "y": {"min":30.0,"max":100.0},
+                    "z": {"min":3880.0,"max":3908.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_owsastr": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4750.0,"max":-4451.0},
+                    "y": {"min":65.0,"max":100.0},
+                    "z": {"min":-4721.0,"max":-4420.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_ouranos": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":6950.0,"max":7050.0},
+                    "y": {"min":60.0,"max":200.0},
+                    "z": {"min":6950.0,"max":7050.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_nojelanth_past": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-7400.0,"max":-7352.0},
+                    "y": {"min":70.0,"max":130.0},
+                    "z": {"min":-4570.0,"max":-4505.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_nojelanth_present": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5900.0,"max":-5852.0},
+                    "y": {"min":70.0,"max":130.0},
+                    "z": {"min":-4570.0,"max":-4505.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_mornith": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4227.0,"max":-4165.0},
+                    "y": {"min":70.0,"max":100.0},
+                    "z": {"min":-5976.0,"max":-5961.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_meleim": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-3827.0,"max":-3801.0},
+                    "y": {"min":65.0,"max":110.0},
+                    "z": {"min":-5834.0,"max":-5792.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_mangrove": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4374.0,"max":-4164.0},
+                    "y": {"min":60.0,"max":120.0},
+                    "z": {"min":-4895.0,"max":-4544.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_kortaek": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5536.0,"max":-5388.0},
+                    "y": {"min":30.0,"max":150.0},
+                    "z": {"min":-4805.0,"max":-4606.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_kert": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5550.0,"max":-5484.0},
+                    "y": {"min":70.0,"max":100.0},
+                    "z": {"min":-5050.0,"max":-5000.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_kert_mine": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5382.0,"max":-5328.0},
+                    "y": {"min":50.0,"max":160.0},
+                    "z": {"min":-4525.0,"max":-4342.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_island": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4125.0,"max":-3949.0},
+                    "y": {"min":42.0,"max":130.0},
+                    "z": {"min":-4445.0,"max":-4248.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_jarat": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4657.0,"max":-4610.0},
+                    "y": {"min":76.0,"max":82.0},
+                    "z": {"min":-5413.0,"max":-5405.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_exiles": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3506.0,"max":3533.0},
+                    "y": {"min":20.0,"max":100.0},
+                    "z": {"min":3762.0,"max":3786.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_eolorion": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5346.0,"max":-5230.0},
+                    "y": {"min":50.0,"max":150.0},
+                    "z": {"min":-6125.0,"max":-6073.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_eol": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5355.0,"max":-5170.0},
+                    "y": {"min":70.0,"max":170.0},
+                    "z": {"min":-5895.0,"max":-5580.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_elvetta": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "biome": "birch_forest",
+                "position": {
+                    "x": {"min":-4200.0,"max":-4025.0},
+                    "y": {"min":60.0,"max":130.0},
+                    "z": {"min":-5760.0,"max":-5445.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_earndhel": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":29960.0,"max":29970.0},
+                    "y": {"min":70.0,"max":100.0},
+                    "z": {"min":29962.0,"max":29970.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_corruption_source": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3764.0,"max":3834.0},
+                    "y": {"min":30.0,"max":100.0},
+                    "z": {"min":4694.0,"max":4714.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_black_forest": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4700.0,"max":-3900.0},
+                    "y": {"min":70.0,"max":150.0},
+                    "z": {"min":-6050.0,"max":-5800.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_bilgart": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_end",
+                "position": {
+                    "x": {"min":-693.0,"max":-602.0},
+                    "y": {"min":60.0,"max":110.0},
+                    "z": {"min":-637.0,"max":-576.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_bilgart_dungeon": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_end",
+                "position": {
+                    "x": {"min":-1114.0,"max":-1080.0},
+                    "y": {"min":10.0,"max":30.0},
+                    "z": {"min":-631.0,"max":-592.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_beach": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "biome": "minecraft:beach",
+                "position": {
+                    "x": {"min":-4180.0,"max":-3940.0},
+                    "y": {"min":60.0,"max":120.0},
+                    "z": {"min":-5330.0,"max":-4860.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_asunark": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-3700.0,"max":-3680.0},
+                    "y": {"min":65.0,"max":100.0},
+                    "z": {"min":-5020.0,"max":-4975.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_angband": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3745.0,"max":3765.0},
+                    "y": {"min":80.0,"max":95.0},
+                    "z": {"min":3745.0,"max":3775.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_angor": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3526.0,"max":3586.0},
+                    "y": {"min":30.0,"max":100.0},
+                    "z": {"min":4099.0,"max":4118.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_angor_palace": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3510.0,"max":3546.0},
+                    "y": {"min":30.0,"max":50.0},
+                    "z": {"min":4476.0,"max":4484.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_adanoi": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4014.0,"max":-3896.0},
+                    "y": {"min":70.0,"max":100.0},
+                    "z": {"min":-5672.0,"max":-5583.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_secret_dungeon": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4270.0,"max":-4266.0},
+                    "y": {"min":94.0,"max":98.0},
+                    "z": {"min":-6200.0,"max":-6196.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

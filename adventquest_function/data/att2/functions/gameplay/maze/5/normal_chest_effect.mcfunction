@@ -1,0 +1,66 @@
+#####################################################
+#Made by Adventquest                                #
+#effects chest maze 5			                    #
+#####################################################
+
+execute positioned -9777 71 -10082 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9789 71 -10054 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9865 71 -10046 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9817 71 -10030 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9857 71 -10010 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9885 71 -10062 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9881 71 -9966 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9897 71 -9990 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9913 71 -10006 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9897 71 -10038 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9865 71 -10082 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9913 71 -10078 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9917 71 -10070 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9909 71 -10034 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9929 71 -9998 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9917 71 -9958 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9905 71 -9942 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9877 71 -9918 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9849 71 -9918 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9853 71 -9902 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9933 71 -9882 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9897 71 -9882 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9837 71 -9930 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9773 71 -9902 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9825 71 -9894 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9761 71 -9918 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9741 71 -9918 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9773 71 -9894 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9701 71 -9902 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9753 71 -9946 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9797 71 -9946 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9801 71 -9962 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9757 71 -9978 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9717 71 -9966 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9725 71 -9998 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9825 71 -9922 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9773 71 -9926 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9849 71 -9938 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9805 71 -9998 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9797 71 -10022 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9729 71 -10018 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9717 71 -10034 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9769 71 -9990 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9769 71 -10054 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9749 71 -10030 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9745 71 -10050 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9757 71 -10070 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9709 71 -10082 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9701 71 -10034 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9737 71 -10062 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9785 71 -10066 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9813 71 -10066 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9805 71 -9978 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9881 71 -9954 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9849 71 -9974 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9825 71 -10002 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9825 71 -10018 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9873 71 -9970 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9881 71 -10002 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9857 71 -10018 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5
+execute positioned -9717 71 -9938 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/5

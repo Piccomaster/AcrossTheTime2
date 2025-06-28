@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "weapon202.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "weapon202.lore.1"
+                  },
+                  {
+                    "translate": "weapon202.lore.2"
+                  },
+                  {
+                    "translate": "weapon202.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "meleeWeapon",
+                  "Rarity": "unc",
+                  "Manufacturer": "graceful",
+                  "HAS": 1,
+                  "HUN": -1,
+                  "Weapon": "202"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:attack_damage",
+                    "amount": 2.19,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:attack_speed",
+                    "amount": -0.71,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "minecraft:max_health",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:damage": 48,
+                "minecraft:max_damage": 140
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

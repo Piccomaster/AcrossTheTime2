@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:honey_block"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.honey_block_slide"},
+        "description": {"translate":"att2.advancement.adventure.description.honey_block_slide"}
+    },
+    "parent": "att2:adventure/tarzan",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+                },
+                "criteria": {
+                  "honey_block_slide": {
+                    "trigger": "minecraft:slide_down_block",
+                    "conditions": {
+                      "block": "minecraft:honey_block"
+                    }
+                }
+            },
+        "requirements": [
+            [
+            "honey_block_slide"
+        ]
+    ]
+}

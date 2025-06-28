@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_shovel"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.shovel_132"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.shovel_132"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "golden_shovel_132": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_shovel"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "132"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

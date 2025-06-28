@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "title": {"translate":"att2.advancement.quest.title.sq16"},
+        "description": {"translate":"att2.advancement.quest.description.sq16"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_completion_10"
+    },
+    "criteria": {
+        "sq16": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

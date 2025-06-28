@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "weapon167.name"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "weapon167.lore.1"
+                  },
+                  {
+                    "translate": "weapon167.lore.2"
+                  },
+                  {
+                    "translate": "weapon167.stat"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "EquipmentType": "meleeWeapon",
+                  "Rarity": "com",
+                  "Manufacturer": "traditional",
+                  "SPD": 3,
+                  "LUC": 1,
+                  "Weapon": "167"
+                },
+                "minecraft:enchantments": {
+                  "unbreaking": 3
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:attack_damage",
+                    "amount": 6.99,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:attack_speed",
+                    "amount": -0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 260
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:structure_void"
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.boss_killed_1"},
+        "description": {"translate":"att2.advancement.mobskilled.description.boss_killed_1"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 500
+    },
+    "criteria": {
+        "boss_killed_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

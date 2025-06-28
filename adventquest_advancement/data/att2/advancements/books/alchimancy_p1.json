@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book"
+        },
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p1"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p1"
+        },
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/root",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
+    "criteria": {
+        "fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Introduction - Partie 1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Introduction - Part 1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7引言 - Part 1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fe",
+            "eg",
+            "ch"
+        ]
+    ]
+}

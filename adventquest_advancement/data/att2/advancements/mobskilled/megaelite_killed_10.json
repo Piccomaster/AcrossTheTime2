@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:target"
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.megaelite_killed_10"},
+        "description": {"translate":"att2.advancement.mobskilled.description.megaelite_killed_10"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/megaelite_killed_3",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 2500
+    },
+    "criteria": {
+        "megaelite_killed_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

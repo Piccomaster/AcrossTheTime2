@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            10000001
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.runes.title.0_gal"
+    },
+    "description": {
+      "translate": "att2.advancement.runes.description.0_gal"
+    }
+  },
+  "parent": "att2:runes/root",
+  "rewards": {
+    "function": "att2:advancement/test_all/runes/0_gal",
+    "experience": 1100
+  },
+  "criteria": {
+    "collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Runelvl": "0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

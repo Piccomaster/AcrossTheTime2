@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_helmet"
+        },
+        "title": {"translate":"Interprétation divine"},
+        "description": {"translate":"All the ignorant have faith in the immutability of Tellurön, because they don't know anything about the flows that roar below the surface."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/diamond_helmet_215",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "netherite_helmet_307": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

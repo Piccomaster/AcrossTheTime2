@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_253 as tellraw          #
+#####################################
+
+tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "weapon253.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:crossbow","count": 1,"components": {"minecraft:custom_name":{"translate":"weapon253.name"},"minecraft:lore":[{"translate":"weapon253.lore.1"},{"translate":"weapon253.lore.2"},{"translate":"weapon253.stat"}],"minecraft:custom_data":{"EquipmentType":"rangeWeapon","Rarity":"leg","Manufacturer":"traditional","Shop":"buy","STR":"4","DAR":"2","HUN":"1","Weapon":"253"},"minecraft:enchantments":{"power":10,"piercing":1},"minecraft:damage":30,"minecraft:max_damage":460}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/leg/crossbow_253"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "weapon253","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

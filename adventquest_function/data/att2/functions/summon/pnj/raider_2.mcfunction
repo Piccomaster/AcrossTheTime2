@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombified_piglin ~ ~ ~ {Rotation:[-90.0f,0.0f],UUID:[I;0,4458,0,4458],NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:stone_shovel",count:1},offhand:{},feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:5853242}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:5853242}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:5853242}},head:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;84760904,71779690,-2038563725,-2059125781],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ5ODQ0MmJlMTNhNjRlMjFlZmFmMWQzMTYzZDY3MGU4ZWYzZGM2MWY3MzBlNzliZjNlZDk3NTYyMWIifX19"}]}}}}}

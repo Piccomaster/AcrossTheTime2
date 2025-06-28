@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_18 as tellraw          #
+#####################################
+
+tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "potion18.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:potion","count": 1,"components": {"minecraft:custom_name":{"translate":"potion18.name"},"minecraft:lore":[{"translate":"potion18.lore.1"},{"translate":"potion18.lore.2"},{"translate":"potion18.stat"}],"minecraft:custom_data":{"HER":"1","DAR":"1","HUN":"1","SPD":"-3","EquipmentType":"potion","Rarity":"unc","Shop":"buy","Potion":"18"},"minecraft:potion_contents":{"custom_color":8881843},"max_stack_size":16}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/unc/potion_18"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "potion18","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

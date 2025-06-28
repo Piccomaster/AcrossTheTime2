@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:birch_hanging_sign"
+        },
+        "title": {"translate":"att2.advancement.challenge.title.maze_2"},
+        "description": {"translate":"att2.advancement.challenge.description.maze_2"}
+    },
+    "parent": "att2:challenge/maze_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 10000
+                },
+    "criteria": {
+        "maze_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

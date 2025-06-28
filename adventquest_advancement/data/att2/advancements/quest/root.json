@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "title": {"translate":"att2.advancement.quest.title.root"},
+        "description": {"translate":"att2.advancement.quest.description.root"},
+        "background": "minecraft:block/brain_coral_block",
+        "show_toast": false
+    },
+    "criteria": {
+        "quest": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:anvil"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.mending_1"},
+        "description": {"translate": "att2.advancement.treasure.description.mending_1"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_1",
+            "experience": 100
+    },
+    "criteria": {
+        "mending_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

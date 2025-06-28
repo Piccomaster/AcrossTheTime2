@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_sword",
+            "nbt": "{CustomModelData:10000007}"
+        },
+        "title": {"translate": "att2.advancement.collection.mythique.title.blutfresser"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.blutfresser"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/blutfresser",
+        "experience": 5000
+                },
+    "criteria": {
+        "blutfresser": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

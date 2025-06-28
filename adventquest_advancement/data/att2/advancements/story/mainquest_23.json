@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "title": {"translate":"att2.advancement.story.title.mainquest_23"},
+        "description": {"translate":"att2.advancement.story.description.mainquest_23"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_22",
+    "rewards": {
+        "function": "att2:advancement/exploit_completion_5",
+        "experience": 5000
+    },
+    "criteria": {
+        "mainquest_23": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

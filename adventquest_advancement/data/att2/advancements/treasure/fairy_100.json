@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "title": {"translate":"Exorcist"},
+        "description": {"translate":"Catch 100 Lost Souls"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/fairy_50",
+        "rewards": {
+            "function": "att2:advancement/exploit_50",
+            "experience": 25000
+    },
+    "criteria": {
+        "fairy_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

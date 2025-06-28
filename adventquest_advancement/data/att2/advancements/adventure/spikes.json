@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:purple_carpet"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.spikes"},
+        "description": {"translate":"att2.advancement.adventure.description.spikes"}
+    },
+    "parent": "att2:adventure/spider_man",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "enter_spikes": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:purple_carpet"
+            }
+        }
+    }
+}

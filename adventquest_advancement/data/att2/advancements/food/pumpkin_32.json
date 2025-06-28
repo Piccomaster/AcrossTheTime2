@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:pumpkin_pie"
+        },
+        "title": {"translate":"att2.advancement.food.title.pumpkin_32"},
+        "description": {"translate":"att2.advancement.food.description.pumpkin_32"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/pumpkin_8",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+            "pumpkin_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

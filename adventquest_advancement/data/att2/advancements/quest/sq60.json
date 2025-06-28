@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "title": {"translate":"att2.advancement.quest.title.sq60"},
+        "description": {"translate":"att2.advancement.quest.description.sq60"},
+        "frame": "challenge"
+    },
+    "parent": "att2:quest/root",
+    "rewards": {
+        "function": "att2:advancement/completion_1"
+    },
+    "criteria": {
+        "sq60": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

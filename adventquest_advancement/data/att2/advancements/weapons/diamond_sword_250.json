@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_sword"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.diamond_sword_250"},
+        "description": {"translate": "att2.advancement.weapons.description.diamond_sword_250"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/diamond_sword_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "diamond_sword_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

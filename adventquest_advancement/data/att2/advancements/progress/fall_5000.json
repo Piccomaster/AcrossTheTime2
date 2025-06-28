@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ghast_tear"
+        },
+        "title": {"translate":"att2.advancement.progress.title.fall_5000"},
+        "description": {"translate":"att2.advancement.progress.description.fall_5000"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+    },
+    "criteria": {
+        "fall_5000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

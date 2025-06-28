@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "title": {"translate":"Eternän grinder"},
+        "description": {"translate":"Grind for a total of 5000 runic powders."},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/runicpowder_2500",
+        "rewards": {
+            "function": "att2:advancement/exploit_50",
+            "experience": 25000
+    },
+    "criteria": {
+        "runicpowder_5000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

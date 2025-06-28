@@ -1,0 +1,161 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/equipment/weapon/ham/NONONO"
+  },
+  "criteria": {
+    "wooden_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_pickaxe"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:stone_pickaxe"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:iron_pickaxe"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:golden_pickaxe"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond_pickaxe"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "netherite_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:netherite_pickaxe"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_pickaxe",
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "golden_pickaxe",
+      "diamond_pickaxe",
+      "netherite_pickaxe"
+    ]
+  ]
+}

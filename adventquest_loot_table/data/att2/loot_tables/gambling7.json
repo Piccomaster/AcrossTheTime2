@@ -1,0 +1,84 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:brown_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.2
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_data":{"Rarity":"c11"}}
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:green_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.15
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_data":{"Rarity":"c12"}}
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:white_dye",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.1
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_data":{"Rarity":"c13"}}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

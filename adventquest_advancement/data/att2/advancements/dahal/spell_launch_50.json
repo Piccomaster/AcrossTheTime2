@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanting_table"
+        },
+        "title": {"translate":"att2.advancement.dahal.title.spell_launch_50"},
+        "description": {"translate":"att2.advancement.dahal.description.spell_launch_50"},
+        "frame": "goal"
+    },
+    "parent": "att2:dahal/spell_launch_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "spell_launch_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

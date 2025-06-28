@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"att2.advancement.journey.title.discover_kert_mine"},
+        "description": {"translate":"att2.advancement.journey.description.discover_kert_mine"}
+    },
+    "parent": "att2:journey/discover_sathnok",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "discover_kert_mine": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5382.0,"max":-5328.0},
+                    "y": {"min":50.0,"max":160.0},
+                    "z": {"min":-4525.0,"max":-4342.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/fishing/trigger"
+  },
+  "criteria": {
+    "fishing_trigger": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "rod": {
+          "items": "minecraft:fishing_rod",
+          "predicates": {
+            "minecraft:custom_data": {
+              "rod": "fish"
+            }
+          }
+        }
+      }
+    }
+  }
+}

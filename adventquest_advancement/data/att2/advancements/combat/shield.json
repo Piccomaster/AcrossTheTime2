@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shield"
+        },
+        "title": {"translate":"att2.advancement.combat.title.shield"},
+        "description": {"translate":"att2.advancement.combat.description.shield"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 25
+                },
+    "criteria": {
+        "shield": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    { 
+                    "items": [
+                        "minecraft:shield"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

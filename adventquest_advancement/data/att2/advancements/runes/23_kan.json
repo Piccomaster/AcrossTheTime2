@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            10000024
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.runes.title.23_kan"
+    },
+    "description": {
+      "translate": "att2.advancement.runes.description.23_kan"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:runes/22_yog",
+  "rewards": {
+    "function": "att2:advancement/test_all/runes/23_kan",
+    "experience": 3600
+  },
+  "criteria": {
+    "collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Runelvl": "23"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

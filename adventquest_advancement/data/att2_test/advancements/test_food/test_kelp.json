@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cake"
+        },
+        "title": {"translate":"test"},
+        "description": {"translate":"dried_kelp"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "att2:advancement/test_all/food/kelp"
+    },
+    "criteria": {
+        "dried_kelp": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:dried_kelp"
+                    ]
+                }
+            }
+        }
+    }
+}

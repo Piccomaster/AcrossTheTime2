@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_elvetta"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_elvetta"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_elvetta",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "checkpoint_elvetta": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

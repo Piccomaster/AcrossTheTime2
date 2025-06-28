@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.armor_diamond.title.leggings_172"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_diamond.description.leggings_172"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_diamond",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "diamond_leggings_172": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "172"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

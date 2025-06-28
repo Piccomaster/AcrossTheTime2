@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cooked_beef"
+        },
+        "title": {"translate":"att2.advancement.food.title.beef_16"},
+        "description": {"translate":"att2.advancement.food.description.beef_16"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/beef_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+            "beef_16": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

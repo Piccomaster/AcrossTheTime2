@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:quartz"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.esc_25"},
+        "description": {"translate": "att2.advancement.treasure.description.esc_25"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/esc_10",
+        "rewards": {
+            "function": "att2:advancement/exploit_20",
+            "experience": 5000
+    },
+    "criteria": {
+        "esc_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

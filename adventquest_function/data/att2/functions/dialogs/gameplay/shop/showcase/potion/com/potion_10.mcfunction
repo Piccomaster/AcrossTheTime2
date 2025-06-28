@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_10 as tellraw          #
+#####################################
+
+tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "potion10.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:potion","count": 1,"components": {"minecraft:custom_name":{"translate":"potion10.name"},"minecraft:lore":[{"translate":"potion10.lore.1"},{"translate":"potion10.lore.2"},{"translate":"potion10.stat"}],"minecraft:custom_data":{"DAR":"1","SPD":"-3","EquipmentType":"potion","Rarity":"com","Shop":"buy","Potion":"10"},"minecraft:potion_contents":{"custom_color":12028367},"max_stack_size":16}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/com/potion_10"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "potion10","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

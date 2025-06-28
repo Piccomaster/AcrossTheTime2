@@ -1,0 +1,437 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:arrow"
+        },
+        "title": {"translate":"att2.advancement.combat.title.legolas_is_a_noob"},
+        "description": {"translate":"att2.advancement.combat.description.legolas_is_a_noob"},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/hunter",
+    "rewards": {
+        "function": "att2:advancement/exploit_75",
+        "experience": 50000
+                },
+    "criteria": {
+        "minecraft:polar_bear": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:polar_bear"
+                }
+            }
+        },
+        "minecraft:wolf": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:wolf"
+                }
+            }
+        },
+        "minecraft:cave_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:cave_spider"
+                }
+            }
+        },
+        "minecraft:spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:spider"
+                }
+            }
+        },
+        "minecraft:zombified_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                }
+            }
+        },
+        "minecraft:zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:zombie"
+                }
+            }
+        },
+        "minecraft:blaze": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:blaze"
+                }
+            }
+        },
+        "minecraft:iron_golem": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        },
+        "minecraft:creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:creeper"
+                }
+            }
+        },
+        "minecraft:evoker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:evoker"
+                }
+            }
+        },
+        "minecraft:guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:guardian"
+                }
+            }
+        },
+        "minecraft:elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        },
+        "minecraft:ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:ghast"
+                }
+            }
+        },
+        "minecraft:husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:husk"
+                }
+            }
+        },
+        "minecraft:magma_cube": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:magma_cube"
+                }
+            }
+        },
+        "minecraft:shulker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:shulker"
+                }
+            }
+        },
+        "minecraft:silverfish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:silverfish"
+                }
+            }
+        },
+        "minecraft:skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:skeleton"
+                }
+            }
+        },
+        "minecraft:wither_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:wither_skeleton"
+                }
+            }
+        },
+        "minecraft:stray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:stray"
+                }
+            }
+        },
+        "minecraft:slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:slime"
+                }
+            }
+        },
+        "minecraft:vindicator": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:vindicator"
+                }
+            }
+        },
+        "minecraft:vex": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:vex"
+                }
+            }
+        },
+        "minecraft:witch": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:witch"
+                }
+            }
+        },
+        "minecraft:phantom": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:phantom"
+                }
+            }
+        },
+        "minecraft:pillager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:pillager"
+                }
+            }
+        },
+        "minecraft:hoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:hoglin"
+                }
+            }
+        },
+        "minecraft:bee": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:bee"
+                }
+            }
+        },
+        "minecraft:ravager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:ravager"
+                }
+            }
+        },
+        "minecraft:drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:drowned"
+                }
+            }
+        }
+    }
+}

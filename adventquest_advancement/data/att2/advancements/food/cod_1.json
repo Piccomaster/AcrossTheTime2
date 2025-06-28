@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cooked_cod"
+        },
+        "title": {"translate":"att2.advancement.food.title.cod_1"},
+        "description": {"translate":"att2.advancement.food.description.cod_1"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "cod_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

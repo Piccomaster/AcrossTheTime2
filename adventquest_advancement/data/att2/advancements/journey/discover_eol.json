@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"att2.advancement.journey.title.discover_eol"},
+        "description": {"translate":"att2.advancement.journey.description.discover_eol"}
+    },
+    "parent": "att2:journey/discover_soquai",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "discover_eol": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5355.0,"max":-5170.0},
+                    "y": {"min":70.0,"max":170.0},
+                    "z": {"min":-5895.0,"max":-5580.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

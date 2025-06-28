@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"att2.advancement.combat.title.luc_2"},
+        "description": {"translate":"att2.advancement.combat.description.luc_2"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "luc_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

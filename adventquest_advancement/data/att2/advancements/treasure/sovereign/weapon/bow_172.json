@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "att2.advancement.treasure.title.bow_172"
+    },
+    "description": {
+      "translate": "att2.advancement.treasure.description.bow_172"
+    },
+    "frame": "goal"
+  },
+  "parent": "att2:treasure/sovereign",
+  "rewards": {
+    "function": "att2:advancement/test_all/treasure/all_epi_esc",
+    "experience": 250
+  },
+  "criteria": {
+    "bow_172": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "172"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

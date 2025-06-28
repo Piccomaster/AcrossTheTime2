@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shield"
+        },
+        "title": {"translate":"att2.advancement.combat.title.shield_blocked_25"},
+        "description": {"translate":"att2.advancement.combat.description.shield_blocked_25"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/shield_blocked_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "shield_blocked_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

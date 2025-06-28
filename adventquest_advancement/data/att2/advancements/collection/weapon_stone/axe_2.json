@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.axe_2"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.axe_2"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_stone/axe_1",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "wooden_axe_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_axe"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "2"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Dernière ombre"},
+        "description": {"translate":"Sometimes your life boils down to one insane move."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/bow_172",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "bow_173": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

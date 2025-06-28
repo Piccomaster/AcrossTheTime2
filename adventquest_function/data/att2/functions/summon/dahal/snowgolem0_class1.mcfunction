@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon snowgolem class_1 by invocation		     #
+##################################################
+
+summon minecraft:snow_golem ~ ~ ~ {DeathLootTable:"att2:empty",Tags:["LVL0","CLASS1","PlayerAlly","NewInvo","Spell24"],NoAI:1,Invulnerable:1,attributes:[{id:movement_speed,base:0.0},{id:follow_range,base:50.0}],active_effects:[{id:fire_resistance,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}

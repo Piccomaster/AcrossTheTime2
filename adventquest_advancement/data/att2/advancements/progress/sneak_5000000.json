@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_boots"
+        },
+        "title": {"translate":"att2.advancement.progress.title.sneak_5000000"},
+        "description": {"translate":"att2.advancement.progress.description.sneak_5000000"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/sneak_1000000",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+    },
+    "criteria": {
+        "sneak_5000000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

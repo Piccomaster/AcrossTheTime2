@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_shovel"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.golden_dagger_50"},
+        "description": {"translate": "att2.advancement.weapons.description.golden_dagger_50"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/golden_dagger_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "golden_dagger_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

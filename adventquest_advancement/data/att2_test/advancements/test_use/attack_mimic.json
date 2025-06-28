@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "player_attacked_mimic": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "slime",
+          "nbt": "{Tags:['MIMIC']}"
+        },        
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "att2:gameplay/enveffect/mimic/trigger_attack"
+  }
+}

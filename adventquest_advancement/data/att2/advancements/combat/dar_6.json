@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:potion"
+        },
+        "title": {"translate":"att2.advancement.combat.title.dar_6"},
+        "description": {"translate":"解放自我"}
+    },
+    "parent": "att2:combat/dar_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "dar_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

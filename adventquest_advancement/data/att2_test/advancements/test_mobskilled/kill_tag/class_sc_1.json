@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:target"
+        },
+        "title": {"translate":"Kill class ->xp"},
+        "description": {"translate":"Triggered!"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "att2:gameplay/leveling/monster/loot/kill_test/kill_1"
+    },
+    "criteria": {
+        "CLASS_SC_1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"CLASS_SC_1\"]}"
+                }
+            }
+        }
+    }
+}

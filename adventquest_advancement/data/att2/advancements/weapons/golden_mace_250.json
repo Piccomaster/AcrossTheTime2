@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_pickaxe"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.golden_mace_250"},
+        "description": {"translate": "att2.advancement.weapons.description.golden_mace_250"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/golden_mace_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "golden_mace_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

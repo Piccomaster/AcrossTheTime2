@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:mourner_pottery_sherd"
+        },
+        "title": {"translate":"att2.advancement.runes.title.13_tha_bex_for"},
+        "description": {"translate":"att2.advancement.runes.description.13_tha_bex_for"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/words/12_ave_qi_gal_jo_wej",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:mourner_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

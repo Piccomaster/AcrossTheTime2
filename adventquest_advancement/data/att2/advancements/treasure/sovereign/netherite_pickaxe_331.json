@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "title": {"translate":"Onde de choc"},
+        "description": {"translate":"Its blows come down with enough strength to pulverize the hardest of rocks."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/diamond_pickaxe_169",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "netherite_pickaxe_331": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"att2.advancement.combat.title.damage_taken"},
+        "description": {"translate":"承受1点伤害"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 1
+                },
+    "criteria": {
+        "damage_taken": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

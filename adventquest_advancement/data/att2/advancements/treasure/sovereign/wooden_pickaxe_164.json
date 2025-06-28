@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Antisocial"},
+        "description": {"translate":"Crushing people becomes a hobby."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "wooden_pickaxe_164": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

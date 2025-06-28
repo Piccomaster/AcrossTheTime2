@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"att2.advancement.dahal.title.spell43_lvl10"},
+        "description": {"translate":"att2.advancement.dahal.description.spell43_lvl10"},
+        "frame": "challenge"
+    },
+    "parent": "att2:dahal/spell43_lvl5",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 10000
+                },
+    "criteria": {
+        "spell43_lvl10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

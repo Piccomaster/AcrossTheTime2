@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Space teleportation Master"},
+        "description": {"translate":"Reach level 5 with Space teleportation spell"},
+        "frame": "challenge"
+    },
+    "parent": "att2:dahal/spell32_lvl4",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 10000
+                },
+    "criteria": {
+        "spell32_lvl6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

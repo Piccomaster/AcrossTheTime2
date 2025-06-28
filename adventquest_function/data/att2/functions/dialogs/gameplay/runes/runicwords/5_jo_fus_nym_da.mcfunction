@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+tellraw @a {"text":"⚙ ","bold":true,"color":"dark_red","extra":[{"text":"<","color":"dark_green","bold":false},{"translate":"item.runeword.5.name","hover_event":{"action":"show_item",id:"minecraft:burn_pottery_sherd","components":{"minecraft:custom_name":{"translate":"item.runeword.5.name"},"minecraft:lore":[{"translate":"item.runeword.5.recipe"},{"translate":"item.runeword.5.bonus.dahal"},{"translate":"item.runeword.5.bonus.loot"},{"translate":"item.runeword.5.limit"}]}}},{"text":">","color":"dark_green","bold":false},{"text":" <= ","color":"gray","bold":true},{"text":"Jo","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Fus","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Nym","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Da","color":"yellow","bold":false}]}

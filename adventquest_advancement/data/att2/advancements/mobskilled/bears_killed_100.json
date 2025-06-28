@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.bears_killed_100"},
+        "description": {"translate":"att2.advancement.mobskilled.description.bears_killed_100"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/bears_killed_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "bears_killed_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

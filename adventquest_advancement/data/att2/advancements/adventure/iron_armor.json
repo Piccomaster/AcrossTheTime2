@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_chestplate"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.iron_armor"},
+        "description": {"translate":"att2.advancement.adventure.description.iron_armor"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "iron_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "iron_helmet",
+            "iron_chestplate",
+            "iron_leggings",
+            "iron_boots"
+        ]
+    ]
+}

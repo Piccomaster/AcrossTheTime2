@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spruce_wood"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.house_eolorion_expansion"},
+        "description": {"translate":"att2.advancement.adventure.description.house_eolorion_expansion"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/house_eolorion",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "house_eolorion_expansion": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

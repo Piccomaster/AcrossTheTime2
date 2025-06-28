@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:potion"
+        },
+        "title": {"translate":"att2.advancement.progress.title.potion_25"},
+        "description": {"translate":"att2.advancement.progress.description.potion_25"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/potion_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "potion_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

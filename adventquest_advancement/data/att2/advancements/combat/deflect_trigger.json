@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Deflect Shield"},
+        "description": {"translate":"Deflect an arrow with a shield"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:combat/shield",
+    "rewards": {
+        "function": "att2:advancement/test_all/combat/trigger_deflect_shield"
+                },
+    "criteria": {
+        "deflect_trigger": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    },
+                    "blocked": true
+                }
+            }
+        }
+    }
+}

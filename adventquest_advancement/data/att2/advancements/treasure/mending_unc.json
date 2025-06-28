@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:lime_dye"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.mending_unc"},
+        "description": {"translate": "att2.advancement.treasure.description.mending_unc"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mending_com",
+        "rewards": {
+            "function": "att2:advancement/exploit_5",
+            "experience": 500
+    },
+    "criteria": {
+        "mending_unc": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

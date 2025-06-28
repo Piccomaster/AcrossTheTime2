@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"Indomptable"},
+        "description": {"translate":"Be responsible for what you have tamed."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/leather_boots_218",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "iron_boots_222": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

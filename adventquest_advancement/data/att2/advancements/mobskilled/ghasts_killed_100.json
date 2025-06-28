@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.ghasts_killed_100"},
+        "description": {"translate":"att2.advancement.mobskilled.description.ghasts_killed_100"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/ghasts_killed_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "ghasts_killed_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

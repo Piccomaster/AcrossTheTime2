@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone"
+        },
+        "title": {"translate":"att2.advancement.combat.title.hun_12"},
+        "description": {"translate":"att2.advancement.combat.description.hun_12"},
+		"frame": "goal"
+    },
+    "parent": "att2:combat/hun_8",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "hun_12": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"att2.advancement.journey.title.the_traveler"},
+        "description": {"translate":"att2.advancement.journey.description.the_traveler"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_100",
+        "experience": 500000
+                },
+    "criteria": {
+        "the_traveler": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"att2.advancement.journey.title.discover_adanoi"},
+        "description": {"translate":"att2.advancement.journey.description.discover_adanoi"}
+    },
+    "parent": "att2:journey/discover_elvetta",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "discover_adanoi": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4014.0,"max":-3896.0},
+                    "y": {"min":70.0,"max":100.0},
+                    "z": {"min":-5672.0,"max":-5583.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

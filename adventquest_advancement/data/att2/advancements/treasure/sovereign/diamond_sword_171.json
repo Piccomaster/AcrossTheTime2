@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Sabre de lumière"},
+        "description": {"translate":"May the sacred light inevitably fall on the worshipers of darkness."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/iron_sword_166",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "diamond_sword_171": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_kortaek"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_kortaek"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_kortaek",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "checkpoint_kortaek": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

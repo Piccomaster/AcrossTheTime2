@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_hanging_sign"
+        },
+        "title": {"translate":"att2.advancement.challenge.title.maze_4"},
+        "description": {"translate":"att2.advancement.challenge.description.maze_4"},
+        "frame": "goal"
+    },
+    "parent": "att2:challenge/maze_3",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 25000
+                },
+    "criteria": {
+        "maze_4": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

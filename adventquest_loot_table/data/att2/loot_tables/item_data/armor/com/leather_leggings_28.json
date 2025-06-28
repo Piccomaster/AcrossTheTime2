@@ -1,0 +1,68 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "translate": "armor28.name"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "armor28.lore.1"
+                                    },
+                                    {
+                                        "translate": "armor28.lore.2"
+                                    },
+                                    {
+                                        "translate": "armor28.stat"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "EquipmentType": "armor",
+                                    "Rarity": "com",
+                                    "Manufacturer": "teran",
+                                    "RES": -1,
+                                    "SPD": -1,
+                                    "Armor": "28"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "slot": "legs",
+                                        "type": "armor",
+                                        "id": "armor.leggings",
+                                        "operation": "add_value",
+                                        "amount": 1.52
+                                    },
+                                    {
+                                        "slot": "legs",
+                                        "type": "armor_toughness",
+                                        "id": "armor.leggings",
+                                        "operation": "add_value",
+                                        "amount": 0
+                                    },
+                                    {
+                                        "slot": "legs",
+                                        "type": "knockback_resistance",
+                                        "id": "armor.leggings",
+                                        "operation": "add_value",
+                                        "amount": 0.02
+                                    }
+                                ],
+                                "minecraft:dyed_color": 6446425,
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 80
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

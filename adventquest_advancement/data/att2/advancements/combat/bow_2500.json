@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bow"
+        },
+        "title": {"translate":"att2.advancement.combat.title.bow_2500"},
+        "description": {"translate":"att2.advancement.combat.description.bow_2500"},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/bow_1000",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "bow_5000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

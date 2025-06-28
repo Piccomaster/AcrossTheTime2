@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"att2.advancement.journey.title.symbol_academy_past"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_academy_past"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/discover_nojelanth_past",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "symbol_academy_past": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

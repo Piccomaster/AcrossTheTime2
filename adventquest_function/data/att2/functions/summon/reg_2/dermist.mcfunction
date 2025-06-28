@@ -1,0 +1,11 @@
+##################################################
+
+#Made by Adventquest                             #
+
+#Summon Dermist  		     					 #
+
+##################################################
+
+
+
+summon minecraft:zombified_piglin ~ ~ ~ {Tags:["LVL0","CLASS16","Reg2","Undead","SQ18","Dermist","Boss"],AngerTime:1000000,attributes:[{id:movement_speed,base:0.2},{id:follow_range,base:40.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:golden_axe",count:1,components:{enchantments:{"minecraft:fire_aspect":2}}},offhand:{id:"minecraft:shield",count:1,components:{base_color:red,banner_patterns:[{pattern:curly_border,color:orange}]}},feet:{id:"minecraft:golden_boots",count:1,components:{enchantments:{"minecraft:protection":1}}},legs:{id:"minecraft:golden_leggings",count:1,components:{enchantments:{"minecraft:protection":1}}},chest:{id:"minecraft:golden_chestplate",count:1,components:{enchantments:{"minecraft:protection":1}}},head:{id:"minecraft:player_head",count:1,components:{custom_data:{EquipmentType:"misc",Rarity:"que"},display:{Name:"{"text":"Head"}","Lore":["{"text":"Dermist head"}"]},SkullOwner:{Id:[I;1653625590,1697137110,-1181373290,205032609],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjliNjQ2ZGJiYmEyYzMzNDNhOTY5YzFmZjczMDk0MjY4YzRkN2Y3OTRmNjYzOTMzOTM1NTgzMjFlOGVlMjVlOCJ9fX0="}]}}}}}

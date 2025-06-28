@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Explosive Trap Enhancement Veteran"},
+        "description": {"translate":"Enhance level 3 with Explosive Trap spell"},
+        "frame": "goal"
+    },
+    "parent": "att2:dahal/spell6_enhancement_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "spell6_enhancement_3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

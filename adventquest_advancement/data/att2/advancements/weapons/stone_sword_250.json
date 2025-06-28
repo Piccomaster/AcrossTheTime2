@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stone_sword"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.stone_sword_250"},
+        "description": {"translate": "att2.advancement.weapons.description.stone_sword_250"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/stone_sword_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "stone_sword_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

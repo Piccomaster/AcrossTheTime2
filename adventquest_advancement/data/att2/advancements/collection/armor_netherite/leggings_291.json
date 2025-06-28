@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.armor_netherite.title.leggings_291"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.armor_netherite.description.leggings_291"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor_netherite/leggings_286",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "netherite_leggings_291": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:netherite_leggings"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Armor": "291"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

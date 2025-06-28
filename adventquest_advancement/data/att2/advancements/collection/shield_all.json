@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:pumpkin"
+        },
+        "title": {"translate": "att2.advancement.collection.title.shield_all"},
+        "description": {"translate": "att2.advancement.collection.description.shield_all"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "shield_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

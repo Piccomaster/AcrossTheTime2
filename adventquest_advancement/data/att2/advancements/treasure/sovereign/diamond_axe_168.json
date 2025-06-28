@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": {"translate":"Fureur cosmique"},
+        "description": {"translate":"From the depths of the primordial universe, the wrath of the ancients is boiling."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/wooden_axe_165",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "diamond_axe_168": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

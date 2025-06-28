@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_36 as tellraw          #
+#####################################
+
+tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "weapon36.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:bow","count": 1,"components": {"minecraft:custom_name":{"translate":"weapon36.name"},"minecraft:lore":[{"translate":"weapon36.lore.1"},{"translate":"weapon36.stat"}],"minecraft:custom_data":{"EquipmentType":"rangeWeapon","Rarity":"com","Manufacturer":"traditional","Shop":"buy","RES":"-1","Weapon":"36"},"minecraft:enchantments":{"power":1},"minecraft:damage":345,"minecraft:max_damage":385}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/com/bow_36"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "weapon36","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

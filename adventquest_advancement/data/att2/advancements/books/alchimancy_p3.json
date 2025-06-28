@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book"
+        },
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p3"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p3"
+        },
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/alchimancy_p2",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
+    "criteria": {
+        "fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Les 8 erreurs - Partie 3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7The 8 errors - Part 3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7八大错误 - Part 3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fe",
+            "eg",
+            "ch"
+        ]
+    ]
+}

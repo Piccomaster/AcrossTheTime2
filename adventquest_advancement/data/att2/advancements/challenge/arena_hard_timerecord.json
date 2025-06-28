@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:trident"
+        },
+        "title": {"translate":"att2.advancement.challenge.title.arena_hard_timerecord"},
+        "description": {"translate":"att2.advancement.challenge.description.arena_hard_timerecord"},
+        "frame": "challenge"
+    },
+    "parent": "att2:challenge/arena_hard",
+    "rewards": {
+        "function": "att2:advancement/exploit_75",
+        "experience": 75000
+                },
+    "criteria": {
+        "arena_hard_timerecord": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

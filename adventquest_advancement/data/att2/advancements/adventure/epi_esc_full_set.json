@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_pickaxe"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.epi_esc_full_set"},
+        "description": {"translate":"att2.advancement.adventure.description.epi_esc_full_set"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/rar_full_set",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+                },
+    "criteria": {
+        "epi_esc_full_set": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

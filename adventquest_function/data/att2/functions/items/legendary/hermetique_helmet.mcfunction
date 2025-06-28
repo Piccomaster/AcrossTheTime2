@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain Carmina Hermetica                        #
+##################################################
+
+give @s minecraft:netherite_helmet[minecraft:custom_model_data={floats:[10000000]},minecraft:lore=[{translate:item.legendary.hermetique_helmet.lore.1},{translate:item.legendary.hermetique_helmet.lore.2},{translate:item.legendary.hermetique_helmet.lore.3},{translate:item.legendary.hermetique_helmet.lore.4},{translate:item.legendary.hermetique_helmet.bonus}],minecraft:attribute_modifiers=[{amount:3.00d,id:"armor.helmet",operation:"add_value",slot:"head",type:"armor"},{amount:3.00d,id:"armor_toughness.helmet",operation:"add_value",slot:"head",type:"armor_toughness"},{amount:2.0d,id:"max_health.helmet",operation:"add_value",slot:"head",type:"max_health"},{amount:0.02d,id:"knockback_resistance.helmet",operation:"add_value",slot:"head",type:"knockback_resistance"}],minecraft:enchantments={"minecraft:protection":2},minecraft:unbreakable={},minecraft:custom_name={translate:item.legendary.hermetique_helmet.name},minecraft:custom_data={EquipmentID:"carminahermetica",EquipmentType:"armor",Rarity:"myt",SetId:99}]

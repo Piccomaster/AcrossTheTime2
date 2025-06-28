@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:writable_book"
+        },
+        "title": {"translate":"att2.advancement.dahal.title.spell1_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell1_loot"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell1_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

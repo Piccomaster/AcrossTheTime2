@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "att2.advancement.treasure.title.crossbow_336"
+    },
+    "description": {
+      "translate": "att2.advancement.treasure.description.crossbow_336"
+    },
+    "frame": "goal"
+  },
+  "parent": "att2:treasure/sovereign",
+  "rewards": {
+    "function": "att2:advancement/test_all/treasure/all_epi_esc",
+    "experience": 250
+  },
+  "criteria": {
+    "crossbow_336": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crossbow"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "336"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

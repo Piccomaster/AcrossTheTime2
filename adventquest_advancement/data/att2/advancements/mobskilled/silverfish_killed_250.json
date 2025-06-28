@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chiseled_stone_bricks"
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.silverfish_killed_250"},
+        "description": {"translate":"att2.advancement.mobskilled.description.silverfish_killed_250"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/silverfish_killed_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "silverfish_killed_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

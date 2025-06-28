@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_iron.title.sword_95"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_iron.description.sword_95"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_iron/sword_91",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "iron_sword_95": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "95"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

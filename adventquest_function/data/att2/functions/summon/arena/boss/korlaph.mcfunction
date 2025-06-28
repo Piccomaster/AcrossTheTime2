@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon Korlaph  		     					 #
+##################################################
+
+summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS20","ArenaBoss","Undead","Korlaph"],PersistenceRequired:1,DeathLootTable:"att2:empty",attributes:[{id:movement_speed,base:0.24},{id:follow_range,base:100.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:diamond_sword",count:1,components:{enchantments:{"minecraft:sharpness":3}}},offhand:{id:"minecraft:fishing_rod",count:1,components:{Damage:64,unbreakable:1}},feet:{id:"minecraft:diamond_boots",count:1,components:{enchantments:{"minecraft:protection":7},dyed_color:1315860}},legs:{id:"minecraft:diamond_leggings",count:1,components:{enchantments:{"minecraft:protection":7},dyed_color:1315860}},chest:{id:"minecraft:diamond_chestplate",count:1,components:{enchantments:{"minecraft:protection":7},dyed_color:1315860}},head:{id:"minecraft:shears",count:1,components:{custom_model_data:{floats:[10010006]},unbreakable:1}}},active_effects:[{id:resistance,amplifier:3,duration:2147483647,ambient:1,show_particles:0b}]}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_carrot"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.nocturnal"},
+        "description": {"translate":"att2.advancement.adventure.description.nocturnal"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "night_vision": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:night_vision": {}
+                }
+            }
+        }
+    }
+}

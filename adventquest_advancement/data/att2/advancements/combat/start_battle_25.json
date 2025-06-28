@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"att2.advancement.combat.title.start_battle_25"},
+        "description": {"translate":"att2.advancement.combat.description.start_battle_25"}
+    },
+    "parent": "att2:combat/start_battle_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 100
+                },
+    "criteria": {
+        "start_battle_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

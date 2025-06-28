@@ -1,0 +1,22 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/equipment/effect/po/str4"
+    },
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "Potion": "27"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

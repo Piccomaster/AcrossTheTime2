@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": {"translate":"Cataclysme"},
+        "description": {"translate":"Look on my works, Ye Mighty, and despair!"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/wooden_pickaxe_164",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "diamond_pickaxe_169": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

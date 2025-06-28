@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:end_crystal"
+        },
+        "title": {"translate":"att2.advancement.journey.title.waypoint_eolorion"},
+        "description": {"translate":"att2.advancement.journey.description.waypoint_eolorion"}
+    },
+    "parent": "att2:journey/discover_eolorion",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "waypoint_eolorion": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

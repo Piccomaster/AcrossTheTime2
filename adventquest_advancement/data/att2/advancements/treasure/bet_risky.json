@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:glistering_melon_slice"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.bet_risky"},
+        "description": {"translate": "att2.advancement.treasure.description.bet_risky"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/bets_1",
+        "rewards": {
+            "function": "att2:advancement/exploit_25",
+            "experience": 2500
+    },
+    "criteria": {
+        "bet_risky": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

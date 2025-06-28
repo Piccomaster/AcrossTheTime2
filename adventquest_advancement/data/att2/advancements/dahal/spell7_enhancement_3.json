@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Geyser Enhancement Veteran"},
+        "description": {"translate":"Enhance level 3 with Geyser spell"},
+        "frame": "goal"
+    },
+    "parent": "att2:dahal/spell7_enhancement_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "spell7_enhancement_3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

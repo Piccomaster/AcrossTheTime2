@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_chestplate"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.netherite_armor"},
+        "description": {"translate":"att2.advancement.adventure.description.netherite_armor"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "netherite_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "netherite_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "netherite_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "netherite_helmet",
+            "netherite_chestplate",
+            "netherite_leggings",
+            "netherite_boots"
+        ]
+    ]
+}

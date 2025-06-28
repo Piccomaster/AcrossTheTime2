@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+tellraw @a {"text":"⚙ ","bold":true,"color":"dark_red","extra":[{"text":"<","color":"gold","bold":false},{"translate":"item.runeword.15.name","hover_event":{"action":"show_item",id:"minecraft:prize_pottery_sherd","components":{"minecraft:custom_name":{"translate":"item.runeword.15.name"},"minecraft:lore":[{"translate":"item.runeword.15.recipe"},{"translate":"item.runeword.15.bonus.health"},{"translate":"item.runeword.15.bonus.chronoton"},{"translate":"item.runeword.15.bonus.xp"},{"translate":"item.runeword.15.bonus.loot"},{"translate":"item.runeword.15.limit"}]}}},{"text":">","color":"gold","bold":false},{"text":" <= ","color":"gray","bold":true},{"text":"Syl","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Da","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Ave","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Qi","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Ra","color":"yellow","bold":false}]}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:goat_horn"
+        },
+        "title": {"translate":"att2.advancement.combat.title.all_stats_max"},
+        "description": {"translate":"att2.advancement.combat.description.all_stats_max"},
+		"frame": "challenge"
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_100",
+        "experience": 50000
+                },
+    "criteria": {
+        "all_stats_max": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

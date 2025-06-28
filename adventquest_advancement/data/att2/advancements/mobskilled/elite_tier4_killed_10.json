@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:item_frame"
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.elite_tier4_killed_10"},
+        "description": {"translate":"att2.advancement.mobskilled.description.elite_tier4_killed_10"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/elite_tier4_killed_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+    },
+    "criteria": {
+        "elite_tier4_killed_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

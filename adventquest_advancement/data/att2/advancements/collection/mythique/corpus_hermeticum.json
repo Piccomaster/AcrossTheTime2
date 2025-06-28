@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_chestplate",
+            "nbt": "{CustomModelData:10000001}"
+        },
+        "title": {"translate": "att2.advancement.collection.mythique.title.corpus_hermeticum"},
+        "description": {"translate": "att2.advancement.collection.mythique.description.corpus_hermeticum"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/corpus_hermeticum",
+        "experience": 10000
+                },
+    "criteria": {
+    "corpus_hermeticum": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                "items": ["minecraft:netherite_chestplate"],
+                "nbt": "{EquipmentID:corpushermeticum}"
+                }
+            ]
+        }
+    }
+ }
+}

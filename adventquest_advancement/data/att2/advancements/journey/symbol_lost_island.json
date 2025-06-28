@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"att2.advancement.journey.title.symbol_lost_island"},
+        "description": {"translate":"att2.advancement.journey.description.symbol_lost_island"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/discover_island",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "symbol_lost_island": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

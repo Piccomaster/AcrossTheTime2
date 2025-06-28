@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Rite de passage"},
+        "description": {"translate":"The great ascent to reach a higher state."},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 250
+    },
+    "criteria": {
+        "leather_boots_218": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

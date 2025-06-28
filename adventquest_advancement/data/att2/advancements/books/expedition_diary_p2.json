@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book"
+        },
+        "title": {
+            "translate": "att2.advancement.books.title.expedition_diary_p2"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.expedition_diary_p2"
+        },
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/expedition_diary_p1",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
+    "criteria": {
+        "fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Suite à mon journal d'expédition"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7Following my expedition diary"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "components": {
+                            "minecraft:lore": [
+                                {
+                                    "text": "§7我的探险日记"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fe",
+            "eg",
+            "ch"
+        ]
+    ]
+}

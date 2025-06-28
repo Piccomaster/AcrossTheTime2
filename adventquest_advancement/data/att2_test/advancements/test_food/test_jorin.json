@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cake"
+        },
+        "title": {"translate":"test"},
+        "description": {"translate":"beetroot"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "att2:advancement/test_all/food/jorin"
+    },
+    "criteria": {
+        "beetroot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:beetroot"
+                    ]
+                }
+            }
+        }
+    }
+}

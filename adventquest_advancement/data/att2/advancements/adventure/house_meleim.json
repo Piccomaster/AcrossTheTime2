@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:dark_oak_planks"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.house_meleim"},
+        "description": {"translate":"att2.advancement.adventure.description.house_meleim"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "house_meleim": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

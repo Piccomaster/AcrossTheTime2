@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.sword_150"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.sword_150"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon_angband/sword_143",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "golden_sword_150": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:golden_sword"
+,
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "150"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

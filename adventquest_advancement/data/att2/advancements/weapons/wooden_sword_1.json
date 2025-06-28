@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wooden_sword"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.wooden_sword_1"},
+        "description": {"translate": "att2.advancement.weapons.description.wooden_sword_1"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "wooden_sword_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cookie"
+        },
+        "title": {"translate":"att2.advancement.food.title.cookie_128"},
+        "description": {"translate":"att2.advancement.food.description.cookie_128"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/cookie_64",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 1000
+                },
+    "criteria": {
+            "cookie_64": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

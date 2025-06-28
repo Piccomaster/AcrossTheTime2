@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:lime_candle"
+        },
+        "title": {"translate": "att2.advancement.collection.title.ult_all"},
+        "description": {"translate": "att2.advancement.collection.description.ult_all"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/leg_all",
+    "rewards": {
+        "function": "att2:advancement/exploit_100",
+        "experience": 250000
+                },
+    "criteria": {
+        "ult_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

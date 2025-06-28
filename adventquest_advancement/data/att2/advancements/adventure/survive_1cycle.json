@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:recovery_compass"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.survive_1cycle"},
+        "description": {"translate":"att2.advancement.adventure.description.survive_1cycle"}
+    },
+    "parent": "att2:adventure/survive_1day",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "survive_1cycle": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
