@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chest"
+        },
+        "title": {"translate":"C3 Tier 8 Trigger"},
+        "description": {"translate":"TEST"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "att2:advancement/test_all/treasure/chest/lootchest_c3/tier8"
+            },
+    "criteria": {
+        "lootchest_reg1c3t8_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c3t8"
+            }
+        },
+        "lootchest_reg2c3t8_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c3t8"
+            }
+        },
+        "lootchest_reg3c3t8_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c3t8"
+            }
+        },
+        "lootchest_reg4c3t8_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c3t8"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lootchest_reg1c3t8_trigger",
+            "lootchest_reg2c3t8_trigger",
+            "lootchest_reg3c3t8_trigger",
+            "lootchest_reg4c3t8_trigger"
+        ]
+    ]
+}
