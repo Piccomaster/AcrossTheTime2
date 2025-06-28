@@ -1,0 +1,89 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:diamond_shovel"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:netherite_shovel"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:wooden_shovel"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:stone_shovel"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:iron_shovel"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:golden_shovel"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
