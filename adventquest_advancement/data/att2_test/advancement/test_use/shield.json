@@ -1,0 +1,15 @@
+{
+"criteria": {
+    "block": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+            "blocked": true
+          }
+      }
+    }
+  },
+  "rewards": {
+    "function": "att2:gameplay/equipment/weapon/sword/shield_trigger"
+  }
+}

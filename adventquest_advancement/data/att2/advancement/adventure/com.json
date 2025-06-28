@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.com"},
+        "description": {"translate":"att2.advancement.adventure.description.com"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "com": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

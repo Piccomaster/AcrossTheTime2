@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chest"
+        },
+        "title": {"translate":"C9 Tier 10 Trigger"},
+        "description": {"translate":"TEST"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "att2:advancement/test_all/treasure/chest/lootchest_c9/tier10"
+            },
+    "criteria": {
+        "lootchest_reg1c9t10_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c9t10"
+            }
+        },
+        "lootchest_reg2c9t10_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c9t10"
+            }
+        },
+        "lootchest_reg3c9t10_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c9t10"
+            }
+        },
+        "lootchest_reg4c9t10_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c9t10"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lootchest_reg1c9t10_trigger",
+            "lootchest_reg2c9t10_trigger",
+            "lootchest_reg3c9t10_trigger",
+            "lootchest_reg4c9t10_trigger"
+        ]
+    ]
+}
