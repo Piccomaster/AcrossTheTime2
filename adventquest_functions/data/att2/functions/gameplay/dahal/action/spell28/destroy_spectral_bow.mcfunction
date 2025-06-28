@@ -3,4 +3,4 @@
 #Destroying Spectral bow from inventory					        #
 #################################################################
 
-clear @s minecraft:bow{EquipmentID:"spectralbow"}
+clear @s minecraft:bow[custom_data={EquipmentID:"spectralbow"}]

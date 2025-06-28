@@ -8,7 +8,7 @@
 #############################################################
 
 # Players talking when he try to fly without celestial tear
-execute if score carry_tear SQ48 matches 0 as @p[x=6630,y=81,z=6811,dx=3,dy=10,dz=3,gamemode=adventure] unless entity @s[nbt={Inventory:[{{components:{"minecraft:custom_name":{translate:'item.quest.gear.name'}}}}]}] run function att2:cinematic/sidequest/48/ghost/fly_whithout_tear
+execute if score carry_tear SQ48 matches 0 as @p[x=6630,y=81,z=6811,dx=3,dy=10,dz=3,gamemode=adventure] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.gear.name'}}}]}] run function att2:cinematic/sidequest/48/ghost/fly_whithout_tear
 
 # Step 1 when players enter the Ouranos path
 execute if score SQ48 SIDEQUEST matches 1 if entity @a[x=6556,y=60,z=6957,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/48/step2
@@ -21,6 +21,6 @@ execute if score Somniophages SQ48 matches -2 if score SQ48 SIDEQUEST matches 2 
 execute if score SQ48 SIDEQUEST matches 2 if score Jumps SQ48 matches 7.. run function att2:cinematic/sidequest/48/falling_stone
 
 # End when player find Lost Past
-execute if score SQ48 SIDEQUEST matches 2 if entity @a[nbt={SelectedItem:{components:{EquipmentID:"lostpast"}}}] run function att2:cinematic/sidequest/48/end
+execute if score SQ48 SIDEQUEST matches 2 if entity @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{EquipmentID:"lostpast"}}}}] run function att2:cinematic/sidequest/48/end
 #return 1->make command block runing
 return 1

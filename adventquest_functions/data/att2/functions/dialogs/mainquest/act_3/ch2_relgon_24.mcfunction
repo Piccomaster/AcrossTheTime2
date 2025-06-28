@@ -33,7 +33,7 @@ tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"في يأسهم، بادر البشر بالتعبد لـ"لا فلام نوار"، مُقدّمين التضحيات والعروض باسمها. وسمعتهم. وبمقابل الدماء المسفوكة، توقفت عن مهاجمة المدن البشرية.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"في يأسهم، بادر البشر بالتعبد لـ''لا فلام نوار''، مُقدّمين التضحيات والعروض باسمها. وسمعتهم. وبمقابل الدماء المسفوكة، توقفت عن مهاجمة المدن البشرية.","color":"dark_aqua"}]}
 
 
 #RUSSIAN LANGUAGE

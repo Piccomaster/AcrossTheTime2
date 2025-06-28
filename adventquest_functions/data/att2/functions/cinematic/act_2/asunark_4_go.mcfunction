@@ -4,8 +4,8 @@
 ##################################################
 
 execute if score Real0 TIMER matches 10 positioned -3555 98 -4943 as @a[distance=..100] run function att2:gameplay/speceffect/disincarnate/start
-execute if score Real0 TIMER matches 10 positioned -3555 108 -4956 run summon minecraft:end_crystal ~ ~ ~ {ShowBottom:0b,ShowCrystal:0b,beam_target:{-3616,66,-4936}}
-execute if score Real0 TIMER matches 10 positioned -3555 108 -4928 run summon minecraft:end_crystal ~ ~ ~ {ShowBottom:0b,ShowCrystal:0b,beam_target:{-3616,66,-4936}}
+execute if score Real0 TIMER matches 10 positioned -3555 108 -4956 run summon minecraft:end_crystal ~ ~ ~ {ShowBottom:0b,beam_target:[I;-3616,66,-4936]}
+execute if score Real0 TIMER matches 10 positioned -3555 108 -4928 run summon minecraft:end_crystal ~ ~ ~ {ShowBottom:0b,beam_target:[I;-3616,66,-4936]}
 execute if score Real0 TIMER matches 11..120 as @a[gamemode=spectator] run tp @s -3555 98 -4943 83 30
 execute if score Real0 TIMER matches 12 positioned -3555 85 -4942 run function att2:sound/misc/loading_energy
 execute if score Real0 TIMER matches 121..160 as @a[gamemode=spectator] run tp @s -3582 85 -4939 83 30

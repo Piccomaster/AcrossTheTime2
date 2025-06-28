@@ -4,7 +4,7 @@
 #################################################################
 
 #FRENCH LANGUAGE
-title @s[scores={LANGUAGE=0}] [{"text":"A rassemblé","color":"green"},{"score":{"name":"TOTAL","objective":"TP_ITEM_COUNT"},"color":"dark_green","bold":true,"italic":false},{"text":"objets","color":"green"},{"text":" | ","color":"gold"},{"text":"Utilisations restantes ","color":"green"},{"text":":","color":"gray"},{"score":{"name":"@s","objective":"TP_ITEM_USE"},"color":"yellow"},{"text":" / ","color":"dark_gray"},{"score":{"name":"@s","objective":"TP_ITEM_USE_MAX"},"color":"gold"}]
+title @s[scores={LANGUAGE=0}] actionbar [{"text":"A rassemblé","color":"green"},{"score":{"name":"TOTAL","objective":"TP_ITEM_COUNT"},"color":"dark_green","bold":true,"italic":false},{"text":"objets","color":"green"},{"text":" | ","color":"gold"},{"text":"Utilisations restantes ","color":"green"},{"text":":","color":"gray"},{"score":{"name":"@s","objective":"TP_ITEM_USE"},"color":"yellow"},{"text":" / ","color":"dark_gray"},{"score":{"name":"@s","objective":"TP_ITEM_USE_MAX"},"color":"gold"}]
 #ENGLISH LANGUAGE
 title @s[scores={LANGUAGE=1}] actionbar [{"text":"已进入可垂钓区域","color":"green"}]
 #CHINESE LANGUAGE
