@@ -3,7 +3,7 @@
 #Artefact effect1												#
 #################################################################
 
-particle minecraft:dust -0.1 -0.1 -0.1 0.2 ~ ~ ~ 0.5 0.5 0.5 0.2 20 normal
+particle minecraft:dust{color:[-0.1,-0.1,-0.1],scale:0.2} ~ ~ ~ 0.5 0.5 0.5 0.2 20 normal
 particle minecraft:dust{color:[0.1,0.1,0.1],scale:0.3} ~ ~ ~ 0.25 0.25 0.25 0.2 50 normal
 particle minecraft:dust{color:[0,0,0],scale:1} ~ ~ ~ 0.01 0.01 0.01 0.2 5 normal
 particle minecraft:mycelium ~ ~ ~ 1 1 1 0.05 50
