@@ -1,6 +1,0 @@
-#####################################
-#Made by Adventquest                #
-#Display item potion_8 as tellraw          #
-#####################################
-
-tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "potion8.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:potion","count": 1,"components": {"minecraft:custom_name":{"translate":"potion8.name"},"minecraft:lore":[{"translate":"potion8.lore.1"},{"translate":"potion8.lore.2"},{"translate":"potion8.stat"}],"minecraft:custom_data":{"SPD":"-2","EquipmentType":"potion","Rarity":"com","Shop":"buy","Potion":"8"},"minecraft:potion_contents":{"custom_color":5311231,"custom_effects":[{"amplifier":0,"duration":10000,"id":"night_vision","show_particles":false}]},"max_stack_size":16}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/com/potion_8"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "potion8","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

@@ -1,6 +1,0 @@
-#####################################
-#Made by Adventquest                #
-#Display item potion_25 as tellraw          #
-#####################################
-
-tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "potion25.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:potion","count": 1,"components": {"minecraft:custom_name":{"translate":"potion25.name"},"minecraft:lore":[{"translate":"potion25.lore.1"},{"translate":"potion25.lore.2"},{"translate":"potion25.stat"}],"minecraft:custom_data":{"DAR":"4","HAS":"-2","EquipmentType":"potion","Rarity":"epi","Shop":"buy","Potion":"25"},"minecraft:potion_contents":{"custom_color":11735039,"custom_effects":[{"amplifier":4,"duration":2,"id":"instant_health","show_particles":false}]},"max_stack_size":16}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/epi/potion_25"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "potion25","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

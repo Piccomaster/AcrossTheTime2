@@ -1,8 +1,0 @@
-{
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-        "type": "minecraft:item",
-        "nbt": "{Item:{id:'minecraft:written_book',components:{'minecraft:custom_data':{Spell:'spell5'}}}}"
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "type": "minecraft:item",
-    "predicate": {
-        "nbt": "{Item:{components:{'minecraft:custom_data':{Coin:'diamond'}}}}"
-    }
-}

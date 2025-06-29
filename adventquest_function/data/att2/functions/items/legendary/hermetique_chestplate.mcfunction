@@ -1,6 +1,0 @@
-##################################################
-#Made by Adventquest                             #
-#Obtain Corpus Hermeticum                        #
-##################################################
-
-give @s minecraft:netherite_chestplate[minecraft:custom_model_data={floats:[10000001]},minecraft:lore=[{translate:item.legendary.hermetique_chestplate.lore.1},{translate:item.legendary.hermetique_chestplate.lore.2},{translate:item.legendary.hermetique_chestplate.lore.3},{translate:item.legendary.hermetique_chestplate.lore.4},{translate:item.legendary.hermetique_chestplate.bonus}],minecraft:attribute_modifiers=[{amount:8.00d,id:"armor.chestplate",operation:"add_value",slot:"chest",type:"armor"},{amount:5.00d,id:"armor_toughness.chestplate",operation:"add_value",slot:"chest",type:"armor_toughness"},{amount:6.0d,id:"max_health.chestplate",operation:"add_value",slot:"chest",type:"max_health"},{amount:0.03d,id:"knockback_resistance.chestplate",operation:"add_value",slot:"chest",type:"knockback_resistance"}],minecraft:enchantments={"minecraft:protection":5},minecraft:unbreakable={},minecraft:custom_name={translate:item.legendary.hermetique_chestplate.name},minecraft:custom_data={EquipmentID:"corpushermeticum",EquipmentType:"armor",Rarity:"myt",SetId:99}]

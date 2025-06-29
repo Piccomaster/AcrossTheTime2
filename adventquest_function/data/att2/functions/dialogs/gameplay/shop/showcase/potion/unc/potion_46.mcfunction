@@ -1,6 +1,0 @@
-#####################################
-#Made by Adventquest                #
-#Display item potion_46 as tellraw          #
-#####################################
-
-tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "potion46.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:potion","count": 1,"components": {"minecraft:custom_name":{"translate":"potion46.name"},"minecraft:lore":[{"translate":"potion46.lore.1"},{"translate":"potion46.lore.2"},{"translate":"potion46.stat"}],"minecraft:custom_data":{"HUN":"5","EquipmentType":"potion","Rarity":"unc","Shop":"buy","Potion":"46"},"minecraft:potion_contents":{"custom_color":65535},"max_stack_size":16}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/unc/potion_46"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "potion46","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

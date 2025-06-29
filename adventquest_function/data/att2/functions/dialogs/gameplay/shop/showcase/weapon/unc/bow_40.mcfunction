@@ -1,6 +1,0 @@
-#####################################
-#Made by Adventquest                #
-#Display item bow_40 as tellraw          #
-#####################################
-
-tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "weapon40.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:bow","count": 1,"components": {"minecraft:custom_name":{"translate":"weapon40.name"},"minecraft:lore":[{"translate":"weapon40.lore.1"},{"translate":"weapon40.lore.2"},{"translate":"weapon40.stat"}],"minecraft:custom_data":{"EquipmentType":"rangeWeapon","Rarity":"unc","Manufacturer":"traditional",Shop:"buy","Weapon":"40"},"minecraft:enchantments":{"power":2,"unbreaking":1},"minecraft:damage":340,"minecraft:max_damage":385}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/bow_40"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "weapon40","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

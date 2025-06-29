@@ -1,1 +1,0 @@
-give @s fishing_rod[custom_data={fishing:"rod"}]

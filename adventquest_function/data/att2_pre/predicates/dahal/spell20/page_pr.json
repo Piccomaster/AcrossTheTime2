@@ -1,7 +1,0 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "nbt": "{Items:[{Slot:0b,components:{'minecraft:custom_data':{CHEST:'page_pr'}}}]}"
-    }
-}

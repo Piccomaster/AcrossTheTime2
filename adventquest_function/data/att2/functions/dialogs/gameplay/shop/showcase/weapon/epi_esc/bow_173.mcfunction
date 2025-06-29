@@ -1,6 +1,0 @@
-#################################################################
-#Made by Adventquest											#
-#Use function to process the weapon list items shop 			#
-#################################################################
-
-tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "weapon173.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:bow","count": 1,"components": {"minecraft:custom_name":{"translate":"weapon173.name"},"minecraft:lore":[{"translate":"weapon173.lore.1"},{"translate":"weapon173.lore.2"},{"translate":"weapon173.stat"}],"minecraft:custom_data":{"EquipmentType":"rangeWeapon","Rarity":"epi_esc","Manufacturer":"traditional","Shop":"buy","STR":"1","RES":"1","HER":"-1","Weapon":"173"},"minecraft:enchantments":{"power":10},"minecraft:damage":0,"minecraft:max_damage":385}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi_esc/bow_173"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "weapon173","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}
