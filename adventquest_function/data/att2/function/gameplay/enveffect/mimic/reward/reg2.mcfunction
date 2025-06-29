@@ -4,7 +4,7 @@
 #################################################################
 
 #
-particle dust 1.0 0.667 0.0 1 ~ ~1 ~ 1 1 1 0 50
+particle dust{color:[1.0,0.667,0.0],scale:1} ~ ~1 ~ 1 1 1 0 50
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 5 1.1
 playsound minecraft:entity.firework_rocket.twinkle master @a ~ ~ ~ 5 1
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 5 1.1
