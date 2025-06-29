@@ -1,1 +1,0 @@
-title @a subtitle {"text":"⟖","color":"dark_red","extra":[{"text":"hans_clp","color":"gray"},{"text":" ╢╟ ","color":"gold"},{"text":"Ragnar Lorth","color":"gray"},{"text":" ⟕","color":"dark_red"}]}

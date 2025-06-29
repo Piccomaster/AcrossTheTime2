@@ -1,6 +1,0 @@
-#####################################
-#Made by Adventquest                #
-#Display item potion_28 as tellraw          #
-#####################################
-
-tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "potion28.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:potion","count": 1,"components": {"minecraft:custom_name":{"translate":"potion28.name"},"minecraft:lore":[{"translate":"potion28.lore.1"},{"translate":"potion28.lore.2"},{"translate":"potion28.stat"}],"minecraft:custom_data":{"HER":"3","HUN":"3","EquipmentType":"potion","Rarity":"leg","Shop":"buy","Potion":"28"},"minecraft:potion_contents":{"custom_color":16754081,"custom_effects":[{"amplifier":4,"duration":2,"id":"instant_health","show_particles":false}]},"max_stack_size":16}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/leg/potion_28"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "potion28","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

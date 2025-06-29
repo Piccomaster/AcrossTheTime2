@@ -1,6 +1,0 @@
-#################################################################
-#Made by Adventquest											#
-#Use function to process the runicwords list 			        #
-#################################################################
-
-tellraw @a {"text":"⚙ ","bold":true,"color":"dark_red","extra":[{"text":"<","color":"dark_green","bold":false},{"translate":"item.runeword.4.name","hover_event":{"action":"show_item",id:"minecraft:brewer_pottery_sherd","components":{"minecraft:custom_name":{"translate":"item.runeword.4.name"},"minecraft:lore":[{"translate":"item.runeword.4.recipe"},{"translate":"item.runeword.4.bonus.cooldown"},{"translate":"item.runeword.4.bonus.dahal_xp"},{"translate":"item.runeword.4.bonus.potion"},{"translate":"item.runeword.4.limit"}]}}},{"text":">","color":"dark_green","bold":false},{"text":" <= ","color":"gray","bold":true},{"text":"Inu","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Von","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Ust","color":"yellow","bold":false}]}

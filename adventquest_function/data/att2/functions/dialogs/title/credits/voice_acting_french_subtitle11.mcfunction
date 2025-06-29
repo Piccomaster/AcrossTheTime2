@@ -1,1 +1,0 @@
-title @a subtitle {"text":"⟖","color":"dark_red","extra":[{"text":"modjo218","color":"gray"},{"text":" ╢╟ ","color":"gold"},{"text":"Wirth","color":"gray"},{"text":" ⟕","color":"dark_red"}]}

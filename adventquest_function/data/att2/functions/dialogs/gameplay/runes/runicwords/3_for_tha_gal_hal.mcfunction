@@ -1,6 +1,0 @@
-#################################################################
-#Made by Adventquest											#
-#Use function to process the runicwords list 			        #
-#################################################################
-
-tellraw @a {"text":"⚙ ","bold":true,"color":"dark_red","extra":[{"text":"<","color":"dark_green","bold":false},{"translate":"item.runeword.3.name","hover_event":{"action":"show_item",id:"minecraft:blade_pottery_sherd","components":{"minecraft:custom_name":{"translate":"item.runeword.3.name"},"minecraft:lore":[{"translate":"item.runeword.3.recipe"},{"translate":"item.runeword.3.bonus.xp"},{"translate":"item.runeword.3.bonus.dahal"},{"translate":"item.runeword.3.bonus.potion"},{"translate":"item.runeword.3.limit"}]}}},{"text":">","color":"dark_green","bold":false},{"text":" <= ","color":"gray","bold":true},{"text":"For","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Tha","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Gal","color":"yellow","bold":false},{"text":"+","color":"gray","bold":false},{"text":"Hal","color":"yellow","bold":false}]}

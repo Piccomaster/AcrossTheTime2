@@ -1,6 +1,0 @@
-#####################################
-#Made by Adventquest                #
-#Display item bow_197 as tellraw          #
-#####################################
-
-tellraw @s {"text": " ° ","bold": true,"color": "dark_red","extra": [{"text":"<","color": "gray"},{"translate": "weapon197.name","bold": false,"hover_event": {"action": "show_item","id": "minecraft:bow","count": 1,"components": {"minecraft:custom_name":{"translate":"weapon197.name"},"minecraft:lore":[{"translate":"weapon197.lore.1"},{"translate":"weapon197.lore.2"},{"translate":"weapon197.stat"}],"minecraft:custom_data":{"EquipmentType":"rangeWeapon","Rarity":"unc","Manufacturer":"traditional",Shop:"buy","STR":"-2","Weapon":"197"},"minecraft:enchantments":{"unbreaking":1,"infinity":1},"minecraft:damage":310,"minecraft:max_damage":385}},"extra": [{"text":">","color": "gray","bold": false},{"text": " [","color": "yellow","click_event": {"action": "run_command","command": "/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/bow_197"},"hover_event": {"action": "show_text","value": [{"translate": "att2.shop.hover_event.buy"}]},"extra": [{"score":{"name": "weapon197","objective": "PRICES"},"color": "yellow","extra": [{"text":" Chronotons]","color": "yellow"}]}]}]}]}

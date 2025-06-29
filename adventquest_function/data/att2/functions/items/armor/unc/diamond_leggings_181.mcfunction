@@ -1,8 +1,0 @@
-#####################################
-#Made by Adventquest                #
-#Obtain item diamond_leggings_181          #
-#####################################
-
-give @s minecraft:diamond_leggings[custom_data={EquipmentType:'armor',Rarity:'unc',Manufacturer:'delightful',Shop:'buy',HAS:1,Armor:'181'},custom_name={translate:'armor181.name'},lore=[{translate:'armor181.lore.1'},{translate:'armor181.lore.2'},{translate:'armor181.stat'}],max_damage=490,damage=350,attribute_modifiers=[{slot:'legs',type:'armor',id:'armor.leggings',operation:'add_value',amount:2.33},{slot:'legs',type:'armor_toughness',id:'armor.leggings',operation:'add_value',amount:0.62}]]
-
-function att2:gameplay/shop/smith_leveling/add_buying_unc
