@@ -3,4 +3,4 @@
 #Obtain bone_0         					 	 	 #
 ##################################################
 
-give @s minecraft:bone[custom_name={"text":"Os"},lore=["§7§oBone"]] 1
+give @s minecraft:bone{display:{Name:"{\"text\":\"Os\"}","Lore":["{\"text\":\"§7§oBone\"}"]}} 1
