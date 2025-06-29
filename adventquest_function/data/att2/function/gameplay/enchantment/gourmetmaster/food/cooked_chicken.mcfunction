@@ -6,7 +6,7 @@
 #add GOURMETMASTER score
 execute unless score @s FOODID matches 11 run scoreboard players add @s GOURMETMASTER 3
 execute if score @s FOODID matches 11 run scoreboard players remove @s GOURMETMASTER 6
-#set GOURMETMASTER 
+#set GOURMETMASTER
 scoreboard players set @s FOODID 11
 scoreboard players add @s GOURMETMASTER_COUNT 1
 function att2:dialogs/gameplay/enchantment/gourmetmaster/add

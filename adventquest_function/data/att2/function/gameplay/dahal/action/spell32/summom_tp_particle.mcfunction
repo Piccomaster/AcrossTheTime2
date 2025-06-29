@@ -16,7 +16,7 @@ summon minecraft:armor_stand ~ ~ ~ {Marker:1,Invulnerable:true,Invisible:true,No
 ##将对应盔甲架赋予effct值来进行下一步的特效处理
 scoreboard players set @e[type=armor_stand,tag=SpaceTeleportSpellParticle,tag=New] SPELL32_TP_EFFCT 60
 scoreboard players operation @e[type=armor_stand,tag=SpaceTeleportSpellParticle,tag=New] OWNER = @s NUMEROJOUEUR
-##对玩家自己赋予过程effect值 
+##对玩家自己赋予过程effect值
 scoreboard players set @s SPELL32_PROCESS_EFFCT 60
 #reset new
 tag @e[type=armor_stand,tag=SpaceTeleportSpellParticle,tag=New] remove New

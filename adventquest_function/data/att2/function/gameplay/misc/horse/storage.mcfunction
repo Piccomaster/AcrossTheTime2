@@ -9,7 +9,7 @@ $execute if entity @s[type=camel] run data modify storage att2:ride_$(NUMEROJOUE
 $execute if entity @s[type=pig] run data modify storage att2:ride_$(NUMEROJOUEUR) id set value pig
 $execute if entity @s[type=mule] run data modify storage att2:ride_$(NUMEROJOUEUR) id set value mule
 #storage
-$data modify storage att2:ride_$(NUMEROJOUEUR) data set from entity @s 
+$data modify storage att2:ride_$(NUMEROJOUEUR) data set from entity @s
 #particle
 function att2:gameplay/misc/horse/particles
 #kill @s

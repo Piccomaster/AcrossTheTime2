@@ -10,7 +10,7 @@
 #('x' is the pool number)                                                                                       #
 #('y' is the arena number)                                                                                      #
 #   0 Pool is not started                                                                                       #
-#   1..y Arena total complete                                                                                   # 
+#   1..y Arena total complete                                                                                   #
 #Poolx can have multiple state stored in the ARENA score (total playable/total arenas):                         #
 #   0 : 4 total playable arenas / 5 total arenas                                                                #
 #   1 : 3 total playable arenas / 7 total arenas                                                                #
@@ -22,7 +22,7 @@
 #Poolx_Ay_Choose for arena already choose and can't be played again until the restart of all tournaments :      #
 #   -1 Arena has been choosen                                                                                   #
 #   0 Arena has not be choosen                                                                                  #
-#Poolx_Ay_Count for all minions or bosses total health (not in Pool1) :                                         #          
+#Poolx_Ay_Count for all minions or bosses total health (not in Pool1) :                                         #
 #   0..z (where 'z' is the number of total minions or bosses or each bosses to kill)                            #
 #/kill @e[distance=..50,tag=ArenaMinion]                                                                        #
 #/kill @e[distance=..50,tag=ArenaBoss]                                                                          #

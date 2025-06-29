@@ -14,7 +14,7 @@ execute store result entity @s Motion[2] double 0.000001 run scoreboard players 
 execute store result storage att2:damage value int 1 run scoreboard players get @s BE_ATK
 execute store result storage att2:damage OWNER int 1 run scoreboard players get @s OWNER
 #damage go
-execute as @e[scores={GAMELEVEL=0..,},team=hostile,distance=..3,tag=!BE_ATKED] at @s run function att2:gameplay/legendary/bloodeater/using/damage with storage att2:damage 
+execute as @e[scores={GAMELEVEL=0..,},team=hostile,distance=..3,tag=!BE_ATKED] at @s run function att2:gameplay/legendary/bloodeater/using/damage with storage att2:damage
 #reset
 scoreboard players remove @s BE_TIME 1
 execute if score @s BE_TIME matches ..0 run function att2:gameplay/legendary/bloodeater/using/atk_reset

@@ -33,10 +33,10 @@ execute if score SQ45 SIDEQUEST matches 1 if entity @a[gamemode=adventure,nbt={I
 # Step3 when player are in front of sectarian door with badge
 execute if score SQ45 SIDEQUEST matches 2 if entity @a[x=3743,y=61,z=4338,distance=..4,gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.badge.name'}}}]}] run function att2:cinematic/sidequest/45/step3
 
-# Step4 when player found Nekr al Felèvsil 
+# Step4 when player found Nekr al Felèvsil
 execute if score SQ45 SIDEQUEST matches 1..3 if entity @a[gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'weapon157.name'}}}]}] run function att2:cinematic/sidequest/45/step4
 
-# Start cinematic when player is close to Aldelrion with Nekr al Felèvsil 
+# Start cinematic when player is close to Aldelrion with Nekr al Felèvsil
 execute if score SQ45 SIDEQUEST matches 4 if score cinematic SQ45 matches 2 at 00000000-0000-149a-0000-00000000149a if entity @a[distance=..5,gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'weapon157.name'}}}]}] run function att2:cinematic/sidequest/45/aldelrion/start_cinematic2
 
 # Step4 quest when player is close to PNJ Aldelrion with Nekr al Felèvsil

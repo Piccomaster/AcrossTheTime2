@@ -1,8 +1,8 @@
 #################################################################
-#Made by Adventquest											
-#Initialize arena for a given player							
+#Made by Adventquest
+#Initialize arena for a given player
 #t/s/m correspond to tick/second/minute
-#Only in the arena did I use pool0_5_nt (this n can be translated as "now," meaning the time taken for this challenge). 
+#Only in the arena did I use pool0_5_nt (this n can be translated as "now," meaning the time taken for this challenge).
 #In non-arena timing, I only used atricanth_m (without the n, but the meaning is the same).
 #If we want to do related achievement or reward detection, we can add it under "##boss_time over" in the "victory" file.
 

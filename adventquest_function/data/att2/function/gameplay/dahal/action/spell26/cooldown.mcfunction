@@ -18,5 +18,5 @@ execute as @e[type=XX,scores={TIP_TIME=1..}] run {
 scoreboard players remove @s TIP_TIME 1
 execute if score @s TIP_TIME matches ..0 run forceload remove ~ ~
 execute if score @s TIP_TIME matches ..0 run tp ~ -100 ~
-execute if score @s TIP_TIME matches ..0 run kill @s 
+execute if score @s TIP_TIME matches ..0 run kill @s
 }

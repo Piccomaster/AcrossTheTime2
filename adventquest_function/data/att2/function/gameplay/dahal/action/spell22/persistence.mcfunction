@@ -14,7 +14,7 @@ execute as @e[type=minecraft:phantom] unless entity @s[type=minecraft:phantom,ta
 # Keep agro turtle juvenil
 execute as @e[type=minecraft:turtle,tag=Agro] run data merge entity @s {Age:-100}
 
-# Keep the phantom estinguished 
+# Keep the phantom estinguished
 execute as @e[type=minecraft:phantom] unless entity @s[type=minecraft:phantom,tag=!ObstinacyPet1,tag=!ObstinacyPet2,tag=!ObstinacyPet3] run data merge entity @s {Fire:-2s}
 
 # Kill the agro turle in case the carrier dies or the invocation finishes

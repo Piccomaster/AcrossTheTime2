@@ -4,7 +4,7 @@
 #interfacer shotgun are hold by the player       #
 ##################################################
 
-#str 
+#str
 scoreboard players set @s ATTRIBUTE 4
 #return LUC number
 function att2:gameplay/stat/add/eq/str

@@ -11,7 +11,7 @@ scoreboard players operation @s LUC_TOT += @s LUC_EXT
 scoreboard players operation @s LUC_TOT += @s LUC_PO
 scoreboard players operation @s LUC_TOT += @s LUC_EH
 
-#CAL LUC 
+#CAL LUC
 scoreboard players operation @s LUC_DATA = @s LUC_TOT
 scoreboard players operation @s LUC_DATA *= 50 CAL
 execute store result storage att2:attribute LUC double 0.01 run scoreboard players get @s LUC_DATA

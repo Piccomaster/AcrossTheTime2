@@ -4,4 +4,4 @@
 #################################################
 
 data remove entity @s AngerTime
-data remove entity @s AngryAt 
+data remove entity @s AngryAt

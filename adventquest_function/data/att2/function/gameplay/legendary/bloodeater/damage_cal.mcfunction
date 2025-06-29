@@ -15,7 +15,7 @@ execute if score temp_value_10 CAL matches ..2 run scoreboard players set temp_v
 scoreboard players set DAHAL CAL 40
 scoreboard players operation temp_value_10 CAL *= 50 CAL
 scoreboard players operation temp_value_10 CAL /= 100 CAL
-scoreboard players operation DAHAL CAL += temp_value_10 CAL 
+scoreboard players operation DAHAL CAL += temp_value_10 CAL
 #health effect
 execute if score @s DAHAL >= DAHAL CAL run function att2:gameplay/legendary/bloodeater/healing_trigger
 #reset

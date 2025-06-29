@@ -26,7 +26,7 @@ execute in minecraft:overworld positioned -3886 117 -5581 if block ~ ~ ~ minecra
 execute in minecraft:overworld positioned -3887 122 -5589 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/adanoi
 execute in minecraft:overworld positioned -3970 80 -5504 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/adanoi
 execute in minecraft:overworld positioned -3913 92 -5599 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/adanoi
-#20 
+#20
 execute in minecraft:overworld positioned -3964 85 -5587 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/adanoi
 execute in minecraft:overworld positioned -3902 92 -5639 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/adanoi
 execute in minecraft:overworld positioned -3884 86 -5623 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/adanoi

@@ -4,7 +4,7 @@
 #################################################################
 
 #ITEM_LIFETIME default value is 0. Unlesss you don't know.
-#Disable verity for closest item: 1 
+#Disable verity for closest item: 1
 #Disable verity for item in range of 25 blocks: 2
 #Disable verity for item in range of 200 blocks: 4
 #Disable verity for all item: 8

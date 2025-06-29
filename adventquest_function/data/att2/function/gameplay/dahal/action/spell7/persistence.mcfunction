@@ -3,7 +3,7 @@
 #Keep Geyser working   						    #
 #################################################
 
-# Iteration is done on any entity (including ennemies) with the score SPELL7_EFFECT above 1 
+# Iteration is done on any entity (including ennemies) with the score SPELL7_EFFECT above 1
 scoreboard players remove @s SPELL7_EFFECT 1
 # Destruction of the position keeper
 execute if score @s SPELL7_EFFECT matches ..0 run kill @s

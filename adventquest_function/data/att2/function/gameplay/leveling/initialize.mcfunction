@@ -39,7 +39,7 @@ scoreboard players set 3 XPPROCESS 3
 scoreboard players set 2 XPPROCESS 2
 scoreboard players set superelite RANDOM 1
 
-#Also adding teams 
+#Also adding teams
 team add hostile "hostile"
 team modify hostile color black
 team modify hostile collisionRule pushOwnTeam
