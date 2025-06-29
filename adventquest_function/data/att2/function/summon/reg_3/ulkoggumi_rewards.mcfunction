@@ -3,4 +3,4 @@
 #Summon bat boss rewards  		     			 #
 ##################################################
 
-summon minecraft:bat ~ ~ ~ {Tags:["LVL0","CLASS12","Reg3","BossRewards"],Silent:1,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}
+summon minecraft:bat ~ ~ ~ {Tags:["LVL0","CLASS12","Reg3","BossRewards"],Silent:1b,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1b,show_particles:0b}]}

@@ -30,7 +30,7 @@ execute if score ice_melt SECRET matches 25.. run advancement grant @a only att2
 execute if score shulker SECRET matches 1.. run advancement grant @a only att2:secret/shulker_1
 execute if score shulker SECRET matches 3.. run advancement grant @a only att2:secret/shulker_3
 execute if score shulker SECRET matches 5.. run advancement grant @a only att2:secret/shulker_5
-execute if score shulker SECRET matches 10.. run advancement grant @a only att2:secret/shulker_10 
+execute if score shulker SECRET matches 10.. run advancement grant @a only att2:secret/shulker_10
 execute if score shulker SECRET matches 20.. run advancement grant @a only att2:secret/shulker_20
 execute if score shulker SECRET matches 35.. run advancement grant @a only att2:secret/shulker_35
 execute if score shulker SECRET matches 50.. run advancement grant @a only att2:secret/shulker_50
