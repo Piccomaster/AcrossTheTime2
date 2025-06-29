@@ -7,6 +7,6 @@
 #100.. - the quest is completed    							#
 #############################################################
 
-execute if score SQ6 SIDEQUEST matches 2 at 00000000-0000-032a-0000-00000000032a if entity @a[distance=..5,nbt={Inventory:[{{components:{"minecraft:custom_name":{translate:'item.quest.hurriel_key.name'}}}}]}] run function att2:cinematic/sidequest/6/end
+execute if score SQ6 SIDEQUEST matches 2 at 00000000-0000-032a-0000-00000000032a if entity @a[distance=..5,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.hurriel_key.name'}}}]}] run function att2:cinematic/sidequest/6/end
 #return 1->make command block runing
 return 1

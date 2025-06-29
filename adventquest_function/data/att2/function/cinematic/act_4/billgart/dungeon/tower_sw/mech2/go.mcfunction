@@ -15,7 +15,7 @@ execute if score End0 TIMER matches 20 run particle minecraft:falling_dust{block
 execute if score End0 TIMER matches 80 at @a run function att2:sound/misc/loading_energy
 execute if score End0 TIMER matches 80..199 in minecraft:the_end as @a[gamemode=spectator] run tp @s -1339 60 -560 20 10
 execute if score End0 TIMER matches 100..199 in minecraft:the_end run function att2:cinematic/act_4/billgart/dungeon/tower_sw/mech2/laser_particle
-execute if score End0 TIMER matches 120 run summon minecraft:end_crystal -1338.2 56.5 -541.0 {ShowBottom:0,beam_target:{-1365,55,-541}}
+execute if score End0 TIMER matches 120 run summon minecraft:end_crystal -1338.2 56.5 -541.0 {ShowBottom:0b,beam_target:[I;-1365,55,-541]}
 execute if score End0 TIMER matches 120 at @a run function att2:sound/misc/desintegration
 execute if score End0 TIMER matches 120..180 run particle minecraft:explosion -1363 56 -541 1 1 1 0 2 force
 execute if score End0 TIMER matches 130 at @a run function att2:sound/misc/glass_melting
