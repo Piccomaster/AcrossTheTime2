@@ -5,4 +5,4 @@
 
 
 
-give @s minecraft:glowstone_dust[custom_data={EquipmentType:"rune",Rarity:"spe"},custom_model_data={floats:[10000018]},custom_name={text:"§eLya"},lore=["{\"text\":\"§6Rune\"}","{\"text\":\"§7Tier B\"}","{\"text\":\"§7Level 35\"}"]] 1
+give @s minecraft:glowstone_dust{EquipmentType:"rune",Rarity:"spe",CustomModelData:10000018,display:{Name:"{\"text\":\"§eLya\"}","Lore":["{\"text\":\"§6Rune\"}","{\"text\":\"§7Tier B\"}","{\"text\":\"§7Level 35\"}"]}} 1
