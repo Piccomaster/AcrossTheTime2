@@ -4,7 +4,7 @@
 #################################################################
 
 ##summon
-$summon minecraft:chest_minecart ~ ~ ~ {CustomNameVisible:1b,Tags:["invminecarts.invisible_minecart","spell20_chest","New","KeepOriginalData"],Silent:1,Invulnerable:1,HasVisualFire:0,UUID:[I;0,777,0,$(NUMEROJOUEUR)],DisplayState:{Name:"barrier"},CustomName:[{translate:att2.spell20.name},{text:" - "},{text:"$(NUMEROJOUEUR)",color:dark_red}]}
+$summon minecraft:chest_minecart ~ ~ ~ {CustomNameVisible:1b,Tags:["invminecarts.invisible_minecart","spell20_chest","New","KeepOriginalData"],Silent:1b,Invulnerable:1b,HasVisualFire:0,UUID:[I;0,777,0,$(NUMEROJOUEUR)],DisplayState:{Name:"barrier"},CustomName:[{translate:att2.spell20.name},{text:" - "},{text:"$(NUMEROJOUEUR)",color:dark_red}]}
 #set score
 scoreboard players operation @e[type=chest_minecart,tag=spell20_chest,tag=New] OWNER = @s NUMEROJOUEUR
 

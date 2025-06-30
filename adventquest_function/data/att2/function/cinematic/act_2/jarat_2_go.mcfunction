@@ -13,7 +13,7 @@ execute if score Real0 TIMER matches 2 run function att2:dialogs/mainquest/act_2
 execute if score Real0 TIMER matches 39 run teleport 00000000-0000-104a-0000-00000000104a ~ 0 ~
 execute if score Real0 TIMER matches 39 run kill 00000000-0000-104a-0000-00000000104a
 
-execute if score Real0 TIMER matches 40 run data merge entity @e[x=-4653,y=78,z=-5413,distance=..2,type=minecraft:zombified_piglin,limit=1] {NoAI:0,Invulnerable:0,AngerTime:1000000}
+execute if score Real0 TIMER matches 40 run data merge entity @e[x=-4653,y=78,z=-5413,distance=..2,type=minecraft:zombified_piglin,limit=1] {NoAI:0b,Invulnerable:0,AngerTime:1000000}
 execute if score Real0 TIMER matches 40 run scoreboard players set Mainquest SIDEQUEST 10
 
 #=======================#

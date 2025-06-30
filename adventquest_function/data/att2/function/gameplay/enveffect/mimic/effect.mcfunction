@@ -6,8 +6,8 @@
 #merge rotation
 execute on passengers run data modify entity @s Rotation set from entity @e[distance=..0,limit=1,type=slime,tag=MIMIC] Rotation
 #effect
-execute if score @s MIMIC matches 1..19 run particle dust 0.0 0.667 0.0 0.4 ~ ~ ~ 0.1 0.1 0.1 0 20
-execute if score @s MIMIC matches 20..39 run particle dust 0.333 0.333 1.0 0.4 ~ ~ ~ 0.1 0.1 0.1 0 20
-execute if score @s MIMIC matches 40..59 run particle dust 0.667 0.0 0.667 0.4 ~ ~ ~ 0.1 0.1 0.1 0 20
-execute if score @s MIMIC matches 60..79 run particle dust 1.0 0.667 0.0 0.4 ~ ~ ~ 0.1 0.1 0.1 0 20
-execute if score @s MIMIC matches 80.. run particle dust 0.333 1.0 0.333 0.4 ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s MIMIC matches 1..19 run particle dust{color:[0.0,0.667,0.0],scale:0.4} ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s MIMIC matches 20..39 run particle dust{color:[0.333,0.333,1.0],scale:0.4} ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s MIMIC matches 40..59 run particle dust{color:[0.667,0.0,0.667],scale:0.4} ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s MIMIC matches 60..79 run particle dust{color:[1.0,0.667,0.0],scale:0.4} ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s MIMIC matches 80.. run particle dust{color:[0.333,1.0,0.333],scale:0.4} ~ ~ ~ 0.1 0.1 0.1 0 20

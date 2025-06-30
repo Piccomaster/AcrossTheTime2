@@ -6,7 +6,7 @@
 execute if score Real0 TIMER matches 50 positioned 7973 120.5 6788 run function att2:gameplay/boss/ouranos/ouran/tp_effect
 execute if score Real0 TIMER matches 50 positioned 7973 120 6788 run function att2:summon/reg_4/ouran
 execute if score Real0 TIMER matches 50..1200 as 00000000-0000-017b-0000-00000000017b at @s run tp @s 7973 120 6788
-execute if score Real0 TIMER matches 55 run data merge entity 00000000-0000-017b-0000-00000000017b {NoAI:0}
+execute if score Real0 TIMER matches 55 run data merge entity 00000000-0000-017b-0000-00000000017b {NoAI:0b}
 execute if score Real0 TIMER matches 60 run function att2:dialogs/mainquest/act_4/ch4_ouran_17
 execute if score Real0 TIMER matches 60 run function att2:voice/aoran/aoran36
 execute if score Real0 TIMER matches 200 run function att2:dialogs/mainquest/act_4/ch4_iio_1

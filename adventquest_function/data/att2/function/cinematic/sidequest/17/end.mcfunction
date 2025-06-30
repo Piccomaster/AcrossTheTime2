@@ -42,7 +42,7 @@ xp add @a 4500 points
 
 execute if score choice SQ17 matches 1 positioned 3429 35 3730.01 run function att2:summon/pnj/_interaction
 
-#execute if score choice SQ17 matches 1 run summon minecraft:villager 3429 35 3730.01 {Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,attributes:[{id:movement_speed,base:0.001},{id:max_health,base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}
+#execute if score choice SQ17 matches 1 run summon minecraft:villager 3429 35 3730.01 {Profession:5,Silent:1b,NoAI:1b,Invulnerable:1b,Silent:1b,PersistenceRequired:1,attributes:[{id:movement_speed,base:0.001},{id:max_health,base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}
 
 execute if score choice SQ17 matches 2 run scoreboard players add @a CHRONOTON 225
 

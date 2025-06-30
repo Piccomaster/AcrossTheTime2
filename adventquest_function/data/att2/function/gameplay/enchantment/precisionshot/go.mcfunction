@@ -3,4 +3,4 @@
 #Initialize enchantment                    						#
 #################################################################
 
-#data merge entity @s {NoGravity:1}
+#data merge entity @s {NoGravity:1b}

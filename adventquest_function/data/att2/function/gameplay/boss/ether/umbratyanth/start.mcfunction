@@ -11,7 +11,7 @@ execute as @e[type=minecraft:item,x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82] at @s
 execute as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run tag @s add NoAutoMusic
 function att2:gameplay/boss/ether/umbratyanth/destroy_minions
 execute positioned -5117 142 -6870 run function att2:summon/reg_1/umbratyanth
-execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1}
+execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1b}
 function att2:gameplay/boss/ether/umbratyanth/init_bossbar
 function att2:gameplay/checkpoint/telluron_present/elcheol3
 function att2:physicmod/reg1/ether/umbra_dark

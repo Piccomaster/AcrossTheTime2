@@ -3,7 +3,7 @@
 #Process the launch cinematic mech5					#
 #####################################################
 
-data merge entity 00000000-0000-006b-0000-00000000006b {Invulnerable:1}
+data merge entity 00000000-0000-006b-0000-00000000006b {Invulnerable:1b}
 execute as 00000000-0000-006b-0000-00000000006b at @s run tp @s -5614 171 -6350 -180 50
 execute as @a run function att2:sound/mobs/vonaheim_laughing
 

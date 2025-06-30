@@ -3,7 +3,7 @@
 #Summon a single arrow for power ray                                #
 #####################################################################
 
-summon minecraft:arrow ~ ~ ~ {Silent:1,Tags:["FNPowerRayArrow","newFNPRA"],crit:0,pickup:0,damage:10.0,life:1195.0,Color:16406787}
+summon minecraft:arrow ~ ~ ~ {Silent:1b,Tags:["FNPowerRayArrow","newFNPRA"],crit:0,pickup:0,damage:10.0,life:1195.0,Color:16406787}
 
 execute as @e[tag=FNPowerRayLauncher] store result score @s MOTIONX run data get entity @s Pos[0] 100
 execute as @e[tag=FNPowerRayLauncher] store result score @s MOTIONY run data get entity @s Pos[1] 100

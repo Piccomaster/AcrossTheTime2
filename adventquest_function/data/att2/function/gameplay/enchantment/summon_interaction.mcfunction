@@ -4,8 +4,8 @@
 #################################################################
 
 #summon set put armorstand
-execute in overworld positioned -5032.5 102 -4927.5 unless entity @e[type=armor_stand,distance=..0,tag=ENCHANTMENT,tag=GET] run summon armor_stand -5032.5 102 -4927.5 {Tags:["ENCHANTMENT","GET"],Marker:1}
-execute in overworld positioned -5032.5 102 -4927.5 unless entity @e[type=armor_stand,distance=..0,tag=ENCHANTMENT,tag=SET] run summon armor_stand -5032.5 102 -4927.5 {Tags:["ENCHANTMENT","SET"],Marker:1}
+execute in overworld positioned -5032.5 102 -4927.5 unless entity @e[type=armor_stand,distance=..0,tag=ENCHANTMENT,tag=GET] run summon armor_stand -5032.5 102 -4927.5 {Tags:["ENCHANTMENT","GET"],Marker:1b}
+execute in overworld positioned -5032.5 102 -4927.5 unless entity @e[type=armor_stand,distance=..0,tag=ENCHANTMENT,tag=SET] run summon armor_stand -5032.5 102 -4927.5 {Tags:["ENCHANTMENT","SET"],Marker:1b}
 #summon interaction
 execute in overworld positioned -5032.5 105 -4927.5 unless entity @e[type=interaction,distance=..0,tag=ENCHANTMENT,tag=INTERACT] run summon interaction -5032.5 105 -4927.5 {height:1.2,width:1.1,response:1,Tags:["ENCHANTMENT","INTERACT"]}
 #make sure item display

@@ -5,7 +5,7 @@
 
 execute if score Timer3 SERILE matches 1..200 as 00000000-0000-022b-0000-00000000022b at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.000001 ~ ~
 execute if score Timer3 SERILE matches 1 as 00000000-0000-022b-0000-00000000022b at @s run teleport @s 1543.0 15 1495.0
-execute if score Timer3 SERILE matches 1 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {NoAI:0}
+execute if score Timer3 SERILE matches 1 as 00000000-0000-022b-0000-00000000022b run data merge entity @s {NoAI:0b}
 
 execute if score Timer3 SERILE matches 2 run data merge entity 00000000-0000-022b-0000-00000000022b {attributes:[{id:movement_speed,base:6.0}]}
 execute if score Timer3 SERILE matches 10 run data merge entity 00000000-0000-022b-0000-00000000022b {attributes:[{id:movement_speed,base:0.05}]}

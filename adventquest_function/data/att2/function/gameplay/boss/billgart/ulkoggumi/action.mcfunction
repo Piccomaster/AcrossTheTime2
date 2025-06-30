@@ -109,7 +109,7 @@ execute if score Ulkoggumi_ladder5 BILLGART matches 1500 run function att2:physi
 execute if score Ulkoggumi_ladder5 BILLGART matches 1500 positioned -1125 108 -560 run function att2:sound/door/simple_glassdoor
 
 # TP boss
-execute if score Ulkoggumi_timer2 BILLGART matches 90 as 00000000-0000-010b-0000-00000000010b at @s run data merge entity @s {Invulnerable:1}
+execute if score Ulkoggumi_timer2 BILLGART matches 90 as 00000000-0000-010b-0000-00000000010b at @s run data merge entity @s {Invulnerable:1b}
 execute if score Ulkoggumi_timer2 BILLGART matches 90..110 as 00000000-0000-010b-0000-00000000010b at @s run particle minecraft:item{item:"minecraft:orange_wool"} ~ ~1 ~ 0.5 0.5 0.5 0 10
 execute if score Ulkoggumi_timer2 BILLGART matches 100 in minecraft:the_end as @p[x=-1125,y=108,z=-560] run function att2:gameplay/boss/billgart/ulkoggumi/choose_pos
 execute if score Ulkoggumi_timer2 BILLGART matches 110 as 00000000-0000-010b-0000-00000000010b at @s run data merge entity @s {Invulnerable:0}

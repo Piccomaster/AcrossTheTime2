@@ -13,7 +13,7 @@ execute if score Shadow_attack SQ38 matches 2 if score Shadow_light3 SQ38 matche
 execute if score Shadow_attack SQ38 matches 2 if score Shadow_light4 SQ38 matches 0 positioned -4375 56.5 -5096 run function att2:gameplay/boss/schestrown/shadow/light_effect
 execute if score Shadow_attack SQ38 matches 2 if score Shadow_light4 SQ38 matches 0 positioned -4375 56.5 -5096 as @a[distance=..3,gamemode=adventure] at @s run function att2:gameplay/boss/schestrown/shadow/light4_true
 execute if score Shadow_attack SQ38 matches 2 if score Shadow_light1 SQ38 matches 1 if score Shadow_light2 SQ38 matches 1 if score Shadow_light3 SQ38 matches 1 if score Shadow_light4 SQ38 matches 1 run function att2:gameplay/boss/schestrown/shadow/lights_true
-execute if score Shadow_attack SQ38 matches 3 as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] at @s run particle minecraft:dust -0.01 -0.01 -0.01 5 ~ ~1.75 ~ 0.5 0.5 0.5 0.01 10
+execute if score Shadow_attack SQ38 matches 3 as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] at @s run particle minecraft:dust{color:[-0.01,-0.01,-0.01],scale:4} ~ ~1.75 ~ 0.5 0.5 0.5 0.01 10
 
 # Shadow minion detection
 execute if score Shadow_attack SQ38 matches 3 unless entity @e[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,type=minecraft:silverfish] run function att2:gameplay/boss/schestrown/shadow/darkarea_end

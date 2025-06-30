@@ -3,7 +3,7 @@
 #Stock lvl1										                #
 #################################################################
 
-$execute as @e[type=chest_minecart,tag=spell20_chest,scores={OWNER=$(NUMEROJOUEUR)},limit=1] at @s run summon minecraft:chest_minecart ~ ~ ~ {CustomDisplayTile:1b,CustomNameVisible:1b,NoGravity:1b,Tags:["invminecarts.invisible_minecart","spell20_chest","DROP","New"],Silent:1,Invulnerable:1,HasVisualFire:0}
+$execute as @e[type=chest_minecart,tag=spell20_chest,scores={OWNER=$(NUMEROJOUEUR)},limit=1] at @s run summon minecraft:chest_minecart ~ ~ ~ {CustomDisplayTile:1b,CustomNameVisible:1b,NoGravity:1b,Tags:["invminecarts.invisible_minecart","spell20_chest","DROP","New"],Silent:1b,Invulnerable:1b,HasVisualFire:0}
 
 #set owner
 scoreboard players operation @e[type=chest_minecart,tag=spell20_chest,tag=DROP,tag=New,limit=1] OWNER = @s OWNER

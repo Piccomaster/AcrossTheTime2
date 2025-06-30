@@ -6,7 +6,7 @@
 stopsound @a
 execute as @a run tag @s add NoAutoMusic
 execute positioned 7973 120 6788 run function att2:summon/reg_4/ouran
-data merge entity 00000000-0000-017b-0000-00000000017b {NoAI:0}
+data merge entity 00000000-0000-017b-0000-00000000017b {NoAI:0b}
 execute positioned 7973 120 6788 run function att2:gameplay/boss/ouranos/ouran/tp_effect
 execute positioned 8072 156 6773 run function att2:summon/reg_4/ouran_swarmshield
 execute positioned 7987 125 6772 run function att2:summon/reg_4/ouran_bells

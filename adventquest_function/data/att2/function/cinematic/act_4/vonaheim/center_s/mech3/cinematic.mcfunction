@@ -9,8 +9,8 @@ execute if score Real0 TIMER matches 1..350 at 00000000-0000-006b-0000-000000000
 execute if score Real0 TIMER matches 1..400 run particle minecraft:instant_effect -5584 109 -6420 1 1 1 0 10 normal
 execute if score Real0 TIMER matches 30 positioned -5569 109 -6420 run function att2:summon/reg_1/vonaheim
 execute if score Real0 TIMER matches 40 at @a run function att2:sound/mobs/vonaheim_evoking
-execute if score Real0 TIMER matches 40 run data merge entity 00000000-0000-006b-0000-00000000006b {Invulnerable:1,NoAI:1,Rotation:[90.0f,0.0f]}
-execute if score Real0 TIMER matches 60 as @e[type=minecraft:squid,x=-5584,y=109,z=-6420,distance=..5] run data merge entity @s {Glowing:1}
+execute if score Real0 TIMER matches 40 run data merge entity 00000000-0000-006b-0000-00000000006b {Invulnerable:1b,NoAI:1b,Rotation:[90.0f,0.0f]}
+execute if score Real0 TIMER matches 60 as @e[type=minecraft:squid,x=-5584,y=109,z=-6420,distance=..5] run data merge entity @s {Glowing:1b}
 execute if score Real0 TIMER matches 100 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
 execute if score Real0 TIMER matches 100..300 as @e[type=minecraft:squid,x=-5580,y=109,z=-6420,distance=..15] at @s run tp @s ~-0.03 ~ ~
 execute if score Real0 TIMER matches 100..300 as 00000000-0000-006b-0000-00000000006b at @s run tp @s ~-0.05 ~ ~

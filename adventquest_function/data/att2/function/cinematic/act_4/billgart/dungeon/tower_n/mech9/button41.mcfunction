@@ -4,7 +4,7 @@
 ##################################################
 
 execute as @e[x=-1239,y=104,z=-735,distance=..50,type=minecraft:arrow] run kill @s
-clear @a minecraft:tipped_arrow{CustomPotionColor:1347617}
+clear @a minecraft:tipped_arrow[potion_contents={custom_color:1347617}]
 function att2:physicmod/reg3/dungeon/tower_n/mech9_button41
 execute positioned -1239 105 -727 run function att2:sound/misc/energy_impact
 execute positioned -1239 105 -727 run function att2:sound/misc/resolution
