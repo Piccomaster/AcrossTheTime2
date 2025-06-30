@@ -11,7 +11,7 @@ execute at @a run function att2:sound/misc/hugeblock_falling
 execute at @a run function att2:sound/misc/glass_breaking
 execute at @a run function att2:sound/mobs/vonaheim_evoking
 
-data merge entity 00000000-0000-006b-0000-00000000006b {Invulnerable:0,AbsorptionAmount:1}
+data merge entity 00000000-0000-006b-0000-00000000006b {Invulnerable:0b,AbsorptionAmount:1}
 scoreboard players set center_s_mech5 VONAHEIM 2
 #return 1->make command block runing
 return 1

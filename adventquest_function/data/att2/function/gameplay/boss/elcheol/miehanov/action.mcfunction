@@ -30,7 +30,7 @@ execute if score MiehTimer VONAHEIM matches 165 positioned -5599 166 -6354 run f
 execute if score MiehTimer VONAHEIM matches 170 positioned -5602 166 -6351 run function att2:gameplay/boss/elcheol/miehanov/summon_minions
 execute if score MiehTimer VONAHEIM matches 175 positioned -5606 166 -6349 run function att2:gameplay/boss/elcheol/miehanov/summon_minions
 execute if score MiehTimer VONAHEIM matches 450 at @a run function att2:sound/mobs/vonaheim_laughing
-execute if score MiehTimer VONAHEIM matches 450 run data merge entity 00000000-0000-008b-0000-00000000008b {Invulnerable:0,Glowing:0}
+execute if score MiehTimer VONAHEIM matches 450 run data merge entity 00000000-0000-008b-0000-00000000008b {Invulnerable:0b,Glowing:0}
 
 
 #=======================#

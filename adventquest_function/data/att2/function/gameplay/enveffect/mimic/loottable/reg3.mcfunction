@@ -33,6 +33,6 @@ execute if score CLASS MIMIC matches 100.. run tag @s add CLASS21
 #set name
 execute as @e[tag=MIMIC,type=item_display,distance=..1] run function att2:gameplay/enveffect/mimic/name
 #give buff
-data merge entity @s {Invulnerable:0}
+data merge entity @s {Invulnerable:0b}
 effect give @e[tag=MIMIC,type=slime] resistance infinite 4 true
 effect give @e[tag=MIMIC,type=slime] weakness infinite 255 true

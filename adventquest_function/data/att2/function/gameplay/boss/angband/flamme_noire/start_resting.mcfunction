@@ -12,7 +12,7 @@ function att2:cinematic/tp_effect/namrin
 execute in minecraft:the_nether run function att2:physicmod/reg2/source/fn_pose_resting
 execute as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_breathe_out
 function att2:gameplay/boss/angband/flamme_noire/switch_eyes_closed
-data merge entity 00000000-0000-005b-0000-00000000006b {Invulnerable:0}
+data merge entity 00000000-0000-005b-0000-00000000006b {Invulnerable:0b}
 kill @e[type=minecraft:armor_stand,tag=blackFire,x=3513,y=60,z=4951,distance=..30]
 kill @e[type=minecraft:end_crystal,x=3545,y=70,z=4887,dx=-77,dy=-40,dz=43]
 

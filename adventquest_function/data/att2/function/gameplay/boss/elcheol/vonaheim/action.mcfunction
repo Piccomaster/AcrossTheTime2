@@ -3,7 +3,7 @@
 #Process action for Vonaheim as it is still alive in Phase 0        #
 #####################################################################
 
-execute if score VonTimer VONAHEIM matches 10 run data merge entity 00000000-0000-006b-0000-00000000006b {NoAI:0b,Invulnerable:0}
+execute if score VonTimer VONAHEIM matches 10 run data merge entity 00000000-0000-006b-0000-00000000006b {NoAI:0b,Invulnerable:0b}
 execute if score VonTimer VONAHEIM matches 750 at @a run function att2:sound/ambience/incoming2
 execute if score VonTimer VONAHEIM matches 800 as 00000000-0000-006b-0000-00000000006b at @s run tp @s -5614 202 -6518 0 0
 execute if score VonTimer VONAHEIM matches 800 run data merge entity 00000000-0000-006b-0000-00000000006b {NoAI:1b,Invulnerable:1b,Rotation:[0.0,0.0]}
