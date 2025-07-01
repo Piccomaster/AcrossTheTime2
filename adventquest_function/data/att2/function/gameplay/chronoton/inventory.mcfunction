@@ -56,3 +56,5 @@ scoreboard players operation @s CHRONOTON += big CHRONOTON
 scoreboard players operation @s CHRONOTON += diamond CHRONOTON
 scoreboard players operation @s CHRONOTON += amethyst CHRONOTON
 scoreboard players operation @s CHRONOTON += ruby CHRONOTON
+#sound
+function att2:sound/misc/coins3
