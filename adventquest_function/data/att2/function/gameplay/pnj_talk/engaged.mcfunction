@@ -153,7 +153,5 @@ execute as 00000000-0000-154a-0000-00000000154a if entity @s[distance=..4] run f
 ##spell34 clear
 function att2:gameplay/dahal/action/spell34/clear_npc_marker
 function att2:gameplay/dahal/action/spell34/clear_quest_marker
-#fix
-effect give @e[type=minecraft:villager] minecraft:invisibility infinite 0 true
-execute as @e[type=minecraft:item_frame] at @s unless entity @s[nbt={Invulnerable:1b}] run data merge entity @s {Invulnerable:1b}
-execute as @e[tag=Recycler,type=armor_stand] at @s run data merge entity @s {Marker:1b,NoGravity:1b,Motion:[0.0d,0.0d,0.0d]}
+#revoke test
+advancement revoke @s only att2_test:test_interacted/pnj_talk
