@@ -3,4 +3,4 @@
 #Obtain War Lord                                 #
 ##################################################
 
-give @a minecraft:bow[minecraft:custom_model_data={floats:[10000101]},minecraft:lore=[{translate:item.legendary.warlord.lore.1},{translate:item.legendary.warlord.lore.2},{translate:item.legendary.warlord.lore.3}],enchantments={"power":8},minecraft:unbreakable={},minecraft:custom_name={translate:item.legendary.warlord.name},minecraft:custom_data={EquipmentID:"warlord",EquipmentType:"meleeWeapon",Rarity:"myt"}] 1
+give @s minecraft:bow[minecraft:custom_model_data={floats:[10000101]},minecraft:lore=[{translate:item.legendary.warlord.lore.1},{translate:item.legendary.warlord.lore.2},{translate:item.legendary.warlord.lore.3}],enchantments={"power":8},minecraft:unbreakable={},minecraft:custom_name={translate:item.legendary.warlord.name},minecraft:custom_data={EquipmentID:"warlord",EquipmentType:"meleeWeapon",Rarity:"myt"}] 1
