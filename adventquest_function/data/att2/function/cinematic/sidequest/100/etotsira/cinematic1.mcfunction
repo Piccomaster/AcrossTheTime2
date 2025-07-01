@@ -5,7 +5,7 @@
 
 execute if score sq100 TIMER matches 10..780 as 00000000-0000-008b-0000-00000000008a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score sq100 TIMER matches 10 run function att2:physicmod/reg1/earndhel/etotsira_doorhouse_close
-execute if score sq100 TIMER matches 10 run fill 30001 74 29964 30003 74 29964 minecraft:barrier   
+execute if score sq100 TIMER matches 10 run fill 30001 74 29964 30003 74 29964 minecraft:barrier
 execute if score sq100 TIMER matches 10 run function att2:dialogs/sidequest/sq100/etotsira_old/dialog_1
 execute if score sq100 TIMER matches 10 run tellraw @a {"text": "[-->]", "color": "green", "hover_event": {"action": "show_text", "value": "..."}, "click_event": {"action": "run_command", "command": "/execute if entity @a[distance=..7,gamemode=adventure] if score sq100 TIMER matches 10..88 run scoreboard players set sq100 TIMER 89"}}
 execute if score sq100 TIMER matches 90 run function att2:dialogs/sidequest/sq100/player/dialog_1

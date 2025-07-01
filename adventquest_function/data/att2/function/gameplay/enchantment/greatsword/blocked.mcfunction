@@ -20,7 +20,7 @@ execute store result score temp_value_2 CAL run attribute @s attack_damage get
 #CAL TIME
 scoreboard players operation @s GREATSWORD_TIME = temp_value_1 CAL
 scoreboard players operation @s GREATSWORD_TIME *= 20 CAL
-#CAL 
+#CAL
 scoreboard players operation temp_value_1 CAL *= 4 CAL
 scoreboard players operation temp_value_1 CAL += 20 CAL
 scoreboard players operation temp_value_1 CAL *= @s GREATSWORD

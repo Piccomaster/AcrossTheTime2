@@ -6,7 +6,7 @@
 scoreboard players set FlammeNoire ANGOR_BOSS 200
 
 # Hitbox Invulnerable, Scream, Eyes Move, Body movement retreated, Add blackFire, Shaking
-data merge entity 00000000-0000-005b-0000-00000000006b {Invulnerable:1}
+data merge entity 00000000-0000-005b-0000-00000000006b {Invulnerable:1b}
 execute as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_suprised
 execute in minecraft:the_nether run function att2:physicmod/reg2/source/fn_pose_normal
 scoreboard players set @a[scores={DIMENSION=6}] SHAKE_L 30

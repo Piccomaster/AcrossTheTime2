@@ -6,7 +6,7 @@
 #reset
 function att2:gameplay/enchantment/remove_interaction
 function att2:gameplay/enchantment/reset
-#get lvl data 
+#get lvl data
 execute store result score forcepush ENCHANTMENT run data get entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:forcepush"
 execute unless score forcepush ENCHANTMENT matches 0.. run scoreboard players set forcepush ENCHANTMENT 0
 

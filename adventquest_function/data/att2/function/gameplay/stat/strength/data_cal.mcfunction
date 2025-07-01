@@ -3,7 +3,7 @@
 #Sum all stat for dahal regen                    #
 ##################################################
 
-#CAL STR 
+#CAL STR
 scoreboard players operation @s STR_DATA = @s STR_TOT
 scoreboard players operation @s STR_DATA *= @s STR_DATA
 scoreboard players operation @s STR_DATA *= 66 CAL

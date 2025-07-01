@@ -17,5 +17,5 @@ scoreboard players operation @s HAS_DATA *= 5 CAL
 scoreboard players operation @s HAS_DATA += 100 CAL
 scoreboard players operation @s HAS_DATA *= 4 CAL
 
-execute store result storage att2:attribute HAS double 0.01 run scoreboard players get @s HAS_DATA  
+execute store result storage att2:attribute HAS double 0.01 run scoreboard players get @s HAS_DATA
 function att2:gameplay/stat/haste/attribute with storage att2:attribute

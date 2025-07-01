@@ -11,7 +11,7 @@ scoreboard players operation @s STR_TOT += @s STR_EXT
 scoreboard players operation @s STR_TOT += @s STR_PO
 scoreboard players operation @s STR_TOT += @s STR_EH
 
-#CAL STR 
+#CAL STR
 scoreboard players operation @s STR_DATA = @s STR_TOT
 scoreboard players operation @s STR_DATA *= @s STR_DATA
 scoreboard players operation @s STR_DATA *= 50 CAL

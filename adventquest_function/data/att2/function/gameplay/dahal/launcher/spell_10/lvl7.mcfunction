@@ -5,8 +5,8 @@
 
 clear @s minecraft:carrot_on_a_stick[custom_model_data={floats:[1000001]},damage=64,custom_data={Dahal:"launcher",Launch:false,Spell:"spell10"}]
 
-clear @s minecraft:written_book[custom_data={Rarity:"epi",Dahal:"book",Spell:"spell10"}}
- 
+clear @s minecraft:written_book[custom_data={Rarity:"epi",Dahal:"book",Spell:"spell10"}]
+
 give @s[scores={LANGUAGE=0}] minecraft:carrot_on_a_stick[custom_model_data={floats:[1000001]},damage=64,custom_data={Dahal:"launcher",Launch:false,Spell:"spell10"},unbreakable={},custom_name={"text":"§cSecousse§8-","extra":[{"text":"lvl7","color":"#A60DFF","italic":false}]},lore=[{"text":"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹"},{"text":"§8⧼§4〈 §c✧§4〉§8⧽"},{"text":"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿"}]] 1
 give @s[scores={LANGUAGE=1}] minecraft:carrot_on_a_stick[custom_model_data={floats:[1000001]},damage=64,custom_data={Dahal:"launcher",Launch:false,Spell:"spell10"},unbreakable={},custom_name={"text":"§cEarthquake§8-","extra":[{"text":"lvl7","color":"#A60DFF","italic":false}]},lore=[{"text":"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹"},{"text":"§8⧼§4〈 §c✧§4〉§8⧽"},{"text":"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿"}]] 1
 give @s[scores={LANGUAGE=2}] minecraft:carrot_on_a_stick[custom_model_data={floats:[1000001]},damage=64,custom_data={Dahal:"launcher",Launch:false,Spell:"spell10"},unbreakable={},custom_name={"text":"§c地震§8-","extra":[{"text":"lvl7","color":"#A60DFF","italic":false}]},lore=[{"text":"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹"},{"text":"§8⧼§4〈 §c✧§4〉§8⧽"},{"text":"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿"}]] 1

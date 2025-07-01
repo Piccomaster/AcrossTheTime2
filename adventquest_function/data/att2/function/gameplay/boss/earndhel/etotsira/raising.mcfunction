@@ -27,7 +27,7 @@ execute if score Real0 TIMER matches 200..250 as @a at 00000000-0000-008c-0000-0
 execute if score Real0 TIMER matches 230..250 as @a at 00000000-0000-008c-0000-00000000008a run particle minecraft:explosion ~ ~1 ~ 0 0 0 1 1 force @a
 execute if score Real0 TIMER matches 250 run stopsound @a block minecraft:forcefield
 execute if score Real0 TIMER matches 250 run function att2:physicmod/reg1/earndhel/etotsira_arena_darkness
-execute if score Real0 TIMER matches 250 run data merge entity 00000000-0000-008c-0000-00000000008a {NoAI:0}
+execute if score Real0 TIMER matches 250 run data merge entity 00000000-0000-008c-0000-00000000008a {NoAI:0b}
 
 execute if score Real0 TIMER matches 252 run scoreboard players set Etotsira EARNDHEL 1
 execute if score Real0 TIMER matches ..251 run function att2:cinematic/real0_iteration

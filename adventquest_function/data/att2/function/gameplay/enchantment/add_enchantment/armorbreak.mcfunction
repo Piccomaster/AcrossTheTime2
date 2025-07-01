@@ -13,4 +13,4 @@ scoreboard players operation stock RUNE_POWDER -= rune_cost ENCHANTMENT
 function att2:dialogs/gameplay/enchantment/materials_reduce
 #add enchantment
 data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:armorbreak"
-$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:armorbreak $(armorbreak) 
+$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:armorbreak $(armorbreak)

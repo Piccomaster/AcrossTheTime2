@@ -38,7 +38,7 @@ function att2:gameplay/legendary/bloodeater/using/health_reduce with storage att
 
 
 ##particle
-function att2:gameplay/legendary/bloodeater/using/particle 
+function att2:gameplay/legendary/bloodeater/using/particle
 #reset
 scoreboard players reset @s BE_USING
 scoreboard players reset temp_value_10 CAL

@@ -15,7 +15,7 @@ particle minecraft:soul_fire_flame ~ ~1 ~ 0 0 0 1 60 normal
 particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.1 0.1 0.1 0.1 20 normal
 execute as @a[distance=..10] run function att2:sound/dahal/spell3_effect
 
-scoreboard players remove @s DAHAL 40 
+scoreboard players remove @s DAHAL 40
 function att2:gameplay/dahal/action/spell3/cooldown
 scoreboard players add @s SPELL3_LVL 1
 function att2:gameplay/dahal/bonus_xp

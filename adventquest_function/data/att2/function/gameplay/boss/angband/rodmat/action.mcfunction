@@ -17,7 +17,7 @@ execute if score Rodmat_timer1 SQ45 matches 750 run function att2:gameplay/boss/
 
 # Rodmat minion expulsing
 execute if score Rodmat_timer1 SQ45 matches 5..250 run tp @e[nbt={UUID:[I;0,284,0,284]},limit=1] 3751 88 4386 -90 ~
-execute if score Rodmat_timer1 SQ45 matches 5 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Glowing:0,NoAI:1,Invulnerable:1}
+execute if score Rodmat_timer1 SQ45 matches 5 run data merge entity @e[nbt={UUID:[I;0,284,0,284]},limit=1] {Glowing:0,NoAI:1b,Invulnerable:1b}
 execute if score Rodmat_timer1 SQ45 matches 10 at @a run function att2:sound/misc/desintegration
 execute if score Rodmat_timer1 SQ45 matches 50 at @a run function att2:sound/mobs/myrath_horror
 execute if score Rodmat_timer1 SQ45 matches 75 run function att2:gameplay/misc/position/get_x_1000

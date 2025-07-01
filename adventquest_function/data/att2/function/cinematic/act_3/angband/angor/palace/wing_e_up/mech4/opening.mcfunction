@@ -4,7 +4,7 @@
 #########################################################
 
 clear @s minecraft:tripwire_hook[custom_name={translate:'item.quest.little_mechanical_element.name'}] 1
-summon minecraft:armor_stand 3546.70 83.24 4555.30 {Rotation:[-180.0f,0.0f],equipment:{mainhand:{count:1,id:"minecraft:tripwire_hook"},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1,DisabledSlots:2039583,Small:1b,Pose:{RightArm:[-90f,0f,0f]},Tags:["gear2"]}
+summon minecraft:armor_stand 3546.70 83.24 4555.30 {Rotation:[-180.0f,0.0f],equipment:{mainhand:{count:1,id:"minecraft:tripwire_hook"},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:2039583,Small:1b,Pose:{RightArm:[-90f,0f,0f]},Tags:["gear2"]}
 scoreboard players set wingeu_mech4 ANGOR 1
 
 execute in minecraft:the_nether run function att2:physicmod/reg2/angor_palace/wing_eu/mech4_button1

@@ -89,8 +89,8 @@ execute if score Timer2 SERILE matches 100..149 as @e[type=minecraft:wither_skel
 execute if score Timer2 SERILE matches 150..199 as @e[type=minecraft:wither_skeleton,tag=Bastion] at @s anchored feet facing entity @e[type=minecraft:armor_stand,tag=SphereCenter,limit=1] feet run teleport @s ^ ^0.02 ^0.5 ~ ~
 execute if score Timer2 SERILE matches 200 at @a run function att2:sound/misc/spike_contract
 execute if score Timer2 SERILE matches 250 as @e[type=minecraft:wither_skeleton,tag=Bastion] at @s run teleport @s ~ ~ ~ ~180 ~
-execute if score Timer2 SERILE matches 300 as 00000000-0000-022b-0000-00000000009b at @s run data merge entity @s {Invulnerable:1}
-execute if score Timer2 SERILE matches 300 as @e[type=minecraft:end_crystal,x=2326,y=100,z=1945,distance=..10] at @s run data merge entity @s {Glowing:1}
+execute if score Timer2 SERILE matches 300 as 00000000-0000-022b-0000-00000000009b at @s run data merge entity @s {Invulnerable:1b}
+execute if score Timer2 SERILE matches 300 as @e[type=minecraft:end_crystal,x=2326,y=100,z=1945,distance=..10] at @s run data merge entity @s {Glowing:1b}
 execute if score Timer2 SERILE matches 301.. run scoreboard players set Timer2 SERILE 0
 
 # Launch Stage 1

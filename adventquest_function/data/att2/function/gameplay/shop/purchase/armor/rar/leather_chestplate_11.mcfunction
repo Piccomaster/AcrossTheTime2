@@ -5,6 +5,6 @@
 
 #
 execute if score @s CHRONOTON < armor11 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if score @s CHRONOTON >= armor11 PRICES run function att2:gameplay/shop/effect 
-execute if score @s CHRONOTON >= armor11 PRICES run function att2:items/armor/rar/leather_chestplate_11 
+execute if score @s CHRONOTON >= armor11 PRICES run function att2:gameplay/shop/effect
+execute if score @s CHRONOTON >= armor11 PRICES run function att2:items/armor/rar/leather_chestplate_11
 execute if score @s CHRONOTON >= armor11 PRICES run scoreboard players operation @s CHRONOTON -= armor11 PRICES

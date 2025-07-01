@@ -11,6 +11,6 @@ scoreboard players set Boss UMBRATYANTH 3
 bossbar set minecraft:umbratyanth color purple
 execute at @a run function att2:sound/mobs/umbratyanth_attack
 execute positioned -5117 130 -6870 run function att2:summon/reg_1/umbratyanth_parts
-execute as 00000000-0000-012c-0000-00000000012c run data merge entity @s {Invulnerable:0}
-execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1}
+execute as 00000000-0000-012c-0000-00000000012c run data merge entity @s {Invulnerable:0b}
+execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1b}
 tag 00000000-0000-012c-0000-00000000012c remove UmbraParticle

@@ -25,7 +25,7 @@ execute at @s anchored eyes positioned ^ ^-0.5 ^4.5 run function att2:gameplay/d
 execute at @s anchored eyes positioned ^ ^-0.5 ^4.8 run function att2:gameplay/dahal/action/spell4/ray/2
 execute at @s anchored eyes positioned ^ ^-0.5 ^5.1 run function att2:gameplay/dahal/action/spell4/ray/2
 tag @s remove SPLAUNCH
-scoreboard players remove @s DAHAL 125 
+scoreboard players remove @s DAHAL 125
 function att2:gameplay/dahal/action/spell4/cooldown
 scoreboard players add @s SPELL4_LVL 1
 function att2:gameplay/dahal/bonus_xp

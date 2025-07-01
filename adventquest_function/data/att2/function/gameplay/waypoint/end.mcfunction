@@ -20,7 +20,7 @@ effect give @s minecraft:slow_falling 2 1 true
 effect give @s minecraft:jump_boost 5 255 true
 
 particle minecraft:enchant ~ ~ ~ 3 2 3 2 1000
-particle minecraft:block prismarine ~ ~ ~ 2 0 2 0.5 500
+particle minecraft:block{block_state:prismarine} ~ ~ ~ 2 0 2 0.5 500
 particle cloud ~ ~ ~ 1 1 1 0.3 50
 
 tag @s remove WaypointON

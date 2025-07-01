@@ -6,7 +6,7 @@
 #get score
 #dahal reduce 50%
 scoreboard players operation temp_value_10 CAL = @s DAHALMAX
-scoreboard players operation temp_value_10 CAL *= 50 CAL 
+scoreboard players operation temp_value_10 CAL *= 50 CAL
 scoreboard players operation temp_value_10 CAL /= 100 CAL
 #get level -> base damage up|attack speed up | luck effect add(time limit)
 #base damage | attack speed cal | per 5 level add 2 damage and add 0.1 attack speed

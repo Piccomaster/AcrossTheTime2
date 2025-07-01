@@ -11,7 +11,7 @@ scoreboard players set @s tp_point_set_a 1
 ##Kill the previous armor stand within the loading range.
 execute at @s as @e[type=armor_stand,scores={SPELL32_DATA_A=0..},tag=SPELL32_SET_A] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell32/kill
 ##summon
-summon minecraft:armor_stand ~ ~ ~ {Marker:1,CustomName:[{translate:att2.spell32.armor_stand.set_a.name}],CustomNameVisible:true,Invulnerable:true,Invisible:true,NoGravity:true,Tags:["SPELL32_SET","SPELL32_SET_A","New"]}
+summon minecraft:armor_stand ~ ~ ~ {Marker:1b,CustomName:[{translate:att2.spell32.armor_stand.set_a.name}],CustomNameVisible:true,Invulnerable:true,Invisible:true,NoGravity:true,Tags:["SPELL32_SET","SPELL32_SET_A","New"]}
 ##add forceload
 forceload add ~ ~
 ##The player calculates the armor stand number for subsequent calculations

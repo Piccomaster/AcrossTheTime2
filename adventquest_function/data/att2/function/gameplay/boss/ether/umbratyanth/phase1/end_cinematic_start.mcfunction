@@ -17,7 +17,7 @@ scoreboard players set Boss UMBRATYANTH 2
 tag 00000000-0000-012c-0000-00000000012c add UmbraParticle
 time set 6000
 execute as 00000000-0000-013c-0000-00000000013c at @s run teleport @s -5117 121 -6870
-execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1}
-execute as 00000000-0000-012c-0000-00000000012c run data merge entity @s {Invulnerable:1}
+execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1b}
+execute as 00000000-0000-012c-0000-00000000012c run data merge entity @s {Invulnerable:1b}
 
 scoreboard players set @a MUSIC_BOSS 0

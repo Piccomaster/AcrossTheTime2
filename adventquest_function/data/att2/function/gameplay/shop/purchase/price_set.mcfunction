@@ -1243,7 +1243,7 @@ scoreboard players operation weapon197 PRICES /= 100 discount_calc
 scoreboard players set weapon214 PRICES 225
 scoreboard players operation weapon214 PRICES *= discount discount_calc
 scoreboard players operation weapon214 PRICES /= 100 discount_calc
-scoreboard players set weapon246 PRICES 225 
+scoreboard players set weapon246 PRICES 225
 scoreboard players operation weapon246 PRICES *= discount discount_calc
 scoreboard players operation weapon246 PRICES /= 100 discount_calc
 scoreboard players set weapon247 PRICES 225
@@ -2412,7 +2412,7 @@ scoreboard players operation mending_leg PRICES /= 100 discount_calc
 scoreboard players set mending_ult PRICES 1000
 scoreboard players operation mending_ult PRICES *= discount discount_calc
 scoreboard players operation mending_ult PRICES /= 100 discount_calc
-#misc 
+#misc
 scoreboard players set coal PRICES 5
 scoreboard players operation coal PRICES *= discount discount_calc
 scoreboard players operation coal PRICES /= 100 discount_calc
@@ -2439,52 +2439,52 @@ scoreboard players operation wither_arrow_1 PRICES *= discount discount_calc
 scoreboard players operation wither_arrow_1 PRICES /= 100 discount_calc
 scoreboard players set wither_arrow_2 PRICES 10
 scoreboard players operation wither_arrow_2 PRICES *= discount discount_calc
-scoreboard players operation wither_arrow_2 PRICES /= 100 discount_calc  
+scoreboard players operation wither_arrow_2 PRICES /= 100 discount_calc
 scoreboard players set spectral_arrow_0 PRICES 4
 scoreboard players operation spectral_arrow_0 PRICES *= discount discount_calc
-scoreboard players operation spectral_arrow_0 PRICES /= 100 discount_calc 
+scoreboard players operation spectral_arrow_0 PRICES /= 100 discount_calc
 scoreboard players set spectral_arrow_1 PRICES 10
 scoreboard players operation spectral_arrow_1 PRICES *= discount discount_calc
-scoreboard players operation spectral_arrow_1 PRICES /= 100 discount_calc 
+scoreboard players operation spectral_arrow_1 PRICES /= 100 discount_calc
 #fishing##
 #rod
 scoreboard players set rod_com PRICES 100
 scoreboard players operation rod_com PRICES *= discount discount_calc
-scoreboard players operation rod_com PRICES /= 100 discount_calc 
+scoreboard players operation rod_com PRICES /= 100 discount_calc
 scoreboard players set rod_unc PRICES 150
 scoreboard players operation rod_unc PRICES *= discount discount_calc
-scoreboard players operation rod_unc PRICES /= 100 discount_calc 
+scoreboard players operation rod_unc PRICES /= 100 discount_calc
 scoreboard players set rod_rar PRICES 300
 scoreboard players operation rod_rar PRICES *= discount discount_calc
-scoreboard players operation rod_rar PRICES /= 100 discount_calc 
+scoreboard players operation rod_rar PRICES /= 100 discount_calc
 scoreboard players set rod_epi PRICES 500
 scoreboard players operation rod_epi PRICES *= discount discount_calc
-scoreboard players operation rod_epi PRICES /= 100 discount_calc 
+scoreboard players operation rod_epi PRICES /= 100 discount_calc
 scoreboard players set rod_leg PRICES 600
 scoreboard players operation rod_leg PRICES *= discount discount_calc
-scoreboard players operation rod_leg PRICES /= 100 discount_calc 
+scoreboard players operation rod_leg PRICES /= 100 discount_calc
 scoreboard players set rod_ult PRICES 900
 scoreboard players operation rod_ult PRICES *= discount discount_calc
-scoreboard players operation rod_ult PRICES /= 100 discount_calc 
+scoreboard players operation rod_ult PRICES /= 100 discount_calc
 #bait
 scoreboard players set bait_com PRICES 20
 scoreboard players operation bait_com PRICES *= discount discount_calc
-scoreboard players operation bait_com PRICES /= 100 discount_calc 
+scoreboard players operation bait_com PRICES /= 100 discount_calc
 scoreboard players set bait_unc PRICES 40
 scoreboard players operation bait_unc PRICES *= discount discount_calc
-scoreboard players operation bait_unc PRICES /= 100 discount_calc 
+scoreboard players operation bait_unc PRICES /= 100 discount_calc
 scoreboard players set bait_rar PRICES 60
 scoreboard players operation bait_rar PRICES *= discount discount_calc
-scoreboard players operation bait_rar PRICES /= 100 discount_calc 
+scoreboard players operation bait_rar PRICES /= 100 discount_calc
 scoreboard players set bait_epi PRICES 80
 scoreboard players operation bait_epi PRICES *= discount discount_calc
-scoreboard players operation bait_epi PRICES /= 100 discount_calc 
+scoreboard players operation bait_epi PRICES /= 100 discount_calc
 scoreboard players set bait_leg PRICES 100
 scoreboard players operation bait_leg PRICES *= discount discount_calc
-scoreboard players operation bait_leg PRICES /= 100 discount_calc 
+scoreboard players operation bait_leg PRICES /= 100 discount_calc
 scoreboard players set bait_ult PRICES 120
 scoreboard players operation bait_ult PRICES *= discount discount_calc
-scoreboard players operation bait_ult PRICES /= 100 discount_calc 
+scoreboard players operation bait_ult PRICES /= 100 discount_calc
 
 #rune craft
 scoreboard players set 1_gal PRICES 10

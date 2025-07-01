@@ -4,7 +4,7 @@
 #################################################################
 
 #
-particle dust 1.0 0.667 0.0 1 ~ ~1 ~ 1 1 1 0 50
+particle dust{color:[1.0,0.667,0.0],scale:1} ~ ~1 ~ 1 1 1 0 50
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 5 1.1
 playsound minecraft:entity.firework_rocket.twinkle master @a ~ ~ ~ 5 1
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 5 1.1
@@ -44,5 +44,5 @@ execute if score reward MIMIC matches 90.. run loot spawn ~ ~2 ~ loot att2:chest
 execute if score reward MIMIC matches 95.. run loot spawn ~ ~2 ~ loot att2:chest/reg1/c10t5
 execute if score reward MIMIC matches 100.. run loot spawn ~ ~2 ~ loot att2:chest/reg1/c10t10
 execute as @e[type=minecraft:item,distance=..30,predicate=!att2_pre:test_item/health] run data merge entity @s {Health:32767s}
-#remove 
+#remove
 tp @e[tag=MIMIC,distance=..1] ~ -10 ~

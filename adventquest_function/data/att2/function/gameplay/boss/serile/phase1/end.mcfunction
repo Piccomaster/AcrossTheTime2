@@ -5,7 +5,7 @@
 
 scoreboard players set Sphere8_cinematic SERILE 0
 scoreboard players set Phase1 SERILE -2
-data merge entity 00000000-0000-022b-0000-00000000022b {NoAI:1}
+data merge entity 00000000-0000-022b-0000-00000000022b {NoAI:1b}
 function att2:gameplay/boss/serile/phase2/start
 
 bossbar set minecraft:sphere1 visible false

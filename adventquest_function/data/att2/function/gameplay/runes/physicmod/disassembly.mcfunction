@@ -16,7 +16,7 @@ setblock -5029 90 -4958 cauldron destroy
 #data merge
 execute as @e[tag=Grinder_display,type=block_display] run data merge entity @s {transformation:{translation:[-0.5f,0.0f,-0.5f]}}
 #summon Grinder
-summon armor_stand -5029 90.5 -4958 {Marker:1,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Grinder"]}
+summon armor_stand -5029 90.5 -4958 {Marker:1b,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Grinder"]}
 
 
 summon block_display ~ ~2 ~ {Tags:["Grinder_display"],block_state:{Name:"stonecutter",Properties:{facing:west}},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[-0.5f,0.0f,-0.5f],scale:[1.0f,1.0f,1.0f]},view_range:1,Glowing:true,glow_color_override:111}

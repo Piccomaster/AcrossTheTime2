@@ -8,7 +8,7 @@ execute if score Real0 TIMER matches 1..20 as 00000000-0000-007b-0000-0000000000
 execute if score Real0 TIMER matches 10 positioned -7418 163 -5915 run function att2:sound/mobs/guardian_scream
 execute if score Real0 TIMER matches 40 run function att2:physicmod/reg1/ithax/area3/labo_2_trapdoor_collapse
 execute if score Real0 TIMER matches 40 positioned -7418 163 -5915 run function att2:sound/misc/metalfalling1
-execute if score Real0 TIMER matches 50 run data merge entity 00000000-0000-007b-0000-00000000007b {NoAI:0}
+execute if score Real0 TIMER matches 50 run data merge entity 00000000-0000-007b-0000-00000000007b {NoAI:0b}
 
 
 #=======================#

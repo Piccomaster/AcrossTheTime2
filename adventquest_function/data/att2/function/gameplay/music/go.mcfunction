@@ -37,7 +37,7 @@ scoreboard players set @a[scores={CHANGING_AREA=1}] CHANGING_AREA 0
 execute as @a[scores={MUSIC_B_TIMER=0},tag=!NoAutoMusic] at @s if entity @e[scores={GAMELEVEL=0..},team=hostile,distance=..5,tag=!BossRewards] run function att2:gameplay/music/start_battle
 execute as @a[scores={MUSIC_B_TIMER=1100}] at @s run function att2:gameplay/music/play_battle
 
-# Incase a battle ends 
+# Incase a battle ends
 execute as @a[scores={MUSIC_B_TIMER=1..},tag=!NoAutoMusic] at @s unless entity @e[scores={GAMELEVEL=0..},team=hostile,distance=..12] run function att2:gameplay/music/stop_battle
 
 # Ambient music plays every five minutes unless player is in battle

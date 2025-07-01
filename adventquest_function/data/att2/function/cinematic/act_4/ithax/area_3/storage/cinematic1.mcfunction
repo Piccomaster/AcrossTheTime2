@@ -14,7 +14,7 @@ execute if score Real0 TIMER matches 50..59 as @a[gamemode=spectator] run tp @s 
 execute if score Real0 TIMER matches 60..119 as @a[gamemode=spectator] run tp @s -7439 157 -5914 -180 10
 execute if score Real0 TIMER matches 100..120 as 00000000-0000-007b-0000-00000000007b at @s anchored feet facing -7439 156 -5916 run teleport @s ^ ^ ^0.01 ~ ~
 execute if score Real0 TIMER matches 120 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
-execute if score Real0 TIMER matches 140 run data merge entity 00000000-0000-007b-0000-00000000007b {NoAI:0}
+execute if score Real0 TIMER matches 140 run data merge entity 00000000-0000-007b-0000-00000000007b {NoAI:0b}
 
 
 #=======================#

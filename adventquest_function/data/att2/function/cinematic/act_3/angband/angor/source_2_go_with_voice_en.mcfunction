@@ -84,7 +84,7 @@ execute if score Neth0 TIMER matches 2550 run function att2:dialogs/mainquest/ac
 execute if score Neth0 TIMER matches 2550 run function att2:voice/namrin/namrin26
 execute if score Neth0 TIMER matches 2550 in minecraft:the_nether as 00000000-0000-006a-0000-00000000006a at @s run tp @s ~ ~ ~ -160 50
 
-# End 
+# End
 execute if score Neth0 TIMER matches 2750 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/source_2_action_6
 execute if score Neth0 TIMER matches 2750 run effect give @a[scores={DIMENSION=6}] minecraft:blindness 10 0 true
 execute if score Neth0 TIMER matches 2850 as @a run tag @s remove NoAutoMusic

@@ -3,7 +3,7 @@
 #Summon a single arrow for power ray                                #
 #####################################################################
 
-summon minecraft:arrow ~ ~ ~ {Silent:1,Tags:["SERILEPowerRayArrow","newSERILEPRA"],crit:0,pickup:0,damage:25.0,life:1195.0,Color:16406787}
+summon minecraft:arrow ~ ~ ~ {Silent:1b,Tags:["SERILEPowerRayArrow","newSERILEPRA"],crit:0,pickup:0,damage:25.0,life:1195.0,Color:16406787}
 
 execute as @e[tag=SERILEPowerRayLauncher] store result score @s MOTIONX run data get entity @s Pos[0] 100
 execute as @e[tag=SERILEPowerRayLauncher] store result score @s MOTIONY run data get entity @s Pos[1] 100

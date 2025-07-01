@@ -3,7 +3,7 @@
 #Process the summoning and despawning effect					#
 #################################################################
 
-#In order to prevent the persistance of the summoning effect: 
+#In order to prevent the persistance of the summoning effect:
 #/!\ the entity must be summoned with NoAI tag set to 1 /!\
 #Furthermore, a summoned entity should not be operationnal before its complete aparition...
 #When the entity is summoned, it will automaticaly loose its invisibily and have noAi set to 0.

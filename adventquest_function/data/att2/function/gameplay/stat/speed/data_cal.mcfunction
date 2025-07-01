@@ -4,7 +4,7 @@
 ##################################################
 
 
-#GET SPD 
+#GET SPD
 scoreboard players operation @s SPD_DATA = @s SPD_TOT
 #return score
 execute store result storage att2:attribute SPD_TOT int 1 run scoreboard players get @s SPD_TOT

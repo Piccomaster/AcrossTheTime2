@@ -11,7 +11,7 @@ execute anchored eyes at @s positioned ^ ^ ^0.5 run summon minecraft:fireball ~ 
 scoreboard players set @s SPELL1_TIMER 100
 function att2:gameplay/dahal/action/spell1/normal_velocity
 
-scoreboard players remove @s DAHAL 45 
+scoreboard players remove @s DAHAL 45
 function att2:gameplay/dahal/action/spell1/cooldown
 scoreboard players add @s SPELL1_LVL 1
 function att2:gameplay/dahal/bonus_xp

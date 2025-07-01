@@ -3,7 +3,7 @@
 #Process cinematic ouranos ouran_2_go  		 	 #
 ##################################################
 
-execute if score Real0 TIMER matches 0 run summon minecraft:armor_stand 7955.05 114.9 6772.90 {Rotation:[90.0f,0.0f],equipment:{mainhand:{id:"minecraft:sunflower",count:1},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1,DisabledSlots:2039583,Pose:{RightArm:[-90f,0f,0f]}}
+execute if score Real0 TIMER matches 0 run summon minecraft:armor_stand 7955.05 114.9 6772.90 {Rotation:[90.0f,0.0f],equipment:{mainhand:{id:"minecraft:sunflower",count:1},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:2039583,Pose:{RightArm:[-90f,0f,0f]}}
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch4_player_53
 execute if score Real0 TIMER matches 100 run function att2:dialogs/mainquest/act_4/ch4_ouran_1
 execute if score Real0 TIMER matches 100 run function att2:voice/aoran/aoran1
@@ -25,7 +25,7 @@ execute if score Real0 TIMER matches 990 run function att2:voice/aoran/aoran6
 execute if score Real0 TIMER matches 999 positioned 7973 120.5 6788 run function att2:gameplay/boss/ouranos/ouran/tp_effect
 execute if score Real0 TIMER matches 1000 positioned 7973 120 6788 run function att2:summon/reg_4/ouran
 execute if score Real0 TIMER matches 1000..1700 as 00000000-0000-017b-0000-00000000017b at @s run tp @s 7973 120 6788
-execute if score Real0 TIMER matches 1001 run data merge entity 00000000-0000-017b-0000-00000000017b {NoAI:0}
+execute if score Real0 TIMER matches 1001 run data merge entity 00000000-0000-017b-0000-00000000017b {NoAI:0b}
 execute if score Real0 TIMER matches 1100 run function att2:dialogs/mainquest/act_4/ch4_player_57
 execute if score Real0 TIMER matches 1200 run function att2:dialogs/mainquest/act_4/ch4_ouran_7
 execute if score Real0 TIMER matches 1200 run function att2:voice/aoran/aoran7
