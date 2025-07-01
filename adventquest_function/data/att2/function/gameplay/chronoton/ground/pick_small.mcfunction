@@ -12,5 +12,5 @@ execute if predicate att2_pre:test_item/drop run scoreboard players set cal CHRO
 scoreboard players operation small CHRONOTON *= cal CHRONOTON
 scoreboard players operation @a[distance=..0,limit=1] CHRONOTON += small CHRONOTON
 #sound
-kill @s
 function att2:sound/misc/coins3
+kill @s
