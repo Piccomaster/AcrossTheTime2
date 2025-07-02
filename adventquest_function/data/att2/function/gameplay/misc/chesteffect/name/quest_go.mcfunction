@@ -4,7 +4,7 @@
 #################################################################
 
 #revoke test
-advancement revoke @s only att2_test:test_chest/qeust/name
+advancement revoke @s only att2_test:test_chest/quest/name
 #name set
 execute anchored eyes positioned ^ ^ ^1 run function att2:gameplay/misc/chesteffect/name/quest_name
 execute anchored eyes positioned ^ ^1 ^1 run function att2:gameplay/misc/chesteffect/name/quest_name
