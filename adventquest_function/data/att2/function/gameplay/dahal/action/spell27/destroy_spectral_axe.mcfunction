@@ -3,4 +3,4 @@
 #Destroying Spectral axe from inventory					        #
 #################################################################
 
-clear @s minecraft:diamond_axe[custom_data={EquipmentID:"spectralaxe"}]
+clear @s minecraft:diamond_axe{EquipmentID:"spectralaxe"}

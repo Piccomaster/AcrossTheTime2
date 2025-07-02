@@ -17,7 +17,7 @@ scoreboard players operation @s SPELL45_HER = SPELL45_HER CAL
 scoreboard players operation @s SPELL45_STR = SPELL45_STR CAL
 ##other players
 execute at @s as @a[distance=0.1..5] run function att2:gameplay/dahal/action/spell45/other_player
-#effect other
+#effect other 
 execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell45/effect_other
 
 #dahal

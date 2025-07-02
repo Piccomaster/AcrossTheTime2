@@ -26,3 +26,8 @@ scoreboard players set cap4 SPELL20_LVL 3
 scoreboard players set cap5 SPELL20_LVL 4
 scoreboard players set cap6 SPELL20_LVL 5
 scoreboard players set cap7 SPELL20_LVL 6
+scoreboard players set cap8 SPELL20_LVL 7
+scoreboard players set cap9 SPELL20_LVL 8
+scoreboard players set cap10 SPELL20_LVL 9
+scoreboard players set cap11 SPELL20_LVL 10
+scoreboard players set cap12 SPELL20_LVL 11

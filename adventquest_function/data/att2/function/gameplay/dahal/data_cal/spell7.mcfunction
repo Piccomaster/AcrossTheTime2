@@ -3,6 +3,8 @@
 #Display spell           					            #
 #########################################################
 
+#reset
+function att2:gameplay/dahal/data_cal/initialize
 #get lvl score
 scoreboard players set SPELL_LVL1 SPELL_DATA 1
 scoreboard players set SPELL_LVL2 SPELL_DATA 2

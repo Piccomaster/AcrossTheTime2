@@ -2,7 +2,7 @@
 #Made by Adventquest							#
 #Keep Recycler working   					    #
 #################################################
-
+ 
 ##The process of players consuming ESC and Dahal.
 execute if score @s SPELL32_PROCESS_EFFCT matches 60 run function att2:gameplay/dahal/action/spell32/spell32_effect/particles_1
 execute if score @s SPELL32_PROCESS_EFFCT matches 50 run function att2:sound/misc/absorption

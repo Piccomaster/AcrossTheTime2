@@ -21,6 +21,6 @@ execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 3 run func
 execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 4 run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl4_set_b
 execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 5 run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl5_set_b
 #reset
-scoreboard players reset CHECK CAL
+scoreboard players reset CHECK CAL 
 #xp_cal
 execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 1.. run function att2:gameplay/dahal/action/spell32/xp_cal

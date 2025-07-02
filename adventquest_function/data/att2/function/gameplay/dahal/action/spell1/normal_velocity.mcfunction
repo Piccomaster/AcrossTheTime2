@@ -18,9 +18,9 @@ scoreboard players operation @e[tag=STOP,type=fireball] MOTIONX -= @s MOTIONX
 scoreboard players operation @e[tag=STOP,type=fireball] MOTIONY -= @s MOTIONY
 scoreboard players operation @e[tag=STOP,type=fireball] MOTIONZ -= @s MOTIONZ
 
-execute as @e[tag=STOP,type=fireball] store result entity @s Motion[0] double 0.05 run scoreboard players get @s MOTIONX
-execute as @e[tag=STOP,type=fireball] store result entity @s Motion[1] double 0.05 run scoreboard players get @s MOTIONY
-execute as @e[tag=STOP,type=fireball] store result entity @s Motion[2] double 0.05 run scoreboard players get @s MOTIONZ
+execute as @e[tag=STOP,type=fireball] store result entity @s Motion[0] double 0.03 run scoreboard players get @s MOTIONX
+execute as @e[tag=STOP,type=fireball] store result entity @s Motion[1] double 0.03 run scoreboard players get @s MOTIONY
+execute as @e[tag=STOP,type=fireball] store result entity @s Motion[2] double 0.03 run scoreboard players get @s MOTIONZ
 
 data modify entity @e[type=fireball,tag=FireballSpell,tag=STOP,sort=nearest,limit=1] Owner set from entity @p UUID
 

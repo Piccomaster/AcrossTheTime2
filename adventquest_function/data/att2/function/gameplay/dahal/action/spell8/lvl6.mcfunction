@@ -8,7 +8,9 @@ execute at @s run function att2:gameplay/dahal/action/spell8/effect/6
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell8/damage_cal
 execute at @s as @e[distance=..10,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell8/damage with storage att2:sp_dmg
-
+#reset dahal burst score
+scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST 0
+#dahal
 scoreboard players remove @s DAHAL 140
 function att2:gameplay/dahal/action/spell8/cooldown
 scoreboard players add @s SPELL8_LVL 3

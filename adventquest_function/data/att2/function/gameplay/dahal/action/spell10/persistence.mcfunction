@@ -3,7 +3,7 @@
 #Keep Earthquake working   					 	#
 #################################################
 
-# Iteration is done on any entity (including ennemies) with the score SPELL10_EFFECT above 1
+# Iteration is done on any entity (including ennemies) with the score SPELL10_EFFECT above 1 
 scoreboard players remove @s SPELL10_EFFECT 1
 # Destruction of the position keeper
 kill @s[scores={SPELL10_EFFECT=..0}]

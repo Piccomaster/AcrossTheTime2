@@ -3,6 +3,8 @@
 #Display spell           					            #
 #########################################################
 
+#reset
+function att2:gameplay/dahal/data_cal/initialize
 #get lvl score
 scoreboard players set SPELL_LVL1 SPELL_DATA 1
 scoreboard players set SPELL_LVL2 SPELL_DATA 2
@@ -54,7 +56,7 @@ scoreboard players operation COOLDOWN_LVL9 SPELL_DATA = @s remain_time
 scoreboard players operation @s remain_time = lvl10 COOLDOWN26
 function att2:gameplay/dahal/action/cooldown_cal_remain
 scoreboard players operation COOLDOWN_LVL10 SPELL_DATA = @s remain_time
-## count limit
+## count limit 
 scoreboard players set COUNT_LIMIT_LVL1 SPELL_DATA 1
 scoreboard players set COUNT_LIMIT_LVL2 SPELL_DATA 1
 scoreboard players set COUNT_LIMIT_LVL3 SPELL_DATA 2

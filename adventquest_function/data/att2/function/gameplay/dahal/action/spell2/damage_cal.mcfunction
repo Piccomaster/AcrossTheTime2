@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#set spell2 damage
+#set spell2 damage  			
 #Damage=MinDamage+(MaxDamage−MinDamage)*[(SLCT_LVL-1)/(MAX_LVL-1)]^2   #
 #################################################################
 
@@ -31,6 +31,12 @@ scoreboard players operation enhancementBONUS SPDG = BonusPowerSpell2 ENHANCEMEN
 scoreboard players operation enhancementBONUS SPDG *= 25 ENHANCEMENT
 scoreboard players operation enhancementBONUS SPDG += 100 ENHANCEMENT
 scoreboard players operation finalDG SPDG *= enhancementBONUS SPDG
+scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT
+#dahalburst bonus cal
+scoreboard players reset dahalburstBONUS SPDG
+scoreboard players operation dahalburstBONUS SPDG = @s[scores={DAHALBURST=1..}] DAHALBURST
+scoreboard players operation dahalburstBONUS SPDG += 100 ENHANCEMENT
+scoreboard players operation finalDG SPDG *= dahalburstBONUS SPDG
 scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT
 #storage spell damage
 execute store result storage att2:sp_dmg SP2 int 1 run scoreboard players get finalDG SPDG

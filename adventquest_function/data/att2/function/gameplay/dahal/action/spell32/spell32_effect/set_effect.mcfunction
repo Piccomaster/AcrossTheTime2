@@ -2,7 +2,7 @@
 #Made by Adventquest							#
 #Keep Recycler working   					    #
 #################################################
-
+ 
 ##kill Kill not loaded but not the latest teleport point
 execute if score tic TIMECOUNTER matches 1 as @s at @a if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell32/compare
 ##When the TP_EFFECT of the armor stand is greater than 0, start the teleportation effect

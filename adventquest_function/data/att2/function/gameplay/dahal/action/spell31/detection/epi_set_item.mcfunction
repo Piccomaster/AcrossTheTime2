@@ -22,7 +22,7 @@ experience add @s[scores={SPELL31_CAP=10..}] 300 points
 
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s BONUS_XP_SPELL += epi_set SPELL31
-scoreboard players operation @s SPELL31_LVL += @s BONUS_XP_SPELL
+scoreboard players operation @s SPELL31_LVL += @s BONUS_XP_SPELL 
 
 kill @e[type=minecraft:item,predicate=att2_pre:test_item/epi_set,predicate=!att2_pre:test_item/error,distance=..2,limit=1,sort=nearest]
 

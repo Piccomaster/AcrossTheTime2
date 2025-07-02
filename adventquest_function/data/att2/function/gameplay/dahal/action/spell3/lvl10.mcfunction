@@ -6,7 +6,7 @@
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..10] run effect give @s minecraft:wither 10 4
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell3/damage_cal
-execute at @s as @e[distance=..10,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell3/damage with storage att2:sp_dmg
+execute at @s as @e[distance=..10,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell3/damage with storage att2:sp_dmg 
 execute positioned ~1.5 ~1.5 ~ run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[1.0,0.0,0.0]}
 execute positioned ~1.5 ~1.5 ~1.5 run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[1.0,0.0,1.0]}
 execute positioned ~1.5 ~1.5 ~-1.5 run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[1.0,0.0,-1.0]}
@@ -27,7 +27,9 @@ particle minecraft:soul ~ ~1 ~ 0 0 0 0.5 250 normal
 particle minecraft:soul_fire_flame ~ ~1 ~ 0 0 0 1 500 normal
 particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.5 0.5 0.5 0.5 100 normal
 execute as @a[distance=..10] run function att2:sound/dahal/spell3_effect
-
+#reset dahal burst score
+scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST 0
+#dahal
 scoreboard players remove @s DAHAL 220
 function att2:gameplay/dahal/action/spell3/cooldown
 scoreboard players add @s SPELL3_LVL 5
