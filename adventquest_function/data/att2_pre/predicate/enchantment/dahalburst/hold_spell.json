@@ -1,0 +1,59 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_2"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_3"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_4"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_5"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_6"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_7"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_8"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_10"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hand/spell_11"
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:any_of",
+            "terms": [
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hold_main"
+                },
+                {
+                    "condition": "reference",
+                    "name": "att2_pre:dahal/hold_off"
+                }
+            ]
+        }
+    ]
+}

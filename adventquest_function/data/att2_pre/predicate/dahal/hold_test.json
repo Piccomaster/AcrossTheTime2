@@ -5,10 +5,7 @@
         "type": "minecraft:player",
         "equipment": {
             "mainhand": {
-                "items": [
-                    "minecraft:carrot_on_a_stick"
-                ],
-                "nbt": "{Dahal:launcher}"
+                "items": "minecraft:carrot_on_a_stick"
             }
         }
     }

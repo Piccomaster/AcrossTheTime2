@@ -5,7 +5,10 @@
         "type_specific": {
             "type": "player",
             "looking_at": {
-                "team": "hostile"
+                "team": "hostile",
+                "flags": {
+                    "is_on_ground": true
+                }
             }
         }
     }

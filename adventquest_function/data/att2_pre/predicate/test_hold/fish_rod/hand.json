@@ -7,10 +7,10 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "items": "minecraft:fishing_rod",
+            "items": "minecraft:carrot_on_a_stick",
             "predicates": {
               "minecraft:custom_data": {
-                "fishing_rod": "true"
+                "carrot_on_a_stick": "true"
               }
             }
           }
@@ -23,10 +23,10 @@
       "predicate": {
         "equipment": {
           "offhand": {
-            "items": "minecraft:fishing_rod",
+            "items": "minecraft:carrot_on_a_stick",
             "predicates": {
               "minecraft:custom_data": {
-                "fishing_rod": "true"
+                "carrot_on_a_stick": "true"
               }
             }
           }
