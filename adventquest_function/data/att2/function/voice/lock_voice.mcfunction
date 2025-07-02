@@ -1,0 +1,1 @@
+scoreboard players set voice_lock Voice 1
