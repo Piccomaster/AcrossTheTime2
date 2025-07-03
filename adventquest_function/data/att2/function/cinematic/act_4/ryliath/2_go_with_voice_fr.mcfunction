@@ -7,6 +7,8 @@ execute if score Real0 TIMER matches 1 in minecraft:overworld as @a[gamemode=adv
 execute if score Real0 TIMER matches 1 run kill @e[type=minecraft:zombified_piglin,x=-4968,y=134,z=-4933,distance=..3]
 execute if score Real0 TIMER matches 1 run function att2:physicmod/reg1/ryliath_palace2
 execute if score Real0 TIMER matches 10..1300 as 00000000-0000-084a-0000-00000000084a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
+#fix sit
+execute if score Real0 TIMER matches 10.. as 00000000-0000-084a-0000-00000000084a at @s run ride 00000000-0000-084a-0000-00000000084a mount @e[dy=-2,dx=0,dz=0,type=wolf,limit=1,nbt={NoAI:1b}]
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch1_adrian_1
 execute if score Real0 TIMER matches 10 run function att2:voice/adrian/adrian1
 execute if score Real0 TIMER matches 11 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Real0 TIMER matches 11..149 run scoreboard players set Real0 TIMER 149"},"hover_event":{"action":"show_text","value":"..."}}
@@ -19,6 +21,8 @@ execute if score Real0 TIMER matches 280 run function att2:dialogs/mainquest/act
 execute if score Real0 TIMER matches 280 run function att2:voice/eldaris/eldaris1
 execute if score Real0 TIMER matches 281 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Real0 TIMER matches 281..399 run scoreboard players set Real0 TIMER 399"},"hover_event":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 300..2700 as 00000000-0000-085a-0000-00000000085a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
+#fix sit
+execute if score Real0 TIMER matches 300.. as 00000000-0000-085a-0000-00000000085a at @s run ride 00000000-0000-085a-0000-00000000085a mount @e[dy=-2,dx=0,dz=0,type=wolf,limit=1,nbt={NoAI:1b}]
 execute if score Real0 TIMER matches 400 run function att2:dialogs/mainquest/act_4/ch1_player_2
 execute if score Real0 TIMER matches 401 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Real0 TIMER matches 401..599 run scoreboard players set Real0 TIMER 599"},"hover_event":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 600 run function att2:dialogs/mainquest/act_4/ch1_adrian_3
