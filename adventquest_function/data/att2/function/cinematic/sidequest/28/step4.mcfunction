@@ -7,7 +7,8 @@ scoreboard players set SQ28 SIDEQUEST 4
 function att2:gameplay/reputation/add_10
 function att2:sound/misc/mission_progress
 
-execute at 00000000-0000-082a-0000-00000000082a as @p run give @s minecraft:filled_map{map:25,map_scale_direction:1,Decorations:[{type:26b,x:-4900.0d,z:-4380.0d,rot:180.0}]} 1
+execute at 00000000-0000-082a-0000-00000000082a as @p run give @s minecraft:filled_map[minecraft:map_decorations={"sq28":{rotation:180.0f,type:"red_x",x:-4900.0d,z:-4380.0d}},minecraft:map_id=25,minecraft:custom_name={translate:att2.sq28.map},minecraft:lore=[{translate:item.quest.lore}]] 1
+
 
 function att2:gameplay/pnj_talk/dialog_playsound/selene
 execute at 00000000-0000-082a-0000-00000000082a as @p run function att2:dialogs/sidequest/sq28/selene_15

@@ -3,7 +3,7 @@
 #Process step15 cinematic 									#
 #############################################################
 
-execute if score cinematic_timer SQ59 matches 1..4 as @a at @s run effect give @s minecraft:jump_boost 10 255 true
+execute if score cinematic_timer SQ59 matches 1..4 run scoreboard players set @a JUMP_SAFE 200
 execute if score cinematic_timer SQ59 matches 5 run function att2:cinematic/sidequest/59/step15/portal_tp
 execute if score cinematic_timer SQ59 matches 10 run fill 29925 107 30029 29925 110 30033 minecraft:barrier replace minecraft:air
 execute if score cinematic_timer SQ59 matches 10 positioned 29926 108 30032 run function att2:cinematic/sidequest/59/step15/calypso/summon_pnj
