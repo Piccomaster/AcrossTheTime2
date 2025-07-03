@@ -1,0 +1,37 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": "minecraft:crossbow",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentType": "rangeWeapon"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:crossbow",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentType": "rangeWeapon"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
