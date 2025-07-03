@@ -25,7 +25,7 @@ scoreboard players set cap10 SPELL24_LVL 500
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN24 32000
-#set TIMER DATA 
+#set TIMER DATA
 scoreboard players set timer_lvl1 SPELL24_DATA 400
 scoreboard players set timer_lvl2 SPELL24_DATA 600
 scoreboard players set timer_lvl3 SPELL24_DATA 800

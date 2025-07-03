@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#set spell3 damage  			
+#set spell3 damage
 #Damage=MinDamage+(MaxDamage−MinDamage)*[(SLCT_LVL-1)/(MAX_LVL-1)]^2   #
 #################################################################
 

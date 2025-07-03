@@ -21,8 +21,8 @@ give @s minecraft:crossbow[minecraft:custom_model_data={floats:[10000100]},minec
 #   🙼 🙼       ^    ,________---.__
 #HYPERION      🔥     \===[[[[==____ ⎫
 # 🙼 🙼	        ¨                '`\_⧹
-# 
-# 
+#
+#
 # ⋇ ⎫ ♻ ❊ ⦦ ⦣ ⍪ ⏎
 
 #second font (grange)
@@ -41,6 +41,6 @@ give @s minecraft:crossbow[minecraft:custom_model_data={floats:[10000100]},minec
 #    🙼  🙼              ,_______----.__
 #HYPERION        🔥     \====[[[[===____⎫
 #  🙼  🙼                            '`\_\
-# 
-# 
+#
+#
 # ⋇ ⎫ ♻ ❊ ⦦ ⦣ ⍪ ⏎
