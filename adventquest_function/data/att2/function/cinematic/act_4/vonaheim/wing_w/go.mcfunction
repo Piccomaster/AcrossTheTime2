@@ -15,6 +15,6 @@ execute as @a[x=-5660,y=87,z=-6221,dx=-2,dy=1,dz=-158,gamemode=adventure] at @s 
 
 # Effect
 execute as @a[x=-5660,y=87,z=-6221,dx=-2,dy=1,dz=-158,gamemode=adventure] run effect give @s minecraft:levitation 1 0 true
-execute as @a[x=-5660,y=87,z=-6221,dx=-2,dy=2,dz=-158,gamemode=adventure] run effect give @s minecraft:jump_boost 2 255 true
+scoreboard players set @a[x=-5660,y=87,z=-6221,dx=-2,dy=2,dz=-158,gamemode=adventure] JUMP_SAFE 40
 #return 1->make command block runing
 return 1

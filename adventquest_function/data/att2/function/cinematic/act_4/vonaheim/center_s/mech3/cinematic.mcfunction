@@ -27,7 +27,7 @@ execute if score Real0 TIMER matches 380 at @a run function att2:sound/misc/expl
 execute if score Real0 TIMER matches 380 run particle minecraft:explosion -5584 109 -6420 10 5 10 0 100 force
 execute if score Real0 TIMER matches 400 at @a run function att2:sound/misc/huge_explosion
 execute if score Real0 TIMER matches 400 run particle minecraft:explosion_emitter -5584 109 -6420 10 5 10 0 50 force
-execute if score Real0 TIMER matches 400 as @a[x=-5599,y=111,z=-6423,dx=17,dy=-4,dz=7,gamemode=adventure] run effect give @s minecraft:jump_boost 5 255 true
+execute if score Real0 TIMER matches 400 run scoreboard players set @a[x=-5599,y=111,z=-6423,dx=17,dy=-4,dz=7,gamemode=adventure] JUMP_SAFE 40
 execute if score Real0 TIMER matches 400 as @a[x=-5599,y=111,z=-6423,dx=17,dy=-4,dz=7,gamemode=adventure] at @s run tp @s ~ ~30 ~ ~ ~
 execute if score Real0 TIMER matches 420 run function att2:cinematic/act_4/vonaheim/center_s/mech3/end
 execute if score Real0 TIMER matches 450 as @a[x=-5584,y=108,z=-6422,distance=..20] run spreadplayers -5590 -6420 1 2 false @s

@@ -38,6 +38,9 @@ execute at @s anchored eyes positioned ^ ^-0.5 ^8.4 run function att2:gameplay/d
 execute at @s anchored eyes positioned ^ ^-0.5 ^8.7 run function att2:gameplay/dahal/action/spell4/ray/4
 execute at @s anchored eyes positioned ^ ^-0.5 ^9 run function att2:gameplay/dahal/action/spell4/ray/4
 tag @s remove SPLAUNCH
+#reset dahal burst score
+scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST 0
+#dahal
 scoreboard players remove @s DAHAL 175
 function att2:gameplay/dahal/action/spell4/cooldown
 scoreboard players add @s SPELL4_LVL 2

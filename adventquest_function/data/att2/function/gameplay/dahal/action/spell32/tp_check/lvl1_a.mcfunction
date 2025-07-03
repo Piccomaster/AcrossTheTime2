@@ -5,7 +5,7 @@
 
 ##重置tp和esc检测计分板
 scoreboard players set DISTANCE CAL 0
-scoreboard players set ESC_COUNT CAL 0
+scoreboard players set ESC_COUNT CAL 0 
 ##对玩家与盔甲架的距离进行检测，在其范围内将TP_CHECK设置为1 Detect the distance between the player and the armor stand, and set TP_CHECK to 1 within its range.
 execute at @s as @e[type=armor_stand,tag=SPELL32_SET_A,distance=..40] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set DISTANCE CAL 1
 #get esc score

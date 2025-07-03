@@ -16,8 +16,7 @@
 execute if score underground_mech8 VONAHEIM matches 6 run function att2:cinematic/act_4/vonaheim/underground/mech8/cinematic
 
 ### Effect players protection of falling damage
-execute as @a[x=-5724,y=56,z=-6387,dx=-40,dy=57,dz=58,gamemode=adventure] run effect give @s minecraft:jump_boost 1 255 true
-
+scoreboard players set @a[x=-5724,y=56,z=-6387,dx=-40,dy=57,dz=58,gamemode=adventure] JUMP_SAFE 20
 ##### WIND
 ### Tunnel E -> W
 # 1

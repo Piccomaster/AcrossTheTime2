@@ -23,7 +23,7 @@ execute if score center_n_wind VONAHEIM matches 60..251 run function att2:cinema
 execute if score center_n_wind VONAHEIM matches 60..251 as @a[scores={VONAHEIM=0},x=-5528,y=107,z=-6481,dx=14,dy=23,dz=-24,gamemode=adventure] at @s run tp @s ~ ~ ~0.4
 
 # Effect
-execute as @a[x=-5529,y=128,z=-6482,dx=-6,dy=2,dz=-9,gamemode=adventure] run effect give @s minecraft:jump_boost 2 255 true
+scoreboard players set @a[x=-5529,y=128,z=-6482,dx=-6,dy=2,dz=-9,gamemode=adventure] JUMP_SAFE 40
 
 # Timer
 execute if score center_n_wind VONAHEIM matches 500 run scoreboard players set center_n_wind VONAHEIM 0

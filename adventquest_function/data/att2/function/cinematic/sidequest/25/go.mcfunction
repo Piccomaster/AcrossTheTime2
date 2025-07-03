@@ -20,7 +20,7 @@ execute if score SQ25 SIDEQUEST matches 2 at 00000000-0000-005a-0000-00000000005
 execute if score SQ25 SIDEQUEST matches 3 if score move_emerald SQ25 matches 0 unless entity @a[x=-4330,y=72,z=-5207,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/25/emerald/move_pnj
 
 # Move PNJ Emerald to Adanoï
-execute if score SQ25 SIDEQUEST matches 3 if score move_emerald SQ25 matches 1 if entity @a[x=-4005,y=80,z=-5576,distance=25..30,gamemode=adventure] run function att2:cinematic/sidequest/25/emerald/summon_pnj
+execute if score SQ25 SIDEQUEST matches 3 if score move_emerald SQ25 matches 1 if entity @a[x=-4005,y=80,z=-5576,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/25/emerald/summon_pnj
 
 # Begin next quest SQ26 when Player is close to Emerald in Adanoï
 execute if score SQ25 SIDEQUEST matches 3 if entity @a[x=-4005,y=80,z=-5576,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/26/step1

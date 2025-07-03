@@ -34,7 +34,7 @@ execute if score wing_e_mech5 VONAHEIM matches 1 unless score center_s_mech5 VON
 execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5613,y=115,z=-6388,dx=-2,dy=1,dz=11,gamemode=adventure] run effect give @s minecraft:levitation 1 0 true
 execute if score wing_e_mech5 VONAHEIM matches 1 as @a[x=-5616,y=115,z=-6386,dx=4,dy=42,dz=-5,gamemode=adventure] run effect give @s minecraft:levitation 1 10 true
 execute if score wing_e_mech5 VONAHEIM matches 1 as @a[x=-5613,y=165,z=-6388,dx=-2,dy=1,dz=-2,gamemode=adventure] run effect give @s minecraft:levitation 1 1 true
-execute if score wing_e_mech5 VONAHEIM matches 1 as @a[x=-5613,y=165,z=-6388,dx=-2,dy=1,dz=-2,gamemode=adventure] run effect give @s minecraft:jump_boost 3 255 true
+execute if score wing_e_mech5 VONAHEIM matches 1 run scoreboard players set @a[x=-5613,y=165,z=-6388,dx=-2,dy=1,dz=-2,gamemode=adventure] JUMP_SAFE 60
 
 
 ### West Main Tower
@@ -59,8 +59,7 @@ execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5614,y=115,z=-6380,d
 execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5629,y=115,z=-6380,dx=-2,dy=2,dz=10,gamemode=adventure] run effect give @s minecraft:levitation 1 0 true
 execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5631,y=115,z=-6368,dx=2,dy=10,dz=-2,gamemode=adventure] run effect give @s minecraft:levitation 1 2 true
 execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5623,y=124,z=-6358,dx=-2,dy=11,dz=-2,gamemode=adventure] run effect give @s minecraft:levitation 1 2 true
-execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5623,y=124,z=-6358,dx=-2,dy=11,dz=-2,gamemode=adventure] run effect give @s minecraft:jump_boost 2 255 true
-
+execute if score center_s_mech0 VONAHEIM matches 0 run scoreboard players set @a[x=-5623,y=124,z=-6358,dx=-2,dy=11,dz=-2,gamemode=adventure] JUMP_SAFE 40
 
 ### East Main Tower
 # Sound
@@ -84,8 +83,7 @@ execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5614,y=115,z=-6380,d
 execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5597,y=115,z=-6380,dx=-2,dy=0,dz=10,gamemode=adventure] run effect give @s minecraft:levitation 1 0 true
 execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5597,y=115,z=-6368,dx=-2,dy=10,dz=-2,gamemode=adventure] run effect give @s minecraft:levitation 1 2 true
 execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5603,y=124,z=-6358,dx=-2,dy=11,dz=-2,gamemode=adventure] run effect give @s minecraft:levitation 1 2 true
-execute if score center_s_mech0 VONAHEIM matches 0 as @a[x=-5603,y=124,z=-6358,dx=-2,dy=11,dz=-2,gamemode=adventure] run effect give @s minecraft:jump_boost 2 255 true
-
+execute if score center_s_mech0 VONAHEIM matches 0 run scoreboard players set @a[x=-5603,y=124,z=-6358,dx=-2,dy=11,dz=-2,gamemode=adventure] JUMP_SAFE 40
 
 ### Center Side Tower
 # Sound
@@ -96,6 +94,6 @@ execute if score center_s_mech0 VONAHEIM matches 1 run particle minecraft:instan
 
 # Effect
 execute if score center_s_mech0 VONAHEIM matches 1 as @a[x=-5615,y=101,z=-6439,dx=2,dy=16,dz=-2,gamemode=adventure] run effect give @s minecraft:levitation 1 9 true
-execute if score center_s_mech0 VONAHEIM matches 1 as @a[x=-5615,y=101,z=-6439,dx=2,dy=16,dz=-2,gamemode=adventure] run effect give @s minecraft:jump_boost 3 255 true
+execute if score center_s_mech0 VONAHEIM matches 1 run scoreboard players set @a[x=-5615,y=101,z=-6439,dx=2,dy=16,dz=-2,gamemode=adventure] JUMP_SAFE 40
 #return 1->make command block runing
 return 1

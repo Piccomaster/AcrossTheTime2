@@ -20,7 +20,7 @@ execute if score SQ52 SIDEQUEST matches 3 if score cinematic SQ52 matches 6 at 0
 execute if score SQ52 SIDEQUEST matches 1.. if score mech2_buttons SQ52 matches 0.. run particle minecraft:falling_dust{block_state:"minecraft:sand"} -5508 23 -4037 5 0.5 5 0 5 normal
 
 #Particle item effect
-execute if score SQ52 SIDEQUEST matches 2 run particle minecraft:dust{color:[1,0.1,0.1],scale:0.3} -5520 27.5 -4190.0 0.25 0.25 0.25 0 5 normal
+execute if score SQ52 SIDEQUEST matches 2 run particle minecraft:dust{color:[1,0.1,0.1],scale:0.5} -5520 27.5 -4190.0 0.25 0.25 0.25 0 20 normal
 # End when player find and take the quest item
 execute if score SQ52 SIDEQUEST matches 2 if entity @a[x=-5519.5,y=27.5,z=-4190.0,distance=..10,gamemode=adventure,nbt={Inventory:[{id:"minecraft:ghast_tear",count:1,components:{"minecraft:custom_name":{translate:'item.quest.tear_of_the_lost.name'}}}]}] run function att2:cinematic/sidequest/52/end
 

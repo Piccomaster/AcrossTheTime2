@@ -28,7 +28,7 @@ particle minecraft:cloud 7415 196 6454 2 2 2 1 10 normal
 execute as @a[scores={OURANOS=-1}] at @s run particle minecraft:cloud ~ ~ ~ 2 2 2 1 4 normal
 
 # Effect
-effect give @a[scores={OURANOS=-1}] minecraft:jump_boost 2 255 true
+scoreboard players set @a[scores={OURANOS=-1}] JUMP_SAFE 100
 
 # TP
 execute as @a[x=7419,y=201,z=6465,dx=-7,dy=-10,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~1

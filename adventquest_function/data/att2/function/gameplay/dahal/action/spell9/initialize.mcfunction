@@ -35,7 +35,7 @@ scoreboard players set lvl7 COOLDOWN9 8250
 scoreboard players set lvl8 COOLDOWN9 9250
 scoreboard players set lvl9 COOLDOWN9 10250
 scoreboard players set lvl10 COOLDOWN9 12000
-#set TIMER DATA
+#set TIMER DATA 
 scoreboard players set timer_lvl1 SPELL9_DATA 200
 scoreboard players set timer_lvl2 SPELL9_DATA 300
 scoreboard players set timer_lvl3 SPELL9_DATA 300

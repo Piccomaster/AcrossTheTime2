@@ -13,5 +13,9 @@ execute positioned -5026 77 -5037 run function att2:sound/misc/space_gem_placed
 function att2:cinematic/sidequest/8/sigfrid_barkon/update_dialog
 
 execute as @a run function att2:gameplay/leveling/add_1_skillpoint
+#add spell20 lvl
+scoreboard players add @a SPELL20_LVL 1
+scoreboard players add @a SPELL20_CAP 1
+scoreboard players add LVL SPELL20_CAP 1
 #return 1->make command block runing
 return 1

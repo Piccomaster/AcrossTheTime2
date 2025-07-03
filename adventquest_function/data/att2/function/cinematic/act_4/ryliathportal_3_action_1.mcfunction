@@ -16,5 +16,9 @@ kill 00000000-0000-003a-0000-00000000003a
 kill @e[type=minecraft:interaction,x=-4980,y=78,z=-5035,distance=..3]
 
 execute as @a run function att2:gameplay/leveling/add_1_skillpoint
+#add spell20 lvl |base 1 + space gem X 3 + TIME GEM X 4 + ANGABND + EOLORION + BILLGART + ESC + CHRONONTS + RUNE = 14
+scoreboard players add @a SPELL20_LVL 1
+scoreboard players add @a SPELL20_CAP 1
+scoreboard players add LVL SPELL20_CAP 1
 #return 1->make command block runing
 return 1

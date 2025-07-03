@@ -4,14 +4,13 @@
 #################################################################
 
 scoreboard players set item ITEM_LIFETIME 28473
-execute as @s[scores={NUMEROJOUEUR=1}] at @s run summon armor_stand ~ ~ ~ {ShowArms:0,Invisible:1,NoGravity:1b,DisabledSlots:2039552}
-execute as @s[scores={NUMEROJOUEUR=1}] run teleport @e[nbt={UUID:[I;0,527,0,527]},limit=1] @s
-execute as @s[scores={NUMEROJOUEUR=2}] at @s run summon armor_stand ~ ~ ~ {ShowArms:0,Invisible:1,NoGravity:1b,DisabledSlots:2039552}
-execute as @s[scores={NUMEROJOUEUR=2}] run teleport @e[nbt={UUID:[I;0,543,0,543]},limit=1] @s
-execute as @s[scores={NUMEROJOUEUR=3}] at @s run summon armor_stand ~ ~ ~ {ShowArms:0,Invisible:1,NoGravity:1b,DisabledSlots:2039552}
-execute as @s[scores={NUMEROJOUEUR=3}] run teleport @e[nbt={UUID:[I;0,559,0,559]},limit=1] @s
-execute as @s[scores={NUMEROJOUEUR=4}] at @s run summon armor_stand ~ ~ ~ {ShowArms:0,Invisible:1,NoGravity:1b,DisabledSlots:2039552}
-execute as @s[scores={NUMEROJOUEUR=4}] run teleport @e[nbt={UUID:[I;0,575,0,575]},limit=1] @s
-execute as @s[scores={NUMEROJOUEUR=5}] at @s run summon armor_stand ~ ~ ~ {ShowArms:0,Invisible:1,NoGravity:1b,DisabledSlots:2039552}
-execute as @s[scores={NUMEROJOUEUR=5}] run teleport @e[nbt={UUID:[I;0,591,0,591]},limit=1] @s
+
+#summon 
+execute as @s at @s run summon armor_stand ~ ~ ~ {Marker:true,Invisible:true,NoGravity:true,Tags:["DISINCARNATE","New"]}
+
+scoreboard players operation @e[type=armor_stand,tag=DISINCARNATE,tag=New] OWNER = @s NUMEROJOUEUR
+
+#tag remove
+tag @e[type=armor_stand,tag=DISINCARNATE,tag=New] remove New
+#spectator
 gamemode spectator @s

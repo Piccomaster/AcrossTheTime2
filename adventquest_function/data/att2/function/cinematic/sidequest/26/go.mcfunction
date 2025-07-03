@@ -42,6 +42,6 @@ execute if score move_lary_brett SQ26 matches 2 if entity @a[x=-3862,y=92,z=-572
 execute if score SQ26 SIDEQUEST matches 7 if score move_emerald SQ26 matches 0 unless entity @a[x=-4005,y=80,z=-5576,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/26/emerald/move_pnj
 
 # Move PNJ Emerald to Méleïm
-execute if score SQ26 SIDEQUEST matches 7 if score move_emerald SQ26 matches 1 if entity @a[x=-3788,y=70,z=-5876,distance=10..20,gamemode=adventure] run function att2:cinematic/sidequest/26/emerald/summon_pnj
+execute if score SQ26 SIDEQUEST matches 7 if score move_emerald SQ26 matches 1 if entity @a[x=-3788,y=70,z=-5876,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/26/emerald/summon_pnj
 #return 1->make command block runing
 return 1

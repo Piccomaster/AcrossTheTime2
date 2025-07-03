@@ -2,7 +2,18 @@
     "display": {
         "icon": {
             "id": "minecraft:player_head",
-            "nbt": "{SkullOwner:{Id:[I;-703913912,-1230946243,-1599774903,-587597650],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViYzUwOGU5NTA5ODEzMDA3YWFjYTBhMzQ5Y2RkYmZmMTYzNDhjMmQzOWFjZWU5ZjI0M2UxNDkwNTc4YzkxMCJ9fX0=\"}]}}}"
+            "components": {
+                "minecraft:profile": {
+                    "id": [-703913912,-1230946243,-1599774903,-587597650],
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViYzUwOGU5NTA5ODEzMDA3YWFjYTBhMzQ5Y2RkYmZmMTYzNDhjMmQzOWFjZWU5ZjI0M2UxNDkwNTc4YzkxMCJ9fX0="
+                        }
+                    ]
+                }
+            }
         },
         "title": {"translate":"att2.advancement.hunting.title.myrath_master_timerecord"},
         "description": {"translate":"att2.advancement.hunting.description.myrath_master_timerecord"},

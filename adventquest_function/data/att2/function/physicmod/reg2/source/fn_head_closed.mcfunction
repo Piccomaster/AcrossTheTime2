@@ -3,6 +3,6 @@
 #Manage the physical modification for fn_head_closed        		#
 #####################################################################
 
-setblock 3507 46 4925 minecraft:structure_block
+setblock 3507 46 4925 minecraft:structure_block destroy
 data merge block 3507 46 4925 {mode:LOAD,posX:0,posY:0,posZ:0,name:"att2:fn/head/closed"}
-setblock 3507 47 4925 minecraft:redstone_block
+setblock 3507 47 4925 minecraft:redstone_block destroy

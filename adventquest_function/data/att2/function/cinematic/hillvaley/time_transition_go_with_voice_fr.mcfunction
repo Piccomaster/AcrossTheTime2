@@ -8,7 +8,7 @@
 #===================#
 
 execute if score Real0 TIMER matches 1 run function att2:gameplay/checkpoint/nowhere/transition0
-execute if score Real0 TIMER matches 1..200 as @a run effect give @s minecraft:jump_boost 120 255 true
+execute if score Real0 TIMER matches 1..200 run scoreboard players set @a JUMP_SAFE 2400
 execute if score Real0 TIMER matches 5 run title @a times 10 50 50
 execute if score Real0 TIMER matches 5 run function att2:dialogs/title/a1_ch0_title3
 execute if score Real0 TIMER matches 5 run function att2:dialogs/title/a1_ch0_subtitle2

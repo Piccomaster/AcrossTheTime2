@@ -16,7 +16,7 @@ title @s[scores={LANGUAGE=1}] actionbar {"text":"⧼〈","color":"dark_red","ext
 
 #CHINESE LANGUAGE
 
-title @s actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"“超新星”已就緒","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+title @s[scores={LANGUAGE=2}] {"text":"⧼〈","color":"dark_red","extra":[{"text":"“超新星”已就緒","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 
 #JAPANESE LANGUAGE
 

@@ -24,7 +24,7 @@ scoreboard players operation @s CHRONOTON += ruby CHRONOTON
 #add normal coin
 execute store result score small CHRONOTON run clear @s gold_nugget[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'small'}]
 execute store result score big CHRONOTON run clear @s gold_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'big'}]
-execute store result score diamond CHRONOTON run clear @s diamond[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'diamond'}]
+execute store result score diamond CHRONOTON run clear @s diamond[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'diamond'}] 
 execute store result score ruby CHRONOTON run clear @s copper_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'ruby'}]
 execute store result score amethyst CHRONOTON run clear @s glow_ink_sac[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'amethyst'}]
 #cal small coin
@@ -56,3 +56,5 @@ scoreboard players operation @s CHRONOTON += big CHRONOTON
 scoreboard players operation @s CHRONOTON += diamond CHRONOTON
 scoreboard players operation @s CHRONOTON += amethyst CHRONOTON
 scoreboard players operation @s CHRONOTON += ruby CHRONOTON
+#sound
+function att2:sound/misc/coins3

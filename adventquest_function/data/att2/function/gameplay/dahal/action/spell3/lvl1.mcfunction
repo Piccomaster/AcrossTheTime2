@@ -14,7 +14,9 @@ particle minecraft:soul ~ ~1 ~ 0 0 0 0.5 20 normal
 particle minecraft:soul_fire_flame ~ ~1 ~ 0 0 0 1 40 normal
 particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.05 0.05 0.05 0.05 10 normal
 execute as @a[distance=..10] run function att2:sound/dahal/spell3_effect
-
+#reset dahal burst score
+scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST 0
+#dahal
 scoreboard players remove @s DAHAL 20
 function att2:gameplay/dahal/action/spell3/cooldown
 scoreboard players add @s SPELL3_LVL 1

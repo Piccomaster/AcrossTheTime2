@@ -22,7 +22,7 @@ scoreboard players operation @s SPELL44_HAS = SPELL44_HAS CAL
 scoreboard players operation @s SPELL44_SPD = SPELL44_SPD CAL
 ##other players
 execute at @s as @a[distance=0.1..3] run function att2:gameplay/dahal/action/spell44/other_player
-#effect other
+#effect other 
 execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
 
 #dahal

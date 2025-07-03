@@ -2,5 +2,5 @@
 #Made by Adventquest                             #
 #Summon Big coin of Chronotons                   #
 ##################################################
-
-summon minecraft:item ~ ~ ~ {PickupDelay:20,Motion:[0.0,0.3,0.1],Item:{id:"minecraft:gold_ingot",count:1,components:{display:{Name:"{\"text\":\"§e§o大硬币\"}","Lore":["{\"text\":\"§e§oBig coin\"}","{\"text\":\"§6+5 Chronotons\"}"]}}}}
+ 
+summon minecraft:item ~ ~ ~ {PickupDelay:20,Motion:[0.0,0.3,0.1],Item:{id:"minecraft:gold_ingot",count:1,components:{custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'big'},custom_name={translate:'item.coin.big.name'},lore=[{translate:'item.coin.big.lore'}]}}}

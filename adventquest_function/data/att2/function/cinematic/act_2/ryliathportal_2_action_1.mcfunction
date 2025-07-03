@@ -15,5 +15,9 @@ scoreboard players set wirth_razgork_PNJ DIALOG 7
 scoreboard players set indra_lorth_PNJ DIALOG 2
 
 execute as @a run function att2:gameplay/leveling/add_1_skillpoint
+#add spell20 lvl
+scoreboard players add @a SPELL20_LVL 1
+scoreboard players add @a SPELL20_CAP 1
+scoreboard players add LVL SPELL20_CAP 1
 #return 1->make command block runing
 return 1

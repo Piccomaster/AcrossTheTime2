@@ -5,4 +5,4 @@
 
 execute at @s run function att2:sound/dahal/loading_failure
 
-execute at @s[predicate=att2_pre:dahal/hand/spell4] run function att2:dialogs/gameplay/dahal/remain/spell4
+execute at @s[predicate=att2_pre:dahal/hand/spell_4] run function att2:dialogs/gameplay/dahal/remain/spell4

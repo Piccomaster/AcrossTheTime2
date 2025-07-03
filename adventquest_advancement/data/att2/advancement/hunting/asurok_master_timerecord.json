@@ -2,7 +2,18 @@
     "display": {
         "icon": {
             "id": "minecraft:player_head",
-            "nbt": "{SkullOwner:{Id:[I;781978215,-1833744055,-1679688975,588836488],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMyYzI0NTI0YzgyYWIzYjNlNTdjMjA1MmM1MzNmMTNkZDhjMGJlYjhiZGQwNjM2OWJiMjU1NGRhODZjMTIzIn19fQ==\"}]}}}"
+            "components": {
+                "minecraft:profile": {
+                    "id": [781978215,-1833744055,-1679688975,588836488],
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMyYzI0NTI0YzgyYWIzYjNlNTdjMjA1MmM1MzNmMTNkZDhjMGJlYjhiZGQwNjM2OWJiMjU1NGRhODZjMTIzIn19fQ="
+                        }
+                    ]
+                }
+            }
         },
         "title": {"translate":"att2.advancement.hunting.title.asurok_master_timerecord"},
         "description": {"translate":"att2.advancement.hunting.description.asurok_master_timerecord"},

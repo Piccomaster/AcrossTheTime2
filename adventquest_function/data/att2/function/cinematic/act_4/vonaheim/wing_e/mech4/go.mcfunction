@@ -15,7 +15,7 @@ execute if entity @a[x=-5500,y=80,z=-6400,distance=..40,gamemode=adventure] run 
 execute if entity @a[x=-5500,y=80,z=-6400,distance=..40,gamemode=adventure] run particle minecraft:cloud -5497 33 -6395 2 20 2 1.2 10 force
 
 # Effect
-effect give @a[x=-5525,y=61,z=-6376,dx=50,dy=-25,dz=-46,gamemode=adventure] minecraft:jump_boost 2 255 true
+scoreboard players set @a[x=-5525,y=61,z=-6376,dx=50,dy=-25,dz=-46,gamemode=adventure] JUMP_SAFE 40
 effect give @a[x=-5525,y=61,z=-6376,dx=50,dy=-25,dz=-46,gamemode=adventure] minecraft:levitation 1 9 true
 #return 1->make command block runing
 return 1
