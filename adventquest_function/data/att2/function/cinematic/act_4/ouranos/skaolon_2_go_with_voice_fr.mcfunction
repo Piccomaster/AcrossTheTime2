@@ -6,6 +6,8 @@
 execute if score Real0 TIMER matches 1 run scoreboard players set skaolon_PNJ DIALOG -1
 execute if score Real0 TIMER matches 20 run function att2:dialogs/mainquest/act_4/ch4_player_36
 execute if score Real0 TIMER matches 100..700 as 00000000-0000-128a-0000-00000000128a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
+#fix sit
+execute if score Real0 TIMER matches 100.. as 00000000-0000-128a-0000-00000000128a at @s run ride 00000000-0000-128a-0000-00000000128a mount @e[dy=-2,dx=0,dz=0,type=wolf,limit=1,nbt={NoAI:1b}]
 execute if score Real0 TIMER matches 100 run function att2:dialogs/mainquest/act_4/ch4_skaolon_8
 execute if score Real0 TIMER matches 100 run function att2:voice/skaolon/skaolon8
 execute if score Real0 TIMER matches 200 run function att2:dialogs/mainquest/act_4/ch4_player_37

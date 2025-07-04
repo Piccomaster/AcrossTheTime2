@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "id": "minecraft:player_head",
-                        "components": {
+            "components": {
                 "minecraft:profile": {
                     "id": [1050022092,1091521613,-1451049480,-1709282467],
                     "name": "",

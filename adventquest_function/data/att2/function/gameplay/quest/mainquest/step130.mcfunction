@@ -10,6 +10,10 @@ execute in minecraft:the_end as @e[tag=newGPS] at @s anchored feet facing -1239 
 execute in minecraft:the_end positioned -1239 150 -500 run function att2:gameplay/quest/mainquest/show_secondary_objective
 
 
+#execute in minecraft:the_end positioned -1239 32 -512 run function att2:gameplay/quest/mainquest/show_secondary_objective
+
+execute in minecraft:the_end positioned -1239 28 -497 run function att2:gameplay/quest/mainquest/show_secondary_objective
+
 execute in minecraft:the_end if block -1255 157 -493 minecraft:stone_button positioned -1255 157 -493 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:the_end if block -1255 157 -487 minecraft:stone_button positioned -1255 157 -487 run function att2:gameplay/quest/mainquest/show_secondary_objective
 

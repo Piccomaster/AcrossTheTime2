@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "att2_pre:test_hold/bow/mainhand"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "att2_pre:test_hold/crossbow/mainhand"
+        }
+    ]
+}
