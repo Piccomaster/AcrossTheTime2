@@ -6,7 +6,7 @@
 ##Detect whether there are minecarts near the player
 scoreboard players set @s other_minecart 0
 execute as @s[scores={SPELL20_SLCT=1..,DAHAL=40..}] if entity @e[tag=other_minecart,distance=..5] at @s run scoreboard players set @s other_minecart 1
-## have minecarts near 
+## have minecarts near
 execute if entity @s[scores={other_minecart=1}] at @s run function att2:dialogs/gameplay/dahal/spell20_no_minecart
 #set score
 execute store result storage att2:spell20 NUMEROJOUEUR int 1 run scoreboard players get @s NUMEROJOUEUR

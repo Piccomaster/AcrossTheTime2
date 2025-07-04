@@ -17,7 +17,7 @@ scoreboard players operation @s SPELL42_RES = SPELL42_RES CAL
 ##other players
 execute at @s as @a[distance=0.1..10] run function att2:gameplay/dahal/action/spell42/other_player
 execute at @s as @a[distance=0.1..10] run effect give @s minecraft:instant_health 1 4 true
-#effect other 
+#effect other
 execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR at @s run function att2:gameplay/dahal/action/spell42/effect_other
 
 #dahal

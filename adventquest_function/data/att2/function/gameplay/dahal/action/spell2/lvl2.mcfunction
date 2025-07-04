@@ -21,7 +21,7 @@ tag @s remove SPLAUNCH
 #reset dahal burst score
 scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST 0
 #dahal
-scoreboard players remove @s DAHAL 45 
+scoreboard players remove @s DAHAL 45
 function att2:gameplay/dahal/action/spell2/cooldown
 scoreboard players add @s SPELL2_LVL 1
 function att2:gameplay/dahal/bonus_xp

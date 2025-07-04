@@ -3,13 +3,13 @@
 #Obtain book for spell selection								#
 #################################################################
 
-#update select 
+#update select
 function att2:gameplay/dahal/action/spell31/data_set
 
 clear @s minecraft:written_book[custom_data={Rarity:"leg",Dahal:"book",Spell:"spell31"}]
 
 execute as @s[scores={SPELL31_CAP=1}] run scoreboard players operation @s SPELL_OP = cap2 SPELL31_LVL
-execute as @s[scores={SPELL31_CAP=2}] run scoreboard players operation @s SPELL_OP = cap3 SPELL31_LVL 
+execute as @s[scores={SPELL31_CAP=2}] run scoreboard players operation @s SPELL_OP = cap3 SPELL31_LVL
 execute as @s[scores={SPELL31_CAP=3}] run scoreboard players operation @s SPELL_OP = cap4 SPELL31_LVL
 execute as @s[scores={SPELL31_CAP=4}] run scoreboard players operation @s SPELL_OP = cap5 SPELL31_LVL
 execute as @s[scores={SPELL31_CAP=5}] run scoreboard players operation @s SPELL_OP = cap6 SPELL31_LVL
