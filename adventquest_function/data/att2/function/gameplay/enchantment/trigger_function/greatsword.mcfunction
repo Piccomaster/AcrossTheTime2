@@ -8,7 +8,7 @@ execute as @s[advancements={att2_test:enchantment/greatsword/attack_trigger=true
 #check offhand
 execute if predicate att2_pre:enchantment/greatsword/mainhand if data entity @s equipment.offhand run function att2:gameplay/enchantment/greatsword/go
 #remove temp atk
-execute if score @s GREATSWORD_TIME matches 1.. run function att2:gameplay/enchantment/greatsword/atk_remove
+execute if score @s GREATSWORD_TIME matches 1.. run function att2:gameplay/enchantment/greatsword/atk_effect
 #add using
 scoreboard players reset @s[advancements={att2_test:enchantment/greatsword/using=false}] GREATSWORD_USING
 execute as @s[advancements={att2_test:enchantment/greatsword/using=true}] run function att2:gameplay/enchantment/greatsword/using

@@ -6,7 +6,7 @@
 #
 scoreboard players reset sure ENCHANTMENT
 scoreboard players reset remove ENCHANTMENT
-
+#ENCHANTMENT
 scoreboard players reset auto_mending ENCHANTMENT
 scoreboard players reset reinforce ENCHANTMENT
 scoreboard players reset runeharden ENCHANTMENT
@@ -50,6 +50,7 @@ scoreboard players reset speedburn ENCHANTMENT
 scoreboard players reset speedsave ENCHANTMENT
 scoreboard players reset abyssdiver ENCHANTMENT
 scoreboard players reset cooldownrush ENCHANTMENT
+scoreboard players reset treasurehunter ENCHANTMENT
 
 
 scoreboard players reset rune_cost ENCHANTMENT

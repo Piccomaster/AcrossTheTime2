@@ -11,3 +11,7 @@ execute if predicate att2_pre:enchantment/auto_mending/chest run function att2:g
 execute if predicate att2_pre:enchantment/auto_mending/legs run function att2:gameplay/enchantment/auto_mending/durability_legs
 
 execute if predicate att2_pre:enchantment/auto_mending/feet run function att2:gameplay/enchantment/auto_mending/durability_feet
+
+execute if predicate att2_pre:enchantment/auto_mending/mainhand run function att2:gameplay/enchantment/auto_mending/durability_mainhand
+
+execute if predicate att2_pre:enchantment/auto_mending/offhand run function att2:gameplay/enchantment/auto_mending/durability_offhand

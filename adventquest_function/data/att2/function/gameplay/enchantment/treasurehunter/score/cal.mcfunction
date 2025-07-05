@@ -17,7 +17,7 @@ execute store result storage att2:enchantment TREASUREHUNTER_LVL int 1 run score
 #return effect
 function att2:gameplay/enchantment/treasurehunter/effect with storage att2:enchantment
 #particle/sound
-playsound minecraft:block.respawn_anchor.charge player @a ~ ~ ~ 1 1
+playsound minecraft:block.respawn_anchor.charge player @a ~ ~ ~ 1 1 
 playsound piece1 player @a ~ ~ ~ 1 1
 #reset
 scoreboard players reset @s TREASUREHUNTER_COUNT

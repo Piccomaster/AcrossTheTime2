@@ -18,7 +18,7 @@ execute if score @s DIMENSION matches 6 as @e[tag=TEMP_ATK,distance=..5,limit=1,
 #billgart
 execute if score @s DIMENSION matches 7 as @e[tag=TEMP_ATK,distance=..5,limit=1,sort=nearest] at @s anchored feet run function att2:gameplay/enchantment/groundslam/effect4
 #cal damage
-scoreboard players operation temp_value_1 CAL *= 30 CAL
+scoreboard players operation temp_value_1 CAL *= 30 CAL 
 scoreboard players operation temp_value_2 CAL *= temp_value_1 CAL
 scoreboard players operation temp_value_2 CAL /= 100 CAL
 #return damage

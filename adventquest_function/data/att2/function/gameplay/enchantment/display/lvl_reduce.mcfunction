@@ -72,3 +72,5 @@ execute if score speedsave ENCHANTMENT matches 0.. run function att2:gameplay/en
 execute if score abyssdiver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/abyssdiver_reduce
 #cooldownrush_reduce
 execute if score cooldownrush ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/cooldownrush_reduce
+#treasurehunter_reduce
+execute if score treasurehunter ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/treasurehunter_reduce

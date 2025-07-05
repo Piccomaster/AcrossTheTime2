@@ -4,7 +4,7 @@
 #################################################################
 
 #reset blocking
-execute positioned ~ ~20 ~ run summon armor_stand ~ ~ ~ {Marker:1b,Tags:[REPLACE],NoGravity:1b,Invisible:1}
+execute positioned ~ ~20 ~ run summon armor_stand ~ ~ ~ {Marker:1,Tags:[REPLACE],NoGravity:1,Invisible:1}
 #store item data
 data modify storage att2:temp item_id set from entity @s SelectedItem.id
 data modify storage att2:temp item_components set from entity @s SelectedItem.components
@@ -17,7 +17,8 @@ kill @e[tag=REPLACE,type=armor_stand]
 #sound
 playsound minecraft:item.armor.equip_iron block @a ~ ~ ~ 1 1
 playsound minecraft:item.armor.equip_diamond block @a ~ ~ ~ 1 1.4
-
+#
+scoreboard players reset @s GREATSWORD_USING
 #reset
 data remove storage att2:temp item_id
 data remove storage att2:temp item_components

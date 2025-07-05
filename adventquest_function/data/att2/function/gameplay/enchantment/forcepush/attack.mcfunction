@@ -37,11 +37,11 @@ execute if score temp_value_2 CAL matches ..0 run scoreboard players set temp_va
 #CAL EFFECT
 scoreboard players operation temp_value_2 CAL *= temp_value_1 CAL
 # knockback effect |DAMAGE SET
-execute if score temp_value_2 CAL matches 1..3 at @s anchored eyes positioned ^ ^-0.5 ^2 as @e[type=!player,distance=..2] at @s run function att2:gameplay/enchantment/forcepush/effect1 with storage att2:temp
-execute if score temp_value_2 CAL matches 4..6 at @s anchored eyes positioned ^ ^-0.5 ^2.5 as @e[type=!player,distance=..2.5] at @s run function att2:gameplay/enchantment/forcepush/effect2 with storage att2:temp
-execute if score temp_value_2 CAL matches 7..9 at @s anchored eyes positioned ^ ^-0.5 ^3 as @e[type=!player,distance=..3] at @s run function att2:gameplay/enchantment/forcepush/effect3 with storage att2:temp
-execute if score temp_value_2 CAL matches 10..12 at @s anchored eyes positioned ^ ^-0.5 ^3.5 as @e[type=!player,distance=..3.5] at @s run function att2:gameplay/enchantment/forcepush/effect4 with storage att2:temp
-execute if score temp_value_2 CAL matches 13.. at @s anchored eyes positioned ^ ^-0.5 ^4 as @e[type=!player,distance=..4] at @s run function att2:gameplay/enchantment/forcepush/effect5 with storage att2:temp
+execute if score temp_value_2 CAL matches 1..3 at @s anchored eyes positioned ^ ^-0.5 ^2 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..2] at @s run function att2:gameplay/enchantment/forcepush/effect1 with storage att2:temp
+execute if score temp_value_2 CAL matches 4..6 at @s anchored eyes positioned ^ ^-0.5 ^2.5 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..2.5] at @s run function att2:gameplay/enchantment/forcepush/effect2 with storage att2:temp
+execute if score temp_value_2 CAL matches 7..9 at @s anchored eyes positioned ^ ^-0.5 ^3 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..3] at @s run function att2:gameplay/enchantment/forcepush/effect3 with storage att2:temp
+execute if score temp_value_2 CAL matches 10..12 at @s anchored eyes positioned ^ ^-0.5 ^3.5 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..3.5] at @s run function att2:gameplay/enchantment/forcepush/effect4 with storage att2:temp
+execute if score temp_value_2 CAL matches 13.. at @s anchored eyes positioned ^ ^-0.5 ^4 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..4] at @s run function att2:gameplay/enchantment/forcepush/effect5 with storage att2:temp
 #sound
 function att2:gameplay/enchantment/forcepush/sound
 #reset

@@ -16,7 +16,7 @@ execute if score sure ENCHANTMENT matches 1 run function att2:dialogs/gameplay/e
 execute if score sure ENCHANTMENT matches 2 if score auto_mending ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/auto_mending_sure
 #reinforce_sure
 execute if score sure ENCHANTMENT matches 2 if score reinforce ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/reinforce_sure
-#runeharden_sure
+#runeharden_sure 
 execute if score sure ENCHANTMENT matches 2 if score runeharden ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/runeharden_sure
 #anchorshot_sure
 execute if score sure ENCHANTMENT matches 2 if score anchorshot ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/anchorshot_sure
@@ -76,3 +76,5 @@ execute if score sure ENCHANTMENT matches 2 if score speedsave ENCHANTMENT match
 execute if score sure ENCHANTMENT matches 2 if score abyssdiver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/abyssdiver_sure
 #cooldownrush_sure
 execute if score sure ENCHANTMENT matches 2 if score cooldownrush ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/cooldownrush_sure
+#treasurehunter_sure
+execute if score sure ENCHANTMENT matches 2 if score treasurehunter ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/treasurehunter_sure
