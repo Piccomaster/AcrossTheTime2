@@ -14,3 +14,6 @@ function att2:gameplay/misc/survive_bonus/initialize
 function att2:gameplay/misc/title_effect/initialize
 function att2:gameplay/misc/tp_item/initialize
 function att2:gameplay/misc/exploit_book/initialize
+function att2:gameplay/misc/fishing/initialize
+function att2:gameplay/misc/fire_damage/initialize
+function att2:gameplay/misc/chair/initialize
