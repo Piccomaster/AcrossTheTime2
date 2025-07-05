@@ -2,7 +2,6 @@
 #Spawner for att2:summon/reg_2/sentinel3_class10	#
 ####################################	*#
 
-execute positioned 3681 83 4594 as @e[team=hostile,distance=..30,limit=1] run scoreboard players set @s COUNT 0
-execute positioned 3681 83 4594 as @e[team=hostile,distance=..30,scores={COUNT=0..}] at @e[team=hostile,type=!player,distance=..30] run scoreboard players add @s COUNT 1
-execute positioned 3681 83 4594 unless entity @e[team=hostile,distance=..30,scores={COUNT=2..}] run function att2:summon/reg_2/sentinel3_class10
-execute positioned 3681 83 4594 as @e[team=hostile,distance=..30,scores={COUNT=0..}] run scoreboard players reset @s COUNT
+execute positioned 3681 83 4594 store result score mob_count COUNT if entity @e[team=hostile,type=!player,distance=..30]
+execute positioned 3681 83 4594 unless entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] unless score mob_count COUNT matches 2.. run function att2:summon/reg_2/sentinel3_class10
+scoreboard players reset mob_count COUNT

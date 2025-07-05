@@ -2,7 +2,6 @@
 #Spawner for att2:summon/reg_1/putridsmall1_class20	#
 ####################################	*#
 
-execute positioned -7730 38 -4198 as @e[team=hostile,distance=..30,limit=1] run scoreboard players set @s COUNT 0
-execute positioned -7730 38 -4198 as @e[team=hostile,distance=..30,scores={COUNT=0..}] at @e[team=hostile,type=!player,distance=..30] run scoreboard players add @s COUNT 1
-execute positioned -7730 38 -4198 unless entity @e[team=hostile,distance=..30,scores={COUNT=2..}] run function att2:summon/reg_1/putridsmall1_class20
-execute positioned -7730 38 -4198 as @e[team=hostile,distance=..30,scores={COUNT=0..}] run scoreboard players reset @s COUNT
+execute positioned -7730 38 -4198 store result score mob_count COUNT if entity @e[team=hostile,type=!player,distance=..30]
+execute positioned -7730 38 -4198 unless entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] unless score mob_count COUNT matches 2.. run function att2:summon/reg_1/putridsmall1_class20
+scoreboard players reset mob_count COUNT
