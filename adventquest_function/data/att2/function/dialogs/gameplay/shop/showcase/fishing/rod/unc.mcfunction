@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the foods list items shop 				#
+#################################################################
+
+tellraw @a {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<","bold":false,"color":"gray"},{"translate":"att2.fishing.rod.unc.name","bold":false,"color":"gray","hover_event":{"action": "show_item",id:"minecraft:fishing_rod",count:1,"components": {"minecraft:custom_name":{"translate":"att2.fishing.rod.unc.name"},"minecraft:lore":[{"translate":"att2.fishing.rod.unc.lore.1"},{"translate":"att2.fishing.rod.unc.lore.2"}],"minecraft:enchantments":{'unbreaking':1}}},"extra":[{"text":">","bold":false,"color":"gray"},{"text":" [","color":"yellow","click_event":{"action":"run_command","command":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/fishing/rod/unc"},"hover_event":{"action":"show_text","value":[{"translate":"att2.shop.hover_event.buy"}]},"extra":[{"score":{"name":"rod_unc","objective":"PRICES"},"color":"yellow","extra":[{"text":" Chronotons]","color":"yellow"}]}]}]}]}
