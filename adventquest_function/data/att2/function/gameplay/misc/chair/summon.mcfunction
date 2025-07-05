@@ -21,12 +21,8 @@ execute if block ~ ~-1 ~ #minecraft:stairs if predicate att2_pre:chair/other_1 a
 execute if predicate att2_pre:chair/snow run function att2:gameplay/misc/chair/snow
 #data merge
 execute as @e[tag=CHAIR,type=item_display,tag=New] run data merge entity @s {transformation:{translation:[0f,-0.35f,0f],scale:[0.85f,0.85f,0.85f]}}
-#add number score
-scoreboard players add @s CHAIR 1
-execute if score @s CHAIR matches 4.. run scoreboard players set @s CHAIR 1
 #set score
-scoreboard players operation @e[tag=CHAIR,type=interaction,tag=New] OWNER = @s NUMEROJOUEUR
-scoreboard players operation @e[tag=CHAIR,type=interaction,tag=New] CHAIR = @s CHAIR
+scoreboard players operation @e[tag=CHAIR,tag=New] OWNER = @s NUMEROJOUEUR
 #tag remove
 tag @e[tag=New] remove New
 #dialogs
