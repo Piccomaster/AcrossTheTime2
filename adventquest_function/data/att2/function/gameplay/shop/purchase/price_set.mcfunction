@@ -2234,9 +2234,6 @@ scoreboard players set tropical_fish PRICES 2
 scoreboard players operation tropical_fish PRICES *= discount discount_calc
 scoreboard players operation tropical_fish PRICES /= 100 discount_calc
 #horse
-scoreboard players set camel_class0_0 PRICES 1000
-scoreboard players operation camel_class0_0 PRICES *= discount discount_calc
-scoreboard players operation camel_class0_0 PRICES /= 100 discount_calc
 scoreboard players set horse_class1_0 PRICES 20
 scoreboard players operation horse_class1_0 PRICES *= discount discount_calc
 scoreboard players operation horse_class1_0 PRICES /= 100 discount_calc
@@ -2297,6 +2294,69 @@ scoreboard players operation horse_class12_11 PRICES /= 100 discount_calc
 scoreboard players set horse_class16_3 PRICES 600
 scoreboard players operation horse_class16_3 PRICES *= discount discount_calc
 scoreboard players operation horse_class16_3 PRICES /= 100 discount_calc
+#mule
+scoreboard players set mule_class0_2 PRICES 100
+scoreboard players operation mule_class0_2 PRICES *= discount discount_calc
+scoreboard players operation mule_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set mule_class0_4 PRICES 200
+scoreboard players operation mule_class0_2 PRICES *= discount discount_calc
+scoreboard players operation mule_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set mule_class0_6 PRICES 300
+scoreboard players operation mule_class0_2 PRICES *= discount discount_calc
+scoreboard players operation mule_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set mule_class0_8 PRICES 400
+scoreboard players operation mule_class0_2 PRICES *= discount discount_calc
+scoreboard players operation mule_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set mule_class0_10 PRICES 500
+scoreboard players operation mule_class0_2 PRICES *= discount discount_calc
+scoreboard players operation mule_class0_2 PRICES /= 100 discount_calc
+
+#pig
+scoreboard players set pig_class0_2 PRICES 100
+scoreboard players operation pig_class0_2 PRICES *= discount discount_calc
+scoreboard players operation pig_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set pig_class0_4 PRICES 200
+scoreboard players operation pig_class0_2 PRICES *= discount discount_calc
+scoreboard players operation pig_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set pig_class0_6 PRICES 300
+scoreboard players operation pig_class0_2 PRICES *= discount discount_calc
+scoreboard players operation pig_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set pig_class0_8 PRICES 400
+scoreboard players operation pig_class0_2 PRICES *= discount discount_calc
+scoreboard players operation pig_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set pig_class0_10 PRICES 500
+scoreboard players operation pig_class0_2 PRICES *= discount discount_calc
+scoreboard players operation pig_class0_2 PRICES /= 100 discount_calc
+
+#camel
+scoreboard players set camel_class0_2 PRICES 100
+scoreboard players operation camel_class0_2 PRICES *= discount discount_calc
+scoreboard players operation camel_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set camel_class0_4 PRICES 200
+scoreboard players operation camel_class0_2 PRICES *= discount discount_calc
+scoreboard players operation camel_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set camel_class0_6 PRICES 300
+scoreboard players operation camel_class0_2 PRICES *= discount discount_calc
+scoreboard players operation camel_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set camel_class0_8 PRICES 400
+scoreboard players operation camel_class0_2 PRICES *= discount discount_calc
+scoreboard players operation camel_class0_2 PRICES /= 100 discount_calc
+
+scoreboard players set camel_class0_10 PRICES 500
+scoreboard players operation camel_class0_2 PRICES *= discount discount_calc
+scoreboard players operation camel_class0_2 PRICES /= 100 discount_calc
+
 #misc
 #spell
 #scoreboard players set spell1 PRICES 150
@@ -2390,6 +2450,9 @@ scoreboard players operation tool_esc PRICES /= 100 discount_calc
 scoreboard players set tool_leg PRICES 900
 scoreboard players operation tool_leg PRICES *= discount discount_calc
 scoreboard players operation tool_leg PRICES /= 100 discount_calc
+scoreboard players set tool_ult PRICES 1500
+scoreboard players operation tool_ult PRICES *= discount discount_calc
+scoreboard players operation tool_ult PRICES /= 100 discount_calc
 #reparation prices
 scoreboard players set mending_com PRICES 25
 scoreboard players operation mending_com PRICES *= discount discount_calc
@@ -2446,24 +2509,27 @@ scoreboard players operation spectral_arrow_0 PRICES /= 100 discount_calc
 scoreboard players set spectral_arrow_1 PRICES 10
 scoreboard players operation spectral_arrow_1 PRICES *= discount discount_calc
 scoreboard players operation spectral_arrow_1 PRICES /= 100 discount_calc
+#misc##
+scoreboard players set torch PRICES 10
+scoreboard players set chair PRICES 50
 #fishing##
 #rod
 scoreboard players set rod_com PRICES 100
 scoreboard players operation rod_com PRICES *= discount discount_calc
 scoreboard players operation rod_com PRICES /= 100 discount_calc
-scoreboard players set rod_unc PRICES 150
+scoreboard players set rod_unc PRICES 200
 scoreboard players operation rod_unc PRICES *= discount discount_calc
 scoreboard players operation rod_unc PRICES /= 100 discount_calc
-scoreboard players set rod_rar PRICES 300
+scoreboard players set rod_rar PRICES 400
 scoreboard players operation rod_rar PRICES *= discount discount_calc
 scoreboard players operation rod_rar PRICES /= 100 discount_calc
-scoreboard players set rod_epi PRICES 500
+scoreboard players set rod_epi PRICES 600
 scoreboard players operation rod_epi PRICES *= discount discount_calc
 scoreboard players operation rod_epi PRICES /= 100 discount_calc
-scoreboard players set rod_leg PRICES 600
+scoreboard players set rod_leg PRICES 800
 scoreboard players operation rod_leg PRICES *= discount discount_calc
 scoreboard players operation rod_leg PRICES /= 100 discount_calc
-scoreboard players set rod_ult PRICES 900
+scoreboard players set rod_ult PRICES 1200
 scoreboard players operation rod_ult PRICES *= discount discount_calc
 scoreboard players operation rod_ult PRICES /= 100 discount_calc
 #bait
