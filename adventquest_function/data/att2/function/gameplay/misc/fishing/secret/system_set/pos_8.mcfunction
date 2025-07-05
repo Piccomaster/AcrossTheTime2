@@ -8,6 +8,6 @@
 #c1t1 c1t3 c1t4 c2t3 c3t3 c2t6 c3t6 c1t10 c2t10 c3t10               #
 #####################################################################
 #set command_block
-execute in overworld positioned -3512 70 -4737 run setblock ~ ~ ~ repeating_command_block{Command:"execute in overworld positioned -3512 70 -4737 run function att2:gameplay/misc/fishing/secret/pos_8/go",auto:1}
+execute in overworld positioned -3512 70 -4737 unless block ~ ~ ~ repeating_command_block run setblock ~ ~ ~ repeating_command_block{Command:"execute in overworld positioned -3512 70 -4737 run function att2:gameplay/misc/fishing/secret/pos_8/go",auto:1}
 #set marker FISH SPOT
-execute in overworld positioned -3512 70 -4737 unless entity @e[tag=FISH_SPOT,type=armor_stand,distance=..20] run summon armor_stand -3507 68 -4732 {Tags:["FISH_SPOT"],Marker:true,Invisible:true,NoGravity:true}
+execute in overworld positioned -3512 70 -4737 if entity @a[distance=..30] unless entity @e[tag=FISH_SPOT,type=armor_stand,distance=..20] run summon armor_stand -3507 68 -4732 {Tags:["FISH_SPOT"],Marker:true,Invisible:true,NoGravity:true}
