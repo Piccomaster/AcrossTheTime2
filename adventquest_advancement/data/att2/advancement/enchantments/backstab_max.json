@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"att2.advancement.enchantments.title.backstab"},
+        "description": {"translate":"att2.advancement.enchantments.description.backstab"},
+        "frame": "challenge"
+    },
+    "parent": "att2:enchantments/backstab",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 3000
+                },
+    "criteria": {
+        "backstab": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

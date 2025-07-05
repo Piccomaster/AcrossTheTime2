@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"att2.advancement.enchantments.title.precisionshot"},
+        "description": {"translate":"att2.advancement.enchantments.description.precisionshot"},
+        "frame": "goal"
+    },
+    "parent": "att2:enchantments/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 300
+                },
+    "criteria": {
+        "precisionshot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

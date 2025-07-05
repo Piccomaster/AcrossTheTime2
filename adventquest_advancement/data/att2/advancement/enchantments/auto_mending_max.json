@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"att2.advancement.enchantments.title.auto_mending"},
+        "description": {"translate":"att2.advancement.enchantments.description.auto_mending"},
+        "frame": "challenge"
+    },
+    "parent": "att2:enchantments/auto_mending",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 3000
+                },
+    "criteria": {
+        "auto_mending": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

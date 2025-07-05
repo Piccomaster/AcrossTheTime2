@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"att2.advancement.enchantments.title.speedburn"},
+        "description": {"translate":"att2.advancement.enchantments.description.speedburn"},
+        "frame": "challenge"
+    },
+    "parent": "att2:enchantments/speedburn",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 3000
+                },
+    "criteria": {
+        "speedburn": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
