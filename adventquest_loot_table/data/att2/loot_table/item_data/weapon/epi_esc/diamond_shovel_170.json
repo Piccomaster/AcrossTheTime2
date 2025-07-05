@@ -26,15 +26,14 @@
                 ],
                 "minecraft:custom_data": {
                   "EquipmentType": "meleeWeapon",
-                  "Rarity": "com",
+                  "Rarity": "epi_esc",
                   "Manufacturer": "delightful",
                   "DAR": 4,
                   "STR": -1,
                   "Weapon": "170"
                 },
                 "minecraft:enchantments": {
-                  "XX": 1,
-                  "punch": 1
+                  "knockback": 1
                 },
                 "minecraft:attribute_modifiers": [
                   {

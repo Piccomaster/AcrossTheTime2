@@ -40,7 +40,7 @@
                   {
                     "type": "minecraft:armor",
                     "id": "armor.chestplate",
-                    "amount": ":8.99",
+                    "amount": "8.99",
                     "operation": "add_value",
                     "slot": "chest"
                   },

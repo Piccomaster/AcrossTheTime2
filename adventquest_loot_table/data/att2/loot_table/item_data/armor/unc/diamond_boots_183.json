@@ -35,7 +35,7 @@
                   {
                     "type": "minecraft:armor",
                     "id": "armor.boots",
-                    "amount": ":0.95",
+                    "amount": "0.95",
                     "operation": "add_value",
                     "slot": "feet"
                   },
