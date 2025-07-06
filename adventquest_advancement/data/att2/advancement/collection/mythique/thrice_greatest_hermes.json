@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:netherite_boots",
-            "nbt": "{CustomModelData:10000003}"
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        10000003
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "att2.advancement.collection.mythique.title.thrice_greatest_hermes"
@@ -24,10 +30,12 @@
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:netherite_boots"
-                        ],
-                        "nbt": "{EquipmentID:thricegreatesthermes}"
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "EquipmentID": "thricegreatesthermes"
+                            }
+                        }
                     }
                 ]
             }

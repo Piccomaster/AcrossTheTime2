@@ -2,18 +2,28 @@
     "display": {
         "icon": {
             "id": "minecraft:diamond_axe",
-            "nbt": "{CustomModelData:10000001}"
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        10000001
+                    ]
+                }
+            }
         },
-        "title": {"translate": "att2.advancement.collection.mythique.title.kinuil"},
-        "description": {"translate": "att2.advancement.collection.mythique.description.kinuil"},
+        "title": {
+            "translate": "att2.advancement.collection.mythique.title.kinuil"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.mythique.description.kinuil"
+        },
         "frame": "challenge",
-        "hidden":true
+        "hidden": true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
         "function": "att2:advancement/test_all/collection/kinuil",
         "experience": 50000
-                },
+    },
     "criteria": {
         "kinuil": {
             "trigger": "minecraft:impossible"

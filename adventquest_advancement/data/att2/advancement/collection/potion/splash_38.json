@@ -2,7 +2,10 @@
   "display": {
     "icon": {
       "id": "minecraft:splash_potion",
-      "predicates": {
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 12501185
+        },
         "minecraft:custom_data": {
           "Potion": "38"
         }
@@ -29,8 +32,7 @@
         "items": [
           {
             "items": 
-              "minecraft:splash_potion"
-,
+              "minecraft:splash_potion",
             "predicates": {
               "minecraft:custom_data": {
                 "Potion": "38"
