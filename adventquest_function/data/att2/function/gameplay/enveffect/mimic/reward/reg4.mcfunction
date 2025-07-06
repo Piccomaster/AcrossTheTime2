@@ -22,13 +22,13 @@ scoreboard players operation reward MIMIC += @e[distance=..0,limit=1,type=slime,
 execute if score reward MIMIC matches 1.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c2t2
 execute if score reward MIMIC matches 5.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c2t2
 execute if score reward MIMIC matches 10.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c2t2
-execute if score reward MIMIC matches 15.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c2t3
+execute if score reward MIMIC matches 15.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c3t3
 execute if score reward MIMIC matches 20.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c3t3
 execute if score reward MIMIC matches 25.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c3t3
 
 execute if score reward MIMIC matches 30.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c4t4
 execute if score reward MIMIC matches 35.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c4t4
-execute if score reward MIMIC matches 40.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c5t2
+execute if score reward MIMIC matches 40.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c5t5
 execute if score reward MIMIC matches 45.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c5t5
 execute if score reward MIMIC matches 50.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c6t6
 execute if score reward MIMIC matches 55.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c6t6
