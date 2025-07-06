@@ -3,6 +3,7 @@
 #Use function to process the Dialog 1 of Player 				#
 #################################################################
 
+function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 

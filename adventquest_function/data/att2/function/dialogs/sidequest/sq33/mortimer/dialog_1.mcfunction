@@ -51,10 +51,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Ei você! Feche esta porta, já está frio o suficiente... Mas me diga, você parece muito atlético, que tal uma pequena missão? Segundo alguns, há antigos monólitos erguidos por povos desconhecidos nos quatro cantos da região. Eu já não tenho mais forças para viajar pela região de Sylberländ, mas gostaria de começar a estudar amostras. Você poderia me trazer algumas? Tenho algumas economias, eu te recompensarei adequadamente por cada elemento das estruturas que você trouxer.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"嘿，你！快点把门关上，这里已经够冷了...不过你这体格看起来很健壮啊，喜欢接受任务的音效吗？据说在这片Sylberländ大陆的某些角落，有着一些被神秘人建造的巨石阵。我这老胳膊老腿已经没有力气去Sylberländ大陆四处旅行了，但我还想研究一些古老的样本。你能帮我带来一些吗？我这里有一些积蓄，你每带回来一部分石阵的样本，我都会给你相应的奖励。","color":"dark_aqua"}]}
 
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_1/choice_3
 
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"嘿，你！快点把门关上，这里已经够冷了...不过你这体格看起来很健壮啊，喜欢接受任务的音效吗？据说在这片Sylberländ大陆的某些角落，有着一些被神秘人建造的巨石阵。我这老胳膊老腿已经没有力气去Sylberländ大陆四处旅行了，但我还想研究一些古老的样本。你能帮我带来一些吗？我这里有一些积蓄，你每带回来一部分石阵的样本，我都会给你相应的奖励。","color":"dark_aqua"}]}
