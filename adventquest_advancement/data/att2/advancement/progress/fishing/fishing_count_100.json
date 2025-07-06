@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:fishing_rod"
+        },
+        "title": {"translate":"att2.advancement.progress.title.fishing_count_100"},
+        "description": {"translate":"att2.advancement.progress.description.fishing_count_100"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/fishing_count_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 10000
+    },
+    "criteria": {
+        "fishing_count_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
