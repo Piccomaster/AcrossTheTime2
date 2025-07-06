@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Você conseguirá encontrar o caminho por esses meandros. Eu sei disso. Se você conseguir chegar ao coração da cidade, encontrará gemas do tempo suficientes para ativar todos os portais de Tellurön...","color":"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你一定能在这些弯弯绕绕中找到出路，我知道你可以的。如果你能到达城市的中心，你就会找到足够的时间宝石来激活ellurön传送门的所有力量...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你一定能在这些弯弯绕绕中找到出路，我知道你可以的。如果你能到达城市的中心，你就会找到足够的时间宝石来激活Tellurön传送门的所有力量...","color":"dark_aqua"}]}

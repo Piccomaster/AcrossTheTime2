@@ -46,4 +46,4 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui está a segunda gema do tempo colocada. Eu deveria verificar Ithil agora...","color":"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"第二颗宝石也已然就绪。我现在应该回到Ithil那询问更多有关最后一颗宝石的下落...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"第二颗时间宝石也已然就绪。我现在应该回到Ithil那询问更多时间宝石的下落...","color":"aqua"}]}

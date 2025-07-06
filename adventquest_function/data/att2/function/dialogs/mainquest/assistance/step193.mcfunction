@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, um guarda postado em frente à grande porta do palácio de Ouranos, me disse que eu precisava procurar Néleptrons para conseguir uma audiência com seu rei. Vamos continuar explorando e procurando esses Néleptrons. Deve haver um caminho bastante visível levando até lá...","color":"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon是一名驻守在Ourano宫殿大门前的护卫，他告诉我，我必须寻找Néleptrons才能谒见他们的国王。我得继续探索和寻找这些Nélpetrons。应该有一条相当明显的路径通往那些地方...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon是一名驻守在Ourano宫殿大门前的护卫，他告诉我，我必须寻找Néleptrons才能谒见他们的国王。我得继续探索和寻找这些Néleptrons。应该有一条相当明显的路径通往那些地方...","color":"aqua"}]}
