@@ -3,5 +3,4 @@
 #Summon Small coin of Chronotons                 #
 ##################################################
 
-give @s minecraft:quartz{EquipmentType:"misc",Rarity:"unk",display:{Name:""§d§oEcaille Souveraine du Chaos"","Lore":["{"text":"§5§oPrecious!!"}","{"text":"§5Very, VERY, Precious..."}"]}}
-#summon minecraft:item ~ ~ ~ {PickupDelay:20,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:quartz",count:1,components:{EquipmentType:"misc",Rarity:"unk",display:{Name:"{"text":"§d§oEcaille Souveraine du Chaos"}","Lore":["{"text":"§5§oPrecious!!"}","{"text":"§5Very, VERY, Precious..."}"]}}}}
+summon minecraft:item ~ ~ ~ {PickupDelay:80,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:quartz",count:1,components:{custom_data:{EquipmentType:'misc',Rarity:'unk',Coin:'esc'},custom_name:{translate:'item.coin.esc.name'},lore:[{translate:'item.coin.esc.lore.1'},{translate:'item.coin.esc.lore.2'}]}}}
