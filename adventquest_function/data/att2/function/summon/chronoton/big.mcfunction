@@ -3,4 +3,4 @@
 #Summon Big coin of Chronotons                   #
 ##################################################
 
-summon minecraft:item ~ ~ ~ {PickupDelay:80,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:gold_ingot",count:1,components:{display:{Name:"{"text":"§e§oGrande pièce"}","Lore":["{"text":"§e§oBig coin"}","{"text":"§6+5 Chronotons"}"]}}}}
+summon minecraft:item ~ ~ ~ {PickupDelay:80,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:gold_ingot",count:1,components:{custom_data:{EquipmentType:'misc',Rarity:'cur',Coin:'big'},custom_name:{translate:'item.coin.big.name'},lore:[{translate:'item.coin.big.lore'}]}}}

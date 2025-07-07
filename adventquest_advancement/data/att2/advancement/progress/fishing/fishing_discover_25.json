@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:fishing_rod"
+        },
+        "title": {"translate":"att2.advancement.progress.title.fishing_discover_25"},
+        "description": {"translate":"att2.advancement.progress.description.fishing_discover_25"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/fishing_discover_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_4",
+        "experience": 400
+    },
+    "criteria": {
+        "fishing_discover_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

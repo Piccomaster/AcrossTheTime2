@@ -4,10 +4,13 @@
 #################################################################
 
 scoreboard objectives add ENCHANTMENT dummy
+#advancement
+scoreboard objectives add ENCHANTMENT_ADVANCMENT dummy
 
 
 scoreboard objectives add TOTEM dummy
 scoreboard objectives add BACKSTAB dummy
+scoreboard objectives add BACKSTAB_STAT dummy
 scoreboard objectives add SPEARTOSS dummy
 scoreboard objectives add EMPATHY dummy
 scoreboard objectives add ANCHORSHOT dummy
@@ -50,5 +53,10 @@ scoreboard objectives add TREASUREHUNTER dummy
 
 scoreboard objectives add FORCEPUSH dummy
 
+scoreboard objectives add SSCOMBO_SWORD dummy
+scoreboard objectives add SSCOMBO_SHIELD dummy
+scoreboard objectives add SSCOMBO_TIMER dummy
+scoreboard objectives add SSCOMBO_STAT dummy
+scoreboard objectives add SSCOMBO dummy
 #price set
 function att2:gameplay/enchantment/display/price_set/initialize

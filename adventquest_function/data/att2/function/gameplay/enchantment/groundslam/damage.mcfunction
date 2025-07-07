@@ -3,4 +3,4 @@
 #speed burn enchantment effect                    				#
 #################################################################
 
-$damage @s $(damage) player_attack by @a[tag=TEMP,limit=1]
+$damage @s $(damage) att2_damage:player_attack by @a[tag=TEMP,limit=1]

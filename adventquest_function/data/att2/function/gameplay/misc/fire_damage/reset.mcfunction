@@ -5,5 +5,5 @@
 
 #remove tag
 tag @s remove FIRE
-#remove score
+#remove score 
 scoreboard players reset @s FIRE

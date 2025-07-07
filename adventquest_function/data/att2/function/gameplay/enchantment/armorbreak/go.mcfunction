@@ -23,7 +23,7 @@ scoreboard players operation temp_value_5 CAL += temp_value_3 CAL
 scoreboard players operation temp_value_5 CAL += temp_value_4 CAL
 #make total pr en <=20(80%damage reduce)
 execute if score temp_value_5 CAL matches 20.. run scoreboard players operation temp_value_5 CAL = 20 CAL
-#reduce pr en 2 level point
+#reduce pr en 2 level point 
 scoreboard players operation temp_value_5 CAL -= 1 CAL
 #make pr en > 0
 execute if score temp_value_5 CAL matches ..0 run scoreboard players set temp_value_5 CAL 0

@@ -2,7 +2,6 @@
 #Spawner for att2:summon/reg_2/mortal0_class17	#
 ####################################	*#
 
-execute positioned 3485 39 4387 as @e[team=hostile,distance=..20,limit=1] run scoreboard players set @s COUNT 0
-execute positioned 3485 39 4387 as @e[team=hostile,distance=..20,scores={COUNT=0..}] at @e[team=hostile,type=!player,distance=..20] run scoreboard players add @s COUNT 1
-execute positioned 3485 39 4387 unless entity @e[team=hostile,distance=..20,scores={COUNT=4..}] run function att2:summon/reg_2/mortal0_class17
-execute positioned 3485 39 4387 as @e[team=hostile,distance=..20,scores={COUNT=0..}] run scoreboard players reset @s COUNT
+execute positioned 3485 39 4387 store result score mob_count COUNT if entity @e[team=hostile,type=!player,distance=..20]
+execute positioned 3485 39 4387 unless entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] unless score mob_count COUNT matches 4.. run function att2:summon/reg_2/mortal0_class17
+scoreboard players reset mob_count COUNT

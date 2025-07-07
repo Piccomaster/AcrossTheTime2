@@ -3,12 +3,10 @@
 #Use function to process the update of waypoint timer 				#
 #####################################################################
 
-execute if entity @e[tag=CHAIR,type=minecart,distance=..0.5] run function att2:gameplay/misc/chair/sit_trigger
+#remove
+scoreboard players remove @s SPAWNER_LIMIT 1
+#test if near chair
+execute if score @s SPAWNER_LIMIT matches ..1 if entity @e[tag=CHAIR,type=minecart,distance=..0.5] run scoreboard players set @s SPAWNER_LIMIT 40
+#reset
 execute unless entity @e[tag=CHAIR,type=minecart,distance=..0.5] run function att2:gameplay/misc/chair/reset
-#other_chair->kill
-#execute as @e[tag=CHAIR,type=interaction] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/misc/chair/clear
-
-
-
-
-
+execute if score @s SPAWNER_LIMIT matches ..0 run function att2:gameplay/misc/chair/reset

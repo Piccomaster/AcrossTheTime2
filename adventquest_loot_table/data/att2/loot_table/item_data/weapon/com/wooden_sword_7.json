@@ -32,7 +32,7 @@
                   "Weapon": "7"
                 },
                 "minecraft:enchantments": {
-                  "sweeping_edge_edge": 1
+                  "sweeping_edge": 1
                 },
                 "minecraft:attribute_modifiers": [
                   {

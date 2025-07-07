@@ -19,8 +19,8 @@ scoreboard players operation reward MIMIC = @s LUC_TOT
 scoreboard players operation reward MIMIC *= 4 CAL
 scoreboard players operation reward MIMIC += @e[distance=..0,limit=1,type=slime,tag=MIMIC] MIMIC
 
-execute if score reward MIMIC matches 1.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c1t2
-execute if score reward MIMIC matches 5.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c1t3
+execute if score reward MIMIC matches 1.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c2t2
+execute if score reward MIMIC matches 5.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c3t3
 execute if score reward MIMIC matches 10.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c2t2
 execute if score reward MIMIC matches 15.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c2t2
 execute if score reward MIMIC matches 20.. run loot spawn ~ ~2 ~ loot att2:chest/reg2/c3t3

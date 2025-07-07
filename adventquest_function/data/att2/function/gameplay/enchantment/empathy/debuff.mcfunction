@@ -5,7 +5,7 @@
 
 execute store result score temp_value_1 CAL run data get entity @s equipment.head.components."minecraft:enchantments"."att2_enchantment:empathy" -1
 #Xnight/rain/waterX ->debuff
-scoreboard players operation temp_value_1 CAL /= 2 CAL
+scoreboard players operation temp_value_1 CAL /= 2 CAL  
 #get STR/SPD number
 scoreboard players operation STR ATTRIBUTE = temp_value_1 CAL
 scoreboard players operation SPD ATTRIBUTE = temp_value_1 CAL

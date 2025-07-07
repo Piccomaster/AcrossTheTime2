@@ -2,7 +2,6 @@
 #Spawner for att2:summon/reg_3/blaze0_class16	#
 ####################################	*#
 
-execute positioned -1126 64 -548 as @e[team=hostile,distance=..40,limit=1] run scoreboard players set @s COUNT 0
-execute positioned -1126 64 -548 as @e[team=hostile,distance=..40,scores={COUNT=0..}] at @e[team=hostile,type=!player,distance=..40] run scoreboard players add @s COUNT 1
-execute positioned -1126 64 -548 unless entity @e[team=hostile,distance=..40,scores={COUNT=4..}] run function att2:summon/reg_3/blaze0_class16
-execute positioned -1126 64 -548 as @e[team=hostile,distance=..40,scores={COUNT=0..}] run scoreboard players reset @s COUNT
+execute positioned -1126 64 -548 store result score mob_count COUNT if entity @e[team=hostile,type=!player,distance=..40]
+execute positioned -1126 64 -548 unless entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] unless score mob_count COUNT matches 4.. run function att2:summon/reg_3/blaze0_class16
+scoreboard players reset mob_count COUNT

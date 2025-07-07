@@ -3,4 +3,4 @@
 #Obtain arrow_0         					 	 #
 ##################################################
 
-give @s minecraft:arrow[custom_data={EquipmentType:'arrow',Rarity:'misc'}] 1
+give @s minecraft:arrow[custom_data={EquipmentType:'arrow',Rarity:'misc'},max_stack_size=99] 1

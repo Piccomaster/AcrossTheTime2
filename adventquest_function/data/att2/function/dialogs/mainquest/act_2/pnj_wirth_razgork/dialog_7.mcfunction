@@ -37,3 +37,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wirth Razgork : ","color":"green
 
 # Português (Portugais)
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Olá, ouvi falar das tuas aventuras e estou fascinado com as tuas conquistas. Decidi registrar todas as tuas façanhas. E não te esqueças, atrás de mim também há alguns suprimentos das minhas antigas expedições. Volta a ver-me regularmente, e eu te darei eles como recompensa.","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"你好，我听闻了你的冒险事迹，对你取得的成就深感钦佩。我决定将你的所有壮举记录下来。另外别忘了，我这儿还存着些早年探险留下的物资。记得常回来看看，我会把这些当作奖励送给你。","color":"dark_aqua"}]}

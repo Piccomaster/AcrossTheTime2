@@ -3,4 +3,4 @@
 #Initialize enchantment                    						#
 #################################################################
 
-$attribute @s attack_damage modifier add greatsword $(attack_damage) add_value
+$attribute @s attack_damage modifier add greatsword $(attack_damage) add_multipled_total

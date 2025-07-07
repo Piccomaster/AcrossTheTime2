@@ -4,4 +4,6 @@
 #################################################################
 
 #damage
-$damage @s $(damage) att2_damage:att2_fire
+$damage @s $(damage) att2_damage:fire
+
+data merge entity @s {HurtTime:0s}

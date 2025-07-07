@@ -3,4 +3,4 @@
 #Initialize misc												#
 #################################################################
 
-scoreboard objectives add CHAIR dummy
+scoreboard objectives add SPAWNER_LIMIT dummy

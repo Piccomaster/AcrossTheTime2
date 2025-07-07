@@ -5,14 +5,12 @@
 
 #fill light
 execute if block ~ ~1 ~ light[level=7] run setblock ~ ~1 ~ air
-#check fish spot
-execute unless entity @e[tag=FISH_SPOT,type=armor_stand,distance=..20] run function att2:gameplay/misc/fishing/river/system_set/pos_26
 #pos selected 1
-execute if score 1RNG100 RNG matches 1..20 run tp @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,sort=nearest] -4567 69 -5046
-execute if score 1RNG100 RNG matches 21..40 run tp @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,sort=nearest] -4567 69 -5049
-execute if score 1RNG100 RNG matches 41..60 run tp @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,sort=nearest] -4565 69 -5050
-execute if score 1RNG100 RNG matches 61..80 run tp @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,sort=nearest] -4568 69 -5044
-execute if score 1RNG100 RNG matches 81..100 run tp @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,sort=nearest] -4570 69 -5044
+execute if score 1RNG100 RNG matches 1..20 run tp @s -4567 69 -5046
+execute if score 1RNG100 RNG matches 21..40 run tp @s -4567 69 -5049
+execute if score 1RNG100 RNG matches 41..60 run tp @s -4565 69 -5050
+execute if score 1RNG100 RNG matches 61..80 run tp @s -4568 69 -5044
+execute if score 1RNG100 RNG matches 81..100 run tp @s -4570 69 -5044
 #tag remove
 tag @s remove SPOT_SELECT
 #random pos (+-3M)

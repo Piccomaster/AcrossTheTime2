@@ -36,14 +36,14 @@
                   {
                     "type": "minecraft:attack_damage",
                     "id": "minecraft:attack_damage",
-                    "amount": "199X",
+                    "amount": 1.84,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
                   {
                     "type": "minecraft:attack_speed",
                     "id": "minecraft:attack_speed",
-                    "amount": "199X",
+                    "amount": -0.85,
                     "operation": "add_multiplied_base",
                     "slot": "mainhand"
                   },

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            10000003
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.fishing.bait.title.rar"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.fishing.bait.description.rar"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/fishing/bait/unc",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "rar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snowball",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentType": "bait",
+                "Rarity": "rar"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,13 +1,17 @@
 {
-  "pack": {
+  "pack":{
     "pack_format": 71,
     "description": "Across The Time 2 advancements by Adventquest for Minecraft 1.21.5"
   },
-  "filter": {
+    "filter": {
     "block": [
       {
         "namespace": "minecraft",
-        "path": "advancements/.*"
+        "path": "advancement/.*"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/.*"
       }
     ]
   }

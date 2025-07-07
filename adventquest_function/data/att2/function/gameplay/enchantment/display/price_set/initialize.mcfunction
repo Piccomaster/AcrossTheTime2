@@ -98,12 +98,16 @@ scoreboard players set defensematrix_rune_1 ENCHANTMENT_DATA 400
 scoreboard players set easywalk_esc_1 ENCHANTMENT_DATA 3
 scoreboard players set easywalk_rune_1 ENCHANTMENT_DATA 200
 #empathy
-scoreboard players set empathy_esc_1 ENCHANTMENT_DATA 5
-scoreboard players set empathy_rune_1 ENCHANTMENT_DATA 500
-scoreboard players set empathy_esc_2 ENCHANTMENT_DATA 10
-scoreboard players set empathy_rune_2 ENCHANTMENT_DATA 1000
-scoreboard players set empathy_esc_3 ENCHANTMENT_DATA 15
-scoreboard players set empathy_rune_3 ENCHANTMENT_DATA 1500
+scoreboard players set empathy_esc_1 ENCHANTMENT_DATA 4
+scoreboard players set empathy_rune_1 ENCHANTMENT_DATA 400
+scoreboard players set empathy_esc_2 ENCHANTMENT_DATA 8
+scoreboard players set empathy_rune_2 ENCHANTMENT_DATA 800
+scoreboard players set empathy_esc_3 ENCHANTMENT_DATA 12
+scoreboard players set empathy_rune_3 ENCHANTMENT_DATA 1200
+scoreboard players set empathy_esc_3 ENCHANTMENT_DATA 16
+scoreboard players set empathy_rune_3 ENCHANTMENT_DATA 1600
+scoreboard players set empathy_esc_4 ENCHANTMENT_DATA 20
+scoreboard players set empathy_rune_4 ENCHANTMENT_DATA 2000
 #forcepush
 scoreboard players set forcepush_esc_1 ENCHANTMENT_DATA 3
 scoreboard players set forcepush_rune_1 ENCHANTMENT_DATA 200
@@ -152,8 +156,12 @@ scoreboard players set headhunter_rune_4 ENCHANTMENT_DATA 800
 scoreboard players set headhunter_esc_5 ENCHANTMENT_DATA 15
 scoreboard players set headhunter_rune_5 ENCHANTMENT_DATA 1000
 #heart_protection
-scoreboard players set heart_protection_esc_1 ENCHANTMENT_DATA 5
-scoreboard players set heart_protection_rune_1 ENCHANTMENT_DATA 500
+scoreboard players set heart_protection_esc_1 ENCHANTMENT_DATA 3
+scoreboard players set heart_protection_rune_1 ENCHANTMENT_DATA 300
+scoreboard players set heart_protection_esc_2 ENCHANTMENT_DATA 4
+scoreboard players set heart_protection_rune_2 ENCHANTMENT_DATA 400
+scoreboard players set heart_protection_esc_3 ENCHANTMENT_DATA 5
+scoreboard players set heart_protection_rune_3 ENCHANTMENT_DATA 500
 #hpmax_ex_dahalmax
 scoreboard players set hpmax_ex_dahalmax_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set hpmax_ex_dahalmax_rune_1 ENCHANTMENT_DATA 200
@@ -166,8 +174,16 @@ scoreboard players set hpmax_ex_dahalmax_rune_4 ENCHANTMENT_DATA 800
 scoreboard players set hpmax_ex_dahalmax_esc_5 ENCHANTMENT_DATA 21
 scoreboard players set hpmax_ex_dahalmax_rune_5 ENCHANTMENT_DATA 1000
 #longreach
-scoreboard players set longreach_esc_1 ENCHANTMENT_DATA 5
-scoreboard players set longreach_rune_1 ENCHANTMENT_DATA 500
+scoreboard players set longreach_esc_1 ENCHANTMENT_DATA 1
+scoreboard players set longreach_rune_1 ENCHANTMENT_DATA 100
+scoreboard players set longreach_esc_2 ENCHANTMENT_DATA 3
+scoreboard players set longreach_rune_2 ENCHANTMENT_DATA 200
+scoreboard players set longreach_esc_3 ENCHANTMENT_DATA 5
+scoreboard players set longreach_rune_3 ENCHANTMENT_DATA 300
+scoreboard players set longreach_esc_4 ENCHANTMENT_DATA 7
+scoreboard players set longreach_rune_4 ENCHANTMENT_DATA 400
+scoreboard players set longreach_esc_5 ENCHANTMENT_DATA 9
+scoreboard players set longreach_rune_5 ENCHANTMENT_DATA 500
 #potionmaster
 scoreboard players set potionmaster_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set potionmaster_rune_1 ENCHANTMENT_DATA 100
@@ -199,22 +215,18 @@ scoreboard players set reinforce_rune_1 ENCHANTMENT_DATA 200
 scoreboard players set reinforce_esc_2 ENCHANTMENT_DATA 4
 scoreboard players set reinforce_rune_2 ENCHANTMENT_DATA 400
 scoreboard players set reinforce_esc_3 ENCHANTMENT_DATA 6
-scoreboard players set reinforce_rune_3 ENCHANTMENT_DATA 600
+scoreboard players set   ENCHANTMENT_DATA 600
 scoreboard players set reinforce_esc_4 ENCHANTMENT_DATA 8
 scoreboard players set reinforce_rune_4 ENCHANTMENT_DATA 800
 scoreboard players set reinforce_esc_5 ENCHANTMENT_DATA 10
 scoreboard players set reinforce_rune_5 ENCHANTMENT_DATA 1000
 #runeharden
-scoreboard players set runeharden_esc_1 ENCHANTMENT_DATA 3
+scoreboard players set runeharden_esc_1 ENCHANTMENT_DATA 5
 scoreboard players set runeharden_rune_1 ENCHANTMENT_DATA 300
-scoreboard players set runeharden_esc_2 ENCHANTMENT_DATA 6
+scoreboard players set runeharden_esc_2 ENCHANTMENT_DATA 10
 scoreboard players set runeharden_rune_2 ENCHANTMENT_DATA 600
-scoreboard players set runeharden_esc_3 ENCHANTMENT_DATA 9
+scoreboard players set runeharden_esc_3 ENCHANTMENT_DATA 15
 scoreboard players set runeharden_rune_3 ENCHANTMENT_DATA 900
-scoreboard players set runeharden_esc_4 ENCHANTMENT_DATA 12
-scoreboard players set runeharden_rune_4 ENCHANTMENT_DATA 1200
-scoreboard players set runeharden_esc_5 ENCHANTMENT_DATA 15
-scoreboard players set runeharden_rune_5 ENCHANTMENT_DATA 1500
 #selflessaid
 scoreboard players set selflessaid_esc_1 ENCHANTMENT_DATA 2
 scoreboard players set selflessaid_rune_1 ENCHANTMENT_DATA 200
@@ -226,17 +238,6 @@ scoreboard players set selflessaid_esc_4 ENCHANTMENT_DATA 8
 scoreboard players set selflessaid_rune_4 ENCHANTMENT_DATA 800
 scoreboard players set selflessaid_esc_5 ENCHANTMENT_DATA 10
 scoreboard players set selflessaid_rune_5 ENCHANTMENT_DATA 1000
-#speartoss
-scoreboard players set speartoss_esc_1 ENCHANTMENT_DATA 1
-scoreboard players set speartoss_rune_1 ENCHANTMENT_DATA 100
-scoreboard players set speartoss_esc_2 ENCHANTMENT_DATA 3
-scoreboard players set speartoss_rune_2 ENCHANTMENT_DATA 200
-scoreboard players set speartoss_esc_3 ENCHANTMENT_DATA 5
-scoreboard players set speartoss_rune_3 ENCHANTMENT_DATA 300
-scoreboard players set speartoss_esc_4 ENCHANTMENT_DATA 7
-scoreboard players set speartoss_rune_4 ENCHANTMENT_DATA 400
-scoreboard players set speartoss_esc_5 ENCHANTMENT_DATA 9
-scoreboard players set speartoss_rune_5 ENCHANTMENT_DATA 500
 #speedburn
 scoreboard players set speedburn_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set speedburn_rune_1 ENCHANTMENT_DATA 200
@@ -244,6 +245,13 @@ scoreboard players set speedburn_esc_2 ENCHANTMENT_DATA 3
 scoreboard players set speedburn_rune_2 ENCHANTMENT_DATA 400
 scoreboard players set speedburn_esc_3 ENCHANTMENT_DATA 5
 scoreboard players set speedburn_rune_3 ENCHANTMENT_DATA 600
+#swiftsneak
+scoreboard players set swiftsneak_esc_1 ENCHANTMENT_DATA 1
+scoreboard players set swiftsneak_rune_1 ENCHANTMENT_DATA 200
+scoreboard players set swiftsneak_esc_2 ENCHANTMENT_DATA 3
+scoreboard players set swiftsneak_rune_2 ENCHANTMENT_DATA 400
+scoreboard players set swiftsneak_esc_3 ENCHANTMENT_DATA 5
+scoreboard players set swiftsneak_rune_3 ENCHANTMENT_DATA 600
 #speedsave
 scoreboard players set speedsave_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set speedsave_rune_1 ENCHANTMENT_DATA 100
@@ -262,38 +270,10 @@ scoreboard players set sscombo_esc_4 ENCHANTMENT_DATA 7
 scoreboard players set sscombo_rune_4 ENCHANTMENT_DATA 800
 scoreboard players set sscombo_esc_5 ENCHANTMENT_DATA 9
 scoreboard players set sscombo_rune_5 ENCHANTMENT_DATA 1000
-#swiftsneak
-scoreboard players set swiftsneak_esc_1 ENCHANTMENT_DATA 1
-scoreboard players set swiftsneak_rune_1 ENCHANTMENT_DATA 200
-scoreboard players set swiftsneak_esc_2 ENCHANTMENT_DATA 2
-scoreboard players set swiftsneak_rune_2 ENCHANTMENT_DATA 400
-scoreboard players set swiftsneak_esc_3 ENCHANTMENT_DATA 3
-scoreboard players set swiftsneak_rune_3 ENCHANTMENT_DATA 600
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#treasurehunter
+scoreboard players set treasurehunter_esc_1 ENCHANTMENT_DATA 3
+scoreboard players set treasurehunter_rune_1 ENCHANTMENT_DATA 300
+scoreboard players set treasurehunter_esc_2 ENCHANTMENT_DATA 5
+scoreboard players set treasurehunter_rune_2 ENCHANTMENT_DATA 500
+scoreboard players set treasurehunter_esc_3 ENCHANTMENT_DATA 7
+scoreboard players set treasurehunter_rune_3 ENCHANTMENT_DATA 700

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"att2.advancement.progress.title.fishing_leg_1"},
+        "description": {"translate":"att2.advancement.progress.description.fishing_leg_1"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/fishing_epi_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 400
+    },
+    "criteria": {
+        "fishing_leg_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

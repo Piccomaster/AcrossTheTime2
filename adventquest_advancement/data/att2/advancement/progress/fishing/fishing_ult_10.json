@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"att2.advancement.progress.title.fishing_ult_10"},
+        "description": {"translate":"att2.advancement.progress.description.fishing_ult_10"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/fishing_ult_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_6",
+        "experience": 5000
+    },
+    "criteria": {
+        "fishing_ult_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

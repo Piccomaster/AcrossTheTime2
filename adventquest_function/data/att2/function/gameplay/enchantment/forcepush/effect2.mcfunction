@@ -13,7 +13,7 @@ data modify entity 00000001-0000-006f-0000-00010000006f Pos[1] set value 0.15
 data modify entity @s Motion set from entity 00000001-0000-006f-0000-00010000006f Pos
 tp 00000001-0000-006f-0000-00010000006f 0.0 0.0 0.0
 ##make damage
-$damage @s $(damage) minecraft:player_attack by @a[tag=TEMP,limit=1]
+$damage @s $(damage) att2_damage:player_attack by @a[tag=TEMP,limit=1]
 #Particle
 particle minecraft:enchanted_hit ~ ~1 ~ 0.3 0.3 0.3 0.4 16 normal
 particle minecraft:crit ~ ~1 ~ 0.3 0.3 0.3 0.4 16 normal

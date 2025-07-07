@@ -3,7 +3,6 @@
 #auto_mending trigger                    						#
 #################################################################
 
-execute store result score temp_value_1 CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."att2_enchantment:backstab"
-scoreboard players operation temp_value_1 CAL *= 2 CAL
+execute if predicate att2_pre:enchantment/backstab/mainhand if predicate att2_pre:player/sneak if predicate att2_pre:player/onground if predicate att2_pre:enchantment/backstab/eye run function att2:gameplay/enchantment/backstab/go
 
-execute if score @s BACKSTAB matches 60.. at @s anchored eyes run function att2:gameplay/enchantment/backstab/distance_check
+execute unless score @s BACKSTAB matches 60.. run function att2:gameplay/enchantment/backstab/effect

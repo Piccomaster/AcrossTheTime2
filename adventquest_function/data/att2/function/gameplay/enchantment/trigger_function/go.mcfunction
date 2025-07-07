@@ -10,6 +10,8 @@ execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/enchantme
 function att2:gameplay/enchantment/trigger_function/greatsword
 #heart_protection
 execute if score @s TOTEM matches 1.. run function att2:gameplay/enchantment/heart_protection/particle
+#sscombo
+function att2:gameplay/enchantment/trigger_function/sscombo
 #speedsave
 function att2:gameplay/enchantment/trigger_function/speedsave
 #speedburn
@@ -26,14 +28,9 @@ execute as @s[advancements={att2_test:enchantment/groundslam=true},scores={DAMAG
 #combohit
 execute as @s[advancements={att2_test:enchantment/combohit=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/combohit
 #backstab
-execute if predicate att2_pre:enchantment/backstab/mainhand if predicate att2_pre:player/sneak if predicate att2_pre:enchantment/backstab/eye run function att2:gameplay/enchantment/trigger_function/backstab
+function att2:gameplay/enchantment/trigger_function/backstab
 #defensematrix
 function att2:gameplay/enchantment/trigger_function/defensematrix
-scoreboard players add @s[scores={BACKSTAB=..59}] BACKSTAB 1
-scoreboard players add @s[scores={CHARGER=..199}] CHARGER 1
-execute as @s[scores={CHARGER=201..}] run function att2:gameplay/enchantment/shieldcharger/effect
-#speartoss_keep
-function att2:gameplay/enchantment/trigger_function/speartoss_keep
 #anchorshot
 function att2:gameplay/enchantment/trigger_function/anchorshot
 #hpmax_ex_dahalmax

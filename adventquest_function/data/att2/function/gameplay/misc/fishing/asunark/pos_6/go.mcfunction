@@ -4,9 +4,9 @@
 #####################################################################
 
 #random POS select
-execute if score tic TIMECOUNTER matches 2 as @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,tag=SPOT_SELECT,sort=nearest] at @s run function att2:gameplay/misc/fishing/asunark/pos_pos_6/pos_select
+execute if score tic TIMECOUNTER matches 2 as @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,tag=SPOT_SELECT,sort=nearest] at @s run function att2:gameplay/misc/fishing/asunark/pos_6/pos_select
 #set area score
-execute if score tic TIMECOUNTER matches 2 as @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,sort=nearest] at @s run function att2:gameplay/misc/fishing/asunark/pos_pos_6/check
+execute if score tic TIMECOUNTER matches 2 as @e[tag=FISH_SPOT,type=armor_stand,distance=..20,limit=1,sort=nearest] at @s run function att2:gameplay/misc/fishing/asunark/pos_6/check
 #get bait ->add fish quality
 execute as @e[type=snowball,predicate=att2_pre:fishing/bait,distance=..20] at @s if entity @e[tag=FISH_SPOT,type=armor_stand,distance=..2] run function att2:gameplay/misc/fishing/bait_score/select
 #player dialogs show

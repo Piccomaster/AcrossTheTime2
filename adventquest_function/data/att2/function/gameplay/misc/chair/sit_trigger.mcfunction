@@ -4,4 +4,6 @@
 #####################################################################
 
 #set entity_interaction_range
-attribute @s entity_interaction_range base set 1
+attribute @s entity_interaction_range base set -10
+#set score
+scoreboard players set @s SPAWNER_LIMIT 40

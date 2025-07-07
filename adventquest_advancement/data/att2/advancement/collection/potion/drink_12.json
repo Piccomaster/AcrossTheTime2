@@ -2,7 +2,10 @@
   "display": {
     "icon": {
       "id": "minecraft:potion",
-      "predicates": {
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 9457212
+        },
         "minecraft:custom_data": {
           "Potion": "12"
         }
@@ -28,8 +31,7 @@
         "items": [
           {
             "items": 
-              "minecraft:potion"
-,
+              "minecraft:potion",
             "predicates": {
               "minecraft:custom_data": {
                 "Potion": "12"

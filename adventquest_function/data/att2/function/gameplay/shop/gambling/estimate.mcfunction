@@ -3,19 +3,19 @@
 #Initialize Gambling                    						#
 #################################################################
 
-execute store result score c1 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c1"}}}]
-execute store result score c2 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c2"}}}]
-execute store result score c3 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c3"}}}]
-execute store result score c4 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c4"}}}]
-execute store result score c5 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c5"}}}]
-execute store result score c6 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c6"}}}]
-execute store result score c7 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c7"}}}]
-execute store result score c8 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c8"}}}]
-execute store result score c9 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c9"}}}]
-execute store result score c10 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c10"}}}]
-execute store result score c11 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c11"}}}]
-execute store result score c12 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c12"}}}]
-execute store result score c13 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c13"}}}]
+execute store result score c1 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c1"}}}}]
+execute store result score c2 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c2"}}}}]
+execute store result score c3 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c3"}}}}]
+execute store result score c4 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c4"}}}}]
+execute store result score c5 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c5"}}}}]
+execute store result score c6 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c6"}}}}]
+execute store result score c7 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c7"}}}}]
+execute store result score c8 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c8"}}}}]
+execute store result score c9 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c9"}}}}]
+execute store result score c10 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c10"}}}}]
+execute store result score c11 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c11"}}}}]
+execute store result score c12 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c12"}}}}]
+execute store result score c13 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c13"}}}}]
 
 scoreboard players operation estimate_c1 GAMBLING = c1 GAMBLING
 scoreboard players operation estimate_c2 GAMBLING = c2 GAMBLING

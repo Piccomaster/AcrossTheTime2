@@ -3,4 +3,4 @@
 #Obtain spectral_arrow_0         				 #
 ##################################################
 
-give @s minecraft:spectral_arrow[custom_data={EquipmentType:'arrow',Rarity:'misc'},custom_data={EquipmentType:'arrow',Rarity:'misc'}] 3
+give @s minecraft:spectral_arrow[custom_data={EquipmentType:'arrow',Rarity:'misc'},custom_data={EquipmentType:'arrow',Rarity:'misc'},max_stack_size=99] 3

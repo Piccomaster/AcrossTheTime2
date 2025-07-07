@@ -26,7 +26,7 @@
                 ],
                 "minecraft:custom_data": {
                   "EquipmentType": "rangeWeapon",
-                  "Rarity": "61",
+                  "Rarity": "epi",
                   "Manufacturer": "traditional",
                   "STR": 2,
                   "HER": 1,

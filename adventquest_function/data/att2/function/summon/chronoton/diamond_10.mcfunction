@@ -3,4 +3,4 @@
 #Summon 10 diamond                 				 #
 ##################################################
 
-summon minecraft:item ~ ~ ~ {PickupDelay:80,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:diamond",count:10,components:{display:{Name:"{"text":"§b§oDiamant"}","Lore":["{"text":"§b§oDiamond"}","{"text":"§6+50 Chronotons"}"]}}}}
+summon minecraft:item ~ ~ ~ {PickupDelay:80,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:diamond",count:10,components:{custom_data:{EquipmentType:'misc',Rarity:'cur',Coin:'diamond'},custom_name:{translate:'item.coin.diamond.name'},lore:[{translate:'item.coin.diamond.lore'}]}}}

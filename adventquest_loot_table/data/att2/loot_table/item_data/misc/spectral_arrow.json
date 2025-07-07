@@ -13,7 +13,8 @@
                 "minecraft:custom_data": {
                   "EquipmentType": "arrow",
                   "Rarity": "misc"
-                }
+                },
+                "max_stack_size": 99
               }
             }
           ]

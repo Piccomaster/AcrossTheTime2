@@ -2,18 +2,61 @@
     "display": {
         "icon": {
             "id": "minecraft:shield",
-            "nbt": "{BlockEntityTag:{Base:8,Patterns:[{Pattern:cr,Color:14},{Pattern:flo,Color:15},{Pattern:cbo,Color:14},{Pattern:ms,Color:15},{Pattern:cs,Color:15},{Pattern:mc,Color:14},{Pattern:bts,Color:8},{Pattern:tts,Color:8},{Pattern:cbo,Color:7}]}}"
+            "components": {
+                "minecraft:banner_patterns": [
+                    {
+                        "color": "red",
+                        "pattern": "minecraft:cross"
+                    },
+                    {
+                        "color": "black",
+                        "pattern": "minecraft:flower"
+                    },
+                    {
+                        "color": "red",
+                        "pattern": "minecraft:curly_border"
+                    },
+                    {
+                        "color": "black",
+                        "pattern": "minecraft:stripe_middle"
+                    },
+                    {
+                        "color": "black",
+                        "pattern": "minecraft:stripe_center"
+                    },
+                    {
+                        "color": "red",
+                        "pattern": "minecraft:circle"
+                    },
+                    {
+                        "color": "light_gray",
+                        "pattern": "minecraft:triangles_bottom"
+                    },
+                    {
+                        "color": "light_gray",
+                        "pattern": "minecraft:triangles_top"
+                    },
+                    {
+                        "color": "gray",
+                        "pattern": "minecraft:curly_border"
+                    }
+                ]
+            }
         },
-        "title": {"translate": "att2.advancement.collection.mythique.title.aveugle_rempart"},
-        "description": {"translate": "att2.advancement.collection.mythique.description.aveugle_rempart"},
+        "title": {
+            "translate": "att2.advancement.collection.mythique.title.aveugle_rempart"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.mythique.description.aveugle_rempart"
+        },
         "frame": "challenge",
-        "hidden":true
+        "hidden": true
     },
     "parent": "att2:collection/mythique",
     "rewards": {
         "function": "att2:advancement/test_all/collection/aveugle_rempart",
         "experience": 5000
-                },
+    },
     "criteria": {
         "aveugle_rempart": {
             "trigger": "minecraft:impossible"

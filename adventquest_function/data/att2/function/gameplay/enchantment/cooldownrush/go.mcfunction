@@ -13,7 +13,7 @@ execute store result storage att2:temp hpreduce int 1 run scoreboard players ope
 execute if score temp_value_2 CAL matches 10.. run function att2:gameplay/enchantment/cooldownrush/reduce with storage att2:temp
 #add cooldownrush
 execute if score temp_value_2 CAL matches 10.. run scoreboard players operation @s COOLDOWNRUSH = temp_value_1 CAL
-
+execute unless score temp_value_2 CAL matches 10.. run scoreboard players set @s COOLDOWNRUSH 0
 #reset
 scoreboard players reset temp_value_1 CAL
 scoreboard players reset temp_value_2 CAL

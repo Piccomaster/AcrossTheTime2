@@ -21,7 +21,9 @@ execute unless score temp_value_3 CAL matches 0 run scoreboard players add temp_
 #store maco
 execute store result storage att2:temp 1000slay_attack_damage double 0.1 run scoreboard players get temp_value_1 CAL
 execute store result storage att2:temp 1000slay_max_health double 0.0001 run scoreboard players operation temp_value_2 CAL *= -1 CAL
-
+#test advancement
+execute if score temp_value_1 CAL matches 2000.. run advancement grant @s only att2:enchantments/1000slay_max
+#back maco
 function att2:gameplay/enchantment/1000slay/give with storage att2:temp
 
 #reset
