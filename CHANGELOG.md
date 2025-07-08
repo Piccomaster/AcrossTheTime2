@@ -53,7 +53,7 @@
   - No longer triggers invincibility frames on monsters.  
 
 - **Monsters**  
-  - Size of elites monsters has been increased. 
+  - Size of elites monsters and some bosses has been increased. 
 
 ### Bug Fix:
 - **Quest Progression Issues**  
