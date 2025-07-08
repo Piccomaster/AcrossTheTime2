@@ -8,3 +8,5 @@ effect clear @s weakness
 effect give @s minecraft:resistance infinite 0 true
 
 effect give @s[team=hostile] minecraft:glowing infinite 0 true
+
+attribute @s minecraft:generic.scale base set 1.25

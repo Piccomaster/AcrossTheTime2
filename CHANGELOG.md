@@ -52,6 +52,9 @@
 - **Fire Damage**  
   - No longer triggers invincibility frames on monsters.  
 
+- **Monsters**  
+  - Size of elites monsters has been increased. 
+
 ### Bug Fix:
 - **Quest Progression Issues**  
   - Fixed a bug where long questlines (e.g., *Emerald Journey*) could fail to detect progress due to excessive player teleportation (TP).  
