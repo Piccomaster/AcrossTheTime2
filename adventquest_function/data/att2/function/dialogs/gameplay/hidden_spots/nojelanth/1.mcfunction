@@ -4,61 +4,38 @@
 #############################################
 
 
-
-
 #FRENCH LANGUAGE
-
 tellraw @a[scores={LANGUAGE=0}] {"text":"* ","color":"red","extra":[{"text":"J'ai rencontré un voyageur venu d'une terre antique\nQui m'a dit : Deux immenses jambes de pierre dépourvues de buste\nSe dressent dans le désert. Près d'elles, sur le sable,\nÀ moitié enfoui, gît un visage brisé dont le sourcil froncé,\n\nLa lèvre plissée et le sourire de froide autorité\nDisent que son sculpteur sut lire les passions\nQui, gravées sur ces objets sans vie, survivent encore\nÀ la main qui les imita et au cœur qui les nourrit.\n\nEt sur le piédestal il y a ces mots :","color":"gold","italic":true},{"text":"\n"},{"text":"Mon nom est Ozymandias, Roi des Rois.\nVoyez mon œuvre, vous puissants, et désespérez!","color":"dark_red","italic":true},{"text":"\n\n"},{"text":"À côté, rien ne demeure. Autour des ruines\nDe cette colossale épave, infinis et nus,\nLes sables monotones et solitaires s'étendent au loin.","color":"gold","italic":true},{"text":" *"}]}
 
-
 #ENGLISH LANGUAGE
-
 tellraw @a[scores={LANGUAGE=1}] ["",{"text":"*","color":"red"},{"text":" ","color":"gold"},{"text":"I met a traveller from an antique land\nWho said : 'Two vast and trunkless legs of stone\nStand in the desert. Near them, on the sand,\nHalf sunk, a shattered visage lies, whose frown,\n\nAnd wrinkled lip, and sneer of cold command,\nTell that its sculptor well those passions read,\nWhich yet survive, stamped on these lifeless things,\nThe hand that mocked them and the heart that fed,\n\nAnd on the pedestal these words appear :","italic":true,"color":"gold"},{"text":"\n"},{"text":"'My name is Ozymandias, king of kings :\nLook on my works, Ye Mighty, and despair!'","italic":true,"color":"dark_red"},{"text":"\n\n"},{"text":"Nothing beside remains. Round the decay\nOf that colossal wreck, boundless and bare,\nThe lone and level sands stretch far away.","italic":true,"color":"gold"},{"text":" ","color":"gold"},{"text":"*","color":"red"}]
 
-
 #CHINESE LANGUAGE
-
 tellraw @s[scores={LANGUAGE=2}] [{"text":"*","color":"red"},{"text":"我遇見壹位來自古國的旅人\n他說：有兩條巨大的石腿\n半掩于沙漠之間\n近旁的沙土中，有壹張破碎的石臉\n抿著嘴，蹙著眉，面孔依舊威嚴\n想那雕刻者，必定深谙其人情感\n那神態還留在石頭上\n而斯人已逝，化作塵煙\n看那石座上刻著字句：\n“我是萬王之王,奧茲曼斯迪亞斯\n功業蓋物,強者折服”\n此外，蕩然無物\n廢墟四周，唯余黃沙莽莽\n寂寞荒涼，伸展四方。","color":"gold","bold":true},{"text":"*","color":"red"}]
 
+# JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] [{"text":"*","color":"red"},{"text":"私は古の国から来た旅人に出会った\n彼は言った：二本の巨大な石の脚が\n砂漠の中に立っていると\nその傍らの砂の中に、壊れた石の顔が\n唇を引き締め、眉をひそめ、威厳ある表情で\nその彫刻者はきっとその人の感情を深く理解していたのだろう\nその表情は今も石に残っている\nしかしその人はすでに亡くなり、塵と化した\n台座にはこう刻まれていた：\n「我は万王の王、オジマンディアス\n偉業は万物を覆い、強者も屈服させる」\nそれ以外には何も残っていない\n廃墟の周りには、ただ広大な砂漠が\n寂しく荒涼と四方に広がっている。","color":"gold","bold":true},{"text":"*","color":"red"}]
 
-#JAPANESE LANGUAGE
+# KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] [{"text":"*","color":"red"},{"text":"나는 고대 국가에서 온 여행자를 만났다\n그가 말하길: 두 개의 거대한 돌 다리가\n사막 사이에 반쯤 묻혀 있다고\n근처 모래 속에는 부서진 돌 얼굴이\n입을 다물고, 눈썹을 찌푸린 채 여전히 위엄 있는 표정으로\n그 조각가는 분명 그 사람의 감정을 깊이 이해했을 것이라\n그 표정은 아직도 돌에 남아있지만\n그 사람은 이미 세상을 떠나 먼지가 되었다\n받침대에는 이런 글이 새겨져 있었다:\n'나는 만왕의 왕, 오즈만디아스다\n업적은 만물을 덮고 강자도 굴복시킨다'\n그 외에는 아무것도 남아있지 않다\n폐허 주변에는 광활한 황야만이\n적막하고 황량하게 사방으로 펼쳐져 있다.","color":"gold","bold":true},{"text":"*","color":"red"}]
 
-tellraw @s[scores={LANGUAGE=3}] [{"text":"XXX","color":"gray"}]
+# ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] [{"text":"*","color":"red"},{"text":"قابلت مسافرا من بلاد قديمة\nقال: أرجل حجرية ضخمة بلا جذع\nتقف في الصحراء... وبالقرب منها على الرمال\nوجه محطم نصف غارق، تجهمه\nوشفتاه المتجعدتان، وابتسامته الساخرة الباردة\nتخبر أن النحات قرأ تلك المشاعر جيدا\nوما زالت باقية، مطبوعة على هذه الأشياء الجامدة\nاليد التي سخرت منها، والقلب الذي غذى؛\nوعلى القاعدة تظهر هذه الكلمات:\n'اسمي أوزيماندياس، ملك الملوك؛\nانظروا إلى أعمالي، أيها الأقوياء، وانسحبوا يائسين!'\nلم يبق شيء آخر. حول الاضمحلال\nلحطام ذلك العملاق، الشاسع والعاري\nتمتد الرمال الوحيدة المستوية بعيدا.","color":"gold","bold":true},{"text":"*","color":"red"}]
 
+# RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] [{"text":"*","color":"red"},{"text":"Я встретил путника; он был из тех краев,\nГде древность сохранилась. Он сказал:\nДве каменных ноги видны в песках...\nРядом — на песке, полузасыпанный,\nЛежит обломок — лик. Суровый рот,\nХолодный взор, надменное чело —\nВсе говорит, что мастер хорошо\nПонял страсти, что жили в нем,\nИ рука, ваявшая, и сердце, знавшее —\nОстались в камне. На пьедестале\nНадпись: \"Я — Озимандия, я — мощный царь царей!\nВзгляните на мои великие деяния,\nО мощные, и падите ниц!\"\nНо ничего, кроме глухих следов,\nКругом. На месте гордых стен —\nПесок да ветер, вечный гость пустынь.","color":"gold","bold":true},{"text":"*","color":"red"}]
 
-#KOREAN LANGUAGE
+# SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] [{"text":"*","color":"red"},{"text":"Encontré a un viajero de tierra antigua\nQue me dijo: Dos enormes piernas de piedra\nSe yerguen en el desierto... Cerca de ellas,\nSemienterrado, yace un rostro hecho añicos,\nCuyo ceño fruncido, labio arrugado\nY mueca de frío dominio,\nDicen que su escultor supo plasmar\nEsas pasiones que aún perduran,\nGrabadas en estas cosas sin vida,\nLa mano que las burló, y el corazón que las alimentó;\nY en el pedestal se leen estas palabras:\n\"Mi nombre es Ozymandias, rey de reyes;\n¡Contemplad mis obras, poderosos, y desesperad!\"\nNada más queda. Alrededor de la decadencia\nDe aquel colosal Despojo, ilimitado y desnudo\nLas solitarias y llanas arenas se extienden a lo lejos.","color":"gold","bold":true},{"text":"*","color":"red"}]
 
-tellraw @s[scores={LANGUAGE=4}] [{"text":"XXX","color":"gray"}]
+# GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] [{"text":"*","color":"red"},{"text":"Ich traf einen Reisenden aus alter Zeit,\nDer sprach: Zwei steinerne, riesige Beine\nStehn in der Wüste... Daneben, halb versunken,\nEin zerstörtes Antlitz, dessen Stirnrunzeln,\nUnd faltige Lippe, und kalter Hohn der Macht,\nZeigen, dass der Bildhauer jene Leidenschaft\nGut gelesen, die noch überlebt, geprägt\nIn dies leblose Ding, die Hand, die sie verhöhnte,\nUnd das Herz, das sie genährt;\nUnd auf dem Sockel steht dies Wort geschrieben:\n»Mein Name ist Ozymandias, König der Könige;\nSeht meine Werke, ihr Mächtigen, und verzweifelt!«\nNichts sonst bleibt. Rings um den Verfall\nJenes kolossalen Trümmerhaufens, endlos und kahl,\nErstreckt sich einsam und eben die Wüste weit.","color":"gold","bold":true},{"text":"*","color":"red"}]
 
+# HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] [{"text":"*","color":"red"},{"text":"मैंने एक प्राचीन देश के यात्री से मुलाकात की\nउसने कहा: दो विशाल पत्थर की टाँगें\nरेगिस्तान में खड़ी हैं... उनके पास, रेत पर,\nआधा धँसा, एक टूटा हुआ चेहरा पड़ा है, जिसकी भौंह,\nऔर सिकुड़े होंठ, और ठंडे आदेश की मुस्कान,\nबताती है कि मूर्तिकार ने उन भावनाओं को अच्छी तरह पढ़ा था\nजो अभी भी जीवित हैं, इन निर्जीव चीजों पर अंकित,\nवह हाथ जिसने उन्हें बनाया, और वह दिल जिसने उन्हें जीवन दिया;\nऔर चौकी पर ये शब्द अंकित हैं:\n'मेरा नाम ओज़ीमैंडियास है, राजाओं के राजा;\nमेरे कार्यों को देखो, हे शक्तिशाली, और निराश हो जाओ!'\nइसके अलावा कुछ नहीं बचा है। उस विशाल खंडहर के\nक्षय के चारों ओर, असीम और नग्न\nएकाकी और समतल रेत दूर तक फैली हुई है।","color":"gold","bold":true},{"text":"*","color":"red"}]
 
-#ARABIC LANGUAGE
-
-tellraw @s[scores={LANGUAGE=5}] [{"text":"XXX","color":"gray"}]
-
-
-#RUSSIAN LANGUAGE
-
-tellraw @s[scores={LANGUAGE=6}] [{"text":"XXX","color":"gray"}]
-
-
-#SPANISH LANGUAGE
-
-tellraw @s[scores={LANGUAGE=7}] [{"text":"XXX","color":"gray"}]
-
-
-#GERMAN LANGUAGE
-
-tellraw @s[scores={LANGUAGE=8}] [{"text":"XXX","color":"gray"}]
-
-
-#HINDI LANGUAGE
-
-tellraw @s[scores={LANGUAGE=9}] [{"text":"XXX","color":"gray"}]
-
-
-#PORTUGUESE LANGUAGE
-
-tellraw @s[scores={LANGUAGE=10}] [{"text":"XXX","color":"gray"}]
+# PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] [{"text":"*","color":"red"},{"text":"Encontrei um viajante de uma terra antiga\nQue me disse: Duas pernas imensas de pedra\nErguem-se no deserto... Perto delas, na areia,\nMeio enterrado, jaz um rosto despedaçado, cujo cenho,\nE lábio enrugado, e sorriso frio de comando,\nContam que seu escultor bem leu essas paixões\nQue ainda sobrevivem, gravadas nestas coisas sem vida,\nA mão que as zombou, e o coração que as alimentou;\nE no pedestal estas palavras aparecem:\n'Meu nome é Ozymandias, Rei dos Reis;\nContemplai minhas obras, ó Poderosos, e desesperai!'\nNada mais resta. Ao redor da decadência\nDaquele colossal Destroço, ilimitado e nu\nAs areias solitárias e planas se estendem ao longe.","color":"gold","bold":true},{"text":"*","color":"red"}]
 
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] [{"text":"*","color":"red"},{"text":"我遇见一位来自古国的旅人\n他说：有两条巨大的石腿\n半掩于沙漠之间\n近旁的沙土中，有一张破碎的石脸\n抿着嘴，蹙着眉，面孔依旧威严\n想那雕刻者，必定深谙其人情感\n那神态还留在石头上\n而斯人已逝，化作尘烟\n看那石座上刻着字句：\n“我是万王之王,奥兹曼斯迪亚斯\n功业盖物,强者折服”\n此外，荡然无物\n废墟四周，唯余黄沙莽莽\n寂寞荒凉，伸展四方。","color":"gold","bold":true},{"text":"*","color":"red"}]
