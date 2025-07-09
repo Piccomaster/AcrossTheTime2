@@ -32,6 +32,9 @@
 - **Stock**  
   - Each *Chrono Gem* upgrades pocket by **1 level**.  
   - Added **"Previous Page," "Discard All," "Next Page"** buttons.  
+  
+- **New Feature: Spell Details Display**  
+  -Click any spell name in the spellbook to view its detailed data.
 
 - ** Mythical Effects**  
   - All Mythical equipment **buffed**.  
