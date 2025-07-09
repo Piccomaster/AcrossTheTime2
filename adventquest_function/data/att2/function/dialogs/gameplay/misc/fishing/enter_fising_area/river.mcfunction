@@ -26,4 +26,4 @@ title @s[scores={LANGUAGE=9}] actionbar [{"text":"XXX","color":"green"}]
 #PORTUGUESE LANGUAGE
 title @s[scores={LANGUAGE=10}] actionbar [{"text":"XXX","color":"green"}]
 #Simplified Chinese LANGUAGE
-title @s[scores={LANGUAGE=11}] actionbar [{"text":"进入<Sylberland溪流>可垂钓区域","color":"green"}]
+title @s[scores={LANGUAGE=11}] actionbar [{"text":"<Sylberland溪流>可垂钓区域","color":"green"}]

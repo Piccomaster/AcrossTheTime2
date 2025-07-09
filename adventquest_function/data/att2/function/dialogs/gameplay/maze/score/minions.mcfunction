@@ -35,3 +35,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"- ","color":"dark_red","extra":[{"text"
 
 #PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Monstros mortos: +","color":"dark_green"},{"score":{"name":"total_minions_killed","objective":"MAZE"},"color":"green"},{"text":"x","color":"gray"},{"score":{"name":"4","objective":"MAZE"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"- ","color":"dark_red","extra":[{"text":"击杀普通怪物数量：+","color":"dark_green"},{"score":{"name":"total_minions_killed","objective":"MAZE"},"color":"green"},{"text":"x","color":"gray"},{"score":{"name":"4","objective":"MAZE"},"color":"gold"}]}

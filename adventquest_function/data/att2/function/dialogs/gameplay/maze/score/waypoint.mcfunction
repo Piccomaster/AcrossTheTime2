@@ -35,3 +35,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"- ","color":"dark_red","extra":[{"text"
 
 #PORTUGUESE
 tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Pontos de passagem encontrados: +","color":"dark_green"},{"score":{"name":"waypoint_found","objective":"MAZE"},"color":"green"},{"text":"x","color":"gray"},{"score":{"name":"10","objective":"MAZE"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=2}] {"text":"- ","color":"dark_red","extra":[{"text":"发现传送点数量：+","color":"dark_green"},{"score":{"name":"waypoint_found","objective":"MAZE"},"color":"green"},{"text":"x","color":"gray"},{"score":{"name":"10","objective":"MAZE"},"color":"gold"}]}

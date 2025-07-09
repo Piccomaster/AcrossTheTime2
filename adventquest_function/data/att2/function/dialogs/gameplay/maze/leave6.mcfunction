@@ -39,5 +39,5 @@ tellraw @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure,scores={LANGUAGE
 #PORTUGUESE LANGUAGE
 tellraw @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure,scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Sair da prova... -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if entity @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure] run function att2:gameplay/maze/6/leave"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}
 
-#ZZZ LANGUAGE
+#Simplified Chinese LANGUAGE
 tellraw @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure,scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[退出第六关试炼... -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if entity @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure] run function att2:gameplay/maze/6/leave"},"hover_event":{"action":"show_text","value":"点击这里退出第六关试炼"}}]}

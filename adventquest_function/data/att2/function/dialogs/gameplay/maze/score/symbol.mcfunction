@@ -35,3 +35,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"- ","color":"dark_red","extra":[{"text"
 
 #PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Símbolos encontrados: +","color":"dark_green"},{"score":{"name":"symbol_found","objective":"MAZE"},"color":"green"},{"text":"x","color":"gray"},{"score":{"name":"5","objective":"MAZE"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"- ","color":"dark_red","extra":[{"text":"发现闪光点数量：+","color":"dark_green"},{"score":{"name":"symbol_found","objective":"MAZE"},"color":"green"},{"text":"x","color":"gray"},{"score":{"name":"5","objective":"MAZE"},"color":"gold"}]}

@@ -18,7 +18,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Did you manage to go here with the Elyt
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"XXX","color":"gray"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"你用鞘翅来的？真有你的！","color":"gray"}
 
 
 #JAPANESE LANGUAGE
@@ -61,4 +61,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"XXX","color":"gray"}
 tellraw @s[scores={LANGUAGE=10}] {"text":"XXX","color":"gray"}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"XXX","color":"gray"}
+tellraw @s[scores={LANGUAGE=11}] {"text":"你用鞘翅来的？真有你的！","color":"gray"}

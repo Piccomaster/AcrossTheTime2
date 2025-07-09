@@ -35,3 +35,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"- ","color":"dark_red","extra":[{"text"
 
 #PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Baús normais encontrados: +","color":"dark_green"},{"score":{"name":"normal_chest_opened","objective":"MAZE"},"color":"green"},{"text":"x","color":"gray"},{"score":{"name":"2","objective":"MAZE"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"- ","color":"dark_red","extra":[{"text":"发现普通宝箱数量：+","color":"dark_green"},{"score":{"name":"normal_chest_opened","objective":"MAZE"},"color":"green"},{"text":"x","color":"gray"},{"score":{"name":"2","objective":"MAZE"},"color":"gold"}]}

@@ -8,17 +8,17 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Vous avez réussi à aller jusqu'ici avec les Elytras ? Bravo !","color":"gray"}
+tellraw @s[scores={LANGUAGE=0}] {"text":"XXX","color":"gray"}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"Did you manage to go here with the Elytra? Well done!","color":"gray"}
+tellraw @s[scores={LANGUAGE=1}] {"text":"XXX","color":"gray"}
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"XXX","color":"gray"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"快回去吧！","color":"gray"}
 
 
 #JAPANESE LANGUAGE
@@ -61,4 +61,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"XXX","color":"gray"}
 tellraw @s[scores={LANGUAGE=10}] {"text":"XXX","color":"gray"}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"XXX","color":"gray"}
+tellraw @s[scores={LANGUAGE=11}] {"text":"快回去吧！","color":"gray"}

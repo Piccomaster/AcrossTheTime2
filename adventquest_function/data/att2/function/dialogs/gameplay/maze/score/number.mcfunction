@@ -35,3 +35,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"- ","color":"dark_red","extra":[{"text"
 
 #PORTUGUESE
 tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Número do labirinto: +","color":"dark_green"},{"score":{"name":"number","objective":"MAZE"},"color":"green"},{"text":"*","color":"gray"},{"score":{"name":"250","objective":"MAZE"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"- ","color":"dark_red","extra":[{"text":"迷宫层数：+","color":"dark_green"},{"score":{"name":"number","objective":"MAZE"},"color":"green"},{"text":"*","color":"gray"},{"score":{"name":"250","objective":"MAZE"},"color":"gold"}]}

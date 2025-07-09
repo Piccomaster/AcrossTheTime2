@@ -35,3 +35,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"- ","color":"dark_red","extra":[{"text"
 
 #PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Tempo decorrido: +","color":"dark_green"},{"score":{"name":"time_s_total","objective":"MAZE"},"color":"green"},{"text":"/","color":"gray"},{"score":{"name":"2","objective":"MAZE"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"- ","color":"dark_red","extra":[{"text":"总计用时：+","color":"dark_green"},{"score":{"name":"time_s_total","objective":"MAZE"},"color":"green"},{"text":"/","color":"gray"},{"score":{"name":"2","objective":"MAZE"},"color":"gold"}]}

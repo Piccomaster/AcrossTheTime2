@@ -35,3 +35,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"अनुशंसित चंक प�
 
 # Portugais
 tellraw @s[scores={LANGUAGE=10}] {"text":"Distância de exibição recomendada em chunks: mínimo 16","color":"gray"}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"渲染距离:16+","color":"green"}
