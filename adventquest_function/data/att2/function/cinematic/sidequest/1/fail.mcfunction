@@ -6,6 +6,10 @@
 execute as @a run function att2:dialogs/sidequest/failed_effect
 function att2:physicmod/reg1/jarat_malak_sq1_end
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 scoreboard players set SQ1 SIDEQUEST -1
 scoreboard players set ormack_PNJ DIALOG 1
 execute as @a run function att2:advancement/completion_1

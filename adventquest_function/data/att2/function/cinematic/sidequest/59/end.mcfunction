@@ -5,6 +5,10 @@
 
 function att2:cinematic/sidequest/59/end_cinematic
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 scoreboard players set SQ59 SIDEQUEST 100
 function att2:dialogs/sidequest/completed_effect
 function att2:gameplay/arena/victory

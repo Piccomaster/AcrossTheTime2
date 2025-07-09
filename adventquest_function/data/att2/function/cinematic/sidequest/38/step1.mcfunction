@@ -4,6 +4,10 @@
 #################################################################
 
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 scoreboard players set SQ37 SIDEQUEST 100
 scoreboard players set SQ38 SIDEQUEST 1
 tag 00000000-0000-134a-0000-00000000134a remove QUEST

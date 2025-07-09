@@ -4,6 +4,10 @@
 #################################################################
 
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 scoreboard players set choice SQ14 4
 scoreboard players set SQ14 SIDEQUEST 100
 
