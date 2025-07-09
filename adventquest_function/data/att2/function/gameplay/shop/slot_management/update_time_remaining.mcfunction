@@ -7,6 +7,8 @@
 execute in minecraft:overworld positioned -5064 102 -4959 run function att2:gameplay/shop/slot_management/setsign_time_remaining
 execute in minecraft:overworld positioned -5104 78 -5021 run function att2:gameplay/shop/slot_management/setsign_time_remaining
 execute in minecraft:overworld positioned -5069 91 -5019 run function att2:gameplay/shop/slot_management/setsign_time_remaining
+# Earndhel
+execute in minecraft:overworld positioned 29965 88 30022 run function att2:gameplay/shop/slot_management/setsign_time_remaining
 # Eolorion
 execute in minecraft:overworld positioned -5252 101 -6223 run function att2:gameplay/shop/slot_management/setsign_time_remaining
 execute in minecraft:overworld positioned -5286 101 -6220 run function att2:gameplay/shop/slot_management/setsign_time_remaining
