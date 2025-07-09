@@ -36,4 +36,3 @@ execute if score OuranPhase3 OURANOS matches 0 if entity @a[x=0,y=109,z=0,distan
 
 # Testing if OuranPhase3 died
 execute if score OuranPhase3 OURANOS matches 0.. if entity @a[x=0,y=109,z=0,distance=..300,gamemode=adventure] if score 00000000-0000-017b-0000-00000000017b OURANOS matches ..20 run function att2:gameplay/boss/ouranos/ouran/phase3/victory
-

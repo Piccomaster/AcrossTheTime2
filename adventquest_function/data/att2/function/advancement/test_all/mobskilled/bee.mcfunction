@@ -22,4 +22,3 @@ advancement grant @s[scores={statBEEKILLED=50..}] only att2:mobskilled/bees_kill
 advancement grant @s[scores={statBEEKILLED=250..}] only att2:mobskilled/bees_killed_250
 advancement grant @s[scores={statBEEKILLED=500..}] only att2:mobskilled/bees_killed_500
 
-

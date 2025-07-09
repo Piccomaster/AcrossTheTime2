@@ -12,4 +12,3 @@ execute in minecraft:the_nether as @e[tag=newGPS] at @s anchored feet facing 377
 execute in minecraft:the_nether positioned 3433 30 3823 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:the_nether positioned 3638 40 3997 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:the_nether positioned 3433 30 3823 run function att2:gameplay/quest/mainquest/show_secondary_objective
-

@@ -75,4 +75,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra
 
 function att2:voice/stopsound
 function att2:voice/aoran/aoran26
-

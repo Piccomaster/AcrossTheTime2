@@ -11,4 +11,3 @@ execute in minecraft:the_end if data block -1208 37 -485 {LootTable:"att2:chest/
 execute in minecraft:the_end if data block -1217 52 -522 {LootTable:"att2:chest/reg3/c8t4_gear"} positioned -1217 52 -522 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:the_end if data block -1213 67 -479 {LootTable:"att2:chest/reg3/c8t4_gear"} positioned -1213 67 -479 run function att2:gameplay/quest/mainquest/show_secondary_objective
 
-

@@ -58,4 +58,3 @@ execute if score Guardian ITHAX matches -2 as @a[x=-7434,y=131,z=-6011,distance=
 
 # Alert effect on Player in all the station when Guardian had been defeated
 execute if score Guardian ITHAX matches -2 as @a[gamemode=adventure] at @s run function att2:gameplay/boss/ithax/guardian/action_explosion
-

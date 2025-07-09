@@ -47,4 +47,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Clément : ","color":"green","e
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"我也想成为像你那样四处旅行的勇者，可惜我没有那个勇气。","color":"dark_aqua"}]}
 
 function att2:voice/clement/clement_dialogue1
-

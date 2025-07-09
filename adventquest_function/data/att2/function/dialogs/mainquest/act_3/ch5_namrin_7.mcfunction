@@ -64,4 +64,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"小心，她恢复状态了！","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin17
-

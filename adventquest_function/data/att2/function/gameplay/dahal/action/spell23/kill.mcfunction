@@ -8,4 +8,3 @@ execute at @s as @e[scores={OWNER=1..},type=parrot] if score @s OWNER = @a[dista
 
 
 
-

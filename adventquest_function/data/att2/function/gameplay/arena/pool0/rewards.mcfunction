@@ -93,4 +93,3 @@ execute if score pool0_5_m BOSS_TIME matches ..8 if score level DIFFICULTY match
 #boss time 3
 execute if score pool0_5_m BOSS_TIME matches ..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score pool0_5_m BOSS_TIME matches ..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
-

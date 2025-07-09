@@ -61,4 +61,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"好吧好吧，既然你这么坚持的话...但给我记牢了，只要有半点差错，我可以保证Méleïm的所有人都会让你吃不了兜着走！ 她住在镇北，在一座位于天然岩拱桥的屋子里—总之，她家就在镇中最高的那座塔的边上。","color":"dark_aqua"}]}
 
 function att2:voice/ragnar/ragnar4
-

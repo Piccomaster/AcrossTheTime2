@@ -62,4 +62,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"当来自南方边界的微风将我那空虚的心灵吹拂到足以令人迷失的梦境中后，我终于意识到了一些不寻常的迹象...","color":"dark_aqua"}]}
 
 function att2:voice/lucas/lucas_dialogue1
-

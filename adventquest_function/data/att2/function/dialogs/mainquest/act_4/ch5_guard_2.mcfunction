@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guardas : ","color":"green","ex
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 警卫 : ","color":"green","extra":[{"text":"solomba与你同在！你将得到我们首领的青睐！ ","color":"dark_aqua"}]}
 
 function att2:voice/guard/guard16
-

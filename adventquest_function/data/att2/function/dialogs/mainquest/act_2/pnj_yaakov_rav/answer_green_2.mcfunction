@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green",
 
 function att2:voice/yaakov/yaakov3
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_3
-

@@ -82,4 +82,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 警卫 : ","color":"green","ext
 tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好吧，我跟着你，但我们不要浪費时间...","color":"aqua"}]}
 function att2:voice/guard/guard14
 
-

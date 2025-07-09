@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"不！还没有结束！你这个无名之辈，没有资格与我抗衡！偷窃者！亵渎者！你将为你的狂妄受到应有的惩罚！ ","color":"dark_aqua"}]}
 
 function att2:voice/aoran/aoran34
-

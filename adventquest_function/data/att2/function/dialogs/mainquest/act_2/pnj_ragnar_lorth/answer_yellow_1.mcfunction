@@ -59,4 +59,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ragnar Lorth : ","color":"green
 function att2:voice/ragnar/ragnar3
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_ragnar_lorth/player_answer_proposal_2
 
-

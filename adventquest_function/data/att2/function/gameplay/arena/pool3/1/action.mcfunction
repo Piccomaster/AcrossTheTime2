@@ -49,4 +49,3 @@ execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Rackham,limit=1] if en
 execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Abmup,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
 execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Nomit,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
 execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Blobby,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-

@@ -21,4 +21,3 @@ summon minecraft:potion ~ ~2 ~ {Motion:[0.1,0.3,-0.1],Item:{id:"minecraft:splash
 summon minecraft:potion ~ ~2 ~ {Motion:[-0.1,0.3,0.1],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:60,amplifier:127,id:"speed",show_particles:0b}],CustomPotionColor:3402751}}}
 
 summon minecraft:potion ~ ~2 ~ {Motion:[-0.1,0.3,-0.1],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:60,amplifier:127,id:"speed",show_particles:0b}],CustomPotionColor:3402751}}}
-

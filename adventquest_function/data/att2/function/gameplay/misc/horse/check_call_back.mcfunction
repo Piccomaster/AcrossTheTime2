@@ -16,4 +16,3 @@ title @s[scores={LANGUAGE=8}] actionbar {"text":"Ich kann an diesem bestimmten Z
 title @s[scores={LANGUAGE=9}] actionbar {"text":"मैं इस विशिष्ट समय और स्थान पर घोड़ों को संग्रहीत या बुला नहीं सकता।","color":"red"}
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Não posso armazenar ou invocar cavalos neste momento e local específicos.","color":"red"}
 
-

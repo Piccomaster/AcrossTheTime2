@@ -13,4 +13,3 @@ scoreboard players set 2 HOEDAMAGE 2
 scoreboard players set 3 HOEDAMAGE 3
 scoreboard players set 4 HOEDAMAGE 4
 scoreboard players set 10 HOEDAMAGE 10
-

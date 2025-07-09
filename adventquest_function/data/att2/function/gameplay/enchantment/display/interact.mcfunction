@@ -50,4 +50,3 @@ execute if entity @e[tag=GET,type=armor_stand,limit=1,predicate=att2_pre:enchant
 execute if entity @e[tag=GET,type=armor_stand,limit=1,predicate=att2_pre:enchantment/test_hold/leg] run data modify block -5033 104 -4929 Page set value 14
 
 execute if entity @e[tag=GET,type=armor_stand,limit=1,predicate=att2_pre:enchantment/test_hold/feet] run data modify block -5033 104 -4929 Page set value 15
-

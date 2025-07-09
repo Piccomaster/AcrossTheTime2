@@ -69,4 +69,3 @@ item modify entity @s[nbt={equipment:{legs:{components:{"minecraft:custom_data":
 item modify entity @s[nbt={equipment:{legs:{components:{"minecraft:custom_data":{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"delightful"}}}}}] armor.legs att2:mending/level1/armor/leg/delightful
 item modify entity @s[nbt={equipment:{legs:{components:{"minecraft:custom_data":{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"harmonious"}}}}}] armor.legs att2:mending/level1/armor/leg/harmonious
 
-

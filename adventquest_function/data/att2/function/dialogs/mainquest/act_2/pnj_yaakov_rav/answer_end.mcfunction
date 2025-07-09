@@ -65,4 +65,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green",
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"因此，找到这些空间宝石对你来说非常困难。等等，我想我们能在这片大陆上找到一些有用的东西，而且我知道谁能帮你获取它。去见见老冒险家Wirth_Razgork吧。他的房子在城市的东边。这本法术书你也拿好，你会比我更需要它的。","color":"dark_aqua"}]}
 
 function att2:voice/yaakov/yaakov7
-

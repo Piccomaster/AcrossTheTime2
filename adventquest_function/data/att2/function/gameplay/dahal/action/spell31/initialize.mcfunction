@@ -76,4 +76,3 @@ scoreboard players set leg_armset SPELL31_DATA 17
 scoreboard players set ult SPELL31_DATA 25
 
 
-

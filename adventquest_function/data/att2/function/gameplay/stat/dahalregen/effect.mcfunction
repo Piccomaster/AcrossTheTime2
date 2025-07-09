@@ -44,4 +44,3 @@ scoreboard players set @s[scores={DAR_TOT=26..27}] OP_DAHAL 4
 scoreboard players set @s[scores={DAR_TOT=28..29}] OP_DAHAL 3
 scoreboard players set @s[scores={DAR_TOT=30..31}] OP_DAHAL 2
 scoreboard players set @s[scores={DAR_TOT=32..}] OP_DAHAL 1
-

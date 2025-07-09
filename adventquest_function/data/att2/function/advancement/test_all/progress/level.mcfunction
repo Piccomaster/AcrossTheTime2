@@ -18,4 +18,3 @@ advancement grant @s[scores={LEVELMASTER=150..}] only att2:progress/gamelevelmas
 advancement grant @s[scores={LEVELMASTER=200..}] only att2:progress/gamelevelmaster_200
 advancement grant @s[scores={LEVELMASTER=300..}] only att2:progress/gamelevelmaster_300
 
-

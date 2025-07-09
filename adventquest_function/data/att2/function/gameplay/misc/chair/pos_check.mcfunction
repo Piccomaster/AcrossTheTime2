@@ -19,4 +19,3 @@ execute if score temp_value_10 CAL matches 0 align yxz positioned ~0.5 ~ ~0.5 ru
 execute unless score temp_value_10 CAL matches 0 run function att2:gameplay/misc/chair/pos_error
 #reset
 scoreboard players reset temp_value_10 CAL
-

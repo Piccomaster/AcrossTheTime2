@@ -16,4 +16,3 @@ function att2:advancement/test_all/enchantments/auto_mending
 #enchant
 data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:auto_mending"
 $enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:auto_mending $(auto_mending) 
-

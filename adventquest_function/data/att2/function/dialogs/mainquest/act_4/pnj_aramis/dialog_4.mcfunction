@@ -65,4 +65,3 @@ function att2:voice/aramis/aramis_dialogue3
 
 
 function att2:dialogs/others/aramis/grinder_indication
-

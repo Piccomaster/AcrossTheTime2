@@ -68,4 +68,3 @@ tellraw @s {"text":"[-->]","color":"green","click_event":{"action":"run_command"
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"干得漂亮！如果能保持这个态势直到激活传送门，你就可以在这座城市扬名立万了！说来惭愧，我对空间宝石的了解止步于此了...不过不必担心，我还带来了个好消息： 我打算把你介绍给我的挚友兼前旅伴—Indra_Lorth。年轻时的她可谓驰骋Sylberländ的一把好手，她定能助你一臂之力。","color":"dark_aqua"}]}
 
 function att2:voice/wirth/wirth4
-

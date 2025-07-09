@@ -32,4 +32,3 @@ execute if score OuranPhase1 OURANOS matches 0.. unless entity @a[x=7885,y=0,z=6
 
 # Testing if Ouran died
 execute if score OuranPhase1 OURANOS matches 0.. if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] unless entity @e[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,type=minecraft:ghast,tag=Lackeys] run function att2:gameplay/boss/ouranos/ouran/phase1/victory
-

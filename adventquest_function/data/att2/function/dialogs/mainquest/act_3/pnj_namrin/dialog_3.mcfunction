@@ -63,4 +63,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 function att2:voice/namrin/namrin_dialogue3
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4
-

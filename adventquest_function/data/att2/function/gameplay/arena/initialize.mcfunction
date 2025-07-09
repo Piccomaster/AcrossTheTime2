@@ -41,4 +41,3 @@ function att2:gameplay/arena/pool2/3/time/fail
 function att2:gameplay/arena/pool3/1/time/fail
 #pool4
 function att2:gameplay/arena/pool4/1/time/fail
-

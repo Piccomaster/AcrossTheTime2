@@ -56,4 +56,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alfred Mornith : ","color":"gre
 
 function att2:dialogs/sidequest/sq7/alfred_mornith/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq7/alfred_mornith/player_proposal_1/choice_2
-

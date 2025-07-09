@@ -38,4 +38,3 @@ execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=250..},nbt={Inventory:[{Slot:10
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=250..},nbt={Inventory:[{Slot:101b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.legs att2:eternan_automending_lvl_5/legs
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=250..},nbt={Inventory:[{Slot:100b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.feet att2:eternan_automending_lvl_5/feet
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=250..},nbt={Inventory:[{Slot:-106b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s weapon.offhand att2:eternan_automending_lvl_5/offhand
-

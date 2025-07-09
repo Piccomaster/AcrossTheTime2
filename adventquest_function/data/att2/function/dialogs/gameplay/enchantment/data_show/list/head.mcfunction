@@ -20,4 +20,3 @@ tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.potio
 # gourmetmaster
 tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.gourmetmaster",hover_event:{action:"show_text",value:[{translate:"enchantment.att2.gourmetmaster.data.show.show_text"}]},click_event:{action:"run_command",command:"/function att2:dialogs/gameplay/enchantment/data_show/gourmetmaster"}},{"text":"】",color:dark_green}]
 
-

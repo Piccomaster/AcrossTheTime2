@@ -15,4 +15,3 @@ execute if score @s SPELL4_SLCT matches 7 unless entity @s[nbt={Inventory:[{comp
 execute if score @s SPELL4_SLCT matches 8 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell4"}}}]}] run function att2:gameplay/dahal/launcher/spell_4/lvl8
 execute if score @s SPELL4_SLCT matches 9 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell4"}}}]}] run function att2:gameplay/dahal/launcher/spell_4/lvl9
 execute if score @s SPELL4_SLCT matches 10 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell4"}}}]}] run function att2:gameplay/dahal/launcher/spell_4/lvl10
-

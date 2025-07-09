@@ -27,4 +27,3 @@ execute if score newrecord BOSS_TIME matches 1 if score test_t BOSS_TIME matches
 scoreboard players reset miehanov_t BOSS_TIME
 scoreboard players reset miehanov_s BOSS_TIME
 scoreboard players reset miehanov_m BOSS_TIME
-

@@ -12,4 +12,3 @@ execute store result storage att2:spell20 max_page int 1 run scoreboard players 
 function att2:gameplay/dahal/action/spell20/stock_page with storage att2:spell20
 function att2:gameplay/dahal/action/spell20/kill_chest_minecart with storage att2:spell20
 
-

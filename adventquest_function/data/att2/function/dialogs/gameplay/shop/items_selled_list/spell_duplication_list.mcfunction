@@ -13,4 +13,3 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" <-°-> ","color":"dark_red","extra":[{
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" <-°-> ","color":"dark_red","extra":[{"text":" SPELL DUPLICATION ","color":"dark_red","extra":[{"text":" <-°-> ","color":"dark_red"}]}]}
 
-

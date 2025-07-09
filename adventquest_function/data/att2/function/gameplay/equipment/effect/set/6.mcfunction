@@ -12,4 +12,3 @@ scoreboard players operation @s STR_EQ += 2 CAL
 scoreboard players operation @s HAS_EQ += 4 CAL
 #get SPD number
 scoreboard players operation @s SPD_EQ += 2 CAL
-

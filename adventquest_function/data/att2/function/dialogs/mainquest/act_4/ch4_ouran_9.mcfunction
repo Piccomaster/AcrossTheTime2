@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"来吧，吾友们，吞噬这个微不足道的人类...","color":"dark_aqua"}]}
 
 function att2:voice/aoran/aoran28
-

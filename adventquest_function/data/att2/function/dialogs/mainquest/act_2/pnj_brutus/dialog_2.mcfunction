@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","ext
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（有些迟疑）Brutus疲惫至极，今天不想惹是生非.","color":"dark_aqua"}]}
 
 function att2:voice/brutus/brutus_dialogue1
-

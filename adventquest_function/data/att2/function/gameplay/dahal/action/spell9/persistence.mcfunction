@@ -18,4 +18,3 @@ execute if score @s SPELL9_SLCT matches 7 as @e[team=hostile,scores={GAMELEVEL=0
 execute if score @s SPELL9_SLCT matches 8 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run function att2:gameplay/dahal/action/spell9/effect/8
 execute if score @s SPELL9_SLCT matches 9 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run function att2:gameplay/dahal/action/spell9/effect/9
 execute if score @s SPELL9_SLCT matches 10 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run function att2:gameplay/dahal/action/spell9/effect/10
-

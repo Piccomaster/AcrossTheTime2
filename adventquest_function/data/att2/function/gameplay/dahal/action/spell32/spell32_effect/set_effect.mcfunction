@@ -19,4 +19,3 @@ execute if score @s SPELL32_DATA_A matches 1.. run function att2:gameplay/dahal/
 execute if score @s SPELL32_DATA_B matches 1.. run function att2:gameplay/dahal/action/spell32/spell32_effect/particles_keep_b
 
 
-

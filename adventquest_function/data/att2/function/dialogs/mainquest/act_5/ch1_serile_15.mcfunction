@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"不！你怎么可能与我势均力敌？这不可能是真的，Relgon！你永远无法干预我的命运！ ","color":"yellow","italic":true}]}
 
 function att2:voice/serile/serile58
-

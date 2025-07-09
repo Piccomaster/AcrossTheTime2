@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purpl
 
 function att2:voice/namrin/namrin_sidequest11
 
-

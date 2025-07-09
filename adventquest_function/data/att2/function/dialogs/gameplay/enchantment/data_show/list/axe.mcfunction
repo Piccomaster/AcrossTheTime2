@@ -17,4 +17,3 @@ tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.armor
 tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.1000slay",hover_event:{action:"show_text",value:[{translate:"enchantment.att2.1000slay.data.show.show_text"}]},click_event:{action:"run_command",command:"/function att2:dialogs/gameplay/enchantment/data_show/1000slay"}},{"text":"】",color:dark_green}]
 
 
-

@@ -9,4 +9,3 @@ execute at @s as @a[distance=4..] if score @s NUMEROJOUEUR = @e[type=armor_stand
 
 
 
-

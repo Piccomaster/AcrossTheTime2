@@ -82,4 +82,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"gree
 
 function att2:voice/wirth/wirth2
 setblock -4906 87 -4991 minecraft:white_wool
-

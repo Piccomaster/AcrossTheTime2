@@ -17,4 +17,3 @@ scoreboard players add @s SPELLS_COUNT 1
 
 
 
-

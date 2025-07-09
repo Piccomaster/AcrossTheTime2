@@ -73,4 +73,3 @@ advancement grant @s[scores={statLINGERUSED=5..}] only att2:progress/lingering_5
 advancement grant @s[scores={statLINGERUSED=20..}] only att2:progress/lingering_20
 advancement grant @s[scores={statLINGERUSED=50..}] only att2:progress/lingering_50
 advancement grant @s[scores={statLINGERUSED=100..}] only att2:progress/lingering_100
-

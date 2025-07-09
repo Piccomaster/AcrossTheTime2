@@ -48,4 +48,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extr
 
 function att2:voice/gonon/gonon_dialogue2
 function att2:dialogs/gameplay/inn/proposal_gonon
-

@@ -10,4 +10,3 @@ effect clear @s minecraft:instant_health
 attribute @s minecraft:max_health modifier remove bloodeater_health_reduce
 
 
-

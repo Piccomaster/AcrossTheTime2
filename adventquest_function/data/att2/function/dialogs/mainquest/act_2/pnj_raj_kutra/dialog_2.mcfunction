@@ -73,4 +73,3 @@ function att2:voice/stopsound
 function att2:voice/raj/raj2
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_1
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_0
-

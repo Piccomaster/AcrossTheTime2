@@ -60,4 +60,3 @@ function att2:voice/phoebius/phoebius2
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_4
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_5
 
-

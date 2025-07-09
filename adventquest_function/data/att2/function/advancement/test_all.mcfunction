@@ -44,4 +44,3 @@ function att2:advancement/test_all/progress
 
 # Quest
 function att2:advancement/test_all/quest
-

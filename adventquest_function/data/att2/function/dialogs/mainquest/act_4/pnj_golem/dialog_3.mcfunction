@@ -64,4 +64,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"小小的血肉之躯得到了认可，他可以无拘无束地前往Ulgok'keström。因为金属构成的存在为他指引前路。","color":"dark_aqua"}]}
 
 function att2:voice/golem/golem7
-

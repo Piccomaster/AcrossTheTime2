@@ -8,4 +8,3 @@ execute if score @s SPELL22_SLCT matches 1.. unless entity @s[nbt={Inventory:[{c
 execute if score @s SPELL22_SLCT matches 1 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell22"}}}]}] run function att2:gameplay/dahal/launcher/spell_22/lvl1
 execute if score @s SPELL22_SLCT matches 2 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell22"}}}]}] run function att2:gameplay/dahal/launcher/spell_22/lvl2
 execute if score @s SPELL22_SLCT matches 3 unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell22"}}}]}] run function att2:gameplay/dahal/launcher/spell_22/lvl3
-

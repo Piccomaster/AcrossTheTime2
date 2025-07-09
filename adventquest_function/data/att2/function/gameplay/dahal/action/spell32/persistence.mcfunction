@@ -11,4 +11,3 @@ scoreboard players remove @a[scores={tp_spell32_timer=1..}] tp_spell32_timer 1
 
 
 
-

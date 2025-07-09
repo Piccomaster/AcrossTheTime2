@@ -62,4 +62,3 @@ function att2:gameplay/arena/time/initialize
 
 
 
-

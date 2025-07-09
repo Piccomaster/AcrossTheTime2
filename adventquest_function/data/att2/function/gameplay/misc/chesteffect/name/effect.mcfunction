@@ -63,4 +63,3 @@ execute if predicate att2_pre:chest_effect/t8 unless predicate att2_pre:chest_ef
 execute if predicate att2_pre:chest_effect/t9 unless predicate att2_pre:chest_effect/lock align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust{color:[1,0.45,0.1],scale:0.5} ~ ~0.5 ~ 0.3 0.3 0.3 0 40 normal
 execute if predicate att2_pre:chest_effect/t10 unless predicate att2_pre:chest_effect/lock align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust{color:[0.75,0.25,0.0],scale:0.5} ~ ~0.5 ~ 0.3 0.3 0.3 0 40 normal
 
-

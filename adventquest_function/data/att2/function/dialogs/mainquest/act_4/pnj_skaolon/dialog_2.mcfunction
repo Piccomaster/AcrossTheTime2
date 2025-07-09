@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","ex
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"你得到了你想要的，现在去谒见我们的君主吧...","color":"dark_aqua"}]}
 
 function att2:voice/skaolon/skaolon_dialogue2
-

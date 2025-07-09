@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Indra Lorth : ","color":"green"
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"这么说来，你喜欢冒险？我曾历经过许多次冒险，无数次置之死地而后生... 我也曾想再次踏上征途，但背上伤口刺痛感却一次次把我拉回现实...当青春仍旧存于你手的时候，莫负光阴，尽情享受吧，大千世界的万千奇景等着你亲眼见证。","color":"dark_aqua"}]}
 
 function att2:voice/indra/indra_dialogue1
-

@@ -25,4 +25,3 @@ $data merge entity @e[type=chest_minecart,tag=spell20_chest,scores={OWNER=$(NUME
 
 
 
-

@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","ex
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你不会就此收手的...","color":"dark_aqua"}]}
 
 function att2:voice/etotsira/etotsira6
-

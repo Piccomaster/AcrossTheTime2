@@ -22,4 +22,3 @@ execute as @e[type=minecraft:frog] unless entity @s[type=minecraft:frog,tag=!Glu
 
 #have item ->go
 execute as @a[scores={spell31_run=1}] at @s if entity @e[type=item,distance=..2] run function att2:gameplay/dahal/action/spell31/test
-

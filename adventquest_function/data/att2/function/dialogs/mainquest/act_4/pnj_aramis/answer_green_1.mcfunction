@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","ext
 
 function att2:voice/aramis/aramis2
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_2_1
-

@@ -19,4 +19,3 @@ tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.dahal
 tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.selflessaid",hover_event:{action:"show_text",value:[{translate:"enchantment.att2.selflessaid.data.show.show_text"}]},click_event:{action:"run_command",command:"/function att2:dialogs/gameplay/enchantment/data_show/selflessaid"}},{"text":"】",color:dark_green}]
 
 
-

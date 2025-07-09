@@ -11,4 +11,3 @@ scoreboard players reset pool1_6_m BOSS_TIME
 scoreboard players set pool1_6_rt BOSS_TIME 7777777
 scoreboard players set pool1_6_rs BOSS_TIME 7777777
 scoreboard players set pool1_6_rm BOSS_TIME 7777777
-

@@ -65,4 +65,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（慌张）等一下，我不会伤害人的，我并没有与他们同流合污，更不想惹什么麻烦！就像你看到的这样，我被流放了，所以不得不背井离乡来到此地。你是冲着那座神殿去的，对吧。去寨子的西侧瞧瞧，那儿应该有个入口","color":"dark_aqua"}]}
 
 function att2:voice/brutus/brutus4
-

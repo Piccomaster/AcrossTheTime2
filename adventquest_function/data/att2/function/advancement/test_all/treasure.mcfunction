@@ -23,4 +23,3 @@ advancement grant @a[scores={statCHEST=2500..}] only att2:treasure/chest_2500
 advancement grant @a[scores={statCHEST=5000..}] only att2:treasure/chest_5000
 #MINING
 function att2:advancement/test_all/treasure/mining
-

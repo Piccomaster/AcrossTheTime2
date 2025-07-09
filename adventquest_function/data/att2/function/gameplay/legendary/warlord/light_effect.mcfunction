@@ -35,4 +35,3 @@ execute as @e[tag=Light5,scores={LIGHT=5}] at @s run function att2:gameplay/lege
 
 
 
-

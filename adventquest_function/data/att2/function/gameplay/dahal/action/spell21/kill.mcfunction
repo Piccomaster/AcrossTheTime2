@@ -9,4 +9,3 @@ execute at @s as @e[scores={OWNER=1..},type=bat] if score @s OWNER = @a[distance
 
 
 
-

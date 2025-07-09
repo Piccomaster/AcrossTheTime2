@@ -24,4 +24,3 @@ scoreboard players set @s[scores={ESC_COST=0}] SPELL32_PROCESS_EFFCT 0
 
 
 
-

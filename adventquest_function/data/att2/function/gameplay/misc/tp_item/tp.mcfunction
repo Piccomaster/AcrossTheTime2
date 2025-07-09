@@ -44,4 +44,3 @@ scoreboard players remove @s TP_ITEM_USE 1
 function att2:gameplay/misc/tp_item/effect
 #show
 function att2:dialogs/gameplay/misc/tp_item/show
-

@@ -18,4 +18,3 @@ scoreboard players remove @s DAHAL 40
 scoreboard players add @s SPELLS_COUNT 1
 ##test SPELLS_COUNT
 function att2:advancement/test_all/spell/launch_count
-

@@ -14,4 +14,3 @@ execute if predicate att2_pre:chest_effect/t8 align xyz positioned ~0.5 ~ ~0.5 r
 execute if predicate att2_pre:chest_effect/t9 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust{color:[1,0.45,0.1],scale:0.3} ~ ~0.5 ~ 0.4 0.3 0.4 0 30 normal
 execute if predicate att2_pre:chest_effect/t10 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust{color:[0.75,0.25,0.0],scale:0.3} ~ ~0.5 ~ 0.4 0.3 0.4 0 30 normal
 
-

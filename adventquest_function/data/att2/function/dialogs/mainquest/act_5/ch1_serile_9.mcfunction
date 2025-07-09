@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extr
 
 
 function att2:voice/serile/serile52
-

@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Estelle : ","color":"green","ex
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Estelle : ","color":"green","extra":[{"text":"你好，你是Sylvandre的朋友吗？我第一次在城里看到你。他总是想方设法吸引我的注意—虽然有些吵闹，又经常笨手笨脚，但他真的是一个很热心肠的人。","color":"dark_aqua"}]}
 
 function att2:voice/estelle/estelle_dialogue1
-

@@ -16,4 +16,3 @@ execute if score CLASS MIMIC matches 80.. run team join green @s
 
 
 
-

@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"让我们进去，我会把他带到将军面前！","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin8
-

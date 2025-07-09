@@ -23,4 +23,3 @@ execute if score @s SPELL6_SLCT matches 8 if entity @e[scores={GAMELEVEL=0..},te
 execute if score @s SPELL6_SLCT matches 9 if entity @e[scores={GAMELEVEL=0..},team=hostile,distance=..2] run function att2:gameplay/dahal/action/spell6/explosion9
 execute if score @s SPELL6_SLCT matches 10 if entity @e[scores={GAMELEVEL=0..},team=hostile,distance=..2] run function att2:gameplay/dahal/action/spell6/explosion10
 
-

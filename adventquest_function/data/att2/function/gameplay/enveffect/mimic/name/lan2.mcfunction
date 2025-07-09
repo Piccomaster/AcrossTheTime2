@@ -14,4 +14,3 @@ execute if score CLASS MIMIC matches 60..79 run team join gold @s
 execute if score CLASS MIMIC matches 80.. run data merge entity @s {CustomName:{"text":"终级宝箱怪","color":"#55FF55"},CustomNameVisible:1b}
 execute if score CLASS MIMIC matches 80.. run team join green @s
 
-

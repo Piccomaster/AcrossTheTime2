@@ -56,4 +56,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Relgon : ","color":"red","extra
 
 function att2:voice/relgon/relgon_dialogue2
 function att2:dialogs/mainquest/act_3/pnj_relgon/player_answer_proposal_1
-

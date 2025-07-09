@@ -16,4 +16,3 @@ tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.sscom
 # greatsword
 tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.greatsword",hover_event:{action:"show_text",value:[{translate:"enchantment.att2.greatsword.data.show.show_text"}]},click_event:{action:"run_command",command:"/function att2:dialogs/gameplay/enchantment/data_show/greatsword"}},{"text":"】",color:dark_green}]
 
-

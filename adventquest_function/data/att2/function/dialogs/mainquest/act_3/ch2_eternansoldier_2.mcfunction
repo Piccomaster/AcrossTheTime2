@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Soldado Eternän : ","color":"g
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"...我明白了，你们可以进来，但后果自负。","color":"dark_aqua"}]}
 
 function att2:voice/guard/guard5
-

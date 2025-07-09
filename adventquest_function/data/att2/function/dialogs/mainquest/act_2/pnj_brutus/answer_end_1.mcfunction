@@ -66,4 +66,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"神殿其中一侧的墙体损毁严重，你应该可以在那找到入口，不过你需要从城墙上走到那去。在东侧的瞭望塔底下有节断裂的梯子，但你应该能靠寨子里的东西修好它...","color":"dark_aqua"}]}
 
 function att2:voice/brutus/brutus5
-

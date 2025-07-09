@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","ex
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"来吧，快快快。没有Néleptron就不可能放你进去！ ","color":"dark_aqua"}]}
 
 function att2:voice/skaolon/skaolon_dialogue1
-

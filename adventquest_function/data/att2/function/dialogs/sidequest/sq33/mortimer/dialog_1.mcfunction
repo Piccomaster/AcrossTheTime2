@@ -57,4 +57,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Mortimer : ","color":"green","e
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_1/choice_3
-

@@ -56,4 +56,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extr
 function att2:voice/golem/golem3
 function att2:dialogs/mainquest/act_4/pnj_golem/player_answer_proposal_2
 
-

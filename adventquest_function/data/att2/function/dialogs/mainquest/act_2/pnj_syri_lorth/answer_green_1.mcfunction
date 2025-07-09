@@ -66,4 +66,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green",
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"非常好！我们会带你去任何你想去的地方。我在不远处的大船上等你。","color":"dark_aqua"}]}
 
 function att2:voice/syri/syri3
-

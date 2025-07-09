@@ -17,4 +17,3 @@ execute if score ave RUNECOUNT matches 1..2 run scoreboard players remove ave RU
 execute if score ave RUNECOUNT matches 0 run function att2:gameplay/runes/recipe_done
 #loop
 execute if score ave RUNECOUNT matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/ave_loop
-

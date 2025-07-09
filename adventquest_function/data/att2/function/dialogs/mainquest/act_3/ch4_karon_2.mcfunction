@@ -57,4 +57,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Karön : ","color":"green","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Karön : ","color":"green","extra":[{"text":"我会好好爱护它的！","color":"red"}]}
 
 function att2:voice/karon/karon2
-
