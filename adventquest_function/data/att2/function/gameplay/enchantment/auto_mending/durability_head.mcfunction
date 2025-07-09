@@ -4,7 +4,7 @@
 #################################################################
 
 #get max/cost damage
-execute store result score temp_value_1 CAL run data get entity @s equipment.head.components."minecraft:enchantments"."att2_enchantment:auto_mending" 
+execute store result score temp_value_1 CAL run data get entity @s equipment.head.components."minecraft:enchantments"."att2_enchantment:auto_mending"
 execute store result score temp_value_2 ENCHANTMENT run data get entity @s equipment.head.components."minecraft:max_damage" 100
 execute store result score temp_value_3 ENCHANTMENT run data get entity @s equipment.head.components."minecraft:damage" 100
 #cal percent damage
