@@ -4,10 +4,11 @@
 #################################################################
 
 
-### Percentage exploit calcul
-scoreboard players operation Game_percentage EXPLOIT = @a[scores={NUMEROJOUEUR=1}] COMPLETION
-scoreboard players operation Game_percentage EXPLOIT *= Points_completion EXPLOIT
-scoreboard players operation Game_percentage EXPLOIT /= Total_objectives EXPLOIT
+##add  TOTAL COMPLETION 
+scoreboard players operation Game_percentage EXPLOIT = TOTAL_SQ SIDEQUEST
+scoreboard players operation Game_percentage EXPLOIT += Mainquest SIDEQUEST
+scoreboard players operation Game_percentage EXPLOIT *= 100 CAL
+scoreboard players operation Game_percentage EXPLOIT /= Total_objectives SIDEQUEST
 scoreboard players operation Game_percentage_progress EXPLOIT = Game_percentage EXPLOIT
 
 # GAME PERCENTAGE
