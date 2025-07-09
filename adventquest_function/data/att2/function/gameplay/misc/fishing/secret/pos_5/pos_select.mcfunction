@@ -5,8 +5,6 @@
 
 #fill light
 function att2:gameplay/misc/fishing/symbol_clear
-#check fish spot
-execute if entity @a[distance=..30] unless entity @e[tag=FISH_SPOT,type=armor_stand,distance=..20] run function att2:gameplay/misc/fishing/secret/system_set/pos_5
 #pos selected 1
 execute if score 1RNG100 RNG matches 1..20 run tp @s -4756 24 -5399
 execute if score 1RNG100 RNG matches 21..40 run tp @s -4753 24 -5398
