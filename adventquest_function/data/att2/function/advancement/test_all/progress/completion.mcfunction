@@ -5,6 +5,9 @@
 
 
 ##add  TOTAL COMPLETION 
+## NOW MAINQUEST + TOTAL_SQ SIDEQUEST 
+##/
+## TOTAL MAINQUEST 300 + TOTAL SIDEQUEST 60 = 360
 scoreboard players operation Game_percentage EXPLOIT = TOTAL_SQ SIDEQUEST
 scoreboard players operation Game_percentage EXPLOIT += Mainquest SIDEQUEST
 scoreboard players operation Game_percentage EXPLOIT *= 100 CAL
