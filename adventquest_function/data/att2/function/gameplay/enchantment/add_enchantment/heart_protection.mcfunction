@@ -15,4 +15,4 @@ function att2:dialogs/gameplay/enchantment/materials_reduce
 function att2:advancement/test_all/enchantments/heart_protection
 #add enchantment
 data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:heart_protection"
-$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:heart_protection $(heart_protection) 
+$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:heart_protection $(heart_protection)

@@ -6,12 +6,12 @@
 
 #check offhand
 scoreboard players remove @s SSCOMBO_TIMER 1
-#get score 
+#get score
 scoreboard players operation STR ATTRIBUTE = @s SSCOMBO
 scoreboard players operation STR ATTRIBUTE /= 2 CAL
 scoreboard players operation STR ATTRIBUTE > 1 CAL
 scoreboard players operation HAS ATTRIBUTE = @s SSCOMBO
-scoreboard players operation HAS ATTRIBUTE *= 2 CAL 
+scoreboard players operation HAS ATTRIBUTE *= 2 CAL
 scoreboard players operation HAS ATTRIBUTE > 1 CAL
 #effect str +has
 scoreboard players operation @s STR_EH += STR ATTRIBUTE

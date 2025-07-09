@@ -3,7 +3,7 @@
 #hpmax_ex_dahalmax trigger                    						#
 #################################################################
 
-#reset now score -> cal price 
+#reset now score -> cal price
 scoreboard players operation hpmax_ex_dahalmax ENCHANTMENT = now_lvl_show ENCHANTMENT
 scoreboard players set now_lvl_show ENCHANTMENT 0
 function att2:gameplay/enchantment/display/price_set/hpmax_ex_dahalmax

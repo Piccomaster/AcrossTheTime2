@@ -6,7 +6,7 @@
 #reset
 function att2:gameplay/enchantment/remove_interaction
 function att2:gameplay/enchantment/reset
-#get lvl data 
+#get lvl data
 execute store result score greatsword ENCHANTMENT run data get entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:greatsword"
 
 execute store result storage att2:enchantment end_lvl_show int 1 run scoreboard players operation end_lvl_show ENCHANTMENT = greatsword ENCHANTMENT

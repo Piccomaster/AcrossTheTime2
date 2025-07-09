@@ -3,7 +3,7 @@
 #speed burn enchantment effect                    				#
 #################################################################
 
-#add score 
+#add score
 scoreboard players add @s TREASUREHUNTER_COUNT 1
 scoreboard players set @s TREASUREHUNTER_TIME 2
 scoreboard players add @s TREASUREHUNTER_SCORE 9

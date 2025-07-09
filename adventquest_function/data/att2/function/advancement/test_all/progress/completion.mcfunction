@@ -4,8 +4,8 @@
 #################################################################
 
 
-##add  TOTAL COMPLETION 
-## NOW MAINQUEST + TOTAL_SQ SIDEQUEST 
+##add  TOTAL COMPLETION
+## NOW MAINQUEST + TOTAL_SQ SIDEQUEST
 ##/
 ## TOTAL MAINQUEST 300 + TOTAL SIDEQUEST 60 = 360
 scoreboard players operation Game_percentage EXPLOIT = TOTAL_SQ SIDEQUEST

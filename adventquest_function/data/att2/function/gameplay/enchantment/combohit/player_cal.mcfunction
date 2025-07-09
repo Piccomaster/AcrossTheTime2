@@ -3,7 +3,7 @@
 #speed burn enchantment effect                    				#
 #################################################################
 
-##player attack time set 
+##player attack time set
 scoreboard players set @s DGTIME 60
 execute unless score @s DAGGER matches 3.. run scoreboard players add @s DAGGER 1
 ##elite effect

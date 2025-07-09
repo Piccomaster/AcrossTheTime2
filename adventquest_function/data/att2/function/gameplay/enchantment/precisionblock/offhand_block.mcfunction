@@ -1,7 +1,7 @@
 #################################################################
 #Made by Adventquest											#
 #Initialize enchantment                    						#
-#damage = base damage x0.5 X (100+10*LVL)/100 
+#damage = base damage x0.5 X (100+10*LVL)/100
 #################################################################
 
 #add temp tag

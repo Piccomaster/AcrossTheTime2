@@ -3,7 +3,7 @@
 #dahalburst trigger                    						#
 #################################################################
 
-#reset now score -> cal price 
+#reset now score -> cal price
 scoreboard players operation dahalburst ENCHANTMENT = now_lvl_show ENCHANTMENT
 scoreboard players set now_lvl_show ENCHANTMENT 0
 function att2:gameplay/enchantment/display/price_set/dahalburst

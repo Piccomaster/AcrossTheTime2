@@ -15,4 +15,4 @@ function att2:dialogs/gameplay/enchantment/materials_reduce
 function att2:advancement/test_all/enchantments/anchorshot
 #add enchantment
 data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:anchorshot"
-$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:anchorshot $(anchorshot) 
+$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:anchorshot $(anchorshot)
