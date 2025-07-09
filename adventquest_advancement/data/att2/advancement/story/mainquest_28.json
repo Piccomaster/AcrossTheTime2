@@ -9,7 +9,7 @@
     },
     "parent": "att2:story/mainquest_27",
     "rewards": {
-        "function": "att2:advancement/exploit_completion_30",
+        "function": "att2:advancement/exploit_30",
         "experience": 20000
     },
     "criteria": {
