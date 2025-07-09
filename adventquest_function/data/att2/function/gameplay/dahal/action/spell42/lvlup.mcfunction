@@ -14,3 +14,5 @@ execute if score @s SPELL42_CAP matches 7.. run xp add @s 100
 execute if score @s SPELL42_CAP matches 8.. run xp add @s 100
 execute if score @s SPELL42_CAP matches 9.. run xp add @s 100
 execute if score @s SPELL42_CAP matches 10.. run xp add @s 100
+#TEST LVL
+function att2:advancement/test_all/spell/spell_42
