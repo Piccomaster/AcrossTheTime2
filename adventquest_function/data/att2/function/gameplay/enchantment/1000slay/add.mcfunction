@@ -13,11 +13,15 @@ scoreboard players add temp_value_1 CAL 2
 scoreboard players operation temp_value_3 CAL = temp_value_1 CAL
 scoreboard players operation temp_value_3 CAL %= 2 CAL
 execute unless score temp_value_3 CAL matches 0 run scoreboard players add temp_value_1 CAL 1
+#limit
+execute if score temp_value_1 CAL matches 2000.. run scoreboard players set temp_value_1 CAL 2000
 #CAL MAX HEALTH | make float normal
 scoreboard players add temp_value_2 CAL 5
 scoreboard players operation temp_value_3 CAL = temp_value_2 CAL
 scoreboard players operation temp_value_3 CAL %= 5 CAL
 execute unless score temp_value_3 CAL matches 0 run scoreboard players add temp_value_2 CAL 1
+#limit
+execute if score temp_value_2 CAL matches 500000.. run scoreboard players set temp_value_2 CAL 500000
 #store maco
 execute store result storage att2:temp 1000slay_attack_damage double 0.1 run scoreboard players get temp_value_1 CAL
 execute store result storage att2:temp 1000slay_max_health double 0.0001 run scoreboard players operation temp_value_2 CAL *= -1 CAL
@@ -25,7 +29,12 @@ execute store result storage att2:temp 1000slay_max_health double 0.0001 run sco
 execute if score temp_value_1 CAL matches 2000.. run advancement grant @s only att2:enchantments/1000slay_max
 #back maco
 function att2:gameplay/enchantment/1000slay/give with storage att2:temp
-
+#effect
+execute if score @s 1000SLAY matches 1 if score temp_value_1 CAL matches ..1999 run function att2:gameplay/enchantment/1000slay/effect/1
+execute if score @s 1000SLAY matches 2 if score temp_value_1 CAL matches ..1999 run function att2:gameplay/enchantment/1000slay/effect/2
+execute if score @s 1000SLAY matches 3 if score temp_value_1 CAL matches ..1999 run function att2:gameplay/enchantment/1000slay/effect/3
+execute if score @s 1000SLAY matches 4 if score temp_value_1 CAL matches ..1999 run function att2:gameplay/enchantment/1000slay/effect/4
+execute if score @s 1000SLAY matches 5 if score temp_value_1 CAL matches ..1999 run function att2:gameplay/enchantment/1000slay/effect/5
 #reset
 scoreboard players reset temp_value_1 CAL
 scoreboard players reset temp_value_2 CAL
