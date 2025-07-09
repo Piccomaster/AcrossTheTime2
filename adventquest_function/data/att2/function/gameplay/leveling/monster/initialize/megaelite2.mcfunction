@@ -9,4 +9,4 @@ effect give @s minecraft:resistance infinite 3 true
 
 effect give @s[team=hostile] minecraft:glowing infinite 0 true
 
-attribute @s minecraft:generic.scale base set 1.75
+attribute @s minecraft:scale base set 1.5
