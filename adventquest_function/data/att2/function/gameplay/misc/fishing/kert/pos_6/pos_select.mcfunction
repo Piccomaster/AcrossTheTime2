@@ -4,7 +4,9 @@
 #####################################################################
 
 #fill light
-execute if block ~ ~1 ~ light[level=7] run setblock ~ ~1 ~ air
+function att2:gameplay/misc/fishing/symbol_clear
+#check fish spot
+execute if entity @a[distance=..30] unless entity @e[tag=FISH_SPOT,type=armor_stand,distance=..20] run function att2:gameplay/misc/fishing/kert/system_set/pos_6
 #pos selected 1
 execute if score 1RNG100 RNG matches 1..20 run tp @s -5643 73 -4521
 execute if score 1RNG100 RNG matches 21..40 run tp @s -5642 73 -4518
@@ -13,5 +15,8 @@ execute if score 1RNG100 RNG matches 61..80 run tp @s -5641 73 -4512
 execute if score 1RNG100 RNG matches 81..100 run tp @s -5641 73 -4522
 #tag remove
 tag @s remove SPOT_SELECT
+#detection discover
+execute unless score kert_pos_6 FISH_DICOVER_COUNT matches 1.. run scoreboard players add TOTAL FISH_DICOVER_COUNT 1
+execute unless score kert_pos_6 FISH_DICOVER_COUNT matches 1.. run scoreboard players set kert_pos_6 FISH_DICOVER_COUNT 1
 #random pos (+-3M)
 function att2:gameplay/misc/fishing/random_pos
