@@ -4,21 +4,21 @@
             "id": "minecraft:written_book"
         },
         "title": {
-            "translate": "att2.advancement.books.title.warning"
+            "translate": "att2.advancement.books.title.invitation_to_the_council"
         },
         "description": {
-            "translate": "att2.advancement.books.description.warning"
+            "translate": "att2.advancement.books.description.invitation_to_the_council"
         },
         "show_toast": false,
         "hidden": true,
         "announce_to_chat": true
     },
-    "parent": "att2:books/parchment",
+    "parent": "att2:books/warning",
     "rewards": {
         "function": "att2:advancement/test_all/collection/all_books"
     },
     "criteria": {
-        "warning": {
+        "concil_invitation": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -26,7 +26,7 @@
                         "items": "minecraft:written_book",
                         "predicates": {
                             "minecraft:custom_data": {
-                                "warning": true
+                                "concil_invitation": true
                             }
                         }
                     }
