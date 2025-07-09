@@ -24,9 +24,22 @@
         "function": "att2:advancement/test_all/collection/rukyrion",
         "experience": 5000
     },
-    "criteria": {
-        "rukyrion": {
-            "trigger": "minecraft:impossible"
-        }
+  "criteria": {
+    "rukyrion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "rukyrion"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

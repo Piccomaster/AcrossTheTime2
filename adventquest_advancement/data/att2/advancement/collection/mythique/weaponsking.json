@@ -24,9 +24,22 @@
         "function": "att2:advancement/test_all/collection/weaponsking",
         "experience": 7777
     },
-    "criteria": {
-        "weaponsking": {
-            "trigger": "minecraft:impossible"
-        }
+  "criteria": {
+    "weaponsking": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:trident",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "weaponsking"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

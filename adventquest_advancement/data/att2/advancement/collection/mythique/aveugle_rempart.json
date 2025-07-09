@@ -57,9 +57,22 @@
         "function": "att2:advancement/test_all/collection/aveugle_rempart",
         "experience": 5000
     },
-    "criteria": {
-        "aveugle_rempart": {
-            "trigger": "minecraft:impossible"
-        }
+  "criteria": {
+    "aveugle_rempart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:shield",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "blindshield"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

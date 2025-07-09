@@ -24,9 +24,22 @@
         "function": "att2:advancement/test_all/collection/warlord",
         "experience": 10000
     },
-    "criteria": {
-        "warlord": {
-            "trigger": "minecraft:impossible"
-        }
+  "criteria": {
+    "warlord": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "warlord"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

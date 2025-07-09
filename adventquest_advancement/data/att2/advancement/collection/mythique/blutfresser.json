@@ -24,9 +24,22 @@
         "function": "att2:advancement/test_all/collection/blutfresser",
         "experience": 5000
     },
-    "criteria": {
-        "blutfresser": {
-            "trigger": "minecraft:impossible"
-        }
+  "criteria": {
+    "blutfresser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:iron_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "bloodeater"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }
