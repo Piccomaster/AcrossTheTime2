@@ -41,4 +41,3 @@ execute if score @s SHOP_OP1 matches 980..984 at @e[name="VULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 985..989 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/stone_sword_190
 execute if score @s SHOP_OP1 matches 990..994 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/stone_sword_191
 execute if score @s SHOP_OP1 matches 995..999 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/shield_196
-

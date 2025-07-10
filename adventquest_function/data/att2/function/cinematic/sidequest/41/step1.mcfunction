@@ -5,6 +5,10 @@
 
 execute as @a run function att2:dialogs/sidequest/sq41/start_quest
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 scoreboard players set SQ40 SIDEQUEST 100
 scoreboard players set SQ41 SIDEQUEST 1
 tag 00000000-0000-138a-0000-00000000138a remove QUEST

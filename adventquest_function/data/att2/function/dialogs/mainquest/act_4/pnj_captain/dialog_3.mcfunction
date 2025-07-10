@@ -62,4 +62,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","e
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 队长 : ","color":"green","extra":[{"text":"快过来！赶快穿过城门！","color":"dark_aqua"}]}
 
 function att2:voice/capitaine/capitaine_dialogue2
-

@@ -4,6 +4,10 @@
 #################################################################
 
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 scoreboard players set SQ9 SIDEQUEST 100
 scoreboard players set patrick_corth_PNJ DIALOG 4
 function att2:dialogs/sidequest/completed_effect

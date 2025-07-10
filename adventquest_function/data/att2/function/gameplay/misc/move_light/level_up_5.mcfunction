@@ -12,4 +12,3 @@ execute positioned ~-7 ~ ~ run function att2:gameplay/misc/move_light/summon_lig
 execute positioned ~ ~ ~7 run function att2:gameplay/misc/move_light/summon_light_5
 
 execute positioned ~ ~ ~-7 run function att2:gameplay/misc/move_light/summon_light_5
-

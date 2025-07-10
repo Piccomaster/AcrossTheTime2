@@ -68,4 +68,3 @@ execute as @s[scores={COOLDOWN43=1..,SPELL43_SLCT=1..10}] at @s run function att
 execute as @s[scores={COOLDOWN44=1..,SPELL44_SLCT=1..10}] at @s run function att2:gameplay/dahal/action/spell44_cooldown
 
 execute as @s[scores={COOLDOWN45=1..,SPELL45_SLCT=1..10}] at @s run function att2:gameplay/dahal/action/spell45_cooldown
-

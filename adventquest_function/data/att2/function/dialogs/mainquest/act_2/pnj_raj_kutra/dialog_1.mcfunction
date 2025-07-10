@@ -57,4 +57,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raj Kutra : ","color":"green","
 
 function att2:voice/stopsound
 function att2:voice/raj/raj1
-

@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green",
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"欢迎光临！最近怎么样？来看看我的商店吧—我这儿出售各式各样的法术咒语。","color":"dark_aqua","extra":[{"text":" [看法术 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/yaakov_rav_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Yaakov售卖的法术。"}}]}]}
 
 function att2:voice/yaakov/yaakov_dialogue2
-

@@ -13,68 +13,25 @@
         "hidden": true,
         "announce_to_chat": true
     },
-    "parent": "att2:books/my_last_words",
+    "parent": "att2:books/last_words",
     "rewards": {
         "function": "att2:advancement/test_all/collection/all_books"
     },
     "criteria": {
-        "fe": {
+        "testament": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": "minecraft:written_book",
-                        "components": {
-                            "minecraft:lore": [
-                                {
-                                    "text": "§7Ma dernière volonté"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        "eg": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:written_book",
-                        "components": {
-                            "minecraft:lore": [
-                                {
-                                    "text": "§7My last wish"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        "ch": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:written_book",
-                        "components": {
-                            "minecraft:lore": [
-                                {
-                                    "text": "§7遗言"
-                                }
-                            ]
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "testament": true
+                            }
                         }
                     }
                 ]
             }
         }
-    },
-    "requirements": [
-        [
-            "fe",
-            "eg",
-            "ch"
-        ]
-    ]
+    }
 }

@@ -68,4 +68,3 @@ execute if score Sphere1 SERILE matches -2 if score Sphere2 SERILE matches -2 if
 
 # Player can't destroy all spheres, testing if Serile gain entirely the bossbar
 execute if score 00000000-0000-022b-0000-00000000009b SERILE matches 1000.. run function att2:gameplay/boss/serile/phase1/end
-

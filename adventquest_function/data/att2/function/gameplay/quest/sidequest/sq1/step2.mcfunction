@@ -12,4 +12,3 @@ execute in minecraft:overworld if data block -4646 72 -5194 {LootTable:"att2:che
 execute in minecraft:overworld if data block -4645 76 -5224 {LootTable:"att2:chest/reg1/c2t4_cereals"} positioned -4645 76 -5224 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if data block -4643 76 -5224 {LootTable:"att2:chest/reg1/c2t4_cereals"} positioned -4643 76 -5224 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if data block -4668 72 -5210 {LootTable:"att2:chest/reg1/c2t4_cereals"} positioned -4668 72 -5210 run function att2:gameplay/quest/mainquest/show_secondary_objective
-

@@ -56,4 +56,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Brutus : ","color":"green","ext
 
 function att2:voice/brutus/brutus1
 function att2:dialogs/mainquest/act_2/pnj_brutus/player_answer_proposal_1
-

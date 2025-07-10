@@ -11,5 +11,7 @@ execute at @s[tag=Nova] run function att2:sound/dahal/nova_start
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
+#TEST COUNT
+function att2:advancement/test_all/spell/launch_count
 
 scoreboard players operation @s[tag=Nova] SPELL11_OWNER = @s NUMEROJOUEUR

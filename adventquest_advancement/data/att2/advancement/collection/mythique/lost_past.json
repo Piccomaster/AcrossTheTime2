@@ -24,9 +24,22 @@
         "function": "att2:advancement/test_all/collection/lost_past",
         "experience": 5000
     },
-    "criteria": {
-        "lost_past": {
-            "trigger": "minecraft:impossible"
-        }
+  "criteria": {
+    "lost_past": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:bow",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "lostpast"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

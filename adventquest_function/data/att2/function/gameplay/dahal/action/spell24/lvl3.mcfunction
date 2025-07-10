@@ -14,5 +14,7 @@ scoreboard players operation @s SPELL24_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
+#TEST COUNT
+function att2:advancement/test_all/spell/launch_count
 execute at @s as @e[tag=NewInvo,distance=..10] run scoreboard players operation @s SPELL24_EFFECT = timer_lvl3 SPELL24_DATA
 execute at @s as @e[tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon

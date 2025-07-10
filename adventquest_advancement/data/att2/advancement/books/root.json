@@ -20,23 +20,14 @@
                 "items": [
                     {
                         "items": "minecraft:written_book",
-                        "components": {
-                            "minecraft:custom_data": 
-                                {
-                                    "Conscience":"book"
-                                }
-                            
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Conscience": "book"
+                            }
                         }
                     }
                 ]
             }
         }
-    },
-    "requirements": [
-        [
-            "fe",
-            "eg",
-            "ch"
-        ]
-    ]
+    }
 }

@@ -64,4 +64,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","ex
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"真是天大的喜事， ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"！ 你所行之事空前绝后：你解开了Sérile的心结，让她重燃希望。你所拯救的不仅仅是她，你还拯救了Tellurön，以及你自己。","color":"dark_aqua"}]}
 
 function att2:voice/etotsira/etotsira57
-

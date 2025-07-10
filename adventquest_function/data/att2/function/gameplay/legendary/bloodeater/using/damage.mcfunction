@@ -7,4 +7,3 @@
 $damage @s $(value) att2_damage:player_attack by @a[scores={NUMEROJOUEUR=$(OWNER)},limit=1]
 
 tag @s add BE_ATKED
-

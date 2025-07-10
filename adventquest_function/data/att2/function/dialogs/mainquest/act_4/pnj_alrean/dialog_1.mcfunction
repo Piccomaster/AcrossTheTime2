@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","ext
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"啊！所以你找到了翅膀?就算并非如此，你也该去见我们的国王。王宫大门位于此地的东北部。但你需要自己寻找一下，毕竟飞翔的感觉必然绝妙至极！","color":"dark_aqua"}]}
 
 function att2:voice/alrean/alrean_dialogue1
-

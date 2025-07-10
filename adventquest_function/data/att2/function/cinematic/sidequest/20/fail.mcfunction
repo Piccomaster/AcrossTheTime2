@@ -6,6 +6,10 @@
 execute as @a run function att2:dialogs/sidequest/failed_effect
 scoreboard players set SQ20 SIDEQUEST -1
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 function att2:cinematic/sidequest/20/chiara/move_pnj_1
 execute as @a run function att2:advancement/completion_1
 tag 00000000-0000-065a-0000-00000000065a remove QUEST

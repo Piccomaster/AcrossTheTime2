@@ -57,4 +57,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Karön : ","color":"green","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Karön : ","color":"green","extra":[{"text":"你就是那个和Eternäns臭味相投的陌生人？这座王宫已不再属于他们！我才是此处的王！","color":"red"}]}
 
 function att2:voice/karon/karon1
-

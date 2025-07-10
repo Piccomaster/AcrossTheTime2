@@ -38,3 +38,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"पागलपन के द्वा�
 
 # Portugais
 tellraw @s[scores={LANGUAGE=10}] {"text":"Às portas da loucura, você está... Sete provas impiedosas espreitam sua mente, prontas para quebrá-la. Saiba que você pode fugir antes do início de cada labirinto infernal, sem perder o que já conquistou. Mas cuidado: cada passo adiante o levará mais fundo no esquecimento... e ao coração do seu eu mais sombrio. Você está realmente pronto para enfrentar o indizível? Sua mente pode nunca mais sair ilesa...","color":"gray","italic":true}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":"你已站在疯狂的边缘……\n七重残酷试炼将折磨你的神志，直至其崩溃。\n须知：在这地狱迷宫的每一层开始前，你皆可逃离并保留既有成果。但切记——每前进一步，你都将在遗忘深渊中陷得更深……直至直面内心最黑暗的自我。\n你当真准备好迎接不可名状的恐惧了吗？你的心智或许将永远无法完好如初……","color":"gray","italic":true}

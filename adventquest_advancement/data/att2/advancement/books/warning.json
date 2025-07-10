@@ -18,63 +18,20 @@
         "function": "att2:advancement/test_all/collection/all_books"
     },
     "criteria": {
-        "fe": {
+        "warning": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": "minecraft:written_book",
-                        "components": {
-                            "minecraft:lore": [
-                                {
-                                    "text": "§7 BOOM"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        "eg": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:written_book",
-                        "components": {
-                            "minecraft:lore": [
-                                {
-                                    "text": "§7 BOOM"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        "ch": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:written_book",
-                        "components": {
-                            "minecraft:lore": [
-                                {
-                                    "text": "§7BOOOMMMM!"
-                                }
-                            ]
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "warning": true
+                            }
                         }
                     }
                 ]
             }
         }
-    },
-    "requirements": [
-        [
-            "fe",
-            "eg",
-            "ch"
-        ]
-    ]
+    }
 }

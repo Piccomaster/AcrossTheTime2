@@ -9,4 +9,3 @@ execute in minecraft:overworld positioned -5202 104 -5779 run function att2:game
 
 execute in minecraft:overworld if block -5204 112 -5769 minecraft:smooth_stone_slab if entity @a[x=-5194,y=110,z=-5752,distance=..20] positioned -4963 81 -5662 run function att2:gameplay/gps/summon_arrow
 execute in minecraft:overworld if block -5204 112 -5769 minecraft:smooth_stone_slab if entity @a[x=-5194,y=110,z=-5752,distance=..20] as @e[tag=newGPS] at @s anchored feet facing -4963 81 -5662 run function att2:gameplay/gps/tp_arrow
-

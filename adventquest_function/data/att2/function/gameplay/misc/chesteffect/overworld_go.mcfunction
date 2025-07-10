@@ -23,4 +23,3 @@ execute if score tic TIMECOUNTER matches 17 run function att2:gameplay/misc/ches
 execute if score tic TIMECOUNTER matches 18 run function att2:gameplay/misc/chesteffect/overworld3
 execute if score tic TIMECOUNTER matches 19 run function att2:gameplay/misc/chesteffect/overworld4
 execute if score tic TIMECOUNTER matches 20 run function att2:gameplay/misc/chesteffect/overworld5
-

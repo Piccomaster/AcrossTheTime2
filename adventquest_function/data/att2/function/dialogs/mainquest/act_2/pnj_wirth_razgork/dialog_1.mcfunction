@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"gree
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"你在我家里偷摸着找什么？如果你不想惹麻烦，最好给我滚出去！ ","color":"dark_aqua"}]}
 
 function att2:voice/wirth/wirth1
-

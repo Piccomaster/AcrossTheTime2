@@ -29,13 +29,18 @@
   - Removed rune material upgrades; replaced with **"Rune Powder → Rune Material" synthesis**.  
   - Synthesis requires owning the target material or its adjacent-tier materials.  
 
-- **Dimensional Pocket Storage**  
+- **Stock**  
   - Each *Chrono Gem* upgrades pocket by **1 level**.  
   - Added **"Previous Page," "Discard All," "Next Page"** buttons.  
+  
+- **New Feature: Spell Details Display**  
+  -Click any spell name in the spellbook to view its detailed data.
 
-- **Artifact Effects**  
-  - All artifacts **buffed**.  
+- ** Mythical Effects**  
+  - All Mythical equipment **buffed**.  
 
+- **Chests names display**
+  - Chests containing quest items or books will now display unique names.
 ### Balance:
 - **Attribute System Update**  
   - Most attributes now **directly modify base stats** (no "status effects").  
@@ -57,6 +62,10 @@
 
 ### Bug Fix:
 - **Quest Progression Issues**  
-  - Fixed a bug where long questlines (e.g., *Emerald Journey*) could fail to detect progress due to excessive player teleportation (TP).  
+  - Fixed a bug where long questlines (e.g., *Emerald Journey*) could fail to detect progress due to excessive player teleportation (TP).
+- **Exploration Point Vault Rewards** 
+  - Now determined by the player with the **highest exploration points**. 
+- **Side Quest Achievement Sync**
+  - Automatically grants achievements to eligible offline players when others complete side quests.   
 ### Miscellaneous:
 -

@@ -8,4 +8,3 @@ time set 18000
 
 execute as @s[tag=!limitedSpeed] run tag @s add limitedSpeed
 
-

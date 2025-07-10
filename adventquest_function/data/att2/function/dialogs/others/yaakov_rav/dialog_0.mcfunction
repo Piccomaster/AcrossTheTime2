@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green",
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"抱歉，我现在抽不出身来帮你。介意晚些时候再来找我吗？ ","color":"dark_aqua"}]}
 
 function att2:voice/yaakov/yaakov_dialogue1
-

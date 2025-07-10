@@ -6,4 +6,3 @@
 kill @s[type=armor_stand]
 
 forceload remove ~ ~
-

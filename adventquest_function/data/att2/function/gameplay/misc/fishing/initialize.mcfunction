@@ -5,6 +5,17 @@
 
 scoreboard objectives add FISH_AREA dummy
 scoreboard objectives add FISH_QUALITY dummy
+scoreboard objectives add POSITIONZ dummy
+
+scoreboard objectives add FISH_COUNT dummy
+scoreboard objectives add FISH_COM_COUNT dummy
+scoreboard objectives add FISH_UNC_COUNT dummy
+scoreboard objectives add FISH_RAR_COUNT dummy
+scoreboard objectives add FISH_EPI_COUNT dummy
+scoreboard objectives add FISH_LEG_COUNT dummy
+scoreboard objectives add FISH_ULT_COUNT dummy
+scoreboard objectives add FISH_DICOVER_COUNT dummy
+
 
 function att2:gameplay/misc/fishing/asunark/summon
 function att2:gameplay/misc/fishing/black_forest/summon

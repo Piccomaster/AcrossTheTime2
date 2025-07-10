@@ -5,7 +5,6 @@
 
 execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 
-
 execute if score Real0 TIMER matches 0 run function att2:cinematic/act_3/earndhel/etotsira_3_action_1
 execute if score Real0 TIMER matches 11 if entity @a[x=29999,y=73,z=29967,distance=..5,gamemode=adventure] run function att2:cinematic/real0_iteration
 
@@ -83,7 +82,7 @@ execute if score Real0 TIMER matches 6001 run scoreboard players set Mainquest S
 #end of the cinematic	#
 #=======================#
 
-execute if score Real0 TIMER matches 6000.. run function att2:voice/lock_voice
+execute if score Real0 TIMER matches 6000.. run function att2:voice/unlock_voice
 
 execute if score Real0 TIMER matches 6001.. run setblock 30000 58 29966 minecraft:air
 execute if score Real0 TIMER matches 12..6000 run function att2:cinematic/real0_iteration

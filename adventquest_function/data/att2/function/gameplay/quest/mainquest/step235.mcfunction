@@ -30,4 +30,3 @@ execute in minecraft:overworld if block -7406 129 -4378 minecraft:lever unless b
 execute in minecraft:overworld if block -7407 125 -4370 minecraft:birch_button unless block -7406 129 -4378 minecraft:lever positioned -7410 117 -4366 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld unless data block -5951 124 -4360 {LootTable:"att2:chest/reg1/c10t3_littlekey"} if block -5901 117 -4375 minecraft:stone_button positioned -5900 118 -4375 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld unless block -5901 117 -4375 minecraft:stone_button if block -5909 125 -4368 minecraft:birch_button positioned -5900 118 -4375 run function att2:gameplay/quest/mainquest/show_secondary_objective
-

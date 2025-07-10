@@ -4,7 +4,6 @@
 ##################################################
 
 ### Initialize cinematic
-
 execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 55

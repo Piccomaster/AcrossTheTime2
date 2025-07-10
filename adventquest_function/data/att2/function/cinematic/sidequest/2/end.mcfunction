@@ -4,6 +4,10 @@
 #################################################################
 
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 scoreboard players set SQ2 SIDEQUEST 100
 function att2:dialogs/sidequest/completed_effect
 scoreboard players set wulk_PNJ DIALOG 3

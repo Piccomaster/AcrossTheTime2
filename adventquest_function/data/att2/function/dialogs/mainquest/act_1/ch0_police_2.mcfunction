@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":"(-)=(-) Police : ","color":"gray","ext
 
 function att2:voice/police/police2
 
-

@@ -24,9 +24,22 @@
         "function": "att2:advancement/test_all/collection/ultima",
         "experience": 50000
     },
-    "criteria": {
-        "ultima": {
-            "trigger": "minecraft:impossible"
-        }
+  "criteria": {
+    "ultima": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:diamond_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "ultima"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

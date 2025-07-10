@@ -15,4 +15,3 @@ advancement grant @s[scores={statMOBSKILLED=500..}] only att2:mobskilled/mobs_ki
 advancement grant @s[scores={statMOBSKILLED=1000..}] only att2:mobskilled/mobs_killed_1000
 advancement grant @s[scores={statMOBSKILLED=2500..}] only att2:mobskilled/mobs_killed_2500
 advancement grant @s[scores={statMOBSKILLED=5000..}] only att2:mobskilled/mobs_killed_5000
-

@@ -56,4 +56,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"让我们先撕碎这个小世界的防御吧...","color":"yellow","italic":true}]}
 
 function att2:voice/serile/serile49
-

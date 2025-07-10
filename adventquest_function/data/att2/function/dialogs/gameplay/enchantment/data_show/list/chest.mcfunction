@@ -7,7 +7,7 @@
 function att2:sound/dialogs/simple
 #Placeholding
 tellraw @s [{"translate":"enchantment.data.placed"}]
-#back 
+#back
 tellraw @s [{"translate":"enchantment.data.list.back",hover_event:{action:"show_text",value:[{translate:"enchantment.data.list.back.show_text"}]},click_event:{action:"run_command",command:"/function att2:dialogs/gameplay/enchantment/data_show/list"}}]
 #show chest
 tellraw @s [{"translate":"enchantment.data.list.chest"}]
@@ -17,6 +17,5 @@ tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.heart
 tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.dahalburst",hover_event:{action:"show_text",value:[{translate:"enchantment.att2.dahalburst.data.show.show_text"}]},click_event:{action:"run_command",command:"/function att2:dialogs/gameplay/enchantment/data_show/dahalburst"}},{"text":"】",color:dark_green}]
 # selflessaid
 tellraw @s [{"text":"【",color:dark_green},{"translate":"enchantment.att2.selflessaid",hover_event:{action:"show_text",value:[{translate:"enchantment.att2.selflessaid.data.show.show_text"}]},click_event:{action:"run_command",command:"/function att2:dialogs/gameplay/enchantment/data_show/selflessaid"}},{"text":"】",color:dark_green}]
-
 
 

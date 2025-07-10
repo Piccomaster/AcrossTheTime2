@@ -18,4 +18,3 @@ execute in minecraft:overworld positioned -6008 116 -4289 run function att2:game
 execute in minecraft:overworld positioned -6031 125 -4290 run function att2:gameplay/quest/mainquest/show_secondary_objective
 
 #execute in minecraft:overworld if block -7507 123 -4289 minecraft:lever[powered=false] positioned -7506 124 -4289 run function att2:gameplay/quest/mainquest/show_secondary_objective
-

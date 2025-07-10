@@ -56,4 +56,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um armazém mal colocado -°- : "
 tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 放置不当的仓库 -°- : ","color":"gray","extra":[{"text":"一位隐居的村民向我求救，声称一群骷髅霸占了他在山中洞穴里的库房，他希望我可以帮忙清除那些该死的怪物。村民将库房钥匙交给了我，并指明了去库房的道路，沿着房前右手边的道路一直走就能看到山洞。工作完成后不要忘了回去找他。","color":"aqua","italic":true}]}
 
 function att2:dialogs/sidequest/sq22/mobs_killed_total
-

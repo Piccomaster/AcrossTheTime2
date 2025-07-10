@@ -64,4 +64,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"你真可耻，我说的没错。你只是个凡俗，根本无力打败我...","color":"yellow","italic":true}]}
 
 function att2:voice/serile/serile59
-

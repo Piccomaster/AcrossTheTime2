@@ -8,4 +8,3 @@ execute if score @s CHRONOTON < tool_rar PRICES run function att2:dialogs/gamepl
 execute if score @s CHRONOTON >= tool_rar PRICES run function att2:gameplay/shop/effect
 execute if score @s CHRONOTON >= tool_rar PRICES run scoreboard players add @s TOOLS_RAR 1
 execute if score @s CHRONOTON >= tool_rar PRICES run scoreboard players operation @s CHRONOTON -= tool_rar PRICES
-

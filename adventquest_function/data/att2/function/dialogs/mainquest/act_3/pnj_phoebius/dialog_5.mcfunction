@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","e
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"我不会听一个陌生人的命令。","color":"dark_aqua"}]}
 
 function att2:voice/phoebius/phoebius6
-

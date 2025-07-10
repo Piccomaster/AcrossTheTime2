@@ -13,4 +13,3 @@ execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/move
 
 execute if score tic TIMECOUNTER matches 19 run function att2:gameplay/misc/move_light/kill_light_4
 
-

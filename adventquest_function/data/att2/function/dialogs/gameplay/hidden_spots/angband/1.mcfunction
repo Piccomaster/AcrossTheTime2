@@ -5,60 +5,38 @@
 
 execute at @a run function att2:sound/dialogs/simple
 
-
-#FRENCH LANGUAGE
-
+# FRENCH LANGUAGE
 tellraw @s[scores={LANGUAGE=0}] {"text":"Vous avez réussi à aller jusqu'ici avec les Elytras ? Bravo !","color":"gray"}
 
-
-#ENGLISH LANGUAGE
-
+# ENGLISH LANGUAGE
 tellraw @s[scores={LANGUAGE=1}] {"text":"Did you manage to go here with the Elytra? Well done!","color":"gray"}
 
+# TRADITIONAL CHINESE
+tellraw @s[scores={LANGUAGE=2}] {"text":"你用鞘翅來的？真有你的！","color":"gray"}
 
-#CHINESE LANGUAGE
+# JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] {"text":"エリトラで来たのか？さすがだな！","color":"gray"}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"XXX","color":"gray"}
+# KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] {"text":"엘리트라로 왔어? 잘 했어!","color":"gray"}
 
+# ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] {"text":"أتيت بأجنحة إليترا؟ أحسنت!","color":"gray"}
 
-#JAPANESE LANGUAGE
+# RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] {"text":"Ты прилетел на элитрах? Молодец!","color":"gray"}
 
-tellraw @s[scores={LANGUAGE=3}] {"text":"XXX","color":"gray"}
+# SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] {"text":"¿Viniste con élitros? ¡Bien hecho!","color":"gray"}
 
+# GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] {"text":"Du bist mit Elytra gekommen? Gut gemacht!","color":"gray"}
 
-#KOREAN LANGUAGE
+# HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] {"text":"तुम एलिट्रा से आए? बहुत अच्छे!","color":"gray"}
 
-tellraw @s[scores={LANGUAGE=4}] {"text":"XXX","color":"gray"}
+# PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] {"text":"Você veio com élitros? Muito bem!","color":"gray"}
 
-
-#ARABIC LANGUAGE
-
-tellraw @s[scores={LANGUAGE=5}] {"text":"XXX","color":"gray"}
-
-
-#RUSSIAN LANGUAGE
-
-tellraw @s[scores={LANGUAGE=6}] {"text":"XXX","color":"gray"}
-
-
-#SPANISH LANGUAGE
-
-tellraw @s[scores={LANGUAGE=7}] {"text":"XXX","color":"gray"}
-
-
-#GERMAN LANGUAGE
-
-tellraw @s[scores={LANGUAGE=8}] {"text":"XXX","color":"gray"}
-
-
-#HINDI LANGUAGE
-
-tellraw @s[scores={LANGUAGE=9}] {"text":"XXX","color":"gray"}
-
-
-#PORTUGUESE LANGUAGE
-
-tellraw @s[scores={LANGUAGE=10}] {"text":"XXX","color":"gray"}
-
-#Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"XXX","color":"gray"}
+# SIMPLIFIED CHINESE
+tellraw @s[scores={LANGUAGE=11}] {"text":"你用鞘翅来的？真有你的！","color":"gray"}

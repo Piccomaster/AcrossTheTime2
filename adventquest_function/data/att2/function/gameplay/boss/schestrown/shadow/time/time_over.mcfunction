@@ -27,4 +27,3 @@ execute if score newrecord BOSS_TIME matches 1 if score test_t BOSS_TIME matches
 scoreboard players reset shadow_t BOSS_TIME
 scoreboard players reset shadow_s BOSS_TIME
 scoreboard players reset shadow_m BOSS_TIME
-

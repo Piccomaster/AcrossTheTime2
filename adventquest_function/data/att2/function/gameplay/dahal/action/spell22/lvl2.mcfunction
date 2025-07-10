@@ -16,3 +16,5 @@ function att2:gameplay/dahal/action/spell22/cooldown
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
+#TEST COUNT
+function att2:advancement/test_all/spell/launch_count

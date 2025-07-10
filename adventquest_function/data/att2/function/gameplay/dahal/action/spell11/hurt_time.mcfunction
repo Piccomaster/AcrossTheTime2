@@ -13,4 +13,3 @@ execute if entity @s[scores={SPELL11_SLCT=7}] as @e[team=hostile,scores={GAMELEV
 execute if entity @s[scores={SPELL11_SLCT=8}] as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] at @s run data merge entity @s {HurtTime:0s}
 execute if entity @s[scores={SPELL11_SLCT=9}] as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] at @s run data merge entity @s {HurtTime:0s}
 execute if entity @s[scores={SPELL11_SLCT=10}] as @e[team=hostile,scores={GAMELEVEL=0..},distance=..10] at @s run data merge entity @s {HurtTime:0s}
-

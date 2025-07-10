@@ -9,6 +9,10 @@
 
 
 scoreboard players add @a SIDEQUEST 1
+scoreboard players add TOTAL_SQ SIDEQUEST 1
+#TEST
+function att2:advancement/test_all/progress/sidequest
+####
 
 scoreboard players set SQ17 SIDEQUEST 100
 

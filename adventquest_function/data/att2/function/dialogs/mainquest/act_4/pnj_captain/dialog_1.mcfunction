@@ -63,4 +63,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 队长 : ","color":"green","ext
 
 function att2:voice/capitaine/capitaine2
 function att2:dialogs/mainquest/act_4/pnj_captain/player_answer_proposal_1
-

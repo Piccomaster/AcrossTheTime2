@@ -17,4 +17,3 @@ scoreboard players set @s[scores={HORSE=0}] HORSE 1
 tag @e[type=#minecraft:rideable,tag=RIDE,tag=New,distance=..4,sort=nearest,limit=1] remove New
 
 
-

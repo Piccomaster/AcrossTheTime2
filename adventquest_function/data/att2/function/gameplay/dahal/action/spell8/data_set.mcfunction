@@ -33,4 +33,3 @@ execute if score @s SPELL8_CAP matches ..8 run data modify storage att2:spell_8 
 
 execute if score @s SPELL8_CAP matches 10.. run data modify storage att2:spell_8 lvl10 set value {text:".",color:green}
 execute if score @s SPELL8_CAP matches ..9 run data modify storage att2:spell_8 lvl10 set value {text:".",color:red}
-

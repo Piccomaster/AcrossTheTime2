@@ -14,3 +14,9 @@ execute if score @s SPELL20_CAP matches 7.. run xp add @s 100
 execute if score @s SPELL20_CAP matches 8.. run xp add @s 100
 execute if score @s SPELL20_CAP matches 9.. run xp add @s 100
 execute if score @s SPELL20_CAP matches 10.. run xp add @s 100
+execute if score @s SPELL20_CAP matches 11.. run xp add @s 100
+execute if score @s SPELL20_CAP matches 12.. run xp add @s 100
+execute if score @s SPELL20_CAP matches 13.. run xp add @s 100
+execute if score @s SPELL20_CAP matches 14.. run xp add @s 100
+#TEST LVL
+function att2:advancement/test_all/spell/spell_20

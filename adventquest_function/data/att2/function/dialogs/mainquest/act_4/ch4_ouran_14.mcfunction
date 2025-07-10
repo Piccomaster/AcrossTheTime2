@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"上吧，忠仆们！让你们的尖牙包裹撕碎他的肉体！","color":"dark_aqua"}]}
 
 function att2:voice/aoran/aoran33
-

@@ -39,5 +39,5 @@ tellraw @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure,scores={LANGUA
 #PORTUGUESE LANGUAGE
 tellraw @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure,scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Sair da prova... -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score achieved MAZE matches 7 if entity @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure] run function att2:gameplay/maze/exit"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}
 
-#ZZZ LANGUAGE
+#Simplified Chinese LANGUAGE
 tellraw @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure,scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[离开无限迷宫... -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score achieved MAZE matches 7 if entity @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure] run function att2:gameplay/maze/exit"},"hover_event":{"action":"show_text","value":"点击这里离开无限迷宫"}}]}

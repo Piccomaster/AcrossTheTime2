@@ -54,5 +54,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Estelle : ","color":"green","ex
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Estelle : ","color":"green","extra":[{"text":"你好，你是Sylvandre的朋友吗？我第一次在城里看到你。他总是想方设法吸引我的注意—虽然有些吵闹，又经常笨手笨脚，但他真的是一个很热心肠的人。","color":"dark_aqua"}]}
 
-function att2:voice/estelle/estelle_dialogue1
+tellraw @s[scores={LANGUAGE=11}] [{"text":" °-° Estelle : ","color":"green"},{"text":"我可以为你提供一些冒险中常用的工具，比如:“火把”，“椅子”这样的物品..","color":"dark_aqua"},{"text":"\n[查看商品 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/estelle_shop_opening"},"hover_event":{"action":"show_text","value":"点击这里查看 Estelle 售卖的的商品"}}]
 
+function att2:voice/estelle/estelle_dialogue1

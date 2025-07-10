@@ -63,4 +63,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green",
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"你不该来这里，这座岛很危险...赶紧从哪来回哪去吧！","color":"dark_aqua"}]}
 
 function att2:voice/syri/syri_dialogue4
-

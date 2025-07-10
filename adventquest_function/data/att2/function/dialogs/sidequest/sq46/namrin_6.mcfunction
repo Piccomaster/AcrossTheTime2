@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"抱歉，尽管我对你心存感激，并且我的行为也对你有所亏欠，但我还是无法相信你是Relgon的转世。","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_sidequest10
-

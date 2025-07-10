@@ -13,4 +13,3 @@ execute as @s[scores={LEVELMASTER=200..}] run xp add @s 2100
 execute as @s[scores={LEVELMASTER=250..}] run xp add @s 2400
 execute as @s[scores={LEVELMASTER=300..}] run xp add @s 2700
 advancement grant @s only att2:combat/combo_25
-

@@ -64,4 +64,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Pillager : ","color":"green","e
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Pillager : ","color":"green","extra":[{"text":"嘿, 说你呢!Carlin让你来的?...很好，我们在这等候多时了...打劫！","color":"dark_aqua"}]}
 
 function att2:voice/truant/truant1
-

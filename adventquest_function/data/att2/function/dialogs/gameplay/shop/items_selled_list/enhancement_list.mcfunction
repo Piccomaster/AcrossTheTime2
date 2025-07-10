@@ -38,4 +38,4 @@ tellraw @s[scores={LANGUAGE=9}] {text:" <-°-> ","color":"dark_red","extra":[{te
 tellraw @s[scores={LANGUAGE=10}] {text:" <-°-> ","color":"dark_red","extra":[{text:" APRIMORAMENTO ","color":"dark_red","extra":[{text:" <-°-> ","color":"dark_red"}]}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {text:" <-°-> ","color":"dark_red","extra":[{text:" 強化 ","color":"dark_red","extra":[{text:" <-°-> ","color":"dark_red"}]}]}
+tellraw @s[scores={LANGUAGE=11}] {text:" <-°-> ","color":"dark_red","extra":[{text:" 法术强化 ","color":"dark_red","extra":[{text:" <-°-> ","color":"dark_red"}]}]}

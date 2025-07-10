@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"这里就是维度传送间。请注意安全....","color":"dark_aqua"}]}
 
 function att2:voice/ithil/ithil_dialogue2
-

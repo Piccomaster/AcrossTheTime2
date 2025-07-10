@@ -64,4 +64,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","ex
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"重返Angband后，她将把长久以来失去的秩序重新带回这片土地...","color":"dark_aqua"}]}
 
 function att2:voice/etotsira/etotsira58
-

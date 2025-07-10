@@ -69,4 +69,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extr
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"如此，金属之眼的凝视会将之融化，至此小小血肉之躯的碳化遗骸会留存下来，和它一起等待，直到一切的终焉。","color":"dark_aqua"}]}
 
 function att2:voice/golem/golem5
-

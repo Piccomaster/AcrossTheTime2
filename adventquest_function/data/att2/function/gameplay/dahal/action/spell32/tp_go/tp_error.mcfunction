@@ -14,4 +14,3 @@ scoreboard players set @s SPELL32_PROCESS_EFFCT 0
 
 
 
-

@@ -39,7 +39,7 @@ tellraw @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure,scores={LANGUAG
 #PORTUGUESE LANGUAGE
 tellraw @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure,scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Começar a prova... -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score active MAZE matches 0 as @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure] run function att2:dialogs/gameplay/maze/price3"},"hover_event":{"action":"show_text","value":"Clique aqui"}}]}
 
-#ZZZ LANGUAGE
+#Simplified Chinese LANGUAGE
 tellraw @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure,scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[开始第三关试炼... -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if score active MAZE matches 0 as @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure] run function att2:dialogs/gameplay/maze/price3"},"hover_event":{"action":"show_text","value":"点击此处开始第三关试炼"}}]}
 
 execute as @a[x=-9963,y=71,z=-10187,distance=..8] run function att2:dialogs/gameplay/maze/system_3

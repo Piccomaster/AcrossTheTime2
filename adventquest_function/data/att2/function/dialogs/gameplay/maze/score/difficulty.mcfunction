@@ -36,3 +36,5 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"- ","color":"dark_red","extra":[{"text"
 #PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Dificuldade:","color":"dark_green"},{"text":" x","color":"gray"},{"score":{"name":"difficulty_score","objective":"MAZE"},"color":"gold"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"- ","color":"dark_red","extra":[{"text":"迷宫难度：","color":"dark_green"},{"text":" x","color":"gray"},{"score":{"name":"difficulty_score","objective":"MAZE"},"color":"gold"}]}

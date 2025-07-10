@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° 警卫 : ","color":"green","ext
 
 function att2:voice/guard/guard13
 function att2:dialogs/mainquest/act_4/pnj_guards/player_answer_proposal_1
-

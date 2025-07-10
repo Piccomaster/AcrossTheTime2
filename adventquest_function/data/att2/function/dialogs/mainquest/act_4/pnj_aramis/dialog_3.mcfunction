@@ -55,4 +55,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","ext
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"快去西城门吧，宝石的事稍后再谈。","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis_dialogue2
-

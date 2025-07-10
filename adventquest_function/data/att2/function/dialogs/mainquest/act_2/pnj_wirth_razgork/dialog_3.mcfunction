@@ -67,4 +67,3 @@ scoreboard players set wirth_razgork_PNJ DIALOG 4
 
 function att2:voice/wirth/wirth3
 
-

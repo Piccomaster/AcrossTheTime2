@@ -9,7 +9,7 @@
     },
     "parent": "att2:quest/root",
     "rewards": {
-        "function": "att2:advancement/exploit_completion_2"
+        "function": "att2:advancement/exploit_2"
     },
     "criteria": {
         "sq12": {

@@ -16,4 +16,3 @@ execute as 00000000-0000-022b-0000-00000000022b at @s run particle minecraft:enc
 execute at 00000000-0000-022b-0000-00000000022b run playsound teleportation neutral @a ~ ~ ~ 2 0.8 1
 #return 1->make command block runing
 return 1
-

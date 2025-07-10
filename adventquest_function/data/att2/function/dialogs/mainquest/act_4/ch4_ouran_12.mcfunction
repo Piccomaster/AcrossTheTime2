@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ouran : ","color":"gold","extra
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"啊！你们还在等什么？立刻解决掉这个凡人！ ","color":"dark_aqua"}]}
 
 function att2:voice/aoran/aoran31
-

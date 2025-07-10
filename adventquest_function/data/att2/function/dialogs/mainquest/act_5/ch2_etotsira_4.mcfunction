@@ -65,4 +65,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","ex
 
 function att2:voice/etotsira/etotsira60
 
-

@@ -4,7 +4,7 @@
 #####################################################################
 
 #fill light
-execute if block ~ ~1 ~ light[level=7] run setblock ~ ~1 ~ air
+function att2:gameplay/misc/fishing/symbol_clear
 #pos selected 1
 execute if score 1RNG100 RNG matches 1..20 run tp @s -5285 70 -5476
 execute if score 1RNG100 RNG matches 21..40 run tp @s -5282 70 -5475
@@ -13,5 +13,8 @@ execute if score 1RNG100 RNG matches 61..80 run tp @s -5289 70 -5479
 execute if score 1RNG100 RNG matches 81..100 run tp @s -5281 70 -5473
 #tag remove
 tag @s remove SPOT_SELECT
+#detection discover
+execute unless score river_pos_41 FISH_DICOVER_COUNT matches 1.. run scoreboard players add TOTAL FISH_DICOVER_COUNT 1
+execute unless score river_pos_41 FISH_DICOVER_COUNT matches 1.. run scoreboard players set river_pos_41 FISH_DICOVER_COUNT 1
 #random pos (+-3M)
 function att2:gameplay/misc/fishing/random_pos

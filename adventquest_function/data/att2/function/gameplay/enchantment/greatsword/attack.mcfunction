@@ -8,7 +8,7 @@ tag @s add TEMP
 #add counter_attack damage
 execute store result score temp_value_1 CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."att2_enchantment:greatsword"
 execute store result score temp_value_2 CAL run attribute @s attack_damage get
-#CAL 
+#CAL
 scoreboard players operation temp_value_1 CAL *= 20 CAL
 scoreboard players operation temp_value_1 CAL *= temp_value_2 CAL
 scoreboard players operation temp_value_1 CAL /= 100 CAL

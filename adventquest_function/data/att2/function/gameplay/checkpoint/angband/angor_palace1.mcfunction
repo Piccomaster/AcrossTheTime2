@@ -16,4 +16,3 @@ execute if score Angor_palace0 CHECKPOINT matches 0 run scoreboard players add A
 execute if score Angor_palace CHECKPOINT matches 18 run advancement grant @a only att2:journey/checkpoint_angor_palace
 
 scoreboard players set Angor_palace0 CHECKPOINT 1
-

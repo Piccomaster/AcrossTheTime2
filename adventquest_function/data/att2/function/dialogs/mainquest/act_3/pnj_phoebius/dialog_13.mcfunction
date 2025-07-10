@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","e
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"如果它能让你不在村中惹事就离开，我会答应给你。但是你将不得不面对Relgon，因为这个印章是他的所有物...我不会祝你好运的，因为到头来你会一无所获。","color":"dark_aqua"}]}
 function att2:voice/phoebius/phoebius14
 
-

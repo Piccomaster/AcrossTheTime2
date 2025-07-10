@@ -8,4 +8,3 @@ execute as @e[type=item,distance=..2,predicate=att2_pre:test_item/big_coin,predi
 execute as @e[type=item,distance=..2,predicate=att2_pre:test_item/diamond,predicate=att2_pre:test_item/pick_up] run function att2:gameplay/chronoton/ground/pick_diamond
 execute as @e[type=item,distance=..2,predicate=att2_pre:test_item/amethyst,predicate=att2_pre:test_item/pick_up] run function att2:gameplay/chronoton/ground/pick_amethyst
 execute as @e[type=item,distance=..2,predicate=att2_pre:test_item/ruby,predicate=att2_pre:test_item/pick_up] run function att2:gameplay/chronoton/ground/pick_ruby
-

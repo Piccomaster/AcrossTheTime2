@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Soldado Eternän : ","color":"g
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"很高兴见到您，Namrin, 但你身边还有别人，我们不能允许一个普通人在没有将军的许可的情况下进入营地","color":"dark_aqua"}]}
 
 function att2:voice/guard/guard4
-

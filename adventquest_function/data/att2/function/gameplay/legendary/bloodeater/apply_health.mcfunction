@@ -5,4 +5,3 @@
 
 #run health
 function att2:gameplay/legendary/bloodeater/health with storage att2:bloodeater
-

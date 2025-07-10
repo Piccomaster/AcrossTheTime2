@@ -51,7 +51,7 @@ execute in the_end positioned -1238.1 27.5 -615.1 if entity @a[distance=..30] un
 #SQ23 armorstand->marker->pig->silverfish_spawn_egg
 execute in overworld positioned -4658 58 -4841 if entity @a[distance=..30] if entity @e[distance=..30,type=armor_stand,nbt={equipment:{mainhand:{id:"minecraft:pig_spawn_egg"}}}] as @e[type=armor_stand,nbt={equipment:{mainhand:{id:"minecraft:pig_spawn_egg"}}}] run data merge entity @s {equipment:{mainhand:{id:"minecraft:silverfish_spawn_egg"},offhand:{id:"minecraft:silverfish_spawn_egg"}},Marker:true}
 
-##OURAN 
+##OURAN
 #first NELEPTRON
 execute in overworld as @e[type=minecraft:armor_stand,x=7062,y=162,z=6772,distance=..3] at @s run data merge entity @s {Tags:["NELEPTRON_1"],Marker:true}
 #second NELEPTRON

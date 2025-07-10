@@ -47,4 +47,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"所以，你能干掉这些操蛋的蜘蛛吗？","color":"dark_aqua"}]}
 
 function att2:voice/gonon/gonon_dialogue1
-

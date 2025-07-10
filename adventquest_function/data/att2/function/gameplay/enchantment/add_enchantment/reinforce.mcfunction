@@ -29,7 +29,7 @@ function att2:dialogs/gameplay/enchantment/materials_reduce
 function att2:advancement/test_all/enchantments/reinforce
 #add enchantment
 data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:reinforce"
-$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:reinforce $(reinforce) 
+$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:reinforce $(reinforce)
 #reset
 scoreboard players reset reinforce_cal ENCHANTMENT
 scoreboard players reset durability_max ENCHANTMENT

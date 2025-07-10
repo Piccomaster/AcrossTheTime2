@@ -35,3 +35,9 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"- ","color":"dark_red","extra":[{"text"
 
 #PORTUGUESE LANGUAGE
 tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Chefes derrotados: ","color":"dark_green"},{"text":"×","color":"gray"},{"score":{"name":"2","objective":"MAZE"},"color":"gold"}]}
+
+#PORTUGUESE LANGUAGE
+tellraw @a[scores={LANGUAGE=10}] {"text":"- ","color":"dark_red","extra":[{"text":"Chefes derrotados: ","color":"dark_green"},{"text":"×","color":"gray"},{"score":{"name":"2","objective":"MAZE"},"color":"gold"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":"- ","color":"dark_red","extra":[{"text":"击杀BOSS数量: ","color":"dark_green"},{"text":"×","color":"gray"},{"score":{"name":"2","objective":"MAZE"},"color":"gold"}]}

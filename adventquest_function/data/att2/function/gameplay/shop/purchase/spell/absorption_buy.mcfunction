@@ -8,4 +8,3 @@ execute if entity @s[scores={CHRONOTON=1000..}] run function att2:gameplay/shop/
 execute if entity @s[scores={CHRONOTON=1000..}] run function att2:gameplay/dahal/action/spell43/obtain
 
 scoreboard players remove @s[scores={CHRONOTON=1000..}] CHRONOTON 1000
-

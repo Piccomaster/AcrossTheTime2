@@ -4,4 +4,3 @@
 #################################################################
 
 execute if score @s BACKSTAB matches 60.. run function att2:gameplay/enchantment/backstab/distance_check
-

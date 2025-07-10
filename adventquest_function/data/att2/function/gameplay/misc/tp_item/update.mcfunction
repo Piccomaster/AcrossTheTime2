@@ -37,4 +37,3 @@ execute if score Mainquest SIDEQUEST matches 219..279 run scoreboard players set
 execute if score Mainquest SIDEQUEST matches 280.. unless score @s TP_ITEM_USE matches 8.. run scoreboard players add @s TP_ITEM_USE 1
 execute if score Mainquest SIDEQUEST matches 280.. if score @s TP_ITEM_USE matches 8.. run scoreboard players set @s TP_ITEM_USE 8
 execute if score Mainquest SIDEQUEST matches 280.. run scoreboard players set @s TP_ITEM_USE_MAX 8
-

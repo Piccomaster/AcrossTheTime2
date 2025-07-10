@@ -57,4 +57,3 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"真没想到，这黏黏的石头将会从岁月中苏醒过来。在Ulgok'keström中，时间之珍宝正在等待，而血肉之躯将通过新生的桥梁去往那里， 然后穿过宏伟的翡翠之门继续前行。","color":"dark_aqua"}]}
 
 function att2:voice/golem/golem8
-

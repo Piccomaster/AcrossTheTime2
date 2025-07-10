@@ -15,4 +15,4 @@ function att2:dialogs/gameplay/enchantment/materials_reduce
 function att2:advancement/test_all/enchantments/abyssdiver
 #add enchantment
 data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:abyssdiver"
-$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:abyssdiver $(abyssdiver) 
+$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:abyssdiver $(abyssdiver)

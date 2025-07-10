@@ -18,4 +18,3 @@ execute in minecraft:the_end unless block -1256 89 -496 minecraft:purpur_block i
 execute in minecraft:the_end unless block -1256 89 -496 minecraft:purpur_block if block -1263 79 -480 minecraft:stone_button positioned -1263 83 -490 run function att2:gameplay/quest/mainquest/show_secondary_objective
 
 execute in minecraft:the_end unless block -1269 79 -503 minecraft:green_stained_glass positioned -1271 78 -503 run function att2:gameplay/quest/mainquest/show_secondary_objective
-

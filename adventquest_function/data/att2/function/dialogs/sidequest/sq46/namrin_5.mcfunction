@@ -57,4 +57,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purpl
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"或许吧，但是我不想显得很无礼，你要知道Relgon完成过的壮举远远超出任何人的想象。","color":"dark_aqua"}]}
 
 function att2:voice/namrin/namrin_sidequest6
-

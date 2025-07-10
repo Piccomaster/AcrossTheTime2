@@ -12,4 +12,3 @@ scoreboard players operation @s RES_EQ += 2 CAL
 scoreboard players operation @s HAS_EQ += 1 CAL
 #get HER number
 scoreboard players operation @s HER_EQ += 1 CAL
-

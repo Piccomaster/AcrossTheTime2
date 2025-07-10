@@ -89,4 +89,3 @@ function att2:voice/syri/syri2
 
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_1_0
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_1_1
-

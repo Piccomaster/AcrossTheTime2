@@ -18,29 +18,20 @@
         "function": "att2:advancement/test_all/collection/all_books"
     },
     "criteria": {
-        "cons": {
+        "consciousness": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": "minecraft:written_book",
-                        "components": {
-                            "minecraft:custom_data": 
-                                {
-                                    "Conscience":"book"
-                                }
-                            
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Conscience": "book"
+                            }
                         }
                     }
                 ]
             }
         }
-    },
-    "requirements": [
-        [
-            "fe",
-            "eg",
-            "ch"
-        ]
-    ]
+    }
 }

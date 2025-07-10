@@ -19,6 +19,12 @@
                 "loot_table": "att2:chest/reg1/c4t7"
             }
         },
+        "lootchest_reg1c4t7_asunarkstone_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t7_asunarkstone"
+            }
+        },
         "lootchest_reg2c4t7_trigger": {
             "trigger": "minecraft:player_generates_container_loot",
             "conditions": {
@@ -41,6 +47,7 @@
     "requirements": [
         [
             "lootchest_reg1c4t7_trigger",
+            "lootchest_reg1c4t7_asunarkstone_trigger",
             "lootchest_reg2c4t7_trigger",
             "lootchest_reg3c4t7_trigger",
             "lootchest_reg4c4t7_trigger"

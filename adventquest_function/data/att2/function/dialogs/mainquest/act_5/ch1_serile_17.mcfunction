@@ -64,4 +64,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sérile : ","color":"gray","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Relgon，你这个剥夺我力量、夺走我与生俱来地位的人，我要杀了你。继我父亲被遗弃和去世后，我的血脉将夺回Angband的统治权，就像Irilion所希望的那样！ ","color":"yellow","italic":true}]}
 
 function att2:voice/serile/serile60
-

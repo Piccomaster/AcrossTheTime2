@@ -1,20 +1,24 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:enchanting_table"
-        },
-        "title": {"translate":"att2.advancement.adventure.title.enchanting_armor"},
-        "description": {"translate":"att2.advancement.adventure.description.enchanting_armor"}
-    },
-    "parent": "att2:adventure/root",
-    "rewards": {
-        "function": "att2:advancement/exploit_1",
-        "experience": 50
-                },
-    "criteria": {
-        "protection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanting_table"
+		},
+		"title": {
+			"translate": "att2.advancement.adventure.title.enchanting_armor"
+		},
+		"description": {
+			"translate": "att2.advancement.adventure.description.enchanting_armor"
+		}
+	},
+	"parent": "att2:adventure/root",
+	"rewards": {
+		"function": "att2:advancement/exploit_1",
+		"experience": 50
+	},
+	"criteria": {
+		"protection": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
 					{
 						"enchantments": [
@@ -25,56 +29,62 @@
 					}
 				]
 			}
-		},	
-        "fire_protection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+		},
+		"fire_protection": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection"
-							}
-						]
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "minecraft:fire_protection"
+								}
+							]
+						}
 					}
 				]
 			}
 		},
-        "blast_protection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+		"blast_protection": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:blast_protection"
-							}
-						]
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "minecraft:blast_protection"
+								}
+							]
+						}
 					}
 				]
 			}
 		},
-        "projectile_protection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+		"projectile_protection": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:projectile_protection"
-							}
-						]
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "minecraft:projectile_protection"
+								}
+							]
+						}
 					}
 				]
 			}
 		}
-    },
-  "requirements": [
-    [
-      "protection",
-      "fire_protection",
-      "blast_protection",
-      "projectile_protection"
-    ]
-  ]
+	},
+	"requirements": [
+		[
+			"protection",
+			"fire_protection",
+			"blast_protection",
+			"projectile_protection"
+		]
+	]
 }

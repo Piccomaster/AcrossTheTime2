@@ -89,4 +89,3 @@ tellraw @a[scores={LANGUAGE=11}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","colo
 
 function att2:voice/golem/golem2
 function att2:dialogs/mainquest/act_4/pnj_golem/player_answer_proposal_3
-

@@ -58,4 +58,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","e
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"喔，我想起来了！真是不好意思，拿好它，希望你能物尽其用...","color":"dark_aqua"}]}
 
 function att2:voice/phoebius/phoebius16
-

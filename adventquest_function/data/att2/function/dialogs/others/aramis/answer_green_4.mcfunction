@@ -86,4 +86,4 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","ext
 
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"真是个好消息。这是靠近河边的屋子的钥匙—那里已经很久没人住了, 现在这个房子是你的了。去吧,祝你好运。","color":"dark_aqua"}]}
-tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis ：","color":"green","extra":[{"text":"請知道，這棟房子讓你能夠使用一台粉碎機，將你的符文磨成粉末。如果你願意，我可以利用這些粉末來強化你的一些 Dahäl 咒語。","color":"dark_aqua","extra":[{"text":" [查看商品 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hover_event":{"action":"show_text","value":"點擊這裡查看 Aramis 販售的物品。"}}]}]}
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis ：","color":"green","extra":[{"text":"还有，那栋房子有个符文粉碎机可以供你使用，你可以用符文粉末在我这里强化一些Dahal法术","color":"dark_aqua","extra":[{"text":" [查看商品 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hover_event":{"action":"show_text","value":"点击这里查看 Aramis 的法术强化列表"}}]}]}

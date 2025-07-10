@@ -60,4 +60,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","ext
 tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"去魔法学院的厨房找Marlene，她会告诉你更多关于我们期待已久的货物的相关信息。","color":"dark_aqua"}]}
 
 function att2:voice/aramis/aramis7
-

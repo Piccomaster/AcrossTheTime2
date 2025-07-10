@@ -64,4 +64,3 @@ tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green",
 
 
 function att2:voice/syri/syri_dialogue1
-

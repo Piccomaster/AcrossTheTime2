@@ -24,9 +24,22 @@
         "function": "att2:advancement/test_all/collection/fortuity",
         "experience": 50
     },
-    "criteria": {
-        "fortuity": {
-            "trigger": "minecraft:impossible"
-        }
+  "criteria": {
+    "fenrir": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "fortuity"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

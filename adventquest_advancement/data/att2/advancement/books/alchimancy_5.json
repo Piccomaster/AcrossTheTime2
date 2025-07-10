@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book"
+        },
+        "title": {
+            "translate": "att2.advancement.books.title.alchimancy_p5"
+        },
+        "description": {
+            "translate": "att2.advancement.books.description.alchimancy_p5"
+        },
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/alchimancy_4",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/all_books"
+    },
+    "criteria": {
+        "alchimancy_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "alchimancy_5": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

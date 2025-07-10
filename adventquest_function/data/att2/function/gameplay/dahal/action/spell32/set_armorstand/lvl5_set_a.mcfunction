@@ -11,4 +11,3 @@ scoreboard players add @s SPELL32_LVL 3
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL32_LVL += @s BONUS_XP_SPELL
 scoreboard players add @s SPELLS_COUNT 1
-

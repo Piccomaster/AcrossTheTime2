@@ -15,4 +15,3 @@ execute if entity @s[scores={HORSE=0,tp_spell32_timer=..0}] if entity @e[type=#m
 execute if score @s HORSE matches 0 if score @s tp_spell32_timer matches ..0 run function att2:gameplay/misc/horse/no_horse
 
 scoreboard players set @s[scores={HORSE=100}] HORSE 0
-

@@ -60,4 +60,3 @@ tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Phoebius : ","color":"green","e
 function att2:voice/phoebius/phoebius11
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_15
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_16
-

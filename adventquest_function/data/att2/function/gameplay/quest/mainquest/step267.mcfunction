@@ -13,4 +13,3 @@ execute in minecraft:overworld if block -7441 162 -5894 minecraft:emerald_block 
 execute in minecraft:overworld if block -7457 162 -5903 minecraft:emerald_block positioned -7457 163 -5903 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if block -7446 162 -5905 minecraft:emerald_block positioned -7446 163 -5905 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if block -7446 162 -5905 minecraft:emerald_block positioned -7451 160 -5900 run function att2:gameplay/quest/mainquest/show_secondary_objective
-
