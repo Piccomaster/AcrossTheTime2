@@ -20,3 +20,4 @@ gamerule universalAnger true
 gamerule disableRaids true
 gamerule forgiveDeadPlayers false
 gamerule spectatorsGenerateChunks true
+gamerule spawnChunkRadius 14
