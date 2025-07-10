@@ -39,6 +39,8 @@
 - ** Mythical Effects**  
   - All Mythical equipment **buffed**.  
 
+- **Chests names display**
+  - Chests containing quest items or books will now display unique names.
 ### Balance:
 - **Attribute System Update**  
   - Most attributes now **directly modify base stats** (no "status effects").  
