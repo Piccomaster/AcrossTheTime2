@@ -3,8 +3,7 @@
 #Initialize War Lord				            	#
 #####################################################
 
-scoreboard objectives add HOLDING_WL dummy
+scoreboard objectives add WL_TIMER dummy
+scoreboard objectives add WL_MOTION dummy
+scoreboard objectives add WL_DAMAGE dummy
 scoreboard objectives add SHOOTING_WL minecraft.used:minecraft.bow
-scoreboard objectives add INGROUND dummy
-scoreboard players set @a HOLDING_WL 0
-scoreboard objectives add LIGHT dummy

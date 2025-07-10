@@ -16,12 +16,9 @@ execute if score @s[scores={SHADOW_TOTAL=0..}] SHADOW_BUFF matches ..1 run funct
 ##remove SHADOW_BUFF
 scoreboard players remove @s[scores={SHADOW_BUFF=1..}] SHADOW_BUFF 1
 #effect attribute
-#get STR/SPD number
-execute store result storage att2:attribute SPD int 1 run scoreboard players get 4 CAL
-execute store result storage att2:attribute HAS int 1 run scoreboard players get 8 CAL
 #return STR/SPD number
-function att2:gameplay/stat/add/eq/spd with storage att2:attribute
-function att2:gameplay/stat/add/eq/has with storage att2:attribute
+scoreboard players operation @s STR_EH += 4 CAL
+scoreboard players operation @s SPD_EH += 8 CAL
 #set time
-scoreboard players set @s TIMER_SPD_EQ 1
-scoreboard players set @s TIMER_HAS_EQ 1
+scoreboard players set @s TIMER_SPD_EH 1
+scoreboard players set @s TIMER_HAS_EH 1

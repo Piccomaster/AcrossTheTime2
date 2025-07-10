@@ -3,6 +3,7 @@
 #Initialize Fenrir			            	        #
 #####################################################
 
-scoreboard objectives add HOLDING_FR dummy
-scoreboard objectives add ICED dummy
-scoreboard players set @s HOLDING_FR 0
+scoreboard objectives add FENRIR_USING dummy
+scoreboard objectives add FENRIR_DAMAGE dummy
+scoreboard objectives add FENRIR_BURST dummy
+scoreboard objectives add FENRIR_TIMER dummy

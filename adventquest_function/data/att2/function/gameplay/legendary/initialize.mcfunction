@@ -5,6 +5,8 @@
 #####################################################
 
 scoreboard objectives add DAMAGE minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add GAMEMODE dummy
+
 scoreboard players set 1 DAMAGE 1
 scoreboard players set 2 DAMAGE 2
 scoreboard players set 3 DAMAGE 3
