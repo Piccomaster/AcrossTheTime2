@@ -52,3 +52,7 @@ tellraw @a[scores={LANGUAGE=9},x=-3857,y=87,z=-6038,distance=..7] {nbt:"set",sto
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10},x=-3857,y=87,z=-6038,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[Claro, ninguém escapará, será um massacre... -->]","color":"gray","click_event":{"action":"run_command","command":"/execute positioned -3855 87 -6042 if entity @a[distance=..7] if score area_trigg SQ5 matches 3 run function att2:cinematic/sidequest/5/alphonse_rae/answer_3_2"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 3"}}]}
+
+#Simplified Chinese LANGUAGE
+
+tellraw @s[scores={LANGUAGE=11},x=-3857,y=87,z=-6038,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[当然，谁也逃不掉，这将是一场大屠杀... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute positioned -3855 87 -6042 if entity @a[distance=..7] if score area_trigg SQ5 matches 3 run function att2:cinematic/sidequest/5/alphonse_rae/answer_3_2"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 1"}}]}

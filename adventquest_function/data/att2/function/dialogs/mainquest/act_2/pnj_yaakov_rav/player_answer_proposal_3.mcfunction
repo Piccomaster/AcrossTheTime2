@@ -50,3 +50,7 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,"e
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute at 00000000-0000-016a-0000-00000000016a if entity @s[distance=..7] if score yaakov_rav_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/answer_green_3"},"hover_event":{"action":"show_text","value":"Clique aqui"}}]}
+
+#Simplified CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute at 00000000-0000-016a-0000-00000000016a if entity @s[distance=..7] if score yaakov_rav_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/answer_green_3"},"hover_event":{"action":"show_text","value":"点击这里继续对话"}}]}

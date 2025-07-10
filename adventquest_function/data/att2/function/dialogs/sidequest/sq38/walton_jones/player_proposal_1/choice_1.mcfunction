@@ -52,3 +52,7 @@ tellraw @a[scores={LANGUAGE=9},x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26] {nbt:"s
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10},x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[Vou tentar algo com meu Dahäl. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-134a-0000-00000000134a if entity @s[distance=..10] if score walton_jones_PNJ DIALOG matches 5 run function att2:cinematic/sidequest/38/walton_jones/answer_1_1"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}
+
+#Simplified Chinese LANGUAGE
+
+tellraw @a[scores={LANGUAGE=11},x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[我要试试使用我的Dahäl魔法。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-134a-0000-00000000134a if entity @s[distance=..10] if score walton_jones_PNJ DIALOG matches 5 run function att2:cinematic/sidequest/38/walton_jones/answer_1_1"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 1"}}]}

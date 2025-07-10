@@ -51,6 +51,9 @@ tellraw @s[scores={LANGUAGE=9},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-�
 
 tellraw @s[scores={LANGUAGE=10},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Criadores de problemas : ","color":"green","extra":[{"text":"O que você quer, pirralho!?","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+
+tellraw @s[scores={LANGUAGE=11},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"小鬼，你想要干什么！？","color":"dark_aqua"}]}
 
 function att2:dialogs/sidequest/sq11/troublemakers/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq11/troublemakers/player_proposal_1/choice_2

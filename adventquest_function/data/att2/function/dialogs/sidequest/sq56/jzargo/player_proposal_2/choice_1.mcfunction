@@ -59,3 +59,7 @@ tellraw @a[scores={LANGUAGE=9},x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] {nbt:"s
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10},x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[Desculpas aceitas. -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if entity @s[x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] if score proposal_2 SQ56 matches 0 run function att2:cinematic/sidequest/56/jzargo/answer_1_2"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}
+
+#Simplified Chinese LANGUAGE
+
+tellraw @a[scores={LANGUAGE=11},x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[接受道歉-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] if score proposal_2 SQ56 matches 0 run function att2:cinematic/sidequest/56/jzargo/answer_1_2"},"hoverEvent":{"action":"show_text","value":"点击这里-回答1"}}]}

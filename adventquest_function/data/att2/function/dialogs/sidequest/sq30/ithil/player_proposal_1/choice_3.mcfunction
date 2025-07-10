@@ -50,3 +50,7 @@ tellraw @a[scores={LANGUAGE=9},x=-4946,y=145,z=-4915,distance=..10] {nbt:"set",s
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10},x=-4946,y=145,z=-4915,distance=..10] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[Suas histórias não me interessam! Ou eu te denuncio, ou você irá imediatamente reportar esses planos no lugar deles... Mas seja esperto, um segredo bem guardado deve ter um preço, especialmente quando se trata de omitir a verdade de um rei! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute if entity @s[x=-4946,y=145,z=-4915,distance=..10] run execute if score SQ30 SIDEQUEST matches 8 run function att2:cinematic/sidequest/30/ithil/answer_3_1"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 3"}}]}
+
+#Simplified Chinese LANGUAGE
+
+tellraw @a[scores={LANGUAGE=11},x=-4946,y=145,z=-4915,distance=..10] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[我对你的故事不感兴趣！要么我帮你隐瞒实情，要么你把你的行动计划告诉他们...但是你得机灵点，保守一个秘密可得付出点代价，尤其是要在国王那里隐瞒真相！ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-4946,y=145,z=-4915,distance=..10] run execute if score SQ30 SIDEQUEST matches 8 run function att2:cinematic/sidequest/30/ithil/answer_3_1"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 3"}}]}

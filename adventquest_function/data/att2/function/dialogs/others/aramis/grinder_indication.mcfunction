@@ -37,5 +37,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Você pode esmagar suas runas excedentes na ala leste do subsolo da academia para obter pó rúnico. Quando Vonaheim for derrotado, volte para mim e eu ajudarei você a aproveitá-lo...","color":"dark_aqua"}]}
 
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"你可以在学院东侧的地下室中研磨多余的符文材料来获取符文粉末，当你击败Vonaheim后，回来找我，我会告诉你符文粉末的其他用途","color":"dark_aqua"}]}
 
 execute in minecraft:overworld positioned -5272 98 -6188 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/runemaster/eolorion

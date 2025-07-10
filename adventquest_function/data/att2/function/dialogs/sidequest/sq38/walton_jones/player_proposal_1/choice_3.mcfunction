@@ -52,3 +52,7 @@ tellraw @a[scores={LANGUAGE=9},x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26] {nbt:"s
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10},x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[Walton, chegou a hora de você entrar na lenda dos grandes arqueólogos! Então, pegue este artefato! -->]","color":"gray","click_event":{"action":"run_command","command":"/execute at 00000000-0000-134a-0000-00000000134a if entity @s[distance=..10] if score walton_jones_PNJ DIALOG matches 5 run function att2:cinematic/sidequest/38/walton_jones/answer_3_1"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 3"}}]}
+
+#Simplified Chinese LANGUAGE
+
+tellraw @a[scores={LANGUAGE=11},x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Walton，现在是你踏入伟大考古学家的传奇时刻！不要浪费这个机会，去拿文物吧！-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-134a-0000-00000000134a if entity @s[distance=..10] if score walton_jones_PNJ DIALOG matches 5 run function att2:cinematic/sidequest/38/walton_jones/answer_3_1"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 3"}}]}
