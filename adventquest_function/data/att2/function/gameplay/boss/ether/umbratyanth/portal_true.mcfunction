@@ -3,7 +3,7 @@
 #Process portal_true  		 		 	 	 	 #
 ##################################################
 
-data merge block -5112 159 -6740 {Items:[{id:"minecraft:quartz",Count:0b}]}
+data merge block -5112 159 -6740 {Items:[{id:"minecraft:quartz",count:0b}]}
 scoreboard players set Boss UMBRATYANTH -1
 setblock -5112 160 -6740 minecraft:redstone_block
 scoreboard players set ESC UMBRATYANTH 0

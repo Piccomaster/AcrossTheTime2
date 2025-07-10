@@ -3,7 +3,7 @@
 #Process portal_true  		 		 	 	 	 #
 ##################################################
 
-data merge block -5229 140 -6294 {Items:[{id:"minecraft:quartz",Count:0b}]}
+data merge block -5229 140 -6294 {Items:[{id:"minecraft:quartz",count:0b}]}
 scoreboard players set Doom SQ56 -1
 setblock -5229 141 -6294 minecraft:redstone_block
 scoreboard players set ESC SQ56 0
