@@ -3,6 +3,8 @@
 #fish area set                                       				#
 #####################################################################
 
+#fill light
+function att2:gameplay/misc/fishing/symbol_clear
 #add light block
 function att2:gameplay/misc/fishing/symbol_summon
 #set area score
