@@ -82,7 +82,7 @@ execute if score Real0 TIMER matches 6001 run scoreboard players set Mainquest S
 #end of the cinematic	#
 #=======================#
 
-execute if score Real0 TIMER matches 6000.. run function att2:voice/lock_voice
+execute if score Real0 TIMER matches 6000.. run function att2:voice/unlock_voice
 
 execute if score Real0 TIMER matches 6001.. run setblock 30000 58 29966 minecraft:air
 execute if score Real0 TIMER matches 12..6000 run function att2:cinematic/real0_iteration

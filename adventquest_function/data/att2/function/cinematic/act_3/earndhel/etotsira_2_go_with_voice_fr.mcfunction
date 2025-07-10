@@ -2,6 +2,7 @@
 #Made by Adventquest                             #
 #Process cinematic earndhel_2_go  		 		 #
 ##################################################
+
 execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 
 execute if score Real0 TIMER matches 0 run tag @a remove skipDeathMalus
