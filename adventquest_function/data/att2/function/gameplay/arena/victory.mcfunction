@@ -18,3 +18,5 @@ execute positioned 5000 75 -5000 run function att2:gameplay/arena/pool4/rewards
 function att2:physicmod/reg1/arena/lobby_rewards_on
 function att2:physicmod/reg1/arena/enter_barrier_off
 function att2:gameplay/arena/initialize
+##TEST ARENA
+function att2:advancement/test_all/challenge/arena
