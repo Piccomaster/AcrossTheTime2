@@ -11,3 +11,5 @@ function att2:gameplay/nightmarerun/save_score
 function att2:dialogs/gameplay/nightmarerun/end_title
 function att2:gameplay/nightmarerun/trigger_score/all
 execute positioned 29879 105 30002 run function att2:gameplay/nightmarerun/victory
+##test nightmare run
+function att2:advancement/test_all/challenge/run
