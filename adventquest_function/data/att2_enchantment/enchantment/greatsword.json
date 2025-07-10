@@ -16,5 +16,6 @@
     "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/sword",
+  "exclusive_set": "att2_enchantment:sscombo",
   "weight": 5
 }

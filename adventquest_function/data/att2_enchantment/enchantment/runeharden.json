@@ -7,18 +7,15 @@
     "minecraft:item_damage": [
       {
         "effect": {
-          "type": "minecraft:remove_binomial",
-          "chance": {
-            "type": "minecraft:fraction",
-            "denominator": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:clamped",
+            "min": -3,
+            "max": 3,
+            "value": {
               "type": "minecraft:linear",
-              "base": 100.0,
-              "per_level_above_first": 100.0
-            },
-            "numerator": {
-              "type": "minecraft:linear",
-              "base": 10.0,
-              "per_level_above_first": 60.0
+              "base": -1,
+              "per_level_above_first": -1
             }
           }
         },
@@ -35,7 +32,7 @@
     "base": 7,
     "per_level_above_first": 7
   },
-  "max_level": 5,
+  "max_level": 3,
   "min_cost": {
     "base": 7,
     "per_level_above_first": 7

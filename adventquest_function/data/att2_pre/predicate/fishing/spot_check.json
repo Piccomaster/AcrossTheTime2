@@ -94,9 +94,9 @@
         },
         {
             "condition": "minecraft:location_check",
-            "offsetX": 1,
+            "offsetX": -1,
             "offsetY": 0,
-            "offsetZ": -1,
+            "offsetZ": 1,
             "predicate": {
                 "block": {
                     "blocks": [
@@ -121,19 +121,6 @@
         {
             "condition": "minecraft:location_check",
             "offsetX": 0,
-            "offsetY": 1,
-            "offsetZ": 0,
-            "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:air"
-                    ]
-                }
-            }
-        },
-                {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
             "offsetY": 2,
             "offsetZ": 0,
             "predicate": {
@@ -144,7 +131,7 @@
                 }
             }
         },
-                {
+        {
             "condition": "minecraft:location_check",
             "offsetX": 0,
             "offsetY": 3,

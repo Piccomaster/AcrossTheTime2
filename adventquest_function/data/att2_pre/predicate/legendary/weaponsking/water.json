@@ -1,0 +1,18 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:water"
+                    ]
+                }
+            }
+        }
+    ]
+}

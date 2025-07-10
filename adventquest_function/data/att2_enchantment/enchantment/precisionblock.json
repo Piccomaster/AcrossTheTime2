@@ -16,5 +16,6 @@
     "hand"
   ],
   "supported_items": "minecraft:shield",
+  "exclusive_set": "att2_enchantment:defensematrix",
   "weight": 1
 }
