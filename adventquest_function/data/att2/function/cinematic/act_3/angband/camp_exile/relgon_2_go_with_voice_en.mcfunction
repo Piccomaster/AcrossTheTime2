@@ -147,7 +147,7 @@ execute if score Neth0 TIMER matches 6450 in minecraft:the_nether as @a[gamemode
 ### Back to the camp
 execute if score Neth0 TIMER matches 6550 run function att2:dialogs/mainquest/act_3/ch2_relgon_33
 execute if score Neth0 TIMER matches 6550 run function att2:voice/relgon/relgon33
-execute if score Neth0 TIMER matches 6550..7350 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Neth0 TIMER matches 6550..7350 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 6550 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 1
 execute if score Neth0 TIMER matches 6550 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_TIMER 800
 execute if score Neth0 TIMER matches 6600 run function att2:dialogs/mainquest/act_3/ch2_player_6

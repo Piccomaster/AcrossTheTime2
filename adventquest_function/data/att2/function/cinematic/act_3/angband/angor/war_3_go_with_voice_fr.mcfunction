@@ -15,7 +15,7 @@ execute if score Neth0 TIMER matches 80 as @a[scores={DIMENSION=6}] at @s run fu
 execute if score Neth0 TIMER matches 90 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_slight_annoyance
 execute if score Neth0 TIMER matches 90 run scoreboard players set @a[scores={DIMENSION=6}] SHAKE_L 20
 execute if score Neth0 TIMER matches 90 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_3_action_4
-execute if score Neth0 TIMER matches 90..130 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Neth0 TIMER matches 90..130 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 120 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_deflagration
 execute if score Neth0 TIMER matches 120..200 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_3_action_2
 

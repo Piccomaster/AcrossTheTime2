@@ -17,7 +17,7 @@ execute if score Real1 TIMER matches 100..200 as 00000000-0000-089a-0000-0000000
 execute if score Real1 TIMER matches 150 run function att2:dialogs/sidequest/sq52/jzargo_12
 execute if score Real1 TIMER matches 300 run function att2:dialogs/sidequest/sq52/player_10
 execute if score Real1 TIMER matches 450 as 00000000-0000-089a-0000-00000000089a at @s run tp @s -5512 26 -3966 -100 10
-execute if score Real1 TIMER matches 450 as @a[gamemode=adventure,scores={NUMEROJOUEUR=1}] run tp @s -5513 26 -3968 -90 10
+execute if score Real1 TIMER matches 450 as @a[gamemode=adventure,x=-5513,y=26,z=-3968,scores={NUMEROJOUEUR=1..},distance=..30] run tp @s -5513 26 -3968 -90 10
 execute if score Real1 TIMER matches 500 run function att2:dialogs/sidequest/sq52/jzargo_13
 execute if score Real1 TIMER matches 650 run function att2:dialogs/sidequest/sq52/player_11
 execute if score Real1 TIMER matches 700 run function att2:physicmod/reg1/nojelanth/jzargo_barrier4_sq52

@@ -67,7 +67,7 @@ execute if score Neth0 TIMER matches 2100 run function att2:dialogs/mainquest/ac
 execute if score Neth0 TIMER matches 2100 run function att2:voice/gaya/gaya4
 execute if score Neth0 TIMER matches 2100 run scoreboard players set @a[scores={SPD_LVL_EXT=-10..}] SPD_LVL_EXT -10
 execute if score Neth0 TIMER matches 2100 run scoreboard players set @a TIMER_SPD_EXT 150
-execute if score Neth0 TIMER matches 2100..2150 as @a[scores={NUMEROJOUEUR=1}] at @s anchored feet facing 3825 44 4929 run teleport @s ^ ^ ^0.000001 ~ ~
+execute if score Neth0 TIMER matches 2100..2150 as @a[scores={DIMENSION=6}] at @s anchored feet facing 3825 44 4929 run teleport @s ^ ^ ^0.000001 ~ ~
 execute if score Neth0 TIMER matches 2350 run function att2:dialogs/mainquest/act_3/ch5_etotsira_10
 execute if score Neth0 TIMER matches 2350 run function att2:voice/etotsira/etotsira32
 execute if score Neth0 TIMER matches 2400 run function att2:dialogs/mainquest/act_3/ch5_gaya_5

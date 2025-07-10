@@ -18,7 +18,7 @@ execute if score Real0 TIMER matches 300 run function att2:voice/bob/bob4
 execute if score Real0 TIMER matches 390..400 as 00000000-0000-095a-0000-00000000095a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real0 TIMER matches 400 run function att2:dialogs/mainquest/act_4/ch1_captain_6
 execute if score Real0 TIMER matches 400 run function att2:voice/capitaine/capitaine9
-execute if score Real0 TIMER matches 600 as @a[scores={NUMEROJOUEUR=1}] run function att2:dialogs/mainquest/assistance/step101
+execute if score Real0 TIMER matches 600 at 00000000-0000-095a-0000-00000000095a as @a[distance=..30] run function att2:dialogs/mainquest/assistance/step101
 execute if score Real0 TIMER matches 601 run scoreboard players set Mainquest SIDEQUEST 101
 
 

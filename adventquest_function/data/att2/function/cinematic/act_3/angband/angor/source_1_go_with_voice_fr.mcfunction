@@ -18,15 +18,15 @@ execute if score Neth0 TIMER matches 50 run function att2:voice/namrin/namrin18
 
 # Player 1 sickness
 execute if score Neth0 TIMER matches 150 run scoreboard players set @s SHAKE_T 200
-execute if score Neth0 TIMER matches 170 run effect give @a[scores={NUMEROJOUEUR=1}] minecraft:blindness 1 0 true
+execute if score Neth0 TIMER matches 170 run effect give @a[scores={DIMENSION=6}] minecraft:blindness 1 0 true
 execute if score Neth0 TIMER matches 200 run function att2:cinematic/act_3/angband/angor/source_1_action_2
-execute if score Neth0 TIMER matches 230 run effect give @a[scores={NUMEROJOUEUR=1}] minecraft:blindness 1 0 true
+execute if score Neth0 TIMER matches 230 run effect give @a[scores={DIMENSION=6}] minecraft:blindness 1 0 true
 execute if score Neth0 TIMER matches 260 run function att2:cinematic/act_3/angband/angor/source_1_action_3
 execute if score Neth0 TIMER matches 260 run function att2:dialogs/mainquest/act_3/ch5_player_2
-execute if score Neth0 TIMER matches 260..350 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
-execute if score Neth0 TIMER matches 260..350 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
-execute if score Neth0 TIMER matches 260..350 as @a[scores={NUMEROJOUEUR=1}] at @s run function att2:particle/soft_corruption
-execute if score Neth0 TIMER matches 280 run effect give @a[scores={NUMEROJOUEUR=1}] minecraft:blindness 4 0 true
+execute if score Neth0 TIMER matches 260..350 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Neth0 TIMER matches 260..350 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Neth0 TIMER matches 260..350 as @a[scores={DIMENSION=6}] at @s run function att2:particle/soft_corruption
+execute if score Neth0 TIMER matches 280 run effect give @a[scores={DIMENSION=6}] minecraft:blindness 4 0 true
 execute if score Neth0 TIMER matches 300 as @a in minecraft:the_nether positioned 3586 47 4703 run function att2:sound/music/angband/relgon_cinematic
 
 # Relgon Summoning

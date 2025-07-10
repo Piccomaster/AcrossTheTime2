@@ -14,7 +14,7 @@ execute if score Real0 TIMER matches 120 run function att2:dialogs/mainquest/act
 execute if score Real0 TIMER matches 120 run function att2:voice/etotsira/etotsira8
 execute if score Real0 TIMER matches 250 run function att2:dialogs/mainquest/act_3/ch1_etotsira_9
 execute if score Real0 TIMER matches 250 run function att2:voice/etotsira/etotsira9
-execute if score Real0 TIMER matches 320 at @a[scores={NUMEROJOUEUR=1}] run particle minecraft:item{item:"minecraft:nether_wart_block"} ~ ~ ~ 0 0 0 1.2 200 force
+execute if score Real0 TIMER matches 320 at @a[x=29999,y=73,z=29967,distance=..30,sort=nearest,limit=1] run particle minecraft:item{item:"minecraft:nether_wart_block"} ~ ~ ~ 0 0 0 1.2 200 force
 execute if score Real0 TIMER matches 320 run function att2:dialogs/mainquest/act_3/ch1_etotsira_10
 execute if score Real0 TIMER matches 320 run function att2:voice/etotsira/etotsira10
 execute if score Real0 TIMER matches 380 run function att2:dialogs/mainquest/act_3/ch1_player_7

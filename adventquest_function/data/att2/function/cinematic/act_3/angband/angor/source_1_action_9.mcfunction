@@ -4,7 +4,7 @@
 ##################################################
 
 effect give @a[scores={DIMENSION=6}] minecraft:blindness 2 0 true
-effect give @a[scores={NUMEROJOUEUR=1}] minecraft:nausea 5 0 true
+effect give @a[scores={DIMENSION=6}] minecraft:nausea 5 0 true
 execute in minecraft:the_nether run tp 00000000-0000-006a-0000-00000000006a 3509 41 4692 -115 20
 kill 00000000-0000-007a-0000-00000000007a
 

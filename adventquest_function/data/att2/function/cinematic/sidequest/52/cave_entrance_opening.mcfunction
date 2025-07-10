@@ -3,7 +3,7 @@
 #Use function to process the cave_entrance_opening 				#
 #################################################################
 
-execute as @a[gamemode=adventure,scores={NUMEROJOUEUR=1}] run tp @s -4936 69 -3996 75 0
+execute as @a[gamemode=adventure,x=-4936,y=69,z=-3996,scores={NUMEROJOUEUR=1..},distance=..30] run tp @s -4936 69 -3996 75 0
 particle minecraft:falling_dust{block_state:"minecraft:sand"} -4940 71.5 -3995 0.25 0.25 1 1 50 normal
 data merge entity 00000000-0000-089a-0000-00000000089a {Rotation:[100.0f,0.0f]}
 function att2:physicmod/reg1/owsastr/jzargo_door_opening_sq52
