@@ -9,7 +9,7 @@ execute in minecraft:overworld run spawnpoint @a 7302 141 6518
 
 execute if score Ouranos_road6 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint
-execute if score All CHECKPOINT matches 392.. run advancement grant @a only att2:journey/the_savior
+function att2:advancement/test_all/progress/checkpoint
 
 execute if score Ouranos_road6 CHECKPOINT matches 0 run scoreboard players add Ouranos_road CHECKPOINT 1
 ##test Ouranos_road CHECKPOINT

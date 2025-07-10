@@ -9,7 +9,7 @@ execute in minecraft:overworld run spawnpoint @a -4748 71 -5819
 
 execute if score Soquai6 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint
-execute if score All CHECKPOINT matches 392.. run advancement grant @a only att2:journey/the_savior
+function att2:advancement/test_all/progress/checkpoint
 
 execute if score Soquai6 CHECKPOINT matches 0 run scoreboard players add Soquai CHECKPOINT 1
 ##test Soquai checkpoint

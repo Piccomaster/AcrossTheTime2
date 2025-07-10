@@ -9,7 +9,7 @@ execute in minecraft:the_end run spawnpoint @a -958 37 -617
 
 execute if score Billgart_road5 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint
-execute if score All CHECKPOINT matches 392.. run advancement grant @a only att2:journey/the_savior
+function att2:advancement/test_all/progress/checkpoint
 
 execute if score Billgart_road5 CHECKPOINT matches 0 run scoreboard players add Billgart_road CHECKPOINT 1
 ##test Billgart_road checkpoint
