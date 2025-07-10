@@ -1,0 +1,221 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 1,
+                                            "max": 2
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 3,
+                                            "max": 4
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 5,
+                                            "max": 6
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 7,
+                                            "max": 8
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q4"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 9,
+                                            "max": 10
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q5"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 11,
+                                            "max": 12
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q6"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 13,
+                                            "max": 14
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q7"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 15,
+                                            "max": 16
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q8"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 17,
+                                            "max": 18
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q9"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "FISH_QUALITY": {
+                                            "min": 19,
+                                            "max": 20
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "value": "minecraft:gameplay/fishing/area5/q10"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}
