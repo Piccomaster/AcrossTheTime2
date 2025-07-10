@@ -41,6 +41,8 @@
 
 - **Chests names display**
   - Chests containing quest items or books will now display unique names.
+- **Mainplayer name modification**
+  -Players can now manually change the "Mainplayer's name," supporting more characters and languages.(not just limited to English)
 ### Balance:
 - **Attribute System Update**  
   - Most attributes now **directly modify base stats** (no "status effects").  
