@@ -4,10 +4,10 @@
   },
   "criteria": {
     "fishing_trigger": {
-      "trigger": "minecraft:fishing_rod_hooked",
+      "trigger": "minecraft:carrot_on_a_stick_hooked",
       "conditions": {
         "rod": {
-          "items": "minecraft:fishing_rod",
+          "items": "minecraft:carrot_on_a_stick",
           "predicates": {
             "minecraft:custom_data": {
               "rod": "fish"

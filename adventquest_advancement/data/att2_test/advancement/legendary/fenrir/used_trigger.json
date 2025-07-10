@@ -1,0 +1,20 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/fenrir/used_trigger"
+  },
+  "criteria": {
+    "use_trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:diamond_sword",
+          "predicates": {
+            "minecraft:custom_data": {
+              "EquipmentID": "fenrir"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/fenrir/normal_atk/attack_trigger"
+  },
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_cooldown",
+                "expected": false
+              },
+              {
+                "id": "minecraft:avoids_guardian_thorns",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:diamond_sword",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "EquipmentID": "fenrir"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

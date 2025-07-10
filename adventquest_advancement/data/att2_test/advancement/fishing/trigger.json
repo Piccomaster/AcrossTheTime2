@@ -6,11 +6,14 @@
     "fishing_trigger": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
+        "entity": {
+          "type": "fishing_bobber"
+        },
         "rod": {
           "items": "minecraft:fishing_rod",
           "predicates": {
             "minecraft:custom_data": {
-              "fishing": "rod"
+              "EquipmentType": "rod"
             }
           }
         }

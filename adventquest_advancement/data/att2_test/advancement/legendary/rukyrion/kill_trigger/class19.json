@@ -1,0 +1,58 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/legendary/rukyrion/kill_trigger/class19"
+    },
+    "criteria": {
+        "class0": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "tags": [
+                        {
+                            "id": "minecraft:bypasses_armor",
+                            "expected": false
+                        },
+                        {
+                            "id": "minecraft:bypasses_cooldown",
+                            "expected": false
+                        },
+                        {
+                            "id": "minecraft:avoids_guardian_thorns",
+                            "expected": false
+                        },
+                        {
+                            "id": "minecraft:is_projectile",
+                            "expected": false
+                        }
+                    ]
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:reference",
+                                "name": "att2_pre:kill/limit"
+                            },
+                            {
+                                "condition": "minecraft:reference",
+                                "name": "att2_pre:kill/class19"
+                            }
+                        ]
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:reference",
+                                "name": "att2_pre:legendary/rukyrion/hand"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

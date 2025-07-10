@@ -6,16 +6,47 @@
         "minecraft:bat": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
+                "killing_blow": {
+                    "tags": [
+                        {
+                            "id": "minecraft:bypasses_armor",
+                            "expected": false
+                        },
+                        {
+                            "id": "minecraft:bypasses_cooldown",
+                            "expected": false
+                        },
+                        {
+                            "id": "minecraft:avoids_guardian_thorns",
+                            "expected": false
+                        }
+                    ]
+                },
                 "entity": [
                     {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:bat"
+                        "condition": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "type": "minecraft:bat"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "type": "minecraft:shulker"
+                                    }
+                                }
                             }
-                        }
+                        ]
                     }
                 ],
                 "player": {
