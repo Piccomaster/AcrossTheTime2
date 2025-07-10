@@ -3,10 +3,6 @@
 #Process the health regen                        #
 ##################################################
 
-#execute as @a run function att2:gameplay/stat/healthregen/sum
-
-##test STAT
-function att2:advancement/test_all/combat/her
 #SUM CAL
 function att2:gameplay/stat/healthregen/sum
 #effect assignement
