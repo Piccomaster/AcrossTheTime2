@@ -26,3 +26,5 @@ execute as @p[scores={LEVELMASTER=150..}] run function att2:summon/chronoton/dia
 execute as @p[scores={LEVELMASTER=200..}] at @s run function att2:summon/chronoton/esc
 execute as @p[scores={LEVELMASTER=250..}] run function att2:summon/chronoton/diamond
 execute as @p[scores={LEVELMASTER=300..}] at @s run function att2:summon/chronoton/esc
+#TEST
+function att2:advancement/test_all/treasure/lost_soul
