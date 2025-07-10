@@ -53,4 +53,4 @@ tellraw @s[scores={LANGUAGE=10},x=-4980,y=82,z=-5027,distance=..7] {nbt:"set",st
 
 #Simplified Chinese LANGUAGE
 
-tellraw @s[scores={LANGUAGE=11},x=-4980,y=82,z=-5027,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[你无法想像你要付出多少代价...-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute as @p[x=-4980,y=82,z=-5027,distance=..7] if score troublemakers_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/11/troublemakers/answer_2_2"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 2"}}]}
+tellraw @s[scores={LANGUAGE=11},x=-4980,y=82,z=-5027,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[你无法想像你要付出多少代价...-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute as @p[x=-4980,y=82,z=-5027,distance=..7] if score troublemakers_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/11/troublemakers/answer_2_2"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 2"}}]}

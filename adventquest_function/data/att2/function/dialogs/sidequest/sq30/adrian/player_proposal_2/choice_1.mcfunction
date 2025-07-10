@@ -55,4 +55,4 @@ tellraw @a[scores={LANGUAGE=10},x=-4956,y=133,z=-4893,distance=..7] {nbt:"set",s
 
 #Simplified Chinese LANGUAGE
 
-tellraw @a[scores={LANGUAGE=11},x=-4956,y=133,z=-4893,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[这里的墙壁似乎损坏的很厉害。用力推一定能把它推倒...【推墙】-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score SQ30 SIDEQUEST matches 7 run function att2:cinematic/sidequest/30/step8"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 1"}}]}
+tellraw @a[scores={LANGUAGE=11},x=-4956,y=133,z=-4893,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[这里的墙壁似乎损坏的很厉害。用力推一定能把它推倒...【推墙】-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score SQ30 SIDEQUEST matches 7 run function att2:cinematic/sidequest/30/step8"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 1"}}]}

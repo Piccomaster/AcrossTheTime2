@@ -55,4 +55,4 @@ tellraw @a[scores={LANGUAGE=10},x=-4044,y=72,z=-5610,distance=..7] {nbt:"set",st
 
 #Simplified Chinese LANGUAGE
 
-tellraw @a[scores={LANGUAGE=11},x=-4044,y=72,z=-5610,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[摧毁强盗营地！-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon3 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy3"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 3"}}]}
+tellraw @a[scores={LANGUAGE=11},x=-4044,y=72,z=-5610,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[摧毁强盗营地！-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon3 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy3"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 3"}}]}
