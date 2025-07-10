@@ -12,4 +12,4 @@ give @s minecraft:written_book[minecraft:lore=[{text:"§7 01/27/2489"}],minecraf
 give @s minecraft:written_book[minecraft:lore=[{text:"§72489/01/27"}],minecraft:written_book_content={author:"Cpt. Ernesto",pages:[{raw:{"extra":[{text:"一切终于恢复正常了。自从上次停电事故发生后，Camille坚持要我开始写这本日志。不仅要记录在中央数据库中，还要像千禧年初那样手写记录。我知道她对那个时代的旧方法很感兴趣，我不能责备一个考古学家有这种兴趣……事实上，上次的故障差点让我们丢失了所有的数据。即使纸张是我们这个时代仅存的东西，我也不太相信它会比主集群中的百万亿比特数据保存得更久。"}],text:""}},{raw:{"extra":[{text:"此外，我会尽力讲述我们最近遇到的事件：小行星带真是一场磨难。对于“Ithax号”及其前护盾来说，尽管它的主要功能是能够承受10237牛顿的冲击，但我们撞上的许多岩石使我们偏离了航线，还有一些更大的岩石撞到了船尾。随后，我们的主发电机也损坏了。另外八个设备同时出现故障。我们还能活下来真是个奇迹，这都多亏了Dimitri，他在整个系统陷入彻底灾难之前成功重启了系统。"}],text:""}},{raw:{"extra":[{text:"全体船员都非常感激他。现在我们需要修复船舱并重启主发电机。我们的资源比重建这艘船实际所需的资源多三倍，所以我并不担心这个。然而，船员们现在的情绪似乎受到了很大的冲击。自四年前我们开始这次旅行以来，我们从未遇到过这样的事件，船上的每个人都祈祷这种事不要再发生。"}],text:""}}],title:{raw:"§f飞船日志P1"}},minecraft:custom_data={Rarity:"misc",ships_log1:true}]
 
 #chest name
-execute in overworld run data merge block -7422 160 -5982 {CustomName:[{translate:att2.chest.book.name}]}
+execute in overworld run data merge block -7423 160 -5982 {CustomName:[{translate:att2.chest.book.name}]}
