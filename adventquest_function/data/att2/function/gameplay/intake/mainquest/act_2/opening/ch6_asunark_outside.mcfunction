@@ -9,3 +9,6 @@ execute positioned -3545 88 -4942 run function att2:gameplay/intake/effect
 
 execute if score outside_mech1 ASUNARK matches 10.. run stopsound @a block minecraft:airblast
 execute if score outside_mech1 ASUNARK matches 16.. run function att2:cinematic/act_2/asunark/outside/main_door
+#bug fix
+execute if score outside_mech1 ASUNARK matches 16.. run setblock -3545 87 -4942 air
+execute if score outside_mech1 ASUNARK matches 16.. run setblock -3545 87 -4942 diamond_block
