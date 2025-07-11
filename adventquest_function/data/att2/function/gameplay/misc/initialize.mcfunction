@@ -19,3 +19,4 @@ function att2:gameplay/misc/fire_damage/initialize
 function att2:gameplay/misc/fishing/initialize
 function att2:gameplay/misc/chair/initialize
 function att2:gameplay/misc/mainplayer_name/initialize
+function att2:gameplay/misc/checkpoint/initialize
