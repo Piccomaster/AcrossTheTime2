@@ -3,9 +3,13 @@
 #Process the checkpoint 						#
 #################################################
 
+##This command ensures main/side quests properly trigger respawn points.
 function att2:gameplay/checkpoint/effect
-
 execute in minecraft:the_nether run spawnpoint @s 3796 94 4392
+
+## This command ensures that when a player manually triggers a respawn point, nearby players' respawn points are also reset.
+execute in minecraft:the_nether positioned 3796 94 4392 as @a[distance=..40] run function att2:gameplay/checkpoint/effect
+execute in minecraft:the_nether positioned 3796 94 4392 as @a[distance=..40] run spawnpoint @s 3796 94 4392
 
 execute if score Angor16 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint

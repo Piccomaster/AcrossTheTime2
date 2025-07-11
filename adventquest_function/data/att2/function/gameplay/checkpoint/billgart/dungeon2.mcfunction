@@ -3,9 +3,13 @@
 #Process the checkpoint 						#
 #################################################
 
+##This command ensures main/side quests properly trigger respawn points.
 function att2:gameplay/checkpoint/effect
-
 execute in minecraft:the_end run spawnpoint @s -1239 24 -536
+
+## This command ensures that when a player manually triggers a respawn point, nearby players' respawn points are also reset.
+execute in minecraft:the_end positioned -1239 24 -536 as @a[distance=..40] run function att2:gameplay/checkpoint/effect
+execute in minecraft:the_end positioned -1239 24 -536 as @a[distance=..40] run spawnpoint @s -1239 24 -536
 
 execute if score Billgart_dungeon1 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint
