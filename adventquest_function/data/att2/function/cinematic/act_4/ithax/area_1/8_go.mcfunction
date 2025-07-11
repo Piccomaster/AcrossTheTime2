@@ -3,7 +3,7 @@
 #Process cinematic ihax area_1 8_go 			 #
 ##################################################
 
-execute if score Real0 TIMER matches 0 run function att2:gameplay/checkpoint/telluron_past/nojelanth0
+execute if score Real0 TIMER matches 0 in overworld as @a[x=-7366,y=88,z=-4546,distance=..100] run function att2:gameplay/checkpoint/telluron_past/nojelanth0
 execute if score Real0 TIMER matches 0 as @a run function att2:gameplay/music/interrupt
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 233
 

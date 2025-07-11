@@ -11,7 +11,7 @@ execute if score Real0 TIMER matches 160..239 as @a[gamemode=spectator] run tp @
 execute if score Real0 TIMER matches 240..299 as @a[gamemode=spectator] run tp @s -5657 165 -6346 130 45
 execute if score Real0 TIMER matches 300 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_4/ch2_player_6
-execute if score Real0 TIMER matches 300 run function att2:gameplay/checkpoint/telluron_present/vonaheim0
+execute if score Real0 TIMER matches 300 in overworld as @a[x=-5657,y=165,z=-6346,distance=..100] run function att2:gameplay/checkpoint/telluron_present/vonaheim0
 execute if score Real0 TIMER matches 301 run scoreboard players set Mainquest SIDEQUEST 109
 
 

@@ -3,7 +3,7 @@
 #Process cinematic ihax area_3 11_go 			 #
 ##################################################
 
-execute if score Real0 TIMER matches 0 run function att2:gameplay/checkpoint/telluron_farfuture/ithax10
+execute if score Real0 TIMER matches 0 in overworld as @a[x=-7427,y=162,z=-5931,distance=..100] run function att2:gameplay/checkpoint/telluron_farfuture/ithax10
 execute if score Real0 TIMER matches 0 positioned -7427 166 -5933 run function att2:sound/ambience/ithax_strange
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 271
 

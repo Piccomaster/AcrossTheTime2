@@ -6,7 +6,7 @@
 
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 62
 execute if score Neth0 TIMER matches 1 in minecraft:the_nether as @a run tp @s 3488 59 3779
-execute if score Neth0 TIMER matches 1 run function att2:gameplay/checkpoint/angband/exil_camp1
+execute if score Neth0 TIMER matches 1 as @a[scores={DIMENSION=6},x=3488,y=59,z=3779,distance=..100] run function att2:gameplay/checkpoint/angband/exil_camp1
 execute if score Neth0 TIMER matches 1 run function att2:dialogs/mainquest/act_3/ch2_relgon_1
 execute if score Neth0 TIMER matches 1 run function att2:voice/relgon/relgon1
 execute if score Neth0 TIMER matches 1 run function att2:physicmod/reg2/camp_exile/barrier1

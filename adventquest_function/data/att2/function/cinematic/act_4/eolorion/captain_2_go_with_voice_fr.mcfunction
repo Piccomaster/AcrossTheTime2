@@ -11,7 +11,7 @@ execute if score Real0 TIMER matches 10 run function att2:cinematic/act_4/eolori
 execute if score Real0 TIMER matches 20 run function att2:dialogs/mainquest/act_4/ch1_captain_5
 execute if score Real0 TIMER matches 20 run function att2:voice/capitaine/capitaine8
 execute if score Real0 TIMER matches 20 run tp @a -5346 108 -6297
-execute if score Real0 TIMER matches 50 run function att2:gameplay/checkpoint/telluron_present/eolorion2
+execute if score Real0 TIMER matches 50 in overworld as @a[x=-5346,y=108,z=-6297,distance=..100] run function att2:gameplay/checkpoint/telluron_present/eolorion2
 execute if score Real0 TIMER matches 300..490 as 00000000-0000-095a-0000-00000000095a at @s anchored feet facing entity 00000000-0000-088a-0000-00000000088a feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_4/ch1_bob_4
 execute if score Real0 TIMER matches 300 run function att2:voice/bob/bob4

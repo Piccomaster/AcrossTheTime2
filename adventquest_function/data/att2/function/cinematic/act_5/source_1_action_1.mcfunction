@@ -3,7 +3,7 @@
 #Process action_1 for source_1 cinematic		 #
 ##################################################
 
-function att2:gameplay/checkpoint/telluron_present/ryliath_town0
+execute in overworld as @a[x=-5030,y=75,z=-5065,distance=..100] run function att2:gameplay/checkpoint/telluron_present/ryliath_town0
 weather clear 100000
 time set 6000
 stopsound @a
