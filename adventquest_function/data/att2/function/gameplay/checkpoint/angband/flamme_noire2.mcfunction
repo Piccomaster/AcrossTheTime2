@@ -5,4 +5,4 @@
 
 function att2:gameplay/checkpoint/effect
 
-execute in minecraft:the_nether run spawnpoint @a 3518 41 4678
+execute in minecraft:the_nether run spawnpoint @s 3518 41 4678

@@ -5,7 +5,7 @@
 
 function att2:gameplay/checkpoint/effect
 
-execute in minecraft:overworld run spawnpoint @a -5089 152 -6606
+execute in minecraft:overworld run spawnpoint @s -5089 152 -6606
 
 execute if score Elcheol2 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint

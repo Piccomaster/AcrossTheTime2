@@ -5,7 +5,7 @@
 
 function att2:gameplay/checkpoint/effect
 
-execute in minecraft:the_nether run spawnpoint @a 3764 35 4345
+execute in minecraft:the_nether run spawnpoint @s 3764 35 4345
 
 execute if score Angor12 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint

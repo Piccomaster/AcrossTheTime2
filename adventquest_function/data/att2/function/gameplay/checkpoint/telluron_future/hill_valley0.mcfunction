@@ -5,4 +5,4 @@
 
 function att2:gameplay/checkpoint/effect
 
-execute in minecraft:overworld run spawnpoint @a 1992 114 2060
+execute in minecraft:overworld run spawnpoint @s 1992 114 2060
