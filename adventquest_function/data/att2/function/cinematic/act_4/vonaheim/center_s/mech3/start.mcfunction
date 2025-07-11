@@ -6,7 +6,7 @@
 function att2:cinematic/real0_init
 scoreboard players set center_s_mech3 VONAHEIM 1
 
-scoreboard players set @a[distance=..100,scores={SPD_LVL_EXT=-6..}] SPD_LVL_EXT -6
+scoreboard players set @a[distance=..100,scores={SPD_EXT=-6..}] SPD_EXT -6
 scoreboard players set @a[distance=..100] TIMER_SPD_EXT 200
 effect give @a[distance=..100] minecraft:blindness 1 1 true
 

@@ -3,7 +3,7 @@
 #Process for Cinematic1 							#
 #####################################################
 
-execute if score Real0 TIMER matches 0 run scoreboard players set @s[scores={SPD_LVL_EXT=-10..}] SPD_LVL_EXT -10
+execute if score Real0 TIMER matches 0 run scoreboard players set @s[scores={SPD_EXT=-10..}] SPD_EXT -10
 execute if score Real0 TIMER matches 0 run scoreboard players set @s TIMER_SPD_EXT 40
 execute if score Real0 TIMER matches 1 positioned -7454 163 -5955 run function att2:sound/misc/metalhit
 execute if score Real0 TIMER matches 1 positioned -7458 162 -5954 run function att2:summon/reg_1/ithax_rat1

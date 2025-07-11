@@ -3,8 +3,8 @@
 #Process vomiting effect 						 #
 ##################################################
 
-scoreboard players set @s HUN_LVL_EXT -5
-scoreboard players set @s SPD_LVL_EXT -5
+scoreboard players set @s HUN_EXT -5
+scoreboard players set @s SPD_EXT -5
 scoreboard players set @s TIMER_HUN_EXT 4
 scoreboard players set @s TIMER_SPD_EXT 4
 tp @s ~ ~ ~ ~ 50

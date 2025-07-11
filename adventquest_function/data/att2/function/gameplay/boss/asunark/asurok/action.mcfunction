@@ -29,7 +29,7 @@ execute if score Asurok ASUNARK matches 1600..2000 as 00000000-0000-003b-0000-00
 execute if score Asurok ASUNARK matches 1700 at 00000000-0000-003b-0000-00000000003b run function att2:sound/misc/guardian_attack
 execute if score Asurok ASUNARK matches 1700..2000 as 00000000-0000-003b-0000-00000000003b at @s run particle minecraft:enchanted_hit ~ ~ ~ 1 1 1 0.1 10
 execute if score Asurok ASUNARK matches 1800..2000 run tp 00000000-0000-003b-0000-00000000003b -3297 10 -4942 90 0
-execute if score Asurok ASUNARK matches 1800..2000 as @a[x=-3297,y=14,z=-4942,distance=..4,gamemode=adventure] at @s run scoreboard players set @s HER_LVL_EXT -2
+execute if score Asurok ASUNARK matches 1800..2000 as @a[x=-3297,y=14,z=-4942,distance=..4,gamemode=adventure] at @s run scoreboard players set @s HER_EXT -2
 execute if score Asurok ASUNARK matches 1800..2000 as @a[x=-3297,y=14,z=-4942,distance=..4,gamemode=adventure] at @s run scoreboard players set @s TIMER_HER_EXT 2
 execute if score Asurok ASUNARK matches 1800 run function att2:gameplay/boss/asunark/asurok/trap_closing
 execute if score Asurok ASUNARK matches 1900..2000 as @a[x=-3317,y=2,z=-4922,dx=41,dy=23,dz=-41,gamemode=adventure] at @s run tp @s ~ ~ ~ facing entity 00000000-0000-003b-0000-00000000003b

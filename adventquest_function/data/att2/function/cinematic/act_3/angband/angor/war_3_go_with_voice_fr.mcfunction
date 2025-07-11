@@ -26,7 +26,7 @@ execute if score Neth0 TIMER matches 130 as 00000000-0000-006a-0000-00000000006a
 execute if score Neth0 TIMER matches 130 as @a[scores={DIMENSION=6}] at @s run function att2:sound/misc/sword_unsheathe
 execute if score Neth0 TIMER matches 190 run function att2:dialogs/mainquest/act_3/ch5_relgon_4
 execute if score Neth0 TIMER matches 190 run function att2:voice/relgon/relgon50
-execute if score Neth0 TIMER matches 190 run scoreboard players set @a[scores={SPD_LVL_EXT=-25..}] SPD_LVL_EXT -25
+execute if score Neth0 TIMER matches 190 run scoreboard players set @a[scores={SPD_EXT=-25..}] SPD_EXT -25
 execute if score Neth0 TIMER matches 190 run scoreboard players set @a TIMER_SPD_EXT 60
 execute if score Neth0 TIMER matches 190..250 as @a[scores={DIMENSION=6}] at @s anchored feet facing entity 00000000-0000-007a-0000-00000000007a feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 190..250 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity 00000000-0000-006a-0000-00000000006a feet run teleport @s ^ ^ ^0.00001 ~ ~

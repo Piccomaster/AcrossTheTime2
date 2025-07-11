@@ -3,7 +3,7 @@
 #Process for Cinematic3 							#
 #####################################################
 
-execute if score Real0 TIMER matches 0 run scoreboard players set @s[scores={SPD_LVL_EXT=-10..}] SPD_LVL_EXT -10
+execute if score Real0 TIMER matches 0 run scoreboard players set @s[scores={SPD_EXT=-10..}] SPD_EXT -10
 execute if score Real0 TIMER matches 0 run scoreboard players set @s TIMER_SPD_EXT 40
 execute if score Real0 TIMER matches 1 positioned -7452 157 -5950 run function att2:sound/door/mechanical_futurist_door_opening
 execute if score Real0 TIMER matches 1 run function att2:physicmod/reg1/ithax/area2/generator_mechanical_door_open

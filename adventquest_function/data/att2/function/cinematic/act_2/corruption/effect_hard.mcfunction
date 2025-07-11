@@ -3,9 +3,9 @@
 #Process soft effect for corruption cinematic	 #
 ##################################################
 
-scoreboard players set @s STR_LVL_EXT -6
-scoreboard players set @s HAS_LVL_EXT -2
-scoreboard players set @s HER_LVL_EXT 4
+scoreboard players set @s STR_EXT -6
+scoreboard players set @s HAS_EXT -2
+scoreboard players set @s HER_EXT 4
 scoreboard players set @s TIMER_STR_EXT 1200
 scoreboard players set @s TIMER_HAS_EXT 1200
 scoreboard players set @s TIMER_HER_EXT 600

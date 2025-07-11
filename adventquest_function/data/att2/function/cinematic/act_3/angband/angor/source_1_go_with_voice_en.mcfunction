@@ -47,7 +47,7 @@ execute if score Neth0 TIMER matches 740 run function att2:cinematic/act_3/angba
 execute if score Neth0 TIMER matches 745 in minecraft:the_nether as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~ ~ 0 0
 execute if score Neth0 TIMER matches 750..900 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing entity 00000000-0000-007a-0000-00000000007a feet run teleport @s ^ ^ ^0.015 ~ ~
 execute if score Neth0 TIMER matches 850..950 as @a[scores={DIMENSION=6}] at @s anchored feet facing 3511 43 4690 run teleport @s ^ ^ ^0.00001 ~ ~
-execute if score Neth0 TIMER matches 850 run scoreboard players set @a[scores={SPD_LVL_EXT=-15..}] SPD_LVL_EXT -15
+execute if score Neth0 TIMER matches 850 run scoreboard players set @a[scores={SPD_EXT=-15..}] SPD_EXT -15
 execute if score Neth0 TIMER matches 850 run scoreboard players set @a TIMER_SPD_EXT 100
 execute if score Neth0 TIMER matches 900..949 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity 00000000-0000-001a-0000-00000000001a feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 900 run function att2:dialogs/mainquest/act_3/ch5_serile_1

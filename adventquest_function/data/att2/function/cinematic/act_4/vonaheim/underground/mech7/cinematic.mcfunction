@@ -6,7 +6,7 @@
 execute if score Real0 TIMER matches 1 as @a[x=-5698,y=80,z=-6429,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
 execute if score Real0 TIMER matches 1..100 at 00000000-0000-006b-0000-00000000006b run particle minecraft:enchant ~ ~ ~ 1 1 1 0 5 normal
 execute if score Real0 TIMER matches 1..109 as @a[gamemode=spectator] run tp @s -5698 80 -6420 180 0
-execute if score Real0 TIMER matches 10 run scoreboard players set @a[gamemode=spectator,scores={SPD_LVL_EXT=-15..}] SPD_LVL_EXT -15
+execute if score Real0 TIMER matches 10 run scoreboard players set @a[gamemode=spectator,scores={SPD_EXT=-15..}] SPD_EXT -15
 execute if score Real0 TIMER matches 10 run scoreboard players set @a[gamemode=spectator] TIMER_SPD_EXT 90
 execute if score Real0 TIMER matches 100 run function att2:cinematic/act_4/vonaheim/underground/mech7/attack
 execute if score Real0 TIMER matches 110..149 as @a[gamemode=spectator] at @s run tp @s -5698 80 -6420 ~-9 0
