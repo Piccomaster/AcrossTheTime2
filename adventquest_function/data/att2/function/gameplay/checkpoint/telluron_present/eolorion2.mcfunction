@@ -3,13 +3,17 @@
 #Process the checkpoint 						#
 #################################################
 
+##This command ensures main/side quests properly trigger respawn points.
 function att2:gameplay/checkpoint/effect
+execute in minecraft:overworld run spawnpoint @s -5343 107 -6292
 
-execute in minecraft:overworld run spawnpoint @a -5343 107 -6292
+## This command ensures that when a player manually triggers a respawn point, nearby players' respawn points are also reset.
+execute in minecraft:overworld positioned -5343 107 -6292 as @a[distance=..40] run function att2:gameplay/checkpoint/effect
+execute in minecraft:overworld positioned -5343 107 -6292 as @a[distance=..40] run spawnpoint @s -5343 107 -6292
 
 execute if score Eolorion2 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint
-execute if score All CHECKPOINT matches 392.. run advancement grant @a only att2:journey/the_savior
+function att2:advancement/test_all/progress/checkpoint
 
 execute if score Eolorion2 CHECKPOINT matches 0 run scoreboard players add Eolorion CHECKPOINT 1
 ##test Eolorion checkpoint

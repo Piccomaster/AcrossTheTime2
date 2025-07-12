@@ -3,64 +3,36 @@
     "function": "att2:gameplay/enchantment/trigger_function/headhunter"
   },
   "criteria": {
-    "headhunter_left": {
+    "headhunter": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
+        "entity": {
+          "team": "hostile"
+        },
         "damage": {
           "type": {
             "direct_entity": {
               "type": "#minecraft:arrows",
-              "nbt": "{Tags:['HEADHUNTER']}"
+              "nbt": "{Tags:['HEADHUNTER'],crit:1b}"
             }
           }
         },
-        "player": {
-          "equipment": {
-            "offhand": {
-              "items": "minecraft:bow",
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "att2_enchantment:headhunter"
-                  }
-                ]
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "reference",
+                "name": "att2_pre:enchantment/headhunter/mainhand"
+              },
+              {
+                "condition": "reference",
+                "name": "att2_pre:enchantment/headhunter/offhand"
               }
-            }
+            ]
           }
-        }
-      }
-    },
-    "headhunter_right": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "damage": {
-          "type": {
-            "direct_entity": {
-              "type": "#minecraft:arrows"
-            }
-          }
-        },
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:bow",
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "att2_enchantment:headhunter"
-                  }
-                ]
-              }
-            }
-          }
-        }
+        ]
       }
     }
-  },
-  "requirements": [
-    [
-      "headhunter_left",
-      "headhunter_right"
-    ]
-  ]
+  }
 }

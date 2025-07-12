@@ -8,7 +8,7 @@ execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 55
 execute if score Neth0 TIMER matches 0 in minecraft:the_nether as @a run tp @s 3755 80 3760
-execute if score Neth0 TIMER matches 0 run function att2:gameplay/checkpoint/angband/portal1
+execute if score Neth0 TIMER matches 0 as @a[scores={DIMENSION=6},x=3755,y=80,z=3765,distance=..100] run function att2:gameplay/checkpoint/angband/portal1
 execute if score Neth0 TIMER matches 10 in minecraft:the_nether positioned 3755 75 3800 run function att2:summon/pnj/serile_young
 execute if score Neth0 TIMER matches 10 in minecraft:the_nether positioned 3750 85 3800 run function att2:summon/pnj/namrin
 execute if score Neth0 TIMER matches 40 in minecraft:the_nether run tp 00000000-0000-001a-0000-00000000001a 3755 85 3800 -180 0

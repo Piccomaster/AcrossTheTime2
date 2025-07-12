@@ -7,7 +7,7 @@
         "base": 7,
         "per_level_above_first": 7
     },
-    "max_level": 1,
+    "max_level": 3,
     "min_cost": {
         "base": 7,
         "per_level_above_first": 7
@@ -16,8 +16,9 @@
         "mainhand"
     ],
     "supported_items": "#minecraft:swords",
+    "exclusive_set": "att2_enchantment:greatsword",
     "weight": 1,
-        "effects": {
+    "effects": {
         "minecraft:post_attack": [
             {
                 "affected": "attacker",

@@ -9,20 +9,32 @@
         "damage": {
           "blocked": true
         },
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "#minecraft:swords",
-              "predicates": {
-                "minecraft:enchantments": [
+        "player": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "reference",
+                "name": "att2_pre:enchantment/greatsword/mainhand"
+              },
+              {
+                "condition": "any_of",
+                "terms": [
                   {
-                    "enchantments": "att2_enchantment:greatsword"
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                      "GREATSWORD_USING": {
+                        "min": 5,
+                        "max": 15
+                      }
+                    }
                   }
                 ]
               }
-            }
+            ]
           }
-        }
+        ]
       }
     }
   }

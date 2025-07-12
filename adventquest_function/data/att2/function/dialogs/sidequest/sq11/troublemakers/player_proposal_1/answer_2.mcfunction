@@ -50,3 +50,7 @@ tellraw @s[scores={LANGUAGE=9},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"Quem você pensa que é... Esta é a luta que você está procurando!","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+
+tellraw @s[scores={LANGUAGE=11},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"你以为你是谁...你是不是找打啊？！","color":"dark_aqua"}]}

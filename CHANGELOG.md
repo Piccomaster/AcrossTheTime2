@@ -37,10 +37,52 @@
   -Click any spell name in the spellbook to view its detailed data.
 
 - ** Mythical Effects**  
-  - All Mythical equipment **buffed**.  
+
+  -**Weaponsking**
+- **Left Click**: Attacks enemies and grants a small amount of **Chrontons** as a reward.  
+- **Right Click (Two Modes)**:  
+  - **In Water**: Activates the **"Torrent"** effect, allowing a short-range dash.  
+  - **On Land**: Switches to **"Loyalty"** mode—throwing the weapon. If it hits an enemy, the user teleports above them.  
+
+  -**Rukyrion**  
+- Killing monsters of different tiers grants temporary buffs:STR,SPD,HAS
+- **Right-Click Combo**:  
+-**Double Slash**: Tap twice rapidly to launch two sword projectiles.  
+  - **Effect**: Disappears on first enemy hit, knocking back nearby foes.  
+-**Blink Dash**: Third press triggers a short-range dash.  
+  - **Effect**: Launches enemies along the path and deals heavy damage.  
+
+  -**Fortuity Sword**
+- Killing **10 enemies** grants a temporary **adaptive Luck buff**.  
+- The weapon's **base stats increase** as the player levels up.  
+
+  -**Fenrir**
+- **Left Click**: Attacks inflict "Freeze" effect on enemies
+- **Right Click (Hold)**: Releases "Frost Domain" that:
+  - Freezes enemies within the area
+  - Blocks all incoming projectiles from outside
+
+  -**Hermetique**
+- Consumes a certain amount of **Chronotons**
+- Deals AoE damage around your attack target based on your current Chronotons amount
+
+  -**Bloodeater**
+- **Left Click**: Attacks heal for 70% of damage dealt
+- **Right Click (Hold)**: 
+  - Consumes 70% of current health
+  - Releases a long-range sword projectile
+
+  -**Warlord**
+- **Arrow Hit**: Creates a "Lightning Field" on struck enemies that:
+  - Pulls in nearby enemies
+  - Deals continuous lightning damage
 
 - **Chests names display**
   - Chests containing quest items or books will now display unique names.
+
+- **Mainplayer name modification**
+  -Players can now manually change the "Mainplayer's name," supporting more characters and languages.(not just limited to English)
+  
 ### Balance:
 - **Attribute System Update**  
   - Most attributes now **directly modify base stats** (no "status effects").  

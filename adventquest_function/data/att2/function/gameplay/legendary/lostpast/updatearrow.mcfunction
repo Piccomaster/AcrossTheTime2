@@ -23,3 +23,6 @@ scoreboard players remove @s DAHAL 100
 scoreboard players set @s SHOOTING_LP 0
 scoreboard players set @s LP_USE 0
 execute at @s run function att2:sound/legendary/lostpast_shoot
+
+#
+say lost past 更新

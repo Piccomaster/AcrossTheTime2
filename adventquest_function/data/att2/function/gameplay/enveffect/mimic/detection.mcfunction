@@ -5,7 +5,7 @@
 
 #test health
 execute store result score now_health MIMIC run data get entity @e[distance=..0,limit=1,type=slime,tag=MIMIC] Health
-execute store result score max_health MIMIC run attribute @e[distance=..0,limit=1,type=slime,tag=MIMIC] generic.max_health base get
+execute store result score max_health MIMIC run attribute @e[distance=..0,limit=1,type=slime,tag=MIMIC] max_health get
 #random event trigger (5 good event)+(5 bad event)
 execute if score 1RNG10 RNG matches 1 at @e[distance=..0,limit=1,type=slime,tag=MIMIC] run function att2:gameplay/enveffect/mimic/rng_event/1
 execute if score 1RNG10 RNG matches 2 run function att2:gameplay/enveffect/mimic/rng_event/2

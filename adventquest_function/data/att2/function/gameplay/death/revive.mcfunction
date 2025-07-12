@@ -10,3 +10,4 @@ function att2:gameplay/death/effect
 
 execute unless entity @s[tag=skipDeathMalus] run function att2:gameplay/chronoton/applyloss
 execute if entity @s[tag=skipDeathMalus] run scoreboard players remove @s DEATHCOUNT 1
+execute if entity @s[tag=skipDeathMalus] run tag @s remove skipDeathMalus

@@ -35,3 +35,9 @@ execute if score minute TIMECOUNTER matches 0 if score second TIMECOUNTER matche
 function att2:gameplay/misc/fishing/go
 #chair
 execute as @a[scores={SPAWNER_LIMIT=1..}] at @s run function att2:gameplay/misc/chair/go
+#VOCIE limit
+scoreboard players remove limit Voice 1
+#mainplayer name
+execute as @a[predicate=att2_pre:mainplayer_name/hand] run function att2:gameplay/misc/mainplayer_name/go
+#back checkpoint
+execute as @a[scores={CHECKPOINT=1..}] at @s run function att2:gameplay/misc/checkpoint/go

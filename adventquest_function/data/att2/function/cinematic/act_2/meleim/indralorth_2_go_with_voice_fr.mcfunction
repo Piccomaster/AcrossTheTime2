@@ -3,6 +3,8 @@
 #Process cinematic indralorth_2				     #
 ##################################################
 
+execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
+
 execute if score Real0 TIMER matches 0 run scoreboard players set indra_lorth_PNJ DIALOG 0
 execute if score Real0 TIMER matches 0 run function att2:cinematic/act_2/meleim/indralorth_2_dialog_1
 execute if score Real0 TIMER matches 1 in minecraft:overworld as @a[x=-3780,y=101,z=-5861,distance=..100,gamemode=adventure] run tp @s -3759 98 -5905

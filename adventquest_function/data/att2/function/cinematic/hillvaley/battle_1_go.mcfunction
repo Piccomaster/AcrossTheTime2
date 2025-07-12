@@ -8,7 +8,7 @@
 #===================#
 
 execute if score Real0 TIMER matches 0 run function att2:cinematic/hillvaley/battle_1_action_1
-execute if score Real0 TIMER matches 10 run function att2:gameplay/checkpoint/telluron_future/hill_valley1
+execute if score Real0 TIMER matches 10 as @a run function att2:gameplay/checkpoint/telluron_future/hill_valley1
 execute if score Real0 TIMER matches 60 run function att2:dialogs/mainquest/act_1/ch0_player_11
 execute if score Real0 TIMER matches 200 run function att2:dialogs/mainquest/act_1/ch0_player_12
 

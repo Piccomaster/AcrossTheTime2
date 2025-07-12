@@ -4,7 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 0 run scoreboard players set Attack1 EOLORION 0
-execute if score Real0 TIMER matches 5 run function att2:gameplay/checkpoint/telluron_present/eolorion4
+execute if score Real0 TIMER matches 5 in overworld as @a[x=-5377,y=112,z=-6313,distance=..100] run function att2:gameplay/checkpoint/telluron_present/eolorion4
 execute if score Real0 TIMER matches 5 run function att2:cinematic/act_4/eolorion/gate_attack/gate_closing
 execute if score Real0 TIMER matches 5 as @a[x=-5377,y=112,z=-6313,distance=..100,gamemode=adventure] run tp @s -5377 112 -6313
 execute if score Real0 TIMER matches 5 run function att2:cinematic/act_4/eolorion/gate_attack/summon_wave2

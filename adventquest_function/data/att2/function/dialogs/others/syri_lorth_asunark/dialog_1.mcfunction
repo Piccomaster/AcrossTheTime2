@@ -51,8 +51,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Pronto para voltar para Méleïm?","color":"dark_aqua"}]}
 
-
-function att2:dialogs/others/syri_lorth_asunark/player_answer_proposal_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"准备好返回Méleïm了吗？","color":"dark_aqua"}]}
+
+function att2:dialogs/others/syri_lorth_asunark/player_answer_proposal_1

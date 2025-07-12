@@ -545,7 +545,7 @@ scoreboard objectives remove DAR_LVL_EQ2
 scoreboard objectives remove DAR_LVL_EQ3
 scoreboard objectives remove DAR_LVL_EQ4
 scoreboard objectives remove DAR_LVL_SET
-scoreboard objectives remove DAR_LVL_EXT
+scoreboard objectives remove DAR_EXT
 scoreboard objectives remove TIMER_DAR_LE
 scoreboard objectives remove TIMER_DAR_PO
 scoreboard objectives remove TIMER_DAR_DAB
@@ -569,7 +569,7 @@ scoreboard objectives remove HAS_LVL_EQ2
 scoreboard objectives remove HAS_LVL_EQ3
 scoreboard objectives remove HAS_LVL_EQ4
 scoreboard objectives remove HAS_LVL_SET
-scoreboard objectives remove HAS_LVL_EXT
+scoreboard objectives remove HAS_EXT
 scoreboard objectives remove TIMER_HAS_LE
 scoreboard objectives remove TIMER_HAS_PO
 scoreboard objectives remove TIMER_HAS_DAB
@@ -593,7 +593,7 @@ scoreboard objectives remove HER_LVL_EQ2
 scoreboard objectives remove HER_LVL_EQ3
 scoreboard objectives remove HER_LVL_EQ4
 scoreboard objectives remove HER_LVL_SET
-scoreboard objectives remove HER_LVL_EXT
+scoreboard objectives remove HER_EXT
 scoreboard objectives remove HER_FOOD
 scoreboard objectives remove TIMER_HER_TOT
 scoreboard objectives remove TIMER_HER_LE
@@ -619,7 +619,7 @@ scoreboard objectives remove HUN_LVL_EQ2
 scoreboard objectives remove HUN_LVL_EQ3
 scoreboard objectives remove HUN_LVL_EQ4
 scoreboard objectives remove HUN_LVL_SET
-scoreboard objectives remove HUN_LVL_EXT
+scoreboard objectives remove HUN_EXT
 scoreboard objectives remove TIMER_HUN_TOT
 scoreboard objectives remove TIMER_HUN_LE
 scoreboard objectives remove TIMER_HUN_PO
@@ -644,7 +644,7 @@ scoreboard objectives remove LUC_LVL_EQ2
 scoreboard objectives remove LUC_LVL_EQ3
 scoreboard objectives remove LUC_LVL_EQ4
 scoreboard objectives remove LUC_LVL_SET
-scoreboard objectives remove LUC_LVL_EXT
+scoreboard objectives remove LUC_EXT
 scoreboard objectives remove TIMER_LUC_LE
 scoreboard objectives remove TIMER_LUC_PO
 scoreboard objectives remove TIMER_LUC_DAB
@@ -667,7 +667,7 @@ scoreboard objectives remove RES_LVL_EQ1
 scoreboard objectives remove RES_LVL_EQ2
 scoreboard objectives remove RES_LVL_EQ3
 scoreboard objectives remove RES_LVL_EQ4
-scoreboard objectives remove RES_LVL_EXT
+scoreboard objectives remove RES_EXT
 scoreboard objectives remove RES_LVL_SET
 scoreboard objectives remove TIMER_RES_LE
 scoreboard objectives remove TIMER_RES_PO
@@ -692,7 +692,7 @@ scoreboard objectives remove SPD_LVL_EQ2
 scoreboard objectives remove SPD_LVL_EQ3
 scoreboard objectives remove SPD_LVL_EQ4
 scoreboard objectives remove SPD_LVL_SET
-scoreboard objectives remove SPD_LVL_EXT
+scoreboard objectives remove SPD_EXT
 scoreboard objectives remove TIMER_SPD_LE
 scoreboard objectives remove TIMER_SPD_PO
 scoreboard objectives remove TIMER_SPD_DAB
@@ -716,7 +716,7 @@ scoreboard objectives remove STR_LVL_EQ2
 scoreboard objectives remove STR_LVL_EQ3
 scoreboard objectives remove STR_LVL_EQ4
 scoreboard objectives remove STR_LVL_SET
-scoreboard objectives remove STR_LVL_EXT
+scoreboard objectives remove STR_EXT
 scoreboard objectives remove TIMER_STR_LE
 scoreboard objectives remove TIMER_STR_PO
 scoreboard objectives remove TIMER_STR_DAB

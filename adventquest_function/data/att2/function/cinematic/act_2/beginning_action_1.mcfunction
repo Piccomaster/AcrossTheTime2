@@ -17,7 +17,7 @@ execute as @a at @s run function att2:gameplay/dahal/action/spell1/obtain
 execute as @a at @s run function att2:gameplay/dahal/action/spell1/selectlvl1
 #effect clear
 effect clear @a jump_boost
-function att2:gameplay/checkpoint/telluron_present/worlest_forest0
+execute as @a run function att2:gameplay/checkpoint/telluron_present/worlest_forest0
 weather thunder 3000
 scoreboard players set @a SHAKE_T 280
 scoreboard objectives setdisplay list CHRONOTON

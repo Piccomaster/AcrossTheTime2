@@ -9,7 +9,7 @@ gamerule doDaylightCycle true
 weather clear 8000
 time set 0
 effect give @a minecraft:instant_health 10
-scoreboard players set @a HUN_LVL_EXT 2
+scoreboard players set @a HUN_EXT 2
 scoreboard players set @a TIMER_HUN_EXT 5
 execute as @a run function att2:items/food/cooked_beef_0
 execute as @a run function att2:items/food/cooked_beef_0

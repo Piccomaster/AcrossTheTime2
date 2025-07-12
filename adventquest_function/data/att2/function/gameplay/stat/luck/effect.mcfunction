@@ -15,4 +15,4 @@ scoreboard players operation @s LUC_TOT += @s LUC_EH
 scoreboard players operation @s LUC_DATA = @s LUC_TOT
 scoreboard players operation @s LUC_DATA *= 50 CAL
 execute store result storage att2:attribute LUC double 0.01 run scoreboard players get @s LUC_DATA
-function att2:gameplay/estat/luck/attribute with storage att2:attribute
+function att2:gameplay/stat/luck/attribute with storage att2:attribute

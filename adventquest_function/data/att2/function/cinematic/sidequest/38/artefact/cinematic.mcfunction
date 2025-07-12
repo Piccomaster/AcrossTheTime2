@@ -3,7 +3,7 @@
 #Process cinematic artefact  					 #
 ##################################################
 
-execute if score Real1 TIMER matches 0 run function att2:gameplay/checkpoint/telluron_present/schestrown3
+execute if score Real1 TIMER matches 0 in overworld as @a[x=-4402,y=53,z=-5054,distance=..100] run function att2:gameplay/checkpoint/telluron_present/schestrown3
 execute if score Real1 TIMER matches 0 run function att2:dialogs/sidequest/sq38/player_1
 execute if score Real1 TIMER matches 0 as @a[nbt={Inventory:[{id:"minecraft:player_head",components:{"minecraft:custom_name":{translate:'item.quest.artefact.name'}}}]}] run tag @s add Artefact
 execute if score Real1 TIMER matches 1 as @a[tag=Artefact] run clear @s minecraft:player_head[custom_name={translate:'item.quest.artefact.name'}] 1

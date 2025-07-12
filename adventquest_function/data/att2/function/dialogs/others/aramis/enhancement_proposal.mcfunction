@@ -57,3 +57,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Se quiser aprimorar alguns dos seus feitiços de Dahäl, traga-me pó rúnico e eu cuido disso.","color":"dark_aqua","extra":[{"text":" [Ver mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Aramis está vendendo."}}]}]}
+
+#Simplified Chinese LANGUAGE
+
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis ：","color":"green","extra":[{"text":"如果你想强化某些Dahäl法术，请将符文粉末研磨好，我来帮你强化法术","color":"dark_aqua","extra":[{"text":" [查看商品 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hover_event":{"action":"show_text","value":"迪纳基这里查看Aramis强化的Dahal法术"}}]}]}

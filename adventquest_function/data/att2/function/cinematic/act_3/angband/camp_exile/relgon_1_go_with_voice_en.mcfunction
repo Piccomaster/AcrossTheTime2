@@ -6,7 +6,7 @@
 
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 62
 execute if score Neth0 TIMER matches 1 in minecraft:the_nether as @a run tp @s 3488 59 3779
-execute if score Neth0 TIMER matches 1 run function att2:gameplay/checkpoint/angband/exil_camp1
+execute if score Neth0 TIMER matches 1 as @a[scores={DIMENSION=6},x=3488,y=59,z=3779,distance=..100] run function att2:gameplay/checkpoint/angband/exil_camp1
 execute if score Neth0 TIMER matches 1 run function att2:dialogs/mainquest/act_3/ch2_relgon_1
 execute if score Neth0 TIMER matches 1 run function att2:voice/relgon/relgon1
 execute if score Neth0 TIMER matches 1 run function att2:physicmod/reg2/camp_exile/barrier1
@@ -33,9 +33,9 @@ execute if score Neth0 TIMER matches 350 run scoreboard players set 00000000-000
 execute if score Neth0 TIMER matches 350 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_TIMER 400
 execute if score Neth0 TIMER matches 450 run function att2:dialogs/mainquest/act_3/ch2_relgon_4
 execute if score Neth0 TIMER matches 450 run function att2:voice/relgon/relgon4
-execute if score Neth0 TIMER matches 450..2079 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Neth0 TIMER matches 450..2079 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 750 run function att2:dialogs/mainquest/act_3/ch2_player_2
-execute if score Neth0 TIMER matches 750 run scoreboard players set @a SPD_LVL_EXT -10
+execute if score Neth0 TIMER matches 750 run scoreboard players set @a SPD_EXT -10
 execute if score Neth0 TIMER matches 750 run scoreboard players set @a TIMER_SPD_EXT 2
 execute if score Neth0 TIMER matches 880 run function att2:dialogs/mainquest/act_3/ch2_relgon_5
 execute if score Neth0 TIMER matches 880 run function att2:voice/relgon/relgon5
@@ -50,7 +50,7 @@ execute if score Neth0 TIMER matches 1150 run scoreboard players set 00000000-00
 execute if score Neth0 TIMER matches 1270 run function att2:dialogs/mainquest/act_3/ch2_player_3
 execute if score Neth0 TIMER matches 1400 run function att2:dialogs/mainquest/act_3/ch2_etotsira_3
 execute if score Neth0 TIMER matches 1400 run function att2:voice/etotsira/etotsira18
-execute if score Neth0 TIMER matches 1400..1700 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Neth0 TIMER matches 1400..1700 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 1500 run function att2:dialogs/mainquest/act_3/ch2_player_4
 execute if score Neth0 TIMER matches 1600 run function att2:dialogs/mainquest/act_3/ch2_etotsira_4
 execute if score Neth0 TIMER matches 1600 run function att2:voice/etotsira/etotsira19
@@ -61,7 +61,7 @@ execute if score Neth0 TIMER matches 1680 run function att2:voice/etotsira/etots
 execute if score Neth0 TIMER matches 1800 run function att2:dialogs/mainquest/act_3/ch2_player_5
 execute if score Neth0 TIMER matches 1920 run function att2:dialogs/mainquest/act_3/ch2_etotsira_6
 execute if score Neth0 TIMER matches 1920 run function att2:voice/etotsira/etotsira21
-execute if score Neth0 TIMER matches 1920 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.01 ~ ~
+execute if score Neth0 TIMER matches 1920 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.01 ~ ~
 execute if score Neth0 TIMER matches 2080 run function att2:dialogs/mainquest/act_3/ch2_relgon_6
 execute if score Neth0 TIMER matches 2080 run function att2:voice/relgon/relgon6
 execute if score Neth0 TIMER matches 2080 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity 00000000-0000-008a-0000-00000000008a feet run teleport @s ^ ^ ^0.01 ~ 20
@@ -70,7 +70,7 @@ execute if score Neth0 TIMER matches 2200 run function att2:voice/etotsira/etots
 execute if score Neth0 TIMER matches 2200 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity 00000000-0000-007a-0000-00000000007a feet run teleport @s ^ ^ ^0.01 ~ ~
 execute if score Neth0 TIMER matches 2450 run function att2:dialogs/mainquest/act_3/ch2_relgon_7
 execute if score Neth0 TIMER matches 2450 run function att2:voice/relgon/relgon7
-execute if score Neth0 TIMER matches 2450..2750 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Neth0 TIMER matches 2450..2750 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 2450 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 1
 execute if score Neth0 TIMER matches 2450 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_TIMER 200
 execute if score Neth0 TIMER matches 2751 run scoreboard players set Mainquest SIDEQUEST 63

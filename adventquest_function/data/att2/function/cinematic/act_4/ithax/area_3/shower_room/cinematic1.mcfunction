@@ -13,7 +13,7 @@ execute if score Real0 TIMER matches 80..99 as @a[gamemode=spectator] run tp @s 
 execute if score Real0 TIMER matches 100..149 as @a[gamemode=spectator] run tp @s -7440 157 -5941.0 90 0
 execute if score Real0 TIMER matches 100..120 as 00000000-0000-007b-0000-00000000007b at @s anchored feet facing -7440 157 -5941 run teleport @s ^ ^ ^0.01 ~ ~
 execute if score Real0 TIMER matches 100 positioned -7440 157 -5941 run function att2:sound/mobs/guardian_scream
-execute if score Real0 TIMER matches 120 run scoreboard players set @a[scores={SPD_LVL_EXT=-25..}] SPD_LVL_EXT -25
+execute if score Real0 TIMER matches 120 run scoreboard players set @a[scores={SPD_EXT=-25..}] SPD_EXT -25
 execute if score Real0 TIMER matches 120 as @a[gamemode=spectator] run scoreboard players set @s TIMER_SPD_EXT 50
 execute if score Real0 TIMER matches 150..199 as @a[gamemode=spectator] run tp @s -7443 157 -5941.0 90 0
 execute if score Real0 TIMER matches 155 run function att2:physicmod/reg1/ithax/area3/shower_room_glass_breaking

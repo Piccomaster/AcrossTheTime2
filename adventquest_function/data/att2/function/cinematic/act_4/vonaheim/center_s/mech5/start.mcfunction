@@ -5,7 +5,7 @@
 
 scoreboard players set center_s_mech5 VONAHEIM 1
 function att2:physicmod/reg1/vonaheim/center_s/mech5_buttons
-function att2:gameplay/checkpoint/telluron_present/vonaheim28
+execute in overworld as @a[x=-5614,y=166,z=-6349,distance=..100] run function att2:gameplay/checkpoint/telluron_present/vonaheim28
 execute as @a run function att2:sound/mobs/vonaheim_laughing
 execute as @a run function att2:sound/mobs/vonaheim_tp
 

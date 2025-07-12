@@ -3,10 +3,6 @@
 #Process the hunger                              #
 ##################################################
 
-#execute as @a run function att2:gameplay/stat/hunger/sum
-
-##test STAT
-function att2:advancement/test_all/combat/hun
 #CAL SUM
 function att2:gameplay/stat/hunger/sum
 #effect assignement

@@ -1,0 +1,23 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/weaponsking/throw_atk/attack_trigger"
+  },
+  "criteria": {
+    "headhunter": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "team": "hostile"
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:trident",
+              "nbt": "{data:{Rarity:'myt'}}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

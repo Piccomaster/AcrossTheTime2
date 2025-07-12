@@ -147,5 +147,3 @@ execute if entity @s[predicate=att2_pre:item_color/leg_armset] run scoreboard pl
 execute if entity @s[predicate=att2_pre:item_color/leg_armset] run scoreboard players add leg RUNECOUNT 1
 #total_ult
 execute if entity @s[predicate=att2_pre:item_color/ult,predicate=!att2_pre:item_color/runewords] run scoreboard players add ult RUNECOUNT 1
-
-say 1

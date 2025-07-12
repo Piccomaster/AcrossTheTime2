@@ -1,0 +1,32 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/enchantment/sscombo/block_trigger"
+  },
+  "criteria": {
+    "greatsword_blocked": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#minecraft:swords",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "att2_enchantment:sscombo"
+                  }
+                ]
+              }
+            },
+            "offhand": {
+              "items": "minecraft:shield"
+            }
+          }
+        }
+      }
+    }
+  }
+}

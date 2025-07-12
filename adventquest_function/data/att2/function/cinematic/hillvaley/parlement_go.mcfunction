@@ -9,7 +9,7 @@
 
 execute if score Real0 TIMER matches 0 run function att2:dialogs/mainquest/act_1/ch0_serile_12
 execute if score Real0 TIMER matches 0 run function att2:voice/serile/serile12
-execute if score Real0 TIMER matches 0 run function att2:gameplay/checkpoint/telluron_future/hill_valley3
+execute if score Real0 TIMER matches 0 as @a run function att2:gameplay/checkpoint/telluron_future/hill_valley3
 execute if score Real0 TIMER matches 0 run fill 2040 101 1980 2044 97 1980 minecraft:air replace minecraft:spruce_log
 execute if score Real0 TIMER matches 0 run fill 2040 101 1980 2044 97 1980 minecraft:air replace minecraft:spruce_planks
 execute if score Real0 TIMER matches 0 run playsound minecraft:block.iron_door.open master @a ~ ~ ~ 1 0.2 1

@@ -238,6 +238,7 @@ execute if score Neth0 TIMER matches 10400 run function att2:dialogs/title/subti
 execute if score Neth0 TIMER matches 10400 run function att2:dialogs/title/credits/final_title0
 execute if score Neth0 TIMER matches 10500 run function att2:dialogs/title/credits/final_title1
 execute if score Neth0 TIMER matches 10500 run function att2:dialogs/title/credits/final_subtitle0
+##TODO what is "function att2:gameplay/checkpoint/remove_dimtag"??
 execute if score Neth0 TIMER matches 10608 as @a run function att2:gameplay/checkpoint/remove_dimtag
 execute if score Neth0 TIMER matches 10609 in minecraft:overworld run spawnpoint @a 1543 15 1495
 execute if score Neth0 TIMER matches 10610 run scoreboard objectives setdisplay sidebar DAHAL

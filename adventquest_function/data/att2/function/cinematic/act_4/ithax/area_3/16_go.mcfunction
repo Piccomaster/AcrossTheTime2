@@ -4,7 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 5 run advancement grant @a only att2:adventure/falling_down
-execute if score Real0 TIMER matches 5 run function att2:gameplay/checkpoint/telluron_past/nojelanth9
+execute if score Real0 TIMER matches 5 in overworld as @a[x=-7419,y=125,z=-5743,distance=..100] run function att2:gameplay/checkpoint/telluron_past/nojelanth9
 execute if score Real0 TIMER matches 5 as @a at @s run tp @s -7419 125 -5743
 execute if score Real0 TIMER matches 10 positioned -7427 127 -5743 run function att2:sound/door/mechanical_futurist_door_closing
 execute if score Real0 TIMER matches 10 run function att2:physicmod/reg1/ithax/ship_sas_closed

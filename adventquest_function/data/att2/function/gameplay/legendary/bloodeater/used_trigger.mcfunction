@@ -5,7 +5,7 @@
 
 #replace item
 execute if predicate att2_pre:legendary/bloodeater/mainhand run function att2:gameplay/legendary/bloodeater/replace/mainhand
-execute if predicate att2_pre:legendary/bloodeater/offhand run function att2:gameplay/legendary/bloodeater/replace/off
+execute if predicate att2_pre:legendary/bloodeater/offhand run function att2:gameplay/legendary/bloodeater/replace/offhand
 #reset
 scoreboard players reset @s BE_USING
 

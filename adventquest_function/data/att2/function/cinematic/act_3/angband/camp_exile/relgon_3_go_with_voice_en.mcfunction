@@ -55,7 +55,7 @@ execute if score Neth0 TIMER matches 1951 in minecraft:the_nether if entity @a[x
 #Dialog between Relgon & Player
 execute if score Neth0 TIMER matches 1955 in minecraft:the_nether run function att2:physicmod/reg2/camp_exile/barrier3
 execute if score Neth0 TIMER matches 1955 in minecraft:the_nether run tp @a[scores={DIMENSION=6}] 3482 63 3763
-execute if score Neth0 TIMER matches 1955 run function att2:gameplay/checkpoint/angband/exil_camp1
+execute if score Neth0 TIMER matches 1955 as @a[scores={DIMENSION=6},x=3482,y=63,z=3763,distance=..100] run function att2:gameplay/checkpoint/angband/exil_camp1
 execute if score Neth0 TIMER matches 1960 run function att2:dialogs/mainquest/act_3/ch4_player_9
 execute if score Neth0 TIMER matches 1980..2020 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 2040 in minecraft:the_nether as 00000000-0000-007a-0000-00000000007a at @s run tp @s ~ ~ ~ -145 25

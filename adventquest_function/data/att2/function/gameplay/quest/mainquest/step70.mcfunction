@@ -5,7 +5,7 @@
 
 scoreboard players set Objective GPS_DIM 6
 function att2:dialogs/mainquest/assistance/step70
-execute in minecraft:the_nether positioned 3512 88 4510 run function att2:gameplay/gps/summon_arrow
+execute in minecraft:the_nether positioned 3512 88 4510 unless block 3512 88 4510 minecraft:air run function att2:gameplay/gps/summon_arrow
 execute in minecraft:the_nether positioned 3623 35 4568 if block ~ ~ ~ minecraft:stone_button run function att2:gameplay/gps/summon_arrow
 
 execute in minecraft:the_nether as @e[tag=newGPS] at @s anchored feet facing 3512 88 4510 run function att2:gameplay/gps/tp_arrow

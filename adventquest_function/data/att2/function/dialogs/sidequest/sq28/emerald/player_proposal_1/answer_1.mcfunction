@@ -50,3 +50,7 @@ tellraw @s[scores={LANGUAGE=9},x=-5309,y=102,z=-6195,distance=..7] {"text":" °-
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10},x=-5309,y=102,z=-6195,distance=..7] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Então é hora! Pegue o pequeno caminho que sobe para o nordeste. Espero que consiga encontrar minha Selene antes que algo aconteça com ela...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+
+tellraw @s[scores={LANGUAGE=11},x=-5309,y=102,z=-6195,distance=..7] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"是时候出发了！沿着东北方方向的小路走。我希望你能在她出事之前找到她...","color":"dark_aqua"}]}

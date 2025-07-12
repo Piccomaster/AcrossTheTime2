@@ -1,0 +1,8 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "block": {
+            "nbt": "{LootTable:\"att2:ithax_foods\"}"
+        }
+    }
+}

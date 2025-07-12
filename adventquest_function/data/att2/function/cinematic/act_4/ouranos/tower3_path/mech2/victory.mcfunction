@@ -5,7 +5,7 @@
 
 function att2:cinematic/real0_init
 effect give @a[scores={OURANOS=-1}] minecraft:night_vision 4 4 true
-function att2:gameplay/checkpoint/ouranos/tower3_road5
+execute in overworld as @a[x=7711,y=182,z=6105,distance=..100] run function att2:gameplay/checkpoint/ouranos/tower3_road5
 
 scoreboard players set path3_mech2_timer1 OURANOS 10000
 scoreboard players set path3_mech2_timer2 OURANOS 0

@@ -16,6 +16,7 @@ title @a[gamemode=!adventure,scores={LANGUAGE=7}] title {"text":"¡TRAMPOSO!","c
 title @a[gamemode=!adventure,scores={LANGUAGE=8}] title {"text":"Betrüger!","color":"yellow"}
 title @a[gamemode=!adventure,scores={LANGUAGE=9}] title {"text":"धोखेबाज़!","color":"yellow"}
 title @a[gamemode=!adventure,scores={LANGUAGE=10}] title {"text":"TRAPAÇA!","color":"yellow"}
+title @a[gamemode=!adventure,scores={LANGUAGE=11}] title {"text":"警告!!!","color":"red"}
 
 title @a[gamemode=!adventure,scores={LANGUAGE=0}] subtitle {"text":"Alors, tu as cru qu'on allait te laisser faire?","color":"gold","bold":true}
 title @a[gamemode=!adventure,scores={LANGUAGE=1}] subtitle {"text":"Did you really believe that we would let you do that?","color":"gold","bold":true}
@@ -28,5 +29,6 @@ title @a[gamemode=!adventure,scores={LANGUAGE=7}] subtitle {"text":"¿De verdad 
 title @a[gamemode=!adventure,scores={LANGUAGE=8}] subtitle {"text":"Glaubst du wirklich, dass wir dich das tun lassen würden?","color":"gold","bold":true}
 title @a[gamemode=!adventure,scores={LANGUAGE=9}] subtitle {"text":"क्या आपको सच में लगा कि हम आपको ऐसा करने देंगे?","color":"gold","bold":true}
 title @a[gamemode=!adventure,scores={LANGUAGE=10}] subtitle {"text":"Você realmente achou que deixaríamos você fazer isso?","color":"gold","bold":true}
+title @a[gamemode=!adventure,scores={LANGUAGE=11}] subtitle {"text":"非冒险模式会导致大部分功能无法正常触发","color":"dark_red","bold":true}
 
-execute as @a[gamemode=!adventure] run function att2:gameplay/speceffect/disincarnate/go_back
+execute as @a[gamemode=!adventure] run function att2:gameplay/item/lifetime/go_back

@@ -8,7 +8,7 @@ execute positioned -3635 63 -4936 run function att2:cinematic/act_2/asunark/scar
 execute positioned -3627 66 -4936 run function att2:sound/misc/stone_falling
 particle minecraft:explosion_emitter -3616 65 -4935 2 2 2 1 20
 function att2:physicmod/reg1/asunark/outside_gridchest
-function att2:gameplay/checkpoint/telluron_present/asunark7
+execute in overworld as @a[x=-3616,y=65,z=-4935,distance=..100] run function att2:gameplay/checkpoint/telluron_present/asunark7
 
 scoreboard players set homer_PNJ DIALOG 3
 

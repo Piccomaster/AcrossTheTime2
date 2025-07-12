@@ -3,7 +3,7 @@
 #Process cinematic2  			 				 #
 ##################################################
 
-execute if score Real2 TIMER matches 1 run function att2:gameplay/checkpoint/telluron_present/schestrown3
+execute if score Real2 TIMER matches 1 in overworld as @a[x=-4402,y=53,z=-5054,distance=..100] run function att2:gameplay/checkpoint/telluron_present/schestrown3
 execute if score Real2 TIMER matches 5 as @a[x=-4375,y=60,z=-5054,distance=..50,gamemode=adventure] run function att2:gameplay/speceffect/disincarnate/start
 execute if score Real2 TIMER matches 6..199 as @a[gamemode=spectator] run tp @s -4384 55 -5050 -110 -10
 execute if score Real2 TIMER matches 10 at @a run function att2:sound/ambience/rumbling

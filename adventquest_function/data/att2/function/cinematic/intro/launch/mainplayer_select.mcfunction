@@ -8,6 +8,10 @@ function att2:cinematic/intro/tp_difficulty_selection
 scoreboard players set update INTRO 1
 scoreboard players set playernumber INTRO 1
 scoreboard players set @s NUMEROJOUEUR 1
+#summon mainplayer name
+function att2:cinematic/intro/mainplayer/name
+#give book
+function att2:items/lore/mainplayer_name
 
 #armor_stand summoning
 setblock 795 72 927 minecraft:redstone_block

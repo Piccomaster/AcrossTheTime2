@@ -13,7 +13,7 @@ execute if score FN_growing_annoyance TIMER matches 224 as @a[scores={DIMENSION=
 execute if score FN_growing_annoyance TIMER matches 212 as @a[scores={DIMENSION=6}] at @s positioned ~ ~ ~7 run function att2:sound/mobs/fn_step2
 execute if score FN_growing_annoyance TIMER matches 212 as @a[scores={DIMENSION=6}] run scoreboard players set @s SHAKE_L 30
 execute if score FN_growing_annoyance TIMER matches 150 as @a[scores={DIMENSION=6}] at @s positioned ~ ~ ~3 run function att2:sound/mobs/fn_slight_annoyance
-execute if score FN_growing_annoyance TIMER matches 140 as @a[scores={DIMENSION=6}] run scoreboard players set @s SPD_LVL_EXT -4
+execute if score FN_growing_annoyance TIMER matches 140 as @a[scores={DIMENSION=6}] run scoreboard players set @s SPD_EXT -4
 execute if score FN_growing_annoyance TIMER matches 140 as @a[scores={DIMENSION=6}] run scoreboard players set @s TIMER_SPD_EXT 40
 execute if score FN_growing_annoyance TIMER matches 120 as @a[scores={DIMENSION=6}] at @s positioned ~ ~ ~5 run function att2:sound/mobs/fn_attack1
 execute if score FN_growing_annoyance TIMER matches 120 as @a[scores={DIMENSION=6}] run scoreboard players set @s SHAKE_H 50

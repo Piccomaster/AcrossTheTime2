@@ -14,3 +14,6 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Bob L. : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1..}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"Careful! Incoming! Buuuuuuliiiaaaaaaaa bblblbllbl! ...","color":"dark_aqua"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"注意啦！！！！ 大的要来了！！！！ Buuuuuuliiiaaaaaaaa bblblbllbl!","color":"dark_aqua"}]}

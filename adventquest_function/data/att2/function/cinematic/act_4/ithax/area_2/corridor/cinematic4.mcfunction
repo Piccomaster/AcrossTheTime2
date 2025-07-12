@@ -9,7 +9,7 @@ execute if score Real0 TIMER matches 1..29 as @a[gamemode=spectator] run tp @s -
 execute if score Real0 TIMER matches 30..59 as @a[gamemode=spectator] run tp @s -7444 156 -5947 0 0
 execute if score Real0 TIMER matches 60..149 as @a[gamemode=spectator] run tp @s -7446 156 -5947 90 0
 execute if score Real0 TIMER matches 60 positioned -7445 156 -5947 run function att2:sound/misc/scary
-execute if score Real0 TIMER matches 60 run scoreboard players set @a[scores={SPD_LVL_EXT=-25..}] SPD_LVL_EXT -25
+execute if score Real0 TIMER matches 60 run scoreboard players set @a[scores={SPD_EXT=-25..}] SPD_EXT -25
 execute if score Real0 TIMER matches 60 as @a[gamemode=spectator] run scoreboard players set @s TIMER_SPD_EXT 50
 execute if score Real0 TIMER matches 140 positioned -7445 156 -5947 run function att2:sound/misc/screamer
 execute if score Real0 TIMER matches 140 run data merge entity 00000000-0000-007b-0000-00000000007b {NoAI:0b}

@@ -15,7 +15,7 @@ execute if score Neth0 TIMER matches 80 as @a[scores={DIMENSION=6}] at @s run fu
 execute if score Neth0 TIMER matches 90 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_slight_annoyance
 execute if score Neth0 TIMER matches 90 run scoreboard players set @a[scores={DIMENSION=6}] SHAKE_L 20
 execute if score Neth0 TIMER matches 90 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_3_action_4
-execute if score Neth0 TIMER matches 90..130 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Neth0 TIMER matches 90..130 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 120 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_deflagration
 execute if score Neth0 TIMER matches 120..200 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_3_action_2
 
@@ -26,7 +26,7 @@ execute if score Neth0 TIMER matches 130 as 00000000-0000-006a-0000-00000000006a
 execute if score Neth0 TIMER matches 130 as @a[scores={DIMENSION=6}] at @s run function att2:sound/misc/sword_unsheathe
 execute if score Neth0 TIMER matches 190 run function att2:dialogs/mainquest/act_3/ch5_relgon_4
 execute if score Neth0 TIMER matches 190 run function att2:voice/relgon/relgon50
-execute if score Neth0 TIMER matches 190 run scoreboard players set @a[scores={SPD_LVL_EXT=-25..}] SPD_LVL_EXT -25
+execute if score Neth0 TIMER matches 190 run scoreboard players set @a[scores={SPD_EXT=-25..}] SPD_EXT -25
 execute if score Neth0 TIMER matches 190 run scoreboard players set @a TIMER_SPD_EXT 60
 execute if score Neth0 TIMER matches 190..250 as @a[scores={DIMENSION=6}] at @s anchored feet facing entity 00000000-0000-007a-0000-00000000007a feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 190..250 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity 00000000-0000-006a-0000-00000000006a feet run teleport @s ^ ^ ^0.00001 ~ ~

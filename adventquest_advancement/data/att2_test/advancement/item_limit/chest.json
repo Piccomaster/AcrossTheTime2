@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/chest"
+    },
+    "criteria": {
+        "chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chest"
+                    }
+                ],
+                "player": {
+                    "nbt": "{Tags:['runtime']}"
+                }
+            }
+        }
+    }
+}
