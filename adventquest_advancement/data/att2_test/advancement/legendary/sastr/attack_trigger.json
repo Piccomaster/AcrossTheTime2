@@ -1,11 +1,13 @@
 {
+  "rewards": {
+    "function": "att2:gameplay/legendary/sastr/left_atk/trigger"
+  },
   "criteria": {
     "attack": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "team": "hostile",
-          "nbt": "{Tags:['KINUIL']}"
+          "team": "hostile"
         },
         "damage": {
           "type": {
@@ -28,10 +30,10 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "items": "minecraft:diamond_axe",
+              "items": "minecraft:diamond_pickaxe",
               "predicates": {
                 "minecraft:custom_data": {
-                  "EquipmentID": "kinuil"
+                  "EquipmentID": "sastr"
                 }
               }
             }
