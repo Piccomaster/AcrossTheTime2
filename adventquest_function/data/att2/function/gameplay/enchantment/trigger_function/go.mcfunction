@@ -9,7 +9,7 @@ execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/enchantme
 #greatsword
 function att2:gameplay/enchantment/trigger_function/greatsword
 #heart_protection
-execute if score @s TOTEM matches 1.. run function att2:gameplay/enchantment/heart_protection/particle
+function att2:gameplay/enchantment/trigger_function/heart_protection
 #sscombo
 function att2:gameplay/enchantment/trigger_function/sscombo
 #speedsave

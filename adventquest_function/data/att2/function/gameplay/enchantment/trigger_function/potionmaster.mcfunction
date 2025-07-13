@@ -8,4 +8,3 @@ scoreboard players operation temp_damage CAL *= 7 CAL
 scoreboard players operation temp_damage CAL /= 100 CAL
 execute if score temp_damage CAL >= @s DAMAGE run scoreboard players reset temp_damage CAL
 
-

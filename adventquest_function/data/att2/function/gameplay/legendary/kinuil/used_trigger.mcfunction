@@ -4,8 +4,8 @@
 #################################################################
 
 #replace item
-execute if predicate att2_pre:legendary/sastr/mainhand run function att2:gameplay/legendary/sastr/replace/mainhand
-execute if predicate att2_pre:legendary/sastr/offhand run function att2:gameplay/legendary/sastr/replace/offhand
+execute if predicate att2_pre:legendary/kinuil/mainhand run function att2:gameplay/legendary/kinuil/replace/mainhand
+execute if predicate att2_pre:legendary/kinuil/offhand run function att2:gameplay/legendary/kinuil/replace/offhand
 
 ##revoke test
-advancement revoke @s only att2_test:legendary/sastr/used_trigger
+advancement revoke @s only att2_test:legendary/kinuil/used_trigger
