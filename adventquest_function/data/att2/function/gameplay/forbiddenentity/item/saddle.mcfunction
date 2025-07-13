@@ -3,4 +3,7 @@
 #Destroy unauthorised items in player's inventory#
 ##################################################
 
-clear @a[nbt={SelectedItem:{id:"minecraft:bowl"}}] minecraft:bowl
+clear @s minecraft:saddle
+
+#
+advancement revoke @s only att2_test:item_limit/saddle

@@ -1,14 +1,14 @@
 {
     "rewards": {
-        "function": "att2:gameplay/forbiddenentity/item/chest"
+        "function": "att2:gameplay/forbiddenentity/item/saddle"
     },
     "criteria": {
-        "chest": {
+        "saddle": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:chest"
+                        "items": "minecraft:saddle"
                     }
                 ]
             }
