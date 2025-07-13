@@ -58,3 +58,6 @@ scoreboard players operation @s CHRONOTON += amethyst CHRONOTON
 scoreboard players operation @s CHRONOTON += ruby CHRONOTON
 #sound
 function att2:sound/misc/coins3
+
+#revoke test
+advancement revoke @s only att2_test:coin/all

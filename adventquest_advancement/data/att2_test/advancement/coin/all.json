@@ -1,0 +1,21 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/chronoton/inventory"
+    },
+    "criteria": {
+        "all_coin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Rarity": "cur"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
