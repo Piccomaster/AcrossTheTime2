@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": "minecraft:diamond_axe",
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "EquipmentID": "kinuil"
+                    }
+                }
+            }
+        }
+    }
+}
