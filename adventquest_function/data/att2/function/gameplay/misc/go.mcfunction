@@ -41,3 +41,5 @@ scoreboard players remove limit Voice 1
 execute as @a[predicate=att2_pre:mainplayer_name/hand] run function att2:gameplay/misc/mainplayer_name/go
 #back checkpoint
 execute as @a[scores={CHECKPOINT=1..}] at @s run function att2:gameplay/misc/checkpoint/go
+#xp grant
+execute if score tic TIMECOUNTER matches 7 as @a at @s if entity @e[type=experience_orb,distance=..2] run function att2:gameplay/misc/xp/go
