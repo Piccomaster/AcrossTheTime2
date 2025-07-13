@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "heart_protection": {
+      "trigger": "minecraft:entity_hurt_player",
+      "player": [
+        {
+          "condition": "reference",
+          "name": "att2_pre:enchantment/heart_protection/chest"
+        }
+      ]
+    }
+  }
+}
