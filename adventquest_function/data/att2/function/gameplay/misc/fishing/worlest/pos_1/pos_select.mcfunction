@@ -4,7 +4,7 @@
 #####################################################################
 
 #fill light
-function att2:gameplay/misc/fishing/symbol_clear#clear fishing symbol
+function att2:gameplay/misc/fishing/symbol_clear
 kill @e[type=item_display,tag=fishing_symbol,dy=3,dx=0,dz=0]
 
 #pos selected 1

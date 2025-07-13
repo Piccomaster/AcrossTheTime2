@@ -6,11 +6,11 @@
 #fill light
 function att2:gameplay/misc/fishing/symbol_clear
 #pos selected 1
-execute if score 1RNG100 RNG matches 1..20 run tp @s -ZZZZ ZZZZ -ZZZZ
-execute if score 1RNG100 RNG matches 21..40 run tp @s -ZZZZ ZZZZ -ZZZZ
-execute if score 1RNG100 RNG matches 41..60 run tp @s -ZZZZ ZZZZ -ZZZZ
-execute if score 1RNG100 RNG matches 61..80 run tp @s -ZZZZ ZZZZ -ZZZZ
-execute if score 1RNG100 RNG matches 81..100 run tp @s -ZZZZ ZZZZ -ZZZZ
+execute if score 1RNG100 RNG matches 1..20 run tp @s 0 0 0
+execute if score 1RNG100 RNG matches 21..40 run tp @s 0 0 0
+execute if score 1RNG100 RNG matches 41..60 run tp @s 0 0 0
+execute if score 1RNG100 RNG matches 61..80 run tp @s 0 0 0
+execute if score 1RNG100 RNG matches 81..100 run tp @s 0 0 0
 #tag remove
 tag @s remove SPOT_SELECT
 #detection discover
