@@ -4,6 +4,6 @@
 ##################################################
 
 #clear marker
-kill @e[type=item_display,tag=KINUIL,scores={OWNER=$(numerojoueur)}]
+$kill @e[type=item_display,tag=KINUIL,scores={OWNER=$(numerojoueur)}]
 #remove tag
-tag @e[team=hostile,scores={GAMELEVEL=0..},tag=KINUIL,scores={OWNER=$(numerojoueur)}] remove KINUIL
+$tag @e[team=hostile,scores={GAMELEVEL=0..},tag=KINUIL,scores={OWNER=$(numerojoueur)}] remove KINUIL

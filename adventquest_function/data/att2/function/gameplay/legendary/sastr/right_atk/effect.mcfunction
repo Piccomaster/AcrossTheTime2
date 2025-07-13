@@ -10,6 +10,6 @@ execute at @s anchored eyes positioned ^ ^ ^3 as @e[distance=..5,team=hostile,sc
 #set motion
 execute as @e[team=hostile,scores={GAMELEVEL=0..},tag=TEMP_ATK] at @s run function att2:gameplay/legendary/sastr/right_atk/motion
 #particle
-execute at @s anchored eyes positioned ^ ^ ^3 as @e[distance=..5,team=hostile,scores={GAMELEVEL=0..},limit=1,sort=nearest,tag=TEMP_ATK] at @s run function att2:gameplay/legendary/sastr/particle/atk_select
+execute at @s anchored eyes positioned ^ ^ ^3 as @e[distance=..5,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/legendary/sastr/particle/atk_select
 #remove tag 
 tag @e[team=hostile,scores={GAMELEVEL=0..},tag=TEMP_ATK] remove TEMP_ATK
