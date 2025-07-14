@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/saddle"
+    },
+    "criteria": {
+        "saddle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:saddle"
+                    }
+                ]
+            }
+        }
+    }
+}

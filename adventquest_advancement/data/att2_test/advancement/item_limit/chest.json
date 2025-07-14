@@ -10,10 +10,7 @@
                     {
                         "items": "minecraft:chest"
                     }
-                ],
-                "player": {
-                    "nbt": "{Tags:['runtime']}"
-                }
+                ]
             }
         }
     }

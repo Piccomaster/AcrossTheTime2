@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/water_bottle"
+    },
+    "criteria": {
+        "water_bottle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:potion",
+                        "predicates": {
+                            "minecraft:potion_contents": "water"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

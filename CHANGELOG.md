@@ -77,6 +77,24 @@
   - Pulls in nearby enemies
   - Deals continuous lightning damage
 
+  -**Kinuil**
+- **Right Click**: Releases a flame field that:
+  - Applies a flame mark to one random nearby enemy
+- **Attacking marked enemies**:
+  - Deals random splash damage to nearby enemies
+
+- **Sastr**
+
+- **Left Attack**:
+  - Knocks back hit enemies
+  - If knocked-back enemies collide with walls or other enemies:
+    • Deals AoE (Area of Effect) damage to nearby enemies
+    • Knocks back surrounding enemies
+    • User recoils backward
+- **Right Attack**:
+  - Launches forward enemies into the air
+
+
 - **Chests names display**
   - Chests containing quest items or books will now display unique names.
 

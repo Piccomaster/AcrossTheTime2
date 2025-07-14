@@ -1,11 +1,12 @@
 {
-  "rewards": {
-    "function": "att2:gameplay/legendary/kinuil/attack_trigger"
-  },
   "criteria": {
     "attack": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
+        "entity": {
+          "team": "hostile",
+          "nbt": "{Tags:['KINUIL']}"
+        },
         "damage": {
           "type": {
             "tags": [

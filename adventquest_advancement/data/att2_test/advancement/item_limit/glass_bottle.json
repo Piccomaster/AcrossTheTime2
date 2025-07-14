@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/glass_bottle"
+    },
+    "criteria": {
+        "glass_bottle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:glass_bottle"
+                    }
+                ]
+            }
+        }
+    }
+}

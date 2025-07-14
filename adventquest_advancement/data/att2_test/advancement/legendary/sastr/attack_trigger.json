@@ -1,0 +1,45 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/sastr/left_atk/trigger"
+  },
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "team": "hostile"
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_cooldown",
+                "expected": false
+              },
+              {
+                "id": "minecraft:avoids_guardian_thorns",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:diamond_pickaxe",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "EquipmentID": "sastr"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
