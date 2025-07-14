@@ -60,8 +60,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Pronto para sua viagem de volta?","color":"dark_aqua"}]}
 
-
-function att2:dialogs/mainquest/act_5/pnj_etotsira/player_answer_proposal_2
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"准备好返程了么？ ","color":"dark_aqua"}]}
+
+function att2:dialogs/mainquest/act_5/pnj_etotsira/player_answer_proposal_2

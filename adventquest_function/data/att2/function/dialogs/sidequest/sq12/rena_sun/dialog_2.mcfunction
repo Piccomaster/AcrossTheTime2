@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rena Sun : ","color":"green","ex
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Ah, você voltou. Então você me ajudaria a desbloquear a porta próxima? Ainda não encontrei ninguém mais para me ajudar...","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_3
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊，你回来了，你帮我打开旁边的门了吗？我还没有找到其他人来帮助我...","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_3

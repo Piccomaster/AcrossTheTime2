@@ -52,8 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Então, o que você acha disso?","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_2
-
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"所以，你怎么看？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"发生了什么不好的事吗？是什么在困扰着你呢？","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*抽泣中*就是...我...你瞧，我找不到我的小猫Totoro了...我已经两天没看见过它了，我担心...","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_2X

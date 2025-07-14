@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° वुल्क : ","color":"gre
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Você se lembra de Henry Jones Senior? A abertura do portal para Ryliath lhe deu um gosto por aventura! Ele também o pegou emprestado... Antes de partir, ele me contou sobre uma lenda: existe um tipo muito estranho de arma com ornamentos esverdeados de materiais desconhecidos para o nosso mundo. Ela está adormecida em um templo florestal chamado ''Worlëst''. Sendo um colecionador, eu ficaria encantado se você a trouxesse de volta para mim se conseguir encontrá-la!","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq21/vulk/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq21/vulk/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"你记得我们的老朋友Henry_Jones_Senior吗？Rylaith传送门开启之后,他又开始了他的冒险之旅！在他临走之前还告诉过我一个传说：有一个很奇怪的武器，它由一种不属于我们这个世界的一种绿色材料铸成。它沉睡在“Worlest”的森林神庙里。作为一个武器收藏家，这件传说中的武器对我来说真是太诱人了。如果你能为我找到它的话，我会尽我所能报答你的！ ","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq21/vulk/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq21/vulk/player_proposal_1/choice_2

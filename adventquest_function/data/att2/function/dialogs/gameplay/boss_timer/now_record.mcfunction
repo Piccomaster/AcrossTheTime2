@@ -26,7 +26,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"","extra":[{"text":"§e【§6वर्�
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"","extra":[{"text":"§e【§6Recorde Atual§e】"}]}
 
-
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"","extra":[{"text":"§e【§6本次纪录§e】"}]}

@@ -81,11 +81,11 @@ tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"Então leve uma caixa com você, isso permitirá que eles resistam por mais alguns dias.","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"实在不行，我拿着你的货物回到Eolorion怎么样？","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"那你带着这个货箱，至少它可以让城里的人们再挺几天。","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq31/raphael/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq31/raphael/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq31/raphael/player_proposal_1/choice_3
 function att2:dialogs/sidequest/sq31/raphael/player_proposal_1/choice_4
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"实在不行，我拿着你的货物回到Eolorion怎么样？","color":"aqua"}]}
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"那你带着这个货箱，至少它可以让城里的人们再挺几天。","color":"dark_aqua"}]}

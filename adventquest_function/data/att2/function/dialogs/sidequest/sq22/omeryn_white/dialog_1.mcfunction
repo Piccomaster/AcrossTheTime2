@@ -52,10 +52,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Omeryn White : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Oh você! Que ousadia entrar aqui! Eu gosto disso! Eu preciso de alguém como você para se livrar dos monstros que invadiram meu armazém. São esqueletos animados e perigosos, eles vieram de uma caverna escura ao lado! Haverá uma boa recompensa se você me ajudar!","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"唉你！你居然敢进来！我就喜欢像你这样的人！我需要像你这样勇士来帮我除掉侵入我的仓库的怪物。它们是从隔壁的一个黑暗洞穴里来的！如果你帮助我的话，我会给你一些奖励！","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_3
 scoreboard players set omeryn_white_PNJ DIALOG 2
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"唉你！你居然敢进来！我就喜欢像你这样的人！我需要像你这样勇士来帮我除掉侵入我的仓库的怪物。它们是从隔壁的一个黑暗洞穴里来的！如果你帮助我的话，我会给你一些奖励！","color":"dark_aqua"}]}

@@ -51,8 +51,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कार्मिन मोर�
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Carmine Mordan : ","color":"green","extra":[{"text":"Olá, precisa de armaduras e armas? Não me interprete mal, sim, sou uma das poucas mulheres que praticam esta arte em toda a região, mas minhas habilidades superam em muito as dos meus colegas masculinos! Você só precisa ver por si mesmo o que eu faço!","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Carmine está vendendo."}}]}]}
 
-
-scoreboard players set carmine_mordan_PNJ DIALOG 2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Carmine Mordan : ","color":"green","extra":[{"text":"你好，需要武器和盔甲吗？是的，你没看走眼，虽然我是整个大陆里唯一的女铁匠，但我的可比那些男铁匠的好多了！挑选自己满意的东西就行，质量绝对杠杠的！","color":"dark_aqua","extra":[{"text":" [看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Carmine售卖的装备。"}}]}]}
+
+scoreboard players set carmine_mordan_PNJ DIALOG 2

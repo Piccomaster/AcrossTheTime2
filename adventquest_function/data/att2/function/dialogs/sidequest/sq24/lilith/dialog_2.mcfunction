@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lilith : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"Desculpe-me, você pode me ajudar agora? Não há mais ninguém aqui e eu estou fraca demais para transportar toda a minha mercadoria para casa sozinha. Não posso deixá-la aqui...","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"打扰一下，你可以帮助我吗？这里人太少了，我现在很虚弱，没办法一个人把这些货物都带回家，我不能把这些东西丢在这里不管...","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_2

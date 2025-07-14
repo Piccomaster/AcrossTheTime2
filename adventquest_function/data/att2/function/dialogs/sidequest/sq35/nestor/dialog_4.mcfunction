@@ -59,7 +59,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Nestor : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Você voltou? Nunca poderei te agradecer o suficiente pela ajuda que você me deu. Os clientes finalmente estão voltando, e em breve minha família fará o mesmo.","color":"dark_aqua"}]}
 
 
-function att2:dialogs/gameplay/inn/proposal_nestor
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"你回来了？真的是感激不尽。我的客人终于可以回来了，我也终于可以和我的家人团聚。","color":"dark_aqua"}]}
+
+function att2:dialogs/gameplay/inn/proposal_nestor

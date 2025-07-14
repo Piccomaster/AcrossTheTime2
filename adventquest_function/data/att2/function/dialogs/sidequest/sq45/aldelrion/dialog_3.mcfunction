@@ -81,10 +81,10 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Eu entendo por que você queria recuperá-la. É realmente uma ferramenta magnífica.","color":"aqua"}]}
 
 
-function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_1
-function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_2
-function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_3
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"“希律王”之死，原始的优雅与粗犷的力量混合在一起。","color":"dark_aqua"}]}
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"我明白你为什么要找回它。这真是一个了不起的东西。","color":"aqua"}]}
+
+function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_1
+function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_2
+function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_3

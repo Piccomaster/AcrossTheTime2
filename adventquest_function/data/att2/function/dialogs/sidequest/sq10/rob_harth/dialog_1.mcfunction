@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rob Harth : ","color":"green","e
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Socorro, monstros! Você! Me ajude, eu imploro! Monstros invadiram minhas terras e meu celeiro! O que eu vou fazer, eu não sei lutar! Por favor, livre-se deles para mim e eu pagarei você como compensação!","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"有人吗？有怪物！嘿！你！帮帮我，求求你了！怪物入侵了我的田地和谷仓！我该怎么办，我不会打架！请帮助我摆脱它们，我会给你补偿的！","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"有人吗？有怪物！嘿！你！帮帮我，求求你了！怪物入侵了我的田地和谷仓！我该怎么办，我不会打架！请帮助我摆脱它们，我会给你补偿的！","color":"dark_aqua"}]}

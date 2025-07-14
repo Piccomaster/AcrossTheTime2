@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Vulk : ","color":"green","extra"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Olá, como vai você? Desde que você me trouxe esta maça estranha, encontrei uma maneira de criar outras armas do mesmo tipo. Então, não hesite em olhar o que tenho em estoque.","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/vulk_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Vulk está vendendo."}}]}]}
 
 
-function att2:dialogs/gameplay/shop/mending/proposal
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"嘿，你好吗？自从你交给我这把奇怪的棒子后，我就找到打造和它相同样式的武器的方法了—这些是我的杰作，随便看看吧。","color":"dark_aqua","extra":[{"text":" [看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/vulk_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Vulk售卖的装备。"}}]}]}
+
+function att2:dialogs/gameplay/shop/mending/proposal

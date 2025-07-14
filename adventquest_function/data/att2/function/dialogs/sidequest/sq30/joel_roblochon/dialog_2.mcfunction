@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Joël Roblochon : ","color":"gre
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"Ei, cuidado! Você está bem? O que você estava fazendo na lareira, caramba? Este palácio é como um verdadeiro queijo suíço com todas essas passagens secretas! Hm... isso talvez explique essa bota queimada no fundo do forno que encontrei outro dia...","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"嘿，小心点儿！你在这壁炉里搞什么鬼？这座宫殿真是个瑞士奶酪，到处都是些秘密通道！嗯...这到是可以解释我前天在烟囱底部发现的那只烧焦的靴子...","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq30/joel_roblochon/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq30/joel_roblochon/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq30/joel_roblochon/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"嘿，小心点儿！你在这壁炉里搞什么鬼？这座宫殿真是个瑞士奶酪，到处都是些秘密通道！嗯...这到是可以解释我前天在烟囱底部发现的那只烧焦的靴子...","color":"dark_aqua"}]}

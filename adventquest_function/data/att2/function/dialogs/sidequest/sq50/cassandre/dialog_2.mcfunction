@@ -75,9 +75,9 @@ tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*soluçando* É... Eu... Não consigo encontrar meu gatinho Totoro... Não o vejo há dois dias e temo que...","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"发生了什么不好的事吗？是什么在困扰着你呢？","color":"aqua"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*抽泣中*就是...我...你瞧，我找不到我的小猫Totoro了...我已经两天没看见过它了，我担心...","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_2

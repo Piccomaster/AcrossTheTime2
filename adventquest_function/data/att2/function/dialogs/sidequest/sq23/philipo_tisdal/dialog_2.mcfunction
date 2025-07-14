@@ -52,10 +52,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Ei, você não respondeu à minha proposta, ainda está disponível para me ajudar a me livrar de todas essas criaturas dos meus campos?","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"嘿，你还没有回应我的问题。你有时间帮我把这些老鼠从我的农场里赶走吗？ ","color":"dark_aqua"}]}
+
 
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"嘿，你还没有回应我的问题。你有时间帮我把这些老鼠从我的农场里赶走吗？ ","color":"dark_aqua"}]}

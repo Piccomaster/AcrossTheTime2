@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Feanorth : ","color":"green","ex
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Ei! Você está de volta à região, isso é bom! Sei que depois dos feitos que você realizou, posso pedir muito, mas preciso de ajuda com um ninho de Atricanth... Essas criaturas ainda jovens, felizmente muito menos perigosas que os adultos, são uma verdadeira praga. Elas se acomodaram em certos bairros de Angor e muitos guerreiros já morreram durante a guerra... Não tenho muitas pessoas para lidar com esse problema, por isso estou pedindo suas habilidades de combate.","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"嘿！你又回来了。太好了！我知道你完成了很多辉煌的成就，我这里可能有一些麻烦，所以我需要你的帮助!—Atricanth巢穴里面有一些小生物，还好它们还没成年，但是如果放任不管就会形成灾难。这些生物在angor某处筑巢，但是我们的战士在不久前的战争中牺牲了许多，我们没有足够的人手去清剿这些生物，所以我希望可以借助你的力量帮助我们消灭这些生物。","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_2

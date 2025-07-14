@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Jade Rozaell : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jade Rozaell : ","color":"green","extra":[{"text":"Venha sem medo à minha loja. Aqui há equipamentos raros que eu vendo com prazer em troca de: ","color":"dark_aqua"},{"text":"<Escama Soberana do Caos>","color":"light_purple"},{"text":" À minha esquerda você pode armazená-los como quiser. Ok, agora vamos fazer negócios.","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/jade_rozaell_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Jade está vendendo."}}]}]}
 
 
-function att2:dialogs/gameplay/shop/esc_display
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Jade Rozaell : ","color":"green","extra":[{"text":"放轻松，只是商店而已。这里出售一些稀有的装备。","color":"dark_aqua"},{"text":"<奇珍装备>","color":"light_purple"},{"text":"想购买它们的话,你可以在我的左手边存入这种特殊的交易物品。好了，场面话说完了，来谈生意吧。","color":"dark_aqua","extra":[{"text":"[看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/jade_rozaell_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Jade售卖的装备。"}}]}]}
+
+function att2:dialogs/gameplay/shop/esc_display

@@ -61,7 +61,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Espere herói, se você passar por este portal, receio que não possa voltar. Você tem certeza de que está pronto?","color":"dark_aqua"}]}
 
 
-function att2:dialogs/mainquest/act_5/pnj_etotsira/player_answer_proposal_1
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"稍等一下，我们的英雄，如果你通过这扇传送门，有可能就再也回不来了。你准备好了吗？ ","color":"dark_aqua"}]}
+
+function att2:dialogs/mainquest/act_5/pnj_etotsira/player_answer_proposal_1

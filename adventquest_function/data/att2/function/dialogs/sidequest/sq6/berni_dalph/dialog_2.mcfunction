@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Berni Dalph : ","color":"green",
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Não senhor, o acesso aos esgotos é estritamente proibido, por ordem do rei...","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"不，先生，这是国王的命令，严禁进入下水道...","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq6/berni_dalph/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq6/berni_dalph/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq6/berni_dalph/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"不，先生，这是国王的命令，严禁进入下水道...","color":"dark_aqua"}]}

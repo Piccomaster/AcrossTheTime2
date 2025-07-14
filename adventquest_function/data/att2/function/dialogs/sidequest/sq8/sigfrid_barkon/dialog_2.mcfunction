@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"Você é um aventureiro, não é? Tem tempo disponível? Meu fornecedor de carne para outras cidades não deu sinal de vida há uma semana e não conseguirei manter toda essa carne refrigerada por muito tempo. Você poderia entregar esse estoque de carne para Méleïm? Claro, eu pagarei.","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"你是冒险者吗？可以帮我个忙吗？我那负责运肉的运输商已经一周没有讯息了，我没办法长时间保存这些肉。你能把这批牛肉送到Méleïm吗？不用担心，我会付钱给你的。","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_2

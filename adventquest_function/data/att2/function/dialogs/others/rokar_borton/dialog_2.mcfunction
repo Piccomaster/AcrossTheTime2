@@ -51,9 +51,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Borton : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Borton : ","color":"green","extra":[{"text":"Oh, aí está você de novo! Convencido pelas minhas armas e armaduras de ouro?","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/rokar_borton_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Rokar está vendendo."}}]}]}
 
-
-
-function att2:dialogs/gameplay/shop/mending/proposal
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Borton : ","color":"green","extra":[{"text":"噢，又是你！和我的金盔甲和金武器打过招呼了吗？","color":"dark_aqua","extra":[{"text":" [看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/rokar_borton_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Borton售卖的装备。"}}]}]}
+
+function att2:dialogs/gameplay/shop/mending/proposal

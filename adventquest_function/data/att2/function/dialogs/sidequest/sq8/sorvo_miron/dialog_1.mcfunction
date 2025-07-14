@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° सोरवो मिरोन 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"Olá, eu sou Sorvo, o taverneiro de Méleïm, o que deseja, meu bom senhor?","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq8/sorvo_miron/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq8/sorvo_miron/player_proposal_1/choice_2
 
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"你好，我是Sorvo，Méleïm的酒馆老板。你想要点什么，尊敬的先生？ ","color":"dark_aqua"}]}
+function att2:dialogs/sidequest/sq8/sorvo_miron/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq8/sorvo_miron/player_proposal_1/choice_2

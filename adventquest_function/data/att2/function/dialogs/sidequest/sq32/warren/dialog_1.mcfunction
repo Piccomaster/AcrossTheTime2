@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Warren : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"É o meu dia de sorte, você pode me ajudar? Sou um comerciante e frequentemente uso este atalho sob as montanhas para entregar minhas mercadorias na cidade. Corri o risco de atravessar apesar da atividade do vulcão. Infelizmente, houve tremores e depois deslizamentos de terra, e eu perdi minha carga enquanto fugia para salvar minha pele.","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"今天真是我的幸运日，你能帮帮我吗？我是一个商人，我经常走这个山中的小路往城里运送我的货物。尽管这里火山活动很频繁，但我还是冒着风险穿越过去。结果发生了地震，我遇到了山体滑坡，为了保命我丢下了我的货物。","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq32/warren/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq32/warren/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq32/warren/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"今天真是我的幸运日，你能帮帮我吗？我是一个商人，我经常走这个山中的小路往城里运送我的货物。尽管这里火山活动很频繁，但我还是冒着风险穿越过去。结果发生了地震，我遇到了山体滑坡，为了保命我丢下了我的货物。","color":"dark_aqua"}]}

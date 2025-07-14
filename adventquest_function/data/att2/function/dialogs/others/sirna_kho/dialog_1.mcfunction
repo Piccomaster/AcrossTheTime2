@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sirna Kho : ","color":"green","e
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sirna Kho : ","color":"green","extra":[{"text":"Ei, psst, eu tenho algo para te fazer feliz. Eu vendo objetos poderosos apenas em troca desta mercadoria rara: ","color":"dark_aqua"},{"text":"<Sovereign Scale of Chaos>","color":"light_purple"},{"text":" Solte-os à minha esquerda, bem ali, sem medo de perdê-los. Tudo será salvo aqui em uma bolsa pertencente apenas a você. Vou deixar você ver o que está à venda.","color":"dark_aqua","extra":[{"text":" [Veja a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/sirna_kho_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Sirna está vendendo."}}]}]}
 
 
-function att2:dialogs/gameplay/shop/esc_display
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sirna Kho : ","color":"green","extra":[{"text":"嘘—我这儿有些好东西！我愿意拿这些强力装备来交换一种稀有的物品: ","color":"dark_aqua"},{"text":"<奇珍装备>","color":"light_purple"},{"text":" 。到我左边的踏板上存入他们吧—啊，我会帮保管的，不用担心弄丟的问题。您可以先看看有没有中意的东西。","color":"dark_aqua","extra":[{"text":" [看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/sirna_kho_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Sirna售卖的装备。"}}]}]}
+
+function att2:dialogs/gameplay/shop/esc_display

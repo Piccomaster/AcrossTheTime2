@@ -66,8 +66,8 @@ tellraw @s[scores={LANGUAGE=10}] {"selector":"@s","color":"dark_red","extra":[{"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Ahaha, Sylvandre, sempre pronto para ajudar!","color":"dark_aqua"}]}
 
 
-function att2:dialogs/others/sylvandre/player_answer_proposal_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"你总是出现得那么及时，不是吗？","color":"aqua"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"啊哈！Sylvandre，随叫随到的好帮手！","color":"dark_aqua"}]}
+
+function att2:dialogs/others/sylvandre/player_answer_proposal_1

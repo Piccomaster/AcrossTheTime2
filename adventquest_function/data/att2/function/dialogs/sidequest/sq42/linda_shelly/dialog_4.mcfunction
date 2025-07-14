@@ -51,8 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Peço que saia da minha casa! Vá embora!!","color":"dark_aqua"}]}
 
-
-function att2:dialogs/sidequest/sq42/linda_shelly/player_proposal_2/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"我请你离开我的房子！出去！！","color":"dark_aqua"}]}
+
+
+function att2:dialogs/sidequest/sq42/linda_shelly/player_proposal_2/choice_2

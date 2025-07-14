@@ -25,7 +25,5 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"","extra":[{"text":"§e【§6Beste Aufz
 tellraw @s[scores={LANGUAGE=9}] {"text":"","extra":[{"text":"§e【§6टूर्नामेंट I-V का सर्वश्रेष्ठ रिकॉर्ड§e】"}]}
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"","extra":[{"text":"§e【§6Melhor recorde do torneio I-V§e】"}]}
-
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"","extra":[{"text":"§e【§6锦标赛 I-V 最佳纪录§e】"}]}

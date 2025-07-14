@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Rob Harth : ","color":"green","e
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Então, você vai me ajudar a me livrar desses monstros?","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_3
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"所以，你会帮我摆脱这些怪物吗？","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_3

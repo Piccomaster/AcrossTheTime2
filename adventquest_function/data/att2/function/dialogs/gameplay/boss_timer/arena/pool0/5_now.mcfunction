@@ -25,11 +25,5 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"§6‖ ☼§4 Zeitaufwand für die Kert
 tellraw @s[scores={LANGUAGE=9}] {"text":"§6‖ ☼§4 केर्ट अखाड़े के लिए लिया गया समय§8:","color":"dark_red","extra":[{"score":{"name":"pool0_5_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_5_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_5_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"§6‖ ☼§4 Tempo gasto para a arena de Kert§8:","color":"dark_red","extra":[{"score":{"name":"pool0_5_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_5_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_5_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
-
-
-
-#Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"§6‖ ☼§4 Kert场地赛§c用时§8:","color":"dark_red","extra":[{"score":{"name":"pool0_5_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_5_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_5_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"§6‖ ☼§4 Kert场地赛§c用时§8:","color":"dark_red","extra":[{"score":{"name":"pool0_5_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_5_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_5_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}

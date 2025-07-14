@@ -59,9 +59,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hurriel Sun : ","color":"green",
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Você vai me ajudar com minhas chaves?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"你能帮我拿钥匙吗？ ","color":"dark_aqua"}]}
+
 
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"你能帮我拿钥匙吗？ ","color":"dark_aqua"}]}

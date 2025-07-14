@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wulk : ","color":"green","extra"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Dê uma olhada nos meus produtos e me diga o que pode lhe interessar.","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/wulk_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Wulk está vendendo."}}]}]}
 
 
-function att2:dialogs/gameplay/shop/mending/proposal
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"看看我做的装备吧—看完后告诉我想要啥就行。","color":"dark_aqua","extra":[{"text":" [看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/wulk_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Wulk售卖的装备。"}}]}]}
+
+function att2:dialogs/gameplay/shop/mending/proposal

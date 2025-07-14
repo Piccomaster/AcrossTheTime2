@@ -59,9 +59,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Olá, querido amigo. Ëarndhel é uma cidade bonita e eu gosto dela. Havia esta casa abandonada e com o dinheiro que ganhamos eu poderei começar uma nova vida!","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"嗨，老朋友。Earndhel是一座美丽的城市，我很喜欢它,有了这间废弃的房子，还有我们一起赚到的钱，我终于可以开始新生活了！ ","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/choice_1
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/choice_2
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"嗨，老朋友。Earndhel是一座美丽的城市，我很喜欢它,有了这间废弃的房子，还有我们一起赚到的钱，我终于可以开始新生活了！ ","color":"dark_aqua"}]}

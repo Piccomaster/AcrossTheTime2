@@ -25,8 +25,5 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"§6‖ ☼§4 Zeitaufwand für die Ëar
 tellraw @s[scores={LANGUAGE=9}] {"text":"§6‖ ☼§4 ईयरन्डहेल राउंड-ईथर की लीग के लिए लिया गया समय§8:","color":"dark_red","extra":[{"score":{"name":"pool2_3_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool2_3_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool2_3_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"§6‖ ☼§4 Tempo gasto para a rodada de Ëarndhel - Liga do Éter§8:","color":"dark_red","extra":[{"score":{"name":"pool2_3_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool2_3_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool2_3_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
-
-
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"§6‖ ☼§4 Ëarndhel-以太联盟§c用时§8:","color":"dark_red","extra":[{"score":{"name":"pool2_3_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool2_3_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool2_3_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}

@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Então, você está pronto?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"那么，你准备好了吗？","color":"dark_aqua"}]}
+
 
 function att2:voice/namrin/namrin_sidequest17
 function att2:dialogs/sidequest/sq47/namrin/player_proposal_1/choice_1
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"那么，你准备好了吗？","color":"dark_aqua"}]}

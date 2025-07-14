@@ -51,10 +51,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Falei com alguns moradores de Méleïm e tenho uma nova pista: minha filha realmente passou por Méleïm... Sélène planejava ir para a grande pedreira dos Morniths não muito longe daqui, a oeste. Você ainda está em boa forma para continuar a jornada comigo? Não vou me importar se você desistir agora, você já me ajudou muito.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我和几位Méleïm镇的人交流，我得到了一个新的线索: 我女儿Sélène已经经过了Méleïm镇,她计划前往在Méleïm镇西部的Morniths采石场底部的一个巨大矿井。你还有精力和我一起旅行吗？如果你现在放弃我是不会介意的，你已经帮了我太多太多。","color":"dark_aqua"}]}
 
 function att2:dialogs/sidequest/sq27/emerald/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq27/emerald/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq27/emerald/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我和几位Méleïm镇的人交流，我得到了一个新的线索: 我女儿Sélène已经经过了Méleïm镇,她计划前往在Méleïm镇西部的Morniths采石场底部的一个巨大矿井。你还有精力和我一起旅行吗？如果你现在放弃我是不会介意的，你已经帮了我太多太多。","color":"dark_aqua"}]}

@@ -51,10 +51,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Lilith : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"Por favor, preciso de ajuda. Meu cavalo entrou em pânico e com a minha carreta colidi com uma árvore que derrubou toda a minha mercadoria. Não só meu cavalo fugiu, como minha carreta também foi destruída... Eu não moro muito longe, você pode me ajudar a levar as mercadorias para casa? Eu vou te dar algo pequeno em troca...","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"求你了，我需要帮助。我的马受到了惊吓，我的货车撞到一棵树上，货物散落了一地。我的马跑了，车子也坏了...我家离这儿不是很远，你能帮我把货物带回去吗？我会给你一些东西作为报酬...","color":"dark_aqua"}]}
+
 
 function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_2
 scoreboard players set lilith_PNJ DIALOG 2
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"求你了，我需要帮助。我的马受到了惊吓，我的货车撞到一棵树上，货物散落了一地。我的马跑了，车子也坏了...我家离这儿不是很远，你能帮我把货物带回去吗？我会给你一些东西作为报酬...","color":"dark_aqua"}]}

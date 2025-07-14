@@ -51,9 +51,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ashley Williams : ","color":"gre
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"Por favor, eu posso me redimir...","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"请给我一个机会弥补我的过错...","color":"dark_aqua"}]}
+
 
 
 function att2:dialogs/sidequest/sq43/ashley_williams/player_proposal_2/choice_1
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"请给我一个机会弥补我的过错...","color":"dark_aqua"}]}

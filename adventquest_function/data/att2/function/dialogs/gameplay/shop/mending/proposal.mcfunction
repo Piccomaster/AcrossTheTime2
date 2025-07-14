@@ -81,8 +81,8 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"Se você deseja reparar suas armas e a
 tellraw @s[scores={LANGUAGE=10}] {"text":"E se você precisar de ferramentas para reparar seu equipamento sozinho sem a minha ajuda, aqui estão meus preços: ","color":"dark_aqua","extra":[{"text":" <preços das ferramentas>.","color":"gold","click_event":{"action":"run_command","command":"/function att2:dialogs/gameplay/shop/mending/price_tools"},"hover_event":{"action":"show_text","value":"Ver preços das ferramentas."}}]}
 
 
-function att2:dialogs/gameplay/shop/mending/smithlevel_info
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"要修装备么？我会查看它们的品质并提出所需的","color":"dark_aqua","extra":[{"text":"<价格>","color":"gold","click_event":{"action":"run_command","command":"/function att2:dialogs/gameplay/shop/mending/price"},"hover_event":{"action":"show_text","value":"查看修装备的价格。"},"extra":[{"text":"  将需要修复的物品拿在手上后再来找我:","color":"dark_aqua","extra":[{"text":"[修理]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/mending/trigger_items"},"hover_event":{"action":"show_text","value":"修复当前手持装备。"}}]}]}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"如果您需要快捷修理装备的道具，这是我开出的价格：","color":"dark_aqua","extra":[{"text":"<修理工具价格>","color":"gold","click_event":{"action":"run_command","command":"/function att2:dialogs/gameplay/shop/mending/price_tools"},"hover_event":{"action":"show_text","value":"查看修理工具价格。"}}]}
+
+function att2:dialogs/gameplay/shop/mending/smithlevel_info

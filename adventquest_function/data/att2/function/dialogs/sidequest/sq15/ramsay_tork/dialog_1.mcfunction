@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ramsay Tork : ","color":"green",
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Olá, mas que roupa intrigante! Nos falta ouro para forjar a armadura da mais alta qualidade! Eu sei onde encontrá-lo: nos grandes hangares e fundições das ruínas de Angor há esse ouro não utilizado. Se você me trouxer muito, forjarei uma excelente armadura para você.","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"你好，你这身装备可真够迷人的！我们缺少黄金来打造最高品质的盔甲！我知道在哪里可以找到它：在Angor废墟的大型库房和锻造厂里，有些用来锻造装备的黄金。如果你能把它们带给我，我会为你锻造出色的盔甲。","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq15/ramsay_tork/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq15/ramsay_tork/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq15/ramsay_tork/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"你好，你这身装备可真够迷人的！我们缺少黄金来打造最高品质的盔甲！我知道在哪里可以找到它：在Angor废墟的大型库房和锻造厂里，有些用来锻造装备的黄金。如果你能把它们带给我，我会为你锻造出色的盔甲。","color":"dark_aqua"}]}

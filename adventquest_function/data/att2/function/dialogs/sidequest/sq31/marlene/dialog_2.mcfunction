@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Oi, garotinho. O que você está fazendo na minha cozinha?","color":"dark_aqua"}]}
 
 
-
-function att2:dialogs/sidequest/sq31/marlene/player_proposal_1/choice_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"嗨,小伙子。你在我的厨房里干什么？ ","color":"dark_aqua"}]}
+
+
+function att2:dialogs/sidequest/sq31/marlene/player_proposal_1/choice_1

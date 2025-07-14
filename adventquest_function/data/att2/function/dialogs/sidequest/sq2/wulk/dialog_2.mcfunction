@@ -59,8 +59,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wulk : ","color":"green","extra"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Então, você encontrou tempo para a missão que eu gostaria de confiar a você? Nunca se esqueça de que você pode contar comigo para fornecer novas armas e armaduras.","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"你终于有时间来做我交代的任务了吗？别忘了如果有需要的话一定要随时找我补充装备和武器啊！ ","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_2

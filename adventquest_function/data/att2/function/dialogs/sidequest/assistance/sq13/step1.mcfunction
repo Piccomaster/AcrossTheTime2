@@ -52,7 +52,7 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"-°- एक अनियंत्रि
 tellraw @a[scores={LANGUAGE=10}] {"text":"-°- Uma invasão incontrolável -°- : ","color":"gray","extra":[{"text":"Tenho que matar cerca de quinze slimes na Mina da aldeia Fênix e voltar para ver o Garry para receber minha recompensa.","color":"aqua","italic":true}]}
 
 
-function att2:dialogs/sidequest/sq13/mobs_killed_total
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 失控的侵略 -°- : ","color":"gray","extra":[{"text":"我需要在Phoenix村旁的洞穴里清理十只左右岩浆史莱姆，完事之后再找Garry领取奖赏","color":"aqua","italic":true}]}
+
+function att2:dialogs/sidequest/sq13/mobs_killed_total

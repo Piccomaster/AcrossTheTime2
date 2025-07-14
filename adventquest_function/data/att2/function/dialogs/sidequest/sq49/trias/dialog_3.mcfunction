@@ -52,10 +52,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Trias : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Então, e o meu arco?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"所以，我的弓呢？","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq49/trias/player_proposal_2/choice_1
 execute if score trias_answer_2_1 SQ45 matches 0 run function att2:dialogs/sidequest/sq49/trias/player_proposal_2/choice_2
 function att2:dialogs/sidequest/sq49/trias/player_proposal_2/choice_3
 execute if score trias_answer_1_1 SQ45 matches 0 run function att2:dialogs/sidequest/sq49/trias/player_proposal_2/choice_4
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"所以，我的弓呢？","color":"dark_aqua"}]}

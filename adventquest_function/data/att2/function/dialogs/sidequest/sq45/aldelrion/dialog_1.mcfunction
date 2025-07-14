@@ -58,9 +58,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","e
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Em algum lugar nas ruínas desta cidade ou nas mãos de um mortal deve haver uma arma. Mas não qualquer arma: uma alabarda eterna chamada ''Nekr al Felèvsil''. Ela surgiu, como eu, antes das emoções negativas e da existência da morte em Angband.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"在Angor废墟或者某个人的手中一定会有一把武器，但不是普通的武器：是一把名为[“希律王”之死]的Eternän长戟。它和我一样，在Angband弥漫着绝望和死亡的气息之前就已经存在了。","color":"dark_aqua"}]}
+
 
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_1/choice_1
 execute if score aldelrion_answer_2_1 SQ45 matches 0 run function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_1/choice_2
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"在Angor废墟或者某个人的手中一定会有一把武器，但不是普通的武器：是一把名为[“希律王”之死]的Eternän长戟。它和我一样，在Angband弥漫着绝望和死亡的气息之前就已经存在了。","color":"dark_aqua"}]}

@@ -25,11 +25,5 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"§6‖ ☼§4 Zeitaufwand für die Soqu
 tellraw @s[scores={LANGUAGE=9}] {"text":"§6‖ ☼§4 सोक्वाइ अखाड़े के लिए लिया गया समय§8:","color":"dark_red","extra":[{"score":{"name":"pool0_2_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_2_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_2_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"§6‖ ☼§4 Tempo gasto para a arena de Soquaï§8:","color":"dark_red","extra":[{"score":{"name":"pool0_2_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_2_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_2_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
-
-
-
-#Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"§6‖ ☼§4 Soquaï场地赛§c用时§8:","color":"dark_red","extra":[{"score":{"name":"pool0_2_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_2_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_2_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"§6‖ ☼§4 Soquaï场地赛§c用时§8:","color":"dark_red","extra":[{"score":{"name":"pool0_2_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_2_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool0_2_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}

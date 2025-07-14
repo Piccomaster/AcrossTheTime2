@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Tem algo que continua atacando minhas gaiolas! Já perdi quatro coelhos esta semana, mas não posso fazer nada, o cara sempre quebra a barreira. Deve ser uma besta muito grande!","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq5/alphonse_rae/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq5/alphonse_rae/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"有什么东西一直在袭击我的小屋！这周我已经丢了四只兔子，但我无能为力。这家伙总是破坏掉围栏，它一定是一只该死的大狐狸！ ","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq5/alphonse_rae/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq5/alphonse_rae/player_proposal_1/choice_2

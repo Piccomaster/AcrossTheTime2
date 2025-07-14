@@ -53,9 +53,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Lá está o rosto de um viajante em busca de trabalho! Você está com sorte, estou sobrecarregado, tenho que gerenciar toda a minha colheita sozinho desde que minha esposa... se foi... No entanto, essas criaturas imundas, esses ratos engraçados devoraram minhas abóboras! Eles são fortes e se reproduzem com uma velocidade incrível! Não sei o que fazer para me livrar deles, você conseguiria por alguns Cronotons?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"嘿，这里有个想找任务的旅行者！你来的正好，我现在负担很多：我必须独自管理我的农场，因为我的妻子...去世了...但是，这些恶心的老鼠把我的南瓜啃得稀烂！它们生命力很顽强，并且繁殖速度很快! 我不知道该怎么才能赶走它们。你能帮我清理它们吗？我会用一些Chronotons作为回报。 ","color":"dark_aqua"}]}
+
 scoreboard players set philipo_tisdal_PNJ DIALOG 2
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"嘿，这里有个想找任务的旅行者！你来的正好，我现在负担很多：我必须独自管理我的农场，因为我的妻子...去世了...但是，这些恶心的老鼠把我的南瓜啃得稀烂！它们生命力很顽强，并且繁殖速度很快! 我不知道该怎么才能赶走它们。你能帮我清理它们吗？我会用一些Chronotons作为回报。 ","color":"dark_aqua"}]}

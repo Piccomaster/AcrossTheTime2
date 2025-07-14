@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Romuald : ","color":"green","ext
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*Ronco alto*","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"（很响的酣睡声）","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq5/romuald/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq5/romuald/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq5/romuald/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"（很响的酣睡声）","color":"dark_aqua"}]}

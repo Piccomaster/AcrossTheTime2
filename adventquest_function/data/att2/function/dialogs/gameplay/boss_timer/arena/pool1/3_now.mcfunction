@@ -25,8 +25,5 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"§6‖ ☼§4 Zeitaufwand für das Eis-
 tellraw @s[scores={LANGUAGE=9}] {"text":"§6‖ ☼§4 बर्फ घटना-डंजनों के समझौते के लिए लिया गया समय§8:","color":"dark_red","extra":[{"score":{"name":"pool1_3_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_3_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_3_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"§6‖ ☼§4 Tempo gasto para o Evento de Gelo - Pacto das Masmorras§8:","color":"dark_red","extra":[{"score":{"name":"pool1_3_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_3_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_3_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
-
-
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"§6‖ ☼§4 Elcheol联盟-冰之契约§c用时§8:","color":"dark_red","extra":[{"score":{"name":"pool1_3_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_3_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_3_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}

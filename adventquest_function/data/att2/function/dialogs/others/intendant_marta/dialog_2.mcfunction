@@ -59,7 +59,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Marta : ","color":"gre
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"Olá, ouvi sobre o sucesso da sua missão. Ragnar me avisou que eu deveria promover uma de nossas casas se você quiser comprar uma em Méleïm. 1500 Chronotons e você será o proprietário em nossa magnífica cidade. Está no outro extremo do penhasco, sob uma das torres de vigilância ao norte. Então, você está interessado?","color":"dark_aqua"}]}
 
 
-function att2:dialogs/others/intendant_marta/player_answer_proposal_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"您好，久闻大名。Ragnar希望我能在您买房时给点优惠。只需1500Chronoton，您就能成为这座坐拥奇景的小镇的一员—房屋的位置在悬崖的另一侧，位于一座警戒塔下方的岩拱下。不知道您有没有兴趣？ ","color":"dark_aqua"}]}
+
+function att2:dialogs/others/intendant_marta/player_answer_proposal_2
