@@ -5,9 +5,11 @@
 
 # Tp player entering the map for the first time (tp to hall language selection)
 execute in minecraft:overworld as @a[x=721,y=75,z=737,dx=29,dy=10,dz=29] at @s run function att2:cinematic/intro/launch/map_entering
+#make attribute normal
+execute as @a[x=804,y=78,z=903,dx=-18,dy=7,dz=-19] run function att2:cinematic/intro/launch/stat_reset
 
 # Adventure gamemode security if the player has not initialize the gameplay system yet
-execute as @a[x=804,y=78,z=903,dx=-18,dy=7,dz=-19,gamemode=!adventure] run gamemode adventure @s
+execute as @a[x=804,y=78,z=903,dx=-18,dy=7,dz=-19,gamemode=!adventure,tag=!demo] run gamemode adventure @s
 
 # Security new player
 execute if score Mainquest SIDEQUEST matches 1.. if score update INTRO matches -2 in minecraft:overworld as @a[x=788,y=80,z=894,dx=14,dy=4,dz=7,team=ally] at @s run tp @s -5030 75 -5080
