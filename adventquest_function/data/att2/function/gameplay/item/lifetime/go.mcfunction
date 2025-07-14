@@ -20,7 +20,7 @@
 execute as @a[gamemode=spectator,tag=!itemkeeper,tag=!demo] unless score item ITEM_LIFETIME matches 28468..28473 run function att2:gameplay/item/lifetime/updateitem
 execute as @a[gamemode=creative,tag=!runtime] unless score item ITEM_LIFETIME matches 1095 run function att2:gameplay/item/lifetime/updateitem
 
-execute as @a[gamemode=survial,tag=!runtime] run function att2:gameplay/item/lifetime/updateitem
+execute as @a[gamemode=survival,tag=!runtime] run function att2:gameplay/item/lifetime/updateitem
 
 execute if score item ITEM_LIFETIME matches 28468..28472 run scoreboard players remove item ITEM_LIFETIME 1
 execute if score item ITEM_LIFETIME matches 28467 run scoreboard players set item ITEM_LIFETIME 0

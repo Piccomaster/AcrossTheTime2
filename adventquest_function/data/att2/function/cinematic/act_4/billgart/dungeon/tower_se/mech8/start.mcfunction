@@ -4,7 +4,7 @@
 ##################################################
 
 execute at @a run function att2:sound/misc/energy_dynamic
-exevute in the_end as @a[x=-1157,y=116,z=-585,distance=..100] run function att2:gameplay/checkpoint/billgart/dungeon32
+execute in the_end as @a[x=-1157,y=116,z=-585,distance=..100] run function att2:gameplay/checkpoint/billgart/dungeon32
 
 execute positioned -1157 116 -585 run function att2:summon/reg_3/golem0_class9_tower_se_mech8
 execute positioned -1161 116 -579 run function att2:summon/reg_3/golem0_class9_tower_se_mech8
