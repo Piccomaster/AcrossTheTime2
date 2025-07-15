@@ -23,7 +23,7 @@ execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/surv
 function att2:gameplay/misc/invisible_minecart/go
 execute if score Mainquest SIDEQUEST matches 180.. run function att2:gameplay/misc/celestial_tear/go
 #torch lightpredicate
-execute at @a run function att2:gameplay/misc/move_light/over
+function att2:gameplay/misc/move_light/over
 execute if score light movelight matches 1 as @a[gamemode=adventure,predicate=att2_pre:move_light/torch_hold] at @s run function att2:gameplay/misc/move_light/go
 #tp item
 execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/misc/tp_item/go

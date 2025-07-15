@@ -5,8 +5,6 @@
 
 #fill light
 function att2:gameplay/misc/fishing/symbol_clear
-kill @e[type=item_display,tag=fishing_symbol,dy=3,dx=0,dz=0]
-
 #pos selected 1
 execute if score 1RNG100 RNG matches 1..20 run tp @s -5010 75 -5228
 execute if score 1RNG100 RNG matches 21..40 run tp @s -5007 75 -5232
