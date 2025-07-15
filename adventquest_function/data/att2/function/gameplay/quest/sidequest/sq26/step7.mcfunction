@@ -6,6 +6,3 @@
 function att2:dialogs/sidequest/assistance/sq26/step7
 execute in minecraft:overworld positioned -3788 70 -5876 run function att2:gameplay/gps/summon_arrow
 execute in minecraft:overworld as @e[tag=newGPS] at @s anchored feet facing -3788 70 -5876 run function att2:gameplay/gps/tp_arrow
-
-##no bug!
-execute in minecraft:overworld positioned -3788 70 -5876 unless entity @e[type=minecraft:villager,distance=..5] run function att2:cinematic/sidequest/26/emerald/summon_pnj
