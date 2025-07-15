@@ -4,8 +4,8 @@
 #################################################################
 
 function att2:sound/dialogs/simple
-tp @e[type=minecraft:shulker,tag=MainObjective] ~ ~-200 ~
-tp @e[type=minecraft:shulker,tag=SideObjective] ~ ~-200 ~
+tp @e[type=minecraft:shulker,tag=MainObjective] ~ 0 ~
+tp @e[type=minecraft:shulker,tag=SideObjective] ~ 0 ~
 kill @e[type=minecraft:shulker,tag=MainObjective]
 kill @e[type=minecraft:shulker,tag=SideObjective]
 execute if score SQ46 SIDEQUEST matches 1 run function att2:gameplay/quest/sidequest/sq46/step1
