@@ -3,6 +3,9 @@
 #Keep Agility pet working						#
 #################################################
 
+#have item ->go
+execute as @a[scores={spell31_run=1}] at @s if entity @e[type=item,distance=..2] run function att2:gameplay/dahal/action/spell31/test
+
 # Particle
 execute as @e[type=minecraft:frog,tag=GluttonPet] at @s run function att2:gameplay/dahal/action/spell31/persistence_effect
 
@@ -19,6 +22,3 @@ execute as @e[tag=Agro] at @s unless entity @e[tag=ProcessingInvoTP] unless enti
 # execute as @e[tag=!ProcessingInvoTP] unless entity @s[tag=!GluttonPet1,tag=!GluttonPet2,tag=!GluttonPet3] at @s unless entity @e[tag=Agro,distance=..2] run kill @s
 
 execute as @e[type=minecraft:frog] unless entity @s[type=minecraft:frog,tag=!GluttonPet] if entity @s[tag=ProcessingInvoTP] run tag @s remove ProcessingInvoTP
-
-#have item ->go
-execute as @a[scores={spell31_run=1}] at @s if entity @e[type=item,distance=..2] run function att2:gameplay/dahal/action/spell31/test

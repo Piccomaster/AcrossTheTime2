@@ -6,7 +6,7 @@
 #get number
 execute store result storage att2:spell20 NUMEROJOUEUR int 1 run scoreboard players get @s NUMEROJOUEUR
 execute store result storage att2:spell20 now_page int 1 run scoreboard players get @s SPELL20_PAGE
-execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_CAP
+execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_LVL
 ##Recycling set
 execute if entity @e[type=minecraft:armor_stand,tag=Recycler,distance=..3] run function att2:gameplay/dahal/action/spell20/set_chest_0 with storage att2:spell20
 ##check player near the hopper
