@@ -24,7 +24,7 @@ execute if score Mainquest SIDEQUEST matches 102.. run scoreboard players add LV
 #Ryliath NPC
 execute if score Mainquest SIDEQUEST matches 122.. run scoreboard players add LVL SPELL20_CAP 1
 #reset @a
-scoreboard players @a SPELL20_LVL = LVL SPELL20_CAP
+scoreboard players operation @a SPELL20_LVL = LVL SPELL20_CAP
 #other three
 scoreboard players add @a[scores={SPELL20_ESC=1..}] SPELL20_LVL 1
 scoreboard players add @a[scores={SPELL20_RUNE=1..}] SPELL20_LVL 1
