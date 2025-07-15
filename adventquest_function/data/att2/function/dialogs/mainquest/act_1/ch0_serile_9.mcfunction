@@ -31,7 +31,7 @@ tellraw @a[scores={LANGUAGE=4}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {"text":" °-° S : ","color":"gray","extra":[{"text":"ألست أنت البطل Tellurön الذي تتحدث عنه الأساطير؟ على أي حال، إذا لم تثق بي، لن أتمكن من مساعدتك!","color":"yellow","italic":"true"}]}
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° S : ","color":"gray","extra":[{"text":"ألست أنت البطل Tellurön الذي تتحدث عنه الأساطير؟ على أي حال، إذا لم تثق بي، لن أتمكن من مساعدتك!","color":"yellow","italic":true}]}
 
 #RUSSIAN LANGUAGE
 

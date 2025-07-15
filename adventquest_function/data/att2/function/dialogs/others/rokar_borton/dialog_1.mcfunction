@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Borton : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Borton : ","color":"green","extra":[{"text":"Sim? O que você quer? Calças, peitorais, capacetes, espadas, adagas, machados... Eu faço de tudo aqui! Hmm... Eu gostaria de saber onde você conseguiu as armas e armaduras que carrega... De qualquer forma, tenho certeza de que nunca valerão minhas confecções!","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/rokar_borton_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Rokar está vendendo."}}]}]}
 
 
-function att2:dialogs/gameplay/shop/mending/proposal
-scoreboard players set rokar_borton_PNJ DIALOG 2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Borton : ","color":"green","extra":[{"text":"嗯？你想要些什么？护腿、胸甲、头盔、剑、匕首、斧子...我什么装备都做！嗯...真想知道你是从哪里得到这些武器和盔甲的...总之，我保证它们比不上我的这些宝贝！","color":"dark_aqua","extra":[{"text":" [看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/rokar_borton_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Borton售卖的装备。"}}]}]}
+
+function att2:dialogs/gameplay/shop/mending/proposal
+scoreboard players set rokar_borton_PNJ DIALOG 2

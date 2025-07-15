@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garret : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Ei jovem mortal, obrigado por toda a ajuda que você tem dado aos Eternäns. Se você tiver um tempo, tenho um pedido para te fazer! Estamos desesperadamente precisando de flechas e não conseguimos manter as posições por causa dessa escassez. Porque o melhor arqueiro sem suas flechas não vale mais que um rim... As ruínas da nossa cidade ainda estão cheias desses projéteis, você aceita ir buscar alguns para nós?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"嘿，年轻人，感谢你为我们Eternäns带来的帮助。如果你有时间，我这里有一份任务想请你完成！我们的非常缺乏箭矢，这导致我们很难守住阵地。没有箭的话，即使是最好的弓箭手也毫无价值...我们城市的废墟里到处都有箭矢,你能帮我们收集一些箭矢回来吗？","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"嘿，年轻人，感谢你为我们Eternäns带来的帮助。如果你有时间，我这里有一份任务想请你完成！我们的非常缺乏箭矢，这导致我们很难守住阵地。没有箭的话，即使是最好的弓箭手也毫无价值...我们城市的废墟里到处都有箭矢,你能帮我们收集一些箭矢回来吗？","color":"dark_aqua"}]}

@@ -58,8 +58,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Você encontrou a gema?","color":"dark_aqua"}]}
 
-
-function att2:dialogs/others/aramis/player_answer_proposal_4
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"你找到宝石了吗？","color":"dark_aqua"}]}
+
+function att2:dialogs/others/aramis/player_answer_proposal_4

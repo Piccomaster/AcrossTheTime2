@@ -59,8 +59,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Carmen Ysta : ","color":"green",
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Olá, então você vai pegar cogumelos para mim?","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/carmen_ysta_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Carmen está vendendo."}}]}]}
 
 
-function att2:dialogs/sidequest/sq4/carmen_ysta/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq4/carmen_ysta/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"你好，你愿意帮我弄些蘑菇么？ ","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/carmen_ysta_shop_opening"},"hover_event":{"action":"show_text","value":"单击此处查看 Carmen 的销售情况。"}}]}]}
+
+function att2:dialogs/sidequest/sq4/carmen_ysta/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq4/carmen_ysta/player_proposal_1/choice_2

@@ -51,7 +51,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एडानोई काटाक
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- As Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"Agora tenho que ajudar o guardião do cemitério, Lary Brett, para que ele me ajude também... Vamos matar esqueletos no cemitério e abrir caminho na entrada das catacumbas, depois voltamos para vê-lo.","color":"aqua","italic":true}]}
 
 
-function att2:dialogs/sidequest/sq26/mobs_killed_total
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"天下没有免费的午餐，守墓人Lary要我帮他解决掉那些在地下墓穴入口附近游荡的骷髅。清除一定数量的骷髅后再去找Lary吧","color":"aqua","italic":true}]}
+
+function att2:dialogs/sidequest/sq26/mobs_killed_total

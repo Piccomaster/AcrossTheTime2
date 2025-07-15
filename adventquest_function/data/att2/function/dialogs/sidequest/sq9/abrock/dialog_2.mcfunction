@@ -51,12 +51,11 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Abrock : ","color":"green","extr
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Olá estrangeiro, você quer madeira? Custa 3 Chronotons por tronco.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"你好老外，你要木头吗？每个木头只要3个Chronotons。","color":"dark_aqua"}]}
 
 function att2:dialogs/sidequest/sq9/player_1
 function att2:dialogs/sidequest/sq9/abrock_1
 function att2:dialogs/sidequest/sq9/abrock/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq9/abrock/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq9/abrock/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"你好老外，你要木头吗？每个木头只要3个Chronotons。","color":"dark_aqua"}]}

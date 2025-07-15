@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° राजा Adrian : ","color":
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Rei Adrian : ","color":"gold","extra":[{"text":"Bom momento, eu queria falar com você sobre um problema que ocorreu no palácio. Fomos roubados dos planos do palácio feitos pelo famoso arquiteto Corbus. Esses planos fazem parte dos arquivos secretos de Ryliath e revelam vários corredores ocultos nas estruturas da cidade e do palácio. É imperativo encontrar esses planos. Você nos ajudará? Você será recompensado, você tem a palavra de um rei!","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq30/adrian/player_proposal_1/choice_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° 国王 Adrian : ","color":"gold","extra":[{"text":"来得正好，我想和你谈谈在宫殿中发生的一起盗窃案：我们著名的建筑师Corbus的宫殿设计图被人偷走了。这些计划和Ryliath秘密档案的一部分，其中包括了城市和宫殿中的那些秘密通道，这些设计图十分重要，你能帮我我们找回来吗？你可以得到国王承诺的奖励！ ","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq30/adrian/player_proposal_1/choice_1

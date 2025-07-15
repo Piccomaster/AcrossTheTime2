@@ -96,5 +96,5 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"[DISABLE -->]","color":"red","click_ev
 
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"地图中加入了法语配音，默认为开启，如果想要禁用它的话，可以在过完序章之后在《醒神之书》中控制其开启和关闭，并且音量可以通过Minecraft中的“语音”选项进行调节","color":"blue","italic":true}
-tellraw @s[scores={LANGUAGE=11}] {"text":"[启用语音 -->]","color":"green","click_event":{"action":"run_command","command":"/function att2:voice/activation"},"hover_event":{"action":"show_text","value":"点击此处启用语音"}}
+tellraw @s[scores={LANGUAGE=11}] {"text":"[启用语音 -->]","color":"green","click_event":{"action":"run_command","command":"/function att2:voice/activation/fr"},"hover_event":{"action":"show_text","value":"点击此处启用语音"}}
 tellraw @s[scores={LANGUAGE=11}] {"text":"[关闭语音 -->]","color":"red","click_event":{"action":"run_command","command":"/function att2:voice/desactivation"},"hover_event":{"action":"show_text","value":"点击此处关闭语音"}}

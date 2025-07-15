@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garry Traskel : ","color":"green
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Olá, guerreiro viajante! Os monstros invadiram nossas culturas no fundo dos túneis, mas ninguém aqui quer correr o risco de expulsá-los. Você poderia nos ajudar?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"嘿，冒险家！怪物已经入侵了我们位于地下深处的作物田，但这里没有人愿意冒险去驱逐它们。你可以帮我们吗？","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"嘿，冒险家！怪物已经入侵了我们位于地下深处的作物田，但这里没有人愿意冒险去驱逐它们。你可以帮我们吗？","color":"dark_aqua"}]}

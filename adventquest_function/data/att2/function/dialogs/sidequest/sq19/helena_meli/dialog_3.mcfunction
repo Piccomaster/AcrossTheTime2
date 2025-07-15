@@ -51,8 +51,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hélèna Meli : ","color":"green
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Por que alguém iria querer envenenar meus animais... Ajude-me, por favor!","color":"dark_aqua"}]}
 
 
-
-function att2:dialogs/sidequest/sq19/helena_meli/player_proposal_1/choice_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"为什么会有人想害我的马儿们...请你帮帮我，求你了！ ","color":"dark_aqua"}]}
+
+
+function att2:dialogs/sidequest/sq19/helena_meli/player_proposal_1/choice_1

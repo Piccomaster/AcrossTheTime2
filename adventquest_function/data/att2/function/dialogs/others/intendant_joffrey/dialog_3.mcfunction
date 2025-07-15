@@ -43,8 +43,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Joffrey : ","color":"g
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Bem, tenho bastante visitantes agora! O que você deseja? Ah, então você é a pessoa de quem o rei me falou. Ele disse que eu deveria lhe dar um desconto em uma das nossas casas mais bonitas. Não posso dar de graça, mas tenho uma oferta bastante boa. 1000 Cronotons ao invés de 5000, é uma oferta que não dá para recusar!","color":"dark_aqua"}]}
 
-
-function att2:dialogs/others/intendant_joffrey/player_answer_proposal_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"真棒，我们现在有不少游客了！你想要些什么？噢，您就是国王所说的那位冒险家吗？他说我应该给这儿最好的房子打个折—仅限于你。虽然我不能把它免费送给您，但我有一个不错的提议—原价5000Chronoton的房子，打两折卖给您，绝对血赚！","color":"dark_aqua"}]}
+
+function att2:dialogs/others/intendant_joffrey/player_answer_proposal_1

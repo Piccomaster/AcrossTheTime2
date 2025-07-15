@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° गुस्ताव : ","color
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"O que diabos eles estão fazendo!? Esta ponte não vai se construir sozinha... Você aí! Por favor, afaste-se, aqui está em construção. Não, espere... Talvez você possa me ajudar: você não viu uma caravana na estrada? São meus colegas, estou começando a me preocupar, eles não voltaram. Você me ajudaria a encontrá-los?","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq34/gustave/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq34/gustave/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"你们在干什么呢！？桥不会自己凭空建起来...那边那个！离远点儿，这里正在施工。不对...也许你能帮上忙：你在路边有看到一辆装载石材的车子吗？我的工友们应该在那里，我有些担心，他们已经很久没回来了，你能帮我找找他们吗？","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq34/gustave/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq34/gustave/player_proposal_1/choice_2

@@ -40,7 +40,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Môt \n","color":"black","obfuscated":t
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Môt \n","color":"black","obfuscated":true,"extra":[{"text":"Você consegue sentir o poder da absolvição, do medo, do tempo ou do caos? Se orgulhe, filho de Irilion, seu destino será apenas desespero e desolação...","obfuscated":false,"color":"dark_gray"}]}
 
-advancement grant @a only att2:dahal/spell40_secret
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"Môt \n","color":"black","obfuscated":true,"extra":[{"text":"你能感受到超脱、恐惧、时间或混沌的本质么？多么可笑，Irilion之子，你的命运只会是绝望与荒芜...","obfuscated":false,"color":"dark_gray"}]}
+
+advancement grant @a only att2:dahal/spell40_secret

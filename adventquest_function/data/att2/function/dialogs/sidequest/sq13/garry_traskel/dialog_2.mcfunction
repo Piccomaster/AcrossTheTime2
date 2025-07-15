@@ -53,8 +53,8 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garry Traskel : ","color":"gree
 
 
 
-function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_2/choice_1
-function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_2/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"你准备好帮助我们了吗？ ","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_2/choice_1
+function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_2/choice_2

@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"Então, decidiu voltar ao trabalho de entregador? Ou talvez queira ver o que eu vendo?","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/sigfrid_barkon_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Sigfrid está vendendo"}}]}]}
 
 
-function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"那么你决定当送货员了吗？或者你想看看我卖什么？ ","color":"dark_aqua","extra":[{"text":" [看肉类 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/sigfrid_barkon_shop_opening"},"hover_event":{"action":"show_text","value":"单击此处查看 Sigfrid 的销售情况。"}}]}]}
+
+function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_2

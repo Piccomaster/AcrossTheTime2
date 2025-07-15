@@ -60,7 +60,7 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","ext
 
 
 
-function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"哎哎，怎么还是你？！","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/choice_2

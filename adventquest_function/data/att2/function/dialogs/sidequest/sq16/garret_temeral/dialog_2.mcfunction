@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Garret : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Ah, você voltou! Então, está decidido a nos ajudar a encontrar flechas para nosso exército?","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_3
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"你回来了！你决定好帮助我们军队搜寻箭矢了吗？","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_3

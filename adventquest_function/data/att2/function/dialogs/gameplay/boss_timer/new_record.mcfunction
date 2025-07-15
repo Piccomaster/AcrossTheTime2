@@ -28,6 +28,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"","extra":[{"text":"§e【§4§kO§6न
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"","extra":[{"text":"§e【§4§kO§6Novo Recorde§4§kO§e】"}]}
 
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":"","extra":[{"text":"§e【§4§kO§6新纪录§4§kO§e】"}]}

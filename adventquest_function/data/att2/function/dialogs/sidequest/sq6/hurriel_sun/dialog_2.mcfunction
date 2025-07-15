@@ -59,10 +59,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hurriel Sun : ","color":"green",
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Uau, você é quem abriu o antigo portal de Ryliath? Incrível! ... na verdade ... eu teria um serviço para pedir a alguém com suas habilidades. Eu perdi a chave da minha casa e temo tê-la deixado cair nos esgotos da cidade. Mas eu não posso ir lá, é muito perigoso e eu não sei lutar... Eu te recompensarei se você me ajudar!","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"哇，是你打开了Ryliath古老的传送门吗？难以置信！...事实上...我想请求有您这样能力的人。是这样的，我丢失了我家的钥匙，我担心我把它们丢在了城市的下水道里。但是我不能去那里，那里太危险了，我不知道如何战斗...如果你帮助我，我会给你回报的！","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_3
 scoreboard players set hurriel_sun_PNJ DIALOG 3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"哇，是你打开了Ryliath古老的传送门吗？难以置信！...事实上...我想请求有您这样能力的人。是这样的，我丢失了我家的钥匙，我担心我把它们丢在了城市的下水道里。但是我不能去那里，那里太危险了，我不知道如何战斗...如果你帮助我，我会给你回报的！","color":"dark_aqua"}]}

@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gregor Gacko : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"... meu irmão ... preso ... Eu deveria ter estado lá ...","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq3/gregor_gacko/player_proposal_1/choice_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"我的哥哥...被关进监狱了...我也应该在里面陪他的的...","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq3/gregor_gacko/player_proposal_1/choice_1

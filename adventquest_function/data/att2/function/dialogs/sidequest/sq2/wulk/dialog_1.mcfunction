@@ -58,10 +58,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wulk : ","color":"green","extra"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Bom dia viajante! Entre! Não seja tímido! Meu nome é Wulk, e como você deve ter notado, sou um Ferreiro. Pratico esta arte há muitos anos. Infelizmente, desculpe a falta de produtos hoje, mas me faltam materiais para fazer mais equipamentos. Ferro, é isso que eu preciso, mas meu assistente ainda não voltou... Você tem tempo para me ajudar a encontrar minério de ferro? Você será generosamente recompensado.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"你好啊旅行者！来坐会吧，别害羞！我的名字是Wulk，如同你所见我是个铁匠，已经做这行很多年了。唉，很抱歉今天都没什么成果，但是我已经没有做装备的材料了。我不久前请我的徒弟去帮我找了一些，只是他还没有回来...你愿意拨空帮我带一些铁矿回来吗？我会好好报答你的。","color":"dark_aqua"}]}
 
 function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_2
 scoreboard players set wulk_PNJ DIALOG 2
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"你好啊旅行者！来坐会吧，别害羞！我的名字是Wulk，如同你所见我是个铁匠，已经做这行很多年了。唉，很抱歉今天都没什么成果，但是我已经没有做装备的材料了。我不久前请我的徒弟去帮我找了一些，只是他还没有回来...你愿意拨空帮我带一些铁矿回来吗？我会好好报答你的。","color":"dark_aqua"}]}

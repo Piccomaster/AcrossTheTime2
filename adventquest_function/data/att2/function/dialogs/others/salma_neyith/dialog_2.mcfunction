@@ -52,8 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Salma Neyith : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Salma Neyith : ","color":"green","extra":[{"text":"Sim? Gostaria de alugar um quarto? Serão 20 Chronotons por noite.","color":"dark_aqua"}]}
 
 
-
-function att2:dialogs/gameplay/inn/proposal_salma_neyith
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Salma Neyith : ","color":"green","extra":[{"text":"这么说，您想租一间房子吗？20Chronoton一晚。","color":"dark_aqua"}]}
+
+function att2:dialogs/gameplay/inn/proposal_salma_neyith

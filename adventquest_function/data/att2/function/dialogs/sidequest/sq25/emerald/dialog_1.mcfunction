@@ -51,10 +51,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Vejo que não sou o único viajante na região... Bom dia, estou à procura de uma pessoa muito querida para mim. Estou envelhecendo e a longa viagem que fiz me deixou exausto. Você teria um momento para me ajudar na minha busca? Ficarei imensamente grato.","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"原来我不是这片大陆上唯一的旅行者...早上好! 我正在寻找一个对我来说非常重要的人。我年纪大了，漫长的旅途让我筋疲力竭。你可以帮我完成一个任务吗？ 我会非常感謝你。","color":"dark_aqua"}]}
 
 function att2:dialogs/sidequest/sq25/emerald/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq25/emerald/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq25/emerald/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"原来我不是这片大陆上唯一的旅行者...早上好! 我正在寻找一个对我来说非常重要的人。我年纪大了，漫长的旅途让我筋疲力竭。你可以帮我完成一个任务吗？ 我会非常感謝你。","color":"dark_aqua"}]}

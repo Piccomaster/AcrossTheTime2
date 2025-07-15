@@ -43,8 +43,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Intendant Joffrey : ","color":"g
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Sim, em que posso ajudar? Oh, você é o viajante que ativou o portal espacial na cidade. Os súditos do rei pediram-me para lhe fazer um pequeno desconto em uma das casas mais bonitas de Ryliath. É sua por apenas 3000 Cronotons! Negócio fechado?","color":"dark_aqua"}]}
 
-
-function att2:dialogs/others/intendant_joffrey/player_answer_proposal_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"有什么能帮您的吗？噢，您就是那位激活传送门的旅行者吗？国王的部下找到我，说要给Ryliath最好的房子打个折—这是专属于您的优惠！现在仅需3000Chronoton即可入住！成交？","color":"dark_aqua"}]}
+
+
+function att2:dialogs/others/intendant_joffrey/player_answer_proposal_2

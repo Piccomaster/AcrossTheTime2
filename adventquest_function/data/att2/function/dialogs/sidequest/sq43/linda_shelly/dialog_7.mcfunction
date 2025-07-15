@@ -51,9 +51,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Você voltou? Eu pensei que você tinha me abandonado, ou pior, que você estava morto...","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"你回来了？我还以为你不再帮我了，或者更糟糕的是你已经遭遇到不测了...","color":"dark_aqua"}]}
+
 
 function att2:dialogs/sidequest/sq43/linda_shelly/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq43/linda_shelly/player_proposal_1/choice_2
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"你回来了？我还以为你不再帮我了，或者更糟糕的是你已经遭遇到不测了...","color":"dark_aqua"}]}

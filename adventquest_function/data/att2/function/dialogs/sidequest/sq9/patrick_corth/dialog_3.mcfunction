@@ -51,8 +51,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Patrick Corth : ","color":"green
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Então você tem meus troncos?","color":"dark_aqua"}]}
 
-
-function att2:dialogs/sidequest/sq9/patrick_corth/player_proposal_2/choice_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"你拿到我的木头了吗？","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq9/patrick_corth/player_proposal_2/choice_1

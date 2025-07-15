@@ -52,8 +52,8 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hélèna Meli : ","color":"green
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Oi! Vocês vieram pelos cavalos, certo? Sinto muito, mas eles não estão bem no momento. Acho que tentaram envenená-los, e não se perguntem como cheguei a essa conclusão... Encontrei essas maçãs estranhas no estábulo, não as provem! A dor de estômago quase me matou! Vocês poderiam investigar Ryliath para encontrar o nosso envenenador? Vou recompensá-los!","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq19/helena_meli/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq19/helena_meli/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"嘿！你是来找马的对吧？但是很抱歉，它们现在状态很不乐观。我觉得有人在试图毒死它们——不用怀疑我是怎么得出这个结论的...我在马厩里面发现了一些奇怪的苹果，我之前尝过一口，胃疼的几乎让我昏了过去！你可以在Ryliath城里寻找这个投毒者吗？我会给你报酬的！","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq19/helena_meli/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq19/helena_meli/player_proposal_1/choice_2

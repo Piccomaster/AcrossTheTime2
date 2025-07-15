@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Babbu : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Ei, você não teria uma moeda para um valente homem necessitado?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"嘿，您会为一位英勇之士在困境中伸出援手，施以他一枚硬币的援助吗？","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq39/babbu/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq39/babbu/player_proposal_1/choice_2
 execute if score Mainquest SIDEQUEST matches 82.. run function att2:dialogs/sidequest/sq39/babbu/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"嘿，您会为一位英勇之士在困境中伸出援手，施以他一枚硬币的援助吗？","color":"dark_aqua"}]}

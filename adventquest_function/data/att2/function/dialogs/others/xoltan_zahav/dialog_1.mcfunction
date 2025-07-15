@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Xoltan Zahav : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Xoltan Zahav : ","color":"green","extra":[{"text":"Olá, precisa de armas ou armaduras? Tenho uma loja bem abastecida... Faça sua escolha, meus preços são acessíveis para essa qualidade!","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/xoltan_zahav_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Xoltan está vendendo."}}]}]}
 
 
-function att2:dialogs/gameplay/shop/mending/proposal
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Xoltan Zahav : ","color":"green","extra":[{"text":"嗨，需要武器或盔甲吗？我这儿有一些质量不错的好货...随便挑，随便选，保证“一分钱一分货”！ ","color":"dark_aqua","extra":[{"text":" [看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/xoltan_zahav_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Xoltan售卖的装备。"}}]}]}
+
+function att2:dialogs/gameplay/shop/mending/proposal

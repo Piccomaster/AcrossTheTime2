@@ -4,8 +4,8 @@
 #################################################################
 
 function att2:sound/dialogs/simple
-tp @e[type=minecraft:shulker,tag=MainObjective] ~ ~-200 ~
-tp @e[type=minecraft:shulker,tag=SideObjective] ~ ~-200 ~
+tp @e[type=minecraft:shulker,tag=MainObjective] ~ 0 ~
+tp @e[type=minecraft:shulker,tag=SideObjective] ~ 0 ~
 kill @e[type=minecraft:shulker,tag=MainObjective]
 kill @e[type=minecraft:shulker,tag=SideObjective]
 function att2:dialogs/sidequest/assistance/sq36/step1

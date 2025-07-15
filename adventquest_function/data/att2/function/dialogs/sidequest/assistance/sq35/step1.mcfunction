@@ -51,7 +51,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- कमजोर हो रहा �
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Um negócio em declínio -°- : ","color":"gray","extra":[{"text":"Tenho que me livrar dos bandidos para que o Nestor possa voltar a trabalhar normalmente na estalagem. Vamos matar alguns ladrões, apenas para ensinar-lhes boas maneiras!","color":"aqua","italic":true}]}
 
 
-function att2:dialogs/sidequest/sq35/mobs_killed_total
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":"-°- 门可罗雀 -°- : ","color":"gray","extra":[{"text":"只有解决掉附近的强盗后，Nestor才能重新经营他的旅馆。是时候给那些混混一点教训。","color":"aqua","italic":true}]}
+
+function att2:dialogs/sidequest/sq35/mobs_killed_total

@@ -51,9 +51,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Patrick Corth : ","color":"green
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Saudações, tenho uma tarefa super original que não falhará em despertar o entusiasmo de um grande homem como você! Traga-me madeira da floresta!","color":"dark_aqua"}]}
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"你好，我有一个非常独特的任务，对于你这样的大人物来说，这个任务绝对能激发你的热情！请为我从森林里运来木材！","color":"dark_aqua"}]}
+
 
 function att2:dialogs/sidequest/sq9/patrick_corth/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq9/patrick_corth/player_proposal_1/choice_2
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"你好，我有一个非常独特的任务，对于你这样的大人物来说，这个任务绝对能激发你的热情！请为我从森林里运来木材！","color":"dark_aqua"}]}

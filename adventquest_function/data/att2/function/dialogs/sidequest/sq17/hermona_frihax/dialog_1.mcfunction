@@ -54,9 +54,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Hermona : ","color":"green","ext
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Sim? Você está aqui no distrito onde tratamos e operamos nossos feridos mais graves… Esta guerra está causando estragos em ambos os lados, mas desde o último ataque sofremos grandes perdas. Agora está faltando material. Você teria tempo para nos encontrar bandagens?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"没错，这里是我们治疗重伤人群和进行手术的地方...这场战争对双方都有着不可恢复的损失。在上次的战斗中，我们的损失惨重，现在物资匮乏，你可以帮我们寻找一些绷带吗?","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"没错，这里是我们治疗重伤人群和进行手术的地方...这场战争对双方都有着不可恢复的损失。在上次的战斗中，我们的损失惨重，现在物资匮乏，你可以帮我们寻找一些绷带吗?","color":"dark_aqua"}]}

@@ -52,10 +52,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Walton Jones : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Por favor, eu preciso de ajuda. Atualmente estou cavando mais abaixo perto do torrente para encontrar fósseis, mas está invadido por uma forma de vida verde e viscosa bastante perigosa. Já não me atrevo a me aventurar... Em resumo, estou procurando alguém que possa espantar essas monstruosidades. Eu oferecerei alguns Chronotons em troca.","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"拜托你，我需要一些帮助： 我目前正在Soquai激流附近进行挖掘来寻找化石，但是那里被一群十分危险的绿油油黏糊糊的生物占据了。我也不敢冒险前往那里继续挖掘...总之，我得找一个能把这些怪物赶跑的人。我会给你一些Chronotons作为报酬。","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq37/walton_jones/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq37/walton_jones/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq37/walton_jones/player_proposal_1/choice_3
 function att2:dialogs/sidequest/sq37/walton_jones/player_proposal_1/choice_4
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"拜托你，我需要一些帮助： 我目前正在Soquai激流附近进行挖掘来寻找化石，但是那里被一群十分危险的绿油油黏糊糊的生物占据了。我也不敢冒险前往那里继续挖掘...总之，我得找一个能把这些怪物赶跑的人。我会给你一些Chronotons作为报酬。","color":"dark_aqua"}]}

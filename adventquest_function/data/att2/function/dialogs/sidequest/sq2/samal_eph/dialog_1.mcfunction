@@ -59,9 +59,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Samal Eph : ","color":"green","e
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"Mas! É um milagre!? Achei que minhas últimas horas haviam chegado ao fundo deste buraco depois que um solavanco bloqueou a única saída. Mil agradecimentos! Eu deveria trazer minério de ferro para o ferreiro de Ryliath. Certamente foi ele quem te enviou?","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"这是幻觉吗？！唯一的出口崩塌之后我都以为我死定了。太感谢你了！我本来应该要把铁矿带给Ryliath的铁匠的，是他叫你来的吗？ ","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"这是幻觉吗？！唯一的出口崩塌之后我都以为我死定了。太感谢你了！我本来应该要把铁矿带给Ryliath的铁匠的，是他叫你来的吗？ ","color":"dark_aqua"}]}

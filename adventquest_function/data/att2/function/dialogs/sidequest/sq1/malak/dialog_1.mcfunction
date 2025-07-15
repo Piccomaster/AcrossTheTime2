@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Malak : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Hmm, um estranho? Ele não parece muito mau e não arriscaria atacar uma velha como eu... Talvez ele até me ajude? Sim... Ele aceitará... Toda a minha colheita de trigo, sumida, desaparecida! Sem dúvida roubada por outro estranho... É por isso que não gostamos deles por aqui...","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"嗯，有生面孔？看起来好像不是坏人，而且也没人会对我这个老女人下手...不过也许他能帮得上忙？希望...他会帮我吧...我收获的小麦都，不！见！了！肯定是被哪个外地人偷了...这就是为什么我很讨厌他们一直在附近绕来绕去...","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"嗯，有生面孔？看起来好像不是坏人，而且也没人会对我这个老女人下手...不过也许他能帮得上忙？希望...他会帮我吧...我收获的小麦都，不！见！了！肯定是被哪个外地人偷了...这就是为什么我很讨厌他们一直在附近绕来绕去...","color":"dark_aqua"}]}

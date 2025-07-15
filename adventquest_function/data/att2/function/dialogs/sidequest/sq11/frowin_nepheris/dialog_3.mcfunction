@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Frowin Nepheris : ","color":"gre
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Os agitadores parecem não ter decidido ir embora! Vá e dê um chute no trem deles...","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq11/frowin_nepheris/player_proposal_2/choice_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"那群混蛋似乎还没有决定离开！去给他们点颜色瞧瞧...","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq11/frowin_nepheris/player_proposal_2/choice_1

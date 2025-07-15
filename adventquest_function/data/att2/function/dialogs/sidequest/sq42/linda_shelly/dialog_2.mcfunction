@@ -52,10 +52,10 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"*Em lágrimas* Eu não vou conseguir viver assim sem ele...","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"*泪流满面*没有他我该怎么生活...","color":"dark_aqua"}]}
+
 
 function att2:dialogs/sidequest/sq42/linda_shelly/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq42/linda_shelly/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq42/linda_shelly/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"*泪流满面*没有他我该怎么生活...","color":"dark_aqua"}]}

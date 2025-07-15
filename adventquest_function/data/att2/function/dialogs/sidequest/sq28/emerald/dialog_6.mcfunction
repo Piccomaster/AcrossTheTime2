@@ -52,7 +52,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Eu estava ansioso para vê-la novamente. Perguntei ao estalajadeiro se uma garota que correspondia à descrição de Selene tinha visitado recentemente seu estabelecimento. Felizmente, ela passou a noite aqui ontem. Ela deve ter saído às pressas porque deixou seu diário. Temo que não tenhamos muito tempo: Korlaph, um conhecido da minha falecida esposa, a contratou para uma expedição ao topo. Peço-te, vá encontrá-la antes que seja tarde demais.","color":"dark_aqua"}]}
 
 
-function att2:dialogs/sidequest/sq28/emerald/player_proposal_1/choice_1
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我期待与你的再次相遇。我问过旅店老板：是否有一位像Selene那样穿着的小女孩拜访过他的旅馆。好消息是：她昨晚刚刚在这里过夜。可她甚至把日记都落在了旅店里，看来她离开的很匆忙。我担心我们没有什么时间了—Korlaph是我已故妻子的一位熟人，曾经和我的妻子参加过一次攀登Elcheol山顶的行动。我求求你，在一切变得不可挽回之前，找到我的女儿。","color":"dark_aqua"}]}
+
+function att2:dialogs/sidequest/sq28/emerald/player_proposal_1/choice_1

@@ -52,9 +52,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"*sussurrando* Psst, foi você quem ativou o portal de Ryliath, certo? O que acha de ganhar muito dinheiro? Pessoalmente, tenho muitas dívidas aqui e, como planejo sair em breve... Não falta dinheiro no banco, e ele está lá guardando, sugiro que nos inclinemos e o pegamos! Se você me ajudar a levar o que está lá dentro, faremos a divisão metade e metade...","color":"dark_aqua"}]}
 
 
+#Simplified Chinese
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"*低声耳语*你激活了Ryliath的传送门对吧？想不想赚大钱？我在这里欠债太多了，我想搞点钱然后跑路...银行的金库里有很多钱，但是有守卫在那边看着，我建议我们从偷偷从地下潜入进去把钱拿走！如果你能帮我偷走金库里的钱，我们就平分这笔财产，怎么样？","color":"dark_aqua"}]}
+
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_1/choice_3
-
-#Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"*低声耳语*你激活了Ryliath的传送门对吧？想不想赚大钱？我在这里欠债太多了，我想搞点钱然后跑路...银行的金库里有很多钱，但是有守卫在那边看着，我建议我们从偷偷从地下潜入进去把钱拿走！如果你能帮我偷走金库里的钱，我们就平分这笔财产，怎么样？","color":"dark_aqua"}]}

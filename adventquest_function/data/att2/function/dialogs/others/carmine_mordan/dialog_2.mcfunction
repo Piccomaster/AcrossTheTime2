@@ -51,8 +51,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कार्मिन मोर�
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Carmine Mordan : ","color":"green","extra":[{"text":"Gostaria de ver o que tenho na loja?","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Carmine está vendendo."}}]}]}
 
-
-function att2:dialogs/gameplay/shop/mending/proposal
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Carmine Mordan : ","color":"green","extra":[{"text":"想看看我的店里都卖些什么吗？","color":"dark_aqua","extra":[{"text":"[看装备 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hover_event":{"action":"show_text","value":"点击此处查看Carmine售卖的装备。"}}]}]}
+
+function att2:dialogs/gameplay/shop/mending/proposal
