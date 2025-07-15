@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#speed burn enchantment effect                    				#
+#combohit enchantment effect                    				#
 #################################################################
 
 particle minecraft:item{item:"minecraft:soul_sand"} ~ ~1 ~ 0.2 0.4 0.2 0.2 30 normal
