@@ -16,6 +16,7 @@ scoreboard players operation @s STR_DATA = @s STR_TOT
 scoreboard players operation @s STR_DATA *= @s STR_DATA
 scoreboard players operation @s STR_DATA *= 50 CAL
 scoreboard players operation @s STR_DATA /= 100 CAL
+scoreboard players add @s STR_DATA 1
 #min limit
 scoreboard players set @s[scores={STR_TOT=1..,STR_DATA=0}] STR_DATA 1
 execute store result storage att2:attribute STR int 1 run scoreboard players get @s STR_DATA
