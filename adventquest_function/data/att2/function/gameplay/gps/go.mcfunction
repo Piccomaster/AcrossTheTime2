@@ -3,7 +3,8 @@
 #Process help for finding objectives (locate them)         	#
 #############################################################
 
-execute if score tic TIMECOUNTER matches 5 as @e[scores={GPS_TIMER=0..},type=minecraft:zombified_piglin] run scoreboard players remove @s GPS_TIMER 1
-execute if score tic TIMECOUNTER matches 5 as @e[scores={GPS_TIMER=0..},type=minecraft:zombified_piglin] at @s unless entity @a[distance=..15] run scoreboard players set @s GPS_TIMER 0
-execute if score tic TIMECOUNTER matches 5 as @e[scores={GPS_TIMER=1},type=minecraft:zombified_piglin] at @s run teleport @s ~ ~-20 ~
-execute if score tic TIMECOUNTER matches 5 as @e[scores={GPS_TIMER=..0},type=minecraft:zombified_piglin] run kill @s
+#normal
+execute if score tic TIMECOUNTER matches 5 as @e[type=minecraft:zombified_piglin,scores={GPS_TIMER=0..}] at @s run function att2:gameplay/gps/arrow_timer
+#billgart
+execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/gps/billgart/go
+execute if score tic TIMECOUNTER matches 5 unless score BILLGART GPS_TIMER matches 1.. run function att2:gameplay/gps/billgart/reset
