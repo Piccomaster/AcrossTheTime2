@@ -3,6 +3,6 @@
 #Initialize healthbar 											#
 #################################################################
 
-bossbar add healthbar "✬"
+bossbar add healthbar {text:"✬"}
 bossbar set healthbar color red
 bossbar set healthbar players @a

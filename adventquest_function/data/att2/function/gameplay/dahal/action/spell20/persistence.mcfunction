@@ -11,3 +11,5 @@ execute as @e[type=minecraft:chest_minecart,tag=!New,tag=spell20_chest] unless e
 execute as @a at @s run function att2:gameplay/dahal/action/spell20/chest_test
 #check click page
 execute as @e[type=minecraft:chest_minecart,tag=spell20_chest] at @s run function att2:gameplay/dahal/action/spell20/check_click
+#lvl update
+execute if score tic TIMECOUNTER matches 7 run function att2:gameplay/dahal/action/spell20/lvl_update

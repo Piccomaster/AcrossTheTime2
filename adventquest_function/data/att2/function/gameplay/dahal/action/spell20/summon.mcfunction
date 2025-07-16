@@ -10,11 +10,13 @@ scoreboard players operation @e[type=chest_minecart,tag=spell20_chest,tag=New] O
 
 scoreboard players operation @e[type=chest_minecart,tag=spell20_chest,tag=New] SPELL20_PAGE = @s SPELL20_PAGE
 
+scoreboard players operation @e[type=chest_minecart,tag=spell20_chest,tag=New] SPELL20_LVL = @s SPELL20_LVL
+
 execute store result storage att2:spell20 NUMEROJOUEUR int 1 run scoreboard players get @s NUMEROJOUEUR
 
 execute store result storage att2:spell20 now_page int 1 run scoreboard players get @s SPELL20_PAGE
 
-execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_CAP
+execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_LVL
 
 function att2:gameplay/dahal/action/spell20/reset_item with storage att2:spell20
 #effect

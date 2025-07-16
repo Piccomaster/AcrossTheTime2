@@ -13,11 +13,15 @@ scoreboard objectives add other_minecart dummy
 scoreboard objectives add SPELL20_PAGE dummy
 scoreboard objectives add SPELL20_DROP dummy
 
+scoreboard objectives add SPELL20_ESC dummy
+scoreboard objectives add SPELL20_CUR dummy
+scoreboard objectives add SPELL20_RUNE dummy
+
 scoreboard players set @s other_minecart 0
 scoreboard players set @s set_chest 0
 
 scoreboard players set @s COOLDOWN20 0
-scoreboard players set @s SPELL20_LVL 0
+scoreboard players set @s SPELL20_LVL 1
 scoreboard players set @s SPELL20_CAP 1
 scoreboard players set cap1 SPELL20_LVL 0
 scoreboard players set cap2 SPELL20_LVL 1

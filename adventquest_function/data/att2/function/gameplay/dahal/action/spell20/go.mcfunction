@@ -11,6 +11,6 @@ execute if entity @s[scores={other_minecart=1}] at @s run function att2:dialogs/
 #set score
 execute store result storage att2:spell20 NUMEROJOUEUR int 1 run scoreboard players get @s NUMEROJOUEUR
 execute store result storage att2:spell20 now_page int 1 run scoreboard players get @s SPELL20_PAGE
-execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_CAP
+execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_LVL
 ##
 execute as @s[scores={DAHAL=40..,other_minecart=0}] at @s anchored eyes positioned ^ ^-0.5 ^1 run function att2:gameplay/dahal/action/spell20/summon_trigger with storage att2:spell20

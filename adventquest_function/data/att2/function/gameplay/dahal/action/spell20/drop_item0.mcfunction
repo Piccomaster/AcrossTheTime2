@@ -6,7 +6,7 @@
 ##set_chest
 execute store result storage att2:spell20 NUMEROJOUEUR int 1 run scoreboard players get @s OWNER
 execute store result storage att2:spell20 now_page int 1 run scoreboard players get @s SPELL20_PAGE
-execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_CAP
+execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_LVL
 scoreboard players add @s SPELL20_DROP 1
 #stock item
 function att2:gameplay/dahal/action/spell20/stock_page with storage att2:spell20

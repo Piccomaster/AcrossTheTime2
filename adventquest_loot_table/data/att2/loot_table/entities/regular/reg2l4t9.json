@@ -1312,7 +1312,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/misc/arrow"
+                    "value": "att2:item_data/misc/spectral_arrow"
                 },
                 {
                     "conditions": [

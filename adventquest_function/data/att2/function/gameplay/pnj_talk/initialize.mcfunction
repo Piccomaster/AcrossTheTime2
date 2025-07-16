@@ -3,7 +3,7 @@
 #Initialize npc talking system                                      	#
 #########################################################################
 
-scoreboard objectives add pnjTALK minecraft.custom:minecraft.talked_to_villager
+#scoreboard objectives add pnjTALK minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add DIALOG dummy
 scoreboard objectives add statDIALOG dummy
 scoreboard objectives add onceDIALOG dummy

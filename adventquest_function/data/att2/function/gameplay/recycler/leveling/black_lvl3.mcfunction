@@ -33,3 +33,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"","color":"dark_red","extra":[{"text":"
 
 # Portugais
 tellraw @s[scores={LANGUAGE=10}] {"text":"","color":"dark_red","extra":[{"text":"Experiência no mercado negro:","color":"gold"},{"score":{"name":"points","objective":"RECYCLER"},"color":"red"},{"text":"/","color":"gray"},{"text":"5000","color":"gold"},{"text":"","color":"dark_red"}]}
+
+# SIMPLIFIED CHINESE
+tellraw @s[scores={LANGUAGE=11}] {"text":"","color":"dark_red","extra":[{"text":"黑市经验:","color":"gold"},{"score":{"name":"points","objective":"RECYCLER"},"color":"red"},{"text":"/","color":"gray"},{"text":"5000","color":"gold"},{"text":"","color":"dark_red"}]}

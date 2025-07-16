@@ -32,3 +32,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"","color":"dark_red","extra":[{"text":"
 
 # Portugais
 tellraw @s[scores={LANGUAGE=10}] {"text":"","color":"dark_red","extra":[{"text":"O nível do mercado negro já está no máximo!","color":"gold"},{"text":"","color":"dark_red"}]}
+
+# SIMPLIFIED CHINESE
+tellraw @s[scores={LANGUAGE=11}] {"text":"","color":"dark_red","extra":[{"text":"黑市等级达到最高!","color":"gold"},{"text":"","color":"dark_red"}]}
