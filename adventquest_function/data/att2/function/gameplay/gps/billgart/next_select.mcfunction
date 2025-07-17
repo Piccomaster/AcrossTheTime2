@@ -6,6 +6,6 @@
 #remove timer
 #scoreboard players remove BILLGART GPS_TIMER 1
 #near end->NEXT
-execute as @e[type=item_display,tag=BILLGART,tag=END] at @s if entity @a[distance=..1] run function att2:gameplay/gps/#billgart/next_select
+execute as @e[type=item_display,tag=BILLGART,tag=END] at @s if entity @a[distance=..1] run function att2:gameplay/gps/billgart/next_select
 #end
 #execute if score BILLGART GPS_TIMER matches ..0 run function att2:gameplay/gps/billgart/reset
