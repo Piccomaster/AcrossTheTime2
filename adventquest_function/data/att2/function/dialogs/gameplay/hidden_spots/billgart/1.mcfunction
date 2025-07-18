@@ -3,7 +3,7 @@
 #Use function to activate the dialog 		#
 #############################################
 
-execute at @a run function att2:sound/dialogs/simple
+execute at @s run function att2:sound/dialogs/simple
 
 # FRENCH LANGUAGE
 tellraw @s[scores={LANGUAGE=0}] {"text":"Alors, comment comptez-vous rentrer ?","color":"gray"}
