@@ -371,7 +371,8 @@ execute in overworld positioned 29974 101 30064 run setblock ~ ~ ~ oak_wall_sign
 execute in overworld positioned 29965 88 30022 run setblock ~ ~ ~ oak_wall_sign[facing=north] replace
 #sastr chest
 execute in overworld positioned -4990 21 -4381 run data merge block -4990 21 -4381 {Items:[{Slot:13b,id:"minecraft:diamond_pickaxe",count:1,components:{"minecraft:custom_model_data":{floats:[10000005]},"minecraft:lore":[{translate:item.legendary.sastr.lore.1},{translate:item.legendary.sastr.lore.2},{translate:item.legendary.sastr.lore.3},{translate:item.legendary.sastr.lore.4}],enchantments:{"knockback":5},"minecraft:attribute_modifiers":[{amount:69.47d,id:"attack_damage",operation:"add_value",slot:"mainhand",type:"attack_damage"},{amount:-0.86d,id:"attack_speed",operation:"add_multiplied_base",slot:"mainhand",type:"attack_speed"}],"minecraft:unbreakable":{},"minecraft:custom_name":{translate:item.legendary.sastr.name},"minecraft:custom_data":{EquipmentID:"sastr",EquipmentType:"meleeWeapon",Rarity:"myt"},"minecraft:consumable":{animation:spear,consume_seconds:0.5,has_consume_particles:false,sound:{sound_id:""}},"minecraft:use_cooldown":{seconds:1.5}}}]}
-
+#summon world entity
+function att2:summon/world_entity/0_0_0
 #execute in overworld positioned -4978 79 -5036 run data merge block ~ ~ ~ {Items:[{count:1,Slot:0b,id:"minecraft:potion",components:{XXXX}},{count:1,Slot:2b,id:"minecraft:potion",components:{XXXX}}]}
 #execute in overworld positioned -4978 79 -5036 run data merge block ~ ~ ~ {Items:[{count:1,Slot:0b,id:"minecraft:potion",components:{XXXX}},{count:1,Slot:2b,id:"minecraft:potion",components:{XXXX}}]}
 #execute in overworld positioned -5105.5 105.9 -4958.5 run data merge entity @e[type=armor_stand,distance=..0,limit=1] {equipment:{mainhand:{count:1,id:"minecraft:netherite_hoe",components:{XXX}}},Tags:["USEFUL"],Marker:false}
