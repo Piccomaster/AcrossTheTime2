@@ -59,7 +59,7 @@ function att2:summon/reg_1/doom_rewards_dedicated
 
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
-function att2:summon/bat_runes_abc_rewards_3
+function att2:summon/bat_boss_esc_rewards
 
 #boss time 1
 execute if score doom_m BOSS_TIME matches ..3 run function att2:summon/bat_boss_esc_rewards
