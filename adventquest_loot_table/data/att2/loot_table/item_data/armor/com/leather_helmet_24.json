@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:leather_boots",
+                    "name": "minecraft:leather_helmet",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
