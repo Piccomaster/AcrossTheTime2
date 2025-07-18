@@ -4,8 +4,8 @@
 #################################################################
 
 ##reset block
-execute in the_nether positioned 3918 94 4096 run setblock ~ ~ ~ stone_button[face=wall,facing=east]
-execute in the_nether positioned 3918 93 4096 run setblock ~ ~ ~ command_block{Command:"/function att2:gameplay/hidden_spots/angband/2",auto:0b} replace
+#execute in the_nether positioned 3918 94 4096 run setblock ~ ~ ~ stone_button[face=wall,facing=east]
+#execute in the_nether positioned 3918 93 4096 run setblock ~ ~ ~ command_block{Command:"/function att2:gameplay/hidden_spots/angband/2",auto:0b} replace
 #score
 
 #tp
