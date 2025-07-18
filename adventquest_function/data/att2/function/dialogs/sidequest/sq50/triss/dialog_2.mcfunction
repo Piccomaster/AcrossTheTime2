@@ -57,4 +57,4 @@ tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*抽泣中*就是...我...你瞧，我找不到我的小猫Totoro了...我已经两天没看见过它了，我担心...","color":"dark_aqua"}]}
 
 function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_1
-function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_2X
+function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_2
