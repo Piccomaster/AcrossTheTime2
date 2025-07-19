@@ -14,5 +14,3 @@ execute in overworld positioned 2100 94 2001 run setblock ~ ~ ~ repeating_comman
 execute in overworld positioned 2099 94 2001 run setblock ~ ~ ~ redstone_block destroy
 #plastic_flower
 execute in overworld positioned 1991 108 2059 run setblock ~ ~ ~ repeating_command_block[facing=east]{Command:"clear @a[x=1953,y=96,z=2034,distance=..4,gamemode=adventure] minecraft:poppy[custom_name={translate:'item.quest.plastic_flower.name'}] 1",auto:0}
-#return 1->make command block runing
-return 1

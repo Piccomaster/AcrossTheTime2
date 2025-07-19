@@ -29,26 +29,9 @@ execute in minecraft:overworld if score tower2_mech3 OURANOS matches ..1000 run 
 execute in minecraft:overworld if score path3_mech2 OURANOS matches 1.. run function att2:cinematic/act_4/ouranos/tower3_path/mech2/go
 
 ### Process Boss
-# Vonaheim
-execute unless score vonaheim RESETCB matches 1 run function att2:cinematic/misc/reset_cb/vonaheim
-# Somniophages
-execute unless score somniophages RESETCB matches 1 if score SQ48 SIDEQUEST matches 1.. run function att2:cinematic/misc/reset_cb/somniophages
-# Ouran
-execute unless score ouran RESETCB matches 1 if score Mainquest SIDEQUEST matches 216..217 run function att2:cinematic/misc/reset_cb/ouran
 execute if score Mainquest SIDEQUEST matches 216..217 run function att2:gameplay/boss/ouranos/ouran/go
-# Guardian Ithax
-execute unless score guardian RESETCB matches 1 if score Mainquest SIDEQUEST matches 220..275 run function att2:cinematic/misc/reset_cb/guardian
 execute if score Mainquest SIDEQUEST matches 275..279 run function att2:cinematic/act_4/ithax/temporal_anomaly_go
-# Umbra'Tyanth
-execute unless score umbratyanth RESETCB matches 1 run function att2:cinematic/misc/reset_cb/umbratyanth
-# Sérile
-execute unless score serile1 RESETCB matches 1 if score Mainquest SIDEQUEST matches 282..285 run function att2:cinematic/misc/reset_cb/serile1
-execute unless score serile2 RESETCB matches 1 if score Mainquest SIDEQUEST matches 282..285 run function att2:cinematic/misc/reset_cb/serile2
-execute unless score serile3 RESETCB matches 1 if score Mainquest SIDEQUEST matches 282..285 run function att2:cinematic/misc/reset_cb/serile3
-execute unless score serile4 RESETCB matches 1 if score Mainquest SIDEQUEST matches 282..285 run function att2:cinematic/misc/reset_cb/serile4
 execute if score Mainquest SIDEQUEST matches 282..285 run function att2:gameplay/boss/serile/go
-#arena
-execute unless score arena RESETCB matches 1 run function att2:cinematic/misc/reset_cb/arena
 
 ### Process Secret dungeon
 function att2:cinematic/misc/secret_dungeon/go

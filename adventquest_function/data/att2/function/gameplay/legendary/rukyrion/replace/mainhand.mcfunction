@@ -11,7 +11,7 @@ item replace entity @s weapon.mainhand with air
 item replace entity @s weapon.mainhand from entity @e[tag=REPLACE,type=armor_stand,limit=1] weapon.mainhand
 #test score
 execute if score @s RUK_USED matches 1 run item modify entity @s weapon.mainhand {"function":"set_components", "components":{"minecraft:use_cooldown":{seconds:0.05}}}
-execute if score @s RUK_USED matches 2 run item modify entity @s weapon.mainhand {"function":"set_components", "components":{"minecraft:use_cooldown":{seconds:2}}}
+execute if score @s RUK_USED matches 2 run item modify entity @s weapon.mainhand {"function":"set_components", "components":{"minecraft:use_cooldown":{seconds:4}}}
 execute if score @s RUK_USED matches 3.. run item modify entity @s weapon.mainhand {"function":"set_components", "components":{"minecraft:use_cooldown":{seconds:0.05}}}
 #kill marker
 kill @e[tag=REPLACE,type=armor_stand]

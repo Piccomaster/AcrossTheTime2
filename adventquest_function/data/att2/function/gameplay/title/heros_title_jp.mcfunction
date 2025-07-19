@@ -1,132 +1,132 @@
 
-execute as @s[scores={TITLE_ID=1}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"迷える呪われし者","color":"white"}'}
-execute as @s[scores={TITLE_ID=2}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"迷える初心者","color":"white"}'}
-execute as @s[scores={TITLE_ID=3}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"好奇心旺盛な見習い","color":"white"}'}
-execute as @s[scores={TITLE_ID=4}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"遊牧の探求者","color":"white"}'}
-execute as @s[scores={TITLE_ID=5}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"慎重な放浪者","color":"white"}'}
-execute as @s[scores={TITLE_ID=6}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"拒絶された影","color":"white"}'}
-execute as @s[scores={TITLE_ID=7}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"隠密な徘徊者","color":"white"}'}
-execute as @s[scores={TITLE_ID=8}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"控えめな冒険者","color":"white"}'}
-execute as @s[scores={TITLE_ID=9}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"大胆不敵な斥候","color":"white"}'}
-execute as @s[scores={TITLE_ID=10}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"勇敢な追跡者","color":"white"}'}
-execute as @s[scores={TITLE_ID=11}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"闇の戦士","color":"white"}'}
-execute as @s[scores={TITLE_ID=12}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"警戒する訪問者","color":"white"}'}
-execute as @s[scores={TITLE_ID=13}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"敏捷な狩人","color":"white"}'}
-execute as @s[scores={TITLE_ID=14}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"警戒する守護者","color":"white"}'}
-execute as @s[scores={TITLE_ID=15}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"さすらいの剣士","color":"white"}'}
-execute as @s[scores={TITLE_ID=16}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"苦悩する放浪者","color":"white"}'}
-execute as @s[scores={TITLE_ID=17}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"さまよう哨兵","color":"white"}'}
-execute as @s[scores={TITLE_ID=18}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"孤独な守護者","color":"white"}'}
-execute as @s[scores={TITLE_ID=19}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"神秘的な学者","color":"white"}'}
-execute as @s[scores={TITLE_ID=20}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"自信あるベテラン","color":"white"}'}
-execute as @s[scores={TITLE_ID=21}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"闇の活動家","color":"gray"}'}
-execute as @s[scores={TITLE_ID=22}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"不屈の旅人","color":"gray"}'}
-execute as @s[scores={TITLE_ID=23}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"卓越した狩人","color":"gray"}'}
-execute as @s[scores={TITLE_ID=24}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"警戒する見習い","color":"gray"}'}
-execute as @s[scores={TITLE_ID=25}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"勇敢な斥候","color":"gray"}'}
-execute as @s[scores={TITLE_ID=26}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"巧妙な襲撃者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=27}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"武器の支持者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=28}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"賢明な学者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=29}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"ささやかれる英雄","color":"gray"}'}
-execute as @s[scores={TITLE_ID=30}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"誉れ高き守護者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=31}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"古の徘徊者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=32}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"均衡の戦士","color":"gray"}'}
-execute as @s[scores={TITLE_ID=33}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"認められた遊牧者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=34}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"揺るがぬ監視者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=35}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"大胆不敵な守護者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=36}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"捉え難いチャンピオン","color":"gray"}'}
-execute as @s[scores={TITLE_ID=37}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"苦悩する学者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=38}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"卓越した英雄","color":"gray"}'}
-execute as @s[scores={TITLE_ID=39}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"高揚する防衛者","color":"gray"}'}
-execute as @s[scores={TITLE_ID=40}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"幻影の刃","color":"gray"}'}
-execute as @s[scores={TITLE_ID=41}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"捕らえられぬ放浪者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=42}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"賞賛されし兵士","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=43}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"不屈の騎士","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=44}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"賢明な哨兵","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=45}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"控えめな達人","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=46}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"取り憑かれた探検者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=47}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"幽玄なる守護者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=48}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"崇められし勇士","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=49}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"著名な守護者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=50}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"世代の賢者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=51}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"忘れ去られた亡霊","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=52}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"決意の巡礼者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=53}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"不屈の槍兵","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=54}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"静かなる監視者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=55}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"影を歩む者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=56}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"迷える追跡者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=57}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"厳粛なる死神","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=58}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"響きの運び手","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=59}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"運命の彫刻者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=60}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"天上の案内者","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=61}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"欠けた騎手","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=62}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"輝ける守護者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=63}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時代のチャンピオン","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=64}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"啓蒙された学者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=65}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"循環の英雄","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=66}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"賞賛されし指導者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=67}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"大胆な旅人","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=68}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"伝説の見習い","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=69}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"ささやかれる伝説","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=70}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"無限の斥候","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=71}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"不滅の徘徊者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=72}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"眩き戦士","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=73}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"不動の哨兵","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=74}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"巧妙な守護者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=75}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"称えられし哲学者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=76}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"幻影の追跡者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=77}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"闇の達人","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=78}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"幽玄なる学者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=79}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"不滅のベテラン","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=80}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"輝ける征服者","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=81}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時代の探検者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=82}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"物語の監視者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=83}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時を越えし英雄","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=84}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"叙事の徘徊者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=85}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"永遠なる支配者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=86}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"次元の王","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=87}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"魂の守護者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=88}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"崇高なる防衛者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=89}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"愛されし伝説","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=90}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時を越えし賢者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=91}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"深淵の学者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=92}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"無限の哨兵","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=93}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"予言のチャンピオン","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=94}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"眩き旅人","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=95}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"古代世界の君主","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=96}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"永遠なる達人","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=97}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"物語の放浪者","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=98}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時を越えし戦士","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=99}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"深淵の斥候","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=100}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"生きる神話","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=101}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"影の防衛者","color":"gold"}'}
-execute as @s[scores={TITLE_ID=102}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"星の守護者","color":"gold"}'}
-execute as @s[scores={TITLE_ID=103}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"年代記の英雄","color":"gold"}'}
-execute as @s[scores={TITLE_ID=104}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時代を越えし学者","color":"gold"}'}
-execute as @s[scores={TITLE_ID=105}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"眩き監視者","color":"gold"}'}
-execute as @s[scores={TITLE_ID=106}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"不滅の征服者","color":"gold"}'}
-execute as @s[scores={TITLE_ID=107}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"伝説の旅人","color":"gold"}'}
-execute as @s[scores={TITLE_ID=108}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時代の達人","color":"gold"}'}
-execute as @s[scores={TITLE_ID=109}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"大地の伝説","color":"gold"}'}
-execute as @s[scores={TITLE_ID=110}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"予言の王","color":"gold"}'}
-execute as @s[scores={TITLE_ID=111}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"帆の騎士","color":"gold"}'}
-execute as @s[scores={TITLE_ID=112}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"計り知れぬ影","color":"gold"}'}
-execute as @s[scores={TITLE_ID=113}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"深淵の巡礼者","color":"gold"}'}
-execute as @s[scores={TITLE_ID=114}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"真実の運び手","color":"gold"}'}
-execute as @s[scores={TITLE_ID=115}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"次元の君主","color":"gold"}'}
-execute as @s[scores={TITLE_ID=116}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"深淵の刃","color":"gold"}'}
-execute as @s[scores={TITLE_ID=117}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"祖先の声","color":"gold"}'}
-execute as @s[scores={TITLE_ID=118}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時代の使者","color":"gold"}'}
-execute as @s[scores={TITLE_ID=119}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"神聖なる仲裁者","color":"gold"}'}
-execute as @s[scores={TITLE_ID=120}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"天上の模範","color":"gold"}'}
-execute as @s[scores={TITLE_ID=121}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"究極の徘徊者","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=122}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"魂の使徒","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=123}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"叙事の哨兵","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=124}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"次元を超えし守護者","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=125}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"著名なる不滅者","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=126}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"伝説の学者","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=127}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"神話のチャンピオン","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=128}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"時代の主","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=129}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"永遠なる大賢者","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=130}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"至高の君主","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=131}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"絶対なる伝説","color":"aqua"}'}
+$execute as @s[scores={TITLE_ID=1}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"迷える呪われし者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=2}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"迷える初心者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=3}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"好奇心旺盛な見習い","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=4}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"遊牧の探求者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=5}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"慎重な放浪者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=6}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"拒絶された影","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=7}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"隠密な徘徊者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=8}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"控えめな冒険者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=9}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"大胆不敵な斥候","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=10}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"勇敢な追跡者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=11}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"闇の戦士","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=12}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"警戒する訪問者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=13}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"敏捷な狩人","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=14}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"警戒する守護者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=15}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"さすらいの剣士","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=16}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"苦悩する放浪者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=17}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"さまよう哨兵","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=18}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"孤独な守護者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=19}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"神秘的な学者","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=20}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"自信あるベテラン","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=21}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"闇の活動家","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=22}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"不屈の旅人","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=23}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"卓越した狩人","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=24}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"警戒する見習い","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=25}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"勇敢な斥候","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=26}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"巧妙な襲撃者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=27}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"武器の支持者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=28}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"賢明な学者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=29}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"ささやかれる英雄","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=30}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"誉れ高き守護者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=31}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"古の徘徊者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=32}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"均衡の戦士","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=33}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"認められた遊牧者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=34}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"揺るがぬ監視者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=35}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"大胆不敵な守護者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=36}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"捉え難いチャンピオン","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=37}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"苦悩する学者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=38}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"卓越した英雄","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=39}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"高揚する防衛者","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=40}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"幻影の刃","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=41}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"捕らえられぬ放浪者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=42}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"賞賛されし兵士","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=43}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"不屈の騎士","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=44}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"賢明な哨兵","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=45}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"控えめな達人","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=46}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"取り憑かれた探検者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=47}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"幽玄なる守護者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=48}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"崇められし勇士","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=49}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"著名な守護者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=50}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"世代の賢者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=51}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"忘れ去られた亡霊","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=52}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"決意の巡礼者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=53}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"不屈の槍兵","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=54}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"静かなる監視者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=55}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"影を歩む者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=56}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"迷える追跡者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=57}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"厳粛なる死神","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=58}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"響きの運び手","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=59}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"運命の彫刻者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=60}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"天上の案内者","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=61}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"欠けた騎手","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=62}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"輝ける守護者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=63}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時代のチャンピオン","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=64}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"啓蒙された学者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=65}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"循環の英雄","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=66}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"賞賛されし指導者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=67}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"大胆な旅人","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=68}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"伝説の見習い","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=69}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"ささやかれる伝説","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=70}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"無限の斥候","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=71}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"不滅の徘徊者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=72}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"眩き戦士","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=73}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"不動の哨兵","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=74}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"巧妙な守護者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=75}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"称えられし哲学者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=76}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"幻影の追跡者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=77}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"闇の達人","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=78}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"幽玄なる学者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=79}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"不滅のベテラン","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=80}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"輝ける征服者","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=81}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時代の探検者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=82}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"物語の監視者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=83}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時を越えし英雄","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=84}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"叙事の徘徊者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=85}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"永遠なる支配者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=86}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"次元の王","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=87}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"魂の守護者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=88}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"崇高なる防衛者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=89}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"愛されし伝説","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=90}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時を越えし賢者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=91}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"深淵の学者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=92}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"無限の哨兵","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=93}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"予言のチャンピオン","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=94}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"眩き旅人","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=95}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"古代世界の君主","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=96}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"永遠なる達人","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=97}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"物語の放浪者","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=98}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時を越えし戦士","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=99}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"深淵の斥候","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=100}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"生きる神話","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=101}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"影の防衛者","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=102}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"星の守護者","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=103}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"年代記の英雄","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=104}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時代を越えし学者","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=105}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"眩き監視者","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=106}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"不滅の征服者","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=107}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"伝説の旅人","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=108}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時代の達人","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=109}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"大地の伝説","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=110}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"予言の王","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=111}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"帆の騎士","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=112}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"計り知れぬ影","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=113}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"深淵の巡礼者","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=114}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"真実の運び手","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=115}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"次元の君主","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=116}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"深淵の刃","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=117}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"祖先の声","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=118}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時代の使者","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=119}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"神聖なる仲裁者","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=120}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"天上の模範","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=121}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"究極の徘徊者","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=122}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"魂の使徒","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=123}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"叙事の哨兵","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=124}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"次元を超えし守護者","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=125}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"著名なる不滅者","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=126}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"伝説の学者","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=127}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"神話のチャンピオン","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=128}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"時代の主","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=129}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"永遠なる大賢者","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=130}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"至高の君主","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=131}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"絶対なる伝説","color":"aqua","bold":true}

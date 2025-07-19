@@ -50,6 +50,18 @@
                                         10000001
                                     ]
                                 },
+                                "consumable": {
+                                    "animation": "spear",
+                                    "consume_seconds": 1,
+                                    "has_consume_particles": false,
+                                    "sound": {
+                                        "sound_id": ""
+                                    }
+                                },
+                                "use_cooldown": {
+                                    "seconds": 10,
+                                    "cooldown_group": "kinuil"
+                                },
                                 "unbreakable": {}
                             }
                         }

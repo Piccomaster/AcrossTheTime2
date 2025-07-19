@@ -9,7 +9,7 @@ particle minecraft:falling_dust{block_state:"minecraft:green_glazed_terracotta"}
 execute at @a run function att2:sound/door/largestructure_falling
 execute at @a run function att2:sound/misc/stone_falling
 
-summon minecraft:armor_stand -1238.1 27.5 -615.1 {Rotation:[0.0f,0.0f],equipment:{mainhand:{id:"minecraft:clay_ball",count:1,components:{enchantments:{"minecraft:infinity":1},display:{Name:"\"§6Gemme de Temps\"","Lore":["{\"text\":\"§4§oGem of Time\"}"]}}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:2039326,Pose:{RightArm:[-90f,0f,0f]}}
+summon minecraft:armor_stand -1238.1 27.5 -615.1 {Rotation:[0.0f,0.0f],equipment:{mainhand:{id:"minecraft:clay_ball",count:1,components:{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.gem_of_time.name'},lore:[{translate:'item.quest.lore'}],enchantments:{'infinity':1}}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:2039326,Pose:{RightArm:[-90f,0f,0f]},Marker:true}
 
 function att2:physicmod/reg3/dungeon/center/time_gem_falling
 #return 1->make command block runing

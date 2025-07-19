@@ -9,3 +9,4 @@ scoreboard players reset @s FENRIR_TIMER
 tag @s remove ATK_FROZE
 #remove no knockback
 attribute @s knockback_resistance modifier remove fenrir_limit
+attribute @s jump_strength modifier remove fenrir_limit

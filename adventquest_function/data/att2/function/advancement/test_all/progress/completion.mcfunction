@@ -11,7 +11,7 @@
 scoreboard players operation Game_percentage EXPLOIT = TOTAL_SQ SIDEQUEST
 scoreboard players operation Game_percentage EXPLOIT += Mainquest SIDEQUEST
 scoreboard players operation Game_percentage EXPLOIT *= 100 CAL
-scoreboard players operation Game_percentage EXPLOIT /= Total_objectives SIDEQUEST
+scoreboard players operation Game_percentage EXPLOIT /= Total_objectives EXPLOIT
 scoreboard players operation Game_percentage_progress EXPLOIT = Game_percentage EXPLOIT
 
 # GAME PERCENTAGE

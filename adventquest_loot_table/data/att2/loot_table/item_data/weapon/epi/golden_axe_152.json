@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_axe",
+          "name": "minecraft:golden_axe",
           "functions": [
             {
               "function": "minecraft:set_components",

@@ -22,7 +22,7 @@ scoreboard players operation @s RUK_SPD = SPD CAL
 #TIMER
 scoreboard players operation TIMER CAL = STAT CAL
 scoreboard players operation TIMER CAL *= 2 CAL
-scoreboard players operation TIMER CAL *= 20 CAL
+scoreboard players operation TIMER CAL *= 40 CAL
 execute if score TIMER CAL > @s RUK_STAT_TIMER run scoreboard players operation @s RUK_STAT_TIMER = TIMER CAL
 #add kill score
 scoreboard players operation @s RUK_KILL += STAT CAL

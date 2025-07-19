@@ -21,11 +21,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:protection"
-							}
-						]
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "minecraft:protection"
+								}
+							]
+						}
 					}
 				]
 			}

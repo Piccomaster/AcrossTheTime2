@@ -1,132 +1,132 @@
 
-execute as @s[scores={TITLE_ID=1}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Lost Damned","color":"white"}'}
-execute as @s[scores={TITLE_ID=2}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Lost Novice","color":"white"}'}
-execute as @s[scores={TITLE_ID=3}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Curious Apprentice","color":"white"}'}
-execute as @s[scores={TITLE_ID=4}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Nomadic Seeker","color":"white"}'}
-execute as @s[scores={TITLE_ID=5}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Cautious Wanderer","color":"white"}'}
-execute as @s[scores={TITLE_ID=6}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Rejected Shadow","color":"white"}'}
-execute as @s[scores={TITLE_ID=7}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Stealthy Prowler","color":"white"}'}
-execute as @s[scores={TITLE_ID=8}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Discreet Adventurer","color":"white"}'}
-execute as @s[scores={TITLE_ID=9}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Fearless Scout","color":"white"}'}
-execute as @s[scores={TITLE_ID=10}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Bold Tracker","color":"white"}'}
-execute as @s[scores={TITLE_ID=11}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Dark Fighter","color":"white"}'}
-execute as @s[scores={TITLE_ID=12}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Wary Visitor","color":"white"}'}
-execute as @s[scores={TITLE_ID=13}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Agile Hunter","color":"white"}'}
-execute as @s[scores={TITLE_ID=14}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Vigilant Protector","color":"white"}'}
-execute as @s[scores={TITLE_ID=15}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Wandering Swordsman","color":"white"}'}
-execute as @s[scores={TITLE_ID=16}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Tormented Vagabond","color":"white"}'}
-execute as @s[scores={TITLE_ID=17}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Wandering Sentinel","color":"white"}'}
-execute as @s[scores={TITLE_ID=18}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Lone Guardian","color":"white"}'}
-execute as @s[scores={TITLE_ID=19}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Mysterious Scholar","color":"white"}'}
-execute as @s[scores={TITLE_ID=20}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Confident Veteran","color":"white"}'}
-execute as @s[scores={TITLE_ID=21}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Dark Activist","color":"gray"}'}
-execute as @s[scores={TITLE_ID=22}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Persistent Traveler","color":"gray"}'}
-execute as @s[scores={TITLE_ID=23}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Accomplished Hunter","color":"gray"}'}
-execute as @s[scores={TITLE_ID=24}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Wary Apprentice","color":"gray"}'}
-execute as @s[scores={TITLE_ID=25}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Valiant Scout","color":"gray"}'}
-execute as @s[scores={TITLE_ID=26}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Subtle Assailant","color":"gray"}'}
-execute as @s[scores={TITLE_ID=27}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Partisan of Arms","color":"gray"}'}
-execute as @s[scores={TITLE_ID=28}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Wise Scholar","color":"gray"}'}
-execute as @s[scores={TITLE_ID=29}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Whispered Hero","color":"gray"}'}
-execute as @s[scores={TITLE_ID=30}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Honored Protector","color":"gray"}'}
-execute as @s[scores={TITLE_ID=31}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Ancient Prowler","color":"gray"}'}
-execute as @s[scores={TITLE_ID=32}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Balanced Fighter","color":"gray"}'}
-execute as @s[scores={TITLE_ID=33}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Recognized Nomad","color":"gray"}'}
-execute as @s[scores={TITLE_ID=34}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Steadfast Watcher","color":"gray"}'}
-execute as @s[scores={TITLE_ID=35}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Fearless Tutelary","color":"gray"}'}
-execute as @s[scores={TITLE_ID=36}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Elusive Champion","color":"gray"}'}
-execute as @s[scores={TITLE_ID=37}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Tormented Scholar","color":"gray"}'}
-execute as @s[scores={TITLE_ID=38}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Distinguished Hero","color":"gray"}'}
-execute as @s[scores={TITLE_ID=39}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Exalted Defender","color":"gray"}'}
-execute as @s[scores={TITLE_ID=40}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Phantom Blade","color":"gray"}'}
-execute as @s[scores={TITLE_ID=41}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Uncatchable Wanderer","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=42}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Admired Soldier","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=43}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Unyielding Knight","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=44}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Wise Sentinel","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=45}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Discreet Master","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=46}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Haunted Explorer","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=47}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Spectral Guardian","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=48}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Revered Brave","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=49}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Illustrious Protector","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=50}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Sage of the Ages","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=51}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Forgotten Specter","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=52}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Resolute Pilgrim","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=53}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Indomitable Lancer","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=54}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Silent Watcher","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=55}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Shadow Strider","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=56}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Lost Tracker","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=57}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Solemn Reaper","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=58}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Bearer of Echoes","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=59}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Shaper of Destinies","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=60}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Celestial Guide","color":"dark_green"}'}
-execute as @s[scores={TITLE_ID=61}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Eclipsed Rider","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=62}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Radiant Tutelary","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=63}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Champion of the Ages","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=64}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Enlightened Scholar","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=65}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Hero of the Cycles","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=66}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Admired Chief","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=67}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Bold Traveler","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=68}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Apprentice of Legends","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=69}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Whispered Legend","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=70}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Infinite Scout","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=71}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Immortal Prowler","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=72}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Dazzling Fighter","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=73}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Unshakable Sentinel","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=74}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Subtle Protector","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=75}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Magnified Philosopher","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=76}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Phantom Tracker","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=77}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Master of Darkness","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=78}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Ethereal Scholar","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=79}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Immortal Veteran","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=80}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Radiant Conqueror","color":"dark_blue"}'}
-execute as @s[scores={TITLE_ID=81}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Explorer of the Ages","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=82}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Watcher of Fables","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=83}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Hero Beyond Time","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=84}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Prowler of Epics","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=85}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Enduring Dominator","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=86}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"King of Dimensions","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=87}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Guardian of Souls","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=88}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Sublime Defender","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=89}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Beloved Legend","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=90}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Sage Beyond Time","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=91}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Scholar of the Abyss","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=92}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Infinite Sentinel","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=93}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Champion of Prophecies","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=94}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Dazzling Traveler","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=95}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Sovereign of Ancient Worlds","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=96}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Enduring Master","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=97}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Vagabond of Fables","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=98}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Fighter Beyond Time","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=99}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Scout of the Abyss","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=100}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Living Myth","color":"dark_purple"}'}
-execute as @s[scores={TITLE_ID=101}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Defender of Shadows","color":"gold"}'}
-execute as @s[scores={TITLE_ID=102}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Protector of Stars","color":"gold"}'}
-execute as @s[scores={TITLE_ID=103}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Hero of Chronicles","color":"gold"}'}
-execute as @s[scores={TITLE_ID=104}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Scholar Beyond Ages","color":"gold"}'}
-execute as @s[scores={TITLE_ID=105}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Dazzling Watcher","color":"gold"}'}
-execute as @s[scores={TITLE_ID=106}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Immortal Conqueror","color":"gold"}'}
-execute as @s[scores={TITLE_ID=107}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Traveler of Legends","color":"gold"}'}
-execute as @s[scores={TITLE_ID=108}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Master of the Ages","color":"gold"}'}
-execute as @s[scores={TITLE_ID=109}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Telluric Legend","color":"gold"}'}
-execute as @s[scores={TITLE_ID=110}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"King of Prophecies","color":"gold"}'}
-execute as @s[scores={TITLE_ID=111}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Knight of Veils","color":"gold"}'}
-execute as @s[scores={TITLE_ID=112}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Unfathomable Shadow","color":"gold"}'}
-execute as @s[scores={TITLE_ID=113}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Pilgrim of the Abyss","color":"gold"}'}
-execute as @s[scores={TITLE_ID=114}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Bearer of Truth","color":"gold"}'}
-execute as @s[scores={TITLE_ID=115}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Monarch of Dimensions","color":"gold"}'}
-execute as @s[scores={TITLE_ID=116}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Blade of Depths","color":"gold"}'}
-execute as @s[scores={TITLE_ID=117}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Voice of Ancestors","color":"gold"}'}
-execute as @s[scores={TITLE_ID=118}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Messenger of Ages","color":"gold"}'}
-execute as @s[scores={TITLE_ID=119}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Divine Arbiter","color":"gold"}'}
-execute as @s[scores={TITLE_ID=120}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Celestial Paragon","color":"gold"}'}
-execute as @s[scores={TITLE_ID=121}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Ultimate Prowler","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=122}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Apostle of Souls","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=123}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Sentinel of Epics","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=124}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Interdimensional Guardian","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=125}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Illustrious Immortal","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=126}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Scholar of Legends","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=127}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Mythic Champion","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=128}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Lord of the Ages","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=129}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Eternal Grand Sage","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=130}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Supreme Sovereign","color":"yellow"}'}
-execute as @s[scores={TITLE_ID=131}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Absolute Legend","color":"aqua"}'}
+$execute as @s[scores={TITLE_ID=1}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Lost Damned","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=2}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Lost Novice","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=3}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Curious Apprentice","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=4}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Nomadic Seeker","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=5}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Cautious Wanderer","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=6}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Rejected Shadow","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=7}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Stealthy Prowler","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=8}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Discreet Adventurer","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=9}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Fearless Scout","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=10}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Bold Tracker","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=11}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Dark Fighter","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=12}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Wary Visitor","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=13}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Agile Hunter","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=14}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Vigilant Protector","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=15}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Wandering Swordsman","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=16}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Tormented Vagabond","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=17}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Wandering Sentinel","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=18}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Lone Guardian","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=19}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Mysterious Scholar","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=20}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Confident Veteran","color":"white","bold":true}
+$execute as @s[scores={TITLE_ID=21}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Dark Activist","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=22}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Persistent Traveler","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=23}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Accomplished Hunter","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=24}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Wary Apprentice","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=25}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Valiant Scout","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=26}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Subtle Assailant","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=27}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Partisan of Arms","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=28}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Wise Scholar","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=29}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Whispered Hero","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=30}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Honored Protector","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=31}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Ancient Prowler","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=32}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Balanced Fighter","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=33}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Recognized Nomad","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=34}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Steadfast Watcher","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=35}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Fearless Tutelary","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=36}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Elusive Champion","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=37}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Tormented Scholar","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=38}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Distinguished Hero","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=39}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Exalted Defender","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=40}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Phantom Blade","color":"gray","bold":true}
+$execute as @s[scores={TITLE_ID=41}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Uncatchable Wanderer","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=42}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Admired Soldier","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=43}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Unyielding Knight","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=44}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Wise Sentinel","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=45}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Discreet Master","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=46}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Haunted Explorer","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=47}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Spectral Guardian","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=48}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Revered Brave","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=49}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Illustrious Protector","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=50}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Sage of the Ages","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=51}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Forgotten Specter","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=52}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Resolute Pilgrim","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=53}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Indomitable Lancer","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=54}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Silent Watcher","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=55}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Shadow Strider","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=56}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Lost Tracker","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=57}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Solemn Reaper","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=58}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Bearer of Echoes","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=59}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Shaper of Destinies","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=60}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Celestial Guide","color":"dark_green","bold":true}
+$execute as @s[scores={TITLE_ID=61}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Eclipsed Rider","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=62}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Radiant Tutelary","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=63}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Champion of the Ages","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=64}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Enlightened Scholar","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=65}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Hero of the Cycles","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=66}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Admired Chief","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=67}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Bold Traveler","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=68}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Apprentice of Legends","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=69}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Whispered Legend","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=70}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Infinite Scout","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=71}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Immortal Prowler","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=72}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Dazzling Fighter","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=73}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Unshakable Sentinel","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=74}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Subtle Protector","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=75}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Magnified Philosopher","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=76}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Phantom Tracker","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=77}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Master of Darkness","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=78}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Ethereal Scholar","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=79}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Immortal Veteran","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=80}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Radiant Conqueror","color":"dark_blue","bold":true}
+$execute as @s[scores={TITLE_ID=81}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Explorer of the Ages","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=82}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Watcher of Fables","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=83}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Hero Beyond Time","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=84}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Prowler of Epics","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=85}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Enduring Dominator","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=86}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"King of Dimensions","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=87}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Guardian of Souls","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=88}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Sublime Defender","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=89}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Beloved Legend","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=90}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Sage Beyond Time","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=91}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Scholar of the Abyss","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=92}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Infinite Sentinel","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=93}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Champion of Prophecies","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=94}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Dazzling Traveler","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=95}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Sovereign of Ancient Worlds","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=96}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Enduring Master","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=97}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Vagabond of Fables","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=98}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Fighter Beyond Time","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=99}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Scout of the Abyss","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=100}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Living Myth","color":"dark_purple","bold":true}
+$execute as @s[scores={TITLE_ID=101}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Defender of Shadows","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=102}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Protector of Stars","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=103}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Hero of Chronicles","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=104}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Scholar Beyond Ages","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=105}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Dazzling Watcher","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=106}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Immortal Conqueror","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=107}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Traveler of Legends","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=108}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Master of the Ages","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=109}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Telluric Legend","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=110}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"King of Prophecies","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=111}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Knight of Veils","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=112}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Unfathomable Shadow","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=113}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Pilgrim of the Abyss","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=114}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Bearer of Truth","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=115}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Monarch of Dimensions","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=116}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Blade of Depths","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=117}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Voice of Ancestors","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=118}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Messenger of Ages","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=119}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Divine Arbiter","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=120}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Celestial Paragon","color":"gold","bold":true}
+$execute as @s[scores={TITLE_ID=121}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Ultimate Prowler","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=122}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Apostle of Souls","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=123}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Sentinel of Epics","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=124}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Interdimensional Guardian","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=125}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Illustrious Immortal","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=126}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Scholar of Legends","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=127}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Mythic Champion","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=128}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Lord of the Ages","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=129}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Eternal Grand Sage","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=130}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Supreme Sovereign","color":"yellow","bold":true}
+$execute as @s[scores={TITLE_ID=131}] run data modify storage att2:heros_title_$(numerojoueur) name set value {"text":"Absolute Legend","color":"aqua","bold":true}

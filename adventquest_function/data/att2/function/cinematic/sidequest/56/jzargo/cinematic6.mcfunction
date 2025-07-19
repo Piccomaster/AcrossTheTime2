@@ -4,7 +4,7 @@
 #############################################################
 
 execute if score Real1 TIMER matches 0..399 unless entity 00000000-0000-089a-0000-00000000089a run scoreboard players set Real1 TIMER 400
-execute if score Real1 TIMER matches 1 run data merge entity 00000000-0000-089a-0000-00000000089a {Invulnerable:0b,attributes:[{id:max_health,base:10.0}],Health:10,AbsorptionAmount:0,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{},offhand:{id:"minecraft:nether_star",count:1,components:{EquipmentType:"que",Rarity:"que",display:{Name:"{\"text\":\"§cMédaillon\"}","Lore":["{\"text\":\"§4§oMedaillon\"}"]}}}}}
+execute if score Real1 TIMER matches 1 run data merge entity 00000000-0000-089a-0000-00000000089a {Invulnerable:0b,attributes:[{id:max_health,base:10.0}],Health:10,AbsorptionAmount:0,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{offhand:{id:"minecraft:nether_star",count:1,components:{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.medaillon.name'},lore:[{translate:'item.quest.lore'}]}}}}
 execute if score Real1 TIMER matches 20 as 00000000-0000-089a-0000-00000000089a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ 45
 execute if score Real1 TIMER matches 399 run function att2:dialogs/sidequest/sq56/player_13
 execute if score Real1 TIMER matches 399 run data merge entity 00000000-0000-089a-0000-00000000089a {Invulnerable:1b}

@@ -3,4 +3,4 @@
 #Play sound rukyrion attack effect       	     #
 ##################################################
 
-playsound minecraft:entity.ender_dragon.growl player @s ~ ~ ~ 0.5 0.2
+playsound minecraft:entity.ender_dragon.growl player @s ~ ~ ~ 0.3 0.2
