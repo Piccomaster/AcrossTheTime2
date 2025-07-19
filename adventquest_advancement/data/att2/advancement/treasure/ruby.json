@@ -3,23 +3,31 @@
         "icon": {
             "item": "minecraft:copper_ingot"
         },
-        "title": {"translate":"The quitescent reflection of life!"},
-        "description": {"translate":"A ruby glows not with light, but with life."},
+        "title": {
+            "translate": "att2.advancement.treasure.title.ruby"
+        },
+        "description": {
+            "translate": "att2.advancement.treasure.description.ruby"
+        },
         "frame": "challenge"
     },
     "parent": "att2:treasure/amethyst",
     "rewards": {
         "function": "att2:advancement/exploit_30",
         "experience": 25000
-                },
+    },
     "criteria": {
         "ruby": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-                    { 
-                    "items": ["minecraft:copper_ingot"],
-                    "nbt": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§c§oRubis\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§c§oRuby\\\"}\",\"{\\\"text\\\":\\\"§6+1000 Chronotons\\\"}\"]}}"
+                    {
+                        "items": "minecraft:copper_ingot",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Coin": "ruby"
+                            }
+                        }
                     }
                 ]
             }

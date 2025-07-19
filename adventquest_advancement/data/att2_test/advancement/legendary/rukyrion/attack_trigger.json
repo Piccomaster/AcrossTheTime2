@@ -1,0 +1,47 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/rukyrion/attack_trigger"
+  },
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "team": "hostile"
+        },
+        "damage": {
+          "taken": {
+            "min": 5
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_cooldown",
+                "expected": false
+              },
+              {
+                "id": "minecraft:avoids_guardian_thorns",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:reference",
+                "name": "att2_pre:legendary/rukyrion/mainhand"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
