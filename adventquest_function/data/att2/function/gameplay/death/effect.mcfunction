@@ -7,7 +7,7 @@ execute at @s run function att2:sound/misc/respawn
 function att2:gameplay/stat/hunger/apply_effect
 effect give @s minecraft:blindness 2 2 true
 effect give @s minecraft:slowness 2 10 true
-effect give @s minecraft:jump_boost 2 250 true
+scoreboard players set @s JUMP_SAFE 40
 execute if score level DIFFICULTY matches -1 run effect give @s minecraft:resistance 10 4 true
 execute if score level DIFFICULTY matches 0 run effect give @s minecraft:resistance 7 4 true
 execute if score level DIFFICULTY matches 1 run effect give @s minecraft:resistance 3 4 true
