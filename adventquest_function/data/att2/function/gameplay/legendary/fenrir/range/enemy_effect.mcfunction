@@ -11,6 +11,7 @@ effect give @s slowness 3 15 true
 function att2:gameplay/legendary/fenrir/particle/range_damage
 #add no knock back
 attribute @s knockback_resistance modifier add fenrir_limit 100 add_value
+attribute @s jump_strength modifier add fenrir_limit -100 add_value
 #block display
 execute if entity @s[predicate=att2_pre:player/onground] run summon armor_stand ~ ~-1.5 ~ {Marker:true,Invulnerable:1b,Invisible:1b,Tags:["FENNIR_ICE","New"],equipment:{head:{count:1,id:"minecraft:blue_ice"}}}
 #set score

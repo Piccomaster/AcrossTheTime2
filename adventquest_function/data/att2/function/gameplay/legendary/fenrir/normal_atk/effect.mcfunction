@@ -9,6 +9,7 @@ execute on attacker run scoreboard players remove @s DAHAL 30
 effect give @s slowness 10 15 true
 #add no knock back
 attribute @s knockback_resistance modifier add fenrir_limit 100 add_value
+attribute @s jump_strength modifier add fenrir_limit -100 add_value
 #sound
 execute if entity @s[tag=!ATK_FROZE] run function att2:sound/legendary/fenrir_froze
 #set damage owner

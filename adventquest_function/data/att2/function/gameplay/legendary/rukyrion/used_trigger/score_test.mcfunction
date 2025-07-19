@@ -14,7 +14,7 @@ execute as @s[scores={RUK_USED=3,DAHAL=100..,RUK_KILL=..19}] run scoreboard play
 execute as @s[scores={RUK_USED=1..2,DAHAL=..29}] run scoreboard players set TEST CAL 99
 execute as @s[scores={RUK_USED=3,DAHAL=..99}] run scoreboard players set TEST CAL 99
 #if used 3 test onground
-execute unless predicate att2_pre:player/onground run scoreboard players set TEST CAL 98
+execute if score @s RUK_USED matches 3 unless predicate att2_pre:player/onground run scoreboard players set TEST CAL 98
 #feedback
 execute if score TEST CAL matches 100 run function att2:dialogs/gameplay/legendary/rukyrion/not_enough_energy
 execute if score TEST CAL matches 99 run function att2:dialogs/gameplay/legendary/rukyrion/not_enough_dahal
