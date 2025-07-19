@@ -5,6 +5,14 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c2t5_goods\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
                     "nbt": "{LootTable:\"att2:chest/reg1/c6t3_littlekey\"}"
                 }
             }

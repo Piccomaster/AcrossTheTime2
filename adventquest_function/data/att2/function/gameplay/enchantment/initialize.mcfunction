@@ -59,5 +59,7 @@ scoreboard objectives add SSCOMBO_SHIELD dummy
 scoreboard objectives add SSCOMBO_TIMER dummy
 scoreboard objectives add SSCOMBO_STAT dummy
 scoreboard objectives add SSCOMBO dummy
+
+scoreboard players set rotation ENCHANTMENT 1
 #price set
 function att2:gameplay/enchantment/display/price_set/initialize

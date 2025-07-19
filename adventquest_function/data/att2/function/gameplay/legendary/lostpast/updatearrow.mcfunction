@@ -25,4 +25,4 @@ scoreboard players set @s LP_USE 0
 execute at @s run function att2:sound/legendary/lostpast_shoot
 
 #
-say lost past 更新
+#say lost past 更新
