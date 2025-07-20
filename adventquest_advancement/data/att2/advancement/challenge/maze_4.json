@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:dark_oak_hanging_sign"
+            "id": "minecraft:dark_oak_hanging_sign"
         },
         "title": {"translate":"att2.advancement.challenge.title.maze_4"},
         "description": {"translate":"att2.advancement.challenge.description.maze_4"},

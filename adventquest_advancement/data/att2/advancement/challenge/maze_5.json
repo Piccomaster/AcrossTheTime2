@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:mangrove_hanging_sign"
+            "id": "minecraft:mangrove_hanging_sign"
         },
         "title": {"translate":"att2.advancement.challenge.title.maze_5"},
         "description": {"translate":"att2.advancement.challenge.description.maze_5"},

@@ -3,11 +3,11 @@
 #Process eternan armor hability	    							#
 #################################################################
 
-execute as @s[scores={GAMELEVEL=..25},nbt={Inventory:[{Slot:103b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.head att2:eternan_automending/head
-execute as @s[scores={GAMELEVEL=..25},nbt={Inventory:[{Slot:102b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.chest att2:eternan_automending/chest
-execute as @s[scores={GAMELEVEL=..25},nbt={Inventory:[{Slot:101b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.legs att2:eternan_automending/legs
-execute as @s[scores={GAMELEVEL=..25},nbt={Inventory:[{Slot:100b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.feet att2:eternan_automending/feet
-execute as @s[scores={GAMELEVEL=..25},nbt={Inventory:[{Slot:-106b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s weapon.offhand att2:eternan_automending/offhand
+execute as @s[scores={GAMELEVEL=..24},nbt={Inventory:[{Slot:103b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.head att2:eternan_automending/head
+execute as @s[scores={GAMELEVEL=..24},nbt={Inventory:[{Slot:102b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.chest att2:eternan_automending/chest
+execute as @s[scores={GAMELEVEL=..24},nbt={Inventory:[{Slot:101b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.legs att2:eternan_automending/legs
+execute as @s[scores={GAMELEVEL=..24},nbt={Inventory:[{Slot:100b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.feet att2:eternan_automending/feet
+execute as @s[scores={GAMELEVEL=..24},nbt={Inventory:[{Slot:-106b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s weapon.offhand att2:eternan_automending/offhand
 ##lvl1
 execute as @s[scores={GAMELEVEL=25..,LEVELMASTER=..0},nbt={Inventory:[{Slot:103b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.head att2:eternan_automending_lvl_1/head
 execute as @s[scores={GAMELEVEL=25..,LEVELMASTER=..0},nbt={Inventory:[{Slot:102b,"minecraft:custom_data":{Manufacturer:"eternan"}}]}] run item modify entity @s armor.chest att2:eternan_automending_lvl_1/chest

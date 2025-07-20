@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपके पास पर्या�
 tellraw @s[scores={LANGUAGE=10}] {"text":"Você não tem Chronotons suficientes!","color":"gray"}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"你没有足够的Chronoton！","color":"red","bold":"true"}
+tellraw @s[scores={LANGUAGE=11}] {"text":"你没有足够的Chronoton！","color":"red","bold":true}

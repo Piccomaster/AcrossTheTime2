@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_sword"
+            "id": "minecraft:diamond_sword"
         },
         "title": {"translate":"Sabre de lumière"},
         "description": {"translate":"May the sacred light inevitably fall on the worshipers of darkness."},

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather_boots"
+            "id": "minecraft:leather_boots"
         },
         "title": {"translate":"Rite de passage"},
         "description": {"translate":"The great ascent to reach a higher state."},

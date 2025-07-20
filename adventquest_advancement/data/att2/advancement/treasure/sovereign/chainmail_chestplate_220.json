@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chainmail_chestplate"
+            "id": "minecraft:chainmail_chestplate"
         },
         "title": {"translate":"Haubert remarquable"},
         "description": {"translate":"Protruding mesh weave, woven with the utmost skill."},

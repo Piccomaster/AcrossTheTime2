@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपके पास पर्या�
 tellraw @s[scores={LANGUAGE=10}] {"text":"Você não tem Escama Soberana do Caos suficiente!","color":"gray"}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"混沌鳞片不足！","color":"red","bold":"true"}
+tellraw @s[scores={LANGUAGE=11}] {"text":"混沌鳞片不足！","color":"red","bold":true}

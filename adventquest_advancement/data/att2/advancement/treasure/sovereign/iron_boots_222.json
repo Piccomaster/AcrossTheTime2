@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_boots"
+            "id": "minecraft:iron_boots"
         },
         "title": {"translate":"Indomptable"},
         "description": {"translate":"Be responsible for what you have tamed."},

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_axe"
+            "id": "minecraft:diamond_axe"
         },
         "title": {"translate":"Fureur cosmique"},
         "description": {"translate":"From the depths of the primordial universe, the wrath of the ancients is boiling."},

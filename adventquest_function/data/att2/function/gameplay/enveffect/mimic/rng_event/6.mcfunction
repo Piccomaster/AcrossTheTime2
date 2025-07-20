@@ -4,20 +4,20 @@
 #################################################################
 
 #healing(summon potion)
-playsound entity.splash_potion.throw ambient @s ~ ~ ~ 1 0.5
+playsound minecraft:entity.splash_potion.throw ambient @s ~ ~ ~ 1 0.5
 
-summon minecraft:potion ~ ~2 ~ {Motion:[0.2,0.3,0.0],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:0,amplifier:1,id:"instant_health",show_particles:0b}],CustomPotionColor:16715280}}}
+summon minecraft:thrown_potion ~ ~2 ~ {Motion:[0.2,0.3,0.0],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:16715280,custom_effects:[{id:"minecraft:instant_health",duration:0,amplifier:1,show_particles:0b}]}}}}
 
-summon minecraft:potion ~ ~2 ~ {Motion:[-0.2,0.3,0.0],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:0,amplifier:1,id:"instant_health",show_particles:0b}],CustomPotionColor:16715280}}}
+summon minecraft:thrown_potion ~ ~2 ~ {Motion:[-0.2,0.3,0.0],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:16715280,custom_effects:[{id:"minecraft:instant_health",duration:0,amplifier:1,show_particles:0b}]}}}}
 
-summon minecraft:potion ~ ~2 ~ {Motion:[0.0,0.3,0.2],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:2400,amplifier:1,id:"night_vision",show_particles:0b}],CustomPotionColor:12779366}}}
+summon minecraft:thrown_potion ~ ~2 ~ {Motion:[0.0,0.3,0.2],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:12779366,custom_effects:[{id:"minecraft:night_vision",duration:2400,amplifier:1,show_particles:0b}]}}}}
 
-summon minecraft:potion ~ ~2 ~ {Motion:[0.0,0.3,-0.2],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:2400,amplifier:1,id:"night_vision",show_particles:0b}],CustomPotionColor:12779366}}}
+summon minecraft:thrown_potion ~ ~2 ~ {Motion:[0.0,0.3,-0.2],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:12779366,custom_effects:[{id:"minecraft:night_vision",duration:2400,amplifier:1,show_particles:0b}]}}}}
 
-summon minecraft:potion ~ ~2 ~ {Motion:[0.1,0.3,0.1],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:2400,amplifier:1,id:"fire_resistance",show_particles:0b}],CustomPotionColor:16750848}}}
+summon minecraft:thrown_potion ~ ~2 ~ {Motion:[0.1,0.3,0.1],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:16750848,custom_effects:[{id:"minecraft:fire_resistance",duration:2400,amplifier:1,show_particles:0b}]}}}}
 
-summon minecraft:potion ~ ~2 ~ {Motion:[0.1,0.3,-0.1],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:2400,amplifier:1,id:"fire_resistance",show_particles:0b}],CustomPotionColor:16750848}}}
+summon minecraft:thrown_potion ~ ~2 ~ {Motion:[0.1,0.3,-0.1],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:16750848,custom_effects:[{id:"minecraft:fire_resistance",duration:2400,amplifier:1,show_particles:0b}]}}}}
 
-summon minecraft:potion ~ ~2 ~ {Motion:[-0.1,0.3,0.1],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:60,amplifier:127,id:"speed",show_particles:0b}],CustomPotionColor:3402751}}}
+summon minecraft:thrown_potion ~ ~2 ~ {Motion:[-0.1,0.3,0.1],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:3402751,custom_effects:[{id:"minecraft:speed",duration:60,amplifier:127,show_particles:0b}]}}}}
 
-summon minecraft:potion ~ ~2 ~ {Motion:[-0.1,0.3,-0.1],Item:{id:"minecraft:splash_potion",count:1,components:{custom_potion_effects:[{duration:60,amplifier:127,id:"speed",show_particles:0b}],CustomPotionColor:3402751}}}
+summon minecraft:thrown_potion ~ ~2 ~ {Motion:[-0.1,0.3,-0.1],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:3402751,custom_effects:[{id:"minecraft:speed",duration:60,amplifier:127,show_particles:0b}]}}}}

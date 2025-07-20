@@ -3,11 +3,11 @@
 #Process eternan weapon hability								#
 #################################################################
 
-execute as @s[scores={GAMELEVEL=..25},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"com"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_com
-execute as @s[scores={GAMELEVEL=..25},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"unc"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_unc
-execute as @s[scores={GAMELEVEL=..25},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"rar"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_rar
-execute as @s[scores={GAMELEVEL=..25},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"epi"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_epi
-execute as @s[scores={GAMELEVEL=..25},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"leg"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_leg
+execute as @s[scores={GAMELEVEL=..24},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"com"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_com
+execute as @s[scores={GAMELEVEL=..24},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"unc"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_unc
+execute as @s[scores={GAMELEVEL=..24},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"rar"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_rar
+execute as @s[scores={GAMELEVEL=..24},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"epi"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_epi
+execute as @s[scores={GAMELEVEL=..24},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"leg"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_leg
 ##lvl1
 execute as @s[scores={GAMELEVEL=25..,LEVELMASTER=..0},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"com"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending_lvl_1/mainhand_com
 execute as @s[scores={GAMELEVEL=25..,LEVELMASTER=..0},nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"unc"}}}] run item modify entity @s weapon.mainhand att2:eternan_automending_lvl_1/mainhand_unc

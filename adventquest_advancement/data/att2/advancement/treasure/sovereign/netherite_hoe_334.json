@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_hoe"
+            "id": "minecraft:netherite_hoe"
         },
         "title": {"translate":"Immonde splendeur"},
         "description": {"translate":"It is up to Gaya alone to subject at the measure the absolute beauty."},

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:scute"
+            "id": "minecraft:scute"
         },
         "title": {"translate":"Exorcist"},
         "description": {"translate":"Catch 100 Lost Souls"},

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_hoe"
+            "id": "minecraft:iron_hoe"
         },
         "title": {"translate":"Prédominance inénarrable"},
         "description": {"translate":"It is very difficult to express oneself in words when faced with such a book."},

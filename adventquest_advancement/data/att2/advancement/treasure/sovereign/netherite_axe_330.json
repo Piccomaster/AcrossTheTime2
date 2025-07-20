@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_axe"
+            "id": "minecraft:netherite_axe"
         },
         "title": {"translate":"Faiseuse de ruines"},
         "description": {"translate":"Each of your blows will bruise the old traditions, until they crack and tear apart."},

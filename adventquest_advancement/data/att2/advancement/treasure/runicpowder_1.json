@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gunpowder"
+            "id": "minecraft:gunpowder"
         },
         "title": {"translate":"Test the grinder"},
         "description": {"translate":"Grind for 1 runic powders."}

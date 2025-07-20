@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bow"
+            "id": "minecraft:bow"
         },
         "title": {"translate":"Infinity"},
         "description": {"translate":"It's closer than you think! (no it isn't)"},

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:trident"
+            "id": "minecraft:trident"
         },
         "title": {"translate":"att2.advancement.challenge.title.root"},
         "description": {"translate":"att2.advancement.challenge.description.root"},

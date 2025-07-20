@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gunpowder"
+            "id": "minecraft:gunpowder"
         },
         "title": {"translate":"Veteran grinder"},
         "description": {"translate":"Grind for a total of 100 runic powders."},

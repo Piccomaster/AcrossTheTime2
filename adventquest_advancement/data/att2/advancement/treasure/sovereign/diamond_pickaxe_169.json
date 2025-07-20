@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_pickaxe"
+            "id": "minecraft:diamond_pickaxe"
         },
         "title": {"translate":"Cataclysme"},
         "description": {"translate":"Look on my works, Ye Mighty, and despair!"},

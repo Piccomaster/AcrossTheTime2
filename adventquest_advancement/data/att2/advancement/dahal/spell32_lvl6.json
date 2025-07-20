@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
         "title": {"translate":"Space teleportation Master"},
         "description": {"translate":"Reach level 5 with Space teleportation spell"},

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "id": "minecraft:shield"
         },
         "title": {"translate":"Deflect Shield"},
         "description": {"translate":"Deflect an arrow with a shield"},
