@@ -4,7 +4,7 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10000250}"},
+		"icon":{"id":"minecraft:shears","components": "{CustomModelData:10000250}"},
 		"title":"",
 		"description":"skyz_zh",
 		"frame":"task"

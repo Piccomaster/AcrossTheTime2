@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:crossbow"
-,
+            "items": "minecraft:crossbow",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "336"

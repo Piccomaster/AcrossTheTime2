@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bundle"
+            "id": "minecraft:bundle"
         },
         "title": {"translate":"Possibly useful, but usefulness is unlikely"},
         "description": {"translate":"Obtain a small pouch"},

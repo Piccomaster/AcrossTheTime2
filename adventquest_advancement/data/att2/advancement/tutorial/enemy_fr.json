@@ -4,7 +4,7 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10000109}"},
+		"icon":{"id":"minecraft:shears","components": "{CustomModelData:10000109}"},
 		"title":"",
 		"description":"enemy_fr",
 		"frame":"task"

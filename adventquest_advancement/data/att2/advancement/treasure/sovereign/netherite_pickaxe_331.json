@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_pickaxe"
+            "id": "minecraft:netherite_pickaxe"
         },
         "title": {"translate":"Onde de choc"},
         "description": {"translate":"Its blows come down with enough strength to pulverize the hardest of rocks."},

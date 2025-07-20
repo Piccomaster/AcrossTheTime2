@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:birch_hanging_sign"
+            "id": "minecraft:birch_hanging_sign"
         },
         "title": {"translate":"att2.advancement.challenge.title.maze_2"},
         "description": {"translate":"att2.advancement.challenge.description.maze_2"}

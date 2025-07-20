@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bamboo_hanging_sign"
+            "id": "minecraft:bamboo_hanging_sign"
         },
         "title": {"translate":"att2.advancement.challenge.title.maze_1"},
         "description": {"translate":"att2.advancement.challenge.description.maze_1"}

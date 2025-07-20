@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_boots"
+            "id": "minecraft:netherite_boots"
         },
         "title": {"translate":"Allure étherique"},
         "description": {"translate":"I've worn lots of shoes. I bet if I think about it real hard I can remember my first pair of shoes."},

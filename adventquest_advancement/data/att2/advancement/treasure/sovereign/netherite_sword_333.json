@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_sword"
+            "id": "minecraft:netherite_sword"
         },
         "title": {"translate":"Claymore souveraine"},
         "description": {"translate":"The slide of his blade, in a whisper, instills respect in the heart of those who hear it."},

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:crossbow"
+            "id": "minecraft:crossbow"
         },
         "title": {"translate":"BFG"},
         "description": {"translate":"Not even an army from the depths of the underworld could stand a chance."},

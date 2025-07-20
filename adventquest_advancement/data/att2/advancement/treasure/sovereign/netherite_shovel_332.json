@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_shovel"
+            "id": "minecraft:netherite_shovel"
         },
         "title": {"translate":"Acolyte de l'aventurier"},
         "description": {"translate":"Those who stand up for others will find their inner strength."},

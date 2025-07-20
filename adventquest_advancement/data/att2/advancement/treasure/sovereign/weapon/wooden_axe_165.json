@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:wooden_axe"
-,
+            "items": "minecraft:wooden_axe",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "165"

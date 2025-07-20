@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chainmail_helmet"
+            "id": "minecraft:chainmail_helmet"
         },
         "title": {"translate":"Diadème supérieur"},
         "description": {"translate":"A perfection of jewelry, reflecting the entire natural spectrum of light."},

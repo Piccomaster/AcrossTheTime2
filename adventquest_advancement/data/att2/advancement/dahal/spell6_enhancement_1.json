@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
         "title": {"translate":"Explosive Trap Enhancement Apprentice"},
         "description": {"translate":"Enhance level 1 with Explosive Trap spell"}

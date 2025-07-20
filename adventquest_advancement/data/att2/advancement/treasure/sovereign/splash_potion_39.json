@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:splash_potion",
+            "id": "minecraft:splash_potion",
             "nbt": "{CustomPotionColor:16774058}"
         },
         "title": {"translate":"Anti-mortem"},

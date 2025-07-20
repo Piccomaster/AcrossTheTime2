@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
         "title": {"translate":"Power Ray Enhancement Veteran"},
         "description": {"translate":"Enhance level 3 with Power Ray spell"},

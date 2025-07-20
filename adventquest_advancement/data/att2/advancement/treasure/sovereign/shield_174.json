@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "id": "minecraft:shield"
         },
         "title": {"translate":"Bastion"},
         "description": {"translate":"A refuge so perfect that it will become your prison."},

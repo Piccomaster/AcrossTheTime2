@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_shovel"
+            "id": "minecraft:iron_shovel"
         },
         "title": {"translate":"Poignard acéré"},
         "description": {"translate":"Pierce through to the bowels of your enemies."},

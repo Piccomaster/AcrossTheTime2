@@ -4,7 +4,7 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10000004}"},
+		"icon":{"id":"minecraft:shears","components": "{CustomModelData:10000004}"},
 		"title":"",
 		"description":"chronotons_eng",
 		"frame":"task"

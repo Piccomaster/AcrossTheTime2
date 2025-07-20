@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_chestplate"
+            "id": "minecraft:netherite_chestplate"
         },
         "title": {"translate":"Doctrine du fort"},
         "description": {"translate":"Make sure you instill in your offspring the teachings they need to follow their destiny."},
