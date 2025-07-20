@@ -512,6 +512,12 @@
             "conditions": {
                 "loot_table": "att2:chest/reg3/c9t3_littlekey"
             }
+        },
+        "102": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c2t5_goods"
+            }
         }
     },
     "requirements": [
@@ -600,7 +606,8 @@
             "98",
             "99",
             "100",
-            "101"
+            "101",
+            "102"
         ]
     ]
 }

@@ -3,4 +3,4 @@
 #End the effect of sastr                        #
 ##################################################
 
-$say x动量:$(x)__z:动量$(z)__tick:$(tick)
+#$say x动量:$(x)__z:动量$(z)__tick:$(tick)

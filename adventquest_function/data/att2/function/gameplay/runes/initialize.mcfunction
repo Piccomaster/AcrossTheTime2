@@ -6,6 +6,9 @@
 scoreboard objectives add RUNE dummy
 scoreboard objectives add RUNE_CAL dummy
 scoreboard objectives add RUNE_POWDER dummy
+
+scoreboard players set SWITCH RUNE 0
+
 scoreboard players set stock RUNE_POWDER 0
 scoreboard players set stock_total RUNE_POWDER 0
 scoreboard players set BonusXP RUNE 0
