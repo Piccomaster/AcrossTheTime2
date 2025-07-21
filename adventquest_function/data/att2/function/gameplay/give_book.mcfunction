@@ -4,6 +4,6 @@
 #####################################################################
 
 #update data
-execute on origin run function att2:gameplay/book
+execute on origin run function att2:gameplay/update_book
 
 kill @s[type=item]
