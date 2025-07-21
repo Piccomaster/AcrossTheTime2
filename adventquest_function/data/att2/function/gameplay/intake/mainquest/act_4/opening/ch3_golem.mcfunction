@@ -9,3 +9,6 @@ execute in minecraft:the_end positioned -863 69 -641 run function att2:gameplay/
 
 execute if score golem_mech1 BILLGART matches 2.. run stopsound @a block minecraft:airblast
 execute if score golem_mech1 BILLGART matches 4.. run function att2:cinematic/act_4/billgart/golem/end
+#clear textdisplay
+execute if score golem_mech1 BILLGART matches 4.. positioned -863 69 -641 run kill @e[type=text_display,distance=..10,tag=QUEST]
+execute if score golem_mech1 BILLGART matches 4.. positioned -863 69 -641 run kill @e[type=item_display,distance=..10,tag=QUEST]
