@@ -10,7 +10,9 @@ scoreboard objectives add HER_FOOD food
 scoreboard players set @s HER_FOOD 0
 
 scoreboard objectives add HER_DATA dummy
+scoreboard objectives add HER_DATA_TIMER dummy
 scoreboard players set @s HER_DATA 0
+scoreboard players set @s HER_DATA_TIMER 0
 
 scoreboard objectives add HER_TOT dummy
 scoreboard players set @s HER_TOT 0

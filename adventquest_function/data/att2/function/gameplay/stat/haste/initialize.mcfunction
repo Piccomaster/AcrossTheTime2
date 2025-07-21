@@ -4,7 +4,11 @@
 ##################################################
 
 scoreboard objectives add HAS_DATA dummy
+scoreboard objectives add HAS_DATA_INT dummy
+scoreboard objectives add HAS_DATA_FLOAT dummy
 scoreboard players set @s HAS_DATA 0
+scoreboard players set @s HAS_DATA_INT 0
+scoreboard players set @s HAS_DATA_FLOAT 0
 
 scoreboard objectives add HAS_TOT dummy
 scoreboard players set @s HAS_TOT 0

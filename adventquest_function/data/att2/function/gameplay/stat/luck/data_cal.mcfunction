@@ -16,14 +16,11 @@ execute if score @s LUC_TOT matches 0 run data modify storage att2:attribute LUC
 #CAL <-1
 execute if score @s LUC_TOT matches ..-1 run data modify storage att2:attribute LUC_SYMBOL set value "-"
 #CAL INT
-scoreboard players operation LUC_INT CAL = @s LUC_DATA
-scoreboard players operation LUC_INT CAL /= 100 CAL
-execute store result storage att2:attribute LUC_INT int 1 run scoreboard players get LUC_INT CAL
+scoreboard players operation @s LUC_DATA_INT = @s LUC_DATA
+scoreboard players operation @s LUC_DATA_INT /= 100 CAL
+execute store result storage att2:attribute LUC_INT int 1 run scoreboard players get @s LUC_DATA_INT
 #CAL FLOAT
-scoreboard players operation LUC_FLOAT CAL = @s LUC_DATA
-scoreboard players operation LUC_FLOAT CAL %= 100 CAL
-scoreboard players operation LUC_FLOAT CAL /= 10 CAL
-execute store result storage att2:attribute LUC_FLOAT int 1 run scoreboard players get LUC_FLOAT CAL
-#reset
-scoreboard players reset LUC_INT CAL
-scoreboard players reset LUC_FLOAT CAL
+scoreboard players operation @s LUC_DATA_FLOAT = @s LUC_DATA
+scoreboard players operation @s LUC_DATA_FLOAT %= 100 CAL
+scoreboard players operation @s LUC_DATA_FLOAT /= 10 CAL
+execute store result storage att2:attribute LUC_FLOAT int 1 run scoreboard players get @s LUC_DATA_FLOAT

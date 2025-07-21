@@ -21,4 +21,4 @@ scoreboard players reset @s[scores={TIMER_DAR_EXT=..0}] DAR_EXT
 scoreboard players reset @s[scores={TIMER_DAR_PO=..0}] DAR_PO
 scoreboard players reset @s[scores={TIMER_DAR_EH=..0}] DAR_EH
 ##POTION_TIP
-execute as @a[scores={TIMER_DAR_PO=..200,DAR_LVL_PO=0..,POTION_CHECK_DAR=1}] run function att2:dialogs/gameplay/potion_tip/dar_time
+execute as @s[scores={TIMER_DAR_PO=..200,DAR_LVL_PO=0..,POTION_CHECK_DAR=1}] run function att2:dialogs/gameplay/potion_tip/dar_time
