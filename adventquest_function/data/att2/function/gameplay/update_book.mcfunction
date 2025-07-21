@@ -15,17 +15,17 @@ execute as @a in minecraft:overworld positioned 777 77 777 run data modify stora
 advancement grant @s only att2:adventure/your_story
 ### Security set only for update 4.1.2
 # function att2:gameplay/leveling/initialize_update
-clear @s minecraft:written_book{title:"§6Conscience"}
-clear @s minecraft:written_book{title:"§6Consciousness"}
-clear @s minecraft:written_book{title:"§6意識"}
-clear @s minecraft:written_book{title:"§6意識"}
-clear @s minecraft:written_book{title:"§6의식"}
-clear @s minecraft:written_book{title:"§6وعي"}
-clear @s minecraft:written_book{title:"§6Сознание"}
-clear @s minecraft:written_book{title:"§6Conciencia"}
-clear @s minecraft:written_book{title:"§6Bewusstsein"}
-clear @s minecraft:written_book{title:"§6सचेतना"}
-clear @s minecraft:written_book{title:"§6Consciência"}
+clear @s minecraft:written_book[written_book_content={author:"§kRelgon"}]
+clear @s minecraft:written_book[written_book_content={title:"§6Conscience"}]
+clear @s minecraft:written_book[written_book_content={title:"§6Consciousness"}]
+clear @s minecraft:written_book[written_book_content={title:"§6意識"}]
+clear @s minecraft:written_book[written_book_content={title:"§6의식"}]
+clear @s minecraft:written_book[written_book_content={title:"§6وعي"}]
+clear @s minecraft:written_book[written_book_content={title:"§6Сознание"}]
+clear @s minecraft:written_book[written_book_content={title:"§6Conciencia"}]
+clear @s minecraft:written_book[written_book_content={title:"§6Bewusstsein"}]
+clear @s minecraft:written_book[written_book_content={title:"§6सचेतना"}]
+clear @s minecraft:written_book[written_book_content={title:"§6Consciência"}]
 
 advancement grant @s only att2:adventure/your_story
 
