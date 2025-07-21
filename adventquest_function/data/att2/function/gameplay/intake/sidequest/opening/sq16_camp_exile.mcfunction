@@ -9,3 +9,5 @@ execute positioned 3469 35 3715 run function att2:gameplay/intake/effect
 
 execute if score intake_eternan_arrow SQ16 matches 140.. run stopsound @a block minecraft:airblast
 execute if score intake_eternan_arrow SQ16 matches 150.. in minecraft:the_nether run function att2:cinematic/sidequest/16/end
+#clear textdisplay
+execute if score intake_eternan_arrow SQ17 matches 150.. positioned 3469 35 3715 run kill @e[type=text_display,distance=..5,tag=QUEST]
