@@ -2,8 +2,10 @@
     "display": {
         "icon": {
             "id": "minecraft:ender_eye",
-            "nbt": "{Enchantments:[{}]}"
-        },
+            "components": {
+                "minecraft:enchantment_glint_override":true
+        }
+    },
         "title": {"translate":"att2.advancement.adventure.title.apotheosis"},
         "description": {"translate":"att2.advancement.adventure.description.apotheosis"},
         "frame": "challenge",
