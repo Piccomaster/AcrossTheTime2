@@ -12,4 +12,4 @@ particle minecraft:instant_effect -5614 110 -6510 1.5 15 1.5 0.2 10 force
 
 # Effect
 execute as @a[x=-5616,y=79,z=-6512,dx=4,dy=66,dz=4,gamemode=adventure] run effect give @s minecraft:levitation 1 10 true
-execute as @a[x=-5616,y=79,z=-6512,dx=4,dy=100,dz=4,gamemode=adventure] run effect give @s minecraft:jump_boost 7 255 true
+execute as @a[x=-5616,y=79,z=-6512,dx=4,dy=100,dz=4,gamemode=adventure] run scoreboard players set @s JUMP_SAFE 140

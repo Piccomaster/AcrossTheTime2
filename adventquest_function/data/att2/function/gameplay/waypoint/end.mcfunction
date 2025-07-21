@@ -17,7 +17,7 @@ playsound teleportation master @s ~ ~ ~ 5 0.7
 effect give @s minecraft:blindness 1 1 true
 effect give @s minecraft:levitation 1 1 true
 effect give @s minecraft:slow_falling 2 1 true
-effect give @s minecraft:jump_boost 5 255 true
+scoreboard players set @s JUMP_SAFE 100
 
 particle minecraft:enchant ~ ~ ~ 3 2 3 2 1000
 particle minecraft:block{block_state:prismarine} ~ ~ ~ 2 0 2 0.5 500

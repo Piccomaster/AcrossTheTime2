@@ -3,5 +3,5 @@
 #Process the players falling in the deep hole		#
 #####################################################
 
-effect give @s minecraft:jump_boost 10 255 true
+scoreboard players set @s JUMP_SAFE 200
 tp @s -5614 150 -6510
