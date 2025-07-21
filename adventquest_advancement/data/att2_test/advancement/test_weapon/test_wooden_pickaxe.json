@@ -1,30 +1,33 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:cake"
-      },
-      "title": "test",
-      "description": "test_weapon",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": true
-    },
-    "rewards": {
-        "function": "att2:advancement/test_all/weapon/test_wooden_pickaxe"
-      },
-    "criteria": {
-      "diamond_weapon": {
-        "trigger": "minecraft:player_hurt_entity",
-        "conditions": {
-          "damage": {
-            "type": {
-              "direct_entity": {
-                "equipment": {
-                  "mainhand": {
-                    "items": [
-                      "minecraft:wooden_pickaxe"
-                    ]
-                  }
+  "rewards": {
+    "function": "att2:advancement/test_all/weapon/test_wooden_pickaxe"
+  },
+  "criteria": {
+    "diamond_weapon": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_cooldown",
+                "expected": false
+              },
+              {
+                "id": "minecraft:avoids_guardian_thorns",
+                "expected": false
+              }
+            ],
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_pickaxe"
+                  ]
                 }
               }
             }
@@ -32,4 +35,5 @@
         }
       }
     }
+  }
 }

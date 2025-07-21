@@ -5,6 +5,20 @@
       "conditions": {
         "damage": {
           "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_cooldown",
+                "expected": false
+              },
+              {
+                "id": "minecraft:avoids_guardian_thorns",
+                "expected": false
+              }
+            ],
             "direct_entity": {
               "equipment": {
                 "mainhand": {
@@ -18,13 +32,7 @@
                   }
                 }
               }
-            },
-            "tags": [
-              {
-                "id": "minecraft:bypasses_armor",
-                "expected": false
-              }
-            ]
+            }
           }
         }
       }
