@@ -5,7 +5,7 @@
 
 execute as @s[scores={GAMELEVEL=..24},predicate=att2_pre:test_hold/eternan/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/com] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_com
 execute as @s[scores={GAMELEVEL=..24},predicate=att2_pre:test_hold/eternan/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/unc] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_unc
-execute as @s[scores={GAMELEVEL=..24},npredicate=att2_pre:test_hold/eternan/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/rar] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_rar
+execute as @s[scores={GAMELEVEL=..24},predicate=att2_pre:test_hold/eternan/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/rar] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_rar
 execute as @s[scores={GAMELEVEL=..24},predicate=att2_pre:test_hold/eternan/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/all_epi] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_epi
 execute as @s[scores={GAMELEVEL=..24},predicate=att2_pre:test_hold/eternan/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/all_leg] run item modify entity @s weapon.mainhand att2:eternan_automending/mainhand_leg
 ##lvl1
