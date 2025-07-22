@@ -17,8 +17,12 @@
             "conditions": {
                 "items": [
                     {
-                    "items": ["minecraft:quartz"],
-                    "nbt": "{Rarity:unk}"
+                    "items": "minecraft:quartz",
+                    "components": {
+                        "minecraft:custom_data":{
+                            "Coin":"esc"
+                            }
+                        }
                     }
                 ]
             }

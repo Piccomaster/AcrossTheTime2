@@ -7,7 +7,11 @@ scoreboard objectives add LUC dummy
 scoreboard players set @s LUC 0
 
 scoreboard objectives add LUC_DATA dummy
+scoreboard objectives add LUC_DATA_INT dummy
+scoreboard objectives add LUC_DATA_FLOAT dummy
 scoreboard players set @s LUC_DATA 0
+scoreboard players set @s LUC_DATA_INT 0
+scoreboard players set @s LUC_DATA_FLOAT 0
 
 scoreboard objectives add LUC_TOT dummy
 scoreboard players set @s LUC_TOT 0

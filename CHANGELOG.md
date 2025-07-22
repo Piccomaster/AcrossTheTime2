@@ -99,7 +99,10 @@
   - Chests containing quest items or books will now display unique names.
 
 - **Mainplayer name modification**
-  -Players can now manually change the "Mainplayer's name," supporting more characters and languages.(not just limited to English)
+  - Players can now manually change the "Mainplayer's name," supporting more characters and languages.(not just limited to English)
+
+- **Attribute Display System**
+ - Players can now customize which attributes are displayed at the top of their screen, with options to show either attribute points or numerical values. A progress bar representing the player's current Dahal value is also displayed.
   
 ### Balance:
 - **Attribute System Update**  

@@ -2,7 +2,11 @@
     "display": {
         "icon": {
             "id": "minecraft:potion",
-            "nbt": "{CustomPotionColor:11642273}"
+            "components": {
+                "minecraft:potion_contents ":{
+                    "custom_color":11642273
+                }
+            }
         },
         "title": {"translate":"Rempart"},
         "description": {"translate":"Make your skin your armor."},

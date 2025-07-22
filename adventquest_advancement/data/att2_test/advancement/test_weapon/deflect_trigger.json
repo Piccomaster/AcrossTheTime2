@@ -1,14 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:shield"
-        },
-        "title": {"translate":"test"},
-        "description": {"translate":"block"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:advancement/test_all/combat/trigger_deflect_shield"
                 },

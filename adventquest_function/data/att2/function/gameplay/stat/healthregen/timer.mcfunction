@@ -29,4 +29,4 @@ execute if score level DIFFICULTY matches 0 run scoreboard players add @s[scores
 execute if score level DIFFICULTY matches 1 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 1
 
 ##POTION_TIP
-execute as @a[scores={TIMER_HER_PO=..200,HER_LVL_PO=0..,POTION_CHECK_HER=1}] run function att2:dialogs/gameplay/potion_tip/her_time
+execute as @s[scores={TIMER_HER_PO=..200,HER_LVL_PO=0..,POTION_CHECK_HER=1}] run function att2:dialogs/gameplay/potion_tip/her_time

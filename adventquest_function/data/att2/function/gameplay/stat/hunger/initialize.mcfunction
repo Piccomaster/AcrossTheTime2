@@ -9,7 +9,9 @@ scoreboard objectives add HUN dummy
 scoreboard players set @s HUN 0
 
 scoreboard objectives add HUN_DATA dummy
+scoreboard objectives add HUN_DATA_TIMER dummy
 scoreboard players set @s HUN_DATA 0
+scoreboard players set @s HUN_DATA_TIMER 0
 
 scoreboard objectives add HUN_TOT dummy
 scoreboard players set @s HUN_TOT 0

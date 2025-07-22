@@ -12,5 +12,7 @@ execute store result storage att2:attribute SPD_TOT int 1 run scoreboard players
 execute if score @s SPD_DATA matches 1.. run data modify storage att2:attribute SPD_SYMBOL set value "+"
 #CAL >=0
 execute if score @s SPD_DATA matches ..0 run data modify storage att2:attribute SPD_SYMBOL set value ""
+#x 10
+scoreboard players operation @s SPD_DATA *= 10 CAL
 #return score
-execute store result storage att2:attribute SPD_DATA double 10 run scoreboard players get @s SPD_DATA
+execute store result storage att2:attribute SPD_DATA int 1 run scoreboard players get @s SPD_DATA

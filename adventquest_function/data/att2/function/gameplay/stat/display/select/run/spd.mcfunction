@@ -1,0 +1,15 @@
+#########################################################
+#Made by Adventquest									#
+#Display spell           					            #
+#########################################################
+
+#
+scoreboard players set @s SPD_DISPLAY 1
+#dialog
+function att2:dialogs/gameplay/stat/run/spd
+#update bossbar
+function att2:gameplay/stat/display/go
+#get @s number
+execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
+#display
+function att2:gameplay/stat/display/bossbar_display with storage att2:numerojoueur

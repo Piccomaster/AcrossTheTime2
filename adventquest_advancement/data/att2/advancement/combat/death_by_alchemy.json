@@ -2,7 +2,11 @@
     "display": {
         "icon": {
             "id": "minecraft:splash_potion",
-			"nbt": "{Potion:\"minecraft:harming\"}"
+            "components": {
+                "minecraft:potion_contents ":{
+                    "potion":"harming"
+                }
+            }
         },
         "title": {"translate":"att2.advancement.combat.title.death_by_alchemy"},
         "description": {"translate":"用喷溅型药水击杀1只生物"}
