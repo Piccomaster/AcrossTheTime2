@@ -4,7 +4,14 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"id":"minecraft:shears","components": "{CustomModelData:10000108}"},
+		"icon":{"id":"minecraft:shears","components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        10000108
+                    ]
+                }
+            }
+        },
 		"title":"",
 		"description":"earthquake_fr",
 		"frame":"task"
