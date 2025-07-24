@@ -2,7 +2,7 @@
   "parent": "att2:mobskilled/root",
   "display": {
     "icon": {
-      "item": "minecraft:diamond_sword"
+      "id": "minecraft:diamond_sword"
     },
     "title": {
       "translate":"att2.advancement.mobskilled.title.kill_all_mobs"

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:scute"
+            "id": "minecraft:turtle_scute"
         },
         "title": {"translate": "att2.advancement.treasure.title.fairy_5"},
         "description": {"translate": "att2.advancement.treasure.description.fairy_5"},

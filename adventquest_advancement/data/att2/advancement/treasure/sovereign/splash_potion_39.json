@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:splash_potion",
             "components": {
-                "minecraft:potion_contents ":{
+                "minecraft:potion_contents": {
                     "custom_color":16774058
                 }
             }
