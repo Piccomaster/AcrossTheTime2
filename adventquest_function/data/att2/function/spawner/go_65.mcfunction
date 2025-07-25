@@ -2,6 +2,11 @@
 #Process spawn for frenquency 65	*#
 ####################################	*#
 
+#get enemy count
+execute store result score ENEMY CAL if entity @e[team=hostile,type=!bat]
+##return 0-> All the following commands will not be executed.
+execute if score ENEMY CAL >= MAX_ENEMY COUNT run return 0
+
 execute in minecraft:overworld if score Mainquest SIDEQUEST matches 3 positioned -5199 69 -5335 if entity @a[distance=3..15] run function att2:spawner/reg1/worlest/gonon/cavespider0_class1_0
 execute in minecraft:overworld if score SQ10 SIDEQUEST matches 0..99 positioned -5111 75 -5095 if entity @a[distance=5..20] run function att2:spawner/reg1/ryliath/field/zombie_class3_sq10_5
 execute in minecraft:overworld if score SQ10 SIDEQUEST matches 0..99 positioned -5068 75 -5108 if entity @a[distance=5..20] run function att2:spawner/reg1/ryliath/field/zombie_class3_sq10_8
