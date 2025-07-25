@@ -4,7 +4,7 @@
             "id": "minecraft:potion"
         },
         "title": {"translate":"att2.advancement.combat.title.dar_12"},
-        "description": {"translate":"渴望力量"}
+        "description": {"translate":"att2.advancement.combat.description.dar_12"}
     },
     "parent": "att2:combat/dar_6",
     "rewards": {
