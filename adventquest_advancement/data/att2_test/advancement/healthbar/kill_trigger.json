@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "kill_trigger": {
+            "trigger": "minecraft:player_killed_entity"
+        }
+    }
+}

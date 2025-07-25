@@ -3,8 +3,8 @@
 #Display in name level difference for regular monsters	#
 #########################################################
 
-data merge entity @s[scores={LEVELDIFF=..-1}] {CustomName:"§2◈"}
-data merge entity @s[scores={LEVELDIFF=0..3}] {CustomName:"§6◈"}
-data merge entity @s[scores={LEVELDIFF=4..6}] {CustomName:"§c◈"}
-data merge entity @s[scores={LEVELDIFF=7..15}] {CustomName:"§4◈"}
-data merge entity @s[scores={LEVELDIFF=16..}] {CustomName:"§5◈"}
+execute if score @s LEVELDIFF matches ..-1 run function att2:gameplay/healthbar/summon_item/green
+execute if score @s LEVELDIFF matches 0..3 run function att2:gameplay/healthbar/summon_item/dark_green
+execute if score @s LEVELDIFF matches 4..6 run function att2:gameplay/healthbar/summon_item/dark_yellow
+execute if score @s LEVELDIFF matches 7..15 run function att2:gameplay/healthbar/summon_item/orange
+execute if score @s LEVELDIFF matches 16.. run function att2:gameplay/healthbar/summon_item/red

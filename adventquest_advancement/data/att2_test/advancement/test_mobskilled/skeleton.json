@@ -1,18 +1,4 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:target"
-    },
-    "title": {
-      "translate": "test"
-    },
-    "description": {
-      "translate": "skeleton"
-    },
-    "hidden": true,
-    "show_toast": false,
-    "announce_to_chat": false
-  },
   "rewards": {
     "function": "att2:advancement/test_all/mobskilled/skeleton"
   },

@@ -104,6 +104,15 @@
 - **Attribute Display System**
  - Players can now customize which attributes are displayed at the top of their screen, with options to show either attribute points or numerical values. A progress bar representing the player's current Dahal value is also displayed.
   
+-  **Monster HP Display**
+  - Health bars now appear above monsters' heads
+  - Players can customize health bar settings
+
+
+
+
+
+  
 ### Balance:
 - **Attribute System Update**  
   - Most attributes now **directly modify base stats** (no "status effects").  
@@ -122,6 +131,10 @@
 
 - **Monsters**  
   - Size of elites monsters and some bosses has been increased. 
+
+-   **Monster Spawn speed ** 
+  - Spawn speed now increases with difficulty  
+  - Natural spawning stops when the enemy count reaches 50  
 
 ### Bug Fix:
 - **Quest Progression Issues**  

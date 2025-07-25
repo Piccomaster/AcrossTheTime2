@@ -2,6 +2,11 @@
 #Process spawn for frenquency 300	*#
 ####################################	*#
 
+#get enemy count
+execute store result score ENEMY CAL if entity @e[team=hostile,type=!bat]
+##return 0-> All the following commands will not be executed.
+execute if score ENEMY CAL >= MAX_ENEMY COUNT run return 0
+
 execute in minecraft:overworld positioned -4866 78 -5141 if entity @a[distance=5..30] run function att2:spawner/reg1/worlest/forest_se/zombie0_class3_42
 execute in minecraft:overworld positioned -4872 85 -5057 if entity @a[distance=10..40] run function att2:spawner/reg1/worlest/forest_se/skeleton0_class3_53
 execute in minecraft:overworld positioned -4837 74 -5158 if entity @a[distance=5..30] run function att2:spawner/reg1/worlest/forest_se/skeleton0_class1_64

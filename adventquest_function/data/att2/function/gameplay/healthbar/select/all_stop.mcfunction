@@ -1,0 +1,16 @@
+#################################################################
+#Made by Adventquest											#
+#Initialize healthbar 											#
+#################################################################
+
+#set score
+scoreboard players set hp_percent HEALTHBAR 0
+scoreboard players set hp_value HEALTHBAR 0
+scoreboard players set classlevel HEALTHBAR 0
+scoreboard players set view_range HEALTHBAR 4
+#dialog
+function att2:dialogs/gameplay/healthbar/all_stop
+#GET @s number
+execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
+#get pig @s
+function att2:gameplay/healthbar/ex_enemy/get with storage att2:numerojoueur
