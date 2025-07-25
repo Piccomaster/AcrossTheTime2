@@ -45,7 +45,7 @@ summon text_display ~ ~2 ~ {Tags:["DISPLAY"],text:[{text:"          "}],backgrou
 
 execute as @e[tag=DISPLAY] run data merge entity @s {start_interpolation:0,interpolation_duration:10,transformation:{scale:[0.0f,1.0f,1.0f],translation:[-0.75f,0.3f,0.001f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]}}
 
-execute as @e[tag=DISPLAY] run data merge entity @s {start_interpolation:0,interpolation_duration:10,transformation:{left_rotation:[0.0f,1f.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.3f,0.001f],scale:[1.0f,0.5f,1.0f]}}
+execute as @e[tag=DISPLAY] run data merge entity @s {start_interpolation:0,interpolation_duration:10,transformation:{left_rotation:[0.0f,1.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.3f,0.001f],scale:[1.0f,0.5f,1.0f]}}
 
 execute as @e[tag=VALUE] run data merge entity @s {transformation:{scale:[0.5f,0.5f,0.5f],translation:[0.0f,0.8f,0.0f]}}
 
