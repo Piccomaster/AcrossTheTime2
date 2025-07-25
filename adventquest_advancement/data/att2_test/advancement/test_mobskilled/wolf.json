@@ -1,14 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:target"
-        },
-        "title": {"translate":"test"},
-        "description": {"translate":"wolf"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:advancement/test_all/mobskilled/wolf"
     },

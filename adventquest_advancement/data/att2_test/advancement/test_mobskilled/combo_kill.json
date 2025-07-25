@@ -1,14 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:target"
-        },
-        "title": {"translate":"test"},
-        "description": {"translate":"combo"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:gameplay/combo/kill_trigger"
     },
