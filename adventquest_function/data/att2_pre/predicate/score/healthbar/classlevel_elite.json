@@ -1,0 +1,40 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "CLASSLEVEL": 4
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "CLASSLEVEL": 8
+      }
+    },
+        {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "CLASSLEVEL": 12
+      }
+    },
+        {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "CLASSLEVEL": 16
+      }
+    },
+        {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "CLASSLEVEL": 20
+      }
+    }
+  ]
+}
