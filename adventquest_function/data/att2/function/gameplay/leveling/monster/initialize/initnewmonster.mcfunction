@@ -31,9 +31,6 @@ scoreboard players add @s[scores={CLASSLEVEL=12}] GAMELEVEL 3
 scoreboard players add @s[scores={CLASSLEVEL=16}] GAMELEVEL 3
 scoreboard players add @s[scores={CLASSLEVEL=20}] GAMELEVEL 3
 
-# Display the difference of level
-execute unless entity @s[tag=PlayerAlly] unless entity @s[scores={CLASSLEVEL=0}] run function att2:gameplay/leveling/monster/displaydiff
-
 # Add/remove extra class level with chosen difficulty
 execute if score level DIFFICULTY matches -1 if score @s CLASSLEVEL matches 2..21 run scoreboard players remove @s CLASSLEVEL 1
 execute if score level DIFFICULTY matches 1.. if score @s CLASSLEVEL matches 1..20 run scoreboard players add @s CLASSLEVEL 1
@@ -42,7 +39,7 @@ execute as @s[scores={CLASSLEVEL=22..}] run scoreboard players set @s CLASSLEVEL
 
 # Updating monster
 function att2:gameplay/leveling/monster/monsterupdate
-execute as @s[tag=SUPER] run data merge entity @s {CustomNameVisible:true}
+#execute as @s[tag=SUPER] run data merge entity @s {CustomNameVisible:true}
 execute if score level DIFFICULTY matches -1 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect_1
 execute if score level DIFFICULTY matches -1 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite_1
 execute if score level DIFFICULTY matches -1 as @s[tag=MEGA] run function att2:gameplay/leveling/monster/initialize/megaelite_1
@@ -62,10 +59,12 @@ execute unless entity @s[tag=PlayerAlly] run function att2:gameplay/leveling/mon
 # Applying the team corresponding to the origin of summoning of the entity
 execute as @s[tag=PlayerAlly] run team join ally @s
 execute unless entity @s[tag=PlayerAlly] run team join hostile @s
-
-
 # End the initialization
 tag @s remove LVL0
+
+# Display the difference of level
+###add health bar
+execute if entity @s[tag=!PlayerAlly,type=!bat,tag=!BOSS,tag=!ArenaBoss,tag=!Guardian] if score @s CLASSLEVEL matches 0.. at @s run function att2:gameplay/leveling/monster/displaydiff
 
 #kill tag add/balance bat kill xp
 execute if score @s[type=minecraft:bat] CLASSLEVEL matches 10.. run scoreboard players set @s CLASSLEVEL 10
