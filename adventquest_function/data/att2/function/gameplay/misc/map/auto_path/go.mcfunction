@@ -1,0 +1,13 @@
+#################################################################
+#Made by Adventquest											#
+#Process miscelaneous actions 									#
+#################################################################
+
+#get number
+function att2:gameplay/misc/map/number/player
+#GET horse <-> start pos
+#start auto path
+execute if score @s AUTO_PATH matches 1.. run function att2:gameplay/misc/map/auto_path/wayfinding with storage att2:route
+execute if score @s AUTO_PATH matches 0 run function att2:gameplay/misc/map/auto_path/start_detection with storage att2:route
+#tip
+execute if score @s AUTO_PATH matches 0 run function att2:dialogs/gameplay/misc/map/starting

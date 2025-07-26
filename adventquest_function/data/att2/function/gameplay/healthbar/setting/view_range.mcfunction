@@ -13,7 +13,7 @@ execute if score view_range HEALTHBAR matches 1 run data modify entity @s view_r
 ##2
 execute if score view_range HEALTHBAR matches 2 run data modify entity @s view_range set value 0.5
 ##3
-execute if score view_range HEALTHBAR matches 3 run data modify entity @s view_range set value 0.25
+execute if score view_range HEALTHBAR matches 3 run data modify entity @s view_range set value 0.3
 ##4
 execute if score view_range HEALTHBAR matches 4.. run data modify entity @s view_range set value 0.1
 

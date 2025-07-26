@@ -4,7 +4,7 @@
             "id": "minecraft:wooden_shovel"
         },
         "title": {"translate":"att2.advancement.combat.title.damage_taken_100"},
-        "description": {"translate":"承受100点伤害"}
+        "description": {"translate":"att2.advancement.combat.description.damage_taken_100"}
     },
     "parent": "att2:combat/damage_taken",
     "rewards": {

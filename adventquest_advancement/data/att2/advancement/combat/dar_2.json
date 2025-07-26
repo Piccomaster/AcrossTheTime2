@@ -4,7 +4,7 @@
             "id": "minecraft:potion"
         },
         "title": {"translate":"att2.advancement.combat.title.dar_2"},
-        "description": {"translate":"巫师的学徒"}
+        "description": {"translate":"att2.advancement.combat.description.dar_2"}
     },
     "parent": "att2:combat/root",
     "rewards": {

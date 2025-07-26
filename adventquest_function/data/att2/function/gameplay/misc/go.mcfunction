@@ -43,3 +43,7 @@ execute as @a[predicate=att2_pre:mainplayer_name/hand] run function att2:gamepla
 execute as @a[scores={CHECKPOINT=1..}] at @s run function att2:gameplay/misc/checkpoint/go
 #xp grant
 execute if score tic TIMECOUNTER matches 7 as @a at @s if entity @e[type=experience_orb,distance=..2] run function att2:gameplay/misc/xp/go
+#map
+function att2:gameplay/misc/map/go
+#ride keep
+execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/horse/go
