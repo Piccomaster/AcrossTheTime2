@@ -12,5 +12,5 @@ scoreboard players reset @s AUTO_PATH
 function att2:gameplay/misc/map/number/route_reset_marker with storage att2:route
 #dismount
 tp @s ~ ~ ~ ~ ~
-#over
-say 已经到达目的地
+#dialogs end
+function att2:dialogs/gameplay/misc/map/end
