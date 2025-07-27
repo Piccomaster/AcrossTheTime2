@@ -7,7 +7,7 @@
         "description": {"translate":"att2.advancement.enchantments.description.1000slay"},
         "frame": "goal"
     },
-    "parent": "att2:enchantments/1000slay",
+    "parent": "att2:enchantments/root",
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 300

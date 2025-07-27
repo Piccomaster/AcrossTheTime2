@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "groundslam": {
+        "groundslam_max": {
             "trigger": "minecraft:impossible"
         }
     }

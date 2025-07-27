@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "abyssdiver": {
+        "abyssdiver_max": {
             "trigger": "minecraft:impossible"
         }
     }

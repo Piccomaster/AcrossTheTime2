@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "sscombo": {
+        "sscombo_max": {
             "trigger": "minecraft:impossible"
         }
     }

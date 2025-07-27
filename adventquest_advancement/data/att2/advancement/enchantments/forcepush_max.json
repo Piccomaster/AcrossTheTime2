@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "forcepush": {
+        "forcepush_max": {
             "trigger": "minecraft:impossible"
         }
     }

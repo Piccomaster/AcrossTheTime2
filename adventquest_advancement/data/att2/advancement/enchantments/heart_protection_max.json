@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "heart_protection": {
+        "heart_protection_max": {
             "trigger": "minecraft:impossible"
         }
     }

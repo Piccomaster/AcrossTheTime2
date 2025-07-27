@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "speedsave": {
+        "speedsave_max": {
             "trigger": "minecraft:impossible"
         }
     }
