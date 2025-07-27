@@ -13,7 +13,7 @@
         "experience": 300
                 },
     "criteria": {
-        "enchantmentsburst": {
+        "dahalburst": {
             "trigger": "minecraft:impossible"
         }
     }

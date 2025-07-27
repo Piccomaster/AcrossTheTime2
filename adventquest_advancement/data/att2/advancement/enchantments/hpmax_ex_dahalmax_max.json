@@ -7,13 +7,13 @@
         "description": {"translate":"att2.advancement.enchantments.description.hpmax_ex_enchantmentsmax"},
         "frame": "challenge"
     },
-    "parent": "att2:enchantments/hpmax_ex_enchantmentsmax",
+    "parent": "att2:enchantments/hpmax_ex_dahalmax",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 3000
                 },
     "criteria": {
-        "hpmax_ex_enchantmentsmax": {
+        "hpmax_ex_dahalmax_max": {
             "trigger": "minecraft:impossible"
         }
     }

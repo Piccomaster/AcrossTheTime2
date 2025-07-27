@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "auto_mending": {
+        "auto_mending_max": {
             "trigger": "minecraft:impossible"
         }
     }

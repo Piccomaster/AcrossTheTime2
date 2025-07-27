@@ -13,7 +13,7 @@
         "experience": 300
                 },
     "criteria": {
-        "hpmax_ex_enchantmentsmax": {
+        "hpmax_ex_dahalmax": {
             "trigger": "minecraft:impossible"
         }
     }

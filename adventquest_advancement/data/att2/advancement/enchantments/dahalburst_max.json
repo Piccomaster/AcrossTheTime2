@@ -7,13 +7,13 @@
         "description": {"translate":"att2.advancement.enchantments.description.enchantmentsburst"},
         "frame": "challenge"
     },
-    "parent": "att2:enchantments/enchantmentsburst",
+    "parent": "att2:enchantments/dahalburst",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 3000
                 },
     "criteria": {
-        "enchantmentsburst": {
+        "dahalburst_max": {
             "trigger": "minecraft:impossible"
         }
     }

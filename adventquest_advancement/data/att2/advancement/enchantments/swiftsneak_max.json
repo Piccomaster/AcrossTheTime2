@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "swiftsneak": {
+        "swiftsneak_max": {
             "trigger": "minecraft:impossible"
         }
     }

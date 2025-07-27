@@ -13,7 +13,7 @@
         "experience": 3000
                 },
     "criteria": {
-        "armorbreak": {
+        "armorbreak_max": {
             "trigger": "minecraft:impossible"
         }
     }
