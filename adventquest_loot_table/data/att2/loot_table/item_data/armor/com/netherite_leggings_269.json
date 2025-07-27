@@ -41,13 +41,6 @@
                   },
                   {
                     "slot": "feet",
-                    "type": "armor_toughness",
-                    "id": "armor.leggings",
-                    "operation": "add_value",
-                    "amount": 0
-                  },
-                  {
-                    "slot": "feet",
                     "type": "max_health",
                     "id": "armor.leggings",
                     "operation": "add_value",

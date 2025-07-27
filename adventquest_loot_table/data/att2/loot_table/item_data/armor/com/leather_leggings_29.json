@@ -42,13 +42,6 @@
                   },
                   {
                     "slot": "legs",
-                    "type": "armor_toughness",
-                    "id": "armor.leggings",
-                    "operation": "add_value",
-                    "amount": 0
-                  },
-                  {
-                    "slot": "legs",
                     "type": "knockback_resistance",
                     "id": "armor.leggings",
                     "operation": "add_value",
