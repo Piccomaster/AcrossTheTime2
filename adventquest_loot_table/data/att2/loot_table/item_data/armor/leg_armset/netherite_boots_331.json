@@ -45,28 +45,28 @@
                     "id": "armor.boots",
                     "amount": 2.12,
                     "operation": "add_value",
-                    "slot": "legs"
+                    "slot": "feet"
                   },
                   {
                     "type": "minecraft:armor_toughness",
                     "id": "armor.boots",
                     "amount": 2.89,
                     "operation": "add_value",
-                    "slot": "legs"
+                    "slot": "feet"
                   },
                   {
                     "type": "minecraft:max_health",
                     "id": "armor.boots",
                     "amount": 1,
                     "operation": "add_value",
-                    "slot": "legs"
+                    "slot": "feet"
                   },
                   {
                     "type": "minecraft:knockback_resistance",
                     "id": "armor.boots",
                     "amount": 0.01,
                     "operation": "add_value",
-                    "slot": "legs"
+                    "slot": "feet"
                   }
                 ],
                 "minecraft:damage": 0,

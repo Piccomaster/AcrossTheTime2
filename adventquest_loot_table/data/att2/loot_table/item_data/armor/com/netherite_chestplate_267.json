@@ -33,21 +33,21 @@
                 },
                 "minecraft:attribute_modifiers": [
                   {
-                    "slot": "feet",
+                    "slot": "chest",
                     "type": "armor",
                     "id": "armor.chestplate",
                     "operation": "add_value",
                     "amount": 2.75
                   },
                   {
-                    "slot": "feet",
+                    "slot": "chest",
                     "type": "max_health",
                     "id": "armor.chestplate",
                     "operation": "add_value",
                     "amount": 1
                   },
                   {
-                    "slot": "feet",
+                    "slot": "chest",
                     "type": "knockback_resistance",
                     "id": "armor.chestplate",
                     "operation": "add_value",

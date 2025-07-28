@@ -38,13 +38,6 @@
                                         "id": "armor.helmet",
                                         "operation": "add_value",
                                         "amount": 0.99
-                                    },
-                                    {
-                                        "slot": "head",
-                                        "type": "armor_toughness",
-                                        "id": "armor.helmet",
-                                        "operation": "add_value",
-                                        "amount": 0
                                     }
                                 ],
                                 "minecraft:damage": 0,

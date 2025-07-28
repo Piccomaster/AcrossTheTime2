@@ -32,21 +32,21 @@
                 },
                 "minecraft:attribute_modifiers": [
                   {
-                    "slot": "feet",
+                    "slot": "head",
                     "type": "armor",
                     "id": "armor.helmet",
                     "operation": "add_value",
                     "amount": 1.23
                   },
                   {
-                    "slot": "feet",
+                    "slot": "head",
                     "type": "max_health",
                     "id": "armor.helmet",
                     "operation": "add_value",
                     "amount": 1
                   },
                   {
-                    "slot": "feet",
+                    "slot": "head",
                     "type": "knockback_resistance",
                     "id": "armor.helmet",
                     "operation": "add_value",

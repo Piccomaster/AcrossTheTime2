@@ -7,7 +7,7 @@
         },
         {
             "condition": "minecraft:reference",
-            "name": "att2_pre:legendary/weaponsking//offhand"
+            "name": "att2_pre:legendary/weaponsking/offhand"
         }
     ]
 }

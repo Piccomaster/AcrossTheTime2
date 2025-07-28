@@ -39,13 +39,6 @@
                                         "id": "armor.chestplate",
                                         "operation": "add_value",
                                         "amount": 2.73
-                                    },
-                                    {
-                                        "slot": "chest",
-                                        "type": "armor_toughness",
-                                        "id": "armor.chestplate",
-                                        "operation": "add_value",
-                                        "amount": 0
                                     }
                                 ],
                                 "minecraft:damage": 400,

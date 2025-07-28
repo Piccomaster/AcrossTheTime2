@@ -33,21 +33,21 @@
                 },
                 "minecraft:attribute_modifiers": [
                   {
-                    "slot": "feet",
+                    "slot": "legs",
                     "type": "armor",
                     "id": "armor.leggings",
                     "operation": "add_value",
                     "amount": 2.42
                   },
                   {
-                    "slot": "feet",
+                    "slot": "legs",
                     "type": "max_health",
                     "id": "armor.leggings",
                     "operation": "add_value",
                     "amount": 1
                   },
                   {
-                    "slot": "feet",
+                    "slot": "legs",
                     "type": "knockback_resistance",
                     "id": "armor.leggings",
                     "operation": "add_value",

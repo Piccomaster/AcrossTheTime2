@@ -39,13 +39,6 @@
                                         "id": "armor.leggings",
                                         "operation": "add_value",
                                         "amount": 1.78
-                                    },
-                                    {
-                                        "slot": "legs",
-                                        "type": "armor_toughness",
-                                        "id": "armor.leggings",
-                                        "operation": "add_value",
-                                        "amount": 0
                                     }
                                 ],
                                 "minecraft:damage": 130,

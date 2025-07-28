@@ -44,13 +44,6 @@
                                     },
                                     {
                                         "slot": "head",
-                                        "type": "armor_toughness",
-                                        "id": "armor.helmet",
-                                        "operation": "add_value",
-                                        "amount": 0
-                                    },
-                                    {
-                                        "slot": "head",
                                         "type": "knockback_resistance",
                                         "id": "armor.helmet",
                                         "operation": "add_value",
