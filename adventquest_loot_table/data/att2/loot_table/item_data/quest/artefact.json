@@ -22,7 +22,7 @@
                                     "EquipmentType": "misc",
                                     "Rarity": "que"
                                 },
-                                "minecraft:Profile": {
+                                "minecraft:profile": {
                                     "id": [
                                         -2058120424,
                                         936985810,
