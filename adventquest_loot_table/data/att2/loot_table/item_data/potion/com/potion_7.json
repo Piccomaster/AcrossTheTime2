@@ -36,18 +36,20 @@
                   "custom_color": 10526975,
                   "custom_effects": [
                     {
-                      "amplifier":0,
-                      "duration":8000,
-                      "id":"fire_resistance",
-                      "show_particles":0},                    {
-                      "amplifier":0,
-                      "duration":8000,
-                      "id":"night_vision",
+                      "amplifier": 0,
+                      "duration": 8000,
+                      "id": "fire_resistance",
+                      "show_particles": false
+                    },
+                    {
+                      "amplifier": 0,
+                      "duration": 8000,
+                      "id": "night_vision",
                       "show_particles": false
                     }
                   ]
                 },
-                "max_stack_size":16
+                "max_stack_size": 16
               }
             }
           ]
