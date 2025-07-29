@@ -108,6 +108,11 @@
   - Health bars now appear above monsters' heads
   - Players can customize health bar settings
 
+-  **Map/Navigation System**
+
+  - Players can unlock map regions of Sylberland through main and side quests.  
+  - Additionally, they can unlock **40 small waypoints**.  
+  - Players can select a small waypoint and use their mount to **automatically travel** to the chosen destination.
 
 
 
