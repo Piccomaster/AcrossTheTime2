@@ -1,0 +1,23 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "DIMENSION": {
+                    "min": 4
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "tp_spell32_timer": {
+                    "min": 1
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/misc/map/display/select/worlest_mine_east"
+    },
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','worlest_mine_east']}"
+                }
+            }
+        },
+        "left": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','worlest_mine_east']}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "right",
+            "left"
+        ]
+    ]
+}

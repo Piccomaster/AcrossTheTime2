@@ -1,0 +1,32 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "ROUTE_LOADING": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "MAP_DISPLAY": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "MAPMKR": {
+                    "min": 1
+                }
+            }
+        }
+    ]
+}

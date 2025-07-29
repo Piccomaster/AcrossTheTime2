@@ -1,0 +1,31 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/misc/map/display/select/lilith_house"
+    },
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','lilith_house']}"
+                }
+            }
+        },
+        "left": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','lilith_house']}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "right",
+            "left"
+        ]
+    ]
+}

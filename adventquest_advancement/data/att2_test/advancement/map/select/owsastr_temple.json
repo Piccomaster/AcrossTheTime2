@@ -1,0 +1,31 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/misc/map/display/select/owsastr_temple"
+    },
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','owsastr_temple']}"
+                }
+            }
+        },
+        "left": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','owsastr_temple']}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "right",
+            "left"
+        ]
+    ]
+}

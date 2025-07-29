@@ -1,0 +1,31 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/misc/map/display/select/gonon_hotel"
+    },
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','gonon_hotel']}"
+                }
+            }
+        },
+        "left": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','gonon_hotel']}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "right",
+            "left"
+        ]
+    ]
+}

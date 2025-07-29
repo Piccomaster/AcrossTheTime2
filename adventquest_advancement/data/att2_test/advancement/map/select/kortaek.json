@@ -1,0 +1,31 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/misc/map/display/select/kortaek"
+    },
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','kortaek']}"
+                }
+            }
+        },
+        "left": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['MAP','kortaek']}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "right",
+            "left"
+        ]
+    ]
+}
