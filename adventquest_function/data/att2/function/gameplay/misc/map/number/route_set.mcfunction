@@ -42,8 +42,8 @@ execute if score @s DEST matches 30 run data modify storage att2:route select se
 execute if score @s DEST matches 31 run data modify storage att2:route select set value "CROSS_ROAD"
 execute if score @s DEST matches 32 run data modify storage att2:route select set value "WORLEST_MINE_EAST"
 
-execute if score @s DEST matches 33 run data modify storage att2:route select set value "SEASIDE_HOUSE_NORTH"
-execute if score @s DEST matches 34 run data modify storage att2:route select set value "SEASIDE_HOUSE_WEST"
+execute if score @s DEST matches 33 run data modify storage att2:route select set value "SEASIDE_HOUSE"
+#execute if score @s DEST matches 34 run data modify storage att2:route select set value "SEASIDE_HOUSEWEST"
 execute if score @s DEST matches 35 run data modify storage att2:route select set value "SCHESTROWN_NORTH"
 execute if score @s DEST matches 36 run data modify storage att2:route select set value "SCHESTROWN_EAST"
 execute if score @s DEST matches 37 run data modify storage att2:route select set value "MANGROOVE_FOREST"

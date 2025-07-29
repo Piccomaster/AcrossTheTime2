@@ -1419,7 +1419,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_1"
+                    "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
                 {
                     "conditions": [
@@ -1438,7 +1438,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_helmet_2"
+                    "value": "att2:item_data/armor/com/leather_helmet_2"
                 },
                 {
                     "conditions": [
@@ -1457,7 +1457,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_1"
+                    "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
                 {
                     "conditions": [
@@ -1476,7 +1476,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_leggings_4"
+                    "value": "att2:item_data/armor/com/leather_leggings_4"
                 },
                 {
                     "conditions": [
@@ -1495,7 +1495,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_boots_5"
+                    "value": "att2:item_data/armor/com/leather_boots_5"
                 },
                 {
                     "conditions": [
@@ -1533,7 +1533,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_1"
+                    "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
                 {
                     "conditions": [
@@ -1609,7 +1609,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_1"
+                    "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
                 {
                     "conditions": [
@@ -1685,7 +1685,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_1"
+                    "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
                 {
                     "conditions": [
@@ -1761,7 +1761,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_1"
+                    "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
                 {
                     "conditions": [
@@ -1818,7 +1818,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_helmet_24"
+                    "value": "att2:item_data/armor/com/leather_helmet_24"
                 },
                 {
                     "conditions": [
@@ -1837,7 +1837,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_helmet_25"
+                    "value": "att2:item_data/armor/com/leather_helmet_25"
                 },
                 {
                     "conditions": [
@@ -1856,7 +1856,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_26"
+                    "value": "att2:item_data/armor/com/leather_chestplate_26"
                 },
                 {
                     "conditions": [
@@ -1875,7 +1875,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_27"
+                    "value": "att2:item_data/armor/com/leather_chestplate_27"
                 },
                 {
                     "conditions": [
@@ -1894,7 +1894,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_leggings_28"
+                    "value": "att2:item_data/armor/com/leather_leggings_28"
                 },
                 {
                     "conditions": [
@@ -1913,7 +1913,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_leggings_29"
+                    "value": "att2:item_data/armor/com/leather_leggings_29"
                 },
                 {
                     "conditions": [
@@ -1932,7 +1932,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_boots_30"
+                    "value": "att2:item_data/armor/com/leather_boots_30"
                 },
                 {
                     "conditions": [
@@ -1951,7 +1951,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_boots_31"
+                    "value": "att2:item_data/armor/com/leather_boots_31"
                 },
                 {
                     "conditions": [
@@ -2008,7 +2008,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_chestplate_1"
+                    "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
                 {
                     "conditions": [
@@ -2578,7 +2578,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/chainmail_chestplate_70"
+                    "value": "att2:item_data/armor/com/chainmail_chestplate_70"
                 },
                 {
                     "conditions": [
@@ -2597,7 +2597,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/chainmail_chestplate_71"
+                    "value": "att2:item_data/armor/com/chainmail_chestplate_71"
                 },
                 {
                     "conditions": [
@@ -2616,7 +2616,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/chainmail_leggings_72"
+                    "value": "att2:item_data/armor/com/chainmail_leggings_72"
                 },
                 {
                     "conditions": [
@@ -2635,7 +2635,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/chainmail_leggings_73"
+                    "value": "att2:item_data/armor/com/chainmail_leggings_73"
                 },
                 {
                     "conditions": [
@@ -2654,7 +2654,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/chainmail_boots_74"
+                    "value": "att2:item_data/armor/com/chainmail_boots_74"
                 },
                 {
                     "conditions": [
@@ -2673,7 +2673,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/chainmail_boots_75"
+                    "value": "att2:item_data/armor/com/chainmail_boots_75"
                 },
                 {
                     "conditions": [
@@ -3129,7 +3129,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/iron_helmet_99"
+                    "value": "att2:item_data/armor/com/iron_helmet_99"
                 },
                 {
                     "conditions": [
@@ -3148,7 +3148,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/iron_helmet_100"
+                    "value": "att2:item_data/armor/com/iron_helmet_100"
                 },
                 {
                     "conditions": [
@@ -3167,7 +3167,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/iron_chestplate_101"
+                    "value": "att2:item_data/armor/com/iron_chestplate_101"
                 },
                 {
                     "conditions": [
@@ -3186,7 +3186,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/iron_chestplate_102"
+                    "value": "att2:item_data/armor/com/iron_chestplate_102"
                 },
                 {
                     "conditions": [
@@ -3205,7 +3205,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/iron_leggings_103"
+                    "value": "att2:item_data/armor/com/iron_leggings_103"
                 },
                 {
                     "conditions": [
@@ -3224,7 +3224,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/iron_leggings_104"
+                    "value": "att2:item_data/armor/com/iron_leggings_104"
                 },
                 {
                     "conditions": [
@@ -3243,7 +3243,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/iron_boots_105"
+                    "value": "att2:item_data/armor/com/iron_boots_105"
                 },
                 {
                     "conditions": [
@@ -3262,7 +3262,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/iron_boots_106"
+                    "value": "att2:item_data/armor/com/iron_boots_106"
                 },
                 {
                     "conditions": [
@@ -3452,7 +3452,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/leather_helmet_25"
+                    "value": "att2:item_data/armor/com/leather_helmet_25"
                 },
                 {
                     "conditions": [
@@ -3737,7 +3737,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/diamond_helmet_168"
+                    "value": "att2:item_data/armor/com/diamond_helmet_168"
                 },
                 {
                     "conditions": [
@@ -3756,7 +3756,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/diamond_helmet_169"
+                    "value": "att2:item_data/armor/com/diamond_helmet_169"
                 },
                 {
                     "conditions": [
@@ -3775,7 +3775,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/diamond_chestplate_170"
+                    "value": "att2:item_data/armor/com/diamond_chestplate_170"
                 },
                 {
                     "conditions": [
@@ -3794,7 +3794,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/diamond_chestplate_171"
+                    "value": "att2:item_data/armor/com/diamond_chestplate_171"
                 },
                 {
                     "conditions": [
@@ -3813,7 +3813,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/diamond_leggings_172"
+                    "value": "att2:item_data/armor/com/diamond_leggings_172"
                 },
                 {
                     "conditions": [
@@ -3832,7 +3832,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/diamond_leggings_173"
+                    "value": "att2:item_data/armor/com/diamond_leggings_173"
                 },
                 {
                     "conditions": [
@@ -3851,7 +3851,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/diamond_boots_174"
+                    "value": "att2:item_data/armor/com/diamond_boots_174"
                 },
                 {
                     "conditions": [
@@ -3870,7 +3870,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/diamond_boots_175"
+                    "value": "att2:item_data/armor/com/diamond_boots_175"
                 },
                 {
                     "conditions": [
@@ -4497,7 +4497,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/netherite_helmet_265"
+                    "value": "att2:item_data/armor/com/netherite_helmet_265"
                 },
                 {
                     "conditions": [
@@ -4516,7 +4516,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/netherite_helmet_266"
+                    "value": "att2:item_data/armor/com/netherite_helmet_266"
                 },
                 {
                     "conditions": [
@@ -4535,7 +4535,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/netherite_chestplate_267"
+                    "value": "att2:item_data/armor/com/netherite_chestplate_267"
                 },
                 {
                     "conditions": [
@@ -4554,7 +4554,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/netherite_chestplate_268"
+                    "value": "att2:item_data/armor/com/netherite_chestplate_268"
                 },
                 {
                     "conditions": [
@@ -4573,7 +4573,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/netherite_leggings_269"
+                    "value": "att2:item_data/armor/com/netherite_leggings_269"
                 },
                 {
                     "conditions": [
@@ -4592,7 +4592,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/netherite_leggings_270"
+                    "value": "att2:item_data/armor/com/netherite_leggings_270"
                 },
                 {
                     "conditions": [
@@ -4611,7 +4611,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/netherite_boots_271"
+                    "value": "att2:item_data/armor/com/netherite_boots_271"
                 },
                 {
                     "conditions": [
@@ -4630,7 +4630,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/netherite_boots_272"
+                    "value": "att2:item_data/armor/com/netherite_boots_272"
                 },
                 {
                     "conditions": [
@@ -8905,7 +8905,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/items/armor/com/chainmail_chestplate_71"
+                    "value": "att2:item_data/armor/com/chainmail_chestplate_71"
                 },
                 {
                     "conditions": [

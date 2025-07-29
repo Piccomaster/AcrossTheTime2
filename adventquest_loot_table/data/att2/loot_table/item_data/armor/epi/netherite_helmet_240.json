@@ -42,28 +42,28 @@
                     "id": "armor.helmet",
                     "amount": 2.95,
                     "operation": "add_value",
-                    "slot": "chest"
+                    "slot": "head"
                   },
                   {
                     "type": "minecraft:armor_toughness",
                     "id": "armor.helmet",
                     "amount": 0.65,
                     "operation": "add_value",
-                    "slot": "chest"
+                    "slot": "head"
                   },
                   {
                     "type": "minecraft:max_health",
                     "id": "armor.helmet",
                     "amount": 1,
                     "operation": "add_value",
-                    "slot": "chest"
+                    "slot": "head"
                   },
                   {
                     "type": "minecraft:knockback_resistance",
                     "id": "armor.helmet",
                     "amount": 0.01,
                     "operation": "add_value",
-                    "slot": "chest"
+                    "slot": "head"
                   }
                 ],
                 "minecraft:damage": 100,

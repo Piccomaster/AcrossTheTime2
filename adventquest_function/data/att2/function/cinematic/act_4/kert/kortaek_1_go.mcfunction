@@ -43,7 +43,8 @@ execute if score Real0 TIMER matches 1070 positioned -5472.6 71 -4726 run functi
 #execute if score Real0 TIMER matches 1070 run summon minecraft:villager -5472.6 71 -4726 {Rotation:[90.0f,0.0f],Profession:5,Silent:1b,NoAI:1b,Invulnerable:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:movement_speed,base:0.001},{id:max_health,base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1b,show_particles:0b}]}
 execute if score Real0 TIMER matches 1080 run function att2:physicmod/reg1/kert/brynhild_barrier_false
 execute if score Real0 TIMER matches 1101 run scoreboard players set Mainquest SIDEQUEST 223
-
+#map region unlock
+execute if score Real0 TIMER matches 1101 as @a run function att2:dialogs/gameplay/misc/map/region/nojelanth
 
 #=======================#
 #end of the cinematic	#

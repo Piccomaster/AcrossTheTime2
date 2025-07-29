@@ -48,21 +48,21 @@
                     "id": "armor.boots",
                     "amount": 3.3,
                     "operation": "add_value",
-                    "slot": "legs"
+                    "slot": "feet"
                   },
                   {
                     "type": "minecraft:armor_toughness",
                     "id": "armor.boots",
                     "amount": 2.18,
                     "operation": "add_value",
-                    "slot": "legs"
+                    "slot": "feet"
                   },
                   {
                     "type": "minecraft:max_health",
                     "id": "armor.boots",
                     "amount": 2,
                     "operation": "add_value",
-                    "slot": "legs"
+                    "slot": "feet"
                   }
                 ],
                 "minecraft:damage": 0,

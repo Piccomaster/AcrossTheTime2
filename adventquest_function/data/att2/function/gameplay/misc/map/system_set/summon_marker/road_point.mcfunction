@@ -73,7 +73,7 @@ execute in overworld positioned -3845 103 -5808 run summon armor_stand ~ ~ ~ {UU
 #ALPHONSE house
 execute in overworld positioned -3884 100 -5925 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,28],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"28",color:dark_red}]}
 #ELVETTVA forest Entrance
-execute in overworld positioned -4100 70 -5638 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,29],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"29",color:dark_red}]}
+execute in overworld positioned -4099 70 -5638 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,29],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"29",color:dark_red}]}
 #cross road center
 execute in overworld positioned -4240 71 -5344 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,30],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"30",color:dark_red}]}
 #worlest mine east
@@ -110,7 +110,7 @@ execute in overworld positioned -4921 74 -5205 run summon armor_stand ~ ~ ~ {UUI
 #46
 execute in overworld positioned -4894 77 -5191 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,46],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"46",color:dark_red}]}
 #47
-execute in overworld positioned -4891 74 -5087 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,47],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"47",color:dark_red}]}
+execute in overworld positioned -4888 73 -5091 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,47],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"47",color:dark_red}]}
 #48
 execute in overworld positioned -4789 73 -5087 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,48],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"48",color:dark_red}]}
 #49
@@ -168,13 +168,13 @@ execute in overworld positioned -5359 71 -5397 run summon armor_stand ~ ~ ~ {UUI
 #75
 execute in overworld positioned -5339 73 -5460 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,75],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"75","color":"dark_red"}]}
 #76
-execute in overworld positioned -5383 74 -5546 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,76],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"76","color":"dark_red"}]}
+execute in overworld positioned -5386 75 -5549 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,76],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"76","color":"dark_red"}]}
 #77
 execute in overworld positioned -5436 75 -5561 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,77],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"77","color":"dark_red"}]}
 #78
 execute in overworld positioned -5422 78 -5589 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,78],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"78","color":"dark_red"}]}
 #79
-execute in overworld positioned -5416 82 -5613 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,79],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"79","color":"dark_red"}]}
+execute in overworld positioned -5411 82 -5614 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,79],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"79","color":"dark_red"}]}
 #80
 execute in overworld positioned -5374 82 -5646 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,80],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"80","color":"dark_red"}]}
 #81
@@ -254,11 +254,11 @@ execute in overworld positioned -5067 100 -5619 run summon armor_stand ~ ~ ~ {UU
 #118
 execute in overworld positioned -5041 98 -5637 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,118],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"118","color":"dark_red"}]}
 #119
-execute in overworld positioned -5051 102 -5698 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,119],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"119","color":"dark_red"}]}
+execute in overworld positioned -5049 102 -5696 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,119],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"119","color":"dark_red"}]}
 #120
 execute in overworld positioned -5068 106 -5710 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,120],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"120","color":"dark_red"}]}
 #121
-execute in overworld positioned -5093 110 -5711 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,121],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"121","color":"dark_red"}]}
+execute in overworld positioned -5092 110 -5709 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,121],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"121","color":"dark_red"}]}
 #122
 execute in overworld positioned -4985 92 -5624 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,122],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"122","color":"dark_red"}]}
 #123
@@ -290,7 +290,7 @@ execute in overworld positioned -4550 71 -5715 run summon armor_stand ~ ~ ~ {UUI
 #136
 execute in overworld positioned -4494 71 -5665 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,136],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"136","color":"dark_red"}]}
 #137
-execute in overworld positioned -4439 71 -5664 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,137],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"137","color":"dark_red"}]}
+execute in overworld positioned -4452 71 -5661 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,137],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"137","color":"dark_red"}]}
 #138
 execute in overworld positioned -4366 71 -5743 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,138],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"138","color":"dark_red"}]}
 #139
@@ -340,7 +340,7 @@ execute in overworld positioned -3878 90 -5717 run summon armor_stand ~ ~ ~ {UUI
 #161
 execute in overworld positioned -3892 95 -5688 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,161],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"161","color":"dark_red"}]}
 #162
-execute in overworld positioned -4101 70 -5659 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,162],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"162","color":"dark_red"}]}
+execute in overworld positioned -4102 70 -5659 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,162],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"162","color":"dark_red"}]}
 #163
 execute in overworld positioned -4107 70 -5633 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,163],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"163","color":"dark_red"}]}
 #164
@@ -372,7 +372,7 @@ execute in overworld positioned -4214 71 -5338 run summon armor_stand ~ ~ ~ {UUI
 #177
 execute in overworld positioned -4230 71 -5340 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,177],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"177","color":"dark_red"}]}
 #178
-execute in overworld positioned -4238 72 -5311 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,178],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"178","color":"dark_red"}]}
+execute in overworld positioned -4237 72 -5311 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,178],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"178","color":"dark_red"}]}
 #179
 execute in overworld positioned -4325 71 -5225 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,179],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"179","color":"dark_red"}]}
 #180
@@ -558,7 +558,7 @@ execute in overworld positioned -5682 77 -4743 run summon armor_stand ~ ~ ~ {UUI
 #270
 execute in overworld positioned -5709 94 -4783 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,270],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"270","color":"dark_red"}]}
 #271
-execute in overworld positioned -5702 105 -4806 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,271],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"271","color":"dark_red"}]}
+execute in overworld positioned -5702 106 -4808 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,271],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"271","color":"dark_red"}]}
 #272
 execute in overworld positioned -5676 122 -4833 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,272],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"272","color":"dark_red"}]}
 #273
@@ -626,7 +626,7 @@ execute in overworld positioned -4724 74 -5322 run summon armor_stand ~ ~ ~ {UUI
 #303
 execute in overworld positioned -4669 76 -5354 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,303],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"303","color":"dark_red"}]}
 #304
-execute in overworld positioned -4651 74 -5360 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,304],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"304","color":"dark_red"}]}
+execute in overworld positioned -4661 76 -5356 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,304],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"304","color":"dark_red"}]}
 
 
 #305
@@ -669,6 +669,25 @@ execute in overworld positioned -4805 81 -5047 run summon armor_stand ~ ~ ~ {UUI
 #323
 execute in overworld positioned -4810 84 -5041 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,323],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"323","color":"dark_red"}]}
 
+#324
+execute in overworld positioned -4294 71 -5413 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,324],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"324","color":"dark_red"}]}
+#325
+execute in overworld positioned -4396 71 -5499 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,325],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"325","color":"dark_red"}]}
+#326
+execute in overworld positioned -4448 71 -5559 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,326],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"326","color":"dark_red"}]}
+#327
+execute in overworld positioned -5420 82 -5614 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,327],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"327","color":"dark_red"}]}
+#328
+execute in overworld positioned -5278 87 -5614 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,328],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"328","color":"dark_red"}]}
+
+#329
+execute in overworld positioned -4901 73 -5163 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,329],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"329","color":"dark_red"}]}
+#330
+execute in overworld positioned -4907 73 -5151 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,330],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"330","color":"dark_red"}]}
+#331
+execute in overworld positioned -4885 73 -5113 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,331],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"331","color":"dark_red"}]}
+#332
+execute in overworld positioned -4864 73 -5085 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,332],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"332","color":"dark_red"}]}
 
 #XXX
 #execute in overworld positioned -4996 76 -5216 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,XXX],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{"text":"XXX","color":"dark_red"}]}

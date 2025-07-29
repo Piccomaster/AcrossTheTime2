@@ -16,7 +16,7 @@ function att2:gameplay/reputation/add_5
 scoreboard players set babbu_PNJ DIALOG 4
 
 #REWARDS
-execute at 00000000-0000-137a-0000-00000000137a as @p run give @s minecraft:filled_map[minecraft:map_decorations={+1:{rotation:180.0f,x:-4172.0d,z:-5003.0d,type:"minecraft:target_x"}},minecraft:map_id=58]
+execute at 00000000-0000-137a-0000-00000000137a as @p run give @s filled_map[map_color=16646138,map_decorations={"sq40":{rotation:180.0f,type:"red_x",x:-4172.0d,z:-5003.0d}},map_id=58] 1
 xp add @a 4000 points
 
 advancement grant @a only att2:quest/sq39

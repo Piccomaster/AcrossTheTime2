@@ -8,5 +8,7 @@ scoreboard players set mortimer_PNJ DIALOG 4
 function att2:sound/misc/mission_progress
 function att2:sound/dialogs/simple
 execute as @p[distance=..15] run function att2:dialogs/sidequest/sq33/mortimer_3
+#add map unlock dialogs
+execute as @a run function att2:dialogs/gameplay/misc/map/point/plain_center
 #return 1->make command block runing
 return 1

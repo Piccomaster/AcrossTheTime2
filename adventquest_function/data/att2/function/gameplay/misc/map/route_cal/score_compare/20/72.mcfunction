@@ -39,8 +39,7 @@ scoreboard players set ELVETTA DEST 1
 scoreboard players set CROSS_ROAD DEST 1
 scoreboard players set WORLEST_MINE_EAST DEST 1
 ##seaside
-scoreboard players set SEASIDE_HOUSE_NORTH DEST 1
-scoreboard players set SEASIDE_HOUSE_WEST DEST 1
+scoreboard players set SEASIDE_HOUSE DEST 1
 scoreboard players set SCHESTROWN_NORTH DEST 1
 scoreboard players set SCHESTROWN_EAST DEST 1
 scoreboard players set MANGROOVE_FOREST DEST 1
@@ -52,4 +51,4 @@ scoreboard players set OWSASTR_TEMPLE DEST 1
 scoreboard players set OWSASTR_SOUTH DEST 1
 
 #compare route score
-$execute if score $(select) DEST matches 1 run function att2:gameplay/misc/map/route_cal/score_compare/tp with storage att2:route
+$execute if score $(select) DEST matches 1 run function att2:gameplay/misc/map/route_cal/score_compare/add_score with storage att2:route

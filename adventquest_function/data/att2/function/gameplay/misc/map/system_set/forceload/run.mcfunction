@@ -3,8 +3,6 @@
 #map system set                                                 #
 #################################################################
 
-#total 323-1=322
-
 #summom end point 1-42 TOTAL->41
 ###worlest
 #ryliath waypoint
@@ -168,13 +166,13 @@ execute in overworld positioned -5359 71 -5397 run forceload add ~ ~
 #75
 execute in overworld positioned -5339 73 -5460 run forceload add ~ ~
 #76
-execute in overworld positioned -5392 76 -5554 run forceload add ~ ~
+execute in overworld positioned -5386 75 -5549 run forceload add ~ ~
 #77
 execute in overworld positioned -5436 75 -5561 run forceload add ~ ~
 #78
 execute in overworld positioned -5422 78 -5589 run forceload add ~ ~
 #79
-execute in overworld positioned -5416 82 -5613 run forceload add ~ ~
+execute in overworld positioned -5411 82 -5614 run forceload add ~ ~
 #80
 execute in overworld positioned -5374 82 -5646 run forceload add ~ ~
 #81
@@ -558,7 +556,7 @@ execute in overworld positioned -5682 77 -4743 run forceload add ~ ~
 #270
 execute in overworld positioned -5709 94 -4783 run forceload add ~ ~
 #271
-execute in overworld positioned -5702 105 -4806 run forceload add ~ ~
+execute in overworld positioned -5702 106 -4808 run forceload add ~ ~
 #272
 execute in overworld positioned -5676 122 -4833 run forceload add ~ ~
 #273
@@ -626,7 +624,7 @@ execute in overworld positioned -4724 74 -5322 run forceload add ~ ~
 #303
 execute in overworld positioned -4669 76 -5354 run forceload add ~ ~
 #304
-execute in overworld positioned -4651 74 -5360 run forceload add ~ ~
+execute in overworld positioned -4661 76 -5356 run forceload add ~ ~
 
 
 #305
@@ -668,3 +666,14 @@ execute in overworld positioned -4808 73 -5082 run forceload add ~ ~
 execute in overworld positioned -4805 81 -5047 run forceload add ~ ~
 #323
 execute in overworld positioned -4810 84 -5041 run forceload add ~ ~
+
+#324
+execute in overworld positioned -4294 71 -5413 run forceload add ~ ~
+#325
+execute in overworld positioned -4396 71 -5499 run forceload add ~ ~
+#326
+execute in overworld positioned -4448 71 -5559 run forceload add ~ ~
+#327
+execute in overworld positioned -5420 82 -5614 run forceload add ~ ~
+#328
+execute in overworld positioned -5278 87 -5614 run forceload add ~ ~
