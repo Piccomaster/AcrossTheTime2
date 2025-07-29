@@ -14,10 +14,6 @@
                 },
                 {
                     "condition": "minecraft:reference",
-                    "name": "att2_pre:chair/trapdoor"
-                },
-                {
-                    "condition": "minecraft:reference",
                     "name": "att2_pre:chair/carpet"
                 },
                 {
