@@ -72,7 +72,7 @@ execute in overworld positioned -3845 103 -5808 run summon armor_stand ~ ~ ~ {UU
 #ALPHONSE house
 execute in overworld positioned -3884 100 -5925 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,28],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"28",color:dark_red}]}
 #ELVETTVA forest Entrance
-execute in overworld positioned -4100 70 -5638 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,29],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"29",color:dark_red}]}
+execute in overworld positioned -4099 70 -5638 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,29],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"29",color:dark_red}]}
 #cross road center
 execute in overworld positioned -4240 71 -5344 run summon armor_stand ~ ~ ~ {UUID:[I;2,2,2,30],Tags:["ROAD_MARKER","END"],Marker:false,Invisible:false,CustomNameVisible:true,CustomName:[{text:"30",color:dark_red}]}
 #worlest mine east

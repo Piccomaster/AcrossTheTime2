@@ -21,7 +21,8 @@ execute if score Real0 TIMER matches 1070 run function att2:cinematic/act_2/mele
 execute if score Real0 TIMER matches 1170 run scoreboard players set indra_lorth_PNJ DIALOG 1
 execute if score Real0 TIMER matches 1170 run function att2:physicmod/reg1/meleim/indra_lorth_door_open
 execute if score Real0 TIMER matches 1171 run scoreboard players set Mainquest SIDEQUEST 21
-
+#map region unlock
+execute if score Real0 TIMER matches 1171 as @a run function att2:dialogs/gameplay/misc/map/region/south_plain
 
 #=======================#
 #end of the cinematic	#

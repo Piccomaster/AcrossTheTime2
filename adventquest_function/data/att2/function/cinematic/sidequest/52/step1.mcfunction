@@ -18,5 +18,7 @@ function att2:cinematic/sidequest/52/jzargo/move_pnj
 xp add @a 6000 points
 
 advancement grant @a only att2:quest/sq51
+#add map unlock dialogs
+execute as @a run function att2:dialogs/gameplay/misc/map/point/owsastr_south
 #return 1->make command block runing
 return 1

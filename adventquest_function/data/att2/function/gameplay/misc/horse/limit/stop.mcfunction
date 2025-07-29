@@ -6,4 +6,4 @@
 #glowing
 effect give @s glowing infinite 0 true
 #move limit
-effect give @s slowness infinite 15 true
+effect give @s slowness infinite 77 true

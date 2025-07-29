@@ -5,9 +5,8 @@
 
 #set end score
 scoreboard players set TRUE EXECUTIONS 1
-
-scoreboard players reset MAX EXECUTIONS
-
+#clear route_select
+$kill @e[type=armor_stand,tag=ROUTE_SELECT,scores={OWNER=$(numerojoueur)}]
 #summon marker
 #clear
 $kill @e[type=shulker,tag=ROUTE_START,tag=!New,scores={OWNER=$(numerojoueur)}]
@@ -19,5 +18,3 @@ team join dark_green @e[type=shulker,tag=ROUTE_START,tag=New]
 scoreboard players operation @e[type=shulker,tag=ROUTE_START,tag=New] OWNER = @s NUMEROJOUEUR
 #remove tag
 tag @e[type=shulker,tag=ROUTE_START,tag=New] remove New
-
-say 生成初始点位

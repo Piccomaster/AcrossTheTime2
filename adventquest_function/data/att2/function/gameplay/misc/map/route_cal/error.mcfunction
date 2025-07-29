@@ -3,14 +3,19 @@
 #Process miscelaneous actions 									#
 #################################################################
 
-#set end score
-scoreboard players set MAX EXECUTIONS 0
-
-#summon marker
 #clear
 $kill @e[type=shulker,tag=ROUTE_START,tag=!New,scores={OWNER=$(numerojoueur)}]
 #kill @s
-kill @s[type=armor_stand,tag=ROUTE_SELECT]
+$kill @e[type=armor_stand,tag=ROUTE_SELECT,scores={OWNER=$(numerojoueur)}]
 #reset player
 $scoreboard players reset @s[scores={NUMEROJOUEUR=$(numerojoueur)}] ROUTE_LOADING
-say 路线加载失败
+#reset score
+$scoreboard objectives remove ROUTING_$(numerojoueur)
+
+#dialogs loaded
+function att2:dialogs/gameplay/misc/map/select/error
+#reset score
+scoreboard players reset @s ROUTE_LOADING
+scoreboard players reset @s MAPMKR
+#test forceload remove
+execute unless entity @a[scores={ROUTE_LOADING=1..}] run function att2:gameplay/misc/map/system_set/forceload/stop

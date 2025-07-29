@@ -6,6 +6,9 @@
 execute if score Real0 TIMER matches 0 run scoreboard players set wirth_razgork_PNJ DIALOG 5
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 18
 
+#map region unlock
+execute if score Real0 TIMER matches 1 as @a run function att2:dialogs/gameplay/misc/map/region/north_forest
+
 #=======================#
 #end of the cinematic	#
 #=======================#

@@ -3,13 +3,8 @@
 #Process miscelaneous actions 									#
 #################################################################
 
-#tp player
-$execute at @s run tp @a[scores={NUMEROJOUEUR=$(numerojoueur)},limit=1]
-#tp start
-$execute at @s run tp @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(start)},limit=1,sort=nearest]
-#modify @s (minecart)rotation
-$execute at @s facing entity @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(end)},limit=1,sort=nearest] feet run tp @s ~ ~ ~ ~ ~
-#resetrotation[1]
-data modify entity @s Rotation[1] set value 0
-#modify (ride(horse))rotation
-#$execute on vehicle at @s facing entity @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(end)},limit=1,sort=nearest] eyes run tp @s ~ ~ ~ ~ ~
+$rotate @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(start)},limit=1,sort=nearest,distance=..5] facing entity @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(end)},limit=1,sort=nearest] eyes
+#tp nearest point
+$execute on vehicle on vehicle at @s run tp @s @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(end)},limit=1,sort=nearest,distance=..3]
+#small jump
+execute on vehicle on vehicle at @s run tp @s ~ ~0.5 ~

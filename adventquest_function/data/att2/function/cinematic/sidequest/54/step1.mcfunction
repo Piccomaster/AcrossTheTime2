@@ -18,5 +18,7 @@ function att2:cinematic/sidequest/54/jzargo/move_pnj
 xp add @a 8000 points
 
 advancement grant @a only att2:quest/sq53
+#add map unlock dialogs
+execute as @a run function att2:dialogs/gameplay/misc/map/point/worlest_ruin
 #return 1->make command block runing
 return 1
