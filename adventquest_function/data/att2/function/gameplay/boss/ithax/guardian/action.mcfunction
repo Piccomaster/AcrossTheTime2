@@ -66,7 +66,7 @@ execute if score Guardian_timer2 ITHAX matches 300 run function att2:gameplay/bo
 # Generator effect gravity
 execute as @a[x=-7437,y=133,z=-6014,dx=6,dy=1,dz=6,gamemode=adventure] at @s run scoreboard players set @s[scores={SPD_EXT=-8..}] SPD_EXT -8
 execute as @a[x=-7437,y=133,z=-6014,dx=6,dy=1,dz=6,gamemode=adventure] at @s run scoreboard players set @s TIMER_SPD_EXT 20
-execute as @e[x=-7437,y=133,z=-6014,dx=6,dy=1,dz=6,nbt={UUID:[I;0,123,0,123]}] at @s run data merge entity @s {active_effects:[{id:slowness,amplifier:4,duration:40,ambient:0,show_particles:0b}]}
+execute as @e[x=-7437,y=133,z=-6014,dx=6,dy=1,dz=6,nbt={UUID:[I;0,123,0,123]}] at @s run data merge entity @s {active_effects:[{id:slowness,amplifier:4,duration:40,show_particles:true}]}
 
 # Iteration
 execute if score Guardian_timer1 ITHAX matches 0..500 run scoreboard players add Guardian_timer1 ITHAX 1

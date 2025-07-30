@@ -1,0 +1,20 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/misc/map/display/show_trigger"
+  },
+  "criteria": {
+    "show_trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:paper",
+          "predicates": {
+            "minecraft:custom_data": {
+              "map": "sylberland"
+            }
+          }
+        }
+      }
+    }
+  }
+}
