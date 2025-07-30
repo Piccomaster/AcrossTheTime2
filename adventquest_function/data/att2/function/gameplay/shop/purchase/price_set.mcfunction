@@ -2513,6 +2513,7 @@ scoreboard players operation spectral_arrow_1 PRICES /= 100 discount_calc
 scoreboard players set torch PRICES 10
 scoreboard players set chair PRICES 50
 scoreboard players set map PRICES 50
+scoreboard players set carrot_on_a_stick PRICES 10
 #fishing##
 #rod
 scoreboard players set rod_com PRICES 100
