@@ -22,7 +22,7 @@ execute if score Real0 TIMER matches 300 at @a run function att2:sound/ambience/
 execute if score Real0 TIMER matches 300..400 as @e[type=minecraft:squid,x=-5580,y=109,z=-6420,distance=..15] at @s run tp @s ~-0.05 ~ ~
 execute if score Real0 TIMER matches 300..400 as 00000000-0000-006b-0000-00000000006b at @s run tp @s ~-0.08 ~ ~
 execute if score Real0 TIMER matches 350 as @a run function att2:sound/ambience/incoming2
-execute if score Real0 TIMER matches 370 run data merge entity 00000000-0000-006b-0000-00000000006b {active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}
+execute if score Real0 TIMER matches 370 run data merge entity 00000000-0000-006b-0000-00000000006b {active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
 execute if score Real0 TIMER matches 380 at @a run function att2:sound/misc/explosion
 execute if score Real0 TIMER matches 380 run particle minecraft:explosion -5584 109 -6420 10 5 10 0 100 force
 execute if score Real0 TIMER matches 400 at @a run function att2:sound/misc/huge_explosion
