@@ -1,0 +1,24 @@
+{
+	"display":{
+		"background":"minecraft:red_concrete",
+		"show_toast":true,
+		"announce_to_chat":false,
+		"hidden":true,
+		"icon":{"id":"minecraft:shears","components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        10000308
+                    ]
+                }
+            }
+        },
+		"title":"",
+		"description":"earthquake_zh",
+		"frame":"task"
+	},
+	"criteria":{
+	"tutorial":{
+		"trigger":"minecraft:impossible"
+		}
+	}
+}

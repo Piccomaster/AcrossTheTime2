@@ -3,7 +3,6 @@
 #map system set                                                 #
 #################################################################
 
-#summom end point 1-42 TOTAL->41
 ###worlest
 #ryliath waypoint
 execute in overworld positioned -5005 77 -5077 run forceload remove ~ ~
@@ -71,7 +70,7 @@ execute in overworld positioned -3845 103 -5808 run forceload remove ~ ~
 #ALPHONSE house
 execute in overworld positioned -3884 100 -5925 run forceload remove ~ ~
 #ELVETTVA forest Entrance
-execute in overworld positioned -4100 70 -5638 run forceload remove ~ ~
+execute in overworld positioned -4097 71 -5640 run forceload remove ~ ~
 #cross road center
 execute in overworld positioned -4240 71 -5344 run forceload remove ~ ~
 #worlest mine east
@@ -108,7 +107,7 @@ execute in overworld positioned -4921 74 -5205 run forceload remove ~ ~
 #46
 execute in overworld positioned -4894 77 -5191 run forceload remove ~ ~
 #47
-execute in overworld positioned -4891 74 -5087 run forceload remove ~ ~
+execute in overworld positioned -4888 73 -5091 run forceload remove ~ ~
 #48
 execute in overworld positioned -4789 73 -5087 run forceload remove ~ ~
 #49
@@ -116,7 +115,7 @@ execute in overworld positioned -4741 72 -5122 run forceload remove ~ ~
 #50
 execute in overworld positioned -4663 72 -5203 run forceload remove ~ ~
 #51
-execute in overworld positioned -4736 76 -5201 run forceload remove ~ ~
+execute in overworld positioned -4734 75 -5198 run forceload remove ~ ~
 #52
 execute in overworld positioned -4759 74 -5223 run forceload remove ~ ~
 #53
@@ -206,13 +205,13 @@ execute in overworld positioned -5343 142 -5959 run forceload remove ~ ~
 #95
 execute in overworld positioned -5346 141 -5978 run forceload remove ~ ~
 #96
-execute in overworld positioned -5378 144 -5992 run forceload remove ~ ~
+execute in overworld positioned -5380 144 -5994 run forceload remove ~ ~
 #97
-execute in overworld positioned -5361 147 -6009 run forceload remove ~ ~
+#execute in overworld positioned -5361 147 -6009 run forceload remove ~ ~
 #98
 execute in overworld positioned -5343 64 -6017 run forceload remove ~ ~
 #99
-execute in overworld positioned -5364 57 -6005 run forceload remove ~ ~
+#execute in overworld positioned -5364 57 -6007 run forceload remove ~ ~
 #100
 execute in overworld positioned -5343 73 -6044 run forceload remove ~ ~
 #101
@@ -252,11 +251,11 @@ execute in overworld positioned -5067 100 -5619 run forceload remove ~ ~
 #118
 execute in overworld positioned -5041 98 -5637 run forceload remove ~ ~
 #119
-execute in overworld positioned -5051 102 -5698 run forceload remove ~ ~
+execute in overworld positioned -5049 102 -5696 run forceload remove ~ ~
 #120
 execute in overworld positioned -5068 106 -5710 run forceload remove ~ ~
 #121
-execute in overworld positioned -5093 110 -5711 run forceload remove ~ ~
+execute in overworld positioned -5092 110 -5709 run forceload remove ~ ~
 #122
 execute in overworld positioned -4985 92 -5624 run forceload remove ~ ~
 #123
@@ -288,7 +287,7 @@ execute in overworld positioned -4550 71 -5715 run forceload remove ~ ~
 #136
 execute in overworld positioned -4494 71 -5665 run forceload remove ~ ~
 #137
-execute in overworld positioned -4439 71 -5664 run forceload remove ~ ~
+execute in overworld positioned -4452 71 -5661 run forceload remove ~ ~
 #138
 execute in overworld positioned -4366 71 -5743 run forceload remove ~ ~
 #139
@@ -338,7 +337,7 @@ execute in overworld positioned -3878 90 -5717 run forceload remove ~ ~
 #161
 execute in overworld positioned -3892 95 -5688 run forceload remove ~ ~
 #162
-execute in overworld positioned -4101 70 -5659 run forceload remove ~ ~
+execute in overworld positioned -4103 70 -5659 run forceload remove ~ ~
 #163
 execute in overworld positioned -4107 70 -5633 run forceload remove ~ ~
 #164
@@ -346,7 +345,7 @@ execute in overworld positioned -4096 71 -5613 run forceload remove ~ ~
 #165
 execute in overworld positioned -4103 71 -5595 run forceload remove ~ ~
 #166
-execute in overworld positioned -4104 72 -5543 run forceload remove ~ ~
+execute in overworld positioned -4105 72 -5543 run forceload remove ~ ~
 #167
 execute in overworld positioned -4076 72 -5506 run forceload remove ~ ~
 #168
@@ -370,7 +369,7 @@ execute in overworld positioned -4214 71 -5338 run forceload remove ~ ~
 #177
 execute in overworld positioned -4230 71 -5340 run forceload remove ~ ~
 #178
-execute in overworld positioned -4238 72 -5311 run forceload remove ~ ~
+execute in overworld positioned -4237 72 -5311 run forceload remove ~ ~
 #179
 execute in overworld positioned -4325 71 -5225 run forceload remove ~ ~
 #180
@@ -677,3 +676,12 @@ execute in overworld positioned -4448 71 -5559 run forceload remove ~ ~
 execute in overworld positioned -5420 82 -5614 run forceload remove ~ ~
 #328
 execute in overworld positioned -5278 87 -5614 run forceload remove ~ ~
+
+#329
+execute in overworld positioned -4901 73 -5163 run forceload remove ~ ~
+#330
+execute in overworld positioned -4907 73 -5151 run forceload remove ~ ~
+#331
+execute in overworld positioned -4885 73 -5113 run forceload remove ~ ~
+#332
+execute in overworld positioned -4864 73 -5085 run forceload remove ~ ~
