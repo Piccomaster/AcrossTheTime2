@@ -7,7 +7,7 @@
         "description": {"translate":"att2.advancement.progress.description.fishing_count_100"},
         "frame": "challenge"
     },
-    "parent": "att2:progress/fishing/fishing_count_100",
+    "parent": "att2:progress/fishing/fishing_count_50",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 10000

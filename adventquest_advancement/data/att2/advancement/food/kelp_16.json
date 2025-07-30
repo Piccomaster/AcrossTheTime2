@@ -7,7 +7,7 @@
         "description": {"translate":"att2.advancement.food.description.kelp_16"},
         "frame": "challenge"
     },
-    "parent": "att2:food/kelp_16",
+    "parent": "att2:food/kelp_8",
     "rewards": {
         "experience": 2500
                 },
