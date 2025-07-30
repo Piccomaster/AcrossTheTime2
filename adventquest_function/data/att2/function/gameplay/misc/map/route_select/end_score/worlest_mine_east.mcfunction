@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest                                            #
-#set end score worldest_mine_east
+#set end score worlest_mine_east
 #################################################################
 
 #remove dummy

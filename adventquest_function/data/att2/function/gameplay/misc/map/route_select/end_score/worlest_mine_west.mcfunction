@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest                                            #
-#set end score worldest_ruin
+#set end score worlest_mine_west
 #################################################################
 
 #remove dummy
@@ -10,4 +10,4 @@ $scoreboard objectives remove ROUTING_END_$(numerojoueur)
 $scoreboard objectives add ROUTING_$(numerojoueur) dummy
 $scoreboard objectives add ROUTING_END_$(numerojoueur) dummy
 #set score
-$scoreboard players set 00000002-0000-0002-0000-000200000008 ROUTING_END_$(numerojoueur) 7777
+$scoreboard players set 00000002-0000-0002-0000-000200000004 ROUTING_END_$(numerojoueur) 7777

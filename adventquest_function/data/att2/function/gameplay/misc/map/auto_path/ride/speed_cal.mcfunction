@@ -10,7 +10,7 @@ execute store result score SPEED CAL run attribute @s movement_speed base get 10
 #cal speed
 scoreboard players operation SPEED CAL *= 3 CAL
 execute store result storage att2:route speed double 0.01 run scoreboard players get SPEED CAL
-function att2:gameplay/misc/map/auto_path/speed_set with storage att2:route
+function att2:gameplay/misc/map/auto_path/ride/speed_set with storage att2:route
 
 data modify entity @s Motion set from entity 00000001-0000-006f-0000-00010000006f Pos
 #reset world entity

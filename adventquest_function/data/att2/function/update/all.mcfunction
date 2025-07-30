@@ -529,3 +529,4 @@ execute in overworld positioned -5080 79 -5036 run kill @e[distance=..3,type=arm
 execute in overworld positioned -5080 79 -5036 run summon minecraft:item_display ~ ~ ~ {Tags:["QUEST"],Rotation:[0.0,0.0],UUID:[I;0,0,0,4],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},item:{id:"minecraft:brown_mushroom"},item_display:gui}
 execute in overworld positioned -5080 79 -5036 run summon minecraft:text_display ~ ~ ~ {Tags:["QUEST"],Rotation:[0.0,0.0],UUID:[I;0,0,0,5],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},text:[{translate:item.quest.explosive.name},{text:"\n"},{text:"x7",color:yellow}],billboard:fixed,background:0}
 
+function att2:gameplay/misc/map/system_set/summon_marker/road_point
