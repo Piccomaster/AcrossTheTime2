@@ -36,3 +36,4 @@ execute as @e[tag=MIMIC,type=item_display,distance=..1] run function att2:gamepl
 data merge entity @s {Invulnerable:0b}
 effect give @e[tag=MIMIC,type=slime] resistance infinite 4 true
 effect give @e[tag=MIMIC,type=slime] weakness infinite 255 true
+effect give @e[tag=MIMIC,type=slime] fire_resistance infinite 0 true

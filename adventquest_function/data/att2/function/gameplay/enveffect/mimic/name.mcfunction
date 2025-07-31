@@ -14,4 +14,4 @@ execute if score @p LANGUAGE matches 7 run function att2:gameplay/enveffect/mimi
 execute if score @p LANGUAGE matches 8 run function att2:gameplay/enveffect/mimic/name/lan8
 execute if score @p LANGUAGE matches 9 run function att2:gameplay/enveffect/mimic/name/lan9
 execute if score @p LANGUAGE matches 10 run function att2:gameplay/enveffect/mimic/name/lan10
-execute if score @p LANGUAGE matches 11 run function att2:gameplay/enveffect/mimic/name/lan2
+execute if score @p LANGUAGE matches 11 run function att2:gameplay/enveffect/mimic/name/lan11

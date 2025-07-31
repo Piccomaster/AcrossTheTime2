@@ -13,7 +13,7 @@ function att2:sound/misc/mission_progress
 function att2:gameplay/pnj_talk/dialog_playsound/emerald
 execute at 00000000-0000-005a-0000-00000000005a as @p[distance=..10] run function att2:dialogs/sidequest/sq25/emerald/answer_end
 #add map unlock dialogs
-execute as @a run function att2:dialogs/gameplay/misc/map/point/adanoi
+execute as @a run function att2:dialogs/gameplay/misc/map/unlock/point/adanoi
 #add force load
 execute in overworld positioned -4330 72 -5207 run forceload add ~ ~
 #return 1->make command block runing

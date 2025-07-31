@@ -4,6 +4,9 @@
 #L’art de l'alchimancie 1             			    #
 #####################################################
 
+#set score
+scoreboard players set @s MAINPLAYERNAME 1
+
 clear @s written_book[custom_data={Rarity:misc,mainplayer_name:true}]
 
 # FRENCH LANGUAGE

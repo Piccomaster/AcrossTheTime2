@@ -57,7 +57,7 @@ execute if score Real0 TIMER matches 2700 run function att2:cinematic/act_4/ryli
 execute if score Real0 TIMER matches 2700 run function att2:physicmod/reg1/ryliath_palace3
 execute if score Real0 TIMER matches 2701 run scoreboard players set Mainquest SIDEQUEST 92
 #map region unlock
-execute if score Real0 TIMER matches 2701 as @a run function att2:dialogs/gameplay/misc/map/region/elcheol
+execute if score Real0 TIMER matches 2701 as @a run function att2:dialogs/gameplay/misc/map/unlock/region/elcheol
 
 #=======================#
 #end of the cinematic	#

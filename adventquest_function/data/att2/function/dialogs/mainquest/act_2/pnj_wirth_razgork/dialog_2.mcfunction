@@ -73,12 +73,12 @@ tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Entendo, um viajante interessado nos mistérios deste mundo... Já vi uma Gema do Espaço com meus próprios olhos! Infelizmente, nunca pude obtê-la para mim, pois estava trancada no recinto de um templo onde muitos monstros rondam. O templo está no outro extremo da floresta de Worlëst, ao sair de Ryliath em direção ao nordeste.","color":"dark_aqua"}]}
 
-
-tellraw @s {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute at 00000000-0000-024a-0000-00000000024a if entity @s[distance=..7] if score wirth_razgork_PNJ DIALOG matches 1..2 run function att2:dialogs/mainquest/act_2/pnj_wirth_razgork/dialog_3"},"hover_event":{"action":"show_text","value":"..."}}
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"你是Wirth对吗？容我自我介绍一下，我是","color":"aqua"},{nbt:"set",storage:"att2:id","interpret":true,"color":"aqua"},{"text":"。Yaakov让我来你这儿打听一些消息—有关于空间宝石的消息。","color":"aqua"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"原来是名渴求世界秘密的冒险者...不瞒你说，我曾亲眼目睹过空间宝石的模样！但很可惜，我没法靠单打独斗把它收入囊中，它被藏于一所神殿的高墻之内—一所怪物肆虐的神殿。出城门后往东北方向走，你就会在Worlëst森林的另一头发现那座神殿。","color":"dark_aqua"}]}
+
+tellraw @s {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute at 00000000-0000-024a-0000-00000000024a if entity @s[distance=..7] if score wirth_razgork_PNJ DIALOG matches 1..2 run function att2:dialogs/mainquest/act_2/pnj_wirth_razgork/dialog_3"},"hover_event":{"action":"show_text","value":"..."}}
+
 
 function att2:voice/wirth/wirth2
 setblock -4906 87 -4991 minecraft:white_wool

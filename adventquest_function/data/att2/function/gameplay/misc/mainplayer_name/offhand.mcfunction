@@ -18,3 +18,5 @@ playsound secret ambient @a ~ ~ ~ 0.4 1.5
 execute if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/update_book
 #set score
 scoreboard players set set MAINPLAYERNAME 1
+#set score
+scoreboard players set @s MAINPLAYERNAME 0

@@ -7,7 +7,7 @@ execute if score Real0 TIMER matches 0 run function att2:cinematic/act_4/kert/in
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 222
 
 #map region unlock
-execute if score Real0 TIMER matches 1 as @a run function att2:dialogs/gameplay/misc/map/region/kert
+execute if score Real0 TIMER matches 1 as @a run function att2:dialogs/gameplay/misc/map/unlock/region/kert
 
 
 #=======================#

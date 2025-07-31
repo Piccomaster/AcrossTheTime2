@@ -10,7 +10,7 @@ execute if score Real0 TIMER matches 0 run function att2:cinematic/sidequest/9/p
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 8
 
 #map region unlock
-execute if score Real0 TIMER matches 1 as @a run function att2:dialogs/gameplay/misc/map/region/worlest
+execute if score Real0 TIMER matches 1 as @a run function att2:dialogs/gameplay/misc/map/unlock/region/worlest
 
 #=======================#
 #end of the cinematic	#
