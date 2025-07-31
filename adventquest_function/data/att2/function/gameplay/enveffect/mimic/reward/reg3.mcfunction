@@ -3,6 +3,10 @@
 #summon chest monster           								#
 #################################################################
 
+##add kill score
+scoreboard players add total_killed MIMIC 1
+##advancement trigger
+function att2:advancement/test_all/mobskilled/mimic
 #
 particle dust{color:[1.0,0.667,0.0],scale:1} ~ ~1 ~ 1 1 1 0 50
 execute as @a[distance=..50] at @s run function att2:dialogs/gameplay/misc/mimic_dead
