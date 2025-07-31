@@ -3,38 +3,38 @@
 #Use function to process the Dialog 2 of Albert Dirac 			#
 #################################################################
 
-# FRENCH LANGUAGE
-title @s[scores={LANGUAGE=0}] actionbar [{"text":"Les chaises ne peuvent pas être trop proches les unes des autres","color":"red"}]
+# FRENCH
+tellraw @s[scores={LANGUAGE=0}] [{"text":"⊰Le mimic est mort!⊱","color":"dark_green"}]
 
-# ENGLISH LANGUAGE
-title @s[scores={LANGUAGE=1}] actionbar [{"text":"Chairs cannot be placed too close together","color":"red"}]
+# ENGLISH
+tellraw @s[scores={LANGUAGE=1}] [{"text":"⊰Mimic has died!⊱","color":"dark_green"}]
 
 # TRADITIONAL CHINESE
-title @s[scores={LANGUAGE=2}] actionbar [{"text":"椅子之間不能間隔太近","color":"red"}]
+tellraw @s[scores={LANGUAGE=2}] [{"text":"⊰寶箱怪已死亡!⊱","color":"dark_green"}]
 
-# JAPANESE LANGUAGE
-title @s[scores={LANGUAGE=3}] actionbar [{"text":"椅子の間隔を近づけすぎないでください","color":"red"}]
+# JAPANESE
+tellraw @s[scores={LANGUAGE=3}] [{"text":"⊰ミミックが倒された!⊱","color":"dark_green"}]
 
-# KOREAN LANGUAGE
-title @s[scores={LANGUAGE=4}] actionbar [{"text":"의자 사이가 너무 가까울 수 없습니다","color":"red"}]
+# KOREAN
+tellraw @s[scores={LANGUAGE=4}] [{"text":"⊰미믹이 죽었습니다!⊱","color":"dark_green"}]
 
-# ARABIC LANGUAGE
-title @s[scores={LANGUAGE=5}] actionbar [{"text":"لا يمكن أن تكون الكراسي قريبة جدًا من بعضها","color":"red"}]
+# ARABIC
+tellraw @s[scores={LANGUAGE=5}] [{"text":"⊰الصندوق الوحشي قد مات!⊱","color":"dark_green"}]
 
-# RUSSIAN LANGUAGE
-title @s[scores={LANGUAGE=6}] actionbar [{"text":"Стулья не могут стоять слишком близко друг к другу","color":"red"}]
+# RUSSIAN
+tellraw @s[scores={LANGUAGE=6}] [{"text":"⊰Мимик умер!⊱","color":"dark_green"}]
 
-# SPANISH LANGUAGE
-title @s[scores={LANGUAGE=7}] actionbar [{"text":"Las sillas no pueden estar demasiado cerca unas de otras","color":"red"}]
+# SPANISH
+tellraw @s[scores={LANGUAGE=7}] [{"text":"⊰¡El mimic ha muerto!⊱","color":"dark_green"}]
 
-# GERMAN LANGUAGE
-title @s[scores={LANGUAGE=8}] actionbar [{"text":"Stühle dürfen nicht zu nah beieinander stehen","color":"red"}]
+# GERMAN
+tellraw @s[scores={LANGUAGE=8}] [{"text":"⊰Mimic ist gestorben!⊱","color":"dark_green"}]
 
-# HINDI LANGUAGE
-title @s[scores={LANGUAGE=9}] actionbar [{"text":"कुर्सियों के बीच बहुत अधिक अंतराल नहीं हो सकता","color":"red"}]
+# HINDI
+tellraw @s[scores={LANGUAGE=9}] [{"text":"⊰मिमिक मर गया है!⊱","color":"dark_green"}]
 
-# PORTUGUESE LANGUAGE
-title @s[scores={LANGUAGE=10}] actionbar [{"text":"As cadeiras não podem estar muito próximas umas das outras","color":"red"}]
+# PORTUGUESE
+tellraw @s[scores={LANGUAGE=10}] [{"text":"⊰O mimic morreu!⊱","color":"dark_green"}]
 
 # SIMPLIFIED CHINESE
 tellraw @s[scores={LANGUAGE=11}] [{"text":"⊰宝箱怪已死亡!⊱","color":"dark_green"}]
