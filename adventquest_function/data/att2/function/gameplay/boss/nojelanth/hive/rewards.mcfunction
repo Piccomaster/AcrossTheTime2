@@ -30,11 +30,6 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hiv
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
 
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_1/hive_rewards
 execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_1/hive_rewards

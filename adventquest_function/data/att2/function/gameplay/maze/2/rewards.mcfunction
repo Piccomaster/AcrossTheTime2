@@ -21,6 +21,8 @@
 
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_boss_esc_rewards
 
 function att2:summon/bat_maze2_reg1_rewards
 function att2:summon/bat_maze2_reg2_rewards
@@ -32,5 +34,17 @@ function att2:summon/bat_maze2_reg2_rewards
 function att2:summon/bat_maze2_reg3_rewards
 function att2:summon/bat_maze2_reg4_rewards
 
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze2_reg1_rewards
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze2_reg2_rewards
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze2_reg3_rewards
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze2_reg4_rewards
+
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze2_reg1_rewards
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze2_reg2_rewards
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze2_reg3_rewards
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze2_reg4_rewards
+
 function att2:summon/bat_maze_runes_rewards_2
 function att2:summon/bat_maze_runes_rewards_2
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze_runes_rewards_2
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze_runes_rewards_2

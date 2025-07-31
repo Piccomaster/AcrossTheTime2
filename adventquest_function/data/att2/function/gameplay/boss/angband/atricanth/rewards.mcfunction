@@ -31,11 +31,6 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atr
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
 
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_2/atricanth_rewards
 execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_2/atricanth_rewards
