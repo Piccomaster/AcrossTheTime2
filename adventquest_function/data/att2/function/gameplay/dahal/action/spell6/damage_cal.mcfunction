@@ -7,6 +7,11 @@
 #set  MinDamage | (MaxDamage−MinDamage)[]
 scoreboard players set minDG SPDG 20
 scoreboard players set maxDG SPDG 350
+#difficult damage
+execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 30
+execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 60
+execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 90
+#max-min
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)
 scoreboard players operation slctlvl SPDG = @s SPELL6_SLCT
