@@ -8,6 +8,7 @@ scoreboard players set hp_percent HEALTHBAR 0
 scoreboard players set hp_value HEALTHBAR 0
 scoreboard players set classlevel HEALTHBAR 0
 scoreboard players set view_range HEALTHBAR 4
+scoreboard players set atk_damage HEALTHBAR 0
 #dialog
 function att2:dialogs/gameplay/healthbar/all_stop
 #GET @s number
