@@ -3,6 +3,9 @@
 #Stock lvl1										                #
 #################################################################
 
+#sound
+playsound minecraft:entity.horse.saddle ambient @a ~ ~ ~ 1 1
+
 summon minecraft:chest_minecart ~ ~ ~ {CustomDisplayTile:1b,CustomNameVisible:1b,NoGravity:1b,Tags:["invminecarts.invisible_minecart","spell20_chest","DROP","New"],Silent:1,Invulnerable:1,HasVisualFire:0}
 
 #set owner

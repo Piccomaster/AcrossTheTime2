@@ -3,12 +3,12 @@
 #Process mending of the weapon/armor in player hand				#
 #################################################################
 
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"com"}}}}}] if score @s TOOLS_COM matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"unc"}}}}}] if score @s TOOLS_UNC matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"rar"}}}}}] if score @s TOOLS_RAR matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"epi_esc"}}}}}] if score @s TOOLS_ESC matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"epi"}}}}}] if score @s TOOLS_EPI matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"epi_set"}}}}}] if score @s TOOLS_EPI matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"leg"}}}}}] if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"leg_armset"}}}}}] if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
-execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{Rarity:"ult"}}}}}] if score @s TOOLS_ULT matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/com if score @s TOOLS_COM matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/unc if score @s TOOLS_UNC matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/rar if score @s TOOLS_RAR matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/epi_esc if score @s TOOLS_ESC matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/epi if score @s TOOLS_EPI matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/epi_set if score @s TOOLS_EPI matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/leg if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/leg_armset if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if predicate att2_pre:test_hold/rarity/feet/ult if score @s TOOLS_ULT matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
