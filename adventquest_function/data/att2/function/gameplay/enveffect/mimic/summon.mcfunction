@@ -13,7 +13,7 @@ execute if score @s DIMENSION matches 6 as @e[type=slime,tag=New,tag=MIMIC] at @
 execute if score @s DIMENSION matches 7 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg3
 execute if score @s DIMENSION matches 4..5 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg4
 #random pos
-execute at @s as @e[type=slime,tag=New,tag=MIMIC] run function att2:gameplay/enveffect/mimic/random_pos
+execute as @e[type=slime,tag=New,tag=MIMIC] run function att2:gameplay/enveffect/mimic/random_pos
 #summon tip
 execute as @a[distance=..50] at @s run function att2:dialogs/gameplay/misc/mimic_summon
 #reset
