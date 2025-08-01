@@ -3,8 +3,6 @@
 #summon mimic                     								#
 #################################################################
 
-#reset score
-scoreboard players reset mini MIMIC
 #summon mimic
 summon minecraft:slime ~ ~ ~ {Tags:["New","MIMIC","LVL0"],DeathLootTable:"att2:empty",Size:1,Silent:1b,Invulnerable:1b,active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:0b},{id:fire_resistance,amplifier:0,duration:-1,show_particles:0b},{id:resistance,amplifier:4,duration:-1,show_particles:0b}],attributes:[{id:max_health,base:50}],Health:50,Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:chest",count:1},Tags:["MIMIC","New"],item_display:"head",transformation:{translation:[0f,-0.45f,0f],scale:[1f,1f,1f]}}]}
 #set scale value
