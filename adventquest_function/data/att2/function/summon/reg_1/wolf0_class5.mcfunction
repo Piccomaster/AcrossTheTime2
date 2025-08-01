@@ -3,4 +3,4 @@
 #Summon wolf class_5 region_1  		       	 	 #
 ##################################################
 
-summon minecraft:wolf ~ ~ ~ {Tags:["LVL0","CLASS5","Reg1"],AngerTime:2147483647}
+summon minecraft:wolf ~ ~ ~ {variant:rusty,Tags:["LVL0","CLASS5","Reg1"],AngerTime:2147483647}

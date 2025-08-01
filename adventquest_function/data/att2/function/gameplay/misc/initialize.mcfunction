@@ -5,7 +5,7 @@
 
 scoreboard objectives add TELLURONTIME dummy
 
-function att2:gameplay/misc/itemcue/initialize
+function att2:gameplay/misc/itemrarity_color/initialize
 function att2:gameplay/misc/inn/initialize
 function att2:gameplay/misc/assist/initialize
 function att2:gameplay/misc/horse/initialize
@@ -20,3 +20,4 @@ function att2:gameplay/misc/fishing/initialize
 function att2:gameplay/misc/chair/initialize
 function att2:gameplay/misc/mainplayer_name/initialize
 function att2:gameplay/misc/checkpoint/initialize
+function att2:gameplay/misc/map/initialize

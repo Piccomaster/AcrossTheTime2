@@ -19,6 +19,6 @@ xp add @a 6000 points
 
 advancement grant @a only att2:quest/sq51
 #add map unlock dialogs
-execute as @a run function att2:dialogs/gameplay/misc/map/point/owsastr_south
+execute as @a run function att2:dialogs/gameplay/misc/map/unlock/point/owsastr_south
 #return 1->make command block runing
 return 1

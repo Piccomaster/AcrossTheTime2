@@ -5,7 +5,6 @@
 
 execute as @a at @s run function att2:gameplay/misc/exploit_book/give_book
 execute as @a at @s run function att2:items/misc/writable_book
-execute as @a at @s run function att2:items/misc/map/sylberland
 execute as @a run function att2:items/food/bread_0
 execute as @a run function att2:items/food/bread_0
 execute as @a run function att2:items/food/bread_0

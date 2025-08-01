@@ -13,3 +13,5 @@ function att2:gameplay/misc/map/number/route_reset_player
 scoreboard players set @s DEST 42
 #summon maker
 function att2:gameplay/misc/map/route_cal/start_set with storage att2:route
+#return map
+function att2:gameplay/misc/map/display/return

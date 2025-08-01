@@ -3,14 +3,14 @@
 #Process item rarity color particle    							#
 #################################################################
 
-
-
+scoreboard objectives add itemcolor dummy
 
 scoreboard players set com itemcolor 1
 scoreboard players set unc itemcolor 1
 scoreboard players set rar itemcolor 1
 scoreboard players set epi itemcolor 1
 scoreboard players set leg itemcolor 1
+scoreboard players set ult itemcolor 1
 
 scoreboard players set other itemcolor 1
 

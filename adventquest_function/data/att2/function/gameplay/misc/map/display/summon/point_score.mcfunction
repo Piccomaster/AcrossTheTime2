@@ -16,18 +16,18 @@ execute if score SQ41 SIDEQUEST matches 2.. run scoreboard players set LOST_ISLA
 
 #update marker score
 ##worlest
-execute if score Mainquest SIDEQUEST matches 1.. run scoreboard players set RYLIATH MAPMKR 1
+execute if score Mainquest SIDEQUEST matches 8.. run scoreboard players set RYLIATH MAPMKR 1
 execute if score SQ3 SIDEQUEST matches 1.. run scoreboard players set SQ3_HOUSE MAPMKR 1
 execute if score SQ3 SIDEQUEST matches 1.. run scoreboard players set RYLIATH_CAVE MAPMKR 1
 execute if score SQ2 SIDEQUEST matches 1.. run scoreboard players set WORLEST_MINE_WEST MAPMKR 1
-execute if score Mainquest SIDEQUEST matches 1.. run scoreboard players set JARAT MAPMKR 1
+execute if score Mainquest SIDEQUEST matches 8.. run scoreboard players set JARAT MAPMKR 1
 execute if score SQ4 SIDEQUEST matches 1.. run scoreboard players set MUSHROMM_CAVE MAPMKR 1
-execute if score Mainquest SIDEQUEST matches 1.. run scoreboard players set GONON_HOTEL MAPMKR 1
+execute if score Mainquest SIDEQUEST matches 8.. run scoreboard players set GONON_HOTEL MAPMKR 1
 execute if score SQ54 SIDEQUEST matches 1.. run scoreboard players set WORLEST_RUIN MAPMKR 1
 
 ##kert
-execute if score SQ32 SIDEQUEST matches 1.. run scoreboard players set VOLCANO_NORTH MAPMKR 1
-execute if score Mainquest SIDEQUEST matches 1.. run scoreboard players set KERT MAPMKR 1
+execute if score SQ32 SIDEQUEST matches 1.. if score Mainquest SIDEQUEST matches 8.. run scoreboard players set VOLCANO_NORTH MAPMKR 1
+execute if score Mainquest SIDEQUEST matches 222.. run scoreboard players set KERT MAPMKR 1
 execute if score SQ42 SIDEQUEST matches 1.. run scoreboard players set SATHONK MAPMKR 1
 execute if score Mainquest SIDEQUEST matches 222.. run scoreboard players set KORTAEK MAPMKR 1
 execute if score Mainquest SIDEQUEST matches 223.. run scoreboard players set NOJELANTH MAPMKR 1

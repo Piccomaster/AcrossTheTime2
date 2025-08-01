@@ -44,7 +44,7 @@ execute if score Real0 TIMER matches 1070 positioned -5472.6 71 -4726 run functi
 execute if score Real0 TIMER matches 1080 run function att2:physicmod/reg1/kert/brynhild_barrier_false
 execute if score Real0 TIMER matches 1101 run scoreboard players set Mainquest SIDEQUEST 223
 #map region unlock
-execute if score Real0 TIMER matches 1101 as @a run function att2:dialogs/gameplay/misc/map/region/nojelanth
+execute if score Real0 TIMER matches 1101 as @a run function att2:dialogs/gameplay/misc/map/unlock/region/nojelanth
 
 #=======================#
 #end of the cinematic	#

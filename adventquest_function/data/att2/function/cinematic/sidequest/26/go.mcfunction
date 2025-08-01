@@ -14,14 +14,6 @@
 #100.. - the quest is completed    								#
 #################################################################
 
-# Step2 Kill Detection
-execute if score SQ26 SIDEQUEST matches 2 store result score Current SQ26 run execute if entity @e[tag=SQ26]
-execute if score SQ26 SIDEQUEST matches 2 at @a as @e[tag=SQ26,distance=..50] run function att2:cinematic/sidequest/26/add_kill
-execute if score SQ26 SIDEQUEST matches 2 if score Current SQ26 matches 0 if score Total SQ26 matches 1 at @p run function att2:cinematic/sidequest/26/add_kill
-
-# Step3 Kill Total end
-execute if score SQ26 SIDEQUEST matches 2 if score KillCount SQ26 matches 10 run function att2:cinematic/sidequest/26/step3
-
 # Step4 when player is close to PNJ Lary Brett
 execute if score SQ26 SIDEQUEST matches 3 if score KillCount SQ26 matches 10 at 00000000-0000-069a-0000-00000000069a if entity @a[distance=..5] run function att2:cinematic/sidequest/26/step4
 

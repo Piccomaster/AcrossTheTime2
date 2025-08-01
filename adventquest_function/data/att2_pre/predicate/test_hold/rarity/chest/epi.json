@@ -6,7 +6,7 @@
       "chest": {
         "predicates": {
           "minecraft:custom_data": {
-            "Manufacturer": "epi"
+            "Rarity": "epi"
           }
         }
       }

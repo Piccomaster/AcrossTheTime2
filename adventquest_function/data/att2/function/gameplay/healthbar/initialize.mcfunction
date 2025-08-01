@@ -14,3 +14,4 @@ scoreboard players set hp_percent HEALTHBAR 0
 scoreboard players set hp_value HEALTHBAR 1
 scoreboard players set game_level HEALTHBAR 1
 scoreboard players set bar HEALTHBAR 1
+scoreboard players set atk_damage HEALTHBAR 1

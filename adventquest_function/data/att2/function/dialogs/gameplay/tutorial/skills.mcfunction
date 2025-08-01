@@ -16,9 +16,13 @@ advancement grant @s[scores={LANGUAGE=1}] only att2:tutorial/skills_eng
 
 #CHINESE LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=2}] only att2:tutorial/skills_zh
+advancement grant @s[scores={LANGUAGE=2}] only att2:tutorial/skills_zh_tw
 
 
 #OTHER LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=3..}] only att2:tutorial/skills_eng
+advancement grant @s[scores={LANGUAGE=3..10}] only att2:tutorial/skills_eng
+
+#Simplified Chinese LANGUAGE
+
+advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/skills_zh_cn

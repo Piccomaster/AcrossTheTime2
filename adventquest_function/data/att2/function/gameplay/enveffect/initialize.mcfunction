@@ -11,3 +11,4 @@ function att2:gameplay/enveffect/time_gem/initialize
 function att2:gameplay/enveffect/fairy/initialize
 function att2:gameplay/enveffect/mobs_invasion/initialize
 function att2:gameplay/enveffect/mimic/initialize
+function att2:gameplay/enveffect/elite/initialize

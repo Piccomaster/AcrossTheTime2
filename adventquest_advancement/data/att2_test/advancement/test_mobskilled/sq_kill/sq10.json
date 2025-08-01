@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "att2:cinematic/sidequest/10/add_kill"
+  },
+  "criteria": {
+    "sq10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"SQ10\"]}"
+        }
+      }
+    }
+  }
+}

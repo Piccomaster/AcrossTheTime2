@@ -9,7 +9,7 @@ scoreboard players set alyia_lana_answer_2_1 SQ5 1
 function att2:gameplay/pnj_talk/dialog_playsound/alyia_lana
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq5/alyia_lana/player_proposal_1/answer_2
 #add map unlock dialogs
-execute as @a run function att2:dialogs/gameplay/misc/map/point/meleim_farm
+execute as @a run function att2:dialogs/gameplay/misc/map/unlock/point/meleim_farm
 scoreboard players set MELEIM_FARM MAPMKR 1
 #return 1->make command block runing
 return 1

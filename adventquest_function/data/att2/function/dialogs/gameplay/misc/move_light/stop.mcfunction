@@ -26,6 +26,5 @@ title @s[scores={LANGUAGE=8}] actionbar {"text":"Dynamische Fackelbeleuchtung au
 title @s[scores={LANGUAGE=9}] actionbar {"text":"मशाल की गतिशील रोशनी बंद करें","color":"green"}
 #PORTUGUESE LANGUAGE
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Desligar a iluminação dinâmica das tochas","color":"green"}
-
 #Simplified Chinese LANGUAGE
 title @s[scores={LANGUAGE=11}] actionbar {"text":"关闭火把动态光源","color":"red"}

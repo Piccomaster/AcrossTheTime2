@@ -10,14 +10,6 @@
 #100.. - the quest is completed    							#
 #############################################################
 
-# Kill Detection
-execute if score SQ37 SIDEQUEST matches 1 store result score Current SQ37 run execute if entity @e[tag=SQ37]
-execute if score SQ37 SIDEQUEST matches 1 at @a as @e[tag=SQ37,distance=..50] run function att2:cinematic/sidequest/37/add_kill
-execute if score SQ37 SIDEQUEST matches 1 if score Current SQ37 matches 0 if score Total SQ37 matches 1 at @p run function att2:cinematic/sidequest/37/add_kill
-
-# Kill Total end
-execute if score SQ37 SIDEQUEST matches 1 if score KillCount SQ37 matches 20 run function att2:cinematic/sidequest/37/step2
-
 # Move PNJ Walton from Soquaï
 execute if score SQ37 SIDEQUEST matches 3 if score move_walton SQ37 matches 0 unless entity @a[x=-4887,y=78,z=-5655,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/37/walton_jones/move_pnj
 

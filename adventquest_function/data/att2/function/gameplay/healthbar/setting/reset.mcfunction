@@ -4,6 +4,7 @@
 #################################################################
 
 #reset
+data modify storage att2:healthbar atk_damage set value ""
 data modify storage att2:healthbar hp_dis set value ""
 data modify storage att2:healthbar hp_max set value ""
 data modify storage att2:healthbar classlevel set value ""

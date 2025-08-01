@@ -3,6 +3,8 @@
 #Process action related to mobs healthbar 						#
 #################################################################
 
+#get atk_damage
+execute store result score attack_damage CAL run attribute @s attack_damage get
 #get @s CLASSLEVEL
 scoreboard players operation classlevel CAL = @s CLASSLEVEL
 #get Max health

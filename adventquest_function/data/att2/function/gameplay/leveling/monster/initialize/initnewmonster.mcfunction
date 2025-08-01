@@ -64,7 +64,12 @@ tag @s remove LVL0
 
 # Display the difference of level
 ###add health bar
+#add temp tag
+tag @s add HP_DIS
+#make health bar
 execute if entity @s[tag=!PlayerAlly,type=!bat,tag=!BOSS,tag=!ArenaBoss,tag=!Guardian] if score @s CLASSLEVEL matches 0.. at @s run function att2:gameplay/leveling/monster/displaydiff
+#remove temp tag
+tag @s remove HP_DIS
 
 #kill tag add/balance bat kill xp
 execute if score @s[type=minecraft:bat] CLASSLEVEL matches 10.. run scoreboard players set @s CLASSLEVEL 10

@@ -3,6 +3,16 @@
 #Summoning Mobs                   									#
 #####################################################################
 
+#choose timer
+function att2:gameplay/enveffect/mobs_invasion/choose_timer
+#when false stop summon
+execute unless score TRUE INVASION matches 1 run return 0
+#set mimic score
+scoreboard players set chest MIMIC 5
+scoreboard players set tier MIMIC 8
+#summon mimic
+function att2:gameplay/enveffect/mimic/summon
+#summon others
 function att2:gameplay/enveffect/mobs_invasion/effect
 function att2:gameplay/enveffect/mobs_invasion/summon_chest_2
 execute if score 1RNG10 RNG matches 1..10 run function att2:summon/reg_1/revenant0_class5

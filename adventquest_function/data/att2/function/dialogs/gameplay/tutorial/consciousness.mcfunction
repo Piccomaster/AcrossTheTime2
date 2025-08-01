@@ -16,9 +16,13 @@ advancement grant @s[scores={LANGUAGE=1}] only att2:tutorial/consciousness_eng
 
 #CHINESE LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=2}] only att2:tutorial/consciousness_zh
+advancement grant @s[scores={LANGUAGE=2}] only att2:tutorial/consciousness_zh_tw
 
 
 #OTHER LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=3..}] only att2:tutorial/consciousness_eng
+advancement grant @s[scores={LANGUAGE=3..10}] only att2:tutorial/consciousness_eng
+
+#Simplified Chinese LANGUAGE
+
+advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/consciousness_zh_cn

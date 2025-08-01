@@ -425,7 +425,7 @@ execute in overworld positioned -5080 80 -5036 run summon minecraft:text_display
 ##iron
 execute in overworld positioned -5063 104 -4958 run kill @e[distance=..3,type=armor_stand]
 execute in overworld positioned -5063 104 -4958 run summon minecraft:item_display ~ ~ ~ {Tags:["QUEST"],Rotation:[90.0,0.0],UUID:[I;0,0,0,7],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.5f,-0.4f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},item:{id:"minecraft:iron_ingot"},item_display:gui}
-execute in overworld positioned -5063 104 -4958 run summon minecraft:text_display ~ ~ ~ {Tags:["QUEST"],Rotation:[-90.0,0.0],UUID:[I;0,0,0,8],transformation:{scale:[1f,1f,1f],translation:[0.0f,1.0f,0.5f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},text:[{translate:item.quest.iron_ingot.name},{text:"\n"},{text:"x64",color:yellow}],billboard:fixed,background:0}
+execute in overworld positioned -5063 104 -4958 run summon minecraft:text_display ~ ~ ~ {Tags:["QUEST"],Rotation:[-90.0,0.0],UUID:[I;0,0,0,8],transformation:{scale:[1f,1f,1f],translation:[0.0f,1.0f,0.5f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},text:[{translate:item.quest.iron_ingot.name},{text:"\n"},{text:"x16",color:yellow}],billboard:fixed,background:0}
 ##explosion
 execute in overworld positioned -4887 72 -5011 run kill @e[distance=..3,type=armor_stand]
 execute in overworld positioned -4887 72 -5011 run summon minecraft:item_display ~ ~ ~ {Tags:["QUEST"],Rotation:[90.0,0.0],UUID:[I;0,0,0,9],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.5f,0.35f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},item:{id:"minecraft:firework_star"},item_display:gui}
@@ -529,3 +529,12 @@ execute in overworld positioned -5080 79 -5036 run kill @e[distance=..3,type=arm
 execute in overworld positioned -5080 79 -5036 run summon minecraft:item_display ~ ~ ~ {Tags:["QUEST"],Rotation:[0.0,0.0],UUID:[I;0,0,0,4],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},item:{id:"minecraft:brown_mushroom"},item_display:gui}
 execute in overworld positioned -5080 79 -5036 run summon minecraft:text_display ~ ~ ~ {Tags:["QUEST"],Rotation:[0.0,0.0],UUID:[I;0,0,0,5],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},text:[{translate:item.quest.explosive.name},{text:"\n"},{text:"x7",color:yellow}],billboard:fixed,background:0}
 
+function att2:gameplay/misc/map/system_set/summon_marker/road_point
+
+
+#add estelle trade tag
+tag @e[name=ESTELLE] add TRADER
+
+
+##fix road marker(road marker)
+execute in overworld as @e[type=armor_stand,nbt={equipment:{head:{id:"minecraft:magenta_concrete_powder"}}}] at @s run data modify entity @s Marker set value 0

@@ -6,7 +6,7 @@
       "mainhand": {
         "predicates": {
           "minecraft:custom_data": {
-            "Manufacturer": "epi_set"
+            "Rarity": "epi_set"
           }
         }
       }

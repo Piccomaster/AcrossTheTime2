@@ -24,14 +24,6 @@
                 "type":"minecraft:item",
                 "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: unk}}}}"
             }
-        },
-        {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: ult}}}}"
-            }
         }
     ]
 }

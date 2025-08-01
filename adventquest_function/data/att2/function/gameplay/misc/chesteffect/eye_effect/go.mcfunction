@@ -2,6 +2,7 @@
 #Made by Adventquest											#
 #Process chest effect       									#
 #################################################################
+
 execute if score tic TIMECOUNTER matches 1 run function att2:gameplay/misc/chesteffect/eye_effect/test1
 execute if score tic TIMECOUNTER matches 2 run function att2:gameplay/misc/chesteffect/eye_effect/test2
 execute if score tic TIMECOUNTER matches 3 run function att2:gameplay/misc/chesteffect/eye_effect/test3
@@ -24,4 +25,7 @@ execute if score tic TIMECOUNTER matches 16 run function att2:gameplay/misc/ches
 execute if score tic TIMECOUNTER matches 17 run function att2:gameplay/misc/chesteffect/eye_effect/test2
 execute if score tic TIMECOUNTER matches 18 run function att2:gameplay/misc/chesteffect/eye_effect/test3
 execute if score tic TIMECOUNTER matches 19 run function att2:gameplay/misc/chesteffect/eye_effect/test4
-execute if score tic TIMECOUNTER matches 20 run function att2:gameplay/misc/chesteffect/eye_effect/test5
+execute if score tic TIMECOUNTER matches 0 run function att2:gameplay/misc/chesteffect/eye_effect/test5
+
+#name test
+execute if score tic TIMECOUNTER matches 7 at @s run function att2:gameplay/misc/chesteffect/eye_effect/name

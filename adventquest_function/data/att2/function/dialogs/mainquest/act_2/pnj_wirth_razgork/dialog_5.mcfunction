@@ -61,10 +61,9 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wirth Razgork : ","color":"green
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Parabéns! Se você continuar assim e conseguir ativar o portal, você vai fazer um nome para si nesta cidade! Infelizmente, não sei onde mais encontrar gemas, mas tenho boas notícias para você: terei que te encaminhar para uma das minhas queridas amigas e antiga companheira de viagem. O nome dela é Indra Lorth. Ela viajou extensivamente por Sylberländ em seu tempo e ficará feliz em ajudá-lo.","color":"dark_aqua"}]}
 
-
-tellraw @s {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute at 00000000-0000-024a-0000-00000000024a if entity @s[distance=..7] if score wirth_razgork_PNJ DIALOG matches 5..5 run function att2:dialogs/mainquest/act_2/pnj_wirth_razgork/dialog_6"},"hover_event":{"action":"show_text","value":"..."}}
-
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"干得漂亮！如果能保持这个态势直到激活传送门，你就可以在这座城市扬名立万了！说来惭愧，我对空间宝石的了解止步于此了...不过不必担心，我还带来了个好消息： 我打算把你介绍给我的挚友兼前旅伴—Indra_Lorth。年轻时的她可谓驰骋Sylberländ的一把好手，她定能助你一臂之力。","color":"dark_aqua"}]}
+
+tellraw @s {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute at 00000000-0000-024a-0000-00000000024a if entity @s[distance=..7] if score wirth_razgork_PNJ DIALOG matches 5..5 run function att2:dialogs/mainquest/act_2/pnj_wirth_razgork/dialog_6"},"hover_event":{"action":"show_text","value":"..."}}
 
 function att2:voice/wirth/wirth4

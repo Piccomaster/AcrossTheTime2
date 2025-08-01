@@ -10,7 +10,7 @@ function att2:gameplay/misc/quest_icon/go
 ##itemrarity_color
 function att2:gameplay/misc/itemrarity_color/go
 ##chest particle
-execute as @a run function att2:gameplay/misc/chesteffect/eye_effect/go
+execute as @a at @s run function att2:gameplay/misc/chesteffect/eye_effect/go
 #execute if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/chesteffect/overworld_go
 #execute if entity @a[scores={DIMENSION=6}] run function att2:gameplay/misc/chesteffect/angband_go
 #execute if entity @a[scores={DIMENSION=7}] run function att2:gameplay/misc/chesteffect/billgart_go
@@ -38,7 +38,7 @@ execute as @a[scores={SPAWNER_LIMIT=1..}] at @s run function att2:gameplay/misc/
 #VOCIE limit
 scoreboard players remove limit Voice 1
 #mainplayer name
-execute as @a[predicate=att2_pre:mainplayer_name/hand] run function att2:gameplay/misc/mainplayer_name/go
+execute as @a[scores={MAINPLAYERNAM=1..},predicate=att2_pre:mainplayer_name/hand] run function att2:gameplay/misc/mainplayer_name/go
 #back checkpoint
 execute as @a[scores={CHECKPOINT=1..}] at @s run function att2:gameplay/misc/checkpoint/go
 #xp grant

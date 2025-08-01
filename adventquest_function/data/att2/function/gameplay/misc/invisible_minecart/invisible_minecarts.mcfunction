@@ -6,3 +6,5 @@ data merge entity @s[type=hopper_minecart] {CustomDisplayTile:1b,DisplayState:{N
 tag @s add invminecarts.invisible_minecart
 tag @s add other_minecart
 tag @s[type=furnace_minecart] add invminecarts.furnace
+##remove custom Name
+data remove entity @s CustomName
