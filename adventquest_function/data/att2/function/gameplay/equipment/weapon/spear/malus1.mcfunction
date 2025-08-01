@@ -3,5 +3,5 @@
 #Process spear malus on player                           	#
 #############################################################
 
-scoreboard players set @s HAS_LVL_DAM 2
-scoreboard players set @s TIMER_HAS_DAM 2
+#remove has STAT
+scoreboard players operation @s HAS_EH -= 1 CAL
