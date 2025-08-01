@@ -28,4 +28,4 @@ execute if score tic TIMECOUNTER matches 19 run function att2:gameplay/misc/ches
 execute if score tic TIMECOUNTER matches 0 run function att2:gameplay/misc/chesteffect/eye_effect/test5
 
 #name test
-execute if score tic TIMECOUNTER matches 7 run function att2:gameplay/misc/chesteffect/eye_effect/name
+execute if score tic TIMECOUNTER matches 7 at @s run function att2:gameplay/misc/chesteffect/eye_effect/name
