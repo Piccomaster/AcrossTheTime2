@@ -3,5 +3,5 @@
 #Killing Fairy                   									#
 #####################################################################
 
-kill @e[type=endermite,tag=Soul]
-kill @e[type=ocelot,tag=LostSoul]
+kill @e[type=endermite,tag=Fairy]
+kill @e[type=ocelot,tag=Fairy]
