@@ -7,10 +7,8 @@
             "offsetY": 0,
             "offsetZ": 0,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },
@@ -20,10 +18,8 @@
             "offsetY": 0,
             "offsetZ": 0,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },
@@ -33,10 +29,8 @@
             "offsetY": 0,
             "offsetZ": 0,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },
@@ -46,10 +40,8 @@
             "offsetY": 0,
             "offsetZ": 1,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },
@@ -59,10 +51,8 @@
             "offsetY": 0,
             "offsetZ": -1,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },
@@ -72,10 +62,8 @@
             "offsetY": 0,
             "offsetZ": 1,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },
@@ -85,10 +73,8 @@
             "offsetY": 0,
             "offsetZ": -1,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },
@@ -98,10 +84,8 @@
             "offsetY": 0,
             "offsetZ": 1,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },
@@ -111,10 +95,8 @@
             "offsetY": 0,
             "offsetZ": -1,
             "predicate": {
-                "block": {
-                    "blocks": [
-                        "minecraft:water"
-                    ]
+                "fluid": {
+                    "fluids": "water"
                 }
             }
         },

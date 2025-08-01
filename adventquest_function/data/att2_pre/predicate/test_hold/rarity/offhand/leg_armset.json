@@ -6,7 +6,7 @@
       "offhand": {
         "predicates": {
           "minecraft:custom_data": {
-            "Manufacturer": "leg_armset"
+            "Rarity": "leg_armset"
           }
         }
       }

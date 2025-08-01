@@ -6,7 +6,7 @@
       "offhand": {
         "predicates": {
           "minecraft:custom_data": {
-            "Manufacturer": "ult"
+            "Rarity": "ult"
           }
         }
       }
