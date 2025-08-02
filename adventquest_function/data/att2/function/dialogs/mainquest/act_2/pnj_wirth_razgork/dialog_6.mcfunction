@@ -61,4 +61,9 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"gree
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"她现在住在Méleïm。那座小镇位于Sylberländ东部，那里的建筑凭依着一座巨大的临海悬崖而建。想去那座小镇的话你得出城门后左转，然后沿大路向北走，直到走过一座大桥后再右转向东走就是—总之，沿着指向Méleïm的路牌走就可以了。到那以后，记得先找镇长聊聊-他就住在小镇最高处的屋子里...他会告诉你Indra的住处。","color":"dark_aqua"}]}
 
+#map region unlock
+execute unless score WORLEST_REGION MAPMKR matches 1.. run function att2:dialogs/gameplay/misc/map/unlock/region/north_forest
+
+scoreboard players set WORLEST_REGION MAPMKR 1
+
 function att2:voice/wirth/wirth5
