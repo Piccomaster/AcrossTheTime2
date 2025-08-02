@@ -15,7 +15,10 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "item.coin.esc.lore"
+                                        "translate": "item.coin.esc.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.coin.esc.lore.2"
                                     }
                                 ],
                                 "minecraft:custom_data": {
