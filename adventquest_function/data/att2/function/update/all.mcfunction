@@ -547,7 +547,7 @@ execute as @e[type=armor_stand,tag=runicwordStand] at @s unless entity @s[nbt={R
 #update armor_stand hold
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] at @s run data modify entity @s equipment set value ""
 
-execute as @e[type=minecraft:armor_stand,tag=runicwordStand] at @s run data merge entity @s {CustomName:[{translate:att2.runeword.empty}],CustomNameVisible:1b,equipment:{{mainhand:{id:"minecraft:glowstone_dust",components:{custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}]}}}}}
+execute as @e[type=minecraft:armor_stand,tag=runicwordStand] at @s run data merge entity @s {CustomName:[{translate:att2.runeword.empty}],CustomNameVisible:1b,equipment:{mainhand:{id:"minecraft:glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}]}}}}
 
 
 #fix auto path road
