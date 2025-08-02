@@ -634,3 +634,8 @@ execute in overworld run fill -4937 71 -4010 -4937 71 -4002 air destroy
 
 #make useful marker false
 execute as @e[type=armor_stand,tag=USEFUL] at @s run data modify entity @s Marker set value 0
+
+#update asunark stone shop
+execute in overworld positioned -3594 74 -5016 run kill @e[distance=..3,type=armor_stand]
+execute in overworld positioned -3594 74 -5016 run summon minecraft:item_display ~ ~ ~ {Tags:["QUEST"],Rotation:[0.0,0.0],UUID:[I;0,0,0,57],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.5f,-0.4f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},item:{id:"minecraft:prismarine_crystals"},item_display:gui}
+execute in overworld positioned -3594 74 -5016 run summon minecraft:text_display ~ ~ ~ {Tags:["QUEST"],Rotation:[180.0,0.0],UUID:[I;0,0,0,58],transformation:{scale:[1f,1f,1f],translation:[0.6f,-0.5f,0.4f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},text:[{translate:item.quest.turquoise_gemstone.name},{text:"\n"},{text:"Chronotons x2",color:yellow}],billboard:fixed,background:0}
