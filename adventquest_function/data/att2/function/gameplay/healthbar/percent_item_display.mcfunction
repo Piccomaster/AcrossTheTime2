@@ -17,4 +17,4 @@ scoreboard players operation TRANSLATION CAL *= -5 CAL
 execute store result storage att2:hp_bar translation double 0.01 run scoreboard players get TRANSLATION CAL
 execute store result entity @s transformation.translation[0] double 0.001 run scoreboard players get TRANSLATION CAL
 #set progress time
-data modify entity @s interpolation_duration set value 10
+data modify entity @s interpolation_duration set value 5
