@@ -38,7 +38,7 @@ execute as @a[scores={SPAWNER_LIMIT=1..}] at @s run function att2:gameplay/misc/
 #VOCIE limit
 scoreboard players remove limit Voice 1
 #mainplayer name
-execute as @a[scores={MAINPLAYERNAM=1..},predicate=att2_pre:mainplayer_name/hand] run function att2:gameplay/misc/mainplayer_name/go
+execute as @a[scores={MAINPLAYERNAME=1..},predicate=att2_pre:mainplayer_name/hand] run function att2:gameplay/misc/mainplayer_name/go
 #back checkpoint
 execute as @a[scores={CHECKPOINT=1..}] at @s run function att2:gameplay/misc/checkpoint/go
 #xp grant

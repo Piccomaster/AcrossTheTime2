@@ -115,31 +115,35 @@
   - Players can select a small waypoint and use their mount to **automatically travel** to the chosen destination.
 
 
-
-
-  
 ### Balance:
-- **Attribute System Update**  
+- **Attribute System Update** 
   - Most attributes now **directly modify base stats** (no "status effects").  
   - *Exception:* "Resistance" unchanged.  
   - **Strength** damage cap removed (no longer maxes at 756).  
 
-- **empty hand Penalty**  
+- **empty hand Penalty** 
   - Now reduces **attack damage by 99%** (no longer reduces attack speed).  
 
-- **Spell Damage**  
+- **Spell Damage** 
   - Now scales slightly with **difficulty**.  
   - Spells no longer trigger **invincibility frames** on monsters.  
 
-- **Fire Damage**  
+- **Fire Damage** 
   - No longer triggers invincibility frames on monsters.  
 
-- **Monsters**  
+- **Monsters** 
   - Size of elites monsters and some bosses has been increased. 
 
--   **Monster Spawn speed ** 
+- **Monster Spawn speed** 
   - Spawn speed now increases with difficulty  
   - Natural spawning stops when the enemy count reaches 50  
+  
+- **Maze** 
+  - Increase **rewards** depending on the maze difficulty.
+
+- **Boss** 
+  - Standardization and reduction of certain rewards in **master difficulty**
+  - Increase of **Doom** resistance.
 
 ### Bug Fix:
 - **Quest Progression Issues**  
