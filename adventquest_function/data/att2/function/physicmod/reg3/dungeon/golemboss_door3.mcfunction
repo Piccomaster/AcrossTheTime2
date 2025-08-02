@@ -4,4 +4,4 @@
 #####################################################################
 
 fill -1331 124 -582 -1331 120 -586 minecraft:barrier replace minecraft:green_stained_glass
-setblock -1331 122 -584 minecraft:barrier
+setblock -1331 122 -584 minecraft:barrier destroy

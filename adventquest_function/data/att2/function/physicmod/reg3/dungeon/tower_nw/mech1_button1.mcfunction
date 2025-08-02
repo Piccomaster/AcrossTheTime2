@@ -4,5 +4,5 @@
 #####################################################################
 
 fill -1354 22 -649 -1323 22 -685 minecraft:emerald_block replace minecraft:end_stone
-setblock -1323 25 -674 minecraft:end_stone
-setblock -1324 25 -674 minecraft:air
+setblock -1323 25 -674 minecraft:end_stone destroy
+setblock -1324 25 -674 minecraft:air destroy

@@ -3,5 +3,5 @@
 #Manage the physical modification for emerald door6 				#
 #####################################################################
 
-setblock -1172 62 -548 minecraft:air
+setblock -1172 62 -548 minecraft:air destroy
 clone -1172 63 -549 -1172 65 -549 -1171 60 -548

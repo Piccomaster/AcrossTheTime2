@@ -3,4 +3,4 @@
 #Manage the physical modification for worlest_gregor_gacko_door			#
 #########################################################################
 
-setblock -4715 69 -5115 air
+setblock -4715 69 -5115 air destroy

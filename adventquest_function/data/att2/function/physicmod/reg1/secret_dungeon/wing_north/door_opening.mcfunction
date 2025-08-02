@@ -3,5 +3,5 @@
 #Manage the physical modification for secret dungeon	    	#
 #################################################################
 
-setblock -4746 29 -5423 minecraft:air
+setblock -4746 29 -5423 minecraft:air destroy
 fill -4747 31 -5421 -4749 28 -5421 minecraft:air

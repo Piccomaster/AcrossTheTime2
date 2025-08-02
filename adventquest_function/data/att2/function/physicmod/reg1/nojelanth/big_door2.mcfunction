@@ -3,5 +3,5 @@
 #Manage the physical modification for nojelanth big_door2 					#
 #############################################################################
 
-setblock -7453 117 -4361 minecraft:air
+setblock -7453 117 -4361 minecraft:air destroy
 fill -7454 119 -4358 -7453 116 -4357 minecraft:air

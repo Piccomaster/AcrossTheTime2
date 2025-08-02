@@ -4,5 +4,5 @@
 #####################################################################
 
 fill -1155 104 -675 -1157 107 -674 minecraft:emerald_block
-setblock -1155 107 -674 minecraft:air
-setblock -1157 107 -674 minecraft:air
+setblock -1155 107 -674 minecraft:air destroy
+setblock -1157 107 -674 minecraft:air destroy

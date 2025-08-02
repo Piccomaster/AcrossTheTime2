@@ -5,4 +5,4 @@
 
 fill -4660 79 -5494 -4660 77 -5495 minecraft:air replace minecraft:spruce_wood
 fill -4660 79 -5494 -4660 77 -5495 minecraft:air replace minecraft:spruce_planks
-setblock -4660 78 -5496 minecraft:cracked_stone_bricks
+setblock -4660 78 -5496 minecraft:cracked_stone_bricks destroy

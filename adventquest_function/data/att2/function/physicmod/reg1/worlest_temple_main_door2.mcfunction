@@ -4,4 +4,4 @@
 #################################################################
 
 fill -4638 71 -5478 -4634 75 -5479 minecraft:air replace minecraft:andesite
-setblock -4636 58 -5476 minecraft:air
+setblock -4636 58 -5476 minecraft:air destroy

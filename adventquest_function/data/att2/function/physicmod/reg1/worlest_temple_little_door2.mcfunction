@@ -5,4 +5,4 @@
 
 fill -4602 74 -5490 -4602 71 -5489 minecraft:air replace minecraft:spruce_wood
 fill -4602 74 -5490 -4602 71 -5491 minecraft:air replace minecraft:spruce_planks
-setblock -4601 72 -5489 minecraft:air
+setblock -4601 72 -5489 minecraft:air destroy

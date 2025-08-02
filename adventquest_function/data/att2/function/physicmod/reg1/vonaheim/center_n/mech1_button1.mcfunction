@@ -3,4 +3,4 @@
 #Manage the physical modification for center mech1 button1			#
 #####################################################################
 
-setblock -5618 149 -6478 minecraft:air
+setblock -5618 149 -6478 minecraft:air destroy

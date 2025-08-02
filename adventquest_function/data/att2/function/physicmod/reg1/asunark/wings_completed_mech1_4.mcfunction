@@ -9,11 +9,11 @@ fill -3439 30 -4874 -3447 30 -4874 minecraft:air replace minecraft:lever
 fill -3439 31 -4873 -3447 29 -4873 minecraft:sea_lantern replace minecraft:coal_block
 fill -3423 30 -4862 -3469 30 -4875 minecraft:diamond_block replace minecraft:iron_block
 
-setblock -3423 53 -4862 minecraft:air
-setblock -3433 53 -4862 minecraft:air
-setblock -3443 53 -4862 minecraft:air
-setblock -3453 53 -4862 minecraft:air
-setblock -3463 53 -4862 minecraft:air
+setblock -3423 53 -4862 minecraft:air destroy
+setblock -3433 53 -4862 minecraft:air destroy
+setblock -3443 53 -4862 minecraft:air destroy
+setblock -3453 53 -4862 minecraft:air destroy
+setblock -3463 53 -4862 minecraft:air destroy
 
 fill -3441 43 -4867 -3441 44 -4867 minecraft:sea_lantern replace minecraft:coal_block
 fill -3445 43 -4867 -3445 44 -4867 minecraft:sea_lantern replace minecraft:coal_block
@@ -40,26 +40,26 @@ fill -3438 32 -4895 -3438 33 -4895 minecraft:sea_lantern replace minecraft:coal_
 
 fill -3423 30 -4863 -3463 30 -4863 minecraft:air replace minecraft:stone_button
 
-setblock -3438 34 -4895 minecraft:air
-setblock -3445 39 -4879 minecraft:air
-setblock -3441 39 -4879 minecraft:air
-setblock -3430 42 -4873 minecraft:air
-setblock -3446 42 -4873 minecraft:air
-setblock -3450 42 -4873 minecraft:air
-setblock -3461 45 -4867 minecraft:air
-setblock -3448 35 -4890 minecraft:air
-setblock -3425 45 -4867 minecraft:air
-setblock -3438 35 -4890 minecraft:air
-setblock -3451 39 -4879 minecraft:air
+setblock -3438 34 -4895 minecraft:air destroy
+setblock -3445 39 -4879 minecraft:air destroy
+setblock -3441 39 -4879 minecraft:air destroy
+setblock -3430 42 -4873 minecraft:air destroy
+setblock -3446 42 -4873 minecraft:air destroy
+setblock -3450 42 -4873 minecraft:air destroy
+setblock -3461 45 -4867 minecraft:air destroy
+setblock -3448 35 -4890 minecraft:air destroy
+setblock -3425 45 -4867 minecraft:air destroy
+setblock -3438 35 -4890 minecraft:air destroy
+setblock -3451 39 -4879 minecraft:air destroy
 
-setblock -3456 42 -4873 minecraft:air
-setblock -3435 45 -4867 minecraft:air
-setblock -3431 45 -4867 minecraft:air
-setblock -3440 42 -4873 minecraft:air
-setblock -3436 42 -4873 minecraft:air
-setblock -3435 39 -4879 minecraft:air
-setblock -3451 45 -4867 minecraft:air
-setblock -3455 45 -4867 minecraft:air
-setblock -3448 34 -4895 minecraft:air
-setblock -3445 45 -4867 minecraft:air
-setblock -3441 45 -4867 minecraft:air
+setblock -3456 42 -4873 minecraft:air destroy
+setblock -3435 45 -4867 minecraft:air destroy
+setblock -3431 45 -4867 minecraft:air destroy
+setblock -3440 42 -4873 minecraft:air destroy
+setblock -3436 42 -4873 minecraft:air destroy
+setblock -3435 39 -4879 minecraft:air destroy
+setblock -3451 45 -4867 minecraft:air destroy
+setblock -3455 45 -4867 minecraft:air destroy
+setblock -3448 34 -4895 minecraft:air destroy
+setblock -3445 45 -4867 minecraft:air destroy
+setblock -3441 45 -4867 minecraft:air destroy

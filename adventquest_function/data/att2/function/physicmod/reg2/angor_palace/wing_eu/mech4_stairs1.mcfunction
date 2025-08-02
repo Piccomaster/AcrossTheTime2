@@ -4,5 +4,5 @@
 #Manage the physical modification for wing_eu mech4 stairs1			#
 #####################################################################
 
-setblock 3553 85 4548 minecraft:air
+setblock 3553 85 4548 minecraft:air destroy
 fill 3551 83 4550 3551 83 4552 minecraft:nether_bricks

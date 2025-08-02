@@ -3,5 +3,5 @@
 #Manage the physical modification for golemboss button8 reload		#
 #####################################################################
 
-setblock -1329 142 -563 minecraft:oak_button[facing=north]
-setblock -1329 142 -562 minecraft:red_concrete
+setblock -1329 142 -563 minecraft:oak_button[facing=north] destroy
+setblock -1329 142 -562 minecraft:red_concrete destroy

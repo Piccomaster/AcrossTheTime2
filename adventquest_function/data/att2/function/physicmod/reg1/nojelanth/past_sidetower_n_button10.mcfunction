@@ -3,4 +3,4 @@
 #Manage the physical modification for nojelanth sidetower north button10 	#
 #############################################################################
 
-setblock ~ ~ ~ minecraft:cyan_terracotta
+setblock ~ ~ ~ minecraft:cyan_terracotta destroy

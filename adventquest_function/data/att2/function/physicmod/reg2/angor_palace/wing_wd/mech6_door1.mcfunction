@@ -4,4 +4,4 @@
 #####################################################################
 
 fill 3441 38 4546 3441 36 4546 minecraft:air
-setblock 3442 40 4546 minecraft:gold_block
+setblock 3442 40 4546 minecraft:gold_block destroy

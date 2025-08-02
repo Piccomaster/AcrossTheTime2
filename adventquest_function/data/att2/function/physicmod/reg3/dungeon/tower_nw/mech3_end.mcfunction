@@ -4,4 +4,4 @@
 #####################################################################
 
 fill -1351 80 -661 -1353 78 -661 minecraft:air
-setblock -1355 91 -672 minecraft:air
+setblock -1355 91 -672 minecraft:air destroy

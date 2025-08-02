@@ -3,4 +3,4 @@
 #Manage the physical modification for corridor_downlight3 				#
 #########################################################################
 
-setblock -7434 154 -5944 minecraft:black_concrete
+setblock -7434 154 -5944 minecraft:black_concrete destroy

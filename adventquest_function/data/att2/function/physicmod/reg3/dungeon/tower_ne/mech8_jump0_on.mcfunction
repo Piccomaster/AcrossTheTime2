@@ -3,4 +3,4 @@
 #Manage the physical modification for jump0 mech8 tower NE			#
 #####################################################################
 
-setblock -1136 126 -718 minecraft:redstone_block
+setblock -1136 126 -718 minecraft:redstone_block destroy

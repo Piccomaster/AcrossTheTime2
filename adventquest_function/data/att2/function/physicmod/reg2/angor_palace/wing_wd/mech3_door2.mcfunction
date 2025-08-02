@@ -4,4 +4,4 @@
 #####################################################################
 
 fill 3504 38 4475 3504 36 4474 minecraft:air
-setblock 3500 37 4472 minecraft:air
+setblock 3500 37 4472 minecraft:air destroy

@@ -9,5 +9,5 @@ fill -1176 124 -556 -1170 126 -573 minecraft:emerald_block replace minecraft:end
 fill -1151 124 -588 -1168 128 -575 minecraft:emerald_block replace minecraft:end_stone
 fill -1151 115 -534 -1149 115 -536 minecraft:air
 fill -1135 115 -536 -1133 115 -534 minecraft:air
-setblock -1167 116 -573 minecraft:stone_button[face=floor]
-setblock -1167 115 -573 minecraft:emerald_block
+setblock -1167 116 -573 minecraft:stone_button[face=floor] destroy
+setblock -1167 115 -573 minecraft:emerald_block destroy

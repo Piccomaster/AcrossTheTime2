@@ -3,8 +3,8 @@
 #Manage the physical modification for button1 mech4 tower SE		#
 #####################################################################
 
-setblock -1134 74 -534 minecraft:air
-setblock -1134 73 -534 minecraft:orange_wool
+setblock -1134 74 -534 minecraft:air destroy
+setblock -1134 73 -534 minecraft:orange_wool destroy
 
 fill -1138 76 -527 -1138 73 -529 minecraft:air replace minecraft:green_stained_glass
 fill -1138 76 -527 -1138 73 -529 minecraft:air replace minecraft:emerald_block

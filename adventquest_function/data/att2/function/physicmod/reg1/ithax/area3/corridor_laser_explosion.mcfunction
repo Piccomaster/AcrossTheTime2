@@ -5,5 +5,5 @@
 
 fill -7435 128 -5813 -7434 127 -5813 minecraft:air
 fill -7433 126 -5813 -7434 127 -5813 minecraft:air
-setblock -7434 125 -5812 minecraft:cyan_stained_glass
+setblock -7434 125 -5812 minecraft:cyan_stained_glass destroy
 fill -7433 125 -5811 -7433 125 -5810 minecraft:cyan_stained_glass

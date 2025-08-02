@@ -5,4 +5,4 @@
 
 fill -5051 153 -4880 -5051 149 -4880 minecraft:air
 fill -5050 148 -4880 -5047 148 -4880 minecraft:polished_andesite
-setblock -5046 148 -4880 minecraft:stone_bricks
+setblock -5046 148 -4880 minecraft:stone_bricks destroy

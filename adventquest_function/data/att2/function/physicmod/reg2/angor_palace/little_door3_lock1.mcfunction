@@ -3,4 +3,4 @@
 #Manage the physical modification for little door3 lock1			#
 #####################################################################
 
-setblock 3594 84 4622 minecraft:air
+setblock 3594 84 4622 minecraft:air destroy

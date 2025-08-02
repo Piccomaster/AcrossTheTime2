@@ -4,4 +4,4 @@
 #####################################################################
 
 fill 3467 38 4546 3467 36 4546 minecraft:brown_terracotta
-setblock 3466 40 4546 minecraft:quartz_block
+setblock 3466 40 4546 minecraft:quartz_block destroy

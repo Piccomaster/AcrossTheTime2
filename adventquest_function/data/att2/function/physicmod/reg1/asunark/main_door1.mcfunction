@@ -9,7 +9,7 @@ fill -3553 78 -4945 -3553 78 -4939 minecraft:air
 fill -3540 87 -4943 -3555 70 -4956 minecraft:diamond_block replace minecraft:lapis_block
 fill -3540 87 -4941 -3555 70 -4928 minecraft:diamond_block replace minecraft:lapis_block
 
-setblock -3553 70 -4942 minecraft:diamond_block
+setblock -3553 70 -4942 minecraft:diamond_block destroy
 
 fill -3545 88 -4942 -3545 89 -4942 minecraft:air
 

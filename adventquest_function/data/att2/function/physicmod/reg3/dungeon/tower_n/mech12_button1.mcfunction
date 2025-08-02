@@ -12,5 +12,5 @@ fill -1240 146 -750 -1238 146 -748 minecraft:air
 fill -1241 149 -757 -1237 152 -757 minecraft:air
 fill -1240 147 -753 -1238 147 -751 minecraft:air
 fill -1240 148 -756 -1238 148 -754 minecraft:air
-setblock -1239 150 -756 minecraft:air
-setblock -1239 150 -758 minecraft:air
+setblock -1239 150 -756 minecraft:air destroy
+setblock -1239 150 -758 minecraft:air destroy

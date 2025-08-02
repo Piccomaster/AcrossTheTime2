@@ -5,4 +5,4 @@
 
 fill -5089 130 -6424 -5089 131 -6424 minecraft:air
 fill -5088 131 -6424 -5088 132 -6424 minecraft:air
-setblock -5081 120 -6426 minecraft:air
+setblock -5081 120 -6426 minecraft:air destroy

@@ -4,5 +4,5 @@
 #########################################################################
 
 fill -7416 167 -5931 -7434 167 -5917 minecraft:black_concrete replace minecraft:sea_lantern
-setblock -7410 157 -5928 minecraft:iron_block
-setblock -7411 157 -5928 minecraft:air
+setblock -7410 157 -5928 minecraft:iron_block destroy
+setblock -7411 157 -5928 minecraft:air destroy

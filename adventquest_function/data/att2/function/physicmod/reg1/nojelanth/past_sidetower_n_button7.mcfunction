@@ -3,4 +3,4 @@
 #Manage the physical modification for nojelanth sidetower north button7 	#
 #############################################################################
 
-setblock ~ ~ ~ minecraft:pink_terracotta
+setblock ~ ~ ~ minecraft:pink_terracotta destroy

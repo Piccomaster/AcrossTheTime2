@@ -4,4 +4,4 @@
 #####################################################################
 
 fill -5733 93 -6356 -5735 93 -6354 minecraft:iron_block
-setblock -5752 95 -6316 minecraft:air
+setblock -5752 95 -6316 minecraft:air destroy
