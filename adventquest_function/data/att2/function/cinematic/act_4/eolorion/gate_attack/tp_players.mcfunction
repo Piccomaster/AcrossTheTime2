@@ -6,7 +6,7 @@
 
 execute if score captain_PNJ DIALOG matches 2 as @a[scores={NUMEROJOUEUR=1}] run spawnpoint @s -5364 122 -6292
 execute if score captain_PNJ DIALOG matches 2 as @a[scores={NUMEROJOUEUR=2..}] run spawnpoint @s -5343 122 -6313
-execute if score captain_PNJ DIALOG matches 3 run spawnpoint @a -5357 110 -6306
+execute if score captain_PNJ DIALOG matches 3 run function att2:gameplay/checkpoint/telluron_present/eolorion2
 
 execute if score captain_PNJ DIALOG matches 2 as @a[scores={NUMEROJOUEUR=1}] run tp @s -5366 130 -6293
 execute if score captain_PNJ DIALOG matches 2 as @a[scores={NUMEROJOUEUR=2..}] run tp @s -5343 122 -6313

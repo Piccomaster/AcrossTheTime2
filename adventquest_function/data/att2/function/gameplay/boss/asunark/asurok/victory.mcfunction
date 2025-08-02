@@ -16,7 +16,7 @@ execute if score Mainquest SIDEQUEST matches 39 run scoreboard players set final
 effect clear @a minecraft:mining_fatigue
 function att2:physicmod/reg1/asunark/bossroom_clean
 function att2:gameplay/boss/asunark/asurok/destroy_minions
-execute in minecraft:overworld run spawnpoint @a -3358 30 -4942
+#execute in minecraft:overworld run spawnpoint @a -3358 30 -4942
 execute as @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] at @s run effect give @s minecraft:slow_falling 10 0 true
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/asurok

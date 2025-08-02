@@ -5,7 +5,7 @@
 
 scoreboard players remove @a[scores={SPEAR_FATIGUE=1..}] SPEAR_FATIGUE 1
 
-execute as @a[predicate=att2_pre:test_hold/hoe,scores={DAMAGE=1..}] run scoreboard players add @s[scores={SPEAR_FATIGUE=..101}] SPEAR_FATIGUE 40
+execute as @a[predicate=att2_pre:test_hold/hoe/mainhand,scores={DAMAGE=1..}] run scoreboard players add @s[scores={SPEAR_FATIGUE=..101}] SPEAR_FATIGUE 40
 
 execute as @a[scores={SPEAR_FATIGUE=1..25}] run function att2:gameplay/equipment/weapon/spear/malus1
 execute as @a[scores={SPEAR_FATIGUE=26..50}] run function att2:gameplay/equipment/weapon/spear/malus2

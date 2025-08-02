@@ -4,7 +4,7 @@
 ##################################################
 
 execute as @a run execute unless entity @s[x=-3503,y=31,z=-4936,dx=-20,dy=31,dz=-12] run tp @s -3521 50 -4942
-spawnpoint @a -3521 50 -4942
+function att2:gameplay/checkpoint/telluron_present/asunark1
 fill -3503 31 -4937 -3503 42 -4947 minecraft:barrier replace minecraft:air
 fill -3523 51 -4937 -3523 62 -4947 minecraft:barrier replace minecraft:air
 

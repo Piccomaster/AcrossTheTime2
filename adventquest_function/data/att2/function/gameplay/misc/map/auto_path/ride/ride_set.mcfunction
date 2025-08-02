@@ -13,6 +13,8 @@ $scoreboard players set @s OWNER $(numerojoueur)
 function att2:gameplay/misc/horse/limit/stop
 #tp nearset marker
 $tp @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=1},limit=1,sort=nearest,distance=..3]
+#test block
+execute unless block ~ ~1 ~ air run setblock ~ ~1 ~ air destroy
 #SET type score
 ### 3-> camel
 scoreboard players reset TEST CAL

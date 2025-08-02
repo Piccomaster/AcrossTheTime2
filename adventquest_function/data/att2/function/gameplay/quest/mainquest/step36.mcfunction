@@ -14,5 +14,5 @@ execute in minecraft:overworld positioned -3341 69 -5101 run function att2:gamep
 execute in minecraft:overworld positioned -3402 73 -5193 run function att2:gameplay/quest/mainquest/show_secondary_objective
 
 execute in minecraft:overworld if data block -3420 74 -5113 LootTable positioned -3420 74 -5113 run function att2:gameplay/quest/mainquest/show_secondary_objective
-execute in minecraft:overworld if data block -3403 90 -5124 LootTable positioned -3403 89 -5124 run function att2:gameplay/quest/mainquest/show_secondary_objective
-execute in minecraft:overworld if data block -3403 90 -5123 LootTable positioned -3403 89 -5123 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:overworld if data block -3403 89 -5124 LootTable positioned -3403 89 -5124 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:overworld if data block -3403 89 -5123 LootTable positioned -3403 89 -5123 run function att2:gameplay/quest/mainquest/show_secondary_objective

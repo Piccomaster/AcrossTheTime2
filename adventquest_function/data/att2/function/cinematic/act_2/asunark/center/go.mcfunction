@@ -11,7 +11,7 @@
 # Pillar_SW ASUNARK 16 - The SW Pillar is enabled 		#
 #########################################################
 
-execute if score Pillars ASUNARK matches 0..5 run function att2:particle/space_gem
+execute if score Pillars ASUNARK matches 0..5 positioned -3443 33 -4942 run function att2:particle/space_gem
 execute if score Pillars ASUNARK matches 0..4 run particle minecraft:crit -3442.5 32.9 -4941.5 0 0 0 0.1 5
 execute if score Pillars ASUNARK matches 0..4 run particle minecraft:enchanted_hit -3443.0 33 -4941.0 0 1 0 0.01 20
 execute if score Pillars ASUNARK matches 0..4 run particle minecraft:enchanted_hit -3443.0 33 -4942.0 0 1 0 0.01 20

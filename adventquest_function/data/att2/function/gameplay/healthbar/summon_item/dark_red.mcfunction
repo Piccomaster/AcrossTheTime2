@@ -8,7 +8,7 @@ summon minecraft:text_display ~ ~ ~ {transformation:{scale:[0.5f,0.5f,0.5f],tran
 #summon hp display
 summon minecraft:item_display ~ ~ ~ {transformation:{scale:[1f,1f,1f],translation:[0.0f,0.5f,0.001f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},Tags:["HP_BAR","DISPLAY","New"],item:{id:"minecraft:shulker_shell",components:{custom_model_data:{floats:[12]}}},item_display:head,billboard:vertical,brightness:{block:15,sky:15},Glowing:true,glow_color_override:11141120}
 #ride
-execute as @e[type=#minecraft:display_entity,tag=New,distance=..5] run ride @s mount @e[distance=..0,limit=1,scores={CLASSLEVEL=0..},tag=HP_DIS,type=!item,type=!player]
+execute as @e[type=#minecraft:display_entity,tag=New,distance=..5] run ride @s mount @e[distance=..1,limit=1,scores={CLASSLEVEL=0..},tag=HP_DIS,type=!item,type=!player]
 #base set
 function att2:gameplay/healthbar/setting/set
 #remove tag

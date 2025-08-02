@@ -16,7 +16,7 @@ execute positioned -5229 145 -6293 run function att2:gameplay/boss/elcheol/doom/
 function att2:gameplay/boss/elcheol/doom/destroy_minions
 tp @a[x=-5229,y=47,z=-6293,distance=..23] -5229 143 -6299
 tp @a[x=-5229,y=143,z=-6293,distance=..50] -5229 143 -6299
-execute in minecraft:overworld run spawnpoint @a -5229 143 -6299
+#execute in minecraft:overworld run spawnpoint @a -5229 143 -6299
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/doom
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/doom_master

@@ -3,4 +3,4 @@
 #Process potion effect                                   	#
 #############################################################
 
-title @s actionbar {"text":"","extra":[{"text":"HUN","color":"green"},{"text":" : ","color":"dark_gray"},{"score":{"name":"HUN","objective":"POTION_TIME"},"color":"white"},{"text":"s ","color":"dark_gray"},{"text":"HER","color":"red"},{"text":" : ","color":"dark_gray"},{"score":{"name":"HER","objective":"POTION_TIME"},"color":"white"},{"text":"s ","color":"dark_gray"}]}
+title @s actionbar {"text":"","extra":[{translate:att2.potion.tip.hun,"color":"green"},{"text":" : ","color":"dark_gray"},{"score":{"name":"HUN","objective":"POTION_TIME"},"color":"white"},{"text":"s ","color":"dark_gray"},{translate:att2.potion.tip.her,"color":"red"},{"text":" : ","color":"dark_gray"},{"score":{"name":"HER","objective":"POTION_TIME"},"color":"white"},{"text":"s ","color":"dark_gray"}]}
