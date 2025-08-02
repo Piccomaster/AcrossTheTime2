@@ -23,7 +23,7 @@ execute as @e[type=minecraft:wither_skull,scores={SPELL3_SKULL=0..}] run functio
 execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run function att2:gameplay/dahal/action/spell5/persistence
 execute as @e[type=armor_stand,scores={SPELL6_EFFECT=0..}] at @s run function att2:gameplay/dahal/action/spell6/persistence
 execute as @e[type=armor_stand,scores={SPELL7_EFFECT=0..}] at @s run function att2:gameplay/dahal/action/spell7/persistence
-execute as @a[scores={SPELL9_EFFECT=0..},tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/persistence
+execute as @a[scores={SPELL9_EFFECT=1..}] at @s run function att2:gameplay/dahal/action/spell9/persistence
 execute as @e[type=armor_stand,scores={SPELL10_EFFECT=0..}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/persistence
 function att2:gameplay/dahal/action/spell20/persistence
 function att2:gameplay/dahal/action/spell21/persistence
