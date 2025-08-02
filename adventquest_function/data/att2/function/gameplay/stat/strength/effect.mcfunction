@@ -13,16 +13,16 @@ scoreboard players operation @s STR_TOT += @s STR_EH
 
 #CAL STR
 scoreboard players operation @s STR_DATA = @s STR_TOT
-scoreboard players operation @s STR_DATA *= @s STR_DATA
-#make damage limit
-execute if score @s STR_TOT matches ..10 run scoreboard players operation @s STR_DATA *= 100 CAL
-execute if score @s STR_TOT matches 11..20 run scoreboard players operation @s STR_DATA *= 70 CAL
-execute if score @s STR_TOT matches 21..30 run scoreboard players operation @s STR_DATA *= 60 CAL
-execute if score @s STR_TOT matches 30.. run scoreboard players operation @s STR_DATA *= 50 CAL
-
-scoreboard players operation @s STR_DATA /= 100 CAL
-scoreboard players add @s STR_DATA 1
+#six step
+execute if score @s STR_TOT matches ..-1 run function att2:gameplay/stat/strength/dmg_0
+execute if score @s STR_TOT matches 1..10 run function att2:gameplay/stat/strength/dmg_1
+execute if score @s STR_TOT matches 11..20 run function att2:gameplay/stat/strength/dmg_2
+execute if score @s STR_TOT matches 21..30 run function att2:gameplay/stat/strength/dmg_3
+execute if score @s STR_TOT matches 31..40 run function att2:gameplay/stat/strength/dmg_4
+execute if score @s STR_TOT matches 41.. run function att2:gameplay/stat/strength/dmg_5
+#add hand weapon
+scoreboard players operation @s STR_DATA += TEMP CAL
 #min limit
-scoreboard players set @s[scores={STR_TOT=1..,STR_DATA=0}] STR_DATA 1
+scoreboard players set @s[scores={STR_TOT=1..,STR_DATA=..0}] STR_DATA 1
 execute store result storage att2:attribute STR int 1 run scoreboard players get @s STR_DATA
 function att2:gameplay/stat/strength/attribute with storage att2:attribute
