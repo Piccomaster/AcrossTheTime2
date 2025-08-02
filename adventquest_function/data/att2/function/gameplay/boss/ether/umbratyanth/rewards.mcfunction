@@ -41,12 +41,6 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umb
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
-
 
 function att2:summon/reg_2/umbratyanth_rewards_class20
 function att2:summon/reg_2/umbratyanth_rewards_class20

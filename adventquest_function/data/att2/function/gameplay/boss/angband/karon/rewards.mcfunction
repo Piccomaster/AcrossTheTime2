@@ -30,11 +30,6 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/kar
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/karon_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/karon_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/karon_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/karon_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/karon_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/karon_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/karon_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/karon_rewards
 
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_2/karon_rewards
 execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_2/karon_rewards

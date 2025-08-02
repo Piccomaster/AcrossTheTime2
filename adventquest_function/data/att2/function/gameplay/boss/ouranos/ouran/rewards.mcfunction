@@ -41,11 +41,6 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/our
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/ouran_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/ouran_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/ouran_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/ouran_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/ouran_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/ouran_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/ouran_rewards
-execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/ouran_rewards
 
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_4/ouran_rewards
 execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_4/ouran_rewards
