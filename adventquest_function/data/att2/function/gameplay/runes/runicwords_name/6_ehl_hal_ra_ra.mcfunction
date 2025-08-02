@@ -3,7 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-team join dark_green @s
 execute if entity @p[scores={GAMELEVEL=22..}] run scoreboard players add 6_ehl_hal_ra_ra RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=22..}] run scoreboard players set RequiredError RUNE 106

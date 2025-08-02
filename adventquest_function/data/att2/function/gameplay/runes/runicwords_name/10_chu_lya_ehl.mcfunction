@@ -3,7 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-team join blue @s
 execute if entity @p[scores={GAMELEVEL=28..}] run scoreboard players add 10_chu_lya_ehl RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=28..}] run scoreboard players set RequiredError RUNE 110

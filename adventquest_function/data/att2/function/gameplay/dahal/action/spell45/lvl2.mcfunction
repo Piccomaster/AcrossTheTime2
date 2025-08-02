@@ -6,9 +6,9 @@
 execute as @a[distance=..2] at @s run function att2:gameplay/dahal/action/spell45/effect
 execute as @a[distance=..2] at @s run particle minecraft:angry_villager ~ ~1 ~ 1.5 1.5 1.5 0 5
 #set spell effect score
-scoreboard players operation SPELL45_HER CAL = lvl1 SPELL45_HER
-scoreboard players operation SPELL45_STR CAL = lvl1 SPELL45_STR
-scoreboard players operation SPELL45_TIMER CAL = lvl1 SPELL45_TIMER
+scoreboard players operation SPELL45_HER CAL = lvl2 SPELL45_HER
+scoreboard players operation SPELL45_STR CAL = lvl2 SPELL45_STR
+scoreboard players operation SPELL45_TIMER CAL = lvl2 SPELL45_TIMER
 #TIMER
 scoreboard players operation @s SPELL45_TIMER = SPELL45_TIMER CAL
 #HER

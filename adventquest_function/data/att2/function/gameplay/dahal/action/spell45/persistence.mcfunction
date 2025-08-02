@@ -11,4 +11,4 @@ execute if score @s SPELL45_TIMER matches ..0 run function att2:gameplay/dahal/a
 #particle
 particle minecraft:angry_villager ~ ~-0.5 ~ 0.25 0.0 0.25 0 1 normal @a
 #other
-execute at @s as @e[tag=Berserk,type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR at @s run particle minecraft:dust{color:[1,0,0],scale:1.5} ~ ~ ~ 0.2 0 0.2 0 0 normal
+execute at @s as @e[tag=Berserk,type=#att2_entity:sp_effect_pet,distance=..50] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR at @s run particle minecraft:dust{color:[1,0,0],scale:1.5} ~ ~ ~ 0.2 0 0.2 0 0 normal

@@ -55,4 +55,4 @@ tellraw @a[scores={LANGUAGE=10},x=-4172,y=67,z=-5003,distance=..7] {nbt:"set",st
 
 #Simplified Chinese LANGUAGE
 
-tellraw @a[scores={LANGUAGE=11},x=-4172,y=67,z=-5003,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":":我在地图划叉的地方...","color":"aqua"},{"text":" [挖 -->]","bold":false,"color":"gray","clickEvent":{"action":"run_command","value":"/execute if score SQ40 SIDEQUEST matches 1 if entity @a[x=-4172,y=67,z=-5003,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/40/step2"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 1"}}]}
+tellraw @a[scores={LANGUAGE=11},x=-4172,y=67,z=-5003,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":":我在地图划叉的地方...","color":"aqua"},{"text":" [挖 -->]","bold":false,"color":"gray","click_event":{"action":"run_command","command":"/execute if score SQ40 SIDEQUEST matches 1 if entity @a[x=-4172,y=67,z=-5003,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/40/step2"},"hover_event":{"action":"show_text","value":"点击这里 - 回答 1"}}]}

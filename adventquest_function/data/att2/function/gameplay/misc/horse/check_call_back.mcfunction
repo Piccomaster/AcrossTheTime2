@@ -15,4 +15,4 @@ title @s[scores={LANGUAGE=7}] actionbar {"text":"No puedo almacenar ni invocar c
 title @s[scores={LANGUAGE=8}] actionbar {"text":"Ich kann an diesem bestimmten Zeitpunkt und Ort keine Pferde speichern oder beschwören.","color":"red"}
 title @s[scores={LANGUAGE=9}] actionbar {"text":"मैं इस विशिष्ट समय और स्थान पर घोड़ों को संग्रहीत या बुला नहीं सकता।","color":"red"}
 title @s[scores={LANGUAGE=10}] actionbar {"text":"Não posso armazenar ou invocar cavalos neste momento e local específicos.","color":"red"}
-
+title @s[scores={LANGUAGE=11}] actionbar {"text":"特殊场景或剧情进行中...无法存放/召唤马匹","color":"red"}

@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest                                            #
-#set end score soquai_wapoint
+#set end score soquai_waypoint
 #################################################################
 
 #remove dummy

@@ -65,22 +65,3 @@ scoreboard players set 16_von_yog_yog RUNE 0
 scoreboard players set 17_kan_chu_bex_puh RUNE 0
 scoreboard players set 18_ust_xul_lya_zen_da RUNE 0
 scoreboard players set 19_mot_syl_kan_xul_zen RUNE 0
-
-
-team add gray
-team modify gray color gray
-
-team add dark_green
-team modify dark_green color dark_green
-
-team add blue
-team modify blue color blue
-
-team add dark_purple
-team modify dark_purple color dark_purple
-
-team add gold
-team modify gold color gold
-
-team add dark_aqua
-team modify dark_aqua color dark_aqua

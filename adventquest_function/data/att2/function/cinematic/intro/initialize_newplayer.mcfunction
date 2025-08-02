@@ -32,11 +32,11 @@ function att2:gameplay/speceffect/initialize
 function att2:gameplay/stat/initialize
 function att2:advancement/initialize
 
-execute if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/update_book
+#execute if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/update_book
 function att2:dialogs/gameplay/dahal/use_tip
 function att2:gameplay/dahal/action/spell1/obtain
 
-function att2:dialogs/gameplay/intro/translate_tip
-function att2:dialogs/gameplay/intro/language_tip
+#function att2:dialogs/gameplay/intro/translate_tip
+#function att2:dialogs/gameplay/intro/language_tip
 #return 1->make command block runing
 return 1

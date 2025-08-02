@@ -3,7 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-team join gold @s
 execute if entity @p[scores={GAMELEVEL=43..}] run scoreboard players add 17_kan_chu_bex_puh RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=43..}] run scoreboard players set RequiredError RUNE 117

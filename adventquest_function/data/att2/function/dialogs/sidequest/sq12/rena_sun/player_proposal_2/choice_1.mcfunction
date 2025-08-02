@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° : ","color":"dark_gray","extra":
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° : ","color":"dark_gray","extra":[{"text":"Vamos ver... [mova o bloco de pedra].","color":"gray","click_event":{"action":"run_command","command":"/scoreboard players set choice SQ12 1"},"hover_event":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° : ","color":"dark_gray","extra":[{"text":"让我看看... [移动石块]。","color":"gray","click_event":{"action":"run_command","command":"/scoreboard players set choice SQ12 1"},"hover_event":{"action":"show_text","value":"点击这里 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° : ","color":"dark_gray","extra":[{"text":"让我看看... [点击此处移动石块]。","color":"gray","click_event":{"action":"run_command","command":"/scoreboard players set choice SQ12 1"},"hover_event":{"action":"show_text","value":"点击这里 - 回答 1"}}]}

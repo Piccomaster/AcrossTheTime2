@@ -3,7 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-team join dark_purple @s
 execute if entity @p[scores={GAMELEVEL=42..}] run scoreboard players add 13_tha_bex_for RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=42..}] run scoreboard players set RequiredError RUNE 113

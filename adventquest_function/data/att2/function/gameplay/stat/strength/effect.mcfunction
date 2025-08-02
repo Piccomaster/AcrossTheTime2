@@ -14,7 +14,12 @@ scoreboard players operation @s STR_TOT += @s STR_EH
 #CAL STR
 scoreboard players operation @s STR_DATA = @s STR_TOT
 scoreboard players operation @s STR_DATA *= @s STR_DATA
-scoreboard players operation @s STR_DATA *= 50 CAL
+#make damage limit
+execute if score @s STR_TOT matches ..10 run scoreboard players operation @s STR_DATA *= 100 CAL
+execute if score @s STR_TOT matches 11..20 run scoreboard players operation @s STR_DATA *= 70 CAL
+execute if score @s STR_TOT matches 21..30 run scoreboard players operation @s STR_DATA *= 60 CAL
+execute if score @s STR_TOT matches 30.. run scoreboard players operation @s STR_DATA *= 50 CAL
+
 scoreboard players operation @s STR_DATA /= 100 CAL
 scoreboard players add @s STR_DATA 1
 #min limit

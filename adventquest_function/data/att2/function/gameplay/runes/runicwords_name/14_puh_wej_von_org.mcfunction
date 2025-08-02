@@ -3,7 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-team join dark_purple @s
 execute if entity @p[scores={GAMELEVEL=38..}] run scoreboard players add 14_puh_wej_von_org RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=38..}] run scoreboard players set RequiredError RUNE 114

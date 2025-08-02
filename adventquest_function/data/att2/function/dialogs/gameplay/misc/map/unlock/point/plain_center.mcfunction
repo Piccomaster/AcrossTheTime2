@@ -37,4 +37,4 @@ title @s[scores={LANGUAGE=9}] actionbar [{"text":"ऑटोपायलट स�
 title @s[scores={LANGUAGE=10}] actionbar [{"text":"Piloto automático ativado...","color":"green","bold":true}]
 
 # SIMPLIFIED CHINESE
-tellraw @s[scores={LANGUAGE=11}] [{"text":"地图点位——<§cSylberland§c§l草原中心>已解锁!","color":"green","bold":true}]
+tellraw @s[scores={LANGUAGE=11}] [{"text":"地图点位——<Sylberland草原中心>已解锁!","color":"green","bold":true}]

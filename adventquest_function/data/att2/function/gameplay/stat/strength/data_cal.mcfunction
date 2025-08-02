@@ -4,11 +4,7 @@
 ##################################################
 
 #CAL STR
-scoreboard players operation @s STR_DATA = @s STR_TOT
-scoreboard players operation @s STR_DATA *= @s STR_DATA
-scoreboard players operation @s STR_DATA *= 66 CAL
-scoreboard players operation @s STR_DATA /= 100 CAL
-scoreboard players set @s[scores={STR_TOT=1..,STR_DATA=0}] STR_DATA 1
+execute store result score @s STR_DATA run attribute @s attack_damage get
 # CAL >1
 execute if score @s STR_DATA matches 1.. run data modify storage att2:attribute STR_SYMBOL set value "+"
 #CAL =0

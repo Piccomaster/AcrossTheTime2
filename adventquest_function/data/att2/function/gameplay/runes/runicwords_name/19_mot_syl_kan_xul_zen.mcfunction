@@ -3,7 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-team join dark_aqua @s
 execute if entity @p[scores={GAMELEVEL=50..}] run scoreboard players add 19_mot_syl_kan_xul_zen RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=50..}] run scoreboard players set RequiredError RUNE 119

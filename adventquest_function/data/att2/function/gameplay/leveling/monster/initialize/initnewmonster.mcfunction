@@ -67,7 +67,7 @@ tag @s remove LVL0
 #add temp tag
 tag @s add HP_DIS
 #make health bar
-execute if entity @s[tag=!PlayerAlly,type=!bat,tag=!BOSS,tag=!ArenaBoss,tag=!Guardian] if score @s CLASSLEVEL matches 0.. at @s run function att2:gameplay/leveling/monster/displaydiff
+execute if entity @s[tag=!PlayerAlly,type=!bat,tag=!Boss,tag=!ArenaBoss,tag=!Guardian] if score @s CLASSLEVEL matches 0.. at @s run function att2:gameplay/leveling/monster/displaydiff
 #remove temp tag
 tag @s remove HP_DIS
 

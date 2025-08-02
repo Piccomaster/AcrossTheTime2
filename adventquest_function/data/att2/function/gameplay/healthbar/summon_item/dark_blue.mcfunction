@@ -13,3 +13,4 @@ execute as @e[type=#minecraft:display_entity,tag=New,distance=..5] run ride @s m
 function att2:gameplay/healthbar/setting/set
 #remove tag
 tag @e[type=#minecraft:display_entity,tag=New,sort=nearest,distance=..5] remove New
+tag @s remove HP_DIS

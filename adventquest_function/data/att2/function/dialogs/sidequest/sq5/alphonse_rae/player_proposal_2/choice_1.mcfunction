@@ -55,4 +55,4 @@ tellraw @a[scores={LANGUAGE=10},x=-3857,y=87,z=-6038,distance=..7] {nbt:"set",st
 
 #Simplified Chinese LANGUAGE
 
-tellraw @s[scores={LANGUAGE=11},x=-3857,y=87,z=-6038,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[我做不到，狗的主人Romuald迫切需要看到他的狗回来！-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute positioned -3855 87 -6042 if entity @a[distance=..7] if score area_trigg SQ5 matches 3 run function att2:cinematic/sidequest/5/alphonse_rae/answer_1_2"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=11},x=-3857,y=87,z=-6038,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[我做不到，狗的主人Romuald迫切需要看到他的狗回来！-->]","color":"gray","click_event":{"action":"run_command","command":"/execute positioned -3855 87 -6042 if entity @a[distance=..7] if score area_trigg SQ5 matches 3 run function att2:cinematic/sidequest/5/alphonse_rae/answer_1_2"},"hover_event":{"action":"show_text","value":"点击这里 - 回答 1"}}]}
