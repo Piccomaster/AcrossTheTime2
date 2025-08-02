@@ -30,6 +30,11 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/sub
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
 
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_1/subjects_rewards
 execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_1/subjects_rewards
@@ -55,6 +60,14 @@ function att2:summon/reg_1/subjects_rewards_dedicated
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_runes_abc_rewards_2
+
+##summon XP
+#DIFFICULTY 0
+execute if score level DIFFICULTY matches 0.. run summon experience_orb ~ ~ ~ {Value:4000,Motion:[0,0.1,0]}
+#DIFFICULTY 1
+execute if score level DIFFICULTY matches 1.. run summon experience_orb ~ ~ ~ {Value:4000,Motion:[0,0.1,0]}
+#DIFFICULTY 2
+execute if score level DIFFICULTY matches 2.. run summon experience_orb ~ ~ ~ {Value:4000,Motion:[0,0.1,0]}
 
 #boss time 1
 execute if score subjects_m BOSS_TIME matches ..2 run function att2:summon/bat_boss_esc_rewards

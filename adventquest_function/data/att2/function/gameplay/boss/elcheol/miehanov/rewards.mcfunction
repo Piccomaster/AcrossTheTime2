@@ -30,6 +30,11 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/mie
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/miehanov_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/miehanov_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/miehanov_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/miehanov_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/miehanov_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/miehanov_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/miehanov_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/miehanov_rewards
 
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_1/miehanov_rewards
 execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_1/miehanov_rewards
@@ -55,6 +60,14 @@ function att2:summon/reg_1/miehanov_rewards_dedicated
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_runes_b_rewards
 function att2:summon/bat_runes_c_rewards
+
+##summon XP
+#DIFFICULTY 0
+execute if score level DIFFICULTY matches 0.. run summon experience_orb ~ ~ ~ {Value:1000,Motion:[0,0.1,0]}
+#DIFFICULTY 1
+execute if score level DIFFICULTY matches 1.. run summon experience_orb ~ ~ ~ {Value:1000,Motion:[0,0.1,0]}
+#DIFFICULTY 2
+execute if score level DIFFICULTY matches 2.. run summon experience_orb ~ ~ ~ {Value:1000,Motion:[0,0.1,0]}
 
 #boss time 1
 execute if score miehanov_m BOSS_TIME matches ..1 run function att2:summon/bat_boss_esc_rewards

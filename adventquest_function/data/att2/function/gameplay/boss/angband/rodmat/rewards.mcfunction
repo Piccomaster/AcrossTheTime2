@@ -30,6 +30,11 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rod
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
 
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_2/rodmat_rewards
 execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_2/rodmat_rewards
@@ -42,7 +47,6 @@ execute if score BonusLootBoss RUNE matches 8.. run function att2:summon/reg_2/r
 execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/reg_2/rodmat_rewards
 execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/reg_2/rodmat_rewards
 
-execute if score SQ45 SIDEQUEST matches 1..99 run function att2:summon/reg_2/rodmat_rewards_sq45
 execute if score SQ45 SIDEQUEST matches 1..99 run function att2:summon/reg_2/rodmat_rewards_sq45
 
 execute if entity @a[scores={LUC_TOT=2..}] run function att2:summon/reg_2/rodmat_rewards
@@ -58,6 +62,14 @@ function att2:summon/reg_2/rodmat_rewards_dedicated
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_runes_abc_rewards_2
+
+##summon XP
+#DIFFICULTY 0
+execute if score level DIFFICULTY matches 0.. run summon experience_orb ~ ~ ~ {Value:2000,Motion:[0,0.1,0]}
+#DIFFICULTY 1
+execute if score level DIFFICULTY matches 1.. run summon experience_orb ~ ~ ~ {Value:2000,Motion:[0,0.1,0]}
+#DIFFICULTY 2
+execute if score level DIFFICULTY matches 2.. run summon experience_orb ~ ~ ~ {Value:2000,Motion:[0,0.1,0]}
 
 #boss time 1
 execute if score rodmat_m BOSS_TIME matches ..3 run function att2:summon/bat_boss_esc_rewards

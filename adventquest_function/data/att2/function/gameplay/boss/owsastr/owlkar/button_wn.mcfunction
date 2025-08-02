@@ -10,5 +10,5 @@ tag @s add UtoES
 tag @s remove UtoWN
 
 scoreboard players set Owlkar_button_ne OWSASTR 1
-setblock -5064 73 -4395 minecraft:air
+setblock -5064 73 -4395 minecraft:air destroy
 execute unless score Owlkar OWSASTR matches 4 positioned -5054 72 -4385 run function att2:summon/reg_1/owlkar_minion
