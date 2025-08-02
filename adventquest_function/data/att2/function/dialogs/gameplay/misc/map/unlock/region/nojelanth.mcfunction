@@ -3,6 +3,8 @@
 #Use function to process the Dialog 2 of Albert Dirac 			#
 #################################################################
 
+playsound minecraft:ui.cartography_table.take_result ambient @s ~ ~ ~ 2 1
+
 # FRENCH
 title @s[scores={LANGUAGE=0}] actionbar [{"text":"Pilotage automatique en cours...","color":"green","bold":true}]
 
