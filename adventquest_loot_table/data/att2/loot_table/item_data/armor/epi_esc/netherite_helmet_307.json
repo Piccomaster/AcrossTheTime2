@@ -67,7 +67,7 @@
                   }
                 ],
                 "minecraft:damage": 100,
-                "minecraft:max_damage": 190
+                "minecraft:max_damage": 400
               }
             }
           ]
