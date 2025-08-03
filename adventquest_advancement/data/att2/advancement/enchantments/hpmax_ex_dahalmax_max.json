@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.hpmax_ex_enchantmentsmax"},
-        "description": {"translate":"att2.advancement.enchantments.description.hpmax_ex_enchantmentsmax"},
+        "title": {"translate":"att2.advancement.enchantments.title.hpmax_ex_dahalmax_max"},
+        "description": {"translate":"att2.advancement.enchantments.description.hpmax_ex_dahalmax_max"},
         "frame": "challenge"
     },
     "parent": "att2:enchantments/hpmax_ex_dahalmax",

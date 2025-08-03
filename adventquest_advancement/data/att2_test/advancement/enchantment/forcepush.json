@@ -4,6 +4,9 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
+          "taken": {
+            "min": 5
+          },
           "type": {
             "tags": [
               {
