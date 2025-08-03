@@ -1,11 +1,6 @@
 ##################################################
-
 #Made by Adventquest                             #
-
 #Summon ryliath guard  		     	 			 #
-
 ##################################################
-
-
 
 summon minecraft:zombified_piglin ~ ~ ~ {Rotation:[0.0f,0.0f],NoAI:1b,Invulnerable:1b,CustomName:"Guard",Silent:1b,PersistenceRequired:1b,equipment:{mainhand:{id:"minecraft:iron_sword",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:light_gray,banner_patterns:[{pattern:triangles_bottom,color:gray},{pattern:stripe_downright,color:black},{pattern:stripe_downleft,color:black},{pattern:stripe_downleft,color:light_gray},{pattern:stripe_downright,color:light_gray},{pattern:stripe_middle,color:black},{pattern:stripe_middle,color:light_gray},{pattern:triangles_bottom,color:light_gray},{pattern:stripe_top,color:cyan},{pattern:gradient,color:blue},{pattern:rhombus,color:black},{pattern:rhombus,color:light_blue},{pattern:skull,color:light_blue},{pattern:circle,color:lime},{pattern:flower,color:blue},{pattern:flower,color:light_gray},{pattern:triangles_top,color:black},{pattern:triangles_top,color:blue}]}},feet:{id:"minecraft:iron_boots",count:1},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:10202063}},chest:{id:"minecraft:iron_chestplate",count:1},head:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;2054176960,1836339083,-1467832164,-719418412],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY2ZmZmMWU4MDYwZWU0ZDg4NWNhOWYxNWRiYzAyMjQwN2ExZWZiYzNjNDU4Mjg2OWEzZGE1N2Y4NDIxMCJ9fX0="}]}}}}}

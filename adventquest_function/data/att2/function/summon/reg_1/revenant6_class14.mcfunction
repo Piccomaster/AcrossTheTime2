@@ -1,11 +1,6 @@
 ##################################################
-
 #Made by Adventquest                             #
-
 #Summon revenant class_14 region_1  		 	 #
-
 ##################################################
-
-
 
 summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS14","Reg1","Undead"],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},attributes:[{id:movement_speed,base:0.26},{id:follow_range,base:12.0}],equipment:{mainhand:{id:"minecraft:diamond_pickaxe",count:1},offhand:{id:"minecraft:shield",count:1,components:{base_color:gray,banner_patterns:[{pattern:bricks,color:light_gray},{pattern:small_stripes,color:gray}]}},feet:{id:"minecraft:iron_boots",count:1},legs:{id:"minecraft:diamond_leggings",count:1},chest:{id:"minecraft:diamond_chestplate",count:1,components:{enchantments:{"minecraft:blast_protection":1}}},head:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;-703913912,-1230946243,-1599774903,-587597650],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViYzUwOGU5NTA5ODEzMDA3YWFjYTBhMzQ5Y2RkYmZmMTYzNDhjMmQzOWFjZWU5ZjI0M2UxNDkwNTc4YzkxMCJ9fX0="}]}}}}}
