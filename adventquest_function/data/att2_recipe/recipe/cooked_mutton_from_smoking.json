@@ -5,6 +5,16 @@
   "experience": 0.35,
   "ingredient": "minecraft:mutton",
   "result": {
-    "id": "minecraft:cooked_mutton"
+    "id": "minecraft:cooked_mutton",
+    "components": {
+      "minecraft:custom_data": {
+        "EquipmentType": "food",
+        "Rarity": "misc"
+      },
+      "consumable": {
+        "animation": "eat",
+        "consume_seconds": 1.4
+      }
+    }
   }
 }

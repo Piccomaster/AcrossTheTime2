@@ -2,9 +2,19 @@
   "type": "minecraft:smelting",
   "category": "food",
   "cookingtime": 200,
-  "experience": 0.35,
+  "experience": 10,
   "ingredient": "minecraft:potato",
   "result": {
-    "id": "minecraft:baked_potato"
+    "id": "minecraft:baked_potato",
+    "components": {
+      "minecraft:custom_data": {
+        "EquipmentType": "food",
+        "Rarity": "misc"
+      },
+      "consumable": {
+        "animation": "eat",
+        "consume_seconds": 1.0
+      }
+    }
   }
 }

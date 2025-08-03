@@ -5,6 +5,16 @@
   "experience": 0.35,
   "ingredient": "minecraft:rabbit",
   "result": {
-    "id": "minecraft:cooked_rabbit"
+    "id": "minecraft:cooked_rabbit",
+    "components": {
+      "minecraft:custom_data": {
+        "EquipmentType": "food",
+        "Rarity": "misc"
+      },
+      "consumable": {
+        "animation": "eat",
+        "consume_seconds": 1.4
+      }
+    }
   }
 }
