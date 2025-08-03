@@ -31,3 +31,12 @@ scoreboard players set 5 SPELL26_MAX 5
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN26 30000
+scoreboard players set lvl2 COOLDOWN26 30000
+scoreboard players set lvl3 COOLDOWN26 30000
+scoreboard players set lvl4 COOLDOWN26 30000
+scoreboard players set lvl5 COOLDOWN26 30000
+scoreboard players set lvl6 COOLDOWN26 30000
+scoreboard players set lvl7 COOLDOWN26 30000
+scoreboard players set lvl8 COOLDOWN26 30000
+scoreboard players set lvl9 COOLDOWN26 30000
+scoreboard players set lvl10 COOLDOWN26 30000

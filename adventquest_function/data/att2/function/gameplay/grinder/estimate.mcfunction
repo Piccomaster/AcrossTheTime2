@@ -16,7 +16,7 @@ execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_7] run fun
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_8] run function att2:gameplay/grinder/total/8_inu
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_9] run function att2:gameplay/grinder/total/9_hal
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_10] run function att2:gameplay/grinder/total/10_von
-execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_11] at @s run function att2:gameplay/grinder/total/11_ehl
+execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_11] run function att2:gameplay/grinder/total/11_ehl
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_12] run function att2:gameplay/grinder/total/12_ave
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_13] run function att2:gameplay/grinder/total/13_chu
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_14] run function att2:gameplay/grinder/total/14_for

@@ -8,10 +8,10 @@ summon minecraft:slime ~ ~ ~ {Tags:["New","MIMIC","LVL0"],DeathLootTable:"att2:e
 #set scale value
 data merge entity @e[tag=MIMIC,tag=New,type=item_display,limit=1] {transformation:{translation:[0f,-0.45f,0f],scale:[1f,1f,1f]},glow_color_override:-1,Glowing:1b}
 #set DIMENSION->LOOT
-execute if score @s DIMENSION matches 1 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg1
-execute if score @s DIMENSION matches 6 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg2
-execute if score @s DIMENSION matches 7 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg3
-execute if score @s DIMENSION matches 4..5 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg4
+execute if score @p DIMENSION matches 1 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg1
+execute if score @p DIMENSION matches 6 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg2
+execute if score @p DIMENSION matches 7 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg3
+execute if score @p DIMENSION matches 4..5 as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/loottable/reg4
 #random pos
 execute as @e[type=slime,tag=New,tag=MIMIC] run function att2:gameplay/enveffect/mimic/random_pos
 #summon tip

@@ -3,6 +3,8 @@
 #Initialize Tutorial                    						#
 #################################################################
 
+function att2:sound/dialogs/simple
+
 scoreboard players set @s TITLE_EFFECT 0
 
 #dialogs

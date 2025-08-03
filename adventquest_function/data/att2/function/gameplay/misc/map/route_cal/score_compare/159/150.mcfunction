@@ -35,7 +35,7 @@ scoreboard players set ADANOI_NORTH DEST 0
 scoreboard players set ADANOI_SOUTH DEST 0
 scoreboard players set MELEIM_WAYPOINT DEST 0
 scoreboard players set MELEIM_FARM DEST 0
-scoreboard players set ELVETTA DEST 0
+scoreboard players set ELVETTA DEST 1
 scoreboard players set CROSS_ROAD DEST 0
 scoreboard players set WORLEST_MINE_EAST DEST 0
 ##seaside

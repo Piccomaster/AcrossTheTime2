@@ -5,8 +5,6 @@
 
 ##add kill score
 scoreboard players add total_killed MIMIC 1
-##advancement trigger
-function att2:advancement/test_all/mobskilled/mimic
 ##
 particle dust{color:[1.0,0.667,0.0],scale:1} ~ ~1 ~ 1 1 1 0 50
 execute as @a[distance=..50] at @s run function att2:dialogs/gameplay/misc/mimic_dead
@@ -51,3 +49,6 @@ execute if score reward MIMIC matches 100.. run loot spawn ~ ~1 ~ loot att2:ches
 execute as @e[type=minecraft:item,distance=..30,predicate=!att2_pre:test_item/health] run data merge entity @s {Health:32767s}
 #remove
 tp @e[tag=MIMIC,distance=..1] ~ -10 ~
+
+##advancement trigger
+function att2:advancement/test_all/mobskilled/mimic
