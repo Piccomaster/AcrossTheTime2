@@ -37,7 +37,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c6t6_artefact\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t6_artefact\"}"
                 }
             }
         },
