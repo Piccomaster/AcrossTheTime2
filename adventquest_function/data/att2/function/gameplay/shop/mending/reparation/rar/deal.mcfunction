@@ -14,3 +14,5 @@ execute if score level statSMITH matches 5 run function att2:gameplay/shop/mendi
 scoreboard players operation @s CHRONOTON -= mending_rar PRICES
 scoreboard players add rar MENDING 1
 scoreboard players add @s MENDING 1
+#test advancement
+function att2:advancement/test_all/treasure/mending
