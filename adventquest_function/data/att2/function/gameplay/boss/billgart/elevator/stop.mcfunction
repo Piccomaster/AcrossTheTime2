@@ -18,4 +18,4 @@ bossbar remove minecraft:guardian_silver
 bossbar remove minecraft:elevator_level
 
 ##slow_falling
-execute as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8] at @s run effect clear @s minecraft:slow_falling
+execute as @e[type=!armor_stand,x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8] at @s run effect clear @s minecraft:slow_falling
