@@ -3,8 +3,10 @@
 #Prosses apply all bonus for players 	                                #
 #########################################################################
 
-effect clear @s minecraft:health_boost
 scoreboard players operation BonusDahalMax RUNE *= 4 RUNE
+scoreboard players operation @a DAHALMAX = 6 CAL
+scoreboard players operation @a DAHALMAX *= @a GAMELEVEL
+scoreboard players operation @a DAHALMAX += 50 CAL
 scoreboard players operation @a DAHALMAX += BonusDahalMax RUNE
 #reset health
 execute as @a run scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE

@@ -3,7 +3,7 @@
 #Display level up												#
 #################################################################
 
-title @s times 10 60 100
+title @s times 10 60 10
 title @s title {"translate":"att2.leveling.title","color":"dark_gray"}
 title @s subtitle {"text":"° ","color":"gray","extra":[{"score":{"name":"@s","objective":"GAMELEVEL"},"color":"gold","italic":true},{"text":" °","color":"gray"}]}
 tellraw @a [{"selector":"@s",color:dark_red},{translate:att2.leveling.com.tellraw,with:[{"score":{"name":"@s","objective":"GAMELEVEL"},"color":"dark_red"}]}]

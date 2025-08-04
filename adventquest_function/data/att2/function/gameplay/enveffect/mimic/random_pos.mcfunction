@@ -10,3 +10,7 @@ scoreboard players operation @s MOTIONZ *= -1 CAL
 execute store result entity @s Motion[0] double 0.1 run scoreboard players get @s MOTIONX
 execute store result entity @s Motion[1] double 0.1 run scoreboard players get @s MOTIONY
 execute store result entity @s Motion[2] double 0.1 run scoreboard players get @s MOTIONZ
+
+
+#summon tip
+execute as @a[distance=..50] at @s run function att2:dialogs/gameplay/misc/mimic_summon

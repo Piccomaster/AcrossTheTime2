@@ -30,8 +30,8 @@ execute as @s[scores={DIMENSION=1},x=29856,z=29808,dx=-463,dz=-367] run function
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
-##Eolorion FROM -5360 -6326 TO -5225 -6144
-execute as @s[scores={DIMENSION=1},x=-5360,z=-6326,dx=135,dz=182] run function att2:gameplay/misc/citywalk/eolorion
+##Eolorion FROM -5360 -6350 TO -5153 -6144
+execute as @s[scores={DIMENSION=1},x=-5360,z=-6350,dx=207,dz=206] run function att2:gameplay/misc/citywalk/eolorion
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
