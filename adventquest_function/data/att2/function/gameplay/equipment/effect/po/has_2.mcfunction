@@ -14,3 +14,6 @@ function att2:gameplay/equipment/effect/po/time_bonus/has_reduce
 
 function att2:gameplay/equipment/effect/po/time_cal
 function att2:dialogs/gameplay/potion_tip/potion_9
+
+#reset timer
+function att2:gameplay/potion/timer_reset
