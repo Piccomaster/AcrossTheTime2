@@ -122,6 +122,10 @@
   - Hero title particle effects
   - Screen shake effects
 
+  - **City Walk System**
+  - **City Title Display**: Shows city name in center screen upon entry
+  - **Movement Bonus**: Grants Speed II effect while within city limits
+
 ### Balance:
 - **Attribute System Update** 
   - Most attributes now **directly modify base stats** (no "status effects").  
