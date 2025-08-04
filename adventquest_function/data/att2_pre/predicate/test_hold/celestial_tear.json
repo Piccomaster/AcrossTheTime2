@@ -1,0 +1,37 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:ghast_tear",
+            "predicates": {
+              "minecraft:custom_name": {
+                "translate": "item.quest.celestial_tear.name"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": "minecraft:ghast_tear",
+            "predicates": {
+              "minecraft:custom_name": {
+                "translate": "item.quest.celestial_tear.name"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
