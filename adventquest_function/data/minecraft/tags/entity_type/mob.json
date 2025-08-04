@@ -39,7 +39,8 @@
     "minecraft:wither_skeleton",
     "minecraft:wolf",
     "minecraft:zombie",
-    "minecraft:zombified_piglin"
+    "minecraft:zombified_piglin",
+    "minecraft:bat"
   ],
   "replace": false
 }
