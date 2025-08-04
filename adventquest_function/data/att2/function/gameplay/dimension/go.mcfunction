@@ -26,10 +26,5 @@ execute as @a[scores={DIMENSION=-1}] at @s run function att2:gameplay/dimension/
 execute as @a[scores={DIMENSION=3}] at @s run function att2:gameplay/dimension/ithax
 execute as @a[scores={DIMENSION=4..5}] at @s run function att2:gameplay/dimension/ouranos
 execute as @a[scores={DIMENSION=7}] at @s run function att2:gameplay/dimension/billgart
-##TP SPELL32 CHECK
-execute as @a[scores={DIMENSION=-3}] at @s run scoreboard players set @s tp_spell32_timer 20
-execute as @a[scores={DIMENSION=-2}] at @s run scoreboard players set @s tp_spell32_timer 20
-execute as @a[scores={DIMENSION=-1}] at @s run scoreboard players set @s tp_spell32_timer 20
-execute as @a[scores={DIMENSION=3}] at @s run scoreboard players set @s tp_spell32_timer 20
 
 execute as @a[tag=limitedSpeed] unless entity @s[scores={DIMENSION=3}] run tag @s remove limitedSpeed
