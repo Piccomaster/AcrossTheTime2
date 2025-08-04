@@ -9,4 +9,4 @@ scoreboard players set TRUE CAL 1
 execute unless score @s CITYWALK matches 7 run function att2:dialogs/title/citywalk/zirthion
 scoreboard players set @s CITYWALK 7
 #effect @s speed
-effect give @s speed 1 1 true
+effect give @s speed 1 0 true

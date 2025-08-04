@@ -10,6 +10,7 @@
 #Eolorion -> 6
 #Zirthion -> 7
 #Kortaek -> 8
+#Hillvaley -> 8
 
 #reset TRUE
 scoreboard players set TRUE CAL 0
@@ -51,6 +52,11 @@ execute if score TRUE CAL matches 1 run return 0
 
 ##Kortaek FROM -5552 -4784 TO -5361 -4625
 execute as @s[scores={DIMENSION=1},x=-5552,z=-4784,dx=191,dz=159] run function att2:gameplay/misc/citywalk/kortaek
+
+##Kortaek FROM 1712 1599 TO 2575 2287
+execute as @s[scores={DIMENSION=1},x=1712,z=1599,dx=863,dz=688] run function att2:gameplay/misc/citywalk/hillvaley
+
+
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
