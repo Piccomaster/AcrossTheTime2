@@ -60,5 +60,5 @@ execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=150..199},level=180..,tag=LVLUp
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=200..249},level=190..,tag=LVLUpReady] run function att2:gameplay/leveling/player/lvl250master
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=250..299},level=200..,tag=LVLUpReady] run function att2:gameplay/leveling/player/lvl300master
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=300..},level=250..,tag=LVLUpReady] run function att2:gameplay/leveling/player/lvlinfinitymaster
-execute at @s[tag=!LVLUpReady] as @e[type=!player,scores={GAMELEVEL=0..},distance=..20] run function att2:gameplay/leveling/monster/displaydiff
+#execute at @s[tag=!LVLUpReady] as @e[type=!player,scores={GAMELEVEL=0..},distance=..20] run function att2:gameplay/leveling/monster/displaydiff
 tag @s add LVLUpReady

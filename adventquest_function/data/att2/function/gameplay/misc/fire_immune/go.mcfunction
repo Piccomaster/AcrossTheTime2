@@ -3,4 +3,4 @@
 #Process Fire Immune entity    									#
 #################################################################
 
-execute as @e[type=minecraft:phantom] run data merge entity @s {Fire:0}
+execute as @e[type=minecraft:phantom] run data modify entity @s Fire set value 0
