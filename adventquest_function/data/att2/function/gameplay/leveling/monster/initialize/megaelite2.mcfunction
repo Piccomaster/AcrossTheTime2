@@ -9,4 +9,4 @@ effect give @s minecraft:resistance infinite 3 true
 
 effect give @s[tag=!PlayerAlly] minecraft:glowing infinite 0 true
 
-attribute @s minecraft:scale base set 1.5
+attribute @s minecraft:scale base set 1.3
