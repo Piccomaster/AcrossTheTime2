@@ -3,4 +3,4 @@
 #Obtain cookie_0         					 	 #
 ##################################################
 
-give @s minecraft:cookie[custom_data={EquipmentType:'food',Rarity:'misc'},consumable={animation:eat,consume_seconds:0.5}]
+give @s minecraft:cookie[custom_data={EquipmentType:'food',Rarity:'misc'},consumable={animation:eat,consume_seconds:0.5},tooltip_style="minecraft:rarity/misc/misc"]

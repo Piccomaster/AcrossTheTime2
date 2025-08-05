@@ -26,7 +26,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"c6"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "c6"
+                                }
+                            }
                         }
                     ]
                 },
@@ -50,7 +54,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"c7"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "c7"
+                                }
+                            }
                         }
                     ]
                 },
@@ -74,7 +82,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"c8"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "c8"
+                                }
+                            }
                         }
                     ]
                 },
@@ -98,7 +110,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"c9"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "c9"
+                                }
+                            }
                         }
                     ]
                 },
@@ -122,7 +138,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"c10"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "c10"
+                                }
+                            }
                         }
                     ]
                 }

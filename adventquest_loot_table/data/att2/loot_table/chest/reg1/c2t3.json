@@ -9286,121 +9286,123 @@
                     ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/ult/shield_340"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00000205
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/ult/diamond_sword_341"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00000308
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/ult/iron_axe_342"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00000308
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/ult/iron_pickaxe_343"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00000205
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/ult/netherite_hoe_344"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00000205
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/ult/netherite_shovel_345"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00000122
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/legendary/kinuil"
+                }
+            ]
         },
-        {
-            "conditions": [
-                {
-                    "condition": "random_chance",
-                    "chance": 0.00000205
-                }
-            ],
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": {
-                        "min": 1,
-                        "max": 1
-                    }
-                }
-            ],
-            "type": "minecraft:loot_table",
-            "value": "att2:item_data/weapon/ult/diamond_sword_341"
-        },
-        {
-            "conditions": [
-                {
-                    "condition": "random_chance",
-                    "chance": 0.00000308
-                }
-            ],
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": {
-                        "min": 1,
-                        "max": 1
-                    }
-                }
-            ],
-            "type": "minecraft:loot_table",
-            "value": "att2:item_data/weapon/ult/iron_axe_342"
-        },
-        {
-            "conditions": [
-                {
-                    "condition": "random_chance",
-                    "chance": 0.00000308
-                }
-            ],
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": {
-                        "min": 1,
-                        "max": 1
-                    }
-                }
-            ],
-            "type": "minecraft:loot_table",
-            "value": "att2:item_data/weapon/ult/iron_pickaxe_343"
-        },
-        {
-            "conditions": [
-                {
-                    "condition": "random_chance",
-                    "chance": 0.00000205
-                }
-            ],
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": {
-                        "min": 1,
-                        "max": 1
-                    }
-                }
-            ],
-            "type": "minecraft:loot_table",
-            "value": "att2:item_data/weapon/ult/netherite_hoe_344"
-        },
-        {
-            "conditions": [
-                {
-                    "condition": "random_chance",
-                    "chance": 0.00000205
-                }
-            ],
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": {
-                        "min": 1,
-                        "max": 1
-                    }
-                }
-            ],
-            "type": "minecraft:loot_table",
-            "value": "att2:item_data/weapon/ult/netherite_shovel_345"
-        },
-        {
-            "conditions": [
-                {
-                    "condition": "random_chance",
-                    "chance": 0.00000122
-                }
-            ],
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": {
-                        "min": 1,
-                        "max": 1
-                    }
-                }
-            ],
-            "type": "minecraft:loot_table",
-            "value": "att2:item_data/legendary/kinuil"
-        }]},
         {
             "rolls": {
                 "min": 1,
@@ -9928,4 +9930,3 @@
         }
     ]
 }
-

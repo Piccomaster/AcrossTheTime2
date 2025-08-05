@@ -3,4 +3,4 @@
 #Obtain coal_0         					 	 	 #
 ##################################################
 
-give @s minecraft:charcoal[custom_data={EquipmentType:'coal',Rarity:'misc'}] 1
+give @s minecraft:charcoal[custom_data={EquipmentType:'coal',Rarity:'misc'},tooltip_style="minecraft:rarity/misc/misc"]

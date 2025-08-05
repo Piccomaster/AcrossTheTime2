@@ -3,4 +3,4 @@
 #Obtain Gem Of Time    	 	 				 	 #
 ##################################################
 
-give @s minecraft:clay_ball[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.gem_of_time.name'},lore=[{translate:'item.quest.lore'}],enchantments={'infinity':1}] 1
+give @s minecraft:clay_ball[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.gem_of_time.name'},lore=[{translate:'item.quest.lore'}],enchantments={'infinity':1},tooltip_style="minecraft:rarity/quest/quest"]

@@ -3,4 +3,4 @@
 #Obtain salmon_0         					 	 #
 ##################################################
 
-give @s minecraft:salmon[custom_data={EquipmentType:'food',Rarity:'misc'},consumable={animation:eat,consume_seconds:1.6}]
+give @s minecraft:salmon[custom_data={EquipmentType:'food',Rarity:'misc'},consumable={animation:eat,consume_seconds:1.6},tooltip_style="minecraft:rarity/misc/misc"]

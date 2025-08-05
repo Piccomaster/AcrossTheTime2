@@ -3,4 +3,4 @@
 #Obtain Minor pass    	 	 				 	 #
 ##################################################
 
-give @s minecraft:iron_nugget[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.minor_pass.name'},lore=[{translate:'item.quest.lore'}]] 1
+give @s minecraft:iron_nugget[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.minor_pass.name'},lore=[{translate:'item.quest.lore'}],tooltip_style="minecraft:rarity/quest/quest"]
