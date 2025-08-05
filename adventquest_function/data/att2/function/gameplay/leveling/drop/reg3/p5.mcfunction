@@ -3,10 +3,10 @@
 #Set loot for monster in region 3 and 5th scale of level							#
 #####################################################################################
 
-execute as @s[scores={GAMELEVEL=0..4}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t1"}
-execute as @s[scores={GAMELEVEL=5..9}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t2"}
-execute as @s[scores={GAMELEVEL=10..14}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t3"}
-execute as @s[scores={GAMELEVEL=15..19}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t4"}
+execute as @s[scores={GAMELEVEL=0..4}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t5"}
+execute as @s[scores={GAMELEVEL=5..9}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t5"}
+execute as @s[scores={GAMELEVEL=10..14}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t5"}
+execute as @s[scores={GAMELEVEL=15..19}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t5"}
 execute as @s[scores={GAMELEVEL=20..24}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t5"}
 execute as @s[scores={GAMELEVEL=25..29}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t6"}
 execute as @s[scores={GAMELEVEL=30..34}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg3l5t7"}
