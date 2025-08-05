@@ -46,15 +46,15 @@ execute as @s[scores={DIMENSION=6},x=3769,z=4053,dx=-237,dz=247] run function at
 execute if score TRUE CAL matches 1 run return 0
 
 ##Zirthion FROM 7120 7168 TO 7375 7407
-execute as @s[x=7120,z=7168,dx=-255,dz=-239] run function att2:gameplay/misc/citywalk/zirthion  
+execute as @s[scores={DIMENSION=4},x=7120,z=7168,dx=-255,dz=-239] run function att2:gameplay/misc/citywalk/zirthion  
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
 ##Kortaek FROM -5552 -4784 TO -5361 -4625
 execute as @s[scores={DIMENSION=1},x=-5552,z=-4784,dx=191,dz=159] run function att2:gameplay/misc/citywalk/kortaek
 
-##Kortaek FROM 1712 1599 TO 2575 2287
-execute as @s[scores={DIMENSION=1},x=1712,z=1599,dx=863,dz=688] run function att2:gameplay/misc/citywalk/hillvaley
+##Hillvaley FROM 1712 1599 TO 2575 2287
+execute as @s[scores={DIMENSION=2},x=1712,z=1599,dx=863,dz=688] run function att2:gameplay/misc/citywalk/hillvaley
 
 
 #if success -> Stop the command below
