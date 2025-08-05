@@ -6,7 +6,7 @@
 fill -1246 37 -754 -1244 37 -756 minecraft:air replace minecraft:stone_button
 fill -1246 37 -754 -1244 37 -756 minecraft:iron_block replace minecraft:diamond_block
 
-setblock -1248 37 -736 minecraft:stone_button[facing=west] destroy
 setblock -1247 37 -736 minecraft:diamond_block destroy
+setblock -1248 37 -736 minecraft:stone_button[facing=west] destroy
 
 clone -1247 28 -757 -1245 32 -755 -1247 28 -737 replace move

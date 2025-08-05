@@ -6,9 +6,9 @@
 setblock -1264 37 -747 minecraft:air destroy
 setblock -1265 37 -747 minecraft:iron_block destroy
 
-setblock -1255 37 -749 minecraft:stone_button destroy
-setblock -1253 37 -747 minecraft:stone_button[facing=east] destroy
 setblock -1255 37 -748 minecraft:diamond_block destroy
 setblock -1254 37 -747 minecraft:diamond_block destroy
+setblock -1255 37 -749 minecraft:stone_button destroy
+setblock -1253 37 -747 minecraft:stone_button[facing=east] destroy
 
 clone -1267 28 -748 -1265 32 -746 -1256 28 -748 replace move

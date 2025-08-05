@@ -3,5 +3,5 @@
 #Manage the physical modification for golemboss button10 reload		#
 #####################################################################
 
-setblock -1333 131 -557 minecraft:oak_button[face=ceiling] destroy
 setblock -1333 132 -557 minecraft:red_concrete destroy
+setblock -1333 131 -557 minecraft:oak_button[face=ceiling] destroy
