@@ -12,9 +12,7 @@ execute if score Real0 TIMER matches 170 run function att2:dialogs/mainquest/act
 execute if score Real0 TIMER matches 170 run function att2:voice/brynhild/brynhild1
 
 execute if score Real0 TIMER matches 250 positioned -5478 76 -4722 run function att2:summon/pnj/sylvandre
-execute if score Real0 TIMER matches 250..400 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
-#fix sit
-execute if score Real0 TIMER matches 250.. as 00000000-0000-105a-0000-00000000105a at @s run ride 00000000-0000-105a-0000-00000000105a mount @e[dy=-2,dx=0,dz=0,type=wolf,limit=1,nbt={NoAI:1b}]
+execute if score Real0 TIMER matches 250..400 as 00000000-0000-003a-0000-00000000003a at @s run rotate @s facing entity @p feet
 execute if score Real0 TIMER matches 250 run function att2:dialogs/mainquest/act_4/ch5_sylvandre_1
 execute if score Real0 TIMER matches 250 run function att2:voice/sylvandre/sylvandre22
 execute if score Real0 TIMER matches 400 run function att2:dialogs/mainquest/act_4/ch5_player_7
