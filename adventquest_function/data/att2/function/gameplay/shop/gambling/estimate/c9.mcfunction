@@ -12,5 +12,5 @@ execute positioned -4961 97 -5802 run function att2:summon/gambling0
 execute positioned -4961 97 -5802 run function att2:summon/gambling0
 execute positioned -4961 97 -5802 run function att2:summon/gambling0
 execute positioned -4961 97 -5802 run summon minecraft:experience_orb ~ ~ ~ {Value:2500}
-kill @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c9"}}},limit=1]
+kill @e[type=item,distance=..2,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"c9"}}}},limit=1]
 scoreboard players remove c9 GAMBLING 1

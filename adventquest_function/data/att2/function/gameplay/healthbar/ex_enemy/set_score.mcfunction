@@ -7,7 +7,7 @@
 #set CLASSLEVEL
 scoreboard players set @s CLASSLEVEL 7
 #set CLASSLEVEL
-scoreboard players set atk_damage CAL 77
+scoreboard players set atk_damage CAL 0
 #join team
 team join dark_green @s
 #remove tag

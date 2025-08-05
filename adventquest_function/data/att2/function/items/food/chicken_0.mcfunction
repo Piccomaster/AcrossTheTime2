@@ -3,4 +3,4 @@
 #Obtain chicken_0         					 	 #
 ##################################################
 
-give @s minecraft:chicken[custom_data={EquipmentType:'food',Rarity:'misc'}]
+give @s minecraft:chicken[custom_data={EquipmentType:'food',Rarity:'misc'},consumable={animation:eat,consume_seconds:1.6}]

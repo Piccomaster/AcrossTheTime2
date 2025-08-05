@@ -25,6 +25,14 @@ execute if score BonusLootBoss RUNE matches 8.. run function att2:summon/bat_bos
 execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/bat_boss_esc_rewards
 execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/bat_boss_esc_rewards
 
+##summon XP
+#DIFFICULTY 0
+execute if score level DIFFICULTY matches 0.. run summon experience_orb ~ ~ ~ {Value:8000,Motion:[0,0.1,0]}
+#DIFFICULTY 1
+execute if score level DIFFICULTY matches 1.. run summon experience_orb ~ ~ ~ {Value:8000,Motion:[0,0.1,0]}
+#DIFFICULTY 2
+execute if score level DIFFICULTY matches 2.. run summon experience_orb ~ ~ ~ {Value:8000,Motion:[0,0.1,0]}
+
 execute if entity @a[scores={LUC_TOT=1..}] run function att2:summon/bat_boss_esc_rewards
 execute if entity @a[scores={LUC_TOT=2..}] run function att2:summon/bat_runes_c_rewards
 execute if entity @a[scores={LUC_TOT=3..}] run function att2:summon/bat_runes_b_rewards

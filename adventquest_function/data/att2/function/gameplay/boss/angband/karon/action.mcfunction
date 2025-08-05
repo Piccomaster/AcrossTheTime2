@@ -13,7 +13,8 @@ execute if score Karon TIMER matches 450 run function att2:dialogs/mainquest/act
 execute if score Karon TIMER matches 450 positioned 3525 123 4530 run function att2:sound/misc/energy_dynamic
 execute if score Karon TIMER matches 450..499 run tp 00000000-0000-005b-0000-00000000005b 3525 123 4530 -180 0
 execute if score Karon TIMER matches 450.. at 00000000-0000-005b-0000-00000000005b run particle minecraft:dust{color:[0.1,0,0],scale:1.5} ~ ~1.2 ~ 0.4 0.7 0.4 0.1 5 force @a
-execute if score Karon TIMER matches 450.. as @e[tag=KaronMinion,x=3538,y=123,z=4497,dx=-27,dy=4,dz=50] positioned as 00000000-0000-005b-0000-00000000005b run tp @s ~0.1 ~0.1 ~
+execute if score Karon TIMER matches 450.. as @e[type=magma_cube,tag=KaronMinion,x=3538,y=120,z=4497,dx=-27,dy=10,dz=60] positioned as 00000000-0000-005b-0000-00000000005b run tp @s ~0.1 ~0.1 ~
+execute if score Karon TIMER matches 1.. as @e[type=magma_cube,tag=KaronMinion,x=3538,y=120,z=4497,dx=-27,dy=10,dz=60,nbt={Size:0}] at @s run tp ~ -10 ~
 execute if score Karon TIMER matches 455 positioned 3538 123 4521 run function att2:summon/reg_2/karon_minions1
 execute if score Karon TIMER matches 455 positioned 3525 123 4530 run function att2:sound/misc/absorption
 execute if score Karon TIMER matches 460 positioned 3511 123 4521 run function att2:summon/reg_2/karon_minions1
@@ -41,5 +42,5 @@ execute if score Karon TIMER matches 499.. at 00000000-0000-005b-0000-0000000000
 execute if score Karon TIMER matches 499 at 00000000-0000-005b-0000-00000000005b run data merge entity 00000000-0000-005b-0000-00000000005b {Invulnerable:1b,attributes:[{id:movement_speed,base:0.07}]}
 execute if score Karon TIMER matches 500 as 00000000-0000-005b-0000-00000000005b run team join noCollision @s
 execute if score Karon TIMER matches 500 run function att2:gameplay/boss/angband/karon/summoning_minions
-execute if score Karon TIMER matches 501.. unless entity @e[tag=KaronMinion,x=3538,y=123,z=4497,dx=-27,dy=4,dz=50] run scoreboard players set Karon TIMER 0
+execute if score Karon TIMER matches 501.. positioned 3525 123 4515 unless entity @e[type=magma_cube,tag=KaronMinion,distance=..50] run scoreboard players set Karon TIMER 0
 scoreboard players add Karon TIMER 1

@@ -53,7 +53,6 @@ execute if score Real0 TIMER matches 1450 run function att2:voice/etotsira/etots
 execute if score Real0 TIMER matches 1500 run scoreboard players set etotsira_old_PNJ DIALOG 1
 execute if score Real0 TIMER matches 1525 run scoreboard players add @a SPELL20_LVL 1
 execute if score Real0 TIMER matches 1525 run scoreboard players add @a SPELL20_CAP 1
-execute if score Real0 TIMER matches 1525 run scoreboard players add LVL SPELL20_CAP 1
 execute if score Real0 TIMER matches 1525 as @a run function att2:gameplay/dahal/action/spell20/lvlup
 execute if score Real0 TIMER matches 1550 positioned 30011 75 29937 run function att2:sound/door/portal_dimension
 execute if score Real0 TIMER matches 1550 positioned as 00000000-0000-008b-0000-00000000008a run function att2:summon/pnj/_interaction

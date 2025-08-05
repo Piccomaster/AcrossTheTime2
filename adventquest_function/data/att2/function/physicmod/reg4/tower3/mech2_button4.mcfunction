@@ -3,6 +3,6 @@
 #Manage the physical modification for mech2 button4 in Ouranos 	#
 #################################################################
 
-setblock 7707 87 5972 minecraft:air
-setblock 7707 87 5973 minecraft:gold_block
+setblock 7707 87 5972 minecraft:air destroy
+setblock 7707 87 5973 minecraft:gold_block destroy
 fill 7707 86 5972 7707 86 5970 minecraft:air

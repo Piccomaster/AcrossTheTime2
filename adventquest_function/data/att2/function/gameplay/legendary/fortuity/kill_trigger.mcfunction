@@ -6,7 +6,7 @@
 #get COUNT
 scoreboard players add @s FORTUITY 1
 #effect
-execute if score @s FORTUITY matches 10.. run function att2:gameplay/legendary/fortuity/rewards
+execute if score @s FORTUITY matches 3.. run function att2:gameplay/legendary/fortuity/rewards
 
 ##revoke test
 advancement revoke @s only att2_test:legendary/fortuity/kill_trigger

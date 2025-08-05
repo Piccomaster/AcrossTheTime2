@@ -4,7 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 0 run scoreboard players set ithil_PNJ DIALOG 0
-execute if score Real0 TIMER matches 0..500 as 00000000-0000-084a-0000-00000000084a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Real0 TIMER matches 0..500 as 00000000-0000-084a-0000-00000000084a at @s run rotate @s facing entity @p feet
 execute if score Real0 TIMER matches 1 run function att2:physicmod/reg1/ryliath_palace2
 execute if score Real0 TIMER matches 1 as @a[x=-4968,y=134,z=-4906,distance=..100,gamemode=adventure] at @s run tp @s -4968 134 -4906
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch3_adrian_1

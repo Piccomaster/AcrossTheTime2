@@ -7,7 +7,8 @@
             }
         },
         "title": {"translate":"att2.advancement.mobskilled.title.mimic_killed_100"},
-        "description": {"translate":"att2.advancement.mobskilled.description.mimic_killed_100"}
+        "description": {"translate":"att2.advancement.mobskilled.description.mimic_killed_100"},
+        "frame": "challenge"
     },
     "parent": "att2:mobskilled/mimic_killed_25",
     "rewards": {

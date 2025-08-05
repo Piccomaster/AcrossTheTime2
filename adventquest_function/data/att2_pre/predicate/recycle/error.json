@@ -14,7 +14,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{components:{EquipmentType:runic_word}}}"
+                "nbt":"{Item:{components:{'minecraft:custom_data':{EquipmentType:runic_word}}}}"
             }
         },
         {
@@ -22,7 +22,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt":"{Item:{components:{EquipmentType:que}}}"
+                "nbt":"{Item:{components:{'minecraft:custom_data':{EquipmentType:que}}}}"
             }
         }
     ]

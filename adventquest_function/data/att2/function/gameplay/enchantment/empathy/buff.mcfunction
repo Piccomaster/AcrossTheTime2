@@ -21,3 +21,5 @@ scoreboard players set @s TIMER_SPD_EH 1
 #reset
 scoreboard players reset temp_value_1 CAL
 scoreboard players reset temp_value_2 CAL
+#night_vision
+effect give @s night_vision 11 0 true

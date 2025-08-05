@@ -3,4 +3,4 @@
 #Manage the physical modification for underground mech8 button4		#
 #####################################################################
 
-setblock -5756 79 -6368 minecraft:air
+setblock -5756 79 -6368 minecraft:air destroy

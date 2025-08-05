@@ -3,11 +3,11 @@
 #Manage the physical modification for Asunark wings lever1 mech3	#
 #####################################################################
 
-setblock -3455 45 -4867 minecraft:air
-setblock -3451 45 -4867 minecraft:air
-setblock -3435 39 -4879 minecraft:air
-setblock -3445 31 -4873 minecraft:coal_block
-setblock -3445 29 -4873 minecraft:sea_lantern
+setblock -3455 45 -4867 minecraft:air destroy
+setblock -3451 45 -4867 minecraft:air destroy
+setblock -3435 39 -4879 minecraft:air destroy
+setblock -3445 31 -4873 minecraft:coal_block destroy
+setblock -3445 29 -4873 minecraft:sea_lantern destroy
 
 fill -3456 43 -4875 -3431 33 -4897 minecraft:air replace minecraft:water
 

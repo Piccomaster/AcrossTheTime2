@@ -15,7 +15,6 @@ scoreboard players set 00000000-0000-094a-0000-00000000094a TALKING_TIMER 150
 
 scoreboard players add @a SPELL20_LVL 1
 scoreboard players add @a SPELL20_CAP 1
-scoreboard players add LVL SPELL20_CAP 1
 execute as @a run function att2:gameplay/dahal/action/spell20/lvlup
 
 execute positioned -5043 149 -4876.6 run function att2:summon/pnj/_interaction

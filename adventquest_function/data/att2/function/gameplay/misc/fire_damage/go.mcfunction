@@ -4,8 +4,8 @@
 #################################################################
 
 #tag set ->no fire entity
-execute as @e[scores={GAMELEVEL=0..},team=hostile,predicate=att2_pre:player/fire,tag=!FIRE] at @s run function att2:gameplay/misc/fire_damage/tag
+execute as @e[type=#minecraft:mob,scores={GAMELEVEL=0..},team=hostile,predicate=att2_pre:player/fire,tag=!FIRE] at @s run function att2:gameplay/misc/fire_damage/tag
 #damage effect
-execute if score tic TIMECOUNTER matches 11 as @e[scores={GAMELEVEL=0..},team=hostile,predicate=att2_pre:player/fire,tag=FIRE] at @s run function att2:gameplay/misc/fire_damage/damage_cal
+execute if score tic TIMECOUNTER matches 11 as @e[type=#minecraft:mob,scores={GAMELEVEL=0..},team=hostile,predicate=att2_pre:player/fire,tag=FIRE] at @s run function att2:gameplay/misc/fire_damage/damage_cal
 #time cal
-execute as @e[scores={GAMELEVEL=0..},team=hostile,predicate=!att2_pre:player/fire,tag=FIRE] at @s run function att2:gameplay/misc/fire_damage/reset
+execute as @e[type=#minecraft:mob,scores={GAMELEVEL=0..},team=hostile,predicate=!att2_pre:player/fire,tag=FIRE] at @s run function att2:gameplay/misc/fire_damage/reset

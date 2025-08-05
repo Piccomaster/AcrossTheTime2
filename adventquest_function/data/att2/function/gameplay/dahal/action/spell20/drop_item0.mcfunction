@@ -3,8 +3,12 @@
 #Stock lvl1										                #
 #################################################################
 
+#sound
+function att2:sound/dialogs/simple
 ##set_chest
 execute store result storage att2:spell20 NUMEROJOUEUR int 1 run scoreboard players get @s OWNER
+#update lvl
+function att2:gameplay/dahal/action/spell20/update_chest_lvl with storage att2:spell20
 execute store result storage att2:spell20 now_page int 1 run scoreboard players get @s SPELL20_PAGE
 execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_LVL
 scoreboard players add @s SPELL20_DROP 1

@@ -10,3 +10,6 @@ attribute @s luck modifier remove minecraft:effect.luck
 $attribute @s luck modifier add minecraft:effect.luck $(luck_lvl) add_value
 #reset
 scoreboard players reset @s FORTUITY
+#sound
+playsound magicspell player @s ~ ~ ~ 1 2
+playsound blast1 player @s ~ ~ ~ 8 1.5

@@ -16,7 +16,7 @@ execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_7] run fun
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_8] run function att2:gameplay/grinder/total/8_inu
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_9] run function att2:gameplay/grinder/total/9_hal
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_10] run function att2:gameplay/grinder/total/10_von
-execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_11] at @s run function att2:gameplay/grinder/total/11_ehl
+execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_11] run function att2:gameplay/grinder/total/11_ehl
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_12] run function att2:gameplay/grinder/total/12_ave
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_13] run function att2:gameplay/grinder/total/13_chu
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_14] run function att2:gameplay/grinder/total/14_for
@@ -35,31 +35,31 @@ execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_26] run fu
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_27] run function att2:gameplay/grinder/total/27_mot
 
 scoreboard players operation 1_gal GRINDER *= 1 CAL
-scoreboard players operation 2_tha GRINDER *= 1 CAL
-scoreboard players operation 3_fus GRINDER *= 1 CAL
-scoreboard players operation 4_org GRINDER *= 2 CAL
-scoreboard players operation 5_jo GRINDER *= 2 CAL
-scoreboard players operation 6_ra GRINDER *= 2 CAL
-scoreboard players operation 7_nym GRINDER *= 3 CAL
-scoreboard players operation 8_inu GRINDER *= 4 CAL
-scoreboard players operation 9_hal GRINDER *= 5 CAL
+scoreboard players operation 2_tha GRINDER *= 2 CAL
+scoreboard players operation 3_fus GRINDER *= 3 CAL
+scoreboard players operation 4_org GRINDER *= 4 CAL
+scoreboard players operation 5_jo GRINDER *= 5 CAL
+scoreboard players operation 6_ra GRINDER *= 6 CAL
+scoreboard players operation 7_nym GRINDER *= 7 CAL
+scoreboard players operation 8_inu GRINDER *= 8 CAL
+scoreboard players operation 9_hal GRINDER *= 9 CAL
 scoreboard players operation 10_von GRINDER *= 20 CAL
-scoreboard players operation 11_ehl GRINDER *= 20 CAL
-scoreboard players operation 12_ave GRINDER *= 20 CAL
-scoreboard players operation 13_chu GRINDER *= 20 CAL
-scoreboard players operation 14_for GRINDER *= 20 CAL
+scoreboard players operation 11_ehl GRINDER *= 22 CAL
+scoreboard players operation 12_ave GRINDER *= 24 CAL
+scoreboard players operation 13_chu GRINDER *= 26 CAL
+scoreboard players operation 14_for GRINDER *= 28 CAL
 scoreboard players operation 15_da GRINDER *= 40 CAL
-scoreboard players operation 16_wej GRINDER *= 40 CAL
-scoreboard players operation 17_ust GRINDER *= 40 CAL
-scoreboard players operation 18_lya GRINDER *= 40 CAL
+scoreboard players operation 16_wej GRINDER *= 42 CAL
+scoreboard players operation 17_ust GRINDER *= 44 CAL
+scoreboard players operation 18_lya GRINDER *= 46 CAL
 scoreboard players operation 19_qi GRINDER *= 75 CAL
-scoreboard players operation 20_bex GRINDER *= 75 CAL
+scoreboard players operation 20_bex GRINDER *= 77 CAL
 scoreboard players operation 21_puh GRINDER *= 100 CAL
-scoreboard players operation 22_syl GRINDER *= 100 CAL
+scoreboard players operation 22_syl GRINDER *= 120 CAL
 scoreboard players operation 23_yog GRINDER *= 250 CAL
-scoreboard players operation 24_kan GRINDER *= 250 CAL
+scoreboard players operation 24_kan GRINDER *= 275 CAL
 scoreboard players operation 25_xul GRINDER *= 500 CAL
-scoreboard players operation 26_zen GRINDER *= 500 CAL
+scoreboard players operation 26_zen GRINDER *= 550 CAL
 scoreboard players operation 27_mot GRINDER *= 1000 CAL
 
 scoreboard players operation total GRINDER += 1_gal GRINDER

@@ -17,8 +17,8 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq11/frowin_nep
 
 #REWARDS
 xp add @a 3000 points
-function att2:items/food/baked_potato_0
-function att2:items/food/baked_potato_0
+execute as @a run function att2:items/food/baked_potato_0
+execute as @a run function att2:items/food/baked_potato_0
 scoreboard players add @a CHRONOTON 120
 tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+120 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 

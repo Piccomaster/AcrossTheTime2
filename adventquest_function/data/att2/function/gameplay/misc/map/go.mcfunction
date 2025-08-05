@@ -14,3 +14,6 @@ execute if score tic TIMECOUNTER matches 1 as @e[type=interaction,scores={OWNER=
 
 #display scale
 execute as @a[scores={MAP_DISPLAY=1..}] at @s run function att2:gameplay/misc/map/display/scale/detection
+
+#summon road marker (prevent kill @E)
+execute if score minute TIMECOUNTER matches 0 if score second TIMECOUNTER matches 0 if score tic TIMECOUNTER matches 0 run function att2:gameplay/misc/map/system_set/summon_marker/road_point

@@ -18,7 +18,7 @@ execute if score Real0 TIMER matches 120 positioned -7418 127 -5743 run function
 execute if score Real0 TIMER matches 150 positioned -7418 127 -5743 run function att2:sound/misc/laser
 execute if score Real0 TIMER matches 200 run function att2:physicmod/reg1/ithax/ship_sas_explode
 execute if score Real0 TIMER matches 200 positioned -7418 127 -5743 run function att2:sound/misc/explosion_glass
-execute if score Real0 TIMER matches 225 in minecraft:overworld run spawnpoint @a -7414 140 -5715
+execute if score Real0 TIMER matches 225 in minecraft:overworld run spawnpoint @a[x=-7414,y=140,z=-5715,distance=..200] -7414 140 -5715
 execute if score Real0 TIMER matches 250 as @a[x=-7424,y=130,z=-5750,distance=..300] run function att2:gameplay/speceffect/disincarnate/start
 execute if score Real0 TIMER matches 250..299 as @a[gamemode=spectator] run tp @s -7423 127 -5736 165 25
 execute if score Real0 TIMER matches 300 run stopsound @a

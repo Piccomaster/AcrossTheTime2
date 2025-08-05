@@ -74,9 +74,9 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alyia Lana : ","color":"green",
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"[Mostre-me o que você tem. -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/alyia_lana_shop_opening"},"hover_event":{"action":"show_text","value":"Clique aqui para ver o que Alyia está vendendo."}}]}
 
 
-execute if score SQ5 SIDEQUEST matches 1 run function att2:dialogs/sidequest/sq5/alyia_lana/player_proposal_1/choice_1
-execute if score SQ5 SIDEQUEST matches 1 run function att2:dialogs/sidequest/sq5/alyia_lana/player_proposal_1/choice_2
-
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"你好， 你想不想尝尝一个南瓜派？ 或者别的什么， 我这里有很多吃的...","color":"dark_aqua"}]}
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"[让我看看你有什么。-->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/alyia_lana_shop_opening"},"hover_event":{"action":"show_text","value":"单击此处查看 Alyia 的销售情况。"}}]}
+
+execute if score SQ5 SIDEQUEST matches 1 run function att2:dialogs/sidequest/sq5/alyia_lana/player_proposal_1/choice_1
+execute if score SQ5 SIDEQUEST matches 1 run function att2:dialogs/sidequest/sq5/alyia_lana/player_proposal_1/choice_2

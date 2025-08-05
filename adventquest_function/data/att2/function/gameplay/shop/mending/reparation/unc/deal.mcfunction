@@ -15,3 +15,5 @@ scoreboard players operation @s CHRONOTON -= mending_unc PRICES
 
 scoreboard players add unc MENDING 1
 scoreboard players add @s MENDING 1
+#test advancement
+function att2:advancement/test_all/treasure/mending

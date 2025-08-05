@@ -3,4 +3,4 @@
 #Manage the physical modification for Asunark outside tower2	#
 #################################################################
 
-setblock -3555 96 -4926 minecraft:air
+setblock -3555 96 -4926 minecraft:air destroy

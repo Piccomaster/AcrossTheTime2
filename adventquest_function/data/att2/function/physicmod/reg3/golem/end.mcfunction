@@ -3,4 +3,4 @@
 #Manage the physical modification for end 							#
 #####################################################################
 
-setblock -863 69 -641 minecraft:air
+setblock -863 69 -641 minecraft:air destroy

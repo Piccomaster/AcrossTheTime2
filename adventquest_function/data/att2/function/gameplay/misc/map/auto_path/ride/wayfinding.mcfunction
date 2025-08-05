@@ -10,7 +10,7 @@ scoreboard players add ROUTE_POINT AUTO_PATH 1
 execute store result storage att2:route start int 1 run scoreboard players get @s AUTO_PATH
 execute store result storage att2:route end int 1 run scoreboard players get ROUTE_POINT AUTO_PATH
 #keep minecart on horse
-execute if score @s AUTO_PATH matches 1..2 run function att2:gameplay/misc/map/auto_path/ride/ride_keep with storage att2:route
+execute if score @s AUTO_PATH matches 0..2 run function att2:gameplay/misc/map/auto_path/ride/ride_keep with storage att2:route
 #make minecart no motion
 execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/misc/map/auto_path/ride/data_keep with storage att2:route
 #detection way point

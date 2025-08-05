@@ -3,7 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-team join gray @s
 execute if entity @p[scores={GAMELEVEL=15..}] run scoreboard players add 0_gal_org_inu RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=15..}] run scoreboard players set RequiredError RUNE 100

@@ -9,6 +9,7 @@
 #back SCALE
 execute store result storage att2:hp_bar scale double 0.01 run scoreboard players get HP_PERCENT CAL
 execute store result entity @s transformation.scale[2] double 0.01 run scoreboard players get HP_PERCENT CAL
+execute if score HP_PERCENT CAL matches ..1 run scoreboard players set HP_PERCENT CAL 1 
 #cal translation
 scoreboard players set TRANSLATION CAL 100
 scoreboard players operation TRANSLATION CAL -= HP_PERCENT CAL
@@ -17,4 +18,4 @@ scoreboard players operation TRANSLATION CAL *= -5 CAL
 execute store result storage att2:hp_bar translation double 0.01 run scoreboard players get TRANSLATION CAL
 execute store result entity @s transformation.translation[0] double 0.001 run scoreboard players get TRANSLATION CAL
 #set progress time
-data modify entity @s interpolation_duration set value 10
+data modify entity @s interpolation_duration set value 5

@@ -3,5 +3,5 @@
 #Manage the physical modification for ryliath ithil door opening 	#
 #####################################################################
 
-setblock -4959 144 -4910 minecraft:redstone_torch
-setblock -4956 144 -4910 minecraft:redstone_torch
+setblock -4959 144 -4910 minecraft:redstone_torch destroy
+setblock -4956 144 -4910 minecraft:redstone_torch destroy

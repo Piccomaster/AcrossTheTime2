@@ -4,5 +4,5 @@
 #################################################################
 
 fill 7707 193 5972 7707 193 5970 minecraft:air
-setblock 7707 194 5972 minecraft:air
+setblock 7707 194 5972 minecraft:air destroy
 fill 7707 192 5973 7707 194 5973 minecraft:gold_block replace minecraft:diamond_block

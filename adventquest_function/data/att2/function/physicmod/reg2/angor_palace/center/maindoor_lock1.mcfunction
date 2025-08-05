@@ -4,4 +4,4 @@
 #####################################################################
 
 fill 3526 48 4660 3536 41 4660 minecraft:air
-setblock 3526 48 4660 minecraft:quartz_stairs[facing=west,half=top]
+setblock 3526 48 4660 minecraft:quartz_stairs[facing=west,half=top] destroy

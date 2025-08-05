@@ -4,6 +4,6 @@
 #############################################################################
 
 fill -3443 26 -4876 -3443 26 -4897 minecraft:water
-setblock -3443 31 -4897 minecraft:air
-setblock -3438 29 -4902 minecraft:air
-setblock -3448 29 -4902 minecraft:air
+setblock -3443 31 -4897 minecraft:air destroy
+setblock -3438 29 -4902 minecraft:air destroy
+setblock -3448 29 -4902 minecraft:air destroy

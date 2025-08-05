@@ -5,8 +5,8 @@
 
 clone -1124 130 -692 -1117 156 -685 -1151 121 -674 masked force
 fill -1151 119 -670 -1154 119 -672 minecraft:air
-setblock -1152 117 -670 minecraft:air
-setblock -1153 117 -671 minecraft:air
+setblock -1152 117 -670 minecraft:air destroy
+setblock -1153 117 -671 minecraft:air destroy
 fill -1152 117 -672 -1153 116 -672 minecraft:air
 fill -1151 117 -672 -1151 116 -673 minecraft:air
 

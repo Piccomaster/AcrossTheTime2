@@ -3,4 +3,4 @@
 #Manage the physical modification for center secret true			#
 #####################################################################
 
-setblock ~ ~ ~ minecraft:redstone_torch
+setblock ~ ~ ~ minecraft:redstone_torch destroy

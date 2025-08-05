@@ -4,6 +4,6 @@
 #####################################################################
 
 fill -1237 109 -709 -1235 109 -709 minecraft:emerald_block
-setblock -1237 115 -709 minecraft:diamond_block
-setblock -1237 115 -710 minecraft:oak_button
-setblock -1237 109 -710 minecraft:air
+setblock -1237 115 -709 minecraft:diamond_block destroy
+setblock -1237 115 -710 minecraft:oak_button destroy
+setblock -1237 109 -710 minecraft:air destroy

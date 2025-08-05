@@ -3,6 +3,7 @@
 #Use function to process the Dialog 2 of Albert Dirac 			#
 #################################################################
 
+function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 title @s[scores={LANGUAGE=0}] actionbar {"text":"Désactiver la lumière dynamique des torches","color":"green"}

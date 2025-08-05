@@ -5,6 +5,16 @@
   "experience": 0.35,
   "ingredient": "minecraft:beef",
   "result": {
-    "id": "minecraft:cooked_beef"
+    "id": "minecraft:cooked_beef",
+    "components": {
+      "minecraft:custom_data": {
+        "EquipmentType": "food",
+        "Rarity": "misc"
+      },
+      "consumable": {
+        "animation": "eat",
+        "consume_seconds": 1.4
+      }
+    }
   }
 }

@@ -4,7 +4,7 @@
 #################################################################
 
 # Prevent item destruction by environment
-execute at @a[gamemode=adventure] as @e[type=minecraft:item,distance=..30,predicate=att2_pre:test_item/health] run data merge entity @s {Health:32767s}
+execute at @a[gamemode=adventure] as @e[type=minecraft:item,distance=..30,predicate=!att2_pre:test_item/health] run data merge entity @s {Health:32767s}
 execute if score tic TIMECOUNTER matches 5 at @a[gamemode=adventure] as @e[type=minecraft:item,distance=..30] at @s if block ~ ~ ~ minecraft:lava run tp @s ~ ~1 ~
 execute if score tic TIMECOUNTER matches 15 at @a[gamemode=adventure] as @e[type=minecraft:item,distance=..30] at @s if block ~ ~-1 ~ minecraft:lava run tp @s ~ ~2 ~
 # Prevent item disappear on recycler

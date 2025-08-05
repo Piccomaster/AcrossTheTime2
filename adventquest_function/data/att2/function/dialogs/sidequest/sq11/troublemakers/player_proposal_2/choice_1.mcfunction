@@ -53,4 +53,4 @@ tellraw @s[scores={LANGUAGE=10},x=-4980,y=82,z=-5027,distance=..7] {nbt:"set",st
 
 #Simplified Chinese LANGUAGE
 
-tellraw @s[scores={LANGUAGE=11},x=-4980,y=82,z=-5027,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[就知道会这样...好吧，那我们来试试谁的拳头硬-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute as @p[x=-4980,y=82,z=-5027,distance=..7] if score troublemakers_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/11/troublemakers/answer_1_2"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=11},x=-4980,y=82,z=-5027,distance=..7] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[就知道会这样...好吧，那我们来试试谁的拳头硬-->]","color":"gray","click_event":{"action":"run_command","command":"/execute as @p[x=-4980,y=82,z=-5027,distance=..7] if score troublemakers_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/11/troublemakers/answer_1_2"},"hover_event":{"action":"show_text","value":"点击这里 - 回答 1"}}]}

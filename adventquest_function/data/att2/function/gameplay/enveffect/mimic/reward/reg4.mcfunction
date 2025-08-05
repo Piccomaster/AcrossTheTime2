@@ -5,8 +5,6 @@
 
 ##add kill score
 scoreboard players add total_killed MIMIC 1
-##advancement trigger
-function att2:advancement/test_all/mobskilled/mimic
 #
 particle dust{color:[1.0,0.667,0.0],scale:1} ~ ~1 ~ 1 1 1 0 50
 execute as @a[distance=..50] at @s run function att2:dialogs/gameplay/misc/mimic_dead
@@ -18,36 +16,38 @@ execute at @a run function att2:sound/misc/coins1
 summon minecraft:fireball ~ ~1 ~ {Tags:["New"],ExplosionPower:1,Motion:[0.0,-1.0,0.0]}
 #prevent die from fireball
 execute at @s as @e[type=fireball,tag=New] run data modify entity @s Owner set from entity @a[distance=..0,limit=1] UUID
-tag @e[tag=FireballSpell,tag=New,type=fireball] remove New
+tag @e[tag=New,type=fireball] remove New
 #reward test
 scoreboard players operation reward MIMIC = @s LUC_TOT
 scoreboard players operation reward MIMIC *= 4 CAL
 scoreboard players operation reward MIMIC += @e[distance=..0,limit=1,type=slime,tag=MIMIC] MIMIC
 
-execute if score reward MIMIC matches 1.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c2t2
-execute if score reward MIMIC matches 5.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c2t2
-execute if score reward MIMIC matches 10.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c2t2
-execute if score reward MIMIC matches 15.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c3t3
-execute if score reward MIMIC matches 20.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c3t3
-execute if score reward MIMIC matches 25.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c3t3
+execute if score reward MIMIC matches 1.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c2t2
+execute if score reward MIMIC matches 5.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c2t2
+execute if score reward MIMIC matches 10.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c2t2
+execute if score reward MIMIC matches 15.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c3t3
+execute if score reward MIMIC matches 20.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c3t3
+execute if score reward MIMIC matches 25.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c3t3
 
-execute if score reward MIMIC matches 30.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c4t4
-execute if score reward MIMIC matches 35.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c4t4
-execute if score reward MIMIC matches 40.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c5t5
-execute if score reward MIMIC matches 45.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c5t5
-execute if score reward MIMIC matches 50.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c6t6
-execute if score reward MIMIC matches 55.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c6t6
+execute if score reward MIMIC matches 30.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c4t4
+execute if score reward MIMIC matches 35.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c4t4
+execute if score reward MIMIC matches 40.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c5t5
+execute if score reward MIMIC matches 45.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c5t5
+execute if score reward MIMIC matches 50.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c6t6
+execute if score reward MIMIC matches 55.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c6t6
 
-execute if score reward MIMIC matches 60.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c7t3
-execute if score reward MIMIC matches 65.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c7t5
-execute if score reward MIMIC matches 70.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c8t3
-execute if score reward MIMIC matches 75.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c8t5
-execute if score reward MIMIC matches 80.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c9t3
-execute if score reward MIMIC matches 85.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c9t5
+execute if score reward MIMIC matches 60.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c7t3
+execute if score reward MIMIC matches 65.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c7t5
+execute if score reward MIMIC matches 70.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c8t3
+execute if score reward MIMIC matches 75.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c8t5
+execute if score reward MIMIC matches 80.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c9t3
+execute if score reward MIMIC matches 85.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c9t5
 
-execute if score reward MIMIC matches 90.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c10t10
-execute if score reward MIMIC matches 95.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c10t10
-execute if score reward MIMIC matches 100.. run loot spawn ~ ~2 ~ loot att2:chest/reg4/c10t10
+execute if score reward MIMIC matches 90.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c10t10
+execute if score reward MIMIC matches 95.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c10t10
+execute if score reward MIMIC matches 100.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c10t10
 
 #remove
 tp @e[tag=MIMIC,distance=..2] ~ -10 ~
+##advancement trigger
+function att2:advancement/test_all/mobskilled/mimic

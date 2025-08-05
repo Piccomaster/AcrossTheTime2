@@ -3,4 +3,4 @@
 #Manage the physical modification for Jarat ladder1 	#
 #########################################################
 
-setblock -4621 80 -5406 minecraft:ladder
+setblock -4621 80 -5406 minecraft:ladder destroy

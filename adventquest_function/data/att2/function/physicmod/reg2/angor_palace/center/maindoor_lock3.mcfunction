@@ -5,4 +5,4 @@
 
 fill 3524 50 4660 3515 58 4660 minecraft:air replace minecraft:soul_sand
 fill 3524 50 4660 3515 58 4660 minecraft:air replace minecraft:quartz_block
-setblock 3524 50 4660 minecraft:quartz_stairs[facing=east,half=bottom]
+setblock 3524 50 4660 minecraft:quartz_stairs[facing=east,half=bottom] destroy

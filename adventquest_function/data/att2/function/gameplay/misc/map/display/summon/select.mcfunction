@@ -8,7 +8,7 @@ function att2:gameplay/misc/map/display/summon/return
 #summon sylberland
 execute at @s positioned ^ ^2 ^1.9 run function att2:gameplay/misc/map/display/summon/sylberland
 #summon now_pos
-function att2:gameplay/misc/map/display/summon/now_pos
+#function att2:gameplay/misc/map/display/summon/now_pos
 #test score
 function att2:gameplay/misc/map/display/summon/point_score
 

@@ -18,7 +18,7 @@ execute as @a at @s run function att2:gameplay/misc/chesteffect/eye_effect/go
 ##
 function att2:gameplay/misc/title_effect/go
 function att2:gameplay/misc/fire_immune/go
-execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/survive_bonus/go
+execute if score tic TIMECOUNTER matches 15 as @a run function att2:gameplay/misc/survive_bonus/go
 ##invisible_minecart
 function att2:gameplay/misc/invisible_minecart/go
 execute if score Mainquest SIDEQUEST matches 180.. run function att2:gameplay/misc/celestial_tear/go
@@ -47,3 +47,5 @@ execute if score tic TIMECOUNTER matches 7 as @a at @s if entity @e[type=experie
 function att2:gameplay/misc/map/go
 #ride keep
 execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/horse/go
+#city walk
+execute if score tic TIMECOUNTER matches 15 as @a at @s run function att2:gameplay/misc/citywalk/go

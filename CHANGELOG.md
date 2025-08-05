@@ -114,12 +114,27 @@
   - Additionally, they can unlock **40 small waypoints**.  
   - Players can select a small waypoint and use their mount to **automatically travel** to the chosen destination.
 
+  - **Visual Options: add some customizable settings**:
+  - Health bar display
+  - Item particle effects
+  - Attribute display
+  - Dynamic lighting
+  - Hero title particle effects
+  - Screen shake effects
+
+  - **City Walk System**
+  - **City Title Display**: Shows city name in center screen upon entry
+  - **Movement Bonus**: Grants Speed II effect while within city limits
 
 ### Balance:
 - **Attribute System Update** 
   - Most attributes now **directly modify base stats** (no "status effects").  
-  - *Exception:* "Resistance" unchanged.  
-  - **Strength** damage cap removed (no longer maxes at 756).  
+- **Speed/Haste Attributes**:
+  - Each point affects movement speed and attack speed
+- **Strength Attribute**:
+  - Removed level cap (previously 35)
+  - Removed damage limit (previously 756 max)
+  - Smoother scaling curve
 
 - **empty hand Penalty** 
   - Now reduces **attack damage by 99%** (no longer reduces attack speed).  
@@ -145,12 +160,40 @@
   - Standardization and reduction of certain rewards in **master difficulty**
   - Increase of **Doom** resistance.
 
+- **Mimic Chest Adjustments**
+  - Reduced spawn rate
+  - Added appearance tips
+
+- **Boss Rewards**
+  - EXP Bonus: Defeating bosses grants additional experience points
+
+- **Rune Material Grinding**
+  - Slightly increased conversion rate**
+
+- **Food**
+  - Slightly increased consumption speed
+
+- **Loot Changes**
+- Improved drop rate for:
+  - Small coins
+  - Runes (from invasions and maze encounters)
+
 ### Bug Fix:
 - **Quest Progression Issues**  
   - Fixed a bug where long questlines (e.g., *Emerald Journey*) could fail to detect progress due to excessive player teleportation (TP).
 - **Exploration Point Vault Rewards** 
   - Now determined by the player with the **highest exploration points**. 
 - **Side Quest Achievement Sync**
-  - Automatically grants achievements to eligible offline players when others complete side quests.   
-### Miscellaneous:
+  - Automatically grants achievements to eligible offline players when others complete side quests.
+
+### Miscellaneous
+
+- **Mount Mechanics**
+  - Distance Restriction: Immobilizes and emits glow when player moves too far away
+  - Damage Immunity: No longer takes fall damage/fire damage
+- **Spell Pet Mechanics**
+  - Immune to all damage types
+
+
+
 -

@@ -15,5 +15,5 @@ clear @s minecraft:quartz[custom_name={translate:'item.coin.esc.name'}] 1
 scoreboard players operation @s CHRONOTON -= mending_leg PRICES
 scoreboard players add leg MENDING 1
 scoreboard players add @s MENDING 1
-##test MENDING
+#test advancement
 function att2:advancement/test_all/treasure/mending

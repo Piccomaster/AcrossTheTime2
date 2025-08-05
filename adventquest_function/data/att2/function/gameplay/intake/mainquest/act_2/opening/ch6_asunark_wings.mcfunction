@@ -11,3 +11,6 @@ execute if score wings_secret ASUNARK matches 90.. run stopsound @a block minecr
 execute if score wings_secret ASUNARK matches 100.. run function att2:cinematic/act_2/asunark/wing_s/secret_door
 #clear textdisplay
 execute if score wings_secret ASUNARK matches 100.. positioned -3541 28 -4885 run kill @e[type=text_display,distance=..10,tag=QUEST]
+execute if score wings_secret ASUNARK matches 100.. positioned -3541 28 -4885 run kill @e[type=item_display,distance=..10,tag=QUEST]
+#clear block
+execute if score wings_secret ASUNARK matches 100.. run setblock -3541 28 -4885 air destroy

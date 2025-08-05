@@ -1,0 +1,21 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/manufacturer/head/eternan"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/manufacturer/head/eternan"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/manufacturer/head/eternan"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/manufacturer/head/eternan"
+    }
+  ]
+}

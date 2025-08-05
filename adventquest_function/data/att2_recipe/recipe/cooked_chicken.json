@@ -5,6 +5,16 @@
   "experience": 0.35,
   "ingredient": "minecraft:chicken",
   "result": {
-    "id": "minecraft:cooked_chicken"
+    "id": "minecraft:cooked_chicken",
+    "components": {
+      "minecraft:custom_data": {
+        "EquipmentType": "food",
+        "Rarity": "misc"
+      },
+      "consumable": {
+        "animation": "eat",
+        "consume_seconds": 1.4
+      }
+    }
   }
 }

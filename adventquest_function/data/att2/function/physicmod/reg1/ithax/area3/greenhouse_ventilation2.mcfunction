@@ -7,4 +7,4 @@ fill -7447 165 -5888 -7449 163 -5888 minecraft:stone replace minecraft:player_wa
 
 fill -7447 165 -5888 -7449 163 -5888 minecraft:player_wall_head[facing=north]{profile:{name:"",id:[I;-1859547293,-1742451706,-1604127783,-95311396],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRmMTRlNTAxN2IyNzliMDNkYWM5N2Q0MjliNGE1ZmE2YzM5OGFkNTY4ZWE0M2U3YzQwNjgzYzczOThjMTYyNyJ9fX0="}]}} replace minecraft:stone
 
-setblock -7448 162 -5887 minecraft:sea_lantern
+setblock -7448 162 -5887 minecraft:sea_lantern destroy

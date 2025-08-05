@@ -3,7 +3,7 @@
 #Manage the physical modification for guardian_button1_disable3 		#
 #########################################################################
 
-setblock -7432 136 -6009 minecraft:orange_stained_glass_pane
-setblock -7431 136 -6008 minecraft:air
-setblock -7434 136 -6004 minecraft:stone
-setblock -7434 136 -6004 minecraft:player_wall_head[facing=north]{profile:{name:"",id:[I;729474635,-249577334,-1012541941,-182515055],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUyYzE4YWIzNTk0OWJmOWY5ZTdkNmE2OWI4ODVjY2Q4Y2MyZWZiOTQ3NTk0NmQ3ZDNmYjVjM2ZlZjYxIn19fQ=="}]}}
+setblock -7432 136 -6009 minecraft:orange_stained_glass_pane destroy
+setblock -7431 136 -6008 minecraft:air destroy
+setblock -7434 136 -6004 minecraft:stone destroy
+setblock -7434 136 -6004 minecraft:player_wall_head[facing=north]{profile:{name:"",id:[I;729474635,-249577334,-1012541941,-182515055],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUyYzE4YWIzNTk0OWJmOWY5ZTdkNmE2OWI4ODVjY2Q4Y2MyZWZiOTQ3NTk0NmQ3ZDNmYjVjM2ZlZjYxIn19fQ=="}]}} destroy

@@ -44,6 +44,14 @@ function att2:summon/reg_1/felroth_rewards_dedicated
 
 function att2:summon/bat_runes_c_rewards
 
+##summon XP
+#DIFFICULTY 0
+execute if score level DIFFICULTY matches 0.. run summon experience_orb ~ ~ ~ {Value:200,Motion:[0,0.1,0]}
+#DIFFICULTY 1
+execute if score level DIFFICULTY matches 1.. run summon experience_orb ~ ~ ~ {Value:200,Motion:[0,0.1,0]}
+#DIFFICULTY 2
+execute if score level DIFFICULTY matches 2.. run summon experience_orb ~ ~ ~ {Value:200,Motion:[0,0.1,0]}
+
 #boss time 1
 execute if score felroth_m BOSS_TIME matches 0 if score felroth_s BOSS_TIME matches ..60 run function att2:summon/bat_runes_c_rewards
 #boss time 2

@@ -22,11 +22,11 @@ execute if score Wave EOLORION matches 3 if entity @a[x=-5376,y=112,z=-6310,dist
 
 
 # Wave 1 Guards Attack defending the gate
-execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 10 run summon minecraft:arrow -5363 121 -6297 {Fire:50,Motion:[-0.4,-0.1,-0.55],damage:2.0,pickup:1}
+execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 10 run summon minecraft:arrow -5363 121 -6297 {Fire:50,Motion:[-0.4,-0.1,-0.55],damage:2.0,pickup:2}
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 10 as @a run function att2:sound/misc/arrow_shoot
-execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 120 run summon minecraft:arrow -5352 117 -6307 {Fire:50,Motion:[-0.5,0.1,-0.1],damage:2.0,pickup:1}
+execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 120 run summon minecraft:arrow -5352 117 -6307 {Fire:50,Motion:[-0.5,0.1,-0.1],damage:2.0,pickup:2}
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 120 as @a run function att2:sound/misc/arrow_shoot
-execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 150 run summon minecraft:arrow -5345 131 -6315 {Fire:50,Motion:[-0.9,0.35,0.4],damage:2.0,pickup:1}
+execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 150 run summon minecraft:arrow -5345 131 -6315 {Fire:50,Motion:[-0.9,0.35,0.4],damage:2.0,pickup:2}
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 150 as @a run function att2:sound/misc/arrow_shoot
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 200 run summon minecraft:small_fireball -5360 118 -6300 {Motion:[-1.0,-0.45,-1.2]}
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 200 as @a run function att2:sound/misc/arrow_shoot

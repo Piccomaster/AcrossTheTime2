@@ -53,7 +53,7 @@
                     "slot": "mainhand"
                   }
                 ],
-                "minecraft:damage": 156,
+                "minecraft:damage": 0,
                 "minecraft:max_damage": 40
               }
             }

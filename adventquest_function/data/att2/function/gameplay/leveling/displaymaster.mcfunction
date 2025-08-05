@@ -3,7 +3,7 @@
 #Display level up												#
 #################################################################
 
-title @s times 10 60 100
+title @s times 10 60 10
 title @s title [{"text":"﴾( ","color":"dark_gray"},{"translate":"att2.leveling.master.title"},{"text":" )﴿","color":"dark_gray"}]
 title @s subtitle {"text":"° ","color":"gray","extra":[{"score":{"name":"@s","objective":"GAMELEVEL"},"color":"gray","italic":true},{"translate":"att2.leveling.master.subtitle"},{"score":{"name":"@s","objective":"LEVELMASTER"},"color":"green"},{"text":" °","color":"gray"}]}
 tellraw @a [{"selector":"@s",color:dark_red},{translate:att2.leveling.master.tellraw,with:[{"score":{"name":"@s","objective":"GAMELEVEL"},"color":"dark_red"},{"score":{"name":"@s","objective":"LEVELMASTER"},"color":"dark_red"}]}]

@@ -13,6 +13,10 @@
                 "minecraft:custom_data": {
                   "EquipmentType": "food",
                   "Rarity": "misc"
+                },
+                "consumable": {
+                  "animation": "eat",
+                  "consume_seconds": 0.5
                 }
               }
             }

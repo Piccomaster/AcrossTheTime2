@@ -4,5 +4,5 @@
 #############################################################################
 
 fill -7548 118 -4312 -7548 118 -4321 minecraft:air
-setblock -7539 140 -4314 minecraft:redstone_wire[power=9,west=side,east=side,north=side,south=side]
-setblock -7539 140 -4319 minecraft:redstone_wire[power=9,west=side,east=side,north=side,south=side]
+setblock -7539 140 -4314 minecraft:redstone_wire[power=9,west=side,east=side,north=side,south=side] destroy
+setblock -7539 140 -4319 minecraft:redstone_wire[power=9,west=side,east=side,north=side,south=side] destroy

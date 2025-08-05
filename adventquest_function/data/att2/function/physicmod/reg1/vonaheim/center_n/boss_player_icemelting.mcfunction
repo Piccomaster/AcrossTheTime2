@@ -4,4 +4,4 @@
 #############################################################################
 
 fill ~-10 ~-2 ~-10 ~10 ~2 ~10 minecraft:barrier replace minecraft:ice
-setblock ~ ~-1 ~ minecraft:ice
+setblock ~ ~-1 ~ minecraft:ice destroy

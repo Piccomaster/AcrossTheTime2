@@ -61,6 +61,14 @@ execute if entity @a[scores={LUC_TOT=10..}] run function att2:summon/reg_4/ouran
 execute if entity @a[scores={LUC_TOT=12..}] run function att2:summon/reg_4/ouran_rewards
 execute if entity @a[scores={LUC_TOT=14..}] run function att2:summon/reg_4/ouran_rewards
 
+##summon XP
+#DIFFICULTY 0
+execute if score level DIFFICULTY matches 0.. run summon experience_orb ~ ~ ~ {Value:10000,Motion:[0,0.1,0]}
+#DIFFICULTY 1
+execute if score level DIFFICULTY matches 1.. run summon experience_orb ~ ~ ~ {Value:10000,Motion:[0,0.1,0]}
+#DIFFICULTY 2
+execute if score level DIFFICULTY matches 2.. run summon experience_orb ~ ~ ~ {Value:10000,Motion:[0,0.1,0]}
+
 function att2:summon/reg_4/ouran_rewards_dedicated
 
 function att2:summon/bat_boss_esc_rewards

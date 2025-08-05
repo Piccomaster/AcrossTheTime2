@@ -4,7 +4,7 @@
 #################################################################
 
 function att2:gameplay/enveffect/space_gem/go
-function att2:gameplay/enveffect/temperature/go
+execute if score second TIMECOUNTER matches 7 as @a[gamemode=adventure] run function att2:gameplay/enveffect/temperature/go
 function att2:gameplay/enveffect/time_gem/go
 function att2:gameplay/enveffect/spike/go
 function att2:gameplay/enveffect/mobs_invasion/go
@@ -15,10 +15,10 @@ function att2:gameplay/enveffect/mimic/go
 execute if score second TIMECOUNTER matches 0 run function att2:gameplay/enveffect/bee/go
 execute if score second TIMECOUNTER matches 30 run function att2:gameplay/enveffect/bee/go
 execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enveffect/creeper/go
-function att2:gameplay/enveffect/lava/go
+execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enveffect/lava/go
 execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enveffect/conduit/go
 # Exception for Nightmare sq59 old Hill valley
-execute if score tic TIMECOUNTER matches 5 unless entity @a[x=7000,z=-7000,distance=..300] run function att2:gameplay/enveffect/void/go
+execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enveffect/void/go
 
 execute if score wingeu_mech4 ANGOR matches 1.. in minecraft:the_nether if entity @a[x=3547,y=84,z=4556,distance=..25] run function att2:gameplay/enveffect/gear/go
 execute if score tower_s_mech2 BILLGART matches 4 in minecraft:the_end if entity @a[x=-1234,y=21,z=-496,distance=..25] run function att2:gameplay/enveffect/gear/go
@@ -29,4 +29,4 @@ execute if score tower_se_mech7 BILLGART matches 1 in minecraft:the_end if entit
 execute if score tower_ne_mech11 BILLGART matches 1 in minecraft:the_end if entity @a[x=-1174,y=130,z=-682,distance=..25] run function att2:gameplay/enveffect/gear/go
 
 ##Special elite monsters
-function att2:gameplay/enveffect/elite/go
+#function att2:gameplay/enveffect/elite/go

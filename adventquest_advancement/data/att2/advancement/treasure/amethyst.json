@@ -4,10 +4,10 @@
             "id": "minecraft:glow_ink_sac"
         },
         "title": {
-            "translate": "Banishes inebriation and illuminates the spirit!"
+            "translate": "att2.advancement.treasure.title.amethyst"
         },
         "description": {
-            "translate": "Amethyst does not seek to shine; it exists to show the path."
+            "translate": "att2.advancement.treasure.description.amethyst"
         },
         "frame": "goal"
     },

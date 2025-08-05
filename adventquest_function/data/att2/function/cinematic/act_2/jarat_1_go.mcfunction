@@ -10,7 +10,7 @@ execute if score Real0 TIMER matches 150 run function att2:dialogs/mainquest/act
 execute if score Real0 TIMER matches 249 run function att2:dialogs/title/a2_ch3_title1
 execute if score Real0 TIMER matches 249 run function att2:dialogs/title/a2_ch3_subtitle1
 execute if score Real0 TIMER matches 249 run function att2:physicmod/reg1/jarat_break_entrance
-execute if score Real0 TIMER matches 1..250 as 00000000-0000-104a-0000-00000000104a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 1..250 as 00000000-0000-104a-0000-00000000104a at @s run rotate @s facing entity @p feet
 execute if score Real0 TIMER matches 250 run scoreboard players set Mainquest SIDEQUEST 9
 
 #=======================#

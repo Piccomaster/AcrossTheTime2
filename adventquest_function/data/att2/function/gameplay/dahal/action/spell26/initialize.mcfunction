@@ -8,6 +8,7 @@ scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL26_LVL dummy
 scoreboard objectives add SPELL26_CAP dummy
 scoreboard objectives add SPELL26_MAX dummy
+scoreboard objectives add SPELL26_EFFECT dummy
 scoreboard objectives add spread dummy
 scoreboard players set @s COOLDOWN26 0
 scoreboard players set @s SPELL26_LVL 0
@@ -31,3 +32,12 @@ scoreboard players set 5 SPELL26_MAX 5
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN26 30000
+scoreboard players set lvl2 COOLDOWN26 30000
+scoreboard players set lvl3 COOLDOWN26 30000
+scoreboard players set lvl4 COOLDOWN26 30000
+scoreboard players set lvl5 COOLDOWN26 30000
+scoreboard players set lvl6 COOLDOWN26 30000
+scoreboard players set lvl7 COOLDOWN26 30000
+scoreboard players set lvl8 COOLDOWN26 30000
+scoreboard players set lvl9 COOLDOWN26 30000
+scoreboard players set lvl10 COOLDOWN26 30000

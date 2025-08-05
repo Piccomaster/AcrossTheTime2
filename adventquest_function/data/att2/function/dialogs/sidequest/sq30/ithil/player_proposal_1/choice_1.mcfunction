@@ -53,4 +53,4 @@ tellraw @a[scores={LANGUAGE=10},x=-4946,y=145,z=-4915,distance=..10] {nbt:"set",
 
 #Simplified Chinese LANGUAGE
 
-tellraw @a[scores={LANGUAGE=11},x=-4946,y=145,z=-4915,distance=..10] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[我的任务是调查案件并抓到小偷。放弃抵抗吧！-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-4946,y=145,z=-4915,distance=..10] run execute if score SQ30 SIDEQUEST matches 8 run function att2:cinematic/sidequest/30/ithil/answer_1_1"},"hoverEvent":{"action":"show_text","value":"点击这里 - 回答 1"}}]}
+tellraw @a[scores={LANGUAGE=11},x=-4946,y=145,z=-4915,distance=..10] {nbt:"set",storage:"att2:id","interpret":true,"extra":[{"text":" : "},{"text":"[我的任务是调查案件并抓到小偷。放弃抵抗吧！-->]","color":"gray","click_event":{"action":"run_command","command":"/execute if entity @s[x=-4946,y=145,z=-4915,distance=..10] run execute if score SQ30 SIDEQUEST matches 8 run function att2:cinematic/sidequest/30/ithil/answer_1_1"},"hover_event":{"action":"show_text","value":"点击这里 - 回答 1"}}]}

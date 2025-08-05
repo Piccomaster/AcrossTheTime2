@@ -3,4 +3,4 @@
 #Manage the physical modification for naer_fireattack_on 		#
 #################################################################
 
-setblock ~ ~ ~ minecraft:fire
+setblock ~ ~ ~ minecraft:fire destroy

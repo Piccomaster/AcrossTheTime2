@@ -3,5 +3,5 @@
 #Manage the physical modification for mech1 button1 in Ouranos 	#
 #################################################################
 
-setblock 6649 175 6590 minecraft:air
+setblock 6649 175 6590 minecraft:air destroy
 fill 6759 166 6526 6758 167 6526 minecraft:gold_block replace minecraft:diamond_block

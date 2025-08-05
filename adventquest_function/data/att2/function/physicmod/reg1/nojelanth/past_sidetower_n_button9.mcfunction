@@ -3,4 +3,4 @@
 #Manage the physical modification for nojelanth sidetower north button9 	#
 #############################################################################
 
-setblock ~ ~ ~ minecraft:light_gray_terracotta
+setblock ~ ~ ~ minecraft:light_gray_terracotta destroy

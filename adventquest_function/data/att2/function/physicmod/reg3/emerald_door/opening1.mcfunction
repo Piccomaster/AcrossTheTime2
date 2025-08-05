@@ -3,6 +3,6 @@
 #Manage the physical modification for emerald door opening 			#
 #####################################################################
 
-setblock -967 36 -617 minecraft:air
+setblock -967 36 -617 minecraft:air destroy
 fill -970 40 -621 -970 40 -618 minecraft:air
 fill -970 40 -616 -970 40 -613 minecraft:air

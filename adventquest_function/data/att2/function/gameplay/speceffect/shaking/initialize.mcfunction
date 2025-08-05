@@ -9,6 +9,8 @@ scoreboard objectives add SHAKE_T dummy
 scoreboard objectives add SHAKE_S dummy
 scoreboard objectives add SHAKE_E dummy
 scoreboard objectives add SHAKE_STATE dummy
+scoreboard objectives add SHAKE dummy
+scoreboard players set @s SHAKE 1
 scoreboard players set @s SHAKE_L 0
 scoreboard players set @s SHAKE_H 0
 scoreboard players set @s SHAKE_T 0

@@ -17,4 +17,4 @@ tag @s remove SPOT_SELECT
 execute unless score meleim_pos_2 FISH_DICOVER_COUNT matches 1.. run scoreboard players add TOTAL FISH_DICOVER_COUNT 1
 execute unless score meleim_pos_2 FISH_DICOVER_COUNT matches 1.. run scoreboard players set meleim_pos_2 FISH_DICOVER_COUNT 1
 #random pos (+-3M)
-function att2:gameplay/misc/fishing/meleim/pos_2/random_pos
+function att2:gameplay/misc/fishing/random_pos

@@ -5,6 +5,16 @@
   "experience": 0.35,
   "ingredient": "minecraft:porkchop",
   "result": {
-    "id": "minecraft:cooked_porkchop"
+    "id": "minecraft:cooked_porkchop",
+    "components": {
+      "minecraft:custom_data": {
+        "EquipmentType": "food",
+        "Rarity": "misc"
+      },
+      "consumable": {
+        "animation": "eat",
+        "consume_seconds": 1.4
+      }
+    }
   }
 }

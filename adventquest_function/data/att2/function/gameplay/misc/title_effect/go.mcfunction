@@ -23,4 +23,4 @@ execute as @a[scores={TITLE_EFFECT=1,TITLE_ID=101..120}] at @s run function att2
 
 # TITLE_ID 121-131: 7 cercles, yellow (121-130) et aqua (131)
 execute as @a[scores={TITLE_EFFECT=1,TITLE_ID=121..130}] at @s run function att2:gameplay/misc/title_effect/circle_7
-execute as @a[scores={TITLE_EFFECT=1,TITLE_ID=131}] at @s run function att2:gameplay/misc/title_effect/circle_8
+execute as @a[scores={TITLE_EFFECT=1,TITLE_ID=131..}] at @s run function att2:gameplay/misc/title_effect/circle_8

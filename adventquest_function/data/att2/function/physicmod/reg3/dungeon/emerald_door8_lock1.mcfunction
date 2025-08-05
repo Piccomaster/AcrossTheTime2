@@ -3,4 +3,4 @@
 #Manage the physical modification for emerald door8 lock1			#
 #####################################################################
 
-setblock -1178 106 -650 minecraft:air
+setblock -1178 106 -650 minecraft:air destroy

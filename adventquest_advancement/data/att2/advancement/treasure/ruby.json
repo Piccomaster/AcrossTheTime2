@@ -4,10 +4,10 @@
             "id": "minecraft:copper_ingot"
         },
         "title": {
-            "translate": "The quitescent reflection of life!"
+            "translate": "att2.advancement.treasure.title.ruby"
         },
         "description": {
-            "translate": "A ruby glows not with light, but with life."
+            "translate": "att2.advancement.treasure.description.ruby"
         },
         "frame": "challenge"
     },
