@@ -14,7 +14,8 @@
       "consumable": {
         "animation": "eat",
         "consume_seconds": 1.4
-      }
+      },
+      "tooltip_style": "minecraft:rarity/misc/misc"
     }
   }
 }
