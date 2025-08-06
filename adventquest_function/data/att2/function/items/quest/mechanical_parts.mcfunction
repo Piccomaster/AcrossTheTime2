@@ -3,4 +3,4 @@
 #Obtain Mechanical parts                     	 #
 ##################################################
 
-give @s minecraft:tripwire_hook[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.mechanical_parts.name'},lore=[{translate:'item.quest.lore'}]] 1
+give @s minecraft:tripwire_hook[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.mechanical_parts.name'},lore=[{translate:'item.quest.lore'}],tooltip_style="minecraft:rarity/quest/quest"]

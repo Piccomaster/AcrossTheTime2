@@ -3,4 +3,4 @@
 #Obtain important_letter                         #
 ##################################################
 
-give @s minecraft:poppy[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.plastic_flower.name'},lore=[{translate:'item.quest.lore'}]] 1
+give @s minecraft:poppy[custom_data={EquipmentType:'misc',Rarity:'que'},custom_name={translate:'item.quest.plastic_flower.name'},lore=[{translate:'item.quest.lore'}],tooltip_style="minecraft:rarity/quest/quest"]

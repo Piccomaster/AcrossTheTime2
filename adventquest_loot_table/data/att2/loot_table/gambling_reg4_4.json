@@ -26,7 +26,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"reg4_c7"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "reg4_c7"
+                                }
+                            }
                         }
                     ]
                 },
@@ -50,7 +54,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"reg4_c8"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "reg4_c8"
+                                }
+                            }
                         }
                     ]
                 },
@@ -74,7 +82,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"reg4_c9"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "reg4_c9"
+                                }
+                            }
                         }
                     ]
                 },
@@ -98,7 +110,11 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"Rarity":"reg4_c10"}}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "Rarity": "reg4_c10"
+                                }
+                            }
                         }
                     ]
                 }

@@ -3,8 +3,8 @@
 #Set loot for monster in region 2 and 10th scale of level							#
 #####################################################################################
 
-execute as @s[scores={GAMELEVEL=0..4}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg2l10t1"}
-execute as @s[scores={GAMELEVEL=5..9}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg2l10t2"}
+execute as @s[scores={GAMELEVEL=0..4}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg2l10t3"}
+execute as @s[scores={GAMELEVEL=5..9}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg2l10t3"}
 execute as @s[scores={GAMELEVEL=10..14}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg2l10t3"}
 execute as @s[scores={GAMELEVEL=15..19}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg2l10t4"}
 execute as @s[scores={GAMELEVEL=20..24}] run data merge entity @s {DeathLootTable:"att2:entities/regular/reg2l10t5"}

@@ -3,4 +3,4 @@
 #Process summoning arrow of Naër wind east                       	#
 #####################################################################
 
-summon minecraft:arrow ~ ~ ~ {Tags:["WindArrow"],Silent:1b,pickup:0,life:1200,Motion:[-2.0,0.0,0.0],damage:2.0}
+summon minecraft:arrow ~ ~ ~ {Tags:["WindArrow"],Silent:1b,pickup:2,life:1200,Motion:[-2.0,0.0,0.0],damage:2.0}
