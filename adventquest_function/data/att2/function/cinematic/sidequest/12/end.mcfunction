@@ -26,7 +26,7 @@ execute if score choice SQ12 matches 2 at 00000000-0000-049a-0000-00000000049a a
 #REWARDS
 xp add @a 2000 points
 execute if score choice SQ12 matches 1 run scoreboard players add @a CHRONOTON 80
-execute if score choice SQ12 matches 1 as @a run run function att2:items/food/bread_0
+execute if score choice SQ12 matches 1 as @a run function att2:items/food/bread_0
 execute if score choice SQ12 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+80 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 execute if score choice SQ12 matches 2 run scoreboard players add @a CHRONOTON 40
 execute if score choice SQ12 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+40 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
