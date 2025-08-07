@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "att2:treasure/sovereign/chainmail_chestplate_220",
+  "parent": "att2:treasure/sovereign/armor/chainmail_chestplate_220",
   "rewards": {
     "function": "att2:advancement/test_all/treasure/all_epi_esc",
     "experience": 250

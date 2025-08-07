@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "att2:treasure/sovereign/bow_172",
+  "parent": "att2:treasure/sovereign/weapon/bow_172",
   "rewards": {
     "function": "att2:advancement/test_all/treasure/all_epi_esc",
     "experience": 250

@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "att2:treasure/sovereign/diamond_pickaxe_169",
+  "parent": "att2:treasure/sovereign/weapon/diamond_pickaxe_169",
   "rewards": {
     "function": "att2:advancement/test_all/treasure/all_epi_esc",
     "experience": 250
