@@ -124,8 +124,17 @@
 
   - **City Walk System**
   - **City Title Display**: Shows city name in center screen upon entry
-  - **Movement Bonus**: Grants Speed II effect while within city limits
+  - **Movement Bonus**: Grants Speed I effect while within city limits
 
+  - **Spell System Optimization**
+  - **Texture Upgrade**: Added unique textures for spellbooks and spell launcher
+  - **Cooldown Display**: Improved visual cooldown indication on casting foci
+
+  - **Equipment Quality Color Display**
+  - **Item Icon**: Colored border at bottom indicates quality tier
+  - **Tooltip**: Background color matches item quality
+
+  
 ### Balance:
 - **Attribute System Update** 
   - Most attributes now **directly modify base stats** (no "status effects").  
