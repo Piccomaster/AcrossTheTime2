@@ -15,13 +15,4 @@ scoreboard players set @s[scores={SPELL11_CAP=8,SPELL11_SLCT=1}] SPELL11_SLCT 8
 scoreboard players set @s[scores={SPELL11_CAP=9,SPELL11_SLCT=1}] SPELL11_SLCT 9
 scoreboard players set @s[scores={SPELL11_CAP=10,SPELL11_SLCT=1}] SPELL11_SLCT 10
 function att2:gameplay/dahal/action/loadingsuccess
-execute if score @s SPELL11_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_11/lvl1
-execute if score @s SPELL11_SLCT matches 2 run function att2:gameplay/dahal/launcher/spell_11/lvl2
-execute if score @s SPELL11_SLCT matches 3 run function att2:gameplay/dahal/launcher/spell_11/lvl3
-execute if score @s SPELL11_SLCT matches 4 run function att2:gameplay/dahal/launcher/spell_11/lvl4
-execute if score @s SPELL11_SLCT matches 5 run function att2:gameplay/dahal/launcher/spell_11/lvl5
-execute if score @s SPELL11_SLCT matches 6 run function att2:gameplay/dahal/launcher/spell_11/lvl6
-execute if score @s SPELL11_SLCT matches 7 run function att2:gameplay/dahal/launcher/spell_11/lvl7
-execute if score @s SPELL11_SLCT matches 8 run function att2:gameplay/dahal/launcher/spell_11/lvl8
-execute if score @s SPELL11_SLCT matches 9 run function att2:gameplay/dahal/launcher/spell_11/lvl9
-execute if score @s SPELL11_SLCT matches 10 run function att2:gameplay/dahal/launcher/spell_11/lvl10
+function att2:gameplay/dahal/launcher/spell_11/cooldown

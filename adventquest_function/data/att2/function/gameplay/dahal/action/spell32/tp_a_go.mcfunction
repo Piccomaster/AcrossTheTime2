@@ -17,3 +17,5 @@ execute if score DISTANCE CAL matches 1.. if score ESC_COUNT CAL matches 1.. run
 #reset
 scoreboard players reset DISTANCE CAL
 scoreboard players reset ESC_COUNT CAL
+#xp_cal
+function att2:gameplay/dahal/action/spell32/xp_cal

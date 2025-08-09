@@ -31,3 +31,14 @@ scoreboard players set lvl7 COOLDOWN2 1200
 scoreboard players set lvl8 COOLDOWN2 1000
 scoreboard players set lvl9 COOLDOWN2 900
 scoreboard players set lvl10 COOLDOWN2 750
+#set dahal cost
+scoreboard players set SP2_1 DAHAL_COST 25
+scoreboard players set SP2_2 DAHAL_COST 45
+scoreboard players set SP2_3 DAHAL_COST 65
+scoreboard players set SP2_4 DAHAL_COST 85
+scoreboard players set SP2_5 DAHAL_COST 105
+scoreboard players set SP2_6 DAHAL_COST 125
+scoreboard players set SP2_7 DAHAL_COST 145
+scoreboard players set SP2_8 DAHAL_COST 165
+scoreboard players set SP2_9 DAHAL_COST 185
+scoreboard players set SP2_10 DAHAL_COST 200

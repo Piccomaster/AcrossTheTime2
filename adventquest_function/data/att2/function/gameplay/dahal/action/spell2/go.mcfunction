@@ -3,16 +3,28 @@
 #Process fireline incantation									#
 #################################################################
 
-execute as @s[scores={SPELL2_SLCT=1,DAHAL=25..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl1
-execute as @s[scores={SPELL2_SLCT=2,DAHAL=45..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl2
-execute as @s[scores={SPELL2_SLCT=3,DAHAL=65..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl3
-execute as @s[scores={SPELL2_SLCT=4,DAHAL=85..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl4
-execute as @s[scores={SPELL2_SLCT=5,DAHAL=105..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl5
-execute as @s[scores={SPELL2_SLCT=6,DAHAL=125..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl6
-execute as @s[scores={SPELL2_SLCT=7,DAHAL=145..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl7
-execute as @s[scores={SPELL2_SLCT=8,DAHAL=165..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl8
-execute as @s[scores={SPELL2_SLCT=9,DAHAL=185..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl9
-execute as @s[scores={SPELL2_SLCT=10,DAHAL=200..}] anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl10
+#revoke test
+advancement revoke @s only att2_test:dahal/spell2/used_trigger
+#set dahal test
+scoreboard players set DAHAL_TEST CAL 0
+
+execute if score @s[scores={SPELL2_SLCT=1}] DAHAL >= SP2_1 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl1
+execute if score @s[scores={SPELL2_SLCT=2}] DAHAL >= SP2_2 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl2
+execute if score @s[scores={SPELL2_SLCT=3}] DAHAL >= SP2_3 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl3
+execute if score @s[scores={SPELL2_SLCT=4}] DAHAL >= SP2_4 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl4
+execute if score @s[scores={SPELL2_SLCT=5}] DAHAL >= SP2_5 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl5
+execute if score @s[scores={SPELL2_SLCT=6}] DAHAL >= SP2_6 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl6
+execute if score @s[scores={SPELL2_SLCT=7}] DAHAL >= SP2_7 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl7
+execute if score @s[scores={SPELL2_SLCT=8}] DAHAL >= SP2_8 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl8
+execute if score @s[scores={SPELL2_SLCT=9}] DAHAL >= SP2_9 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl9
+execute if score @s[scores={SPELL2_SLCT=10}] DAHAL >= SP2_10 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl10
+
+#feed back dahal 
+execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+#reset
+scoreboard players reset DAHAL_TEST CAL
+#replace hand
+function att2:gameplay/dahal/action/replace/detection/spell2
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL2_LVL

@@ -13,3 +13,5 @@ execute if score TEST CAL matches 1.. run function att2:dialogs/gameplay/dahal/s
 execute if score TEST CAL matches 1.. run function att2:gameplay/dahal/action/spell20/stock_in
 #resummon
 execute if score TEST CAL matches 0 run function att2:gameplay/dahal/action/spell20/resummon with storage att2:spell20
+#reset score
+scoreboard players set @s SPELL20_EFFECT 1

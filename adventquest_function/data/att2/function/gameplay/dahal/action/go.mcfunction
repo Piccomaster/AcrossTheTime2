@@ -8,14 +8,14 @@
 execute as @a at @s run function att2:gameplay/dahal/action/cooldown
 
 #testing if player is holding the magic sphere
-execute as @a[predicate=att2_pre:test_hold/dahal_hold] run function att2:gameplay/dahal/action/score_set
+#execute as @a[predicate=att2_pre:test_hold/dahal_hold] run function att2:gameplay/dahal/action/score_set
 
 #testing if player used the magicsphere
-execute as @a[scores={HOLDING_MS=1..,MAGICSPH=1..}] run function att2:gameplay/dahal/action/choice_hand
+#execute as @a[scores={HOLDING_MS=1..,MAGICSPH=1..}] run function att2:gameplay/dahal/action/choice_hand
 
 #Reinitialize magicsphere trigger
-scoreboard players remove @a[scores={HOLDING_MS=1..}] HOLDING_MS 1
-scoreboard players set @a[scores={MAGICSPH=1..,HOLDING_MS=..0}] MAGICSPH 0
+#scoreboard players remove @a[scores={HOLDING_MS=1..}] HOLDING_MS 1
+#scoreboard players set @a[scores={MAGICSPH=1..,HOLDING_MS=..0}] MAGICSPH 0
 
 #Manage persistence of spell
 function att2:gameplay/dahal/action/spell1/persistence

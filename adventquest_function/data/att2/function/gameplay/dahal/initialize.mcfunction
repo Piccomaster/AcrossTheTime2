@@ -5,6 +5,7 @@
 
 scoreboard objectives add remain_time dummy
 scoreboard objectives add DAHAL dummy
+scoreboard objectives add DAHAL_COST dummy
 scoreboard objectives add DAHAL1 dummy
 scoreboard objectives add OP_DAHAL dummy
 scoreboard objectives add DAHALMAX dummy

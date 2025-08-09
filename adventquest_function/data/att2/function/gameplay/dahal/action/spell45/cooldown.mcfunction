@@ -13,3 +13,17 @@ scoreboard players operation @s[scores={SPELL45_SLCT=7}] COOLDOWN45 = lvl7 COOLD
 scoreboard players operation @s[scores={SPELL45_SLCT=8}] COOLDOWN45 = lvl8 COOLDOWN45
 scoreboard players operation @s[scores={SPELL45_SLCT=9}] COOLDOWN45 = lvl9 COOLDOWN45
 scoreboard players operation @s[scores={SPELL45_SLCT=10}] COOLDOWN45 = lvl10 COOLDOWN45
+#cooldown cal
+function att2:gameplay/dahal/action/cooldown_cal
+
+scoreboard players operation SECONDS CAL = @s COOLDOWN45
+
+scoreboard players operation SECONDS CAL /= COOLDOWN CAL
+#store score
+execute store result storage att2:cooldown seconds float 0.05 run scoreboard players get SECONDS CAL
+data modify storage att2:cooldown spell_id set value 45
+#reset
+scoreboard players reset COOLDOWN CAL
+scoreboard players reset SECONDS CAL
+#set test
+scoreboard players set DAHAL_TEST CAL 1

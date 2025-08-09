@@ -3,16 +3,28 @@
 #Process Explosive trap incantation								#
 #################################################################
 
-execute as @s[scores={SPELL6_SLCT=1,DAHAL=20..}] at @s run function att2:gameplay/dahal/action/spell6/lvl1
-execute as @s[scores={SPELL6_SLCT=2,DAHAL=35..}] at @s run function att2:gameplay/dahal/action/spell6/lvl2
-execute as @s[scores={SPELL6_SLCT=3,DAHAL=50..}] at @s run function att2:gameplay/dahal/action/spell6/lvl3
-execute as @s[scores={SPELL6_SLCT=4,DAHAL=80..}] at @s run function att2:gameplay/dahal/action/spell6/lvl4
-execute as @s[scores={SPELL6_SLCT=5,DAHAL=100..}] at @s run function att2:gameplay/dahal/action/spell6/lvl5
-execute as @s[scores={SPELL6_SLCT=6,DAHAL=120..}] at @s run function att2:gameplay/dahal/action/spell6/lvl6
-execute as @s[scores={SPELL6_SLCT=7,DAHAL=150..}] at @s run function att2:gameplay/dahal/action/spell6/lvl7
-execute as @s[scores={SPELL6_SLCT=8,DAHAL=200..}] at @s run function att2:gameplay/dahal/action/spell6/lvl8
-execute as @s[scores={SPELL6_SLCT=9,DAHAL=250..}] at @s run function att2:gameplay/dahal/action/spell6/lvl9
-execute as @s[scores={SPELL6_SLCT=10,DAHAL=300..}] at @s run function att2:gameplay/dahal/action/spell6/lvl10
+#revoke test
+advancement revoke @s only att2_test:dahal/spell6/used_trigger
+#set dahal test
+scoreboard players set DAHAL_TEST CAL 0
+
+execute if score @s[scores={SPELL6_SLCT=1}] DAHAL >= SP6_1 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl1
+execute if score @s[scores={SPELL6_SLCT=2}] DAHAL >= SP6_2 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl2
+execute if score @s[scores={SPELL6_SLCT=3}] DAHAL >= SP6_3 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl3
+execute if score @s[scores={SPELL6_SLCT=4}] DAHAL >= SP6_4 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl4
+execute if score @s[scores={SPELL6_SLCT=5}] DAHAL >= SP6_5 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl5
+execute if score @s[scores={SPELL6_SLCT=6}] DAHAL >= SP6_6 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl6
+execute if score @s[scores={SPELL6_SLCT=7}] DAHAL >= SP6_7 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl7
+execute if score @s[scores={SPELL6_SLCT=8}] DAHAL >= SP6_8 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl8
+execute if score @s[scores={SPELL6_SLCT=9}] DAHAL >= SP6_9 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl9
+execute if score @s[scores={SPELL6_SLCT=10}] DAHAL >= SP6_10 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell6/lvl10
+
+#feed back dahal 
+execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+#reset
+scoreboard players reset DAHAL_TEST CAL
+#replace hand
+function att2:gameplay/dahal/action/replace/detection/spell6
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL6_LVL

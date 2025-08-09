@@ -3,16 +3,28 @@
 #Process Golem incantation								        #
 #################################################################
 
-execute as @s[scores={SPELL26_SLCT=1,DAHAL=100..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl1
-execute as @s[scores={SPELL26_SLCT=2,DAHAL=110..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl2
-execute as @s[scores={SPELL26_SLCT=3,DAHAL=120..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl3
-execute as @s[scores={SPELL26_SLCT=4,DAHAL=130..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl4
-execute as @s[scores={SPELL26_SLCT=5,DAHAL=150..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl5
-execute as @s[scores={SPELL26_SLCT=6,DAHAL=170..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl6
-execute as @s[scores={SPELL26_SLCT=7,DAHAL=190..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl7
-execute as @s[scores={SPELL26_SLCT=8,DAHAL=250..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl8
-execute as @s[scores={SPELL26_SLCT=9,DAHAL=300..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl9
-execute as @s[scores={SPELL26_SLCT=10,DAHAL=350..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl10
+#revoke test
+advancement revoke @s only att2_test:dahal/spell26/used_trigger
+#set dahal test
+scoreboard players set DAHAL_TEST CAL 0
+
+execute if score @s[scores={SPELL26_SLCT=1}] DAHAL >= SP26_1 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl1
+execute if score @s[scores={SPELL26_SLCT=2}] DAHAL >= SP26_2 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl2
+execute if score @s[scores={SPELL26_SLCT=3}] DAHAL >= SP26_3 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl3
+execute if score @s[scores={SPELL26_SLCT=4}] DAHAL >= SP26_4 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl4
+execute if score @s[scores={SPELL26_SLCT=5}] DAHAL >= SP26_5 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl5
+execute if score @s[scores={SPELL26_SLCT=6}] DAHAL >= SP26_6 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl6
+execute if score @s[scores={SPELL26_SLCT=7}] DAHAL >= SP26_7 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl7
+execute if score @s[scores={SPELL26_SLCT=8}] DAHAL >= SP26_8 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl8
+execute if score @s[scores={SPELL26_SLCT=9}] DAHAL >= SP26_9 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl9
+execute if score @s[scores={SPELL26_SLCT=10}] DAHAL >= SP26_10 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl10
+
+#feed back dahal 
+execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+#reset
+scoreboard players reset DAHAL_TEST CAL
+#replace hand
+function att2:gameplay/dahal/action/replace/detection/spell26
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL26_LVL

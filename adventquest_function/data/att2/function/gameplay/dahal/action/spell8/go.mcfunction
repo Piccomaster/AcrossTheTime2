@@ -3,16 +3,28 @@
 #Process Arrow Swarm incantation								#
 #################################################################
 
-execute as @s[scores={SPELL8_SLCT=1,DAHAL=40..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl1
-execute as @s[scores={SPELL8_SLCT=2,DAHAL=60..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl2
-execute as @s[scores={SPELL8_SLCT=3,DAHAL=80..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl3
-execute as @s[scores={SPELL8_SLCT=4,DAHAL=100..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl4
-execute as @s[scores={SPELL8_SLCT=5,DAHAL=120..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl5
-execute as @s[scores={SPELL8_SLCT=6,DAHAL=140..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl6
-execute as @s[scores={SPELL8_SLCT=7,DAHAL=175..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl7
-execute as @s[scores={SPELL8_SLCT=8,DAHAL=200..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl8
-execute as @s[scores={SPELL8_SLCT=9,DAHAL=250..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl9
-execute as @s[scores={SPELL8_SLCT=10,DAHAL=325..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl10
+#revoke test
+advancement revoke @s only att2_test:dahal/spell8/used_trigger
+#set dahal test
+scoreboard players set DAHAL_TEST CAL 0
+
+execute if score @s[scores={SPELL8_SLCT=1}] DAHAL >= SP8_1 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl1
+execute if score @s[scores={SPELL8_SLCT=2}] DAHAL >= SP8_2 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl2
+execute if score @s[scores={SPELL8_SLCT=3}] DAHAL >= SP8_3 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl3
+execute if score @s[scores={SPELL8_SLCT=4}] DAHAL >= SP8_4 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl4
+execute if score @s[scores={SPELL8_SLCT=5}] DAHAL >= SP8_5 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl5
+execute if score @s[scores={SPELL8_SLCT=6}] DAHAL >= SP8_6 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl6
+execute if score @s[scores={SPELL8_SLCT=7}] DAHAL >= SP8_7 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl7
+execute if score @s[scores={SPELL8_SLCT=8}] DAHAL >= SP8_8 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl8
+execute if score @s[scores={SPELL8_SLCT=9}] DAHAL >= SP8_9 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl9
+execute if score @s[scores={SPELL8_SLCT=10}] DAHAL >= SP8_10 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl10
+
+#feed back dahal 
+execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+#reset
+scoreboard players reset DAHAL_TEST CAL
+#replace hand
+function att2:gameplay/dahal/action/replace/detection/spell8
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL8_LVL

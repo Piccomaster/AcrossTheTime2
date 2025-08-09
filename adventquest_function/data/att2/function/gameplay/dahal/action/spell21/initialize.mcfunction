@@ -14,4 +14,17 @@ scoreboard players set cap2 SPELL21_LVL 12000
 scoreboard players set cap3 SPELL21_LVL 72000
 
 #set cooldown score | cooldown/200 -> second
-scoreboard players set lvl1 COOLDOWN21 32000
+scoreboard players set lvl1 COOLDOWN21 12000
+scoreboard players set lvl2 COOLDOWN21 12000
+scoreboard players set lvl3 COOLDOWN21 12000
+scoreboard players set lvl4 COOLDOWN21 12000
+scoreboard players set lvl5 COOLDOWN21 12000
+scoreboard players set lvl6 COOLDOWN21 12000
+scoreboard players set lvl7 COOLDOWN21 12000
+scoreboard players set lvl8 COOLDOWN21 12000
+scoreboard players set lvl9 COOLDOWN21 12000
+scoreboard players set lvl10 COOLDOWN21 12000
+#set dahal cost
+scoreboard players set SP21_1 DAHAL_COST 80
+scoreboard players set SP21_2 DAHAL_COST 140
+scoreboard players set SP21_3 DAHAL_COST 200

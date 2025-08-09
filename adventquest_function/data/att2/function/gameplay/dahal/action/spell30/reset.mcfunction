@@ -14,4 +14,5 @@ scoreboard players set epi SPELL30 0
 scoreboard players set epi_set SPELL30 0
 scoreboard players set leg SPELL30 0
 scoreboard players set leg_armset SPELL30 0
+scoreboard players set ult SPELL30 0
 scoreboard players set total SPELL30 0

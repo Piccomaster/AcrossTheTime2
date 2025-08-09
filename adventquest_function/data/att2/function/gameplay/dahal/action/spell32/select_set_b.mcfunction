@@ -11,9 +11,9 @@ scoreboard players set @s[scores={SPELL32_CAP=4,SPELL32_SLCT=1}] SPELL32_SLCT 4
 scoreboard players set @s[scores={SPELL32_CAP=5,SPELL32_SLCT=1}] SPELL32_SLCT 5
 
 function att2:gameplay/dahal/action/loadingsuccess
-execute if score @s SPELL32_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_32/lvl1
-execute if score @s SPELL32_SLCT matches 2 run function att2:gameplay/dahal/launcher/spell_32/lvl2
-execute if score @s SPELL32_SLCT matches 3 run function att2:gameplay/dahal/launcher/spell_32/lvl3
-execute if score @s SPELL32_SLCT matches 4 run function att2:gameplay/dahal/launcher/spell_32/lvl4
-execute if score @s SPELL32_SLCT matches 5 run function att2:gameplay/dahal/launcher/spell_32/lvl5
+execute if score @s SPELL32_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_32/cooldown
+execute if score @s SPELL32_SLCT matches 2 run function att2:gameplay/dahal/launcher/spell_32/cooldown
+execute if score @s SPELL32_SLCT matches 3 run function att2:gameplay/dahal/launcher/spell_32/cooldown
+execute if score @s SPELL32_SLCT matches 4 run function att2:gameplay/dahal/launcher/spell_32/cooldown
+execute if score @s SPELL32_SLCT matches 5 run function att2:gameplay/dahal/launcher/spell_32/cooldown
 #tellraw @a[scores={LANGUAGE=2}] {"text":"选择放置B点","color":"gold"}

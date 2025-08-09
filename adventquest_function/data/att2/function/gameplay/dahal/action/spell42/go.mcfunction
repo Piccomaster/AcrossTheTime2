@@ -3,16 +3,28 @@
 #Process Healing incantation								    #
 #################################################################
 
-execute as @s[scores={SPELL42_SLCT=1,DAHAL=15..}] at @s run function att2:gameplay/dahal/action/spell42/lvl1
-execute as @s[scores={SPELL42_SLCT=2,DAHAL=30..}] at @s run function att2:gameplay/dahal/action/spell42/lvl2
-execute as @s[scores={SPELL42_SLCT=3,DAHAL=65..}] at @s run function att2:gameplay/dahal/action/spell42/lvl3
-execute as @s[scores={SPELL42_SLCT=4,DAHAL=100..}] at @s run function att2:gameplay/dahal/action/spell42/lvl4
-execute as @s[scores={SPELL42_SLCT=5,DAHAL=125..}] at @s run function att2:gameplay/dahal/action/spell42/lvl5
-execute as @s[scores={SPELL42_SLCT=6,DAHAL=150..}] at @s run function att2:gameplay/dahal/action/spell42/lvl6
-execute as @s[scores={SPELL42_SLCT=7,DAHAL=175..}] at @s run function att2:gameplay/dahal/action/spell42/lvl7
-execute as @s[scores={SPELL42_SLCT=8,DAHAL=200..}] at @s run function att2:gameplay/dahal/action/spell42/lvl8
-execute as @s[scores={SPELL42_SLCT=9,DAHAL=280..}] at @s run function att2:gameplay/dahal/action/spell42/lvl9
-execute as @s[scores={SPELL42_SLCT=10,DAHAL=350..}] at @s run function att2:gameplay/dahal/action/spell42/lvl10
+#revoke test
+advancement revoke @s only att2_test:dahal/spell42/used_trigger
+#set dahal test
+scoreboard players set DAHAL_TEST CAL 0
+
+execute if score @s[scores={SPELL42_SLCT=1}] DAHAL >= SP42_1 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl1
+execute if score @s[scores={SPELL42_SLCT=2}] DAHAL >= SP42_2 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl2
+execute if score @s[scores={SPELL42_SLCT=3}] DAHAL >= SP42_3 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl3
+execute if score @s[scores={SPELL42_SLCT=4}] DAHAL >= SP42_4 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl4
+execute if score @s[scores={SPELL42_SLCT=5}] DAHAL >= SP42_5 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl5
+execute if score @s[scores={SPELL42_SLCT=6}] DAHAL >= SP42_6 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl6
+execute if score @s[scores={SPELL42_SLCT=7}] DAHAL >= SP42_7 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl7
+execute if score @s[scores={SPELL42_SLCT=8}] DAHAL >= SP42_8 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl8
+execute if score @s[scores={SPELL42_SLCT=9}] DAHAL >= SP42_9 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl9
+execute if score @s[scores={SPELL42_SLCT=10}] DAHAL >= SP42_10 DAHAL_COST at @s run function att2:gameplay/dahal/action/spell42/lvl10
+
+#feed back dahal 
+execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+#reset
+scoreboard players reset DAHAL_TEST CAL
+#replace hand
+function att2:gameplay/dahal/action/replace/detection/spell42
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL42_LVL

@@ -23,4 +23,4 @@ execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 5 run func
 #reset
 scoreboard players reset CHECK CAL
 #xp_cal
-execute if score CHECK CAL matches 1 if score @s SPELL32_SLCT matches 1.. run function att2:gameplay/dahal/action/spell32/xp_cal
+function att2:gameplay/dahal/action/spell32/xp_cal

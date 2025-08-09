@@ -3,16 +3,28 @@
 #Process earthquake incantation									#
 #################################################################
 
-execute as @s[scores={SPELL10_SLCT=1,DAHAL=30..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl1
-execute as @s[scores={SPELL10_SLCT=2,DAHAL=50..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl2
-execute as @s[scores={SPELL10_SLCT=3,DAHAL=70..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl3
-execute as @s[scores={SPELL10_SLCT=4,DAHAL=90..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl4
-execute as @s[scores={SPELL10_SLCT=5,DAHAL=110..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl5
-execute as @s[scores={SPELL10_SLCT=6,DAHAL=130..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl6
-execute as @s[scores={SPELL10_SLCT=7,DAHAL=160..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl7
-execute as @s[scores={SPELL10_SLCT=8,DAHAL=200..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl8
-execute as @s[scores={SPELL10_SLCT=9,DAHAL=250..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl9
-execute as @s[scores={SPELL10_SLCT=10,DAHAL=300..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl10
+#revoke test
+advancement revoke @s only att2_test:dahal/spell10/used_trigger
+#set dahal test
+scoreboard players set DAHAL_TEST CAL 0
+
+execute if score @s[scores={SPELL10_SLCT=1}] DAHAL >= SP10_1 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl1
+execute if score @s[scores={SPELL10_SLCT=2}] DAHAL >= SP10_2 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl2
+execute if score @s[scores={SPELL10_SLCT=3}] DAHAL >= SP10_3 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl3
+execute if score @s[scores={SPELL10_SLCT=4}] DAHAL >= SP10_4 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl4
+execute if score @s[scores={SPELL10_SLCT=5}] DAHAL >= SP10_5 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl5
+execute if score @s[scores={SPELL10_SLCT=6}] DAHAL >= SP10_6 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl6
+execute if score @s[scores={SPELL10_SLCT=7}] DAHAL >= SP10_7 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl7
+execute if score @s[scores={SPELL10_SLCT=8}] DAHAL >= SP10_8 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl8
+execute if score @s[scores={SPELL10_SLCT=9}] DAHAL >= SP10_9 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl9
+execute if score @s[scores={SPELL10_SLCT=10}] DAHAL >= SP10_10 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl10
+
+#feed back dahal 
+execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+#reset
+scoreboard players reset DAHAL_TEST CAL
+#replace hand
+function att2:gameplay/dahal/action/replace/detection/spell10
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL10_LVL

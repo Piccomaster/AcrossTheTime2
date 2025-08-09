@@ -1,0 +1,7 @@
+#############################################################
+#Made by Adventquest										#
+#Ask buyer for trade                                        #
+#############################################################
+
+execute store result score epi_set_count SPELL30 if data entity @s Item.count
+scoreboard players operation epi_set SPELL30 += epi_set_count SPELL30

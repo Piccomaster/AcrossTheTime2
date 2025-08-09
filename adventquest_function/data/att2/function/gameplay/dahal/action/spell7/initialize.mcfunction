@@ -48,3 +48,14 @@ scoreboard players set timer_lvl7 SPELL7_DATA 130
 scoreboard players set timer_lvl8 SPELL7_DATA 140
 scoreboard players set timer_lvl9 SPELL7_DATA 150
 scoreboard players set timer_lvl10 SPELL7_DATA 200
+#set dahal cost
+scoreboard players set SP7_1 DAHAL_COST 20
+scoreboard players set SP7_2 DAHAL_COST 30
+scoreboard players set SP7_3 DAHAL_COST 40
+scoreboard players set SP7_4 DAHAL_COST 60
+scoreboard players set SP7_5 DAHAL_COST 80
+scoreboard players set SP7_6 DAHAL_COST 100
+scoreboard players set SP7_7 DAHAL_COST 120
+scoreboard players set SP7_8 DAHAL_COST 140
+scoreboard players set SP7_9 DAHAL_COST 160
+scoreboard players set SP7_10 DAHAL_COST 180

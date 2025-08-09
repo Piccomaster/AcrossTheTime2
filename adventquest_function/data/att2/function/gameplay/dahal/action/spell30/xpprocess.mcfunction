@@ -12,6 +12,7 @@ scoreboard players operation total SPELL30 += epi SPELL30
 scoreboard players operation total SPELL30 += epi_set SPELL30
 scoreboard players operation total SPELL30 += leg SPELL30
 scoreboard players operation total SPELL30 += leg_armset SPELL30
+scoreboard players operation total SPELL30 += ult SPELL30
 
 execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 *= 5 SPELL30
 execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 /= 4 SPELL30

@@ -12,9 +12,3 @@ $execute as @e[type=minecraft:chest_minecart,tag=!New,tag=spell20_chest,scores={
 tag @e[type=chest_minecart,tag=spell20_chest,tag=!Drop,tag=New] remove New
 #test
 function att2:gameplay/dahal/action/spell20/chest_test
-#spell effect
-scoreboard players remove @s DAHAL 40
-# Spell launch total count for advancement
-scoreboard players add @s SPELLS_COUNT 1
-##test SPELLS_COUNT
-function att2:advancement/test_all/spell/launch_count
