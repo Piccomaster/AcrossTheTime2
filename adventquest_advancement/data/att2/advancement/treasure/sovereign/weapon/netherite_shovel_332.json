@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "att2:treasure/sovereign/diamond_shovel_170",
+  "parent": "att2:treasure/sovereign/weapon/diamond_shovel_170",
   "rewards": {
     "function": "att2:advancement/test_all/treasure/all_epi_esc",
     "experience": 250

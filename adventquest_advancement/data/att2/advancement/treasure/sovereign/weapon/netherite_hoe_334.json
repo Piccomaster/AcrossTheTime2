@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "att2:treasure/sovereign/iron_hoe_335",
+  "parent": "att2:treasure/sovereign/weapon/iron_hoe_335",
   "rewards": {
     "function": "att2:advancement/test_all/treasure/all_epi_esc",
     "experience": 250

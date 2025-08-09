@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "att2:treasure/sovereign/iron_boots_222",
+  "parent": "att2:treasure/sovereign/armor/iron_boots_222",
   "rewards": {
     "function": "att2:advancement/test_all/treasure/all_epi_esc",
     "experience": 250
