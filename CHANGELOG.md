@@ -188,6 +188,9 @@
   - Small coins
   - Runes (from invasions and maze encounters)
 
+- **Tiid Klo Ul Spell Adjustments**
+- Reduced slowing effect and Increased weakening effect
+
 ### Bug Fix:
 - **Quest Progression Issues**  
   - Fixed a bug where long questlines (e.g., *Emerald Journey*) could fail to detect progress due to excessive player teleportation (TP).
