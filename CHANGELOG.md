@@ -32,6 +32,7 @@
 - **Stock**  
   - Each *Chrono Gem* upgrades pocket by **1 level**.  
   - Added **"Previous Page," "Discard All," "Next Page"** buttons.  
+  - *Mechanic Update* Auto-recalls when enemies are nearby/Auto-summons when no enemies in range
   
 - **New Feature: Spell Details Display**  
   -Click any spell name in the spellbook to view its detailed data.

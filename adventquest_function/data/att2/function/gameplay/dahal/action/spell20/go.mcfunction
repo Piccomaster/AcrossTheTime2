@@ -17,6 +17,6 @@ execute store result storage att2:spell20 NUMEROJOUEUR int 1 run scoreboard play
 execute store result storage att2:spell20 now_page int 1 run scoreboard players get @s SPELL20_PAGE
 execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_LVL
 
-scoreboard players set @s SPELL20_EFFECT 1
+scoreboard players set @s SPELL20_SUMMON 1
 ##
 execute as @s at @s anchored eyes positioned ^ ^-0.5 ^1 run function att2:gameplay/dahal/action/spell20/summon_trigger with storage att2:spell20
