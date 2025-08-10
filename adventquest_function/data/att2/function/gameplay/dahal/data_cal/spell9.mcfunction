@@ -57,16 +57,16 @@ scoreboard players operation @s remain_time = lvl10 COOLDOWN9
 function att2:gameplay/dahal/action/cooldown_cal_remain
 scoreboard players operation COOLDOWN_LVL10 SPELL_DATA = @s remain_time
 ##distance cal
-scoreboard players set DISTANCE_LVL1 SPELL_DATA 1
+scoreboard players set DISTANCE_LVL1 SPELL_DATA 2
 scoreboard players set DISTANCE_LVL2 SPELL_DATA 2
-scoreboard players set DISTANCE_LVL3 SPELL_DATA 2
+scoreboard players set DISTANCE_LVL3 SPELL_DATA 3
 scoreboard players set DISTANCE_LVL4 SPELL_DATA 3
-scoreboard players set DISTANCE_LVL5 SPELL_DATA 3
+scoreboard players set DISTANCE_LVL5 SPELL_DATA 4
 scoreboard players set DISTANCE_LVL6 SPELL_DATA 4
-scoreboard players set DISTANCE_LVL7 SPELL_DATA 4
+scoreboard players set DISTANCE_LVL7 SPELL_DATA 5
 scoreboard players set DISTANCE_LVL8 SPELL_DATA 5
 scoreboard players set DISTANCE_LVL9 SPELL_DATA 6
-scoreboard players set DISTANCE_LVL10 SPELL_DATA 7
+scoreboard players set DISTANCE_LVL10 SPELL_DATA 6
 ##time cal
 scoreboard players operation TIMER_LVL1 SPELL_DATA = timer_lvl1 SPELL9_DATA
 scoreboard players operation TIMER_LVL1 SPELL_DATA /= 20 CAL
@@ -91,22 +91,22 @@ scoreboard players operation TIMER_LVL10 SPELL_DATA /= 20 CAL
 ##SPEED CAL
 scoreboard players set SPD_LVL1 SPELL_DATA 15
 scoreboard players set SPD_LVL2 SPELL_DATA 15
-scoreboard players set SPD_LVL3 SPELL_DATA 30
+scoreboard players set SPD_LVL3 SPELL_DATA 15
 scoreboard players set SPD_LVL4 SPELL_DATA 30
-scoreboard players set SPD_LVL5 SPELL_DATA 45
-scoreboard players set SPD_LVL6 SPELL_DATA 45
-scoreboard players set SPD_LVL7 SPELL_DATA 60
-scoreboard players set SPD_LVL8 SPELL_DATA 60
-scoreboard players set SPD_LVL9 SPELL_DATA 75
-scoreboard players set SPD_LVL10 SPELL_DATA 90
+scoreboard players set SPD_LVL5 SPELL_DATA 30
+scoreboard players set SPD_LVL6 SPELL_DATA 30
+scoreboard players set SPD_LVL7 SPELL_DATA 45
+scoreboard players set SPD_LVL8 SPELL_DATA 45
+scoreboard players set SPD_LVL9 SPELL_DATA 45
+scoreboard players set SPD_LVL10 SPELL_DATA 60
 ##ATK CAL
 scoreboard players set STR_LVL1 SPELL_DATA 0
 scoreboard players set STR_LVL2 SPELL_DATA 4
 scoreboard players set STR_LVL3 SPELL_DATA 8
-scoreboard players set STR_LVL4 SPELL_DATA 12
+scoreboard players set STR_LVL4 SPELL_DATA 8
 scoreboard players set STR_LVL5 SPELL_DATA 12
 scoreboard players set STR_LVL6 SPELL_DATA 16
 scoreboard players set STR_LVL7 SPELL_DATA 16
-scoreboard players set STR_LVL8 SPELL_DATA 20
-scoreboard players set STR_LVL9 SPELL_DATA 20
-scoreboard players set STR_LVL10 SPELL_DATA 24
+scoreboard players set STR_LVL8 SPELL_DATA 24
+scoreboard players set STR_LVL9 SPELL_DATA 32
+scoreboard players set STR_LVL10 SPELL_DATA 32

@@ -14,4 +14,4 @@ $item modify entity @s weapon.mainhand {function:"set_components", components:{"
 #clear marker
 kill @e[tag=REPLACE,type=armor_stand]
 #sound
-playsound minecraft:entity.fishing_bobber.throw block @s ~ ~ ~ 1 0.5
+execute if score DAHAL_TEST CAL matches 1 run playsound minecraft:entity.fishing_bobber.throw block @s ~ ~ ~ 1 0.5

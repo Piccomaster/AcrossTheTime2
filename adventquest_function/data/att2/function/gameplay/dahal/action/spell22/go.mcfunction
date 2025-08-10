@@ -14,10 +14,10 @@ execute if score @s[scores={SPELL22_SLCT=3}] DAHAL >= SP22_3 DAHAL_COST at @s po
 
 #feed back dahal 
 execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
-#reset
-scoreboard players reset DAHAL_TEST CAL
 #replace hand
 function att2:gameplay/dahal/action/replace/detection/spell22
+#reset
+scoreboard players reset DAHAL_TEST CAL
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL22_LVL

@@ -20,5 +20,7 @@ execute store result storage att2:spell20 max_page int 1 run scoreboard players 
 
 function att2:gameplay/dahal/action/spell20/reset_item with storage att2:spell20
 #effect
-execute as @e[type=chest_minecart,tag=spell20_chest,tag=!Drop,tag=New] at @s run function att2:sound/dahal/invocation_start
+playsound minecraft:teleportation3 ambient @s ~ ~ ~ 1 0.8
+playsound minecraft:strange9 ambient @s ~ ~ ~ 1 0.2
+playsound minecraft:fizzle2 ambient @s ~ ~ ~ 0.3 0.1
 tag @e[type=chest_minecart,tag=spell20_chest,tag=!Drop,tag=New] remove New

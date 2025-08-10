@@ -15,4 +15,4 @@ scoreboard players set @s[scores={SPELL11_CAP=8,SPELL11_SLCT=1}] SPELL11_SLCT 8
 scoreboard players set @s[scores={SPELL11_CAP=9,SPELL11_SLCT=1}] SPELL11_SLCT 9
 scoreboard players set @s[scores={SPELL11_CAP=10,SPELL11_SLCT=1}] SPELL11_SLCT 10
 function att2:gameplay/dahal/action/loadingsuccess
-function att2:gameplay/dahal/launcher/spell_11/cooldown
+function att2:gameplay/dahal/launcher/spell_11/get

@@ -11,12 +11,12 @@ execute if score @s SPELL9_EFFECT matches ..0 run function att2:gameplay/dahal/a
 execute as @s[scores={SPELL9_EFFECT=1..},tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/particle_effect
 #mob effect
 execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 1 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..3] run function att2:gameplay/dahal/action/spell9/effect/1
-execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 2 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..4] run function att2:gameplay/dahal/action/spell9/effect/2
+execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 2 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..3] run function att2:gameplay/dahal/action/spell9/effect/2
 execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 3 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..4] run function att2:gameplay/dahal/action/spell9/effect/3
-execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 4 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..5] run function att2:gameplay/dahal/action/spell9/effect/4
+execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 4 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..4] run function att2:gameplay/dahal/action/spell9/effect/4
 execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 5 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..5] run function att2:gameplay/dahal/action/spell9/effect/5
-execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 6 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..6] run function att2:gameplay/dahal/action/spell9/effect/6
+execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 6 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..5] run function att2:gameplay/dahal/action/spell9/effect/6
 execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 7 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..6] run function att2:gameplay/dahal/action/spell9/effect/7
-execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 8 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..7] run function att2:gameplay/dahal/action/spell9/effect/8
+execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 8 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..6] run function att2:gameplay/dahal/action/spell9/effect/8
 execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 9 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..7] run function att2:gameplay/dahal/action/spell9/effect/9
-execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 10 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..8] run function att2:gameplay/dahal/action/spell9/effect/10
+execute if score @s[tag=Tiid_Klo_Ul] SPELL9_SLCT matches 10 as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=..7] run function att2:gameplay/dahal/action/spell9/effect/10
