@@ -14,3 +14,6 @@ execute in the_end positioned 22 64 0 run forceload add ~ ~
 
 #update 1.21.5
 execute in overworld positioned 7706 178 5937 unless block ~ ~ ~ minecraft:repeating_command_block[facing=south]{Command:"/execute if score Mainquest SIDEQUEST matches 213 if entity @a[x=7707,y=165,z=5956,distance=..10,gamemode=adventure,nbt={Inventory:[{id:'minecraft:sunflower'}]}] unless entity @e[type=armor_stand,x=7707,y=165,z=5956,distance=..3,nbt={equipment:{mainhand:{id:'minecraft:sunflower',count:1}}}] run setblock 7708 178 5937 minecraft:redstone_block",auto:1} run setblock ~ ~ ~ minecraft:repeating_command_block[facing=south]{Command:"/execute if score Mainquest SIDEQUEST matches 213 if entity @a[x=7707,y=165,z=5956,distance=..10,gamemode=adventure,nbt={Inventory:[{id:'minecraft:sunflower'}]}] unless entity @e[type=armor_stand,x=7707,y=165,z=5956,distance=..3,nbt={equipment:{mainhand:{id:'minecraft:sunflower',count:1}}}] run setblock 7708 178 5937 minecraft:redstone_block",auto:1}
+
+##fix dialogs
+execute in overworld positioned 7970 110 6772 run setblock ~ ~ ~ minecraft:repeating_command_block[facing=west]{Command:"/execute if score Mainquest SIDEQUEST matches 217 if score ouran_PNJ DIALOG matches 0..16 if entity @a[x=7973,y=120,z=6788,distance=..20,gamemode=adventure]",auto:1} destroy
