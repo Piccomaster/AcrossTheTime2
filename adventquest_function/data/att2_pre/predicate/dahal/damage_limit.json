@@ -9,7 +9,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell1}"
                     }
@@ -24,7 +24,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell2}"
                     }
@@ -39,7 +39,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell3}"
                     }
@@ -54,7 +54,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell4}"
                     }
@@ -69,7 +69,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell5}"
                     }
@@ -84,7 +84,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell6}"
                     }
@@ -99,7 +99,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell7}"
                     }
@@ -114,7 +114,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell8}"
                     }
@@ -129,7 +129,7 @@
                 "equipment": {
                     "mainhand": {
                         "items": [
-                            "minecraft:carrot_on_a_stick"
+                            "minecraft:enchanted_book"
                         ],
                         "nbt": "{Spell:spell10}"
                     }

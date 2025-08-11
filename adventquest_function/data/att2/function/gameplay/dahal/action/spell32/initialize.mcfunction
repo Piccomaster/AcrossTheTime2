@@ -50,3 +50,9 @@ scoreboard players set lvl2 COOLDOWN32 1400
 scoreboard players set lvl3 COOLDOWN32 1200
 scoreboard players set lvl4 COOLDOWN32 1000
 scoreboard players set lvl5 COOLDOWN32 800
+
+scoreboard players set SP32_1 DAHAL_COST 350
+scoreboard players set SP32_2 DAHAL_COST 350
+scoreboard players set SP32_3 DAHAL_COST 350
+scoreboard players set SP32_4 DAHAL_COST 350
+scoreboard players set SP32_5 DAHAL_COST 350

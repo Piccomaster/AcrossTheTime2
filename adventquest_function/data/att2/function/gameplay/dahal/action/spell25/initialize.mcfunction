@@ -37,3 +37,14 @@ scoreboard players set 12 SPELL25_MAX 12
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN25 20000
+#set dahal cost
+scoreboard players set SP25_1 DAHAL_COST 50
+scoreboard players set SP25_2 DAHAL_COST 55
+scoreboard players set SP25_3 DAHAL_COST 70
+scoreboard players set SP25_4 DAHAL_COST 80
+scoreboard players set SP25_5 DAHAL_COST 90
+scoreboard players set SP25_6 DAHAL_COST 95
+scoreboard players set SP25_7 DAHAL_COST 110
+scoreboard players set SP25_8 DAHAL_COST 115
+scoreboard players set SP25_9 DAHAL_COST 130
+scoreboard players set SP25_10 DAHAL_COST 175

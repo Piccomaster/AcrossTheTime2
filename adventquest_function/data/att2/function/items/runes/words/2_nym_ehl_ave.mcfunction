@@ -5,4 +5,4 @@
 
 function att2:gameplay/runes/recipe_done
 
-give @s minecraft:arms_up_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'com',RuneWord:'2'},custom_name={translate:'item.runeword.2.name'},lore=[{translate:'item.runeword.2.recipe'},{translate:'item.runeword.2.bonus.cooldown'},{translate:'item.runeword.2.bonus.loot'},{translate:'item.runeword.2.limit'}],tooltip_style="minecraft:rarity/com/com"]
+give @s minecraft:arms_up_pottery_sherd[custom_data={EquipmentType:'runic_word',Rarity:'com',RuneWord:'2'},custom_name={translate:'item.runeword.2.name'},lore=[{translate:'item.runeword.2.recipe'},{translate:'item.runeword.2.bonus.cooldown'},{translate:'item.runeword.2.bonus.loot'},{translate:'item.runeword.2.limit'}],enchantment_glint_override=true,tooltip_style="minecraft:rarity/com/com"]

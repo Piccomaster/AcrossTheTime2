@@ -14,4 +14,17 @@ scoreboard players set cap2 SPELL23_LVL 12000
 scoreboard players set cap3 SPELL23_LVL 72000
 
 #set cooldown score | cooldown/200 -> second
-scoreboard players set lvl1 COOLDOWN23 32000
+scoreboard players set lvl1 COOLDOWN23 12000
+scoreboard players set lvl2 COOLDOWN23 12000
+scoreboard players set lvl3 COOLDOWN23 12000
+scoreboard players set lvl4 COOLDOWN23 12000
+scoreboard players set lvl5 COOLDOWN23 12000
+scoreboard players set lvl6 COOLDOWN23 12000
+scoreboard players set lvl7 COOLDOWN23 12000
+scoreboard players set lvl8 COOLDOWN23 12000
+scoreboard players set lvl9 COOLDOWN23 12000
+scoreboard players set lvl10 COOLDOWN23 12000
+#set dahal cost
+scoreboard players set SP23_1 DAHAL_COST 80
+scoreboard players set SP23_2 DAHAL_COST 140
+scoreboard players set SP23_3 DAHAL_COST 200

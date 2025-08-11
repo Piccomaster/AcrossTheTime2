@@ -32,6 +32,7 @@
 - **Stock**  
   - Each *Chrono Gem* upgrades pocket by **1 level**.  
   - Added **"Previous Page," "Discard All," "Next Page"** buttons.  
+  - *Mechanic Update* Auto-recalls when enemies are nearby/Auto-summons when no enemies in range
   
 - **New Feature: Spell Details Display**  
   -Click any spell name in the spellbook to view its detailed data.
@@ -124,8 +125,17 @@
 
   - **City Walk System**
   - **City Title Display**: Shows city name in center screen upon entry
-  - **Movement Bonus**: Grants Speed II effect while within city limits
+  - **Movement Bonus**: Grants Speed I effect while within city limits
 
+  - **Spell System Optimization**
+  - **Texture Upgrade**: Added unique textures for spellbooks and spell launcher
+  - **Cooldown Display**: Improved visual cooldown indication on casting foci
+
+  - **Equipment Quality Color Display**
+  - **Item Icon**: Colored border at bottom indicates quality tier
+  - **Tooltip**: Background color matches item quality
+
+  
 ### Balance:
 - **Attribute System Update** 
   - Most attributes now **directly modify base stats** (no "status effects").  
@@ -177,6 +187,9 @@
 - Improved drop rate for:
   - Small coins
   - Runes (from invasions and maze encounters)
+
+- **Tiid Klo Ul Spell Adjustments**
+- Reduced slowing effect and Increased weakening effect
 
 ### Bug Fix:
 - **Quest Progression Issues**  

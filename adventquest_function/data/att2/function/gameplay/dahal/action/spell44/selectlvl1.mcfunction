@@ -5,4 +5,4 @@
 
 scoreboard players set @s SPELL44_SLCT 1
 function att2:gameplay/dahal/action/loadingsuccess
-execute if score @s SPELL44_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_44/lvl1
+execute if score @s SPELL44_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_44/get

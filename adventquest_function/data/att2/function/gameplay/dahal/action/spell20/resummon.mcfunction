@@ -3,16 +3,24 @@
 #Stock lvl1										                #
 #################################################################
 
-##set_chest
-scoreboard players set @s set_chest 1
-#get number and page
-$execute unless entity @e[type=chest_minecart,tag=spell20_chest,scores={OWNER=$(NUMEROJOUEUR)}] at @s anchored eyes positioned ^ ^-0.5 ^1 run function att2:gameplay/dahal/action/spell20/summon with storage att2:spell20
-$execute as @e[type=minecraft:chest_minecart,tag=!New,tag=spell20_chest,scores={OWNER=$(NUMEROJOUEUR)}] at @s run tp @e[type=chest_minecart,tag=spell20_chest,scores={OWNER=$(NUMEROJOUEUR)}] @a[scores={NUMEROJOUEUR=$(NUMEROJOUEUR)},limit=1]
+##summon
+$summon minecraft:chest_minecart ~ ~ ~ {CustomNameVisible:1b,Tags:["invminecarts.invisible_minecart","spell20_chest","New","KeepOriginalData"],Silent:1,Invulnerable:1,HasVisualFire:0,UUID:[I;0,777,0,$(NUMEROJOUEUR)],DisplayState:{Name:"barrier"},CustomName:[{translate:att2.spell20.name},{text:" - "},{text:"$(NUMEROJOUEUR)",color:dark_red}]}
+#set score
+scoreboard players operation @e[type=chest_minecart,tag=spell20_chest,tag=New] OWNER = @s NUMEROJOUEUR
+
+scoreboard players operation @e[type=chest_minecart,tag=spell20_chest,tag=New] SPELL20_PAGE = @s SPELL20_PAGE
+
+scoreboard players operation @e[type=chest_minecart,tag=spell20_chest,tag=New] SPELL20_LVL = @s SPELL20_LVL
+
+execute store result storage att2:spell20 NUMEROJOUEUR int 1 run scoreboard players get @s NUMEROJOUEUR
+
+execute store result storage att2:spell20 now_page int 1 run scoreboard players get @s SPELL20_PAGE
+
+execute store result storage att2:spell20 max_page int 1 run scoreboard players get @s SPELL20_LVL
+
+function att2:gameplay/dahal/action/spell20/reset_item with storage att2:spell20
+
 #remove tag
 tag @e[type=chest_minecart,tag=spell20_chest,tag=!Drop,tag=New] remove New
 #test
 function att2:gameplay/dahal/action/spell20/chest_test
-#stop sound
-stopsound @s ambient minecraft:teleportation3
-stopsound @s ambient minecraft:strange9
-stopsound @s ambient minecraft:fizzle2

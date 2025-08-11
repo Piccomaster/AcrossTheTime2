@@ -3,17 +3,29 @@
 #Process Wolf incantation								        #
 #################################################################
 
+#revoke test
+advancement revoke @s only att2_test:dahal/spell25/used_trigger
+#set dahal test
+scoreboard players set DAHAL_TEST CAL 0
+
 # Incase the player already as the summon, the previous one should be destroyed
-execute as @s[scores={SPELL25_SLCT=1,DAHAL=50..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl1
-execute as @s[scores={SPELL25_SLCT=2,DAHAL=55..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl2
-execute as @s[scores={SPELL25_SLCT=3,DAHAL=70..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl3
-execute as @s[scores={SPELL25_SLCT=4,DAHAL=80..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl4
-execute as @s[scores={SPELL25_SLCT=5,DAHAL=90..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl5
-execute as @s[scores={SPELL25_SLCT=6,DAHAL=95..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl6
-execute as @s[scores={SPELL25_SLCT=7,DAHAL=110..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl7
-execute as @s[scores={SPELL25_SLCT=8,DAHAL=115..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl8
-execute as @s[scores={SPELL25_SLCT=9,DAHAL=130..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl9
-execute as @s[scores={SPELL25_SLCT=10,DAHAL=175..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl10
+execute if score @s[scores={SPELL25_SLCT=1}] DAHAL >= SP25_1 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl1
+execute if score @s[scores={SPELL25_SLCT=2}] DAHAL >= SP25_2 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl2
+execute if score @s[scores={SPELL25_SLCT=3}] DAHAL >= SP25_3 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl3
+execute if score @s[scores={SPELL25_SLCT=4}] DAHAL >= SP25_4 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl4
+execute if score @s[scores={SPELL25_SLCT=5}] DAHAL >= SP25_5 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl5
+execute if score @s[scores={SPELL25_SLCT=6}] DAHAL >= SP25_6 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl6
+execute if score @s[scores={SPELL25_SLCT=7}] DAHAL >= SP25_7 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl7
+execute if score @s[scores={SPELL25_SLCT=8}] DAHAL >= SP25_8 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl8
+execute if score @s[scores={SPELL25_SLCT=9}] DAHAL >= SP25_9 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl9
+execute if score @s[scores={SPELL25_SLCT=10}] DAHAL >= SP25_10 DAHAL_COST anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl10
+
+#feed back dahal 
+execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+#replace hand
+function att2:gameplay/dahal/action/replace/detection/spell25
+#reset
+scoreboard players reset DAHAL_TEST CAL
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL25_LVL

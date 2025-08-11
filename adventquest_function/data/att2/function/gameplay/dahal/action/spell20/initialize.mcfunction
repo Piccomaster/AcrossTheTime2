@@ -5,7 +5,8 @@
 
 scoreboard objectives add COOLDOWN20 dummy
 scoreboard objectives add SPELL20_LVL dummy
-scoreboard objectives add SPELL20_EFFECT dummy
+scoreboard objectives add SPELL20_SUMMON dummy
+scoreboard objectives add SPELL20_STOCK dummy
 scoreboard objectives add SPELL20_CAP dummy
 ##chest_minecart data
 scoreboard objectives add set_chest dummy
@@ -19,6 +20,8 @@ scoreboard players set @s SPELL20_ESC 0
 scoreboard players set @s SPELL20_RUNE 0
 
 scoreboard players set @s set_chest 0
+scoreboard players set @s SPELL20_SUMMON 0
+scoreboard players set @s SPELL20_STOCK 0
 
 scoreboard players set @s COOLDOWN20 0
 scoreboard players set @s SPELL20_LVL 1

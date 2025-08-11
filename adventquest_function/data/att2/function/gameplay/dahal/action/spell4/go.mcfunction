@@ -3,16 +3,28 @@
 #Process power ray incantation									#
 #################################################################
 
-execute as @s[scores={SPELL4_SLCT=1,DAHAL=100..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl1
-execute as @s[scores={SPELL4_SLCT=2,DAHAL=125..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl2
-execute as @s[scores={SPELL4_SLCT=3,DAHAL=150..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl3
-execute as @s[scores={SPELL4_SLCT=4,DAHAL=175..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl4
-execute as @s[scores={SPELL4_SLCT=5,DAHAL=200..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl5
-execute as @s[scores={SPELL4_SLCT=6,DAHAL=225..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl6
-execute as @s[scores={SPELL4_SLCT=7,DAHAL=250..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl7
-execute as @s[scores={SPELL4_SLCT=8,DAHAL=275..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl8
-execute as @s[scores={SPELL4_SLCT=9,DAHAL=300..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl9
-execute as @s[scores={SPELL4_SLCT=10,DAHAL=350..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl10
+#revoke test
+advancement revoke @s only att2_test:dahal/spell4/used_trigger
+#set dahal test
+scoreboard players set DAHAL_TEST CAL 0
+
+execute if score @s[scores={SPELL4_SLCT=1}] DAHAL >= SP4_1 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl1
+execute if score @s[scores={SPELL4_SLCT=2}] DAHAL >= SP4_2 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl2
+execute if score @s[scores={SPELL4_SLCT=3}] DAHAL >= SP4_3 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl3
+execute if score @s[scores={SPELL4_SLCT=4}] DAHAL >= SP4_4 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl4
+execute if score @s[scores={SPELL4_SLCT=5}] DAHAL >= SP4_5 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl5
+execute if score @s[scores={SPELL4_SLCT=6}] DAHAL >= SP4_6 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl6
+execute if score @s[scores={SPELL4_SLCT=7}] DAHAL >= SP4_7 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl7
+execute if score @s[scores={SPELL4_SLCT=8}] DAHAL >= SP4_8 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl8
+execute if score @s[scores={SPELL4_SLCT=9}] DAHAL >= SP4_9 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl9
+execute if score @s[scores={SPELL4_SLCT=10}] DAHAL >= SP4_10 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl10
+
+#feed back dahal 
+execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+#replace hand
+function att2:gameplay/dahal/action/replace/detection/spell4
+#reset
+scoreboard players reset DAHAL_TEST CAL
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL4_LVL

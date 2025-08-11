@@ -74,5 +74,14 @@ scoreboard players set epi_set SPELL31_DATA 9
 scoreboard players set leg SPELL31_DATA 15
 scoreboard players set leg_armset SPELL31_DATA 17
 scoreboard players set ult SPELL31_DATA 25
-
-
+#set dahal cost
+scoreboard players set SP31_1 DAHAL_COST 350
+scoreboard players set SP31_2 DAHAL_COST 350
+scoreboard players set SP31_3 DAHAL_COST 350
+scoreboard players set SP31_4 DAHAL_COST 350
+scoreboard players set SP31_5 DAHAL_COST 350
+scoreboard players set SP31_6 DAHAL_COST 350
+scoreboard players set SP31_7 DAHAL_COST 350
+scoreboard players set SP31_8 DAHAL_COST 350
+scoreboard players set SP31_9 DAHAL_COST 350
+scoreboard players set SP31_10 DAHAL_COST 350

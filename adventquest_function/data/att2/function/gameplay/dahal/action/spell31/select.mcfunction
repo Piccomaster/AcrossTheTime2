@@ -14,13 +14,13 @@ scoreboard players set @s[scores={SPELL31_CAP=8,SPELL31_SLCT=1}] SPELL31_SLCT 8
 scoreboard players set @s[scores={SPELL31_CAP=9,SPELL31_SLCT=1}] SPELL31_SLCT 9
 scoreboard players set @s[scores={SPELL31_CAP=10,SPELL31_SLCT=1}] SPELL31_SLCT 10
 function att2:gameplay/dahal/action/loadingsuccess
-execute if score @s SPELL31_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_31/lvl1
-execute if score @s SPELL31_SLCT matches 2 run function att2:gameplay/dahal/launcher/spell_31/lvl2
-execute if score @s SPELL31_SLCT matches 3 run function att2:gameplay/dahal/launcher/spell_31/lvl3
-execute if score @s SPELL31_SLCT matches 4 run function att2:gameplay/dahal/launcher/spell_31/lvl4
-execute if score @s SPELL31_SLCT matches 5 run function att2:gameplay/dahal/launcher/spell_31/lvl5
-execute if score @s SPELL31_SLCT matches 6 run function att2:gameplay/dahal/launcher/spell_31/lvl6
-execute if score @s SPELL31_SLCT matches 7 run function att2:gameplay/dahal/launcher/spell_31/lvl7
-execute if score @s SPELL31_SLCT matches 8 run function att2:gameplay/dahal/launcher/spell_31/lvl8
-execute if score @s SPELL31_SLCT matches 9 run function att2:gameplay/dahal/launcher/spell_31/lvl9
-execute if score @s SPELL31_SLCT matches 10 run function att2:gameplay/dahal/launcher/spell_31/lvl10
+execute if score @s SPELL31_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 2 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 3 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 4 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 5 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 6 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 7 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 8 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 9 run function att2:gameplay/dahal/launcher/spell_31/get
+execute if score @s SPELL31_SLCT matches 10 run function att2:gameplay/dahal/launcher/spell_31/get
