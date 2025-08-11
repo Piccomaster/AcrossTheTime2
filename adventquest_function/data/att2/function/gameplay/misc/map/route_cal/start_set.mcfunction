@@ -15,6 +15,11 @@ $execute as @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=
 team join dark_green @e[type=shulker,tag=ROUTE_START,tag=New]
 #set score
 scoreboard players operation @e[type=shulker,tag=ROUTE_START,tag=New] OWNER = @s NUMEROJOUEUR
+#add arrow
+tp @e[type=zombified_piglin,tag=newGPS,distance=..5] ~ -10 ~
+summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:[newGPS],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001003]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+
+execute in minecraft:overworld as @e[type=zombified_piglin,tag=newGPS] at @s anchored feet facing entity @e[type=shulker,tag=ROUTE_START,tag=New,limit=1] feet run function att2:gameplay/gps/tp_arrow
 #remove tag
 tag @e[type=shulker,tag=ROUTE_START,tag=New] remove New
 
@@ -22,3 +27,4 @@ tag @e[type=shulker,tag=ROUTE_START,tag=New] remove New
 #test sucess
 $execute if entity @e[distance=..50,type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=1},limit=1,sort=nearest] run function att2:dialogs/gameplay/misc/map/route_loaded
 $execute unless entity @e[distance=..50,type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=1},limit=1,sort=nearest] run function att2:gameplay/misc/map/route_cal/error with storage att2:route
+

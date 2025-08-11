@@ -3,7 +3,7 @@
 #Execute malus effect for hight TEMPERATURE -2          #
 #########################################################
 
-scoreboard players set @s[scores={HUN_EXT=-3..}] HUN_EXT -3
+scoreboard players set @s HUN_EXT -3
 scoreboard players set @s TIMER_HUN_EXT 20
 
 execute if score cold_Malus2_Timer TEMPERATURE matches ..0 run scoreboard players set cold_Malus2_Timer TEMPERATURE 800

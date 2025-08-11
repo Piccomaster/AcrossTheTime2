@@ -1,0 +1,33 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/maze_torch"
+    },
+    "criteria": {
+        "maze_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:torch",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Maze": "torch"
+                            }
+                        }
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "DIMENSION": {
+                                "min": -2
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

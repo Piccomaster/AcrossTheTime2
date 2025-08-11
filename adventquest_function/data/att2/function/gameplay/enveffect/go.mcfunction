@@ -4,7 +4,7 @@
 #################################################################
 
 function att2:gameplay/enveffect/space_gem/go
-execute if score second TIMECOUNTER matches 7 as @a[gamemode=adventure] run function att2:gameplay/enveffect/temperature/go
+execute as @a[gamemode=adventure] run function att2:gameplay/enveffect/temperature/go
 function att2:gameplay/enveffect/time_gem/go
 function att2:gameplay/enveffect/spike/go
 function att2:gameplay/enveffect/mobs_invasion/go

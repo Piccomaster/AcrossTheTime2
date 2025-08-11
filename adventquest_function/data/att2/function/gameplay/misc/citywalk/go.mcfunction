@@ -10,13 +10,14 @@
 #Eolorion -> 6
 #Zirthion -> 7
 #Kortaek -> 8
-#Hillvaley -> 8
+#Hillvaley -> 9
+#Maze -> 10
 
 #reset TRUE
 scoreboard players set TRUE CAL 0
 
 ##Ryliath FROM -5152 -5072 TO -4897 -4879
-execute as @s[scores={DIMENSION=1},x=-5152,z=-5072,dx=255,dz=175] run function att2:gameplay/misc/citywalk/ryliath
+execute as @s[scores={DIMENSION=1},x=-5152,z=-5072,dx=255,dz=272] run function att2:gameplay/misc/citywalk/ryliath
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
@@ -26,7 +27,7 @@ execute as @s[scores={DIMENSION=1},x=-3824,z=-5920,dx=206,dz=143] run function a
 execute if score TRUE CAL matches 1 run return 0
 
 ##Earndehel FROM 29856 29808 TO 30319 30175
-execute as @s[scores={DIMENSION=1},x=29856,z=29808,dx=-463,dz=-367] run function att2:gameplay/misc/citywalk/earndhel
+execute as @s[scores={DIMENSION=1},x=29856,z=29808,dx=463,dz=367] run function att2:gameplay/misc/citywalk/earndhel
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
@@ -45,18 +46,23 @@ execute as @s[scores={DIMENSION=6},x=3769,z=4053,dx=-237,dz=247] run function at
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
-##Zirthion FROM 7120 7168 TO 7375 7407
-execute as @s[scores={DIMENSION=4},x=7120,z=7168,dx=-255,dz=-239] run function att2:gameplay/misc/citywalk/zirthion  
+##Zirthion FROM 7120 7168 TO 7375 7500
+execute as @s[scores={DIMENSION=4},x=7120,z=7168,dx=255,dz=339] run function att2:gameplay/misc/citywalk/zirthion
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
 ##Kortaek FROM -5552 -4784 TO -5361 -4625
 execute as @s[scores={DIMENSION=1},x=-5552,z=-4784,dx=191,dz=159] run function att2:gameplay/misc/citywalk/kortaek
+#if success -> Stop the command below
+execute if score TRUE CAL matches 1 run return 0
 
 ##Hillvaley FROM 1712 1599 TO 2575 2287
 execute as @s[scores={DIMENSION=2},x=1712,z=1599,dx=863,dz=688] run function att2:gameplay/misc/citywalk/hillvaley
+#if success -> Stop the command below
+execute if score TRUE CAL matches 1 run return 0
 
-
+##Maze
+execute as @s[scores={DIMENSION=-3}] run function att2:gameplay/misc/citywalk/maze
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
