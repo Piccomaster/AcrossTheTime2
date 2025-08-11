@@ -455,7 +455,7 @@ execute in overworld positioned -5102 86 -4972 run summon minecraft:text_display
 ##sq24_owsastr
 execute in overworld positioned -4539 72 -4524 run setblock ~ ~ ~ oak_wall_sign[facing=north] destroy
 execute in overworld positioned -4539 72 -4524 run summon minecraft:item_display ~ ~ ~ {Tags:["QUEST"],Rotation:[180.0,0.0],UUID:[I;0,0,0,21],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.5f,-0.4f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},item:{id:"minecraft:note_block"},item_display:gui}
-execute in overworld positioned -4539 72 -4524 run summon minecraft:text_display ~ ~ ~ {Tags:["QUEST"],Rotation:[0.0,0.0],UUID:[I;0,0,0,22],transformation:{scale:[1f,1f,1f],translation:[0.0f,1.0f,0.5f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},text:[{translate:item.quest.goods.name},{text:"\n"},{text:"x6",color:yellow}],billboard:fixed,background:0}
+execute in overworld positioned -4539 72 -4524 run summon minecraft:text_display ~ ~ ~ {Tags:["QUEST"],Rotation:[0.0,0.0],UUID:[I;0,0,0,22],transformation:{scale:[1f,1f,1f],translation:[0.0f,1.0f,0.5f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},text:[{translate:item.quest.goods.name},{text:"\n"},{text:"x5",color:yellow}],billboard:fixed,background:0}
 ##sq32_volcano
 execute in overworld positioned -5547 73 -5154 run kill @e[distance=..3,type=armor_stand]
 execute in overworld positioned -5547 73 -5154 run summon minecraft:item_display ~ ~ ~ {Tags:["QUEST"],Rotation:[180.0,0.0],UUID:[I;0,0,0,23],transformation:{scale:[1f,1f,1f],translation:[0.0f,0.5f,-0.4f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},item:{id:"minecraft:note_block"},item_display:gui}
