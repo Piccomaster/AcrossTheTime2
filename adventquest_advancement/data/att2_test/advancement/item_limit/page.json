@@ -1,0 +1,59 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/page"
+    },
+    "criteria": {
+        "page_pr": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shulker_shell",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "CHEST": "page_pr"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "page_ne": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shulker_shell",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "CHEST": "page_ne"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "drop": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shulker_shell",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "CHEST": "drop"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "page_pr",
+            "page_ne",
+            "drop"
+        ]
+    ]
+}

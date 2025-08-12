@@ -8,7 +8,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:torch",
+                        "items": "minecraft:redstone_torch",
                         "predicates": {
                             "minecraft:custom_data": {
                                 "Maze": "torch"
