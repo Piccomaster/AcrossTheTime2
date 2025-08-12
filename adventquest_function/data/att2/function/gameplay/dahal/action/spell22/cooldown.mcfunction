@@ -3,6 +3,9 @@
 #Level and Cooldown	for Obstinacy pet							#
 #################################################################
 
+#stop spell31
+scoreboard players set @s spell31_run 0
+
 scoreboard players operation @s COOLDOWN22 = lvl1 COOLDOWN22
 #cooldown cal
 function att2:gameplay/dahal/action/cooldown_cal

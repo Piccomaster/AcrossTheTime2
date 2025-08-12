@@ -6,9 +6,12 @@
         "CLASS_SC_7": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "entity": {
-                    "nbt": "{Tags:[\"CLASS_SC_7\"]}"
-                }
+                "entity": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "att2_pre:kill/class7"
+                    }
+                ]
             }
         }
     }

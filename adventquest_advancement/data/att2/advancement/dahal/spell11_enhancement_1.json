@@ -1,10 +1,17 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:written_book"
+            "id": "minecraft:enchanted_book",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        11
+                    ]
+                }
+            }
         },
-        "title": {"translate":"Nova Enhancement Apprentice"},
-        "description": {"translate":"Enhance level 1 with Nova spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell11_enhancement_1"},
+        "description": {"translate":"att2.advancement.dahal.description.spell11_enhancement_1"}
     },
     "parent": "att2:dahal/spell11_loot",
     "rewards": {

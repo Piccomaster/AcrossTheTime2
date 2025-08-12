@@ -4,7 +4,7 @@
 #################################################
 
 ##particle
-playsound teleportation master @a ~ ~ ~ 1 1
+playsound teleportation master @a ~ ~ ~ 0.5 1
 kill @e[type=ender_pearl,distance=..5]
 particle minecraft:enchant ~ ~0.5 ~ 0 0 0 1 50
 particle cloud ~ ~ ~ 1 1 1 0.3 20

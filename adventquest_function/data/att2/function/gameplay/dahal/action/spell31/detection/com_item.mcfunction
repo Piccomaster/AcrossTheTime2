@@ -28,7 +28,7 @@ function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s BONUS_XP_SPELL += com SPELL31
 scoreboard players operation @s SPELL31_LVL += @s BONUS_XP_SPELL
 
-kill @e[type=minecraft:item,predicate=att2_pre:test_item/com,predicate=!att2_pre:test_item/error,distance=..2,limit=1,sort=nearest]
+kill @e[type=minecraft:item,predicate=att2_pre:test_item/com,predicate=!att2_pre:test_item/error,distance=..3,limit=1,sort=nearest]
 
 function att2:gameplay/dahal/action/spell31/spell_xp
 
