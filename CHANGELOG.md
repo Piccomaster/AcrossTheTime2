@@ -2,6 +2,7 @@
 ## All improvement/balance/fix from Across_the_time_2 map v5.0.1 in new last Minecraft version! 
 
 ### Additions and Improvements:
+
 - **Player Limit Modification**  
   - Supports "unlimited" player joins.  
   - Players can join at any time during gameplay without restrictions.  
@@ -18,8 +19,8 @@
   - Bank-stored *Chronotons* are now **shared among all players** (no longer private).  
 
 - **Small Chairs**  
-  - Buy from an NPC near *Ryliath*.  
-  - **Right-click** to place and sit; **left-click legs** to pick up.  
+  - Buy from an NPC *Estelle*.
+  - **Right-click** to place and sit; **left-click chair legs** to pick up.  
 
 - **New Mounts**  
   - Purchase town-specific mounts: **pigs, camels, horses, mules**.  
@@ -68,33 +69,32 @@
 - Deals AoE damage around your attack target based on your current Chronotons amount
 
   -**Bloodeater**
-- **Left Click**: Attacks heal for 70% of damage dealt
-- **Right Click (Hold)**: 
+- *Left Click*: Attacks heal for 70% of damage dealt
+- *Right Click (Hold)*: 
   - Consumes 70% of current health
   - Releases a long-range sword projectile
 
   -**Warlord**
-- **Arrow Hit**: Creates a "Lightning Field" on struck enemies that:
+- *Arrow Hit*: Creates a "Lightning Field" on struck enemies that:
   - Pulls in nearby enemies
   - Deals continuous lightning damage
 
   -**Kinuil**
-- **Right Click**: Releases a flame field that:
+- *Right Click*: Releases a flame field that:
   - Applies a flame mark to one random nearby enemy
-- **Attacking marked enemies**:
+- *Attacking marked enemies*:
   - Deals random splash damage to nearby enemies
 
 - **Sastr**
 
-- **Left Attack**:
+- *Left Attack*:
   - Knocks back hit enemies
   - If knocked-back enemies collide with walls or other enemies:
     • Deals AoE (Area of Effect) damage to nearby enemies
     • Knocks back surrounding enemies
     • User recoils backward
-- **Right Attack**:
+- *Right Attack*:
   - Launches forward enemies into the air
-
 
 - **Chests names display**
   - Chests containing quest items or books will now display unique names.
@@ -124,17 +124,32 @@
   - Screen shake effects
 
   - **City Walk System**
-  - **City Title Display**: Shows city name in center screen upon entry
-  - **Movement Bonus**: Grants Speed I effect while within city limits
+  - *City Title Display*: Shows city name in center screen upon entry
+  - *Movement Bonus*: Grants Speed I effect while within city limits
 
   - **Spell System Optimization**
-  - **Texture Upgrade**: Added unique textures for spellbooks and spell launcher
-  - **Cooldown Display**: Improved visual cooldown indication on casting foci
+  - *Texture Upgrade*: Added unique textures for spellbooks and spell launcher
+  - *Cooldown Display*: Improved visual cooldown indication on casting foci
 
   - **Equipment Quality Color Display**
-  - **Item Icon**: Colored border at bottom indicates quality tier
-  - **Tooltip**: Background color matches item quality
+  - *Item Icon*: Colored border at bottom indicates quality tier
+  - *Tooltip*: Background color matches item quality
 
+  - **New Advancements**
+  -*Spell Kill* : Triggers when Player kill a mob by damage spell
+  -*Fishing* : Triggers when Player catches a fish/Purchases fishing rod
+  -*Enchanting* : Triggers when Player performs an enchantment
+  -*mimic kill* : Triggers when Player Player kill a mimic chest
+
+- **Maze System Optimization**
+
+  - **New Item: Maze Torch**
+  - *Acquisition* : Defeating monsters/open chests/Collecting symbol/waypoints
+  - *Functionality*: Placeable path markers(Exclusive to maze use)
+
+  - **Reward Effects**
+  - *On completing* : kill Monsters / open Chest/ symbol /waypoint collection  
+  - *Players receive* : Minor HP restoration / Temporary movement speed boost/Small hunger recovery
   
 ### Balance:
 - **Attribute System Update** 
@@ -148,10 +163,6 @@
 
 - **empty hand Penalty** 
   - Now reduces **attack damage by 99%** (no longer reduces attack speed).  
-
-- **Spell Damage** 
-  - Now scales slightly with **difficulty**.  
-  - Spells no longer trigger **invincibility frames** on monsters.  
 
 - **Fire Damage** 
   - No longer triggers invincibility frames on monsters.  
@@ -188,8 +199,10 @@
   - Small coins
   - Runes (from invasions and maze encounters)
 
-- **Tiid Klo Ul Spell Adjustments**
-- Reduced slowing effect and Increased weakening effect
+- **Spell System Balance**
+  - *Spell Damage*: Now scales slightly with *difficulty*. 
+  - Spells no longer trigger *invincibility frames* on monsters.
+  - *Tiid Klo Ul Spell Adjustments*: *Slow Effect* Nerfed from *90% → 45%* at max level ,but No longer is *interrupted* by other spells
 
 ### Bug Fix:
 - **Quest Progression Issues**  
