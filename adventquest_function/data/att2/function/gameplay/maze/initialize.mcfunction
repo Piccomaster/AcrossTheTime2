@@ -7,14 +7,14 @@ team add maze_exit
 team modify maze_exit color green
 
 scoreboard objectives add MAZE dummy
-scoreboard objectives add maze_boss_killed minecraft.killed:minecraft.ravager
-scoreboard objectives add maze_minions_killed minecraft.killed:minecraft.stray
-scoreboard objectives add maze_elites_killed minecraft.killed:minecraft.wither_skeleton
+#scoreboard objectives add maze_boss_killed minecraft.killed:minecraft.ravager
+#scoreboard objectives add maze_minions_killed minecraft.killed:minecraft.stray
+#scoreboard objectives add maze_elites_killed minecraft.killed:minecraft.wither_skeleton
 
-scoreboard players set @a maze_minions_killed 0
-scoreboard players set @a maze_minions_archer_killed 0
-scoreboard players set @a maze_elites_killed 0
-scoreboard players set @a maze_boss_killed 0
+#scoreboard players set @a maze_minions_killed 0
+#scoreboard players set @a maze_minions_archer_killed 0
+#scoreboard players set @a maze_elites_killed 0
+#scoreboard players set @a maze_boss_killed 0
 scoreboard players set total_elites_killed MAZE 0
 scoreboard players set total_minions_killed MAZE 0
 scoreboard players set normal_chest_opened MAZE 0

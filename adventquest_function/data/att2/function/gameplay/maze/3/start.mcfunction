@@ -26,3 +26,7 @@ execute positioned -9985 71 -10245 run function att2:gameplay/maze/summon/boss
 team join noCollision @e[type=minecraft:chest_minecart,tag=maze_chest]
 
 tp @a[x=-9969,y=103,z=-10237,distance=..5,gamemode=adventure] -9963 72 -10187
+
+#give torch
+execute as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_8
+execute as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_8

@@ -14,3 +14,6 @@ execute if score Timer MAZE matches ..0 as @r[x=-9683,y=65,z=-9866,dx=204,dy=15,
 execute if score Timer MAZE matches ..0 positioned -9569 71 -10165 run function att2:gameplay/maze/summon/maze_exit
 execute if score Timer MAZE matches ..0 run function att2:gameplay/maze/6/doors_processing
 execute if score Timer MAZE matches ..0 run scoreboard players set Timer MAZE 2400
+
+##
+execute as @a[scores={DIMENSION=-3}] at @s if block ~ ~-1 ~ slime_block run effect give @s jump_boost 2 2 true

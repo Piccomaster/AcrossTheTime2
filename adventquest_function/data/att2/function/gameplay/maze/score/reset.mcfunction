@@ -3,9 +3,9 @@
 #Reset score maze             									#
 #################################################################
 
-scoreboard players set @a maze_minions_killed 0
-scoreboard players set @a maze_elites_killed 0
-scoreboard players set @a maze_boss_killed 0
+#scoreboard players set @a maze_minions_killed 0
+#scoreboard players set @a maze_elites_killed 0
+#scoreboard players set @a maze_boss_killed 0
 scoreboard players set total_elites_killed MAZE 0
 scoreboard players set total_minions_killed MAZE 0
 scoreboard players set total_boss_killed MAZE 0
