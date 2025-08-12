@@ -1,0 +1,65 @@
+##################################################
+#Made by Adventquest                             #
+#Process spawn event                             #
+##################################################
+
+execute in minecraft:the_end positioned -668 78 -613 if entity @a[distance=5..30] run function att2:spawner/reg3/road/portal/golemarcher2_class15_5116
+execute in minecraft:the_end positioned -783 62 -592 if entity @a[distance=5..25] run function att2:spawner/reg3/road/east/golemarcher3_class16_5123
+execute in minecraft:the_end positioned -855 135 -593 if entity @a[distance=5..30] run function att2:spawner/reg3/road/east/golemarcher2_class15_5133
+execute in minecraft:the_end positioned -909 20 -650 if entity @a[distance=5..25] run function att2:spawner/reg3/road/underground/silverfish0_class12_5148
+execute in minecraft:the_end positioned -903 114 -640 if entity @a[distance=5..30] run function att2:spawner/reg3/road/west/golemarcher2_class15_5155
+execute in minecraft:the_end positioned -905 32 -596 if entity @a[distance=5..25] run function att2:spawner/reg3/road/west/golemarcher3_class16_5162
+execute in minecraft:the_end positioned -984 70 -593 if entity @a[distance=5..30] run function att2:spawner/reg3/road/west/golemarcher2_class15_5172
+execute in minecraft:the_end positioned -914 118 -595 if entity @a[distance=5..25] run function att2:spawner/reg3/road/west/golemarcher0_class13_5180
+execute in minecraft:the_end positioned -976 125 -573 if entity @a[distance=5..25] run function att2:spawner/reg3/road/west/golemarcher3_class16_5186
+execute in minecraft:the_end positioned -1042 25 -623 if entity @a[distance=5..30] run function att2:spawner/reg3/road/west/golemarcher2_class15_5196
+execute in minecraft:the_end positioned -1227 27 -569 if entity @a[distance=5..20] run function att2:spawner/reg3/dungeon/center/golemarcher1_class13_5204
+execute in minecraft:the_end positioned -1311 24 -593 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/center/golemarcher0_class13_5211
+execute in minecraft:the_end positioned -1247 28 -646 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/center/golemarcher3_class16_5217
+execute in minecraft:the_end positioned -1277 117 -651 if entity @a[distance=10..40] run function att2:spawner/reg3/dungeon/center/blaze0_class16_5228
+execute in minecraft:the_end positioned -1137 25 -563 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_se/golemarcher3_class16_5233
+execute in minecraft:the_end positioned -1147 48 -533 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_se/silverfish0_class12_5242
+execute in minecraft:the_end positioned -1164 48 -573 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_se/golemarcher2_class14_5247
+execute in minecraft:the_end positioned -1116 78 -570 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_se/golemarcher3_class16_5254
+execute in minecraft:the_end positioned -1142 96 -583 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_se/silverfish0_class12_5263
+execute in minecraft:the_end positioned -1122 73 -535 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_se/golemarcher2_class14_5268
+execute in minecraft:the_end positioned -1163 133 -540 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_se/golemarcher3_class16_5275
+execute in minecraft:the_end positioned -1134 98 -564 if entity @a[distance=7..35] run function att2:spawner/reg3/dungeon/tower_se/blaze0_class13_5281
+execute in minecraft:the_end positioned -1220 78 -472 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_s/silverfish0_class12_5290
+execute in minecraft:the_end positioned -1268 78 -501 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_s/golemarcher2_class14_5295
+execute in minecraft:the_end positioned -1210 109 -497 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_s/golemarcher3_class16_5302
+execute in minecraft:the_end positioned -1263 121 -504 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_s/silverfish0_class12_5311
+execute in minecraft:the_end positioned -1235 176 -532 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_s/golemarcher2_class14_5316
+execute in minecraft:the_end positioned -1224 47 -496 if entity @a[distance=7..35] run function att2:spawner/reg3/dungeon/tower_s/blaze0_class13_5319
+execute in minecraft:the_end positioned -1232 120 -553 if entity @a[distance=10..40] run function att2:spawner/reg3/dungeon/tower_s/blaze0_class16_5322
+execute in minecraft:the_end positioned -1313 40 -544 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_sw/silverfish0_class12_5333
+execute in minecraft:the_end positioned -1308 62 -550 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_sw/golemarcher2_class14_5338
+execute in minecraft:the_end positioned -1337 81 -538 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_sw/golemarcher3_class16_5345
+execute in minecraft:the_end positioned -1350 108 -532 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_sw/silverfish0_class12_5354
+execute in minecraft:the_end positioned -1303 46 -675 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_nw/golemarcher2_class14_5362
+execute in minecraft:the_end positioned -1363 56 -688 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_nw/golemarcher2_class14_5367
+execute in minecraft:the_end positioned -1348 41 -709 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_nw/silverfish0_class12_5373
+execute in minecraft:the_end positioned -1355 89 -683 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_nw/golemarcher2_class14_5378
+execute in minecraft:the_end positioned -1300 84 -704 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_nw/golemarcher3_class16_5385
+execute in minecraft:the_end positioned -1357 119 -672 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_nw/silverfish0_class12_5394
+execute in minecraft:the_end positioned -1358 104 -676 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_nw/silverfish0_class12_5403
+execute in minecraft:the_end positioned -1340 143 -705 if entity @a[distance=10..40] run function att2:spawner/reg3/dungeon/tower_nw/blaze0_class16_5408
+execute in minecraft:the_end positioned -1241 21 -737 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_n/golemarcher2_class14_5412
+execute in minecraft:the_end positioned -1214 72 -742 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_n/golemarcher3_class16_5419
+execute in minecraft:the_end positioned -1212 86 -726 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_n/silverfish0_class12_5428
+execute in minecraft:the_end positioned -1230 82 -687 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_n/golemarcher2_class14_5432
+execute in minecraft:the_end positioned -1249 117 -746 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_n/golemarcher3_class16_5439
+execute in minecraft:the_end positioned -1262 123 -710 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_n/golemarcher3_class16_5443
+execute in minecraft:the_end positioned -1225 148 -727 if entity @a[distance=7..30] run function att2:spawner/reg3/dungeon/tower_n/blaze0_class13_5449
+execute in minecraft:the_end positioned -1145 20 -678 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_ne/golemarcher3_class16_5452
+execute in minecraft:the_end positioned -1167 44 -657 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_ne/silverfish0_class12_5461
+execute in minecraft:the_end positioned -1150 74 -695 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_ne/golemarcher2_class14_5466
+execute in minecraft:the_end positioned -1105 103 -667 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_ne/golemarcher3_class16_5473
+execute in minecraft:the_end positioned -1118 112 -696 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_ne/silverfish0_class12_5482
+execute in minecraft:the_end positioned -1186 146 -670 if entity @a[distance=5..25] run function att2:spawner/reg3/dungeon/tower_ne/golemarcher2_class14_5487
+execute in minecraft:the_end positioned -1183 183 -633 if entity @a[distance=5..30] run function att2:spawner/reg3/dungeon/tower_ne/golemarcher3_class16_5494
+execute in minecraft:the_end positioned -1127 179 -685 if entity @a[distance=7..35] run function att2:spawner/reg3/dungeon/tower_ne/blaze0_class14_5499
+execute in minecraft:the_end positioned -1528 32 -581 if entity @a[distance=5..30] run function att2:spawner/reg3/billgart/lost_area/golemarcher3_class20_5505
+execute in minecraft:the_end positioned -1527 109 -587 if entity @a[distance=5..35] run function att2:spawner/reg3/billgart/lost_area/golem4_class19_5515
+execute in minecraft:the_end positioned -1458 23 -584 if entity @a[distance=5..30] run function att2:spawner/reg3/billgart/lost_area/golem0_class20_5521
+execute in minecraft:the_end positioned -1533 58 -576 if entity @a[distance=5..30] run function att2:spawner/reg3/billgart/lost_area/golemarcher2_class20_5532
