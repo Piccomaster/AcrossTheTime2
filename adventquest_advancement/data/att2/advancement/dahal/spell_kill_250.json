@@ -10,7 +10,7 @@
     "parent": "att2:dahal/spell_kill_100",
     "rewards": {
         "function": "att2:advancement/exploit_15",
-        "experience": 15000
+        "experience": 10000
                 },
     "criteria": {
         "spell_kill_250": {
