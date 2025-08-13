@@ -3,7 +3,7 @@
 #Use function to process the Dialog 2 of Albert Dirac 			#
 #################################################################
 
-playsound minecraft:validation1 neutral @s ~ ~ ~ 0.5 1.5
+playsound minecraft:validation1 block @s ~ ~ ~ 0.5 1.5
 
 # FRENCH
 tellraw @s[scores={LANGUAGE=0}] [{"text":"⊰Mimique apparue!⊱","color":"green"}]

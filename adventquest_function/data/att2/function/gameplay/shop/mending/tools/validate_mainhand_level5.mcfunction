@@ -48,6 +48,14 @@ item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=
 item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/leg,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/eternan] weapon.mainhand att2:mending/level5/weapon/leg/eternan
 item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/leg,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/delightful] weapon.mainhand att2:mending/level5/weapon/leg/delightful
 item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/leg,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/harmonious] weapon.mainhand att2:mending/level5/weapon/leg/harmonious
+# ult
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/teran] weapon.mainhand att2:mending/level5/weapon/ult/teran
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/graceful] weapon.mainhand att2:mending/level5/weapon/ult/graceful
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/traditional] weapon.mainhand att2:mending/level5/weapon/ult/traditional
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/eternan] weapon.mainhand att2:mending/level5/weapon/ult/eternan
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/delightful] weapon.mainhand att2:mending/level5/weapon/ult/delightful
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/harmonious] weapon.mainhand att2:mending/level5/weapon/ult/harmonious
+
 
 ### Armor
 # com
@@ -106,3 +114,10 @@ item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,pred
 item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/leg_armset,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/eternan] weapon.mainhand att2:mending/level5/armor/leg/eternan
 item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/leg_armset,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/delightful] weapon.mainhand att2:mending/level5/armor/leg/delightful
 item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/leg_armset,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/harmonious] weapon.mainhand att2:mending/level5/armor/leg/harmonious
+# ult
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/teran] weapon.mainhand att2:mending/level5/armor/leg/teran
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/graceful] weapon.mainhand att2:mending/level5/armor/leg/graceful
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/traditional] weapon.mainhand att2:mending/level5/armor/leg/traditional
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/eternan] weapon.mainhand att2:mending/level5/armor/leg/eternan
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/delightful] weapon.mainhand att2:mending/level5/armor/leg/delightful
+item modify entity @s[predicate=att2_pre:test_hold/equipment/mainhand/armor,predicate=att2_pre:test_hold/rarity/mainhand/ult,predicate=att2_pre:test_hold/rarity/manufacturer/mainhand/harmonious] weapon.mainhand att2:mending/level5/armor/leg/harmonious

@@ -19,7 +19,7 @@ execute if score choice SQ38 matches 1 if score escavation_timer SQ38 matches 10
 execute if score choice SQ38 matches 2..3 if score altar_effect SQ38 matches 0 positioned -4375 58 -5054 run function att2:cinematic/sidequest/38/altar_effect
 
 # End altar particle effect
-execute positioned -4375 58 -5054 if entity @a[distance=..25,gamemode=adventure,nbt={Inventory:[{id:"minecraft:diamond_shovel",count:1,components:{EquipmentID:"loneshadow"}}]}] run scoreboard players set altar_effect SQ38 -1
+execute positioned -4375 58 -5054 if entity @a[distance=..25,gamemode=adventure,nbt={Inventory:[{id:"minecraft:diamond_shovel",count:1,components:{custom_data:{EquipmentID:"loneshadow"}}}]}] run scoreboard players set altar_effect SQ38 -1
 
 # Move PNJ Walton from Soquaï
 execute if score choice SQ38 matches 2 if score move_walton SQ38 matches 0 unless entity @a[x=-4394,y=57,z=-5054,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/38/walton_jones/move_pnj

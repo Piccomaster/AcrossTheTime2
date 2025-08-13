@@ -12,7 +12,6 @@ scoreboard players set Game_percentage_progress EXPLOIT 0
 scoreboard players set Points_completion EXPLOIT 100
 # SQ 60 + MAINQUEST 300
 scoreboard players set Total_objectives EXPLOIT 359
-103
 scoreboard players set Total_point EXPLOIT 20032
 scoreboard players set MAX EXPLOIT 0
 
