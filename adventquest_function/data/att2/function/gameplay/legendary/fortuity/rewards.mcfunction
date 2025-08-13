@@ -23,7 +23,7 @@ execute if score temp_value_11 CAL matches ..15 run scoreboard players set temp_
 #result attack damage
 execute store result storage att2:fortuity atk_dmg float 0.1 run scoreboard players get temp_value_11 CAL
 #result attack speed
-execute if score temp_value_12 CAL matches ..80 run scoreboard players set temp_value_12 CAL 800
+execute if score temp_value_12 CAL matches 795.. run scoreboard players set temp_value_12 CAL 800
 execute store result storage att2:fortuity atk_spd int 1 run scoreboard players get temp_value_12 CAL
 #modify fortuity mainhand | temp_value_11/12 could reset
 function att2:gameplay/legendary/fortuity/modify with storage att2:fortuity

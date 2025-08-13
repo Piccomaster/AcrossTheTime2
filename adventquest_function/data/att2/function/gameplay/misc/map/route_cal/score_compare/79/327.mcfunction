@@ -13,7 +13,7 @@ scoreboard players set MUSHROMM_CAVE DEST 0
 scoreboard players set GONON_HOTEL DEST 0
 scoreboard players set WORLEST_RUIN DEST 1
 ##Volcano/kert
-scoreboard players set VOLCANO_NORTH DEST 0
+scoreboard players set VOLCANO_NORTH DEST 1
 scoreboard players set KERT DEST 1
 scoreboard players set SATHONK DEST 1
 scoreboard players set KORTAEK DEST 1

@@ -17,4 +17,4 @@ experience add @s[scores={SPELL31_CAP=8..}] 1 points
 experience add @s[scores={SPELL31_CAP=9..}] 1 points
 experience add @s[scores={SPELL31_CAP=10..}] 1 points
 
-kill @e[type=minecraft:item,predicate=att2_pre:test_item/other,distance=..2,limit=1,sort=nearest]
+kill @e[type=minecraft:item,predicate=att2_pre:test_item/other,distance=..3,limit=1,sort=nearest]

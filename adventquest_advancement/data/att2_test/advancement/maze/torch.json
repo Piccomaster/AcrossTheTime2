@@ -1,0 +1,20 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/maze/torch/summon_trigger"
+  },
+  "criteria": {
+    "show_trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:torch",
+          "predicates": {
+            "minecraft:custom_data": {
+              "Maze": "torch"
+            }
+          }
+        }
+      }
+    }
+  }
+}

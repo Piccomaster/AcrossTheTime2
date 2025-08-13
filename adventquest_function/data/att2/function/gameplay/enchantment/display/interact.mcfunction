@@ -18,6 +18,7 @@ item replace entity @s weapon.mainhand from entity @e[tag=GET,limit=1,type=armor
 item replace entity @e[tag=GET,limit=1,type=armor_stand] weapon.mainhand from entity @e[tag=SET,limit=1,type=armor_stand] weapon.mainhand
 #modify enchantment display item
 data modify entity @e[tag=ENCHANTMENT,tag=ROTATION,limit=1] item set from entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand
+data remove entity @e[tag=ENCHANTMENT,tag=ROTATION,limit=1] item.components."minecraft:tooltip_style"
 #if nothing ->reset
 execute unless data entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.id run function att2:gameplay/enchantment/display/reset
 #if Non-compliant ->back item

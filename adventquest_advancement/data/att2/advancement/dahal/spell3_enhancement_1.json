@@ -1,10 +1,17 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:written_book"
+            "id": "minecraft:enchanted_book",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        3
+                    ]
+                }
+            }
         },
-        "title": {"translate":"Inferno Enhancement Apprentice"},
-        "description": {"translate":"Enhance level 1 with Inferno spell"}
+        "title": {"translate":"att2.advancement.dahal.title.spell3_enhancement_1"},
+        "description": {"translate":"att2.advancement.dahal.description.spell3_enhancement_1"}
     },
     "parent": "att2:dahal/spell3_loot",
     "rewards": {

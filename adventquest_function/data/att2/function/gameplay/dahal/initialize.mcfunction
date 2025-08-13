@@ -9,14 +9,15 @@ scoreboard objectives add DAHAL_COST dummy
 scoreboard objectives add DAHAL1 dummy
 scoreboard objectives add OP_DAHAL dummy
 scoreboard objectives add DAHALMAX dummy
-scoreboard objectives add HOLDING_MS dummy
-scoreboard objectives add MAGICSPH minecraft.used:minecraft.carrot_on_a_stick
+#scoreboard objectives add HOLDING_MS dummy
+#scoreboard objectives add MAGICSPH minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add SPELL_SLCT dummy
 scoreboard objectives add SPELL_OP dummy
 scoreboard objectives add SPELLS_COUNT dummy
 scoreboard objectives add BONUS_XP_SPELL dummy
 scoreboard objectives add SPDG dummy
 scoreboard objectives add INVOC_DURATION dummy
+scoreboard objectives add SPELL_KILL dummy
 
 scoreboard players set @s DAHAL 0
 scoreboard players set @s DAHAL1 0

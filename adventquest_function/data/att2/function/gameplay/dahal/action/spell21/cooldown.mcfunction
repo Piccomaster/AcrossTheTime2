@@ -3,6 +3,9 @@
 #Level and Cooldown	for Vitality pet							#
 #################################################################
 
+#stop spell31
+scoreboard players set @s spell31_run 0
+
 scoreboard players operation @s COOLDOWN21 = lvl1 COOLDOWN21
 #cooldown cal
 function att2:gameplay/dahal/action/cooldown_cal

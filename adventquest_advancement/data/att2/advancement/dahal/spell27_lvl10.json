@@ -1,7 +1,14 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:enchanted_book"
+            "id": "minecraft:written_book",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        34027
+                    ]
+                }
+            }
         },
         "title": {"translate":"att2.advancement.dahal.title.spell27_lvl10"},
         "description": {"translate":"att2.advancement.dahal.description.spell27_lvl10"},

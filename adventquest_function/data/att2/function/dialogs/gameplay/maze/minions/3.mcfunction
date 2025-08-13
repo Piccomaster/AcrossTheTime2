@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the System Symbol Info 			    #
+#################################################################
+
+tellraw @s actionbarIMENSION=-3}] [{"text":"⚙ ","color":"dark_red"},{"translate":"att2.maze.minions.3","color":"gray"},{"score":{"name":"total_minions_killed","objective":"MAZE"},"color":"red"},{"text":"/","color":"gray"},{"text":"∞","color":"gold"},{"text":" ⚙","color":"dark_red"}]

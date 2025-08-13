@@ -22,5 +22,3 @@ function att2:gameplay/dahal/action/spell20/reset_item with storage att2:spell20
 
 #remove tag
 tag @e[type=chest_minecart,tag=spell20_chest,tag=!Drop,tag=New] remove New
-#test
-function att2:gameplay/dahal/action/spell20/chest_test

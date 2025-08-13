@@ -13,4 +13,5 @@ execute if score 1RNG100 RNG matches 1..8 at @s positioned ~ ~10 ~ run function 
 execute if score 1RNG100 RNG matches 1..7 at @s positioned ~ ~10 ~ run function att2:summon/reg_1/fairy_soul
 execute if score 1RNG100 RNG matches 1..6 at @s positioned ~ ~10 ~ run function att2:summon/reg_1/fairy_soul
 execute if score 1RNG100 RNG matches 1..5 at @s positioned ~ ~10 ~ run function att2:summon/reg_1/fairy_soul
-execute as @e[type=endermite,tag=FairyParticle] run data merge entity @s {Glowing:0}
+#execute as @e[type=endermite,tag=LostSoul] run data merge entity @s {Glowing:1b,glow_color_override:16755200}
+function att2:gameplay/enveffect/fairy/spread_maze

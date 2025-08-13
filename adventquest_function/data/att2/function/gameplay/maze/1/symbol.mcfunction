@@ -3,6 +3,7 @@
 #Process all test of Symbol 			                        #
 #################################################################
 
+#six
 execute positioned -9988 72 -10049 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/maze/symbol/trigger/1
 execute positioned -10008 72 -10013 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/maze/symbol/trigger/1
 execute positioned -9960 72 -10053 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/maze/symbol/trigger/1

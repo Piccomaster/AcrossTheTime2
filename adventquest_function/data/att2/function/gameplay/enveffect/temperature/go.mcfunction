@@ -79,15 +79,15 @@ execute as @s[scores={TEMPERATURE=1..},predicate=att2_pre:legendary/kinuil/hand]
 function att2:gameplay/enveffect/temperature/effect
 
 # Cold shiver effect
-execute as @s[scores={TEMPERATURE=..-2}] at @s run particle minecraft:item{item:"minecraft:ice"} ~ ~1 ~ 0.25 0.25 0.25 0 1 normal @s
+execute as @s[scores={TEMPERATURE=..-2}] at @s run particle minecraft:item{item:"minecraft:ice"} ~ ~1 ~ 0.25 0.25 0.25 0 5 normal @s
 execute if score cold_Malus2_Timer TEMPERATURE matches 800 as @s[scores={TEMPERATURE=-4}] run scoreboard players set @s SHAKE_S 30
 execute if score cold_Malus3_Timer TEMPERATURE matches 400 as @s[scores={TEMPERATURE=-5}] run scoreboard players set @s SHAKE_S 30
 execute if score cold_Malus4_Timer TEMPERATURE matches 200 as @s[scores={TEMPERATURE=-6}] run scoreboard players set @s SHAKE_S 30
 execute if score cold_Malus5_Timer TEMPERATURE matches 100 as @s[scores={TEMPERATURE=..-7}] run scoreboard players set @s SHAKE_S 30
-execute if score cold_Malus2_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus2_Timer TEMPERATURE 20
-execute if score cold_Malus3_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus3_Timer TEMPERATURE 20
-execute if score cold_Malus4_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus4_Timer TEMPERATURE 20
-execute if score cold_Malus5_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus5_Timer TEMPERATURE 20
+execute if score cold_Malus2_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus2_Timer TEMPERATURE 1
+execute if score cold_Malus3_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus3_Timer TEMPERATURE 1
+execute if score cold_Malus4_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus4_Timer TEMPERATURE 1
+execute if score cold_Malus5_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus5_Timer TEMPERATURE 1
 
 # Heat exhausted effect
 execute as @s[scores={TEMPERATURE=2..}] at @s run particle minecraft:falling_water ~ ~1 ~ 0.3 0.3 0.3 0 1 normal @s
@@ -98,7 +98,7 @@ execute if score heat_Malus4_Timer TEMPERATURE matches 100 as @s[scores={TEMPERA
 execute if score heat_Malus4_Timer TEMPERATURE matches 100 as @s[scores={TEMPERATURE=6..},tag=desert] run effect give @s minecraft:wither 5 0 true
 
 #remove time
-execute if score heat_Malus1_Timer TEMPERATURE matches 1.. run scoreboard players remove heat_Malus1_Timer TEMPERATURE 20
-execute if score heat_Malus2_Timer TEMPERATURE matches 1.. run scoreboard players remove heat_Malus2_Timer TEMPERATURE 20
-execute if score heat_Malus3_Timer TEMPERATURE matches 1.. run scoreboard players remove heat_Malus3_Timer TEMPERATURE 20
-execute if score heat_Malus4_Timer TEMPERATURE matches 1.. run scoreboard players remove heat_Malus4_Timer TEMPERATURE 20
+execute if score heat_Malus1_Timer TEMPERATURE matches 1.. run scoreboard players remove heat_Malus1_Timer TEMPERATURE 1
+execute if score heat_Malus2_Timer TEMPERATURE matches 1.. run scoreboard players remove heat_Malus2_Timer TEMPERATURE 1
+execute if score heat_Malus3_Timer TEMPERATURE matches 1.. run scoreboard players remove heat_Malus3_Timer TEMPERATURE 1
+execute if score heat_Malus4_Timer TEMPERATURE matches 1.. run scoreboard players remove heat_Malus4_Timer TEMPERATURE 1

@@ -1,0 +1,30 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/dahal/spell_kill/detection"
+  },
+  "criteria": {
+    "class0_": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "att2_pre:kill/class0_"
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "bypasses_cooldown",
+              "expected": true
+            },
+            {
+              "id": "bypasses_armor",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

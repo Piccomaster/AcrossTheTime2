@@ -26,7 +26,7 @@ execute if score Real0 TIMER matches 1100 run function att2:voice/skaolon/skaolo
 execute if score Real0 TIMER matches 1150 run function att2:dialogs/mainquest/act_4/ch4_player_32
 execute if score Real0 TIMER matches 1200 run function att2:dialogs/mainquest/act_4/ch4_skaolon_7
 execute if score Real0 TIMER matches 1200 run function att2:voice/skaolon/skaolon7
-execute if score Real0 TIMER matches 1300 as 00000000-0000-128a-0000-00000000128a at @s run teleport @s ~ ~ ~ 0 20
+execute if score Real0 TIMER matches 1300 as 00000000-0000-128a-0000-00000000128a at @s run rotate @s 0 20
 execute if score Real0 TIMER matches 1300 run scoreboard players set skaolon_PNJ DIALOG 1
 execute if score Real0 TIMER matches 1400 run function att2:dialogs/mainquest/act_4/ch4_player_33
 execute if score Real0 TIMER matches 1401 run scoreboard players set Mainquest SIDEQUEST 193

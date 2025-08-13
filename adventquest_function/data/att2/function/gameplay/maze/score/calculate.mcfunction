@@ -64,8 +64,8 @@ scoreboard players operation number_score MAZE += number MAZE
 scoreboard players operation number_score MAZE *= 250 MAZE
 scoreboard players operation number_boss_score MAZE = number_score MAZE
 # boss killed
-function att2:gameplay/maze/score/boss_killed
-scoreboard players operation boss_killed_score MAZE += total_boss_killed MAZE
+#function att2:gameplay/maze/score/boss_killed
+scoreboard players operation boss_killed_score MAZE = total_boss_killed MAZE
 execute if score boss_killed_score MAZE matches 1.. run scoreboard players operation number_boss_score MAZE *= 2 MAZE
 scoreboard players operation total_score MAZE += number_boss_score MAZE
 

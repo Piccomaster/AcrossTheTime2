@@ -3,4 +3,4 @@
 #Obtain Big coin of Chronotons                   #
 ##################################################
 
-give @s minecraft:copper_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'ruby'},custom_name={translate:'item.coin.ruby.name'},lore=[{translate:'item.coin.ruby.lore'}],tooltip_style="minecraft:rarity/misc/misc"]
+give @s minecraft:copper_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'ruby'},custom_name={translate:'item.coin.ruby.name'},lore=[{translate:'item.coin.ruby.lore'}],max_stack_size=99,tooltip_style="minecraft:rarity/misc/misc"]

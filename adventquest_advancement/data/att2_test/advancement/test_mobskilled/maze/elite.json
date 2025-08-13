@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/maze/score/elites_killed"
+  },
+  "criteria": {
+    "sq10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"MazeElite\"]}"
+        }
+      }
+    }
+  }
+}

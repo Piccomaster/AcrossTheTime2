@@ -1,20 +1,20 @@
 {
-    "condition":"any_of",
-    "terms":[
+    "condition": "any_of",
+    "terms": [
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: epi}}},PickupDelay:0s}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components: {'minecraft:custom_data': {Rarity: epi}}},PickupDelay:0s}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: epi_esc}}},PickupDelay:0s}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{components: {'minecraft:custom_data': {Rarity: epi_esc}}},PickupDelay:0s}"
             }
         }
     ]

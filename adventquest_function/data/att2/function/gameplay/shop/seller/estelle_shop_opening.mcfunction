@@ -8,4 +8,4 @@ function att2:sound/shop/opening
 function att2:dialogs/gameplay/shop/items_selled_list/misc_list
 function att2:dialogs/gameplay/shop/showcase/misc/torch
 function att2:dialogs/gameplay/shop/showcase/misc/chair
-function att2:dialogs/gameplay/shop/showcase/misc/map
+execute if score Mainquest SIDEQUEST matches 8.. run function att2:dialogs/gameplay/shop/showcase/misc/map

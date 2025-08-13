@@ -6,7 +6,6 @@
 #nova/Corrupted stop
 execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
 execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
 
 scoreboard players operation @s[scores={SPELL2_CAP=1}] COOLDOWN2 = lvl1 COOLDOWN2
 scoreboard players operation @s[scores={SPELL2_CAP=2}] COOLDOWN2 = lvl2 COOLDOWN2

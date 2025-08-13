@@ -10,6 +10,7 @@ execute in overworld positioned 754 86 733 unless block ~ ~ ~ minecraft:air run 
 execute in overworld positioned 5000 97 -5000 run forceload add ~ ~
 #leave forceload
 execute in overworld positioned 4985 72 -4782 run forceload add ~ ~
+execute in overworld positioned 4985 70 -4789 run forceload add ~ ~
 ##pool0
 #1
 execute in overworld positioned 5152 122 -4733 run forceload add ~ ~
