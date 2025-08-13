@@ -9,3 +9,8 @@ fill 7302 132 6982 7302 124 6982 minecraft:yellow_stained_glass replace minecraf
 setblock 7302 124 6982 minecraft:gold_block destroy
 setblock 7302 128 6982 minecraft:gold_block destroy
 setblock 7302 132 6982 minecraft:gold_block destroy
+
+setblock 7302 124 6981 minecraft:stone_button[facing=north] destroy
+setblock 7303 124 6982 minecraft:stone_button[facing=east] destroy
+setblock 7302 124 6983 minecraft:stone_button[facing=south] destroy
+setblock 7301 124 6982 minecraft:stone_button[facing=west] destroy
