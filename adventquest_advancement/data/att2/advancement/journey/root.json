@@ -6,8 +6,9 @@
         "title": {"translate":"att2.advancement.journey.title.root"},
         "description": {"translate":"att2.advancement.journey.description.root"},
         "background": "minecraft:block/magenta_stained_glass",
-        "show_toast": true,
-        "announce_to_chat": true
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "rewards": {
         "experience": 150

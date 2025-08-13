@@ -6,6 +6,7 @@
         "title": {"translate": "att2.advancement.collection.title.root"},
         "description": {"translate": "att2.advancement.collection.description.root"},
         "background": "minecraft:block/diamond_block",
+        "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },

@@ -6,8 +6,9 @@
         "title": {"translate":"att2.advancement.food.title.root"},
         "description": {"translate":"att2.advancement.food.description.root"},
         "background": "minecraft:block/purpur_block",
-        "show_toast": true,
-        "announce_to_chat": true
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "criteria": {
         "consumed_item": {

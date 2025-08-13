@@ -6,6 +6,7 @@
         "title": {"translate":"att2.advancement.hunting.title.root"},
         "description": {"translate":"att2.advancement.hunting.description.root"},
         "background": "minecraft:block/obsidian",
+        "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },
