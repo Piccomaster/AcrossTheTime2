@@ -28,7 +28,7 @@ execute if score @s[scores={SPELL25_SLCT=8}] DAHAL >= SP25_8 DAHAL_COST run scor
 execute if score @s[scores={SPELL25_SLCT=9}] DAHAL >= SP25_9 DAHAL_COST run scoreboard players set DAHAL_TEST CAL 1
 execute if score @s[scores={SPELL25_SLCT=10}] DAHAL >= SP25_10 DAHAL_COST run scoreboard players set DAHAL_TEST CAL 1
 #not enough
-execute if score DAHAL_TEST CAL matches 0 unless predicate att2_pre:dahal/empty_cooldown run function att2:gameplay/dahal/action/replace/detection/spell25
+execute if score DAHAL_TEST CAL matches 0 unless predicate att2_pre:dahal/empty_cooldown/spell_25 run function att2:gameplay/dahal/action/replace/detection/spell25
 execute if score DAHAL_TEST CAL matches 0 run return 0
 scoreboard players reset DAHAL_TEST CAL
 #dahal enough
@@ -37,4 +37,4 @@ scoreboard players reset DAHAL_TEST CAL
 ###cooldown get
 function att2:gameplay/dahal/launcher/spell_25/cooldown
 
-execute if predicate att2_pre:dahal/empty_cooldown run function att2:gameplay/dahal/action/replace/detection/spell25
+execute if predicate att2_pre:dahal/empty_cooldown/spell_25 run function att2:gameplay/dahal/action/replace/detection/spell25

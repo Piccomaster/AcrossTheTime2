@@ -7,6 +7,8 @@
 scoreboard players add @s FORTUITY 1
 #effect
 execute if score @s FORTUITY matches 3.. run function att2:gameplay/legendary/fortuity/rewards
+#reset
+scoreboard players reset @s[scores={FORTUITY=3..}] FORTUITY
 
 ##revoke test
 advancement revoke @s only att2_test:legendary/fortuity/kill_trigger

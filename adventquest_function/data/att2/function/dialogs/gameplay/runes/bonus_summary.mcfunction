@@ -137,7 +137,7 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ Saque de Chefe Extra : ","color":"
 # SIMPLIFIED CHINESE
 tellraw @s[scores={LANGUAGE=11}] {"text":"铭文加成 : ","color":"gray"}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 怪物击杀经验 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"XPTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
-tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ Chronotons增值 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 掉落金钱增值 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 生命值上限 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ Dahäl上限 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 法术伤害 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}

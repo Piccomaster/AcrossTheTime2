@@ -4,10 +4,9 @@
 ##################################################
 
 #get score
-#dahal reduce 50%
+#dahal reduce 10%
 scoreboard players operation temp_value_10 CAL = @s DAHALMAX
-scoreboard players operation temp_value_10 CAL *= 50 CAL
-scoreboard players operation temp_value_10 CAL /= 100 CAL
+scoreboard players operation temp_value_10 CAL /= 10 CAL
 #get level -> base damage up|attack speed up | luck effect add(time limit)
 #base damage | attack speed cal | per 1 level add 0.5 damage and add 0.05 attack speed
 #set base attack speed
@@ -50,5 +49,3 @@ execute if score @s DAHAL >= temp_value_10 CAL run function att2:gameplay/legend
 scoreboard players reset temp_value_10 CAL
 scoreboard players reset temp_value_11 CAL
 scoreboard players reset temp_value_12 CAL
-##revoke test
-advancement revoke @s only att2_test:legendary/fortuity/attack_trigger
