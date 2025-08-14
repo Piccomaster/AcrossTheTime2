@@ -10,7 +10,9 @@
             "translate": "att2.advancement.runes.description.root"
         },
         "background": "minecraft:block/cobblestone",
-        "show_toast": false
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "criteria": {
         "collection": {

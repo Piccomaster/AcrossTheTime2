@@ -10,8 +10,9 @@
             "translate": "att2.advancement.books.description.root"
         },
         "background": "minecraft:map/map_background",
-        "show_toast": true,
-        "announce_to_chat": true
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "criteria": {
         "cons": {

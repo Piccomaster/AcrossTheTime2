@@ -6,8 +6,9 @@
         "title": {"translate":"att2.advancement.adventure.title.root"},
         "description": {"translate":"att2.advancement.adventure.description.root"},
         "background": "minecraft:block/custom/futuristic_slab",
-        "show_toast": true,
-        "announce_to_chat": true
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "rewards": {
         "function": "att2:gameplay/misc/move_light/choice"

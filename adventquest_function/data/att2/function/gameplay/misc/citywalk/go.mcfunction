@@ -17,7 +17,7 @@
 scoreboard players set TRUE CAL 0
 
 ##Ryliath FROM -5152 -5072 TO -4897 -4879
-execute as @s[scores={DIMENSION=1},x=-5152,z=-5072,dx=255,dz=272] run function att2:gameplay/misc/citywalk/ryliath
+execute as @s[scores={DIMENSION=1},x=-5152,z=-5072,dx=255,dz=280] run function att2:gameplay/misc/citywalk/ryliath
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 

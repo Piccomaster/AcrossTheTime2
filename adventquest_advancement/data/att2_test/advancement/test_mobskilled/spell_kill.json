@@ -9,7 +9,7 @@
         "entity": [
           {
             "condition": "minecraft:reference",
-            "name": "att2_pre:kill/class0"
+            "name": "att2_pre:kill/class0_"
           }
         ],
         "killing_blow": {

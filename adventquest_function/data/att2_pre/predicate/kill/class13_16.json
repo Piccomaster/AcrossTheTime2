@@ -1,0 +1,10 @@
+{
+    "condition": "entity_scores",
+    "entity": "this",
+    "scores": {
+        "CLASSLEVEL": {
+            "min": 13,
+            "max": 16
+        }
+    }
+}

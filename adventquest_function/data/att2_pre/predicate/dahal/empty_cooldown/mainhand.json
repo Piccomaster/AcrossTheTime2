@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:use_cooldown": {
+            "cooldown_group": "spell0",
+            "seconds": 0.01
+          }
+        }
+      }
+    }
+  }
+}
