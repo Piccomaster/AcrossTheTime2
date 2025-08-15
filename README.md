@@ -98,4 +98,4 @@ The source code in this repository is provided for public viewing and educationa
 
 ---
 
-**© 2024 Adventquest Team**
+**© 2025 Adventquest Team**
