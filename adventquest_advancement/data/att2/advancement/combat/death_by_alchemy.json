@@ -3,33 +3,35 @@
         "icon": {
             "id": "minecraft:splash_potion",
             "components": {
-                "minecraft:potion_contents":{
-                    "potion":"harming"
+                "minecraft:potion_contents": {
+                    "potion": "harming"
                 }
             }
         },
-        "title": {"translate":"att2.advancement.combat.title.death_by_alchemy"},
-        "description": {"translate":"att2.advancement.combat.description.death_by_alchemy"}
+        "title": {
+            "translate": "att2.advancement.combat.title.death_by_alchemy"
+        },
+        "description": {
+            "translate": "att2.advancement.combat.description.death_by_alchemy"
+        }
     },
     "parent": "att2:combat/root",
     "rewards": {
         "function": "att2:advancement/exploit_1",
         "experience": 100
-                },
+    },
     "criteria": {
         "kill_potion": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-				"killing_blow": {
-					"direct_entity": {
+                "killing_blow": {
+                    "direct_entity": {
                         "type": "minecraft:splash_potion",
-                        "components": {
-                            "minecraft:potion_contents": {
-                                "potion": "minecraft:harming"
-                            }
+                        "predicates": {
+                            "minecraft:potion_contents": "instant_damage"
                         }
                     }
-				}
+                }
             }
         }
     }

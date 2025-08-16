@@ -28,7 +28,7 @@
 ,
             "predicates": {
               "minecraft:custom_data": {
-                "weapon": "311"
+                "Weapon": "311"
               }
             }
           }

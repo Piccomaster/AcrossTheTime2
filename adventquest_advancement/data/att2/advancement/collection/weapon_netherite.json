@@ -15,9 +15,12 @@
             "conditions": {
                 "items": [
                     {
-                    "items": [
-                        "minecraft:fishing_rod"
-                        ]
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Conscience": "book"
+                            }
+                        }
                     }
                 ]
             }
