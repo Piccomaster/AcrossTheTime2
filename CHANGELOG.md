@@ -204,6 +204,12 @@
   - Spells no longer trigger *invincibility frames* on monsters.
   - *Tiid Klo Ul Spell Adjustments*: *Slow Effect* Nerfed from *90% → 45%* at max level ,but No longer is *interrupted* by other spells
 
+-  **Game Updates**
+  - Increased potion prices
+  - space/time Gem placement now grants 5 skill points (up from 1)
+  - Added more light sources to maps
+  - Some previously empty containers now generate loot
+
 ### Bug Fix:
 - **Quest Progression Issues**  
   - Fixed a bug where long questlines (e.g., *Emerald Journey*) could fail to detect progress due to excessive player teleportation (TP).
