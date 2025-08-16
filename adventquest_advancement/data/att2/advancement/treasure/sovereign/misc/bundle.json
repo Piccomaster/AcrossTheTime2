@@ -12,7 +12,7 @@
             "experience": 777
     },
     "criteria": {
-        "bow_172": {
+        "bundle": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

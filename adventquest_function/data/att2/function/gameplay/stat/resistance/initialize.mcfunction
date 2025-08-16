@@ -35,6 +35,7 @@ scoreboard objectives add TIMER_RES_EQ dummy
 scoreboard objectives add TIMER_RES_EXT dummy
 scoreboard objectives add TIMER_RES_PO dummy
 scoreboard objectives add TIMER_RES_EH dummy
+scoreboard objectives add POTION_CHECK_RES dummy
 
 scoreboard objectives add RES_UPGRADE_REQ dummy
 scoreboard players set @s RES_UPGRADE_REQ 4

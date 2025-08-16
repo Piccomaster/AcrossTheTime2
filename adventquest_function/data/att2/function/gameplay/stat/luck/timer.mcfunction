@@ -21,4 +21,4 @@ scoreboard players reset @s[scores={TIMER_LUC_EXT=..0}] LUC_EXT
 scoreboard players reset @s[scores={TIMER_LUC_PO=..0}] LUC_PO
 scoreboard players reset @s[scores={TIMER_LUC_EH=..0}] LUC_EH
 ##POTION_TIP
-execute as @s[scores={TIMER_LUC_PO=..200,LUC_LVL_PO=0..,POTION_CHECK_LUC=1}] run function att2:dialogs/gameplay/potion_tip/luc_time
+execute as @s[scores={TIMER_LUC_PO=..200,LUC_PO=0..,POTION_CHECK_LUC=1}] run function att2:dialogs/gameplay/potion_tip/luc_time

@@ -20,3 +20,9 @@ execute if score Meleim0 CHECKPOINT matches 0 run scoreboard players add Meleim 
 execute if score Meleim CHECKPOINT matches 1 run advancement grant @a only att2:journey/checkpoint_meleim
 
 scoreboard players set Meleim0 CHECKPOINT 1
+
+
+#map region unlock
+execute unless score NORTH_FOREST_REGION MAPMKR matches 1.. run function att2:dialogs/gameplay/misc/map/unlock/region/north_forest
+
+scoreboard players set NORTH_FOREST_REGION MAPMKR 1

@@ -35,6 +35,7 @@ scoreboard objectives add TIMER_DAR_EQ dummy
 scoreboard objectives add TIMER_DAR_EXT dummy
 scoreboard objectives add TIMER_DAR_PO dummy
 scoreboard objectives add TIMER_DAR_EH dummy
+scoreboard objectives add POTION_CHECK_DAR dummy
 
 scoreboard objectives add DAR_UPGRADE_REQ dummy
 scoreboard players set @s DAR_UPGRADE_REQ 1

@@ -13,7 +13,7 @@ execute if score @s SUMMON_TIMER matches 60 at @s run summon minecraft:ender_pea
 execute if score @s SUMMON_TIMER matches 40 unless entity @s[tag=KeepOriginalData] unless entity @s[tag=RecyclerSpell] run effect give @s minecraft:glowing 2 1 true
 execute if score @s SUMMON_TIMER matches 5.. as @e[type=minecraft:horse,scores={SUMMON_TIMER=5..}] at @s run effect give @s minecraft:slowness 1 100 true
 execute if score @s SUMMON_TIMER matches 1 as @e[type=minecraft:horse] at @s run tag @s remove NewInvo
-execute if score @s SUMMON_TIMER matches 1..5 at @s positioned ~ ~1 ~ run kill @e[type=ender_pearl,distance=..3]
+execute if score @s SUMMON_TIMER matches 1..5 at @s positioned ~ ~1 ~ run kill @e[type=ender_pearl,distance=..5]
 execute if score @s SUMMON_TIMER matches 1 unless entity @s[tag=KeepOriginalData] run data merge entity @s {NoAI:0b,Invulnerable:0b}
 ##chest_minecart
 execute if score @s SUMMON_TIMER matches 60 at @s run data merge entity @s[tag=spell20_chest] {NoGravity:1b}

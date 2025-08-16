@@ -26,6 +26,7 @@ function att2:gameplay/equipment/initialize
 function att2:gameplay/legendary/initialize
 function att2:gameplay/leveling/initialize
 function att2:gameplay/misc/horse/initialize
+function att2:gameplay/misc/exploit_book/initialize
 function att2:gameplay/music/initialize
 function att2:gameplay/potion/initialize
 function att2:gameplay/speceffect/initialize

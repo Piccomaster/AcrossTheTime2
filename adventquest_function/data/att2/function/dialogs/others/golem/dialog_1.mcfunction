@@ -44,4 +44,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Golem : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"Ma...térias! Faminto!!","color":"dark_aqua","extra":[{"text":" [Trocar -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/recycler/ask"},"hover_event":{"action":"show_text","value":"Clique aqui para negociar com Golem."}}]}]}
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"er...饿啊！ya...要...吃吃！！","color":"dark_aqua","extra":[{"text":" [交易 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/recycler/ask"},"hover_event":{"action":"show_text","value":"与Golem交易"}}]}]}
+tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"er...饿啊！ya...要...吃吃！！","color":"dark_aqua","extra":[{"text":" \n[交易 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/recycler/ask"},"hover_event":{"action":"show_text","value":"与Golem交易"}}]}]}

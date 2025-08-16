@@ -42,6 +42,7 @@ scoreboard objectives add TIMER_HUN_EQ dummy
 scoreboard objectives add TIMER_HUN_EXT dummy
 scoreboard objectives add TIMER_HUN_PO dummy
 scoreboard objectives add TIMER_HUN_EH dummy
+scoreboard objectives add POTION_CHECK_HUN dummy
 
 scoreboard objectives add HUN_UPGRADE_REQ dummy
 scoreboard players set @s HUN_UPGRADE_REQ 1

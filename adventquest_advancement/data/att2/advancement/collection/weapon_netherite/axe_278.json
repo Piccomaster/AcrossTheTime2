@@ -22,12 +22,10 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:netherite_axe"
-,
+            "items": "minecraft:netherite_axe",
             "predicates": {
               "minecraft:custom_data": {
-                "weapon": "278"
+                "Weapon": "278"
               }
             }
           }

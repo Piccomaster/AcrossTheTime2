@@ -3,16 +3,16 @@
 #Obtain the magic sphere spell 31           #
 ##################################################
 
-execute if score @s SPELL31_CAP matches 1 run scoreboard players operation SECONDS CAL = lvl1 COOLDOWN31
-execute if score @s SPELL31_CAP matches 2 run scoreboard players operation SECONDS CAL = lvl2 COOLDOWN31
-execute if score @s SPELL31_CAP matches 3 run scoreboard players operation SECONDS CAL = lvl3 COOLDOWN31
-execute if score @s SPELL31_CAP matches 4 run scoreboard players operation SECONDS CAL = lvl4 COOLDOWN31
-execute if score @s SPELL31_CAP matches 5 run scoreboard players operation SECONDS CAL = lvl5 COOLDOWN31
-execute if score @s SPELL31_CAP matches 6 run scoreboard players operation SECONDS CAL = lvl6 COOLDOWN31
-execute if score @s SPELL31_CAP matches 7 run scoreboard players operation SECONDS CAL = lvl7 COOLDOWN31
-execute if score @s SPELL31_CAP matches 8 run scoreboard players operation SECONDS CAL = lvl8 COOLDOWN31
-execute if score @s SPELL31_CAP matches 9 run scoreboard players operation SECONDS CAL = lvl9 COOLDOWN31
-execute if score @s SPELL31_CAP matches 10 run scoreboard players operation SECONDS CAL = lvl10 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 1 run scoreboard players operation SECONDS CAL = lvl1 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 2 run scoreboard players operation SECONDS CAL = lvl2 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 3 run scoreboard players operation SECONDS CAL = lvl3 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 4 run scoreboard players operation SECONDS CAL = lvl4 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 5 run scoreboard players operation SECONDS CAL = lvl5 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 6 run scoreboard players operation SECONDS CAL = lvl6 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 7 run scoreboard players operation SECONDS CAL = lvl7 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 8 run scoreboard players operation SECONDS CAL = lvl8 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 9 run scoreboard players operation SECONDS CAL = lvl9 COOLDOWN31
+execute if score @s SPELL31_SLCT matches 10 run scoreboard players operation SECONDS CAL = lvl10 COOLDOWN31
 
 #cooldown cal
 function att2:gameplay/dahal/action/cooldown_cal

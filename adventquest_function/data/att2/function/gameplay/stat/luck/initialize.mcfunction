@@ -39,6 +39,7 @@ scoreboard objectives add TIMER_LUC_EQ dummy
 scoreboard objectives add TIMER_LUC_EXT dummy
 scoreboard objectives add TIMER_LUC_PO dummy
 scoreboard objectives add TIMER_LUC_EH dummy
+scoreboard objectives add POTION_CHECK_LUC dummy
 
 scoreboard objectives add LUC_UPGRADE_REQ dummy
 scoreboard players set @s LUC_UPGRADE_REQ 3

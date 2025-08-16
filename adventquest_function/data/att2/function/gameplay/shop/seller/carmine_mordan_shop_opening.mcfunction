@@ -5,6 +5,7 @@
 
 function att2:sound/shop/opening
 
+function att2:dialogs/gameplay/shop/showcase/discount
 function att2:dialogs/gameplay/shop/items_selled_list/weapon_list
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot8"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmine_mordan
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot7"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmine_mordan

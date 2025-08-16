@@ -8,7 +8,7 @@
         "equipment": {
           "mainhand": {
             "items": "minecraft:ghast_tear",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "item.quest.celestial_tear.name"
               }
@@ -24,7 +24,7 @@
         "equipment": {
           "offhand": {
             "items": "minecraft:ghast_tear",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "item.quest.celestial_tear.name"
               }

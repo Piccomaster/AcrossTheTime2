@@ -58,7 +58,9 @@ execute in overworld positioned -4621.1 70.9 -5052.5 if entity @a[distance=..50]
 #space gem 1 jarat
 execute in overworld positioned -4635.1 68.9 -5521.05 if entity @a[distance=..50] unless entity @e[distance=..1,type=armor_stand,tag=SPACE_GEM_1] run data merge entity @e[distance=..1,type=armor_stand,limit=1] {Tags:["SPACE_GEM_1"],Marker:true}
 #space gem 1 asunark
-execute in overworld positioned -3442.9 31.6 -4941.8 if entity @a[distance=..50] unless entity @e[distance=..1,type=armor_stand,tag=SPACE_GEM_3] run data merge entity @e[distance=..1,type=armor_stand,limit=1] {Tags:["SPACE_GEM_3"],Marker:true}
+execute in overworld positioned -3442.9 31.6 -4941.8 if entity @a[distance=..50] unless entity @e[distance=..1,type=armor_stand,tag=SPACE_GEM_3] run kill @e[distance=..1,type=armor_stand]
+execute in overworld positioned -3443 31 -4942 if entity @a[distance=..50] unless entity @e[distance=..1,type=armor_stand,tag=SPACE_GEM_3] run summon armor_stand -3443 31 -4942 {Tags:["SPACE_GEM_3"],Marker:true,Invisible:true,equipment:{head:{id:"melon_seeds"}},Rotation:[-90,0]}
+
 #billgart
 execute in the_end positioned -1238.1 27.5 -615.1 if entity @a[distance=..50] unless entity @e[distance=..1,type=armor_stand,tag=TIME_GEM_2] run data merge entity @e[distance=..1,type=armor_stand,limit=1] {Tags:["TIME_GEM_2"],Marker:true}
 #SQ23 armorstand->marker->pig->silverfish_spawn_egg
@@ -680,3 +682,44 @@ execute in overworld positioned -3338.5 126.0 4943.5 run summon minecraft:husk ~
 
 ##modify secret chest spell 32
 execute in overworld positioned -9545 72 -10447 run data merge block ~ ~ ~ {CustomName:[{translate:att2.chest.secret.name}],Items:[{count:1,Slot:11b,id:"enchanted_book",components:{custom_model_data:{floats:[32]},custom_data:{Dahal:"launcher",Spell:"spell32"},custom_name:{translate:"att2.spell32.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore:[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable:{animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown:{cooldown_group:spell32,seconds:0.05},max_stack_size:99,tooltip_style:"minecraft:rarity/com/com"}},{count:1,Slot:12b,id:"enchanted_book",components:{custom_model_data:{floats:[32]},custom_data:{Dahal:"launcher",Spell:"spell32"},custom_name:{translate:"att2.spell32.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore:[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable:{animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown:{cooldown_group:spell32,seconds:0.05},max_stack_size:99,tooltip_style:"minecraft:rarity/com/com"}},{count:1,Slot:13b,id:"enchanted_book",components:{custom_model_data:{floats:[32]},custom_data:{Dahal:"launcher",Spell:"spell32"},custom_name:{translate:"att2.spell32.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore:[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable:{animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown:{cooldown_group:spell32,seconds:0.05},max_stack_size:99,tooltip_style:"minecraft:rarity/com/com"}},{count:1,Slot:14b,id:"enchanted_book",components:{custom_model_data:{floats:[32]},custom_data:{Dahal:"launcher",Spell:"spell32"},custom_name:{translate:"att2.spell32.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore:[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable:{animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown:{cooldown_group:spell32,seconds:0.05},max_stack_size:99,tooltip_style:"minecraft:rarity/com/com"}},{count:1,Slot:15b,id:"enchanted_book",components:{custom_model_data:{floats:[32]},custom_data:{Dahal:"launcher",Spell:"spell32"},custom_name:{translate:"att2.spell32.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore:[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable:{animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown:{cooldown_group:spell32,seconds:0.05},max_stack_size:99,tooltip_style:"minecraft:rarity/com/com"}}]}
+
+
+##add owsastr torch
+execute in overworld positioned -4952 98 -4440 run setblock ~ ~ ~ wall_torch[facing=east]
+execute in overworld positioned -4948 98 -4440 run setblock ~ ~ ~ wall_torch[facing=west]
+
+execute in overworld positioned -4949 96 -4457 run setblock ~ ~ ~ redstone_wall_torch[facing=west]
+execute in overworld positioned -4951 96 -4457 run setblock ~ ~ ~ redstone_wall_torch[facing=east]
+
+execute in overworld positioned -4980 99 -4450 run setblock ~ ~ ~ redstone_wall_torch[facing=east]
+
+execute in overworld positioned -4982 72 -4450 run setblock ~ ~ ~ glowstone destroy
+
+execute in overworld positioned -5016 90 -4304 run setblock ~ ~ ~ redstone_wall_torch[facing=north]
+
+execute in overworld positioned -4942 70 -4381 run setblock ~ ~ ~ glowstone destroy
+
+execute in overworld positioned -4920 81 -4381 run setblock ~ ~ ~ redstone_wall_torch[facing=west]
+
+execute in overworld positioned -4676 69 -5511 run setblock ~ ~ ~ wall_torch[facing=west]
+
+execute in overworld positioned -4668 73 -5488 run setblock ~ ~ ~ wall_torch[facing=east]
+
+execute in overworld positioned -4615 73 -5469 run setblock ~ ~ ~ wall_torch[facing=east]
+
+execute in overworld positioned -4677 79 -5505 run setblock ~ ~ ~ wall_torch[facing=east]
+
+execute in overworld positioned -4676 77 -5521 run setblock ~ ~ ~ torch
+execute in overworld positioned -4676 77 -5521 run setblock ~ ~ ~ air destroy
+
+execute in overworld positioned -4954 96 -4447 run setblock ~ ~ ~ torch destroy
+execute in overworld positioned -4946 96 -4447 run setblock ~ ~ ~ torch destroy
+execute in overworld positioned -4946 96 -4455 run setblock ~ ~ ~ torch destroy
+execute in overworld positioned -4954 96 -4455 run setblock ~ ~ ~ torch destroy
+
+
+##fix chest
+execute in the_nether positioned 3469 35 3718 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c3t3"}
+execute in the_nether positioned 3469 35 3719 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c3t3"}
+
+execute in the_nether positioned 3452 49 4525 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c5t5"}

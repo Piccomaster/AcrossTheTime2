@@ -21,4 +21,4 @@ scoreboard players reset @s[scores={TIMER_HAS_EXT=..0}] HAS_EXT
 scoreboard players reset @s[scores={TIMER_HAS_PO=..0}] HAS_PO
 scoreboard players reset @s[scores={TIMER_HAS_EH=..0}] HAS_EH
 ##POTION_TIP
-execute as @s[scores={TIMER_HAS_PO=..200,HAS_LVL_PO=0..,POTION_CHECK_HAS=1}] run function att2:dialogs/gameplay/potion_tip/has_time
+execute as @s[scores={TIMER_HAS_PO=..200,HAS_PO=0..,POTION_CHECK_HAS=1}] run function att2:dialogs/gameplay/potion_tip/has_time

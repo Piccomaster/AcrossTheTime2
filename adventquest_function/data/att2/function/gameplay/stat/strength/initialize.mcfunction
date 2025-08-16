@@ -35,6 +35,7 @@ scoreboard objectives add TIMER_STR_EQ dummy
 scoreboard objectives add TIMER_STR_EXT dummy
 scoreboard objectives add TIMER_STR_PO dummy
 scoreboard objectives add TIMER_STR_EH dummy
+scoreboard objectives add POTION_CHECK_STR dummy
 
 scoreboard objectives add STR_UPGRADE_REQ dummy
 scoreboard players set @s STR_UPGRADE_REQ 1

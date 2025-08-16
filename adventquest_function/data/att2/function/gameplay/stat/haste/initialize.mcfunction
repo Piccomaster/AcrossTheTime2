@@ -36,6 +36,7 @@ scoreboard objectives add TIMER_HAS_EQ dummy
 scoreboard objectives add TIMER_HAS_EXT dummy
 scoreboard objectives add TIMER_HAS_PO dummy
 scoreboard objectives add TIMER_HAS_EH dummy
+scoreboard objectives add POTION_CHECK_HAS dummy
 
 scoreboard objectives add HAS_UPGRADE_REQ dummy
 scoreboard players set @s HAS_UPGRADE_REQ 1

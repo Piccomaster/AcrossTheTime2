@@ -5,7 +5,7 @@
 
 function att2:sound/shop/opening
 
-function att2:dialogs/gameplay/shop/items_selled_list/horse_list
+function att2:dialogs/gameplay/shop/items_selled_list/ride_list
 function att2:dialogs/gameplay/shop/showcase/ride/horse/class7_7
 function att2:dialogs/gameplay/shop/showcase/ride/horse/class5_8
 function att2:dialogs/gameplay/shop/showcase/ride/horse/class6_8

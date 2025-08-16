@@ -4,3 +4,4 @@
 #############################################################################
 
 setblock -4526 68 -4523 minecraft:white_wool destroy
+setblock -4526 69 -4523 minecraft:redstone_torch destroy

@@ -1974,166 +1974,166 @@ scoreboard players set weapon32 PRICES 3150
 scoreboard players operation weapon32 PRICES *= discount discount_calc
 scoreboard players operation weapon32 PRICES /= 100 discount_calc
 #potion com
-scoreboard players set potion1 PRICES 8
+scoreboard players set potion1 PRICES 18
 scoreboard players operation potion1 PRICES *= discount discount_calc
 scoreboard players operation potion1 PRICES /= 100 discount_calc
-scoreboard players set potion2 PRICES 11
+scoreboard players set potion2 PRICES 21
 scoreboard players operation potion2 PRICES *= discount discount_calc
 scoreboard players operation potion2 PRICES /= 100 discount_calc
-scoreboard players set potion3 PRICES 12
+scoreboard players set potion3 PRICES 22
 scoreboard players operation potion3 PRICES *= discount discount_calc
 scoreboard players operation potion3 PRICES /= 100 discount_calc
-scoreboard players set potion4 PRICES 13
+scoreboard players set potion4 PRICES 23
 scoreboard players operation potion4 PRICES *= discount discount_calc
 scoreboard players operation potion4 PRICES /= 100 discount_calc
-scoreboard players set potion5 PRICES 15
+scoreboard players set potion5 PRICES 25
 scoreboard players operation potion5 PRICES *= discount discount_calc
 scoreboard players operation potion5 PRICES /= 100 discount_calc
-scoreboard players set potion6 PRICES 10
+scoreboard players set potion6 PRICES 20
 scoreboard players operation potion6 PRICES *= discount discount_calc
 scoreboard players operation potion6 PRICES /= 100 discount_calc
-scoreboard players set potion7 PRICES 17
+scoreboard players set potion7 PRICES 27
 scoreboard players operation potion7 PRICES *= discount discount_calc
 scoreboard players operation potion7 PRICES /= 100 discount_calc
-scoreboard players set potion8 PRICES 19
+scoreboard players set potion8 PRICES 29
 scoreboard players operation potion8 PRICES *= discount discount_calc
 scoreboard players operation potion8 PRICES /= 100 discount_calc
-scoreboard players set potion9 PRICES 20
+scoreboard players set potion9 PRICES 30
 scoreboard players operation potion9 PRICES *= discount discount_calc
 scoreboard players operation potion9 PRICES /= 100 discount_calc
-scoreboard players set potion10 PRICES 23
+scoreboard players set potion10 PRICES 33
 scoreboard players operation potion10 PRICES *= discount discount_calc
 scoreboard players operation potion10 PRICES /= 100 discount_calc
-scoreboard players set potion48 PRICES 17
+scoreboard players set potion48 PRICES 27
 scoreboard players operation potion48 PRICES *= discount discount_calc
 scoreboard players operation potion48 PRICES /= 100 discount_calc
-scoreboard players set potion49 PRICES 19
+scoreboard players set potion49 PRICES 29
 scoreboard players operation potion49 PRICES *= discount discount_calc
 scoreboard players operation potion49 PRICES /= 100 discount_calc
-scoreboard players set potion30 PRICES 16
+scoreboard players set potion30 PRICES 26
 scoreboard players operation potion30 PRICES *= discount discount_calc
 scoreboard players operation potion30 PRICES /= 100 discount_calc
-scoreboard players set potion31 PRICES 17
+scoreboard players set potion31 PRICES 27
 scoreboard players operation potion31 PRICES *= discount discount_calc
 scoreboard players operation potion31 PRICES /= 100 discount_calc
-scoreboard players set potion32 PRICES 20
+scoreboard players set potion32 PRICES 30
 scoreboard players operation potion32 PRICES *= discount discount_calc
 scoreboard players operation potion32 PRICES /= 100 discount_calc
-scoreboard players set potion33 PRICES 18
+scoreboard players set potion33 PRICES 28
 scoreboard players operation potion33 PRICES *= discount discount_calc
 scoreboard players operation potion33 PRICES /= 100 discount_calc
 #potion unc
-scoreboard players set potion40 PRICES 45
+scoreboard players set potion40 PRICES 55
 scoreboard players operation potion40 PRICES *= discount discount_calc
 scoreboard players operation potion40 PRICES /= 100 discount_calc
-scoreboard players set potion41 PRICES 50
+scoreboard players set potion41 PRICES 60
 scoreboard players operation potion41 PRICES *= discount discount_calc
 scoreboard players operation potion41 PRICES /= 100 discount_calc
-scoreboard players set potion60 PRICES 25
+scoreboard players set potion60 PRICES 35
 scoreboard players operation potion60 PRICES *= discount discount_calc
 scoreboard players operation potion60 PRICES /= 100 discount_calc
-scoreboard players set potion11 PRICES 45
+scoreboard players set potion11 PRICES 55
 scoreboard players operation potion11 PRICES *= discount discount_calc
 scoreboard players operation potion11 PRICES /= 100 discount_calc
-scoreboard players set potion12 PRICES 50
+scoreboard players set potion12 PRICES 65
 scoreboard players operation potion12 PRICES *= discount discount_calc
 scoreboard players operation potion12 PRICES /= 100 discount_calc
-scoreboard players set potion13 PRICES 40
+scoreboard players set potion13 PRICES 50
 scoreboard players operation potion13 PRICES *= discount discount_calc
 scoreboard players operation potion13 PRICES /= 100 discount_calc
-scoreboard players set potion14 PRICES 47
+scoreboard players set potion14 PRICES 57
 scoreboard players operation potion14 PRICES *= discount discount_calc
 scoreboard players operation potion14 PRICES /= 100 discount_calc
-scoreboard players set potion15 PRICES 52
+scoreboard players set potion15 PRICES 62
 scoreboard players operation potion15 PRICES *= discount discount_calc
 scoreboard players operation potion15 PRICES /= 100 discount_calc
-scoreboard players set potion16 PRICES 50
+scoreboard players set potion16 PRICES 60
 scoreboard players operation potion16 PRICES *= discount discount_calc
 scoreboard players operation potion16 PRICES /= 100 discount_calc
-scoreboard players set potion17 PRICES 40
+scoreboard players set potion17 PRICES 50
 scoreboard players operation potion17 PRICES *= discount discount_calc
 scoreboard players operation potion17 PRICES /= 100 discount_calc
-scoreboard players set potion18 PRICES 54
+scoreboard players set potion18 PRICES 64
 scoreboard players operation potion18 PRICES *= discount discount_calc
 scoreboard players operation potion18 PRICES /= 100 discount_calc
-scoreboard players set potion46 PRICES 225
+scoreboard players set potion46 PRICES 35
 scoreboard players operation potion46 PRICES *= discount discount_calc
 scoreboard players operation potion46 PRICES /= 100 discount_calc
-scoreboard players set potion50 PRICES 34
+scoreboard players set potion50 PRICES 44
 scoreboard players operation potion50 PRICES *= discount discount_calc
 scoreboard players operation potion50 PRICES /= 100 discount_calc
-scoreboard players set potion51 PRICES 38
+scoreboard players set potion51 PRICES 48
 scoreboard players operation potion51 PRICES *= discount discount_calc
 scoreboard players operation potion51 PRICES /= 100 discount_calc
-scoreboard players set potion34 PRICES 34
+scoreboard players set potion34 PRICES 44
 scoreboard players operation potion34 PRICES *= discount discount_calc
 scoreboard players operation potion34 PRICES /= 100 discount_calc
-scoreboard players set potion35 PRICES 27
+scoreboard players set potion35 PRICES 37
 scoreboard players operation potion35 PRICES *= discount discount_calc
 scoreboard players operation potion35 PRICES /= 100 discount_calc
-scoreboard players set potion56 PRICES 25
+scoreboard players set potion56 PRICES 35
 scoreboard players operation potion56 PRICES *= discount discount_calc
 scoreboard players operation potion56 PRICES /= 100 discount_calc
 #potion rar
-scoreboard players set potion42 PRICES 68
+scoreboard players set potion42 PRICES 88
 scoreboard players operation potion42 PRICES *= discount discount_calc
 scoreboard players operation potion42 PRICES /= 100 discount_calc
-scoreboard players set potion43 PRICES 81
+scoreboard players set potion43 PRICES 101
 scoreboard players operation potion43 PRICES *= discount discount_calc
 scoreboard players operation potion43 PRICES /= 100 discount_calc
-scoreboard players set potion61 PRICES 54
+scoreboard players set potion61 PRICES 74
 scoreboard players operation potion61 PRICES *= discount discount_calc
 scoreboard players operation potion61 PRICES /= 100 discount_calc
-scoreboard players set potion19 PRICES 95
+scoreboard players set potion19 PRICES 125
 scoreboard players operation potion19 PRICES *= discount discount_calc
 scoreboard players operation potion19 PRICES /= 100 discount_calc
-scoreboard players set potion20 PRICES 68
+scoreboard players set potion20 PRICES 88
 scoreboard players operation potion20 PRICES *= discount discount_calc
 scoreboard players operation potion20 PRICES /= 100 discount_calc
-scoreboard players set potion21 PRICES 88
+scoreboard players set potion21 PRICES 108
 scoreboard players operation potion21 PRICES *= discount discount_calc
 scoreboard players operation potion21 PRICES /= 100 discount_calc
-scoreboard players set potion22 PRICES 101
+scoreboard players set potion22 PRICES 120
 scoreboard players operation potion22 PRICES *= discount discount_calc
 scoreboard players operation potion22 PRICES /= 100 discount_calc
-scoreboard players set potion52 PRICES 68
+scoreboard players set potion52 PRICES 89
 scoreboard players operation potion52 PRICES *= discount discount_calc
 scoreboard players operation potion52 PRICES /= 100 discount_calc
-scoreboard players set potion53 PRICES 81
+scoreboard players set potion53 PRICES 100
 scoreboard players operation potion53 PRICES *= discount discount_calc
 scoreboard players operation potion53 PRICES /= 100 discount_calc
-scoreboard players set potion36 PRICES 47
+scoreboard players set potion36 PRICES 67
 scoreboard players operation potion36 PRICES *= discount discount_calc
 scoreboard players operation potion36 PRICES /= 100 discount_calc
-scoreboard players set potion37 PRICES 40
+scoreboard players set potion37 PRICES 60
 scoreboard players operation potion37 PRICES *= discount discount_calc
 scoreboard players operation potion37 PRICES /= 100 discount_calc
-scoreboard players set potion57 PRICES 40
+scoreboard players set potion57 PRICES 68
 scoreboard players operation potion57 PRICES *= discount discount_calc
 scoreboard players operation potion57 PRICES /= 100 discount_calc
 #potion epi
-scoreboard players set potion44 PRICES 138
+scoreboard players set potion44 PRICES 230
 scoreboard players operation potion44 PRICES *= discount discount_calc
 scoreboard players operation potion44 PRICES /= 100 discount_calc
-scoreboard players set potion62 PRICES 127
+scoreboard players set potion62 PRICES 250
 scoreboard players operation potion62 PRICES *= discount discount_calc
 scoreboard players operation potion62 PRICES /= 100 discount_calc
-scoreboard players set potion23 PRICES 184
+scoreboard players set potion23 PRICES 284
 scoreboard players operation potion23 PRICES *= discount discount_calc
 scoreboard players operation potion23 PRICES /= 100 discount_calc
-scoreboard players set potion24 PRICES 157
+scoreboard players set potion24 PRICES 257
 scoreboard players operation potion24 PRICES *= discount discount_calc
 scoreboard players operation potion24 PRICES /= 100 discount_calc
-scoreboard players set potion25 PRICES 171
+scoreboard players set potion25 PRICES 272
 scoreboard players operation potion25 PRICES *= discount discount_calc
 scoreboard players operation potion25 PRICES /= 100 discount_calc
-scoreboard players set potion54 PRICES 160
+scoreboard players set potion54 PRICES 262
 scoreboard players operation potion54 PRICES *= discount discount_calc
 scoreboard players operation potion54 PRICES /= 100 discount_calc
-scoreboard players set potion38 PRICES 142
+scoreboard players set potion38 PRICES 257
 scoreboard players operation potion38 PRICES *= discount discount_calc
 scoreboard players operation potion38 PRICES /= 100 discount_calc
-scoreboard players set potion58 PRICES 131
+scoreboard players set potion58 PRICES 269
 scoreboard players operation potion58 PRICES *= discount discount_calc
 scoreboard players operation potion58 PRICES /= 100 discount_calc
 #potion epi esc
@@ -2142,22 +2142,22 @@ scoreboard players set potion26 PRICES 2
 scoreboard players set potion39 PRICES 1
 
 #potion leg
-scoreboard players set potion45 PRICES 333
+scoreboard players set potion45 PRICES 434
 scoreboard players operation potion45 PRICES *= discount discount_calc
 scoreboard players operation potion45 PRICES /= 100 discount_calc
-scoreboard players set potion27 PRICES 378
+scoreboard players set potion27 PRICES 478
 scoreboard players operation potion27 PRICES *= discount discount_calc
 scoreboard players operation potion27 PRICES /= 100 discount_calc
-scoreboard players set potion28 PRICES 341
+scoreboard players set potion28 PRICES 441
 scoreboard players operation potion28 PRICES *= discount discount_calc
 scoreboard players operation potion28 PRICES /= 100 discount_calc
-scoreboard players set potion29 PRICES 305
+scoreboard players set potion29 PRICES 405
 scoreboard players operation potion29 PRICES *= discount discount_calc
 scoreboard players operation potion29 PRICES /= 100 discount_calc
-scoreboard players set potion55 PRICES 347
+scoreboard players set potion55 PRICES 447
 scoreboard players operation potion55 PRICES *= discount discount_calc
 scoreboard players operation potion55 PRICES /= 100 discount_calc
-scoreboard players set potion59 PRICES 270
+scoreboard players set potion59 PRICES 470
 scoreboard players operation potion59 PRICES *= discount discount_calc
 scoreboard players operation potion59 PRICES /= 100 discount_calc
 #food

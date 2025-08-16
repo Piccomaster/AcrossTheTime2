@@ -3,7 +3,6 @@
 #Obtain the magic sphere                         #
 ##################################################
 
-scoreboard objectives add conscience dummy
 scoreboard objectives add SPELL1_SLCT dummy
 scoreboard objectives add SPELL2_SLCT dummy
 scoreboard objectives add SPELL3_SLCT dummy

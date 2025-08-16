@@ -48,6 +48,7 @@ scoreboard objectives add TIMER_HER_EQ dummy
 scoreboard objectives add TIMER_HER_EXT dummy
 scoreboard objectives add TIMER_HER_PO dummy
 scoreboard objectives add TIMER_HER_EH dummy
+scoreboard objectives add POTION_CHECK_HER dummy
 
 scoreboard objectives add HER_UPGRADE_REQ dummy
 scoreboard players set @s HER_UPGRADE_REQ 1

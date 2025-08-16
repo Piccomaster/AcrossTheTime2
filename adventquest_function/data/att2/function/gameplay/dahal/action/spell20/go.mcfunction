@@ -5,7 +5,7 @@
 
 ##Detect whether there are minecarts near the player
 scoreboard players set TEST CAL 0
-execute if entity @e[type=#minecraft:minecart,tag=other_minecart,distance=..5] at @s run scoreboard players set TEST CAL 1
+execute if entity @e[type=#minecraft:minecarts,tag=other_minecart,distance=..5] at @s run scoreboard players set TEST CAL 1
 execute if entity @e[team=hostile,scores={GAMELEVEL=0..},distance=..5,limit=1] run scoreboard players set TEST CAL 2
 ## have minecarts near
 execute if score TEST CAL matches 1.. run function att2:dialogs/gameplay/dahal/spell20_limit
