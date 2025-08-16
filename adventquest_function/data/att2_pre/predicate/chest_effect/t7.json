@@ -69,6 +69,14 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c5t7\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
                     "nbt":"{LootTable:\"att2:chest/reg2/c6t7\"}"
                 }
             }
