@@ -10,4 +10,4 @@
 #set command_block
 execute in overworld positioned -7317 96 -4444 unless block ~ ~ ~ repeating_command_block run setblock ~ ~ ~ repeating_command_block{Command:"execute in overworld positioned -7317 96 -4444 run function att2:gameplay/misc/fishing/nojelanth_past/pos_3/go",auto:1}
 #set marker FISH SPOT
-execute in overworld positioned -7317 96 -4444 if entity @a[distance=..30] unless entity @e[tag=FISH_SPOT,type=armor_stand,distance=..20] run summon armor_stand -7315 97 -4450 {Tags:["FISH_SPOT"],Marker:true,Invisible:true,NoGravity:true}
+execute in overworld positioned -7317 96 -4444 if entity @a[distance=..30] unless entity @e[tag=FISH_SPOT,type=armor_stand,distance=..20] run summon armor_stand -7315 97 -4450 {Tags:["FISH_SPOT"],Marker:true,Invisible:true,NoGravity:true,Passengers:[{id:"minecraft:item_display",Tags:["fishing_symbol","FISH_SPOT"],item:{id:"minecraft:fishing_rod"},item_display:gui,billboard:center,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,2.0f,0.0f],scale:[1.0f,1.0f,1.0f]}}]}

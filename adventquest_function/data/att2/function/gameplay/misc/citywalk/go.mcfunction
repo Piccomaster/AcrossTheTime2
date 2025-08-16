@@ -17,7 +17,7 @@
 scoreboard players set TRUE CAL 0
 
 ##Ryliath FROM -5152 -5072 TO -4897 -4879
-execute as @s[scores={DIMENSION=1},x=-5152,z=-5072,dx=255,dz=280] run function att2:gameplay/misc/citywalk/ryliath
+execute as @s[scores={DIMENSION=1},x=-5152,z=-5072,dx=270,dz=280] run function att2:gameplay/misc/citywalk/ryliath
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
@@ -37,12 +37,12 @@ execute as @s[scores={DIMENSION=1},x=-5360,z=-6350,dx=207,dz=206] run function a
 execute if score TRUE CAL matches 1 run return 0
 
 ##Exile_Camp FROM 3360 3696 TO 3518 3838
-execute as @s[scores={DIMENSION=6},x=3360,z=3696,dx=-158,dz=-142] run function att2:gameplay/misc/citywalk/exile_camp
+execute as @s[scores={DIMENSION=6},x=3360,z=3696,dx=158,dz=142] run function att2:gameplay/misc/citywalk/exile_camp
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 
 ##Phoenix FROM 3769 4053 TO 4006 3806
-execute as @s[scores={DIMENSION=6},x=3769,z=4053,dx=-237,dz=247] run function att2:gameplay/misc/citywalk/phoenix
+execute as @s[scores={DIMENSION=6},x=3769,z=4053,dx=237,dz=-260] run function att2:gameplay/misc/citywalk/phoenix
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 

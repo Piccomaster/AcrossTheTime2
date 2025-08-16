@@ -12,8 +12,9 @@ scoreboard players reset @s[scores={COOLDOWN28=..0}] COOLDOWN28
 scoreboard players reset COOLDOWN CAL
 
 #if cooldown not over and not hold spell lancher -> stop
-execute if score @s COOLDOWN28 matches 1.. run return 0
 execute unless predicate att2_pre:dahal/hand/spell_28 run return 0
+execute if score @s COOLDOWN28 matches 1.. run function att2:dialogs/gameplay/dahal/remain/spell28
+execute if score @s COOLDOWN28 matches 1.. run return 0
 
 #test dahal enough
 scoreboard players set DAHAL_TEST CAL 0

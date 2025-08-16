@@ -5,6 +5,7 @@
 
 function att2:sound/shop/opening
 
+function att2:dialogs/gameplay/shop/showcase/discount
 function att2:dialogs/gameplay/shop/items_selled_list/clothing_list
 function att2:dialogs/gameplay/shop/showcase/armor/rar/leather_helmet_10
 function att2:dialogs/gameplay/shop/showcase/armor/rar/leather_chestplate_11

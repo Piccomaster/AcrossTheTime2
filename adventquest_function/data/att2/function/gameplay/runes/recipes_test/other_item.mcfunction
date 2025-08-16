@@ -52,8 +52,13 @@ execute if score total_item RUNECOUNT = 10000xp_epi_set RUNECOUNT run function a
 # 100000 XP
 execute if score leg RUNECOUNT matches 5 unless score leg_set RUNECOUNT matches 5 run scoreboard players operation 100000xp_leg RUNECOUNT = leg RUNECOUNT
 execute if score total_item RUNECOUNT = 100000xp_leg RUNECOUNT run function att2:items/xp/100000_recipes
+# 40000 XP
 execute if score leg RUNECOUNT matches 3 unless score leg_set RUNECOUNT matches 3 run scoreboard players operation 40000xp_leg RUNECOUNT = leg RUNECOUNT
 execute if score total_item RUNECOUNT = 40000xp_leg RUNECOUNT run function att2:items/xp/40000_recipes
+
+execute if score leg_potion RUNECOUNT matches 3 if score total_item RUNECOUNT = leg_potion RUNECOUNT run function att2:items/xp/10000_recipes
+
+execute if score leg_potion RUNECOUNT matches 5 if score total_item RUNECOUNT = leg_potion RUNECOUNT run function att2:items/xp/40000_recipes
 # 250000 XP
 execute if score leg_set RUNECOUNT matches 5 run scoreboard players operation 250000xp_leg_set RUNECOUNT = leg_set RUNECOUNT
 execute if score total_item RUNECOUNT = 250000xp_leg_set RUNECOUNT run function att2:items/xp/250000_recipes

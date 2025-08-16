@@ -3,7 +3,7 @@
 #Use function to process the update of waypoint timer 				#
 #####################################################################
 
-kill @e[type=item_display,tag=fishing_symbol,distance=..3]
+#kill @e[type=item_display,tag=fishing_symbol,distance=..3]
 execute if block ~ ~1 ~ light[level=7] run setblock ~ ~1 ~ air
 #test pos
 execute unless predicate att2_pre:fishing/spot_check run tag @s add SPOT_SELECT

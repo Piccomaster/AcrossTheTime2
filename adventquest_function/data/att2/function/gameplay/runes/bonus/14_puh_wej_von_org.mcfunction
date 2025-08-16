@@ -3,12 +3,15 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
+#reset 0
+scoreboard players set 14_puh_wej_von_org RUNE 0
+
 execute if entity @p[scores={GAMELEVEL=38..}] run scoreboard players add 14_puh_wej_von_org RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=38..}] run scoreboard players set RequiredError RUNE 114
 execute if score 14_puh_wej_von_org RUNE matches 2.. at @s run scoreboard players set RequiredError RUNE 114
 execute if score RequiredError RUNE matches 1.. at @s run setblock ~ ~ ~ minecraft:redstone_block
-execute if score RequiredError RUNE matches 0 as @a run function att2:dialogs/gameplay/runes/runicwords/14_puh_wej_von_org
+execute if score 14_puh_wej_von_org RUNE matches 1 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/14_puh_wej_von_org
 
 execute if score 14_puh_wej_von_org RUNE matches 1 run scoreboard players add BonusDahalMax RUNE 2
 execute if score 14_puh_wej_von_org RUNE matches 1 run scoreboard players add BonusXP RUNE 2

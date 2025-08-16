@@ -12,4 +12,4 @@ execute if score intake_goods SQ24 matches 6.. run function att2:cinematic/sideq
 #clear textdisplay
 execute if score intake_goods SQ24 matches 6.. positioned -4539 71 -4524 run kill @e[type=text_display,distance=..5,tag=QUEST]
 #clear block
-setblock -4539 71 -4524 air destroy
+execute if score intake_goods SQ24 matches 6.. run setblock -4539 71 -4524 air destroy

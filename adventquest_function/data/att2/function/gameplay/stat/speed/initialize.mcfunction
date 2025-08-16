@@ -35,6 +35,7 @@ scoreboard objectives add TIMER_SPD_EQ dummy
 scoreboard objectives add TIMER_SPD_EXT dummy
 scoreboard objectives add TIMER_SPD_PO dummy
 scoreboard objectives add TIMER_SPD_EH dummy
+scoreboard objectives add POTION_CHECK_SPD dummy
 
 scoreboard objectives add SPD_UPGRADE_REQ dummy
 scoreboard players set @s SPD_UPGRADE_REQ 2
