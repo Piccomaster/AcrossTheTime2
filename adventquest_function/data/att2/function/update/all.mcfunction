@@ -723,3 +723,42 @@ execute in the_nether positioned 3469 35 3718 run data merge block ~ ~ ~ {LootTa
 execute in the_nether positioned 3469 35 3719 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c3t3"}
 
 execute in the_nether positioned 3452 49 4525 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c5t5"}
+
+execute in the_nether positioned 3629 46 4615 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c3t3"}
+
+
+execute in the_nether positioned 3643 48 4611 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c6t3"}
+execute in the_nether positioned 3644 48 4611 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c6t3"}
+
+execute in the_nether positioned 3574 89 4546 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c6t6"}
+
+execute in the_nether positioned 3707 85 4585 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c6t8"}
+
+execute in the_nether positioned 3570 84 4530 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c6t4"}
+
+execute in the_nether positioned 3564 88 4541 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c6t3"}
+
+
+execute in overworld positioned -4979 145 -4920 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c4t3"}
+
+execute in overworld positioned -4942 126 -4895 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c4t4"}
+
+execute in overworld positioned -5007 118 -4925 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c4t3"}
+execute in overworld positioned -5007 118 -4926 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c4t3"}
+
+execute in overworld positioned -5382 144 -5988 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c6t3"}
+
+execute in overworld positioned -5269 111 -6300 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c6t3"}
+execute in overworld positioned -5270 111 -6300 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c6t3"}
+
+##updatre rune room chest
+execute in overworld positioned -5024 91 -4960 run setblock ~ ~ ~ stone_brick_stairs[facing=north,half=top]
+execute in overworld positioned -5024 92 -4960 run setblock ~ ~ ~ trapped_chest[facing=south,type=left]
+execute in overworld positioned -5022 92 -4960 run setblock ~ ~ ~ ender_chest[facing=south]
+
+execute in overworld positioned -5034 91 -4960 run setblock ~ ~ ~ stone_brick_stairs[facing=north,half=top]
+execute in overworld positioned -5034 92 -4960 run setblock ~ ~ ~ trapped_chest[facing=south,type=right]
+execute in overworld positioned -5036 92 -4960 run setblock ~ ~ ~ ender_chest[facing=south]
+
+##fix chest Vonaheim
+execute in overworld positioned -5521 133 -6324 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c6t6"}

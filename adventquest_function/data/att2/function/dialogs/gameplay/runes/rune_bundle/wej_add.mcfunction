@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest							#
+#rune bundle wej add							#
+#################################################################
+
+tellraw @s [{translate:"att2.rune_bundle.add"},{text:" Wej ",color:"#CFCF00"},{text:"[",color:yellow},{text:"+",color:green},{score:{name:"wej",objective:"CAL"},color:green},{text:"/"},{score:{name:"@s",objective:"RUNE_WEJ"},color:dark_green},{text:"]",color:yellow}]
