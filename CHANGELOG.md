@@ -18,10 +18,6 @@
 - **Bank System Update**  
   - Bank-stored *Chronotons* are now **shared among all players** (no longer private).  
 
-- **Small Chairs**  
-  - Buy from an NPC *Estelle*.
-  - **Right-click** to place and sit; **left-click chair legs** to pick up.  
-
 - **New Mounts**  
   - Purchase town-specific mounts: **pigs, camels, horses, mules**.  
 
@@ -150,6 +146,18 @@
   - **Reward Effects**
   - *On completing* : kill Monsters / open Chest/ symbol /waypoint collection  
   - *Players receive* : Minor HP restoration / Temporary movement speed boost/Small hunger recovery
+
+  ### **New item added**
+#### **Rune Pouch**
+  **obtain**: Craftable via recipes
+  **Functions**:
+  - Automatically stores rune materials from inventory (unlimited capacity)
+  - Right-click to eject all stored rune materials
+
+#### **Small Chairs**
+  **obtain**: Buy from an NPC *Estelle*.
+  **Functions**:
+  - **Right-click** to place and sit; **left-click chair legs** to pick up.  
   
 ### Balance:
 - **Attribute System Update** 
@@ -203,6 +211,7 @@
   - *Spell Damage*: Now scales slightly with *difficulty*. 
   - Spells no longer trigger *invincibility frames* on monsters.
   - *Tiid Klo Ul Spell Adjustments*: *Slow Effect* Nerfed from *90% → 45%* at max level ,but No longer is *interrupted* by other spells
+  - Gain **spell XP** when **killing monsters** with offensive spells
 
 -  **Game Updates**
   - Increased potion prices
