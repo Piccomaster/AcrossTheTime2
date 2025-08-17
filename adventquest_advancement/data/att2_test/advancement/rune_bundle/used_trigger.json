@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/runes/rune_bundle/used_trigger"
+    },
+    "criteria": {
+        "runes": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:ender_eye",
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "EquipmentType": "rune_bundle"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,9 +1,15 @@
 {
+  "rewards": {
+    "function": "att2:gameplay/enchantment/combohit/attack_trigger"
+  },
   "criteria": {
     "wooden_axe": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
+          "taken": {
+            "min": 5
+          },
           "type": {
             "direct_entity": {
               "equipment": {
