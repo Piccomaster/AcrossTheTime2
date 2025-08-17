@@ -1,38 +1,88 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
-    },
-    "title": {
-      "translate": "att2.advancement.collection.weapon_wooden.title.shield_54"
-    },
-    "description": {
-      "translate": "att2.advancement.collection.weapon_wooden.description.shield_54"
-    },
-    "show_toast": false,
-    "announce_to_chat": true
-  },
-  "parent": "att2:collection/weapon_wooden/shield_53",
-  "rewards": {
-    "function": "att2:advancement/test_all/collection/test_com_unc"
-  },
-  "criteria": {
-    "shield_54": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "white",
+        "minecraft:banner_patterns": [
           {
-            "items": 
-              "minecraft:shield"
-,
-            "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "54"
-              }
-            }
+            "color": "light_gray",
+            "pattern": "minecraft:half_horizontal"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:triangle_top"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:gradient"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:stripe_middle"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "blue",
+            "pattern": "minecraft:half_horizontal_bottom"
+          },
+          {
+            "color": "light_blue",
+            "pattern": "minecraft:stripe_bottom"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "light_blue",
+            "pattern": "minecraft:triangles_bottom"
           }
         ]
       }
+    },
+    "translate": "att2.advancement.collection.weapon_wooden.title.shield_54"
+  },
+  "description": {
+    "translate": "att2.advancement.collection.weapon_wooden.description.shield_54"
+  },
+  "show_toast": false,
+  "announce_to_chat": true
+},
+"parent": "att2:collection/weapon_wooden/shield_53",
+"rewards": {
+  "function": "att2:advancement/test_all/collection/test_com_unc"
+},
+"criteria": {
+  "shield_54": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:custom_data": {
+              "Weapon": "54"
+            }
+          }
+        }
+      ]
     }
   }
+}
 }

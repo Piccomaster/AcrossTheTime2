@@ -1,38 +1,72 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
-    },
-    "title": {
-      "translate": "att2.advancement.collection.weapon_angband.title.shield_161"
-    },
-    "description": {
-      "translate": "att2.advancement.collection.weapon_angband.description.shield_161"
-    },
-    "show_toast": false,
-    "announce_to_chat": true
-  },
-  "parent": "att2:collection/weapon_angband/shield_160",
-  "rewards": {
-    "function": "att2:advancement/test_all/collection/test_com_unc"
-  },
-  "criteria": {
-    "shield_161": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "orange",
+        "minecraft:banner_patterns": [
           {
-            "items": 
-              "minecraft:shield"
-,
-            "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "161"
-              }
-            }
+            "color": "yellow",
+            "pattern": "minecraft:triangle_top"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:gradient"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:triangles_top"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:triangle_bottom"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:gradient_up"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "purple",
+            "pattern": "minecraft:curly_border"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:curly_border"
           }
         ]
       }
+    },
+    "translate": "att2.advancement.collection.weapon_angband.title.shield_161"
+  },
+  "description": {
+    "translate": "att2.advancement.collection.weapon_angband.description.shield_161"
+  },
+  "show_toast": false,
+  "announce_to_chat": true
+},
+"parent": "att2:collection/weapon_angband/shield_160",
+"rewards": {
+  "function": "att2:advancement/test_all/collection/test_com_unc"
+},
+"criteria": {
+  "shield_161": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:custom_data": {
+              "Weapon": "161"
+            }
+          }
+        }
+      ]
     }
   }
+}
 }

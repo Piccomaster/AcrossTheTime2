@@ -1,37 +1,63 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
-    },
-    "title": {
-      "translate": "att2.advancement.collection.weapon_supreme.title.shield_340"
-    },
-    "description": {
-      "translate": "att2.advancement.collection.weapon_supreme.description.shield_340"
-    },
-    "frame": "challenge"
-  },
-  "parent": "att2:collection/supreme",
-  "rewards": {
-    "function": "att2:advancement/test_all/collection/test_ult"
-  },
-  "criteria": {
-    "shield_340": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "lime",
+        "minecraft:banner_patterns": [
           {
-            "items": 
-              "minecraft:shield"
-,
-            "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "340"
-              }
-            }
+            "color": "blue",
+            "pattern": "minecraft:gradient"
+          },
+          {
+            "color": "blue",
+            "pattern": "minecraft:curly_border"
+          },
+          {
+            "color": "purple",
+            "pattern": "minecraft:border"
+          },
+          {
+            "color": "blue",
+            "pattern": "minecraft:creeper"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "purple",
+            "pattern": "minecraft:triangles_top"
           }
         ]
       }
+    },
+    "translate": "att2.advancement.collection.weapon_supreme.title.shield_340"
+  },
+  "description": {
+    "translate": "att2.advancement.collection.weapon_supreme.description.shield_340"
+  },
+  "frame": "challenge"
+},
+"parent": "att2:collection/supreme",
+"rewards": {
+  "function": "att2:advancement/test_all/collection/test_ult"
+},
+"criteria": {
+  "shield_340": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:custom_data": {
+              "Weapon": "340"
+            }
+          }
+        }
+      ]
     }
   }
+}
 }

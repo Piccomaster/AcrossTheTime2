@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:gunpowder"
         },
-        "title": {"translate":"Master grinder"},
-        "description": {"translate":"Grind for a total of 500 runic powders."},
+        "title": {"translate":"att2.advancement.treasure.title.runicpowder_500"},
+        "description": {"translate":"att2.advancement.treasure.description.runicpowder_500"},
         "frame": "goal"
     },
     "parent": "att2:treasure/runicpowder_100",

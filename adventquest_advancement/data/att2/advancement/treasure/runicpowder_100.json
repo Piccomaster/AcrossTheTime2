@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:gunpowder"
         },
-        "title": {"translate":"Veteran grinder"},
-        "description": {"translate":"Grind for a total of 100 runic powders."},
+        "title": {"translate":"att2.advancement.treasure.title.runicpowder_100"},
+        "description": {"translate":"att2.advancement.treasure.description.runicpowder_100"},
         "frame": "goal"
     },
     "parent": "att2:treasure/runicpowder_25",

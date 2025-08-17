@@ -1,39 +1,65 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
-    },
-    "title": {
-      "translate": "att2.advancement.collection.weapon_angband.title.shield_163"
-    },
-    "description": {
-      "translate": "att2.advancement.collection.weapon_angband.description.shield_163"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true
-  },
-  "parent": "att2:collection/weapon_angband/shield_162",
-  "rewards": {
-    "function": "att2:advancement/test_all/collection/test_leg"
-  },
-  "criteria": {
-    "shield_163": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "red",
+        "minecraft:banner_patterns": [
           {
-            "items": 
-              "minecraft:shield"
-,
-            "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "163"
-              }
-            }
+            "color": "light_gray",
+            "pattern": "minecraft:cross"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:stripe_downright"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:rhombus"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:triangle_bottom"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:triangle_top"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:gradient"
           }
         ]
       }
+    },
+    "translate": "att2.advancement.collection.weapon_angband.title.shield_163"
+  },
+  "description": {
+    "translate": "att2.advancement.collection.weapon_angband.description.shield_163"
+  },
+  "frame": "challenge",
+  "show_toast": true,
+  "announce_to_chat": true
+},
+"parent": "att2:collection/weapon_angband/shield_162",
+"rewards": {
+  "function": "att2:advancement/test_all/collection/test_leg"
+},
+"criteria": {
+  "shield_163": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:custom_data": {
+              "Weapon": "163"
+            }
+          }
+        }
+      ]
     }
   }
+}
 }
