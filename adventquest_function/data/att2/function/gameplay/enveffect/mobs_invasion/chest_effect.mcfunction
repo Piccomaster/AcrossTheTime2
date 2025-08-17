@@ -16,4 +16,4 @@ particle minecraft:enchant ~-0.5 ~1.2 ~ 0 0 0.2 0 2 normal
 particle minecraft:enchant ~ ~1.2 ~0.5 0.2 0 0 0 2 normal
 particle minecraft:enchant ~ ~1.2 ~-0.5 0.2 0 0 0 2 normal
 
-execute unless predicate att2_pre:rune_chest run scoreboard players set @s[scores={INVASION=100..}] INVASION 100
+execute unless predicate att2_pre:rune_chest unless score @s INVASION matches 0..100 run scoreboard players set @s INVASION 100

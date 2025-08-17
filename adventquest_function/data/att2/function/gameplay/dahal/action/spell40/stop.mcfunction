@@ -4,10 +4,10 @@
 #################################################################
 
 # Stopping corrutpion ambiance
-stopsound @s[scores={MUSIC_BOSS=0}] music
+stopsound @s music minecraft:corruption_sample
 tag @s[scores={MUSIC_BOSS=0}] remove NoAutoMusic
 scoreboard players set @s[scores={MUSIC_BOSS=0}] MUSIC_TIMER 160
-scoreboard players set @s[scores={MUSIC_BOSS=0}] SPELL40_MUSIC 2
+scoreboard players set @s[scores={MUSIC_BOSS=0}] SPELL40_MUSIC 52
 
 tag @s remove Corrupted
 function att2:gameplay/dahal/action/spell40/cooldown

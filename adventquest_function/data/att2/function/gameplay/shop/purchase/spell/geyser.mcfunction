@@ -3,5 +3,5 @@
 #Use function to process the sell of Piege 						#
 #################################################################
 
-execute if entity @s[nbt={Inventory:[{components:{Spell:"spell7"}}]}] run function att2:dialogs/gameplay/dahal/have_spell
-execute unless entity @s[nbt={Inventory:[{components:{Spell:"spell7"}}]}] run function att2:gameplay/shop/purchase/spell/geyser_buy
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell7"}}}]}] run function att2:dialogs/gameplay/dahal/have_spell
+execute unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell7"}}}]}] run function att2:gameplay/shop/purchase/spell/geyser_buy

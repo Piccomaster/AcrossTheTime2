@@ -9,6 +9,9 @@ scoreboard players set DAHAL_TEST CAL 1
 tag @s add Corrupted
 scoreboard players remove @s DAHAL 100
 
+stopsound @s[tag=Corrupted,scores={MUSIC_BOSS=0}] music
+##re start MUSIC
+scoreboard players set @s SPELL40_MUSIC 0
 # Stopping current music to play corrutpion ambiance
 # stopsound @s[tag=Corrupted,scores={MUSIC_BOSS=0}] music
 tag @s[tag=Corrupted,scores={MUSIC_BOSS=0}] add NoAutoMusic

@@ -65,3 +65,5 @@ scoreboard players set 16_von_yog_yog RUNE 0
 scoreboard players set 17_kan_chu_bex_puh RUNE 0
 scoreboard players set 18_ust_xul_lya_zen_da RUNE 0
 scoreboard players set 19_mot_syl_kan_xul_zen RUNE 0
+
+function att2:gameplay/runes/rune_bundle/initialize

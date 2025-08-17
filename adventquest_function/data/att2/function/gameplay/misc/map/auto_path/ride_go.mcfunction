@@ -12,3 +12,6 @@ execute if score @s AUTO_PATH matches 0 run function att2:gameplay/misc/map/auto
 
 #time limit
 execute if score @s AUTO_PATH_TIMER matches 1.. run function att2:gameplay/misc/map/auto_path/ride/time_limit
+
+##make road makrer live
+execute if score tic TIMECOUNTER matches 7 run function att2:gameplay/misc/map/system_set/summon_marker/road_point

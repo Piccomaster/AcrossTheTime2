@@ -6,7 +6,7 @@
 #add Player temp
 tag @s add TEMP
 #get victim entity
-execute as @e[team=hostile,scores={GAMELEVEL=0..},nbt={HurtTime:10s}] at @s on attacker if entity @s[advancements={att2_test:enchantment/headhunter=true}] run tag @e[team=hostile,scores={GAMELEVEL=0..},distance=..0,limit=1] add TEMP_ATK
+execute as @e[team=hostile,scores={GAMELEVEL=0..},predicate=!att2_pre:unhurt] at @s on attacker if entity @s[advancements={att2_test:enchantment/headhunter=true}] run tag @e[team=hostile,scores={GAMELEVEL=0..},distance=..0,limit=1] add TEMP_ATK
 #get arrow
 execute as @e[tag=TEMP_ATK] at @s anchored eyes positioned ^ ^ ^ positioned ~-1 ~0.3 ~-1 as @e[type=#minecraft:arrows,tag=HEADHUNTER,dy=-0.1,dx=2,dz=2] at @s on origin if entity @s[advancements={att2_test:enchantment/headhunter=true}] run tag @e[type=#minecraft:arrows,distance=..0,limit=1] add TEMP_SHOT
 #effect

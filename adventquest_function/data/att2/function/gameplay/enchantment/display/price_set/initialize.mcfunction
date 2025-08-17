@@ -28,11 +28,11 @@ scoreboard players set anchorshot_esc_5 ENCHANTMENT_DATA 10
 scoreboard players set anchorshot_rune_5 ENCHANTMENT_DATA 1000
 #arcanedrive
 scoreboard players set arcanedrive_esc_1 ENCHANTMENT_DATA 3
-scoreboard players set arcanedrive_rune_1 ENCHANTMENT_DATA 500
+scoreboard players set arcanedrive_rune_1 ENCHANTMENT_DATA 400
 scoreboard players set arcanedrive_esc_2 ENCHANTMENT_DATA 9
-scoreboard players set arcanedrive_rune_2 ENCHANTMENT_DATA 1000
+scoreboard players set arcanedrive_rune_2 ENCHANTMENT_DATA 800
 scoreboard players set arcanedrive_esc_3 ENCHANTMENT_DATA 27
-scoreboard players set arcanedrive_rune_3 ENCHANTMENT_DATA 2000
+scoreboard players set arcanedrive_rune_3 ENCHANTMENT_DATA 1200
 #armorbreak
 scoreboard players set armorbreak_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set armorbreak_rune_1 ENCHANTMENT_DATA 100
@@ -53,11 +53,11 @@ scoreboard players set auto_mending_esc_3 ENCHANTMENT_DATA 9
 scoreboard players set auto_mending_rune_3 ENCHANTMENT_DATA 900
 #backstab
 scoreboard players set backstab_esc_1 ENCHANTMENT_DATA 5
-scoreboard players set backstab_rune_1 ENCHANTMENT_DATA 500
+scoreboard players set backstab_rune_1 ENCHANTMENT_DATA 300
 scoreboard players set backstab_esc_2 ENCHANTMENT_DATA 10
-scoreboard players set backstab_rune_2 ENCHANTMENT_DATA 1000
+scoreboard players set backstab_rune_2 ENCHANTMENT_DATA 600
 scoreboard players set backstab_esc_3 ENCHANTMENT_DATA 15
-scoreboard players set backstab_rune_3 ENCHANTMENT_DATA 2000
+scoreboard players set backstab_rune_3 ENCHANTMENT_DATA 900
 #combohit
 scoreboard players set combohit_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set combohit_rune_1 ENCHANTMENT_DATA 100

@@ -12,7 +12,7 @@ scoreboard players operation temp_value_1 CAL *= temp_value_2 CAL
 scoreboard players operation temp_value_1 CAL /= 100 CAL
 
 #store damage
-execute store result storage att2:damage temp int 1 run scoreboard players get temp_value_1 CAL
-
+execute store result storage att2:damage value int 1 run scoreboard players get temp_value_1 CAL
+execute store result storage att2:damage owner int 1 run scoreboard players get @s NUMEROJOUEUR
 ##effect go
-execute as @e[tag=TEMP] run function att2:gameplay/enchantment/combohit/effect
+execute as @e[team=hostile,scores={GAMELEVEL=0..},tag=TEMP_ATK] at @s run function att2:gameplay/enchantment/combohit/effect with storage att2:damage
