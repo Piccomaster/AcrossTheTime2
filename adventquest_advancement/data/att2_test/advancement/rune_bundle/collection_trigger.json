@@ -1,0 +1,22 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/runes/rune_bundle/collection_trigger"
+    },
+    "criteria": {
+        "runes": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:glowstone_dust",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "EquipmentType": "rune"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

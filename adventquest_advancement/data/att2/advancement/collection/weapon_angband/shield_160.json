@@ -1,7 +1,32 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "red",
+        "minecraft:banner_patterns": [
+          {
+            "color": "orange",
+            "pattern": "minecraft:gradient_up"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:gradient_up"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:triangles_top"
+          },
+          {
+            "color": "brown",
+            "pattern": "minecraft:gradient"
+          }
+        ]
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_angband.title.shield_160"
@@ -22,9 +47,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:shield"
-,
+            "items": "minecraft:shield",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "160"

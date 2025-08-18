@@ -72,21 +72,9 @@ execute if score total_item RUNECOUNT = 250000xp_ult RUNECOUNT run function att2
 #mot->1000000XP
 execute if score mot RUNECOUNT matches 1 run scoreboard players operation 1000000xp_mot RUNECOUNT = mot RUNECOUNT
 execute if score total_item RUNECOUNT = 1000000xp_mot RUNECOUNT run function att2:items/xp/1000000_recipes
-#15 Loot Runes ABC
-execute if score esc RUNECOUNT matches 5 run scoreboard players operation 15_lootrune RUNECOUNT += esc RUNECOUNT
-execute if score total_item RUNECOUNT = 15_lootrune RUNECOUNT run function att2:summon/bat_runes_abc_rewards_15_recipes
-#10 Loot Runes ABC
-execute if score esc RUNECOUNT matches 4 run scoreboard players operation 10_lootrune RUNECOUNT += esc RUNECOUNT
-execute if score total_item RUNECOUNT = 10_lootrune RUNECOUNT run function att2:summon/bat_runes_abc_rewards_10_recipes
-#6 Loot Runes ABC
-execute if score esc RUNECOUNT matches 3 run scoreboard players operation 6_lootrune RUNECOUNT += esc RUNECOUNT
-execute if score total_item RUNECOUNT = 6_lootrune RUNECOUNT run function att2:summon/bat_runes_abc_rewards_6_recipes
-#3 Loot Runes ABC
-execute if score esc RUNECOUNT matches 2 run scoreboard players operation 3_lootrune RUNECOUNT += esc RUNECOUNT
-execute if score total_item RUNECOUNT = 3_lootrune RUNECOUNT run function att2:summon/bat_runes_abc_rewards_3_recipes
-#1 Loot Runes ABC
-execute if score esc RUNECOUNT matches 1 run scoreboard players operation 1_lootrune RUNECOUNT += esc RUNECOUNT
-execute if score total_item RUNECOUNT = 1_lootrune RUNECOUNT run function att2:summon/bat_runes_abc_rewards_1_recipes
+
+###Loot Runes ABC
+execute if score total_item RUNECOUNT = esc RUNECOUNT run function att2:gameplay/runes/recipes_test/lootrunes_detection
 #Elixir vitae
 execute if score leg_potion RUNECOUNT matches 2 run scoreboard players operation ev_potion RUNECOUNT += leg_potion RUNECOUNT
 execute if score epi_potion RUNECOUNT matches 2 run scoreboard players operation ev_potion RUNECOUNT += epi_potion RUNECOUNT

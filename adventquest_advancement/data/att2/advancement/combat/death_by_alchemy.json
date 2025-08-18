@@ -26,10 +26,7 @@
             "conditions": {
                 "killing_blow": {
                     "direct_entity": {
-                        "type": "minecraft:splash_potion",
-                        "predicates": {
-                            "minecraft:potion_contents": "instant_damage"
-                        }
+                        "type": "minecraft:splash_potion"
                     }
                 }
             }

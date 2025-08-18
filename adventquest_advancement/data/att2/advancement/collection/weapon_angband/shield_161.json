@@ -1,7 +1,44 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "orange",
+        "minecraft:banner_patterns": [
+          {
+            "color": "yellow",
+            "pattern": "minecraft:triangle_top"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:gradient"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:triangles_top"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:triangle_bottom"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:gradient_up"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "purple",
+            "pattern": "minecraft:curly_border"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:curly_border"
+          }
+        ]
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_angband.title.shield_161"
@@ -22,9 +59,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:shield"
-,
+            "items": "minecraft:shield",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "161"

@@ -1,0 +1,23 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "SPELL_KILL": 10
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "ATTACKER": {
+                    "type": "score",
+                    "target": "attacking_player",
+                    "score": "NUMEROJOUEUR"
+                }
+            }
+        }
+    ]
+}

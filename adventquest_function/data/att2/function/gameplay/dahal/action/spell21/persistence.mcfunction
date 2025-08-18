@@ -15,9 +15,9 @@ execute as @e[type=minecraft:bat] unless entity @s[type=minecraft:bat,tag=!Vital
 execute as @e[type=minecraft:turtle,tag=Agro] run data merge entity @s {Age:-100}
 
 # Kill the agro turle in case the carrier dies or the invocation finishes
-execute as @e[tag=Agro] at @s unless entity @e[tag=ProcessingInvoTP] unless entity @e[type=!minecraft:turtle,team=ally,scores={GAMELEVEL=0..},distance=..2] run kill @s
+execute as @e[type=minecraft:turtle,tag=Agro] at @s unless entity @e[tag=ProcessingInvoTP] unless entity @e[type=!minecraft:turtle,team=ally,scores={GAMELEVEL=0..},distance=..2] run kill @s
 
 # Kill the pet in case the agro turtle is dead
 # execute as @e[tag=!ProcessingInvoTP] unless entity @s[tag=!VitalityPet1,tag=!VitalityPet2,tag=!VitalityPet3] at @s unless entity @e[tag=Agro,distance=..2] run kill @s
 
-execute as @e[type=minecraft:bat] unless entity @s[type=minecraft:bat,tag=!VitalityPet1,tag=!VitalityPet2,tag=!VitalityPet3] if entity @s[tag=ProcessingInvoTP] run tag @s remove ProcessingInvoTP
+execute as @e[type=minecraft:bat,tag=Spell21] unless entity @s[type=minecraft:bat,tag=!VitalityPet1,tag=!VitalityPet2,tag=!VitalityPet3] if entity @s[tag=ProcessingInvoTP] run tag @s remove ProcessingInvoTP

@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:gunpowder"
         },
-        "title": {"translate":"Test the grinder"},
-        "description": {"translate":"Grind for 1 runic powders."}
+        "title": {"translate":"att2.advancement.treasure.title.runicpowder_1"},
+        "description": {"translate":"att2.advancement.treasure.description.runicpowder_1"}
     },
     "parent": "att2:treasure/root",
         "rewards": {

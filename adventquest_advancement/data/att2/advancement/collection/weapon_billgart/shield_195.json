@@ -1,7 +1,32 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "green",
+        "minecraft:banner_patterns": [
+          {
+            "color": "white",
+            "pattern": "minecraft:skull"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "lime",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "lime",
+            "pattern": "minecraft:triangles_top"
+          },
+          {
+            "color": "green",
+            "pattern": "minecraft:cross"
+          }
+        ]
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_billgart.title.shield_195"
@@ -23,9 +48,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:shield"
-,
+            "items": "minecraft:shield",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "195"

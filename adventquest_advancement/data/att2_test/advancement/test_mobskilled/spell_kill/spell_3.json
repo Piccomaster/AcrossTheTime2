@@ -1,15 +1,24 @@
 {
   "rewards": {
-    "function": "att2:gameplay/dahal/spell_kill/detection"
+    "function": "att2:gameplay/dahal/spell_kill/spell_3"
   },
   "criteria": {
-    "class0_": {
+    "spell_3": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": [
           {
-            "condition": "minecraft:reference",
-            "name": "att2_pre:kill/class0_"
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:reference",
+                "name": "att2_pre:spell_kill/spell_3"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "att2_pre:kill/class0_"
+              }
+            ]
           }
         ],
         "killing_blow": {

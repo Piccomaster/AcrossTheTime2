@@ -14,3 +14,6 @@ execute at @s run particle minecraft:dust{color:[5,5,5],scale:1} ~ ~1.5 ~ 5 5 5 
 execute at @s run particle minecraft:end_rod ~ ~1.5 ~ 0.25 0.25 0.25 0.5 100 normal
 execute at @s run particle minecraft:firework ~ ~1.5 ~ 0.25 0.25 0.25 0.5 100 normal
 execute at @s run particle minecraft:totem_of_undying ~ ~1.5 ~ 0.25 0.25 0.25 1 100 normal
+
+#level
+function att2:advancement/test_all/progress/level

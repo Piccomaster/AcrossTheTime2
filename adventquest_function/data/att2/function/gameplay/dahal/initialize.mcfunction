@@ -18,6 +18,7 @@ scoreboard objectives add BONUS_XP_SPELL dummy
 scoreboard objectives add SPDG dummy
 scoreboard objectives add INVOC_DURATION dummy
 scoreboard objectives add SPELL_KILL dummy
+scoreboard objectives add ATTACKER dummy
 
 scoreboard players set @s DAHAL 0
 scoreboard players set @s DAHAL1 0

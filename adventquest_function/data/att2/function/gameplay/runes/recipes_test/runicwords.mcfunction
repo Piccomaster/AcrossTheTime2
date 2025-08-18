@@ -133,3 +133,10 @@ execute if score puh RUNECOUNT matches 1 run scoreboard players operation runicw
 execute if score syl RUNECOUNT matches 1 run scoreboard players operation runicwords_21 RUNECOUNT += syl RUNECOUNT
 execute if score chu RUNECOUNT matches 1 run scoreboard players operation runicwords_21 RUNECOUNT += chu RUNECOUNT
 execute if score total_item RUNECOUNT = runicwords_21 RUNECOUNT if score runicwords_21 RUNECOUNT matches 5 run function att2:gameplay/runes/bonus/21_hal_kan_puh_syl_chu
+#rune bundle
+execute if score bundle RUNECOUNT matches 1 run scoreboard players operation rune_bundle RUNECOUNT += bundle RUNECOUNT
+execute if score ra RUNECOUNT matches 1 run scoreboard players operation rune_bundle RUNECOUNT += ra RUNECOUNT
+execute if score ust RUNECOUNT matches 1 run scoreboard players operation rune_bundle RUNECOUNT += ust RUNECOUNT
+execute if score nym RUNECOUNT matches 1 run scoreboard players operation rune_bundle RUNECOUNT += nym RUNECOUNT
+execute if score ehl RUNECOUNT matches 1 run scoreboard players operation rune_bundle RUNECOUNT += ehl RUNECOUNT
+execute if score total_item RUNECOUNT = rune_bundle RUNECOUNT run function att2:items/runes/words/rune_bundle

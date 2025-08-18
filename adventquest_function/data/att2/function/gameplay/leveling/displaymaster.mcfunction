@@ -15,3 +15,6 @@ execute at @s run particle minecraft:nautilus ~ ~1.5 ~ 0.25 0.25 0.25 1 150 norm
 execute at @s run particle minecraft:end_rod ~ ~1.5 ~ 0.25 0.25 0.25 1 150 normal
 execute at @s run particle minecraft:firework ~ ~1.5 ~ 0.25 0.25 0.25 1 150 normal
 execute at @s run particle minecraft:totem_of_undying ~ ~1.5 ~ 0.25 0.25 0.25 1 150 normal
+
+#level
+function att2:advancement/test_all/progress/level

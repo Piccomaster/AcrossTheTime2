@@ -3,13 +3,17 @@
         "icon": {
             "id": "minecraft:bundle"
         },
-        "title": {"translate": "att2.advancement.treasure.title.bundle"},
-        "description": {"translate": "att2.advancement.treasure.description.bundle"},
+        "title": {
+            "translate": "att2.advancement.treasure.title.bundle"
+        },
+        "description": {
+            "translate": "att2.advancement.treasure.description.bundle"
+        },
         "frame": "goal"
     },
     "parent": "att2:treasure/sovereign",
-        "rewards": {
-            "experience": 777
+    "rewards": {
+        "experience": 777
     },
     "criteria": {
         "bundle": {
@@ -17,7 +21,12 @@
             "conditions": {
                 "items": [
                     {
-                    "items": ["minecraft:bundle"]
+                        "items": "minecraft:bundle",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "EquipmentType": "bundle"
+                            }
+                        }
                     }
                 ]
             }

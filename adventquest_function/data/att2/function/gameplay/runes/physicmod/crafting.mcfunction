@@ -4,5 +4,6 @@
 #########################################################################
 
 setblock -5029 90 -4958 hopper[facing=down,enabled=false]{CustomName:[{translate:att2.runes.crafting}]} destroy
+setblock -5029 89 -4958 redstone_block destroy
 
 data modify block -5029 90 -4958 Items set from storage att2:hopper temp

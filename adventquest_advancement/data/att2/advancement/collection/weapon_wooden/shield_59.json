@@ -1,7 +1,32 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "gray",
+        "minecraft:banner_patterns": [
+          {
+            "color": "black",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:border"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:straight_cross"
+          },
+          {
+            "color": "gray",
+            "pattern": "minecraft:circle"
+          }
+        ]
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_wooden.title.shield_59"
@@ -23,9 +48,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:shield"
-,
+            "items": "minecraft:shield",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "59"

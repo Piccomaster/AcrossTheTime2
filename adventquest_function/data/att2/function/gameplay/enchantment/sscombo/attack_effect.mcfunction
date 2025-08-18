@@ -21,7 +21,7 @@ scoreboard players operation temp_value_2 CAL /= 100 CAL
 #return maco
 execute store result storage att2:temp damage int 1 run scoreboard players get temp_value_2 CAL
 #damage run
-execute if score @s SSCOMBO matches 5.. at @s anchored eyes positioned ^ ^ ^3 as @e[distance=..3,team=hostile,scores={GAMELEVEL=0..}] run function att2:gameplay/enchantment/sscombo/damage with storage att2:temp
+execute if score @s SSCOMBO matches 5.. at @s anchored eyes positioned ^ ^ ^3 as @e[distance=..4,team=hostile,scores={GAMELEVEL=0..}] run function att2:gameplay/enchantment/sscombo/damage with storage att2:temp
 #reset
 scoreboard players reset temp_value_1 CAL
 scoreboard players reset temp_value_2 CAL
