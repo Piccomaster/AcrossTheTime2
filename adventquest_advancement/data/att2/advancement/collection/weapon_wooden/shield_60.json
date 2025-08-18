@@ -32,34 +32,35 @@
         ]
       }
     },
-    "translate": "att2.advancement.collection.weapon_wooden.title.shield_60"
+    "title": {
+      "translate": "att2.advancement.collection.weapon_wooden.title.shield_60"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_wooden.description.shield_60"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
   },
-  "description": {
-    "translate": "att2.advancement.collection.weapon_wooden.description.shield_60"
+  "parent": "att2:collection/weapon_wooden/shield_59",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
-  "frame": "goal",
-  "show_toast": false,
-  "announce_to_chat": true
-},
-"parent": "att2:collection/weapon_wooden/shield_59",
-"rewards": {
-  "function": "att2:advancement/test_all/collection/test_rar"
-},
-"criteria": {
-  "shield_60": {
-    "trigger": "minecraft:inventory_changed",
-    "conditions": {
-      "items": [
-        {
-          "items": "minecraft:shield",
-          "predicates": {
-            "minecraft:custom_data": {
-              "Weapon": "60"
+  "criteria": {
+    "shield_60": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "60"
+              }
             }
           }
-        }
-      ]
+        ]
+      }
     }
   }
-}
 }

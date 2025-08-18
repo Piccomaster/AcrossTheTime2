@@ -20,33 +20,34 @@
         ]
       }
     },
-    "translate": "att2.advancement.collection.weapon_billgart.title.shield_192"
+    "title": {
+      "translate": "att2.advancement.collection.weapon_billgart.title.shield_192"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_billgart.description.shield_192"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
   },
-  "description": {
-    "translate": "att2.advancement.collection.weapon_billgart.description.shield_192"
+  "parent": "att2:collection/weapon_billgart",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
   },
-  "show_toast": false,
-  "announce_to_chat": true
-},
-"parent": "att2:collection/weapon_billgart",
-"rewards": {
-  "function": "att2:advancement/test_all/collection/test_com_unc"
-},
-"criteria": {
-  "shield_192": {
-    "trigger": "minecraft:inventory_changed",
-    "conditions": {
-      "items": [
-        {
-          "items": "minecraft:shield",
-          "predicates": {
-            "minecraft:custom_data": {
-              "Weapon": "192"
+  "criteria": {
+    "shield_192": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "192"
+              }
             }
           }
-        }
-      ]
+        ]
+      }
     }
   }
-}
 }

@@ -28,33 +28,34 @@
         ]
       }
     },
-    "translate": "att2.advancement.collection.weapon_angband.title.shield_160"
+    "title": {
+      "translate": "att2.advancement.collection.weapon_angband.title.shield_160"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_angband.description.shield_160"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
   },
-  "description": {
-    "translate": "att2.advancement.collection.weapon_angband.description.shield_160"
+  "parent": "att2:collection/weapon_angband",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
   },
-  "show_toast": false,
-  "announce_to_chat": true
-},
-"parent": "att2:collection/weapon_angband",
-"rewards": {
-  "function": "att2:advancement/test_all/collection/test_com_unc"
-},
-"criteria": {
-  "shield_160": {
-    "trigger": "minecraft:inventory_changed",
-    "conditions": {
-      "items": [
-        {
-          "items": "minecraft:shield",
-          "predicates": {
-            "minecraft:custom_data": {
-              "Weapon": "160"
+  "criteria": {
+    "shield_160": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "160"
+              }
             }
           }
-        }
-      ]
+        ]
+      }
     }
   }
-}
 }

@@ -60,33 +60,34 @@
         ]
       }
     },
-    "translate": "att2.advancement.collection.weapon_ouranos.title.shield_220"
+    "title": {
+      "translate": "att2.advancement.collection.weapon_ouranos.title.shield_220"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.weapon_ouranos.description.shield_220"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
   },
-  "description": {
-    "translate": "att2.advancement.collection.weapon_ouranos.description.shield_220"
+  "parent": "att2:collection/weapon_ouranos",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
   },
-  "show_toast": false,
-  "announce_to_chat": true
-},
-"parent": "att2:collection/weapon_ouranos",
-"rewards": {
-  "function": "att2:advancement/test_all/collection/test_com_unc"
-},
-"criteria": {
-  "shield_220": {
-    "trigger": "minecraft:inventory_changed",
-    "conditions": {
-      "items": [
-        {
-          "items": "minecraft:shield",
-          "predicates": {
-            "minecraft:custom_data": {
-              "Weapon": "220"
+  "criteria": {
+    "shield_220": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "220"
+              }
             }
           }
-        }
-      ]
+        ]
+      }
     }
   }
-}
 }
