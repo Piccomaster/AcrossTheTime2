@@ -19,7 +19,7 @@ scoreboard players set @s SPECIAL_ELITE 5
 effect give @s speed infinite 4 true
 effect clear @s strength
 ##reduce 80% strength
-execute store result score ATK_DAMAGE CAL run attribute @s attack_damage get 100
+execute store result score ATK_DAMAGE CAL run attribute @s attack_damage get
 scoreboard players operation ATK_DAMAGE CAL *= 20 CAL
 ##return
 execute store result entity @s attributes[{id:"minecraft:attack_damage"}].base int 0.01 run scoreboard players get ATK_DAMAGE CAL

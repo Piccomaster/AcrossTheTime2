@@ -3,8 +3,10 @@
 #Prosses all runic words list for player 	                            #
 #########################################################################
 
+function att2:sound/dialogs/simple
 scoreboard players set @a QUCIK_RECIPE 0
-function att2:dialogs/gameplay/runes/quci/0_gal_org_inu
+function att2:dialogs/gameplay/runes/quick_recipe/use_tip
+function att2:dialogs/gameplay/runes/quick_recipe/0_gal_org_inu
 function att2:dialogs/gameplay/runes/quick_recipe/1_fus_ra_jo
 function att2:dialogs/gameplay/runes/quick_recipe/2_nym_ehl_ave
 function att2:dialogs/gameplay/runes/quick_recipe/3_for_tha_gal_hal
@@ -26,3 +28,4 @@ function att2:dialogs/gameplay/runes/quick_recipe/18_ust_xul_lya_zen_da
 function att2:dialogs/gameplay/runes/quick_recipe/19_mot_syl_kan_xul_zen
 function att2:dialogs/gameplay/runes/quick_recipe/20_bex_lya_qi_wej_yog
 function att2:dialogs/gameplay/runes/quick_recipe/21_hal_kan_puh_syl_chu
+function att2:dialogs/gameplay/runes/quick_recipe/22_ra_ust_nym_ehl

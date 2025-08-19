@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"~ ","color":"dark_gray","extra":[{"text
 tellraw @a[scores={LANGUAGE=10}] {"text":"~ ","color":"dark_gray","extra":[{"text":"Super Elite abatido...","color":"dark_red"},{"text":" ~","color":"dark_gray"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {"text":"⊰精英怪已死亡!⊱","color":"dark_red"}
+tellraw @a[scores={LANGUAGE=11}] {"text":"⊰超级精英怪已死亡!⊱","color":"dark_red"}

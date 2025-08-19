@@ -5,4 +5,4 @@
 
 function att2:sound/dialogs/simple
 
-tellraw @s {translate:att2.runes.quick_recipe.sure}
+title @s actionbar {translate:att2.runes.quick_recipe.sure}

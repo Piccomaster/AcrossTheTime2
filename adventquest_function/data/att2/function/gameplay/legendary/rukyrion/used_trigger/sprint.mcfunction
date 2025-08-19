@@ -3,6 +3,8 @@
 #Apply level 0 effect for Rukyrion user                			#
 #################################################################
 
+##remove knockback resistance
+attribute @s minecraft:explosion_knockback_resistance modifier add temp_reduce -10 add_value
 #add tag
 tag @s add TEMP_RUK
 #
@@ -32,3 +34,5 @@ execute at @s run tp @s ~ ~-1000 ~
 
 #tag remove
 tag @s remove TEMP_RUK
+#reset explosion_knockback_resistance
+attribute @s minecraft:explosion_knockback_resistance modifier remove temp_reduce

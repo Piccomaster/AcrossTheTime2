@@ -709,6 +709,8 @@ execute in overworld positioned -4615 73 -5469 run setblock ~ ~ ~ wall_torch[fac
 
 execute in overworld positioned -4677 79 -5505 run setblock ~ ~ ~ wall_torch[facing=east]
 
+execute in overworld positioned -4677 72 -5522 run setblock ~ ~ ~ wall_torch[facing=south] destroy
+
 execute in overworld positioned -4676 77 -5521 run setblock ~ ~ ~ torch
 execute in overworld positioned -4676 77 -5521 run setblock ~ ~ ~ air destroy
 

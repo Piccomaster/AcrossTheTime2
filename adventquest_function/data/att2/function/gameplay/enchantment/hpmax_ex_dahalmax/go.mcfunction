@@ -9,7 +9,7 @@ execute store result score temp_value_1 CAL run data get entity @s equipment.hea
 scoreboard players operation @s DAHALMAX = 6 CAL
 scoreboard players operation @s DAHALMAX *= @s GAMELEVEL
 scoreboard players operation @s DAHALMAX += 50 CAL
-scoreboard players operation @s DAHALMAX += BonusDahalMax RUNE
+scoreboard players operation @s DAHALMAX += BonusDahalMax_Total RUNE
 #ADD DAHAL MAX
 scoreboard players add temp_value_1 CAL 100
 scoreboard players operation @s DAHALMAX *= temp_value_1 CAL

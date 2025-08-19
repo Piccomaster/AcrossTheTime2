@@ -66,7 +66,7 @@ This repository reflects the standard Minecraft datapack structure. The logic is
 * `data/att2/`
     * `function/`: The core of the map. Contains thousands of `.mcfunction` files organized by category (e.g., `boss`, `quests`, `spells`, `systems`).
     * `advancement/`: Custom advancements that trigger functions and guide player progression.
-    * `item_modifier/` & `loot_tables/`: Defines the custom loot system.
+    * `item_modifier/` & `loot_table/`: Defines the custom loot system.
     * `predicate/`: Logic checks used in commands.
     <!-- * `trim_material/` & `trim_pattern/`: For custom armor trims. -->
 <!-- * `data/minecraft/tags/functions/`: Contains `load.json` and `tick.json` which are essential for initializing and running the map's core loop. -->

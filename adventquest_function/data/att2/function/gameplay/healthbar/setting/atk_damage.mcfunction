@@ -15,6 +15,6 @@ execute if score @s CLASSLEVEL matches 20.. run data modify storage att2:healthb
 #elite color
 execute if predicate att2_pre:score/healthbar/classlevel_elite run data modify storage att2:healthbar atk_damage set value {translate:att2.healthbar.atk_damage,color:blue,with:[{"score":{"name":"attack_damage","objective":"CAL"},color:blue}]}
 
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=SUPER] run data modify storage att2:healthbar atk_damage set value {translate:att2.healthbar.atk_damage,color:dark_blue,with:[{"score":{"name":"attack_damage","objective":"CAL"},color:dark_blue}]}
+execute if entity @s[tag=SUPER] run data modify storage att2:healthbar atk_damage set value {translate:att2.healthbar.atk_damage,color:dark_blue,with:[{"score":{"name":"attack_damage","objective":"CAL"},color:dark_blue}]}
 
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=MEGA] run data modify storage att2:healthbar atk_damage set value {translate:att2.healthbar.atk_damage,color:dark_aqua,with:[{"score":{"name":"attack_damage","objective":"CAL"},color:dark_aqua}]}
+execute if entity @s[tag=MEGA] run data modify storage att2:healthbar atk_damage set value {translate:att2.healthbar.atk_damage,color:dark_aqua,with:[{"score":{"name":"attack_damage","objective":"CAL"},color:dark_aqua}]}

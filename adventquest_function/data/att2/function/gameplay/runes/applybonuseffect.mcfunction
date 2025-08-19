@@ -19,7 +19,7 @@ execute as @a run scoreboard players operation @s MAX_HEALTH += 19 CAL
 execute as @a store result storage att2:max_health max_health int 1 run scoreboard players get @s MAX_HEALTH
 function att2:gameplay/death/max_health with storage att2:max_health
 
-execute as @a at @s if entity @s[x=-5029,y=91,z=-4957,distance=..20] run effect give @s minecraft:instant_health 1 20 true
+execute as @a[x=-5029,y=91,z=-4957,distance=..20] at @s run effect give @s minecraft:instant_health 1 20 true
 
 scoreboard players operation XPTotal RUNE = BonusXP RUNE
 scoreboard players operation XPTotal RUNE *= 100 RUNE

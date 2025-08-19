@@ -10,21 +10,21 @@ scoreboard players operation LEVELETERNAN CAL = @s LEVELETERNAN
 ## CAL XP
 scoreboard players set TOTAL_XP CAL 100
 scoreboard players operation GAMELEVEL CAL *= 2 CAL
-scoreboard players operation LEVELMASTER CAL *= 2 CAL
-scoreboard players operation LEVELETERNAN CAL *= 2 CAL
-###difficult effect
-scoreboard players operation percent CAL = level DIFFICULTY
-scoreboard players operation percent CAL *= 5 CAL
-scoreboard players add percent CAL 100
+scoreboard players operation LEVELMASTER CAL *= 3 CAL
+scoreboard players operation LEVELETERNAN CAL *= 4 CAL
 ## CAL CLass level
 scoreboard players operation CL_LVL CAL *= CLASSLEVEL CAL
-scoreboard players operation CL_LVL CAL *= 2 CAL
+scoreboard players operation CL_LVL CAL *= 4 CAL
+###difficult effect
+scoreboard players operation percent CAL = level DIFFICULTY
+scoreboard players operation percent CAL *= 10 CAL
+scoreboard players add percent CAL 100
 ##add
 scoreboard players operation TOTAL_XP CAL += GAMELEVEL CAL
 scoreboard players operation TOTAL_XP CAL += LEVELMASTER CAL
 scoreboard players operation TOTAL_XP CAL += LEVELETERNAN CAL
 scoreboard players operation TOTAL_XP CAL += CL_LVL CAL
-## per LVL difficult + 5% xp
+## per LVL difficult + 10% xp
 scoreboard players operation TOTAL_XP CAL *= percent CAL
 scoreboard players operation TOTAL_XP CAL /= 100 CAL
 #store xp score
@@ -35,7 +35,9 @@ execute as @a run function att2:gameplay/leveling/monster/loot/xp_get with stora
 
 ###loot spawn
 ##cal loot count
-scoreboard players set loot_count CAL -2
+scoreboard players set loot_count CAL 0
+scoreboard players operation CLASSLEVEL CAL /= 4 CAL
+scoreboard players operation loot_count CAL += CLASSLEVEL CAL
 scoreboard players operation loot_count CAL += level DIFFICULTY
 scoreboard players operation loot_count CAL += BonusLootBoss RUNE
 ##looping

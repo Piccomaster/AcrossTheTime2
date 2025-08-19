@@ -192,7 +192,8 @@
 #### **Small Chairs**
   **obtain**: Buy from an NPC *Estelle*.
   **Functions**:
-  - **Right-click** to place and sit; **left-click chair legs** to pick up.  
+  - **Right-click** to place and sit; **left-click chair legs** to pick up.
+  - **special**:When sitting on a chair, monsters will not refresh within 30 nearby tiles
   
 ### Balance:
 - **Attribute System Update** 
