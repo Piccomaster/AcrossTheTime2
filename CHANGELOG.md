@@ -150,6 +150,8 @@
   ## Elite Monster Mutations
 - **Spawn mechanism**:
   - There is a lower probability of generating mutant elites, each mutant elite monster will only have one special ability, and there will be no more than one mutant elite monster at the same time
+- **How to distinguish**:
+  - Players can distinguish them by the icon on the head of the mutant elite monsters
 ### Attribute Mutations
 - **Power Type**:
   - Very high attack damage,Low max health
