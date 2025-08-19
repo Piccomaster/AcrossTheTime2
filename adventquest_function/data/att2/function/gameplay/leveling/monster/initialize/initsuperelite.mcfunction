@@ -15,7 +15,7 @@ execute store result score SPECIAL_ELITE RNG run random value 1..1000
 execute if score level DIFFICULTY matches -1 run scoreboard players remove SPECIAL_ELITE RNG 20
 execute if score level DIFFICULTY matches 0 run scoreboard players remove SPECIAL_ELITE RNG 10
 execute if score level DIFFICULTY matches 1 run scoreboard players add SPECIAL_ELITE RNG 10
-execute if score level DIFFICULTY matches 2 run scoreboard players remove SPECIAL_ELITE RNG 20
+execute if score level DIFFICULTY matches 2 run scoreboard players add SPECIAL_ELITE RNG 20
 ##death elite
 execute if score SPECIAL_ELITE RNG matches 550..600 run function att2:gameplay/enveffect/elite/death/ne_effect/data_setting
 execute if score SPECIAL_ELITE RNG matches 601..650 run function att2:gameplay/enveffect/elite/death/mob_enhance/data_setting
