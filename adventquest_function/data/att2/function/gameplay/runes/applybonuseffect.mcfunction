@@ -3,11 +3,11 @@
 #Prosses apply all bonus for players 	                                #
 #########################################################################
 
-scoreboard players operation BonusDahalMax RUNE *= 4 RUNE
-scoreboard players operation @a DAHALMAX = 6 CAL
-scoreboard players operation @a DAHALMAX *= @a GAMELEVEL
-scoreboard players operation @a DAHALMAX += 50 CAL
-scoreboard players operation @a DAHALMAX += BonusDahalMax RUNE
+#########################################################################
+#Made by Thundesrtruck													#
+#Prosses apply all bonus for players 	                                #
+#########################################################################
+
 #reset health
 execute as @a run scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
 execute as @a run scoreboard players operation @s MAX_HEALTH *= 4 CAL
@@ -36,3 +36,9 @@ scoreboard players operation ChronotonTotal RUNE *= 20 RUNE
 
 scoreboard players operation TimePotionTotal RUNE = BonusTimePotion RUNE
 scoreboard players operation TimePotionTotal RUNE *= 20 RUNE
+
+scoreboard players operation BonusDahalMax_Total RUNE = BonusDahalMax RUNE
+scoreboard players operation BonusDahalMax_Total RUNE *= 4 CAL
+
+#reset dahal
+execute as @a run function att2:gameplay/runes/dahal_cal

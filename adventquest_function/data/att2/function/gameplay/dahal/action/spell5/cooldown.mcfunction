@@ -3,6 +3,10 @@
 #Level and Cooldown	for Thunder 								#
 #################################################################
 
+#nova/Corrupted stop
+execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
+
 scoreboard players operation @s[scores={SPELL5_CAP=1}] COOLDOWN5 = lvl1 COOLDOWN5
 scoreboard players operation @s[scores={SPELL5_CAP=2}] COOLDOWN5 = lvl2 COOLDOWN5
 scoreboard players operation @s[scores={SPELL5_CAP=3}] COOLDOWN5 = lvl3 COOLDOWN5

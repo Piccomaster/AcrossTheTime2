@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+tellraw @s {text:"⚙ ",bold:true,color:"dark_red",extra:[{text:"<",color:"gray",bold:false},{translate:"item.runeword.0.name",click_event:{action:run_command,command:"/function att2:gameplay/runes/quick_recipe/0_gal_org_inu"},hover_event:{action:show_item,id:"minecraft:angler_pottery_sherd",components:{custom_data:{EquipmentType:'runic_word',Rarity:'com',RuneWord:'0'},custom_name:{translate:'item.runeword.0.name'},lore:[{translate:'item.runeword.0.recipe'},{translate:'item.runeword.0.bonus.dahal'},{translate:'item.runeword.0.limit'}],enchantment_glint_override:true,tooltip_style:"minecraft:rarity/com/com"}}},{text:">",color:"gray",bold:false},{text:" <= ",color:"gray",bold:true},{text:"Gal",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Org",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Inu",color:"yellow",bold:false}]}

@@ -15,7 +15,7 @@ scoreboard players operation @s SPELL44_SPD = SPELL44_SPD CAL
 #HUN
 scoreboard players operation @s SPELL44_HUN *= 70 CAL
 scoreboard players operation @s SPELL44_HUN /= 100 CAL
-scoreboard players add @s[scores={SPELL44_HER=..-2}] CAL 1
+scoreboard players add @s[scores={SPELL44_HUN=..-2}] SPELL44_HUN 1
 #HAS
 scoreboard players operation @s SPELL44_HAS *= 70 CAL
 scoreboard players operation @s SPELL44_HAS /= 100 CAL
@@ -23,4 +23,4 @@ scoreboard players operation @s SPELL44_HAS > 1 CAL
 #SPD
 scoreboard players operation @s SPELL44_SPD *= 70 CAL
 scoreboard players operation @s SPELL44_SPD /= 100 CAL
-scoreboard players operation @s SPELL44_HAS > 1 CAL
+scoreboard players operation @s SPELL44_SPD > 1 CAL

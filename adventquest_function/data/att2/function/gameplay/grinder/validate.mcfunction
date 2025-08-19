@@ -11,3 +11,8 @@ function att2:sound/misc/grinder
 function att2:gameplay/grinder/reset
 
 kill @e[type=item,distance=..1,predicate=att2_pre:grinder/runes]
+
+
+
+#runicpowder
+function att2:advancement/test_all/treasure/runicpowder

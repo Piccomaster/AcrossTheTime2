@@ -17,6 +17,7 @@ execute as @a at @s run function att2:gameplay/dahal/action/spell1/obtain
 execute as @a at @s run function att2:gameplay/dahal/action/spell1/selectlvl1
 execute as @a at @s run function att2:gameplay/stat/display/initialize
 execute as @a at @s run function att2:gameplay/misc/exploit_book/initialize
+execute as @a at @s run function att2:gameplay/misc/map/initialize
 
 #effect clear
 effect clear @a jump_boost

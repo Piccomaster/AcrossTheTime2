@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+tellraw @s {text:"⚙ ",bold:true,color:"dark_red",extra:[{text:"<",color:"dark_purple",bold:false},{translate:"item.runeword.11.name",click_event:{action:run_command,command:"/function att2:gameplay/runes/quick_recipe/11_lya_nym_fus_von"},hover_event:{action:show_item,id:"minecraft:howl_pottery_sherd",components:{custom_data:{EquipmentType:'runic_word',Rarity:'epi',RuneWord:'11'},custom_name:{translate:'item.runeword.11.name'},lore:[{translate:'item.runeword.11.recipe'},{translate:'item.runeword.11.bonus.chronoton'},{translate:'item.runeword.11.bonus.dahal_xp'},{translate:'item.runeword.11.bonus.xp'},{translate:'item.runeword.11.bonus.loot'},{translate:'item.runeword.11.limit'}],enchantment_glint_override:true,tooltip_style:"minecraft:rarity/epi/epi"}}},{text:">",color:"dark_purple",bold:false},{text:" <= ",color:"gray",bold:true},{text:"Lya",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Nym",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Fus",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Von",color:"yellow",bold:false}]}

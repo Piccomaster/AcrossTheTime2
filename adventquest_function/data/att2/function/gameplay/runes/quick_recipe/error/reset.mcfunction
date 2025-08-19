@@ -1,0 +1,32 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+data modify storage att2:rune_recipe gal set value ""
+data modify storage att2:rune_recipe tha set value ""
+data modify storage att2:rune_recipe fus set value ""
+data modify storage att2:rune_recipe org set value ""
+data modify storage att2:rune_recipe jo set value ""
+data modify storage att2:rune_recipe ra set value ""
+data modify storage att2:rune_recipe nym set value ""
+data modify storage att2:rune_recipe inu set value ""
+data modify storage att2:rune_recipe hal set value ""
+data modify storage att2:rune_recipe von set value ""
+data modify storage att2:rune_recipe ehl set value ""
+data modify storage att2:rune_recipe ave set value ""
+data modify storage att2:rune_recipe chu set value ""
+data modify storage att2:rune_recipe for set value ""
+data modify storage att2:rune_recipe da set value ""
+data modify storage att2:rune_recipe wej set value ""
+data modify storage att2:rune_recipe ust set value ""
+data modify storage att2:rune_recipe lya set value ""
+data modify storage att2:rune_recipe qi set value ""
+data modify storage att2:rune_recipe bex set value ""
+data modify storage att2:rune_recipe puh set value ""
+data modify storage att2:rune_recipe syl set value ""
+data modify storage att2:rune_recipe yog set value ""
+data modify storage att2:rune_recipe kan set value ""
+data modify storage att2:rune_recipe xul set value ""
+data modify storage att2:rune_recipe zen set value ""
+data modify storage att2:rune_recipe mot set value ""

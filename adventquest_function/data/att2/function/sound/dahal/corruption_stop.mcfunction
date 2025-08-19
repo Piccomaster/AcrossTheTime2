@@ -4,3 +4,4 @@
 ##################################################
 
 playsound minecraft:impact7 ambient @s ~ ~ ~ 1 1.5
+stopsound @s music minecraft:corruption_sample

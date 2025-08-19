@@ -8,7 +8,7 @@ function att2:dialogs/mainquest/assistance/step70
 execute in minecraft:the_nether positioned 3512 88 4510 unless block 3512 88 4510 minecraft:air run function att2:gameplay/gps/summon_arrow
 execute in minecraft:the_nether positioned 3623 35 4568 if block ~ ~ ~ minecraft:stone_button run function att2:gameplay/gps/summon_arrow
 
-execute in minecraft:the_nether as @e[tag=newGPS] at @s anchored feet facing 3512 88 4510 run function att2:gameplay/gps/tp_arrow
+execute in minecraft:the_nether as @e[type=zombified_piglin,tag=newGPS] at @s anchored feet facing 3512 88 4510 run function att2:gameplay/gps/tp_arrow
 execute in minecraft:the_nether positioned 3637 35 4512 if data block 3637 35 4512 {LootTable:"att2:chest/reg2/c6t4_bigkey"} run function att2:gameplay/quest/mainquest/show_secondary_objective
 
 execute in minecraft:the_nether if data block 3487 74 4495 {LootTable:"att2:chest/reg2/c6t3_littlekey"} positioned 3487 74 4495 run function att2:gameplay/quest/mainquest/show_secondary_objective

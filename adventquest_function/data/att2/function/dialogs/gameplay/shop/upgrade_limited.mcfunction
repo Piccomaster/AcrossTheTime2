@@ -3,6 +3,7 @@
 #Use function to process the dialog system 						#
 #################################################################
 
+playsound noise4 player @s ~ ~ ~ 1 1
 
 #FRENCH LANGUAGE
 
@@ -52,4 +53,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"आपने अधिकतम स्�
 tellraw @s[scores={LANGUAGE=10}] {"text":"Você atingiu o nível máximo!","color":"gray"}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"已达到等级上限！ ","color":"gray"}
+tellraw @s[scores={LANGUAGE=11}] {"text":"该渠道的<次元口袋>已经升级过了","color":"dark_red"}

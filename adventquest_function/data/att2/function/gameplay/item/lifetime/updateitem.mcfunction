@@ -3,8 +3,6 @@
 #Use function to process the punishement of the CHEATER			#
 #################################################################
 
-effect give @s[gamemode=!adventure] minecraft:blindness 15 1 true
-
 title @s[gamemode=!adventure,scores={LANGUAGE=0}] title {"text":"TRICHEUR!","color":"yellow"}
 title @s[gamemode=!adventure,scores={LANGUAGE=1}] title {"text":"CHEATER!","color":"yellow"}
 title @s[gamemode=!adventure,scores={LANGUAGE=2}] title {"text":"作弊者!","color":"yellow"}

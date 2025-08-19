@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+tellraw @s {text:"⚙ ",bold:true,color:"dark_red",extra:[{text:"<",color:"blue",bold:false},{translate:"item.runeword.7.name",click_event:{action:run_command,command:"/function att2:gameplay/runes/quick_recipe/7_wej_ust_chu_tha"},hover_event:{action:show_item,id:"minecraft:explorer_pottery_sherd",components:{custom_data:{EquipmentType:'runic_word',Rarity:'rar',RuneWord:'7'},custom_name:{translate:'item.runeword.7.name'},lore:[{translate:'item.runeword.7.recipe'},{translate:'item.runeword.7.bonus.health'},{translate:'item.runeword.7.bonus.potion'},{translate:'item.runeword.7.bonus.loot'},{translate:'item.runeword.7.limit'}],enchantment_glint_override:true,tooltip_style:"minecraft:rarity/rar/rar"}}},{text:">",color:"blue",bold:false},{text:" <= ",color:"gray",bold:true},{text:"Wej",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Ust",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Chu",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Tha",color:"yellow",bold:false}]}

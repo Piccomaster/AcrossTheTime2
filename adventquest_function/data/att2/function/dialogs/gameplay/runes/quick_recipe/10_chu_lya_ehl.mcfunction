@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+tellraw @s {text:"⚙ ",bold:true,color:"dark_red",extra:[{text:"<",color:"blue",bold:false},{translate:"item.runeword.10.name",click_event:{action:run_command,command:"/function att2:gameplay/runes/quick_recipe/10_chu_lya_ehl"},hover_event:{action:show_item,id:"minecraft:heartbreak_pottery_sherd",components:{custom_data:{EquipmentType:'runic_word',Rarity:'rar',RuneWord:'10'},custom_name:{translate:'item.runeword.10.name'},lore:[{translate:'item.runeword.10.recipe'},{translate:'item.runeword.10.bonus.xp'},{translate:'item.runeword.10.bonus.loot'},{translate:'item.runeword.10.limit'}],enchantment_glint_override:true,tooltip_style:"minecraft:rarity/rar/rar"}}},{text:">",color:"blue",bold:false},{text:" <= ",color:"gray",bold:true},{text:"Chu",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Lya",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Ehl",color:"yellow",bold:false}]}

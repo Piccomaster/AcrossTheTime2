@@ -7,9 +7,9 @@
 scoreboard players remove @s SPELL6_EFFECT 1
 execute if score @s SPELL6_EFFECT matches ..0 run kill @s
 #particle
-particle minecraft:instant_effect ~ ~ ~ 0.75 0 0.75 0 2 normal
-particle minecraft:white_ash ~ ~0.5 ~ 0.75 0.5 0.75 0 5 normal
-particle minecraft:warped_spore ~ ~ ~ 0.5 0 0.5 0 5 normal
+particle minecraft:instant_effect ~ ~1.38 ~ 0.75 0 0.75 0 2 normal
+particle minecraft:white_ash ~ ~1.88 ~ 0.75 0.5 0.75 0 5 normal
+particle minecraft:warped_spore ~ ~1.38 ~ 0.5 0 0.5 0 5 normal
 
 # Explosion test
 execute if score @s SPELL6_SLCT matches 1 positioned ~ ~1.38 ~ if entity @e[scores={GAMELEVEL=0..},team=hostile,distance=..1] run function att2:gameplay/dahal/action/spell6/explosion1

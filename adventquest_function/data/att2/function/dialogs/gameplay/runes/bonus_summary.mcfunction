@@ -9,7 +9,6 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"⚙ Expérience de monstres tués : ","
 tellraw @s[scores={LANGUAGE=0}] {"text":"⚙ Bonus de Chronotons : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=0}] {"text":"⚙ Points de vie max : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=0}] {"text":"⚙ Limite de Dahäl : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=0}] {"text":"⚙ Dégâts des sorts : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=0}] {"text":"⚙ Expérience de sort supplémentaire : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=0}] {"text":"⚙ Vitesse de recharge des sorts : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=0}] {"text":"⚙ Durée des potions : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"s","color":"dark_red"}]}
@@ -32,7 +31,6 @@ tellraw @s[scores={LANGUAGE=2}] {"text":"⚙ 怪物擊殺經驗 : ","color":"dar
 tellraw @s[scores={LANGUAGE=2}] {"text":"⚙ Chronotons增值 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=2}] {"text":"⚙ 生命值上限 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=2}] {"text":"⚙ Dahäl上限 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=2}] {"text":"⚙ 法術傷害 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=2}] {"text":"⚙ 額外法術經驗 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=2}] {"text":"⚙ 法術冷卻速度 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=2}] {"text":"⚙ 藥水時長收益 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"s","color":"dark_red"}]}
@@ -44,7 +42,6 @@ tellraw @s[scores={LANGUAGE=3}] {"text":"⚙ モンスター討伐経験値 : ",
 tellraw @s[scores={LANGUAGE=3}] {"text":"⚙ クロノトン増加 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=3}] {"text":"⚙ 最大HP : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=3}] {"text":"⚙ ダハール上限 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=3}] {"text":"⚙ 呪文ダメージ : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=3}] {"text":"⚙ 追加呪文経験値 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=3}] {"text":"⚙ 呪文クールダウン速度 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=3}] {"text":"⚙ ポーション持続時間 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"秒","color":"dark_red"}]}
@@ -56,7 +53,6 @@ tellraw @s[scores={LANGUAGE=4}] {"text":"⚙ 몬스터 처치 경험치 : ","col
 tellraw @s[scores={LANGUAGE=4}] {"text":"⚙ 크로노톤 보너스 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=4}] {"text":"⚙ 최대 체력 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=4}] {"text":"⚙ 다할 한계 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=4}] {"text":"⚙ 주문 피해 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=4}] {"text":"⚙ 추가 주문 경험치 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=4}] {"text":"⚙ 주문 재사용 대기시간 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=4}] {"text":"⚙ 물약 지속 시간 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"초","color":"dark_red"}]}
@@ -68,7 +64,6 @@ tellraw @s[scores={LANGUAGE=5}] {"text":"⚙ خبرة قتل الوحوش : ","c
 tellraw @s[scores={LANGUAGE=5}] {"text":"⚙ مكافأة الكرونوتون : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=5}] {"text":"⚙ الحد الأقصى للصحة : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=5}] {"text":"⚙ حد داهال : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=5}] {"text":"⚙ ضرر التعويذة : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=5}] {"text":"⚙ خبرة تعويذة إضافية : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=5}] {"text":"⚙ سرعة إعادة التعويذة : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=5}] {"text":"⚙ مدة الجرعة : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"ث","color":"dark_red"}]}
@@ -80,7 +75,6 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"⚙ Опыт за убийство мо
 tellraw @s[scores={LANGUAGE=6}] {"text":"⚙ Бонус Хронотонов : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=6}] {"text":"⚙ Макс. здоровье : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=6}] {"text":"⚙ Лимит Дахаля : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=6}] {"text":"⚙ Урон заклинаний : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=6}] {"text":"⚙ Доп. опыт заклинаний : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=6}] {"text":"⚙ Скорость восстановления : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=6}] {"text":"⚙ Длительность зелий : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"с","color":"dark_red"}]}
@@ -92,7 +86,6 @@ tellraw @s[scores={LANGUAGE=7}] {"text":"⚙ Experiencia por matar monstruos : "
 tellraw @s[scores={LANGUAGE=7}] {"text":"⚙ Bonus de Chronotones : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=7}] {"text":"⚙ Salud máxima : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=7}] {"text":"⚙ Límite de Dahäl : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=7}] {"text":"⚙ Daño de hechizos : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=7}] {"text":"⚙ Experiencia de hechizo extra : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=7}] {"text":"⚙ Velocidad de enfriamiento : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=7}] {"text":"⚙ Duración de poción : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"s","color":"dark_red"}]}
@@ -104,7 +97,6 @@ tellraw @s[scores={LANGUAGE=8}] {"text":"⚙ Monster-Erfahrung : ","color":"dark
 tellraw @s[scores={LANGUAGE=8}] {"text":"⚙ Chronoton-Bonus : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=8}] {"text":"⚙ Maximale Gesundheit : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=8}] {"text":"⚙ Dahäl-Limit : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=8}] {"text":"⚙ Zauber-Schaden : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=8}] {"text":"⚙ Extra-Zaubererfahrung : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=8}] {"text":"⚙ Zauber-Abklingzeit : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=8}] {"text":"⚙ Trankdauer : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"s","color":"dark_red"}]}
@@ -116,7 +108,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"⚙ राक्षस मारने 
 tellraw @s[scores={LANGUAGE=9}] {"text":"⚙ क्रोनोटॉन बोनस : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=9}] {"text":"⚙ अधिकतम स्वास्थ्य : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=9}] {"text":"⚙ दाहाल सीमा : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=9}] {"text":"⚙ जादू क्षति : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=9}] {"text":"⚙ अतिरिक्त जादू अनुभव : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=9}] {"text":"⚙ जादू ठंडा समय : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=9}] {"text":"⚙ औषधि अवधि : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"से","color":"dark_red"}]}
@@ -128,7 +119,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ XP por Matar Monstros : ","color":
 tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ Bônus de Chronotons : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ Vida Máxima : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ Limite de Dahäl : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ Dano de Feitiço : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ XP de Feitiço Extra : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ Velocidade de Recarga : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=10}] {"text":"⚙ Duração de Poção : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"s","color":"dark_red"}]}
@@ -140,7 +130,6 @@ tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 怪物击杀经验 : ","color":"da
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 掉落金钱增值 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"ChronotonTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 生命值上限 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"HealthTotal","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ Dahäl上限 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusDahalMax","objective":"RUNE"},"color":"red"}]}
-tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 法术伤害 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"DahalPowerTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 额外法术经验 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"BonusSpellXP","objective":"RUNE"},"color":"red"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 法术冷却速度 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"CooldownTotal","objective":"RUNE"},"color":"red"},{"text":"%","color":"dark_red"}]}
 tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ 药水时长收益 : ","color":"dark_red","extra":[{"text":"+","color":"gray"},{"score":{"name":"TimePotionTotal","objective":"RUNE"},"color":"red"},{"text":"s","color":"dark_red"}]}

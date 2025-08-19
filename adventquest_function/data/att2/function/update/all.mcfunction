@@ -762,3 +762,6 @@ execute in overworld positioned -5036 92 -4960 run setblock ~ ~ ~ ender_chest[fa
 
 ##fix chest Vonaheim
 execute in overworld positioned -5521 133 -6324 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c6t6"}
+
+##fix billgart chest
+execute in the_end positioned -1224 91 -533 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg3/c5t5"}

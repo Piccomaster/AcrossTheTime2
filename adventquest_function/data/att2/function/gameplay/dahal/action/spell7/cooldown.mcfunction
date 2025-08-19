@@ -3,6 +3,10 @@
 #Level and Cooldown	for Geyser 								    #
 #################################################################
 
+#nova/Corrupted stop
+execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
+
 scoreboard players operation @s[scores={SPELL7_CAP=1}] COOLDOWN7 = lvl1 COOLDOWN7
 scoreboard players operation @s[scores={SPELL7_CAP=2}] COOLDOWN7 = lvl2 COOLDOWN7
 scoreboard players operation @s[scores={SPELL7_CAP=3}] COOLDOWN7 = lvl3 COOLDOWN7

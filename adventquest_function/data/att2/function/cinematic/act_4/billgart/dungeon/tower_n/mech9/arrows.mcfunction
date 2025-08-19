@@ -22,5 +22,9 @@ summon minecraft:arrow -1236 104 -710 {item:{id:"minecraft:tipped_arrow",count:1
 summon minecraft:arrow -1235 104 -710 {item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:1347617,custom_effects:[{id:"minecraft:wither",duration:10,amplifier:2,show_particles:false}]}}},pickup:2,life:1250,Silent:1b,Motion:[-0.2,0.4,-2.0],damage:2.0}
 summon minecraft:arrow -1235 104 -710 {item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:1347617,custom_effects:[{id:"minecraft:wither",duration:10,amplifier:2,show_particles:false}]}}},pickup:2,life:1250,Silent:1b,Motion:[-0.6,0.4,-2.0],damage:2.0}
 summon minecraft:arrow -1235 104 -710 {item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:1347617,custom_effects:[{id:"minecraft:wither",duration:10,amplifier:2,show_particles:false}]}}},pickup:2,life:1250,Silent:1b,Motion:[-1.0,0.4,-2.0],damage:2.0}
+#add arrow
+loot spawn -1239 106 -727 loot att2:item_data/misc/arrow
+loot spawn -1239 106 -727 loot att2:item_data/misc/arrow
+loot spawn -1239 106 -727 loot att2:item_data/misc/arrow
 #return 1->make command block runing
 return 1

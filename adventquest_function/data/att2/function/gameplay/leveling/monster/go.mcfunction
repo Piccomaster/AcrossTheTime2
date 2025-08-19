@@ -3,7 +3,7 @@
 #use /funciton att2:gameplay/leveling/monster/go to initiate the processing	#
 #############################################################################
 
-execute as @e[tag=LVL0,type=!item] at @s run function att2:gameplay/leveling/monster/initialize/initnewmonster
+execute at @a as @e[distance=..80,tag=LVL0,type=!item] at @s run function att2:gameplay/leveling/monster/initialize/initnewmonster
 
 #execute unless entity @a[scores={KILLVALUE=1..}] run function att2:gameplay/leveling/monster/loot/actualizemaxclass
 

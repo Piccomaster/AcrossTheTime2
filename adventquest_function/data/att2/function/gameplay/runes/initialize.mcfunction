@@ -6,6 +6,7 @@
 scoreboard objectives add RUNE dummy
 scoreboard objectives add RUNE_CAL dummy
 scoreboard objectives add RUNE_POWDER dummy
+scoreboard objectives add QUCIK_RECIPE dummy
 
 scoreboard players set SWITCH RUNE 0
 
