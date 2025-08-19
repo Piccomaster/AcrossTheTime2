@@ -166,6 +166,8 @@
   - Grants nearby monsters 5 seconds of invulnerability when killed
 
 ### Immunity Mutations
+- **Spawn mechanism**:
+  - There is a lower probability of generating mutant elites, each mutant elite monster will only have one special ability, and there will be no more than one mutant elite monster at the same time
 - **Melee Immunity**:
   - Becomes invulnerable when players are within 5 blocks
 - **Projectile Immunity**:
