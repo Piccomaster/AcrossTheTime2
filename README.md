@@ -42,7 +42,7 @@ This repository is for the **datapack source code only**. To play the map, you m
 
 * **Minecraft Version:** `1.21.5` (Java Edition)
 * **Game Mode:** Adventure
-* **Players:** 1-3 (Recommended), up to 5 (Maximum)
+* **Players:** 1-3 (Recommended),Supports unlimited players`(but avoid excessive numbers as more players increase performance load)`
 * **Render Distance:** 12+ chunks
 * **Allocated RAM:** 4GB (Minimum), 6GB (Recommended for multiplayer)
 * **Resource Pack:** The official "Across The Time II - Resource Pack" must be enabled.
@@ -64,12 +64,12 @@ This repository is for the **datapack source code only**. To play the map, you m
 This repository reflects the standard Minecraft datapack structure. The logic is primarily located in the `data` directory, offering a look into how the map's systems are built.
 
 * `data/att2/`
-    * `functions/`: The core of the map. Contains thousands of `.mcfunction` files organized by category (e.g., `boss`, `quests`, `spells`, `systems`).
-    * `advancements/`: Custom advancements that trigger functions and guide player progression.
-    * `item_modifiers/` & `loot_tables/`: Defines the custom loot system.
-    * `predicates/`: Logic checks used in commands.
-    * `trim_material/` & `trim_pattern/`: For custom armor trims.
-* `data/minecraft/tags/functions/`: Contains `load.json` and `tick.json` which are essential for initializing and running the map's core loop.
+    * `function/`: The core of the map. Contains thousands of `.mcfunction` files organized by category (e.g., `boss`, `quests`, `spells`, `systems`).
+    * `advancement/`: Custom advancements that trigger functions and guide player progression.
+    * `item_modifier/` & `loot_tables/`: Defines the custom loot system.
+    * `predicate/`: Logic checks used in commands.
+    <!-- * `trim_material/` & `trim_pattern/`: For custom armor trims. -->
+<!-- * `data/minecraft/tags/functions/`: Contains `load.json` and `tick.json` which are essential for initializing and running the map's core loop. -->
 * `pack.mcmeta`: Defines the datapack and its supported game version.
 
 ---
