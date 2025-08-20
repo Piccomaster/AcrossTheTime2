@@ -25,5 +25,11 @@ execute if score @s[scores={SPELL5_EFFECT=..0}] SPELL5_SLCT matches 8 run functi
 execute if score @s[scores={SPELL5_EFFECT=..0}] SPELL5_SLCT matches 9 run function att2:gameplay/dahal/action/spell5/thunder9
 execute if score @s[scores={SPELL5_EFFECT=..0}] SPELL5_SLCT matches 10 run function att2:gameplay/dahal/action/spell5/thunder10
 
+##effect slowness
+execute if score @s SPELL5_SLCT matches 1..2 positioned ~-2 ~-2 ~-2 run effect give @e[dx=5,dy=6,dz=5,scores={GAMELEVEL=0..},team=hostile] slowness 1 0 true
+execute if score @s SPELL5_SLCT matches 3..4 positioned ~-3 ~-3 ~-3 run effect give @e[dx=7,dy=9,dz=7,scores={GAMELEVEL=0..},team=hostile] slowness 1 1 true
+execute if score @s SPELL5_SLCT matches 5..6 positioned ~-4 ~-4 ~-4 run effect give @e[dx=9,dy=12,dz=9,scores={GAMELEVEL=0..},team=hostile] slowness 1 2 true
+execute if score @s SPELL5_SLCT matches 7..8 positioned ~-5 ~-5 ~-5 run effect give @e[dx=11,dy=15,dz=11,scores={GAMELEVEL=0..},team=hostile] slowness 1 3 true
+execute if score @s SPELL5_SLCT matches 9.. positioned ~-6 ~-6 ~-6 run effect give @e[dx=13,dy=18,dz=13,scores={GAMELEVEL=0..},team=hostile] slowness 1 4 true
 #remove
 scoreboard players remove @s[scores={SPELL5_EFFECT=-100..}] SPELL5_EFFECT 1

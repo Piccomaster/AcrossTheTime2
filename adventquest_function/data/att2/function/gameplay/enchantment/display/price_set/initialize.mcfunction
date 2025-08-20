@@ -31,7 +31,7 @@ scoreboard players set arcanedrive_esc_1 ENCHANTMENT_DATA 3
 scoreboard players set arcanedrive_rune_1 ENCHANTMENT_DATA 400
 scoreboard players set arcanedrive_esc_2 ENCHANTMENT_DATA 9
 scoreboard players set arcanedrive_rune_2 ENCHANTMENT_DATA 800
-scoreboard players set arcanedrive_esc_3 ENCHANTMENT_DATA 27
+scoreboard players set arcanedrive_esc_3 ENCHANTMENT_DATA 15
 scoreboard players set arcanedrive_rune_3 ENCHANTMENT_DATA 1200
 #armorbreak
 scoreboard players set armorbreak_esc_1 ENCHANTMENT_DATA 1

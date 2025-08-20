@@ -51,12 +51,6 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 #mot
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {equipment:{mainhand:{id:"minecraft:glowstone_dust",components:{EquipmentType:"runic_word"}}}} run function att2:gameplay/runes/runicwords_name/incompleted
 #re cal
-scoreboard players operation BonusDahalMax RUNE *= 4 RUNE
-execute as @a run scoreboard players operation @s RUNE_CAL = 6 RUNE
-execute as @a run scoreboard players operation @s RUNE_CAL *= @s GAMELEVEL
-execute as @a run scoreboard players operation @s RUNE_CAL += 50 RUNE
-execute as @a run scoreboard players operation @s RUNE_CAL += BonusDahalMax RUNE
-execute as @a run scoreboard players operation @s DAHALMAX = @s RUNE_CAL
 
 scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
 scoreboard players operation @s MAX_HEALTH *= 4 CAL
@@ -83,3 +77,8 @@ scoreboard players operation ChronotonTotal RUNE *= 20 RUNE
 
 scoreboard players operation TimePotionTotal RUNE = BonusTimePotion RUNE
 scoreboard players operation TimePotionTotal RUNE *= 20 RUNE
+
+scoreboard players operation BonusDahalMax_Total RUNE = BonusDahalMax RUNE
+scoreboard players operation BonusDahalMax_Total RUNE *= 4 CAL
+
+execute as @a run function att2:gameplay/runes/dahal_cal

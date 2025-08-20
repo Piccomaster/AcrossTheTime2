@@ -17,6 +17,6 @@ execute if score @s CLASSLEVEL matches 20.. run data modify storage att2:healthb
 #elite color
 execute if predicate att2_pre:score/healthbar/classlevel_elite run data modify storage att2:healthbar classlevel set value {translate:att2.healthbar.classlevel,color:blue,with:[{"score":{"name":"@s","objective":"CLASSLEVEL"},color:blue}]}
 
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=SUPER] run data modify storage att2:healthbar classlevel set value {translate:att2.healthbar.classlevel,color:dark_blue,with:[{"score":{"name":"@s","objective":"CLASSLEVEL"},color:dark_blue}]}
+execute if entity @s[tag=SUPER] run data modify storage att2:healthbar classlevel set value {translate:att2.healthbar.classlevel,color:dark_blue,with:[{"score":{"name":"@s","objective":"CLASSLEVEL"},color:dark_blue}]}
 
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=MEGA] run data modify storage att2:healthbar classlevel set value {translate:att2.healthbar.classlevel,color:dark_aqua,with:[{"score":{"name":"@s","objective":"CLASSLEVEL"},color:dark_aqua}]}
+execute if entity @s[tag=MEGA] run data modify storage att2:healthbar classlevel set value {translate:att2.healthbar.classlevel,color:dark_aqua,with:[{"score":{"name":"@s","objective":"CLASSLEVEL"},color:dark_aqua}]}

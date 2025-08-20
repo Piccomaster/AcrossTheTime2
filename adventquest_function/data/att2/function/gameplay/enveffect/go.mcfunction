@@ -29,4 +29,4 @@ execute if score tower_se_mech7 BILLGART matches 1 in minecraft:the_end if entit
 execute if score tower_ne_mech11 BILLGART matches 1 in minecraft:the_end if entity @a[x=-1174,y=130,z=-682,distance=..25] run function att2:gameplay/enveffect/gear/go
 
 ##Special elite monsters
-#function att2:gameplay/enveffect/elite/go
+function att2:gameplay/enveffect/elite/go

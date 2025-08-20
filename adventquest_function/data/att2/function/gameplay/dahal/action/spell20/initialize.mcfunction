@@ -15,9 +15,8 @@ scoreboard objectives add SPELL20_DROP dummy
 
 scoreboard objectives add SPELL20_ESC dummy
 scoreboard objectives add SPELL20_CUR dummy
-scoreboard objectives add SPELL20_RUNE dummy
 scoreboard players set @s SPELL20_ESC 0
-scoreboard players set @s SPELL20_RUNE 0
+scoreboard players set @s SPELL20_CUR 0
 
 scoreboard players set @s set_chest 0
 scoreboard players set @s SPELL20_SUMMON 0

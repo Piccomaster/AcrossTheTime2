@@ -5,8 +5,8 @@
 #################################################################
 
 #set  MinDamage | (MaxDamage−MinDamage)[]
-scoreboard players set minDG SPDG 3
-scoreboard players set maxDG SPDG 45
+scoreboard players set minDG SPDG 4
+scoreboard players set maxDG SPDG 60
 #difficult damage
 execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 5
 execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 20

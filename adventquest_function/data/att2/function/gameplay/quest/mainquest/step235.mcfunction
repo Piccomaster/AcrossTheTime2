@@ -7,9 +7,9 @@ execute if entity @s[scores={DIMENSION=1}] run scoreboard players set Objective 
 execute if entity @s[scores={DIMENSION=0}] run scoreboard players set Objective GPS_DIM 0
 function att2:dialogs/mainquest/assistance/step235
 execute if entity @s[scores={DIMENSION=1}] in minecraft:overworld positioned -5909 126 -4367 run function att2:gameplay/gps/summon_arrow
-execute if entity @s[scores={DIMENSION=1}] in minecraft:overworld as @e[tag=newGPS] at @s anchored feet facing -5909 126 -4367 run function att2:gameplay/gps/tp_arrow
+execute if entity @s[scores={DIMENSION=1}] in minecraft:overworld as @e[type=zombified_piglin,tag=newGPS] at @s anchored feet facing -5909 126 -4367 run function att2:gameplay/gps/tp_arrow
 execute if entity @s[scores={DIMENSION=0}] in minecraft:overworld positioned -7406 126 -4370 run function att2:gameplay/gps/summon_arrow
-execute if entity @s[scores={DIMENSION=0}] in minecraft:overworld as @e[tag=newGPS] at @s anchored feet facing -7406 126 -4370 run function att2:gameplay/gps/tp_arrow
+execute if entity @s[scores={DIMENSION=0}] in minecraft:overworld as @e[type=zombified_piglin,tag=newGPS] at @s anchored feet facing -7406 126 -4370 run function att2:gameplay/gps/tp_arrow
 
 execute in minecraft:overworld if block -7412 126 -4392 minecraft:lever positioned -7411 127 -4392 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld positioned -5958 124 -4383 run function att2:gameplay/quest/mainquest/show_secondary_objective

@@ -39,10 +39,10 @@ execute if predicate att2_pre:score/healthbar/classlevel_elite run data modify s
 execute if predicate att2_pre:score/healthbar/classlevel_elite run data modify storage att2:healthbar hp_max set value {translate:att2.healthbar.hp_value.max,color:blue,with:[{"score":{"name":"@s","objective":"HP_BAR_MAX"},color:blue}]}
 execute if predicate att2_pre:score/healthbar/classlevel_elite run data modify storage att2:healthbar percent set value {text:"/",color:blue}
 
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=SUPER] run data modify storage att2:healthbar hp_dis set value {translate:att2.healthbar.hp_value.now,color:dark_blue,with:[{"score":{"name":"@s","objective":"HP_BAR_NOW"},color:dark_blue}]}
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=SUPER] run data modify storage att2:healthbar hp_max set value {translate:att2.healthbar.hp_value.max,color:dark_blue,with:[{"score":{"name":"@s","objective":"HP_BAR_MAX"},color:dark_blue}]}
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=SUPER] run data modify storage att2:healthbar percent set value {text:"/",color:dark_blue}
+execute if entity @s[tag=SUPER] run data modify storage att2:healthbar hp_dis set value {translate:att2.healthbar.hp_value.now,color:dark_blue,with:[{"score":{"name":"@s","objective":"HP_BAR_NOW"},color:dark_blue}]}
+execute if entity @s[tag=SUPER] run data modify storage att2:healthbar hp_max set value {translate:att2.healthbar.hp_value.max,color:dark_blue,with:[{"score":{"name":"@s","objective":"HP_BAR_MAX"},color:dark_blue}]}
+execute if entity @s[tag=SUPER] run data modify storage att2:healthbar percent set value {text:"/",color:dark_blue}
 
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=MEGA] run data modify storage att2:healthbar hp_dis set value {translate:att2.healthbar.hp_value.now,color:dark_aqua,with:[{"score":{"name":"@s","objective":"HP_BAR_NOW"},color:dark_aqua}]}
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=MEGA] run data modify storage att2:healthbar hp_max set value {translate:att2.healthbar.hp_value.max,color:dark_aqua,with:[{"score":{"name":"@s","objective":"HP_BAR_MAX"},color:dark_aqua}]}
-execute if predicate att2_pre:score/healthbar/classlevel_elite if entity @s[tag=MEGA] run data modify storage att2:healthbar percent set value {text:"/",color:dark_aqua}
+execute if entity @s[tag=MEGA] run data modify storage att2:healthbar hp_dis set value {translate:att2.healthbar.hp_value.now,color:dark_aqua,with:[{"score":{"name":"@s","objective":"HP_BAR_NOW"},color:dark_aqua}]}
+execute if entity @s[tag=MEGA] run data modify storage att2:healthbar hp_max set value {translate:att2.healthbar.hp_value.max,color:dark_aqua,with:[{"score":{"name":"@s","objective":"HP_BAR_MAX"},color:dark_aqua}]}
+execute if entity @s[tag=MEGA] run data modify storage att2:healthbar percent set value {text:"/",color:dark_aqua}

@@ -4,16 +4,16 @@
 #####################################################################
 
 #reset timer
-execute if score 1RNG10 RNG matches 0 run scoreboard players set Invasion TIMER 10000
-execute if score 1RNG10 RNG matches 1 run scoreboard players set Invasion TIMER 12000
-execute if score 1RNG10 RNG matches 2 run scoreboard players set Invasion TIMER 14000
-execute if score 1RNG10 RNG matches 3 run scoreboard players set Invasion TIMER 16000
-execute if score 1RNG10 RNG matches 4 run scoreboard players set Invasion TIMER 18000
-execute if score 1RNG10 RNG matches 5 run scoreboard players set Invasion TIMER 20000
-execute if score 1RNG10 RNG matches 6 run scoreboard players set Invasion TIMER 22000
-execute if score 1RNG10 RNG matches 7 run scoreboard players set Invasion TIMER 24000
-execute if score 1RNG10 RNG matches 8 run scoreboard players set Invasion TIMER 26000
-execute if score 1RNG10 RNG matches 9 run scoreboard players set Invasion TIMER 28000
+execute if score 1RNG10 RNG matches 1 run scoreboard players set Invasion TIMER 10000
+execute if score 1RNG10 RNG matches 2 run scoreboard players set Invasion TIMER 12000
+execute if score 1RNG10 RNG matches 3 run scoreboard players set Invasion TIMER 14000
+execute if score 1RNG10 RNG matches 4 run scoreboard players set Invasion TIMER 16000
+execute if score 1RNG10 RNG matches 5 run scoreboard players set Invasion TIMER 18000
+execute if score 1RNG10 RNG matches 6 run scoreboard players set Invasion TIMER 20000
+execute if score 1RNG10 RNG matches 7 run scoreboard players set Invasion TIMER 22000
+execute if score 1RNG10 RNG matches 8 run scoreboard players set Invasion TIMER 24000
+execute if score 1RNG10 RNG matches 9 run scoreboard players set Invasion TIMER 26000
+execute if score 1RNG10 RNG matches 10 run scoreboard players set Invasion TIMER 28000
 
 #reset true
 scoreboard players reset TRUE INVASION

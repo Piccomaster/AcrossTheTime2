@@ -6,4 +6,4 @@
 #set kill score->spellKILL
 scoreboard players set @s SPELL_KILL 8
 scoreboard players operation @s ATTACKER = @a[distance=..0,limit=1] NUMEROJOUEUR
-$damage @s $(SP8) att2_damage:magic by @a[distance=..0,limit=1]
+$damage @s[tag=!FB_DAHAL] $(SP8) att2_damage:magic by @a[distance=..0,limit=1]

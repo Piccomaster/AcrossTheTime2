@@ -147,6 +147,41 @@
   - *On completing* : kill Monsters / open Chest/ symbol /waypoint collection  
   - *Players receive* : Minor HP restoration / Temporary movement speed boost/Small hunger recovery
 
+  ## Elite Monster Mutations
+- **Spawn mechanism**:
+  - There is a lower probability of generating mutant elites, each mutant elite monster will only have one special ability, and there will be no more than one mutant elite monster at the same time
+- **How to distinguish**:
+  - Players can distinguish them by the icon on the head of the mutant elite monsters
+### Attribute Mutations
+- **Power Type**:
+  - Very high attack damage,Low max health
+- **Speed Type**:
+  - Extremely fast movement,Very low attack damage
+- **Health Type**:
+  - Massive max health,Very slow movement
+
+### Death Mutations
+- **Curse Type**:
+  - Inflicts mental debuffs on nearby players when killed
+- **Healer Type**:
+  - Restores 50% max HP to nearby monsters when killed
+- **Empower Type**:
+  - Grants nearby monsters 5 seconds of invulnerability when killed
+
+### Immunity Mutations
+
+- **Melee Immunity**:
+  - Becomes invulnerable when players are within 5 blocks
+- **Projectile Immunity**:
+  - Destroys player-shot arrows within 5 blocks
+- **Magic Immunity**:
+  - Immune to all damaging Dahal spells
+## **loot rewards**
+  - Killing Mutations elites can earn more experience and currency loot
+
+### Runewords Quick Synthesis: 
+  - Players can click on the name of the Runewords in the recipe to quickly synthesize Runewords (rune materials must be in the Inventory)
+
   ### **New item added**
 #### **Rune Pouch**
   **obtain**: Craftable via recipes
@@ -157,7 +192,8 @@
 #### **Small Chairs**
   **obtain**: Buy from an NPC *Estelle*.
   **Functions**:
-  - **Right-click** to place and sit; **left-click chair legs** to pick up.  
+  - **Right-click** to place and sit; **left-click chair legs** to pick up.
+  - **special**:When sitting on a chair, monsters will not refresh within 30 nearby tiles
   
 ### Balance:
 - **Attribute System Update** 

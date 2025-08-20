@@ -12,11 +12,13 @@ execute positioned ^-2 ^ ^ run function att2:gameplay/dahal/action/spell7/geyser
 execute positioned ^ ^ ^2 run function att2:gameplay/dahal/action/spell7/geyser/6_effect
 execute positioned ^ ^ ^-2 run function att2:gameplay/dahal/action/spell7/geyser/6_effect
 execute as @a[distance=..4] run effect give @s minecraft:fire_resistance 2 0 true
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..4] run effect give @s minecraft:wither 4 5 true
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..4] at @s unless entity @s[scores={SPELL7_EFFECT=1..}] run tp @s[tag=!owlkar] ~ ~0.06 ~ ~ ~
+execute as @e[team=hostile,scores={GAMELEVEL=0..},type=!bat,distance=..4] run effect give @s minecraft:wither 4 5 true
+execute as @e[team=hostile,scores={GAMELEVEL=0..},type=!bat,distance=..4] at @s unless entity @s[scores={SPELL7_EFFECT=1..}] run tp @s[tag=!owlkar] ~ ~0.06 ~ ~ ~
 
 tp @s ~ ~ ~ ~5 ~
 
+##time limit
+execute unless score tic TIMECOUNTER matches 5 run return 0
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell7/damage_cal
 #find owner player ->damage

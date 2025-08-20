@@ -1,0 +1,6 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+tellraw @s {text:"⚙ ",bold:true,color:"dark_red",extra:[{text:"<",color:"dark_green",bold:false},{translate:"item.runeword.3.name",click_event:{action:run_command,command:"/execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/quick_recipe/3_for_tha_gal_hal"},hover_event:{action:show_item,id:"minecraft:blade_pottery_sherd",components:{custom_data:{EquipmentType:'runic_word',Rarity:'unc',RuneWord:'3'},custom_name:{translate:'item.runeword.3.name'},lore:[{translate:'item.runeword.3.recipe'},{translate:'item.runeword.3.bonus.dahal'},{translate:'item.runeword.3.bonus.xp'},{translate:'item.runeword.3.bonus.potion'},{translate:'item.runeword.3.limit'}],enchantment_glint_override:true,tooltip_style:"minecraft:rarity/unc/unc"}}},{text:">",color:"dark_green",bold:false},{text:" <= ",color:"gray",bold:true},{text:"For",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Tha",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Gal",color:"yellow",bold:false},{text:"+",color:"gray",bold:false},{text:"Hal",color:"yellow",bold:false}]}

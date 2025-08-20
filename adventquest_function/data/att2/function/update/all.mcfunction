@@ -709,6 +709,8 @@ execute in overworld positioned -4615 73 -5469 run setblock ~ ~ ~ wall_torch[fac
 
 execute in overworld positioned -4677 79 -5505 run setblock ~ ~ ~ wall_torch[facing=east]
 
+execute in overworld positioned -4677 72 -5522 run setblock ~ ~ ~ wall_torch[facing=south] destroy
+
 execute in overworld positioned -4676 77 -5521 run setblock ~ ~ ~ torch
 execute in overworld positioned -4676 77 -5521 run setblock ~ ~ ~ air destroy
 
@@ -762,3 +764,6 @@ execute in overworld positioned -5036 92 -4960 run setblock ~ ~ ~ ender_chest[fa
 
 ##fix chest Vonaheim
 execute in overworld positioned -5521 133 -6324 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c6t6"}
+
+##fix billgart chest
+execute in the_end positioned -1224 91 -533 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg3/c5t5"}

@@ -27,3 +27,5 @@ execute as @e[type=armor_stand,tag=RUNE] at @s run kill @s
 #no recipes
 execute if score rune_test RUNECOUNT matches 0 run function att2:dialogs/gameplay/runes/recipes_error
 execute if score rune_test RUNECOUNT matches 1 run function att2:dialogs/gameplay/runes/recipes_activation
+##reset rune_test RUNECOUNT
+scoreboard players reset rune_test RUNECOUNT

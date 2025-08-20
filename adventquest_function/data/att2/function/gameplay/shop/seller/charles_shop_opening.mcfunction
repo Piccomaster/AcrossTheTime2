@@ -12,3 +12,6 @@ function att2:dialogs/gameplay/shop/gambling/bet4
 execute if score Mainquest SIDEQUEST matches 82.. run function att2:dialogs/gameplay/shop/gambling/bet5
 execute if score Mainquest SIDEQUEST matches 172.. run function att2:dialogs/gameplay/shop/gambling/bet6
 execute if score Mainquest SIDEQUEST matches 218.. run function att2:dialogs/gameplay/shop/gambling/bet7
+execute unless score Mainquest SIDEQUEST matches 82.. run function att2:dialogs/gameplay/shop/gambling/lock
+execute unless score Mainquest SIDEQUEST matches 172.. run function att2:dialogs/gameplay/shop/gambling/lock
+execute unless score Mainquest SIDEQUEST matches 218.. run function att2:dialogs/gameplay/shop/gambling/lock

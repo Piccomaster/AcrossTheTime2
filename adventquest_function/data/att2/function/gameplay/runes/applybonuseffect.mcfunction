@@ -3,11 +3,11 @@
 #Prosses apply all bonus for players 	                                #
 #########################################################################
 
-scoreboard players operation BonusDahalMax RUNE *= 4 RUNE
-scoreboard players operation @a DAHALMAX = 6 CAL
-scoreboard players operation @a DAHALMAX *= @a GAMELEVEL
-scoreboard players operation @a DAHALMAX += 50 CAL
-scoreboard players operation @a DAHALMAX += BonusDahalMax RUNE
+#########################################################################
+#Made by Thundesrtruck													#
+#Prosses apply all bonus for players 	                                #
+#########################################################################
+
 #reset health
 execute as @a run scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
 execute as @a run scoreboard players operation @s MAX_HEALTH *= 4 CAL
@@ -19,7 +19,7 @@ execute as @a run scoreboard players operation @s MAX_HEALTH += 19 CAL
 execute as @a store result storage att2:max_health max_health int 1 run scoreboard players get @s MAX_HEALTH
 function att2:gameplay/death/max_health with storage att2:max_health
 
-execute as @a at @s if entity @s[x=-5029,y=91,z=-4957,distance=..20] run effect give @s minecraft:instant_health 1 20 true
+execute as @a[x=-5029,y=91,z=-4957,distance=..20] at @s run effect give @s minecraft:instant_health 1 20 true
 
 scoreboard players operation XPTotal RUNE = BonusXP RUNE
 scoreboard players operation XPTotal RUNE *= 100 RUNE
@@ -36,3 +36,9 @@ scoreboard players operation ChronotonTotal RUNE *= 20 RUNE
 
 scoreboard players operation TimePotionTotal RUNE = BonusTimePotion RUNE
 scoreboard players operation TimePotionTotal RUNE *= 20 RUNE
+
+scoreboard players operation BonusDahalMax_Total RUNE = BonusDahalMax RUNE
+scoreboard players operation BonusDahalMax_Total RUNE *= 4 CAL
+
+#reset dahal
+execute as @a run function att2:gameplay/runes/dahal_cal
