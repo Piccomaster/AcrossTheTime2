@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.auto_mending"},
-        "description": {"translate":"att2.advancement.enchantments.description.auto_mending"},
+        "title": {"translate":"att2.advancement.enchantments.title.auto_mending_max"},
+        "description": {"translate":"att2.advancement.enchantments.description.auto_mending_max"},
         "frame": "challenge"
     },
     "parent": "att2:enchantments/auto_mending",

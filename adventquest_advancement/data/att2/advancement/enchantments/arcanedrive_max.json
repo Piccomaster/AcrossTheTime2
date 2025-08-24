@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.arcanedrive"},
-        "description": {"translate":"att2.advancement.enchantments.description.arcanedrive"},
+        "title": {"translate":"att2.advancement.enchantments.title.arcanedrive_max"},
+        "description": {"translate":"att2.advancement.enchantments.description.arcanedrive_max"},
         "frame": "challenge"
     },
     "parent": "att2:enchantments/arcanedrive",

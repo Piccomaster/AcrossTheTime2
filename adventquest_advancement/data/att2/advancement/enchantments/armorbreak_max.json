@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.armorbreak"},
-        "description": {"translate":"att2.advancement.enchantments.description.armorbreak"},
+        "title": {"translate":"att2.advancement.enchantments.title.armorbreak_max"},
+        "description": {"translate":"att2.advancement.enchantments.description.armorbreak_max"},
         "frame": "challenge"
     },
     "parent": "att2:enchantments/armorbreak",

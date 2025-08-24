@@ -3,17 +3,17 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.dahalburst"},
-        "description": {"translate":"att2.advancement.enchantments.description.dahalburst"},
+        "title": {"translate":"att2.advancement.progress.title.enchantments_1"},
+        "description": {"translate":"att2.advancement.progress.description.enchantments_1"},
         "frame": "goal"
     },
-    "parent": "att2:enchantments/root",
+    "parent": "att2:progress/root",
     "rewards": {
         "function": "att2:advancement/exploit_2",
-        "experience": 300
+        "experience": 100
                 },
     "criteria": {
-        "dahalburst": {
+        "enchantments_1": {
             "trigger": "minecraft:impossible"
         }
     }

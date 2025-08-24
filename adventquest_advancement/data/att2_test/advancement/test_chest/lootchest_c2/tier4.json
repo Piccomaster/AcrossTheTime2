@@ -1,17 +1,7 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:chest"
-        },
-        "title": {"translate":"C2 Tier 4 Trigger"},
-        "description": {"translate":"TEST"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:advancement/test_all/treasure/chest/lootchest_c2/tier4"
-            },
+    },
     "criteria": {
         "lootchest_reg1c2t4_trigger": {
             "trigger": "minecraft:player_generates_container_loot",

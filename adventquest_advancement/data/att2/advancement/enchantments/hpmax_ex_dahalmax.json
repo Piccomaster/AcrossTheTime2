@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.hpmax_ex_dahalmax"},
+        "title": {"translate":"att2.advancement.enchantments.title.hpmax_ex_dahalmax_max"},
         "description": {"translate":"att2.advancement.enchantments.description.hpmax_ex_dahalmax"},
         "frame": "goal"
     },

@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.gourmetmaster"},
-        "description": {"translate":"att2.advancement.enchantments.description.gourmetmaster"},
+        "title": {"translate":"att2.advancement.enchantments.title.gourmetmaster_max"},
+        "description": {"translate":"att2.advancement.enchantments.description.gourmetmaster_max"},
         "frame": "challenge"
     },
     "parent": "att2:enchantments/gourmetmaster",

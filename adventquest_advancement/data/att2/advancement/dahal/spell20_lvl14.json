@@ -3,17 +3,17 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.dahal.title.spell20_lvl7"},
-        "description": {"translate":"att2.advancement.dahal.description.spell20_lvl7"},
+        "title": {"translate":"att2.advancement.dahal.title.spell20_lvl14"},
+        "description": {"translate":"att2.advancement.dahal.description.spell20_lvl14"},
         "frame": "challenge"
     },
-    "parent": "att2:dahal/spell20_lvl5",
+    "parent": "att2:dahal/spell20_lvl8",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 10000
                 },
     "criteria": {
-        "spell20_lvl7": {
+        "spell20_lvl14": {
             "trigger": "minecraft:impossible"
         }
     }
