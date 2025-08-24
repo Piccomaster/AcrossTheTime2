@@ -28,7 +28,7 @@ particle minecraft:soul_fire_flame ~ ~1 ~ 0 0 0 1 500 normal
 particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.5 0.5 0.5 0.5 100 normal
 execute as @a[distance=..10] run function att2:sound/dahal/spell3_effect
 #reset dahal burst score
-scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST 0
+scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 #dahal
 scoreboard players remove @s DAHAL 220
 function att2:gameplay/dahal/action/spell3/cooldown

@@ -8,7 +8,8 @@
 #execute in the_nether positioned 3918 93 4096 run setblock ~ ~ ~ command_block{Command:"/function att2:gameplay/hidden_spots/angband/2",auto:0b} replace
 #score
 
-#tp
-tp @a[distance=..10] 3891 48 3886
+
 #dialogs
 execute as @a[distance=..10] run function att2:dialogs/gameplay/hidden_spots/angband/2
+#tp
+tp @a[distance=..10] 3891 48 3886

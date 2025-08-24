@@ -47,15 +47,15 @@ team modify detect_minerals_runes color black
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN34 2000
-scoreboard players set lvl2 COOLDOWN34 2400
-scoreboard players set lvl3 COOLDOWN34 2800
-scoreboard players set lvl4 COOLDOWN34 3200
-scoreboard players set lvl5 COOLDOWN34 3600
-scoreboard players set lvl6 COOLDOWN34 4000
-scoreboard players set lvl7 COOLDOWN34 4400
-scoreboard players set lvl8 COOLDOWN34 4900
-scoreboard players set lvl9 COOLDOWN34 5400
-scoreboard players set lvl10 COOLDOWN34 6000
+scoreboard players set lvl2 COOLDOWN34 2200
+scoreboard players set lvl3 COOLDOWN34 2400
+scoreboard players set lvl4 COOLDOWN34 2800
+scoreboard players set lvl5 COOLDOWN34 3000
+scoreboard players set lvl6 COOLDOWN34 3200
+scoreboard players set lvl7 COOLDOWN34 3400
+scoreboard players set lvl8 COOLDOWN34 3600
+scoreboard players set lvl9 COOLDOWN34 3800
+scoreboard players set lvl10 COOLDOWN34 4000
 #set dahal cost
 scoreboard players set SP34_1 DAHAL_COST 80
 scoreboard players set SP34_2 DAHAL_COST 110

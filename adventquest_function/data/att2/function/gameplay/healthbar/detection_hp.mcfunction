@@ -4,7 +4,7 @@
 #################################################################
 
 #detection if enemy die
-function att2:gameplay/healthbar/clear
+#function att2:gameplay/healthbar/clear
 #reset
 function att2:gameplay/healthbar/reset
 #get vehicle percent hp

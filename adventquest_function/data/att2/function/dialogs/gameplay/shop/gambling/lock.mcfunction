@@ -4,4 +4,4 @@
 #################################################################
 
 
-tellraw @s {"text":"<???>","bold":false,"color":"red","hover_event":{"action":"show_text","value":[{translate:att2.unlock}]}}
+tellraw @s {"text":"<???>","bold":false,"color":"red","hover_event":{"action":"show_text","value":[{translate:att2.lock}]}}

@@ -50,6 +50,7 @@ execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5117,y=121,z=-6870,distan
 
 # No Jump effect
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run scoreboard players set @s JUMP_SAFE 40
+execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run attribute @s jump_strength modifier add umbratyanth_limit -777 add_value
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect clear @s minecraft:levitation
 # Invisiblity security effect from creeper explosion
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect clear @s minecraft:invisibility

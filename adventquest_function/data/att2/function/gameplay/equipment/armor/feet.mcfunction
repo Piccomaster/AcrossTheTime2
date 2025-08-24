@@ -44,5 +44,10 @@ execute store result score HUN ATTRIBUTE run data get entity @s equipment.feet.c
 scoreboard players operation @s HUN_EQ += HUN ATTRIBUTE
 
 #get armor set number
-data remove storage att2:setid SetId_4
-data modify storage att2:setid SetId_4 set from entity @s equipment.feet.components."minecraft:custom_data".SetId
+scoreboard players reset SetId_4 ATTRIBUTE
+execute store result score SetId_4 ATTRIBUTE run data get entity @s equipment.feet.components."minecraft:custom_data".SetId
+#data remove storage att2:setid SetId_4
+#data modify storage att2:setid SetId_4 set from entity @s equipment.feet.components."minecraft:custom_data".SetId
+
+#test SetID
+function att2:gameplay/equipment/armor/setid with storage att2:setid

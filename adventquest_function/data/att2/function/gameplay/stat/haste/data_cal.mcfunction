@@ -4,7 +4,7 @@
 ##################################################
 
 #CAL STR
-execute store result score @s HAS_DATA run attribute @s attack_speed get
+execute store result score @s HAS_DATA run attribute @s attack_speed get 100
 #return score
 execute store result storage att2:attribute HAS_TOT int 1 run scoreboard players get @s HAS_TOT
 #cal 0.1

@@ -5,7 +5,6 @@
 
 $execute in overworld run summon armor_stand 777 77 777 {CustomName:"",CustomNameVisible:true,Marker:true,Tags:["MAINPLAYER","ID"],equipment:{mainhand:{id:"minecraft:player_head",components:{"minecraft:profile":{id:[I;$(0),$(1),$(2),$(3)]}}}},UUID:[I;1,111,1,112]}
 
-
 #reset name
 data modify storage att2:id set set value {text:"",color:dark_red,italic:false}
 #get name

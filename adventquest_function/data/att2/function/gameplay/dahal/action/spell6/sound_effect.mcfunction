@@ -4,3 +4,4 @@
 #################################################################
 
 playsound minecraft:forcefield2 ambient @s ~ ~ ~ 0.2 1
+stopsound @s * minecraft:forcefield2

@@ -7,8 +7,6 @@
       },
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:gold_nugget",
           "weight": 1,
           "conditions": [
             {
@@ -23,30 +21,12 @@
                 "min": 2,
                 "max": 5
               }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": {
-                  "translate": "item.coin.small.name"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "item.coin.small.lore"
-                  }
-                ],
-                "minecraft:custom_data": {
-                  "EquipmentType": "misc",
-                  "Rarity": "cur",
-                  "Coin": "small"
-                }
-              }
             }
-          ]
+          ],
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/chronoton/small"
         },
         {
-          "type": "item",
-          "name": "minecraft:gold_ingot",
           "weight": 1,
           "conditions": [
             {
@@ -61,30 +41,12 @@
                 "min": 1,
                 "max": 2
               }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": {
-                  "translate": "item.coin.big.name"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "item.coin.big.lore"
-                  }
-                ],
-                "minecraft:custom_data": {
-                  "EquipmentType": "misc",
-                  "Rarity": "cur",
-                  "Coin": "big"
-                }
-              }
             }
-          ]
+          ],
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/chronoton/big"
         },
         {
-          "type": "item",
-          "name": "minecraft:diamond",
           "weight": 1,
           "conditions": [
             {
@@ -99,26 +61,10 @@
                 "min": 1,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": {
-                  "translate": "item.coin.diamond.name"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "item.coin.diamond.lore"
-                  }
-                ],
-                "minecraft:custom_data": {
-                  "EquipmentType": "misc",
-                  "Rarity": "cur",
-                  "Coin": "diamond"
-                }
-              }
             }
-          ]
+          ],
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/chronoton/diamond"
         }
       ]
     }

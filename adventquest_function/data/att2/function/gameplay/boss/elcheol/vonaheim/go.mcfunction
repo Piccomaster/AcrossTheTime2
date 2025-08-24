@@ -63,6 +63,9 @@ execute if score Vonaheim VONAHEIM matches -2 as @a[x=-5615,y=189,z=-6528,dx=2,d
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Vonaheim VONAHEIM matches -2 unless score Mainquest SIDEQUEST matches 115 unless entity @a[x=-5643,y=78,z=-6539,dx=58,dy=87,dz=58,gamemode=adventure,tag=!Dead] unless entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure,tag=!Dead] unless entity @a[x=-5617,y=166,z=-6507,dx=6,dy=33,dz=-6,gamemode=adventure,tag=!Dead] unless entity @a[x=-5616,y=200,z=-6517,dx=4,dy=-11,dz=-11,gamemode=adventure,tag=!Dead] run function att2:gameplay/boss/elcheol/vonaheim/initialize
 
+##Make voke has classlvl
+execute if score Vonaheim VONAHEIM matches 0.. as @e[type=vex,x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36] at @s unless score @s CLASSLEVEL matches 1.. run function att2:gameplay/boss/elcheol/vonaheim/vex_tag
+
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] tp_spell32_timer 20
 ##boss_timer->GO

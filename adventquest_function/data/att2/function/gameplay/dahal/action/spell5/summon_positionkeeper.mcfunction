@@ -9,6 +9,6 @@ scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellThunder] SPE
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellThunder] SPELL5_OWNER = @s NUMEROJOUEUR
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellThunder] DAHALBURST = @s DAHALBURST
 #reset dahal burst score
-scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST 0
+scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 
 tag @e[type=minecraft:armor_stand,tag=SpellThunder] remove SpellThunder

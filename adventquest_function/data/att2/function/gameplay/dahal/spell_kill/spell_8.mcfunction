@@ -26,5 +26,5 @@ execute if score @s[scores={SPELL8_CAP=..7}] SPELL8_LVL >= cap8 SPELL8_LVL run s
 execute if score @s[scores={SPELL8_CAP=..8}] SPELL8_LVL >= cap9 SPELL8_LVL run scoreboard players set TEST CAL 9
 execute if score @s[scores={SPELL8_CAP=..9}] SPELL8_LVL >= cap10 SPELL8_LVL run scoreboard players set TEST CAL 10
 #test if up
-execute if score TEST CAL > @s SPELL8_CAP run function att2:gameplay/dahal/action/spell8/lvlup
 execute if score TEST CAL > @s SPELL8_CAP run scoreboard players operation @s SPELL8_CAP = TEST CAL
+execute if score TEST CAL > @s SPELL8_CAP run function att2:gameplay/dahal/action/spell8/lvlup

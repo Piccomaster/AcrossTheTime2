@@ -49,3 +49,5 @@ function att2:gameplay/misc/map/go
 execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/horse/go
 #city walk
 execute if score tic TIMECOUNTER matches 15 as @a at @s run function att2:gameplay/misc/citywalk/go
+##clear exploit_book
+kill @e[type=item,predicate=att2_pre:exploit_book]

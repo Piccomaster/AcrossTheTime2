@@ -3,5 +3,5 @@
 #Manage the physical modification for elcheol_temple_portal_trigger_opening	#
 #############################################################################
 
-setblock -5112 162 -6739 minecraft:air destroy
-setblock -5112 160 -6740 minecraft:white_wool destroy
+execute in overworld positioned -5112 162 -673 unless block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:air destroy
+execute in overworld positioned -5112 160 -6740 unless block ~ ~ ~ minecraft:white_wool run setblock ~ ~ ~ minecraft:white_wool destroy

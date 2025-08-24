@@ -13,4 +13,3 @@ advancement revoke @s only att2_test:enchantment/combohit
 
 #reset
 tag @e[team=hostile,scores={GAMELEVEL=0..},tag=TEMP_ATK] remove TEMP_ATK
-

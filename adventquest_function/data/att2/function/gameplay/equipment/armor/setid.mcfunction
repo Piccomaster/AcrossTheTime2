@@ -4,4 +4,4 @@
 #############################################################
 
 #test setid
-$execute if score $(SetId_1) CAL = $(SetId_2) CAL if score $(SetId_1) CAL = $(SetId_3) CAL if score $(SetId_1) CAL = $(SetId_4) CAL run function att2:gameplay/equipment/effect/set/$(SetId_1)
+$execute if score SetId_1 ATTRIBUTE = SetId_2 ATTRIBUTE if score SetId_1 ATTRIBUTE = SetId_3 ATTRIBUTE if score SetId_1 ATTRIBUTE = SetId_4 ATTRIBUTE run function att2:gameplay/equipment/effect/set/$(SetId)

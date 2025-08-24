@@ -53,11 +53,11 @@ scoreboard players set auto_mending_esc_3 ENCHANTMENT_DATA 9
 scoreboard players set auto_mending_rune_3 ENCHANTMENT_DATA 900
 #backstab
 scoreboard players set backstab_esc_1 ENCHANTMENT_DATA 5
-scoreboard players set backstab_rune_1 ENCHANTMENT_DATA 300
-scoreboard players set backstab_esc_2 ENCHANTMENT_DATA 10
-scoreboard players set backstab_rune_2 ENCHANTMENT_DATA 600
-scoreboard players set backstab_esc_3 ENCHANTMENT_DATA 15
-scoreboard players set backstab_rune_3 ENCHANTMENT_DATA 900
+scoreboard players set backstab_rune_1 ENCHANTMENT_DATA 200
+scoreboard players set backstab_esc_2 ENCHANTMENT_DATA 8
+scoreboard players set backstab_rune_2 ENCHANTMENT_DATA 400
+scoreboard players set backstab_esc_3 ENCHANTMENT_DATA 12
+scoreboard players set backstab_rune_3 ENCHANTMENT_DATA 600
 #combohit
 scoreboard players set combohit_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set combohit_rune_1 ENCHANTMENT_DATA 100
@@ -215,18 +215,18 @@ scoreboard players set reinforce_rune_1 ENCHANTMENT_DATA 200
 scoreboard players set reinforce_esc_2 ENCHANTMENT_DATA 4
 scoreboard players set reinforce_rune_2 ENCHANTMENT_DATA 400
 scoreboard players set reinforce_esc_3 ENCHANTMENT_DATA 6
-scoreboard players set reinforce_esc_3 ENCHANTMENT_DATA 600
+scoreboard players set reinforce_rune_3 ENCHANTMENT_DATA 600
 scoreboard players set reinforce_esc_4 ENCHANTMENT_DATA 8
 scoreboard players set reinforce_rune_4 ENCHANTMENT_DATA 800
 scoreboard players set reinforce_esc_5 ENCHANTMENT_DATA 10
 scoreboard players set reinforce_rune_5 ENCHANTMENT_DATA 1000
 #runeharden
-scoreboard players set runeharden_esc_1 ENCHANTMENT_DATA 5
-scoreboard players set runeharden_rune_1 ENCHANTMENT_DATA 300
-scoreboard players set runeharden_esc_2 ENCHANTMENT_DATA 10
-scoreboard players set runeharden_rune_2 ENCHANTMENT_DATA 600
-scoreboard players set runeharden_esc_3 ENCHANTMENT_DATA 15
-scoreboard players set runeharden_rune_3 ENCHANTMENT_DATA 900
+scoreboard players set runeharden_esc_1 ENCHANTMENT_DATA 2
+scoreboard players set runeharden_rune_1 ENCHANTMENT_DATA 200
+scoreboard players set runeharden_esc_2 ENCHANTMENT_DATA 4
+scoreboard players set runeharden_rune_2 ENCHANTMENT_DATA 400
+scoreboard players set runeharden_esc_3 ENCHANTMENT_DATA 8
+scoreboard players set runeharden_rune_3 ENCHANTMENT_DATA 600
 #selflessaid
 scoreboard players set selflessaid_esc_1 ENCHANTMENT_DATA 2
 scoreboard players set selflessaid_rune_1 ENCHANTMENT_DATA 200

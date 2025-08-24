@@ -5,6 +5,15 @@
 
 function att2:sound/shop/repair_effect
 
+##add count
+execute if entity @s[predicate=att2_pre:test_hold/rarity/offhand/com] run function att2:gameplay/shop/mending/tools/add_smith_leveling_com
+execute if entity @s[predicate=att2_pre:test_hold/rarity/offhand/unc] run function att2:gameplay/shop/mending/tools/add_smith_leveling_unc
+execute if entity @s[predicate=att2_pre:test_hold/rarity/offhand/rar] run function att2:gameplay/shop/mending/tools/add_smith_leveling_rar
+execute if entity @s[predicate=att2_pre:test_hold/rarity/offhand/epi_esc] run function att2:gameplay/shop/mending/tools/add_smith_leveling_epi_esc
+execute if entity @s[predicate=att2_pre:test_hold/rarity/offhand/epi] run function att2:gameplay/shop/mending/tools/add_smith_leveling_epi
+execute if entity @s[predicate=att2_pre:test_hold/rarity/offhand/leg] run function att2:gameplay/shop/mending/tools/add_smith_leveling_leg
+execute if entity @s[predicate=att2_pre:test_hold/rarity/offhand/ult] run function att2:gameplay/shop/mending/tools/add_smith_leveling_ult
+
 ### Melee Weapon
 # com
 item modify entity @s[predicate=att2_pre:test_hold/equipment/offhand,predicate=att2_pre:test_hold/rarity/offhand/com,predicate=att2_pre:test_hold/rarity/manufacturer/offhand/teran] weapon.offhand att2:mending/level3/weapon/com/teran

@@ -14,4 +14,4 @@ execute as @s run function att2:gameplay/dahal/action/spell11/damage_cal
 execute store result storage att2:sp_dmg owner int 1 run scoreboard players get @s NUMEROJOUEUR
 execute as @e[distance=..3,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell11/damage with storage att2:sp_dmg
 #reset dahal burst score
-scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST 0
+scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1

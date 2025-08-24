@@ -43,6 +43,8 @@ execute store result score HUN ATTRIBUTE run data get entity @s equipment.chest.
 #return HUN number
 scoreboard players operation @s HUN_EQ += HUN ATTRIBUTE
 
-#get armor set number
-data remove storage att2:setid SetId_2
-data modify storage att2:setid SetId_2 set from entity @s equipment.chest.components."minecraft:custom_data".SetId
+#get armor set number4
+scoreboard players reset SetId_2 ATTRIBUTE
+execute store result score SetId_2 ATTRIBUTE run data get entity @s equipment.chest.components."minecraft:custom_data".SetId
+#data remove storage att2:setid SetId_2
+#data modify storage att2:setid SetId_2 set from entity @s equipment.chest.components."minecraft:custom_data".SetId

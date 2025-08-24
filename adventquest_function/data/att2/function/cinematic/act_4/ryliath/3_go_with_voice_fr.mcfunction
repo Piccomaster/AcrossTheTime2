@@ -14,7 +14,7 @@ execute if score Real0 TIMER matches 350 run function att2:dialogs/mainquest/act
 execute if score Real0 TIMER matches 350 run function att2:voice/adrian/adrian6
 execute if score Real0 TIMER matches 450 run function att2:dialogs/mainquest/act_4/ch3_player_2
 execute if score Real0 TIMER matches 500 run function att2:physicmod/reg1/ryliath_palace3
-execute if score Real0 TIMER matches 500 as 00000000-0000-084a-0000-00000000084a at @s run teleport @s ~ ~ ~ 180 0
+execute if score Real0 TIMER matches 500 as 00000000-0000-084a-0000-00000000084a at @s run rotate @s 180 0
 execute if score Real0 TIMER matches 501 run scoreboard players set Mainquest SIDEQUEST 121
 
 

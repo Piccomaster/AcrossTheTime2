@@ -12,3 +12,7 @@ execute if entity @a[advancements={att2_test:healthbar/trigger=true}] run functi
 
 ##Decreased ambulatory blood volume values
 execute as @e[type=text_display,scores={HP_DIS_TIMER=1..},tag=HP_BAR,tag=VALUE] at @s run function att2:gameplay/healthbar/hp_dis/reduce_hp
+
+##1time
+execute if score tic TIMECOUNTER matches 7 as @e[type=#minecraft:display_entity,tag=HP_BAR,predicate=!att2_pre:has_vehicle] at @s run kill @s
+execute if score tic TIMECOUNTER matches 17 as @e[type=#minecraft:display_entity,tag=HP_BAR,predicate=!att2_pre:has_vehicle] at @s run kill @s

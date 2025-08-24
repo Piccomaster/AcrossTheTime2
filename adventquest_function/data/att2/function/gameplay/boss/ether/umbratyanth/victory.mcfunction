@@ -21,3 +21,6 @@ execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2
 execute if score level DIFFICULTY matches 2.. run advancement grant @a only att2:hunting/umbratyanth_nightmare
 ##boss_time over
 function att2:gameplay/boss/ether/umbratyanth/time/time_over
+
+##remove jump limit
+execute as @a run attribute @s jump_strength modifier remove umbratyanth_limit

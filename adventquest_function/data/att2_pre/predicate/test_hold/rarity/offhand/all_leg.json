@@ -3,11 +3,11 @@
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "att2_pre:test_hold/rarity/mainhand/leg"
+            "name": "att2_pre:test_hold/rarity/offhand/leg"
         },
         {
             "condition": "minecraft:reference",
-            "name": "att2_pre:test_hold/rarity/mainhand/leg_armset"
+            "name": "att2_pre:test_hold/rarity/offhand/leg_armset"
         }
     ]
 }
