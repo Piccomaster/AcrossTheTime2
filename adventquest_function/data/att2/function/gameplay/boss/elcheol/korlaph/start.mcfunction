@@ -14,3 +14,4 @@ execute positioned -5105 163 -6756 run function att2:summon/reg_1/korlaph
 effect give 00000000-0000-004c-0000-00000000004c minecraft:instant_damage 1 10 true
 function att2:gameplay/boss/elcheol/korlaph/summoning_minion
 function att2:gameplay/boss/elcheol/korlaph/init_bossbar
+execute in overworld as @a[x=-5111,y=169,z=-6757,distance=..100] run function att2:gameplay/checkpoint/telluron_present/elcheol3

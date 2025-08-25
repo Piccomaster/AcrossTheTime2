@@ -3,6 +3,10 @@
 #Geyser lvl1													#
 #################################################################
 
+##clear
+execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
+function att2:gameplay/dahal/action/spell7/kill with storage att2:numerojoueur
+
 execute as @a[distance=..15] at @s run function att2:sound/dahal/spell7_effect
 function att2:gameplay/dahal/action/spell7/summon_positionkeeper
 function att2:gameplay/dahal/action/spell7/finalize_positionkeeper

@@ -20,6 +20,7 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq22/omeryn_whi
 xp add @a 1500 points
 scoreboard players add @a CHRONOTON 100
 tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+100 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+function att2:physicmod/reg1/plain_omeryn_white_door
 
 advancement grant @a only att2:quest/sq22
 #return 1->make command block runing

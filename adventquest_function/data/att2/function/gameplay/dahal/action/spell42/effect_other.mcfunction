@@ -14,6 +14,6 @@ execute if score @a[distance=..0,limit=1] SPELL42_SLCT matches 8 run effect give
 execute if score @a[distance=..0,limit=1] SPELL42_SLCT matches 9 run effect give @s minecraft:instant_health 1 8 true
 execute if score @a[distance=..0,limit=1] SPELL42_SLCT matches 10 run effect give @s minecraft:instant_health 1 9 true
 
-execute at @s run particle minecraft:dust{color:[0.95,0.11,0.23],scale:1} ~ ~ ~ 1.0 0.1 1.0 1 10 normal
-execute at @s run particle minecraft:dust{color:[0.95,0.11,0.23],scale:1} ~ ~ ~ 0.2 0.1 0.2 1 10 normal
-execute at @s run particle minecraft:crimson_spore ~ ~ ~ 0.2 0.1 0.2 1 10 normal
+execute at @s run particle minecraft:dust{color:[0.95,0.11,0.23],scale:1} ~ ~1 ~ 1.0 0.1 1.0 1 20 normal
+execute at @s run particle minecraft:dust{color:[0.95,0.11,0.23],scale:1} ~ ~1 ~ 0.2 0.1 0.2 1 20 normal
+execute at @s run particle minecraft:crimson_spore ~ ~1 ~ 0.2 0.1 0.2 1 20 normal

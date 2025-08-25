@@ -3,5 +3,9 @@
 #Buying trigger enhancement                                     #
 #################################################################
 
+
+execute if score BonusPowerSpell10 ENHANCEMENT matches 5.. run function att2:dialogs/gameplay/dahal/enhancement/level_max
 execute if score BonusPowerSpell10 ENHANCEMENT matches ..4 run function att2:gameplay/dahal/enhancement/spell10/trigger_runepowder
-execute if score BonusPowerSpell10 ENHANCEMENT matches 5.. run function att2:dialogs/gameplay/enhancement/level_max
+
+##test advancements
+function att2:advancement/test_all/spell/enhancement

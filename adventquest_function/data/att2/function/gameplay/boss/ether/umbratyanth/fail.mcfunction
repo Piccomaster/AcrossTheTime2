@@ -15,3 +15,4 @@ execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq46/system_1
 ##bosstime reset
 function att2:gameplay/boss/ether/umbratyanth/time/fail
+execute as @a run attribute @s jump_strength modifier remove umbratyanth_limit

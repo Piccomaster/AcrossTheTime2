@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.speedsave"},
-        "description": {"translate":"att2.advancement.enchantments.description.speedsave"},
+        "title": {"translate":"att2.advancement.enchantments.title.speedsave_max"},
+        "description": {"translate":"att2.advancement.enchantments.description.speedsave_max"},
         "frame": "challenge"
     },
     "parent": "att2:enchantments/speedsave",

@@ -224,7 +224,10 @@
 - **Boss** 
   - Standardization and reduction of certain rewards in **master difficulty**
   - Increase of **Doom** resistance.
+  - **Umbratyanth Phase 1**: Spider attacks now deal magic damage
 
+- **Combo system**
+  - Experience rewards now scale more smoothly
 - **Mimic Chest Adjustments**
   - Reduced spawn rate
   - Added appearance tips

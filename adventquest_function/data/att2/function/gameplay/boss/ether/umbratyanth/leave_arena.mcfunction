@@ -15,4 +15,4 @@ function att2:gameplay/boss/ether/umbratyanth/destroy_minions
 function att2:gameplay/boss/ether/umbratyanth/time/fail
 
 tp @a[x=-5158,y=120,z=-6911,dx=82,dy=30,dz=82] -5072 171 -6660
-function att2:gameplay/checkpoint/telluron_present/elcheol1
+function att2:gameplay/checkpoint/telluron_present/elcheol3

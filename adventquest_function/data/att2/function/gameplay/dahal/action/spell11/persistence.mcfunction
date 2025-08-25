@@ -47,8 +47,9 @@ execute as @s[scores={SPELL11_CAP=8}] run scoreboard players operation @s SPELL1
 execute as @s[scores={SPELL11_CAP=9}] run scoreboard players operation @s SPELL11_OP -= cap10 SPELL11_LVL
 execute as @s[scores={SPELL11_CAP=10}] run scoreboard players set @s SPELL11_OP -1
 
-execute as @s[scores={SPELL11_OP=0..}] run function att2:gameplay/dahal/action/spell11/lvlup
+
 execute as @s[scores={SPELL11_OP=0..}] run scoreboard players add @s SPELL11_CAP 1
+execute as @s[scores={SPELL11_OP=0..}] run function att2:gameplay/dahal/action/spell11/lvlup
 scoreboard players set @s SPELL11_OP -1
 
 # Managing corruption ambiance (sound)

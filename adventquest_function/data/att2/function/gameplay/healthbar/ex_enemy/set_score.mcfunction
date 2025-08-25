@@ -5,7 +5,7 @@
 
 
 #set CLASSLEVEL
-scoreboard players set @s CLASSLEVEL 7
+scoreboard players set @s CLASSLEVEL 1
 #set CLASSLEVEL
 scoreboard players set atk_damage CAL 0
 #join team

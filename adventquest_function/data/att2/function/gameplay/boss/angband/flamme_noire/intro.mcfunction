@@ -16,7 +16,7 @@ execute if score FlammeNoire ANGOR_BOSS matches 101..200 in minecraft:the_nether
 execute if score FlammeNoire ANGOR_BOSS matches 100 as @a[scores={DIMENSION=6}] run function att2:gameplay/boss/angband/flamme_noire/display_title
 execute if score FlammeNoire ANGOR_BOSS matches 11..100 in minecraft:the_nether as @a[scores={DIMENSION=6}] run tp @s 3497 72 4902 -30 20
 execute if score FlammeNoire ANGOR_BOSS matches 10 as @a[scores={DIMENSION=6}] run function att2:gameplay/speceffect/disincarnate/end
-execute if score FlammeNoire ANGOR_BOSS matches 10 as @a[scores={DIMENSION=6},x=3518,y=41,z=4678,distance=..100] run function att2:gameplay/checkpoint/angband/flamme_noire1
+execute if score FlammeNoire ANGOR_BOSS matches 10 as @a[scores={DIMENSION=6}] run function att2:gameplay/checkpoint/angband/flamme_noire1
 execute if score FlammeNoire ANGOR_BOSS matches 7 run tag @a add CheckpointFN
 execute if score FlammeNoire ANGOR_BOSS matches 5 in minecraft:the_nether positioned 3514.0 41.5 4927 run function att2:summon/reg_2/flamme_noire
 execute if score FlammeNoire ANGOR_BOSS matches 5 run function att2:gameplay/boss/angband/flamme_noire/init_bossbar

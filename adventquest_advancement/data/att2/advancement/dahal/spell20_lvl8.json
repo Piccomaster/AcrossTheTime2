@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.dahal.title.spell20_lvl5"},
-        "description": {"translate":"att2.advancement.dahal.description.spell20_lvl5"},
+        "title": {"translate":"att2.advancement.dahal.title.spell20_lvl8"},
+        "description": {"translate":"att2.advancement.dahal.description.spell20_lvl8"},
         "frame": "goal"
     },
     "parent": "att2:dahal/spell20_lvl3",
@@ -13,7 +13,7 @@
         "experience": 1000
                 },
     "criteria": {
-        "spell20_lvl5": {
+        "spell20_lvl8": {
             "trigger": "minecraft:impossible"
         }
     }

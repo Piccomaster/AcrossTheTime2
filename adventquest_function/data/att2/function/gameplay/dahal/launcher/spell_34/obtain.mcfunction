@@ -5,7 +5,7 @@
 
 #clear
 clear @s minecraft:enchanted_book[custom_model_data={floats:[34]},custom_data={Dahal:"launcher",Spell:"spell34"}]
-clear @s minecraft:written_book[custom_data={Rarity:"myt",Dahal:"book",Spell:"spell34"}]
+clear @s minecraft:written_book[custom_data={Rarity:"myt",Dahal:"book",Spell:"spell34",EquipmentID:"secretseeker"}]
 
 #make score
 execute unless score @s SPELL34_SLCT matches 1.. run scoreboard players set @s SPELL34_SLCT 1

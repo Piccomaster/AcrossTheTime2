@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.enchantmentsburst"},
-        "description": {"translate":"att2.advancement.enchantments.description.enchantmentsburst"},
+        "title": {"translate":"att2.advancement.enchantments.title.dahalburst"},
+        "description": {"translate":"att2.advancement.enchantments.description.dahalburst"},
         "frame": "goal"
     },
     "parent": "att2:enchantments/root",

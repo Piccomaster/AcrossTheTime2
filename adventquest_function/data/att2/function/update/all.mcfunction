@@ -767,3 +767,15 @@ execute in overworld positioned -5521 133 -6324 run data merge block ~ ~ ~ {Loot
 
 ##fix billgart chest
 execute in the_end positioned -1224 91 -533 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg3/c5t5"}
+
+##fix billgart wall
+execute in the_end positioned -1237 118 -487 run setblock ~ ~ ~ purpur_stairs[facing=south,half=top]
+execute in the_end positioned -1237 117 -487 run setblock ~ ~ ~ purpur_stairs[facing=south,half=bottom]
+
+execute in the_end positioned -1241 118 -487 run setblock ~ ~ ~ purpur_stairs[facing=south,half=top]
+execute in the_end positioned -1241 117 -487 run setblock ~ ~ ~ purpur_stairs[facing=south,half=bottom]
+
+##fix UmbraTyanth
+execute in overworld positioned -5112 160 -6739 run item replace block ~ ~ ~ container.0 with minecraft:quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'},custom_name={translate:'item.coin.esc.name'},lore=[{translate:'item.coin.esc.lore.1'},{translate:'item.coin.esc.lore.2'}],max_stack_size=99,tooltip_style="minecraft:rarity/epi_esc/epi_esc"]
+
+execute in overworld positioned -5112 159 -6739 run item replace block ~ ~ ~ container.0 with minecraft:quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'},custom_name={translate:'item.coin.esc.name'},lore=[{translate:'item.coin.esc.lore.1'},{translate:'item.coin.esc.lore.2'}],max_stack_size=99,tooltip_style="minecraft:rarity/epi_esc/epi_esc"]

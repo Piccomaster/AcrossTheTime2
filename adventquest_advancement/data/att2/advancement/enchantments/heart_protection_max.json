@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.heart_protection"},
-        "description": {"translate":"att2.advancement.enchantments.description.heart_protection"},
+        "title": {"translate":"att2.advancement.enchantments.title.heart_protection_max"},
+        "description": {"translate":"att2.advancement.enchantments.description.heart_protection_max"},
         "frame": "challenge"
     },
     "parent": "att2:enchantments/heart_protection",

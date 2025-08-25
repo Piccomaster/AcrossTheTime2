@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:enchanted_book"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.reinforce"},
-        "description": {"translate":"att2.advancement.enchantments.description.reinforce"},
+        "title": {"translate":"att2.advancement.enchantments.title.reinforce_max"},
+        "description": {"translate":"att2.advancement.enchantments.description.reinforce_max"},
         "frame": "challenge"
     },
     "parent": "att2:enchantments/reinforce",

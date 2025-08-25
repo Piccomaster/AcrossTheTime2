@@ -141,7 +141,7 @@ execute store result score leg_potion_count RUNECOUNT if entity @s[predicate=att
 execute if entity @s[predicate=att2_pre:item_color/leg,predicate=att2_pre:item_color/potion] run scoreboard players operation leg_potion RUNECOUNT += leg_potion_count RUNECOUNT
 #total_leg
 execute store result score leg_count RUNECOUNT if entity @s[predicate=att2_pre:item_color/leg,predicate=!att2_pre:item_color/runewords,predicate=!att2_pre:item_color/potion] run data get entity @s Item.count
-execute if entity @s[predicate=att2_pre:item_color/leg,predicate=!att2_pre:item_color/runewords] run scoreboard players operation leg RUNECOUNT += leg_count RUNECOUNT
+execute if entity @s[predicate=att2_pre:item_color/leg,predicate=!att2_pre:item_color/runewords,predicate=!att2_pre:item_color/potion] run scoreboard players operation leg RUNECOUNT += leg_count RUNECOUNT
 #leg_armset
 execute if entity @s[predicate=att2_pre:item_color/leg_armset] run scoreboard players add leg_set RUNECOUNT 1
 execute if entity @s[predicate=att2_pre:item_color/leg_armset] run scoreboard players add leg RUNECOUNT 1

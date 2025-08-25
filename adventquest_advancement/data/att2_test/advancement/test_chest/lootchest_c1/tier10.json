@@ -1,17 +1,7 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:chest"
-        },
-        "title": {"translate":"C1 Tier 10 Trigger"},
-        "description": {"translate":"TEST"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:advancement/test_all/treasure/chest/lootchest_c1/tier10"
-            },
+    },
     "criteria": {
         "lootchest_reg1c1t10_trigger": {
             "trigger": "minecraft:player_generates_container_loot",

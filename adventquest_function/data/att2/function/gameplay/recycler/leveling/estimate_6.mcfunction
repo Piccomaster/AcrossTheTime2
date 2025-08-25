@@ -4,7 +4,7 @@
 #############################################################
 
 scoreboard players operation arrow RECYCLER *= 1 RECYCLER
-scoreboard players operation misc RECYCLER *= 2 RECYCLER
+scoreboard players operation misc RECYCLER *= 1 RECYCLER
 scoreboard players operation com RECYCLER *= 25 RECYCLER
 scoreboard players operation unc RECYCLER *= 50 RECYCLER
 scoreboard players operation rar RECYCLER *= 75 RECYCLER

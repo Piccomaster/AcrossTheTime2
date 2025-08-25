@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"att2.advancement.progress.title.enchantments_100"},
+        "description": {"translate":"att2.advancement.progress.description.enchantments_100"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/enchantments_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 2500
+                },
+    "criteria": {
+        "enchantments_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

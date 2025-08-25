@@ -35,10 +35,10 @@ execute if score @s RES_TOT matches 4.. run advancement grant @s only att2:comba
 execute if score @s RES_TOT matches 6.. run advancement grant @s only att2:combat/res_6
 execute if score @s RES_TOT matches 8.. run advancement grant @s only att2:combat/res_8
 # SPD
-execute if score @s SPD_TOT matches 8.. run advancement grant @s only att2:combat/spd_2
-execute if score @s SPD_TOT matches 8.. run advancement grant @s only att2:combat/spd_6
-execute if score @s SPD_TOT matches 8.. run advancement grant @s only att2:combat/spd_12
-execute if score @s SPD_TOT matches 8.. run advancement grant @s only att2:combat/spd_20
+execute if score @s SPD_TOT matches 2.. run advancement grant @s only att2:combat/spd_2
+execute if score @s SPD_TOT matches 6.. run advancement grant @s only att2:combat/spd_6
+execute if score @s SPD_TOT matches 12.. run advancement grant @s only att2:combat/spd_12
+execute if score @s SPD_TOT matches 20.. run advancement grant @s only att2:combat/spd_20
 # STR
 execute if score @s STR_TOT matches 2.. run advancement grant @s only att2:combat/str_2
 execute if score @s STR_TOT matches 6.. run advancement grant @s only att2:combat/str_6

@@ -4,7 +4,7 @@
 #############################################################
 
 #main
-execute in overworld positioned 5000 97 -5000 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"function att2:gameplay/arena/go",auto:1}
+execute in overworld positioned 5000 97 -5000 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score SQ59 SIDEQUEST matches 19.. run function att2:gameplay/arena/go",auto:1}
 execute in overworld positioned 754 86 733 unless block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:air
 
 execute in overworld positioned 5000 97 -5000 run forceload add ~ ~

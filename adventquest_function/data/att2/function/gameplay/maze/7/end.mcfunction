@@ -18,4 +18,4 @@ function att2:physicmod/reg1/maze/stone_pressure_reset
 
 scoreboard players set achieved MAZE 7
 advancement grant @a only att2:challenge/maze_7
-execute in minecraft:overworld run spawnpoint @a -9545 71 -10441
+execute in minecraft:overworld run spawnpoint @a[scores={DIMENSION=-3}] -9545 71 -10441

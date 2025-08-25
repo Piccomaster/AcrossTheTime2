@@ -8,7 +8,7 @@
         "components": {
           "minecraft:use_cooldown": {
             "cooldown_group": "spell0",
-            "seconds": 0.01
+            "seconds": 0.3
           }
         }
       }

@@ -11,3 +11,6 @@ scoreboard players add MiningCount_b RUNE 1
 scoreboard players add MiningCountTotal RUNE 1
 
 advancement grant @a only att2:treasure/mining_runic_medium
+
+##spell34 clear
+function att2:gameplay/dahal/action/spell34/clear_minerals_runes_marker

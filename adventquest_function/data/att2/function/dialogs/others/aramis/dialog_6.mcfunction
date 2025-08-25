@@ -61,6 +61,5 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","ext
 
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"你对这个新家满意吗?—不用说客套话...因为这里天气恶劣，不少人想离开这座城市...","color":"dark_aqua"}]}
-tellraw @s[scores={LANGUAGE=11}] {"text":" °-° Aramis ：","color":"green","extra":[{"text":"如果你想強化某些 Dahäl 咒語，請拿一些符文粉給我，我會幫你處理。","color":"dark_aqua","extra":[{"text":" [查看商品 -->]","color":"yellow","click_event":{"action":"run_command","command":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hover_event":{"action":"show_text","value":"點擊這裡查看 Aramis 販售的物品。"}}]}]}
 
 function att2:dialogs/others/aramis/enhancement_proposal

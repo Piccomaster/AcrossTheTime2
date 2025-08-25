@@ -6,6 +6,7 @@
 scoreboard objectives add UMBRATYANTH dummy
 scoreboard objectives add LIFE_EXPECTANCY dummy
 scoreboard objectives add statATTACK dummy
+scoreboard objectives add Phase1Attack dummy
 
 scoreboard players set EnterArena UMBRATYANTH 0
 scoreboard players set ESC UMBRATYANTH 0

@@ -13,7 +13,7 @@ function att2:gameplay/boss/ether/umbratyanth/destroy_minions
 execute positioned -5117 142 -6870 run function att2:summon/reg_1/umbratyanth
 execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1b}
 function att2:gameplay/boss/ether/umbratyanth/init_bossbar
-function att2:gameplay/checkpoint/telluron_present/elcheol3
+execute as @a[x=-5112,y=161,z=-6739,distance=..100,gamemode=adventure] run function att2:gameplay/checkpoint/telluron_present/elcheol3
 function att2:physicmod/reg1/ether/umbra_dark
 function att2:physicmod/reg1/ether/umbra_lightcenter_big
 execute positioned -5117 121 -6870 run function att2:summon/reg_1/umbratyanth_truelight

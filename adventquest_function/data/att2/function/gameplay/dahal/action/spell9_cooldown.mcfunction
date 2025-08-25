@@ -13,7 +13,7 @@ scoreboard players reset COOLDOWN CAL
 
 #if cooldown not over and not hold spell lancher -> stop
 execute unless predicate att2_pre:dahal/hand/spell_9 run return 0
-execute if score @s COOLDOWN9 matches 1.. run function att2:dialogs/gameplay/dahal/remain/spell9
+execute if score @s COOLDOWN9 matches 1.. if score tic TIMECOUNTER matches 7 if predicate att2_pre:dahal/main/spell_9 run function att2:dialogs/gameplay/dahal/remain/spell9
 execute if score @s COOLDOWN9 matches 1.. run return 0
 
 #test dahal enough

@@ -10,4 +10,4 @@ execute as @e[distance=..2,scores={GAMELEVEL=0..},team=hostile] run data merge e
 execute as @e[distance=..2,scores={GAMELEVEL=0..},team=hostile] run effect give @s minecraft:weakness 5 1
 execute if entity @a[tag=fireMelting] run function att2:gameplay/dahal/action/spell1/enable_fire_melting
 
-execute as @e[distance=..2,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell2/damage with storage att2:sp_dmg
+execute as @e[distance=..2,scores={GAMELEVEL=0..},team=hostile,tag=!SP2_ATKED,type=!bat] run function att2:gameplay/dahal/action/spell2/damage with storage att2:sp_dmg

@@ -3,10 +3,6 @@
 #Level and Cooldown	for Tiid Klo Ul 							#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-
 scoreboard players operation @s[scores={SPELL9_CAP=1}] COOLDOWN9 = lvl1 COOLDOWN9
 scoreboard players operation @s[scores={SPELL9_CAP=2}] COOLDOWN9 = lvl2 COOLDOWN9
 scoreboard players operation @s[scores={SPELL9_CAP=3}] COOLDOWN9 = lvl3 COOLDOWN9

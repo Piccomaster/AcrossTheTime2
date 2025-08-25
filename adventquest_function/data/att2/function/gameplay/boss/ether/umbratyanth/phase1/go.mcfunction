@@ -35,3 +35,6 @@ execute if score Boss UMBRATYANTH matches 1 if score Attack UMBRATYANTH matches 
 
 # End phase1 cinematic
 execute if score Boss UMBRATYANTH matches 2 if score Timer4 UMBRATYANTH matches 1.. run function att2:gameplay/boss/ether/umbratyanth/phase1/end_cinematic_launching
+
+#Phase1Attack
+execute as @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] at @s if entity @e[type=minecraft:spider,tag=UmbraMinion,distance=..1.5] run function att2:gameplay/boss/ether/umbratyanth/phase1/spider_attack
