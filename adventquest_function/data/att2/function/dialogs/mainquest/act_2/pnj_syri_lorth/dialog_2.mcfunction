@@ -15,7 +15,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @s[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"You are Syri, aren't you? Your mother advised me to come and see you, I would like to ask you for a favor...","color":"aqua"}]}
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"My mother? Ah... You are the traveller in need of the thrills my mother told me about! The sea is particularly rough at this time of year, and I have just returned from a long journey. Convincing my crew to leave just for your beautiful eyes seems rather complicated to me. Unless you put the price on it? 1000 Chronotons... not, 500 Chronotons will have to do the trick because you are a friend of Indra after all.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"My mother? Ah... You are the traveller in need of the thrills my mother told me about! The sea is particularly rough at this time of year, and I have just returned from a long journey. Convincing my crew to leave just for your beautiful eyes seems rather complicated to me. Unless you put the price on it? 1000 Chronotons... no, 500 Chronotons will have to do the trick because you are a friend of Indra after all.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
