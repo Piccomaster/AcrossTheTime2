@@ -20,3 +20,6 @@ execute if score number MAZE matches 4 as @a[scores={DIMENSION=-3}] at @s run fu
 execute if score number MAZE matches 5 as @a[scores={DIMENSION=-3}] at @s run function att2:dialogs/gameplay/maze/waypoint/5
 execute if score number MAZE matches 6 as @a[scores={DIMENSION=-3}] at @s run function att2:dialogs/gameplay/maze/waypoint/6
 execute if score number MAZE matches 7 as @a[scores={DIMENSION=-3}] at @s run function att2:dialogs/gameplay/maze/waypoint/7
+
+##test maze waypoint
+function att2:advancement/test_all/challenge/maze/waypoint

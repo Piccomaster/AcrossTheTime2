@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:turtle_scute"
         },
-        "title": {"translate":"Exorcist"},
-        "description": {"translate":"Catch 100 Lost Souls"},
+        "title": {"translate":"att2.advancement.treasure.title.fairy_100"},
+        "description": {"translate":"att2.advancement.treasure.description.fairy_100"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/fairy_50",

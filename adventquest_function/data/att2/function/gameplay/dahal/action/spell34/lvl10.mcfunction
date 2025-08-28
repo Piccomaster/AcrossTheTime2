@@ -20,6 +20,8 @@ execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spel
 execute as @s[scores={DIMENSION=4..5}] run function att2:gameplay/dahal/action/spell34/detection/ouranos
 execute as @s[scores={DIMENSION=6}] run function att2:gameplay/dahal/action/spell34/detection/angband
 execute as @s[scores={DIMENSION=7}] run function att2:gameplay/dahal/action/spell34/detection/billgart
+##maze
+execute as @s[scores={DIMENSION=-3}] run function att2:gameplay/dahal/action/spell34/detection/maze_select
 
 team join detect_quest @e[type=minecraft:shulker,tag=questmarker]
 team join detect_npc @e[type=minecraft:shulker,tag=npcmarker]

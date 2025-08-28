@@ -3,6 +3,8 @@
 #Initialize resistance                           #
 ##################################################
 
+scoreboard objectives add RES_DETECTION minecraft.custom:minecraft.damage_resisted
+
 scoreboard objectives add RES dummy
 scoreboard players set @s RES 0
 

@@ -7,7 +7,7 @@
             "translate": "att2.advancement.journey.title.discover_vonaheim"
         },
         "description": {
-            "translate": "att2.advancement.journey.ZZZ.discover_vonaheim"
+            "translate": "att2.advancement.journey.description.discover_vonaheim"
         }
     },
     "parent": "att2:journey/discover_eolorion",
