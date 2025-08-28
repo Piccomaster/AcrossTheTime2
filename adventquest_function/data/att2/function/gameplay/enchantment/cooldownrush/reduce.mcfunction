@@ -3,7 +3,7 @@
 #Initialize enchantment                    						#
 #################################################################
 
-$attribute @s minecraft:max_health modifier add cooldownrush_hpreduce $(hpreduce) add_value
+$attribute @s minecraft:max_health modifier add cooldownrush_hpreduce $(hpreduce) add_multiplied_total
 effect give @s minecraft:instant_health 1 255 true
 effect clear @s minecraft:instant_health
 attribute @s minecraft:max_health modifier remove cooldownrush_hpreduce

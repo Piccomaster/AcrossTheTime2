@@ -9,7 +9,7 @@ scoreboard objectives add ENCHANTMENT_ADVANCMENT dummy
 
 
 scoreboard objectives add TOTEM dummy
-scoreboard objectives add HEART_PROTECTION minecraft.custom:minecraft.damage_resisted
+#scoreboard objectives add HEART_PROTECTION minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add BACKSTAB dummy
 scoreboard objectives add BACKSTAB_STAT dummy
 scoreboard objectives add SPEARTOSS dummy

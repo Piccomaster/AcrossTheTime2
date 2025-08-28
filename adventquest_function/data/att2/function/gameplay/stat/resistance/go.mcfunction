@@ -7,4 +7,5 @@
 function att2:gameplay/stat/resistance/effect
 #timer management
 function att2:gameplay/stat/resistance/timer
-
+##cal Health
+function att2:gameplay/stat/resistance/detection/go

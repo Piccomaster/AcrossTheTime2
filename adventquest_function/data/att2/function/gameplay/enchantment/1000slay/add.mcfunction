@@ -21,7 +21,8 @@ scoreboard players operation temp_value_3 CAL = temp_value_2 CAL
 scoreboard players operation temp_value_3 CAL %= 5 CAL
 execute unless score temp_value_3 CAL matches 0 run scoreboard players add temp_value_2 CAL 1
 #limit
-execute if score temp_value_2 CAL matches 500000.. run scoreboard players set temp_value_2 CAL 500000
+execute if score temp_value_2 CAL matches 5000.. run scoreboard players set temp_value_2 CAL 5000
+#tellraw @a {"score":{"name":"temp_value_2","objective":"CAL"}}
 #store maco
 execute store result storage att2:temp 1000slay_attack_damage double 0.1 run scoreboard players get temp_value_1 CAL
 execute store result storage att2:temp 1000slay_max_health double 0.0001 run scoreboard players operation temp_value_2 CAL *= -1 CAL

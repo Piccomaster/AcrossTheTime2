@@ -28,11 +28,11 @@ function att2:gameplay/legendary/bloodeater/using/summon
 execute store result score temp_value_11 CAL run data get entity @s Health
 execute store result score temp_value_12 CAL run attribute @s max_health get
 #cal health reduce
-scoreboard players operation temp_value_11 CAL *= @s BE_USING
-scoreboard players operation temp_value_11 CAL /= 100 CAL
-scoreboard players operation temp_value_11 CAL -= temp_value_12 CAL
+scoreboard players operation temp_value_11 CAL *= 30 CAL
+scoreboard players operation temp_value_11 CAL /= temp_value_12 CAL
+scoreboard players operation temp_value_11 CAL -= 100 CAL
 #get score
-execute store result storage att2:bloodeater health int 1 run scoreboard players get temp_value_11 CAL
+execute store result storage att2:bloodeater health double 0.01 run scoreboard players get temp_value_11 CAL
 #remove health
 function att2:gameplay/legendary/bloodeater/using/health_reduce with storage att2:bloodeater
 
