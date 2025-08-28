@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_pigstep",
+            "components": {
+                "minecraft:enchantment_glint_override":true
+            }
+        },
+        "title": {"translate":"att2.advancement.challenge.title.maze_symbol_6"},
+        "description": {"translate":"att2.advancement.challenge.description.maze_symbol_6"},
+        "frame": "challenge"
+    },
+    "parent": "att2:challenge/maze_runic_chest_6",
+    "rewards": {
+        "experience": 60000
+                },
+    "criteria": {
+        "maze_symbol_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

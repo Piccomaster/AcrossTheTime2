@@ -8,3 +8,4 @@ execute if score Caught_total FAIRY matches 1.. run advancement grant @a only at
 execute if score Caught_total FAIRY matches 5.. run advancement grant @a only att2:treasure/fairy_5
 execute if score Caught_total FAIRY matches 20.. run advancement grant @a only att2:treasure/fairy_20
 execute if score Caught_total FAIRY matches 50.. run advancement grant @a only att2:treasure/fairy_50
+execute if score Caught_total FAIRY matches 100.. run advancement grant @a only att2:treasure/fairy_100
