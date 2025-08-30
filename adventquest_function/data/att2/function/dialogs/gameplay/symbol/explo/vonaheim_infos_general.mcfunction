@@ -3,7 +3,7 @@
 #Use function to process the System Symbol Info 			    #
 #################################################################
 
-tellraw @s {"text":"⚙ ","color":"dark_red","extra":[{"text":"Vonaheim : ","color":"gray"},{"score":{"name":"Vonaheim","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"41","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
+tellraw @s {text:"⚙ ",color:"dark_red",extra:[{text:"Vonaheim : ",color:"gray"},{score:{name:"Vonaheim",objective:"SYMBOL"},color:"red"},{text:"/",color:"gray"},{text:"41",color:"gold"},{text:" ⚙",color:"dark_red"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {"text":"⚙ ","color":"dark_red","extra":[{"text":"Vonaheim地牢 : ","color":"gray"},{"score":{"name":"Vonaheim","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"41","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {text:"⚙ ",color:"dark_red",extra:[{text:"Vonaheim地牢 : ",color:"gray"},{score:{name:"Vonaheim",objective:"SYMBOL"},color:"red"},{text:"/",color:"gray"},{text:"41",color:"gold"},{text:" ⚙",color:"dark_red"}]}

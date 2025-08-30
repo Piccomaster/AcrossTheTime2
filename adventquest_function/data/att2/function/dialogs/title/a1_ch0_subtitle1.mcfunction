@@ -4,4 +4,4 @@
 #############################################
 
 
-title @a subtitle {"text":"~~~~~~~~","color":"dark_red","bold":true}
+title @a subtitle {text:"~~~~~~~~",color:"dark_red","bold":true}

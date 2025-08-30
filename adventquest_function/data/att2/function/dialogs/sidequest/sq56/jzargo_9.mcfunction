@@ -5,4 +5,4 @@
 
 execute at @a run function att2:sound/dialogs/simple
 
-tellraw @a {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"A.BRA.HA.DA.BRA","obfuscated":true,"color":"black"}]}
+tellraw @a {text:" °-° J'zargo : ",color:"green",extra:[{text:"A.BRA.HA.DA.BRA","obfuscated":true,color:"black"}]}

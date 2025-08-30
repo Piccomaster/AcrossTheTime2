@@ -38,10 +38,10 @@ execute if score Sonar UMBRATYANTH matches 5 if score Boss UMBRATYANTH matches -
 execute if score Sonar UMBRATYANTH matches 10.. run scoreboard players set Sonar UMBRATYANTH 0
 
 # Fire effect immune
-execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider] run data merge entity @s {Fire:0}
-execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=minecraft:iron_golem] run data merge entity @s {Fire:0}
-execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=minecraft:skeleton,tag=UmbraElite] run data merge entity @s {Fire:0}
-execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=minecraft:squid] run data merge entity @s {Fire:0}
+#execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider] run data merge entity @s {Fire:0}
+#execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=minecraft:iron_golem] run data merge entity @s {Fire:0}
+#execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=minecraft:skeleton,tag=UmbraElite] run data merge entity @s {Fire:0}
+#execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=minecraft:squid] run data merge entity @s {Fire:0}
 
 # Teleportation when player go out of arena
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5117,y=121,z=-6870,distance=21..30,gamemode=adventure] at @s anchored feet facing entity @e[type=minecraft:silverfish,tag=ArenaCenter,limit=1] feet run function att2:gameplay/boss/ether/umbratyanth/arena_tp

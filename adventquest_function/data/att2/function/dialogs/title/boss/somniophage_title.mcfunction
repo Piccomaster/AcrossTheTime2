@@ -4,4 +4,4 @@
 #####################################################
 
 
-title @s title {"text":"   Somniophages   ","color":"dark_red","underlined":true}
+title @s title {text:"   Somniophages   ",color:"dark_red","underlined":true}

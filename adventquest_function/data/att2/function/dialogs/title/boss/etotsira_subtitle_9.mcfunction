@@ -6,4 +6,4 @@
 
 #FRENCH AND ENGLISH LANGUAGE
 
-title @s subtitle {"text":"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!","color":"gray","obfuscated":true}
+title @s subtitle {text:"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",color:"gray","obfuscated":true}

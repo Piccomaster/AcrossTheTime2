@@ -139,6 +139,8 @@
 
 - **Maze System Optimization**
 
+  - Now, the *Secret seeker* spell can reveal **all secrets** in the maze.
+
   - **New Item: Maze Torch**
   - *Acquisition* : Defeating monsters/open chests/Collecting symbol/waypoints
   - *Functionality*: Placeable path markers(Exclusive to maze use)
@@ -204,6 +206,8 @@
   - Removed level cap (previously 35)
   - Removed damage limit (previously 756 max)
   - Smoother scaling curve
+- **resistance attribute**:
+  - Now each point of defense provides 10% damage reduction
 
 - **empty hand Penalty** 
   - Now reduces **attack damage by 99%** (no longer reduces attack speed).  

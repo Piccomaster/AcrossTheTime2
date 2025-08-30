@@ -20,7 +20,7 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq29/ragnar_lor
 #REWARDS
 xp add @a 3500 points
 scoreboard players add @a CHRONOTON 250
-tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+250 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+250 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq29
 

@@ -3,7 +3,6 @@
 #End the effect of sastr                        #
 ##################################################
 
-
 #catch entity
 execute if score @s DAHAL matches 50.. as @e[distance=..6,team=hostile,scores={GAMELEVEL=0..},predicate=!att2_pre:unhurt,limit=1] at @s on attacker if entity @s[advancements={att2_test:legendary/sastr/attack_trigger=true}] as @e[distance=..0,limit=1,team=hostile,scores={GAMELEVEL=0..}] run tag @s add TEMP_ATK
 #atk select

@@ -7,53 +7,53 @@ execute at @s run function att2:sound/misc/enigma_progress
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"[Des rats gloutons]","color":"gold"}
+tellraw @s[scores={LANGUAGE=0}] {text:"[Des rats gloutons]",color:"gold"}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"[Gluttonous rats]","color":"gold"}
+tellraw @s[scores={LANGUAGE=1}] {text:"[Gluttonous rats]",color:"gold"}
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[貪吃的老鼠]","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {text:"[貪吃的老鼠]",color:"gold"}
 
 
 #JAPANESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=3}] {"text":"[大食いのネズミ]","color":"gold"}
+tellraw @s[scores={LANGUAGE=3}] {text:"[大食いのネズミ]",color:"gold"}
 
 #KOREAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=4}] {"text":"[대식하는 쥐들]","color":"gold"}
+tellraw @s[scores={LANGUAGE=4}] {text:"[대식하는 쥐들]",color:"gold"}
 
 #ARABIC LANGUAGE
 
-tellraw @s[scores={LANGUAGE=5}] {"text":"[الفئران الشرهة]","color":"gold"}
+tellraw @s[scores={LANGUAGE=5}] {text:"[الفئران الشرهة]",color:"gold"}
 
 #RUSSIAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=6}] {"text":"[Обжорливые крысы]","color":"gold"}
+tellraw @s[scores={LANGUAGE=6}] {text:"[Обжорливые крысы]",color:"gold"}
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"[Ratas glotonas]","color":"gold"}
+tellraw @s[scores={LANGUAGE=7}] {text:"[Ratas glotonas]",color:"gold"}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"[Gefräßige Ratten]","color":"gold"}
+tellraw @s[scores={LANGUAGE=8}] {text:"[Gefräßige Ratten]",color:"gold"}
 
 #HINDI LANGUAGE
 
-tellraw @s[scores={LANGUAGE=9}] {"text":"[पेटू चूहे]","color":"gold"}
+tellraw @s[scores={LANGUAGE=9}] {text:"[पेटू चूहे]",color:"gold"}
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"[Ratos glutões]","color":"gold"}
+tellraw @s[scores={LANGUAGE=10}] {text:"[Ratos glutões]",color:"gold"}
 
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {"text":"[贪吃的老鼠]","color":"gold"}
+tellraw @s[scores={LANGUAGE=11}] {text:"[贪吃的老鼠]",color:"gold"}
 
-tellraw @s {"text":"-<°>- : ","color":"gray","extra":[{"score":{"name":"KillCount","objective":"SQ23"},"color":"red"},{"text":" / ","color":"gray"},{"text":"15","color":"dark_green"}]}
+tellraw @s {text:"-<°>- : ",color:"gray",extra:[{score:{name:"KillCount",objective:"SQ23"},color:"red"},{text:" / ",color:"gray"},{text:"15",color:"dark_green"}]}

@@ -14,15 +14,15 @@ execute if score Neth0 TIMER matches 100 run scoreboard players set 00000000-000
 execute if score Neth0 TIMER matches 100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_TIMER 1500
 execute if score Neth0 TIMER matches 100 run function att2:dialogs/mainquest/act_3/ch6_namrin_1
 execute if score Neth0 TIMER matches 100 run function att2:voice/namrin/namrin27
-execute if score Neth0 TIMER matches 101 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 101..399 run scoreboard players set Neth0 TIMER 399"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 101 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 101..399 run scoreboard players set Neth0 TIMER 399"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 400 run function att2:dialogs/mainquest/act_3/ch6_namrin_2
 execute if score Neth0 TIMER matches 400 run function att2:voice/namrin/namrin28
-execute if score Neth0 TIMER matches 401 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 401..799 run scoreboard players set Neth0 TIMER 799"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 401 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 401..799 run scoreboard players set Neth0 TIMER 799"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 800 run function att2:dialogs/mainquest/act_3/ch6_player_2
-execute if score Neth0 TIMER matches 801 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 801..949 run scoreboard players set Neth0 TIMER 949"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 801 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 801..949 run scoreboard players set Neth0 TIMER 949"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 950 run function att2:dialogs/mainquest/act_3/ch6_namrin_3
 execute if score Neth0 TIMER matches 950 run function att2:voice/namrin/namrin29
-execute if score Neth0 TIMER matches 951 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 951..1099 run scoreboard players set Neth0 TIMER 1099"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 951 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 951..1099 run scoreboard players set Neth0 TIMER 1099"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 1100 run function att2:dialogs/mainquest/act_3/ch6_player_3
 execute if score Neth0 TIMER matches 1100 in minecraft:the_nether run tp 00000000-0000-008a-0000-00000000008a 3479 67 3758 -90 -20
 execute if score Neth0 TIMER matches 1101 in minecraft:the_nether as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing 3483 70.5 3758 run teleport @s ^ ^ ^0.05 ~ ~
@@ -31,30 +31,30 @@ execute if score Neth0 TIMER matches 1105 in minecraft:the_nether as 00000000-00
 execute if score Neth0 TIMER matches 1105..1200 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 1105 run function att2:dialogs/mainquest/act_3/ch6_etotsira_1
 execute if score Neth0 TIMER matches 1105 run function att2:voice/etotsira/etotsira33
-execute if score Neth0 TIMER matches 1106 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 1106..1249 run scoreboard players set Neth0 TIMER 1249"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 1106 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 1106..1249 run scoreboard players set Neth0 TIMER 1249"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 1250 run function att2:dialogs/mainquest/act_3/ch6_namrin_4
 execute if score Neth0 TIMER matches 1250 run function att2:voice/namrin/namrin30
-execute if score Neth0 TIMER matches 1251 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 1251..1549 run scoreboard players set Neth0 TIMER 1549"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 1251 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 1251..1549 run scoreboard players set Neth0 TIMER 1549"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 1550 run function att2:dialogs/mainquest/act_3/ch6_namrin_5
 execute if score Neth0 TIMER matches 1550 run function att2:voice/namrin/namrin31
-execute if score Neth0 TIMER matches 1551 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 1551..1699 run scoreboard players set Neth0 TIMER 1699"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 1551 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 1551..1699 run scoreboard players set Neth0 TIMER 1699"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 1700 run function att2:dialogs/mainquest/act_3/ch6_player_4
-execute if score Neth0 TIMER matches 1701 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 1701..1849 run scoreboard players set Neth0 TIMER 1849"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 1701 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 1701..1849 run scoreboard players set Neth0 TIMER 1849"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 1850 run function att2:dialogs/mainquest/act_3/ch6_namrin_6
 execute if score Neth0 TIMER matches 1850 run function att2:voice/namrin/namrin32
 execute if score Neth0 TIMER matches 1950 in minecraft:the_nether as @a[scores={DIMENSION=6}] run function att2:gameplay/dahal/action/spell40/obtain
 execute if score Neth0 TIMER matches 2000 run function att2:dialogs/mainquest/act_3/ch6_player_5
-execute if score Neth0 TIMER matches 2001 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 2001..2099 run scoreboard players set Neth0 TIMER 2099"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 2001 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 2001..2099 run scoreboard players set Neth0 TIMER 2099"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 2100 run function att2:dialogs/mainquest/act_3/ch6_player_6
-execute if score Neth0 TIMER matches 2101 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 2101..2299 run scoreboard players set Neth0 TIMER 2299"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 2101 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 2101..2299 run scoreboard players set Neth0 TIMER 2299"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 2300 run function att2:dialogs/mainquest/act_3/ch6_namrin_7
 execute if score Neth0 TIMER matches 2300 run function att2:voice/namrin/namrin33
-execute if score Neth0 TIMER matches 2301 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 2301..2349 run scoreboard players set Neth0 TIMER 2349"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 2301 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 2301..2349 run scoreboard players set Neth0 TIMER 2349"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 2350 run function att2:dialogs/mainquest/act_3/ch6_player_7
-execute if score Neth0 TIMER matches 2351 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 2351..2399 run scoreboard players set Neth0 TIMER 2399"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 2351 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 2351..2399 run scoreboard players set Neth0 TIMER 2399"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 2400 run function att2:dialogs/mainquest/act_3/ch6_namrin_8
 execute if score Neth0 TIMER matches 2400 run function att2:voice/namrin/namrin34
-execute if score Neth0 TIMER matches 2401 run tellraw @a {"text":"[-->]","color":"green","click_event":{"action":"run_command","command":"/execute if score Neth0 TIMER matches 2401..2499 run scoreboard players set Neth0 TIMER 2499"},"hover_event":{"action":"show_text","value":"..."}}
+execute if score Neth0 TIMER matches 2401 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Neth0 TIMER matches 2401..2499 run scoreboard players set Neth0 TIMER 2499"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 2500 run function att2:dialogs/mainquest/act_3/ch6_player_8
 execute if score Neth0 TIMER matches 2540 run function att2:dialogs/title/a3_ch6_title1
 execute if score Neth0 TIMER matches 2540 run function att2:dialogs/title/a3_ch6_subtitle1

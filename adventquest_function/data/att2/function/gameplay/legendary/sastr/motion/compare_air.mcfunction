@@ -22,7 +22,7 @@ execute if score SA_MOTION_Z_NEW CAL <= 89 CAL run scoreboard players set SA_BAC
 #fix motion reduce
 execute if score @s SA_TIMER_1 matches 14 if score SA_MOTION_Z_NEW CAL = 54 CAL run scoreboard players reset SA_BACK CAL
 execute if score @s SA_TIMER_1 matches 14 if score SA_MOTION_Z_NEW CAL = 54 CAL run scoreboard players reset SA_BACK CAL
-#execute as @a run tellraw @s [{text:"x速率 :","color":"dark_red"},{"score":{"name":"SA_MOTION_X_NEW","objective":"CAL"},"color":"red"},{text:"Z速率 :","color":"dark_red"},{"score":{"name":"SA_MOTION_Z_NEW","objective":"CAL"},"color":"red"}]
+#execute as @a run tellraw @s [{text:"x速率 :",color:"dark_red"},{score:{name:"SA_MOTION_X_NEW",objective:"CAL"},color:"red"},{text:"Z速率 :",color:"dark_red"},{score:{name:"SA_MOTION_Z_NEW",objective:"CAL"},color:"red"}]
 #reset
 scoreboard players reset SA_MOTION_X_NEW CAL
 scoreboard players reset SA_MOTION_Z_NEW CAL

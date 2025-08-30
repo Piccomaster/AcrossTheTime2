@@ -5,10 +5,10 @@
 
 #get rng
 execute store result score trigger MIMIC run random value 1..2000
-#tellraw @s {"text":"随机值取值: ","color":"gray","extra":[{"score":{"name":"trigger","objective":"MIMIC"},"color":"red"}]}
+#tellraw @s {text:"随机值取值: ",color:"gray",extra:[{score:{name:"trigger",objective:"MIMIC"},color:"red"}]}
 #Fallback add
 execute unless score trigger MIMIC matches 1900.. run scoreboard players operation trigger MIMIC += mini MIMIC
-#tellraw @s {"text":"保底分数: ","color":"gray","extra":[{"score":{"name":"mini","objective":"MIMIC"},"color":"red"}]}
+#tellraw @s {text:"保底分数: ",color:"gray",extra:[{score:{name:"mini",objective:"MIMIC"},color:"red"}]}
 #SUMMON
 execute if score trigger MIMIC matches 1900.. unless entity @e[distance=..1,tag=MIMIC,type=slime] run function att2:gameplay/enveffect/mimic/summon
 #Fallback

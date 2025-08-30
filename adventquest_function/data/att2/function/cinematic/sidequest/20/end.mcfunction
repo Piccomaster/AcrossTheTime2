@@ -21,9 +21,9 @@ execute at 00000000-0000-065a-0000-00000000065a as @p[distance=..10] run functio
 #REWARDS
 xp add @a 4000 points
 execute if score choice SQ20 matches 1 run scoreboard players add @a CHRONOTON 300
-execute if score choice SQ20 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+300 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ20 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+300 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ20 matches 2 run scoreboard players add @a CHRONOTON 500
-execute if score choice SQ20 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+500 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ20 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+500 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 function att2:cinematic/sidequest/20/chiara/move_pnj_1
 

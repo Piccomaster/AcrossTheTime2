@@ -4,4 +4,4 @@
 #################################################
 
 
-title @a subtitle {"text":"╟✠ ","color":"gold","extra":[{"text":"Adventquest","color":"dark_red","underlined":true},{"text":" ✠╢","color":"gold"}]}
+title @a subtitle {text:"╟✠ ",color:"gold",extra:[{text:"Adventquest",color:"dark_red","underlined":true},{text:" ✠╢",color:"gold"}]}

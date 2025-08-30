@@ -22,10 +22,10 @@ execute at 00000000-0000-026a-0000-00000000026a as @p[distance=..10] if score sa
 #REWARDS
 xp add @a 2000 points
 execute if score samal_eph_PNJ DIALOG matches 2 run scoreboard players add @a CHRONOTON 50
-execute if score samal_eph_PNJ DIALOG matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+50 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score samal_eph_PNJ DIALOG matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+50 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score samal_eph_PNJ DIALOG matches 2 at 00000000-0000-026a-0000-00000000026a as @p run function att2:items/armor/unc/iron_chestplate_110
 execute if score samal_eph_PNJ DIALOG matches 3 run scoreboard players add @a CHRONOTON 100
-execute if score samal_eph_PNJ DIALOG matches 3 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+100 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score samal_eph_PNJ DIALOG matches 3 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+100 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq2
 #return 1->make command block runing

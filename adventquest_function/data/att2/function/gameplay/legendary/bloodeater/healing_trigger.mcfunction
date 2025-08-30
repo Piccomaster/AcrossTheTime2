@@ -23,6 +23,7 @@ execute store result storage att2:bloodeater healing int 1 run scoreboard player
 function att2:gameplay/legendary/bloodeater/healing
 ###################################
 #absorption cal
+scoreboard players operation temp_value_13 CAL -= temp_value_12 CAL
 scoreboard players operation temp_value_13 CAL *= 50 CAL
 scoreboard players operation temp_value_13 CAL /= 100 CAL
 #get score

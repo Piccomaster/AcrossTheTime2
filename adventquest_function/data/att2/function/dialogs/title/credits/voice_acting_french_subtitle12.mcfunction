@@ -1,1 +1,1 @@
-title @a subtitle {"text":"⟖","color":"dark_red","extra":[{"text":"teamoniaque","color":"gray"},{"text":" ╢╟ ","color":"gold"},{"text":"heathen","color":"gray"},{"text":" ⟕","color":"dark_red"}]}
+title @a subtitle {text:"⟖",color:"dark_red",extra:[{text:"teamoniaque",color:"gray"},{text:" ╢╟ ",color:"gold"},{text:"heathen",color:"gray"},{text:" ⟕",color:"dark_red"}]}

@@ -19,9 +19,9 @@ execute at 00000000-0000-118a-0000-00000000118a as @p[distance=..10] run functio
 #REWARDS
 xp add @a 10000 points
 execute if score choice SQ57 matches 1 run scoreboard players add @a CHRONOTON 500
-execute if score choice SQ57 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+500 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ57 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+500 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ57 matches 2 run scoreboard players add @a CHRONOTON 750
-execute if score choice SQ57 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+750 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ57 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+750 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 advancement grant @a only att2:quest/sq57
 #return 1->make command block runing
 return 1

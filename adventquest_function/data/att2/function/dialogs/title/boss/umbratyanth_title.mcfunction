@@ -4,4 +4,4 @@
 #############################################
 
 
-title @s title {"text":"   Umbra'Tyanth   ","color":"black","underlined":true}
+title @s title {text:"   Umbra'Tyanth   ",color:"black","underlined":true}

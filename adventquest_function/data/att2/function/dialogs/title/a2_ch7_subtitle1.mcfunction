@@ -6,4 +6,4 @@
 
 #FRENCH LANGUAGE
 
-title @a[scores={LANGUAGE=0..}] subtitle {"text":"Asunark","color":"dark_red"}
+title @a[scores={LANGUAGE=0..}] subtitle {text:"Asunark",color:"dark_red"}
