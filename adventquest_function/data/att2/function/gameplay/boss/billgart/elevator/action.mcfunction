@@ -10,17 +10,17 @@ execute if score Elevator_steps BILLGART matches 2 if entity @e[x=-1243,y=100,z=
 execute if score Elevator_steps BILLGART matches 3 if entity @e[x=-1243,y=60,z=-619,dx=8,dy=0,dz=8,type=minecraft:armor_stand,tag=Elevator] run function att2:gameplay/boss/billgart/elevator/step4
 
 # Elevator falling down for each Guardian
-execute if entity @e[type=iron_golem,x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,nbt={UUID:[I;0,299,0,299]}] as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
-execute if entity @e[type=iron_golem,x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,nbt={UUID:[I;0,315,0,315]}] as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
-execute if entity @e[type=iron_golem,x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,nbt={UUID:[I;0,283,0,283]}] as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
+execute if entity 00000000-0000-012b-0000-00000000012b as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
+execute if entity 00000000-0000-012b-0000-00000000013b as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
+execute if entity 00000000-0000-012b-0000-00000000011b as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
 
 # Trigger live Guardian Elevator
-execute if score Elevator_emerald BILLGART matches 0 unless entity @e[type=iron_golem,x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,nbt={UUID:[I;0,299,0,299]}] run function att2:gameplay/boss/billgart/elevator/guardian_emerald_dying
-execute if score Elevator_iron BILLGART matches 0 unless entity @e[type=iron_golem,x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,nbt={UUID:[I;0,315,0,315]}] run function att2:gameplay/boss/billgart/elevator/guardian_iron_dying
-execute if score Elevator_silver BILLGART matches 0 unless entity @e[type=iron_golem,x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,nbt={UUID:[I;0,283,0,283]}] run function att2:gameplay/boss/billgart/elevator/guardian_silver_dying
+execute if score Elevator_emerald BILLGART matches 0 unless entity 00000000-0000-012b-0000-00000000012b run function att2:gameplay/boss/billgart/elevator/guardian_emerald_dying
+execute if score Elevator_iron BILLGART matches 0 unless entity 00000000-0000-013b-0000-00000000013b run function att2:gameplay/boss/billgart/elevator/guardian_iron_dying
+execute if score Elevator_silver BILLGART matches 0 unless entity 00000000-0000-011b-0000-00000000011b run function att2:gameplay/boss/billgart/elevator/guardian_silver_dying
 
 # Choose pos and fire Golem
-execute if score Elevator_timer1 BILLGART matches 125 in minecraft:the_end as @p[x=-1243,y=100,z=-619] run function att2:gameplay/boss/billgart/elevator/choose_pos
+execute if score Elevator_timer1 BILLGART matches 125 in minecraft:the_end run function att2:gameplay/boss/billgart/elevator/choose_pos
 execute if score Elevator_timer1 BILLGART matches 0.. run scoreboard players add Elevator_timer1 BILLGART 1
 execute if score level DIFFICULTY matches -1 if score Elevator_timer1 BILLGART matches 251.. run scoreboard players set Elevator_timer1 BILLGART 0
 execute if score level DIFFICULTY matches 0 if score Elevator_timer1 BILLGART matches 201.. run scoreboard players set Elevator_timer1 BILLGART 0

@@ -21,7 +21,7 @@ execute at 00000000-0000-015a-0000-00000000015a as @p[distance=..10] run functio
 #REWARDS
 xp add @a 1000 points
 scoreboard players add @a CHRONOTON 50
-tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+50 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+50 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 function att2:items/food/mushroom_stew_0
 function att2:items/food/mushroom_stew_0
 function att2:items/food/mushroom_stew_0

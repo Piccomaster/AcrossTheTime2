@@ -28,7 +28,7 @@ execute if score heart_protection ENCHANTMENT matches 0.. run function att2:game
 #particle
 execute if score heart_protection ENCHANTMENT matches 0.. as @e[type=item_display,tag=ENCHANTMENT,tag=ROTATION,limit=1,distance=..10] at @s run function att2:gameplay/enchantment/effect/show_display
 #merge enchantment heart_protection
-execute if score heart_protection ENCHANTMENT matches 0.. run data merge entity @e[type=text_display,tag=ENCHANTMENT_NAME,limit=1] {text:{"translate":"enchantment.att2.heart_protection","color":"green"}}
+execute if score heart_protection ENCHANTMENT matches 0.. run data merge entity @e[type=text_display,tag=ENCHANTMENT_NAME,limit=1] {text:{"translate":"enchantment.att2.heart_protection",color:"green"}}
 #lvl_add
 stopsound @a[distance=..10] * block.enchantment_table.use
 stopsound @a[distance=..10] * noise4

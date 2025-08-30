@@ -32,7 +32,7 @@ execute if score choice SQ30 matches 3 as @p[distance=..10] run function att2:di
 #REWARDS
 xp add @a 5000 points
 scoreboard players add @a CHRONOTON 400
-tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+400 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+400 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq30
 

@@ -3,7 +3,7 @@
 #Process the synergy_activation						#
 #####################################################
 
-tag @a add wallBreaking
+scoreboard players set true Wall_Breaking 1
 
 execute as @a at @s run function att2:gameplay/dahal/action/spell10/obtain
 execute as @a at @s run function att2:sound/dahal/upgrade_synergy

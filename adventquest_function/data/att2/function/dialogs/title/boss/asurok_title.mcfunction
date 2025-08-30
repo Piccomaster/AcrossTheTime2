@@ -4,4 +4,4 @@
 #############################################
 
 
-title @s title {"text":"      Asurok      ","color":"dark_red","underlined":true}
+title @s title {text:"      Asurok      ",color:"dark_red","underlined":true}

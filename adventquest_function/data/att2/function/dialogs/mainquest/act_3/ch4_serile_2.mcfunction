@@ -5,4 +5,4 @@
 
 execute at @a run function att2:sound/dialogs/simple
 
-tellraw @a {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"...","color":"dark_aqua","italic":true}]}
+tellraw @a {text:" °-° Sérile : ",color:"yellow",extra:[{text:"...",color:"dark_aqua","italic":true}]}

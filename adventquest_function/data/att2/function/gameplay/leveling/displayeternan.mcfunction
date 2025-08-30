@@ -4,9 +4,9 @@
 #################################################################
 
 title @s times 10 60 10
-title @s title {"translate":"att2.leveling.eternan.title","color":"dark_gray"}
-title @s subtitle {"text":"° ","color":"gray","extra":[{"score":{"name":"@s","objective":"GAMELEVEL"},"color":"gray","italic":true},{"translate":"att2.leveling.eternan.subtitle"},{"score":{"name":"@s","objective":"LEVELETERNAN"},"color":"green"},{"text":" °","color":"gray"}]}
-tellraw @a [{"selector":"@s",color:dark_red},{translate:att2.leveling.eternan.tellraw,with:[{"score":{"name":"@s","objective":"GAMELEVEL"},"color":"dark_red"},{"score":{"name":"@s","objective":"LEVELMASTER"},"color":"dark_red"},{"score":{"name":"@s","objective":"LEVELETERNAN"},"color":"dark_red"}]}]
+title @s title {"translate":"att2.leveling.eternan.title",color:"dark_gray"}
+title @s subtitle {text:"° ",color:"gray",extra:[{score:{name:"@s",objective:"GAMELEVEL"},color:"gray","italic":true},{"translate":"att2.leveling.eternan.subtitle"},{score:{name:"@s",objective:"LEVELETERNAN"},color:"green"},{text:" °",color:"gray"}]}
+tellraw @a [{"selector":"@s",color:dark_red},{translate:att2.leveling.eternan.tellraw,with:[{score:{name:"@s",objective:"GAMELEVEL"},color:"dark_red"},{score:{name:"@s",objective:"LEVELMASTER"},color:"dark_red"},{score:{name:"@s",objective:"LEVELETERNAN"},color:"dark_red"}]}]
 
 function att2:sound/misc/level_up
 execute at @s run particle minecraft:flash ~ ~1.5 ~ 0.25 0.25 0.25 1 1 normal

@@ -3,9 +3,7 @@
 #Process choose position of Ulkoggumi                          		#
 #####################################################################
 
-function att2:gameplay/misc/position/get_x_1000
-scoreboard players operation Elevator_pos BILLGART = @s POSITIONX
-scoreboard players operation Elevator_pos BILLGART %= 3 BILLGART
-execute if score Elevator_pos BILLGART matches 0 as 00000000-0000-012b-0000-00000000012b at @s run function att2:gameplay/boss/billgart/elevator/fireball_launching
-execute if score Elevator_pos BILLGART matches 1 as 00000000-0000-013b-0000-00000000013b at @s run function att2:gameplay/boss/billgart/elevator/fireball_launching
-execute if score Elevator_pos BILLGART matches 2 as 00000000-0000-011b-0000-00000000011b at @s run function att2:gameplay/boss/billgart/elevator/fireball_launching
+execute if score 1RNG10 RNG matches 1..3 as @n[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=Guardian] at @s positioned -1238.5 ~25 -616.5 run function att2:gameplay/boss/billgart/elevator/fireball_launching
+execute if score 1RNG10 RNG matches 4..6 as @n[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=Guardian] at @s positioned -1236.5 ~25 -614.5 run function att2:gameplay/boss/billgart/elevator/fireball_launching
+execute if score 1RNG10 RNG matches 7..8 as @n[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=Guardian] at @s positioned -1238.5 ~25 -612.5 run function att2:gameplay/boss/billgart/elevator/fireball_launching
+execute if score 1RNG10 RNG matches 9..10 as @n[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=Guardian] at @s positioned -1240.5 ~25 -614.5 run function att2:gameplay/boss/billgart/elevator/fireball_launching

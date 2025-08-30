@@ -4,6 +4,6 @@
 #############################################
 
 
-title @a title [{"text":"..⨪","color":"dark_red"},{"text":"🙼","color":"gold"},{"text":"Angband","color":"red"},{"text":"🙽","color":"gold"},{"text":"⨪..","color":"dark_red"}]
+title @a title [{text:"..⨪",color:"dark_red"},{text:"🙼",color:"gold"},{text:"Angband",color:"red"},{text:"🙽",color:"gold"},{text:"⨪..",color:"dark_red"}]
 #..⨪🙼Angband🙽⨪..
 #¨'~!ᒫ⫹⧹_⩖_⧸⫺ᒨ!~'¨

@@ -4,4 +4,4 @@
 #################################################
 
 
-title @a subtitle {"text":"⟖ ","color":"dark_red","extra":[{"text":"Grenier","color":"gold"},{"text":" ⟕","color":"dark_red"}]}
+title @a subtitle {text:"⟖ ",color:"dark_red",extra:[{text:"Grenier",color:"gold"},{text:" ⟕",color:"dark_red"}]}

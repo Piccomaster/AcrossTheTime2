@@ -12,7 +12,7 @@ scoreboard players operation TotalXp CAL += @s LEVELETERNAN
 scoreboard players operation TotalXp CAL *= @s COMBO_COUNT
 ##return TotalXp
 execute store result storage att2:temp value int 1 run scoreboard players get TotalXp CAL
-#tellraw @a {"score":{"name":"TOTAL_XP","objective":"CAL"}}
+#tellraw @a {score:{name:"TOTAL_XP",objective:"CAL"}}
 ##xp give
 execute as @a run function att2:gameplay/leveling/monster/loot/xp_get with storage att2:temp
 

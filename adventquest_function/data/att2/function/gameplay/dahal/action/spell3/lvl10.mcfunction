@@ -20,7 +20,7 @@ execute as @e[type=minecraft:wither_skull,tag=SET] at @s run data modify entity 
 tag @e[type=minecraft:wither_skull,tag=SET] remove SET
 
 execute as @e[type=minecraft:wither_skull] run scoreboard players set @s SPELL3_SKULL 50
-execute if entity @a[tag=fireMelting] run function att2:gameplay/dahal/action/spell3/enable_fire_melting
+execute if score true Fire_Melting matches 1 run function att2:gameplay/dahal/action/spell3/enable_fire_melting
 
 particle minecraft:item{item:"minecraft:soul_lantern"} ~ ~1 ~ 0 0 0 1 250 normal
 particle minecraft:soul ~ ~1 ~ 0 0 0 0.5 250 normal

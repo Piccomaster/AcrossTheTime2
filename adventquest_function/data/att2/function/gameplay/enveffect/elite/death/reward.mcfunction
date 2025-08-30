@@ -29,7 +29,7 @@ scoreboard players operation TOTAL_XP CAL *= percent CAL
 scoreboard players operation TOTAL_XP CAL /= 100 CAL
 #store xp score
 execute store result storage att2:temp value int 1 run scoreboard players get TOTAL_XP CAL
-#tellraw @a {"score":{"name":"TOTAL_XP","objective":"CAL"}}
+#tellraw @a {score:{name:"TOTAL_XP",objective:"CAL"}}
 ##xp give
 execute as @a run function att2:gameplay/leveling/monster/loot/xp_get with storage att2:temp
 

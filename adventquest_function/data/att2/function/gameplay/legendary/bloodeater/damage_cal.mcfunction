@@ -6,8 +6,8 @@
 #get true damage
 scoreboard players operation temp_value_10 CAL = @s DAMAGE
 scoreboard players operation temp_value_10 CAL /= 10 CAL
-#hp= true damage X 0.5
-scoreboard players operation temp_value_10 CAL *= 80 CAL
+#hp= true damage X 0.8
+scoreboard players operation temp_value_10 CAL *= 50 CAL
 scoreboard players operation temp_value_10 CAL /= 100 CAL
 #min limit
 execute if score temp_value_10 CAL matches ..2 run scoreboard players set temp_value_10 CAL 2

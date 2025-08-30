@@ -21,9 +21,9 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq18/daril_gram
 xp add @a 3500 points
 execute if score choice SQ18 matches 1 at 00000000-0000-057a-0000-00000000057a as @p run function att2:items/weapon/rar/shield_162
 execute if score choice SQ18 matches 1 run scoreboard players add @a CHRONOTON 125
-execute if score choice SQ18 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+125 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ18 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+125 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ18 matches 2 run scoreboard players add @a CHRONOTON 225
-execute if score choice SQ18 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+225 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ18 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+225 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq18
 #return 1->make command block runing

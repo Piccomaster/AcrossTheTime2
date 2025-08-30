@@ -4,16 +4,16 @@
 #########################################################
 
 function att2:gameplay/dahal/data_cal/spell32
-tellraw @s [{"text":"§e【"},{translate:att2.spell32.name},{"text":"§e】"}]
+tellraw @s [{text:"§e【"},{translate:att2.spell32.name},{text:"§e】"}]
 
-execute if score @s SPELL32_CAP matches 1.. run tellraw @s [{translate:att2.spell32.data,with:[{"score":{"name":"SPELL_LVL1","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COOLDOWN_LVL1","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"DISTANCE_LVL1","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COUNT_LVL1","objective":"SPELL_DATA"},color:dark_green}]}]
-execute if score @s SPELL32_CAP matches 2.. run tellraw @s [{translate:att2.spell32.data,with:[{"score":{"name":"SPELL_LVL2","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COOLDOWN_LVL2","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"DISTANCE_LVL2","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COUNT_LVL2","objective":"SPELL_DATA"},color:dark_green}]}]
-execute if score @s SPELL32_CAP matches 3.. run tellraw @s [{translate:att2.spell32.data,with:[{"score":{"name":"SPELL_LVL3","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COOLDOWN_LVL3","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"DISTANCE_LVL3","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COUNT_LVL3","objective":"SPELL_DATA"},color:dark_green}]}]
-execute if score @s SPELL32_CAP matches 4.. run tellraw @s [{translate:att2.spell32.data,with:[{"score":{"name":"SPELL_LVL4","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COOLDOWN_LVL4","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"DISTANCE_LVL4","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COUNT_LVL4","objective":"SPELL_DATA"},color:dark_green}]}]
-execute if score @s SPELL32_CAP matches 5.. run tellraw @s [{translate:att2.spell32.data,with:[{"score":{"name":"SPELL_LVL5","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COOLDOWN_LVL5","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"DISTANCE_LVL5","objective":"SPELL_DATA"},color:dark_green},{"score":{"name":"COUNT_LVL5","objective":"SPELL_DATA"},color:dark_green}]}]
+execute if score @s SPELL32_CAP matches 1.. run tellraw @s [{translate:att2.spell32.data,with:[{score:{name:"SPELL_LVL1",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COOLDOWN_LVL1",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DISTANCE_LVL1",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COUNT_LVL1",objective:"SPELL_DATA"},color:dark_green}]}]
+execute if score @s SPELL32_CAP matches 2.. run tellraw @s [{translate:att2.spell32.data,with:[{score:{name:"SPELL_LVL2",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COOLDOWN_LVL2",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DISTANCE_LVL2",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COUNT_LVL2",objective:"SPELL_DATA"},color:dark_green}]}]
+execute if score @s SPELL32_CAP matches 3.. run tellraw @s [{translate:att2.spell32.data,with:[{score:{name:"SPELL_LVL3",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COOLDOWN_LVL3",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DISTANCE_LVL3",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COUNT_LVL3",objective:"SPELL_DATA"},color:dark_green}]}]
+execute if score @s SPELL32_CAP matches 4.. run tellraw @s [{translate:att2.spell32.data,with:[{score:{name:"SPELL_LVL4",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COOLDOWN_LVL4",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DISTANCE_LVL4",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COUNT_LVL4",objective:"SPELL_DATA"},color:dark_green}]}]
+execute if score @s SPELL32_CAP matches 5.. run tellraw @s [{translate:att2.spell32.data,with:[{score:{name:"SPELL_LVL5",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COOLDOWN_LVL5",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DISTANCE_LVL5",objective:"SPELL_DATA"},color:dark_green},{score:{name:"COUNT_LVL5",objective:"SPELL_DATA"},color:dark_green}]}]
 
-execute unless score @s SPELL32_CAP matches 1.. run tellraw @s {"text":"§e【§8???§e】"}
-execute unless score @s SPELL32_CAP matches 2.. run tellraw @s {"text":"§e【§8???§e】"}
-execute unless score @s SPELL32_CAP matches 3.. run tellraw @s {"text":"§e【§8???§e】"}
-execute unless score @s SPELL32_CAP matches 4.. run tellraw @s {"text":"§e【§8???§e】"}
-execute unless score @s SPELL32_CAP matches 5.. run tellraw @s {"text":"§e【§8???§e】"}
+execute unless score @s SPELL32_CAP matches 1.. run tellraw @s {text:"§e【§8???§e】"}
+execute unless score @s SPELL32_CAP matches 2.. run tellraw @s {text:"§e【§8???§e】"}
+execute unless score @s SPELL32_CAP matches 3.. run tellraw @s {text:"§e【§8???§e】"}
+execute unless score @s SPELL32_CAP matches 4.. run tellraw @s {text:"§e【§8???§e】"}
+execute unless score @s SPELL32_CAP matches 5.. run tellraw @s {text:"§e【§8???§e】"}

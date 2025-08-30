@@ -3,4 +3,4 @@
 #Use function to process the unknow sidequest					#
 #################################################################
 
-tellraw @s {"text":"[???]","color":"gray"}
+tellraw @s {text:"[???]",color:"gray"}

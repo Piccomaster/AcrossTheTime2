@@ -8,50 +8,50 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"C'est fini pseudo-sage, menteur et manipulateur...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"C'est fini pseudo-sage, menteur et manipulateur...",color:"aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"It's over con artist, liar and manipulative...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"It's over con artist, liar and manipulative...",color:"aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"受死吧， 你這假的智者、騙子、玩弄別人于股掌之間的惡魔...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"受死吧， 你這假的智者、騙子、玩弄別人于股掌之間的惡魔...",color:"aqua"}]}
 
 
 #JAPANESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"終わりだ、偽りの賢者、嘘つき、操る者よ...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"終わりだ、偽りの賢者、嘘つき、操る者よ...",color:"aqua"}]}
 
 #KOREAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"끝났어, 가짜 현자, 거짓말쟁이, 조종자야...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"끝났어, 가짜 현자, 거짓말쟁이, 조종자야...",color:"aqua"}]}
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"انتهى الأمر يا من يتظاهر بالحكمة، الكاذب، والمتلاعب...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"انتهى الأمر يا من يتظاهر بالحكمة، الكاذب، والمتلاعب...",color:"aqua"}]}
 
 #RUSSIAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Это конец, псевдо-мудрый, лжец и манипулятор...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Это конец, псевдо-мудрый, лжец и манипулятор...",color:"aqua"}]}
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Se acabó, falso sabio, mentiroso y manipulador...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Se acabó, falso sabio, mentiroso y manipulador...",color:"aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Es ist vorbei, Schein-weise, Lügner und Manipulator...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Es ist vorbei, Schein-weise, Lügner und Manipulator...",color:"aqua"}]}
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"अब खत्म हुआ, झूठा बुद्धिमान, झूठा और बहकानेवाला...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"अब खत्म हुआ, झूठा बुद्धिमान, झूठा और बहकानेवाला...",color:"aqua"}]}
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Acabou, pseudo-sábio, mentiroso e manipulador...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Acabou, pseudo-sábio, mentiroso e manipulador...",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"受死吧，你这虚伪的智者、骗子、玩弄别人于股掌之间的恶魔...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"受死吧，你这虚伪的智者、骗子、玩弄别人于股掌之间的恶魔...",color:"aqua"}]}

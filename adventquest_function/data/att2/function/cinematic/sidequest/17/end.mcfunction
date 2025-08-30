@@ -50,7 +50,7 @@ execute if score choice SQ17 matches 1 positioned 3429 35 3730.01 run function a
 
 execute if score choice SQ17 matches 2 run scoreboard players add @a CHRONOTON 225
 
-execute if score choice SQ17 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+225 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ17 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+225 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 execute if score choice SQ17 matches 1 run scoreboard players set choice SQ17 3
 

@@ -45,7 +45,7 @@ execute as @s[scores={SPELL_OP=0..}] run function att2:gameplay/dahal/action/spe
 scoreboard players set @s SPELL_OP -1
 
 #no fire ability
-execute as @s[tag=!fireMelting] at @e[type=minecraft:fireball] run function att2:gameplay/dahal/action/spell1/ice_test
+execute unless score true Fire_Melting matches 1 at @e[type=minecraft:fireball] run function att2:gameplay/dahal/action/spell1/ice_test
 
 ##test spell level
 function att2:advancement/test_all/spell/spell_1

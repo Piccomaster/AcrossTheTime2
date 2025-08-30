@@ -26,14 +26,14 @@ execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx
 execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar max run data get entity 00000000-0000-002b-0000-00000000002b attributes[{id:"minecraft:max_health"}].base
 
 # Mirror's particles
-execute if entity @e[nbt={UUID:[I;0,70463,0,70463]},tag=UtoNE] run function att2:gameplay/boss/owsastr/owlkar/mirror_ne_particle_ext
-execute unless entity @e[nbt={UUID:[I;0,70463,0,70463]},tag=UtoNE] run function att2:gameplay/boss/owsastr/owlkar/mirror_ne_particle_in
-execute if entity @e[nbt={UUID:[I;0,70511,0,70511]},tag=UtoES] run function att2:gameplay/boss/owsastr/owlkar/mirror_es_particle_ext
-execute unless entity @e[nbt={UUID:[I;0,70511,0,70511]},tag=UtoES] run function att2:gameplay/boss/owsastr/owlkar/mirror_es_particle_in
-execute if entity @e[nbt={UUID:[I;0,70495,0,70495]},tag=UtoSW] run function att2:gameplay/boss/owsastr/owlkar/mirror_sw_particle_ext
-execute unless entity @e[nbt={UUID:[I;0,70495,0,70495]},tag=UtoSW] run function att2:gameplay/boss/owsastr/owlkar/mirror_sw_particle_in
-execute if entity @e[nbt={UUID:[I;0,70479,0,70479]},tag=UtoWN] run function att2:gameplay/boss/owsastr/owlkar/mirror_wn_particle_ext
-execute unless entity @e[nbt={UUID:[I;0,70479,0,70479]},tag=UtoWN] run function att2:gameplay/boss/owsastr/owlkar/mirror_wn_particle_in
+execute if score Owlkar_button_ne OWSASTR matches 0 run function att2:gameplay/boss/owsastr/owlkar/mirror_ne_particle_ext
+execute if score Owlkar_button_ne OWSASTR matches 1 run function att2:gameplay/boss/owsastr/owlkar/mirror_ne_particle_in
+execute if score Owlkar_button_es OWSASTR matches 0 run function att2:gameplay/boss/owsastr/owlkar/mirror_es_particle_ext
+execute if score Owlkar_button_es OWSASTR matches 1 run function att2:gameplay/boss/owsastr/owlkar/mirror_es_particle_in
+execute if score Owlkar_button_sw OWSASTR matches 0 run function att2:gameplay/boss/owsastr/owlkar/mirror_sw_particle_ext
+execute if score Owlkar_button_sw OWSASTR matches 1 run function att2:gameplay/boss/owsastr/owlkar/mirror_sw_particle_in
+execute if score Owlkar_button_wn OWSASTR matches 0 run function att2:gameplay/boss/owsastr/owlkar/mirror_wn_particle_ext
+execute if score Owlkar_button_wn OWSASTR matches 1 run function att2:gameplay/boss/owsastr/owlkar/mirror_wn_particle_in
 
 # Make challengers enters the arena (unless ray are not going to it)
 execute if score Mainquest SIDEQUEST matches 26 if score mech1 OWSASTR matches 7 if score wingN OWSASTR matches 3 as @a[x=-5025,y=76,z=-4383,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] as @a[distance=..30] run function att2:gameplay/boss/owsastr/owlkar/display_title
@@ -50,7 +50,7 @@ execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx
 execute if score Owlkar OWSASTR matches 0.. unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] run function att2:gameplay/boss/owsastr/owlkar/fail
 
 # Testing if Owlkar died
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] unless entity @e[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,nbt={UUID:[I;0,43,0,43]}] run function att2:gameplay/boss/owsastr/owlkar/victory
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] unless entity @e[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,type=minecraft:endermite,nbt={UUID:[I;0,43,0,43]}] run function att2:gameplay/boss/owsastr/owlkar/victory
 
 # Player can quit the arena when Owlkar had been defeated
 execute if score Owlkar OWSASTR matches -2 run tp @a[x=-5064,y=72,z=-4383,dx=0,dy=2,dz=4,gamemode=adventure] -5075 80 -4381

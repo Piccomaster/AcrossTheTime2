@@ -20,7 +20,7 @@ execute at 00000000-0000-067a-0000-00000000067a as @p[distance=..10] run functio
 #REWARDS
 xp add @a 5000 points
 scoreboard players add @a CHRONOTON 350
-tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+350 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+350 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq21
 #return 1->make command block runing

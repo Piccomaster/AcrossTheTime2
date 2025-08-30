@@ -15,9 +15,9 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq42/linda_shel
 #REWARDS
 xp add @a 5000 points
 execute if score choice SQ42 matches 1 run scoreboard players add @a CHRONOTON 100
-execute if score choice SQ42 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+100 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ42 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+100 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ42 matches 2 run scoreboard players add @a CHRONOTON 250
-execute if score choice SQ42 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+250 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ42 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+250 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq42
 #return 1->make command block runing

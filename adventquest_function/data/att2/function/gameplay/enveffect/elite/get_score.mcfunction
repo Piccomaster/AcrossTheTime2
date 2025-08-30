@@ -9,4 +9,4 @@ scoreboard players set TEST CAL 0
 execute on vehicle store result score TEST CAL run data get entity @s Health 100
 execute on vehicle run scoreboard players operation CLASSLEVEL CAL = @s CLASSLEVEL
 
-#tellraw @a {"score":{"name":"CLASSLEVEL","objective":"CAL"}}
+#tellraw @a {score:{name:"CLASSLEVEL",objective:"CAL"}}

@@ -8,50 +8,50 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Que manigances-tu J'zargo ?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Que manigances-tu J'zargo ?",color:"aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"What are you planning, J'zargo?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"What are you planning, J'zargo?",color:"aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"你有什麼打算， 傑扎戈？ ","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"你有什麼打算， 傑扎戈？ ",color:"aqua"}]}
 
 
 #JAPANESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"何を企んでいるんだ、J'zargo？","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"何を企んでいるんだ、J'zargo？",color:"aqua"}]}
 
 #KOREAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"무슨 계획을 세우고 있는 거야, J'zargo?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"무슨 계획을 세우고 있는 거야, J'zargo?",color:"aqua"}]}
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"ماذا تخطط، J'zargo؟","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"ماذا تخطط، J'zargo؟",color:"aqua"}]}
 
 #RUSSIAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Что ты замышляешь, J'zargo?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Что ты замышляешь, J'zargo?",color:"aqua"}]}
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"¿Qué estás planeando, J'zargo?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"¿Qué estás planeando, J'zargo?",color:"aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Was planst du, J'zargo?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Was planst du, J'zargo?",color:"aqua"}]}
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"तुम क्या योजना बना रहे हो, J'zargo?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"तुम क्या योजना बना रहे हो, J'zargo?",color:"aqua"}]}
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"¿Qué estás planeando, J'zargo?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"¿Qué estás planeando, J'zargo?",color:"aqua"}]}
 
 #Simplified Chinese
-tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"你在计划些什么，J'zargo？","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"你在计划些什么，J'zargo？",color:"aqua"}]}

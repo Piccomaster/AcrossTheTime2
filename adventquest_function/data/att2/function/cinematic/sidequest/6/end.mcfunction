@@ -23,7 +23,7 @@ clear @a minecraft:brick[custom_name={translate:'item.quest.hurriel_key.name'}] 
 #REWARDS
 xp add @a 3500 points
 scoreboard players add @a CHRONOTON 150
-tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+150 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+150 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq6
 #return 1->make command block runing

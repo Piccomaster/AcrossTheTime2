@@ -5,4 +5,4 @@
 
 execute at @a run function att2:sound/dialogs/simple
 
-tellraw @s {"translate":"att2.newplayer.translate.tip","color":"green","fallback":"att2.newplayer.translate.tip.error"}
+tellraw @s {"translate":"att2.newplayer.translate.tip",color:"green","fallback":"att2.newplayer.translate.tip.error"}

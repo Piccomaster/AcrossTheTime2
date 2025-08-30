@@ -19,7 +19,7 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq10/rob_harth/
 #REWARDS
 xp add @a 1000 points
 scoreboard players add @a CHRONOTON 75
-tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+75 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+75 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq10
 #return 1->make command block runing

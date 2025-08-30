@@ -20,9 +20,9 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq23/philipo_ti
 xp add @a 2000 points
 execute as @a run function att2:items/food/pumpkin_pie_0
 execute if score choice SQ23 matches 1 run scoreboard players add @a CHRONOTON 80
-execute if score choice SQ23 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+80 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ23 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+80 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ23 matches 2 run scoreboard players add @a CHRONOTON 130
-execute if score choice SQ23 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+130 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ23 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+130 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq23
 #return 1->make command block runing

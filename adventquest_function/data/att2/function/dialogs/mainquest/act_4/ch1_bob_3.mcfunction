@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"Attention ! Chaud devant ! Buuuuuliiiaaaaa bblblbllbl ! ...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {text:" °-° Bob L. : ",color:"green",extra:[{text:"Attention ! Chaud devant ! Buuuuuliiiaaaaa bblblbllbl ! ...",color:"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1..10}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"Careful! Incoming! Buuuuuuliiiaaaaaaaa bblblbllbl! ...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1..10}] {text:" °-° Bob L. : ",color:"green",extra:[{text:"Careful! Incoming! Buuuuuuliiiaaaaaaaa bblblbllbl! ...",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"注意啦！！！！ 大的要来了！！！！ Buuuuuuliiiaaaaaaaa bblblbllbl!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Bob L. : ",color:"green",extra:[{text:"注意啦！！！！ 大的要来了！！！！ Buuuuuuliiiaaaaaaaa bblblbllbl!",color:"dark_aqua"}]}

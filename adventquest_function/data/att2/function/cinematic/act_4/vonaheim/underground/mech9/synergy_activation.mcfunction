@@ -3,7 +3,7 @@
 #Process the synergy_activation						#
 #####################################################
 
-tag @a add fireMelting
+scoreboard players set True Fire_Melting 1
 
 execute at @s run function att2:gameplay/dahal/action/spell1/obtain
 execute at @s run function att2:sound/dahal/upgrade_synergy

@@ -2,7 +2,7 @@
 #Made by Adventquest											#
 #auto_mending trigger                    						#
 #################################################################
-
+execute store result storage att2:health max_health int 1 run scoreboard players get max_health CAL
 #effect give @s instant_health 1 10 true
 #get health
 execute store result score Health CAL run data get entity @s Health 100
@@ -38,6 +38,8 @@ scoreboard players operation Health CAL += 100 CAL
 function att2:gameplay/stat/resistance/detection/reduce with storage att2:health
 #tigger
 execute if score Health CAL <= eh_lvl CAL if predicate att2_pre:enchantment/heart_protection/chest run function att2:gameplay/stat/resistance/detection/effect
+##if death 
+execute if score Health CAL matches ..0 run kill @s
 #reset
 scoreboard players reset Health CAL
 scoreboard players reset max_health CAL

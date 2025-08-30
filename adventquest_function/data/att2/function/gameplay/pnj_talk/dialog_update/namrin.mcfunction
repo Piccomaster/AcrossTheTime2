@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/namrin
 scoreboard players set namrin_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score namrin_PNJ DIALOG matches 7 run function att2:dialogs/sidequest/sq47/namrin/dialog_7
-execute as @a[distance=..7] if score namrin_PNJ DIALOG matches 6 run function att2:dialogs/sidequest/sq47/namrin/dialog_6
+execute as @a[distance=..7] if score namrin_PNJ DIALOG matches 6 unless score cinematic SQ47 matches 3 run function att2:dialogs/sidequest/sq47/namrin/dialog_6
 execute as @a[distance=..7] if score namrin_PNJ DIALOG matches 5 run function att2:dialogs/sidequest/sq46/namrin/dialog_5
 execute as @a[distance=..7] if score namrin_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4
 execute as @a[distance=..7] if score namrin_PNJ DIALOG matches 3 run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_3

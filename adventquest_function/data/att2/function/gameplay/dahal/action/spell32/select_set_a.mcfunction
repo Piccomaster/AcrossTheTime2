@@ -17,4 +17,4 @@ execute if score @s SPELL32_SLCT matches 4 run function att2:gameplay/dahal/laun
 execute if score @s SPELL32_SLCT matches 5 run function att2:gameplay/dahal/launcher/spell_32/get
 
 
-#tellraw @a[scores={LANGUAGE=2}] {"text":"选择放置A点","color":"gold"}
+#tellraw @a[scores={LANGUAGE=2}] {text:"选择放置A点",color:"gold"}

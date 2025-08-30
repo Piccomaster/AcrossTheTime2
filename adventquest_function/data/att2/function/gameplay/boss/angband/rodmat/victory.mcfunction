@@ -12,7 +12,7 @@ scoreboard players set Rodmat SQ45 -2
 execute as @a run function att2:gameplay/boss/angband/rodmat/stop
 execute positioned 3751 88 4386 run function att2:gameplay/boss/rewards_start
 execute positioned 3751 88 4386 run function att2:gameplay/boss/angband/rodmat/rewards
-function att2:gameplay/boss/angband/rodmat/destroy_minions
+execute in minecraft:the_nether as @e[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/boss/angband/rodmat/destroy_minions
 function att2:physicmod/reg2/angor/sectarian_boss_opening
 function att2:physicmod/reg2/angor/rodmat_lava_clean
 

@@ -3,4 +3,4 @@
 #Use function to activate the title 		#
 #############################################
 
-title @s title {"text":"  ","color":"red","bold":false}
+title @s title {text:"  ",color:"red","bold":false}

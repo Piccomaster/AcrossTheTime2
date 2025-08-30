@@ -20,7 +20,7 @@ xp add @a 3000 points
 execute as @a run function att2:items/food/baked_potato_0
 execute as @a run function att2:items/food/baked_potato_0
 scoreboard players add @a CHRONOTON 120
-tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+120 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+120 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq11
 #return 1->make command block runing

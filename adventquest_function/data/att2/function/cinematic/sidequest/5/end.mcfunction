@@ -25,9 +25,9 @@ execute if score choice SQ5 matches 3 as @p[distance=..10] run function att2:dia
 #REWARDS
 xp add @a 2000 points
 execute if score choice SQ5 matches 1..2 run scoreboard players add @a CHRONOTON 120
-execute if score choice SQ5 matches 1..2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+120 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ5 matches 1..2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+120 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ5 matches 3 run scoreboard players add @a CHRONOTON 50
-execute if score choice SQ5 matches 3 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+50 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ5 matches 3 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+50 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ5 matches 3 run give @a minecraft:cooked_rabbit 5
 
 advancement grant @a only att2:quest/sq5

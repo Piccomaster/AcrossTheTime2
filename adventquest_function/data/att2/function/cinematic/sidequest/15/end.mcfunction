@@ -21,10 +21,10 @@ execute at 00000000-0000-051a-0000-00000000051a as @p[distance=..10] run functio
 #REWARDS
 xp add @a 4500 points
 execute if score choice SQ15 matches 1 run scoreboard players add @a CHRONOTON 150
-execute if score choice SQ15 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+150 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ15 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+150 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ15 matches 1 at 00000000-0000-051a-0000-00000000051a as @p run function att2:items/armor/rar/golden_leggings_152
 execute if score choice SQ15 matches 2 run scoreboard players add @a CHRONOTON 200
-execute if score choice SQ15 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+200 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ15 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+200 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ15 matches 3 at 00000000-0000-051a-0000-00000000051a as @p run function att2:items/armor/rar/golden_leggings_152
 
 advancement grant @a only att2:quest/sq15

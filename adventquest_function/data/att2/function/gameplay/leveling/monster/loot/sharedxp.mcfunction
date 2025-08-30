@@ -35,9 +35,9 @@ execute if score level DIFFICULTY matches 2 as @a run scoreboard players operati
 # Final division
 execute as @a run scoreboard players operation @s XPGAIN /= @s XPPROCESS
 
-#tellraw @a {"score":{"name":"closestClass","objective":"XPPROCESS"},"color":"dark_red","extra":[{"text":" pour clostest class","color":"dark_gray"}]}
-#tellraw @a {"score":{"name":"maxAddedOne","objective":"XPPROCESS"},"color":"dark_red","extra":[{"text":" pour max +1","color":"dark_gray"}]}
-#tellraw @a {"score":{"name":"@s[scores={XPGAIN=1..}]","objective":"XPGAIN"},"color":"dark_red","extra":[{"text":" pour total xp gagné","color":"dark_gray"}]}
+#tellraw @a {score:{name:"closestClass",objective:"XPPROCESS"},color:"dark_red",extra:[{text:" pour clostest class",color:"dark_gray"}]}
+#tellraw @a {score:{name:"maxAddedOne",objective:"XPPROCESS"},color:"dark_red",extra:[{text:" pour max +1",color:"dark_gray"}]}
+#tellraw @a {score:{name:"@s[scores={XPGAIN=1..}]",objective:"XPGAIN"},color:"dark_red",extra:[{text:" pour total xp gagné",color:"dark_gray"}]}
 
 #giving xp (and displaying it)
 execute as @a[scores={XPGAIN=1..}] run function att2:gameplay/leveling/monster/loot/xpattribution

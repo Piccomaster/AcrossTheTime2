@@ -3,6 +3,7 @@
 #Initialize spell10 for a given player							#
 #################################################################
 
+scoreboard objectives add Wall_Breaking dummy
 scoreboard objectives add COOLDOWN10 dummy
 scoreboard objectives add SPELL10_LVL dummy
 scoreboard objectives add SPELL10_EFFECT dummy

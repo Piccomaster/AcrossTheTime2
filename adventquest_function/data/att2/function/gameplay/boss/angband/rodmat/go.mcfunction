@@ -37,7 +37,7 @@ execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,d
 execute if score Rodmat SQ45 matches 0.. unless entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] run function att2:gameplay/boss/angband/rodmat/fail
 
 # Testing if Rodmat died
-execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] unless entity @e[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,nbt={UUID:[I;0,284,0,284]}] run function att2:gameplay/boss/angband/rodmat/victory
+execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] unless entity 00000000-0000-011c-0000-00000000011c run function att2:gameplay/boss/angband/rodmat/victory
 
 # Player notification if the quest item hasn't been obtained
 execute if score Rodmat SQ45 matches -2 unless score SQ45 SIDEQUEST matches 4.. as @a[x=3735,y=89,z=4385,dx=0,dy=2,dz=2,gamemode=adventure,scores={NUMEROJOUEUR=1}] run function att2:dialogs/sidequest/sq45/player_retry

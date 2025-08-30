@@ -8,50 +8,50 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Cet arc est magnifique ! Ne serait-ce pas celui dont Trias m'avait parlé ?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Cet arc est magnifique ! Ne serait-ce pas celui dont Trias m'avait parlé ?",color:"aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"This bow is gorgeous! Wouldn't it be the one Trias told me about?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"This bow is gorgeous! Wouldn't it be the one Trias told me about?",color:"aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"這弓真好看！ 這不是特里亞斯告訴我的嗎？ ","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"這弓真好看！ 這不是特里亞斯告訴我的嗎？ ",color:"aqua"}]}
 
 
 #JAPANESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"この弓は美しい！これはトリアスが私に話していたものではないでしょうか？","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"この弓は美しい！これはトリアスが私に話していたものではないでしょうか？",color:"aqua"}]}
 
 #KOREAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"이 활은 정말 아름다워요! 이게 트리아스가 말했던 그 활이 아닐까요?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"이 활은 정말 아름다워요! 이게 트리아스가 말했던 그 활이 아닐까요?",color:"aqua"}]}
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"هذه القوس رائعة! أليس هي التي حدثني عنها ترياس؟","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"هذه القوس رائعة! أليس هي التي حدثني عنها ترياس؟",color:"aqua"}]}
 
 #RUSSIAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Этот лук великолепен! Разве это не тот, о котором говорил Триас?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Этот лук великолепен! Разве это не тот, о котором говорил Триас?",color:"aqua"}]}
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"¡Este arco es precioso! ¿No es el que Trias me mencionó?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"¡Este arco es precioso! ¿No es el que Trias me mencionó?",color:"aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Dieser Bogen ist wunderschön! Ist das nicht der, von dem Trias mir erzählt hat?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Dieser Bogen ist wunderschön! Ist das nicht der, von dem Trias mir erzählt hat?",color:"aqua"}]}
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"यह धनुष सुंदर है! क्या यह वही नहीं है जिसके बारे में त्रायस ने मुझे बताया था?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"यह धनुष सुंदर है! क्या यह वही नहीं है जिसके बारे में त्रायस ने मुझे बताया था?",color:"aqua"}]}
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"Este arco é deslumbrante! Não é aquele sobre o qual Trias me falou?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Este arco é deslumbrante! Não é aquele sobre o qual Trias me falou?",color:"aqua"}]}
 
 #Simplified Chinese
-tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,"color":"dark_red","extra":[{"text":" : "},{"text":"这把弓太棒了！不过这不是Trias跟我提到过的那把吗？","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"这把弓太棒了！不过这不是Trias跟我提到过的那把吗？",color:"aqua"}]}

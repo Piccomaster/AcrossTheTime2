@@ -25,7 +25,7 @@ execute as @a run function att2:items/food/apple_0
 execute as @a run function att2:items/food/apple_0
 execute as @a run function att2:items/food/apple_0
 scoreboard players add @a CHRONOTON 50
-tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+50 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+50 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq19
 #return 1->make command block runing

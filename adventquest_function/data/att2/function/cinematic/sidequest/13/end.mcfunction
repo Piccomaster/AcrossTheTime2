@@ -20,11 +20,11 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq13/garry_tras
 xp add @a 4000 points
 execute as @a run function att2:items/food/beetroot_soup_0
 execute if score choice SQ13 matches 3 run scoreboard players add @a CHRONOTON 200
-execute if score choice SQ13 matches 3 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+200 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ13 matches 3 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+200 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ13 matches 2 run scoreboard players add @a CHRONOTON 150
-execute if score choice SQ13 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+150 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ13 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+150 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ13 matches 1 run scoreboard players add @a CHRONOTON 100
-execute if score choice SQ13 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+100 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ13 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+100 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq13
 #return 1->make command block runing

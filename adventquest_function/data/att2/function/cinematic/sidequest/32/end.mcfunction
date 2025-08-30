@@ -24,11 +24,11 @@ function att2:items/food/cooked_porkchop_0
 function att2:items/food/cooked_porkchop_0
 function att2:items/food/cooked_porkchop_0
 execute if score choice SQ32 matches 1 run scoreboard players add @a CHRONOTON 50
-execute if score choice SQ32 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+50 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ32 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+50 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ32 matches 2 run scoreboard players add @a CHRONOTON 100
-execute if score choice SQ32 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+100 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ32 matches 2 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+100 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ32 matches 3 run scoreboard players add @a CHRONOTON 300
-execute if score choice SQ32 matches 3 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+300 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
+execute if score choice SQ32 matches 3 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+300 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq32
 #return 1->make command block runing

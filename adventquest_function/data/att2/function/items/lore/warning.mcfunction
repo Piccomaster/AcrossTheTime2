@@ -8,7 +8,7 @@ give @s written_book[lore=[{text:"§7 BOOM"}],written_book_content={author:"Tina
 
 give @s written_book[lore=[{text:"§7 BOOM"}],written_book_content={author:"Tina",pages:[{raw:{text:"",extra:[{text:"You thought you"},{text:"\n"},{text:"could just "},{text:"\n"},{text:"indefinitely follow "},{text:"\n"},{text:"me without getting a "},{text:"\n"},{text:"taste of my "},{text:"\n"},{text:"speciality ?"},{text:"\n"},{text:""},{text:"\n"},{text:""},{text:"\n"},{text:""},{text:"\n"},{text:""},{text:"\n"},{text:""},{text:"\n"},{text:""},{text:"\n"},{text:""},{text:"\n"},{text:""},{text:"\n"}]}}],title:{raw:"§fWarning"}},custom_data={Rarity:"misc",warning:true},tooltip_style="minecraft:rarity/quest/quest"]
 
-give @s written_book[lore=[{text:"§7BOOOMMMM!"}],written_book_content={author:"Tina",pages:[{raw:{"extra":[{text:"你觉得你能一直跟着我？ 让你看看我的厉害！"}],text:""}}],title:{raw:"§f警告"}},custom_data={Rarity:"misc",warning:true},tooltip_style="minecraft:rarity/quest/quest"]
+give @s written_book[lore=[{text:"§7BOOOMMMM!"}],written_book_content={author:"Tina",pages:[{raw:{extra:[{text:"你觉得你能一直跟着我？ 让你看看我的厉害！"}],text:""}}],title:{raw:"§f警告"}},custom_data={Rarity:"misc",warning:true},tooltip_style="minecraft:rarity/quest/quest"]
 
 #chest name set
 execute in overworld run data merge block -4334 53 -5981 {CustomName:[{translate:att2.chest.book.name}]}
