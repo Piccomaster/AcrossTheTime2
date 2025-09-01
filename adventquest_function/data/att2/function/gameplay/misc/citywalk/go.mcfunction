@@ -47,7 +47,7 @@ execute as @s[scores={DIMENSION=6},x=3769,z=4053,dx=237,dz=-260] run function at
 execute if score TRUE CAL matches 1 run return 0
 
 ##Zirthion FROM 7120 7168 TO 7375 7500
-execute as @s[scores={DIMENSION=4},x=7120,z=7168,dx=255,dz=339] run function att2:gameplay/misc/citywalk/zirthion
+execute as @s[scores={DIMENSION=4},x=7120,z=7168,dx=355,dz=339] run function att2:gameplay/misc/citywalk/zirthion
 #if success -> Stop the command below
 execute if score TRUE CAL matches 1 run return 0
 

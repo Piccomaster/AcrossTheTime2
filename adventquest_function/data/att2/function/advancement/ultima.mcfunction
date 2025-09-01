@@ -11,4 +11,4 @@ execute at @s run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:2,FireworksIt
 
 execute at @s run function att2:sound/misc/ultima
 function att2:advancement/exploit_50
-function att2:gameplay/legendary/ultima/obtain
+function att2:items/legendary/ultima

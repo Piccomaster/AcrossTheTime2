@@ -4,4 +4,4 @@
 #################################################################
 
 ##test arrow
-execute as @e[type=#minecraft:arrows,distance=..4] at @s run function att2:gameplay/enveffect/elite/mechanic/fb_arrow/arrow_detection
+execute as @e[type=#minecraft:arrows,distance=..4,tag=!BE_ATK] at @s run function att2:gameplay/enveffect/elite/mechanic/fb_arrow/arrow_detection

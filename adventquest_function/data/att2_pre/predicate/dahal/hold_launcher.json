@@ -5,12 +5,15 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
+                "type": "minecraft:player",
                 "equipment": {
                     "mainhand": {
-                        "items": [
-                            "minecraft:written_book"
-                        ],
-                        "nbt": "{Dahal:book}"
+                        "items": "minecraft:enchanted_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Dahal": "launcher"
+                            }
+                        }
                     }
                 }
             }
@@ -21,11 +24,13 @@
             "predicate": {
                 "type": "minecraft:player",
                 "equipment": {
-                    "mainhand": {
-                        "items": [
-                            "minecraft:enchanted_book"
-                        ],
-                        "nbt": "{Dahal:launcher}"
+                    "offhand": {
+                        "items": "minecraft:enchanted_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Dahal": "launcher"
+                            }
+                        }
                     }
                 }
             }

@@ -3,10 +3,6 @@
 #Level and Cooldown	for Fireline								#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-
 scoreboard players operation @s[scores={SPELL2_CAP=1}] COOLDOWN2 = lvl1 COOLDOWN2
 scoreboard players operation @s[scores={SPELL2_CAP=2}] COOLDOWN2 = lvl2 COOLDOWN2
 scoreboard players operation @s[scores={SPELL2_CAP=3}] COOLDOWN2 = lvl3 COOLDOWN2

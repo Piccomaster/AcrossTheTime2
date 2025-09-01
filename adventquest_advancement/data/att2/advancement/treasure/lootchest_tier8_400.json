@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:chest"
         },
-        "title": {"translate":"Unseen Chest Addict"},
-        "description": {"translate":"Open 400 Unseen Chests"},
+        "title": {"translate": "att2.advancement.treasure.title.lootchest_tier8_400"},
+        "description": {"translate": "att2.advancement.treasure.description.lootchest_tier8_400"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/lootchest_tier8_250",

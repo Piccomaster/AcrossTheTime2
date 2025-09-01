@@ -3,10 +3,6 @@
 #Level and Cooldown	for Earthquake 								#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-
 scoreboard players operation @s[scores={SPELL10_CAP=1}] COOLDOWN10 = lvl1 COOLDOWN10
 scoreboard players operation @s[scores={SPELL10_CAP=2}] COOLDOWN10 = lvl2 COOLDOWN10
 scoreboard players operation @s[scores={SPELL10_CAP=3}] COOLDOWN10 = lvl3 COOLDOWN10

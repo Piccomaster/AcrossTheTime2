@@ -3,10 +3,6 @@
 #Level and Cooldown for fireball								#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-
 scoreboard players operation @s[scores={SPELL1_CAP=1}] COOLDOWN1 = lvl1 COOLDOWN1
 scoreboard players operation @s[scores={SPELL1_CAP=2}] COOLDOWN1 = lvl2 COOLDOWN1
 scoreboard players operation @s[scores={SPELL1_CAP=3}] COOLDOWN1 = lvl3 COOLDOWN1

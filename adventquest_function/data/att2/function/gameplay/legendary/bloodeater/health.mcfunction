@@ -3,7 +3,6 @@
 #Apply level 1 effect for Blood-eater user             			#
 #################################################################
 
-
 $attribute @s minecraft:max_health modifier add bloodeater_healing $(healing) add_multiplied_total
 effect give @s minecraft:instant_health 1 255 true
 effect clear @s minecraft:instant_health
