@@ -32,7 +32,7 @@ scoreboard players set @a[scores={OURANOS=-1}] JUMP_SAFE 100
 
 # TP
 execute as @a[x=7419,y=201,z=6465,dx=-7,dy=-10,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~1
-execute as @a[scores={OURANOS=-1}] run tp @e[type=minecraft:wolf,tag=BattleMusic,x=7419,y=201,z=6465,distance=..500] @s
+execute as @a[scores={OURANOS=-1},limit=1] run tp @e[type=minecraft:wolf,tag=BattleMusic,x=7419,y=201,z=6465,distance=..500] @s
 
 # Circles trigger area
 execute if score path3_mech2_circles OURANOS matches 0 if entity @a[scores={OURANOS=-1},x=7704,y=170,z=6437,distance=..8,gamemode=adventure] positioned 7704 170 6437 run function att2:cinematic/act_4/ouranos/tower3_path/mech2/circle_true

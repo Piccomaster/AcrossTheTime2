@@ -1,7 +1,0 @@
-{
-  "criteria": {
-    "res_trigger": {
-      "trigger": "minecraft:entity_hurt_player"
-    }
-  }
-}

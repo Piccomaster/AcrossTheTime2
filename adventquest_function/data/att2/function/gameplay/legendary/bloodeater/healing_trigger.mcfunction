@@ -16,9 +16,11 @@ execute if score temp_value_11 CAL >= temp_value_12 CAL run scoreboard players o
 #max health limit
 execute if score temp_value_11 CAL >= temp_value_12 CAL run scoreboard players operation temp_value_11 CAL = temp_value_12 CAL
 #cal healing
-scoreboard players operation temp_value_11 CAL -= temp_value_12 CAL
+scoreboard players operation temp_value_11 CAL *= 100 CAL
+scoreboard players operation temp_value_11 CAL /= temp_value_12 CAL
+scoreboard players operation temp_value_11 CAL -= 100 CAL
 #get score
-execute store result storage att2:bloodeater healing int 1 run scoreboard players get temp_value_11 CAL
+execute store result storage att2:bloodeater healing double 0.01 run scoreboard players get temp_value_11 CAL
 #healing
 function att2:gameplay/legendary/bloodeater/healing
 ###################################

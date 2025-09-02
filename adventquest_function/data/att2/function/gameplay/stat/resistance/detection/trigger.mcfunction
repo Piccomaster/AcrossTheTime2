@@ -48,4 +48,4 @@ scoreboard players reset RES_TOT CAL
 scoreboard players reset absorption CAL
 scoreboard players reset @s RES_DETECTION
 
-advancement revoke @s only att2_test:res_trigger
+#advancement revoke @s only att2_test:res_trigger

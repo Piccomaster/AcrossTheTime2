@@ -266,13 +266,15 @@
   - Runes (from invasions and maze encounters)
 - Some previously empty containers now generate loot.
 
-### Spell System Balance
+### Spell System Balance/Optimization
 - **Spell Damage**: Now scales slightly with *difficulty*.
 - Spells no longer trigger *invincibility frames* on monsters.
 - **Tiid Klo Ul Spell Adjustments**:
   - *Slow Effect* nerfed from *90% → 45%* at max level, but no longer interrupted by other spells.
 - Gain **spell XP** when **killing monsters** with offensive spells.
-
+- **Spell Interaction Changes**
+  - Damage spells no longer interrupt Nove/Corruption
+  - Damage spells cast during Nove/Corruption spells have significantly reduced damage
 ### Economy
 - Increased potion prices.
 

@@ -41,6 +41,11 @@ scoreboard players operation dahalburstBONUS SPDG = @s[scores={DAHALBURST=1..}] 
 scoreboard players operation dahalburstBONUS SPDG += 100 ENHANCEMENT
 scoreboard players operation finalDG SPDG *= dahalburstBONUS SPDG
 scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT
+##if nove/Corrupted ->50%/70% Damage
+execute as @s[tag=!Nova,tag=!Corrupted] run scoreboard players operation finalDG SPDG *= 100 CAL
+execute as @s[tag=Nova] run scoreboard players operation finalDG SPDG *= 50 CAL
+execute as @s[tag=Corrupted] run scoreboard players operation finalDG SPDG *= 70 CAL
+scoreboard players operation finalDG SPDG /= 100 CAL
 #storage spell damage
 execute store result storage att2:sp_dmg SP5 int 1 run scoreboard players get finalDG SPDG
 #reset

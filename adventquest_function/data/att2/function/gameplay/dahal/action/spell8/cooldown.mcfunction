@@ -3,10 +3,6 @@
 #Level and Cooldown	for swarm arrow								#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-
 scoreboard players operation @s[scores={SPELL8_CAP=1}] COOLDOWN8 = lvl1 COOLDOWN8
 scoreboard players operation @s[scores={SPELL8_CAP=2}] COOLDOWN8 = lvl2 COOLDOWN8
 scoreboard players operation @s[scores={SPELL8_CAP=3}] COOLDOWN8 = lvl3 COOLDOWN8
