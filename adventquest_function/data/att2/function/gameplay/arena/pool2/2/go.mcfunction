@@ -25,6 +25,11 @@ execute if score Pool2_A2 ARENA matches 0.. if score Pool2_Timer1 ARENA matches 
 
 # Player failed destroying all bosses Pool2_A2 and died
 execute if score Pool2_A2 ARENA matches 0.. if entity @e[x=4946,y=70,z=-5296,dx=108,dy=18,dz=88,tag=ArenaBoss] unless entity @a[x=4946,y=70,z=-5296,dx=108,dy=18,dz=88,gamemode=adventure] run function att2:gameplay/arena/pool2/2/fail
+
+##Make voke has classlvl
+execute if score Pool2_A2 ARENA matches 0.. as @e[type=vex,x=4946,y=70,z=-5296,dx=108,dy=18,dz=88,tag=!ArenaMinion] at @s unless score @s CLASSLEVEL matches 1.. run function att2:gameplay/arena/vex_tag
+execute if score Pool2_A2 ARENA matches 0.. as @e[type=vex,x=4946,y=70,z=-5296,dx=108,dy=18,dz=88,tag=!Empty,scores={CLASSLEVEL=1..}] at @s run data merge entity @s {DeathLootTable:"att2:empty",Tags:["Empty"]}
+
 ##boss_timer->GO
 execute if score pool2_2_t BOSS_TIME matches 0.. run scoreboard players add pool2_2_t BOSS_TIME 1
 

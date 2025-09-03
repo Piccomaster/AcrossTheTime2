@@ -6,3 +6,5 @@
 clear @s minecraft:brick[custom_name={translate:'item.quest.little_key.name'}] 1
 execute positioned -7456 125 -4389 run function att2:sound/misc/unlock1
 function att2:physicmod/reg1/nojelanth/little_door1
+
+setblock -7459 114 -4377 redstone_torch

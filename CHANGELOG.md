@@ -293,6 +293,9 @@
 ### Side Quest Achievement Sync
 - Automatically grants achievements to eligible offline players when others complete side quests.
 
+### Arena time record
+- Arena timing no longer displays errors
+
 
 ## **Miscellaneous**
 
@@ -305,6 +308,9 @@
 
 ### Mapping Level design
 - Added more light sources to maps.
+
+### Shop Reset
+- Manually refreshing the store displays the store's contents directly
 
 ### Issues
 - Various minor bugs have been fixed.

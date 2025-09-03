@@ -8,3 +8,6 @@ execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot2"]}] 
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot1"]}] run function att2:gameplay/shop/slot_management/value_cal/potion_oswald_flamel
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot4"]}] run function att2:gameplay/shop/slot_management/value_cal/potion_oswald_flamel
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot5"]}] run function att2:gameplay/shop/slot_management/value_cal/potion_oswald_flamel
+
+##show shop case
+execute at @e[type=#minecraft:pnj,name="OSWALD FLAMEL"] if entity @a[distance=..10] run function att2:gameplay/shop/seller/oswald_flamel_shop_opening

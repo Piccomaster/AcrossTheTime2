@@ -5,8 +5,8 @@
 
 fill -7431 139 -6011 -7437 139 -6011 minecraft:sea_lantern replace minecraft:black_concrete
 fill -7434 139 -6014 -7434 139 -6008 minecraft:sea_lantern replace minecraft:black_concrete
-setblock -7434 137 -6011 minecraft:lever[face=ceiling] destroy
 setblock -7434 138 -6011 minecraft:emerald_block destroy
+setblock -7434 137 -6011 minecraft:lever[face=ceiling] destroy
 
 fill -7433 138 -6010 -7435 138 -6012 minecraft:air replace minecraft:player_wall_head
 fill -7437 138 -6014 -7431 134 -6008 minecraft:air replace minecraft:orange_stained_glass_pane

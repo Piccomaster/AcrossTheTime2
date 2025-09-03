@@ -2161,6 +2161,7 @@ scoreboard players set potion59 PRICES 470
 scoreboard players operation potion59 PRICES *= discount discount_calc
 scoreboard players operation potion59 PRICES /= 100 discount_calc
 #food
+scoreboard players set dried_kelp PRICES 1
 scoreboard players set apple PRICES 4
 scoreboard players operation apple PRICES *= discount discount_calc
 scoreboard players operation apple PRICES /= 100 discount_calc

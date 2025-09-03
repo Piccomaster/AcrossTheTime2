@@ -5,4 +5,4 @@
 
 execute as @s[scores={ESC=..49}] at @s run function att2:dialogs/gameplay/shop/not_enough_esc
 execute if score @s SPELL20_ESC matches 1.. run function att2:dialogs/gameplay/shop/upgrade_limited
-execute if entity @s[scores={ESC=50..}] if score @s SPELL20_ESC matches 1.. run function att2:gameplay/shop/purchase/spell/stock_upgrade_esc_buying
+execute if entity @s[scores={ESC=50..}] unless score @s SPELL20_ESC matches 1.. run function att2:gameplay/shop/purchase/spell/stock_upgrade_esc_buying

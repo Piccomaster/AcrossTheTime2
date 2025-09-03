@@ -12,6 +12,6 @@ execute positioned -10027 71 -10267 run function att2:gameplay/maze/summon/runic
 execute positioned -9959 71 -10267 run function att2:gameplay/maze/summon/runic_chest/3
 execute positioned -9935 71 -10259 run function att2:gameplay/maze/summon/runic_chest/3
 execute positioned -9923 71 -10203 run function att2:gameplay/maze/summon/runic_chest/3
-execute positioned -9878 71 -10211 run function att2:gameplay/maze/summon/runic_chest/3
-execute positioned -9878 71 -10211 run function att2:gameplay/maze/summon/runic_chest/3
+#execute positioned -9878 71 -10211 run function att2:gameplay/maze/summon/runic_chest/3
+#execute positioned -9878 71 -10211 run function att2:gameplay/maze/summon/runic_chest/3
 execute positioned -9903 71 -10283 run function att2:gameplay/maze/summon/runic_chest/3

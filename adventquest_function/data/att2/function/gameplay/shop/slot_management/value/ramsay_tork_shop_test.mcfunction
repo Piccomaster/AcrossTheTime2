@@ -14,3 +14,6 @@ execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot4"]}] 
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot3"]}] run function att2:gameplay/shop/slot_management/value_cal/armor_ramsay_tork
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot2"]}] run function att2:gameplay/shop/slot_management/value_cal/armor_ramsay_tork
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot1"]}] run function att2:gameplay/shop/slot_management/value_cal/armor_ramsay_tork
+
+##show shop case
+execute at @e[type=#minecraft:pnj,name="RAMSAY TORK"] if entity @a[distance=..10] run function att2:gameplay/shop/seller/ramsay_tork_shop_opening

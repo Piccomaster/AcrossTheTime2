@@ -6,6 +6,7 @@
 #set dahal test
 scoreboard players set DAHAL_TEST CAL 1
 
+function att2:gameplay/dahal/action/spell40/cooldown
 tag @s add Corrupted
 scoreboard players remove @s DAHAL 100
 
@@ -16,7 +17,6 @@ scoreboard players set @s SPELL40_MUSIC 0
 # stopsound @s[tag=Corrupted,scores={MUSIC_BOSS=0}] music
 tag @s[tag=Corrupted,scores={MUSIC_BOSS=0}] add NoAutoMusic
 
-function att2:gameplay/dahal/action/spell40/cooldown
 particle minecraft:item{item:"minecraft:nether_wart_block"} ~ ~1 ~ 0 0 0 1.2 500 force @a
 function att2:sound/dahal/corruption_start
 

@@ -10,3 +10,6 @@ execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot5"]}] 
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot4"]}] run function att2:gameplay/shop/slot_management/value_cal/potion_jabir_hayyan
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot3"]}] run function att2:gameplay/shop/slot_management/value_cal/potion_jabir_hayyan
 execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot2"]}] run function att2:gameplay/shop/slot_management/value_cal/potion_jabir_hayyan
+
+##show shop case
+execute at @e[type=#minecraft:pnj,name="JABIR HAYYAN"] if entity @a[distance=..10] run function att2:gameplay/shop/seller/jabir_hayyan_shop_opening

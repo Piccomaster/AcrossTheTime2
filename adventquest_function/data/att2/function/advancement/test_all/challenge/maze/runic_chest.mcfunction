@@ -8,7 +8,7 @@ execute if score number MAZE matches 1 if score runic_chest_opened MAZE matches 
 ##maze 2 runic_chest
 execute if score number MAZE matches 2 if score runic_chest_opened MAZE matches 8.. run advancement grant @a only att2:challenge/maze_runic_chest_2
 ##maze 3 runic_chest
-execute if score number MAZE matches 3 if score runic_chest_opened MAZE matches 12.. run advancement grant @a only att2:challenge/maze_runic_chest_3
+execute if score number MAZE matches 3 if score runic_chest_opened MAZE matches 10.. run advancement grant @a only att2:challenge/maze_runic_chest_3
 ##maze 4 runic_chest
 execute if score number MAZE matches 4 if score runic_chest_opened MAZE matches 19.. run advancement grant @a only att2:challenge/maze_runic_chest_4
 ##maze 5 runic_chest

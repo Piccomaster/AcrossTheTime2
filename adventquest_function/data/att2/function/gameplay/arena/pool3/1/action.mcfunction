@@ -11,7 +11,7 @@ function att2:gameplay/arena/shadow_tp
 execute as 00000000-0000-008c-0000-00000000008c at @s run function att2:gameplay/arena/shadow_effect
 
 # Testing if Shadow died
-execute if entity @a[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,gamemode=adventure] unless entity @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,nbt={UUID:[I;0,140,0,140]}] run kill @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,nbt={UUID:[I;0,156,0,156]}]
+execute if entity @a[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,gamemode=adventure] unless entity @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=ShadowBoss,type=iron_golem] run kill @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=ShadowPart]
 
 # Timer boss attack + minions summoning
 execute if score Pool3_A1_Timer ARENA matches 1 as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=ArenaMinion] run kill @s

@@ -3,7 +3,7 @@
 #Process Rodmat's magma eating                              		#
 #####################################################################
 
-kill @e[type=minecraft:magma_cube,tag=RodmatMinion,limit=1,sort=nearest]
+kill @n[type=minecraft:magma_cube,tag=RodmatMinion]
 
 scoreboard players add Rodmat_eating SQ45 1
 

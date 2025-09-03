@@ -7,3 +7,5 @@ setblock -5912 123 -4365 minecraft:white_wool destroy
 setblock -5909 124 -4367 minecraft:redstone_block destroy
 setblock -5915 127 -4365 minecraft:redstone_block destroy
 setblock -5909 125 -4368 minecraft:air destroy
+
+setblock -5913 123 -4365 minecraft:redstone_wall_torch[facing=west] destroy
