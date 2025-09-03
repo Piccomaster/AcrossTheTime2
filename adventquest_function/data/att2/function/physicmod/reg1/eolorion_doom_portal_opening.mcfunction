@@ -5,4 +5,4 @@
 
 setblock -5229 144 -6293 minecraft:air destroy
 setblock -5229 143 -6293 minecraft:air destroy
-setblock -5229 141 -6294 minecraft:white_wool destroy
+execute in overworld unless block -5229 141 -6294 white_wool run setblock -5229 141 -6294 minecraft:white_wool destroy

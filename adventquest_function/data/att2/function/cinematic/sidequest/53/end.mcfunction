@@ -4,6 +4,7 @@
 #################################################################
 
 scoreboard players set SQ53 SIDEQUEST 3
+scoreboard players set cinematic SQ53 2
 function att2:dialogs/sidequest/sq53/player_5
 execute at @a run function att2:sound/misc/mission_progress
 execute positioned -1588 29 -605 run function att2:sound/door/simple_stone_door

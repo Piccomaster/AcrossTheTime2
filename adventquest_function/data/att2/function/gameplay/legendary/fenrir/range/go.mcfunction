@@ -13,7 +13,7 @@ execute if score TIMER CAL matches 1 store result storage att2:damage value int 
 execute if score TIMER CAL matches 1 store result storage att2:damage owner int 1 run scoreboard players get @s OWNER
 #damage
 execute if score TIMER CAL matches 1 run kill @e[distance=..10,tag=FENNIR_ICE,type=armor_stand,limit=1,sort=nearest]
-execute if score TIMER CAL matches 1 as @e[distance=..5,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!Guardian] at @s run function att2:gameplay/legendary/fenrir/range/enemy_effect with storage att2:damage
+execute if score TIMER CAL matches 1 as @e[distance=..5,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!Guardian,tag=!ShadowPart] at @s run function att2:gameplay/legendary/fenrir/range/enemy_effect with storage att2:damage
 #other effect
 execute as @e[distance=..5,type=#att2_entity:projectile,tag=!UNBREAK] at @s run function att2:gameplay/legendary/fenrir/range/projectile_test
 #range particle

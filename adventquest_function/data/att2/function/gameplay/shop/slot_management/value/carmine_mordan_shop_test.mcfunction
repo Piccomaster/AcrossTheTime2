@@ -25,3 +25,6 @@ execute if score level statSMITH matches 2.. as @e[type=minecraft:armor_stand,nb
 execute if score level statSMITH matches 3.. as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot6"]}] run function att2:gameplay/shop/slot_management/value_cal/armor_carmine_mordan
 execute if score level statSMITH matches 4.. as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot7"]}] run function att2:gameplay/shop/slot_management/value_cal/armor_carmine_mordan
 execute if score level statSMITH matches 5.. as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot5"]}] run function att2:gameplay/shop/slot_management/value_cal/armor_carmine_mordan
+
+##show shop case
+execute at @e[type=#minecraft:pnj,name="CARMINE MORDAN"] if entity @a[distance=..10] run function att2:gameplay/shop/seller/carmine_mordan_shop_opening

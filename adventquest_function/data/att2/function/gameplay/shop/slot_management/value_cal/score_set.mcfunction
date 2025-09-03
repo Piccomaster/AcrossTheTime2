@@ -48,5 +48,3 @@ execute if entity @s[nbt={Tags:["ShotSlotHolder","slot9"]}] run scoreboard playe
 execute if entity @s[nbt={Tags:["ShotSlotHolder","slot10"]}] run scoreboard players operation armor_carmine_mordan_slot10 SHOP_OP1 = @s SHOP_OP1
 execute if entity @s[nbt={Tags:["ShotSlotHolder","slot11"]}] run scoreboard players operation armor_carmine_mordan_slot11 SHOP_OP1 = @s SHOP_OP1
 execute if entity @s[nbt={Tags:["ShotSlotHolder","slot12"]}] run scoreboard players operation armor_carmine_mordan_slot12 SHOP_OP1 = @s SHOP_OP1
-#shop tips
-execute if score @s SHOP_OP1 matches 976.. at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:sound/shop/shop_cue

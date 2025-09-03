@@ -4,8 +4,6 @@
             "rolls": 4,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:dried_kelp",
                     "weight": 1,
                     "functions": [
                         {
@@ -15,7 +13,9 @@
                                 "max": 4
                             }
                         }
-                    ]
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/food/dried_kelp"
                 }
             ]
         }

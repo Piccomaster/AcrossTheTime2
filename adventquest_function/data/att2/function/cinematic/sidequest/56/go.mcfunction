@@ -46,10 +46,10 @@ execute if score SQ56 SIDEQUEST matches 5 if score proposal_2 SQ56 matches 1 if 
 execute if score SQ56 SIDEQUEST matches 6 if entity @a[x=-5277,y=105,z=-6326,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/56/step7
 
 # Player is close to the secret door with the Medaillon in Eolorion Academy
-execute if score SQ56 SIDEQUEST matches 7 if entity @a[x=-5254,y=104,z=-6338,distance=..4,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_star",count:1,components:{"minecraft:custom_name":{translate:'item.quest.medaillon.name'}}}]}] run function att2:cinematic/sidequest/56/step8
+execute if score SQ56 SIDEQUEST matches 7 if entity @a[x=-5253,y=96,z=-6322,distance=..4,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_star",components:{"minecraft:custom_name":{translate:"item.quest.medaillon.name"}}}]}] run function att2:cinematic/sidequest/56/step8
 
 # Start Cinematic when player is close to Cassandre
-execute if score SQ56 SIDEQUEST matches 7..8 if score cinematic SQ56 matches 10 at 00000000-0000-153a-0000-00000000153a if entity @a[distance=..4,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_star",count:1,components:{"minecraft:custom_name":{translate:'item.quest.medaillon.name'}}}]}] run function att2:cinematic/sidequest/56/cassandre/start_cinematic9
+execute if score SQ56 SIDEQUEST matches 7..8 if score cinematic SQ56 matches 10 at 00000000-0000-153a-0000-00000000153a if entity @a[distance=..4,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_star",components:{"minecraft:custom_name":{translate:'item.quest.medaillon.name'}}}]}] run function att2:cinematic/sidequest/56/cassandre/start_cinematic9
 
 # Player bring back Medaillon to Cassandre
 execute if score SQ56 SIDEQUEST matches 7..8 if score cinematic SQ56 matches 11 if entity @a run function att2:cinematic/sidequest/56/cassandre/cinematic9

@@ -1,6 +1,10 @@
 {
   "values": [
     "minecraft:prismarine",
+    "minecraft:prismarine_bricks",
+    "minecraft:bricks",
+    "minecraft:polished_granite",
+    "minecraft:granite",
     "minecraft:soul_sand",
     "minecraft:obsidian",
     "minecraft:red_nether_bricks",
