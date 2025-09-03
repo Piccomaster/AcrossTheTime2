@@ -207,6 +207,7 @@
 - Some dialogs have been revised.
 - Tips messages have been improved.
 
+
 ## **Balance Changes**
 
 ### Attribute System Update
@@ -275,8 +276,10 @@
 - **Spell Interaction Changes**
   - Damage spells no longer interrupt Nove/Corruption
   - Damage spells cast during Nove/Corruption spells have significantly reduced damage
+
 ### Economy
 - Increased potion prices.
+- Increases the "Chaos Sovereign Scales" sell value to 200.
 
 ### Exploits
 - Maximum number of Exploit points increased to 20032.
