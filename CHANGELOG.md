@@ -268,14 +268,52 @@
 - Some previously empty containers now generate loot.
 
 ### Spell System Balance/Optimization
+
 - **Spell Damage**: Now scales slightly with *difficulty*.
 - Spells no longer trigger *invincibility frames* on monsters.
+
 - **Tiid Klo Ul Spell Adjustments**:
   - *Slow Effect* nerfed from *90% → 45%* at max level, but no longer interrupted by other spells.
+
 - Gain **spell XP** when **killing monsters** with offensive spells.
+
 - **Spell Interaction Changes**
   - Damage spells no longer interrupt Nove/Corruption
   - Damage spells cast during Nove/Corruption spells have significantly reduced damage
+  
+### Spell System Balance/Optimization
+
+- **Spell Damage**: Now scales slightly with *difficulty*.
+- Spells no longer trigger *invincibility frames* on monsters.
+
+- **Tiid Klo Ul Spell Adjustments**:
+  - *Slow Effect* nerfed from *90% → 45%* at max level, but no longer interrupted by other spells.
+
+- Gain **spell XP** when **killing monsters** with offensive spells.
+
+- **Spell Interaction Changes**
+  - Damage spells no longer interrupt Nove/Corruption
+  - Damage spells cast during Nove/Corruption spells have significantly reduced damage
+ 
+ - ### **Stock System Update**
+    - **Opening Method**: Hold **conscience** + `Shift` + `Right-click`
+ 
+  - ####  **Page Functions**: Previous Page Icon
+    - **Click**: Return to previous page  
+    - **Shift + Click**: Quick-deposit inventory items into Stock
+
+  - ####  **Page Functions**: Next Page Icon  
+    - **Click**: Go to next page
+    - **Shift + Click**: Quick-move Stock items to inventory
+
+  - ####  **Page Functions**: Discard Icon
+    - **Double-click**: Pick up nearby ground items into Stock
+    - **Drop**: Throw out all items in your Stock
+
+  - ####  **Page Functions**: Quick Loot Feature
+    - Hold **conscience** + Press `Discard key`:
+    - **First press**: Preview contents of targeted chest
+    - **Second press**: Transfer all items to player (only works on opened chests)
 
 ### Economy
 - Increased potion prices.
