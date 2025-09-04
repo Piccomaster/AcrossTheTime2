@@ -1,4 +1,9 @@
-##开启分数
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(initialize)                                 #
+#################################################################
+
+##Turn on scores
 scoreboard objectives add Stock_Open dummy
 scoreboard objectives add SPELL20_PAGE dummy
 scoreboard objectives add SPELL20_LVL dummy

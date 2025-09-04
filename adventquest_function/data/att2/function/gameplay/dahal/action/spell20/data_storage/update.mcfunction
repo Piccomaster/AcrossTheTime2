@@ -1,6 +1,11 @@
-##将全部物品清除
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(update)                                 #
+#################################################################
+
+##Clear all items
 data remove entity @s Items
-##将对应上/下一页的物品更新到箱子矿车内
+##will correspond to on/The items on the next page are updated in the box miner
 $data modify entity @s Items set from storage att2:spell20_$(player) page_$(page_now)
-##更新三个触发器(同步当前的页面最大值和当前页面)
+##Update three triggers(Synchronize the current page maximum with the current page)
 function att2:gameplay/dahal/action/spell20/data_storage/trigger with storage att2:spell20

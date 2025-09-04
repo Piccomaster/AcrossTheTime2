@@ -1,4 +1,9 @@
-##设置初始检测分数
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(kill_item)                                 #
+#################################################################
+
+##Set Initial Test Score
 scoreboard players set Stock_Slot CAL 0
-##遍历所有槽位进行放置
+##Traverse all slots for placement
 function att2:gameplay/dahal/action/spell20/auto_pickup/iteration

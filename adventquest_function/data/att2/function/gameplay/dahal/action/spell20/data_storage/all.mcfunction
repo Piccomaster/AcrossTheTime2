@@ -1,6 +1,11 @@
-##更新当前页面全部物品
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(all)                                 #
+#################################################################
+
+##Update all items on the current page
 $data modify entity @s Items set from storage att2:spell20_$(player) page_$(page_now)
-##更新三个触发器
+##Update three triggers
 $item replace entity @s container.8 with shulker_shell[custom_data={Stock:page_pr,EquipmentType:misc,Trigger:true},custom_name={translate:att2.spell20.page_pr.name},lore=[{translate:att2.spell20.page_pr.lore.1},{translate:att2.spell20.page_pr.lore.2},{translate:att2.spell20.page_pr.lore.3},{translate:att2.spell20.page},{text:"§e$(page_now) §f/ §6$(page_max)"}]]
 
 $item replace entity @s container.17 with shulker_shell[custom_data={Stock:drop,EquipmentType:misc,Trigger:true},custom_name={translate:att2.spell20.drop.name},lore=[{translate:att2.spell20.drop.lore.1},{translate:att2.spell20.drop.lore.2},{translate:att2.spell20.drop.lore.3},{translate:att2.spell20.page},{text:"§e$(page_now) §f/ §6$(page_max)"}]]

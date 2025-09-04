@@ -1,6 +1,11 @@
-##注:此函数被玩家丢弃的物品执行
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(origin_detection)                                 #
+#################################################################
 
-##点击两次吸取物品
+##   ---:This function is executed by an item discarded by the player
+
+##Double tap to aspirate item
 execute on origin if score @s NUMEROJOUEUR = @n[distance=..0,type=chest_minecart,tag=Stock] OWNER run scoreboard players set #TEST CAL 1
-##如果符合，kill自己
+##If complies，killPersonal
 execute if score #TEST CAL matches 1 run kill @s[type=item]

@@ -1,17 +1,22 @@
-##注:此函数为箱子矿车执行
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(previous_trigger)                                 #
+#################################################################
 
-##重置吸取分数
+##   ---:This function is executed for box miners
+
+##Reset fetch score
 scoreboard players reset @s Stock_Pick_Up
 
-##设置测试分数
+##Set Test Score
 scoreboard players set #TEST CAL 0
-##检测对应玩家是否将该触发器通过f或者其他方式调换到背包中(如果鼠标指针中或者外面有被丢弃的该触发器，那么不执行快速导入背包)
+##Detect whether the corresponding player passes the trigger throughfor some other way into the backpack.(If the trigger is discarded in or outside the mouse pointer，Then do not perform a quick import backpack)
 function att2:gameplay/dahal/action/spell20/page/cursor_detection with storage att2:spell20
 
 execute as @e[type=item,predicate=att2_pre:dahal/spell20/previous] run function att2:gameplay/dahal/action/spell20/page/origin_detection
 
-##如果存在对应玩家未丢弃触发器则执行以下内容
+##If there is a corresponding player that has not discarded the trigger, execute the following
 execute if score #TEST CAL matches 0 run function att2:gameplay/dahal/action/spell20/page/input_chest_minecart
 
-##如果测试分数为1 那么就是点击触发的该触发器，执行吸取物品功能
+##If the test score is1 Then it is the trigger that clicks the trigger，Perform the aspiration function
 execute if score #TEST CAL matches 1 run function att2:gameplay/dahal/action/spell20/page/previous

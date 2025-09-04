@@ -1,10 +1,15 @@
-##箱子矿车检测
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(persistence)                                 #
+#################################################################
+
+##Box Mining Vehicle Testing
 execute as @e[type=chest_minecart,tag=Stock] at @s run function att2:gameplay/dahal/action/spell20/detection/chest_minecart
-##玩家检测
+##Player Detection
 execute as @a at @s run function att2:gameplay/dahal/action/spell20/detection/player
-##检测玩家丢弃背包
+##Detect player discarded backpack
 execute as @e[type=item,predicate=att2_pre:conscience] run function att2:gameplay/dahal/action/spell20/detection/pack
-##获取抓取方块数据
+##Get crawl block data
 execute as @e[type=spectral_arrow,tag=Block_Catch] at @s run function att2:gameplay/dahal/action/spell20/block_catch/data_get
-##更新stock等级
+##Updatedstock1.
 execute if score tic TIMECOUNTER matches 7 run function att2:gameplay/dahal/action/spell20/lvl_update

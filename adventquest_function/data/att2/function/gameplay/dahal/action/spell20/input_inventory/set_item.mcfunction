@@ -1,6 +1,11 @@
-##将该物品放置在临时矿车内
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(set_item)                                 #
+#################################################################
+
+##Place the item in a temporary mine wagon
 $item replace entity @n[type=chest_minecart,tag=DROP,tag=New] container.$(slot) from entity @s container.$(slot)
-##清除该槽位物品
+##Clear this slot item
 $item replace entity @s container.$(slot) with air
-##总槽位减一
+##Total slots minus one
 scoreboard players remove #slot_max_player CAL 1

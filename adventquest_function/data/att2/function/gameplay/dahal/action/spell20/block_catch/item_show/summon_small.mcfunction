@@ -1,5 +1,10 @@
-##先生成展示实体
-##第一层
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(summon_small)                                 #
+#################################################################
+
+##Teacher becomes a display entity
+##First Layer
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","26"],transformation:{translation:[0.4f,0.10f,0.1f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
 
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","25"],transformation:{translation:[0.3f,0.10f,0.1f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
@@ -16,7 +21,7 @@ summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","19"],transformation:{translation:[-0.3f,0.10f,0.1f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
 
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","18"],transformation:{translation:[-0.4f,0.10f,0.1f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
-##第二层
+##Second Layer
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","17"],transformation:{translation:[0.4f,0.20f,0.0f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
 
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","16"],transformation:{translation:[0.3f,0.20f,0.0f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
@@ -34,7 +39,7 @@ summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained
 
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","9"],transformation:{translation:[-0.4f,0.20f,0.0f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
 
-##第三层
+##Third Layer
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","8"],transformation:{translation:[0.4f,0.30f,-0.1f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
 
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","7"],transformation:{translation:[0.3f,0.30f,-0.1f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
@@ -52,5 +57,5 @@ summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained
 
 summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","0"],transformation:{translation:[-0.4f,0.30f,-0.1f],scale:[0.1f,0.1f,0.1f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical}
 
-##同步玩家编号
+##Sync Player IDs
 scoreboard players operation @e[type=item_display,distance=..5,tag=New] OWNER = @s OWNER

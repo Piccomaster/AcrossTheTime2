@@ -1,12 +1,17 @@
-##注:此函数为箱子矿车执行
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(input_chest_minecart)                                 #
+#################################################################
 
-##获取玩家背包的全部物品/槽位数量
+##   ---:This function is executed for box miners
+
+##Get everything in a player backpack/Slot Amount
 function att2:gameplay/dahal/action/spell20/score/get_inventory with storage att2:spell20
 function att2:gameplay/dahal/action/spell20/score/get_slot_player with storage att2:spell20
 function att2:gameplay/dahal/action/spell20/score/get_slot_chest
-##检测玩家是否使用鼠标进行点击 -> 将该槽位的物品替换到玩家的鼠标槽位
+##Detect if the player is clicking with the mouse -> Replace the item in the slot with the player's mouse slot
 function att2:gameplay/dahal/action/spell20/data_storage/cursor with storage att2:spell20
-##更新三个触发器
+##Update three triggers
 function att2:gameplay/dahal/action/spell20/data_storage/trigger with storage att2:spell20
-##剩余槽位大于1时进行
+##Remaining slots are greater than1time to proceed
 execute if score slot_max_chest CAL matches 1.. run function att2:gameplay/dahal/action/spell20/input_chest_minecart/go

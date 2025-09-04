@@ -1,4 +1,9 @@
-##获取物品的数据
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(get_data)                                 #
+#################################################################
+
+##Get data on items
 data modify entity 00000001-0000-006f-0000-00010000006f equipment.mainhand set from entity @s Item
-##清除自己
+##Clear yourself
 kill @s[type=item]

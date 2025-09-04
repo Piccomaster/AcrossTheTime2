@@ -1,4 +1,9 @@
-##重置分数
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(test)                                 #
+#################################################################
+
+##Rescore
 scoreboard players set #TEST CAL 0
-##检测该方块上是否拥有属于玩家的标记
+##Detect if there is a token belonging to the player on this block
 $execute positioned ~ ~0.99 ~ if entity @e[distance=..0.1,type=item_display,tag=Item_Show,scores={OWNER=$(player)}] run scoreboard players set #TEST CAL 1

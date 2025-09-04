@@ -1,13 +1,18 @@
-##注:此函数为箱子矿车执行
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(next)                                 #
+#################################################################
 
-##丢弃物品触发器时
-##更新对应玩家当前的背包等级(最大页面)同时同步对应的当前页面分数
+##   ---:This function is executed for box miners
+
+##When discarding an item trigger
+##Update the player's current backpack level(Max Pages)Simultaneously synchronize the corresponding current page score
 function att2:gameplay/dahal/action/spell20/score/page_update with storage att2:spell20
-##将当前页面物品存入
+##Save current page item to
 function att2:gameplay/dahal/action/spell20/data_storage/in with storage att2:spell20
 
-##存入后切换到下一页
-#页面分数加一
+##Switch to the next page after saving
+#Page score plus one
 function att2:gameplay/dahal/action/spell20/score/page_add with storage att2:spell20
-##更新下一页的物品
+##Update items on the next page
 function att2:gameplay/dahal/action/spell20/data_storage/update with storage att2:spell20

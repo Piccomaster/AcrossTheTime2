@@ -1,8 +1,13 @@
-##tp到虚空
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(clear)                                 #
+#################################################################
+
+##tpTo the Void
 $tp @e[type=chest_minecart,tag=Stock,scores={OWNER=$(player)}] ~ -100 ~
-##kill交互实体
+##killInteractive Entity
 $kill @e[type=interaction,tag=Stock,scores={OWNER=$(player)}]
-##kill背包
+##killRansel
 $kill @e[type=chest_minecart,tag=Stock,scores={OWNER=$(player)}]
-##kill方块实体
+##killBlock Entity
 $kill @e[type=block_display,tag=Stock,scores={OWNER=$(player)}]

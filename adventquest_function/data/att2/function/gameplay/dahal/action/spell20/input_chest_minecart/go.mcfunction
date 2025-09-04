@@ -1,9 +1,14 @@
-##设置初始检测分数
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(go)                                 #
+#################################################################
+
+##Set Initial Test Score
 scoreboard players set Stock_Slot CAL 0
-##获取当前槽位分数
+##Get Current Slot Score
 execute store result storage att2:spell20 slot int 1 run scoreboard players get Stock_Slot CAL
-##获取玩家当前遍历槽位分数
-##清除0-8槽位
+##Get the player's current traversal slot score
+##Remove0-8Slot
 data remove storage att2:temp temp_data[{Slot:0b}]
 data remove storage att2:temp temp_data[{Slot:1b}]
 data remove storage att2:temp temp_data[{Slot:2b}]
@@ -13,5 +18,5 @@ data remove storage att2:temp temp_data[{Slot:5b}]
 data remove storage att2:temp temp_data[{Slot:6b}]
 data remove storage att2:temp temp_data[{Slot:7b}]
 data remove storage att2:temp temp_data[{Slot:8b}]
-##遍历矿车中每个槽位的物品，将其玩家背包中的物品放置到矿车中
+##Items that traverse each slot in the miner，Place the items in the player's backpack into the mine wagon
 function att2:gameplay/dahal/action/spell20/input_chest_minecart/iteration with storage att2:spell20
