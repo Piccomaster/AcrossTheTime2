@@ -1,0 +1,18 @@
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(next)                                 #
+#################################################################
+
+##   ---:This function is executed for box miners
+
+##When discarding an item trigger
+##Update the player's current backpack level(Max Pages)Simultaneously synchronize the corresponding current page score
+function att2:gameplay/dahal/action/spell20/score/page_update with storage att2:spell20
+##Save current page item to
+function att2:gameplay/dahal/action/spell20/data_storage/in with storage att2:spell20
+
+##Switch to the next page after saving
+#Page score plus one
+function att2:gameplay/dahal/action/spell20/score/page_add with storage att2:spell20
+##Update items on the next page
+function att2:gameplay/dahal/action/spell20/data_storage/update with storage att2:spell20

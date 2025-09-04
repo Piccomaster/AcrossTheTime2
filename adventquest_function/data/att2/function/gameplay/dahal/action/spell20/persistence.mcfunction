@@ -1,15 +1,15 @@
-#################################################
-#Made by Adventquest							#
-#Keep Stock working   					        #
-#################################################
+#################################################################
+# Made by Adventquest                                        #
+# Stock function(persistence)                                 #
+#################################################################
 
-##Particles showing the position of the storage
-execute as @e[type=minecraft:chest_minecart,tag=KeepOriginalData,tag=spell20_chest] at @s run function att2:gameplay/dahal/action/spell20/particle_effect
-##follow_owner
-execute as @e[type=minecraft:chest_minecart,tag=!New,tag=spell20_chest] unless entity @s[scores={SUMMON_TIMER=1..}] run function att2:gameplay/dahal/action/spell20/follow_owner
-#check click page
-execute as @e[type=minecraft:chest_minecart,tag=spell20_chest] at @s run function att2:gameplay/dahal/action/spell20/check_click
-#check chest
-execute as @a[scores={SPELL20_SUMMON=1}] at @s run function att2:gameplay/dahal/action/spell20/chest_test
-#lvl update
+##Box Mining Vehicle Testing
+execute as @e[type=chest_minecart,tag=Stock] at @s run function att2:gameplay/dahal/action/spell20/detection/chest_minecart
+##Player Detection
+execute as @a at @s run function att2:gameplay/dahal/action/spell20/detection/player
+##Detect player discarded backpack
+execute as @e[type=item,predicate=att2_pre:conscience] run function att2:gameplay/dahal/action/spell20/detection/pack
+##Get crawl block data
+execute as @e[type=spectral_arrow,tag=Block_Catch] at @s run function att2:gameplay/dahal/action/spell20/block_catch/data_get
+##Updatedstock1.
 execute if score tic TIMECOUNTER matches 7 run function att2:gameplay/dahal/action/spell20/lvl_update

@@ -17,7 +17,6 @@ scoreboard players set indra_lorth_PNJ DIALOG 2
 execute as @a run function att2:gameplay/leveling/add_1_skillpoint
 #add spell20 lvl
 scoreboard players add @a SPELL20_LVL 1
-scoreboard players add @a SPELL20_CAP 1
 execute as @a run function att2:gameplay/dahal/action/spell20/lvlup
 #return 1->make command block runing
 return 1

@@ -70,6 +70,7 @@ scoreboard players operation total GRINDER += 5_jo GRINDER
 scoreboard players operation total GRINDER += 6_ra GRINDER
 scoreboard players operation total GRINDER += 7_nym GRINDER
 scoreboard players operation total GRINDER += 8_inu GRINDER
+scoreboard players operation total GRINDER += 9_hal GRINDER
 scoreboard players operation total GRINDER += 10_von GRINDER
 scoreboard players operation total GRINDER += 11_ehl GRINDER
 scoreboard players operation total GRINDER += 12_ave GRINDER

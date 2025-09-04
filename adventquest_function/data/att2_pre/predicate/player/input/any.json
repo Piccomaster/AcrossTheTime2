@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "pre:entity/input/w"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pre:entity/input/a"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pre:entity/input/s"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pre:entity/input/d"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pre:entity/input/jump"
+        }
+    ]
+}
