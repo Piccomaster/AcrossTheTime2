@@ -3,6 +3,6 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:item",
-        "nbt": "{Item:{components:{'minecraft:custom_data':{CHEST:'page_ne'}}}}"
+        "nbt": "{Item:{components:{'minecraft:custom_data':{Stock:page_pr}}}}"
     }
 }

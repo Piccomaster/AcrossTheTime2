@@ -1,15 +1,10 @@
-#################################################
-#Made by Adventquest							#
-#Keep Stock working   					        #
-#################################################
-
-##Particles showing the position of the storage
-execute as @e[type=minecraft:chest_minecart,tag=KeepOriginalData,tag=spell20_chest] at @s run function att2:gameplay/dahal/action/spell20/particle_effect
-##follow_owner
-execute as @e[type=minecraft:chest_minecart,tag=!New,tag=spell20_chest] unless entity @s[scores={SUMMON_TIMER=1..}] run function att2:gameplay/dahal/action/spell20/follow_owner
-#check click page
-execute as @e[type=minecraft:chest_minecart,tag=spell20_chest] at @s run function att2:gameplay/dahal/action/spell20/check_click
-#check chest
-execute as @a[scores={SPELL20_SUMMON=1}] at @s run function att2:gameplay/dahal/action/spell20/chest_test
-#lvl update
+##箱子矿车检测
+execute as @e[type=chest_minecart,tag=Stock] at @s run function att2:gameplay/dahal/action/spell20/detection/chest_minecart
+##玩家检测
+execute as @a at @s run function att2:gameplay/dahal/action/spell20/detection/player
+##检测玩家丢弃背包
+execute as @e[type=item,predicate=att2_pre:conscience] run function att2:gameplay/dahal/action/spell20/detection/pack
+##获取抓取方块数据
+execute as @e[type=spectral_arrow,tag=Block_Catch] at @s run function att2:gameplay/dahal/action/spell20/block_catch/data_get
+##更新stock等级
 execute if score tic TIMECOUNTER matches 7 run function att2:gameplay/dahal/action/spell20/lvl_update
