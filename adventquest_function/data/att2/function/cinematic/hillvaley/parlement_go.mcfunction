@@ -42,7 +42,7 @@ execute if score Real0 TIMER matches 6 if entity @a[x=2062,y=106,z=1937,distance
 #Gemme pick detection (second order)
 execute if score Real0 TIMER matches 5 if entity @a[x=2062,y=106,z=1937,distance=..1.7,gamemode=adventure] run function att2:cinematic/hillvaley/parlement_action_1
 execute if score Real0 TIMER matches 5 if entity @a[x=2062,y=106,z=1937,distance=..1.7,gamemode=adventure] run scoreboard players set Real0 TIMER 7
-execute if score Real0 TIMER matches 7 if entity @a[x=2072,y=99,z=1940,distance=..1.7,gamemode=adventure] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 7 if entity @a[x=2072,y=98,z=1940,distance=..1.7,gamemode=adventure] run function att2:cinematic/real0_iteration
 
 execute if score Real0 TIMER matches 8 run function att2:dialogs/mainquest/act_1/ch0_serile_15
 execute if score Real0 TIMER matches 8 run function att2:voice/serile/serile15

@@ -47,5 +47,8 @@ scoreboard players set @s SPELL_OP -1
 #no fire ability
 execute unless score true Fire_Melting matches 1 at @e[type=minecraft:fireball] run function att2:gameplay/dahal/action/spell1/ice_test
 
+##mainquest limit 
+execute unless score Mainquest SIDEQUEST matches 1.. run return run scoreboard players add @s DAHAL 15
+
 ##test spell level
 function att2:advancement/test_all/spell/spell_1

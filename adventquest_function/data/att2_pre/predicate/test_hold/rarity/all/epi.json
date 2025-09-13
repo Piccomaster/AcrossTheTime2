@@ -1,0 +1,33 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/head/epi"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/chest/epi"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/legs/epi"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/feet/epi"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/mainhand/epi"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/offhand/epi"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/equipment/offhand/rangeweapon"
+    }
+  ]
+}

@@ -14,7 +14,7 @@ $execute if items entity @p[scores={NUMEROJOUEUR=$(player)}] player.cursor shulk
 #Replace next page slot
 $execute if items entity @p[scores={NUMEROJOUEUR=$(player)}] player.cursor shulker_shell[custom_name={translate:att2.spell20.page_ne.name}] run item replace entity @p[scores={NUMEROJOUEUR=$(player)}] player.cursor from entity @s container.26
 
-##Replace off-hand slot========================(bugSolution:Extract the corresponding slot when replacing the off-hand，And thensummonAn item goes back)
+##Replace off-hand slot========================(bugSolution:Extract the corresponding slot when replacing the off-hand,And thensummonAn item goes back)
 
 ##When the off-hand is the item trigger, perform the following commandexecute unless data entity @p equipment.offhand.components."minecraft:custom_data"{Trigger:true} run return 0
 $execute unless data entity @p[scores={NUMEROJOUEUR=$(player)}] equipment.offhand.components."minecraft:custom_data"{Trigger:true} run return 0

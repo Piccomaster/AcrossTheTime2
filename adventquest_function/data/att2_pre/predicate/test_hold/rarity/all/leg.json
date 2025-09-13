@@ -1,0 +1,33 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/head/leg"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/chest/leg"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/legs/leg"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/feet/leg"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/mainhand/leg"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/rarity/offhand/leg"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/equipment/offhand/rangeweapon"
+    }
+  ]
+}

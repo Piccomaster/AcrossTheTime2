@@ -4,13 +4,13 @@
 #########################################################################
 
 setblock ~ ~ ~ minecraft:air destroy
-function att2:summon/bat_runes_mining_b_rewards
-function att2:summon/bat_runes_mining_c_rewards
-kill @e[type=minecraft:bat,distance=..2,tag=RunesRewards]
+loot spawn ~ ~ ~ loot att2:entities/runes_mining_b
+loot spawn ~ ~ ~ loot att2:entities/runes_mining_c
 scoreboard players add MiningCount_b RUNE 1
 scoreboard players add MiningCountTotal RUNE 1
 
 advancement grant @a only att2:treasure/mining_runic_medium
-
+##sound
+playsound minecraft:block.deepslate.break master @a ~ ~ ~ 2 1
 ##spell34 clear
 function att2:gameplay/dahal/action/spell34/clear_minerals_runes_marker

@@ -3,10 +3,10 @@
 # Stock function(run)                                 #
 #################################################################
 
-##If there is already an entity shooting from this player nearby，Then go straight back to
+##If there is already an entity shooting from this player nearby,Then go straight back to
 function att2:gameplay/dahal/action/spell20/block_catch/item_show/test with storage att2:temp
 execute if score #TEST CAL matches 1 on origin run function att2:gameplay/dahal/action/spell20/block_catch/back/give with storage att2:temp
-##Has Entity，Then do not perform the display
+##Has Entity,Then do not perform the display
 execute if score #TEST CAL matches 1 run return 0
 ##Display Entity
 execute positioned ~ ~0.99 ~ run function att2:gameplay/dahal/action/spell20/block_catch/item_show/summon

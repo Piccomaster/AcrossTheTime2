@@ -18,7 +18,7 @@ tellraw @a[scores={LANGUAGE=1}] {text:" °-° Yuni : ",color:"green",extra:[{tex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {text:" °-° Yuni : ",color:"green",extra:[{text:"謝謝您將''Pantalon''送來， 辛苦了。",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {text:" °-° Yuni : ",color:"green",extra:[{text:"謝謝您將''弗莱迪的裤子''送來， 辛苦了。",color:"dark_aqua"}]}
 
 
 #JAPANESE LANGUAGE
@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:"°-° युनि : ",color:"green",extr
 tellraw @a[scores={LANGUAGE=10}] {text:"°-° Yuni : ",color:"green",extra:[{text:"Obrigado por trazer os ''Pantalon''.",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Yuni : ",color:"green",extra:[{text:"谢谢您将“Pantalon”送来，辛苦了。",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Yuni : ",color:"green",extra:[{text:"谢谢您将“弗莱迪的裤子”送来，辛苦了。",color:"dark_aqua"}]}

@@ -3,6 +3,10 @@
 #Process all test of Spell advancement 			                #
 #################################################################
 
+
+##mainquest limit 
+execute unless score Mainquest SIDEQUEST matches 1.. run return 0
+
 # TOTAL LAUNCH
 advancement grant @s only att2:dahal/root
 advancement grant @s[scores={SPELLS_COUNT=1..}] only att2:dahal/spell_launch_1

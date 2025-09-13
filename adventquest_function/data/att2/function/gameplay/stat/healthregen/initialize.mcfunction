@@ -84,4 +84,4 @@ scoreboard players set malus_7 HER_DATA 50
 scoreboard players set malus_8 HER_DATA 50
 scoreboard players set malus_9 HER_DATA 50
 
-scoreboard players set neutral HER_DATA 10
+scoreboard players set neutral HER_DATA 20

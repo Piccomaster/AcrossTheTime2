@@ -4,7 +4,10 @@
             "id": "minecraft:white_bed"
         },
         "title": {"translate":"att2.advancement.adventure.title.inn_1"},
-        "description": {"translate":"att2.advancement.adventure.description.inn_1"}
+        "description": {"translate":"att2.advancement.adventure.description.inn_1"},
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": true
     },
     "parent": "att2:adventure/root",
     "rewards": {

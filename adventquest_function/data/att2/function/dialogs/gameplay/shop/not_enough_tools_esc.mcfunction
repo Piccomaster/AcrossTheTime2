@@ -3,7 +3,7 @@
 #Use function to process the dialog system 						#
 #################################################################
 
-
+playsound noise4 player @s ~ ~ ~ 1 1
 #FRENCH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=0}] {text:"Vous n'avez plus assez de : ",color:"gray",extra:[{text:"<Outil de réparation - Souverain>",color:"light_purple"}]}
