@@ -8,7 +8,7 @@ give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",SPECTRALA
 
 scoreboard players remove @s DAHAL 345
 function att2:gameplay/dahal/action/spell27/cooldown
-scoreboard players add @s SPELL27_LVL 5
+scoreboard players add @s SPELL27_LVL 10
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL27_LVL += @s BONUS_XP_SPELL
 

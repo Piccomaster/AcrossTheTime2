@@ -3,5 +3,5 @@
 #Golem lvl6														#
 #################################################################
 
-##damage
-$damage @s $(damage) att2_damage:player_attack by @p[scores={NUMEROJOUEUR=$(numerojoueur)}]
+#select iron golem
+$execute at @s as @e[type=minecraft:iron_golem,scores={OWNER=$(numerojoueur)}] run function att2:gameplay/dahal/action/spell26/effect_1

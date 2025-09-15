@@ -13,7 +13,8 @@ scoreboard players set line_2 Sidebar_Display 14
 scoreboard players set line_3 Sidebar_Display 13
 scoreboard players set line_4 Sidebar_Display 12
 scoreboard players set line_5 Sidebar_Display 11
-scoreboard players set line_6 Sidebar_Display 10
+#scoreboard players set line_6 Sidebar_Display 10
+#scoreboard players set line_7 Sidebar_Display 9
 #scoreboard players set line_7 Sidebar_Display 9
 #scoreboard players set line_8 Sidebar_Display 8
 #scoreboard players set line_9 Sidebar_Display 7
@@ -28,8 +29,10 @@ scoreboard players display name line_1 Sidebar_Display {translate:"att2.sidebar.
 scoreboard players display name line_2 Sidebar_Display {translate:"att2.sidebar.sidequest",color:"#155DFC",bold:true}
 scoreboard players display name line_3 Sidebar_Display {translate:"att2.sidebar.exploit",color:"#05DF72",bold:true}
 scoreboard players display name line_4 Sidebar_Display {translate:"att2.sidebar.chronotons",color:"#FFDF20",bold:true}
-scoreboard players display name line_5 Sidebar_Display {translate:"att2.sidebar.mobs_invasion",color:"#9F0712",bold:true}
-scoreboard players display name line_6 Sidebar_Display {translate:"att2.sidebar.lost_soul",color:"#2AA63E",bold:true}
+scoreboard players display name line_5 Sidebar_Display {translate:"att2.sidebar.reputation",color:"#2B7FFF",bold:true}
+
+#scoreboard players display name line_6 Sidebar_Display {translate:"att2.sidebar.mobs_invasion",color:"#9F0712",bold:true}
+#scoreboard players display name line_7 Sidebar_Display {translate:"att2.sidebar.lost_soul",color:"#2AA63E",bold:true}
 ##set sidebbar right :
 #scoreboard players display numberformat line_1 Sidebar_Display fixed [{score:{name:"Mainquest",objective:Sidebar_Display},color:"#FE9A37"},{translate:att2.sidebar.unit,color:"#000000"}]
 #scoreboard players display numberformat line_2 Sidebar_Display fixed [{score:{name:"Sidequest",objective:Sidebar_Display},color:"#155DFC"},{translate:att2.sidebar.unit,color:"#000000"}]

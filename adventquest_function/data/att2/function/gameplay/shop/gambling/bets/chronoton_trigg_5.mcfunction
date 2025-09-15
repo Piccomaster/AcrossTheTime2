@@ -7,3 +7,5 @@ execute as @s[scores={CHRONOTON=..999}] at @s run function att2:dialogs/gameplay
 execute if entity @s[scores={CHRONOTON=1000..}] run function att2:gameplay/shop/effect
 execute if entity @s[scores={CHRONOTON=1000..}] positioned -4961 91 -5802 run function att2:gameplay/shop/gambling/bets/launch_5
 scoreboard players remove @s[scores={CHRONOTON=1000..}] CHRONOTON 1000
+##advancement detection
+function att2:advancement/test_all/treasure/bets

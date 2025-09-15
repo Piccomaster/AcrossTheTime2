@@ -39,6 +39,15 @@ execute if score #Chronotons Sidebar_Display matches ..999 run function att2:gam
 execute if score #Chronotons Sidebar_Display matches 1000.. run function att2:gameplay/misc/sidebar/display/chronotons/thousand
 execute if score #Chronotons Sidebar_Display matches 1000000.. run function att2:gameplay/misc/sidebar/display/chronotons/million
 
+##Cal Reputation
+scoreboard players operation #Reputation Sidebar_Display = heros REPUTATION
+##cal color
+execute if score #Reputation Sidebar_Display matches 0.. run scoreboard players display numberformat line_5 Sidebar_Display fixed [{score:{name:"#Reputation",objective:Sidebar_Display},color:"#116045"}]
+execute if score #Reputation Sidebar_Display matches ..-1 run scoreboard players display numberformat line_5 Sidebar_Display fixed [{score:{name:"#Reputation",objective:Sidebar_Display},color:"#FF5555"}]
+
+##forbidden
+return 0
+
 ##cal mobs_invasion
 scoreboard players operation #Mobs_invasion Sidebar_Display = Invasion TIMER
 scoreboard players operation #Mobs_invasion Sidebar_Display /= 20 CAL
