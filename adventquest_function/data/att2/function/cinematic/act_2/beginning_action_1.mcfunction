@@ -18,6 +18,7 @@ execute as @a at @s run function att2:gameplay/dahal/action/spell1/selectlvl1
 execute as @a at @s run function att2:gameplay/stat/display/initialize
 execute as @a at @s run function att2:gameplay/misc/exploit_book/initialize
 execute as @a at @s run function att2:gameplay/misc/map/initialize
+function att2:gameplay/misc/sidebar/initialize
 
 #effect clear
 effect clear @a jump_boost
@@ -25,7 +26,7 @@ execute as @a run function att2:gameplay/checkpoint/telluron_present/worlest_for
 weather thunder 3000
 scoreboard players set @a SHAKE_T 280
 scoreboard objectives setdisplay list CHRONOTON
-scoreboard objectives setdisplay sidebar DAHAL
+#scoreboard objectives setdisplay sidebar DAHAL
 scoreboard objectives setdisplay below_name HEALTH
 particle minecraft:portal -5252 72 -5405 1 0 1 1 200 normal
 particle minecraft:enchant -5252 72 -5405 1 0 1 1 200 normal

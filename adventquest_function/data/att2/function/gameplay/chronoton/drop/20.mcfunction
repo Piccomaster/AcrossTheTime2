@@ -6,7 +6,7 @@
 execute unless score @s CHRONOTON matches 20.. run function att2:dialogs/gameplay/shop/not_enough_chronotons
 execute if score @s CHRONOTON matches 20.. run scoreboard players remove @s CHRONOTON 20
 
-function att2:summmon/chronoton/dropped/big
-function att2:summmon/chronoton/dropped/big
-function att2:summmon/chronoton/dropped/big
-function att2:summmon/chronoton/dropped/big
+function att2:summon/chronoton/dropped/big
+function att2:summon/chronoton/dropped/big
+function att2:summon/chronoton/dropped/big
+function att2:summon/chronoton/dropped/big

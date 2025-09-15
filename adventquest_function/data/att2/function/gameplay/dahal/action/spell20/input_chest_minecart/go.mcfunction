@@ -18,5 +18,5 @@ data remove storage att2:temp temp_data[{Slot:5b}]
 data remove storage att2:temp temp_data[{Slot:6b}]
 data remove storage att2:temp temp_data[{Slot:7b}]
 data remove storage att2:temp temp_data[{Slot:8b}]
-##Items that traverse each slot in the miner，Place the items in the player's backpack into the mine wagon
+##Items that traverse each slot in the miner,Place the items in the player's backpack into the mine wagon
 function att2:gameplay/dahal/action/spell20/input_chest_minecart/iteration with storage att2:spell20

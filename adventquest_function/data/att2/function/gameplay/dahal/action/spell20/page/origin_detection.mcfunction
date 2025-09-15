@@ -7,5 +7,5 @@
 
 ##Double tap to aspirate item
 execute on origin if score @s NUMEROJOUEUR = @n[distance=..0,type=chest_minecart,tag=Stock] OWNER run scoreboard players set #TEST CAL 1
-##If complies，killPersonal
+##If complies,killPersonal
 execute if score #TEST CAL matches 1 run kill @s[type=item]

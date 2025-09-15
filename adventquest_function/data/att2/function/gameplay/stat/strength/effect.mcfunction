@@ -21,6 +21,6 @@ execute if score @s STR_TOT matches 21..30 run function att2:gameplay/stat/stren
 execute if score @s STR_TOT matches 31..40 run function att2:gameplay/stat/strength/dmg_4
 execute if score @s STR_TOT matches 41.. run function att2:gameplay/stat/strength/dmg_5
 #min limit
-scoreboard players set @s[scores={STR_TOT=1..,STR_DATA=..0}] STR_DATA 1
+scoreboard players set @s[scores={STR_TOT=0..,STR_DATA=..0}] STR_DATA 1
 execute store result storage att2:attribute STR int 1 run scoreboard players get @s STR_DATA
 function att2:gameplay/stat/strength/attribute with storage att2:attribute

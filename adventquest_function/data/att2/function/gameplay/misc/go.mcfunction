@@ -38,7 +38,7 @@ execute as @a[scores={SPAWNER_LIMIT=1..}] at @s run function att2:gameplay/misc/
 #VOCIE limit
 scoreboard players remove limit Voice 1
 #mainplayer name
-execute as @a[scores={MAINPLAYERNAME=1..},predicate=att2_pre:mainplayer_name/hand] run function att2:gameplay/misc/mainplayer_name/go
+execute as @a[scores={MAINPLAYERNAME=1..},predicate=att2_pre:mainplayer_name/hand] at @s run function att2:gameplay/misc/mainplayer_name/go
 #back checkpoint
 execute as @a[scores={CHECKPOINT=1..}] at @s run function att2:gameplay/misc/checkpoint/go
 #xp grant
@@ -51,3 +51,5 @@ execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/hors
 execute if score tic TIMECOUNTER matches 15 as @a at @s run function att2:gameplay/misc/citywalk/go
 ##clear exploit_book
 kill @e[type=item,predicate=att2_pre:exploit_book]
+##data display
+execute if score tic TIMECOUNTER matches 15 if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/misc/sidebar/go

@@ -15,6 +15,8 @@ item replace entity @s container.17 with air
 item replace entity @s container.26 with air
 ##Copy the current page item to the inside of the miner
 data modify entity @n[type=chest_minecart,tag=DROP,tag=New] Items set from entity @s Items
+##if recycle nearly ->tp
+tp @n[type=chest_minecart,tag=DROP,tag=New] @n[type=armor_stand,distance=..6,tag=Recycler]
 ##Put the world entitytpto the replica miner.
 tp 00000001-0000-006f-0000-00010000006f @n[type=chest_minecart,tag=DROP,tag=New]
 ##Kill Temporary Mining Vehicle

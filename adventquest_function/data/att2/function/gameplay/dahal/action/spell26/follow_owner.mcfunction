@@ -5,7 +5,7 @@
 
 scoreboard players add golem spread 1
 
-teleport @s @a[distance=..0,limit=1]
+tp @s @p[distance=..0]
 execute if score golem spread matches 1 run tp @s ~2 ~ ~
 execute if score golem spread matches 2 run tp @s ~-2 ~ ~
 execute if score golem spread matches 3 run tp @s ~ ~ ~2

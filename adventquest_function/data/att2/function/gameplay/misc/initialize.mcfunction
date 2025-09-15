@@ -22,3 +22,4 @@ function att2:gameplay/misc/mainplayer_name/initialize
 function att2:gameplay/misc/checkpoint/initialize
 function att2:gameplay/misc/map/initialize
 function att2:gameplay/misc/citywalk/initialize
+#function att2:gameplay/misc/sidebar/initialize

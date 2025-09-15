@@ -8,7 +8,7 @@ give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",SPECTRALBOW:"1",E
 
 scoreboard players remove @s DAHAL 345
 function att2:gameplay/dahal/action/spell28/cooldown
-scoreboard players add @s SPELL28_LVL 5
+scoreboard players add @s SPELL28_LVL 10
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL28_LVL += @s BONUS_XP_SPELL
 

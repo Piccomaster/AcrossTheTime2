@@ -7,7 +7,8 @@
 #set score
 scoreboard players set @s MAINPLAYERNAME 1
 
-clear @s written_book[custom_data={Rarity:misc,mainplayer_name:true},tooltip_style="minecraft:rarity/quest/quest"]
+clear @s written_book[custom_data={Rarity:misc,mainplayer_name:true}]
+clear @s writable_book[custom_data={Rarity:misc,mainplayer_name:true}]
 
 # FRENCH LANGUAGE
 give @s[scores={LANGUAGE=0}] writable_book[lore=[{translate:"att2.mainplayer.book.lore"}],writable_book_content={pages:[{raw:"Cliquez sur [Signer] ci-dessous\n\nÉcrivez le nom de [Protagoniste] que vous voulez\n\nSous [Entrer le titre du livre]\n\nPuis cliquez sur\n\n[Signer et fermer]\n\nPour enregistrer manuellement le nom du protagoniste"}]},custom_data={Rarity:"misc",mainplayer_name:true},custom_name={text:"Enregistrer le nom du protagoniste",color:"red",bold:true,italic:false}]

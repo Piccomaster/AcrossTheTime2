@@ -3,23 +3,23 @@
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "pre:entity/input/w"
+            "name": "att2_pre:player/input/w"
         },
         {
             "condition": "minecraft:reference",
-            "name": "pre:entity/input/a"
+            "name": "att2_pre:player/input/a"
         },
         {
             "condition": "minecraft:reference",
-            "name": "pre:entity/input/s"
+            "name": "att2_pre:player/input/s"
         },
         {
             "condition": "minecraft:reference",
-            "name": "pre:entity/input/d"
+            "name": "att2_pre:player/input/d"
         },
         {
             "condition": "minecraft:reference",
-            "name": "pre:entity/input/jump"
+            "name": "att2_pre:player/input/jump"
         }
     ]
 }

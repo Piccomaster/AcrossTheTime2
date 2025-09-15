@@ -2466,19 +2466,19 @@ scoreboard players set rod_ult PRICES 1200
 scoreboard players operation rod_ult PRICES *= discount discount_calc
 scoreboard players operation rod_ult PRICES /= 100 discount_calc
 #bait
-scoreboard players set bait_com PRICES 20
+scoreboard players set bait_com PRICES 10
 scoreboard players operation bait_com PRICES *= discount discount_calc
 scoreboard players operation bait_com PRICES /= 100 discount_calc
-scoreboard players set bait_unc PRICES 40
+scoreboard players set bait_unc PRICES 30
 scoreboard players operation bait_unc PRICES *= discount discount_calc
 scoreboard players operation bait_unc PRICES /= 100 discount_calc
-scoreboard players set bait_rar PRICES 60
+scoreboard players set bait_rar PRICES 50
 scoreboard players operation bait_rar PRICES *= discount discount_calc
 scoreboard players operation bait_rar PRICES /= 100 discount_calc
-scoreboard players set bait_epi PRICES 80
+scoreboard players set bait_epi PRICES 70
 scoreboard players operation bait_epi PRICES *= discount discount_calc
 scoreboard players operation bait_epi PRICES /= 100 discount_calc
-scoreboard players set bait_leg PRICES 100
+scoreboard players set bait_leg PRICES 90
 scoreboard players operation bait_leg PRICES *= discount discount_calc
 scoreboard players operation bait_leg PRICES /= 100 discount_calc
 scoreboard players set bait_ult PRICES 120

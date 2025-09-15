@@ -22,3 +22,6 @@ execute if score @s TALKING_TIMER matches ..0 run data modify entity @s Rotation
 
 #make sit sit
 execute if score tic TIMECOUNTER matches 7 run ride @s mount @e[distance=..5,limit=1,type=wolf,tag=!PlayerAlly,nbt={NoAI:1b}]
+
+##addlimit
+tag @s add LIMIT
