@@ -37,15 +37,15 @@ scoreboard players set lvl9 SPELL42_RES 5
 scoreboard players set lvl10 SPELL42_RES 5
 #TIMER
 scoreboard players set lvl1 SPELL42_TIMER 20
-scoreboard players set lvl2 SPELL42_TIMER 20
-scoreboard players set lvl3 SPELL42_TIMER 20
-scoreboard players set lvl4 SPELL42_TIMER 20
-scoreboard players set lvl5 SPELL42_TIMER 20
-scoreboard players set lvl6 SPELL42_TIMER 20
-scoreboard players set lvl7 SPELL42_TIMER 20
-scoreboard players set lvl8 SPELL42_TIMER 20
-scoreboard players set lvl9 SPELL42_TIMER 20
-scoreboard players set lvl10 SPELL42_TIMER 20
+scoreboard players set lvl2 SPELL42_TIMER 25
+scoreboard players set lvl3 SPELL42_TIMER 30
+scoreboard players set lvl4 SPELL42_TIMER 35
+scoreboard players set lvl5 SPELL42_TIMER 40
+scoreboard players set lvl6 SPELL42_TIMER 45
+scoreboard players set lvl7 SPELL42_TIMER 50
+scoreboard players set lvl8 SPELL42_TIMER 55
+scoreboard players set lvl9 SPELL42_TIMER 60
+scoreboard players set lvl10 SPELL42_TIMER 70
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN42 1000

@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {text:"[सुनहरा अवसर]",color:
 tellraw @s[scores={LANGUAGE=10}] {text:"[Uma oportunidade de ouro]",color:"gold"}
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {text:"[”黄金“机遇]",color:"gold"}
+tellraw @s[scores={LANGUAGE=11}] {text:"[“黄金”机遇]",color:"gold"}

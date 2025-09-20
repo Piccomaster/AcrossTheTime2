@@ -14,6 +14,11 @@ scoreboard players operation total SPELL30 += leg SPELL30
 scoreboard players operation total SPELL30 += leg_armset SPELL30
 scoreboard players operation total SPELL30 += ult SPELL30
 
+##cal xp add
+scoreboard players operation #Spell30_xp CAL = total SPELL30
+scoreboard players operation #Spell30_xp CAL /= 1000 CAL
+scoreboard players operation @s SPELL30_LVL += #Spell30_xp CAL
+
 execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 *= 5 SPELL30
 execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 /= 4 SPELL30
 execute if score @s SURVIVEBONUS matches 2 run scoreboard players operation total SPELL30 *= 3 SPELL30

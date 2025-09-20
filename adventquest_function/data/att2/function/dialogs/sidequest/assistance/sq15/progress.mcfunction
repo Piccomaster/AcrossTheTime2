@@ -42,4 +42,4 @@ tellraw @s[scores={LANGUAGE=9}] {text:"[सोने का अवसर]",color
 tellraw @s[scores={LANGUAGE=10}] {text:"[Uma oportunidade de ouro]",color:"yellow",click_event:{action:run_command,command:"/function att2:gameplay/quest/sidequest/sq15/display_progress"},hover_event:{action:show_text,value:"Clique aqui para verificar seu progresso nesta missão e obter algumas pistas."}}
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {text:"[”黄金“机遇]",color:"yellow",click_event:{action:run_command,command:"/function att2:gameplay/quest/sidequest/sq15/display_progress"},hover_event:{action:show_text,value:"单击此处检查您的任务进度并获取一些线索。"}}
+tellraw @s[scores={LANGUAGE=11}] {text:"[“黄金”机遇]",color:"yellow",click_event:{action:run_command,command:"/function att2:gameplay/quest/sidequest/sq15/display_progress"},hover_event:{action:show_text,value:"单击此处检查您的任务进度并获取一些线索。"}}

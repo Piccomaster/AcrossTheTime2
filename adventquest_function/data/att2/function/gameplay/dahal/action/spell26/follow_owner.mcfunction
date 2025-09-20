@@ -3,6 +3,8 @@
 #Keep Bait working   						    #
 #################################################
 
+##test distance
+execute if entity @s[distance=..15] run return 0
 scoreboard players add golem spread 1
 
 tp @s @p[distance=..0]

@@ -4,8 +4,13 @@
 #################################################
 
 # Fireball melting ice
-execute if score true Fire_Melting matches 1 at @e[type=minecraft:fireball] run function att2:gameplay/dahal/action/spell1/enable_fire_melting
-
-# Fireball Jump security
-execute at @e[type=fireball,tag=FireballSpell] as @a[distance=..50] run scoreboard players set @s SPELL1_TIMER 20
-execute as @a[scores={SPELL1_TIMER=1..}] at @s run function att2:gameplay/dahal/action/spell1/fire_ball_limit
+execute if score true Fire_Melting matches 1 run function att2:gameplay/dahal/action/spell1/enable_fire_melting
+# Fireball explosion
+##get lvl
+execute store result storage att2:spell_1 particle_count int 1 run scoreboard players get @s SPELL1_SLCT
+##test enemy near
+execute if entity @e[distance=..2,scores={GAMELEVEL=0..},team=hostile] run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1
+##test snowball onground
+execute unless predicate att2_pre:has_vehicle run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1
+##if player far 
+execute unless entity @a[distance=..80] run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1

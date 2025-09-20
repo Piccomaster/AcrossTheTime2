@@ -6,7 +6,7 @@
 
 execute positioned ^ ^ ^ run function att2:gameplay/dahal/action/spell7/particle_effect
 execute as @a[distance=..1] run effect give @s minecraft:fire_resistance 2 0 true
-execute as @e[team=hostile,scores={GAMELEVEL=0..},type=!bat,distance=..1] run effect give @s minecraft:wither 2 0 true
+#execute as @e[team=hostile,scores={GAMELEVEL=0..},type=!bat,distance=..1] run effect give @s minecraft:wither 2 0 true
 execute if score tic TIMECOUNTER matches 7 as @e[team=hostile,scores={GAMELEVEL=0..},type=!bat,distance=..1] at @s unless entity @s[scores={SPELL7_EFFECT=1..}] run data merge entity @s[tag=!owlkar] {Motion:[0.0,0.05,0.0]}
 execute if score tic TIMECOUNTER matches 17 as @e[team=hostile,scores={GAMELEVEL=0..},type=!bat,distance=..1] at @s unless entity @s[scores={SPELL7_EFFECT=1..}] run data merge entity @s[tag=!owlkar] {Motion:[0.0,0.05,0.0]}
 

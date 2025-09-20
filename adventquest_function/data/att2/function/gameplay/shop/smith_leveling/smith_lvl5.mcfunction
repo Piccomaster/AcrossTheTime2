@@ -34,3 +34,6 @@ tellraw @s[scores={LANGUAGE=9}] {text:"",color:"dark_red",extra:[{text:"लो�
 
 # Portugais
 tellraw @s[scores={LANGUAGE=10}] {text:"",color:"dark_red",extra:[{text:"O nível de ferreiro já está no máximo!",color:"gold"},{text:"",color:"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {text:"",color:"dark_red",extra:[{text:"铁匠等级已经达到最大！",color:"gold"},{text:"",color:"dark_red"}]}
