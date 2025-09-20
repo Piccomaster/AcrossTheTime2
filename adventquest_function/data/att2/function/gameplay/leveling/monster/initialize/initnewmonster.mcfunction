@@ -61,7 +61,7 @@ execute as @s[tag=PlayerAlly] run team join ally @s
 execute unless entity @s[tag=PlayerAlly] run team join hostile @s
 # End the initialization
 tag @s remove LVL0
-
+##add player protect timer
 # Display the difference of level
 ###add health bar
 #add temp tag

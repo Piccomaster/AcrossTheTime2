@@ -42,4 +42,4 @@ tellraw @s[scores={LANGUAGE=9}] {text:"[सोने का अवसर]",color
 tellraw @s[scores={LANGUAGE=10}] {text:"[Uma oportunidade de ouro]",color:"green",hover_event:{action:show_text,value:"Concluído!"}}
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {text:"[”黄金“机遇]",color:"green",hover_event:{action:show_text,value:"完成！ "}}
+tellraw @s[scores={LANGUAGE=11}] {text:"[“黄金”机遇]",color:"green",hover_event:{action:show_text,value:"完成！ "}}

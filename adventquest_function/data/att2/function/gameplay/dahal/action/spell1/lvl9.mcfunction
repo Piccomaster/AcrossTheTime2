@@ -3,13 +3,11 @@
 #Fireball lvl9													#
 #################################################################
 
-execute at @s run kill @e[type=minecraft:fireball,distance=..2]
-
-execute anchored eyes at @s positioned ^ ^ ^0.4 run summon minecraft:fireball ~ ~ ~ {Tags:["FireballSpell","STOP"],ExplosionPower:9,Motion:[0.0,0.0,0.0]}
-
+execute at @s run kill @e[type=minecraft:fireball,tag=FireballSpell,distance=..2]
+execute at @s run kill @e[type=minecraft:snowball,tag=FireballSpell,distance=..2]
 #add time cal
 scoreboard players set @s SPELL1_TIMER 20
-function att2:gameplay/dahal/action/spell1/normal_velocity
+function att2:gameplay/dahal/action/spell1/summon {speed:2.3}
 
 scoreboard players remove @s DAHAL 220
 function att2:gameplay/dahal/action/spell1/cooldown

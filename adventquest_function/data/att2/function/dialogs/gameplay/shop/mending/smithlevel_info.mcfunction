@@ -58,4 +58,4 @@ tellraw @s[scores={LANGUAGE=11}] {text:"铁匠等级：",color:"gold"}
 tellraw @s {text:"~ ",color:"dark_red",extra:[{score:{name:"level",objective:"statSMITH"},color:"red"},{text:"/",color:"gray"},{text:"5",color:"gold"},{text:" ~",color:"dark_red"}]}
 
 
-function att2:gameplay/shop/smith_leveling/black_lvl_data
+function att2:gameplay/shop/smith_leveling/smith_lvl_data

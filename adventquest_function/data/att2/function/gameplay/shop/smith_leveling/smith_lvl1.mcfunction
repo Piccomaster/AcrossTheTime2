@@ -33,3 +33,6 @@ tellraw @s[scores={LANGUAGE=9}] {text:"",color:"dark_red",extra:[{text:"लो�
 
 # Portugais
 tellraw @s[scores={LANGUAGE=10}] {text:"",color:"dark_red",extra:[{text:"Experiência em ferraria:",color:"gold"},{score:{name:"points",objective:"statSMITH"},color:"red"},{text:"/",color:"gray"},{text:"25",color:"gold"},{text:"",color:"dark_red"}]}
+
+#Simplified Chinese LANGUAGE
+tellraw @s[scores={LANGUAGE=11}] {text:"",color:"dark_red",extra:[{text:"铁匠经验：",color:"gold"},{score:{name:"points",objective:"statSMITH"},color:"red"},{text:"/",color:"gray"},{text:"25",color:"gold"},{text:"",color:"dark_red"}]}

@@ -353,5 +353,15 @@
 ### Shop Reset
 - Manually refreshing the store displays the store's contents directly
 
+### Sylvandre's Guidance tutorial
+- Sylvandre's walking speed has slightly increased.
+
+### Enemy Spawn Protection
+- Enemys cannot inflict damage on players during the short period of their spawn;
+- this effect weakens as the difficulty increases.
+
+### Sidebar system
+- The information bar on the right side of the screen will display some global information about the map.
+
 ### Issues
 - Various minor bugs have been fixed.

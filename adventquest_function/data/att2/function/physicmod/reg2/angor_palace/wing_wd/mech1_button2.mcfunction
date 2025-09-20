@@ -4,4 +4,6 @@
 #####################################################################
 
 setblock 3471 40 4487 minecraft:gold_block destroy
+setblock 3470 40 4479 minecraft:air destroy
+setblock 3470 40 4479 minecraft:black_terracotta destroy
 setblock 3471 40 4479 minecraft:oak_button[facing=east] destroy

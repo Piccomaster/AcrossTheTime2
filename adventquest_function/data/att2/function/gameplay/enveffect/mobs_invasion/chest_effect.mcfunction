@@ -19,4 +19,4 @@ particle minecraft:enchant ~ ~1.2 ~-0.5 0.2 0 0 0 2 normal
 data modify entity @s Motion set value 0
 execute unless predicate att2_pre:rune_chest unless score @s INVASION matches 0..100 run scoreboard players set @s INVASION 100
 
-execute if score Invasion TIMER matches 0.. run kill @s
+kill @s[scores={INVASION=..0}]
