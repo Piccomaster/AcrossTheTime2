@@ -12,10 +12,10 @@ clear @s minecraft:tripwire_hook[custom_name={translate:'item.quest.gear.name'}]
 scoreboard players set tower_s_mech2 BILLGART 4
 scoreboard players set tower_s_mech1 BILLGART 1
 
-execute positioned -1216 20 -498 run function att2:summon/reg_3/golem0_class13
-execute positioned -1216 21 -492 run function att2:summon/reg_3/golem1_class14
-execute positioned -1211 29 -498 run function att2:summon/reg_3/golem2_class15
-execute positioned -1211 30 -487 run function att2:summon/reg_3/golem3_class16
+execute positioned -1216 20 -498 run function att2:summon/reg_3/golem0_classx {class:CLASS13}
+execute positioned -1216 21 -492 run function att2:summon/reg_3/golem1_classx {class:CLASS14}
+execute positioned -1211 29 -498 run function att2:summon/reg_3/golem2_classx {class:CLASS15}
+execute positioned -1211 30 -487 run function att2:summon/reg_3/golem3_classx {class:CLASS16}
 
 #unlock security to second stage
 fill -1230 115 -488 -1248 72 -505 minecraft:air replace minecraft:barrier

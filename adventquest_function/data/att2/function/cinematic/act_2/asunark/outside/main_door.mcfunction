@@ -14,19 +14,19 @@ kill @e[type=minecraft:armor_stand,x=-3545,y=89,z=-4942,distance=..3]
 
 scoreboard players set homer_PNJ DIALOG 2
 
-execute positioned -3546 71 -4939 run function att2:summon/reg_1/skeletonarcher0_class6
-execute positioned -3546 71 -4945 run function att2:summon/reg_1/skeletonarcher0_class6
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
-execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_class3
+execute positioned -3546 71 -4939 run function att2:summon/reg_1/skeletonarcher0_classx {class:CLASS6}
+execute positioned -3546 71 -4945 run function att2:summon/reg_1/skeletonarcher0_classx {class:CLASS6}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_classx {class:CLASS3}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_classx {class:CLASS3}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_classx {class:CLASS3}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_classx {class:CLASS3}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_classx {class:CLASS3}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_classx {class:CLASS3}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_classx {class:CLASS3}
+execute positioned -3543 71 -4942 run function att2:summon/reg_1/slimemsmall0_classx {class:CLASS3}
 #return 1->make command block runing
 return 1

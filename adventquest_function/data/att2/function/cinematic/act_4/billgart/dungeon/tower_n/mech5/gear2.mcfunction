@@ -11,8 +11,8 @@ execute in minecraft:the_end positioned -1239 63 -691 run function att2:sound/mi
 clear @s minecraft:tripwire_hook[custom_name={translate:'item.quest.gear.name'}] 1
 scoreboard players set tower_n_mech5 BILLGART 1
 
-execute positioned -1224 60 -696 run function att2:summon/reg_3/golem2_class14
-execute positioned -1224 60 -695 run function att2:summon/reg_3/golem1_class13
-execute positioned -1224 60 -694 run function att2:summon/reg_3/golem3_class15
+execute positioned -1224 60 -696 run function att2:summon/reg_3/golem2_classx {class:CLASS14}
+execute positioned -1224 60 -695 run function att2:summon/reg_3/golem1_classx {class:CLASS13}
+execute positioned -1224 60 -694 run function att2:summon/reg_3/golem3_classx {class:CLASS15}
 #return 1->make command block runing
 return 1

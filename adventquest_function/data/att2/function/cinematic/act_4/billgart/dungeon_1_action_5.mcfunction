@@ -6,12 +6,12 @@
 execute at @a run function att2:sound/door/large_trap1
 execute at @a run function att2:sound/door/simple_energy_door
 
-execute positioned -1239 177 -541 run function att2:summon/reg_3/golem2_class13
-execute positioned -1239 177 -541 run function att2:summon/reg_3/golem2_class13
-execute positioned -1239 177 -541 run function att2:summon/reg_3/golem4_class16
-execute positioned -1239 177 -541 run function att2:summon/reg_3/golem4_class16
-execute positioned -1239 177 -541 run function att2:summon/reg_3/golem2_class13
-execute positioned -1239 177 -541 run function att2:summon/reg_3/golem2_class13
+execute positioned -1239 177 -541 run function att2:summon/reg_3/golem2_classx {class:CLASS13}
+execute positioned -1239 177 -541 run function att2:summon/reg_3/golem2_classx {class:CLASS13}
+execute positioned -1239 177 -541 run function att2:summon/reg_3/golem4_classx {class:CLASS16}
+execute positioned -1239 177 -541 run function att2:summon/reg_3/golem4_classx {class:CLASS16}
+execute positioned -1239 177 -541 run function att2:summon/reg_3/golem2_classx {class:CLASS13}
+execute positioned -1239 177 -541 run function att2:summon/reg_3/golem2_classx {class:CLASS13}
 
 
 execute positioned -1243 171.55 -613 run function att2:summon/reg_3/dungeon_elevator

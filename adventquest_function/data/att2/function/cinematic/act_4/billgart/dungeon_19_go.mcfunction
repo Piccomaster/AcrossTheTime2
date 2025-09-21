@@ -3,10 +3,10 @@
 #Process cinematic billgart dungeon_19_go  		 #
 ##################################################
 
-execute if score End0 TIMER matches 0 positioned -1215 82 -711 run function att2:summon/reg_3/golem3_class13
-execute if score End0 TIMER matches 0 positioned -1215 82 -711 run function att2:summon/reg_3/golem3_class13
-execute if score End0 TIMER matches 0 positioned -1215 82 -711 run function att2:summon/reg_3/golem3_class13
-execute if score End0 TIMER matches 0 positioned -1215 82 -711 run function att2:summon/reg_3/golem3_class13
+execute if score End0 TIMER matches 0 positioned -1215 82 -711 run function att2:summon/reg_3/golem3_classx {class:CLASS13}
+execute if score End0 TIMER matches 0 positioned -1215 82 -711 run function att2:summon/reg_3/golem3_classx {class:CLASS13}
+execute if score End0 TIMER matches 0 positioned -1215 82 -711 run function att2:summon/reg_3/golem3_classx {class:CLASS13}
+execute if score End0 TIMER matches 0 positioned -1215 82 -711 run function att2:summon/reg_3/golem3_classx {class:CLASS13}
 execute if score End0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 149
 
 

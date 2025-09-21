@@ -1,6 +1,0 @@
-##################################################
-#Made by Adventquest                             #
-#Summon skeleton0 class18		     			 #
-##################################################
-
-summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS18","Reg4","Undead"],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{enchantments:{"minecraft:fire_protection":1,"minecraft:blast_protection":2},dyed_color:16514979}},legs:{id:"minecraft:leather_leggings",count:1,components:{enchantments:{"minecraft:fire_protection":1,"minecraft:blast_protection":2},dyed_color:16514979}},chest:{id:"minecraft:leather_chestplate",count:1,components:{enchantments:{"minecraft:fire_protection":1,"minecraft:blast_protection":2},dyed_color:16514979}},head:{id:"minecraft:leather_helmet",count:1,components:{enchantments:{"minecraft:fire_protection":1,"minecraft:protection":5},unbreakable:{},dyed_color:16514979}}}}

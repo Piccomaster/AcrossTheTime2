@@ -6,16 +6,16 @@
 execute positioned -3403 13 -4942 run function att2:sound/misc/loading_energy
 execute positioned -3403 13 -4942 run function att2:cinematic/act_2/asunark/scary_elderguardian_effect
 
-execute positioned -3392 12 -4944 run function att2:summon/reg_1/skeletonarcher0_class7
-execute positioned -3392 12 -4940 run function att2:summon/reg_1/skeletonarcher0_class7
-execute positioned -3392 12 -4944 run function att2:summon/reg_1/zombie0_class5
-execute positioned -3391 12 -4944 run function att2:summon/reg_1/zombie0_class5
-execute positioned -3390 12 -4944 run function att2:summon/reg_1/zombie0_class5
-execute positioned -3389 12 -4944 run function att2:summon/reg_1/zombie0_class5
-execute positioned -3392 12 -4941 run function att2:summon/reg_1/zombie0_class5
-execute positioned -3391 12 -4941 run function att2:summon/reg_1/zombie0_class5
-execute positioned -3390 12 -4941 run function att2:summon/reg_1/zombie0_class5
-execute positioned -3389 12 -4941 run function att2:summon/reg_1/zombie0_class5
+execute positioned -3392 12 -4944 run function att2:summon/reg_1/skeletonarcher0_classx {class:CLASS7}
+execute positioned -3392 12 -4940 run function att2:summon/reg_1/skeletonarcher0_classx {class:CLASS7}
+execute positioned -3392 12 -4944 run function att2:summon/reg_1/zombie0_classx {class:CLASS5}
+execute positioned -3391 12 -4944 run function att2:summon/reg_1/zombie0_classx {class:CLASS5}
+execute positioned -3390 12 -4944 run function att2:summon/reg_1/zombie0_classx {class:CLASS5}
+execute positioned -3389 12 -4944 run function att2:summon/reg_1/zombie0_classx {class:CLASS5}
+execute positioned -3392 12 -4941 run function att2:summon/reg_1/zombie0_classx {class:CLASS5}
+execute positioned -3391 12 -4941 run function att2:summon/reg_1/zombie0_classx {class:CLASS5}
+execute positioned -3390 12 -4941 run function att2:summon/reg_1/zombie0_classx {class:CLASS5}
+execute positioned -3389 12 -4941 run function att2:summon/reg_1/zombie0_classx {class:CLASS5}
 
 
 #Summon defensive turret

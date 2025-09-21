@@ -1,7 +1,7 @@
 ####################################	*#
-#Spawner for att2:summon/reg_1/zombie_class3_sq10	#
+#Spawner for att2:summon/reg_1/zombie_classx {class:CLASS3}_sq10	#
 ####################################	*#
 
 execute positioned -5066 75 -5080 store result score mob_count COUNT if entity @e[team=hostile,type=!bat,distance=..15]
-execute positioned -5066 75 -5080 unless entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] unless score mob_count COUNT matches 1.. run function att2:summon/reg_1/zombie_class3_sq10
+execute positioned -5066 75 -5080 unless entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] unless score mob_count COUNT matches 1.. run function att2:summon/reg_1/zombie_classx {class:CLASS3}_sq10
 scoreboard players reset mob_count COUNT

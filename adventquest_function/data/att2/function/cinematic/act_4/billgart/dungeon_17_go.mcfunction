@@ -3,15 +3,15 @@
 #Process cinematic billgart dungeon_17_go  		 #
 ##################################################
 
-execute if score End0 TIMER matches 0 positioned -1256 51 -751 run function att2:summon/reg_3/silverfish0_class5
-execute if score End0 TIMER matches 0 positioned -1256 51 -751 run function att2:summon/reg_3/silverfish0_class9
-execute if score End0 TIMER matches 0 positioned -1256 51 -751 run function att2:summon/reg_3/silverfish0_class9
-execute if score End0 TIMER matches 0 positioned -1256 51 -751 run function att2:summon/reg_3/silverfish0_class5
+execute if score End0 TIMER matches 0 positioned -1256 51 -751 run function att2:summon/reg_3/silverfish0_classx {class:CLASS5}
+execute if score End0 TIMER matches 0 positioned -1256 51 -751 run function att2:summon/reg_3/silverfish0_classx {class:CLASS9}
+execute if score End0 TIMER matches 0 positioned -1256 51 -751 run function att2:summon/reg_3/silverfish0_classx {class:CLASS9}
+execute if score End0 TIMER matches 0 positioned -1256 51 -751 run function att2:summon/reg_3/silverfish0_classx {class:CLASS5}
 
-execute if score End0 TIMER matches 5 positioned -1246 58 -758 run function att2:summon/reg_3/golemarcher0_class10
-execute if score End0 TIMER matches 5 positioned -1246 58 -758 run function att2:summon/reg_3/golemarcher1_class12
-execute if score End0 TIMER matches 5 positioned -1232 58 -758 run function att2:summon/reg_3/golemarcher2_class14
-execute if score End0 TIMER matches 5 positioned -1232 58 -758 run function att2:summon/reg_3/golemarcher3_class16
+execute if score End0 TIMER matches 5 positioned -1246 58 -758 run function att2:summon/reg_3/golemarcher0_classx {class:CLASS10}
+execute if score End0 TIMER matches 5 positioned -1246 58 -758 run function att2:summon/reg_3/golemarcher1_classx {class:CLASS12}
+execute if score End0 TIMER matches 5 positioned -1232 58 -758 run function att2:summon/reg_3/golemarcher2_classx {class:CLASS14}
+execute if score End0 TIMER matches 5 positioned -1232 58 -758 run function att2:summon/reg_3/golemarcher3_classx {class:CLASS16}
 execute if score End0 TIMER matches 11 run scoreboard players set Mainquest SIDEQUEST 147
 
 #=======================#
