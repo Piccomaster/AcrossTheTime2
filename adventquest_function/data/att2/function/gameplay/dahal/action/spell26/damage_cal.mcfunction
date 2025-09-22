@@ -5,7 +5,8 @@
 
 ##damage go
 execute at @s unless entity @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5,limit=1] run return 0
-
+##reduce health
+effect give @s instant_damage 1 3 
 ##get score
 execute store result score #Health CAL run data get entity @s Health
 execute store result score #Max_Health CAL run attribute @s max_health get

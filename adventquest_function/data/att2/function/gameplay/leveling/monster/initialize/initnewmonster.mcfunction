@@ -13,9 +13,11 @@ scoreboard players operation @s GAMELEVEL > @a GAMELEVEL
 # execute if score level DIFFICULTY matches -1 run scoreboard players remove @s GAMELEVEL 6
 # execute if score level DIFFICULTY matches 1 run scoreboard players add @s GAMELEVEL 6
 
-execute if score level DIFFICULTY matches -1..1 store result score numberPlayer DIFFICULTY if entity @a
+execute store result score numberPlayer DIFFICULTY if entity @a
 #make number <=5
 execute if score numberPlayer DIFFICULTY matches 5.. run scoreboard players set numberPlayer DIFFICULTY 5
+##more player
+execute unless entity @s[tag=PlayerAlly] run function att2:gameplay/leveling/monster/initialize/more_player
 
 execute if score level DIFFICULTY matches -1..1 run scoreboard players remove numberPlayer DIFFICULTY 1
 execute if score level DIFFICULTY matches -1..1 run scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
@@ -52,7 +54,6 @@ execute if score level DIFFICULTY matches 1 as @s[tag=MEGA] run function att2:ga
 execute if score level DIFFICULTY matches 2 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect2
 execute if score level DIFFICULTY matches 2 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite2
 execute if score level DIFFICULTY matches 2 as @s[tag=MEGA] run function att2:gameplay/leveling/monster/initialize/megaelite2
-
 # Set loottable for non-player's invocated entities
 execute unless entity @s[tag=PlayerAlly] run function att2:gameplay/leveling/monster/loot/setdrop
 

@@ -56,7 +56,7 @@ scoreboard objectives add statWALK minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add statCAKE minecraft.custom:minecraft.eat_cake_slice
 
 scoreboard objectives add statDAMAGEDEALT minecraft.custom:minecraft.damage_dealt
-scoreboard objectives add statDAMAGETAKEN minecraft.custom:minecraft.damage_taken
+scoreboard objectives add statDAMAGETAKEN minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add statDAMAGEBLOCK minecraft.custom:minecraft.damage_blocked_by_shield
 
 scoreboard objectives add statSPLASHUSED minecraft.used:minecraft.splash_potion
