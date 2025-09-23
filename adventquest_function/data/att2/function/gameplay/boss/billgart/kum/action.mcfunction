@@ -17,16 +17,16 @@ execute as @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] at @s i
 
 # Timer 1
 execute if score Kum_timer1 SQ53 matches 500 if score Kum_buttons SQ53 matches 0.. positioned -1553 31 -593 run function att2:gameplay/boss/billgart/kum/arrow1
-execute if score Kum_timer1 SQ53 matches 1000 positioned -1553 27 -605 run function att2:summon/reg_3/golemarcher2_class17
+execute if score Kum_timer1 SQ53 matches 1000 positioned -1553 27 -605 run function att2:summon/reg_3/golemarcher2_classx {class:CLASS17}
 execute if score Kum_timer1 SQ53 matches 1000 if score Kum_buttons SQ53 matches 0.. positioned -1553 31 -617 run function att2:gameplay/boss/billgart/kum/arrow2
 execute if score Kum_timer1 SQ53 matches 1500 if score Kum_buttons SQ53 matches 0.. positioned -1553 31 -593 run function att2:gameplay/boss/billgart/kum/arrow1
 execute if score Kum_timer1 SQ53 matches 2000 run function att2:gameplay/boss/billgart/kum/summoning_minion1
-execute if score Kum_timer1 SQ53 matches 2000 positioned -1553 27 -605 run function att2:summon/reg_3/golemarcher2_class18
+execute if score Kum_timer1 SQ53 matches 2000 positioned -1553 27 -605 run function att2:summon/reg_3/golemarcher2_classx {class:CLASS18}
 execute if score Kum_timer1 SQ53 matches 2500 if score Kum_buttons SQ53 matches 0.. positioned -1553 31 -617 run function att2:gameplay/boss/billgart/kum/arrow2
-execute if score Kum_timer1 SQ53 matches 3000 positioned -1553 27 -605 run function att2:summon/reg_3/golemarcher2_class19
+execute if score Kum_timer1 SQ53 matches 3000 positioned -1553 27 -605 run function att2:summon/reg_3/golemarcher2_classx {class:CLASS19}
 execute if score Kum_timer1 SQ53 matches 3000 if score Kum_buttons SQ53 matches 0.. positioned -1553 31 -593 run function att2:gameplay/boss/billgart/kum/arrow1
 execute if score Kum_timer1 SQ53 matches 3500 if score Kum_buttons SQ53 matches 0.. positioned -1553 31 -617 run function att2:gameplay/boss/billgart/kum/arrow2
-execute if score Kum_timer1 SQ53 matches 4000 positioned -1553 27 -605 run function att2:summon/reg_3/golemarcher2_class20
+execute if score Kum_timer1 SQ53 matches 4000 positioned -1553 27 -605 run function att2:summon/reg_3/golemarcher2_classx {class:CLASS20}
 execute if score Kum_timer1 SQ53 matches 4000 if score Kum_buttons SQ53 matches 0.. positioned -1553 31 -617 run function att2:gameplay/boss/billgart/kum/arrow2
 execute if score Kum_timer1 SQ53 matches 4000 if score Kum_buttons SQ53 matches 0.. positioned -1553 31 -593 run function att2:gameplay/boss/billgart/kum/arrow1
 

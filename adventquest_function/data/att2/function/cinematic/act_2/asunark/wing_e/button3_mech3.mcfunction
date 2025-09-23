@@ -13,6 +13,6 @@ kill @e[type=minecraft:giant,x=-3277,y=35,z=-4942,distance=..13]
 kill @e[type=minecraft:guardian,x=-3277,y=35,z=-4942,distance=..13]
 kill @e[type=minecraft:creeper,x=-3277,y=35,z=-4942,distance=..13]
 
-execute positioned -3289 25 -4942 run function att2:summon/reg_1/slimegiant0_class6
+execute positioned -3289 25 -4942 run function att2:summon/reg_1/slimegiant0_classx {class:CLASS6}
 #return 1->make command block runing
 return 1

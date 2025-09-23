@@ -10,10 +10,10 @@ execute positioned -5251 66 -4553 run function att2:sound/misc/resolution
 execute positioned -5251 66 -4553 run function att2:sound/misc/seal_placed
 scoreboard players set seal_south SECRET_DUNGEON 1
 
-execute positioned -5238 65 -4554 run function att2:summon/reg_1/wardenminion0_class17
-execute positioned -5238 65 -4552 run function att2:summon/reg_1/wardenminion0_class17
-execute positioned -5270 69 -4554 run function att2:summon/reg_1/wardenminion0_class17
-execute positioned -5270 69 -4552 run function att2:summon/reg_1/wardenminion0_class17
+execute positioned -5238 65 -4554 run function att2:summon/reg_1/wardenminion0_classx {class:CLASS17}
+execute positioned -5238 65 -4552 run function att2:summon/reg_1/wardenminion0_classx {class:CLASS17}
+execute positioned -5270 69 -4554 run function att2:summon/reg_1/wardenminion0_classx {class:CLASS17}
+execute positioned -5270 69 -4552 run function att2:summon/reg_1/wardenminion0_classx {class:CLASS17}
 execute positioned -5238 65 -4553 as @e[distance=..5] run data merge entity @s {PersistenceRequired:1}
 execute positioned -5270 69 -4553 as @e[distance=..5] run data merge entity @s {PersistenceRequired:1}
 #return 1->make command block runing

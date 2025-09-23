@@ -6,11 +6,11 @@
 execute at @a run function att2:sound/misc/desintegration
 execute at @a run function att2:sound/misc/breath
 
-execute positioned -1297 152 -580 run function att2:summon/reg_3/blaze0_class9
-execute positioned -1311 160 -553 run function att2:summon/reg_3/blaze0_class9
-execute positioned -1317 174 -571 run function att2:summon/reg_3/blaze0_class9
-execute positioned -1323 172 -581 run function att2:summon/reg_3/blaze0_class9
-execute positioned -1310 163 -573 run function att2:summon/reg_3/blaze0_class9
+execute positioned -1297 152 -580 run function att2:summon/reg_3/blaze0_classx {class:CLASS9}
+execute positioned -1311 160 -553 run function att2:summon/reg_3/blaze0_classx {class:CLASS9}
+execute positioned -1317 174 -571 run function att2:summon/reg_3/blaze0_classx {class:CLASS9}
+execute positioned -1323 172 -581 run function att2:summon/reg_3/blaze0_classx {class:CLASS9}
+execute positioned -1310 163 -573 run function att2:summon/reg_3/blaze0_classx {class:CLASS9}
 
 scoreboard players set GolemBoss BILLGART 2
 

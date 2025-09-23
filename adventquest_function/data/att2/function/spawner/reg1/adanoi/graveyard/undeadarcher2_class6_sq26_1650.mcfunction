@@ -1,7 +1,7 @@
 ####################################	*#
-#Spawner for att2:summon/reg_1/undeadarcher2_class6_sq26	#
+#Spawner for att2:summon/reg_1/undeadarcher2_classx_sq26	# {class:CLASS6}
 ####################################	*#
 
 execute positioned -3986 81 -5552 store result score mob_count COUNT if entity @e[team=hostile,type=!bat,distance=..20]
-execute positioned -3986 81 -5552 unless entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] unless score mob_count COUNT matches 4.. run function att2:summon/reg_1/undeadarcher2_class6_sq26
+execute positioned -3986 81 -5552 unless entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] unless score mob_count COUNT matches 4.. run function att2:summon/reg_1/undeadarcher2_classx_sq26 {class:CLASS6}
 scoreboard players reset mob_count COUNT

@@ -19,23 +19,23 @@ execute if score Real0 TIMER matches 210 run function att2:physicmod/reg1/asunar
 execute if score Real0 TIMER matches 210 positioned -3418 29 -4917 run function att2:sound/door/simple_glassdoor
 execute if score Real0 TIMER matches 241..300 as @a[gamemode=spectator] run tp @s -3457 33 -4913 -152 -30
 
-execute if score Real0 TIMER matches 300 positioned -3445 12 -4923 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3445 12 -4924 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3445 12 -4925 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3445 12 -4926 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3445 12 -4927 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3445 12 -4928 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3445 12 -4929 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3445 12 -4930 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3441 12 -4923 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3441 12 -4924 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3441 12 -4925 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3441 12 -4926 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3441 12 -4927 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3441 12 -4928 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3441 12 -4929 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3441 12 -4930 run function att2:summon/reg_1/zombie0_class2
-execute if score Real0 TIMER matches 300 positioned -3443 11 -4926 run function att2:summon/reg_1/skeleton0_class8
+execute if score Real0 TIMER matches 300 positioned -3445 12 -4923 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3445 12 -4924 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3445 12 -4925 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3445 12 -4926 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3445 12 -4927 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3445 12 -4928 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3445 12 -4929 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3445 12 -4930 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3441 12 -4923 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3441 12 -4924 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3441 12 -4925 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3441 12 -4926 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3441 12 -4927 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3441 12 -4928 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3441 12 -4929 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3441 12 -4930 run function att2:summon/reg_1/zombie0_classx {class:CLASS2}
+execute if score Real0 TIMER matches 300 positioned -3443 11 -4926 run function att2:summon/reg_1/skeleton0_classx {class:CLASS8}
 
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_2/ch7_player_9
 execute if score Real0 TIMER matches 300 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end

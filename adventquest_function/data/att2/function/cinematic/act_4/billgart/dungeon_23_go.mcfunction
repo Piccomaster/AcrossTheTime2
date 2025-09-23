@@ -3,10 +3,10 @@
 #Process cinematic billgart dungeon_23_go  		 #
 ##################################################
 
-execute if score End0 TIMER matches 0 positioned -1221 20 -496 run function att2:summon/reg_3/silverfish0_class5
-execute if score End0 TIMER matches 0 positioned -1221 20 -496 run function att2:summon/reg_3/silverfish0_class5
-execute if score End0 TIMER matches 0 positioned -1221 20 -496 run function att2:summon/reg_3/silverfish0_class5
-execute if score End0 TIMER matches 0 positioned -1221 20 -496 run function att2:summon/reg_3/silverfish0_class5
+execute if score End0 TIMER matches 0 positioned -1221 20 -496 run function att2:summon/reg_3/silverfish0_classx {class:CLASS5}
+execute if score End0 TIMER matches 0 positioned -1221 20 -496 run function att2:summon/reg_3/silverfish0_classx {class:CLASS5}
+execute if score End0 TIMER matches 0 positioned -1221 20 -496 run function att2:summon/reg_3/silverfish0_classx {class:CLASS5}
+execute if score End0 TIMER matches 0 positioned -1221 20 -496 run function att2:summon/reg_3/silverfish0_classx {class:CLASS5}
 execute if score End0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 153
 
 

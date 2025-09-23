@@ -9,8 +9,8 @@ scoreboard players set wingeu_mech4 ANGOR 1
 
 execute in minecraft:the_nether run function att2:physicmod/reg2/angor_palace/wing_eu/mech4_button1
 
-execute in minecraft:the_nether positioned 3555 83 4553 run function att2:summon/reg_2/mortal1_class10
-execute in minecraft:the_nether positioned 3558 83 4551 run function att2:summon/reg_2/mortal2_class12
-execute in minecraft:the_nether positioned 3555 83 4549 run function att2:summon/reg_2/mortal3_class10
+execute in minecraft:the_nether positioned 3555 83 4553 run function att2:summon/reg_2/mortal1_classx {class:CLASS10}
+execute in minecraft:the_nether positioned 3558 83 4551 run function att2:summon/reg_2/mortal2_classx {class:CLASS12}
+execute in minecraft:the_nether positioned 3555 83 4549 run function att2:summon/reg_2/mortal3_classx {class:CLASS10}
 #return 1->make command block runing
 return 1

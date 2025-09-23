@@ -1,6 +1,0 @@
-##################################################
-#Made by Adventquest                             #
-#Summon zombie class_11 region_1  		       	 #
-##################################################
-
-summon minecraft:zombie ~ ~ ~ {DrownedConversionTime:10000000,Tags:["LVL0","CLASS11","Reg1","Undead"],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{head:{id:"minecraft:leather_helmet",count:1,components:{unbreakable:{},dyed_color:11839558}}}}

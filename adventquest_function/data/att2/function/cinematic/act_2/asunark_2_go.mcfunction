@@ -10,12 +10,12 @@ execute if score Real0 TIMER matches 60..119 as @a[gamemode=spectator] run tp @s
 execute if score Real0 TIMER matches 120..179 as @a[gamemode=spectator] run tp @s -3443 28 -4928 0 0
 execute if score Real0 TIMER matches 180..239 as @a[gamemode=spectator] run tp @s -3443 28 -4952 180 0
 execute if score Real0 TIMER matches 240..299 as @a[gamemode=spectator] run tp @s -3477 37 -4958 -50 30
-execute if score Real0 TIMER matches 300 positioned -3467 11 -4942 run function att2:summon/reg_1/slimemedium0_class6
-execute if score Real0 TIMER matches 300 positioned -3449 11 -4945 run function att2:summon/reg_1/slimemedium0_class6
-execute if score Real0 TIMER matches 300 positioned -3449 11 -4939 run function att2:summon/reg_1/slimemedium0_class6
-execute if score Real0 TIMER matches 300 positioned -3480 16 -4934 run function att2:summon/reg_1/skeletonarcher0_class5
-execute if score Real0 TIMER matches 300 positioned -3480 16 -4950 run function att2:summon/reg_1/skeletonarcher0_class5
-execute if score Real0 TIMER matches 300 positioned -3435 11 -4942 run function att2:summon/reg_1/slimebig0_class8
+execute if score Real0 TIMER matches 300 positioned -3467 11 -4942 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS6}
+execute if score Real0 TIMER matches 300 positioned -3449 11 -4945 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS6}
+execute if score Real0 TIMER matches 300 positioned -3449 11 -4939 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS6}
+execute if score Real0 TIMER matches 300 positioned -3480 16 -4934 run function att2:summon/reg_1/skeletonarcher0_classx {class:CLASS5}
+execute if score Real0 TIMER matches 300 positioned -3480 16 -4950 run function att2:summon/reg_1/skeletonarcher0_classx {class:CLASS5}
+execute if score Real0 TIMER matches 300 positioned -3435 11 -4942 run function att2:summon/reg_1/slimebig0_classx {class:CLASS8}
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_2/ch7_player_4
 execute if score Real0 TIMER matches 300 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
 execute if score Real0 TIMER matches 302 run scoreboard players set Mainquest SIDEQUEST 35

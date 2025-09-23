@@ -4,7 +4,7 @@
 #####################################################################
 
 execute positioned -1541 44 -605 run function att2:sound/misc/arrow_shoot
-execute positioned -1553 30 -615 run function att2:summon/reg_3/silverfish0_class8
+execute positioned -1553 30 -615 run function att2:summon/reg_3/silverfish0_classx {class:CLASS8}
 
 summon minecraft:arrow ~ ~ ~ {item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:1347617,custom_effects:[{id:"minecraft:wither",duration:100,amplifier:2,show_particles:false}]}}},pickup:0,life:200,Silent:1b,Motion:[-0.5,1.0,0.5],damage:10.0}
 summon minecraft:arrow ~ ~ ~ {item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:1347617,custom_effects:[{id:"minecraft:wither",duration:100,amplifier:2,show_particles:false}]}}},pickup:0,life:200,Silent:1b,Motion:[-0.1,1.0,0.7],damage:10.0}

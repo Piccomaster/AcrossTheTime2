@@ -42,16 +42,16 @@ execute if score wingw OWSASTR matches 40 positioned -4997 71 -4381 run function
 execute if score wingw OWSASTR matches 80 run function att2:physicmod/reg1/owsastr/wingw_waterraising1
 execute if score wingw OWSASTR matches 80 as @e[nbt={UUID:[I;0,65351,0,65351]}] at @s run tp @s ~ ~1 ~
 execute if score wingw OWSASTR matches 80 positioned -4997 72 -4381 run function att2:sound/misc/water_brewing
-execute if score wingw OWSASTR matches 80 positioned -4999 76 -4387 run function att2:summon/reg_1/zombie0_class7
-execute if score wingw OWSASTR matches 80 positioned -4995 76 -4375 run function att2:summon/reg_1/zombie0_class7
-execute if score wingw OWSASTR matches 80 positioned -4989 82 -4393 run function att2:summon/reg_1/skeletonarcher0_class7
-execute if score wingw OWSASTR matches 80 positioned -5009 82 -4369 run function att2:summon/reg_1/skeletonarcher0_class7
-execute if score wingw OWSASTR matches 80 positioned -4996 84 -4368 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 80 positioned -4991 82 -4369 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 80 positioned -5000 79 -4371 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 80 positioned -4998 79 -4391 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 80 positioned -4994 81 -4392 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 80 positioned -5003 82 -4393 run function att2:summon/reg_1/cavespider0_class3
+execute if score wingw OWSASTR matches 80 positioned -4999 76 -4387 run function att2:summon/reg_1/zombie0_classx {class:CLASS7}
+execute if score wingw OWSASTR matches 80 positioned -4995 76 -4375 run function att2:summon/reg_1/zombie0_classx {class:CLASS7}
+execute if score wingw OWSASTR matches 80 positioned -4989 82 -4393 run function att2:summon/reg_1/skeletonarcher0_classx {class:CLASS7}
+execute if score wingw OWSASTR matches 80 positioned -5009 82 -4369 run function att2:summon/reg_1/skeletonarcher0_classx {class:CLASS7}
+execute if score wingw OWSASTR matches 80 positioned -4996 84 -4368 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 80 positioned -4991 82 -4369 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 80 positioned -5000 79 -4371 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 80 positioned -4998 79 -4391 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 80 positioned -4994 81 -4392 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 80 positioned -5003 82 -4393 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
 
 #Step 2
 execute if score wingw OWSASTR matches 120 run function att2:physicmod/reg1/owsastr/wingw_waterraising2
@@ -60,12 +60,12 @@ execute if score wingw OWSASTR matches 120 positioned -4997 73 -4381 run functio
 execute if score wingw OWSASTR matches 160 run function att2:physicmod/reg1/owsastr/wingw_waterraising3
 execute if score wingw OWSASTR matches 160 as @e[nbt={UUID:[I;0,65351,0,65351]}] at @s run tp @s ~ ~1 ~
 execute if score wingw OWSASTR matches 160 positioned -4997 74 -4381 run function att2:sound/misc/water_brewing
-execute if score wingw OWSASTR matches 160 positioned -5014 76 -4383 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 160 positioned -5017 76 -4383 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 160 positioned -5017 76 -4379 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 160 positioned -5014 76 -4379 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 160 positioned -5019 78 -4381 run function att2:summon/reg_1/cavespider0_class3
-execute if score wingw OWSASTR matches 160 positioned -5016 76 -4381 run function att2:summon/reg_1/spider0_class4
+execute if score wingw OWSASTR matches 160 positioned -5014 76 -4383 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 160 positioned -5017 76 -4383 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 160 positioned -5017 76 -4379 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 160 positioned -5014 76 -4379 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 160 positioned -5019 78 -4381 run function att2:summon/reg_1/cavespider0_classx {class:CLASS3}
+execute if score wingw OWSASTR matches 160 positioned -5016 76 -4381 run function att2:summon/reg_1/spider0_classx {class:CLASS4}
 
 #Door burning
 execute if score wingw OWSASTR matches 190 positioned -5013 77 -4381 run function att2:sound/misc/quick_burning

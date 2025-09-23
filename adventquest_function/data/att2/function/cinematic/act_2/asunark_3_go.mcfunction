@@ -4,11 +4,11 @@
 ##################################################
 
 execute if score Real0 TIMER matches 0 run function att2:dialogs/mainquest/act_2/ch7_player_5
-execute if score Real0 TIMER matches 0 positioned -3460 69 -5038 run function att2:summon/reg_1/zombie0_class6
-execute if score Real0 TIMER matches 0 positioned -3460 69 -5038 run function att2:summon/reg_1/zombie0_class6
-execute if score Real0 TIMER matches 0 positioned -3444 69 -5039 run function att2:summon/reg_1/zombie0_class6
-execute if score Real0 TIMER matches 0 positioned -3444 69 -5039 run function att2:summon/reg_1/zombie0_class6
-execute if score Real0 TIMER matches 0 positioned -3452 67 -5045 run function att2:summon/reg_1/guardian0_class5
+execute if score Real0 TIMER matches 0 positioned -3460 69 -5038 run function att2:summon/reg_1/zombie0_classx {class:CLASS6}
+execute if score Real0 TIMER matches 0 positioned -3460 69 -5038 run function att2:summon/reg_1/zombie0_classx {class:CLASS6}
+execute if score Real0 TIMER matches 0 positioned -3444 69 -5039 run function att2:summon/reg_1/zombie0_classx {class:CLASS6}
+execute if score Real0 TIMER matches 0 positioned -3444 69 -5039 run function att2:summon/reg_1/zombie0_classx {class:CLASS6}
+execute if score Real0 TIMER matches 0 positioned -3452 67 -5045 run function att2:summon/reg_1/guardian0_classx {class:CLASS5}
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 36
 
 

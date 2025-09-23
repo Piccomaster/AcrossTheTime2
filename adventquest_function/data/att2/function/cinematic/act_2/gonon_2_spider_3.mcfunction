@@ -13,7 +13,7 @@ fill -5212 57 -5306 -5211 57 -5306 minecraft:gravel
 playsound minecraft:entity.zombie.break_wooden_door master @a ~ ~ ~ 1 0.5 1
 playsound minecraft:eboulement3 master @a ~ ~ ~ 1 1 1
 playsound minecraft:eboulement3 master @a ~ ~ ~ 1 1 1
-execute positioned -5206 56 -5313 run function att2:summon/reg_1/cavespider0_class1
-execute positioned -5215 56 -5312 run function att2:summon/reg_1/cavespider0_class1
+execute positioned -5206 56 -5313 run function att2:summon/reg_1/cavespider0_classx {class:CLASS1}
+execute positioned -5215 56 -5312 run function att2:summon/reg_1/cavespider0_classx {class:CLASS1}
 #return 1->make command block runing
 return 1

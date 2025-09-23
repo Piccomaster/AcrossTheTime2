@@ -12,14 +12,14 @@ execute in overworld as @a[x=-3616,y=65,z=-4935,distance=..100] run function att
 
 scoreboard players set homer_PNJ DIALOG 3
 
-execute positioned -3632 66 -4952 run function att2:summon/reg_1/drowned0_class7
-execute positioned -3627 66 -4952 run function att2:summon/reg_1/drowned0_class7
-execute positioned -3625 66 -4945 run function att2:summon/reg_1/drowned0_class7
-execute positioned -3630 66 -4945 run function att2:summon/reg_1/drowned0_class7
-execute positioned -3625 64 -4936 run function att2:summon/reg_1/guardian0_class8
-execute positioned -3625 66 -4930 run function att2:summon/reg_1/drowned0_class7
-execute positioned -3632 66 -4929 run function att2:summon/reg_1/drowned0_class7
-execute positioned -3624 66 -4921 run function att2:summon/reg_1/drowned0_class7
-execute positioned -3631 66 -4921 run function att2:summon/reg_1/drowned0_class7
+execute positioned -3632 66 -4952 run function att2:summon/reg_1/drowned0_classx {class:CLASS7}
+execute positioned -3627 66 -4952 run function att2:summon/reg_1/drowned0_classx {class:CLASS7}
+execute positioned -3625 66 -4945 run function att2:summon/reg_1/drowned0_classx {class:CLASS7}
+execute positioned -3630 66 -4945 run function att2:summon/reg_1/drowned0_classx {class:CLASS7}
+execute positioned -3625 64 -4936 run function att2:summon/reg_1/guardian0_classx {class:CLASS8}
+execute positioned -3625 66 -4930 run function att2:summon/reg_1/drowned0_classx {class:CLASS7}
+execute positioned -3632 66 -4929 run function att2:summon/reg_1/drowned0_classx {class:CLASS7}
+execute positioned -3624 66 -4921 run function att2:summon/reg_1/drowned0_classx {class:CLASS7}
+execute positioned -3631 66 -4921 run function att2:summon/reg_1/drowned0_classx {class:CLASS7}
 #return 1->make command block runing
 return 1

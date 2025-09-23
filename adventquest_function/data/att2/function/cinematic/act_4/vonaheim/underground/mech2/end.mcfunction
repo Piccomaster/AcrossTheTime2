@@ -14,11 +14,11 @@ particle minecraft:falling_dust{block_state:"minecraft:stone"} -5619 94 -6364 0.
 execute positioned -5619 92 -6364 as @a[distance=1..10] run scoreboard players set @s SHAKE_H 30
 execute positioned -5619 92 -6364 as @a[distance=11..20] run scoreboard players set @s SHAKE_L 50
 
-execute positioned -5617 91 -6364 run function att2:summon/reg_1/vindicator1_class9
-execute positioned -5617 91 -6364 run function att2:summon/reg_1/vindicator2_class10
-execute positioned -5617 91 -6364 run function att2:summon/reg_1/vindicator3_class10
-execute positioned -5599 91 -6364 run function att2:summon/reg_1/skeletonarcher5_class10
-execute positioned -5599 91 -6364 run function att2:summon/reg_1/skeletonarcher4_class10
-execute positioned -5599 91 -6364 run function att2:summon/reg_1/skeletonarcher3_class9
+execute positioned -5617 91 -6364 run function att2:summon/reg_1/vindicator1_classx {class:CLASS9}
+execute positioned -5617 91 -6364 run function att2:summon/reg_1/vindicator2_classx {class:CLASS10}
+execute positioned -5617 91 -6364 run function att2:summon/reg_1/vindicator3_classx {class:CLASS10}
+execute positioned -5599 91 -6364 run function att2:summon/reg_1/skeletonarcher5_classx {class:CLASS10}
+execute positioned -5599 91 -6364 run function att2:summon/reg_1/skeletonarcher4_classx {class:CLASS10}
+execute positioned -5599 91 -6364 run function att2:summon/reg_1/skeletonarcher3_classx {class:CLASS9}
 #return 1->make command block runing
 return 1

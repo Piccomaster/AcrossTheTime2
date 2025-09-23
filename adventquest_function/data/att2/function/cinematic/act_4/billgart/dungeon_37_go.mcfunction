@@ -3,13 +3,13 @@
 #Process cinematic billgart dungeon_37_go  		 #
 ##################################################
 
-execute if score End0 TIMER matches 0 positioned -1167 105 -664 run function att2:summon/reg_3/golem0_class10
-execute if score End0 TIMER matches 0 positioned -1166 105 -663 run function att2:summon/reg_3/golem1_class11
-execute if score End0 TIMER matches 0 positioned -1165 105 -662 run function att2:summon/reg_3/golem2_class16
-execute if score End0 TIMER matches 0 positioned -1164 105 -661 run function att2:summon/reg_3/golemarcher3_class16
-execute if score End0 TIMER matches 0 positioned -1163 105 -660 run function att2:summon/reg_3/golem2_class16
-execute if score End0 TIMER matches 0 positioned -1162 105 -659 run function att2:summon/reg_3/golem1_class11
-execute if score End0 TIMER matches 0 positioned -1161 105 -658 run function att2:summon/reg_3/golem0_class10
+execute if score End0 TIMER matches 0 positioned -1167 105 -664 run function att2:summon/reg_3/golem0_classx {class:CLASS10}
+execute if score End0 TIMER matches 0 positioned -1166 105 -663 run function att2:summon/reg_3/golem1_classx {class:CLASS11}
+execute if score End0 TIMER matches 0 positioned -1165 105 -662 run function att2:summon/reg_3/golem2_classx {class:CLASS16}
+execute if score End0 TIMER matches 0 positioned -1164 105 -661 run function att2:summon/reg_3/golemarcher3_classx {class:CLASS16}
+execute if score End0 TIMER matches 0 positioned -1163 105 -660 run function att2:summon/reg_3/golem2_classx {class:CLASS16}
+execute if score End0 TIMER matches 0 positioned -1162 105 -659 run function att2:summon/reg_3/golem1_classx {class:CLASS11}
+execute if score End0 TIMER matches 0 positioned -1161 105 -658 run function att2:summon/reg_3/golem0_classx {class:CLASS10}
 execute if score End0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 167
 
 

@@ -12,13 +12,13 @@ function att2:physicmod/reg1/asunark/bossroom_flooding
 
 kill @e[type=minecraft:elder_guardian,x=-3297,y=24,z=-4942,distance=..50]
 
-execute positioned -3311 25 -4949 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3304 25 -4956 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3290 25 -4956 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3283 25 -4949 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3283 25 -4935 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3290 25 -4928 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3304 25 -4928 run function att2:summon/reg_1/slimemedium0_class5
-execute positioned -3311 25 -4935 run function att2:summon/reg_1/slimemedium0_class5
+execute positioned -3311 25 -4949 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3304 25 -4956 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3290 25 -4956 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3283 25 -4949 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3283 25 -4935 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3290 25 -4928 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3304 25 -4928 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
+execute positioned -3311 25 -4935 run function att2:summon/reg_1/slimemedium0_classx {class:CLASS5}
 #return 1->make command block runing
 return 1
