@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 321 run return run function att2:gameplay/misc/itemrarity_color/select/stop/leg
+execute if score @s ScoreTrigger matches 322 run return run function att2:gameplay/misc/itemrarity_color/select/run/rune_low
+execute if score @s ScoreTrigger matches 323 run return run function att2:gameplay/misc/itemrarity_color/select/stop/rune_low
+execute if score @s ScoreTrigger matches 324 run return run function att2:gameplay/misc/itemrarity_color/select/run/rune_medium
+execute if score @s ScoreTrigger matches 325 run return run function att2:gameplay/misc/itemrarity_color/select/stop/rune_medium
+execute if score @s ScoreTrigger matches 326 run return run function att2:gameplay/misc/itemrarity_color/select/run/rune_high
+execute if score @s ScoreTrigger matches 327 run return run function att2:gameplay/misc/itemrarity_color/select/stop/rune_high
+execute if score @s ScoreTrigger matches 328 run return run function att2:gameplay/misc/itemrarity_color/select/run/other
+execute if score @s ScoreTrigger matches 329 run return run function att2:gameplay/misc/itemrarity_color/select/stop/是同【/other
+execute if score @s ScoreTrigger matches 330 run return run function att2:gameplay/misc/move_light/run

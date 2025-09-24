@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 521 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/pig/class0_4
+execute if score @s ScoreTrigger matches 522 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/pig/class0_6
+execute if score @s ScoreTrigger matches 523 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/pig/class0_8
+execute if score @s ScoreTrigger matches 524 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/absorption
+execute if score @s ScoreTrigger matches 525 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/appat
+execute if score @s ScoreTrigger matches 526 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/arc_spectral
+execute if score @s ScoreTrigger matches 527 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/berserk
+execute if score @s ScoreTrigger matches 528 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/boule_de_feu
+execute if score @s ScoreTrigger matches 529 run return run execute positioned as @e[name=ARAMIS,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/cherche_secret_buy
+execute if score @s ScoreTrigger matches 530 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/cicatrisation

@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 801 run return run function att2:gameplay/quest/sidequest/sq35/display_progress
+execute if score @s ScoreTrigger matches 802 run return run function att2:gameplay/quest/sidequest/sq36/display_progress
+execute if score @s ScoreTrigger matches 803 run return run function att2:gameplay/quest/sidequest/sq37/display_progress
+execute if score @s ScoreTrigger matches 804 run return run function att2:gameplay/quest/sidequest/sq38/display_progress
+execute if score @s ScoreTrigger matches 805 run return run function att2:gameplay/quest/sidequest/sq39/display_progress
+execute if score @s ScoreTrigger matches 806 run return run function att2:gameplay/quest/sidequest/sq4/display_progress
+execute if score @s ScoreTrigger matches 807 run return run function att2:gameplay/quest/sidequest/sq40/display_progress
+execute if score @s ScoreTrigger matches 808 run return run function att2:gameplay/quest/sidequest/sq41/display_progress
+execute if score @s ScoreTrigger matches 809 run return run function att2:gameplay/quest/sidequest/sq42/display_progress
+execute if score @s ScoreTrigger matches 810 run return run function att2:gameplay/quest/sidequest/sq43/display_progress

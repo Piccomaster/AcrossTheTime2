@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1351 run return run function att2:gameplay/dahal/action/spell34/selectlvl3
+execute if score @s ScoreTrigger matches 1352 run return run function att2:gameplay/dahal/action/spell34/selectlvl4
+execute if score @s ScoreTrigger matches 1353 run return run function att2:gameplay/dahal/action/spell34/selectlvl5
+execute if score @s ScoreTrigger matches 1354 run return run function att2:gameplay/dahal/action/spell34/selectlvl6
+execute if score @s ScoreTrigger matches 1355 run return run function att2:gameplay/dahal/action/spell34/selectlvl7
+execute if score @s ScoreTrigger matches 1356 run return run function att2:gameplay/dahal/action/spell34/selectlvl8
+execute if score @s ScoreTrigger matches 1357 run return run function att2:gameplay/dahal/action/spell34/selectlvl9
+execute if score @s ScoreTrigger matches 1358 run return run function att2:gameplay/dahal/action/spell34/selectlvl10
+execute if score @s ScoreTrigger matches 1359 run return run function att2:gameplay/dahal/action/spell34/obtain
+execute if score @s ScoreTrigger matches 1360 run return run function att2:dialogs/gameplay/dahal/compendium/spell4

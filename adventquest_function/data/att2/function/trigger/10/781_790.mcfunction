@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 781 run return run function att2:gameplay/quest/sidequest/sq17/display_progress
+execute if score @s ScoreTrigger matches 782 run return run function att2:gameplay/quest/sidequest/sq18/display_progress
+execute if score @s ScoreTrigger matches 783 run return run function att2:gameplay/quest/sidequest/sq19/display_progress
+execute if score @s ScoreTrigger matches 784 run return run function att2:gameplay/quest/sidequest/sq2/display_progress
+execute if score @s ScoreTrigger matches 785 run return run function att2:gameplay/quest/sidequest/sq20/display_progress
+execute if score @s ScoreTrigger matches 786 run return run function att2:gameplay/quest/sidequest/sq21/display_progress
+execute if score @s ScoreTrigger matches 787 run return run function att2:gameplay/quest/sidequest/sq22/display_progress
+execute if score @s ScoreTrigger matches 788 run return run function att2:gameplay/quest/sidequest/sq23/display_progress
+execute if score @s ScoreTrigger matches 789 run return run function att2:gameplay/quest/sidequest/sq24/display_progress
+execute if score @s ScoreTrigger matches 790 run return run function att2:gameplay/quest/sidequest/sq25/display_progress

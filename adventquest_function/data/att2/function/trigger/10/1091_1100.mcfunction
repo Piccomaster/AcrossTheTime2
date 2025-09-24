@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1091 run return run function att2:dialogs/gameplay/runes/recipes/other_recipes
+execute if score @s ScoreTrigger matches 1092 run return run function att2:gameplay/language/set_french
+execute if score @s ScoreTrigger matches 1093 run return run function att2:gameplay/language/set_english
+execute if score @s ScoreTrigger matches 1094 run return run function att2:gameplay/language/set_chinese
+execute if score @s ScoreTrigger matches 1095 run return run function att2:gameplay/music/battle_music_start
+execute if score @s ScoreTrigger matches 1096 run return run function att2:gameplay/music/battle_music_stop
+execute if score @s ScoreTrigger matches 1097 run return run function att2:gameplay/language/set_japanese
+execute if score @s ScoreTrigger matches 1098 run return run function att2:gameplay/language/set_corean
+execute if score @s ScoreTrigger matches 1099 run return run function att2:gameplay/language/set_hindi
+execute if score @s ScoreTrigger matches 1100 run return run function att2:gameplay/language/set_arabic

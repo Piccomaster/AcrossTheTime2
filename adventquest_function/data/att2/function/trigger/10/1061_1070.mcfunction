@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1061 run return run execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/9/patrick_corth/answer_1_1
+execute if score @s ScoreTrigger matches 1062 run return run execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/9/patrick_corth/answer_2_1
+execute if score @s ScoreTrigger matches 1063 run return run execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_1_2
+execute if score @s ScoreTrigger matches 1064 run return run execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_1_3
+execute if score @s ScoreTrigger matches 1065 run return run execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_2_3
+execute if score @s ScoreTrigger matches 1066 run return run execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_3_3
+execute if score @s ScoreTrigger matches 1067 run return run execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_4_3
+execute if score @s ScoreTrigger matches 1068 run return run function att2:gameplay/quest/mainquest/go
+execute if score @s ScoreTrigger matches 1069 run return run function att2:gameplay/quest/sidequest/go
+execute if score @s ScoreTrigger matches 1070 run return run function att2:gameplay/misc/horse/whistle

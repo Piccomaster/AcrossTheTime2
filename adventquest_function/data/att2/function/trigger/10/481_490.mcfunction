@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 481 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/map
+execute if score @s ScoreTrigger matches 482 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/slowness_arrow_0
+execute if score @s ScoreTrigger matches 483 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/spectral_arrow_0
+execute if score @s ScoreTrigger matches 484 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/spectral_arrow_1
+execute if score @s ScoreTrigger matches 485 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/torch
+execute if score @s ScoreTrigger matches 486 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/wither_arrow_0
+execute if score @s ScoreTrigger matches 487 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/wither_arrow_1
+execute if score @s ScoreTrigger matches 488 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/wither_arrow_2
+execute if score @s ScoreTrigger matches 489 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/camel/class0_10
+execute if score @s ScoreTrigger matches 490 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/camel/class0_2

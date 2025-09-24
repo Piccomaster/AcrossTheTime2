@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1..10 run function att2:trigger/10/1_10
+execute if score @s ScoreTrigger matches 11..20 run function att2:trigger/10/11_20
+execute if score @s ScoreTrigger matches 21..30 run function att2:trigger/10/21_30
+execute if score @s ScoreTrigger matches 31..40 run function att2:trigger/10/31_40
+execute if score @s ScoreTrigger matches 41..50 run function att2:trigger/10/41_50
+execute if score @s ScoreTrigger matches 51..60 run function att2:trigger/10/51_60
+execute if score @s ScoreTrigger matches 61..70 run function att2:trigger/10/61_70
+execute if score @s ScoreTrigger matches 71..80 run function att2:trigger/10/71_80
+execute if score @s ScoreTrigger matches 81..90 run function att2:trigger/10/81_90
+execute if score @s ScoreTrigger matches 91..100 run function att2:trigger/10/91_100

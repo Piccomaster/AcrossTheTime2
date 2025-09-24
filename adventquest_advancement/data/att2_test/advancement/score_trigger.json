@@ -1,0 +1,10 @@
+{
+    "rewards": {
+        "function": "att2:trigger/go"
+    },
+    "criteria": {
+        "score_trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

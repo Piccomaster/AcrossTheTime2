@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1211 run return run function att2:gameplay/dahal/action/spell2/selectlvl4
+execute if score @s ScoreTrigger matches 1212 run return run function att2:gameplay/dahal/action/spell2/selectlvl5
+execute if score @s ScoreTrigger matches 1213 run return run function att2:gameplay/dahal/action/spell2/selectlvl6
+execute if score @s ScoreTrigger matches 1214 run return run function att2:gameplay/dahal/action/spell2/selectlvl7
+execute if score @s ScoreTrigger matches 1215 run return run function att2:gameplay/dahal/action/spell2/selectlvl8
+execute if score @s ScoreTrigger matches 1216 run return run function att2:gameplay/dahal/action/spell2/selectlvl9
+execute if score @s ScoreTrigger matches 1217 run return run function att2:gameplay/dahal/action/spell2/selectlvl10
+execute if score @s ScoreTrigger matches 1218 run return run function att2:gameplay/dahal/action/spell2/obtain
+execute if score @s ScoreTrigger matches 1219 run return run function att2:dialogs/gameplay/dahal/compendium/spell21
+execute if score @s ScoreTrigger matches 1220 run return run function att2:gameplay/dahal/action/spell21/selectlvl1

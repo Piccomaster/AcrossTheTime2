@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 71 run return run execute if score Real0 TIMER matches 4101..4179 run scoreboard players set Real0 TIMER 4179
+execute if score @s ScoreTrigger matches 72 run return run execute if score Real0 TIMER matches 4181..4259 run scoreboard players set Real0 TIMER 4259
+execute if score @s ScoreTrigger matches 73 run return run execute if score Real0 TIMER matches 4261..4649 run scoreboard players set Real0 TIMER 4649
+execute if score @s ScoreTrigger matches 74 run return run execute if score Real0 TIMER matches 4651..4699 run scoreboard players set Real0 TIMER 4699
+execute if score @s ScoreTrigger matches 75 run return run execute if score Real0 TIMER matches 4701..5099 run scoreboard players set Real0 TIMER 5099
+execute if score @s ScoreTrigger matches 76 run return run execute if score Real0 TIMER matches 5101..5199 run scoreboard players set Real0 TIMER 5199
+execute if score @s ScoreTrigger matches 77 run return run execute if score Real0 TIMER matches 5201..5549 run scoreboard players set Real0 TIMER 5549
+execute if score @s ScoreTrigger matches 78 run return run execute if score Real0 TIMER matches 5551..5699 run scoreboard players set Real0 TIMER 5699
+execute if score @s ScoreTrigger matches 79 run return run execute if score Real0 TIMER matches 101..199 run scoreboard players set Real0 TIMER 199
+execute if score @s ScoreTrigger matches 80 run return run execute if score Real0 TIMER matches 251..349 run scoreboard players set Real0 TIMER 349

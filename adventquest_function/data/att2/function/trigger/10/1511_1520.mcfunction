@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1511 run return run function att2:gameplay/enchantment/show_interaction/empathy
+execute if score @s ScoreTrigger matches 1512 run return run function att2:gameplay/enchantment/show_interaction/hpmax_ex_dahalmax
+execute if score @s ScoreTrigger matches 1513 run return run function att2:gameplay/enchantment/show_interaction/potionmaster
+execute if score @s ScoreTrigger matches 1514 run return run function att2:gameplay/enchantment/show_interaction/gourmetmaster
+execute if score @s ScoreTrigger matches 1515 run return run function att2:gameplay/enchantment/show_interaction/heart_protection
+execute if score @s ScoreTrigger matches 1516 run return run function att2:gameplay/enchantment/show_interaction/dahalburst
+execute if score @s ScoreTrigger matches 1517 run return run function att2:gameplay/enchantment/show_interaction/selflessaid
+execute if score @s ScoreTrigger matches 1518 run return run function att2:gameplay/enchantment/show_interaction/swiftsneak
+execute if score @s ScoreTrigger matches 1519 run return run function att2:gameplay/enchantment/show_interaction/arcanedrive
+execute if score @s ScoreTrigger matches 1520 run return run function att2:gameplay/enchantment/show_interaction/treasurehunter

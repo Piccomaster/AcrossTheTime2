@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 511 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/horse/class8_1
+execute if score @s ScoreTrigger matches 512 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/horse/class8_6
+execute if score @s ScoreTrigger matches 513 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/horse/class9_9
+execute if score @s ScoreTrigger matches 514 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/mule/class0_10
+execute if score @s ScoreTrigger matches 515 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/mule/class0_2
+execute if score @s ScoreTrigger matches 516 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/mule/class0_4
+execute if score @s ScoreTrigger matches 517 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/mule/class0_6
+execute if score @s ScoreTrigger matches 518 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/mule/class0_8
+execute if score @s ScoreTrigger matches 519 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/pig/class0_10
+execute if score @s ScoreTrigger matches 520 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/ride/pig/class0_2

@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 211 run return run function att2:dialogs/gameplay/enchantment/data_show/list/head
+execute if score @s ScoreTrigger matches 212 run return run function att2:dialogs/gameplay/enchantment/data_show/list/spear
+execute if score @s ScoreTrigger matches 213 run return run function att2:dialogs/gameplay/enchantment/data_show/list/sword
+execute if score @s ScoreTrigger matches 214 run return run function att2:dialogs/gameplay/enchantment/data_show/list/ham
+execute if score @s ScoreTrigger matches 215 run return run function att2:dialogs/gameplay/enchantment/data_show/armorbreak
+execute if score @s ScoreTrigger matches 216 run return run function att2:dialogs/gameplay/enchantment/data_show/1000slay
+execute if score @s ScoreTrigger matches 217 run return run function att2:dialogs/gameplay/enchantment/data_show/anchorshot
+execute if score @s ScoreTrigger matches 218 run return run function att2:dialogs/gameplay/enchantment/data_show/headhunter
+execute if score @s ScoreTrigger matches 219 run return run function att2:dialogs/gameplay/enchantment/data_show/precisionshot
+execute if score @s ScoreTrigger matches 220 run return run function att2:dialogs/gameplay/enchantment/data_show/heart_protection

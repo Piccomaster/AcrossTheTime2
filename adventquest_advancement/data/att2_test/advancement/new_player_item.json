@@ -1,0 +1,10 @@
+{
+    "rewards": {
+        "function": "att2:cinematic/intro/new_player_item"
+    },
+    "criteria": {
+        "new_player_item": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

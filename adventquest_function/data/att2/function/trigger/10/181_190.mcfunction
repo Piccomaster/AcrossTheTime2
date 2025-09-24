@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 181 run return run execute if score cinematic_timer SQ59 matches ..3049 run scoreboard players set cinematic_timer SQ59 3050
+execute if score @s ScoreTrigger matches 182 run return run execute if score cinematic_timer SQ59 matches ..3149 run scoreboard players set cinematic_timer SQ59 3150
+execute if score @s ScoreTrigger matches 183 run return run execute if score cinematic_timer SQ59 matches ..3299 run scoreboard players set cinematic_timer SQ59 3300
+execute if score @s ScoreTrigger matches 184 run return run execute if score cinematic_timer SQ59 matches ..3399 run scoreboard players set cinematic_timer SQ59 3400
+execute if score @s ScoreTrigger matches 185 run return run execute as @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] if entity @s if score SQ59 SIDEQUEST matches 1.. run function att2:gameplay/arena/pool0/choosing_arena
+execute if score @s ScoreTrigger matches 186 run return run execute as @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] if entity @s if score SQ59 SIDEQUEST matches 1.. run function att2:gameplay/arena/pool1/choosing_arena
+execute if score @s ScoreTrigger matches 187 run return run execute as @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] if entity @s if score SQ59 SIDEQUEST matches 1.. run function att2:gameplay/arena/pool2/choosing_arena
+execute if score @s ScoreTrigger matches 188 run return run execute as @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] if entity @s if score SQ59 SIDEQUEST matches 1.. run function att2:gameplay/arena/pool3/choosing_arena
+execute if score @s ScoreTrigger matches 189 run return run execute as @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] if entity @s if score SQ59 SIDEQUEST matches 1.. run function att2:gameplay/arena/pool4/choosing_arena
+execute if score @s ScoreTrigger matches 190 run return run execute as @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] if entity @s if score SQ59 SIDEQUEST matches 1.. run function att2:gameplay/arena/give_up

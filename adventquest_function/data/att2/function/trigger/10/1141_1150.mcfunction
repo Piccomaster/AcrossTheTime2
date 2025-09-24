@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1141 run return run function att2:gameplay/tutorial/launch/black_market
+execute if score @s ScoreTrigger matches 1142 run return run function att2:gameplay/tutorial/launch/death
+execute if score @s ScoreTrigger matches 1143 run return run function att2:gameplay/tutorial/launch/rarity
+execute if score @s ScoreTrigger matches 1144 run return run function att2:gameplay/tutorial/launch/item_absorption
+execute if score @s ScoreTrigger matches 1145 run return run function att2:gameplay/tutorial/launch/keys_and_locks
+execute if score @s ScoreTrigger matches 1146 run return run function att2:gameplay/tutorial/launch/advancement
+execute if score @s ScoreTrigger matches 1147 run return run function att2:gameplay/tutorial/launch/waypoint
+execute if score @s ScoreTrigger matches 1148 run return run function att2:gameplay/tutorial/launch/enemy_level
+execute if score @s ScoreTrigger matches 1149 run return run function att2:gameplay/tutorial/launch/fire_synergy
+execute if score @s ScoreTrigger matches 1150 run return run function att2:gameplay/tutorial/launch/earthquake_synergy

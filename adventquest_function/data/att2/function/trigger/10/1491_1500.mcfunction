@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1491 run return run function att2:gameplay/dahal/action/spell9/selectlvl9
+execute if score @s ScoreTrigger matches 1492 run return run function att2:gameplay/dahal/action/spell9/selectlvl10
+execute if score @s ScoreTrigger matches 1493 run return run function att2:gameplay/dahal/action/spell9/obtain
+execute if score @s ScoreTrigger matches 1494 run return run function att2:gameplay/enchantment/show_interaction/auto_mending
+execute if score @s ScoreTrigger matches 1495 run return run function att2:gameplay/enchantment/show_interaction/reinforce
+execute if score @s ScoreTrigger matches 1496 run return run function att2:gameplay/enchantment/show_interaction/runeharden
+execute if score @s ScoreTrigger matches 1497 run return run function att2:gameplay/enchantment/show_interaction/anchorshot
+execute if score @s ScoreTrigger matches 1498 run return run function att2:gameplay/enchantment/show_interaction/headhunter
+execute if score @s ScoreTrigger matches 1499 run return run function att2:gameplay/enchantment/show_interaction/precisionshot
+execute if score @s ScoreTrigger matches 1500 run return run function att2:gameplay/enchantment/show_interaction/precisionblock

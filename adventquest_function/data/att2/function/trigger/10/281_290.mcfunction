@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 281 run return run execute if entity @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure] run function att2:gameplay/maze/6/leave
+execute if score @s ScoreTrigger matches 282 run return run execute if entity @a[x=-9569,y=71,z=-10170,distance=..8,gamemode=adventure] run function att2:gameplay/maze/7/leave
+execute if score @s ScoreTrigger matches 283 run return run execute if score active MAZE matches 0 as @a[x=-9999,y=71,z=-9996,distance=..8,gamemode=adventure] run function att2:gameplay/maze/1/trigger_runepowder1
+execute if score @s ScoreTrigger matches 284 run return run execute if score active MAZE matches 0 as @a[x=-9999,y=71,z=-9996,distance=..8,gamemode=adventure] run function att2:gameplay/maze/1/trigger_runepowder0
+execute if score @s ScoreTrigger matches 285 run return run execute if score active MAZE matches 0 as @a[x=-9999,y=71,z=-9996,distance=..8,gamemode=adventure] run function att2:gameplay/maze/1/trigger_runepowder_1
+execute if score @s ScoreTrigger matches 286 run return run execute if score active MAZE matches 0 as @a[x=-10019,y=71,z=-10086,distance=..8,gamemode=adventure] run function att2:gameplay/maze/2/trigger_runepowder1
+execute if score @s ScoreTrigger matches 287 run return run execute if score active MAZE matches 0 as @a[x=-10019,y=71,z=-10086,distance=..8,gamemode=adventure] run function att2:gameplay/maze/2/trigger_runepowder0
+execute if score @s ScoreTrigger matches 288 run return run execute if score active MAZE matches 0 as @a[x=-10019,y=71,z=-10086,distance=..8,gamemode=adventure] run function att2:gameplay/maze/2/trigger_runepowder_1
+execute if score @s ScoreTrigger matches 289 run return run execute if score active MAZE matches 0 as @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure] run function att2:gameplay/maze/3/trigger_runepowder1
+execute if score @s ScoreTrigger matches 290 run return run execute if score active MAZE matches 0 as @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure] run function att2:gameplay/maze/3/trigger_runepowder0

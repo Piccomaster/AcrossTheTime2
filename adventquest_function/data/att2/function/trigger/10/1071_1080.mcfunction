@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1071 run return run function att2:gameplay/misc/checkpoint/back_trigger
+execute if score @s ScoreTrigger matches 1072 run return run function att2:gameplay/misc/tp_item/run
+execute if score @s ScoreTrigger matches 1073 run return run function att2:dialogs/gameplay/shop/mending/quick_mending
+execute if score @s ScoreTrigger matches 1074 run return run function att2:items/lore/mainplayer_name
+execute if score @s ScoreTrigger matches 1075 run return run function att2:dialogs/gameplay/level/xp_cal
+execute if score @s ScoreTrigger matches 1076 run return run function att2:dialogs/gameplay/dahal/use_tip
+execute if score @s ScoreTrigger matches 1077 run return run function att2:gameplay/stat/strength/upgrade
+execute if score @s ScoreTrigger matches 1078 run return run function att2:gameplay/stat/resistance/upgrade
+execute if score @s ScoreTrigger matches 1079 run return run function att2:gameplay/stat/haste/upgrade
+execute if score @s ScoreTrigger matches 1080 run return run function att2:gameplay/stat/speed/upgrade

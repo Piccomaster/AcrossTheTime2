@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 251 run return run function att2:gameplay/healthbar/select/hp_value/run
+execute if score @s ScoreTrigger matches 252 run return run function att2:gameplay/healthbar/select/hp_value/stop
+execute if score @s ScoreTrigger matches 253 run return run function att2:gameplay/healthbar/select/hp_percent/run
+execute if score @s ScoreTrigger matches 254 run return run function att2:gameplay/healthbar/select/hp_percent/stop
+execute if score @s ScoreTrigger matches 255 run return run function att2:gameplay/healthbar/select/classlevel/run
+execute if score @s ScoreTrigger matches 256 run return run function att2:gameplay/healthbar/select/classlevel/stop
+execute if score @s ScoreTrigger matches 257 run return run function att2:gameplay/healthbar/select/atk_damage/run
+execute if score @s ScoreTrigger matches 258 run return run function att2:gameplay/healthbar/select/atk_damage/stop
+execute if score @s ScoreTrigger matches 259 run return run function att2:gameplay/healthbar/select/all_run
+execute if score @s ScoreTrigger matches 260 run return run function att2:gameplay/healthbar/select/all_stop

@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 441 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/fishing/rod/leg
+execute if score @s ScoreTrigger matches 442 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/fishing/rod/rar
+execute if score @s ScoreTrigger matches 443 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/fishing/rod/ult
+execute if score @s ScoreTrigger matches 444 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/fishing/rod/unc
+execute if score @s ScoreTrigger matches 445 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/food/apple_0
+execute if score @s ScoreTrigger matches 446 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/food/baked_potato_0
+execute if score @s ScoreTrigger matches 447 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/food/beef_0
+execute if score @s ScoreTrigger matches 448 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/food/beetroot_0
+execute if score @s ScoreTrigger matches 449 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/food/beetroot_soup_0
+execute if score @s ScoreTrigger matches 450 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/food/bread_0

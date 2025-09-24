@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1321 run return run function att2:gameplay/dahal/action/spell30/selectlvl9
+execute if score @s ScoreTrigger matches 1322 run return run function att2:gameplay/dahal/action/spell30/selectlvl10
+execute if score @s ScoreTrigger matches 1323 run return run function att2:gameplay/dahal/action/spell30/obtain
+execute if score @s ScoreTrigger matches 1324 run return run function att2:dialogs/gameplay/dahal/compendium/spell31
+execute if score @s ScoreTrigger matches 1325 run return run function att2:gameplay/dahal/action/spell31/select
+execute if score @s ScoreTrigger matches 1326 run return run function att2:gameplay/dahal/action/spell31/kill
+execute if score @s ScoreTrigger matches 1327 run return run function att2:gameplay/dahal/action/spell31/select_rarity/other_run
+execute if score @s ScoreTrigger matches 1328 run return run function att2:gameplay/dahal/action/spell31/select_rarity/other_stop
+execute if score @s ScoreTrigger matches 1329 run return run function att2:gameplay/dahal/action/spell31/select_rarity/com_run
+execute if score @s ScoreTrigger matches 1330 run return run function att2:gameplay/dahal/action/spell31/select_rarity/com_stop

@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 471 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/arrow_1
+execute if score @s ScoreTrigger matches 472 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/arrow_2
+execute if score @s ScoreTrigger matches 473 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/bundle
+execute if score @s ScoreTrigger matches 474 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/carrot_on_a_stick
+execute if score @s ScoreTrigger matches 475 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/chair
+execute if score @s ScoreTrigger matches 476 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/chronotons
+execute if score @s ScoreTrigger matches 477 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/coal_0
+execute if score @s ScoreTrigger matches 478 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/health_arrow_0
+execute if score @s ScoreTrigger matches 479 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/health_arrow_1
+execute if score @s ScoreTrigger matches 480 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/health_arrow_2

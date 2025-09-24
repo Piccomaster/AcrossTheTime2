@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 391 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/ust
+execute if score @s ScoreTrigger matches 392 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/lya
+execute if score @s ScoreTrigger matches 393 run return run execute at @e[tag=Recycler,sort=nearest,limit=1] run function att2:gameplay/recycler/deal
+execute if score @s ScoreTrigger matches 394 run return run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_1
+execute if score @s ScoreTrigger matches 395 run return run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_2
+execute if score @s ScoreTrigger matches 396 run return run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_3
+execute if score @s ScoreTrigger matches 397 run return run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_4
+execute if score @s ScoreTrigger matches 398 run return run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_5
+execute if score @s ScoreTrigger matches 399 run return run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_6
+execute if score @s ScoreTrigger matches 400 run return run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_7

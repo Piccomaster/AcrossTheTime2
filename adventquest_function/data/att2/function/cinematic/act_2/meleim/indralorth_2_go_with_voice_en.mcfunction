@@ -11,10 +11,10 @@ execute if score Real0 TIMER matches 1 in minecraft:overworld as @a[x=-3780,y=10
 execute if score Real0 TIMER matches 1 run function att2:physicmod/reg1/meleim/indra_lorth_door_close
 execute if score Real0 TIMER matches 200 run function att2:dialogs/mainquest/act_2/ch6_player_2
 #jump
-execute if score Real0 TIMER matches 200 run tellraw @a[x=-3780,y=101,z=-5861,distance=..100] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..499 run scoreboard players set Real0 TIMER 499"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 200 run tellraw @a[x=-3780,y=101,z=-5861,distance=..100] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 14"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 500 run function att2:cinematic/act_2/meleim/indralorth_2_dialog_2
 #jump
-execute if score Real0 TIMER matches 500 run tellraw @a[x=-3780,y=101,z=-5861,distance=..100] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..879 run scoreboard players set Real0 TIMER 879"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 500 run tellraw @a[x=-3780,y=101,z=-5861,distance=..100] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 17"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 880 run function att2:cinematic/act_2/meleim/indralorth_2_dialog_3
 execute if score Real0 TIMER matches 880 run scoreboard players set indra_lorth_PNJ DIALOG 2
 execute if score Real0 TIMER matches 880 run function att2:physicmod/reg1/meleim/indra_lorth_door_open

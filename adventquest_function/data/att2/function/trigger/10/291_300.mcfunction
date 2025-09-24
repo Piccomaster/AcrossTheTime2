@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 291 run return run execute if score active MAZE matches 0 as @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure] run function att2:gameplay/maze/3/trigger_runepowder_1
+execute if score @s ScoreTrigger matches 292 run return run execute if score active MAZE matches 0 as @a[x=-9862,y=71,z=-10239,distance=..8,gamemode=adventure] run function att2:gameplay/maze/4/trigger_runepowder1
+execute if score @s ScoreTrigger matches 293 run return run execute if score active MAZE matches 0 as @a[x=-9862,y=71,z=-10239,distance=..8,gamemode=adventure] run function att2:gameplay/maze/4/trigger_runepowder0
+execute if score @s ScoreTrigger matches 294 run return run execute if score active MAZE matches 0 as @a[x=-9862,y=71,z=-10239,distance=..8,gamemode=adventure] run function att2:gameplay/maze/4/trigger_runepowder_1
+execute if score @s ScoreTrigger matches 295 run return run execute if score active MAZE matches 0 as @a[x=-9828,y=71,z=-10094,distance=..8,gamemode=adventure] run function att2:gameplay/maze/5/trigger_runepowder1
+execute if score @s ScoreTrigger matches 296 run return run execute if score active MAZE matches 0 as @a[x=-9828,y=71,z=-10094,distance=..8,gamemode=adventure] run function att2:gameplay/maze/5/trigger_runepowder0
+execute if score @s ScoreTrigger matches 297 run return run execute if score active MAZE matches 0 as @a[x=-9828,y=71,z=-10094,distance=..8,gamemode=adventure] run function att2:gameplay/maze/5/trigger_runepowder_1
+execute if score @s ScoreTrigger matches 298 run return run execute if score active MAZE matches 0 as @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure] run function att2:gameplay/maze/6/trigger_runepowder1
+execute if score @s ScoreTrigger matches 299 run return run execute if score active MAZE matches 0 as @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure] run function att2:gameplay/maze/6/trigger_runepowder0
+execute if score @s ScoreTrigger matches 300 run return run execute if score active MAZE matches 0 as @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure] run function att2:gameplay/maze/6/trigger_runepowder_1

@@ -18,7 +18,7 @@ particle minecraft:dust{color:[1,0,0],scale:1.5} 3076 71 4191 3 3 3 0 10 normal
 
 # Iteration
 execute if score Irilion TIMER matches 0.. run scoreboard players remove Irilion TIMER 1
-execute if score Irilion TIMER matches 1 as @a[x=3076,y=71,z=4191,distance=50,gamemode=adventure] at @s run playsound heartbeat ambient @s ~ ~ ~ 100 0.1 1
+execute if score Irilion TIMER matches 1 as @a[x=3076,y=71,z=4191,distance=50,gamemode=adventure] at @s run playsound heartbeat ambient @s ~ ~ ~ 100 2
 execute if score Irilion TIMER matches ..0 run scoreboard players set Irilion TIMER 350
 #return 1->make command block runing
 return 1

@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 21 run return run execute if score Neth0 TIMER matches 951..1099 run scoreboard players set Neth0 TIMER 1099
+execute if score @s ScoreTrigger matches 22 run return run execute if score Neth0 TIMER matches 1106..1249 run scoreboard players set Neth0 TIMER 1249
+execute if score @s ScoreTrigger matches 23 run return run execute if score Neth0 TIMER matches 1251..1549 run scoreboard players set Neth0 TIMER 1549
+execute if score @s ScoreTrigger matches 24 run return run execute if score Neth0 TIMER matches 1551..1699 run scoreboard players set Neth0 TIMER 1699
+execute if score @s ScoreTrigger matches 25 run return run execute if score Neth0 TIMER matches 1701..1849 run scoreboard players set Neth0 TIMER 1849
+execute if score @s ScoreTrigger matches 26 run return run execute if score Neth0 TIMER matches 2001..2099 run scoreboard players set Neth0 TIMER 2099
+execute if score @s ScoreTrigger matches 27 run return run execute if score Neth0 TIMER matches 2101..2299 run scoreboard players set Neth0 TIMER 2299
+execute if score @s ScoreTrigger matches 28 run return run execute if score Neth0 TIMER matches 2301..2349 run scoreboard players set Neth0 TIMER 2349
+execute if score @s ScoreTrigger matches 29 run return run execute if score Neth0 TIMER matches 2351..2399 run scoreboard players set Neth0 TIMER 2399
+execute if score @s ScoreTrigger matches 30 run return run execute if score Neth0 TIMER matches 2401..2499 run scoreboard players set Neth0 TIMER 2499

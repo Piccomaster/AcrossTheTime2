@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1531 run return run execute in minecraft:overworld run tp @s 750 100 100
+execute if score @s ScoreTrigger matches 1532 run return run execute in minecraft:overworld run tp @s -5000 120 -5000
+execute if score @s ScoreTrigger matches 1533 run return run execute in minecraft:overworld run tp @p -4650 90 -5500
+execute if score @s ScoreTrigger matches 1534 run return run execute in minecraft:overworld run tp @s -4613 45 -5171
+execute if score @s ScoreTrigger matches 1535 run return run execute in minecraft:overworld run tp @s -4950 150 -5700
+execute if score @s ScoreTrigger matches 1536 run return run execute in minecraft:overworld run tp @s -4215 130 -6020
+execute if score @s ScoreTrigger matches 1537 run return run execute in minecraft:overworld run tp @s -4286 130 -5619
+execute if score @s ScoreTrigger matches 1538 run return run execute in minecraft:overworld run tp @s -3773 110 -5807
+execute if score @s ScoreTrigger matches 1539 run return run execute in minecraft:overworld run tp @s -3970 130 -5600
+execute if score @s ScoreTrigger matches 1540 run return run execute in minecraft:overworld run tp @s -4030 110 -5200

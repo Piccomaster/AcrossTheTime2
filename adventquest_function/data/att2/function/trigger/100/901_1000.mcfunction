@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 901..910 run function att2:trigger/10/901_910
+execute if score @s ScoreTrigger matches 911..920 run function att2:trigger/10/911_920
+execute if score @s ScoreTrigger matches 921..930 run function att2:trigger/10/921_930
+execute if score @s ScoreTrigger matches 931..940 run function att2:trigger/10/931_940
+execute if score @s ScoreTrigger matches 941..950 run function att2:trigger/10/941_950
+execute if score @s ScoreTrigger matches 951..960 run function att2:trigger/10/951_960
+execute if score @s ScoreTrigger matches 961..970 run function att2:trigger/10/961_970
+execute if score @s ScoreTrigger matches 971..980 run function att2:trigger/10/971_980
+execute if score @s ScoreTrigger matches 981..990 run function att2:trigger/10/981_990
+execute if score @s ScoreTrigger matches 991..1000 run function att2:trigger/10/991_1000

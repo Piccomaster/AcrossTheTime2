@@ -7,6 +7,7 @@ execute if score Accepted SIDEQUEST matches 1.. run advancement grant @a only at
 
 # STORY (Mainquest)
 execute if score Mainquest SIDEQUEST matches 1.. run advancement grant @a only att2:story/root
+execute if score Mainquest SIDEQUEST matches 3.. run advancement grant @a only att2_test:new_player_item
 execute if score Mainquest SIDEQUEST matches 4.. run advancement grant @a only att2:story/mainquest_1
 execute if score Mainquest SIDEQUEST matches 6.. run advancement grant @a only att2:story/mainquest_2
 execute if score Mainquest SIDEQUEST matches 15.. run advancement grant @a only att2:story/mainquest_3

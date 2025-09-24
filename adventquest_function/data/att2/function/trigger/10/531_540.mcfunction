@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 531 run return run execute positioned as @e[name=ARAMIS,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/corruption_buy
+execute if score @s ScoreTrigger matches 532 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/familier_agilite
+execute if score @s ScoreTrigger matches 533 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/familier_obstination
+execute if score @s ScoreTrigger matches 534 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/familier_vitalite
+execute if score @s ScoreTrigger matches 535 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/geyser
+execute if score @s ScoreTrigger matches 536 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/dahal/action/spell31/obtain
+execute if score @s ScoreTrigger matches 537 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/golem
+execute if score @s ScoreTrigger matches 538 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/guerison
+execute if score @s ScoreTrigger matches 539 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/hache_spectrale
+execute if score @s ScoreTrigger matches 540 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/inferno

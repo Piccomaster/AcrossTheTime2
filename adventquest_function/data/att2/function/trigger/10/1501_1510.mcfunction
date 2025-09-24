@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 1501 run return run function att2:gameplay/enchantment/show_interaction/defensematrix
+execute if score @s ScoreTrigger matches 1502 run return run function att2:gameplay/enchantment/show_interaction/sscombo
+execute if score @s ScoreTrigger matches 1503 run return run function att2:gameplay/enchantment/show_interaction/greatsword
+execute if score @s ScoreTrigger matches 1504 run return run function att2:gameplay/enchantment/show_interaction/armorbreak
+execute if score @s ScoreTrigger matches 1505 run return run function att2:gameplay/enchantment/show_interaction/1000slay
+execute if score @s ScoreTrigger matches 1506 run return run function att2:gameplay/enchantment/show_interaction/forcepush
+execute if score @s ScoreTrigger matches 1507 run return run function att2:gameplay/enchantment/show_interaction/longreach
+execute if score @s ScoreTrigger matches 1508 run return run function att2:gameplay/enchantment/show_interaction/groundslam
+execute if score @s ScoreTrigger matches 1509 run return run function att2:gameplay/enchantment/show_interaction/combohit
+execute if score @s ScoreTrigger matches 1510 run return run function att2:gameplay/enchantment/show_interaction/backstab

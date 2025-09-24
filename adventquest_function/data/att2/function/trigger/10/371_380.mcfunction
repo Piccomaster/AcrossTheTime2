@@ -1,0 +1,10 @@
+execute if score @s ScoreTrigger matches 371 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/kan
+execute if score @s ScoreTrigger matches 372 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/xul
+execute if score @s ScoreTrigger matches 373 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/zen
+execute if score @s ScoreTrigger matches 374 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/mot
+execute if score @s ScoreTrigger matches 375 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/gal
+execute if score @s ScoreTrigger matches 376 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/tha
+execute if score @s ScoreTrigger matches 377 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/fus
+execute if score @s ScoreTrigger matches 378 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/org
+execute if score @s ScoreTrigger matches 379 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/jo
+execute if score @s ScoreTrigger matches 380 run return run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/ra
