@@ -1,0 +1,1 @@
+function att2:gameplay/dahal/action/spell31/select_rarity/epi_stop

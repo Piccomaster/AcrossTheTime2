@@ -1,0 +1,1 @@
+scoreboard players set @s CHRONOTON_TODROP 100

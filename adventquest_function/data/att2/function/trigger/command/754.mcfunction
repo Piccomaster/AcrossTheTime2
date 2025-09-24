@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/marc_aboth_shop_opening

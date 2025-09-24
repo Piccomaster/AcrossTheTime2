@@ -1,0 +1,1 @@
+execute if score Boss UMBRATYANTH matches -2 run function att2:gameplay/boss/ether/umbratyanth/leave_arena

@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/chryses_aleria_shop_opening

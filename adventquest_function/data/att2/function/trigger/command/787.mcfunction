@@ -1,0 +1,1 @@
+function att2:gameplay/quest/sidequest/sq22/display_progress

@@ -1,0 +1,1 @@
+execute at 00000000-0000-035a-0000-00000000035a if entity @s[distance=..7] if score samal_eph_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/2/samal_eph/answer_1_1

@@ -1,0 +1,1 @@
+execute at 00000000-0000-041a-0000-00000000041a if entity @s[distance=..7] if score syri_lorth_meleim_PNJ DIALOG matches 5.. run function att2:cinematic/act_2/meleim/travel_to_asunark

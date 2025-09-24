@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/elsa_rasmon_shop_opening

@@ -1,0 +1,1 @@
+execute as @a[x=-5005,y=77,z=-5077,distance=..5,gamemode=adventure] at @s run function att2:gameplay/waypoint/tp/ryliath/meleim

@@ -1,0 +1,1 @@
+execute if score active MAZE matches 0 as @a[x=-9692,y=71,z=-9954,distance=..8,gamemode=adventure] run function att2:gameplay/maze/6/trigger_runepowder_1

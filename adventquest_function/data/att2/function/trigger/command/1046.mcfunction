@@ -1,0 +1,1 @@
+execute at 00000000-0000-012a-0000-00000000012a if entity @s[distance=..7] if score alfred_mornith_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/7/alfred_mornith/answer_1_1

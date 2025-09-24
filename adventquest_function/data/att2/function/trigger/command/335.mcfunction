@@ -1,0 +1,1 @@
+function att2:gameplay/misc/title_effect/stop

@@ -1,0 +1,1 @@
+execute as @a[x=-4661,y=71,z=-4546,distance=..5,gamemode=adventure] at @s run function att2:gameplay/waypoint/tp/owsastr/soquai

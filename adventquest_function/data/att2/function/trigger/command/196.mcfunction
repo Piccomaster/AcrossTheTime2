@@ -1,0 +1,1 @@
+execute as @a[tag=InArena] if entity @s run function att2:gameplay/arena/pool4/leave

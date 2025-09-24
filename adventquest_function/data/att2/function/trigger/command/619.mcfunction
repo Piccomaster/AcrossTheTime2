@@ -1,0 +1,1 @@
+execute if score update INTRO matches 3 run setblock 641 87 1088 minecraft:redstone_block

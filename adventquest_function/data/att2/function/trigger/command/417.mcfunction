@@ -1,0 +1,1 @@
+function att2:gameplay/shop/mending/tools/trigger_chestplate

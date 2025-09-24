@@ -1,0 +1,1 @@
+execute if score achieved MAZE matches 7 if entity @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure] run function att2:gameplay/maze/exit

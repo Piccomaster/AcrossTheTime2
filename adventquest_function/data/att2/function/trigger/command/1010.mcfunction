@@ -1,0 +1,1 @@
+execute at 00000000-0000-006a-0000-00000000006a if entity @s[distance=..7] if score SQ47 SIDEQUEST matches 2 run function att2:cinematic/sidequest/47/namrin/start_cinematic2

@@ -1,0 +1,1 @@
+execute if score SQ46 SIDEQUEST matches 4 run function att2:cinematic/sidequest/46/step5

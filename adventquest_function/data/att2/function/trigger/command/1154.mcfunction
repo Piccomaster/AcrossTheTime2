@@ -1,0 +1,1 @@
+function att2:gameplay/misc/assist/enable

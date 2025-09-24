@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/ramsay_tork_shop_opening

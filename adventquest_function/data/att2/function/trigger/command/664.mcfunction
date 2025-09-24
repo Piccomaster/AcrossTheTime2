@@ -1,0 +1,1 @@
+execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 8 run function att2:cinematic/act_3/angband/phoenix_1_proposalrep

@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/lisa_payin_shop_opening

@@ -1,0 +1,1 @@
+function att2:gameplay/quest/sidequest/sq49/display_progress

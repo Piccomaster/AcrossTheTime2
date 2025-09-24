@@ -1,0 +1,1 @@
+execute at 00000000-0000-026a-0000-00000000026a if entity @s[distance=..7] if score wulk_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/2/wulk/answer_1_1

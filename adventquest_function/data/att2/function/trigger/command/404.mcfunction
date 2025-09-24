@@ -1,0 +1,1 @@
+execute positioned -3780 90 -5917 if entity @s[distance=..10] run function att2:gameplay/misc/house/cave_expansion/meleim_trigger

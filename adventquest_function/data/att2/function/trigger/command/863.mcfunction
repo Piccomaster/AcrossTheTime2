@@ -1,0 +1,1 @@
+execute at 00000000-0000-055a-0000-00000000055a if entity @s[distance=..7] if score derim_kril_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/14/derim_kril/answer_2_1

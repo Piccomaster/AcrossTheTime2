@@ -1,0 +1,1 @@
+execute at 00000000-0000-006a-0000-00000000006a if entity @s[distance=..7] if score namrin_answer_3_1 SQ46 matches 0 run function att2:cinematic/sidequest/46/namrin/answer_3_1

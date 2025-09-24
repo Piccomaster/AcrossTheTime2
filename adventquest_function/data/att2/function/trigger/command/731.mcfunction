@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/chris_amork_shop_opening

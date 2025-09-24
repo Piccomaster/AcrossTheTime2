@@ -1,0 +1,1 @@
+execute as @a[x=1543.0,y=16,z=1495.0,distance=..35,gamemode=adventure] if score Mainquest SIDEQUEST matches 290 run function att2:cinematic/act_5/etotsira_confirmation2

@@ -1,0 +1,1 @@
+execute at @e[tag=Grinder,sort=nearest,limit=1] run function att2:gameplay/grinder/deal

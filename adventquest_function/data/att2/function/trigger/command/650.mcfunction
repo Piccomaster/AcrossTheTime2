@@ -1,0 +1,1 @@
+function att2:gameplay/misc/exploit_book/give_book

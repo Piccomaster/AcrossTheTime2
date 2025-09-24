@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/sylvia_mornith_shop_opening

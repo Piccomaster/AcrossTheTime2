@@ -1,0 +1,1 @@
+execute if entity @a[x=-5063,y=92,z=-4957,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/20/bankwall_breaking

@@ -1,9 +1,0 @@
-execute if score @s ScoreTrigger matches 1501..1510 run function att2:trigger/10/1501_1510
-execute if score @s ScoreTrigger matches 1511..1520 run function att2:trigger/10/1511_1520
-execute if score @s ScoreTrigger matches 1521..1530 run function att2:trigger/10/1521_1530
-execute if score @s ScoreTrigger matches 1531..1540 run function att2:trigger/10/1531_1540
-execute if score @s ScoreTrigger matches 1541..1550 run function att2:trigger/10/1541_1550
-execute if score @s ScoreTrigger matches 1551..1560 run function att2:trigger/10/1551_1560
-execute if score @s ScoreTrigger matches 1561..1570 run function att2:trigger/10/1561_1570
-execute if score @s ScoreTrigger matches 1571..1580 run function att2:trigger/10/1571_1580
-execute if score @s ScoreTrigger matches 1581..1590 run function att2:trigger/10/1581_1590

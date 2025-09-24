@@ -1,0 +1,1 @@
+execute at 00000000-0000-137a-0000-00000000137a if entity @s[distance=..7] if score babbu_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/40/babbu/answer_2_1

@@ -1,0 +1,1 @@
+execute as @a[x=-5030,y=79,z=-5036,distance=..15,gamemode=adventure] if score Mainquest SIDEQUEST matches 280 run scoreboard players set Mainquest SIDEQUEST 280

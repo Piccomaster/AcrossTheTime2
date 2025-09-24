@@ -1,0 +1,1 @@
+execute at 00000000-0000-130a-0000-00000000130a if entity @s[distance=..7] if score violette_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/36/violette/answer_3_1

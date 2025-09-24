@@ -1,0 +1,1 @@
+execute if score Mainquest SIDEQUEST matches 288 if score Neth0 TIMER matches ..10199 run scoreboard players set Neth0 TIMER 10200

@@ -1,0 +1,1 @@
+execute if score Eolorion WAYPOINT matches 1 run function att2:gameplay/waypoint/indication/eolorion

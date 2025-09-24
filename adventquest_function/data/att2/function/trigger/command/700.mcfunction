@@ -1,0 +1,1 @@
+execute if score kortaek_guards_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_guards/answer_yellow_1

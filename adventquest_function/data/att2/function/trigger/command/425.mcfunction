@@ -1,0 +1,1 @@
+execute positioned as @e[name=ARAMIS,distance=..7] at @s run function att2:gameplay/dahal/enhancement/spell11/trigger_level

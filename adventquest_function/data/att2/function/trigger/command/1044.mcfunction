@@ -1,0 +1,1 @@
+execute at 00000000-0000-032a-0000-00000000032a if entity @s[distance=..7] if score hurriel_sun_PNJ DIALOG matches 2..3 run function att2:cinematic/sidequest/6/hurriel_sun/answer_2_1

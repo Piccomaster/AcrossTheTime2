@@ -1,0 +1,1 @@
+execute at 00000000-0000-042a-0000-00000000042a if entity @s[distance=..7] if score raj_kutra_PNJ DIALOG matches 1..3 run function att2:dialogs/mainquest/act_2/pnj_raj_kutra/answer_red_1

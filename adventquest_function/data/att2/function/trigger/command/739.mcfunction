@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/ethan_solg_shop_opening

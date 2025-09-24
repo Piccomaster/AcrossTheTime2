@@ -1,0 +1,1 @@
+execute at 00000000-0000-100a-0000-00000000100a if entity @s[distance=..7] if score intendant_joffrey_PNJ DIALOG matches 3 run function att2:dialogs/others/intendant_joffrey/answer_green_1

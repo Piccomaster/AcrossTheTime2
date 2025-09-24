@@ -1,0 +1,1 @@
+execute if score Real0 TIMER matches 2601..2899 run scoreboard players set Real0 TIMER 2899

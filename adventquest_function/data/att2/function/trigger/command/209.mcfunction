@@ -1,0 +1,1 @@
+function att2:dialogs/gameplay/enchantment/data_show/list/chest

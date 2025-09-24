@@ -1,0 +1,1 @@
+execute at 00000000-0000-005a-0000-00000000005a if entity @s[distance=..7] if score emerald_PNJ DIALOG matches 4 run function att2:cinematic/sidequest/27/emerald/answer_3_1

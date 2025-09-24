@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/alyia_lana_shop_opening

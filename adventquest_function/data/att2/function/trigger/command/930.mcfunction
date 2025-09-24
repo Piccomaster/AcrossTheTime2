@@ -1,0 +1,1 @@
+execute at 00000000-0000-084a-0000-00000000084a if entity @s[distance=..7] if score adrian_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/30/adrian/answer_1_1

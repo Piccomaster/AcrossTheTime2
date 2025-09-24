@@ -1,0 +1,1 @@
+execute if score SQ30 SIDEQUEST matches 7 run function att2:cinematic/sidequest/30/step8

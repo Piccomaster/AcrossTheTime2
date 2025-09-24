@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/maria_shop_opening

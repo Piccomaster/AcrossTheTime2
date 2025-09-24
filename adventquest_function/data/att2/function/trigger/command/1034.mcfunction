@@ -1,0 +1,1 @@
+execute if entity @s[x=-5225,y=143,z=-6289,dx=-16,dy=3,dz=-16] if score proposal_2 SQ56 matches 0 run function att2:cinematic/sidequest/56/jzargo/answer_2_2

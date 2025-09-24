@@ -1,0 +1,1 @@
+execute if entity @a[x=-9999,y=71,z=-9996,distance=..8,gamemode=adventure] run function att2:gameplay/maze/1/leave

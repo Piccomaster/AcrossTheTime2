@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/sigfrid_barkon_shop_opening

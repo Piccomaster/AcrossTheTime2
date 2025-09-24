@@ -1,0 +1,1 @@
+execute at 00000000-0000-135a-0000-00000000135a if entity @a[distance=..7] if score nestor_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/35/nestor/answer_3_1

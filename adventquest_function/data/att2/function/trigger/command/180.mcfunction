@@ -1,0 +1,1 @@
+execute if score cinematic_timer SQ59 matches ..2949 run scoreboard players set cinematic_timer SQ59 2950

@@ -1,0 +1,1 @@
+function att2:gameplay/music/battle_music_start

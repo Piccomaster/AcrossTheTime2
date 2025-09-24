@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/charles_shop_opening

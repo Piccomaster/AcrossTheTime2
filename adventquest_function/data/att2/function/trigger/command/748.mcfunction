@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/jabir_hayyan_shop_opening

@@ -1,0 +1,1 @@
+function att2:cinematic/sidequest/45/aldelrion/answer_trigger

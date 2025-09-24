@@ -1,0 +1,1 @@
+execute if score choice SQ28 matches 0 run function att2:cinematic/sidequest/28/start_emerald_cinematic2

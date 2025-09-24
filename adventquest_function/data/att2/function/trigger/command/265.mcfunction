@@ -1,0 +1,1 @@
+execute at 00000000-0000-002a-0000-00000000002a if entity @s[distance=..7] as @a[distance=..7] run function att2:gameplay/misc/inn/trigger_gonon

@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/zirthan_shop_opening
