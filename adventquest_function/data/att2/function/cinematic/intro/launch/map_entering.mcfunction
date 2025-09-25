@@ -13,6 +13,6 @@ function att2:gameplay/speceffect/initialize
 function att2:gameplay/stat/initialize
 function att2:gameplay/gamerules
 function att2:trigger/initialize
-advancement revoke @a only att2_test:score_trigger
+advancement revoke @s only att2_test:score_trigger
 #return 1->make command block runing
 return 1

@@ -6,7 +6,7 @@
 #revoke test
 advancement revoke @s only att2_test:test_chest/quest/name
 #dialogs
-execute as @a[distance=0.1..100] at @s run tellarw [{selector:"@s",color:dark_red},{translate:quest_chest_open,color:aqua}]
+execute as @a[distance=0.1..100] at @s run tellraw @s [{selector:"@s",color:dark_red},{translate:quest_chest_open,color:aqua}]
 #name set
 execute anchored eyes positioned ^ ^ ^1 unless block ~ ~ ~ air run function att2:gameplay/misc/chesteffect/name/quest_name
 execute anchored eyes positioned ^ ^1 ^1 unless block ~ ~ ~ air run function att2:gameplay/misc/chesteffect/name/quest_name

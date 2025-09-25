@@ -25,7 +25,7 @@ execute as @s[scores={SPELL10_SLCT=1..10}] at @s run function att2:gameplay/daha
 
 # Nova (special activation due to persistance)
 execute as @s[scores={SPELL11_SLCT=1..10}] at @s run function att2:gameplay/dahal/action/spell11_cooldown
-execute at @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/showeffect
+execute at @s[tag=Nova,gamemode=adventure] run function att2:gameplay/dahal/action/spell11/showeffect
 # If another spell is selected, nova will stop...
 execute as @s[tag=Nova,tag=Dead] run function att2:gameplay/dahal/action/spell11/stop
 
@@ -55,7 +55,7 @@ execute as @s[scores={SPELL34_SLCT=1..10}] at @s run function att2:gameplay/daha
 
 # Corruption (special activation due to persistance)
 execute as @s[scores={SPELL40_SLCT=1..10}] at @s run function att2:gameplay/dahal/action/spell40_cooldown
-execute at @a[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/showeffect
+execute at @a[tag=Corrupted,gamemode=adventure] run function att2:gameplay/dahal/action/spell40/showeffect
 # If another spell is selected, corruption will stop...
 execute as @s[tag=Corrupted,tag=Dead] run function att2:gameplay/dahal/action/spell40/stop
 
