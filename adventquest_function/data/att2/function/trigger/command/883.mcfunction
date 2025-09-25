@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/helena_meli_shop_opening

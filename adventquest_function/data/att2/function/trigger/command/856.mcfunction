@@ -1,0 +1,1 @@
+scoreboard players set choice SQ12 2

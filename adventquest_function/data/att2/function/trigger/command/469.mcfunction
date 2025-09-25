@@ -1,0 +1,1 @@
+execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/food/tropical_fish_0

@@ -1,0 +1,1 @@
+function att2:gameplay/dahal/action/spell1/selectlvl6

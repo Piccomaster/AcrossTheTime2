@@ -1,0 +1,1 @@
+execute if entity @a[x=787,y=80,z=907,dx=3,dy=3,dz=3,scores={NUMEROJOUEUR=0}] if score update INTRO matches 0 run function att2:cinematic/intro/launch/mainplayer_select

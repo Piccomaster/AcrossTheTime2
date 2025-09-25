@@ -1,0 +1,1 @@
+execute if score Kortaek WAYPOINT matches 1 run function att2:gameplay/waypoint/indication/kortaek

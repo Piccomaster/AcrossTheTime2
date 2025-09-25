@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/elziel_salvidam_shop_opening

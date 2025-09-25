@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/carmine_mordan_shop_opening

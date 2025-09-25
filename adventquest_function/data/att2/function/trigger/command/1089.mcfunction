@@ -1,0 +1,1 @@
+execute as @s[scores={Stock_Open=0}] at @s run function att2:gameplay/dahal/action/spell20/summon/trigger

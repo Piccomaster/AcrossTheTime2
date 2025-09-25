@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/rokar_borton_shop_opening

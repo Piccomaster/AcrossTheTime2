@@ -1,0 +1,1 @@
+function att2:dialogs/gameplay/boss_timer/show_boss_time

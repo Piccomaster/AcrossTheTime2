@@ -1,0 +1,1 @@
+function att2:dialogs/dialogs_review/review_go

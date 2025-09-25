@@ -28,11 +28,13 @@ function att2:gameplay/leveling/initialize
 function att2:gameplay/misc/horse/initialize
 function att2:gameplay/misc/exploit_book/initialize
 function att2:gameplay/misc/map/initialize
+function att2:gameplay/misc/map/initialize
 function att2:gameplay/music/initialize
 function att2:gameplay/potion/initialize
 function att2:gameplay/speceffect/initialize
 function att2:gameplay/stat/initialize
 function att2:advancement/initialize
+function att2:trigger/initialize
 
 #execute if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/update_book
 function att2:dialogs/gameplay/dahal/use_tip

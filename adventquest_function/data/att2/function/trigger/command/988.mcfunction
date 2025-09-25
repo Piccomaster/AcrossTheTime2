@@ -1,0 +1,1 @@
+execute at 00000000-0000-139a-0000-00000000139a if entity @s[distance=..7] if score linda_shelly_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/42/linda_shelly/answer_3_1

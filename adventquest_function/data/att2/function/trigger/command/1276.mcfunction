@@ -1,0 +1,1 @@
+function att2:dialogs/gameplay/dahal/compendium/spell27

@@ -3,6 +3,9 @@
 #Initilize new monsters 		#
 #################################
 
+##prevent Drowning
+effect give @s water_breathing infinite 0 true
+
 # Initilaize the score CLASS for the mob
 function att2:gameplay/leveling/monster/initialize/initclass
 
@@ -71,7 +74,6 @@ tag @s add HP_DIS
 execute if entity @s[tag=!PlayerAlly,type=!bat,tag=!Boss,tag=!ArenaBoss,tag=!Guardian] at @s run function att2:gameplay/leveling/monster/displaydiff
 #remove temp tag
 tag @s remove HP_DIS
-
 #kill tag add/balance bat kill xp
 execute if score @s[type=minecraft:bat] CLASSLEVEL matches 10.. run scoreboard players set @s CLASSLEVEL 10
 execute as @s run function att2:gameplay/leveling/monster/loot/kill_test/kill_tag

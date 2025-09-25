@@ -10,6 +10,6 @@ function att2:gameplay/dahal/action/spell20/summon/stock with storage att2:spell
 ##Score Limit
 scoreboard players set @s Stock_Open 1
 ##Sound
-playsound minecraft:block.chest.open master @a ~ ~ ~ 1 1 1
+playsound minecraft:block.chest.open master @s ~ ~ ~ 1 1
 ##Detection Level
 function att2:advancement/test_all/spell/spell_20

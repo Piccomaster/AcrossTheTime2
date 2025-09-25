@@ -1,0 +1,1 @@
+execute at 00000000-0000-045a-0000-00000000045a if entity @a[distance=..7] if score abrock_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/9/abrock/chronoton_trigger_2

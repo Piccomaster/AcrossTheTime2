@@ -1,0 +1,1 @@
+execute at 00000000-0000-007a-0000-00000000007a if entity @s[distance=..7] if score relgon_PNJ DIALOG matches 2 run function att2:dialogs/mainquest/act_3/pnj_relgon/answer_green_1

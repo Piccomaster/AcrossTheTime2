@@ -1,0 +1,1 @@
+execute positioned -5232 99 -6278 if entity @s[distance=..10] run function att2:gameplay/misc/house/cave_expansion/eolorion_trigger

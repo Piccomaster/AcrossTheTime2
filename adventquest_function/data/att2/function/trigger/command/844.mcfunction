@@ -1,0 +1,1 @@
+execute at 00000000-0000-028a-0000-00000000028a if entity @s[distance=..7] if score frowin_nepheris_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/11/frowin_nepheris/answer_3_1

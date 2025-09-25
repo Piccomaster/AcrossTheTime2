@@ -1,0 +1,1 @@
+execute at @e[nbt={UUID:[I;0,1050,0,1051]}] if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/syri_lorth_asunark/answer_green_1

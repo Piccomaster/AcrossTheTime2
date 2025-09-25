@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/rick_palundra_shop_opening

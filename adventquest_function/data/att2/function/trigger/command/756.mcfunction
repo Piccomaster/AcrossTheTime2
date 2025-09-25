@@ -1,0 +1,1 @@
+function att2:dialogs/others/negan_greyson/chronoton_trigger

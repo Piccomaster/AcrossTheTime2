@@ -1,0 +1,1 @@
+execute if entity @a[tag=InArena] run function att2:gameplay/arena/pool3/choosing_arena

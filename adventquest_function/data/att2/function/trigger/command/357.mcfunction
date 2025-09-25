@@ -1,0 +1,1 @@
+tellraw @s {translate:att2.runes.quick_recipe.error}

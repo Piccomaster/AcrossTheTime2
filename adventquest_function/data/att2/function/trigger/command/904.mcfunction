@@ -1,0 +1,1 @@
+execute at 00000000-0000-071a-0000-00000000071a if entity @s[distance=..7] as @a[distance=..7] unless score philipo_tisdal_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/23/philipo_tisdal/answer_2_1

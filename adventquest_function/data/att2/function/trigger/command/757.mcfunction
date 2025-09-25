@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/oswald_flamel_shop_opening

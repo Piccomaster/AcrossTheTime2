@@ -1,0 +1,1 @@
+execute at 00000000-0000-036a-0000-00000000036a if entity @s[distance=..7] if score ragnar_lorth_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_2/pnj_ragnar_lorth/answer_green_1

@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/rena_aboth_shop_opening

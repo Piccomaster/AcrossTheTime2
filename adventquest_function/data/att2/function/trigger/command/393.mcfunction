@@ -1,0 +1,1 @@
+execute at @e[tag=Recycler,sort=nearest,limit=1] run function att2:gameplay/recycler/deal

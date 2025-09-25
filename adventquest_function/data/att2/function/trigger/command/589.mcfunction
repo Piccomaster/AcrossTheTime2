@@ -1,0 +1,1 @@
+execute as @a[x=-5533,y=87,z=-4678,distance=..5,gamemode=adventure] at @s run function att2:gameplay/waypoint/tp/kortaek/eolorion

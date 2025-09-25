@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/stella_shop_opening

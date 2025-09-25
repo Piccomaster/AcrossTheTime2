@@ -1,0 +1,1 @@
+execute at @a if entity @s[distance=..7] run function att2:dialogs/mainquest/act_4/pnj_golem/answer_green_1_2

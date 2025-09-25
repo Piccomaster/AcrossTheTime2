@@ -1,0 +1,1 @@
+execute as @a[x=-3661,y=70,z=-4977,distance=..5,gamemode=adventure] at @s run function att2:gameplay/waypoint/tp/asunark/kortaek

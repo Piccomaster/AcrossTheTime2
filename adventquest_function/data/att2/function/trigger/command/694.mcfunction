@@ -1,0 +1,1 @@
+execute at 00000000-0000-095a-0000-00000000095a if entity @s[distance=..7] if score captain_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_captain/answer_yellow_1

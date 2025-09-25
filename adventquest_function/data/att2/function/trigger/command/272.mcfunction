@@ -1,0 +1,1 @@
+execute if score active MAZE matches 0 as @a[x=-9828,y=71,z=-10094,distance=..8,gamemode=adventure] run function att2:dialogs/gameplay/maze/price5

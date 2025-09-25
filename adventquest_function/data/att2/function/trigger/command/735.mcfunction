@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/emera_palundra_shop_opening

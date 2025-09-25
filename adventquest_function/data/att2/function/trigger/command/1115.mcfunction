@@ -1,0 +1,1 @@
+execute if score Soquai WAYPOINT matches 1 run function att2:gameplay/waypoint/indication/soquai

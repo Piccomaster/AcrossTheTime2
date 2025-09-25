@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/estelle_shop_opening

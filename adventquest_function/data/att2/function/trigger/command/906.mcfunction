@@ -1,0 +1,1 @@
+execute at 00000000-0000-072a-0000-00000000072a if entity @s[distance=..7] if score lilith_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/24/lilith/answer_1_1

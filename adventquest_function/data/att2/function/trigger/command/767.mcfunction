@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/viserys_yigdal_shop_opening

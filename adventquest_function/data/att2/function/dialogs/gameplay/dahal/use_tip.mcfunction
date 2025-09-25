@@ -42,4 +42,4 @@ tellraw @s[scores={LANGUAGE=10}] {text:"Para usar um feitiço de Dahäl, segure 
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {text:"手持《醒神之书》按下[Q]键可以快速刷新《醒神之书》",color:"dark_green"}
 tellraw @s[scores={LANGUAGE=11}] {text:"Dahal法术使用:在法术书中选择对应的法术等级后会切换到[施法器],手持[施法器]右键施放法术,[Q]键可以快速切换[施法器]与[法术书]",color:"green"}
-#tellraw @s[scores={LANGUAGE=11}] {text:"",color:"dark_red","bold":true,extra:[{text:"",color:"dark_aqua",extra:[{text:"§6【Dahal施法器详细介绍】",color:"yellow",click_event:{action:run_command,command:"/function att2:dialogs/gameplay/dahal/dahal_detail"},hover_event:{action:show_text,value:"§6【点击此处查看Dahal施法器具体功能】"}}]}]}
+#tellraw @s[scores={LANGUAGE=11}] {text:"",color:"dark_red","bold":true,extra:[{text:"",color:"dark_aqua",extra:[{text:"§6【Dahal施法器详细介绍】",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 201"},hover_event:{action:show_text,value:"§6【点击此处查看Dahal施法器具体功能】"}}]}]}

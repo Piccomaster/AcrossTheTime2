@@ -1,0 +1,1 @@
+execute if score summon3 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy3

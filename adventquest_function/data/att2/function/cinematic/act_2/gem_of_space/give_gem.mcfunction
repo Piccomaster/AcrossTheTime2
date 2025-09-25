@@ -3,6 +3,8 @@
 #True for the player Inventory and give the gem 				#
 #################################################################
 
+execute if entity @a[nbt={Inventory:[{components:{"minecraft:custom_name":{translate:item.quest.gem_of_space.name}}}]}] run return 0
+
 function att2:cinematic/act_2/gem_of_space/effect
 function att2:items/quest/gem_of_space
 execute as @e[type=minecraft:armor_stand,distance=..7,nbt={equipment:{mainhand:{id:"minecraft:melon_seeds",count:1}}}] at @s run kill @s

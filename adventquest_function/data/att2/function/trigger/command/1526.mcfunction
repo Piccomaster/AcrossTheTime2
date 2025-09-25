@@ -1,0 +1,1 @@
+function att2:gameplay/language/set_zh_cn

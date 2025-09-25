@@ -1,0 +1,1 @@
+function att2:dialogs/gameplay/shop/mending/quick_mending

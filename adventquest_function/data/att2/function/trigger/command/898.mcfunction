@@ -1,0 +1,1 @@
+execute at 00000000-0000-067a-0000-00000000067a if entity @s[distance=..7] if score vulk_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/21/vulk/answer_1_1

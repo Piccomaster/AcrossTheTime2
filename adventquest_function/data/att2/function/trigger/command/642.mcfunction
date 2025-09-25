@@ -1,0 +1,1 @@
+execute at 00000000-0000-041a-0000-00000000041a if entity @s[distance=..7] if score syri_lorth_meleim_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_2/pnj_syri_lorth/dialog_2

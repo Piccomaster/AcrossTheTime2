@@ -24,6 +24,6 @@ execute if score SQ58 SIDEQUEST matches 4 positioned -7543 62 -4185 if entity @a
 execute if score SQ58 SIDEQUEST matches 4 if score cinematic SQ58 matches 1 run function att2:cinematic/sidequest/58/cinematic
 
 # end
-execute if score SQ58 SIDEQUEST matches 4 positioned -7543 62 -4185 if entity @a[distance=..7,gamemode=adventure,nbt={Inventory:[{id:"minecraft:shulker_shell",count:1,components:{"minecraft:custom_name":{translate:'legendary.dahal_magasin.name'}}}]}] run function att2:cinematic/sidequest/58/end
+execute if score SQ58 SIDEQUEST matches 4 positioned -7543 62 -4185 if entity @a[distance=..7,gamemode=adventure,nbt={Inventory:[{id:"minecraft:shulker_shell",count:1,components:{"minecraft:custom_name":{translate:'item.legendary.dahal_magasin.name'}}}]}] run function att2:cinematic/sidequest/58/end
 #return 1->make command block runing
 return 1

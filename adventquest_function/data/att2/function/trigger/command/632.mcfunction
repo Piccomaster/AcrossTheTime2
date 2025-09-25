@@ -1,0 +1,1 @@
+execute at 00000000-0000-009a-0000-00000000009a if entity @s[distance=..7] if score brutus_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_2/pnj_brutus/answer_yellow_1

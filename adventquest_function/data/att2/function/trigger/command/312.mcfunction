@@ -1,0 +1,1 @@
+function att2:gameplay/misc/itemrarity_color/select/run/com

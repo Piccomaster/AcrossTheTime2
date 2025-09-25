@@ -1,0 +1,1 @@
+execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/quick_recipe/8_org_ave_hal_gal_ehl

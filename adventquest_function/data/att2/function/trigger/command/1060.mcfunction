@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/patrick_corth_shop_opening

@@ -1,0 +1,1 @@
+execute at 00000000-0000-071a-0000-00000000071a if entity @s[distance=..7] if score philipo_tisdal_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/23/philipo_tisdal/answer_1_1

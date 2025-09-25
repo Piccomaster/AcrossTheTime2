@@ -1,0 +1,1 @@
+execute at 00000000-0000-050a-0000-00000000050a if entity @s[distance=..7] if score phoebius_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_1

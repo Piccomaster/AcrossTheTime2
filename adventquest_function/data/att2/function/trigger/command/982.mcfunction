@@ -1,0 +1,1 @@
+execute if score SQ40 SIDEQUEST matches 1 if entity @a[x=-4172,y=67,z=-5003,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/40/step2

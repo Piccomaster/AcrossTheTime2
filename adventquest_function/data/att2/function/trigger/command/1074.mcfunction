@@ -1,0 +1,1 @@
+function att2:items/lore/mainplayer_name

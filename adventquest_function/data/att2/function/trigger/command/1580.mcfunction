@@ -1,0 +1,1 @@
+execute in minecraft:the_end run tp @s -890 90 -600

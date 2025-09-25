@@ -1,0 +1,1 @@
+function att2:gameplay/shop/slot_management/randomise_proposal_trigger

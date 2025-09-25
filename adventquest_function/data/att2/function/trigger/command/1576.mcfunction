@@ -1,0 +1,1 @@
+execute in minecraft:the_nether run tp @s 3800 100 4700

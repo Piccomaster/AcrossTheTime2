@@ -1,0 +1,1 @@
+function att2:dialogs/sidequest/sq60/exploit_total

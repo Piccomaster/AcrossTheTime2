@@ -1,0 +1,1 @@
+execute positioned -5108 106 -4949 if entity @s[distance=..10] run function att2:gameplay/misc/house/cave_expansion/ryliath_trigger

@@ -1,0 +1,1 @@
+function att2:gameplay/stat/display/select/stop/spd

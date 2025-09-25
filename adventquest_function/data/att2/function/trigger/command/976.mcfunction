@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/carmen_ysta_shop_opening

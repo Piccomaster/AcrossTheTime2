@@ -1,0 +1,1 @@
+function att2:gameplay/shop/mending/tools/fast_mending_list

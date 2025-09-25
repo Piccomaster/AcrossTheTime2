@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/sirna_kho_shop_opening

@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/yaakov_rav_shop_opening

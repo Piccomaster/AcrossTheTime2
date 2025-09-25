@@ -1,0 +1,1 @@
+execute at 00000000-0000-087a if entity @s[distance=..7] if score aramis_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_aramis/answer_green_2

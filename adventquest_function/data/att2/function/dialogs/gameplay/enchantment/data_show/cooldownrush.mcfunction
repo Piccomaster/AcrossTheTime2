@@ -8,9 +8,9 @@ function att2:sound/dialogs/simple
 #Placeholding
 tellraw @s [{"translate":"enchantment.data.placed"}]
 #back
-tellraw @s [{"translate":"enchantment.data.list.back",hover_event:{action:show_text,value:[{translate:"enchantment.data.list.back.show_text"}]},click_event:{action:run_command,command:"/function att2:dialogs/gameplay/enchantment/data_show/list"}}]
+tellraw @s [{"translate":"enchantment.data.list.back",hover_event:{action:show_text,value:[{translate:"enchantment.data.list.back.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 202"}}]
 #back 1
-tellraw @s [{"translate":"enchantment.data.list.pr_gage.back",hover_event:{action:show_text,value:[{translate:"enchantment.data.list.pr_gage.back.show_text"}]},click_event:{action:run_command,command:"/function att2:dialogs/gameplay/enchantment/data_show/list/feet"}}]
+tellraw @s [{"translate":"enchantment.data.list.pr_gage.back",hover_event:{action:show_text,value:[{translate:"enchantment.data.list.pr_gage.back.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 204"}}]
 # cooldownrush
 tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.cooldownrush"},{text:"】",color:dark_green}]
 tellraw @s [{"translate":"enchantment.data.list.explain"}]

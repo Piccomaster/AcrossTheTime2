@@ -1,0 +1,1 @@
+function att2:dialogs/gameplay/misc/eye_effect/select

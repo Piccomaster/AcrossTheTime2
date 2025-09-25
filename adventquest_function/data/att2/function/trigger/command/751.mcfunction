@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/kehmira_alzedria_shop_opening

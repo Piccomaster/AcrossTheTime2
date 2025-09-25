@@ -1,0 +1,1 @@
+execute positioned -5448 58 -4608 if entity @s[distance=..10] run function att2:gameplay/misc/house/cave_expansion/kortaek_trigger

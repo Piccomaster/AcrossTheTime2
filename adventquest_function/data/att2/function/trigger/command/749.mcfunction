@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/jade_rozaell_shop_opening

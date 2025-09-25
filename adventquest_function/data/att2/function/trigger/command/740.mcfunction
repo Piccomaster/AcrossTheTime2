@@ -1,0 +1,1 @@
+function att2:gameplay/shop/seller/felix_amori_shop_opening

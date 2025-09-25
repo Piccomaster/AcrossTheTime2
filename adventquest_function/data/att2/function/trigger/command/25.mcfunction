@@ -1,0 +1,1 @@
+execute if score Neth0 TIMER matches 1701..1849 run scoreboard players set Neth0 TIMER 1849

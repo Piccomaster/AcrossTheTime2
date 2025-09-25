@@ -1,0 +1,1 @@
+execute positioned as @e[name=ARAMIS,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/teleportation_spatiale_buy
