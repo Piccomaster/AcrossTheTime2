@@ -20,4 +20,4 @@ give @a oak_sign[block_entity_data={id:sign,front_text:{messages:[[{text:"+_..-�
 #withdraw all
 give @a oak_sign[block_entity_data={id:sign,front_text:{messages:[[{text:"+_..-°°!!!°°-.._+",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 1177"}}],[{translate:att2.bank.withdraw,click_event:{action:run_command,command:"/trigger ScoreTrigger set 1178"}}],[{translate:att2.bank.all,click_event:{action:run_command,command:"/trigger ScoreTrigger set 1169"}}],[{text:"__________________",color:"yellow"}]]}}]
 #show all
-give @a oak_sign[block_entity_data={id:sign,front_text:{messages:[[{text:"+_..-°°!!!°°-.._+",color:"yellow",click_event:{action:run_command,command:"function att2:dialogs/gameplay/bank/account"}}],[{translate:att2.bank.check}],[{translate:att2.bank.account}],[{text:"__________________",color:"yellow"}]]}}]
+give @a oak_sign[block_entity_data={id:sign,front_text:{messages:[[{text:"+_..-°°!!!°°-.._+",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 1179"}}],[{translate:att2.bank.check}],[{translate:att2.bank.account}],[{text:"__________________",color:"yellow"}]]}}]
