@@ -16,7 +16,7 @@ execute in minecraft:the_nether as @e[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,team=
 function att2:physicmod/reg2/angor/sectarian_boss_opening
 function att2:physicmod/reg2/angor/rodmat_lava_clean
 
-function att2:gameplay/checkpoint/angband/angor18
+#function att2:gameplay/checkpoint/angband/angor18
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/rodmat
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/rodmat_master

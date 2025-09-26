@@ -1,0 +1,1 @@
+execute if score @s ScoreTrigger matches 2122 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/leg/golden_shovel_158

@@ -5,6 +5,7 @@
 
 execute as @a[distance=..5] at @s run function att2:gameplay/dahal/action/spell43/effect
 execute as @a[distance=..5] at @s run particle minecraft:dust{color:[0.9,0.9,0.1],scale:3.0} ~ ~1 ~ 0.1 0.1 0.1 0 5 normal
+effect clear @s minecraft:absorption
 effect give @s minecraft:absorption infinite 4 true
 ##other players
 execute at @s as @a[distance=0.1..3] run effect give @s minecraft:absorption infinite 3 true

@@ -1,0 +1,1 @@
+execute if score @s ScoreTrigger matches 1676 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/epi_esc/chainmail_chestplate_220

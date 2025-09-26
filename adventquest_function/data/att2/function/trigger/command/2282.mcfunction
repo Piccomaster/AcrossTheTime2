@@ -1,0 +1,1 @@
+execute if score @s ScoreTrigger matches 2282 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/stone_pickaxe_179
