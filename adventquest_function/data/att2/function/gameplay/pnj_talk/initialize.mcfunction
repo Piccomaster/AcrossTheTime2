@@ -158,6 +158,7 @@ scoreboard players set chryses_aleria_PNJ DIALOG 1
 scoreboard players set jade_rozaell_PNJ DIALOG 1
 scoreboard players set cassandre_PNJ DIALOG 1
 scoreboard players set barry_PNJ DIALOG 1
+scoreboard players set eldric_PNJ DIALOG 1
 
 scoreboard players set serile_PNJ statDIALOG 0
 scoreboard players set gonon_PNJ statDIALOG 0
@@ -308,6 +309,7 @@ scoreboard players set chryses_aleria_PNJ statDIALOG 0
 scoreboard players set jade_rozaell_PNJ statDIALOG 0
 scoreboard players set cassandre_PNJ statDIALOG 0
 scoreboard players set barry_PNJ statDIALOG 0
+scoreboard players set eldric_PNJ statDIALOG 0
 
 scoreboard players set brutus_PNJ onceDIALOG 0
 scoreboard players set yaakov_rav_PNJ onceDIALOG 0
@@ -459,3 +461,4 @@ team join ally 00000000-0000-151a-0000-00000000151a
 team join ally 00000000-0000-152a-0000-00000000152a
 team join ally 00000000-0000-153a-0000-00000000153a
 team join ally 00000000-0000-154a-0000-00000000154a
+team join ally 00000000-0000-160a-0000-00000000160a
