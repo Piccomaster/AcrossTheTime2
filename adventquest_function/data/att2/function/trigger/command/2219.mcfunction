@@ -1,1 +1,1 @@
-execute if score @s ScoreTrigger matches 2219 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/wooden_sword_23
+execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/wooden_sword_23

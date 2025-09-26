@@ -1,1 +1,1 @@
-execute if score @s ScoreTrigger matches 1787 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_chestplate_342
+execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_chestplate_342

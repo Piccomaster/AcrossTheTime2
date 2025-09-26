@@ -1,1 +1,1 @@
-execute if score @s ScoreTrigger matches 2006 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/com/golden_shovel_132
+execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/com/golden_shovel_132

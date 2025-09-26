@@ -1,1 +1,1 @@
-execute if score @s ScoreTrigger matches 1793 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_leggings_189
+execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_leggings_189

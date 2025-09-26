@@ -1,1 +1,1 @@
-execute if score @s ScoreTrigger matches 1585 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/com/chainmail_boots_75
+execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/com/chainmail_boots_75

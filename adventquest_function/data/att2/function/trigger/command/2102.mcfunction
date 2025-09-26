@@ -1,1 +1,1 @@
-execute if score @s ScoreTrigger matches 2102 run return run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi_esc/netherite_hoe_334
+execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi_esc/netherite_hoe_334
