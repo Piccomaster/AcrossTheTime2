@@ -11,5 +11,5 @@ function att2:summon/world_entity/0_0_0
 execute in overworld positioned 787 80 796 run function att2:gameplay/shop/slot_management/summon_holder
 ##summon interfacer entity
 execute in overworld positioned 775 70 781 run function att2:gameplay/legendary/interfacer/summon_holder
-##summon roadmarker
+##summon recycler
 function att2:gameplay/misc/map/system_set/summon_marker/road_point

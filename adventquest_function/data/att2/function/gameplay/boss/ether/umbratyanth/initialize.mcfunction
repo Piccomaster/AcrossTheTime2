@@ -12,7 +12,7 @@ scoreboard players set EnterArena UMBRATYANTH 0
 scoreboard players set ESC UMBRATYANTH 0
 scoreboard players set Boss UMBRATYANTH -2
 scoreboard players set BossSound UMBRATYANTH 0
-scoreboard players set Choose_attack UMBRATYANTH 0
+#scoreboard players set Choose_attack UMBRATYANTH 0
 scoreboard players set Players_counter UMBRATYANTH 0
 scoreboard players set Minions_counter UMBRATYANTH 0
 scoreboard players set Minions_totalkilled UMBRATYANTH 0
