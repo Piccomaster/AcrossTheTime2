@@ -53,3 +53,5 @@ execute if score tic TIMECOUNTER matches 15 as @a at @s run function att2:gamepl
 execute if score tic TIMECOUNTER matches 15 run kill @e[type=item,predicate=att2_pre:exploit_book]
 ##data display
 execute if score tic TIMECOUNTER matches 15 if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/misc/sidebar/go
+##entity protect
+execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/entity_protect/go

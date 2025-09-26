@@ -21,7 +21,7 @@ execute positioned -5117 121 -6870 run function att2:summon/reg_1/umbratyanth_ar
 gamerule doDaylightCycle false
 time set 18000
 scoreboard players set Boss UMBRATYANTH 1
-scoreboard players set Choose_attack UMBRATYANTH 0
+#scoreboard players set Choose_attack UMBRATYANTH 0
 scoreboard players set Minions_counter UMBRATYANTH 0
 scoreboard players set Minions_totalkilled UMBRATYANTH 0
 scoreboard players set Attack UMBRATYANTH 0
