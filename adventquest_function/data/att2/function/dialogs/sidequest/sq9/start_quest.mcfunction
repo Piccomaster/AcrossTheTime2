@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {text:"[Patrick को लकड़ी की �
 tellraw @s[scores={LANGUAGE=10}] {text:"[Patrick está sem madeira]",color:"gold"}
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {text:"[Patrick 缺少木头]",color:"gold"}
+tellraw @s[scores={LANGUAGE=11}] {text:"[Patrick缺少木头]",color:"gold"}
