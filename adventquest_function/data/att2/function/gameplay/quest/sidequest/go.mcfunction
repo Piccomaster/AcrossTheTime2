@@ -5,9 +5,6 @@
 
 function att2:sound/dialogs/simple
 
-##SQ100 -空间传送
-execute if score SQ100 SIDEQUEST matches 2..99 run function att2:dialogs/sidequest/assistance/sq100/progress
-execute if score SQ100 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq100/complete
 #SQ60 - L'ultime challenge (PNJ : /)
 execute if score SQ60 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
 execute if score SQ60 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
