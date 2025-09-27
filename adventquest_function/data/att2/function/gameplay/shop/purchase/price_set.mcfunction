@@ -2566,3 +2566,112 @@ scoreboard players set 26_zen_esc PRICES 2
 
 scoreboard players set 27_mot PRICES 7777
 scoreboard players set 27_mot_esc PRICES 3
+
+#rune price
+scoreboard players set 1_gal_chronoton PRICES 50
+scoreboard players operation 1_gal_chronoton PRICES *= discount discount_calc
+scoreboard players operation 1_gal_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 2_tha_chronoton PRICES 75
+scoreboard players operation 2_tha_chronoton PRICES *= discount discount_calc
+scoreboard players operation 2_tha_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 3_fus_chronoton PRICES 100
+scoreboard players operation 3_fus_chronoton PRICES *= discount discount_calc
+scoreboard players operation 3_fus_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 4_org_chronoton PRICES 200
+scoreboard players operation 4_org_chronoton PRICES *= discount discount_calc
+scoreboard players operation 4_org_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 5_jo_chronoton PRICES 300
+scoreboard players operation 5_jo_chronoton PRICES *= discount discount_calc
+scoreboard players operation 5_jo_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 6_ra_chronoton PRICES 400
+scoreboard players operation 6_ra_chronoton PRICES *= discount discount_calc
+scoreboard players operation 6_ra_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 7_nym_chronoton PRICES 600
+scoreboard players operation 7_nym_chronoton PRICES *= discount discount_calc
+scoreboard players operation 7_nym_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 8_inu_chronoton PRICES 750
+scoreboard players operation 8_inu_chronoton PRICES *= discount discount_calc
+scoreboard players operation 8_inu_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 9_hal_chronoton PRICES 900
+scoreboard players operation 9_hal_chronoton PRICES *= discount discount_calc
+scoreboard players operation 9_hal_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 10_von_chronoton PRICES 1200
+scoreboard players operation 10_von_chronoton PRICES *= discount discount_calc
+scoreboard players operation 10_von_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 11_ehl_chronoton PRICES 1400
+scoreboard players operation 11_ehl_chronoton PRICES *= discount discount_calc
+scoreboard players operation 11_ehl_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 12_ave_chronoton PRICES 1600
+scoreboard players operation 12_ave_chronoton PRICES *= discount discount_calc
+scoreboard players operation 12_ave_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 13_chu_chronoton PRICES 1600
+scoreboard players operation 13_chu_chronoton PRICES *= discount discount_calc
+scoreboard players operation 13_chu_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 14_for_chronoton PRICES 1800
+scoreboard players operation 14_for_chronoton PRICES *= discount discount_calc
+scoreboard players operation 14_for_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 15_da_chronoton PRICES 2500
+scoreboard players operation 15_da_chronoton PRICES *= discount discount_calc
+scoreboard players operation 15_da_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 16_wej_chronoton PRICES 3000
+scoreboard players operation 16_wej_chronoton PRICES *= discount discount_calc
+scoreboard players operation 16_wej_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 17_ust_chronoton PRICES 3500
+scoreboard players operation 17_ust_chronoton PRICES *= discount discount_calc
+scoreboard players operation 17_ust_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 18_lya_chronoton PRICES 4000
+scoreboard players operation 18_lya_chronoton PRICES *= discount discount_calc
+scoreboard players operation 18_lya_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 19_qi_chronoton PRICES 5000
+scoreboard players operation 19_qi_chronoton PRICES *= discount discount_calc
+scoreboard players operation 19_qi_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 20_bex_chronoton PRICES 6000
+scoreboard players operation 20_bex_chronoton PRICES *= discount discount_calc
+scoreboard players operation 20_bex_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 21_puh_chronoton PRICES 8000
+scoreboard players operation 21_puh_chronoton PRICES *= discount discount_calc
+scoreboard players operation 21_puh_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 22_syl_chronoton PRICES 10000
+scoreboard players operation 22_syl_chronoton PRICES *= discount discount_calc
+scoreboard players operation 22_syl_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 23_yog_chronoton PRICES 15000
+scoreboard players operation 23_yog_chronoton PRICES *= discount discount_calc
+scoreboard players operation 23_yog_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 24_kan_chronoton PRICES 20000
+scoreboard players operation 24_kan_chronoton PRICES *= discount discount_calc
+scoreboard players operation 24_kan_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 25_xul_chronoton PRICES 30000
+scoreboard players operation 25_xul_chronoton PRICES *= discount discount_calc
+scoreboard players operation 25_xul_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 26_zen_chronoton PRICES 50000
+scoreboard players operation 26_zen_chronoton PRICES *= discount discount_calc
+scoreboard players operation 26_zen_chronoton PRICES /= 100 discount_calc
+
+scoreboard players set 27_mot_chronoton PRICES 100000
+scoreboard players operation 27_mot_chronoton PRICES *= discount discount_calc
+scoreboard players operation 27_mot_chronoton PRICES /= 100 discount_calc

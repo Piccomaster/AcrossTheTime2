@@ -28,6 +28,10 @@
 - Removed rune material upgrades; replaced with **"Rune Powder → Rune Material" synthesis**.
 - Synthesis requires owning the target material or its adjacent-tier materials.
 
+### New Merchant PNJ
+- Added possibility to buy runes against Chronotons but dependent on the progress of the new runic trial system.
+- Added possibility to sell runes powder against "Sovereign Chaos Scale".
+
 ### Stock
 - Each *Chrono Gem* upgrades pocket by **1 level**.
 - Added **"Previous Page," "Discard All," "Next Page"** buttons.

@@ -35,13 +35,13 @@ execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_26] run fu
 execute as @e[type=item,distance=..1,predicate=att2_pre:item_color/re_27] run function att2:gameplay/grinder/total/27_mot
 
 scoreboard players operation 1_gal GRINDER *= 1 CAL
-scoreboard players operation 2_tha GRINDER *= 2 CAL
-scoreboard players operation 3_fus GRINDER *= 3 CAL
-scoreboard players operation 4_org GRINDER *= 4 CAL
-scoreboard players operation 5_jo GRINDER *= 5 CAL
-scoreboard players operation 6_ra GRINDER *= 6 CAL
-scoreboard players operation 7_nym GRINDER *= 7 CAL
-scoreboard players operation 8_inu GRINDER *= 8 CAL
+scoreboard players operation 2_tha GRINDER *= 1 CAL
+scoreboard players operation 3_fus GRINDER *= 2 CAL
+scoreboard players operation 4_org GRINDER *= 3 CAL
+scoreboard players operation 5_jo GRINDER *= 3 CAL
+scoreboard players operation 6_ra GRINDER *= 4 CAL
+scoreboard players operation 7_nym GRINDER *= 5 CAL
+scoreboard players operation 8_inu GRINDER *= 7 CAL
 scoreboard players operation 9_hal GRINDER *= 9 CAL
 scoreboard players operation 10_von GRINDER *= 20 CAL
 scoreboard players operation 11_ehl GRINDER *= 22 CAL

@@ -1,0 +1,12 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the dialog system 						#
+#################################################################
+
+function att2:dialogs/gameplay/shop/runepowder_display
+
+tellraw @s {text:" <-°-> ",color:"dark_gray",extra:[{text:" RUNE POWDER PRICES ",color:"dark_red",extra:[{text:" <-°-> ",color:"dark_gray"}]}]}
+tellraw @s {text:" - ","bold":true,color:"dark_red",extra:[{text:"<50>","bold":false,color:"yellow",extra:[{text:" [",color:"light_purple",click_event:{action:run_command,command:"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/prisoner/rune_powder/sell_50"},hover_event:{action: show_text,value:[{"translate":"att2.shop.hover_event.buy"}]},extra:[{text:"1 ",color:"light_purple",extra:[{"translate":"att2.shop.esc",color:"light_purple"},{text:"]",color:"light_purple"}]}]}]}]}
+tellraw @s {text:" - ","bold":true,color:"dark_red",extra:[{text:"<250>","bold":false,color:"yellow",extra:[{text:" [",color:"light_purple",click_event:{action:run_command,command:"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/prisoner/rune_powder/sell_250"},hover_event:{action: show_text,value:[{"translate":"att2.shop.hover_event.buy"}]},extra:[{text:"5 ",color:"light_purple",extra:[{"translate":"att2.shop.esc",color:"light_purple"},{text:"]",color:"light_purple"}]}]}]}]}
+tellraw @s {text:" - ","bold":true,color:"dark_red",extra:[{text:"<500>","bold":false,color:"yellow",extra:[{text:" [",color:"light_purple",click_event:{action:run_command,command:"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/prisoner/rune_powder/sell_500"},hover_event:{action: show_text,value:[{"translate":"att2.shop.hover_event.buy"}]},extra:[{text:"10 ",color:"light_purple",extra:[{"translate":"att2.shop.esc",color:"light_purple"},{text:"]",color:"light_purple"}]}]}]}]}
+tellraw @s {text:" - ","bold":true,color:"dark_red",extra:[{text:"<1000>","bold":false,color:"yellow",extra:[{text:" [",color:"light_purple",click_event:{action:run_command,command:"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/prisoner/rune_powder/sell_1000"},hover_event:{action: show_text,value:[{"translate":"att2.shop.hover_event.buy"}]},extra:[{text:"20 ",color:"light_purple",extra:[{"translate":"att2.shop.esc",color:"light_purple"},{text:"]",color:"light_purple"}]}]}]}]}
