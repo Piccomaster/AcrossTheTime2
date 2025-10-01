@@ -1,6 +1,6 @@
 #########################################################################
 #Made by Adventquest													#
-#Process end door opened runic trial 	                                #
+#Process end door opened runic trial 1	                                #
 #########################################################################
 
 execute positioned -4787 52 -5374 run function att2:sound/door/copper_door_open

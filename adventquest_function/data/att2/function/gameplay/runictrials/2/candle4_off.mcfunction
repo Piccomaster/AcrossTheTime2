@@ -3,6 +3,6 @@
 #Process candle OFF 	                                                #
 #########################################################################
 
-scoreboard players set candle1_3 CANDLE_STATE 0
-scoreboard players add total_trial1 CANDLE_LIT 1
+scoreboard players set candle2_4 CANDLE_STATE 0
+scoreboard players add total_trial2 CANDLE_LIT 1
 function att2:sound/misc/candle_off
