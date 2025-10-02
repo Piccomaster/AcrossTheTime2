@@ -1,0 +1,1 @@
+function att2:gameplay/consciousness/game_setting

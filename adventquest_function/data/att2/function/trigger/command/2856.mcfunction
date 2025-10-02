@@ -1,0 +1,1 @@
+function att2:dialogs/gameplay/shop/gambling/matching_game_select

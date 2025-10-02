@@ -1,0 +1,1 @@
+function att2:gameplay/consciousness/other_infor

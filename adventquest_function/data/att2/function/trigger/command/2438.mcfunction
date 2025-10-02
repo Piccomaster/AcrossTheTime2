@@ -1,0 +1,1 @@
+function att2:gameplay/shop/gambling/matching_game/click/rangeweapon/43

@@ -92,3 +92,6 @@ scoreboard players set 10 GAMBLING 10
 scoreboard players set 11 GAMBLING 11
 scoreboard players set 12 GAMBLING 12
 scoreboard players set 13 GAMBLING 13
+
+##matching_game
+function att2:gameplay/shop/gambling/matching_game/initialize
