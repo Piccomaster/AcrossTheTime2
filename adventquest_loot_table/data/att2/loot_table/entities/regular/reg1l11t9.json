@@ -8810,7 +8810,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/armor/com/chainmail_chestplate_71"
+                    "value": "att2:item_data/weapon/rar/netherite_pickaxe_300"
                 },
                 {
                     "conditions": [
