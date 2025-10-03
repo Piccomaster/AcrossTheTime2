@@ -1,0 +1,35 @@
+{
+    "title": "",
+    "type": "minecraft:notice",
+    "pause": false,
+    "columns": 1,
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": {
+                "translate": "consciousness.gametip.conscience",
+                "color": "green"
+            }
+        },
+        {
+            "type": "plain_message",
+            "contents": {
+                "translate": "consciousness.gametip.conscience",
+                "color": "green"
+            }
+        }
+    ],
+    "action": {
+        "label": {
+            "translate": "consciousness.menu.exit",
+            "color": "#45556C"
+        },
+        "tooltip": {
+            "translate": "consciousness.menu.exit.tip"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "/trigger ScoreTrigger set 2327"
+        }
+    }
+}

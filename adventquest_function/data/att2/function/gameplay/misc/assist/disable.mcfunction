@@ -3,4 +3,6 @@
 #Disabled the tips assist auto 								    #
 #################################################################
 
-scoreboard players set Timer ASSIST 0
+scoreboard players set @s ASSIST 0
+#reset dialog
+function att2:gameplay/consciousness/gametip

@@ -23,4 +23,4 @@ execute if predicate att2_pre:test_hold/rarity/chest/leg if score @s TOOLS_LEG m
 execute if predicate att2_pre:test_hold/rarity/chest/leg_armset if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_chestplate
 execute if predicate att2_pre:test_hold/rarity/chest/ult if score @s TOOLS_ULT matches 1.. run function att2:gameplay/shop/mending/tools/repair_chestplate
 
-function att2:gameplay/update_book
+function att2:gameplay/consciousness/quick_repair

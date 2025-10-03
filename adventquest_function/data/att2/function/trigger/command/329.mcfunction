@@ -1,1 +1,1 @@
-function att2:gameplay/misc/itemrarity_color/select/stop/是同【/other
+function att2:gameplay/misc/itemrarity_color/select/stop/other

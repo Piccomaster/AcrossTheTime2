@@ -13,6 +13,7 @@ scoreboard players set SQ26 SIDEQUEST 100
 execute as @a run function att2:dialogs/sidequest/sq27/start_quest
 scoreboard players set emerald_PNJ DIALOG 5
 scoreboard players set SQ27 SIDEQUEST 1
+scoreboard players set SQ_Start SIDEQUEST 1
 
 #REWARDS SQ26
 xp add @a 4000

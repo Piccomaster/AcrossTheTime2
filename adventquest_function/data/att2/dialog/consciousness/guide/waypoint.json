@@ -1,0 +1,68 @@
+{
+    "title": "",
+    "type": "minecraft:multi_action",
+    "pause": false,
+    "body": {
+        "type": "plain_message",
+        "contents": {
+            "translate": "consciousness.menu"
+        }
+    },
+    "actions": [
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.menu.npc",
+                "color": "#21BCFF"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.menu.npc.tip"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "att2:consciousness/guide/npc"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.menu.waypoint",
+                "color": "#21BCFF"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.menu.waypoint.tip"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "att2:consciousness/guide/waypoint"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.menu.tutorial",
+                "color": "#21BCFF"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.menu.tutorial.tip"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "att2:consciousness/guide/tutorial"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "consciousness.menu.exit",
+            "color": "#45556C"
+        },
+        "tooltip": {
+            "translate": "consciousness.menu.exit.tip"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "/trigger ScoreTrigger set 2310"
+        }
+    }
+}

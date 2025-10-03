@@ -22,4 +22,5 @@ execute if predicate att2_pre:test_hold/rarity/offhand/epi_set if score @s TOOLS
 execute if predicate att2_pre:test_hold/rarity/offhand/leg if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_offhand
 execute if predicate att2_pre:test_hold/rarity/offhand/leg_armset if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_offhand
 execute if predicate att2_pre:test_hold/rarity/offhand/ult if score @s TOOLS_ULT matches 1.. run function att2:gameplay/shop/mending/tools/repair_offhand
-function att2:gameplay/update_book
+
+function att2:gameplay/consciousness/quick_repair

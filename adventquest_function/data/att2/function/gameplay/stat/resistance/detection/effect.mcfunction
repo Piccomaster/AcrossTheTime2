@@ -7,7 +7,7 @@
 scoreboard players reset Health CAL
 
 playsound minecraft:item.totem.use ambient @a ~ ~ ~ 2 2
-particle minecraft:flash ~ ~1 ~ 0 0 0 0 1
+particle minecraft:flash{color:[1,1,1,1]} ~ ~1 ~ 0 0 0 0 1
 scoreboard players set @s TOTEM 30
 
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..4] run tag @s add Knockback

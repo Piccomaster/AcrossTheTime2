@@ -1,0 +1,141 @@
+{
+    "title": {
+        "translate": "consciousness.menu"
+    },
+    "type": "minecraft:multi_action",
+    "pause": false,
+    "actions": [
+        {
+            "label": {
+                "translate": "consciousness.menu.player_infor"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.player_infor.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 4"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.attribute"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.attribute.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 4"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.chronotons"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.chronotons.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 3"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.other_infor"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.other_infor.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 3"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.mainquest"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.mainquest.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.sidequest"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.sidequest.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 3"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.gather_items"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.gather_items.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 3"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.mounts"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.mounts.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 3"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.quick_repair"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.quick_repair.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 3"
+            }
+        },
+        {
+            "label": {
+                "translate": "consciousness.menu.checkpoint"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.checkpoint.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 3"
+            }
+        }
+    ],
+    "action": {
+        "label": {
+            "translate": "consciousness.menu.exit"
+        },
+        "tooltip": {
+            "translate": "consciousness.menu.exit.tip"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "/trigger ScoreTrigger set 2310"
+        }
+    }
+}

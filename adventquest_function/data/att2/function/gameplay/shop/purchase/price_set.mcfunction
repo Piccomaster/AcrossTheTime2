@@ -2675,3 +2675,15 @@ scoreboard players operation 26_zen_chronoton PRICES /= 100 discount_calc
 scoreboard players set 27_mot_chronoton PRICES 100000
 scoreboard players operation 27_mot_chronoton PRICES *= discount discount_calc
 scoreboard players operation 27_mot_chronoton PRICES /= 100 discount_calc
+
+##matching_game
+scoreboard players set matching_game_form1 PRICES 100
+scoreboard players set matching_game_form2 PRICES 200
+scoreboard players set matching_game_form3 PRICES 300
+scoreboard players set matching_game_form4 PRICES 400
+scoreboard players set matching_game_form5 PRICES 500
+scoreboard players set matching_game_form6 PRICES 600
+scoreboard players set matching_game_form7 PRICES 700
+scoreboard players set matching_game_form8 PRICES 800
+scoreboard players set matching_game_form9 PRICES 900
+scoreboard players set matching_game_form10 PRICES 1000

@@ -11,3 +11,5 @@ function att2:dialogs/gameplay/stat/display/stop
 execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
 #display
 function att2:gameplay/stat/display/bossbar_clear with storage att2:numerojoueur
+##reset dialog
+function att2:gameplay/consciousness/attribute_display

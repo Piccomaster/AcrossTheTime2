@@ -11,6 +11,7 @@ function att2:advancement/test_all/progress/sidequest
 ####
 scoreboard players set SQ40 SIDEQUEST 100
 scoreboard players set SQ41 SIDEQUEST 1
+scoreboard players set SQ_Start SIDEQUEST 1
 tag 00000000-0000-138a-0000-00000000138a remove QUEST
 scoreboard players set jack_arrow_PNJ DIALOG 2
 

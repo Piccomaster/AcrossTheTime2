@@ -7,7 +7,7 @@ particle minecraft:dust{color:[-0.3,-0.3,0],scale:0.3} ~ ~7 ~ 0.1 0.1 0.1 0.2 50
 particle minecraft:dust{color:[-0.1,-0.1,-5],scale:0.3} ~ ~7 ~ 0.01 0.01 0.01 0.2 100 normal
 particle minecraft:dust{color:[1,0.9,0],scale:0.3} ~ ~7 ~ 0.3 0.3 0.3 0.2 50 normal
 particle minecraft:item{item:"minecraft:gold_block"} ~ ~7 ~ 0.01 0.01 0.01 3 10 normal
-particle minecraft:flash ~ ~7 ~ 0.01 0.01 0.01 1 1 normal
+particle minecraft:flash{color:[1,1,1,1]} ~ ~7 ~ 0.01 0.01 0.01 1 1 normal
 
 
 # particle minecraft:end_rod ~ ~2 ~ 0.1 1 0.1 0.05 3

@@ -10,6 +10,7 @@ scoreboard players set 1625 CAL 1625
 scoreboard players set 22200 CAL 22200
 #get xp value
 execute store result score now_level CAL run experience query @s levels
+execute store result score now_xp CAL run experience query @s points
 
 execute if score now_level CAL matches ..16 run function att2:dialogs/gameplay/level/now_xp_16
 execute if score now_level CAL matches 17..31 run function att2:dialogs/gameplay/level/now_xp_31

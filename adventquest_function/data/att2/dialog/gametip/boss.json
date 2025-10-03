@@ -1,0 +1,70 @@
+{
+    "title": "",
+    "type": "minecraft:notice",
+    "pause": false,
+    "columns": 1,
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": {
+                "translate": "consciousness.gametip.boss",
+                "color": "green"
+            }
+        },
+        {
+            "type": "plain_message",
+            "width": 400,
+            "contents": [
+                {
+                    "text": "1.",
+                    "color": "#FA8C16"
+                },
+                {
+                    "translate": "att2.assist.boss.1",
+                    "color": "#FA8C16"
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "width": 400,
+            "contents": [
+                {
+                    "text": "2.",
+                    "color": "#FA8C16"
+                },
+                {
+                    "translate": "att2.assist.boss.2",
+                    "color": "#FA8C16"
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "width": 400,
+            "contents": [
+                {
+                    "text": "3.",
+                    "color": "#FA8C16"
+                },
+                {
+                    "translate": "att2.assist.boss.3",
+                    "color": "#FA8C16"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": {
+            "translate": "consciousness.menu.exit",
+            "color": "#45556C"
+        },
+        "tooltip": {
+            "translate": "consciousness.menu.exit.tip"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "/trigger ScoreTrigger set 2327"
+        }
+    }
+}

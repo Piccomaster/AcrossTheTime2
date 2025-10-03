@@ -4,7 +4,7 @@
 #################################################
 
 particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 7 4 normal
-particle minecraft:flash ~ ~1 ~ 0.5 0.5 0.5 7 4 normal
+particle minecraft:flash{color:[1,1,1,1]} ~ ~1 ~ 0.5 0.5 0.5 7 4 normal
 execute as @a run function att2:gameplay/dahal/action/spell6/stopsound_effect
 execute as @a[distance=..20] run function att2:sound/misc/explosion
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run effect give @s minecraft:slowness 5 4 true

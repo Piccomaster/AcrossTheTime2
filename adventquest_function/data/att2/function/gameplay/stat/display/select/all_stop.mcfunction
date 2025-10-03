@@ -12,6 +12,7 @@ scoreboard players set @s DAR_DISPLAY 0
 scoreboard players set @s HUN_DISPLAY 0
 scoreboard players set @s LUC_DISPLAY 0
 scoreboard players set @s HER_DISPLAY 0
+scoreboard players set @s STAT_DISPLAY 0
 #dialogs
 function att2:dialogs/gameplay/stat/all_stop
 #update bossbar
@@ -20,3 +21,5 @@ function att2:gameplay/stat/display/go
 execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
 #display
 function att2:gameplay/stat/display/bossbar_clear with storage att2:numerojoueur
+##reset dialog
+function att2:gameplay/consciousness/attribute_display

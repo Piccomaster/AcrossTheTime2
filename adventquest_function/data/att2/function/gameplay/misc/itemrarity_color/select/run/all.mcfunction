@@ -19,5 +19,9 @@ scoreboard players set rune_medium itemcolor 1
 scoreboard players set rune_high itemcolor 1
 scoreboard players set rune_base itemcolor 1
 
+scoreboard players set all itemcolor 1
+
 #dialogs
 title @s actionbar {translate:att2.item_color.run.all}
+#reset dialog
+function att2:gameplay/consciousness/item_particle

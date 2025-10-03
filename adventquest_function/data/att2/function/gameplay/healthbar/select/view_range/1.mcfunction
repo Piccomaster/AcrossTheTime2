@@ -13,3 +13,5 @@ execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard
 function att2:gameplay/healthbar/ex_enemy/get with storage att2:numerojoueur
 #update all
 execute as @e[type=#minecraft:display_entity,tag=New,tag=VALUE] run function att2:gameplay/healthbar/setting/view_range
+##update dialog
+function att2:gameplay/consciousness/healthbar

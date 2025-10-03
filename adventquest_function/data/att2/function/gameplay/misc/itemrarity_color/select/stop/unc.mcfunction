@@ -8,3 +8,5 @@ scoreboard players set unc itemcolor 0
 
 #dialogs
 title @s actionbar {translate:att2.item_color.stop.unc}
+#reset dialog
+function att2:gameplay/consciousness/item_particle

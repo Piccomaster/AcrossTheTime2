@@ -10,6 +10,7 @@ function att2:advancement/test_all/progress/sidequest
 ####
 scoreboard players set SQ54 SIDEQUEST 100
 scoreboard players set SQ55 SIDEQUEST 1
+scoreboard players set SQ_Start SIDEQUEST 1
 function att2:dialogs/sidequest/completed_effect
 execute as @a run function att2:dialogs/sidequest/sq55/start_quest
 function att2:cinematic/sidequest/55/jzargo/move_pnj

@@ -20,4 +20,4 @@ execute if predicate att2_pre:test_hold/rarity/mainhand/all_epi unless predicate
 execute if predicate att2_pre:test_hold/rarity/mainhand/leg if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_mainhand
 execute if predicate att2_pre:test_hold/rarity/mainhand/ult if score @s TOOLS_ULT matches 1.. run function att2:gameplay/shop/mending/tools/repair_mainhand
 
-function att2:gameplay/update_book
+function att2:gameplay/consciousness/quick_repair
