@@ -8,3 +8,5 @@ scoreboard players set leg itemcolor 0
 
 #dialogs
 title @s actionbar {translate:att2.item_color.stop.leg}
+#reset dialog
+function att2:gameplay/consciousness/item_particle

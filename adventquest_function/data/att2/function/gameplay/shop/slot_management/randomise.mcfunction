@@ -40,5 +40,5 @@ function att2:gameplay/shop/slot_management/value/maria_shop_test
 function att2:gameplay/shop/slot_management/value/jabir_hayyan_shop_test
 function att2:gameplay/shop/slot_management/value/oswald_flamel_shop_test
 function att2:gameplay/shop/slot_management/value/sylvia_mornith_shop_test
-
+execute unless score Mainquest SIDEQUEST matches 1.. run return 0
 function att2:dialogs/gameplay/shop/showcase/timeshop_remaining

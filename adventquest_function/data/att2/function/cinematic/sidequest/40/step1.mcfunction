@@ -11,6 +11,7 @@ function att2:advancement/test_all/progress/sidequest
 ####
 scoreboard players set SQ39 SIDEQUEST 100
 scoreboard players set SQ40 SIDEQUEST 1
+scoreboard players set SQ_Start SIDEQUEST 1
 tag 00000000-0000-137a-0000-00000000137a remove QUEST
 function att2:gameplay/reputation/add_5
 scoreboard players set babbu_PNJ DIALOG 4

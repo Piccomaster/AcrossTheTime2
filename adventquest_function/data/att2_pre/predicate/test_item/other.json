@@ -22,47 +22,7 @@
             "entity":"this",
             "predicate":{
                 "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:apple\"},PickupDelay:0s}"
-            }
-        },
-        {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:potato\"},PickupDelay:0s}"
-            }
-        },
-        {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:carrot\"},PickupDelay:0s}"
-            }
-        },
-        {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:beetroot\"},PickupDelay:0s}"
-            }
-        },
-        {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:bread\"},PickupDelay:0s}"
-            }
-        },
-        {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:rotten_flesh\"},PickupDelay:0s}"
+                "nbt": "{Item:{components:{\"minecraft:custom_data\":{\"EquipmentType\":\"food\"}}},PickupDelay:0s}"
             }
         }
     ]

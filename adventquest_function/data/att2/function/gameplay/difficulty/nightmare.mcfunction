@@ -6,3 +6,6 @@
 difficulty hard
 scoreboard players set level DIFFICULTY 2
 scoreboard players set nightmare_trigger DIFFICULTY 1
+
+##sound
+playsound minecraft:entity.ender_dragon.ambient master @s

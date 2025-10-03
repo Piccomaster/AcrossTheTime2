@@ -9,7 +9,7 @@ title @s subtitle {text:"° ",color:"gray",extra:[{score:{name:"@s",objective:"G
 tellraw @a [{"selector":"@s",color:dark_red},{translate:att2.leveling.eternan.tellraw,with:[{score:{name:"@s",objective:"GAMELEVEL"},color:"dark_red"},{score:{name:"@s",objective:"LEVELMASTER"},color:"dark_red"},{score:{name:"@s",objective:"LEVELETERNAN"},color:"dark_red"}]}]
 
 function att2:sound/misc/level_up
-execute at @s run particle minecraft:flash ~ ~1.5 ~ 0.25 0.25 0.25 1 1 normal
+execute at @s run particle minecraft:flash{color:[1,1,1,1]} ~ ~1.5 ~ 0.25 0.25 0.25 1 1 normal
 execute at @s run particle minecraft:dust{color:[5,5,5],scale:3} ~ ~1.5 ~ 7 7 7 1 2000 normal
 execute at @s run particle minecraft:warped_spore ~ ~1.5 ~ 0.25 0.25 0.25 1 200 normal
 execute at @s run particle minecraft:nautilus ~ ~1.5 ~ 0.25 0.25 0.25 1 200 normal

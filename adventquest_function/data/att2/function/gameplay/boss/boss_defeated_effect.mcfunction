@@ -8,7 +8,7 @@ particle minecraft:end_rod ~ ~1 ~ 0 0 0 0.5 100 normal
 particle minecraft:warped_spore ~ ~1 ~ 0 0 0 0.5 100 normal
 particle minecraft:soul ~ ~1 ~ 0.1 0.1 0.1 0.1 100 normal
 particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0 0 0 0.25 100 normal
-particle minecraft:flash ~ ~1 ~ 0.1 0.1 0.1 0 25 normal
+particle minecraft:flash{color:[1,1,1,1]} ~ ~1 ~ 0.1 0.1 0.1 0 25 normal
 particle minecraft:glow ~ ~1 ~ 0 2 0 0 50 normal
 particle minecraft:glow ~ ~1 ~ 2 0 0 0 50 normal
 particle minecraft:glow ~ ~1 ~ 0 0 2 0 50 normal

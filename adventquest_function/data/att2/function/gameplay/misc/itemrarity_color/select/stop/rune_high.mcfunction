@@ -4,8 +4,10 @@
 #################################################################
 
 function att2:sound/dialogs/simple
-scoreboard players set stope_high itemcolor 0
-scoreboard players set stope_base itemcolor 0
+scoreboard players set rune_high itemcolor 0
+scoreboard players set rune_base itemcolor 0
 
 #dialogs
-title @s actionbar {translate:att2.item_color.stop.stope_high}
+title @s actionbar {translate:att2.item_color.stop.rune_high}
+#reset dialog
+function att2:gameplay/consciousness/item_particle

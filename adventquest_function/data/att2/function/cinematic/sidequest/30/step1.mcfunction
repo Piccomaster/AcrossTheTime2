@@ -6,6 +6,7 @@
 execute as @a run function att2:dialogs/sidequest/sq30/start_quest
 tag 00000000-0000-084a-0000-00000000084a remove QUEST
 scoreboard players set SQ30 SIDEQUEST 1
+scoreboard players set SQ_Start SIDEQUEST 1
 
 # Tp Commandant Trevor
 tp 00000000-0000-097a-0000-00000000097a -4991 151 -4906 90 0

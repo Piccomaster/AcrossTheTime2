@@ -12,6 +12,7 @@ scoreboard players set SQ25 SIDEQUEST 100
 tag 00000000-0000-005a-0000-00000000005a remove QUEST
 execute as @a run function att2:dialogs/sidequest/sq26/start_quest
 scoreboard players set SQ26 SIDEQUEST 1
+scoreboard players set SQ_Start SIDEQUEST 1
 scoreboard players set emerald_PNJ DIALOG 3
 scoreboard players set lary_brett_PNJ DIALOG 2
 

@@ -7,7 +7,7 @@
 playsound crashmetal1 ambient @s ~ ~ ~ 1 2
 playsound minecraft:item.totem.use ambient @s ~ ~ ~ 1 2
 particle minecraft:explosion ~ ~2 ~ 0 0 0 0 5 normal
-particle minecraft:flash ~ ~2 ~ 0.01 0.01 0.01 0 5
+particle minecraft:flash{color:[1,1,1,1]} ~ ~2 ~ 0.01 0.01 0.01 0 5
 # Salvo 0
 summon minecraft:arrow ~ ~1 ~ {Motion:[1.2,0.75,-0.85],Silent:1b,pickup:2,damage:3,life:1150,item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:14116864}}}}
 summon minecraft:arrow ~ ~1 ~ {Motion:[-1.2,0.75,0.85],Silent:1b,pickup:2,damage:3,life:1150,item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:14116864}}}}

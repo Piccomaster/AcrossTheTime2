@@ -1,0 +1,194 @@
+{
+    "title": "",
+    "type": "minecraft:multi_action",
+    "pause": false,
+    "body": {
+        "type": "plain_message",
+        "contents": {
+            "translate": "consciousness.menu"
+        }
+    },
+    "actions": [
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.player_infor",
+                "color": "#21BCFF"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.player_infor.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2314"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.attribute",
+                "color": "#31D492"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.attribute.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2313"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.chronotons",
+                "color": "#FFDF20"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.chronotons.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2312"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.game_setting",
+                "color": "#FFDF20"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.game_setting.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2317"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.guide",
+                "color": "#FFDF20"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.guide.tip"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "att2:consciousness/guide/menu"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.other_infor",
+                "color": "#90A1B9"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.other_infor.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2311"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.mainquest",
+                "color": "#FE9A37"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.mainquest.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 1068"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.sidequest",
+                "color": "#155DFC"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.sidequest.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 1069"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.gather_items",
+                "color": "#00AA00"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.gather_items.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 1072"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.mounts",
+                "color": "#55FFFF"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.mounts.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 1070"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.quick_repair",
+                "color": "#55FF55"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.quick_repair.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2328"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.menu.checkpoint",
+                "color": "#AA0000"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.checkpoint.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 1071"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "consciousness.menu.exit",
+            "color": "#45556C"
+        },
+        "tooltip": {
+            "translate": "consciousness.menu.exit.tip"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "/trigger ScoreTrigger set 2310"
+        }
+    }
+}

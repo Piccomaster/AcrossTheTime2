@@ -1,132 +1,131 @@
-
-$execute as @s[scores={TITLE_ID=1}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"迷える呪われし者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=2}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"迷える初心者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=3}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"好奇心旺盛な見習い",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=4}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"遊牧の探求者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=5}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"慎重な放浪者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=6}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"拒絶された影",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=7}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"隠密な徘徊者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=8}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"控えめな冒険者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=9}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"大胆不敵な斥候",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=10}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"勇敢な追跡者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=11}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"闇の戦士",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=12}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"警戒する訪問者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=13}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"敏捷な狩人",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=14}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"警戒する守護者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=15}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"さすらいの剣士",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=16}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"苦悩する放浪者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=17}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"さまよう哨兵",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=18}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"孤独な守護者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=19}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"神秘的な学者",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=20}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"自信あるベテラン",color:"white","bold":true}
-$execute as @s[scores={TITLE_ID=21}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"闇の活動家",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=22}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"不屈の旅人",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=23}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"卓越した狩人",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=24}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"警戒する見習い",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=25}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"勇敢な斥候",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=26}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"巧妙な襲撃者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=27}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"武器の支持者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=28}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"賢明な学者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=29}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"ささやかれる英雄",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=30}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"誉れ高き守護者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=31}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"古の徘徊者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=32}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"均衡の戦士",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=33}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"認められた遊牧者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=34}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"揺るがぬ監視者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=35}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"大胆不敵な守護者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=36}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"捉え難いチャンピオン",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=37}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"苦悩する学者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=38}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"卓越した英雄",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=39}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"高揚する防衛者",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=40}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"幻影の刃",color:"gray","bold":true}
-$execute as @s[scores={TITLE_ID=41}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"捕らえられぬ放浪者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=42}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"賞賛されし兵士",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=43}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"不屈の騎士",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=44}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"賢明な哨兵",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=45}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"控えめな達人",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=46}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"取り憑かれた探検者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=47}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"幽玄なる守護者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=48}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"崇められし勇士",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=49}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"著名な守護者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=50}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"世代の賢者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=51}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"忘れ去られた亡霊",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=52}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"決意の巡礼者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=53}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"不屈の槍兵",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=54}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"静かなる監視者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=55}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"影を歩む者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=56}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"迷える追跡者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=57}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"厳粛なる死神",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=58}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"響きの運び手",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=59}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"運命の彫刻者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=60}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"天上の案内者",color:"dark_green","bold":true}
-$execute as @s[scores={TITLE_ID=61}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"欠けた騎手",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=62}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"輝ける守護者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=63}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時代のチャンピオン",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=64}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"啓蒙された学者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=65}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"循環の英雄",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=66}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"賞賛されし指導者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=67}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"大胆な旅人",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=68}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"伝説の見習い",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=69}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"ささやかれる伝説",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=70}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"無限の斥候",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=71}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"不滅の徘徊者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=72}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"眩き戦士",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=73}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"不動の哨兵",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=74}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"巧妙な守護者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=75}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"称えられし哲学者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=76}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"幻影の追跡者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=77}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"闇の達人",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=78}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"幽玄なる学者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=79}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"不滅のベテラン",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=80}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"輝ける征服者",color:"dark_blue","bold":true}
-$execute as @s[scores={TITLE_ID=81}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時代の探検者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=82}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"物語の監視者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=83}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時を越えし英雄",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=84}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"叙事の徘徊者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=85}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"永遠なる支配者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=86}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"次元の王",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=87}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"魂の守護者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=88}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"崇高なる防衛者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=89}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"愛されし伝説",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=90}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時を越えし賢者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=91}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"深淵の学者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=92}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"無限の哨兵",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=93}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"予言のチャンピオン",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=94}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"眩き旅人",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=95}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"古代世界の君主",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=96}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"永遠なる達人",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=97}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"物語の放浪者",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=98}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時を越えし戦士",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=99}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"深淵の斥候",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=100}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"生きる神話",color:"dark_purple","bold":true}
-$execute as @s[scores={TITLE_ID=101}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"影の防衛者",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=102}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"星の守護者",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=103}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"年代記の英雄",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=104}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時代を越えし学者",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=105}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"眩き監視者",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=106}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"不滅の征服者",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=107}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"伝説の旅人",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=108}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時代の達人",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=109}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"大地の伝説",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=110}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"予言の王",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=111}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"帆の騎士",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=112}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"計り知れぬ影",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=113}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"深淵の巡礼者",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=114}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"真実の運び手",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=115}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"次元の君主",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=116}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"深淵の刃",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=117}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"祖先の声",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=118}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時代の使者",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=119}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"神聖なる仲裁者",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=120}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"天上の模範",color:"gold","bold":true}
-$execute as @s[scores={TITLE_ID=121}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"究極の徘徊者",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=122}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"魂の使徒",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=123}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"叙事の哨兵",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=124}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"次元を超えし守護者",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=125}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"著名なる不滅者",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=126}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"伝説の学者",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=127}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"神話のチャンピオン",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=128}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"時代の主",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=129}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"永遠なる大賢者",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=130}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"至高の君主",color:"yellow","bold":true}
-$execute as @s[scores={TITLE_ID=131}] run data modify storage att2:heros_title_$(numerojoueur) name set value {text:"絶対なる伝説",color:"aqua","bold":true}
+execute as @s[scores={TITLE_ID=1}] run return run data modify storage att2:heros_title name set value {text:"迷える呪われし者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=2}] run return run data modify storage att2:heros_title name set value {text:"迷える初心者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=3}] run return run data modify storage att2:heros_title name set value {text:"好奇心旺盛な見習い",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=4}] run return run data modify storage att2:heros_title name set value {text:"遊牧の探求者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=5}] run return run data modify storage att2:heros_title name set value {text:"慎重な放浪者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=6}] run return run data modify storage att2:heros_title name set value {text:"拒絶された影",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=7}] run return run data modify storage att2:heros_title name set value {text:"隠密な徘徊者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=8}] run return run data modify storage att2:heros_title name set value {text:"控えめな冒険者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=9}] run return run data modify storage att2:heros_title name set value {text:"大胆不敵な斥候",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=10}] run return run data modify storage att2:heros_title name set value {text:"勇敢な追跡者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=11}] run return run data modify storage att2:heros_title name set value {text:"闇の戦士",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=12}] run return run data modify storage att2:heros_title name set value {text:"警戒する訪問者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=13}] run return run data modify storage att2:heros_title name set value {text:"敏捷な狩人",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=14}] run return run data modify storage att2:heros_title name set value {text:"警戒する守護者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=15}] run return run data modify storage att2:heros_title name set value {text:"さすらいの剣士",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=16}] run return run data modify storage att2:heros_title name set value {text:"苦悩する放浪者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=17}] run return run data modify storage att2:heros_title name set value {text:"さまよう哨兵",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=18}] run return run data modify storage att2:heros_title name set value {text:"孤独な守護者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=19}] run return run data modify storage att2:heros_title name set value {text:"神秘的な学者",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=20}] run return run data modify storage att2:heros_title name set value {text:"自信あるベテラン",color:"white","bold":true}
+execute as @s[scores={TITLE_ID=21}] run return run data modify storage att2:heros_title name set value {text:"闇の活動家",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=22}] run return run data modify storage att2:heros_title name set value {text:"不屈の旅人",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=23}] run return run data modify storage att2:heros_title name set value {text:"卓越した狩人",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=24}] run return run data modify storage att2:heros_title name set value {text:"警戒する見習い",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=25}] run return run data modify storage att2:heros_title name set value {text:"勇敢な斥候",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=26}] run return run data modify storage att2:heros_title name set value {text:"巧妙な襲撃者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=27}] run return run data modify storage att2:heros_title name set value {text:"武器の支持者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=28}] run return run data modify storage att2:heros_title name set value {text:"賢明な学者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=29}] run return run data modify storage att2:heros_title name set value {text:"ささやかれる英雄",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=30}] run return run data modify storage att2:heros_title name set value {text:"誉れ高き守護者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=31}] run return run data modify storage att2:heros_title name set value {text:"古の徘徊者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=32}] run return run data modify storage att2:heros_title name set value {text:"均衡の戦士",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=33}] run return run data modify storage att2:heros_title name set value {text:"認められた遊牧者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=34}] run return run data modify storage att2:heros_title name set value {text:"揺るがぬ監視者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=35}] run return run data modify storage att2:heros_title name set value {text:"大胆不敵な守護者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=36}] run return run data modify storage att2:heros_title name set value {text:"捉え難いチャンピオン",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=37}] run return run data modify storage att2:heros_title name set value {text:"苦悩する学者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=38}] run return run data modify storage att2:heros_title name set value {text:"卓越した英雄",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=39}] run return run data modify storage att2:heros_title name set value {text:"高揚する防衛者",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=40}] run return run data modify storage att2:heros_title name set value {text:"幻影の刃",color:"gray","bold":true}
+execute as @s[scores={TITLE_ID=41}] run return run data modify storage att2:heros_title name set value {text:"捕らえられぬ放浪者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=42}] run return run data modify storage att2:heros_title name set value {text:"賞賛されし兵士",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=43}] run return run data modify storage att2:heros_title name set value {text:"不屈の騎士",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=44}] run return run data modify storage att2:heros_title name set value {text:"賢明な哨兵",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=45}] run return run data modify storage att2:heros_title name set value {text:"控えめな達人",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=46}] run return run data modify storage att2:heros_title name set value {text:"取り憑かれた探検者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=47}] run return run data modify storage att2:heros_title name set value {text:"幽玄なる守護者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=48}] run return run data modify storage att2:heros_title name set value {text:"崇められし勇士",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=49}] run return run data modify storage att2:heros_title name set value {text:"著名な守護者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=50}] run return run data modify storage att2:heros_title name set value {text:"世代の賢者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=51}] run return run data modify storage att2:heros_title name set value {text:"忘れ去られた亡霊",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=52}] run return run data modify storage att2:heros_title name set value {text:"決意の巡礼者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=53}] run return run data modify storage att2:heros_title name set value {text:"不屈の槍兵",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=54}] run return run data modify storage att2:heros_title name set value {text:"静かなる監視者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=55}] run return run data modify storage att2:heros_title name set value {text:"影を歩む者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=56}] run return run data modify storage att2:heros_title name set value {text:"迷える追跡者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=57}] run return run data modify storage att2:heros_title name set value {text:"厳粛なる死神",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=58}] run return run data modify storage att2:heros_title name set value {text:"響きの運び手",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=59}] run return run data modify storage att2:heros_title name set value {text:"運命の彫刻者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=60}] run return run data modify storage att2:heros_title name set value {text:"天上の案内者",color:"dark_green","bold":true}
+execute as @s[scores={TITLE_ID=61}] run return run data modify storage att2:heros_title name set value {text:"欠けた騎手",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=62}] run return run data modify storage att2:heros_title name set value {text:"輝ける守護者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=63}] run return run data modify storage att2:heros_title name set value {text:"時代のチャンピオン",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=64}] run return run data modify storage att2:heros_title name set value {text:"啓蒙された学者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=65}] run return run data modify storage att2:heros_title name set value {text:"循環の英雄",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=66}] run return run data modify storage att2:heros_title name set value {text:"賞賛されし指導者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=67}] run return run data modify storage att2:heros_title name set value {text:"大胆な旅人",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=68}] run return run data modify storage att2:heros_title name set value {text:"伝説の見習い",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=69}] run return run data modify storage att2:heros_title name set value {text:"ささやかれる伝説",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=70}] run return run data modify storage att2:heros_title name set value {text:"無限の斥候",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=71}] run return run data modify storage att2:heros_title name set value {text:"不滅の徘徊者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=72}] run return run data modify storage att2:heros_title name set value {text:"眩き戦士",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=73}] run return run data modify storage att2:heros_title name set value {text:"不動の哨兵",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=74}] run return run data modify storage att2:heros_title name set value {text:"巧妙な守護者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=75}] run return run data modify storage att2:heros_title name set value {text:"称えられし哲学者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=76}] run return run data modify storage att2:heros_title name set value {text:"幻影の追跡者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=77}] run return run data modify storage att2:heros_title name set value {text:"闇の達人",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=78}] run return run data modify storage att2:heros_title name set value {text:"幽玄なる学者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=79}] run return run data modify storage att2:heros_title name set value {text:"不滅のベテラン",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=80}] run return run data modify storage att2:heros_title name set value {text:"輝ける征服者",color:"dark_blue","bold":true}
+execute as @s[scores={TITLE_ID=81}] run return run data modify storage att2:heros_title name set value {text:"時代の探検者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=82}] run return run data modify storage att2:heros_title name set value {text:"物語の監視者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=83}] run return run data modify storage att2:heros_title name set value {text:"時を越えし英雄",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=84}] run return run data modify storage att2:heros_title name set value {text:"叙事の徘徊者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=85}] run return run data modify storage att2:heros_title name set value {text:"永遠なる支配者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=86}] run return run data modify storage att2:heros_title name set value {text:"次元の王",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=87}] run return run data modify storage att2:heros_title name set value {text:"魂の守護者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=88}] run return run data modify storage att2:heros_title name set value {text:"崇高なる防衛者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=89}] run return run data modify storage att2:heros_title name set value {text:"愛されし伝説",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=90}] run return run data modify storage att2:heros_title name set value {text:"時を越えし賢者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=91}] run return run data modify storage att2:heros_title name set value {text:"深淵の学者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=92}] run return run data modify storage att2:heros_title name set value {text:"無限の哨兵",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=93}] run return run data modify storage att2:heros_title name set value {text:"予言のチャンピオン",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=94}] run return run data modify storage att2:heros_title name set value {text:"眩き旅人",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=95}] run return run data modify storage att2:heros_title name set value {text:"古代世界の君主",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=96}] run return run data modify storage att2:heros_title name set value {text:"永遠なる達人",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=97}] run return run data modify storage att2:heros_title name set value {text:"物語の放浪者",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=98}] run return run data modify storage att2:heros_title name set value {text:"時を越えし戦士",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=99}] run return run data modify storage att2:heros_title name set value {text:"深淵の斥候",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=100}] run return run data modify storage att2:heros_title name set value {text:"生きる神話",color:"dark_purple","bold":true}
+execute as @s[scores={TITLE_ID=101}] run return run data modify storage att2:heros_title name set value {text:"影の防衛者",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=102}] run return run data modify storage att2:heros_title name set value {text:"星の守護者",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=103}] run return run data modify storage att2:heros_title name set value {text:"年代記の英雄",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=104}] run return run data modify storage att2:heros_title name set value {text:"時代を越えし学者",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=105}] run return run data modify storage att2:heros_title name set value {text:"眩き監視者",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=106}] run return run data modify storage att2:heros_title name set value {text:"不滅の征服者",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=107}] run return run data modify storage att2:heros_title name set value {text:"伝説の旅人",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=108}] run return run data modify storage att2:heros_title name set value {text:"時代の達人",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=109}] run return run data modify storage att2:heros_title name set value {text:"大地の伝説",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=110}] run return run data modify storage att2:heros_title name set value {text:"予言の王",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=111}] run return run data modify storage att2:heros_title name set value {text:"帆の騎士",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=112}] run return run data modify storage att2:heros_title name set value {text:"計り知れぬ影",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=113}] run return run data modify storage att2:heros_title name set value {text:"深淵の巡礼者",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=114}] run return run data modify storage att2:heros_title name set value {text:"真実の運び手",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=115}] run return run data modify storage att2:heros_title name set value {text:"次元の君主",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=116}] run return run data modify storage att2:heros_title name set value {text:"深淵の刃",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=117}] run return run data modify storage att2:heros_title name set value {text:"祖先の声",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=118}] run return run data modify storage att2:heros_title name set value {text:"時代の使者",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=119}] run return run data modify storage att2:heros_title name set value {text:"神聖なる仲裁者",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=120}] run return run data modify storage att2:heros_title name set value {text:"天上の模範",color:"gold","bold":true}
+execute as @s[scores={TITLE_ID=121}] run return run data modify storage att2:heros_title name set value {text:"究極の徘徊者",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=122}] run return run data modify storage att2:heros_title name set value {text:"魂の使徒",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=123}] run return run data modify storage att2:heros_title name set value {text:"叙事の哨兵",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=124}] run return run data modify storage att2:heros_title name set value {text:"次元を超えし守護者",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=125}] run return run data modify storage att2:heros_title name set value {text:"著名なる不滅者",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=126}] run return run data modify storage att2:heros_title name set value {text:"伝説の学者",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=127}] run return run data modify storage att2:heros_title name set value {text:"神話のチャンピオン",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=128}] run return run data modify storage att2:heros_title name set value {text:"時代の主",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=129}] run return run data modify storage att2:heros_title name set value {text:"永遠なる大賢者",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=130}] run return run data modify storage att2:heros_title name set value {text:"至高の君主",color:"yellow","bold":true}
+execute as @s[scores={TITLE_ID=131}] run return run data modify storage att2:heros_title name set value {text:"絶対なる伝説",color:"aqua","bold":true}

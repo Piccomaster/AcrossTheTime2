@@ -13,6 +13,7 @@ function att2:advancement/test_all/progress/sidequest
 ####
 scoreboard players set SQ42 SIDEQUEST 100
 scoreboard players set SQ43 SIDEQUEST 1
+scoreboard players set SQ_Start SIDEQUEST 1
 #add map unlock dialogs
 execute as @a run function att2:dialogs/gameplay/misc/map/unlock/point/kert_mine
 #return 1->make command block runing
