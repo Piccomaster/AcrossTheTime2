@@ -4,5 +4,5 @@
 #####################################################
 
 scoreboard players set @s LANGUAGE 2
-# Actualize the assistance book :
-function att2:gameplay/update_book
+#reset show dialog
+function att2:gameplay/consciousness/language

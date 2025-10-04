@@ -13,3 +13,5 @@ function att2:dialogs/gameplay/nightmarerun/score_silver
 function att2:dialogs/gameplay/nightmarerun/score_gold
 function att2:dialogs/gameplay/nightmarerun/score_previous
 function att2:dialogs/gameplay/nightmarerun/score_to_beat
+#waypoint score
+scoreboard players set Nightmarerun WAYPOINT 1

@@ -2,6 +2,7 @@
     "title": "",
     "type": "minecraft:multi_action",
     "pause": false,
+    "columns": 1,
     "body": {
         "type": "plain_message",
         "contents": {
@@ -19,8 +20,8 @@
                 "translate": "consciousness.guide.menu.npc.tip"
             },
             "action": {
-                "type": "show_dialog",
-                "dialog": "att2:consciousness/guide/npc"
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2858"
             }
         },
         {
@@ -33,8 +34,8 @@
                 "translate": "consciousness.guide.menu.waypoint.tip"
             },
             "action": {
-                "type": "show_dialog",
-                "dialog": "att2:consciousness/guide/waypoint"
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2859"
             }
         },
         {

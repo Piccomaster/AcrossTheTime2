@@ -1,24 +1,27 @@
 {
-	"display":{
-		"background":"minecraft:red_concrete",
-		"show_toast":true,
-		"announce_to_chat":false,
-		"hidden":true,
-		"icon":{"id":"minecraft:shears","components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        10000010
-                    ]
-                }
-            }
-        },
-		"title":"",
-		"description":"fire_eng",
-		"frame":"task"
+	"display": {
+		"background": "minecraft:red_concrete",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true,
+		"icon": {
+			"id": "minecraft:shears",
+			"components": {
+				"minecraft:item_model": "minecraft:tutorial/fire",
+				"minecraft:custom_model_data": {
+					"floats": [
+						1
+					]
+				}
+			}
+		},
+		"title": "",
+		"description": "fire_eng",
+		"frame": "task"
 	},
-	"criteria":{
-	"tutorial":{
-		"trigger":"minecraft:impossible"
+	"criteria": {
+		"tutorial": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

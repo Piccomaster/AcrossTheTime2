@@ -4,8 +4,10 @@
 #####################################################################
 
 #Ryliath
-execute in minecraft:overworld positioned -5052 75 -5078 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/horse/ryliath
+execute in minecraft:overworld positioned -5052 75 -5078 if entity @s[distance=..200,gamemode=adventure] run function att2:gameplay/shop/indication/horse/ryliath
 #Méleïm
-execute in minecraft:overworld positioned -3817 85 -5809 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/horse/meleim
+execute in minecraft:overworld positioned -3817 85 -5809 if entity @s[distance=..200,gamemode=adventure] run function att2:gameplay/shop/indication/horse/meleim
 #Eolorion
-execute in minecraft:overworld positioned -5272 98 -6188 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/horse/eolorion
+execute in minecraft:overworld positioned -5272 98 -6188 if entity @s[distance=..200,gamemode=adventure] run function att2:gameplay/shop/indication/horse/eolorion
+#Kortaek
+execute in minecraft:overworld positioned -5520 76 -4986 if entity @s[distance=..200,gamemode=adventure] run function att2:gameplay/shop/indication/horse/kortaek

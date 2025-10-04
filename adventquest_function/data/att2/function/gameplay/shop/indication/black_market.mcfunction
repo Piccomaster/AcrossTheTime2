@@ -4,6 +4,6 @@
 #####################################################################
 
 #Ryliath
-execute in minecraft:overworld positioned -5070 82 -5008 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/black_market/ryliath
+execute in minecraft:overworld positioned -5070 82 -5008 if entity @s[distance=..200,gamemode=adventure] run function att2:gameplay/shop/indication/black_market/ryliath
 #Eolorion
-execute in minecraft:overworld positioned -5299 93 -6195 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/black_market/eolorion
+execute in minecraft:overworld positioned -5299 93 -6195 if entity @s[distance=..200,gamemode=adventure] run function att2:gameplay/shop/indication/black_market/eolorion

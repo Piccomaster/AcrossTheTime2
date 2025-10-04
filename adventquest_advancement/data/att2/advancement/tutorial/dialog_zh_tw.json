@@ -1,24 +1,27 @@
 {
-	"display":{
-		"background":"minecraft:red_concrete",
-		"show_toast":true,
-		"announce_to_chat":false,
-		"hidden":true,
-		"icon":{"id":"minecraft:shears","components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        10000207
-                    ]
-                }
-            }
-        },
-		"title":"",
-		"description":"dialog_zh",
-		"frame":"task"
+	"display": {
+		"background": "minecraft:red_concrete",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true,
+		"icon": {
+			"id": "minecraft:shears",
+			"components": {
+				"minecraft:item_model": "minecraft:tutorial/dialog",
+				"minecraft:custom_model_data": {
+					"floats": [
+						2
+					]
+				}
+			}
+		},
+		"title": "",
+		"description": "dialog_zh",
+		"frame": "task"
 	},
-	"criteria":{
-	"tutorial":{
-		"trigger":"minecraft:impossible"
+	"criteria": {
+		"tutorial": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }
