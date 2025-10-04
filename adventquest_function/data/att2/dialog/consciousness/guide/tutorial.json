@@ -2,60 +2,299 @@
     "title": "",
     "type": "minecraft:multi_action",
     "pause": false,
+    "columns": 2,
     "body": {
         "type": "plain_message",
         "contents": {
-            "translate": "consciousness.menu"
+            "translate": "consciousness.tutorial.title"
         }
     },
     "actions": [
         {
             "width": 150,
             "label": {
-                "translate": "consciousness.guide.menu.npc",
-                "color": "#21BCFF"
+                "translate": "consciousness.guide.consciousness",
+                "color": "dark_blue"
             },
             "tooltip": {
-                "translate": "consciousness.guide.menu.npc.tip"
+                "translate": "consciousness.guide.consciousness.tip"
             },
             "action": {
-                "type": "show_dialog",
-                "dialog": "att2:consciousness/guide/npc"
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2860"
             }
         },
         {
             "width": 150,
             "label": {
-                "translate": "consciousness.guide.menu.waypoint",
-                "color": "#21BCFF"
+                "translate": "consciousness.guide.spell",
+                "color": "dark_blue"
             },
             "tooltip": {
-                "translate": "consciousness.guide.menu.waypoint.tip"
+                "translate": "consciousness.guide.spell.tip"
             },
             "action": {
-                "type": "show_dialog",
-                "dialog": "att2:consciousness/guide/waypoint"
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2882"
             }
         },
         {
             "width": 150,
             "label": {
-                "translate": "consciousness.guide.menu.tutorial",
-                "color": "#21BCFF"
+                "translate": "consciousness.guide.skills",
+                "color": "dark_blue"
             },
             "tooltip": {
-                "translate": "consciousness.guide.menu.tutorial.tip"
+                "translate": "consciousness.guide.skills.tip"
             },
             "action": {
-                "type": "show_dialog",
-                "dialog": "att2:consciousness/guide/tutorial"
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2881"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.chronotons",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.chronotons.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2866"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.bank",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.bank.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2867"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.quest",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.quest.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2876"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.dialog",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.dialog.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2870"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.shop",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.shop.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2880"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.market",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.market.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2875"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.death",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.death.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2868"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.rarity",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.rarity.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2877"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.deposit",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.deposit.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2869"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.keys",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.keys.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2874"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.advancement",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.advancement.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2864"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.waypoint",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.waypoint.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2883"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.enemy",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.enemy.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2872"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.fire",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.fire.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2873"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.earthquake",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.earthquake.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2871"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.runes",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.runes.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2878"
+            }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.runicwords",
+                "color": "dark_blue"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.runicwords.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2879"
             }
         }
     ],
     "exit_action": {
         "label": {
             "translate": "consciousness.menu.exit",
-            "color": "#45556C"
+            "color": "dark_blue"
         },
         "tooltip": {
             "translate": "consciousness.menu.exit.tip"

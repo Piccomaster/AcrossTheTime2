@@ -360,7 +360,10 @@ execute store result storage att2:dialog s int 1 run scoreboard players get tota
 execute store result storage att2:dialog ms int 1 run scoreboard players get total_rt BOSS_TIME
 data modify storage att2:dialog id set value "total_arena"
 execute if entity @s[advancements={att2:challenge/tournament_5=true}] run function att2:gameplay/consciousness/insert/boss_timer with storage att2:dialog
-
+#get total score
+execute store result score Total CAL run data get storage att2:dialog boss_timer
+#if 0
+execute if score Total CAL matches 0 run data modify storage att2:dialog boss_timer append value {label:[{translate:consciousness.boss_timer.error,color:red},],action:{type:run_command,command:"trigger ScoreTrigger set 2310"},width:300}
 
 
 ##show_dialog

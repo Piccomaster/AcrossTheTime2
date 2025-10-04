@@ -6,3 +6,4 @@
 tp @s 7000 77 7000 -90 ~
 scoreboard players add @s statDIMENSION 1
 scoreboard players add @s TP_OURANOS 1
+scoreboard players set Ouranos WAYPOINT 1
