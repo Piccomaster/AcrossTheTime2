@@ -7,9 +7,10 @@
 		"icon": {
 			"id": "minecraft:shears",
 			"components": {
+				"minecraft:item_model": "minecraft:tutorial/advancement",
 				"minecraft:custom_model_data": {
 					"floats": [
-						10000001
+						1
 					]
 				}
 			}
