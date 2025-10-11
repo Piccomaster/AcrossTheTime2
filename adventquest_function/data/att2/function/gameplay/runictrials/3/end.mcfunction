@@ -1,9 +1,9 @@
 #########################################################################
 #Made by Adventquest													#
-#Process end of runic trial 2 	                                        #
+#Process end of runic trial 3 	                                        #
 #########################################################################
 
-scoreboard players set total_trial2 CANDLE_LIT -1
+scoreboard players set total_trial3 CANDLE_LIT -1
 
 # summon
 execute positioned -4780 65 -5036 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS4}

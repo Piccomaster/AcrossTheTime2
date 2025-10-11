@@ -9,6 +9,7 @@ scoreboard objectives add RUNICTRIAL dummy
 
 scoreboard players set door1_trial2 RUNICTRIAL 0
 scoreboard players set door1_trial3 RUNICTRIAL 0
+scoreboard players set door1_trial4 RUNICTRIAL 0
 
 scoreboard players set total_trial1 CANDLE_LIT 0
 scoreboard players set total_trial2 CANDLE_LIT 0
@@ -54,3 +55,10 @@ scoreboard players set candle3_3 CANDLE_STATE 1
 scoreboard players set candle3_4 CANDLE_STATE 1
 scoreboard players set candle3_5 CANDLE_STATE 1
 scoreboard players set candle3_6 CANDLE_STATE 1
+
+scoreboard players set candle4_1 CANDLE_STATE 1
+scoreboard players set candle4_2 CANDLE_STATE 1
+scoreboard players set candle4_3 CANDLE_STATE 1
+scoreboard players set candle4_4 CANDLE_STATE 1
+scoreboard players set candle4_5 CANDLE_STATE 1
+scoreboard players set candle4_6 CANDLE_STATE 1
