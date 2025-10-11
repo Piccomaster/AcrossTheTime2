@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/book/open"
+    },
+    "criteria": {
+        "consciousness": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:book",
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "Book":true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

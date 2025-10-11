@@ -4,7 +4,7 @@
 #################################################################
 
 #
-execute as @e[type=item_display,scores={SPECIAL_ELITE=9}] at @s run function att2:gameplay/enveffect/elite/death/mob_enhance/detection
+execute as @e[type=text_display,scores={SPECIAL_ELITE=9}] at @s run function att2:gameplay/enveffect/elite/death/mob_enhance/detection
 
 ##kill tip dialogs
 tellraw @a [{selector:"@s",color:dark_red},{translate:att2.special_elite_kill.death.mob_enhance}]

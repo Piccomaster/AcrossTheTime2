@@ -25,7 +25,7 @@ execute as @e[type=item_display,tag=New] run ride @s mount @e[distance=..0.5,lim
 #remove tag
 tag @e[type=#minecraft:display_entity,tag=New,sort=nearest,distance=..5] remove New
 #end
-execute as @e[tag=DISPLAY] run data merge entity @s {start_interpolation:0,interpolation_duration:10,transformation:{scale:[1f,1f,0.5f],translation:[-0.25f,0.5f,0.01f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]}}
+execute as @e[tag=DISPLAY] run data merge entity @n[type=text_display] {start_interpolation:0,interpolation_duration:10,transformation:{scale:[1f,1f,1.0f],translation:[-0.25f,0.5f,0.01f]}}
 #start
 execute as @e[tag=DISPLAY] run data merge entity @s {start_interpolation:0,interpolation_duration:10,transformation:{scale:[1f,1f,1f],translation:[0.0f,0.5f,0.01f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]}}
 

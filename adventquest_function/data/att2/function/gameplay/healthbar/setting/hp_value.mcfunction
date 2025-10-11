@@ -7,6 +7,8 @@
 execute unless score @s HP_BAR_END matches 0.. run scoreboard players operation @s HP_BAR_END = MAX_HP CAL
 execute unless score @s HP_BAR_NOW matches 0.. run scoreboard players operation @s HP_BAR_NOW = MAX_HP CAL
 scoreboard players operation @s HP_BAR_MAX = MAX_HP CAL
+##icon
+data modify storage att2:healthbar hp_dis_icon set value {text:"a",font:"att2_font:healthbar"}
 ## two max_hp not error
 #set hp_value
 execute if score @s CLASSLEVEL matches 1..3 run data modify storage att2:healthbar hp_dis set value {translate:att2.healthbar.hp_value.now,color:green,with:[{score:{name:"@s",objective:"HP_BAR_NOW"},color:green}]}

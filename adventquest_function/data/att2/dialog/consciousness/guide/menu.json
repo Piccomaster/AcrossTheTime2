@@ -2,6 +2,7 @@
     "title": "",
     "type": "minecraft:multi_action",
     "pause": false,
+    "after_action": "none",
     "columns": 1,
     "body": {
         "type": "plain_message",

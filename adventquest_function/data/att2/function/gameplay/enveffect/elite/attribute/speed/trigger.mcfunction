@@ -4,7 +4,7 @@
 #################################################################
 
 #
-execute as @e[type=item_display,scores={SPECIAL_ELITE=5}] at @s run function att2:gameplay/enveffect/elite/attribute/detection
+execute as @e[type=text_display,scores={SPECIAL_ELITE=5}] at @s run function att2:gameplay/enveffect/elite/attribute/detection
 
 ##kill tip dialogs
 tellraw @a [{selector:"@s",color:dark_red},{translate:att2.special_elite_kill.attribute.speed}]

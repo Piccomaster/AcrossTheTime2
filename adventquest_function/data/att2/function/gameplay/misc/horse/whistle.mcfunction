@@ -3,6 +3,8 @@
 #Process to whistle horses										#
 #################################################################
 
+dialog clear @s
+
 #get score
 execute store result storage att2:temp NUMEROJOUEUR int 1 run scoreboard players get @s NUMEROJOUEUR
 

@@ -2885,3 +2885,62 @@ execute if score @s ScoreTrigger matches 2854 run function att2:gameplay/shop/ga
 
 execute if score @s ScoreTrigger matches 2855 run function att2:gameplay/shop/gambling/matching_game/reset
 execute if score @s ScoreTrigger matches 2856 run function att2:dialogs/gameplay/shop/gambling/matching_game_select
+
+
+execute if score @s ScoreTrigger matches 2857 run function att2:gameplay/consciousness/language
+execute if score @s ScoreTrigger matches 2858 run function att2:gameplay/consciousness/npc
+execute if score @s ScoreTrigger matches 2859 run function att2:gameplay/consciousness/waypoint
+execute if score @s ScoreTrigger matches 2860 run function att2:gameplay/waypoint/indication/angband
+execute if score @s ScoreTrigger matches 2861 run function att2:gameplay/waypoint/indication/billgart
+execute if score @s ScoreTrigger matches 2862 run function att2:gameplay/waypoint/indication/maze
+execute if score @s ScoreTrigger matches 2863 run function att2:gameplay/waypoint/indication/nightmare
+execute if score @s ScoreTrigger matches 2864 run function att2:gameplay/consciousness/tutorial/advancement
+execute if score @s ScoreTrigger matches 2865 run function att2:gameplay/consciousness/tutorial/bank
+execute if score @s ScoreTrigger matches 2866 run function att2:gameplay/consciousness/tutorial/chronotons
+execute if score @s ScoreTrigger matches 2867 run function att2:gameplay/consciousness/tutorial/consciousness
+execute if score @s ScoreTrigger matches 2868 run function att2:gameplay/consciousness/tutorial/death
+execute if score @s ScoreTrigger matches 2869 run function att2:gameplay/consciousness/tutorial/deposit
+execute if score @s ScoreTrigger matches 2870 run function att2:gameplay/consciousness/tutorial/dialog
+execute if score @s ScoreTrigger matches 2871 run function att2:gameplay/consciousness/tutorial/earthquake
+execute if score @s ScoreTrigger matches 2872 run function att2:gameplay/consciousness/tutorial/enemy
+execute if score @s ScoreTrigger matches 2873 run function att2:gameplay/consciousness/tutorial/fire
+execute if score @s ScoreTrigger matches 2874 run function att2:gameplay/consciousness/tutorial/keys
+execute if score @s ScoreTrigger matches 2875 run function att2:gameplay/consciousness/tutorial/market
+execute if score @s ScoreTrigger matches 2876 run function att2:gameplay/consciousness/tutorial/quest
+execute if score @s ScoreTrigger matches 2877 run function att2:gameplay/consciousness/tutorial/rarity
+execute if score @s ScoreTrigger matches 2878 run function att2:gameplay/consciousness/tutorial/runes
+execute if score @s ScoreTrigger matches 2879 run function att2:gameplay/consciousness/tutorial/runicwords
+execute if score @s ScoreTrigger matches 2880 run function att2:gameplay/consciousness/tutorial/shop
+execute if score @s ScoreTrigger matches 2881 run function att2:gameplay/consciousness/tutorial/skills
+execute if score @s ScoreTrigger matches 2882 run function att2:gameplay/consciousness/tutorial/spell
+execute if score @s ScoreTrigger matches 2883 run function att2:gameplay/consciousness/tutorial/waypoint
+
+
+execute if score @s ScoreTrigger matches 2884 run function att2:gameplay/consciousness/mainplayer_name
+
+execute if score @s ScoreTrigger matches 2885 run function att2:gameplay/book/close
+execute if score @s ScoreTrigger matches 2886 run function att2:gameplay/book/alchimancy_1
+execute if score @s ScoreTrigger matches 2887 run function att2:gameplay/book/alchimancy_2
+execute if score @s ScoreTrigger matches 2888 run function att2:gameplay/book/alchimancy_3
+execute if score @s ScoreTrigger matches 2889 run function att2:gameplay/book/alchimancy_4
+execute if score @s ScoreTrigger matches 2890 run function att2:gameplay/book/alchimancy_5
+execute if score @s ScoreTrigger matches 2891 run function att2:gameplay/book/alchimancy_6
+execute if score @s ScoreTrigger matches 2892 run function att2:gameplay/book/alchimancy_7
+execute if score @s ScoreTrigger matches 2893 run function att2:gameplay/book/concil_invitation
+execute if score @s ScoreTrigger matches 2894 run function att2:gameplay/book/last_words
+execute if score @s ScoreTrigger matches 2895 run function att2:gameplay/book/myorain_1
+execute if score @s ScoreTrigger matches 2896 run function att2:gameplay/book/myorain_2
+execute if score @s ScoreTrigger matches 2897 run function att2:gameplay/book/parchment
+execute if score @s ScoreTrigger matches 2898 run function att2:gameplay/book/ships_log1
+execute if score @s ScoreTrigger matches 2899 run function att2:gameplay/book/ships_log2
+execute if score @s ScoreTrigger matches 2900 run function att2:gameplay/book/ships_log3
+execute if score @s ScoreTrigger matches 2901 run function att2:gameplay/book/ships_log4
+execute if score @s ScoreTrigger matches 2902 run function att2:gameplay/book/ships_log5
+execute if score @s ScoreTrigger matches 2903 run function att2:gameplay/book/ships_log6
+execute if score @s ScoreTrigger matches 2904 run function att2:gameplay/book/ships_log7
+execute if score @s ScoreTrigger matches 2905 run function att2:gameplay/book/ships_log8
+execute if score @s ScoreTrigger matches 2906 run function att2:gameplay/book/testament
+execute if score @s ScoreTrigger matches 2907 run function att2:gameplay/book/warning
+execute if score @s ScoreTrigger matches 2908 run function att2:gameplay/book/menu
+
+#data modify storage att2:scoretrigger 2885 set value "function att2:gameplay/book/clear"

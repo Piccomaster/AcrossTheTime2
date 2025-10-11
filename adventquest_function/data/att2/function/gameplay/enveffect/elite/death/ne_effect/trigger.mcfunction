@@ -4,7 +4,7 @@
 #################################################################
 
 #
-execute as @e[type=item_display,scores={SPECIAL_ELITE=8}] at @s run function att2:gameplay/enveffect/elite/death/ne_effect/detection
+execute as @e[type=text_display,scores={SPECIAL_ELITE=8}] at @s run function att2:gameplay/enveffect/elite/death/ne_effect/detection
 
 ##kill tip dialogs
 tellraw @a [{selector:"@s",color:dark_red},{translate:att2.special_elite_kill.death.ne_effect}]

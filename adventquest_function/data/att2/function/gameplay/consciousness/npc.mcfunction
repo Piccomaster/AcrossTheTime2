@@ -2,7 +2,6 @@
 #Made by Adventquest											#
 #clear dialog                                                   #
 #################################################################
-
 #reset
 data modify storage att2:dialog npc set value []
 

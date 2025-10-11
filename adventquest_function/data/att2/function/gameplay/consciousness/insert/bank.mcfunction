@@ -4,4 +4,4 @@
 #################################################################
 
 #Integrate data
-$data modify storage att2:dialog currency append value {translate:consciousness.currency.bank,color:"#FFDF20",with:["$(bank)"]}
+$data modify storage att2:dialog currency append value {translate:consciousness.currency.bank,color:"#F0B13B",with:["$(bank)"]}

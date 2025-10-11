@@ -2,11 +2,13 @@
     "title": "",
     "type": "minecraft:multi_action",
     "pause": false,
+    "after_action": "none",
     "columns": 2,
     "body": {
         "type": "plain_message",
         "contents": {
-            "translate": "consciousness.tutorial.title"
+            "translate": "consciousness.guide.menu.tutorial",
+            "color":"#21BCFF"
         }
     },
     "actions": [
@@ -14,21 +16,21 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.consciousness",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.consciousness.tip"
             },
             "action": {
                 "type": "run_command",
-                "command": "/trigger ScoreTrigger set 2860"
+                "command": "/trigger ScoreTrigger set 2867"
             }
         },
         {
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.spell",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.spell.tip"
@@ -42,7 +44,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.skills",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.skills.tip"
@@ -56,7 +58,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.chronotons",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.chronotons.tip"
@@ -70,21 +72,21 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.bank",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.bank.tip"
             },
             "action": {
                 "type": "run_command",
-                "command": "/trigger ScoreTrigger set 2867"
+                "command": "/trigger ScoreTrigger set 2865"
             }
         },
         {
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.quest",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.quest.tip"
@@ -98,7 +100,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.dialog",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.dialog.tip"
@@ -112,7 +114,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.shop",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.shop.tip"
@@ -126,7 +128,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.market",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.market.tip"
@@ -140,7 +142,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.death",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.death.tip"
@@ -154,7 +156,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.rarity",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.rarity.tip"
@@ -168,7 +170,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.deposit",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.deposit.tip"
@@ -182,7 +184,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.keys",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.keys.tip"
@@ -196,7 +198,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.advancement",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.advancement.tip"
@@ -210,7 +212,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.waypoint",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.waypoint.tip"
@@ -224,7 +226,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.enemy",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.enemy.tip"
@@ -238,7 +240,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.fire",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.fire.tip"
@@ -252,7 +254,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.earthquake",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.earthquake.tip"
@@ -266,7 +268,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.runes",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.runes.tip"
@@ -280,7 +282,7 @@
             "width": 150,
             "label": {
                 "translate": "consciousness.guide.runicwords",
-                "color": "dark_blue"
+                "color": "#05DF72"
             },
             "tooltip": {
                 "translate": "consciousness.guide.runicwords.tip"
@@ -294,7 +296,7 @@
     "exit_action": {
         "label": {
             "translate": "consciousness.menu.exit",
-            "color": "dark_blue"
+            "color": "#05DF72"
         },
         "tooltip": {
             "translate": "consciousness.menu.exit.tip"

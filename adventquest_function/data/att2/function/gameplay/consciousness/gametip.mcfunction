@@ -8,7 +8,7 @@ data modify storage att2:dialog gametip set value []
 
 
 #format
-data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip,color:gold},tooltip:{translate:consciousness.gametip.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 2325"},width:150}
+data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip,color:gold},tooltip:{translate:consciousness.gametip.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 2327"},width:150}
 #difference
 execute if score @s ASSIST matches 1 run data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.stop,color:gold},tooltip:{translate:consciousness.gametip.stop.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 1155"},width:150}
 execute if score @s ASSIST matches 0 run data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.run,color:gold},tooltip:{translate:consciousness.gametip.run.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 1154"},width:150}

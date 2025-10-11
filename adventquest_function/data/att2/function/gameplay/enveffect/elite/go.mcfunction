@@ -11,5 +11,5 @@ execute as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..,SPECIAL_ELITE=1}] at 
 ##fb_arrows
 execute as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..,SPECIAL_ELITE=2}] at @s if entity @e[type=#att2_entity:projectile,distance=..4] run function att2:gameplay/enveffect/elite/mechanic/fb_arrow/go
 
-##remove item_display
-execute if score tic TIMECOUNTER matches 7 as @e[type=item_display,scores={SPECIAL_ELITE=1..},predicate=!att2_pre:has_vehicle] at @s run kill @s 
+##remove text_display
+execute if score tic TIMECOUNTER matches 7 as @e[type=text_display,scores={SPECIAL_ELITE=1..},predicate=!att2_pre:has_vehicle] at @s run kill @s 

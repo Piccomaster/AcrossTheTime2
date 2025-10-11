@@ -15,4 +15,4 @@ execute as @s run function att2:gameplay/leveling/dahalup
 execute as @s run function att2:gameplay/leveling/healthup
 
 execute as @s run function att2:gameplay/leveling/display
-execute as @s run function att2:gameplay/update_book
+#execute as @s run function att2:gameplay/update_book
