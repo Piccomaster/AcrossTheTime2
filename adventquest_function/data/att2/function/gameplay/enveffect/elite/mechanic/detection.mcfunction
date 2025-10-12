@@ -11,4 +11,4 @@ execute unless score TEST CAL matches 0 run return 0
 execute as @a[distance=..80,gamemode=adventure] at @s run function att2:gameplay/enveffect/elite/mechanic/reward
 
 ##kill @s
-kill @s[type=item_display]
+kill @s[type=text_display]

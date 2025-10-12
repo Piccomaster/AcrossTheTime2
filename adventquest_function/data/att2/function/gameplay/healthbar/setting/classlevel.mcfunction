@@ -5,6 +5,14 @@
 
 #set score
 scoreboard players operation @s CLASSLEVEL = classlevel CAL
+#icon set
+#set classlevel
+execute if score @s CLASSLEVEL matches 1..3 run data modify storage att2:healthbar classlevel_icon set value {text:"c",font:"att2_font:healthbar"}
+execute if score @s CLASSLEVEL matches 4..7 run data modify storage att2:healthbar classlevel_icon set value {text:"d",font:"att2_font:healthbar"}
+execute if score @s CLASSLEVEL matches 8..11 run data modify storage att2:healthbar classlevel_icon set value {text:"e",font:"att2_font:healthbar"}
+execute if score @s CLASSLEVEL matches 12..15 run data modify storage att2:healthbar classlevel_icon set value {text:"f",font:"att2_font:healthbar"}
+execute if score @s CLASSLEVEL matches 16..19 run data modify storage att2:healthbar classlevel_icon set value {text:"g",font:"att2_font:healthbar"}
+execute if score @s CLASSLEVEL matches 20.. run data modify storage att2:healthbar classlevel_icon set value {text:"h",font:"att2_font:healthbar"}
 #set classlevel
 execute if score @s CLASSLEVEL matches 1..3 run data modify storage att2:healthbar classlevel set value {translate:att2.healthbar.classlevel,color:green,with:[{score:{name:"@s",objective:"CLASSLEVEL"},color:green}]}
 execute if score @s CLASSLEVEL matches 4..7 run data modify storage att2:healthbar classlevel set value {translate:att2.healthbar.classlevel,color:dark_green,with:[{score:{name:"@s",objective:"CLASSLEVEL"},color:dark_green}]}

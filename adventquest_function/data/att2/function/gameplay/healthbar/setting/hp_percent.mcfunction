@@ -6,6 +6,8 @@
 #set score
 scoreboard players operation @s HP_BAR_END = HP_PERCENT CAL
 execute if score @s HP_BAR_NOW matches 100.. run scoreboard players set @s HP_BAR_NOW 100
+##icon
+data modify storage att2:healthbar hp_dis_icon set value {text:"a",font:"att2_font:healthbar"}
 #set hp_percent
 execute if score @s CLASSLEVEL matches 1..3 run data modify storage att2:healthbar hp_dis set value {translate:att2.healthbar.hp_percent,color:green,with:[{score:{name:"@s",objective:"HP_BAR_NOW"},color:green}]}
 execute if score @s CLASSLEVEL matches 1..3 run data modify storage att2:healthbar percent set value {text:"%",color:green}

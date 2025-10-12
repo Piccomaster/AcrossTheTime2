@@ -2,6 +2,8 @@
 #Made by Adventquest											#
 #Process mainquest display help                 				#
 #################################################################
+#clear dialog
+dialog clear @s
 tp @e[type=minecraft:shulker,tag=MainObjective] ~ 0 ~
 tp @e[type=minecraft:shulker,tag=SideObjective] ~ 0 ~
 kill @e[type=minecraft:shulker,tag=MainObjective]

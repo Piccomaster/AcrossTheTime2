@@ -32,7 +32,7 @@ execute if score runes SYSTEM matches 1 run function att2:gameplay/runes/go
 execute if score runictrials SYSTEM matches 1 run function att2:gameplay/runictrials/go
 execute if score shop SYSTEM matches 1 run function att2:gameplay/shop/go
 execute if score speceffect SYSTEM matches 1 run function att2:gameplay/speceffect/go
-execute if score stat SYSTEM matches 1 run function att2:gameplay/stat/go
+function att2:gameplay/stat/go
 execute if score talking SYSTEM matches 1 run function att2:gameplay/talking/go
 execute if score tutorial SYSTEM matches 1 run function att2:gameplay/tutorial/go
 execute if score waypoint SYSTEM matches 1 run function att2:gameplay/waypoint/go
@@ -42,3 +42,6 @@ execute if score clock SYSTEM matches 1 run function att2:clock/go
 execute if score cinematic SYSTEM matches 1 run function att2:cinematic/go
 execute if score spawner SYSTEM matches 1 run function att2:spawner/go
 execute if score worldborder_tp SYSTEM matches 1 run function att2:worldborder_tp/go
+
+
+execute as @a[tag=BookOpen] at @s run function att2:gameplay/book/go

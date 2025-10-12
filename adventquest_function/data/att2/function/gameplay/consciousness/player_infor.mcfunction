@@ -21,6 +21,7 @@ execute store result storage att2:dialog now_level int 1 run experience query @s
 execute store result storage att2:dialog require_level int 1 run scoreboard players get @s LVL_UPGRADE_REQ
 execute store result storage att2:dialog now_xp int 1 run scoreboard players get now_xp CAL
 execute store result storage att2:dialog total_xp int 1 run scoreboard players get total_xp CAL
+
 execute as @s[scores={GAMELEVEL=..50,LEVELMASTER=..0,LEVELETERNAN=..0}] run function att2:gameplay/consciousness/insert/gamelevel with storage att2:dialog
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=1..,LEVELETERNAN=..0}] run function att2:gameplay/consciousness/insert/levelmaster with storage att2:dialog
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=300..,LEVELETERNAN=1..}] run function att2:gameplay/consciousness/insert/leveleternan with storage att2:dialog

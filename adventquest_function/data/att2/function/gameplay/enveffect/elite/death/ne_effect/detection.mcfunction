@@ -14,4 +14,4 @@ execute as @a[distance=..80,gamemode=adventure] at @s run function att2:gameplay
 execute as @a[distance=..80,gamemode=adventure] at @s run function att2:gameplay/enveffect/elite/death/ne_effect/effect
 
 ##kill @s
-kill @s[type=item_display]
+kill @s[type=text_display]

@@ -3,6 +3,9 @@
 #Process action related to mobs healthbar 						#
 #################################################################
 
+##icon
+data modify storage att2:healthbar atk_damage_icon set value {text:"b",font:"att2_font:healthbar"}
+
 #set atk_damage
 execute if score @s CLASSLEVEL matches 1..3 run data modify storage att2:healthbar atk_damage set value {translate:att2.healthbar.atk_damage,color:green,with:[{score:{name:"attack_damage",objective:"CAL"},color:green}]}
 execute if score @s CLASSLEVEL matches 4..7 run data modify storage att2:healthbar atk_damage set value {translate:att2.healthbar.atk_damage,color:dark_green,with:[{score:{name:"attack_damage",objective:"CAL"},color:dark_green}]}

@@ -3,6 +3,9 @@
 #Use function to activate the checkpoint effect	#
 #################################################
 
+#clear dialog
+dialog clear @s
+
 #get number
 execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
 #progress

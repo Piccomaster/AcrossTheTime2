@@ -11,3 +11,5 @@ $data modify storage att2:matching_game form_player$(player) set from storage at
 $tellraw @s $(temp_form)
 #update click count
 function att2:gameplay/shop/gambling/matching_game/show_click_count
+#show price
+function att2:gameplay/shop/gambling/matching_game/show_price

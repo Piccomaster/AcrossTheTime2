@@ -151,6 +151,7 @@ data modify storage att2:dialog attribute append value {label:{translate:conscio
 ##different show +
 data modify storage att2:dialog executeid set value 1082
 data modify storage att2:dialog requireid set value "DAR_UPGRADE_REQ"
+execute store result storage att2:dialog requirepoint int 1 run scoreboard players get @s DAR_UPGRADE_REQ
 ##point show
 function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s DAR_BASE','data modify storage att2:dialog color set value "green"','data modify storage att2:dialog type set value "base"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}
 execute unless score @s DAR_EQ matches 0 run function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s DAR_EQ','execute if score @s DAR_EQ matches 1.. run data modify storage att2:dialog color set value "green"','execute if score @s DAR_EQ matches ..-1 run data modify storage att2:dialog color set value "red"','data modify storage att2:dialog type set value "equipment"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}

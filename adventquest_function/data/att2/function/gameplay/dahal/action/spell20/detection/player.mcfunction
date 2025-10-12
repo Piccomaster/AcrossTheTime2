@@ -6,9 +6,9 @@
 ##Get Player Score
 function att2:gameplay/dahal/action/spell20/score/player
 ##Check whether there is a Book of Awakening in the backpack. If not, give one.
-execute store result score #Count CAL run clear @s written_book[custom_data={Rarity:que,Conscience:book}] 0
-execute if score #Count CAL matches 2.. run clear @s written_book[custom_data={Rarity:'que',Conscience:"book"}] 1
-execute if score #Count CAL matches ..0 run function att2:gameplay/update_book
+execute store result score #Count CAL run clear @s book[custom_name={translate:item.consciousness.name}] 0
+execute if score #Count CAL matches 2.. run clear @s book[custom_name={translate:item.consciousness.name}] 1
+execute if score #Count CAL matches ..0 run function att2:items/consciousness
 
 ##Test handheld
 execute as @s[predicate=att2_pre:test_hold/conscience,predicate=att2_pre:player/input/shift,predicate=!att2_pre:player/input/any,scores={Stock_Open=0}] at @s run function att2:gameplay/dahal/action/spell20/summon/trigger
