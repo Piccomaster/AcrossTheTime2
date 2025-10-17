@@ -22,3 +22,6 @@ function att2:gameplay/runictrials/4/end_door_opened
 
 # dark resin spawned
 execute positioned -5077 64 -5717 run function att2:gameplay/runictrials/dark_resin_merge
+
+# checkpoint
+execute in minecraft:overworld run spawnpoint @a -5077 64 -5647
