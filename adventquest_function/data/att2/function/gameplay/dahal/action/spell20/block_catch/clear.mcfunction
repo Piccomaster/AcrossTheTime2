@@ -4,4 +4,4 @@
 #################################################################
 
 ##Purge Other Entities
-$kill @e[type=item_display,tag=!New,tag=Block_Catch,scores={OWNER=$(player)}]
+kill @e[type=item_display,tag=!New,tag=Block_Catch,predicate=att2_pre:score/owner]

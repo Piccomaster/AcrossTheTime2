@@ -4,7 +4,7 @@
 #################################################################
 
 ##Keep Position
-$tp @p[scores={NUMEROJOUEUR=$(player)}]
+tp @p[predicate=att2_pre:score/player]
 execute at @s run tp @s ~ ~1.2 ~ ~ 0
 
 ##Momentum Cancellation

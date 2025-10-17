@@ -4,10 +4,10 @@
 #################################################################
 
 ##tpTo the Void
-$tp @e[type=chest_minecart,tag=Stock,scores={OWNER=$(player)}] ~ -100 ~
+tp @e[type=chest_minecart,tag=Stock,predicate=att2_pre:score/owner] ~ -100 ~
 ##killInteractive Entity
-$kill @e[type=interaction,tag=Stock,scores={OWNER=$(player)}]
+kill @e[type=interaction,tag=Stock,predicate=att2_pre:score/owner]
 ##killRansel
-$kill @e[type=chest_minecart,tag=Stock,scores={OWNER=$(player)}]
+kill @e[type=chest_minecart,tag=Stock,predicate=att2_pre:score/owner]
 ##killBlock Entity
-$kill @e[type=block_display,tag=Stock,scores={OWNER=$(player)}]
+kill @e[type=block_display,tag=Stock,predicate=att2_pre:score/owner]
