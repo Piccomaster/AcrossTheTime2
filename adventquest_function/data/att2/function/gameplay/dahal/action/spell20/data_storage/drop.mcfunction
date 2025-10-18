@@ -6,9 +6,9 @@
 ##Sound
 playsound minecraft:entity.horse.saddle ambient @a ~ ~ ~ 1 1
 ##Update Player Mouse Slot
-function att2:gameplay/dahal/action/spell20/data_storage/cursor with storage att2:spell20
+function att2:gameplay/dahal/action/spell20/data_storage/cursor
 ##Generate temporary mine wagons
-$execute as @p[scores={NUMEROJOUEUR=$(player)}] at @s anchored eyes positioned ^ ^ ^2 run summon chest_minecart ~ ~ ~ {CustomDisplayTile:1b,CustomNameVisible:1b,NoGravity:1b,Tags:["DROP","New"],Silent:1,Invulnerable:1,HasVisualFire:0,DisplayState:{Name:"barrier"}}
+execute as @p[predicate=att2_pre:score/player] at @s anchored eyes positioned ^ ^ ^2 run summon chest_minecart ~ ~ ~ {CustomDisplayTile:1b,CustomNameVisible:1b,NoGravity:1b,Tags:["DROP","New"],Silent:1,Invulnerable:1,HasVisualFire:0,DisplayState:{Name:"barrier"}}
 ##Clear Trigger Slot Items
 item replace entity @s container.8 with air
 item replace entity @s container.17 with air

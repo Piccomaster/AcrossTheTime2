@@ -11,7 +11,7 @@ scoreboard players reset @s Stock_Pick_Up
 ##Set Test Score
 scoreboard players set #TEST CAL 0
 ##Detect whether the corresponding player passes the trigger throughfor some other way into the backpack.(If the trigger is discarded in or outside the mouse pointer,Then do not perform a quick import backpack)
-function att2:gameplay/dahal/action/spell20/page/cursor_detection with storage att2:spell20
+function att2:gameplay/dahal/action/spell20/page/cursor_detection
 
 execute as @e[type=item,predicate=att2_pre:dahal/spell20/next] run function att2:gameplay/dahal/action/spell20/page/origin_detection
 

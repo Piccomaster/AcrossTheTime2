@@ -10,7 +10,7 @@ execute as @e[type=spectral_arrow,tag=Block_Catch] if score @s OWNER = @p[distan
 ##Sound
 playsound minecraft:block.crafter.craft master @s ~ ~ ~ 1 1
 ##summon arrow
-execute at @s anchored eyes run summon spectral_arrow ^ ^ ^ {Tags:["Block_Catch","New"],NoGravity:true,life:1199,pickup:2,PierceLevel:127b,SoundEvent:"minecraft:intentionally_empty",Rotation:[0.0f,0.0f],damage:-100}
+execute at @s anchored eyes run summon spectral_arrow ^ ^ ^-0.1 {Tags:["Block_Catch","New"],NoGravity:true,life:1199,pickup:2,PierceLevel:127b,SoundEvent:"minecraft:intentionally_empty",Rotation:[0.0f,0.0f],damage:-100}
 
 ##Modify Presentation Entity Line of Sight
 #set owner

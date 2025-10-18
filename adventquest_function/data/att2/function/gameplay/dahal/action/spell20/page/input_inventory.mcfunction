@@ -6,9 +6,9 @@
 ##   ---:This function is executed for box miners
 
 ##Get the remaining number of slots in the player backpack
-function att2:gameplay/dahal/action/spell20/score/get_slot_player with storage att2:spell20
+function att2:gameplay/dahal/action/spell20/score/get_slot_player
 ##Detect if the player is clicking with the mouse -> Replace the item in the slot with the player's mouse slot
-function att2:gameplay/dahal/action/spell20/data_storage/cursor with storage att2:spell20
+function att2:gameplay/dahal/action/spell20/data_storage/cursor
 ##Update three triggers
 function att2:gameplay/dahal/action/spell20/data_storage/trigger with storage att2:spell20
 ##Remaining slots are greater than1time to proceed
