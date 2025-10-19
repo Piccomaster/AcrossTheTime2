@@ -25,4 +25,4 @@ advancement grant @s[scores={LANGUAGE=3..10}] only att2:tutorial/fire_eng
 
 #Simplified Chinese LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/fire_synergy_zh_cn
+advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/fire_zh_cn

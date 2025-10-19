@@ -26,9 +26,9 @@ execute if score Neth0 TIMER matches 100 run function att2:voice/mortal/mortal1
 execute if score Neth0 TIMER matches 180 as @e[type=minecraft:zombified_piglin,x=3754,y=77,z=3774,distance=..100] run data merge entity @s {AngerTime:1000000}
 
 ### Summoning heroes Serile and Namrin
-
-execute if score Neth0 TIMER matches 680 in minecraft:the_nether as @a[x=3754,y=77,z=3774,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
-execute if score Neth0 TIMER matches 680..925 in minecraft:the_nether as @a[x=3754,y=77,z=3774,distance=..100] run tp @s 3751 84 3788 0 -30
+execute if score Neth0 TIMER matches 680..925 run function att2:gameplay/speceffect/disincarnate/keep/neth0
+execute if score Neth0 TIMER matches 680 in minecraft:the_nether positioned 3751 84 3788 as @a[x=3754,y=77,z=3774,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/neth0
+execute if score Neth0 TIMER matches 680..925 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3751 84 3788 0 -30
 execute if score Neth0 TIMER matches 700 in minecraft:the_nether run tp 00000000-0000-001a-0000-00000000001a 3755 87 3793
 execute if score Neth0 TIMER matches 700 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.01 ~ ~
 execute if score Neth0 TIMER matches 701 run function att2:cinematic/tp_effect/serile
@@ -43,7 +43,7 @@ execute if score Neth0 TIMER matches 900 run function att2:dialogs/mainquest/act
 execute if score Neth0 TIMER matches 900 run function att2:voice/namrin/namrin2
 execute if score Neth0 TIMER matches 920..930 as 00000000-0000-006a-0000-00000000006a at @s run tp @s ~ ~ ~-0.2 -180 30
 execute if score Neth0 TIMER matches 920..926 as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~ ~-0.2 -180 30
-execute if score Neth0 TIMER matches 925 in minecraft:the_nether as @a[x=3754,y=77,z=3774,distance=..100] run function att2:gameplay/speceffect/disincarnate/end
+execute if score Neth0 TIMER matches 925 in minecraft:the_nether as @a[x=3754,y=77,z=3774,distance=..100,scores={Performance=10}] run function att2:gameplay/speceffect/disincarnate/end/neth0
 
 ### Heroes intervention
 

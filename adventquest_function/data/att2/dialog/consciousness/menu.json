@@ -11,7 +11,7 @@
     },
     "actions": [
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.player_infor",
                 "color": "#21BCFF"
@@ -25,7 +25,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.attribute",
                 "color": "#31D492"
@@ -39,7 +39,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.chronotons",
                 "color": "#FFDF20"
@@ -53,7 +53,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.game_setting",
                 "color": "#FFDF20"
@@ -67,7 +67,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.guide",
                 "color": "#FFDF20"
@@ -81,7 +81,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.other_infor",
                 "color": "#90A1B9"
@@ -95,7 +95,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.mainquest",
                 "color": "#FE9A37"
@@ -109,7 +109,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.sidequest",
                 "color": "#155DFC"
@@ -123,7 +123,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.gather_items",
                 "color": "#00AA00"
@@ -137,7 +137,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.mounts",
                 "color": "#55FFFF"
@@ -151,7 +151,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.quick_repair",
                 "color": "#55FF55"
@@ -165,7 +165,7 @@
             }
         },
         {
-            "width": 100,
+            "width": 120,
             "label": {
                 "translate": "consciousness.menu.checkpoint",
                 "color": "#AA0000"

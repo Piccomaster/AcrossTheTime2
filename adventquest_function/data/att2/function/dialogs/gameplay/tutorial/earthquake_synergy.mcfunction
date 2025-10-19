@@ -25,4 +25,4 @@ advancement grant @s[scores={LANGUAGE=3..10}] only att2:tutorial/earthquake_eng
 
 #Simplified Chinese LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/earthquake_synergy_zh_cn
+advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/earthquake_zh_cn

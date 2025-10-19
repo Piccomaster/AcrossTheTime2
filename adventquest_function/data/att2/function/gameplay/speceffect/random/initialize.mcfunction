@@ -6,7 +6,7 @@
 scoreboard objectives add RNG dummy
 scoreboard objectives add CAL dummy
 
-scoreboard players set -100 CAL -100
+scoreboard players set -100 CAL -001
 scoreboard players set -99 CAL -99
 scoreboard players set -98 CAL -98
 scoreboard players set -97 CAL -97

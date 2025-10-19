@@ -9,17 +9,17 @@
 
 scoreboard players set @s ETERN_ARM_TIMER 450
 
-execute as @s[predicate=att2_pre:test_hold/eternan/head,predicate=att2_pre:test_hold/rarity/rar] run scoreboard players set @s ETERN_ARM_TIMER 350
-execute as @s[predicate=att2_pre:test_hold/eternan/chest,predicate=att2_pre:test_hold/rarity/rar] run scoreboard players set @s ETERN_ARM_TIMER 350
-execute as @s[predicate=att2_pre:test_hold/eternan/legs,predicate=att2_pre:test_hold/rarity/rar] run scoreboard players set @s ETERN_ARM_TIMER 350
-execute as @s[predicate=att2_pre:test_hold/eternan/feet,predicate=att2_pre:test_hold/rarity/rar] run scoreboard players set @s ETERN_ARM_TIMER 350
+execute as @s[predicate=att2_pre:test_hold/eternan/head,predicate=att2_pre:test_hold/rarity/head/rar] run scoreboard players set @s ETERN_ARM_TIMER 350
+execute as @s[predicate=att2_pre:test_hold/eternan/chest,predicate=att2_pre:test_hold/rarity/chest/rar] run scoreboard players set @s ETERN_ARM_TIMER 350
+execute as @s[predicate=att2_pre:test_hold/eternan/legs,predicate=att2_pre:test_hold/rarity/legs/rar] run scoreboard players set @s ETERN_ARM_TIMER 350
+execute as @s[predicate=att2_pre:test_hold/eternan/feet,predicate=att2_pre:test_hold/rarity/feet/rar] run scoreboard players set @s ETERN_ARM_TIMER 350
 
-execute as @s[predicate=att2_pre:test_hold/eternan/head,predicate=att2_pre:test_hold/rarity/all_epi] run scoreboard players set @s ETERN_ARM_TIMER 250
-execute as @s[predicate=att2_pre:test_hold/eternan/chest,predicate=att2_pre:test_hold/rarity/all_epi] run scoreboard players set @s ETERN_ARM_TIMER 250
-execute as @s[predicate=att2_pre:test_hold/eternan/legs,predicate=att2_pre:test_hold/rarity/all_epi] run scoreboard players set @s ETERN_ARM_TIMER 250
-execute as @s[predicate=att2_pre:test_hold/eternan/feet,predicate=att2_pre:test_hold/rarity/all_epi] run scoreboard players set @s ETERN_ARM_TIMER 250
+execute as @s[predicate=att2_pre:test_hold/eternan/head,predicate=att2_pre:test_hold/rarity/head/all_epi] run scoreboard players set @s ETERN_ARM_TIMER 250
+execute as @s[predicate=att2_pre:test_hold/eternan/chest,predicate=att2_pre:test_hold/rarity/chest/all_epi] run scoreboard players set @s ETERN_ARM_TIMER 250
+execute as @s[predicate=att2_pre:test_hold/eternan/legs,predicate=att2_pre:test_hold/rarity/legs/all_epi] run scoreboard players set @s ETERN_ARM_TIMER 250
+execute as @s[predicate=att2_pre:test_hold/eternan/feet,predicate=att2_pre:test_hold/rarity/feet/all_epi] run scoreboard players set @s ETERN_ARM_TIMER 250
 
-execute as @s[predicate=att2_pre:test_hold/eternan/head,predicate=att2_pre:test_hold/rarity/all_leg] run scoreboard players set @s ETERN_ARM_TIMER 125
-execute as @s[predicate=att2_pre:test_hold/eternan/chest,predicate=att2_pre:test_hold/rarity/all_leg] run scoreboard players set @s ETERN_ARM_TIMER 125
-execute as @s[predicate=att2_pre:test_hold/eternan/legs,predicate=att2_pre:test_hold/rarity/all_leg] run scoreboard players set @s ETERN_ARM_TIMER 125
-execute as @s[predicate=att2_pre:test_hold/eternan/feet,predicate=att2_pre:test_hold/rarity/all_leg] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[predicate=att2_pre:test_hold/eternan/head,predicate=att2_pre:test_hold/rarity/head/all_leg] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[predicate=att2_pre:test_hold/eternan/chest,predicate=att2_pre:test_hold/rarity/chest/all_leg] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[predicate=att2_pre:test_hold/eternan/legs,predicate=att2_pre:test_hold/rarity/legs/all_leg] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[predicate=att2_pre:test_hold/eternan/feet,predicate=att2_pre:test_hold/rarity/feet/all_leg] run scoreboard players set @s ETERN_ARM_TIMER 125

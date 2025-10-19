@@ -16,4 +16,3 @@ execute in minecraft:overworld if data block -5188 67 -5335 LootTable if block -
 execute in minecraft:overworld unless data block -5188 67 -5335 LootTable unless block -5201 68 -5340 air positioned -5202 69 -5340 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if block -5201 68 -5340 air unless block -5210 56 -5307 air positioned -5210 57 -5306 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if block -5201 68 -5340 air unless block -5212 56 -5307 air positioned -5212 57 -5306 run function att2:gameplay/quest/mainquest/show_secondary_objective
-

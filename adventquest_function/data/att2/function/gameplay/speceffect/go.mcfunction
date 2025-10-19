@@ -8,3 +8,6 @@ function att2:gameplay/speceffect/corruption/go
 function att2:gameplay/speceffect/flammenoire/go
 function att2:gameplay/speceffect/shaking/go
 execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/speceffect/random/go
+
+##perform limit
+execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/speceffect/disincarnate/go

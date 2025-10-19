@@ -7,10 +7,10 @@
             "predicate": {
                 "equipment": {
                     "mainhand": {
-                        "items": "minecraft:written_book",
+                        "items": "minecraft:book",
                         "predicates": {
                             "minecraft:custom_data": {
-                                "Conscience": "book"
+                                "consciousness": true
                             }
                         }
                     }
@@ -23,10 +23,10 @@
             "predicate": {
                 "equipment": {
                     "offhand": {
-                        "items": "minecraft:written_book",
+                        "items": "minecraft:book",
                         "predicates": {
                             "minecraft:custom_data": {
-                                "Conscience": "book"
+                                "consciousness": true
                             }
                         }
                     }
