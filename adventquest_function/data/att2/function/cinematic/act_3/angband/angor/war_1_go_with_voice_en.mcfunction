@@ -22,16 +22,18 @@ execute if score Neth0 TIMER matches 69 as 00000000-0000-007a-0000-00000000007a 
 
 #Cinematic Army March
 execute if score Neth0 TIMER matches 75 run effect clear @a[scores={DIMENSION=6}] minecraft:blindness
-execute if score Neth0 TIMER matches 75 in minecraft:the_nether as @a[scores={DIMENSION=6}] run function att2:gameplay/speceffect/disincarnate/start
-execute if score Neth0 TIMER matches 75..175 in minecraft:the_nether as @a[scores={DIMENSION=6}] run tp @s 3525 43 4410 180 10
+execute if score Neth0 TIMER matches 75..175 run function att2:gameplay/speceffect/disincarnate/keep/neth0
+execute if score Neth0 TIMER matches 75 in minecraft:the_nether positioned 3525 43 4410 as @a[scores={DIMENSION=6}] run function att2:gameplay/speceffect/disincarnate/start/neth0
+execute if score Neth0 TIMER matches 75..175 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3525 43 4410 180 10
 execute if score Neth0 TIMER matches 75..175 in minecraft:the_nether as @e[x=3531,y=40,z=4409,dx=-12,dy=3,dz=-30] at @s run tp ~ ~ ~0.09
 execute if score Neth0 TIMER matches 75 run function att2:dialogs/title/a3_ch5_title1
 execute if score Neth0 TIMER matches 75 run function att2:dialogs/title/a3_ch5_subtitle1
 execute if score Neth0 TIMER matches 75 at @a[scores={DIMENSION=6}] run function att2:sound/misc/army_march
 execute if score Neth0 TIMER matches 175 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_1_action_1
+execute if score Neth0 TIMER matches 175 in minecraft:the_nether run tp @e[type=minecraft:wither_skeleton,tag=!PNJ,x=3531,y=40,z=4419,dx=-12,dy=2,dz=-50] ~ -180 ~
 execute if score Neth0 TIMER matches 175 in minecraft:the_nether run kill @e[type=minecraft:wither_skeleton,tag=!PNJ,x=3531,y=40,z=4419,dx=-12,dy=2,dz=-50]
-execute if score Neth0 TIMER matches 175 in minecraft:the_nether as @a[scores={DIMENSION=6}] run function att2:gameplay/speceffect/disincarnate/end
-execute if score Neth0 TIMER matches 180 in minecraft:the_nether run tp @a 3512 41 4458
+execute if score Neth0 TIMER matches 175 in minecraft:the_nether as @a[scores={DIMENSION=6,Performance=10}] run function att2:gameplay/speceffect/disincarnate/end/neth0
+execute if score Neth0 TIMER matches 180 in minecraft:the_nether run tp @a[scores={DIMENSION=6}] 3512 41 4458
 
 #Dialog
 execute if score Neth0 TIMER matches 200 run function att2:dialogs/mainquest/act_3/ch5_relgon_1

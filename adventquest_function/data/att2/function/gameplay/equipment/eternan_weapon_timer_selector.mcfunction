@@ -9,8 +9,10 @@
 
 scoreboard players set @s ETERN_WEP_TIMER 150
 
-execute as @s[nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"com"}}}] run scoreboard players set @s ETERN_WEP_TIMER 225
-execute as @s[nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"unc"}}}] run scoreboard players set @s ETERN_WEP_TIMER 175
-execute as @s[nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"rar"}}}] run scoreboard players set @s ETERN_WEP_TIMER 125
-execute as @s[nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"epi"}}}] run scoreboard players set @s ETERN_WEP_TIMER 200
-execute as @s[nbt={SelectedItem:{components:{Manufacturer:"eternan",Rarity:"leg"}}}] run scoreboard players set @s ETERN_WEP_TIMER 275
+execute if items entity @s weapon.mainhand #minecraft:eternan[custom_data~{Rarity:"com"}] run return run scoreboard players set @s ETERN_WEP_TIMER 225
+execute if items entity @s weapon.mainhand #minecraft:eternan[custom_data~{Rarity:"unc"}] run return run scoreboard players set @s ETERN_WEP_TIMER 175
+execute if items entity @s weapon.mainhand #minecraft:eternan[custom_data~{Rarity:"rar"}] run return run scoreboard players set @s ETERN_WEP_TIMER 125
+execute if items entity @s weapon.mainhand #minecraft:eternan[custom_data~{Rarity:"epi"}] run return run scoreboard players set @s ETERN_WEP_TIMER 200
+execute if items entity @s weapon.mainhand #minecraft:eternan[custom_data~{Rarity:"epi_set"}] run return run scoreboard players set @s ETERN_WEP_TIMER 225
+execute if items entity @s weapon.mainhand #minecraft:eternan[custom_data~{Rarity:"leg"}] run return run scoreboard players set @s ETERN_WEP_TIMER 275
+execute if items entity @s weapon.mainhand #minecraft:eternan[custom_data~{Rarity:"leg_armset"}] run return run scoreboard players set @s ETERN_WEP_TIMER 300

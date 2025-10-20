@@ -3,13 +3,16 @@
 #Process cinematic camp_exile/relgon_2_go  		 #
 ##################################################
 
-execute if score Neth0 TIMER matches 0 in minecraft:the_nether as @a[x=3485,y=60,z=3779,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
-execute if score Neth0 TIMER matches 0 in minecraft:the_nether as @a run tp @s 3598 87 3792 -30 20
+execute if score Neth0 TIMER matches 0..6450 run function att2:gameplay/speceffect/disincarnate/keep/neth0
+
+execute if score Neth0 TIMER matches 0 in minecraft:the_nether positioned 3485 60 3779 as @a[x=3485,y=60,z=3779,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/neth0
+execute if score Neth0 TIMER matches 0 in minecraft:the_nether run data modify entity @n[type=text_display,tag=Neth0] teleport_duration set value 40
+execute if score Neth0 TIMER matches 0 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3598 88 3792 -30 20
 
 ### 1st storyboard
 execute if score Neth0 TIMER matches 1 run effect give @a[gamemode=spectator] minecraft:blindness 2 1 true
-execute if score Neth0 TIMER matches 1 in minecraft:the_nether as @a[gamemode=spectator] run tp @s 3598 87 3792 -30 20
-execute if score Neth0 TIMER matches 1..1599 in minecraft:the_nether as @a[gamemode=spectator] at @s run tp @s 3598 87 3792 ~-0.04 20
+execute if score Neth0 TIMER matches 1 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3598 88 3792 -30 20
+execute if score Neth0 TIMER matches 1..1599 in minecraft:the_nether as @n[type=text_display,tag=Neth0] at @s run tp @s 3598 88 3792 ~-0.04 20
 execute if score Neth0 TIMER matches 5 run stopsound @a
 execute if score Neth0 TIMER matches 5 run tag @a add NoAutoMusic
 execute if score Neth0 TIMER matches 10 as @a at @s run function att2:sound/music/lore/time_for_regrets
@@ -43,11 +46,11 @@ execute if score Neth0 TIMER matches 1220 run tellraw @a {text:"[-->]",color:"gr
 execute if score Neth0 TIMER matches 1450 run tellraw @a {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 1450 run function att2:dialogs/mainquest/act_3/ch2_relgon_16
 execute if score Neth0 TIMER matches 1450 run function att2:voice/relgon/relgon16
-execute if score Neth0 TIMER matches 1470 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 54"},hover_event:{action:show_text,value:"..."}}
+execute if score Neth0 TIMER matches 1470 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 39"},hover_event:{action:show_text,value:"..."}}
 
 ### 2nd storyboard
 execute if score Neth0 TIMER matches 1600 run effect give @a[gamemode=spectator] minecraft:blindness 2 1 true
-execute if score Neth0 TIMER matches 1600..2449 in minecraft:the_nether as @a[gamemode=spectator] run tp @s 3601 97 3773 0 0
+execute if score Neth0 TIMER matches 1600..2449 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3601 98.5 3773 0 0
 execute if score Neth0 TIMER matches 1650 run tellraw @a {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 1650 run function att2:dialogs/mainquest/act_3/ch2_relgon_17
 execute if score Neth0 TIMER matches 1650 run function att2:voice/relgon/relgon17
@@ -64,8 +67,8 @@ execute if score Neth0 TIMER matches 2350 run function att2:voice/relgon/relgon1
 
 ### 3rd storyboard
 execute if score Neth0 TIMER matches 2450 run effect give @a[gamemode=spectator] minecraft:blindness 2 1 true
-execute if score Neth0 TIMER matches 2450 in minecraft:the_nether as @a[gamemode=spectator] run tp @s 3603 118 3806 140 35
-execute if score Neth0 TIMER matches 2450..3449 in minecraft:the_nether as @a[gamemode=spectator] at @s run tp @s 3603 118 3806 ~0.04 35
+execute if score Neth0 TIMER matches 2450 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3603 119 3806 140 30
+execute if score Neth0 TIMER matches 2450..3449 in minecraft:the_nether as @n[type=text_display,tag=Neth0] at @s run tp @s 3603 119 3806 ~0.04 30
 execute if score Neth0 TIMER matches 2800 run tellraw @a {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 2800 run function att2:dialogs/mainquest/act_3/ch2_relgon_20
 execute if score Neth0 TIMER matches 2800 run function att2:voice/relgon/relgon20
@@ -85,7 +88,7 @@ execute if score Neth0 TIMER matches 3320 run tellraw @a {text:"[-->]",color:"gr
 
 ### 4th storyboard
 execute if score Neth0 TIMER matches 3450 run effect give @a[gamemode=spectator] minecraft:blindness 2 1 true
-execute if score Neth0 TIMER matches 3450..4149 in minecraft:the_nether as @a[gamemode=spectator] run tp @s 3585 87 3771 -130 30
+execute if score Neth0 TIMER matches 3450..4149 in minecraft:the_nether as @n[type=text_display,tag=Neth0] at @s run tp @s 3585 88 3771 -130 20
 execute if score Neth0 TIMER matches 3500 run tellraw @a {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 3500 run function att2:dialogs/mainquest/act_3/ch2_relgon_24
 execute if score Neth0 TIMER matches 3500 run function att2:voice/relgon/relgon24
@@ -97,8 +100,8 @@ execute if score Neth0 TIMER matches 3870 run tellraw @a {text:"[-->]",color:"gr
 
 ### 5th storyboard
 execute if score Neth0 TIMER matches 4250 run effect give @a[gamemode=spectator] minecraft:blindness 2 1 true
-execute if score Neth0 TIMER matches 4250 in minecraft:the_nether as @a[gamemode=spectator] run tp @s 3556 131 3720 -55 25
-execute if score Neth0 TIMER matches 4250..4599 in minecraft:the_nether as @a[gamemode=spectator] at @s run tp @s 3556 131 3720 ~-0.1 25
+execute if score Neth0 TIMER matches 4250 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3556 131 3720 -55 25
+execute if score Neth0 TIMER matches 4250..4599 in minecraft:the_nether as @n[type=text_display,tag=Neth0] at @s run tp @s 3556 131 3720 ~-0.1 25
 execute if score Neth0 TIMER matches 4250..4599 in minecraft:the_nether run particle minecraft:flame 3563.9 130.1 3715.1 0.1 0.1 0.1 0 1 normal
 execute if score Neth0 TIMER matches 4300 run tellraw @a {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 4300 run function att2:dialogs/mainquest/act_3/ch2_relgon_26
@@ -111,7 +114,7 @@ execute if score Neth0 TIMER matches 4520 run tellraw @a {text:"[-->]",color:"gr
 
 ### 6th storyboard
 execute if score Neth0 TIMER matches 4650 run effect give @a[gamemode=spectator] minecraft:blindness 2 1 true
-execute if score Neth0 TIMER matches 4650..5499 in minecraft:the_nether as @a[gamemode=spectator] run tp @s 3539 94 3773 -16 39
+execute if score Neth0 TIMER matches 4650..5499 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3539 94 3773 -16 20
 execute if score Neth0 TIMER matches 4670 run tellraw @a {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 4670 run function att2:dialogs/mainquest/act_3/ch2_relgon_28
 execute if score Neth0 TIMER matches 4670 run function att2:voice/relgon/relgon28
@@ -123,12 +126,12 @@ execute if score Neth0 TIMER matches 4950 run function att2:voice/relgon/relgon2
 execute if score Neth0 TIMER matches 5150 run function att2:cinematic/act_3/angband/camp_exile/relgon_2_action_2
 execute if score Neth0 TIMER matches 5170 run function att2:cinematic/act_3/angband/camp_exile/relgon_2_action_3
 execute if score Neth0 TIMER matches 5200 run function att2:cinematic/act_3/angband/camp_exile/relgon_2_action_4
-execute if score Neth0 TIMER matches 5300..5400 as @e[type=minecraft:armor_stand,x=3539,y=94,z=3774,distance=..8,tag=FireSeal] at @s run tp @s ~-0.00288 ~ ~0.00083
-execute if score Neth0 TIMER matches 5300..5400 as @e[type=minecraft:armor_stand,x=3539,y=94,z=3774,distance=..8,tag=LavaSeal] at @s run tp @s ~0.00288 ~ ~-0.00083
+execute if score Neth0 TIMER matches 5300..5400 as @e[type=minecraft:item_display,x=3539,y=94,z=3774,distance=..8,tag=FireSeal] at @s run tp @s ~-0.00288 ~ ~0.00083
+execute if score Neth0 TIMER matches 5300..5400 as @e[type=minecraft:item_display,x=3539,y=94,z=3774,distance=..8,tag=LavaSeal] at @s run tp @s ~0.00288 ~ ~-0.00083
 
 ### 7th storyboard
 execute if score Neth0 TIMER matches 5500 run effect give @a[gamemode=spectator] minecraft:blindness 2 1 true
-execute if score Neth0 TIMER matches 5500..6449 in minecraft:the_nether as @a[gamemode=spectator] run tp @s 3465 65 3774 137 45
+execute if score Neth0 TIMER matches 5500..6449 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3465 65 3774 137 40
 execute if score Neth0 TIMER matches 5550 in minecraft:the_nether run function att2:cinematic/act_3/angband/camp_exile/relgon_2_action_5
 execute if score Neth0 TIMER matches 5550 run tellraw @a {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 5550 run function att2:dialogs/mainquest/act_3/ch2_relgon_30
@@ -142,7 +145,7 @@ execute if score Neth0 TIMER matches 6150 run tellraw @a {text:"///\\///\\///\\/
 execute if score Neth0 TIMER matches 6150 run function att2:dialogs/mainquest/act_3/ch2_relgon_32
 execute if score Neth0 TIMER matches 6150 run function att2:voice/relgon/relgon32
 execute if score Neth0 TIMER matches 6175 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 52"},hover_event:{action:show_text,value:"..."}}
-execute if score Neth0 TIMER matches 6450 in minecraft:the_nether as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute if score Neth0 TIMER matches 6450 in minecraft:the_nether as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end/neth0
 
 ### Back to the camp
 execute if score Neth0 TIMER matches 6550 run function att2:dialogs/mainquest/act_3/ch2_relgon_33
@@ -153,7 +156,7 @@ execute if score Neth0 TIMER matches 6550 run scoreboard players set 00000000-00
 execute if score Neth0 TIMER matches 6600 run function att2:dialogs/mainquest/act_3/ch2_player_6
 execute if score Neth0 TIMER matches 6750 run function att2:dialogs/mainquest/act_3/ch2_relgon_34
 execute if score Neth0 TIMER matches 6750 run function att2:voice/relgon/relgon34
-execute if score Neth0 TIMER matches 6775 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 55"},hover_event:{action:show_text,value:"..."}}
+execute if score Neth0 TIMER matches 6775 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 53"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 7100 as @a run function att2:dialogs/mainquest/act_3/pnj_relgon/dialog_1
 execute if score Neth0 TIMER matches 7100 as @a run function att2:voice/relgon/relgon_dialogue1
 execute if score Neth0 TIMER matches 7350 run function att2:cinematic/act_3/angband/camp_exile/relgon_2_action_6

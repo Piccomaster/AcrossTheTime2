@@ -10,9 +10,9 @@ execute unless items entity @s weapon.mainhand minecraft:book[use_cooldown={seco
 ##keep show title
 title @s times 0 777d 0
 title @s title {text:"l",font:"att2_font:consciousness"}
-##show dialog
-function att2:gameplay/book/select with storage att2:book
 ##add title Tags
 tag @s add BookOpen
+##show dialog
+function att2:gameplay/book/select with storage att2:book
 ##revoked test
 advancement revoke @s only att2_test:book/open
