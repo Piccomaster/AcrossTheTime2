@@ -9,4 +9,4 @@ scoreboard players set asunark PANORAMA 1
 advancement grant @a only att2:journey/panorama_asunark
 
 fill -3714 87 -4877 -3714 87 -4878 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=36}] run function att2:gameplay/speceffect/disincarnate/end

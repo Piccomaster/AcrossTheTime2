@@ -9,4 +9,4 @@ scoreboard players set zirthion PANORAMA 1
 advancement grant @a only att2:journey/panorama_zirthion
 
 setblock 7259 171 7346 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=73}] run function att2:gameplay/speceffect/disincarnate/end

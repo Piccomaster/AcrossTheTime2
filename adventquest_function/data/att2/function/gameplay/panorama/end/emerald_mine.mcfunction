@@ -9,4 +9,4 @@ scoreboard players set emerald_mine PANORAMA 1
 advancement grant @a only att2:journey/panorama_emerald_mine
 
 setblock -4407 58 -6001 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=44}] run function att2:gameplay/speceffect/disincarnate/end

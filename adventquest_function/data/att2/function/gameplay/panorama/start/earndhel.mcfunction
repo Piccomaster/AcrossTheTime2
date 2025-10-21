@@ -4,7 +4,7 @@
 #################################################################
 
 scoreboard players set timer PANORAMA 200
-execute as @a[distance=..50,gamemode=adventure] run scoreboard players set @s Performance 30
+execute as @a[distance=..50,gamemode=adventure] run scoreboard players set @s Performance 41
 execute as @a[distance=..50,gamemode=adventure] run function att2:gameplay/speceffect/disincarnate/back_point
 execute as @a[distance=..50,gamemode=spectator] at @s run teleport @s 29930 114 29980 ~ 25
 execute as @a[distance=..50,gamemode=spectator] at @s run function att2:gameplay/panorama/effect

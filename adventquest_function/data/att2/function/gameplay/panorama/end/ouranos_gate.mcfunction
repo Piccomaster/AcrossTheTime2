@@ -9,4 +9,4 @@ scoreboard players set ouranos_gate PANORAMA 1
 advancement grant @a only att2:journey/panorama_ouran_gate
 
 setblock 7495 127 6772 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=58}] run function att2:gameplay/speceffect/disincarnate/end

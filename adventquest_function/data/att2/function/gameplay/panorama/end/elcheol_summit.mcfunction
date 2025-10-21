@@ -9,4 +9,4 @@ scoreboard players set elcheol_summit PANORAMA 1
 advancement grant @a only att2:journey/panorama_elcheol_summit
 
 setblock -5061 225 -6322 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=43}] run function att2:gameplay/speceffect/disincarnate/end

@@ -9,4 +9,4 @@ scoreboard players set ryliath PANORAMA 1
 advancement grant @a only att2:journey/panorama_ryliath
 
 setblock -5105 116 -4963 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=63}] run function att2:gameplay/speceffect/disincarnate/end

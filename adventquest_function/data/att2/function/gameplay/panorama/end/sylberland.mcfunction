@@ -9,4 +9,4 @@ scoreboard players set sylberland PANORAMA 1
 advancement grant @a only att2:journey/panorama_silberland_valley
 
 setblock -5498 146 -5453 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=68}] run function att2:gameplay/speceffect/disincarnate/end

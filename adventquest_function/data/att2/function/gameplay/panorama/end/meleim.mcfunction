@@ -9,4 +9,4 @@ scoreboard players set meleim PANORAMA 1
 advancement grant @a only att2:journey/panorama_meleim
 
 setblock -3750 110 -5912 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=52}] run function att2:gameplay/speceffect/disincarnate/end

@@ -9,4 +9,4 @@ scoreboard players set sathnok PANORAMA 1
 advancement grant @a only att2:journey/panorama_sathnok
 
 setblock -6050 138 -4702 minecraft:air
-execute as @a[gamemode=spectator,scores={Performance=30}] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=64}] run function att2:gameplay/speceffect/disincarnate/end
