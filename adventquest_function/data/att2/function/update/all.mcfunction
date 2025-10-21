@@ -5,440 +5,161 @@
 
 scoreboard players add update_loop_count SYSTEM 1
 gamemode spectator @a
-execute if score update_loop_count SYSTEM matches ..427 run schedule function att2:update/all 1s append
+execute if score update_loop_count SYSTEM matches ..143 run schedule function att2:update/all 1s append
 
 ##auto update
+# Overworld
 execute if score update_loop_count SYSTEM matches 1 in overworld run tp @a -5033 103 -4928
-execute if score update_loop_count SYSTEM matches 2 in overworld run tp @a -5033 104 -4929
-execute if score update_loop_count SYSTEM matches 3 in overworld run tp @a -5032.5 102 -4927.5
-execute if score update_loop_count SYSTEM matches 4 in overworld run tp @a -5032.5 102 -4927.5
-execute if score update_loop_count SYSTEM matches 5 in overworld run tp @a -5032.5 105 -4927.5
-execute if score update_loop_count SYSTEM matches 6 in overworld run tp @a -5032.5 107 -4927.5
-execute if score update_loop_count SYSTEM matches 7 in the_nether run tp @a 3076.34 71.05 4191.34
-execute if score update_loop_count SYSTEM matches 8 in the_nether run tp @a 3076.34 71.05 4191.34
-execute if score update_loop_count SYSTEM matches 9 in overworld run tp @a 6703.2 142.65 7075.5
-execute if score update_loop_count SYSTEM matches 10 in overworld run tp @a 6703.2 142.65 7075.5
-execute if score update_loop_count SYSTEM matches 11 in overworld run tp @a -5256.4 83.8 -6383.5
-execute if score update_loop_count SYSTEM matches 12 in overworld run tp @a -5256.4 83.8 -6383.5
-execute if score update_loop_count SYSTEM matches 13 in overworld run tp @a -4070.05 45.7 -4291.03
-execute if score update_loop_count SYSTEM matches 14 in overworld run tp @a -4070.05 45.7 -4291.03
-execute if score update_loop_count SYSTEM matches 15 in overworld run tp @a -7542.55 60.75 -4184.15
-execute if score update_loop_count SYSTEM matches 16 in overworld run tp @a -7542.55 60.75 -4184.15
-execute if score update_loop_count SYSTEM matches 17 in overworld run tp @a -5110.65 163.8 -6756.65
-execute if score update_loop_count SYSTEM matches 18 in overworld run tp @a -5110.65 163.8 -6756.65
-execute if score update_loop_count SYSTEM matches 19 in overworld run tp @a -5122.45 17.05 -4380.8
-execute if score update_loop_count SYSTEM matches 20 in overworld run tp @a -5122.45 17.05 -4380.8
-execute if score update_loop_count SYSTEM matches 21 in overworld run tp @a -5551.05 49.45 -4532.05
-execute if score update_loop_count SYSTEM matches 22 in overworld run tp @a -5551.05 49.45 -4532.05
-execute if score update_loop_count SYSTEM matches 23 in overworld run tp @a -5519.1 26.05 -4190.45
-execute if score update_loop_count SYSTEM matches 24 in overworld run tp @a -5519.1 26.05 -4190.45
-execute if score update_loop_count SYSTEM matches 25 in the_end run tp @a -1579.15 27.75 -604.9
-execute if score update_loop_count SYSTEM matches 26 in the_end run tp @a -1579.15 27.75 -604.9
-execute if score update_loop_count SYSTEM matches 27 in overworld run tp @a -5355.5 40.0 -4910.1
-execute if score update_loop_count SYSTEM matches 28 in overworld run tp @a -5355.5 40.0 -4910.1
-execute if score update_loop_count SYSTEM matches 29 in overworld run tp @a -5132.95 109.15 -6197.15
-execute if score update_loop_count SYSTEM matches 30 in overworld run tp @a -5132.95 109.15 -6197.15
-execute if score update_loop_count SYSTEM matches 31 in overworld run tp @a -4621.1 70.9 -5052.5
-execute if score update_loop_count SYSTEM matches 32 in overworld run tp @a -4621.1 70.9 -5052.5
-execute if score update_loop_count SYSTEM matches 33 in overworld run tp @a -4635.1 68.9 -5521.05
-execute if score update_loop_count SYSTEM matches 34 in overworld run tp @a -3442.9 31.6 -4941.8
-execute if score update_loop_count SYSTEM matches 35 in overworld run tp @a -3443 31 -4942
-execute if score update_loop_count SYSTEM matches 36 in the_end run tp @a -1238.1 27.5 -615.1
-execute if score update_loop_count SYSTEM matches 37 in overworld run tp @a -4658 58 -4841
-execute if score update_loop_count SYSTEM matches 38 in overworld run tp @a 7390.87 182.6 6460.05
-execute if score update_loop_count SYSTEM matches 39 in overworld run tp @a 7707.87 164.4 5956.05
-execute if score update_loop_count SYSTEM matches 40 in overworld run tp @a -7411.5 156.0 -6019.0
-execute if score update_loop_count SYSTEM matches 41 in overworld run tp @a -7411.5 156.0 -6019.0
-execute if score update_loop_count SYSTEM matches 42 in overworld run tp @a -7411.2 155.1 -6003.0
-execute if score update_loop_count SYSTEM matches 43 in overworld run tp @a -7411.2 155.1 -6003.0
-execute if score update_loop_count SYSTEM matches 44 in overworld run tp @a -7452.2 155.1 -5928.0
-execute if score update_loop_count SYSTEM matches 45 in overworld run tp @a -7452.2 155.1 -5928.0
-execute if score update_loop_count SYSTEM matches 46 in overworld run tp @a -7421.2 155.1 -5952.0
-execute if score update_loop_count SYSTEM matches 47 in overworld run tp @a -7421.2 155.1 -5952.0
-execute if score update_loop_count SYSTEM matches 48 in overworld run tp @a -7407.8 160.1 -5979.5
-execute if score update_loop_count SYSTEM matches 49 in overworld run tp @a -7407.8 160.1 -5979.5
-execute if score update_loop_count SYSTEM matches 50 in overworld run tp @a -7452.8 155.1 -5895.5
-execute if score update_loop_count SYSTEM matches 51 in overworld run tp @a -7452.8 155.1 -5895.5
-execute if score update_loop_count SYSTEM matches 52 in the_nether run tp @a 3485 23 4024
-execute if score update_loop_count SYSTEM matches 53 in the_nether run tp @a 3484 23 4024
-execute if score update_loop_count SYSTEM matches 54 in the_nether run tp @a 3483 23 4024
-execute if score update_loop_count SYSTEM matches 55 in the_nether run tp @a 3918 94 4096
-execute if score update_loop_count SYSTEM matches 56 in the_nether run tp @a 3917 93 4096
-execute if score update_loop_count SYSTEM matches 57 in the_end run tp @a -625 13 -628
-execute if score update_loop_count SYSTEM matches 58 in the_end run tp @a -625 12 -628
-execute if score update_loop_count SYSTEM matches 59 in the_end run tp @a -625 13 -628
-execute if score update_loop_count SYSTEM matches 60 in the_end run tp @a -1104 255 -602
-execute if score update_loop_count SYSTEM matches 61 in the_end run tp @a -1104 255 -601
-execute if score update_loop_count SYSTEM matches 62 in the_end run tp @a -1105 254 -602
-execute if score update_loop_count SYSTEM matches 63 in the_end run tp @a -1103 254 -602
-execute if score update_loop_count SYSTEM matches 64 in overworld run tp @a -4848 119 -6262
-execute if score update_loop_count SYSTEM matches 65 in overworld run tp @a -6152 32 -3772
-execute if score update_loop_count SYSTEM matches 66 in overworld run tp @a -6151 32 -3772
-execute if score update_loop_count SYSTEM matches 67 in overworld run tp @a -6150 32 -3772
-execute if score update_loop_count SYSTEM matches 68 in overworld run tp @a -4329 52 -5989
-execute if score update_loop_count SYSTEM matches 69 in overworld run tp @a -5310 112 -6191
-execute if score update_loop_count SYSTEM matches 70 in overworld run tp @a -5252 118 -6293
-execute if score update_loop_count SYSTEM matches 71 in overworld run tp @a -5263 112 -6303
-execute if score update_loop_count SYSTEM matches 72 in overworld run tp @a -3892 89 -5604
-execute if score update_loop_count SYSTEM matches 73 in overworld run tp @a -7423 160 -5982
-execute if score update_loop_count SYSTEM matches 74 in overworld run tp @a -7422 158 -5973
-execute if score update_loop_count SYSTEM matches 75 in overworld run tp @a -7457 165 -5994
-execute if score update_loop_count SYSTEM matches 76 in overworld run tp @a -7424 158 -5968
-execute if score update_loop_count SYSTEM matches 77 in overworld run tp @a -7440 158 -5969
-execute if score update_loop_count SYSTEM matches 78 in overworld run tp @a -7424 158 -6018
-execute if score update_loop_count SYSTEM matches 79 in overworld run tp @a -7426 163 -5954
-execute if score update_loop_count SYSTEM matches 80 in overworld run tp @a -7435 165 -5927
-execute if score update_loop_count SYSTEM matches 81 in overworld run tp @a -5112 163 -6770
-execute if score update_loop_count SYSTEM matches 82 in overworld run tp @a -4334 53 -5981
-execute if score update_loop_count SYSTEM matches 83 in overworld run tp @a 29949 123 30068
-execute if score update_loop_count SYSTEM matches 84 in overworld run tp @a 784 82 892
-execute if score update_loop_count SYSTEM matches 85 in overworld run tp @a 786 82 892
-execute if score update_loop_count SYSTEM matches 86 in overworld run tp @a 788 82 892
-execute if score update_loop_count SYSTEM matches 87 in overworld run tp @a 790 82 892
-execute if score update_loop_count SYSTEM matches 88 in overworld run tp @a 792 82 892
-execute if score update_loop_count SYSTEM matches 89 in overworld run tp @a 794 82 892
-execute if score update_loop_count SYSTEM matches 90 in overworld run tp @a 796 82 892
-execute if score update_loop_count SYSTEM matches 91 in overworld run tp @a 798 82 892
-execute if score update_loop_count SYSTEM matches 92 in overworld run tp @a 800 82 892
-execute if score update_loop_count SYSTEM matches 93 in overworld run tp @a 802 82 892
-execute if score update_loop_count SYSTEM matches 94 in overworld run tp @a 804 82 892
-execute if score update_loop_count SYSTEM matches 95 in overworld run tp @a -5106 106 -4966
-execute if score update_loop_count SYSTEM matches 96 in overworld run tp @a -5105 106 -4966
-execute if score update_loop_count SYSTEM matches 97 in overworld run tp @a -5103.5 105.9 -4956.5
-execute if score update_loop_count SYSTEM matches 98 in overworld run tp @a -5103.5 105.9 -4956.5
-execute if score update_loop_count SYSTEM matches 99 in overworld run tp @a -5103.5 105.9 -4957.5
-execute if score update_loop_count SYSTEM matches 100 in overworld run tp @a -5103.5 105.9 -4957.5
-execute if score update_loop_count SYSTEM matches 101 in overworld run tp @a -5104.5 105.9 -4958.5
-execute if score update_loop_count SYSTEM matches 102 in overworld run tp @a -5104.5 105.9 -4958.5
-execute if score update_loop_count SYSTEM matches 103 in overworld run tp @a -5105.5 105.9 -4958.5
-execute if score update_loop_count SYSTEM matches 104 in overworld run tp @a -5105.5 105.9 -4958.5
-execute if score update_loop_count SYSTEM matches 105 in overworld run tp @a -5106.5 105.9 -4957.5
-execute if score update_loop_count SYSTEM matches 106 in overworld run tp @a -5106.5 105.9 -4957.5
-execute if score update_loop_count SYSTEM matches 107 in overworld run tp @a -5106.5 105.9 -4956.5
-execute if score update_loop_count SYSTEM matches 108 in overworld run tp @a -5106.5 105.9 -4956.5
-execute if score update_loop_count SYSTEM matches 109 in overworld run tp @a -5105.5 105.9 -4955.5
-execute if score update_loop_count SYSTEM matches 110 in overworld run tp @a -5105.5 105.9 -4955.5
-execute if score update_loop_count SYSTEM matches 111 in overworld run tp @a -5104.5 105.9 -4955.5
-execute if score update_loop_count SYSTEM matches 112 in overworld run tp @a -5104.5 105.9 -4955.5
-execute if score update_loop_count SYSTEM matches 113 in overworld run tp @a -4978 79 -5036
-execute if score update_loop_count SYSTEM matches 114 in overworld run tp @a -4978 79 -5027
-execute if score update_loop_count SYSTEM matches 115 in overworld run tp @a -3771 90 -5920
-execute if score update_loop_count SYSTEM matches 116 in overworld run tp @a -3771 90 -5914
-execute if score update_loop_count SYSTEM matches 117 in overworld run tp @a -3773.5 90.0 -5916.45
-execute if score update_loop_count SYSTEM matches 118 in overworld run tp @a -3773.5 90.0 -5916.45
-execute if score update_loop_count SYSTEM matches 119 in overworld run tp @a -3774.5 90.0 -5917.45
-execute if score update_loop_count SYSTEM matches 120 in overworld run tp @a -3774.5 90.0 -5917.45
-execute if score update_loop_count SYSTEM matches 121 in overworld run tp @a -3775.5 90.0 -5916.45
-execute if score update_loop_count SYSTEM matches 122 in overworld run tp @a -3775.5 90.0 -5916.45
-execute if score update_loop_count SYSTEM matches 123 in overworld run tp @a -3774.5 90.0 -5915.45
-execute if score update_loop_count SYSTEM matches 124 in overworld run tp @a -3774.5 90.0 -5915.45
-execute if score update_loop_count SYSTEM matches 125 in overworld run tp @a -5224.5 99.0 -6277.45
-execute if score update_loop_count SYSTEM matches 126 in overworld run tp @a -5224.5 99.0 -6277.45
-execute if score update_loop_count SYSTEM matches 127 in overworld run tp @a -5223.5 99.0 -6278.45
-execute if score update_loop_count SYSTEM matches 128 in overworld run tp @a -5223.5 99.0 -6278.45
-execute if score update_loop_count SYSTEM matches 129 in overworld run tp @a -5223.5 99.0 -6276.45
-execute if score update_loop_count SYSTEM matches 130 in overworld run tp @a -5223.5 99.0 -6276.45
-execute if score update_loop_count SYSTEM matches 131 in overworld run tp @a -5222.5 99.0 -6277.45
-execute if score update_loop_count SYSTEM matches 132 in overworld run tp @a -5222.5 99.0 -6277.45
-execute if score update_loop_count SYSTEM matches 133 in overworld run tp @a -5446.5 58.0 -4614.45
-execute if score update_loop_count SYSTEM matches 134 in overworld run tp @a -5446.5 58.0 -4614.45
-execute if score update_loop_count SYSTEM matches 135 in overworld run tp @a -5447.5 58.0 -4615.45
-execute if score update_loop_count SYSTEM matches 136 in overworld run tp @a -5447.5 58.0 -4615.45
-execute if score update_loop_count SYSTEM matches 137 in overworld run tp @a -5448.5 58.0 -4614.45
-execute if score update_loop_count SYSTEM matches 138 in overworld run tp @a -5448.5 58.0 -4614.45
-execute if score update_loop_count SYSTEM matches 139 in overworld run tp @a -5447.5 58.0 -4613.45
-execute if score update_loop_count SYSTEM matches 140 in overworld run tp @a -5447.5 58.0 -4613.45
-execute if score update_loop_count SYSTEM matches 141 in overworld run tp @a -5355 42 -4910
-execute if score update_loop_count SYSTEM matches 142 in overworld run tp @a -5356 42 -4909
-execute if score update_loop_count SYSTEM matches 143 in overworld run tp @a -5052 93 -4974
-execute if score update_loop_count SYSTEM matches 144 in overworld run tp @a -5051 93 -4974
-execute if score update_loop_count SYSTEM matches 145 in overworld run tp @a -5050 93 -4974
-execute if score update_loop_count SYSTEM matches 146 in overworld run tp @a -5052 91 -4974
-execute if score update_loop_count SYSTEM matches 147 in overworld run tp @a -5046 93 -4974
-execute if score update_loop_count SYSTEM matches 148 in overworld run tp @a -5047 93 -4974
-execute if score update_loop_count SYSTEM matches 149 in overworld run tp @a -5048 93 -4974
-execute if score update_loop_count SYSTEM matches 150 in overworld run tp @a -5046 91 -4974
-execute if score update_loop_count SYSTEM matches 151 in overworld run tp @a -5049 91 -4974
-execute if score update_loop_count SYSTEM matches 152 in overworld run tp @a -3804 72 -5861
-execute if score update_loop_count SYSTEM matches 153 in overworld run tp @a -3804 72 -5860
-execute if score update_loop_count SYSTEM matches 154 in overworld run tp @a -3804 72 -5859
-execute if score update_loop_count SYSTEM matches 155 in overworld run tp @a -3804 70 -5861
-execute if score update_loop_count SYSTEM matches 156 in overworld run tp @a -3804 72 -5855
-execute if score update_loop_count SYSTEM matches 157 in overworld run tp @a -3804 72 -5856
-execute if score update_loop_count SYSTEM matches 158 in overworld run tp @a -3804 72 -5857
-execute if score update_loop_count SYSTEM matches 159 in overworld run tp @a -3804 70 -5855
-execute if score update_loop_count SYSTEM matches 160 in overworld run tp @a -3804 70 -5858
-execute if score update_loop_count SYSTEM matches 161 in overworld run tp @a -5332 107 -6269
-execute if score update_loop_count SYSTEM matches 162 in overworld run tp @a -5331 107 -6269
-execute if score update_loop_count SYSTEM matches 163 in overworld run tp @a -5330 107 -6269
-execute if score update_loop_count SYSTEM matches 164 in overworld run tp @a -5332 105 -6269
-execute if score update_loop_count SYSTEM matches 165 in overworld run tp @a -5326 107 -6269
-execute if score update_loop_count SYSTEM matches 166 in overworld run tp @a -5327 107 -6269
-execute if score update_loop_count SYSTEM matches 167 in overworld run tp @a -5328 107 -6269
-execute if score update_loop_count SYSTEM matches 168 in overworld run tp @a -5326 105 -6269
-execute if score update_loop_count SYSTEM matches 169 in overworld run tp @a -5329 105 -6269
-execute if score update_loop_count SYSTEM matches 170 in overworld run tp @a -5412 51 -4660
-execute if score update_loop_count SYSTEM matches 171 in overworld run tp @a -5411 51 -4660
-execute if score update_loop_count SYSTEM matches 172 in overworld run tp @a -5410 51 -4660
-execute if score update_loop_count SYSTEM matches 173 in overworld run tp @a -5412 49 -4660
-execute if score update_loop_count SYSTEM matches 174 in overworld run tp @a -5406 51 -4660
-execute if score update_loop_count SYSTEM matches 175 in overworld run tp @a -5407 51 -4660
-execute if score update_loop_count SYSTEM matches 176 in overworld run tp @a -5408 51 -4660
-execute if score update_loop_count SYSTEM matches 177 in overworld run tp @a -5406 49 -4660
-execute if score update_loop_count SYSTEM matches 178 in overworld run tp @a -5409 49 -4660
-execute if score update_loop_count SYSTEM matches 179 in overworld run tp @a -4971 95 -5800
-execute if score update_loop_count SYSTEM matches 180 in overworld run tp @a -4971 95 -5804
-execute if score update_loop_count SYSTEM matches 181 in overworld run tp @a -4971 95 -5802
-execute if score update_loop_count SYSTEM matches 182 in the_nether run tp @a 3474 34 3716
-execute if score update_loop_count SYSTEM matches 183 in the_nether run tp @a 3474 34 3718
-execute if score update_loop_count SYSTEM matches 184 in the_nether run tp @a 3474 34 3717
-execute if score update_loop_count SYSTEM matches 185 in the_end run tp @a -1052 22 -610
-execute if score update_loop_count SYSTEM matches 186 in the_end run tp @a -1050 22 -610
-execute if score update_loop_count SYSTEM matches 187 in the_end run tp @a -1051 22 -610
-execute if score update_loop_count SYSTEM matches 188 in overworld run tp @a 7350 120 7363
-execute if score update_loop_count SYSTEM matches 189 in overworld run tp @a 7352 120 7363
-execute if score update_loop_count SYSTEM matches 190 in overworld run tp @a 7351 120 7363
-execute if score update_loop_count SYSTEM matches 191 in overworld run tp @a 29973 101 30064
-execute if score update_loop_count SYSTEM matches 192 in overworld run tp @a 29975 101 30064
-execute if score update_loop_count SYSTEM matches 193 in overworld run tp @a 29974 101 30064
-execute if score update_loop_count SYSTEM matches 194 in overworld run tp @a 29965 88 30022
-execute if score update_loop_count SYSTEM matches 195 in overworld run tp @a -4990 21 -4381
-execute if score update_loop_count SYSTEM matches 196 in overworld run tp @a -4628 72 -4594
-execute if score update_loop_count SYSTEM matches 197 in overworld run tp @a -3629.5 70.0 -4959.5
-execute if score update_loop_count SYSTEM matches 198 in overworld run tp @a -3629.5 70.0 -4959.5
-execute if score update_loop_count SYSTEM matches 199 in overworld run tp @a -3625.5 70.0 -4959.5
-execute if score update_loop_count SYSTEM matches 200 in overworld run tp @a -3625.5 70.0 -4959.5
-execute if score update_loop_count SYSTEM matches 201 in overworld run tp @a -3625.5 70.0 -4910.5
-execute if score update_loop_count SYSTEM matches 202 in overworld run tp @a -3625.5 70.0 -4910.5
-execute if score update_loop_count SYSTEM matches 203 in overworld run tp @a -3629.5 70.0 -4910.5
-execute if score update_loop_count SYSTEM matches 204 in overworld run tp @a -3629.5 70.0 -4910.5
-execute if score update_loop_count SYSTEM matches 205 in overworld run tp @a -4572 74 -5426
-execute if score update_loop_count SYSTEM matches 206 in overworld run tp @a -4574 76.5 -5427
-execute if score update_loop_count SYSTEM matches 207 in overworld run tp @a -4574 76.5 -5427
-execute if score update_loop_count SYSTEM matches 208 in overworld run tp @a -5057 78 -5059
-execute if score update_loop_count SYSTEM matches 209 in overworld run tp @a -5057 78 -5059
-execute if score update_loop_count SYSTEM matches 210 in overworld run tp @a -5057 78 -5059
-execute if score update_loop_count SYSTEM matches 211 in overworld run tp @a -5080 79 -5036
-execute if score update_loop_count SYSTEM matches 212 in overworld run tp @a -5080 80 -5036
-execute if score update_loop_count SYSTEM matches 213 in overworld run tp @a -5080 80 -5036
-execute if score update_loop_count SYSTEM matches 214 in overworld run tp @a -5063 104 -4958
-execute if score update_loop_count SYSTEM matches 215 in overworld run tp @a -5063 104 -4958
-execute if score update_loop_count SYSTEM matches 216 in overworld run tp @a -5063 104 -4958
-execute if score update_loop_count SYSTEM matches 217 in overworld run tp @a -4887 72 -5011
-execute if score update_loop_count SYSTEM matches 218 in overworld run tp @a -4887 72 -5011
-execute if score update_loop_count SYSTEM matches 219 in overworld run tp @a -4887 72 -5011
-execute if score update_loop_count SYSTEM matches 220 in overworld run tp @a -4587 74 -5165
-execute if score update_loop_count SYSTEM matches 221 in overworld run tp @a -4587 74 -5165
-execute if score update_loop_count SYSTEM matches 222 in overworld run tp @a -4587 74 -5165
-execute if score update_loop_count SYSTEM matches 223 in overworld run tp @a -5341 115 -6241
-execute if score update_loop_count SYSTEM matches 224 in overworld run tp @a -5341 115 -6241
-execute if score update_loop_count SYSTEM matches 225 in overworld run tp @a -5340 116 -6241
-execute if score update_loop_count SYSTEM matches 226 in overworld run tp @a -4267 17 -6084
-execute if score update_loop_count SYSTEM matches 227 in overworld run tp @a -4267 17 -6084
-execute if score update_loop_count SYSTEM matches 228 in overworld run tp @a -4267 17 -6084
-execute if score update_loop_count SYSTEM matches 229 in overworld run tp @a -4267 17 -6084
-execute if score update_loop_count SYSTEM matches 230 in overworld run tp @a -3804 72 -5884
-execute if score update_loop_count SYSTEM matches 231 in overworld run tp @a -3804 72 -5884
-execute if score update_loop_count SYSTEM matches 232 in overworld run tp @a -3804 72 -5884
-execute if score update_loop_count SYSTEM matches 233 in overworld run tp @a -3804 72 -5884
-execute if score update_loop_count SYSTEM matches 234 in overworld run tp @a -5102 86 -4972
-execute if score update_loop_count SYSTEM matches 235 in overworld run tp @a -5102 86 -4972
-execute if score update_loop_count SYSTEM matches 236 in overworld run tp @a -5102 86 -4972
-execute if score update_loop_count SYSTEM matches 237 in overworld run tp @a -4539 72 -4524
-execute if score update_loop_count SYSTEM matches 238 in overworld run tp @a -4539 72 -4524
-execute if score update_loop_count SYSTEM matches 239 in overworld run tp @a -4539 72 -4524
-execute if score update_loop_count SYSTEM matches 240 in overworld run tp @a -5547 73 -5154
-execute if score update_loop_count SYSTEM matches 241 in overworld run tp @a -5547 73 -5154
-execute if score update_loop_count SYSTEM matches 242 in overworld run tp @a -5547 73 -5154
-execute if score update_loop_count SYSTEM matches 243 in overworld run tp @a -5223 49 -4448
-execute if score update_loop_count SYSTEM matches 244 in overworld run tp @a -5223 50 -4448
-execute if score update_loop_count SYSTEM matches 245 in overworld run tp @a -5223 50 -4448
-execute if score update_loop_count SYSTEM matches 246 in overworld run tp @a -5209 39 -4341
-execute if score update_loop_count SYSTEM matches 247 in overworld run tp @a -5209 39 -4341
-execute if score update_loop_count SYSTEM matches 248 in overworld run tp @a -5209 39 -4341
-execute if score update_loop_count SYSTEM matches 249 in the_nether run tp @a 3925 47 3902
-execute if score update_loop_count SYSTEM matches 250 in the_nether run tp @a 3925 47 3902
-execute if score update_loop_count SYSTEM matches 251 in the_nether run tp @a 3925 47 3902
-execute if score update_loop_count SYSTEM matches 252 in the_nether run tp @a 3469 36 3715
-execute if score update_loop_count SYSTEM matches 253 in the_nether run tp @a 3469 36 3715
-execute if score update_loop_count SYSTEM matches 254 in the_nether run tp @a 3469 36 3715
-execute if score update_loop_count SYSTEM matches 255 in the_nether run tp @a 3435 33 3746
-execute if score update_loop_count SYSTEM matches 256 in the_nether run tp @a 3435 33 3746
-execute if score update_loop_count SYSTEM matches 257 in the_nether run tp @a 3435 33 3746
-execute if score update_loop_count SYSTEM matches 258 in overworld run tp @a -3462 29 -4963
-execute if score update_loop_count SYSTEM matches 259 in overworld run tp @a -3462 29 -4963
-execute if score update_loop_count SYSTEM matches 260 in overworld run tp @a -3462 29 -4963
-execute if score update_loop_count SYSTEM matches 261 in overworld run tp @a -3464 29 -4961
-execute if score update_loop_count SYSTEM matches 262 in overworld run tp @a -3464 29 -4961
-execute if score update_loop_count SYSTEM matches 263 in overworld run tp @a -3464 29 -4961
-execute if score update_loop_count SYSTEM matches 264 in overworld run tp @a -3422 29 -4961
-execute if score update_loop_count SYSTEM matches 265 in overworld run tp @a -3422 29 -4961
-execute if score update_loop_count SYSTEM matches 266 in overworld run tp @a -3422 29 -4961
-execute if score update_loop_count SYSTEM matches 267 in overworld run tp @a -3424 29 -4963
-execute if score update_loop_count SYSTEM matches 268 in overworld run tp @a -3424 29 -4963
-execute if score update_loop_count SYSTEM matches 269 in overworld run tp @a -3424 29 -4963
-execute if score update_loop_count SYSTEM matches 270 in overworld run tp @a -3424 29 -4921
-execute if score update_loop_count SYSTEM matches 271 in overworld run tp @a -3424 29 -4921
-execute if score update_loop_count SYSTEM matches 272 in overworld run tp @a -3424 29 -4921
-execute if score update_loop_count SYSTEM matches 273 in overworld run tp @a -3422 29 -4923
-execute if score update_loop_count SYSTEM matches 274 in overworld run tp @a -3422 29 -4923
-execute if score update_loop_count SYSTEM matches 275 in overworld run tp @a -3422 29 -4923
-execute if score update_loop_count SYSTEM matches 276 in overworld run tp @a -3464 29 -4923
-execute if score update_loop_count SYSTEM matches 277 in overworld run tp @a -3464 29 -4923
-execute if score update_loop_count SYSTEM matches 278 in overworld run tp @a -3464 29 -4923
-execute if score update_loop_count SYSTEM matches 279 in overworld run tp @a -3462 29 -4921
-execute if score update_loop_count SYSTEM matches 280 in overworld run tp @a -3462 29 -4921
-execute if score update_loop_count SYSTEM matches 281 in overworld run tp @a -3462 29 -4921
-execute if score update_loop_count SYSTEM matches 282 in overworld run tp @a -3545 89 -4942
-execute if score update_loop_count SYSTEM matches 283 in overworld run tp @a -3545 89 -4942
-execute if score update_loop_count SYSTEM matches 284 in overworld run tp @a -3545 89 -4942
-execute if score update_loop_count SYSTEM matches 285 in overworld run tp @a -3541 29 -4885
-execute if score update_loop_count SYSTEM matches 286 in overworld run tp @a -3541 29 -4885
-execute if score update_loop_count SYSTEM matches 287 in overworld run tp @a -3541 29 -4885
-execute if score update_loop_count SYSTEM matches 288 in overworld run tp @a -4978 79 -5036
-execute if score update_loop_count SYSTEM matches 289 in overworld run tp @a -4978 79 -5036
-execute if score update_loop_count SYSTEM matches 290 in overworld run tp @a -5105.5 105.9 -4958.5
-execute if score update_loop_count SYSTEM matches 291 in overworld run tp @a -5105.5 105.9 -4958.5
-execute if score update_loop_count SYSTEM matches 292 in overworld run tp @a -5080 79 -5036
-execute if score update_loop_count SYSTEM matches 293 in overworld run tp @a -5080 79 -5036
-execute if score update_loop_count SYSTEM matches 294 in overworld run tp @a -5080 79 -5036
-execute if score update_loop_count SYSTEM matches 295 in overworld run tp @a -4735 70 -4499
-execute if score update_loop_count SYSTEM matches 296 in overworld run tp @a -4736 70 -4498
-execute if score update_loop_count SYSTEM matches 297 in overworld run tp @a -4737 70 -4497
-execute if score update_loop_count SYSTEM matches 298 in overworld run tp @a -4738 70 -4496
-execute if score update_loop_count SYSTEM matches 299 in overworld run tp @a -4739 70 -4495
-execute if score update_loop_count SYSTEM matches 300 in overworld run tp @a -4740 70 -4494
-execute if score update_loop_count SYSTEM matches 301 in overworld run tp @a -4741 70 -4493
-execute if score update_loop_count SYSTEM matches 302 in overworld run tp @a -4742 70 -4492
-execute if score update_loop_count SYSTEM matches 303 in overworld run tp @a -4743 70 -4491
-execute if score update_loop_count SYSTEM matches 304 in overworld run tp @a -4744 70 -4490
-execute if score update_loop_count SYSTEM matches 305 in overworld run tp @a -4745 70 -4489
-execute if score update_loop_count SYSTEM matches 306 in overworld run tp @a -4746 70 -4488
-execute if score update_loop_count SYSTEM matches 307 in overworld run tp @a -4747 70 -4487
-execute if score update_loop_count SYSTEM matches 308 in overworld run tp @a -4734 70 -4499
-execute if score update_loop_count SYSTEM matches 309 in overworld run tp @a -4735 70 -4498
-execute if score update_loop_count SYSTEM matches 310 in overworld run tp @a -4736 70 -4497
-execute if score update_loop_count SYSTEM matches 311 in overworld run tp @a -4737 70 -4496
-execute if score update_loop_count SYSTEM matches 312 in overworld run tp @a -4738 70 -4495
-execute if score update_loop_count SYSTEM matches 313 in overworld run tp @a -4739 70 -4494
-execute if score update_loop_count SYSTEM matches 314 in overworld run tp @a -4740 70 -4493
-execute if score update_loop_count SYSTEM matches 315 in overworld run tp @a -4741 70 -4492
-execute if score update_loop_count SYSTEM matches 316 in overworld run tp @a -4742 70 -4491
-execute if score update_loop_count SYSTEM matches 317 in overworld run tp @a -4743 70 -4490
-execute if score update_loop_count SYSTEM matches 318 in overworld run tp @a -4744 70 -4489
-execute if score update_loop_count SYSTEM matches 319 in overworld run tp @a -4745 70 -4488
-execute if score update_loop_count SYSTEM matches 320 in overworld run tp @a -4746 70 -4487
-execute if score update_loop_count SYSTEM matches 321 in overworld run tp @a -4747 70 -4486
-execute if score update_loop_count SYSTEM matches 322 in overworld run tp @a -4735 70 -4500
-execute if score update_loop_count SYSTEM matches 323 in overworld run tp @a -4736 70 -4499
-execute if score update_loop_count SYSTEM matches 324 in overworld run tp @a -4737 70 -4498
-execute if score update_loop_count SYSTEM matches 325 in overworld run tp @a -4738 70 -4497
-execute if score update_loop_count SYSTEM matches 326 in overworld run tp @a -4739 70 -4496
-execute if score update_loop_count SYSTEM matches 327 in overworld run tp @a -4740 70 -4495
-execute if score update_loop_count SYSTEM matches 328 in overworld run tp @a -4741 70 -4494
-execute if score update_loop_count SYSTEM matches 329 in overworld run tp @a -4742 70 -4493
-execute if score update_loop_count SYSTEM matches 330 in overworld run tp @a -4743 70 -4492
-execute if score update_loop_count SYSTEM matches 331 in overworld run tp @a -4744 70 -4491
-execute if score update_loop_count SYSTEM matches 332 in overworld run tp @a -4745 70 -4490
-execute if score update_loop_count SYSTEM matches 333 in overworld run tp @a -4746 70 -4489
-execute if score update_loop_count SYSTEM matches 334 in overworld run tp @a -4747 70 -4488
-execute if score update_loop_count SYSTEM matches 335 in overworld run tp @a -4748 70 -4487
-execute if score update_loop_count SYSTEM matches 336 in overworld run tp @a -4756 70 -4475
-execute if score update_loop_count SYSTEM matches 337 in overworld run tp @a -4757 70 -4474
-execute if score update_loop_count SYSTEM matches 338 in overworld run tp @a -4758 70 -4473
-execute if score update_loop_count SYSTEM matches 339 in overworld run tp @a -4759 70 -4472
-execute if score update_loop_count SYSTEM matches 340 in overworld run tp @a -4760 70 -4471
-execute if score update_loop_count SYSTEM matches 341 in overworld run tp @a -4761 70 -4470
-execute if score update_loop_count SYSTEM matches 342 in overworld run tp @a -4762 70 -4469
-execute if score update_loop_count SYSTEM matches 343 in overworld run tp @a -4763 70 -4468
-execute if score update_loop_count SYSTEM matches 344 in overworld run tp @a -4764 70 -4467
-execute if score update_loop_count SYSTEM matches 345 in overworld run tp @a -4757 70 -4475
-execute if score update_loop_count SYSTEM matches 346 in overworld run tp @a -4758 70 -4474
-execute if score update_loop_count SYSTEM matches 347 in overworld run tp @a -4759 70 -4473
-execute if score update_loop_count SYSTEM matches 348 in overworld run tp @a -4760 70 -4472
-execute if score update_loop_count SYSTEM matches 349 in overworld run tp @a -4761 70 -4471
-execute if score update_loop_count SYSTEM matches 350 in overworld run tp @a -4762 70 -4470
-execute if score update_loop_count SYSTEM matches 351 in overworld run tp @a -4763 70 -4469
-execute if score update_loop_count SYSTEM matches 352 in overworld run tp @a -4764 70 -4468
-execute if score update_loop_count SYSTEM matches 353 in overworld run tp @a -4765 70 -4467
-execute if score update_loop_count SYSTEM matches 354 in overworld run tp @a -4756 70 -4474
-execute if score update_loop_count SYSTEM matches 355 in overworld run tp @a -4757 70 -4473
-execute if score update_loop_count SYSTEM matches 356 in overworld run tp @a -4758 70 -4472
-execute if score update_loop_count SYSTEM matches 357 in overworld run tp @a -4759 70 -4471
-execute if score update_loop_count SYSTEM matches 358 in overworld run tp @a -4760 70 -4470
-execute if score update_loop_count SYSTEM matches 359 in overworld run tp @a -4761 70 -4469
-execute if score update_loop_count SYSTEM matches 360 in overworld run tp @a -4762 70 -4468
-execute if score update_loop_count SYSTEM matches 361 in overworld run tp @a -4763 70 -4467
-execute if score update_loop_count SYSTEM matches 362 in overworld run tp @a -4764 70 -4466
-execute if score update_loop_count SYSTEM matches 363 in overworld run tp @a -3594 74 -5016
-execute if score update_loop_count SYSTEM matches 364 in overworld run tp @a -3594 74 -5016
-execute if score update_loop_count SYSTEM matches 365 in overworld run tp @a -3594 74 -5016
-execute if score update_loop_count SYSTEM matches 366 in the_nether run tp @a 3570 84 4518
-execute if score update_loop_count SYSTEM matches 367 in overworld run tp @a -4659 71 -5475
-execute if score update_loop_count SYSTEM matches 368 in overworld run tp @a -4659 71 -5475
-execute if score update_loop_count SYSTEM matches 369 in overworld run tp @a -4571 53 -5930
-execute if score update_loop_count SYSTEM matches 370 in overworld run tp @a -5215 59 -4387
-execute if score update_loop_count SYSTEM matches 371 in overworld run tp @a -3338.5 126.0 4943.5
-execute if score update_loop_count SYSTEM matches 372 in overworld run tp @a -3338.5 126.0 4943.5
-execute if score update_loop_count SYSTEM matches 373 in overworld run tp @a -9545 72 -10447
-execute if score update_loop_count SYSTEM matches 374 in overworld run tp @a -4952 98 -4440
-execute if score update_loop_count SYSTEM matches 375 in overworld run tp @a -4948 98 -4440
-execute if score update_loop_count SYSTEM matches 376 in overworld run tp @a -4949 96 -4457
-execute if score update_loop_count SYSTEM matches 377 in overworld run tp @a -4951 96 -4457
-execute if score update_loop_count SYSTEM matches 378 in overworld run tp @a -4980 99 -4450
-execute if score update_loop_count SYSTEM matches 379 in overworld run tp @a -4982 72 -4450
-execute if score update_loop_count SYSTEM matches 380 in overworld run tp @a -5016 90 -4304
-execute if score update_loop_count SYSTEM matches 381 in overworld run tp @a -4942 70 -4381
-execute if score update_loop_count SYSTEM matches 382 in overworld run tp @a -4920 81 -4381
-execute if score update_loop_count SYSTEM matches 383 in overworld run tp @a -4676 69 -5511
-execute if score update_loop_count SYSTEM matches 384 in overworld run tp @a -4668 73 -5488
-execute if score update_loop_count SYSTEM matches 385 in overworld run tp @a -4615 73 -5469
-execute if score update_loop_count SYSTEM matches 386 in overworld run tp @a -4677 79 -5505
-execute if score update_loop_count SYSTEM matches 387 in overworld run tp @a -4677 72 -5522
-execute if score update_loop_count SYSTEM matches 388 in overworld run tp @a -4676 77 -5521
-execute if score update_loop_count SYSTEM matches 389 in overworld run tp @a -4676 77 -5521
-execute if score update_loop_count SYSTEM matches 390 in overworld run tp @a -4954 96 -4447
-execute if score update_loop_count SYSTEM matches 391 in overworld run tp @a -4946 96 -4447
-execute if score update_loop_count SYSTEM matches 392 in overworld run tp @a -4946 96 -4455
-execute if score update_loop_count SYSTEM matches 393 in overworld run tp @a -4954 96 -4455
-execute if score update_loop_count SYSTEM matches 394 in the_nether run tp @a 3469 35 3718
-execute if score update_loop_count SYSTEM matches 395 in the_nether run tp @a 3469 35 3719
-execute if score update_loop_count SYSTEM matches 396 in the_nether run tp @a 3452 49 4525
-execute if score update_loop_count SYSTEM matches 397 in the_nether run tp @a 3629 46 4615
-execute if score update_loop_count SYSTEM matches 398 in the_nether run tp @a 3643 48 4611
-execute if score update_loop_count SYSTEM matches 399 in the_nether run tp @a 3644 48 4611
-execute if score update_loop_count SYSTEM matches 400 in the_nether run tp @a 3574 89 4546
-execute if score update_loop_count SYSTEM matches 401 in the_nether run tp @a 3707 85 4585
-execute if score update_loop_count SYSTEM matches 402 in the_nether run tp @a 3570 84 4530
-execute if score update_loop_count SYSTEM matches 403 in the_nether run tp @a 3564 88 4541
-execute if score update_loop_count SYSTEM matches 404 in overworld run tp @a -4979 145 -4920
-execute if score update_loop_count SYSTEM matches 405 in overworld run tp @a -4942 126 -4895
-execute if score update_loop_count SYSTEM matches 406 in overworld run tp @a -5007 118 -4925
-execute if score update_loop_count SYSTEM matches 407 in overworld run tp @a -5007 118 -4926
-execute if score update_loop_count SYSTEM matches 408 in overworld run tp @a -5382 144 -5988
-execute if score update_loop_count SYSTEM matches 409 in overworld run tp @a -5269 111 -6300
-execute if score update_loop_count SYSTEM matches 410 in overworld run tp @a -5270 111 -6300
-execute if score update_loop_count SYSTEM matches 411 in overworld run tp @a -5024 91 -4960
-execute if score update_loop_count SYSTEM matches 412 in overworld run tp @a -5024 92 -4960
-execute if score update_loop_count SYSTEM matches 413 in overworld run tp @a -5022 92 -4960
-execute if score update_loop_count SYSTEM matches 414 in overworld run tp @a -5034 91 -4960
-execute if score update_loop_count SYSTEM matches 415 in overworld run tp @a -5034 92 -4960
-execute if score update_loop_count SYSTEM matches 416 in overworld run tp @a -5036 92 -4960
-execute if score update_loop_count SYSTEM matches 417 in overworld run tp @a -5521 133 -6324
-execute if score update_loop_count SYSTEM matches 418 in the_end run tp @a -1224 91 -533
-execute if score update_loop_count SYSTEM matches 419 in the_end run tp @a -1237 118 -487
-execute if score update_loop_count SYSTEM matches 420 in the_end run tp @a -1237 117 -487
-execute if score update_loop_count SYSTEM matches 421 in the_end run tp @a -1241 118 -487
-execute if score update_loop_count SYSTEM matches 422 in the_end run tp @a -1241 117 -487
-execute if score update_loop_count SYSTEM matches 423 in overworld run tp @a -5112 160 -6739
-execute if score update_loop_count SYSTEM matches 424 in overworld run tp @a -5112 159 -6739
-execute if score update_loop_count SYSTEM matches 425 in overworld run tp @a -5229 140 -6293
-execute if score update_loop_count SYSTEM matches 426 in overworld run tp @a -5229 141 -6293
-execute if score update_loop_count SYSTEM matches 427 in overworld run tp @a -5229 142 -6294
-execute if score update_loop_count SYSTEM matches 428 in overworld run tp @a -7349 107 -4421
+execute if score update_loop_count SYSTEM matches 2 in overworld run tp @a -5032.5 102 -4927.5
+execute if score update_loop_count SYSTEM matches 3 in overworld run tp @a -6703.2 142.65 7075.5
+execute if score update_loop_count SYSTEM matches 4 in overworld run tp @a -5256.4 83.8 -6383.5
+execute if score update_loop_count SYSTEM matches 5 in overworld run tp @a -4070.05 45.7 -4291.03
+execute if score update_loop_count SYSTEM matches 6 in overworld run tp @a -7542.55 60.75 -4184.15
+execute if score update_loop_count SYSTEM matches 7 in overworld run tp @a -5110.65 163.8 -6756.65
+execute if score update_loop_count SYSTEM matches 8 in overworld run tp @a -5122.45 17.05 -4380.8
+execute if score update_loop_count SYSTEM matches 9 in overworld run tp @a -5551.05 49.45 -4532.05
+execute if score update_loop_count SYSTEM matches 10 in overworld run tp @a -5519.1 26.05 -4190.45
+execute if score update_loop_count SYSTEM matches 11 in overworld run tp @a -5355.5 40.0 -4910.1
+execute if score update_loop_count SYSTEM matches 12 in overworld run tp @a -5132.95 109.15 -6197.15
+execute if score update_loop_count SYSTEM matches 13 in overworld run tp @a -4621.1 70.9 -5052.5
+execute if score update_loop_count SYSTEM matches 14 in overworld run tp @a -4635.1 68.9 -5521.05
+execute if score update_loop_count SYSTEM matches 15 in overworld run tp @a -3442.9 31.6 -4941.8
+execute if score update_loop_count SYSTEM matches 16 in overworld run tp @a -4658 58 -4841
+execute if score update_loop_count SYSTEM matches 17 in overworld run tp @a 7390.87 182.6 6460.05
+execute if score update_loop_count SYSTEM matches 18 in overworld run tp @a 7707.87 164.4 5956.05
+execute if score update_loop_count SYSTEM matches 19 in overworld run tp @a -7411.5 156.0 -6019.0
+execute if score update_loop_count SYSTEM matches 20 in overworld run tp @a -7411.2 155.1 -6003.0
+execute if score update_loop_count SYSTEM matches 21 in overworld run tp @a -7452.2 155.1 -5928.0
+execute if score update_loop_count SYSTEM matches 22 in overworld run tp @a -7421.2 155.1 -5952.0
+execute if score update_loop_count SYSTEM matches 23 in overworld run tp @a -7407.8 160.1 -5979.5
+execute if score update_loop_count SYSTEM matches 24 in overworld run tp @a -7452.8 155.1 -5895.5
+execute if score update_loop_count SYSTEM matches 25 in overworld run tp @a -4848 119 -6262
+execute if score update_loop_count SYSTEM matches 26 in overworld run tp @a -6152 32 -3772
+execute if score update_loop_count SYSTEM matches 27 in overworld run tp @a -4329 52 -5989
+execute if score update_loop_count SYSTEM matches 28 in overworld run tp @a -5310 112 -6191
+execute if score update_loop_count SYSTEM matches 29 in overworld run tp @a -5252 118 -6293
+execute if score update_loop_count SYSTEM matches 30 in overworld run tp @a -5263 112 -6303
+execute if score update_loop_count SYSTEM matches 31 in overworld run tp @a -3892 89 -5604
+execute if score update_loop_count SYSTEM matches 32 in overworld run tp @a -7423 160 -5982
+execute if score update_loop_count SYSTEM matches 33 in overworld run tp @a -7422 158 -5973
+execute if score update_loop_count SYSTEM matches 34 in overworld run tp @a -7457 165 -5994
+execute if score update_loop_count SYSTEM matches 35 in overworld run tp @a -7424 158 -5968
+execute if score update_loop_count SYSTEM matches 36 in overworld run tp @a -7440 158 -5969
+execute if score update_loop_count SYSTEM matches 37 in overworld run tp @a -7424 158 -6018
+execute if score update_loop_count SYSTEM matches 38 in overworld run tp @a -7426 163 -5954
+execute if score update_loop_count SYSTEM matches 39 in overworld run tp @a -7435 165 -5927
+execute if score update_loop_count SYSTEM matches 40 in overworld run tp @a -5112 163 -6770
+execute if score update_loop_count SYSTEM matches 41 in overworld run tp @a -4334 53 -5981
+execute if score update_loop_count SYSTEM matches 42 in overworld run tp @a 29949 123 30068
+execute if score update_loop_count SYSTEM matches 43 in overworld run tp @a 784 82 892
+execute if score update_loop_count SYSTEM matches 44 in overworld run tp @a -5106 106 -4966
+execute if score update_loop_count SYSTEM matches 45 in overworld run tp @a -5103.5 105.9 -4956.5
+execute if score update_loop_count SYSTEM matches 46 in overworld run tp @a -4978 79 -5036
+execute if score update_loop_count SYSTEM matches 47 in overworld run tp @a -3771 90 -5920
+execute if score update_loop_count SYSTEM matches 48 in overworld run tp @a -3773.5 90.0 -5916.45
+execute if score update_loop_count SYSTEM matches 49 in overworld run tp @a -5224.5 99.0 -6277.45
+execute if score update_loop_count SYSTEM matches 50 in overworld run tp @a -5446.5 58.0 -4614.45
+execute if score update_loop_count SYSTEM matches 51 in overworld run tp @a -5355 42 -4910
+execute if score update_loop_count SYSTEM matches 52 in overworld run tp @a -5052 93 -4974
+execute if score update_loop_count SYSTEM matches 53 in overworld run tp @a -3804 72 -5861
+execute if score update_loop_count SYSTEM matches 54 in overworld run tp @a -5332 107 -6269
+execute if score update_loop_count SYSTEM matches 55 in overworld run tp @a -5412 51 -4660
+execute if score update_loop_count SYSTEM matches 56 in overworld run tp @a -4971 95 -5800
+execute if score update_loop_count SYSTEM matches 57 in overworld run tp @a 7350 120 7363
+execute if score update_loop_count SYSTEM matches 58 in overworld run tp @a 29973 101 30064
+execute if score update_loop_count SYSTEM matches 59 in overworld run tp @a 29965 88 30022
+execute if score update_loop_count SYSTEM matches 60 in overworld run tp @a -4990 21 -4381
+execute if score update_loop_count SYSTEM matches 61 in overworld run tp @a -4628 72 -4594
+execute if score update_loop_count SYSTEM matches 62 in overworld run tp @a -3629.5 70.0 -4959.5
+execute if score update_loop_count SYSTEM matches 63 in overworld run tp @a -4572 74 -5426
+execute if score update_loop_count SYSTEM matches 64 in overworld run tp @a -5057 78 -5059
+execute if score update_loop_count SYSTEM matches 65 in overworld run tp @a -5080 79 -5036
+execute if score update_loop_count SYSTEM matches 66 in overworld run tp @a -5063 104 -4958
+execute if score update_loop_count SYSTEM matches 67 in overworld run tp @a -4887 72 -5011
+execute if score update_loop_count SYSTEM matches 68 in overworld run tp @a -4587 74 -5165
+execute if score update_loop_count SYSTEM matches 69 in overworld run tp @a -5341 115 -6241
+execute if score update_loop_count SYSTEM matches 70 in overworld run tp @a -4267 17 -6084
+execute if score update_loop_count SYSTEM matches 71 in overworld run tp @a -3804 72 -5884
+execute if score update_loop_count SYSTEM matches 72 in overworld run tp @a -5102 86 -4972
+execute if score update_loop_count SYSTEM matches 73 in overworld run tp @a -4539 72 -4524
+execute if score update_loop_count SYSTEM matches 74 in overworld run tp @a -5547 73 -5154
+execute if score update_loop_count SYSTEM matches 75 in overworld run tp @a -5223 49 -4448
+execute if score update_loop_count SYSTEM matches 76 in overworld run tp @a -5209 39 -4341
+execute if score update_loop_count SYSTEM matches 77 in overworld run tp @a -3462 29 -4963
+execute if score update_loop_count SYSTEM matches 78 in overworld run tp @a -3422 29 -4961
+execute if score update_loop_count SYSTEM matches 79 in overworld run tp @a -3424 29 -4921
+execute if score update_loop_count SYSTEM matches 80 in overworld run tp @a -3462 29 -4921
+execute if score update_loop_count SYSTEM matches 81 in overworld run tp @a -3545 89 -4942
+execute if score update_loop_count SYSTEM matches 82 in overworld run tp @a -3541 29 -4885
+execute if score update_loop_count SYSTEM matches 83 in overworld run tp @a -4735 70 -4499
+execute if score update_loop_count SYSTEM matches 84 in overworld run tp @a -4756 70 -4475
+execute if score update_loop_count SYSTEM matches 85 in overworld run tp @a -4937 70 -4010
+execute if score update_loop_count SYSTEM matches 86 in overworld run tp @a -3594 74 -5016
+execute if score update_loop_count SYSTEM matches 87 in overworld run tp @a -5610 136 -6475
+execute if score update_loop_count SYSTEM matches 88 in overworld run tp @a -4659 71 -5475
+execute if score update_loop_count SYSTEM matches 89 in overworld run tp @a -4571 53 -5930
+execute if score update_loop_count SYSTEM matches 90 in overworld run tp @a 775 71 781
+execute if score update_loop_count SYSTEM matches 91 in overworld run tp @a -5215 59 -4387
+execute if score update_loop_count SYSTEM matches 92 in overworld run tp @a -3338.5 126.0 4943.5
+execute if score update_loop_count SYSTEM matches 93 in overworld run tp @a -9545 72 -10447
+execute if score update_loop_count SYSTEM matches 94 in overworld run tp @a -4952 98 -4440
+execute if score update_loop_count SYSTEM matches 95 in overworld run tp @a -4980 99 -4450
+execute if score update_loop_count SYSTEM matches 96 in overworld run tp @a -5016 90 -4304
+execute if score update_loop_count SYSTEM matches 97 in overworld run tp @a -4942 70 -4381
+execute if score update_loop_count SYSTEM matches 98 in overworld run tp @a -4920 81 -4381
+execute if score update_loop_count SYSTEM matches 99 in overworld run tp @a -4676 69 -5511
+execute if score update_loop_count SYSTEM matches 100 in overworld run tp @a -4668 73 -5488
+execute if score update_loop_count SYSTEM matches 101 in overworld run tp @a -4615 73 -5469
+execute if score update_loop_count SYSTEM matches 102 in overworld run tp @a -4677 79 -5505
+execute if score update_loop_count SYSTEM matches 103 in overworld run tp @a -4677 72 -5522
+execute if score update_loop_count SYSTEM matches 104 in overworld run tp @a -4954 96 -4447
+execute if score update_loop_count SYSTEM matches 105 in overworld run tp @a -4979 145 -4920
+execute if score update_loop_count SYSTEM matches 106 in overworld run tp @a -4942 126 -4895
+execute if score update_loop_count SYSTEM matches 107 in overworld run tp @a -5007 118 -4925
+execute if score update_loop_count SYSTEM matches 108 in overworld run tp @a -5382 144 -5988
+execute if score update_loop_count SYSTEM matches 109 in overworld run tp @a -5269 111 -6300
+execute if score update_loop_count SYSTEM matches 110 in overworld run tp @a -5024 91 -4960
+execute if score update_loop_count SYSTEM matches 111 in overworld run tp @a -5034 91 -4960
+execute if score update_loop_count SYSTEM matches 112 in overworld run tp @a -5521 133 -6324
+execute if score update_loop_count SYSTEM matches 113 in overworld run tp @a -5112 160 -6739
+execute if score update_loop_count SYSTEM matches 114 in overworld run tp @a -5229 140 -6293
+execute if score update_loop_count SYSTEM matches 115 in overworld run tp @a -7349 107 -4421
+
+# Nether
+execute if score update_loop_count SYSTEM matches 116 in the_nether run tp @a 3076.34 71.05 4191.34
+execute if score update_loop_count SYSTEM matches 117 in the_nether run tp @a 3485 23 4024
+execute if score update_loop_count SYSTEM matches 118 in the_nether run tp @a 3918 94 4096
+execute if score update_loop_count SYSTEM matches 119 in the_nether run tp @a 3565 98 4608
+execute if score update_loop_count SYSTEM matches 120 in the_nether run tp @a 3570 90 4567
+execute if score update_loop_count SYSTEM matches 121 in the_nether run tp @a 3593 99 4552
+execute if score update_loop_count SYSTEM matches 122 in the_nether run tp @a 3608 110 4605
+execute if score update_loop_count SYSTEM matches 123 in the_nether run tp @a 3612 102 4571
+execute if score update_loop_count SYSTEM matches 124 in the_nether run tp @a 3701 110 4599
+execute if score update_loop_count SYSTEM matches 125 in the_nether run tp @a 3644 102 4576
+execute if score update_loop_count SYSTEM matches 126 in the_nether run tp @a 3474 34 3716
+execute if score update_loop_count SYSTEM matches 127 in the_nether run tp @a 3925 47 3902
+execute if score update_loop_count SYSTEM matches 128 in the_nether run tp @a 3469 36 3715
+execute if score update_loop_count SYSTEM matches 129 in the_nether run tp @a 3435 33 3746
+execute if score update_loop_count SYSTEM matches 130 in the_nether run tp @a 3570 84 4518
+execute if score update_loop_count SYSTEM matches 131 in the_nether run tp @a 3469 35 3718
+execute if score update_loop_count SYSTEM matches 132 in the_nether run tp @a 3452 49 4525
+execute if score update_loop_count SYSTEM matches 133 in the_nether run tp @a 3629 46 4615
+execute if score update_loop_count SYSTEM matches 134 in the_nether run tp @a 3643 48 4611
+execute if score update_loop_count SYSTEM matches 135 in the_nether run tp @a 3574 89 4546
+execute if score update_loop_count SYSTEM matches 136 in the_nether run tp @a 3707 85 4585
+execute if score update_loop_count SYSTEM matches 137 in the_nether run tp @a 3564 88 4541
+
+# End
+execute if score update_loop_count SYSTEM matches 138 in the_end run tp @a -1579.15 27.75 -604.9
+execute if score update_loop_count SYSTEM matches 139 in the_end run tp @a -1238.1 27.5 -615.1
+execute if score update_loop_count SYSTEM matches 140 in the_end run tp @a -625 13 -628
+execute if score update_loop_count SYSTEM matches 141 in the_end run tp @a -1104 255 -602
+execute if score update_loop_count SYSTEM matches 142 in the_end run tp @a -1052 22 -610
+execute if score update_loop_count SYSTEM matches 143 in the_end run tp @a -1224 91 -533
+execute if score update_loop_count SYSTEM matches 144 in the_end run tp @a -1237 118 -487
 
 #reset
-execute if score update_loop_count SYSTEM matches 428.. run scoreboard players set update_loop_count SYSTEM 0
+execute if score update_loop_count SYSTEM matches 144.. run scoreboard players set update_loop_count SYSTEM 0
 
 
 #set block
@@ -590,31 +311,31 @@ execute in overworld positioned -6152 32 -3772 run setblock ~ ~ ~ command_block{
 execute in overworld positioned -6151 32 -3772 run setblock ~ ~ ~ air
 execute in overworld positioned -6150 32 -3772 run setblock ~ ~ ~ air
 ##all book chest name
-execute in the_nether run data merge block 3565 98 4608 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_1",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_1.name},lore:[{translate:att2.book.alchimancy_1.lore.1},{translate:att2.book.alchimancy_1.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in the_nether run data merge block 3570 90 4567 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_2",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_2.name},lore:[{translate:att2.book.alchimancy_2.lore.1},{translate:att2.book.alchimancy_2.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in the_nether run data merge block 3593 99 4552 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_2",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_2.name},lore:[{translate:att2.book.alchimancy_2.lore.1},{translate:att2.book.alchimancy_2.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in the_nether run data merge block 3608 110 4605 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_4",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_4.name},lore:[{translate:att2.book.alchimancy_4.lore.1},{translate:att2.book.alchimancy_4.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in the_nether run data merge block 3612 102 4571 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_5",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_5.name},lore:[{translate:att2.book.alchimancy_5.lore.1},{translate:att2.book.alchimancy_5.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in the_nether run data merge block 3701 110 4599 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_6",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_6.name},lore:[{translate:att2.book.alchimancy_6.lore.1},{translate:att2.book.alchimancy_6.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in the_nether run data merge block 3644 102 4576 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_7",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_7.name},lore:[{translate:att2.book.alchimancy_7.lore.1},{translate:att2.book.alchimancy_7.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in the_nether positioned 3565 98 4608 run data merge block 3565 98 4608 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_1",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_1.name},lore:[{translate:att2.book.alchimancy_1.lore.1},{translate:att2.book.alchimancy_1.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in the_nether positioned 3570 90 4567 run data merge block 3570 90 4567 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_2",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_2.name},lore:[{translate:att2.book.alchimancy_2.lore.1},{translate:att2.book.alchimancy_2.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in the_nether positioned 3593 99 4552 run data merge block 3593 99 4552 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_2",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_2.name},lore:[{translate:att2.book.alchimancy_2.lore.1},{translate:att2.book.alchimancy_2.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in the_nether positioned 3608 110 4605 run data merge block 3608 110 4605 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_4",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_4.name},lore:[{translate:att2.book.alchimancy_4.lore.1},{translate:att2.book.alchimancy_4.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in the_nether positioned 3612 102 4571 run data merge block 3612 102 4571 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_5",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_5.name},lore:[{translate:att2.book.alchimancy_5.lore.1},{translate:att2.book.alchimancy_5.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in the_nether positioned 3701 110 4599 run data merge block 3701 110 4599 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_6",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_6.name},lore:[{translate:att2.book.alchimancy_6.lore.1},{translate:att2.book.alchimancy_6.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in the_nether positioned 3644 102 4576 run data merge block 3644 102 4576 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"alchimancy_7",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.alchimancy_7.name},lore:[{translate:att2.book.alchimancy_7.lore.1},{translate:att2.book.alchimancy_7.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
 
 
-execute in overworld positioned -4329 52 -5989 run data merge block -4329 52 -5989 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"concil_invitation",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.concil_invitation.name},lore:[{translate:att2.book.concil_invitation.lore.1},{translate:att2.book.concil_invitation.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -5310 112 -6191 run data merge block -5310 112 -6191 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"last_words",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.last_words.name},lore:[{translate:att2.book.last_words.lore.1},{translate:att2.book.last_words.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -5252 118 -6293 run data merge block -5252 118 -6293 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"myorain_1",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.myorain_1.name},lore:[{translate:att2.book.myorain_1.lore.1},{translate:att2.book.myorain_1.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -5263 112 -6303 run data merge block -5263 112 -6303 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"myorain_2",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.myorain_2.name},lore:[{translate:att2.book.myorain_2.lore.1},{translate:att2.book.myorain_2.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -3892 89 -5604 run data merge block -3892 89 -5604 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"parchment",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.parchment.name},lore:[{translate:att2.book.parchment.lore.1},{translate:att2.book.parchment.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -7423 160 -5982 run data merge block -7423 160 -5982 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log1",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log1.name},lore:[{translate:att2.book.ships_log1.lore.1},{translate:att2.book.ships_log1.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -7422 158 -5973 run data merge block -7422 158 -5973 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log2",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log2.name},lore:[{translate:att2.book.ships_log2.lore.1},{translate:att2.book.ships_log2.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -7457 165 -5994 run data merge block -7457 165 -5994 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log3",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log3.name},lore:[{translate:att2.book.ships_log3.lore.1},{translate:att2.book.ships_log3.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -7424 158 -5968 run data merge block -7424 158 -5968 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log4",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log4.name},lore:[{translate:att2.book.ships_log4.lore.1},{translate:att2.book.ships_log4.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -7440 158 -5969 run data merge block -7440 158 -5969 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log5",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log5.name},lore:[{translate:att2.book.ships_log5.lore.1},{translate:att2.book.ships_log5.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -7424 158 -6018 run data merge block -7424 158 -6018 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log6",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log6.name},lore:[{translate:att2.book.ships_log6.lore.1},{translate:att2.book.ships_log6.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -7426 163 -5954 run data merge block -7426 163 -5954 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log7",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log7.name},lore:[{translate:att2.book.ships_log7.lore.1},{translate:att2.book.ships_log7.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -7435 165 -5927 run data merge block -7435 165 -5927 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log8",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log8.name},lore:[{translate:att2.book.ships_log8.lore.1},{translate:att2.book.ships_log8.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -5112 163 -6770 run data merge block -5112 163 -6770 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"testament",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.testament.name},lore:[{translate:att2.book.testament.lore.1},{translate:att2.book.testament.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned -4334 53 -5981 run data merge block -4334 53 -5981 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"warning",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.warning.name},lore:[{translate:att2.book.warning.lore.1},{translate:att2.book.warning.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
-execute in overworld positioned 29949 123 30068 run data merge block 29949 123 30068 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"worlds_hunter",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.worlds_hunter.name},lore:[{translate:att2.book.worlds_hunter.lore.1},{translate:att2.book.worlds_hunter.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -4329 52 -5989 positioned -4329 52 -5989 run data merge block -4329 52 -5989 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"concil_invitation",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.concil_invitation.name},lore:[{translate:att2.book.concil_invitation.lore.1},{translate:att2.book.concil_invitation.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -5310 112 -6191 positioned -5310 112 -6191 run data merge block -5310 112 -6191 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"last_words",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.last_words.name},lore:[{translate:att2.book.last_words.lore.1},{translate:att2.book.last_words.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -5252 118 -6293 positioned -5252 118 -6293 run data merge block -5252 118 -6293 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"myorain_1",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.myorain_1.name},lore:[{translate:att2.book.myorain_1.lore.1},{translate:att2.book.myorain_1.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -5263 112 -6303 positioned -5263 112 -6303 run data merge block -5263 112 -6303 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"myorain_2",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.myorain_2.name},lore:[{translate:att2.book.myorain_2.lore.1},{translate:att2.book.myorain_2.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -3892 89 -5604 positioned -3892 89 -5604 run data merge block -3892 89 -5604 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"parchment",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.parchment.name},lore:[{translate:att2.book.parchment.lore.1},{translate:att2.book.parchment.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -7423 160 -5982 positioned -7423 160 -5982 run data merge block -7423 160 -5982 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log1",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log1.name},lore:[{translate:att2.book.ships_log1.lore.1},{translate:att2.book.ships_log1.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -7422 158 -5973 positioned -7422 158 -5973 run data merge block -7422 158 -5973 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log2",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log2.name},lore:[{translate:att2.book.ships_log2.lore.1},{translate:att2.book.ships_log2.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -7457 165 -5994 positioned -7457 165 -5994 run data merge block -7457 165 -5994 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log3",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log3.name},lore:[{translate:att2.book.ships_log3.lore.1},{translate:att2.book.ships_log3.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -7424 158 -5968 positioned -7424 158 -5968 run data merge block -7424 158 -5968 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log4",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log4.name},lore:[{translate:att2.book.ships_log4.lore.1},{translate:att2.book.ships_log4.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -7440 158 -5969 positioned -7440 158 -5969 run data merge block -7440 158 -5969 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log5",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log5.name},lore:[{translate:att2.book.ships_log5.lore.1},{translate:att2.book.ships_log5.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -7424 158 -6018 positioned -7424 158 -6018 run data merge block -7424 158 -6018 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log6",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log6.name},lore:[{translate:att2.book.ships_log6.lore.1},{translate:att2.book.ships_log6.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -7426 163 -5954 positioned -7426 163 -5954 run data merge block -7426 163 -5954 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log7",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log7.name},lore:[{translate:att2.book.ships_log7.lore.1},{translate:att2.book.ships_log7.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -7435 165 -5927 positioned -7435 165 -5927 run data merge block -7435 165 -5927 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"ships_log8",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.ships_log8.name},lore:[{translate:att2.book.ships_log8.lore.1},{translate:att2.book.ships_log8.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -5112 163 -6770 positioned -5112 163 -6770 run data merge block -5112 163 -6770 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"testament",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.testament.name},lore:[{translate:att2.book.testament.lore.1},{translate:att2.book.testament.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned -4334 53 -5981 positioned -4334 53 -5981 run data merge block -4334 53 -5981 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"warning",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.warning.name},lore:[{translate:att2.book.warning.lore.1},{translate:att2.book.warning.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
+execute in overworld positioned 29949 123 30068 positioned 29949 123 30068 run data merge block 29949 123 30068 {CustomName:[{translate:att2.chest.book.name}],Items:[{count:1,Slot:13b,id:"book",components:{item_model:"minecraft:written_book",item_name:"worlds_hunter",custom_data:{EquipmentType:'misc',Rarity:'que',Book:true},custom_name:{translate:att2.book.worlds_hunter.name},lore:[{translate:att2.book.worlds_hunter.lore.1},{translate:att2.book.worlds_hunter.lore.2}],enchantment_glint_override:true,consumable:{animation:bundle,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:"item.book.page_turn"}},use_cooldown:{seconds:0.05,cooldown_group:book},tooltip_style:"minecraft:rarity/misc/misc"}}]}
 
 
 
@@ -822,7 +543,7 @@ execute in overworld positioned 29974 101 30064 run setblock ~ ~ ~ oak_wall_sign
 #shop time
 execute in overworld positioned 29965 88 30022 run setblock ~ ~ ~ oak_wall_sign[facing=north] destroy
 #sastr chest
-execute in overworld positioned -4990 21 -4381 run data merge block -4990 21 -4381 {Items:[{Slot:13b,id:"minecraft:diamond_pickaxe",count:1,components:{"minecraft:custom_model_data":{floats:[10000005]},"minecraft:lore":[{translate:item.legendary.sastr.lore.1},{translate:item.legendary.sastr.lore.2},{translate:item.legendary.sastr.lore.3},{translate:item.legendary.sastr.lore.4}],enchantments:{"knockback":5},"minecraft:attribute_modifiers":[{amount:69.47d,id:"attack_damage",operation:"add_value",slot:"mainhand",type:"attack_damage"},{amount:-0.86d,id:"attack_speed",operation:"add_multiplied_base",slot:"mainhand",type:"attack_speed"}],"minecraft:unbreakable":{},"minecraft:custom_name":{translate:item.legendary.sastr.name},"minecraft:custom_data":{EquipmentID:"sastr",EquipmentType:"meleeWeapon",Rarity:"myt"},"minecraft:consumable":{animation:spear,consume_seconds:0.5,has_consume_particles:false,sound:{sound_id:""},tooltip_style:"minecraft:rarity/myt/myt"},"minecraft:use_cooldown":{seconds:1.5}}}]}
+execute in overworld positioned -4990 21 -4381 positioned -4990 21 -4381 run data merge block -4990 21 -4381 {Items:[{Slot:13b,id:"minecraft:diamond_pickaxe",count:1,components:{"minecraft:custom_model_data":{floats:[10000005]},"minecraft:lore":[{translate:item.legendary.sastr.lore.1},{translate:item.legendary.sastr.lore.2},{translate:item.legendary.sastr.lore.3},{translate:item.legendary.sastr.lore.4}],enchantments:{"knockback":5},"minecraft:attribute_modifiers":[{amount:69.47d,id:"attack_damage",operation:"add_value",slot:"mainhand",type:"attack_damage"},{amount:-0.86d,id:"attack_speed",operation:"add_multiplied_base",slot:"mainhand",type:"attack_speed"}],"minecraft:unbreakable":{},"minecraft:custom_name":{translate:item.legendary.sastr.name},"minecraft:custom_data":{EquipmentID:"sastr",EquipmentType:"meleeWeapon",Rarity:"myt"},"minecraft:consumable":{animation:spear,consume_seconds:0.5,has_consume_particles:false,sound:{sound_id:""},tooltip_style:"minecraft:rarity/myt/myt"},"minecraft:use_cooldown":{seconds:1.5}}}]}
 #summon world entity
 function att2:summon/world_entity/0_0_0
 #lilith quest chest
@@ -1061,8 +782,8 @@ execute in overworld positioned -4762 70 -4468 run setblock ~ ~ ~ lily_pad destr
 execute in overworld positioned -4763 70 -4467 run setblock ~ ~ ~ lily_pad destroy
 execute in overworld positioned -4764 70 -4466 run setblock ~ ~ ~ lily_pad destroy
 
-execute in overworld run fill -4937 70 -4010 -4937 70 -4002 air destroy
-execute in overworld run fill -4937 71 -4010 -4937 71 -4002 air destroy
+execute in overworld positioned -4937 70 -4010 run fill -4937 70 -4010 -4937 70 -4002 air destroy
+execute in overworld positioned -4937 71 -4010 run fill -4937 71 -4010 -4937 71 -4002 air destroy
 
 #make useful marker false
 execute as @e[type=armor_stand,tag=USEFUL] at @s run data modify entity @s Marker set value 0
@@ -1083,7 +804,7 @@ execute in the_nether positioned 3570 84 4518 run kill @e[type=painting,distance
 
 
 #miss chest
-execute in overworld run data merge block -5610 136 -6475 {LootTable:"att2:chest/reg1/c5t5"}
+execute in overworld positioned -5610 136 -6475 run data merge block -5610 136 -6475 {LootTable:"att2:chest/reg1/c5t5"}
 
 #fix armorstand wulk
 execute in overworld positioned -4659 71 -5475 as @e[distance=..4,type=armor_stand] at @s run data modify entity @s equipment set value ""
@@ -1096,9 +817,9 @@ execute in overworld positioned -4571 53 -5930 run data merge block ~ ~ ~ {Custo
 ##summon interfacer
 
 kill @e[type=armor_stand,tag=InterfacerHolder]
-execute in overworld run summon minecraft:armor_stand 775 71 781 {Tags:["InterfacerHolder"],equipment:{mainhand:{id:"crossbow",components:{"minecraft:custom_name":{translate:item.legendary.interfacer.name},"minecraft:lore":[{translate:item.legendary.interfacer.lore.1},{translate:item.legendary.interfacer.lore.2},{translate:item.legendary.interfacer.lore.3},{translate:item.legendary.interfacer.lore.4},{translate:item.legendary.interfacer.lore.5},{translate:item.legendary.interfacer.lore.6},{translate:item.legendary.interfacer.lore.7},{translate:item.legendary.interfacer.lore.8},{translate:item.legendary.interfacer.lore.9},{translate:item.legendary.interfacer.lore.10},{translate:item.legendary.interfacer.lore.11},{translate:item.legendary.interfacer.lore.12},{translate:item.legendary.interfacer.lore.13},{translate:item.legendary.interfacer.lore.14}],"minecraft:custom_model_data":{floats:[10000100]},unbreakable:{},"minecraft:custom_data":{EquipmentID:"interfacer",EquipmentType:"rangeWeapon",Manufacturer:"traditional",Rarity:"myt"},"minecraft:enchantments":{"minecraft:multishot":1,"minecraft:power":7},"charged_projectiles":[{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{"custom_effects":[{id:"minecraft:strength",show_particles:false}]}}},{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{"custom_effects":[{id:"minecraft:strength",show_particles:false}]}}},{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{"custom_effects":[{id:"minecraft:strength",show_particles:false}]}}}]}}},Marker:true,Invisible:true,NoGravity:true,Invulnerable:true}
+execute in overworld positioned 775 71 781 run summon minecraft:armor_stand 775 71 781 {Tags:["InterfacerHolder"],equipment:{mainhand:{id:"crossbow",components:{"minecraft:custom_name":{translate:item.legendary.interfacer.name},"minecraft:lore":[{translate:item.legendary.interfacer.lore.1},{translate:item.legendary.interfacer.lore.2},{translate:item.legendary.interfacer.lore.3},{translate:item.legendary.interfacer.lore.4},{translate:item.legendary.interfacer.lore.5},{translate:item.legendary.interfacer.lore.6},{translate:item.legendary.interfacer.lore.7},{translate:item.legendary.interfacer.lore.8},{translate:item.legendary.interfacer.lore.9},{translate:item.legendary.interfacer.lore.10},{translate:item.legendary.interfacer.lore.11},{translate:item.legendary.interfacer.lore.12},{translate:item.legendary.interfacer.lore.13},{translate:item.legendary.interfacer.lore.14}],"minecraft:custom_model_data":{floats:[10000100]},unbreakable:{},"minecraft:custom_data":{EquipmentID:"interfacer",EquipmentType:"rangeWeapon",Manufacturer:"traditional",Rarity:"myt"},"minecraft:enchantments":{"minecraft:multishot":1,"minecraft:power":7},"charged_projectiles":[{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{"custom_effects":[{id:"minecraft:strength",show_particles:false}]}}},{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{"custom_effects":[{id:"minecraft:strength",show_particles:false}]}}},{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{"custom_effects":[{id:"minecraft:strength",show_particles:false}]}}}]}}},Marker:true,Invisible:true,NoGravity:true,Invulnerable:true}
 kill @e[type=armor_stand,tag=InterfacerHolderEmpty]
-execute in overworld run summon minecraft:armor_stand 775 71 781 {Tags:["InterfacerHolderEmpty"],equipment:{mainhand:{id:"crossbow",components:{"minecraft:custom_name":{translate:item.legendary.interfacer.name},"minecraft:lore":[{translate:item.legendary.interfacer.lore.1},{translate:item.legendary.interfacer.lore.2},{translate:item.legendary.interfacer.lore.3},{translate:item.legendary.interfacer.lore.4},{translate:item.legendary.interfacer.lore.5},{translate:item.legendary.interfacer.lore.6},{translate:item.legendary.interfacer.lore.7},{translate:item.legendary.interfacer.lore.8},{translate:item.legendary.interfacer.lore.9},{translate:item.legendary.interfacer.lore.10},{translate:item.legendary.interfacer.lore.11},{translate:item.legendary.interfacer.lore.12},{translate:item.legendary.interfacer.lore.13},{translate:item.legendary.interfacer.lore.14}],"minecraft:custom_model_data":{floats:[10000100]},unbreakable:{},"minecraft:custom_data":{EquipmentID:"interfacer",EquipmentType:"rangeWeapon",Manufacturer:"traditional",Rarity:"myt"},"minecraft:enchantments":{"minecraft:multishot":1,"minecraft:power":7}}}},Marker:true,Invisible:true,NoGravity:true,Invulnerable:true}
+execute in overworld positioned 775 71 781 run summon minecraft:armor_stand 775 71 781 {Tags:["InterfacerHolderEmpty"],equipment:{mainhand:{id:"crossbow",components:{"minecraft:custom_name":{translate:item.legendary.interfacer.name},"minecraft:lore":[{translate:item.legendary.interfacer.lore.1},{translate:item.legendary.interfacer.lore.2},{translate:item.legendary.interfacer.lore.3},{translate:item.legendary.interfacer.lore.4},{translate:item.legendary.interfacer.lore.5},{translate:item.legendary.interfacer.lore.6},{translate:item.legendary.interfacer.lore.7},{translate:item.legendary.interfacer.lore.8},{translate:item.legendary.interfacer.lore.9},{translate:item.legendary.interfacer.lore.10},{translate:item.legendary.interfacer.lore.11},{translate:item.legendary.interfacer.lore.12},{translate:item.legendary.interfacer.lore.13},{translate:item.legendary.interfacer.lore.14}],"minecraft:custom_model_data":{floats:[10000100]},unbreakable:{},"minecraft:custom_data":{EquipmentID:"interfacer",EquipmentType:"rangeWeapon",Manufacturer:"traditional",Rarity:"myt"},"minecraft:enchantments":{"minecraft:multishot":1,"minecraft:power":7}}}},Marker:true,Invisible:true,NoGravity:true,Invulnerable:true}
 
 
 #fix kert mine minecart
