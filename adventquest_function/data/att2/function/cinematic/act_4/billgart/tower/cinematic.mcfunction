@@ -3,22 +3,25 @@
 #Process cinematic									#
 #####################################################
 
-execute if score End0 TIMER matches 1 in minecraft:the_end as @a[x=-914,y=78,z=-610,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
-execute if score End0 TIMER matches 1..299 in minecraft:the_end as @a[gamemode=spectator] run tp @s -861 72 -613 50 40
+execute if score End0 TIMER matches 1..300 run function att2:gameplay/speceffect/disincarnate/keep/end0
+execute if score End0 TIMER matches 1..300 run data modify storage att2:performance rotation set value [50,40]
+
+execute if score End0 TIMER matches 1 in minecraft:the_end positioned -861 72 -613 as @a[x=-914,y=78,z=-610,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/end0
+execute if score End0 TIMER matches 1..299 in minecraft:the_end run tp @n[type=text_display,tag=End0] -861 72 -613 50 40
 execute if score End0 TIMER matches 1..70 in minecraft:the_end run particle minecraft:explosion_emitter -904 72 -612 1.5 7 1.5 1 25 force
-execute if score End0 TIMER matches 1 at @a run function att2:sound/ambience/rumbling
-execute if score End0 TIMER matches 10 at @a run function att2:sound/misc/explosion
+execute if score End0 TIMER matches 1 at @a[scores={DIMENSION=7}] run function att2:sound/ambience/rumbling
+execute if score End0 TIMER matches 10 at @a[scores={DIMENSION=7}] run function att2:sound/misc/explosion
 execute if score End0 TIMER matches 10 in minecraft:the_end run particle minecraft:explosion_emitter -903 61 -611 1 1 1 1 5 force
-execute if score End0 TIMER matches 50 at @a run function att2:sound/misc/stone_falling
+execute if score End0 TIMER matches 50 at @a[scores={DIMENSION=7}] run function att2:sound/misc/stone_falling
 execute if score End0 TIMER matches 50 in minecraft:the_end run particle minecraft:explosion_emitter -903 61 -611 2 2 2 1 5 force
-execute if score End0 TIMER matches 100 at @a run function att2:sound/misc/wood_breaking
+execute if score End0 TIMER matches 100 at @a[scores={DIMENSION=7}] run function att2:sound/misc/wood_breaking
 execute if score End0 TIMER matches 100 in minecraft:the_end run function att2:physicmod/reg3/tower/clone
-execute if score End0 TIMER matches 120 at @a run function att2:sound/misc/wall_falling
+execute if score End0 TIMER matches 120 at @a[scores={DIMENSION=7}] run function att2:sound/misc/wall_falling
 execute if score End0 TIMER matches 100..150 in minecraft:the_end run particle minecraft:explosion_emitter -894 33 -600 3 1 2 1 10 force
 execute if score End0 TIMER matches 120..200 in minecraft:the_end run particle minecraft:explosion_emitter -882 37 -592 4 1 2 1 10 force
 execute if score End0 TIMER matches 150..200 in minecraft:the_end run particle minecraft:explosion_emitter -871 42 -584 4 2 2 1 10 force
-execute if score End0 TIMER matches 200 at @a run function att2:sound/misc/resolution
-execute if score End0 TIMER matches 300 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute if score End0 TIMER matches 200 at @a[scores={DIMENSION=7}] run function att2:sound/misc/resolution
+execute if score End0 TIMER matches 300 as @a[gamemode=spectator,scores={Performance=20}] run function att2:gameplay/speceffect/disincarnate/end/end0
 
 #=======================#
 #end of the cinematic	#

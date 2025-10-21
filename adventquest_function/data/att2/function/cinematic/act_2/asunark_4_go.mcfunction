@@ -4,7 +4,9 @@
 ##################################################
 
 #keep
-execute if score Real0 TIMER matches 11..300 run function att2:gameplay/speceffect/disincarnate/keep/real0
+execute if score Real0 TIMER matches 10..300 run function att2:gameplay/speceffect/disincarnate/keep/real0
+execute if score Real0 TIMER matches 10 run data modify storage att2:performance rotation set value [83,30]
+
 execute if score Real0 TIMER matches 10 positioned -3555 98 -4943 as @a[distance=..100] run function att2:gameplay/speceffect/disincarnate/start/real0
 execute if score Real0 TIMER matches 10 positioned -3555 108 -4956 run summon minecraft:end_crystal ~ ~ ~ {ShowBottom:0b,beam_target:[I;-3616,66,-4936]}
 execute if score Real0 TIMER matches 10 positioned -3555 108 -4928 run summon minecraft:end_crystal ~ ~ ~ {ShowBottom:0b,beam_target:[I;-3616,66,-4936]}

@@ -5,6 +5,7 @@
 
 #keep
 execute if score Real0 TIMER matches 11..300 run function att2:gameplay/speceffect/disincarnate/keep/real0
+execute if score Real0 TIMER matches 10 run data modify storage att2:performance rotation set value [45,10]
 
 execute if score Real0 TIMER matches 10 positioned -3443 31 -4942 run function att2:sound/ambience/dungeon1
 execute if score Real0 TIMER matches 10 positioned -3443 31 -4942 as @a[distance=..100] run function att2:gameplay/speceffect/disincarnate/start/real0

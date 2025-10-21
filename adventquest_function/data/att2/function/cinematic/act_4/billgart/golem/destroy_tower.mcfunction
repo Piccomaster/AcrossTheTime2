@@ -3,13 +3,16 @@
 #Process cinematic									#
 #####################################################
 
-execute if score End0 TIMER matches 1 as @a[x=-914,y=78,z=-610,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
-execute if score End0 TIMER matches 1..149 as @a[gamemode=spectator] run tp @s -869 93 -615 145 30
+execute if score End0 TIMER matches 1..450 run function att2:gameplay/speceffect/disincarnate/keep/end0
+execute if score End0 TIMER matches 1..450 run data modify storage att2:performance rotation set value [145,10]
+
+execute if score End0 TIMER matches 1 positioned -863 87 -606 as @a[x=-914,y=78,z=-610,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/end0
+execute if score End0 TIMER matches 1..149 run tp @n[type=text_display,tag=End0] -863 87 -606 145 10
 execute if score End0 TIMER matches 1..150 positioned -861.4 92.5 -640 run function att2:cinematic/act_4/billgart/golem/particle
 execute if score End0 TIMER matches 1 run summon minecraft:end_crystal -860 91 -640 {ShowBottom:0b,beam_target:[I;-904,74,-612]}
-execute if score End0 TIMER matches 20 positioned -869 93 -615 run function att2:sound/misc/loading_energy
-execute if score End0 TIMER matches 100 positioned -869 93 -615 run function att2:sound/misc/desintegration
-execute if score End0 TIMER matches 150..449 as @a[gamemode=spectator] run tp @s -861 72 -613 50 40
+execute if score End0 TIMER matches 20 positioned -863 87 -606 run function att2:sound/misc/loading_energy
+execute if score End0 TIMER matches 100 positioned -863 87 -606 run function att2:sound/misc/desintegration
+execute if score End0 TIMER matches 150..449 run tp @n[type=text_display,tag=End0] -861 72 -613 50 40
 execute if score End0 TIMER matches 150..220 run particle minecraft:explosion_emitter -904 72 -612 1.5 7 1.5 1 25 force
 execute if score End0 TIMER matches 150 at @a run function att2:sound/ambience/rumbling
 execute if score End0 TIMER matches 160 at @a run function att2:sound/misc/explosion
@@ -25,7 +28,7 @@ execute if score End0 TIMER matches 270 run kill @e[type=minecraft:end_crystal,x
 execute if score End0 TIMER matches 270..350 run particle minecraft:explosion_emitter -882 37 -592 4 1 2 1 10 force
 execute if score End0 TIMER matches 300..350 run particle minecraft:explosion_emitter -871 42 -584 4 2 2 1 10 force
 execute if score End0 TIMER matches 350 at @a run function att2:sound/misc/resolution
-execute if score End0 TIMER matches 450 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute if score End0 TIMER matches 450 as @a[gamemode=spectator,scores={Performance=20}] run function att2:gameplay/speceffect/disincarnate/end/end0
 
 #=======================#
 #end of the cinematic	#

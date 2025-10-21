@@ -3,12 +3,15 @@
 #Process cinematic for sphere8 						#
 #####################################################
 
-execute if score Timer4 SERILE matches 1 as @a[x=2225,y=99,z=1945,distance=..500] run function att2:gameplay/speceffect/disincarnate/start
-execute if score Timer4 SERILE matches 1..49 as @a[gamemode=spectator] run tp @s 2269 89 1945
+execute if score Timer4 SERILE matches 1..50 run function att2:gameplay/speceffect/disincarnate/keep/real0
+execute if score Timer4 SERILE matches 1 run data modify storage att2:performance rotation set value [0,0]
+
+execute if score Timer4 SERILE matches 1 positioned 2269 90 1945 as @a[x=2225,y=99,z=1945,distance=..500] run function att2:gameplay/speceffect/disincarnate/start/real0
+execute if score Timer4 SERILE matches 1..49 run tp @n[type=text_display,tag=Real0] 2269 90 1945 0 0
 execute if score Timer4 SERILE matches 25 positioned 2225 99 1945 run function att2:gameplay/boss/serile/phase1/sphere8/spawn
 execute if score Timer4 SERILE matches 25 in overworld positioned 2225 99 1945 run forceload add ~ ~
 execute if score Timer4 SERILE matches 50 run scoreboard players set Sphere8 SERILE 1
-execute if score Timer4 SERILE matches 50 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute if score Timer4 SERILE matches 50 as @a[gamemode=spectator,scores={Performance=0}] run function att2:gameplay/speceffect/disincarnate/end/real0
 
 
 #=======================#

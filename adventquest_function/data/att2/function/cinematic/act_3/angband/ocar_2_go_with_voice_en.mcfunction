@@ -27,6 +27,8 @@ execute if score Neth0 TIMER matches 180 as @e[type=minecraft:zombified_piglin,x
 
 ### Summoning heroes Serile and Namrin
 execute if score Neth0 TIMER matches 680..925 run function att2:gameplay/speceffect/disincarnate/keep/neth0
+execute if score Neth0 TIMER matches 680 run data modify storage att2:performance rotation set value [0,-30]
+
 execute if score Neth0 TIMER matches 680 in minecraft:the_nether positioned 3751 84 3788 as @a[x=3754,y=77,z=3774,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/neth0
 execute if score Neth0 TIMER matches 680..925 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3751 84 3788 0 -30
 execute if score Neth0 TIMER matches 700 in minecraft:the_nether run tp 00000000-0000-001a-0000-00000000001a 3755 87 3793

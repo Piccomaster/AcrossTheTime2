@@ -3,13 +3,16 @@
 #Process cinematic vonaheim_6  					 #
 ##################################################
 
-execute if score Real0 TIMER matches 1 as @a[x=-5614,y=127,z=-6369,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
-execute if score Real0 TIMER matches 1..79 as @a[gamemode=spectator] run tp @s -5611 127 -6366 135 25
-execute if score Real0 TIMER matches 80..159 as @a[gamemode=spectator] run tp @s -5614 147 -6351 180 40
+execute if score Real0 TIMER matches 1..300 run function att2:gameplay/speceffect/disincarnate/keep/real0
+execute if score Real0 TIMER matches 1..300 run data modify storage att2:performance rotation set value [135,25]
+
+execute if score Real0 TIMER matches 1 positioned -5611 127 -6366 as @a[x=-5614,y=127,z=-6369,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/real0
+execute if score Real0 TIMER matches 1..79 run tp @n[type=text_display,tag=Real0] -5611 127 -6366 135 25
+execute if score Real0 TIMER matches 80..159 run tp @n[type=text_display,tag=Real0] -5614 147 -6351 180 40
 execute if score Real0 TIMER matches 100 run function att2:cinematic/act_4/vonaheim_6_action_1
-execute if score Real0 TIMER matches 160..239 as @a[gamemode=spectator] run tp @s -5622 142 -6369 90 0
-execute if score Real0 TIMER matches 240..299 as @a[gamemode=spectator] run tp @s -5657 165 -6346 130 45
-execute if score Real0 TIMER matches 300 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute if score Real0 TIMER matches 160..239 run tp @n[type=text_display,tag=Real0] -5622 142 -6369 90 0
+execute if score Real0 TIMER matches 240..299 run tp @n[type=text_display,tag=Real0] -5657 165 -6346 130 45
+execute if score Real0 TIMER matches 300 as @a[gamemode=spectator,scores={Performance=0}] run function att2:gameplay/speceffect/disincarnate/end/real0
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_4/ch2_player_6
 execute if score Real0 TIMER matches 300 in overworld as @a[x=-5657,y=165,z=-6346,distance=..100] run function att2:gameplay/checkpoint/telluron_present/vonaheim0
 execute if score Real0 TIMER matches 301 run scoreboard players set Mainquest SIDEQUEST 109

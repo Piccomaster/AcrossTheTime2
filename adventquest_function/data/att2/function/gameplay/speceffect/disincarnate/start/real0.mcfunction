@@ -4,7 +4,7 @@
 #################################################################
 
 #summon camera_entity
-function att2:gameplay/speceffect/disincarnate/camera_entity/neth0
+function att2:gameplay/speceffect/disincarnate/camera_entity/real0 with storage att2:performance
 #set back point
 function att2:gameplay/speceffect/disincarnate/back_point
 #pos tp

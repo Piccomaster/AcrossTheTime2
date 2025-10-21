@@ -3,19 +3,22 @@
 #Process cinematic palace_1_go  		 		 #
 ##################################################
 
+execute if score Neth0 TIMER matches 1..1400 run function att2:gameplay/speceffect/disincarnate/keep/neth0
+execute if score Neth0 TIMER matches 1 run data modify storage att2:performance rotation set value [0,25]
+
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 288
 execute if score Neth0 TIMER matches 1 run function att2:cinematic/act_5/angband/angor/palace_1_action_1
-execute if score Neth0 TIMER matches 5 in minecraft:the_nether as @a[x=3525,y=80,z=4500,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
-execute if score Neth0 TIMER matches 5..99 as @a[gamemode=spectator] in minecraft:the_nether run tp @s 3525 76 4470 0 25
-execute if score Neth0 TIMER matches 100..199 as @a[gamemode=spectator] in minecraft:the_nether run tp @s 3525 77 4465 0 30
+execute if score Neth0 TIMER matches 5 in minecraft:the_nether positioned 3525 77 4470 as @a[x=3525,y=80,z=4500,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/neth0
+execute if score Neth0 TIMER matches 5..99 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3525 77 4470 0 25
+execute if score Neth0 TIMER matches 100..199 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3525 77 4465 0 30
 execute if score Neth0 TIMER matches 150 run function att2:cinematic/act_5/angband/angor/palace_1_action_2
-execute if score Neth0 TIMER matches 200..299 as @a[gamemode=spectator] in minecraft:the_nether run tp @s 3525 82 4440 0 15
+execute if score Neth0 TIMER matches 200..299 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3525 82 4440 0 15
 
 execute if score Neth0 TIMER matches 240 in minecraft:the_nether positioned 3498 76 4464 run function att2:summon/pnj/serile_old
 execute if score Neth0 TIMER matches 245 in minecraft:the_nether run tp 00000000-0000-001a-0000-00000000001a 3498 76 4464 -180 10
 execute if score Neth0 TIMER matches 250 run function att2:cinematic/tp_effect/serile
 
-execute if score Neth0 TIMER matches 300..505 as @a[gamemode=spectator] at 00000000-0000-001a-0000-00000000001a run tp @s ~5 ~5 ~-5 45 45
+execute if score Neth0 TIMER matches 300..505 as @n[type=text_display,tag=Neth0] at 00000000-0000-001a-0000-00000000001a run tp @s ~5 ~7 ~-5 45 45
 execute if score Neth0 TIMER matches 300 as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~ ~ 135 15
 execute if score Neth0 TIMER matches 375 as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~ ~ -135 -10
 execute if score Neth0 TIMER matches 450 as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~ ~ -40 -15
@@ -31,10 +34,10 @@ execute if score Neth0 TIMER matches 504 as 00000000-0000-001a-0000-00000000001a
 execute if score Neth0 TIMER matches 504 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3521,y=72,z=4479,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 505 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 72 4483 run teleport @s ^ ^ ^0.07 ~ ~
 execute if score Neth0 TIMER matches 505 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=72,z=4483,distance=..0.6] run function att2:cinematic/neth0_iteration
-execute if score Neth0 TIMER matches 506 as @a[gamemode=spectator] in minecraft:the_nether run tp @s 3525 90 4500 180 30
+execute if score Neth0 TIMER matches 506 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3525 92 4500 180 30
 execute if score Neth0 TIMER matches 506 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 80 4491 run teleport @s ^ ^ ^0.07 ~ ~
 execute if score Neth0 TIMER matches 506 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=80,z=4491,distance=..0.6] run function att2:cinematic/neth0_iteration
-execute if score Neth0 TIMER matches 507..1399 as @a[gamemode=spectator] in minecraft:the_nether run tp @s 3533 90 4522 145 10
+execute if score Neth0 TIMER matches 507..1399 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3533 92 4522 145 10
 execute if score Neth0 TIMER matches 507 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 88 4500 run teleport @s ^ ^ ^0.07 ~ ~
 execute if score Neth0 TIMER matches 507 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=88,z=4500,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 508 run function att2:dialogs/mainquest/act_5/ch2_azazel_1
@@ -62,9 +65,8 @@ execute if score Neth0 TIMER matches 1200 run function att2:voice/serile/serile6
 execute if score Neth0 TIMER matches 1300 run function att2:dialogs/mainquest/act_5/ch2_azazel_6
 execute if score Neth0 TIMER matches 1300 run function att2:voice/azazel/azazel6
 execute if score Neth0 TIMER matches 1325..1350 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing entity 00000000-0000-141a-0000-00000000141a feet run teleport @s ^ ^ ^0.07 ~ ~
-execute if score Neth0 TIMER matches 1400 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute if score Neth0 TIMER matches 1400 as @a[gamemode=spectator,scores={Performance=10}] run function att2:gameplay/speceffect/disincarnate/end/neth0
 execute if score Neth0 TIMER matches 1405 run function att2:cinematic/act_5/angband/angor/palace_1_action_5
-execute if score Neth0 TIMER matches 1500 run function att2:cinematic/act_5/angband/angor/palace_1_action_6
 execute if score Neth0 TIMER matches 1450 run function att2:cinematic/act_5/angband/angor/palace_1_action_6
 execute if score Neth0 TIMER matches 1500 run title @a times 50 1000 100
 execute if score Neth0 TIMER matches 1500 run function att2:dialogs/title/credits/advenquest_title1

@@ -5,6 +5,7 @@
 
 #keep
 execute if score Real0 TIMER matches 0..850 run function att2:gameplay/speceffect/disincarnate/keep/real0
+execute if score Real0 TIMER matches 0 run data modify storage att2:performance rotation set value [135,-20]
 
 execute if score Real0 TIMER matches 0 positioned -3443 31 -4942 as @a[distance=..100] run function att2:gameplay/speceffect/disincarnate/start/real0
 execute if score Real0 TIMER matches 1..399 run tp @n[type=text_display,tag=Real0] -3424 37 -4923 135 -20

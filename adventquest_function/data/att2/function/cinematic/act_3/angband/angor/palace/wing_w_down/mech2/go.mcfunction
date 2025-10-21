@@ -4,6 +4,7 @@
 ##################################################
 
 execute if score Neth1 TIMER matches 1..150 run function att2:gameplay/speceffect/disincarnate/keep/neth1
+execute if score Neth1 TIMER matches 1..150 run data modify storage att2:performance rotation set value [70,20]
 
 execute if score Neth1 TIMER matches 150 in minecraft:the_nether positioned 3498 40 4500 as @a[x=3497,y=36,z=4505,distance=..50] run function att2:gameplay/speceffect/disincarnate/start/neth1
 execute if score Neth1 TIMER matches 120 in minecraft:the_nether run function att2:physicmod/reg2/angor_palace/wing_wd/mech2_door1

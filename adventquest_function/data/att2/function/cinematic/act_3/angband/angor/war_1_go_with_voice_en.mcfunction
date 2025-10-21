@@ -23,6 +23,8 @@ execute if score Neth0 TIMER matches 69 as 00000000-0000-007a-0000-00000000007a 
 #Cinematic Army March
 execute if score Neth0 TIMER matches 75 run effect clear @a[scores={DIMENSION=6}] minecraft:blindness
 execute if score Neth0 TIMER matches 75..175 run function att2:gameplay/speceffect/disincarnate/keep/neth0
+execute if score Neth0 TIMER matches 75 run data modify storage att2:performance rotation set value [180,10]
+
 execute if score Neth0 TIMER matches 75 in minecraft:the_nether positioned 3525 43 4410 as @a[scores={DIMENSION=6}] run function att2:gameplay/speceffect/disincarnate/start/neth0
 execute if score Neth0 TIMER matches 75..175 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3525 43 4410 180 10
 execute if score Neth0 TIMER matches 75..175 in minecraft:the_nether as @e[x=3531,y=40,z=4409,dx=-12,dy=3,dz=-30] at @s run tp ~ ~ ~0.09
