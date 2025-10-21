@@ -9,4 +9,4 @@ scoreboard players set jarat PANORAMA 1
 advancement grant @a only att2:journey/panorama_jarat
 
 setblock -4628 84 -5468 minecraft:air
-execute as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=48}] run function att2:gameplay/speceffect/disincarnate/end

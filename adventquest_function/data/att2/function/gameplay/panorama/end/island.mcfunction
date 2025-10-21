@@ -9,4 +9,4 @@ scoreboard players set island PANORAMA 1
 advancement grant @a only att2:journey/panorama_island
 
 setblock -4031 129 -4357 minecraft:air
-execute as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=47}] run function att2:gameplay/speceffect/disincarnate/end

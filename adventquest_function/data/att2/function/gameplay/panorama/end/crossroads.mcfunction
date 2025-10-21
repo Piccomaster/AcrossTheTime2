@@ -9,4 +9,4 @@ scoreboard players set crossroads PANORAMA 1
 advancement grant @a only att2:journey/panorama_crossroads
 
 setblock -4153 108 -5311 minecraft:air
-execute as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=40}] run function att2:gameplay/speceffect/disincarnate/end

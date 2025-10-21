@@ -9,4 +9,4 @@ scoreboard players set worlest_mine PANORAMA 1
 advancement grant @a only att2:journey/panorama_worlest_mine
 
 setblock -4624 30 -5179 minecraft:air
-execute as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=72}] run function att2:gameplay/speceffect/disincarnate/end

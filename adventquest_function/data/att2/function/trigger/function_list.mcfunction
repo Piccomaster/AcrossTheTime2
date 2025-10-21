@@ -36,7 +36,7 @@ execute if score @s ScoreTrigger matches 28 run execute if score Neth0 TIMER mat
 execute if score @s ScoreTrigger matches 29 run execute if score Neth0 TIMER matches 2351..2399 run scoreboard players set Neth0 TIMER 2399
 execute if score @s ScoreTrigger matches 30 run execute if score Neth0 TIMER matches 2401..2499 run scoreboard players set Neth0 TIMER 2499
 execute if score @s ScoreTrigger matches 31 run execute if score Neth0 TIMER matches ..224 run scoreboard players set Neth0 TIMER 224
-execute if score @s ScoreTrigger matches 32 run execute if score Neth0 TIMER matches ..399 run scoreboard players set Neth0 TIMER 399
+execute if score @s ScoreTrigger matches 32 run execute if score Neth0 TIMER matches ..374 run scoreboard players set Neth0 TIMER 399
 execute if score @s ScoreTrigger matches 33 run execute if score Neth0 TIMER matches ..549 run scoreboard players set Neth0 TIMER 549
 execute if score @s ScoreTrigger matches 34 run execute if score Neth0 TIMER matches ..674 run scoreboard players set Neth0 TIMER 674
 execute if score @s ScoreTrigger matches 35 run execute if score Neth0 TIMER matches ..899 run scoreboard players set Neth0 TIMER 899

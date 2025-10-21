@@ -9,4 +9,4 @@ scoreboard players set nojelanth_present PANORAMA 1
 advancement grant @a only att2:journey/panorama_nojelanth_present
 
 setblock -5849 117 -4342 minecraft:air
-execute as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=57}] run function att2:gameplay/speceffect/disincarnate/end

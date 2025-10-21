@@ -1,1 +1,1 @@
-execute if score Neth0 TIMER matches ..399 run scoreboard players set Neth0 TIMER 399
+execute if score Neth0 TIMER matches ..373 run scoreboard players set Neth0 TIMER 374

@@ -4,7 +4,8 @@
 #################################################################
 
 scoreboard players set timer PANORAMA 200
-execute as @a[distance=..50,gamemode=adventure] run function att2:gameplay/speceffect/disincarnate/start
+execute as @a[distance=..50,gamemode=adventure] run scoreboard players set @s Performance 58
+execute as @a[distance=..50,gamemode=adventure] run function att2:gameplay/speceffect/disincarnate/back_point
 execute as @a[distance=..50,gamemode=spectator] at @s run teleport @s 7484 150 6772 ~ 10
 execute as @a[distance=..50,gamemode=spectator] at @s run function att2:gameplay/panorama/effect
 scoreboard players set ouranos_gate_trigger PANORAMA 1

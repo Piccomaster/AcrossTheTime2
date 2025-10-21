@@ -6,7 +6,7 @@
 scoreboard players set SQ28 SIDEQUEST 2
 scoreboard players set cinematic SQ28 0
 
-execute as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
+execute as @a[gamemode=spectator,scores={Performance=2}] run function att2:gameplay/speceffect/disincarnate/end/real2
 
 function att2:sound/misc/mission_progress
 execute as @a run function att2:gameplay/checkpoint/effect

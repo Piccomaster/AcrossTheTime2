@@ -12,6 +12,7 @@ execute if score winged_mech3 ANGOR matches 2..3 in minecraft:the_nether run par
 
 
 execute if score winged_mech3 ANGOR matches 1 if score Neth1 TIMER matches 1..100 run function att2:gameplay/speceffect/disincarnate/keep/neth1
+execute if score winged_mech3 ANGOR matches 1 if score Neth1 TIMER matches 1..100 run data modify storage att2:performance rotation set value [135,45]
 
 execute if score winged_mech3 ANGOR matches 1 if score Neth1 TIMER matches 100 in minecraft:the_nether positioned 3632 36 4577 as @a[x=3623,y=36,z=4568,distance=..50] run function att2:gameplay/speceffect/disincarnate/start/neth1
 execute if score winged_mech3 ANGOR matches 1 if score Neth1 TIMER matches 80 in minecraft:the_nether run function att2:physicmod/reg2/angor_palace/wing_ed/mech3_button1

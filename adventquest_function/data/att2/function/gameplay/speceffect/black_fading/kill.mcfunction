@@ -3,4 +3,4 @@
 #Kill black fading  		     			 	 #
 ##################################################
 
-kill @e[type=minecraft:armor_stand,tag=BlackFading]
+kill @e[type=minecraft:item_display,tag=BlackFading]

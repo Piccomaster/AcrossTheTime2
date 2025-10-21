@@ -7,6 +7,7 @@
 #####################################################
 
 execute if score Neth1 TIMER matches 1..240 run function att2:gameplay/speceffect/disincarnate/keep/neth1
+execute if score Neth1 TIMER matches 1..240 run data modify storage att2:performance rotation set value [135,10]
 
 execute if score Neth1 TIMER matches 240 in minecraft:the_nether positioned 3475 38 4522 as @a[x=3469,y=38,z=4516,distance=..50] run function att2:gameplay/speceffect/disincarnate/start/neth1
 execute if score Neth1 TIMER matches 240 in minecraft:the_nether positioned 3469 38 4516 run function att2:sound/misc/loading_energy
