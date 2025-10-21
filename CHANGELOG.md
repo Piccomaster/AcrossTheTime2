@@ -394,6 +394,9 @@
 #### Arena time record
 - Arena timing no longer displays errors
 
+#### Multiplayer Animation Synchronization
+- Players who disconnect during an animation will now be seamlessly reintegrated to their correct position upon rejoining.
+
 ---
 
 ## **Miscellaneous**
@@ -417,6 +420,9 @@
 ### **Enemy Spawn Protection**
 - Enemys cannot inflict damage on players during the short period of their spawn;
 - this effect weakens as the difficulty increases.
+
+### **Scene Camera Animation**
+- The camera movement in most scene animations has been made smoother.
 
 ### **Issues**
 - Various minor bugs have been fixed.
