@@ -13,6 +13,10 @@ execute if entity @a[x=-5271,y=58,z=-5468,distance=..60,gamemode=adventure] run 
 # Soquaï
 execute if entity @a[x=-5077,y=66,z=-5680,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/4/go
 execute if entity @a[x=-4812,y=58,z=-5552,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/7/go
+execute if entity @a[x=-4945,y=67,z=-5781,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/8/go
+
+# Black forest
+execute if entity @a[x=-4561,y=56,z=-5772,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/9/go
 
 # Volcano
 execute if entity @a[x=-5453,y=50,z=-5632,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/6/go
