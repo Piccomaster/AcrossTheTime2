@@ -14,13 +14,12 @@ function att2:gameplay/legendary/weaponsking/go
 function att2:gameplay/legendary/warlord/go
 function att2:gameplay/legendary/kinuil/go
 function att2:gameplay/legendary/sastr/go
+function att2:gameplay/equipment/weapon/spear/go
 #TODO
 function att2:gameplay/legendary/ultima/go
 function att2:gameplay/legendary/blindshield/go
-function att2:gameplay/equipment/weapon/spear/go
 
-#execute as @a[scores={DAMAGE=1..}] run tellraw @s {text:"伤害值:",color:"dark_red",extra:[{score:{name:"@s",objective:"DAMAGE"},color:"red"}]}
+##
 
-execute as @a at @s run function att2:gameplay/enchantment/trigger_function/go
 
 scoreboard players set @a[scores={DAMAGE=1..}] DAMAGE 0

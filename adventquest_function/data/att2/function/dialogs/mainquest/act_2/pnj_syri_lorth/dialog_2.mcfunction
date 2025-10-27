@@ -83,7 +83,7 @@ tellraw @s[scores={LANGUAGE=10}] {text:" °-° Syri Lorth : ",color:"green",extr
 
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"是Syri吗？令堂把你引荐给我，希望你能帮我一个忙...",color:"aqua"}]}
-tellraw @s[scores={LANGUAGE=11}] {text:" °-° Syri Lorth : ",color:"green",extra:[{text:"我妈吗？啊...你就是我妈所说的，那个想追求刺激的旅行者！很可惜，每年这时候的海况都很差，而且我们刚结束一次长途航行-就结论上看，如果仅仅是为了满足你的个人想法的话: 比起说服我，想要说服我的船员们更加困难-除非一些幸苦费。比如1000chronoton...啊不，看在你是我妈朋友的份上，500chronoton就行。",color:"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {text:" °-° Syri Lorth : ",color:"green",extra:[{text:"我妈？哦...你就是我妈所说的，那个想追求刺激的旅行者！很可惜，每年这时候的海况都很差，而且我们刚结束一次长途航行-就结论上看，如果仅仅是为了满足你的个人想法的话: 比起说服我，想要说服我的船员们更加困难-除非一些幸苦费。比如1000chronoton...啊不，看在你是我妈朋友的份上，500chronoton就行。",color:"dark_aqua"}]}
 
 function att2:voice/syri/syri2
 

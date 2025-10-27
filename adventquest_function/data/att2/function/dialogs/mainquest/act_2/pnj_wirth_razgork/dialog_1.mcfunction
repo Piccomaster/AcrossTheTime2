@@ -52,6 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {text:" °-° Wirth Razgork : ",color:"green",ex
 tellraw @s[scores={LANGUAGE=10}] {text:" °-° Wirth Razgork : ",color:"green",extra:[{text:"O que você está procurando na minha casa? É melhor você cair fora daqui se não quiser problemas!",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {text:" °-° Wirth Razgork : ",color:"green",extra:[{text:"你在我家里偷摸着找什么？如果你不想惹麻烦，最好给我滚出去！ ",color:"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {text:" °-° Wirth Razgork : ",color:"green",extra:[{text:"你来我家里干什么？如果你不想惹麻烦，最好给我滚出去！ ",color:"dark_aqua"}]}
 
 function att2:voice/wirth/wirth1

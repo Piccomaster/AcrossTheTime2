@@ -8,7 +8,7 @@ function att2:gameplay/misc/skin/go
 execute if score tic TIMECOUNTER matches 10..20 run function att2:gameplay/misc/dummy/go
 function att2:gameplay/misc/quest_icon/go
 ##itemrarity_color
-function att2:gameplay/misc/itemrarity_color/go
+execute if score all itemcolor matches 1.. as @e[type=item] at @s run function att2:gameplay/misc/itemrarity_color/go
 ##chest particle
 execute as @a at @s run function att2:gameplay/misc/chesteffect/eye_effect/go
 #execute if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/chesteffect/overworld_go

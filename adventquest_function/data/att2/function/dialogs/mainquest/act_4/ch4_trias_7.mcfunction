@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Trias : ",color:"green",extra:[{te
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Trias : ",color:"green",extra:[{text:"Então eu vou confiar a você uma compensação muito generosa, dependendo da natureza e até mesmo da veracidade do seu retorno. No entanto, como eu mesmo viajo muito, nossos caminhos podem não se cruzar novamente. Então, se você puder obter algumas informações sobre minha busca ou ver o próprio arco, pelo menos seja tão gentil a ponto de espalhar seu conhecimento, e dizer: Eu adquiri ou tal detém o arco de Trias.",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Trias : ",color:"green",extra:[{text:"那么，我将根据你回报的相关性与真实性，给予你一份非常丰厚的报酬。然而，由于我也向来喜欢游历四方，我们可能不会再次相遇。所以，如果你能在乎我的需求——亲眼见到那把弓——得到一些信息，请至少好心地将你所知传播出去，并说：‘我已经找到了，或者某某人持有Trias之弓’。",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Trias : ",color:"green",extra:[{text:"那么，我将根据你回报的相关性与真实性，给予你一份非常丰厚的报酬。然而，由于我也向来喜欢游历四方，我们可能不会再次相遇。所以，如果你能在乎我的需求——亲眼见到那把弓——得到一些信息，请至少好心地将你所知到的信息传播出去，并说：‘我已经找到了，或者某某人持有Trias之弓’。",color:"dark_aqua"}]}

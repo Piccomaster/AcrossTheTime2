@@ -61,4 +61,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Skaolon : ",color:"green",extra:[{
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Skaolon : ",color:"green",extra:[{text:"Shshsh, vamos, vá encontrar o próximo Néleptron!",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Skaolon : ",color:"green",extra:[{text:"去去去，去找下一个Néleptron！ ",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Skaolon : ",color:"green",extra:[{text:"继续啊!     去找下一个原子能量核！",color:"dark_aqua"}]}

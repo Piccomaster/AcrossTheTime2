@@ -61,4 +61,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Trias : ",color:"green",extra:[{te
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Trias : ",color:"green",extra:[{text:"Certamente, acho que sei que uma torre contém um por aqui. Convido você a passar por este orifício pelo qual acabei de interromper o vento.",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Trias : ",color:"green",extra:[{text:"当然，我想我知道附近有一座塔里有。请你通过这个我刚阻断了风的洞口到那里去。",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Trias : ",color:"green",extra:[{text:"当然，我想我知道附近有一座塔里有你想要的东西。我建议你从我刚刚阻断的风口处进去寻找它。",color:"dark_aqua"}]}

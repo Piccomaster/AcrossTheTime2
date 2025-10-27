@@ -6,7 +6,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'18'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:18b}}}}"
             }
         },
         {
@@ -14,7 +14,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'19'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:19b}}}}"
             }
         },
         {
@@ -22,7 +22,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'20'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:20b}}}}"
             }
         },
         {
@@ -30,7 +30,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'21'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:21b}}}}"
             }
         },
         {
@@ -38,7 +38,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'22'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:22b}}}}"
             }
         },
         {
@@ -46,7 +46,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'23'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:23b}}}}"
             }
         },
         {
@@ -54,7 +54,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'24'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:24b}}}}"
             }
         },
         {
@@ -62,7 +62,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'25'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:25b}}}}"
             }
         },
         {
@@ -70,7 +70,7 @@
             "entity": "this",
             "predicate": {
                 "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:'26'}}}}"
+                "nbt": "{Item:{components:{'minecraft:custom_data':{Rarity:'spe',Runelvl:26b}}}}"
             }
         }
     ]

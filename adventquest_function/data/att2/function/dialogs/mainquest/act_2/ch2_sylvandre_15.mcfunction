@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Sylvandre : ",color:"green",extra:
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Sylvandre: ",color:"green",extra:[{text:"O mestre do Dahäl comprará e venderá livros de encantamento. É uma loja bastante pouco frequentada, mas tão intrigante! Eu adoraria dominar essa arte.",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Sylvandre : ",color:"green",extra:[{text:"Dahäl大师们会出售一些法术书。尽管很少有人光顾这家商店， 但它仍是那样令人神往！我希望自己也能像你一样掌握这门技术。",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Sylvandre : ",color:"green",extra:[{text:"Dahäl大师们会出售一些法术书。尽管很少有人光顾这家商店， 但它仍是那样令人神往！我希望自己也能掌握这门技术。",color:"dark_aqua"}]}
