@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Sylvandre : ",color:"green",extra:
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Sylvandre: ",color:"green",extra:[{text:"Este prédio é o banco. Aqui, você pode armazenar seus Cronotons para mantê-los seguros no caso de seu caminho levar ao perigo.",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Sylvandre : ",color:"green",extra:[{text:"这里是银行。你可以把Chronotons存进银行以在遭遇飞来横祸保证它们的安全...",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Sylvandre : ",color:"green",extra:[{text:"这里是银行。你可以把Chronotons存进银行以在遭遇飞来横祸的时候保证它们的安全...",color:"dark_aqua"}]}

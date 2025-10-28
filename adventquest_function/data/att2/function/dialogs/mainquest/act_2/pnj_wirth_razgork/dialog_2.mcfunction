@@ -75,7 +75,7 @@ tellraw @s[scores={LANGUAGE=10}] {text:" °-° Wirth Razgork : ",color:"green",e
 
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"你是Wirth对吗？容我自我介绍一下，我是",color:"aqua"},{nbt:"set",storage:"att2:id","interpret":true,color:"aqua"},{text:"。Yaakov让我来你这儿打听一些消息—有关于空间宝石的消息。",color:"aqua"}]}
-tellraw @s[scores={LANGUAGE=11}] {text:" °-° Wirth Razgork : ",color:"green",extra:[{text:"原来是名渴求世界秘密的冒险者...不瞒你说，我曾亲眼目睹过空间宝石的模样！但很可惜，我没法靠单打独斗把它收入囊中，它被藏于一所神殿的高墻之内—一所怪物肆虐的神殿。出城门后往东北方向走，你就会在Worlëst森林的另一头发现那座神殿。",color:"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {text:" °-° Wirth Razgork : ",color:"green",extra:[{text:"原来是名渴求世界秘密的冒险者...不瞒你说，我曾亲眼目睹过空间宝石的模样！但很可惜，我没法靠单打独斗把它收入囊中，它被藏于一所神殿的高墙之内—一所怪物肆虐的神殿。出城门后往东北方向走，你就会在Worlëst森林的另一头发现那座神殿。",color:"dark_aqua"}]}
 
 tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 648"},hover_event:{action:show_text,value:"..."}}
 

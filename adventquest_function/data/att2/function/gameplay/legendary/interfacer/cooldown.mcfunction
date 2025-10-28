@@ -5,6 +5,9 @@
 
 scoreboard players remove @s[scores={IF_COOLDOWN=1..}] IF_COOLDOWN 1
 
+#limit
+execute unless predicate att2_pre:legendary/interfacer/hand run return 0
+
 #Detect default magasin in offhand and consume it
 execute as @s[predicate=att2_pre:legendary/interfacer/mainhand,predicate=att2_pre:legendary/interfacer/magasin,scores={IF_MAGASIN=..0,IF_COOLDOWN=..0}] run function att2:gameplay/legendary/interfacer/reload
 

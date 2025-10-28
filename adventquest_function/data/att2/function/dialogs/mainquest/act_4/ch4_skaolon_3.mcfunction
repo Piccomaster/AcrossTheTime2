@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Skaolon : ",color:"green",extra:[{
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Skaolon : ",color:"green",extra:[{text:"Entrar? Uau uau uau, e com que honra você teria o direito de perturbar o descanso perfeito de nosso esplêndido e virtuoso rei?",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Skaolon : ",color:"green",extra:[{text:"进去？呵呵，你有什么资格去惊扰我们高贵而伟大的国王的安眠？ ",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Skaolon : ",color:"green",extra:[{text:"进去？哎呀呀，你有什么资格去惊扰我们高贵又伟大的国王的安眠呢？ ",color:"dark_aqua"}]}
