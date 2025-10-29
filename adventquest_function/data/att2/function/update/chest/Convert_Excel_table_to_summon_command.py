@@ -158,7 +158,7 @@ def generate_start_file(filtered_coords, output_path):
         
         # Reset command
         f.write(f"\n#reset\n")
-        f.write(f"execute if score update_chest_loop_count SYSTEM matches 1901.. run say All chest marker entities have been updated.\n")
+        f.write(f"execute if score update_chest_loop_count SYSTEM matches {total_coordinates + 1}.. run say All chest marker entities have been updated.\n")
         f.write(f"execute if score update_chest_loop_count SYSTEM matches {total_coordinates + 1}.. run scoreboard players set update_chest_loop_count SYSTEM 0\n")
     
     print(f"Generated start.mcfunction with {total_coordinates} teleport commands")
