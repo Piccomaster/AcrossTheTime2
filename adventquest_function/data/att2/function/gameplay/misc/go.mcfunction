@@ -10,7 +10,7 @@ function att2:gameplay/misc/quest_icon/go
 ##itemrarity_color
 execute if score all itemcolor matches 1.. as @e[type=item] at @s run function att2:gameplay/misc/itemrarity_color/go
 ##chest particle
-execute as @a at @s run function att2:gameplay/misc/chesteffect/eye_effect/go
+function att2:gameplay/misc/chesteffect/go
 #execute if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/chesteffect/overworld_go
 #execute if entity @a[scores={DIMENSION=6}] run function att2:gameplay/misc/chesteffect/angband_go
 #execute if entity @a[scores={DIMENSION=7}] run function att2:gameplay/misc/chesteffect/billgart_go

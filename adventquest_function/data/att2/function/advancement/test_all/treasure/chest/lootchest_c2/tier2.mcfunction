@@ -14,8 +14,7 @@ execute if score tier2 LOOTCHEST matches 25.. run advancement grant @a only att2
 execute if score tier2 LOOTCHEST matches 50.. run advancement grant @a only att2:treasure/lootchest_tier2_50
 execute if score tier2 LOOTCHEST matches 100.. run advancement grant @a only att2:treasure/lootchest_tier2_100
 execute if score tier2 LOOTCHEST matches 250.. run advancement grant @a only att2:treasure/lootchest_tier2_250
-#set chest name
-function att2:gameplay/misc/chesteffect/name/go
+
 #trigger chest mimic
 scoreboard players set chest MIMIC 2
 scoreboard players set tier MIMIC 2

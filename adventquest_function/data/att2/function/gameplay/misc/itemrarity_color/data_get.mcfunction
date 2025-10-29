@@ -8,6 +8,8 @@ data modify entity @s Invulnerable set value true
 
 ####item rarity set
 
+#reset
+data modify storage att2:item rarity set value ""
 #get data
 data modify storage att2:item rarity set from entity @s Item.components."minecraft:custom_data"
 #test equipment
