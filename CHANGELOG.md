@@ -424,5 +424,11 @@
 ### **Scene Camera Animation**
 - The camera movement in most scene animations has been made smoother.
 
+### **Dialog skip**
+- Most dialogues can now be skipped.
+
+### **Performance optimization**
+- The data package has been largely optimized, resulting in reduced performance overhead for certain detection processes.
+
 ### **Issues**
 - Various minor bugs have been fixed.
