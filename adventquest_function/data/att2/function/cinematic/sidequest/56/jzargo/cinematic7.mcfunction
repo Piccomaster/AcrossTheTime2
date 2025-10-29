@@ -5,7 +5,9 @@
 
 execute if score Real1 TIMER matches 20 run function att2:dialogs/sidequest/sq56/jzargo_12
 execute if score Real1 TIMER matches 20..200 as 00000000-0000-089a-0000-00000000089a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Real1 TIMER matches 20 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..98 run scoreboard players set Real1 TIMER 99"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 100 run function att2:dialogs/sidequest/sq56/triss_18
+execute if score Real1 TIMER matches 100 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..198 run scoreboard players set Real1 TIMER 199"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 200 run function att2:dialogs/sidequest/sq56/jzargo_13
 execute if score Real1 TIMER matches 250 as 00000000-0000-089a-0000-00000000089a at @s run tp @s ~ ~ ~ 180 0
 
