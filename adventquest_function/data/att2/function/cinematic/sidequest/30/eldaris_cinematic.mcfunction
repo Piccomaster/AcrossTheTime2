@@ -20,8 +20,11 @@ execute if score Real2 TIMER matches 350 as @a[gamemode=spectator,scores={Perfor
 execute if score Real2 TIMER matches 350 run function att2:cinematic/sidequest/30/trevor_room_secret_close
 execute if score Real2 TIMER matches 350 as @a[x=-4984,y=105,z=-4908,distance=..50] at @s run tp @s -4981 105 -4901 135 0
 execute if score Real2 TIMER matches 400 run function att2:dialogs/sidequest/sq30/player_4
+execute if score Real2 TIMER matches 400 at 00000000-0000-085a-0000-00000000085a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..548 run scoreboard players set Real2 TIMER 549"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 550 run function att2:dialogs/sidequest/sq30/trevor_3
+execute if score Real2 TIMER matches 550 at 00000000-0000-085a-0000-00000000085a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..798 run scoreboard players set Real2 TIMER 799"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 800 run function att2:dialogs/sidequest/sq30/eldaris_2
+execute if score Real2 TIMER matches 800 at 00000000-0000-085a-0000-00000000085a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..849 run scoreboard players set Real2 TIMER 850"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 900 run function att2:physicmod/reg1/ryliath_palace_trevor_room_open
 execute if score Real2 TIMER matches 1000 run function att2:dialogs/sidequest/sq30/eldaris/player_proposal_1/choice_1
 execute if score Real2 TIMER matches 1000 run function att2:dialogs/sidequest/sq30/eldaris/player_proposal_1/choice_2

@@ -5,7 +5,10 @@
 
 ##test if have loottable
 execute unless data block ~ ~ ~ LootTable run kill @s[type=marker,tag=ChestMarker]
-
+##test if have rarity score
+execute unless score @s CHESTEFFECT matches 1.. run function att2:gameplay/misc/chesteffect/data_set
+##add tag
+tag @s add Select
 
 ##detection score
 

@@ -14,15 +14,22 @@ execute if score Real0 TIMER matches 10 run function att2:voice/etotsira/etotsir
 execute if score Real0 TIMER matches 50 run function att2:physicmod/reg1/earndhel/etotsira_doorhouse_close
 execute if score Real0 TIMER matches 50 run tp @a[x=29999,y=73,z=29967,distance=..100] 30001 73 29968
 execute if score Real0 TIMER matches 60 run function att2:dialogs/mainquest/act_3/ch1_player_2
+execute if score Real0 TIMER matches 60 at 00000000-0000-008b-0000-00000000008a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..88 run scoreboard players set Real0 TIMER 89"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 90 run function att2:dialogs/mainquest/act_3/ch1_etotsira_2
 execute if score Real0 TIMER matches 90 run function att2:voice/etotsira/etotsira2
+execute if score Real0 TIMER matches 90 at 00000000-0000-008b-0000-00000000008a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..138 run scoreboard players set Real0 TIMER 139"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 140 run function att2:dialogs/mainquest/act_3/ch1_player_3
+execute if score Real0 TIMER matches 140 at 00000000-0000-008b-0000-00000000008a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..298 run scoreboard players set Real0 TIMER 299"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_3/ch1_etotsira_3
 execute if score Real0 TIMER matches 300 run function att2:voice/etotsira/etotsira3
+execute if score Real0 TIMER matches 300 at 00000000-0000-008b-0000-00000000008a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..398 run scoreboard players set Real0 TIMER 399"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 400 run function att2:dialogs/mainquest/act_3/ch1_player_4
+execute if score Real0 TIMER matches 400 at 00000000-0000-008b-0000-00000000008a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..438 run scoreboard players set Real0 TIMER 439"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 440 run function att2:dialogs/mainquest/act_3/ch1_etotsira_4
 execute if score Real0 TIMER matches 440 run function att2:voice/etotsira/etotsira4
+execute if score Real0 TIMER matches 440 at 00000000-0000-008b-0000-00000000008a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..648 run scoreboard players set Real0 TIMER 649"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 650 run function att2:dialogs/mainquest/act_3/ch1_player_5
+execute if score Real0 TIMER matches 650 at 00000000-0000-008b-0000-00000000008a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..778 run scoreboard players set Real0 TIMER 779"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 780 run function att2:dialogs/mainquest/act_3/ch1_etotsira_5
 execute if score Real0 TIMER matches 780 run function att2:voice/etotsira/etotsira5
 execute if score Real0 TIMER matches 800 positioned 29999 72 29967 run function att2:sound/ambience/rumbling

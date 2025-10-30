@@ -9,9 +9,12 @@ execute if score Real0 TIMER matches 1 run function att2:physicmod/reg1/ryliath_
 execute if score Real0 TIMER matches 1 as @a[x=-4968,y=134,z=-4906,distance=..100,gamemode=adventure] at @s run tp @s -4968 134 -4906
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch3_adrian_1
 execute if score Real0 TIMER matches 10 run function att2:voice/adrian/adrian5
+execute if score Real0 TIMER matches 10 at 00000000-0000-084a-0000-00000000084a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..248 run scoreboard players set Real0 TIMER 249"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 250 run function att2:dialogs/mainquest/act_4/ch3_player_1
+execute if score Real0 TIMER matches 250 at 00000000-0000-084a-0000-00000000084a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..348 run scoreboard players set Real0 TIMER 349"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 350 run function att2:dialogs/mainquest/act_4/ch3_adrian_2
 execute if score Real0 TIMER matches 350 run function att2:voice/adrian/adrian6
+execute if score Real0 TIMER matches 350 at 00000000-0000-084a-0000-00000000084a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..448 run scoreboard players set Real0 TIMER 449"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 450 run function att2:dialogs/mainquest/act_4/ch3_player_2
 execute if score Real0 TIMER matches 500 run function att2:physicmod/reg1/ryliath_palace3
 execute if score Real0 TIMER matches 500 as 00000000-0000-084a-0000-00000000084a at @s run rotate @s 180 0
