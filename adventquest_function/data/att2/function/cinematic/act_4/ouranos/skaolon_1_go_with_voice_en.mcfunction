@@ -5,27 +5,41 @@
 
 execute if score Real0 TIMER matches 1 run scoreboard players set skaolon_PNJ DIALOG -1
 execute if score Real0 TIMER matches 20 run function att2:dialogs/mainquest/act_4/ch4_player_26
+execute if score Real0 TIMER matches 1200 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..98 run scoreboard players set Real0 TIMER 99"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 100..1300 as 00000000-0000-128a-0000-00000000128a at @s run rotate @s facing entity @p feet
 execute if score Real0 TIMER matches 100 run function att2:dialogs/mainquest/act_4/ch4_skaolon_1
 execute if score Real0 TIMER matches 100 run function att2:voice/skaolon/skaolon1
+execute if score Real0 TIMER matches 100 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..248 run scoreboard players set Real0 TIMER 249"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 250 run function att2:dialogs/mainquest/act_4/ch4_player_27
+execute if score Real0 TIMER matches 250 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..298 run scoreboard players set Real0 TIMER 299"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_4/ch4_skaolon_2
 execute if score Real0 TIMER matches 300 run function att2:voice/skaolon/skaolon2
+execute if score Real0 TIMER matches 300 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..447 run scoreboard players set Real0 TIMER 449"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 450 run function att2:dialogs/mainquest/act_4/ch4_player_28
+execute if score Real0 TIMER matches 450 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..498 run scoreboard players set Real0 TIMER 499"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 500 run function att2:dialogs/mainquest/act_4/ch4_skaolon_3
 execute if score Real0 TIMER matches 500 run function att2:voice/skaolon/skaolon3
+execute if score Real0 TIMER matches 500 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..698 run scoreboard players set Real0 TIMER 699"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 700 run function att2:dialogs/mainquest/act_4/ch4_player_29
+execute if score Real0 TIMER matches 700 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..748 run scoreboard players set Real0 TIMER 749"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 750 run function att2:dialogs/mainquest/act_4/ch4_skaolon_4
 execute if score Real0 TIMER matches 750 run function att2:voice/skaolon/skaolon4
+execute if score Real0 TIMER matches 750 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..848 run scoreboard players set Real0 TIMER 849"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 850 run function att2:dialogs/mainquest/act_4/ch4_player_30
+execute if score Real0 TIMER matches 850 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..898 run scoreboard players set Real0 TIMER 899"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 900 run function att2:dialogs/mainquest/act_4/ch4_skaolon_5
 execute if score Real0 TIMER matches 900 run function att2:voice/skaolon/skaolon5
+execute if score Real0 TIMER matches 900 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1048 run scoreboard players set Real0 TIMER 1049"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1050 run function att2:dialogs/mainquest/act_4/ch4_player_31
+execute if score Real0 TIMER matches 1050 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1098 run scoreboard players set Real0 TIMER 1099"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1100 run function att2:dialogs/mainquest/act_4/ch4_skaolon_6
 execute if score Real0 TIMER matches 1100 run function att2:voice/skaolon/skaolon6
+execute if score Real0 TIMER matches 1100 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1148 run scoreboard players set Real0 TIMER 1149"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1150 run function att2:dialogs/mainquest/act_4/ch4_player_32
+execute if score Real0 TIMER matches 1150 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1198 run scoreboard players set Real0 TIMER 1199"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1200 run function att2:dialogs/mainquest/act_4/ch4_skaolon_7
 execute if score Real0 TIMER matches 1200 run function att2:voice/skaolon/skaolon7
+execute if score Real0 TIMER matches 1200 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1298 run scoreboard players set Real0 TIMER 1299"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1300 as 00000000-0000-128a-0000-00000000128a at @s run rotate @s 0 20
 execute if score Real0 TIMER matches 1300 run scoreboard players set skaolon_PNJ DIALOG 1
 execute if score Real0 TIMER matches 1400 run function att2:dialogs/mainquest/act_4/ch4_player_33

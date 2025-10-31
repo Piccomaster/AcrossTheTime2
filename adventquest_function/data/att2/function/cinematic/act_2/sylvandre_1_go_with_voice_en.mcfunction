@@ -6,21 +6,29 @@
 execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 
 execute if score Real0 TIMER matches 0 run function att2:cinematic/act_2/sylvandre_1_action_1
-execute if score Real0 TIMER matches 40 as @a anchored feet at @s facing entity 00000000-0000-102a-0000-00000000102a feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 40 as @a anchored feet at @s facing entity 00000000-0000-102a-0000-00000000102a feet run teleport @s ^ ^ ^ ~ 0
 execute if score Real0 TIMER matches 150 run function att2:dialogs/mainquest/act_2/ch2_guard_2
 execute if score Real0 TIMER matches 150 run function att2:voice/guard/guard2
 execute if score Real0 TIMER matches 10..350 at @p[x=-5030,y=75,z=-5042] as 00000000-0000-102a-0000-00000000102a unless entity @s[distance=..2] at @s anchored feet facing entity @p[x=-5030,y=75,z=-5042] feet run teleport @s ^ ^ ^0.3 ~ ~
 execute if score Real0 TIMER matches 350 run function att2:cinematic/act_2/sylvandre_1_dialog_1
+execute if score Real0 TIMER matches 350 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..498 run scoreboard players set Real0 TIMER 499"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 500 run function att2:cinematic/act_2/sylvandre_1_dialog_2
+execute if score Real0 TIMER matches 500 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..648 run scoreboard players set Real0 TIMER 649"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 650 run function att2:cinematic/act_2/sylvandre_1_dialog_3
+execute if score Real0 TIMER matches 650 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..798 run scoreboard players set Real0 TIMER 799"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 800 run function att2:cinematic/act_2/sylvandre_1_action_2
-execute if score Real0 TIMER matches 850..950 at @p[x=-5030,y=75,z=-5042] as 00000000-0000-003a-0000-00000000003a unless entity @s[distance=..2] at @s anchored feet facing entity @p[x=-5030,y=75,z=-5042] feet run teleport @s ^ ^ ^0.4 ~ ~
+execute if score Real0 TIMER matches 800 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..848 run scoreboard players set Real0 TIMER 849"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 850..950 at @p[x=-5030,y=75,z=-5042] as 00000000-0000-003a-0000-00000000003a unless entity @s[distance=..2] at @s anchored feet facing entity @p[x=-5030,y=75,z=-5042] feet run teleport @s ^ ^ ^0.4 ~ 0
 execute if score Real0 TIMER matches 950 run function att2:cinematic/act_2/sylvandre_1_dialog_4
+execute if score Real0 TIMER matches 950 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1098 run scoreboard players set Real0 TIMER 1099"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1100 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_4
 execute if score Real0 TIMER matches 1100 run function att2:voice/sylvandre/sylvandre4
+execute if score Real0 TIMER matches 1100 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1248 run scoreboard players set Real0 TIMER 1249"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1250 run function att2:dialogs/mainquest/act_2/ch2_player_1
+execute if score Real0 TIMER matches 1250 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1398 run scoreboard players set Real0 TIMER 1399"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1400 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_5
 execute if score Real0 TIMER matches 1400 run function att2:voice/sylvandre/sylvandre5
+execute if score Real0 TIMER matches 1400 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..1498 run scoreboard players set Real0 TIMER 1499"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1500 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 76 -5042 run teleport @s ^ ^ ^ ~ ~
 execute if score Real0 TIMER matches 1520..1551 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 76 -5043 run teleport @s ^ ^ ^0.4 ~ ~
 execute if score Real0 TIMER matches 1550 run function att2:cinematic/act_2/sylvandre_1_action_3

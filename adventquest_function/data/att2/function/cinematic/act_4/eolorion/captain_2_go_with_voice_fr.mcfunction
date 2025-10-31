@@ -12,12 +12,15 @@ execute if score Real0 TIMER matches 20 run function att2:dialogs/mainquest/act_
 execute if score Real0 TIMER matches 20 run function att2:voice/capitaine/capitaine8
 execute if score Real0 TIMER matches 20 run tp @a -5346 108 -6297
 execute if score Real0 TIMER matches 50 in overworld as @a[x=-5346,y=108,z=-6297,distance=..100] run function att2:gameplay/checkpoint/telluron_present/eolorion2
+execute if score Real0 TIMER matches 50 at 00000000-0000-095a-0000-00000000095a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..298 run scoreboard players set Real0 TIMER 299"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 300..490 as 00000000-0000-095a-0000-00000000095a at @s anchored feet facing entity 00000000-0000-088a-0000-00000000088a feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_4/ch1_bob_4
 execute if score Real0 TIMER matches 300 run function att2:voice/bob/bob4
+execute if score Real0 TIMER matches 300 at 00000000-0000-095a-0000-00000000095a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..398 run scoreboard players set Real0 TIMER 399"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 390..400 as 00000000-0000-095a-0000-00000000095a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real0 TIMER matches 400 run function att2:dialogs/mainquest/act_4/ch1_captain_6
 execute if score Real0 TIMER matches 400 run function att2:voice/capitaine/capitaine9
+execute if score Real0 TIMER matches 400 at 00000000-0000-095a-0000-00000000095a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..598 run scoreboard players set Real0 TIMER 599"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 600 at 00000000-0000-095a-0000-00000000095a as @a[distance=..30] run function att2:dialogs/mainquest/assistance/step101
 execute if score Real0 TIMER matches 601 run scoreboard players set Mainquest SIDEQUEST 101
 

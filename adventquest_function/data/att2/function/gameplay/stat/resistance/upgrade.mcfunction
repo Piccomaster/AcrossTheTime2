@@ -10,7 +10,7 @@ execute as @s[scores={RES_BASE=4,SKILLPOINT=16..}] run return run function att2:
 execute as @s[scores={RES_BASE=3,SKILLPOINT=12..}] run return run function att2:gameplay/stat/resistance/lvl/4
 execute as @s[scores={RES_BASE=2,SKILLPOINT=10..}] run return run function att2:gameplay/stat/resistance/lvl/3
 execute as @s[scores={RES_BASE=1,SKILLPOINT=8..}] run return run function att2:gameplay/stat/resistance/lvl/2
-execute as @s[scores={RES_BASE=0,SKILLPOINT=6..}] run return run function att2:gameplay/stat/resistance/lvl/1
+execute as @s[scores={RES_BASE=0,SKILLPOINT=4..}] run return run function att2:gameplay/stat/resistance/lvl/1
 
 function att2:gameplay/consciousness/attribute
 ##fail

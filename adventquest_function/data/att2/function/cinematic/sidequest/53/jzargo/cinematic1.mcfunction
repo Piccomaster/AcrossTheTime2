@@ -18,16 +18,22 @@ execute if score Real1 TIMER matches 175 run function att2:dialogs/sidequest/sq5
 execute if score Real1 TIMER matches 250 run setblock -1515 30 -603 minecraft:barrier
 execute if score Real1 TIMER matches 255 run setblock -1515 30 -603 minecraft:air
 execute if score Real1 TIMER matches 300 run function att2:dialogs/sidequest/sq53/player_2
+execute if score Real1 TIMER matches 300 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..398 run scoreboard players set Real1 TIMER 399"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 400 run function att2:dialogs/sidequest/sq53/jzargo_3
+execute if score Real1 TIMER matches 400 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..498 run scoreboard players set Real1 TIMER 499"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 400..599 as 00000000-0000-089a-0000-00000000089a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real1 TIMER matches 500 run function att2:dialogs/sidequest/sq53/jzargo_4
+execute if score Real1 TIMER matches 500 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..598 run scoreboard players set Real1 TIMER 599"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 600 run function att2:dialogs/sidequest/sq53/player_3
 execute if score Real1 TIMER matches 650 as 00000000-0000-089a-0000-00000000089a at @s run tp @s ~ ~ ~ 100 0
 execute if score Real1 TIMER matches 651 if entity @e[type=minecraft:fireball,x=-1521,y=29,z=-607,dx=1,dy=4,dz=4] run function att2:cinematic/real1_iteration
 execute if score Real1 TIMER matches 655 run function att2:cinematic/sidequest/53/cave_entrance_opening
+execute if score Real1 TIMER matches 655 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..698 run scoreboard players set Real1 TIMER 699"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 700 run function att2:dialogs/sidequest/sq53/jzargo_5
+execute if score Real1 TIMER matches 700 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..998 run scoreboard players set Real1 TIMER 999"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 1000 run function att2:dialogs/sidequest/sq53/player_4
-execute if score Real1 TIMER matches 1100 at 00000000-0000-089a-0000-00000000089a as @p run function att2:dialogs/sidequest/sq53/jzargo/dialog_3
+execute if score Real1 TIMER matches 1000 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..1098 run scoreboard players set Real1 TIMER 1099"},hover_event:{action:show_text,value:"..."}}
+execute if score Real1 TIMER matches 1100 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run function att2:dialogs/sidequest/sq53/jzargo/dialog_3
 
 
 #=======================#
