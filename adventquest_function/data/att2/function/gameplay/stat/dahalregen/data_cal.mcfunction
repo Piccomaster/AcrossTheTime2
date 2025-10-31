@@ -4,8 +4,7 @@
 ##################################################
 
 #cal
-scoreboard players operation DAHAL_REGEN CAL = @s DAHALMAX
-scoreboard players operation DAHAL_REGEN CAL /= @s OP_DAHAL
+scoreboard players operation DAHAL_REGEN CAL = @s DAHAL1
 #return score
 execute store result storage att2:attribute DAR_TOT int 1 run scoreboard players get @s DAR_TOT
 execute store result storage att2:attribute DAR_ADD int 1 run scoreboard players get DAHAL_REGEN CAL

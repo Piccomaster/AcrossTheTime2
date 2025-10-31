@@ -1,10 +1,6 @@
-## CURRENT_MAX_ID: 2856
+## CURRENT_MAX_ID: 3086
 
-#################################################################
-#Made by Adventquest						#
-#trigger score                                                  #
-#################################################################
-
+#注意：此文件由脚本自动生成，请勿手动修改
 execute if score @s ScoreTrigger matches 1 run function att2:dialogs/sidequest/sq60/exploit_total
 execute if score @s ScoreTrigger matches 2 run execute if score Real0 TIMER matches 81..199 run scoreboard players set Real0 TIMER 199
 execute if score @s ScoreTrigger matches 3 run execute if score Real0 TIMER matches 201..349 run scoreboard players set Real0 TIMER 349
@@ -36,7 +32,7 @@ execute if score @s ScoreTrigger matches 28 run execute if score Neth0 TIMER mat
 execute if score @s ScoreTrigger matches 29 run execute if score Neth0 TIMER matches 2351..2399 run scoreboard players set Neth0 TIMER 2399
 execute if score @s ScoreTrigger matches 30 run execute if score Neth0 TIMER matches 2401..2499 run scoreboard players set Neth0 TIMER 2499
 execute if score @s ScoreTrigger matches 31 run execute if score Neth0 TIMER matches ..224 run scoreboard players set Neth0 TIMER 224
-execute if score @s ScoreTrigger matches 32 run execute if score Neth0 TIMER matches ..374 run scoreboard players set Neth0 TIMER 399
+execute if score @s ScoreTrigger matches 32 run execute if score Neth0 TIMER matches ..373 run scoreboard players set Neth0 TIMER 374
 execute if score @s ScoreTrigger matches 33 run execute if score Neth0 TIMER matches ..549 run scoreboard players set Neth0 TIMER 549
 execute if score @s ScoreTrigger matches 34 run execute if score Neth0 TIMER matches ..674 run scoreboard players set Neth0 TIMER 674
 execute if score @s ScoreTrigger matches 35 run execute if score Neth0 TIMER matches ..899 run scoreboard players set Neth0 TIMER 899
@@ -2325,7 +2321,6 @@ execute if score @s ScoreTrigger matches 2317 run function att2:gameplay/conscio
 execute if score @s ScoreTrigger matches 2318 run function att2:gameplay/consciousness/guide
 execute if score @s ScoreTrigger matches 2319 run function att2:gameplay/consciousness/boss_timer
 execute if score @s ScoreTrigger matches 2320 run function att2:gameplay/consciousness/symbol
-
 execute if score @s ScoreTrigger matches 2321 run function att2:gameplay/consciousness/healthbar
 execute if score @s ScoreTrigger matches 2322 run function att2:gameplay/consciousness/attribute_display
 execute if score @s ScoreTrigger matches 2323 run function att2:gameplay/consciousness/torch_light
@@ -2333,16 +2328,10 @@ execute if score @s ScoreTrigger matches 2324 run function att2:gameplay/conscio
 execute if score @s ScoreTrigger matches 2325 run function att2:gameplay/consciousness/title_particle
 execute if score @s ScoreTrigger matches 2326 run function att2:gameplay/consciousness/camera_shake
 execute if score @s ScoreTrigger matches 2327 run function att2:gameplay/consciousness/gametip
-
-
 execute if score @s ScoreTrigger matches 2328 run function att2:gameplay/consciousness/quick_repair
-
 execute if score @s ScoreTrigger matches 2329 run function att2:gameplay/misc/itemrarity_color/select/run/ult
 execute if score @s ScoreTrigger matches 2330 run function att2:gameplay/misc/itemrarity_color/select/stop/ult
-
-
 execute if score @s ScoreTrigger matches 2331 run function att2:gameplay/consciousness/difficulty
-
 execute if score @s ScoreTrigger matches 2332 run function att2:gameplay/shop/gambling/matching_game/click/meleeweapon/1
 execute if score @s ScoreTrigger matches 2333 run function att2:gameplay/shop/gambling/matching_game/click/meleeweapon/2
 execute if score @s ScoreTrigger matches 2334 run function att2:gameplay/shop/gambling/matching_game/click/meleeweapon/3
@@ -2407,8 +2396,6 @@ execute if score @s ScoreTrigger matches 2392 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2393 run function att2:gameplay/shop/gambling/matching_game/click/meleeweapon/62
 execute if score @s ScoreTrigger matches 2394 run function att2:gameplay/shop/gambling/matching_game/click/meleeweapon/63
 execute if score @s ScoreTrigger matches 2395 run function att2:gameplay/shop/gambling/matching_game/click/meleeweapon/64
-
-
 execute if score @s ScoreTrigger matches 2396 run function att2:gameplay/shop/gambling/matching_game/click/rangeweapon/1
 execute if score @s ScoreTrigger matches 2397 run function att2:gameplay/shop/gambling/matching_game/click/rangeweapon/2
 execute if score @s ScoreTrigger matches 2398 run function att2:gameplay/shop/gambling/matching_game/click/rangeweapon/3
@@ -2473,8 +2460,6 @@ execute if score @s ScoreTrigger matches 2456 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2457 run function att2:gameplay/shop/gambling/matching_game/click/rangeweapon/62
 execute if score @s ScoreTrigger matches 2458 run function att2:gameplay/shop/gambling/matching_game/click/rangeweapon/63
 execute if score @s ScoreTrigger matches 2459 run function att2:gameplay/shop/gambling/matching_game/click/rangeweapon/64
-
-
 execute if score @s ScoreTrigger matches 2460 run function att2:gameplay/shop/gambling/matching_game/click/armor/1
 execute if score @s ScoreTrigger matches 2461 run function att2:gameplay/shop/gambling/matching_game/click/armor/2
 execute if score @s ScoreTrigger matches 2462 run function att2:gameplay/shop/gambling/matching_game/click/armor/3
@@ -2539,8 +2524,6 @@ execute if score @s ScoreTrigger matches 2520 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2521 run function att2:gameplay/shop/gambling/matching_game/click/armor/62
 execute if score @s ScoreTrigger matches 2522 run function att2:gameplay/shop/gambling/matching_game/click/armor/63
 execute if score @s ScoreTrigger matches 2523 run function att2:gameplay/shop/gambling/matching_game/click/armor/64
-
-
 execute if score @s ScoreTrigger matches 2524 run function att2:gameplay/shop/gambling/matching_game/click/spell/1
 execute if score @s ScoreTrigger matches 2525 run function att2:gameplay/shop/gambling/matching_game/click/spell/2
 execute if score @s ScoreTrigger matches 2526 run function att2:gameplay/shop/gambling/matching_game/click/spell/3
@@ -2605,8 +2588,6 @@ execute if score @s ScoreTrigger matches 2584 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2585 run function att2:gameplay/shop/gambling/matching_game/click/spell/62
 execute if score @s ScoreTrigger matches 2586 run function att2:gameplay/shop/gambling/matching_game/click/spell/63
 execute if score @s ScoreTrigger matches 2587 run function att2:gameplay/shop/gambling/matching_game/click/spell/64
-
-
 execute if score @s ScoreTrigger matches 2588 run function att2:gameplay/shop/gambling/matching_game/click/currency/1
 execute if score @s ScoreTrigger matches 2589 run function att2:gameplay/shop/gambling/matching_game/click/currency/2
 execute if score @s ScoreTrigger matches 2590 run function att2:gameplay/shop/gambling/matching_game/click/currency/3
@@ -2671,8 +2652,6 @@ execute if score @s ScoreTrigger matches 2648 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2649 run function att2:gameplay/shop/gambling/matching_game/click/currency/62
 execute if score @s ScoreTrigger matches 2650 run function att2:gameplay/shop/gambling/matching_game/click/currency/63
 execute if score @s ScoreTrigger matches 2651 run function att2:gameplay/shop/gambling/matching_game/click/currency/64
-
-
 execute if score @s ScoreTrigger matches 2652 run function att2:gameplay/shop/gambling/matching_game/click/food/1
 execute if score @s ScoreTrigger matches 2653 run function att2:gameplay/shop/gambling/matching_game/click/food/2
 execute if score @s ScoreTrigger matches 2654 run function att2:gameplay/shop/gambling/matching_game/click/food/3
@@ -2737,7 +2716,6 @@ execute if score @s ScoreTrigger matches 2712 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2713 run function att2:gameplay/shop/gambling/matching_game/click/food/62
 execute if score @s ScoreTrigger matches 2714 run function att2:gameplay/shop/gambling/matching_game/click/food/63
 execute if score @s ScoreTrigger matches 2715 run function att2:gameplay/shop/gambling/matching_game/click/food/64
-
 execute if score @s ScoreTrigger matches 2716 run function att2:gameplay/shop/gambling/matching_game/click/potion/1
 execute if score @s ScoreTrigger matches 2717 run function att2:gameplay/shop/gambling/matching_game/click/potion/2
 execute if score @s ScoreTrigger matches 2718 run function att2:gameplay/shop/gambling/matching_game/click/potion/3
@@ -2802,8 +2780,6 @@ execute if score @s ScoreTrigger matches 2776 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2777 run function att2:gameplay/shop/gambling/matching_game/click/potion/62
 execute if score @s ScoreTrigger matches 2778 run function att2:gameplay/shop/gambling/matching_game/click/potion/63
 execute if score @s ScoreTrigger matches 2779 run function att2:gameplay/shop/gambling/matching_game/click/potion/64
-
-
 execute if score @s ScoreTrigger matches 2780 run function att2:gameplay/shop/gambling/matching_game/click/rune/1
 execute if score @s ScoreTrigger matches 2781 run function att2:gameplay/shop/gambling/matching_game/click/rune/2
 execute if score @s ScoreTrigger matches 2782 run function att2:gameplay/shop/gambling/matching_game/click/rune/3
@@ -2868,9 +2844,6 @@ execute if score @s ScoreTrigger matches 2840 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2841 run function att2:gameplay/shop/gambling/matching_game/click/rune/62
 execute if score @s ScoreTrigger matches 2842 run function att2:gameplay/shop/gambling/matching_game/click/rune/63
 execute if score @s ScoreTrigger matches 2843 run function att2:gameplay/shop/gambling/matching_game/click/rune/64
-
-
-#matchinggame select
 execute if score @s ScoreTrigger matches 2844 run function att2:gameplay/shop/gambling/matching_game/continue
 execute if score @s ScoreTrigger matches 2845 run function att2:gameplay/shop/gambling/matching_game/part/create_4x4
 execute if score @s ScoreTrigger matches 2846 run function att2:gameplay/shop/gambling/matching_game/part/create_4x5
@@ -2882,11 +2855,8 @@ execute if score @s ScoreTrigger matches 2851 run function att2:gameplay/shop/ga
 execute if score @s ScoreTrigger matches 2852 run function att2:gameplay/shop/gambling/matching_game/part/create_7x7
 execute if score @s ScoreTrigger matches 2853 run function att2:gameplay/shop/gambling/matching_game/part/create_8x7
 execute if score @s ScoreTrigger matches 2854 run function att2:gameplay/shop/gambling/matching_game/part/create_8x8
-
 execute if score @s ScoreTrigger matches 2855 run function att2:gameplay/shop/gambling/matching_game/reset
 execute if score @s ScoreTrigger matches 2856 run function att2:dialogs/gameplay/shop/gambling/matching_game_select
-
-
 execute if score @s ScoreTrigger matches 2857 run function att2:gameplay/consciousness/language
 execute if score @s ScoreTrigger matches 2858 run function att2:gameplay/consciousness/npc
 execute if score @s ScoreTrigger matches 2859 run function att2:gameplay/consciousness/waypoint
@@ -2914,10 +2884,7 @@ execute if score @s ScoreTrigger matches 2880 run function att2:gameplay/conscio
 execute if score @s ScoreTrigger matches 2881 run function att2:gameplay/consciousness/tutorial/skills
 execute if score @s ScoreTrigger matches 2882 run function att2:gameplay/consciousness/tutorial/spell
 execute if score @s ScoreTrigger matches 2883 run function att2:gameplay/consciousness/tutorial/waypoint
-
-
 execute if score @s ScoreTrigger matches 2884 run function att2:gameplay/consciousness/mainplayer_name
-
 execute if score @s ScoreTrigger matches 2885 run function att2:gameplay/book/close
 execute if score @s ScoreTrigger matches 2886 run function att2:gameplay/book/alchimancy_1
 execute if score @s ScoreTrigger matches 2887 run function att2:gameplay/book/alchimancy_2
@@ -2942,5 +2909,181 @@ execute if score @s ScoreTrigger matches 2905 run function att2:gameplay/book/sh
 execute if score @s ScoreTrigger matches 2906 run function att2:gameplay/book/testament
 execute if score @s ScoreTrigger matches 2907 run function att2:gameplay/book/warning
 execute if score @s ScoreTrigger matches 2908 run function att2:gameplay/book/menu
-
-#data modify storage att2:scoretrigger 2885 set value "function att2:gameplay/book/clear"
+execute if score @s ScoreTrigger matches 2909 run execute if score Real0 TIMER matches ..438 run scoreboard players set Real0 TIMER 439
+execute if score @s ScoreTrigger matches 2910 run execute if score Real0 TIMER matches ..498 run scoreboard players set Real0 TIMER 499
+execute if score @s ScoreTrigger matches 2911 run execute if score Real0 TIMER matches ..648 run scoreboard players set Real0 TIMER 649
+execute if score @s ScoreTrigger matches 2912 run execute if score Real0 TIMER matches ..798 run scoreboard players set Real0 TIMER 799
+execute if score @s ScoreTrigger matches 2913 run execute if score Real0 TIMER matches ..848 run scoreboard players set Real0 TIMER 849
+execute if score @s ScoreTrigger matches 2914 run execute if score Real0 TIMER matches ..1098 run scoreboard players set Real0 TIMER 1099
+execute if score @s ScoreTrigger matches 2915 run execute if score Real0 TIMER matches ..1248 run scoreboard players set Real0 TIMER 1249
+execute if score @s ScoreTrigger matches 2916 run execute if score Real0 TIMER matches ..1398 run scoreboard players set Real0 TIMER 1399
+execute if score @s ScoreTrigger matches 2917 run execute if score Real0 TIMER matches ..1498 run scoreboard players set Real0 TIMER 1499
+execute if score @s ScoreTrigger matches 2918 run execute if score Real0 TIMER matches ..88 run scoreboard players set Real0 TIMER 89
+execute if score @s ScoreTrigger matches 2919 run execute if score Real0 TIMER matches ..138 run scoreboard players set Real0 TIMER 139
+execute if score @s ScoreTrigger matches 2920 run execute if score Real0 TIMER matches ..298 run scoreboard players set Real0 TIMER 299
+execute if score @s ScoreTrigger matches 2921 run execute if score Real0 TIMER matches ..398 run scoreboard players set Real0 TIMER 399
+execute if score @s ScoreTrigger matches 2922 run execute if score Real0 TIMER matches ..778 run scoreboard players set Real0 TIMER 779
+execute if score @s ScoreTrigger matches 2923 run execute if score Real0 TIMER matches ..248 run scoreboard players set Real0 TIMER 249
+execute if score @s ScoreTrigger matches 2924 run execute if score Real0 TIMER matches ..378 run scoreboard players set Real0 TIMER 379
+execute if score @s ScoreTrigger matches 2925 run execute if score Real0 TIMER matches ..478 run scoreboard players set Real0 TIMER 479
+execute if score @s ScoreTrigger matches 2926 run execute if score Real0 TIMER matches ..758 run scoreboard players set Real0 TIMER 759
+execute if score @s ScoreTrigger matches 2927 run execute if score Real0 TIMER matches ..838 run scoreboard players set Real0 TIMER 839
+execute if score @s ScoreTrigger matches 2928 run execute if score Real0 TIMER matches ..978 run scoreboard players set Real0 TIMER 979
+execute if score @s ScoreTrigger matches 2929 run execute if score Real0 TIMER matches ..1078 run scoreboard players set Real0 TIMER 1079
+execute if score @s ScoreTrigger matches 2930 run execute if score Real0 TIMER matches ..148 run scoreboard players set Real0 TIMER 149
+execute if score @s ScoreTrigger matches 2931 run execute if score Real0 TIMER matches ..598 run scoreboard players set Real0 TIMER 599
+execute if score @s ScoreTrigger matches 2932 run execute if score Real0 TIMER matches ..998 run scoreboard players set Real0 TIMER 999
+execute if score @s ScoreTrigger matches 2933 run execute if score Real0 TIMER matches ..198 run scoreboard players set Real0 TIMER 199
+execute if score @s ScoreTrigger matches 2934 run execute if score Real0 TIMER matches ..698 run scoreboard players set Real0 TIMER 699
+execute if score @s ScoreTrigger matches 2935 run execute if score Real0 TIMER matches ..898 run scoreboard players set Real0 TIMER 899
+execute if score @s ScoreTrigger matches 2936 run execute if score Real0 TIMER matches ..748 run scoreboard players set Real0 TIMER 749
+execute if score @s ScoreTrigger matches 2937 run execute if score Real0 TIMER matches ..168 run scoreboard players set Real0 TIMER 169
+execute if score @s ScoreTrigger matches 2938 run execute if score Real0 TIMER matches ..1048 run scoreboard players set Real0 TIMER 1049
+execute if score @s ScoreTrigger matches 2939 run execute if score Real0 TIMER matches ..98 run scoreboard players set Real0 TIMER 99
+execute if score @s ScoreTrigger matches 2940 run execute if score Real0 TIMER matches ..158 run scoreboard players set Real0 TIMER 159
+execute if score @s ScoreTrigger matches 2941 run execute if score Real0 TIMER matches ..219 run scoreboard players set Real0 TIMER 220
+execute if score @s ScoreTrigger matches 2942 run execute if score Real0 TIMER matches ..348 run scoreboard players set Real0 TIMER 349
+execute if score @s ScoreTrigger matches 2943 run execute if score Real0 TIMER matches ..418 run scoreboard players set Real0 TIMER 419
+execute if score @s ScoreTrigger matches 2944 run execute if score Real0 TIMER matches ..988 run scoreboard players set Real0 TIMER 989
+execute if score @s ScoreTrigger matches 2945 run execute if score Real0 TIMER matches ..1198 run scoreboard players set Real0 TIMER 1199
+execute if score @s ScoreTrigger matches 2946 run execute if score Real0 TIMER matches ..1479 run scoreboard players set Real0 TIMER 1480
+execute if score @s ScoreTrigger matches 2947 run execute if score Real0 TIMER matches ..447 run scoreboard players set Real0 TIMER 449
+execute if score @s ScoreTrigger matches 2948 run execute if score Real0 TIMER matches ..1148 run scoreboard players set Real0 TIMER 1149
+execute if score @s ScoreTrigger matches 2949 run execute if score Real0 TIMER matches ..1298 run scoreboard players set Real0 TIMER 1299
+execute if score @s ScoreTrigger matches 2950 run execute if score Real0 TIMER matches ..48 run scoreboard players set Real0 TIMER 49
+execute if score @s ScoreTrigger matches 2951 run execute if score Real0 TIMER matches ..448 run scoreboard players set Real0 TIMER 449
+execute if score @s ScoreTrigger matches 2952 run execute if score Real0 TIMER matches ..948 run scoreboard players set Real0 TIMER 949
+execute if score @s ScoreTrigger matches 2953 run execute if score Real2 TIMER matches ..98 run scoreboard players set Real2 TIMER 99
+execute if score @s ScoreTrigger matches 2954 run execute if score Real2 TIMER matches ..398 run scoreboard players set Real2 TIMER 399
+execute if score @s ScoreTrigger matches 2955 run execute if score Real2 TIMER matches ..498 run scoreboard players set Real2 TIMER 499
+execute if score @s ScoreTrigger matches 2956 run execute if score Real2 TIMER matches ..698 run scoreboard players set Real2 TIMER 699
+execute if score @s ScoreTrigger matches 2957 run execute if score Real2 TIMER matches ..998 run scoreboard players set Real2 TIMER 999
+execute if score @s ScoreTrigger matches 2958 run execute if score Real2 TIMER matches ..179 run scoreboard players set Real2 TIMER 180
+execute if score @s ScoreTrigger matches 2959 run execute if score Real2 TIMER matches ..68 run scoreboard players set Real2 TIMER 69
+execute if score @s ScoreTrigger matches 2960 run execute if score Real2 TIMER matches ..118 run scoreboard players set Real2 TIMER 119
+execute if score @s ScoreTrigger matches 2961 run execute if score Real2 TIMER matches ..198 run scoreboard players set Real2 TIMER 199
+execute if score @s ScoreTrigger matches 2962 run execute if score Real2 TIMER matches ..298 run scoreboard players set Real2 TIMER 299
+execute if score @s ScoreTrigger matches 2963 run execute if score Real2 TIMER matches ..598 run scoreboard players set Real2 TIMER 599
+execute if score @s ScoreTrigger matches 2964 run execute if score Real2 TIMER matches ..648 run scoreboard players set Real2 TIMER 649
+execute if score @s ScoreTrigger matches 2965 run execute if score Real2 TIMER matches ..1058 run scoreboard players set Real2 TIMER 1059
+execute if score @s ScoreTrigger matches 2966 run execute if score Real2 TIMER matches ..1098 run scoreboard players set Real2 TIMER 1099
+execute if score @s ScoreTrigger matches 2967 run execute if score Real2 TIMER matches ..1548 run scoreboard players set Real2 TIMER 1549
+execute if score @s ScoreTrigger matches 2968 run execute if score Real2 TIMER matches ..1748 run scoreboard players set Real2 TIMER 1749
+execute if score @s ScoreTrigger matches 2969 run execute if score Real2 TIMER matches ..2198 run scoreboard players set Real2 TIMER 2199
+execute if score @s ScoreTrigger matches 2970 run execute if score Real2 TIMER matches ..2298 run scoreboard players set Real2 TIMER 2299
+execute if score @s ScoreTrigger matches 2971 run execute if score Real2 TIMER matches ..2348 run scoreboard players set Real2 TIMER 2349
+execute if score @s ScoreTrigger matches 2972 run execute if score Real2 TIMER matches ..2498 run scoreboard players set Real2 TIMER 2499
+execute if score @s ScoreTrigger matches 2973 run execute if score Real2 TIMER matches ..2598 run scoreboard players set Real2 TIMER 2599
+execute if score @s ScoreTrigger matches 2974 run execute if score Real2 TIMER matches ..2998 run scoreboard players set Real2 TIMER 2999
+execute if score @s ScoreTrigger matches 2975 run execute if score Real2 TIMER matches ..3448 run scoreboard players set Real2 TIMER 3449
+execute if score @s ScoreTrigger matches 2976 run execute if score Real2 TIMER matches ..3598 run scoreboard players set Real2 TIMER 3599
+execute if score @s ScoreTrigger matches 2977 run execute if score Real2 TIMER matches ..4098 run scoreboard players set Real2 TIMER 4099
+execute if score @s ScoreTrigger matches 2978 run execute if score Real2 TIMER matches ..4298 run scoreboard players set Real2 TIMER 4299
+execute if score @s ScoreTrigger matches 2979 run execute if score Real2 TIMER matches ..4398 run scoreboard players set Real2 TIMER 4399
+execute if score @s ScoreTrigger matches 2980 run execute if score Real2 TIMER matches ..78 run scoreboard players set Real2 TIMER 79
+execute if score @s ScoreTrigger matches 2981 run execute if score Real2 TIMER matches ..148 run scoreboard players set Real2 TIMER 149
+execute if score @s ScoreTrigger matches 2982 run execute if score Real2 TIMER matches ..749 run scoreboard players set Real2 TIMER 750
+execute if score @s ScoreTrigger matches 2983 run execute if score Real2 TIMER matches ..548 run scoreboard players set Real2 TIMER 549
+execute if score @s ScoreTrigger matches 2984 run execute if score Real2 TIMER matches ..798 run scoreboard players set Real2 TIMER 799
+execute if score @s ScoreTrigger matches 2985 run execute if score Real2 TIMER matches ..849 run scoreboard players set Real2 TIMER 850
+execute if score @s ScoreTrigger matches 2986 run execute if score Real2 TIMER matches ..498 run scoreboard players set Real2 TIMER 449
+execute if score @s ScoreTrigger matches 2987 run execute if score Real2 TIMER matches ..649 run scoreboard players set Real2 TIMER 650
+execute if score @s ScoreTrigger matches 2988 run execute if score Real2 TIMER matches ..779 run scoreboard players set Real2 TIMER 780
+execute if score @s ScoreTrigger matches 2989 run execute if score Real2 TIMER matches ..949 run scoreboard players set Real2 TIMER 950
+execute if score @s ScoreTrigger matches 2990 run execute if score Real2 TIMER matches ..1199 run scoreboard players set Real2 TIMER 1200
+execute if score @s ScoreTrigger matches 2991 run execute if score Real2 TIMER matches ..1349 run scoreboard players set Real2 TIMER 1350
+execute if score @s ScoreTrigger matches 2992 run execute if score Neth1 TIMER matches ..98 run scoreboard players set Neth1 TIMER 99
+execute if score @s ScoreTrigger matches 2993 run execute if score Neth1 TIMER matches ..148 run scoreboard players set Neth1 TIMER 149
+execute if score @s ScoreTrigger matches 2994 run execute if score Neth1 TIMER matches ..248 run scoreboard players set Neth1 TIMER 249
+execute if score @s ScoreTrigger matches 2995 run execute if score Neth1 TIMER matches ..298 run scoreboard players set Neth1 TIMER 299
+execute if score @s ScoreTrigger matches 2996 run execute if score Neth1 TIMER matches ..748 run scoreboard players set Neth1 TIMER 749
+execute if score @s ScoreTrigger matches 2997 run execute if score Neth1 TIMER matches ..798 run scoreboard players set Neth1 TIMER 799
+execute if score @s ScoreTrigger matches 2998 run execute if score Neth1 TIMER matches ..1098 run scoreboard players set Neth1 TIMER 1099
+execute if score @s ScoreTrigger matches 2999 run execute if score Neth1 TIMER matches ..1198 run scoreboard players set Neth1 TIMER 1199
+execute if score @s ScoreTrigger matches 3000 run execute if score Neth1 TIMER matches ..1248 run scoreboard players set Neth1 TIMER 1249
+execute if score @s ScoreTrigger matches 3001 run execute if score Neth1 TIMER matches ..1348 run scoreboard players set Neth1 TIMER 1349
+execute if score @s ScoreTrigger matches 3002 run execute if score Neth1 TIMER matches ..1498 run scoreboard players set Neth1 TIMER 1499
+execute if score @s ScoreTrigger matches 3003 run execute if score Neth1 TIMER matches ..348 run scoreboard players set Neth1 TIMER 349
+execute if score @s ScoreTrigger matches 3004 run execute if score Neth1 TIMER matches ..448 run scoreboard players set Neth1 TIMER 449
+execute if score @s ScoreTrigger matches 3005 run execute if score Neth1 TIMER matches ..498 run scoreboard players set Neth1 TIMER 499
+execute if score @s ScoreTrigger matches 3006 run execute if score Neth1 TIMER matches ..548 run scoreboard players set Neth1 TIMER 549
+execute if score @s ScoreTrigger matches 3007 run execute if score Neth1 TIMER matches ..998 run scoreboard players set Neth1 TIMER 999
+execute if score @s ScoreTrigger matches 3008 run execute if score Neth1 TIMER matches ..48 run scoreboard players set Neth1 TIMER 49
+execute if score @s ScoreTrigger matches 3009 run execute if score Neth1 TIMER matches ..848 run scoreboard players set Neth1 TIMER 849
+execute if score @s ScoreTrigger matches 3010 run execute if score Neth1 TIMER matches ..898 run scoreboard players set Neth1 TIMER 899
+execute if score @s ScoreTrigger matches 3011 run execute if score Neth1 TIMER matches ..973 run scoreboard players set Neth1 TIMER 974
+execute if score @s ScoreTrigger matches 3012 run execute if score Neth1 TIMER matches ..1048 run scoreboard players set Neth1 TIMER 1049
+execute if score @s ScoreTrigger matches 3013 run execute if score Neth1 TIMER matches ..1298 run scoreboard players set Neth1 TIMER 1299
+execute if score @s ScoreTrigger matches 3014 run execute if score Neth1 TIMER matches ..398 run scoreboard players set Neth1 TIMER 399
+execute if score @s ScoreTrigger matches 3015 run execute if score Real1 TIMER matches ..148 run scoreboard players set Real1 TIMER 149
+execute if score @s ScoreTrigger matches 3016 run execute if score Real1 TIMER matches ..248 run scoreboard players set Real1 TIMER 249
+execute if score @s ScoreTrigger matches 3017 run execute if score Real1 TIMER matches ..198 run scoreboard players set Real1 TIMER 199
+execute if score @s ScoreTrigger matches 3018 run execute if score Real1 TIMER matches ..498 run scoreboard players set Real1 TIMER 499
+execute if score @s ScoreTrigger matches 3019 run execute if score Real1 TIMER matches ..598 run scoreboard players set Real1 TIMER 599
+execute if score @s ScoreTrigger matches 3020 run execute if score Real1 TIMER matches ..648 run scoreboard players set Real1 TIMER 649
+execute if score @s ScoreTrigger matches 3021 run execute if score Real1 TIMER matches ..848 run scoreboard players set Real1 TIMER 849
+execute if score @s ScoreTrigger matches 3022 run execute if score Real1 TIMER matches ..898 run scoreboard players set Real1 TIMER 899
+execute if score @s ScoreTrigger matches 3023 run execute if score Real1 TIMER matches ..998 run scoreboard players set Real1 TIMER 999
+execute if score @s ScoreTrigger matches 3024 run execute if score Real1 TIMER matches ..1098 run scoreboard players set Real1 TIMER 1099
+execute if score @s ScoreTrigger matches 3025 run execute if score Real1 TIMER matches ..98 run scoreboard players set Real1 TIMER 99
+execute if score @s ScoreTrigger matches 3026 run execute if score Real1 TIMER matches ..173 run scoreboard players set Real1 TIMER 174
+execute if score @s ScoreTrigger matches 3027 run execute if score Real1 TIMER matches ..398 run scoreboard players set Real1 TIMER 399
+execute if score @s ScoreTrigger matches 3028 run execute if score Real1 TIMER matches ..458 run scoreboard players set Real1 TIMER 459
+execute if score @s ScoreTrigger matches 3029 run execute if score Real1 TIMER matches ..698 run scoreboard players set Real1 TIMER 699
+execute if score @s ScoreTrigger matches 3030 run execute if score Real1 TIMER matches ..348 run scoreboard players set Real1 TIMER 349
+execute if score @s ScoreTrigger matches 3031 run execute if score Real1 TIMER matches ..798 run scoreboard players set Real1 TIMER 799
+execute if score @s ScoreTrigger matches 3032 run execute if score Real1 TIMER matches ..1198 run scoreboard players set Real1 TIMER 1199
+execute if score @s ScoreTrigger matches 3033 run execute if score Real1 TIMER matches ..1148 run scoreboard players set Real1 TIMER 1149
+execute if score @s ScoreTrigger matches 3034 run execute if score Real1 TIMER matches ..1248 run scoreboard players set Real1 TIMER 1249
+execute if score @s ScoreTrigger matches 3035 run execute if score Real1 TIMER matches ..1298 run scoreboard players set Real1 TIMER 1299
+execute if score @s ScoreTrigger matches 3036 run execute if score Real1 TIMER matches ..1398 run scoreboard players set Real1 TIMER 1399
+execute if score @s ScoreTrigger matches 3037 run execute if score Real1 TIMER matches ..448 run scoreboard players set Real1 TIMER 449
+execute if score @s ScoreTrigger matches 3038 run execute if score Real1 TIMER matches ..773 run scoreboard players set Real1 TIMER 774
+execute if score @s ScoreTrigger matches 3039 run execute if score Real1 TIMER matches ..1373 run scoreboard players set Real1 TIMER 1374
+execute if score @s ScoreTrigger matches 3040 run execute if score Real1 TIMER matches ..1448 run scoreboard players set Real1 TIMER 1449
+execute if score @s ScoreTrigger matches 3041 run execute if score Real1 TIMER matches ..1498 run scoreboard players set Real1 TIMER 1499
+execute if score @s ScoreTrigger matches 3042 run execute if score Real1 TIMER matches ..73 run scoreboard players set Real1 TIMER 74
+execute if score @s ScoreTrigger matches 3043 run execute if score Real1 TIMER matches ..349 run scoreboard players set Real1 TIMER 350
+execute if score @s ScoreTrigger matches 3044 run execute if score Real1 TIMER matches ..298 run scoreboard players set Real1 TIMER 299
+execute if score @s ScoreTrigger matches 3045 run execute if score Real1 TIMER matches ..373 run scoreboard players set Real1 TIMER 374
+execute if score @s ScoreTrigger matches 3046 run execute if score Real1 TIMER matches ..1348 run scoreboard players set Real1 TIMER 1349
+execute if score @s ScoreTrigger matches 3047 run execute if score Real1 TIMER matches ..123 run scoreboard players set Real1 TIMER 124
+execute if score @s ScoreTrigger matches 3048 run execute if score Real1 TIMER matches ..673 run scoreboard players set Real1 TIMER 674
+execute if score @s ScoreTrigger matches 3049 run execute if score Real1 TIMER matches ..198 run scoreboard players set Real1 TIMER 299
+execute if score @s ScoreTrigger matches 3050 run execute if score Real1 TIMER matches ..748 run scoreboard players set Real1 TIMER 749
+execute if score @s ScoreTrigger matches 3051 run execute if score Real1 TIMER matches ..797 run scoreboard players set Real1 TIMER 798
+execute if score @s ScoreTrigger matches 3052 run execute if score Real1 TIMER matches ..948 run scoreboard players set Real1 TIMER 949
+execute if score @s ScoreTrigger matches 3053 run execute if score Real1 TIMER matches ..48 run scoreboard players set Real1 TIMER 49
+execute if score @s ScoreTrigger matches 3054 run execute if score Real1 TIMER matches ..74 run scoreboard players set Real1 TIMER 75
+execute if score @s ScoreTrigger matches 3055 run execute if score Real1 TIMER matches ..738 run scoreboard players set Real1 TIMER 739
+execute if score @s ScoreTrigger matches 3056 run execute if score Real1 TIMER matches ..223 run scoreboard players set Real1 TIMER 224
+execute if score @s ScoreTrigger matches 3057 run execute if score Real1 TIMER matches ..523 run scoreboard players set Real1 TIMER 524
+execute if score @s ScoreTrigger matches 3058 run execute if score cinematic_timer SQ59 matches ..48 run scoreboard players set cinematic_timer SQ59 49
+execute if score @s ScoreTrigger matches 3059 run execute if score cinematic_timer SQ59 matches ..148 run scoreboard players set cinematic_timer SQ59 149
+execute if score @s ScoreTrigger matches 3060 run execute if score cinematic_timer SQ59 matches ..498 run scoreboard players set cinematic_timer SQ59 499
+execute if score @s ScoreTrigger matches 3061 run execute if score cinematic_timer SQ59 matches ..598 run scoreboard players set cinematic_timer SQ59 599
+execute if score @s ScoreTrigger matches 3062 run execute if score cinematic_timer SQ59 matches ..248 run scoreboard players set cinematic_timer SQ59 249
+execute if score @s ScoreTrigger matches 3063 run execute if score cinematic_timer SQ59 matches ..698 run scoreboard players set cinematic_timer SQ59 699
+execute if score @s ScoreTrigger matches 3064 run execute if score cinematic_timer SQ59 matches ..73 run scoreboard players set cinematic_timer SQ59 74
+execute if score @s ScoreTrigger matches 3065 run execute if score cinematic_timer SQ59 matches ..124 run scoreboard players set cinematic_timer SQ59 125
+execute if score @s ScoreTrigger matches 3066 run execute if score cinematic_timer SQ59 matches ..349 run scoreboard players set cinematic_timer SQ59 350
+execute if score @s ScoreTrigger matches 3067 run execute if score cinematic_timer SQ59 matches ..499 run scoreboard players set cinematic_timer SQ59 500
+execute if score @s ScoreTrigger matches 3068 run execute if score cinematic_timer SQ59 matches ..599 run scoreboard players set cinematic_timer SQ59 600
+execute if score @s ScoreTrigger matches 3069 run execute if score cinematic_timer SQ59 matches ..999 run scoreboard players set cinematic_timer SQ59 1000
+execute if score @s ScoreTrigger matches 3070 run execute if score cinematic_timer SQ59 matches ..1449 run scoreboard players set cinematic_timer SQ59 1450
+execute if score @s ScoreTrigger matches 3071 run execute if score cinematic_timer SQ59 matches ..1549 run scoreboard players set cinematic_timer SQ59 1550
+execute if score @s ScoreTrigger matches 3072 run execute if score cinematic_timer SQ59 matches ..1599 run scoreboard players set cinematic_timer SQ59 1600
+execute if score @s ScoreTrigger matches 3073 run execute if score cinematic_timer SQ59 matches ..98 run scoreboard players set cinematic_timer SQ59 99
+execute if score @s ScoreTrigger matches 3074 run execute if score cinematic_timer SQ59 matches ..298 run scoreboard players set cinematic_timer SQ59 299
+execute if score @s ScoreTrigger matches 3075 run execute if score cinematic_timer SQ59 matches ..798 run scoreboard players set cinematic_timer SQ59 799
+execute if score @s ScoreTrigger matches 3076 run execute if score cinematic_timer SQ59 matches ..198 run scoreboard players set cinematic_timer SQ59 199
+execute if score @s ScoreTrigger matches 3077 run execute if score cinematic_timer SQ59 matches ..398 run scoreboard players set cinematic_timer SQ59 399
+execute if score @s ScoreTrigger matches 3078 run execute if score cinematic_timer SQ59 matches ..548 run scoreboard players set cinematic_timer SQ59 549
+execute if score @s ScoreTrigger matches 3079 run execute if score cinematic_timer SQ59 matches ..998 run scoreboard players set cinematic_timer SQ59 999
+execute if score @s ScoreTrigger matches 3080 run execute if score cinematic_timer SQ59 matches ..1198 run scoreboard players set cinematic_timer SQ59 1199
+execute if score @s ScoreTrigger matches 3081 run execute if score cinematic_timer SQ59 matches ..1298 run scoreboard players set cinematic_timer SQ59 1299
+execute if score @s ScoreTrigger matches 3082 run execute if score cinematic_timer SQ59 matches ..348 run scoreboard players set cinematic_timer SQ59 349
+execute if score @s ScoreTrigger matches 3083 run execute if score cinematic_timer SQ59 matches ..448 run scoreboard players set cinematic_timer SQ59 449
+execute if score @s ScoreTrigger matches 3084 run execute if score cinematic_timer SQ59 matches ..123 run scoreboard players set cinematic_timer SQ59 124
+execute if score @s ScoreTrigger matches 3085 run execute if score cinematic_timer SQ59 matches ..244 run scoreboard players set cinematic_timer SQ59 245
+execute if score @s ScoreTrigger matches 3086 run execute if score cinematic_timer SQ59 matches ..373 run scoreboard players set cinematic_timer SQ59 374

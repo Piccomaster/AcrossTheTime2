@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° S : ",color:"gray",extra:[{text:"�
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° S : ",color:"gray",extra:[{text:"Desculpe... Ninguém envia deliberadamente um amigo para a corrupção... Talvez você o considere seu aliado, mas eu acho que ele te manipulou como uma peça e não compartilha do mesmo respeito que você tem por ele.",color:"yellow","italic":true}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"听你这么说，我感到很遗憾...没人会把自己的好友送到墮落泉源跟前...也许你认为他是你的挚友，但我觉得他只是把你当棋子罢了，他并不在乎你。",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"听你这么说，我感到很遗憾...没人会把自己的好友送到堕落泉源跟前...也许你认为他是你的挚友，但我觉得他只是把你当棋子罢了，他并不在乎你。",color:"yellow","italic":true}]}

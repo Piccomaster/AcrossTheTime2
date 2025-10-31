@@ -7,6 +7,8 @@
 
 scoreboard players operation @s DAHAL1 = @s DAHALMAX
 scoreboard players operation @s DAHAL1 /= @s OP_DAHAL
+##Minimum Dahal Regeneration Limit
+scoreboard players operation @s DAHAL1 > @s DAR_TOT
 scoreboard players operation @s DAHAL += @s DAHAL1
 scoreboard players operation @s DAHAL < @s DAHALMAX
 

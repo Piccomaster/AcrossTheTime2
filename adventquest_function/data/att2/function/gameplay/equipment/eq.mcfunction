@@ -23,6 +23,9 @@ execute if predicate att2_pre:test_hold/equipment/offhand run function att2:game
 ##enchantment equipment
 function att2:gameplay/enchantment/trigger_function/go
 
+##spear
+function att2:gameplay/equipment/weapon/spear/go
+
 #test unless weapon
 attribute @s attack_damage modifier remove att2:attack_damage_limit
 execute unless predicate att2_pre:test_hold/equipment/meleeweapon run attribute @s attack_damage modifier add att2:attack_damage_limit -0.90 add_multiplied_total

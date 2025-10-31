@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° S : ",color:"gray",extra:[{text:"�
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° S : ",color:"gray",extra:[{text:"Muito bem, deixe-me explicar... Você já esteve em contato com a fonte mágica conhecida como 'Corrupção'?",color:"yellow","italic":true}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"好吧，让我解释给你听...你以前和魔力源“墮落泉源”有过联系对吧？ ",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"好吧，让我解释给你听...你以前和魔力源“堕落泉源”有过联系对吧？ ",color:"yellow","italic":true}]}

@@ -10,14 +10,20 @@
                 }
             }
         },
-        "title": {"translate":"att2.advancement.dahal.title.spell1_loot"},
-        "description": {"translate":"att2.advancement.dahal.description.spell1_loot"}
+        "title": {
+            "translate": "att2.advancement.dahal.title.spell1_loot"
+        },
+        "description": {
+            "translate": "att2.advancement.dahal.description.spell1_loot"
+        },
+        "show_toast": false,
+        "announce_to_chat": true
     },
     "parent": "att2:dahal/root",
     "rewards": {
         "function": "att2:advancement/exploit_1",
         "experience": 50
-                },
+    },
     "criteria": {
         "spell1_loot": {
             "trigger": "minecraft:impossible"

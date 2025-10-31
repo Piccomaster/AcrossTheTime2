@@ -8,7 +8,7 @@ function att2:gameplay/misc/skin/go
 execute if score tic TIMECOUNTER matches 10..20 run function att2:gameplay/misc/dummy/go
 function att2:gameplay/misc/quest_icon/go
 ##itemrarity_color
-execute if score all itemcolor matches 1.. as @e[type=item] at @s run function att2:gameplay/misc/itemrarity_color/go
+function att2:gameplay/misc/itemrarity_color/go
 ##chest particle
 function att2:gameplay/misc/chesteffect/go
 #execute if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/chesteffect/overworld_go
@@ -38,7 +38,7 @@ execute as @a[scores={SPAWNER_LIMIT=1..}] at @s run function att2:gameplay/misc/
 #VOCIE limit
 scoreboard players remove limit Voice 1
 #mainplayer name
-execute as @a[scores={MAINPLAYERNAME=1..},predicate=att2_pre:mainplayer_name/hand] at @s run function att2:gameplay/misc/mainplayer_name/go
+#execute as @a[scores={MAINPLAYERNAME=1..},predicate=att2_pre:mainplayer_name/hand] at @s run function att2:gameplay/misc/mainplayer_name/go
 #back checkpoint
 execute as @a[scores={CHECKPOINT=1..}] at @s run function att2:gameplay/misc/checkpoint/go
 #xp grant

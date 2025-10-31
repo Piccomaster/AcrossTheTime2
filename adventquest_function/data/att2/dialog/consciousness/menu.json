@@ -5,9 +5,14 @@
     "after_action": "none",
     "body": {
         "type": "plain_message",
-        "contents": {
-            "translate": "consciousness.menu"
-        }
+        "contents": [
+            {
+                "text": "\n"
+            },
+            {
+                "translate": "consciousness.menu"
+            }
+        ]
     },
     "actions": [
         {

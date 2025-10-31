@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {text:" °-° Edwin Vortid : ",color:"green",ext
 tellraw @s[scores={LANGUAGE=10}] {text:" °-° Edwin Vortid : ",color:"green",extra:[{text:"Ah, eu sabia! O estabelecimento está localizado ao norte da floresta Soquaï, ao lado da montanha. Para encontrá-lo facilmente, basta seguir o riacho ao longo do lado leste. Faça algumas apostas e você rapidamente vai gostar, se tiver claro, Chronotons suficientes...",color:"dark_aqua"}]}
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {text:" °-° Edwin Vortid : ",color:"green",extra:[{text:"嘿，我就知道！Charles赌场在Soquai森林的北部。您要只需从meleim镇出发，向西边走，沿着小路穿过Black森林，进入Soquai森林，翻过一个小山头，在Soquai森林内部的一处山涧村落中就能找到赌场了。有足够的Chronotons去下注的话，你很快就会沉迷在其中的...",color:"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {text:" °-° Edwin Vortid : ",color:"green",extra:[{text:"嘿，我就知道！Charles赌场在Soquai森林的北部。您要只需从meleim镇出发，向西边走，沿着小路穿过黑森林，进入Soquai森林，翻过一个小山头，在Soquai森林内部的一处山涧村落中就能找到赌场了。有足够的Chronotons去下注的话，你很快就会沉迷在其中的...",color:"dark_aqua"}]}

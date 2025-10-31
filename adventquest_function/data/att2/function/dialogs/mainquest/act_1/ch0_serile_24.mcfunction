@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° S : ",color:"gray",extra:[{text:"�
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° S : ",color:"gray",extra:[{text:"Deixe-me fazer algumas perguntas: você usou o poder da corrupção por vontade própria, ou alguém o forçou a usá-lo?",color:"yellow","italic":true}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"让我问你几个问题：你以前是否有遵循自己的意志使用过墮落泉源的力量，或者说，有没有人强迫你使用它？ ",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"让我问你几个问题：你以前是否有遵循自己的意志使用过堕落泉源的力量，或者说，有没有人强迫你使用它？ ",color:"yellow","italic":true}]}

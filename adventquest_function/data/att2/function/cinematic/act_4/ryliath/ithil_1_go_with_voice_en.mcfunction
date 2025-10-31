@@ -4,16 +4,16 @@
 ##################################################
 
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch3_player_3
-execute if score Real0 TIMER matches 10 at 00000000-0000-094a-0000-00000000094a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..98 run scoreboard players set Real0 TIMER 99"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 10 at 00000000-0000-094a-0000-00000000094a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2939"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 100..500 as 00000000-0000-094a-0000-00000000094a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real0 TIMER matches 100 run function att2:dialogs/mainquest/act_4/ch3_ithil_1
 execute if score Real0 TIMER matches 100 run function att2:voice/ithil/ithil1
-execute if score Real0 TIMER matches 100 at 00000000-0000-094a-0000-00000000094a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..298 run scoreboard players set Real0 TIMER 299"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 100 at 00000000-0000-094a-0000-00000000094a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2920"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_4/ch3_player_4
-execute if score Real0 TIMER matches 300 at 00000000-0000-094a-0000-00000000094a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..348 run scoreboard players set Real0 TIMER 349"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 300 at 00000000-0000-094a-0000-00000000094a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2942"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 350 run function att2:dialogs/mainquest/act_4/ch3_ithil_2
 execute if score Real0 TIMER matches 350 run function att2:voice/ithil/ithil2
-execute if score Real0 TIMER matches 350 at 00000000-0000-094a-0000-00000000094a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..798 run scoreboard players set Real0 TIMER 799"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 350 at 00000000-0000-094a-0000-00000000094a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2912"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 800 run function att2:dialogs/mainquest/act_4/ch3_player_5
 execute if score Real0 TIMER matches 900 run function att2:physicmod/reg1/ryliath_ithildoor1
 

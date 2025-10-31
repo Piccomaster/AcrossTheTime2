@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° S : ",color:"gray",extra:[{text:"�
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° S : ",color:"gray",extra:[{text:"Eu conheço um feitiço que limitará os efeitos da corrupção em você.",color:"yellow","italic":true}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"我知道一个限制墮落泉源效力的咒语。",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"我知道一个限制堕落泉源效力的咒语。",color:"yellow","italic":true}]}

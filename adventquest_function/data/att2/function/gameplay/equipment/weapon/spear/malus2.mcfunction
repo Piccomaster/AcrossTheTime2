@@ -4,4 +4,4 @@
 #############################################################
 
 #remove has STAT
-scoreboard players operation @s HAS_EH -= 2 CAL
+scoreboard players operation @s HAS_EQ -= 2 CAL

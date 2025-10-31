@@ -14,7 +14,6 @@ function att2:gameplay/legendary/weaponsking/go
 function att2:gameplay/legendary/warlord/go
 function att2:gameplay/legendary/kinuil/go
 function att2:gameplay/legendary/sastr/go
-function att2:gameplay/equipment/weapon/spear/go
 #TODO
 function att2:gameplay/legendary/ultima/go
 function att2:gameplay/legendary/blindshield/go
