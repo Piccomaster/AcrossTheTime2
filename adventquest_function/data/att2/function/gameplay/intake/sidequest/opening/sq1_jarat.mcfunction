@@ -10,4 +10,4 @@ execute positioned -4574 74 -5427 run function att2:gameplay/intake/effect
 execute if score intake_wheat SQ1 matches 50.. run stopsound @a block minecraft:airblast
 execute if score intake_wheat SQ1 matches 64.. run function att2:cinematic/sidequest/1/end
 #clear textdisplay
-execute if score intake_wheat SQ1 matches 64.. positioned -4574 74 -5427 run kill @e[type=text_display,distance=..5,tag=QUEST]
+execute if score intake_wheat SQ1 matches 64.. positioned -4574 74 -5427 run kill @e[type=text_display,distance=..10,tag=QUEST]

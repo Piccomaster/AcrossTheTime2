@@ -17,4 +17,3 @@ function att2:gameplay/misc/horse/particles
 #kill @s
 tp @s[type=#minecraft:rideable] ~ -10 ~
 kill @s[type=#minecraft:rideable]
-say 我来了

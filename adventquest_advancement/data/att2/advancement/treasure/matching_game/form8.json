@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:pale_oak_shelf"
+        },
+        "title": {"translate": "att2.advancement.treasure.title.maching_game.form8"},
+        "description": {"translate": "att2.advancement.treasure.description.maching_game.form8"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/chronotons_25000",
+        "rewards": {
+            "function": "att2:advancement/exploit_20",
+            "experience": 2000
+    },
+    "criteria": {
+        "chronotons_50000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
