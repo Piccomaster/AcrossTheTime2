@@ -15,12 +15,12 @@ execute if score Real1 TIMER matches 75 run function att2:physicmod/reg1/nojelan
 execute if score Real1 TIMER matches 100 positioned -5538 20 -3965 run function att2:cinematic/sidequest/52/jzargo/summon_pnj
 execute if score Real1 TIMER matches 100..200 as 00000000-0000-089a-0000-00000000089a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real1 TIMER matches 150 run function att2:dialogs/sidequest/sq52/jzargo_12
-execute if score Real1 TIMER matches 150 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..198 run scoreboard players set Real1 TIMER 299"},hover_event:{action:show_text,value:"..."}}
+execute if score Real1 TIMER matches 150 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3049"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 300 run function att2:dialogs/sidequest/sq52/player_10
 execute if score Real1 TIMER matches 450 as 00000000-0000-089a-0000-00000000089a at @s run tp @s -5512 26 -3966 -100 10
 execute if score Real1 TIMER matches 450 as @a[gamemode=adventure,x=-5513,y=26,z=-3968,scores={NUMEROJOUEUR=1..},distance=..30] run tp @s -5513 26 -3968 -90 10
 execute if score Real1 TIMER matches 500 run function att2:dialogs/sidequest/sq52/jzargo_13
-execute if score Real1 TIMER matches 500 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..648 run scoreboard players set Real1 TIMER 649"},hover_event:{action:show_text,value:"..."}}
+execute if score Real1 TIMER matches 500 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3020"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 650 run function att2:dialogs/sidequest/sq52/player_11
 execute if score Real1 TIMER matches 700 run function att2:physicmod/reg1/nojelanth/jzargo_barrier4_sq52
 

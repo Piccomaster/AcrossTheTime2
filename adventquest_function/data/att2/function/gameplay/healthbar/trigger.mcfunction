@@ -4,7 +4,7 @@
 #################################################################
 
 #get hurting entity
-execute as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},predicate=!att2_pre:unhurt] at @s run function att2:gameplay/healthbar/detection_enemy
+execute as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},predicate=!att2_pre:unhurt,limit=1] at @s run function att2:gameplay/healthbar/detection_enemy
 
 
 #when enemy dead -> text_display score set

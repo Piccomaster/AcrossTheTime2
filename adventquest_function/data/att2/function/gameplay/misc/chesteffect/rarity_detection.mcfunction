@@ -10,8 +10,9 @@ execute unless score @s CHESTEFFECT matches 1.. run function att2:gameplay/misc/
 ##add tag
 tag @s add Select
 
-##detection score
 
+
+##detection score
 ##normal chest
 execute if score @s CHESTEFFECT matches 1 align xyz positioned ~0.5 ~0.5 ~0.5 run return run particle minecraft:dust{color:[0.5,0.5,0.5],scale:0.5} ~ ~ ~ 0.25 0.25 0.25 0 20 normal
 execute if score @s CHESTEFFECT matches 2 align xyz positioned ~0.5 ~0.5 ~0.5 run return run particle minecraft:dust{color:[0.5,0.7,0.5],scale:0.5} ~ ~ ~ 0.25 0.25 0.25 0 20 normal

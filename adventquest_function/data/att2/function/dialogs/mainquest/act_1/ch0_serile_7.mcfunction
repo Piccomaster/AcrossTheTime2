@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° S : ",color:"gray",extra:[{text:"�
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° S : ",color:"gray",extra:[{text:"Todos que já provaram caíram sob o domínio do seu poder...",color:"yellow","italic":true}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"所有曾接触它的人都因此墮落，屈服于它强大的力量...",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"所有曾接触它的人都因此堕落，屈服于它强大的力量...",color:"yellow","italic":true}]}

@@ -18,5 +18,5 @@ $execute if score $(particle_count) CAL matches ..5 as @e[distance=..5,scores={G
 $execute if score $(particle_count) CAL matches 5.. as @e[distance=..$(particle_count),scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
 
 ##clear @s
-execute on vehicle run kill @s[type=snowball]
+execute on vehicle run kill @s[type=eye_of_ender]
 kill @s[type=fireball]

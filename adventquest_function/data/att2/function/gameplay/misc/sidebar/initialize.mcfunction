@@ -5,7 +5,7 @@
 
 ##initialize
 scoreboard objectives remove Sidebar_Display
-scoreboard objectives add Sidebar_Display dummy {"translate":"att2.sidebar.display","color":"#55FFFF","bold":true}
+scoreboard objectives add Sidebar_Display dummy {"translate":"att2.sidebar.display","color":"#55FFFF","bold":false}
 scoreboard objectives setdisplay sidebar Sidebar_Display
 ##set base content (max = 15 )
 scoreboard players set line_1 Sidebar_Display 15
@@ -25,14 +25,14 @@ scoreboard players set line_5 Sidebar_Display 11
 #scoreboard players set line_14 Sidebar_Display 2
 #scoreboard players set line_15 Sidebar_Display 1
 ##set sidebbar left :
-scoreboard players display name line_1 Sidebar_Display {translate:"att2.sidebar.mainquest",color:"#FE9A37",bold:true}
-scoreboard players display name line_2 Sidebar_Display {translate:"att2.sidebar.sidequest",color:"#155DFC",bold:true}
-scoreboard players display name line_3 Sidebar_Display {translate:"att2.sidebar.exploit",color:"#05DF72",bold:true}
-scoreboard players display name line_4 Sidebar_Display {translate:"att2.sidebar.chronotons",color:"#FFDF20",bold:true}
-scoreboard players display name line_5 Sidebar_Display {translate:"att2.sidebar.reputation",color:"#2B7FFF",bold:true}
+scoreboard players display name line_1 Sidebar_Display {translate:"att2.sidebar.mainquest",color:"#FE9A37",bold:false}
+scoreboard players display name line_2 Sidebar_Display {translate:"att2.sidebar.sidequest",color:"#155DFC",bold:false}
+scoreboard players display name line_3 Sidebar_Display {translate:"att2.sidebar.exploit",color:"#05DF72",bold:false}
+scoreboard players display name line_4 Sidebar_Display {translate:"att2.sidebar.chronotons",color:"#FFDF20",bold:false}
+scoreboard players display name line_5 Sidebar_Display {translate:"att2.sidebar.reputation",color:"#2B7FFF",bold:false}
 
-#scoreboard players display name line_6 Sidebar_Display {translate:"att2.sidebar.mobs_invasion",color:"#9F0712",bold:true}
-#scoreboard players display name line_7 Sidebar_Display {translate:"att2.sidebar.lost_soul",color:"#2AA63E",bold:true}
+#scoreboard players display name line_6 Sidebar_Display {translate:"att2.sidebar.mobs_invasion",color:"#9F0712",bold:false}
+#scoreboard players display name line_7 Sidebar_Display {translate:"att2.sidebar.lost_soul",color:"#2AA63E",bold:false}
 ##set sidebbar right :
 #scoreboard players display numberformat line_1 Sidebar_Display fixed [{score:{name:"Mainquest",objective:Sidebar_Display},color:"#FE9A37"},{translate:att2.sidebar.unit,color:"#000000"}]
 #scoreboard players display numberformat line_2 Sidebar_Display fixed [{score:{name:"Sidequest",objective:Sidebar_Display},color:"#155DFC"},{translate:att2.sidebar.unit,color:"#000000"}]

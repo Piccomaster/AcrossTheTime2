@@ -4,7 +4,9 @@
             "id": "minecraft:cooked_rabbit"
         },
         "title": {"translate":"att2.advancement.food.title.rabbit_1"},
-        "description": {"translate":"att2.advancement.food.description.rabbit_1"}
+        "description": {"translate":"att2.advancement.food.description.rabbit_1"},
+        "show_toast": false,
+        "announce_to_chat": true
     },
     "parent": "att2:food/root",
     "rewards": {

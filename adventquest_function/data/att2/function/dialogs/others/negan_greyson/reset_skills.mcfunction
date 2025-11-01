@@ -5,7 +5,7 @@
 
 function att2:gameplay/leveling/reinitialize_skill
 function att2:sound/misc/mission_progress
-function att2:gameplay/update_book
+
 execute at @s run function att2:sound/dahal/loading_success
 
 execute as @s[scores={GAMELEVEL=0..9,CHRONOTON=50..}] at @s run scoreboard players remove @s CHRONOTON 50

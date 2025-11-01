@@ -2,3 +2,6 @@ execute unless score voice_lock Voice matches 1.. run scoreboard players set voi
 execute unless score voice_lock Voice matches 1.. run scoreboard players set VF Voice 1
 execute unless score voice_lock Voice matches 1.. run tellraw @a [{"translate":"att2.voice.french"}]
 execute if score voice_lock Voice matches 1.. run tellraw @a [{"translate":"att2.voice.limit"}]
+
+#sound
+playsound minecraft:entity.item.pickup ambient @s ~ ~ ~ 1 0.5

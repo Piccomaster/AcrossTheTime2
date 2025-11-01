@@ -9,25 +9,25 @@ execute if score Real2 TIMER matches 1 run data modify storage att2:performance 
 execute if score Real2 TIMER matches 1 positioned -5111 167.6 -6755 as @a[x=-5112,y=165,z=-6756,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/real2
 execute if score Real2 TIMER matches 1..4450 run tp @n[type=text_display,tag=Real2] -5111 167.6 -6755 -100 20
 execute if score Real2 TIMER matches 20 run function att2:dialogs/sidequest/sq28/korlaph_1
-execute if score Real2 TIMER matches 20 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..68 run scoreboard players set Real2 TIMER 69"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 20 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2959"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 70 run function att2:dialogs/sidequest/sq28/selene_1
-execute if score Real2 TIMER matches 70 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..118 run scoreboard players set Real2 TIMER 119"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 70 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2960"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 120 run function att2:dialogs/sidequest/sq28/korlaph_2
-execute if score Real2 TIMER matches 120 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..198 run scoreboard players set Real2 TIMER 199"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 120 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2961"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 200 run function att2:dialogs/sidequest/sq28/selene_2
-execute if score Real2 TIMER matches 200 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..298 run scoreboard players set Real2 TIMER 299"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 200 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2962"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 300 run function att2:dialogs/sidequest/sq28/korlaph_3
-execute if score Real2 TIMER matches 300 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..498 run scoreboard players set Real2 TIMER 499"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 300 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2955"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 300 positioned -5105 164 -6756 run function att2:sound/mobs/korlaph_evoking1
 execute if score Real2 TIMER matches 300..500 as 00000000-0000-081a-0000-00000000081a at @s run particle minecraft:enchant ~ ~1 ~ 1 1 1 1 10 normal
 execute if score Real2 TIMER matches 500 run function att2:dialogs/sidequest/sq28/lucimene_1
-execute if score Real2 TIMER matches 500 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..598 run scoreboard players set Real2 TIMER 599"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 500 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2963"},hover_event:{action:show_text,value:"..."}}
 
 
 
 execute if score Real2 TIMER matches 600 run scoreboard players set cinematic_timer1 SQ28 1
 execute if score Real2 TIMER matches 600 run function att2:dialogs/sidequest/sq28/selene_3
-execute if score Real2 TIMER matches 600 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..648 run scoreboard players set Real2 TIMER 649"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 600 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2964"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 600 as 00000000-0000-082a-0000-00000000082a at @s run tp @s -5103 163 -6755 -120 20
 execute if score Real2 TIMER matches 650 run function att2:dialogs/sidequest/sq28/lucimene_2
 execute if score Real2 TIMER matches 650 run data merge entity 00000000-0000-083a-0000-00000000083a {Pose:{Body:[269f,0f,185f],Head:[110f,200f,180f],LeftLeg:[0f,198f,0f],LeftArm:[250f,329f,360f],RightArm:[264f,0f,360f]}}
@@ -37,20 +37,20 @@ execute if score Real2 TIMER matches 800..1000 as 00000000-0000-081a-0000-000000
 execute if score Real2 TIMER matches 800 positioned -5105 164 -6756 run function att2:sound/mobs/korlaph_evoking2
 execute if score Real2 TIMER matches 800 run scoreboard players set cinematic_timer1 SQ28 1
 execute if score Real2 TIMER matches 900 run function att2:dialogs/sidequest/sq28/lucimene_3
-execute if score Real2 TIMER matches 900 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..998 run scoreboard players set Real2 TIMER 999"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 900 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2957"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 1000 run function att2:dialogs/sidequest/sq28/selene_4
-execute if score Real2 TIMER matches 1000 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..1058 run scoreboard players set Real2 TIMER 1059"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 1000 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2965"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 1060 run function att2:dialogs/sidequest/sq28/korlaph_5
-execute if score Real2 TIMER matches 1060 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..1098 run scoreboard players set Real2 TIMER 1099"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 1060 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2966"},hover_event:{action:show_text,value:"..."}}
 
 execute if score Real2 TIMER matches 1100 positioned -5108 163 -6760 run function att2:summon/pnj/emerald_sq28
 execute if score Real2 TIMER matches 1200..1250 as 00000000-0000-005b-0000-00000000005a at @s anchored feet facing entity 00000000-0000-082a-0000-00000000082a feet run teleport @s ^ ^ ^0.10 ~ ~
 execute if score Real2 TIMER matches 1300 run function att2:dialogs/sidequest/sq28/emerald_1
 execute if score Real2 TIMER matches 1350 as 00000000-0000-082a-0000-00000000082a at @s run tp @s ~ ~ ~ 130 -5
 execute if score Real2 TIMER matches 1450 run function att2:dialogs/sidequest/sq28/selene_5
-execute if score Real2 TIMER matches 1450 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..1548 run scoreboard players set Real2 TIMER 1549"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 1450 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2967"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 1550 run function att2:dialogs/sidequest/sq28/lucimene_4
-execute if score Real2 TIMER matches 1550 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..1748 run scoreboard players set Real2 TIMER 1749"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 1550 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2968"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 1750 run function att2:dialogs/sidequest/sq28/korlaph_6
 execute if score Real2 TIMER matches 1750 run scoreboard players set cinematic_timer1 SQ28 1
 execute if score Real2 TIMER matches 1750 positioned -5105 164 -6756 run function att2:sound/mobs/korlaph_evoking1
@@ -63,38 +63,38 @@ execute if score Real2 TIMER matches 2000 as 00000000-0000-082a-0000-00000000082
 execute if score Real2 TIMER matches 2000 run scoreboard players set cinematic_timer2 SQ28 1
 execute if score Real2 TIMER matches 2000 positioned -5105 164 -6756 run function att2:sound/mobs/korlaph_evoking2
 execute if score Real2 TIMER matches 2050 run function att2:dialogs/sidequest/sq28/lucimene_5
-execute if score Real2 TIMER matches 2050 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..2198 run scoreboard players set Real2 TIMER 2199"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 2050 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2969"},hover_event:{action:show_text,value:"..."}}
 
 execute if score Real2 TIMER matches 2200 run function att2:dialogs/sidequest/sq28/korlaph_7
-execute if score Real2 TIMER matches 2200 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..2298 run scoreboard players set Real2 TIMER 2299"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 2200 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2970"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 2300 run function att2:dialogs/sidequest/sq28/lucimene_6
-execute if score Real2 TIMER matches 2300 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..2348 run scoreboard players set Real2 TIMER 2349"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 2300 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2971"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 2350 run function att2:dialogs/sidequest/sq28/korlaph_8
 execute if score Real2 TIMER matches 2400 run data merge entity 00000000-0000-083a-0000-00000000083a {Pose:{Body:[269f,0f,185f],Head:[100f,210f,190f],LeftLeg:[0f,198f,0f],LeftArm:[320f,329f,360f],RightArm:[264f,0f,360f]}}
 execute if score Real2 TIMER matches 2400 as 00000000-0000-083a-0000-00000000083a at @s run tp @s ~ ~ ~ ~ 40
 execute if score Real2 TIMER matches 2450 run function att2:dialogs/sidequest/sq28/selene_6
-execute if score Real2 TIMER matches 2450 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..2498 run scoreboard players set Real2 TIMER 2499"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 2450 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2972"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 2500 as 00000000-0000-082a-0000-00000000082a at @s run tp @s -5103 163 -6755 -150 0
 execute if score Real2 TIMER matches 2550 run function att2:dialogs/sidequest/sq28/emerald_3
-execute if score Real2 TIMER matches 2550 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..2598 run scoreboard players set Real2 TIMER 2599"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 2550 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2973"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 2600 positioned -5105 164 -6756 run function att2:sound/mobs/korlaph_evoking1
 execute if score Real2 TIMER matches 2650 as 00000000-0000-082a-0000-00000000082a at @s run tp @s ~ ~ ~ 90 -5
 execute if score Real2 TIMER matches 2650 run function att2:dialogs/sidequest/sq28/selene_7
-execute if score Real2 TIMER matches 2650 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..2998 run scoreboard players set Real2 TIMER 2999"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 2650 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2974"},hover_event:{action:show_text,value:"..."}}
 
 execute if score Real2 TIMER matches 3000 run function att2:dialogs/sidequest/sq28/korlaph_9
 execute if score Real2 TIMER matches 3000 as 00000000-0000-081a-0000-00000000081a at @s run tp @s ~ ~ ~ 20 0
 execute if score Real2 TIMER matches 3000 positioned -5101 163 -6756 run function att2:sound/mobs/korlaph_warning_spell
 execute if score Real2 TIMER matches 3050 positioned -5105 164 -6756 run function att2:sound/mobs/korlaph_evoking2
-execute if score Real2 TIMER matches 3050 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..3448 run scoreboard players set Real2 TIMER 3449"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 3050 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2975"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 3050..4300 as 00000000-0000-081a-0000-00000000081a at @s run particle minecraft:portal ~ ~1 ~ 1 1 1 1 10 normal
 
 execute if score Real2 TIMER matches 3450 run function att2:dialogs/sidequest/sq28/emerald_4
 execute if score Real2 TIMER matches 3450 as 00000000-0000-082a-0000-00000000082a at @s run tp @s -5104 163 -6754 -130 10
-execute if score Real2 TIMER matches 3450 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..3598 run scoreboard players set Real2 TIMER 3599"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 3450 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2976"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 3600 run function att2:dialogs/sidequest/sq28/korlaph_10
 execute if score Real2 TIMER matches 3600 as 00000000-0000-081a-0000-00000000081a at @s run tp @s -5106 163 -6755 -70 0
-execute if score Real2 TIMER matches 3700 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..4098 run scoreboard players set Real2 TIMER 4099"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 3700 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2977"},hover_event:{action:show_text,value:"..."}}
 
 
 
@@ -105,10 +105,10 @@ execute if score Real2 TIMER matches 4100 positioned -5105 164 -6756 run functio
 execute if score Real2 TIMER matches 4110 as 00000000-0000-082a-0000-00000000082a at @s run tp @s -5094 163 -6750 120 50
 execute if score Real2 TIMER matches 4150 run function att2:dialogs/sidequest/sq28/emerald_5
 execute if score Real2 TIMER matches 4150 as 00000000-0000-081a-0000-00000000081a at @s run tp @s ~ ~ ~ 100 -5
-execute if score Real2 TIMER matches 4150 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..4298 run scoreboard players set Real2 TIMER 4299"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 4150 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2978"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 4300 run function att2:dialogs/sidequest/sq28/player_1
 execute if score Real2 TIMER matches 4300 as 00000000-0000-005b-0000-00000000005a at @s run tp @s -5095 163 -6751 -40 25
-execute if score Real2 TIMER matches 4300 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real2 TIMER matches ..4398 run scoreboard players set Real2 TIMER 4399"},hover_event:{action:show_text,value:"..."}}
+execute if score Real2 TIMER matches 4300 run tellraw @a[gamemode=spectator,scores={Performance=2}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2979"},hover_event:{action:show_text,value:"..."}}
 execute if score Real2 TIMER matches 4400 run function att2:dialogs/sidequest/sq28/korlaph_11
 execute if score Real2 TIMER matches 4400 as 00000000-0000-081a-0000-00000000081a at @s run tp @s ~ -30 ~
 execute if score Real2 TIMER matches 4400 run kill 00000000-0000-081a-0000-00000000081a

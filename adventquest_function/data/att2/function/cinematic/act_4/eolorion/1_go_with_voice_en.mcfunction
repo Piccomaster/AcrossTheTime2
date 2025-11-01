@@ -9,18 +9,18 @@ execute if score Real0 TIMER matches 5 run tp @e[type=#minecraft:rideable,x=-525
 execute if score Real0 TIMER matches 5 run function att2:physicmod/reg1/eolorion/barrier1
 execute if score Real0 TIMER matches 30 run function att2:dialogs/mainquest/act_4/ch1_guard_4
 execute if score Real0 TIMER matches 30 run function att2:voice/guard/guard9
-execute if score Real0 TIMER matches 30 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..198 run scoreboard players set Real0 TIMER 199"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 30 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2933"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 200 run function att2:dialogs/mainquest/act_4/ch1_guard_5
 execute if score Real0 TIMER matches 200 run function att2:voice/guard/guard10
-execute if score Real0 TIMER matches 200 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..398 run scoreboard players set Real0 TIMER 399"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 200 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2921"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 400 run function att2:dialogs/mainquest/act_4/ch1_player_9
 execute if score Real0 TIMER matches 450 if score Count PLAYERNUMBER matches 2.. run function att2:dialogs/mainquest/act_4/ch1_player_10
-execute if score Real0 TIMER matches 450 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..498 run scoreboard players set Real0 TIMER 499"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 450 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2910"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 500 run function att2:dialogs/mainquest/act_4/ch1_player_11
-execute if score Real0 TIMER matches 500 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..698 run scoreboard players set Real0 TIMER 699"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 500 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2934"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 700 run function att2:dialogs/mainquest/act_4/ch1_guard_6
 execute if score Real0 TIMER matches 700 run function att2:voice/guard/guard11
-execute if score Real0 TIMER matches 700 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real0 TIMER matches ..998 run scoreboard players set Real0 TIMER 999"},hover_event:{action:show_text,value:"..."}}
+execute if score Real0 TIMER matches 700 positioned -5251 94 -6174 as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2932"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 1000 run function att2:physicmod/reg1/eolorion/barrier2
 execute if score Real0 TIMER matches 1001 run scoreboard players set Mainquest SIDEQUEST 93
 

@@ -1,4 +1,9 @@
 
+
+##reset
+scoreboard players enable @s ScoreTrigger
+
+
 ##revoke test
 advancement revoke @s only att2_test:score_trigger
 ##in
@@ -9,4 +14,3 @@ execute store result storage att2:temp select int 1 run scoreboard players get @
 function att2:trigger/select with storage att2:temp
 ##reset
 scoreboard players set @s ScoreTrigger 0
-scoreboard players enable @s ScoreTrigger

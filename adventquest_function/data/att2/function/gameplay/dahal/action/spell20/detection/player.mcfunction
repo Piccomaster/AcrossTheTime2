@@ -3,6 +3,9 @@
 # Stock function(player)                                 #
 #################################################################
 
+##limit
+execute unless score Mainquest SIDEQUEST matches 1.. run return 0
+
 ##Get Player Score
 function att2:gameplay/dahal/action/spell20/score/player
 ##Check whether there is a Book of Awakening in the backpack. If not, give one.

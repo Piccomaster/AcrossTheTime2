@@ -24,7 +24,7 @@ gamerule universalAnger true
 gamerule disableRaids true
 gamerule forgiveDeadPlayers false
 gamerule spectatorsGenerateChunks true
-gamerule spawnChunkRadius 14
+#gamerule spawnRadius 14
 gamerule maxEntityCramming 50
 
 #Not yet available in the current version 1.21.5 :

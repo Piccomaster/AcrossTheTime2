@@ -16,8 +16,12 @@ scoreboard players set size MatchingGame 6
 scoreboard players operation form6 MatchingGamePrice = Max_Slot MatchingGame
 #reset
 function att2:gameplay/shop/gambling/matching_game/score/random_slot_reset
+#rng initialize
+execute positioned -4960 91 -5801 run function att2:gameplay/shop/gambling/matching_game/score/random_select_initialize
 #slot 1-48
 function att2:gameplay/shop/gambling/matching_game/score/random_slot_6
+#clear marker
+kill @e[type=marker,tag=MatchingGame_RNG]
 #set form id
 scoreboard players set @s MatchingGameId 6
 ##merge

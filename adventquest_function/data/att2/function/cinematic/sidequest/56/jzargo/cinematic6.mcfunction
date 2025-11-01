@@ -9,12 +9,12 @@ execute if score Real1 TIMER matches 20 as 00000000-0000-089a-0000-00000000089a 
 execute if score Real1 TIMER matches 399 run function att2:dialogs/sidequest/sq56/player_13
 execute if score Real1 TIMER matches 399 run data merge entity 00000000-0000-089a-0000-00000000089a {Invulnerable:1b}
 execute if score Real1 TIMER matches 399 run function att2:cinematic/sidequest/56/jzargo/answer_2_3
-execute if score Real1 TIMER matches 399 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..448 run scoreboard players set Real1 TIMER 449"},hover_event:{action:show_text,value:"..."}}
+execute if score Real1 TIMER matches 399 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3037"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 420 as 00000000-0000-090a-0000-00000000090a at @s run tp @s ~ ~ ~ 180 50
 execute if score Real1 TIMER matches 450 run function att2:dialogs/sidequest/sq56/triss_14
-execute if score Real1 TIMER matches 450 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..523 run scoreboard players set Real1 TIMER 524"},hover_event:{action:show_text,value:"..."}}
+execute if score Real1 TIMER matches 450 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3057"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 525 run function att2:dialogs/sidequest/sq56/player_11
-execute if score Real1 TIMER matches 525 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/execute if score Real1 TIMER matches ..598 run scoreboard players set Real1 TIMER 599"},hover_event:{action:show_text,value:"..."}}
+execute if score Real1 TIMER matches 525 at 00000000-0000-089a-0000-00000000089a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3019"},hover_event:{action:show_text,value:"..."}}
 execute if score Real1 TIMER matches 600 run function att2:dialogs/sidequest/sq56/triss_15
 execute if score Real1 TIMER matches 700 run kill @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_name":{translate:'item.quest.medaillon.name'}}}}]
 execute if score Real1 TIMER matches 700 run clear @a minecraft:nether_star[custom_name={translate:'item.quest.medaillon.name'}]

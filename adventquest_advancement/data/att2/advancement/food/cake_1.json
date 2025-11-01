@@ -8,6 +8,8 @@
         "frame": "goal"
     },
     "parent": "att2:food/root",
+    "show_toast": false,
+    "announce_to_chat": true,
     "rewards": {
         "function": "att2:advancement/exploit_1",
         "experience": 50

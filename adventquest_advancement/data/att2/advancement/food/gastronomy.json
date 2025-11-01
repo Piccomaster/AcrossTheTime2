@@ -4,7 +4,9 @@
             "id": "minecraft:mushroom_stew"
         },
         "title": {"translate":"att2.advancement.food.title.gastronomy"},
-        "description": {"translate":"att2.advancement.food.description.gastronomy"}
+        "description": {"translate":"att2.advancement.food.description.gastronomy"},
+        "show_toast": false,
+        "announce_to_chat": true
     },
     "parent": "att2:food/root",
     "rewards": {

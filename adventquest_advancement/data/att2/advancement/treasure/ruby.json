@@ -23,8 +23,10 @@
                 "items": [
                     {
                         "items": "minecraft:copper_ingot",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_data": {
+                                "EquipmentType": "misc",
+                                "Rarity": "cur",
                                 "Coin": "ruby"
                             }
                         }

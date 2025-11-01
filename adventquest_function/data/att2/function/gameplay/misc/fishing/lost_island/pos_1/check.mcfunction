@@ -9,7 +9,7 @@ function att2:gameplay/misc/fishing/symbol_clear
 function att2:gameplay/misc/fishing/symbol_summon
 #set area score
 execute unless score @s FISH_QUALITY matches 0.. run scoreboard players set @s FISH_QUALITY 1
-execute as @e[type=fishing_bobber,distance=..2] at @s run function att2:gameplay/misc/fishing/lost_island/pos_1/score
+execute as @e[type=fishing_bobber,distance=..3] at @s run function att2:gameplay/misc/fishing/lost_island/pos_1/score
 #score(FISH_QUALITY)->spot color
 execute if score @s FISH_QUALITY matches 1..4 run return run function att2:gameplay/misc/fishing/effect/1
 execute if score @s FISH_QUALITY matches 5..7 run return run function att2:gameplay/misc/fishing/effect/2

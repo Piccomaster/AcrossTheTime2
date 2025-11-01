@@ -32,26 +32,26 @@ execute if score @s MatchingGameId matches 9 run scoreboard players operation lo
 execute if score @s MatchingGameId matches 10 run scoreboard players operation lock MatchingGamePrice -= form10 MatchingGamePrice
 ##cal unlock price add
 scoreboard players operation lock MatchingGamePrice *= -1 CAL
-scoreboard players operation lock MatchingGamePrice /= 3 CAL
+scoreboard players operation lock MatchingGamePrice /= 4 CAL
 
 #random cal
-execute if score @s MatchingGameId matches 1 store result score RngPrice MatchingGamePrice run random value 1..4
-execute if score @s MatchingGameId matches 2 store result score RngPrice MatchingGamePrice run random value 1..5
-execute if score @s MatchingGameId matches 3 store result score RngPrice MatchingGamePrice run random value 1..6
-execute if score @s MatchingGameId matches 4 store result score RngPrice MatchingGamePrice run random value 1..7
-execute if score @s MatchingGameId matches 5 store result score RngPrice MatchingGamePrice run random value 1..8
-execute if score @s MatchingGameId matches 6 store result score RngPrice MatchingGamePrice run random value 1..9
-execute if score @s MatchingGameId matches 7 store result score RngPrice MatchingGamePrice run random value 1..10
-execute if score @s MatchingGameId matches 8 store result score RngPrice MatchingGamePrice run random value 1..11
-execute if score @s MatchingGameId matches 9 store result score RngPrice MatchingGamePrice run random value 1..12
-execute if score @s MatchingGameId matches 10 store result score RngPrice MatchingGamePrice run random value 1..13
+execute if score @s MatchingGameId matches 1 store result score RngPrice MatchingGamePrice run random value 1..1
+execute if score @s MatchingGameId matches 2 store result score RngPrice MatchingGamePrice run random value 1..2
+execute if score @s MatchingGameId matches 3 store result score RngPrice MatchingGamePrice run random value 1..3
+execute if score @s MatchingGameId matches 4 store result score RngPrice MatchingGamePrice run random value 1..4
+execute if score @s MatchingGameId matches 5 store result score RngPrice MatchingGamePrice run random value 1..5
+execute if score @s MatchingGameId matches 6 store result score RngPrice MatchingGamePrice run random value 1..6
+execute if score @s MatchingGameId matches 7 store result score RngPrice MatchingGamePrice run random value 1..7
+execute if score @s MatchingGameId matches 8 store result score RngPrice MatchingGamePrice run random value 1..8
+execute if score @s MatchingGameId matches 9 store result score RngPrice MatchingGamePrice run random value 1..9
+execute if score @s MatchingGameId matches 10 store result score RngPrice MatchingGamePrice run random value 1..10
 
 ##cal final price
 #random price
 scoreboard players operation @s MatchingGamePrice = @s MatchingGameId
 #base cal
 scoreboard players operation @s MatchingGamePrice *= 200 CAL
-scoreboard players operation @s MatchingGamePrice /= 50 CAL
+scoreboard players operation @s MatchingGamePrice /= 80 CAL
 #add unlock count score
 scoreboard players operation @s MatchingGamePrice += lock MatchingGamePrice
 #add random price
@@ -60,3 +60,16 @@ scoreboard players operation @s MatchingGamePrice += RngPrice MatchingGamePrice
 ##show price
 function att2:gameplay/shop/gambling/matching_game/show_price
 
+#cal unlock count
+execute store result score lock MatchingGamePrice if data storage att2:matching_game temp_form[{translate:"matching_game.lock"}]
+##test if all unlock rewards
+execute as @s[scores={MatchingGameId=1,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=2,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=3,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=4,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=5,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=6,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=7,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=8,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=9,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=10,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete

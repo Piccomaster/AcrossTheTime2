@@ -4,7 +4,9 @@
             "id": "minecraft:bread"
         },
         "title": {"translate":"att2.advancement.food.title.bread_1"},
-        "description": {"translate":"att2.advancement.food.description.bread_1"}
+        "description": {"translate":"att2.advancement.food.description.bread_1"},
+        "show_toast": false,
+        "announce_to_chat": true
     },
     "parent": "att2:food/root",
     "rewards": {

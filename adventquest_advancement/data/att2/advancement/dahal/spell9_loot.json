@@ -11,7 +11,9 @@
             }
         },
         "title": {"translate":"att2.advancement.dahal.title.spell9_loot"},
-        "description": {"translate":"att2.advancement.dahal.description.spell9_loot"}
+        "description": {"translate":"att2.advancement.dahal.description.spell9_loot"},
+        "show_toast": false,
+        "announce_to_chat": true
     },
     "parent": "att2:dahal/root",
     "rewards": {

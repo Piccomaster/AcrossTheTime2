@@ -51,4 +51,4 @@ title @s[scores={LANGUAGE=9}] actionbar {text:"⧼〈",color:"dark_red",extra:[{
 title @s[scores={LANGUAGE=10}] actionbar {text:"⧼〈",color:"dark_red",extra:[{text:"Corrupção pronta",color:"gray"},{text:"〉⧽",color:"dark_red"}]}
 
 #Simplified Chinese LANGUAGE
-title @s[scores={LANGUAGE=11}] actionbar {text:"⧼〈",color:"dark_red",extra:[{text:"“墮落力量”已就绪",color:"gray"},{text:"〉⧽",color:"dark_red"}]}
+title @s[scores={LANGUAGE=11}] actionbar {text:"⧼〈",color:"dark_red",extra:[{text:"“堕落力量”已就绪",color:"gray"},{text:"〉⧽",color:"dark_red"}]}

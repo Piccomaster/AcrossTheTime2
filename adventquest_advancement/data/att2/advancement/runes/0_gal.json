@@ -31,7 +31,7 @@
             "items": "minecraft:glowstone_dust",
             "predicates": {
               "minecraft:custom_data": {
-                "Runelvl": "0"
+                "Runelvl": 0
               }
             }
           }

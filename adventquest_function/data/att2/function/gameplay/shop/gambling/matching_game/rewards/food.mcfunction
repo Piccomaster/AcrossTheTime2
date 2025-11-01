@@ -20,4 +20,4 @@ execute store result storage att2:matching_game count int 1 run scoreboard playe
 #store id
 data modify storage att2:matching_game id set value "food"
 #select food
-execute as @s positioned -4962 96 -5803 run function att2:gameplay/shop/gambling/matching_game/rewards/loot with storage att2:matching_game
+execute as @s positioned -4962 97 -5803 run function att2:gameplay/shop/gambling/matching_game/rewards/loot with storage att2:matching_game

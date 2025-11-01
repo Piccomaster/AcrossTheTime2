@@ -38,6 +38,10 @@
 #### Sidebar system
 - The information bar on the right side of the screen will display some global information about the map.
 
+
+#### Product sales display
+- Optimization of product sales list with corresponding item icons
+
 ---
 
 ### **Combat & Equipment**

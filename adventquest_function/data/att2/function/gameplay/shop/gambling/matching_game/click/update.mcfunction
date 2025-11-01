@@ -5,6 +5,8 @@
 
 #money detection
 execute if score @s CHRONOTON <= @s MatchingGamePrice run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
+##remove chronoton
+scoreboard players operation @s CHRONOTON -= @s MatchingGamePrice
 #sound
 playsound minecraft:ui.cartography_table.take_result ambient @s ~ ~ ~ 1 1
 playsound minecraft:ui.stonecutter.take_result ambient @s ~ ~ ~ 1 2

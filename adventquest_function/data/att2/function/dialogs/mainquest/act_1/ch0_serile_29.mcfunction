@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° S : ",color:"gray",extra:[{text:"�
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° S : ",color:"gray",extra:[{text:"Você precisa encontrar esse homem e matá-lo... Dessa forma, você poderá mudar seu destino e se livrar dessa maldição.",color:"yellow","italic":true}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"你得找到他，并且杀了他...只有这样，你才能改变命运，摆脱墮落泉源的诅咒。",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"你得找到他，并且杀了他...只有这样，你才能改变命运，摆脱堕落泉源的诅咒。",color:"yellow","italic":true}]}

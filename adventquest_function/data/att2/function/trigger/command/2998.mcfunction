@@ -1,0 +1,1 @@
+execute if score Neth1 TIMER matches ..1098 run scoreboard players set Neth1 TIMER 1099
