@@ -22,9 +22,6 @@ execute if score tic TIMECOUNTER matches 15 as @a[tag=!skipDeathMalus] run funct
 ##invisible_minecart
 function att2:gameplay/misc/invisible_minecart/go
 execute if score Mainquest SIDEQUEST matches 180.. run function att2:gameplay/misc/celestial_tear/go
-#torch lightpredicate
-function att2:gameplay/misc/move_light/over
-execute if score light movelight matches 1 as @a[gamemode=adventure,predicate=att2_pre:move_light/torch_hold] at @s run function att2:gameplay/misc/move_light/go
 #tp item
 execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/misc/tp_item/go
 #fire damage
@@ -55,3 +52,7 @@ execute if score tic TIMECOUNTER matches 15 run kill @e[type=item,predicate=att2
 execute if score tic TIMECOUNTER matches 15 if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/misc/sidebar/go
 ##entity protect
 execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/entity_protect/go
+##quick slot
+execute as @a at @s run function att2:gameplay/misc/quick_slot/go
+#torch lightpredicate
+execute as @a at @s run function att2:gameplay/misc/move_light/go

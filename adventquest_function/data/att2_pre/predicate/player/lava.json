@@ -5,15 +5,7 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "fluid": {
-          "fluids": "minecraft:lava"
-        }
-      }
-    },
-        {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "fluid": {
-          "fluids": "minecraft:flowing_lava"
+          "fluids": "#minecraft:lava"
         }
       }
     }

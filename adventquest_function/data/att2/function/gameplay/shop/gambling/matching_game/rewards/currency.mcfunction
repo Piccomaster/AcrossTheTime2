@@ -13,6 +13,10 @@ execute unless score RewardTrigger MatchingGame matches 0 run return run title @
 #set score ==
 scoreboard players operation Currency_Count MatchingGame = Currency_Count MatchingGame
 scoreboard players operation @s MatchingGame = Currency_Count MatchingGame
+##Increase the guaranteed score for game levels
+scoreboard players operation GuaranteedScore MatchingGame = @s MatchingGameId
+scoreboard players operation GuaranteedScore MatchingGame > 1 CAL
+scoreboard players operation @s MatchingGame += GuaranteedScore MatchingGame
 #cal count
 scoreboard players operation Currency_Count MatchingGame *= 10 CAL
 #store score

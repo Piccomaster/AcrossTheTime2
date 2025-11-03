@@ -4,4 +4,4 @@
 #################################################################
 
 scoreboard objectives add movelight dummy
-scoreboard players set light movelight 1
+scoreboard players set @s movelight 1

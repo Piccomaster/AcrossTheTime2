@@ -56,6 +56,17 @@ scoreboard players operation COOLDOWN_LVL9 SPELL_DATA = @s remain_time
 scoreboard players operation @s remain_time = lvl10 COOLDOWN45
 function att2:gameplay/dahal/action/cooldown_cal_remain
 scoreboard players operation COOLDOWN_LVL10 SPELL_DATA = @s remain_time
+##distance cal
+scoreboard players set DISTANCE_LVL1 SPELL_DATA 2
+scoreboard players set DISTANCE_LVL2 SPELL_DATA 2
+scoreboard players set DISTANCE_LVL3 SPELL_DATA 3
+scoreboard players set DISTANCE_LVL4 SPELL_DATA 4
+scoreboard players set DISTANCE_LVL5 SPELL_DATA 5
+scoreboard players set DISTANCE_LVL6 SPELL_DATA 6
+scoreboard players set DISTANCE_LVL7 SPELL_DATA 7
+scoreboard players set DISTANCE_LVL8 SPELL_DATA 8
+scoreboard players set DISTANCE_LVL9 SPELL_DATA 9
+scoreboard players set DISTANCE_LVL10 SPELL_DATA 10
 ##time cal
 scoreboard players operation TIMER_LVL1 SPELL_DATA = lvl1 SPELL45_TIMER
 scoreboard players operation TIMER_LVL1 SPELL_DATA /= 20 CAL

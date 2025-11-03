@@ -3,12 +3,10 @@
 #Process miscelaneous actions 									#
 #################################################################
 
-execute if score tic TIMECOUNTER matches 1 run function att2:gameplay/misc/move_light/summon_light_1
+##get player score
+function att2:gameplay/score/player
 
-execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/misc/move_light/summon_light_2
-
-execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/misc/move_light/summon_light_3
-
-execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/move_light/summon_light_4
-
-execute if score tic TIMECOUNTER matches 19 run function att2:gameplay/misc/move_light/summon_light_5
+##clear marker
+execute as @e[type=marker,tag=MOVELIGHT,predicate=att2_pre:score/owner] at @s run function att2:gameplay/misc/move_light/clear
+##summon marker
+execute as @s[gamemode=adventure,scores={movelight=..1},predicate=att2_pre:move_light/light_hold] at @s positioned ~ ~1 ~ summon marker at @s run function att2:gameplay/misc/move_light/summon_detection

@@ -3,6 +3,8 @@
 #Process to tie horses											#
 #################################################################
 
+##add Tags
+tag @s add Store
 #get id
 $execute if entity @s[type=horse] run data modify storage att2:ride_$(player) id set value horse
 $execute if entity @s[type=camel] run data modify storage att2:ride_$(player) id set value camel

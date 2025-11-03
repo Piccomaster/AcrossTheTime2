@@ -8,7 +8,7 @@
             "offsetZ": 0,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },
@@ -19,7 +19,7 @@
             "offsetZ": 0,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },
@@ -30,7 +30,7 @@
             "offsetZ": 0,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },
@@ -41,7 +41,7 @@
             "offsetZ": 1,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },
@@ -52,7 +52,7 @@
             "offsetZ": -1,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },
@@ -63,7 +63,7 @@
             "offsetZ": 1,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },
@@ -74,7 +74,7 @@
             "offsetZ": -1,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },
@@ -85,7 +85,7 @@
             "offsetZ": 1,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },
@@ -96,7 +96,7 @@
             "offsetZ": -1,
             "predicate": {
                 "fluid": {
-                    "fluids": "water"
+                    "fluids": "#minecraft:water"
                 }
             }
         },

@@ -6,7 +6,7 @@
 ##enemy limit
 execute if entity @e[distance=..7,scores={GAMELEVEL=0..},team=hostile,limit=1] run return 0
 #clear arrow
-execute as @e[type=spectral_arrow,tag=Block_Catch] if score @s OWNER = @p[distance=..0] NUMEROJOUEUR run kill @s[type=spectral_arrow]
+kill @e[type=spectral_arrow,tag=Block_Catch,predicate=att2_pre:score/owner]
 ##Sound
 playsound minecraft:block.crafter.craft master @s ~ ~ ~ 1 1
 ##summon arrow
