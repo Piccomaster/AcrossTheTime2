@@ -19,3 +19,4 @@ scoreboard players set MAX_ENEMY COUNT 50
 
 
 ##summon marker
+function att2:spawner/summon/initialize
