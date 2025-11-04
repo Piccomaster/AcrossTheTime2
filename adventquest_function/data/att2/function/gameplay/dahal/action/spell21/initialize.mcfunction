@@ -28,3 +28,6 @@ scoreboard players set lvl10 COOLDOWN21 12000
 scoreboard players set SP21_1 DAHAL_COST 80
 scoreboard players set SP21_2 DAHAL_COST 140
 scoreboard players set SP21_3 DAHAL_COST 200
+##add spell cost dummy
+scoreboard objectives add SPELL21_COST dummy
+scoreboard players operation @s SPELL21_COST = SP21_1 DAHAL_COST

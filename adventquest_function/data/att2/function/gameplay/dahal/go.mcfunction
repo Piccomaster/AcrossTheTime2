@@ -5,6 +5,7 @@
 #################################################################
 
 
+##
 function att2:gameplay/dahal/action/go
 #per
 execute if score tic TIMECOUNTER matches 6 as @a at @s run function att2:gameplay/dahal/dahalregen

@@ -10,7 +10,7 @@
                     "items": "minecraft:enchanted_book",
                     "predicates": {
                         "minecraft:custom_data": {
-                            "Spell": "spell23"
+                            "Spell23": true
                         }
                     }
                 }

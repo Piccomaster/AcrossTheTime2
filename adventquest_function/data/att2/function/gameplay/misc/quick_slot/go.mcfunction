@@ -30,10 +30,10 @@ execute if items entity @s player.crafting.1 *[custom_data~{QuickSlot:true}] run
 execute if items entity @s player.crafting.2 *[custom_data~{QuickSlot:true}] run item modify entity @s player.crafting.2 {function:set_custom_data,tag:{QuickSlotTemp:true}}
 execute if items entity @s player.crafting.3 *[custom_data~{QuickSlot:true}] run item modify entity @s player.crafting.3 {function:set_custom_data,tag:{QuickSlotTemp:true}}
 ##get now slot
-execute if items entity @s player.crafting.0 *[custom_data~{QuickSlot:true}] run item replace entity 00000001-0000-006f-0000-00010000006f armor.head from entity @s player.crafting.0
-execute if items entity @s player.crafting.1 *[custom_data~{QuickSlot:true}] run item replace entity 00000002-0000-00de-0000-0002000000de armor.head from entity @s player.crafting.1
-execute if items entity @s player.crafting.2 *[custom_data~{QuickSlot:true}] run item replace entity 00000003-0000-014d-0000-00030000014d armor.head from entity @s player.crafting.2
-execute if items entity @s player.crafting.3 *[custom_data~{QuickSlot:true}] run item replace entity 00000004-0000-01bc-0000-0004000001bc armor.head from entity @s player.crafting.3
+execute if items entity @s player.crafting.0 *[custom_data~{QuickSlot:true}] run item replace entity 00000001-0000-006f-0000-00010000006f weapon.mainhand from entity @s player.crafting.0
+execute if items entity @s player.crafting.1 *[custom_data~{QuickSlot:true}] run item replace entity 00000002-0000-00de-0000-0002000000de weapon.mainhand from entity @s player.crafting.1
+execute if items entity @s player.crafting.2 *[custom_data~{QuickSlot:true}] run item replace entity 00000003-0000-014d-0000-00030000014d weapon.mainhand from entity @s player.crafting.2
+execute if items entity @s player.crafting.3 *[custom_data~{QuickSlot:true}] run item replace entity 00000004-0000-01bc-0000-0004000001bc weapon.mainhand from entity @s player.crafting.3
 ##store
 function att2:gameplay/misc/quick_slot/store_slot_item with storage att2:score
 

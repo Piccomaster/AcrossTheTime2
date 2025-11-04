@@ -1,27 +1,18 @@
 ##################################################
 #Made by Adventquest                             #
-#Obtain the magic sphere spell 21           #
+#Obtain the magic sphere spell 21                 #
 ##################################################
 
-execute if score @s SPELL21_CAP matches 1 run scoreboard players operation SECONDS CAL = lvl1 COOLDOWN21
-execute if score @s SPELL21_CAP matches 2 run scoreboard players operation SECONDS CAL = lvl2 COOLDOWN21
-execute if score @s SPELL21_CAP matches 3 run scoreboard players operation SECONDS CAL = lvl3 COOLDOWN21
-execute if score @s SPELL21_CAP matches 4 run scoreboard players operation SECONDS CAL = lvl4 COOLDOWN21
-execute if score @s SPELL21_CAP matches 5 run scoreboard players operation SECONDS CAL = lvl5 COOLDOWN21
-execute if score @s SPELL21_CAP matches 6 run scoreboard players operation SECONDS CAL = lvl6 COOLDOWN21
-execute if score @s SPELL21_CAP matches 7 run scoreboard players operation SECONDS CAL = lvl7 COOLDOWN21
-execute if score @s SPELL21_CAP matches 8 run scoreboard players operation SECONDS CAL = lvl8 COOLDOWN21
-execute if score @s SPELL21_CAP matches 9 run scoreboard players operation SECONDS CAL = lvl9 COOLDOWN21
-execute if score @s SPELL21_CAP matches 10 run scoreboard players operation SECONDS CAL = lvl10 COOLDOWN21
+##replace hand
 
-#cooldown cal
-function att2:gameplay/dahal/action/cooldown_cal
-scoreboard players operation SECONDS CAL /= COOLDOWN CAL
-#store score
-execute store result storage att2:cooldown seconds float 0.05 run scoreboard players get SECONDS CAL
-data modify storage att2:cooldown spell_id set value 21
-#reset
-scoreboard players reset COOLDOWN CAL
-scoreboard players reset SECONDS CAL
-#obtain
-function att2:gameplay/dahal/launcher/spell_21/obtain with storage att2:cooldown
+##lvl1
+execute if score @s SPELL21_SLCT matches 1 if items entity @s weapon.mainhand written_book[custom_data~{Dahal:book,Spell:21}] run return run item replace entity @s weapon.mainhand with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/21",custom_data={Dahal:"launcher",Spell:21,CoolDown:12000,Spell21:true},custom_name={translate:"att2.spell21.launcher",with:[{text:"lvl1",color:"#80B380",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell21,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/com/com"]
+execute if score @s SPELL21_SLCT matches 1 if items entity @s weapon.offhand written_book[custom_data~{Dahal:book,Spell:21}] run return run item replace entity @s weapon.offhand with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/21",custom_data={Dahal:"launcher",Spell:21,CoolDown:12000,Spell21:true},custom_name={translate:"att2.spell21.launcher",with:[{text:"lvl1",color:"#80B380",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell21,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/com/com"]
+
+##lvl2
+execute if score @s SPELL21_SLCT matches 2 if items entity @s weapon.mainhand written_book[custom_data~{Dahal:book,Spell:21}] run return run item replace entity @s weapon.mainhand with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/21",custom_data={Dahal:"launcher",Spell:21,CoolDown:12000,Spell21:true},custom_name={translate:"att2.spell21.launcher",with:[{text:"lvl2",color:"#A60DFF",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell21,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/com/com"]
+execute if score @s SPELL21_SLCT matches 2 if items entity @s weapon.offhand written_book[custom_data~{Dahal:book,Spell:21}] run return run item replace entity @s weapon.offhand with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/21",custom_data={Dahal:"launcher",Spell:21,CoolDown:12000,Spell21:true},custom_name={translate:"att2.spell21.launcher",with:[{text:"lvl2",color:"#A60DFF",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell21,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/com/com"]
+
+##lvl3
+execute if score @s SPELL21_SLCT matches 3 if items entity @s weapon.mainhand written_book[custom_data~{Dahal:book,Spell:21}] run return run item replace entity @s weapon.mainhand with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/21",custom_data={Dahal:"launcher",Spell:21,CoolDown:12000,Spell21:true},custom_name={translate:"att2.spell21.launcher",with:[{text:"lvl3",color:"#BF4000",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell21,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/unc/unc"]
+execute if score @s SPELL21_SLCT matches 3 if items entity @s weapon.offhand written_book[custom_data~{Dahal:book,Spell:21}] run return run item replace entity @s weapon.offhand with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/21",custom_data={Dahal:"launcher",Spell:21,CoolDown:12000,Spell21:true},custom_name={translate:"att2.spell21.launcher",with:[{text:"lvl3",color:"#BF4000",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell21,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/unc/unc"]

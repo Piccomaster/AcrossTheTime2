@@ -4,11 +4,11 @@
 ##################################################
 
 ##sound
-execute if score @s SPAWNER_TIMER matches 20 run playsound entity.zombie.destroy_egg ambient @a ~ ~ ~ 3 1
-execute if score @s SPAWNER_TIMER matches 15 run playsound entity.zombie.destroy_egg ambient @a ~ ~ ~ 3 1
-execute if score @s SPAWNER_TIMER matches 10 run playsound entity.zombie.infect ambient @a ~ ~ ~ 3 1
-execute if score @s SPAWNER_TIMER matches 5 run playsound entity.zombie.infect ambient @a ~ ~ ~ 3 1
-execute if score @s SPAWNER_TIMER matches 1 run playsound entity.wither_skeleton.ambient ambient @a ~ ~ ~ 3 1
+execute if score @s SPAWNER_TIMER matches 20 run playsound entity.zombie.destroy_egg ambient @a ~ ~ ~ 2 1
+execute if score @s SPAWNER_TIMER matches 15 run playsound entity.zombie.destroy_egg ambient @a ~ ~ ~ 2 1
+execute if score @s SPAWNER_TIMER matches 10 run playsound entity.zombie.infect ambient @a ~ ~ ~ 2 1
+execute if score @s SPAWNER_TIMER matches 5 run playsound entity.zombie.infect ambient @a ~ ~ ~ 2 1
+execute if score @s SPAWNER_TIMER matches 1 run playsound entity.wither_skeleton.ambient ambient @a ~ ~ ~ 2 1
 
 ##particles
 execute if score @s SPAWNER_TIMER matches 16..20 run particle dust_pillar{block_state:"minecraft:netherrack"} ~ ~1 ~ 0.5 0.5 0.5 0 20 normal

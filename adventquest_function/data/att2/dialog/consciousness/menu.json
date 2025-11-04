@@ -1,5 +1,8 @@
 {
     "title": "",
+    "external_title": {
+        "translate": "consciousness.menu"
+    },
     "type": "minecraft:multi_action",
     "pause": false,
     "after_action": "none",

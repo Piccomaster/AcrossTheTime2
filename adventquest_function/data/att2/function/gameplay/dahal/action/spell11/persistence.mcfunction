@@ -3,6 +3,18 @@
 #Keep Nova working								#
 #################################################
 
+####Synchronize dahal consumption points
+scoreboard players operation @s[scores={SPELL11_CAP=1}] SPELL11_COST = SP11_1 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=2}] SPELL11_COST = SP11_2 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=3}] SPELL11_COST = SP11_3 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=4}] SPELL11_COST = SP11_4 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=5}] SPELL11_COST = SP11_5 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=6}] SPELL11_COST = SP11_6 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=7}] SPELL11_COST = SP11_7 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=8}] SPELL11_COST = SP11_8 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=9}] SPELL11_COST = SP11_9 DAHAL_COST
+scoreboard players operation @s[scores={SPELL11_CAP=10}] SPELL11_COST = SP11_10 DAHAL_COST
+
 execute as @s[scores={SPELL11_CAP=1,DAHAL=..39}] run function att2:gameplay/dahal/action/spell11/stop
 execute as @s[scores={SPELL11_CAP=1,DAHAL=40..}] at @s run function att2:gameplay/dahal/action/spell11/lvl1
 

@@ -6,3 +6,5 @@
 scoreboard players set @s SPELL28_SLCT 1
 function att2:gameplay/dahal/action/loadingsuccess
 execute if score @s SPELL28_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_28/get
+##Synchronize dahal consumption points
+scoreboard players operation @s SPELL28_COST = SP28_1 DAHAL_COST
