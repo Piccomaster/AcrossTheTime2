@@ -4,9 +4,7 @@
 #################################################################
 
 ##reset player cursor
-execute if items entity @s player.cursor *[custom_data~{QuickSlotTemp:true}] run item replace entity 00000001-0000-006f-0000-00010000006f weapon.mainhand from entity @s player.cursor
-data remove entity 00000001-0000-006f-0000-00010000006f equipment.mainhand.components."minecraft:custom_data".QuickSlotTemp
-execute if items entity @s player.cursor *[custom_data~{QuickSlotTemp:true}] run item replace entity @s player.cursor from entity 00000001-0000-006f-0000-00010000006f weapon.mainhand
+execute if items entity @s player.cursor *[custom_data~{QuickSlotTemp:true}] run function att2:gameplay/misc/quick_slot/reset_cursor
 ##get player score
 function att2:gameplay/score/player
 

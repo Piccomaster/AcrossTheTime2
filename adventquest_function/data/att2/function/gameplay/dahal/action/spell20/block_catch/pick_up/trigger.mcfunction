@@ -4,8 +4,9 @@
 #################################################################
 
 ##enemy limit
-execute if entity @e[distance=..7,scores={GAMELEVEL=0..},team=hostile,limit=1] run return 0
+execute if entity @n[distance=..7,scores={GAMELEVEL=0..},team=hostile,tag=!MIMIC] run return 0
 #clear arrow
+kill @e[type=item_display,scores={OWNER=0}]
 kill @e[type=spectral_arrow,tag=Block_Catch,predicate=att2_pre:score/owner]
 ##Sound
 playsound minecraft:block.crafter.craft master @s ~ ~ ~ 1 1

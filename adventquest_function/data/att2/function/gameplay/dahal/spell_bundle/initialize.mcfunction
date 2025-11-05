@@ -6,4 +6,4 @@
 ##test if have bundle
 scoreboard objectives add Spell_Bundle dummy
 
-scoreboard players add @s Spell_Bundle 0
+scoreboard players set @s Spell_Bundle 1

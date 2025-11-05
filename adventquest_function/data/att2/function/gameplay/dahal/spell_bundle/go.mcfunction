@@ -22,6 +22,8 @@ data modify storage att2:spell_bundle Spell_Bundle_Slot append from storage att2
 
 ##per second
 execute unless score tic TIMECOUNTER matches 7 run return 0
+#if entity not adventure
+execute unless entity @s[gamemode=adventure] run return 0
 ###############launch
 ##get list count
 execute store result score #Spell_Bundle_Slot CAL run data get storage att2:spell_bundle Spell_Bundle_Slot

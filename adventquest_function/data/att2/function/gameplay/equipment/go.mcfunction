@@ -5,5 +5,5 @@
 
 #reset REMOVE SCORE
 
-execute as @a run function att2:gameplay/equipment/eternan
-execute as @a run function att2:gameplay/equipment/eq
+execute as @a at @s run function att2:gameplay/equipment/eternan
+execute as @a at @s run function att2:gameplay/equipment/eq

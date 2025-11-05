@@ -28,3 +28,8 @@ execute if score 1RNG10 RNG matches 1..4 run function att2:summon/reg_1/thief3_c
 execute if score 1RNG10 RNG matches 1..3 run function att2:summon/reg_1/zombie4_classx {class:CLASS3}
 execute if score 1RNG10 RNG matches 1..2 run function att2:summon/reg_1/thief4_classx {class:CLASS3}
 execute if score 1RNG10 RNG matches 1 run function att2:summon/reg_1/thief5_classx {class:CLASS4}
+
+##move
+summon minecraft:fireball ~ ~2 ~ {Motion:[0,-1,0],ExplosionPower:-1}
+##spread
+spreadplayers ~ ~ 1 7 under 140 false @e[distance=..7,team=hostile,tag=LVL0]

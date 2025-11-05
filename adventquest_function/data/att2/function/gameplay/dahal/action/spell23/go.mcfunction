@@ -18,7 +18,7 @@ execute if score @s[scores={SPELL23_SLCT=2}] DAHAL >= SP23_2 DAHAL_COST at @s po
 execute if score @s[scores={SPELL23_SLCT=3}] DAHAL >= SP23_3 DAHAL_COST at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell23/lvl3
 
 #feed back dahal 
-execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score DAHAL_TEST CAL matches 0 unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #replace hand
 execute unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:gameplay/dahal/action/replace/detection
 #reset

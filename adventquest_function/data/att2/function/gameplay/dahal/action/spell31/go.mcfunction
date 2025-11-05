@@ -16,7 +16,7 @@ execute if score Spell_Bundle_Slot_Test CAL matches 1 if predicate att2_pre:daha
 execute as @s[scores={SPELL31_SLCT=1..10,DAHAL=350..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell31/summon
 
 #feed back dahal 
-execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score DAHAL_TEST CAL matches 0 unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #replace hand
 execute unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:gameplay/dahal/action/replace/detection
 #reset

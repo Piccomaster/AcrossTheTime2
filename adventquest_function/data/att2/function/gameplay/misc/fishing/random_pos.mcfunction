@@ -12,6 +12,6 @@ execute store result entity @s Pos[0] int 1 run scoreboard players operation @s 
 execute store result score -1RNG1 RNG run random value -1..1
 execute store result entity @s Pos[2] int 1 run scoreboard players operation @s POSITIONZ += -2RNG2 RNG
 #test pos if error->get  tag SPOT_SELECT
-execute unless predicate att2_pre:fishing/spot_check run tag @s add SPOT_SELECT
+execute at @s unless predicate att2_pre:fishing/spot_check run tag @s add SPOT_SELECT
 #remove
-execute if predicate att2_pre:fishing/spot_check run tag @s remove SPOT_SELECT
+execute at @s if predicate att2_pre:fishing/spot_check run tag @s remove SPOT_SELECT
