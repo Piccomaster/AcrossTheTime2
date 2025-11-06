@@ -7,6 +7,11 @@
 advancement revoke @s only att2_test:dahal/spell32/used_trigger
 #set dahal test
 scoreboard players set DAHAL_TEST CAL 0
+scoreboard players set Spell_Bundle_Slot_Test CAL 0
+##if on quick slot
+execute if data storage att2:spell_bundle {Spell_Bundle_Slot:[32]} run scoreboard players set Spell_Bundle_Slot_Test CAL 1
+##if hand but also on quick slot
+execute if score Spell_Bundle_Slot_Test CAL matches 1 if predicate att2_pre:dahal/hand/spell_32 run return 0
 ##Prevent accidents
 execute if score @s COOLDOWN32 matches 1.. run function att2:gameplay/dahal/action/replace/detection/spell32
 execute if score @s COOLDOWN32 matches 1.. run return 0

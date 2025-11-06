@@ -90,6 +90,8 @@ scoreboard players reset @s RUNE_ZEN
 scoreboard players reset @s RUNE_MOT
 ##sound
 playsound minecraft:entity.horse.saddle ambient @a ~ ~ ~ 1 1
-
+##reset bundle data 
+execute if items entity @s weapon.mainhand minecraft:ender_eye[custom_data~{EquipmentType:rune_bundle}] run item modify entity @s weapon.mainhand {function:"sequence",functions:[{function:set_lore,entity:this,mode:replace_all,lore:[{translate:item.rune_bundle.lore.1},{translate:item.rune_bundle.lore.2},{translate:item.rune_bundle.lore.3}]}]}
+execute if items entity @s weapon.offhand minecraft:ender_eye[custom_data~{EquipmentType:rune_bundle}] run item modify entity @s weapon.offhand {function:"sequence",functions:[{function:set_lore,entity:this,mode:replace_all,lore:[{translate:item.rune_bundle.lore.1},{translate:item.rune_bundle.lore.2},{translate:item.rune_bundle.lore.3}]}]}
 #
 advancement revoke @s only att2_test:rune_bundle/used_trigger

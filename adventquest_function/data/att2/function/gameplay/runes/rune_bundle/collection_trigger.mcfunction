@@ -6,7 +6,7 @@
 #revoke test
 advancement revoke @s only att2_test:rune_bundle/collection_trigger
 ###test if have rune_bundle
-execute store result score TEST CAL run clear @s ender_eye[custom_data={EquipmentType:'rune_bundle',Rarity:'misc'}] 0
+execute store result score TEST CAL if items entity @s player.crafting.* minecraft:ender_eye[custom_data~{EquipmentType:rune_bundle}]
 execute unless score TEST CAL matches 1.. run return 0
 ##test if hand rune_bundle
 execute if predicate att2_pre:test_hold/rune_bundle run return 0
@@ -95,3 +95,17 @@ execute if score kan CAL matches 1.. run function att2:dialogs/gameplay/runes/ru
 execute if score xul CAL matches 1.. run function att2:dialogs/gameplay/runes/rune_bundle/xul_add
 execute if score zen CAL matches 1.. run function att2:dialogs/gameplay/runes/rune_bundle/zen_add
 execute if score mot CAL matches 1.. run function att2:dialogs/gameplay/runes/rune_bundle/mot_add
+
+##update rune bundle data
+
+#0
+execute if items entity @s player.crafting.0 minecraft:ender_eye[custom_data~{EquipmentType:rune_bundle}] run return run item modify entity @s player.crafting.0 att2:rune_bundle/set_lore
+
+#1
+execute if items entity @s player.crafting.1 minecraft:ender_eye[custom_data~{EquipmentType:rune_bundle}] run return run item modify entity @s player.crafting.1 att2:rune_bundle/set_lore
+
+#2
+execute if items entity @s player.crafting.2 minecraft:ender_eye[custom_data~{EquipmentType:rune_bundle}] run return run item modify entity @s player.crafting.2 att2:rune_bundle/set_lore
+
+#3
+execute if items entity @s player.crafting.3 minecraft:ender_eye[custom_data~{EquipmentType:rune_bundle}] run return run item modify entity @s player.crafting.3 att2:rune_bundle/set_lore

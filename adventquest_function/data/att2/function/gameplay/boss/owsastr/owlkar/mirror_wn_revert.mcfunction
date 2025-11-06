@@ -7,3 +7,4 @@ execute at @e[tag=UtoES,nbt={UUID:[I;0,70479,0,70479]}] run function att2:sound/
 tp @e[nbt={UUID:[I;0,70479,0,70479]}] -5061.9 71.9 -4393.4 -135 0
 execute as @e[nbt={UUID:[I;0,70479,0,70479]}] run tag @s remove UtoES
 execute as @e[nbt={UUID:[I;0,70479,0,70479]}] run tag @s add UtoWN
+scoreboard players set Owlkar_button_wn OWSASTR 0

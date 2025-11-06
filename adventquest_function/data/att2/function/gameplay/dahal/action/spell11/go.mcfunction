@@ -7,13 +7,19 @@
 advancement revoke @s only att2_test:dahal/spell11/used_trigger
 #set dahal test
 scoreboard players set DAHAL_TEST CAL 0
+scoreboard players set Spell_Bundle_Slot_Test CAL 0
+##if on quick slot
+execute if data storage att2:spell_bundle {Spell_Bundle_Slot:[11]} run scoreboard players set Spell_Bundle_Slot_Test CAL 1
+##if hand but also on quick slot
+execute if score Spell_Bundle_Slot_Test CAL matches 1 if predicate att2_pre:dahal/hand/spell_11 run return 0
 
 execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
 execute if score DAHAL_TEST CAL matches 0 if score @s DAHAL >= SP11_start DAHAL_COST run function att2:gameplay/dahal/action/spell11/start
 
 #feed back dahal 
-execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score DAHAL_TEST CAL matches 0 unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #replace hand
-function att2:gameplay/dahal/action/replace/detection/spell11
+execute unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:gameplay/dahal/action/replace/detection
 #reset
 scoreboard players reset DAHAL_TEST CAL
+scoreboard players reset Spell_Bundle_Slot_Test CAL

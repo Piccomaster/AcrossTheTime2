@@ -7,7 +7,12 @@
 advancement revoke @s only att2_test:dahal/spell2/used_trigger
 #set dahal test
 scoreboard players set DAHAL_TEST CAL 0
-
+scoreboard players set Spell_Bundle_Slot_Test CAL 0
+##if on quick slot
+execute if data storage att2:spell_bundle {Spell_Bundle_Slot:[2]} run scoreboard players set Spell_Bundle_Slot_Test CAL 1
+##if hand but also on quick slot
+execute if score Spell_Bundle_Slot_Test CAL matches 1 if predicate att2_pre:dahal/hand/spell_2 run return 0
+#launch
 execute if score @s[scores={SPELL2_SLCT=1}] DAHAL >= SP2_1 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl1
 execute if score @s[scores={SPELL2_SLCT=2}] DAHAL >= SP2_2 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl2
 execute if score @s[scores={SPELL2_SLCT=3}] DAHAL >= SP2_3 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl3
@@ -20,11 +25,12 @@ execute if score @s[scores={SPELL2_SLCT=9}] DAHAL >= SP2_9 DAHAL_COST anchored e
 execute if score @s[scores={SPELL2_SLCT=10}] DAHAL >= SP2_10 DAHAL_COST anchored eyes at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell2/lvl10
 
 #feed back dahal 
-execute if score DAHAL_TEST CAL matches 0 run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score DAHAL_TEST CAL matches 0 unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #replace hand
-function att2:gameplay/dahal/action/replace/detection/spell2
+execute unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:gameplay/dahal/action/replace/detection
 #reset
 scoreboard players reset DAHAL_TEST CAL
+scoreboard players reset Spell_Bundle_Slot_Test CAL
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL2_LVL

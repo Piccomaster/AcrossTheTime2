@@ -5,5 +5,5 @@
 
 scoreboard players add Adanoi SYMBOL 1
 function att2:gameplay/enveffect/symbol/add
-function att2:dialogs/gameplay/symbol/explo/adanoi
+execute as @a[distance=..10] run function att2:dialogs/gameplay/symbol/explo/adanoi
 function att2:gameplay/enveffect/symbol/summon_reward1

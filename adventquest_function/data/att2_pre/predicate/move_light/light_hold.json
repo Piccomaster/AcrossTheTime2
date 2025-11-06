@@ -1,0 +1,53 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+              "custom_data": {
+                "MoveLight": true
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "offhand": {
+            "predicates": {
+              "custom_data": {
+                "MoveLight": true
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "slots": {
+          "player.crafting.*": {
+            "predicates": {
+              "custom_data": {
+                "MoveLight": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

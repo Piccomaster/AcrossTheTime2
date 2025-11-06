@@ -81,3 +81,6 @@ scoreboard players set SP41_7 DAHAL_COST 120
 scoreboard players set SP41_8 DAHAL_COST 140
 scoreboard players set SP41_9 DAHAL_COST 160
 scoreboard players set SP41_10 DAHAL_COST 200
+##add spell cost dummy
+scoreboard objectives add SPELL41_COST dummy
+scoreboard players operation @s SPELL41_COST = SP41_1 DAHAL_COST

@@ -6,4 +6,7 @@
 #set kill score->spellKILL
 scoreboard players set @s SPELL_KILL 7
 $scoreboard players operation @s ATTACKER = @a[scores={NUMEROJOUEUR=$(owner)},limit=1] NUMEROJOUEUR
-$damage @s[tag=!FB_DAHAL] $(SP7) att2_damage:magic by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+$damage @s[tag=!FB_DAHAL] $(SP7) att2_damage:magic by @p[scores={NUMEROJOUEUR=$(owner)}]
+
+##particle
+particle minecraft:enchanted_hit ~ ~2 ~ 0.5 0.5 0.5 0 20 normal

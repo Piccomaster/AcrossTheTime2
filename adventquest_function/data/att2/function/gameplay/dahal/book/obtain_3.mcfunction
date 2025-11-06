@@ -3,7 +3,8 @@
 #Obtain the magic sphere                         #
 ##################################################
 
-kill @e[type=item,predicate=att2_pre:dahal/launcher/spell_3,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
+##clear item
+kill @n[type=item,tag=Select]
 
 clear @s minecraft:written_book[custom_data={Rarity:"rar",Dahal:"book",Spell:"spell3"}]
 

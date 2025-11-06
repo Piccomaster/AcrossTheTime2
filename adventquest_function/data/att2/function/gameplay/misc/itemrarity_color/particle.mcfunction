@@ -3,7 +3,8 @@
 #Process item rarity color particle    							#
 #################################################################
 
-
+##test if quickslot
+execute if data entity @s Item.components."minecraft:custom_data".QuickSlotTemp run kill @s
 ##initialize
 execute unless score @s itemcolor matches 0.. run function att2:gameplay/misc/itemrarity_color/data_get
 

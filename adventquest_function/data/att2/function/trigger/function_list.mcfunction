@@ -3087,3 +3087,4 @@ execute if score @s ScoreTrigger matches 3083 run execute if score cinematic_tim
 execute if score @s ScoreTrigger matches 3084 run execute if score cinematic_timer SQ59 matches ..123 run scoreboard players set cinematic_timer SQ59 124
 execute if score @s ScoreTrigger matches 3085 run execute if score cinematic_timer SQ59 matches ..244 run scoreboard players set cinematic_timer SQ59 245
 execute if score @s ScoreTrigger matches 3086 run execute if score cinematic_timer SQ59 matches ..373 run scoreboard players set cinematic_timer SQ59 374
+execute if score @s ScoreTrigger matches 3087 run function att2:gameplay/book/worlds_hunter

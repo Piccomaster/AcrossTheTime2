@@ -3,6 +3,18 @@
 #Keep Corruption working						#
 #################################################
 
+####Synchronize dahal consumption points
+scoreboard players operation @s[scores={SPELL40_CAP=1}] SPELL40_COST = SP11_1 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=2}] SPELL40_COST = SP11_2 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=3}] SPELL40_COST = SP11_3 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=4}] SPELL40_COST = SP11_4 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=5}] SPELL40_COST = SP11_5 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=6}] SPELL40_COST = SP11_6 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=7}] SPELL40_COST = SP11_7 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=8}] SPELL40_COST = SP11_8 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=9}] SPELL40_COST = SP11_9 DAHAL_COST
+scoreboard players operation @s[scores={SPELL40_CAP=10}] SPELL40_COST = SP11_10 DAHAL_COST
+
 execute as @s[scores={SPELL40_CAP=1,DAHAL=..34}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=1,DAHAL=35..}] run function att2:gameplay/dahal/action/spell40/lvl1
 

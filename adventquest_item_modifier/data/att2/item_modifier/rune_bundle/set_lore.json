@@ -1,0 +1,1074 @@
+{
+  "function": "sequence",
+  "functions": [
+    {
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "translate": "item.rune_bundle.lore.1"
+        },
+        {
+          "translate": "item.rune_bundle.lore.2"
+        },
+        {
+          "translate": "item.rune_bundle.lore.3"
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_GAL": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/gal",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.gal",
+              "color": "#808000",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_GAL"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_THA": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/tha",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.tha",
+              "color": "#868600",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_THA"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_FUS": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/fus",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.fus",
+              "color": "#8C8C00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_FUS"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_ORG": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/org",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.org",
+              "color": "#939300",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_ORG"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_JO": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/jo",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.jo",
+              "color": "#999900",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_JO"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_RA": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/ra",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.ra",
+              "color": "#A0A000",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_RA"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_NYM": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/nym",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.nym",
+              "color": "#A6A600",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_NYM"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_INU": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/inu",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.inu",
+              "color": "#ADAD00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_INU"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_HAL": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/hal",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.hal",
+              "color": "#B3B300",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_HAL"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_VON": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/von",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.von",
+              "color": "#BFBF00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_VON"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_EHL": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/ehl",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.ehl",
+              "color": "#C2C200",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_EHL"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_AVE": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/ave",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.ave",
+              "color": "#C7C700",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_AVE"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_CHU": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/chu",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.chu",
+              "color": "#CECE00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_CHU"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_FOR": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/for",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.for",
+              "color": "#D1D100",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_FOR"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_DA": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/da",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.da",
+              "color": "#D4D400",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_DA"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_WEJ": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/wej",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.wej",
+              "color": "#D6D600",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_WEJ"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_UST": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/ust",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.ust",
+              "color": "#D9D900",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_UST"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_LYA": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/lya",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.lya",
+              "color": "#DCDC00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_LYA"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_QI": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/qi",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.qi",
+              "color": "#DEDE00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_QI"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_BEX": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/bex",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.bex",
+              "color": "#E8E800",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_BEX"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_PUH": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/puh",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.puh",
+              "color": "#EDED00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_PUH"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_SYL": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/syl",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.syl",
+              "color": "#F2F200",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_SYL"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_YOG": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/yog",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.yog",
+              "color": "#F5F500",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_YOG"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_KAN": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/kan",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.kan",
+              "color": "#F8F800",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_KAN"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_XUL": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/xul",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.xul",
+              "color": "#FCFC00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_XUL"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_ZEN": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/zen",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.zen",
+              "color": "#FEFE00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_ZEN"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "RUNE_MOT": {
+              "min": 1
+            }
+          }
+        }
+      ],
+      "function": "set_lore",
+      "entity": "this",
+      "mode": "append",
+      "lore": [
+        {
+          "object": "atlas",
+          "sprite": "item/custom/runes/mot",
+          "color": "white",
+          "extra": [
+            {
+              "translate": "att2.rune_bundle.total.mot",
+              "color": "#FFFF00",
+              "italic": false,
+              "with": [
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "RUNE_MOT"
+                  },
+                  "color": "dark_green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

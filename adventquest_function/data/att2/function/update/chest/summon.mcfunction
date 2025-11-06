@@ -4703,5 +4703,5 @@ execute in minecraft:overworld positioned -4612 47 -6206 run summon marker ~ ~ ~
 execute in minecraft:overworld positioned -4503 97 -6211 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4697],Tags:["ChestMarker"]}
 execute in minecraft:overworld positioned -4502 97 -6211 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4698],Tags:["ChestMarker"]}
 
-##Ongoing updates... (ignore temporarily)
+##
 execute in overworld positioned -5203 67 -5344 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4699],Tags:["ChestMarker"]}

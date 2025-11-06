@@ -1,0 +1,82 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 1,
+      "offsetZ": 0,
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": -1,
+      "offsetZ": 0,
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": 1,
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": -1,
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
+        }
+      }
+    }
+  ]
+}

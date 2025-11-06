@@ -37,4 +37,4 @@ title @s[scores={LANGUAGE=9}] actionbar [{text:"ऑटोपायलट सक�
 title @s[scores={LANGUAGE=10}] actionbar [{text:"Piloto automático ativado...",color:"green","bold":true}]
 
 # SIMPLIFIED CHINESE
-title @s[scores={LANGUAGE=11}] actionbar [{text:"正在自动驾驶...",color:"green","bold":true}]
+title @s[scores={LANGUAGE=11}] actionbar [{text:"按照路线前进中...",color:"green","bold":true}]

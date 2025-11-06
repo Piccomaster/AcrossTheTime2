@@ -6,3 +6,5 @@
 scoreboard players set @s SPELL7_SLCT 1
 function att2:gameplay/dahal/action/loadingsuccess
 execute if score @s SPELL7_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_7/get
+##Synchronize dahal consumption points
+scoreboard players operation @s SPELL7_COST = SP7_1 DAHAL_COST

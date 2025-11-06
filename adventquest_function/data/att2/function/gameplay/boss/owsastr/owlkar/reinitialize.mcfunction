@@ -4,4 +4,3 @@
 #################################################################
 
 function att2:gameplay/boss/owsastr/owlkar/initialize
-function att2:physicmod/reg1/owsastr/bossshell

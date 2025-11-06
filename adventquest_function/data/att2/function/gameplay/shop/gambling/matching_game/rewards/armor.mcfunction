@@ -9,10 +9,14 @@ execute store result score Armor_Count MatchingGame if data storage att2:matchin
 scoreboard players operation RewardTrigger MatchingGame = Armor_Count MatchingGame
 scoreboard players operation RewardTrigger MatchingGame %= 2 CAL
 execute unless score RewardTrigger MatchingGame matches 0 run return run title @s actionbar {translate:matching_game.rewards.armor.tip,color:green}
-
 #set score ==
 scoreboard players operation Armor_Count MatchingGame = Armor_Count MatchingGame
 scoreboard players operation @s MatchingGame = Armor_Count MatchingGame
+##Increase the guaranteed score for game levels
+scoreboard players operation GuaranteedScore MatchingGame = @s MatchingGameId
+scoreboard players operation GuaranteedScore MatchingGame /= 2 CAL
+scoreboard players operation GuaranteedScore MatchingGame > 1 CAL
+scoreboard players operation @s MatchingGame += GuaranteedScore MatchingGame
 #cal count
 scoreboard players operation Armor_Count MatchingGame *= 10 CAL
 #store score

@@ -79,4 +79,3 @@ execute in minecraft:the_nether positioned 3389 36 4444 if block ~ ~ ~ minecraft
 execute in minecraft:the_nether positioned 3437 36 4479 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/angor_south
 execute in minecraft:the_nether positioned 3467 36 4487 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/angor_south
 execute in minecraft:the_nether positioned 3492 43 4462 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/angor_south
-# execute in minecraft:the_nether positioned 3486 39 4187 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/angor_south

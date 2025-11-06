@@ -3,4 +3,4 @@
 #Obtain unc fish bait                            #
 ##################################################
 
-give @s snowball[custom_name={translate:'att2.fishing.bait.unc.name'},lore=[{translate:'att2.fishing.bait.unc.lore.1'},{translate:'att2.fishing.bait.unc.lore.2'}],minecraft:custom_model_data={floats:[10000002]},custom_data={EquipmentType:'bait',Rarity:'unc'},max_stack_size=64,tooltip_style="minecraft:rarity/unc/unc"]
+give @s snowball[custom_name={translate:'att2.fishing.bait.unc.name'},lore=[{translate:'att2.fishing.bait.unc.lore.1'},{translate:'att2.fishing.bait.unc.lore.2'}],minecraft:custom_model_data={floats:[10000002]},custom_data={EquipmentType:'bait',Rarity:'unc',QuickSlot:true},max_stack_size=64,tooltip_style="minecraft:rarity/unc/unc"]

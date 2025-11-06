@@ -20,7 +20,7 @@ function att2:gameplay/dahal/action/spell21/persistence
 function att2:gameplay/dahal/action/spell22/persistence
 function att2:gameplay/dahal/action/spell23/persistence
 function att2:gameplay/dahal/action/spell24/persistence
-function att2:gameplay/dahal/action/spell25/persistence
+execute as @a[gamemode=adventure] at @s run function att2:gameplay/dahal/action/spell25/persistence
 execute as @a[scores={SPELL26_EFFECT=1..},gamemode=adventure] run function att2:gameplay/dahal/action/spell26/persistence
 function att2:gameplay/dahal/action/spell27/persistence
 function att2:gameplay/dahal/action/spell28/persistence

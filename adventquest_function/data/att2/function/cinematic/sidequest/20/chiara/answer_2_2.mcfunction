@@ -13,7 +13,7 @@ function att2:physicmod/reg1/earndhel/chiara_door_open
 advancement grant @a only att2:adventure/home_sweet_home
 
 function att2:gameplay/pnj_talk/dialog_playsound/chiara
-execute as @a[distance=..10] run function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/answer_2
+execute as @a[distance=..10,x=29957,y=93,z=30043] run function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/answer_2
 function att2:dialogs/sidequest/sq20/guard_1
 #return 1->make command block runing
 return 1

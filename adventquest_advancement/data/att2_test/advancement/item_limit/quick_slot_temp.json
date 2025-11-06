@@ -1,0 +1,21 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/quick_slot_temp"
+    },
+    "criteria": {
+        "bowl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates":{
+                            "minecraft:custom_data":{
+                                "QuickSlotTemp":true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

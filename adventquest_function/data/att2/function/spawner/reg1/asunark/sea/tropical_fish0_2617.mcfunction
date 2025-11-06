@@ -6,3 +6,4 @@ execute positioned -3358 39 -4825 as @e[team=ally,distance=..30,limit=1] run sco
 execute positioned -3358 39 -4825 as @e[team=ally,distance=..30,scores={COUNT=0..}] at @e[team=ally,type=!player,distance=..30] run scoreboard players add @s COUNT 1
 execute positioned -3358 39 -4825 unless entity @e[team=ally,distance=..30,scores={COUNT=3..}] run function att2:summon/reg_1/tropical_fish0
 scoreboard players reset mob_count COUNT
+scoreboard players set summon_timer SPAWNER_TIMER 30

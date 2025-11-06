@@ -10,7 +10,7 @@
           "mainhand": {
             "predicates": {
               "minecraft:custom_data": {
-                "Spell": "spell32"
+                "Spell32": true
               }
             }
           }
@@ -26,7 +26,7 @@
           "offhand": {
             "predicates": {
               "minecraft:custom_data": {
-                "Spell": "spell32"
+                "Spell32": true
               }
             }
           }

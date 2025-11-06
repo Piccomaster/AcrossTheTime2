@@ -1,0 +1,133 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t10_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t9_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t8_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t7_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t6_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t5_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t4_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t3_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t2_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c4t1_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c3t6_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c3t5_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c3t4_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c3t3_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c3t2_asunarkstone\"}"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "nbt": "{LootTable:\"att2:chest/reg1/c3t1_asunarkstone\"}"
+                }
+            }
+        }
+    ]
+}

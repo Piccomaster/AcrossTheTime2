@@ -11,7 +11,7 @@
                         "items": "minecraft:enchanted_book",
                         "predicates": {
                             "minecraft:custom_data": {
-                                "Spell": "spell9"
+                                "Spell9": true
                             }
                         }
                     }
@@ -28,7 +28,7 @@
                         "items": "minecraft:enchanted_book",
                         "predicates": {
                             "minecraft:custom_data": {
-                                "Spell": "spell11"
+                                "Spell11": true
                             }
                         }
                     }
@@ -45,7 +45,7 @@
                         "items": "minecraft:enchanted_book",
                         "predicates": {
                             "minecraft:custom_data": {
-                                "Spell": "spell40"
+                                "Spell40": true
                             }
                         }
                     }

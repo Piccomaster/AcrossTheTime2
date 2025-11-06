@@ -74,6 +74,9 @@ execute if score testament BOOK matches 1.. run data modify storage att2:book me
 #warning
 execute if score warning BOOK matches 1.. run data modify storage att2:book menu append value {label:{translate:att2.book.warning.name},tooltip:{translate:book.view.tip,"color":"#101828"},action:{type:run_command,command:"trigger ScoreTrigger set 2907"},width:150}
 
+#worldhunter
+execute if score worlds_hunter BOOK matches 1.. run data modify storage att2:book menu append value {label:{translate:att2.book.worlds_hunter.name},tooltip:{translate:book.view.tip,"color":"#101828"},action:{type:run_command,command:"trigger ScoreTrigger set 3087"},width:150}
+
 ##limit
 execute unless data storage att2:book menu[] run data modify storage att2:book menu append value {label:{translate:book.error},action:{type:run_command,command:"trigger ScoreTrigger set 2885"},width:150}
 ##dialog show
