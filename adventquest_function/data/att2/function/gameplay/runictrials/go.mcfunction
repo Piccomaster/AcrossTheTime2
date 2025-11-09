@@ -17,9 +17,11 @@ execute if entity @a[x=-4945,y=67,z=-5781,distance=..60,gamemode=adventure] run 
 
 # Black forest
 execute if entity @a[x=-4561,y=56,z=-5772,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/9/go
+execute if entity @a[x=-4049,y=51,z=-5980,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/11/go
 
 # Sylberländ plain
 execute if entity @a[x=-4492,y=42,z=-5654,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/10/go
+execute if entity @a[x=-4165,y=53,z=-5424,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/12/go
 
 # Volcano
 execute if entity @a[x=-5453,y=50,z=-5632,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/6/go
