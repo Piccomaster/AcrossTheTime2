@@ -6,7 +6,7 @@
         "title": {"translate": "att2.advancement.treasure.title.maching_game.form10"},
         "description": {"translate": "att2.advancement.treasure.description.maching_game.form10"}
     },
-    "parent": "att2:treasure/money",
+    "parent": "att2:treasure/matching_game/form9",
         "rewards": {
             "function": "att2:advancement/exploit_30",
             "experience": 3000
