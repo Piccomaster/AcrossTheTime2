@@ -6,7 +6,8 @@
 
 #reset
 execute if score @s TALKING_TIMER matches 300 run data modify entity @s Rotation[1] set value 0
-execute if score @s TALKING_TIMER matches 300 run data modify entity @s data.rotation set from entity @s Rotation
+execute unless entity @s[tag=rotation_store] run data modify entity @s data.rotation set from entity @s Rotation
+tag @s add rotation_store
 
 #Talking movement activation
 execute if score @s TALKING matches 1..41 run function att2:gameplay/talking/talk
