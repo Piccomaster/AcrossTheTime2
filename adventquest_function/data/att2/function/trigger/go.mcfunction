@@ -3,7 +3,6 @@
 ##reset
 scoreboard players enable @s ScoreTrigger
 
-
 ##revoke test
 advancement revoke @s only att2_test:score_trigger
 ##in

@@ -25,4 +25,4 @@ particle minecraft:totem_of_undying ~ ~20 ~ 4 4 4 0.01 20 force
 particle minecraft:totem_of_undying ~ ~10 ~ 4 4 4 0.01 20 force
 particle minecraft:totem_of_undying ~ ~5 ~ 4 4 4 0.01 20 force
 
-playsound minecraft:mob.enderdragon.growl master @a ~ ~ ~ 5 1
+playsound minecraft:entity.ender_dragon.growl master @a ~ ~ ~ 5 1

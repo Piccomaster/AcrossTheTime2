@@ -4,8 +4,8 @@
 #################################################################
 
 ##clear
-execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
-function att2:gameplay/dahal/action/spell7/kill with storage att2:numerojoueur
+function att2:gameplay/score/player
+kill @e[type=armor_stand,tag=SpellGeyser,predicate=att2_pre:score/owner]
 
 execute as @a[distance=..15] at @s run function att2:sound/dahal/spell7_effect
 function att2:gameplay/dahal/action/spell7/summon_positionkeeper

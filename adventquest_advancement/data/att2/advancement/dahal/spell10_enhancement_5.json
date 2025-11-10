@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:enchanted_book",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        10
-                    ]
-                }
+                "minecraft:item_model": "spell/10"
             }
         },
         "title": {"translate":"att2.advancement.dahal.title.spell10_enhancement_5"},

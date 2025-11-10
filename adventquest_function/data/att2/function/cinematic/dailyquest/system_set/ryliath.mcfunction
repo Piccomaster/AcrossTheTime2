@@ -1,0 +1,40 @@
+#############################################################
+#Made by Adventquest                               			#
+#Ryliath dailyquest initialize                              #
+#############################################################
+
+setblock -4940 77 -5024 minecraft:structure_block[mode=load]{author:"?",components:{},ignoreEntities:1b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"att2:ryliath_dailyquest_board",posX:1,posY:0,posZ:-7,powered:1b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:2,sizeY:5,sizeZ:7,strict:0b} destroy
+setblock -4940 78 -5024 minecraft:redstone_block destroy
+setblock -4940 78 -5024 minecraft:redstone_block destroy
+
+setblock -4940 77 -5024 minecraft:air destroy
+setblock -4940 78 -5024 minecraft:air destroy
+
+
+##clear
+kill @e[type=#minecraft:display_entity,tag=Ryliath,tag=DailyQuest]
+##summon Request Interaction
+execute in overworld positioned -4938.0 78 -5029 run summon interaction ~ ~ ~ {UUID:[I;-4939,78,-5029,1],Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","1"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:ryliath,entityid:1},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","1"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+execute in overworld positioned -4938.0 78 -5028 run summon interaction ~ ~ ~ {UUID:[I;-4939,78,-5028,2],Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","2"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:ryliath,entityid:2},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","2"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+execute in overworld positioned -4938.0 78 -5027 run summon interaction ~ ~ ~ {UUID:[I;-4939,78,-5027,3],Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","3"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:ryliath,entityid:3},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","3"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+execute in overworld positioned -4938.0 77 -5029 run summon interaction ~ ~ ~ {UUID:[I;-4939,77,-5029,4],Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","4"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:ryliath,entityid:4},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","4"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+execute in overworld positioned -4938.0 77 -5028 run summon interaction ~ ~ ~ {UUID:[I;-4939,77,-5028,5],Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","6"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:ryliath,entityid:5},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","5"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+execute in overworld positioned -4938.0 77 -5027 run summon interaction ~ ~ ~ {UUID:[I;-4939,77,-5027,6],Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","6"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:ryliath,entityid:6},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Request","NoQuest","QuestBoard","6"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+
+##summon Accepted Interaction
+execute in overworld positioned -4939 79 -5029 run summon interaction ~ ~ ~ {UUID:[I;-4939,79,-5029,1],Tags:["DailyQuest","Ryliath","Accepted","QuestBoard","NoQuest","1"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:ryliath,entityid:1},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Accepted","QuestBoard","NoQuest","1"],billboard:fixed,view_range:0.5,Rotation:[90,0],alignment:left,line_width:70,background:0x00000000}]}
+execute in overworld positioned -4939 79 -5028 run summon interaction ~ ~ ~ {UUID:[I;-4939,79,-5028,2],Tags:["DailyQuest","Ryliath","Accepted","QuestBoard","NoQuest","2"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:ryliath,entityid:2},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Accepted","QuestBoard","NoQuest","2"],billboard:fixed,view_range:0.5,Rotation:[90,0],alignment:left,line_width:70,background:0x00000000}]}
+execute in overworld positioned -4939 79 -5027 run summon interaction ~ ~ ~ {UUID:[I;-4939,79,-5027,3],Tags:["DailyQuest","Ryliath","Accepted","QuestBoard","NoQuest","3"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:ryliath,entityid:3},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Ryliath","Accepted","QuestBoard","NoQuest","3"],billboard:fixed,view_range:0.5,Rotation:[90,0],alignment:left,line_width:70,background:0x00000000}]}
+
+
+##test
+return 0
+##add tag
+tag @e[tag=Request] add HaveQuest
+data modify entity @n[tag=1,tag=Request] data.questid set value 1
+data modify entity @n[tag=2,tag=Request] data.questid set value 2
+data modify entity @n[tag=3,tag=Request] data.questid set value 3
+data modify entity @n[tag=4,tag=Request] data.questid set value 4
+data modify entity @n[tag=5,tag=Request] data.questid set value 5
+data modify entity @n[tag=6,tag=Request] data.questid set value 6

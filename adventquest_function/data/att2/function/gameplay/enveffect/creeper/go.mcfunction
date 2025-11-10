@@ -3,4 +3,4 @@
 #Process creeper clear effect			                        #
 #################################################################
 
-execute as @e[type=minecraft:creeper,team=hostile] unless entity @s[tag=SerileTimer] unless entity @s[tag=ShadowPart] run function att2:gameplay/enveffect/creeper/clear_effect
+execute as @e[type=minecraft:area_effect_cloud] at @s run function att2:gameplay/enveffect/creeper/clear_effect

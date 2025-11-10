@@ -9,7 +9,7 @@ advancement revoke @s only att2_test:dahal/spell1/used_trigger
 scoreboard players set DAHAL_TEST CAL 0
 scoreboard players set Spell_Bundle_Slot_Test CAL 0
 ##if on quick slot
-execute if data storage att2:spell_bundle {Spell_Bundle_Slot:[1]} run scoreboard players set Spell_Bundle_Slot_Test CAL 1
+execute if predicate att2_pre:dahal/spell_bundle/spell1 run scoreboard players set Spell_Bundle_Slot_Test CAL 1
 ##if hand but also on quick slot
 execute if score Spell_Bundle_Slot_Test CAL matches 1 if predicate att2_pre:dahal/hand/spell_1 run return 0
 #launch
