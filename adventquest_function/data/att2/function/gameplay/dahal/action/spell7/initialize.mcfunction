@@ -8,7 +8,7 @@ scoreboard objectives add SPELL7_LVL dummy
 scoreboard objectives add SPELL7_EFFECT dummy
 scoreboard objectives add SPELL7_CAP dummy
 scoreboard objectives add SPELL7_OP dummy
-scoreboard objectives add SPELL7_OWNER dummy
+#scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL7_DATA dummy
 scoreboard players set @s COOLDOWN7 0
 scoreboard players set @s SPELL7_LVL 0

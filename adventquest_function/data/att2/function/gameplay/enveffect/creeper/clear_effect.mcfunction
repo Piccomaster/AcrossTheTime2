@@ -3,12 +3,7 @@
 #Clear all effect                 								    #
 #####################################################################
 
-effect clear @s minecraft:speed
-effect clear @s minecraft:slowness
-effect clear @s minecraft:haste
-effect clear @s minecraft:mining_fatigue
-effect clear @s minecraft:strength
-effect clear @s minecraft:resistance
-effect clear @s minecraft:regeneration
-effect clear @s minecraft:hunger
-effect clear @s minecraft:weakness
+##detection if from player
+execute on origin as @s[type=player] run return 0
+##clear
+kill @s[type=area_effect_cloud]

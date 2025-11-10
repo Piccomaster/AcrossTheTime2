@@ -1,0 +1,125 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -5392,
+                        "max": -4688
+                    },
+                    "z": {
+                        "min": -5440,
+                        "max": -4896
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -4688,
+                        "max": -4608
+                    },
+                    "z": {
+                        "min": -5584,
+                        "max": -4992
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -4608,
+                        "max": -4432
+                    },
+                    "z": {
+                        "min": -5520,
+                        "max": -5152
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -4608,
+                        "max": -4496
+                    },
+                    "z": {
+                        "min": -5568,
+                        "max": -5520
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -4848,
+                        "max": -4688
+                    },
+                    "z": {
+                        "min": -5456,
+                        "max": -5440
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -4832,
+                        "max": -4688
+                    },
+                    "z": {
+                        "min": -5488,
+                        "max": -5456
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -4784,
+                        "max": -4688
+                    },
+                    "z": {
+                        "min": -5536,
+                        "max": -5488
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -4608,
+                        "max": -4528
+                    },
+                    "z": {
+                        "min": -5152,
+                        "max": -5072
+                    }
+                }
+            }
+        }
+    ]
+}

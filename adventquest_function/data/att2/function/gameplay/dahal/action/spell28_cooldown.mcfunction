@@ -46,7 +46,16 @@ execute unless score #Spell_Existence CAL matches 1 run return 0
 
 ##cal percent
 #get lvl
-execute store result score #cooldown_select CAL run data get storage att2:cooldown spell_data.components."minecraft:custom_data".CoolDown
+execute if score @s SPELL28_CAP matches 1 run scoreboard players operation #cooldown_select CAL = lvl1 COOLDOWN28
+execute if score @s SPELL28_CAP matches 2 run scoreboard players operation #cooldown_select CAL = lvl2 COOLDOWN28
+execute if score @s SPELL28_CAP matches 3 run scoreboard players operation #cooldown_select CAL = lvl3 COOLDOWN28
+execute if score @s SPELL28_CAP matches 4 run scoreboard players operation #cooldown_select CAL = lvl4 COOLDOWN28
+execute if score @s SPELL28_CAP matches 5 run scoreboard players operation #cooldown_select CAL = lvl5 COOLDOWN28
+execute if score @s SPELL28_CAP matches 6 run scoreboard players operation #cooldown_select CAL = lvl6 COOLDOWN28
+execute if score @s SPELL28_CAP matches 7 run scoreboard players operation #cooldown_select CAL = lvl7 COOLDOWN28
+execute if score @s SPELL28_CAP matches 8 run scoreboard players operation #cooldown_select CAL = lvl8 COOLDOWN28
+execute if score @s SPELL28_CAP matches 9 run scoreboard players operation #cooldown_select CAL = lvl9 COOLDOWN28
+execute if score @s SPELL28_CAP matches 10 run scoreboard players operation #cooldown_select CAL = lvl10 COOLDOWN28
 scoreboard players operation #cooldown_percent CAL = @s COOLDOWN28
 scoreboard players operation #cooldown_percent CAL *= 10 CAL
 scoreboard players operation #cooldown_percent CAL /= #cooldown_select CAL

@@ -1,0 +1,15 @@
+{
+    "rewards": {
+        "function": "att2:cinematic/dailyquest/trigger/kill_mobs_invasion"
+    },
+    "criteria": {
+        "kill_mob": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"Mobs_Invasion\"]}"
+                }
+            }
+        }
+    }
+}

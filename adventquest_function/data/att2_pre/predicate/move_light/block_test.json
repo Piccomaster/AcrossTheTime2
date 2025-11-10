@@ -1,8 +1,44 @@
 {
-    "condition":"entity_properties",
-    "entity":"this",
-    "predicate":{
-        "type":"minecraft:item",
-        "nbt":"{Invulnerable:1}"
-    }
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:light"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": 0,
+            "predicate": {
+                "fluid": {
+                    "fluids": "#minecraft:water"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:pink_concrete_powder"
+                    ]
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:light_blue_concrete_powder"
+                    ]
+                }
+            }
+        }
+    ]
 }

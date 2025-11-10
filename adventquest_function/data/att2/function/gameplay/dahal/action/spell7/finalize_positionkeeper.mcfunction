@@ -16,4 +16,4 @@ scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellGeyser,score
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellGeyser,scores={SPELL7_SLCT=10}] SPELL7_EFFECT = timer_lvl10 SPELL7_DATA
 
 
-tag @e[type=minecraft:armor_stand,tag=SpellGeyser] remove SpellGeyser
+#tag @e[type=minecraft:armor_stand,tag=SpellGeyser] remove SpellGeyser

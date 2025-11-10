@@ -16,5 +16,5 @@ execute unless score tic TIMECOUNTER matches 5 run return 0
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell7/damage_cal
 #find owner player ->damage
-execute store result storage att2:sp_dmg owner int 1 run scoreboard players get @s SPELL7_OWNER
+execute store result storage att2:sp_dmg owner int 1 run scoreboard players get @s OWNER
 execute as @e[distance=..1,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell7/damage with storage att2:sp_dmg

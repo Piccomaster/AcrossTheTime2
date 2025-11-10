@@ -1,0 +1,10 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "block": {
+            "state": {
+                "facing":"north"
+            }
+        }
+    }
+}

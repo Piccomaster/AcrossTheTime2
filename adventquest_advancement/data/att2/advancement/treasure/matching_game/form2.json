@@ -7,7 +7,7 @@
         "description": {"translate": "att2.advancement.treasure.description.maching_game.form2"},
         "frame": "goal"
     },
-    "parent": "att2:treasure/chronotons_100",
+    "parent": "att2:treasure/matching_game/form1",
         "rewards": {
             "function": "att2:advancement/exploit_2",
             "experience": 200

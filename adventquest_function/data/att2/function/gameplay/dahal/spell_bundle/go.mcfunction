@@ -37,6 +37,7 @@ execute if score @s Spell_Bundle > #Spell_Bundle_Slot CAL run scoreboard players
 execute if score @s Spell_Bundle matches 1 if data storage att2:spell_bundle Spell_Bundle_Slot[0] run data modify storage att2:spell_bundle select set from storage att2:spell_bundle Spell_Bundle_Slot[0]
 execute if score @s Spell_Bundle matches 2 if data storage att2:spell_bundle Spell_Bundle_Slot[1] run data modify storage att2:spell_bundle select set from storage att2:spell_bundle Spell_Bundle_Slot[1]
 execute if score @s Spell_Bundle matches 3 if data storage att2:spell_bundle Spell_Bundle_Slot[2] run data modify storage att2:spell_bundle select set from storage att2:spell_bundle Spell_Bundle_Slot[2]
+execute if score @s Spell_Bundle matches 4 if data storage att2:spell_bundle Spell_Bundle_Slot[3] run data modify storage att2:spell_bundle select set from storage att2:spell_bundle Spell_Bundle_Slot[3]
 
 
 ##test special ()

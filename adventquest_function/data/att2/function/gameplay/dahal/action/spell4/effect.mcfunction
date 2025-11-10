@@ -5,7 +5,9 @@
 
 execute as @a[distance=..5] run function att2:sound/dahal/spell4_effect
 particle minecraft:end_rod ~ ~ ~ 0 0 0 0 2 normal
-execute as @s[scores={SPELL4_CAP=..4}] run scoreboard players set @s SHAKE_H 60
-execute as @s[scores={SPELL4_CAP=..4}] run scoreboard players set @s SHAKE_L 60
-execute as @s[scores={SPELL4_CAP=5..9}] run scoreboard players set @s SHAKE_L 40
-execute as @s[scores={SPELL4_CAP=5..9}] run scoreboard players set @s SHAKE_T 40
+particle minecraft:wax_off ~ ~ ~ 0.1 -0.2 0.1 0 10 normal
+
+scoreboard players set @s[scores={SPELL4_CAP=..4}] SHAKE_H 60
+scoreboard players set @s[scores={SPELL4_CAP=..4}] SHAKE_L 60
+scoreboard players set @s[scores={SPELL4_CAP=5..9}] SHAKE_L 40
+scoreboard players set @s[scores={SPELL4_CAP=5..9}] SHAKE_T 40

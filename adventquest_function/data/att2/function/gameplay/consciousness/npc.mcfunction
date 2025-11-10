@@ -73,7 +73,7 @@ execute in minecraft:the_nether positioned 3389 35 3755 if entity @s[distance=..
 #Phoenix
 execute in minecraft:the_nether positioned 3898 48 3907 if entity @s[distance=..200,gamemode=adventure] run scoreboard players set #PosDetection CAL 1
 #color
-execute if score #PosDetection CAL matches 1 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.food,color:gold},tooltip:{translate:consciousness.guide.npc.food.phoenix.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 1125"},width:150}
+execute if score #PosDetection CAL matches 1 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.food,color:gold},tooltip:{translate:consciousness.guide.npc.food.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 1125"},width:150}
 execute if score #PosDetection CAL matches 0 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.food,color:red},tooltip:{translate:consciousness.guide.npc.error,color:red},action:{type:run_command,command:"trigger ScoreTrigger set 2866"},width:150}
 ##horse
 #reset
@@ -87,7 +87,7 @@ execute in minecraft:overworld positioned -5272 98 -6188 if entity @s[distance=.
 #Kortaek
 execute in minecraft:overworld positioned -5520 76 -4986 if entity @s[distance=..200,gamemode=adventure] run scoreboard players set #PosDetection CAL 1
 #color
-execute if score #PosDetection CAL matches 1 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.horse,color:gold},tooltip:{translate:consciousness.guide.npc.horse.kortaek.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 1126"},width:150}
+execute if score #PosDetection CAL matches 1 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.horse,color:gold},tooltip:{translate:consciousness.guide.npc.horse.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 1126"},width:150}
 execute if score #PosDetection CAL matches 0 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.horse,color:red},tooltip:{translate:consciousness.guide.npc.error,color:red},action:{type:run_command,command:"trigger ScoreTrigger set 2867"},width:150}
 ##dressmaker
 #reset

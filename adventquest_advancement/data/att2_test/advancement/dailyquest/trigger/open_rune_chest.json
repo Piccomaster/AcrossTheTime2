@@ -1,0 +1,32 @@
+{
+    "rewards": {
+        "function": "att2:cinematic/dailyquest/trigger/open_rune_chest"
+    },
+    "criteria": {
+        "open_runechest_1": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:entities/invasion_runes_1"
+            }
+        },
+        "open_runechest_2": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:entities/invasion_runes_2"
+            }
+        },
+        "open_runechest_3": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:entities/invasion_runes_3"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "open_runechest_1",
+            "open_runechest_2",
+            "open_runechest_3"
+        ]
+    ]
+}

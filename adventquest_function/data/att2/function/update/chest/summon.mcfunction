@@ -4705,3 +4705,7 @@ execute in minecraft:overworld positioned -4502 97 -6211 run summon marker ~ ~ ~
 
 ##
 execute in overworld positioned -5203 67 -5344 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4699],Tags:["ChestMarker"]}
+execute in overworld positioned -5382 144 -5988 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4700],Tags:["ChestMarker"]}
+
+execute in the_nether positioned 3469 35 3718 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4701],Tags:["ChestMarker"]}
+execute in the_nether positioned 3469 35 3719 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4702],Tags:["ChestMarker"]}

@@ -3,6 +3,7 @@
 #Initialize all runes recipes for all player					#
 #################################################################
 
+scoreboard objectives add MiningQuality dummy
 scoreboard objectives add RUNE dummy
 scoreboard objectives add RUNE_CAL dummy
 scoreboard objectives add RUNE_POWDER dummy
@@ -68,3 +69,4 @@ scoreboard players set 18_ust_xul_lya_zen_da RUNE 0
 scoreboard players set 19_mot_syl_kan_xul_zen RUNE 0
 
 function att2:gameplay/runes/rune_bundle/initialize
+function att2:gameplay/runes/mining/summon
