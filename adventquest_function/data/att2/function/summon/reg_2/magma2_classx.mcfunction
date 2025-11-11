@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Summon blaze class_x region_4  		       	 #
+#Summon big magma cube class_x region_2  	 	 #
 ##################################################
 
-$summon minecraft:blaze ~ ~ ~ {Tags:["LVL0","$(class)","Reg4"],attributes:[{id:scale,base:1.0}]}
+$summon minecraft:magma_cube ~ ~ ~ {Tags:["LVL0","$(class)","Reg2"],Size:3}
