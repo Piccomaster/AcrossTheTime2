@@ -26,3 +26,9 @@ particle minecraft:totem_of_undying ~ ~10 ~ 4 4 4 0.01 20 force
 particle minecraft:totem_of_undying ~ ~5 ~ 4 4 4 0.01 20 force
 
 playsound minecraft:entity.ender_dragon.growl master @a ~ ~ ~ 5 1
+
+##add slowness
+effect give @e[distance=..10,tag=LVL0] slowness infinite 0 true
+
+##tellraw
+tellraw @a[distance=..128] {translate:att2.mobs_invasion.tip}
