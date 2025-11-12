@@ -12,3 +12,6 @@ scoreboard players set 10 INVASION 10
 
 team add show_invasion
 team modify show_invasion color black
+
+##summon marker
+function att2:gameplay/enveffect/mobs_invasion/summon_marker
