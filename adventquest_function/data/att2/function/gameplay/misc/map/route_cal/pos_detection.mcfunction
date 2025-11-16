@@ -3,8 +3,6 @@
 #Process miscelaneous actions 									#
 #################################################################
 
-#test
-#say 位置检测
 ##get uuid number
 function att2:gameplay/misc/map/number/uuid
 #test end

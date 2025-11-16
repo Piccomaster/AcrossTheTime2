@@ -6,7 +6,7 @@
 #modify road marker rotation
 $rotate @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=1},limit=1,sort=nearest,distance=..5] facing entity @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=2},limit=1,sort=nearest]
 #reset
-$scoreboard players reset @e[type=#minecraft:rideable,scores={OWNER=$(numerojoueur)}] OWNER
+$scoreboard players reset @e[type=#minecraft:rideable,tag=RIDE,scores={OWNER=$(numerojoueur)}] OWNER
 #add marker
 $scoreboard players set @s OWNER $(numerojoueur)
 #effect->no move

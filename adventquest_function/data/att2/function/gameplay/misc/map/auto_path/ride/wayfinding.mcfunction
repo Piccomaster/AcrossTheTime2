@@ -18,4 +18,4 @@ function att2:gameplay/misc/map/auto_path/ride/next_routepoint with storage att2
 #detection near end
 function att2:gameplay/misc/map/auto_path/ride/end_routepoint with storage att2:route
 #eyes rotation 1->2
-execute on vehicle on vehicle at @s run function att2:gameplay/misc/map/auto_path/ride/walking with storage att2:route
+execute on vehicle as @s[type=minecart,tag=ROUTE_RIDE] on vehicle as @s[type=#minecraft:rideable,tag=RIDE] at @s run function att2:gameplay/misc/map/auto_path/ride/walking with storage att2:route
