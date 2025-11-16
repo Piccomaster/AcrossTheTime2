@@ -116,6 +116,8 @@ scoreboard objectives add statKELP minecraft.used:minecraft.dried_kelp
 
 scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_time
 
+scoreboard objectives add bowKILL dummy
+
 scoreboard objectives add HOUSE dummy
 scoreboard objectives add LOOTCHEST dummy
 scoreboard objectives add ELITE dummy
