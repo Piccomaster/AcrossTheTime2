@@ -1,0 +1,1 @@
+function att2:cinematic/dailyquest/kortaek/8/refuse

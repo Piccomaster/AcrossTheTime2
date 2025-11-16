@@ -1,0 +1,1 @@
+function att2:cinematic/dailyquest/trigger/submit_item/clear_slot/24

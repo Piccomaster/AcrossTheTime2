@@ -1,0 +1,1 @@
+function att2:gameplay/quest/dailyquest/zirthion/dq1/display_progress

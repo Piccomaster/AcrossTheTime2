@@ -1,0 +1,1 @@
+function att2:gameplay/quest/dailyquest/eolorion/dq7/display_progress

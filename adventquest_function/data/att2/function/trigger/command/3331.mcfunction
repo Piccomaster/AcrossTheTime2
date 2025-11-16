@@ -1,0 +1,1 @@
+function att2:gameplay/quest/dailyquest/phoenix/dq2/display_progress

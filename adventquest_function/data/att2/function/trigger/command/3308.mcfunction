@@ -1,0 +1,1 @@
+function att2:gameplay/quest/dailyquest/meleim/dq9/display_progress

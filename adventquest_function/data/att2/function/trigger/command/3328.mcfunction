@@ -1,0 +1,1 @@
+function att2:gameplay/quest/dailyquest/kortaek/dq9/display_progress
