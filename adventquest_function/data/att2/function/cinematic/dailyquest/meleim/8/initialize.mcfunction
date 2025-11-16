@@ -9,12 +9,12 @@
 ##timer limit 10 minutes
 scoreboard players set meleim_dailyquest_8_timer DAILYQUEST 12000
 
-scoreboard players set meleim_dailyquest_8_rewards_chronoton DAILYQUEST 100
-scoreboard players set meleim_dailyquest_8_rewards_xp DAILYQUEST 500
+scoreboard players set meleim_dailyquest_8_rewards_chronoton DAILYQUEST 0
+scoreboard players set meleim_dailyquest_8_rewards_xp DAILYQUEST 4000
 scoreboard players set meleim_dailyquest_8_rewards_reputation DAILYQUEST 3
-scoreboard players set meleim_dailyquest_8_rewards_city_donation DAILYQUEST 10
+scoreboard players set meleim_dailyquest_8_rewards_city_donation DAILYQUEST 20
 
-scoreboard players set meleim_dailyquest_8_fail_chronoton DAILYQUEST 50
+scoreboard players set meleim_dailyquest_8_fail_chronoton DAILYQUEST 100
 scoreboard players set meleim_dailyquest_8_fail_reputation DAILYQUEST 3
 
 ##Others: Black Market experience + 200

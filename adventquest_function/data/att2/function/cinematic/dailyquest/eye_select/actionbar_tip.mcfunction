@@ -4,4 +4,4 @@
 ##################################################
 
 ##actionbar tip
-$title @s actionbar {translate:att2.dailyquest.$(location).$(questid).name}
+$title @s[scores={DAILYQUEST_EYE_SELECT=1..}] actionbar {translate:att2.dailyquest.$(location).$(questid).name,color:"blue"}

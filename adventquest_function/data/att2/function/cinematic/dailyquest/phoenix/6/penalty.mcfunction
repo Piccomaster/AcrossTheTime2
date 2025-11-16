@@ -11,7 +11,7 @@ function att2:cinematic/dailyquest/phoenix/6/reset
 execute as @n[distance=..10,type=interaction,tag=Accepted,nbt={data:{questid:6}}] at @s run function att2:cinematic/dailyquest/update_quest_board/accepted_reset
 
 ##dialog tip
-tellraw @a[distance=..128] [{translate:att2.dailyquest.ryliath.name},{translate:att2.dailyquest.phoenix.6.name}]
+tellraw @a[distance=..128] [{translate:att2.dailyquest.ryliath.name},{translate:att2.dailyquest.phoenix.6.name,color:"blue"}]
 tellraw @a[distance=..128] [{translate:att2.dailyquest.fail}]
 tellraw @a[distance=..128] [{translate:att2.dailyquest.rewards.remove.chronotons,with:[{score:{name:phoenix_dailyquest_6_fail_chronoton,objective:DAILYQUEST},color:"red"}]}]
 tellraw @a[distance=..128] [{translate:att2.dailyquest.rewards.remove.reputation,with:[{score:{name:phoenix_dailyquest_6_fail_reputation,objective:DAILYQUEST},color:"red"}]}]

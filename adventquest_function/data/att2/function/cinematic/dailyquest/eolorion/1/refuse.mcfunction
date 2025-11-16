@@ -3,7 +3,7 @@
 #Eolorion dailyquest : 1
 #refuse
 #Task requirements: #Time limit : 10 minutes
-#Donate 3000 Chronotons to the bank.
+#Donate 4000 Chronotons to the bank.
 #############################################################
 
 ##reset text display

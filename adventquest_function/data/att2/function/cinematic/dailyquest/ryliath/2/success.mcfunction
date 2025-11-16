@@ -33,7 +33,7 @@ scoreboard players operation rewards_city_donation DAILYQUEST = ryliath_dailyque
 scoreboard players operation ryliath_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
 ##tip
-tellraw @a [{translate:att2.dailyquest.ryliath.completed},{translate:att2.dailyquest.ryliath.1.name}]
+tellraw @a [{translate:att2.dailyquest.ryliath.completed},{translate:att2.dailyquest.ryliath.2.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:rewards_chronotons,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]
@@ -45,3 +45,11 @@ function att2:cinematic/dailyquest/ryliath/2/reset
 ##add quest completed count
 scoreboard players add ryliath_dailyquest_completed_count DAILYQUEST 1
 scoreboard players set ryliath_dailyquest_2_completed DAILYQUEST 1
+
+##clear materials
+clear @s glowstone_dust[custom_name={translate:'item.rune.name.1'}] 3
+clear @s glowstone_dust[custom_name={translate:'item.rune.name.3'}] 2
+clear @s glowstone_dust[custom_name={translate:'item.rune.name.5'}] 1
+
+##Other: A randomly Rune Enchantment equipment
+loot give @a loot att2:dailyquest/random_equipment/wulk_rar_rune_enchantment

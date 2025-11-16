@@ -32,15 +32,21 @@ scoreboard players operation rewards_city_donation DAILYQUEST = ryliath_dailyque
 scoreboard players operation ryliath_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
 ##tip
-tellraw @a [{translate:att2.dailyquest.ryliath.completed},{translate:att2.dailyquest.ryliath.1.name}]
+tellraw @a [{translate:att2.dailyquest.ryliath.completed},{translate:att2.dailyquest.ryliath.8.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:rewards_chronotons,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.reputation,with:[{score:{name:rewards_reputation,objective:DAILYQUEST},color:"dark_green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.ryliath.city_donation,with:[{score:{name:rewards_city_donation,objective:DAILYQUEST},color:"blue"}]}]
+##rewards other
+tellraw @a {translate:att2.dailyquest.ryliath.8.reward.other,color:"blue"}
 
 ##reset
 function att2:cinematic/dailyquest/ryliath/8/reset
 ##add quest completed count
 scoreboard players add ryliath_dailyquest_completed_count DAILYQUEST 1
 scoreboard players set ryliath_dailyquest_8_completed DAILYQUEST 1
+
+##rewards other
+scoreboard players add points RECYCLER 100
+function att2:items/chronoton/esc_give_maco {count:10}

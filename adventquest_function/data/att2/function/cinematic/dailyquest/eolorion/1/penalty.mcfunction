@@ -3,7 +3,7 @@
 #Eolorion dailyquest : 1
 #Penalty command
 #Task requirements: #Time limit : 10 minutes
-#Donate 3000 Chronotons to the bank.
+#Donate 4000 Chronotons to the bank.
 #############################################################
 
 ##reset
@@ -12,7 +12,7 @@ function att2:cinematic/dailyquest/eolorion/1/reset
 execute as @n[distance=..10,type=interaction,tag=Accepted,nbt={data:{questid:1}}] at @s run function att2:cinematic/dailyquest/update_quest_board/accepted_reset
 
 ##dialog tip
-tellraw @a[distance=..128] [{translate:att2.dailyquest.ryliath.name},{translate:att2.dailyquest.eolorion.1.name}]
+tellraw @a[distance=..128] [{translate:att2.dailyquest.ryliath.name},{translate:att2.dailyquest.eolorion.1.name,color:"blue"}]
 tellraw @a[distance=..128] [{translate:att2.dailyquest.fail}]
 tellraw @a[distance=..128] [{translate:att2.dailyquest.rewards.remove.chronotons,with:[{score:{name:eolorion_dailyquest_1_fail_chronoton,objective:DAILYQUEST},color:"red"}]}]
 tellraw @a[distance=..128] [{translate:att2.dailyquest.rewards.remove.reputation,with:[{score:{name:eolorion_dailyquest_1_fail_reputation,objective:DAILYQUEST},color:"red"}]}]
