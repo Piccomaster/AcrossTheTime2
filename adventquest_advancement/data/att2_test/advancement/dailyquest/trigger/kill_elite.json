@@ -1,0 +1,16 @@
+{
+    "rewards": {
+        "function": "att2:cinematic/dailyquest/trigger/kill_mimic"
+    },
+    "criteria": {
+        "kill_mimic": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "team": "hostile",
+                    "nbt": "{Tags:[\"Mobs_Invasion\",\"MIMIC\"]}"
+                }
+            }
+        }
+    }
+}
