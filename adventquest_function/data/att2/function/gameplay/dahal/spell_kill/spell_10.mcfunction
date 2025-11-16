@@ -28,3 +28,6 @@ execute if score @s[scores={SPELL10_CAP=..9}] SPELL10_LVL >= cap10 SPELL10_LVL r
 #test if up
 execute if score TEST CAL > @s SPELL10_CAP run scoreboard players operation @s SPELL10_CAP = TEST CAL
 execute if score TEST CAL > @s SPELL10_CAP run function att2:gameplay/dahal/action/spell10/lvlup
+
+##dailyquest trigger
+function att2:cinematic/dailyquest/trigger/spell_kill/spell_10
