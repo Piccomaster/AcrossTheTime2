@@ -3,6 +3,8 @@
 #Daily Quest trigger : open_rune_chest                   #
 #############################################################
 
+##test max
+execute if score ryliath_dailyquest_1_open_rune_chest DAILYQUEST >= ryliath_dailyquest_1_open_rune_chest_requirement DAILYQUEST run return 0
 ##test over
 execute unless score ryliath_dailyquest_1 DAILYQUEST matches 1..99 run return 0
 ##test location

@@ -10,11 +10,14 @@
 scoreboard players set ryliath_dailyquest_9_timer DAILYQUEST 36000
 
 scoreboard players set ryliath_dailyquest_9_rewards_chronoton DAILYQUEST 100
-scoreboard players set ryliath_dailyquest_9_rewards_xp DAILYQUEST 500
+scoreboard players set ryliath_dailyquest_9_rewards_xp DAILYQUEST 2000
 scoreboard players set ryliath_dailyquest_9_rewards_reputation DAILYQUEST 3
-scoreboard players set ryliath_dailyquest_9_rewards_city_donation DAILYQUEST 10
+scoreboard players set ryliath_dailyquest_9_rewards_city_donation DAILYQUEST 20
 
 scoreboard players set ryliath_dailyquest_9_fail_chronoton DAILYQUEST 50
 scoreboard players set ryliath_dailyquest_9_fail_reputation DAILYQUEST 3
 
 ##other: Any acquired spell experience + 100.
+scoreboard players set ryliath_dailyquest_9_spell_kill DAILYQUEST 0
+
+scoreboard players set ryliath_dailyquest_9_spell_kill_requirement DAILYQUEST 10

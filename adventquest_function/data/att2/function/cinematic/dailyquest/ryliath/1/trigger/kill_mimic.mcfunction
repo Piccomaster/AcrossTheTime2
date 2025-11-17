@@ -3,6 +3,8 @@
 #Daily Quest trigger : kill_mimic                           #
 #############################################################
 
+##test max
+execute if score ryliath_dailyquest_1_kill_mimic DAILYQUEST >= ryliath_dailyquest_1_kill_mimic_requirement DAILYQUEST run return 0
 ##test over
 execute unless score ryliath_dailyquest_1 DAILYQUEST matches 1..99 run return 0
 ##test location

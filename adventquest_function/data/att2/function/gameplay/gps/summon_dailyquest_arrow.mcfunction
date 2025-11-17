@@ -1,0 +1,30 @@
+#############################################################
+#Made by Adventquest										#
+#Process help for finding objectives (locate them)         	#
+#############################################################
+
+kill @e[type=minecraft:shulker,tag=MainObjective]
+summon minecraft:shulker ~ ~-1 ~ {Tags:["MainObjective","DailyQuest","newGPS"],NoAI:1b,Silent:1b,PersistenceRequired:1,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:50.0}],Health:50,active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false},{id:wither,amplifier:10,duration:-1,show_particles:false},{id:glowing,amplifier:0,duration:480,show_particles:false}],DeathLootTable:"att2:empty"}
+
+team join objective_main @e[type=minecraft:shulker,tag=MainObjective]
+
+scoreboard players operation Operation GPS_DIM = Objective GPS_DIM
+scoreboard players operation Operation GPS_DIM -= @s DIMENSION
+
+execute unless score Operation GPS_DIM matches 0 at @s run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001008]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+
+execute if score Operation GPS_DIM matches 0 if entity @s[distance=..2] at @s anchored feet at @s positioned ^ ^ ^0.75 run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001000]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+execute if score Operation GPS_DIM matches 0 if entity @s[distance=3..8] at @s anchored feet at @s positioned ^ ^ ^0.75 run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001001]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+execute if score Operation GPS_DIM matches 0 if entity @s[distance=9..32] at @s anchored feet at @s positioned ^ ^ ^0.75 run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001002]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+execute if score Operation GPS_DIM matches 0 if entity @s[distance=33..96] at @s anchored feet at @s positioned ^ ^ ^0.75 run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001003]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+execute if score Operation GPS_DIM matches 0 if entity @s[distance=97..256] at @s anchored feet at @s positioned ^ ^ ^0.75 run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001004]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+execute if score Operation GPS_DIM matches 0 if entity @s[distance=257..512] at @s anchored feet at @s positioned ^ ^ ^0.75 run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001005]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+execute if score Operation GPS_DIM matches 0 if entity @s[distance=513..1024] at @s anchored feet at @s positioned ^ ^ ^0.75 run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001006]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+execute if score Operation GPS_DIM matches 0 if entity @s[distance=1025..] at @s anchored feet at @s positioned ^ ^ ^0.75 run summon minecraft:zombified_piglin ~ ~-0.5 ~ {Tags:["newGPS","DailyQuest"],NoAI:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"att2:empty",equipment:{head:{id:"minecraft:shears",components:{custom_model_data:{floats:[10001007]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+
+##set score
+scoreboard players operation @e[distance=..10,type=shulker,tag=newGPS] OWNER = @s NUMEROJOUEUR
+scoreboard players operation @e[distance=..10,type=zombified_piglin,tag=newGPS] OWNER = @s NUMEROJOUEUR
+
+##remove tag
+tag @e[distance=..10,type=shulker,tag=newGPS] remove newGPS

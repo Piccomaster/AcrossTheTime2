@@ -31,7 +31,7 @@ scoreboard players operation rewards_city_donation DAILYQUEST = kortaek_dailyque
 scoreboard players operation kortaek_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
 ##tip
-tellraw @a [{translate:att2.dailyquest.kortaek.completed},{translate:att2.dailyquest.kortaek.1.name}]
+tellraw @a [{translate:att2.dailyquest.kortaek.completed},{translate:att2.dailyquest.kortaek.1.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:rewards_chronotons,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]

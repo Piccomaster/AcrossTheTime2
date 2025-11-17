@@ -1,6 +1,9 @@
 #############################################################
-#Made by Adventquest                               			#
-#show request dialog                                        #
+#Made by Adventquest                               			
+#Ryliath dailyquest : 1
+#dialog command
+#Task requirements: #Time limit: 60 minutes
+#Clear one invading monster horde in the Worlest Forest.
 #############################################################
 
 ##append rewards score
@@ -10,7 +13,7 @@ data modify storage att2:dailyquest data.dialog set value []
 
 ##append  base data 
 data modify storage att2:dailyquest data.dialog append value {text:"\n"}
-data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.ryliath.1.name}
+data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.ryliath.1.name,color:"blue"}
 data modify storage att2:dailyquest data.dialog append value {text:"\n\n"}
 data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.ryliath.1.summary_text,color:"#74D4FF"}
 data modify storage att2:dailyquest data.dialog append value {text:"\n\n"}
@@ -50,8 +53,8 @@ execute store result storage att2:dailyquest data.dialog[-1].with[0] int 1 run s
 data modify storage att2:dailyquest data.dialog append value {text:"\n"}
 
 ##trigger id
-execute unless score #Accepted_Test DAILYQUEST matches 1 run data modify storage att2:dailyquest data.triggerid set value 3088
-execute if score #Accepted_Test DAILYQUEST matches 1 run data modify storage att2:dailyquest data.triggerid set value 3089
+execute unless score #Accepted_Test DAILYQUEST matches 1 run data modify storage att2:dailyquest data.triggerid set value 3091
+execute if score #Accepted_Test DAILYQUEST matches 1 run data modify storage att2:dailyquest data.triggerid set value 3092
 
 
 ##if accepted -> detection submit

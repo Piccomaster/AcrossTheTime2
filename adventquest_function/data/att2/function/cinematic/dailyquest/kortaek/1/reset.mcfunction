@@ -10,4 +10,4 @@
 scoreboard players reset kortaek_dailyquest_1_timer DAILYQUEST
 scoreboard players reset kortaek_dailyquest_1 DAILYQUEST
 
-##other: no
+##Other: Any legendary equipment.

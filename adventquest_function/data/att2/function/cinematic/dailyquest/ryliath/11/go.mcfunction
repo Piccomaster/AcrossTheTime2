@@ -7,6 +7,8 @@
 #Race route: Ryliath -> Meleim.
 #############################################################
 
+##waypoint limit
+
 ##timer limit
 execute if score ryliath_dailyquest_11_timer DAILYQUEST matches 1.. run return run scoreboard players remove ryliath_dailyquest_11_timer DAILYQUEST 1
 ##fail detection

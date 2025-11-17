@@ -31,3 +31,6 @@ $kill @e[type=shulker,tag=ROUTE_START,tag=!New,scores={OWNER=$(numerojoueur)}]
 function att2:dialogs/gameplay/misc/map/route_start
 #reset
 scoreboard players reset TEST CAL
+
+##re ride frozen goods
+execute if score ryliath_dailyquest_12 DAILYQUEST matches 2..99 if entity @e[distance=..10,type=pig,tag=FrozenGoods] run function att2:cinematic/dailyquest/ryliath/12/trigger/player_ride

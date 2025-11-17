@@ -10,12 +10,13 @@
 ##timer limit 10 minutes
 scoreboard players set ryliath_dailyquest_12_timer DAILYQUEST 12000
 
-scoreboard players set ryliath_dailyquest_12_rewards_chronoton DAILYQUEST 100
-scoreboard players set ryliath_dailyquest_12_rewards_xp DAILYQUEST 500
+scoreboard players set ryliath_dailyquest_12_rewards_chronoton DAILYQUEST 500
+scoreboard players set ryliath_dailyquest_12_rewards_xp DAILYQUEST 3000
 scoreboard players set ryliath_dailyquest_12_rewards_reputation DAILYQUEST 3
 scoreboard players set ryliath_dailyquest_12_rewards_city_donation DAILYQUEST 10
 
-scoreboard players set ryliath_dailyquest_12_fail_chronoton DAILYQUEST 50
+scoreboard players set ryliath_dailyquest_12_fail_chronoton DAILYQUEST 100
 scoreboard players set ryliath_dailyquest_12_fail_reputation DAILYQUEST 3
-
 ##other: no
+scoreboard players set ryliath_dailyquest_12_frozen_goods_health DAILYQUEST 9000
+scoreboard players set ryliath_dailyquest_12_frozen_goods_health_max DAILYQUEST 9000

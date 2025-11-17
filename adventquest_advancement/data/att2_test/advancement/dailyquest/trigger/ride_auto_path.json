@@ -1,0 +1,18 @@
+{
+  "rewards": {
+    "function": "att2:cinematic/dailyquest/ryliath/12/trigger/player_ride"
+  },
+  "criteria": {
+    "ride_minecart": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "vehicle": {
+            "type": "minecraft:minecart"
+          }
+        }
+      }
+    }
+  }
+}

@@ -28,3 +28,6 @@ execute if score @s[scores={SPELL8_CAP=..9}] SPELL8_LVL >= cap10 SPELL8_LVL run 
 #test if up
 execute if score TEST CAL > @s SPELL8_CAP run scoreboard players operation @s SPELL8_CAP = TEST CAL
 execute if score TEST CAL > @s SPELL8_CAP run function att2:gameplay/dahal/action/spell8/lvlup
+
+##dailyquest trigger
+function att2:cinematic/dailyquest/trigger/spell_kill/spell_8

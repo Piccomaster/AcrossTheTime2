@@ -13,7 +13,7 @@ scoreboard players set zirthion_dailyquest_9 DAILYQUEST 1
 ##initialize quest data
 function att2:cinematic/dailyquest/zirthion/9/initialize
 ##tip
-tellraw @a [{translate:att2.dailyquest.zirthion.accepted},{translate:att2.dailyquest.zirthion.9.name}]
+tellraw @a [{translate:att2.dailyquest.zirthion.accepted},{translate:att2.dailyquest.zirthion.9.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.requirements},{text:"\n"},{translate:att2.dailyquest.zirthion.9.requirements,color:"#53EAFD"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:zirthion_dailyquest_9_rewards_chronoton,objective:DAILYQUEST},color:"yellow"}]}]
@@ -31,3 +31,6 @@ data modify storage att2:dailyquest startid set value 9
 function att2:cinematic/dailyquest/update_quest_board/accepted_select
 ##remove request board
 execute as @n[distance=..10,type=interaction,tag=Request,nbt={data:{questid:9}}] at @s run function att2:cinematic/dailyquest/update_quest_board/request_reset
+
+##ryliath start
+scoreboard players set zirthion_start DAILYQUEST 1

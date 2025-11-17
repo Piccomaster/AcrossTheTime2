@@ -11,4 +11,4 @@
 scoreboard players reset meleim_dailyquest_5_timer DAILYQUEST
 scoreboard players reset meleim_dailyquest_5 DAILYQUEST
 
-##other: no
+##Other: Rune Pouch

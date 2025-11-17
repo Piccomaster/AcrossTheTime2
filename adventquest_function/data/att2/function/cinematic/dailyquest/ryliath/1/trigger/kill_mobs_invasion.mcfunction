@@ -3,6 +3,8 @@
 #Daily Quest trigger : kill_mobs_invasion                   #
 #############################################################
 
+##test max
+execute if score ryliath_dailyquest_1_kill_mobs_invasion DAILYQUEST >= ryliath_dailyquest_1_kill_mobs_invasion_requirement DAILYQUEST run return 0
 ##test over
 execute unless score ryliath_dailyquest_1 DAILYQUEST matches 1..99 run return 0
 ##test location

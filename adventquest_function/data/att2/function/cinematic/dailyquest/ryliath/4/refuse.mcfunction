@@ -3,7 +3,7 @@
 #Ryliath dailyquest : 4
 #refuse
 #Task requirements: #Time limit : 60 minutes
-#Find five new hidden Shulker Boxes at any location.
+#Find three new hidden Shulker Boxes at any location.
 #(Mainly distributed along the main storyline and certain essential side quests.)
 #############################################################
 

@@ -18,7 +18,7 @@ execute in overworld run tp 00000001-0000-006f-0000-00010000006f 0.0 0.0 0.0
 
 ##add move advancements score
 #cal add score
-execute on passengers on passengers run scoreboard players operation @s[type=player] statHORSE += SPEED CAL
+execute on passengers as @s[type=minecart,tag=ROUTE_RIDE] on passengers run scoreboard players operation @s[type=player] statHORSE += SPEED CAL
 
 #reset
 scoreboard players reset SPEED CAL

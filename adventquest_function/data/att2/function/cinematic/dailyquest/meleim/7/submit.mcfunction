@@ -3,7 +3,7 @@
 #Meleim dailyquest : 7
 #submit
 #Task requirements: #Time limit : 10 minutes
-#Donate 2000 Chronotons for the development of new nautical equipment.
+#Donate 3000 Chronotons for the development of new nautical equipment.
 #############################################################
 
 ##ui
