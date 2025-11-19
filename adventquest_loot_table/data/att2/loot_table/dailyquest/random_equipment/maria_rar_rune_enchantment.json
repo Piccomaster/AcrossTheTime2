@@ -1,0 +1,76 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/bow_41",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/bow"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/bow_42",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/bow"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/bow_43",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/bow"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/bow_44",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/bow"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/crossbow_249",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/crossbow"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/crossbow_250",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/crossbow"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

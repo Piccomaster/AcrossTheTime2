@@ -17,15 +17,6 @@
                             "chance": 0.0005
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/runes/18_qi"
                 },
@@ -34,15 +25,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0004
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -55,15 +37,6 @@
                             "chance": 0.0003
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/runes/20_puh"
                 },
@@ -72,15 +45,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0002
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -93,15 +57,6 @@
                             "chance": 0.0001
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/runes/22_yog"
                 },
@@ -110,15 +65,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.000085
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -131,15 +77,6 @@
                             "chance": 0.000065
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/runes/24_xul"
                 },
@@ -150,15 +87,6 @@
                             "chance": 0.000045
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/runes/25_zen"
                 },
@@ -167,15 +95,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.000025
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",

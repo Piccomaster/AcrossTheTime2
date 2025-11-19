@@ -16,15 +16,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/bow_33"
                 },
@@ -33,15 +24,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -54,15 +36,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/bow_35"
                 },
@@ -71,15 +44,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -92,15 +56,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/bow_37"
                 },
@@ -109,15 +64,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -130,15 +76,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/bow_39"
                 },
@@ -147,15 +84,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -168,15 +96,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/bow_41"
                 },
@@ -185,15 +104,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -206,15 +116,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/bow_43"
                 },
@@ -223,15 +124,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -244,15 +136,6 @@
                             "chance": 0.00052102
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/bow_45"
                 },
@@ -261,15 +144,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -282,15 +156,6 @@
                             "chance": 0.00052102
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/bow_47"
                 },
@@ -299,15 +164,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00017324
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -320,15 +176,6 @@
                             "chance": 0.00017324
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/bow_49"
                 },
@@ -337,15 +184,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -358,15 +196,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/shield_51"
                 },
@@ -375,15 +204,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -396,15 +216,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/shield_53"
                 },
@@ -413,15 +224,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -434,15 +236,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/shield_55"
                 },
@@ -451,15 +244,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -472,15 +256,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/shield_57"
                 },
@@ -489,15 +264,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -510,15 +276,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/shield_59"
                 },
@@ -527,15 +284,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -548,15 +296,6 @@
                             "chance": 0.00052102
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/shield_61"
                 },
@@ -565,15 +304,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -586,15 +316,6 @@
                             "chance": 0.00017324
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/shield_63"
                 },
@@ -603,15 +324,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -624,15 +336,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/crossbow_244"
                 },
@@ -641,15 +344,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -662,15 +356,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/crossbow_246"
                 },
@@ -679,15 +364,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -700,15 +376,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/crossbow_248"
                 },
@@ -717,15 +384,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -738,15 +396,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/crossbow_250"
                 },
@@ -755,15 +404,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -776,15 +416,6 @@
                             "chance": 0.00052102
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/crossbow_252"
                 },
@@ -793,15 +424,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00017324
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -814,15 +436,6 @@
                             "chance": 0.00007156
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/ult/bow_338"
                 },
@@ -833,15 +446,6 @@
                             "chance": 0.00007156
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/ult/crossbow_339"
                 },
@@ -850,15 +454,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00007156
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",

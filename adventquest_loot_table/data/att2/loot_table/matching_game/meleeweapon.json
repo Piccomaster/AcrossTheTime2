@@ -16,15 +16,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/wooden_axe_1"
                 },
@@ -35,15 +26,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/iron_axe_65"
                 },
@@ -52,15 +34,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -73,15 +46,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/wooden_pickaxe_4"
                 },
@@ -90,15 +54,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -111,15 +66,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/wooden_shovel_6"
                 },
@@ -128,15 +74,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -149,15 +86,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/wooden_sword_8"
                 },
@@ -166,15 +94,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -187,15 +106,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/wooden_axe_10"
                 },
@@ -204,15 +114,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -225,15 +126,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/wooden_pickaxe_12"
                 },
@@ -242,15 +134,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -263,15 +146,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/wooden_shovel_14"
                 },
@@ -280,15 +154,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -301,15 +166,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/wooden_sword_16"
                 },
@@ -318,15 +174,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -339,15 +186,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/wooden_axe_18"
                 },
@@ -356,15 +194,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -377,15 +206,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/wooden_pickaxe_20"
                 },
@@ -394,15 +214,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -415,15 +226,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/wooden_shovel_22"
                 },
@@ -432,15 +234,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -453,15 +246,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/wooden_sword_24"
                 },
@@ -470,15 +254,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -491,15 +266,6 @@
                             "chance": 0.00052102
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/wooden_pickaxe_26"
                 },
@@ -508,15 +274,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -529,15 +286,6 @@
                             "chance": 0.00052102
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/wooden_sword_28"
                 },
@@ -546,15 +294,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00017324
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -567,15 +306,6 @@
                             "chance": 0.00017324
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/wooden_pickaxe_30"
                 },
@@ -584,15 +314,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00017324
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -605,15 +326,6 @@
                             "chance": 0.00017324
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/wooden_sword_32"
                 },
@@ -622,15 +334,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -643,15 +346,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/iron_axe_65"
                 },
@@ -660,15 +354,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -681,15 +366,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/iron_pickaxe_67"
                 },
@@ -698,15 +374,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -719,15 +386,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/iron_shovel_69"
                 },
@@ -736,15 +394,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -757,15 +406,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/iron_sword_71"
                 },
@@ -774,15 +414,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -795,15 +426,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/iron_axe_73"
                 },
@@ -812,15 +434,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -833,15 +446,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/iron_pickaxe_75"
                 },
@@ -850,15 +454,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -871,15 +466,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/iron_shovel_77"
                 },
@@ -888,15 +474,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -909,15 +486,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/iron_sword_79"
                 },
@@ -926,15 +494,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -947,15 +506,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/iron_axe_81"
                 },
@@ -964,15 +514,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -985,15 +526,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/iron_pickaxe_83"
                 },
@@ -1002,15 +534,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1023,15 +546,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/iron_shovel_85"
                 },
@@ -1040,15 +554,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1061,15 +566,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/iron_sword_87"
                 },
@@ -1078,15 +574,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1099,15 +586,6 @@
                             "chance": 0.00052102
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/iron_pickaxe_89"
                 },
@@ -1116,15 +594,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1137,15 +606,6 @@
                             "chance": 0.00052102
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/iron_sword_91"
                 },
@@ -1154,15 +614,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00017324
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1175,15 +626,6 @@
                             "chance": 0.00017324
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/iron_pickaxe_93"
                 },
@@ -1192,15 +634,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00017324
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1213,15 +646,6 @@
                             "chance": 0.00017324
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/iron_sword_95"
                 },
@@ -1230,15 +654,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1251,15 +666,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/diamond_axe_97"
                 },
@@ -1268,15 +674,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1289,15 +686,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/diamond_pickaxe_99"
                 },
@@ -1306,15 +694,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1327,15 +706,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/diamond_shovel_101"
                 },
@@ -1344,15 +714,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1365,15 +726,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/diamond_sword_103"
                 },
@@ -1382,15 +734,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1403,15 +746,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/diamond_axe_105"
                 },
@@ -1420,15 +754,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1441,15 +766,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/diamond_pickaxe_107"
                 },
@@ -1458,15 +774,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1479,15 +786,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/diamond_shovel_109"
                 },
@@ -1496,15 +794,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1517,15 +806,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/diamond_sword_111"
                 },
@@ -1534,15 +814,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1555,15 +826,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/diamond_axe_113"
                 },
@@ -1572,15 +834,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1593,15 +846,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/diamond_pickaxe_115"
                 },
@@ -1610,15 +854,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1631,15 +866,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/diamond_shovel_117"
                 },
@@ -1648,15 +874,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1669,15 +886,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/diamond_sword_119"
                 },
@@ -1686,15 +894,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00034735
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1707,15 +906,6 @@
                             "chance": 0.00034735
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/diamond_pickaxe_121"
                 },
@@ -1724,15 +914,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00034735
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1745,15 +926,6 @@
                             "chance": 0.00034735
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/diamond_sword_123"
                 },
@@ -1762,15 +934,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00011549
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1783,15 +946,6 @@
                             "chance": 0.00011549
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/diamond_pickaxe_125"
                 },
@@ -1800,15 +954,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00011549
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1821,15 +966,6 @@
                             "chance": 0.00011549
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/diamond_sword_127"
                 },
@@ -1838,15 +974,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1859,15 +986,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/wooden_hoe_255"
                 },
@@ -1876,15 +994,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1897,15 +1006,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/wooden_hoe_257"
                 },
@@ -1914,15 +1014,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1935,15 +1026,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/wooden_hoe_259"
                 },
@@ -1952,15 +1034,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1973,15 +1046,6 @@
                             "chance": 0.00017324
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/wooden_hoe_261"
                 },
@@ -1990,15 +1054,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03109908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2011,15 +1066,6 @@
                             "chance": 0.03109908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/iron_hoe_263"
                 },
@@ -2028,15 +1074,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03366908
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2049,15 +1086,6 @@
                             "chance": 0.03366908
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/iron_hoe_265"
                 },
@@ -2066,15 +1094,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00462263
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2087,15 +1106,6 @@
                             "chance": 0.00462263
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/iron_hoe_267"
                 },
@@ -2104,15 +1114,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00052102
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2125,15 +1126,6 @@
                             "chance": 0.00017324
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/iron_hoe_269"
                 },
@@ -2142,15 +1134,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2163,15 +1146,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/diamond_hoe_271"
                 },
@@ -2180,15 +1154,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2201,15 +1166,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/diamond_hoe_274"
                 },
@@ -2218,15 +1174,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2239,15 +1186,6 @@
                             "chance": 0.00034735
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/diamond_hoe_276"
                 },
@@ -2256,15 +1194,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00011549
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2277,15 +1206,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/netherite_axe_278"
                 },
@@ -2294,15 +1214,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2315,15 +1226,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/netherite_pickaxe_280"
                 },
@@ -2332,15 +1234,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2353,15 +1246,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/netherite_shovel_282"
                 },
@@ -2370,15 +1254,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2391,15 +1266,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/netherite_sword_284"
                 },
@@ -2408,15 +1274,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2429,15 +1286,6 @@
                             "chance": 0.02073272
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/com/netherite_hoe_286"
                 },
@@ -2446,15 +1294,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02073272
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2467,15 +1306,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/netherite_axe_288"
                 },
@@ -2484,15 +1314,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2505,15 +1326,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/netherite_pickaxe_290"
                 },
@@ -2522,15 +1334,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2543,15 +1346,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/netherite_shovel_292"
                 },
@@ -2560,15 +1354,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2581,15 +1366,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/netherite_sword_294"
                 },
@@ -2598,15 +1374,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2619,15 +1386,6 @@
                             "chance": 0.02244605
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/unc/netherite_hoe_296"
                 },
@@ -2636,15 +1394,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02244605
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2657,15 +1406,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/netherite_axe_298"
                 },
@@ -2674,15 +1414,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2695,15 +1426,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/netherite_pickaxe_300"
                 },
@@ -2712,15 +1434,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2733,15 +1446,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/netherite_shovel_302"
                 },
@@ -2750,15 +1454,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2771,15 +1466,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/netherite_sword_304"
                 },
@@ -2788,15 +1474,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2809,15 +1486,6 @@
                             "chance": 0.00308175
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/rar/netherite_hoe_306"
                 },
@@ -2826,15 +1494,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00308175
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2847,15 +1506,6 @@
                             "chance": 0.00034735
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/netherite_axe_308"
                 },
@@ -2864,15 +1514,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00034735
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2885,15 +1526,6 @@
                             "chance": 0.00034735
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/netherite_shovel_310"
                 },
@@ -2902,15 +1534,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00034735
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2923,15 +1546,6 @@
                             "chance": 0.00034735
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/epi/netherite_hoe_312"
                 },
@@ -2940,15 +1554,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00011549
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2961,15 +1566,6 @@
                             "chance": 0.00011549
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/netherite_pickaxe_314"
                 },
@@ -2978,15 +1574,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00011549
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2999,15 +1586,6 @@
                             "chance": 0.00011549
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/netherite_sword_316"
                 },
@@ -3016,15 +1594,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00011549
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3037,15 +1606,6 @@
                             "chance": 0.00004771
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/ult/diamond_sword_341"
                 },
@@ -3054,15 +1614,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00007156
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3075,15 +1626,6 @@
                             "chance": 0.00007156
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/ult/iron_pickaxe_343"
                 },
@@ -3092,15 +1634,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00004771
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3113,15 +1646,6 @@
                             "chance": 0.00004771
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/ult/netherite_shovel_345"
                 },
@@ -3130,15 +1654,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00002425
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",

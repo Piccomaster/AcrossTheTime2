@@ -51,15 +51,6 @@
                             "chance": 0.005
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/chronoton/diamond"
                 },
@@ -70,15 +61,6 @@
                             "chance": 0.0005
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/chronoton/amethyst"
                 },
@@ -87,15 +69,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00025
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
