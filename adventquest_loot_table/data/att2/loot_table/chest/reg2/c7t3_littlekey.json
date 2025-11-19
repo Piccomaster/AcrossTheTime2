@@ -94,15 +94,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/chronoton/esc"
         },
         {
@@ -113,15 +104,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/chronoton/diamond"
         },
         {
@@ -130,15 +112,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/chronoton/diamond"
@@ -163,15 +136,6 @@
               "chance": 0.00000779
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/com/potion_1"
         },
         {
@@ -180,15 +144,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00000779
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/com/potion_2"
@@ -201,15 +156,6 @@
               "chance": 0.00000779
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/com/potion_3"
         },
         {
@@ -218,15 +164,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00000779
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/com/potion_4"
@@ -239,15 +176,6 @@
               "chance": 0.00000779
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/com/potion_5"
         },
         {
@@ -256,15 +184,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00000779
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/com/potion_6"
@@ -277,15 +196,6 @@
               "chance": 0.00000779
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/com/potion_7"
         },
         {
@@ -294,15 +204,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00000779
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/com/potion_8"
@@ -315,15 +216,6 @@
               "chance": 0.00000779
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/com/potion_9"
         },
         {
@@ -332,15 +224,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00000779
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/com/potion_10"
@@ -353,15 +236,6 @@
               "chance": 0.00912416
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/unc/potion_11"
         },
         {
@@ -370,15 +244,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/potion_12"
@@ -391,15 +256,6 @@
               "chance": 0.00912416
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/unc/potion_13"
         },
         {
@@ -408,15 +264,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/potion_14"
@@ -429,15 +276,6 @@
               "chance": 0.00912416
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/unc/potion_15"
         },
         {
@@ -446,15 +284,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/potion_16"
@@ -467,15 +296,6 @@
               "chance": 0.00912416
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/unc/potion_17"
         },
         {
@@ -484,15 +304,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/potion_18"
@@ -505,15 +316,6 @@
               "chance": 0.00230929
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/rar/potion_19"
         },
         {
@@ -522,15 +324,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00230929
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/rar/potion_20"
@@ -543,15 +336,6 @@
               "chance": 0.00230929
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/rar/potion_21"
         },
         {
@@ -560,15 +344,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00230929
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/rar/potion_22"
@@ -581,15 +356,6 @@
               "chance": 0.00017097
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/epi/potion_23"
         },
         {
@@ -598,15 +364,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00017097
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/epi/potion_24"
@@ -619,15 +376,6 @@
               "chance": 0.00017097
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/epi/potion_25"
         },
         {
@@ -636,15 +384,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005359
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/leg/potion_27"
@@ -657,15 +396,6 @@
               "chance": 0.00005359
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/leg/potion_28"
         },
         {
@@ -674,15 +404,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005359
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/leg/potion_29"
@@ -695,15 +416,6 @@
               "chance": 0.00000779
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/com/splash_potion_30"
         },
         {
@@ -712,15 +424,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00000779
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/com/splash_potion_31"
@@ -733,15 +436,6 @@
               "chance": 0.00000779
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/com/splash_potion_32"
         },
         {
@@ -750,15 +444,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00000779
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/com/splash_potion_33"
@@ -771,15 +456,6 @@
               "chance": 0.00912416
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/unc/splash_potion_34"
         },
         {
@@ -788,15 +464,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/splash_potion_35"
@@ -809,15 +476,6 @@
               "chance": 0.00230929
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/rar/splash_potion_36"
         },
         {
@@ -826,15 +484,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00230929
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/rar/splash_potion_37"
@@ -847,15 +496,6 @@
               "chance": 0.00017097
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/epi/splash_potion_38"
         },
         {
@@ -864,15 +504,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/lingering_potion_40"
@@ -885,15 +516,6 @@
               "chance": 0.00912416
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/unc/lingering_potion_41"
         },
         {
@@ -902,15 +524,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00230929
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/rar/lingering_potion_42"
@@ -923,15 +536,6 @@
               "chance": 0.00230929
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/rar/lingering_potion_43"
         },
         {
@@ -940,15 +544,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00017097
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/epi/lingering_potion_44"
@@ -961,15 +556,6 @@
               "chance": 0.00005359
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/leg/lingering_potion_45"
         },
         {
@@ -978,15 +564,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00000779
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/com/potion_48"
@@ -999,15 +576,6 @@
               "chance": 0.00000779
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/com/potion_49"
         },
         {
@@ -1016,15 +584,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/potion_50"
@@ -1037,15 +596,6 @@
               "chance": 0.00912416
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/unc/potion_51"
         },
         {
@@ -1054,15 +604,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00230929
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/rar/potion_52"
@@ -1075,15 +616,6 @@
               "chance": 0.00230929
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/rar/potion_53"
         },
         {
@@ -1092,15 +624,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00017097
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/epi/potion_54"
@@ -1113,15 +636,6 @@
               "chance": 0.00005359
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/leg/potion_55"
         },
         {
@@ -1130,15 +644,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/splash_potion_56"
@@ -1151,15 +656,6 @@
               "chance": 0.00230929
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/rar/splash_potion_57"
         },
         {
@@ -1168,15 +664,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00017097
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/epi/splash_potion_58"
@@ -1189,15 +676,6 @@
               "chance": 0.00005359
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/leg/splash_potion_59"
         },
         {
@@ -1206,15 +684,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00912416
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/unc/lingering_potion_60"
@@ -1227,15 +696,6 @@
               "chance": 0.00230929
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/potion/rar/lingering_potion_61"
         },
         {
@@ -1244,15 +704,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00017097
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/potion/epi/lingering_potion_62"
@@ -1315,15 +766,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_chestplate_1"
         },
         {
@@ -1332,15 +774,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/leather_helmet_2"
@@ -1353,15 +786,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_chestplate_1"
         },
         {
@@ -1370,15 +794,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/leather_leggings_4"
@@ -1391,15 +806,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_boots_5"
         },
         {
@@ -1408,15 +814,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/leather_helmet_6"
@@ -1429,15 +826,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_chestplate_1"
         },
         {
@@ -1446,15 +834,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/leather_leggings_8"
@@ -1467,15 +846,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/leather_boots_9"
         },
         {
@@ -1484,15 +854,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/leather_helmet_10"
@@ -1505,15 +866,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_chestplate_1"
         },
         {
@@ -1522,15 +874,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/leather_leggings_12"
@@ -1543,15 +886,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/leather_boots_13"
         },
         {
@@ -1560,15 +894,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi_set/leather_helmet_14"
@@ -1581,15 +906,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_chestplate_1"
         },
         {
@@ -1598,15 +914,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi_set/leather_leggings_16"
@@ -1619,15 +926,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi_set/leather_boots_17"
         },
         {
@@ -1636,15 +934,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg_armset/leather_helmet_19"
@@ -1657,15 +946,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_chestplate_1"
         },
         {
@@ -1674,15 +954,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg_armset/leather_leggings_21"
@@ -1695,15 +966,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg_armset/leather_boots_22"
         },
         {
@@ -1712,15 +974,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/leather_helmet_24"
@@ -1733,15 +986,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_helmet_25"
         },
         {
@@ -1750,15 +994,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/leather_chestplate_26"
@@ -1771,15 +1006,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_chestplate_27"
         },
         {
@@ -1788,15 +1014,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/leather_leggings_28"
@@ -1809,15 +1026,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_leggings_29"
         },
         {
@@ -1826,15 +1034,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/leather_boots_30"
@@ -1847,15 +1046,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/leather_boots_31"
         },
         {
@@ -1864,15 +1054,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/leather_helmet_32"
@@ -1885,15 +1066,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/leather_helmet_33"
         },
         {
@@ -1902,15 +1074,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/leather_chestplate_1"
@@ -1923,15 +1086,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/leather_chestplate_35"
         },
         {
@@ -1940,15 +1094,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/leather_leggings_36"
@@ -1961,15 +1106,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/leather_leggings_37"
         },
         {
@@ -1978,15 +1114,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/leather_boots_38"
@@ -1999,15 +1126,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/leather_boots_39"
         },
         {
@@ -2016,15 +1134,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/leather_helmet_40"
@@ -2037,15 +1146,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/leather_helmet_41"
         },
         {
@@ -2054,15 +1154,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/leather_chestplate_42"
@@ -2075,15 +1166,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/leather_chestplate_43"
         },
         {
@@ -2092,15 +1174,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/leather_leggings_44"
@@ -2113,15 +1186,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/leather_leggings_45"
         },
         {
@@ -2130,15 +1194,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/leather_boots_46"
@@ -2151,15 +1206,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/leather_boots_47"
         },
         {
@@ -2168,15 +1214,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi/leather_helmet_48"
@@ -2189,15 +1226,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi/leather_chestplate_49"
         },
         {
@@ -2206,15 +1234,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi/leather_leggings_50"
@@ -2227,15 +1246,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi/leather_boots_51"
         },
         {
@@ -2244,15 +1254,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg/leather_helmet_52"
@@ -2265,15 +1266,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg/leather_chestplate_53"
         },
         {
@@ -2282,15 +1274,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg/leather_leggings_54"
@@ -2303,15 +1286,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg/leather_boots_55"
         },
         {
@@ -2320,15 +1294,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/leather_helmet_56"
@@ -2341,15 +1306,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/leather_chestplate_57"
         },
         {
@@ -2358,15 +1314,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/leather_leggings_58"
@@ -2379,15 +1326,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/leather_boots_59"
         },
         {
@@ -2396,15 +1334,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi_set/leather_helmet_64"
@@ -2417,15 +1346,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi_set/leather_chestplate_65"
         },
         {
@@ -2434,15 +1354,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi_set/leather_leggings_66"
@@ -2455,15 +1366,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi_set/leather_boots_67"
         },
         {
@@ -2472,15 +1374,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/chainmail_chestplate_70"
@@ -2493,15 +1386,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/chainmail_chestplate_71"
         },
         {
@@ -2510,15 +1394,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/chainmail_leggings_72"
@@ -2531,15 +1406,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/chainmail_leggings_73"
         },
         {
@@ -2548,15 +1414,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/chainmail_boots_74"
@@ -2569,15 +1426,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/chainmail_boots_75"
         },
         {
@@ -2586,15 +1434,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/chainmail_chestplate_76"
@@ -2607,15 +1446,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/chainmail_chestplate_77"
         },
         {
@@ -2624,15 +1454,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/chainmail_leggings_78"
@@ -2645,15 +1466,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/chainmail_leggings_79"
         },
         {
@@ -2662,15 +1474,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/chainmail_boots_80"
@@ -2683,15 +1486,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/chainmail_boots_81"
         },
         {
@@ -2700,15 +1494,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/chainmail_helmet_82"
@@ -2721,15 +1506,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/chainmail_helmet_83"
         },
         {
@@ -2738,15 +1514,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/chainmail_chestplate_84"
@@ -2759,15 +1526,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/chainmail_chestplate_85"
         },
         {
@@ -2776,15 +1534,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/chainmail_leggings_86"
@@ -2797,15 +1546,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/chainmail_leggings_87"
         },
         {
@@ -2814,15 +1554,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/chainmail_boots_88"
@@ -2835,15 +1566,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/chainmail_boots_89"
         },
         {
@@ -2852,15 +1574,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi/chainmail_helmet_90"
@@ -2873,15 +1586,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi/chainmail_helmet_91"
         },
         {
@@ -2890,15 +1594,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi/chainmail_chestplate_92"
@@ -2911,15 +1606,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi/chainmail_leggings_93"
         },
         {
@@ -2928,15 +1614,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi/chainmail_boots_94"
@@ -2949,15 +1626,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg/chainmail_helmet_95"
         },
         {
@@ -2966,15 +1634,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg/chainmail_chestplate_96"
@@ -2987,15 +1646,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg/chainmail_leggings_97"
         },
         {
@@ -3004,15 +1654,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg/chainmail_boots_98"
@@ -3025,15 +1666,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg_armset/chainmail_helmet_297"
         },
         {
@@ -3042,15 +1674,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg_armset/chainmail_chestplate_298"
@@ -3063,15 +1686,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg_armset/chainmail_leggings_299"
         },
         {
@@ -3080,15 +1694,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg_armset/chainmail_boots_300"
@@ -3101,15 +1706,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/golden_helmet_131"
         },
         {
@@ -3118,15 +1714,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/golden_helmet_132"
@@ -3139,15 +1726,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/golden_chestplate_133"
         },
         {
@@ -3156,15 +1734,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/golden_chestplate_134"
@@ -3177,15 +1746,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/golden_leggings_135"
         },
         {
@@ -3194,15 +1754,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/golden_leggings_136"
@@ -3215,15 +1766,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/com/golden_boots_137"
         },
         {
@@ -3232,15 +1774,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/com/golden_boots_138"
@@ -3253,15 +1786,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/golden_helmet_139"
         },
         {
@@ -3270,15 +1794,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/golden_helmet_140"
@@ -3291,15 +1806,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/golden_chestplate_141"
         },
         {
@@ -3308,15 +1814,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/golden_chestplate_142"
@@ -3329,15 +1826,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/golden_leggings_143"
         },
         {
@@ -3346,15 +1834,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/golden_leggings_144"
@@ -3367,15 +1846,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/unc/golden_boots_145"
         },
         {
@@ -3384,15 +1854,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/unc/golden_boots_146"
@@ -3405,15 +1866,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/golden_helmet_147"
         },
         {
@@ -3422,15 +1874,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/golden_helmet_148"
@@ -3443,15 +1886,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/golden_chestplate_149"
         },
         {
@@ -3460,15 +1894,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/golden_chestplate_150"
@@ -3481,15 +1906,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/golden_leggings_151"
         },
         {
@@ -3498,15 +1914,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/golden_leggings_152"
@@ -3519,15 +1926,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/rar/golden_boots_153"
         },
         {
@@ -3536,15 +1934,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/rar/golden_boots_154"
@@ -3557,15 +1946,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi/golden_helmet_155"
         },
         {
@@ -3574,15 +1954,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi/golden_chestplate_156"
@@ -3595,15 +1966,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi/golden_leggings_157"
         },
         {
@@ -3612,15 +1974,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi/golden_boots_158"
@@ -3633,15 +1986,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi_set/golden_helmet_311"
         },
         {
@@ -3650,15 +1994,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi_set/golden_chestplate_312"
@@ -3671,15 +2006,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/epi_set/golden_leggings_313"
         },
         {
@@ -3688,15 +2014,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/epi_set/golden_boots_314"
@@ -3709,15 +2026,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg/golden_helmet_159"
         },
         {
@@ -3726,15 +2034,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg/golden_chestplate_160"
@@ -3747,15 +2046,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg/golden_leggings_161"
         },
         {
@@ -3764,15 +2054,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg/golden_boots_162"
@@ -3785,15 +2066,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg_armset/golden_helmet_163"
         },
         {
@@ -3802,15 +2074,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg_armset/golden_chestplate_164"
@@ -3823,15 +2086,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/armor/leg_armset/golden_leggings_165"
         },
         {
@@ -3840,15 +2094,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg_armset/golden_boots_166"
@@ -3861,15 +2106,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/golden_axe_128"
         },
         {
@@ -3878,15 +2114,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/golden_axe_129"
@@ -3899,15 +2126,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/golden_pickaxe_130"
         },
         {
@@ -3916,15 +2134,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/golden_pickaxe_131"
@@ -3937,15 +2146,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/golden_shovel_132"
         },
         {
@@ -3954,15 +2154,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/golden_shovel_133"
@@ -3975,15 +2166,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/golden_sword_134"
         },
         {
@@ -3992,15 +2174,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/golden_sword_135"
@@ -4013,15 +2186,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/golden_axe_136"
         },
         {
@@ -4030,15 +2194,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/golden_axe_137"
@@ -4051,15 +2206,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/golden_pickaxe_138"
         },
         {
@@ -4068,15 +2214,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/golden_pickaxe_139"
@@ -4089,15 +2226,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/golden_shovel_140"
         },
         {
@@ -4106,15 +2234,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/golden_shovel_141"
@@ -4127,15 +2246,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/golden_sword_142"
         },
         {
@@ -4144,15 +2254,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/golden_sword_143"
@@ -4165,15 +2266,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/golden_axe_144"
         },
         {
@@ -4182,15 +2274,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/golden_axe_145"
@@ -4203,15 +2286,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/golden_pickaxe_146"
         },
         {
@@ -4220,15 +2294,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/golden_pickaxe_147"
@@ -4241,15 +2306,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/golden_shovel_148"
         },
         {
@@ -4258,15 +2314,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/chronoton/amethyst"
@@ -4279,15 +2326,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/golden_sword_150"
         },
         {
@@ -4296,15 +2334,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/golden_sword_151"
@@ -4317,15 +2346,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/epi/golden_axe_152"
         },
         {
@@ -4334,15 +2354,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/epi/golden_pickaxe_153"
@@ -4355,15 +2366,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/epi/golden_shovel_154"
         },
         {
@@ -4372,15 +2374,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/epi/golden_sword_155"
@@ -4393,15 +2386,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/leg/golden_axe_156"
         },
         {
@@ -4410,15 +2394,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/leg/golden_pickaxe_157"
@@ -4431,15 +2406,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/leg/golden_shovel_158"
         },
         {
@@ -4448,15 +2414,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/leg/golden_sword_159"
@@ -4469,15 +2426,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/wooden_axe_1"
         },
         {
@@ -4486,15 +2434,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/iron_axe_65"
@@ -4507,15 +2446,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/wooden_pickaxe_3"
         },
         {
@@ -4524,15 +2454,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/wooden_pickaxe_4"
@@ -4545,15 +2466,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/wooden_shovel_5"
         },
         {
@@ -4562,15 +2474,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/wooden_shovel_6"
@@ -4583,15 +2486,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/wooden_sword_7"
         },
         {
@@ -4600,15 +2494,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/wooden_sword_8"
@@ -4621,15 +2506,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/wooden_axe_9"
         },
         {
@@ -4638,15 +2514,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/wooden_axe_10"
@@ -4659,15 +2526,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/wooden_pickaxe_11"
         },
         {
@@ -4676,15 +2534,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/wooden_pickaxe_12"
@@ -4697,15 +2546,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/wooden_shovel_13"
         },
         {
@@ -4714,15 +2554,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/wooden_shovel_14"
@@ -4735,15 +2566,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/wooden_sword_15"
         },
         {
@@ -4752,15 +2574,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/wooden_sword_16"
@@ -4773,15 +2586,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/wooden_axe_17"
         },
         {
@@ -4790,15 +2594,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/wooden_axe_18"
@@ -4811,15 +2606,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/wooden_pickaxe_19"
         },
         {
@@ -4828,15 +2614,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/wooden_pickaxe_20"
@@ -4849,15 +2626,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/wooden_shovel_21"
         },
         {
@@ -4866,15 +2634,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/wooden_shovel_22"
@@ -4887,15 +2646,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/wooden_sword_23"
         },
         {
@@ -4904,15 +2654,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/wooden_sword_24"
@@ -4925,15 +2666,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/epi/wooden_axe_25"
         },
         {
@@ -4942,15 +2674,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/epi/wooden_pickaxe_26"
@@ -4963,15 +2686,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/epi/wooden_shovel_27"
         },
         {
@@ -4980,15 +2694,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/epi/wooden_sword_28"
@@ -5001,15 +2706,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/leg/wooden_axe_29"
         },
         {
@@ -5018,15 +2714,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/leg/wooden_pickaxe_30"
@@ -5039,15 +2726,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/leg/wooden_shovel_31"
         },
         {
@@ -5056,15 +2734,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/leg/wooden_sword_32"
@@ -5077,15 +2746,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/wooden_hoe_254"
         },
         {
@@ -5094,15 +2754,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/wooden_hoe_255"
@@ -5115,15 +2766,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/wooden_hoe_256"
         },
         {
@@ -5132,15 +2774,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/wooden_hoe_257"
@@ -5153,15 +2786,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/wooden_hoe_258"
         },
         {
@@ -5170,15 +2794,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/wooden_hoe_259"
@@ -5191,15 +2806,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/epi/wooden_hoe_260"
         },
         {
@@ -5208,15 +2814,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/leg/wooden_hoe_261"
@@ -5229,15 +2826,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/golden_hoe_318"
         },
         {
@@ -5246,15 +2834,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/golden_hoe_319"
@@ -5267,15 +2846,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/golden_hoe_320"
         },
         {
@@ -5284,15 +2854,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/golden_hoe_321"
@@ -5305,15 +2866,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/golden_hoe_322"
         },
         {
@@ -5322,15 +2874,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/golden_hoe_323"
@@ -5343,15 +2886,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/epi/golden_hoe_324"
         },
         {
@@ -5360,15 +2894,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/leg/golden_hoe_325"
@@ -5381,15 +2906,6 @@
               "chance": 0.00007622
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/legendary/kinuil"
         },
         {
@@ -5398,15 +2914,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/bow_33"
@@ -5419,15 +2926,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/bow_34"
         },
         {
@@ -5436,15 +2934,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00005454
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/com/bow_35"
@@ -5457,15 +2946,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/bow_36"
         },
         {
@@ -5474,15 +2954,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/bow_37"
@@ -5495,15 +2966,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/bow_38"
         },
         {
@@ -5512,15 +2974,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/bow_39"
@@ -5533,15 +2986,6 @@
               "chance": 0.06386912
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/unc/bow_40"
         },
         {
@@ -5550,15 +2994,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/bow_41"
@@ -5571,15 +3006,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/bow_42"
         },
         {
@@ -5588,15 +3014,6 @@
             {
               "condition": "random_chance",
               "chance": 0.01616504
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/rar/bow_43"
@@ -5609,15 +3026,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/bow_44"
         },
         {
@@ -5626,15 +3034,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/epi/bow_45"
@@ -5647,15 +3046,6 @@
               "chance": 0.00119677
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/epi/bow_46"
         },
         {
@@ -5664,15 +3054,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00119677
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/epi/bow_47"
@@ -5685,15 +3066,6 @@
               "chance": 0.00037515
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/leg/bow_48"
         },
         {
@@ -5702,15 +3074,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/leg/bow_49"
@@ -5723,15 +3086,6 @@
               "chance": 0.00005454
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/com/shield_160"
         },
         {
@@ -5740,15 +3094,6 @@
             {
               "condition": "random_chance",
               "chance": 0.06386912
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/weapon/unc/shield_161"
@@ -5761,15 +3106,6 @@
               "chance": 0.01616504
             }
           ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ],
           "value": "att2:item_data/weapon/rar/shield_162"
         },
         {
@@ -5778,15 +3114,6 @@
             {
               "condition": "random_chance",
               "chance": 0.00037515
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/armor/leg/golden_chestplate_160"
@@ -5809,15 +3136,6 @@
             {
               "condition": "random_chance",
               "chance": 1
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
           "value": "att2:item_data/quest/keys/little_key"
