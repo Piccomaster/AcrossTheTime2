@@ -1,0 +1,38 @@
+#############################################################
+#Made by Adventquest                               			#
+#Zirthion dailyquest initialize                              #
+#############################################################
+
+execute in overworld run setblock 7357 120 7336 minecraft:structure_block[mode=load]{author:"ZHUBIPIG",components:{},ignoreEntities:1b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"att2:zirthion_dailyquest_board",posX:1,posY:0,posZ:-7,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:2,sizeY:5,sizeZ:7,strict:0b}
+
+
+execute in overworld run setblock 7357 121 7336 minecraft:redstone_block destroy
+execute in overworld run setblock 7357 121 7336 minecraft:redstone_block destroy
+
+execute in overworld run setblock 7357 120 7336 minecraft:air destroy
+execute in overworld run setblock 7357 121 7336 minecraft:air destroy
+
+
+##clear
+kill @e[type=#minecraft:display_entity,tag=Zirthion,tag=DailyQuest]
+##summon Request Interaction
+
+execute in overworld positioned 7359.0 121 7331 run summon interaction ~ ~ ~ {UUID:[I;7359,121,7331,1],Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","1"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:zirthion,entityid:1},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","1"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in overworld positioned 7359.0 121 7332 run summon interaction ~ ~ ~ {UUID:[I;7359,121,7332,2],Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","2"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:zirthion,entityid:2},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","2"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in overworld positioned 7359.0 121 7333 run summon interaction ~ ~ ~ {UUID:[I;7359,121,7333,3],Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","3"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:zirthion,entityid:3},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","3"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in overworld positioned 7359.0 120 7331 run summon interaction ~ ~ ~ {UUID:[I;7359,120,7331,4],Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","4"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:zirthion,entityid:4},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","4"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in overworld positioned 7359.0 120 7332 run summon interaction ~ ~ ~ {UUID:[I;7359,120,7332,5],Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","5"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:zirthion,entityid:5},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","5"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in overworld positioned 7359.0 120 7333 run summon interaction ~ ~ ~ {UUID:[I;7359,120,7333,6],Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","6"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:zirthion,entityid:6},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Request","NoQuest","QuestBoard","6"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[-90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+
+##summon Accepted Interaction
+execute in overworld positioned 7358 122 7331 run summon interaction ~ ~ ~ {UUID:[I;7358,122,7331,1],Tags:["DailyQuest","Zirthion","Accepted","QuestBoard","NoQuest","1"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:zirthion,entityid:1},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Accepted","QuestBoard","NoQuest","1"],billboard:fixed,view_range:0.5,Rotation:[90,0],alignment:left,line_width:70,background:0x00000000}]}
+
+execute in overworld positioned 7358 122 7332 run summon interaction ~ ~ ~ {UUID:[I;7358,122,7332,2],Tags:["DailyQuest","Zirthion","Accepted","QuestBoard","NoQuest","2"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:zirthion,entityid:2},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Accepted","QuestBoard","NoQuest","2"],billboard:fixed,view_range:0.5,Rotation:[90,0],alignment:left,line_width:70,background:0x00000000}]}
+
+execute in overworld positioned 7358 122 7333 run summon interaction ~ ~ ~ {UUID:[I;7358,122,7333,3],Tags:["DailyQuest","Zirthion","Accepted","QuestBoard","NoQuest","3"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:zirthion,entityid:3},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Zirthion","Accepted","QuestBoard","NoQuest","3"],billboard:fixed,view_range:0.5,Rotation:[90,0],alignment:left,line_width:70,background:0x00000000}]}
