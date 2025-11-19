@@ -263,13 +263,20 @@
 - Some dialogs have been revised.
 - Tips messages have been improved.
 
-## Optimized Monster Spawning System
+---
+
+### **Optimized Monster Spawning System**
 - The **natural spawning** of monsters is now accompanied by **particle effects** and **sound effects**. This provides a clear visual and audio cue to alert nearby players of their appearance.
 
-## New Toolbar
+### **Toolbar**
 - A new **toolbar** with four dedicated slots has been added. Players can assign tools like "Torches" and "Rune Pouches" to these slots, allowing them to quickly trigger the tool's **specific effect**.
 
 - **Spell Pouch**: Can hold three casting implements. When placed in the toolbar, it automatically casts the corresponding spells.
+
+---
+
+### **Music**
+- The **Battle sample** music has been changed to a new original and reworked track.
 
 ---
 
