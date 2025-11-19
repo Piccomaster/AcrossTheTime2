@@ -29,3 +29,6 @@ execute if entity @a[x=-5453,y=50,z=-5632,distance=..60,gamemode=adventure] run 
 
 # Beach
 execute if entity @a[x=-4090,y=44,z=-5194,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/13/go
+
+# Tears forest
+execute if entity @a[x=-4629,y=52,z=-5007,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/15/go
