@@ -14,15 +14,6 @@
                             "chance": 0.025
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/weapon/leg/crossbow_253"
                 },
@@ -32,15 +23,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.025
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -54,15 +36,6 @@
                             "chance": 0.01
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/chainmail_helmet_297"
                 },
@@ -72,15 +45,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -94,15 +58,6 @@
                             "chance": 0.01
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/chainmail_leggings_299"
                 },
@@ -112,15 +67,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",

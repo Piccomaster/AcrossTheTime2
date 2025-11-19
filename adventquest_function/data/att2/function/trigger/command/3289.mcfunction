@@ -1,0 +1,1 @@
+function att2:gameplay/quest/dailyquest/ryliath/dq3/display_progress

@@ -1,0 +1,1 @@
+function att2:cinematic/dailyquest/ryliath/10/refuse

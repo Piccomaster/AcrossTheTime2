@@ -1,0 +1,1 @@
+function att2:cinematic/dailyquest/zirthion/7/refuse

@@ -1,0 +1,439 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/chainmail_helmet_82",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/chainmail_helmet_83",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/chainmail_chestplate_84",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/chest"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/chainmail_chestplate_85",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/chest"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/chainmail_leggings_86",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/legs"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/chainmail_leggings_87",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/legs"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/chainmail_boots_88",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/feet"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/chainmail_boots_89",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/feet"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/iron_helmet_115",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/iron_helmet_116",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/iron_chestplate_117",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/chest"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/iron_chestplate_118",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/chest"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/iron_leggings_119",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/legs"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/iron_leggings_120",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/legs"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/iron_boots_121",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/feet"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/rar/iron_boots_122",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/feet"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_axe_17",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/axe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_axe_18",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/axe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_pickaxe_19",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_pickaxe_20",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_shovel_21",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shovel"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_shovel_22",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shovel"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_sword_23",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/sword"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_sword_24",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/sword"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_hoe_258",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/hoe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/wooden_hoe_259",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/hoe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/shield_58",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shield"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/shield_59",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shield"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/shield_60",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shield"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_axe_80",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/axe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_axe_81",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/axe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_pickaxe_82",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_pickaxe_83",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_shovel_84",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shovel"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_shovel_85",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shovel"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_sword_86",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/sword"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_sword_87",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/sword"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_hoe_266",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/hoe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_hoe_267",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/hoe"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

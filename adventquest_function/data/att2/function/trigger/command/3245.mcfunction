@@ -1,0 +1,1 @@
+function att2:cinematic/dailyquest/phoenix/9/refuse

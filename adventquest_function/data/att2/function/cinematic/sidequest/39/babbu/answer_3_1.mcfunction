@@ -5,7 +5,7 @@
 
 function att2:gameplay/reputation/add_10
 scoreboard players set babbu_PNJ DIALOG -1
-scoreboard players remove @s CHRONOTON 2500
+scoreboard players operation @s CHRONOTON -= #TEST CAL
 function att2:cinematic/sidequest/39/step1
 
 function att2:gameplay/pnj_talk/dialog_playsound/babbu

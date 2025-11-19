@@ -16,15 +16,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
@@ -33,15 +24,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -54,15 +36,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
@@ -71,15 +44,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -92,15 +56,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_boots_5"
                 },
@@ -109,15 +64,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -130,15 +76,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
@@ -147,15 +84,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -168,15 +96,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/leather_boots_9"
                 },
@@ -185,15 +104,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -206,15 +116,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
@@ -223,15 +124,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -244,15 +136,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/leather_boots_13"
                 },
@@ -261,15 +144,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -282,15 +156,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
@@ -299,15 +164,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -320,15 +176,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi_set/leather_boots_17"
                 },
@@ -337,15 +184,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -358,15 +196,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_chestplate_1"
                 },
@@ -375,15 +204,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -396,15 +216,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/leather_boots_22"
                 },
@@ -413,15 +224,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -434,15 +236,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_helmet_25"
                 },
@@ -451,15 +244,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -472,15 +256,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_chestplate_27"
                 },
@@ -489,15 +264,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -510,15 +276,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_leggings_29"
                 },
@@ -527,15 +284,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -548,15 +296,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/leather_boots_31"
                 },
@@ -565,15 +304,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -586,15 +316,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/leather_helmet_33"
                 },
@@ -603,15 +324,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -624,15 +336,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/leather_chestplate_35"
                 },
@@ -641,15 +344,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -662,15 +356,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/leather_leggings_37"
                 },
@@ -679,15 +364,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -700,15 +376,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/leather_boots_39"
                 },
@@ -717,15 +384,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -738,15 +396,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/leather_helmet_41"
                 },
@@ -755,15 +404,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -776,15 +416,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/leather_chestplate_43"
                 },
@@ -793,15 +424,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -814,15 +436,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/leather_leggings_45"
                 },
@@ -831,15 +444,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -852,15 +456,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/leather_boots_47"
                 },
@@ -869,15 +464,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -890,15 +476,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/leather_chestplate_49"
                 },
@@ -907,15 +484,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -928,15 +496,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/leather_boots_51"
                 },
@@ -945,15 +504,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -966,15 +516,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/leather_chestplate_53"
                 },
@@ -983,15 +524,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1004,15 +536,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/leather_boots_55"
                 },
@@ -1021,15 +544,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1042,15 +556,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/leather_chestplate_57"
                 },
@@ -1059,15 +564,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1080,15 +576,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/leather_boots_59"
                 },
@@ -1097,15 +584,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1118,15 +596,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi_set/leather_chestplate_65"
                 },
@@ -1135,15 +604,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1156,15 +616,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi_set/leather_boots_67"
                 },
@@ -1173,15 +624,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1194,15 +636,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/chainmail_chestplate_71"
                 },
@@ -1211,15 +644,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1232,15 +656,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/chainmail_leggings_73"
                 },
@@ -1249,15 +664,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1270,15 +676,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/chainmail_boots_75"
                 },
@@ -1287,15 +684,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1308,15 +696,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/chainmail_chestplate_77"
                 },
@@ -1325,15 +704,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1346,15 +716,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/chainmail_leggings_79"
                 },
@@ -1363,15 +724,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1384,15 +736,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/chainmail_boots_81"
                 },
@@ -1401,15 +744,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1422,15 +756,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/chainmail_helmet_83"
                 },
@@ -1439,15 +764,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1460,15 +776,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/chainmail_chestplate_85"
                 },
@@ -1477,15 +784,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1498,15 +796,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/chainmail_leggings_87"
                 },
@@ -1515,15 +804,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1536,15 +816,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/chainmail_boots_89"
                 },
@@ -1553,15 +824,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1574,15 +836,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/chainmail_helmet_91"
                 },
@@ -1591,15 +844,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1612,15 +856,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/chainmail_leggings_93"
                 },
@@ -1629,15 +864,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1650,15 +876,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/chainmail_helmet_95"
                 },
@@ -1667,15 +884,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1688,15 +896,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/chainmail_leggings_97"
                 },
@@ -1705,15 +904,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1726,15 +916,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/iron_helmet_99"
                 },
@@ -1743,15 +924,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1764,15 +936,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/iron_chestplate_101"
                 },
@@ -1781,15 +944,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1802,15 +956,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/iron_leggings_103"
                 },
@@ -1819,15 +964,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1840,15 +976,6 @@
                             "chance": 0.0199006
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/iron_boots_105"
                 },
@@ -1857,15 +984,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0199006
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1878,15 +996,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/iron_helmet_107"
                 },
@@ -1895,15 +1004,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1916,15 +1016,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/iron_chestplate_109"
                 },
@@ -1933,15 +1024,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1954,15 +1036,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/iron_leggings_111"
                 },
@@ -1971,15 +1044,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -1992,15 +1056,6 @@
                             "chance": 0.04089386
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/iron_boots_113"
                 },
@@ -2009,15 +1064,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.04089386
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2030,15 +1076,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/iron_helmet_115"
                 },
@@ -2047,15 +1084,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2068,15 +1096,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/iron_chestplate_117"
                 },
@@ -2085,15 +1104,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2106,15 +1116,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/iron_leggings_119"
                 },
@@ -2123,15 +1124,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2144,15 +1136,6 @@
                             "chance": 0.00726906
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/iron_boots_121"
                 },
@@ -2161,15 +1144,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00726906
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2182,15 +1156,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/iron_helmet_123"
                 },
@@ -2199,15 +1164,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2220,15 +1176,6 @@
                             "chance": 0.00107041
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/iron_leggings_125"
                 },
@@ -2237,15 +1184,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00107041
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2258,15 +1196,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/iron_helmet_127"
                 },
@@ -2275,15 +1204,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2296,15 +1216,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/iron_leggings_129"
                 },
@@ -2313,15 +1224,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2334,15 +1236,6 @@
                             "chance": 0.01326706
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/diamond_helmet_168"
                 },
@@ -2351,15 +1244,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01326706
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2372,15 +1256,6 @@
                             "chance": 0.01326706
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/diamond_chestplate_170"
                 },
@@ -2389,15 +1264,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01326706
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2410,15 +1276,6 @@
                             "chance": 0.01326706
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/diamond_leggings_172"
                 },
@@ -2427,15 +1284,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01326706
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2448,15 +1296,6 @@
                             "chance": 0.01326706
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/diamond_boots_174"
                 },
@@ -2465,15 +1304,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01326706
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2486,15 +1316,6 @@
                             "chance": 0.02726257
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/diamond_helmet_176"
                 },
@@ -2503,15 +1324,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02726257
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2524,15 +1336,6 @@
                             "chance": 0.02726257
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/diamond_chestplate_178"
                 },
@@ -2541,15 +1344,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02726257
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2562,15 +1356,6 @@
                             "chance": 0.02726257
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/diamond_leggings_180"
                 },
@@ -2579,15 +1364,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02726257
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2600,15 +1376,6 @@
                             "chance": 0.02726257
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/diamond_boots_182"
                 },
@@ -2617,15 +1384,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02726257
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2638,15 +1396,6 @@
                             "chance": 0.00484604
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/diamond_helmet_184"
                 },
@@ -2655,15 +1404,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00484604
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2676,15 +1416,6 @@
                             "chance": 0.00484604
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/diamond_chestplate_186"
                 },
@@ -2693,15 +1424,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00484604
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2714,15 +1436,6 @@
                             "chance": 0.00484604
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/diamond_leggings_188"
                 },
@@ -2731,15 +1444,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00484604
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2752,15 +1456,6 @@
                             "chance": 0.00484604
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/diamond_boots_190"
                 },
@@ -2769,15 +1464,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00484604
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2790,15 +1476,6 @@
                             "chance": 0.00071361
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/diamond_helmet_192"
                 },
@@ -2807,15 +1484,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00071361
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2828,15 +1496,6 @@
                             "chance": 0.00071361
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/diamond_leggings_194"
                 },
@@ -2845,15 +1504,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00071361
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2866,15 +1516,6 @@
                             "chance": 0.00023532
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/diamond_helmet_196"
                 },
@@ -2883,15 +1524,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00023532
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2904,15 +1536,6 @@
                             "chance": 0.00023532
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/diamond_leggings_198"
                 },
@@ -2921,15 +1544,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00023532
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2942,15 +1556,6 @@
                             "chance": 0.00071361
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi_set/diamond_helmet_200"
                 },
@@ -2959,15 +1564,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00071361
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -2980,15 +1576,6 @@
                             "chance": 0.00071361
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi_set/diamond_leggings_202"
                 },
@@ -2997,15 +1584,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00071361
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3018,15 +1596,6 @@
                             "chance": 0.00023532
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/diamond_helmet_205"
                 },
@@ -3035,15 +1604,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00023532
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3056,15 +1616,6 @@
                             "chance": 0.00023532
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/diamond_leggings_207"
                 },
@@ -3073,15 +1624,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00023532
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3094,15 +1636,6 @@
                             "chance": 0.01326706
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/netherite_helmet_265"
                 },
@@ -3111,15 +1644,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01326706
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3132,15 +1656,6 @@
                             "chance": 0.01326706
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/netherite_chestplate_267"
                 },
@@ -3149,15 +1664,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01326706
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3170,15 +1676,6 @@
                             "chance": 0.01326706
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/netherite_leggings_269"
                 },
@@ -3187,15 +1684,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01326706
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3208,15 +1696,6 @@
                             "chance": 0.01326706
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/com/netherite_boots_271"
                 },
@@ -3225,15 +1704,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.01326706
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3246,15 +1716,6 @@
                             "chance": 0.02726257
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/netherite_helmet_273"
                 },
@@ -3263,15 +1724,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02726257
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3284,15 +1736,6 @@
                             "chance": 0.02726257
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/netherite_chestplate_275"
                 },
@@ -3301,15 +1744,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02726257
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3322,15 +1756,6 @@
                             "chance": 0.02726257
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/netherite_leggings_277"
                 },
@@ -3339,15 +1764,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02726257
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3360,15 +1776,6 @@
                             "chance": 0.02726257
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/unc/netherite_boots_279"
                 },
@@ -3377,15 +1784,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.02726257
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3398,15 +1796,6 @@
                             "chance": 0.00484604
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/netherite_helmet_281"
                 },
@@ -3415,15 +1804,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00484604
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3436,15 +1816,6 @@
                             "chance": 0.00484604
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/netherite_chestplate_283"
                 },
@@ -3453,15 +1824,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00484604
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3474,15 +1836,6 @@
                             "chance": 0.00484604
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/netherite_leggings_285"
                 },
@@ -3491,15 +1844,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00484604
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3512,15 +1856,6 @@
                             "chance": 0.00484604
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/rar/netherite_boots_287"
                 },
@@ -3529,15 +1864,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00484604
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3550,15 +1876,6 @@
                             "chance": 0.00071361
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/netherite_helmet_289"
                 },
@@ -3567,15 +1884,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00071361
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3588,15 +1896,6 @@
                             "chance": 0.00071361
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/epi/netherite_leggings_291"
                 },
@@ -3605,15 +1904,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00071361
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3626,15 +1916,6 @@
                             "chance": 0.00023532
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/netherite_helmet_293"
                 },
@@ -3643,15 +1924,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00023532
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3664,15 +1936,6 @@
                             "chance": 0.00023532
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg/netherite_leggings_295"
                 },
@@ -3681,15 +1944,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00023532
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3702,15 +1956,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/chainmail_helmet_297"
                 },
@@ -3719,15 +1964,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3740,15 +1976,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/chainmail_leggings_299"
                 },
@@ -3757,15 +1984,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3778,15 +1996,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/iron_helmet_302"
                 },
@@ -3795,15 +2004,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3816,15 +2016,6 @@
                             "chance": 0.00035298
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/leg_armset/iron_leggings_304"
                 },
@@ -3833,15 +2024,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.00035298
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3854,15 +2036,6 @@
                             "chance": 0.0000954
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/ult/diamond_chestplate_354"
                 },
@@ -3871,15 +2044,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0000954
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3892,15 +2056,6 @@
                             "chance": 0.0001431
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/ult/iron_boots_356"
                 },
@@ -3909,15 +2064,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0001431
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3930,15 +2076,6 @@
                             "chance": 0.0001431
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/ult/iron_chestplate_358"
                 },
@@ -3947,15 +2084,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0001431
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -3968,15 +2096,6 @@
                             "chance": 0.0000954
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/armor/ult/netherite_boots_360"
                 },
@@ -3985,15 +2104,6 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.0000954
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
                         }
                     ],
                     "type": "minecraft:loot_table",

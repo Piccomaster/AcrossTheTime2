@@ -1,1 +1,1 @@
-function att2:cinematic/dailyquest/ryliath/1/start
+execute if score Neth0 TIMER matches ..2598 run scoreboard players set Neth0 TIMER 2599

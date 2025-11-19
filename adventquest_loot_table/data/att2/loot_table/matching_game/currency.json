@@ -70,15 +70,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/chronoton/diamond"
                 },
@@ -94,15 +85,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/chronoton/amethyst"
                 },
@@ -115,15 +97,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00012
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],

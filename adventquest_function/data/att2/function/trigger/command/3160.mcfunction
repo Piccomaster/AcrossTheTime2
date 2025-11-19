@@ -1,0 +1,1 @@
+function att2:cinematic/dailyquest/eolorion/1/start

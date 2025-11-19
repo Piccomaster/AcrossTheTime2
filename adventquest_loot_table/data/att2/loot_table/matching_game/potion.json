@@ -21,15 +21,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/com/potion_1"
                 },
@@ -42,15 +33,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00444273
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -69,15 +51,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/com/potion_3"
                 },
@@ -90,15 +63,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00444273
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -117,15 +81,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/com/potion_5"
                 },
@@ -138,15 +93,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00444273
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -165,15 +111,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/com/potion_7"
                 },
@@ -186,15 +123,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00444273
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -213,15 +141,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/com/potion_9"
                 },
@@ -234,15 +153,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00444273
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -261,15 +171,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/com/splash_potion_30"
                 },
@@ -282,15 +183,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00444273
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -309,15 +201,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/com/splash_potion_32"
                 },
@@ -330,15 +213,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00444273
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -357,15 +231,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/com/potion_48"
                 },
@@ -378,15 +243,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00444273
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -405,15 +261,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/unc/potion_11"
                 },
@@ -426,15 +273,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00480987
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -453,15 +291,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/unc/potion_13"
                 },
@@ -474,15 +303,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00480987
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -501,15 +321,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/unc/potion_15"
                 },
@@ -522,15 +333,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00480987
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -549,15 +351,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/unc/potion_17"
                 },
@@ -570,15 +363,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00480987
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -597,15 +381,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/unc/splash_potion_34"
                 },
@@ -618,15 +393,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00480987
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -645,15 +411,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/unc/lingering_potion_40"
                 },
@@ -666,15 +423,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00480987
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -693,15 +441,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/unc/potion_50"
                 },
@@ -714,15 +453,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00480987
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -741,15 +471,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/unc/splash_potion_56"
                 },
@@ -762,15 +483,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00480987
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -789,15 +501,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/rar/potion_19"
                 },
@@ -810,15 +513,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00066038
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -837,15 +531,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/rar/potion_21"
                 },
@@ -858,15 +543,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00066038
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -885,15 +561,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/rar/splash_potion_36"
                 },
@@ -906,15 +573,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00066038
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -933,15 +591,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/rar/lingering_potion_42"
                 },
@@ -954,15 +603,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00066038
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -981,15 +621,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/rar/potion_52"
                 },
@@ -1002,15 +633,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00066038
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -1029,15 +651,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/rar/splash_potion_57"
                 },
@@ -1050,15 +663,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00066038
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -1077,15 +681,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/epi/potion_23"
                 },
@@ -1098,15 +693,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00007443
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -1125,15 +711,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/epi/potion_25"
                 },
@@ -1146,15 +723,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00007443
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -1173,15 +741,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/epi/lingering_potion_44"
                 },
@@ -1194,15 +753,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00007443
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -1221,15 +771,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/epi/splash_potion_58"
                 },
@@ -1242,15 +783,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00007443
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -1269,15 +801,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/leg/potion_27"
                 },
@@ -1290,15 +813,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00002475
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -1317,15 +831,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/leg/potion_29"
                 },
@@ -1338,15 +843,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00002475
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],
@@ -1365,15 +861,6 @@
                             }
                         }
                     ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ],
                     "type": "minecraft:loot_table",
                     "value": "att2:item_data/potion/leg/potion_55"
                 },
@@ -1386,15 +873,6 @@
                                 "target": "this",
                                 "score": "MatchingGame",
                                 "scale": 0.00002475
-                            }
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
                             }
                         }
                     ],

@@ -1,0 +1,384 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/shield_61",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shield"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/shield_62",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shield"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/iron_axe_88",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/axe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/iron_pickaxe_89",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/iron_shovel_90",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shovel"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/iron_sword_91",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/sword"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/iron_hoe_268",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/hoe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_axe_120",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/axe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_pickaxe_121",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_shovel_122",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shovel"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_sword_123",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/sword"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_hoe_276",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/hoe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/netherite_axe_308",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/axe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/netherite_pickaxe_309",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/netherite_shovel_310",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/shovel"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/netherite_sword_311",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/sword"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/weapon/epi/netherite_hoe_312",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/weapon/hoe"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/chainmail_helmet_90",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/chainmail_helmet_91",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/chainmail_chestplate_92",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/chest"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/chainmail_leggings_93",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/legs"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/chainmail_boots_94",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/feet"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/iron_helmet_123",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/iron_chestplate_124",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/chest"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/iron_leggings_125",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/legs"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/iron_boots_126",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/feet"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_helmet_192",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_chestplate_193",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/chest"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_leggings_194",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/legs"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_boots_195",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/feet"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_helmet_289",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/head"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_chestplate_290",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/chest"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_leggings_291",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/legs"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_boots_292",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "att2:random_att2_enchantment/armor/feet"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
