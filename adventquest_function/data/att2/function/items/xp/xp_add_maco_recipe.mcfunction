@@ -5,4 +5,7 @@
 
 function att2:gameplay/runes/recipe_done
 
-experience add @s 500000 points
+$xp add @s $(xp) points
+
+##text
+$tellraw @s {translate:att2.xp.add,with:[$(xp)],color:dark_green}

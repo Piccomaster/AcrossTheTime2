@@ -10,7 +10,7 @@ execute in overworld positioned -4816 92 -4958 run summon marker ~ ~ ~ {Tags:["R
 execute in overworld positioned -4880 73 -5006 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,5]}
 execute in overworld positioned -4956 61 -5038 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,6]}
 execute in overworld positioned -4617 74 -5208 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,7]}
-execute in overworld positioned -4547 36 -5187 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,8]}
+execute in overworld positioned -4548 36 -5187 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,8]}
 execute in overworld positioned -4563 14 -5254 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,9]}
 execute in overworld positioned -4646 35 -5171 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,10]}
 execute in overworld positioned -4621 44 -5253 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,11]}
@@ -35,7 +35,7 @@ execute in overworld positioned -4137 43 -6051 run summon marker ~ ~ ~ {Tags:["R
 execute in overworld positioned -4221 56 -6197 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,30]}
 execute in overworld positioned -4332 96 -6053 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,31]}
 execute in overworld positioned -4354 22 -6097 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,32]}
-execute in overworld positioned -4432 39 -6040 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,33]}
+#execute in overworld positioned -4432 39 -6040 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,33]}
 execute in overworld positioned -4445 72 -5914 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,34]}
 execute in overworld positioned -4351 73 -5826 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,35]}
 execute in overworld positioned -4480 74 -5681 run summon marker ~ ~ ~ {Tags:["RuneMiningMarker","loot_c"],UUID:[I;114117,110,101,36]}

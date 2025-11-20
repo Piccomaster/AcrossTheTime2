@@ -15,3 +15,9 @@ advancement grant @a only att2:treasure/mining_runic_major
 playsound minecraft:block.deepslate.break master @a ~ ~ ~ 2 1
 ##spell34 clear
 function att2:gameplay/dahal/action/spell34/clear_minerals_runes_marker
+
+##trigger dailyquest
+execute as @p at @s run function att2:cinematic/dailyquest/trigger/mining/a
+
+##set resummon score
+scoreboard players set @s RESUMMON -1

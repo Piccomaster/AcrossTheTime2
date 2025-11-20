@@ -1,0 +1,39 @@
+#############################################################
+#Made by Adventquest                               			#
+#Phoenix dailyquest initialize                              #
+#############################################################
+
+execute in the_nether run setblock 3905 49 3883 minecraft:structure_block[mode=load]{author:"ZHUBIPIG",components:{},ignoreEntities:1b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"att2:phoenix_dailyquest_board",posX:-3,posY:-2,posZ:1,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:3,sizeY:6,sizeZ:9,strict:0b}
+
+execute in the_nether run setblock 3905 50 3883 minecraft:redstone_block destroy
+execute in the_nether run setblock 3905 50 3883 minecraft:redstone_block destroy
+
+execute in the_nether run setblock 3905 50 3883 minecraft:air destroy
+execute in the_nether run setblock 3905 49 3883 minecraft:air destroy
+
+
+##clear
+kill @e[type=#minecraft:display_entity,tag=Phoenix,tag=DailyQuest]
+##summon Request Interaction
+
+
+execute in the_nether positioned 3904.0 49 3889 run summon interaction ~ ~ ~ {UUID:[I;3904,49,3889,1],Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","1"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:phoenix,entityid:1},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","1"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in the_nether positioned 3904.0 49 3888 run summon interaction ~ ~ ~ {UUID:[I;3904,49,3888,2],Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","2"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:phoenix,entityid:2},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","2"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in the_nether positioned 3904.0 49 3887 run summon interaction ~ ~ ~ {UUID:[I;3904,49,3887,3],Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","3"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:phoenix,entityid:3},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","3"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in the_nether positioned 3904.0 48 3889 run summon interaction ~ ~ ~ {UUID:[I;-5306,104,-6280,4],Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","4"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:phoenix,entityid:4},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","4"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in the_nether positioned 3904.0 48 3888 run summon interaction ~ ~ ~ {UUID:[I;-5305,104,-6280,5],Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","5"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:phoenix,entityid:5},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","5"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+execute in the_nether positioned 3904.0 48 3887 run summon interaction ~ ~ ~ {UUID:[I;-5306,104,-6280,6],Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","6"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[90,0],data:{location:phoenix,entityid:6},Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:paper",components:{item_model:"nothing"}},transformation:{scale:[0.9,0.9,0.9],translation:[0.0,-1.15,0.35],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Request","NoQuest","QuestBoard","6"],item_display:head,billboard:fixed,Glowing:true,glow_color_override:6778734,view_range:0.5,Rotation:[90,0],brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:5,teleport_duration:5}]}
+
+
+##summon Accepted Interaction
+
+execute in the_nether positioned 3904 50 3889 run summon interaction ~ ~ ~ {UUID:[I;3904,50,3889,1],Tags:["DailyQuest","Phoenix","Accepted","QuestBoard","NoQuest","1"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:phoenix,entityid:1},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Accepted","QuestBoard","NoQuest","1"],billboard:fixed,view_range:0.5,Rotation:[-90,0],alignment:left,line_width:70,background:0x00000000}]}
+
+execute in the_nether positioned 3904 50 3888 run summon interaction ~ ~ ~ {UUID:[I;3904,50,3888,2],Tags:["DailyQuest","Phoenix","Accepted","QuestBoard","NoQuest","2"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:phoenix,entityid:2},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Accepted","QuestBoard","NoQuest","2"],billboard:fixed,view_range:0.5,Rotation:[-90,0],alignment:left,line_width:70,background:0x00000000}]}
+
+execute in the_nether positioned 3904 50 3887 run summon interaction ~ ~ ~ {UUID:[I;3904,50,3887,3],Tags:["DailyQuest","Phoenix","Accepted","QuestBoard","NoQuest","3"],width:0.9,height:0.9,Silent:true,response:true,Rotation:[-90,0],data:{location:phoenix,entityid:3},Passengers:[{id:"minecraft:text_display",text:[{translate:att2.dailyquest.unaccepted}],transformation:{scale:[0.5,0.5,0.5],translation:[0.0,-0.6,0.065],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},Tags:["DailyQuest","Phoenix","Accepted","QuestBoard","NoQuest","3"],billboard:fixed,view_range:0.5,Rotation:[-90,0],alignment:left,line_width:70,background:0x00000000}]}
