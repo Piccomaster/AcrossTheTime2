@@ -8,5 +8,3 @@ execute if entity @a[x=-5029,y=91,z=-4957,distance=..20] run function att2:gamep
 
 # Runes mining
 function att2:gameplay/runes/mining/go
-##make rune switch live
-execute if score tic TIMECOUNTER matches 1 in overworld positioned -5029 92 -4957 if entity @a[distance=..20] unless entity @e[distance=..5,type=block_display,tag=RUNE_SWITCH] run function att2:gameplay/runes/switch/summon

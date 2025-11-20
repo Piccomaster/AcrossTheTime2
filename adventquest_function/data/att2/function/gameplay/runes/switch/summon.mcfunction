@@ -14,4 +14,7 @@ function att2:gameplay/runes/craft/runepowder_display with storage att2:temp
 #reset
 data remove storage att2:temp value_1
 
-#kill @e[tag=RUNE_SWITCH]
+##summon button
+execute unless block -5029 91 -4958 air run setblock -5029 91 -4958 air
+data merge block -5029 90 -4958 {CustomName:[{translate:att2.runes.crafting}]}
+summon interaction -5028.5 91.25 -4956.8 {height:0.5,width:0.5,response:1,Tags:["RuneRecipeTrigger"],UUID:[I;-5028,91,-4956,1],Passengers:[{id:"minecraft:item_display",UUID:[I;-5028,91,-4956,2],item:{id:"netherite_ingot"},Tags:["RuneRecipeTrigger"],transformation:{translation:[0f,-0.25f,0.25f],scale:[1f,1f,2f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},Rotation:[180,0],brightness:{block:15,sky:15},teleport_duration:5,interpolation_duration:10}]}
