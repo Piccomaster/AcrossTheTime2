@@ -6,7 +6,7 @@
 scoreboard objectives add RNG dummy
 scoreboard objectives add CAL dummy
 
-scoreboard players set -100 CAL -001
+scoreboard players set -100 CAL -100
 scoreboard players set -99 CAL -99
 scoreboard players set -98 CAL -98
 scoreboard players set -97 CAL -97
@@ -324,3 +324,15 @@ scoreboard players set 850 CAL 850
 scoreboard players set 900 CAL 900
 scoreboard players set 950 CAL 950
 scoreboard players set 1000 CAL 1000
+scoreboard players set 1500 CAL 1500
+scoreboard players set 10000 CAL 10000
+scoreboard players set 20000 CAL 20000
+scoreboard players set 30000 CAL 30000
+scoreboard players set 40000 CAL 40000
+scoreboard players set 50000 CAL 50000
+scoreboard players set 60000 CAL 60000
+scoreboard players set 70000 CAL 70000
+scoreboard players set 80000 CAL 80000
+scoreboard players set 90000 CAL 90000
+scoreboard players set 100000 CAL 100000
+scoreboard players set 1000000 CAL 1000000
