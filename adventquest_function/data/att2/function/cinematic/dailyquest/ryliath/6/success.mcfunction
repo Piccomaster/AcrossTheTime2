@@ -48,4 +48,4 @@ scoreboard players set ryliath_dailyquest_6_completed DAILYQUEST 1
 
 
 ##Other: A randomly Rune Enchantment equipment
-loot give @a loot att2:dailyquest/random_equipment/maria_rar_rune_enchantment
+execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/maria_rar_rune_enchantment

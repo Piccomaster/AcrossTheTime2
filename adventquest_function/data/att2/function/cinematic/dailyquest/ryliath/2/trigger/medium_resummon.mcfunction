@@ -8,12 +8,15 @@
 #############################################################
 
 #limit
-execute unless score #medium_ores_resummon_count DAILYQUEST matches 1.. run return 0
+execute unless score ryliath_dailyquest_2_medium_ores_resummon DAILYQUEST matches 1.. run return 0
 ##test location
 execute unless predicate att2_pre:location/sylberland/worlest run return 0
 
+##reset resummon score
+scoreboard players reset @s RESUMMON
+
 ##remove score
-scoreboard players remove #medium_ores_resummon_count DAILYQUEST 1
+scoreboard players remove ryliath_dailyquest_2_medium_ores_resummon DAILYQUEST 1
 ##remove tag
 tag @s remove Clear
 ##resummon

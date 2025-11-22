@@ -4,7 +4,7 @@
 ##################################################
 
 ##if player nearly update questboard data
-execute in overworld positioned -4938 76 -5028 run function att2:cinematic/dailyquest/kortaek/cycle
+execute in overworld positioned -5449 48 -4701 run function att2:cinematic/dailyquest/kortaek/cycle
 
 ##dailyquest_1 : The path to wealth.
 execute if score kortaek_dailyquest_1 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/kortaek/1/go

@@ -18,3 +18,7 @@ scoreboard players set eolorion_dailyquest_8_fail_chronoton DAILYQUEST 200
 scoreboard players set eolorion_dailyquest_8_fail_reputation DAILYQUEST 3
 
 ##Other: Energy Ray mana cost -10 (maximum of five times).
+scoreboard players set eolorion_dailyquest_8_kill_miehanov DAILYQUEST 0
+scoreboard players set eolorion_dailyquest_8_kill_vonaheim DAILYQUEST 0
+scoreboard players set eolorion_dailyquest_8_kill_miehanov_requirement DAILYQUEST 1
+scoreboard players set eolorion_dailyquest_8_kill_vonaheim_requirement DAILYQUEST 1

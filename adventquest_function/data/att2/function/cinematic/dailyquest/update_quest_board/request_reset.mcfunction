@@ -10,4 +10,4 @@ tag @s remove HaveQuest
 ##modify item_display
 execute on passengers run data modify entity @s item.components."item_model" set value "nothing"
 ##data set
-data modify entity @s data.questid set value 0
+data remove entity @s data.questid

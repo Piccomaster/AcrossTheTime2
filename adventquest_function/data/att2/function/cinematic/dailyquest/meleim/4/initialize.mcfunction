@@ -17,4 +17,14 @@ scoreboard players set meleim_dailyquest_4_rewards_city_donation DAILYQUEST 20
 scoreboard players set meleim_dailyquest_4_fail_chronoton DAILYQUEST 100
 scoreboard players set meleim_dailyquest_4_fail_reputation DAILYQUEST 3
 
-##other: no
+##other: kill count
+scoreboard players set meleim_dailyquest_4_kill_mimic_requirement DAILYQUEST 2
+scoreboard players set meleim_dailyquest_4_kill_mobs_invasion_requirement DAILYQUEST 8
+scoreboard players set meleim_dailyquest_4_open_rune_chest_requirement DAILYQUEST 2
+
+scoreboard players set meleim_dailyquest_4_kill_mimic DAILYQUEST 0
+scoreboard players set meleim_dailyquest_4_kill_mobs_invasion DAILYQUEST 0
+scoreboard players set meleim_dailyquest_4_open_rune_chest DAILYQUEST 0
+
+#Guarantee Mechanism
+scoreboard players set meleim_dailyquest_4_guarantee DAILYQUEST 2

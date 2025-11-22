@@ -4,7 +4,7 @@
 ##################################################
 
 ##if player nearly update questboard data
-execute in overworld positioned -4938 76 -5028 run function att2:cinematic/dailyquest/meleim/cycle
+execute in overworld positioned -3782 70 -5894 run function att2:cinematic/dailyquest/meleim/cycle
 
 ##dailyquest_1 : Abundant seafood
 execute if score meleim_dailyquest_1 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/meleim/1/go

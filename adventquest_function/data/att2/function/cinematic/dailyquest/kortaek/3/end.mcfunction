@@ -7,7 +7,7 @@
 #############################################################
 
 ##end set
-scoreboard players set kortaek_dailyquest_3 DAILYQUEST 100
+scoreboard players set kortaek_dailyquest_3 DAILYQUEST 2
 ##dialog tip
 tellraw @a[distance=..128] [{translate:att2.dailyquest.mainplayer_name,with:[{nbt:"set",storage:"att2:id","interpret":true,color:"dark_red"}]},{translate:att2.dailyquest.kortaek.3.end}]
 ##sound

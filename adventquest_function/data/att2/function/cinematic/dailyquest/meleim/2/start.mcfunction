@@ -5,7 +5,7 @@
 #Task requirements: #Time limit : 10 minutes
 #Provide him with 500 chronotons in aid...
 #############################################################
-    
+
 ##accepted detection
 execute store result score #accepted_count CAL if entity @e[distance=..10,type=interaction,tag=Accepted,tag=HaveQuest]
 execute if score #accepted_count CAL matches 3.. run return run function att2:cinematic/dailyquest/update_quest_board/accepted_max

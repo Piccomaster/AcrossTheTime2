@@ -32,15 +32,20 @@ scoreboard players operation rewards_city_donation DAILYQUEST = kortaek_dailyque
 scoreboard players operation kortaek_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
 ##tip
-tellraw @a [{translate:att2.dailyquest.kortaek.completed},{translate:att2.dailyquest.kortaek.1.name,color:"blue"}]
+tellraw @a [{translate:att2.dailyquest.kortaek.completed},{translate:att2.dailyquest.kortaek.4.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:rewards_chronotons,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.reputation,with:[{score:{name:rewards_reputation,objective:DAILYQUEST},color:"dark_green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.kortaek.city_donation,with:[{score:{name:rewards_city_donation,objective:DAILYQUEST},color:"blue"}]}]
+tellraw @a [{translate:att2.dailyquest.kortaek.4.reward.other}]
 
 ##reset
 function att2:cinematic/dailyquest/kortaek/4/reset
 ##add quest completed count
 scoreboard players add kortaek_dailyquest_completed_count DAILYQUEST 1
 scoreboard players set kortaek_dailyquest_4_completed DAILYQUEST 1
+
+##rewards other
+scoreboard players add points RECYCLER 300
+function att2:items/chronoton/esc_give_maco {count:30}

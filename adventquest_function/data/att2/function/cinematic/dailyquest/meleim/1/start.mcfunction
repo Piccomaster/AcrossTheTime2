@@ -22,6 +22,7 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:meleim_dailyquest_1_rewards_xp,objective:DAILYQUEST},color:"green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.reputation,with:[{score:{name:meleim_dailyquest_1_rewards_reputation,objective:DAILYQUEST},color:"dark_green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.meleim.city_donation,with:[{score:{name:meleim_dailyquest_1_rewards_city_donation,objective:DAILYQUEST},color:"blue"}]}]
+tellraw @a [{translate:att2.dailyquest.meleim.1.reward.other}]
 ##sound
 playsound minecraft:exploit player @a ~ ~ ~ 1 1 0.5
 ##particle
@@ -34,5 +35,5 @@ function att2:cinematic/dailyquest/update_quest_board/accepted_select
 ##remove request board
 execute as @n[distance=..10,type=interaction,tag=Request,nbt={data:{questid:1}}] at @s run function att2:cinematic/dailyquest/update_quest_board/request_reset
 
-##ryliath start
+##meleim start
 scoreboard players set meleim_start DAILYQUEST 1

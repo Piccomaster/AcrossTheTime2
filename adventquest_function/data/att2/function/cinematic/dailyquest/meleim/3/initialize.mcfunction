@@ -18,3 +18,6 @@ scoreboard players set meleim_dailyquest_3_fail_chronoton DAILYQUEST 0
 scoreboard players set meleim_dailyquest_3_fail_reputation DAILYQUEST 3
 
 ##other: no
+scoreboard players set meleim_dailyquest_3_matching_game DAILYQUEST 0
+
+scoreboard players set meleim_dailyquest_3_matching_game_requirement DAILYQUEST 3

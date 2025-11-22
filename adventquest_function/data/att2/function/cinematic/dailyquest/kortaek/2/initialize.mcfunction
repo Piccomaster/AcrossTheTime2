@@ -18,3 +18,5 @@ scoreboard players set kortaek_dailyquest_2_fail_chronoton DAILYQUEST 100
 scoreboard players set kortaek_dailyquest_2_fail_reputation DAILYQUEST 3
 
 ##other: no
+scoreboard players set kortaek_dailyquest_2_elixirvitae DAILYQUEST 0
+scoreboard players set kortaek_dailyquest_2_elixirvitae_requirement DAILYQUEST 1

@@ -51,6 +51,8 @@ data modify storage att2:dailyquest data.dialog append value {text:"\n"}
 data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.rewards.add.kortaek.city_donation,with:[""],color:"blue"}
 execute store result storage att2:dailyquest data.dialog[-1].with[0] int 1 run scoreboard players get kortaek_dailyquest_3_rewards_city_donation DAILYQUEST
 data modify storage att2:dailyquest data.dialog append value {text:"\n"}
+##rewards other
+data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.kortaek.3.reward.other,color:"blue"}
 
 ##trigger id
 execute unless score #Accepted_Test DAILYQUEST matches 1 run data modify storage att2:dailyquest data.triggerid set value 3196

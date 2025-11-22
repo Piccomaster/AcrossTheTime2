@@ -18,4 +18,6 @@ scoreboard players set eolorion_dailyquest_4_fail_chronoton DAILYQUEST 100
 scoreboard players set eolorion_dailyquest_4_fail_reputation DAILYQUEST 3
 
 ##Others: Black Market experience + 300
-Ecaille Souveraine du Chaos + 20
+#Ecaille Souveraine du Chaos + 20
+scoreboard players set eolorion_dailyquest_4_submit_leg_equipment DAILYQUEST 0
+scoreboard players set eolorion_dailyquest_4_submit_leg_equipment_requirement DAILYQUEST 4

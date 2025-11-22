@@ -32,7 +32,7 @@ scoreboard players operation rewards_city_donation DAILYQUEST = meleim_dailyques
 scoreboard players operation meleim_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
 ##tip
-tellraw @a [{translate:att2.dailyquest.meleim.completed},{translate:att2.dailyquest.meleim.1.name,color:"blue"}]
+tellraw @a [{translate:att2.dailyquest.meleim.completed},{translate:att2.dailyquest.meleim.2.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:rewards_chronotons,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]
@@ -44,3 +44,8 @@ function att2:cinematic/dailyquest/meleim/2/reset
 ##add quest completed count
 scoreboard players add meleim_dailyquest_completed_count DAILYQUEST 1
 scoreboard players set meleim_dailyquest_2_completed DAILYQUEST 1
+
+##add babbu_counter SQ39 + 500
+scoreboard players add babbu_counter SQ39 500
+scoreboard players set #TEST CAL 0
+execute if score babbu_counter SQ39 matches 2500.. run function att2:cinematic/sidequest/39/babbu/answer_3_1

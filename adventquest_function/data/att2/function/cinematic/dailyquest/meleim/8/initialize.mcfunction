@@ -18,4 +18,6 @@ scoreboard players set meleim_dailyquest_8_fail_chronoton DAILYQUEST 100
 scoreboard players set meleim_dailyquest_8_fail_reputation DAILYQUEST 3
 
 ##Others: Black Market experience + 200
-Ecaille Souveraine du Chaos + 15
+#Ecaille Souveraine du Chaos + 15
+scoreboard players set meleim_dailyquest_8_submit_epi_set_equipment DAILYQUEST 0
+scoreboard players set meleim_dailyquest_8_submit_epi_set_equipment_requirement DAILYQUEST 4

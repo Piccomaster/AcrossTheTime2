@@ -6,6 +6,14 @@
 #Submit four legendary pieces of equipment.
 #############################################################
 
+##fail
+execute if score eolorion_dailyquest_4 DAILYQUEST matches -1 run return run function att2:cinematic/dailyquest/eolorion/4/penalty
+
+##submit inventory
+function att2:cinematic/dailyquest/eolorion/4/trigger/submit_dialog
+
+##limit
+execute unless score eolorion_dailyquest_4_submit_leg_equipment DAILYQUEST matches 4.. run return 0
 ##ui
 function att2:cinematic/dailyquest/ui/reset
 
@@ -19,5 +27,3 @@ playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.5 0.5
 execute if score eolorion_dailyquest_4 DAILYQUEST matches 100 run return run function att2:cinematic/dailyquest/eolorion/4/success
 ##fail
 execute if score eolorion_dailyquest_4 DAILYQUEST matches -1 run return run function att2:cinematic/dailyquest/eolorion/4/penalty
-##not complete
-execute unless score eolorion_dailyquest_4 DAILYQUEST matches 100 run return run tellraw @s [{translate:att2.dailyquest.dialog.incomplete}]

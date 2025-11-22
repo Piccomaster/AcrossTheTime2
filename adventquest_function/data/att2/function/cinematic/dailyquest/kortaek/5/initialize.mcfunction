@@ -18,3 +18,5 @@ scoreboard players set kortaek_dailyquest_5_fail_chronoton DAILYQUEST 100
 scoreboard players set kortaek_dailyquest_5_fail_reputation DAILYQUEST 3
 
 ##other: no
+scoreboard players set kortaek_dailyquest_5_complete_maze_trial DAILYQUEST 0
+scoreboard players set kortaek_dailyquest_5_complete_maze_trial_requirement DAILYQUEST 1

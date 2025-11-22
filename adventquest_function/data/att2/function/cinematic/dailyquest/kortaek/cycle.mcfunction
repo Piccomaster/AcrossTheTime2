@@ -6,8 +6,8 @@
 ##remove cycle
 execute if score kortaek_cycle_time DAILYQUEST matches 1.. run scoreboard players remove kortaek_cycle_time DAILYQUEST 1
 ##add update score
-execute if score kortaek_cycle_time DAILYQUEST matches ..0 run scoreboard players add kortaek_update_count DAILYQUEST 1
-execute if score kortaek_cycle_time DAILYQUEST matches ..0 run scoreboard players operation kortaek_cycle_time DAILYQUEST = kortaek_cycle_time_set DAILYQUEST
+execute unless score kortaek_cycle_time DAILYQUEST matches 1.. run scoreboard players add kortaek_update_count DAILYQUEST 1
+execute unless score kortaek_cycle_time DAILYQUEST matches 1.. run scoreboard players operation kortaek_cycle_time DAILYQUEST = kortaek_cycle_time_set DAILYQUEST
 ##if player nearly -> update
 execute unless score kortaek_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0

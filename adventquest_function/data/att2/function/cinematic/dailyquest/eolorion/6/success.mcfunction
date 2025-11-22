@@ -32,7 +32,7 @@ scoreboard players operation rewards_city_donation DAILYQUEST = eolorion_dailyqu
 scoreboard players operation eolorion_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
 ##tip
-tellraw @a [{translate:att2.dailyquest.eolorion.completed},{translate:att2.dailyquest.eolorion.1.name,color:"blue"}]
+tellraw @a [{translate:att2.dailyquest.eolorion.completed},{translate:att2.dailyquest.eolorion.6.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:rewards_chronotons,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]

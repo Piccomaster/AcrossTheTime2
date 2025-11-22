@@ -6,12 +6,18 @@
 #Submit one ultimate equipment.
 #############################################################
 
+##fail
+execute if score kortaek_dailyquest_4 DAILYQUEST matches -1 run return run function att2:cinematic/dailyquest/kortaek/4/penalty
+
+##submit inventory
+function att2:cinematic/dailyquest/kortaek/4/trigger/submit_dialog
+
+##limit
+execute unless score kortaek_dailyquest_4_submit_ult_equipment DAILYQUEST matches 1.. run return 0
 ##ui
 function att2:cinematic/dailyquest/ui/reset
 
 ##other detection
-
-
 
 #sound
 playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.5 0.5

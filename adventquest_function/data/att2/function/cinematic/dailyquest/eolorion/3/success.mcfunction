@@ -32,15 +32,23 @@ scoreboard players operation rewards_city_donation DAILYQUEST = eolorion_dailyqu
 scoreboard players operation eolorion_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
 ##tip
-tellraw @a [{translate:att2.dailyquest.eolorion.completed},{translate:att2.dailyquest.eolorion.1.name,color:"blue"}]
+tellraw @a [{translate:att2.dailyquest.eolorion.completed},{translate:att2.dailyquest.eolorion.3.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:rewards_chronotons,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.reputation,with:[{score:{name:rewards_reputation,objective:DAILYQUEST},color:"dark_green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.eolorion.city_donation,with:[{score:{name:rewards_city_donation,objective:DAILYQUEST},color:"blue"}]}]
+tellraw @a [{translate:att2.dailyquest.eolorion.3.reward.other}]
 
 ##reset
 function att2:cinematic/dailyquest/eolorion/3/reset
 ##add quest completed count
 scoreboard players add eolorion_dailyquest_completed_count DAILYQUEST 1
 scoreboard players set eolorion_dailyquest_3_completed DAILYQUEST 1
+
+##clear
+clear @s glowstone_dust[custom_name={translate:'item.rune.name.9'}] 2
+clear @s glowstone_dust[custom_name={translate:'item.rune.name.6'}] 4
+
+##Other: A randomly Rune Enchantment equipment
+execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/carmine_mordan_epi_rune_enchantment

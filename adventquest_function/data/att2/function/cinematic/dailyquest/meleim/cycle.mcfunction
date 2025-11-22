@@ -6,8 +6,8 @@
 ##remove cycle
 execute if score meleim_cycle_time DAILYQUEST matches 1.. run scoreboard players remove meleim_cycle_time DAILYQUEST 1
 ##add update score
-execute if score meleim_cycle_time DAILYQUEST matches ..0 run scoreboard players add meleim_update_count DAILYQUEST 1
-execute if score meleim_cycle_time DAILYQUEST matches ..0 run scoreboard players operation meleim_cycle_time DAILYQUEST = meleim_cycle_time_set DAILYQUEST
+execute unless score meleim_cycle_time DAILYQUEST matches 1.. run scoreboard players add meleim_update_count DAILYQUEST 1
+execute unless score meleim_cycle_time DAILYQUEST matches 1.. run scoreboard players operation meleim_cycle_time DAILYQUEST = meleim_cycle_time_set DAILYQUEST
 ##if player nearly -> update
 execute unless score meleim_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0
@@ -36,6 +36,7 @@ data modify storage att2:dailyquest rng_selectid set value 2
 execute unless score meleim_dailyquest_2_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score meleim_dailyquest_2 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score SQ39 SIDEQUEST matches 1..99 run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:2}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -60,6 +61,7 @@ data modify storage att2:dailyquest rng_selectid set value 4
 execute unless score meleim_dailyquest_4_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score meleim_dailyquest_4 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score meleim_city_donation DAILYQUEST matches 50.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:4}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -72,6 +74,7 @@ data modify storage att2:dailyquest rng_selectid set value 5
 execute unless score meleim_dailyquest_5_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score meleim_dailyquest_5 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score heros REPUTATION matches 50.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:5}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -96,6 +99,7 @@ data modify storage att2:dailyquest rng_selectid set value 7
 execute unless score meleim_dailyquest_7_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score meleim_dailyquest_7 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score meleim_city_donation DAILYQUEST matches 50.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:7}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -132,6 +136,8 @@ data modify storage att2:dailyquest rng_selectid set value 10
 execute unless score meleim_dailyquest_10_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score meleim_dailyquest_10 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score meleim_city_donation DAILYQUEST matches 200.. run scoreboard players set #RNG CAL 0
+execute unless score heros REPUTATION matches 100.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:10}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 

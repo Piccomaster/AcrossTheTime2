@@ -31,6 +31,12 @@ scoreboard players operation heros REPUTATION += rewards_reputation DAILYQUEST
 scoreboard players operation rewards_city_donation DAILYQUEST = eolorion_dailyquest_8_rewards_city_donation DAILYQUEST
 scoreboard players operation eolorion_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
+##reduce spell4 dahal cost score
+scoreboard players add SP4_10_reduce DAHAL_COST 10
+scoreboard players operation SP4_10_reduce DAHAL_COST < 50 CAL
+scoreboard players remove SP4_10 DAHAL_COST 10
+scoreboard players operation SP4_10 DAHAL_COST > 300 CAL
+
 ##tip
 tellraw @a [{translate:att2.dailyquest.eolorion.completed},{translate:att2.dailyquest.eolorion.1.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
@@ -38,6 +44,7 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.reputation,with:[{score:{name:rewards_reputation,objective:DAILYQUEST},color:"dark_green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.eolorion.city_donation,with:[{score:{name:rewards_city_donation,objective:DAILYQUEST},color:"blue"}]}]
+tellraw @a [{translate:att2.dailyquest.eolorion.8.reward.other,with:[{score:{name:SP4_10_reduce,objective:DAHAL_COST},color:green},"§2/",{score:{name:"50",objective:CAL},color:green}]}]
 
 ##reset
 function att2:cinematic/dailyquest/eolorion/8/reset

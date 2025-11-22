@@ -18,4 +18,6 @@ scoreboard players set kortaek_dailyquest_4_fail_chronoton DAILYQUEST 100
 scoreboard players set kortaek_dailyquest_4_fail_reputation DAILYQUEST 3
 
 ##other : Black Market experience + 300
-ESC + 30
+#ESC + 30
+scoreboard players set kortaek_dailyquest_4_submit_ult_equipment DAILYQUEST 0
+scoreboard players set kortaek_dailyquest_4_submit_ult_equipment_requirement DAILYQUEST 1
