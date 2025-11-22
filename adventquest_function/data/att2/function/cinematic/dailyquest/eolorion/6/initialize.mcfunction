@@ -18,3 +18,5 @@ scoreboard players set eolorion_dailyquest_6_fail_chronoton DAILYQUEST 100
 scoreboard players set eolorion_dailyquest_6_fail_reputation DAILYQUEST 3
 
 ##other: no
+scoreboard players set eolorion_dailyquest_6_ice_secret DAILYQUEST 0
+scoreboard players set eolorion_dailyquest_6_ice_secret_requirement DAILYQUEST 3

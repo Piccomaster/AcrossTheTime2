@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "att2:cinematic/dailyquest/meleim/9/horse_race/special_item/use_b"
+    },
+    "criteria": {
+        "using_b": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:dragon_breath",
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "special_item_b": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

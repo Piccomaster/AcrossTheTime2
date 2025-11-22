@@ -1,0 +1,19 @@
+{
+    "rewards": {
+        "function": "att2:cinematic/dailyquest/long_animation/record/run_stop_trigger"
+    },
+    "criteria": {
+        "use_trigger": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "animation_run_stop_trigger": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -6,8 +6,8 @@
 ##remove cycle
 execute if score ryliath_cycle_time DAILYQUEST matches 1.. run scoreboard players remove ryliath_cycle_time DAILYQUEST 1
 ##add update score
-execute if score ryliath_cycle_time DAILYQUEST matches ..0 run scoreboard players add ryliath_update_count DAILYQUEST 1
-execute if score ryliath_cycle_time DAILYQUEST matches ..0 run scoreboard players operation ryliath_cycle_time DAILYQUEST = ryliath_cycle_time_set DAILYQUEST
+execute unless score ryliath_cycle_time DAILYQUEST matches 1.. run scoreboard players add ryliath_update_count DAILYQUEST 1
+execute unless score ryliath_cycle_time DAILYQUEST matches 1.. run scoreboard players operation ryliath_cycle_time DAILYQUEST = ryliath_cycle_time_set DAILYQUEST
 ##if player nearly -> update
 execute unless score ryliath_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0
@@ -48,6 +48,7 @@ data modify storage att2:dailyquest rng_selectid set value 3
 execute unless score ryliath_dailyquest_3_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_3 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute if score Exploration SYMBOL matches 1000.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:3}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -60,6 +61,7 @@ data modify storage att2:dailyquest rng_selectid set value 4
 execute unless score ryliath_dailyquest_4_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_4 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute if score shulker SECRET matches 80.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:4}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -84,6 +86,7 @@ data modify storage att2:dailyquest rng_selectid set value 6
 execute unless score ryliath_dailyquest_6_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_6 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score ryliath_city_donation DAILYQUEST matches 50.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:6}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -96,6 +99,7 @@ data modify storage att2:dailyquest rng_selectid set value 7
 execute unless score ryliath_dailyquest_7_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_7 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score ryliath_city_donation DAILYQUEST matches 50.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:7}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -108,6 +112,7 @@ data modify storage att2:dailyquest rng_selectid set value 8
 execute unless score ryliath_dailyquest_8_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_8 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score ryliath_city_donation DAILYQUEST matches 50.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:8}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -120,6 +125,7 @@ data modify storage att2:dailyquest rng_selectid set value 9
 execute unless score ryliath_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_9 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score ryliath_city_donation DAILYQUEST matches 100.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:9}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -132,6 +138,7 @@ data modify storage att2:dailyquest rng_selectid set value 10
 execute unless score ryliath_dailyquest_10_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_10 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score ryliath_city_donation DAILYQUEST matches 200.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:10}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -156,6 +163,7 @@ data modify storage att2:dailyquest rng_selectid set value 12
 execute unless score ryliath_dailyquest_12_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_12 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score ryliath_city_donation DAILYQUEST matches 100.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:12}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -168,6 +176,8 @@ data modify storage att2:dailyquest rng_selectid set value 13
 execute unless score ryliath_dailyquest_13_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score ryliath_dailyquest_13 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score ryliath_city_donation DAILYQUEST matches 100.. run scoreboard players set #RNG CAL 0
+execute unless score heros REPUTATION matches 100.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:13}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 

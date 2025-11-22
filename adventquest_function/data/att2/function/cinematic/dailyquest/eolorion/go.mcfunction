@@ -4,7 +4,7 @@
 ##################################################
 
 ##if player nearly update questboard data
-execute in overworld positioned -4938 76 -5028 run function att2:cinematic/dailyquest/eolorion/cycle
+execute in overworld positioned -5305 104 -6281 run function att2:cinematic/dailyquest/eolorion/cycle
 
 ##dailyquest_1 : "Fueling" a snow-bound city
 execute if score eolorion_dailyquest_1 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/eolorion/1/go
@@ -35,4 +35,3 @@ execute if score eolorion_dailyquest_9 DAILYQUEST matches 1..100 run function at
 
 ##dailyquest_10 : ...
 execute if score eolorion_dailyquest_10 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/eolorion/10/go
-

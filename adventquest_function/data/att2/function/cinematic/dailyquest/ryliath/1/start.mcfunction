@@ -38,6 +38,3 @@ scoreboard players set ryliath_start DAILYQUEST 1
 
 
 ##other
-
-#Guarantee Mechanism
-scoreboard players set ryliath_dailyquest_1_guarantee DAILYQUEST 1

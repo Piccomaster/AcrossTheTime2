@@ -6,6 +6,15 @@
 #Submit any four pieces of epic set equipment.
 #############################################################
 
+
+##fail
+execute if score meleim_dailyquest_8 DAILYQUEST matches -1 run return run function att2:cinematic/dailyquest/meleim/8/penalty
+
+##submit inventory
+function att2:cinematic/dailyquest/meleim/8/trigger/submit_dialog
+
+##limit
+execute unless score meleim_dailyquest_8_submit_epi_set_equipment DAILYQUEST matches 4.. run return 0
 ##ui
 function att2:cinematic/dailyquest/ui/reset
 

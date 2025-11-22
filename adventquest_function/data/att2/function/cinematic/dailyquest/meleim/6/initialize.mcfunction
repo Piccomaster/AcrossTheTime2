@@ -18,3 +18,9 @@ scoreboard players set meleim_dailyquest_6_fail_chronoton DAILYQUEST 50
 scoreboard players set meleim_dailyquest_6_fail_reputation DAILYQUEST 3
 
 ##other: no
+scoreboard players set meleim_dailyquest_6_kill_bee_requirement DAILYQUEST 10
+
+scoreboard players set meleim_dailyquest_6_kill_bee DAILYQUEST 0
+
+#Guarantee Mechanism
+scoreboard players set meleim_dailyquest_6_guarantee DAILYQUEST 1

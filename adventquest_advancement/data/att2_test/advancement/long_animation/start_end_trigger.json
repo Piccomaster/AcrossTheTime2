@@ -1,0 +1,19 @@
+{
+    "rewards": {
+        "function": "att2:cinematic/dailyquest/long_animation/record/start_end_trigger"
+    },
+    "criteria": {
+        "use_trigger": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "animation_start_end_trigger": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -19,3 +19,9 @@ scoreboard players set meleim_dailyquest_1_fail_chronoton DAILYQUEST 50
 scoreboard players set meleim_dailyquest_1_fail_reputation DAILYQUEST 3
 
 ##Other: Rare bait x 10
+scoreboard players set meleim_dailyquest_1_fishing DAILYQUEST 0
+
+scoreboard players set meleim_dailyquest_1_fishing_requirement DAILYQUEST 5
+
+##reset fishing trigger
+function att2:gameplay/misc/fishing/asunark/initialize

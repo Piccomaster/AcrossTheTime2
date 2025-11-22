@@ -52,4 +52,4 @@ clear @s glowstone_dust[custom_name={translate:'item.rune.name.3'}] 2
 clear @s glowstone_dust[custom_name={translate:'item.rune.name.5'}] 1
 
 ##Other: A randomly Rune Enchantment equipment
-loot give @a loot att2:dailyquest/random_equipment/wulk_rar_rune_enchantment
+execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/wulk_rar_rune_enchantment

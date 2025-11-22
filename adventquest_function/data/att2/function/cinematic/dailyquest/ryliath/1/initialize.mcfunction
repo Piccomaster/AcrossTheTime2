@@ -25,3 +25,6 @@ scoreboard players set ryliath_dailyquest_1_open_rune_chest_requirement DAILYQUE
 scoreboard players set ryliath_dailyquest_1_kill_mimic DAILYQUEST 0
 scoreboard players set ryliath_dailyquest_1_kill_mobs_invasion DAILYQUEST 0
 scoreboard players set ryliath_dailyquest_1_open_rune_chest DAILYQUEST 0
+
+#Guarantee Mechanism
+scoreboard players set ryliath_dailyquest_1_guarantee DAILYQUEST 1

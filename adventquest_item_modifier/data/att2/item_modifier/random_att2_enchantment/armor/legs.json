@@ -1,0 +1,115 @@
+{
+  "function": "sequence",
+  "functions": [
+    {
+      "function": "enchant_randomly",
+      "options": [
+        "att2_enchantment:auto_mending",
+        "att2_enchantment:runeharden",
+        "att2_enchantment:swiftsneak",
+        "att2_enchantment:arcanedrive",
+        "att2_enchantment:treasurehunter"
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:auto_mending"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:auto_mending": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:runeharden"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:runeharden": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:swiftsneak"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:swiftsneak": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:arcanedrive"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:arcanedrive": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:treasurehunter"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:treasurehunter": 1
+          }
+        }
+      ]
+    }
+  ]
+}

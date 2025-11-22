@@ -1,0 +1,115 @@
+{
+  "function": "sequence",
+  "functions": [
+    {
+      "function": "enchant_randomly",
+      "options": [
+        "att2_enchantment:auto_mending",
+        "att2_enchantment:runeharden",
+        "att2_enchantment:heart_protection",
+        "att2_enchantment:dahalburst",
+        "att2_enchantment:selflessaid"
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:auto_mending"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:auto_mending": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:runeharden"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:runeharden": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:heart_protection"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:heart_protection": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:dahalburst"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:dahalburst": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:selflessaid"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:selflessaid": 1
+          }
+        }
+      ]
+    }
+  ]
+}

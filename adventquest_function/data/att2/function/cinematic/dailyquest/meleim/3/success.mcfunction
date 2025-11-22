@@ -32,7 +32,7 @@ scoreboard players operation rewards_city_donation DAILYQUEST = meleim_dailyques
 scoreboard players operation meleim_city_donation DAILYQUEST += rewards_city_donation DAILYQUEST
 
 ##tip
-tellraw @a [{translate:att2.dailyquest.meleim.completed},{translate:att2.dailyquest.meleim.1.name,color:"blue"}]
+tellraw @a [{translate:att2.dailyquest.meleim.completed},{translate:att2.dailyquest.meleim.3.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:rewards_chronotons,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]

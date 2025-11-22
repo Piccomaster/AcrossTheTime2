@@ -19,3 +19,4 @@ scoreboard players set meleim_dailyquest_9_fail_chronoton DAILYQUEST 100
 scoreboard players set meleim_dailyquest_9_fail_reputation DAILYQUEST 3
 
 ##Other: Qualification to participate in the <Sylberland Divine Steed Challenge: Semifinals>.
+

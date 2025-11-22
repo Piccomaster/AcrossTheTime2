@@ -38,9 +38,3 @@ execute as @n[distance=..10,type=interaction,tag=Request,nbt={data:{questid:2}}]
 
 ##ryliath start
 scoreboard players set ryliath_start DAILYQUEST 1
-
-
-##other
-#set Prompt quantity
-scoreboard players set #small_ores_resummon_count DAILYQUEST 3
-scoreboard players set #medium_ores_resummon_count DAILYQUEST 2

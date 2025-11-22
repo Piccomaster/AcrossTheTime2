@@ -1,0 +1,157 @@
+{
+  "function": "sequence",
+  "functions": [
+    {
+      "function": "enchant_randomly",
+      "options": [
+        "att2_enchantment:auto_mending",
+        "att2_enchantment:runeharden",
+        "att2_enchantment:easywalk",
+        "att2_enchantment:speedburn",
+        "att2_enchantment:speedsave",
+        "att2_enchantment:abyssdiver",
+        "att2_enchantment:cooldownrush"
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:auto_mending"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:auto_mending": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:runeharden"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:runeharden": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:easywalk"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:easywalk": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:speedburn"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:speedburn": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:speedsave"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:speedsave": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:abyssdiver"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:abyssdiver": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:cooldownrush"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:cooldownrush": 1
+          }
+        }
+      ]
+    }
+  ]
+}
