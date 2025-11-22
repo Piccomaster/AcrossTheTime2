@@ -2,7 +2,8 @@
     "values": [
       "minecraft:item_display",
       "minecraft:text_display",
-      "minecraft:block_display"
+      "minecraft:block_display",
+      "minecraft:interaction"
     ],
     "replace": false
   }
