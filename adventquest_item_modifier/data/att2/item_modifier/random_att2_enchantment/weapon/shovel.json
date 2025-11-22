@@ -1,0 +1,94 @@
+{
+  "function": "sequence",
+  "functions": [
+    {
+      "function": "enchant_randomly",
+      "options": [
+        "att2_enchantment:auto_mending",
+        "att2_enchantment:runeharden",
+        "att2_enchantment:combohit",
+        "att2_enchantment:backstab"
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:auto_mending"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:auto_mending": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:runeharden"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:runeharden": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:combohit"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:combohit": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:backstab"
+            }
+          ]
+        }
+      },
+      "modifier": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:backstab": 1
+          }
+        }
+      ]
+    }
+  ]
+}
