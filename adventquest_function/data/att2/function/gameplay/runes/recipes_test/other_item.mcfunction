@@ -53,7 +53,7 @@ scoreboard players operation xp_total CAL += com_bait CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get xp_total CAL
 ##xp add
-execute if score total_item RUNECOUNT = com RUNECOUNT run return run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score total_item RUNECOUNT = com RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #unc_equipment : xp = 50 x unc_count*unc_count
 #unc_potion : xp = 25 x unc_potion*unc_potion
@@ -79,7 +79,7 @@ scoreboard players operation xp_total CAL += unc_bait CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get xp_total CAL
 ##xp add
-execute if score total_item RUNECOUNT = unc RUNECOUNT run return run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score total_item RUNECOUNT = unc RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #rar_equipment : xp = 100 x rar_count*rar_count
 #rar_potion : xp = 50 x rar_potion*rar_potion
