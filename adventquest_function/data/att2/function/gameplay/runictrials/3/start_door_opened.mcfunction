@@ -3,7 +3,7 @@
 #Process start door opened runic trial 3                                #
 #########################################################################
 
-scoreboard players add door1_trial3 RUNICTRIAL -1
+scoreboard players set door1_trial3 RUNICTRIAL -1
 execute as @a at @s run function att2:sound/misc/missions_progress
 execute positioned -4836 70 -5029 run function att2:sound/door/copper_door_open
 fill -4830 64 -5028 -4824 62 -5030 minecraft:air
