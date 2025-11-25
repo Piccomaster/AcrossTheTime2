@@ -11,7 +11,7 @@ execute as @e[type=bat,tag=NewPet] run tag @s add VitalityPet1
 execute as @e[type=bat,tag=NewPet] run tag @s remove NewPet
 execute as @e[type=bat,tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
 
-scoreboard players remove @s DAHAL 80
+scoreboard players operation @s DAHAL -= SP21_1 DAHAL_COST
 function att2:gameplay/dahal/action/spell21/cooldown
 
 # Spell launch total count for advancement

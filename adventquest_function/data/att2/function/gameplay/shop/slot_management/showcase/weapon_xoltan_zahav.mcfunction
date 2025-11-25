@@ -3,18 +3,18 @@
 #Process the shop table of weapon_xoltan_zahav    		        #
 #################################################################
 #set random value
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot1"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot1 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot2"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot2 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot3"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot3 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot4"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot4 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot5"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot5 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot6"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot6 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot7"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot7 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot8"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot8 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot9"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot9 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot10"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot10 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot11"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot11 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot12"]}] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot12 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot1] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot1 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot2] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot2 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot3] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot3 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot4] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot4 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot5] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot5 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot6] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot6 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot7] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot7 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot8] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot8 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot9] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot9 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot10] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot10 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot11] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot11 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot12] run scoreboard players operation @s SHOP_OP1 = weapon_xoltan_zahav_slot12 SHOP_OP1
 
 execute if score @s SHOP_OP1 matches 0..3 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/shield_50
 execute if score @s SHOP_OP1 matches 4..6 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/shield_51

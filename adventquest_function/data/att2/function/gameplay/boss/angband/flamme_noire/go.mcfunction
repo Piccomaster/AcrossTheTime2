@@ -32,8 +32,8 @@ particle minecraft:dust{color:[1,0,0],scale:1} 3543 44 4910 0.25 2.0 0.25 0 3 fo
 particle minecraft:dust{color:[1,0,0],scale:1} 3544 44 4909 0.25 2.0 0.25 0 3 force
 
 # Enable Bossbar storing health of Flamme Noire
-execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire value run data get entity @e[type=minecraft:ghast,nbt={UUID:[I;0,91,0,107]},limit=1] Health
-execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire max run data get entity @e[type=minecraft:ghast,nbt={UUID:[I;0,91,0,107]},limit=1] attributes[{id:"minecraft:max_health"}].base
+execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire value run data get entity 00000000-0000-005b-0000-00000000006b Health
+execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire max run data get entity 00000000-0000-005b-0000-00000000006b attributes[{id:"minecraft:max_health"}].base
 
 # Security because Ghast are killed in one Fireball
 execute if score FlammeNoire ANGOR matches 0..9 at 00000000-0000-005b-0000-00000000006b as @e[type=minecraft:fireball,tag=FireballSpell,distance=..7] run data merge entity @s {Motion:[0.0,4.0,0.0]}

@@ -7,7 +7,12 @@ function att2:gameplay/pnj_talk/dialog_playsound/eric_melsath
 
 scoreboard players set eric_melsath_PNJ statDIALOG 1
 #test entity dialog
-execute as @a[distance=..7] if score eric_melsath_PNJ DIALOG matches 1..1 run function att2:dialogs/others/eric_melsath/dialog_1
+execute as @a[distance=..7] if score eric_melsath_PNJ DIALOG matches 1..1 unless score meleim_dailyquest_9 DAILYQUEST matches 1.. run function att2:dialogs/others/eric_melsath/dialog_1
+
+execute as @a[distance=..7] if score meleim_dailyquest_9 DAILYQUEST matches 3.. unless score Meleim HORSERACE matches 3 run function att2:dialogs/others/eric_melsath/dialog_2
+
+execute as @a[distance=..7] if score Meleim HORSERACE matches 3 run function att2:dialogs/others/eric_melsath/dialog_3
+ 
 
 #Activation entity head movement
 scoreboard players set 00000000-0000-039a-0000-00000000039a TALKING 1

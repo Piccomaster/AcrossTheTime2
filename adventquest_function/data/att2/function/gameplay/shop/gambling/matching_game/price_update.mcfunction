@@ -63,13 +63,4 @@ function att2:gameplay/shop/gambling/matching_game/show_price
 #cal unlock count
 execute store result score lock MatchingGamePrice if data storage att2:matching_game temp_form[{translate:"matching_game.lock"}]
 ##test if all unlock rewards
-execute as @s[scores={MatchingGameId=1,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=2,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=3,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=4,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=5,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=6,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=7,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=8,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=9,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
-execute as @s[scores={MatchingGameId=10,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete
+execute as @s[scores={MatchingGameId=1..10,MatchingGamePrice=1..}] if score lock MatchingGamePrice matches 0 run return run function att2:gameplay/shop/gambling/matching_game/rewards/complete

@@ -16,4 +16,4 @@ scoreboard players reset temp_value_1 CAL
 #
 
 execute if score @s ARR_POWER matches -2.. at @s anchored eyes positioned ^ ^ ^ as @e[distance=..5,type=#minecraft:arrows] at @s on origin if score @s SHOOTING matches 1.. run tag @e[distance=..0,limit=1,type=#minecraft:arrows] add New_SHOOT
-execute as @e[tag=New_SHOOT] run data merge entity @s {damage:0}
+execute as @e[type=#minecraft:arrows,tag=New_SHOOT] run data merge entity @s {damage:0}

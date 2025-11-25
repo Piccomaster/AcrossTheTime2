@@ -22,7 +22,7 @@ execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[dist
 
 #dahal
 
-scoreboard players remove @s DAHAL 125
+scoreboard players operation @s DAHAL -= SP42_5 DAHAL_COST
 function att2:gameplay/dahal/action/spell42/cooldown
 scoreboard players add @s SPELL42_LVL 3
 function att2:gameplay/dahal/bonus_xp

@@ -4,7 +4,7 @@
 ##################################################
 
 #cal stat value
-execute if score @s STR_DISPLAY matches 1.. run function att2:gameplay/stat/strength/data_cal
+execute if score @s STR_DISPLAY matches 1.. store result score #STR_DATA CAL run attribute @s attack_damage get
 execute if score @s HAS_DISPLAY matches 1.. run function att2:gameplay/stat/haste/data_cal
 execute if score @s HUN_DISPLAY matches 1.. run function att2:gameplay/stat/hunger/data_cal
 execute if score @s HER_DISPLAY matches 1.. run function att2:gameplay/stat/healthregen/data_cal
@@ -15,8 +15,8 @@ execute if score @s SPD_DISPLAY matches 1.. run function att2:gameplay/stat/spee
 #reset data
 function att2:gameplay/stat/display/reset_data
 #STR
-execute if score @s STR_DISPLAY matches 1.. if score @s STR_DATA matches 0.. run data modify storage att2:stat_display str set value {translate:att2.stat.display.str,with:[{score:{name:"@s",objective:"STR_DATA"},color:green}]}
-execute if score @s STR_DISPLAY matches 1.. unless score @s STR_DATA matches 0.. run data modify storage att2:stat_display str set value {translate:att2.stat.display.str,with:[{score:{name:"@s",objective:"STR_DATA"},color:red}]}
+execute if score @s STR_DISPLAY matches 1.. if score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display str set value {translate:att2.stat.display.str,with:[{score:{name:"#STR_DATA",objective:"CAL"},color:green}]}
+execute if score @s STR_DISPLAY matches 1.. unless score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display str set value {translate:att2.stat.display.str,with:[{score:{name:"#STR_DATA",objective:"CAL"},color:red}]}
 #RES
 execute if score @s RES_DISPLAY matches 1.. run data modify storage att2:stat_display res set value {translate:att2.stat.display.res.value,with:[{score:{name:"@s",objective:"RES_DATA"},color:green}]}
 #SPD

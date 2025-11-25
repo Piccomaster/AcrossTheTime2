@@ -3,7 +3,7 @@
 #Corruption lvl8												#
 #################################################################
 
-scoreboard players remove @s DAHAL 25
+scoreboard players operation @s DAHAL -= SP40_8 DAHAL_COST
 scoreboard players add @s SPELL40_LVL 1
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL40_LVL += @s BONUS_XP_SPELL

@@ -98,3 +98,7 @@ execute if score extratellur_m BOSS_TIME matches 0 if score extratellur_s BOSS_T
 execute if score extratellur_m BOSS_TIME matches 0 if score extratellur_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_5
 
 execute if score extratellur_m BOSS_TIME matches 0 if score extratellur_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/extratellur_master_timerecord
+
+
+##dailyquest trigger
+function att2:cinematic/dailyquest/eolorion/7/trigger/kill_boss

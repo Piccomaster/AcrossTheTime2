@@ -11,7 +11,7 @@ execute as @e[type=parrot,tag=NewPet] run tag @s add AgilityPet2
 execute as @e[type=parrot,tag=NewPet] run tag @s remove NewPet
 execute as @e[type=parrot,tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
 
-scoreboard players remove @s DAHAL 140
+scoreboard players operation @s DAHAL -= SP23_2 DAHAL_COST
 function att2:gameplay/dahal/action/spell23/cooldown
 
 # Spell launch total count for advancement

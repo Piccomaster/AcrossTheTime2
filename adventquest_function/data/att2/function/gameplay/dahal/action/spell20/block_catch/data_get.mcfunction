@@ -9,7 +9,7 @@ execute if entity @e[distance=..7,scores={GAMELEVEL=0..},team=hostile,limit=1] r
 execute unless predicate att2_pre:inground run return 0
 
 ##Get the entity number
-execute store result storage att2:temp player int 1 run scoreboard players get @s OWNER
+function att2:gameplay/score/owner
 ##ResetitemItems
 data remove storage att2:temp temp_data
 ##If it's a box,then return all loot to the player

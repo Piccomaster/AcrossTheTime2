@@ -8,7 +8,7 @@ execute positioned ^ ^ ^-1.2 run function att2:summon/dahal/snowgolem1_class4
 execute positioned ^1.2 ^ ^ run function att2:summon/dahal/snowgolem1_class4
 execute positioned ^-1.2 ^ ^ run function att2:summon/dahal/snowgolem1_class4
 scoreboard players operation @e[type=snow_golem,tag=NewInvo,tag=Spell24] OWNER = @s NUMEROJOUEUR
-scoreboard players remove @s DAHAL 75
+scoreboard players operation @s DAHAL -= SP24_8 DAHAL_COST
 function att2:gameplay/dahal/action/spell24/cooldown
 scoreboard players add @s SPELL24_LVL 4
 function att2:gameplay/dahal/bonus_xp

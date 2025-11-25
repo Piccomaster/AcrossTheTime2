@@ -26,7 +26,7 @@ execute at @s as @a[distance=0.1..8] run function att2:gameplay/dahal/action/spe
 execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
 
 #dahal
-scoreboard players remove @s DAHAL 110
+scoreboard players operation @s DAHAL -= SP44_8 DAHAL_COST
 tag @a[distance=..8] add Elusive
 function att2:gameplay/dahal/action/spell44/cooldown
 scoreboard players add @s SPELL44_LVL 4

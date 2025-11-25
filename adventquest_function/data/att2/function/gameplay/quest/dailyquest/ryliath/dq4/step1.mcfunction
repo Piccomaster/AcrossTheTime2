@@ -15,4 +15,4 @@ execute if score ryliath_dailyquest_4_shulker DAILYQUEST matches 2 at @e[distanc
 
 ##unless
 execute unless entity @e[distance=..100,type=marker,tag=ChestMarker,predicate=att2_pre:test_block/shulker] run tellraw @s {translate:att2.check.shulker.error,color:"red"}
-#execute as @e[distance=..10,type=zombified_piglin,tag=newGPS] at @s anchored feet facing entity @n[type=marker,tag=ChestMarker] feet run function att2:gameplay/gps/tp_arrow
+#execute as @e[distance=..10,type=item_display,tag=MainObjective,tag=Arrow,tag=newGPS] at @s anchored feet facing entity @n[type=marker,tag=ChestMarker] feet run function att2:gameplay/gps/dailyquest/tp_arrow

@@ -3,7 +3,7 @@
 #Nova lvl8														#
 #################################################################
 
-scoreboard players remove @s DAHAL 26
+scoreboard players operation @s DAHAL -= SP11_8 DAHAL_COST
 scoreboard players add @s SPELL11_LVL 1
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL11_LVL += @s BONUS_XP_SPELL

@@ -22,4 +22,4 @@ execute if score ryliath_dailyquest_3_symbol DAILYQUEST matches 9 at @e[distance
 
 ##unless
 execute unless entity @e[distance=..100,type=marker,tag=SymbolMarker] run tellraw @s {translate:att2.check.symbol.error,color:"red"}
-#execute as @e[distance=..10,type=zombified_piglin,tag=newGPS] at @s anchored feet facing entity @n[type=marker,tag=SymbolMarker] feet run function att2:gameplay/gps/tp_arrow
+#execute as @e[distance=..10,type=item_display,tag=MainObjective,tag=Arrow,tag=newGPS] at @s anchored feet facing entity @n[type=marker,tag=SymbolMarker] feet run function att2:gameplay/gps/tp_arrow

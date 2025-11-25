@@ -11,7 +11,7 @@ execute as @e[type=phantom,tag=NewPet] run tag @s add ObstinacyPet3
 execute as @e[type=phantom,tag=NewPet] run tag @s remove NewPet
 execute as @e[type=phantom,tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
 
-scoreboard players remove @s DAHAL 200
+scoreboard players operation @s DAHAL -= SP22_3 DAHAL_COST
 function att2:gameplay/dahal/action/spell22/cooldown
 
 # Spell launch total count for advancement
