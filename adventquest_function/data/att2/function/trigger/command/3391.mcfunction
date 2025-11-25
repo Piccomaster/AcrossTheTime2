@@ -1,0 +1,1 @@
+execute if score preparation_time HORSERACE matches 201.. run scoreboard players set preparation_time HORSERACE 200

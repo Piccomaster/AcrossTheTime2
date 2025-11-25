@@ -1,0 +1,1 @@
+execute if score Meleim HORSERACE matches ..2 run function att2:gameplay/horse_racing/meleim/quick_end
