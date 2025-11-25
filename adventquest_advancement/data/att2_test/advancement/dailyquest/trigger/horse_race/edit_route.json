@@ -1,16 +1,16 @@
 {
     "rewards": {
-        "function": "att2:gameplay/horse_racing/special_item/use_a"
+        "function": "att2:gameplay/horse_racing/edit_route/summon"
     },
     "criteria": {
         "using_a": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": "minecraft:dragon_breath",
+
                     "predicates": {
                         "minecraft:custom_data": {
-                            "special_item_a": true
+                            "edit_route": true
                         }
                     }
                 }
