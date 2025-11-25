@@ -1,0 +1,11 @@
+{
+    "values": [
+      "minecraft:marker",
+      "minecraft:zombified_piglin",
+      "#minecraft:rideable",
+      "minecraft:happy_ghast",
+      "minecraft:mannequin"
+    ],
+    "replace": false
+  }
+  

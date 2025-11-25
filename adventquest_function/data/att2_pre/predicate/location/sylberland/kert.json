@@ -1,0 +1,50 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -6064,
+                        "max": -5680
+                    },
+                    "z": {
+                        "min": -4960,
+                        "max": -4544
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -5680,
+                        "max": -5360
+                    },
+                    "z": {
+                        "min": -5040,
+                        "max": -4336
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "x": {
+                        "min": -5360,
+                        "max": -5088
+                    },
+                    "z": {
+                        "min": -4512,
+                        "max": -4336
+                    }
+                }
+            }
+        }
+    ]
+}
