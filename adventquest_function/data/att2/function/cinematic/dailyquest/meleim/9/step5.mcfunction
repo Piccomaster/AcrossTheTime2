@@ -1,16 +1,16 @@
 #############################################################
 #Made by Adventquest                               			
 #Meleim dailyquest : 9
-#preparing command
+#refuse
 #Task requirements: #Time limit : 30 minutes
 #Achieve a top-three finish in the preliminary round of the horse racing competition.
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
-##add music tag
-tag @s add NoAutoMusic
-##stop music 
-stopsound @s music
-function att2:sound/music/telluron/horse_racing
-##score set
-scoreboard players set @s HORSERACE_MUSIC 3640
+##fail
+#step 5
+scoreboard players set meleim_dailyquest_9 DAILYQUEST -1
+playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.5 0.5
+tellraw @a [{translate:att2.dailyquest.meleim.name}]
+tellraw @a [{translate:att2.dailyquest.meleim.9.name,color:"blue"}]
+tellraw @s [{translate:att2.dailyquest.meleim.9.step.5}]

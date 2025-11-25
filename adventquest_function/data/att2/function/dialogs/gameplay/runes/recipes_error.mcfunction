@@ -3,6 +3,7 @@
 #Use function to start the quest 								#
 #################################################################
 
+playsound noise4 player @a ~ ~ ~ 1 1
 
 #FRENCH LANGUAGE
 
