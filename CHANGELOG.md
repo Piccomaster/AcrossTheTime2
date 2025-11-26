@@ -8,6 +8,12 @@
 
 ### **Game Systems & Interfaces**
 
+#### Daily Quest System
+- **Access Point**: A [Daily Quest Board] has been added to each city (Ryliath,Meleim,Eolorion,Kortaek,Phoenix,Zirthion) for accepting and submitting daily quests
+- **Content**: 60 new daily quests added
+- **Refresh Mechanism**: Daily quests randomly refresh at regular intervals (repeatable completion)
+- **Rewards**: Completing quests grants additional Chronotons, experience points, reputation points, or new items
+
 #### The Book of Consciousness - Interactive Menu
 - **Access Method**: Press `G` to open The Book of Consciousness menu interface
 
@@ -448,6 +454,9 @@
 
 ### **Performance optimization**
 - The data package has been largely optimized, resulting in reduced performance overhead for certain detection processes.
+
+#### NPC Dialogue
+- **NPC Portrait Display**: NPC avatar icons are now shown during dialogues
 
 ### **Issues**
 - Various minor bugs have been fixed.
