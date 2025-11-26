@@ -8,50 +8,50 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {text:" °-° S : ",color:"gray",extra:[{text:"Je connais un sortilège qui limitera les effets de la corruption sur toi.",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=0}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Je connais un sortilège qui limitera les effets de la corruption sur toi.",color:"yellow","italic":true}]}] effets de la corruption sur toi.",color:"yellow","italic":true}]}]
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {text:" °-° S : ",color:"gray",extra:[{text:"I know a spell that will limit the effects of the corruption on you.",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=1}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"I know a spell that will limit the effects of the corruption on you.",color:"yellow","italic":true}]}]effects of the corruption on you.",color:"yellow","italic":true}]}]
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {text:" °-° S : ",color:"gray",extra:[{text:"我知道一個限制墮落泉源效力的咒語。",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"我知道一個限制墮落泉源效力的咒語。",color:"yellow","italic":true}]}]",extra:[{text:"我知道一個限制墮落泉源效力的咒語。",color:"yellow","italic":true}]}]
 
 
 #JAPANESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=3}] {text:" °-° S : ",color:"gray",extra:[{text:"私はあなたの上に影響を制限する呪文を知っています。",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=3}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"私はあなたの上に影響を制限する呪文を知っています。",color:"yellow","italic":true}]}][{text:"私はあなたの上に影響を制限する呪文を知っています。",color:"yellow","italic":true}]}]
 
 #KOREAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=4}] {text:" °-° S : ",color:"gray",extra:[{text:"나는 너에게 영향을 제한할 주문을 알고 있어.",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=4}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"나는 너에게 영향을 제한할 주문을 알고 있어.",color:"yellow","italic":true}]}][{text:"나는 너에게 영향을 제한할 주문을 알고 있어.",color:"yellow","italic":true}]}]
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {text:" °-° S : ",color:"gray",extra:[{text:"أعرف تعويذة ستقلل من تأثيرات الفساد عليك.",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=5}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"أعرف تعويذة ستقلل من تأثيرات الفساد عليك.",color:"yellow","italic":true}]}]يذة ستقلل من تأثيرات الفساد عليك.",color:"yellow","italic":true}]}]
 
 #RUSSIAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=6}] {text:" °-° S : ",color:"gray",extra:[{text:"Я знаю заклинание, которое ограничит влияние порчи на тебя.",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=6}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Я знаю заклинание, которое ограничит влияние порчи на тебя.",color:"yellow","italic":true}]}] ограничит влияние порчи на тебя.",color:"yellow","italic":true}]}]
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {text:" °-° S : ",color:"gray",extra:[{text:"Conozco un hechizo que limitará los efectos de la corrupción en ti.",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=7}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Conozco un hechizo que limitará los efectos de la corrupción en ti.",color:"yellow","italic":true}]}]s efectos de la corrupción en ti.",color:"yellow","italic":true}]}]
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {text:" °-° S : ",color:"gray",extra:[{text:"Ich kenne einen Zauber, der die Auswirkungen der Korruption auf dich begrenzen wird.",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=8}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Ich kenne einen Zauber, der die Auswirkungen der Korruption auf dich begrenzen wird.",color:"yellow","italic":true}]}]rruption auf dich begrenzen wird.",color:"yellow","italic":true}]}]
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9}] {text:" °-° S : ",color:"gray",extra:[{text:"मुझे एक ऐसा जादू पता है जो तुम पर कोरप्शन के प्रभाव को सीमित करेगा।",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=9}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"मुझे एक ऐसा जादू पता है जो तुम पर कोरप्शन के प्रभाव को सीमित करेगा।",color:"yellow","italic":true}]}]कोरप्शन के प्रभाव को सीमित करेगा।",color:"yellow","italic":true}]}]
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {text:" °-° S : ",color:"gray",extra:[{text:"Eu conheço um feitiço que limitará os efeitos da corrupção em você.",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Eu conheço um feitiço que limitará os efeitos da corrupção em você.",color:"yellow","italic":true}]}] os efeitos da corrupção em você.",color:"yellow","italic":true}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° S : ",color:"gray",extra:[{text:"我知道一个限制堕落泉源效力的咒语。",color:"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"我知道一个限制堕落泉源效力的咒语。",color:"yellow","italic":true}]}]",extra:[{text:"我知道一个限制堕落泉源效力的咒语。",color:"yellow","italic":true}]}]

@@ -1,6 +1,6 @@
 {
     "rewards": {
-        "function": "att2:cinematic/dailyquest/meleim/9/horse_race/special_item/using_b"
+        "function": "att2:gameplay/horse_racing/special_item/using_b"
     },
     "criteria": {
         "using_b": {

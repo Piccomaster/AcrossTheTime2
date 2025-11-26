@@ -11,7 +11,7 @@ execute at @s as @e[distance=..15,scores={GAMELEVEL=0..},team=hostile] run funct
 #reset dahal burst score
 scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 #dahal
-scoreboard players remove @s DAHAL 325
+scoreboard players operation @s DAHAL -= SP8_10 DAHAL_COST
 function att2:gameplay/dahal/action/spell8/cooldown
 scoreboard players add @s SPELL8_LVL 5
 function att2:gameplay/dahal/bonus_xp

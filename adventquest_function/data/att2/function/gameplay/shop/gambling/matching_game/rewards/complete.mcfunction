@@ -53,3 +53,7 @@ title @s subtitle {translate:matching_game.complete.subtitle,color:gold}
 execute positioned -4966 97 -5802 run function att2:sound/misc/gambling_jackpot
 ##reset score
 scoreboard players set @s MatchingGamePrice 0
+
+
+##dailyquest trigger
+function att2:cinematic/dailyquest/trigger/matching_game

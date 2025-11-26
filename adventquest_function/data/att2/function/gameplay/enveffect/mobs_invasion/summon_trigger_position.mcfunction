@@ -12,3 +12,6 @@ execute if score #TEST CAL matches 0 run return 0
 
 ##summon trigger
 function att2:any_function/maco with entity @s data.summon
+
+##set dailyquest resummon score
+scoreboard players reset @s RESUMMON

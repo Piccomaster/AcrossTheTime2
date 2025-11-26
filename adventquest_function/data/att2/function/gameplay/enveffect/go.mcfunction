@@ -31,3 +31,6 @@ execute if score tower_ne_mech11 BILLGART matches 1 in minecraft:the_end if enti
 
 ##Special elite monsters
 function att2:gameplay/enveffect/elite/go
+
+##Special elite monsters
+function att2:gameplay/enveffect/breeze/go

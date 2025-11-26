@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {text:"< ",color:"dark_red",extra:[{text:"क्
 tellraw @s[scores={LANGUAGE=10}] {text:"< ",color:"dark_red",extra:[{text:"Missão aceita",color:"gold"},{text:" >",color:"dark_red"}]}
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] {text:"< ",color:"dark_red",extra:[{text:"接受任务",color:"gold"},{text:" >",color:"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {text:"< ",color:"dark_red",extra:[{text:"接受支线任务",color:"gold"},{text:" >",color:"dark_red"}]}

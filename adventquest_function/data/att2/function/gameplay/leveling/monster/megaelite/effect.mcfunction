@@ -9,3 +9,7 @@ particle minecraft:soul ~ ~ ~ 0.1 0.1 0.1 0.1 25 normal
 function att2:sound/misc/disappear
 function att2:sound/misc/desintegration
 function att2:dialogs/gameplay/superelite/mega_dialog_info
+
+
+##dailyquest trigger
+function att2:cinematic/dailyquest/trigger/kill_elite

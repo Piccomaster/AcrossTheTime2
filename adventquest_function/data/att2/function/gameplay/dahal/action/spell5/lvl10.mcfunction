@@ -4,7 +4,7 @@
 #################################################################
 
 function att2:gameplay/dahal/action/spell5/summon_positionkeeper
-scoreboard players remove @s DAHAL 325
+scoreboard players operation @s DAHAL -= SP5_10 DAHAL_COST
 function att2:gameplay/dahal/action/spell5/cooldown
 scoreboard players add @s SPELL5_LVL 5
 function att2:gameplay/dahal/bonus_xp

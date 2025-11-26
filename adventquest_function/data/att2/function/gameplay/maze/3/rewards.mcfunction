@@ -55,3 +55,6 @@ function att2:summon/bat_maze_runes_rewards_3
 function att2:summon/bat_maze_runes_rewards_3
 execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze_runes_rewards_3
 execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze_runes_rewards_3
+
+##dailyquest trigger
+function att2:cinematic/dailyquest/kortaek/5/trigger/complete_maze_trial

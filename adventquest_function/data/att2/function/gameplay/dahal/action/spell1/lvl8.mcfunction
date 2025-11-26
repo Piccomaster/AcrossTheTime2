@@ -9,7 +9,7 @@ execute at @s run kill @e[type=minecraft:fireball,tag=FireballSpell,distance=..2
 scoreboard players set @s SPELL1_TIMER 20
 function att2:gameplay/dahal/action/spell1/summon {speed:1.35}
 
-scoreboard players remove @s DAHAL 200
+scoreboard players operation @s DAHAL -= SP1_8 DAHAL_COST
 function att2:gameplay/dahal/action/spell1/cooldown
 scoreboard players add @s SPELL1_LVL 4
 function att2:gameplay/dahal/bonus_xp

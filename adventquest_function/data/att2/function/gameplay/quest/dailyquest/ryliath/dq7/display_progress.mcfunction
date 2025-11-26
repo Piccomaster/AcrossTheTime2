@@ -13,6 +13,5 @@ kill @e[type=minecraft:item_display,tag=DailyQuest,predicate=att2_pre:score/owne
 ##
 scoreboard players operation Objective GPS_DIM = @s DIMENSION
 ##
-execute if score ryliath_dailyquest_5 DAILYQUEST matches -1 run function att2:gameplay/quest/dailyquest/ryliath/dq7/step0
-execute if score ryliath_dailyquest_5 DAILYQUEST matches 1..99 run function att2:gameplay/quest/dailyquest/ryliath/dq7/step1
-execute if score ryliath_dailyquest_5 DAILYQUEST matches 100 run function att2:gameplay/quest/dailyquest/ryliath/dq7/step2
+execute if score ryliath_dailyquest_7 DAILYQUEST matches -1 run function att2:gameplay/quest/dailyquest/ryliath/dq7/step0
+execute if score ryliath_dailyquest_7 DAILYQUEST matches 1 run function att2:gameplay/quest/dailyquest/ryliath/dq7/step1

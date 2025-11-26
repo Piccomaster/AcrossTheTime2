@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/horse_racing/edit_route/summon"
+    },
+    "criteria": {
+        "using_a": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "edit_route": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

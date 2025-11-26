@@ -2,7 +2,7 @@
 #Made by Adventquest											#
 #auto_mending trigger                    						#
 #################################################################
-execute store result storage att2:health max_health int 1 run scoreboard players get max_health CAL
+#execute store result storage att2:health max_health int 1 run scoreboard players get max_health CAL
 #effect give @s instant_health 1 10 true
 #get health
 execute store result score Health CAL run data get entity @s Health 100

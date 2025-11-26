@@ -15,4 +15,4 @@ execute positioned 2326 96 1976 run function att2:summon/reg_1/serile_minion_pig
 execute positioned 2327 96 1976 run function att2:summon/reg_1/serile_minion_pigman1
 execute positioned 2328 96 1976 run function att2:summon/reg_1/serile_minion_pigman1
 
-execute as @e[nbt={Tags:["NewInvo","SerilePigmanMinion"]}] run function att2:gameplay/invocation/action/summon
+execute as @e[tag=NewInvo,tag=SerilePigmanMinion] run function att2:gameplay/invocation/action/summon

@@ -11,7 +11,8 @@ playsound minecraft:entity.zombie.infect hostile @a ~ ~ ~ 2 0.5
 #get score
 execute store result score MAX_HEALTH CAL run attribute @s max_health get
 execute store result score NOW_HEALTH CAL run data get entity @s Health 100
-scoreboard players operation MAX_HEALTH CAL *= 50 CAL
+execute if entity @s[tag=!Boss] run scoreboard players operation MAX_HEALTH CAL *= 50 CAL
+execute if entity @s[tag=Boss] run scoreboard players operation MAX_HEALTH CAL *= 20 CAL
 scoreboard players operation NOW_HEALTH CAL += MAX_HEALTH CAL
 execute store result entity @s Health int 0.01 run scoreboard players get NOW_HEALTH CAL
 #reset

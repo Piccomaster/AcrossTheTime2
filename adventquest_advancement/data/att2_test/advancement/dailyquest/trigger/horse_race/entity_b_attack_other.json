@@ -1,0 +1,24 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/horse_racing/special_item/entity_b_attack_other"
+    },
+    "criteria": {
+        "entity_b_attack_other": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:snowball",
+                            "nbt": "{Tags:['HorseRace','ThrowEntity']}"
+                        }
+                    }
+                },
+                "entity":{
+                    "type":"#minecraft:rideable",
+                    "nbt": "{Tags:['HorseRace']}"
+                }
+            }
+        }
+    }
+}

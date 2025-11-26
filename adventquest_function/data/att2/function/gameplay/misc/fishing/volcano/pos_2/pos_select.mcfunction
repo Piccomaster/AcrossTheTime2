@@ -14,11 +14,12 @@ execute if score 1RNG100 RNG matches 81..100 run tp @s -5426 70 -5507
 #tag remove
 tag @s remove SPOT_SELECT
 #detection discover
-execute unless score volcano_pos_2 FISH_DICOVER_COUNT matches 1.. run scoreboard players add TOTAL FISH_DICOVER_COUNT 1
-execute unless score volcano_pos_2 FISH_DICOVER_COUNT matches 1.. run scoreboard players set volcano_pos_2 FISH_DICOVER_COUNT 1
+execute unless score volcano_pos_2 FISH_DISCOVER_COUNT matches 1.. run scoreboard players add TOTAL FISH_DISCOVER_COUNT 1
+execute unless score volcano_pos_2 FISH_DISCOVER_COUNT matches 1.. run tag @s add Discovered
+execute unless score volcano_pos_2 FISH_DISCOVER_COUNT matches 1.. run scoreboard players set volcano_pos_2 FISH_DISCOVER_COUNT 1
 ##dailyquest trigger
-execute unless score @s FISH_DICOVER_COUNT matches 1.. run function att2:cinematic/dailyquest/trigger/fishing
-execute unless score @s FISH_DICOVER_COUNT matches 1.. run scoreboard players set @s FISH_DICOVER_COUNT 1
+execute unless score @s FISH_DISCOVER_COUNT matches 1.. run function att2:cinematic/dailyquest/trigger/fishing
+execute unless score @s FISH_DISCOVER_COUNT matches 1.. run scoreboard players set @s FISH_DISCOVER_COUNT 1
 
 #random pos (+-3M)
 function att2:gameplay/misc/fishing/random_pos

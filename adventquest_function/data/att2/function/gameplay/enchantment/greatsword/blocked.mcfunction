@@ -20,7 +20,7 @@ execute store result score temp_value_1 CAL run data get entity @s SelectedItem.
 scoreboard players set @s GREATSWORD_TIME 100
 #CAL
 scoreboard players operation temp_value_1 CAL *= @s GREATSWORD
-execute store result storage att2:temp attack_damage int 0.1 run scoreboard players get temp_value_1 CAL
+execute store result storage att2:temp attack_damage double 0.1 run scoreboard players get temp_value_1 CAL
 #set attribute
 function att2:gameplay/enchantment/greatsword/attribute with storage att2:temp
 #make attacker knockback

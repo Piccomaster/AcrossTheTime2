@@ -32,3 +32,6 @@ effect give @e[distance=..10,tag=LVL0] slowness infinite 0 true
 
 ##tellraw
 tellraw @a[distance=..128] {translate:att2.mobs_invasion.tip}
+
+##add trigger count
+scoreboard players add TriggerCount INVASION 1

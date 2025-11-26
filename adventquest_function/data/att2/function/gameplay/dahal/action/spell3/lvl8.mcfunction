@@ -30,7 +30,7 @@ execute as @a[distance=..10] run function att2:sound/dahal/spell3_effect
 #reset dahal burst score
 scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 #dahal
-scoreboard players remove @s DAHAL 180
+scoreboard players operation @s DAHAL -= SP3_8 DAHAL_COST
 function att2:gameplay/dahal/action/spell3/cooldown
 scoreboard players add @s SPELL3_LVL 4
 function att2:gameplay/dahal/bonus_xp

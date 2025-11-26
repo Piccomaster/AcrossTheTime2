@@ -3,7 +3,7 @@
 #Recycleur lvl6													#
 #################################################################
 
-scoreboard players remove @s DAHAL 250
+scoreboard players operation @s DAHAL -= SP30_6 DAHAL_COST
 function att2:gameplay/dahal/action/spell30/cooldown
 scoreboard players add @s SPELL30_LVL 3
 function att2:gameplay/dahal/bonus_xp

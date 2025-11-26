@@ -1,0 +1,1 @@
+function att2:cinematic/dailyquest/meleim/9/dialog_trigger/view_rules

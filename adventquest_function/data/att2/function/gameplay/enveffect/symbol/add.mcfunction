@@ -10,3 +10,7 @@ scoreboard players add Exploration SYMBOL 1
 ##clear marker
 kill @n[type=marker,tag=SymbolMarker]
 function att2:advancement/test_all/journey/symbols
+
+
+##dailyquest trigger
+function att2:cinematic/dailyquest/trigger/symbol

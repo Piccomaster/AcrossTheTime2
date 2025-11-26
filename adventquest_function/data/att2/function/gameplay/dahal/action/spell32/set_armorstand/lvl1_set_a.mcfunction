@@ -4,7 +4,7 @@
 #################################################################
 #tellraw @a[scores={LANGUAGE=2}] {text:"SET放置A点",color:"gold"}
 clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 1
-scoreboard players remove @s DAHAL 350
+scoreboard players operation @s DAHAL -= SP32_1 DAHAL_COST
 execute at @s[scores={SPELL32_SET_OR_TP=1}] at @s run function att2:gameplay/dahal/action/spell32/summon_set_a
 function att2:gameplay/dahal/action/spell32/cooldown
 scoreboard players add @s SPELL32_LVL 1

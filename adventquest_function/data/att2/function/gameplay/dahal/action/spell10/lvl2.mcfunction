@@ -9,7 +9,7 @@ function att2:gameplay/dahal/action/spell10/finalize_positionkeeper
 execute at @s as @a run function att2:gameplay/dahal/action/spell10/sound_effect1
 execute at @s run function att2:gameplay/dahal/action/spell10/particle_effect
 
-scoreboard players remove @s DAHAL 50
+scoreboard players operation @s DAHAL -= SP10_2 DAHAL_COST
 function att2:gameplay/dahal/action/spell10/cooldown
 scoreboard players add @s SPELL10_LVL 1
 function att2:gameplay/dahal/bonus_xp

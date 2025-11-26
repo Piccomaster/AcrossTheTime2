@@ -3,18 +3,18 @@
 #Process the shop table of bow_maria    		                #
 #################################################################
 #set random value
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot1"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot1 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot2"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot2 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot3"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot3 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot4"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot4 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot5"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot5 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot6"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot6 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot7"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot7 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot8"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot8 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot9"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot9 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot10"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot10 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot11"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot11 SHOP_OP1
-execute if entity @s[nbt={Tags:["ShotSlotHolder","slot12"]}] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot12 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot1] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot1 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot2] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot2 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot3] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot3 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot4] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot4 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot5] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot5 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot6] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot6 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot7] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot7 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot8] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot8 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot9] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot9 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot10] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot10 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot11] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot11 SHOP_OP1
+execute if entity @s[tag=ShotSlotHolder,tag=slot12] run scoreboard players operation @s SHOP_OP1 = bow_maria_slot12 SHOP_OP1
 
 execute if score @s SHOP_OP1 matches 0..66 at @e[name="MARIA"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/bow_33
 execute if score @s SHOP_OP1 matches 67..132 at @e[name="MARIA"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/bow_34

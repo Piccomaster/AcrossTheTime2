@@ -14,7 +14,7 @@ scoreboard objectives add FISH_RAR_COUNT dummy
 scoreboard objectives add FISH_EPI_COUNT dummy
 scoreboard objectives add FISH_LEG_COUNT dummy
 scoreboard objectives add FISH_ULT_COUNT dummy
-scoreboard objectives add FISH_DICOVER_COUNT dummy
+scoreboard objectives add FISH_DISCOVER_COUNT dummy
 
 
 function att2:gameplay/misc/fishing/asunark/summon

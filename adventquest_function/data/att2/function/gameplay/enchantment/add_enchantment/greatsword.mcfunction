@@ -14,7 +14,7 @@ scoreboard players operation stock RUNE_POWDER -= rune_cost ENCHANTMENT
 #dialogs
 function att2:dialogs/gameplay/enchantment/materials_reduce
 #advancement test
-function att2:advancement/test_all/enchantments/auto_mending
+function att2:advancement/test_all/enchantments/greatsword
 #enchant
 data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:greatsword"
 $enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:greatsword $(greatsword)

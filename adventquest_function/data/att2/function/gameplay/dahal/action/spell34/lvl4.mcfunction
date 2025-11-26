@@ -37,7 +37,7 @@ team join detect_minerals_runes @e[type=minecraft:shulker,tag=mineralsmarker]
 execute if score @s LIMIT77 matches ..12 as @s run function att2:dialogs/gameplay/dahal/spell34_reveal
 execute if score @s LIMIT77 matches 26.. as @s run function att2:dialogs/gameplay/dahal/spell34_reveal_max
 
-scoreboard players remove @s DAHAL 170
+scoreboard players operation @s DAHAL -= SP34_4 DAHAL_COST
 function att2:gameplay/dahal/action/spell34/cooldown
 scoreboard players add @s SPELL34_LVL 2
 function att2:gameplay/dahal/bonus_xp

@@ -11,5 +11,5 @@ tellraw @s [{translate:att2.dailyquest.kill_mobs_invasion.progress,with:[{score:
 tellraw @s [{translate:att2.dailyquest.open_rune_chest.progress,with:[{score:{name:ryliath_dailyquest_1_open_rune_chest,objective:DAILYQUEST},color:"gray"},{score:{name:ryliath_dailyquest_1_open_rune_chest_requirement,objective:DAILYQUEST},color:"dark_gray"}]}]
 tellraw @s [{translate:att2.dailyquest.ryliath.1.step.1}]
 
-execute in minecraft:overworld at @n[type=marker,tag=MobsInvasionMarker,tag=Worlest] run function att2:gameplay/gps/summon_arrow
-execute in minecraft:overworld as @e[distance=..10,type=zombified_piglin,tag=newGPS] at @s anchored feet facing entity @n[type=marker,tag=MobsInvasionMarker,tag=Worlest] feet run function att2:gameplay/gps/tp_arrow
+execute in minecraft:overworld at @n[type=marker,tag=MobsInvasionMarker,tag=Worlest] run function att2:gameplay/gps/dailyquest/summon_main_arrow
+execute in minecraft:overworld as @e[distance=..10,type=item_display,tag=MainObjective,tag=Arrow,tag=newGPS] at @s anchored feet facing entity @n[type=marker,tag=MobsInvasionMarker,tag=Worlest] feet run function att2:gameplay/gps/dailyquest/tp_arrow
