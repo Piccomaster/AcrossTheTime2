@@ -9,6 +9,6 @@ scoreboard players add @s RUK_ATK_TIMER 60
 #limit
 scoreboard players set @s[scores={RUK_ATK_TIMER=400..}] RUK_ATK_TIMER 400
 #range damage
-execute if score @s DAHAL matches 30.. run function att2:gameplay/legendary/rukyrion/normal_atk/atk_effect
+execute if score @s DAHAL_TICK matches 600.. run function att2:gameplay/legendary/rukyrion/normal_atk/atk_effect
 ##revoke test
 advancement revoke @s only att2_test:legendary/rukyrion/attack_trigger

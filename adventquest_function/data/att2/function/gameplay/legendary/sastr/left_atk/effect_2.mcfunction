@@ -4,7 +4,7 @@
 ##################################################
 
 #remove dahal
-scoreboard players remove @s DAHAL 50
+scoreboard players remove @s DAHAL_TICK 1000
 #combo damage
 function att2:gameplay/legendary/sastr/left_atk/damage_cal
 #set motion

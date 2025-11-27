@@ -4,7 +4,7 @@
 ##################################################
 
 #remove dahal
-scoreboard players remove @s DAHAL 50
+scoreboard players remove @s DAHAL_RICK 1000
 #tag add
 execute at @s anchored eyes positioned ^ ^ ^3 as @e[distance=..5,team=hostile,scores={GAMELEVEL=0..}] run tag @s add TEMP_ATK
 #set motion

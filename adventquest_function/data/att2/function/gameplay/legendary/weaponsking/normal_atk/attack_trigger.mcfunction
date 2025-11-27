@@ -6,7 +6,7 @@
 #set summon test
 scoreboard players set SUMMON CAL 0
 #get dahal
-execute if score @s DAHAL matches 50.. run scoreboard players set TEST CAL 1
+execute if score @s DAHAL_TICK matches 1000.. run scoreboard players set TEST CAL 1
 #chrontons cal
 function att2:gameplay/legendary/weaponsking/normal_atk/chronotons_cal
 #catch entity

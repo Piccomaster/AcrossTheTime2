@@ -8,7 +8,7 @@ $damage @s $(value_2) att2_damage:player_attack by @a[scores={NUMEROJOUEUR=$(own
 #particle
 function att2:gameplay/legendary/warlord/particle/atk_effect
 #reduce dahal
-$execute unless score @a[scores={NUMEROJOUEUR=$(owner)},limit=1] DAHAL matches 10.. run kill @e[type=minecraft:armor_stand,tag=WL_POS,scores={OWNER=$(owner)}]
-$scoreboard players remove @a[scores={NUMEROJOUEUR=$(owner),DAHAL=10..},limit=1] DAHAL 10
+$execute unless score @a[scores={NUMEROJOUEUR=$(owner)},limit=1] DAHAL_TICK matches 200.. run kill @e[type=minecraft:armor_stand,tag=WL_POS,scores={OWNER=$(owner)}]
+$scoreboard players remove @a[scores={NUMEROJOUEUR=$(owner),DAHAL_TICK=200..},limit=1] DAHAL_TICK 200
 #damage test
 #$say 造成了$(value_2)伤害

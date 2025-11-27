@@ -1,0 +1,1 @@
+execute if score eolorion_dailyquest_9 DAILYQUEST matches 3 run function att2:cinematic/dailyquest/eolorion/9/step3

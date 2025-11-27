@@ -1,0 +1,1 @@
+execute if score ryliath_dailyquest_11 DAILYQUEST matches 3 run function att2:cinematic/dailyquest/ryliath/11/step3

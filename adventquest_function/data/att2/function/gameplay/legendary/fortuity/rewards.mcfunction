@@ -6,6 +6,7 @@
 #get score
 #dahal reduce 10%
 scoreboard players operation temp_value_10 CAL = @s DAHALMAX
+scoreboard players operation temp_value_10 CAL *= 20 CAL
 scoreboard players operation temp_value_10 CAL /= 10 CAL
 #get level -> base damage up|attack speed up | luck effect add(time limit)
 #base damage | attack speed cal | per 1 level add 0.5 damage and add 0.05 attack speed
@@ -43,7 +44,7 @@ execute store result storage att2:fortuity luck_lvl double 0.1 run scoreboard pl
 #result luck time
 execute store result storage att2:fortuity luck_time int 1 run scoreboard players get temp_value_12 CAL
 #effect
-execute if score @s DAHAL >= temp_value_10 CAL run function att2:gameplay/legendary/fortuity/luck_effect with storage att2:fortuity
+execute if score @s DAHAL_TICK >= temp_value_10 CAL run function att2:gameplay/legendary/fortuity/luck_effect with storage att2:fortuity
 #over
 #reset
 scoreboard players reset temp_value_10 CAL

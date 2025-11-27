@@ -4,7 +4,7 @@
 ##################################################
 
 #reduce attacker dahal
-execute on attacker run scoreboard players remove @s DAHAL 30
+execute on attacker run scoreboard players remove @s DAHAL_TICK 600
 #effect
 effect give @s slowness 10 15 true
 #add no knock back

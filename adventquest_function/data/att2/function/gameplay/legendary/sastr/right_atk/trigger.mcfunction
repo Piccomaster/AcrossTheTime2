@@ -5,6 +5,6 @@
 
 
 #catch entity
-execute if score @s DAHAL matches 50.. run function att2:gameplay/legendary/sastr/right_atk/effect
+execute if score @s DAHAL_TICK matches 1000.. run function att2:gameplay/legendary/sastr/right_atk/effect
 #reset using
 scoreboard players reset @s SA_USING

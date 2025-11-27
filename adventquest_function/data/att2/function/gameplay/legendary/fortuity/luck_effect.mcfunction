@@ -4,7 +4,7 @@
 ##################################################
 
 #remove dahal
-scoreboard players operation @s DAHAL -= temp_value_10 CAL
+scoreboard players operation @s DAHAL_TICK -= temp_value_10 CAL
 #effect buff
 $effect give @s luck $(luck_time) 0 true
 #modify attribute -> matches with buff id -> mc time cal system could remove this attribute

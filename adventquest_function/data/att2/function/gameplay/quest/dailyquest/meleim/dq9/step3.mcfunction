@@ -6,7 +6,4 @@
 ##text
 tellraw @s [{translate:att2.dailyquest.meleim.name}]
 tellraw @s [{translate:att2.dailyquest.meleim.9.name,color:"blue"}]
-tellraw @s [{translate:att2.dailyquest.meleim.9.step.1}]
-
-execute in minecraft:overworld positioned -3896 85 -5827 run function att2:gameplay/gps/dailyquest/summon_main_arrow
-execute in minecraft:overworld as @e[distance=..10,type=item_display,tag=MainObjective,tag=Arrow,tag=newGPS] at @s anchored feet facing -3896 85 -5827 run function att2:gameplay/gps/dailyquest/tp_arrow
+tellraw @s [{translate:att2.dailyquest.meleim.9.step.3}]

@@ -8,5 +8,5 @@ scoreboard players set @s STR_LVL_LE 9
 scoreboard players set @s TIMER_STR_LE 70
 scoreboard players set @s SPD_LVL_LE 8
 scoreboard players set @s TIMER_SPD_LE 70
-scoreboard players remove @s DAHAL 30
+scoreboard players remove @s DAHAL_TICK 600
 

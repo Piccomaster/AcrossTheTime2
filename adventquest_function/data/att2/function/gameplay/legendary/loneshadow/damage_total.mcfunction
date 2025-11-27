@@ -4,8 +4,8 @@
 ##################################################
 
 scoreboard players operation @s SHADOW_TOTAL += @s DAMAGE
-##Consumption DAHAL
-execute if score @s DAHAL matches ..49 run function att2:gameplay/legendary/loneshadow/shadow_damage_over
+##Consumption DAHAL_TICK
+execute if score @s DAHAL_TICK matches ..999 run function att2:gameplay/legendary/loneshadow/shadow_damage_over
 ##effect
 scoreboard players operation SHADOW_BUFF CAL = @s SHADOW_BUFF
 scoreboard players operation SHADOW_BUFF CAL %= 20 CAL

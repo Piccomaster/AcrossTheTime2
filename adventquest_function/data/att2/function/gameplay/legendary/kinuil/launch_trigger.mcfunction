@@ -3,17 +3,18 @@
 #End the effect of kinuil                        #
 ##################################################
 
-#get DAHAL
+#get DAHAL_TICK
 #dahal reduce 50%
-scoreboard players operation DAHAL CAL = @s DAHALMAX
-scoreboard players operation DAHAL CAL *= 50 CAL
-scoreboard players operation DAHAL CAL /= 100 CAL
+scoreboard players operation DAHAL_TICK CAL = @s DAHAL_TICKMAX
+scoreboard players operation DAHAL_TICK CAL *= 20 CAL
+scoreboard players operation DAHAL_TICK CAL *= 50 CAL
+scoreboard players operation DAHAL_TICK CAL /= 100 CAL
 #launch
-execute if score @s DAHAL >= DAHAL CAL run function att2:gameplay/legendary/kinuil/range/launch
+execute if score @s DAHAL_TICK >= DAHAL_TICK CAL run function att2:gameplay/legendary/kinuil/range/launch
 #error
-execute unless score @s DAHAL >= DAHAL CAL run function att2:gameplay/legendary/dahal_not_enough
+execute unless score @s DAHAL_TICK >= DAHAL_TICK CAL run function att2:gameplay/legendary/dahal_not_enough
 #reset using
 scoreboard players reset @s KU_USING
 #reset
 scoreboard players reset @s KU_USING
-scoreboard players reset DAHAL CAL
+scoreboard players reset DAHAL_TICK CAL

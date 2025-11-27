@@ -4,7 +4,7 @@
 ##################################################
 
 #reduce dahal
-scoreboard players remove @s DAHAL 50
+scoreboard players remove @s DAHAL_TICK 1000
 #kill other
 execute store result storage att2:temp NUMEROJOUEUR int 1 run scoreboard players get @s NUMEROJOUEUR
 #clear other

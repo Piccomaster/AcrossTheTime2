@@ -19,7 +19,7 @@ execute at @s if score @s LP_USE matches 20..29 run playsound minecraft:blast1 p
 execute at @s if score @s LP_USE matches 30..39 run playsound minecraft:blast1 player @a ~ ~ ~ 0.8 2
 execute at @s if score @s LP_USE matches 40.. run playsound minecraft:blast1 player @a ~ ~ ~ 1.5 2
 #reset
-scoreboard players remove @s DAHAL 100
+scoreboard players remove @s DAHAL_TICK 2000
 scoreboard players set @s SHOOTING_LP 0
 scoreboard players set @s LP_USE 0
 execute at @s run function att2:sound/legendary/lostpast_shoot

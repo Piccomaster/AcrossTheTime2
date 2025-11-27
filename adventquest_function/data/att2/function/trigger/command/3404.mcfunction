@@ -1,0 +1,1 @@
+execute if score kortaek_dailyquest_9 DAILYQUEST matches 3 run function att2:cinematic/dailyquest/kortaek/9/step3

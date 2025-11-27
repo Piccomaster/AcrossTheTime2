@@ -12,16 +12,16 @@ execute if score tic TIMECOUNTER matches 10..15 run scoreboard players set @a[ga
 execute as @a[scores={HOLDING_BS=1..,BS_USED=1}] run scoreboard players operation Number BS_USED += @s BS_USED
 
 # Forth level
-execute if score Number BS_USED matches 4.. as @a[scores={HOLDING_BS=1..,DAHAL=75..,BS_USED=1}] at @s run function att2:gameplay/legendary/blindshield/level4
+execute if score Number BS_USED matches 4.. as @a[scores={HOLDING_BS=1..,DAHAL_TICK=1500..,BS_USED=1}] at @s run function att2:gameplay/legendary/blindshield/level4
 
 # Third level
-execute if score Number BS_USED matches 3 as @a[scores={HOLDING_BS=1..,DAHAL=50..,BS_USED=1}] at @s run function att2:gameplay/legendary/blindshield/level3
+execute if score Number BS_USED matches 3 as @a[scores={HOLDING_BS=1..,DAHAL_TICK=1000..,BS_USED=1}] at @s run function att2:gameplay/legendary/blindshield/level3
 
 # Second level
-execute if score Number BS_USED matches 2 as @a[scores={HOLDING_BS=1..,DAHAL=25..,BS_USED=1}] at @s run function att2:gameplay/legendary/blindshield/level2
+execute if score Number BS_USED matches 2 as @a[scores={HOLDING_BS=1..,DAHAL_TICK=500..,BS_USED=1}] at @s run function att2:gameplay/legendary/blindshield/level2
 
 # First level
-execute if score Number BS_USED matches 1 as @a[scores={HOLDING_BS=1..,DAHAL=15..,BS_EFFECT=..0,BS_USED=1}] at @s run function att2:gameplay/legendary/blindshield/level1
+execute if score Number BS_USED matches 1 as @a[scores={HOLDING_BS=1..,DAHAL_TICK=300..,BS_EFFECT=..0,BS_USED=1}] at @s run function att2:gameplay/legendary/blindshield/level1
 
 # Reset score
 execute if score Number BS_USED matches 1.. as @a[scores={HOLDING_BS=1..,BS_EFFECT=..0}] run scoreboard players set Number BS_USED 0

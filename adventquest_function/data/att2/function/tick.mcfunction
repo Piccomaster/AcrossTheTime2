@@ -20,6 +20,7 @@ execute if score enveffect SYSTEM matches 1 run function att2:gameplay/enveffect
 execute if score forbiddenentity SYSTEM matches 1 run function att2:gameplay/forbiddenentity/go
 execute if score gps SYSTEM matches 1 run function att2:gameplay/gps/go
 execute if score healthbar SYSTEM matches 1 run function att2:gameplay/healthbar/go
+execute if score horse_racing SYSTEM matches 1 run function att2:gameplay/horse_racing/go
 execute if score leveling SYSTEM matches 1 run function att2:gameplay/leveling/go
 execute if score invocation SYSTEM matches 1 run function att2:gameplay/invocation/go
 execute if score item SYSTEM matches 1 run function att2:gameplay/item/go

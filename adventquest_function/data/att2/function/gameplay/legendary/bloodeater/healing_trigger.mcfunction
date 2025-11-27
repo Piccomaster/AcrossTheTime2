@@ -4,7 +4,7 @@
 #################################################################
 
 #remove dahal
-scoreboard players operation @s DAHAL -= DAHAL CAL
+scoreboard players operation @s DAHAL_TICK -= DAHAL_TICK CAL
 
 #get health and max health
 execute store result score temp_value_11 CAL run data get entity @s Health

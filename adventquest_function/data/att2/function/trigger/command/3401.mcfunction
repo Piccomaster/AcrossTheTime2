@@ -1,0 +1,1 @@
+execute if score Eolorion HORSERACE matches ..2 run function att2:gameplay/horse_racing/eolorion/quick_end
