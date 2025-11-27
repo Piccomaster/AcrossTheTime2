@@ -34,5 +34,5 @@ function att2:cinematic/dailyquest/update_quest_board/accepted_select
 ##remove request board
 execute as @n[distance=..10,type=interaction,tag=Request,nbt={data:{questid:9}}] at @s run function att2:cinematic/dailyquest/update_quest_board/request_reset
 
-##ryliath start
+##kortaek start
 scoreboard players set kortaek_start DAILYQUEST 1

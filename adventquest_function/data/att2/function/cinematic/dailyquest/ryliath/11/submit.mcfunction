@@ -21,4 +21,4 @@ execute if score ryliath_dailyquest_11 DAILYQUEST matches 100 run return run fun
 ##fail
 execute if score ryliath_dailyquest_11 DAILYQUEST matches -1 run return run function att2:cinematic/dailyquest/ryliath/11/penalty
 ##not complete
-execute unless score ryliath_dailyquest_11 DAILYQUEST matches 100 run return run tellraw @s [{translate:att2.dailyquest.dialog.incomplete}]
+execute if score ryliath_dailyquest_11 DAILYQUEST matches 1 run return run tellraw @s [{translate:att2.dailyquest.dialog.incomplete}]

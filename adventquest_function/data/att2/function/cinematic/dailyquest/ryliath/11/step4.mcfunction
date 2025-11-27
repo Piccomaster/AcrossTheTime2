@@ -7,10 +7,10 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
-##fail
-#step 5
-scoreboard players set meleim_dailyquest_9 DAILYQUEST -2
+##success
+#step 4
+scoreboard players set ryliath_dailyquest_11 DAILYQUEST 100
 playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.5 0.5
-tellraw @a [{translate:att2.dailyquest.meleim.name}]
-tellraw @a [{translate:att2.dailyquest.meleim.9.name,color:"blue"}]
-tellraw @s [{translate:att2.dailyquest.meleim.9.step.5}]
+tellraw @a [{translate:att2.dailyquest.ryliath.name}]
+tellraw @a [{translate:att2.dailyquest.ryliath.11.name,color:"blue"}]
+tellraw @s [{translate:att2.dailyquest.ryliath.11.step.4}]

@@ -15,12 +15,12 @@ execute in overworld positioned -3901 86 -5825 run tag @a[distance=..30] add Hor
 ##set Preparation timer (30s)
 scoreboard players set preparation_time HORSERACE 600
 scoreboard players set Meleim HORSERACE 0
-
+scoreboard players set start HORSERACE 0
 #sound
 execute as @a[distance=..50] at @s run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1
 execute as @a[distance=..50] at @s run playsound minecraft:entity.item.pickup ambient @s ~ ~ ~ 1 0.5 0.5
 ##text
-tellraw @a[distance=..50] [{text:" °-° Eric Melsath : ",color:"green"},{translate:att2.dailyquest.meleim.eric_melsath.2}]
-tellraw @a[tag=HorseRace,distance=..50] [{text:" °-° Eric Melsath : ",color:"green"},{translate:att2.dailyquest.horse_racing.skip.preparation}]
+tellraw @a[distance=..50] [{object:player,player:{properties:[{name:"textures",value:"eyJ0aW1lc3RhbXAiOjE1NDk2NDQ3ODI0OTYsInByb2ZpbGVJZCI6ImMyYzUxZjVhOGI1MDQyN2I4ZTljNzNjYjI3NzhiZDIxIiwicHJvZmlsZU5hbWUiOiJjYWxsb2ZkdXR5ODI1Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWM4MzlmYTE5Mzk4MjE5NmYzMWM3ZTkzMWI2ZTc3MzJkNDNiYWViOWY1Mzg5ZDQ1NDA2YmVlYjJiNTZkODRhIn19fQ"}]}},{text:" °-° Eric Melsath : ",color:"green"},{translate:att2.dailyquest.meleim.eric_melsath.2}]
+tellraw @a[tag=HorseRace,distance=..50] [{object:player,player:{properties:[{name:"textures",value:"eyJ0aW1lc3RhbXAiOjE1NDk2NDQ3ODI0OTYsInByb2ZpbGVJZCI6ImMyYzUxZjVhOGI1MDQyN2I4ZTljNzNjYjI3NzhiZDIxIiwicHJvZmlsZU5hbWUiOiJjYWxsb2ZkdXR5ODI1Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWM4MzlmYTE5Mzk4MjE5NmYzMWM3ZTkzMWI2ZTc3MzJkNDNiYWViOWY1Mzg5ZDQ1NDA2YmVlYjJiNTZkODRhIn19fQ"}]}},{text:" °-° Eric Melsath : ",color:"green"},{translate:att2.dailyquest.horse_racing.skip.preparation}]
 tellraw @a[tag=HorseRace,distance=..50] [{nbt:"set",storage:"att2:id","interpret":true,color:"dark_red"},{text:": ",color:gray},{translate:att2.dailyquest.horse_racing.skip.preparation.sure,color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3391"},hover_event:{action:show_text,value:[{translate:att2.dailyquest.horse_racing.skip.preparation.sure.hover_event}]}}]
 scoreboard players set meleim_dailyquest_9 DAILYQUEST 4
