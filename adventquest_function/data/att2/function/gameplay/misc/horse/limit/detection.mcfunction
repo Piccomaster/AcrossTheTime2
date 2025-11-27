@@ -5,5 +5,5 @@
 
 #test passenger -> run
 execute on passengers if entity @s[type=player] on vehicle run function att2:gameplay/misc/horse/limit/run
-#set score
+##set score
 execute unless predicate att2_pre:has_passenger run function att2:gameplay/misc/horse/limit/stop

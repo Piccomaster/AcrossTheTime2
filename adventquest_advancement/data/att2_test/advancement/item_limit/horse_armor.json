@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/horse_armor"
+    },
+    "criteria": {
+        "bowl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:horse_armor"
+                    }
+                ]
+            }
+        }
+    }
+}

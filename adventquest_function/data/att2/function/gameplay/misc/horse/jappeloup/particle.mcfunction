@@ -1,11 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Initialize Horses    								        	#
+#jappeloup particle go                                          #
 #################################################################
 
-scoreboard objectives add HORSE dummy
-
-scoreboard players set @s HORSE 0
-
-
-scoreboard objectives add JAPPELOUP dummy
+$particle totem_of_undying ~ ~ ~ 0.3 0.3 0.3 0 $(count) normal
