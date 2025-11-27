@@ -8,50 +8,50 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Fais-le !",color:"yellow","italic":true}]}]or:"gray",extra:[{text:"Fais-le !",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=0}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Fais-le !",color:"yellow","italic":true}]}]
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Do it!",color:"yellow","italic":true}]}]color:"gray",extra:[{text:"Do it!",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=1}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Do it!",color:"yellow","italic":true}]}]
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"廢話少說！ 快跳！ ",color:"yellow","italic":true}]}]r:"gray",extra:[{text:"廢話少說！ 快跳！ ",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=2}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"廢話少說！ 快跳！ ",color:"yellow","italic":true}]}]
 
 
 #JAPANESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=3}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"やれ！",color:"yellow","italic":true}]}] ",color:"gray",extra:[{text:"やれ！",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=3}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"やれ！",color:"yellow","italic":true}]}]
 
 #KOREAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=4}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"해봐!",color:"yellow","italic":true}]}] ",color:"gray",extra:[{text:"해봐!",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=4}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"해봐!",color:"yellow","italic":true}]}]
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"فعلها!",color:"yellow","italic":true}]}]color:"gray",extra:[{text:"فعلها!",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=5}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"فعلها!",color:"yellow","italic":true}]}]
 
 #RUSSIAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=6}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Сделай это!",color:"yellow","italic":true}]}]:"gray",extra:[{text:"Сделай это!",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=6}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Сделай это!",color:"yellow","italic":true}]}]
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"¡Hazlo!",color:"yellow","italic":true}]}]olor:"gray",extra:[{text:"¡Hazlo!",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=7}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"¡Hazlo!",color:"yellow","italic":true}]}]
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Mach es!",color:"yellow","italic":true}]}]lor:"gray",extra:[{text:"Mach es!",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=8}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Mach es!",color:"yellow","italic":true}]}]
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"करो!",color:"yellow","italic":true}]}]",color:"gray",extra:[{text:"करो!",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=9}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"करो!",color:"yellow","italic":true}]}]
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Faça isso!",color:"yellow","italic":true}]}]r:"gray",extra:[{text:"Faça isso!",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"Faça isso!",color:"yellow","italic":true}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"废话少说！快跳！",color:"yellow","italic":true}]}]lor:"gray",extra:[{text:"废话少说！快跳！",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUzZmZjZDE4YmRmMjdmZWYxM2FkYWQzMjUxNjIyZmE3ZjgzYWQyMzI1M2QzZjdjM2NiZjQ0YTcyNDliZDU1In19fQ=="}]}},{text:" °-° S : ",color:"gray",extra:[{text:"废话少说！快跳！",color:"yellow","italic":true}]}]
