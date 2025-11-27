@@ -8,7 +8,14 @@
 #############################################################
 
 ##random select
-execute store result score @s HORSERACE_VITALITY_SPRINT run random value 20..40
+execute store result score #Speed CAL run random value 20..60
+scoreboard players operation @s HORSERACE_VITALITY_SPRINT += #Speed CAL
+##ai effect
 scoreboard players operation #time_add CAL = #ailvl CAL
-scoreboard players operation #time_add CAL *= 20 CAL
+scoreboard players operation #time_add CAL *= 10 CAL
+scoreboard players operation @s HORSERACE_VITALITY_SPRINT += #time_add CAL
+##add distance time
+scoreboard players operation #Max CAL -= @s HORSERACE
+scoreboard players operation #time_add CAL = #Max CAL
+scoreboard players operation #Max CAL *= 10 CAL
 scoreboard players operation @s HORSERACE_VITALITY_SPRINT += #time_add CAL

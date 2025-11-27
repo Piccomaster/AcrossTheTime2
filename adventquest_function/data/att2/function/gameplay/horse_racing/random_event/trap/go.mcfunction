@@ -16,6 +16,6 @@ execute as @a[distance=..32,tag=HorseRace] on vehicle if entity @s[type=#minecra
 execute at @s as @e[distance=..3,type=#minecraft:rideable,tag=HorseRace] run function att2:gameplay/horse_racing/random_event/trap/detection_horse with entity @s data
 
 ##life time
-execute unless score @s LIFETIME matches ..0 run return run scoreboard players remove @s LIFETIME 1
+execute unless score @s HORSERACE_LIFETIME matches ..0 run return run scoreboard players remove @s HORSERACE_LIFETIME 1
 execute if block ~ ~1 ~ light[level=15] run setblock ~ ~1 ~ air
 kill @s

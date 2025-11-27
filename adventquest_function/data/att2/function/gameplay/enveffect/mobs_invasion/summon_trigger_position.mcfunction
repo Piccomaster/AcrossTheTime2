@@ -3,6 +3,10 @@
 #Mobs summon_trigger_position                   				    #
 #####################################################################
 
+
+##horse_race limit
+execute if entity @a[distance=..50,tag=HorseRace] run return 0
+
 #test if player in distance
 scoreboard players set #TEST CAL 0
 execute store success score #TEST CAL run function att2:any_function/maco with entity @s data.pos_detection

@@ -18,7 +18,11 @@ scoreboard players reset @s HORSERACE_MUSIC
 ##remove tag
 tag @s remove HorseRace
 tag @s remove NoAutoMusic
+##ride dismount
+ride @s dismount
 ##clear bossbar
 function att2:gameplay/horse_racing/bossbar_clear with storage att2:score
+##clear special_item
+clear @s dragon_breath
 ##stop music
-#stopsound @s music
+stopsound @s music

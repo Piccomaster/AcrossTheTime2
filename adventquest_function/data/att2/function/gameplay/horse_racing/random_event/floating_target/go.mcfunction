@@ -9,7 +9,7 @@
 
 ##floating
 #cal life time
-scoreboard players operation #Floating CAL = @s LIFETIME
+scoreboard players operation #Floating CAL = @s HORSERACE_LIFETIME
 scoreboard players operation #Floating CAL /= 20 CAL
 scoreboard players operation #Floating CAL %= 2 CAL
 execute if score #Floating CAL matches 1 on vehicle at @s facing entity @p eyes run tp @s ~ ~0.05 ~ ~ 0
@@ -23,7 +23,7 @@ execute at @s positioned ~ ~-3 ~ as @e[distance=..2,type=#minecraft:arrows,tag=S
 ##unless
 execute unless predicate att2_pre:has_vehicle run kill @s
 ##life time
-execute unless score @s LIFETIME matches ..0 run return run scoreboard players remove @s LIFETIME 1
+execute unless score @s HORSERACE_LIFETIME matches ..0 run return run scoreboard players remove @s HORSERACE_LIFETIME 1
 execute on vehicle at @s run tp @s ~ 0 ~
 execute on vehicle run kill @s
 kill @s

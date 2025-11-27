@@ -7,7 +7,7 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
-scoreboard players set start HORSERACE 0
+scoreboard players set start HORSERACE -1
 scoreboard players set Meleim HORSERACE -1
 
 ##remove forceload

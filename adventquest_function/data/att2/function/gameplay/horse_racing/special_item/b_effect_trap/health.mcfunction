@@ -8,7 +8,7 @@
 #############################################################
 
 ##health
-execute store result score #Random_Health CAL run random value -5..1
+execute store result score #Random_Health CAL run random value -10..5
 execute if score #Random_Health CAL matches 0 run scoreboard players set #Random_Health CAL -1
 scoreboard players operation #health_add CAL = #Random_Health CAL
 function att2:gameplay/horse_racing/health/trap_from_entity

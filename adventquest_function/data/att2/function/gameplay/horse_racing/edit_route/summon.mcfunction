@@ -1,10 +1,10 @@
 #############################################################
 #Made by Adventquest                               			
-#Meleim dailyquest : 9
+#ryliath dailyquest : 9
 #preparing command
 #Task requirements: #Time limit : 30 minutes
 #Achieve a top-three finish in the preliminary round of the horse racing competition.
-#Race route: Meleim -> Soquai forest.
+#Race route: ryliath -> Soquai forest.
 #############################################################
 
 advancement revoke @s only att2_test:dailyquest/trigger/horse_race/edit_route
@@ -17,9 +17,8 @@ execute as @e[type=armor_stand,tag=showing,tag=circle,tag=following] at @s posit
 
 ##store
 #initialize
-execute unless data storage att2:horse_race meleim_route[0] run data modify storage att2:horse_race meleim_route.pos set value []
-execute unless data storage att2:horse_race meleim_route[0] run data modify storage att2:horse_race meleim_route.rotation set value []
-data modify storage att2:horse_race meleim_route append from entity @n[type=armor_stand,tag=showing,tag=circle,tag=following] Pos
+execute unless data storage att2:horse_race route[0] run data modify storage att2:horse_race route set value []
+data modify storage att2:horse_race route append from entity @n[type=armor_stand,tag=showing,tag=circle,tag=following] Pos
 
 tag @e[type=armor_stand,tag=showing,tag=circle,tag=following] remove following
 ##
