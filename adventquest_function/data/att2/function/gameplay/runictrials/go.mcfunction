@@ -32,3 +32,6 @@ execute if entity @a[x=-4090,y=44,z=-5194,distance=..60,gamemode=adventure] run 
 
 # Tears forest
 execute if entity @a[x=-4629,y=52,z=-5007,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/15/go
+
+# Mangroove
+execute if entity @a[x=-4408,y=40,z=-4833,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/16/go
