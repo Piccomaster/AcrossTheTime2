@@ -21,7 +21,12 @@ execute at @s as @a[distance=0.1..3] run function att2:gameplay/dahal/action/spe
 execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell45/effect_other
 
 #dahal
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP45_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP45_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 tag @a[distance=..3] add Berserk
 function att2:gameplay/dahal/action/spell45/cooldown
 scoreboard players add @s SPELL45_LVL 2

@@ -6,7 +6,12 @@
 clear @s minecraft:diamond_axe[custom_name={translate:"att2.spell.spectralaxe.name"}]
 give @s minecraft:diamond_axe[custom_data={EquipmentType:"meleeWeapon",SPECTRALAXE:7,EquipmentID:"spectralaxe"},custom_name={translate:"att2.spell.spectralaxe.name"},lore=[{translate:"att2.spell.spectralaxe.lore.1"},{translate:"att2.spell.spectralaxe.lore.2"}],max_damage=777,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:35},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.68}],custom_model_data={floats:[1000000]},unbreakable={},tooltip_style="minecraft:rarity/epi/epi"]
 
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP27_7 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP27_7 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell27/cooldown
 scoreboard players add @s SPELL27_LVL 7
 function att2:gameplay/dahal/bonus_xp

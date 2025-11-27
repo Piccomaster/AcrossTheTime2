@@ -3,7 +3,12 @@
 #Recycleur lvl1													#
 #################################################################
 
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP30_1 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP30_1 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell30/cooldown
 scoreboard players add @s SPELL30_LVL 1
 function att2:gameplay/dahal/bonus_xp

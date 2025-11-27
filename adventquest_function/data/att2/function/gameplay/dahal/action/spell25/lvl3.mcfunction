@@ -5,7 +5,12 @@
 
 execute positioned ~ ~ ~1.5 run function att2:summon/dahal/wolf0_class3
 scoreboard players operation @e[type=wolf,tag=NewInvo,tag=Spell25] OWNER = @s NUMEROJOUEUR
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP25_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP25_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell25/cooldown
 execute as @e[tag=NewInvo,type=minecraft:wolf,distance=..7] at @s run data modify entity @s Owner set from entity @p UUID
 

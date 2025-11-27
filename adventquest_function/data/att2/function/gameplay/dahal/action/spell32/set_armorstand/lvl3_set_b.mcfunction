@@ -4,7 +4,12 @@
 #################################################################
 
 clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 1
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP32_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP32_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 execute at @s[scores={SPELL32_SET_OR_TP=2}] at @s run function att2:gameplay/dahal/action/spell32/summon_set_b
 function att2:gameplay/dahal/action/spell32/cooldown
 scoreboard players add @s SPELL32_LVL 2

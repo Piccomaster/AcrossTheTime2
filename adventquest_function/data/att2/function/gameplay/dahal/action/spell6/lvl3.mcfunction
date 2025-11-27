@@ -7,7 +7,12 @@ function att2:gameplay/dahal/action/spell6/summon_positionkeeper
 function att2:gameplay/dahal/action/spell6/sound_effect
 #select time
 function att2:gameplay/dahal/action/spell6/time_select
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP6_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP6_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell6/cooldown
 scoreboard players add @s SPELL6_LVL 2
 function att2:gameplay/dahal/bonus_xp
