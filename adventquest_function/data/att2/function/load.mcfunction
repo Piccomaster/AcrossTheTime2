@@ -3,7 +3,9 @@
 #load function use "/reload" to trigger                         #
 #################################################################
 
-#say Reload successful
+##text
+tellraw @a {translate:att2.datapack.reload,color:"dark_green"}
+
 #force load keep
 execute in overworld positioned 787 77 796 run forceload add ~ ~
 execute in overworld positioned 777 77 777 run forceload add ~ ~

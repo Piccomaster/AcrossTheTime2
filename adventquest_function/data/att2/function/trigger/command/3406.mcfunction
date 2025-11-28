@@ -1,0 +1,1 @@
+execute if score Kortaek HORSERACE matches ..2 run function att2:gameplay/horse_racing/kortaek/quick_end

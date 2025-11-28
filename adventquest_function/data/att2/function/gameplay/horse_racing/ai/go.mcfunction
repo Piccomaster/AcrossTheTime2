@@ -7,10 +7,13 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
+##clear old
+execute unless score @s HORSERACE matches 0.. run tp @s ~ -10 ~
 ##random offset
 scoreboard players operation #offset CAL = @s HORSERACE_AI_OFFSET
 scoreboard players operation #offset CAL %= 4 CAL
-
+##get ai lvl
+execute store result score #ailvl CAL run data get entity @s data.ailvl
 ##cal vitality
 function att2:gameplay/horse_racing/ai/vitality/go
 ##sprint go
@@ -30,9 +33,13 @@ execute store result storage att2:score now_pos int 1 run scoreboard players get
 scoreboard players operation #next_pos CAL = @s HORSERACE
 execute store result storage att2:score next_pos int 1 run scoreboard players add #next_pos CAL 1
 
+##remove error timer
+scoreboard players remove @s HORSERACE_LIFETIME 1
+execute if score @s HORSERACE_LIFETIME matches ..0 run tp @n[type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/now_pos]
+scoreboard players set @s[scores={HORSERACE_LIFETIME=..0}] HORSERACE_LIFETIME 100
+
 ##test near next pos
-execute if entity @e[distance=..3,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/next_pos] run scoreboard players add @s HORSERACE 1
-execute if entity @e[distance=..3,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/next_pos] run scoreboard players add @s HORSERACE_AI_OFFSET 1
+execute if entity @e[distance=..3,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/next_pos] run function att2:gameplay/horse_racing/ai/next_pos
 ##test Off track
 execute unless entity @n[distance=..20,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/now_pos] run tp @n[type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/now_pos]
 

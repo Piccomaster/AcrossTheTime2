@@ -3,7 +3,12 @@
 #Corruption lvl3												#
 #################################################################
 
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP40_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP40_3 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 scoreboard players add @s SPELL40_LVL 1
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL40_LVL += @s BONUS_XP_SPELL

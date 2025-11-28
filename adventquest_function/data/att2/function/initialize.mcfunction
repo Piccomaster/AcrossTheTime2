@@ -25,6 +25,7 @@ scoreboard players set enveffect SYSTEM 1
 scoreboard players set forbiddenentity SYSTEM 1
 scoreboard players set gps SYSTEM 1
 scoreboard players set healthbar SYSTEM 1
+scoreboard players set horse_racing SYSTEM 1
 scoreboard players set leveling SYSTEM 1
 scoreboard players set invocation SYSTEM 1
 scoreboard players set item SYSTEM 1

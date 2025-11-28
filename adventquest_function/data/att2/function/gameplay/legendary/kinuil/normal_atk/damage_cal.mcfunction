@@ -5,7 +5,7 @@
 ##################################################
 
 #remove dahal
-scoreboard players remove @s DAHAL 50
+scoreboard players remove @s DAHAL_TICK 1000
 #add effect timer
 scoreboard players add @s KU_EFFECT_TIMER 15
 #get @s BASE DAMAGE

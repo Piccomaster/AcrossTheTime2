@@ -21,4 +21,4 @@ execute if score meleim_dailyquest_9 DAILYQUEST matches 100 run return run funct
 ##fail
 execute if score meleim_dailyquest_9 DAILYQUEST matches -1 run return run function att2:cinematic/dailyquest/meleim/9/penalty
 ##not complete
-execute unless score meleim_dailyquest_9 DAILYQUEST matches 100 run return run tellraw @s [{translate:att2.dailyquest.dialog.incomplete}]
+execute if score meleim_dailyquest_9 DAILYQUEST matches 1 run return run tellraw @s [{translate:att2.dailyquest.dialog.incomplete}]

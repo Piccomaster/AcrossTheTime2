@@ -5,7 +5,7 @@
 
 
 #get dahal
-execute if score @s DAHAL matches 100.. run scoreboard players set TEST CAL 1
+execute if score @s DAHAL_TICK matches 2000.. run scoreboard players set TEST CAL 1
 #add temp tag
 tag @s add TEMP_ATK
 #cal damage

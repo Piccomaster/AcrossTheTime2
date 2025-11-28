@@ -5,6 +5,7 @@
 
 scoreboard objectives add remain_time dummy
 scoreboard objectives add DAHAL dummy
+scoreboard objectives add DAHAL_TICK dummy
 scoreboard objectives add DAHAL_COST dummy
 scoreboard objectives add DAHAL1 dummy
 scoreboard objectives add OP_DAHAL dummy
@@ -20,6 +21,7 @@ scoreboard objectives add INVOC_DURATION dummy
 scoreboard objectives add SPELL_KILL dummy
 scoreboard objectives add ATTACKER dummy
 
+scoreboard players set @s DAHAL_TICK 0
 scoreboard players set @s DAHAL 0
 scoreboard players set @s DAHAL1 0
 scoreboard players set @s OP_DAHAL 45

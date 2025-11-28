@@ -11,7 +11,7 @@
 execute store result score #RNG CAL run random value 1..3
 
 ##vitality
-execute if score #RNG CAL matches 1 store result score #Random_Vitality CAL run random value -4..8
+execute if score #RNG CAL matches 1 store result score #Random_Vitality CAL run random value -4..10
 execute if score #RNG CAL matches 1 run scoreboard players operation #Random_Vitality CAL += #ailvl CAL
 execute if score #RNG CAL matches 1 run scoreboard players operation @s HORSERACE_VITALITY += #Random_Vitality CAL
 

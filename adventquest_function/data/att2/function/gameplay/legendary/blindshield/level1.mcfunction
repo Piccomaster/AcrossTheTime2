@@ -8,7 +8,7 @@ scoreboard players set @s RES_LVL_OH 1
 scoreboard players set @s TIMER_RES_OH 150
 scoreboard players set @s SPD_LVL_OH -1
 scoreboard players set @s TIMER_SPD_OH 150
-scoreboard players remove @s DAHAL 15
+scoreboard players remove @s DAHAL_TICK 300
 
 effect give @s minecraft:blindness 1 1 true
 function att2:sound/legendary/blindshield_blocked

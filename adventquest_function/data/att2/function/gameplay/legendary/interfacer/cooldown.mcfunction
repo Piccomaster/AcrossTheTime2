@@ -12,7 +12,7 @@ execute unless predicate att2_pre:legendary/interfacer/hand run return 0
 execute as @s[predicate=att2_pre:legendary/interfacer/mainhand,predicate=att2_pre:legendary/interfacer/magasin,scores={IF_MAGASIN=..0,IF_COOLDOWN=..0}] run function att2:gameplay/legendary/interfacer/reload
 
 #Detect dahäl magasin in offhand and consume dahäl
-execute as @s[predicate=att2_pre:legendary/interfacer/mainhand,predicate=att2_pre:legendary/interfacer/dahal_magasin,scores={IF_MAGASIN=..0,IF_COOLDOWN=..0,DAHAL=250..}] run function att2:gameplay/legendary/interfacer/reload_dahal
+execute as @s[predicate=att2_pre:legendary/interfacer/mainhand,predicate=att2_pre:legendary/interfacer/dahal_magasin,scores={IF_MAGASIN=..0,IF_COOLDOWN=..0,DAHAL=5000..}] run function att2:gameplay/legendary/interfacer/reload_dahal
 
 #tip
 execute as @s[scores={IF_MAGASIN=..0,IF_COOLDOWN=..0}] run function att2:dialogs/gameplay/legendary/interfacer/empty

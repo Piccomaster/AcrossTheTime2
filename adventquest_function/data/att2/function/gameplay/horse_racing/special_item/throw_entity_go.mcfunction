@@ -28,7 +28,7 @@ execute if predicate att2_pre:has_vehicle run return 0
 ##set score (Activate Trap)
 scoreboard players set @s HORSERACE 1
 ##set lift time
-scoreboard players set @s LIFETIME 1200
+scoreboard players set @s HORSERACE_LIFETIME 1200
 ##particle
 particle item{item:"slime_ball"} ~ ~ ~ 0.25 0.25 0.25 0.25 50 force @p[predicate=att2_pre:score/player]
 particle trial_spawner_detection_ominous ~ ~ ~ 0.25 0.25 0.25 0.25 50 force @p[predicate=att2_pre:score/player]

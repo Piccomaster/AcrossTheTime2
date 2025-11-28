@@ -14,7 +14,7 @@ execute on vehicle if entity @s[tag=RIDE] run data modify entity @s data.horse_r
 execute on vehicle if entity @s[tag=RIDE] run data modify entity @s data.horse_race.origin_data.active_effects set from entity @s active_effects
 execute on vehicle if entity @s[tag=RIDE] run tag @s add HorseRace
 ##base data set
-execute on vehicle if entity @s[tag=RIDE] run data modify entity @s attributes set value [{id:max_health,base:40},{id:movement_speed,base:0.3},{id:safe_fall_distance,base:777},{id:jump_strength,base:0}]
+execute on vehicle if entity @s[tag=RIDE] run data modify entity @s attributes set value [{id:max_health,base:40},{id:movement_speed,base:0.20},{id:safe_fall_distance,base:777},{id:jump_strength,base:0}]
 execute on vehicle if entity @s[tag=RIDE] run data modify entity @s active_effects set value [{id:fire_resistance,amplifier:0,duration:-1,show_particles:false},{id:resistance,amplifier:4,duration:-1,show_particles:false}]
 execute on vehicle if entity @s[tag=RIDE] run data modify entity @s data.horse_race.vitality_lvl set value 0
 execute on vehicle if entity @s[tag=RIDE] store result entity @s data.player_id int 1 run scoreboard players get @p[distance=..0] NUMEROJOUEUR

@@ -7,6 +7,8 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
+##reset score
+function att2:gameplay/horse_racing/initialize/reset
 ##clear title
 title @a[tag=HorseRace] clear
 ##summon ai

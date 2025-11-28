@@ -8,7 +8,7 @@
 #############################################################
 
 ##speed
-execute store result score #Random_Speed CAL run random value -80..-20
+execute store result score #Random_Speed CAL run random value -100..-20
 execute on passengers if entity @s[tag=HorseRace] run scoreboard players operation @s HORSERACE_OTHER_SPEED_TIMER += #Random_Speed CAL
 scoreboard players operation #Random_Speed CAL /= 20 CAL
 scoreboard players operation #Random_Speed CAL *= -1 CAL

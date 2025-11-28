@@ -7,9 +7,10 @@
 tag @s add ATTACK
 #get dahal
 #dahal reduce 30%
-scoreboard players operation DAHAL CAL = @s DAHALMAX
-scoreboard players operation DAHAL CAL *= 30 CAL
-scoreboard players operation DAHAL CAL /= 100 CAL
+scoreboard players operation DAHAL_TICK CAL = @s DAHALMAX
+scoreboard players operation DAHAL_TICK CAL *= 20 CAL
+scoreboard players operation DAHAL_TICK CAL *= 30 CAL
+scoreboard players operation DAHAL_TICK CAL /= 100 CAL
 #effect chrontons -> damage
 scoreboard players operation temp_value_10 CAL = @s CHRONOTON
 #Three Zones <=10000 10000->100000 100000>=
@@ -19,9 +20,9 @@ execute if score temp_value_10 CAL matches 100001.. run function att2:gameplay/l
 #chronotons reduce DAMAGE/2 => CHRONTONS
 scoreboard players operation temp_value_10 CAL /= 2 CAL
 #damage effect
-execute if score @s DAHAL >= DAHAL CAL if score @s CHRONOTON >= temp_value_10 CAL run function att2:gameplay/legendary/hermetique/effect
+execute if score @s DAHAL_TICK >= DAHAL_TICK CAL if score @s CHRONOTON >= temp_value_10 CAL run function att2:gameplay/legendary/hermetique/effect
 #reset
-scoreboard players reset DAHAL CAL
+scoreboard players reset DAHAL_TICK CAL
 scoreboard players reset temp_value_10 CAL
 tag @s remove ATTACK
 ##revoke test

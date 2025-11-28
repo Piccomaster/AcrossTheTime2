@@ -6,7 +6,12 @@
 execute as @a[distance=..15] at @s run function att2:sound/dahal/spell7_effect
 function att2:gameplay/dahal/action/spell7/summon_positionkeeper
 function att2:gameplay/dahal/action/spell7/finalize_positionkeeper
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP7_8 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP7_8 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell7/cooldown
 scoreboard players add @s SPELL7_LVL 4
 function att2:gameplay/dahal/bonus_xp

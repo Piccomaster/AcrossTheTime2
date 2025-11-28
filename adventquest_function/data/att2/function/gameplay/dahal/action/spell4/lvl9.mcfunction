@@ -94,7 +94,12 @@ tag @s remove SPLAUNCH
 #reset dahal burst score
 scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 #dahal
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP4_9 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP4_9 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell4/cooldown
 scoreboard players add @s SPELL4_LVL 5
 function att2:gameplay/dahal/bonus_xp

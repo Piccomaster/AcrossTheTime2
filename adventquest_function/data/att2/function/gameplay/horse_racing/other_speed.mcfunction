@@ -22,7 +22,7 @@ execute if score @s HORSERACE_OTHER_SPEED_TIMER matches ..-1 run scoreboard play
 execute on vehicle if entity @s[tag=RIDE] run attribute @s movement_speed modifier add horse_race_other_speed 0 add_value
 ##CAL sprint speed
 scoreboard players operation #Other_Speed CAL = @s HORSERACE_OTHER_SPEED_TIMER
-execute on vehicle if entity @s[tag=RIDE] store result entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[{id:"minecraft:horse_race_other_speed"}].amount double 0.0020 run scoreboard players get #Other_Speed CAL
+execute on vehicle if entity @s[tag=RIDE] store result entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[{id:"minecraft:horse_race_other_speed"}].amount double 0.0015 run scoreboard players get #Other_Speed CAL
 
 
 ##input detection

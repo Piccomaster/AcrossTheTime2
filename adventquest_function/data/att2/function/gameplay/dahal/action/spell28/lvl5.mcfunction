@@ -6,7 +6,12 @@
 clear @s minecraft:bow[custom_name={translate:"att2.spell.spectralbow.name"}]
 give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",SPECTRALBOW:"1",EquipmentID:"spectralbow"},custom_name={translate:"att2.spell.spectralbow.name"},lore=[{translate:"att2.spell.spectralbow.lore.1"},{translate:"att2.spell.spectralbow.lore.2"}],max_damage=777,enchantments={"infinity":1,"power":10},custom_model_data={floats:[1000000]},unbreakable={},tooltip_style="minecraft:rarity/rar/rar"]
 
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP28_5 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP28_5 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell28/cooldown
 scoreboard players add @s SPELL28_LVL 5
 function att2:gameplay/dahal/bonus_xp

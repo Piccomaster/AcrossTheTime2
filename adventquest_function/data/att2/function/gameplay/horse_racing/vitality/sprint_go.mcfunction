@@ -23,7 +23,7 @@ execute on vehicle if entity @s[tag=RIDE] store result entity @s attributes[{id:
 execute if score @s HORSERACE_VITALITY_SPRINT matches 1000..1040 run particle totem_of_undying ~ ~ ~ 0 0 0 0 20 normal @s
 execute if score @s HORSERACE_VITALITY_SPRINT matches 1041..1060 run particle totem_of_undying ~ ~ ~ 0.1 0.1 0.1 0 40 normal @s
 execute if score @s HORSERACE_VITALITY_SPRINT matches 1061..1080 run particle totem_of_undying ~ ~ ~ 0.2 0.2 0.2 0 60 normal @s
-execute if score @s HORSERACE_VITALITY_SPRINT matches 1081..1100 run particle totem_of_undying ~ ~ ~ 0.3 0.3 0.3 0 80 normal @s
+execute if score @s HORSERACE_VITALITY_SPRINT matches 1081.. run particle totem_of_undying ~ ~ ~ 0.3 0.3 0.3 0 80 normal @s
 ##if input key
 execute unless predicate att2_pre:player/input/any run return 0
 ##sound

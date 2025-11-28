@@ -22,7 +22,12 @@ execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[dist
 
 #dahal
 
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP42_5 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP42_5 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell42/cooldown
 scoreboard players add @s SPELL42_LVL 3
 function att2:gameplay/dahal/bonus_xp

@@ -9,7 +9,7 @@
 
 
 ##vitality
-execute store result score #Random_Vitality CAL run random value -8..5
+execute store result score #Random_Vitality CAL run random value -8..8
 execute if score #Random_Vitality CAL matches 0 run scoreboard players set #Random_Vitality CAL 1
 scoreboard players operation @s HORSERACE_VITALITY += #Random_Vitality CAL
 

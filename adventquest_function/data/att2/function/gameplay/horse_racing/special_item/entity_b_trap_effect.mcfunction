@@ -8,9 +8,9 @@
 #############################################################
 
 ##time limit
-scoreboard players remove @s LIFETIME 1
-execute if score @s LIFETIME matches ..0 if block ~ ~1 ~ light[level=15] run setblock ~ ~1 ~ air
-kill @s[scores={LIFETIME=..0}]
+scoreboard players remove @s HORSERACE_LIFETIME 1
+execute if score @s HORSERACE_LIFETIME matches ..0 if block ~ ~1 ~ light[level=15] run setblock ~ ~1 ~ air
+kill @s[scores={HORSERACE_LIFETIME=..0}]
 scoreboard players set @s HORSERACE 1
 ##particle
 function att2:gameplay/horse_racing/special_item/entity_b_trap_particle_self

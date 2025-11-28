@@ -3,7 +3,7 @@
 #Apply the effect of Fortuity Sword  	         #
 ##################################################
 
-scoreboard players operation @s DAHAL -= DAHAL CAL
+scoreboard players operation @s DAHAL_TICK -= DAHAL_TICK CAL
 
 execute at @s run summon minecraft:experience_orb ~-2.5 ~2 ~-2.5 {Value:0,Tags:["New"]}
 execute at @s run summon minecraft:experience_orb ~2.5 ~2 ~2.5 {Value:0,Tags:["New"]}

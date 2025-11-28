@@ -18,5 +18,3 @@ execute if score #RNG CAL matches 1 run function att2:gameplay/horse_racing/rand
 execute if score #RNG CAL matches 2 run function att2:gameplay/horse_racing/random_event/trap/speed
 ##health
 execute if score #RNG CAL matches 3 run function att2:gameplay/horse_racing/random_event/trap/health
-##set life time
-#scoreboard players set @n[distance=..5,type=marker,tag=Random_Trap] LIFETIME 0

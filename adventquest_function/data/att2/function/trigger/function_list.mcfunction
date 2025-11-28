@@ -3412,7 +3412,7 @@ execute if score @s ScoreTrigger matches 3382 run function att2:cinematic/dailyq
 execute if score @s ScoreTrigger matches 3383 run function att2:cinematic/dailyquest/trigger/submit_item/clear_slot/33
 execute if score @s ScoreTrigger matches 3384 run function att2:cinematic/dailyquest/trigger/submit_item/clear_slot/34
 execute if score @s ScoreTrigger matches 3385 run function att2:cinematic/dailyquest/trigger/submit_item/clear_slot/35
-
+##meleim racing
 execute if score @s ScoreTrigger matches 3386 run function att2:cinematic/dailyquest/meleim/9/dialog_trigger/route_preview
 execute if score @s ScoreTrigger matches 3387 run function att2:cinematic/dailyquest/meleim/9/dialog_trigger/view_rules
 execute if score @s ScoreTrigger matches 3388 run execute if score meleim_dailyquest_9 DAILYQUEST matches 3 run function att2:cinematic/dailyquest/meleim/9/step3
@@ -3421,3 +3421,27 @@ execute if score @s ScoreTrigger matches 3389 run execute if score Meleim HORSER
 execute if score @s ScoreTrigger matches 3390 run execute if score Meleim HORSERACE matches ..2 run function att2:gameplay/horse_racing/meleim/quick_end
 
 execute if score @s ScoreTrigger matches 3391 run execute if score preparation_time HORSERACE matches 201.. run scoreboard players set preparation_time HORSERACE 200
+
+##ryliath racing
+execute if score @s ScoreTrigger matches 3392 run function att2:cinematic/dailyquest/ryliath/11/dialog_trigger/route_preview
+execute if score @s ScoreTrigger matches 3393 run function att2:cinematic/dailyquest/ryliath/11/dialog_trigger/view_rules
+execute if score @s ScoreTrigger matches 3394 run execute if score ryliath_dailyquest_11 DAILYQUEST matches 3 run function att2:cinematic/dailyquest/ryliath/11/step3
+
+execute if score @s ScoreTrigger matches 3395 run execute if score Ryliath HORSERACE matches 1.. run function att2:gameplay/horse_racing/ryliath/back_ryliath
+execute if score @s ScoreTrigger matches 3396 run execute if score Ryliath HORSERACE matches ..2 run function att2:gameplay/horse_racing/ryliath/quick_end
+
+##eolorion racing
+execute if score @s ScoreTrigger matches 3397 run function att2:cinematic/dailyquest/eolorion/9/dialog_trigger/route_preview
+execute if score @s ScoreTrigger matches 3398 run function att2:cinematic/dailyquest/eolorion/9/dialog_trigger/view_rules
+execute if score @s ScoreTrigger matches 3399 run execute if score eolorion_dailyquest_9 DAILYQUEST matches 3 run function att2:cinematic/dailyquest/eolorion/9/step3
+
+execute if score @s ScoreTrigger matches 3400 run execute if score Eolorion HORSERACE matches 1.. run function att2:gameplay/horse_racing/eolorion/back_eolorion
+execute if score @s ScoreTrigger matches 3401 run execute if score Eolorion HORSERACE matches ..2 run function att2:gameplay/horse_racing/eolorion/quick_end
+
+##kortaek racing
+execute if score @s ScoreTrigger matches 3402 run function att2:cinematic/dailyquest/kortaek/9/dialog_trigger/route_preview
+execute if score @s ScoreTrigger matches 3403 run function att2:cinematic/dailyquest/kortaek/9/dialog_trigger/view_rules
+execute if score @s ScoreTrigger matches 3404 run execute if score kortaek_dailyquest_9 DAILYQUEST matches 3 run function att2:cinematic/dailyquest/kortaek/9/step3
+
+execute if score @s ScoreTrigger matches 3405 run execute if score Kortaek HORSERACE matches 1.. run function att2:gameplay/horse_racing/kortaek/back_kortaek
+execute if score @s ScoreTrigger matches 3406 run execute if score Kortaek HORSERACE matches ..2 run function att2:gameplay/horse_racing/kortaek/quick_end

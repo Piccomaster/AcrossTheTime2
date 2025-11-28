@@ -299,6 +299,8 @@
   - Smoother scaling curve.
 - **Resistance Attribute**: Each point of defense provides 10% damage reduction.
 
+- **Dahal Regen Attribute**: Dahal's regen now occurs every tick instead of once per second.
+
 #### Empty Hand Penalty
 - Now reduces **attack damage by 99%** (no longer reduces attack speed).
 

@@ -1,0 +1,1 @@
+execute if score Ryliath HORSERACE matches ..2 run function att2:gameplay/horse_racing/ryliath/quick_end

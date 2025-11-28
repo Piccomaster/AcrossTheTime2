@@ -1,0 +1,1 @@
+execute if score Ryliath HORSERACE matches 1.. run function att2:gameplay/horse_racing/ryliath/back_ryliath

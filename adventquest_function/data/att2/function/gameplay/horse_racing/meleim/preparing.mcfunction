@@ -29,7 +29,7 @@ scoreboard players operation #time CAL = preparation_time HORSERACE
 scoreboard players operation #time CAL /= 20 CAL
 
 ##10s time
-execute if score preparation_time HORSERACE matches 200 run tellraw @a[tag=HorseRace] [{text:" °-° Eric Melsath : ",color:"green"},{translate:att2.dailyquest.meleim.eric_melsath.3}]
+execute if score preparation_time HORSERACE matches 200 run tellraw @a[tag=HorseRace] [{object:player,player:{properties:[{name:"textures",value:"eyJ0aW1lc3RhbXAiOjE1NDk2NDQ3ODI0OTYsInByb2ZpbGVJZCI6ImMyYzUxZjVhOGI1MDQyN2I4ZTljNzNjYjI3NzhiZDIxIiwicHJvZmlsZU5hbWUiOiJjYWxsb2ZkdXR5ODI1Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWM4MzlmYTE5Mzk4MjE5NmYzMWM3ZTkzMWI2ZTc3MzJkNDNiYWViOWY1Mzg5ZDQ1NDA2YmVlYjJiNTZkODRhIn19fQ"}]}},{text:" °-° Eric Melsath : ",color:"green"},{translate:att2.dailyquest.meleim.eric_melsath.3}]
 execute if score preparation_time HORSERACE matches 200 run playsound minecraft:entity.experience_orb.pickup ambient @a[tag=HorseRace] ~ ~ ~ 1 1
 execute if score preparation_time HORSERACE matches 200 run playsound minecraft:entity.item.pickup ambient @a[tag=HorseRace] ~ ~ ~ 1 0.5 0.5
 ##tip

@@ -10,7 +10,12 @@ scoreboard players set @s SPELL26_MAX 1
 execute at @s as @e[type=minecraft:iron_golem,tag=!NewInvo,scores={OWNER=1..}] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell26/golem_max
 
 execute as @e[tag=Spell26] run tag @s remove Spell26
+##dahal_cost
 scoreboard players operation @s DAHAL -= SP26_5 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP26_5 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+
 function att2:gameplay/dahal/action/spell26/cooldown
 scoreboard players add @s SPELL26_LVL 3
 function att2:gameplay/dahal/bonus_xp
