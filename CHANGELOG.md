@@ -13,6 +13,7 @@
 - **Content**: 60 new daily quests added
 - **Refresh Mechanism**: Daily quests randomly refresh at regular intervals (repeatable completion)
 - **Rewards**: Completing quests grants additional Chronotons, experience points, reputation points, or new items
+- The storage limit is 777 items, but players cannot view the contents of the Ender Chest in real time.
 
 #### The Book of Consciousness - Interactive Menu
 - **Access Method**: Press `G` to open The Book of Consciousness menu interface
