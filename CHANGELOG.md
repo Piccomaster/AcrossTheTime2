@@ -13,7 +13,6 @@
 - **Content**: 60 new daily quests added
 - **Refresh Mechanism**: Daily quests randomly refresh at regular intervals (repeatable completion)
 - **Rewards**: Completing quests grants additional Chronotons, experience points, reputation points, or new items
-- The storage limit is 777 items, but players cannot view the contents of the Ender Chest in real time.
 
 #### The Book of Consciousness - Interactive Menu
 - **Access Method**: Press `G` to open The Book of Consciousness menu interface
@@ -23,6 +22,7 @@
 - **Release State**: Left-click to activate the **Item Release State**, causing the Ender Chest to eject stored items. When near a Recycler, items are automatically thrown onto the Recycler.
 - **Cooldown Mechanic**: Using the Ender Chest triggers a cooldown period, with duration based on the number of items absorbed/released in that operation.
 - **Expedited Cooldown**: During cooldown, players can spend Chronotons to instantly complete it. Cost is proportional to remaining cooldown time.
+- The storage limit is 777 items, but players cannot view the contents of the Ender Chest in real time.
 
 #### Player Limit Modification
 - Supports "unlimited" player joins.
