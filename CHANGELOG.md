@@ -17,6 +17,12 @@
 #### The Book of Consciousness - Interactive Menu
 - **Access Method**: Press `G` to open The Book of Consciousness menu interface
 
+#### Ender Chest Functionality Update
+- **Absorption State**: Right-click to open the Ender Chest and activate its **Item Absorption State**, causing it to continuously absorb nearby dropped items.
+- **Release State**: Left-click to activate the **Item Release State**, causing the Ender Chest to eject stored items. When near a Recycler, items are automatically thrown onto the Recycler.
+- **Cooldown Mechanic**: Using the Ender Chest triggers a cooldown period, with duration based on the number of items absorbed/released in that operation.
+- **Expedited Cooldown**: During cooldown, players can spend Chronotons to instantly complete it. Cost is proportional to remaining cooldown time.
+
 #### Player Limit Modification
 - Supports "unlimited" player joins.
 - Players can join at any time during gameplay without restrictions.
