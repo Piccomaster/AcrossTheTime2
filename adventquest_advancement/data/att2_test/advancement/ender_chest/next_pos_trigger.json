@@ -1,0 +1,19 @@
+{
+    "rewards": {
+        "function": "att2:update/ender_chest/next_pos"
+    },
+    "criteria": {
+        "use_trigger": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "ender_chest_next_pos": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

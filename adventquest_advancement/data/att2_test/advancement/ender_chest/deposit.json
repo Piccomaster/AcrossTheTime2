@@ -1,0 +1,16 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/misc/ender_chest/deposit/trigger"
+    },
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['EnderChest']}"
+                }
+            }
+        }
+    }
+}
