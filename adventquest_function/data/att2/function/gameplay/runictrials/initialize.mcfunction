@@ -158,3 +158,8 @@ scoreboard players set candle16_3 CANDLE_STATE 1
 scoreboard players set candle16_4 CANDLE_STATE 1
 scoreboard players set candle16_5 CANDLE_STATE 1
 scoreboard players set candle16_6 CANDLE_STATE 1
+
+scoreboard players set candle17_1 CANDLE_STATE 1
+scoreboard players set candle17_2 CANDLE_STATE 1
+scoreboard players set candle17_3 CANDLE_STATE 1
+scoreboard players set candle17_4 CANDLE_STATE 1

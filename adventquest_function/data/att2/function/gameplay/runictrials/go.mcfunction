@@ -35,3 +35,6 @@ execute if entity @a[x=-4629,y=52,z=-5007,distance=..60,gamemode=adventure] run 
 
 # Mangroove
 execute if entity @a[x=-4408,y=40,z=-4833,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/16/go
+
+# Owsästr
+execute if entity @a[x=-4489,y=37,z=-4442,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/17/go
