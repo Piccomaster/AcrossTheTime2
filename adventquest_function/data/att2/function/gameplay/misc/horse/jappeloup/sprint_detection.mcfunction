@@ -19,4 +19,4 @@ execute if score @s JAPPELOUP matches 8..11 run playsound minecraft:entity.horse
 
 ##cal jump strength
 scoreboard players operation #jump_strength CAL = @s JAPPELOUP
-execute on vehicle store result entity @s attributes[{id:"jump_strength"}].base double 0.15 run scoreboard players operation #jump_strength CAL < 10 CAL
+execute on vehicle store result entity @s attributes[{id:"jump_strength"}].base double 0.10 run scoreboard players operation #jump_strength CAL < 10 CAL
