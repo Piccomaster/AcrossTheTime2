@@ -16,7 +16,7 @@ scoreboard players remove #time CAL 1000
 
 scoreboard players operation #Sprint_Speed CAL = #time CAL
 scoreboard players operation #Sprint_Speed CAL *= #Sprint_Speed CAL
-execute on vehicle if entity @s[tag=RIDE] store result entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[{id:"minecraft:jappeloup_sprint"}].amount double 0.00005 run scoreboard players get #Sprint_Speed CAL
+execute on vehicle if entity @s[tag=RIDE] store result entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[{id:"minecraft:jappeloup_sprint"}].amount double 0.00010 run scoreboard players get #Sprint_Speed CAL
 ##store particle count
 execute store result storage att2:score count int 1 run scoreboard players get #time CAL
 ##particle

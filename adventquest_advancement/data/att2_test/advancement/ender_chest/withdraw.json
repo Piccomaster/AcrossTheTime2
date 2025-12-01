@@ -1,0 +1,16 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/misc/ender_chest/withdraw/trigger"
+    },
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:['EnderChest']}"
+                }
+            }
+        }
+    }
+}
