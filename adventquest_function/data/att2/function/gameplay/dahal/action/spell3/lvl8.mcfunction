@@ -3,10 +3,10 @@
 #Inferno lvl8													#
 #################################################################
 
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run data merge entity @s {Fire:160}
+execute at @s align xyz positioned ~-6.5 ~-6.5 ~-6.5 as @e[dx=14,dy=14,dz=14,scores={GAMELEVEL=0..},team=hostile,tag=!FB_DAHAL] run data merge entity @s {Fire:450}
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell3/damage_cal
-execute at @s as @e[distance=..7,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell3/damage with storage att2:sp_dmg
+execute at @s align xyz positioned ~-6.5 ~-6.5 ~-6.5 as @e[dx=14,dy=14,dz=14,scores={GAMELEVEL=0..},team=hostile,tag=!FB_DAHAL] run function att2:gameplay/dahal/action/spell3/damage with storage att2:sp_dmg
 execute positioned ~1.5 ~1.5 ~ run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[1.0,0.0,0.0]}
 execute positioned ~1.5 ~1.5 ~1.5 run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[1.0,0.0,1.0]}
 execute positioned ~1.5 ~1.5 ~-1.5 run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[1.0,0.0,-1.0]}

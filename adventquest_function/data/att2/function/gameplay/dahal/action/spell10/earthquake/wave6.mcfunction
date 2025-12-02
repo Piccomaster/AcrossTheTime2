@@ -12,10 +12,10 @@ particle minecraft:item{item:"minecraft:dirt"} ~ ~0.5 ~ 3 0.25 3 0.1 120 normal
 particle minecraft:campfire_signal_smoke ~ ~ ~ 3 0.25 3 0.1 60 normal
 
 execute at @s as @a run function att2:gameplay/dahal/action/spell10/sound_effect2
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=5..6] run effect give @s minecraft:wither 5 2 true
+#execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=5..6] run effect give @s minecraft:wither 5 2 true
 
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell10/damage_cal
 #find owner player ->damage
 execute store result storage att2:sp_dmg owner int 1 run scoreboard players get @s SPELL10_OWNER
-execute as @e[distance=..6,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell10/damage with storage att2:sp_dmg
+execute at @s align xyz positioned ~-5.5 ~-5.5 ~-5.5 as @e[dx=12,dy=12,dz=12,scores={GAMELEVEL=0..},type=!bat,team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell10/damage with storage att2:sp_dmg

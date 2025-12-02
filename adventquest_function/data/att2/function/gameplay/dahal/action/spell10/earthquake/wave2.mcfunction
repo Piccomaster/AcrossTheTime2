@@ -17,4 +17,4 @@ execute at @s as @a run function att2:gameplay/dahal/action/spell10/sound_effect
 execute as @s run function att2:gameplay/dahal/action/spell10/damage_cal
 #find owner player ->damage
 execute store result storage att2:sp_dmg owner int 1 run scoreboard players get @s SPELL10_OWNER
-execute as @e[distance=..2,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell10/damage with storage att2:sp_dmg
+execute at @s align xyz positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=4,dy=4,dz=4,scores={GAMELEVEL=0..},type=!bat,team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell10/damage with storage att2:sp_dmg
