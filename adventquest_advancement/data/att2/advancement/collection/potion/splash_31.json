@@ -30,8 +30,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:splash_potion",
+            "items": "minecraft:splash_potion",
             "predicates": {
               "minecraft:custom_data": {
                 "Potion": "31"

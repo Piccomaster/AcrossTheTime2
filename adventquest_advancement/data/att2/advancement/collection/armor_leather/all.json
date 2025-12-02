@@ -3,18 +3,994 @@
         "icon": {
             "id": "minecraft:raw_copper_block"
         },
-        "title": {"translate": "att2.advancement.collection.armor_leather.title.all"},
-        "description": {"translate": "att2.advancement.collection.armor_leather.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.armor_leather.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.armor_leather.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/armor_leather",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "armor_leather_all": {
-            "trigger": "minecraft:impossible"
+        "leather_chestplate_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "1"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "2"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "3"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "4"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "5"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "6"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "7"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "8"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_9": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "9"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_10": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "10"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_11": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "11"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_12": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "12"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_13": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "13"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_14": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "14"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "15"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_16": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "16"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_17": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "17"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_19": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "19"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_20": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "20"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_21": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "21"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_22": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "22"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_24": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "24"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_25": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "25"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_26": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "26"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_27": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "27"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_28": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "28"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_29": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "29"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_30": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "30"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_31": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "31"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_32": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "32"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_33": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "33"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_34": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "34"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_35": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "35"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_36": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "36"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_37": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "37"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_38": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "38"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_39": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "39"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "40"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_41": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "41"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_42": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "42"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_43": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "43"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_44": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "44"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_45": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "45"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_46": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "46"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_47": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "47"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_48": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "48"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_49": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "49"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_50": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "50"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_51": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "51"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_52": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "52"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_53": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "53"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_54": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "54"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_55": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "55"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_56": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "56"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_57": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "57"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_58": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "58"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_59": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "59"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_60": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "60"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_61": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "61"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_62": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "62"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_63": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "63"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_64": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "64"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_49_collection_armor_leather_chestplate_65": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "65"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_66": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "66"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_67": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "67"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:diamond_pickaxe"
-,
+            "items": "minecraft:diamond_pickaxe",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "106"

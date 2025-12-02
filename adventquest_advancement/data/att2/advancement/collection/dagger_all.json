@@ -3,18 +3,739 @@
         "icon": {
             "id": "minecraft:stripped_dark_oak_log"
         },
-        "title": {"translate": "att2.advancement.collection.title.dagger_all"},
-        "description": {"translate": "att2.advancement.collection.description.dagger_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.dagger_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.dagger_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/root",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000
-                },
+    },
     "criteria": {
-        "dagger_all": {
-            "trigger": "minecraft:impossible"
+        "wooden_shovel_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "5"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "6"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_13": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "13"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_14": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "14"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_21": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "21"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_22": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "22"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_27": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "27"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_31": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "31"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_68": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "68"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_69": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "69"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_76": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "76"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_77": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "77"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_84": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "84"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_85": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "85"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_90": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "90"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_94": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "94"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_shovel_100": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "100"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_shovel_101": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "101"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_shovel_108": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "108"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_shovel_109": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "109"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_shovel_116": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "116"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_shovel_117": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "117"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_shovel_122": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "122"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_shovel_126": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "126"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_shovel_132": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "132"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_shovel_133": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "133"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_shovel_140": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "140"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_shovel_141": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "141"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_shovel_148": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "148"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_shovel_149": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "149"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_shovel_154": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "154"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_shovel_158": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "158"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_199": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "199"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_202": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "202"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_203": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "203"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_206": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "206"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_207": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "207"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_210": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "210"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_212": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "212"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_213": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "213"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_282": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "282"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_283": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "283"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_292": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "292"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_293": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "293"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_302": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "302"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_303": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "303"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_310": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "310"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_315": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "315"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

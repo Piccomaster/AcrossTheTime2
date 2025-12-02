@@ -30,8 +30,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:trident",
+            "items": "minecraft:trident",
             "predicates": {
               "minecraft:custom_data": {
                 "EquipmentID": "weaponsking"

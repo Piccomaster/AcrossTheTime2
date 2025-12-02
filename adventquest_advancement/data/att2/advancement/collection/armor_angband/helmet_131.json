@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:golden_helmet"
-,
+            "items": "minecraft:golden_helmet",
             "predicates": {
               "minecraft:custom_data": {
                 "Armor": "131"

@@ -23,9 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:netherite_chestplate"
-,
+            "items": "minecraft:netherite_chestplate",
             "predicates": {
               "minecraft:custom_data": {
                 "Armor": "294"

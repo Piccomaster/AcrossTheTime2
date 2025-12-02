@@ -21,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:diamond_sword"
-,
+            "items": "minecraft:diamond_sword",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "341"

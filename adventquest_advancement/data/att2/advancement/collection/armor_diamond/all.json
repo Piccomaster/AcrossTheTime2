@@ -3,18 +3,619 @@
         "icon": {
             "id": "minecraft:deepslate_diamond_ore"
         },
-        "title": {"translate": "att2.advancement.collection.armor_diamond.title.all"},
-        "description": {"translate": "att2.advancement.collection.armor_diamond.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.armor_diamond.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.armor_diamond.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/armor_diamond",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "armor_diamond_all": {
-            "trigger": "minecraft:impossible"
+        "diamond_helmet_168": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "168"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_169": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "169"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_170": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "170"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_171": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "171"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_172": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "172"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_173": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "173"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_174": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "174"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_175": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "175"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_176": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "176"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_177": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "177"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_178": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "178"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_179": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "179"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_180": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "180"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_181": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "181"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_182": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "182"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_183": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "183"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_184": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "184"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_185": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "185"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_186": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "186"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_187": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "187"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_188": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "188"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_189": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "189"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_190": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "190"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_191": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "191"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_192": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "192"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_193": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "193"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_194": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "194"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_195": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "195"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_196": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "196"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_197": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "197"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_198": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "198"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_199": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "199"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_200": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "200"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_201": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "201"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_202": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "202"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_203": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "203"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_205": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "205"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_206": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "206"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_207": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "207"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_boots_208": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "208"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

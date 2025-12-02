@@ -3,18 +3,349 @@
         "icon": {
             "id": "minecraft:deepslate_emerald_ore"
         },
-        "title": {"translate": "att2.advancement.collection.weapon_billgart.title.all"},
-        "description": {"translate": "att2.advancement.collection.weapon_billgart.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.weapon_billgart.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.weapon_billgart.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_billgart",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "weapon_billgart_all": {
-            "trigger": "minecraft:impossible"
+        "stone_pickaxe_176": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "176"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_177": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "177"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_178": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "178"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_179": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "179"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_180": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "180"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_181": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "181"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_182": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "182"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_183": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "183"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_184": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "184"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_185": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "185"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_186": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "186"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_187": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "187"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_188": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "188"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_189": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "189"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_190": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "190"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_191": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "191"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_192": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "192"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_193": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "193"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_194": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "194"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_195": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "195"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_196": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "196"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_197": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "197"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

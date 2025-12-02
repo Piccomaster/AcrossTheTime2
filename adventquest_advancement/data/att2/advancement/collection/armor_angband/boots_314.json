@@ -23,9 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:golden_boots"
-,
+            "items": "minecraft:golden_boots",
             "predicates": {
               "minecraft:custom_data": {
                 "Armor": "314"

@@ -3,18 +3,619 @@
         "icon": {
             "id": "minecraft:deepslate_emerald_ore"
         },
-        "title": {"translate": "att2.advancement.collection.armor_billgart.title.all"},
-        "description": {"translate": "att2.advancement.collection.armor_billgart.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.armor_billgart.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.armor_billgart.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/armor_billgart",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "armor_billgart_all": {
-            "trigger": "minecraft:impossible"
+        "leather_helmet_223": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "223"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_224": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "224"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_225": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "225"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_226": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "226"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_227": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "227"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_228": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "228"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_229": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "229"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_boots_230": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "230"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_231": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "231"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_232": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "232"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_233": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "233"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_234": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "234"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_235": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "235"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_236": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "236"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_237": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "237"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_boots_238": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "238"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_240": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "240"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_241": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "241"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_242": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "242"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_boots_243": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "243"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_244": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "244"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_245": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "245"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_246": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "246"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_247": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "247"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_316": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "316"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_317": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "317"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_318": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "318"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_boots_319": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "319"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_320": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "320"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_321": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "321"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_322": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "322"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_boots_323": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "323"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_324": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "324"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_325": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "325"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_326": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "326"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_boots_327": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "327"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_328": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "328"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_329": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "329"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_330": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "330"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_boots_331": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "331"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

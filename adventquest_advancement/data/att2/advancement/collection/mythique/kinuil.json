@@ -30,8 +30,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:diamond_axe",
+            "items": "minecraft:diamond_axe",
             "predicates": {
               "minecraft:custom_data": {
                 "EquipmentID": "kinuil"

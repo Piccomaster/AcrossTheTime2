@@ -3,18 +3,1204 @@
         "icon": {
             "id": "minecraft:stripped_jungle_log"
         },
-        "title": {"translate": "att2.advancement.collection.title.helmet_all"},
-        "description": {"translate": "att2.advancement.collection.description.helmet_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.helmet_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.helmet_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/root",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000
-                },
+    },
     "criteria": {
-        "helmet_all": {
-            "trigger": "minecraft:impossible"
+        "leather_helmet_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "2"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "6"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_10": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "10"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_14": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "14"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_19": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "19"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_24": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "24"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_25": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "25"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_32": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "32"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_33": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "33"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "40"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_41": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "41"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_48": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "48"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_52": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "52"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_56": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "56"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_60": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "60"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_64": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "64"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_82": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "82"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_83": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "83"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_90": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "90"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_91": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "91"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_95": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "95"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_99": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "99"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_100": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "100"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_107": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "107"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_108": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "108"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_115": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "115"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_116": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "116"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_123": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "123"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_127": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "127"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_131": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "131"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_132": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "132"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_139": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "139"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_140": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "140"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_147": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "147"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_148": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "148"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_155": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "155"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_159": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "159"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_163": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "163"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_168": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "168"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_169": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "169"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_176": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "176"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_177": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "177"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_184": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "184"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_185": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "185"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_192": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "192"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_196": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "196"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_200": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "200"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_205": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "205"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_210": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "210"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_223": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "223"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_224": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "224"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_231": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "231"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_235": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "235"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_240": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "240"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_244": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "244"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_248": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "248"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_252": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "252"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_256": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "256"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_260": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "260"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_265": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "265"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_266": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "266"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_273": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "273"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_274": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "274"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_281": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "281"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_282": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "282"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_289": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "289"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_293": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "293"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_297": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "297"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_302": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "302"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_311": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "311"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_316": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "316"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_320": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "320"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_324": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "324"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_helmet_328": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "328"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_333": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "333"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_337": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "337"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_341": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "341"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_345": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "345"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_349": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "349"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

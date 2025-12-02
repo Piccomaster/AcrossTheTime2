@@ -3,18 +3,291 @@
         "icon": {
             "id": "minecraft:lime_candle"
         },
-        "title": {"translate": "att2.advancement.collection.title.ult_all"},
-        "description": {"translate": "att2.advancement.collection.description.ult_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.ult_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.ult_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/leg_all",
     "rewards": {
         "function": "att2:advancement/exploit_100",
         "experience": 250000
-                },
+    },
     "criteria": {
-        "ult_all": {
-            "trigger": "minecraft:impossible"
+        "chainmail_helmet_357": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "357"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_359": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "359"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_354": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "354"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_helmet_361": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "361"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_356": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "356"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_358": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "358"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_boots_360": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "360"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_355": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "355"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_338": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "338"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_339": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "339"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_341": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "341"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_342": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "342"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_343": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "343"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_hoe_344": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "344"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_shovel_345": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "345"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_340": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "340"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ult": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:snowball",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "EquipmentType": "bait",
+                                "Rarity": "ult"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ult_collection_fishing_rod_ult": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:fishing_rod",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "EquipmentType": "rod",
+                                "Rarity": "ult"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

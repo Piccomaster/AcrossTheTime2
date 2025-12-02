@@ -23,9 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:diamond_shovel"
-,
+            "items": "minecraft:diamond_shovel",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "117"

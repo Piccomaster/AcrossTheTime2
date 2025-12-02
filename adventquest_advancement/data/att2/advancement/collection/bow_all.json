@@ -3,18 +3,379 @@
         "icon": {
             "id": "minecraft:bamboo_block"
         },
-        "title": {"translate": "att2.advancement.collection.title.bow_all"},
-        "description": {"translate": "att2.advancement.collection.description.bow_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.bow_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.bow_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/root",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000
-                },
+    },
     "criteria": {
-        "bow_all": {
-            "trigger": "minecraft:impossible"
+        "bow_33": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "33"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_34": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "34"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_35": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "35"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_36": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "36"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_37": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "37"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_38": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "38"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_39": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "39"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "40"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_41": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "41"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_42": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "42"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_43": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "43"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_44": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "44"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_45": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "45"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_46": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "46"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_47": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "47"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_48": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "48"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_49": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "49"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_197": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "197"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_214": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "214"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_215": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "215"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_216": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "216"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_217": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "217"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_218": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "218"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_219": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "219"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

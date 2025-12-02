@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:golden_axe"
-,
+            "items": "minecraft:golden_axe",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "128"

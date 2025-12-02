@@ -23,9 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:netherite_sword"
-,
+            "items": "minecraft:netherite_sword",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "304"

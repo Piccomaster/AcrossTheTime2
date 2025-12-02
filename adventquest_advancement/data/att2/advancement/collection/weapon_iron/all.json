@@ -3,18 +3,619 @@
         "icon": {
             "id": "minecraft:raw_iron_block"
         },
-        "title": {"translate": "att2.advancement.collection.weapon_iron.title.all"},
-        "description": {"translate": "att2.advancement.collection.weapon_iron.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.weapon_iron.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.weapon_iron.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_iron",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "weapon_iron_all": {
-            "trigger": "minecraft:impossible"
+        "iron_axe_64": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "64"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_65": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "65"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_66": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "66"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_67": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "67"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_68": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "68"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_69": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "69"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_70": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "70"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_71": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "71"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_72": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "72"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_73": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "73"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_74": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "74"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_75": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "75"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_76": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "76"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_77": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "77"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_78": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "78"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_79": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "79"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_80": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "80"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_81": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "81"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_82": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "82"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_83": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "83"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_84": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "84"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_85": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "85"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_86": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "86"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_87": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "87"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_88": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "88"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_89": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "89"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_90": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "90"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_91": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "91"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_92": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "92"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_93": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "93"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_shovel_94": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "94"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_95": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "95"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_hoe_262": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "262"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_hoe_263": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "263"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_hoe_264": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "264"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_hoe_265": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "265"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_hoe_266": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "266"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_hoe_267": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "267"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_hoe_268": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "268"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_hoe_269": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_hoe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "269"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }
