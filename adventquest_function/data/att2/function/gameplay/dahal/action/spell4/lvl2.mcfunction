@@ -22,7 +22,7 @@ execute at @s anchored eyes positioned ^ ^-0.5 ^3.6 run function att2:gameplay/d
 execute at @s anchored eyes positioned ^ ^-0.5 ^3.9 run function att2:gameplay/dahal/action/spell4/ray/2
 execute at @s anchored eyes positioned ^ ^-0.5 ^4.2 run function att2:gameplay/dahal/action/spell4/ray/2
 execute at @s anchored eyes positioned ^ ^-0.5 ^4.5 run function att2:gameplay/dahal/action/spell4/ray/2
-execute at @s anchored eyes positioned ^ ^-0Z.5 ^4.8 run function att2:gameplay/dahal/action/spell4/ray/2
+execute at @s anchored eyes positioned ^ ^-0.5 ^4.8 run function att2:gameplay/dahal/action/spell4/ray/2
 execute at @s anchored eyes positioned ^ ^-0.5 ^5.1 run function att2:gameplay/dahal/action/spell4/ray/2
 tag @s remove SPLAUNCH
 #reset dahal burst score
