@@ -135,6 +135,9 @@
 #### Spell Details Display
 - Click any spell name in the spellbook to view its detailed data.
 
+### Damage Spell Area-of-Effect Optimization
+- Target selection within the area is now more generous (especially for large-sized enemies).
+
 ---
 
 ### **Economy & Items**
