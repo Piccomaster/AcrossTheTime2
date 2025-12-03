@@ -15,3 +15,7 @@ function att2:cinematic/dailyquest/meleim/go
 function att2:cinematic/dailyquest/eolorion/go
 ##kortaek
 function att2:cinematic/dailyquest/kortaek/go
+##phoenix
+function att2:cinematic/dailyquest/phoenix/go
+##zirthion
+function att2:cinematic/dailyquest/zirthion/go

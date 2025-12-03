@@ -14,7 +14,7 @@ scoreboard players set kortaek_dailyquest_10 DAILYQUEST 1
 ##initialize quest data
 function att2:cinematic/dailyquest/kortaek/10/initialize
 ##tip
-tellraw @a [{translate:att2.dailyquest.kortaek.accepted},{translate:att2.dailyquest.kortaek..0.name,color:"blue"}]
+tellraw @a [{translate:att2.dailyquest.eolorion.10.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.requirements},{text:"\n"},{translate:att2.dailyquest.kortaek.10.requirements,color:"#53EAFD"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:kortaek_dailyquest_10_rewards_chronoton,objective:DAILYQUEST},color:"yellow"}]}]

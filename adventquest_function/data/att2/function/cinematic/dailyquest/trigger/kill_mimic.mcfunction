@@ -20,3 +20,8 @@ execute if score meleim_dailyquest_4 DAILYQUEST matches 1..99 run function att2:
 
 ##dailyquest_6 : Hidden dangers in the desert.
 execute if score kortaek_dailyquest_6 DAILYQUEST matches 1..99 run function att2:cinematic/dailyquest/kortaek/6/trigger/kill_mimic
+
+############## Phoenix_dailyquest
+
+##dailyquest_1 : Rioting crowd
+execute if score phoenix_dailyquest_1 DAILYQUEST matches 1..99 run function att2:cinematic/dailyquest/phoenix/1/trigger/kill_mimic

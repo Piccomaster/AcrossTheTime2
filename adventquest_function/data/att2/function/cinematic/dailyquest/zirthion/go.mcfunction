@@ -4,7 +4,7 @@
 ##################################################
 
 ##if player nearly update questboard data
-execute in overworld positioned -4938 76 -5028 run function att2:cinematic/dailyquest/zirthion/cycle
+execute in overworld positioned 7359 120 7332 run function att2:cinematic/dailyquest/zirthion/cycle
 
 ##dailyquest_1 : A small dream.
 execute if score zirthion_dailyquest_1 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/zirthion/1/go

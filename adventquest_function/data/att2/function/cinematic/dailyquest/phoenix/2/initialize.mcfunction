@@ -17,4 +17,9 @@ scoreboard players set phoenix_dailyquest_2_rewards_city_donation DAILYQUEST 20
 scoreboard players set phoenix_dailyquest_2_fail_chronoton DAILYQUEST 50
 scoreboard players set phoenix_dailyquest_2_fail_reputation DAILYQUEST 3
 
-##other: no
+##other: kill count
+scoreboard players set phoenix_dailyquest_2_symbol_requirement DAILYQUEST 7
+scoreboard players set phoenix_dailyquest_2_open_chest_requirement DAILYQUEST 7
+
+scoreboard players set phoenix_dailyquest_2_symbol DAILYQUEST 0
+scoreboard players set phoenix_dailyquest_2_open_chest DAILYQUEST 0
