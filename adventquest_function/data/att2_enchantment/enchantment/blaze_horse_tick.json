@@ -1,7 +1,7 @@
 {
   "anvil_cost": 7,
   "description": {
-    "translate": "att2.jappeloup.name"
+    "translate": "att2.blaze_horse.name"
   },
   "max_cost": {
     "base": 7,
@@ -21,7 +21,7 @@
       {
         "effect": {
           "type":"run_function",
-          "function":"att2:gameplay/misc/horse/jappeloup/go"
+          "function":"att2:gameplay/misc/horse/blaze_horse/go"
         }
       }
     ]

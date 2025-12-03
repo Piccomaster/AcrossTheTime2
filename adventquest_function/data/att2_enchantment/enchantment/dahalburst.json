@@ -16,5 +16,15 @@
         "chest"
     ],
     "supported_items": "#minecraft:chest_armor",
-    "weight": 1
+    "weight": 1,
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/enchantment/dahalburst/go"
+        }
+      }
+    ]
+  }
 }

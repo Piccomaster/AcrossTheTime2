@@ -1,7 +1,7 @@
 {
   "anvil_cost": 7,
   "description": {
-    "translate": "att2.jappeloup.name"
+    "translate": ""
   },
   "max_cost": {
     "base": 7,
@@ -13,15 +13,15 @@
     "per_level_above_first": 7
   },
   "slots": [
-    "saddle"
+    "any"
   ],
-  "supported_items": "minecraft:saddle",
+  "supported_items": "#minecraft:enchantable/durability",
   "effects": {
     "tick": [
       {
         "effect": {
           "type":"run_function",
-          "function":"att2:gameplay/misc/horse/jappeloup/go"
+          "function":"att2:gameplay/leveling/monster/initialize/initnewmonster"
         }
       }
     ]

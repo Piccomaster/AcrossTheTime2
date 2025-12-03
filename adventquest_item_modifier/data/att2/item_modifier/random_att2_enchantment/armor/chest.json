@@ -22,11 +22,14 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:auto_mending": 1
+            "att2_enchantment:auto_mending": {
+              "min": 1,
+              "max": 2
+            }
           }
         }
       ]
@@ -42,11 +45,14 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:runeharden": 1
+            "att2_enchantment:runeharden": {
+              "min": 1,
+              "max": 2
+            }
           }
         }
       ]
@@ -62,11 +68,14 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:heart_protection": 1
+            "att2_enchantment:heart_protection": {
+              "min": 1,
+              "max": 2
+            }
           }
         }
       ]
@@ -82,11 +91,14 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:dahalburst": 1
+            "att2_enchantment:dahalburst": {
+              "min": 1,
+              "max": 2
+            }
           }
         }
       ]
@@ -102,11 +114,14 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:selflessaid": 1
+            "att2_enchantment:selflessaid": {
+              "min": 1,
+              "max": 2
+            }
           }
         }
       ]

@@ -15,7 +15,7 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/sword",
+  "supported_items": "#minecraft:enchantable/sweeping",
   "exclusive_set": "att2_enchantment:sscombo",
   "weight": 1
 }

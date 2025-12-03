@@ -3,7 +3,8 @@
     "minecraft:horse",
     "minecraft:camel",
     "minecraft:pig",
-    "minecraft:mule"
+    "minecraft:mule",
+    "minecraft:skeleton_horse"
   ],
   "replace": false
 }
