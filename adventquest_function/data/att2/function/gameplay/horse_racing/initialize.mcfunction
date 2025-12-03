@@ -14,6 +14,7 @@ scoreboard objectives add HORSERACE_RANDOM_EVENT dummy
 scoreboard objectives add HORSERACE_RANDOM_TRAP dummy
 scoreboard objectives add HORSERACE_RANDOM_TARGET dummy
 scoreboard objectives add HORSERACE_RANDOM_ITEM dummy
+scoreboard objectives add HORSERACE_RANDOM_HOOP dummy
 
 scoreboard objectives add HORSERACE_VITALITY dummy
 scoreboard objectives add HORSERACE_VITALITY_LVL dummy
@@ -28,6 +29,8 @@ scoreboard objectives add HORSERACE_LIFETIME dummy
 scoreboard players set random_trap_time_set HORSERACE 200
 scoreboard players set random_floating_target_time_set HORSERACE 200
 scoreboard players set random_special_item_time_set HORSERACE 200
+scoreboard players set random_flaming_hoop_time_set HORSERACE 200
+
 
 scoreboard players set random_event_ai HORSERACE 400
 

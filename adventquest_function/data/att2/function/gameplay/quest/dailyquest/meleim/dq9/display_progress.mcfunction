@@ -15,7 +15,7 @@ scoreboard players operation Objective GPS_DIM = 1 CAL
 ##
 execute if score meleim_dailyquest_9 DAILYQUEST matches -1 run function att2:gameplay/quest/dailyquest/meleim/dq9/step0
 execute if score meleim_dailyquest_9 DAILYQUEST matches 1 run function att2:gameplay/quest/dailyquest/meleim/dq9/step1
-execute if score meleim_dailyquest_9 DAILYQUEST matches 2 run function att2:gameplay/quest/dailyquest/meleim/dq9/step2
-execute if score meleim_dailyquest_9 DAILYQUEST matches 3 run function att2:gameplay/quest/dailyquest/meleim/dq9/step3
+execute if score meleim_dailyquest_9 DAILYQUEST matches 2..3 run function att2:gameplay/quest/dailyquest/meleim/dq9/step2
+execute if score meleim_dailyquest_9 DAILYQUEST matches 4 run function att2:gameplay/quest/dailyquest/meleim/dq9/step3
 execute if score meleim_dailyquest_9 DAILYQUEST matches 100 run function att2:gameplay/quest/dailyquest/meleim/dq9/step4
 execute if score meleim_dailyquest_9 DAILYQUEST matches -2 run function att2:gameplay/quest/dailyquest/meleim/dq9/step5

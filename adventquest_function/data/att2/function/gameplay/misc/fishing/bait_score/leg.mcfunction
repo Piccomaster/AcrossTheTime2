@@ -13,3 +13,5 @@ scoreboard players set @s[scores={FISH_QUALITY=20..}] FISH_QUALITY 20
 #particle
 particle splash ~ ~1 ~ 0.6 0.9 0.6 1 100 normal
 particle dust{color:[1.0,0.67,0.0],scale:0.8} ~ ~1 ~ 0.5 0.5 0.5 0 20 normal
+##sound
+playsound minecraft:entity.player.splash.high_speed block @a ~ ~ ~ 2 1

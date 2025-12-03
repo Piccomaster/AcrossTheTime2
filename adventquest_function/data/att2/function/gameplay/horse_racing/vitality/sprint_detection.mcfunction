@@ -16,9 +16,10 @@ execute unless predicate att2_pre:player/input/jump run return run scoreboard pl
 
 execute if predicate att2_pre:player/input/jump if score @s HORSERACE_VITALITY_SPRINT matches 100.. run return run function att2:gameplay/horse_racing/vitality/sprint_launch
 
+
+execute unless score @s HORSERACE_VITALITY matches 1.. run return 0
 ##add score
 scoreboard players add @s HORSERACE_VITALITY_SPRINT 1
 
 ##Maximum range
 execute if score @s HORSERACE_VITALITY_SPRINT matches 8..11 run playsound minecraft:entity.horse.angry master @s ~ ~ ~ 1 1
-#execute if score @s HORSERACE_VITALITY_SPRINT matches 9..10 run function 

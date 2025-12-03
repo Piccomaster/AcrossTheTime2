@@ -7,7 +7,10 @@
 #Race route: kortaek -> Soquai forest.
 #############################################################
 
-##tp helena_meli
+
+##clear interaction 
+kill @e[x=-5616,y=76,z=-4589,distance=..5,type=interaction,tag=PNJ_TALK]
+##tp chris_amork
 execute in overworld positioned -4892 71 -4374 run function att2:summon/pnj/chris_amork
 execute in overworld as 00000000-0000-120a-0000-00000000120a at @s run tp @s -4892 71 -4374 -145 0
 execute unless entity 00000000-0000-120a-0000-00000000120a run return 0

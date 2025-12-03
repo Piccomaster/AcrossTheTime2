@@ -3,6 +3,11 @@
 #Initilize new monsters 		#
 #################################
 
+##limit
+execute unless entity @p[distance=..60] run return 0
+##clear enchantment
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_initialize":0}}
+
 ##prevent Drowning
 effect give @s water_breathing infinite 0 true
 

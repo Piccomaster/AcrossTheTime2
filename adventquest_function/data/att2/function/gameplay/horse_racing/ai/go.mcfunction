@@ -28,6 +28,7 @@ execute store result score #Speed CAL run attribute @s movement_speed get 200
 execute store result storage att2:horse_racing speed double 0.01 run scoreboard players get #Speed CAL
 ##score initialize
 execute unless score @s HORSERACE matches 1.. run scoreboard players set @s HORSERACE 1
+
 ##store score
 execute store result storage att2:score now_pos int 1 run scoreboard players get @s HORSERACE
 scoreboard players operation #next_pos CAL = @s HORSERACE
@@ -36,10 +37,10 @@ execute store result storage att2:score next_pos int 1 run scoreboard players ad
 ##remove error timer
 scoreboard players remove @s HORSERACE_LIFETIME 1
 execute if score @s HORSERACE_LIFETIME matches ..0 run tp @n[type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/now_pos]
-scoreboard players set @s[scores={HORSERACE_LIFETIME=..0}] HORSERACE_LIFETIME 100
+scoreboard players set @s[scores={HORSERACE_LIFETIME=..0}] HORSERACE_LIFETIME 140
 
 ##test near next pos
-execute if entity @e[distance=..3,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/next_pos] run function att2:gameplay/horse_racing/ai/next_pos
+execute as @s at @e[distance=..10,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/next_pos] align xyz positioned ~-1 ~ ~-1 if entity @s[dx=3,dy=20,dz=3] run function att2:gameplay/horse_racing/ai/next_pos
 ##test Off track
 execute unless entity @n[distance=..20,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/now_pos] run tp @n[type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/now_pos]
 
@@ -51,9 +52,14 @@ execute if score #offset CAL matches 1 at @n[distance=..50,type=marker,tag=Horse
 execute if score #offset CAL matches 2 at @n[distance=..50,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/next_pos] positioned ~-1 ~ ~-1 run rotate @s facing ~ ~ ~
 execute if score #offset CAL matches 3 at @n[distance=..50,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/next_pos] positioned ~-1 ~ ~1 run rotate @s facing ~ ~ ~
 execute if score #offset CAL matches 4 at @n[distance=..50,type=marker,tag=HorseRace,tag=HorseRoute,predicate=att2_pre:score/horse_racing/next_pos] positioned ~1 ~ ~-1 run rotate @s facing ~ ~ ~
+
 ##motion
 data modify entity 00000001-0000-006f-0000-00010000006f Rotation[0] set from entity @s Rotation[0]
 data modify entity 00000001-0000-006f-0000-00010000006f Rotation[1] set value 20
 function att2:gameplay/horse_racing/ai/motion with storage att2:horse_racing
+##keep normal gravity
+data modify entity 00000001-0000-006f-0000-00010000006f Pos[1] set value -0.2
+##if flaming hoop nearly -> jump
+execute at @s anchored eyes positioned ^ ^ ^5 if entity @n[distance=..4,type=marker,tag=Random_Flaming_Hoop] as 00000001-0000-006f-0000-00010000006f at @s run tp @s ~ ~0.4 ~ ~ ~
 data modify entity @s Motion set from entity 00000001-0000-006f-0000-00010000006f Pos
 execute in overworld as 00000001-0000-006f-0000-00010000006f at @s run tp 0.0 0.0 0.0

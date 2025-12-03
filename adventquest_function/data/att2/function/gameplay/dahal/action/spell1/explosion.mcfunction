@@ -6,7 +6,7 @@
 ##boom
 
 #particle
-$particle minecraft:explosion ~ ~ ~ 0.5 0.5 0.5 0 $(distance) normal
+$particle minecraft:explosion ~ ~ ~ 0.5 0.5 0.5 0 $(particle_count) normal
 #sound
 playsound entity.generic.explode ambient @a ~ ~ ~ 2 0.6
 #damage cal

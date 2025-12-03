@@ -9,7 +9,9 @@ recipe take @a *
 
 scoreboard objectives add TIMER dummy
 scoreboard objectives add NUMEROJOUEUR dummy
+scoreboard objectives add ENTITYID dummy
 scoreboard objectives add TELLURONTIME dummy
+scoreboard objectives add LIFETIME dummy
 
 function att2:gameplay/arena/initialize
 function att2:gameplay/bank/initialize

@@ -13,6 +13,7 @@ data modify storage att2:item rarity set value ""
 #get data
 data modify storage att2:item rarity set from entity @s Item.components."minecraft:custom_data"
 #test equipment
+execute if data storage att2:item rarity{Rarity:cur} run return run scoreboard players set @s itemcolor 0
 execute if data storage att2:item rarity{Rarity:com} run return run scoreboard players set @s itemcolor 1
 execute if data storage att2:item rarity{Rarity:unc} run return run scoreboard players set @s itemcolor 2
 execute if data storage att2:item rarity{Rarity:rar} run return run scoreboard players set @s itemcolor 3

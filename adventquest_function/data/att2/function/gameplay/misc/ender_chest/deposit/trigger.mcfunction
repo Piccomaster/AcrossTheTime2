@@ -28,8 +28,7 @@ function att2:gameplay/misc/ender_chest/detection_same with storage att2:score
 scoreboard players operation #cooldown CAL = @n[distance=..10,type=interaction,tag=EnderChest,tag=TempSelect] ENDERCHEST_CD
 
 ##test full
-execute store result score #count CAL run data get storage att2:ender_chest all_items
-execute if score #count CAL >= max_count ENDERCHEST run return run tellraw @s {translate:att2.ender_chest.full}
+execute if score all_items_count ENDERCHEST >= max_count ENDERCHEST run return run tellraw @s {translate:att2.ender_chest.full}
 
 ##add confirm score
 execute if score @s ENDERCHEST matches ..-1 run scoreboard players set @s ENDERCHEST 0

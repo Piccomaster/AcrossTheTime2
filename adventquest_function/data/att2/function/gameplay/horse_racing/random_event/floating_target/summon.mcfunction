@@ -7,6 +7,9 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
+##summon limit
+execute if entity @e[distance=..20,type=marker,tag=HorseRace,tag=Random_Floating_Target] run return 0
+
 ##rng summon
 ##test if air
 execute unless block ~ ~10 ~ air run return 0

@@ -5,7 +5,7 @@
 
 
 ##horse_race limit
-execute if entity @a[distance=..50,tag=HorseRace] run return 0
+execute if entity @a[distance=..100,tag=HorseRace] run return 0
 
 #test if player in distance
 scoreboard players set #TEST CAL 0

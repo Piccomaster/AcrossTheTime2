@@ -13,6 +13,7 @@ execute store result score #Health CAL run data get entity @s Health
 ##add health
 scoreboard players operation #Health CAL += #health_add CAL
 ##Check for overflow
+scoreboard players set #Health_Overflow CAL 0
 execute if score #Health CAL matches 41.. run scoreboard players operation #Health_Overflow CAL = #Health CAL
 scoreboard players remove #Health_Overflow CAL 40
 scoreboard players operation #Health_Overflow CAL > 0 CAL

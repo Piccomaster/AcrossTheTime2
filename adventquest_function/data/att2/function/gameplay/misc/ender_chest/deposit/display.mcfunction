@@ -5,6 +5,7 @@
 
 
 #limit
+execute as @s[tag=DropItem] unless data entity @s {PickupDelay:0s} run return 0
 execute if data entity @s Item{components:{"minecraft:custom_data":{Dahal:book}}} run return 0
 execute if data entity @s Item{components:{"minecraft:custom_data":{Dahal:launcher}}} run return 0
 

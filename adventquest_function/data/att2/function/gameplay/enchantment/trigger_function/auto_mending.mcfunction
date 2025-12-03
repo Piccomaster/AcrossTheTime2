@@ -3,6 +3,8 @@
 #auto_mending trigger                    						#
 #################################################################
 
+##time limit
+execute unless score tic TIMECOUNTER matches 1 run return 0
 
 execute if predicate att2_pre:enchantment/auto_mending/head run function att2:gameplay/enchantment/auto_mending/durability_head
 

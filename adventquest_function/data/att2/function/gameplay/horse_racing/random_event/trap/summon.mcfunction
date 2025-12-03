@@ -7,6 +7,9 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
+##summon limit
+execute if entity @e[distance=..20,type=marker,tag=HorseRace,tag=Random_Trap] run return 0
+
 ##rng summon
 summon marker ~ ~ ~ {Tags:["HorseRace","Random_Trap","New"],data:{trigger_id:[]}}
 
