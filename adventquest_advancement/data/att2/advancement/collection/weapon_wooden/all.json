@@ -3,18 +3,649 @@
         "icon": {
             "id": "minecraft:raw_copper_block"
         },
-        "title": {"translate": "att2.advancement.collection.weapon_wooden.title.all"},
-        "description": {"translate": "att2.advancement.collection.weapon_wooden.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.weapon_wooden.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.weapon_wooden.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_wooden",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "weapon_wooden_all": {
-            "trigger": "minecraft:impossible"
+        "bow_33": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "33"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_34": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "34"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_35": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "35"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_36": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "36"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_37": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "37"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_38": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "38"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_39": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "39"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "40"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_41": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "41"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_42": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "42"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_43": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "43"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_44": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "44"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_45": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "45"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_46": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "46"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_47": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "47"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_48": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "48"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_49": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "49"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_50": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "50"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_51": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "51"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_52": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "52"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_53": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "53"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_54": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "54"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_55": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "55"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_56": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "56"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_57": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "57"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_58": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "58"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_59": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "59"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_60": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "60"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_61": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "61"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_62": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "62"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_63": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "63"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_243": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "243"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_244": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "244"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_245": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "245"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_246": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "246"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_247": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "247"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_248": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "248"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_249": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "249"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_250": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "250"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_251": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "251"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_252": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "252"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_253": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "253"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

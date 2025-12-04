@@ -4,4 +4,4 @@
 #################################################################
 
 #Integrate data
-$data modify storage att2:dialog currency append value {translate:consciousness.currency.rune_material,color:"#44403B",with:["$(rune_material)"]}
+$data modify storage att2:dialog currency append value {translate:consciousness.currency.rune_material,color:"#545436",with:["$(rune_material)"]}

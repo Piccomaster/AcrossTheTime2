@@ -6,7 +6,7 @@
 ##menu limit
 execute unless score Mainquest SIDEQUEST matches 1.. as @a[tag=!MainPlayerSelect] run dialog clear @s
 
-execute if score bank SYSTEM matches 1 run function att2:gameplay/bank/go
+#execute if score bank SYSTEM matches 1 run function att2:gameplay/bank/go
 execute if score boss SYSTEM matches 1 run function att2:gameplay/boss/go
 execute if score bow SYSTEM matches 1 run function att2:gameplay/bow/go
 execute if score chronoton SYSTEM matches 1 run function att2:gameplay/chronoton/go

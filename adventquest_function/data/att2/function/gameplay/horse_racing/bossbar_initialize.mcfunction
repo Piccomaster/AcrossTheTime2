@@ -8,6 +8,7 @@
 #############################################################
 
 #bossbar initialize
+$bossbar remove horse_race_$(player)
 $bossbar add horse_race_$(player) ""
 $bossbar set horse_race_$(player) name {translate:""}
 $bossbar set horse_race_$(player) players @s

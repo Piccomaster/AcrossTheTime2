@@ -3,9 +3,13 @@
 #Process to tie horses											#
 #################################################################
 
+##dismount
+execute on passengers if entity @s[type=player] run ride @s dismount
+execute on passengers run ride @s dismount
 ##add Tags
 tag @s add Store
 #get id
+$execute if entity @s[type=skeleton_horse] run data modify storage att2:ride_$(player) id set value skeleton_horse
 $execute if entity @s[type=horse] run data modify storage att2:ride_$(player) id set value horse
 $execute if entity @s[type=camel] run data modify storage att2:ride_$(player) id set value camel
 $execute if entity @s[type=pig] run data modify storage att2:ride_$(player) id set value pig

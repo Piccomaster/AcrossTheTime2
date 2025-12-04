@@ -21,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:netherite_shovel"
-,
+            "items": "minecraft:netherite_shovel",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "345"

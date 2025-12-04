@@ -3,4 +3,4 @@
 #Summon Aozathreyon minion  		       	 	 #
 ##################################################
 
-summon minecraft:blaze ~ ~ ~ {Tags:["LVL0","CLASS16","Reg4","BossMinion"],Passengers:[{id:"minecraft:blaze",Tags:["LVL0","CLASS16","Reg4","BossMinion"],Passengers:[{id:"minecraft:blaze",Tags:["LVL0","CLASS16","Reg4","BossMinion"],Passengers:[{id:"minecraft:blaze",Tags:["LVL0","CLASS16","Reg4","BossMinion"],Passengers:[{id:"minecraft:blaze",Tags:["LVL0","CLASS16","Reg4","BossMinion"]}]}]}]}]}
+summon minecraft:blaze ~ ~ ~ {Tags:["LVL0","CLASS16","Reg4","BossMinion"],Passengers:[{id:"minecraft:blaze",Tags:["LVL0","CLASS16","Reg4","BossMinion"],Passengers:[{id:"minecraft:blaze",Tags:["LVL0","CLASS16","Reg4","BossMinion"],Passengers:[{id:"minecraft:blaze",Tags:["LVL0","CLASS16","Reg4","BossMinion"],Passengers:[{id:"minecraft:blaze",Tags:["LVL0","CLASS16","Reg4","BossMinion"]}]}]}]}],equipment:{head:{id:"minecraft:diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}

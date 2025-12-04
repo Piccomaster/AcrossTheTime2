@@ -10,7 +10,4 @@
 ##remove score
 scoreboard players set @s HORSERACE_VITALITY_SPRINT 0
 ##reset attitude
-attribute @s movement_speed modifier remove horse_race_sprint
-##sound
-
-##tip
+execute on vehicle if entity @s[tag=HorseRace,type=#minecraft:rideable] run attribute @s movement_speed modifier remove horse_race_sprint

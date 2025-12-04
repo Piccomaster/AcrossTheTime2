@@ -4,7 +4,7 @@
 #################################################
 
 #have item ->go
-execute as @a[scores={spell31_run=1}] at @s positioned ~ ~0.8 ~ if entity @e[type=item,distance=..5] run function att2:gameplay/dahal/action/spell31/test
+execute as @a[scores={spell31_run=1},gamemode=adventure] at @s positioned ~ ~0.8 ~ if entity @e[type=item,distance=..5] run function att2:gameplay/dahal/action/spell31/test
 
 # Particle
 execute as @e[type=minecraft:frog,tag=GluttonPet] at @s run function att2:gameplay/dahal/action/spell31/persistence_effect

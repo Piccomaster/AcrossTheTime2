@@ -4,7 +4,7 @@
 ##################################################
 
 ##if player nearly update questboard data
-execute in overworld positioned -4938 76 -5028 run function att2:cinematic/dailyquest/phoenix/cycle
+execute in the_nether positioned 3903 48 3888 run function att2:cinematic/dailyquest/phoenix/cycle
 
 ##dailyquest_1 : Rioting crowd
 execute if score phoenix_dailyquest_1 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/phoenix/1/go

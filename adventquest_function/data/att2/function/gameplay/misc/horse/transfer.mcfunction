@@ -7,6 +7,8 @@
 function att2:sound/misc/whistle
 #Forcibly dismount the player when on horseback.
 tp @s ~ ~ ~ ~ ~
+##get player score
+function att2:gameplay/score/player
 #particles | limit
 execute as @n[type=#minecraft:rideable,distance=..4,tag=RIDE] at @s run function att2:gameplay/misc/horse/storage with storage att2:score
 

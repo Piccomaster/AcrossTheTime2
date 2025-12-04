@@ -3,18 +3,439 @@
         "icon": {
             "id": "minecraft:raw_gold_block"
         },
-        "title": {"translate": "att2.advancement.collection.weapon_ouranos.title.all"},
-        "description": {"translate": "att2.advancement.collection.weapon_ouranos.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.weapon_ouranos.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.weapon_ouranos.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_ouranos",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "weapon_ouranos_all": {
-            "trigger": "minecraft:impossible"
+        "stone_axe_198": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "198"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_199": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "199"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_200": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "200"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_201": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "201"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_202": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "202"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_203": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "203"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_204": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "204"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_205": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "205"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_206": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "206"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_207": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "207"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_208": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "208"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_209": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "209"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_210": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "210"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_211": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "211"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_212": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "212"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_shovel_213": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "213"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_214": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "214"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_215": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "215"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_216": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "216"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_217": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "217"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_218": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "218"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_219": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "219"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_220": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "220"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "shield_221": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shield",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "221"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_326": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "326"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_327": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "327"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_328": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "328"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_329": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "329"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

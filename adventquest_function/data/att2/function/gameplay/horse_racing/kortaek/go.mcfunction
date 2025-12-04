@@ -13,6 +13,8 @@ function att2:cinematic/sidequest/34/gustave/bridge_built
 ##forceload
 execute in overworld positioned -4892 71 -4374 run forceload add ~ ~
 execute in overworld positioned -5616 76 -4589 run forceload add ~ ~
+execute in overworld positioned -5519 76 -4985 run forceload add ~ ~
+
 ##prepraring
 execute if score preparation_time HORSERACE matches 0.. run return run function att2:gameplay/horse_racing/kortaek/preparing
 ##test finish

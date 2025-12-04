@@ -30,3 +30,10 @@ execute if score eolorion_dailyquest_4 DAILYQUEST matches 1..99 run function att
 
 ##dailyquest_4 : Ultimate Recycling
 execute if score kortaek_dailyquest_4 DAILYQUEST matches 1..99 run function att2:cinematic/dailyquest/kortaek/4/trigger/submit_item
+
+############## Phoenix_dailyquest
+
+##clear near tip
+
+##dailyquest_3 : Thirst for knowledge.
+execute if score phoenix_dailyquest_3 DAILYQUEST matches 1..99 run function att2:cinematic/dailyquest/phoenix/3/trigger/submit_item

@@ -9,7 +9,7 @@
 ##( HORSERACE_VITALITY = 80 x vitality_lvl - 40)
 
 ##add base HORSERACE_VITALITY
-execute if score tic TIMECOUNTER matches 5 run scoreboard players add @s HORSERACE_VITALITY 1
+execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/horse_racing/ai/vitality/add_score
 ##get vitality_lvl
 execute store result score #vitality_record_lvl CAL run data get entity @s data.horse_race.vitality_lvl
 ##cal now lvl

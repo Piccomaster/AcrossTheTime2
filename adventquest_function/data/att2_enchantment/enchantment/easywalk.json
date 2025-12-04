@@ -3,20 +3,6 @@
   "description": {
     "translate": "enchantment.att2.easywalk"
   },
-  "effects": {
-    "minecraft:attributes": [
-      {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0.15
-        },
-        "attribute": "minecraft:step_height",
-        "id": "minecraft:step_height",
-        "operation": "add_value"
-      }
-    ]
-  },
   "max_cost": {
     "base": 75,
     "per_level_above_first": 25
@@ -30,5 +16,19 @@
     "feet"
   ],
   "supported_items": "#minecraft:enchantable/foot_armor",
-  "weight": 1
+  "weight": 1,
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.15
+        },
+        "attribute": "minecraft:step_height",
+        "id": "minecraft:step_height",
+        "operation": "add_value"
+      }
+    ]
+  }
 }

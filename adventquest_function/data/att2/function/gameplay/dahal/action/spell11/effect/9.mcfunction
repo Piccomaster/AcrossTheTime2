@@ -8,6 +8,4 @@ function att2:gameplay/dahal/action/spell11/effect
 execute as @s run function att2:gameplay/dahal/action/spell11/damage_cal
 #find owner player ->damage
 execute store result storage att2:sp_dmg owner int 1 run scoreboard players get @s NUMEROJOUEUR
-execute as @e[distance=..9,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell11/damage with storage att2:sp_dmg
-#reset dahal burst score
-execute if entity @e[distance=..3,scores={GAMELEVEL=0..},team=hostile,limit=1] run scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
+execute at @s align xyz positioned ~-8.5 ~-8.5 ~-8.5 as @e[dx=18,dy=18,dz=18,scores={GAMELEVEL=0..},type=!bat,team=hostile] at @s run function att2:gameplay/dahal/action/spell11/damage with storage att2:sp_dmg

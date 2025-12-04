@@ -3,6 +3,7 @@
 #Process survive bonus          								#
 #################################################################
 
+scoreboard players add @s SURVIVEBONUS 0
 scoreboard players set @s[scores={TIMESINCEDEATH=..71999}] SURVIVEBONUS 0
 scoreboard players set @s[scores={TIMESINCEDEATH=72000..95999}] SURVIVEBONUS 1
 scoreboard players set @s[scores={TIMESINCEDEATH=96000..143999}] SURVIVEBONUS 2

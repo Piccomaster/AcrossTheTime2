@@ -23,9 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:golden_sword"
-,
+            "items": "minecraft:golden_sword",
             "predicates": {
               "minecraft:custom_data": {
                 "Weapon": "159"

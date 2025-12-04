@@ -18,7 +18,8 @@ execute if score Real0 TIMER matches 220 run function att2:sound/misc/glass_melt
 execute if score Real0 TIMER matches 280 run function att2:physicmod/reg1/owsastr/center_glassmelting3
 execute if score Real0 TIMER matches 280 run function att2:sound/misc/glass_melting
 
-execute if score Real0 TIMER matches 299 run data merge entity 00000000-0000-004b-0000-00000000004b {NoAI:0b,Tags:["LVL0","Reg1","CLASS8"],Invulnerable:0b}
+execute if score Real0 TIMER matches 299 run data merge entity 00000000-0000-004b-0000-00000000004b {NoAI:0b,Tags:["LVL0","Reg1","CLASS8"],Invulnerable:0b,equipment:{head:{id:"minecraft:diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1}}}}}
+
 execute if score Real0 TIMER matches 299 run function att2:summon/reg_1/aeparga_minion1
 execute if score Real0 TIMER matches 299 run function att2:summon/reg_1/aeparga_minion2
 execute if score Real0 TIMER matches 299 run function att2:summon/reg_1/aeparga_minion3

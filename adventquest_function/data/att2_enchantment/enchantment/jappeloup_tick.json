@@ -1,7 +1,7 @@
 {
   "anvil_cost": 7,
   "description": {
-    "translate": "enchantment.att2.jappeloup_tick"
+    "translate": "att2.jappeloup.name"
   },
   "max_cost": {
     "base": 7,

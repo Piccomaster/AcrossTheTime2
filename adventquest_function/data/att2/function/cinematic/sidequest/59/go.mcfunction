@@ -64,7 +64,7 @@ execute if score SQ59 SIDEQUEST matches 19 if score step_19 SQ59 matches 1 if sc
 execute if score SQ59 SIDEQUEST matches 20 if score cinematic_timer SQ59 matches 1.. positioned 5000 104 -5017 if entity @a[distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/59/step20/cinematic1
 
 # Changing zombie stuff around players in old Hill valley
-execute if score SQ59 SIDEQUEST matches 15 if score tic TIMECOUNTER matches 10 at @a[gamemode=adventure] as @e[type=minecraft:zombie,distance=..25,tag=!SQ59] run data merge entity @s {drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},Tags:["LVL0","CLASS12","Reg1","SQ59"]}
+execute if score SQ59 SIDEQUEST matches 15 if score tic TIMECOUNTER matches 10 at @a[gamemode=adventure] as @e[type=minecraft:zombie,distance=..25,tag=!SQ59] run data merge entity @s {drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},Tags:["LVL0","CLASS12","Reg1","SQ59"],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
 
 # Anomaly effect
 execute if score SQ59 SIDEQUEST matches 2..11 positioned 29879 100 30002 run function att2:cinematic/sidequest/59/step2/anomaly_effect

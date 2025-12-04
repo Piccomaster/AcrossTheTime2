@@ -23,9 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:netherite_leggings"
-,
+            "items": "minecraft:netherite_leggings",
             "predicates": {
               "minecraft:custom_data": {
                 "Armor": "295"

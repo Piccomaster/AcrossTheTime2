@@ -3,18 +3,514 @@
         "icon": {
             "id": "minecraft:deepslate_iron_ore"
         },
-        "title": {"translate": "att2.advancement.collection.armor_chainmail.title.all"},
-        "description": {"translate": "att2.advancement.collection.armor_chainmail.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.armor_chainmail.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.armor_chainmail.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/armor_chainmail",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "armor_chainmail_all": {
-            "trigger": "minecraft:impossible"
+        "chainmail_chestplate_70": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "70"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_71": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "71"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_72": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "72"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_73": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "73"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_74": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "74"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_75": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "75"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_76": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "76"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_77": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "77"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_78": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "78"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_79": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "79"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_80": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "80"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_81": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "81"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_82": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "82"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_83": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "83"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_84": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "84"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_85": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "85"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_86": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "86"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_87": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "87"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_88": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "88"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_89": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "89"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_90": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "90"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_91": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "91"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_92": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "92"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_93": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "93"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_94": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "94"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_95": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "95"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_96": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "96"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_97": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "97"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_98": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "98"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_297": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "297"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_298": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "298"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_299": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "299"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_300": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "300"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

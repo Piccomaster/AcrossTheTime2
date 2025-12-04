@@ -3,8 +3,8 @@
 #Manage Earthquake lvl8       					#
 #################################################
 
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run effect give @s minecraft:wither 5 3 true
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run effect give @s minecraft:slowness 2 0 true
+#execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run effect give @s minecraft:wither 5 3 true
+execute at @s align xyz positioned ~-7.5 ~-7.5 ~-7.5 as @e[dx=16,dy=16,dz=16,scores={GAMELEVEL=0..},type=!bat,team=hostile] at @s run effect give @s minecraft:slowness 2 0 true
 
 particle minecraft:item{item:"minecraft:iron_block"} ~ ~0.2 ~ 4 0.25 4 0.1 8 normal
 particle minecraft:item{item:"minecraft:gray_concrete"} ~ ~0.2 ~ 4 0.25 4 0.1 8 normal

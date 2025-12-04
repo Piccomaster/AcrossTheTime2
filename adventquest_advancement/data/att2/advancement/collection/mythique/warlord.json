@@ -30,8 +30,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:bow",
+            "items": "minecraft:bow",
             "predicates": {
               "minecraft:custom_data": {
                 "EquipmentID": "warlord"

@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:ender_eye",
             "components": {
-                "minecraft:enchantment_glint_override":true
-        }
+                "minecraft:enchantment_glint_override": true
+            }
         },
         "title": {
             "translate": "att2.advancement.books.title.all_books"
@@ -17,8 +17,365 @@
     },
     "parent": "att2:books/root",
     "criteria": {
-        "all_books": {
-            "trigger": "minecraft:impossible"
+        "alchimancy_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "alchimancy_1": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "alchimancy_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "alchimancy_2": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "alchimancy_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "alchimancy_3": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "alchimancy_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "alchimancy_4": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "alchimancy_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "alchimancy_5": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "alchimancy_6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "alchimancy_6": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "alchimancy_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "alchimancy_7": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ships_log1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "ships_log1": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ships_log2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "ships_log2": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ships_log3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "ships_log3": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ships_log4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "ships_log4": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ships_log5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "ships_log5": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ships_log6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "ships_log6": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ships_log7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "ships_log7": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ships_log8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "ships_log8": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "myorain_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "myorain_1": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "myorain_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "myorain_2": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "consciousness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Conscience": "book"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "concil_invitation": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "concil_invitation": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "last_words": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "last_words": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "parchment": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "parchment": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "testament": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "testament": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "worlds_hunter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "worlds_hunter": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "warning": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "warning": true
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

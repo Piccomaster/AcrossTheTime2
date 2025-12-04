@@ -14,7 +14,7 @@ scoreboard players set meleim_dailyquest_10 DAILYQUEST 1
 ##initialize quest data
 function att2:cinematic/dailyquest/meleim/10/initialize
 ##tip
-tellraw @a [{translate:att2.dailyquest.meleim.accepted},{translate:att2.dailyquest.meleim..0.name,color:"blue"}]
+tellraw @a [{translate:att2.dailyquest.meleim.accepted},{translate:att2.dailyquest.meleim.10.name,color:"blue"}]
 tellraw @a [{translate:att2.dailyquest.requirements},{text:"\n"},{translate:att2.dailyquest.meleim.10.requirements,color:"#53EAFD"}]
 tellraw @a [{translate:att2.dailyquest.rewards}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name:meleim_dailyquest_10_rewards_chronoton,objective:DAILYQUEST},color:"yellow"}]}]

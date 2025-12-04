@@ -3,18 +3,1264 @@
         "icon": {
             "id": "minecraft:stripped_birch_log"
         },
-        "title": {"translate": "att2.advancement.collection.title.chestplate_all"},
-        "description": {"translate": "att2.advancement.collection.description.chestplate_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.chestplate_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.chestplate_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/root",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000
-                },
+    },
     "criteria": {
-        "chestplate_all": {
-            "trigger": "minecraft:impossible"
+        "leather_chestplate_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "1"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "3"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "7"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_11": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "11"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "15"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_20": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "20"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_26": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "26"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_27": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "27"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_34": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "34"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_35": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "35"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_42": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "42"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_43": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "43"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_49": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "49"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_53": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "53"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_57": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "57"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_61": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "61"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_49_collection_armor_leather_chestplate_65": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "65"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_70": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "70"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_71": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "71"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_76": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "76"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_77": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "77"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_84": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "84"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_85": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "85"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_92": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "92"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_96": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "96"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_101": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "101"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_102": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "102"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_109": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "109"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_110": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "110"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_117": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "117"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_118": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "118"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_124": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "124"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_128": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "128"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_133": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "133"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_134": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "134"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_141": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "141"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_142": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "142"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_149": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "149"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_150": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "150"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_156": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "156"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_160": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "160"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_164": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "164"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_170": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "170"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_171": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "171"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_178": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "178"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_179": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "179"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_186": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "186"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_187": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "187"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_193": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "193"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_197": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "197"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_201": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "201"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_206": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "206"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_211": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:elytra",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "211"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_225": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "225"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_226": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "226"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_232": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "232"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_236": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "236"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_241": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "241"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_245": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "245"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_249": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "249"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_253": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "253"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_257": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "257"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_261": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "261"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_267": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "267"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_268": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "268"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_275": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "275"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_276": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "276"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_283": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "283"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_284": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "284"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_290": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "290"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_294": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "294"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_298": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "298"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_303": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "303"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_312": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "312"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_317": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "317"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_321": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "321"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_326": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "326"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate_329": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "329"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_334": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "334"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_338": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "338"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_342": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "342"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_346": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "346"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate_350": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "350"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

@@ -3,7 +3,7 @@
 #Destroy unauthorised items in player's inventory#
 ##################################################
 
-clear @s minecraft:bowl
+clear @s[gamemode=adventure] minecraft:bowl
 
 #
 advancement revoke @s only att2_test:item_limit/bowl

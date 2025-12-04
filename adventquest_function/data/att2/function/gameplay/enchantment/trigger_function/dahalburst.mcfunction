@@ -4,4 +4,4 @@
 #################################################################
 
 
-execute if predicate att2_pre:enchantment/dahalburst/chest run function att2:gameplay/enchantment/dahalburst/go
+#execute if predicate att2_pre:enchantment/dahalburst/chest run function att2:gameplay/enchantment/dahalburst/go

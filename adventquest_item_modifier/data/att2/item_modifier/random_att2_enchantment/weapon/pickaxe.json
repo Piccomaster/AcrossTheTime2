@@ -20,11 +20,14 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:auto_mending": 1
+            "att2_enchantment:auto_mending": {
+              "min": 1,
+              "max": 2
+            }
           }
         }
       ]
@@ -40,11 +43,14 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:runeharden": 1
+            "att2_enchantment:runeharden": {
+              "min": 1,
+              "max": 2
+            }
           }
         }
       ]
@@ -60,11 +66,14 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:groundslam": 1
+            "att2_enchantment:groundslam": {
+              "min": 1,
+              "max": 2
+            }
           }
         }
       ]

@@ -30,8 +30,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:wooden_sword",
+            "items": "minecraft:wooden_sword",
             "predicates": {
               "minecraft:custom_data": {
                 "EquipmentID": "fortuity"

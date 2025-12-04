@@ -3,18 +3,244 @@
         "icon": {
             "id": "minecraft:melon"
         },
-        "title": {"translate": "att2.advancement.collection.title.crossbow_all"},
-        "description": {"translate": "att2.advancement.collection.description.crossbow_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.crossbow_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.crossbow_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/root",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000
-                },
+    },
     "criteria": {
-        "crossbow_all": {
-            "trigger": "minecraft:impossible"
+        "crossbow_243": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "243"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_244": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "244"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_245": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "245"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_246": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "246"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_247": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "247"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_248": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "248"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_249": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "249"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_250": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "250"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_251": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "251"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_252": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "252"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_253": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "253"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_326": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "326"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_327": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "327"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_328": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "328"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_329": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "329"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

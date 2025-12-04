@@ -18,3 +18,5 @@ scoreboard players set phoenix_dailyquest_4_fail_chronoton DAILYQUEST 100
 scoreboard players set phoenix_dailyquest_4_fail_reputation DAILYQUEST 5
 
 ##other: no
+scoreboard players set phoenix_dailyquest_4_blaze_horse_summon_pos_1 DAILYQUEST 0
+scoreboard players set phoenix_dailyquest_4_blaze_horse_summon_pos_2 DAILYQUEST 0

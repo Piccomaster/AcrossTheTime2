@@ -19,6 +19,8 @@ execute if score tier4 LOOTCHEST matches 300.. run advancement grant @a only att
 scoreboard players set chest MIMIC 4
 scoreboard players set tier MIMIC 3
 function att2:gameplay/enveffect/mimic/trigger_summon
+#dailyquest trigger
+function att2:cinematic/dailyquest/trigger/open_chest
 #trigger treasurehunet enchantment
 execute unless score @s TREASUREHUNTER matches 1.. if predicate att2_pre:enchantment/treasurehunter/leg run function att2:gameplay/enchantment/treasurehunter/score/3
 execute if score @s TREASUREHUNTER matches 1.. if predicate att2_pre:enchantment/treasurehunter/leg run function att2:gameplay/enchantment/treasurehunter/luck_add

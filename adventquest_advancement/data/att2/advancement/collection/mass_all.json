@@ -3,18 +3,739 @@
         "icon": {
             "id": "minecraft:mangrove_roots"
         },
-        "title": {"translate": "att2.advancement.collection.title.mass_all"},
-        "description": {"translate": "att2.advancement.collection.description.mass_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.mass_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.mass_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/root",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000
-                },
+    },
     "criteria": {
-        "mass_all": {
-            "trigger": "minecraft:impossible"
+        "wooden_pickaxe_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "3"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "4"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_11": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "11"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_12": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "12"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_19": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "19"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_20": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "20"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_26": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "26"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_30": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "30"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_66": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "66"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_67": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "67"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_74": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "74"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_75": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "75"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_82": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "82"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_83": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "83"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_89": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "89"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe_93": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "93"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe_98": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "98"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe_99": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "99"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe_106": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "106"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe_107": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "107"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe_114": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "114"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe_115": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "115"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe_121": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "121"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe_125": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "125"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe_130": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "130"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe_131": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "131"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe_138": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "138"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe_139": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "139"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe_146": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "146"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe_147": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "147"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe_153": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "153"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe_157": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "157"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_176": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "176"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_178": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "178"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_179": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "179"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_182": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "182"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_183": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "183"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_186": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "186"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_187": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "187"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe_189": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "189"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_pickaxe_280": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "280"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_pickaxe_281": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "281"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_pickaxe_290": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "290"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_pickaxe_291": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "291"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_pickaxe_300": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "300"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_pickaxe_301": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "301"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_pickaxe_309": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "309"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_pickaxe_314": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "314"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

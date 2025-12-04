@@ -3,18 +3,1249 @@
         "icon": {
             "id": "minecraft:stripped_spruce_log"
         },
-        "title": {"translate": "att2.advancement.collection.title.leggings_all"},
-        "description": {"translate": "att2.advancement.collection.description.leggings_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.leggings_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.leggings_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/root",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000
-                },
+    },
     "criteria": {
-        "leggings_all": {
-            "trigger": "minecraft:impossible"
+        "leather_leggings_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "4"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "8"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_12": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "12"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_16": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "16"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_21": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "21"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_28": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "28"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_29": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "29"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_36": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "36"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_37": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "37"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_44": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "44"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_45": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "45"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_50": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "50"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_54": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "54"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_58": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "58"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_62": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "62"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_66": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "66"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_72": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "72"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_73": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "73"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_78": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "78"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_79": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "79"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_86": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "86"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_87": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "87"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_93": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "93"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_97": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "97"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_103": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "103"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_104": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "104"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_111": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "111"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_112": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "112"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_119": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "119"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_120": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "120"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_125": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "125"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_129": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "129"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_135": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "135"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_136": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "136"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_143": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "143"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_144": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "144"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_151": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "151"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_152": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "152"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_157": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "157"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_161": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "161"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_165": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "165"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_172": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "172"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_173": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "173"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_180": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "180"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_181": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "181"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_188": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "188"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_189": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "189"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_194": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "194"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_198": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "198"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_202": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "202"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_207": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "207"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_212": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "212"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_227": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "227"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_228": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "228"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_233": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "233"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_237": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "237"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_242": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "242"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_246": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "246"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_250": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "250"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_254": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "254"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_258": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "258"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_262": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "262"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_269": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "269"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_270": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "270"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_277": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "277"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_278": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "278"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_285": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "285"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_286": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "286"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_291": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "291"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_295": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "295"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_299": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "299"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_304": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "304"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_313": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "313"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_318": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "318"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_322": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "322"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_325": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "325"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_leggings_330": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "330"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_335": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "335"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_339": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "339"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_343": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "343"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_347": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "347"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_leggings_351": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "351"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

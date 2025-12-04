@@ -13,7 +13,7 @@ execute unless score @s HORSERACE_RANDOM_EVENT matches 1.. run scoreboard player
 
 ##ailvl reduce time
 scoreboard players operation #time_reduce CAL = #ailvl CAL
-scoreboard players operation #time_reduce CAL *= 20 CAL
+scoreboard players operation #time_reduce CAL *= 40 CAL
 scoreboard players operation @s HORSERACE_RANDOM_EVENT -= #time_reduce CAL
 ##random select
 execute store result score #RNG CAL run random value 1..3

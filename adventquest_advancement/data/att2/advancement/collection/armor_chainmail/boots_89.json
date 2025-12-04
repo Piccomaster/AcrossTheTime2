@@ -23,9 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:chainmail_boots"
-,
+            "items": "minecraft:chainmail_boots",
             "predicates": {
               "minecraft:custom_data": {
                 "Armor": "89"

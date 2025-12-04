@@ -3,18 +3,559 @@
         "icon": {
             "id": "minecraft:raw_iron_block"
         },
-        "title": {"translate": "att2.advancement.collection.armor_iron.title.all"},
-        "description": {"translate": "att2.advancement.collection.armor_iron.description.all"},
+        "title": {
+            "translate": "att2.advancement.collection.armor_iron.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.armor_iron.description.all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/armor_iron",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
-                },
+    },
     "criteria": {
-        "armor_diamond_all": {
-            "trigger": "minecraft:impossible"
+        "iron_helmet_99": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "99"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_100": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "100"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_101": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "101"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_102": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "102"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_103": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "103"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_104": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "104"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_105": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "105"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_106": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "106"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_107": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "107"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_108": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "108"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_109": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "109"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_110": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "110"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_111": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "111"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_112": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "112"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_113": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "113"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_114": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "114"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_115": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "115"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_116": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "116"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_117": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "117"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_118": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "118"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_119": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "119"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_120": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "120"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_121": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "121"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_122": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "122"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_123": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "123"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_124": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "124"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_125": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "125"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_126": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "126"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_127": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "127"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_128": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "128"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_129": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "129"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_130": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "130"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_helmet_302": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_helmet",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "302"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_chestplate_303": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_chestplate",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "303"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_leggings_304": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_leggings",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "304"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_boots_305": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_boots",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Armor": "305"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

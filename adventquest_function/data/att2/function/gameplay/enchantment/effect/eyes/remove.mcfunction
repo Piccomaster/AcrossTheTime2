@@ -3,13 +3,13 @@
 #Initialize enchantment                    						#
 #################################################################
 
-execute if entity @a[distance=..10,predicate=att2_pre:enchantment/eyes/remove] run data merge entity @e[type=text_display,tag=ENCHANTMENT_REMOVE,limit=1,tag=!EYE] {Rotation:[-180.0f,0.0f],transformation:{translation:[-0.01f,-0.405f,0.03f],scale:[1.5f,1.5f,1.5f]},start_interpolation:0,interpolation_duration:5}
+execute if entity @a[distance=..10,predicate=att2_pre:enchantment/eyes/remove] run data merge entity @e[type=text_display,tag=ENCHANTMENT_REMOVE,limit=1,tag=!EYE] {Rotation:[145.0f,0.0f],transformation:{translation:[-0.01f,-0.405f,0.03f],scale:[1.5f,1.5f,1.5f]},start_interpolation:0,interpolation_duration:5}
 
 execute if entity @a[distance=..10,predicate=att2_pre:enchantment/eyes/remove] run tag @s[type=text_display,tag=ENCHANTMENT_REMOVE,tag=!EYE] add EYE
 
 execute if entity @a[distance=..10,predicate=att2_pre:enchantment/eyes/remove] unless score remove_show ENCHANTMENT matches 5.. run scoreboard players add remove_show ENCHANTMENT 1
 
-execute if entity @a[distance=..10,predicate=!att2_pre:enchantment/eyes/remove] run data merge entity @e[type=text_display,tag=ENCHANTMENT_REMOVE,limit=1,tag=EYE] {Rotation:[-180.0f,0.0f],transformation:{translation:[0.0f,-0.35f,0.0f],scale:[1f,1f,1f]},start_interpolation:0,interpolation_duration:5}
+execute if entity @a[distance=..10,predicate=!att2_pre:enchantment/eyes/remove] run data merge entity @e[type=text_display,tag=ENCHANTMENT_REMOVE,limit=1,tag=EYE] {Rotation:[145.0f,0.0f],transformation:{translation:[0.0f,-0.35f,0.0f],scale:[1f,1f,1f]},start_interpolation:0,interpolation_duration:5}
 
 execute if entity @a[distance=..10,predicate=!att2_pre:enchantment/eyes/remove] run tag @s[type=text_display,tag=ENCHANTMENT_REMOVE,tag=EYE] remove EYE
 

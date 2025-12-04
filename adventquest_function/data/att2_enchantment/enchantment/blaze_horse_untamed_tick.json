@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": "att2.blaze_horse.name"
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "body"
+  ],
+  "supported_items": "minecraft:netherite_horse_armor",
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type":"run_function",
+          "function":"att2:cinematic/dailyquest/phoenix/4/blaze_horse_untamed/go"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

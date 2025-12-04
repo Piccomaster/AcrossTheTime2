@@ -3,18 +3,739 @@
         "icon": {
             "id": "minecraft:stripped_mangrove_log"
         },
-        "title": {"translate": "att2.advancement.collection.title.sword_all"},
-        "description": {"translate": "att2.advancement.collection.description.sword_all"},
+        "title": {
+            "translate": "att2.advancement.collection.title.sword_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection.description.sword_all"
+        },
         "frame": "challenge"
     },
     "parent": "att2:collection/root",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000
-                },
+    },
     "criteria": {
-        "sword_all": {
-            "trigger": "minecraft:impossible"
+        "wooden_sword_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "7"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "8"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "15"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_16": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "16"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_23": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "23"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_24": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "24"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_28": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "28"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_32": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "32"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_70": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "70"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_71": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "71"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_78": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "78"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_79": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "79"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_86": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "86"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_87": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "87"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_91": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "91"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_95": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "95"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_102": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "102"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_103": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "103"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_110": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "110"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_111": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "111"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_118": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "118"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_119": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "119"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_123": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "123"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_127": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "127"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_134": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "134"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_135": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "135"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_142": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "142"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_143": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "143"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_150": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "150"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_151": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "151"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_155": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "155"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_159": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "159"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_177": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "177"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_180": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "180"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_181": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "181"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_184": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "184"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_185": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "185"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_188": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "188"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_190": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "190"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_191": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "191"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_284": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "284"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_285": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "285"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_294": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "294"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_295": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "295"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_304": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "304"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_305": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "305"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_311": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "311"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_316": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Weapon": "316"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

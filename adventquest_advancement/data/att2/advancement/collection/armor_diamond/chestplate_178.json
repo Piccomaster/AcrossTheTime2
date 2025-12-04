@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": 
-              "minecraft:diamond_chestplate"
-,
+            "items": "minecraft:diamond_chestplate",
             "predicates": {
               "minecraft:custom_data": {
                 "Armor": "178"

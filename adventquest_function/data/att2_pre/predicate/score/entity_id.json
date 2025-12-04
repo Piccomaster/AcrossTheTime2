@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "ENTITYID": {
+      "min": {
+        "type": "storage",
+        "storage": "att2:score",
+        "path": "entity_id"
+      },
+      "max": {
+        "type": "storage",
+        "storage": "att2:score",
+        "path": "entity_id"
+      }
+    }
+  }
+}
