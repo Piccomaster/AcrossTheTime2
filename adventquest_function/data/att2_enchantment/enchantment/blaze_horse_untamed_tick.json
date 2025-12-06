@@ -15,7 +15,7 @@
   "slots": [
     "body"
   ],
-  "supported_items": "minecraft:netherite_horse_armor",
+  "supported_items": "#minecraft:horse_armor",
   "effects": {
     "tick": [
       {

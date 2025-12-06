@@ -22,7 +22,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/leveling/monster/initialize/initnewmonster"
+          "function": "att2:gameplay/leveling/monster/super_elite_diff"
         }
       }
     ]
