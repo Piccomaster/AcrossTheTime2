@@ -10,7 +10,7 @@ kill @e[type=arrow,tag=swarm,predicate=att2_pre:score/owner]
 execute at @s run function att2:gameplay/dahal/action/spell8/effect/7
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell8/damage_cal
-at @s align xyz positioned ~-10.5 ~-10.5 ~-10.5 as @e[dx=22,dy=22,dz=22,scores={GAMELEVEL=0..},type=!bat,team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell8/damage with storage att2:sp_dmg
+execute at @s align xyz positioned ~-10.5 ~-10.5 ~-10.5 as @e[dx=22,dy=22,dz=22,scores={GAMELEVEL=0..},type=!bat,team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell8/damage with storage att2:sp_dmg
 #reset dahal burst score
 scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 #dahal

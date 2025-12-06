@@ -12,4 +12,4 @@ execute positioned 1525 15 1493 run function att2:summon/reg_1/serile_minion_pig
 execute positioned 1562 15 1480 run function att2:summon/reg_1/serile_minion_pigman1
 execute positioned 1554 15 1520 run function att2:summon/reg_1/serile_minion_pigman1
 
-execute as @e[tag=LVL0","NewInvo,tag=SerilePigmanMinion] run function att2:gameplay/invocation/action/summon
+execute as @e[tag=LVL0,tag=NewInvo,tag=SerilePigmanMinion] run function att2:gameplay/invocation/action/summon

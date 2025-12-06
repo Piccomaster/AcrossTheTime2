@@ -16,7 +16,7 @@ tag @s remove SPOT_SELECT
 #detection discover
 execute unless score desert_pos_1 FISH_DISCOVER_COUNT matches 1.. run scoreboard players add TOTAL FISH_DISCOVER_COUNT 1
 execute unless score desert_pos_1 FISH_DISCOVER_COUNT matches 1.. run tag @s add Discovered
-execute unless score desert_pos_1 FISH_DISCOVER_COUNT matches 1.. run scoreboard players set desert_pos_1
+execute unless score desert_pos_1 FISH_DISCOVER_COUNT matches 1.. run scoreboard players set desert_pos_1 FISH_DISCOVER_COUNT 1
 
 ##dailyquest trigger
 execute unless score @s FISH_DISCOVER_COUNT matches 1.. run function att2:cinematic/dailyquest/trigger/fishing

@@ -8,8 +8,8 @@
 #############################################################
 
 
-##
-execute on vehicle if entity @s[tag=HorseRace] run data modify entity @s data.horse_race.vitality_lvl value 0
+##base data set
+execute on vehicle if entity @s[tag=HorseRace] run data modify entity @s data.horse_race.vitality_lvl set value 0
 
 ##reset title
 title @s times 10 50t 10
