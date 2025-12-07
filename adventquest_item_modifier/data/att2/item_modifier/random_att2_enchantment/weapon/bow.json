@@ -21,14 +21,11 @@
           ]
         }
       },
-      "on_pass": [
+      "modifier": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:auto_mending": {
-              "min": 1,
-              "max": 2
-            }
+            "att2_enchantment:auto_mending": 1
           }
         }
       ]
@@ -44,14 +41,11 @@
           ]
         }
       },
-      "on_pass": [
+      "modifier": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:runeharden": {
-              "min": 1,
-              "max": 2
-            }
+            "att2_enchantment:runeharden": 1
           }
         }
       ]
@@ -67,14 +61,11 @@
           ]
         }
       },
-      "on_pass": [
+      "modifier": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:anchorshot": {
-              "min": 1,
-              "max": 2
-            }
+            "att2_enchantment:anchorshot": 1
           }
         }
       ]
@@ -90,14 +81,11 @@
           ]
         }
       },
-      "on_pass": [
+      "modifier": [
         {
           "function": "set_enchantments",
           "enchantments": {
-            "att2_enchantment:headhunter": {
-              "min": 1,
-              "max": 2
-            }
+            "att2_enchantment:headhunter": 1
           }
         }
       ]
