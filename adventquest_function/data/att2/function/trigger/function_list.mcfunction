@@ -979,7 +979,7 @@ execute if score @s ScoreTrigger matches 975 run execute at 00000000-0000-137a-0
 execute if score @s ScoreTrigger matches 976 run function att2:gameplay/shop/seller/carmen_ysta_shop_opening
 execute if score @s ScoreTrigger matches 977 run execute at 00000000-0000-015a-0000-00000000015a if entity @s[distance=..7] if score carmen_ysta_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/4/carmen_ysta/answer_1_1
 execute if score @s ScoreTrigger matches 978 run execute at 00000000-0000-015a-0000-00000000015a if entity @s[distance=..7] if score carmen_ysta_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/4/carmen_ysta/answer_2_1
-execute if score @s ScoreTrigger matches 979 run execute at 00000000-0000-015a-0000-00000000015a if entity @s[distance=..7] if score carmen_ysta_PNJDIALOG matches 1..2 run function att2:cinematic/sidequest/4/carmen_ysta/answer_2_1
+execute if score @s ScoreTrigger matches 979 run execute at 00000000-0000-015a-0000-00000000015a if entity @s[distance=..7] if score carmen_ysta_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/4/carmen_ysta/answer_2_1
 execute if score @s ScoreTrigger matches 980 run execute at 00000000-0000-137a-0000-00000000137a if entity @s[distance=..7] if score babbu_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/40/babbu/answer_1_1
 execute if score @s ScoreTrigger matches 981 run execute at 00000000-0000-137a-0000-00000000137a if entity @s[distance=..7] if score babbu_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/40/babbu/answer_2_1
 execute if score @s ScoreTrigger matches 982 run execute if score SQ40 SIDEQUEST matches 1 if entity @a[x=-4172,y=67,z=-5003,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/40/step2

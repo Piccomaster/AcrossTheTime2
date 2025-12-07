@@ -10,6 +10,7 @@ execute if score @s SPELL6_EFFECT matches ..0 run kill @s
 particle minecraft:instant_effect ~ ~1.38 ~ 0.75 0 0.75 0 2 normal
 particle minecraft:white_ash ~ ~1.88 ~ 0.75 0.5 0.75 0 5 normal
 particle minecraft:warped_spore ~ ~1.38 ~ 0.5 0 0.5 0 5 normal
+# TODO command incomplete :
 execute at @s align xyz positioned ~-9.5 ~-9.5 ~-9.5 as @e[dx=20,dy=20,dz=20,scores={GAMELEVEL=0..},team=hostile,tag=!FB_DAHAL]
 # Explosion test
 execute if score @s SPELL6_SLCT matches 1 at @s align xyz positioned ~ ~1.38 ~ if entity @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell6/explosion1

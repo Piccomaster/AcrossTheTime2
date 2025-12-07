@@ -23,6 +23,9 @@ scoreboard players set door1_trial14 RUNICTRIAL 0
 scoreboard players set door1_trial15 RUNICTRIAL 0
 scoreboard players set door1_trial16 RUNICTRIAL 0
 scoreboard players set door2_trial16 RUNICTRIAL 0
+scoreboard players set door1_trial17 RUNICTRIAL 0
+scoreboard players set door1_trial18 RUNICTRIAL 0
+scoreboard players set door1_trial19 RUNICTRIAL 0
 
 scoreboard players set total_trial1 CANDLE_LIT 0
 scoreboard players set total_trial2 CANDLE_LIT 0
@@ -163,3 +166,17 @@ scoreboard players set candle17_1 CANDLE_STATE 1
 scoreboard players set candle17_2 CANDLE_STATE 1
 scoreboard players set candle17_3 CANDLE_STATE 1
 scoreboard players set candle17_4 CANDLE_STATE 1
+
+scoreboard players set candle18_1 CANDLE_STATE 1
+scoreboard players set candle18_2 CANDLE_STATE 1
+scoreboard players set candle18_3 CANDLE_STATE 1
+scoreboard players set candle18_4 CANDLE_STATE 1
+scoreboard players set candle18_5 CANDLE_STATE 1
+scoreboard players set candle18_6 CANDLE_STATE 1
+scoreboard players set candle18_7 CANDLE_STATE 1
+scoreboard players set candle18_8 CANDLE_STATE 1
+
+scoreboard players set candle19_1 CANDLE_STATE 1
+scoreboard players set candle19_2 CANDLE_STATE 1
+scoreboard players set candle19_3 CANDLE_STATE 1
+scoreboard players set candle19_4 CANDLE_STATE 1
