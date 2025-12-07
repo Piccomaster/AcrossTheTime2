@@ -1,14 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:cake"
-        },
-        "title": {"translate":"test"},
-        "description": {"translate":"apple"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:advancement/test_all/food/apple"
     },
@@ -25,4 +15,3 @@
         }
     }
 }
-

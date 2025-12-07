@@ -1,0 +1,22 @@
+{
+    "rewards": {
+        "function": "att2:advancement/test_all/food/cake"
+    },
+    "criteria": {
+        "open_chest": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:cake"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

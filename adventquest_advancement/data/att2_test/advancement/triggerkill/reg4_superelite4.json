@@ -1,14 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:target"
-        },
-        "title": {"translate":"SUPERELITE KILLED"},
-        "description": {"translate":"Triggered!"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:advancement/test_all/combat/triggerkill_reg4_superelite4"
     },
