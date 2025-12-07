@@ -4,15 +4,15 @@
 #################################################################
 
 ### remove recipe
-recipe take @a *
+#recipe take @a *
 
 ### Test if any Chest is open by player
-execute as @a[gamemode=adventure] at @s if score @s openCHEST matches 1.. run function att2:advancement/add_chest_score
-execute as @a[gamemode=adventure] at @s if score @s openTRAPCHEST matches 1.. run function att2:advancement/add_chest_score
+#execute as @a[gamemode=adventure] at @s if score @s openCHEST matches 1.. run function att2:advancement/add_chest_score
+#execute as @a[gamemode=adventure] at @s if score @s openTRAPCHEST matches 1.. run function att2:advancement/add_chest_score
 ### Test if open secret chest is open by player
-execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/simple_test
-execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/wall_break_test
-execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/ice_melt_test
+#execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/simple_test
+#execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/wall_break_test
+#execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/ice_melt_test
 execute as @a[gamemode=adventure] at @s if score @s openSHULKER matches 1.. run function att2:advancement/test_all/secret/shulker_test
 
 # Reset Chest trigg opened
@@ -23,9 +23,6 @@ scoreboard players set @a openSHULKER 0
 ### Test advancement
 # Adventure
 function att2:advancement/test_all/adventure
-
-# Cake
-execute as @a[advancements={att2:food/cake_350=false}] run function att2:advancement/test_all/food/cake
 
 # Journey
 function att2:advancement/test_all/journey

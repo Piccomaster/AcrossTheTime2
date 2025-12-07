@@ -19,11 +19,7 @@ scoreboard objectives add recycle_select_leg dummy
 scoreboard objectives add recycle_select_ult dummy
 
 scoreboard objectives add spell31_count dummy
-scoreboard objectives add spell31_rewards dummy
-scoreboard objectives add spell31_reward_go dummy
 
-scoreboard players set @s spell31_reward_go 0
-scoreboard players set @s spell31_rewards 0
 scoreboard players set @s spell31_count 0
 scoreboard players set @s recycle_select_other 0
 scoreboard players set @s recycle_select_com 0

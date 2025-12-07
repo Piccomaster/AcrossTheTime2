@@ -8,4 +8,6 @@ scoreboard players remove @s mob_enhance_timer 1
 #particle
 particle angry_villager ~ ~ ~ 0.2 1 0.2 1 2 normal
 ##reset
-scoreboard players reset @s[scores={mob_enhance_timer=..0}] mob_enhance_timer
+execute unless score @s mob_enhance_timer matches ..0 run return 0
+##reset enchantments tick
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/elite/mob_enhance":0}}

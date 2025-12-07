@@ -3,7 +3,7 @@
 #Create a position keeper   									#
 #################################################################
 
-summon minecraft:armor_stand ~ ~-1.38 ~ {Marker:true,Invisible:1b,Tags:["SpellExplosiveTrap"],equipment:{head:{id:"tnt"},feet:{id:"tnt"}}}
+summon minecraft:armor_stand ~ ~-1.38 ~ {Marker:true,Invisible:1b,Tags:["SpellExplosiveTrap"],equipment:{head:{id:"tnt",components:{enchantments:{"att2_enchantment:tick/dahal/spell6":1}}}}}
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellExplosiveTrap] SPELL6_SLCT = @s SPELL6_SLCT
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellExplosiveTrap] SPELL6_OWNER = @s NUMEROJOUEUR
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellExplosiveTrap] DAHALBURST = @s DAHALBURST

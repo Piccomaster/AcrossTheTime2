@@ -5,15 +5,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "chest"
-                }
-            }
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "trapped_chest"
+                    "blocks": "#minecraft:chest"
                 }
             }
         }

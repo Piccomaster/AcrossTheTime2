@@ -1,14 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:cake"
-        },
-        "title": {"translate":"test"},
-        "description": {"translate":"test_bowl"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:advancement/test_all/food/test_bowl"
     },
@@ -32,7 +22,7 @@
                     ]
                 }
             }
-        },        
+        },
         "test_beetroot_soup": {
             "trigger": "minecraft:consume_item",
             "conditions": {
@@ -42,7 +32,7 @@
                     ]
                 }
             }
-        }        
+        }
     },
     "requirements": [
         [

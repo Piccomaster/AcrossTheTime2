@@ -3,10 +3,16 @@
 #Keep wolf haterd   						    #
 #################################################
 
-#get @s number
-execute store result storage att2:temp numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
-##effect
-function att2:gameplay/dahal/action/spell26/effect_0 with storage att2:temp
+##limit
+execute if score @s SUMMON_TIMER matches 1.. run return 0
 
+##get player score
+function att2:gameplay/score/owner
+##angry at 
+execute positioned ~-10 ~-2 ~-10 run data modify entity @s AngryAt set from entity @n[dx=19,dy=4,dz=19,scores={GAMELEVEL=0..},team=hostile] UUID
+##follow_owner
+function att2:gameplay/dahal/action/spell26/follow_owner
+#damage set -> kill by player
+execute if score tic TIMECOUNTER matches 7 run function att2:gameplay/dahal/action/spell26/damage_cal
 ##stop sound
 stopsound @s neutral entity.iron_golem.hurt

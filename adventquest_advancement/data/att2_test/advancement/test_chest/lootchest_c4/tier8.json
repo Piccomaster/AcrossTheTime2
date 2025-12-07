@@ -1,14 +1,4 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:chest"
-        },
-        "title": {"translate":"C4 Tier 8 Trigger"},
-        "description": {"translate":"TEST"},
-        "hidden": true,
-        "show_toast": false,
-        "announce_to_chat": false
-    },
     "rewards": {
         "function": "att2:advancement/test_all/treasure/chest/lootchest_c4/tier8"
             },

@@ -10,5 +10,5 @@
 #execute as @a[scores={KILLVALUE=1..}] run function att2:gameplay/leveling/monster/loot/sharedxp
 
 # Process superelite effect
-execute as @e[type=#minecraft:mob,tag=SUPER,team=hostile] at @s run function att2:gameplay/leveling/monster/super_elite_diff
-execute as @e[type=#minecraft:mob,tag=MEGA,team=hostile] at @s run function att2:gameplay/leveling/monster/mega_elite_diff
+#execute as @e[type=#minecraft:mob,tag=SUPER,team=hostile] at @s run function att2:gameplay/leveling/monster/super_elite_diff
+#execute as @e[type=#minecraft:mob,tag=MEGA,team=hostile] at @s run function att2:gameplay/leveling/monster/mega_elite_diff

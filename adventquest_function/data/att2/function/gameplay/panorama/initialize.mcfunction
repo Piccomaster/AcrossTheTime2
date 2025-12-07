@@ -53,3 +53,6 @@ scoreboard players set vonaheim PANORAMA 0
 scoreboard players set worlest_forest PANORAMA 0
 scoreboard players set worlest_mine PANORAMA 0
 scoreboard players set zirthion PANORAMA 0
+
+##summon marker
+function att2:gameplay/panorama/summon_marker
