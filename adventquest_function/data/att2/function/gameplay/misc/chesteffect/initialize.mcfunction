@@ -5,4 +5,4 @@
 
 scoreboard objectives add CHESTEFFECT dummy
 
-scoreboard players set Range CHESTEFFECT 1
+scoreboard players set Range CHESTEFFECT 3

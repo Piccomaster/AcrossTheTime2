@@ -5,7 +5,7 @@
 
 ##initialize
 scoreboard objectives remove Sidebar_Display
-scoreboard objectives add Sidebar_Display dummy {"translate":"att2.sidebar.display","color":"#55FFFF","bold":false}
+scoreboard objectives add Sidebar_Display dummy {"translate":"att2.sidebar.display",color:"#55FFFF","bold":false}
 scoreboard objectives setdisplay sidebar Sidebar_Display
 ##set base content (max = 15 )
 scoreboard players set line_1 Sidebar_Display 15

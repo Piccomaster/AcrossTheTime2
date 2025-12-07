@@ -2,17 +2,17 @@
 #Made by Adventquest											#
 #Process chest effect       									#
 #################################################################
-
-##test if have loottable
-execute unless data block ~ ~ ~ LootTable run kill @s[type=marker,tag=ChestMarker]
+##set block
+execute as @s[tag=SETCHEST] run function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data
 ##test if have rarity score
-execute unless score @s CHESTEFFECT matches 1.. run function att2:gameplay/misc/chesteffect/data_set
+execute unless score @s CHESTEFFECT matches 1.. run return run function att2:gameplay/misc/chesteffect/data_set
 ##add tag
 tag @s add Select
-
-
-
-##detection score
+##show chest
+execute as @s[tag=!Show] run function att2:gameplay/misc/chesteffect/show_chest/summon
+##if player near
+#execute unless entity @p[distance=..7] as @e[distance=..0.2,type=item_display,tag=ChestDisplay] run data modify entity @s Glowing set value 0
+return 0
 ##normal chest
 execute if score @s CHESTEFFECT matches 1 align xyz positioned ~0.5 ~0.5 ~0.5 run return run particle minecraft:dust{color:[0.5,0.5,0.5],scale:0.5} ~ ~ ~ 0.25 0.25 0.25 0 20 normal
 execute if score @s CHESTEFFECT matches 2 align xyz positioned ~0.5 ~0.5 ~0.5 run return run particle minecraft:dust{color:[0.5,0.7,0.5],scale:0.5} ~ ~ ~ 0.25 0.25 0.25 0 20 normal
