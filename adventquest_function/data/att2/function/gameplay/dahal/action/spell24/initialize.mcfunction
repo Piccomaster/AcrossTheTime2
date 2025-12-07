@@ -5,7 +5,7 @@
 
 scoreboard objectives add COOLDOWN24 dummy
 scoreboard objectives add SPELL24_LVL dummy
-scoreboard objectives add SPELL24_EFFECT dummy
+#scoreboard objectives add SPELL24_EFFECT dummy
 scoreboard objectives add SPELL24_CAP dummy
 scoreboard objectives add SPELL24_DATA dummy
 scoreboard players set @s COOLDOWN24 0

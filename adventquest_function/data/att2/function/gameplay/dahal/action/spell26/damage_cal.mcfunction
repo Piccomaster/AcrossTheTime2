@@ -3,10 +3,11 @@
 #Golem lvl6														#
 #################################################################
 
+##get owner score
 ##damage go
 execute at @s unless entity @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5,limit=1] run return 0
 ##reduce health
-effect give @s instant_damage 1 3 
+effect give @s instant_damage 1 3
 ##get score
 execute store result score #Health CAL run data get entity @s Health
 execute store result score #Max_Health CAL run attribute @s max_health get
@@ -22,9 +23,9 @@ scoreboard players operation #Damage CAL /= 3 CAL
 ##health < 10 % -> boom
 execute if score #Percent_Health CAL matches ..10 at @s run function att2:gameplay/dahal/action/spell26/boom_effect
 ##store Damage
-execute store result storage att2:temp damage int 1 run scoreboard players get #Damage CAL
+execute store result storage att2:score damage int 1 run scoreboard players get #Damage CAL
 
-execute at @s as @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5] run function att2:gameplay/dahal/action/spell26/damage with storage att2:temp
+execute at @s as @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5] run function att2:gameplay/dahal/action/spell26/damage with storage att2:score
 ##particle
 execute at @s run particle minecraft:explosion ~ ~ ~ 0.3 0.3 0.3 0 3 normal
 ##sound

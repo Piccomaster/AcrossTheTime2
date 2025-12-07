@@ -5,8 +5,13 @@
 
 ##limit
 execute unless entity @p[distance=..60] run return 0
+##if not have head ->Report error
+execute unless items entity @s armor.head * run tellraw @a {text:"No helmet.",color:red}
 ##clear enchantment
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_initialize":0}}
+##Initilaize drop_chances
+execute unless data entity @s drop_chances run data modify entity @s drop_chances set value {mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0}
+execute if data entity @s drop_chances if items entity @s armor.head diamond_helmet[item_model="nothing"] run data modify entity @s drop_chances.head set value 0
 
 ##prevent Drowning
 effect give @s water_breathing infinite 0 true

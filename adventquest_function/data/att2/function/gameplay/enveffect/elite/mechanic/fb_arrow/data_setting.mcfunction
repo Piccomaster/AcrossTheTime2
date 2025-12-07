@@ -3,6 +3,8 @@
 #Process all environment effect									#
 #################################################################
 
+##add enchantments tick
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/elite/fb_arrow":1}}
 #summon text_display
 summon text_display ~ ~2 ~ {transformation:{scale:[1.0f,1.0f,1.0f],translation:[0.0f,1.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},Tags:["SPECIAL_ELITE","New"],text:{text:"b",font:"att2_font:special_elite"},billboard:vertical,brightness:{block:15,sky:15},background:0,see_through:true}
 ##set score

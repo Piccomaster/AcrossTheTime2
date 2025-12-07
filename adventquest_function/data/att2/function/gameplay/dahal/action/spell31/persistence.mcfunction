@@ -3,22 +3,24 @@
 #Keep Agility pet working						#
 #################################################
 
-#have item ->go
-execute as @a[scores={spell31_run=1},gamemode=adventure] at @s positioned ~ ~0.8 ~ if entity @e[type=item,distance=..5] run function att2:gameplay/dahal/action/spell31/test
-
-# Particle
-execute as @e[type=minecraft:frog,tag=GluttonPet] at @s run function att2:gameplay/dahal/action/spell31/persistence_effect
+##limit
+execute if score @s SUMMON_TIMER matches 1.. run return 0
 
 # Make pet follow its owner
-execute as @e[type=minecraft:frog,tag=GluttonPet,scores={SUMMON_TIMER=..0}] run function att2:gameplay/dahal/pet/follow_owner
+function att2:gameplay/dahal/pet/follow_owner
 
-# Keep agro turtle juvenil
-execute as @e[type=minecraft:turtle,tag=Agro] run data merge entity @s {Age:-100}
-
-# Kill the agro turle in case the carrier dies or the invocation finishes
-execute as @e[tag=Agro] at @s unless entity @e[tag=ProcessingInvoTP] unless entity @e[type=!minecraft:turtle,team=ally,scores={GAMELEVEL=0..},distance=..2] run kill @s
-
-# Kill the pet in case the agro turtle is dead
-# execute as @e[tag=!ProcessingInvoTP] unless entity @s[tag=!GluttonPet1,tag=!GluttonPet2,tag=!GluttonPet3] at @s unless entity @e[tag=Agro,distance=..2] run kill @s
-
-execute as @e[type=minecraft:frog] unless entity @s[type=minecraft:frog,tag=!GluttonPet] if entity @s[tag=ProcessingInvoTP] run tag @s remove ProcessingInvoTP
+# Particle
+execute if score @s SPELL31_CAP matches 1 run particle minecraft:dust{color:[0.5,0.5,0.5],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 2 run particle minecraft:dust{color:[0.5,0.7,0.5],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 3 run particle minecraft:dust{color:[0.25,0.6,0.25],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 4 run particle minecraft:dust{color:[0.25,0.5,0.5],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 5 run particle minecraft:dust{color:[0,0.5,1],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 6 run particle minecraft:dust{color:[0.65,0.5,1.0],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 7 run particle minecraft:dust{color:[0.65,0.05,1.0],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 8 run particle minecraft:dust{color:[0.45,0.0,0.55],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 9 run particle minecraft:dust{color:[1,0.45,0.1],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+execute if score @s SPELL31_CAP matches 10 run particle minecraft:dust{color:[0.75,0.25,0.0],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
+#rewards
+execute if score @s spell31_count matches 1.. at @s run function att2:gameplay/dahal/action/spell31/rewards
+##owner effect
+execute as @p[distance=..20,gamemode=adventure,predicate=att2_pre:score/player] at @s positioned ~ ~0.8 ~ if entity @e[type=item,distance=..5] run function att2:gameplay/dahal/action/spell31/test

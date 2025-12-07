@@ -12,3 +12,5 @@ effect give @s resistance 5 4 false
 effect give @s glowing 5 4 false
 #set enhance timer
 scoreboard players set @s mob_enhance_timer 100
+##add enchantments tick
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/elite/mob_enhance":1}}

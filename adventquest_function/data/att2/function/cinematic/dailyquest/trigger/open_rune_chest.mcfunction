@@ -25,3 +25,8 @@ execute if score kortaek_dailyquest_6 DAILYQUEST matches 1..99 run function att2
 
 ##dailyquest_1 : Rioting crowd
 execute if score phoenix_dailyquest_1 DAILYQUEST matches 1..99 run function att2:cinematic/dailyquest/phoenix/1/trigger/open_rune_chest
+
+############## Zirthion_dailyquest
+
+##dailyquest_3 :Chaotic Wind Cluster
+execute if score zirthion_dailyquest_3 DAILYQUEST matches 1..99 run function att2:cinematic/dailyquest/zirthion/3/trigger/open_rune_chest

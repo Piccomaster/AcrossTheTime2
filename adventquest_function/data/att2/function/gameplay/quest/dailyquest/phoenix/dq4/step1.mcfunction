@@ -5,8 +5,8 @@
 
 ##text
 tellraw @s [{translate:att2.dailyquest.phoenix.name}]
-tellraw @s [{translate:att2.dailyquest.phoenix.2.name,color:"blue"}]
-tellraw @s [{translate:att2.dailyquest.phoenix.2.step.1}]
+tellraw @s [{translate:att2.dailyquest.phoenix.4.name,color:"blue"}]
+tellraw @s [{translate:att2.dailyquest.phoenix.4.step.1}]
 
 
 ##if have untamed

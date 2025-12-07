@@ -7,18 +7,23 @@
 # Angband
 execute if score angband_angor_n_trigger PANORAMA matches 0 in minecraft:the_nether positioned 3662 91 4337 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/angband_angor_n
 execute if score angband_angor_n_trigger PANORAMA matches -1 in minecraft:the_nether positioned 3662 91 4337 unless entity @a[distance=..50] run scoreboard players set angband_angor_n_trigger PANORAMA 0
+
 execute if score angband_angor_palace_trigger PANORAMA matches 0 in minecraft:the_nether positioned 3502 76 4464 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/angband_angor_palace
 execute if score angband_angor_palace_trigger PANORAMA matches -1 in minecraft:the_nether positioned 3502 76 4464 unless entity @a[distance=..50] run scoreboard players set angband_angor_palace_trigger PANORAMA 0
+
 execute if score angband_angor_s_trigger PANORAMA matches 0 in minecraft:the_nether positioned 3480 63 4249 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/angband_angor_s
 execute if score angband_angor_s_trigger PANORAMA matches -1 in minecraft:the_nether positioned 3480 63 4249 unless entity @a[distance=..50] run scoreboard players set angband_angor_s_trigger PANORAMA 0
+
 execute if score angband_exiles_trigger PANORAMA matches 0 in minecraft:the_nether positioned 3478 71 3761 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/angband_exiles
 execute if score angband_exiles_trigger PANORAMA matches -1 in minecraft:the_nether positioned 3478 71 3761 unless entity @a[distance=..50] run scoreboard players set angband_exiles_trigger PANORAMA 0
+
 execute if score angband_phoenix_trigger PANORAMA matches 0 in minecraft:the_nether positioned 3853 74 3855 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/angband_phoenix
 execute if score angband_phoenix_trigger PANORAMA matches -1 in minecraft:the_nether positioned 3853 74 3855 unless entity @a[distance=..50] run scoreboard players set angband_phoenix_trigger PANORAMA 0
 
 # Billgart
 execute if score billgart_dungeon_trigger PANORAMA matches 0 in minecraft:the_end positioned -1297 214 -673 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/billgart_dungeon
 execute if score billgart_dungeon_trigger PANORAMA matches -1 in minecraft:the_end positioned -1297 214 -673 unless entity @a[distance=..50] run scoreboard players set billgart_dungeon_trigger PANORAMA 0
+
 execute if score billgart_road_trigger PANORAMA matches 0 in minecraft:the_end positioned -790 61 -590 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/billgart_road
 execute if score billgart_road_trigger PANORAMA matches -1 in minecraft:the_end positioned -790 61 -590 unless entity @a[distance=..50] run scoreboard players set billgart_road_trigger PANORAMA 0
 

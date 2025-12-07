@@ -9,7 +9,7 @@ execute unless items entity @s weapon.mainhand minecraft:book[use_cooldown={seco
 
 ##keep show title
 title @s times 0 777d 0
-title @s title {text:"l",font:"att2_font:consciousness"}
+title @s title {text:"l",font:"att2_font:consciousness",shadow_color:0}
 ##add title Tags
 tag @s add BookOpen
 ##show dialog

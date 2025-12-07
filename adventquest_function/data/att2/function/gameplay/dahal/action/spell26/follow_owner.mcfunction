@@ -4,17 +4,10 @@
 #################################################
 
 ##test distance
-execute if entity @s[distance=..15] run return 0
-scoreboard players add golem spread 1
+execute if entity @p[distance=..15,gamemode=adventure,predicate=att2_pre:score/player] run return 0
 
-tp @s @p[distance=..0]
-execute if score golem spread matches 1 run tp @s ~2 ~ ~
-execute if score golem spread matches 2 run tp @s ~-2 ~ ~
-execute if score golem spread matches 3 run tp @s ~ ~ ~2
-execute if score golem spread matches 4 run tp @s ~ ~ ~-2
-execute if score golem spread matches 5 run tp @s ~1.8 ~ ~-1.8
-execute if score golem spread matches 6 run tp @s ~-1.8 ~ ~1.8
-execute if score golem spread matches 7 run tp @s ~1.8 ~ ~1.8
-execute if score golem spread matches 8 run tp @s ~-1.8 ~ ~-1.8
-
-execute if score golem spread matches 8 run scoreboard players set golem spread 0
+##tp player
+tp @s @p[gamemode=adventure,predicate=att2_pre:score/player]
+execute store result score #spread_maxheight CAL run data get entity @s Pos[1]
+execute store result storage att2:score spread_maxheight int 1 run scoreboard players add #spread_maxheight CAL 5
+execute at @s run function att2:gameplay/dahal/action/spell26/spread with storage att2:score

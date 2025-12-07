@@ -4,7 +4,7 @@
 #############################################################
 
 ##add slot
-data modify storage att2:dailyquest submit_item append value {label:[{object:atlas,sprite:"",color:"white"},{translate:""}],tooltip:[],action:{type:"run_command",command:""},width:150}
+data modify storage att2:dailyquest submit_item append value {label:[{object:atlas,sprite:"",color:"white",shadow_color:0},{translate:""}],tooltip:[],action:{type:"run_command",command:""},width:150}
 
 ##get slot
 execute store result score #SlotId CAL run data get storage att2:dailyquest inventory[0].Slot

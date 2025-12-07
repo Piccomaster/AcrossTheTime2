@@ -3,6 +3,8 @@
 #Process all environment effect									#
 #################################################################
 
+##test player near
+execute unless entity @a[distance=..5] run return fail
 ##add resistance
 effect give @s resistance 1 4 true
 effect give @s glowing 1 0 false

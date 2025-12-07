@@ -3,4 +3,6 @@
 #Process attempt to select this spell									#
 #########################################################################
 
-execute at @s as @e[scores={OWNER=1..},type=phantom] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR at @s run function att2:gameplay/dahal/pet/kill
+##get player score
+function att2:gameplay/score/player
+execute as @e[predicate=att2_pre:score/owner,type=phantom]  at @s run function att2:gameplay/dahal/pet/kill

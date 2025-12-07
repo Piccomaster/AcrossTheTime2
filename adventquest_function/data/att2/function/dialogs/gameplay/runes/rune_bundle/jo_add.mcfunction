@@ -3,4 +3,4 @@
 #rune bundle jo add							#
 #################################################################
 
-tellraw @s [{translate:"att2.rune_bundle.add"},{object: atlas,sprite: "item/custom/runes/jo","color": "white"},{text:" Jo ",color:"#999900"},{text:"[",color:yellow},{text:"+",color:green},{score:{name:"jo",objective:"CAL"},color:green},{text:"/"},{score:{name:"@s",objective:"RUNE_JO"},color:dark_green},{text:"]",color:yellow}]
+tellraw @s [{translate:"att2.rune_bundle.add"},{object:atlas,sprite:"item/custom/runes/jo",color:"white",shadow_color:0},{text:" Jo ",color:"#999900"},{text:"[",color:yellow},{text:"+",color:green},{score:{name:"jo",objective:"CAL"},color:green},{text:"/"},{score:{name:"@s",objective:"RUNE_JO"},color:dark_green},{text:"]",color:yellow}]
