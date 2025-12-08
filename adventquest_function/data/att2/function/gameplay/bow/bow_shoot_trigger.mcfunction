@@ -59,4 +59,4 @@ execute at @s on origin run scoreboard players operation @n[distance=..0,type=#m
 ##special arrow initialize
 execute if data storage att2:bow data.item.components."minecraft:custom_data".explosive_arrow run return run function att2:gameplay/bow/special_arrow/explosive_arrow/data_initialize
 execute if data storage att2:bow data.item.components."minecraft:custom_data".tracking_arrow run return run function att2:gameplay/bow/special_arrow/tracking_arrow/data_initialize
-execute if data storage att2:bow data.item.components."minecraft:custom_data".corrupt_arrow run return run function att2:gameplay/bow/special_arrow/corrupt_arrow/data_initialize
+execute if data storage att2:bow data.item.components."minecraft:custom_data".poisoned_arrow run return run function att2:gameplay/bow/special_arrow/poisoned_arrow/data_initialize

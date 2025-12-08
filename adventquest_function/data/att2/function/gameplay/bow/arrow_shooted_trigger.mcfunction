@@ -13,8 +13,8 @@ function att2:gameplay/score/owner
 execute if score @s SPECIALARROW matches 1..3 run return run function att2:gameplay/bow/special_arrow/explosive_arrow/trigger
 #tracking_arrow
 execute if score @s SPECIALARROW matches 4..6 run return run function att2:gameplay/bow/special_arrow/tracking_arrow/trigger
-#corrupt_arrow
-execute if score @s SPECIALARROW matches 7..9 run return run function att2:gameplay/bow/special_arrow/corrupt_arrow/trigger
+#poisoned_arrow
+execute if score @s SPECIALARROW matches 7..9 run return run function att2:gameplay/bow/special_arrow/poisoned_arrow/trigger
 
 ##################normal damage
 ##cal motion percent

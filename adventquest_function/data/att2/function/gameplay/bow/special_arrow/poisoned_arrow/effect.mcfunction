@@ -30,7 +30,7 @@ scoreboard players operation @s CORRUPTARROWTIME = #buff CAL
 scoreboard players operation @s CORRUPTARROWTIME += #time CAL
 
 ##limit
-execute if score #time CAL matches 0 run function att2:gameplay/bow/special_arrow/corrupt_arrow/reset
+execute if score #time CAL matches 0 run function att2:gameplay/bow/special_arrow/poisoned_arrow/reset
 
 ##cal resistance
 execute store result score #resistance CAL run data get entity @s active_effects[{id:"minecraft:resistance"}].amplifier 20
@@ -49,6 +49,6 @@ execute if score #health CAL matches ..0 run damage @s 1 att2_damage:player_atta
 execute store result entity @s Health int 1 run scoreboard players get #health CAL
 
 ##particle
-execute if score #buff CAL matches 1..100 anchored eyes positioned ^ ^ ^ run function att2:gameplay/bow/special_arrow/corrupt_arrow/damage_effect_1
-execute if score #buff CAL matches 101..500 anchored eyes positioned ^ ^ ^ run function att2:gameplay/bow/special_arrow/corrupt_arrow/damage_effect_2
-execute if score #buff CAL matches 501.. anchored eyes positioned ^ ^ ^ run function att2:gameplay/bow/special_arrow/corrupt_arrow/damage_effect_3
+execute if score #buff CAL matches 1..100 anchored eyes positioned ^ ^ ^ run function att2:gameplay/bow/special_arrow/poisoned_arrow/damage_effect_1
+execute if score #buff CAL matches 101..500 anchored eyes positioned ^ ^ ^ run function att2:gameplay/bow/special_arrow/poisoned_arrow/damage_effect_2
+execute if score #buff CAL matches 501.. anchored eyes positioned ^ ^ ^ run function att2:gameplay/bow/special_arrow/poisoned_arrow/damage_effect_3

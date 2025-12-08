@@ -12,5 +12,5 @@ particle enchanted_hit ~ ~ ~ 0.3 -0.3 0.3 0.1 40 normal
 particle block{block_state: "minecraft:oak_leaves"} ~ ~ ~ 0.3 -0.3 0.3 0.1 40 normal
 
 ##slow
-attribute @s movement_speed modifier remove corrupt_arrow_slowness
-attribute @s movement_speed modifier add corrupt_arrow_slowness -0.10 add_multiplied_total
+attribute @s movement_speed modifier remove poisoned_arrow_slowness
+attribute @s movement_speed modifier add poisoned_arrow_slowness -0.10 add_multiplied_total

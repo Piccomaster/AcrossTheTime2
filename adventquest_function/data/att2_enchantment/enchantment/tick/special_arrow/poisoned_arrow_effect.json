@@ -1,7 +1,7 @@
 {
   "anvil_cost": 7,
   "description": {
-    "translate": "corrupt_arrow"
+    "translate": "poisoned_arrow"
   },
   "max_cost": {
     "base": 7,
@@ -22,7 +22,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/bow/special_arrow/corrupt_arrow/effect"
+          "function": "att2:gameplay/bow/special_arrow/poisoned_arrow/effect"
         }
       }
     ]
