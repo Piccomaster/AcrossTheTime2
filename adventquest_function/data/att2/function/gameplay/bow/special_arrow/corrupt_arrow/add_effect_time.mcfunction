@@ -1,0 +1,15 @@
+##################################################
+#Made by Adventquest                             #
+#Process the arrow power assignement             #
+##################################################
+
+##initialize enchantments
+execute if items entity @s saddle saddle run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/special_arrow/corrupt_arrow_effect":1}}
+execute unless items entity @s saddle saddle run item replace entity @s saddle with saddle[enchantments={"att2_enchantment:tick/special_arrow/corrupt_arrow_effect":1}]
+##add score
+scoreboard players operation @s CORRUPTARROWTIME += #time CAL
+scoreboard players operation @s CORRUPTARROWTIME /= 100 CAL
+scoreboard players operation @s CORRUPTARROWTIME *= 100 CAL
+
+##damage
+function att2:gameplay/bow/damage with storage att2:score

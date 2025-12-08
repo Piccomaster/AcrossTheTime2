@@ -3,5 +3,6 @@
 #Process the arrow power assignement             #
 ##################################################
 
-#execute as @a run function att2:gameplay/bow/shoot_check
-#execute as @e[type=#minecraft:arrows,tag=SHOOTED,scores={SPECIALARROW=0..}] at @s run function att2:gameplay/bow/special_arrow/flight
+$damage @s $(damage) att2_damage:player_attack by @p[predicate=att2_pre:score/player]
+
+#$say 爆炸箭矢伤害:$(damage)

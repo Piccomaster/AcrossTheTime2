@@ -1,0 +1,82 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": "enchantment.att2.bow_shoot_trigger"
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "minecraft:bow",
+  "weight": 1,
+  "effects": {
+    "projectile_spawned": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/bow/bow_shoot_trigger"
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "damaging_entity",
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:bypasses_cooldown",
+                  "expected": false
+                },
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/bow/arrow_shooted_trigger"
+        }
+      },
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:bypasses_cooldown",
+                  "expected": false
+                },
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/bow/arrow_damage"
+        }
+      }
+    ]
+  }
+}

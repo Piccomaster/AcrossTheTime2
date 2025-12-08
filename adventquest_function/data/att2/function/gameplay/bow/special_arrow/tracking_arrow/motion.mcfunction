@@ -3,5 +3,5 @@
 #Process the arrow power assignement             #
 ##################################################
 
-#execute as @a run function att2:gameplay/bow/shoot_check
-#execute as @e[type=#minecraft:arrows,tag=SHOOTED,scores={SPECIALARROW=0..}] at @s run function att2:gameplay/bow/special_arrow/flight
+##
+$execute as 00000001-0000-006f-0000-00010000006f at @s run tp @s ^ ^ ^$(speed)
