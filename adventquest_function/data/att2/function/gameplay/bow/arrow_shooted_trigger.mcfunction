@@ -1,8 +1,8 @@
 ##################################################
 #Made by Adventquest                             #
-#Process the arrow power assignement             #
+#arrow shoot enemey                              #
 ##################################################
-##on attacker
+
 ##sound
 execute on origin at @s run playsound minecraft:entity.arrow.hit_player player @s ~ ~ ~ 150 2
 ##set normal damage

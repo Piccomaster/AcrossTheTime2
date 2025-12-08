@@ -3,6 +3,6 @@
 #Obtain item bow_40          #
 #####################################
 
-give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Weapon:"40"},custom_name={translate:"weapon40.name"},lore=[{translate:"weapon40.lore.1"},{translate:"weapon40.lore.2"},{translate:"weapon40.stat"}],max_damage=385,damage=340,enchantments={"power":2,"unbreaking":1,"att2_enchantment:bow_shoot_trigger":1},tooltip_style="minecraft:rarity/unc/unc"]
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",Rarity:"unc",Manufacturer:"traditional",Shop:"buy",Weapon:"40"},custom_name={translate:"weapon40.name"},lore=[{translate:"weapon40.lore.1"},{translate:"weapon40.lore.2"},{translate:"weapon40.stat"}],max_damage=385,damage=340,enchantments={"power":2,"unbreaking":1},tooltip_style="minecraft:rarity/unc/unc"]
 
 function att2:gameplay/shop/smith_leveling/add_buying_unc

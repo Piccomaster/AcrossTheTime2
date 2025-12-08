@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Process the arrow power assignement             #
+#arrow damage                                    #
 ##################################################
 
 
