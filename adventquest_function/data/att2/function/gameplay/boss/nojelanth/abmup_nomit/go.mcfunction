@@ -16,10 +16,13 @@ execute if score Abmup_Nomit SQ58 matches 0.. as @a[x=-7637,y=28,z=-4173,dx=34,d
 execute if score Abmup_Nomit SQ58 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Abmup & Nomit
-execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:abmup value run data get entity 00000000-0000-030c-0000-00000000030c Health
-execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:abmup max run data get entity 00000000-0000-030c-0000-00000000030c attributes[{id:"minecraft:max_health"}].base
-execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:nomit value run data get entity 00000000-0000-031c-0000-00000000031c Health
-execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:nomit max run data get entity 00000000-0000-031c-0000-00000000031c attributes[{id:"minecraft:max_health"}].base
+execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:abmup value run scoreboard players get 00000000-0000-030c-0000-00000000030c ENEMYHEALTH
+execute if score Abmup_Nomit SQ58 matches 0.. unless entity 00000000-0000-030c-0000-00000000030c run bossbar remove minecraft:abmup
+execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:abmup max run attribute 00000000-0000-030c-0000-00000000030c max_health get
+
+execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:nomit value run scoreboard players get 00000000-0000-031c-0000-00000000031c ENEMYHEALTH
+execute if score Abmup_Nomit SQ58 matches 0.. unless entity 00000000-0000-031c-0000-00000000031c run bossbar remove minecraft:nomit
+execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:nomit max run attribute 00000000-0000-031c-0000-00000000031c max_health get
 
 # Make challengers enters the arena
 execute if score SQ58 SIDEQUEST matches 1..99 as @a[x=-7621,y=15,z=-4223,dx=2,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/nojelanth/abmup_nomit/display_title

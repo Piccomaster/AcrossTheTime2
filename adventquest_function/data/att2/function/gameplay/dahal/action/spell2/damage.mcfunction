@@ -13,3 +13,4 @@ execute at @s run particle minecraft:small_flame ~ ~1 ~ 0.5 0.5 0.5 0 10 normal
 execute at @s run playsound block.fire.extinguish ambient @a ~ ~ ~ 1 2
 #tag limit
 tag @s add SP2_ATKED
+

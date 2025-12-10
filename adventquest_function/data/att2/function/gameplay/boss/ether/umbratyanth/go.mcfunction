@@ -56,9 +56,9 @@ execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect clear @s minecraft:invisibility
 
 # Enable Bossbar storing health of Umbra'Tyanth
-execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth value run data get entity 00000000-0000-012c-0000-00000000012c Health
-execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth max run data get entity 00000000-0000-012c-0000-00000000012c attributes[{id:"minecraft:max_health"}].base
-execute if score Boss UMBRATYANTH matches 0.. store result score 00000000-0000-012c-0000-00000000012c UMBRATYANTH run data get entity 00000000-0000-012c-0000-00000000012c Health 1
+execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth value run scoreboard players get 00000000-0000-012c-0000-00000000012c ENEMYHEALTH
+execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth max run attribute 00000000-0000-012c-0000-00000000012c max_health get
+execute if score Boss UMBRATYANTH matches 0.. run scoreboard players operation 0000000-0000-012c-0000-00000000012c UMBRATYANTH = 0000000-0000-012c-0000-00000000012c ENEMYHEALTH
 
 # Portal transition between Elchéol temple and boss arena
 execute if score Boss UMBRATYANTH matches -1.. run function att2:gameplay/boss/ether/umbratyanth/portal_effect

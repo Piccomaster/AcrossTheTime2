@@ -7,3 +7,4 @@ tp @s -4636 58 -5536
 stopsound @s
 tag @s add NoAutoMusic
 scoreboard players set @s MUSIC_BOSS 0
+bossbar set minecraft:felroth players @s

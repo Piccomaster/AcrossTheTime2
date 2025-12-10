@@ -19,3 +19,6 @@ scoreboard players operation @n[distance=..5,type=armor_stand,tag=New,tag=Tracki
 ride @n[distance=..5,type=armor_stand,tag=New,tag=TrackingArrow] mount @s
 ##remove new
 tag @e[distance=..5,type=armor_stand,tag=New,tag=TrackingArrow] remove New
+
+##sound
+playsound entity.firework_rocket.launch player @a ~ ~ ~ 1 2

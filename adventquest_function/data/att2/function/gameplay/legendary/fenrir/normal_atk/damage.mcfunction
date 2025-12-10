@@ -5,6 +5,8 @@
 ##################################################
 
 #damage loop
-$damage @s $(value) att2_damage:player_attack by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+scoreboard players set #damage CAL 10
 #normal_ice
 function att2:gameplay/legendary/fenrir/particle/normal_ice
+##damage detection
+function att2:gameplay/enemy_health/magic_health_trigger

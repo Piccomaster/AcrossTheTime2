@@ -24,8 +24,8 @@ execute if score Asurok ASUNARK matches 0.. as @a[x=-3317,y=2,z=-4922,dx=41,dy=2
 execute if score Asurok ASUNARK matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Asurok
-execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] store result bossbar minecraft:asurok value run data get entity 00000000-0000-003b-0000-00000000003b Health
-execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] store result bossbar minecraft:asurok max run data get entity 00000000-0000-003b-0000-00000000003b attributes[{id:"minecraft:max_health"}].base
+execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] store result bossbar minecraft:asurok value run scoreboard players get 00000000-0000-003b-0000-00000000003b ENEMYHEALTH
+execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] store result bossbar minecraft:asurok max run attribute 00000000-0000-003b-0000-00000000003b max_health get
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 39 as @a[x=-3319,y=12,z=-4943,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/asunark/asurok/display_title

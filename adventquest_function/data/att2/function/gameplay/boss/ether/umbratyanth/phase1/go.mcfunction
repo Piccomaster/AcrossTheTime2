@@ -21,7 +21,7 @@
 #####################################################################
 
 # Minions counting
-execute if score Boss UMBRATYANTH matches 1 as @e[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider,tag=UmbraMinion] store result score Minions_counter UMBRATYANTH run execute if entity @e[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider,tag=UmbraMinion]
+execute if score Boss UMBRATYANTH matches 1 store result score Minions_counter UMBRATYANTH if entity @e[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider,tag=UmbraMinion]
 execute if score Boss UMBRATYANTH matches 1 if score Minions_counter UMBRATYANTH matches 0..49 run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_counting
 
 # Counting security if all Minions is dead

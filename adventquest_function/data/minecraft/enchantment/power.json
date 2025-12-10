@@ -4,6 +4,27 @@
     "translate": "enchantment.minecraft.power"
   },
   "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "direct_attacker",
+            "predicate": {
+              "type": "#minecraft:arrows"
+            }
+          }
+        ]
+      }
+    ],
     "projectile_spawned": [
       {
         "effect": {
@@ -29,7 +50,10 @@
                   "id": "minecraft:is_projectile",
                   "expected": true
                 }
-              ]
+              ],
+              "source_entity": {
+                "type": "minecraft:player"
+              }
             }
           }
         ],
@@ -54,7 +78,14 @@
                   "id": "minecraft:is_projectile",
                   "expected": true
                 }
-              ]
+              ],
+              "direct_entity": {
+                "type": "#minecraft:arrows",
+                "nbt": "{Tags:[\"SHOOTED\"]}"
+              },
+              "source_entity": {
+                "type": "player"
+              }
             }
           }
         ],

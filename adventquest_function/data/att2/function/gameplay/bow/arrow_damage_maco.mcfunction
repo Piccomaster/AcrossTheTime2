@@ -5,6 +5,6 @@
 
 
 ##damage
-$damage @s $(damage) att2_damage:player_attack by @p[predicate=att2_pre:score/player]
+$damage @s $(damage) att2_damage:arrow by @p[predicate=att2_pre:score/player]
 
-#$say 普通箭矢伤害:$(damage)
+$say 箭矢伤害:$(damage)

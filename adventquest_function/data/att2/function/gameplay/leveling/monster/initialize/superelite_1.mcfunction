@@ -6,5 +6,3 @@
 effect clear @s slowness
 effect clear @s weakness
 effect give @s minecraft:resistance infinite 0 true
-
-effect give @s[tag=!PlayerAlly] minecraft:glowing infinite 0 true

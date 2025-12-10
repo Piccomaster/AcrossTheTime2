@@ -10,7 +10,9 @@ scoreboard players operation classlevel CAL = @s CLASSLEVEL
 #get Max health
 execute store result score MAX_HP CAL run attribute @s max_health get
 #get now hp
-execute store result score NOW_HP CAL run data get entity @s Health 100
+scoreboard players operation NOW_HP CAL = @s ENEMYHEALTH
+scoreboard players operation NOW_HP CAL *= 100 CAL
+#execute store result score NOW_HP CAL run data get entity @s Health 100
 #cal percent
 scoreboard players operation HP_PERCENT CAL = NOW_HP CAL
 scoreboard players operation NOW_HP CAL /= 100 CAL

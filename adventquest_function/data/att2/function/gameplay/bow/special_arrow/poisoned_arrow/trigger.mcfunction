@@ -41,4 +41,5 @@ execute if score #lvl CAL matches 2 at @s align xyz positioned ~-2.0 ~-2.0 ~-2.0
 execute if score #lvl CAL matches 3 at @s align xyz positioned ~-3.0 ~-3.0 ~-3.0 as @e[dx=7,dy=7,dz=7,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/poisoned_arrow/add_effect_time
 
 ##clear arrow
+tag @s remove SHOOTED
 kill @s[type=#minecraft:arrows]

@@ -16,8 +16,8 @@ execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end as @a[x=-11
 execute if score Ulkoggumi BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Ulkoggumi
-execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] store result bossbar minecraft:ulkoggumi value run data get entity 00000000-0000-010b-0000-00000000010b Health
-execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] store result bossbar minecraft:ulkoggumi max run data get entity 00000000-0000-010b-0000-00000000010b attributes[{id:"minecraft:max_health"}].base
+execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] store result bossbar minecraft:ulkoggumi value run scoreboard players get 00000000-0000-010b-0000-00000000010b ENEMYHEALTH
+execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] store result bossbar minecraft:ulkoggumi max run attribute 00000000-0000-010b-0000-00000000010b max_health get
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 161 in minecraft:the_end as @a[x=-1138,y=110,z=-561,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/ulkoggumi/display_title

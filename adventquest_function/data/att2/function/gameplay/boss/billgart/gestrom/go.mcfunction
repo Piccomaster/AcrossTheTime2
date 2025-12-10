@@ -16,8 +16,8 @@ execute if score Gestrom BILLGART matches 0.. in minecraft:the_end as @a[x=-1130
 execute if score Gestrom BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Geström
-execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom value run data get entity 00000000-0000-014b-0000-00000000014b Health
-execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom max run data get entity 00000000-0000-014b-0000-00000000014b attributes[{id:"minecraft:max_health"}].base
+execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom value run scoreboard players get 00000000-0000-014b-0000-00000000014b ENEMYHEALTH
+execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom max run attribute 00000000-0000-014b-0000-00000000014b max_health get
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 169 in minecraft:the_end as @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/gestrom/display_title

@@ -12,8 +12,8 @@ execute if score Korlaph SQ28 matches 0.. as @a[x=-5111.5,y=165,z=-6755.5,distan
 execute if score Korlaph SQ28 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Korlaph
-execute if score Korlaph SQ28 matches 0.. if entity @a[x=-5111.5,y=165,z=-6755.5,distance=..15,gamemode=adventure] store result bossbar minecraft:korlaph value run data get entity 00000000-0000-004c-0000-00000000004c Health
-execute if score Korlaph SQ28 matches 0.. if entity @a[x=-5111.5,y=165,z=-6755.5,distance=..15,gamemode=adventure] store result bossbar minecraft:korlaph max run data get entity 00000000-0000-004c-0000-00000000004c attributes[{id:"minecraft:max_health"}].base
+execute if score Korlaph SQ28 matches 0.. if entity @a[x=-5111.5,y=165,z=-6755.5,distance=..15,gamemode=adventure] store result bossbar minecraft:korlaph value run scoreboard players get 00000000-0000-004c-0000-00000000004c ENEMYHEALTH
+execute if score Korlaph SQ28 matches 0.. if entity @a[x=-5111.5,y=165,z=-6755.5,distance=..15,gamemode=adventure] store result bossbar minecraft:korlaph max run attribute 00000000-0000-004c-0000-00000000004c max_health get
 
 # Make challengers enters the arena
 execute if score EnterArena SQ28 matches ..0 as @a[x=-5128,y=163,z=-6758,dx=0,dy=4,dz=4,gamemode=adventure] run function att2:gameplay/boss/elcheol/korlaph/enter_arena

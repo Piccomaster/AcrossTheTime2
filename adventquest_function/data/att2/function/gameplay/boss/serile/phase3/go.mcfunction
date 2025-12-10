@@ -37,8 +37,8 @@ execute if score Phase3 SERILE matches 1.. as @a[x=1543.0,y=25,z=1495.0,distance
 execute if score Phase3 SERILE matches 1.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Serile
-execute if score Phase3 SERILE matches 1.. if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile value run data get entity 00000000-0000-022b-0000-00000000022b Health
-execute if score Phase3 SERILE matches 1.. if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile max run data get entity 00000000-0000-022b-0000-00000000022b attributes[{id:"minecraft:max_health"}].base
+execute if score Phase3 SERILE matches 1.. if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile value run scoreboard players get 00000000-0000-022b-0000-00000000022b ENEMYHEALTH
+execute if score Phase3 SERILE matches 1.. if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile max run attribute 00000000-0000-022b-0000-00000000022b max_health get
 execute if score Phase3 SERILE matches 1.. store result score 00000000-0000-022b-0000-00000000022b SERILE run data get entity 00000000-0000-022b-0000-00000000022b Health 1
 
 # Make challengers enters the arena

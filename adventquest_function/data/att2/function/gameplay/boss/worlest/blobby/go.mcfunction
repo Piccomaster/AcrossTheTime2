@@ -16,8 +16,8 @@ execute if score Blobby SQ54 matches 0.. as @a[x=-5392,y=23,z=-4999,dx=77,dy=100
 execute if score Blobby SQ54 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Blobby
-execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] store result bossbar minecraft:blobby value run data get entity 00000000-0000-022c-0000-00000000022c Health
-execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] store result bossbar minecraft:blobby max run data get entity 00000000-0000-022c-0000-00000000022c attributes[{id:"minecraft:max_health"}].base
+execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] store result bossbar minecraft:blobby value run scoreboard players get 00000000-0000-022c-0000-00000000022c ENEMYHEALTH
+execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] store result bossbar minecraft:blobby max run attribute 00000000-0000-022c-0000-00000000022c max_health get
 
 # Make challengers enters the arena
 execute if score SQ54 SIDEQUEST matches 1..99 as @a[x=-5358,y=71,z=-5000,dx=6,dy=5,dz=0,gamemode=adventure] at @s unless entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/worlest/blobby/display_title

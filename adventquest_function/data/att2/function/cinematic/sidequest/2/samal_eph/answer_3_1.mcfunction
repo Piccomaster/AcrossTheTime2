@@ -6,7 +6,7 @@
 scoreboard players set samal_eph_PNJ DIALOG 3
 function att2:gameplay/reputation/remove_7
 function att2:cinematic/sidequest/2/step4
-data merge entity 00000000-0000-035a-0000-00000000035a {Tags:["LVL0","CLASS2","Reg1","Undead"],AngerTime:1000000,NoAI:0b,Invulnerable:0b,Silent:0b,AbsorptionAmount:0,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0}}
+data merge entity 00000000-0000-035a-0000-00000000035a {Tags:["LVL0","CLASS2","Reg1","Undead"],anger_end_time:1000000,NoAI:0b,Invulnerable:0b,Silent:0b,AbsorptionAmount:0,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0}}
 data modify entity 00000000-0000-035a-0000-00000000035a equipment.head.components.enchantments set value {"att2_enchantment:tick/mob_initialize":1}
 
 

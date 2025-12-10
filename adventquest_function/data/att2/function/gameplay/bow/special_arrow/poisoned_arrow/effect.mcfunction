@@ -41,12 +41,8 @@ scoreboard players operation #damage CAL /= 100 CAL
 scoreboard players operation #damage CAL > 1 CAL
 
 #tellraw @a [{text:"腐败伤害:"},{score:{name:"#damage",objective:"CAL"}}]
-##damage
-##get health
-execute store result score #health CAL run data get entity @s Health
-scoreboard players operation #health CAL -= #damage CAL
-execute if score #health CAL matches ..0 run damage @s 1 att2_damage:player_attack by @p
-execute store result entity @s Health int 1 run scoreboard players get #health CAL
+##damage detection
+function att2:gameplay/enemy_health/real_health_trigger
 
 ##particle
 execute if score #buff CAL matches 1..100 anchored eyes positioned ^ ^ ^ run function att2:gameplay/bow/special_arrow/poisoned_arrow/damage_effect_1

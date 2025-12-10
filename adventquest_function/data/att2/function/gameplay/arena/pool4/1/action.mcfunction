@@ -7,7 +7,7 @@
 #####################################################################
 
 # Absorption addition for bosse
-execute as @e[x=4979,y=126,z=-5051,dx=42,dy=7,dz=42,tag=Mercurius,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:10.0f}
+execute as @e[x=4979,y=126,z=-5051,dx=42,dy=7,dz=42,tag=ArenaBoss,team=hostile,scores={ENEMYABHEALTH=..0}] run scoreboard players set @s ENEMYABHEALTH 10
 
 # Change block by boss
 execute as @e[x=4979,y=126,z=-5051,dx=42,dy=7,dz=42,tag=Mercurius,limit=1] at @s if block ~ ~-1 ~ minecraft:jack_o_lantern run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:glass replace minecraft:jack_o_lantern

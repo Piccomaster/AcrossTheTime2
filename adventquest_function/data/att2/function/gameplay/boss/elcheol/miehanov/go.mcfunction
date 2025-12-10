@@ -15,8 +15,8 @@ execute if score Miehanov VONAHEIM matches 0.. as @a[x=-5641,y=165,z=-6342,dx=52
 execute if score Miehanov VONAHEIM matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Miehanov
-execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov value run data get entity 00000000-0000-008b-0000-00000000008b Health
-execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov max run data get entity 00000000-0000-008b-0000-00000000008b attributes[{id:"minecraft:max_health"}].base
+execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov value run scoreboard players get 00000000-0000-008b-0000-00000000008b ENEMYHEALTH
+execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov max run attribute 00000000-0000-008b-0000-00000000008b max_health get
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 113 as @a[x=-5613,y=163,z=-6388,dx=-2,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/miehanov/display_title

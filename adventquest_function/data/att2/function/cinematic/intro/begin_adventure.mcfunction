@@ -11,7 +11,7 @@ setblock 641 87 1088 minecraft:air
 function att2:clock/initialize
 
 # Beginning
-gamerule announceAdvancements false
+gamerule show_advancement_messages false
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay below_name
 scoreboard players set update INTRO -1

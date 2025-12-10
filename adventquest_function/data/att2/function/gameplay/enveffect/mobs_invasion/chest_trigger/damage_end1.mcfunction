@@ -11,3 +11,4 @@ execute if score level DIFFICULTY matches -1 run damage @s 20 att2_damage:magic 
 execute if score level DIFFICULTY matches 0 run damage @s 40 att2_damage:magic by @p
 execute if score level DIFFICULTY matches 1 run damage @s 60 att2_damage:magic by @p
 execute if score level DIFFICULTY matches 2 run damage @s 80 att2_damage:magic by @p
+

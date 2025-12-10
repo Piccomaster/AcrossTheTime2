@@ -23,8 +23,8 @@ execute if score Torkant SQ52 matches 0.. as @a[x=-5532,y=34,z=-4164,dx=34,dy=-3
 execute if score Torkant SQ52 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Torkant
-execute if score Torkant SQ52 matches 0.. if entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] store result bossbar minecraft:torkant value run data get entity 00000000-0000-020c-0000-00000000020c Health
-execute if score Torkant SQ52 matches 0.. if entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] store result bossbar minecraft:torkant max run data get entity 00000000-0000-020c-0000-00000000020c attributes[{id:"minecraft:max_health"}].base
+execute if score Torkant SQ52 matches 0.. if entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] store result bossbar minecraft:torkant value run scoreboard players get 00000000-0000-020c-0000-00000000020c ENEMYHEALTH
+execute if score Torkant SQ52 matches 0.. if entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] store result bossbar minecraft:torkant max run attribute 00000000-0000-020c-0000-00000000020c max_health get
 
 # Make challengers enters the arena
 execute if score SQ52 SIDEQUEST matches 1..99 as @a[x=-5514,y=36,z=-4140,dx=3,dy=0,dz=3,gamemode=adventure] at @s unless entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/nojelanth/torkant/display_title

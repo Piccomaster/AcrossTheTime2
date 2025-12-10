@@ -6,7 +6,7 @@
 scoreboard objectives add IF_MAGASIN dummy
 scoreboard objectives add IF_COOLDOWN dummy
 scoreboard objectives add IF_TAKEN dummy
-scoreboard objectives add SHOOTING_IF dummy
+#scoreboard objectives add SHOOTING_IF dummy
 scoreboard players set @s IF_TAKEN 0
 scoreboard players set @s IF_MAGASIN 12
 scoreboard players set @s IF_COOLDOWN 0

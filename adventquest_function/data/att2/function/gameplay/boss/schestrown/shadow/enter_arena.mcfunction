@@ -8,3 +8,4 @@ execute if score Shadow_attack SQ38 matches 2..3 run tp @s -4375 53 -5085
 stopsound @s
 tag @s add NoAutoMusic
 scoreboard players set @s MUSIC_BOSS 0
+bossbar set minecraft:shadow players @s

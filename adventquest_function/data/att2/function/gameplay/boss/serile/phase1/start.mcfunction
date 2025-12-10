@@ -4,7 +4,7 @@
 #####################################################################
 
 scoreboard players set in_fight BOSS 1
-gamerule doDaylightCycle false
+gamerule advance_time false
 time set 18000
 stopsound @a
 execute as @a run tag @s add NoAutoMusic

@@ -3,6 +3,8 @@
 #Process the arrow power assignement             #
 ##################################################
 
+#glowing
+effect give @s glowing 1 0
 ##sound
 playsound entity.warden.attack_impact player @a ~ ~ ~ 3 2
 ##particle

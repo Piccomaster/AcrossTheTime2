@@ -19,8 +19,8 @@ execute if score Karon ANGOR matches 0.. in minecraft:the_nether as @a[x=3539,y=
 execute if score Karon ANGOR matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Karön
-execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure] store result bossbar minecraft:karon value run data get entity 00000000-0000-005b-0000-00000000005b Health
-execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure] store result bossbar minecraft:karon max run data get entity 00000000-0000-005b-0000-00000000005b attributes[{id:"minecraft:max_health"}].base
+execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure] store result bossbar minecraft:karon value run scoreboard players get 00000000-0000-005b-0000-00000000005b ENEMYHEALTH
+execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure] store result bossbar minecraft:karon max run attribute 00000000-0000-005b-0000-00000000005b max_health get
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 71 in minecraft:the_nether as @a[x=3509,y=123,z=4513,dx=0,dy=20,dz=4,gamemode=adventure] at @s unless entity @a[x=3539,y=123,z=4497,dx=-29,dy=20,dz=50,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/angband/karon/display_title

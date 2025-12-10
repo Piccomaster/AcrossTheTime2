@@ -12,4 +12,4 @@ scoreboard players operation @s CORRUPTARROWTIME /= 100 CAL
 scoreboard players operation @s CORRUPTARROWTIME *= 100 CAL
 
 ##damage
-function att2:gameplay/bow/damage with storage att2:score
+function att2:gameplay/bow/arrow_damage

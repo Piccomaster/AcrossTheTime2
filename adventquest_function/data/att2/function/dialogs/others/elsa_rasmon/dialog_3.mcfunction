@@ -46,6 +46,6 @@ tellraw @s[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"text
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZkYThjODJjOWNiNzQ3ZDhlZGQ5MGVhNTc0MDY3ZTUzNWFlMmFiZmEwNjUxMmE4ODgzOGEyYzczMTg3Y2E3In19fQ=="}]}},{text:" °-° Elsa Rasmon : ",color:"green",extra:[{text:"好吧，如你所愿...",color:"dark_aqua"}]}]
 
-data merge entity 00000000-0000-054a-0000-00000000054a {Tags:["LVL0","CLASS12","Reg2","Undead"],NoAI:0,Invulnerable:0,AngerTime:1000000,Health:20,AbsorptionAmount:0,attributes:[{id:follow_range,base:30.0},{id:max_health,base:30,Health:0.5},{id:attack_damage,base:4.0}],Health:30,equipment:{mainhand:{id:"minecraft:iron_sword",count:1},offhand:{}}}
+data merge entity 00000000-0000-054a-0000-00000000054a {Tags:["LVL0","CLASS12","Reg2","Undead"],NoAI:0,Invulnerable:0,anger_end_time:1000000,Health:20,AbsorptionAmount:0,attributes:[{id:follow_range,base:30.0},{id:max_health,base:30,Health:0.5},{id:attack_damage,base:4.0}],Health:30,equipment:{mainhand:{id:"minecraft:iron_sword",count:1},offhand:{}}}
 data modify entity 00000000-0000-054a-0000-00000000054a equipment.head.components.enchantments set value {"att2_enchantment:tick/mob_initialize":1}
 kill @e[type=minecraft:interaction,x=3898,y=49,z=3907,distance=0..3]

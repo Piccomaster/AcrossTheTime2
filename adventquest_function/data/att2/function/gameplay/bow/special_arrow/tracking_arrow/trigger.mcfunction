@@ -30,10 +30,11 @@ execute if score #lvl CAL matches 1 run function att2:gameplay/bow/special_arrow
 execute if score #lvl CAL matches 2 run function att2:gameplay/bow/special_arrow/tracking_arrow/explosion_2
 execute if score #lvl CAL matches 3 run function att2:gameplay/bow/special_arrow/tracking_arrow/explosion_3
 #range damage
-execute if score #lvl CAL matches 1 at @s align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=2,dy=2,dz=2,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/tracking_arrow/damage with storage att2:score
-execute if score #lvl CAL matches 2 at @s align xyz positioned ~-1 ~-1 ~-1 as @e[dx=3,dy=3,dz=3,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/tracking_arrow/damage with storage att2:score
-execute if score #lvl CAL matches 3 at @s align xyz positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=4,dy=4,dz=4,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/tracking_arrow/damage with storage att2:score
+execute if score #lvl CAL matches 1 at @s align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=2,dy=2,dz=2,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/arrow_damage
+execute if score #lvl CAL matches 2 at @s align xyz positioned ~-1 ~-1 ~-1 as @e[dx=3,dy=3,dz=3,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/arrow_damage
+execute if score #lvl CAL matches 3 at @s align xyz positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=4,dy=4,dz=4,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/arrow_damage
 
 ##clear arrow
 data remove storage att2:score damage
+tag @s remove SHOOTED
 kill @s[type=#minecraft:arrows]

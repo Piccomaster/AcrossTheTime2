@@ -3,6 +3,9 @@
 #Process the effect of Interfacer shotgun        #
 ##################################################
 
-scoreboard players remove @s[scores={SHOOTING_IF=1..}] SHOOTING_IF 1
-execute if score @s SHOOTING_IF matches ..0 run kill @s
-kill @s[predicate=att2_pre:inground]
+
+$damage @s $(damage) att2_damage:arrow by @p[predicate=att2_pre:score/player]
+
+data modify entity @s Fire set value 1200
+#$say 枪伤害:$(damage)
+

@@ -30,7 +30,7 @@ execute if score ult itemcolor matches 1 if score @s itemcolor matches 9 run ret
 
 ##misc
 #cur
-execute if score other itemcolor matches 1 if score @s itemcolor matches 0 run return run particle minecraft:dust{color:[0.96,0.93,0.2],scale:0.3} ~ ~1 ~ 0.05 0.2 0.05 0 6 normal
+execute if score other itemcolor matches 1 if score @s itemcolor matches 0 run return run particle minecraft:dust{color:[0.96,0.93,0.2],scale:0.3} ~ ~1 ~ 0.05 0.1 0.05 0 4 normal
 #que
 execute if score other itemcolor matches 1 if score @s itemcolor matches 11 run particle minecraft:dust{color:[1,0.1,0.2],scale:0.3} ~ ~1 ~ 0.05 0.3 0.05 0 2 normal
 execute if score other itemcolor matches 1 if score @s itemcolor matches 11 run return run particle minecraft:dust{color:[0.5,0.5,0.5],scale:0.3} ~ ~1 ~ 0.05 0.3 0.05 0 2 normal

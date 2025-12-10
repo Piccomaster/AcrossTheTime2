@@ -23,7 +23,7 @@ execute if score Neth0 TIMER matches 80 run summon minecraft:zombified_piglin 37
 execute if score Neth0 TIMER matches 90 run summon minecraft:zombified_piglin 3749 73 3785 {Tags:["LVL0","Undead"],DeathLootTable:"att2:empty",Health:1000,attributes:[{id:max_health,base:1000},{id:attack_damage,base:0.0},{id:follow_range,base:30.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:golden_shovel",count:1},offhand:{},feet:{id:"minecraft:leather_boots",count:1,components:{dye_color:9049620}},legs:{id:"minecraft:leather_leggings",count:1,components:{dye_color:9589788}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dye_color:9049620}},head:{id:"minecraft:leather_helmet",count:1,components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},dye_color:9589788}}},UUID:[I;0,131151,0,131151]}
 execute if score Neth0 TIMER matches 100 run function att2:dialogs/mainquest/act_3/ch2_mortalsoldier_1
 execute if score Neth0 TIMER matches 100 run function att2:voice/mortal/mortal1
-execute if score Neth0 TIMER matches 180 as @e[type=minecraft:zombified_piglin,x=3754,y=77,z=3774,distance=..100] run data merge entity @s {AngerTime:1000000}
+execute if score Neth0 TIMER matches 180 as @e[type=minecraft:zombified_piglin,x=3754,y=77,z=3774,distance=..100] run data merge entity @s {anger_end_time:1000000}
 
 ### Summoning heroes Serile and Namrin
 execute if score Neth0 TIMER matches 680..925 run function att2:gameplay/speceffect/disincarnate/keep/neth0

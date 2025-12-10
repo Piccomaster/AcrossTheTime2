@@ -32,7 +32,7 @@ particle minecraft:dust{color:[1,0,0],scale:1} 3543 44 4910 0.25 2.0 0.25 0 3 fo
 particle minecraft:dust{color:[1,0,0],scale:1} 3544 44 4909 0.25 2.0 0.25 0 3 force
 
 # Enable Bossbar storing health of Flamme Noire
-execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire value run data get entity 00000000-0000-005b-0000-00000000006b Health
+execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire value run scoreboard players get 00000000-0000-005b-0000-00000000006b ENEMYHEALTH
 execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire max run attribute 00000000-0000-005b-0000-00000000006b max_health get
 
 # Security because Ghast are killed in one Fireball

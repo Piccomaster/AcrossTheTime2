@@ -16,8 +16,8 @@ execute if score Felroth WORLEST matches 0.. as @a[x=-4652,y=56,z=-5537,dx=32,dy
 execute if score Felroth WORLEST matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Felroth
-execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] store result bossbar minecraft:felroth max run data get entity 00000000-0000-001b-0000-00000000001b attributes[{id:"minecraft:max_health"}].base
-execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] store result bossbar minecraft:felroth value run data get entity 00000000-0000-001b-0000-00000000001b Health
+execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] store result bossbar minecraft:felroth max run attribute 00000000-0000-001b-0000-00000000001b max_health get
+execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] store result bossbar minecraft:felroth value run scoreboard players get 00000000-0000-001b-0000-00000000001b ENEMYHEALTH
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 14 as @a[x=-4635,y=57,z=-5538,dx=-2,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/worlest/felroth/display_title

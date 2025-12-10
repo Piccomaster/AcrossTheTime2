@@ -11,8 +11,8 @@ execute if score Elevator_steps BILLGART matches 3 if entity @e[x=-1243,y=60,z=-
 
 # Elevator falling down for each Guardian
 execute if entity 00000000-0000-012b-0000-00000000012b as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
-execute if entity 00000000-0000-012b-0000-00000000013b as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
-execute if entity 00000000-0000-012b-0000-00000000011b as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
+execute if entity 00000000-0000-013b-0000-00000000013b as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
+execute if entity 00000000-0000-011b-0000-00000000011b as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ ~-0.015 ~
 
 # Trigger live Guardian Elevator
 execute if score Elevator_emerald BILLGART matches 0 unless entity 00000000-0000-012b-0000-00000000012b run function att2:gameplay/boss/billgart/elevator/guardian_emerald_dying
