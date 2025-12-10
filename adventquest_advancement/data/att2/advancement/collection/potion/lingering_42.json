@@ -8,7 +8,8 @@
         },
         "minecraft:custom_data": {
           "Potion": "42"
-        }
+        },
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {

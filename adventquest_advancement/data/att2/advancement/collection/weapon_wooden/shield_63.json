@@ -29,7 +29,8 @@
             "color": "white",
             "pattern": "minecraft:flower"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/epi/epi"
       }
     },
     "title": {

@@ -21,7 +21,8 @@
             "color": "light_gray",
             "pattern": "minecraft:flower"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/com/com"
       }
     },
     "title": {

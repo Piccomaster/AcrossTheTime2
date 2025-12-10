@@ -8,7 +8,8 @@
         },
         "minecraft:custom_data": {
           "Potion": "45"
-        }
+        },
+        "tooltip_style": "minecraft:rarity/epi/epi"
       }
     },
     "title": {

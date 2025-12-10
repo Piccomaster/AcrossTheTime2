@@ -25,7 +25,8 @@
             "color": "brown",
             "pattern": "minecraft:curly_border"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {

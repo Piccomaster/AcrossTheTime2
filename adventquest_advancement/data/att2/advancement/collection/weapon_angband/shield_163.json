@@ -29,7 +29,8 @@
             "color": "orange",
             "pattern": "minecraft:gradient"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {

@@ -1,621 +1,624 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:deepslate_coal_ore"
-        },
-        "title": {
-            "translate": "att2.advancement.collection.weapon_netherite.title.all"
-        },
-        "description": {
-            "translate": "att2.advancement.collection.weapon_netherite.description.all"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_coal_ore",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
-    "parent": "att2:collection/weapon_netherite",
-    "rewards": {
-        "function": "att2:advancement/exploit_25",
-        "experience": 10000
+    "title": {
+      "translate": "att2.advancement.collection.weapon_netherite.title.all"
     },
-    "criteria": {
-        "netherite_axe_278": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "278"
-                            }
-                        }
-                    }
-                ]
+    "description": {
+      "translate": "att2.advancement.collection.weapon_netherite.description.all"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon_netherite",
+  "rewards": {
+    "function": "att2:advancement/exploit_25",
+    "experience": 10000
+  },
+  "criteria": {
+    "netherite_axe_278": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "278"
+              }
             }
-        },
-        "netherite_axe_279": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "279"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_axe_279": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "279"
+              }
             }
-        },
-        "netherite_pickaxe_280": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "280"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_280": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "280"
+              }
             }
-        },
-        "netherite_pickaxe_281": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "281"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_281": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "281"
+              }
             }
-        },
-        "netherite_shovel_282": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "282"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel_282": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "282"
+              }
             }
-        },
-        "netherite_shovel_283": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "283"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel_283": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "283"
+              }
             }
-        },
-        "netherite_sword_284": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "284"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_sword_284": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "284"
+              }
             }
-        },
-        "netherite_sword_285": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "285"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_sword_285": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "285"
+              }
             }
-        },
-        "netherite_hoe_286": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "286"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_286": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "286"
+              }
             }
-        },
-        "netherite_hoe_287": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "287"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_287": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "287"
+              }
             }
-        },
-        "netherite_axe_288": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "288"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_axe_288": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "288"
+              }
             }
-        },
-        "netherite_axe_289": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "289"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_axe_289": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "289"
+              }
             }
-        },
-        "netherite_pickaxe_290": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "290"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_290": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "290"
+              }
             }
-        },
-        "netherite_pickaxe_291": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "291"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_291": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "291"
+              }
             }
-        },
-        "netherite_shovel_292": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "292"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel_292": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "292"
+              }
             }
-        },
-        "netherite_shovel_293": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "293"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel_293": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "293"
+              }
             }
-        },
-        "netherite_sword_294": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "294"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_sword_294": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "294"
+              }
             }
-        },
-        "netherite_sword_295": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "295"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_sword_295": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "295"
+              }
             }
-        },
-        "netherite_hoe_296": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "296"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_296": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "296"
+              }
             }
-        },
-        "netherite_hoe_297": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "297"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_297": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "297"
+              }
             }
-        },
-        "netherite_axe_298": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "298"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_axe_298": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "298"
+              }
             }
-        },
-        "netherite_axe_299": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "299"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_axe_299": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "299"
+              }
             }
-        },
-        "netherite_pickaxe_300": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "300"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_300": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "300"
+              }
             }
-        },
-        "netherite_pickaxe_301": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "301"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_301": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "301"
+              }
             }
-        },
-        "netherite_shovel_302": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "302"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel_302": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "302"
+              }
             }
-        },
-        "netherite_shovel_303": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "303"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel_303": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "303"
+              }
             }
-        },
-        "netherite_sword_304": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "304"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_sword_304": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "304"
+              }
             }
-        },
-        "netherite_sword_305": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "305"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_sword_305": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "305"
+              }
             }
-        },
-        "netherite_hoe_306": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "306"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_306": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "306"
+              }
             }
-        },
-        "netherite_hoe_307": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "307"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_307": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "307"
+              }
             }
-        },
-        "netherite_axe_308": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "308"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_axe_308": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "308"
+              }
             }
-        },
-        "netherite_pickaxe_309": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "309"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_309": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "309"
+              }
             }
-        },
-        "netherite_shovel_310": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "310"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel_310": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "310"
+              }
             }
-        },
-        "netherite_sword_311": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "311"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_sword_311": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "311"
+              }
             }
-        },
-        "netherite_hoe_312": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "312"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_312": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "312"
+              }
             }
-        },
-        "netherite_axe_313": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "313"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_axe_313": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "313"
+              }
             }
-        },
-        "netherite_pickaxe_314": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "314"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_314": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "314"
+              }
             }
-        },
-        "netherite_shovel_315": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "315"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel_315": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "315"
+              }
             }
-        },
-        "netherite_sword_316": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "316"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_sword_316": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "316"
+              }
             }
-        },
-        "netherite_hoe_317": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:netherite_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "317"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_317": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "317"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -53,7 +53,8 @@
             "color": "light_blue",
             "pattern": "minecraft:triangles_bottom"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/unc/unc"
       }
     },
     "title": {

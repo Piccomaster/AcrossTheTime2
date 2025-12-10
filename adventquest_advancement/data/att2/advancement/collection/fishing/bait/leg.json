@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:snowball",
       "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg",
         "minecraft:custom_model_data": {
           "floats": [
             10000005

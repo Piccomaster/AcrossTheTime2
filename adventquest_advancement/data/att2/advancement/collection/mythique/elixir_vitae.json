@@ -2,7 +2,8 @@
     "display": {
         "icon": {
             "id": "minecraft:potion",
-            "predicates": {
+            "components": {
+                "tooltip_style": "minecraft:rarity/myt/myt",
                 "minecraft:potion_contents": {
                     "custom_color": 0
                 }

@@ -13,7 +13,8 @@
             "color": "lime",
             "pattern": "minecraft:rhombus"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/unc/unc"
       }
     },
     "title": {

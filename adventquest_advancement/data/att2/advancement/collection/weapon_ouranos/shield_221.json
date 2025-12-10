@@ -29,7 +29,8 @@
             "color": "light_gray",
             "pattern": "minecraft:triangles_bottom"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {

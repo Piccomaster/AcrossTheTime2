@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_helmet"
+      "id": "minecraft:netherite_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi_set/epi_set"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_billgart.netherite.title.helmet_328"

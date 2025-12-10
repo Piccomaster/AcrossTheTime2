@@ -29,7 +29,8 @@
             "color": "light_gray",
             "pattern": "minecraft:triangles_top"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/unc/unc"
       }
     },
     "title": {

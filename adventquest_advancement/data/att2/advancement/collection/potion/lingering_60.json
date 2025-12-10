@@ -8,7 +8,8 @@
         },
         "minecraft:custom_data": {
           "Potion": "60"
-        }
+        },
+        "tooltip_style": "minecraft:rarity/unc/unc"
       }
     },
     "title": {

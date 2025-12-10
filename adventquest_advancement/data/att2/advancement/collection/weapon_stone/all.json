@@ -1,621 +1,624 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:raw_copper_block"
-        },
-        "title": {
-            "translate": "att2.advancement.collection.weapon_stone.title.all"
-        },
-        "description": {
-            "translate": "att2.advancement.collection.weapon_stone.description.all"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_copper_block",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
     },
-    "parent": "att2:collection/weapon_stone",
-    "rewards": {
-        "function": "att2:advancement/exploit_25",
-        "experience": 10000
+    "title": {
+      "translate": "att2.advancement.collection.weapon_stone.title.all"
     },
-    "criteria": {
-        "wooden_axe_1": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "1"
-                            }
-                        }
-                    }
-                ]
+    "description": {
+      "translate": "att2.advancement.collection.weapon_stone.description.all"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon_stone",
+  "rewards": {
+    "function": "att2:advancement/exploit_25",
+    "experience": 10000
+  },
+  "criteria": {
+    "wooden_axe_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "1"
+              }
             }
-        },
-        "wooden_axe_2": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "2"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_axe_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "2"
+              }
             }
-        },
-        "wooden_pickaxe_3": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "3"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "3"
+              }
             }
-        },
-        "wooden_pickaxe_4": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "4"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "4"
+              }
             }
-        },
-        "wooden_shovel_5": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "5"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "5"
+              }
             }
-        },
-        "wooden_shovel_6": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "6"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel_6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "6"
+              }
             }
-        },
-        "wooden_sword_7": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "7"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_sword_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "7"
+              }
             }
-        },
-        "wooden_sword_8": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "8"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_sword_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "8"
+              }
             }
-        },
-        "wooden_axe_9": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "9"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_axe_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "9"
+              }
             }
-        },
-        "wooden_axe_10": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "10"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_axe_10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "10"
+              }
             }
-        },
-        "wooden_pickaxe_11": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "11"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "11"
+              }
             }
-        },
-        "wooden_pickaxe_12": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "12"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "12"
+              }
             }
-        },
-        "wooden_shovel_13": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "13"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "13"
+              }
             }
-        },
-        "wooden_shovel_14": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "14"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel_14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "14"
+              }
             }
-        },
-        "wooden_sword_15": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "15"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_sword_15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "15"
+              }
             }
-        },
-        "wooden_sword_16": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "16"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_sword_16": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "16"
+              }
             }
-        },
-        "wooden_axe_17": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "17"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_axe_17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "17"
+              }
             }
-        },
-        "wooden_axe_18": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "18"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_axe_18": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "18"
+              }
             }
-        },
-        "wooden_pickaxe_19": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "19"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_19": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "19"
+              }
             }
-        },
-        "wooden_pickaxe_20": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "20"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_20": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "20"
+              }
             }
-        },
-        "wooden_shovel_21": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "21"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel_21": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "21"
+              }
             }
-        },
-        "wooden_shovel_22": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "22"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel_22": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "22"
+              }
             }
-        },
-        "wooden_sword_23": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "23"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_sword_23": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "23"
+              }
             }
-        },
-        "wooden_sword_24": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "24"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_sword_24": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "24"
+              }
             }
-        },
-        "wooden_axe_25": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "25"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_axe_25": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "25"
+              }
             }
-        },
-        "wooden_pickaxe_26": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "26"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_26": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "26"
+              }
             }
-        },
-        "wooden_shovel_27": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "27"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel_27": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "27"
+              }
             }
-        },
-        "wooden_sword_28": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "28"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_sword_28": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "28"
+              }
             }
-        },
-        "wooden_axe_29": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_axe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "29"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_axe_29": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "29"
+              }
             }
-        },
-        "wooden_pickaxe_30": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_pickaxe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "30"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_30": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "30"
+              }
             }
-        },
-        "wooden_shovel_31": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_shovel",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "31"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel_31": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "31"
+              }
             }
-        },
-        "wooden_sword_32": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_sword",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "32"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_sword_32": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "32"
+              }
             }
-        },
-        "wooden_hoe_254": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "254"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe_254": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "254"
+              }
             }
-        },
-        "wooden_hoe_255": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "255"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe_255": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "255"
+              }
             }
-        },
-        "wooden_hoe_256": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "256"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe_256": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "256"
+              }
             }
-        },
-        "wooden_hoe_257": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "257"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe_257": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "257"
+              }
             }
-        },
-        "wooden_hoe_258": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "258"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe_258": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "258"
+              }
             }
-        },
-        "wooden_hoe_259": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "259"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe_259": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "259"
+              }
             }
-        },
-        "wooden_hoe_260": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "260"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe_260": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "260"
+              }
             }
-        },
-        "wooden_hoe_261": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:wooden_hoe",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "261"
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe_261": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": "261"
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

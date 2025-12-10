@@ -25,7 +25,8 @@
             "color": "green",
             "pattern": "minecraft:cross"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/epi/epi"
       }
     },
     "title": {

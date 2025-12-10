@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_chestplate"
+      "id": "minecraft:diamond_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/ult/ult"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_supreme.title.diamond_chestplate_354"

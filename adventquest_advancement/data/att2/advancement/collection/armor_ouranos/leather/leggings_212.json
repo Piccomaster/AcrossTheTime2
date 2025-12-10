@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:leather_leggings"
+      "id": "minecraft:leather_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi_set/epi_set"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_ouranos.leather.title.leggings_212"

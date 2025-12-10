@@ -25,7 +25,8 @@
             "color": "brown",
             "pattern": "minecraft:gradient"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/com/com"
       }
     },
     "title": {

@@ -25,7 +25,8 @@
             "color": "gray",
             "pattern": "minecraft:circle"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {

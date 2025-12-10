@@ -37,7 +37,8 @@
             "color": "red",
             "pattern": "minecraft:curly_border"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/com/com"
       }
     },
     "title": {

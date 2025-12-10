@@ -29,7 +29,8 @@
             "color": "green",
             "pattern": "minecraft:stripe_downright"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/leg/leg"
       }
     },
     "title": {
