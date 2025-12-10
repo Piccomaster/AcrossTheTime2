@@ -470,5 +470,10 @@
 #### NPC Dialogue
 - **NPC Portrait Display**: NPC avatar icons are now shown during dialogues
 
+#### Boss Health Bar Display Mechanics
+
+- **Health Bar Visibility**: The health bar of most bosses is only displayed to players who have entered the corresponding boss room.
+- **Multiple Boss Management**: When multiple bosses are present, the health bar at the top of the screen is promptly removed once that specific boss is defeated.
+
 ### **Issues**
 - Various minor bugs have been fixed.
