@@ -3,6 +3,6 @@
 #Obtain item golden_chestplate_133          #
 #####################################
 
-give @s minecraft:golden_chestplate[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'eternan',Shop:'buy',HUN:-1,Armor:'133'},custom_name={translate:'armor133.name'},lore=[{translate:'armor133.lore.1'},{translate:'armor133.lore.2'},{translate:'armor133.stat'}],max_damage=120,damage=0,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:1.89},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:0}],tooltip_style="minecraft:rarity/com/com"]
+give @s minecraft:golden_chestplate[custom_data={EquipmentType:'armor',Rarity:'com',Manufacturer:'eternan',Shop:'buy',HUN:-1,Armor:133},custom_name={translate:'armor133.name'},lore=[{translate:'armor133.lore.1'},{translate:'armor133.lore.2'},{translate:'armor133.stat'}],max_damage=120,damage=0,attribute_modifiers=[{slot:'chest',type:'armor',id:'armor.chestplate',operation:'add_value',amount:1.89},{slot:'chest',type:'armor_toughness',id:'armor.chestplate',operation:'add_value',amount:0}],tooltip_style="minecraft:rarity/com/com"]
 
 function att2:gameplay/shop/smith_leveling/add_buying_com
