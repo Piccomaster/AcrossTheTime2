@@ -25,7 +25,7 @@
             "items": "minecraft:leather_leggings",
             "predicates": {
               "minecraft:custom_data": {
-                "Armor": "221"
+                "Armor": 221
               }
             }
           }

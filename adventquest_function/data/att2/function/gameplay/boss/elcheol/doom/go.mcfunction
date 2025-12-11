@@ -15,8 +15,8 @@ execute if score Doom SQ56 matches 0.. as @a[x=-5229,y=47,z=-6293,distance=..25,
 execute if score Doom SQ56 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Doom
-execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom value run data get entity 00000000-0000-026c-0000-00000000026c Health
-execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom max run data get entity 00000000-0000-026c-0000-00000000026c attributes[{id:"minecraft:max_health"}].base
+execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom value run scoreboard players get 00000000-0000-026c-0000-00000000026c ENEMYHEALTH
+execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom max run attribute 00000000-0000-026c-0000-00000000026c max_health get
 execute if score Doom SQ56 matches 0.. store result score 00000000-0000-026c-0000-00000000026c SQ56 run data get entity 00000000-0000-026c-0000-00000000026c Health 1
 
 # Make challengers enters the arena

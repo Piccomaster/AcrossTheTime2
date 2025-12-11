@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_chestplate"
+      "id": "minecraft:netherite_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_billgart.netherite.title.chestplate_236"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:netherite_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "236"
+              "minecraft:custom_name": {
+                "translate": "armor236.name"
               }
             }
           }

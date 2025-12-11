@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 4738620
+        },
+        "minecraft:custom_name": {
+              "translate": "potion27.name"
+        },
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection.potion.title.drink_27"
+    },
+    "description": {
+      "translate": "att2.advancement.collection.potion.description.drink_27"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/potion",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "potion_27": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion",
+            "predicates": {
+              "minecraft:custom_name": {
+                "translate": "potion27.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

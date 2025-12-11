@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_helmet"
+      "id": "minecraft:diamond_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_ouranos.diamond.title.helmet_349"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:diamond_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "349"
+              "minecraft:custom_name": {
+                "translate": "armor349.name"
               }
             }
           }

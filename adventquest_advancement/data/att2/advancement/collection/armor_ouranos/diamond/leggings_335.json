@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_leggings"
+      "id": "minecraft:diamond_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_ouranos.diamond.title.leggings_335"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:diamond_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "335"
+              "minecraft:custom_name": {
+                "translate": "armor335.name"
               }
             }
           }

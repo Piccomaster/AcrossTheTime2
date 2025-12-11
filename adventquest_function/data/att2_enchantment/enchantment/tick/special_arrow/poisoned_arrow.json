@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": "poisoned_arrow"
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/bow/special_arrow/poisoned_arrow/flight"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

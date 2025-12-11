@@ -7,3 +7,4 @@
 scoreboard players set @s SPELL_KILL 5
 $scoreboard players operation @s ATTACKER = @a[scores={NUMEROJOUEUR=$(owner)},limit=1] NUMEROJOUEUR
 $damage @s[tag=!FB_DAHAL] $(SP5) att2_damage:magic by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+

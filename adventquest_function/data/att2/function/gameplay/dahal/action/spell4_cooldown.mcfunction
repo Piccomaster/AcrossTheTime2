@@ -67,7 +67,7 @@ execute store result storage att2:cooldown spell_data.components."minecraft:cust
 
 ##test cooldown
 ##If over -> clear use 
-execute if score @s COOLDOWN4 matches ..0 run data modify storage att2:cooldown spell_data.components."minecraft:consumable" set value {animation:spear,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}}
+execute if score @s COOLDOWN4 matches ..0 run data modify storage att2:cooldown spell_data.components."minecraft:consumable" set value {animation:trident,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}}
 execute if score @s COOLDOWN4 matches 1.. run data remove storage att2:cooldown spell_data.components."minecraft:consumable"
 
 ##reset

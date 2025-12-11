@@ -4,7 +4,9 @@
 ##################################################
 
 #cal stat value
+attribute @s attack_damage modifier remove att2:attack_damage_limit
 execute if score @s STR_DISPLAY matches 1.. store result score #STR_DATA CAL run attribute @s attack_damage get
+execute unless predicate att2_pre:test_hold/equipment/meleeweapon run attribute @s attack_damage modifier add att2:attack_damage_limit -0.90 add_multiplied_total
 execute if score @s HAS_DISPLAY matches 1.. run function att2:gameplay/stat/haste/data_cal
 execute if score @s HUN_DISPLAY matches 1.. run function att2:gameplay/stat/hunger/data_cal
 execute if score @s HER_DISPLAY matches 1.. run function att2:gameplay/stat/healthregen/data_cal

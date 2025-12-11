@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_chestplate"
+      "id": "minecraft:iron_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_iron.title.chestplate_102"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:iron_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "102"
+              "minecraft:custom_name": {
+                "translate": "armor102.name"
               }
             }
           }

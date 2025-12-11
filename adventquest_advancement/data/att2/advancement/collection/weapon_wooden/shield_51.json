@@ -29,7 +29,8 @@
             "color": "light_gray",
             "pattern": "minecraft:flower"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/com/com"
       }
     },
     "title": {
@@ -53,8 +54,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "51"
+              "minecraft:custom_name": {
+                "translate": "weapon51.name"
               }
             }
           }

@@ -24,11 +24,13 @@ function att2:gameplay/dahal/initialize
 function att2:gameplay/death/initialize
 function att2:gameplay/dimension/initialize
 function att2:gameplay/enchantment/initialize
+function att2:gameplay/enemy_health/initialize
 function att2:gameplay/difficulty/initialize
 function att2:gameplay/enveffect/initialize
 function att2:gameplay/equipment/initialize
 function att2:gameplay/gps/initialize
 function att2:gameplay/healthbar/initialize
+function att2:gameplay/horse_racing/initialize
 function att2:gameplay/invocation/initialize
 function att2:gameplay/item/lifetime/initialize
 function att2:gameplay/language/initialize

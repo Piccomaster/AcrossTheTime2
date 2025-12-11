@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bow"
+      "id": "minecraft:bow",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_wooden.title.bow_47"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "47"
+              "minecraft:custom_name": {
+                "translate": "weapon47.name"
               }
             }
           }

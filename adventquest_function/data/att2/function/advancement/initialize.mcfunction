@@ -3,7 +3,7 @@
 #Initialize advancement for all players							#
 #################################################################
 
-gamerule announceAdvancements true
+gamerule show_advancement_messages true
 
 scoreboard objectives add EXPLOIT dummy
 scoreboard objectives add COMPLETION dummy

@@ -25,7 +25,7 @@
             "items": "minecraft:diamond_shovel",
             "predicates": {
               "minecraft:custom_data": {
-                "Weapon": "170"
+                "Weapon": 170
               }
             }
           }

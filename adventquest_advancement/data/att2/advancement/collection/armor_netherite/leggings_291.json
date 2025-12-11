@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_leggings"
+      "id": "minecraft:netherite_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_netherite.title.leggings_291"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:netherite_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "291"
+              "minecraft:custom_name": {
+                "translate": "armor291.name"
               }
             }
           }

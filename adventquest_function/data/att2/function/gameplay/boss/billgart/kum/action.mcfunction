@@ -8,9 +8,9 @@ function att2:gameplay/boss/billgart/kum/golem_effect
 execute as 00000000-0000-021c-0000-00000000021c run data merge entity @s {Fire:0}
 
 # Absorption
-execute if score level DIFFICULTY matches -1 as 00000000-0000-021c-0000-00000000021c if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:2.0f}
-execute if score level DIFFICULTY matches 0 as 00000000-0000-021c-0000-00000000021c if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute if score level DIFFICULTY matches 1.. as 00000000-0000-021c-0000-00000000021c if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:10.0f}
+execute if score level DIFFICULTY matches -1 as 00000000-0000-021c-0000-00000000021c if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 2
+execute if score level DIFFICULTY matches 0 as 00000000-0000-021c-0000-00000000021c if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 5
+execute if score level DIFFICULTY matches 1.. as 00000000-0000-021c-0000-00000000021c if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 10
 
 # Emerald effect
 execute as @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] at @s if block ~ ~ ~ minecraft:dead_bubble_coral_fan run function att2:gameplay/boss/billgart/kum/emerald_effect

@@ -20,7 +20,7 @@ execute if score GolemBoss BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] r
 
 # Enable Bossbar storing health of GolemBoss
 execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] store result bossbar minecraft:golem value run data get entity 00000000-0000-009b-0000-00000000009b Health
-execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] store result bossbar minecraft:golem max run data get entity 00000000-0000-009b-0000-00000000009b attributes[{id:"minecraft:max_health"}].base
+execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] store result bossbar minecraft:golem max run attribute 00000000-0000-009b-0000-00000000009b max_health get
 execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end store result score 00000000-0000-009b-0000-00000000009b BILLGART run data get entity 00000000-0000-009b-0000-00000000009b Health 1
 
 # Make challengers enters the arena

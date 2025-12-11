@@ -6,9 +6,10 @@
         "minecraft:potion_contents": {
           "custom_color": 9592157
         },
-        "minecraft:custom_data": {
-          "Potion": "61"
-        }
+        "minecraft:custom_name": {
+          "translate": "potion61.name"
+        },
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {
@@ -33,8 +34,8 @@
           {
             "items": "minecraft:lingering_potion",
             "predicates": {
-              "minecraft:custom_data": {
-                "Potion": "61"
+              "minecraft:custom_name": {
+                "translate": "potion61.name"
               }
             }
           }

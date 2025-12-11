@@ -4,7 +4,7 @@
 #####################################################################
 
 scoreboard players set in_fight BOSS 0
-gamerule doDaylightCycle true
+gamerule advance_time true
 stopsound @s
 tag @s add nearTimeGem
 scoreboard players set @s MUSIC_TIMER 20

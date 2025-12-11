@@ -4,4 +4,4 @@
 #################################################################
 
 #damage
-$damage @s $(damage) att2_damage:fire
+$damage @s $(damage) att2_damage:fire by @p

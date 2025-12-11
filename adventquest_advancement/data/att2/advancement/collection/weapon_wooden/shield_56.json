@@ -57,7 +57,8 @@
             "color": "white",
             "pattern": "minecraft:straight_cross"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/unc/unc"
       }
     },
     "title": {
@@ -81,8 +82,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "56"
+              "minecraft:custom_name": {
+                "translate": "weapon56.name"
               }
             }
           }

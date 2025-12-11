@@ -24,9 +24,10 @@
                     {
                         "items": "minecraft:wooden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "5"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon5.name"
+
+                              }
                         }
                     }
                 ]
@@ -39,9 +40,10 @@
                     {
                         "items": "minecraft:wooden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "6"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon6.name"
+
+                              }
                         }
                     }
                 ]
@@ -54,9 +56,10 @@
                     {
                         "items": "minecraft:wooden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "13"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon13.name"
+
+                              }
                         }
                     }
                 ]
@@ -69,9 +72,10 @@
                     {
                         "items": "minecraft:wooden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "14"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon14.name"
+
+                              }
                         }
                     }
                 ]
@@ -84,9 +88,10 @@
                     {
                         "items": "minecraft:wooden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "21"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon21.name"
+
+                              }
                         }
                     }
                 ]
@@ -99,9 +104,10 @@
                     {
                         "items": "minecraft:wooden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "22"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon22.name"
+
+                              }
                         }
                     }
                 ]
@@ -114,9 +120,10 @@
                     {
                         "items": "minecraft:wooden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "27"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon27.name"
+
+                              }
                         }
                     }
                 ]
@@ -129,9 +136,10 @@
                     {
                         "items": "minecraft:wooden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "31"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon31.name"
+
+                              }
                         }
                     }
                 ]
@@ -144,9 +152,10 @@
                     {
                         "items": "minecraft:iron_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "68"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon68.name"
+
+                              }
                         }
                     }
                 ]
@@ -159,9 +168,10 @@
                     {
                         "items": "minecraft:iron_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "69"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon69.name"
+
+                              }
                         }
                     }
                 ]
@@ -174,9 +184,10 @@
                     {
                         "items": "minecraft:iron_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "76"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon76.name"
+
+                              }
                         }
                     }
                 ]
@@ -189,9 +200,10 @@
                     {
                         "items": "minecraft:iron_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "77"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon77.name"
+
+                              }
                         }
                     }
                 ]
@@ -204,9 +216,10 @@
                     {
                         "items": "minecraft:iron_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "84"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon84.name"
+
+                              }
                         }
                     }
                 ]
@@ -219,9 +232,10 @@
                     {
                         "items": "minecraft:iron_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "85"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon85.name"
+
+                              }
                         }
                     }
                 ]
@@ -234,9 +248,10 @@
                     {
                         "items": "minecraft:iron_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "90"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon90.name"
+
+                              }
                         }
                     }
                 ]
@@ -249,9 +264,10 @@
                     {
                         "items": "minecraft:iron_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "94"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon94.name"
+
+                              }
                         }
                     }
                 ]
@@ -264,9 +280,10 @@
                     {
                         "items": "minecraft:diamond_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "100"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon100.name"
+
+                              }
                         }
                     }
                 ]
@@ -279,9 +296,10 @@
                     {
                         "items": "minecraft:diamond_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "101"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon101.name"
+
+                              }
                         }
                     }
                 ]
@@ -294,9 +312,10 @@
                     {
                         "items": "minecraft:diamond_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "108"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon108.name"
+
+                              }
                         }
                     }
                 ]
@@ -309,9 +328,10 @@
                     {
                         "items": "minecraft:diamond_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "109"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon109.name"
+
+                              }
                         }
                     }
                 ]
@@ -324,9 +344,10 @@
                     {
                         "items": "minecraft:diamond_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "116"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon116.name"
+
+                              }
                         }
                     }
                 ]
@@ -339,9 +360,10 @@
                     {
                         "items": "minecraft:diamond_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "117"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon117.name"
+
+                              }
                         }
                     }
                 ]
@@ -354,9 +376,10 @@
                     {
                         "items": "minecraft:diamond_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "122"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon122.name"
+
+                              }
                         }
                     }
                 ]
@@ -369,9 +392,10 @@
                     {
                         "items": "minecraft:diamond_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "126"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon126.name"
+
+                              }
                         }
                     }
                 ]
@@ -384,9 +408,10 @@
                     {
                         "items": "minecraft:golden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "132"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon132.name"
+
+                              }
                         }
                     }
                 ]
@@ -399,9 +424,10 @@
                     {
                         "items": "minecraft:golden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "133"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon133.name"
+
+                              }
                         }
                     }
                 ]
@@ -414,9 +440,10 @@
                     {
                         "items": "minecraft:golden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "140"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon140.name"
+
+                              }
                         }
                     }
                 ]
@@ -429,9 +456,10 @@
                     {
                         "items": "minecraft:golden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "141"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon141.name"
+
+                              }
                         }
                     }
                 ]
@@ -444,9 +472,10 @@
                     {
                         "items": "minecraft:golden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "148"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon148.name"
+
+                              }
                         }
                     }
                 ]
@@ -459,9 +488,10 @@
                     {
                         "items": "minecraft:golden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "149"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon149.name"
+
+                              }
                         }
                     }
                 ]
@@ -474,9 +504,10 @@
                     {
                         "items": "minecraft:golden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "154"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon154.name"
+
+                              }
                         }
                     }
                 ]
@@ -489,9 +520,10 @@
                     {
                         "items": "minecraft:golden_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "158"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon158.name"
+
+                              }
                         }
                     }
                 ]
@@ -504,9 +536,10 @@
                     {
                         "items": "minecraft:stone_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "199"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon199.name"
+
+                              }
                         }
                     }
                 ]
@@ -519,9 +552,10 @@
                     {
                         "items": "minecraft:stone_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "202"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon202.name"
+
+                              }
                         }
                     }
                 ]
@@ -534,9 +568,10 @@
                     {
                         "items": "minecraft:stone_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "203"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon203.name"
+
+                              }
                         }
                     }
                 ]
@@ -549,9 +584,10 @@
                     {
                         "items": "minecraft:stone_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "206"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon206.name"
+
+                              }
                         }
                     }
                 ]
@@ -564,9 +600,10 @@
                     {
                         "items": "minecraft:stone_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "207"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon207.name"
+
+                              }
                         }
                     }
                 ]
@@ -579,9 +616,10 @@
                     {
                         "items": "minecraft:stone_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "210"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon210.name"
+
+                              }
                         }
                     }
                 ]
@@ -594,9 +632,10 @@
                     {
                         "items": "minecraft:stone_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "212"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon212.name"
+
+                              }
                         }
                     }
                 ]
@@ -609,9 +648,10 @@
                     {
                         "items": "minecraft:stone_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "213"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon213.name"
+
+                              }
                         }
                     }
                 ]
@@ -624,9 +664,10 @@
                     {
                         "items": "minecraft:netherite_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "282"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon282.name"
+
+                              }
                         }
                     }
                 ]
@@ -639,9 +680,10 @@
                     {
                         "items": "minecraft:netherite_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "283"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon283.name"
+
+                              }
                         }
                     }
                 ]
@@ -654,9 +696,10 @@
                     {
                         "items": "minecraft:netherite_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "292"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon292.name"
+
+                              }
                         }
                     }
                 ]
@@ -669,9 +712,10 @@
                     {
                         "items": "minecraft:netherite_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "293"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon293.name"
+
+                              }
                         }
                     }
                 ]
@@ -684,9 +728,10 @@
                     {
                         "items": "minecraft:netherite_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "302"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon302.name"
+
+                              }
                         }
                     }
                 ]
@@ -699,9 +744,10 @@
                     {
                         "items": "minecraft:netherite_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "303"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon303.name"
+
+                              }
                         }
                     }
                 ]
@@ -714,9 +760,10 @@
                     {
                         "items": "minecraft:netherite_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "310"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon310.name"
+
+                              }
                         }
                     }
                 ]
@@ -729,9 +776,10 @@
                     {
                         "items": "minecraft:netherite_shovel",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "315"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon315.name"
+
+                              }
                         }
                     }
                 ]

@@ -4,9 +4,9 @@
 #####################################################################
 
 # Absorption
-execute if score level DIFFICULTY matches -1 as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,type=minecraft:bee,tag=hive] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:0.0f}
-execute if score level DIFFICULTY matches 0 as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,type=minecraft:bee,tag=hive] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:2.5f}
-execute if score level DIFFICULTY matches 1.. as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,type=minecraft:bee,tag=hive] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
+execute if score level DIFFICULTY matches -1 as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,type=minecraft:bee,tag=hive] if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 1
+execute if score level DIFFICULTY matches 0 as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,type=minecraft:bee,tag=hive] if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 3
+execute if score level DIFFICULTY matches 1.. as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,type=minecraft:bee,tag=hive] if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 5
 
 # Timer
 execute if score Hive_timer1 SQ58 matches 1200 run function att2:gameplay/boss/nojelanth/hive/summoning_minion

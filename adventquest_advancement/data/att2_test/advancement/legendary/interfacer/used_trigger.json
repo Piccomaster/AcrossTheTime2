@@ -15,6 +15,24 @@
           }
         }
       }
+    },
+    "consumable_trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "EquipmentID": "interfacer"
+            }
+          }
+        }
+      }
     }
-  }
+  },
+    "requirements": [
+        [
+            "consumable_trigger",
+            "using_trigger"
+        ]
+    ]
 }

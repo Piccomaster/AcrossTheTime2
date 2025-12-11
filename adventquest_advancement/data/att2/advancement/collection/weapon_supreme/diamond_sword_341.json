@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_sword"
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "tooltip_style": "minecraft:rarity/ult/ult"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_supreme.title.diamond_sword_341"
@@ -23,8 +26,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "341"
+              "minecraft:custom_name": {
+                "translate": "weapon341.name"
               }
             }
           }

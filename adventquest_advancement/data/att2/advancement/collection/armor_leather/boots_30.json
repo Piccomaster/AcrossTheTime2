@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:leather_boots"
+      "id": "minecraft:leather_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_leather.title.boots_30"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:leather_boots",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "30"
+              "minecraft:custom_name": {
+                "translate": "armor30.name"
               }
             }
           }

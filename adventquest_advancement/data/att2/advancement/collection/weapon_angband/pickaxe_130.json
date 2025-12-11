@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:golden_pickaxe"
+      "id": "minecraft:golden_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_angband.title.pickaxe_130"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:golden_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "130"
+              "minecraft:custom_name": {
+                "translate": "weapon130.name"
               }
             }
           }

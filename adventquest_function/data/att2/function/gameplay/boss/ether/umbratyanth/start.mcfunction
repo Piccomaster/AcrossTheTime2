@@ -11,17 +11,20 @@ execute as @e[type=minecraft:item,x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82] at @s
 execute as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run tag @s add NoAutoMusic
 function att2:gameplay/boss/ether/umbratyanth/destroy_minions
 execute positioned -5117 142 -6870 run function att2:summon/reg_1/umbratyanth
-execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1b}
+execute as 00000000-0000-012c-0000-00000000012c run data merge entity @s {NoAI:1b,Invulnerable:1b}
+execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1b,Invulnerable:1b}
 function att2:gameplay/boss/ether/umbratyanth/init_bossbar
 execute as @a[x=-5112,y=161,z=-6739,distance=..100,gamemode=adventure] run function att2:gameplay/checkpoint/telluron_present/elcheol3
 function att2:physicmod/reg1/ether/umbra_dark
 function att2:physicmod/reg1/ether/umbra_lightcenter_big
 execute positioned -5117 121 -6870 run function att2:summon/reg_1/umbratyanth_truelight
 execute positioned -5117 121 -6870 run function att2:summon/reg_1/umbratyanth_arenacenter
-gamerule doDaylightCycle false
+gamerule advance_time false
 time set 18000
 scoreboard players set Boss UMBRATYANTH 1
 #scoreboard players set Choose_attack UMBRATYANTH 0
+scoreboard players set 00000000-0000-012c-0000-00000000012c UMBRATYANTH 1
+tag 00000000-0000-012c-0000-00000000012c add Dely
 scoreboard players set Minions_counter UMBRATYANTH 0
 scoreboard players set Minions_totalkilled UMBRATYANTH 0
 scoreboard players set Attack UMBRATYANTH 0

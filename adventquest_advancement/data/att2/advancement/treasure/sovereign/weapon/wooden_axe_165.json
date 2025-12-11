@@ -25,7 +25,7 @@
             "items": "minecraft:wooden_axe",
             "predicates": {
               "minecraft:custom_data": {
-                "Weapon": "165"
+                "Weapon": 165
               }
             }
           }

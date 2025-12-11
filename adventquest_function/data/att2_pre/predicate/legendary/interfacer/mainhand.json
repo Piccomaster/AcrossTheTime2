@@ -4,7 +4,6 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "items": "minecraft:crossbow",
                 "predicates": {
                     "minecraft:custom_data": {
                         "EquipmentID": "interfacer"

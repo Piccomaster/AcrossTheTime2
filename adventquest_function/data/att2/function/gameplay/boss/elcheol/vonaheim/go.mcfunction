@@ -17,8 +17,8 @@ execute if score Vonaheim VONAHEIM matches 0.. as @a[x=-5632,y=200,z=-6528,dx=36
 execute if score Vonaheim VONAHEIM matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Vonaheim
-execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] store result bossbar minecraft:vonaheim value run data get entity 00000000-0000-006b-0000-00000000006b Health
-execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] store result bossbar minecraft:vonaheim max run data get entity 00000000-0000-006b-0000-00000000006b attributes[{id:"minecraft:max_health"}].base
+execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] store result bossbar minecraft:vonaheim value run scoreboard players get 00000000-0000-006b-0000-00000000006b ENEMYHEALTH
+execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] store result bossbar minecraft:vonaheim max run attribute 00000000-0000-006b-0000-00000000006b max_health get
 
 # Creating ice and melting ice under player (in boss area deep down)
 execute if score Vonaheim VONAHEIM matches 0.. at @a[x=-5585,y=78,z=-6481,dx=-60,dy=2,dz=-60,gamemode=adventure] if block ~ ~-1 ~ minecraft:barrier run function att2:physicmod/reg1/vonaheim/center_n/boss_player_ice

@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:golden_hoe"
+      "id": "minecraft:golden_hoe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_angband.title.hoe_325"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:golden_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "325"
+              "minecraft:custom_name": {
+                "translate": "weapon325.name"
               }
             }
           }

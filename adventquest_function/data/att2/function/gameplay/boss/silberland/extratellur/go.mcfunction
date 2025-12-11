@@ -20,17 +20,21 @@ execute if score Extratellur SECRET_DUNGEON matches 0.. as @a[scores={MUSIC_BOSS
 
 # Enable Bossbar storing health of Extratellur
 # 1
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur1 value run data get entity @e[tag=Extratellur,tag=EL1,limit=1] Health
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur1 max run data get entity @e[tag=Extratellur,tag=EL1,limit=1] attributes[{id:"minecraft:max_health"}].base
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur1 value run scoreboard players get @e[type=warden,tag=Extratellur,tag=EL1,limit=1] ENEMYHEALTH
+execute if score Extratellur SECRET_DUNGEON matches 0.. unless entity @e[type=warden,tag=Extratellur,tag=EL1,limit=1] run bossbar remove minecraft:extratellur1
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur1 max run attribute @e[tag=Extratellur,tag=EL1,limit=1] max_health get
 # 2
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur2 value run data get entity @e[tag=Extratellur,tag=EL2,limit=1] Health
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur2 max run data get entity @e[tag=Extratellur,tag=EL2,limit=1] attributes[{id:"minecraft:max_health"}].base
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur2 value run scoreboard players get @e[tag=Extratellur,tag=EL2,limit=1] ENEMYHEALTH
+execute if score Extratellur SECRET_DUNGEON matches 0.. unless entity @e[type=warden,tag=Extratellur,tag=EL2,limit=1] run bossbar remove minecraft:extratellur2
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur2 max run attribute @e[tag=Extratellur,tag=EL2,limit=1] max_health get
 # 3
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur3 value run data get entity @e[tag=Extratellur,tag=EL3,limit=1] Health
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur3 max run data get entity @e[tag=Extratellur,tag=EL3,limit=1] attributes[{id:"minecraft:max_health"}].base
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur3 value run scoreboard players get @e[tag=Extratellur,tag=EL3,limit=1] ENEMYHEALTH
+execute if score Extratellur SECRET_DUNGEON matches 0.. unless entity @e[type=warden,tag=Extratellur,tag=EL3,limit=1] run bossbar remove minecraft:extratellur3
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur3 max run attribute @e[tag=Extratellur,tag=EL3,limit=1] max_health get
 # 4
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur4 value run data get entity @e[tag=Extratellur,tag=EL4,limit=1] Health
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur4 max run data get entity @e[tag=Extratellur,tag=EL4,limit=1] attributes[{id:"minecraft:max_health"}].base
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur4 value run scoreboard players get @e[tag=Extratellur,tag=EL4,limit=1] ENEMYHEALTH
+execute if score Extratellur SECRET_DUNGEON matches 0.. unless entity @e[type=warden,tag=Extratellur,tag=EL4,limit=1] run bossbar remove minecraft:extratellur4
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] store result bossbar minecraft:extratellur4 max run attribute @e[tag=Extratellur,tag=EL4,limit=1] max_health get
 
 # Make challengers enters the arena
 execute as @a[x=-4565,y=50,z=-5983,dx=-12,dy=7,dz=0,gamemode=adventure] at @s unless entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/silberland/extratellur/display_title

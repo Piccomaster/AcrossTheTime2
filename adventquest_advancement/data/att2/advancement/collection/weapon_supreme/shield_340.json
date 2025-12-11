@@ -29,7 +29,8 @@
             "color": "purple",
             "pattern": "minecraft:triangles_top"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/ult/ult"
       }
     },
     "title": {
@@ -52,8 +53,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "340"
+              "minecraft:custom_name": {
+                "translate": "weapon340.name"
               }
             }
           }

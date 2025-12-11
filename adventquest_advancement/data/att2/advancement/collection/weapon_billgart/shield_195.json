@@ -25,7 +25,8 @@
             "color": "green",
             "pattern": "minecraft:cross"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/epi/epi"
       }
     },
     "title": {
@@ -50,8 +51,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "195"
+              "minecraft:custom_name": {
+                "translate": "weapon195.name"
               }
             }
           }

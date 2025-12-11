@@ -24,9 +24,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "4"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor4.name"
+
+                              }
                         }
                     }
                 ]
@@ -39,9 +40,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "8"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor8.name"
+
+                              }
                         }
                     }
                 ]
@@ -54,9 +56,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "12"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor12.name"
+
+                              }
                         }
                     }
                 ]
@@ -69,9 +72,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "16"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor16.name"
+
+                              }
                         }
                     }
                 ]
@@ -84,9 +88,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "21"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor21.name"
+
+                              }
                         }
                     }
                 ]
@@ -99,9 +104,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "28"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor28.name"
+
+                              }
                         }
                     }
                 ]
@@ -114,9 +120,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "29"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor29.name"
+
+                              }
                         }
                     }
                 ]
@@ -129,9 +136,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "36"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor36.name"
+
+                              }
                         }
                     }
                 ]
@@ -144,9 +152,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "37"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor37.name"
+
+                              }
                         }
                     }
                 ]
@@ -159,9 +168,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "44"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor44.name"
+
+                              }
                         }
                     }
                 ]
@@ -174,9 +184,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "45"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor45.name"
+
+                              }
                         }
                     }
                 ]
@@ -189,9 +200,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "50"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor50.name"
+
+                              }
                         }
                     }
                 ]
@@ -204,9 +216,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "54"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor54.name"
+
+                              }
                         }
                     }
                 ]
@@ -219,9 +232,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "58"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor58.name"
+
+                              }
                         }
                     }
                 ]
@@ -234,9 +248,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "62"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor62.name"
+
+                              }
                         }
                     }
                 ]
@@ -249,9 +264,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "66"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor66.name"
+
+                              }
                         }
                     }
                 ]
@@ -264,9 +280,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "72"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor72.name"
+
+                              }
                         }
                     }
                 ]
@@ -279,9 +296,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "73"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor73.name"
+
+                              }
                         }
                     }
                 ]
@@ -294,9 +312,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "78"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor78.name"
+
+                              }
                         }
                     }
                 ]
@@ -309,9 +328,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "79"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor79.name"
+
+                              }
                         }
                     }
                 ]
@@ -324,9 +344,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "86"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor86.name"
+
+                              }
                         }
                     }
                 ]
@@ -339,9 +360,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "87"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor87.name"
+
+                              }
                         }
                     }
                 ]
@@ -354,9 +376,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "93"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor93.name"
+
+                              }
                         }
                     }
                 ]
@@ -369,9 +392,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "97"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor97.name"
+
+                              }
                         }
                     }
                 ]
@@ -384,9 +408,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "103"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor103.name"
+
+                              }
                         }
                     }
                 ]
@@ -399,9 +424,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "104"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor104.name"
+
+                              }
                         }
                     }
                 ]
@@ -414,9 +440,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "111"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor111.name"
+
+                              }
                         }
                     }
                 ]
@@ -429,9 +456,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "112"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor112.name"
+
+                              }
                         }
                     }
                 ]
@@ -444,9 +472,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "119"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor119.name"
+
+                              }
                         }
                     }
                 ]
@@ -459,9 +488,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "120"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor120.name"
+
+                              }
                         }
                     }
                 ]
@@ -474,9 +504,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "125"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor125.name"
+
+                              }
                         }
                     }
                 ]
@@ -489,9 +520,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "129"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor129.name"
+
+                              }
                         }
                     }
                 ]
@@ -504,9 +536,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "135"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor135.name"
+
+                              }
                         }
                     }
                 ]
@@ -519,9 +552,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "136"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor136.name"
+
+                              }
                         }
                     }
                 ]
@@ -534,9 +568,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "143"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor143.name"
+
+                              }
                         }
                     }
                 ]
@@ -549,9 +584,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "144"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor144.name"
+
+                              }
                         }
                     }
                 ]
@@ -564,9 +600,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "151"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor151.name"
+
+                              }
                         }
                     }
                 ]
@@ -579,9 +616,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "152"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor152.name"
+
+                              }
                         }
                     }
                 ]
@@ -594,9 +632,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "157"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor157.name"
+
+                              }
                         }
                     }
                 ]
@@ -609,9 +648,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "161"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor161.name"
+
+                              }
                         }
                     }
                 ]
@@ -624,9 +664,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "165"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor165.name"
+
+                              }
                         }
                     }
                 ]
@@ -639,9 +680,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "172"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor172.name"
+
+                              }
                         }
                     }
                 ]
@@ -654,9 +696,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "173"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor173.name"
+
+                              }
                         }
                     }
                 ]
@@ -669,9 +712,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "180"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor180.name"
+
+                              }
                         }
                     }
                 ]
@@ -684,9 +728,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "181"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor181.name"
+
+                              }
                         }
                     }
                 ]
@@ -699,9 +744,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "188"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor188.name"
+
+                              }
                         }
                     }
                 ]
@@ -714,9 +760,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "189"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor189.name"
+
+                              }
                         }
                     }
                 ]
@@ -729,9 +776,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "194"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor194.name"
+
+                              }
                         }
                     }
                 ]
@@ -744,9 +792,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "198"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor198.name"
+
+                              }
                         }
                     }
                 ]
@@ -759,9 +808,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "202"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor202.name"
+
+                              }
                         }
                     }
                 ]
@@ -774,9 +824,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "207"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor207.name"
+
+                              }
                         }
                     }
                 ]
@@ -789,9 +840,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "212"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor212.name"
+
+                              }
                         }
                     }
                 ]
@@ -804,9 +856,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "227"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor227.name"
+
+                              }
                         }
                     }
                 ]
@@ -819,9 +872,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "228"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor228.name"
+
+                              }
                         }
                     }
                 ]
@@ -834,9 +888,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "233"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor233.name"
+
+                              }
                         }
                     }
                 ]
@@ -849,9 +904,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "237"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor237.name"
+
+                              }
                         }
                     }
                 ]
@@ -864,9 +920,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "242"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor242.name"
+
+                              }
                         }
                     }
                 ]
@@ -879,9 +936,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "246"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor246.name"
+
+                              }
                         }
                     }
                 ]
@@ -894,9 +952,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "250"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor250.name"
+
+                              }
                         }
                     }
                 ]
@@ -909,9 +968,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "254"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor254.name"
+
+                              }
                         }
                     }
                 ]
@@ -924,9 +984,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "258"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor258.name"
+
+                              }
                         }
                     }
                 ]
@@ -939,9 +1000,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "262"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor262.name"
+
+                              }
                         }
                     }
                 ]
@@ -954,9 +1016,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "269"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor269.name"
+
+                              }
                         }
                     }
                 ]
@@ -969,9 +1032,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "270"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor270.name"
+
+                              }
                         }
                     }
                 ]
@@ -984,9 +1048,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "277"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor277.name"
+
+                              }
                         }
                     }
                 ]
@@ -999,9 +1064,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "278"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor278.name"
+
+                              }
                         }
                     }
                 ]
@@ -1014,9 +1080,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "285"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor285.name"
+
+                              }
                         }
                     }
                 ]
@@ -1029,9 +1096,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "286"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor286.name"
+
+                              }
                         }
                     }
                 ]
@@ -1044,9 +1112,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "291"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor291.name"
+
+                              }
                         }
                     }
                 ]
@@ -1059,9 +1128,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "295"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor295.name"
+
+                              }
                         }
                     }
                 ]
@@ -1074,9 +1144,10 @@
                     {
                         "items": "minecraft:chainmail_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "299"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor299.name"
+
+                              }
                         }
                     }
                 ]
@@ -1089,9 +1160,10 @@
                     {
                         "items": "minecraft:iron_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "304"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor304.name"
+
+                              }
                         }
                     }
                 ]
@@ -1104,9 +1176,10 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "313"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor313.name"
+
+                              }
                         }
                     }
                 ]
@@ -1119,9 +1192,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "318"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor318.name"
+
+                              }
                         }
                     }
                 ]
@@ -1134,9 +1208,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "322"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor322.name"
+
+                              }
                         }
                     }
                 ]
@@ -1149,9 +1224,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "325"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor325.name"
+
+                              }
                         }
                     }
                 ]
@@ -1164,9 +1240,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "330"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor330.name"
+
+                              }
                         }
                     }
                 ]
@@ -1179,9 +1256,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "335"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor335.name"
+
+                              }
                         }
                     }
                 ]
@@ -1194,9 +1272,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "339"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor339.name"
+
+                              }
                         }
                     }
                 ]
@@ -1209,9 +1288,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "343"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor343.name"
+
+                              }
                         }
                     }
                 ]
@@ -1224,9 +1304,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "347"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor347.name"
+
+                              }
                         }
                     }
                 ]
@@ -1239,9 +1320,10 @@
                     {
                         "items": "minecraft:diamond_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "351"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor351.name"
+
+                              }
                         }
                     }
                 ]

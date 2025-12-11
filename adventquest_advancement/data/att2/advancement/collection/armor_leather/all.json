@@ -24,9 +24,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "1"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor1.name"
+
+                              }
                         }
                     }
                 ]
@@ -39,9 +40,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "2"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor2.name"
+
+                              }
                         }
                     }
                 ]
@@ -54,9 +56,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "3"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor3.name"
+
+                              }
                         }
                     }
                 ]
@@ -69,9 +72,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "4"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor4.name"
+
+                              }
                         }
                     }
                 ]
@@ -84,9 +88,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "5"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor5.name"
+
+                              }
                         }
                     }
                 ]
@@ -99,9 +104,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "6"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor6.name"
+
+                              }
                         }
                     }
                 ]
@@ -114,9 +120,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "7"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor7.name"
+
+                              }
                         }
                     }
                 ]
@@ -129,9 +136,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "8"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor8.name"
+
+                              }
                         }
                     }
                 ]
@@ -144,9 +152,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "9"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor9.name"
+
+                              }
                         }
                     }
                 ]
@@ -159,9 +168,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "10"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor10.name"
+
+                              }
                         }
                     }
                 ]
@@ -174,9 +184,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "11"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor11.name"
+
+                              }
                         }
                     }
                 ]
@@ -189,9 +200,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "12"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor12.name"
+
+                              }
                         }
                     }
                 ]
@@ -204,9 +216,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "13"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor13.name"
+
+                              }
                         }
                     }
                 ]
@@ -219,9 +232,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "14"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor14.name"
+
+                              }
                         }
                     }
                 ]
@@ -234,9 +248,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "15"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor15.name"
+
+                              }
                         }
                     }
                 ]
@@ -249,9 +264,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "16"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor16.name"
+
+                              }
                         }
                     }
                 ]
@@ -264,9 +280,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "17"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor17.name"
+
+                              }
                         }
                     }
                 ]
@@ -279,9 +296,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "19"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor19.name"
+
+                              }
                         }
                     }
                 ]
@@ -294,9 +312,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "20"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor20.name"
+
+                              }
                         }
                     }
                 ]
@@ -309,9 +328,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "21"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor21.name"
+
+                              }
                         }
                     }
                 ]
@@ -324,9 +344,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "22"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor22.name"
+
+                              }
                         }
                     }
                 ]
@@ -339,9 +360,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "24"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor24.name"
+
+                              }
                         }
                     }
                 ]
@@ -354,9 +376,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "25"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor25.name"
+
+                              }
                         }
                     }
                 ]
@@ -369,9 +392,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "26"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor26.name"
+
+                              }
                         }
                     }
                 ]
@@ -384,9 +408,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "27"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor27.name"
+
+                              }
                         }
                     }
                 ]
@@ -399,9 +424,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "28"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor28.name"
+
+                              }
                         }
                     }
                 ]
@@ -414,9 +440,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "29"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor29.name"
+
+                              }
                         }
                     }
                 ]
@@ -429,9 +456,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "30"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor30.name"
+
+                              }
                         }
                     }
                 ]
@@ -444,9 +472,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "31"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor31.name"
+
+                              }
                         }
                     }
                 ]
@@ -459,9 +488,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "32"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor32.name"
+
+                              }
                         }
                     }
                 ]
@@ -474,9 +504,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "33"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor33.name"
+
+                              }
                         }
                     }
                 ]
@@ -489,9 +520,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "34"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor34.name"
+
+                              }
                         }
                     }
                 ]
@@ -504,9 +536,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "35"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor35.name"
+
+                              }
                         }
                     }
                 ]
@@ -519,9 +552,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "36"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor36.name"
+
+                              }
                         }
                     }
                 ]
@@ -534,9 +568,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "37"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor37.name"
+
+                              }
                         }
                     }
                 ]
@@ -549,9 +584,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "38"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor38.name"
+
+                              }
                         }
                     }
                 ]
@@ -564,9 +600,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "39"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor39.name"
+
+                              }
                         }
                     }
                 ]
@@ -579,9 +616,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "40"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor40.name"
+
+                              }
                         }
                     }
                 ]
@@ -594,9 +632,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "41"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor41.name"
+
+                              }
                         }
                     }
                 ]
@@ -609,9 +648,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "42"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor42.name"
+
+                              }
                         }
                     }
                 ]
@@ -624,9 +664,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "43"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor43.name"
+
+                              }
                         }
                     }
                 ]
@@ -639,9 +680,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "44"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor44.name"
+
+                              }
                         }
                     }
                 ]
@@ -654,9 +696,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "45"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor45.name"
+
+                              }
                         }
                     }
                 ]
@@ -669,9 +712,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "46"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor46.name"
+
+                              }
                         }
                     }
                 ]
@@ -684,9 +728,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "47"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor47.name"
+
+                              }
                         }
                     }
                 ]
@@ -699,9 +744,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "48"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor48.name"
+
+                              }
                         }
                     }
                 ]
@@ -714,9 +760,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "49"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor49.name"
+
+                              }
                         }
                     }
                 ]
@@ -729,9 +776,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "50"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor50.name"
+
+                              }
                         }
                     }
                 ]
@@ -744,9 +792,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "51"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor51.name"
+
+                              }
                         }
                     }
                 ]
@@ -759,9 +808,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "52"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor52.name"
+
+                              }
                         }
                     }
                 ]
@@ -774,9 +824,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "53"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor53.name"
+
+                              }
                         }
                     }
                 ]
@@ -789,9 +840,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "54"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor54.name"
+
+                              }
                         }
                     }
                 ]
@@ -804,9 +856,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "55"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor55.name"
+
+                              }
                         }
                     }
                 ]
@@ -819,9 +872,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "56"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor56.name"
+
+                              }
                         }
                     }
                 ]
@@ -834,9 +888,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "57"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor57.name"
+
+                              }
                         }
                     }
                 ]
@@ -849,9 +904,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "58"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor58.name"
+
+                              }
                         }
                     }
                 ]
@@ -864,9 +920,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "59"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor59.name"
+
+                              }
                         }
                     }
                 ]
@@ -879,9 +936,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "60"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor60.name"
+
+                              }
                         }
                     }
                 ]
@@ -894,9 +952,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "61"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor61.name"
+
+                              }
                         }
                     }
                 ]
@@ -909,9 +968,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "62"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor62.name"
+
+                              }
                         }
                     }
                 ]
@@ -924,9 +984,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "63"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor63.name"
+
+                              }
                         }
                     }
                 ]
@@ -939,9 +1000,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "64"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor64.name"
+
+                              }
                         }
                     }
                 ]
@@ -954,9 +1016,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "65"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor65.name"
+
+                              }
                         }
                     }
                 ]
@@ -969,9 +1032,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "66"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor66.name"
+
+                              }
                         }
                     }
                 ]
@@ -984,9 +1048,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "67"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor67.name"
+
+                              }
                         }
                     }
                 ]

@@ -41,7 +41,7 @@ scoreboard players set superelite RANDOM 1
 
 #Also adding teams
 team add hostile "hostile"
-team modify hostile color black
+team modify hostile color dark_gray
 team modify hostile collisionRule pushOwnTeam
 team modify hostile friendlyFire false
 

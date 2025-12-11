@@ -22,8 +22,8 @@ execute if score Owlkar OWSASTR matches 0.. as @a[x=-5073,y=71,z=-4404,dx=46,dy=
 execute if score Owlkar OWSASTR matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Owlkär
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar value run data get entity 00000000-0000-002b-0000-00000000002b Health
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar max run data get entity 00000000-0000-002b-0000-00000000002b attributes[{id:"minecraft:max_health"}].base
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar value run scoreboard players get 00000000-0000-002b-0000-00000000002b ENEMYHEALTH
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar max run attribute 00000000-0000-002b-0000-00000000002b max_health get
 
 # Mirror's particles
 execute if score Owlkar_button_ne OWSASTR matches 0 run function att2:gameplay/boss/owsastr/owlkar/mirror_ne_particle_ext

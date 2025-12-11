@@ -33,7 +33,8 @@
             "color": "black",
             "pattern": "minecraft:flower"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/epi/epi"
       }
     },
     "title": {
@@ -58,8 +59,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "62"
+              "minecraft:custom_name": {
+                "translate": "weapon62.name"
               }
             }
           }

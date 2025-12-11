@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:golden_helmet"
+      "id": "minecraft:golden_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_angband.title.helmet_155"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:golden_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "155"
+              "minecraft:custom_name": {
+                "translate": "armor155.name"
               }
             }
           }

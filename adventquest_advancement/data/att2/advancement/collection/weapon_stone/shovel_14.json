@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:wooden_shovel"
+      "id": "minecraft:wooden_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_stone.title.shovel_14"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:wooden_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "14"
+              "minecraft:custom_name": {
+                "translate": "weapon14.name"
               }
             }
           }

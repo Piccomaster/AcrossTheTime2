@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stone_pickaxe"
+      "id": "minecraft:stone_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_billgart.title.pickaxe_178"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "178"
+              "minecraft:custom_name": {
+                "translate": "weapon178.name"
               }
             }
           }

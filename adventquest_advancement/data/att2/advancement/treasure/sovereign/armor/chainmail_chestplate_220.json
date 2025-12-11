@@ -25,7 +25,7 @@
             "items": "minecraft:chainmail_chestplate",
             "predicates": {
               "minecraft:custom_data": {
-                "Armor": "220"
+                "Armor": 220
               }
             }
           }

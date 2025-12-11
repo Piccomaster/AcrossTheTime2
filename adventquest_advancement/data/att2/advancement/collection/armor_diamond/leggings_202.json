@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_leggings"
+      "id": "minecraft:diamond_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_diamond.title.leggings_202"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:diamond_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "202"
+              "minecraft:custom_name": {
+                "translate": "armor202.name"
               }
             }
           }

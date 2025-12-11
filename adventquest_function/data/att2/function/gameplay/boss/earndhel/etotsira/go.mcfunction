@@ -12,8 +12,8 @@
 execute if score Mainquest SIDEQUEST matches 52 positioned 30040 13 29946 as @a[distance=..30] run function att2:gameplay/boss/earndhel/etotsira/display_title
 
 # Enable Bossbar storing health of Etotsira
-execute if score Etotsira EARNDHEL matches 0.. if entity @a[x=30025,y=14,z=29931,dx=30,dy=5,dz=30,gamemode=adventure] store result bossbar minecraft:etotsira value run data get entity 00000000-0000-008c-0000-00000000008a Health
-execute if score Etotsira EARNDHEL matches 0.. if entity @a[x=30025,y=14,z=29931,dx=30,dy=5,dz=30,gamemode=adventure] store result bossbar minecraft:etotsira max run data get entity 00000000-0000-008c-0000-00000000008a attributes[{id:"minecraft:max_health"}].base
+execute if score Etotsira EARNDHEL matches 0.. if entity @a[x=30025,y=14,z=29931,dx=30,dy=5,dz=30,gamemode=adventure] store result bossbar minecraft:etotsira value run scoreboard players get 00000000-0000-008c-0000-00000000008a ENEMYHEALTH
+execute if score Etotsira EARNDHEL matches 0.. if entity @a[x=30025,y=14,z=29931,dx=30,dy=5,dz=30,gamemode=adventure] store result bossbar minecraft:etotsira max run attribute 00000000-0000-008c-0000-00000000008a max_health get
 
 # Start the boss fight (summoning Etotsira)
 execute if score Etotsira EARNDHEL matches -1 if entity @a[x=30025,y=14,z=29931,dx=30,dy=5,dz=30,gamemode=adventure] run function att2:gameplay/boss/earndhel/etotsira/start

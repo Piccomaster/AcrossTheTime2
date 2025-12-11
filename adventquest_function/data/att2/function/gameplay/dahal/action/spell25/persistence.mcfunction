@@ -9,9 +9,9 @@ execute if score @s SUMMON_TIMER matches 1.. run return 0
 ##get player score
 function att2:gameplay/score/owner
 ##select owner wolf
-data modify entity @s AngryAt set from entity @n[distance=..8,scores={GAMELEVEL=0..},team=hostile,type=!bat] UUID
+data modify entity @s angry_at set from entity @n[distance=..8,scores={GAMELEVEL=0..},team=hostile,type=!bat] UUID
 ##reset angry
-#execute as @e[type=wolf,tag=Spell25,predicate=att2_pre:score/owner,distance=20..,scores={SUMMON_TIMER=..0}] run data modify entity @s AngryAt set value [I;1,111,1,111]
+#execute as @e[type=wolf,tag=Spell25,predicate=att2_pre:score/owner,distance=20..,scores={SUMMON_TIMER=..0}] run data modify entity @s angry_at set value [I;1,111,1,111]
 ##tp wolf
 tp @p[distance=20..,gamemode=adventure,predicate=att2_pre:score/player]
 ##damage

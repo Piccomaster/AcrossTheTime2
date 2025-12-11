@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:leather_helmet"
+      "id": "minecraft:leather_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_leather.title.helmet_41"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:leather_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "41"
+              "minecraft:custom_name": {
+                "translate": "armor41.name"
               }
             }
           }

@@ -6,9 +6,10 @@
         "minecraft:potion_contents": {
           "custom_color": 983040
         },
-        "minecraft:custom_data": {
-          "Potion": "37"
-        }
+        "minecraft:custom_name": {
+              "translate": "potion37.name"
+        },
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {
@@ -33,8 +34,8 @@
           {
             "items": "minecraft:splash_potion",
             "predicates": {
-              "minecraft:custom_data": {
-                "Potion": "37"
+              "minecraft:custom_name": {
+                "translate": "potion37.name"
               }
             }
           }

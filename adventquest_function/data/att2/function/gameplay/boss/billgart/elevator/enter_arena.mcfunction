@@ -7,3 +7,4 @@ tp @s -1239 175 -615
 stopsound @s
 tag @s add NoAutoMusic
 scoreboard players set @s MUSIC_BOSS 0
+bossbar set minecraft:elevator_level players @s

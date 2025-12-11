@@ -28,9 +28,9 @@ scoreboard players operation @s BONUS_XP_SPELL += rar SPELL31
 scoreboard players operation @s SPELL31_LVL += @s BONUS_XP_SPELL
 
 ##get player Pos
-data modify storage att2:spell31 Pos set from entity @s Pos
+data modify storage att2:spell31 Pos set from entity @n[distance=..10,tag=GluttonPet,type=minecraft:frog,predicate=att2_pre:score/owner] Pos
 ##kill item/summon particle
-execute as @e[type=minecraft:item,predicate=att2_pre:test_item/rar,predicate=!att2_pre:test_item/error,distance=..5,limit=1,sort=nearest] at @s run function att2:gameplay/dahal/action/spell31/particle/rar_item with storage att2:spell31
+execute as @n[type=minecraft:item,predicate=att2_pre:test_item/rar,predicate=!att2_pre:test_item/error,distance=..5] at @s run function att2:gameplay/dahal/action/spell31/particle/rar_item with storage att2:spell31
 
 function att2:gameplay/dahal/action/spell31/spell_xp
 

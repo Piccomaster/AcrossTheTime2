@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:wooden_pickaxe"
+      "id": "minecraft:wooden_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_stone.title.pickaxe_19"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:wooden_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "19"
+              "minecraft:custom_name": {
+                "translate": "weapon19.name"
               }
             }
           }

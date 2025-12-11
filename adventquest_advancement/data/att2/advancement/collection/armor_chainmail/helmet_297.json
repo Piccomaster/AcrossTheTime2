@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chainmail_helmet"
+      "id": "minecraft:chainmail_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_chainmail.title.helmet_297"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:chainmail_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "297"
+              "minecraft:custom_name": {
+                "translate": "armor297.name"
               }
             }
           }

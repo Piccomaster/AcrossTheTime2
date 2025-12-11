@@ -24,9 +24,10 @@
                     {
                         "items": "minecraft:wooden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "7"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon7.name"
+
+                              }
                         }
                     }
                 ]
@@ -39,9 +40,10 @@
                     {
                         "items": "minecraft:wooden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "8"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon8.name"
+
+                              }
                         }
                     }
                 ]
@@ -54,9 +56,10 @@
                     {
                         "items": "minecraft:wooden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "15"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon15.name"
+
+                              }
                         }
                     }
                 ]
@@ -69,9 +72,10 @@
                     {
                         "items": "minecraft:wooden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "16"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon16.name"
+
+                              }
                         }
                     }
                 ]
@@ -84,9 +88,10 @@
                     {
                         "items": "minecraft:wooden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "23"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon23.name"
+
+                              }
                         }
                     }
                 ]
@@ -99,9 +104,10 @@
                     {
                         "items": "minecraft:wooden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "24"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon24.name"
+
+                              }
                         }
                     }
                 ]
@@ -114,9 +120,10 @@
                     {
                         "items": "minecraft:wooden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "28"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon28.name"
+
+                              }
                         }
                     }
                 ]
@@ -129,9 +136,10 @@
                     {
                         "items": "minecraft:wooden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "32"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon32.name"
+
+                              }
                         }
                     }
                 ]
@@ -144,9 +152,10 @@
                     {
                         "items": "minecraft:iron_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "70"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon70.name"
+
+                              }
                         }
                     }
                 ]
@@ -159,9 +168,10 @@
                     {
                         "items": "minecraft:iron_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "71"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon71.name"
+
+                              }
                         }
                     }
                 ]
@@ -174,9 +184,10 @@
                     {
                         "items": "minecraft:iron_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "78"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon78.name"
+
+                              }
                         }
                     }
                 ]
@@ -189,9 +200,10 @@
                     {
                         "items": "minecraft:iron_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "79"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon79.name"
+
+                              }
                         }
                     }
                 ]
@@ -204,9 +216,10 @@
                     {
                         "items": "minecraft:iron_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "86"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon86.name"
+
+                              }
                         }
                     }
                 ]
@@ -219,9 +232,10 @@
                     {
                         "items": "minecraft:iron_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "87"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon87.name"
+
+                              }
                         }
                     }
                 ]
@@ -234,9 +248,10 @@
                     {
                         "items": "minecraft:iron_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "91"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon91.name"
+
+                              }
                         }
                     }
                 ]
@@ -249,9 +264,10 @@
                     {
                         "items": "minecraft:iron_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "95"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon95.name"
+
+                              }
                         }
                     }
                 ]
@@ -264,9 +280,10 @@
                     {
                         "items": "minecraft:diamond_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "102"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon102.name"
+
+                              }
                         }
                     }
                 ]
@@ -279,9 +296,10 @@
                     {
                         "items": "minecraft:diamond_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "103"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon103.name"
+
+                              }
                         }
                     }
                 ]
@@ -294,9 +312,10 @@
                     {
                         "items": "minecraft:diamond_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "110"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon110.name"
+
+                              }
                         }
                     }
                 ]
@@ -309,9 +328,10 @@
                     {
                         "items": "minecraft:diamond_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "111"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon111.name"
+
+                              }
                         }
                     }
                 ]
@@ -324,9 +344,10 @@
                     {
                         "items": "minecraft:diamond_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "118"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon118.name"
+
+                              }
                         }
                     }
                 ]
@@ -339,9 +360,10 @@
                     {
                         "items": "minecraft:diamond_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "119"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon119.name"
+
+                              }
                         }
                     }
                 ]
@@ -354,9 +376,10 @@
                     {
                         "items": "minecraft:diamond_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "123"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon123.name"
+
+                              }
                         }
                     }
                 ]
@@ -369,9 +392,10 @@
                     {
                         "items": "minecraft:diamond_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "127"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon127.name"
+
+                              }
                         }
                     }
                 ]
@@ -384,9 +408,10 @@
                     {
                         "items": "minecraft:golden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "134"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon134.name"
+
+                              }
                         }
                     }
                 ]
@@ -399,9 +424,10 @@
                     {
                         "items": "minecraft:golden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "135"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon135.name"
+
+                              }
                         }
                     }
                 ]
@@ -414,9 +440,10 @@
                     {
                         "items": "minecraft:golden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "142"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon142.name"
+
+                              }
                         }
                     }
                 ]
@@ -429,9 +456,10 @@
                     {
                         "items": "minecraft:golden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "143"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon143.name"
+
+                              }
                         }
                     }
                 ]
@@ -444,9 +472,10 @@
                     {
                         "items": "minecraft:golden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "150"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon150.name"
+
+                              }
                         }
                     }
                 ]
@@ -459,9 +488,10 @@
                     {
                         "items": "minecraft:golden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "151"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon151.name"
+
+                              }
                         }
                     }
                 ]
@@ -474,9 +504,10 @@
                     {
                         "items": "minecraft:golden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "155"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon155.name"
+
+                              }
                         }
                     }
                 ]
@@ -489,9 +520,10 @@
                     {
                         "items": "minecraft:golden_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "159"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon159.name"
+
+                              }
                         }
                     }
                 ]
@@ -504,9 +536,10 @@
                     {
                         "items": "minecraft:stone_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "177"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon177.name"
+
+                              }
                         }
                     }
                 ]
@@ -519,9 +552,10 @@
                     {
                         "items": "minecraft:stone_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "180"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon180.name"
+
+                              }
                         }
                     }
                 ]
@@ -534,9 +568,10 @@
                     {
                         "items": "minecraft:stone_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "181"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon181.name"
+
+                              }
                         }
                     }
                 ]
@@ -549,9 +584,10 @@
                     {
                         "items": "minecraft:stone_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "184"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon184.name"
+
+                              }
                         }
                     }
                 ]
@@ -564,9 +600,10 @@
                     {
                         "items": "minecraft:stone_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "185"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon185.name"
+
+                              }
                         }
                     }
                 ]
@@ -579,9 +616,10 @@
                     {
                         "items": "minecraft:stone_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "188"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon188.name"
+
+                              }
                         }
                     }
                 ]
@@ -594,9 +632,10 @@
                     {
                         "items": "minecraft:stone_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "190"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon190.name"
+
+                              }
                         }
                     }
                 ]
@@ -609,9 +648,10 @@
                     {
                         "items": "minecraft:stone_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "191"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon191.name"
+
+                              }
                         }
                     }
                 ]
@@ -624,9 +664,10 @@
                     {
                         "items": "minecraft:netherite_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "284"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon284.name"
+
+                              }
                         }
                     }
                 ]
@@ -639,9 +680,10 @@
                     {
                         "items": "minecraft:netherite_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "285"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon285.name"
+
+                              }
                         }
                     }
                 ]
@@ -654,9 +696,10 @@
                     {
                         "items": "minecraft:netherite_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "294"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon294.name"
+
+                              }
                         }
                     }
                 ]
@@ -669,9 +712,10 @@
                     {
                         "items": "minecraft:netherite_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "295"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon295.name"
+
+                              }
                         }
                     }
                 ]
@@ -684,9 +728,10 @@
                     {
                         "items": "minecraft:netherite_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "304"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon304.name"
+
+                              }
                         }
                     }
                 ]
@@ -699,9 +744,10 @@
                     {
                         "items": "minecraft:netherite_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "305"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon305.name"
+
+                              }
                         }
                     }
                 ]
@@ -714,9 +760,10 @@
                     {
                         "items": "minecraft:netherite_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "311"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon311.name"
+
+                              }
                         }
                     }
                 ]
@@ -729,9 +776,10 @@
                     {
                         "items": "minecraft:netherite_sword",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "316"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon316.name"
+
+                              }
                         }
                     }
                 ]

@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:golden_shovel"
+      "id": "minecraft:golden_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_angband.title.shovel_148"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:golden_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "148"
+              "minecraft:custom_name": {
+                "translate": "weapon148.name"
               }
             }
           }

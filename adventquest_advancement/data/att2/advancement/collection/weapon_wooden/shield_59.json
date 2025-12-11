@@ -25,7 +25,8 @@
             "color": "gray",
             "pattern": "minecraft:circle"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {
@@ -50,8 +51,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "59"
+              "minecraft:custom_name": {
+                "translate": "weapon59.name"
               }
             }
           }

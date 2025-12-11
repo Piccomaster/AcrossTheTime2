@@ -189,6 +189,11 @@
 #### Runewords Quick Synthesis
 - Players can click on the name of the Runewords in the recipe to quickly synthesize Runewords (rune materials must be in the inventory).
 
+#### New Recipe: Item Recasting
+- **Recipe:** 4 low-quality items + 1 high-quality item = 1 new high-quality item.
+- **Example:** 4 Rare items + 1 Epic item = 1 new Epic item.
+- **Mechanics:** The resulting item is randomly generated within the same tier (rarity/quality) as the input high-quality item.(Potions, Armor, Weapons only.)
+
 ---
 
 ### **Exploration & World**
@@ -196,6 +201,7 @@
 #### Fishing System
 - Added **100+ fishing spots** across *Sylberland*.
 - Use **bait** to improve loot quality.
+- Fishing tools can be purchased at shops that sell fish meat.
 
 #### Map/Navigation System
 - Players can unlock map regions of Sylberland through main and side quests.
@@ -205,7 +211,9 @@
 #### New Mounts
 - Purchase town-specific mounts: **pigs, camels, horses, mules**.
 
-#### Chests Names Display
+#### Chest Display
+- Chests at exploration point storages can now be right-clicked to instantly dump all loot inside the chest.
+- Most chests containing loot will now appear in an "open" state after being opened for the first time, and will display a glowing outline corresponding to their quality when approached.
 - Chests containing quest items or books will now display unique names.
 
 #### Monster HP Display
@@ -469,6 +477,11 @@
 
 #### NPC Dialogue
 - **NPC Portrait Display**: NPC avatar icons are now shown during dialogues
+
+#### Boss Health Bar Display Mechanics
+
+- **Health Bar Visibility**: The health bar of most bosses is only displayed to players who have entered the corresponding boss room.
+- **Multiple Boss Management**: When multiple bosses are present, the health bar at the top of the screen is promptly removed once that specific boss is defeated.
 
 ### **Issues**
 - Various minor bugs have been fixed.

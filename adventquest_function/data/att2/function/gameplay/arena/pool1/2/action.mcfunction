@@ -12,6 +12,4 @@ execute if score Pool1_A2_Timer ARENA matches 1001.. run scoreboard players set 
 scoreboard players add Pool1_A2_Timer ARENA 1
 
 # Absorption addition for bosses
-execute as @e[x=5109,y=70,z=-5035,dx=70,dy=37,dz=70,tag=Scavenger,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=5109,y=70,z=-5035,dx=70,dy=37,dz=70,tag=Rackham,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=5109,y=70,z=-5035,dx=70,dy=37,dz=70,tag=Abmup,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
+execute as @e[x=5109,y=70,z=-5035,dx=70,dy=37,dz=70,tag=ArenaBoss,team=hostile,scores={ENEMYABHEALTH=..0}] run scoreboard players set @s ENEMYABHEALTH 5

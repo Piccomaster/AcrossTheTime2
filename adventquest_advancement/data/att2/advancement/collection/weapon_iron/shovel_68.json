@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_shovel"
+      "id": "minecraft:iron_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_iron.title.shovel_68"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:iron_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "68"
+              "minecraft:custom_name": {
+                "translate": "weapon68.name"
               }
             }
           }

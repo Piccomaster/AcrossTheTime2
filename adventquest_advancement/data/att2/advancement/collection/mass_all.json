@@ -24,9 +24,10 @@
                     {
                         "items": "minecraft:wooden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "3"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon3.name"
+
+                              }
                         }
                     }
                 ]
@@ -39,9 +40,10 @@
                     {
                         "items": "minecraft:wooden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "4"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon4.name"
+
+                              }
                         }
                     }
                 ]
@@ -54,9 +56,10 @@
                     {
                         "items": "minecraft:wooden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "11"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon11.name"
+
+                              }
                         }
                     }
                 ]
@@ -69,9 +72,10 @@
                     {
                         "items": "minecraft:wooden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "12"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon12.name"
+
+                              }
                         }
                     }
                 ]
@@ -84,9 +88,10 @@
                     {
                         "items": "minecraft:wooden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "19"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon19.name"
+
+                              }
                         }
                     }
                 ]
@@ -99,9 +104,10 @@
                     {
                         "items": "minecraft:wooden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "20"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon20.name"
+
+                              }
                         }
                     }
                 ]
@@ -114,9 +120,10 @@
                     {
                         "items": "minecraft:wooden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "26"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon26.name"
+
+                              }
                         }
                     }
                 ]
@@ -129,9 +136,10 @@
                     {
                         "items": "minecraft:wooden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "30"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon30.name"
+
+                              }
                         }
                     }
                 ]
@@ -144,9 +152,10 @@
                     {
                         "items": "minecraft:iron_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "66"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon66.name"
+
+                              }
                         }
                     }
                 ]
@@ -159,9 +168,10 @@
                     {
                         "items": "minecraft:iron_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "67"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon67.name"
+
+                              }
                         }
                     }
                 ]
@@ -174,9 +184,10 @@
                     {
                         "items": "minecraft:iron_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "74"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon74.name"
+
+                              }
                         }
                     }
                 ]
@@ -189,9 +200,10 @@
                     {
                         "items": "minecraft:iron_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "75"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon75.name"
+
+                              }
                         }
                     }
                 ]
@@ -204,9 +216,10 @@
                     {
                         "items": "minecraft:iron_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "82"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon82.name"
+
+                              }
                         }
                     }
                 ]
@@ -219,9 +232,10 @@
                     {
                         "items": "minecraft:iron_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "83"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon83.name"
+
+                              }
                         }
                     }
                 ]
@@ -234,9 +248,10 @@
                     {
                         "items": "minecraft:iron_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "89"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon89.name"
+
+                              }
                         }
                     }
                 ]
@@ -249,9 +264,10 @@
                     {
                         "items": "minecraft:iron_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "93"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon93.name"
+
+                              }
                         }
                     }
                 ]
@@ -264,9 +280,10 @@
                     {
                         "items": "minecraft:diamond_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "98"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon98.name"
+
+                              }
                         }
                     }
                 ]
@@ -279,9 +296,10 @@
                     {
                         "items": "minecraft:diamond_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "99"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon99.name"
+
+                              }
                         }
                     }
                 ]
@@ -294,9 +312,10 @@
                     {
                         "items": "minecraft:diamond_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "106"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon106.name"
+
+                              }
                         }
                     }
                 ]
@@ -309,9 +328,10 @@
                     {
                         "items": "minecraft:diamond_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "107"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon107.name"
+
+                              }
                         }
                     }
                 ]
@@ -324,9 +344,10 @@
                     {
                         "items": "minecraft:diamond_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "114"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon114.name"
+
+                              }
                         }
                     }
                 ]
@@ -339,9 +360,10 @@
                     {
                         "items": "minecraft:diamond_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "115"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon115.name"
+
+                              }
                         }
                     }
                 ]
@@ -354,9 +376,10 @@
                     {
                         "items": "minecraft:diamond_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "121"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon121.name"
+
+                              }
                         }
                     }
                 ]
@@ -369,9 +392,10 @@
                     {
                         "items": "minecraft:diamond_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "125"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon125.name"
+
+                              }
                         }
                     }
                 ]
@@ -384,9 +408,10 @@
                     {
                         "items": "minecraft:golden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "130"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon130.name"
+
+                              }
                         }
                     }
                 ]
@@ -399,9 +424,10 @@
                     {
                         "items": "minecraft:golden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "131"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon131.name"
+
+                              }
                         }
                     }
                 ]
@@ -414,9 +440,10 @@
                     {
                         "items": "minecraft:golden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "138"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon138.name"
+
+                              }
                         }
                     }
                 ]
@@ -429,9 +456,10 @@
                     {
                         "items": "minecraft:golden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "139"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon139.name"
+
+                              }
                         }
                     }
                 ]
@@ -444,9 +472,10 @@
                     {
                         "items": "minecraft:golden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "146"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon146.name"
+
+                              }
                         }
                     }
                 ]
@@ -459,9 +488,10 @@
                     {
                         "items": "minecraft:golden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "147"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon147.name"
+
+                              }
                         }
                     }
                 ]
@@ -474,9 +504,10 @@
                     {
                         "items": "minecraft:golden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "153"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon153.name"
+
+                              }
                         }
                     }
                 ]
@@ -489,9 +520,10 @@
                     {
                         "items": "minecraft:golden_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "157"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon157.name"
+
+                              }
                         }
                     }
                 ]
@@ -504,9 +536,10 @@
                     {
                         "items": "minecraft:stone_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "176"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon176.name"
+
+                              }
                         }
                     }
                 ]
@@ -519,9 +552,10 @@
                     {
                         "items": "minecraft:stone_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "178"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon178.name"
+
+                              }
                         }
                     }
                 ]
@@ -534,9 +568,10 @@
                     {
                         "items": "minecraft:stone_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "179"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon179.name"
+
+                              }
                         }
                     }
                 ]
@@ -549,9 +584,10 @@
                     {
                         "items": "minecraft:stone_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "182"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon182.name"
+
+                              }
                         }
                     }
                 ]
@@ -564,9 +600,10 @@
                     {
                         "items": "minecraft:stone_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "183"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon183.name"
+
+                              }
                         }
                     }
                 ]
@@ -579,9 +616,10 @@
                     {
                         "items": "minecraft:stone_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "186"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon186.name"
+
+                              }
                         }
                     }
                 ]
@@ -594,9 +632,10 @@
                     {
                         "items": "minecraft:stone_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "187"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon187.name"
+
+                              }
                         }
                     }
                 ]
@@ -609,9 +648,10 @@
                     {
                         "items": "minecraft:stone_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "189"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon189.name"
+
+                              }
                         }
                     }
                 ]
@@ -624,9 +664,10 @@
                     {
                         "items": "minecraft:netherite_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "280"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon280.name"
+
+                              }
                         }
                     }
                 ]
@@ -639,9 +680,10 @@
                     {
                         "items": "minecraft:netherite_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "281"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon281.name"
+
+                              }
                         }
                     }
                 ]
@@ -654,9 +696,10 @@
                     {
                         "items": "minecraft:netherite_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "290"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon290.name"
+
+                              }
                         }
                     }
                 ]
@@ -669,9 +712,10 @@
                     {
                         "items": "minecraft:netherite_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "291"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon291.name"
+
+                              }
                         }
                     }
                 ]
@@ -684,9 +728,10 @@
                     {
                         "items": "minecraft:netherite_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "300"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon300.name"
+
+                              }
                         }
                     }
                 ]
@@ -699,9 +744,10 @@
                     {
                         "items": "minecraft:netherite_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "301"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon301.name"
+
+                              }
                         }
                     }
                 ]
@@ -714,9 +760,10 @@
                     {
                         "items": "minecraft:netherite_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "309"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon309.name"
+
+                              }
                         }
                     }
                 ]
@@ -729,9 +776,10 @@
                     {
                         "items": "minecraft:netherite_pickaxe",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Weapon": "314"
-                            }
+                            "minecraft:custom_name": {
+                            "translate": "weapon314.name"
+
+                              }
                         }
                     }
                 ]

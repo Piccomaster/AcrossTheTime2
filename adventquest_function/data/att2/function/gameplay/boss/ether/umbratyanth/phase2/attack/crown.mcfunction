@@ -8,7 +8,7 @@ execute if score Timer2 UMBRATYANTH matches 20.. unless entity @e[type=minecraft
 
 # Healing Umbra'Tyanth
 execute if score Timer4 UMBRATYANTH matches 0.. run scoreboard players add Timer4 UMBRATYANTH 1
-execute if score Timer4 UMBRATYANTH matches 15 as 00000000-0000-012c-0000-00000000012c at @s run effect give @s minecraft:instant_health 1 1 true
+execute if score Timer4 UMBRATYANTH matches 15 as 00000000-0000-012c-0000-00000000012c at @s run scoreboard players add @s ENEMYHEALTH 8
 execute if score Timer4 UMBRATYANTH matches 30.. run scoreboard players set Timer4 UMBRATYANTH 0
 
 # Processing

@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_chestplate"
+      "id": "minecraft:netherite_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_netherite.title.chestplate_290"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:netherite_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "290"
+              "minecraft:custom_name": {
+                "translate": "armor290.name"
               }
             }
           }

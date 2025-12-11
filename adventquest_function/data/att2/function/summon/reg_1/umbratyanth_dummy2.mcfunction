@@ -3,4 +3,4 @@
 #Summon UmbraTyanth Minions Dummy 2		     	 #
 ##################################################
 
-summon minecraft:cave_spider ~ ~ ~ {DeathLootTable:"att2:empty",Tags:["UmbraDummy","LVL0"],Silent:1b,NoAI:1b,Invulnerable:1b,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}],attributes:[{id:burning_time,base:0}],equipment:{head:{id:"minecraft:diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1}}}}}
+summon minecraft:cave_spider ~ ~ ~ {DeathLootTable:"att2:empty",Tags:["UmbraDummy","LVL0"],Silent:1b,NoAI:1b,Invulnerable:1b,drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}],attributes:[{id:burning_time,base:0}],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}

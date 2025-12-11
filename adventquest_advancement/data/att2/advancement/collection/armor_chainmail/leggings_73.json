@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chainmail_leggings"
+      "id": "minecraft:chainmail_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_chainmail.title.leggings_73"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:chainmail_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "73"
+              "minecraft:custom_name": {
+                "translate": "armor73.name"
               }
             }
           }

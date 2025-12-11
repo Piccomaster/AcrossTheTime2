@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_axe"
+      "id": "minecraft:diamond_axe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_diamond.title.axe_124"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "124"
+              "minecraft:custom_name": {
+                "translate": "weapon124.name"
               }
             }
           }

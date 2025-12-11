@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:golden_chestplate"
+      "id": "minecraft:golden_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg_armset/leg_armset"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_angband.title.chestplate_164"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:golden_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "164"
+              "minecraft:custom_name": {
+                "translate": "armor164.name"
               }
             }
           }

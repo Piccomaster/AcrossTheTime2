@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_helmet"
+      "id": "minecraft:netherite_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_netherite.title.helmet_265"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:netherite_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "265"
+              "minecraft:custom_name": {
+                "translate": "armor265.name"
               }
             }
           }

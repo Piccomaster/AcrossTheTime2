@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_hoe"
+      "id": "minecraft:netherite_hoe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_netherite.title.hoe_307"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:netherite_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "307"
+              "minecraft:custom_name": {
+                "translate": "weapon307.name"
               }
             }
           }

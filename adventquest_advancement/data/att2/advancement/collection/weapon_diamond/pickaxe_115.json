@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_pickaxe"
+      "id": "minecraft:diamond_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_diamond.title.pickaxe_115"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "115"
+              "minecraft:custom_name": {
+                "translate": "weapon115.name"
               }
             }
           }

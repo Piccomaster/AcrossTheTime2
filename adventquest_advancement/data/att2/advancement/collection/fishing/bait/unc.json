@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:snowball",
       "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc",
         "minecraft:custom_model_data": {
           "floats": [
             10000002

@@ -13,9 +13,12 @@ item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_
 execute unless data entity @s drop_chances run data modify entity @s drop_chances set value {mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0}
 execute if data entity @s drop_chances if items entity @s armor.head diamond_helmet[item_model="nothing"] run data modify entity @s drop_chances.head set value 0
 
+##Add damage detection trigger.
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_tick":1}}
+
 ##prevent Drowning
 effect give @s water_breathing infinite 0 true
-
+effect give @s fire_resistance infinite 0 true
 # Initilaize the score CLASS for the mob
 function att2:gameplay/leveling/monster/initialize/initclass
 
@@ -75,7 +78,6 @@ execute as @s[tag=PlayerAlly] run team join ally @s
 execute unless entity @s[tag=PlayerAlly] run team join hostile @s
 # End the initialization
 tag @s remove LVL0
-##add player protect timer
 # Display the difference of level
 ###add health bar
 #add temp tag
@@ -84,6 +86,12 @@ tag @s add HP_DIS
 execute if entity @s[tag=!PlayerAlly,type=!bat,tag=!Boss,tag=!ArenaBoss,tag=!Guardian] at @s run function att2:gameplay/leveling/monster/displaydiff
 #remove temp tag
 tag @s remove HP_DIS
+
+##store health->score
+execute store result score @s ENEMYHEALTH run attribute @s max_health get
+##initialize absorption health
+execute store result score @s ENEMYABHEALTH run data get entity @s AbsorptionAmount
+
 #kill tag add/balance bat kill xp
 execute if score @s[type=minecraft:bat] CLASSLEVEL matches 10.. run scoreboard players set @s CLASSLEVEL 10
 execute as @s run function att2:gameplay/leveling/monster/loot/kill_test/kill_tag

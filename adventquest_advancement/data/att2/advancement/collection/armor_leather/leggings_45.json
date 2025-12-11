@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:leather_leggings"
+      "id": "minecraft:leather_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_leather.title.leggings_45"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:leather_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "45"
+              "minecraft:custom_name": {
+                "translate": "armor45.name"
               }
             }
           }

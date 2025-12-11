@@ -25,7 +25,7 @@
             "items": "minecraft:iron_sword",
             "predicates": {
               "minecraft:custom_data": {
-                "Weapon": "166"
+                "Weapon": 166
               }
             }
           }

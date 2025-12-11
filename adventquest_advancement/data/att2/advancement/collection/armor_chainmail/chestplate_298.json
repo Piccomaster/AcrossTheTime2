@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chainmail_chestplate"
+      "id": "minecraft:chainmail_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg_armset/leg_armset"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_chainmail.title.chestplate_298"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:chainmail_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "298"
+              "minecraft:custom_name": {
+                "translate": "armor298.name"
               }
             }
           }

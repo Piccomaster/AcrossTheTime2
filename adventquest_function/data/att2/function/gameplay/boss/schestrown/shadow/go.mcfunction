@@ -23,8 +23,8 @@ execute if score Shadow SQ38 matches 0.. as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24
 execute if score Shadow SQ38 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Shadow
-execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] store result bossbar minecraft:shadow value run data get entity 00000000-0000-008c-0000-00000000008c Health
-execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] store result bossbar minecraft:shadow max run data get entity 00000000-0000-008c-0000-00000000008c attributes[{id:"minecraft:max_health"}].base
+execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] store result bossbar minecraft:shadow value run scoreboard players get 00000000-0000-008c-0000-00000000008c ENEMYHEALTH
+execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] store result bossbar minecraft:shadow max run attribute 00000000-0000-008c-0000-00000000008c max_health get
 
 # Make challengers enters the arena
 execute if score SQ38 SIDEQUEST matches 3.. as @a[x=-4389,y=54,z=-5055,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/schestrown/shadow/display_title

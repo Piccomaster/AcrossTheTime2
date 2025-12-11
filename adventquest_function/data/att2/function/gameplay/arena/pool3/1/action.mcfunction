@@ -29,23 +29,4 @@ execute if score Pool3_A1_Timer ARENA matches 4001.. run scoreboard players set 
 scoreboard players add Pool3_A1_Timer ARENA 1
 
 # Absorption addition for bosses
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Naer,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Illusion,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Aozathreyon,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Korlaph,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=ShadowBoss,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Subject,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Ted,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Vonaheim,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Miehanov,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Ulkoggumi,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Karon,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Rodmat,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Atricanth,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Felroth,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Myrath,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Scavenger,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Rackham,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Abmup,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Nomit,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
-execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=Blobby,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
+execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,tag=ArenaBoss,team=hostile,scores={ENEMYABHEALTH=..0}] run scoreboard players set @s ENEMYABHEALTH 5

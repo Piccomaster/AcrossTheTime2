@@ -18,8 +18,8 @@ execute if score Naër OURANOS matches 0.. as @a[x=7699,y=182,z=6091,dx=16,dy=9,
 execute if score Naër OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Naër
-execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] store result bossbar minecraft:naer value run data get entity 00000000-0000-016b-0000-00000000016b Health
-execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] store result bossbar minecraft:naer max run data get entity 00000000-0000-016b-0000-00000000016b attributes[{id:"minecraft:max_health"}].base
+execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] store result bossbar minecraft:naer value run scoreboard players get 00000000-0000-016b-0000-00000000016b ENEMYHEALTH
+execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] store result bossbar minecraft:naer max run attribute 00000000-0000-016b-0000-00000000016b max_health get
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 209 as @a[x=7711,y=182,z=6092,dx=-8,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/ouranos/naer/display_title

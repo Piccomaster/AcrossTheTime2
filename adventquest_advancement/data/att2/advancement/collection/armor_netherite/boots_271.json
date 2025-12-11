@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_boots"
+      "id": "minecraft:netherite_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_netherite.title.boots_271"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:netherite_boots",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "271"
+              "minecraft:custom_name": {
+                "translate": "armor271.name"
               }
             }
           }

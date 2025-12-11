@@ -29,7 +29,8 @@
             "color": "green",
             "pattern": "minecraft:stripe_downright"
           }
-        ]
+        ],
+        "tooltip_style": "minecraft:rarity/leg/leg"
       }
     },
     "title": {
@@ -54,8 +55,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "196"
+              "minecraft:custom_name": {
+                "translate": "weapon196.name"
               }
             }
           }

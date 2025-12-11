@@ -18,7 +18,7 @@ scoreboard players operation @s FENRIR_BURST /= @s DAHALMAX
 scoreboard players operation @s FENRIR_BURST *= 2 CAL
 #TIMER CAL
 scoreboard players operation @s FENRIR_TIMER = DAHAL_TICK CAL
-scoreboard players operation @s FENRIR_TIMER *= 2 CAL
+scoreboard players operation @s FENRIR_TIMER /= 10 CAL
 #sound
 function att2:gameplay/legendary/fenrir/particle/sound1
 #range ice summom marker

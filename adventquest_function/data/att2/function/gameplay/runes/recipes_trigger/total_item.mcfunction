@@ -76,6 +76,8 @@ execute store result score com RUNECOUNT if items block ~ ~ ~ container.* *[cust
 execute store result score com_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:com}]
 #bait
 execute store result score com_bait RUNECOUNT if items block ~ ~ ~ container.* minecraft:snowball[custom_data~{Rarity:com}]
+#rod
+execute store result score com_rod RUNECOUNT if items block ~ ~ ~ container.* minecraft:fishing_rod[custom_data~{Rarity:com}]
 
 ##unc
 #total_unc
@@ -84,6 +86,10 @@ execute store result score unc RUNECOUNT if items block ~ ~ ~ container.* *[cust
 execute store result score unc_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:unc}]
 #bait
 execute store result score unc_bait RUNECOUNT if items block ~ ~ ~ container.* minecraft:snowball[custom_data~{Rarity:unc}]
+#arrow
+execute store result score unc_arrow RUNECOUNT if items block ~ ~ ~ container.* minecraft:spectral_arrow[custom_data~{Rarity:unc}]
+#rod
+execute store result score unc_rod RUNECOUNT if items block ~ ~ ~ container.* minecraft:fishing_rod[custom_data~{Rarity:unc}]
 
 ##rar
 #total_rar
@@ -92,6 +98,10 @@ execute store result score rar RUNECOUNT if items block ~ ~ ~ container.* *[cust
 execute store result score rar_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:rar}]
 #bait
 execute store result score rar_bait RUNECOUNT if items block ~ ~ ~ container.* minecraft:snowball[custom_data~{Rarity:rar}]
+#arrow
+execute store result score rar_arrow RUNECOUNT if items block ~ ~ ~ container.* minecraft:spectral_arrow[custom_data~{Rarity:rar}]
+#rod
+execute store result score rar_rod RUNECOUNT if items block ~ ~ ~ container.* minecraft:fishing_rod[custom_data~{Rarity:rar}]
 
 ##epi
 #total_epi
@@ -100,6 +110,10 @@ execute store result score epi RUNECOUNT if items block ~ ~ ~ container.* *[cust
 execute store result score epi_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:epi}]
 #bait
 execute store result score epi_bait RUNECOUNT if items block ~ ~ ~ container.* minecraft:snowball[custom_data~{Rarity:epi,EquipmentType:bait}]
+#arrow
+execute store result score epi_arrow RUNECOUNT if items block ~ ~ ~ container.* minecraft:spectral_arrow[custom_data~{Rarity:epi}]
+#rod
+execute store result score epi_rod RUNECOUNT if items block ~ ~ ~ container.* minecraft:fishing_rod[custom_data~{Rarity:epi}]
 
 ##epi_set
 #total_epi_set
@@ -121,12 +135,18 @@ execute store result score leg_bait RUNECOUNT if items block ~ ~ ~ container.* m
 ##leg_armset
 #total_leg_armset
 execute store result score leg_armset RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg_armset}]
+#arrow
+execute store result score leg_arrow RUNECOUNT if items block ~ ~ ~ container.* minecraft:spectral_arrow[custom_data~{Rarity:leg}]
+#rod
+execute store result score leg_rod RUNECOUNT if items block ~ ~ ~ container.* minecraft:fishing_rod[custom_data~{Rarity:leg}]
 
 ##ult
 #total_ult
 execute store result score ult RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:ult}]
 #bait
 execute store result score ult_bait RUNECOUNT if items block ~ ~ ~ container.* minecraft:snowball[custom_data~{Rarity:ult}]
+#rod
+execute store result score ult_rod RUNECOUNT if items block ~ ~ ~ container.* minecraft:fishing_rod[custom_data~{Rarity:ult}]
 
 ##bundle
 execute store result score rune_bundle RUNECOUNT if items block ~ ~ ~ container.* bundle[custom_data~{EquipmentType:bundle},minecraft:bundle_contents=[]]

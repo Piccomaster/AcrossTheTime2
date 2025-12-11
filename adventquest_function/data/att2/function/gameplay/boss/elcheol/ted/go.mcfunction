@@ -16,12 +16,17 @@ execute if score Ted SQ55 matches 0.. as @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz
 execute if score Ted SQ55 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Ted
-execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:ted value run data get entity 00000000-0000-023c-0000-00000000023c Health
-execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:ted max run data get entity 00000000-0000-023c-0000-00000000023c attributes[{id:"minecraft:max_health"}].base
-execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy1 value run data get entity 00000000-0000-024c-0000-00000000024c Health
-execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy1 max run data get entity 00000000-0000-024c-0000-00000000024c attributes[{id:"minecraft:max_health"}].base
-execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy2 value run data get entity 00000000-0000-025c-0000-00000000025c Health
-execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy2 max run data get entity 00000000-0000-025c-0000-00000000025c attributes[{id:"minecraft:max_health"}].base
+execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:ted value run scoreboard players get 00000000-0000-023c-0000-00000000023c ENEMYHEALTH
+execute if score Ted SQ55 matches 0.. unless entity 00000000-0000-023c-0000-00000000023c run bossbar remove minecraft:ted
+execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:ted max run attribute 00000000-0000-023c-0000-00000000023c max_health get
+
+execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy1 value run scoreboard players get 00000000-0000-024c-0000-00000000024c ENEMYHEALTH
+execute if score Ted SQ55 matches 0.. unless entity 00000000-0000-024c-0000-00000000024c run bossbar remove minecraft:skrappy1
+execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy1 max run attribute 00000000-0000-024c-0000-00000000024c max_health get
+
+execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy2 value run scoreboard players get 00000000-0000-025c-0000-00000000025c ENEMYHEALTH
+execute if score Ted SQ55 matches 0.. unless entity 00000000-0000-025c-0000-00000000025c run bossbar remove minecraft:skrappy2
+execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy2 max run attribute 00000000-0000-025c-0000-00000000025c max_health get
 
 # Make challengers enters the arena
 execute if score SQ55 SIDEQUEST matches 1..99 as @a[x=-5075,y=95,z=-6200,dx=0,dy=4,dz=4,gamemode=adventure] at @s unless entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/ted/display_title

@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_sword"
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_netherite.title.sword_285"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:netherite_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "285"
+              "minecraft:custom_name": {
+                "translate": "weapon285.name"
               }
             }
           }

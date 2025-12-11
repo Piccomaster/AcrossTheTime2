@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_boots"
+      "id": "minecraft:diamond_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_ouranos.diamond.title.boots_336"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:diamond_boots",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "336"
+              "minecraft:custom_name": {
+                "translate": "armor336.name"
               }
             }
           }

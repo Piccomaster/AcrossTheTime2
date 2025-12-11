@@ -24,8 +24,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "131"
+                            "minecraft:custom_name": {
+                                "translate": "armor131.name"
                             }
                         }
                     }
@@ -39,8 +39,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "132"
+                            "minecraft:custom_name": {
+                                "translate": "armor132.name"
                             }
                         }
                     }
@@ -54,8 +54,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "133"
+                            "minecraft:custom_name": {
+                                "translate": "armor133.name"
                             }
                         }
                     }
@@ -69,8 +69,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "134"
+                            "minecraft:custom_name": {
+                                "translate": "armor134.name"
                             }
                         }
                     }
@@ -84,8 +84,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "135"
+                            "minecraft:custom_name": {
+                                "translate": "armor135.name"
                             }
                         }
                     }
@@ -99,8 +99,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "136"
+                            "minecraft:custom_name": {
+                                "translate": "armor136.name"
                             }
                         }
                     }
@@ -114,8 +114,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "137"
+                            "minecraft:custom_name": {
+                                "translate": "armor137.name"
                             }
                         }
                     }
@@ -129,8 +129,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "138"
+                            "minecraft:custom_name": {
+                                "translate": "armor138.name"
                             }
                         }
                     }
@@ -144,8 +144,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "139"
+                            "minecraft:custom_name": {
+                                "translate": "armor139.name"
                             }
                         }
                     }
@@ -159,8 +159,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "140"
+                            "minecraft:custom_name": {
+                                "translate": "armor140.name"
                             }
                         }
                     }
@@ -174,8 +174,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "141"
+                            "minecraft:custom_name": {
+                                "translate": "armor141.name"
                             }
                         }
                     }
@@ -189,8 +189,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "142"
+                            "minecraft:custom_name": {
+                                "translate": "armor142.name"
                             }
                         }
                     }
@@ -204,8 +204,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "143"
+                            "minecraft:custom_name": {
+                                "translate": "armor143.name"
                             }
                         }
                     }
@@ -219,8 +219,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "144"
+                            "minecraft:custom_name": {
+                                "translate": "armor144.name"
                             }
                         }
                     }
@@ -234,8 +234,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "145"
+                            "minecraft:custom_name": {
+                                "translate": "armor145.name"
                             }
                         }
                     }
@@ -249,8 +249,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "146"
+                            "minecraft:custom_name": {
+                                "translate": "armor146.name"
                             }
                         }
                     }
@@ -264,8 +264,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "147"
+                            "minecraft:custom_name": {
+                                "translate": "armor147.name"
                             }
                         }
                     }
@@ -279,8 +279,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "148"
+                            "minecraft:custom_name": {
+                                "translate": "armor148.name"
                             }
                         }
                     }
@@ -294,8 +294,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "149"
+                            "minecraft:custom_name": {
+                                "translate": "armor149.name"
                             }
                         }
                     }
@@ -309,8 +309,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "150"
+                            "minecraft:custom_name": {
+                                "translate": "armor150.name"
                             }
                         }
                     }
@@ -324,8 +324,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "151"
+                            "minecraft:custom_name": {
+                                "translate": "armor151.name"
                             }
                         }
                     }
@@ -339,8 +339,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "152"
+                            "minecraft:custom_name": {
+                                "translate": "armor152.name"
                             }
                         }
                     }
@@ -354,8 +354,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "153"
+                            "minecraft:custom_name": {
+                                "translate": "armor153.name"
                             }
                         }
                     }
@@ -369,8 +369,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "154"
+                            "minecraft:custom_name": {
+                                "translate": "armor154.name"
                             }
                         }
                     }
@@ -384,8 +384,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "155"
+                            "minecraft:custom_name": {
+                                "translate": "armor155.name"
                             }
                         }
                     }
@@ -399,8 +399,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "156"
+                            "minecraft:custom_name": {
+                                "translate": "armor156.name"
                             }
                         }
                     }
@@ -414,8 +414,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "157"
+                            "minecraft:custom_name": {
+                                "translate": "armor157.name"
                             }
                         }
                     }
@@ -429,8 +429,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "158"
+                            "minecraft:custom_name": {
+                                "translate": "armor158.name"
                             }
                         }
                     }
@@ -444,8 +444,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "159"
+                            "minecraft:custom_name": {
+                                "translate": "armor159.name"
                             }
                         }
                     }
@@ -459,8 +459,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "160"
+                            "minecraft:custom_name": {
+                                "translate": "armor160.name"
                             }
                         }
                     }
@@ -474,8 +474,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "161"
+                            "minecraft:custom_name": {
+                                "translate": "armor161.name"
                             }
                         }
                     }
@@ -489,8 +489,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "162"
+                            "minecraft:custom_name": {
+                                "translate": "armor162.name"
                             }
                         }
                     }
@@ -504,8 +504,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "163"
+                            "minecraft:custom_name": {
+                                "translate": "armor163.name"
                             }
                         }
                     }
@@ -519,8 +519,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "164"
+                            "minecraft:custom_name": {
+                                "translate": "armor164.name"
                             }
                         }
                     }
@@ -534,8 +534,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "165"
+                            "minecraft:custom_name": {
+                                "translate": "armor165.name"
                             }
                         }
                     }
@@ -549,8 +549,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "166"
+                            "minecraft:custom_name": {
+                                "translate": "armor166.name"
                             }
                         }
                     }
@@ -564,8 +564,8 @@
                     {
                         "items": "minecraft:golden_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "311"
+                            "minecraft:custom_name": {
+                                "translate": "armor311.name"
                             }
                         }
                     }
@@ -579,8 +579,8 @@
                     {
                         "items": "minecraft:golden_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "312"
+                            "minecraft:custom_name": {
+                                "translate": "armor312.name"
                             }
                         }
                     }
@@ -594,8 +594,8 @@
                     {
                         "items": "minecraft:golden_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "313"
+                            "minecraft:custom_name": {
+                                "translate": "armor313.name"
                             }
                         }
                     }
@@ -609,8 +609,8 @@
                     {
                         "items": "minecraft:golden_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "314"
+                            "minecraft:custom_name": {
+                                "translate": "armor314.name"
                             }
                         }
                     }

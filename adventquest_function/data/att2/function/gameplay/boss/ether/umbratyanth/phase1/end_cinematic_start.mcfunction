@@ -3,6 +3,9 @@
 #end_cinematic_start for Phase1                               		#
 #####################################################################
 
+##dely
+execute as 00000000-0000-012c-0000-00000000012c as @s[tag=Dely] run return run tag @s remove Dely
+
 function att2:gameplay/boss/ether/umbratyanth/phase1/minions_kill
 execute as @e[type=minecraft:silverfish,tag=LightPoint] run kill @s
 function att2:gameplay/boss/ether/umbratyanth/summon_dummy
@@ -17,7 +20,7 @@ scoreboard players set Boss UMBRATYANTH 2
 tag 00000000-0000-012c-0000-00000000012c add UmbraParticle
 time set 6000
 execute as 00000000-0000-013c-0000-00000000013c at @s run teleport @s -5117 121 -6870
-execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1b}
+execute as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:1b,Invulnerable:0b}
 execute as 00000000-0000-012c-0000-00000000012c run data merge entity @s {Invulnerable:1b}
 
 scoreboard players set @a MUSIC_BOSS 0

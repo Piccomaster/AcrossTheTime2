@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:golden_shovel"
+      "id": "minecraft:golden_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.weapon_angband.title.shovel_140"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:golden_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "140"
+              "minecraft:custom_name": {
+                "translate": "weapon140.name"
               }
             }
           }

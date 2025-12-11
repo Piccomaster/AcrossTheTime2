@@ -3,7 +3,7 @@
 #Start the boss fight for Phase2                               		#
 #####################################################################
 
-gamerule doDaylightCycle true
+gamerule advance_time true
 stopsound @a
 execute as @a run tag @s add NoAutoMusic
 tp @a 2286 96 1945 -90 0

@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_chestplate"
+      "id": "minecraft:diamond_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_ouranos.diamond.title.chestplate_257"
@@ -25,8 +28,8 @@
           {
             "items": "minecraft:diamond_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "257"
+              "minecraft:custom_name": {
+                "translate": "armor257.name"
               }
             }
           }

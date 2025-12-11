@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:leather_chestplate"
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
     },
     "title": {
       "translate": "att2.advancement.collection.armor_leather.title.chestplate_3"
@@ -24,8 +27,8 @@
           {
             "items": "minecraft:leather_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "3"
+              "minecraft:custom_name": {
+                "translate": "armor3.name"
               }
             }
           }
