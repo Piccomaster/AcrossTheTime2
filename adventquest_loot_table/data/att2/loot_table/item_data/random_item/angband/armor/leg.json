@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/chainmail_boots_98"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/chainmail_chestplate_96"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/chainmail_helmet_95"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/chainmail_leggings_97"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/golden_boots_162"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/golden_chestplate_160"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/golden_helmet_159"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/golden_leggings_161"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_boots_55"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_chestplate_53"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_helmet_52"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/leg/leather_leggings_54"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/bow_217"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/bow_218"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/crossbow_328"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_axe_120"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_hoe_276"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_pickaxe_121"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_shovel_122"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/diamond_sword_123"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/stone_axe_208"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/stone_axe_209"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/stone_shovel_210"
+                }
+            ]
+        }
+    ]
+}

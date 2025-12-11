@@ -1,0 +1,102 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/iron_boots_121"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/iron_boots_122"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/iron_chestplate_117"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/iron_chestplate_118"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/iron_helmet_115"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/iron_leggings_119"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/iron_leggings_120"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/leather_boots_234"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/leather_chestplate_232"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/leather_helmet_231"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/leather_leggings_233"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_boots_287"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_boots_288"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_boots_323"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_chestplate_283"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_chestplate_284"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_chestplate_321"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_helmet_281"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_helmet_282"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_helmet_320"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_leggings_285"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_leggings_286"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/rar/netherite_leggings_322"
+                }
+            ]
+        }
+    ]
+}

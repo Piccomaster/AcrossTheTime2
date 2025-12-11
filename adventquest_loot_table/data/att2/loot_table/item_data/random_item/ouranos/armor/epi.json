@@ -1,0 +1,74 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_boots_195"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_boots_259"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_boots_348"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_chestplate_193"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_chestplate_257"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_chestplate_346"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_helmet_192"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_helmet_256"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_helmet_345"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_leggings_194"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_leggings_258"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/diamond_leggings_347"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/leather_boots_51"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/leather_chestplate_49"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/leather_helmet_48"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/leather_leggings_50"
+                }
+            ]
+        }
+    ]
+}

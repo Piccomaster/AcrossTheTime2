@@ -1,0 +1,214 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/bow_37"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/bow_38"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/bow_39"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/bow_40"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/crossbow_246"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/crossbow_247"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/crossbow_248"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_axe_104"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_axe_105"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_hoe_273"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_pickaxe_106"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_pickaxe_107"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_shovel_108"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_shovel_109"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_sword_110"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/diamond_sword_111"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_axe_72"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_axe_73"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_hoe_264"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_hoe_265"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_pickaxe_74"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_pickaxe_75"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_shovel_76"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_shovel_77"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_sword_78"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/iron_sword_79"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_axe_288"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_axe_289"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_hoe_296"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_hoe_297"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_pickaxe_290"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_pickaxe_291"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_shovel_292"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_shovel_293"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_sword_294"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/netherite_sword_295"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_53"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_54"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_55"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_56"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_57"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_axe_10"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_axe_9"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_hoe_256"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_hoe_257"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_pickaxe_11"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_pickaxe_12"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_shovel_13"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_shovel_14"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_sword_15"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/wooden_sword_16"
+                }
+            ]
+        }
+    ]
+}

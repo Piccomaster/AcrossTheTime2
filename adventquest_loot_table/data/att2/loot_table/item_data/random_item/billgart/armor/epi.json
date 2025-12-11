@@ -1,0 +1,74 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/iron_boots_126"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/iron_chestplate_124"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/iron_helmet_123"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/iron_leggings_125"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_boots_243"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_boots_292"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_boots_327"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_chestplate_241"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_chestplate_290"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_chestplate_326"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_helmet_240"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_helmet_289"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_helmet_324"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_leggings_242"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_leggings_291"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/epi/netherite_leggings_325"
+                }
+            ]
+        }
+    ]
+}

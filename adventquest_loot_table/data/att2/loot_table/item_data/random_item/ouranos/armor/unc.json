@@ -1,0 +1,106 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_boots_182"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_boots_183"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_boots_336"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_chestplate_178"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_chestplate_179"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_chestplate_338"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_helmet_176"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_helmet_177"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_helmet_333"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_helmet_337"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_leggings_180"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_leggings_181"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_leggings_335"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/diamond_leggings_339"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_boots_38"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_boots_39"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_boots_9"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_chestplate_35"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_helmet_32"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_helmet_33"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_helmet_6"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_leggings_36"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_leggings_37"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/armor/unc/leather_leggings_8"
+                }
+            ]
+        }
+    ]
+}

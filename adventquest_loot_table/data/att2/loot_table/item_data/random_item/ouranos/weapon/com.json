@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_axe_96"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_axe_97"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_hoe_270"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_hoe_271"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_pickaxe_98"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_pickaxe_99"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_shovel_100"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_shovel_101"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_sword_102"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/diamond_sword_103"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/stone_axe_198"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/stone_shovel_199"
+                }
+            ]
+        }
+    ]
+}

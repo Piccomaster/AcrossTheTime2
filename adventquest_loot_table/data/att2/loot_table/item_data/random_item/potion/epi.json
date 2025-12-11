@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/epi/lingering_potion_44"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/epi/lingering_potion_62"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/epi/potion_23"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/epi/potion_24"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/epi/potion_25"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/epi/potion_54"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/epi/splash_potion_38"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/epi/splash_potion_58"
+                }
+            ]
+        }
+    ]
+}

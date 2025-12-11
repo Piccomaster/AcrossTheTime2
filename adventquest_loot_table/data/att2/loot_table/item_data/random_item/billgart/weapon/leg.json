@@ -1,0 +1,66 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/iron_axe_92"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/iron_hoe_269"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/iron_pickaxe_93"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/iron_shovel_94"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/iron_sword_95"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_axe_313"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_hoe_317"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_pickaxe_314"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_shovel_315"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/netherite_sword_316"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/shield_196"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/stone_pickaxe_189"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/stone_sword_190"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/stone_sword_191"
+                }
+            ]
+        }
+    ]
+}

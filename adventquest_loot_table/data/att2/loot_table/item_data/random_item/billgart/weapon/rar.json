@@ -1,0 +1,106 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_axe_80"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_axe_81"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_hoe_266"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_hoe_267"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_pickaxe_82"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_pickaxe_83"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_shovel_84"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_shovel_85"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_sword_86"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/iron_sword_87"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_axe_298"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_axe_299"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_hoe_306"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_hoe_307"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_pickaxe_301"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_shovel_302"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_shovel_303"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_sword_304"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/netherite_sword_305"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/shield_194"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/stone_pickaxe_182"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/stone_pickaxe_183"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/stone_sword_184"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/stone_sword_185"
+                }
+            ]
+        }
+    ]
+}
