@@ -27,8 +27,8 @@
           {
             "items": "minecraft:diamond_boots",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "175"
+              "minecraft:custom_name": {
+                "translate": "armor175.name"
               }
             }
           }

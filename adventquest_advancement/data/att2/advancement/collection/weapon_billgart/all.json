@@ -27,8 +27,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "176"
+              "minecraft:custom_name": {
+                "translate": "weapon176.name"
               }
             }
           }
@@ -42,8 +42,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "177"
+              "minecraft:custom_name": {
+                "translate": "weapon177.name"
               }
             }
           }
@@ -57,8 +57,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "178"
+              "minecraft:custom_name": {
+                "translate": "weapon178.name"
               }
             }
           }
@@ -72,8 +72,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "179"
+              "minecraft:custom_name": {
+                "translate": "weapon179.name"
               }
             }
           }
@@ -87,8 +87,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "180"
+              "minecraft:custom_name": {
+                "translate": "weapon180.name"
               }
             }
           }
@@ -102,8 +102,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "181"
+              "minecraft:custom_name": {
+                "translate": "weapon181.name"
               }
             }
           }
@@ -117,8 +117,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "182"
+              "minecraft:custom_name": {
+                "translate": "weapon182.name"
               }
             }
           }
@@ -132,8 +132,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "183"
+              "minecraft:custom_name": {
+                "translate": "weapon183.name"
               }
             }
           }
@@ -147,8 +147,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "184"
+              "minecraft:custom_name": {
+                "translate": "weapon184.name"
               }
             }
           }
@@ -162,8 +162,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "185"
+              "minecraft:custom_name": {
+                "translate": "weapon185.name"
               }
             }
           }
@@ -177,8 +177,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "186"
+              "minecraft:custom_name": {
+                "translate": "weapon186.name"
               }
             }
           }
@@ -192,8 +192,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "187"
+              "minecraft:custom_name": {
+                "translate": "weapon187.name"
               }
             }
           }
@@ -207,8 +207,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "188"
+              "minecraft:custom_name": {
+                "translate": "weapon188.name"
               }
             }
           }
@@ -222,8 +222,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "189"
+              "minecraft:custom_name": {
+                "translate": "weapon189.name"
               }
             }
           }
@@ -237,8 +237,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "190"
+              "minecraft:custom_name": {
+                "translate": "weapon190.name"
               }
             }
           }
@@ -252,8 +252,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "191"
+              "minecraft:custom_name": {
+                "translate": "weapon191.name"
               }
             }
           }
@@ -267,8 +267,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "192"
+              "minecraft:custom_name": {
+                "translate": "weapon192.name"
               }
             }
           }
@@ -282,8 +282,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "193"
+              "minecraft:custom_name": {
+                "translate": "weapon193.name"
               }
             }
           }
@@ -297,8 +297,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "194"
+              "minecraft:custom_name": {
+                "translate": "weapon194.name"
               }
             }
           }
@@ -312,8 +312,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "195"
+              "minecraft:custom_name": {
+                "translate": "weapon195.name"
               }
             }
           }
@@ -327,8 +327,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "196"
+              "minecraft:custom_name": {
+                "translate": "weapon196.name"
               }
             }
           }
@@ -342,8 +342,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "197"
+              "minecraft:custom_name": {
+                "translate": "weapon197.name"
               }
             }
           }

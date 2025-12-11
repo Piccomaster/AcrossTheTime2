@@ -25,7 +25,7 @@
             "items": "minecraft:diamond_helmet",
             "predicates": {
               "minecraft:custom_data": {
-                "Armor": "215"
+                "Armor": 215
               }
             }
           }

@@ -27,8 +27,8 @@
           {
             "items": "minecraft:leather_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "223"
+              "minecraft:custom_name": {
+                "translate": "armor223.name"
               }
             }
           }

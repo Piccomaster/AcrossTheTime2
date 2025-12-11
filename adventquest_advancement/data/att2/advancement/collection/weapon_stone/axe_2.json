@@ -27,8 +27,8 @@
           {
             "items": "minecraft:wooden_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "2"
+              "minecraft:custom_name": {
+                "translate": "weapon2.name"
               }
             }
           }

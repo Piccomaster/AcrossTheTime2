@@ -12,7 +12,7 @@
                     ],
                     "predicates": {
                         "minecraft:custom_data": {
-                            "Potion": "52"
+                            "Potion": 52
                         }
                     }
                 }

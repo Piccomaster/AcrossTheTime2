@@ -27,8 +27,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "33"
+              "minecraft:custom_name": {
+                "translate": "weapon33.name"
               }
             }
           }
@@ -42,8 +42,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "34"
+              "minecraft:custom_name": {
+                "translate": "weapon34.name"
               }
             }
           }
@@ -57,8 +57,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "35"
+              "minecraft:custom_name": {
+                "translate": "weapon35.name"
               }
             }
           }
@@ -72,8 +72,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "36"
+              "minecraft:custom_name": {
+                "translate": "weapon36.name"
               }
             }
           }
@@ -87,8 +87,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "37"
+              "minecraft:custom_name": {
+                "translate": "weapon37.name"
               }
             }
           }
@@ -102,8 +102,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "38"
+              "minecraft:custom_name": {
+                "translate": "weapon38.name"
               }
             }
           }
@@ -117,8 +117,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "39"
+              "minecraft:custom_name": {
+                "translate": "weapon39.name"
               }
             }
           }
@@ -132,8 +132,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "40"
+              "minecraft:custom_name": {
+                "translate": "weapon40.name"
               }
             }
           }
@@ -147,8 +147,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "41"
+              "minecraft:custom_name": {
+                "translate": "weapon41.name"
               }
             }
           }
@@ -162,8 +162,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "42"
+              "minecraft:custom_name": {
+                "translate": "weapon42.name"
               }
             }
           }
@@ -177,8 +177,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "43"
+              "minecraft:custom_name": {
+                "translate": "weapon43.name"
               }
             }
           }
@@ -192,8 +192,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "44"
+              "minecraft:custom_name": {
+                "translate": "weapon44.name"
               }
             }
           }
@@ -207,8 +207,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "45"
+              "minecraft:custom_name": {
+                "translate": "weapon45.name"
               }
             }
           }
@@ -222,8 +222,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "46"
+              "minecraft:custom_name": {
+                "translate": "weapon46.name"
               }
             }
           }
@@ -237,8 +237,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "47"
+              "minecraft:custom_name": {
+                "translate": "weapon47.name"
               }
             }
           }
@@ -252,8 +252,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "48"
+              "minecraft:custom_name": {
+                "translate": "weapon48.name"
               }
             }
           }
@@ -267,8 +267,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "49"
+              "minecraft:custom_name": {
+                "translate": "weapon49.name"
               }
             }
           }
@@ -282,8 +282,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "197"
+              "minecraft:custom_name": {
+                "translate": "weapon197.name"
               }
             }
           }
@@ -297,8 +297,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "214"
+              "minecraft:custom_name": {
+                "translate": "weapon214.name"
               }
             }
           }
@@ -312,8 +312,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "215"
+              "minecraft:custom_name": {
+                "translate": "weapon215.name"
               }
             }
           }
@@ -327,8 +327,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "216"
+              "minecraft:custom_name": {
+                "translate": "weapon216.name"
               }
             }
           }
@@ -342,8 +342,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "217"
+              "minecraft:custom_name": {
+                "translate": "weapon217.name"
               }
             }
           }
@@ -357,8 +357,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "218"
+              "minecraft:custom_name": {
+                "translate": "weapon218.name"
               }
             }
           }
@@ -372,8 +372,8 @@
           {
             "items": "minecraft:bow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "219"
+              "minecraft:custom_name": {
+                "translate": "weapon219.name"
               }
             }
           }

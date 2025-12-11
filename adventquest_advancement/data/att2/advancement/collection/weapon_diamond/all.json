@@ -27,8 +27,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "96"
+              "minecraft:custom_name": {
+                "translate": "weapon96.name"
               }
             }
           }
@@ -42,8 +42,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "97"
+              "minecraft:custom_name": {
+                "translate": "weapon97.name"
               }
             }
           }
@@ -57,8 +57,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "98"
+              "minecraft:custom_name": {
+                "translate": "weapon98.name"
               }
             }
           }
@@ -72,8 +72,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "99"
+              "minecraft:custom_name": {
+                "translate": "weapon99.name"
               }
             }
           }
@@ -87,8 +87,8 @@
           {
             "items": "minecraft:diamond_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "100"
+              "minecraft:custom_name": {
+                "translate": "weapon100.name"
               }
             }
           }
@@ -102,8 +102,8 @@
           {
             "items": "minecraft:diamond_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "101"
+              "minecraft:custom_name": {
+                "translate": "weapon101.name"
               }
             }
           }
@@ -117,8 +117,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "102"
+              "minecraft:custom_name": {
+                "translate": "weapon102.name"
               }
             }
           }
@@ -132,8 +132,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "103"
+              "minecraft:custom_name": {
+                "translate": "weapon103.name"
               }
             }
           }
@@ -147,8 +147,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "104"
+              "minecraft:custom_name": {
+                "translate": "weapon104.name"
               }
             }
           }
@@ -162,8 +162,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "105"
+              "minecraft:custom_name": {
+                "translate": "weapon105.name"
               }
             }
           }
@@ -177,8 +177,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "106"
+              "minecraft:custom_name": {
+                "translate": "weapon106.name"
               }
             }
           }
@@ -192,8 +192,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "107"
+              "minecraft:custom_name": {
+                "translate": "weapon107.name"
               }
             }
           }
@@ -207,8 +207,8 @@
           {
             "items": "minecraft:diamond_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "108"
+              "minecraft:custom_name": {
+                "translate": "weapon108.name"
               }
             }
           }
@@ -222,8 +222,8 @@
           {
             "items": "minecraft:diamond_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "109"
+              "minecraft:custom_name": {
+                "translate": "weapon109.name"
               }
             }
           }
@@ -237,8 +237,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "110"
+              "minecraft:custom_name": {
+                "translate": "weapon110.name"
               }
             }
           }
@@ -252,8 +252,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "111"
+              "minecraft:custom_name": {
+                "translate": "weapon111.name"
               }
             }
           }
@@ -267,8 +267,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "112"
+              "minecraft:custom_name": {
+                "translate": "weapon112.name"
               }
             }
           }
@@ -282,8 +282,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "113"
+              "minecraft:custom_name": {
+                "translate": "weapon113.name"
               }
             }
           }
@@ -297,8 +297,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "114"
+              "minecraft:custom_name": {
+                "translate": "weapon114.name"
               }
             }
           }
@@ -312,8 +312,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "115"
+              "minecraft:custom_name": {
+                "translate": "weapon115.name"
               }
             }
           }
@@ -327,8 +327,8 @@
           {
             "items": "minecraft:diamond_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "116"
+              "minecraft:custom_name": {
+                "translate": "weapon116.name"
               }
             }
           }
@@ -342,8 +342,8 @@
           {
             "items": "minecraft:diamond_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "117"
+              "minecraft:custom_name": {
+                "translate": "weapon117.name"
               }
             }
           }
@@ -357,8 +357,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "118"
+              "minecraft:custom_name": {
+                "translate": "weapon118.name"
               }
             }
           }
@@ -372,8 +372,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "119"
+              "minecraft:custom_name": {
+                "translate": "weapon119.name"
               }
             }
           }
@@ -387,8 +387,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "120"
+              "minecraft:custom_name": {
+                "translate": "weapon120.name"
               }
             }
           }
@@ -402,8 +402,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "121"
+              "minecraft:custom_name": {
+                "translate": "weapon121.name"
               }
             }
           }
@@ -417,8 +417,8 @@
           {
             "items": "minecraft:diamond_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "122"
+              "minecraft:custom_name": {
+                "translate": "weapon122.name"
               }
             }
           }
@@ -432,8 +432,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "123"
+              "minecraft:custom_name": {
+                "translate": "weapon123.name"
               }
             }
           }
@@ -447,8 +447,8 @@
           {
             "items": "minecraft:diamond_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "124"
+              "minecraft:custom_name": {
+                "translate": "weapon124.name"
               }
             }
           }
@@ -462,8 +462,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "125"
+              "minecraft:custom_name": {
+                "translate": "weapon125.name"
               }
             }
           }
@@ -477,8 +477,8 @@
           {
             "items": "minecraft:diamond_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "126"
+              "minecraft:custom_name": {
+                "translate": "weapon126.name"
               }
             }
           }
@@ -492,8 +492,8 @@
           {
             "items": "minecraft:diamond_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "127"
+              "minecraft:custom_name": {
+                "translate": "weapon127.name"
               }
             }
           }
@@ -507,8 +507,8 @@
           {
             "items": "minecraft:diamond_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "270"
+              "minecraft:custom_name": {
+                "translate": "weapon270.name"
               }
             }
           }
@@ -522,8 +522,8 @@
           {
             "items": "minecraft:diamond_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "271"
+              "minecraft:custom_name": {
+                "translate": "weapon271.name"
               }
             }
           }
@@ -537,8 +537,8 @@
           {
             "items": "minecraft:diamond_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "272"
+              "minecraft:custom_name": {
+                "translate": "weapon272.name"
               }
             }
           }
@@ -552,8 +552,8 @@
           {
             "items": "minecraft:diamond_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "273"
+              "minecraft:custom_name": {
+                "translate": "weapon273.name"
               }
             }
           }
@@ -567,8 +567,8 @@
           {
             "items": "minecraft:diamond_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "274"
+              "minecraft:custom_name": {
+                "translate": "weapon274.name"
               }
             }
           }
@@ -582,8 +582,8 @@
           {
             "items": "minecraft:diamond_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "275"
+              "minecraft:custom_name": {
+                "translate": "weapon275.name"
               }
             }
           }
@@ -597,8 +597,8 @@
           {
             "items": "minecraft:diamond_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "276"
+              "minecraft:custom_name": {
+                "translate": "weapon276.name"
               }
             }
           }
@@ -612,8 +612,8 @@
           {
             "items": "minecraft:diamond_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "277"
+              "minecraft:custom_name": {
+                "translate": "weapon277.name"
               }
             }
           }

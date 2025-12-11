@@ -27,8 +27,8 @@
           {
             "items": "minecraft:leather_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "8"
+              "minecraft:custom_name": {
+                "translate": "armor8.name"
               }
             }
           }

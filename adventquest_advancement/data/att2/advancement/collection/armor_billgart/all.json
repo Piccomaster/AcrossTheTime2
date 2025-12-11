@@ -24,9 +24,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "223"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor223.name"
+
+                              }
                         }
                     }
                 ]
@@ -39,9 +40,10 @@
                     {
                         "items": "minecraft:netherite_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "224"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor224.name"
+
+                              }
                         }
                     }
                 ]
@@ -54,9 +56,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "225"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor225.name"
+
+                              }
                         }
                     }
                 ]
@@ -69,9 +72,10 @@
                     {
                         "items": "minecraft:netherite_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "226"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor226.name"
+
+                              }
                         }
                     }
                 ]
@@ -84,9 +88,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "227"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor227.name"
+
+                              }
                         }
                     }
                 ]
@@ -99,9 +104,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "228"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor228.name"
+
+                              }
                         }
                     }
                 ]
@@ -114,9 +120,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "229"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor229.name"
+
+                              }
                         }
                     }
                 ]
@@ -129,9 +136,10 @@
                     {
                         "items": "minecraft:netherite_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "230"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor230.name"
+
+                              }
                         }
                     }
                 ]
@@ -144,9 +152,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "231"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor231.name"
+
+                              }
                         }
                     }
                 ]
@@ -159,9 +168,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "232"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor232.name"
+
+                              }
                         }
                     }
                 ]
@@ -174,9 +184,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "233"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor233.name"
+
+                              }
                         }
                     }
                 ]
@@ -189,9 +200,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "234"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor234.name"
+
+                              }
                         }
                     }
                 ]
@@ -204,9 +216,10 @@
                     {
                         "items": "minecraft:netherite_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "235"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor235.name"
+
+                              }
                         }
                     }
                 ]
@@ -219,9 +232,10 @@
                     {
                         "items": "minecraft:netherite_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "236"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor236.name"
+
+                              }
                         }
                     }
                 ]
@@ -234,9 +248,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "237"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor237.name"
+
+                              }
                         }
                     }
                 ]
@@ -249,9 +264,10 @@
                     {
                         "items": "minecraft:netherite_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "238"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor238.name"
+
+                              }
                         }
                     }
                 ]
@@ -264,9 +280,10 @@
                     {
                         "items": "minecraft:netherite_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "240"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor240.name"
+
+                              }
                         }
                     }
                 ]
@@ -279,9 +296,10 @@
                     {
                         "items": "minecraft:netherite_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "241"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor241.name"
+
+                              }
                         }
                     }
                 ]
@@ -294,9 +312,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "242"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor242.name"
+
+                              }
                         }
                     }
                 ]
@@ -309,9 +328,10 @@
                     {
                         "items": "minecraft:netherite_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "243"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor243.name"
+
+                              }
                         }
                     }
                 ]
@@ -324,9 +344,10 @@
                     {
                         "items": "minecraft:leather_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "244"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor244.name"
+
+                              }
                         }
                     }
                 ]
@@ -339,9 +360,10 @@
                     {
                         "items": "minecraft:leather_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "245"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor245.name"
+
+                              }
                         }
                     }
                 ]
@@ -354,9 +376,10 @@
                     {
                         "items": "minecraft:leather_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "246"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor246.name"
+
+                              }
                         }
                     }
                 ]
@@ -369,9 +392,10 @@
                     {
                         "items": "minecraft:leather_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "247"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor247.name"
+
+                              }
                         }
                     }
                 ]
@@ -384,9 +408,10 @@
                     {
                         "items": "minecraft:netherite_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "316"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor316.name"
+
+                              }
                         }
                     }
                 ]
@@ -399,9 +424,10 @@
                     {
                         "items": "minecraft:netherite_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "317"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor317.name"
+
+                              }
                         }
                     }
                 ]
@@ -414,9 +440,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "318"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor318.name"
+
+                              }
                         }
                     }
                 ]
@@ -429,9 +456,10 @@
                     {
                         "items": "minecraft:netherite_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "319"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor319.name"
+
+                              }
                         }
                     }
                 ]
@@ -444,9 +472,10 @@
                     {
                         "items": "minecraft:netherite_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "320"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor320.name"
+
+                              }
                         }
                     }
                 ]
@@ -459,9 +488,10 @@
                     {
                         "items": "minecraft:netherite_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "321"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor321.name"
+
+                              }
                         }
                     }
                 ]
@@ -474,9 +504,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "322"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor322.name"
+
+                              }
                         }
                     }
                 ]
@@ -489,9 +520,10 @@
                     {
                         "items": "minecraft:netherite_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "323"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor323.name"
+
+                              }
                         }
                     }
                 ]
@@ -504,9 +536,10 @@
                     {
                         "items": "minecraft:netherite_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "324"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor324.name"
+
+                              }
                         }
                     }
                 ]
@@ -519,9 +552,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "325"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor325.name"
+
+                              }
                         }
                     }
                 ]
@@ -534,9 +568,10 @@
                     {
                         "items": "minecraft:netherite_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "326"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor326.name"
+
+                              }
                         }
                     }
                 ]
@@ -549,9 +584,10 @@
                     {
                         "items": "minecraft:netherite_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "327"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor327.name"
+
+                              }
                         }
                     }
                 ]
@@ -564,9 +600,10 @@
                     {
                         "items": "minecraft:netherite_helmet",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "328"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor328.name"
+
+                              }
                         }
                     }
                 ]
@@ -579,9 +616,10 @@
                     {
                         "items": "minecraft:netherite_chestplate",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "329"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor329.name"
+
+                              }
                         }
                     }
                 ]
@@ -594,9 +632,10 @@
                     {
                         "items": "minecraft:netherite_leggings",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "330"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor330.name"
+
+                              }
                         }
                     }
                 ]
@@ -609,9 +648,10 @@
                     {
                         "items": "minecraft:netherite_boots",
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "Armor": "331"
-                            }
+                            "minecraft:custom_name": {
+                        "translate": "armor331.name"
+
+                              }
                         }
                     }
                 ]

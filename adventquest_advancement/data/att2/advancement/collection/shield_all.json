@@ -27,8 +27,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "50"
+              "minecraft:custom_name": {
+                "translate": "weapon50.name"
               }
             }
           }
@@ -42,8 +42,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "51"
+              "minecraft:custom_name": {
+                "translate": "weapon51.name"
               }
             }
           }
@@ -57,8 +57,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "52"
+              "minecraft:custom_name": {
+                "translate": "weapon52.name"
               }
             }
           }
@@ -72,8 +72,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "53"
+              "minecraft:custom_name": {
+                "translate": "weapon53.name"
               }
             }
           }
@@ -87,8 +87,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "54"
+              "minecraft:custom_name": {
+                "translate": "weapon54.name"
               }
             }
           }
@@ -102,8 +102,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "55"
+              "minecraft:custom_name": {
+                "translate": "weapon55.name"
               }
             }
           }
@@ -117,8 +117,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "56"
+              "minecraft:custom_name": {
+                "translate": "weapon56.name"
               }
             }
           }
@@ -132,8 +132,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "57"
+              "minecraft:custom_name": {
+                "translate": "weapon57.name"
               }
             }
           }
@@ -147,8 +147,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "58"
+              "minecraft:custom_name": {
+                "translate": "weapon58.name"
               }
             }
           }
@@ -162,8 +162,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "59"
+              "minecraft:custom_name": {
+                "translate": "weapon59.name"
               }
             }
           }
@@ -177,8 +177,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "60"
+              "minecraft:custom_name": {
+                "translate": "weapon60.name"
               }
             }
           }
@@ -192,8 +192,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "61"
+              "minecraft:custom_name": {
+                "translate": "weapon61.name"
               }
             }
           }
@@ -207,8 +207,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "62"
+              "minecraft:custom_name": {
+                "translate": "weapon62.name"
               }
             }
           }
@@ -222,8 +222,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "63"
+              "minecraft:custom_name": {
+                "translate": "weapon63.name"
               }
             }
           }
@@ -237,8 +237,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "160"
+              "minecraft:custom_name": {
+                "translate": "weapon160.name"
               }
             }
           }
@@ -252,8 +252,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "161"
+              "minecraft:custom_name": {
+                "translate": "weapon161.name"
               }
             }
           }
@@ -267,8 +267,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "162"
+              "minecraft:custom_name": {
+                "translate": "weapon162.name"
               }
             }
           }
@@ -282,8 +282,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "163"
+              "minecraft:custom_name": {
+                "translate": "weapon163.name"
               }
             }
           }
@@ -297,8 +297,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "192"
+              "minecraft:custom_name": {
+                "translate": "weapon192.name"
               }
             }
           }
@@ -312,8 +312,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "193"
+              "minecraft:custom_name": {
+                "translate": "weapon193.name"
               }
             }
           }
@@ -327,8 +327,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "194"
+              "minecraft:custom_name": {
+                "translate": "weapon194.name"
               }
             }
           }
@@ -342,8 +342,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "195"
+              "minecraft:custom_name": {
+                "translate": "weapon195.name"
               }
             }
           }
@@ -357,8 +357,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "196"
+              "minecraft:custom_name": {
+                "translate": "weapon196.name"
               }
             }
           }
@@ -372,8 +372,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "220"
+              "minecraft:custom_name": {
+                "translate": "weapon220.name"
               }
             }
           }
@@ -387,8 +387,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "221"
+              "minecraft:custom_name": {
+                "translate": "weapon221.name"
               }
             }
           }

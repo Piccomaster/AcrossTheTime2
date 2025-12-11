@@ -27,8 +27,8 @@
           {
             "items": "minecraft:wooden_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "12"
+              "minecraft:custom_name": {
+                "translate": "weapon12.name"
               }
             }
           }

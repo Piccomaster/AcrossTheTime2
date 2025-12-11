@@ -27,8 +27,8 @@
           {
             "items": "minecraft:wooden_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "15"
+              "minecraft:custom_name": {
+                "translate": "weapon15.name"
               }
             }
           }

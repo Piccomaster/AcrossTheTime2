@@ -27,8 +27,8 @@
           {
             "items": "minecraft:leather_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "1"
+              "minecraft:custom_name": {
+                "translate": "armor1.name"
               }
             }
           }

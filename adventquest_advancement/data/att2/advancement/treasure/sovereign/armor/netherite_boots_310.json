@@ -25,7 +25,7 @@
             "items": "minecraft:netherite_boots",
             "predicates": {
               "minecraft:custom_data": {
-                "Armor": "310"
+                "Armor": 310
               }
             }
           }

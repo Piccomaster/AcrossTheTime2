@@ -28,8 +28,8 @@
           {
             "items": "minecraft:golden_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "148"
+              "minecraft:custom_name": {
+                "translate": "weapon148.name"
               }
             }
           }

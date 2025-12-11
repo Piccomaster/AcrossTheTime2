@@ -27,8 +27,8 @@
           {
             "items": "minecraft:diamond_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "106"
+              "minecraft:custom_name": {
+                "translate": "weapon106.name"
               }
             }
           }

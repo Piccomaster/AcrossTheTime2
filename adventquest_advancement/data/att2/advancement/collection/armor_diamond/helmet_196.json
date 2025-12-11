@@ -28,8 +28,8 @@
           {
             "items": "minecraft:diamond_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "196"
+              "minecraft:custom_name": {
+                "translate": "armor196.name"
               }
             }
           }

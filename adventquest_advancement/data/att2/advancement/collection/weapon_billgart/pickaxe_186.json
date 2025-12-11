@@ -28,8 +28,8 @@
           {
             "items": "minecraft:stone_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "186"
+              "minecraft:custom_name": {
+                "translate": "weapon186.name"
               }
             }
           }

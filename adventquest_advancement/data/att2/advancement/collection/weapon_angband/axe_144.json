@@ -28,8 +28,8 @@
           {
             "items": "minecraft:golden_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "144"
+              "minecraft:custom_name": {
+                "translate": "weapon144.name"
               }
             }
           }

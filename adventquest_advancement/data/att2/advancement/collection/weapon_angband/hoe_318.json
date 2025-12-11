@@ -27,8 +27,8 @@
           {
             "items": "minecraft:golden_hoe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "318"
+              "minecraft:custom_name": {
+                "translate": "weapon318.name"
               }
             }
           }

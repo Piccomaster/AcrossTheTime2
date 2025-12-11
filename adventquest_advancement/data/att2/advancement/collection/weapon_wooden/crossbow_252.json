@@ -28,8 +28,8 @@
           {
             "items": "minecraft:crossbow",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "252"
+              "minecraft:custom_name": {
+                "translate": "weapon252.name"
               }
             }
           }

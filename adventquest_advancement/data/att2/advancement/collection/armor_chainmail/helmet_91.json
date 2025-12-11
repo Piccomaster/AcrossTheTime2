@@ -28,8 +28,8 @@
           {
             "items": "minecraft:chainmail_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "91"
+              "minecraft:custom_name": {
+                "translate": "armor91.name"
               }
             }
           }

@@ -6,8 +6,8 @@
         "minecraft:potion_contents": {
           "custom_color": 1315080
         },
-        "minecraft:custom_data": {
-          "Potion": "44"
+        "minecraft:custom_name": {
+              "translate": "potion44.name"
         },
         "tooltip_style": "minecraft:rarity/epi/epi"
       }
@@ -34,8 +34,8 @@
           {
             "items": "minecraft:lingering_potion",
             "predicates": {
-              "minecraft:custom_data": {
-                "Potion": "44"
+              "minecraft:custom_name": {
+                "translate": "potion44.name"
               }
             }
           }

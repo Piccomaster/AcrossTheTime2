@@ -25,7 +25,7 @@
             "items": "minecraft:crossbow",
             "predicates": {
               "minecraft:custom_data": {
-                "Weapon": "336"
+                "Weapon": 336
               }
             }
           }

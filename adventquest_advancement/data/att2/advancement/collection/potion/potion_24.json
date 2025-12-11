@@ -6,8 +6,8 @@
         "minecraft:potion_contents": {
           "custom_color": 14438144
         },
-        "minecraft:custom_data": {
-          "Potion": "24"
+        "minecraft:custom_name": {
+              "translate": "potion24.name"
         },
         "tooltip_style": "minecraft:rarity/epi/epi"
       }
@@ -34,8 +34,8 @@
           {
             "items": "minecraft:potion",
             "predicates": {
-              "minecraft:custom_data": {
-                "Potion": "24"
+              "minecraft:custom_name": {
+                "translate": "potion24.name"
               }
             }
           }

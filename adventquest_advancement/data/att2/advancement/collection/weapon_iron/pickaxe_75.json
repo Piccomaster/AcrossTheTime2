@@ -27,8 +27,8 @@
           {
             "items": "minecraft:iron_pickaxe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "75"
+              "minecraft:custom_name": {
+                "translate": "weapon75.name"
               }
             }
           }

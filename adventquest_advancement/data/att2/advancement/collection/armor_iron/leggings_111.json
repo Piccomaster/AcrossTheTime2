@@ -27,8 +27,8 @@
           {
             "items": "minecraft:iron_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "111"
+              "minecraft:custom_name": {
+                "translate": "armor111.name"
               }
             }
           }

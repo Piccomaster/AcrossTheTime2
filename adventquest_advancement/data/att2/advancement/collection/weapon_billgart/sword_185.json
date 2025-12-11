@@ -28,8 +28,8 @@
           {
             "items": "minecraft:stone_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "185"
+              "minecraft:custom_name": {
+                "translate": "weapon185.name"
               }
             }
           }

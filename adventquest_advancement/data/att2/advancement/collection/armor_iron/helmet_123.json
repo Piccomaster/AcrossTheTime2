@@ -28,8 +28,8 @@
           {
             "items": "minecraft:iron_helmet",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "123"
+              "minecraft:custom_name": {
+                "translate": "armor123.name"
               }
             }
           }

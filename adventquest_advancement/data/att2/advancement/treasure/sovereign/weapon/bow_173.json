@@ -25,7 +25,7 @@
             "items": "minecraft:bow",
             "predicates": {
               "minecraft:custom_data": {
-                "Weapon": "173"
+                "Weapon": 173
               }
             }
           }

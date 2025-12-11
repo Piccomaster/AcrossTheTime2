@@ -4,7 +4,7 @@
       "id": "minecraft:potion",
       "predicates": {
         "minecraft:custom_data": {
-          "Potion": "26"
+          "Potion": 26
         }
       }
     },
@@ -30,7 +30,7 @@
             "items": "minecraft:potion",
             "predicates": {
               "minecraft:custom_data": {
-                "Potion": "26"
+                "Potion": 26
               }
             }
           }

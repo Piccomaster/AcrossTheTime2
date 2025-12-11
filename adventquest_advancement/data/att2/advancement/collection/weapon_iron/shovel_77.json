@@ -27,8 +27,8 @@
           {
             "items": "minecraft:iron_shovel",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "77"
+              "minecraft:custom_name": {
+                "translate": "weapon77.name"
               }
             }
           }

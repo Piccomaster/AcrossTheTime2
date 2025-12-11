@@ -6,8 +6,8 @@
         "minecraft:potion_contents": {
           "custom_color": 16754081
         },
-        "minecraft:custom_data": {
-          "Potion": "28"
+        "minecraft:custom_name": {
+              "translate": "potion28.name"
         },
         "tooltip_style": "minecraft:rarity/leg/leg"
       }
@@ -34,8 +34,8 @@
           {
             "items": "minecraft:potion",
             "predicates": {
-              "minecraft:custom_data": {
-                "Potion": "28"
+              "minecraft:custom_name": {
+                "translate": "potion28.name"
               }
             }
           }

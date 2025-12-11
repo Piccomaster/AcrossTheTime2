@@ -46,7 +46,7 @@
             "items": "minecraft:shield",
             "predicates": {
               "minecraft:custom_data": {
-                "Weapon": "174"
+                "Weapon": 174
               }
             }
           }

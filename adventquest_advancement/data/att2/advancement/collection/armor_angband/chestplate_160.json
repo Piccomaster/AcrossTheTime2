@@ -28,8 +28,8 @@
           {
             "items": "minecraft:golden_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "160"
+              "minecraft:custom_name": {
+                "translate": "armor160.name"
               }
             }
           }

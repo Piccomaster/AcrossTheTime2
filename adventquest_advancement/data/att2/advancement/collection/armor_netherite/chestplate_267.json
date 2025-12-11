@@ -27,8 +27,8 @@
           {
             "items": "minecraft:netherite_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "267"
+              "minecraft:custom_name": {
+                "translate": "armor267.name"
               }
             }
           }

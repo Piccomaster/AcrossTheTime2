@@ -4,7 +4,7 @@
       "id": "minecraft:splash_potion",
       "predicates": {
         "minecraft:custom_data": {
-          "Potion": "39"
+          "Potion": 39
         }
       }
     },
@@ -30,7 +30,7 @@
             "items": "minecraft:splash_potion",
             "predicates": {
               "minecraft:custom_data": {
-                "Potion": "39"
+                "Potion": 39
               }
             }
           }

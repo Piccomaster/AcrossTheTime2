@@ -6,8 +6,8 @@
         "minecraft:potion_contents": {
           "custom_color": 12501185
         },
-        "minecraft:custom_data": {
-          "Potion": "38"
+        "minecraft:custom_name": {
+              "translate": "potion38.name"
         },
         "tooltip_style": "minecraft:rarity/epi/epi"
       }
@@ -34,8 +34,8 @@
           {
             "items": "minecraft:splash_potion",
             "predicates": {
-              "minecraft:custom_data": {
-                "Potion": "38"
+              "minecraft:custom_name": {
+                "translate": "potion38.name"
               }
             }
           }

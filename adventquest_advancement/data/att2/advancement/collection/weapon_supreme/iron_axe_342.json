@@ -23,8 +23,8 @@
           {
             "items": "minecraft:iron_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "342"
+              "minecraft:custom_name": {
+                "translate": "weapon342.name"
               }
             }
           }

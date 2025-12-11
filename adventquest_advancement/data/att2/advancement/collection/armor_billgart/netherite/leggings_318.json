@@ -27,8 +27,8 @@
           {
             "items": "minecraft:netherite_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "318"
+              "minecraft:custom_name": {
+                "translate": "armor318.name"
               }
             }
           }

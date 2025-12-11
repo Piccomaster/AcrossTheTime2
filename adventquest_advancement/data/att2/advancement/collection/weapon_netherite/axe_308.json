@@ -28,8 +28,8 @@
           {
             "items": "minecraft:netherite_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "308"
+              "minecraft:custom_name": {
+                "translate": "weapon308.name"
               }
             }
           }

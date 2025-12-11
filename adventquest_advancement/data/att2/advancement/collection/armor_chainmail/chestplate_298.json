@@ -28,8 +28,8 @@
           {
             "items": "minecraft:chainmail_chestplate",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "298"
+              "minecraft:custom_name": {
+                "translate": "armor298.name"
               }
             }
           }

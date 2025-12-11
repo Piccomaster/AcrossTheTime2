@@ -27,8 +27,8 @@
           {
             "items": "minecraft:elytra",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "211"
+              "minecraft:custom_name": {
+                "translate": "armor211.name"
               }
             }
           }

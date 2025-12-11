@@ -27,8 +27,8 @@
           {
             "items": "minecraft:golden_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "142"
+              "minecraft:custom_name": {
+                "translate": "weapon142.name"
               }
             }
           }

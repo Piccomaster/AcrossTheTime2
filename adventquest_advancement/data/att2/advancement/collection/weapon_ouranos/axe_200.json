@@ -27,8 +27,8 @@
           {
             "items": "minecraft:stone_axe",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "200"
+              "minecraft:custom_name": {
+                "translate": "weapon200.name"
               }
             }
           }

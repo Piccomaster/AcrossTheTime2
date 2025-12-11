@@ -27,8 +27,8 @@
           {
             "items": "minecraft:netherite_sword",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "285"
+              "minecraft:custom_name": {
+                "translate": "weapon285.name"
               }
             }
           }

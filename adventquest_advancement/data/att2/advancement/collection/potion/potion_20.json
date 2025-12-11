@@ -6,8 +6,8 @@
         "minecraft:potion_contents": {
           "custom_color": 65280
         },
-        "minecraft:custom_data": {
-          "Potion": "20"
+        "minecraft:custom_name": {
+              "translate": "potion20.name"
         },
         "tooltip_style": "minecraft:rarity/rar/rar"
       }
@@ -34,8 +34,8 @@
           {
             "items": "minecraft:potion",
             "predicates": {
-              "minecraft:custom_data": {
-                "Potion": "20"
+              "minecraft:custom_name": {
+                "translate": "potion20.name"
               }
             }
           }

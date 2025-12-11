@@ -28,8 +28,8 @@
           {
             "items": "minecraft:chainmail_leggings",
             "predicates": {
-              "minecraft:custom_data": {
-                "Armor": "97"
+              "minecraft:custom_name": {
+                "translate": "armor97.name"
               }
             }
           }

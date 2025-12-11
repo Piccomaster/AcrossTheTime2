@@ -62,8 +62,8 @@
           {
             "items": "minecraft:shield",
             "predicates": {
-              "minecraft:custom_data": {
-                "Weapon": "161"
+              "minecraft:custom_name": {
+                "translate": "weapon161.name"
               }
             }
           }
