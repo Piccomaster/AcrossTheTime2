@@ -32,7 +32,7 @@
         ],
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/legendary/fenrir/normal_atk/effect"
+          "function": "att2:gameplay/legendary/rukyrion/particle/atk_effect"
         }
       }
     ],
@@ -40,7 +40,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/legendary/fenrir/hold_go"
+          "function": "att2:gameplay/legendary/rukyrion/hold"
         }
       }
     ]

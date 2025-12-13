@@ -1,7 +1,7 @@
 {
     "anvil_cost": 7,
     "description": {
-        "translate": "enchantment.att2.arcanedrive"
+        "translate": " "
     },
     "max_cost": {
         "base": 7,
@@ -13,16 +13,16 @@
         "per_level_above_first": 7
     },
     "slots": [
-        "legs"
+        "hand"
     ],
-    "supported_items": "#minecraft:leg_armor",
+    "supported_items": "minecraft:bow",
     "weight": 1,
     "effects": {
         "tick": [
             {
                 "effect": {
                     "type": "run_function",
-                    "function": "att2:gameplay/enchantment/trigger_function/arcanedrive"
+                    "function": "att2:gameplay/legendary/lostpast/hold"
                 }
             }
         ]

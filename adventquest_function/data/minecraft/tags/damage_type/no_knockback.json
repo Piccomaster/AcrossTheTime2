@@ -29,7 +29,6 @@
     "minecraft:generic_kill",
     "minecraft:campfire",
     "att2_damage:fire",
-    "att2_damage:player_attack",
     "att2_damage:magic"
   ]
 }
