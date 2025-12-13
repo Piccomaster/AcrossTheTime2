@@ -32,11 +32,15 @@ scoreboard players set @s RES_EH 0
 scoreboard objectives add RES_EXT dummy
 scoreboard players set @s RES_EXT 0
 
+scoreboard objectives add RES_LE dummy
+scoreboard players set @s RES_LE 0
+
 scoreboard objectives add TIMER_RES_SP dummy
 scoreboard objectives add TIMER_RES_EQ dummy
 scoreboard objectives add TIMER_RES_EXT dummy
 scoreboard objectives add TIMER_RES_PO dummy
 scoreboard objectives add TIMER_RES_EH dummy
+scoreboard objectives add TIMER_RES_LE dummy
 scoreboard objectives add POTION_CHECK_RES dummy
 
 scoreboard objectives add RES_UPGRADE_REQ dummy

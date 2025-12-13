@@ -13,6 +13,6 @@ scoreboard players operation #fire CAL > 1 CAL
 #return macao
 execute store result storage att2:score damage int 1 run scoreboard players get #fire CAL
 #damage go
-#function att2:gameplay/misc/fire_damage/damage with storage att2:score
+function att2:gameplay/misc/fire_damage/damage with storage att2:score
 #reset
 scoreboard players reset #fire CAL

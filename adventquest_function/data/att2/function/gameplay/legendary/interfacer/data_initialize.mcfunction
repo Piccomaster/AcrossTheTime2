@@ -20,7 +20,7 @@ scoreboard players operation @s ARR_POWER /= 100 CAL
 summon armor_stand ~ ~ ~ {Tags:["InterfacerShoot","New"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:legendary/interfacer/arrow_effect":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
 ##set base score
 scoreboard players set @n[distance=..5,type=armor_stand,tag=New,tag=InterfacerShoot] LIFETIME 60
-scoreboard players operation @n[distance=..5,type=armor_stand,tag=New,tag=InterfacerShoot] InterfacerShoot = @s InterfacerShoot
+scoreboard players operation @n[distance=..5,type=armor_stand,tag=New,tag=InterfacerShoot] OWNER = @s OWNER
 ##DahalMagasin
 execute if score #dahal_magasin CAL matches 101.. run tag @n[distance=..5,type=armor_stand,tag=New,tag=InterfacerShoot] add DahalMagasin
 execute if score #dahal_magasin CAL matches 101.. run tag @s add DahalMagasin

@@ -3,7 +3,7 @@
 #Display in name level difference for superelite monsters#
 ##########################################################
 
-particle minecraft:dripping_lava ~ ~1 ~ 0.3 0.5 0.3 1 3 normal
+particle minecraft:dripping_lava ~ ~1 ~ 0.2 0.3 0.2 1 3 normal
 particle minecraft:lava ~ ~1 ~ 0 0.25 0 0 1 normal
 ##Glowing
 effect give @s glowing infinite 0 true

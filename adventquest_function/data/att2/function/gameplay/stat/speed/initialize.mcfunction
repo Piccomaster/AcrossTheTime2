@@ -30,11 +30,15 @@ scoreboard players set @s SPD_EH 0
 scoreboard objectives add SPD_EXT dummy
 scoreboard players set @s SPD_EXT 0
 
+scoreboard objectives add SPD_LE dummy
+scoreboard players set @s SPD_LE 0
+
 scoreboard objectives add TIMER_SPD_SP dummy
 scoreboard objectives add TIMER_SPD_EQ dummy
 scoreboard objectives add TIMER_SPD_EXT dummy
 scoreboard objectives add TIMER_SPD_PO dummy
 scoreboard objectives add TIMER_SPD_EH dummy
+scoreboard objectives add TIMER_SPD_LE dummy
 scoreboard objectives add POTION_CHECK_SPD dummy
 
 scoreboard objectives add SPD_UPGRADE_REQ dummy

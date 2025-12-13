@@ -25,3 +25,7 @@ execute as @s[tag=CLASS18] run return run function att2:gameplay/leveling/monste
 execute as @s[tag=CLASS19] run return run function att2:gameplay/leveling/monster/initialize/class19
 execute as @s[tag=CLASS20] run return run function att2:gameplay/leveling/monster/initialize/class20
 execute as @s[tag=CLASS21] run return run function att2:gameplay/leveling/monster/initialize/class21
+
+
+##unless CLASS -> Invulnerable
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_tick":0}}

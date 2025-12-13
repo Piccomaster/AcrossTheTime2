@@ -5,14 +5,11 @@
 
 #remove time
 scoreboard players remove @s[scores={TIMER_DAR_SP=1..}] TIMER_DAR_SP 1
-
 scoreboard players remove @s[scores={TIMER_DAR_EQ=1..}] TIMER_DAR_EQ 1
-
 scoreboard players remove @s[scores={TIMER_DAR_EXT=1..}] TIMER_DAR_EXT 1
-
 scoreboard players remove @s[scores={TIMER_DAR_PO=1..}] TIMER_DAR_PO 1
-
 scoreboard players remove @s[scores={TIMER_DAR_EH=1..}] TIMER_DAR_EH 1
+scoreboard players remove @s[scores={TIMER_DAR_LE=1..}] TIMER_DAR_LE 1
 
 #remove attribute
 scoreboard players set @s[scores={TIMER_DAR_EQ=..0}] DAR_EQ 0
@@ -20,5 +17,6 @@ scoreboard players set @s[scores={TIMER_DAR_SP=..0}] DAR_SP 0
 scoreboard players set @s[scores={TIMER_DAR_EXT=..0}] DAR_EXT 0
 scoreboard players set @s[scores={TIMER_DAR_PO=..0}] DAR_PO 0
 scoreboard players set @s[scores={TIMER_DAR_EH=..0}] DAR_EH 0
+scoreboard players set @s[scores={TIMER_DAR_LE=..0}] DAR_LE 0
 ##POTION_TIP
 execute as @s[scores={TIMER_DAR_PO=..200,DAR_PO=0..,POTION_CHECK_DAR=1}] run function att2:dialogs/gameplay/potion_tip/dar_time

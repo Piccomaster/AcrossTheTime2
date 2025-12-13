@@ -4,7 +4,7 @@
 #################################################################
 
 #revoke test
-advancement revoke @s only att2_test:test_mobskilled/spell_kill/spell_11
+#advancement revoke @s only att2_test:test_mobskilled/spell_kill/spell_11
 #test count
 function att2:advancement/test_all/spell/kill_count
 ##add spell xp
@@ -28,6 +28,7 @@ execute if score @s[scores={SPELL11_CAP=..9}] SPELL11_LVL >= cap10 SPELL11_LVL r
 #test if up
 execute if score TEST CAL > @s SPELL11_CAP run scoreboard players operation @s SPELL11_CAP = TEST CAL
 execute if score TEST CAL > @s SPELL11_CAP run function att2:gameplay/dahal/action/spell11/lvlup
-
+#sound
+playsound minecraft:entity.player.levelup player @a ~ ~ ~ 150 1.5
 ##dailyquest trigger
 function att2:cinematic/dailyquest/trigger/spell_kill/spell_11

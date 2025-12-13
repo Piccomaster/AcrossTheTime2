@@ -19,10 +19,10 @@ scoreboard players operation #damage CAL = @s FENRIR_DAMAGE
 execute as @e[distance=..5,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!Guardian,type=!squid] at @s run function att2:gameplay/legendary/fenrir/range/enemy_effect
 
 #range particle
-execute as @s[tag=!NextTime] run function att2:gameplay/legendary/fenrir/range/range_effect
-tag @s add NextTime
+function att2:gameplay/legendary/fenrir/range/range_effect
+execute if score @s FENRIR_TIMER matches 15 run function att2:gameplay/legendary/fenrir/range/clear_error
 #unfreeze sound
-execute if score @s FENRIR_TIMER matches 20..30 run function att2:sound/legendary/fenrir_unfroze
+execute if score @s FENRIR_TIMER matches 5 run function att2:sound/legendary/fenrir_unfroze
 #remove score
 execute unless score @s FENRIR_TIMER matches ..0 run return run scoreboard players remove @s FENRIR_TIMER 1
 #reset

@@ -4,8 +4,8 @@
 #################################################################
 
 ##make health trigger full
-effect give @s[type=#minecraft:undead] minecraft:instant_damage 1 200 true
-effect give @s[type=!#minecraft:undead] minecraft:instant_health 1 200 true
+effect clear @s absorption
+effect give @s absorption infinite 249 true
 
 #get absorption health
 scoreboard players operation #absorption_health CAL = #reduce_health CAL
@@ -20,11 +20,13 @@ execute if score #reduce_health CAL matches ..-1 run scoreboard players operatio
 execute if score #reduce_health CAL matches ..-1 run scoreboard players operation @s ENEMYABHEALTH *= -1 CAL
 execute if score #reduce_health CAL matches ..-1 run scoreboard players set #reduce_health CAL 0
 ##tip
-tellraw @a [{text:"===============================",color:yellow}]
-tellraw @a [{text:"Damage Absorption:"},{score:{name:"#absorption_health",objective:"CAL"},color:red}]
-tellraw @a [{text:"Remain Absorption:"},{score:{name:"@s",objective:"ENEMYABHEALTH"},color:red}]
+#tellraw @a [{text:"===============================",color:yellow}]
+#tellraw @a [{text:"Damage Absorption:"},{score:{name:"#absorption_health",objective:"CAL"},color:red}]
+#tellraw @a [{text:"Remain Absorption:"},{score:{name:"@s",objective:"ENEMYABHEALTH"},color:red}]
 
 ##particle
 execute if score #absorption_health CAL matches ..5 run particle minecraft:item{item:{id:"apple",components:{item_model:"heart/absorption_heart"}}} ~ ~0.5 ~ 0.5 0.5 0.5 0 10 normal
 execute if score #absorption_health CAL matches 6..10 run particle minecraft:item{item:{id:"apple",components:{item_model:"heart/absorption_heart"}}} ~ ~0.5 ~ 0.5 0.5 0.5 0 20 normal
 execute if score #absorption_health CAL matches 11.. run particle minecraft:item{item:{id:"apple",components:{item_model:"heart/absorption_heart"}}} ~ ~0.5 ~ 0.5 0.5 0.5 0 30 normal
+#sound
+playsound minecraft:entity.blaze.hurt ambient @a ~ ~ ~ 1 0.6

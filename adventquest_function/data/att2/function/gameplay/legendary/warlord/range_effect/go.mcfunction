@@ -3,18 +3,13 @@
 #Process the effect of War Lord					 #
 ##################################################
 
-#remove score
-scoreboard players remove @s WL_TIMER 1
 #set damage tick
-execute if score tic TIMECOUNTER matches 1 run scoreboard players set TIMER CAL 1
-execute if score tic TIMECOUNTER matches 5 run scoreboard players set TIMER CAL 1
-execute if score tic TIMECOUNTER matches 9 run scoreboard players set TIMER CAL 1
-execute if score tic TIMECOUNTER matches 14 run scoreboard players set TIMER CAL 1
-execute if score tic TIMECOUNTER matches 19 run scoreboard players set TIMER CAL 1
+execute unless score tic TIMECOUNTER matches 1 unless score tic TIMECOUNTER matches 5 unless score tic TIMECOUNTER matches 9 unless score tic TIMECOUNTER matches 13 unless score tic TIMECOUNTER matches 17 run return fail
 #particle
-execute if score TIMER CAL matches 1 run function att2:gameplay/legendary/warlord/range_effect/effect
+function att2:gameplay/legendary/warlord/range_effect/effect
 #damage
-execute if score TIMER CAL matches 1 run function att2:gameplay/legendary/warlord/range_effect/damage_cal
+function att2:gameplay/legendary/warlord/range_effect/damage_cal
+#remove score
+execute unless score @s LIFETIME matches ..1000 run return run scoreboard players remove @s LIFETIME 1
 ##reset
-scoreboard players reset TIMER CAL
-execute if score @s WL_TIMER matches ..0 run function att2:gameplay/legendary/warlord/reset
+kill @s[type=armor_stand]

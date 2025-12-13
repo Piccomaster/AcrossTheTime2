@@ -10,6 +10,7 @@ scoreboard players operation @s LUC_TOT += @s LUC_EQ
 scoreboard players operation @s LUC_TOT += @s LUC_EXT
 scoreboard players operation @s LUC_TOT += @s LUC_PO
 scoreboard players operation @s LUC_TOT += @s LUC_EH
+scoreboard players operation @s LUC_TOT += @s LUC_LE
 
 #CAL LUC
 scoreboard players operation @s LUC_DATA = @s LUC_TOT

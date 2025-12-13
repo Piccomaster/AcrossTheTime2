@@ -18,7 +18,11 @@ scoreboard players set @s SPECIAL_ELITE 6
 ##add 100% max Health
 execute store result score MAX_HEALTH CAL run attribute @s max_health get
 scoreboard players operation MAX_HEALTH CAL *= 2 CAL
-execute if score MAX_HEALTH CAL matches 1024.. run scoreboard players set MAX_HEALTH CAL 1024
+scoreboard players operation AB_HEALTH CAL = MAX_HEALTH CAL
+scoreboard players remove AB_HEALTH CAL 1024
+scoreboard players operation AB_HEALTH CAL > 0 CAL
+scoreboard players operation @s ENEMYABHEALTH += AB_HEALTH CAL
+execute if score MAX_HEALTH CAL matches 1024.. run scoreboard players set MAX_HEALTH CAL 1000
 ##return
 execute store result entity @s attributes[{id:"minecraft:max_health"}].base int 1 run scoreboard players get MAX_HEALTH CAL
 execute store result entity @s Health int 1 run scoreboard players get MAX_HEALTH CAL

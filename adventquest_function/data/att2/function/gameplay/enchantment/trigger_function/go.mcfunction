@@ -38,7 +38,7 @@ function att2:gameplay/enchantment/trigger_function/hpmax_ex_dahalmax
 #dahalburst
 #function att2:gameplay/enchantment/trigger_function/dahalburst
 #arcanedrive
-function att2:gameplay/enchantment/trigger_function/arcanedrive
+#function att2:gameplay/enchantment/trigger_function/arcanedrive
 #cooldownrush
 function att2:gameplay/enchantment/trigger_function/cooldownrush
 #selflessaid

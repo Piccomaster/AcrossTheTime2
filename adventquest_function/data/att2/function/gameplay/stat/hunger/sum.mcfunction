@@ -10,3 +10,4 @@ scoreboard players operation @s HUN_TOT += @s HUN_EQ
 scoreboard players operation @s HUN_TOT += @s HUN_EXT
 scoreboard players operation @s HUN_TOT += @s HUN_PO
 scoreboard players operation @s HUN_TOT += @s HUN_EH
+scoreboard players operation @s HUN_TOT += @s HUN_LE

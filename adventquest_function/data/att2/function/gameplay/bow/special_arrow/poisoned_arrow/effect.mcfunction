@@ -7,10 +7,10 @@
 execute unless score tic TIMECOUNTER matches 1 unless score tic TIMECOUNTER matches 11 run return fail
 ##percent remove time 10s->end
 ##get time
-scoreboard players operation #time CAL = @s CORRUPTARROWTIME
+scoreboard players operation #time CAL = @s POISONEDARROWTIME
 scoreboard players operation #time CAL %= 100 CAL
 ##get buff+
-scoreboard players operation #buff CAL = @s CORRUPTARROWTIME
+scoreboard players operation #buff CAL = @s POISONEDARROWTIME
 scoreboard players operation #buff CAL /= 100 CAL
 ##remove time
 scoreboard players remove #time CAL 10
@@ -26,8 +26,8 @@ scoreboard players operation #buff CAL /= 100 CAL
 
 ##update time
 scoreboard players operation #buff CAL *= 100 CAL
-scoreboard players operation @s CORRUPTARROWTIME = #buff CAL
-scoreboard players operation @s CORRUPTARROWTIME += #time CAL
+scoreboard players operation @s POISONEDARROWTIME = #buff CAL
+scoreboard players operation @s POISONEDARROWTIME += #time CAL
 
 ##limit
 execute if score #time CAL matches 0 run function att2:gameplay/bow/special_arrow/poisoned_arrow/reset

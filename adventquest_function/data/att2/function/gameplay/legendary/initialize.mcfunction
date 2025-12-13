@@ -4,7 +4,7 @@
 #This function have to be use for a designed player	#
 #####################################################
 
-scoreboard objectives add DAMAGE minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add DAMAGE minecraft.custom:minecraft.damage_dealt_absorbed
 scoreboard objectives add GAMEMODE dummy
 
 function att2:gameplay/legendary/blindshield/initialize

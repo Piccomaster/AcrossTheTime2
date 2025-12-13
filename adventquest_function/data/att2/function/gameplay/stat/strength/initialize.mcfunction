@@ -30,11 +30,15 @@ scoreboard players set @s STR_EH 0
 scoreboard objectives add STR_EXT dummy
 scoreboard players set @s STR_EXT 0
 
+scoreboard objectives add STR_LE dummy
+scoreboard players set @s STR_LE 0
+
 scoreboard objectives add TIMER_STR_SP dummy
 scoreboard objectives add TIMER_STR_EQ dummy
 scoreboard objectives add TIMER_STR_EXT dummy
 scoreboard objectives add TIMER_STR_PO dummy
 scoreboard objectives add TIMER_STR_EH dummy
+scoreboard objectives add TIMER_STR_LE dummy
 scoreboard objectives add POTION_CHECK_STR dummy
 
 scoreboard objectives add STR_UPGRADE_REQ dummy

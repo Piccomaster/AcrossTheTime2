@@ -14,7 +14,6 @@ execute if score combo SYSTEM matches 1 run function att2:gameplay/combo/go
 execute if score dahal SYSTEM matches 1 run function att2:gameplay/dahal/go
 execute if score death SYSTEM matches 1 run function att2:gameplay/death/go
 execute if score dimension SYSTEM matches 1 run function att2:gameplay/dimension/go
-function att2:gameplay/stat/go
 execute if score equipment SYSTEM matches 1 run function att2:gameplay/equipment/go
 execute if score enveffect SYSTEM matches 1 run function att2:gameplay/enveffect/go
 execute if score forbiddenentity SYSTEM matches 1 run function att2:gameplay/forbiddenentity/go

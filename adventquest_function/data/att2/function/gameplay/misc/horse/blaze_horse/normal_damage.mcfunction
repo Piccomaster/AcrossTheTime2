@@ -4,7 +4,7 @@
 #################################################################
 
 #damage
-damage @s 50 minecraft:magic by @p
+#damage @s 50 minecraft:magic by @p
 
 execute store result score #Fire CAL run data get entity @s Fire
 execute store result entity @s Fire int 1 run scoreboard players add #Fire CAL 100

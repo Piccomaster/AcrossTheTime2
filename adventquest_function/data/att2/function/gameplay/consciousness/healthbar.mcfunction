@@ -42,5 +42,12 @@ execute if score atk_damage HEALTHBAR matches 0 run function att2:any_function/e
 execute if score atk_damage HEALTHBAR matches 1 run function att2:any_function/execute {function:['data modify storage att2:dialog color set value "red"','data modify storage att2:dialog id set value "atk_damage.run"','data modify storage att2:dialog executeid set value "258"']}
 function att2:gameplay/consciousness/insert/healthbar with storage att2:dialog
 
+#show_health_reduce
+data modify storage att2:dialog healthbar append value {label:{translate:consciousness.healthbar.show_health_reduce,color:gold},tooltip:{translate:consciousness.healthbar.show_health_reduce.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 2321"},width:150}
+#difference
+execute if score show_health_reduce ENEMYHEALTH matches 0 run function att2:any_function/execute {function:['data modify storage att2:dialog color set value "green"','data modify storage att2:dialog id set value "show_health_reduce.stop"','data modify storage att2:dialog executeid set value "3407"']}
+execute if score show_health_reduce ENEMYHEALTH matches 1 run function att2:any_function/execute {function:['data modify storage att2:dialog color set value "red"','data modify storage att2:dialog id set value "show_health_reduce.run"','data modify storage att2:dialog executeid set value "3408"']}
+function att2:gameplay/consciousness/insert/healthbar with storage att2:dialog
+
 ##show_dialog
 function att2:gameplay/consciousness/healthbar_show with storage att2:dialog

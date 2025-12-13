@@ -4,7 +4,7 @@
 #################################################################
 
 #get base damage
-execute store result score DAMAGE CAL run attribute @s attack_damage get
+execute store result score DAMAGE CAL run attribute @s attack_damage get 0.5
 scoreboard players operation RUK_ATK_TIMER CAL = @s RUK_ATK_TIMER
 #add ruk_atk_timer
 scoreboard players operation RUK_ATK_TIMER CAL /= 2 CAL

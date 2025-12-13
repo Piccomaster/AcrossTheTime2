@@ -10,6 +10,7 @@ scoreboard players operation @s STR_TOT += @s STR_EQ
 scoreboard players operation @s STR_TOT += @s STR_EXT
 scoreboard players operation @s STR_TOT += @s STR_PO
 scoreboard players operation @s STR_TOT += @s STR_EH
+scoreboard players operation @s STR_TOT += @s STR_LE
 
 #CAL STR
 scoreboard players operation @s STR_DATA = @s STR_TOT

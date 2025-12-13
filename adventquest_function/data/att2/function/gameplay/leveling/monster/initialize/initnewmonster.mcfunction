@@ -80,6 +80,8 @@ execute unless entity @s[tag=PlayerAlly] run team join hostile @s
 tag @s remove LVL0
 # Display the difference of level
 ###add health bar
+##initialize absorption health
+execute store result score @s ENEMYABHEALTH run data get entity @s AbsorptionAmount
 #add temp tag
 tag @s add HP_DIS
 #make health bar
@@ -89,8 +91,9 @@ tag @s remove HP_DIS
 
 ##store health->score
 execute store result score @s ENEMYHEALTH run attribute @s max_health get
-##initialize absorption health
-execute store result score @s ENEMYABHEALTH run data get entity @s AbsorptionAmount
+##set absorption
+effect clear @s absorption
+effect give @s absorption infinite 249 true
 
 #kill tag add/balance bat kill xp
 execute if score @s[type=minecraft:bat] CLASSLEVEL matches 10.. run scoreboard players set @s CLASSLEVEL 10

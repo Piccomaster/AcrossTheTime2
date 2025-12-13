@@ -10,6 +10,7 @@ scoreboard players operation @s HAS_TOT += @s HAS_EQ
 scoreboard players operation @s HAS_TOT += @s HAS_EXT
 scoreboard players operation @s HAS_TOT += @s HAS_PO
 scoreboard players operation @s HAS_TOT += @s HAS_EH
+scoreboard players operation @s HAS_TOT += @s HAS_LE
 
 #CAL HAS
 scoreboard players operation @s HAS_DATA = @s HAS_TOT

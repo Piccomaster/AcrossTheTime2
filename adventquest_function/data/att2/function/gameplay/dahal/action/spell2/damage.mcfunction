@@ -3,9 +3,7 @@
 #damage go          											#
 #################################################################
 
-#set kill score->spellKILL
-scoreboard players set @s SPELL_KILL 2
-scoreboard players operation @s ATTACKER = @a[tag=SPLAUNCH,limit=1] NUMEROJOUEUR
+#damage
 $damage @s[tag=!FB_DAHAL] $(SP2) att2_damage:magic by @a[tag=SPLAUNCH,limit=1]
 
 ##particle
@@ -14,3 +12,6 @@ execute at @s run playsound block.fire.extinguish ambient @a ~ ~ ~ 1 2
 #tag limit
 tag @s add SP2_ATKED
 
+##detection health
+function att2:gameplay/enemy_health/spell_health_trigger
+execute if score @s ENEMYHEALTH matches ..0 on attacker at @s run function att2:gameplay/dahal/spell_kill/spell_2
