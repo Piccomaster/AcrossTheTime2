@@ -180,3 +180,12 @@ scoreboard players set candle19_1 CANDLE_STATE 1
 scoreboard players set candle19_2 CANDLE_STATE 1
 scoreboard players set candle19_3 CANDLE_STATE 1
 scoreboard players set candle19_4 CANDLE_STATE 1
+
+scoreboard players set candle20_1 CANDLE_STATE 1
+scoreboard players set candle20_2 CANDLE_STATE 1
+scoreboard players set candle20_3 CANDLE_STATE 1
+scoreboard players set candle20_4 CANDLE_STATE 1
+scoreboard players set candle20_5 CANDLE_STATE 1
+scoreboard players set candle20_6 CANDLE_STATE 1
+scoreboard players set candle20_7 CANDLE_STATE 1
+scoreboard players set candle20_8 CANDLE_STATE 1
