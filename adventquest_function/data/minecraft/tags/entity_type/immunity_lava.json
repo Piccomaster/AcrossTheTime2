@@ -1,0 +1,8 @@
+{
+    "values": [
+      "minecraft:magma_cube",
+      "minecraft:blaze",
+      "minecraft:wither_skeleton"
+    ],
+    "replace": false
+  }

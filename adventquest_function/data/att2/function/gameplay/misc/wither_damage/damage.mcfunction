@@ -3,7 +3,8 @@
 #fire damage system					            				#
 #################################################################
 
-#remove tag
-tag @s remove FIRE
-#remove score
-scoreboard players reset @s FIRE
+#damage
+$damage @s $(damage) att2_damage:real_health by @p
+
+##detection health
+function att2:gameplay/enemy_health/wither_health_trigger

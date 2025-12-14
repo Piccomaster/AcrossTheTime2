@@ -11,6 +11,9 @@ data merge entity @s {Fire:1200s,Silent:true,life:1199}
 ##test if dahal magasin
 scoreboard players set #dahal_magasin CAL 0
 execute on origin if predicate att2_pre:legendary/interfacer/dahal_magasin run scoreboard players set #dahal_magasin CAL 50
+
+##base add
+scoreboard players add @s ARR_POWER 100
 ##dahal_magasin
 scoreboard players add #dahal_magasin CAL 100
 scoreboard players operation @s ARR_POWER *= #dahal_magasin CAL

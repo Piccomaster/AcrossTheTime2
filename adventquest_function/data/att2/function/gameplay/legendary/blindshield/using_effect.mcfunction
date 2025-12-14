@@ -12,13 +12,13 @@ scoreboard players add @s BS_BLOCKED 1
 
 ##dahal trigger
 #30
-execute if score @s BS_BLOCKED matches ..3 unless score @s DAHAL_TICK matches 600.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score @s BS_BLOCKED matches ..3 unless score @s DAHAL_TICK matches 300.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #40
-execute if score @s BS_BLOCKED matches 4..7 unless score @s DAHAL_TICK matches 800.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score @s BS_BLOCKED matches 4..7 unless score @s DAHAL_TICK matches 600.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #50
-execute if score @s BS_BLOCKED matches 8..11 unless score @s DAHAL_TICK matches 1000.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score @s BS_BLOCKED matches 8..11 unless score @s DAHAL_TICK matches 1200.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #60
-execute if score @s BS_BLOCKED matches 12.. unless score @s DAHAL_TICK matches 1200.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score @s BS_BLOCKED matches 12.. unless score @s DAHAL_TICK matches 2400.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
 ##trigger effect
 execute if score @s BS_BLOCKED matches ..3 run function att2:gameplay/legendary/blindshield/level1
 execute if score @s BS_BLOCKED matches 4..7 run function att2:gameplay/legendary/blindshield/level2
@@ -48,6 +48,6 @@ function att2:gameplay/score/player
 execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
 ##range damage
 execute if score @s BS_BLOCKED matches ..3 at @s align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=2,dy=2,dz=2,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
-execute if score @s BS_BLOCKED matches 4..7 at @s align xyz positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=4,dy=4,dz=4,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
-execute if score @s BS_BLOCKED matches 8..11 at @s align xyz positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=6,dy=6,dz=6,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
-execute if score @s BS_BLOCKED matches 12.. at @s align xyz positioned ~-3.5 ~-3.5 ~-3.5 as @e[dx=8,dy=8,dz=8,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
+execute if score @s BS_BLOCKED matches 4..7 at @s align xyz positioned ~-1.0 ~-1.0 ~-1.0 as @e[dx=3,dy=3,dz=3,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
+execute if score @s BS_BLOCKED matches 8..11 at @s align xyz positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=4,dy=4,dz=4,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
+execute if score @s BS_BLOCKED matches 12.. at @s align xyz positioned ~-2.0 ~-2.0 ~-2.0 as @e[dx=5,dy=5,dz=5,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score

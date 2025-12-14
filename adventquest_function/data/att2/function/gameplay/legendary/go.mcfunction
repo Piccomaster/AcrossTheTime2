@@ -7,7 +7,7 @@
 #function att2:gameplay/legendary/bloodeater/go
 #function att2:gameplay/legendary/fenrir/go
 #function att2:gameplay/legendary/loneshadow/go
-#function att2:gameplay/legendary/interfacer/go
+function att2:gameplay/legendary/interfacer/go
 #function att2:gameplay/legendary/lostpast/go
 #function att2:gameplay/legendary/rukyrion/go
 function att2:gameplay/legendary/weaponsking/go

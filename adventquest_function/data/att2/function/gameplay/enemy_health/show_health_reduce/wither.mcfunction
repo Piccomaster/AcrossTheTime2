@@ -9,7 +9,7 @@ execute unless score show_health_reduce ENEMYHEALTH matches 1 run return fail
 execute if score display_count ENEMYHEALTH matches 50.. run return fail
 
 ##summon display
-execute at @s anchored eyes positioned ^ ^ ^ run summon item ~ ~1 ~ {Tags:["RealHealth","HPDISPLAY","New"],Age:5979s,Invulnerable:true,PickupDelay:-1,Item:{id:"diamond",components:{item_model:"nothing"}},Passengers:[{id:"text_display",Tags:["RealHealth","HPDISPLAY","New"],text:{text:"",extra:[{object:atlas,atlas:"blocks",sprite:"item/custom/sprite/potion",shadow_color:0},{text:":",color:gray},{translate:att2.number,with:[""],color:red}]},transformation:{scale:[3.0f,3.0f,3.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},brightness:{block:15,sky:15},billboard:center,alignment:left,background:0,see_through:true,view_range:0.5,Passengers:[{id:"armor_stand",Tags:["RealHealth","HPDISPLAY","New"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/hp_display":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}]}]}
+execute at @s anchored eyes positioned ^ ^ ^ run summon item ~ ~1 ~ {Tags:["ArrowHealth","HPDISPLAY","New"],Age:5979s,Invulnerable:true,PickupDelay:-1,Item:{id:"diamond",components:{item_model:"nothing"}},Passengers:[{id:"text_display",Tags:["ArrowHealth","HPDISPLAY","New"],text:{text:"",extra:[{object:atlas,atlas:"blocks",sprite:"mob_effect/wither",shadow_color:0},{text:":",color:gray},{translate:att2.number,with:[""],color:red}]},transformation:{scale:[3.0f,3.0f,3.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},brightness:{block:15,sky:15},billboard:center,alignment:left,background:0,see_through:true,view_range:0.5,Passengers:[{id:"armor_stand",Tags:["ArrowHealth","HPDISPLAY","New"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/hp_display":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}]}]}
 
 ##set health
 #normal
@@ -38,7 +38,7 @@ return fail
 ##test
 
 tellraw @a [{text:"===============================",color:yellow}]
-tellraw @a [{text:"Real Damage:"}]
+tellraw @a [{text:"Normal Damage:"}]
 tellraw @a [{text:"Now Health:"},{score:{name:"#health",objective:"CAL"},color:red}]
 tellraw @a [{text:"Max Health:"},{score:{name:"#max_health",objective:"CAL"},color:red}]
 tellraw @a [{text:"Reduce Health:"},{score:{name:"#reduce_health",objective:"CAL"},color:red}]

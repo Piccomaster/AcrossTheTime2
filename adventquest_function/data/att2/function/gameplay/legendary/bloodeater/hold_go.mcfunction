@@ -6,6 +6,8 @@
 
 #hold effect
 execute as @s[scores={DAMAGE=1..},advancements={att2_test:legendary/bloodeater/attack_trigger=true}] run function att2:gameplay/legendary/bloodeater/damage_cal
+##revoke test
+advancement revoke @s only att2_test:legendary/bloodeater/attack_trigger
 ##reset damage
 execute if predicate att2_pre:legendary/bloodeater/mainhand run scoreboard players set @s DAMAGE 0
 ##reset weapon data

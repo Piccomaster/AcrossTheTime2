@@ -14,9 +14,9 @@ scoreboard players operation #buff CAL = @s POISONEDARROWTIME
 scoreboard players operation #buff CAL /= 100 CAL
 ##remove time
 scoreboard players remove #time CAL 10
-##trigger buff damage = buff x 20%
+##trigger buff damage = buff x 7%
 scoreboard players operation #damage CAL = #buff CAL
-scoreboard players operation #damage CAL *= 10 CAL
+scoreboard players operation #damage CAL *= 7 CAL
 scoreboard players operation #damage CAL /= 100 CAL
 scoreboard players operation #damage CAL > 5 CAL
 
@@ -40,9 +40,12 @@ scoreboard players operation #damage CAL *= #resistance CAL
 scoreboard players operation #damage CAL /= 100 CAL
 scoreboard players operation #damage CAL > 1 CAL
 
-#tellraw @a [{text:"腐败伤害:"},{score:{name:"#damage",objective:"CAL"}}]
+#store
+execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
+#damage go
+function att2:gameplay/bow/special_arrow/poisoned_arrow/damage with storage att2:score
 ##damage detection
-function att2:gameplay/enemy_health/real_health_trigger
+function att2:gameplay/enemy_health/wither_health_trigger
 
 ##particle
 execute if score #buff CAL matches 1..100 anchored eyes positioned ^ ^ ^ run function att2:gameplay/bow/special_arrow/poisoned_arrow/damage_effect_1

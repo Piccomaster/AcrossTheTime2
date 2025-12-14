@@ -48,6 +48,9 @@ execute as @s[tag=Corrupted] run scoreboard players operation finalDG SPDG *= 70
 scoreboard players operation finalDG SPDG /= 100 CAL
 #storage spell damage
 execute store result storage att2:sp_dmg SP3 int 1 run scoreboard players get finalDG SPDG
+
+##get player score
+function att2:gameplay/score/player
 #reset
 #scoreboard players reset slctlvl SPDG
 #scoreboard players reset finalDG SPDG

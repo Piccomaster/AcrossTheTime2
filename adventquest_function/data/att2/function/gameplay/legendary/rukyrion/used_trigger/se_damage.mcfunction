@@ -13,3 +13,9 @@ tag @s add RUK_ATKED
 data modify entity @s Motion[1] set value 0.5
 
 scoreboard players set #test CAL 1
+
+##detection health
+function att2:gameplay/enemy_health/melee_health_trigger
+execute unless score @s ENEMYHEALTH matches ..0 run return fail
+scoreboard players operation STAT CAL = @s CLASSLEVEL
+execute on attacker at @s run function att2:gameplay/legendary/rukyrion/kill_effect/score

@@ -29,5 +29,3 @@ scoreboard players reset temp_value_13 CAL
 particle minecraft:sweep_attack ^ ^1.6 ^1 0.1 0.1 0.1 0 3 force
 particle minecraft:sweep_attack ^ ^1.3 ^1 0.1 0.1 0.1 0 3 force
 particle minecraft:sweep_attack ^ ^1 ^1 0.1 0.1 0.1 0 3 force
-##revoke test
-advancement revoke @s only att2_test:legendary/bloodeater/attack_trigger

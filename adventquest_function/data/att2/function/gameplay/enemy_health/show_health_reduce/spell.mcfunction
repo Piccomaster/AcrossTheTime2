@@ -5,6 +5,9 @@
 
 ##limit
 execute unless score show_health_reduce ENEMYHEALTH matches 1 run return fail
+##max
+execute if score display_count ENEMYHEALTH matches 50.. run return fail
+
 ##summon display
 execute at @s anchored eyes positioned ^ ^ ^ run summon item ~ ~1 ~ {Tags:["SpellHealth","HPDISPLAY","New"],Age:5979s,Invulnerable:true,PickupDelay:-1,Item:{id:"diamond",components:{item_model:"nothing"}},Passengers:[{id:"text_display",Tags:["SpellHealth","HPDISPLAY","New"],text:{text:"",extra:[{object:atlas,atlas:"blocks",sprite:"item/enchanted_book",shadow_color:0},{text:":",color:gray},{translate:att2.number,with:[""],color:red}]},transformation:{scale:[3.0f,3.0f,3.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},brightness:{block:15,sky:15},billboard:center,alignment:left,background:0,see_through:true,view_range:0.5,Passengers:[{id:"armor_stand",Tags:["SpellHealth","HPDISPLAY","New"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/hp_display":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}]}]}
 
@@ -27,6 +30,9 @@ data merge entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] {tra
 tag @e[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] remove New
 tag @e[distance=..10,type=item,tag=New,tag=HPDISPLAY] remove New
 tag @e[distance=..10,type=armor_stand,tag=New,tag=HPDISPLAY] remove New
+
+##add count
+scoreboard players add display_count ENEMYHEALTH 1
 ##
 return fail
 ##test

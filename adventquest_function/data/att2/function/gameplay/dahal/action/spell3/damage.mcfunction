@@ -4,7 +4,7 @@
 #################################################################
 
 #damage
-$damage @s $(SP3) att2_damage:magic by @a[distance=..0,limit=1]
+$damage @s $(SP3) att2_damage:magic by @p[predicate=att2_pre:score/player]
 
 ##particle
 execute at @s run particle minecraft:item{item:"minecraft:soul_lantern"} ~ ~1 ~ 0.5 0.5 0.5 1 20 normal

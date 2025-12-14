@@ -7,7 +7,8 @@
 $damage @s $(damage) att2_damage:player_attack by @p[scores={NUMEROJOUEUR=$(player)}]
 
 tag @s add BE_ATKED
-
+##detection health
+function att2:gameplay/enemy_health/melee_health_trigger
 
 #particle
 particle minecraft:item{item:"minecraft:soul_sand"} ~ ~2 ~ 0.5 0.5 0.5 0.1 20

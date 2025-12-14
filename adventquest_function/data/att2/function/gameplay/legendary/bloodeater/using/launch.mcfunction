@@ -44,7 +44,7 @@ execute store result score temp_value_11 CAL run data get entity @s Health
 execute store result score temp_value_12 CAL run attribute @s max_health get
 
 ## 3s protection
-scoreboard players set @s BE_TIME 60
+scoreboard players set @s BE_TIME 100
 ##add enchantment tick
 execute unless items entity @s saddle saddle run item replace entity @s saddle with saddle[enchantments={"att2_enchantment:legendary/bloodeater/bloodeater_buff":1}]
 execute if items entity @s saddle saddle run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/bloodeater/bloodeater_buff":1}}

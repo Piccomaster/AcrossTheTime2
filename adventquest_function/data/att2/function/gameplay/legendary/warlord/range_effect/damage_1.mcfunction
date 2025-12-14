@@ -5,6 +5,8 @@
 
 #damage range
 $damage @s $(value_1) att2_damage:player_attack by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+##damage detection
+function att2:gameplay/enemy_health/magic_atk_trigger
 #particle
 function att2:gameplay/legendary/warlord/particle/atk_effect
 #reduce dahal
