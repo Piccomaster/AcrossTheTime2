@@ -1,0 +1,49 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": " "
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "minecraft:diamond_shovel",
+  "effects": {
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "hostile"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/legendary/loneshadow/normal_atk/shadow_effect"
+        }
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/legendary/loneshadow/hold_go"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

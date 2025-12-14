@@ -27,7 +27,7 @@ scoreboard players operation #damage CAL /= 100 CAL
 ##store damage
 execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
 
-##get poisoned_arrow lvl corrupt_time 5s/10s/15s
+##get poisoned_arrow lvl corrupt_time 10s
 scoreboard players operation #time CAL = #lvl CAL
 scoreboard players operation #time CAL *= 10000 CAL
 

@@ -3,15 +3,12 @@
 #Apply level 3 effect for Blindshield user                		#
 #################################################################
 
-scoreboard players add @s BS_EFFECT 75
-scoreboard players set @s RES_LVL_OH 3
-scoreboard players set @s TIMER_RES_OH 75
-scoreboard players set @s SPD_LVL_OH -3
-scoreboard players set @s TIMER_SPD_OH 75
-scoreboard players remove @s DAHAL_TICK 1000
+scoreboard players set @s BS_BUFF_TIME 150
+scoreboard players remove @s DAHAL_TICK 1200
 
-effect give @s minecraft:blindness 1 1 true
-execute at @s run function att2:sound/legendary/blindshield_blocked
+playsound minecraft:entity.blaze.hurt ambient @a ~ ~ ~ 1 1
+#playsound minecraft:shield1 block @a ~ ~ ~ 1 1.5
+playsound minecraft:block.anvil.land block @a ~ ~ ~ 1 1.5
 execute at @s run particle minecraft:item{item:"minecraft:black_wool"} ~ ~ ~ 0 0 0 1.2 250 normal
 execute at @s run particle minecraft:warped_spore ~ ~1 ~ 2 2 2 0 100 normal
 execute at @s run particle minecraft:flash{color:[1,1,1,1]} ~ ~1 ~ 1 1 1 1 1 normal

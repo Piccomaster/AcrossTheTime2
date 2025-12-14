@@ -4,7 +4,7 @@
 ##################################################
 
 ##test if player
-execute on origin if entity @s[type=!player] run return fail
+execute at @s on origin if entity @s[type=!player] run return run data modify entity @n[distance=..0,type=#minecraft:arrows] life set value 1199
 ##
 data modify entity @s Duration set value 10
 execute store result score #motion0 CAL run data get entity @s Motion[0] 100
@@ -58,9 +58,12 @@ data modify entity @s shake set value 40
 
 ##initialize owner
 execute at @s on origin run scoreboard players operation @n[distance=..0,type=#minecraft:arrows] OWNER = @s NUMEROJOUEUR
+##legendary
+execute if data storage att2:bow data.weapon.components."minecraft:custom_data"{EquipmentID:interfacer} run return run function att2:gameplay/legendary/interfacer/data_initialize
+execute if data storage att2:bow data.weapon.components."minecraft:custom_data"{EquipmentID:warlord} run return run function att2:gameplay/legendary/warlord/data_initialize
+#no return run
+execute if data storage att2:bow data.weapon.components."minecraft:custom_data"{EquipmentID:lostpast} run function att2:gameplay/legendary/lostpast/data_initialize
 ##special arrow initialize
 execute if data storage att2:bow data.item.components."minecraft:custom_data".explosive_arrow run return run function att2:gameplay/bow/special_arrow/explosive_arrow/data_initialize
 execute if data storage att2:bow data.item.components."minecraft:custom_data".tracking_arrow run return run function att2:gameplay/bow/special_arrow/tracking_arrow/data_initialize
 execute if data storage att2:bow data.item.components."minecraft:custom_data".poisoned_arrow run return run function att2:gameplay/bow/special_arrow/poisoned_arrow/data_initialize
-##legendary
-execute if data storage att2:bow data.weapon.components."minecraft:custom_data"{EquipmentID:interfacer} run return run function att2:gameplay/legendary/interfacer/data_initialize

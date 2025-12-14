@@ -16,5 +16,15 @@
         "legs"
     ],
     "supported_items": "#minecraft:leg_armor",
-    "weight": 1
+    "weight": 1,
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/enchantment/trigger_function/arcanedrive"
+                }
+            }
+        ]
+    }
 }

@@ -1,0 +1,150 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": " "
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            0,
+            1
+          ],
+          "magnitude": 0.8
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "input": {
+                  "forward": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "coordinate_scale": [
+            1,
+            0,
+            1
+          ],
+          "magnitude": 0.8
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "input": {
+                  "backward": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            0,
+            1
+          ],
+          "magnitude": 0.8
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "input": {
+                  "left": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            0,
+            1
+          ],
+          "magnitude": 0.8
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "input": {
+                  "right": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/legendary/blindshield/sprint_buff"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

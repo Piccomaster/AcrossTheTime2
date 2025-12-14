@@ -34,11 +34,15 @@ scoreboard players set @s LUC_EH 0
 scoreboard objectives add LUC_EXT dummy
 scoreboard players set @s LUC_EXT 0
 
+scoreboard objectives add LUC_LE dummy
+scoreboard players set @s LUC_LE 0
+
 scoreboard objectives add TIMER_LUC_SP dummy
 scoreboard objectives add TIMER_LUC_EQ dummy
 scoreboard objectives add TIMER_LUC_EXT dummy
 scoreboard objectives add TIMER_LUC_PO dummy
 scoreboard objectives add TIMER_LUC_EH dummy
+scoreboard objectives add TIMER_LUC_LE dummy
 scoreboard objectives add POTION_CHECK_LUC dummy
 
 scoreboard objectives add LUC_UPGRADE_REQ dummy

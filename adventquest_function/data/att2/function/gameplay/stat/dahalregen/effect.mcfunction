@@ -10,6 +10,7 @@ scoreboard players operation @s DAR_TOT += @s DAR_EQ
 scoreboard players operation @s DAR_TOT += @s DAR_EXT
 scoreboard players operation @s DAR_TOT += @s DAR_PO
 scoreboard players operation @s DAR_TOT += @s DAR_EH
+scoreboard players operation @s DAR_TOT += @s DAR_LE
 
 #effect assignement
 scoreboard players set @s[scores={DAR_TOT=..-7}] OP_DAHAL 150

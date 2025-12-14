@@ -4,7 +4,9 @@
 ##################################################
 
 #update
-execute if score @s SHOOTING_LP matches 1.. run function att2:gameplay/legendary/lostpast/upgradearrow
-#arrow effect
-particle minecraft:firework ~ ~ ~ 0 0 0 0.1 1 force @a
-kill @s[predicate=att2_pre:inground]
+execute on vehicle at @s run function att2:gameplay/legendary/lostpast/updatearrow
+##time
+execute unless predicate att2_pre:has_vehicle run scoreboard players set @s LIFETIME 0
+execute unless score @s LIFETIME matches ..0 run return run scoreboard players remove @s LIFETIME 1
+execute on vehicle run kill @s[type=#minecrat:arrows]
+kill @s[type=armor_stand]

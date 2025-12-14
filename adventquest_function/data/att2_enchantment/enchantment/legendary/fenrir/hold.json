@@ -21,6 +21,15 @@
       {
         "affected": "victim",
         "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "hostile"
+            }
+          }
+        ],
         "effect": {
           "type": "run_function",
           "function": "att2:gameplay/legendary/fenrir/normal_atk/effect"

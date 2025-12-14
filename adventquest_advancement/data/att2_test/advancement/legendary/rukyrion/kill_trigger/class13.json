@@ -13,10 +13,6 @@
                             "expected": false
                         },
                         {
-                            "id": "minecraft:bypasses_cooldown",
-                            "expected": false
-                        },
-                        {
                             "id": "minecraft:avoids_guardian_thorns",
                             "expected": false
                         },

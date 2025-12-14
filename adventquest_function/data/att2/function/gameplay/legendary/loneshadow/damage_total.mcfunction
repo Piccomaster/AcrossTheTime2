@@ -3,22 +3,10 @@
 #Apply the effect of Lone Shadow       	         #
 ##################################################
 
-scoreboard players operation @s SHADOW_TOTAL += @s DAMAGE
-##Consumption DAHAL_TICK
-execute if score @s DAHAL_TICK matches ..999 run function att2:gameplay/legendary/loneshadow/shadow_damage_over
 ##effect
 scoreboard players operation SHADOW_BUFF CAL = @s SHADOW_BUFF
 scoreboard players operation SHADOW_BUFF CAL %= 20 CAL
 execute if score SHADOW_BUFF CAL matches 0 run function att2:gameplay/legendary/loneshadow/effect
 scoreboard players reset SHADOW_BUFF CAL
 ##damage go
-execute if score @s[scores={SHADOW_TOTAL=0..}] SHADOW_BUFF matches ..1 run function att2:gameplay/legendary/loneshadow/shadow_damage_over
-##remove SHADOW_BUFF
-scoreboard players remove @s[scores={SHADOW_BUFF=1..}] SHADOW_BUFF 1
-#effect attribute
-#return STR/SPD number
-scoreboard players operation @s STR_EH += 4 CAL
-scoreboard players operation @s SPD_EH += 8 CAL
-#set time
-scoreboard players set @s TIMER_SPD_EH 1
-scoreboard players set @s TIMER_HAS_EH 1
+execute if score @s SHADOW_BUFF matches ..0 run function att2:gameplay/legendary/loneshadow/shadow_damage_over

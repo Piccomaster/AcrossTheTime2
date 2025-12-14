@@ -3445,3 +3445,7 @@ execute if score @s ScoreTrigger matches 3404 run execute if score kortaek_daily
 
 execute if score @s ScoreTrigger matches 3405 run execute if score Kortaek HORSERACE matches 1.. run function att2:gameplay/horse_racing/kortaek/back_kortaek
 execute if score @s ScoreTrigger matches 3406 run execute if score Kortaek HORSERACE matches ..2 run function att2:gameplay/horse_racing/kortaek/quick_end
+
+##show_health_reduce
+execute if score @s ScoreTrigger matches 3407 run function att2:gameplay/enemy_health/run
+execute if score @s ScoreTrigger matches 3408 run function att2:gameplay/horse_racing/stop

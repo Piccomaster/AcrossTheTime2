@@ -7,5 +7,5 @@
 
 tag @e[team=hostile,scores={GAMELEVEL=0..},tag=BE_ATKED] remove BE_ATKED
 
-
+execute on vehicle run kill @s
 kill @s

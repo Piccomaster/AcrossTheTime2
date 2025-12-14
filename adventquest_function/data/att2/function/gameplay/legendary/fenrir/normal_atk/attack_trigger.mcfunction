@@ -4,7 +4,7 @@
 ##################################################
 
 #range limit
-execute if entity @n[distance=..4,type=armor_stand,tag=FENRIR_POS] run return fail
+execute if entity @n[distance=..4,type=armor_stand,tag=FENRIR_POS] run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
 ##dahal limit
 execute unless score @s DAHAL_TICK matches 600.. run return fail
 ##remove dahal

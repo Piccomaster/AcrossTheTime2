@@ -11,3 +11,4 @@ scoreboard players operation @s HER_TOT += @s HER_EQ
 scoreboard players operation @s HER_TOT += @s HER_EXT
 scoreboard players operation @s HER_TOT += @s HER_PO
 scoreboard players operation @s HER_TOT += @s HER_EH
+scoreboard players operation @s HER_TOT += @s HER_LE

@@ -3,4 +3,4 @@
 #cal actually damage >=< theory mini damage                   	#
 #################################################################
 
-execute if predicate att2_pre:enchantment/arcanedrive/legs if predicate att2_pre:test_hold/dahal_hold run function att2:gameplay/enchantment/arcanedrive/go
+execute if predicate att2_pre:test_hold/dahal_hold run function att2:gameplay/enchantment/arcanedrive/go

@@ -11,6 +11,9 @@ data merge entity @s {Fire:1200s,Silent:true,life:1199}
 ##test if dahal magasin
 scoreboard players set #dahal_magasin CAL 0
 execute on origin if predicate att2_pre:legendary/interfacer/dahal_magasin run scoreboard players set #dahal_magasin CAL 50
+
+##base add
+scoreboard players add @s ARR_POWER 100
 ##dahal_magasin
 scoreboard players add #dahal_magasin CAL 100
 scoreboard players operation @s ARR_POWER *= #dahal_magasin CAL
@@ -20,7 +23,7 @@ scoreboard players operation @s ARR_POWER /= 100 CAL
 summon armor_stand ~ ~ ~ {Tags:["InterfacerShoot","New"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:legendary/interfacer/arrow_effect":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
 ##set base score
 scoreboard players set @n[distance=..5,type=armor_stand,tag=New,tag=InterfacerShoot] LIFETIME 60
-scoreboard players operation @n[distance=..5,type=armor_stand,tag=New,tag=InterfacerShoot] InterfacerShoot = @s InterfacerShoot
+scoreboard players operation @n[distance=..5,type=armor_stand,tag=New,tag=InterfacerShoot] OWNER = @s OWNER
 ##DahalMagasin
 execute if score #dahal_magasin CAL matches 101.. run tag @n[distance=..5,type=armor_stand,tag=New,tag=InterfacerShoot] add DahalMagasin
 execute if score #dahal_magasin CAL matches 101.. run tag @s add DahalMagasin

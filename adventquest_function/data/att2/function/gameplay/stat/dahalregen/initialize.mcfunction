@@ -30,11 +30,15 @@ scoreboard players set @s DAR_EH 0
 scoreboard objectives add DAR_EXT dummy
 scoreboard players set @s DAR_EXT 0
 
+scoreboard objectives add DAR_LE dummy
+scoreboard players set @s DAR_LE 0
+
 scoreboard objectives add TIMER_DAR_SP dummy
 scoreboard objectives add TIMER_DAR_EQ dummy
 scoreboard objectives add TIMER_DAR_EXT dummy
 scoreboard objectives add TIMER_DAR_PO dummy
 scoreboard objectives add TIMER_DAR_EH dummy
+scoreboard objectives add TIMER_DAR_LE dummy
 scoreboard objectives add POTION_CHECK_DAR dummy
 
 scoreboard objectives add DAR_UPGRADE_REQ dummy

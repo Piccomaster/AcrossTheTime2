@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:player_attack",
+    "minecraft:spear",
+    "minecraft:mace_smash",
+    "att2_damage:player_attack"
+  ]
+}

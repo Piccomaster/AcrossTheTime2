@@ -19,6 +19,7 @@
     "minecraft:generic_kill",
     "minecraft:sonic_boom",
     "minecraft:outside_border",
-    "att2_damage:magic"
+    "att2_damage:magic",
+    "att2_damage:real_health"
   ]
 }

@@ -1,7 +1,4 @@
 {
-  "rewards": {
-    "function": "att2:gameplay/legendary/rukyrion/attack_trigger"
-  },
   "criteria": {
     "attack": {
       "trigger": "minecraft:player_hurt_entity",

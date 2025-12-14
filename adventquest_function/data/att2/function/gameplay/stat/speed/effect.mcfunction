@@ -10,6 +10,7 @@ scoreboard players operation @s SPD_TOT += @s SPD_EQ
 scoreboard players operation @s SPD_TOT += @s SPD_EXT
 scoreboard players operation @s SPD_TOT += @s SPD_PO
 scoreboard players operation @s SPD_TOT += @s SPD_EH
+scoreboard players operation @s SPD_TOT += @s SPD_LE
 # In case the player has a speed limitation, the speed stays under 2
 scoreboard players set @s[scores={SPD_TOT=2..},tag=limitedSpeed] SPD_TOT 2
 ##if In horse_racing

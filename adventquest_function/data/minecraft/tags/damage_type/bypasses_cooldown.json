@@ -4,6 +4,7 @@
     "att2_damage:player_attack",
     "att2_damage:magic",
     "att2_damage:arrow",
-    "minecraft:thrown"
+    "minecraft:thrown",
+    "att2_damage:real_health"
   ]
 }

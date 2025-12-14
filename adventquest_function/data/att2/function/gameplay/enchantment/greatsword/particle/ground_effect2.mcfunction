@@ -3,9 +3,9 @@
 #add shield block score                                   	#
 #############################################################
 
-particle minecraft:sweep_attack ^ ^1.6 ^1 0 0 0 0 1 force
-particle minecraft:sweep_attack ^ ^1.3 ^1 0 0 0 0 1 force
-particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 0 1 force
+particle minecraft:sweep_attack ^ ^1.6 ^1 0.1 0.1 0.1 0 3 force
+particle minecraft:sweep_attack ^ ^1.3 ^1 0.1 0.1 0.1 0 3 force
+particle minecraft:sweep_attack ^ ^1 ^1 0.1 0.1 0.1 0 3 force
 ##
 particle minecraft:crit ^ ^1 ^1.5 0 0 0 0 1 force
 particle minecraft:crit ^ ^1.5 ^1.5 0 0 0 0 1 force

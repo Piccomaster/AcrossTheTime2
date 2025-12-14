@@ -13,6 +13,8 @@ scoreboard players operation RES_TOT CAL = @s RES_TOT
 execute if score RES_TOT CAL matches ..0 run scoreboard players set RES_TOT CAL 0
 scoreboard players operation RES_TOT CAL *= -10 CAL
 scoreboard players operation RES_TOT CAL += 100 CAL
+##max reduce
+scoreboard players operation RES_TOT CAL < 90 CAL
 #remove health
 scoreboard players operation @s RES_DETECTION *= 10 CAL
 #resistance effect
