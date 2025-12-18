@@ -124,6 +124,22 @@
 - **Right Attack**:
   - Launches forward enemies into the air.
 
+##### **Ultima**
+- **Passive Effect**:
+  - While held, automatically generates flying swords at regular intervals.
+- **Left-Click Attack**:
+  - Drives existing flying swords forward to attack and fire lasers.
+- **Right-Click Action**:
+  - Increases the generation speed of flying swords.
+  - If an attack is blocked while holding right-click, triggers an automatic counterattack from the flying swords.
+
+##### **Blindshield**
+- **Right-Click Action**:
+  - Enters a blinded state.
+  - Blocks all incoming attacks for the duration.
+  - Movement grants a speed boost but becomes difficult to control.
+  - Damages enemies along the path of movement.
+
 ---
 
 ### **Spell System**
