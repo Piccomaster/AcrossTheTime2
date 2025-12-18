@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "att2_pre:legendary/ultima/mainhand"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "att2_pre:legendary/ultima/offhand"
+        }
+    ]
+}

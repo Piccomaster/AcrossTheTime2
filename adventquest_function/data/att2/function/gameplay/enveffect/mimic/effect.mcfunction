@@ -4,7 +4,7 @@
 #################################################################
 
 #merge rotation
-execute on passengers run data modify entity @s Rotation set from entity @e[distance=..0,limit=1,type=slime,tag=MIMIC] Rotation
+execute on passengers run data modify entity @s Rotation set from entity @n[distance=..0,type=slime,tag=MIMIC] Rotation
 
 ##test if have passenger
 execute unless score @s MIMIC matches 1.. run tp @s[type=slime] ~ -100 ~

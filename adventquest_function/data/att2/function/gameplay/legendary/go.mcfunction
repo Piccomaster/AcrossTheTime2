@@ -15,8 +15,8 @@ function att2:gameplay/legendary/weaponsking/go
 function att2:gameplay/legendary/kinuil/go
 function att2:gameplay/legendary/sastr/go
 #TODO
-function att2:gameplay/legendary/ultima/go
-function att2:gameplay/legendary/blindshield/go
+#function att2:gameplay/legendary/ultima/go
+#function att2:gameplay/legendary/blindshield/go
 
 ##
 

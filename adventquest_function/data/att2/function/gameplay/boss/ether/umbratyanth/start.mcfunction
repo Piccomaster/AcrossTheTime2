@@ -24,6 +24,7 @@ time set 18000
 scoreboard players set Boss UMBRATYANTH 1
 #scoreboard players set Choose_attack UMBRATYANTH 0
 scoreboard players set 00000000-0000-012c-0000-00000000012c UMBRATYANTH 1
+scoreboard players set 00000000-0000-012c-0000-00000000012c ENEMYHEALTH 10
 tag 00000000-0000-012c-0000-00000000012c add Dely
 scoreboard players set Minions_counter UMBRATYANTH 0
 scoreboard players set Minions_totalkilled UMBRATYANTH 0

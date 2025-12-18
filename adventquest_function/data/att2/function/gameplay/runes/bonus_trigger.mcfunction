@@ -48,6 +48,7 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 
 execute as @p run function att2:sound/misc/runes_validate
 function att2:gameplay/runes/applybonuseffect
+
 execute as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/bonus_summary
 execute if score RequiredError RUNE matches 1.. as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords_error
 execute if score RequiredError RUNE matches 1.. as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords_indication

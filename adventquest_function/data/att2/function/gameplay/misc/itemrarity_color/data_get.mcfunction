@@ -8,6 +8,9 @@ data modify entity @s Invulnerable set value true
 
 ####item rarity set
 
+#set item name
+data modify entity @s CustomNameVisible set value true
+data modify entity @s CustomName set from entity @s Item.components."minecraft:custom_name"
 #reset
 data modify storage att2:item rarity set value ""
 #get data

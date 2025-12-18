@@ -14,8 +14,8 @@ scoreboard players operation #reduce_health CAL -= @s ENEMYABHEALTH
 
 
 ##Remaining
-execute if score #reduce_health CAL matches 0.. run scoreboard players set @s ENEMYABHEALTH 0
 execute if score #reduce_health CAL matches 0.. run scoreboard players operation #absorption_health CAL = @s ENEMYABHEALTH
+execute if score #reduce_health CAL matches 0.. run scoreboard players set @s ENEMYABHEALTH 0
 execute if score #reduce_health CAL matches ..-1 run scoreboard players operation @s ENEMYABHEALTH = #reduce_health CAL
 execute if score #reduce_health CAL matches ..-1 run scoreboard players operation @s ENEMYABHEALTH *= -1 CAL
 execute if score #reduce_health CAL matches ..-1 run scoreboard players set #reduce_health CAL 0

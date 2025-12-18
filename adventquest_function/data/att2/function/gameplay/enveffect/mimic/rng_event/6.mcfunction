@@ -4,7 +4,7 @@
 #################################################################
 
 #healing(summon potion)
-playsound minecraft:entity.splash_potion.throw ambient @s ~ ~ ~ 1 0.5
+playsound minecraft:entity.splash_potion.throw ambient @a ~ ~ ~ 1 0.5
 
 summon minecraft:splash_potion ~ ~2 ~ {Motion:[0.2,0.3,0.0],Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:16715280,custom_effects:[{id:"minecraft:instant_health",duration:0,amplifier:1,show_particles:0b}]}}}}
 

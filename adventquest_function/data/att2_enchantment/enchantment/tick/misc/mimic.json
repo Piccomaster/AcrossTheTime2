@@ -1,0 +1,51 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": ""
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "victim",
+        "requirements": [
+          {
+            "condition": "damage_source_properties",
+            "predicate": {
+              "source_entity": {
+                "type": "minecraft:player"
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/enveffect/mimic/detection"
+        }
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/enveffect/mimic/effect"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

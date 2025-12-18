@@ -36,9 +36,9 @@ execute if score #lvl CAL matches 1 run function att2:gameplay/bow/special_arrow
 execute if score #lvl CAL matches 2 run function att2:gameplay/bow/special_arrow/poisoned_arrow/range_effect_2
 execute if score #lvl CAL matches 3 run function att2:gameplay/bow/special_arrow/poisoned_arrow/range_effect_3
 
-execute if score #lvl CAL matches 1 at @s align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=2,dy=2,dz=2,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/poisoned_arrow/add_effect_time
-execute if score #lvl CAL matches 2 at @s align xyz positioned ~-2.0 ~-2.0 ~-2.0 as @e[dx=5,dy=5,dz=5,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/poisoned_arrow/add_effect_time
-execute if score #lvl CAL matches 3 at @s align xyz positioned ~-3.0 ~-3.0 ~-3.0 as @e[dx=7,dy=7,dz=7,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/poisoned_arrow/add_effect_time
+execute if score #lvl CAL matches 1 at @s positioned ~-1 ~-1 ~-1 as @e[dx=2,dy=2,dz=2,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/poisoned_arrow/add_effect_time
+execute if score #lvl CAL matches 2 at @s positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/poisoned_arrow/add_effect_time
+execute if score #lvl CAL matches 3 at @s positioned ~-3.5 ~-3.5 ~-3.5 as @e[dx=7,dy=7,dz=7,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/special_arrow/poisoned_arrow/add_effect_time
 
 ##clear arrow
 tag @s remove SHOOTED

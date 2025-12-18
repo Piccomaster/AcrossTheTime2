@@ -1,14 +1,12 @@
 ##################################################
 #Made by Adventquest                             #
-#End the effect of Fenrir                        #
-#damage= base damage x (1.5+FENRIR_BURST/100)
+#End the effect of weaponsking                   #
 ##################################################
 
 #get damage
-scoreboard players operation DAMAGE CAL = @s DAMAGE
-scoreboard players operation DAMAGE CAL /= 10 CAL
-#70%
-scoreboard players operation DAMAGE CAL *= 70 CAL
+scoreboard players operation DAMAGE CAL = #damage CAL
+#50%
+scoreboard players operation DAMAGE CAL *= 50 CAL
 scoreboard players operation DAMAGE CAL /= 100 CAL
 #cal chrontons
 #ruby

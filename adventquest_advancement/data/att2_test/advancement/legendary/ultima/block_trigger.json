@@ -1,0 +1,26 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/legendary/ultima/block_trigger"
+  },
+  "criteria": {
+    "block_trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "reference",
+                "name": "att2_pre:legendary/ultima/mainhand"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

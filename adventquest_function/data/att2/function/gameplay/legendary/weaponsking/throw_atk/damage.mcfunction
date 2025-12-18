@@ -5,6 +5,8 @@
 
 
 #damage range
-$damage @s $(value) att2_damage:player_attack by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+$damage @s $(damage) att2_damage:player_attack by @p[scores={NUMEROJOUEUR=$(player)}]
+##detection health
+function att2:gameplay/enemy_health/melee_health_trigger
 #test
-#$say 伤害$(value)
+#$say 伤害$(damage)

@@ -4,5 +4,9 @@
 #####################################################
 
 scoreboard objectives add HOLDING_UL dummy
-scoreboard objectives add UL_EFFECT dummy
-scoreboard players set @s HOLDING_UL 0
+scoreboard objectives add ULTIMA_TIMER dummy
+
+
+scoreboard objectives add ULTIMA_PS_CD dummy
+scoreboard objectives add ULTIMA_PS_COUNT dummy
+scoreboard objectives add ULTIMA_USING dummy

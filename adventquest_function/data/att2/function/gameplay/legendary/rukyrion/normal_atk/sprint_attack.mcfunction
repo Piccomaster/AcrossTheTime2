@@ -19,5 +19,5 @@ function att2:gameplay/legendary/rukyrion/used_trigger/sprint
 function att2:gameplay/legendary/rukyrion/particle/sp_launch
 
 ##add enchantment tick
-execute unless items entity @s saddle saddle run item replace entity @s saddle with saddle[enchantments={"att2_enchantment:legendary/rukyrion/sp_time":1}]
-execute if items entity @s saddle saddle run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/rukyrion/sp_time":1}}
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle},enchantments={"att2_enchantment:legendary/rukyrion/sp_time":1}]
+execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/rukyrion/sp_time":1}}

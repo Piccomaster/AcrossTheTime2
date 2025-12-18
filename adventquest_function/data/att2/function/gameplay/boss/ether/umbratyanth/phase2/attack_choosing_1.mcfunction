@@ -5,7 +5,7 @@
 
 scoreboard players set Timer1 UMBRATYANTH 0
 scoreboard players set DarkRay UMBRATYANTH 0
-execute as 00000000-0000-012c-0000-00000000012c run data merge entity @s {AbsorptionAmount:0.0f}
+scoreboard players set 00000000-0000-012c-0000-00000000012c ENEMYABHEALTH 0
 function att2:gameplay/boss/ether/umbratyanth/phase2/minions_kill
 function att2:physicmod/reg1/ether/umbra_shulkerdark
 function att2:physicmod/reg1/ether/umbra_darkray_false
