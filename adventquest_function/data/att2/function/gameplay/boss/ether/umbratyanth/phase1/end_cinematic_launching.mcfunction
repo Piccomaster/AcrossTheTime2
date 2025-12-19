@@ -26,7 +26,7 @@ execute if score Timer4 UMBRATYANTH matches 210 as 00000000-0000-013c-0000-00000
 execute if score Timer4 UMBRATYANTH matches 210 positioned -5120 121 -6882 run function att2:sound/dahal/corruption_stop
 execute if score Timer4 UMBRATYANTH matches 215 as 00000000-0000-013c-0000-00000000013c at @s run teleport @s -5116 144 -6871
 execute if score Timer4 UMBRATYANTH matches 215 positioned -5116 144 -6871 run function att2:sound/dahal/corruption_stop
-execute if score Timer4 UMBRATYANTH matches 220 as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:0b}
+execute if score Timer4 UMBRATYANTH matches 220 as 00000000-0000-013c-0000-00000000013c run data merge entity @s {NoAI:0b,Invulnerable:1b}
 execute if score Timer4 UMBRATYANTH matches 225 as 00000000-0000-013c-0000-00000000013c at @s run teleport @s
 
 #=======================#

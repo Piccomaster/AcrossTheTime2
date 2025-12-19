@@ -131,6 +131,6 @@ tellraw @s[scores={LANGUAGE=11}] {text:"⚙ 掉落金钱增值 : ",color:"dark_r
 tellraw @s[scores={LANGUAGE=11}] {text:"⚙ 生命值上限 : ",color:"dark_red",extra:[{text:"+",color:"gray"},{score:{name:"HealthTotal",objective:"RUNE"},color:"red"}]}
 tellraw @s[scores={LANGUAGE=11}] {text:"⚙ Dahäl上限 : ",color:"dark_red",extra:[{text:"+",color:"gray"},{score:{name:"BonusDahalMax_Total",objective:"RUNE"},color:"red"}]}
 tellraw @s[scores={LANGUAGE=11}] {text:"⚙ 额外法术经验 : ",color:"dark_red",extra:[{text:"+",color:"gray"},{score:{name:"BonusSpellXP",objective:"RUNE"},color:"red"}]}
-tellraw @s[scores={LANGUAGE=11}] {text:"⚙ 法术冷却速度 : ",color:"dark_red",extra:[{text:"+",color:"gray"},{score:{name:"CooldownTotal",objective:"RUNE"},color:"red"},{text:"%",color:"dark_red"}]}
+tellraw @s[scores={LANGUAGE=11}] {text:"⚙ 法术冷却速度 : ",color:"dark_red",extra:[{text:"-",color:"gray"},{score:{name:"CooldownTotal",objective:"RUNE"},color:"red"},{text:"%",color:"dark_red"}]}
 tellraw @s[scores={LANGUAGE=11}] {text:"⚙ 药水时长收益 : ",color:"dark_red",extra:[{text:"+",color:"gray"},{score:{name:"TimePotionTotal",objective:"RUNE"},color:"red"},{text:"s",color:"dark_red"}]}
 tellraw @s[scores={LANGUAGE=11}] {text:"⚙ 额外Boss战利品 : ",color:"dark_red",extra:[{text:"+",color:"gray"},{score:{name:"BonusLootBoss",objective:"RUNE"},color:"red"}]}

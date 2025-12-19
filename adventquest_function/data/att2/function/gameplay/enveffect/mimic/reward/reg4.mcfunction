@@ -11,16 +11,16 @@ execute as @a[distance=..50] at @s run function att2:dialogs/gameplay/misc/mimic
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 5 1.1
 playsound minecraft:entity.firework_rocket.twinkle master @a ~ ~ ~ 5 1
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 5 1.1
-execute at @a run function att2:sound/misc/coins1
+execute at @a[distance=..10] run function att2:sound/misc/coins1
 #summon reward
 summon minecraft:fireball ~ ~1 ~ {Tags:["New"],ExplosionPower:1,Motion:[0.0,-1.0,0.0]}
 #prevent die from fireball
-execute at @s as @e[type=fireball,tag=New] run data modify entity @s Owner set from entity @a[distance=..0,limit=1] UUID
-tag @e[tag=New,type=fireball] remove New
+execute as @e[distance=..10,type=fireball,tag=New] run data modify entity @s Owner set from entity @p UUID
+tag @e[distance=..10,tag=New,type=fireball] remove New
 #reward test
-scoreboard players operation reward MIMIC = @s LUC_TOT
+execute on attacker run scoreboard players operation reward MIMIC = @s LUC_TOT
 scoreboard players operation reward MIMIC *= 4 CAL
-scoreboard players operation reward MIMIC += @e[distance=..0,limit=1,type=slime,tag=MIMIC] MIMIC
+scoreboard players operation reward MIMIC += @s MIMIC
 
 execute if score reward MIMIC matches 1.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c2t2
 execute if score reward MIMIC matches 5.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c2t2
@@ -48,6 +48,8 @@ execute if score reward MIMIC matches 95.. run loot spawn ~ ~1 ~ loot att2:chest
 execute if score reward MIMIC matches 100.. run loot spawn ~ ~1 ~ loot att2:chest/reg4/c10t10
 
 #remove
-tp @e[tag=MIMIC,distance=..2] ~ -10 ~
+tp @s ~ -10 ~
+execute on passengers run kill @s
+kill @s
 ##advancement trigger
 function att2:advancement/test_all/mobskilled/mimic

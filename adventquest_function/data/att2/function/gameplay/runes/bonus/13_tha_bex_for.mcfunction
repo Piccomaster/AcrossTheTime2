@@ -3,9 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-#reset 0
-scoreboard players set 13_tha_bex_for RUNE 0
-
 execute if entity @p[scores={GAMELEVEL=42..}] run scoreboard players add 13_tha_bex_for RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=42..}] run scoreboard players set RequiredError RUNE 113

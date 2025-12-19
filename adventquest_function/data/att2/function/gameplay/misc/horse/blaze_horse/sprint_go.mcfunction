@@ -26,7 +26,7 @@ scoreboard players operation #damage_trigger CAL %= 10 CAL
 ##fire time add
 scoreboard players operation #time_add CAL = #time CAL
 scoreboard players operation #time_add CAL *= 20 CAL
-execute if score #damage_trigger CAL matches 0 at @s align xyz positioned ~-4.5 ~-4.5 ~-4.5 as @e[dx=10,dy=10,dz=10,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/misc/horse/blaze_horse/damage with storage att2:score
+execute if score #damage_trigger CAL matches 0 at @s positioned ~-5 ~-5 ~-5 as @e[dx=10,dy=10,dz=10,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/misc/horse/blaze_horse/damage with storage att2:score
 ##particle
 particle lava ~ ~ ~ 0.2 0.2 0.2 0 5 normal
 ##if input key

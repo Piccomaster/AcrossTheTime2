@@ -25,4 +25,5 @@ execute if score Player_pos UMBRATYANTH matches 15 as 00000000-0000-013c-0000-00
 execute if score Player_pos UMBRATYANTH matches 16 as 00000000-0000-013c-0000-00000000013c at @s run tp @s -5115 121 -6885
 execute if score Player_pos UMBRATYANTH matches 17 as 00000000-0000-013c-0000-00000000013c at @s run tp @s -5105 121 -6883
 
-execute as 00000000-0000-012c-0000-00000000012c run data merge entity @s {AbsorptionAmount:2.0f}
+
+scoreboard players set 00000000-0000-012c-0000-00000000012c ENEMYABHEALTH 2

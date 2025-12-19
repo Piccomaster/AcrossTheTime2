@@ -3,9 +3,6 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-#reset 0
-scoreboard players set 6_ehl_hal_ra_ra RUNE 0
-
 execute if entity @p[scores={GAMELEVEL=22..}] run scoreboard players add 6_ehl_hal_ra_ra RUNE 1
 
 execute unless entity @p[scores={GAMELEVEL=22..}] run scoreboard players set RequiredError RUNE 106

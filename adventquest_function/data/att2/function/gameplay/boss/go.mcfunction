@@ -4,6 +4,14 @@
 #####################################################################
 
 # Rewards boss
-execute if score rewards_timer BOSS matches 1..100 run scoreboard players add rewards_timer BOSS 1
-execute if score rewards_timer BOSS matches 1.. as @e[type=minecraft:bat,tag=BossRewards] at @s run function att2:gameplay/boss/bat_reward_effect
-execute if score rewards_timer BOSS matches 101.. run function att2:gameplay/boss/rewards_end
+
+##effect
+execute as @e[distance=..10,type=minecraft:bat,tag=BossRewards,sort=nearest,limit=20] at @s run function att2:gameplay/boss/bat_reward_effect
+##remove score
+execute unless score @s LIFETIME matches ..0 run return run scoreboard players remove @s LIFETIME 1
+
+##end effect
+function att2:gameplay/boss/rewards_end
+
+##clear armor_stand
+kill @s[type=armor_stand]

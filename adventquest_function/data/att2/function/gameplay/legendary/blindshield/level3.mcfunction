@@ -4,7 +4,7 @@
 #################################################################
 
 scoreboard players set @s BS_BUFF_TIME 150
-scoreboard players remove @s DAHAL_TICK 1200
+scoreboard players remove @s DAHAL_TICK 1000
 
 playsound minecraft:entity.blaze.hurt ambient @a ~ ~ ~ 1 1
 #playsound minecraft:shield1 block @a ~ ~ ~ 1 1.5

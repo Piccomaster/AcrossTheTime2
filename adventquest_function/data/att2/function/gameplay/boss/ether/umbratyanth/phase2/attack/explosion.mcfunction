@@ -66,7 +66,7 @@ execute if score Timer2 UMBRATYANTH matches 150 run scoreboard players add Explo
 execute if score Timer2 UMBRATYANTH matches 150 run scoreboard players operation Explosion UMBRATYANTH %= 32 UMBRATYANTH
 
 execute as @e[scores={UMBRATYANTH=1..60},type=silverfish] at @s run particle minecraft:smoke ~ ~ ~ 1 0 1 0 10
-execute as @e[scores={UMBRATYANTH=1..60},type=silverfish] at @s run particle minecraft:falling_dust{block_state:"minecraft:black_wool"} ~ ~2 ~ 0.1 1 0.1 0 2
+execute as @e[scores={UMBRATYANTH=1..60},type=silverfish] at @s run particle minecraft:falling_dust{block_state:"minecraft:glass"} ~ ~2 ~ 0.1 1 0.1 0 2
 execute as @e[scores={UMBRATYANTH=1..60},type=silverfish] at @s run particle minecraft:enchant ~ ~2 ~ 0.2 1 0.2 0 3
 
 execute if score Timer2 UMBRATYANTH matches 201.. run function att2:gameplay/boss/ether/umbratyanth/phase2/attack_end_2

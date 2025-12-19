@@ -1,0 +1,46 @@
+{
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 6000,
+        "replace_current_music": true,
+        "sound": "minecraft:music.end"
+      }
+    },
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "explodes": false
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:visual/fog_start_distance": 150,
+    "minecraft:visual/fog_end_distance": 200,
+    "minecraft:visual/sky_fog_end_distance": 200,
+    "minecraft:visual/fog_color": "#8a0505",
+    "minecraft:visual/sky_color": "#8a0505",
+    "minecraft:visual/sky_light_color": "#8a0505",
+    "minecraft:visual/sky_light_factor": 1
+  },
+  "carvers": [],
+  "creature_spawn_probability": 0.0,
+  "downfall": 0.0,
+  "effects": {
+    "foliage_color": "#8a0505",
+    "grass_color": "#8a0505",
+    "water_color": "#8a0505"
+  },
+  "features": [],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {},
+  "temperature": 2.0
+}

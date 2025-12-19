@@ -28,4 +28,5 @@ execute as @s[tag=CLASS21] run return run function att2:gameplay/leveling/monste
 
 
 ##unless CLASS -> Invulnerable
+data modify entity @s Invulnerable set value true
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_tick":0}}

@@ -4,8 +4,8 @@
 #################################################################
 
 #summon arrow
-playsound crashmetal1 ambient @s ~ ~ ~ 1 2
-playsound minecraft:item.totem.use ambient @s ~ ~ ~ 1 2
+playsound crashmetal1 ambient @a ~ ~ ~ 1 2
+playsound minecraft:item.totem.use ambient @a ~ ~ ~ 1 2
 particle minecraft:explosion ~ ~2 ~ 0 0 0 0 5 normal
 particle minecraft:flash{color:[1,1,1,1]} ~ ~2 ~ 0.01 0.01 0.01 0 5
 # Salvo 0

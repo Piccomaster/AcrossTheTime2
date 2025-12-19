@@ -4,7 +4,7 @@
 ##################################################
 
 ##clear
-execute at @s align xyz positioned ~-2.5 ~-2.5 ~-2.5 unless entity @n[dx=6,dy=6,dz=6,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run return fail
+execute at @s positioned ~-3 ~-3 ~-3 unless entity @n[dx=6,dy=6,dz=6,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run return fail
 ##rotate nearly enemy
 function att2:gameplay/bow/special_arrow/tracking_arrow/tracking_1
 execute at @s on vehicle as @s[type=#minecraft:arrows] run data modify entity @s Rotation set from entity @n[distance=..0,type=armor_stand,tag=TrackingArrow]

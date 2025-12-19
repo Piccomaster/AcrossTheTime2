@@ -1,0 +1,50 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": ""
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 77,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "block_interaction": "none",
+          "knockback_multiplier": {
+            "type": "linear",
+            "base": 1,
+            "per_level_above_first": 1
+          },
+          "large_particle": {
+            "type": "minecraft:gust_emitter_large"
+          },
+          "radius": 3,
+          "small_particle": {
+            "type": "minecraft:gust_emitter_small"
+          },
+          "sound": "minecraft:entity.wind_charge.wind_burst"
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/misc/motion/up"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}
