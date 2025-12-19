@@ -9,8 +9,8 @@ scoreboard players operation @s DAHAL = @s DAHALMAX
 scoreboard players operation #DAHALMAX_TICK CAL = @s DAHALMAX
 scoreboard players operation #DAHALMAX_TICK CAL *= 20 CAL
 scoreboard players operation @s DAHAL_TICK = #DAHALMAX_TICK CAL
-experience add @s -55148 points
-scoreboard players set @s LVL_UPGRADE_REQ 130
+experience add @s -96602 points
+scoreboard players set @s LVL_UPGRADE_REQ 165
 tag @s remove LVLUpReady
 scoreboard players set @s GAMELEVEL 39
 scoreboard players add @s SKILLPOINT 3
