@@ -21,6 +21,7 @@ execute if score #reduce_health CAL matches ..-1 run scoreboard players operatio
 execute if score #reduce_health CAL matches ..-1 run scoreboard players set #reduce_health CAL 0
 ##tip
 #tellraw @a [{text:"===============================",color:yellow}]
+#tellraw @a [{text:"Damage Absorption:"},{score:{name:"#reduce_health",objective:"CAL"},color:red}]
 #tellraw @a [{text:"Damage Absorption:"},{score:{name:"#absorption_health",objective:"CAL"},color:red}]
 #tellraw @a [{text:"Remain Absorption:"},{score:{name:"@s",objective:"ENEMYABHEALTH"},color:red}]
 

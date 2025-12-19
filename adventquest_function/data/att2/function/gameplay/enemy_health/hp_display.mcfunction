@@ -5,6 +5,8 @@
 execute unless score @s LIFETIME matches -666.. on vehicle run data merge entity @s {transformation:{scale:[0.5,0.5,0.5]},start_interpolation:0,interpolation_duration:20,teleport_duration:20}
 execute unless score @s LIFETIME matches -666.. run scoreboard players set @s LIFETIME 20
 
+##add life count
+scoreboard players add display_count ENEMYHEALTH 1
 
 ##remove time
 execute unless score @s LIFETIME matches ..0 run return run scoreboard players remove @s LIFETIME 1

@@ -27,6 +27,3 @@ data modify entity @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] Motion set 
 tag @e[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] remove New
 tag @e[distance=..10,type=item,tag=New,tag=HPDISPLAY] remove New
 tag @e[distance=..10,type=armor_stand,tag=New,tag=HPDISPLAY] remove New
-
-##add count
-scoreboard players add display_count ENEMYHEALTH 1
