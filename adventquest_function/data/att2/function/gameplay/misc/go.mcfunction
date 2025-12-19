@@ -57,7 +57,7 @@ execute as @a at @s run function att2:gameplay/misc/quick_slot/go
 #torch lightpredicate
 execute as @a at @s run function att2:gameplay/misc/move_light/go
 #super dash
-execute as @a[scores={SuperDash=0..}] at @s run function att2:gameplay/misc/super_dash/go
+#execute as @a[scores={SuperDash=0..}] at @s run function att2:gameplay/misc/super_dash/go
 #execute as @a[scores={DIMENSION=4..5,SuperDash=0..}] at @s run function att2:gameplay/misc/super_dash/go
 
 ##ender_chest

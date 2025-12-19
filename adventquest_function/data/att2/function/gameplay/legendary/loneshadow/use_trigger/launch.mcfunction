@@ -12,8 +12,8 @@ effect give @s minecraft:invisibility 10 0 true
 scoreboard players set @s SHADOW_BUFF 200
 scoreboard players reset @s SHADOW_TOTAL
 ##enchantment tick
-execute unless items entity @s saddle saddle run item replace entity @s saddle with saddle[enchantments={"att2_enchantment:legendary/loneshadow/shadow_buff":1}]
-execute if items entity @s saddle saddle run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/loneshadow/shadow_buff":1}}
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle},enchantments={"att2_enchantment:legendary/loneshadow/shadow_buff":1}]
+execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/loneshadow/shadow_buff":1}}
 ## particle
 particle minecraft:dust{color:[0,0,0.2],scale:0.8} ~ ~1 ~ 2.5 2.5 2.5 0 150 normal
 particle minecraft:falling_dust{block_state:"minecraft:obsidian"} ~ ~1 ~ 0.3 0.5 0.3 0 7 normal

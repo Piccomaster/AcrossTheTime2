@@ -4,6 +4,10 @@
 #BS_EFFECT score, register the level of attack                  #
 #################################################################
 
+
+#speed
+execute unless predicate att2_pre:player/speed/300 run return fail
+
 ##test enemy 
 execute at @s at @s align xyz positioned ~-1 ~-1 ~-1 unless entity @n[dx=3,dy=3,dz=3,team=hostile,scores={GAMELEVEL=0..},type=!bat] run return fail
 
@@ -12,9 +16,9 @@ scoreboard players add @s BS_BLOCKED 1
 
 ##dahal trigger
 #30
-execute if score @s BS_BLOCKED matches ..3 unless score @s DAHAL_TICK matches 300.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score @s BS_BLOCKED matches ..3 unless score @s DAHAL_TICK matches 600.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #40
-execute if score @s BS_BLOCKED matches 4..7 unless score @s DAHAL_TICK matches 600.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
+execute if score @s BS_BLOCKED matches 4..7 unless score @s DAHAL_TICK matches 800.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #50
 execute if score @s BS_BLOCKED matches 8..11 unless score @s DAHAL_TICK matches 1200.. run return run function att2:dialogs/gameplay/dahal/not_enough_dahal
 #60
@@ -27,8 +31,8 @@ execute if score @s BS_BLOCKED matches 12.. run function att2:gameplay/legendary
 
 
 ##add enchantment tick
-execute unless items entity @s saddle saddle run item replace entity @s saddle with saddle[enchantments={"att2_enchantment:legendary/blindshield/blindshield_buff":1}]
-execute if items entity @s saddle saddle run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/blindshield/blindshield_buff":1}}
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle},enchantments={"att2_enchantment:legendary/blindshield/blindshield_buff":1}]
+execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/blindshield/blindshield_buff":1}}
 
 
 ##damage trigger

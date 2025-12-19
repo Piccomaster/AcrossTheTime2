@@ -11,5 +11,3 @@ execute as @a[gamemode=adventure] at @s unless entity @s[x=7000,z=-7000,distance
 
 
 execute as @e[type=!item] at @s if entity @s[y=-1,dy=-100] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] unless entity @s[tag=spell20_chest] unless entity @s[type=armor_stand,tag=POS] run kill @s
-
-execute as @a[y=-1,dy=-100] at @s run function att2:gameplay/dahal/action/spell20/stock_in

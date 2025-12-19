@@ -28,8 +28,8 @@ execute if score TIMER CAL > @s RUK_STAT_TIMER run scoreboard players operation 
 #add kill score
 scoreboard players operation @s RUK_KILL += STAT CAL
 ##add enchantment tick
-execute unless items entity @s saddle saddle run item replace entity @s saddle with saddle[enchantments={"att2_enchantment:legendary/rukyrion/stat_time":1}]
-execute if items entity @s saddle saddle run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/rukyrion/stat_time":1}}
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle},enchantments={"att2_enchantment:legendary/rukyrion/stat_time":1}]
+execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/rukyrion/stat_time":1}}
 #particle
 execute if score STAT CAL matches 1..7 run function att2:gameplay/legendary/rukyrion/particle/kill1
 execute if score STAT CAL matches 8..16 run function att2:gameplay/legendary/rukyrion/particle/kill2

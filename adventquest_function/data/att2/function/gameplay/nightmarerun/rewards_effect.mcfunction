@@ -3,7 +3,7 @@
 #Display boss defeat effetc 					 #
 ##################################################
 
-execute at @a run function att2:sound/misc/boss_victory
+execute at @a[distance=..100] run function att2:sound/misc/boss_victory
 particle minecraft:end_rod ~ ~1 ~ 0 0 0 0.5 100 normal
 particle minecraft:warped_spore ~ ~1 ~ 0 0 0 0.5 100 normal
 particle minecraft:soul ~ ~1 ~ 0.1 0.1 0.1 0.1 100 normal

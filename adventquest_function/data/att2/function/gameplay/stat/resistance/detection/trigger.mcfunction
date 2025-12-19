@@ -10,11 +10,12 @@ execute store result score max_health CAL run attribute @s max_health get 100
 execute store result score absorption CAL run data get entity @s AbsorptionAmount 100
 #get base resistance
 scoreboard players operation RES_TOT CAL = @s RES_TOT
+scoreboard players operation RES_TOT CAL > -50 CAL
 execute if score RES_TOT CAL matches ..0 run scoreboard players set RES_TOT CAL 0
 scoreboard players operation RES_TOT CAL *= -10 CAL
 scoreboard players operation RES_TOT CAL += 100 CAL
 ##max reduce
-scoreboard players operation RES_TOT CAL < 90 CAL
+scoreboard players operation RES_TOT CAL > 5 CAL
 #remove health
 scoreboard players operation @s RES_DETECTION *= 10 CAL
 #resistance effect

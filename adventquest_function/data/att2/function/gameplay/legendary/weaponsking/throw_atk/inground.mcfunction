@@ -15,7 +15,7 @@ execute if score TEST CAL matches 1 as @e[team=hostile,scores={GAMELEVEL=0..},di
 #particle
 function att2:gameplay/legendary/weaponsking/particle/throw_atk
 #make damage
-execute if score TEST CAL matches 1 as @e[distance=..5,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/legendary/weaponsking/throw_atk/damage with storage att2:damage
+execute if score TEST CAL matches 1 as @e[distance=..5,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/legendary/weaponsking/throw_atk/damage with storage att2:score
 #remove dahal
 execute on origin run scoreboard players remove @s[scores={DAHAL_TICK=2000..}] DAHAL_TICK 2000
 #reset

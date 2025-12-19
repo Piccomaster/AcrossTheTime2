@@ -3,7 +3,13 @@
     "attack": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
+        "entity": {
+          "team": "hostile"
+        },
         "damage": {
+          "taken": {
+            "min": 5
+          },
           "type": {
             "tags": [
               {
