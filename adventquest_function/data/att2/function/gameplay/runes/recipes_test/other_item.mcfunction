@@ -107,8 +107,46 @@ if score ult RUNECOUNT matches 1 \
 run return run function att2:gameplay/runes/recipes_test/item_reforging/equipment/leg_ult
 
 
+###special_arrow
 
+#explosion_arrow 0->1 (4:1->3,Org)
+scoreboard players operation total_item CAL = arrow RUNECOUNT
+scoreboard players operation total_item CAL += org RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score arrow RUNECOUNT matches 4.. if score org RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/explosion_arrow_1
+#explosion_arrow 1->2 (3:1->2,Nym)
+scoreboard players operation total_item CAL = explosive_arrow_1 RUNECOUNT
+scoreboard players operation total_item CAL += nym RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score explosive_arrow_1 RUNECOUNT matches 3.. if score nym RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/explosion_arrow_2
+#explosion_arrow 2->3 (2:1->1,Von)
+scoreboard players operation total_item CAL = explosive_arrow_2 RUNECOUNT
+scoreboard players operation total_item CAL += von RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score explosive_arrow_2 RUNECOUNT matches 2.. if score von RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/explosion_arrow_3
 
+#poisoned_arrow_1 0->1 (4:1->3,Jo)
+scoreboard players operation total_item CAL = arrow RUNECOUNT
+scoreboard players operation total_item CAL += jo RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score arrow RUNECOUNT matches 4.. if score jo RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/poisoned_arrow_1
+#poisoned_arrow_1 1->2 (3:1->2,Inu)
+scoreboard players operation total_item CAL = poisoned_arrow_1 RUNECOUNT
+scoreboard players operation total_item CAL += inu RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score poisoned_arrow_1 RUNECOUNT matches 3.. if score inu RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/poisoned_arrow_2
+#poisoned_arrow_1 2->3 (2:1->1,Ehl)
+scoreboard players operation total_item CAL = poisoned_arrow_2 RUNECOUNT
+scoreboard players operation total_item CAL += ehl RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score poisoned_arrow_2 RUNECOUNT matches 2.. if score ehl RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/poisoned_arrow_3
+
+#tracking_arrow_1 0->1 (4:1->3,Ra)
+scoreboard players operation total_item CAL = arrow RUNECOUNT
+scoreboard players operation total_item CAL += ra RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score arrow RUNECOUNT matches 4.. if score ra RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/tracking_arrow_1
+#tracking_arrow_1 1->2 (3:1->2,Hal)
+scoreboard players operation total_item CAL = tracking_arrow_1 RUNECOUNT
+scoreboard players operation total_item CAL += hal RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score tracking_arrow_1 RUNECOUNT matches 3.. if score hal RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/tracking_arrow_2
+#tracking_arrow_1 2->3 (2:1->1,Ave)
+scoreboard players operation total_item CAL = tracking_arrow_2 RUNECOUNT
+scoreboard players operation total_item CAL += ave RUNECOUNT
+execute if score total_item RUNECOUNT = total_item CAL if score tracking_arrow_2 RUNECOUNT matches 2.. if score ave RUNECOUNT matches 1.. run return run function att2:gameplay/runes/recipes_test/special_arrow/tracking_arrow_3
 ##other_item detection
 #item->25 ESC
 execute if score total_item RUNECOUNT matches 5 \
