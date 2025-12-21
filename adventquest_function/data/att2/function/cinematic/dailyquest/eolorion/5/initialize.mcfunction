@@ -18,3 +18,6 @@ scoreboard players set eolorion_dailyquest_5_fail_chronoton DAILYQUEST 0
 scoreboard players set eolorion_dailyquest_5_fail_reputation DAILYQUEST 3
 
 ##Other: Fireball spell damage +10%
+
+
+##add score dummy
