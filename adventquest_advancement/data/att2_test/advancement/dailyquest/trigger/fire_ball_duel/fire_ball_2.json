@@ -1,0 +1,20 @@
+{
+  "rewards": {
+    "function": "att2:cinematic/dailyquest/eolorion/5/fireball_duel/trigger/player_launch_fire_ball_2"
+  },
+  "criteria": {
+    "use_trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:fire_charge",
+          "predicates": {
+            "minecraft:custom_data": {
+              "fire_ball": "medium"
+            }
+          }
+        }
+      }
+    }
+  }
+}

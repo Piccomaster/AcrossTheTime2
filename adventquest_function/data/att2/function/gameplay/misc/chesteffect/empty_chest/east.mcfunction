@@ -19,3 +19,5 @@ execute if block ~ ~ ~ #minecraft:chest[type=left] run data modify entity @s dat
 execute if block ~ ~ ~ #minecraft:chest[type=left] run tag @s add left
 execute if block ~ ~ ~ #minecraft:chest[type=right] run data modify entity @s data.type set value "right"
 execute if block ~ ~ ~ #minecraft:chest[type=right] run tag @s add right
+##update score
+scoreboard players set @s CHESTEFFECT 0

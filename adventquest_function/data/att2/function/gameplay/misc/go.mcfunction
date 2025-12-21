@@ -62,3 +62,7 @@ execute as @a at @s run function att2:gameplay/misc/move_light/go
 
 ##ender_chest
 function att2:gameplay/misc/ender_chest/go
+
+
+##pot
+function att2:gameplay/misc/pot/go
