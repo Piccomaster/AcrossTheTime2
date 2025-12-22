@@ -35,5 +35,8 @@ execute as @p[scores={LEVELMASTER=150..}] run function att2:summon/chronoton/dia
 execute as @p[scores={LEVELMASTER=200..}] run function att2:summon/chronoton/esc
 execute as @p[scores={LEVELMASTER=250..}] run function att2:summon/chronoton/diamond
 execute as @p[scores={LEVELMASTER=300..}] run function att2:summon/chronoton/esc
+
+
+execute as @e[distance=..5,type=item,tag=New] run function att2:gameplay/misc/motion/item_random_motion
 #TEST
 function att2:advancement/test_all/treasure/lost_soul

@@ -276,6 +276,9 @@
 
 #### **Elite Monster Mutations**
 
+##### **New hostile creature**
+- Zombie Nautilus, primarily found in ocean regions.
+
 ##### **Spawn Mechanism**
 - Lower probability of generating mutant elites; each mutant elite monster has only one special ability.
 - No more than one mutant elite monster exists at the same time.

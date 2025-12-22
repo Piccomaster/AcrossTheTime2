@@ -3,6 +3,7 @@
 #trigger attack           								#
 #################################################################
 
+
 ##sound effect
 execute on attacker at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 150 1.1
 #test health
@@ -38,6 +39,8 @@ execute if score reduce_health MIMIC >= now_health MIMIC at @s[tag=Reg4] run fun
 #reduce health
 #scoreboard players operation @s ENEMYHEALTH = remain_health MIMIC
 scoreboard players operation #damage CAL = reduce_health MIMIC
+##clear absorption
+scoreboard players set @s ENEMYABHEALTH 0
 ##update health
 function att2:gameplay/enemy_health/real_health_trigger
 #data modify entity @n[distance=..0,type=slime,tag=MIMIC] Health set from storage damage remain_health

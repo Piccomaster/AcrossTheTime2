@@ -3449,3 +3449,14 @@ execute if score @s ScoreTrigger matches 3406 run execute if score Kortaek HORSE
 ##show_health_reduce
 execute if score @s ScoreTrigger matches 3407 run function att2:gameplay/enemy_health/run
 execute if score @s ScoreTrigger matches 3408 run function att2:gameplay/horse_racing/stop
+
+##special arrows recipe
+execute if score @s ScoreTrigger matches 3409 run function att2:dialogs/gameplay/runes/recipes/special_arrow
+
+##item name
+execute if score @s ScoreTrigger matches 3410 run function att2:gameplay/misc/itemrarity_color/select/run/name_show
+execute if score @s ScoreTrigger matches 3411 run function att2:gameplay/misc/itemrarity_color/select/stop/name_show
+
+##dailyquest fire_ball_duel
+execute if score @s ScoreTrigger matches 3412 run function att2:cinematic/dailyquest/eolorion/5/fireball_duel/start
+execute if score @s ScoreTrigger matches 3413 run function att2:dialogs/dailyquest/eolorion/dq5/bob_l/dialog_2

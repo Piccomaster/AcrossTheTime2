@@ -24,7 +24,7 @@ execute if block ~ ~ ~ #minecraft:chest[facing=east] unless block ~ ~ ~ minecraf
 execute if block ~ ~ ~ #minecraft:chest[facing=west] unless block ~ ~ ~ minecraft:waxed_copper_chest run function att2:gameplay/misc/chesteffect/empty_chest/west
 execute if block ~ ~ ~ #minecraft:chest[facing=south] unless block ~ ~ ~ minecraft:waxed_copper_chest run function att2:gameplay/misc/chesteffect/empty_chest/south
 execute if block ~ ~ ~ #minecraft:chest[facing=north] unless block ~ ~ ~ minecraft:waxed_copper_chest run function att2:gameplay/misc/chesteffect/empty_chest/north
-function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data
+#function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data
 
 ##score set
 execute if predicate att2_pre:chest_effect/t1 run scoreboard players set @s CHESTEFFECT 1

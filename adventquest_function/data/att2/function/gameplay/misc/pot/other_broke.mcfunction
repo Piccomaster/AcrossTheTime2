@@ -11,4 +11,4 @@ playsound block.glass.break block @a ~ ~ ~ 1 1
 playsound block.decorated_pot.shatter block @a ~ ~ ~ 1 1
 setblock ~ ~ ~ air destroy
 ##advancement
-#execute on origin at @s run function att2:advancement/test_all/
+#function att2:advancement/test_all/

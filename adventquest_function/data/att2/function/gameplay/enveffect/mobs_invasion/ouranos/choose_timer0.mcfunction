@@ -26,3 +26,4 @@ execute if score numberPlayer COUNT matches 5.. run scoreboard players set TRUE 
 
 ##if dailyquest summon_trigger
 execute if score @s RESUMMON matches 1.. run scoreboard players set TRUE INVASION 1
+scoreboard players set @s RESUMMON 0

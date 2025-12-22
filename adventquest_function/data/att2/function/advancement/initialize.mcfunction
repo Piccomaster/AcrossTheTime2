@@ -12,7 +12,7 @@ scoreboard players set Game_percentage_progress EXPLOIT 0
 scoreboard players set Points_completion EXPLOIT 100
 # SQ 60 + MAINQUEST 300
 scoreboard players set Total_objectives EXPLOIT 359
-scoreboard players set Total_point EXPLOIT 20150
+scoreboard players set Total_point EXPLOIT 20168
 scoreboard players set MAX EXPLOIT 0
 
 function att2:advancement/initialize_secret_chest
@@ -42,6 +42,7 @@ scoreboard objectives add statBEEKILLED minecraft.killed:minecraft.bee
 scoreboard objectives add statVEXKILLED minecraft.killed:minecraft.vex
 scoreboard objectives add statHOGLINKILLED minecraft.killed:minecraft.hoglin
 scoreboard objectives add statPILLAKILLED minecraft.killed:minecraft.pillager
+scoreboard objectives add statNAUTILUSKILLED dummy
 
 scoreboard objectives add statSWIM minecraft.custom:minecraft.swim_one_cm
 scoreboard objectives add statSPRINT minecraft.custom:minecraft.sprint_one_cm
@@ -55,7 +56,7 @@ scoreboard objectives add triggHORSE minecraft.custom:minecraft.horse_one_cm
 scoreboard objectives add statWALK minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add statCAKE minecraft.custom:minecraft.eat_cake_slice
 
-scoreboard objectives add statDAMAGEDEALT minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add statDAMAGEDEALT minecraft.custom:minecraft.damage_dealt_absorbed
 scoreboard objectives add statDAMAGETAKEN minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add statDAMAGEBLOCK minecraft.custom:minecraft.damage_blocked_by_shield
 

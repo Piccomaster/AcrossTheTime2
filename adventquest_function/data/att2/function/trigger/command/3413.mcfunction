@@ -1,0 +1,1 @@
+function att2:dialogs/dailyquest/eolorion/dq5/bob_l/dialog_2
