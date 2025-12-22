@@ -1353,8 +1353,3 @@ execute in minecraft:overworld positioned 7334 127 7407 run summon marker ~ ~ ~ 
 execute in minecraft:overworld positioned 7434 134 7322 run summon marker ~ ~ ~ {Tags:["SymbolMarker"],UUID:[I;115121,10998,111108,1304],data:{function:"function att2:gameplay/enveffect/symbol/add/zirthion"}}
 execute in minecraft:overworld positioned 7152 79 7273 run summon marker ~ ~ ~ {Tags:["SymbolMarker"],UUID:[I;115121,10998,111108,1305],data:{function:"function att2:gameplay/enveffect/symbol/add/zirthion"}}
 execute in minecraft:overworld positioned 7200 93 7313 run summon marker ~ ~ ~ {Tags:["SymbolMarker"],UUID:[I;115121,10998,111108,1306],data:{function:"function att2:gameplay/enveffect/symbol/add/zirthion"}}
-
-
-# special
-# execute in minecraft:overworld positioned -4042 75 -5606 run summon marker ~ ~ ~ {Tags:["SymbolMarker"],data:{function:"function att2:gameplay/enveffect/symbol/add/elvetta"}}
-# execute in minecraft:overworld positioned -4134 71 -5648 run summon marker ~ ~ ~ {Tags:["SymbolMarker"],data:{function:"function att2:gameplay/enveffect/symbol/add/elvetta"}}

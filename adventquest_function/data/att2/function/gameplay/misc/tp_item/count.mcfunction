@@ -9,6 +9,6 @@ scoreboard players operation TOTAL TP_ITEM_COUNT += COUNT TP_ITEM_COUNT
 ##tp
 tp @s ~ ~ ~
 ##motion
-function att2:gameplay/misc/motion/item_random_motion
+execute unless predicate att2_pre:player/water run function att2:gameplay/misc/motion/item_random_motion
 ##delay
 data modify entity @s PickupDelay set value 20

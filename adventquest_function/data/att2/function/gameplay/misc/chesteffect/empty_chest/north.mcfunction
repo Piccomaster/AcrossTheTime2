@@ -4,7 +4,7 @@
 #################################################################
 
 ##store loottable
-data modify entity @s data.loottable set from block ~ ~ ~ LootTable
+execute unless data entity @s data.loottable run data modify entity @s data.loottable set from block ~ ~ ~ LootTable
 ##set facing data
 data modify entity @s data.facing set value "north"
 #rotation

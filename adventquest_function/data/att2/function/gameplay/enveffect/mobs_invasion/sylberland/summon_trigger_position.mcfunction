@@ -63,7 +63,7 @@ execute in overworld positioned -4699 70 -4403 if entity @a[distance=10..60] run
 execute in overworld positioned -4734 70 -4258 if entity @a[distance=10..60] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/slime_class8
 
 #Asunark
-execute in overworld positioned -3656 68 -4922 if entity @a[distance=10..50] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/putrid_class4
+execute in overworld positioned -3656 68 -4922 if entity @a[distance=10..50] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/water_class4
 
 #Volcano
 execute in overworld positioned -5478 74 -5288 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/skeletonarcher_skeleton_class8
@@ -101,3 +101,18 @@ execute in overworld positioned -7415 30 -4310 if entity @a[distance=10..50] run
 execute in overworld positioned -7581 40 -4390 if entity @a[distance=10..60] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/putridarcher_putrid_class20
 execute in overworld positioned -7563 38 -4258 if entity @a[distance=10..50] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/putridarcher_putridsmall_putrid_class20
 execute in overworld positioned -7683 34 -4243 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/hoglin_class20
+
+
+##seaside
+execute in overworld positioned -4031 68 -5135 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/water_class6
+execute in overworld positioned -4103 68 -5053 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/water_class6
+execute in overworld positioned -4159 68 -4938 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/zombie_nautilus_class8
+execute in overworld positioned -4151 68 -4847 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/water_class6
+execute in overworld positioned -4342 68 -4680 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/water_class6
+execute in overworld positioned -4367 68 -4515 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/drowned_class8
+execute in overworld positioned -4421 68 -4423 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/water_class6
+execute in overworld positioned -4521 68 -4332 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/zombie_nautilus_class8
+execute in overworld positioned -4591 68 -4252 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/water_class8
+execute in overworld positioned -4754 68 -4179 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/drowned_class8
+execute in overworld positioned -4880 68 -4158 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/water_class8
+execute in overworld positioned -4918 68 -4019 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/sylberland/summoning/zombie_nautilus_class8

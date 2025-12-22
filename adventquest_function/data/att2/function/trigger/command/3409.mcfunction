@@ -1,0 +1,1 @@
+function att2:dialogs/gameplay/runes/recipes/special_arrow

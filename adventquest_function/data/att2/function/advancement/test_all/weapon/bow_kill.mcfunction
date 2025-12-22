@@ -3,7 +3,7 @@
 #Process all test of Weapon advancement 			            #
 #################################################################
 
-advancement revoke @s only att2_test:test_weapon/bow_kill
+#advancement revoke @s only att2_test:test_weapon/bow_kill
 
 ##add total score
 scoreboard players add @s bowKILL 1

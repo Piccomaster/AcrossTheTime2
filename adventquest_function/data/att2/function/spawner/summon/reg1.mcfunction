@@ -4066,3 +4066,43 @@ execute in overworld positioned -4579 16 -6083 run summon marker ~ ~ ~ {Tags:["S
 execute in overworld positioned -4609 11 -6059 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,4066],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/silberland/secret_dungeon/drowned0_class17_6152"}}
 execute in overworld positioned -7543 133 -4180 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,4067],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/nojelanth/hive/bee0_class19_3887"}}
 execute in overworld positioned -7561 78 -4156 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,4068],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/nojelanth/hive/bee0_class18_3878"}}
+
+
+##new enemey
+
+##asunark
+
+#zombie_nautilus
+
+execute in overworld positioned -3672 62 -4926 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6155],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_outside/zombie_nautilus0_class6"}}
+execute in overworld positioned -3655 64 -4904 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6156],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_outside/zombie_nautilus0_class6"}}
+execute in overworld positioned -3628 64 -4919 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6157],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_outside/zombie_nautilus0_class4"}}
+execute in overworld positioned -3627 64 -4950 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6158],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_outside/zombie_nautilus0_class4"}}
+execute in overworld positioned -3601 66 -4918 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6159],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_outside/zombie_nautilus0_class6"}}
+execute in overworld positioned -3469 62 -5049 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6160],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wingn/zombie_nautilus0_class6"}}
+execute in overworld positioned -3458 62 -5080 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6161],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wingn/zombie_nautilus0_class6"}}
+execute in overworld positioned -3470 64 -5164 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6162],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wingn/zombie_nautilus0_class6"}}
+execute in overworld positioned -3425 60 -5146 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6163],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wingn/zombie_nautilus0_class6"}}
+execute in overworld positioned -3373 65 -5141 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6164],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wingn/zombie_nautilus0_class6"}}
+execute in overworld positioned -3505 53 -4730 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6165],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wings/zombie_nautilus0_class7"}}
+execute in overworld positioned -3472 34 -4708 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6166],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wings/zombie_nautilus0_class7"}}
+execute in overworld positioned -3443 41 -4746 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6167],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wings/zombie_nautilus0_class7"}}
+execute in overworld positioned -3536 37 -4721 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6168],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wings/zombie_nautilus0_class7"}}
+execute in overworld positioned -3556 28 -4797 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6169],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wings/zombie_nautilus0_class7"}}
+execute in overworld positioned -3401 39 -4824 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6170],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/asunark/dungeon_wings/zombie_nautilus0_class7"}}
+
+##secret island
+execute in overworld positioned -4045 63 -4436 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6171],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -4009 66 -4405 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6172],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -3974 66 -4363 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6173],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class20"}}
+execute in overworld positioned -3950 65 -4312 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6174],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -3958 66 -4268 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6175],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -3989 66 -4256 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6176],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -4022 66 -4249 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6177],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -4076 65 -4272 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6178],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -4104 65 -4287 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6179],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -4121 59 -4356 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6180],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -4123 62 -4420 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6181],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -4068 52 -4328 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6182],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -3990 51 -4301 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6183],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class17"}}
+execute in overworld positioned -3968 43 -4318 run summon marker ~ ~ ~ {Tags:["SpawnerMarker","go_90"],UUID:[I;109,111,98,6184],data:{function:"execute if entity @a[distance=7..20] run function att2:spawner/reg1/secret_island/sea/zombie_nautilus0_class20"}}
