@@ -1,0 +1,26 @@
+#############################################################
+#Made by Adventquest                               			
+#Eolorion dailyquest : 5
+#go command
+#Task requirements: #Time limit : 20 minutes
+#Achieve victory in the duel against Bob L.
+#############################################################
+
+##random pos
+execute store result score #RNG CAL run random value 1..90
+execute if score #RNG CAL matches 1..10 anchored eyes positioned ^-1.0 ^ ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+
+execute if score #RNG CAL matches 11..20 anchored eyes positioned ^1.0 ^ ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+execute if score #RNG CAL matches 21..30 anchored eyes positioned ^-1.0 ^-1.0 ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+execute if score #RNG CAL matches 31..40 anchored eyes positioned ^1.0 ^1.0 ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+execute if score #RNG CAL matches 41..50 anchored eyes positioned ^-1.0 ^1.0 ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+execute if score #RNG CAL matches 51..60 anchored eyes positioned ^1.0 ^-1.0 ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+execute if score #RNG CAL matches 61..70 anchored eyes positioned ^ ^1.0 ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+execute if score #RNG CAL matches 71..80 anchored eyes positioned ^ ^-1.0 ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+execute if score #RNG CAL matches 81..90 anchored eyes positioned ^ ^ ^1 unless entity @n[distance=..0.5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL] run summon item_display ~ ~ ~ {Rotation:[-90,0],Tags:["FireBallDuel","New","BobL","Big"],item:{id:"fire_charge"},transformation:{scale:[2.0,2.0,2.0],translation:[0.0,0.0,0.0],right_rotation:[0.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},item_display:fixed,brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:2}
+
+##remove tag
+tag @e[distance=..5,type=item_display,tag=FireBallDuel,tag=New,tag=BobL,tag=Big] remove New
+
+##sound
+playsound item.firecharge.use ambient @a ~ ~ ~ 1 1

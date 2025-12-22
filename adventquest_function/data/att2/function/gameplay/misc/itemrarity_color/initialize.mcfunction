@@ -19,3 +19,6 @@ scoreboard players set rune_medium itemcolor 1
 scoreboard players set rune_high itemcolor 1
 
 scoreboard players set all itemcolor 1
+
+
+scoreboard players set name_show itemcolor 1

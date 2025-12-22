@@ -9,12 +9,13 @@ data modify entity @s Invulnerable set value true
 ####item rarity set
 
 #set item name
-data modify entity @s CustomNameVisible set value true
+execute if score name_show itemcolor matches 1 run data modify entity @s CustomNameVisible set value true
 data modify entity @s CustomName set from entity @s Item.components."minecraft:custom_name"
 #reset
 data modify storage att2:item rarity set value ""
 #get data
 data modify storage att2:item rarity set from entity @s Item.components."minecraft:custom_data"
+
 #test equipment
 execute if data storage att2:item rarity{Rarity:cur} run return run scoreboard players set @s itemcolor 0
 execute if data storage att2:item rarity{Rarity:com} run return run scoreboard players set @s itemcolor 1

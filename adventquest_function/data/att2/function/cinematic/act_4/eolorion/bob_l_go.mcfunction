@@ -6,6 +6,8 @@
 # 0..1000 - Bob is training                                    		#
 #####################################################################
 
+##if dailyquest -> stop
+execute if score eolorion_dailyquest_5 DAILYQUEST matches 1..99 run return run scoreboard players set Bob_timer EOLORION 0
 # Particles area training
 particle minecraft:large_smoke -5246.0 107 -6314 0 0 0 0 1
 

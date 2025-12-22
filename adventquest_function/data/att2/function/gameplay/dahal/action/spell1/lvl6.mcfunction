@@ -3,7 +3,7 @@
 #Fireball lvl6													#
 #################################################################
 
-execute at @s run kill @e[type=minecraft:eye_of_ender,tag=FireballSpell,distance=..2]
+execute at @s run kill @e[type=minecraft:snowball,tag=FireballSpell,distance=..2]
 execute at @s run kill @e[type=minecraft:fireball,tag=FireballSpell,distance=..2]
 #add time cal
 scoreboard players set @s SPELL1_TIMER 20

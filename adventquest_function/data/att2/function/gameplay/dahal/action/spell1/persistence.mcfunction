@@ -19,6 +19,6 @@ execute align xyz positioned ~-1 ~-1 ~-1 if entity @e[dx=2,dy=2,dz=2,scores={GAM
 ##test snowball onground
 execute unless predicate att2_pre:has_vehicle run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1
 ##test snowball onground
-execute on vehicle at @s unless predicate att2_pre:test_block/fire_ball_limit on passengers at @s run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1
+#execute on vehicle at @s unless predicate att2_pre:test_block/fire_ball_limit on passengers at @s run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1
 ##if player far 
 execute unless entity @a[distance=..80] run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1

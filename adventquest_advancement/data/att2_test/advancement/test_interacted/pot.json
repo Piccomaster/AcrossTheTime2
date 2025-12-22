@@ -1,0 +1,18 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/misc/pot/trigger"
+  },
+  "criteria": {
+    "pot": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "block_state_property",
+            "block": "minecraft:decorated_pot"
+          }
+        ]
+      }
+    }
+  }
+}
