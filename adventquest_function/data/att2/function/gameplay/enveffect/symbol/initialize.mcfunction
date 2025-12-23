@@ -49,3 +49,7 @@ scoreboard players set Vonaheim SYMBOL 0
 scoreboard players set Worlest SYMBOL 0
 scoreboard players set Worlest_mine SYMBOL 0
 scoreboard players set Zirthion SYMBOL 0
+
+
+##summon marker
+function att2:gameplay/enveffect/symbol/summon
