@@ -11,6 +11,9 @@ execute unless score meleim_cycle_time DAILYQUEST matches 1.. run scoreboard pla
 ##if player nearly -> update
 execute unless score meleim_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0
+##max ->limit
+execute store result score #count CAL if entity @e[type=interaction,tag=HaveQuest,tag=QuestBoard,tag=Request,distance=..20]
+execute if score #count CAL matches 6.. run return fail
 
 ##rng select quest
 scoreboard players remove meleim_update_count DAILYQUEST 1
@@ -99,7 +102,7 @@ data modify storage att2:dailyquest rng_selectid set value 7
 execute unless score meleim_dailyquest_7_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score meleim_dailyquest_7 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
-execute unless score meleim_city_donation DAILYQUEST matches 50.. run scoreboard players set #RNG CAL 0
+execute unless score meleim_city_donation DAILYQUEST matches 100.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:7}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
@@ -124,20 +127,20 @@ data modify storage att2:dailyquest rng_selectid set value 9
 execute unless score meleim_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
 execute if score meleim_dailyquest_9 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score meleim_city_donation DAILYQUEST matches 200.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:9}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 10 : Son of the Sea
 #random value
-execute store result score #RNG CAL run random value 1..100
+#execute store result score #RNG CAL run random value 1..100
 #set id
-data modify storage att2:dailyquest rng_selectid set value 10
+#data modify storage att2:dailyquest rng_selectid set value 10
 #Guarantee Mechanism
-execute unless score meleim_dailyquest_10_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
+#execute unless score meleim_dailyquest_10_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
 #other limit
-execute if score meleim_dailyquest_10 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
-execute unless score meleim_city_donation DAILYQUEST matches 200.. run scoreboard players set #RNG CAL 0
-execute unless score heros REPUTATION matches 100.. run scoreboard players set #RNG CAL 0
+#execute if score meleim_dailyquest_10 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+#execute unless score meleim_city_donation DAILYQUEST matches 200.. run scoreboard players set #RNG CAL 0
+#execute unless score heros REPUTATION matches 100.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:10}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
-
+#execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:10}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select

@@ -3,5 +3,24 @@
 #Process summon stand runic word	                #
 #####################################################
 
-#kill @e[tag=runicwordStand]
-summon minecraft:armor_stand ~-0.05 ~1.5 ~0.2 {Tags:["runicwordStand"],equipment:{mainhand:{},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+kill @e[tag=runicwordStand]
+summon minecraft:armor_stand -5014.55 91.0 -4951.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+summon minecraft:armor_stand -5017.55 91.0 -4952.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+summon minecraft:armor_stand -5020.55 91.0 -4953.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+summon minecraft:armor_stand -5023.55 91.0 -4954.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+summon minecraft:armor_stand -5026.55 91.0 -4955.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+summon minecraft:armor_stand -5030.55 91.0 -4955.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+summon minecraft:armor_stand -5033.55 91.0 -4954.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+summon minecraft:armor_stand -5036.55 91.0 -4953.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+summon minecraft:armor_stand -5039.55 91.0 -4952.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}
+
+
+summon minecraft:armor_stand -5042.55 91.0 -4951.3 {Tags:["runicwordStand"],equipment:{mainhand:{id:"glowstone_dust",components:{custom_model_data:{floats:[10000000]},custom_data:{EquipmentType:'runic_word',Rarity:'misc'},custom_name:{translate:'item.runeword.empty.name'},lore:[{translate:'item.runeword.empty.name'}],tooltip_style:"minecraft:rarity/misc/misc"}},offhand:{}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:1973790,Rotation:[-90.0f,0.0f],Pose:{RightArm:[-90f,-90f,0f]}}

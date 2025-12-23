@@ -44,3 +44,7 @@ function att2:cinematic/dailyquest/eolorion/5/reset
 ##add quest completed count
 scoreboard players add eolorion_dailyquest_completed_count DAILYQUEST 1
 scoreboard players set eolorion_dailyquest_5_completed DAILYQUEST 1
+
+##fire ball damage
+scoreboard players add fire_ball_duel SPDG 10
+scoreboard players operation fire_ball_duel SPDG > 500 CAL

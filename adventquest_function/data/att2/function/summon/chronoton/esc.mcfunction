@@ -3,4 +3,4 @@
 #Summon Small coin of Chronotons                 #
 ##################################################
 
-summon minecraft:item ~ ~ ~ {PickupDelay:40,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:quartz",count:1,components:{custom_data:{EquipmentType:'misc',Rarity:'unk',Coin:'esc'},custom_name:{translate:'item.coin.esc.name'},lore:[{translate:'item.coin.esc.lore.1'},{translate:'item.coin.esc.lore.2'}],max_stack_size:99,tooltip_style:"minecraft:rarity/epi_esc/epi_esc"}}}
+summon minecraft:item ~ ~ ~ {Tags:["New"],PickupDelay:40,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:quartz",count:1,components:{custom_data:{EquipmentType:'misc',Rarity:'unk',Coin:'esc'},custom_name:{translate:'item.coin.esc.name'},lore:[{translate:'item.coin.esc.lore.1'},{translate:'item.coin.esc.lore.2'}],max_stack_size:99,tooltip_style:"minecraft:rarity/epi_esc/epi_esc"}}}

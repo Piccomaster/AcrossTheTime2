@@ -12,6 +12,9 @@ execute if score @s ElytraRacing matches 1.. run function att2:gameplay/elytra_r
 ##fly particle
 execute as @s[predicate=att2_pre:player/fall_flying,scores={ElytraRacing=1..}] at @s anchored feet positioned ^ ^ ^ run function att2:gameplay/elytra_racing/player/flying_particle
 
+##speed limit
+execute as @s[predicate=att2_pre:player/fall_flying,scores={ElytraRacing=1..}] at @s anchored feet positioned ^ ^ ^ run function att2:gameplay/elytra_racing/player/flying_particle
+
 ##time out
 execute unless score @s ElytraRacingTime matches ..0 run return run scoreboard players remove @s ElytraRacingTime 1
 

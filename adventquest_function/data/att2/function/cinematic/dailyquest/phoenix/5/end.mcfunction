@@ -2,7 +2,8 @@
 #Made by Adventquest                               			
 #Phoenix dailyquest : 5
 #end command
-#Task requirements: #...
+#Task requirements: #Time limit : 40 minutes
+#Kill Karon
 #############################################################
 
 ##end set

@@ -14,7 +14,7 @@ function att2:gameplay/stat/speed/go
 function att2:gameplay/stat/strength/go
 
 ##stat bossbar Display
-execute if score tic TIMECOUNTER matches 7 if score @s STAT_DISPLAY matches 1 run function att2:gameplay/stat/display/go
-execute if score tic TIMECOUNTER matches 17 if score @s STAT_DISPLAY matches 1 run function att2:gameplay/stat/display/go
+execute if score tic TIMECOUNTER matches 7 if score @s STAT_DISPLAY matches 1.. run function att2:gameplay/stat/display/go
+execute if score tic TIMECOUNTER matches 17 if score @s STAT_DISPLAY matches 1.. run function att2:gameplay/stat/display/go
 #temp jump safe
 execute if score @s JUMP_SAFE matches 1.. run function att2:gameplay/stat/jump_safe

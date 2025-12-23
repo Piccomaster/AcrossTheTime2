@@ -9,6 +9,8 @@ scoreboard players set bob_l_PNJ statDIALOG 1
 #test entity dialog
 
 execute as @a[distance=..7] if score bob_l_PNJ DIALOG matches 1..1 run function att2:dialogs/others/bob_l/dialog_1
+execute as @a[distance=..7] if score eolorion_dailyquest_5 DAILYQUEST matches 1 run function att2:dialogs/dailyquest/eolorion/dq5/bob_l/dialog_1
+
 
 #Activation entity head movement
 scoreboard players set 00000000-0000-088a-0000-00000000088a TALKING 1

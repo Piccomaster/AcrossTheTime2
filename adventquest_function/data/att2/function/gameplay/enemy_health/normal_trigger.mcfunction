@@ -8,6 +8,9 @@ scoreboard players set #reduce_health CAL 0
 scoreboard players set #absorption_health CAL 0
 #get no health
 execute store result score #health CAL run data get entity @s AbsorptionAmount
+
+##limit
+execute if score #health CAL matches 1000 run return fail
 #get max_health
 execute store result score #max_health CAL run attribute @s max_health get
 

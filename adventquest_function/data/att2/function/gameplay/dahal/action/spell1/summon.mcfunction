@@ -3,10 +3,11 @@
 #Fireball velocity												#
 #################################################################
 
-execute anchored eyes at @s positioned ^ ^ ^0.4 run summon minecraft:snowball ~ ~ ~ {Tags:["FireballSpell","New"],Motion:[0,0,0],NoGravity:true,Silent:true,Item:{id:"minecraft:stick",components:{item_model:nothing}},damage:-100,pickup:1,SoundEvent:"minecraft:intentionally_empty",life:1199,Passengers:[{id:"minecraft:fireball",Tags:["FireballSpell","display","New"],ExplosionPower:0b}]}
+execute anchored eyes at @s positioned ^ ^ ^0.4 run summon minecraft:snowball ~ ~ ~ {Tags:["FireballSpell","New"],Motion:[0,0,0],NoGravity:true,Silent:true,Item:{id:"minecraft:stick",components:{item_model:nothing}},damage:-100,pickup:1,SoundEvent:"minecraft:intentionally_empty",life:1199,Invulnerable:true,Passengers:[{id:"minecraft:fireball",Tags:["FireballSpell","display","New"],ExplosionPower:0b}]}
 
 data modify entity @n[distance=..5,tag=New,type=snowball,tag=FireballSpell] Rotation set from entity @s Rotation
 data modify entity @n[distance=..5,tag=New,type=fireball,tag=FireballSpell] Owner set from entity @s UUID
+data modify entity @n[distance=..5,tag=New,type=snowball,tag=FireballSpell] Owner set from entity @s UUID
 #set motion
 data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @s Rotation
 $execute as 00000001-0000-006f-0000-00010000006f at @s run tp @s ^ ^ ^$(speed)

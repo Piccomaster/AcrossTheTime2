@@ -43,5 +43,4 @@ execute if score ryliath_dailyquest_11 DAILYQUEST matches 1..100 run function at
 execute if score ryliath_dailyquest_12 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/ryliath/12/go
 
 ##dailyquest_13 : Long-distance transportation
-execute if score ryliath_dailyquest_13 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/ryliath/13/go
-
+#execute if score ryliath_dailyquest_13 DAILYQUEST matches 1..100 run function att2:cinematic/dailyquest/ryliath/13/go

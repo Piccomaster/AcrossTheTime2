@@ -13,7 +13,7 @@
 #execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/simple_test
 #execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/wall_break_test
 #execute as @a[gamemode=adventure] at @s if score @s triggCHEST matches 1.. run function att2:advancement/test_all/secret/ice_melt_test
-execute as @a[gamemode=adventure] at @s if score @s openSHULKER matches 1.. run function att2:advancement/test_all/secret/shulker_test
+#execute as @a[gamemode=adventure] at @s if score @s openSHULKER matches 1.. run function att2:advancement/test_all/secret/shulker_test
 
 # Reset Chest trigg opened
 scoreboard players set @a triggCHEST 0

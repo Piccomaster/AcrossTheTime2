@@ -4,7 +4,7 @@
 #################################################################
 
 ##enemy limit
-execute if entity @e[distance=..7,scores={GAMELEVEL=0..},team=hostile,limit=1] run kill @s
+execute if entity @e[distance=..10,scores={GAMELEVEL=0..},team=hostile,limit=1] run kill @s
 ##Test for landing
 execute unless predicate att2_pre:inground run return 0
 
@@ -14,7 +14,7 @@ function att2:gameplay/score/owner
 data remove storage att2:temp temp_data
 ##If it's a box,then return all loot to the player
 ##Place Presentation Entity
-execute align xyz if predicate att2_pre:test_block/chests positioned ~0.5 ~ ~0.5 run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
+execute align xyz if block ~ ~ ~ #minecraft:chest positioned ~0.5 ~ ~0.5 run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
 ##Purge Other Entities
 function att2:gameplay/dahal/action/spell20/block_catch/clear
 ##RemoveNewLabel

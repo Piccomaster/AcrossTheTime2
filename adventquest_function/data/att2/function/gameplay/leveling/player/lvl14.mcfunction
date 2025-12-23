@@ -5,10 +5,7 @@
 
 
 effect give @s minecraft:instant_health 1 20 true
-scoreboard players operation @s DAHAL = @s DAHALMAX
-scoreboard players operation #DAHALMAX_TICK CAL = @s DAHALMAX
-scoreboard players operation #DAHALMAX_TICK CAL *= 20 CAL
-scoreboard players operation @s DAHAL_TICK = #DAHALMAX_TICK CAL
+function att2:gameplay/runes/dahal_cal
 experience add @s -27395 points
 scoreboard players set @s LVL_UPGRADE_REQ 100
 tag @s remove LVLUpReady

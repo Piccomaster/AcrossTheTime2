@@ -74,3 +74,6 @@ execute if score karon_m BOSS_TIME matches 0 if score karon_s BOSS_TIME matches 
 execute if score karon_m BOSS_TIME matches 0 if score karon_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_a_rewards
 
 execute if score karon_m BOSS_TIME matches 0 if score karon_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/karon_master_timerecord
+
+##dailyquest trigger
+function att2:cinematic/dailyquest/phoenix/5/trigger/kill_karon
