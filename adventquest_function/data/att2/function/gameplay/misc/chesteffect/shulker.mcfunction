@@ -3,6 +3,11 @@
 #Process chest effect       									#
 #################################################################
 
+##add tag
+tag @s add Select
+##test open
+execute unless data block ~ ~ ~ LootTable run function att2:advancement/test_all/secret/shulker_test
+execute unless data block ~ ~ ~ LootTable run return run scoreboard players set @s CHESTEFFECT -100
 ##initialize score
 execute unless score @s CHESTEFFECT matches 1.. run return run function att2:gameplay/misc/chesteffect/score_set
 

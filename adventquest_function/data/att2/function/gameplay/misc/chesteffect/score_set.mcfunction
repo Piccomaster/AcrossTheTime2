@@ -19,6 +19,10 @@ execute if predicate att2_pre:chest_effect/ithax_foods run scoreboard players se
 execute if predicate att2_pre:chest_effect/ithax_ammunition run scoreboard players set @s CHESTEFFECT 12
 execute if predicate att2_pre:chest_effect/quest run scoreboard players set @s CHESTEFFECT 13
 
+##update name
+data modify block ~ ~ ~ CustomName set from entity @s data.customname
+##if shulker | not ithax -> update name
+execute if block ~ ~ ~ #minecraft:shulker_boxes unless predicate att2_pre:chest_effect/ithax_ammunition run data modify block ~ ~ ~ CustomName.translate set value "att2.chest.shulker.name"
 ##test if lock
 execute if data block ~ ~ ~ {lock:{}} run kill @s[type=marker,tag=ChestMarker]
 execute unless data block ~ ~ ~ LootTable run kill @s[type=marker,tag=ChestMarker]

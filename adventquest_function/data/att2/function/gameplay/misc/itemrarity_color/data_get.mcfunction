@@ -3,6 +3,12 @@
 #Process item rarity color particle    							#
 #################################################################
 
+##limit
+#quickslot
+execute if data entity @s Item.components."minecraft:custom_data".QuickSlotTemp run return run kill @s
+#consciousness
+execute if data entity @s Item.components."minecraft:custom_data".consciousness run return run kill @s
+
 #modify Invulnerable
 data modify entity @s Invulnerable set value true
 
@@ -17,21 +23,20 @@ data modify storage att2:item rarity set value ""
 data modify storage att2:item rarity set from entity @s Item.components."minecraft:custom_data"
 
 #test equipment
-execute if data storage att2:item rarity{Rarity:cur} run return run scoreboard players set @s itemcolor 0
-execute if data storage att2:item rarity{Rarity:com} run return run scoreboard players set @s itemcolor 1
-execute if data storage att2:item rarity{Rarity:unc} run return run scoreboard players set @s itemcolor 2
-execute if data storage att2:item rarity{Rarity:rar} run return run scoreboard players set @s itemcolor 3
-execute if data storage att2:item rarity{Rarity:epi} run return run scoreboard players set @s itemcolor 4
-execute if data storage att2:item rarity{Rarity:epi_esc} run return run scoreboard players set @s itemcolor 5
-execute if data storage att2:item rarity{Rarity:epi_set} run return run scoreboard players set @s itemcolor 6
-execute if data storage att2:item rarity{Rarity:leg} run return run scoreboard players set @s itemcolor 7
-execute if data storage att2:item rarity{Rarity:leg_armset} run return run scoreboard players set @s itemcolor 8
-execute if data storage att2:item rarity{Rarity:ult} run return run scoreboard players set @s itemcolor 9
-execute if data storage att2:item rarity{Rarity:myt} run return run scoreboard players set @s itemcolor 10
+execute if data storage att2:item rarity{Rarity:cur} run return run function att2:gameplay/misc/itemrarity_color/rarity/0
+execute if data storage att2:item rarity{Rarity:com} run return run function att2:gameplay/misc/itemrarity_color/rarity/1
+execute if data storage att2:item rarity{Rarity:unc} run return run function att2:gameplay/misc/itemrarity_color/rarity/2
+execute if data storage att2:item rarity{Rarity:rar} run return run function att2:gameplay/misc/itemrarity_color/rarity/3
+execute if data storage att2:item rarity{Rarity:epi} run return run function att2:gameplay/misc/itemrarity_color/rarity/4
+execute if data storage att2:item rarity{Rarity:epi_esc} run return run function att2:gameplay/misc/itemrarity_color/rarity/5
+execute if data storage att2:item rarity{Rarity:epi_set} run return run function att2:gameplay/misc/itemrarity_color/rarity/6
+execute if data storage att2:item rarity{Rarity:leg} run return run function att2:gameplay/misc/itemrarity_color/rarity/7
+execute if data storage att2:item rarity{Rarity:leg_armset} run return run function att2:gameplay/misc/itemrarity_color/rarity/8
+execute if data storage att2:item rarity{Rarity:ult} run return run function att2:gameplay/misc/itemrarity_color/rarity/9
+execute if data storage att2:item rarity{Rarity:myt} run return run function att2:gameplay/misc/itemrarity_color/rarity/10
 #test misc
-execute if data storage att2:item rarity{Rarity:que} run return run scoreboard players set @s itemcolor 11
-execute if data storage att2:item rarity{Rarity:unk} run return run scoreboard players set @s itemcolor 12
-execute if data storage att2:item rarity{Rarity:misc} run return run scoreboard players set @s itemcolor 13
+execute if data storage att2:item rarity{Rarity:que} run return run function att2:gameplay/misc/itemrarity_color/rarity/11
+execute if data storage att2:item rarity{Rarity:unk} run return run function att2:gameplay/misc/itemrarity_color/rarity/12
+execute if data storage att2:item rarity{Rarity:misc} run return run function att2:gameplay/misc/itemrarity_color/rarity/13
 #rune lvl
-execute if data storage att2:item rarity{Rarity:spe} store result score @s itemcolor run data get storage att2:item rarity.Runelvl
-execute if data storage att2:item rarity{Rarity:spe} run scoreboard players add @s itemcolor 100
+execute if data storage att2:item rarity{Rarity:spe} run return run function att2:gameplay/misc/itemrarity_color/rarity/14
