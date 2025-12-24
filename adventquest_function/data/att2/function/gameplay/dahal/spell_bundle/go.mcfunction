@@ -40,7 +40,7 @@ data modify storage att2:spell_bundle select set value ""
 ##add loop select score
 
 ##limit
-execute if score @s Spell_Bundle > #Spell_Bundle_Slot CAL run scoreboard players set @s Spell_Bundle 1
+execute if score @s Spell_Bundle >= #Spell_Bundle_Slot CAL run scoreboard players set @s Spell_Bundle 1
 
 execute if score @s Spell_Bundle matches 1 if data storage att2:spell_bundle Spell_Bundle_Slot[0] run data modify storage att2:spell_bundle select set from storage att2:spell_bundle Spell_Bundle_Slot[0]
 execute if score @s Spell_Bundle matches 2 if data storage att2:spell_bundle Spell_Bundle_Slot[1] run data modify storage att2:spell_bundle select set from storage att2:spell_bundle Spell_Bundle_Slot[1]
@@ -55,7 +55,6 @@ execute store result score #Spell_Bundle_Launch_Select CAL run data get storage 
 
 ##once spell
 execute if score #Spell_Bundle_Launch_Select CAL matches 1..10 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
-execute if score #Spell_Bundle_Launch_Select CAL matches 24..30 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
 execute if score #Spell_Bundle_Launch_Select CAL matches 24..30 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
 execute if score #Spell_Bundle_Launch_Select CAL matches 32..34 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
 execute if score #Spell_Bundle_Launch_Select CAL matches 41..45 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
