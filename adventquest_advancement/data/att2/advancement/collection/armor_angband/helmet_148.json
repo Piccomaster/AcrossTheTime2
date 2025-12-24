@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:golden_helmet",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor148.name"
               }

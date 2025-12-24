@@ -33,7 +33,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion43.name"
               }

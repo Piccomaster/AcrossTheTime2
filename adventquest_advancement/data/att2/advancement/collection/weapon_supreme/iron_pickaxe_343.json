@@ -22,7 +22,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon343.name"
               }

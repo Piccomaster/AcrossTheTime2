@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:netherite_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon291.name"
               }

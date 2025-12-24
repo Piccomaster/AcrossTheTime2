@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:chainmail_helmet",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor90.name"
               }

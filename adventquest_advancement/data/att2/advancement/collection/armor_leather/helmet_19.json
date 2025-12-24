@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:leather_helmet",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor19.name"
               }

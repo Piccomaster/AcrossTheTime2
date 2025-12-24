@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:netherite_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon306.name"
               }

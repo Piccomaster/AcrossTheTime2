@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon64.name"
               }
@@ -41,7 +41,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon65.name"
               }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon66.name"
               }
@@ -71,7 +71,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon67.name"
               }
@@ -86,7 +86,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon68.name"
               }
@@ -101,7 +101,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon69.name"
               }
@@ -116,7 +116,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon70.name"
               }
@@ -131,7 +131,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon71.name"
               }
@@ -146,7 +146,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon72.name"
               }
@@ -161,7 +161,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon73.name"
               }
@@ -176,7 +176,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon74.name"
               }
@@ -191,7 +191,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon75.name"
               }
@@ -206,7 +206,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon76.name"
               }
@@ -221,7 +221,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon77.name"
               }
@@ -236,7 +236,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon78.name"
               }
@@ -251,7 +251,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon79.name"
               }
@@ -266,7 +266,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon80.name"
               }
@@ -281,7 +281,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon81.name"
               }
@@ -296,7 +296,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon82.name"
               }
@@ -311,7 +311,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon83.name"
               }
@@ -326,7 +326,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon84.name"
               }
@@ -341,7 +341,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon85.name"
               }
@@ -356,7 +356,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon86.name"
               }
@@ -371,7 +371,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon87.name"
               }
@@ -386,7 +386,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon88.name"
               }
@@ -401,7 +401,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon89.name"
               }
@@ -416,7 +416,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon90.name"
               }
@@ -431,7 +431,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon91.name"
               }
@@ -446,7 +446,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon92.name"
               }
@@ -461,7 +461,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon93.name"
               }
@@ -476,7 +476,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon94.name"
               }
@@ -491,7 +491,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon95.name"
               }
@@ -506,7 +506,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon262.name"
               }
@@ -521,7 +521,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon263.name"
               }
@@ -536,7 +536,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon264.name"
               }
@@ -551,7 +551,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon265.name"
               }
@@ -566,7 +566,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon266.name"
               }
@@ -581,7 +581,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon267.name"
               }
@@ -596,7 +596,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon268.name"
               }
@@ -611,7 +611,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon269.name"
               }

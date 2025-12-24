@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:diamond_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon277.name"
               }

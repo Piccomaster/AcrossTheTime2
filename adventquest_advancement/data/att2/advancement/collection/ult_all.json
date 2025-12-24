@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:chainmail_helmet",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor357.name"
               }
@@ -41,7 +41,7 @@
         "items": [
           {
             "items": "minecraft:chainmail_leggings",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor359.name"
               }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": "minecraft:diamond_chestplate",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor354.name"
               }
@@ -71,7 +71,7 @@
         "items": [
           {
             "items": "minecraft:diamond_helmet",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor361.name"
               }
@@ -86,7 +86,7 @@
         "items": [
           {
             "items": "minecraft:iron_boots",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor356.name"
               }
@@ -101,7 +101,7 @@
         "items": [
           {
             "items": "minecraft:iron_chestplate",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor358.name"
               }
@@ -116,7 +116,7 @@
         "items": [
           {
             "items": "minecraft:netherite_boots",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor360.name"
               }
@@ -131,7 +131,7 @@
         "items": [
           {
             "items": "minecraft:netherite_leggings",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor355.name"
               }
@@ -146,7 +146,7 @@
         "items": [
           {
             "items": "minecraft:bow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon338.name"
               }
@@ -161,7 +161,7 @@
         "items": [
           {
             "items": "minecraft:crossbow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon339.name"
               }
@@ -176,7 +176,7 @@
         "items": [
           {
             "items": "minecraft:diamond_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon341.name"
               }
@@ -191,7 +191,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon342.name"
               }
@@ -206,7 +206,7 @@
         "items": [
           {
             "items": "minecraft:iron_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon343.name"
               }
@@ -221,7 +221,7 @@
         "items": [
           {
             "items": "minecraft:netherite_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon344.name"
               }
@@ -236,7 +236,7 @@
         "items": [
           {
             "items": "minecraft:netherite_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon345.name"
               }
@@ -251,7 +251,7 @@
         "items": [
           {
             "items": "minecraft:shield",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon340.name"
               }

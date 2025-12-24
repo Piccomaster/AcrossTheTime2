@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon203.name"
               }

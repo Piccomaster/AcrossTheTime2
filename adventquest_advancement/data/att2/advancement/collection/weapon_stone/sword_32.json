@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon32.name"
               }

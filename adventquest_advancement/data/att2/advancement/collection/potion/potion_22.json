@@ -33,7 +33,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion22.name"
               }

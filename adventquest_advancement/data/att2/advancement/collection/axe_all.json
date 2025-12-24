@@ -23,11 +23,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon1.name"
-
-                              }
+                                "translate": "weapon1.name"
+                            }
                         }
                     }
                 ]
@@ -39,11 +38,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon2.name"
-
-                              }
+                                "translate": "weapon2.name"
+                            }
                         }
                     }
                 ]
@@ -55,11 +53,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon9.name"
-
-                              }
+                                "translate": "weapon9.name"
+                            }
                         }
                     }
                 ]
@@ -71,11 +68,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon10.name"
-
-                              }
+                                "translate": "weapon10.name"
+                            }
                         }
                     }
                 ]
@@ -87,11 +83,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon17.name"
-
-                              }
+                                "translate": "weapon17.name"
+                            }
                         }
                     }
                 ]
@@ -103,11 +98,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon18.name"
-
-                              }
+                                "translate": "weapon18.name"
+                            }
                         }
                     }
                 ]
@@ -119,11 +113,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon25.name"
-
-                              }
+                                "translate": "weapon25.name"
+                            }
                         }
                     }
                 ]
@@ -135,11 +128,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon29.name"
-
-                              }
+                                "translate": "weapon29.name"
+                            }
                         }
                     }
                 ]
@@ -151,11 +143,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon64.name"
-
-                              }
+                                "translate": "weapon64.name"
+                            }
                         }
                     }
                 ]
@@ -167,11 +158,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon65.name"
-
-                              }
+                                "translate": "weapon65.name"
+                            }
                         }
                     }
                 ]
@@ -183,11 +173,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon72.name"
-
-                              }
+                                "translate": "weapon72.name"
+                            }
                         }
                     }
                 ]
@@ -199,11 +188,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon73.name"
-
-                              }
+                                "translate": "weapon73.name"
+                            }
                         }
                     }
                 ]
@@ -215,11 +203,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon80.name"
-
-                              }
+                                "translate": "weapon80.name"
+                            }
                         }
                     }
                 ]
@@ -231,11 +218,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon81.name"
-
-                              }
+                                "translate": "weapon81.name"
+                            }
                         }
                     }
                 ]
@@ -247,11 +233,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon88.name"
-
-                              }
+                                "translate": "weapon88.name"
+                            }
                         }
                     }
                 ]
@@ -263,11 +248,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon92.name"
-
-                              }
+                                "translate": "weapon92.name"
+                            }
                         }
                     }
                 ]
@@ -279,11 +263,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon96.name"
-
-                              }
+                                "translate": "weapon96.name"
+                            }
                         }
                     }
                 ]
@@ -295,11 +278,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon97.name"
-
-                              }
+                                "translate": "weapon97.name"
+                            }
                         }
                     }
                 ]
@@ -311,11 +293,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon104.name"
-
-                              }
+                                "translate": "weapon104.name"
+                            }
                         }
                     }
                 ]
@@ -327,11 +308,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon105.name"
-
-                              }
+                                "translate": "weapon105.name"
+                            }
                         }
                     }
                 ]
@@ -343,11 +323,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon112.name"
-
-                              }
+                                "translate": "weapon112.name"
+                            }
                         }
                     }
                 ]
@@ -359,11 +338,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon113.name"
-
-                              }
+                                "translate": "weapon113.name"
+                            }
                         }
                     }
                 ]
@@ -375,11 +353,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon120.name"
-
-                              }
+                                "translate": "weapon120.name"
+                            }
                         }
                     }
                 ]
@@ -391,11 +368,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon124.name"
-
-                              }
+                                "translate": "weapon124.name"
+                            }
                         }
                     }
                 ]
@@ -407,11 +383,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon128.name"
-
-                              }
+                                "translate": "weapon128.name"
+                            }
                         }
                     }
                 ]
@@ -423,11 +398,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon129.name"
-
-                              }
+                                "translate": "weapon129.name"
+                            }
                         }
                     }
                 ]
@@ -439,11 +413,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon136.name"
-
-                              }
+                                "translate": "weapon136.name"
+                            }
                         }
                     }
                 ]
@@ -455,11 +428,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon137.name"
-
-                              }
+                                "translate": "weapon137.name"
+                            }
                         }
                     }
                 ]
@@ -471,11 +443,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon144.name"
-
-                              }
+                                "translate": "weapon144.name"
+                            }
                         }
                     }
                 ]
@@ -487,11 +458,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon145.name"
-
-                              }
+                                "translate": "weapon145.name"
+                            }
                         }
                     }
                 ]
@@ -503,11 +473,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon152.name"
-
-                              }
+                                "translate": "weapon152.name"
+                            }
                         }
                     }
                 ]
@@ -519,11 +488,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon156.name"
-
-                              }
+                                "translate": "weapon156.name"
+                            }
                         }
                     }
                 ]
@@ -535,11 +503,10 @@
                 "items": [
                     {
                         "items": "minecraft:stone_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon198.name"
-
-                              }
+                                "translate": "weapon198.name"
+                            }
                         }
                     }
                 ]
@@ -551,11 +518,10 @@
                 "items": [
                     {
                         "items": "minecraft:stone_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon200.name"
-
-                              }
+                                "translate": "weapon200.name"
+                            }
                         }
                     }
                 ]
@@ -567,11 +533,10 @@
                 "items": [
                     {
                         "items": "minecraft:stone_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon201.name"
-
-                              }
+                                "translate": "weapon201.name"
+                            }
                         }
                     }
                 ]
@@ -583,11 +548,10 @@
                 "items": [
                     {
                         "items": "minecraft:stone_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon204.name"
-
-                              }
+                                "translate": "weapon204.name"
+                            }
                         }
                     }
                 ]
@@ -599,11 +563,10 @@
                 "items": [
                     {
                         "items": "minecraft:stone_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon205.name"
-
-                              }
+                                "translate": "weapon205.name"
+                            }
                         }
                     }
                 ]
@@ -615,11 +578,10 @@
                 "items": [
                     {
                         "items": "minecraft:stone_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon208.name"
-
-                              }
+                                "translate": "weapon208.name"
+                            }
                         }
                     }
                 ]
@@ -631,11 +593,10 @@
                 "items": [
                     {
                         "items": "minecraft:stone_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon209.name"
-
-                              }
+                                "translate": "weapon209.name"
+                            }
                         }
                     }
                 ]
@@ -647,11 +608,10 @@
                 "items": [
                     {
                         "items": "minecraft:stone_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon211.name"
-
-                              }
+                                "translate": "weapon211.name"
+                            }
                         }
                     }
                 ]
@@ -663,11 +623,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon278.name"
-
-                              }
+                                "translate": "weapon278.name"
+                            }
                         }
                     }
                 ]
@@ -679,11 +638,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon279.name"
-
-                              }
+                                "translate": "weapon279.name"
+                            }
                         }
                     }
                 ]
@@ -695,11 +653,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon288.name"
-
-                              }
+                                "translate": "weapon288.name"
+                            }
                         }
                     }
                 ]
@@ -711,11 +668,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon289.name"
-
-                              }
+                                "translate": "weapon289.name"
+                            }
                         }
                     }
                 ]
@@ -727,11 +683,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon298.name"
-
-                              }
+                                "translate": "weapon298.name"
+                            }
                         }
                     }
                 ]
@@ -743,11 +698,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon299.name"
-
-                              }
+                                "translate": "weapon299.name"
+                            }
                         }
                     }
                 ]
@@ -759,11 +713,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon308.name"
-
-                              }
+                                "translate": "weapon308.name"
+                            }
                         }
                     }
                 ]
@@ -775,11 +728,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_axe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon313.name"
-
-                              }
+                                "translate": "weapon313.name"
+                            }
                         }
                     }
                 ]

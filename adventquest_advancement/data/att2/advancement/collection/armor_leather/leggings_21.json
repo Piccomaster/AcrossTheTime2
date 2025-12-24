@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:leather_leggings",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor21.name"
               }

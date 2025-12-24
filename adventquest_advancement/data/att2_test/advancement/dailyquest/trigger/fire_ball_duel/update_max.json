@@ -1,0 +1,22 @@
+{
+  "rewards": {
+    "function": "att2:cinematic/dailyquest/eolorion/5/fireball_duel/trigger/update_max"
+  },
+  "criteria": {
+    "update_max": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fire_charge",
+            "predicates": {
+              "minecraft:custom_data": {
+                "fire_ball_duel": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

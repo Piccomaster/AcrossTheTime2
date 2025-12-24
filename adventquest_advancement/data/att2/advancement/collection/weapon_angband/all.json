@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:golden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon128.name"
               }
@@ -41,7 +41,7 @@
         "items": [
           {
             "items": "minecraft:golden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon129.name"
               }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": "minecraft:golden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon130.name"
               }
@@ -71,7 +71,7 @@
         "items": [
           {
             "items": "minecraft:golden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon131.name"
               }
@@ -86,7 +86,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon132.name"
               }
@@ -101,7 +101,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon133.name"
               }
@@ -116,7 +116,7 @@
         "items": [
           {
             "items": "minecraft:golden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon134.name"
               }
@@ -131,7 +131,7 @@
         "items": [
           {
             "items": "minecraft:golden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon135.name"
               }
@@ -146,7 +146,7 @@
         "items": [
           {
             "items": "minecraft:golden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon136.name"
               }
@@ -161,7 +161,7 @@
         "items": [
           {
             "items": "minecraft:golden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon137.name"
               }
@@ -176,7 +176,7 @@
         "items": [
           {
             "items": "minecraft:golden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon138.name"
               }
@@ -191,7 +191,7 @@
         "items": [
           {
             "items": "minecraft:golden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon139.name"
               }
@@ -206,7 +206,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon140.name"
               }
@@ -221,7 +221,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon141.name"
               }
@@ -236,7 +236,7 @@
         "items": [
           {
             "items": "minecraft:golden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon142.name"
               }
@@ -251,7 +251,7 @@
         "items": [
           {
             "items": "minecraft:golden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon143.name"
               }
@@ -266,7 +266,7 @@
         "items": [
           {
             "items": "minecraft:golden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon144.name"
               }
@@ -281,7 +281,7 @@
         "items": [
           {
             "items": "minecraft:golden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon145.name"
               }
@@ -296,7 +296,7 @@
         "items": [
           {
             "items": "minecraft:golden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon146.name"
               }
@@ -311,7 +311,7 @@
         "items": [
           {
             "items": "minecraft:golden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon147.name"
               }
@@ -326,7 +326,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon148.name"
               }
@@ -341,7 +341,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon149.name"
               }
@@ -356,7 +356,7 @@
         "items": [
           {
             "items": "minecraft:golden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon150.name"
               }
@@ -371,7 +371,7 @@
         "items": [
           {
             "items": "minecraft:golden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon151.name"
               }
@@ -386,7 +386,7 @@
         "items": [
           {
             "items": "minecraft:golden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon152.name"
               }
@@ -401,7 +401,7 @@
         "items": [
           {
             "items": "minecraft:golden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon153.name"
               }
@@ -416,7 +416,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon154.name"
               }
@@ -431,7 +431,7 @@
         "items": [
           {
             "items": "minecraft:golden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon155.name"
               }
@@ -446,7 +446,7 @@
         "items": [
           {
             "items": "minecraft:golden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon156.name"
               }
@@ -461,7 +461,7 @@
         "items": [
           {
             "items": "minecraft:golden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon157.name"
               }
@@ -476,7 +476,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon158.name"
               }
@@ -491,7 +491,7 @@
         "items": [
           {
             "items": "minecraft:golden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon159.name"
               }
@@ -506,7 +506,7 @@
         "items": [
           {
             "items": "minecraft:shield",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon160.name"
               }
@@ -521,7 +521,7 @@
         "items": [
           {
             "items": "minecraft:shield",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon161.name"
               }
@@ -536,7 +536,7 @@
         "items": [
           {
             "items": "minecraft:shield",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon162.name"
               }
@@ -551,7 +551,7 @@
         "items": [
           {
             "items": "minecraft:shield",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon163.name"
               }
@@ -566,7 +566,7 @@
         "items": [
           {
             "items": "minecraft:golden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon318.name"
               }
@@ -581,7 +581,7 @@
         "items": [
           {
             "items": "minecraft:golden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon319.name"
               }
@@ -596,7 +596,7 @@
         "items": [
           {
             "items": "minecraft:golden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon320.name"
               }
@@ -611,7 +611,7 @@
         "items": [
           {
             "items": "minecraft:golden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon321.name"
               }
@@ -626,7 +626,7 @@
         "items": [
           {
             "items": "minecraft:golden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon322.name"
               }
@@ -641,7 +641,7 @@
         "items": [
           {
             "items": "minecraft:golden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon323.name"
               }
@@ -656,7 +656,7 @@
         "items": [
           {
             "items": "minecraft:golden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon324.name"
               }
@@ -671,7 +671,7 @@
         "items": [
           {
             "items": "minecraft:golden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon325.name"
               }

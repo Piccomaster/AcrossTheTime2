@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:elytra",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor211.name"
               }

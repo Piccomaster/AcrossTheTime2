@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:iron_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon266.name"
               }

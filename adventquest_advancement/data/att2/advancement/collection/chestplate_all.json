@@ -23,11 +23,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor1.name"
-
-                              }
+                                "translate": "armor1.name"
+                            }
                         }
                     }
                 ]
@@ -39,11 +38,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor3.name"
-
-                              }
+                                "translate": "armor3.name"
+                            }
                         }
                     }
                 ]
@@ -55,11 +53,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor7.name"
-
-                              }
+                                "translate": "armor7.name"
+                            }
                         }
                     }
                 ]
@@ -71,11 +68,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor11.name"
-
-                              }
+                                "translate": "armor11.name"
+                            }
                         }
                     }
                 ]
@@ -87,11 +83,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor15.name"
-
-                              }
+                                "translate": "armor15.name"
+                            }
                         }
                     }
                 ]
@@ -103,11 +98,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor20.name"
-
-                              }
+                                "translate": "armor20.name"
+                            }
                         }
                     }
                 ]
@@ -119,11 +113,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor26.name"
-
-                              }
+                                "translate": "armor26.name"
+                            }
                         }
                     }
                 ]
@@ -135,11 +128,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor27.name"
-
-                              }
+                                "translate": "armor27.name"
+                            }
                         }
                     }
                 ]
@@ -151,11 +143,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor34.name"
-
-                              }
+                                "translate": "armor34.name"
+                            }
                         }
                     }
                 ]
@@ -167,11 +158,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor35.name"
-
-                              }
+                                "translate": "armor35.name"
+                            }
                         }
                     }
                 ]
@@ -183,11 +173,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor42.name"
-
-                              }
+                                "translate": "armor42.name"
+                            }
                         }
                     }
                 ]
@@ -199,11 +188,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor43.name"
-
-                              }
+                                "translate": "armor43.name"
+                            }
                         }
                     }
                 ]
@@ -215,11 +203,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor49.name"
-
-                              }
+                                "translate": "armor49.name"
+                            }
                         }
                     }
                 ]
@@ -231,11 +218,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor53.name"
-
-                              }
+                                "translate": "armor53.name"
+                            }
                         }
                     }
                 ]
@@ -247,11 +233,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor57.name"
-
-                              }
+                                "translate": "armor57.name"
+                            }
                         }
                     }
                 ]
@@ -263,11 +248,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor61.name"
-
-                              }
+                                "translate": "armor61.name"
+                            }
                         }
                     }
                 ]
@@ -279,11 +263,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor65.name"
-
-                              }
+                                "translate": "armor65.name"
+                            }
                         }
                     }
                 ]
@@ -295,11 +278,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor70.name"
-
-                              }
+                                "translate": "armor70.name"
+                            }
                         }
                     }
                 ]
@@ -311,11 +293,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor71.name"
-
-                              }
+                                "translate": "armor71.name"
+                            }
                         }
                     }
                 ]
@@ -327,11 +308,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor76.name"
-
-                              }
+                                "translate": "armor76.name"
+                            }
                         }
                     }
                 ]
@@ -343,11 +323,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor77.name"
-
-                              }
+                                "translate": "armor77.name"
+                            }
                         }
                     }
                 ]
@@ -359,11 +338,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor84.name"
-
-                              }
+                                "translate": "armor84.name"
+                            }
                         }
                     }
                 ]
@@ -375,11 +353,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor85.name"
-
-                              }
+                                "translate": "armor85.name"
+                            }
                         }
                     }
                 ]
@@ -391,11 +368,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor92.name"
-
-                              }
+                                "translate": "armor92.name"
+                            }
                         }
                     }
                 ]
@@ -407,11 +383,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor96.name"
-
-                              }
+                                "translate": "armor96.name"
+                            }
                         }
                     }
                 ]
@@ -423,11 +398,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor101.name"
-
-                              }
+                                "translate": "armor101.name"
+                            }
                         }
                     }
                 ]
@@ -439,11 +413,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor102.name"
-
-                              }
+                                "translate": "armor102.name"
+                            }
                         }
                     }
                 ]
@@ -455,11 +428,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor109.name"
-
-                              }
+                                "translate": "armor109.name"
+                            }
                         }
                     }
                 ]
@@ -471,11 +443,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor110.name"
-
-                              }
+                                "translate": "armor110.name"
+                            }
                         }
                     }
                 ]
@@ -487,11 +458,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor117.name"
-
-                              }
+                                "translate": "armor117.name"
+                            }
                         }
                     }
                 ]
@@ -503,11 +473,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor118.name"
-
-                              }
+                                "translate": "armor118.name"
+                            }
                         }
                     }
                 ]
@@ -519,11 +488,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor124.name"
-
-                              }
+                                "translate": "armor124.name"
+                            }
                         }
                     }
                 ]
@@ -535,11 +503,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor128.name"
-
-                              }
+                                "translate": "armor128.name"
+                            }
                         }
                     }
                 ]
@@ -551,11 +518,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor133.name"
-
-                              }
+                                "translate": "armor133.name"
+                            }
                         }
                     }
                 ]
@@ -567,11 +533,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor134.name"
-
-                              }
+                                "translate": "armor134.name"
+                            }
                         }
                     }
                 ]
@@ -583,11 +548,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor141.name"
-
-                              }
+                                "translate": "armor141.name"
+                            }
                         }
                     }
                 ]
@@ -599,11 +563,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor142.name"
-
-                              }
+                                "translate": "armor142.name"
+                            }
                         }
                     }
                 ]
@@ -615,11 +578,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor149.name"
-
-                              }
+                                "translate": "armor149.name"
+                            }
                         }
                     }
                 ]
@@ -631,11 +593,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor150.name"
-
-                              }
+                                "translate": "armor150.name"
+                            }
                         }
                     }
                 ]
@@ -647,11 +608,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor156.name"
-
-                              }
+                                "translate": "armor156.name"
+                            }
                         }
                     }
                 ]
@@ -663,11 +623,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor160.name"
-
-                              }
+                                "translate": "armor160.name"
+                            }
                         }
                     }
                 ]
@@ -679,11 +638,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor164.name"
-
-                              }
+                                "translate": "armor164.name"
+                            }
                         }
                     }
                 ]
@@ -695,11 +653,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor170.name"
-
-                              }
+                                "translate": "armor170.name"
+                            }
                         }
                     }
                 ]
@@ -711,11 +668,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor171.name"
-
-                              }
+                                "translate": "armor171.name"
+                            }
                         }
                     }
                 ]
@@ -727,11 +683,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor178.name"
-
-                              }
+                                "translate": "armor178.name"
+                            }
                         }
                     }
                 ]
@@ -743,11 +698,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor179.name"
-
-                              }
+                                "translate": "armor179.name"
+                            }
                         }
                     }
                 ]
@@ -759,11 +713,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor186.name"
-
-                              }
+                                "translate": "armor186.name"
+                            }
                         }
                     }
                 ]
@@ -775,11 +728,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor187.name"
-
-                              }
+                                "translate": "armor187.name"
+                            }
                         }
                     }
                 ]
@@ -791,11 +743,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor193.name"
-
-                              }
+                                "translate": "armor193.name"
+                            }
                         }
                     }
                 ]
@@ -807,11 +758,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor197.name"
-
-                              }
+                                "translate": "armor197.name"
+                            }
                         }
                     }
                 ]
@@ -823,11 +773,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor201.name"
-
-                              }
+                                "translate": "armor201.name"
+                            }
                         }
                     }
                 ]
@@ -839,11 +788,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor206.name"
-
-                              }
+                                "translate": "armor206.name"
+                            }
                         }
                     }
                 ]
@@ -855,11 +803,10 @@
                 "items": [
                     {
                         "items": "minecraft:elytra",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor211.name"
-
-                              }
+                                "translate": "armor211.name"
+                            }
                         }
                     }
                 ]
@@ -871,11 +818,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor225.name"
-
-                              }
+                                "translate": "armor225.name"
+                            }
                         }
                     }
                 ]
@@ -887,11 +833,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor226.name"
-
-                              }
+                                "translate": "armor226.name"
+                            }
                         }
                     }
                 ]
@@ -903,11 +848,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor232.name"
-
-                              }
+                                "translate": "armor232.name"
+                            }
                         }
                     }
                 ]
@@ -919,11 +863,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor236.name"
-
-                              }
+                                "translate": "armor236.name"
+                            }
                         }
                     }
                 ]
@@ -935,11 +878,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor241.name"
-
-                              }
+                                "translate": "armor241.name"
+                            }
                         }
                     }
                 ]
@@ -951,11 +893,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor245.name"
-
-                              }
+                                "translate": "armor245.name"
+                            }
                         }
                     }
                 ]
@@ -967,11 +908,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor249.name"
-
-                              }
+                                "translate": "armor249.name"
+                            }
                         }
                     }
                 ]
@@ -983,11 +923,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor253.name"
-
-                              }
+                                "translate": "armor253.name"
+                            }
                         }
                     }
                 ]
@@ -999,11 +938,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor257.name"
-
-                              }
+                                "translate": "armor257.name"
+                            }
                         }
                     }
                 ]
@@ -1015,11 +953,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor261.name"
-
-                              }
+                                "translate": "armor261.name"
+                            }
                         }
                     }
                 ]
@@ -1031,11 +968,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor267.name"
-
-                              }
+                                "translate": "armor267.name"
+                            }
                         }
                     }
                 ]
@@ -1047,11 +983,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor268.name"
-
-                              }
+                                "translate": "armor268.name"
+                            }
                         }
                     }
                 ]
@@ -1063,11 +998,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor275.name"
-
-                              }
+                                "translate": "armor275.name"
+                            }
                         }
                     }
                 ]
@@ -1079,11 +1013,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor276.name"
-
-                              }
+                                "translate": "armor276.name"
+                            }
                         }
                     }
                 ]
@@ -1095,11 +1028,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor283.name"
-
-                              }
+                                "translate": "armor283.name"
+                            }
                         }
                     }
                 ]
@@ -1111,11 +1043,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor284.name"
-
-                              }
+                                "translate": "armor284.name"
+                            }
                         }
                     }
                 ]
@@ -1127,11 +1058,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor290.name"
-
-                              }
+                                "translate": "armor290.name"
+                            }
                         }
                     }
                 ]
@@ -1143,11 +1073,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor294.name"
-
-                              }
+                                "translate": "armor294.name"
+                            }
                         }
                     }
                 ]
@@ -1159,11 +1088,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor298.name"
-
-                              }
+                                "translate": "armor298.name"
+                            }
                         }
                     }
                 ]
@@ -1175,11 +1103,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor303.name"
-
-                              }
+                                "translate": "armor303.name"
+                            }
                         }
                     }
                 ]
@@ -1191,11 +1118,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor312.name"
-
-                              }
+                                "translate": "armor312.name"
+                            }
                         }
                     }
                 ]
@@ -1207,11 +1133,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor317.name"
-
-                              }
+                                "translate": "armor317.name"
+                            }
                         }
                     }
                 ]
@@ -1223,11 +1148,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor321.name"
-
-                              }
+                                "translate": "armor321.name"
+                            }
                         }
                     }
                 ]
@@ -1239,11 +1163,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor326.name"
-
-                              }
+                                "translate": "armor326.name"
+                            }
                         }
                     }
                 ]
@@ -1255,11 +1178,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor329.name"
-
-                              }
+                                "translate": "armor329.name"
+                            }
                         }
                     }
                 ]
@@ -1271,11 +1193,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor334.name"
-
-                              }
+                                "translate": "armor334.name"
+                            }
                         }
                     }
                 ]
@@ -1287,11 +1208,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor338.name"
-
-                              }
+                                "translate": "armor338.name"
+                            }
                         }
                     }
                 ]
@@ -1303,11 +1223,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor342.name"
-
-                              }
+                                "translate": "armor342.name"
+                            }
                         }
                     }
                 ]
@@ -1319,11 +1238,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor346.name"
-
-                              }
+                                "translate": "armor346.name"
+                            }
                         }
                     }
                 ]
@@ -1335,11 +1253,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor350.name"
-
-                              }
+                                "translate": "armor350.name"
+                            }
                         }
                     }
                 ]

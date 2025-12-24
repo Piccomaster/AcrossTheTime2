@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:leather_chestplate",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor49.name"
               }

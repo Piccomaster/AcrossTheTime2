@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon19.name"
               }

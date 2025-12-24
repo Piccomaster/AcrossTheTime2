@@ -23,11 +23,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon254.name"
-
-                              }
+                                "translate": "weapon254.name"
+                            }
                         }
                     }
                 ]
@@ -39,11 +38,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon255.name"
-
-                              }
+                                "translate": "weapon255.name"
+                            }
                         }
                     }
                 ]
@@ -55,11 +53,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon256.name"
-
-                              }
+                                "translate": "weapon256.name"
+                            }
                         }
                     }
                 ]
@@ -71,11 +68,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon257.name"
-
-                              }
+                                "translate": "weapon257.name"
+                            }
                         }
                     }
                 ]
@@ -87,11 +83,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon258.name"
-
-                              }
+                                "translate": "weapon258.name"
+                            }
                         }
                     }
                 ]
@@ -103,11 +98,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon259.name"
-
-                              }
+                                "translate": "weapon259.name"
+                            }
                         }
                     }
                 ]
@@ -119,11 +113,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon260.name"
-
-                              }
+                                "translate": "weapon260.name"
+                            }
                         }
                     }
                 ]
@@ -135,11 +128,10 @@
                 "items": [
                     {
                         "items": "minecraft:wooden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon261.name"
-
-                              }
+                                "translate": "weapon261.name"
+                            }
                         }
                     }
                 ]
@@ -151,11 +143,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon262.name"
-
-                              }
+                                "translate": "weapon262.name"
+                            }
                         }
                     }
                 ]
@@ -167,11 +158,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon263.name"
-
-                              }
+                                "translate": "weapon263.name"
+                            }
                         }
                     }
                 ]
@@ -183,11 +173,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon264.name"
-
-                              }
+                                "translate": "weapon264.name"
+                            }
                         }
                     }
                 ]
@@ -199,11 +188,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon265.name"
-
-                              }
+                                "translate": "weapon265.name"
+                            }
                         }
                     }
                 ]
@@ -215,11 +203,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon266.name"
-
-                              }
+                                "translate": "weapon266.name"
+                            }
                         }
                     }
                 ]
@@ -231,11 +218,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon267.name"
-
-                              }
+                                "translate": "weapon267.name"
+                            }
                         }
                     }
                 ]
@@ -247,11 +233,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon268.name"
-
-                              }
+                                "translate": "weapon268.name"
+                            }
                         }
                     }
                 ]
@@ -263,11 +248,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon269.name"
-
-                              }
+                                "translate": "weapon269.name"
+                            }
                         }
                     }
                 ]
@@ -279,11 +263,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon270.name"
-
-                              }
+                                "translate": "weapon270.name"
+                            }
                         }
                     }
                 ]
@@ -295,11 +278,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon271.name"
-
-                              }
+                                "translate": "weapon271.name"
+                            }
                         }
                     }
                 ]
@@ -311,11 +293,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon272.name"
-
-                              }
+                                "translate": "weapon272.name"
+                            }
                         }
                     }
                 ]
@@ -327,11 +308,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon273.name"
-
-                              }
+                                "translate": "weapon273.name"
+                            }
                         }
                     }
                 ]
@@ -343,11 +323,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon274.name"
-
-                              }
+                                "translate": "weapon274.name"
+                            }
                         }
                     }
                 ]
@@ -359,11 +338,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon275.name"
-
-                              }
+                                "translate": "weapon275.name"
+                            }
                         }
                     }
                 ]
@@ -375,11 +353,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon276.name"
-
-                              }
+                                "translate": "weapon276.name"
+                            }
                         }
                     }
                 ]
@@ -391,11 +368,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon277.name"
-
-                              }
+                                "translate": "weapon277.name"
+                            }
                         }
                     }
                 ]
@@ -407,11 +383,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon286.name"
-
-                              }
+                                "translate": "weapon286.name"
+                            }
                         }
                     }
                 ]
@@ -423,11 +398,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon287.name"
-
-                              }
+                                "translate": "weapon287.name"
+                            }
                         }
                     }
                 ]
@@ -439,11 +413,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon296.name"
-
-                              }
+                                "translate": "weapon296.name"
+                            }
                         }
                     }
                 ]
@@ -455,11 +428,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon297.name"
-
-                              }
+                                "translate": "weapon297.name"
+                            }
                         }
                     }
                 ]
@@ -471,11 +443,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon306.name"
-
-                              }
+                                "translate": "weapon306.name"
+                            }
                         }
                     }
                 ]
@@ -487,11 +458,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon307.name"
-
-                              }
+                                "translate": "weapon307.name"
+                            }
                         }
                     }
                 ]
@@ -503,11 +473,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon312.name"
-
-                              }
+                                "translate": "weapon312.name"
+                            }
                         }
                     }
                 ]
@@ -519,11 +488,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon317.name"
-
-                              }
+                                "translate": "weapon317.name"
+                            }
                         }
                     }
                 ]
@@ -535,11 +503,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon318.name"
-
-                              }
+                                "translate": "weapon318.name"
+                            }
                         }
                     }
                 ]
@@ -551,11 +518,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon319.name"
-
-                              }
+                                "translate": "weapon319.name"
+                            }
                         }
                     }
                 ]
@@ -567,11 +533,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon320.name"
-
-                              }
+                                "translate": "weapon320.name"
+                            }
                         }
                     }
                 ]
@@ -583,11 +548,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon321.name"
-
-                              }
+                                "translate": "weapon321.name"
+                            }
                         }
                     }
                 ]
@@ -599,11 +563,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon322.name"
-
-                              }
+                                "translate": "weapon322.name"
+                            }
                         }
                     }
                 ]
@@ -615,11 +578,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon323.name"
-
-                              }
+                                "translate": "weapon323.name"
+                            }
                         }
                     }
                 ]
@@ -631,11 +593,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon324.name"
-
-                              }
+                                "translate": "weapon324.name"
+                            }
                         }
                     }
                 ]
@@ -647,11 +608,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_hoe",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                            "translate": "weapon325.name"
-
-                              }
+                                "translate": "weapon325.name"
+                            }
                         }
                     }
                 ]

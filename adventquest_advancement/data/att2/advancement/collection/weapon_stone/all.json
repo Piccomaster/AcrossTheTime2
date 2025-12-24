@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:wooden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon1.name"
               }
@@ -41,7 +41,7 @@
         "items": [
           {
             "items": "minecraft:wooden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon2.name"
               }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon3.name"
               }
@@ -71,7 +71,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon4.name"
               }
@@ -86,7 +86,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon5.name"
               }
@@ -101,7 +101,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon6.name"
               }
@@ -116,7 +116,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon7.name"
               }
@@ -131,7 +131,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon8.name"
               }
@@ -146,7 +146,7 @@
         "items": [
           {
             "items": "minecraft:wooden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon9.name"
               }
@@ -161,7 +161,7 @@
         "items": [
           {
             "items": "minecraft:wooden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon10.name"
               }
@@ -176,7 +176,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon11.name"
               }
@@ -191,7 +191,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon12.name"
               }
@@ -206,7 +206,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon13.name"
               }
@@ -221,7 +221,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon14.name"
               }
@@ -236,7 +236,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon15.name"
               }
@@ -251,7 +251,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon16.name"
               }
@@ -266,7 +266,7 @@
         "items": [
           {
             "items": "minecraft:wooden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon17.name"
               }
@@ -281,7 +281,7 @@
         "items": [
           {
             "items": "minecraft:wooden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon18.name"
               }
@@ -296,7 +296,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon19.name"
               }
@@ -311,7 +311,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon20.name"
               }
@@ -326,7 +326,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon21.name"
               }
@@ -341,7 +341,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon22.name"
               }
@@ -356,7 +356,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon23.name"
               }
@@ -371,7 +371,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon24.name"
               }
@@ -386,7 +386,7 @@
         "items": [
           {
             "items": "minecraft:wooden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon25.name"
               }
@@ -401,7 +401,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon26.name"
               }
@@ -416,7 +416,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon27.name"
               }
@@ -431,7 +431,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon28.name"
               }
@@ -446,7 +446,7 @@
         "items": [
           {
             "items": "minecraft:wooden_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon29.name"
               }
@@ -461,7 +461,7 @@
         "items": [
           {
             "items": "minecraft:wooden_pickaxe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon30.name"
               }
@@ -476,7 +476,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon31.name"
               }
@@ -491,7 +491,7 @@
         "items": [
           {
             "items": "minecraft:wooden_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon32.name"
               }
@@ -506,7 +506,7 @@
         "items": [
           {
             "items": "minecraft:wooden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon254.name"
               }
@@ -521,7 +521,7 @@
         "items": [
           {
             "items": "minecraft:wooden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon255.name"
               }
@@ -536,7 +536,7 @@
         "items": [
           {
             "items": "minecraft:wooden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon256.name"
               }
@@ -551,7 +551,7 @@
         "items": [
           {
             "items": "minecraft:wooden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon257.name"
               }
@@ -566,7 +566,7 @@
         "items": [
           {
             "items": "minecraft:wooden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon258.name"
               }
@@ -581,7 +581,7 @@
         "items": [
           {
             "items": "minecraft:wooden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon259.name"
               }
@@ -596,7 +596,7 @@
         "items": [
           {
             "items": "minecraft:wooden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon260.name"
               }
@@ -611,7 +611,7 @@
         "items": [
           {
             "items": "minecraft:wooden_hoe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon261.name"
               }
