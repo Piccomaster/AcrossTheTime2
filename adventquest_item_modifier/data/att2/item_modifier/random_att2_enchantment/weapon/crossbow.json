@@ -20,7 +20,7 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
@@ -40,7 +40,7 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
@@ -60,7 +60,7 @@
           ]
         }
       },
-      "modifier": [
+      "on_pass": [
         {
           "function": "set_enchantments",
           "enchantments": {
