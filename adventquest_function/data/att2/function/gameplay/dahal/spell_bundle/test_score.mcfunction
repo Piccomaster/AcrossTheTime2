@@ -4,7 +4,7 @@
 #################################################################
 
 ##test if have bundle
-execute if items entity @s player.crafting.* *[custom_data~{QuickSlot:true,Spell_Bundle:true}] run function att2:gameplay/dahal/spell_bundle/bundle_data_get
+execute if items entity @s player.crafting.* *[custom_data~{QuickSlot:true,EquipmentType:spell_bundle}] run function att2:gameplay/dahal/spell_bundle/bundle_data_get
 
 ##get data
 data modify storage att2:spell_bundle bundle_data set from entity 00000001-0000-006f-0000-00010000006f equipment.mainhand.components."minecraft:bundle_contents"

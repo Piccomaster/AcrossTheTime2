@@ -42,3 +42,6 @@ team modify aqua color aqua
 
 team add dark_gray
 team modify dark_gray color dark_gray
+
+team add red
+team modify red color red

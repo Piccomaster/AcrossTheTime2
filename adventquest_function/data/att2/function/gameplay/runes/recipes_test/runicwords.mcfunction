@@ -163,3 +163,27 @@ if score ust RUNECOUNT matches 1 \
 if score nym RUNECOUNT matches 1 \
 if score ehl RUNECOUNT matches 1 \
 run return run function att2:items/runes/words/rune_bundle
+#spell bundle 1
+execute if score total_item RUNECOUNT matches 5 \
+if score bundle RUNECOUNT matches 1 \
+if score tha RUNECOUNT matches 1 \
+if score org RUNECOUNT matches 1 \
+if score ra RUNECOUNT matches 1 \
+if score inu RUNECOUNT matches 1 \
+run return run function att2:items/runes/words/spell_bundle_1
+#spell bundle 2
+execute if score total_item RUNECOUNT matches 5 \
+if score spell_bundle_1 RUNECOUNT matches 1 \
+if score von RUNECOUNT matches 1 \
+if score ave RUNECOUNT matches 1 \
+if score for RUNECOUNT matches 1 \
+if score wej RUNECOUNT matches 1 \
+run return run function att2:items/runes/words/spell_bundle_2
+#spell bundle 3
+execute if score total_item RUNECOUNT matches 5 \
+if score spell_bundle_2 RUNECOUNT matches 1 \
+if score da RUNECOUNT matches 1 \
+if score ave RUNECOUNT matches 1 \
+if score ra RUNECOUNT matches 1 \
+if score bex RUNECOUNT matches 1 \
+run return run function att2:items/runes/words/spell_bundle_3

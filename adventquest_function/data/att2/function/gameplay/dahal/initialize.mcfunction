@@ -36,6 +36,8 @@ scoreboard players set 20 remain_time 20
 scoreboard players set 100 remain_time 100
 
 function att2:gameplay/dahal/enhancement/initialize
+function att2:gameplay/dahal/spell_bundle/initialize
+
 
 function att2:gameplay/dahal/pet/initialize
 function att2:gameplay/dahal/action/spell1/initialize

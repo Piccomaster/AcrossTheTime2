@@ -4364,3 +4364,5 @@ execute in minecraft:overworld positioned -4502 97 -6211 run summon marker ~ ~ ~
 #setblock -4645 74 -5409 minecraft:trapped_chest[facing=north,type=right,waterlogged=false]{Items:[],components:{1 2}}
 #setblock -4646 74 -5409 minecraft:trapped_chest[facing=north,type=left,waterlogged=false]{Items:[],components:{1 2}}
 #setblock -4621 73 -5435 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{1 2}}
+#setblock -4713 75 -5116 minecraft:trapped_chest[facing=west,type=right,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 4}}
+#setblock -4713 75 -5115 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 4}}

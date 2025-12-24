@@ -29,6 +29,8 @@ execute as @e[tag=active_words,type=minecraft:armor_stand,tag=runicwordStand,nbt
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand,nbt={equipment:{mainhand:{components:{"minecraft:custom_data":{EquipmentType:"runic_word",Rarity:"misc"}}}}}] at @s run particle minecraft:dust{color:[1,1,2],scale:0.3} ~ ~1.75 ~ 0.2 0.4 0.2 0 10 normal 
 execute as @e[tag=!active_words,type=minecraft:armor_stand,tag=runicwordStand] at @s unless entity @s[nbt={equipment:{mainhand:{components:{"minecraft:custom_data":{EquipmentType:"runic_word",Rarity:"misc"}}}}}] if entity @s[nbt={equipment:{mainhand:{components:{EquipmentType:"runic_word"}}}}] run particle minecraft:dust{color:[1,0,0],scale:0.3} ~ ~1.75 ~ 0.2 0.4 0.2 0 10 normal
 
+execute as @e[tag=!active_words,type=minecraft:armor_stand,tag=runicwordStand] at @s if block ~ ~ ~ redstone_block run particle minecraft:dust{color:[0.67, 0, 0],scale:0.3} ~ ~1.75 ~ 0.2 0.4 0.2 0 10 normal
+
 
 ##make rune switch entity live
 execute if score tic TIMECOUNTER matches 1 run function att2:gameplay/runes/switch/summon
