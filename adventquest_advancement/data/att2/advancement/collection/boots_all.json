@@ -23,11 +23,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor5.name"
-
-                              }
+                                "translate": "armor5.name"
+                            }
                         }
                     }
                 ]
@@ -39,11 +38,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor9.name"
-
-                              }
+                                "translate": "armor9.name"
+                            }
                         }
                     }
                 ]
@@ -55,11 +53,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor13.name"
-
-                              }
+                                "translate": "armor13.name"
+                            }
                         }
                     }
                 ]
@@ -71,11 +68,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor17.name"
-
-                              }
+                                "translate": "armor17.name"
+                            }
                         }
                     }
                 ]
@@ -87,11 +83,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor22.name"
-
-                              }
+                                "translate": "armor22.name"
+                            }
                         }
                     }
                 ]
@@ -103,11 +98,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor30.name"
-
-                              }
+                                "translate": "armor30.name"
+                            }
                         }
                     }
                 ]
@@ -119,11 +113,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor31.name"
-
-                              }
+                                "translate": "armor31.name"
+                            }
                         }
                     }
                 ]
@@ -135,11 +128,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor38.name"
-
-                              }
+                                "translate": "armor38.name"
+                            }
                         }
                     }
                 ]
@@ -151,11 +143,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor39.name"
-
-                              }
+                                "translate": "armor39.name"
+                            }
                         }
                     }
                 ]
@@ -167,11 +158,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor46.name"
-
-                              }
+                                "translate": "armor46.name"
+                            }
                         }
                     }
                 ]
@@ -183,11 +173,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor47.name"
-
-                              }
+                                "translate": "armor47.name"
+                            }
                         }
                     }
                 ]
@@ -199,11 +188,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor51.name"
-
-                              }
+                                "translate": "armor51.name"
+                            }
                         }
                     }
                 ]
@@ -215,11 +203,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor55.name"
-
-                              }
+                                "translate": "armor55.name"
+                            }
                         }
                     }
                 ]
@@ -231,11 +218,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor59.name"
-
-                              }
+                                "translate": "armor59.name"
+                            }
                         }
                     }
                 ]
@@ -247,11 +233,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor63.name"
-
-                              }
+                                "translate": "armor63.name"
+                            }
                         }
                     }
                 ]
@@ -263,11 +248,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor67.name"
-
-                              }
+                                "translate": "armor67.name"
+                            }
                         }
                     }
                 ]
@@ -279,11 +263,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor74.name"
-
-                              }
+                                "translate": "armor74.name"
+                            }
                         }
                     }
                 ]
@@ -295,11 +278,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor75.name"
-
-                              }
+                                "translate": "armor75.name"
+                            }
                         }
                     }
                 ]
@@ -311,11 +293,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor80.name"
-
-                              }
+                                "translate": "armor80.name"
+                            }
                         }
                     }
                 ]
@@ -327,11 +308,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor81.name"
-
-                              }
+                                "translate": "armor81.name"
+                            }
                         }
                     }
                 ]
@@ -343,11 +323,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor88.name"
-
-                              }
+                                "translate": "armor88.name"
+                            }
                         }
                     }
                 ]
@@ -359,11 +338,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor89.name"
-
-                              }
+                                "translate": "armor89.name"
+                            }
                         }
                     }
                 ]
@@ -375,11 +353,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor94.name"
-
-                              }
+                                "translate": "armor94.name"
+                            }
                         }
                     }
                 ]
@@ -391,11 +368,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor98.name"
-
-                              }
+                                "translate": "armor98.name"
+                            }
                         }
                     }
                 ]
@@ -407,11 +383,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor105.name"
-
-                              }
+                                "translate": "armor105.name"
+                            }
                         }
                     }
                 ]
@@ -423,11 +398,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor106.name"
-
-                              }
+                                "translate": "armor106.name"
+                            }
                         }
                     }
                 ]
@@ -439,11 +413,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor113.name"
-
-                              }
+                                "translate": "armor113.name"
+                            }
                         }
                     }
                 ]
@@ -455,11 +428,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor114.name"
-
-                              }
+                                "translate": "armor114.name"
+                            }
                         }
                     }
                 ]
@@ -471,11 +443,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor121.name"
-
-                              }
+                                "translate": "armor121.name"
+                            }
                         }
                     }
                 ]
@@ -487,11 +458,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor122.name"
-
-                              }
+                                "translate": "armor122.name"
+                            }
                         }
                     }
                 ]
@@ -503,11 +473,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor126.name"
-
-                              }
+                                "translate": "armor126.name"
+                            }
                         }
                     }
                 ]
@@ -519,11 +488,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor130.name"
-
-                              }
+                                "translate": "armor130.name"
+                            }
                         }
                     }
                 ]
@@ -535,11 +503,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor137.name"
-
-                              }
+                                "translate": "armor137.name"
+                            }
                         }
                     }
                 ]
@@ -551,11 +518,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor138.name"
-
-                              }
+                                "translate": "armor138.name"
+                            }
                         }
                     }
                 ]
@@ -567,11 +533,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor145.name"
-
-                              }
+                                "translate": "armor145.name"
+                            }
                         }
                     }
                 ]
@@ -583,11 +548,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor146.name"
-
-                              }
+                                "translate": "armor146.name"
+                            }
                         }
                     }
                 ]
@@ -599,11 +563,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor153.name"
-
-                              }
+                                "translate": "armor153.name"
+                            }
                         }
                     }
                 ]
@@ -615,11 +578,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor154.name"
-
-                              }
+                                "translate": "armor154.name"
+                            }
                         }
                     }
                 ]
@@ -631,11 +593,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor158.name"
-
-                              }
+                                "translate": "armor158.name"
+                            }
                         }
                     }
                 ]
@@ -647,11 +608,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor162.name"
-
-                              }
+                                "translate": "armor162.name"
+                            }
                         }
                     }
                 ]
@@ -663,11 +623,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor166.name"
-
-                              }
+                                "translate": "armor166.name"
+                            }
                         }
                     }
                 ]
@@ -679,11 +638,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor174.name"
-
-                              }
+                                "translate": "armor174.name"
+                            }
                         }
                     }
                 ]
@@ -695,11 +653,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor175.name"
-
-                              }
+                                "translate": "armor175.name"
+                            }
                         }
                     }
                 ]
@@ -711,11 +668,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor182.name"
-
-                              }
+                                "translate": "armor182.name"
+                            }
                         }
                     }
                 ]
@@ -727,11 +683,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor183.name"
-
-                              }
+                                "translate": "armor183.name"
+                            }
                         }
                     }
                 ]
@@ -743,11 +698,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor190.name"
-
-                              }
+                                "translate": "armor190.name"
+                            }
                         }
                     }
                 ]
@@ -759,11 +713,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor191.name"
-
-                              }
+                                "translate": "armor191.name"
+                            }
                         }
                     }
                 ]
@@ -775,11 +728,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor195.name"
-
-                              }
+                                "translate": "armor195.name"
+                            }
                         }
                     }
                 ]
@@ -791,11 +743,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor199.name"
-
-                              }
+                                "translate": "armor199.name"
+                            }
                         }
                     }
                 ]
@@ -807,11 +758,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor203.name"
-
-                              }
+                                "translate": "armor203.name"
+                            }
                         }
                     }
                 ]
@@ -823,11 +773,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor208.name"
-
-                              }
+                                "translate": "armor208.name"
+                            }
                         }
                     }
                 ]
@@ -839,11 +788,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor213.name"
-
-                              }
+                                "translate": "armor213.name"
+                            }
                         }
                     }
                 ]
@@ -855,11 +803,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor229.name"
-
-                              }
+                                "translate": "armor229.name"
+                            }
                         }
                     }
                 ]
@@ -871,11 +818,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor230.name"
-
-                              }
+                                "translate": "armor230.name"
+                            }
                         }
                     }
                 ]
@@ -887,11 +833,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor234.name"
-
-                              }
+                                "translate": "armor234.name"
+                            }
                         }
                     }
                 ]
@@ -903,11 +848,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor238.name"
-
-                              }
+                                "translate": "armor238.name"
+                            }
                         }
                     }
                 ]
@@ -919,11 +863,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor243.name"
-
-                              }
+                                "translate": "armor243.name"
+                            }
                         }
                     }
                 ]
@@ -935,11 +878,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor247.name"
-
-                              }
+                                "translate": "armor247.name"
+                            }
                         }
                     }
                 ]
@@ -951,11 +893,10 @@
                 "items": [
                     {
                         "items": "minecraft:leather_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor251.name"
-
-                              }
+                                "translate": "armor251.name"
+                            }
                         }
                     }
                 ]
@@ -967,11 +908,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor255.name"
-
-                              }
+                                "translate": "armor255.name"
+                            }
                         }
                     }
                 ]
@@ -983,11 +923,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor259.name"
-
-                              }
+                                "translate": "armor259.name"
+                            }
                         }
                     }
                 ]
@@ -999,11 +938,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor263.name"
-
-                              }
+                                "translate": "armor263.name"
+                            }
                         }
                     }
                 ]
@@ -1015,11 +953,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor271.name"
-
-                              }
+                                "translate": "armor271.name"
+                            }
                         }
                     }
                 ]
@@ -1031,11 +968,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor272.name"
-
-                              }
+                                "translate": "armor272.name"
+                            }
                         }
                     }
                 ]
@@ -1047,11 +983,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor279.name"
-
-                              }
+                                "translate": "armor279.name"
+                            }
                         }
                     }
                 ]
@@ -1063,11 +998,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor280.name"
-
-                              }
+                                "translate": "armor280.name"
+                            }
                         }
                     }
                 ]
@@ -1079,11 +1013,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor287.name"
-
-                              }
+                                "translate": "armor287.name"
+                            }
                         }
                     }
                 ]
@@ -1095,11 +1028,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor288.name"
-
-                              }
+                                "translate": "armor288.name"
+                            }
                         }
                     }
                 ]
@@ -1111,11 +1043,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor292.name"
-
-                              }
+                                "translate": "armor292.name"
+                            }
                         }
                     }
                 ]
@@ -1127,11 +1058,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor296.name"
-
-                              }
+                                "translate": "armor296.name"
+                            }
                         }
                     }
                 ]
@@ -1143,11 +1073,10 @@
                 "items": [
                     {
                         "items": "minecraft:chainmail_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor300.name"
-
-                              }
+                                "translate": "armor300.name"
+                            }
                         }
                     }
                 ]
@@ -1159,11 +1088,10 @@
                 "items": [
                     {
                         "items": "minecraft:iron_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor305.name"
-
-                              }
+                                "translate": "armor305.name"
+                            }
                         }
                     }
                 ]
@@ -1175,11 +1103,10 @@
                 "items": [
                     {
                         "items": "minecraft:golden_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor314.name"
-
-                              }
+                                "translate": "armor314.name"
+                            }
                         }
                     }
                 ]
@@ -1191,11 +1118,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor319.name"
-
-                              }
+                                "translate": "armor319.name"
+                            }
                         }
                     }
                 ]
@@ -1207,11 +1133,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor323.name"
-
-                              }
+                                "translate": "armor323.name"
+                            }
                         }
                     }
                 ]
@@ -1223,11 +1148,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor327.name"
-
-                              }
+                                "translate": "armor327.name"
+                            }
                         }
                     }
                 ]
@@ -1239,11 +1163,10 @@
                 "items": [
                     {
                         "items": "minecraft:netherite_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor331.name"
-
-                              }
+                                "translate": "armor331.name"
+                            }
                         }
                     }
                 ]
@@ -1255,11 +1178,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor336.name"
-
-                              }
+                                "translate": "armor336.name"
+                            }
                         }
                     }
                 ]
@@ -1271,11 +1193,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor340.name"
-
-                              }
+                                "translate": "armor340.name"
+                            }
                         }
                     }
                 ]
@@ -1287,11 +1208,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor344.name"
-
-                              }
+                                "translate": "armor344.name"
+                            }
                         }
                     }
                 ]
@@ -1303,11 +1223,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor348.name"
-
-                              }
+                                "translate": "armor348.name"
+                            }
                         }
                     }
                 ]
@@ -1319,11 +1238,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor352.name"
-
-                              }
+                                "translate": "armor352.name"
+                            }
                         }
                     }
                 ]

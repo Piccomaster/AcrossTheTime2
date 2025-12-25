@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:chainmail_leggings",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor86.name"
               }

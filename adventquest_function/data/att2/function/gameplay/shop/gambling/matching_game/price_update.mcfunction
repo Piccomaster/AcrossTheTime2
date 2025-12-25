@@ -50,8 +50,7 @@ execute if score @s MatchingGameId matches 10 store result score RngPrice Matchi
 #random price
 scoreboard players operation @s MatchingGamePrice = @s MatchingGameId
 #base cal
-scoreboard players operation @s MatchingGamePrice *= 200 CAL
-scoreboard players operation @s MatchingGamePrice /= 80 CAL
+scoreboard players operation @s MatchingGamePrice *= 2 CAL
 #add unlock count score
 scoreboard players operation @s MatchingGamePrice += lock MatchingGamePrice
 #add random price

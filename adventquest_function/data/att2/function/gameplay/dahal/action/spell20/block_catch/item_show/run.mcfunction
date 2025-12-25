@@ -3,6 +3,8 @@
 # Stock function(run)                                 #
 #################################################################
 
+##empty detection
+execute unless data block ~ ~ ~ Items[0] run return run kill @s[type=arrow]
 ##If there is already an entity shooting from this player nearby,Then go straight back to
 function att2:gameplay/dahal/action/spell20/block_catch/item_show/test
 execute if score #TEST CAL matches 1 on origin run function att2:gameplay/dahal/action/spell20/block_catch/back/give with storage att2:temp

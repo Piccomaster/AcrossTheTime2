@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:wooden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon21.name"
               }

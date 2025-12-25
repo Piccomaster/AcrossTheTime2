@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:diamond_leggings",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor188.name"
               }

@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:bow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon215.name"
               }

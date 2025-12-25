@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:golden_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon148.name"
               }

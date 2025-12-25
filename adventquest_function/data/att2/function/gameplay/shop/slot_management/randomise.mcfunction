@@ -3,6 +3,8 @@
 #Use this function to randomise slots' values for shops    		#
 #################################################################
 
+#execute in minecraft:overworld positioned 787 81 796 run function att2:gameplay/shop/slot_management/summon_holder
+
 execute store result score randomVALUE_Slot1 SHOP_OP1 run random value 0..999
 
 execute store result score randomVALUE_Slot2 SHOP_OP1 run random value 0..999

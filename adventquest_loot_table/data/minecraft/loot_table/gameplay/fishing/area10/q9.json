@@ -3,7 +3,7 @@
         {
             "rolls": {
                 "min": 5,
-                "max": 10
+                "max": 9
             },
             "bonus_rolls": {
                 "min": 2,

@@ -114,7 +114,7 @@ function att2:gameplay/shop/gambling/matching_game/rewards/spell_id
 ##random get spell id
 execute store result storage att2:matching_game id int 1 run scoreboard players get SpellId MatchingGame
 #cal add xp
-execute store result score RNG MatchingGame run random value 1..7
+execute store result score RNG MatchingGame run random value 1..5
 scoreboard players operation Spell_Count MatchingGame *= RNG MatchingGame
 execute store result score RNG MatchingGame run random value 1..3
 scoreboard players operation Spell_Count MatchingGame *= RNG MatchingGame

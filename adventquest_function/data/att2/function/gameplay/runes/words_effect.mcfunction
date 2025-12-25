@@ -26,8 +26,10 @@ execute as @e[tag=active_words,type=minecraft:armor_stand,tag=runicwordStand,nbt
 execute as @e[tag=active_words,type=minecraft:armor_stand,tag=runicwordStand,nbt={equipment:{mainhand:{id:"minecraft:snort_pottery_sherd",count:1}}}] at @s run particle minecraft:composter ~ ~1.75 ~ 0.3 0.5 0.3 0 1 normal
 
 ##no runicwords
-execute as @e[type=minecraft:armor_stand,tag=runicwordStand,nbt={equipment:{mainhand:{components:{EquipmentType:"runic_word",Rarity:"empty"}}}}] at @s run particle minecraft:dust{color:[1,1,2],scale:0.3} ~ ~1.75 ~ 0.2 0.4 0.2 0 10 normal
-execute as @e[tag=!active_words,type=minecraft:armor_stand,tag=runicwordStand] at @s unless entity @s[nbt={equipment:{mainhand:{components:{EquipmentType:"runic_word",Rarity:"empty"}}}}] if entity @s[nbt={equipment:{mainhand:{components:{EquipmentType:"runic_word"}}}}] run particle minecraft:dust{color:[1,0,0],scale:0.3} ~ ~1.75 ~ 0.2 0.4 0.2 0 10 normal
+execute as @e[type=minecraft:armor_stand,tag=runicwordStand,nbt={equipment:{mainhand:{components:{"minecraft:custom_data":{EquipmentType:"runic_word",Rarity:"misc"}}}}}] at @s run particle minecraft:dust{color:[1,1,2],scale:0.3} ~ ~1.75 ~ 0.2 0.4 0.2 0 10 normal 
+execute as @e[tag=!active_words,type=minecraft:armor_stand,tag=runicwordStand] at @s unless entity @s[nbt={equipment:{mainhand:{components:{"minecraft:custom_data":{EquipmentType:"runic_word",Rarity:"misc"}}}}}] if entity @s[nbt={equipment:{mainhand:{components:{EquipmentType:"runic_word"}}}}] run particle minecraft:dust{color:[1,0,0],scale:0.3} ~ ~1.75 ~ 0.2 0.4 0.2 0 10 normal
+
+execute as @e[tag=!active_words,type=minecraft:armor_stand,tag=runicwordStand] at @s if block ~ ~ ~ redstone_block run particle minecraft:dust{color:[0.67, 0, 0],scale:0.3} ~ ~1.75 ~ 0.2 0.4 0.2 0 10 normal
 
 
 ##make rune switch entity live

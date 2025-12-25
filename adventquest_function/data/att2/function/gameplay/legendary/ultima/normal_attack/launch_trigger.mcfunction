@@ -24,7 +24,7 @@ execute unless score @s DAHAL_TICK matches 2000.. run return fail
 
 scoreboard players remove @s DAHAL_TICK 2000
 ##random launch
-execute if score #count CAL matches 1 as @e[distance=..10,type=armor_stand,scores={LIFETIME=0},tag=UltimaPhantom,sort=random,limit=1] at @s run function att2:gameplay/legendary/ultima/normal_attack/launch_set
-execute if score #count CAL matches 2 as @e[distance=..10,type=armor_stand,scores={LIFETIME=0},tag=UltimaPhantom,sort=random,limit=2] at @s run function att2:gameplay/legendary/ultima/normal_attack/launch_set
-execute if score #count CAL matches 3 as @e[distance=..10,type=armor_stand,scores={LIFETIME=0},tag=UltimaPhantom,sort=random,limit=3] at @s run function att2:gameplay/legendary/ultima/normal_attack/launch_set
-execute if score #count CAL matches 4 as @e[distance=..10,type=armor_stand,scores={LIFETIME=0},tag=UltimaPhantom,sort=random,limit=4] at @s run function att2:gameplay/legendary/ultima/normal_attack/launch_set
+execute if score #count CAL matches 1 as @e[distance=..10,type=armor_stand,scores={LIFETIME=0},tag=UltimaPhantom,sort=random,limit=1,predicate=att2_pre:score/owner] at @s run function att2:gameplay/legendary/ultima/normal_attack/launch_set
+execute if score #count CAL matches 2 as @e[distance=..10,type=armor_stand,scores={LIFETIME=0},tag=UltimaPhantom,sort=random,limit=2,predicate=att2_pre:score/owner] at @s run function att2:gameplay/legendary/ultima/normal_attack/launch_set
+execute if score #count CAL matches 3 as @e[distance=..10,type=armor_stand,scores={LIFETIME=0},tag=UltimaPhantom,sort=random,limit=3,predicate=att2_pre:score/owner] at @s run function att2:gameplay/legendary/ultima/normal_attack/launch_set
+execute if score #count CAL matches 4 as @e[distance=..10,type=armor_stand,scores={LIFETIME=0},tag=UltimaPhantom,sort=random,limit=4,predicate=att2_pre:score/owner] at @s run function att2:gameplay/legendary/ultima/normal_attack/launch_set

@@ -29,3 +29,6 @@ function att2:dialogs/gameplay/runes/quick_recipe/19_mot_syl_kan_xul_zen
 function att2:dialogs/gameplay/runes/quick_recipe/20_bex_lya_qi_wej_yog
 function att2:dialogs/gameplay/runes/quick_recipe/21_hal_kan_puh_syl_chu
 function att2:dialogs/gameplay/runes/quick_recipe/22_ra_ust_nym_ehl
+function att2:dialogs/gameplay/runes/quick_recipe/23_tha_org_ra_inu
+function att2:dialogs/gameplay/runes/quick_recipe/24_von_ave_for_wej
+function att2:dialogs/gameplay/runes/quick_recipe/25_da_ave_ra_bex

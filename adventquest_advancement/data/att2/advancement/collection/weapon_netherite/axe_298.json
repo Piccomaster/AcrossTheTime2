@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:netherite_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon298.name"
               }

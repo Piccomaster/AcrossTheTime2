@@ -3,6 +3,11 @@
 #Process the tp to hall of players selection 		#
 #####################################################
 
-execute unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'att2.misc.bundle'}}}]}] run function att2:items/misc/bundle
-execute unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'att2.misc.torch.name'}}}]}] run function att2:items/misc/torch_0
-execute unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{EquipmentID:"fortuity",EquipmentType:"meleeWeapon",Rarity:"myt"}}}]}] run function att2:items/legendary/fortuity
+##bundle
+execute store result score #count CAL run clear @s minecraft:bundle 0
+execute unless score #count CAL matches 1.. run function att2:items/misc/bundle
+##torch
+execute store result score #count CAL run clear @s minecraft:torch 0
+execute unless score #count CAL matches 1.. run function att2:items/misc/torch_0
+##sword
+execute as @s[advancements={att2:collection/mythique/fortuity=false}] run function att2:items/legendary/fortuity

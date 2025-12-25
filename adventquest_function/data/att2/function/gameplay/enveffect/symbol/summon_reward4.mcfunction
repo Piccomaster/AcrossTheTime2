@@ -3,9 +3,9 @@
 #Summon Big coin of Chronotons                   #
 ##################################################
 
-summon minecraft:item ~ ~ ~ {Tags:["New"],PickupDelay:20,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:gold_ingot",count:4,components:{custom_data:{EquipmentType:'misc',Rarity:'cur',Coin:'big'},custom_name:{translate:'item.coin.big.name'},lore:[{translate:'item.coin.big.lore'}]}}}
+summon minecraft:item ~ ~ ~ {Tags:["New"],PickupDelay:10,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:gold_ingot",count:4,components:{custom_data:{EquipmentType:'misc',Rarity:'cur',Coin:'big'},custom_name:{translate:'item.coin.big.name'},lore:[{translate:'item.coin.big.lore'}]}}}
 
-summon minecraft:item ~ ~ ~ {Tags:["New"],PickupDelay:20,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:gold_nugget",count:5,components:{custom_data:{EquipmentType:'misc',Rarity:'cur',Coin:'small'},custom_name:{translate:'item.coin.small.name'},lore:[{translate:'item.coin.small.lore'}]}}}
+summon minecraft:item ~ ~ ~ {Tags:["New"],PickupDelay:10,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:gold_nugget",count:5,components:{custom_data:{EquipmentType:'misc',Rarity:'cur',Coin:'small'},custom_name:{translate:'item.coin.small.name'},lore:[{translate:'item.coin.small.lore'}]}}}
 ##random motion
 execute as @e[distance=..5,type=item,tag=New] at @s run function att2:gameplay/enveffect/symbol/random_motion
 ##summon xp

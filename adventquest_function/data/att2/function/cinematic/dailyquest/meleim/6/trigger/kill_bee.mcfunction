@@ -6,9 +6,8 @@
 #Kill 10 bees with fire spells in the plains and forests near Meleim Town.
 #############################################################
 
-##revoke test
-advancement revoke @s only att2_test:dailyquest/trigger/kill_bee
-
+##progress limit
+execute unless score meleim_dailyquest_6 DAILYQUEST matches 1..99 run return fail
 ##test if over
 execute if score meleim_dailyquest_6_kill_bee DAILYQUEST >= meleim_dailyquest_6_kill_bee_requirement DAILYQUEST run return 0
 ##test location

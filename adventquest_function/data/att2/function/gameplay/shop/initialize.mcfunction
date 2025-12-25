@@ -43,5 +43,5 @@ scoreboard players set 1000 SHOP_OP1 1000
 scoreboard players set 100000 SHOP_OP1 100000
 
 execute in minecraft:overworld positioned 787 81 796 run function att2:gameplay/shop/slot_management/summon_holder
-scoreboard players set @e[nbt={Tags:["ShotSlotHolder"]}] SHOP_OP1 0
+scoreboard players set @e[type=armor_stand,tag=ShotSlotHolder] SHOP_OP1 0
 function att2:gameplay/shop/slot_management/randomise

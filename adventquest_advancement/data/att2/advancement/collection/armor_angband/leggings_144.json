@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:golden_leggings",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor144.name"
               }

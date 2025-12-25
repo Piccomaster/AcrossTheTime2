@@ -11,11 +11,15 @@ execute at @s as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run data 
 tag @s add Open
 ##sound
 playsound minecraft:item.armor.equip_netherite player @a ~ ~ ~ 1 0.5
+playsound minecraft:block.vault.reject_rewarded_player player @a ~ ~ ~ 1 0.5
 
 ##adv detection
 execute as @p[distance=..10] at @s run function att2:advancement/test_all/secret/simple_test
 execute as @p[distance=..10] at @s run function att2:advancement/test_all/secret/wall_break_test
 execute as @p[distance=..10] at @s run function att2:advancement/test_all/secret/ice_melt_test
+
+##more sound
+execute if score @s CHESTEFFECT matches 8..10 run playsound minecraft:block.vault.open_shutter player @a ~ ~ ~ 1 1.5
 
 ##particle
 execute if score @s CHESTEFFECT matches 1 positioned ~ ~0.5 ~ run return run particle minecraft:dust{color:[0.5,0.5,0.5],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal

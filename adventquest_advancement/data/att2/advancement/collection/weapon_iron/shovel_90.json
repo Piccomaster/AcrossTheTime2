@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:iron_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon90.name"
               }

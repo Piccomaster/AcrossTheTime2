@@ -61,7 +61,7 @@
         "items": [
           {
             "items": "minecraft:shield",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon161.name"
               }

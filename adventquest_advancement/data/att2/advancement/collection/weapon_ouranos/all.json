@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:stone_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon198.name"
               }
@@ -41,7 +41,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon199.name"
               }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": "minecraft:stone_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon200.name"
               }
@@ -71,7 +71,7 @@
         "items": [
           {
             "items": "minecraft:stone_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon201.name"
               }
@@ -86,7 +86,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon202.name"
               }
@@ -101,7 +101,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon203.name"
               }
@@ -116,7 +116,7 @@
         "items": [
           {
             "items": "minecraft:stone_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon204.name"
               }
@@ -131,7 +131,7 @@
         "items": [
           {
             "items": "minecraft:stone_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon205.name"
               }
@@ -146,7 +146,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon206.name"
               }
@@ -161,7 +161,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon207.name"
               }
@@ -176,7 +176,7 @@
         "items": [
           {
             "items": "minecraft:stone_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon208.name"
               }
@@ -191,7 +191,7 @@
         "items": [
           {
             "items": "minecraft:stone_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon209.name"
               }
@@ -206,7 +206,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon210.name"
               }
@@ -221,7 +221,7 @@
         "items": [
           {
             "items": "minecraft:stone_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon211.name"
               }
@@ -236,7 +236,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon212.name"
               }
@@ -251,7 +251,7 @@
         "items": [
           {
             "items": "minecraft:stone_shovel",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon213.name"
               }
@@ -266,7 +266,7 @@
         "items": [
           {
             "items": "minecraft:bow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon214.name"
               }
@@ -281,7 +281,7 @@
         "items": [
           {
             "items": "minecraft:bow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon215.name"
               }
@@ -296,7 +296,7 @@
         "items": [
           {
             "items": "minecraft:bow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon216.name"
               }
@@ -311,7 +311,7 @@
         "items": [
           {
             "items": "minecraft:bow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon217.name"
               }
@@ -326,7 +326,7 @@
         "items": [
           {
             "items": "minecraft:bow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon218.name"
               }
@@ -341,7 +341,7 @@
         "items": [
           {
             "items": "minecraft:bow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon219.name"
               }
@@ -356,7 +356,7 @@
         "items": [
           {
             "items": "minecraft:shield",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon220.name"
               }
@@ -371,7 +371,7 @@
         "items": [
           {
             "items": "minecraft:shield",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon221.name"
               }
@@ -386,7 +386,7 @@
         "items": [
           {
             "items": "minecraft:crossbow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon326.name"
               }
@@ -401,7 +401,7 @@
         "items": [
           {
             "items": "minecraft:crossbow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon327.name"
               }
@@ -416,7 +416,7 @@
         "items": [
           {
             "items": "minecraft:crossbow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon328.name"
               }
@@ -431,7 +431,7 @@
         "items": [
           {
             "items": "minecraft:crossbow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon329.name"
               }

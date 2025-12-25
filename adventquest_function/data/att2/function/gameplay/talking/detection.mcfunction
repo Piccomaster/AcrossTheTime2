@@ -3,7 +3,8 @@
 #Use function to process the update of Talking movement system 		#
 #####################################################################
 
-
+##unless interaction
+execute as @e[type=villager,distance=..2] at @s unless entity @e[type=interaction,tag=PNJ_TALK,distance=..2] run summon interaction ~ ~ ~ {height:2.2,width:1.3,Tags:["PNJ_TALK"],response:true,Invulnerable:true,Silent:true}
 #reset
 execute if score @s TALKING_TIMER matches 300 run data modify entity @s Rotation[1] set value 0
 execute unless entity @s[tag=rotation_store] run data modify entity @s data.rotation set from entity @s Rotation

@@ -18,7 +18,7 @@ gamerule advance_time true
 gamerule keep_inventory true
 gamerule command_block_output false
 gamerule send_command_feedback false
-gamerule projectiles_can_break_blocks false
+gamerule projectiles_can_break_blocks true
 gamerule elytra_movement_check true
 gamerule universal_anger true
 gamerule raids true

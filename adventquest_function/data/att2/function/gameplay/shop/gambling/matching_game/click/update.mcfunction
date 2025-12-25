@@ -4,7 +4,7 @@
 #############################################################
 
 #money detection
-execute if score @s CHRONOTON <= @s MatchingGamePrice run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON < @s MatchingGamePrice run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
 ##remove chronoton
 scoreboard players operation @s CHRONOTON -= @s MatchingGamePrice
 #sound

@@ -25,7 +25,7 @@
         "items": [
           {
             "items": "minecraft:crossbow",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon339.name"
               }

@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:chainmail_chestplate",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor76.name"
               }

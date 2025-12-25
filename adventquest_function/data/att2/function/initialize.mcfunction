@@ -8,6 +8,7 @@ function att2:gameplay/initialize
 function att2:spawner/initialize
 function att2:voice/initialize
 function att2:trigger/initialize
+function att2:cinematic/dailyquest/initialize
 
 # Use to control system activation
 scoreboard objectives add SYSTEM dummy
@@ -20,8 +21,10 @@ scoreboard players set combo SYSTEM 1
 scoreboard players set dahal SYSTEM 1
 scoreboard players set death SYSTEM 1
 scoreboard players set dimension SYSTEM 1
+scoreboard players set elytra_racing SYSTEM 1
 scoreboard players set equipment SYSTEM 1
 scoreboard players set enveffect SYSTEM 1
+scoreboard players set enemy_health SYSTEM 1
 scoreboard players set forbiddenentity SYSTEM 1
 scoreboard players set gps SYSTEM 1
 scoreboard players set healthbar SYSTEM 1

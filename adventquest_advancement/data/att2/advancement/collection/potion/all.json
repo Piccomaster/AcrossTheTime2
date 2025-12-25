@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion1.name"
               }
@@ -41,7 +41,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion2.name"
               }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion3.name"
               }
@@ -71,7 +71,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion4.name"
               }
@@ -86,7 +86,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion5.name"
               }
@@ -101,7 +101,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion6.name"
               }
@@ -116,7 +116,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion7.name"
               }
@@ -131,7 +131,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion8.name"
               }
@@ -146,7 +146,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion9.name"
               }
@@ -161,7 +161,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion10.name"
               }
@@ -176,7 +176,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion11.name"
               }
@@ -191,7 +191,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion12.name"
               }
@@ -206,7 +206,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion13.name"
               }
@@ -221,7 +221,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion14.name"
               }
@@ -236,7 +236,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion15.name"
               }
@@ -251,7 +251,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion16.name"
               }
@@ -266,7 +266,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion17.name"
               }
@@ -281,7 +281,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion18.name"
               }
@@ -296,7 +296,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion19.name"
               }
@@ -311,7 +311,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion20.name"
               }
@@ -326,7 +326,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion21.name"
               }
@@ -341,7 +341,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion22.name"
               }
@@ -356,7 +356,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion23.name"
               }
@@ -371,7 +371,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion24.name"
               }
@@ -386,7 +386,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion25.name"
               }
@@ -401,7 +401,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion27.name"
               }
@@ -416,7 +416,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion28.name"
               }
@@ -431,7 +431,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion29.name"
               }
@@ -446,7 +446,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion30.name"
               }
@@ -461,7 +461,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion31.name"
               }
@@ -476,7 +476,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion32.name"
               }
@@ -491,7 +491,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion33.name"
               }
@@ -506,7 +506,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion34.name"
               }
@@ -521,7 +521,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion35.name"
               }
@@ -536,7 +536,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion36.name"
               }
@@ -551,7 +551,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion37.name"
               }
@@ -566,7 +566,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion38.name"
               }
@@ -581,7 +581,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion40.name"
               }
@@ -596,7 +596,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion41.name"
               }
@@ -611,7 +611,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion42.name"
               }
@@ -626,7 +626,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion43.name"
               }
@@ -641,7 +641,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion44.name"
               }
@@ -656,7 +656,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion45.name"
               }
@@ -671,7 +671,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion46.name"
               }
@@ -686,7 +686,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion48.name"
               }
@@ -701,7 +701,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion49.name"
               }
@@ -716,7 +716,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion50.name"
               }
@@ -731,7 +731,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion51.name"
               }
@@ -746,7 +746,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion52.name"
               }
@@ -761,7 +761,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion53.name"
               }
@@ -776,7 +776,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion54.name"
               }
@@ -791,7 +791,7 @@
         "items": [
           {
             "items": "minecraft:potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion55.name"
               }
@@ -806,7 +806,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion56.name"
               }
@@ -821,7 +821,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion57.name"
               }
@@ -836,7 +836,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion58.name"
               }
@@ -851,7 +851,7 @@
         "items": [
           {
             "items": "minecraft:splash_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion59.name"
               }
@@ -866,7 +866,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion60.name"
               }
@@ -881,7 +881,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion61.name"
               }
@@ -896,7 +896,7 @@
         "items": [
           {
             "items": "minecraft:lingering_potion",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "potion62.name"
               }

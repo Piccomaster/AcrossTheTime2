@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:iron_sword",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon71.name"
               }

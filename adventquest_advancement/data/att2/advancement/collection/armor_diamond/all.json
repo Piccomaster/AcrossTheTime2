@@ -23,11 +23,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor168.name"
-
-                              }
+                                "translate": "armor168.name"
+                            }
                         }
                     }
                 ]
@@ -39,11 +38,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor169.name"
-
-                              }
+                                "translate": "armor169.name"
+                            }
                         }
                     }
                 ]
@@ -55,11 +53,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor170.name"
-
-                              }
+                                "translate": "armor170.name"
+                            }
                         }
                     }
                 ]
@@ -71,11 +68,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor171.name"
-
-                              }
+                                "translate": "armor171.name"
+                            }
                         }
                     }
                 ]
@@ -87,11 +83,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor172.name"
-
-                              }
+                                "translate": "armor172.name"
+                            }
                         }
                     }
                 ]
@@ -103,11 +98,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor173.name"
-
-                              }
+                                "translate": "armor173.name"
+                            }
                         }
                     }
                 ]
@@ -119,11 +113,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor174.name"
-
-                              }
+                                "translate": "armor174.name"
+                            }
                         }
                     }
                 ]
@@ -135,11 +128,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor175.name"
-
-                              }
+                                "translate": "armor175.name"
+                            }
                         }
                     }
                 ]
@@ -151,11 +143,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor176.name"
-
-                              }
+                                "translate": "armor176.name"
+                            }
                         }
                     }
                 ]
@@ -167,11 +158,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor177.name"
-
-                              }
+                                "translate": "armor177.name"
+                            }
                         }
                     }
                 ]
@@ -183,11 +173,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor178.name"
-
-                              }
+                                "translate": "armor178.name"
+                            }
                         }
                     }
                 ]
@@ -199,11 +188,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor179.name"
-
-                              }
+                                "translate": "armor179.name"
+                            }
                         }
                     }
                 ]
@@ -215,11 +203,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor180.name"
-
-                              }
+                                "translate": "armor180.name"
+                            }
                         }
                     }
                 ]
@@ -231,11 +218,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor181.name"
-
-                              }
+                                "translate": "armor181.name"
+                            }
                         }
                     }
                 ]
@@ -247,11 +233,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor182.name"
-
-                              }
+                                "translate": "armor182.name"
+                            }
                         }
                     }
                 ]
@@ -263,11 +248,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor183.name"
-
-                              }
+                                "translate": "armor183.name"
+                            }
                         }
                     }
                 ]
@@ -279,11 +263,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor184.name"
-
-                              }
+                                "translate": "armor184.name"
+                            }
                         }
                     }
                 ]
@@ -295,11 +278,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor185.name"
-
-                              }
+                                "translate": "armor185.name"
+                            }
                         }
                     }
                 ]
@@ -311,11 +293,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor186.name"
-
-                              }
+                                "translate": "armor186.name"
+                            }
                         }
                     }
                 ]
@@ -327,11 +308,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor187.name"
-
-                              }
+                                "translate": "armor187.name"
+                            }
                         }
                     }
                 ]
@@ -343,11 +323,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor188.name"
-
-                              }
+                                "translate": "armor188.name"
+                            }
                         }
                     }
                 ]
@@ -359,11 +338,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor189.name"
-
-                              }
+                                "translate": "armor189.name"
+                            }
                         }
                     }
                 ]
@@ -375,11 +353,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor190.name"
-
-                              }
+                                "translate": "armor190.name"
+                            }
                         }
                     }
                 ]
@@ -391,11 +368,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor191.name"
-
-                              }
+                                "translate": "armor191.name"
+                            }
                         }
                     }
                 ]
@@ -407,11 +383,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor192.name"
-
-                              }
+                                "translate": "armor192.name"
+                            }
                         }
                     }
                 ]
@@ -423,11 +398,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor193.name"
-
-                              }
+                                "translate": "armor193.name"
+                            }
                         }
                     }
                 ]
@@ -439,11 +413,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor194.name"
-
-                              }
+                                "translate": "armor194.name"
+                            }
                         }
                     }
                 ]
@@ -455,11 +428,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor195.name"
-
-                              }
+                                "translate": "armor195.name"
+                            }
                         }
                     }
                 ]
@@ -471,11 +443,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor196.name"
-
-                              }
+                                "translate": "armor196.name"
+                            }
                         }
                     }
                 ]
@@ -487,11 +458,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor197.name"
-
-                              }
+                                "translate": "armor197.name"
+                            }
                         }
                     }
                 ]
@@ -503,11 +473,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor198.name"
-
-                              }
+                                "translate": "armor198.name"
+                            }
                         }
                     }
                 ]
@@ -519,11 +488,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor199.name"
-
-                              }
+                                "translate": "armor199.name"
+                            }
                         }
                     }
                 ]
@@ -535,11 +503,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor200.name"
-
-                              }
+                                "translate": "armor200.name"
+                            }
                         }
                     }
                 ]
@@ -551,11 +518,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor201.name"
-
-                              }
+                                "translate": "armor201.name"
+                            }
                         }
                     }
                 ]
@@ -567,11 +533,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor202.name"
-
-                              }
+                                "translate": "armor202.name"
+                            }
                         }
                     }
                 ]
@@ -583,11 +548,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor203.name"
-
-                              }
+                                "translate": "armor203.name"
+                            }
                         }
                     }
                 ]
@@ -599,11 +563,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_helmet",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor205.name"
-
-                              }
+                                "translate": "armor205.name"
+                            }
                         }
                     }
                 ]
@@ -615,11 +578,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_chestplate",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor206.name"
-
-                              }
+                                "translate": "armor206.name"
+                            }
                         }
                     }
                 ]
@@ -631,11 +593,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_leggings",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor207.name"
-
-                              }
+                                "translate": "armor207.name"
+                            }
                         }
                     }
                 ]
@@ -647,11 +608,10 @@
                 "items": [
                     {
                         "items": "minecraft:diamond_boots",
-                        "predicates": {
+                        "components": {
                             "minecraft:custom_name": {
-                        "translate": "armor208.name"
-
-                              }
+                                "translate": "armor208.name"
+                            }
                         }
                     }
                 ]

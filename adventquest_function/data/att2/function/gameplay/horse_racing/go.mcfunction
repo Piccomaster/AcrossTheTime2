@@ -16,7 +16,7 @@
 
 #execute as @e[type=marker,tag=HorseRoute] at @s run function att2:gameplay/horse_racing/edit_route/show
 
-kill @e[tag=circle]
+#kill @e[tag=circle]
 #execute as @e[type=item_display,tag=showing,tag=circle] at @s unless entity @e[distance=..5,type=marker,tag=HorseRoute] run kill @s
 
 ##progress

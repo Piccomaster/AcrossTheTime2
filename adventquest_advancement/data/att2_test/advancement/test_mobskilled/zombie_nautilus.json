@@ -1,0 +1,15 @@
+{
+    "rewards": {
+        "function": "att2:advancement/test_all/mobskilled/zombie_nautilus"
+    },
+    "criteria": {
+        "zombie_nautilus": {
+          "trigger": "minecraft:player_killed_entity",
+          "conditions": {
+            "entity": {
+              "type": "minecraft:zombie_nautilus"
+            }
+          }
+        }
+    }
+}

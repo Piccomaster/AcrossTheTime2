@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:diamond_helmet",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor200.name"
               }

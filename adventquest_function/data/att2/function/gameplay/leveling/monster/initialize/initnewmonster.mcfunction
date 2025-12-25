@@ -36,11 +36,11 @@ execute if score numberPlayer DIFFICULTY matches 5.. run scoreboard players set 
 execute unless entity @s[tag=PlayerAlly] run function att2:gameplay/leveling/monster/initialize/more_player
 
 execute if score level DIFFICULTY matches -1..1 run scoreboard players remove numberPlayer DIFFICULTY 1
-execute if score level DIFFICULTY matches -1..1 run scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
+execute if score level DIFFICULTY matches -1..1 run scoreboard players operation numberPlayer DIFFICULTY *= 3 CAL
 execute if score level DIFFICULTY matches -1..1 run scoreboard players operation @s GAMELEVEL += numberPlayer DIFFICULTY
 
 execute if score level DIFFICULTY matches 2 run scoreboard players set numberPlayer DIFFICULTY 5
-execute if score level DIFFICULTY matches 2 run scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
+execute if score level DIFFICULTY matches 2 run scoreboard players operation numberPlayer DIFFICULTY *= 3 CAL
 execute if score level DIFFICULTY matches 2 run scoreboard players operation @s GAMELEVEL += numberPlayer DIFFICULTY
 
 scoreboard players add @s[scores={CLASSLEVEL=4}] GAMELEVEL 3

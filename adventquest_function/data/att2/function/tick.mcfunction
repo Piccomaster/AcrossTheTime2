@@ -7,13 +7,15 @@
 execute unless score Mainquest SIDEQUEST matches 1.. as @a[tag=!MainPlayerSelect] run dialog clear @s
 
 #execute if score bank SYSTEM matches 1 run function att2:gameplay/bank/go
-execute if score boss SYSTEM matches 1 run function att2:gameplay/boss/go
-execute if score bow SYSTEM matches 1 run function att2:gameplay/bow/go
+#execute if score boss SYSTEM matches 1 run function att2:gameplay/boss/go
+#execute if score bow SYSTEM matches 1 run function att2:gameplay/bow/go
 execute if score chronoton SYSTEM matches 1 run function att2:gameplay/chronoton/go
 execute if score combo SYSTEM matches 1 run function att2:gameplay/combo/go
 execute if score dahal SYSTEM matches 1 run function att2:gameplay/dahal/go
 execute if score death SYSTEM matches 1 run function att2:gameplay/death/go
 execute if score dimension SYSTEM matches 1 run function att2:gameplay/dimension/go
+execute if score elytra_racing SYSTEM matches 1 run function att2:gameplay/elytra_racing/go
+execute if score enemy_health SYSTEM matches 1 run function att2:gameplay/enemy_health/go
 execute if score equipment SYSTEM matches 1 run function att2:gameplay/equipment/go
 execute if score enveffect SYSTEM matches 1 run function att2:gameplay/enveffect/go
 execute if score forbiddenentity SYSTEM matches 1 run function att2:gameplay/forbiddenentity/go

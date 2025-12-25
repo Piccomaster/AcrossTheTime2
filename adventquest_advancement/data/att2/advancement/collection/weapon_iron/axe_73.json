@@ -26,7 +26,7 @@
         "items": [
           {
             "items": "minecraft:iron_axe",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "weapon73.name"
               }

@@ -30,7 +30,6 @@ scoreboard players set 2 SKILLPOINTMASTER 2
 scoreboard players set @s LEVELMASTER 0
 scoreboard players set @s LEVELETERNAN 0
 # scoreboard players set @s BASE_HEM 0
-scoreboard players set playerCoeff DIFFICULTY 3
 scoreboard players set 7 XPPROCESS 7
 scoreboard players set 6 XPPROCESS 6
 scoreboard players set 5 XPPROCESS 5

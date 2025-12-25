@@ -3,5 +3,5 @@
 #Use function to process the sell of Hache Spectrale 			#
 #################################################################
 
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell27"}}}]}] run function att2:dialogs/gameplay/dahal/have_spell
-execute unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:"spell27"}}}]}] run function att2:gameplay/shop/purchase/spell/hache_spectrale_buy
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:27}}}]}] run function att2:dialogs/gameplay/dahal/have_spell
+execute unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Spell:27}}}]}] run function att2:gameplay/shop/purchase/spell/hache_spectrale_buy

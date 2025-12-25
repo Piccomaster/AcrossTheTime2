@@ -21,7 +21,7 @@ execute if score Real0 TIMER matches 2 run fill 2040 101 1980 2044 97 1980 minec
 execute if score Real0 TIMER matches 2 run tp @a[x=2042,y=98,z=1976,distance=4..,gamemode=adventure] 2042 98 1976
 execute if score Real0 TIMER matches 2 run function att2:cinematic/real0_iteration
 
-execute if score Real0 TIMER matches 3 if entity @a[x=2069,y=103,z=1945,dx=-16,dy=4,dz=-12,gamemode=adventure] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 3 if entity @a[x=2069,y=103,z=1945,dx=-18,dy=4,dz=-14,gamemode=adventure] run function att2:cinematic/real0_iteration
 
 execute if score Real0 TIMER matches 4 run function att2:dialogs/mainquest/act_1/ch0_serile_13
 execute if score Real0 TIMER matches 4 run function att2:voice/serile/serile13

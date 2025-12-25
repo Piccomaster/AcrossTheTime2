@@ -3,6 +3,8 @@
 #ender chest                                                    #
 #################################################################
 
+##clear chest
+execute if block ~ ~ ~ ender_chest run setblock ~ ~ ~ air replace
 ##normal particle
 particle portal ~ ~ ~ 0.25 0.25 0.25 0.5 2 normal
 

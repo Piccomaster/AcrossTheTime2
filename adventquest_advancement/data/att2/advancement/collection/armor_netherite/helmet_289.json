@@ -27,7 +27,7 @@
         "items": [
           {
             "items": "minecraft:netherite_helmet",
-            "predicates": {
+            "components": {
               "minecraft:custom_name": {
                 "translate": "armor289.name"
               }

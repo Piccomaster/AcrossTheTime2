@@ -149,7 +149,7 @@ execute store result score ult_bait RUNECOUNT if items block ~ ~ ~ container.* m
 execute store result score ult_rod RUNECOUNT if items block ~ ~ ~ container.* minecraft:fishing_rod[custom_data~{Rarity:ult}]
 
 ##bundle
-execute store result score rune_bundle RUNECOUNT if items block ~ ~ ~ container.* bundle[custom_data~{EquipmentType:bundle},minecraft:bundle_contents=[]]
+execute store result score bundle RUNECOUNT if items block ~ ~ ~ container.* bundle[custom_data~{EquipmentType:bundle},minecraft:bundle_contents=[]]
 
 ##Kinuil
 execute store result score kinuil RUNECOUNT if items block ~ ~ ~ container.* diamond_axe[custom_data~{EquipmentID:kinuil}]
@@ -171,3 +171,8 @@ execute store result score tracking_arrow_2 RUNECOUNT if items block ~ ~ ~ conta
 
 ##normal arrow
 execute store result score arrow RUNECOUNT if items block ~ ~ ~ container.* minecraft:arrow[custom_data~{EquipmentType:arrow,Rarity:misc}]
+
+
+##spell bundle
+execute store result score spell_bundle_1 RUNECOUNT if items block ~ ~ ~ container.* minecraft:blue_bundle[custom_data~{Spell_Bundle:1}]
+execute store result score spell_bundle_2 RUNECOUNT if items block ~ ~ ~ container.* minecraft:blue_bundle[custom_data~{Spell_Bundle:2}]

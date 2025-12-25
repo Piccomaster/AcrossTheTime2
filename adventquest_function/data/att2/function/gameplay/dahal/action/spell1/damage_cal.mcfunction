@@ -35,6 +35,11 @@ scoreboard players operation enhancementBONUS SPDG *= 20 ENHANCEMENT
 scoreboard players operation enhancementBONUS SPDG += 100 ENHANCEMENT
 scoreboard players operation finalDG SPDG *= enhancementBONUS SPDG
 scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT
+#fire ball duel
+scoreboard players operation fire_ball_duel ENHANCEMENT = fire_ball_duel SPDG
+scoreboard players add fire_ball_duel ENHANCEMENT 100
+scoreboard players operation finalDG SPDG *= fire_ball_duel ENHANCEMENT
+scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT
 #dahalburst bonus cal
 scoreboard players reset dahalburstBONUS SPDG
 scoreboard players operation dahalburstBONUS SPDG = @s[scores={DAHALBURST=1..}] DAHALBURST
