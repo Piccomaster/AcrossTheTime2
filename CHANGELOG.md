@@ -551,6 +551,11 @@
 - **Health Bar Visibility**: The health bar of most bosses is only displayed to players who have entered the corresponding boss room.
 - **Multiple Boss Management**: When multiple bosses are present, the health bar at the top of the screen is promptly removed once that specific boss is defeated.
 
+#### **Game experience feedback optimization.**
+
+- Item drops will display a glowing outline in the color corresponding to their quality and will also show the item's name.
+- When opening a new hidden shulker box, there will be an extra sound effect and a display showing the current number of shulker boxes discovered.
+- When opening a chest, particle effects of different colors will appear based on the chest's quality, and additional sound effects will be played during the opening.
 <br>
 
 ### **Minor Issues**
