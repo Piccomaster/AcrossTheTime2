@@ -27,6 +27,7 @@ execute if data storage att2:temp item{Spell:25} on origin run function att2:gam
 execute if data storage att2:temp item{Spell:26} on origin run function att2:gameplay/dahal/launcher/spell_26/obtain
 execute if data storage att2:temp item{Spell:27} on origin run function att2:gameplay/dahal/launcher/spell_27/obtain
 execute if data storage att2:temp item{Spell:28} on origin run function att2:gameplay/dahal/launcher/spell_28/obtain
+execute if data storage att2:temp item{Spell:29} on origin run function att2:gameplay/dahal/launcher/spell_29/obtain
 execute if data storage att2:temp item{Spell:30} on origin run function att2:gameplay/dahal/launcher/spell_30/obtain
 execute if data storage att2:temp item{Spell:31} on origin run function att2:gameplay/dahal/launcher/spell_31/obtain
 execute if data storage att2:temp item{Spell:32} on origin run function att2:gameplay/dahal/launcher/spell_32/obtain

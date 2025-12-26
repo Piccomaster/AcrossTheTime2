@@ -23,6 +23,7 @@ scoreboard objectives add SPELL25_SLCT dummy
 scoreboard objectives add SPELL26_SLCT dummy
 scoreboard objectives add SPELL27_SLCT dummy
 scoreboard objectives add SPELL28_SLCT dummy
+scoreboard objectives add SPELL29_SLCT dummy
 scoreboard objectives add SPELL30_SLCT dummy
 scoreboard objectives add SPELL31_SLCT dummy
 scoreboard objectives add SPELL32_SLCT dummy

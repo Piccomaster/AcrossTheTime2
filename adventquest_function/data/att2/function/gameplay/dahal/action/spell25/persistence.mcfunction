@@ -15,6 +15,4 @@ data modify entity @s angry_at set from entity @n[distance=..8,scores={GAMELEVEL
 ##tp wolf
 tp @p[distance=20..,gamemode=adventure,predicate=att2_pre:score/player]
 ##damage
-
-execute if score tic TIMECOUNTER matches 1 run tag @e[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=Selected] remove Selected
 execute if score tic TIMECOUNTER matches 1 as @n[distance=..2,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!Selected,tag=!MIMIC] run function att2:gameplay/dahal/action/spell25/attack_set
