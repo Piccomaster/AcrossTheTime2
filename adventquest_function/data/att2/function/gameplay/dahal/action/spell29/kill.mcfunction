@@ -11,4 +11,4 @@ execute if items entity @s weapon.mainhand #minecraft:swords[custom_data] run ta
 
 ##clear
 execute on passengers run kill @s[type=wolf]
-kill @s[type=vex]
+function att2:gameplay/dahal/pet/kill

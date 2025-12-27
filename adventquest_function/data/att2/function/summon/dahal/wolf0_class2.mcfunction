@@ -3,4 +3,4 @@
 #Summon wolf class_2 by invocation		     	 #
 ##################################################
 
-summon minecraft:wolf ~ ~ ~ {variant:black,DeathLootTable:"att2:empty",Tags:["LVL0","CLASS2","PlayerAlly","NewInvo","Spell25"],NoAI:1b,Invulnerable:1b,attributes:[{id:movement_speed,base:0.26},{id:follow_range,base:10.0},{id:scale,base:1.1}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
+summon minecraft:wolf ~ ~ ~ {variant:black,DeathLootTable:"att2:empty",Tags:["LVL0","CLASS2","PlayerAlly","NewInvo","Spell25"],NoAI:1b,Invulnerable:1b,attributes:[{id:movement_speed,base:0.26},{id:follow_range,base:10.0},{id:scale,base:1.1}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1,"att2_enchantment:tick/dahal/spell25":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}

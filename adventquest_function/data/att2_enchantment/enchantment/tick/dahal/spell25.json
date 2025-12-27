@@ -22,7 +22,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/dahal/action/spell26/persistence"
+          "function": "att2:gameplay/dahal/action/spell25/persistence"
         }
       }
     ]

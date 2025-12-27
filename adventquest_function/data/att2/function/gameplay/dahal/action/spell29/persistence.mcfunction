@@ -19,14 +19,17 @@ execute unless score @s LIFETIME matches 0.. run scoreboard players set @s LIFET
 scoreboard players operation #time CAL = @s LIFETIME
 scoreboard players operation #time CAL /= 20 CAL
 execute unless entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run return run function att2:gameplay/dahal/action/spell29/follow_owner
-execute unless score tic TIMECOUNTER matches 1 run return fail
+
 
 ##update home
 data modify entity @s bound_pos set from entity @p[predicate=att2_pre:score/player] Pos
 ##modify rotation
 rotate @s facing entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] eyes
-execute if entity @n[distance=..3,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/forward":1}}
-execute if entity @n[distance=3.1..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/forward":2}}
+
+execute unless score tic TIMECOUNTER matches 1 run return fail
+
+execute if entity @n[distance=..3,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:tick/motion/forward":5}]
+execute if entity @n[distance=3.1..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:tick/motion/forward":5}]
 
 #execute as @s at @s run tp @s ^ ^ ^2
 

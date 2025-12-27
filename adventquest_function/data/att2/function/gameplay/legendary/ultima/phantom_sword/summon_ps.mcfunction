@@ -16,7 +16,7 @@ execute at @s anchored eyes positioned ^-1 ^ ^ run summon item_display ~ ~ ~ {Ta
 scoreboard players operation @e[distance=..10,type=#minecraft:tick_entity,tag=New,tag=UltimaPhantom] OWNER = @s NUMEROJOUEUR
 #set use count -> 3
 ##update slot
-execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle}]
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty}]
 ##sound/particle
 playsound minecraft:unsheathe1 ambient @a ~ ~ ~ 1 2
 playsound entity.ender_eye.death ambient @a ~ ~ ~ 1 2

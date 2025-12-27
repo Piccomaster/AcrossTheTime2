@@ -4,7 +4,7 @@
 #################################################################
 
 ##
-team join gray @s
+team join dark_gray @s
 scoreboard players set @s itemcolor 1
 
 ##glowing

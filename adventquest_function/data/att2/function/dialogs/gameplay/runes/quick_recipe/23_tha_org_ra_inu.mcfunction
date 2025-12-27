@@ -1,0 +1,7 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the runicwords list 			        #
+#################################################################
+
+##
+tellraw @s {text:"⚙ ",color:"dark_red",bold:true,extra:[{translate:att2.misc.spell_bundle_1.name,color:yellow,bold:false,click_event:{action:run_command,command:"/trigger ScoreTrigger set 357"},hover_event: {action: show_item,"id": "minecraft:blue_bundle","count": 1,components:{custom_name:{translate:'att2.misc.spell_bundle_1.name'},lore:[{translate:'att2.misc.spell_bundle_1.lore.1'},{translate:'att2.misc.spell_bundle_1.lore.2'},{translate:'att2.misc.spell_bundle_1.lore.3'},{translate:'att2.misc.spell_bundle_1.lore.4'}],custom_data:{EquipmentType:'spell_bundle_1',Rarity:'unk',QuickSlot:true,Spell_Bundle:1},tooltip_style:"minecraft:rarity/unc/unc"}}},{text:" <= ",color:"gray",bold:false},{text:"Tha",color:yellow,bold:false},{text:"+",color:"gray",bold:false},{text:"Org",color:yellow,bold:false},{text:"+",color:"gray",bold:false},{translate:att2.misc.bundle,color:light_purple,bold:false},{text:"+",color:"gray",bold:false},{text:"Ra",color:yellow,bold:false},{text:"+",color:"gray",bold:false},{text:"Inu",color:yellow,bold:false}]}

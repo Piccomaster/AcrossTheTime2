@@ -16,11 +16,11 @@
 #execute as @e[name="Entity concerned"] at @s run function att2:gameplay/invocation/action/despawn
 
 ##limit
-execute unless score Time_limit SUMMON_TIMER matches 1.. run return 0
+#execute unless score Time_limit SUMMON_TIMER matches 1.. run return 0
 
-scoreboard players remove Time_limit SUMMON_TIMER 1
+#scoreboard players remove Time_limit SUMMON_TIMER 1
 
 
 ##execute
-execute as @e[scores={SUMMON_TIMER=1..},type=!item,type=!marker] run function att2:gameplay/invocation/action/summon_effect
-execute as @e[scores={DESPAWN_TIMER=1..},type=!item,type=!marker] run function att2:gameplay/invocation/action/despawn_effect
+#execute as @e[scores={SUMMON_TIMER=1..},type=!item,type=!marker] run function att2:gameplay/invocation/action/summon_effect
+#execute as @e[scores={DESPAWN_TIMER=1..},type=!item,type=!marker] run function att2:gameplay/invocation/action/despawn_effect

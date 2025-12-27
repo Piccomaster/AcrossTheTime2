@@ -13,4 +13,10 @@ execute if score @s SUMMON_TIMER matches 40 unless entity @s[tag=KeepOriginalDat
 execute if score @s SUMMON_TIMER matches 1..5 at @s positioned ~ ~1 ~ run kill @e[type=ender_pearl,distance=..5]
 execute if score @s SUMMON_TIMER matches 1 unless entity @s[tag=KeepOriginalData] run data merge entity @s {NoAI:0b,Invulnerable:0b}
 
-scoreboard players remove @s SUMMON_TIMER 1
+##remove score
+execute unless score @s SUMMON_TIMER matches ..0 run return run scoreboard players remove @s SUMMON_TIMER 1
+
+##clear enchantment tick
+##add enchantment tick
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/summon":0}}
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/summon":0}}

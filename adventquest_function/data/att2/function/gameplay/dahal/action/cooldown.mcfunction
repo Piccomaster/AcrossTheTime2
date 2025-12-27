@@ -52,13 +52,19 @@ execute as @s[scores={COOLDOWN27=-99..}] at @s run function att2:gameplay/dahal/
 
 execute as @s[scores={COOLDOWN28=-99..}] at @s run function att2:gameplay/dahal/action/spell28_cooldown
 
+execute as @s[scores={COOLDOWN29=-99..}] at @s run function att2:gameplay/dahal/action/spell29_cooldown
+
 execute as @s[scores={COOLDOWN30=-99..}] at @s run function att2:gameplay/dahal/action/spell30_cooldown
 #Void Devourer
 execute as @s[scores={COOLDOWN31=-99..}] at @s run function att2:gameplay/dahal/action/spell31_cooldown
 ###SpaceTeleport
 execute as @s[scores={COOLDOWN32=-99..}] at @s run function att2:gameplay/dahal/action/spell32_cooldown
 
+execute as @s[scores={COOLDOWN33=-99..}] at @s run function att2:gameplay/dahal/action/spell33_cooldown
+
 execute as @s[scores={COOLDOWN34=-99..}] at @s run function att2:gameplay/dahal/action/spell34_cooldown
+
+execute as @s[scores={COOLDOWN35=-99..}] at @s run function att2:gameplay/dahal/action/spell35_cooldown
 
 # Corruption (special activation due to persistance)
 execute as @s[scores={COOLDOWN40=-99..}] at @s run function att2:gameplay/dahal/action/spell40_cooldown

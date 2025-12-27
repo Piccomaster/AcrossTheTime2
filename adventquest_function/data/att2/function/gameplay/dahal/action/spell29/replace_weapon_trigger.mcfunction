@@ -6,7 +6,7 @@
 ##update sword
 execute if items entity @s weapon.mainhand #minecraft:swords[custom_data] run return run function att2:gameplay/dahal/action/spell29/return_weapon
 ##replace player weapon
-execute at @s on attacker if items entity @s weapon.mainhand #minecraft:swords[!custom_data] run return fail
+execute at @s on attacker unless items entity @s weapon.mainhand #minecraft:swords[custom_data] run return fail
 execute at @s on attacker if items entity @s weapon.mainhand #minecraft:swords[custom_data] run item replace entity @n[distance=..0,type=vex] weapon.mainhand from entity @s weapon.mainhand
 execute at @s on attacker if items entity @s weapon.mainhand #minecraft:swords[custom_data] run item replace entity @s weapon.mainhand with air
 ##store weapon data

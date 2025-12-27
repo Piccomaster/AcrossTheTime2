@@ -1,1 +1,0 @@
-scoreboard players operation @s BANK_ACTION *= -1 CAL

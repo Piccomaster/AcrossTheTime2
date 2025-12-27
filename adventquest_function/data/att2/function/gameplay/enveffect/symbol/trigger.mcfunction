@@ -9,4 +9,4 @@ execute unless block ~ ~ ~ light[level=10] run return run kill @s[type=marker,ta
 # Particle
 function att2:gameplay/enveffect/symbol/particle
 ##test if player near
-execute as @p[distance=..2] run function att2:any_function/maco with entity @n[type=marker,tag=SymbolMarker] data
+execute as @p[distance=..2,gamemode=adventure] run function att2:any_function/maco with entity @n[distance=..1,type=marker,tag=SymbolMarker] data

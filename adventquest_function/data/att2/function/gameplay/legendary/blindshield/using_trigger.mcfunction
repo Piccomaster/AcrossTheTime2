@@ -24,7 +24,7 @@ playsound minecraft:entity.ravager.step player @a ~ ~ ~ 1 2
 effect give @s minecraft:blindness 2 1 true
 
 ##add enchantment tick
-execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle},enchantments={"att2_enchantment:legendary/blindshield/sprint_buff":1}]
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:legendary/blindshield/sprint_buff":1}]
 execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/blindshield/sprint_buff":1}}
 #set time
 scoreboard players set @s BS_SPRINT_TIME 3

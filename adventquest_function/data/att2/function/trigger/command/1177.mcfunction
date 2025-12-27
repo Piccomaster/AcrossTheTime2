@@ -1,1 +1,1 @@
-scoreboard players operation @s BANK_ACTION = TOTAL BANK
+function att2:gameplay/bank/withdraw_all

@@ -4,7 +4,6 @@
 #################################################################
 
 ##clear
-kill @e[tag=ENCHANTMENT]
 #summon set put armorstand
 execute in overworld positioned -5032.5 102 -4927.5 run summon armor_stand -5032.5 102 -4927.5 {Tags:["ENCHANTMENT","GET"],Marker:1,Pos:[-5032.5,102,-4927.5],UUID:[I;69786772,657884,77697884,1]}
 execute in overworld positioned -5032.5 102 -4927.5 run summon armor_stand -5032.5 102 -4927.5 {Tags:["ENCHANTMENT","SET"],Marker:1,Pos:[-5032.5,102,-4927.5],UUID:[I;69786772,657884,77697884,2]}
@@ -44,4 +43,4 @@ execute in overworld positioned -5034.0 105.5 -4929 run summon text_display -503
 
 #summon RUNE COST
 execute in overworld positioned -5034.0 105 -4929 run summon text_display -5034.0 105 -4929 {Tags:["ENCHANTMENT","RUNE"],text:{"translate":"enchantment.text.rune"},background:0,billboard:fixed,Rotation:[-145.0f,0.0f],transformation:{translation:[0f,-0.35f,0f],scale:[1f,1f,1f]},UUID:[I;69786772,657884,77697884,15]}
-execute in overworld positioned -5034.0 104.5 -4929 run summon text_display -5034.0 104.5 -4929 {Tags:["ENCHANTMENT","RUNE_COST"],text:{text:"0",color:"green"},background:0,billboard:fixed,Rotation:[-145.0f,0.0f],transformation:{translation:[0f,-0.35f,0f],scale:[1f,1f,1f]},UUID:[I;69786772,657884,77697884,15]}
+execute in overworld positioned -5034.0 104.5 -4929 run summon text_display -5034.0 104.5 -4929 {Tags:["ENCHANTMENT","RUNE_COST"],text:{text:"0",color:"green"},background:0,billboard:fixed,Rotation:[-145.0f,0.0f],transformation:{translation:[0f,-0.35f,0f],scale:[1f,1f,1f]},UUID:[I;69786772,657884,77697884,16]}

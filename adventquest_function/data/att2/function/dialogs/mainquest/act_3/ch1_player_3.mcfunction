@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Você sabe muito bem por que estou aqui. Meus dias estão contados agora. A corrupção se apoderou de mim, e é sua culpa. Eu tenho que acabar com você.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"对于我出现在这的原因你再清楚不过了。墮落泉源控制了我，我已时日无多——而这一切，都是你的错。我要杀了你。",color:"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"对于我出现在这的原因你再清楚不过了。堕落泉源控制了我，我已时日无多——而这一切，都是你的错。我要杀了你。",color:"aqua"}]}

@@ -5,6 +5,8 @@
 
 ##get player score
 function att2:gameplay/score/player
+##clear other pet
+execute as @e[type=#att2_entity:sp_follow_pet,predicate=att2_pre:score/owner,type=!vex] at @s run function att2:gameplay/dahal/pet/kill
 execute positioned ~ ~ ~ run function att2:summon/dahal/vex0_classx {class:CLASS2}
 scoreboard players operation @e[distance=..5,type=vex,tag=NewInvo,tag=Spell29] OWNER = @s NUMEROJOUEUR
 
@@ -22,10 +24,11 @@ data modify entity @n[distance=..5,type=vex,tag=NewInvo,tag=Spell29] CustomName 
 scoreboard players set @e[distance=..5,type=vex,tag=NewInvo,tag=Spell29] SPELL29_CAP 1
 ##update data
 attribute @n[distance=..5,type=vex,tag=NewInvo,tag=Spell29] movement_speed base set 0.8
+attribute @n[distance=..5,type=vex,tag=NewInvo,tag=Spell29] flying_speed base set 0.8
 item replace entity @n[distance=..5,type=vex,tag=NewInvo,tag=Spell29] weapon.mainhand with wooden_sword
 ##dahal_cost
-scoreboard players operation @s DAHAL -= SP26_1 DAHAL_COST
-scoreboard players operation #DAHAL_TICK_COST CAL = SP26_1 DAHAL_COST
+scoreboard players operation @s DAHAL -= SP29_1 DAHAL_COST
+scoreboard players operation #DAHAL_TICK_COST CAL = SP29_1 DAHAL_COST
 scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
 scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
 

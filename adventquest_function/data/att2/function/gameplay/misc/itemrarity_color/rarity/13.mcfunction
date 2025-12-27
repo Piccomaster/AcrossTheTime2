@@ -4,7 +4,7 @@
 #################################################################
 
 ##
-team join yellow @s
+team join white @s
 scoreboard players set @s itemcolor 13
 
 ##glowing

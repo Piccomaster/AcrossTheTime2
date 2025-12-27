@@ -4,7 +4,7 @@
 #################################################################
 
 ##
-team join dark_gray @s
+team join yellow @s
 execute store result score @s itemcolor run data get storage att2:item rarity.Runelvl
 scoreboard players add @s itemcolor 100
 

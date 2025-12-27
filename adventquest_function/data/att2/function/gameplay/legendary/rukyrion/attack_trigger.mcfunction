@@ -7,7 +7,7 @@
 scoreboard players add @s RUK_KILL 1
 scoreboard players add @s RUK_ATK_TIMER 60
 ##add enchantment tick
-execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle},enchantments={"att2_enchantment:legendary/rukyrion/atk_time":1}]
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:legendary/rukyrion/atk_time":1}]
 execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/rukyrion/atk_time":1}}
 ##particle
 particle minecraft:sweep_attack ^ ^1.6 ^1 0.1 0.1 0.1 0 3 force

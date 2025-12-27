@@ -14,7 +14,7 @@ scoreboard players operation temp_value_10 CAL /= 10 CAL
 scoreboard players set temp_value_12 CAL 800
 #base damage
 scoreboard players operation temp_value_11 CAL = @s GAMELEVEL
-scoreboard players operation temp_value_11 CAL *= 5 CAL
+scoreboard players operation temp_value_11 CAL *= 10 CAL
 #get base attack speed
 scoreboard players operation temp_value_12 CAL -= temp_value_11 CAL
 #continue

@@ -270,7 +270,7 @@ execute if score SQ9 SIDEQUEST matches 100 run data modify storage att2:dialog s
 
 #SQ8 - Une livraison qui se fait attendre (PNJ : Sigfrid Barkon) 
 execute if score SQ8 SIDEQUEST matches -1 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["8"],color:dark_red},{translate:consciousness.sidequest.8,color:dark_red}],tooltip:{translate:consciousness.sidequest.fail,color:dark_red},action:{type:run_command,command:"trigger ScoreTrigger set 2310"}}
-execute if score SQ8 SIDEQUEST matches 1..99 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["8"],color:yellow},{translate:consciousness.sidequest.8,color:yellow}],tooltip:{translate:consciousness.sidequest.progress,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 850"}}
+execute if score SQ8 SIDEQUEST matches 1..99 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["8"],color:yellow},{translate:consciousness.sidequest.8,color:yellow}],tooltip:{translate:consciousness.sidequest.progress,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 831"}}
 execute if score SQ8 SIDEQUEST matches 100 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["8"],color:green},{translate:consciousness.sidequest.8,color:green}],tooltip:{translate:consciousness.sidequest.complete,color:green},action:{type:run_command,command:"trigger ScoreTrigger set 2310"}}
 
 #SQ7 - Déblayer le passage (PNJ : Alfred Mornith) 

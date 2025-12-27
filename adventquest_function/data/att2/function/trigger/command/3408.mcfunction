@@ -1,1 +1,1 @@
-function att2:gameplay/enemy_health/stop
+function att2:gameplay/horse_racing/stop

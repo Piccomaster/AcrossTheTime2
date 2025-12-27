@@ -3,7 +3,9 @@
       "minecraft:bat",
       "minecraft:phantom",
       "minecraft:parrot",
-      "minecraft:frog"
+      "minecraft:frog",
+      "minecraft:vex",
+      "minecraft:allay"
     ],
     "replace": false
   }

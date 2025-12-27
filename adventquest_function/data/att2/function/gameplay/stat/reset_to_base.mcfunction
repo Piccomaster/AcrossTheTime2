@@ -29,3 +29,5 @@ scoreboard players set @s LUC_UPGRADE_REQ 3
 scoreboard players set @s RES_UPGRADE_REQ 4
 scoreboard players set @s SPD_UPGRADE_REQ 2
 scoreboard players set @s STR_UPGRADE_REQ 1
+
+attribute @s minecraft:water_movement_efficiency base set 0
