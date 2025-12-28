@@ -6,8 +6,8 @@
 ##remove cycle
 execute if score zirthion_cycle_time DAILYQUEST matches 1.. run scoreboard players remove zirthion_cycle_time DAILYQUEST 1
 ##add update score
-execute if score zirthion_cycle_time DAILYQUEST matches ..0 run scoreboard players add zirthion_update_count DAILYQUEST 1
-execute if score zirthion_cycle_time DAILYQUEST matches ..0 run scoreboard players operation zirthion_cycle_time DAILYQUEST = zirthion_cycle_time_set DAILYQUEST
+execute unless score zirthion_cycle_time DAILYQUEST matches 1.. run scoreboard players add zirthion_update_count DAILYQUEST 1
+execute unless score zirthion_cycle_time DAILYQUEST matches 1.. run scoreboard players operation zirthion_cycle_time DAILYQUEST = zirthion_cycle_time_set DAILYQUEST
 ##if player nearly -> update
 execute unless score zirthion_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0

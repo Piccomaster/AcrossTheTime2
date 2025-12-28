@@ -199,6 +199,20 @@
                 "type": "run_command",
                 "command": "/trigger ScoreTrigger set 1071"
             }
+        },
+        {
+            "width": 120,
+            "label": {
+                "translate": "consciousness.menu.equipment_swap",
+                "color": "#00AAAA"
+            },
+            "tooltip": {
+                "translate": "consciousness.menu.equipment_swap.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 3456"
+            }
         }
     ],
     "exit_action": {

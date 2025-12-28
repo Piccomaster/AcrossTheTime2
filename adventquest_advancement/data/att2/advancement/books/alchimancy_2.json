@@ -23,10 +23,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "alchimancy_2": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.alchimancy_2.name"
                             }
                         }
                     }

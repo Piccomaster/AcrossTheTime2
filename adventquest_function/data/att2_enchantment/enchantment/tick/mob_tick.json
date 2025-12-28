@@ -17,7 +17,7 @@
   ],
   "supported_items": "#minecraft:enchantable/durability",
   "effects": {
-    "minecraft:prevent_equipment_drop": {},
+
     "post_attack": [
       {
         "affected": "victim",

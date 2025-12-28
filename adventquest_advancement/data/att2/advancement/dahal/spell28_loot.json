@@ -10,8 +10,12 @@
                 }
             }
         },
-        "title": {"translate":"att2.advancement.dahal.title.spell28_loot"},
-        "description": {"translate":"att2.advancement.dahal.description.spell28_loot"},
+        "title": {
+            "translate": "att2.advancement.dahal.title.spell28_loot"
+        },
+        "description": {
+            "translate": "att2.advancement.dahal.description.spell28_loot"
+        },
         "show_toast": false,
         "announce_to_chat": true
     },
@@ -19,7 +23,7 @@
     "rewards": {
         "function": "att2:advancement/exploit_1",
         "experience": 50
-                },
+    },
     "criteria": {
         "spell28_loot": {
             "trigger": "minecraft:impossible"

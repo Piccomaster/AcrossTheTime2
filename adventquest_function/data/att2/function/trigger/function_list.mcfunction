@@ -3512,3 +3512,10 @@ execute if score @s ScoreTrigger matches 3452 run function att2:gameplay/dahal/a
 execute if score @s ScoreTrigger matches 3453 run function att2:gameplay/dahal/action/spell35/selectlvl10
 execute if score @s ScoreTrigger matches 3454 run function att2:gameplay/dahal/action/spell35/obtain
 execute if score @s ScoreTrigger matches 3455 run function att2:gameplay/dahal/action/spell35/clear
+
+##equipment_swap
+execute if score @s ScoreTrigger matches 3456 run function att2:gameplay/consciousness/equipment_swap
+execute if score @s ScoreTrigger matches 3457 run function att2:gameplay/consciousness/equipment_swap_slot1
+execute if score @s ScoreTrigger matches 3458 run function att2:gameplay/consciousness/equipment_swap_slot2
+execute if score @s ScoreTrigger matches 3459 run function att2:gameplay/consciousness/equipment_swap_slot3
+execute if score @s ScoreTrigger matches 3460 run function att2:gameplay/consciousness/equipment_swap_slot4

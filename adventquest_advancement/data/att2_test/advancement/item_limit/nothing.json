@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/nothing"
+    },
+    "criteria": {
+        "nothing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond",
+                        "components": {
+                            "minecraft:item_model": "minecraft:nothing"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

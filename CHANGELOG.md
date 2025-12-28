@@ -159,6 +159,26 @@
 #### **Damage Spell Area-of-Effect Optimization**
 - Target selection within the area is now more generous (especially for large-sized enemies).
 
+#### **New spells**
+## 1. **Luminous Orb**
+- **Purchase Location**: Ryliath
+- **Effect**:
+  - Summons a permanent orb at the casting location that illuminates the surrounding area.
+  - The orb automatically attacks nearby enemies with beam attacks.
+
+## 2. **Battle Companion**
+- **Purchase Location**: Eolorion
+- **Effect**: Summons a flying pet that fights for you.
+- **Related Weapon Mechanic**: You can hold a sword-class weapon and left-click to replace it. Weapons of different qualities will increase its attack power.
+
+## 3. **Soulbound Companion**
+- **Purchase Location**: Eolorion (Requires completion of all main and side quests)
+- **Effect**: Summons a vessel that you can possess.
+- **Possession Mechanic**: Left-click the summoned vessel to enter possession state.
+- **Possession Abilities**:
+  - Player can freely move (including flying) but cannot pass through walls.
+  - Can use the spacebar to open chests, activate Symbols, and interact with other explorable content.
+
 <br>
 
 ### **Economy & Items**
@@ -335,6 +355,9 @@
 ### **Toolbar**
 - A new **toolbar** with four dedicated slots has been added. Players can assign tools like "Torches" and "Rune Pouches" to these slots, allowing them to quickly trigger the tool's **specific effect**.
 - **Spell Pouch**: Can hold three casting implements. When placed in the toolbar, it automatically casts the corresponding spells.
+
+### **Quick Equipment Swap**
+- Players can store currently equipped gear in the Consciousness interface, allowing them to replace all equipped items with one click.
 
 <br>
 

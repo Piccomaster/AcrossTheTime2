@@ -23,10 +23,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log3": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log3.name"
                             }
                         }
                     }

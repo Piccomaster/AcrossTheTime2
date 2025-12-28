@@ -10,14 +10,18 @@
                 }
             }
         },
-        "title": {"translate":"att2.advancement.dahal.title.spell28_lvl2"},
-        "description": {"translate":"att2.advancement.dahal.description.spell28_lvl2"}
+        "title": {
+            "translate": "att2.advancement.dahal.title.spell28_lvl2"
+        },
+        "description": {
+            "translate": "att2.advancement.dahal.description.spell28_lvl2"
+        }
     },
     "parent": "att2:dahal/spell28_loot",
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 100
-                },
+    },
     "criteria": {
         "spell28_lvl2": {
             "trigger": "minecraft:impossible"
