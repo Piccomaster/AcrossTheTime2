@@ -3491,3 +3491,24 @@ execute if score @s ScoreTrigger matches 3436 run function att2:gameplay/dahal/a
 execute if score @s ScoreTrigger matches 3437 run function att2:gameplay/dahal/action/spell33/selectlvl10
 execute if score @s ScoreTrigger matches 3438 run function att2:gameplay/dahal/action/spell33/obtain
 execute if score @s ScoreTrigger matches 3439 run function att2:gameplay/dahal/action/spell33/clear
+
+#new spell buy
+execute if score @s ScoreTrigger matches 3440 run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/luminous_orb
+execute if score @s ScoreTrigger matches 3441 run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/battle_companion
+execute if score @s ScoreTrigger matches 3442 run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/soul_companion
+
+
+##new spell 35
+execute if score @s ScoreTrigger matches 3443 run function att2:dialogs/gameplay/dahal/compendium/spell35
+execute if score @s ScoreTrigger matches 3444 run function att2:gameplay/dahal/action/spell35/selectlvl1
+execute if score @s ScoreTrigger matches 3445 run function att2:gameplay/dahal/action/spell35/selectlvl2
+execute if score @s ScoreTrigger matches 3446 run function att2:gameplay/dahal/action/spell35/selectlvl3
+execute if score @s ScoreTrigger matches 3447 run function att2:gameplay/dahal/action/spell35/selectlvl4
+execute if score @s ScoreTrigger matches 3448 run function att2:gameplay/dahal/action/spell35/selectlvl5
+execute if score @s ScoreTrigger matches 3449 run function att2:gameplay/dahal/action/spell35/selectlvl6
+execute if score @s ScoreTrigger matches 3450 run function att2:gameplay/dahal/action/spell35/selectlvl7
+execute if score @s ScoreTrigger matches 3451 run function att2:gameplay/dahal/action/spell35/selectlvl8
+execute if score @s ScoreTrigger matches 3452 run function att2:gameplay/dahal/action/spell35/selectlvl9
+execute if score @s ScoreTrigger matches 3453 run function att2:gameplay/dahal/action/spell35/selectlvl10
+execute if score @s ScoreTrigger matches 3454 run function att2:gameplay/dahal/action/spell35/obtain
+execute if score @s ScoreTrigger matches 3455 run function att2:gameplay/dahal/action/spell35/clear

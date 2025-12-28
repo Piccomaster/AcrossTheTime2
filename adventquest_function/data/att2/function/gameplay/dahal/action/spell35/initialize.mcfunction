@@ -13,15 +13,15 @@ scoreboard players set @s COOLDOWN35 0
 scoreboard players set @s SPELL35_LVL 0
 scoreboard players set @s SPELL35_CAP 1
 scoreboard players set cap1 SPELL35_LVL 0
-scoreboard players set cap2 SPELL35_LVL 2
-scoreboard players set cap3 SPELL35_LVL 5
-scoreboard players set cap4 SPELL35_LVL 15
-scoreboard players set cap5 SPELL35_LVL 35
-scoreboard players set cap6 SPELL35_LVL 85
-scoreboard players set cap7 SPELL35_LVL 150
-scoreboard players set cap8 SPELL35_LVL 350
-scoreboard players set cap9 SPELL35_LVL 400
-scoreboard players set cap10 SPELL35_LVL 600
+scoreboard players set cap2 SPELL35_LVL 1500
+scoreboard players set cap3 SPELL35_LVL 3750
+scoreboard players set cap4 SPELL35_LVL 7500
+scoreboard players set cap5 SPELL35_LVL 13500
+scoreboard players set cap6 SPELL35_LVL 21000
+scoreboard players set cap7 SPELL35_LVL 30000
+scoreboard players set cap8 SPELL35_LVL 42000
+scoreboard players set cap9 SPELL35_LVL 54000
+scoreboard players set cap10 SPELL35_LVL 72000
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN35 30000

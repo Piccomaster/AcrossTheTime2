@@ -22,6 +22,10 @@ function att2:gameplay/dahal/action/spell20/persistence
 #function att2:gameplay/dahal/action/spell24/persistence
 #function att2:gameplay/dahal/action/spell25/persistence
 #function att2:gameplay/dahal/action/spell26/persistence
+execute as @e[type=#minecraft:follow_pet,scores={OWNER=1..}] at @s run function att2:gameplay/dahal/pet/follow_owner
+execute as @e[type=minecraft:vex,scores={OWNER=1..}] at @s run function att2:gameplay/dahal/action/spell29/persistence
+execute as @e[type=minecraft:allay,scores={OWNER=1..}] at @s run function att2:gameplay/dahal/action/spell35/persistence
+
 function att2:gameplay/dahal/action/spell27/persistence
 function att2:gameplay/dahal/action/spell28/persistence
 #execute as @e[type=minecraft:armor_stand,scores={SPELL30_EFFECT=0..}] at @s run function att2:gameplay/dahal/action/spell30/persistence

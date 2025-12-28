@@ -46,16 +46,16 @@ execute unless score #Spell_Existence CAL matches 1 run return 0
 
 ##cal percent
 #get lvl
-execute if score @s SPELL33_CAP matches 1 run scoreboard players operation #cooldown_select CAL = lvl1 COOLDOWN33
-execute if score @s SPELL33_CAP matches 2 run scoreboard players operation #cooldown_select CAL = lvl2 COOLDOWN33
-execute if score @s SPELL33_CAP matches 3 run scoreboard players operation #cooldown_select CAL = lvl3 COOLDOWN33
-execute if score @s SPELL33_CAP matches 4 run scoreboard players operation #cooldown_select CAL = lvl4 COOLDOWN33
-execute if score @s SPELL33_CAP matches 5 run scoreboard players operation #cooldown_select CAL = lvl5 COOLDOWN33
-execute if score @s SPELL33_CAP matches 6 run scoreboard players operation #cooldown_select CAL = lvl6 COOLDOWN33
-execute if score @s SPELL33_CAP matches 7 run scoreboard players operation #cooldown_select CAL = lvl7 COOLDOWN33
-execute if score @s SPELL33_CAP matches 8 run scoreboard players operation #cooldown_select CAL = lvl8 COOLDOWN33
-execute if score @s SPELL33_CAP matches 9 run scoreboard players operation #cooldown_select CAL = lvl9 COOLDOWN33
-execute if score @s SPELL33_CAP matches 10 run scoreboard players operation #cooldown_select CAL = lvl10 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 1 run scoreboard players operation #cooldown_select CAL = lvl1 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 2 run scoreboard players operation #cooldown_select CAL = lvl2 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 3 run scoreboard players operation #cooldown_select CAL = lvl3 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 4 run scoreboard players operation #cooldown_select CAL = lvl4 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 5 run scoreboard players operation #cooldown_select CAL = lvl5 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 6 run scoreboard players operation #cooldown_select CAL = lvl6 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 7 run scoreboard players operation #cooldown_select CAL = lvl7 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 8 run scoreboard players operation #cooldown_select CAL = lvl8 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 9 run scoreboard players operation #cooldown_select CAL = lvl9 COOLDOWN33
+execute if score @s SPELL33_SLCT matches 10 run scoreboard players operation #cooldown_select CAL = lvl10 COOLDOWN33
 scoreboard players operation #cooldown_percent CAL = @s COOLDOWN33
 scoreboard players operation #cooldown_percent CAL *= 10 CAL
 scoreboard players operation #cooldown_percent CAL /= #cooldown_select CAL

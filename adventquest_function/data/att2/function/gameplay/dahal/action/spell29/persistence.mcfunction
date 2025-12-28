@@ -11,25 +11,29 @@ function att2:gameplay/score/owner
 # Particle
 function att2:gameplay/dahal/action/spell29/particle
 # Make pet follow its owner
-execute unless entity @p[distance=..15,gamemode=adventure,predicate=att2_pre:score/player] run tp @s @p[gamemode=adventure,predicate=att2_pre:score/player]
+execute unless entity @p[distance=..20,gamemode=adventure,predicate=att2_pre:score/player] run teleport @s @p[gamemode=adventure,predicate=att2_pre:score/player]
 
-##update angry
-execute unless score @s LIFETIME matches 0.. run scoreboard players set @s LIFETIME 200
-
-scoreboard players operation #time CAL = @s LIFETIME
-scoreboard players operation #time CAL /= 20 CAL
+##follow player
 execute unless entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run return run function att2:gameplay/dahal/action/spell29/follow_owner
 
 
 ##update home
-data modify entity @s bound_pos set from entity @p[predicate=att2_pre:score/player] Pos
+#data modify entity @s bound_pos set from entity @p[predicate=att2_pre:score/player] Pos
 ##modify rotation
 rotate @s facing entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] eyes
 
 execute unless score tic TIMECOUNTER matches 1 run return fail
 
-execute if entity @n[distance=..3,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:tick/motion/forward":5}]
-execute if entity @n[distance=3.1..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:tick/motion/forward":5}]
+##base speed
+execute if entity @n[distance=3.1..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run scoreboard players set #speed CAL 2
+execute if entity @n[distance=..3,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run scoreboard players set #speed CAL 1
+##store
+execute store result storage att2:score speed double 0.3 run scoreboard players get #speed CAL
+##motion
+data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @s Rotation
+function att2:gameplay/dahal/action/spell29/motion with storage att2:score
+data modify entity @s Motion set from entity 00000001-0000-006f-0000-00010000006f Pos
+execute in overworld as 00000001-0000-006f-0000-00010000006f at @s run tp 0.0 0.0 0.0
 
 #execute as @s at @s run tp @s ^ ^ ^2
 

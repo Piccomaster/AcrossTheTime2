@@ -32,7 +32,7 @@ scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
 scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
 
 function att2:gameplay/dahal/action/spell29/cooldown
-scoreboard players add @s SPELL29_LVL 1
+scoreboard players add @s SPELL29_LVL 3
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL29_LVL += @s BONUS_XP_SPELL
 # Spell launch total count for advancement

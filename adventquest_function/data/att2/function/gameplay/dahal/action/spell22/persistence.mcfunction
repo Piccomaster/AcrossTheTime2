@@ -9,7 +9,7 @@ execute at @s[tag=ObstinacyPet2] run particle minecraft:dust{color:[0.1,0.1,0.3]
 execute at @s[tag=ObstinacyPet3] run particle minecraft:dust{color:[0.1,0.1,0.3],scale:1} ~ ~0.5 ~ 0.25 0.25 0.25 0 5
 
 # Make pet follow its owner
-execute unless score @s SUMMON_TIMER matches 1.. run function att2:gameplay/dahal/pet/follow_owner
+#execute unless score @s SUMMON_TIMER matches 1.. run function att2:gameplay/dahal/pet/follow_owner
 
 # Keep agro turtle juvenil
 #execute as @e[type=minecraft:turtle,tag=Agro] run data merge entity @s {Age:-100}

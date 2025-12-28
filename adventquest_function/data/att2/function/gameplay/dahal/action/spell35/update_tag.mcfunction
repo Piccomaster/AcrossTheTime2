@@ -3,6 +3,8 @@
 #Keep Vitality pet working						#
 #################################################
 
+##tag limit
+execute as @s[tag=Spell35_Protect] run return fail
 ##sound
 playsound minecraft:validation2 ambient @a ~ ~ ~ 1 1.5
 ##tip

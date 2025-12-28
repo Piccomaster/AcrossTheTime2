@@ -61,23 +61,6 @@
           "function": "att2:gameplay/dahal/action/spell29/attack_trigger"
         }
       }
-    ],
-    "tick": [
-      {
-        "requirements": [
-          {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:vex"
-            }
-          }
-        ],
-        "effect": {
-          "type": "run_function",
-          "function": "att2:gameplay/dahal/action/spell29/persistence"
-        }
-      }
     ]
   },
   "weight": 1

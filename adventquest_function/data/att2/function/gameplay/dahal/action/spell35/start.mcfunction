@@ -35,7 +35,7 @@ execute as @n[distance=..10,type=mannequin,tag=New,tag=Spell35,tag=Pos] at @s ru
 tag @e[distance=..10,type=mannequin,tag=New,tag=Spell35,tag=Pos] remove New
 
 ##allay ride mannequin
-execute at @s run summon minecraft:mannequin ~ ~ ~ {Tags:["New","Spell35","Fly"],Invulnerable:true,Invisible:true,NoGravity:true,attributes:[{id:scale,base:0.5},{id:safe_fall_distance,base:777}],active_effects:[{id:invisibility,amplifier:0,duration:-1,show_particles:false}],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/dahal/spell35":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
+execute at @s run summon minecraft:mannequin ~ ~5 ~ {Tags:["New","Spell35","Fly"],Invulnerable:true,Invisible:true,NoGravity:true,attributes:[{id:scale,base:0.5},{id:safe_fall_distance,base:777}],active_effects:[{id:invisibility,amplifier:0,duration:-1,show_particles:false}],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/dahal/spell35":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
 ##snyc data
 scoreboard players operation @e[distance=..10,type=mannequin,tag=New,tag=Spell35,tag=Fly] OWNER = @s NUMEROJOUEUR
 ride @n[distance=..10,type=allay,tag=Spell35,predicate=att2_pre:score/owner] mount @n[distance=..10,type=mannequin,tag=New,tag=Spell35,tag=Fly]
@@ -51,3 +51,6 @@ spectate @n[distance=..10,type=mannequin,tag=Spell35,predicate=att2_pre:score/ow
 
 ##tp mannequin pos
 execute at @n[distance=..10,type=minecraft:mannequin,predicate=att2_pre:score/owner,tag=Pos] anchored eyes positioned ^ ^ ^ run tp @n[distance=..10,type=minecraft:mannequin,predicate=att2_pre:score/owner,tag=Fly] ~ ~ ~ ~ ~
+
+##sound
+playsound entity.allay.ambient_without_item ambient @s ~ ~ ~ 150 1

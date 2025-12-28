@@ -3,6 +3,10 @@
 #Keep Vitality pet working						#
 #################################################
 
+
+
+particle minecraft:item{item:{id:"allay_spawn_egg"}} ~ ~0.2 ~ 0 0 0 0 1 normal
+
 # Particle
 execute if score @s SPELL35_CAP matches 1 run return run particle minecraft:dust{color:[0.5,0.5,0.5],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
 execute if score @s SPELL35_CAP matches 2 run return run particle minecraft:dust{color:[0.5,0.7,0.5],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal

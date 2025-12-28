@@ -62,6 +62,7 @@ execute if score #Spell_Bundle_Launch_Select CAL matches 41..45 run return run f
 execute if score #Spell_Bundle_Launch_Select CAL matches 21..23 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/follow_pet
 execute if score #Spell_Bundle_Launch_Select CAL matches 29 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/follow_pet
 execute if score #Spell_Bundle_Launch_Select CAL matches 31 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/follow_pet
+execute if score #Spell_Bundle_Launch_Select CAL matches 35 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/follow_pet
 ##nove/corruption
 execute if score #Spell_Bundle_Launch_Select CAL matches 11 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/nove
 execute if score #Spell_Bundle_Launch_Select CAL matches 40 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/corruption

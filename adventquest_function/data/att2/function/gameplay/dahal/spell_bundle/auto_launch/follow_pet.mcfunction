@@ -8,8 +8,8 @@
 execute if score @s COOLDOWN21 matches 1.. run return run scoreboard players add @s Spell_Bundle 1
 execute if score @s COOLDOWN22 matches 1.. run return run scoreboard players add @s Spell_Bundle 1
 execute if score @s COOLDOWN23 matches 1.. run return run scoreboard players add @s Spell_Bundle 1
-execute if score @s COOLDOWN29 matches 1.. run return run scoreboard players add @s Spell_Bundle 1
 execute if score @s COOLDOWN31 matches 1.. run return run scoreboard players add @s Spell_Bundle 1
+execute if score @s COOLDOWN35 matches 1.. run return run scoreboard players add @s Spell_Bundle 1
 
 
 ##if have pet -> skip
@@ -22,7 +22,7 @@ execute if score #Spell_Bundle_Launch_Select CAL matches 21 store result score #
 execute if score #Spell_Bundle_Launch_Select CAL matches 22 store result score #Have_Pet CAL if entity @n[type=minecraft:phantom,tag=Spell22,predicate=att2_pre:score/owner]
 execute if score #Spell_Bundle_Launch_Select CAL matches 23 store result score #Have_Pet CAL if entity @n[type=minecraft:parrot,tag=Spell23,predicate=att2_pre:score/owner]
 execute if score #Spell_Bundle_Launch_Select CAL matches 31 store result score #Have_Pet CAL if entity @n[type=minecraft:frog,tag=Spell31,predicate=att2_pre:score/owner]
-execute if score #Spell_Bundle_Launch_Select CAL matches 29 store result score #Have_Pet CAL if entity @n[type=minecraft:vex,tag=Spell29,predicate=att2_pre:score/owner]
+execute if score #Spell_Bundle_Launch_Select CAL matches 35 store result score #Have_Pet CAL if entity @n[type=minecraft:allay,tag=Spell35,predicate=att2_pre:score/owner]
 
 ##if have pet -> next
 execute if score #Have_Pet CAL matches 1 run return run scoreboard players add @s Spell_Bundle 1
@@ -32,19 +32,19 @@ execute if score #Have_Pet CAL matches 1 run return run scoreboard players add @
 execute if score #Spell_Bundle_Launch_Select CAL matches 21 if score @s DAHAL >= @s SPELL21_COST run function att2:gameplay/dahal/action/spell21/go
 execute if score #Spell_Bundle_Launch_Select CAL matches 22 if score @s DAHAL >= @s SPELL22_COST run function att2:gameplay/dahal/action/spell22/go
 execute if score #Spell_Bundle_Launch_Select CAL matches 23 if score @s DAHAL >= @s SPELL23_COST run function att2:gameplay/dahal/action/spell23/go
-execute if score #Spell_Bundle_Launch_Select CAL matches 29 if score @s DAHAL >= @s SPELL29_COST run function att2:gameplay/dahal/action/spell29/go
 execute if score #Spell_Bundle_Launch_Select CAL matches 31 if score @s DAHAL >= @s SPELL31_COST run function att2:gameplay/dahal/action/spell31/go
+execute if score #Spell_Bundle_Launch_Select CAL matches 35 if score @s DAHAL >= @s SPELL35_COST run function att2:gameplay/dahal/action/spell35/go
 
 ##summon
 execute if score #Spell_Bundle_Launch_Select CAL matches 21 run function att2:gameplay/dahal/action/spell21/go
 execute if score #Spell_Bundle_Launch_Select CAL matches 22 run function att2:gameplay/dahal/action/spell22/go
 execute if score #Spell_Bundle_Launch_Select CAL matches 23 run function att2:gameplay/dahal/action/spell23/go
-execute if score #Spell_Bundle_Launch_Select CAL matches 29 run function att2:gameplay/dahal/action/spell29/go
 execute if score #Spell_Bundle_Launch_Select CAL matches 31 run function att2:gameplay/dahal/action/spell31/go
+execute if score #Spell_Bundle_Launch_Select CAL matches 35 run function att2:gameplay/dahal/action/spell35/go
 
 ##test if dahal max not enough - > next
 execute if score #Spell_Bundle_Launch_Select CAL matches 21 if score @s DAHALMAX < @s SPELL21_COST run scoreboard players add @s Spell_Bundle 1
 execute if score #Spell_Bundle_Launch_Select CAL matches 22 if score @s DAHALMAX < @s SPELL22_COST run scoreboard players add @s Spell_Bundle 1
 execute if score #Spell_Bundle_Launch_Select CAL matches 23 if score @s DAHALMAX < @s SPELL23_COST run scoreboard players add @s Spell_Bundle 1
-execute if score #Spell_Bundle_Launch_Select CAL matches 29 if score @s DAHALMAX < @s SPELL29_COST run scoreboard players add @s Spell_Bundle 1
 execute if score #Spell_Bundle_Launch_Select CAL matches 31 if score @s DAHALMAX < @s SPELL31_COST run scoreboard players add @s Spell_Bundle 1
+execute if score #Spell_Bundle_Launch_Select CAL matches 35 if score @s DAHALMAX < @s SPELL35_COST run scoreboard players add @s Spell_Bundle 1

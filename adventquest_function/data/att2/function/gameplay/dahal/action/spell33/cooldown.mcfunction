@@ -3,16 +3,16 @@
 #Level and Cooldown	for Spectral bow					        #
 #################################################################
 
-scoreboard players operation @s[scores={SPELL33_CAP=1}] COOLDOWN33 = lvl1 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=2}] COOLDOWN33 = lvl2 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=3}] COOLDOWN33 = lvl3 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=4}] COOLDOWN33 = lvl4 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=5}] COOLDOWN33 = lvl5 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=6}] COOLDOWN33 = lvl6 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=7}] COOLDOWN33 = lvl7 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=8}] COOLDOWN33 = lvl8 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=9}] COOLDOWN33 = lvl9 COOLDOWN33
-scoreboard players operation @s[scores={SPELL33_CAP=10}] COOLDOWN33 = lvl10 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=1}] COOLDOWN33 = lvl1 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=2}] COOLDOWN33 = lvl2 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=3}] COOLDOWN33 = lvl3 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=4}] COOLDOWN33 = lvl4 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=5}] COOLDOWN33 = lvl5 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=6}] COOLDOWN33 = lvl6 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=7}] COOLDOWN33 = lvl7 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=8}] COOLDOWN33 = lvl8 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=9}] COOLDOWN33 = lvl9 COOLDOWN33
+scoreboard players operation @s[scores={SPELL33_SLCT=10}] COOLDOWN33 = lvl10 COOLDOWN33
 #cooldown cal
 function att2:gameplay/dahal/action/cooldown_cal
 
