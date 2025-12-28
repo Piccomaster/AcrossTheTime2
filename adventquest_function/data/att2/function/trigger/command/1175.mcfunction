@@ -1,1 +1,1 @@
-scoreboard players set @s BANK_ACTION 1000
+function att2:gameplay/bank/withdraw_1000

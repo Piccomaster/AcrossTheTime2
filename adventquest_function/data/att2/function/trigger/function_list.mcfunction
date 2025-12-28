@@ -1168,17 +1168,17 @@ execute if score @s ScoreTrigger matches 1164 run scoreboard players set @s CHRO
 execute if score @s ScoreTrigger matches 1165 run scoreboard players set @s CHRONOTON_TODROP 20
 execute if score @s ScoreTrigger matches 1166 run scoreboard players set @s CHRONOTON_TODROP 100
 execute if score @s ScoreTrigger matches 1167 run scoreboard players set @s CHRONOTON_TODROP 500
-execute if score @s ScoreTrigger matches 1168 run scoreboard players set @s BANK_ACTION -100
+execute if score @s ScoreTrigger matches 1168 run function att2:gameplay/bank/deposit_100
 execute if score @s ScoreTrigger matches 1169 run function att2:gameplay/bank/trigger
-execute if score @s ScoreTrigger matches 1170 run scoreboard players set @s BANK_ACTION -1000
-execute if score @s ScoreTrigger matches 1171 run scoreboard players set @s BANK_ACTION -10000
-execute if score @s ScoreTrigger matches 1172 run scoreboard players operation @s BANK_ACTION = @s CHRONOTON
-execute if score @s ScoreTrigger matches 1173 run scoreboard players operation @s BANK_ACTION *= -1 CAL
-execute if score @s ScoreTrigger matches 1174 run scoreboard players set @s BANK_ACTION 100
-execute if score @s ScoreTrigger matches 1175 run scoreboard players set @s BANK_ACTION 1000
-execute if score @s ScoreTrigger matches 1176 run scoreboard players set @s BANK_ACTION 10000
-execute if score @s ScoreTrigger matches 1177 run scoreboard players operation @s BANK_ACTION = TOTAL BANK
-execute if score @s ScoreTrigger matches 1178 run scoreboard players operation @s BANK_ACTION *= 1 CAL
+execute if score @s ScoreTrigger matches 1170 run function att2:gameplay/bank/deposit_1000
+execute if score @s ScoreTrigger matches 1171 run function att2:gameplay/bank/deposit_10000
+execute if score @s ScoreTrigger matches 1172 run function att2:gameplay/bank/deposit_all
+#execute if score @s ScoreTrigger matches 1173 run 
+execute if score @s ScoreTrigger matches 1174 run function att2:gameplay/bank/withdraw_100
+execute if score @s ScoreTrigger matches 1175 run function att2:gameplay/bank/withdraw_1000
+execute if score @s ScoreTrigger matches 1176 run function att2:gameplay/bank/withdraw_10000
+execute if score @s ScoreTrigger matches 1177 run function att2:gameplay/bank/withdraw_all
+#execute if score @s ScoreTrigger matches 1178 run 
 execute if score @s ScoreTrigger matches 1179 run function att2:dialogs/gameplay/bank/account
 execute if score @s ScoreTrigger matches 1180 run function att2:dialogs/gameplay/dahal/compendium/spell1
 execute if score @s ScoreTrigger matches 1181 run function att2:gameplay/dahal/action/spell1/selectlvl1
@@ -3460,3 +3460,55 @@ execute if score @s ScoreTrigger matches 3411 run function att2:gameplay/misc/it
 ##dailyquest fire_ball_duel
 execute if score @s ScoreTrigger matches 3412 run function att2:cinematic/dailyquest/eolorion/5/fireball_duel/start
 execute if score @s ScoreTrigger matches 3413 run function att2:dialogs/dailyquest/eolorion/dq5/bob_l/dialog_2
+
+
+##new spell 29
+execute if score @s ScoreTrigger matches 3414 run function att2:dialogs/gameplay/dahal/compendium/spell29
+execute if score @s ScoreTrigger matches 3415 run function att2:gameplay/dahal/action/spell29/selectlvl1
+execute if score @s ScoreTrigger matches 3416 run function att2:gameplay/dahal/action/spell29/selectlvl2
+execute if score @s ScoreTrigger matches 3417 run function att2:gameplay/dahal/action/spell29/selectlvl3
+execute if score @s ScoreTrigger matches 3418 run function att2:gameplay/dahal/action/spell29/selectlvl4
+execute if score @s ScoreTrigger matches 3419 run function att2:gameplay/dahal/action/spell29/selectlvl5
+execute if score @s ScoreTrigger matches 3420 run function att2:gameplay/dahal/action/spell29/selectlvl6
+execute if score @s ScoreTrigger matches 3421 run function att2:gameplay/dahal/action/spell29/selectlvl7
+execute if score @s ScoreTrigger matches 3422 run function att2:gameplay/dahal/action/spell29/selectlvl8
+execute if score @s ScoreTrigger matches 3423 run function att2:gameplay/dahal/action/spell29/selectlvl9
+execute if score @s ScoreTrigger matches 3424 run function att2:gameplay/dahal/action/spell29/selectlvl10
+execute if score @s ScoreTrigger matches 3425 run function att2:gameplay/dahal/action/spell29/obtain
+execute if score @s ScoreTrigger matches 3426 run function att2:gameplay/dahal/action/spell29/clear
+
+##new spell 33
+execute if score @s ScoreTrigger matches 3427 run function att2:dialogs/gameplay/dahal/compendium/spell33
+execute if score @s ScoreTrigger matches 3428 run function att2:gameplay/dahal/action/spell33/selectlvl1
+execute if score @s ScoreTrigger matches 3429 run function att2:gameplay/dahal/action/spell33/selectlvl2
+execute if score @s ScoreTrigger matches 3430 run function att2:gameplay/dahal/action/spell33/selectlvl3
+execute if score @s ScoreTrigger matches 3431 run function att2:gameplay/dahal/action/spell33/selectlvl4
+execute if score @s ScoreTrigger matches 3432 run function att2:gameplay/dahal/action/spell33/selectlvl5
+execute if score @s ScoreTrigger matches 3433 run function att2:gameplay/dahal/action/spell33/selectlvl6
+execute if score @s ScoreTrigger matches 3434 run function att2:gameplay/dahal/action/spell33/selectlvl7
+execute if score @s ScoreTrigger matches 3435 run function att2:gameplay/dahal/action/spell33/selectlvl8
+execute if score @s ScoreTrigger matches 3436 run function att2:gameplay/dahal/action/spell33/selectlvl9
+execute if score @s ScoreTrigger matches 3437 run function att2:gameplay/dahal/action/spell33/selectlvl10
+execute if score @s ScoreTrigger matches 3438 run function att2:gameplay/dahal/action/spell33/obtain
+execute if score @s ScoreTrigger matches 3439 run function att2:gameplay/dahal/action/spell33/clear
+
+#new spell buy
+execute if score @s ScoreTrigger matches 3440 run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/luminous_orb
+execute if score @s ScoreTrigger matches 3441 run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/battle_companion
+execute if score @s ScoreTrigger matches 3442 run execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/soul_companion
+
+
+##new spell 35
+execute if score @s ScoreTrigger matches 3443 run function att2:dialogs/gameplay/dahal/compendium/spell35
+execute if score @s ScoreTrigger matches 3444 run function att2:gameplay/dahal/action/spell35/selectlvl1
+execute if score @s ScoreTrigger matches 3445 run function att2:gameplay/dahal/action/spell35/selectlvl2
+execute if score @s ScoreTrigger matches 3446 run function att2:gameplay/dahal/action/spell35/selectlvl3
+execute if score @s ScoreTrigger matches 3447 run function att2:gameplay/dahal/action/spell35/selectlvl4
+execute if score @s ScoreTrigger matches 3448 run function att2:gameplay/dahal/action/spell35/selectlvl5
+execute if score @s ScoreTrigger matches 3449 run function att2:gameplay/dahal/action/spell35/selectlvl6
+execute if score @s ScoreTrigger matches 3450 run function att2:gameplay/dahal/action/spell35/selectlvl7
+execute if score @s ScoreTrigger matches 3451 run function att2:gameplay/dahal/action/spell35/selectlvl8
+execute if score @s ScoreTrigger matches 3452 run function att2:gameplay/dahal/action/spell35/selectlvl9
+execute if score @s ScoreTrigger matches 3453 run function att2:gameplay/dahal/action/spell35/selectlvl10
+execute if score @s ScoreTrigger matches 3454 run function att2:gameplay/dahal/action/spell35/obtain
+execute if score @s ScoreTrigger matches 3455 run function att2:gameplay/dahal/action/spell35/clear

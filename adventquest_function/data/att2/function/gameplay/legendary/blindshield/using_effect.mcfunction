@@ -31,7 +31,7 @@ execute if score @s BS_BLOCKED matches 12.. run function att2:gameplay/legendary
 
 
 ##add enchantment tick
-execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle},enchantments={"att2_enchantment:legendary/blindshield/blindshield_buff":1}]
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:legendary/blindshield/blindshield_buff":1}]
 execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:legendary/blindshield/blindshield_buff":1}}
 
 

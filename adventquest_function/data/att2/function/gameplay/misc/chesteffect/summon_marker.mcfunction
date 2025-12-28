@@ -1,6 +1,5 @@
 kill @e[distance=..5,type=marker,tag=ChestMarker]
 kill @e[distance=..5,type=item_display,tag=ChestDisplay]
-
 execute in minecraft:overworld positioned -5018 76 -5058 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,1],Tags:["ChestMarker"],Rotation:[-90,0],data:{loottable:"att2:chest/reg1/c1t2",type:"right",facing:"east",waterlogged:false,model:"normal_right",customname:[{translate:att2.chest.c1.name,color:"#80B380"}]}}
 execute in minecraft:overworld positioned -5018 76 -5059 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,2],Tags:["ChestMarker"],Rotation:[-90,0],data:{loottable:"att2:chest/reg1/c1t1",type:"left",facing:"east",waterlogged:false,model:"normal_left",customname:[{translate:att2.chest.c1.name,color:"#808080"}]}}
 execute in minecraft:overworld positioned -5013 83 -5058 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,3],Tags:["ChestMarker"],Rotation:[0,0],data:{loottable:"att2:chest/reg1/c1t1",type:"right",facing:"south",waterlogged:false,model:"normal_right",customname:[{translate:att2.chest.c1.name,color:"#808080"}]}}
@@ -880,7 +879,7 @@ execute in minecraft:overworld positioned -4944 96 -4451 run summon marker ~ ~ ~
 execute in minecraft:overworld positioned -4996 83 -4471 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,877],Tags:["ChestMarker"],Rotation:[-90,0],data:{loottable:"att2:chest/reg1/c3t2",type:"single",facing:"east",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c3.name,color:"#80B380"}]}}
 execute in minecraft:overworld positioned -4999 83 -4468 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,878],Tags:["ChestMarker"],Rotation:[0,0],data:{loottable:"att2:chest/reg1/c3t4",type:"single",facing:"south",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c3.name,color:"#408080"}]}}
 execute in minecraft:overworld positioned -4945 91 -4469 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,879],Tags:["ChestMarker"],Rotation:[90,0],data:{loottable:"att2:chest/reg1/c3t2",type:"single",facing:"west",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c3.name,color:"#80B380"}]}}
-execute in minecraft:overworld positioned -4979 72 -4412 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,880],Tags:["ChestMarker"],Rotation:[-90,0],data:{loottable:"att2:chest/reg1/c4t5",type:"single",facing:"east",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c4.name,color:"#0080FF"}]}}
+execute in minecraft:overworld positioned -4979 72 -4412 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,880],Tags:["ChestMarker"],Rotation:[-90,0],data:{loottable:"att2:chest/reg1/c4t8",type:"single",facing:"east",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c4.name,color:"#73008C"}]}}
 execute in minecraft:overworld positioned -4962 89 -4301 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,881],Tags:["ChestMarker"],Rotation:[90,0],data:{loottable:"att2:chest/reg1/c4t6",type:"single",facing:"west",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c4.name,color:"#A680FF"}]}}
 execute in minecraft:overworld positioned -5090 80 -4381 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,882],Tags:["ChestMarker"],Rotation:[-90,0],data:{loottable:"att2:chest/reg1/c4t5",type:"single",facing:"east",waterlogged:false,model:"treasure_single",customname:[{translate:att2.chest.c4.name,color:"#0080FF"}]}}
 execute in minecraft:overworld positioned -4977 71 -4470 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,883],Tags:["ChestMarker"],Rotation:[0,0],data:{loottable:"att2:chest/reg1/c4t7",type:"single",facing:"south",waterlogged:false,model:"light_gray_shulker_box_single",customname:[{translate:att2.chest.c4.name,color:"#A60DFF"}]}}
@@ -4335,7 +4334,7 @@ execute in minecraft:overworld positioned -4614 47 -6206 run summon marker ~ ~ ~
 execute in minecraft:overworld positioned -4612 47 -6206 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4332],Tags:["ChestMarker"],Rotation:[180,0],data:{loottable:"att2:chest/reg1/c10t9",type:"single",facing:"north",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c10.name,color:"#FF7321"}]}}
 execute in minecraft:overworld positioned -4503 97 -6211 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4333],Tags:["ChestMarker"],Rotation:[180,0],data:{loottable:"att2:chest/reg1/c10t4",type:"single",facing:"north",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c10.name,color:"#408080"}]}}
 execute in minecraft:overworld positioned -4502 97 -6211 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4334],Tags:["ChestMarker"],Rotation:[180,0],data:{loottable:"att2:chest/reg1/c10t5",type:"single",facing:"north",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c10.name,color:"#0080FF"}]}}
-
+execute in minecraft:overworld positioned -3486 28 -5042 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4335],Tags:["ChestMarker"],Rotation:[0,-90],data:{loottable:"att2:chest/reg1/c4t7",type:"single",facing:"west",waterlogged:false,model:"cyan_shulker_box_single",customname:[{translate:att2.chest.c4.name,color:"#A60DFF"}]}}
 
 #setblock -4993 102 -4980 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
 #setblock -4993 102 -4978 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
@@ -4366,3 +4365,24 @@ execute in minecraft:overworld positioned -4502 97 -6211 run summon marker ~ ~ ~
 #setblock -4621 73 -5435 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{1 2}}
 #setblock -4713 75 -5116 minecraft:trapped_chest[facing=west,type=right,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 4}}
 #setblock -4713 75 -5115 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 4}}
+#setblock -4415 70 -5283 minecraft:waxed_copper_chest[facing=east,type=right,waterlogged=false]{CustomName:{color:"#409940",translate:"att2.chest.c2.name"},Items:[],components:{}}
+#setblock -4415 70 -5284 minecraft:waxed_copper_chest[facing=east,type=left,waterlogged=false]{CustomName:{color:"#409940",translate:"att2.chest.c2.name"},Items:[],components:{}}
+#setblock -4628 72 -4594 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{LootTable:"att2:chest/reg1/c2t5_goods",components:{}}
+#setblock -3691 66 -5003 minecraft:trapped_chest[facing=south,type=right,waterlogged=false]{Items:[],components:{3 3}}
+#setblock -3690 66 -5003 minecraft:trapped_chest[facing=south,type=left,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3690 66 -5001 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3691 66 -4999 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3693 67 -4997 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3693 67 -4995 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3691 66 -4997 minecraft:trapped_chest[facing=east,type=left,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3691 66 -4996 minecraft:trapped_chest[facing=east,type=right,waterlogged=false]{Items:[],components:{3 3}}
+#setblock -3691 66 -4994 minecraft:trapped_chest[facing=east,type=left,waterlogged=false]{Items:[],components:{3 3}}
+#setblock -3691 66 -4993 minecraft:trapped_chest[facing=east,type=right,waterlogged=false]{Items:[],components:{3 2}}  
+#setblock -3689 66 -4993 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3691 68 -4987 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3688 70 -4987 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{3 3}}
+#setblock -3692 70 -4986 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3690 68 -4985 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3689 70 -4984 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#setblock -3690 70 -4982 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 3}}
+#setblock -3688 69 -5008 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{3 3}}

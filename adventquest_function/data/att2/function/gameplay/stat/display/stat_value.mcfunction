@@ -20,7 +20,8 @@ function att2:gameplay/stat/display/reset_data
 execute if score @s STR_DISPLAY matches 1.. if score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display str set value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"#STR_DATA",objective:"CAL"},color:green}]}
 execute if score @s STR_DISPLAY matches 1.. unless score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display str set value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"#STR_DATA",objective:"CAL"},color:red}]}
 #RES
-execute if score @s RES_DISPLAY matches 1.. run data modify storage att2:stat_display res set value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:green}]}
+execute if score @s RES_DISPLAY matches 1.. if score @s RES_DATA matches 0.. run data modify storage att2:stat_display res set value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:green}]}
+execute if score @s RES_DISPLAY matches 1.. unless score @s RES_DATA matches 0.. run data modify storage att2:stat_display res set value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:red}]}
 #SPD
 execute if score @s SPD_DISPLAY matches 1.. if score @s SPD_DATA matches 0.. run data modify storage att2:stat_display spd set value {translate:att2.stat.display.spd.value.add,color:"gray",with:[{score:{name:"@s",objective:"SPD_DATA"},color:green}]}
 execute if score @s SPD_DISPLAY matches 1.. unless score @s SPD_DATA matches 0.. run data modify storage att2:stat_display spd set value {translate:att2.stat.display.spd.value.reduce,color:"gray",with:[{score:{name:"@s",objective:"SPD_DATA"},color:red}]}

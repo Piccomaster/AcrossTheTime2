@@ -1,0 +1,47 @@
+#################################################
+#Made by Adventquest							#
+#Keep Vitality pet working						#
+#################################################
+
+##limit
+execute if score @s SUMMON_TIMER matches 1.. run return fail
+
+##get spell owner score
+function att2:gameplay/score/owner
+# Particle
+function att2:gameplay/dahal/action/spell29/particle
+# Make pet follow its owner
+execute unless entity @p[distance=..20,gamemode=adventure,predicate=att2_pre:score/player] run teleport @s @p[gamemode=adventure,predicate=att2_pre:score/player]
+
+##follow player
+execute unless entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run return run function att2:gameplay/dahal/action/spell29/follow_owner
+
+
+##update home
+#data modify entity @s bound_pos set from entity @p[predicate=att2_pre:score/player] Pos
+##modify rotation
+rotate @s facing entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] eyes
+
+execute unless score tic TIMECOUNTER matches 1 run return fail
+
+##base speed
+execute if entity @n[distance=3.1..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run scoreboard players set #speed CAL 2
+execute if entity @n[distance=..3,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run scoreboard players set #speed CAL 1
+##store
+execute store result storage att2:score speed double 0.3 run scoreboard players get #speed CAL
+##motion
+data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @s Rotation
+function att2:gameplay/dahal/action/spell29/motion with storage att2:score
+data modify entity @s Motion set from entity 00000001-0000-006f-0000-00010000006f Pos
+execute in overworld as 00000001-0000-006f-0000-00010000006f at @s run tp 0.0 0.0 0.0
+
+#execute as @s at @s run tp @s ^ ^ ^2
+
+#execute at @s on passengers run data modify entity @n[distance=..0,type=vex] Rotation set from entity @s Rotation
+##update angry
+execute on passengers run data modify entity @s angry_at set from entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] UUID
+
+##damage
+function att2:gameplay/dahal/action/spell29/damage_cal
+##range damage effect
+execute at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell29/damage with storage att2:score

@@ -1,1 +1,1 @@
-scoreboard players operation @s BANK_ACTION = @s CHRONOTON
+function att2:gameplay/bank/deposit_all

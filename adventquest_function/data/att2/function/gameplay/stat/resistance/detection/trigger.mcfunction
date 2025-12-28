@@ -40,6 +40,7 @@ scoreboard players operation Health CAL += 100 CAL
 #back damage
 function att2:gameplay/stat/resistance/detection/reduce with storage att2:health
 #tigger
+execute if score Health CAL <= eh_lvl CAL as @s[tag=Spell35_Protect] run function att2:gameplay/dahal/action/spell35/protect_trigger
 execute if score Health CAL <= eh_lvl CAL if predicate att2_pre:enchantment/heart_protection/chest run function att2:gameplay/stat/resistance/detection/effect
 ##if death 
 execute if score Health CAL matches ..0 run kill @s

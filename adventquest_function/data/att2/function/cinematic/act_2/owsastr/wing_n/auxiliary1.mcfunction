@@ -17,5 +17,7 @@ execute positioned -4970 73 -4442 run scoreboard players set @a[distance=6..15] 
 execute positioned -4970 73 -4402 run scoreboard players set @a[distance=..5] SHAKE_H 80
 execute positioned -4970 73 -4402 run scoreboard players set @a[distance=6..15] SHAKE_L 80
 scoreboard players set @a[x=-4974,y=71,z=-4405,dx=8,dy=5,dz=-34] SHAKE_H 80
+#fix glass render error
+fill -4970 70 -4444 -4970 70 -4400 minecraft:barrier destroy
 #return 1->make command block runing
 return 1

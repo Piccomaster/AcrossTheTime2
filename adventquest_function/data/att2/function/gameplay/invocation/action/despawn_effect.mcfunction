@@ -11,5 +11,10 @@ execute if score @s DESPAWN_TIMER matches ..10 at @s run particle minecraft:clou
 execute if score @s DESPAWN_TIMER matches 2 unless entity @s[tag=KeepOriginalData] at @s run tp @s ~ 0 ~
 execute if score @s DESPAWN_TIMER matches 1 unless entity @s[tag=KeepOriginalData] run kill @s
 
+##remove score
+execute unless score @s DESPAWN_TIMER matches ..0 run return run scoreboard players remove @s DESPAWN_TIMER 1
 
-scoreboard players remove @s DESPAWN_TIMER 1
+##clear enchantment tick
+##add enchantment tick
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/despawn":0}}
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/despawn":0}}

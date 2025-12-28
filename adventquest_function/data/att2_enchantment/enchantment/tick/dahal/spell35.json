@@ -1,0 +1,82 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": ""
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "victim",
+        "requirements": [
+          {
+            "condition": "damage_source_properties",
+            "predicate": {
+              "source_entity": {
+                "type": "minecraft:player"
+              },
+              "tags": [
+                {
+                  "id": "minecraft:is_player_attack",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/dahal/action/spell35/possession_trigger"
+        }
+      }
+    ],
+    "tick": [
+
+      {
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:mannequin"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/dahal/action/spell35/mannequin_go"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/dahal/action/spell35/player_go"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

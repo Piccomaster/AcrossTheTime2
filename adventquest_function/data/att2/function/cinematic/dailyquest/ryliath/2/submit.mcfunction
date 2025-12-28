@@ -13,9 +13,9 @@ function att2:cinematic/dailyquest/ui/reset
 ##other detection
 
 #Submit the three rune materials: Tha x 3, Org x 2, Ra x 1
-execute store result score tha CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.1'}]
-execute store result score org CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.3'}]
-execute store result score ra CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.5'}]
+execute store result score tha CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.1'}] 0
+execute store result score org CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.3'}] 0
+execute store result score ra CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.5'}] 0
 
 ##test 
 scoreboard players set #TEST CAL 0

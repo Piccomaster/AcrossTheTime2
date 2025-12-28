@@ -5,6 +5,7 @@
 
 gamerule limited_crafting true
 gamerule entity_drops false
+
 #gamerule doFireTick false
 gamerule block_drops false
 gamerule spawn_phantoms false

@@ -35,7 +35,6 @@ execute if items entity @s player.crafting.3 *[custom_data~{QuickSlot:true}] run
 ##store
 function att2:gameplay/misc/quick_slot/store_slot_item with storage att2:score
 
-
 ##test if player cursor is empty
 execute if items entity @s player.cursor *[custom_data~{QuickSlot:true}] run return run function att2:gameplay/misc/quick_slot/player_cursor_update with storage att2:score
 

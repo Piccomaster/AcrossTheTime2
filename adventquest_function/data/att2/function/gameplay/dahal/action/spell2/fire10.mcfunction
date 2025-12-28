@@ -7,8 +7,8 @@ particle minecraft:dust{color:[1,0.3,0],scale:2.5} ~ ~ ~ 0 0 0 0 1 normal
 particle minecraft:dust{color:[0.3,0,0.3],scale:1} ~ ~ ~ 0 0 0 0 1 normal
 particle minecraft:dust{color:[0,0,0],scale:0.2} ~ ~ ~ 0 0 0 0 1 normal
 particle minecraft:flame ~ ~ ~ 0 0 0 0 5 normal
-execute align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile] run data merge entity @s {Fire:200s}
-execute align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile] run effect give @s minecraft:weakness 15 2
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile] run data merge entity @s {Fire:200s}
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile] run effect give @s minecraft:weakness 15 2
 execute if score true Fire_Melting matches 1 run function att2:gameplay/dahal/action/spell1/enable_fire_melting
 
-execute align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile,tag=!SP2_ATKED,type=!bat] run function att2:gameplay/dahal/action/spell2/damage with storage att2:sp_dmg
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile,tag=!SP2_ATKED,type=!bat] run function att2:gameplay/dahal/action/spell2/damage with storage att2:sp_dmg
