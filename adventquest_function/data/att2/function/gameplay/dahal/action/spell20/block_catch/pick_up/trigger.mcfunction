@@ -3,27 +3,19 @@
 # Stock function(trigger)                                 #
 #################################################################
 
-##enemy limit
-execute if entity @e[distance=..7,scores={GAMELEVEL=0..},team=hostile,tag=!MIMIC] run return 0
-#clear arrow
-kill @e[type=item_display,scores={OWNER=0}]
-kill @e[type=arrow,tag=Block_Catch,predicate=att2_pre:score/owner]
 ##Sound
-playsound minecraft:block.crafter.craft master @s ~ ~ ~ 1 1
-##summon arrow
-execute at @s anchored eyes run summon arrow ^ ^ ^-0.1 {Tags:["Block_Catch","New"],NoGravity:true,life:1199,pickup:2,PierceLevel:127b,SoundEvent:"minecraft:intentionally_empty",Rotation:[0.0f,0.0f],damage:-100}
+playsound minecraft:block.crafter.craft master @s ~ ~ ~ 150 1
+##set temp score
+function att2:gameplay/score/player
+scoreboard players operation #player CAL = @s NUMEROJOUEUR
+##set test score
+scoreboard players set #TEST CAL 0
+##detection near chest
+#execute at @s as @e[distance=..7,type=marker,tag=ChestMarker,sort=nearest] run function att2:gameplay/dahal/action/spell20/block_catch/pick_up/detection
 
-##Modify Presentation Entity Line of Sight
-#set owner
-scoreboard players operation @e[type=arrow,distance=..5,tag=New] OWNER = @s NUMEROJOUEUR
-execute as @e[type=arrow,distance=..5,tag=New] at @s run data modify entity @s Owner set from entity @p UUID
-##join team
-team join hostile @e[type=arrow,distance=..5,tag=New]
-#modify motion
-data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @s Rotation
-execute as 00000001-0000-006f-0000-00010000006f at @s run tp @s ^ ^ ^10
-execute as @e[type=arrow,distance=..5,tag=New] run data modify entity @s Motion set from entity 00000001-0000-006f-0000-00010000006f Pos
-execute as @e[type=arrow,distance=..5,tag=New] run data modify entity @s Rotation set from entity 00000001-0000-006f-0000-00010000006f Rotation
-execute in overworld run tp 00000001-0000-006f-0000-00010000006f 0.0 0.0 0.0
-##RemoveNewLabel
-tag @e[type=arrow,tag=Block_Catch,tag=New,distance=..10] remove New
+execute anchored eyes positioned ^ ^ ^ run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
+execute anchored eyes positioned ^ ^ ^1 run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
+execute anchored eyes positioned ^ ^ ^2 run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
+execute anchored eyes positioned ^ ^ ^3 run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
+execute anchored eyes positioned ^ ^ ^4 run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
+execute anchored eyes positioned ^ ^ ^5 run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run

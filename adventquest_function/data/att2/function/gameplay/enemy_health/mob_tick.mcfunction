@@ -9,5 +9,7 @@ execute if predicate att2_pre:player/fire as @s[type=!blaze] run function att2:g
 function att2:gameplay/misc/wither_damage/damage_cal
 ##test in lava
 function att2:gameplay/enveffect/lava/enemy_damage
+##angry
+execute if score tic TIMECOUNTER matches 1 as @s[type=#minecraft:angry] unless data entity @s angry_at run data modify entity @s angry_at set from entity @p UUID
 ##test health reduce
 function att2:gameplay/enemy_health/normal_trigger

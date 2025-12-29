@@ -46,6 +46,15 @@
     ],
     "tick": [
       {
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
         "effect": {
           "type": "run_function",
           "function": "att2:gameplay/legendary/ultima/hold_go"

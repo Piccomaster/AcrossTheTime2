@@ -3,6 +3,8 @@
 # Stock function(give)                                 #
 #################################################################
 
+##clear
+kill @e[distance=..0.1,type=item_display,tag=Item_Show]
 ##Get the contents of the box at that location
 data modify storage att2:temp temp_data set from block ~ ~ ~ Items
 ##Generate a box miner and replace the correspondingitems

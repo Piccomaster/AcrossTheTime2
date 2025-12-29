@@ -22,6 +22,8 @@ effect give @s fire_resistance infinite 0 true
 # Initilaize the score CLASS for the mob
 function att2:gameplay/leveling/monster/initialize/initclass
 
+##bow Initialize
+enchant @s minecraft:power 1
 # Set the level of the mob and set its data (hp and attack)
 scoreboard players set @s GAMELEVEL 0
 scoreboard players operation @s GAMELEVEL > @a GAMELEVEL

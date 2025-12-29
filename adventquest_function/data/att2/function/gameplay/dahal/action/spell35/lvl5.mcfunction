@@ -11,6 +11,7 @@ function att2:gameplay/dahal/action/spell35/update_tag
 
 #update score
 scoreboard players set @e[distance=..5,type=allay,tag=NewInvo,tag=Spell35] SPELL35_CAP 5
+scoreboard players operation @e[distance=..5,type=allay,tag=NewInvo,tag=Spell35] SPELL35_TIMER = lvl5 SPELL35_TIMER
 scoreboard players operation @e[distance=..5,type=allay,tag=NewInvo,tag=Spell35] OWNER = @s NUMEROJOUEUR
 
 ##dahal_cost

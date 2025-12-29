@@ -7,17 +7,8 @@
 execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:tick/dahal/spell35":1}]
 execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/dahal/spell35":1}}
 
-##set time
-execute if score @s SPELL35_CAP matches 1 run scoreboard players operation @s SPELL35_TIMER = lvl1 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 2 run scoreboard players operation @s SPELL35_TIMER = lvl2 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 3 run scoreboard players operation @s SPELL35_TIMER = lvl3 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 4 run scoreboard players operation @s SPELL35_TIMER = lvl4 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 5 run scoreboard players operation @s SPELL35_TIMER = lvl5 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 6 run scoreboard players operation @s SPELL35_TIMER = lvl6 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 7 run scoreboard players operation @s SPELL35_TIMER = lvl7 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 8 run scoreboard players operation @s SPELL35_TIMER = lvl8 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 9 run scoreboard players operation @s SPELL35_TIMER = lvl9 SPELL35_TIMER
-execute if score @s SPELL35_CAP matches 10 run scoreboard players operation @s SPELL35_TIMER = lvl10 SPELL35_TIMER
+##sync timer
+scoreboard players operation @s SPELL35_TIMER = @n[distance=..10,type=allay,tag=Spell35,predicate=att2_pre:score/owner] SPELL35_TIMER
 
 ##summon return pos
 execute at @s run summon minecraft:mannequin ~ ~ ~ {Tags:["New","Spell35","Pos"],Invulnerable:true}
