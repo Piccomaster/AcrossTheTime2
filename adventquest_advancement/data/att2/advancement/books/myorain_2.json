@@ -23,10 +23,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "myorain_2": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.myorain_2.name"
                             }
                         }
                     }

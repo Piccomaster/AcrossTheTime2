@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:ender_eye",
             "components": {
-                "minecraft:enchantment_glint_override": true
+                "translate": "att2.book.minecraft:enchantment_glint_override.name"
             }
         },
         "title": {
@@ -13,7 +13,7 @@
             "translate": "att2.advancement.books.description.all_books"
         },
         "frame": "challenge",
-        "hidden": true
+        "translate": "att2.book.hidden.name"
     },
     "parent": "att2:books/root",
     "criteria": {
@@ -22,10 +22,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "alchimancy_1": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.alchimancy_1.name"
                             }
                         }
                     }
@@ -37,10 +37,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "alchimancy_2": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.alchimancy_2.name"
                             }
                         }
                     }
@@ -52,10 +52,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "alchimancy_3": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.alchimancy_3.name"
                             }
                         }
                     }
@@ -67,10 +67,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "alchimancy_4": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.alchimancy_4.name"
                             }
                         }
                     }
@@ -82,10 +82,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "alchimancy_5": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.alchimancy_5.name"
                             }
                         }
                     }
@@ -97,10 +97,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "alchimancy_6": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.alchimancy_6.name"
                             }
                         }
                     }
@@ -112,10 +112,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "alchimancy_7": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.alchimancy_7.name"
                             }
                         }
                     }
@@ -127,10 +127,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log1": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log1.name"
                             }
                         }
                     }
@@ -142,10 +142,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log2": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log2.name"
                             }
                         }
                     }
@@ -157,10 +157,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log3": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log3.name"
                             }
                         }
                     }
@@ -172,10 +172,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log4": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log4.name"
                             }
                         }
                     }
@@ -187,10 +187,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log5": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log5.name"
                             }
                         }
                     }
@@ -202,10 +202,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log6": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log6.name"
                             }
                         }
                     }
@@ -217,10 +217,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log7": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log7.name"
                             }
                         }
                     }
@@ -232,10 +232,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "ships_log8": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.ships_log8.name"
                             }
                         }
                     }
@@ -247,10 +247,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "myorain_1": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.myorain_1.name"
                             }
                         }
                     }
@@ -262,10 +262,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "myorain_2": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.myorain_2.name"
                             }
                         }
                     }
@@ -277,9 +277,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
                                 "Conscience": "book"
                             }
                         }
@@ -292,10 +292,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "concil_invitation": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.concil_invitation.name"
                             }
                         }
                     }
@@ -307,10 +307,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "last_words": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.last_words.name"
                             }
                         }
                     }
@@ -322,10 +322,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "parchment": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.parchment.name"
                             }
                         }
                     }
@@ -337,10 +337,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "testament": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.testament.name"
                             }
                         }
                     }
@@ -352,10 +352,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "worlds_hunter": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.worlds_hunter.name"
                             }
                         }
                     }
@@ -367,10 +367,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "warning": true
+                        "items": "minecraft:book",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "att2.book.warning.name"
                             }
                         }
                     }

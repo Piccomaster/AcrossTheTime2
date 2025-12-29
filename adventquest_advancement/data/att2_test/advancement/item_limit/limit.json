@@ -1,0 +1,21 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/limit"
+    },
+    "criteria": {
+        "bowl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "limit": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

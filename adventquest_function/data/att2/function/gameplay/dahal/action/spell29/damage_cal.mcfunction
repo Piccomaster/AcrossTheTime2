@@ -20,3 +20,6 @@ scoreboard players operation #hold_damage CAL /= 2 CAL
 scoreboard players operation #hold_damage CAL *= 10 CAL
 scoreboard players operation #damage CAL += #hold_damage CAL
 execute store result storage att2:score damage int 0.1 run scoreboard players get #damage CAL
+
+##add tag select
+tag @s add Spell29ATK

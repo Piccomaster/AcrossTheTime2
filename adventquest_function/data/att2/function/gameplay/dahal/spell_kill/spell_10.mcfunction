@@ -28,6 +28,8 @@ execute if score @s[scores={SPELL10_CAP=..9}] SPELL10_LVL >= cap10 SPELL10_LVL r
 #test if up
 execute if score TEST CAL > @s SPELL10_CAP run scoreboard players operation @s SPELL10_CAP = TEST CAL
 execute if score TEST CAL > @s SPELL10_CAP run function att2:gameplay/dahal/action/spell10/lvlup
+##tip
+tellraw @s [{translate:att2.spell_kill.tip,with:[{selector:'@s',color:dark_red},{translate:att2.spell10.name}]}]
 #sound
 playsound minecraft:entity.player.levelup player @a ~ ~ ~ 150 1.5
 ##dailyquest trigger

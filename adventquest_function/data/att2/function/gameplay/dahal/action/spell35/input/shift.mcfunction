@@ -20,5 +20,7 @@ execute as @s[tag=!Spell35Exit] run return run tag @s add Spell35Exit
 #remove tag
 tag @s remove Spell35Exit
 tag @s remove Spell35Shift
+##sync score
+scoreboard players operation @n[type=allay,tag=Spell35,predicate=att2_pre:score/owner] SPELL35_TIMER = @s SPELL35_TIMER
 ##score
 scoreboard players set @s SPELL35_TIMER 0

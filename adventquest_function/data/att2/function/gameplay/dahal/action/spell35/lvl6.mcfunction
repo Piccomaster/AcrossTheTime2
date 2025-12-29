@@ -14,6 +14,7 @@ execute positioned ~ ~ ~ run function att2:summon/dahal/allay0_classx {class:CLA
 
 #update score
 scoreboard players set @e[distance=..5,type=allay,tag=NewInvo,tag=Spell35] SPELL35_CAP 6
+scoreboard players operation @e[distance=..5,type=allay,tag=NewInvo,tag=Spell35] SPELL35_TIMER = lvl6 SPELL35_TIMER
 scoreboard players operation @e[distance=..5,type=allay,tag=NewInvo,tag=Spell35] OWNER = @s NUMEROJOUEUR
 
 ##dahal_cost

@@ -6,8 +6,8 @@
 ##remove cycle
 execute if score phoenix_cycle_time DAILYQUEST matches 1.. run scoreboard players remove phoenix_cycle_time DAILYQUEST 1
 ##add update score
-execute if score phoenix_cycle_time DAILYQUEST matches ..0 run scoreboard players add phoenix_update_count DAILYQUEST 1
-execute if score phoenix_cycle_time DAILYQUEST matches ..0 run scoreboard players operation phoenix_cycle_time DAILYQUEST = phoenix_cycle_time_set DAILYQUEST
+execute unless score phoenix_cycle_time DAILYQUEST matches 1.. run scoreboard players add phoenix_update_count DAILYQUEST 1
+execute unless score phoenix_cycle_time DAILYQUEST matches 1.. run scoreboard players operation phoenix_cycle_time DAILYQUEST = phoenix_cycle_time_set DAILYQUEST
 ##if player nearly -> update
 execute unless score phoenix_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0

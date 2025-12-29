@@ -780,3 +780,9 @@ execute in overworld positioned -7349 107 -4421 run setblock ~ ~ ~ air
 #fix owsastr
 #fill -4970 70 -4303 -4970 70 -4362 minecraft:barrier destroy
 #fill -4970 70 -4444 -4970 70 -4400 minecraft:barrier destroy
+
+##update trapped chest trigger
+execute in the_nether positioned 3481 51 451 run setblock 3481 51 4516 minecraft:repeating_command_block[conditional=false,facing=up]{Command:"execute unless data block ~ ~4 ~ LootTable unless block ~ ~3 ~ minecraft:redstone_block run setblock ~ ~3 ~ minecraft:redstone_block destroy",LastExecution:3006222290L,SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:1b,components:{},conditionMet:1b,powered:0b}
+execute in the_nether positioned 3561 43 4572 run setblock 3561 43 4572 minecraft:repeating_command_block[conditional=false,facing=south]{Command:"execute unless data block ~ ~4 ~ LootTable unless block ~ ~3 ~ minecraft:redstone_block run setblock ~ ~3 ~ minecraft:redstone_block destroy",LastExecution:3006262499L,SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:1b,components:{},conditionMet:1b,powered:0b}
+##fix chest
+execute in the_nether positioned 3481 51 451 run setblock 3570 84 4518 minecraft:waxed_copper_chest[facing=north,type=single,waterlogged=false]{CustomName:{color:"#408080",translate:"att2.chest.c6.name"},Items:[],components:{}}

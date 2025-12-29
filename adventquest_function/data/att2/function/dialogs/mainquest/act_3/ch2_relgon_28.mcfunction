@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/relgon_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"Enquanto tudo estava muito ruim, entrei na fortaleza de nossa cidade devastada e condenei a entrada que levava à sua toca com dois selos: um com o símbolo de fogo e o outro de lava.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"在这恶劣的形势之下，我进入了被摧毀的Angor城，来到了王宫，用两个法器封印了前往她栖息之地的道路：它们是烈火之章和炎狱之章。",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"在这恶劣的形势之下，我进入了被摧毁的Angor城，来到了王宫，用两个法器封印了前往她栖息之地的道路：它们是烈火之章和炎狱之章。",color:"dark_aqua"}]}]

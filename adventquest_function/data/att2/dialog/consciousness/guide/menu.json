@@ -42,15 +42,15 @@
         {
             "width": 150,
             "label": {
-                "translate": "consciousness.guide.menu.tutorial",
+                "translate": "consciousness.menu.equipment_swap",
                 "color": "#21BCFF"
             },
             "tooltip": {
-                "translate": "consciousness.guide.menu.tutorial.tip"
+                "translate": "consciousness.menu.equipment_swap.tip"
             },
             "action": {
-                "type": "show_dialog",
-                "dialog": "att2:consciousness/guide/tutorial"
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2859"
             }
         }
     ],

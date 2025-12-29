@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        34035
+                    ]
+                }
+            }
+        },
+        "title": {"translate":"att2.advancement.dahal.title.spell35_lvl10"},
+        "description": {"translate":"att2.advancement.dahal.description.spell35_lvl10"},
+        "frame": "challenge"
+    },
+    "parent": "att2:dahal/spell35_lvl5",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 10000
+                },
+    "criteria": {
+        "spell35_lvl10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

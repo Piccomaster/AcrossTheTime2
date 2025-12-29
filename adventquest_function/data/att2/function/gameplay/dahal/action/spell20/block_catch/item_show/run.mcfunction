@@ -4,12 +4,14 @@
 #################################################################
 
 ##empty detection
-execute unless data block ~ ~ ~ Items[0] run return run kill @s[type=arrow]
+execute if data block ~ ~ ~ lock run return fail
+execute if data block ~ ~ ~ LootTable run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/not_open
+execute unless data block ~ ~ ~ Items[0] run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/empty
 ##If there is already an entity shooting from this player nearby,Then go straight back to
-function att2:gameplay/dahal/action/spell20/block_catch/item_show/test
-execute if score #TEST CAL matches 1 on origin run function att2:gameplay/dahal/action/spell20/block_catch/back/give with storage att2:temp
+#function att2:gameplay/dahal/action/spell20/block_catch/item_show/test
+execute positioned ~ ~0.99 ~ if entity @e[distance=..0.1,type=item_display,tag=Item_Show] as @p[predicate=att2_pre:score/player] run return run function att2:gameplay/dahal/action/spell20/block_catch/back/give with storage att2:temp
 ##Has Entity,Then do not perform the display
-execute if score #TEST CAL matches 1 run return 0
+#execute if score #TEST CAL matches 1 run return 0
 ##Display Entity
 execute positioned ~ ~0.99 ~ run function att2:gameplay/dahal/action/spell20/block_catch/item_show/summon
 ##Particle Effect

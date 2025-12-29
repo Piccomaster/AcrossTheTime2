@@ -72,11 +72,11 @@ execute if score Neth0 TIMER matches 2450..2490 in minecraft:the_nether run tp @
 execute if score Neth0 TIMER matches 2450 run effect give @a[gamemode=spectator,scores={Performance=10}] minecraft:blindness 4 1 true
 execute if score Neth0 TIMER matches 2450 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3603 119 3806 140 30
 execute if score Neth0 TIMER matches 2450..3449 in minecraft:the_nether as @n[type=text_display,tag=Neth0] at @s run tp @s 3603 119 3806 ~0.04 30
-execute if score Neth0 TIMER matches 2450 run tellraw @a[scores={DIMENSION=6}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3091"},hover_event:{action:show_text,value:"..."}}
+execute if score Neth0 TIMER matches 2450 run tellraw @a[scores={DIMENSION=6}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3088"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 2600 run tellraw @a[scores={DIMENSION=6}] {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 2600 run function att2:dialogs/mainquest/act_3/ch2_relgon_20
 execute if score Neth0 TIMER matches 2600 run function att2:voice/relgon/relgon20
-execute if score Neth0 TIMER matches 2600 run tellraw @a[scores={DIMENSION=6}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3092"},hover_event:{action:show_text,value:"..."}}
+execute if score Neth0 TIMER matches 2600 run tellraw @a[scores={DIMENSION=6}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3089"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 2820 run tellraw @a[scores={DIMENSION=6}] {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 42"},hover_event:{action:show_text,value:"..."}}
 execute if score Neth0 TIMER matches 2820 run tellraw @a[scores={DIMENSION=6}] {text:"///\\///\\///\\///\\\n//\\///\\///\\///\\/\n/\\///\\///\\///\\/",color:"dark_gray",extra:[{text:"/",color:"dark_red"}]}
 execute if score Neth0 TIMER matches 2820 run function att2:dialogs/mainquest/act_3/ch2_relgon_21

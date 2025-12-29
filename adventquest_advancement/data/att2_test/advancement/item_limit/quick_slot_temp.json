@@ -8,9 +8,9 @@
             "conditions": {
                 "items": [
                     {
-                        "predicates":{
-                            "minecraft:custom_data":{
-                                "QuickSlotTemp":true
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "QuickSlotTemp": true
                             }
                         }
                     }
