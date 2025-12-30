@@ -31,7 +31,7 @@ execute if score TEST CAL > @s SPELL3_CAP run function att2:gameplay/dahal/actio
 ##tip
 tellraw @s [{translate:att2.spell_kill.tip,with:[{selector:'@s',color:dark_red},{translate:att2.spell3.name}]}]
 #sound
-playsound minecraft:entity.player.levelup player @a ~ ~ ~ 150 1.5
+playsound minecraft:block.conduit.activate player @a ~ ~ ~ 150 1.5
 ##dailyquest trigger
 function att2:cinematic/dailyquest/trigger/spell_kill/spell_3
 function att2:cinematic/dailyquest/meleim/6/trigger/kill_bee

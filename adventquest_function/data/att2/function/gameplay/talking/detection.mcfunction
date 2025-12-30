@@ -11,14 +11,18 @@ execute unless entity @s[tag=rotation_store] run data modify entity @s data.rota
 tag @s add rotation_store
 
 #Talking movement activation
-execute if score @s TALKING matches 1..41 run function att2:gameplay/talking/talk
+execute if score @s TALKING matches 1..41 run function att2:gameplay/talking/talk_to_player
 execute if score @s TALKING matches 101..141 run function att2:gameplay/talking/angry
+execute if score @s TALKING matches 201..241 run function att2:gameplay/talking/talk
 
 scoreboard players add @s[scores={TALKING=1..41}] TALKING 1
 scoreboard players set @s[scores={TALKING=41}] TALKING 1
 
 scoreboard players add @s[scores={TALKING=101..141}] TALKING 1
 scoreboard players set @s[scores={TALKING=141}] TALKING 101
+
+scoreboard players add @s[scores={TALKING=201..241}] TALKING 1
+scoreboard players set @s[scores={TALKING=241}] TALKING 201
 
 ##if player far ——>stop
 execute unless entity @p[distance=..15] run scoreboard players set @s TALKING_TIMER 1

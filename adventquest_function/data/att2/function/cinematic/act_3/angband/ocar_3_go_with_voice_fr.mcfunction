@@ -3,11 +3,11 @@
 #Process cinematic ocar_3_go  		 		 	 #
 ##################################################
 
-execute if score Neth0 TIMER matches 0 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING 1
+execute if score Neth0 TIMER matches 0 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING 201
 execute if score Neth0 TIMER matches 0 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_TIMER 200
 execute if score Neth0 TIMER matches 0 run function att2:dialogs/mainquest/act_3/ch2_serile_2
 execute if score Neth0 TIMER matches 0 run function att2:voice/serile/serile35
-execute if score Neth0 TIMER matches 80 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 1
+execute if score Neth0 TIMER matches 80 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 201
 execute if score Neth0 TIMER matches 80 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_TIMER 80
 execute if score Neth0 TIMER matches 80 run function att2:dialogs/mainquest/act_3/ch2_namrin_3
 execute if score Neth0 TIMER matches 80 run function att2:voice/namrin/namrin3
@@ -29,7 +29,7 @@ execute if score Neth0 TIMER matches 1051 in minecraft:the_nether as 00000000-00
 execute if score Neth0 TIMER matches 1051 in minecraft:the_nether run kill 00000000-0000-001a-0000-00000000001a
 
 execute if score Neth0 TIMER matches 1075..1200 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
-execute if score Neth0 TIMER matches 1100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 1
+execute if score Neth0 TIMER matches 1100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 201
 execute if score Neth0 TIMER matches 1100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_TIMER 170
 execute if score Neth0 TIMER matches 1100 run function att2:dialogs/mainquest/act_3/ch2_namrin_6
 execute if score Neth0 TIMER matches 1100 run function att2:voice/namrin/namrin6

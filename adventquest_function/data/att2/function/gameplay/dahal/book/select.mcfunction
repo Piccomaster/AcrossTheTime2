@@ -40,3 +40,4 @@ execute if score #id CAL matches 42 on origin run return run function att2:gamep
 execute if score #id CAL matches 43 on origin run return run function att2:gameplay/dahal/book/obtain_43
 execute if score #id CAL matches 44 on origin run return run function att2:gameplay/dahal/book/obtain_44
 execute if score #id CAL matches 45 on origin run return run function att2:gameplay/dahal/book/obtain_45
+execute if score #id CAL matches 46 on origin run return run function att2:gameplay/dahal/book/obtain_46

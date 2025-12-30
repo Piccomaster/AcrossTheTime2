@@ -9,7 +9,7 @@ execute if score Real0 TIMER matches 0 run function att2:cinematic/act_2/gonon_1
 execute if score Real0 TIMER matches 1 run function att2:dialogs/mainquest/act_2/ch1_player_4
 execute if score Real0 TIMER matches 80 run function att2:dialogs/mainquest/act_2/ch1_gonon_1
 execute if score Real0 TIMER matches 80 run function att2:voice/gonon/gonon1
-execute if score Real0 TIMER matches 80 run scoreboard players set 00000000-0000-002a-0000-00000000002a TALKING 1
+execute if score Real0 TIMER matches 80 run scoreboard players set 00000000-0000-002a-0000-00000000002a TALKING 201
 execute if score Real0 TIMER matches 81 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2"},hover_event:{action:show_text,value:"..."}}
 execute if score Real0 TIMER matches 200 run function att2:dialogs/mainquest/act_2/ch1_player_5
 execute if score Real0 TIMER matches 201 run tellraw @a {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3"},hover_event:{action:show_text,value:"..."}}

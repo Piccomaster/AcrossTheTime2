@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        34046
+                    ]
+                }
+            }
+        },
+        "title": {"translate":"att2.advancement.dahal.title.spell46_loot"},
+        "description": {"translate":"att2.advancement.dahal.description.spell46_loot"},
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell46_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -8,7 +8,7 @@ execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 execute if score Real0 TIMER matches 0 run tag @a remove skipDeathMalus
 execute if score Real0 TIMER matches 50 positioned 29999 73 29967 run function att2:summon/pnj/etotsira_old
 execute if score Real0 TIMER matches 80 run function att2:dialogs/mainquest/act_3/ch1_player_6
-execute if score Real0 TIMER matches 120 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING 1
+execute if score Real0 TIMER matches 120 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING 201
 execute if score Real0 TIMER matches 120 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING_TIMER 900
 execute if score Real0 TIMER matches 120 run function att2:dialogs/mainquest/act_3/ch1_etotsira_8
 execute if score Real0 TIMER matches 120 run function att2:voice/etotsira/etotsira8
@@ -52,7 +52,7 @@ execute if score Real0 TIMER matches 1287 if entity @a[x=30009.5,y=77.0,z=29943.
 
 execute if score Real0 TIMER matches 1289 run function att2:dialogs/mainquest/act_3/ch1_etotsira_14
 execute if score Real0 TIMER matches 1289 run function att2:voice/etotsira/etotsira14
-execute if score Real0 TIMER matches 1290 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING 1
+execute if score Real0 TIMER matches 1290 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING 201
 execute if score Real0 TIMER matches 1290 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING_TIMER 300
 execute if score Real0 TIMER matches 1450 run function att2:physicmod/reg1/earndhel/etotsira_doorhouse_open
 execute if score Real0 TIMER matches 1450 run function att2:dialogs/mainquest/act_3/ch1_etotsira_15

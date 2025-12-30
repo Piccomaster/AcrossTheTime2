@@ -3,7 +3,7 @@
 #Process aldelrion cinematic 								#
 #############################################################
 
-execute if score Neth1 TIMER matches 5 run scoreboard players set 00000000-0000-149a-0000-00000000149a TALKING 1
+execute if score Neth1 TIMER matches 5 run scoreboard players set 00000000-0000-149a-0000-00000000149a TALKING 201
 execute if score Neth1 TIMER matches 5 run scoreboard players set 00000000-0000-149a-0000-00000000149a TALKING_TIMER 1000
 execute if score Neth1 TIMER matches 30 run function att2:dialogs/sidequest/sq45/aldelrion_9
 execute if score Neth1 TIMER matches 30 at 00000000-0000-149a-0000-00000000149a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3003"},hover_event:{action:show_text,value:"..."}}

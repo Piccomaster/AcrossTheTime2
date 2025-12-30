@@ -36,3 +36,4 @@ scoreboard objectives add SPELL42_SLCT dummy
 scoreboard objectives add SPELL43_SLCT dummy
 scoreboard objectives add SPELL44_SLCT dummy
 scoreboard objectives add SPELL45_SLCT dummy
+scoreboard objectives add SPELL46_SLCT dummy

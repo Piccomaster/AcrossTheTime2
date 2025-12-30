@@ -38,7 +38,7 @@ execute unless score tic TIMECOUNTER matches 1 run return fail
 ##sound
 playsound block.conduit.ambient ambient @a ~ ~ ~ 1 1
 
-execute unless entity @n[distance=..10,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] run return fail
+execute unless entity @n[distance=..10,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC,tag=!Invulnerable] run return fail
 
 #summon armor_stand delay
 summon armor_stand ~ ~0.5 ~ {Tags:["New","Spell33","ATK"],Marker:true,Invisible:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/dahal/spell33":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},attributes:[{id:scale,base:0.01}]}

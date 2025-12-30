@@ -5,7 +5,7 @@
 #Task requirements: #Time limit : 10 minutes
 #Provide three books that Marion Marsot hasn't read yet.
 #############################################################
-    
+
 ##storage inventory
 data modify storage att2:dailyquest inventory set from entity @s Inventory
 data modify storage att2:dailyquest submit_item set value []
@@ -21,11 +21,12 @@ execute store result storage att2:dailyquest body[-1].with[1] int 1 run scoreboa
 
 ##storage all slot
 function att2:cinematic/dailyquest/phoenix/3/trigger/loop
+
+##show submit list
+execute if score total_book_submit DAILYQUEST matches 1..23 run data modify storage att2:dailyquest submit_item append value {label:[{object:atlas,sprite:"item/book",color:"white",shadow_color:0},{translate:"att2.dailyquest.submit.book.list"}],tooltip:[{translate:"att2.dailyquest.submit.book.list"}],action:{type:"run_command",command:"trigger ScoreTrigger set 3090"},width:150}
 ##unless item
 execute unless data storage att2:dailyquest submit_item[0] run data modify storage att2:dailyquest submit_item append value {label:[{translate:att2.dailyquest.submit.nothing}],action:{type:"run_command",command:"trigger ScoreTrigger set 3090"},width:200}
 
-##show submit list
-execute if score total_book_submit DAILYQUEST matches 1..23 run data modify storage att2:dailyquest submit_item append value {label:[{object:atlas,sprite:"item/book",color:"white",shadow_color:0},{translate:"att2.dailyquest.submit.book.list"}],tooltip:[],action:{type:"run_command",command:"trigger ScoreTrigger set 3090"},width:150}
 
 #consciousness
 execute if score consciousness_book_submit DAILYQUEST matches 1 run data modify storage att2:dailyquest submit_item[-1].tooltip append value [{translate:att2.book.consciousness.name},"\n"]

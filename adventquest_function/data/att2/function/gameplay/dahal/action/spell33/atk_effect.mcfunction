@@ -14,10 +14,10 @@ execute unless score @s LIFETIME matches ..0 run return run scoreboard players r
 
 
 ##launch
-rotate @s facing entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] eyes
+rotate @s facing entity @n[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC,tag=!Invulnerable] eyes
 
 ##reset tag
-tag @e[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC] remove SPELL33_ATK
+tag @e[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC,tag=!Invulnerable] remove SPELL33_ATK
 
 ##damage cal
 function att2:gameplay/dahal/action/spell33/damage_cal
