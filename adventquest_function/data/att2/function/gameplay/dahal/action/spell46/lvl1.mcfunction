@@ -13,7 +13,7 @@ scoreboard players operation @s SPELL46_TIMER = SPELL46_TIMER CAL
 scoreboard players operation @s SPELL46_DAR = SPELL46_DAR CAL
 
 ##reduce hp
-attribute @s minecraft:max_health modifier add spell46_reduce_max_health -2 add_value
+function att2:gameplay/dahal/action/spell46/hp_reduce
 ##update dahal
 function att2:gameplay/runes/dahal_cal
 ##other players

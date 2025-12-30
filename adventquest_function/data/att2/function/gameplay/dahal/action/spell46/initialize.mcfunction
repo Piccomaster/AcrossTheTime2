@@ -49,15 +49,15 @@ scoreboard players set lvl9 SPELL46_DAR 90
 scoreboard players set lvl10 SPELL46_DAR 100
 #TIMER
 scoreboard players set lvl1 SPELL46_TIMER 200
-scoreboard players set lvl2 SPELL46_TIMER 300
-scoreboard players set lvl3 SPELL46_TIMER 400
-scoreboard players set lvl4 SPELL46_TIMER 600
-scoreboard players set lvl5 SPELL46_TIMER 800
-scoreboard players set lvl6 SPELL46_TIMER 1000
-scoreboard players set lvl7 SPELL46_TIMER 1250
-scoreboard players set lvl8 SPELL46_TIMER 1500
-scoreboard players set lvl9 SPELL46_TIMER 1750
-scoreboard players set lvl10 SPELL46_TIMER 2000
+scoreboard players set lvl2 SPELL46_TIMER 400
+scoreboard players set lvl3 SPELL46_TIMER 800
+scoreboard players set lvl4 SPELL46_TIMER 1200
+scoreboard players set lvl5 SPELL46_TIMER 1600
+scoreboard players set lvl6 SPELL46_TIMER 2000
+scoreboard players set lvl7 SPELL46_TIMER 2400
+scoreboard players set lvl8 SPELL46_TIMER 2800
+scoreboard players set lvl9 SPELL46_TIMER 3200
+scoreboard players set lvl10 SPELL46_TIMER 3600
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN46 6000
