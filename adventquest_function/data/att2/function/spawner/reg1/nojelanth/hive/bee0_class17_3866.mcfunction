@@ -9,7 +9,7 @@ execute if entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] run return 0
 #######get summon data/set SUMMON timer
 
 ##set value
-data modify entity @s data.summon set value "function att2:summon/reg_1/bee0_classx {class:CLASS17}"
+data modify entity @s data.summon set value "execute positioned -7582 16 -4152 run function att2:summon/reg_1/bee0_classx {class:CLASS17}"
 ##set summon timer
 scoreboard players set @s SPAWNER_TIMER 20
 
