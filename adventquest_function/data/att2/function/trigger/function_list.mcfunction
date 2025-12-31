@@ -3519,3 +3519,17 @@ execute if score @s ScoreTrigger matches 3457 run function att2:gameplay/conscio
 execute if score @s ScoreTrigger matches 3458 run function att2:gameplay/consciousness/equipment_swap_slot2
 execute if score @s ScoreTrigger matches 3459 run function att2:gameplay/consciousness/equipment_swap_slot3
 execute if score @s ScoreTrigger matches 3460 run function att2:gameplay/consciousness/equipment_swap_slot4
+
+##new spell 46
+execute if score @s ScoreTrigger matches 3461 run function att2:dialogs/gameplay/dahal/compendium/spell46
+execute if score @s ScoreTrigger matches 3462 run function att2:gameplay/dahal/action/spell46/selectlvl1
+execute if score @s ScoreTrigger matches 3463 run function att2:gameplay/dahal/action/spell46/selectlvl2
+execute if score @s ScoreTrigger matches 3464 run function att2:gameplay/dahal/action/spell46/selectlvl3
+execute if score @s ScoreTrigger matches 3465 run function att2:gameplay/dahal/action/spell46/selectlvl4
+execute if score @s ScoreTrigger matches 3466 run function att2:gameplay/dahal/action/spell46/selectlvl5
+execute if score @s ScoreTrigger matches 3467 run function att2:gameplay/dahal/action/spell46/selectlvl6
+execute if score @s ScoreTrigger matches 3468 run function att2:gameplay/dahal/action/spell46/selectlvl7
+execute if score @s ScoreTrigger matches 3469 run function att2:gameplay/dahal/action/spell46/selectlvl8
+execute if score @s ScoreTrigger matches 3470 run function att2:gameplay/dahal/action/spell46/selectlvl9
+execute if score @s ScoreTrigger matches 3471 run function att2:gameplay/dahal/action/spell46/selectlvl10
+execute if score @s ScoreTrigger matches 3472 run function att2:gameplay/dahal/action/spell46/obtain

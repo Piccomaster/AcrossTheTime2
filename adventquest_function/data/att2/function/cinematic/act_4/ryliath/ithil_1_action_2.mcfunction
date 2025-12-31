@@ -10,7 +10,7 @@ execute positioned -5051 151 -4880 run function att2:sound/door/structure_fallin
 function att2:physicmod/reg1/ryliath_billgartdoor1
 
 scoreboard players set ithil_PNJ DIALOG 2
-scoreboard players set 00000000-0000-094a-0000-00000000094a TALKING 1
+scoreboard players set 00000000-0000-094a-0000-00000000094a TALKING 201
 scoreboard players set 00000000-0000-094a-0000-00000000094a TALKING_TIMER 150
 
 scoreboard players add @a SPELL20_LVL 1

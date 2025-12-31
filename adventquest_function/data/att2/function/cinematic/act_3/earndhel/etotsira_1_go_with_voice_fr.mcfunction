@@ -7,7 +7,7 @@ execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 
 execute if score Real0 TIMER matches 0 run function att2:gameplay/boss/earndhel/etotsira/initialize
 execute if score Real0 TIMER matches 5 run scoreboard players set etotsira_old_PNJ DIALOG 0
-execute if score Real0 TIMER matches 10 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING 1
+execute if score Real0 TIMER matches 10 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING 201
 execute if score Real0 TIMER matches 10 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING_TIMER 1000
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_3/ch1_etotsira_1
 execute if score Real0 TIMER matches 10 run function att2:voice/etotsira/etotsira1

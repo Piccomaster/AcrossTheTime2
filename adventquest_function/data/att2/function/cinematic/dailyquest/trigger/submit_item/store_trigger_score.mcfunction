@@ -3,6 +3,7 @@
 #Daily Quest trigger : accepted_paper                       #
 #############################################################
 
+#tellraw @a {score:{name:"#SlotId",objective:"CAL"}}
 ##set trigger score
 execute if score #SlotId CAL matches 0 run return run data modify storage att2:dailyquest submit_item[-1].action.command set value "trigger ScoreTrigger set 3350"
 execute if score #SlotId CAL matches 1 run return run data modify storage att2:dailyquest submit_item[-1].action.command set value "trigger ScoreTrigger set 3351"

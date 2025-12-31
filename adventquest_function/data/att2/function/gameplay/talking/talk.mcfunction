@@ -3,11 +3,9 @@
 #Use function to process the update of Talking movement system 		#
 #####################################################################
 
-rotate @s facing entity @p[distance=..10] feet
-
-execute at @s run rotate @s[scores={TALKING=1..6}] facing ^ ^-0.012 ^1
-execute at @s run rotate @s[scores={TALKING=7..14}] facing ^ ^0.012 ^1
-execute at @s run rotate @s[scores={TALKING=15..25}] facing ^ ^-0.012 ^1
-execute at @s run rotate @s[scores={TALKING=26..29}] facing ^ ^0.012 ^1
-execute at @s run rotate @s[scores={TALKING=30..32}] facing ^ ^-0.012 ^1
-execute at @s run rotate @s[scores={TALKING=33..41}] facing ^ ^0.012 ^1
+execute at @s run rotate @s[scores={TALKING=201..206}] facing ^ ^-0.012 ^1
+execute at @s run rotate @s[scores={TALKING=207..214}] facing ^ ^0.012 ^1
+execute at @s run rotate @s[scores={TALKING=215..225}] facing ^ ^-0.012 ^1
+execute at @s run rotate @s[scores={TALKING=226..229}] facing ^ ^0.012 ^1
+execute at @s run rotate @s[scores={TALKING=230..232}] facing ^ ^-0.012 ^1
+execute at @s run rotate @s[scores={TALKING=233..241}] facing ^ ^0.012 ^1

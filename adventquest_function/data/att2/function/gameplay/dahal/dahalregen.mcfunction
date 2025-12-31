@@ -5,26 +5,14 @@
 #process Eternän equipment health regeneration                  #
 #################################################################
 
-#x20
-scoreboard players operation @s DAHAL1 = @s DAHALMAX
-scoreboard players operation @s DAHAL1 *= 20 CAL
-
-scoreboard players operation #OP_DAHAL CAL = @s OP_DAHAL
-scoreboard players operation #OP_DAHAL CAL *= 20 CAL
-
-scoreboard players operation @s DAHAL1 /= #OP_DAHAL CAL
-
-# Minimum Dahal Regeneration Limit 
-scoreboard players operation @s DAHAL1 > @s DAR_TOT
-
-##add dahal tick
-scoreboard players operation @s DAHAL_TICK += @s DAHAL1
-#scoreboard players operation @s DAHAL1 /= 20 CAL
-#max limit
-scoreboard players operation #DAHALMAX CAL = @s DAHALMAX
-scoreboard players operation #DAHALMAX CAL *= 20 CAL
+#x20 add dahal
+scoreboard players operation #dahal_add CAL = @s OP_DAHAL
+scoreboard players operation @s DAHAL_TICK += @s OP_DAHAL
+##max
+scoreboard players operation #dahalmax CAL = @s DAHALMAX
+scoreboard players operation #dahalmax CAL *= 20 CAL
 scoreboard players operation @s DAHAL_TICK < #DAHALMAX CAL
-#/20
+##-> dahal
 scoreboard players operation #DAHAL_TICK CAL = @s DAHAL_TICK
 scoreboard players operation #DAHAL_TICK CAL /= 20 CAL
 scoreboard players operation @s DAHAL = #DAHAL_TICK CAL

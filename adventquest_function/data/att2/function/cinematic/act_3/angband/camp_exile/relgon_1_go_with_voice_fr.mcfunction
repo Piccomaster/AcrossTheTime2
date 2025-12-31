@@ -25,11 +25,11 @@ execute if score Neth0 TIMER matches 5 as 00000000-0000-007a-0000-00000000007a a
 execute if score Neth0 TIMER matches 10 run tag 00000000-0000-007b-0000-00000000007a add rukOnBack
 execute if score Neth0 TIMER matches 100 run function att2:dialogs/mainquest/act_3/ch2_namrin_10
 execute if score Neth0 TIMER matches 100 run function att2:voice/namrin/namrin10
-execute if score Neth0 TIMER matches 100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 1
+execute if score Neth0 TIMER matches 100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 201
 execute if score Neth0 TIMER matches 100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_TIMER 250
 execute if score Neth0 TIMER matches 350 run function att2:dialogs/mainquest/act_3/ch2_relgon_3
 execute if score Neth0 TIMER matches 350 run function att2:voice/relgon/relgon3
-execute if score Neth0 TIMER matches 350 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 1
+execute if score Neth0 TIMER matches 350 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 201
 execute if score Neth0 TIMER matches 350 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_TIMER 400
 execute if score Neth0 TIMER matches 450 run function att2:dialogs/mainquest/act_3/ch2_relgon_4
 execute if score Neth0 TIMER matches 450 run function att2:voice/relgon/relgon4
@@ -39,13 +39,13 @@ execute if score Neth0 TIMER matches 750 run scoreboard players set @a SPD_EXT -
 execute if score Neth0 TIMER matches 750 run scoreboard players set @a TIMER_SPD_EXT 2
 execute if score Neth0 TIMER matches 880 run function att2:dialogs/mainquest/act_3/ch2_relgon_5
 execute if score Neth0 TIMER matches 880 run function att2:voice/relgon/relgon5
-execute if score Neth0 TIMER matches 880 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 1
+execute if score Neth0 TIMER matches 880 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 201
 execute if score Neth0 TIMER matches 880 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_TIMER 100
 execute if score Neth0 TIMER matches 880..900 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing 3481 60 3780 run teleport @s ^ ^ ^0.1 ~ ~
 execute if score Neth0 TIMER matches 900 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity 00000000-0000-007a-0000-00000000007a feet run teleport @s ^ ^ ^0.1 ~ ~
 execute if score Neth0 TIMER matches 1150 run function att2:dialogs/mainquest/act_3/ch2_etotsira_2
 execute if score Neth0 TIMER matches 1150 run function att2:voice/etotsira/etotsira17
-execute if score Neth0 TIMER matches 1150 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING 1
+execute if score Neth0 TIMER matches 1150 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING 201
 execute if score Neth0 TIMER matches 1150 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_TIMER 200
 execute if score Neth0 TIMER matches 1270 run function att2:dialogs/mainquest/act_3/ch2_player_3
 execute if score Neth0 TIMER matches 1400 run function att2:dialogs/mainquest/act_3/ch2_etotsira_3
@@ -54,7 +54,7 @@ execute if score Neth0 TIMER matches 1400..1700 as 00000000-0000-008a-0000-00000
 execute if score Neth0 TIMER matches 1500 run function att2:dialogs/mainquest/act_3/ch2_player_4
 execute if score Neth0 TIMER matches 1600 run function att2:dialogs/mainquest/act_3/ch2_etotsira_4
 execute if score Neth0 TIMER matches 1600 run function att2:voice/etotsira/etotsira19
-execute if score Neth0 TIMER matches 1600 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING 1
+execute if score Neth0 TIMER matches 1600 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING 201
 execute if score Neth0 TIMER matches 1600 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_TIMER 300
 execute if score Neth0 TIMER matches 1680 run function att2:dialogs/mainquest/act_3/ch2_etotsira_5
 execute if score Neth0 TIMER matches 1680 run function att2:voice/etotsira/etotsira20
@@ -71,7 +71,7 @@ execute if score Neth0 TIMER matches 2200 as 00000000-0000-008a-0000-00000000008
 execute if score Neth0 TIMER matches 2450 run function att2:dialogs/mainquest/act_3/ch2_relgon_7
 execute if score Neth0 TIMER matches 2450 run function att2:voice/relgon/relgon7
 execute if score Neth0 TIMER matches 2450..2750 as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing entity @p[scores={DIMENSION=6}] feet run teleport @s ^ ^ ^0.00001 ~ ~
-execute if score Neth0 TIMER matches 2450 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 1
+execute if score Neth0 TIMER matches 2450 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 201
 execute if score Neth0 TIMER matches 2450 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_TIMER 200
 execute if score Neth0 TIMER matches 2751 run scoreboard players set Mainquest SIDEQUEST 63
 

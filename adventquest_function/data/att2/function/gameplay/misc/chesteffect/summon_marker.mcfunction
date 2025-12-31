@@ -4389,7 +4389,8 @@ execute in minecraft:overworld positioned -3486 28 -5042 run summon marker ~ ~ ~
 #setblock -3689 70 -4984 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
 #setblock -3690 70 -4982 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 3}}
 #setblock -3688 69 -5008 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{3 3}}
-
+#setblock -4942 126 -4895 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{1 1}}
+#setblock -5382 144 -5988 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 3}}
 #########angband
 
 #setblock 3406 35 3744 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
@@ -4401,5 +4402,9 @@ execute in minecraft:overworld positioned -3486 28 -5042 run summon marker ~ ~ ~
 #setblock 3469 35 3719 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{Items:[],components:{2 3}}
 #setblock 3629 46 4615 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{2 3}}
 
-/setblock 3643 48 4611 minecraft:trapped_chest[facing=south,type=right,waterlogged=false]{Items:[],components:{6 3}}
-/setblock 3644 48 4611 minecraft:trapped_chest[facing=south,type=left,waterlogged=false]{Items:[],components:{6 3}}
+#setblock 3643 48 4611 minecraft:trapped_chest[facing=south,type=right,waterlogged=false]{Items:[],components:{6 3}}
+#setblock 3644 48 4611 minecraft:trapped_chest[facing=south,type=left,waterlogged=false]{Items:[],components:{6 3}}
+
+#setblock 3570 84 4530 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{6 4}}
+#setblock 3564 88 4541 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 4}}
+#setblock 3574 89 4546 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 6}}

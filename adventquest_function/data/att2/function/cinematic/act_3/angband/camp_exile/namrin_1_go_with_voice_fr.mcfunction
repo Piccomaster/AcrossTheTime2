@@ -10,7 +10,7 @@ execute if score Neth0 TIMER matches 50 in minecraft:the_nether run tp 00000000-
 
 execute if score Neth0 TIMER matches 50 run function att2:dialogs/mainquest/act_3/ch6_player_1
 execute if score Neth0 TIMER matches 80..100 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
-execute if score Neth0 TIMER matches 100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 1
+execute if score Neth0 TIMER matches 100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 201
 execute if score Neth0 TIMER matches 100 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_TIMER 1500
 execute if score Neth0 TIMER matches 100 run function att2:dialogs/mainquest/act_3/ch6_namrin_1
 execute if score Neth0 TIMER matches 100 run function att2:voice/namrin/namrin27

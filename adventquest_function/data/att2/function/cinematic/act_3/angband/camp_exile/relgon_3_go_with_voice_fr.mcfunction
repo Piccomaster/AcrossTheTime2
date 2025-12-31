@@ -11,7 +11,7 @@ execute if score Neth0 TIMER matches 5 in minecraft:the_nether as @a[gamemode=ad
 #Dialog between Relgon & Serile
 execute if score Neth0 TIMER matches 10 run function att2:dialogs/mainquest/act_3/ch4_relgon_1
 execute if score Neth0 TIMER matches 10 run function att2:voice/relgon/relgon35
-execute if score Neth0 TIMER matches 10 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 1
+execute if score Neth0 TIMER matches 10 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 201
 execute if score Neth0 TIMER matches 10 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_TIMER 400
 execute if score Neth0 TIMER matches 150 run function att2:dialogs/mainquest/act_3/ch4_serile_1
 execute if score Neth0 TIMER matches 150 run function att2:voice/serile/serile37
@@ -61,7 +61,7 @@ execute if score Neth0 TIMER matches 1980..2020 as 00000000-0000-007a-0000-00000
 execute if score Neth0 TIMER matches 2040 in minecraft:the_nether as 00000000-0000-007a-0000-00000000007a at @s run tp @s ~ ~ ~ -145 25
 execute if score Neth0 TIMER matches 2100 run function att2:dialogs/mainquest/act_3/ch4_relgon_8
 execute if score Neth0 TIMER matches 2100 run function att2:voice/relgon/relgon42
-execute if score Neth0 TIMER matches 2100 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 1
+execute if score Neth0 TIMER matches 2100 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING 201
 execute if score Neth0 TIMER matches 2100 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_TIMER 500
 execute if score Neth0 TIMER matches 2200 run function att2:dialogs/mainquest/act_3/ch4_player_10
 execute if score Neth0 TIMER matches 2280 run function att2:dialogs/mainquest/act_3/ch4_relgon_9

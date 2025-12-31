@@ -69,11 +69,11 @@ execute if score Neth0 TIMER matches 1051 in minecraft:the_nether if entity @e[n
 execute if score Neth0 TIMER matches 1060 in minecraft:the_nether as 00000000-0000-008a-0000-00000000008a at @s run tp @s 3508 41 4691 -80 0
 execute if score Neth0 TIMER matches 1100 run function att2:dialogs/mainquest/act_3/ch5_etotsira_3
 execute if score Neth0 TIMER matches 1100 run function att2:voice/etotsira/etotsira25
-execute if score Neth0 TIMER matches 1100 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING 1
+execute if score Neth0 TIMER matches 1100 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING 201
 execute if score Neth0 TIMER matches 1100 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_TIMER 50
 execute if score Neth0 TIMER matches 1150 run function att2:dialogs/mainquest/act_3/ch5_namrin_11
 execute if score Neth0 TIMER matches 1150 run function att2:voice/namrin/namrin21
-execute if score Neth0 TIMER matches 1150 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 1
+execute if score Neth0 TIMER matches 1150 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING 201
 execute if score Neth0 TIMER matches 1150 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_TIMER 150
 
 # TP to the Source

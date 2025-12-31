@@ -171,7 +171,11 @@
 - **Effect**: Summons a flying pet that fights for you.
 - **Related Weapon Mechanic**: You can hold a sword-class weapon and left-click to replace it. Weapons of different qualities will increase its attack power.
 
-## 3. **Soulbound Companion**
+## 3. **Blood Transmutation**
+- **Purchase Location**: Eolorion
+- **Effect**: Temporarily reduces a fixed amount of maximum health and increases the current Dahal cap.
+
+## 4. **Soul Companion**
 - **Purchase Location**: Eolorion (Requires completion of all main and side quests)
 - **Effect**: Summons a vessel that you can possess.
 - **Possession Mechanic**: Left-click the summoned vessel to enter possession state.
@@ -381,9 +385,12 @@
   - Removed level cap (previously 35).
   - Removed damage limit (previously 756 max).
   - Smoother scaling curve.
-- **Resistance Attribute**: Each point of defense provides 10% damage reduction.
+- **Resistance Attribute**: 
+  - Each point of defense provides 10% damage reduction.
+  - It can reduce damage by up to -95%, and when the attribute is negative, it increases damage taken (up to 50%).
 
 - **Dahal Regen Attribute**: Dahal's regen now occurs every tick instead of once per second.
+- **Dahal Regen**: Dahal recovery is no longer percentage-based but instead increases linearly. The higher the DAR attribute points, the faster the linear growth.
 
 #### **Empty Hand Penalty**
 - Now reduces attack damage by **99%** (no longer reduces attack speed).

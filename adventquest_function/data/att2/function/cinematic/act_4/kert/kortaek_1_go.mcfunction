@@ -27,7 +27,7 @@ execute if score Real0 TIMER matches 600 if score heros REPUTATION matches ..149
 execute if score Real0 TIMER matches 600 if score heros REPUTATION matches 150.. run function att2:dialogs/mainquest/act_4/ch5_brynhild_3
 execute if score Real0 TIMER matches 600 if score heros REPUTATION matches 150.. run function att2:voice/brynhild/brynhild3
 
-execute if score Real0 TIMER matches 601 run scoreboard players set 00000000-0000-105a-0000-00000000105a TALKING 1
+execute if score Real0 TIMER matches 601 run scoreboard players set 00000000-0000-105a-0000-00000000105a TALKING 201
 execute if score Real0 TIMER matches 601 run scoreboard players set 00000000-0000-105a-0000-00000000105a TALKING_TIMER 50
 
 execute if score Real0 TIMER matches 650 if score heros REPUTATION matches ..149 unless score Arena KORTAEK matches -1 run function att2:dialogs/mainquest/act_4/ch5_guard_2

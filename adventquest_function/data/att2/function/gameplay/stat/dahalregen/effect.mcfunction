@@ -13,10 +13,21 @@ scoreboard players operation @s DAR_TOT += @s DAR_EH
 scoreboard players operation @s DAR_TOT += @s DAR_LE
 
 #effect assignement
-scoreboard players set @s[scores={DAR_TOT=..-7}] OP_DAHAL 150
-scoreboard players set @s[scores={DAR_TOT=-6..-5}] OP_DAHAL 125
-scoreboard players set @s[scores={DAR_TOT=-4..-3}] OP_DAHAL 100
-scoreboard players set @s[scores={DAR_TOT=-2..-1}] OP_DAHAL 75
+execute if score @s DAR_TOT matches ..-1 run return run function att2:gameplay/stat/dahalregen/regen_1
+execute if score @s DAR_TOT matches 0..10 run return run function att2:gameplay/stat/dahalregen/regen1_10
+execute if score @s DAR_TOT matches 11..20 run return run function att2:gameplay/stat/dahalregen/regen11_20
+execute if score @s DAR_TOT matches 21..30 run return run function att2:gameplay/stat/dahalregen/regen21_30
+execute if score @s DAR_TOT matches 31.. run return run function att2:gameplay/stat/dahalregen/regen31_
+
+
+
+
+
+scoreboard players set @s[scores={DAR_TOT=..-1}] OP_DAHAL 1
+scoreboard players set @s[scores={DAR_TOT=..-7}] OP_DAHAL 1
+scoreboard players set @s[scores={DAR_TOT=-6..-5}] OP_DAHAL 1
+scoreboard players set @s[scores={DAR_TOT=-4..-3}] OP_DAHAL 1
+scoreboard players set @s[scores={DAR_TOT=-2..-1}] OP_DAHAL 1
 
 scoreboard players set @s[scores={DAR_TOT=0}] OP_DAHAL 50
 scoreboard players set @s[scores={DAR_TOT=1}] OP_DAHAL 46

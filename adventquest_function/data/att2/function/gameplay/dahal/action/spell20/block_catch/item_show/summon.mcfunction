@@ -3,6 +3,8 @@
 # Stock function(summon)                                 #
 #################################################################
 
+##clear old
+kill @e[type=item_display,tag=Block_Catch,predicate=att2_pre:score/owner]
 ##Teacher becomes a display entity
 ##First Layer
 summon item_display ~ ~ ~ {item:{id:"minecraft:gray_stained_glass_pane"},Tags:["Block_Catch","Item_Show","New","26"],transformation:{translation:[0.8000f,0.1290f,0.6f],scale:[0.2f,0.2f,0.2f],right_rotation:[0.0f,1.0f,0.0f,1.0f],left_rotation:[0.0f,1.0f,0.0f,1.0f]},billboard:vertical,brightness:{block:15,sky:15},shadow_radius:0,item_display:gui}

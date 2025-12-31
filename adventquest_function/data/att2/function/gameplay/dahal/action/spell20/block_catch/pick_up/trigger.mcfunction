@@ -19,3 +19,6 @@ execute anchored eyes positioned ^ ^ ^2 run execute align xyz if block ~ ~ ~ #mi
 execute anchored eyes positioned ^ ^ ^3 run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
 execute anchored eyes positioned ^ ^ ^4 run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
 execute anchored eyes positioned ^ ^ ^5 run execute align xyz if block ~ ~ ~ #minecraft:container positioned ~0.5 ~ ~0.5 run return run function att2:gameplay/dahal/action/spell20/block_catch/item_show/run
+
+##clear old
+kill @e[type=item_display,tag=Block_Catch,predicate=att2_pre:score/owner]
