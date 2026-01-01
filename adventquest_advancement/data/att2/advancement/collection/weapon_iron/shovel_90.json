@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:iron_shovel",
       "components": {
-        "tooltip_style": "minecraft:rarity/rar/rar"
+        "tooltip_style": "minecraft:rarity/epi/epi"
       }
     },
     "title": {

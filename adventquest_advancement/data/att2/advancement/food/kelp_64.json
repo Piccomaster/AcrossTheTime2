@@ -4,19 +4,19 @@
             "id": "minecraft:dried_kelp"
         },
         "title": {
-            "translate": "att2.advancement.food.title.kelp_16"
+            "translate": "att2.advancement.food.title.kelp_64"
         },
         "description": {
-            "translate": "att2.advancement.food.description.kelp_16"
+            "translate": "att2.advancement.food.description.kelp_64"
         },
         "frame": "goal"
     },
-    "parent": "att2:food/kelp_1",
+    "parent": "att2:food/kelp_16",
     "rewards": {
-        "experience": 250
+        "experience": 1000
     },
     "criteria": {
-        "kelp_16": {
+        "kelp_64": {
             "trigger": "minecraft:impossible"
         }
     }

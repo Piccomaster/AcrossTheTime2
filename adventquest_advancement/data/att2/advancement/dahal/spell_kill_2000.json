@@ -3,17 +3,17 @@
         "icon": {
             "id": "minecraft:enchanting_table"
         },
-        "title": {"translate":"att2.advancement.dahal.title.spell_kill_777"},
-        "description": {"translate":"att2.advancement.dahal.description.spell_kill_777"},
+        "title": {"translate":"att2.advancement.dahal.title.spell_kill_2000"},
+        "description": {"translate":"att2.advancement.dahal.description.spell_kill_2000"},
         "frame": "challenge"
     },
-    "parent": "att2:dahal/spell_kill_500",
+    "parent": "att2:dahal/spell_kill_1000",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 50000
                 },
     "criteria": {
-        "spell_kill_777": {
+        "spell_kill_2000": {
             "trigger": "minecraft:impossible"
         }
     }
