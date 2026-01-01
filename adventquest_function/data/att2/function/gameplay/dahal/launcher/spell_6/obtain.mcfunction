@@ -12,7 +12,7 @@ clear @s minecraft:written_book[custom_data={Rarity:"com",Dahal:"book",Spell:6}]
 ##set cooldown score
 scoreboard players set @s CDPERCENT6 11
 #make score
-execute unless score @s SPELL1_SLCT matches 1.. run scoreboard players set @s SPELL1_SLCT 1
+execute unless score @s SPELL6_SLCT matches 1.. run scoreboard players set @s SPELL6_SLCT 1
 
 ##
 execute if score @s SPELL6_SLCT matches 1 run return run give @s minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/6",custom_data={Dahal:"launcher",Spell:6,Spell6:true},custom_name={translate:"att2.spell6.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:trident,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell6,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/com/com"]
