@@ -63,3 +63,9 @@ execute if score SpellId MatchingGame matches 26 run return run scoreboard playe
 execute if score SpellId MatchingGame matches 27 run return run scoreboard players set SpellId MatchingGame 43
 execute if score SpellId MatchingGame matches 28 run return run scoreboard players set SpellId MatchingGame 44
 execute if score SpellId MatchingGame matches 29 run return run scoreboard players set SpellId MatchingGame 45
+
+
+execute if score SpellId MatchingGame matches 30 run return run scoreboard players set SpellId MatchingGame 29
+execute if score SpellId MatchingGame matches 31 run return run scoreboard players set SpellId MatchingGame 33
+execute if score SpellId MatchingGame matches 32 run return run scoreboard players set SpellId MatchingGame 35
+execute if score SpellId MatchingGame matches 33 run return run scoreboard players set SpellId MatchingGame 46

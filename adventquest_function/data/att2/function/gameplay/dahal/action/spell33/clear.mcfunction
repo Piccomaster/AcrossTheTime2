@@ -4,9 +4,9 @@
 #################################################
 
 ##limit 
-execute unless entity @n[distance=..5,type=armor_stand,tag=Spell33] run return run playsound noise4 player @s ~ ~ ~ 150 1
+execute unless entity @n[distance=..5,type=#minecraft:tick_entity,tag=Spell33] run return run playsound noise4 player @s ~ ~ ~ 150 1
 #clear
-execute as @n[distance=..5,type=armor_stand,tag=Spell33] at @s run function att2:gameplay/dahal/action/spell33/kill
+execute as @n[distance=..5,type=#minecraft:tick_entity,tag=Spell33] at @s run function att2:gameplay/dahal/action/spell33/kill
 
 ##cooldown
 scoreboard players remove @s[scores={SPELL33_CAP=1}] COOLDOWN33 6000

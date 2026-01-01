@@ -6,7 +6,7 @@
 scoreboard objectives add COOLDOWN2 dummy
 scoreboard objectives add SPELL2_LVL dummy
 scoreboard objectives add SPELL2_CAP dummy
-scoreboard players set @s COOLDOWN2 0
+scoreboard players set @s COOLDOWN2 -100
 scoreboard players set @s SPELL2_LVL 0
 scoreboard players set @s SPELL2_CAP 1
 scoreboard players set cap1 SPELL2_LVL 0
@@ -44,4 +44,5 @@ scoreboard players set SP2_9 DAHAL_COST 185
 scoreboard players set SP2_10 DAHAL_COST 200
 ##add spell cost dummy
 scoreboard objectives add SPELL2_COST dummy
+scoreboard objectives add CDPERCENT2 dummy
 scoreboard players operation @s SPELL2_COST = SP2_1 DAHAL_COST

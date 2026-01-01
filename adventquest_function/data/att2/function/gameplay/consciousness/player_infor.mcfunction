@@ -29,6 +29,31 @@ execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=300..,LEVELETERNAN=1..}] run fu
 execute store result storage att2:dialog dahalmax int 1 run scoreboard players get @s DAHALMAX
 execute store result storage att2:dialog healthmax int 1 run attribute @s max_health get
 function att2:gameplay/consciousness/insert/dahalmax_healthmax with storage att2:dialog
+##dahal from cal
+scoreboard players operation #dahal CAL = 6 CAL
+scoreboard players operation #dahal CAL *= @s GAMELEVEL
+scoreboard players operation #dahal CAL += 50 CAL
+##insert dahal base
+data modify storage att2:dialog player_infor[-3].tooltip append value {translate:consciousness.player_infor.dahalmax.base,with:[0],color:green}
+execute store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get #dahal CAL
+##insert dahal rune
+execute if score BonusDahalMax_Total RUNE matches 1.. run data modify storage att2:dialog player_infor[-3].tooltip append value {translate:consciousness.player_infor.dahalmax.rune,with:[0],color:green}
+execute if score BonusDahalMax_Total RUNE matches 1.. store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get BonusDahalMax_Total RUNE
+##cal enchantments
+scoreboard players operation #percent CAL = @s EH_DAHALMAX
+scoreboard players remove #percent CAL 100
+scoreboard players operation #dahal CAL *= #percent CAL
+scoreboard players operation #dahal CAL /= 100 CAL
+##insert dahal enchantment
+execute if score @s EH_DAHALMAX matches 1.. run data modify storage att2:dialog player_infor[-3].tooltip append value {translate:consciousness.player_infor.dahalmax.enchantment,with:[0],color:green}
+execute if score @s EH_DAHALMAX matches 1.. store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get #dahal CAL
+##insert dahal dailyquest
+execute if score #Book DAHALMAX matches 1.. run data modify storage att2:dialog player_infor[-3].tooltip append value {translate:consciousness.player_infor.dahalmax.dailyquest,with:[0],color:green}
+execute if score #Book DAHALMAX matches 1.. store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get #Book DAHALMAX
+##insert dahal spell
+execute if score @s SPELL46_DAR matches 1.. run data modify storage att2:dialog player_infor[-3].tooltip append value {translate:consciousness.player_infor.dahalmax.spell,with:[0],color:green}
+execute if score @s SPELL46_DAR matches 1.. store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get @s SPELL46_DAR
+
 #temperature
 execute store result storage att2:dialog temperature int 1 run scoreboard players get @s TEMPERATURE
 function att2:gameplay/consciousness/insert/temperature with storage att2:dialog

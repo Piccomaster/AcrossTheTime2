@@ -7,7 +7,7 @@ scoreboard objectives add COOLDOWN28 dummy
 scoreboard objectives add SPELL28_LVL dummy
 scoreboard objectives add SPELL28_EFFECT dummy
 scoreboard objectives add SPELL28_CAP dummy
-scoreboard players set @s COOLDOWN28 0
+scoreboard players set @s COOLDOWN28 -100
 scoreboard players set @s SPELL28_LVL 0
 scoreboard players set @s SPELL28_CAP 1
 scoreboard players set cap1 SPELL28_LVL 0
@@ -45,4 +45,5 @@ scoreboard players set SP28_9 DAHAL_COST 290
 scoreboard players set SP28_10 DAHAL_COST 345
 ##add spell cost dummy
 scoreboard objectives add SPELL28_COST dummy
+scoreboard objectives add CDPERCENT28 dummy
 scoreboard players operation @s SPELL28_COST = SP28_1 DAHAL_COST

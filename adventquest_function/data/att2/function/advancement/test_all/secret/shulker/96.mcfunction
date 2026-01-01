@@ -1,7 +1,7 @@
 #################################################################
 #Made by Adventquest											#
-#combohit enchantment effect                    				#
+#Process adding Shulker Secret advancement 			            #
 #################################################################
 
-#if elite no same  player dagger reset 
-scoreboard players reset @s COMBOHIT_TIMER
+function att2:advancement/test_all/secret/shulker_add
+scoreboard players set 96 SECRET_SHULKER 1

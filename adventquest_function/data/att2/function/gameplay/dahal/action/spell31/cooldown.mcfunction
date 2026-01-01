@@ -15,7 +15,7 @@ scoreboard players operation @s[scores={SPELL31_CAP=9}] COOLDOWN31 = lvl9 COOLDO
 scoreboard players operation @s[scores={SPELL31_CAP=10}] COOLDOWN31 = lvl10 COOLDOWN31
 #cooldown cal
 function att2:gameplay/dahal/action/cooldown_cal
-
+scoreboard players set @s CDPERCENT31 11
 scoreboard players operation SECONDS CAL = @s COOLDOWN31
 
 scoreboard players operation SECONDS CAL /= COOLDOWN CAL

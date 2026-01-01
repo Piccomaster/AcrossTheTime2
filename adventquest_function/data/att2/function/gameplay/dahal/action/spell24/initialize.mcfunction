@@ -8,7 +8,7 @@ scoreboard objectives add SPELL24_LVL dummy
 #scoreboard objectives add SPELL24_EFFECT dummy
 scoreboard objectives add SPELL24_CAP dummy
 scoreboard objectives add SPELL24_DATA dummy
-scoreboard players set @s COOLDOWN24 0
+scoreboard players set @s COOLDOWN24 -100
 scoreboard players set @s SPELL24_LVL 0
 scoreboard players set @s SPELL24_CAP 1
 scoreboard players set cap1 SPELL24_LVL 0
@@ -59,4 +59,5 @@ scoreboard players set SP24_9 DAHAL_COST 80
 scoreboard players set SP24_10 DAHAL_COST 100
 ##add spell cost dummy
 scoreboard objectives add SPELL24_COST dummy
+scoreboard objectives add CDPERCENT24 dummy
 scoreboard players operation @s SPELL24_COST = SP24_1 DAHAL_COST

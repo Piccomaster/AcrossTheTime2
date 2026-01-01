@@ -4,7 +4,7 @@
 #################################################################
 
 #damage
-$damage @s[tag=!FB_DAHAL] $(SP8) att2_damage:magic by @a[distance=..0,limit=1]
+$damage @s[tag=!FB_DAHAL] $(SP8) att2_damage:magic by @p[distance=..0]
 
 ##detection health
 function att2:gameplay/enemy_health/spell_health_trigger

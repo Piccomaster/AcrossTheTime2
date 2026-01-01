@@ -6,7 +6,7 @@
 scoreboard players operation @s COOLDOWN24 = lvl1 COOLDOWN24
 #cooldown cal
 function att2:gameplay/dahal/action/cooldown_cal
-
+scoreboard players set @s CDPERCENT24 11
 scoreboard players operation SECONDS CAL = @s COOLDOWN24
 
 scoreboard players operation SECONDS CAL /= COOLDOWN CAL

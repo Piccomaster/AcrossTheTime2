@@ -4,14 +4,15 @@
 #################################################################
 
 ##limit
+##store data
+data modify storage att2:item data set from entity @s
 #quickslot
-execute if data entity @s Item.components."minecraft:custom_data".QuickSlotTemp run return run kill @s
+execute if data storage att2:item data.Item.components."minecraft:custom_data".QuickSlotTemp run return run kill @s
 #consciousness
-execute if data entity @s Item.components."minecraft:custom_data".consciousness run return run kill @s
-
+execute if data storage att2:item data.Item.components."minecraft:custom_data".consciousness run return run kill @s
 ##dahal item
-execute if data entity @s Item.components."minecraft:custom_data"{Dahal:book} run return run function att2:gameplay/dahal/launcher/select
-execute if data entity @s Item.components."minecraft:custom_data"{Dahal:launcher} run return run function att2:gameplay/dahal/book/select
+execute if data storage att2:item data.Item.components."minecraft:custom_data"{Dahal:book} run return run function att2:gameplay/dahal/launcher/select
+execute if data storage att2:item data.Item.components."minecraft:custom_data"{Dahal:launcher} run return run function att2:gameplay/dahal/book/select
 
 #modify Invulnerable
 data modify entity @s Invulnerable set value true

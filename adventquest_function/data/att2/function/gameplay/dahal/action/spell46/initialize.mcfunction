@@ -10,7 +10,7 @@ scoreboard objectives add SPELL46_TIMER dummy
 scoreboard objectives add SPELL46_HP dummy
 scoreboard objectives add SPELL46_DAR dummy
 
-scoreboard players set @s COOLDOWN46 0
+scoreboard players set @s COOLDOWN46 -100
 scoreboard players set @s SPELL46_LVL 0
 scoreboard players set @s SPELL46_CAP 1
 scoreboard players set cap1 SPELL46_LVL 0
@@ -83,4 +83,5 @@ scoreboard players set SP46_9 DAHAL_COST 250
 scoreboard players set SP46_10 DAHAL_COST 300
 ##add spell cost dummy
 scoreboard objectives add SPELL46_COST dummy
+scoreboard objectives add CDPERCENT46 dummy
 scoreboard players operation @s SPELL46_COST = SP46_1 DAHAL_COST

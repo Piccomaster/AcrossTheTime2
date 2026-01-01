@@ -22,7 +22,9 @@ execute if score @p[distance=..0] SPELL46_SLCT matches 10 run scoreboard players
 scoreboard players operation #reduce_health CAL *= 50 CAL
 scoreboard players operation @s SPELL46_DAR /= 100 CAL
 ##max
+store result score #max_health CAL run attribute @s max_health get
 scoreboard players operation #max_health CAL -= #reduce_health CAL
+execute if score #max_health CAL matches ..20 store result score #reduce_health CAL run attribute @s max_health get
 execute if score #max_health CAL matches ..20 run scoreboard players remove #reduce_health CAL 20
 scoreboard players operation #reduce_health CAL > 0 CAL
 ##storage

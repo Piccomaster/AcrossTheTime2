@@ -12,5 +12,7 @@ tellraw @a [{translate:att2.blaze_horse.ride_trigger,with:[{selector:"@s",color:
 
 ##reset score
 scoreboard players set @s BLAZEHORSE 0
+#remove speed
+execute on vehicle run attribute @s movement_speed modifier remove blaze_horse_sprint
 ##revoke test
 advancement revoke @s only att2_test:test_interacted/ride/blaze_horse

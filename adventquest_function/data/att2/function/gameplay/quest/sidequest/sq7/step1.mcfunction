@@ -8,6 +8,7 @@ execute in minecraft:overworld positioned -4267 16 -6084 run function att2:gamep
 execute in minecraft:overworld as @e[tag=newGPS] at @s anchored feet facing -4267 16 -6084 run function att2:gameplay/gps/tp_arrow
 execute in minecraft:overworld positioned -4188 70 -6016 if entity @e[type=minecraft:minecart,distance=..2] run function att2:gameplay/quest/mainquest/show_secondary_objective
 
+##show minecart
 execute in minecraft:overworld if data block -4178 71 -5974 {LootTable:"att2:chest/reg1/c4t4_connecting_thread"} positioned -4178 71 -5974 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if data block -4190 31 -6099 {LootTable:"att2:chest/reg1/c4t4_connecting_thread"} positioned -4190 31 -6099 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if data block -4224 55 -6198 {LootTable:"att2:chest/reg1/c4t4_connecting_thread"} positioned -4224 55 -6198 run function att2:gameplay/quest/mainquest/show_secondary_objective

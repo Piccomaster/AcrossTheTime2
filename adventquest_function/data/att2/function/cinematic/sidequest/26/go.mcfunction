@@ -25,10 +25,10 @@ execute if score SQ26 SIDEQUEST matches 6 at 00000000-0000-005a-0000-00000000005
 
 
 # Move PNJ Lary Brett to Adanoï
-execute if score move_lary_brett SQ26 matches 1 if entity @a[x=-3991,y=81,z=-5550,distance=15..20,gamemode=adventure] run function att2:cinematic/sidequest/26/lary_brett/summon_pnj_1
+execute if score move_lary_brett SQ26 matches 1 if entity @a[x=-3991,y=81,z=-5550,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/26/lary_brett/summon_pnj_1
 
 # Move PNJ Lary Brett to Home
-execute if score move_lary_brett SQ26 matches 2 if entity @a[x=-3862,y=92,z=-5720,distance=15..20,gamemode=adventure] run function att2:cinematic/sidequest/26/lary_brett/summon_pnj_2
+execute if score move_lary_brett SQ26 matches 2 if entity @a[x=-3862,y=92,z=-5720,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/26/lary_brett/summon_pnj_2
 
 # Move PNJ Emerald from Adanoï
 execute if score SQ26 SIDEQUEST matches 7 if score move_emerald SQ26 matches 0 unless entity @a[x=-4005,y=80,z=-5576,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/26/emerald/move_pnj

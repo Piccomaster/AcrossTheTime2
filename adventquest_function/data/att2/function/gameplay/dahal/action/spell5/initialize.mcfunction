@@ -9,7 +9,7 @@ scoreboard objectives add SPELL5_EFFECT dummy
 scoreboard objectives add SPELL5_CAP dummy
 scoreboard objectives add SPELL5_OP dummy
 scoreboard objectives add SPELL5_OWNER dummy
-scoreboard players set @s COOLDOWN5 0
+scoreboard players set @s COOLDOWN5 -100
 scoreboard players set @s SPELL5_LVL 0
 scoreboard players set @s SPELL5_CAP 1
 scoreboard players set @s SPELL5_EFFECT 0
@@ -50,4 +50,5 @@ scoreboard players set SP5_9 DAHAL_COST 260
 scoreboard players set SP5_10 DAHAL_COST 325
 ##add spell cost dummy
 scoreboard objectives add SPELL5_COST dummy
+scoreboard objectives add CDPERCENT5 dummy
 scoreboard players operation @s SPELL5_COST = SP5_1 DAHAL_COST

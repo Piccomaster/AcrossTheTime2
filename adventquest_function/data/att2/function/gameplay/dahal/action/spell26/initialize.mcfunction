@@ -9,7 +9,7 @@ scoreboard objectives add SPELL26_LVL dummy
 scoreboard objectives add SPELL26_CAP dummy
 scoreboard objectives add SPELL26_MAX dummy
 scoreboard objectives add spread dummy
-scoreboard players set @s COOLDOWN26 0
+scoreboard players set @s COOLDOWN26 -100
 scoreboard players set @s SPELL26_LVL 0
 scoreboard players set @s SPELL26_CAP 1
 scoreboard players set cap1 SPELL26_LVL 0
@@ -53,4 +53,5 @@ scoreboard players set SP26_9 DAHAL_COST 300
 scoreboard players set SP26_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL26_COST dummy
+scoreboard objectives add CDPERCENT26 dummy
 scoreboard players operation @s SPELL26_COST = SP26_1 DAHAL_COST
