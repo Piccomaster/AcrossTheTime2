@@ -12,16 +12,6 @@
             }
         },
         {
-            "condition": "minecraft:inverted",
-            "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "type": "minecraft:shulker"
-                }
-            }
-        },
-        {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {

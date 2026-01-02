@@ -16,7 +16,7 @@ function att2:gameplay/misc/chesteffect/go
 #execute if entity @a[scores={DIMENSION=7}] run function att2:gameplay/misc/chesteffect/billgart_go
 #execute if entity @a[scores={DIMENSION=4}] run function att2:gameplay/misc/chesteffect/ouran_go
 ##
-function att2:gameplay/misc/title_effect/go
+execute as @a[gamemode=adventure] at @s run function att2:gameplay/misc/title_effect/go
 #function att2:gameplay/misc/fire_immune/go
 execute if score tic TIMECOUNTER matches 15 as @a[tag=!skipDeathMalus] run function att2:gameplay/misc/survive_bonus/go
 ##invisible_minecart

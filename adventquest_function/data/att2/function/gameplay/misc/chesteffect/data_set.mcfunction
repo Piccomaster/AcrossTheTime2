@@ -9,11 +9,11 @@ tag @s add SETCHEST
 
 ##name detection
 ##normal
-#function att2:gameplay/misc/chesteffect/name/c_test
+function att2:gameplay/misc/chesteffect/name/c_test
 ##ithax_name
-#function att2:gameplay/misc/chesteffect/name/ithax_name
+function att2:gameplay/misc/chesteffect/name/ithax_name
 ##quest_name
-#function att2:gameplay/misc/chesteffect/name/quest_name
+function att2:gameplay/misc/chesteffect/name/quest_name
 ##update name
 data modify block ~ ~ ~ CustomName set from entity @s data.customname
 ##clear error

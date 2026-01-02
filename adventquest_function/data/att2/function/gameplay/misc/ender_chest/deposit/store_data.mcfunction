@@ -6,7 +6,6 @@
 
 ##tp near ender_eye
 tp @s @n[distance=..10,type=item_display,tag=EnderChest,tag=EnderEye]
-
 ##store_data
 execute unless data storage att2:ender_chest all_items[0] run data modify storage att2:ender_chest all_items set value []
 data modify storage att2:ender_chest all_items append from entity @s item

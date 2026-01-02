@@ -3,4 +3,4 @@
 #Initialize all stats                            #
 ##################################################
 
-$bossbar set stat_display_$(numerojoueur) visible false
+$bossbar remove stat_display_$(numerojoueur)

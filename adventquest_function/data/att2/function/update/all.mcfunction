@@ -108,26 +108,121 @@ execute in overworld positioned -7452.8 155.1 -5895.5 if entity @a[distance=..50
 
 ##all commamd block
 # Vonaheim
-function att2:cinematic/misc/reset_cb/vonaheim
+execute in overworld positioned -5614 162 -6496 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if entity @a[x=-5643,y=78,z=-6539,dx=58,dy=135,dz=58,gamemode=adventure] run function att2:gameplay/boss/elcheol/vonaheim/go",auto:1}
 # Somniophages
-function att2:cinematic/misc/reset_cb/somniophages
+execute in overworld positioned 6710 24 7066 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score SQ48 SIDEQUEST matches 1.. run function att2:gameplay/boss/ouranos/somniophages/go",auto:1}
 # Ouran
-function att2:cinematic/misc/reset_cb/ouran
+execute in overworld positioned 7971 109 6771 run setblock ~ ~ ~ repeating_command_block{Command:"execute if score OuranPhase1 OURANOS matches -1.. if score Mainquest SIDEQUEST matches 217..218 run function att2:gameplay/boss/ouranos/ouran/phase1/go",auto:1} destroy
+
+execute in overworld positioned 7971 109 6772 run setblock ~ ~ ~ repeating_command_block{Command:"execute if score OuranPhase2 OURANOS matches -1.. if score Mainquest SIDEQUEST matches 217..218 run function att2:gameplay/boss/ouranos/ouran/phase2/go",auto:1} destroy
+
+execute in the_end positioned 22 64 0 run setblock ~ ~ ~ repeating_command_block{Command:"execute if score OuranPhase3 OURANOS matches -1.. if score Mainquest SIDEQUEST matches 217..218 in minecraft:the_end run function att2:gameplay/boss/ouranos/ouran/phase3/go",auto:1} destroy
+
+execute in overworld positioned 7971 109 6773 run forceload add ~ ~
+execute in the_end positioned 22 64 0 run forceload add ~ ~
+
+#update 1.21.5
+execute in overworld positioned 7706 178 5937 unless block ~ ~ ~ minecraft:repeating_command_block[facing=south]{Command:"/execute if score Mainquest SIDEQUEST matches 213 if entity @a[x=7707,y=165,z=5956,distance=..10,gamemode=adventure,nbt={Inventory:[{id:'minecraft:sunflower'}]}] unless entity @e[type=armor_stand,x=7707,y=165,z=5956,distance=..3,nbt={equipment:{mainhand:{id:'minecraft:sunflower',count:1}}}] run setblock 7708 178 5937 minecraft:redstone_block",auto:1} run setblock ~ ~ ~ minecraft:repeating_command_block[facing=south]{Command:"/execute if score Mainquest SIDEQUEST matches 213 if entity @a[x=7707,y=165,z=5956,distance=..10,gamemode=adventure,nbt={Inventory:[{id:'minecraft:sunflower'}]}] unless entity @e[type=armor_stand,x=7707,y=165,z=5956,distance=..3,nbt={equipment:{mainhand:{id:'minecraft:sunflower',count:1}}}] run setblock 7708 178 5937 minecraft:redstone_block",auto:1}
+
+##fix dialogs
+execute in overworld positioned 7970 110 6772 run setblock ~ ~ ~ minecraft:repeating_command_block[facing=west]{Command:"/execute if score Mainquest SIDEQUEST matches 217 if score ouran_PNJ DIALOG matches 0..16 if entity @a[x=7973,y=120,z=6788,distance=..20,gamemode=adventure]",auto:1} destroy
+
 # Guardian Ithax
-function att2:cinematic/misc/reset_cb/guardian
+execute in overworld positioned -7434 118 -6011 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Mainquest SIDEQUEST matches 220..275 run function att2:gameplay/boss/ithax/guardian/go",auto:1}
 # Umbra'Tyanth
-function att2:cinematic/misc/reset_cb/umbratyanth
+execute in overworld positioned -5122 115 -6871 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score SQ46 SIDEQUEST matches 3.. run function att2:gameplay/boss/ether/umbratyanth/go",auto:1}
 # Sérile
-function att2:cinematic/misc/reset_cb/serile1
-function att2:cinematic/misc/reset_cb/serile2
-function att2:cinematic/misc/reset_cb/serile3
-function att2:cinematic/misc/reset_cb/serile4
+execute in overworld positioned 2184 92 1945 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Phase1 SERILE matches 0.. run function att2:gameplay/boss/serile/phase1/go",auto:1}
+execute in overworld positioned 2184 92 1945 run forceload add ~ ~
+execute in overworld positioned 2389 91 1945 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Phase2 SERILE matches 0.. run function att2:gameplay/boss/serile/phase2/go",auto:1}
+execute in overworld positioned 2389 91 1945 run forceload add ~ ~
+execute in overworld positioned 1534 5 1495 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Phase3 SERILE matches 0.. run function att2:gameplay/boss/serile/phase3/go",auto:1}
+execute in overworld positioned 1534 5 1495 run forceload add ~ ~
+execute in overworld positioned 1534 5 1494 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Phase4 SERILE matches 0.. run function att2:gameplay/boss/serile/phase4/go",auto:1}
+execute in overworld positioned 1534 5 1494 run forceload add ~ ~
+
 #arena
-function att2:cinematic/misc/reset_cb/arena
+#main
+execute in overworld positioned 5000 97 -5000 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score SQ59 SIDEQUEST matches 19.. run function att2:gameplay/arena/go",auto:1}
+execute in overworld positioned 754 86 733 unless block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:air
+
+execute in overworld positioned 5000 97 -5000 run forceload add ~ ~
+#leave forceload
+execute in overworld positioned 4985 72 -4782 run forceload add ~ ~
+execute in overworld positioned 4985 70 -4789 run forceload add ~ ~
+##pool0
+#1
+execute in overworld positioned 5152 122 -4733 run forceload add ~ ~
+execute in overworld positioned 5152 122 -4733 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches -1..0 if score Pool0_A1 ARENA matches -1.. run function att2:gameplay/arena/pool0/1/go",auto:1}
+#2
+execute in overworld positioned 5075 122 -4733 run forceload add ~ ~
+execute in overworld positioned 5075 122 -4733 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches -1..0 if score Pool0_A2 ARENA matches -1.. run function att2:gameplay/arena/pool0/2/go",auto:1}
+#3
+execute in overworld positioned 5001 122 -4733 run forceload add ~ ~
+execute in overworld positioned 5001 122 -4733 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches -1..0 if score Pool0_A3 ARENA matches -1.. run function att2:gameplay/arena/pool0/3/go",auto:1}
+#4
+execute in overworld positioned 4916 122 -4733 run forceload add ~ ~
+execute in overworld positioned 4916 122 -4733 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches -1..0 if score Pool0_A4 ARENA matches -1.. run function att2:gameplay/arena/pool0/4/go",auto:1}
+#5
+execute in overworld positioned 4859 122 -4733 run forceload add ~ ~
+execute in overworld positioned 4859 122 -4733 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches -1..0 if score Pool0_A5 ARENA matches -1.. run function att2:gameplay/arena/pool0/5/go",auto:1}
+##pool1
+#1
+execute in overworld positioned 5072 99 -5024 run forceload add ~ ~
+execute in overworld positioned 5072 99 -5024 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 1 if score Pool1_A1 ARENA matches -1.. run function att2:gameplay/arena/pool1/1/go",auto:1}
+#2
+execute in overworld positioned 5144 108 -5000 run forceload add ~ ~
+execute in overworld positioned 5144 108 -5000 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 1 if score Pool1_A2 ARENA matches -1.. run function att2:gameplay/arena/pool1/2/go",auto:1}
+#3
+execute in overworld positioned 5242 98 -5005 run forceload add ~ ~
+execute in overworld positioned 5242 98 -5005 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 1 if score Pool1_A3 ARENA matches -1.. run function att2:gameplay/arena/pool1/3/go",auto:1}
+#4
+execute in overworld positioned 4873 105 -5024 run forceload add ~ ~
+execute in overworld positioned 4873 105 -5024 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 1 if score Pool1_A4 ARENA matches -1.. run function att2:gameplay/arena/pool1/4/go",auto:1}
+#5
+execute in overworld positioned 4946 117 -5000 run forceload add ~ ~
+execute in overworld positioned 4946 117 -5000 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 1 if score Pool1_A5 ARENA matches -1.. run function att2:gameplay/arena/pool1/5/go",auto:1}
+#6
+execute in overworld positioned 4763 127 -5001 run forceload add ~ ~
+execute in overworld positioned 4763 127 -5001 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 1 if score Pool1_A6 ARENA matches -1.. run function att2:gameplay/arena/pool1/6/go",auto:1}
+#7
+execute in overworld positioned 5310 126 -5014 run forceload add ~ ~
+execute in overworld positioned 5310 126 -5014 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 1 if score Pool1_A7 ARENA matches -1.. run function att2:gameplay/arena/pool1/7/go",auto:1}
+##pool2
+#1
+execute in overworld positioned 5019 84 -5346 run forceload add ~ ~
+execute in overworld positioned 5019 84 -5346 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 2 if score Pool2_A1 ARENA matches -1.. run function att2:gameplay/arena/pool2/1/go",auto:1}
+#2
+execute in overworld positioned 5000 90 -5252 run forceload add ~ ~
+execute in overworld positioned 5000 90 -5252 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 2 if score Pool2_A2 ARENA matches -1.. run function att2:gameplay/arena/pool2/2/go",auto:1}
+#3
+execute in overworld positioned 4999 125 -5108 run forceload add ~ ~
+execute in overworld positioned 4999 125 -5108 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 2 if score Pool2_A3 ARENA matches -1.. run function att2:gameplay/arena/pool2/3/go",auto:1}
+##pool3
+#1
+execute in overworld positioned 4993 72 -4929 run forceload add ~ ~
+execute in overworld positioned 4993 72 -4929 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 3 if score Pool3_A1 ARENA matches -1.. run function att2:gameplay/arena/pool3/1/go",auto:1}
+##pool4
+execute in overworld positioned 5000 122 -5029 run forceload add ~ ~
+execute in overworld positioned 5000 122 -5029 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ repeating_command_block{Command:"execute if score Tournament ARENA matches 4 if score Pool4_A1 ARENA matches -1.. run function att2:gameplay/arena/pool4/1/go",auto:1}
 #billgart
-function att2:cinematic/misc/reset_cb/billgart
+#reset command block BILLGART
+execute in the_end positioned -1374 59 -563 unless block ~ ~ ~ repeating_command_block[facing=up] run setblock ~ ~ ~ repeating_command_block[facing=up]{Command:"/execute if score Mainquest SIDEQUEST matches 143.. run scoreboard players set @a[x=-1364,y=61,z=-586,dx=-24,dy=55,dz=23,gamemode=adventure] JUMP_SAFE 40",auto:1}
+#tower
+execute in the_end run fill -1225 76 -505 -1209 76 -471 minecraft:chain_command_block[facing=down]{auto:1b,powered:0b,conditionMet:1b,Command:"/scoreboard players set @p JUMP_SAFE 40"} replace minecraft:chain_command_block[facing=down]
 #hill_valley
-function att2:cinematic/misc/reset_cb/hill_valley
+#freddys_trousers
+execute in overworld positioned 1991 120 2063 run setblock ~ ~ ~ repeating_command_block[facing=east]{Command:"clear @a[x=1970,y=118,z=2060,distance=..4,gamemode=adventure] minecraft:leather_leggings[custom_name={translate:'item.quest.freddys_trousers.name'}] 1",auto:0}
+execute in overworld positioned 1990 120 2063 run setblock ~ ~ ~ redstone_block destroy
+#mysterious_box
+execute in overworld positioned 2033 91 1979 run setblock ~ ~ ~ repeating_command_block[facing=south]{Command:"clear @a[x=2038,y=97,z=1981,distance=..4,gamemode=adventure] minecraft:player_head[custom_name={translate:'item.quest.mysterious_box.name'}] 1",auto:0}
+execute in overworld positioned 2033 91 1978 run setblock ~ ~ ~ redstone_block destroy
+#box_of_muffins
+execute in overworld positioned 2100 94 2001 run setblock ~ ~ ~ repeating_command_block[facing=east]{Command:"clear @a[x=2099,y=97,z=2003,distance=..4,gamemode=adventure] minecraft:player_head[custom_name={translate:'item.quest.box_of_muffins.name'}] 1",auto:0}
+execute in overworld positioned 2099 94 2001 run setblock ~ ~ ~ redstone_block destroy
+#plastic_flower
+execute in overworld positioned 1991 108 2059 run setblock ~ ~ ~ repeating_command_block[facing=east]{Command:"clear @a[x=1953,y=96,z=2034,distance=..4,gamemode=adventure] minecraft:poppy[custom_name={translate:'item.quest.plastic_flower.name'}] 1",auto:0} destroy
+execute in overworld positioned 1990 108 2059 run setblock ~ ~ ~ redstone_block destroy
 
 
 #hidden spots
@@ -781,8 +876,11 @@ execute in the_nether positioned 3561 43 4572 run setblock 3561 43 4572 minecraf
 execute in the_nether positioned 3593 80 4553 run setblock 3593 80 4553 minecraft:repeating_command_block[conditional=false,facing=south]{Command:"execute unless data block ~ ~4 ~ LootTable unless block ~ ~3 ~ minecraft:redstone_block run setblock ~ ~3 ~ minecraft:redstone_block destroy",LastExecution:3006262499L,SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:1b,components:{},conditionMet:1b,powered:0b}
 execute in the_nether positioned 3593 80 4617 run setblock 3593 80 4617 minecraft:repeating_command_block[conditional=false,facing=up]{Command:"execute unless data block ~ ~4 ~ LootTable unless block ~ ~3 ~ minecraft:redstone_block run setblock ~ ~3 ~ minecraft:redstone_block destroy",LastExecution:3006291759L,SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:1b,components:{},conditionMet:1b,powered:0b}
 
+execute in overworld positioned -5647 79 -6282 run setblock -5647 79 -6282 minecraft:repeating_command_block[conditional=false,facing=up]{Command:"execute unless data block ~ ~4 ~ LootTable unless block ~ ~3 ~ minecraft:redstone_block run setblock ~ ~3 ~ minecraft:redstone_block destroy",LastExecution:3006291759L,SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:1b,components:{},conditionMet:1b,powered:0b}
+
+execute in overworld positioned -5681 77 -6376 run setblock -5681 77 -6376 minecraft:calibrated_sculk_sensor[facing=south,power=0,sculk_sensor_phase=inactive,waterlogged=false]{components:{},last_vibration_frequency:2,listener:{event:{distance:12.013191f,game_event:"minecraft:hit_ground",pos:[-5671.012420898331d,78.0d,-6382.852047632819d],source:[I;100733741,-774287808,-1585681196,-2103212916]},event_delay:9,selector:{tick:-1L}}}
 ##fix chest
-execute in the_nether positioned 3481 51 451 run setblock 3570 84 4518 minecraft:waxed_copper_chest[facing=north,type=single,waterlogged=false]{CustomName:{color:"#408080",translate:"att2.chest.c6.name"}}
+execute in the_nether positioned 3481 51 4518 run setblock 3570 84 4518 minecraft:waxed_copper_chest[facing=north,type=single,waterlogged=false]{CustomName:{color:"#408080",translate:"att2.chest.c6.name"}}
 
 
 ##fix all chest

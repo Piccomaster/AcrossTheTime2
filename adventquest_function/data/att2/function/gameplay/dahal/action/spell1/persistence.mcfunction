@@ -19,7 +19,7 @@ execute store result storage att2:spell_1 distance int 1 run scoreboard players 
 execute store result storage att2:spell_1 distance int 1 run scoreboard players operation #distance CAL > 2 CAL
 ##test enemy near
 execute align xyz positioned ~-1 ~-1 ~-1 if entity @e[dx=2,dy=2,dz=2,scores={GAMELEVEL=0..},team=hostile] at @s run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1
-##test snowball onground
+##test fireball onground
 execute unless predicate att2_pre:has_vehicle run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1
 ##time end
 execute if score @s LIFETIME matches ..0 run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1

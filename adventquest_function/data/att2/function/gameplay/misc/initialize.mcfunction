@@ -26,4 +26,5 @@ function att2:gameplay/misc/citywalk/initialize
 #function att2:gameplay/misc/sidebar/initialize
 function att2:gameplay/misc/ender_chest/initialize
 function att2:gameplay/misc/motion/initialize
+function att2:gameplay/misc/wither_damage/initialize
 function att2:gameplay/misc/invulnerable/initialize

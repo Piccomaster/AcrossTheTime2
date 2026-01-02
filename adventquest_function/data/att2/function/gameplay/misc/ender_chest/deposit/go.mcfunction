@@ -41,3 +41,6 @@ scoreboard players operation @s ENDERCHEST_CD < 500 CAL
 scoreboard players operation @s ENDERCHEST_CD > 10 CAL
 ##text
 tellraw @a[distance=..20] {translate:att2.ender_chest.deposit_count,with:[{score:{name:"#count",objective:CAL},color:green}]}
+##advancement detection
+scoreboard players operation DepositTotal ENDERCHEST += #count CAL
+function att2:advancement/test_all/progress/ender_chest

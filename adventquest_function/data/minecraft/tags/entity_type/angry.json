@@ -2,7 +2,9 @@
   "values": [
     "minecraft:zombified_piglin",
     "minecraft:wolf",
-    "minecraft:bee"
+    "minecraft:bee",
+    "minecraft:polar_bear"
+
   ],
   "replace": false
 }

@@ -3533,3 +3533,7 @@ execute if score @s ScoreTrigger matches 3469 run function att2:gameplay/dahal/a
 execute if score @s ScoreTrigger matches 3470 run function att2:gameplay/dahal/action/spell46/selectlvl9
 execute if score @s ScoreTrigger matches 3471 run function att2:gameplay/dahal/action/spell46/selectlvl10
 execute if score @s ScoreTrigger matches 3472 run function att2:gameplay/dahal/action/spell46/obtain
+
+
+##spell1 switch launch
+execute if score @s ScoreTrigger matches 3473 run function att2:gameplay/dahal/action/spell1/switch_launch

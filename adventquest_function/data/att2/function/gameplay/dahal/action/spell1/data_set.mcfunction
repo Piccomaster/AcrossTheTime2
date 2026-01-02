@@ -33,3 +33,9 @@ execute if score @s SPELL1_CAP matches ..8 run data modify storage att2:spell_1 
 
 execute if score @s SPELL1_CAP matches 10.. run data modify storage att2:spell_1 lvl10 set value {text:".",color:green}
 execute if score @s SPELL1_CAP matches ..9 run data modify storage att2:spell_1 lvl10 set value {text:".",color:red}
+
+##switch
+scoreboard players add @s SPELL1_LAUNCH 0
+##tip
+execute if score @s SPELL1_LAUNCH matches 1 run data modify storage att2:spell_1 switch set value {text:"",extra:[{translate:att2.item.dahal.book.spell1.automatic_firing,color:green}],click_event:{action:run_command,command:"/trigger ScoreTrigger set 3473"},hover_event:{action:show_text,value:[{translate:att2.item.dahal.book.spell1.automatic_firing.hover_event}]}}
+execute if score @s SPELL1_LAUNCH matches 0 run data modify storage att2:spell_1 switch set value {text:"",extra:[{translate:att2.item.dahal.book.spell1.manual_firing,color:green}],click_event:{action:run_command,command:"/trigger ScoreTrigger set 3473"},hover_event:{action:show_text,value:[{translate:att2.item.dahal.book.spell1.manual_firing.hover_event}]}}

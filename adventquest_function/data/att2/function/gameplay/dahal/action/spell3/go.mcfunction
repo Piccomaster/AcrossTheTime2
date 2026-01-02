@@ -29,7 +29,7 @@ execute if score DAHAL_TEST CAL matches 0 unless score Spell_Bundle_Slot_Test CA
 #mainhand
 execute unless score Spell_Bundle_Slot_Test CAL matches 1 if items entity @s weapon.mainhand enchanted_book[custom_data~{Spell:3}] run function att2:gameplay/dahal/action/replace/mainhand
 #offhand
-execute unless score Spell_Bundle_Slot_Test CAL matches 1 if items entity @s weapon.offhand enchanted_book[custom_data~{Spell:3}] run function att2:gameplay/dahal/action/replace/mainhand
+execute unless score Spell_Bundle_Slot_Test CAL matches 1 if items entity @s weapon.offhand enchanted_book[custom_data~{Spell:3}] run function att2:gameplay/dahal/action/replace/offhand
 #reset
 scoreboard players reset DAHAL_TEST CAL
 scoreboard players reset Spell_Bundle_Slot_Test CAL

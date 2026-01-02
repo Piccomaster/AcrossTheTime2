@@ -21,7 +21,7 @@ execute if score @s ENDERCHEST matches ..-1 run return run function att2:gamepla
 execute if score @s ENDERCHEST matches 1.. run return run function att2:gameplay/misc/ender_chest/deposit/go
 
 ##clear error item display
-execute as @e[distance=..5,type=item_display,tag=TempItem] run function att2:gameplay/misc/ender_chest/deposit/collect_item
+#execute as @e[distance=..5,type=item_display,tag=TempItem] run function att2:gameplay/misc/ender_chest/deposit/collect_item
 ##show cooldown
 execute unless entity @a[distance=..20] run return run data modify entity @s CustomNameVisible set value 0
 

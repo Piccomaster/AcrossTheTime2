@@ -3,6 +3,8 @@
 #Obtain Interfacer shotgun                       #
 ##################################################
 
+clear @s crossbow[custom_data~{EquipmentID:interfacer}]
+
 give @s minecraft:crossbow[custom_model_data={floats:[10000100]},lore=[{translate:item.legendary.interfacer.lore.1},{translate:item.legendary.interfacer.lore.2},{translate:item.legendary.interfacer.lore.3},{translate:item.legendary.interfacer.lore.4},{translate:item.legendary.interfacer.lore.5},{translate:item.legendary.interfacer.lore.6},{translate:item.legendary.interfacer.lore.7},{translate:item.legendary.interfacer.lore.8},{translate:item.legendary.interfacer.lore.9},{translate:item.legendary.interfacer.lore.10},{translate:item.legendary.interfacer.lore.11},{translate:item.legendary.interfacer.lore.12},{translate:item.legendary.interfacer.lore.13},{translate:item.legendary.interfacer.lore.14}],enchantments={"multishot":1,"power":7,"att2_enchantment:legendary/interfacer/hold":1},unbreakable={},custom_name={translate:item.legendary.interfacer.name},custom_data={EquipmentID:"interfacer",EquipmentType:"rangeWeapon",Manufacturer:"traditional",Rarity:"myt"},tooltip_style="minecraft:rarity/myt/myt"]
 
 #First font (enchant)
