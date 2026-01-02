@@ -13,6 +13,7 @@
     },
     "parent": "att2:food/kelp_64",
     "rewards": {
+        "function": "att2:advancement/exploit_15",
         "experience": 2500
     },
     "criteria": {
