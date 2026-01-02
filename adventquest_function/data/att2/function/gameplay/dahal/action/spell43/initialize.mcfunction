@@ -6,7 +6,7 @@
 scoreboard objectives add COOLDOWN43 dummy
 scoreboard objectives add SPELL43_LVL dummy
 scoreboard objectives add SPELL43_CAP dummy
-scoreboard players set @s COOLDOWN43 0
+scoreboard players set @s COOLDOWN43 -100
 scoreboard players set @s SPELL43_LVL 0
 scoreboard players set @s SPELL43_CAP 1
 scoreboard players set cap1 SPELL43_LVL 0
@@ -44,4 +44,5 @@ scoreboard players set SP43_9 DAHAL_COST 240
 scoreboard players set SP43_10 DAHAL_COST 300
 ##add spell cost dummy
 scoreboard objectives add SPELL43_COST dummy
+scoreboard objectives add CDPERCENT43 dummy
 scoreboard players operation @s SPELL43_COST = SP43_1 DAHAL_COST

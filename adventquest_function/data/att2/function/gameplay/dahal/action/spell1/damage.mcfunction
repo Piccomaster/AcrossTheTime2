@@ -3,11 +3,12 @@
 #damage go          											#
 #################################################################
 
+##particle
+particle minecraft:smoke ~ ~0.3 ~ 0.5 0.5 0.5 0 20 normal
+
 #damage
 $damage @s[tag=!FB_DAHAL] $(SP1) att2_damage:magic by @p[scores={NUMEROJOUEUR=$(player)}]
 
-##particle
-particle minecraft:smoke ~ ~0.3 ~ 0.5 0.5 0.5 0 20 normal
 ##add fire
 execute store result entity @s Fire int 1 run data get storage att2:sp_dmg SP1
 ##detection health

@@ -5,6 +5,7 @@
 
 ##initialize
 execute unless score @s itemcolor matches 0.. run function att2:gameplay/misc/itemrarity_color/data_get
+
 ##limit
 execute unless score all itemcolor matches 1.. run return fail
 

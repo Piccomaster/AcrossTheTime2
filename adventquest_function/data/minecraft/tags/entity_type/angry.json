@@ -1,8 +1,8 @@
 {
-    "values": [
-      "minecraft:zombified_piglin",
-      "minecraft:wolf"
-    ],
-    "replace": false
-  }
-  
+  "values": [
+    "minecraft:zombified_piglin",
+    "minecraft:wolf",
+    "minecraft:bee"
+  ],
+  "replace": false
+}

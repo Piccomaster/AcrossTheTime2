@@ -26,8 +26,10 @@ execute if score @s[scores={SPELL46_SLCT=10}] DAHAL >= SP46_10 DAHAL_COST at @s 
 
 #feed back dahal 
 execute if score DAHAL_TEST CAL matches 0 unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:dialogs/gameplay/dahal/not_enough_dahal
-#replace hand
-execute unless score Spell_Bundle_Slot_Test CAL matches 1 run function att2:gameplay/dahal/action/replace/detection
+#mainhand
+execute unless score Spell_Bundle_Slot_Test CAL matches 1 if items entity @s weapon.mainhand enchanted_book[custom_data~{Spell:46}] run function att2:gameplay/dahal/action/replace/mainhand
+#offhand
+execute unless score Spell_Bundle_Slot_Test CAL matches 1 if items entity @s weapon.offhand enchanted_book[custom_data~{Spell:46}] run function att2:gameplay/dahal/action/replace/mainhand
 #reset
 scoreboard players reset DAHAL_TEST CAL
 scoreboard players reset Spell_Bundle_Slot_Test CAL

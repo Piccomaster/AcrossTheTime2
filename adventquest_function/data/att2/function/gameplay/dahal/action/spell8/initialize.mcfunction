@@ -6,7 +6,7 @@
 scoreboard objectives add COOLDOWN8 dummy
 scoreboard objectives add SPELL8_LVL dummy
 scoreboard objectives add SPELL8_CAP dummy
-scoreboard players set @s COOLDOWN8 0
+scoreboard players set @s COOLDOWN8 -100
 scoreboard players set @s SPELL8_LVL 0
 scoreboard players set @s SPELL8_CAP 1
 scoreboard players set cap1 SPELL8_LVL 0
@@ -44,4 +44,5 @@ scoreboard players set SP8_9 DAHAL_COST 250
 scoreboard players set SP8_10 DAHAL_COST 325
 ##add spell cost dummy
 scoreboard objectives add SPELL8_COST dummy
+scoreboard objectives add CDPERCENT8 dummy
 scoreboard players operation @s SPELL8_COST = SP8_1 DAHAL_COST

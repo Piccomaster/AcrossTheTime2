@@ -29,7 +29,7 @@ execute if score 300s SPAWNER_TIMER matches ..0 run function att2:spawner/go_300
 
 
 ##show
-#kill @e[tag=ShowPos,type=item_display]
+kill @e[tag=ShowPos,type=item_display]
 #execute as @e[type=marker,tag=SpawnerMarker] at @s unless entity @e[distance=..2,type=item_display] run summon item_display ~ ~ ~ {Tags:["ShowPos"],item:{id:"ender_eye"},Glowing:true,transformation:{scale:[1f,10f,1f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},item_display:gui,billboard:vertical,brightness:{block:15,sky:15},Glowing:true,glow_color_override:42390}
 #difficult -> speed
 execute store result score numberPlayer COUNT if entity @a

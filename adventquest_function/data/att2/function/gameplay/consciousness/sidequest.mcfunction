@@ -275,7 +275,7 @@ execute if score SQ8 SIDEQUEST matches 100 run data modify storage att2:dialog s
 
 #SQ7 - Déblayer le passage (PNJ : Alfred Mornith) 
 execute if score SQ7 SIDEQUEST matches -1 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["7"],color:dark_red},{translate:consciousness.sidequest.7,color:dark_red}],tooltip:{translate:consciousness.sidequest.fail,color:dark_red},action:{type:run_command,command:"trigger ScoreTrigger set 2310"}}
-execute if score SQ7 SIDEQUEST matches 1..99 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["7"],color:yellow},{translate:consciousness.sidequest.7,color:yellow}],tooltip:{translate:consciousness.sidequest.progress,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 839"}}
+execute if score SQ7 SIDEQUEST matches 1..99 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["7"],color:yellow},{translate:consciousness.sidequest.7,color:yellow}],tooltip:{translate:consciousness.sidequest.progress,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 830"}}
 execute if score SQ7 SIDEQUEST matches 100 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["7"],color:green},{translate:consciousness.sidequest.7,color:green}],tooltip:{translate:consciousness.sidequest.complete,color:green},action:{type:run_command,command:"trigger ScoreTrigger set 2310"}}
 
 #SQ6 - La clef d'Hurriel (PNJ : Hurriel Sun) 

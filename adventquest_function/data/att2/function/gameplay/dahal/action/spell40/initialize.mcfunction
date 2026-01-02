@@ -16,7 +16,7 @@ scoreboard objectives add SPELL40_HER dummy
 scoreboard objectives add SPELL40_HAS dummy
 scoreboard objectives add SPELL40_TIMER dummy
 
-scoreboard players set @s COOLDOWN40 0
+scoreboard players set @s COOLDOWN40 -100
 scoreboard players set @s SPELL40_LVL 0
 scoreboard players set @s SPELL40_CAP 1
 scoreboard players set @s SPELL40_MUSIC 1
@@ -103,4 +103,5 @@ scoreboard players set SP40_10 DAHAL_COST 21
 scoreboard players set SP40_start DAHAL_COST 100
 ##add spell cost dummy
 scoreboard objectives add SPELL40_COST dummy
+scoreboard objectives add CDPERCENT40 dummy
 scoreboard players operation @s SPELL40_COST = SP40_start DAHAL_COST

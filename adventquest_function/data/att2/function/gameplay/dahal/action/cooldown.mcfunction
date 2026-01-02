@@ -8,7 +8,9 @@ function att2:gameplay/dahal/spell_bundle/go
 
 ##get player inventory
 data modify storage att2:cooldown inventory set from entity @s Inventory
-
+data modify storage att2:cooldown equipment set from entity @s equipment
+##store player cursor
+function att2:gameplay/dahal/action/replace/store_player_cursor
 
 execute as @s[scores={COOLDOWN1=-99..}] at @s run function att2:gameplay/dahal/action/spell1_cooldown
 

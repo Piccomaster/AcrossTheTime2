@@ -9,7 +9,7 @@ scoreboard objectives add SPELL6_EFFECT dummy
 scoreboard objectives add SPELL6_CAP dummy
 scoreboard objectives add SPELL6_OWNER dummy
 scoreboard objectives add SPELL6_DATA dummy
-scoreboard players set @s COOLDOWN6 0
+scoreboard players set @s COOLDOWN6 -100
 scoreboard players set @s SPELL6_LVL 0
 scoreboard players set @s SPELL6_CAP 1
 scoreboard players set cap1 SPELL6_LVL 0
@@ -59,4 +59,5 @@ scoreboard players set SP6_9 DAHAL_COST 250
 scoreboard players set SP6_10 DAHAL_COST 300
 ##add spell cost dummy
 scoreboard objectives add SPELL6_COST dummy
+scoreboard objectives add CDPERCENT6 dummy
 scoreboard players operation @s SPELL6_COST = SP6_1 DAHAL_COST

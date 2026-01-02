@@ -3,6 +3,8 @@
 #Make the pet follow its owner					#
 #################################################
 
+##dismount
+ride @s dismount
 ##get spell owner score
 function att2:gameplay/score/owner
 # Normal movement

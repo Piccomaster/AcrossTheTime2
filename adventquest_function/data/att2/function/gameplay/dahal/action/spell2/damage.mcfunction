@@ -3,14 +3,13 @@
 #damage go          											#
 #################################################################
 
-#damage
-$damage @s[tag=!FB_DAHAL] $(SP2) att2_damage:magic by @a[tag=SPLAUNCH,limit=1]
-
 ##particle
 execute at @s run particle minecraft:small_flame ~ ~1 ~ 0.5 0.5 0.5 0 10 normal
 execute at @s run playsound block.fire.extinguish ambient @a ~ ~ ~ 1 2
 #tag limit
 tag @s add SP2_ATKED
+#damage
+$damage @s[tag=!FB_DAHAL] $(SP2) att2_damage:magic by @a[tag=SPLAUNCH,limit=1]
 
 ##detection health
 function att2:gameplay/enemy_health/spell_health_trigger

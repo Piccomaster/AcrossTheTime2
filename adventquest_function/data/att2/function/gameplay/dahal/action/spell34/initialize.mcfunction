@@ -11,7 +11,7 @@ scoreboard objectives add SPELL34_INIT dummy
 scoreboard objectives add SPELL34_CHEST dummy
 
 scoreboard players set @s SPELL34_CHEST 0
-scoreboard players set @s COOLDOWN34 0
+scoreboard players set @s COOLDOWN34 -100
 scoreboard players set @s LIMIT77 0
 scoreboard players set @s SPELL34_LVL 0
 scoreboard players set @s SPELL34_CAP 1
@@ -69,4 +69,5 @@ scoreboard players set SP34_9 DAHAL_COST 320
 scoreboard players set SP34_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL34_COST dummy
+scoreboard objectives add CDPERCENT34 dummy
 scoreboard players operation @s SPELL34_COST = SP34_1 DAHAL_COST

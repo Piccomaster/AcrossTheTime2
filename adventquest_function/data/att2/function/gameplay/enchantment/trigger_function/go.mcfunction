@@ -26,7 +26,7 @@ execute as @s[advancements={att2_test:enchantment/armorbreak=true},scores={DAMAG
 execute as @s[advancements={att2_test:enchantment/groundslam=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/groundslam
 #execute as @s[advancements={att2_test:enchantment/forcepush=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/armorbreak
 #combohit
-function att2:gameplay/enchantment/trigger_function/combohit
+function att2:gameplay/enchantment/combohit/go
 #backstab
 function att2:gameplay/enchantment/trigger_function/backstab
 #defensematrix

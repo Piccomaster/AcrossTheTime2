@@ -16,6 +16,7 @@ scoreboard players operation @s DAHAL_TICK < #DAHALMAX CAL
 scoreboard players operation #DAHAL_TICK CAL = @s DAHAL_TICK
 scoreboard players operation #DAHAL_TICK CAL /= 20 CAL
 scoreboard players operation @s DAHAL = #DAHAL_TICK CAL
+scoreboard players operation @s DAHAL < @s DAHALMAX
 
 ##time limit
 execute unless score tic TIMECOUNTER matches 6 run return 0

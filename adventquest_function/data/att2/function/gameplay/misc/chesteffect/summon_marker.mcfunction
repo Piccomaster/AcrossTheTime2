@@ -4335,76 +4335,73 @@ execute in minecraft:overworld positioned -4612 47 -6206 run summon marker ~ ~ ~
 execute in minecraft:overworld positioned -4503 97 -6211 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4333],Tags:["ChestMarker"],Rotation:[180,0],data:{loottable:"att2:chest/reg1/c10t4",type:"single",facing:"north",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c10.name,color:"#408080"}]}}
 execute in minecraft:overworld positioned -4502 97 -6211 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4334],Tags:["ChestMarker"],Rotation:[180,0],data:{loottable:"att2:chest/reg1/c10t5",type:"single",facing:"north",waterlogged:false,model:"normal_single",customname:[{translate:att2.chest.c10.name,color:"#0080FF"}]}}
 execute in minecraft:overworld positioned -3486 28 -5042 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4335],Tags:["ChestMarker"],Rotation:[0,-90],data:{loottable:"att2:chest/reg1/c4t7",type:"single",facing:"west",waterlogged:false,model:"cyan_shulker_box_single",customname:[{translate:att2.chest.c4.name,color:"#A60DFF"}]}}
-
+execute in minecraft:overworld positioned -4643 70 -5615 run summon marker ~ ~ ~ {UUID:[I;63686573,74,0,4336],Tags:["ChestMarker"],Rotation:[0,-90],data:{loottable:"att2:chest/reg1/c2t8",type:"single",facing:"west",waterlogged:false,model:"cyan_shulker_box_single",customname:[{translate:att2.chest.c4.name,color:"#A60DFF"}]}}
 
 ######### sylberland
+#execute in minecraft:overworld positioned -4643 70 -5615 run setblock -4643 70 -5615 minecraft:gray_shulker_box[facing=west]{CustomName:{color:"#408080",translate:"att2.chest.c2.name"},LootTable:"att2:chest/reg1/c2t10"}
+#execute in minecraft:overworld positioned -3486 28 -5042 run setblock -3486 28 -5042 minecraft:cyan_shulker_box[facing=west]{Items:[],components:{}}{CustomName:{color:"#408080",translate:"att2.chest.c2.name"},LootTable:"att2:chest/reg1/c2t8",components:{}}
 
-#setblock -4993 102 -4980 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -4993 102 -4978 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -5020 102 -4978 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -5020 102 -4980 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -5096 111 -4951 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -5096 111 -4953 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -4978 92 -5046 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -4704 87 -5682 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -4701 87 -5682 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -4701 87 -5670 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -4704 87 -5670 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -3704 66 -5823 minecraft:trapped_chest[facing=east,type=left,waterlogged=false]{Items:[],components:{}}
-#setblock -3688 70 -5825 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -3688 68 -5822 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -3687 70 -5821 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -3686 68 -5823 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -3685 70 -5824 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -3683 70 -5823 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -3969 90 -5868 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
-#setblock -4658 72 -5195 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{}}
-
-#setblock -4647 21 -5263 minecraft:trapped_chest[facing=north,type=right,waterlogged=false]{Items:[],components:{2 2}}
-#setblock -4648 21 -5263 minecraft:trapped_chest[facing=north,type=left,waterlogged=false]{Items:[],components:{2 2}}
-
-#setblock -4645 74 -5409 minecraft:trapped_chest[facing=north,type=right,waterlogged=false]{Items:[],components:{1 2}}
-#setblock -4646 74 -5409 minecraft:trapped_chest[facing=north,type=left,waterlogged=false]{Items:[],components:{1 2}}
-#setblock -4621 73 -5435 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{1 2}}
-#setblock -4713 75 -5116 minecraft:trapped_chest[facing=west,type=right,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 4}}
-#setblock -4713 75 -5115 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 4}}
-#setblock -4415 70 -5283 minecraft:waxed_copper_chest[facing=east,type=right,waterlogged=false]{CustomName:{color:"#409940",translate:"att2.chest.c2.name"},Items:[],components:{}}
-#setblock -4415 70 -5284 minecraft:waxed_copper_chest[facing=east,type=left,waterlogged=false]{CustomName:{color:"#409940",translate:"att2.chest.c2.name"},Items:[],components:{}}
-#setblock -4628 72 -4594 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{LootTable:"att2:chest/reg1/c2t5_goods",components:{}}
-#setblock -3691 66 -5003 minecraft:trapped_chest[facing=south,type=right,waterlogged=false]{Items:[],components:{3 3}}
-#setblock -3690 66 -5003 minecraft:trapped_chest[facing=south,type=left,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3690 66 -5001 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3691 66 -4999 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3693 67 -4997 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3693 67 -4995 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3691 66 -4997 minecraft:trapped_chest[facing=east,type=left,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3691 66 -4996 minecraft:trapped_chest[facing=east,type=right,waterlogged=false]{Items:[],components:{3 3}}
-#setblock -3691 66 -4994 minecraft:trapped_chest[facing=east,type=left,waterlogged=false]{Items:[],components:{3 3}}
-#setblock -3691 66 -4993 minecraft:trapped_chest[facing=east,type=right,waterlogged=false]{Items:[],components:{3 2}}  
-#setblock -3689 66 -4993 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3691 68 -4987 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3688 70 -4987 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{3 3}}
-#setblock -3692 70 -4986 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3690 68 -4985 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3689 70 -4984 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
-#setblock -3690 70 -4982 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 3}}
-#setblock -3688 69 -5008 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{3 3}}
-#setblock -4942 126 -4895 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{1 1}}
-#setblock -5382 144 -5988 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 3}}
+#execute in minecraft:overworld positioned -4993 102 -4980 run setblock -4993 102 -4980 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{CustomName:{color:"#408080",translate:"att2.chest.c2.name"},LootTable:"att2:chest/reg1/c2t8"}
+#execute in minecraft:overworld positioned -4993 102 -4978 run setblock -4993 102 -4978 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -5020 102 -4978 run setblock -5020 102 -4978 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -5020 102 -4980 run setblock -5020 102 -4980 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -5096 111 -4951 run setblock -5096 111 -4951 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -5096 111 -4953 run setblock -5096 111 -4953 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -4978 92 -5046 run setblock -4978 92 -5046 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -4704 87 -5682 run setblock -4704 87 -5682 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -4701 87 -5682 run setblock -4701 87 -5682 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -4701 87 -5670 run setblock -4701 87 -5670 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -4704 87 -5670 run setblock -4704 87 -5670 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -3704 66 -5823 run setblock -3704 66 -5823 minecraft:trapped_chest[facing=east,type=left,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -3688 70 -5825 run setblock -3688 70 -5825 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -3688 68 -5822 run setblock -3688 68 -5822 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -3687 70 -5821 run setblock -3687 70 -5821 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -3686 68 -5823 run setblock -3686 68 -5823 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -3685 70 -5824 run setblock -3685 70 -5824 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -3683 70 -5823 run setblock -3683 70 -5823 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -3969 90 -5868 run setblock -3969 90 -5868 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -4658 72 -5195 run setblock -4658 72 -5195 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{}}
+#execute in minecraft:overworld positioned -4647 21 -5263 run setblock -4647 21 -5263 minecraft:trapped_chest[facing=north,type=right,waterlogged=false]{Items:[],components:{2 2}}
+#execute in minecraft:overworld positioned -4648 21 -5263 run setblock -4648 21 -5263 minecraft:trapped_chest[facing=north,type=left,waterlogged=false]{Items:[],components:{2 2}}
+#execute in minecraft:overworld positioned -4645 74 -5409 run setblock -4645 74 -5409 minecraft:trapped_chest[facing=north,type=right,waterlogged=false]{Items:[],components:{1 2}}
+#execute in minecraft:overworld positioned -4646 74 -5409 run setblock -4646 74 -5409 minecraft:trapped_chest[facing=north,type=left,waterlogged=false]{Items:[],components:{1 2}}
+#execute in minecraft:overworld positioned -4621 73 -5435 run setblock -4621 73 -5435 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{1 2}}
+#execute in minecraft:overworld positioned -4713 75 -5116 run setblock -4713 75 -5116 minecraft:trapped_chest[facing=west,type=right,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 4}}
+#execute in minecraft:overworld positioned -4713 75 -5115 run setblock -4713 75 -5115 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 4}}
+#execute in minecraft:overworld positioned -4415 70 -5283 run setblock -4415 70 -5283 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 3}}
+#execute in minecraft:overworld positioned -4415 70 -5284 run setblock -4415 70 -5284 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{CustomName:"Marchandise",Items:[],components:{2 3}}
+#execute in minecraft:overworld positioned -4628 72 -4594 run setblock -4628 72 -4594 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{LootTable:"att2:chest/reg1/c2t5_goods",components:{2}}
+#execute in minecraft:overworld positioned -3691 66 -5003 run setblock -3691 66 -5003 minecraft:trapped_chest[facing=south,type=right,waterlogged=false]{Items:[],components:{3 3}}
+#execute in minecraft:overworld positioned -3690 66 -5003 run setblock -3690 66 -5003 minecraft:trapped_chest[facing=south,type=left,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3690 66 -5001 run setblock -3690 66 -5001 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3691 66 -4999 run setblock -3691 66 -4999 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3693 67 -4997 run setblock -3693 67 -4997 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3693 67 -4995 run setblock -3693 67 -4995 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3691 66 -4997 run setblock -3691 66 -4997 minecraft:trapped_chest[facing=east,type=left,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3691 66 -4996 run setblock -3691 66 -4996 minecraft:trapped_chest[facing=east,type=right,waterlogged=false]{Items:[],components:{3 3}}
+#execute in minecraft:overworld positioned -3691 66 -4994 run setblock -3691 66 -4994 minecraft:trapped_chest[facing=east,type=left,waterlogged=false]{Items:[],components:{3 3}}
+#execute in minecraft:overworld positioned -3691 66 -4993 run setblock -3691 66 -4993 minecraft:trapped_chest[facing=east,type=right,waterlogged=false]{Items:[],components:{3 2}}  
+#execute in minecraft:overworld positioned -3689 66 -4993 run setblock -3689 66 -4993 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3691 68 -4987 run setblock -3691 68 -4987 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3688 70 -4987 run setblock -3688 70 -4987 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{3 3}}
+#execute in minecraft:overworld positioned -3692 70 -4986 run setblock -3692 70 -4986 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3690 68 -4985 run setblock -3690 68 -4985 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3689 70 -4984 run setblock -3689 70 -4984 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 2}}
+#execute in minecraft:overworld positioned -3690 70 -4982 run setblock -3690 70 -4982 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{3 3}}
+#execute in minecraft:overworld positioned -3688 69 -5008 run setblock -3688 69 -5008 minecraft:trapped_chest[facing=west,type=single,waterlogged=false]{Items:[],components:{3 3}}
+#execute in minecraft:overworld positioned -4942 126 -4895 run setblock -4942 126 -4895 minecraft:trapped_chest[facing=south,type=single,waterlogged=false]{Items:[],components:{1 1}}
+#execute in minecraft:overworld positioned -5382 144 -5988 run setblock -5382 144 -5988 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 3}}
 #########angband
 
-#setblock 3406 35 3744 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
-#setblock 3406 35 3741 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
-#setblock 3406 35 3738 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
-#setblock 3406 35 3735 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
-
-#setblock 3469 35 3718 minecraft:trapped_chest[facing=west,type=right,waterlogged=false]{Items:[],components:{2 3}}
-#setblock 3469 35 3719 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{Items:[],components:{2 3}}
-#setblock 3629 46 4615 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{2 3}}
-
-#setblock 3643 48 4611 minecraft:trapped_chest[facing=south,type=right,waterlogged=false]{Items:[],components:{6 3}}
-#setblock 3644 48 4611 minecraft:trapped_chest[facing=south,type=left,waterlogged=false]{Items:[],components:{6 3}}
-
-#setblock 3570 84 4530 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{6 4}}
-#setblock 3564 88 4541 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 4}}
-#setblock 3574 89 4546 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 6}}
+#execute in minecraft:the_nether positioned 3406 35 3744 run setblock 3406 35 3744 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
+#execute in minecraft:the_nether positioned 3406 35 3741 run setblock 3406 35 3741 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
+#execute in minecraft:the_nether positioned 3406 35 3738 run setblock 3406 35 3738 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
+#execute in minecraft:the_nether positioned 3406 35 3735 run setblock 3406 35 3735 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{1 1}}
+#execute in minecraft:the_nether positioned 3469 35 3718 run setblock 3469 35 3718 minecraft:trapped_chest[facing=west,type=right,waterlogged=false]{Items:[],components:{2 3}}
+#execute in minecraft:the_nether positioned 3469 35 3719 run setblock 3469 35 3719 minecraft:trapped_chest[facing=west,type=left,waterlogged=false]{Items:[],components:{2 3}}
+#execute in minecraft:the_nether positioned 3629 46 4615 run setblock 3629 46 4615 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{2 3}}
+#execute in minecraft:the_nether positioned 3643 48 4611 run setblock 3643 48 4611 minecraft:trapped_chest[facing=south,type=right,waterlogged=false]{Items:[],components:{6 3}}
+#execute in minecraft:the_nether positioned 3644 48 4611 run setblock 3644 48 4611 minecraft:trapped_chest[facing=south,type=left,waterlogged=false]{Items:[],components:{6 3}}
+#execute in minecraft:the_nether positioned 3570 84 4530 run setblock 3570 84 4530 minecraft:trapped_chest[facing=north,type=single,waterlogged=false]{Items:[],components:{6 4}}
+#execute in minecraft:the_nether positioned 3564 88 4541 run setblock 3564 88 4541 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 4}}
+#execute in minecraft:the_nether positioned 3574 89 4546 run setblock 3574 89 4546 minecraft:trapped_chest[facing=east,type=single,waterlogged=false]{Items:[],components:{6 6}}

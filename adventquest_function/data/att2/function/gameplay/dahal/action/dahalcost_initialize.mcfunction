@@ -15,6 +15,7 @@ scoreboard players set SP1_9 DAHAL_COST 220
 scoreboard players set SP1_10 DAHAL_COST 250
 ##add spell cost dummy
 scoreboard objectives add SPELL1_COST dummy
+scoreboard objectives add CDPERCENT1 dummy
 scoreboard players operation @s SPELL1_COST = SP1_1 DAHAL_COST
 scoreboard players set SP10_1 DAHAL_COST 30
 scoreboard players set SP10_2 DAHAL_COST 50
@@ -28,6 +29,7 @@ scoreboard players set SP10_9 DAHAL_COST 250
 scoreboard players set SP10_10 DAHAL_COST 300
 ##add spell cost dummy
 scoreboard objectives add SPELL10_COST dummy
+scoreboard objectives add CDPERCENT10 dummy
 scoreboard players operation @s SPELL10_COST = SP10_1 DAHAL_COST
 scoreboard players set SP11_1 DAHAL_COST 40
 scoreboard players set SP11_2 DAHAL_COST 38
@@ -41,6 +43,7 @@ scoreboard players set SP11_9 DAHAL_COST 24
 scoreboard players set SP11_10 DAHAL_COST 22
 ##add spell cost dummy
 scoreboard objectives add SPELL11_COST dummy
+scoreboard objectives add CDPERCENT11 dummy
 scoreboard players operation @s SPELL11_COST = SP11_1 DAHAL_COST
 scoreboard players set SP11_start DAHAL_COST 50
 scoreboard players set SP2_1 DAHAL_COST 25
@@ -55,6 +58,7 @@ scoreboard players set SP2_9 DAHAL_COST 185
 scoreboard players set SP2_10 DAHAL_COST 200
 ##add spell cost dummy
 scoreboard objectives add SPELL2_COST dummy
+scoreboard objectives add CDPERCENT2 dummy
 scoreboard players operation @s SPELL2_COST = SP2_1 DAHAL_COST
 scoreboard players set SP21_1 DAHAL_COST 80
 scoreboard players set SP21_2 DAHAL_COST 140
@@ -77,6 +81,7 @@ scoreboard players set SP24_9 DAHAL_COST 80
 scoreboard players set SP24_10 DAHAL_COST 100
 ##add spell cost dummy
 scoreboard objectives add SPELL24_COST dummy
+scoreboard objectives add CDPERCENT24 dummy
 scoreboard players operation @s SPELL24_COST = SP24_1 DAHAL_COST
 scoreboard players set SP25_1 DAHAL_COST 50
 scoreboard players set SP25_2 DAHAL_COST 55
@@ -90,6 +95,7 @@ scoreboard players set SP25_9 DAHAL_COST 130
 scoreboard players set SP25_10 DAHAL_COST 175
 ##add spell cost dummy
 scoreboard objectives add SPELL25_COST dummy
+scoreboard objectives add CDPERCENT25 dummy
 scoreboard players operation @s SPELL25_COST = SP25_1 DAHAL_COST
 scoreboard players set SP26_1 DAHAL_COST 100
 scoreboard players set SP26_2 DAHAL_COST 110
@@ -103,6 +109,7 @@ scoreboard players set SP26_9 DAHAL_COST 300
 scoreboard players set SP26_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL26_COST dummy
+scoreboard objectives add CDPERCENT26 dummy
 scoreboard players operation @s SPELL26_COST = SP26_1 DAHAL_COST
 scoreboard players set SP27_1 DAHAL_COST 30
 scoreboard players set SP27_2 DAHAL_COST 45
@@ -116,6 +123,7 @@ scoreboard players set SP27_9 DAHAL_COST 290
 scoreboard players set SP27_10 DAHAL_COST 345
 ##add spell cost dummy
 scoreboard objectives add SPELL27_COST dummy
+scoreboard objectives add CDPERCENT27 dummy
 scoreboard players operation @s SPELL27_COST = SP27_1 DAHAL_COST
 scoreboard players set SP28_1 DAHAL_COST 30
 scoreboard players set SP28_2 DAHAL_COST 45
@@ -129,6 +137,7 @@ scoreboard players set SP28_9 DAHAL_COST 290
 scoreboard players set SP28_10 DAHAL_COST 345
 ##add spell cost dummy
 scoreboard objectives add SPELL28_COST dummy
+scoreboard objectives add CDPERCENT28 dummy
 scoreboard players operation @s SPELL28_COST = SP28_1 DAHAL_COST
 scoreboard players set SP3_1 DAHAL_COST 20
 scoreboard players set SP3_2 DAHAL_COST 40
@@ -142,6 +151,7 @@ scoreboard players set SP3_9 DAHAL_COST 200
 scoreboard players set SP3_10 DAHAL_COST 220
 ##add spell cost dummy
 scoreboard objectives add SPELL3_COST dummy
+scoreboard objectives add CDPERCENT3 dummy
 scoreboard players operation @s SPELL3_COST = SP3_1 DAHAL_COST
 scoreboard players set SP30_1 DAHAL_COST 125
 scoreboard players set SP30_2 DAHAL_COST 150
@@ -155,6 +165,7 @@ scoreboard players set SP30_9 DAHAL_COST 325
 scoreboard players set SP30_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL30_COST dummy
+scoreboard objectives add CDPERCENT30 dummy
 scoreboard players operation @s SPELL30_COST = SP30_1 DAHAL_COST
 scoreboard players set SP31_1 DAHAL_COST 350
 scoreboard players set SP31_2 DAHAL_COST 350
@@ -168,6 +179,7 @@ scoreboard players set SP31_9 DAHAL_COST 350
 scoreboard players set SP31_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL31_COST dummy
+scoreboard objectives add CDPERCENT31 dummy
 scoreboard players operation @s SPELL31_COST = SP31_1 DAHAL_COST
 scoreboard players set SP32_1 DAHAL_COST 350
 scoreboard players set SP32_2 DAHAL_COST 350
@@ -186,6 +198,7 @@ scoreboard players set SP34_9 DAHAL_COST 320
 scoreboard players set SP34_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL34_COST dummy
+scoreboard objectives add CDPERCENT34 dummy
 scoreboard players operation @s SPELL34_COST = SP34_1 DAHAL_COST
 scoreboard players set SP4_1 DAHAL_COST 100
 scoreboard players set SP4_2 DAHAL_COST 125
@@ -199,6 +212,7 @@ scoreboard players set SP4_9 DAHAL_COST 300
 scoreboard players set SP4_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL4_COST dummy
+scoreboard objectives add CDPERCENT4 dummy
 scoreboard players operation @s SPELL4_COST = SP4_1 DAHAL_COST
 scoreboard players set SP40_1 DAHAL_COST 35
 scoreboard players set SP40_2 DAHAL_COST 34
@@ -212,6 +226,7 @@ scoreboard players set SP40_9 DAHAL_COST 23
 scoreboard players set SP40_10 DAHAL_COST 21
 ##add spell cost dummy
 scoreboard objectives add SPELL40_COST dummy
+scoreboard objectives add CDPERCENT40 dummy
 scoreboard players operation @s SPELL40_COST = SP40_1 DAHAL_COST
 scoreboard players set SP40_start DAHAL_COST 100
 scoreboard players set SP41_1 DAHAL_COST 20
@@ -226,6 +241,7 @@ scoreboard players set SP41_9 DAHAL_COST 160
 scoreboard players set SP41_10 DAHAL_COST 200
 ##add spell cost dummy
 scoreboard objectives add SPELL41_COST dummy
+scoreboard objectives add CDPERCENT41 dummy
 scoreboard players operation @s SPELL41_COST = SP41_1 DAHAL_COST
 scoreboard players set SP42_1 DAHAL_COST 15
 scoreboard players set SP42_2 DAHAL_COST 30
@@ -239,6 +255,7 @@ scoreboard players set SP42_9 DAHAL_COST 280
 scoreboard players set SP42_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL42_COST dummy
+scoreboard objectives add CDPERCENT42 dummy
 scoreboard players operation @s SPELL42_COST = SP42_1 DAHAL_COST
 scoreboard players set SP43_1 DAHAL_COST 40
 scoreboard players set SP43_2 DAHAL_COST 50
@@ -252,6 +269,7 @@ scoreboard players set SP43_9 DAHAL_COST 240
 scoreboard players set SP43_10 DAHAL_COST 300
 ##add spell cost dummy
 scoreboard objectives add SPELL43_COST dummy
+scoreboard objectives add CDPERCENT43 dummy
 scoreboard players operation @s SPELL43_COST = SP43_1 DAHAL_COST
 scoreboard players set SP44_1 DAHAL_COST 20
 scoreboard players set SP44_2 DAHAL_COST 30
@@ -265,6 +283,7 @@ scoreboard players set SP44_9 DAHAL_COST 130
 scoreboard players set SP44_10 DAHAL_COST 150
 ##add spell cost dummy
 scoreboard objectives add SPELL44_COST dummy
+scoreboard objectives add CDPERCENT44 dummy
 scoreboard players operation @s SPELL44_COST = SP44_1 DAHAL_COST
 scoreboard players set SP45_1 DAHAL_COST 15
 scoreboard players set SP45_2 DAHAL_COST 20
@@ -278,6 +297,7 @@ scoreboard players set SP45_9 DAHAL_COST 200
 scoreboard players set SP45_10 DAHAL_COST 250
 ##add spell cost dummy
 scoreboard objectives add SPELL45_COST dummy
+scoreboard objectives add CDPERCENT45 dummy
 scoreboard players operation @s SPELL45_COST = SP45_1 DAHAL_COST
 scoreboard players set SP5_1 DAHAL_COST 80
 scoreboard players set SP5_2 DAHAL_COST 100
@@ -291,6 +311,7 @@ scoreboard players set SP5_9 DAHAL_COST 260
 scoreboard players set SP5_10 DAHAL_COST 325
 ##add spell cost dummy
 scoreboard objectives add SPELL5_COST dummy
+scoreboard objectives add CDPERCENT5 dummy
 scoreboard players operation @s SPELL5_COST = SP5_1 DAHAL_COST
 scoreboard players set SP6_1 DAHAL_COST 20
 scoreboard players set SP6_2 DAHAL_COST 35
@@ -304,6 +325,7 @@ scoreboard players set SP6_9 DAHAL_COST 250
 scoreboard players set SP6_10 DAHAL_COST 300
 ##add spell cost dummy
 scoreboard objectives add SPELL6_COST dummy
+scoreboard objectives add CDPERCENT6 dummy
 scoreboard players operation @s SPELL6_COST = SP6_1 DAHAL_COST
 scoreboard players set SP7_1 DAHAL_COST 20
 scoreboard players set SP7_2 DAHAL_COST 30
@@ -317,6 +339,7 @@ scoreboard players set SP7_9 DAHAL_COST 160
 scoreboard players set SP7_10 DAHAL_COST 180
 ##add spell cost dummy
 scoreboard objectives add SPELL7_COST dummy
+scoreboard objectives add CDPERCENT7 dummy
 scoreboard players operation @s SPELL7_COST = SP7_1 DAHAL_COST
 scoreboard players set SP8_1 DAHAL_COST 40
 scoreboard players set SP8_2 DAHAL_COST 60
@@ -330,6 +353,7 @@ scoreboard players set SP8_9 DAHAL_COST 250
 scoreboard players set SP8_10 DAHAL_COST 325
 ##add spell cost dummy
 scoreboard objectives add SPELL8_COST dummy
+scoreboard objectives add CDPERCENT8 dummy
 scoreboard players operation @s SPELL8_COST = SP8_1 DAHAL_COST
 scoreboard players set SP9_1 DAHAL_COST 25
 scoreboard players set SP9_2 DAHAL_COST 50
@@ -343,4 +367,69 @@ scoreboard players set SP9_9 DAHAL_COST 225
 scoreboard players set SP9_10 DAHAL_COST 275
 ##add spell cost dummy
 scoreboard objectives add SPELL9_COST dummy
+scoreboard objectives add CDPERCENT9 dummy
 scoreboard players operation @s SPELL9_COST = SP9_1 DAHAL_COST
+
+#set dahal cost
+scoreboard players set SP33_1 DAHAL_COST 100
+scoreboard players set SP33_2 DAHAL_COST 110
+scoreboard players set SP33_3 DAHAL_COST 120
+scoreboard players set SP33_4 DAHAL_COST 130
+scoreboard players set SP33_5 DAHAL_COST 150
+scoreboard players set SP33_6 DAHAL_COST 170
+scoreboard players set SP33_7 DAHAL_COST 190
+scoreboard players set SP33_8 DAHAL_COST 250
+scoreboard players set SP33_9 DAHAL_COST 300
+scoreboard players set SP33_10 DAHAL_COST 350
+##add spell cost dummy
+scoreboard objectives add SPELL33_COST dummy
+scoreboard objectives add CDPERCENT33 dummy
+scoreboard players operation @s SPELL33_COST = SP33_1 DAHAL_COST
+
+#set dahal cost
+scoreboard players set SP29_1 DAHAL_COST 80
+scoreboard players set SP29_2 DAHAL_COST 90
+scoreboard players set SP29_3 DAHAL_COST 105
+scoreboard players set SP29_4 DAHAL_COST 125
+scoreboard players set SP29_5 DAHAL_COST 150
+scoreboard players set SP29_6 DAHAL_COST 180
+scoreboard players set SP29_7 DAHAL_COST 215
+scoreboard players set SP29_8 DAHAL_COST 255
+scoreboard players set SP29_9 DAHAL_COST 300
+scoreboard players set SP29_10 DAHAL_COST 350
+##add spell cost dummy
+scoreboard objectives add SPELL29_COST dummy
+scoreboard objectives add CDPERCENT29 dummy
+scoreboard players operation @s SPELL29_COST = SP29_1 DAHAL_COST
+
+#set dahal cost
+scoreboard players set SP35_1 DAHAL_COST 100
+scoreboard players set SP35_2 DAHAL_COST 110
+scoreboard players set SP35_3 DAHAL_COST 120
+scoreboard players set SP35_4 DAHAL_COST 130
+scoreboard players set SP35_5 DAHAL_COST 150
+scoreboard players set SP35_6 DAHAL_COST 170
+scoreboard players set SP35_7 DAHAL_COST 190
+scoreboard players set SP35_8 DAHAL_COST 250
+scoreboard players set SP35_9 DAHAL_COST 300
+scoreboard players set SP35_10 DAHAL_COST 350
+##add spell cost dummy
+scoreboard objectives add SPELL35_COST dummy
+scoreboard objectives add CDPERCENT35 dummy
+scoreboard players operation @s SPELL35_COST = SP35_1 DAHAL_COST
+
+#set dahal cost
+scoreboard players set SP46_1 DAHAL_COST 65
+scoreboard players set SP46_2 DAHAL_COST 70
+scoreboard players set SP46_3 DAHAL_COST 80
+scoreboard players set SP46_4 DAHAL_COST 95
+scoreboard players set SP46_5 DAHAL_COST 115
+scoreboard players set SP46_6 DAHAL_COST 140
+scoreboard players set SP46_7 DAHAL_COST 170
+scoreboard players set SP46_8 DAHAL_COST 205
+scoreboard players set SP46_9 DAHAL_COST 250
+scoreboard players set SP46_10 DAHAL_COST 300
+##add spell cost dummy
+scoreboard objectives add SPELL46_COST dummy
+scoreboard objectives add CDPERCENT46 dummy
+scoreboard players operation @s SPELL46_COST = SP46_1 DAHAL_COST

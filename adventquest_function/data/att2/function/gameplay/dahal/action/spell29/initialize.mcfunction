@@ -7,7 +7,7 @@ scoreboard objectives add COOLDOWN29 dummy
 scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL29_LVL dummy
 scoreboard objectives add SPELL29_CAP dummy
-scoreboard players set @s COOLDOWN29 0
+scoreboard players set @s COOLDOWN29 -100
 scoreboard players set @s SPELL29_LVL 0
 scoreboard players set @s SPELL29_CAP 1
 scoreboard players set cap1 SPELL29_LVL 0
@@ -45,4 +45,5 @@ scoreboard players set SP29_9 DAHAL_COST 300
 scoreboard players set SP29_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL29_COST dummy
+scoreboard objectives add CDPERCENT29 dummy
 scoreboard players operation @s SPELL29_COST = SP29_1 DAHAL_COST

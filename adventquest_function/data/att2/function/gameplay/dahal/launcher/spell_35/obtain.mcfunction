@@ -9,6 +9,8 @@ kill @n[type=item,tag=Select]
 clear @s minecraft:enchanted_book[custom_data~{Dahal:"launcher",Spell:35}]
 clear @s minecraft:written_book[custom_data={Rarity:"epi",Dahal:"book",Spell:35}]
 
+##set cooldown score
+scoreboard players set @s CDPERCENT35 11
 #make score
 execute unless score @s SPELL35_SLCT matches 1.. run scoreboard players set @s SPELL35_SLCT 1
 

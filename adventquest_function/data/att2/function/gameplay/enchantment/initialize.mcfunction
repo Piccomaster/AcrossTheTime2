@@ -32,6 +32,7 @@ scoreboard objectives add SPEEDSAVE dummy
 ##combohit
 scoreboard objectives add COMBOHIT_TIMER dummy
 scoreboard objectives add COMBOHIT dummy
+scoreboard objectives add COMBOHITID dummy
 scoreboard objectives add COOLDOWNRUSH dummy
 scoreboard objectives add OWNER dummy
 scoreboard objectives add CHARGER dummy

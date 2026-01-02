@@ -9,7 +9,7 @@ scoreboard objectives add SPELL9_EFFECT dummy
 scoreboard objectives add SPELL9_CAP dummy
 scoreboard objectives add SPELL9_OP dummy
 scoreboard objectives add SPELL9_DATA dummy
-scoreboard players set @s COOLDOWN9 0
+scoreboard players set @s COOLDOWN9 -100
 scoreboard players set @s SPELL9_LVL 0
 scoreboard players set @s SPELL9_CAP 1
 scoreboard players set @s SPELL9_EFFECT 0
@@ -59,4 +59,5 @@ scoreboard players set SP9_9 DAHAL_COST 225
 scoreboard players set SP9_10 DAHAL_COST 275
 ##add spell cost dummy
 scoreboard objectives add SPELL9_COST dummy
+scoreboard objectives add CDPERCENT9 dummy
 scoreboard players operation @s SPELL9_COST = SP9_1 DAHAL_COST

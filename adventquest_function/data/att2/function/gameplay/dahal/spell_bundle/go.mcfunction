@@ -7,11 +7,13 @@
 data remove entity 00000002-0000-00de-0000-0002000000de equipment
 
 ##test if have bundle
-execute if items entity @s player.crafting.* *[custom_data~{QuickSlot:true,EquipmentType:spell_bundle}] run function att2:gameplay/dahal/spell_bundle/bundle_data_get
+execute unless items entity @s player.crafting.* blue_bundle[custom_data~{QuickSlot:true,EquipmentType:spell_bundle}] run return fail
+function att2:gameplay/dahal/spell_bundle/bundle_data_get
 
 ##get data
 data modify storage att2:spell_bundle bundle_data set value []
-data modify storage att2:spell_bundle bundle_data set from entity 00000002-0000-00de-0000-0002000000de equipment.mainhand.components."minecraft:bundle_contents"
+data modify storage att2:spell_bundle bundle set from entity 00000002-0000-00de-0000-0002000000de equipment.mainhand
+data modify storage att2:spell_bundle bundle_data set from storage att2:spell_bundle bundle.components."minecraft:bundle_contents"
 
 ##get spell data
 data modify storage att2:spell_bundle Spell_Bundle_Slot set value []
@@ -26,9 +28,9 @@ execute unless score tic TIMECOUNTER matches 7 run return 0
 execute unless entity @s[gamemode=adventure] run return 0
 
 ##update slot
-execute if items entity 00000002-0000-00de-0000-0002000000de weapon.mainhand minecraft:blue_bundle[custom_data~{Spell_Bundle:1}] run function att2:gameplay/dahal/spell_bundle/update_stack/size_1
-execute if items entity 00000002-0000-00de-0000-0002000000de weapon.mainhand minecraft:blue_bundle[custom_data~{Spell_Bundle:2}] run function att2:gameplay/dahal/spell_bundle/update_stack/size_2
-execute if items entity 00000002-0000-00de-0000-0002000000de weapon.mainhand minecraft:blue_bundle[custom_data~{Spell_Bundle:3}] run function att2:gameplay/dahal/spell_bundle/update_stack/size_3
+execute if data storage att2:spell_bundle bundle.components."minecraft:custom_data"{Spell_Bundle:1} run function att2:gameplay/dahal/spell_bundle/update_stack/size_1
+execute if data storage att2:spell_bundle bundle.components."minecraft:custom_data"{Spell_Bundle:2} run function att2:gameplay/dahal/spell_bundle/update_stack/size_2
+execute if data storage att2:spell_bundle bundle.components."minecraft:custom_data"{Spell_Bundle:3} run function att2:gameplay/dahal/spell_bundle/update_stack/size_3
 
 ###############launch
 ##get list count
@@ -40,7 +42,7 @@ data modify storage att2:spell_bundle select set value ""
 ##add loop select score
 
 ##limit
-execute if score @s Spell_Bundle >= #Spell_Bundle_Slot CAL run scoreboard players set @s Spell_Bundle 1
+execute if score @s Spell_Bundle > #Spell_Bundle_Slot CAL run scoreboard players set @s Spell_Bundle 1
 
 execute if score @s Spell_Bundle matches 1 if data storage att2:spell_bundle Spell_Bundle_Slot[0] run data modify storage att2:spell_bundle select set from storage att2:spell_bundle Spell_Bundle_Slot[0]
 execute if score @s Spell_Bundle matches 2 if data storage att2:spell_bundle Spell_Bundle_Slot[1] run data modify storage att2:spell_bundle select set from storage att2:spell_bundle Spell_Bundle_Slot[1]

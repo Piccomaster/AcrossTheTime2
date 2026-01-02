@@ -15,7 +15,7 @@ execute if predicate att2_pre:test_hold/rarity/head/unc if score @s TOOLS_UNC ma
 execute if predicate att2_pre:test_hold/rarity/head/rar if score @s TOOLS_RAR matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/head/epi_esc if score @s TOOLS_EPI_ESC matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/head/all_epi unless predicate att2_pre:test_hold/rarity/head/epi_esc if score @s TOOLS_EPI matches 1.. run data modify storage att2:dialog color set value "green"
-execute if predicate att2_pre:test_hold/rarity/head/leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
+execute if predicate att2_pre:test_hold/rarity/head/all_leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/head/ult if score @s TOOLS_ULT matches 1.. run data modify storage att2:dialog color set value "green"
 ##cal durability
 execute store result score #percent CAL run data get entity @s equipment.head.components."minecraft:damage" -100
@@ -49,7 +49,7 @@ execute if predicate att2_pre:test_hold/rarity/chest/unc if score @s TOOLS_UNC m
 execute if predicate att2_pre:test_hold/rarity/chest/rar if score @s TOOLS_RAR matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/chest/epi_esc if score @s TOOLS_EPI_ESC matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/chest/all_epi unless predicate att2_pre:test_hold/rarity/chest/epi_esc if score @s TOOLS_EPI matches 1.. run data modify storage att2:dialog color set value "green"
-execute if predicate att2_pre:test_hold/rarity/chest/leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
+execute if predicate att2_pre:test_hold/rarity/chest/all_leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/chest/ult if score @s TOOLS_ULT matches 1.. run data modify storage att2:dialog color set value "green"
 ##cal durability
 execute store result score #percent CAL run data get entity @s equipment.chest.components."minecraft:damage" -100
@@ -83,7 +83,7 @@ execute if predicate att2_pre:test_hold/rarity/legs/unc if score @s TOOLS_UNC ma
 execute if predicate att2_pre:test_hold/rarity/legs/rar if score @s TOOLS_RAR matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/legs/epi_esc if score @s TOOLS_EPI_ESC matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/legs/all_epi unless predicate att2_pre:test_hold/rarity/legs/epi_esc if score @s TOOLS_EPI matches 1.. run data modify storage att2:dialog color set value "green"
-execute if predicate att2_pre:test_hold/rarity/legs/leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
+execute if predicate att2_pre:test_hold/rarity/legs/all_leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/legs/ult if score @s TOOLS_ULT matches 1.. run data modify storage att2:dialog color set value "green"
 ##cal durability
 execute store result score #percent CAL run data get entity @s equipment.legs.components."minecraft:damage" -100
@@ -117,7 +117,7 @@ execute if predicate att2_pre:test_hold/rarity/feet/unc if score @s TOOLS_UNC ma
 execute if predicate att2_pre:test_hold/rarity/feet/rar if score @s TOOLS_RAR matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/feet/epi_esc if score @s TOOLS_EPI_ESC matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/feet/all_epi unless predicate att2_pre:test_hold/rarity/feet/epi_esc if score @s TOOLS_EPI matches 1.. run data modify storage att2:dialog color set value "green"
-execute if predicate att2_pre:test_hold/rarity/feet/leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
+execute if predicate att2_pre:test_hold/rarity/feet/all_leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/feet/ult if score @s TOOLS_ULT matches 1.. run data modify storage att2:dialog color set value "green"
 ##cal durability
 execute store result score #percent CAL run data get entity @s equipment.feet.components."minecraft:damage" -100
@@ -151,7 +151,7 @@ execute if predicate att2_pre:test_hold/rarity/offhand/unc if score @s TOOLS_UNC
 execute if predicate att2_pre:test_hold/rarity/offhand/rar if score @s TOOLS_RAR matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/offhand/epi_esc if score @s TOOLS_EPI_ESC matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/offhand/all_epi unless predicate att2_pre:test_hold/rarity/offhand/epi_esc if score @s TOOLS_EPI matches 1.. run data modify storage att2:dialog color set value "green"
-execute if predicate att2_pre:test_hold/rarity/offhand/leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
+execute if predicate att2_pre:test_hold/rarity/offhand/all_leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/offhand/ult if score @s TOOLS_ULT matches 1.. run data modify storage att2:dialog color set value "green"
 ##cal durability
 execute store result score #percent CAL run data get entity @s equipment.offhand.components."minecraft:damage" -100
@@ -185,7 +185,7 @@ execute if predicate att2_pre:test_hold/rarity/mainhand/unc if score @s TOOLS_UN
 execute if predicate att2_pre:test_hold/rarity/mainhand/rar if score @s TOOLS_RAR matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/mainhand/epi_esc if score @s TOOLS_EPI_ESC matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/mainhand/all_epi unless predicate att2_pre:test_hold/rarity/mainhand/epi_esc if score @s TOOLS_EPI matches 1.. run data modify storage att2:dialog color set value "green"
-execute if predicate att2_pre:test_hold/rarity/mainhand/leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
+execute if predicate att2_pre:test_hold/rarity/mainhand/all_leg if score @s TOOLS_LEG matches 1.. run data modify storage att2:dialog color set value "green"
 execute if predicate att2_pre:test_hold/rarity/mainhand/ult if score @s TOOLS_ULT matches 1.. run data modify storage att2:dialog color set value "green"
 ##cal durability
 execute store result score #percent CAL run data get entity @s SelectedItem.components."minecraft:damage" -100

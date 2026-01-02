@@ -103,3 +103,7 @@ execute in minecraft:overworld positioned 7216 120 7239 as @s[distance=..6] if s
 execute in minecraft:overworld positioned 7390 128 6414 as @s[distance=..6] if score 94 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/94
 
 execute in minecraft:overworld positioned -4628 72 -5205 as @s[distance=..6] unless score 95 SECRET_SHULKER matches 1 run function att2:advancement/test_all/secret/shulker/95
+
+
+##add new
+execute in minecraft:overworld positioned -4643 70 -5615 as @s[distance=..6] unless score 96 SECRET_SHULKER matches 1 run function att2:advancement/test_all/secret/shulker/96

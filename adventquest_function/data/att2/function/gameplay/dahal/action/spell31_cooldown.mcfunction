@@ -15,6 +15,27 @@ execute if score @s COOLDOWN31 matches 1.. if score tic TIMECOUNTER matches 7 if
 
 #####################modify cooldown icon
 
+##cal percent
+#get lvl
+execute if score @s SPELL31_CAP matches 1 run scoreboard players operation #cooldown_select CAL = lvl1 COOLDOWN31
+execute if score @s SPELL31_CAP matches 2 run scoreboard players operation #cooldown_select CAL = lvl2 COOLDOWN31
+execute if score @s SPELL31_CAP matches 3 run scoreboard players operation #cooldown_select CAL = lvl3 COOLDOWN31
+execute if score @s SPELL31_CAP matches 4 run scoreboard players operation #cooldown_select CAL = lvl4 COOLDOWN31
+execute if score @s SPELL31_CAP matches 5 run scoreboard players operation #cooldown_select CAL = lvl5 COOLDOWN31
+execute if score @s SPELL31_CAP matches 6 run scoreboard players operation #cooldown_select CAL = lvl6 COOLDOWN31
+execute if score @s SPELL31_CAP matches 7 run scoreboard players operation #cooldown_select CAL = lvl7 COOLDOWN31
+execute if score @s SPELL31_CAP matches 8 run scoreboard players operation #cooldown_select CAL = lvl8 COOLDOWN31
+execute if score @s SPELL31_CAP matches 9 run scoreboard players operation #cooldown_select CAL = lvl9 COOLDOWN31
+execute if score @s SPELL31_CAP matches 10 run scoreboard players operation #cooldown_select CAL = lvl10 COOLDOWN31
+scoreboard players operation #cooldown_percent CAL = @s COOLDOWN31
+scoreboard players operation #cooldown_percent CAL *= 10 CAL
+scoreboard players operation #cooldown_percent CAL /= #cooldown_select CAL
+##limit
+execute if score @s COOLDOWN31 matches 1.. run scoreboard players add #cooldown_percent CAL 1
+execute unless score @s COOLDOWN31 matches 1.. run scoreboard players set #cooldown_percent CAL 0
+##Test whether the percentage has changed.
+execute if score @s CDPERCENT31 = #cooldown_percent CAL run return fail
+
 ###reset
 data modify storage att2:cooldown spell_data set value ""
 data modify storage att2:cooldown slot set value ""
@@ -44,24 +65,6 @@ execute if items entity @s player.crafting.3 minecraft:enchanted_book[custom_dat
 ##test if unless ->stop replace
 execute unless score #Spell_Existence CAL matches 1 run return 0
 
-##cal percent
-#get lvl
-execute if score @s SPELL31_CAP matches 1 run scoreboard players operation #cooldown_select CAL = lvl1 COOLDOWN31
-execute if score @s SPELL31_CAP matches 2 run scoreboard players operation #cooldown_select CAL = lvl2 COOLDOWN31
-execute if score @s SPELL31_CAP matches 3 run scoreboard players operation #cooldown_select CAL = lvl3 COOLDOWN31
-execute if score @s SPELL31_CAP matches 4 run scoreboard players operation #cooldown_select CAL = lvl4 COOLDOWN31
-execute if score @s SPELL31_CAP matches 5 run scoreboard players operation #cooldown_select CAL = lvl5 COOLDOWN31
-execute if score @s SPELL31_CAP matches 6 run scoreboard players operation #cooldown_select CAL = lvl6 COOLDOWN31
-execute if score @s SPELL31_CAP matches 7 run scoreboard players operation #cooldown_select CAL = lvl7 COOLDOWN31
-execute if score @s SPELL31_CAP matches 8 run scoreboard players operation #cooldown_select CAL = lvl8 COOLDOWN31
-execute if score @s SPELL31_CAP matches 9 run scoreboard players operation #cooldown_select CAL = lvl9 COOLDOWN31
-execute if score @s SPELL31_CAP matches 10 run scoreboard players operation #cooldown_select CAL = lvl10 COOLDOWN31
-scoreboard players operation #cooldown_percent CAL = @s COOLDOWN31
-scoreboard players operation #cooldown_percent CAL *= 10 CAL
-scoreboard players operation #cooldown_percent CAL /= #cooldown_select CAL
-##limit
-execute if score @s COOLDOWN31 matches 1.. run scoreboard players add #cooldown_percent CAL 1
-execute unless score @s COOLDOWN31 matches 1.. run scoreboard players set #cooldown_percent CAL 0
 ##modify custom_model_data
 execute store result storage att2:cooldown spell_data.components."minecraft:custom_model_data".floats[0] int 1 run scoreboard players get #cooldown_percent CAL
 
@@ -72,6 +75,8 @@ execute if score @s COOLDOWN31 matches 1.. run data remove storage att2:cooldown
 
 ##reset
 scoreboard players set @s[scores={COOLDOWN31=..0}] COOLDOWN31 -100
+##sync percent
+scoreboard players operation @s CDPERCENT31 = #cooldown_percent CAL
 
 ##replace world entity
 data modify entity 00000001-0000-006f-0000-00010000006f equipment.mainhand set from storage att2:cooldown spell_data

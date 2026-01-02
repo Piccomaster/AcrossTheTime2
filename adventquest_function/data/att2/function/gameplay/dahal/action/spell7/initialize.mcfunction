@@ -10,7 +10,7 @@ scoreboard objectives add SPELL7_CAP dummy
 scoreboard objectives add SPELL7_OP dummy
 #scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL7_DATA dummy
-scoreboard players set @s COOLDOWN7 0
+scoreboard players set @s COOLDOWN7 -100
 scoreboard players set @s SPELL7_LVL 0
 scoreboard players set 10 SPELL7_OP 10
 scoreboard players set 20 SPELL7_OP 20
@@ -61,4 +61,5 @@ scoreboard players set SP7_9 DAHAL_COST 160
 scoreboard players set SP7_10 DAHAL_COST 180
 ##add spell cost dummy
 scoreboard objectives add SPELL7_COST dummy
+scoreboard objectives add CDPERCENT7 dummy
 scoreboard players operation @s SPELL7_COST = SP7_1 DAHAL_COST

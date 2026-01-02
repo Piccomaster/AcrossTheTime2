@@ -30,7 +30,7 @@ scoreboard players set @s recycle_select_leg 0
 scoreboard players set @s recycle_select_ult 0
 
 scoreboard players set @s spell31_run 0
-scoreboard players set @s COOLDOWN31 0
+scoreboard players set @s COOLDOWN31 -100
 scoreboard players set @s SPELL31_LVL 0
 scoreboard players set @s SPELL31_CAP 1
 scoreboard players set cap1 SPELL31_LVL 0
@@ -83,4 +83,5 @@ scoreboard players set SP31_9 DAHAL_COST 350
 scoreboard players set SP31_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL31_COST dummy
+scoreboard objectives add CDPERCENT31 dummy
 scoreboard players operation @s SPELL31_COST = SP31_1 DAHAL_COST

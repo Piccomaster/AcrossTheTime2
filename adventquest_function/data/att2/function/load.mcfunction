@@ -13,3 +13,6 @@ execute in overworld positioned 727 77 823 run forceload add ~ ~
 execute in overworld positioned 756 77 843 run forceload add ~ ~
 ##clear redstone_block
 fill 754 86 768 754 86 727 air
+
+##system add
+scoreboard objectives add SYSTEM dummy

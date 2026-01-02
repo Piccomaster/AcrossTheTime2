@@ -18,6 +18,18 @@
   "supported_items": "#minecraft:enchantable/durability",
   "effects": {
     "minecraft:prevent_equipment_drop": {},
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:max_health",
+        "id": "minecraft:spell46_reduce_max_health",
+        "operation": "add_value",
+        "amount": {
+          "type": "linear",
+          "base": -1,
+          "per_level_above_first": -1
+        }
+      }
+    ],
     "tick": [
       {
         "effect": {

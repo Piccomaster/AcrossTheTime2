@@ -104,7 +104,7 @@ function att2:gameplay/consciousness/insert/equipment_swap_sprite with storage a
 data modify storage att2:equipment_swap components set from storage att2:equipment_swap temp_data.slot2.feet.components
 function att2:gameplay/consciousness/insert/equipment_swap_lore
 ##replace
-data modify storage att2:dialog equipment_swap append value {label:{translate:consciousness.equipment_swap.confirm,color:yellow},tooltip:{translate:consciousness.equipment_swap.confirm.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 3457"},width:100}
+data modify storage att2:dialog equipment_swap append value {label:{translate:consciousness.equipment_swap.confirm,color:yellow},tooltip:{translate:consciousness.equipment_swap.confirm.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 3458"},width:100}
 
 #Slot 3
 #############head
@@ -152,7 +152,7 @@ function att2:gameplay/consciousness/insert/equipment_swap_sprite with storage a
 data modify storage att2:equipment_swap components set from storage att2:equipment_swap temp_data.slot3.feet.components
 function att2:gameplay/consciousness/insert/equipment_swap_lore
 ##replace
-data modify storage att2:dialog equipment_swap append value {label:{translate:consciousness.equipment_swap.confirm,color:yellow},tooltip:{translate:consciousness.equipment_swap.confirm.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 3457"},width:100}
+data modify storage att2:dialog equipment_swap append value {label:{translate:consciousness.equipment_swap.confirm,color:yellow},tooltip:{translate:consciousness.equipment_swap.confirm.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 3459"},width:100}
 
 #Slot 4
 #############head
@@ -200,7 +200,7 @@ function att2:gameplay/consciousness/insert/equipment_swap_sprite with storage a
 data modify storage att2:equipment_swap components set from storage att2:equipment_swap temp_data.slot4.feet.components
 function att2:gameplay/consciousness/insert/equipment_swap_lore
 ##replace
-data modify storage att2:dialog equipment_swap append value {label:{translate:consciousness.equipment_swap.confirm,color:yellow},tooltip:{translate:consciousness.equipment_swap.confirm.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 3457"},width:100}
+data modify storage att2:dialog equipment_swap append value {label:{translate:consciousness.equipment_swap.confirm,color:yellow},tooltip:{translate:consciousness.equipment_swap.confirm.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 3460"},width:100}
 
 ##show_dialog
 function att2:gameplay/consciousness/equipment_swap_show with storage att2:dialog

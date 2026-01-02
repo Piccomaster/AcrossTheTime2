@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:iron_leggings",
       "components": {
-        "tooltip_style": "minecraft:rarity/rar/rar"
+        "tooltip_style": "minecraft:rarity/epi/epi"
       }
     },
     "title": {

@@ -17,9 +17,10 @@ execute if score @s SPELL46_SLCT matches 8 run scoreboard players set #reduce_he
 execute if score @s SPELL46_SLCT matches 9 run scoreboard players set #reduce_health CAL 36
 execute if score @s SPELL46_SLCT matches 10 run scoreboard players set #reduce_health CAL 40
 ##max
-scoreboard players operation #max_health CAL -= #reduce_health CAL
-execute if score #max_health CAL matches ..20 run scoreboard players remove #reduce_health CAL 20
-scoreboard players operation #reduce_health CAL > 0 CAL
+#scoreboard players operation #max_health CAL -= #reduce_health CAL
+#execute if score #max_health CAL matches ..20 store result score #reduce_health CAL run attribute @s max_health get
+#execute if score #max_health CAL matches ..20 run scoreboard players remove #reduce_health CAL 20
+#scoreboard players operation #reduce_health CAL > 0 CAL
 ##storage
 execute store result storage att2:score count int 1 run scoreboard players get #reduce_health CAL
 ##update enchantments tick

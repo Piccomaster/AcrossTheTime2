@@ -32,6 +32,10 @@
 #27-spell43
 #28-spell44
 #29-spell45
+#30-spell29
+#31-spell33
+#32-spell35
+#33-spell46
 
 #get Spell_Count count
 execute store result score Spell_Count MatchingGame if data storage att2:matching_game temp_form[{translate:"matching_game.spell.unlock"}]
@@ -47,7 +51,7 @@ scoreboard players operation @s MatchingGame = Spell_Count MatchingGame
 ##add spell xp
 
 #get random score
-execute store result score SpellId MatchingGame run random value 1..29
+execute store result score SpellId MatchingGame run random value 1..33
 
 ##spell select limit
 execute if score SpellId MatchingGame matches 1 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL1_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell1_loot":false}}}}]} run scoreboard players add SpellId MatchingGame 1
@@ -78,7 +82,15 @@ execute if score SpellId MatchingGame matches 25 if predicate {condition:any_of,
 execute if score SpellId MatchingGame matches 26 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL42_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell42_loot":false}}}}]} run scoreboard players add SpellId MatchingGame 1
 execute if score SpellId MatchingGame matches 27 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL43_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell43_loot":false}}}}]} run scoreboard players add SpellId MatchingGame 1
 execute if score SpellId MatchingGame matches 28 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL44_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell44_loot":false}}}}]} run scoreboard players add SpellId MatchingGame 1
+execute if score SpellId MatchingGame matches 29 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL45_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell45_loot":false}}}}]} run scoreboard players add SpellId MatchingGame 1
+execute if score SpellId MatchingGame matches 30 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL29_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell29_loot":false}}}}]} run scoreboard players add SpellId MatchingGame 1
+execute if score SpellId MatchingGame matches 31 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL33_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell33_loot":false}}}}]} run scoreboard players add SpellId MatchingGame 1
+execute if score SpellId MatchingGame matches 32 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL35_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell35_loot":false}}}}]} run scoreboard players add SpellId MatchingGame 1
 
+execute if score SpellId MatchingGame matches 33 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL46_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell46_loot":false}}}}]} run scoreboard players remove SpellId MatchingGame 1
+execute if score SpellId MatchingGame matches 32 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL35_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell35_loot":false}}}}]} run scoreboard players remove SpellId MatchingGame 1
+execute if score SpellId MatchingGame matches 31 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL33_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell33_loot":false}}}}]} run scoreboard players remove SpellId MatchingGame 1
+execute if score SpellId MatchingGame matches 30 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL29_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell29_loot":false}}}}]} run scoreboard players remove SpellId MatchingGame 1
 execute if score SpellId MatchingGame matches 29 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL45_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell45_loot":false}}}}]} run scoreboard players remove SpellId MatchingGame 1
 execute if score SpellId MatchingGame matches 28 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL44_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell44_loot":false}}}}]} run scoreboard players remove SpellId MatchingGame 1
 execute if score SpellId MatchingGame matches 27 if predicate {condition:any_of,terms:[{condition:"minecraft:entity_scores",entity:this,scores:{SPELL43_CAP:{min:10}}},{condition:"minecraft:entity_properties",entity:this,predicate:{type_specific:{type:player,advancements:{"att2:dahal/spell43_loot":false}}}}]} run scoreboard players remove SpellId MatchingGame 1

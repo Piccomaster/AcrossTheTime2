@@ -5,6 +5,9 @@
 
 ##replace hand
 
+##set cooldown score
+scoreboard players set @s CDPERCENT33 11
+
 ##lvl1
 execute if score @s SPELL33_SLCT matches 1 if items entity @s weapon.mainhand written_book[custom_data~{Dahal:book,Spell:33}] run return run item replace entity @s weapon.mainhand with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/33",custom_data={Dahal:"launcher",Spell:33,Spell33:true},custom_name={translate:"att2.spell33.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:trident,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell33,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/com/com"]
 execute if score @s SPELL1_SLCT matches 1 if items entity @s weapon.offhand written_book[custom_data~{Dahal:book,Spell:33}] run return run item replace entity @s weapon.offhand with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/33",custom_data={Dahal:"launcher",Spell:33,Spell33:true},custom_name={translate:"att2.spell33.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3}],consumable={animation:trident,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell33,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/com/com"]

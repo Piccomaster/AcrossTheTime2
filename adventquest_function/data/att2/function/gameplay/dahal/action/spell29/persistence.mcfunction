@@ -6,6 +6,8 @@
 ##limit
 execute if score @s SUMMON_TIMER matches 1.. run return fail
 
+ride @s dismount
+
 ##get spell owner score
 function att2:gameplay/score/owner
 # Particle

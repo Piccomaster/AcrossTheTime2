@@ -8,7 +8,7 @@ scoreboard objectives add SPELL11_LVL dummy
 scoreboard objectives add SPELL11_CAP dummy
 scoreboard objectives add SPELL11_OP dummy
 scoreboard objectives add SPELL11_MUSIC dummy
-scoreboard players set @s COOLDOWN11 0
+scoreboard players set @s COOLDOWN11 -100
 scoreboard players set @s SPELL11_LVL 0
 scoreboard players set @s SPELL11_CAP 1
 scoreboard players set @s SPELL11_MUSIC 1
@@ -48,4 +48,5 @@ scoreboard players set SP11_10 DAHAL_COST 22
 scoreboard players set SP11_start DAHAL_COST 50
 ##add spell cost dummy
 scoreboard objectives add SPELL11_COST dummy
+scoreboard objectives add CDPERCENT11 dummy
 scoreboard players operation @s SPELL11_COST = SP11_1 DAHAL_COST

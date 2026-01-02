@@ -34,7 +34,7 @@ scoreboard players set @s SPELL32_SET 0
 scoreboard players set @s SPELL32_TP 0
 scoreboard players set @s SPELL32_PROCESS_EFFCT 0
 scoreboard players set @s SPELL32_TP_EFFCT 0
-scoreboard players set @s COOLDOWN32 0
+scoreboard players set @s COOLDOWN32 -100
 scoreboard players set @s SPELL32_LVL 0
 scoreboard players set @s SPELL32_CAP 1
 scoreboard players set cap1 SPELL32_LVL 0
@@ -58,4 +58,5 @@ scoreboard players set SP32_4 DAHAL_COST 350
 scoreboard players set SP32_5 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL32_COST dummy
+scoreboard objectives add CDPERCENT32 dummy
 scoreboard players operation @s SPELL32_COST = SP32_1 DAHAL_COST
