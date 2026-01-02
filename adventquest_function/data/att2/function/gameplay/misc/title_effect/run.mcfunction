@@ -10,3 +10,5 @@ scoreboard players set @s TITLE_EFFECT 1
 title @s actionbar {translate:att2.title.display.run}
 #reset dialog
 function att2:gameplay/consciousness/title_particle
+
+function att2:gameplay/misc/title_effect/summon

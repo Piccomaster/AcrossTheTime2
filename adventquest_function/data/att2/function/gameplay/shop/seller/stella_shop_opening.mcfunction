@@ -21,3 +21,4 @@ execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/game
 function att2:dialogs/gameplay/shop/items_selled_list/spell_alteration_list
 function att2:dialogs/gameplay/shop/showcase/spell/absorption
 function att2:dialogs/gameplay/shop/showcase/spell/guerison
+function att2:dialogs/gameplay/shop/showcase/spell/blood_transmutation
