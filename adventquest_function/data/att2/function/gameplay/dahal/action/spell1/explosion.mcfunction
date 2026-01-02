@@ -18,5 +18,5 @@ $execute align xyz positioned ~-$(distance) ~-$(distance) ~-$(distance) as @e[dx
 ##pot detect
 execute at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function att2:gameplay/misc/pot/fire_ball_detect
 ##clear @s
-execute on vehicle run kill @s[type=snowball]
-kill @s[type=fireball]
+execute on vehicle run kill @s[type=fireball]
+kill @s[type=armor_stand]

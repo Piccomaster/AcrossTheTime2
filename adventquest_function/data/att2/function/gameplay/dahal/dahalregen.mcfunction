@@ -11,7 +11,7 @@ scoreboard players operation @s DAHAL_TICK += @s OP_DAHAL
 ##max
 scoreboard players operation #dahalmax CAL = @s DAHALMAX
 scoreboard players operation #dahalmax CAL *= 20 CAL
-scoreboard players operation @s DAHAL_TICK < #DAHALMAX CAL
+scoreboard players operation @s DAHAL_TICK < #dahalmax CAL
 ##-> dahal
 scoreboard players operation #DAHAL_TICK CAL = @s DAHAL_TICK
 scoreboard players operation #DAHAL_TICK CAL /= 20 CAL

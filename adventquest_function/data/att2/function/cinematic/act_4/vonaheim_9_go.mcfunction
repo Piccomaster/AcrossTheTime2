@@ -3,7 +3,7 @@
 #Process cinematic vonaheim_9  					 #
 ##################################################
 
-execute if score Real0 TIMER matches 1..250 run function att2:gameplay/speceffect/disincarnate/keep/
+execute if score Real0 TIMER matches 1..250 run function att2:gameplay/speceffect/disincarnate/keep/real0
 execute if score Real0 TIMER matches 1..250 run data modify storage att2:performance rotation set value [-135,25]
 
 execute if score Real0 TIMER matches 1 positioned -5550 135 -6363 as @a[x=-5544,y=142,z=-6369,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/real0

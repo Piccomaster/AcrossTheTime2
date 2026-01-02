@@ -11,7 +11,7 @@ function att2:advancement/test_all/adventure/inn
 ##MYTHICAL SASTR
 execute as @a run function att2:advancement/test_all/adventure/sastr
 ##ENDER CHEST
-advancement grant @a[scores={statENDERCHEST=1..}] only att2:adventure/ether_chest
+#advancement grant @a[scores={statENDERCHEST=1..}] only att2:adventure/ether_chest
 ##SURVIVE (TIME SINCE DEATH)
 execute as @a run function att2:advancement/test_all/adventure/survive
 # APOTHEOSIS

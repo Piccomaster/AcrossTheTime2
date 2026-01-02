@@ -25,7 +25,7 @@ data modify entity @s CustomName set from entity @s Item.components."minecraft:c
 #reset
 data modify storage att2:item rarity set value ""
 #get data
-data modify storage att2:item rarity set from entity @s Item.components."minecraft:custom_data"
+data modify storage att2:item rarity set from storage att2:item data.Item.components."minecraft:custom_data"
 
 #test equipment
 execute if data storage att2:item rarity{Rarity:cur} run return run function att2:gameplay/misc/itemrarity_color/rarity/0

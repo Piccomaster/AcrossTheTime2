@@ -8,7 +8,7 @@
 execute as @a at @s run function att2:gameplay/dahal/action/cooldown
 
 #Manage persistence of spell
-execute as @e[type=fireball,tag=FireballSpell] at @s run function att2:gameplay/dahal/action/spell1/persistence
+#execute as @e[type=fireball,tag=FireballSpell] at @s run function att2:gameplay/dahal/action/spell1/persistence
 execute as @e[type=minecraft:wither_skull,scores={SPELL3_SKULL=0..}] run function att2:gameplay/dahal/action/spell3/persistence
 #execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run function att2:gameplay/dahal/action/spell5/persistence
 #execute as @e[type=armor_stand,scores={SPELL6_EFFECT=0..}] at @s run function att2:gameplay/dahal/action/spell6/persistence

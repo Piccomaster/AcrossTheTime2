@@ -20,3 +20,6 @@ scoreboard players set all_items_count ENDERCHEST 0
 
 ##data initialize
 execute unless data storage att2:ender_chest all_items[0] run data modify storage att2:ender_chest all_items set value []
+
+##summon marker
+function att2:gameplay/misc/ender_chest/summon

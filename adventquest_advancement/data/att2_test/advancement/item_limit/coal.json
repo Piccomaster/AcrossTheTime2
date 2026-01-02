@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/forbiddenentity/item/coal"
+    },
+    "criteria": {
+        "coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:coal"
+                    }
+                ]
+            }
+        }
+    }
+}

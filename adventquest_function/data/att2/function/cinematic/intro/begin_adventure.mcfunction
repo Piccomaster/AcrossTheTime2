@@ -4,7 +4,7 @@
 #####################################################
 
 # Getting Player number registered + Security stop language choice
-fill 783 80 893 804 83 893 minecraft:glass
+fill 784 82 892 804 80 892 minecraft:glass destroy
 # Reset begin proposal
 setblock 641 87 1088 minecraft:air
 # Reset time clock

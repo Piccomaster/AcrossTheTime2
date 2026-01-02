@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ender_chest"
+        },
+        "title": {"translate":"att2.advancement.progress.title.ender_chest_2000"},
+        "description": {"translate":"att2.advancement.progress.description.ender_chest_2000"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/ender_chest_500",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "ender_chest_2000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

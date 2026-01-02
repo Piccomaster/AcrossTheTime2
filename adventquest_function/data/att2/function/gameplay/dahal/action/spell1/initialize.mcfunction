@@ -6,9 +6,9 @@
 scoreboard objectives add COOLDOWN1 dummy
 scoreboard objectives add SPELL1_LVL dummy
 scoreboard objectives add SPELL1_CAP dummy
-scoreboard objectives add SPELL1_TIMER dummy
+scoreboard objectives add SPELL1_LAUNCH dummy
 scoreboard objectives add Fire_Melting dummy
-
+scoreboard players set @s SPELL1_LAUNCH 1
 scoreboard players set @s COOLDOWN1 -100
 scoreboard players set @s SPELL1_LVL 0
 scoreboard players set @s SPELL1_CAP 1

@@ -24,4 +24,4 @@ execute if score @s SPELL32_SET_OR_TP matches 4 run function att2:gameplay/dahal
 #mainhand
 execute unless score Spell_Bundle_Slot_Test CAL matches 1 if items entity @s weapon.mainhand enchanted_book[custom_data~{Spell:32}] run function att2:gameplay/dahal/action/replace/mainhand
 #offhand
-execute unless score Spell_Bundle_Slot_Test CAL matches 1 if items entity @s weapon.offhand enchanted_book[custom_data~{Spell:32}] run function att2:gameplay/dahal/action/replace/mainhand
+execute unless score Spell_Bundle_Slot_Test CAL matches 1 if items entity @s weapon.offhand enchanted_book[custom_data~{Spell:32}] run function att2:gameplay/dahal/action/replace/offhand
