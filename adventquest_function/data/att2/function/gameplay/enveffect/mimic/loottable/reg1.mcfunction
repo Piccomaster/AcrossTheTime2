@@ -17,7 +17,7 @@ execute if score CLASS MIMIC matches 20..24 run tag @s add CLASS5
 execute if score CLASS MIMIC matches 25..29 run tag @s add CLASS6
 execute if score CLASS MIMIC matches 30..34 run tag @s add CLASS7
 execute if score CLASS MIMIC matches 35..39 run tag @s add CLASS8
-execute if score CLASS MIMIC matches 40..41 run tag @s add CLASS9
+execute if score CLASS MIMIC matches 40..44 run tag @s add CLASS9
 execute if score CLASS MIMIC matches 45..49 run tag @s add CLASS10
 execute if score CLASS MIMIC matches 50..54 run tag @s add CLASS11
 execute if score CLASS MIMIC matches 55..59 run tag @s add CLASS12

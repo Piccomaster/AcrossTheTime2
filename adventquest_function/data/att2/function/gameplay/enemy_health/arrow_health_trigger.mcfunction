@@ -34,7 +34,7 @@ function att2:gameplay/healthbar/detection_enemy
 scoreboard players set #reduce_health CAL 0
 execute if score @s ENEMYHEALTH matches ..0 run tag @s add killed
 execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run function att2:advancement/test_all/weapon/bow_kill
-execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run return run damage @n[distance=..0,team=hostile] 7777777777777777 att2_damage:arrow by @s
+execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run return run damage @n[distance=..0,tag=killed] 7777777777777777 att2_damage:arrow by @s
 
 ##make health trigger full
 effect clear @s absorption

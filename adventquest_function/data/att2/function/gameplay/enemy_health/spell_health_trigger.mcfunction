@@ -33,7 +33,7 @@ execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_heal
 function att2:gameplay/healthbar/detection_enemy
 scoreboard players set #reduce_health CAL 0
 execute if score @s ENEMYHEALTH matches ..0 run tag @s add killed
-execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run damage @n[distance=..0,team=hostile] 7777777777777777 att2_damage:magic by @s
+execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run damage @n[distance=..0,tag=killed] 7777777777777777 att2_damage:magic by @s
 execute if score @s ENEMYHEALTH matches ..0 run data modify entity @s Health set value 0
 
 ##make health trigger full

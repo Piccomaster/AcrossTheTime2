@@ -16,3 +16,6 @@ scoreboard players operation #LEVELETERNAN CAL < 100 CAL
 #add absorption health
 scoreboard players operation @s ENEMYABHEALTH += #LEVELMASTER CAL
 scoreboard players operation @s ENEMYABHEALTH += #LEVELETERNAN CAL
+
+##master level -> more mechanics
+execute if entity @a[distance=..50,scores={LEVELMASTER=1..}] as @s[tag=!PlayerAlly] run function att2:gameplay/leveling/monster/master_mechanics/data_set

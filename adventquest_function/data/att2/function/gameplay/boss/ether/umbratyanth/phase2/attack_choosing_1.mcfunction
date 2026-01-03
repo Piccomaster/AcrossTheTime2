@@ -11,5 +11,11 @@ function att2:physicmod/reg1/ether/umbra_shulkerdark
 function att2:physicmod/reg1/ether/umbra_darkray_false
 ##actually random
 execute store result score Attack UMBRATYANTH run random value 1..5
+#make attack always first trigger
+execute unless score oneshot statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 1
+execute unless score cage statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 2
+execute unless score charge statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 3
+execute unless score crown statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 4
+execute unless score blackhole statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 5
 
 execute at @a run function att2:sound/mobs/umbratyanth_attack

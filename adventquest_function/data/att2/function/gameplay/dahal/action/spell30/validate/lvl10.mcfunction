@@ -17,26 +17,25 @@ execute as @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/leg,pre
 execute as @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/leg_armset,predicate=!att2_pre:recycle/error] run function att2:gameplay/dahal/action/spell30/count/leg_armset
 execute as @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/ult,predicate=!att2_pre:recycle/error] run function att2:gameplay/dahal/action/spell30/count/ult
 
-scoreboard players operation arrow SPELL30 *= 10 SPELL30
-scoreboard players operation misc SPELL30 *= 10 SPELL30
-scoreboard players operation com SPELL30 *= 100 SPELL30
-scoreboard players operation unc SPELL30 *= 250 SPELL30
-scoreboard players operation rar SPELL30 *= 500 SPELL30
-scoreboard players operation epi SPELL30 *= 2250 SPELL30
-scoreboard players operation epi_set SPELL30 *= 4500 SPELL30
-scoreboard players operation leg SPELL30 *= 15000 SPELL30
-scoreboard players operation leg_armset SPELL30 *= 25000 SPELL30
-scoreboard players operation ult SPELL30 *= 50000 SPELL30
+scoreboard players set xp SPELL30 10
+scoreboard players operation arrow SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 10
+scoreboard players operation misc SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 100
+scoreboard players operation com SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 250
+scoreboard players operation unc SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 500
+scoreboard players operation rar SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 2250
+scoreboard players operation epi SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 4500
+scoreboard players operation epi_set SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 15000
+scoreboard players operation leg SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 25000
+scoreboard players operation leg_armset SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 50000
+scoreboard players operation ult SPELL30 *= xp SPELL30
 
 function att2:gameplay/dahal/action/spell30/xpprocess
-
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/arrow]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/misc]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/com]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/unc]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/rar]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/epi]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/epi_set]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/leg]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/leg_armset]
-kill @e[type=item,distance=..7,limit=50,predicate=att2_pre:recycle/ult]

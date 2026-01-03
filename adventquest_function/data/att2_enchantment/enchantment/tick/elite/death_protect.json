@@ -1,0 +1,54 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": ""
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/leveling/monster/master_mechanics/death_protect_go"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

@@ -11,7 +11,8 @@ execute as @e[type=minecraft:shulker_bullet,x=-5158,y=110,z=-6911,dx=82,dy=50,dz
 execute as @e[type=minecraft:enderman,x=-5158,y=110,z=-6911,dx=82,dy=50,dz=82] run kill @s
 execute as @e[type=minecraft:creeper,x=-5158,y=110,z=-6911,dx=82,dy=50,dz=82] run kill @s
 execute as @e[type=minecraft:ghast,x=-5158,y=110,z=-6911,dx=82,dy=50,dz=82] run kill @s
-execute as @e[type=minecraft:vex,x=-5158,y=110,z=-6911,dx=82,dy=50,dz=82] run kill @s
+execute as @e[type=minecraft:vex,x=-5158,y=110,z=-6911,dx=82,dy=50,dz=82,team=hostile] run kill @s
+execute as @e[type=minecraft:vex,x=-5158,y=110,z=-6911,dx=82,dy=50,dz=82,tag=UmbraVex] run kill @s
 
 execute as @e[type=minecraft:silverfish,tag=LightPoint] run kill @s
 execute as @e[type=minecraft:silverfish,tag=DarkRay] run kill @s

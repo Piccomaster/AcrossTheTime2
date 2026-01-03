@@ -6,6 +6,8 @@
 #Use Power Ray to eliminate Miehanov and Vonaheim.
 #############################################################
 
+#limit
+execute unless score eolorion_dailyquest_8 DAILYQUEST matches -1.. run return fail
 
 ##test if over
 execute if score eolorion_dailyquest_8_kill_miehanov DAILYQUEST >= eolorion_dailyquest_8_kill_miehanov_requirement DAILYQUEST run return 0

@@ -56,3 +56,6 @@ team modify ally collisionRule pushOwnTeam
 team modify ally friendlyFire false
 team modify ally seeFriendlyInvisibles false
 team join ally @s
+
+##initialize master_mechanics
+function att2:gameplay/leveling/monster/master_mechanics/initialize

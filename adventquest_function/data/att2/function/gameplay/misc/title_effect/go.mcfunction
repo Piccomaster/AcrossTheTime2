@@ -27,4 +27,4 @@ execute as @s[scores={TITLE_EFFECT=1,TITLE_ID=131..}] at @s run function att2:ga
 
 ##
 function att2:gameplay/score/player
-execute at @s positioned ~ ~2 ~ run tp @n[type=text_display,tag=Title,predicate=att2_pre:score/owner] ~ ~ ~ ~ 0
+execute at @s anchored eyes positioned ^ ^ ^ run tp @n[type=text_display,tag=Title,predicate=att2_pre:score/owner] ~ ~0.5 ~ ~ 0
