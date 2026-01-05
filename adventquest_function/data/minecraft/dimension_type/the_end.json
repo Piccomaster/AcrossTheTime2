@@ -23,9 +23,9 @@
       "explodes": true
     },
     "minecraft:gameplay/respawn_anchor_works": false,
-    "minecraft:visual/fog_color": "#181318",
-    "minecraft:visual/sky_color": "#000000",
-    "minecraft:visual/sky_light_color": "#e580ff",
+    "minecraft:visual/fog_color": "#21880c",
+    "minecraft:visual/sky_color": "#21880c",
+    "minecraft:visual/sky_light_color": "#21880c",
     "minecraft:visual/sky_light_factor": 0.0,
     "minecraft:gameplay/bees_stay_in_hive": false,
     "gameplay/monsters_burn": false,

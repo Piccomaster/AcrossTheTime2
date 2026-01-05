@@ -3,6 +3,11 @@
 #Initialize enchantment                    						#
 #################################################################
 
+##test near
+#scoreboard players set @s ElytraRacingTime 1
+execute unless entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker] run scoreboard players set @s ElytraRacingTime -1
+
+#execute if score @s ElytraRacing matches 0.. run return fail
 ##test fiying effect
 execute if score @s SuperDash matches 100..200 run return run scoreboard players remove @s SuperDash 1
 
