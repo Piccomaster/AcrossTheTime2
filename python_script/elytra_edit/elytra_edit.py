@@ -1,6 +1,5 @@
 import os
 import re
-import json
 
 def convert_uuid_format(uuid_parts):
     """
@@ -34,71 +33,6 @@ def convert_uuid_format(uuid_parts):
             
     except (ValueError, IndexError):
         return None
-
-def extract_coords_from_setblock(command):
-    """
-    Extract coordinate array from a setblock command containing route data
-    """
-    # Method 1: Try to find route:[[...]] pattern using regex
-    pattern = r'route:\s*\[(.*?)\]'
-    match = re.search(pattern, command, re.DOTALL)
-    
-    if match:
-        route_data = match.group(1)
-        print(f"Found route data via regex: {route_data[:100]}...")
-    else:
-        # Method 2: Try to extract the entire JSON-like structure
-        # Look for the Items array and extract from there
-        items_pattern = r'Items:\s*\[(.*?)\]'
-        match = re.search(items_pattern, command, re.DOTALL)
-        
-        if match:
-            items_data = match.group(1)
-            # Now try to find route data within items
-            route_pattern = r'route:\s*\[(.*?)\]'
-            route_match = re.search(route_pattern, items_data, re.DOTALL)
-            
-            if route_match:
-                route_data = route_match.group(1)
-                print(f"Found route data via items extraction: {route_data[:100]}...")
-            else:
-                print("Error: Could not find route data in Items")
-                return None
-        else:
-            print("Error: Could not find Items data")
-            return None
-    
-    if not route_data:
-        return None
-    
-    # Clean and parse the coordinate data
-    coordinates = []
-    
-    # Remove newlines and extra spaces
-    route_data = route_data.replace('\n', '').replace('\r', '')
-    
-    # Split by ],[ to get individual coordinates
-    # Handle the format: [-5719.5d,48.88366063661082d,-4586.5d],[-5703.5d,51.49517045463849d,-4595.5d],...
-    coord_strings = []
-    
-    # Simple parsing: find all [...]
-    bracket_pattern = r'\[(.*?)\]'
-    bracket_matches = re.findall(bracket_pattern, route_data)
-    
-    for bracket_content in bracket_matches:
-        parts = bracket_content.split(',')
-        if len(parts) == 3:
-            try:
-                # Remove 'd' suffix if present
-                x = float(parts[0].replace('d', ''))
-                y = float(parts[1].replace('d', ''))
-                z = float(parts[2].replace('d', ''))
-                coordinates.append([x, y, z])
-            except ValueError as e:
-                print(f"Could not parse coordinate {bracket_content}: {e}")
-                continue
-    
-    return coordinates
 
 def manual_extract_coords(command):
     """
@@ -160,31 +94,13 @@ def main():
     if 'route:[' in user_input and ('minecraft:custom_data' in user_input or 'Items:' in user_input):
         print("Detected setblock command with route data. Extracting coordinates...")
         
-        # First try manual extraction (more reliable for complex cases)
+        # Try manual extraction
         coordinates = manual_extract_coords(user_input)
         
         if not coordinates:
-            print("Trying regex extraction...")
-            coordinates = extract_coords_from_setblock(user_input)
-        
-        if not coordinates:
             print("Error: Could not extract coordinates from the setblock command.")
-            print("Attempting direct parsing...")
-            
-            # Last resort: try to find all coordinate-like patterns
-            coord_pattern = r'\[(-?\d+\.?\d*d?),(-?\d+\.?\d*d?),(-?\d+\.?\d*d?)\]'
-            matches = re.findall(coord_pattern, user_input)
-            
-            coordinates = []
-            for match in matches:
-                try:
-                    x = float(match[0].replace('d', ''))
-                    y = float(match[1].replace('d', ''))
-                    z = float(match[2].replace('d', ''))
-                    coordinates.append([x, y, z])
-                except ValueError:
-                    continue
-            
+            return
+        
     else:
         # Process as direct coordinate array
         coords_str = user_input.replace('d', '').replace(' ', '')  # Remove 'd' and spaces
@@ -211,59 +127,98 @@ def main():
     
     print(f"Successfully extracted {len(coordinates)} coordinate points")
     
-    print("Enter city name:")
-    city_name = input().strip()
+    print("Enter function name (will be converted to lowercase for filename):")
+    function_name = input().strip()
+    
+    # Convert to lowercase for filename
+    filename_lower = function_name.lower()
     
     # Fixed UUID base values
     uuid_base = [697689, 848265, 7775]
     print(f"Using fixed UUID base values: {uuid_base}")
     
+    # Ask for UUID starting number with default value
+    print("Enter UUID starting number (default is 1):")
+    start_num_input = input().strip()
+    
+    if start_num_input == "":
+        start_num = 1
+    else:
+        try:
+            start_num = int(start_num_input)
+            if start_num < 1:
+                print("Starting number must be at least 1. Using default value 1.")
+                start_num = 1
+        except ValueError:
+            print("Invalid input. Using default value 1.")
+            start_num = 1
+    
+    print(f"Using UUID starting number: {start_num}")
+    
     # Get script directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # Generate two output files
-    summon_file = os.path.join(script_dir, f"{city_name}_summon_commands.txt")
-    scoreboard_file = os.path.join(script_dir, f"{city_name}_scoreboard_commands.txt")
+    # Generate .mcfunction file
+    mcfunction_file = os.path.join(script_dir, f"{filename_lower}.mcfunction")
     
-    # Generate summon commands and write to file (using unified UUID)
-    with open(summon_file, 'w', encoding='utf-8') as f:
-        for i, coord in enumerate(coordinates, 1):
-            x, y, z = coord
-            # Use manually input UUID base values + auto-incremented fourth value
-            uuid_parts = uuid_base + [i]
-            command = f'summon marker {x} {y} {z} {{Tags:["{city_name}","ElytraRoute","ElytraRace","{i}"],UUID:[{",".join(map(str, uuid_parts))}]}}'
-            f.write(command + '\n')
-    
-    # Generate scoreboard commands and write to file (grouped by category)
-    with open(scoreboard_file, 'w', encoding='utf-8') as f:
+    # Write header and commands to .mcfunction file
+    with open(mcfunction_file, 'w', encoding='utf-8') as f:
+        # Write header
+        f.write("#" * 65 + "\n")
+        f.write("#Made by Adventquest".ljust(63) + "#\n")
+        f.write("#Initialize elytra route".ljust(63) + "#\n")
+        f.write("#" * 65 + "\n\n")
         
-        # ElytraRacing (auto-incremented primary key)
-        f.write("# ElytraRacing commands\n")
-        for i, coord in enumerate(coordinates, 1):
+        # Write kill command
+        f.write(f"kill @e[type=marker,tag=ElytraRoute,tag={function_name}]\n")
+        
+        # Write summon commands section
+        f.write("##summon\n")
+        for i, coord in enumerate(coordinates, start_num):
+            x, y, z = coord
+            # Use manually input UUID base values + auto-incremented fourth value starting from user input
+            uuid_parts = uuid_base + [i]
+            # ElytraRacing score starts from 1 regardless of UUID start number
+            score_value = i - start_num + 1
+            command = f'summon marker {x} {y} {z} {{Tags:["{function_name}","ElytraRoute","ElytraRace","{score_value}"],UUID:[{",".join(map(str, uuid_parts))}]}}'
+            f.write(command + '\n')
+        
+        f.write("\n\n")
+        
+        # Write scoreboard commands section
+        f.write("##score\n")
+        for i, coord in enumerate(coordinates, start_num):
             x, y, z = coord
             # Use the same UUID composition method
             uuid_parts = uuid_base + [i]
             converted_uuid = convert_uuid_format(uuid_parts)
             
             if converted_uuid:
-                command = f"scoreboard players set {converted_uuid} ElytraRacing {i}"
+                # ElytraRacing score starts from 1 regardless of UUID start number
+                score_value = i - start_num + 1
+                command = f"scoreboard players set {converted_uuid} ElytraRacing {score_value}"
                 f.write(command + '\n')
     
-    print(f"\nGenerated {len(coordinates)} summon commands to file: {summon_file}")
-    print(f"Generated {len(coordinates)} scoreboard commands to file: {scoreboard_file}")
+    print(f"\nGenerated {len(coordinates)} summon commands and {len(coordinates)} scoreboard commands to file: {mcfunction_file}")
     
     # Show some UUID conversion examples in console
     print("\nUUID conversion examples:")
     for i in range(min(3, len(coordinates))):
-        uuid_parts = uuid_base + [i+1]
+        current_num = start_num + i
+        uuid_parts = uuid_base + [current_num]
         converted_uuid = convert_uuid_format(uuid_parts)
-        print(f"UUID base {uuid_base} + sequence {i+1} -> {converted_uuid}")
+        # ElytraRacing score starts from 1 regardless of UUID start number
+        score_value = i + 1
+        print(f"UUID base {uuid_base} + sequence {current_num} -> {converted_uuid} (ElytraRacing score: {score_value})")
     
     print(f"\nAll coordinate points use the same UUID base: {uuid_base}")
-    print(f"UUID fourth value will increment from 1 to {len(coordinates)}")
+    print(f"UUID fourth value will increment from {start_num} to {start_num + len(coordinates) - 1}")
+    print(f"ElytraRacing score values will be from 1 to {len(coordinates)}")
     print(f"\nFirst 3 coordinates:")
     for i, coord in enumerate(coordinates[:3]):
-        print(f"  {i+1}: {coord}")
+        # ElytraRacing score starts from 1 regardless of UUID start number
+        score_value = i + 1
+        print(f"  Score {score_value}: {coord}")
 
 if __name__ == "__main__":
     main()
