@@ -24,3 +24,7 @@ playsound minecraft:entity.player.levelup ambient @a ~ ~ ~ 1 2
 ##update marker
 execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Desert] run scoreboard players set @s ElytraRacingSelect 1
 execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Desert] run function att2:gameplay/elytra_racing/start/kert
+
+
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Worlest] run scoreboard players set @s ElytraRacingSelect 2
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Worlest] run function att2:gameplay/elytra_racing/start/worlest

@@ -52,7 +52,8 @@ scoreboard players operation #minute CAL /= 60 CAL
 ##show now time
 tellraw @a [{selector:"@s",color:"dark_red"},{text:" : "},{translate:att2.elytra_racing.kert.end,color:"yellow",with:[{score:{name:"#minute",objective:"CAL"},color:green},{score:{name:"#second",objective:"CAL"},color:green},{score:{name:"#ms",objective:"CAL"},color:green}]}]
 ##reset score
-scoreboard players set @s ElytraRacingTime -777
+scoreboard players set @s ElytraRacingTime -100
+scoreboard players set @s ElytraRacing -100
 
 kill @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Kert]
 

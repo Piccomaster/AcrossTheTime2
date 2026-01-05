@@ -8,7 +8,8 @@
 #############################################################
 
 ##stop
-execute if score @s ElytraRacingTime matches -777..-1 run return fail
+execute if score @s ElytraRacing matches -100 run return run function att2:gameplay/elytra_racing/ai/clear
+execute unless entity @p[distance=..100] run return run function att2:gameplay/elytra_racing/ai/clear
 ##fly particle
 function att2:gameplay/elytra_racing/ai/particle
 ##clear old
@@ -27,6 +28,7 @@ execute store result storage att2:score next_pos int 1 run scoreboard players ad
 
 ##kert
 execute if score @s ElytraRacingSelect matches 1 run function att2:gameplay/elytra_racing/ai/kert
+execute if score @s ElytraRacingSelect matches 2 run function att2:gameplay/elytra_racing/ai/worlest
 
 ##motion
 data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @s Rotation

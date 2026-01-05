@@ -26,5 +26,9 @@ execute anchored eyes positioned ^ ^ ^0.5 run particle flash{color:[1,1,1,1],sca
 tag @s add ElytraRace
 
 ##update return pos
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Desert] run scoreboard players set @s ElytraRacingSelect 1
+
+##kert
 execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Desert] run function att2:gameplay/elytra_racing/ai/summon/kert
+
+##worlest
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Worlest] run function att2:gameplay/elytra_racing/ai/summon/worlest

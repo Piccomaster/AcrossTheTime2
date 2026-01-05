@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Initialize enchantment                    						#
+#Initialize elytra route                    	    			#
 #################################################################
 
 kill @e[type=marker,tag=ElytraRoute,tag=Kert]
@@ -247,8 +247,6 @@ summon marker -5584.5 171.30744729556767 -4818.5 {Tags:["Kert","ElytraRoute","El
 summon marker -5575.5 173.93106167904756 -4803.5 {Tags:["Kert","ElytraRoute","ElytraRace","240"],UUID:[697689,848265,7775,240]}
 summon marker -5565.5 170.32698399798156 -4788.5 {Tags:["Kert","ElytraRoute","ElytraRace","241"],UUID:[697689,848265,7775,241]}
 summon marker -5552.5 166.82391962251657 -4773.5 {Tags:["Kert","ElytraRoute","ElytraRace","242"],UUID:[697689,848265,7775,242]}
-
-
 
 
 ##score

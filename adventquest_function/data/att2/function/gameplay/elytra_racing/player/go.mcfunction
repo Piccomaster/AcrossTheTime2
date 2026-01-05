@@ -3,6 +3,8 @@
 #Initialize enchantment                    						#
 #################################################################
 
+##safe
+scoreboard players set @s JUMP_SAFE 2
 ##add time
 execute if score @s ElytraRacing matches 1.. run scoreboard players add @s ElytraRacingTime 1
 
@@ -28,6 +30,7 @@ execute store result storage att2:score next_pos_ int 1 run scoreboard players a
 
 ##kert effect
 execute if score @s ElytraRacingSelect matches 1 run function att2:gameplay/elytra_racing/cycle/detection/kert
+execute if score @s ElytraRacingSelect matches 2 run function att2:gameplay/elytra_racing/cycle/detection/worlest
 
 ##time out
 #tellraw @a {score:{name:"@s",objective:"ElytraRacingTime"}}
@@ -40,8 +43,15 @@ playsound minecraft:block.respawn_anchor.deplete ambient @s ~ ~ ~ 150 2
 ##remove tag
 tag @s remove ElytraRace
 
+
 ##return pos
+
+##update ai
+execute unless entity @a[distance=0.1..,scores={ElytraRacingSelect=1}] run kill @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Kert]
+execute unless entity @a[distance=0.1..,scores={ElytraRacingSelect=2}] run kill @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Worlest]
+
 execute as @s[scores={ElytraRacingSelect=1,ElytraRacingTime=0}] in overworld run tp @s -5730 16 -4583
+execute as @s[scores={ElytraRacingSelect=2,ElytraRacingTime=0}] in overworld run tp @s -5261 72 -5127
 #execute as @s[tag=ER_Desert] at @s in overworld run return run tp @s -5730 16 -4583
 #execute as @s[tag=ER_Desert] at @s in overworld run return run tp @s -5730 16 -4583
 #execute as @s[tag=ER_Desert] at @s in overworld run return run tp @s -5730 16 -4583
@@ -58,6 +68,5 @@ scoreboard players set @s HORSERACE_MUSIC 0
 ##reset time
 scoreboard players set @s ElytraRacingTime 0
 ##clear ai
-execute if entity @a[scores={ElytraRacingSelect=1}] run return fail
-tp @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Kert] ~ 0 ~
-kill @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Kert]
+execute if entity @a[scores={ElytraRacingSelect=1}] run kill @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Kert]
+execute if entity @a[scores={ElytraRacingSelect=2}] run kill @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Worlest]

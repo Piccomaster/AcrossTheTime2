@@ -7,15 +7,8 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
-##add music tag
-tag @s add NoAutoMusic
 
-execute unless score @s HORSERACE_MUSIC matches ..0 run return run scoreboard players remove @s HORSERACE_MUSIC 1
-
-##remove music tag
-tag @s remove NoAutoMusic
-##stop music 
-stopsound @s music
-function att2:sound/music/telluron/horse_racing
-##score set
-scoreboard players set @s HORSERACE_MUSIC 3640
+tp ~ 0 ~
+#
+execute on passengers run kill @s[type=mannequin]
+kill @s[type=mannequin]
