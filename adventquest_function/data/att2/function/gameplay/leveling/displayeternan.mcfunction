@@ -19,3 +19,6 @@ execute at @s run particle minecraft:totem_of_undying ~ ~1.5 ~ 0.25 0.25 0.25 1 
 
 #level
 function att2:advancement/test_all/progress/level
+
+##record max level
+scoreboard players operation Max LEVELETERNAN > @a LEVELETERNAN

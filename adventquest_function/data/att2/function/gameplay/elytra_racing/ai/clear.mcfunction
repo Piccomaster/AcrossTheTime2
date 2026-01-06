@@ -7,10 +7,8 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
-##remove score
-scoreboard players set @s HORSERACE_VITALITY_SPRINT 0
-##reset attitude
-execute on vehicle if entity @s[tag=RIDE] run attribute @s movement_speed modifier remove horse_race_sprint
-##sound
 
-##tip
+tp ~ 0 ~
+#
+execute on passengers run kill @s[type=mannequin]
+kill @s[type=mannequin]

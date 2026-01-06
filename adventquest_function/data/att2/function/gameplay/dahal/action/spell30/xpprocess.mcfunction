@@ -26,3 +26,6 @@ execute if score @s SURVIVEBONUS matches 2 run scoreboard players operation tota
 execute if score @s SURVIVEBONUS matches 3 run scoreboard players operation total SPELL30 *= 35 SPELL30
 execute if score @s SURVIVEBONUS matches 3 run scoreboard players operation total SPELL30 /= 20 SPELL30
 execute if score @s SURVIVEBONUS matches 4 run scoreboard players operation total SPELL30 *= 2 SPELL30
+
+##update score
+scoreboard players operation @n[type=minecraft:armor_stand,tag=RecyclerSpell,distance=..1,scores={SPELL30_EFFECT=100}] SPELL30 = total SPELL30

@@ -17,7 +17,7 @@ execute if score center_s_mech5 VONAHEIM matches 0..2 as @e[type=minecraft:stray
 execute if score center_s_mech5 VONAHEIM matches 0..1 run function att2:cinematic/act_4/vonaheim/center_s/mech5/particle
 
 # Detect if the player hit Vonaheim
-execute if score center_s_mech5 VONAHEIM matches 2 if score 00000000-0000-006b-0000-00000000006b ENEMYABHEALTH matches ..0 run function att2:cinematic/act_4/vonaheim/center_s/mech5/launch_cinematic
+execute if score center_s_mech5 VONAHEIM matches 2 if data entity 00000000-0000-006b-0000-00000000006b {AbsorptionAmount:0.0f} run function att2:cinematic/act_4/vonaheim/center_s/mech5/launch_cinematic
 
 # Cinematic
 execute if score center_s_mech5 VONAHEIM matches 3 run function att2:cinematic/act_4/vonaheim/center_s/mech5/cinematic

@@ -26,8 +26,8 @@ execute if score @s[scores={SPELL1_CAP=..7}] SPELL1_LVL >= cap8 SPELL1_LVL run s
 execute if score @s[scores={SPELL1_CAP=..8}] SPELL1_LVL >= cap9 SPELL1_LVL run scoreboard players set TEST CAL 9
 execute if score @s[scores={SPELL1_CAP=..9}] SPELL1_LVL >= cap10 SPELL1_LVL run scoreboard players set TEST CAL 10
 #test if up
-execute if score TEST CAL > @s SPELL1_CAP run scoreboard players operation @s SPELL1_CAP = TEST CAL
 execute if score TEST CAL > @s SPELL1_CAP run function att2:gameplay/dahal/action/spell1/lvlup
+execute if score TEST CAL > @s SPELL1_CAP run scoreboard players operation @s SPELL1_CAP = TEST CAL
 ##tip
 tellraw @s [{translate:att2.spell_kill.tip,with:[{selector:'@s',color:dark_red},{translate:att2.spell1.name}]}]
 #sound

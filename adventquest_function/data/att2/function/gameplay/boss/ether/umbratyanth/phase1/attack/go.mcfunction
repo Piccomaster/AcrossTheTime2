@@ -3,13 +3,6 @@
 #Process all the attack                                             #
 #####################################################################
 
-#make attack always first trigger
-execute unless score movinglight statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 1
-execute unless score trapslight statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 2
-execute unless score elite statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 3
-execute unless score eyes statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 4
-execute unless score maze statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 5
-
 execute if score Attack UMBRATYANTH matches 1 run function att2:gameplay/boss/ether/umbratyanth/phase1/attack/movinglight
 execute if score Attack UMBRATYANTH matches 2 run function att2:gameplay/boss/ether/umbratyanth/phase1/attack/trapslight
 execute if score Attack UMBRATYANTH matches 3 run function att2:gameplay/boss/ether/umbratyanth/phase1/attack/elite

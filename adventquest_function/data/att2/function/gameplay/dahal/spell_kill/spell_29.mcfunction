@@ -26,11 +26,11 @@ execute if score @s[scores={SPELL29_CAP=..7}] SPELL29_LVL >= cap8 SPELL29_LVL ru
 execute if score @s[scores={SPELL29_CAP=..8}] SPELL29_LVL >= cap9 SPELL29_LVL run scoreboard players set TEST CAL 9
 execute if score @s[scores={SPELL29_CAP=..9}] SPELL29_LVL >= cap10 SPELL29_LVL run scoreboard players set TEST CAL 10
 #test if up
-execute if score TEST CAL > @s SPELL29_CAP run scoreboard players operation @s SPELL29_CAP = TEST CAL
 execute if score TEST CAL > @s SPELL29_CAP run function att2:gameplay/dahal/action/spell29/lvlup
+execute if score TEST CAL > @s SPELL29_CAP run scoreboard players operation @s SPELL29_CAP = TEST CAL
 ##tip
 tellraw @s [{translate:att2.spell_kill.tip,with:[{selector:'@s',color:dark_red},{translate:att2.spell29.name}]}]
 #sound
 playsound minecraft:block.conduit.activate player @a ~ ~ ~ 150 1.5
 ##dailyquest trigger
-function att2:cinematic/dailyquest/trigger/spell_kill/spell_29
+#function att2:cinematic/dailyquest/trigger/spell_kill/spell_29

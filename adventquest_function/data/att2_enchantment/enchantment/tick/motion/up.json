@@ -25,8 +25,8 @@
           "block_interaction": "none",
           "knockback_multiplier": {
             "type": "linear",
-            "base": 1,
-            "per_level_above_first": 1
+            "base": 0.1,
+            "per_level_above_first": 0.1
           },
           "large_particle": {
             "type": "minecraft:gust_emitter_large"

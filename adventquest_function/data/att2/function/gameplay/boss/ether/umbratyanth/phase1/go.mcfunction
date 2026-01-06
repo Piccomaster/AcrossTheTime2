@@ -22,7 +22,7 @@
 
 # Minions counting
 execute if score Boss UMBRATYANTH matches 1 store result score Minions_counter UMBRATYANTH if entity @e[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider,tag=UmbraMinion]
-execute if score Boss UMBRATYANTH matches 1 if score Minions_counter UMBRATYANTH matches 0..49 run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_counting
+execute if score Boss UMBRATYANTH matches 1 if score Minions_counter UMBRATYANTH matches 0..29 run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_counting
 
 # Counting security if all Minions is dead
 execute if score Boss UMBRATYANTH matches 1 unless entity @e[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider,tag=UmbraMinion] run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_counting
@@ -37,4 +37,4 @@ execute if score Boss UMBRATYANTH matches 1 if score Attack UMBRATYANTH matches 
 execute if score Boss UMBRATYANTH matches 2 if score Timer4 UMBRATYANTH matches 1.. run function att2:gameplay/boss/ether/umbratyanth/phase1/end_cinematic_launching
 
 #Phase1Attack
-execute as @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] at @s if entity @e[type=minecraft:spider,tag=UmbraMinion,distance=..1.5] run function att2:gameplay/boss/ether/umbratyanth/phase1/spider_attack
+execute as @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] at @s run function att2:gameplay/boss/ether/umbratyanth/phase1/spider_attack

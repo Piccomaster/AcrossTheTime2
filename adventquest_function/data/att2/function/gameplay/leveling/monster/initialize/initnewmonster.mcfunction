@@ -99,7 +99,7 @@ effect clear @s absorption
 effect give @s absorption infinite 249 true
 
 ##add more absorption -> master level/ LEVELETERNAN
-execute as @s[type=!minecraft:bat] run function att2:gameplay/leveling/monster/initialize/more_absorption_health
+execute as @s[type=!minecraft:bat,tag=!MIMIC] run function att2:gameplay/leveling/monster/initialize/more_absorption_health
 
 #kill tag add/balance bat kill xp
 execute if score @s[type=minecraft:bat] CLASSLEVEL matches 10.. run scoreboard players set @s CLASSLEVEL 10

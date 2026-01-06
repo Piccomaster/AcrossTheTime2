@@ -6,7 +6,7 @@
 ##cal xp
 #get level/cal base
 scoreboard players operation TotalXp CAL = @s COMBO_COUNT
-scoreboard players operation TotalXp CAL *= 5 CAL
+scoreboard players operation TotalXp CAL *= 2 CAL
 scoreboard players operation TotalXp CAL += @s GAMELEVEL
 scoreboard players operation TotalXp CAL += @s LEVELMASTER
 scoreboard players operation TotalXp CAL += @s LEVELETERNAN

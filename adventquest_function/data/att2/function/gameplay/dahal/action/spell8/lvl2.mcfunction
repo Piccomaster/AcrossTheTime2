@@ -8,9 +8,10 @@ function att2:gameplay/score/player
 ##clear
 kill @e[type=arrow,tag=swarm,predicate=att2_pre:score/owner]
 execute at @s run function att2:gameplay/dahal/action/spell8/effect/2
+execute if score true Fire_Melting matches 1 run function att2:gameplay/dahal/action/spell3/enable_fire_melting
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell8/damage_cal
-execute at @s align xyz positioned ~-5.5 ~-5.5 ~-5.5 as @e[dx=12,dy=12,dz=12,scores={GAMELEVEL=0..},type=!bat,team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell8/damage with storage att2:sp_dmg
+execute at @s positioned ~-6 ~-6 ~-6 as @e[dx=12,dy=12,dz=12,scores={GAMELEVEL=0..},type=!bat,team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell8/damage with storage att2:sp_dmg
 #reset dahal burst score
 scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 #dahal

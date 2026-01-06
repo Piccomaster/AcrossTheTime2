@@ -16,26 +16,25 @@ execute as @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/epi_set
 execute as @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/leg,predicate=!att2_pre:recycle/error] run function att2:gameplay/dahal/action/spell30/count/leg
 execute as @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/leg_armset,predicate=!att2_pre:recycle/error] run function att2:gameplay/dahal/action/spell30/count/leg_armset
 execute as @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/ult,predicate=!att2_pre:recycle/error] run function att2:gameplay/dahal/action/spell30/count/ult
-scoreboard players operation arrow SPELL30 *= 8 SPELL30
-scoreboard players operation misc SPELL30 *= 8 SPELL30
-scoreboard players operation com SPELL30 *= 80 SPELL30
-scoreboard players operation unc SPELL30 *= 200 SPELL30
-scoreboard players operation rar SPELL30 *= 400 SPELL30
-scoreboard players operation epi SPELL30 *= 2000 SPELL30
-scoreboard players operation epi_set SPELL30 *= 4000 SPELL30
-scoreboard players operation leg SPELL30 *= 12500 SPELL30
-scoreboard players operation leg_armset SPELL30 *= 20000 SPELL30
-scoreboard players operation ult SPELL30 *= 40000 SPELL30
+scoreboard players set xp SPELL30 8
+scoreboard players operation arrow SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 8
+scoreboard players operation misc SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 80
+scoreboard players operation com SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 200
+scoreboard players operation unc SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 400
+scoreboard players operation rar SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 2000
+scoreboard players operation epi SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 4000
+scoreboard players operation epi_set SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 12500
+scoreboard players operation leg SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 20000
+scoreboard players operation leg_armset SPELL30 *= xp SPELL30
+scoreboard players set xp SPELL30 40000
+scoreboard players operation ult SPELL30 *= xp SPELL30
 
 function att2:gameplay/dahal/action/spell30/xpprocess
-
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/arrow]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/misc]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/com]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/unc]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/rar]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/epi]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/epi_set]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/leg]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/leg_armset]
-kill @e[type=item,distance=..6,limit=40,predicate=att2_pre:recycle/ult]

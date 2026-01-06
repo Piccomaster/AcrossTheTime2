@@ -11,7 +11,7 @@ scoreboard players operation @s DAHAL_TICK -= DAHAL_TICK CAL
 scoreboard players operation DAHAL_TICK CAL /= 20 CAL
 #CAL ice damage
 scoreboard players operation @s FENRIR_DAMAGE = DAHAL_TICK CAL
-scoreboard players operation @s FENRIR_DAMAGE /= 2 CAL
+scoreboard players operation @s FENRIR_DAMAGE /= 3 CAL
 #CAL BURST DAMGE percent
 scoreboard players operation @s FENRIR_BURST = DAHAL_TICK CAL
 scoreboard players operation @s FENRIR_BURST *= 100 CAL

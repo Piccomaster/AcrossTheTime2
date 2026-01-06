@@ -3,6 +3,8 @@
 #Manage Phase 1                                                 	#
 #####################################################################
 
+##limit
+execute unless entity @e[type=minecraft:spider,tag=UmbraMinion,distance=..1.5] run return run scoreboard players set @s Phase1Attack 5
 ##add score 
 scoreboard players add @s Phase1Attack 1
 ##damage

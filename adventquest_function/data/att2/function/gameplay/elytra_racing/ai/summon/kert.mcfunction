@@ -7,9 +7,15 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
-execute in overworld positioned -5735 16 -4581 run summon minecraft:mannequin ~ ~ ~ {id:"mannequin",description:"",CustomName:[{translate:att2.dailyquest.horse_racing.competitors.name.2}],profile:{texture:"skin/the_world_48"},Tags:["ElytraRace","AI","1"],active_effects:[{id:resistance,amplifier:4,duration:-1,show_particles:false}],NoGravity:true,pose:fall_flying,equipment:{chest:{id:"elytra",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_ai":1}}}}}
+##set player score count
+scoreboard players set @s ElytraRacingSelect 1
+scoreboard players set @s ElytraRacingMistake 4
+
+execute unless entity @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Kert] in overworld positioned -5735 16 -4581 run summon minecraft:mannequin ~ ~ ~ {id:"mannequin",description:"",CustomName:[{translate:att2.dailyquest.horse_racing.competitors.name.2}],profile:{texture:"skin/the_world_48"},Tags:["ElytraRace","AI","Kert","1"],active_effects:[{id:resistance,amplifier:4,duration:-1,show_particles:false}],NoGravity:true,pose:fall_flying,equipment:{chest:{id:"elytra",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_ai":1}}}},Passengers:[{id:"mannequin",description:"",CustomName:[{translate:att2.dailyquest.horse_racing.competitors.name.2}],profile:{texture:"skin/skysignty"},Tags:["ElytraRace","AI","Kert","1"],active_effects:[{id:resistance,amplifier:4,duration:-1,show_particles:false}],NoGravity:true}]}
 
 scoreboard players set @n[type=mannequin,tag=AI,tag=1] ElytraRacing 0
 scoreboard players set @n[type=mannequin,tag=AI,tag=1] HORSERACE_AI_OFFSET 2
 scoreboard players set @n[type=mannequin,tag=AI,tag=1] OWNER -10
+scoreboard players set @n[type=mannequin,tag=AI,tag=1] ElytraRacingSelect 1
+scoreboard players set @n[type=mannequin,tag=AI,tag=1] ElytraRacingTime 0
 #scoreboard players set @n[type=mannequin,tag=LVL0,tag=AI,tag=2] HORSERACE_RANDOM_EVENT 100
