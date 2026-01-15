@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Apply hunger bonus effect   #
+#Made by Adventquest                             #
+#Apply hunger bonus effect                       #
 ##################################################
 
 

@@ -1,6 +1,6 @@
 ﻿#################################################################
 #Made by Adventquest											#
-#auto_mending trigger  						#
+#auto_mending trigger                    						#
 #################################################################
 #execute store result storage att2:health max_health int 1 run scoreboard players get #max_health CAL
 #effect give @s instant_health 1 10 true

@@ -1,6 +1,6 @@
 ﻿#################################################################
 #Made by Adventquest											#
-#Initialize enchantment  						#
+#Initialize enchantment                    						#
 #################################################################
 
 ##health score reset

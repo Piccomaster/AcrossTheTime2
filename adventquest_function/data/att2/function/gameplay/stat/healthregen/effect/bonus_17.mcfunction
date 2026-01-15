@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Apply health regen bonus effect   #
+#Made by Adventquest                             #
+#Apply health regen bonus effect                 #
 ##################################################
 
 effect give @s[scores={TIMER_HER_TOT=..0}] minecraft:regeneration 3 4 true

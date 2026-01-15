@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Apply health regen malus effect   #
+#Made by Adventquest                             #
+#Apply health regen malus effect                 #
 ##################################################
 
 effect give @s[scores={TIMER_HER_TOT=..0}] minecraft:poison 3 0 true

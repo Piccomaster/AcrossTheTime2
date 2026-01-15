@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Initialize hunger   #
+#Made by Adventquest                             #
+#Initialize hunger                               #
 ##################################################
 
 

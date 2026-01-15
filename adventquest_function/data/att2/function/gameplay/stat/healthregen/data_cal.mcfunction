@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Sum all stat for health regen   #
+#Made by Adventquest                             #
+#Sum all stat for health regen                   #
 ##################################################
 
 function att2:gameplay/stat/healthregen/apply_effect

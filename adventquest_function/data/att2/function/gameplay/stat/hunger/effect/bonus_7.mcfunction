@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Apply hunger bonus effect   #
+#Made by Adventquest                             #
+#Apply hunger bonus effect                       #
 ##################################################
 
 effect give @s[scores={TIMER_HUN_TOT=..0}] minecraft:saturation 1 1 true

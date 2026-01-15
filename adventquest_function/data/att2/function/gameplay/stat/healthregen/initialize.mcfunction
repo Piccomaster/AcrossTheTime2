@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Initialize health regeneration   #
+#Made by Adventquest                             #
+#Initialize health regeneration                  #
 ##################################################
 
 scoreboard objectives add HER dummy

@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Apply health regen neutral effect   #
+#Made by Adventquest                             #
+#Apply health regen neutral effect               #
 ##################################################
 
 scoreboard players operation @s[scores={TIMER_HER_TOT=..0}] TIMER_HER_TOT = neutral TIMER_HER_TOT

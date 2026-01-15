@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Sum all stat for dahal regen   #
+#Made by Adventquest                             #
+#Sum all stat for dahal regen                    #
 ##################################################
 
 #CAL STR

@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Sum all stat for haste   #
+#Made by Adventquest                             #
+#Sum all stat for haste                          #
 ##################################################
 
 function att2:gameplay/stat/hunger/apply_effect

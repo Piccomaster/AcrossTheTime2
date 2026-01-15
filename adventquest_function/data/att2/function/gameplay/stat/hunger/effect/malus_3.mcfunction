@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Apply hunger malus effect   #
+#Made by Adventquest                             #
+#Apply hunger malus effect                       #
 ##################################################
 
 scoreboard players operation @s[scores={TIMER_HUN_TOT=..0}] TIMER_HUN_TOT = malus_3 HUN_DATA

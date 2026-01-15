@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Manage the timer for health regen   #
+#Made by Adventquest                             #
+#Manage the timer for health regen               #
 ##################################################
 
 #remove time

@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Apply hunger malus effect   #
+#Made by Adventquest                             #
+#Apply hunger malus effect                       #
 ##################################################
 
 effect give @s[scores={TIMER_HUN_TOT=..0}] minecraft:hunger 3 0 true

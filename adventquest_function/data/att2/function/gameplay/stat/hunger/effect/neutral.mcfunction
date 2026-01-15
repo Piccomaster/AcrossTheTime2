@@ -1,6 +1,6 @@
 ﻿##################################################
-#Made by Adventquest   #
-#Apply hunger neutral effect   #
+#Made by Adventquest                             #
+#Apply hunger neutral effect                     #
 ##################################################
 
 scoreboard players operation @s[scores={TIMER_HUN_TOT=..0}] TIMER_HUN_TOT = neutral HUN_DATA
