@@ -22,9 +22,9 @@ scoreboard players set @s HER_FO 0
 #add extra her
 execute if score level DIFFICULTY matches -1 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 5
 
-execute if score level DIFFICULTY matches 0 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 3
+execute if score #level DIFFICULTY matches 0 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 3
 
-execute if score level DIFFICULTY matches 1 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 1
+execute if score #level DIFFICULTY matches 1 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 1
 
 ##POTION_TIP
 execute as @s[scores={TIMER_HER_PO=..200,HER_PO=0..,POTION_CHECK_HER=1}] run function att2:dialogs/gameplay/potion_tip/her_time

@@ -5,6 +5,7 @@
 
 ##test if player
 execute at @s on origin if entity @s[type=!player] run return run data modify entity @n[distance=..0,type=#minecraft:arrows] life set value 1199
+
 ##
 data modify entity @s Duration set value 10
 execute store result score #motion0 CAL run data get entity @s Motion[0] 100
@@ -56,6 +57,9 @@ scoreboard players operation @s ARR_POWER /= 100 CAL
 data modify entity @s damage set value -1
 data modify entity @s shake set value 40
 
+##remove saturation
+execute if data storage att2:bow data.weapon{id:"minecraft:bow"} on origin run function att2:gameplay/stat/hunger/consume/bow
+execute if data storage att2:bow data.weapon{id:"minecraft:crossbow"} on origin run function att2:gameplay/stat/hunger/consume/crossbow
 ##initialize owner
 execute at @s on origin run scoreboard players operation @n[distance=..0,type=#minecraft:arrows] OWNER = @s NUMEROJOUEUR
 ##legendary

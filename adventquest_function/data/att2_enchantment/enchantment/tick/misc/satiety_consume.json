@@ -1,0 +1,41 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": ""
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 255,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "tick": [
+      {
+        "effect": {
+          "type": "minecraft:apply_exhaustion",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.1
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/stat/hunger/consume/trigger"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

@@ -1,0 +1,37 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/stat/hunger/consume/dagger"
+  },
+  "criteria": {
+    "diamond_weapon": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_cooldown",
+                "expected": false
+              },
+              {
+                "id": "minecraft:avoids_guardian_thorns",
+                "expected": false
+              }
+            ],
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": "#minecraft:hoes"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

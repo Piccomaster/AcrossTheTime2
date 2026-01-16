@@ -5,7 +5,7 @@
 
 #CAL STR
 execute store result score TEMP_normal CAL run attribute @s attack_damage modifier value get minecraft:attack_damage
-execute store result score TEMP_1000slay CAL run attribute @s attack_damage modifier value get minecraft:1000slay_attack_damage
+execute store result score #TEMP_1000slay CAL run attribute @s attack_damage modifier value get minecraft:1000slay_attack_damage
 scoreboard players operation @s STR_DATA = @s STR_TOT
 #six step
 execute if score @s STR_TOT matches ..-1 run function att2:gameplay/stat/strength/dmg_0
@@ -26,5 +26,5 @@ execute if score @s STR_DATA matches ..-1 run data modify storage att2:attribute
 execute store result storage att2:attribute STR_TOT int 1 run scoreboard players get @s STR_TOT
 execute store result storage att2:attribute STR_DATA int 1 run scoreboard players get @s STR_DATA
 #reset
-scoreboard players reset TEMP_normal CAL
-scoreboard players reset TEMP_1000slay CAL
+scoreboard players reset #TEMP_normal CAL
+scoreboard players reset #TEMP_1000slay CAL

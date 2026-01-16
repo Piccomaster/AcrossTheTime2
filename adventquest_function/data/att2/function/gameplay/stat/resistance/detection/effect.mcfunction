@@ -4,7 +4,7 @@
 #################################################################
 
 ##health score reset
-scoreboard players reset Health CAL
+scoreboard players reset #Health CAL
 
 playsound minecraft:item.totem.use ambient @a ~ ~ ~ 2 2
 particle minecraft:flash{color:[1,1,1,1]} ~ ~1 ~ 0 0 0 0 1

@@ -11,9 +11,9 @@ execute if score @s HER_TOT matches ..-2 run data modify storage att2:attribute 
 execute if score @s HER_TOT matches -1..0 run data modify storage att2:attribute HER_KEY set value 1
 execute if score @s HER_TOT matches 1.. run data modify storage att2:attribute HER_KEY set value 2
 #TIMER_HER_TOT
-execute store result storage att2:attribute TIMER_HER_TOT int 1 run scoreboard players get TIMER_HER_TOT HER_DATA
-execute store result storage att2:attribute HER_LVL int 1 run scoreboard players get HER_LVL HER_DATA
-execute store result storage att2:attribute HER_TIME int 1 run scoreboard players get HER_TIME HER_DATA
+execute store result storage att2:attribute TIMER_HER_TOT int 1 run scoreboard players get #TIMER_HER_TOT HER_DATA
+execute store result storage att2:attribute HER_LVL int 1 run scoreboard players get #HER_LVL HER_DATA
+execute store result storage att2:attribute HER_TIME int 1 run scoreboard players get #HER_TIME HER_DATA
 #get timer
 scoreboard players operation @s HER_DATA_TIMER = @s TIMER_HER_TOT
 scoreboard players operation @s HER_DATA_TIMER /= 20 CAL
