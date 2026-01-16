@@ -22,7 +22,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/misc/pot/arrow_life"
+          "function": "att2:spawner/summon/go"
         }
       }
     ]
