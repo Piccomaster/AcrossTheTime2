@@ -1,4 +1,4 @@
-﻿#################################################################
+#################################################################
 #Made by Adventquest											#
 #auto_mending trigger                    						#
 #################################################################
@@ -13,9 +13,9 @@ scoreboard players operation RES_TOT CAL = @s RES_TOT
 scoreboard players operation #RES_TOT CAL > #-50 CAL
 execute if score #RES_TOT CAL matches ..0 run scoreboard players set #RES_TOT CAL 0
 scoreboard players operation #RES_TOT CAL *= #-10 CAL
-scoreboard players operation #RES_TOT CAL += #100 CAL
+scoreboard players operation #RES_TOT CAL += 100 CAL
 ##max reduce
-scoreboard players operation #RES_TOT CAL > #5 CAL
+scoreboard players operation #RES_TOT CAL > 5 CAL
 #remove health
 scoreboard players operation @s RES_DETECTION *= 10 CAL
 #resistance effect
@@ -29,14 +29,14 @@ execute if score @s RES_DETECTION matches 0.. run effect clear @s absorption
 execute unless score @s RES_DETECTION matches 0.. run function att2:gameplay/stat/resistance/detection/absorption_cal
 #remove health
 scoreboard players operation Health CAL -= @s RES_DETECTION
-scoreboard players operation #Health CAL *= #100 CAL
+scoreboard players operation #Health CAL *= 100 CAL
 scoreboard players operation #Health CAL /= #max_health CAL
-scoreboard players operation #Health CAL -= #100 CAL
+scoreboard players operation #Health CAL -= 100 CAL
 execute store result storage att2:health reduce double 0.01 run scoreboard players get #Health CAL
 #get ehlvl
 execute store result score eh_lvl CAL run data get entity @s equipment.chest.components."minecraft:enchantments"."att2_enchantment:heart_protection" 10
 ##get now health percent
-scoreboard players operation #Health CAL += #100 CAL
+scoreboard players operation #Health CAL += 100 CAL
 #back damage
 function att2:gameplay/stat/resistance/detection/reduce with storage att2:health
 #tigger
