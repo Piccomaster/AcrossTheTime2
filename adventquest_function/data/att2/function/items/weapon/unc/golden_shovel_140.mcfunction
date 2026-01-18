@@ -3,6 +3,8 @@
 #Obtain item golden_shovel_140          #
 #####################################
 
-give @s minecraft:golden_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Weapon:140},custom_name={translate:"weapon140.name"},lore=[{translate:"weapon140.lore.1"},{translate:"weapon140.lore.2"},{translate:"weapon140.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:1.46},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.51}],tooltip_style="minecraft:rarity/unc/unc"]
+# give @s minecraft:golden_shovel[custom_data={EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"eternan",Shop:"buy",Weapon:140},custom_name={translate:"weapon140.name"},lore=[{translate:"weapon140.lore.1"},{translate:"weapon140.lore.2"},{translate:"weapon140.stat"}],max_damage=40,damage=0,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:1.46},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.51}],tooltip_style="minecraft:rarity/unc/unc"]
+
+execute as @s at @s run loot spawn ~ ~ ~ loot att2:item_data/weapon/unc/golden_shovel_140
 
 function att2:gameplay/shop/smith_leveling/add_buying_unc
