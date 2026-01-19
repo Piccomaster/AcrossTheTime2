@@ -3,6 +3,8 @@
 #Obtain item diamond_hoe_270          #
 #####################################
 
-give @s minecraft:diamond_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Type:"spear",Shop:"buy",HUN:-1,Weapon:270},custom_name={translate:"weapon270.name"},lore=[{translate:"weapon270.lore.1"},{translate:"weapon270.lore.2"},{translate:"weapon270.stat"}],max_damage=1560,damage=1475,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:4.9},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.91}],tooltip_style="minecraft:rarity/com/com"]
+# give @s minecraft:diamond_hoe[custom_data={EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"delightful",Type:"spear",Shop:"buy",HUN:-1,Weapon:270},custom_name={translate:"weapon270.name"},lore=[{translate:"weapon270.lore.1"},{translate:"weapon270.lore.2"},{translate:"weapon270.stat"}],max_damage=1560,damage=1475,attribute_modifiers=[{slot:"mainhand",type:"attack_damage",id:"attack_damage",operation:"add_value",amount:4.9},{slot:"mainhand",type:"attack_speed",id:"attack_speed",operation:"add_multiplied_base",amount:-0.91}],tooltip_style="minecraft:rarity/com/com"]
+
+execute as @s at @s run loot spawn ~ ~ ~ loot att2:item_data/weapon/com/diamond_hoe_270
 
 function att2:gameplay/shop/smith_leveling/add_buying_com

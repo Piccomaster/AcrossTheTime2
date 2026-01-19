@@ -3,4 +3,5 @@
 #Obtain item splash_potion_59          #
 #####################################
 
-give @s minecraft:splash_potion[custom_data={EquipmentType:"potion",Rarity:"leg",Shop:"buy",Potion:59b},custom_name={translate:'potion59.name'},lore=[{translate:'potion59.lore.1'},{translate:'potion59.lore.2'},{translate:'potion59.stat'}],max_stack_size=4,potion_contents={custom_color:16777215,custom_effects:[{amplifier:10,duration:0,id:"instant_health",show_particles:0b}]},tooltip_style="minecraft:rarity/leg/leg"]
+# give @s minecraft:splash_potion[custom_data={EquipmentType:"potion",Rarity:"leg",Shop:"buy",Potion:59b},custom_name={translate:'potion59.name'},lore=[{translate:'potion59.lore.1'},{translate:'potion59.lore.2'},{translate:'potion59.stat'}],max_stack_size=4,potion_contents={custom_color:16777215,custom_effects:[{amplifier:10,duration:0,id:"instant_health",show_particles:0b}]},tooltip_style="minecraft:rarity/leg/leg"]
+execute as @s at @s run loot spawn ~ ~ ~ loot att2:item_data/potion/leg/splash_potion_59

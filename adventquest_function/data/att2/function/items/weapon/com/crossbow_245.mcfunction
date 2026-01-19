@@ -3,6 +3,8 @@
 #Obtain item crossbow_245          #
 #####################################
 
-give @s minecraft:crossbow[custom_data={EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",RES:-1,Weapon:245},custom_name={translate:"weapon245.name"},lore=[{translate:"weapon245.lore.1"},{translate:"weapon245.stat"}],max_damage=460,damage=305,enchantments={"minecraft:power":1},tooltip_style="minecraft:rarity/com/com"]
+# give @s minecraft:crossbow[custom_data={EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",Shop:"buy",RES:-1,Weapon:245},custom_name={translate:"weapon245.name"},lore=[{translate:"weapon245.lore.1"},{translate:"weapon245.stat"}],max_damage=460,damage=305,enchantments={"minecraft:power":1},tooltip_style="minecraft:rarity/com/com"]
+
+execute as @s at @s run loot spawn ~ ~ ~ loot att2:item_data/weapon/com/crossbow_245
 
 function att2:gameplay/shop/smith_leveling/add_buying_com
