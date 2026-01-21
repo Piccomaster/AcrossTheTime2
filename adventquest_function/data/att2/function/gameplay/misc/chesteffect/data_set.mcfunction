@@ -27,20 +27,21 @@ execute if block ~ ~ ~ #minecraft:chest[facing=south] run function att2:gameplay
 execute if block ~ ~ ~ #minecraft:chest[facing=north] run function att2:gameplay/misc/chesteffect/empty_chest/north
 #function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data
 ##score set
-execute if predicate att2_pre:chest_effect/t1 run scoreboard players set @s CHESTEFFECT 1
-execute if predicate att2_pre:chest_effect/t2 run scoreboard players set @s CHESTEFFECT 2
-execute if predicate att2_pre:chest_effect/t3 run scoreboard players set @s CHESTEFFECT 3
-execute if predicate att2_pre:chest_effect/t4 run scoreboard players set @s CHESTEFFECT 4
-execute if predicate att2_pre:chest_effect/t5 run scoreboard players set @s CHESTEFFECT 5
-execute if predicate att2_pre:chest_effect/t6 run scoreboard players set @s CHESTEFFECT 6
-execute if predicate att2_pre:chest_effect/t7 run scoreboard players set @s CHESTEFFECT 7
-execute if predicate att2_pre:chest_effect/t8 run scoreboard players set @s CHESTEFFECT 8
-execute if predicate att2_pre:chest_effect/t9 run scoreboard players set @s CHESTEFFECT 9
-execute if predicate att2_pre:chest_effect/t10 run scoreboard players set @s CHESTEFFECT 10
+
+##get c/t
+execute store result score #C CAL run data get entity @s data.C
+execute store result score #T CAL run data get entity @s data.T
+##get quest item
+execute store result score #Q CAL run data get entity @s data.Q
+##set c score
+execute if score #C CAL matches 1..10 run scoreboard players operation @s CHESTEFFECT = #C CAL 
 ##
-execute if predicate att2_pre:chest_effect/ithax_foods run scoreboard players set @s CHESTEFFECT 11
-execute if predicate att2_pre:chest_effect/ithax_ammunition run scoreboard players set @s CHESTEFFECT 12
-execute if predicate att2_pre:chest_effect/quest run scoreboard players set @s CHESTEFFECT 13
+execute if score #Q CAL matches 66 run scoreboard players set @s CHESTEFFECT 11
+execute if score #Q CAL matches 67 run scoreboard players set @s CHESTEFFECT 12
+execute if score #Q CAL matches 1..65 run scoreboard players set @s CHESTEFFECT 13
+##quest
+execute if score #Q CAL matches 1.. run scoreboard players operation @s DropQuestItemId = #Q CAL
+
 
 ##show glowing color
 execute if score @s CHESTEFFECT matches 1 run data modify entity @s data.glow_color_override set value 8421504

@@ -7,6 +7,35 @@
 execute at @s as @n[distance=..0.1,type=item_display,tag=ChestDisplay,tag=Head] run data merge entity @s {transformation:{translation:[0.0,1.0,-0.25],right_rotation:[-1.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},start_interpolation:0,interpolation_duration:5,teleport_duration:5}
 ##remove glowing
 execute at @s as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run data modify entity @s Glowing set value false
+
+####reset score
+scoreboard players set #player_id CAL 0
+scoreboard players set #C CAL 0
+scoreboard players set #T CAL 0
+scoreboard players set #Dimension CAL 0
+scoreboard players set #Q CAL 0
+##get player id
+execute store result score #player_id CAL run data get block ~ ~ ~ Items[0].components."minecraft:custom_model_data".floats
+execute store result storage att2:score player int 1 run scoreboard players get #player_id CAL
+##get c/t
+execute store result score #C CAL run data get entity @s data.C
+execute store result score #T CAL run data get entity @s data.T
+##get quest item
+execute store result score #Q CAL run data get entity @s data.Q
+##get Dimension
+execute store result score #Dimension CAL run data get entity @s data.Dimension
+##update player dropchance
+execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/misc/chesteffect/reset_dropchance
+execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/misc/chesteffect/update_dropchance
+##update loot
+##clear
+data remove block ~ ~ ~ Items
+#loot insert entity ~ ~ ~ container.0 loot att2:chest/reg1
+execute if score #Dimension CAL matches 1 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg1"
+execute if score #Dimension CAL matches 2 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg2"
+execute if score #Dimension CAL matches 3 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg3"
+execute if score #Dimension CAL matches 4 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg4"
+
 ##add tag
 tag @s add Open
 ##sound

@@ -1,0 +1,1359 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 1
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/big_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 2
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/catacombs_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 3
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/derim_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 4
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/emerald_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 5
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/eolorion_house_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 6
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/hurriel_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 7
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/lab_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 8
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/little_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 9
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/major_pass"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 10
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/meleim_house_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 11
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/minor_pass"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 12
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/omeryn_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 13
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/pirate_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 14
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/ryliath_house_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 15
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/schestrown_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 16
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/seal_of_fire"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 17
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/seal_of_lava"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 18
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/secret_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 19
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/keys/storage_key"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 20
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/ancestral_blood_vial"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 21
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/artefact"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 22
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/badge"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 23
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/bandages",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 24
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/bones_of_traditions"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 25
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/booty",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 26
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/box_of_muffins"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 27
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/cargo_of_food"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 28
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/celestial_tear"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 29
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/charcoal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 30
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/confession_scroll"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 31
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/connecting_thread"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 32
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/dark_resin"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 33
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/dermist_head"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 34
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/edible_mushroom",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 35
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/emerald_of_innocence"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 36
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/eternan_arrows",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 37
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/explosive",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 38
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/freddys_trousers"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 39
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/gear"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 40
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/gelatinous_substance"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 41
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/gem_of_space"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 42
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/gem_of_time"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 43
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/goods",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 44
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/important_letter"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 45
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 46
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/ladder_part"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 47
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/little_mechanical_element"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 48
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/log_of_wood"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 49
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/lost_goods",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 50
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/mechanical_parts"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 51
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/medaillon"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 52
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/mysterious_box"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 53
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/mysterious_crystal"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 54
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/neleptron"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 55
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/old_chipped_stone"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 56
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/old_mace"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 57
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/plastic_flower"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 58
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/pure_gold",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 59
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 60
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/raw_meat",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 61
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/ryliath_palace_plan"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 62
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/stolen_cereal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 63
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/tear_of_the_lost"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 64
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/tina_jacket"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 65
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/quest/turquoise_gemstone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 66
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/legendary/magasin",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "all_of",
+                            "terms": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "DropQuestItemId": 67
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/food/dried_kelp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

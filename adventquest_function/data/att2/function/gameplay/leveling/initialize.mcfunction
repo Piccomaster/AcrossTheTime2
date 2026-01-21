@@ -21,6 +21,20 @@ scoreboard objectives add KILLVALUE totalKillCount
 scoreboard objectives add XPPROCESS dummy
 scoreboard objectives add XPGAIN dummy
 
+scoreboard objectives add DropRolls dummy
+scoreboard objectives add DropChanceCom dummy
+scoreboard objectives add DropChanceUnc dummy
+scoreboard objectives add DropChanceRar dummy
+scoreboard objectives add DropChanceEpi dummy
+scoreboard objectives add DropChanceLeg dummy
+scoreboard objectives add DropChanceUlt dummy
+scoreboard objectives add DropChanceMyt dummy
+scoreboard objectives add DropChanceRuneC dummy
+scoreboard objectives add DropChanceRuneB dummy
+scoreboard objectives add DropChanceRuneA dummy
+scoreboard objectives add DropQuestItemId dummy
+
+
 scoreboard players set @s GAMELEVEL 0
 scoreboard players set @s LVL_UPGRADE_REQ 22
 scoreboard players set @s SKILLPOINTMASTER 0

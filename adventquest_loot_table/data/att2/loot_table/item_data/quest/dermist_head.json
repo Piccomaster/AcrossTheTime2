@@ -1,0 +1,2 @@
+
+{"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:player_head","functions":[{"function":"minecraft:set_components","components":{"custom_data":{"EquipmentType":"misc","Rarity":"que"},"custom_name":{"translate":"item.quest.dermist_head.name"},"lore":[{"translate":"item.quest.lore"}],"tooltip_style":"minecraft:rarity/quest/quest"}}]}]}]}
