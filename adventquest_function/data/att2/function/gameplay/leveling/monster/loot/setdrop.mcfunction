@@ -6,6 +6,11 @@
 ##set asunarkstone
 execute as @s[tag=Reg1,tag=asunarkstone] run scoreboard players set @s DropQuestItemId 65
 
+##set reg
+execute as @s[tag=Reg1] run data modify entity @s DeathLootTable set value "att2:entities/reg1"
+execute as @s[tag=Reg2] run data modify entity @s DeathLootTable set value "att2:entities/reg2"
+execute as @s[tag=Reg3] run data modify entity @s DeathLootTable set value "att2:entities/reg3"
+execute as @s[tag=Reg4] run data modify entity @s DeathLootTable set value "att2:entities/reg4"
 ##set rolls
 
 #Clamp range
