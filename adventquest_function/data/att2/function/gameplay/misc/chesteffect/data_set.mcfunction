@@ -29,7 +29,14 @@ execute if block ~ ~ ~ #minecraft:chest[facing=north] run function att2:gameplay
 ##score set
 
 ##get c/t
-execute store result score #C CAL run data get entity @s data.C
+scoreboard players set #player_id CAL 0
+scoreboard players set #C CAL 0
+scoreboard players set #T CAL 0
+scoreboard players set #Dimension CAL 0
+scoreboard players set #Q CAL 0
+
+execute store result score #C CAL as @s at @s run data get entity @s data.C
+
 execute store result score #T CAL run data get entity @s data.T
 ##get quest item
 execute store result score #Q CAL run data get entity @s data.Q
@@ -41,7 +48,6 @@ execute if score #Q CAL matches 67 run scoreboard players set @s CHESTEFFECT 12
 execute if score #Q CAL matches 1..65 run scoreboard players set @s CHESTEFFECT 13
 ##quest
 execute if score #Q CAL matches 1.. run scoreboard players operation @s DropQuestItemId = #Q CAL
-
 
 ##show glowing color
 execute if score @s CHESTEFFECT matches 1 run data modify entity @s data.glow_color_override set value 8421504

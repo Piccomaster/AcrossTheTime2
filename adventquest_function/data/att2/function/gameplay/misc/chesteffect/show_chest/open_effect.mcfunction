@@ -18,14 +18,18 @@ scoreboard players set #Q CAL 0
 execute store result score #player_id CAL run data get block ~ ~ ~ Items[0].components."minecraft:custom_model_data".floats
 execute store result storage att2:score player int 1 run scoreboard players get #player_id CAL
 ##get c/t
+
 execute store result score #C CAL run data get entity @s data.C
+tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}}]
 execute store result score #T CAL run data get entity @s data.T
+tellraw @a ["T:",{score:{name:"#T",objective:"CAL"}}]
 ##get quest item
 execute store result score #Q CAL run data get entity @s data.Q
+tellraw @a ["Q:",{score:{name:"#Q",objective:"CAL"}}]
 ##get Dimension
 execute store result score #Dimension CAL run data get entity @s data.Dimension
 ##update player dropchance
-execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/misc/chesteffect/reset_dropchance
+#execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/misc/chesteffect/reset_dropchance
 execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/misc/chesteffect/update_dropchance
 ##update loot
 ##clear
