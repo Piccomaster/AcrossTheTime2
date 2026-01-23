@@ -8,25 +8,6 @@
 tag @s add SETCHEST
 
 ##name detection
-##normal
-function att2:gameplay/misc/chesteffect/name/c_test
-##ithax_name
-function att2:gameplay/misc/chesteffect/name/ithax_name
-##quest_name
-function att2:gameplay/misc/chesteffect/name/quest_name
-##update name
-data modify block ~ ~ ~ CustomName set from entity @s data.customname
-##clear error
-execute if data block ~ ~ ~ {lock:{}} unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
-execute unless data block ~ ~ ~ LootTable unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
-
-##update chest -> empty texture (copperchest) waxed_copper_chest
-execute if block ~ ~ ~ #minecraft:chest[facing=east] run function att2:gameplay/misc/chesteffect/empty_chest/east
-execute if block ~ ~ ~ #minecraft:chest[facing=west] run function att2:gameplay/misc/chesteffect/empty_chest/west
-execute if block ~ ~ ~ #minecraft:chest[facing=south] run function att2:gameplay/misc/chesteffect/empty_chest/south
-execute if block ~ ~ ~ #minecraft:chest[facing=north] run function att2:gameplay/misc/chesteffect/empty_chest/north
-#function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data
-##score set
 
 ##get c/t
 scoreboard players set #player_id CAL 0
@@ -40,6 +21,26 @@ execute store result score #C CAL as @s at @s run data get entity @s data.C
 execute store result score #T CAL run data get entity @s data.T
 ##get quest item
 execute store result score #Q CAL run data get entity @s data.Q
+
+##normal
+function att2:gameplay/misc/chesteffect/name/c_test
+##ithax_name
+function att2:gameplay/misc/chesteffect/name/ithax_name
+##quest_name
+function att2:gameplay/misc/chesteffect/name/quest_name
+##update name
+data modify block ~ ~ ~ CustomName set from entity @s data.customname
+##clear error
+execute if data block ~ ~ ~ {lock:{}} unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
+#execute unless data block ~ ~ ~ LootTable unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
+
+##update chest -> empty texture (copperchest) waxed_copper_chest
+execute if block ~ ~ ~ #minecraft:chest[facing=east] run function att2:gameplay/misc/chesteffect/empty_chest/east
+execute if block ~ ~ ~ #minecraft:chest[facing=west] run function att2:gameplay/misc/chesteffect/empty_chest/west
+execute if block ~ ~ ~ #minecraft:chest[facing=south] run function att2:gameplay/misc/chesteffect/empty_chest/south
+execute if block ~ ~ ~ #minecraft:chest[facing=north] run function att2:gameplay/misc/chesteffect/empty_chest/north
+#function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data
+##score set
 ##set c score
 execute if score #C CAL matches 1..10 run scoreboard players operation @s CHESTEFFECT = #C CAL 
 ##
