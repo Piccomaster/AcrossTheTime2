@@ -2,7 +2,7 @@
 #Made by Adventquest												#
 #fish area set                                       				#
 #####################################################################
-say 饿
+
 #add fish count
 scoreboard players add @s FISH_COUNT 1
 #add fish quality
