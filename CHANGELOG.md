@@ -428,6 +428,8 @@
 #### **Mimic Chest Adjustments**
 - Reduced spawn rate.
 - Added appearance tips.
+- Reduce the number of drops when a mimic dies, but as the mimic's level increases, the probability of it dropping high-quality items will also rise significantly.
+
 
 <br>
 
