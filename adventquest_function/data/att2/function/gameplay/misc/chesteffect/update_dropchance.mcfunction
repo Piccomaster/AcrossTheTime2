@@ -3,6 +3,21 @@
 #Process chest effect       									#
 #################################################################
 
+##adv detection
+execute at @s run function att2:advancement/test_all/secret/simple_test
+execute at @s run function att2:advancement/test_all/secret/wall_break_test
+execute at @s run function att2:advancement/test_all/secret/ice_melt_test
+##chest detection
+execute if score #C CAL matches 1 at @s run function att2:gameplay/misc/chesteffect/open_c1
+execute if score #C CAL matches 2 at @s run function att2:gameplay/misc/chesteffect/open_c2
+execute if score #C CAL matches 3 at @s run function att2:gameplay/misc/chesteffect/open_c3
+execute if score #C CAL matches 4 at @s run function att2:gameplay/misc/chesteffect/open_c4
+execute if score #C CAL matches 5 at @s run function att2:gameplay/misc/chesteffect/open_c5
+execute if score #C CAL matches 6 at @s run function att2:gameplay/misc/chesteffect/open_c6
+execute if score #C CAL matches 7 at @s run function att2:gameplay/misc/chesteffect/open_c7
+execute if score #C CAL matches 8 at @s run function att2:gameplay/misc/chesteffect/open_c8
+execute if score #C CAL matches 9 at @s run function att2:gameplay/misc/chesteffect/open_c9
+execute if score #C CAL matches 10 at @s run function att2:gameplay/misc/chesteffect/open_c10
 ##list
 
 ##set rolls
@@ -54,6 +69,15 @@ scoreboard players operation #RunesRolls DropRolls += #BonusRolls CAL
 tellraw @a ["Runes:",{score:{name:"#RunesRolls",objective:"DropRolls"}}]
 #Clamp range
 
+#luck effect
+scoreboard players operation #luck_add CAL = #luck CAL
+
+execute if score #C CAL matches 1..3 run scoreboard players operation #luck_add CAL /= 30 CAL
+execute if score #C CAL matches 4..6 run scoreboard players operation #luck_add CAL /= 40 CAL
+execute if score #C CAL matches 7..9 run scoreboard players operation #luck_add CAL /= 50 CAL
+
+scoreboard players operation #C CAL += #luck_add CAL
+tellraw @a ["LUCK_C:",{score:{name:"#luck_add",objective:"CAL"}}]
 ##DropChanceCom
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceCom 42779360
 execute if score #C CAL matches 2 run scoreboard players set #Temp DropChanceCom 51799600
@@ -64,7 +88,7 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceCom
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceCom 19900600
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceCom 11209600
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceCom 5558010
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceCom 2425790
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceCom 2425790
 
 ##DropChanceUnc
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceUnc 1924460
@@ -76,7 +100,7 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceUnc
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceUnc 43800540
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceUnc 40158760
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceUnc 30951570
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceUnc 20053350
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceUnc 20053350
 
 ##DropChanceRar
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceRar 216280
@@ -88,7 +112,7 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceRar
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceRar 7269060
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceRar 10837750
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceRar 15320460
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceRar 20534130
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceRar 20534130
 
 ##DropChanceEpi
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceEpi 6000
@@ -100,7 +124,7 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceEpi
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceEpi 1070410
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceEpi 2076000
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceEpi 3800910
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceEpi 6569520
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceEpi 6569520
 
 ##DropChanceLeg
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceLeg 2480
@@ -112,7 +136,7 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceLeg
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceLeg 352980
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceLeg 686940
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceLeg 1276840
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceLeg 2266790
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceLeg 2266790
 
 ##DropChanceUlt
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceUlt 1280
@@ -124,7 +148,7 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceUlt
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceUlt 143100
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceUlt 275650
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceUlt 511440
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceUlt 914050
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceUlt 914050
 
 ##DropChanceMyt
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceMyt 800
@@ -136,7 +160,7 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceMyt
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceMyt 71050
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceMyt 134540
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceMyt 246930
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceMyt 439330
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceMyt 439330
 
 ##DropChanceRuneC
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceRuneC 450
@@ -148,7 +172,7 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceRun
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceRuneC 29880
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceRuneC 55030
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceRuneC 98860
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceRuneC 173240
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceRuneC 173240
 
 ##DropChanceRuneB
 execute if score #C CAL matches 1 run scoreboard players set #Temp DropChanceRuneB 300
@@ -160,4 +184,4 @@ execute if score #C CAL matches 6 run scoreboard players set #Temp DropChanceRun
 execute if score #C CAL matches 7 run scoreboard players set #Temp DropChanceRuneB 16360
 execute if score #C CAL matches 8 run scoreboard players set #Temp DropChanceRuneB 29480
 execute if score #C CAL matches 9 run scoreboard players set #Temp DropChanceRuneB 52000
-execute if score #C CAL matches 10 run scoreboard players set #Temp DropChanceRuneB 89790
+execute if score #C CAL matches 10.. run scoreboard players set #Temp DropChanceRuneB 89790

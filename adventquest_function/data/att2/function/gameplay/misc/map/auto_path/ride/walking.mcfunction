@@ -9,7 +9,7 @@ execute if score tic TIMECOUNTER matches 5 as @s[type=camel] run function att2:g
 execute if score tic TIMECOUNTER matches 5 run tp @s ~ ~0.2 ~
 
 #make body same
-$execute at @s run rotate @s facing entity @n[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(end)}] eyes
+$execute at @s run rotate @s facing entity @n[type=marker,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(end)}] eyes
 
 #$say $(numerojoueur)_$(end)
 #tp world entity

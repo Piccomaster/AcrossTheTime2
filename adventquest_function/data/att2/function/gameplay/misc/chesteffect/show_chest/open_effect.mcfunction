@@ -40,26 +40,32 @@ execute if score #Dimension CAL matches 2 run data modify block ~ ~ ~ LootTable 
 execute if score #Dimension CAL matches 3 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg3"
 execute if score #Dimension CAL matches 4 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg4"
 
+##insert quick pick-up trigger
+execute if block ~ ~ ~ #minecraft:chest[type=left] run item replace block ~ ~ ~ container.26 with minecraft:player_head
+execute if block ~ ~ ~ #minecraft:chest[type=left] as @p[distance=..20,predicate=att2_pre:score/player] run item modify block ~ ~ ~ container.26 att2:qucik_pick_up
+
+
+
 ##test item rarity -> sound tip
-execute if items block ~ ~ ~ container.* gold_nugget[custom_data~{Rarity:cur}] run playsound minecraft:piece1 ambient @a ~ ~ ~ 1 1.6
-execute if items block ~ ~ ~ container.* gold_ingot[custom_data~{Rarity:cur}] run playsound minecraft:piece1 ambient @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* diamond[custom_data~{Rarity:cur}] run playsound minecraft:piece1 ambient @a ~ ~ ~ 1 0.8
-execute if items block ~ ~ ~ container.* glow_ink_sac[custom_data~{Rarity:cur}] run playsound minecraft:piece1 ambient @a ~ ~ ~ 1 0.6
-execute if items block ~ ~ ~ container.* copper_ingot[custom_data~{Rarity:cur}] run playsound minecraft:piece1 ambient @a ~ ~ ~ 1 0.4
-execute if items block ~ ~ ~ container.* quartz[custom_data~{Rarity:unk}] run playsound minecraft:piece2 ambient @a ~ ~ ~ 1 0.8
+execute if items block ~ ~ ~ container.* gold_nugget[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 1.6
+execute if items block ~ ~ ~ container.* gold_ingot[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 1
+execute if items block ~ ~ ~ container.* diamond[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 0.8
+execute if items block ~ ~ ~ container.* glow_ink_sac[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 0.6
+execute if items block ~ ~ ~ container.* copper_ingot[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 0.4
+execute if items block ~ ~ ~ container.* quartz[custom_data~{Rarity:unk}] run playsound minecraft:piece2 block @a ~ ~ ~ 1 0.8
 
-execute if items block ~ ~ ~ container.* #minecraft:chainmail run playsound item.armor.equip_chain ambient @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:golden run playsound item.armor.equip_gold ambient @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:leather run playsound item.armor.equip_leather ambient @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:diamond run playsound item.armor.equip_diamond ambient @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:netherite run playsound item.armor.equip_netherite ambient @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:potion run playsound item.bottle.fill ambient @a ~ ~ ~ 1 1
+execute if items block ~ ~ ~ container.* #minecraft:chainmail run playsound item.armor.equip_chain block @a ~ ~ ~ 1 1
+execute if items block ~ ~ ~ container.* #minecraft:golden run playsound item.armor.equip_gold block @a ~ ~ ~ 1 1
+execute if items block ~ ~ ~ container.* #minecraft:leather run playsound item.armor.equip_leather block @a ~ ~ ~ 1 1
+execute if items block ~ ~ ~ container.* #minecraft:diamond run playsound item.armor.equip_diamond block @a ~ ~ ~ 1 1
+execute if items block ~ ~ ~ container.* #minecraft:netherite run playsound item.armor.equip_netherite block @a ~ ~ ~ 1 1
+execute if items block ~ ~ ~ container.* #minecraft:potion run playsound item.bottle.fill block @a ~ ~ ~ 1 1.5
 
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi}] run playsound minecraft:entity.villager.celebrate ambient @a ~ ~ ~ 1 1.25
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi_set}] run playsound minecraft:entity.villager.celebrate ambient @a ~ ~ ~ 1 1.25
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg}] run playsound minecraft:entity.villager.celebrate ambient @a ~ ~ ~ 1 1.25
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg_armset}] run playsound minecraft:entity.villager.celebrate ambient @a ~ ~ ~ 1 1.25
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:ult}] run playsound minecraft:entity.villager.celebrate ambient @a ~ ~ ~ 1 1.25
+execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
+execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi_set}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
+execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
+execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg_armset}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
+execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:ult}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
 ##particle tip
 #com
 execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:com}] run particle minecraft:dust{color:[0.5,0.5,0.5],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
@@ -83,11 +89,6 @@ tag @s add Open
 ##sound
 playsound minecraft:item.armor.equip_netherite player @a ~ ~ ~ 1 0.5
 playsound minecraft:block.vault.reject_rewarded_player player @a ~ ~ ~ 1 0.5
-
-##adv detection
-execute as @p[distance=..20,predicate=att2_pre:score/player] at @s run function att2:advancement/test_all/secret/simple_test
-execute as @p[distance=..20,predicate=att2_pre:score/player] at @s run function att2:advancement/test_all/secret/wall_break_test
-execute as @p[distance=..20,predicate=att2_pre:score/player] at @s run function att2:advancement/test_all/secret/ice_melt_test
 
 ##more sound
 execute if score #T CAL matches 8..10 run playsound minecraft:block.vault.open_shutter player @a ~ ~ ~ 1 1.5

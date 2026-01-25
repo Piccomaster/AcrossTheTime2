@@ -18,3 +18,5 @@ scoreboard objectives add MAP_DISPLAY dummy
 scoreboard objectives add MAP_RETURN dummy
 scoreboard objectives add MAP_EYES_SELECT dummy
 scoreboard objectives add MAPMKR dummy
+
+function att2:gameplay/misc/map/system_set/summon_marker/road_point

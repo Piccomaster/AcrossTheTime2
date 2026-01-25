@@ -9,7 +9,7 @@ execute if score tic TIMECOUNTER matches 5 if entity @s[type=camel] run function
 execute if score tic TIMECOUNTER matches 5 run tp @s ~ ~0.5 ~
 
 #make body same
-$execute at @s run rotate @s facing entity @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(end)},limit=1,sort=nearest] eyes
+$execute at @s run rotate @s facing entity @e[type=marker,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=$(end)},limit=1,sort=nearest] eyes
 #tp world entity
 function att2:gameplay/misc/map/auto_path/speed_cal
 

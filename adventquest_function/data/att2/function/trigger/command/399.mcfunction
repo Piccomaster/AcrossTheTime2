@@ -1,1 +1,1 @@
-execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_6
+execute if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_6

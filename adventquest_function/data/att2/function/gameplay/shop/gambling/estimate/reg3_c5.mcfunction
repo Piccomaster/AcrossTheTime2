@@ -3,9 +3,15 @@
 #select and summon the loot of gambling5 					#
 #############################################################
 
-execute positioned -4961 97 -5802 run function att2:summon/gambling_reg3_5
-execute positioned -4961 97 -5802 run function att2:summon/gambling0
-execute positioned -4961 97 -5802 run function att2:summon/gambling0
+##set loot data
+scoreboard players set #C CAL 5
+scoreboard players set #T CAL 5
+function att2:gameplay/misc/chesteffect/other_dropchance
+execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:chest/reg3
+execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
+execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
+#execute positioned -4961 97 -5802 as @e[type=item,distance=..0.1,tag=!Motion] at @s run function att2:gameplay/misc/motion/item_random_motion
 execute positioned -4961 97 -5802 run summon minecraft:experience_orb ~ ~ ~ {Value:50}
-kill @e[type=item,distance=..3,nbt={Item:{components:{"minecraft:custom_data":{Rarity:"reg3_c5"}}}},limit=1]
-scoreboard players remove reg3_c5 GAMBLING 1
+data remove entity @s data.gambling[0]
+##add score
+scoreboard players add @s GAMBLING 5

@@ -7,7 +7,7 @@
 #give horse effect
 execute on vehicle at @s run function att2:gameplay/misc/map/auto_path/ride_set with storage att2:route
 #dismount
-$tp @e[type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=1},limit=1,sort=nearest]
+$tp @e[type=marker,tag=ROAD_MARKER,scores={ROUTING_$(numerojoueur)=1},limit=1,sort=nearest]
 
 #firt load marker
 execute store result storage att2:route start int 1 run scoreboard players get 1 CAL

@@ -394,13 +394,13 @@ execute if score @s ScoreTrigger matches 390 run execute if entity @s[x=-5029,y=
 execute if score @s ScoreTrigger matches 391 run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/ust
 execute if score @s ScoreTrigger matches 392 run execute if entity @s[x=-5029,y=90,z=-4958,distance=..5] run function att2:gameplay/runes/craft/lya
 execute if score @s ScoreTrigger matches 393 run execute at @e[tag=Recycler,sort=nearest,limit=1] run function att2:gameplay/recycler/deal
-execute if score @s ScoreTrigger matches 394 run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_1
-execute if score @s ScoreTrigger matches 395 run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_2
-execute if score @s ScoreTrigger matches 396 run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_3
-execute if score @s ScoreTrigger matches 397 run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_4
-execute if score @s ScoreTrigger matches 398 run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_5
-execute if score @s ScoreTrigger matches 399 run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_6
-execute if score @s ScoreTrigger matches 400 run execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_7
+execute if score @s ScoreTrigger matches 394 run execute if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_1
+execute if score @s ScoreTrigger matches 395 run execute if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_2
+execute if score @s ScoreTrigger matches 396 run execute if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_3
+execute if score @s ScoreTrigger matches 397 run execute if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_4
+execute if score @s ScoreTrigger matches 398 run execute if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_5
+execute if score @s ScoreTrigger matches 399 run execute if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_6
+execute if score @s ScoreTrigger matches 400 run execute if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_7
 execute if score @s ScoreTrigger matches 401 run execute at @e[tag=Grinder,sort=nearest,limit=1] run function att2:gameplay/grinder/deal
 execute if score @s ScoreTrigger matches 402 run execute positioned -5232 99 -6278 if entity @s[distance=..10] run function att2:gameplay/misc/house/cave_expansion/eolorion_trigger
 execute if score @s ScoreTrigger matches 403 run execute positioned -5448 58 -4608 if entity @s[distance=..10] run function att2:gameplay/misc/house/cave_expansion/kortaek_trigger

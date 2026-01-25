@@ -6,7 +6,7 @@
 #dialogs loaded
 function att2:dialogs/gameplay/misc/map/route_loaded
 #clear route_select
-$kill @e[type=armor_stand,tag=ROUTE_SELECT,scores={OWNER=$(numerojoueur)}]
+$kill @e[type=marker,tag=ROUTE_SELECT,scores={OWNER=$(numerojoueur)}]
 #reset score
 scoreboard players reset @s ROUTE_LOADING
 #scoreboard players reset @s MAPMKR
