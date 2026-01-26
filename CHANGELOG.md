@@ -160,22 +160,22 @@
 - Target selection within the area is now more generous (especially for large-sized enemies).
 
 #### **New spells**
-## 1. **Luminous Orb**
+##### 1. **Luminous Orb**
 - **Purchase Location**: Ryliath
 - **Effect**:
   - Summons a permanent orb at the casting location that illuminates the surrounding area.
   - The orb automatically attacks nearby enemies with beam attacks.
 
-## 2. **Battle Companion**
+##### 2. **Battle Companion**
 - **Purchase Location**: Eolorion
 - **Effect**: Summons a flying pet that fights for you.
 - **Related Weapon Mechanic**: You can hold a sword-class weapon and left-click to replace it. Weapons of different qualities will increase its attack power.
 
-## 3. **Blood Transmutation**
+##### 3. **Blood Transmutation**
 - **Purchase Location**: Eolorion
 - **Effect**: Temporarily reduces a fixed amount of maximum health and increases the current Dahal cap.
 
-## 4. **Soul Companion**
+##### 4. **Soul Companion**
 - **Purchase Location**: Eolorion (Requires completion of all main and side quests)
 - **Effect**: Summons a vessel that you can possess.
 - **Possession Mechanic**: Left-click the summoned vessel to enter possession state.
@@ -428,6 +428,8 @@
 #### **Mimic Chest Adjustments**
 - Reduced spawn rate.
 - Added appearance tips.
+- Reduce the number of drops when a mimic dies, but as the mimic's level increases, the probability of it dropping high-quality items will also rise significantly.
+
 
 <br>
 
@@ -469,7 +471,7 @@
 - **Opening Method**: Hold **conscience** + `Shift` + `Right-click`
 
 #### **Page Functions**: Previous Page Icon
-- **Click**: Return to previous page  
+- **Click**: Return to previous page
 - **Shift + Click**: Quick-deposit inventory items into Stock
 
 #### **Page Functions**: Next Page Icon  
@@ -585,7 +587,10 @@
 
 - Item drops will display a glowing outline in the color corresponding to their quality and will also show the item's name.
 - When opening a new hidden shulker box, there will be an extra sound effect and a display showing the current number of shulker boxes discovered.
-- When opening a chest, particle effects of different colors will appear based on the chest's quality, and additional sound effects will be played during the opening.
+- When opening a chest, additional sound effects will play based on the quality of the items inside, and particle effects in corresponding colors will be displayed.
+
+#### **Casino optimization.**
+- Refactored the casino drop process function, now supporting rapid betting on different tiers with multiple clicks in a short timeframe.
 <br>
 
 ### **Minor Issues**

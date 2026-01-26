@@ -1,0 +1,1 @@
+{"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:paper","functions":[{"function":"minecraft:set_components","components":{"custom_data":{"EquipmentType":"misc","Rarity":"que"},"custom_name":{"translate":"item.quest.important_letter.name"},"lore":[{"translate":"item.quest.lore"}],"tooltip_style":"minecraft:rarity/quest/quest"}}]}]}]}

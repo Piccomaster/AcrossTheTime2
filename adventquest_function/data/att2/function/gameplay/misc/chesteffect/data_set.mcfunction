@@ -8,6 +8,20 @@
 tag @s add SETCHEST
 
 ##name detection
+
+##get c/t
+scoreboard players set #player_id CAL 0
+scoreboard players set #C CAL 0
+scoreboard players set #T CAL 0
+scoreboard players set #Dimension CAL 0
+scoreboard players set #Q CAL 0
+
+execute store result score #C CAL as @s at @s run data get entity @s data.C
+
+execute store result score #T CAL run data get entity @s data.T
+##get quest item
+execute store result score #Q CAL run data get entity @s data.Q
+
 ##normal
 function att2:gameplay/misc/chesteffect/name/c_test
 ##ithax_name
@@ -18,7 +32,7 @@ function att2:gameplay/misc/chesteffect/name/quest_name
 data modify block ~ ~ ~ CustomName set from entity @s data.customname
 ##clear error
 execute if data block ~ ~ ~ {lock:{}} unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
-execute unless data block ~ ~ ~ LootTable unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
+#execute unless data block ~ ~ ~ LootTable unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
 
 ##update chest -> empty texture (copperchest) waxed_copper_chest
 execute if block ~ ~ ~ #minecraft:chest[facing=east] run function att2:gameplay/misc/chesteffect/empty_chest/east
@@ -27,20 +41,14 @@ execute if block ~ ~ ~ #minecraft:chest[facing=south] run function att2:gameplay
 execute if block ~ ~ ~ #minecraft:chest[facing=north] run function att2:gameplay/misc/chesteffect/empty_chest/north
 #function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data
 ##score set
-execute if predicate att2_pre:chest_effect/t1 run scoreboard players set @s CHESTEFFECT 1
-execute if predicate att2_pre:chest_effect/t2 run scoreboard players set @s CHESTEFFECT 2
-execute if predicate att2_pre:chest_effect/t3 run scoreboard players set @s CHESTEFFECT 3
-execute if predicate att2_pre:chest_effect/t4 run scoreboard players set @s CHESTEFFECT 4
-execute if predicate att2_pre:chest_effect/t5 run scoreboard players set @s CHESTEFFECT 5
-execute if predicate att2_pre:chest_effect/t6 run scoreboard players set @s CHESTEFFECT 6
-execute if predicate att2_pre:chest_effect/t7 run scoreboard players set @s CHESTEFFECT 7
-execute if predicate att2_pre:chest_effect/t8 run scoreboard players set @s CHESTEFFECT 8
-execute if predicate att2_pre:chest_effect/t9 run scoreboard players set @s CHESTEFFECT 9
-execute if predicate att2_pre:chest_effect/t10 run scoreboard players set @s CHESTEFFECT 10
+##set c score
+execute if score #C CAL matches 1..10 run scoreboard players operation @s CHESTEFFECT = #C CAL 
 ##
-execute if predicate att2_pre:chest_effect/ithax_foods run scoreboard players set @s CHESTEFFECT 11
-execute if predicate att2_pre:chest_effect/ithax_ammunition run scoreboard players set @s CHESTEFFECT 12
-execute if predicate att2_pre:chest_effect/quest run scoreboard players set @s CHESTEFFECT 13
+execute if score #Q CAL matches 66 run scoreboard players set @s CHESTEFFECT 11
+execute if score #Q CAL matches 67 run scoreboard players set @s CHESTEFFECT 12
+execute if score #Q CAL matches 1..65 run scoreboard players set @s CHESTEFFECT 13
+##quest
+execute if score #Q CAL matches 1.. run scoreboard players operation @s DropQuestItemId = #Q CAL
 
 ##show glowing color
 execute if score @s CHESTEFFECT matches 1 run data modify entity @s data.glow_color_override set value 8421504

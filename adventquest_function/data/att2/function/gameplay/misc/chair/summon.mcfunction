@@ -4,7 +4,7 @@
 #####################################################################
 
 #summon chair
-execute at @s align yxz positioned ~0.5 ~ ~0.5 run summon interaction ~ ~ ~ {height:1,width:0.9,response:1,Tags:["CHAIR","New"],Passengers:[{id:"minecraft:minecart",Tags:["CHAIR","invminecarts.invisible_minecart"],Invulnerable:true,NoGravity:false,Silent:true},{id:"item_display",item:{id:"scaffolding"},Tags:["CHAIR","New"]}]}
+execute at @s align yxz positioned ~0.5 ~ ~0.5 run summon interaction ~ ~ ~ {height:1,width:0.9,response:1,Tags:["CHAIR","New"],Passengers:[{id:"item_display",item:{id:"scaffolding"},Tags:["CHAIR","New"]}]}
 #other_1
 execute unless block ~ ~-1 ~ #minecraft:stairs if predicate att2_pre:chair/other_1 as @e[tag=CHAIR,type=interaction,tag=New] at @s run tp ~ ~-0.22 ~
 #carpet

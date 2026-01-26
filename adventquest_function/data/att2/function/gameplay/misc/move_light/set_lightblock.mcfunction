@@ -5,7 +5,7 @@
 
 
 
-##
-setblock ~ ~ ~ minecraft:light[level=15] strict
 ##tp ~ ~ ~
 tp @s ~ ~ ~
+##
+execute at @s run setblock ~ ~ ~ minecraft:light[level=15] strict

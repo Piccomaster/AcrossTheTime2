@@ -4,7 +4,7 @@
 #################################################################
 
 #detection near next waypoint
-$execute unless entity @e[distance=..2,type=armor_stand,tag=ROAD_MARKER,scores={ROUTING_END_$(numerojoueur)=7777},limit=1,sort=nearest] run return 0
+$execute unless entity @e[distance=..2,type=marker,tag=ROAD_MARKER,scores={ROUTING_END_$(numerojoueur)=7777},limit=1,sort=nearest] run return 0
 ##when no return 0->end
 
 
