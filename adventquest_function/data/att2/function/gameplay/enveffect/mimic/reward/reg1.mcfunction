@@ -9,7 +9,7 @@ scoreboard players add total_killed MIMIC 1
 function att2:advancement/test_all/mobskilled/mimic
 #
 particle dust{color:[1.0,0.667,0.0],scale:1} ~ ~1 ~ 1 1 1 0 50
-execute as @a[distance=..50] at @s run function att2:dialogs/gameplay/misc/mimic_dead
+execute as @s[type=slime] as @a[distance=..50] at @s run function att2:dialogs/gameplay/misc/mimic_dead
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 5 1.1
 playsound minecraft:entity.firework_rocket.twinkle master @a ~ ~ ~ 5 1
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 5 1.1
@@ -59,5 +59,6 @@ execute as @e[type=minecraft:item,distance=..30,predicate=!att2_pre:test_item/he
 
 #remove
 tp @s ~ -10 ~
+execute on vehicle run kill @s
 execute on passengers run kill @s
 kill @s
