@@ -3,10 +3,16 @@
 #Process help for finding objectives (locate them)         	#
 #############################################################
 
-#remove timer
-scoreboard players remove @s GPS_TIMER 1
+execute unless score tic TIMECOUNTER matches 1 run return fail
+
+##initialize
+execute unless score @s GPS_TIMER matches -1.. run scoreboard players set @s GPS_TIMER 6
+
 #player leave
-execute unless entity @a[distance=..15] run scoreboard players set @s GPS_TIMER 0
+execute unless entity @p[distance=..15] run scoreboard players set @s GPS_TIMER 0
+
+execute unless score @s GPS_TIMER matches ..0 run return run scoreboard players remove @s GPS_TIMER 1
+
 #end
-tp @s[scores={GPS_TIMER=0}] ~ 0 ~
-kill @s[scores={GPS_TIMER=0}]
+tp @s ~ 0 ~
+kill @s

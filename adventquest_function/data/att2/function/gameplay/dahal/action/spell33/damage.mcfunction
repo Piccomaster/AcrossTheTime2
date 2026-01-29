@@ -7,9 +7,9 @@
 $damage @s $(damage) att2_damage:magic by @p
 
 ##particle
-particle minecraft:enchanted_hit ~ ~0.3 ~ 0.5 0.5 0.5 0 20 normal
-particle minecraft:wax_on ~ ~0.3 ~ 0.5 0.5 0.5 0 20 normal
-particle minecraft:item{item:{id:"diamond",components:{"minecraft:item_model":"netherite_ingot"}}} ~ ~0.5 ~ 0.2 0.2 0.2 0 20 normal
+particle minecraft:enchanted_hit ~ ~0.3 ~ 0.5 0.5 0.5 0 10 normal
+particle minecraft:wax_on ~ ~0.3 ~ 0.5 0.5 0.5 0 10 normal
+particle minecraft:item{item:{id:"diamond",components:{"minecraft:item_model":"netherite_ingot"}}} ~ ~0.5 ~ 0.2 0.2 0.2 0 10 normal
 #add tag
 tag @s add SPELL33_ATK
 ##detection health

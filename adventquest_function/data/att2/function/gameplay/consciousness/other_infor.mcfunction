@@ -37,7 +37,7 @@ function att2:gameplay/consciousness/insert/other_infor with storage att2:dialog
 
 ##insert chest_mimic
 execute store result storage att2:dialog infor int 1 run scoreboard players get total_killed MIMIC
-data modify storage att2:dialog id set value "mimic"
+data modify storage att2:dialog id set value "chest_mimic"
 function att2:gameplay/consciousness/insert/other_infor with storage att2:dialog
 
 ##insert jump

@@ -30,7 +30,7 @@ execute as @a[scores={DIMENSION=6}] at @s run function att2:gameplay/music/detec
 execute as @a[scores={DIMENSION=7}] at @s run function att2:gameplay/music/detection/billgart
 
 # Incase player is moving to another area, the music stops to launch the next one
-execute as @a[scores={CHANGING_AREA=1,MUSIC_B_TIMER=0},tag=!HorseRace] at @s run function att2:gameplay/music/interrupt
+execute as @a[scores={CHANGING_AREA=1,MUSIC_B_TIMER=0},tag=!NoAutoMusic] at @s run function att2:gameplay/music/interrupt
 scoreboard players set @a[scores={CHANGING_AREA=1}] CHANGING_AREA 0
 
 # Battle music plays if a hostile mob comes too close to a player

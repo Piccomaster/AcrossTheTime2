@@ -6,13 +6,13 @@
 #effect give @s instant_health 1 10 true
 #get health
 execute store result score #Health CAL run data get entity @s Health 100
-execute store result score max_health CAL run attribute @s max_health get 100
-execute store result score absorption CAL run data get entity @s AbsorptionAmount 100
+execute store result score #max_health CAL run attribute @s max_health get 100
+execute store result score #absorption CAL run data get entity @s AbsorptionAmount 100
 #get base resistance
 scoreboard players operation RES_TOT CAL = @s RES_TOT
-scoreboard players operation #RES_TOT CAL > #-50 CAL
+scoreboard players operation #RES_TOT CAL > -50 CAL
 execute if score #RES_TOT CAL matches ..0 run scoreboard players set #RES_TOT CAL 0
-scoreboard players operation #RES_TOT CAL *= #-10 CAL
+scoreboard players operation #RES_TOT CAL *= -10 CAL
 scoreboard players operation #RES_TOT CAL += 100 CAL
 ##max reduce
 scoreboard players operation #RES_TOT CAL > 5 CAL
@@ -28,7 +28,7 @@ execute if score @s RES_DETECTION matches 0.. run effect clear @s absorption
 #absorption> DAMAGE
 execute unless score @s RES_DETECTION matches 0.. run function att2:gameplay/stat/resistance/detection/absorption_cal
 #remove health
-scoreboard players operation Health CAL -= @s RES_DETECTION
+scoreboard players operation #Health CAL -= @s RES_DETECTION
 scoreboard players operation #Health CAL *= 100 CAL
 scoreboard players operation #Health CAL /= #max_health CAL
 scoreboard players operation #Health CAL -= 100 CAL

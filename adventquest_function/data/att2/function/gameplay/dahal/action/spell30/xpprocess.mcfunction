@@ -29,3 +29,4 @@ execute if score @s SURVIVEBONUS matches 4 run scoreboard players operation tota
 
 ##update score
 scoreboard players operation @n[type=minecraft:armor_stand,tag=RecyclerSpell,distance=..1,scores={SPELL30_EFFECT=100}] SPELL30 = total SPELL30
+tellraw @a [{translate:att2.spell30.xp_total,with:[{score:{name:"total",objective:"SPELL30"},color:dark_green}]}]

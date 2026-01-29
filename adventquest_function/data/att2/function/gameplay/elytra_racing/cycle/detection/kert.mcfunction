@@ -4,7 +4,7 @@
 #################################################################
 
 ##update pos
-execute if score @s ElytraRacing matches 1..199 unless entity @n[distance=..50,type=marker,tag=ElytraRace,tag=Kert,tag=ElytraRoute,predicate=att2_pre:score/elytra_racing/next_pos] run function att2:gameplay/elytra_racing/player/mistake/too_far
+execute if score @s ElytraRacing matches 1..373 unless entity @n[distance=..50,type=marker,tag=ElytraRace,tag=Kert,tag=ElytraRoute,predicate=att2_pre:score/elytra_racing/next_pos] run function att2:gameplay/elytra_racing/player/mistake/too_far
 
 ##add temp
 tag @s add TEMP
@@ -14,7 +14,7 @@ execute at @s as @e[distance=..64,type=marker,tag=ElytraRace,tag=ElytraRoute,tag
 tag @s remove TEMP
 
 ##test end
-execute unless score @s ElytraRacing matches 242.. run return fail
+execute unless score @s ElytraRacing matches 374.. run return fail
 execute in overworld positioned -5551 163 -4766 unless entity @s[distance=..5] run return fail
 
 ##end effect
@@ -40,3 +40,4 @@ scoreboard players operation #minute CAL /= 60 CAL
 tellraw @a [{selector:"@s",color:"dark_red"},{text:" : "},{translate:att2.elytra_racing.kert.end,color:"yellow",with:[{score:{name:"#minute",objective:"CAL"},color:green},{score:{name:"#second",objective:"CAL"},color:green},{score:{name:"#ms",objective:"CAL"},color:green}]}]
 ##reset score
 scoreboard players set @s ElytraRacingTime -777
+scoreboard players set @s ElytraRacing 0
