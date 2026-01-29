@@ -3,7 +3,6 @@
 #Apply visual effect for Power ray								#
 #################################################################
 
-execute as @a[distance=..5] run stopsound @s ambient minecraft:strange9
 execute as @a[distance=..5] run function att2:sound/dahal/spell4_effect
 particle minecraft:end_rod ~ ~ ~ 0 0 0 0 2 normal
 particle minecraft:wax_off ~ ~ ~ 0.1 -0.2 0.1 0 10 normal

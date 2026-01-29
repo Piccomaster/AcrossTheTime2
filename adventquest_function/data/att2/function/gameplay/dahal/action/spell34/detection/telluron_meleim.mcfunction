@@ -34,3 +34,35 @@ execute if score 28 SECRET_WALLBREAK matches 0 positioned -3787 94 -5943 run fun
 execute if score 11 SECRET_ICEMELT matches 0 positioned -3851 87 -6041 run function att2:gameplay/dahal/action/spell34/create_secret_marker
 execute if score 21 SECRET_SHULKER matches 0 positioned -3896 87 -5831 run function att2:gameplay/dahal/action/spell34/create_secret_marker
 execute if score 22 SECRET_SHULKER matches 0 positioned -3794 96 -5899 run function att2:gameplay/dahal/action/spell34/create_secret_marker
+
+#Symbols
+execute unless score Meleim SYMBOL matches 30.. positioned -3773 106 -5807 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3762 96 -5815 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3895 102 -5879 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3967 91 -5866 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3868 105 -5884 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3802 122 -5907 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3768 80 -5916 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3751 92 -5905 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3780 106 -5903 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3801 98 -5877 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3792 95 -5906 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3806 103 -5837 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3797 86 -5858 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3816 86 -5804 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3793 71 -5874 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3804 81 -5851 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3806 70 -5819 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3768 78 -5796 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3745 75 -5858 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3705 68 -5861 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3693 72 -5813 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3691 92 -5823 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3736 93 -5847 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3749 96 -5838 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3782 75 -5863 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3731 86 -5808 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3896 85 -5793 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3808 84 -5826 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3757 71 -5875 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Meleim SYMBOL matches 30.. positioned -3758 70 -5902 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker

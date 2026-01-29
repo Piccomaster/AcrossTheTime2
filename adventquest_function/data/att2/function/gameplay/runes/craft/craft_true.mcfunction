@@ -3,8 +3,8 @@
 #Prosses all runic words list for player 	                            #
 #########################################################################
 
-scoreboard players add #RecipeCount RUNE 1
-scoreboard players set #rune_test RUNECOUNT 1
+scoreboard players add RecipeCount RUNE 1
+scoreboard players set rune_test RUNECOUNT 1
 ##TEST RecipeCount
 execute as @a run function att2:advancement/test_all/progress/recipe
 
@@ -13,7 +13,7 @@ execute in overworld positioned -5029 90 -4958 run function att2:gameplay/runes/
 function att2:dialogs/gameplay/runes/craft_true
 
 #merge display
-execute store result storage att2:temp value_1 int 1 run scoreboard players get #stock RUNE_POWDER
+execute store result storage att2:temp value_1 int 1 run scoreboard players get stock RUNE_POWDER
 function att2:gameplay/runes/craft/runepowder_display with storage att2:temp
 #reset
 data remove storage att2:temp value_1

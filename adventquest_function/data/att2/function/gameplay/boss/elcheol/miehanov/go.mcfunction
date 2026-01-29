@@ -24,7 +24,7 @@ execute if score EnterArena VONAHEIM matches ..0 as @a[x=-5613,y=163,z=-6388,dx=
 execute if score EnterArena VONAHEIM matches 1.. run scoreboard players remove EnterArena VONAHEIM 1
 
 # Start the boss fight (summoning Miehanov)
-execute if score Miehanov VONAHEIM matches -1 if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure,tag=!ElytraRace] run function att2:gameplay/boss/elcheol/miehanov/start
+execute if score Miehanov VONAHEIM matches -1 if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] run function att2:gameplay/boss/elcheol/miehanov/start
 
 # Process action of Miehanov
 execute if score Miehanov VONAHEIM matches 0 if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] run function att2:gameplay/boss/elcheol/miehanov/action

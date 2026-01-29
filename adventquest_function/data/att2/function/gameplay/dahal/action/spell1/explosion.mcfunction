@@ -4,7 +4,7 @@
 #################################################
 
 ##boom
-execute if score true Fire_Melting matches 1 run function att2:gameplay/dahal/action/spell1/enable_fire_melting
+
 #particle
 $particle minecraft:explosion ~ ~ ~ 0.5 0.5 0.5 0 $(particle_count) normal
 #sound

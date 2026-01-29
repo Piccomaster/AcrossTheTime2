@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Process adding Tier Elite score 			                                                                                                                #
+#Process adding Tier Elite score 			                    #
 #################################################################
 
 ### TOTAL STAT

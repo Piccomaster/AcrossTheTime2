@@ -14,7 +14,7 @@ execute if score #Count CAL matches 2.. run clear @s book[custom_name={translate
 execute if score #Count CAL matches ..0 run function att2:items/consciousness
 
 ##Test handheld
-execute as @s[gamemode=adventure,predicate=att2_pre:test_hold/conscience,predicate=att2_pre:player/input/shift,predicate=!att2_pre:player/input/any,scores={Stock_Open=0}] at @s run function att2:gameplay/dahal/action/spell20/summon/trigger
+execute as @s[predicate=att2_pre:test_hold/conscience,predicate=att2_pre:player/input/shift,predicate=!att2_pre:player/input/any,scores={Stock_Open=0}] at @s run function att2:gameplay/dahal/action/spell20/summon/trigger
 ##Clear Backpack
 execute as @s[predicate=!att2_pre:test_hold/conscience,scores={Stock_Open=1}] at @s run function att2:gameplay/dahal/action/spell20/return/trigger
 ##When the off-hand is the trigger,Remove

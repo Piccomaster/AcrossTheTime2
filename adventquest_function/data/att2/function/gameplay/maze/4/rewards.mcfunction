@@ -26,35 +26,35 @@ function att2:summon/bat_boss_esc_rewards
 execute if score difficulty MAZE matches 0.. run function att2:summon/bat_boss_esc_rewards
 execute if score difficulty MAZE matches 1.. run function att2:summon/bat_boss_esc_rewards
 
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg1,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg2,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg3,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg4,Time:20}
+function att2:summon/bat_maze4_reg1_rewards
+function att2:summon/bat_maze4_reg2_rewards
+function att2:summon/bat_maze4_reg3_rewards
+function att2:summon/bat_maze4_reg4_rewards
 
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg1,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg2,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg3,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg4,Time:20}
+function att2:summon/bat_maze4_reg1_rewards
+function att2:summon/bat_maze4_reg2_rewards
+function att2:summon/bat_maze4_reg3_rewards
+function att2:summon/bat_maze4_reg4_rewards
 
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg1,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg2,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg3,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg4,Time:20}
+function att2:summon/bat_maze4_reg1_rewards
+function att2:summon/bat_maze4_reg2_rewards
+function att2:summon/bat_maze4_reg3_rewards
+function att2:summon/bat_maze4_reg4_rewards
 
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg1,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg2,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg3,Time:20}
-function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg4,Time:20}
+function att2:summon/bat_maze4_reg1_rewards
+function att2:summon/bat_maze4_reg2_rewards
+function att2:summon/bat_maze4_reg3_rewards
+function att2:summon/bat_maze4_reg4_rewards
 
-execute if score difficulty MAZE matches 0.. run function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg1,Time:20}
-execute if score difficulty MAZE matches 0.. run function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg2,Time:20}
-execute if score difficulty MAZE matches 0.. run function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg3,Time:20}
-execute if score difficulty MAZE matches 0.. run function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg4,Time:20}
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze4_reg1_rewards
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze4_reg2_rewards
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze4_reg3_rewards
+execute if score difficulty MAZE matches 0.. run function att2:summon/bat_maze4_reg4_rewards
 
-execute if score difficulty MAZE matches 1.. run function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg1,Time:20}
-execute if score difficulty MAZE matches 1.. run function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg2,Time:20}
-execute if score difficulty MAZE matches 1.. run function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg3,Time:20}
-execute if score difficulty MAZE matches 1.. run function att2:summon/bat_chest_loot_experience_bottle {C:7,T:7,Reg:Reg4,Time:20}
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze4_reg1_rewards
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze4_reg2_rewards
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze4_reg3_rewards
+execute if score difficulty MAZE matches 1.. run function att2:summon/bat_maze4_reg4_rewards
 
 function att2:summon/bat_maze_runes_rewards_4
 function att2:summon/bat_maze_runes_rewards_4

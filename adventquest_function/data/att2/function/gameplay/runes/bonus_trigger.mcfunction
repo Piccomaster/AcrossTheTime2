@@ -50,27 +50,27 @@ execute as @p run function att2:sound/misc/runes_validate
 function att2:gameplay/runes/applybonuseffect
 
 execute as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/bonus_summary
-execute if score #RequiredError RUNE matches 1.. as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords_error
-execute if score #RequiredError RUNE matches 1.. as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords_indication
-execute if score #0_gal_org_inu RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/0_gal_org_inu
-execute if score #1_fus_ra_jo RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/1_fus_ra_jo
-execute if score #2_nym_ehl_ave RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/2_nym_ehl_ave
-execute if score #3_for_tha_gal_hal RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/3_for_tha_gal_hal
-execute if score #4_inu_von_ust RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/4_inu_von_ust
-execute if score #5_jo_fus_nym_da RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/5_jo_fus_nym_da
-execute if score #6_ehl_hal_ra_ra RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/6_ehl_hal_ra_ra
-execute if score #7_wej_ust_chu_tha RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/7_wej_ust_chu_tha
-execute if score #8_org_ave_hal_gal_ehl RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/8_org_ave_hal_gal_ehl
-execute if score #9_da_for_inu RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/9_da_for_inu
-execute if score #10_chu_lya_ehl RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/10_chu_lya_ehl
-execute if score #11_lya_nym_fus_von RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/11_lya_nym_fus_von
-execute if score #12_ave_qi_gal_jo_wej RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/12_ave_qi_gal_jo_wej
-execute if score #13_tha_bex_for RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/13_tha_bex_for
-execute if score #14_puh_wej_von_org RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/14_puh_wej_von_org
-execute if score #15_syl_da_ave_qi_ra RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/15_syl_da_ave_qi_ra
-execute if score #16_von_yog_yog RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/16_von_yog_yog
-execute if score #17_kan_chu_bex_puh RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/17_kan_chu_bex_puh
-execute if score #18_ust_xul_lya_zen_da RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/18_ust_xul_lya_zen_da
-execute if score #19_mot_syl_kan_xul_zen RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/19_mot_syl_kan_xul_zen
+execute if score RequiredError RUNE matches 1.. as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords_error
+execute if score RequiredError RUNE matches 1.. as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords_indication
+execute if score 0_gal_org_inu RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/0_gal_org_inu
+execute if score 1_fus_ra_jo RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/1_fus_ra_jo
+execute if score 2_nym_ehl_ave RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/2_nym_ehl_ave
+execute if score 3_for_tha_gal_hal RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/3_for_tha_gal_hal
+execute if score 4_inu_von_ust RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/4_inu_von_ust
+execute if score 5_jo_fus_nym_da RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/5_jo_fus_nym_da
+execute if score 6_ehl_hal_ra_ra RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/6_ehl_hal_ra_ra
+execute if score 7_wej_ust_chu_tha RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/7_wej_ust_chu_tha
+execute if score 8_org_ave_hal_gal_ehl RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/8_org_ave_hal_gal_ehl
+execute if score 9_da_for_inu RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/9_da_for_inu
+execute if score 10_chu_lya_ehl RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/10_chu_lya_ehl
+execute if score 11_lya_nym_fus_von RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/11_lya_nym_fus_von
+execute if score 12_ave_qi_gal_jo_wej RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/12_ave_qi_gal_jo_wej
+execute if score 13_tha_bex_for RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/13_tha_bex_for
+execute if score 14_puh_wej_von_org RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/14_puh_wej_von_org
+execute if score 15_syl_da_ave_qi_ra RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/15_syl_da_ave_qi_ra
+execute if score 16_von_yog_yog RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/16_von_yog_yog
+execute if score 17_kan_chu_bex_puh RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/17_kan_chu_bex_puh
+execute if score 18_ust_xul_lya_zen_da RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/18_ust_xul_lya_zen_da
+execute if score 19_mot_syl_kan_xul_zen RUNE matches 0 as @a[distance=..40] at @s run function att2:dialogs/gameplay/runes/runicwords/19_mot_syl_kan_xul_zen
 
-scoreboard players set #RequiredError RUNE 0
+scoreboard players set RequiredError RUNE 0

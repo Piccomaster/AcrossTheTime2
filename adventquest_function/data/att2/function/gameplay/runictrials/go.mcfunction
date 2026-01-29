@@ -45,3 +45,8 @@ execute if entity @a[x=-4740,y=44,z=-4166,distance=..60,gamemode=adventure] run 
 # Elcheol
 execute if entity @a[x=-4977,y=76,z=-6375,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/20/go
 execute if entity @a[x=-5498,y=60,z=-6189,distance=..60,gamemode=adventure] run function att2:gameplay/runictrials/21/go
+
+# Kert
+execute if entity @a[x=-5602,y=64,z=-5074,distance=..77,gamemode=adventure] run function att2:gameplay/runictrials/23/go
+execute if entity @a[x=-5812,y=60,z=-4930,distance=..77,gamemode=adventure] run function att2:gameplay/runictrials/24/go
+execute if entity @a[x=-5679,y=45,z=-4722,distance=..77,gamemode=adventure] run function att2:gameplay/runictrials/25/go

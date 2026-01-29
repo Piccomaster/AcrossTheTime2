@@ -29,10 +29,6 @@ execute store result storage att2:score next_pos int 1 run scoreboard players ad
 ##kert
 execute if score @s ElytraRacingSelect matches 1 run function att2:gameplay/elytra_racing/ai/kert
 execute if score @s ElytraRacingSelect matches 2 run function att2:gameplay/elytra_racing/ai/worlest
-execute if score @s ElytraRacingSelect matches 3 run function att2:gameplay/elytra_racing/ai/eolorion
-execute if score @s ElytraRacingSelect matches 4 run function att2:gameplay/elytra_racing/ai/asunark
-execute if score @s ElytraRacingSelect matches 5 run function att2:gameplay/elytra_racing/ai/plain
-execute if score @s ElytraRacingSelect matches 12 run function att2:gameplay/elytra_racing/ai/billgart
 
 ##motion
 data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @s Rotation

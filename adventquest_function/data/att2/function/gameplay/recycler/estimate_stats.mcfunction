@@ -1,6 +1,6 @@
 #############################################################
 #Made by Adventquest										#
-#Estimate the global value of items to recycle lvl1                                #
+#Estimate the global value of items to recycle lvl1         #
 #############################################################
 
 scoreboard players operation itemtotal_sold RECYCLER += arrow RECYCLER

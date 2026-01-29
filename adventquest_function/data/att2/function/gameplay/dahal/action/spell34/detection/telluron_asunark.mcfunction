@@ -44,3 +44,48 @@ execute if score 37 SECRET_SHULKER matches 0 positioned -3542 32 -4889 run funct
 execute if score 38 SECRET_SHULKER matches 0 positioned -3340 10 -4942 run function att2:gameplay/dahal/action/spell34/create_secret_marker
 execute if score 39 SECRET_SHULKER matches 0 positioned -3967 48 -4321 run function att2:gameplay/dahal/action/spell34/create_secret_marker
 execute if score 40 SECRET_SHULKER matches 0 positioned -4059 49 -4279 run function att2:gameplay/dahal/action/spell34/create_secret_marker
+
+#Symbols
+execute unless score Asunark SYMBOL matches 28.. positioned -3635 69 -5026 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3699 72 -4911 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3599 76 -4908 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3559 81 -4960 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3561 96 -4928 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3638 69 -4953 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3453 30 -4942 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3512 29 -4898 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3427 31 -5025 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3469 36 -4994 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3443 50 -5013 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3508 69 -5048 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3391 71 -5099 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3487 68 -5156 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3429 87 -5115 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3510 80 -5064 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3421 51 -4891 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3441 45 -4695 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3463 26 -4737 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3517 74 -4731 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3357 36 -4835 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3387 29 -4909 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3557 33 -4806 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3492 29 -4886 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3541 29 -4891 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3506 29 -4865 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3355 31 -4942 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Asunark SYMBOL matches 28.. positioned -3282 39 -4942 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+
+execute unless score Lost_island SYMBOL matches 14.. positioned -4097 80 -4439 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -3993 69 -4365 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4010 115 -4407 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4079 117 -4407 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4043 72 -4352 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4062 70 -4285 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4003 73 -4330 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4050 90 -4284 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4044 52 -4291 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -3975 43 -4275 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -3991 51 -4357 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4016 54 -4335 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -3971 43 -4302 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Lost_island SYMBOL matches 14.. positioned -4076 46 -4288 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
