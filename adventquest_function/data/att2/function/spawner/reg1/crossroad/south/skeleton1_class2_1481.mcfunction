@@ -7,4 +7,11 @@ execute if score mob_count COUNT matches 3.. run return 0
 execute if entity @a[distance=..30,scores={SPAWNER_LIMIT=1..}] run return 0
 
 #######get summon data/set SUMMON timer
-summon minecraft:armor_stand -4375 78 -5156 {Marker:1,Invulnerable:1b,Invisible:1b,Tags:["SpawnerAnimation"],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/spawner_animation":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{summon:"execute positioned -4375 78 -5156 run function att2:summon/reg_1/skeleton1_classx {class:CLASS2}"}}
+
+##set value
+data modify entity @s data.summon set value "execute positioned -4375 78 -5156 run function att2:summon/reg_1/skeleton1_classx {class:CLASS2}"
+##set summon timer
+scoreboard players set @s SPAWNER_TIMER 20
+
+scoreboard players reset mob_count COUNT
+scoreboard players set summon_timer SPAWNER_TIMER 30

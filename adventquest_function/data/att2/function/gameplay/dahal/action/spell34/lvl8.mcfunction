@@ -24,8 +24,6 @@ execute as @s[scores={DIMENSION=7}] run function att2:gameplay/dahal/action/spel
 execute as @s[scores={DIMENSION=-3}] run function att2:gameplay/dahal/action/spell34/detection/maze_select
 ##chest
 function att2:gameplay/dahal/action/spell34/detection/chest
-##symbol
-function att2:gameplay/dahal/action/spell34/detection/symbol
 
 team join detect_quest @e[type=minecraft:shulker,tag=questmarker]
 team join detect_npc @e[type=minecraft:shulker,tag=npcmarker]

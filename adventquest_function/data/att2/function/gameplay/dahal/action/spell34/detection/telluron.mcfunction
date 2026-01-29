@@ -407,6 +407,3 @@ execute positioned -4884 158 -6463 if block ~ ~ ~ minecraft:bamboo_button run ex
 execute positioned -4849 87 -4969 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~2 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -4558 69 -5157 if block ~ ~ ~ minecraft:bamboo_button run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -4740 77 -5492 if block ~ ~ ~ minecraft:cherry_button run execute positioned ~ ~2 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
-
-#runes minerals
-execute at @e[distance=..128,type=marker,tag=RuneMiningMarker,tag=!Clear,sort=nearest] run function att2:gameplay/dahal/action/spell34/clear_minerals_runes_marker

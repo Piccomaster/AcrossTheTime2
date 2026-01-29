@@ -17,6 +17,7 @@
   ],
   "supported_items": "#minecraft:enchantable/durability",
   "effects": {
+
     "post_attack": [
       {
         "affected": "victim",

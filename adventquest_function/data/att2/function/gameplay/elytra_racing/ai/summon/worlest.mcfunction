@@ -7,6 +7,10 @@
 #Race route: Meleim -> Soquai forest.
 #############################################################
 
+##set player score count
+scoreboard players set @s ElytraRacingSelect 2
+scoreboard players set @s ElytraRacingMistake 6
+
 execute unless entity @e[type=mannequin,tag=AI,tag=ElytraRace,tag=Worlest] in overworld positioned -5261 73 -5127 run summon minecraft:mannequin ~ ~ ~ {id:"mannequin",description:"",CustomName:[{translate:att2.dailyquest.horse_racing.competitors.name.2}],profile:{texture:"skin/the_world_48"},Tags:["ElytraRace","AI","Worlest","1"],active_effects:[{id:resistance,amplifier:4,duration:-1,show_particles:false}],NoGravity:true,pose:fall_flying,equipment:{chest:{id:"elytra",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_ai":1}}}},Passengers:[{id:"mannequin",description:"",CustomName:[{translate:att2.dailyquest.horse_racing.competitors.name.2}],profile:{texture:"skin/skysignty"},Tags:["ElytraRace","AI","Worlest","1"],active_effects:[{id:resistance,amplifier:4,duration:-1,show_particles:false}],NoGravity:true}]}
 
 scoreboard players set @n[type=mannequin,tag=AI,tag=1] ElytraRacing 0

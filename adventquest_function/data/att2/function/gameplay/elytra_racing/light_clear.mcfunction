@@ -3,9 +3,7 @@
 #Initialize enchantment                    						#
 #################################################################
 
-
 ##fill air
-fill ~ ~ ~ ~ ~ ~ air replace minecraft:light[level=15]
-#setblock ~ ~ ~ air destroy
+setblock ~ ~ ~ air replace
 ##clear
 kill @s[type=armor_stand]

@@ -14,9 +14,20 @@ execute as @s[tag=Reg4] run data modify entity @s DeathLootTable set value "att2
 ##set rolls
 
 #Clamp range
-scoreboard players operation @s DropRolls = @s GAMELEVEL
-scoreboard players operation @s DropRolls *= 15 CAL
-scoreboard players add @s DropRolls 1000
+execute if score @s GAMELEVEL matches ..4 run scoreboard players set @s DropRolls 1000
+execute if score @s GAMELEVEL matches 5..9 run scoreboard players set @s DropRolls 1075
+execute if score @s GAMELEVEL matches 10..14 run scoreboard players set @s DropRolls 1150
+execute if score @s GAMELEVEL matches 15..19 run scoreboard players set @s DropRolls 1225
+execute if score @s GAMELEVEL matches 20..24 run scoreboard players set @s DropRolls 1300
+execute if score @s GAMELEVEL matches 25..29 run scoreboard players set @s DropRolls 1375
+execute if score @s GAMELEVEL matches 30..34 run scoreboard players set @s DropRolls 1450
+execute if score @s GAMELEVEL matches 35..39 run scoreboard players set @s DropRolls 1525
+execute if score @s GAMELEVEL matches 40..44 run scoreboard players set @s DropRolls 1600
+execute if score @s GAMELEVEL matches 45..49 run scoreboard players set @s DropRolls 1675
+execute if score @s GAMELEVEL matches 50..54 run scoreboard players set @s DropRolls 1750
+execute if score @s GAMELEVEL matches 55..59 run scoreboard players set @s DropRolls 1825
+execute if score @s GAMELEVEL matches 60..64 run scoreboard players set @s DropRolls 1900
+execute if score @s GAMELEVEL matches 65.. run scoreboard players set @s DropRolls 1975
 
 #Clamp range
 

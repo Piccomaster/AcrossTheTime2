@@ -4,8 +4,8 @@
 ##################################################
 
 ##remove score summon spawner timer
-#execute if score summon_timer SPAWNER_TIMER matches 1.. run scoreboard players remove summon_timer SPAWNER_TIMER 1
-#execute if score summon_timer SPAWNER_TIMER matches 1.. as @e[type=marker,tag=SpawnerMarker,scores={SPAWNER_TIMER=0..}] at @s run function att2:spawner/summon/go
+execute if score summon_timer SPAWNER_TIMER matches 1.. run scoreboard players remove summon_timer SPAWNER_TIMER 1
+execute if score summon_timer SPAWNER_TIMER matches 1.. as @e[type=marker,tag=SpawnerMarker,scores={SPAWNER_TIMER=0..}] at @s run function att2:spawner/summon/go
 
 #scoreboard players remove 3s SPAWNER_TIMER 1
 #scoreboard players remove 5s SPAWNER_TIMER 1

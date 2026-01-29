@@ -11,7 +11,7 @@
 execute if score tower_nw_mech1_timer BILLGART matches 40.. in minecraft:the_end as @e[type=villager,x=-1323,y=21,z=-685,dx=-31,dy=-3,dz=36] at @s if block ~ ~5 ~ minecraft:orange_carpet run function att2:sound/misc/spike_extend
 execute in minecraft:the_end as @e[type=villager,x=-1323,y=21,z=-685,dx=-31,dy=-3,dz=36] at @s if block ~ ~5 ~ minecraft:orange_carpet run fill ~ ~5 ~ ~ ~5 ~ minecraft:purple_carpet replace minecraft:orange_carpet
 execute in minecraft:the_end as @a[x=-1323,y=21,z=-685,dx=-31,dy=3,dz=36,gamemode=adventure] at @s if block ~ ~ ~ minecraft:dead_bubble_coral_fan run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech1/reset
-execute in minecraft:the_end unless entity @a[x=-1323,y=21,z=-685,dx=-31,dy=5,dz=36,gamemode=adventure,tag=!Dead] run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech1/reset
+execute in minecraft:the_end unless entity @a[x=-1323,y=21,z=-685,dx=-31,dy=3,dz=36,gamemode=adventure,tag=!Dead] run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech1/reset
 
 # Timer
 execute if score tower_nw_mech1_timer BILLGART matches ..1650 run scoreboard players add tower_nw_mech1_timer BILLGART 1

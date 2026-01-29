@@ -9,7 +9,7 @@ data merge entity @e[tag=RUNE_SWITCH,type=text_display,limit=1] {text:{translate
 data merge entity @e[tag=RUNE_SWITCH,type=block_display,limit=1] {transformation:{translation:[-0.5f,-0.5f,-0.5f],scale:[1f,1f,1f]}}
 
 #merge display
-execute store result storage att2:temp value_1 int 1 run scoreboard players get #stock RUNE_POWDER
+execute store result storage att2:temp value_1 int 1 run scoreboard players get stock RUNE_POWDER
 function att2:gameplay/runes/craft/runepowder_display with storage att2:temp
 #reset
 data remove storage att2:temp value_1
