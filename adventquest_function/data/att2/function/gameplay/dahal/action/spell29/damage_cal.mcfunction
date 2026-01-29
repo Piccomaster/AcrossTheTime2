@@ -8,7 +8,7 @@
 function att2:gameplay/score/owner
 ##damage cal
 ##get player damage
-execute store result score #damage CAL run attribute @p[predicate=att2_pre:score/player] attack_damage base get 6
+execute store result score #damage CAL run attribute @p[predicate=att2_pre:score/player] attack_damage base get
 scoreboard players operation #damage CAL /= 2 CAL
 scoreboard players operation #damage CAL *= @s SPELL29_CAP
 

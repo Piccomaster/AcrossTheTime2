@@ -31,7 +31,7 @@ execute if score EnterArena VONAHEIM matches 1.. run scoreboard players remove E
 execute as @a[x=-5616,y=198,z=-6512,dx=4,dy=1,dz=4] at @s run tp @s ~ ~4 ~
 
 # Start the boss fight (summoning Vonaheim)
-execute if score Vonaheim VONAHEIM matches -1 if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] run function att2:gameplay/boss/elcheol/vonaheim/start
+execute if score Vonaheim VONAHEIM matches -1 if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure,tag=!ElytraRace] run function att2:gameplay/boss/elcheol/vonaheim/start
 
 # Execute action
 execute if score Vonaheim VONAHEIM matches 0 if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] run function att2:gameplay/boss/elcheol/vonaheim/action

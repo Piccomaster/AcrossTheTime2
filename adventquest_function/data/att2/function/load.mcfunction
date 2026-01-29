@@ -11,8 +11,16 @@ execute in overworld positioned 787 77 796 run forceload add ~ ~
 execute in overworld positioned 777 77 777 run forceload add ~ ~
 execute in overworld positioned 727 77 823 run forceload add ~ ~
 execute in overworld positioned 756 77 843 run forceload add ~ ~
+execute in overworld positioned 0.0 0.0 0.0 run forceload add ~ ~
+execute in overworld positioned 1.0 0.0 -1.0 run forceload add ~ ~
+execute in overworld positioned -1.0 0.0 1.0 run forceload add ~ ~
+execute in overworld positioned 1.0 0.0 1.0 run forceload add ~ ~
+##summon world entity
+
 ##clear redstone_block
 fill 754 86 768 754 86 727 air
-
+##update score trigger
+advancement revoke @s only att2_test:score_trigger
+#
 ##system add
 scoreboard objectives add SYSTEM dummy

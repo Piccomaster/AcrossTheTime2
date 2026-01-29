@@ -59,7 +59,7 @@ execute store result score #Spell_Bundle_Launch_Select CAL run data get storage 
 execute if score #Spell_Bundle_Launch_Select CAL matches 1..10 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
 execute if score #Spell_Bundle_Launch_Select CAL matches 24..30 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
 execute if score #Spell_Bundle_Launch_Select CAL matches 32..34 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
-execute if score #Spell_Bundle_Launch_Select CAL matches 41..45 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
+execute if score #Spell_Bundle_Launch_Select CAL matches 41..46 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/once with storage att2:spell_bundle
 ##follow pet
 execute if score #Spell_Bundle_Launch_Select CAL matches 21..23 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/follow_pet
 execute if score #Spell_Bundle_Launch_Select CAL matches 29 run return run function att2:gameplay/dahal/spell_bundle/auto_launch/follow_pet

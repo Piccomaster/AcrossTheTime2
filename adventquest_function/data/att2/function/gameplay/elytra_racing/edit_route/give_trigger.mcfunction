@@ -5,6 +5,7 @@
 
 #function att2:gameplay/elytra_racing/edit_route/give_trigger
 #function att2:gameplay/elytra_racing/edit_route/get_data
+#function att2:gameplay/elytra_racing/edit_route/reset
 #data modify storage att2:elytra_racing route set value []
 #kill @e[tag=circle]
 

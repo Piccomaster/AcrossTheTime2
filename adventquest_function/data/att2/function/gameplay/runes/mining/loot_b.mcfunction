@@ -6,8 +6,8 @@
 setblock ~ ~ ~ minecraft:air destroy
 loot spawn ~ ~ ~ loot att2:entities/runes_mining_b
 loot spawn ~ ~ ~ loot att2:entities/runes_mining_c
-scoreboard players add MiningCount_b RUNE 1
-scoreboard players add MiningCountTotal RUNE 1
+scoreboard players add #MiningCount_b RUNE 1
+scoreboard players add #MiningCountTotal RUNE 1
 
 advancement grant @a only att2:treasure/mining_runic_medium
 ##sound

@@ -6,7 +6,7 @@
 scoreboard players set Objective GPS_DIM 1
 function att2:dialogs/mainquest/assistance/step107
 execute in minecraft:overworld positioned -5698 76 -6355 run function att2:gameplay/gps/summon_arrow
-execute in minecraft:overworld as @e[type=zombified_piglin,tag=newGPS] at @s anchored feet facing -5698 76 -6355 run function att2:gameplay/gps/tp_arrow
+execute in minecraft:overworld as @e[type=armor_stand,tag=newGPS] at @s anchored feet facing -5698 76 -6355 run function att2:gameplay/gps/tp_arrow
 execute in minecraft:overworld positioned -5721 58 -6347 run function att2:gameplay/quest/mainquest/show_secondary_objective
 #lever1
 execute in minecraft:overworld if block -5726 109 -6354 minecraft:lever if block -5752 95 -6316 minecraft:lever run execute positioned -5752 96 -6315 run function att2:gameplay/quest/mainquest/show_secondary_objective

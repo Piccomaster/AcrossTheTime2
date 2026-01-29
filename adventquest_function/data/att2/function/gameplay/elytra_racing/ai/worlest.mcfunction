@@ -32,7 +32,7 @@ execute if score #offset CAL matches 4 at @n[distance=..50,type=marker,tag=Elytr
 
 
 ##test end
-execute unless score @s ElytraRacing matches 700.. run return fail
+execute unless score @s ElytraRacing matches 263.. run return fail
 execute in overworld positioned -4918 140 -5478 unless entity @s[distance=..5] run return fail
 
 ##end effect

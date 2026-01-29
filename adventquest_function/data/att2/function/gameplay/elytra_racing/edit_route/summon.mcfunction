@@ -18,7 +18,9 @@ execute as @e[type=armor_stand,tag=showing,tag=circle,tag=following] at @s posit
 ##store
 #initialize
 execute unless data storage att2:elytra_racing route[0] run data modify storage att2:elytra_racing route set value []
+execute unless data storage att2:elytra_racing rotation[0] run data modify storage att2:elytra_racing rotation set value []
 data modify storage att2:elytra_racing route append from entity @n[type=armor_stand,tag=showing,tag=circle,tag=following] Pos
+data modify storage att2:elytra_racing rotation append from entity @s Rotation
 
 tag @e[type=armor_stand,tag=showing,tag=circle,tag=following] remove following
 ##

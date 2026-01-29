@@ -6,7 +6,7 @@
 advancement revoke @s only att2_test:test_interacted/armorstand_interact
 #reset name
 function att2:gameplay/runes/reset
-scoreboard players set RequiredError RUNE 0
+scoreboard players set #RequiredError RUNE 0
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] at @s run function att2:gameplay/runes/set_runicwords/reset_name
 #0 Gal Org Inu
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {equipment:{mainhand:{id:"minecraft:angler_pottery_sherd",components:{"minecraft:custom_name":{translate:'item.runeword.0.name'}}}}} run function att2:gameplay/runes/runicwords_name/0_gal_org_inu
@@ -62,23 +62,23 @@ scoreboard players operation @s MAX_HEALTH += 19 CAL
 execute store result storage att2:max_health max_health int 1 run scoreboard players get @s MAX_HEALTH
 function att2:gameplay/death/max_health with storage att2:max_health
 
-scoreboard players operation XPTotal RUNE = BonusXP RUNE
-scoreboard players operation XPTotal RUNE *= 100 RUNE
-scoreboard players operation XPTotal RUNE /= 13 RUNE
+scoreboard players operation #XPTotal RUNE = #BonusXP RUNE
+scoreboard players operation #XPTotal RUNE *= #100 RUNE
+scoreboard players operation #XPTotal RUNE /= #13 RUNE
 
-scoreboard players operation HealthTotal RUNE = BonusHealthMax RUNE
-scoreboard players operation HealthTotal RUNE *= 2 RUNE
+scoreboard players operation #HealthTotal RUNE = #BonusHealthMax RUNE
+scoreboard players operation #HealthTotal RUNE *= #2 RUNE
 
-scoreboard players operation CooldownTotal RUNE = BonusCooldown RUNE
-scoreboard players operation CooldownTotal RUNE *= 10 RUNE
+scoreboard players operation #CooldownTotal RUNE = #BonusCooldown RUNE
+scoreboard players operation #CooldownTotal RUNE *= #10 RUNE
 
-scoreboard players operation ChronotonTotal RUNE = BonusChronoton RUNE
-scoreboard players operation ChronotonTotal RUNE *= 20 RUNE
+scoreboard players operation #ChronotonTotal RUNE = #BonusChronoton RUNE
+scoreboard players operation #ChronotonTotal RUNE *= #20 RUNE
 
-scoreboard players operation TimePotionTotal RUNE = BonusTimePotion RUNE
-scoreboard players operation TimePotionTotal RUNE *= 20 RUNE
+scoreboard players operation #TimePotionTotal RUNE = #BonusTimePotion RUNE
+scoreboard players operation #TimePotionTotal RUNE *= #20 RUNE
 
-scoreboard players operation BonusDahalMax_Total RUNE = BonusDahalMax RUNE
-scoreboard players operation BonusDahalMax_Total RUNE *= 4 CAL
+scoreboard players operation #BonusDahalMax_Total RUNE = #BonusDahalMax RUNE
+scoreboard players operation #BonusDahalMax_Total RUNE *= 4 CAL
 
 execute as @a run function att2:gameplay/runes/dahal_cal
