@@ -29,6 +29,8 @@ scoreboard players set door1_trial19 RUNICTRIAL 0
 scoreboard players set door1_trial20 RUNICTRIAL 0
 scoreboard players set door1_trial21 RUNICTRIAL 0
 scoreboard players set door1_trial22 RUNICTRIAL 0
+scoreboard players set door1_trial23 RUNICTRIAL 0
+scoreboard players set door1_trial24 RUNICTRIAL 0
 
 scoreboard players set total_trial1 CANDLE_LIT 0
 scoreboard players set total_trial2 CANDLE_LIT 0
@@ -208,3 +210,45 @@ scoreboard players set candle22_5 CANDLE_STATE 1
 scoreboard players set candle22_6 CANDLE_STATE 1
 scoreboard players set candle22_7 CANDLE_STATE 1
 scoreboard players set candle22_8 CANDLE_STATE 1
+
+scoreboard players set candle23_1 CANDLE_STATE 1
+scoreboard players set candle23_2 CANDLE_STATE 1
+scoreboard players set candle23_3 CANDLE_STATE 1
+scoreboard players set candle23_4 CANDLE_STATE 1
+scoreboard players set candle23_5 CANDLE_STATE 1
+scoreboard players set candle23_6 CANDLE_STATE 1
+scoreboard players set candle23_7 CANDLE_STATE 1
+
+scoreboard players set candle24_1 CANDLE_STATE 1
+scoreboard players set candle24_2 CANDLE_STATE 1
+scoreboard players set candle24_3 CANDLE_STATE 1
+scoreboard players set candle24_4 CANDLE_STATE 1
+scoreboard players set candle24_5 CANDLE_STATE 1
+scoreboard players set candle24_6 CANDLE_STATE 1
+scoreboard players set candle24_7 CANDLE_STATE 1
+scoreboard players set candle24_8 CANDLE_STATE 1
+scoreboard players set candle24_9 CANDLE_STATE 1
+scoreboard players set candle24_10 CANDLE_STATE 1
+scoreboard players set candle24_11 CANDLE_STATE 1
+scoreboard players set candle24_12 CANDLE_STATE 1
+scoreboard players set candle24_13 CANDLE_STATE 1
+scoreboard players set candle24_14 CANDLE_STATE 1
+scoreboard players set candle24_15 CANDLE_STATE 1
+scoreboard players set candle24_16 CANDLE_STATE 1
+scoreboard players set candle24_17 CANDLE_STATE 1
+scoreboard players set candle24_18 CANDLE_STATE 1
+scoreboard players set candle24_19 CANDLE_STATE 1
+scoreboard players set candle24_20 CANDLE_STATE 1
+
+scoreboard players set candle25_1 CANDLE_STATE 1
+scoreboard players set candle25_2 CANDLE_STATE 1
+scoreboard players set candle25_3 CANDLE_STATE 1
+scoreboard players set candle25_4 CANDLE_STATE 1
+scoreboard players set candle25_5 CANDLE_STATE 1
+scoreboard players set candle25_6 CANDLE_STATE 1
+scoreboard players set candle25_7 CANDLE_STATE 1
+scoreboard players set candle25_8 CANDLE_STATE 1
+scoreboard players set candle25_9 CANDLE_STATE 1
+scoreboard players set candle25_10 CANDLE_STATE 1
+scoreboard players set candle25_11 CANDLE_STATE 1
+scoreboard players set candle25_12 CANDLE_STATE 1
