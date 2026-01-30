@@ -4,7 +4,8 @@
 #################################################################
 
 ##add kill score
-scoreboard players add total_killed MIMIC 1
+execute as @s[type=slime] run scoreboard players add total_chest_mimic_killed MIMIC 1
+execute as @s[type=shulker] run scoreboard players add total_block_mimic_killed MIMIC 1
 ##advancement trigger
 function att2:advancement/test_all/mobskilled/mimic
 #

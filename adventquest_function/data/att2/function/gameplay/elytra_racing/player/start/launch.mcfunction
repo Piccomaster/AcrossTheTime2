@@ -28,7 +28,23 @@ tag @s add ElytraRace
 ##update return pos
 
 ##kert
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Desert] run function att2:gameplay/elytra_racing/ai/summon/kert
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Desert] run function att2:gameplay/elytra_racing/start/kert
 
 ##worlest
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Worlest] run function att2:gameplay/elytra_racing/ai/summon/worlest
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Worlest] run function att2:gameplay/elytra_racing/start/worlest
+
+##eolorion
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Eolorion] run function att2:gameplay/elytra_racing/start/eolorion
+
+##asunark
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Asunark] run function att2:gameplay/elytra_racing/start/asunark
+
+##plain
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Plain] run function att2:gameplay/elytra_racing/start/plain
+
+##angband
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Angband] run function att2:gameplay/elytra_racing/start/angband
+
+
+##billgart
+execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Billgart] run function att2:gameplay/elytra_racing/start/billgart

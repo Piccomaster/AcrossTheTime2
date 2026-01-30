@@ -4,7 +4,7 @@
 #############################################################
 
 #normal
-execute if score tic TIMECOUNTER matches 5 as @e[type=minecraft:zombified_piglin,scores={GPS_TIMER=0..}] at @s run function att2:gameplay/gps/arrow_timer
+#execute if score tic TIMECOUNTER matches 5 as @e[type=minecraft:armor_stand,scores={GPS_TIMER=0..}] at @s run function att2:gameplay/gps/arrow_timer
 #billgart
 execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/gps/billgart/go
 execute if score tic TIMECOUNTER matches 5 unless score BILLGART GPS_TIMER matches 1.. run function att2:gameplay/gps/billgart/reset
