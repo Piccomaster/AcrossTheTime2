@@ -252,3 +252,20 @@ scoreboard players set candle25_9 CANDLE_STATE 1
 scoreboard players set candle25_10 CANDLE_STATE 1
 scoreboard players set candle25_11 CANDLE_STATE 1
 scoreboard players set candle25_12 CANDLE_STATE 1
+
+scoreboard players set candle26_1 CANDLE_STATE 1
+scoreboard players set candle26_2 CANDLE_STATE 1
+scoreboard players set candle26_3 CANDLE_STATE 1
+scoreboard players set candle26_4 CANDLE_STATE 1
+scoreboard players set candle26_5 CANDLE_STATE 1
+scoreboard players set candle26_6 CANDLE_STATE 1
+scoreboard players set candle26_7 CANDLE_STATE 1
+scoreboard players set candle26_8 CANDLE_STATE 1
+scoreboard players set candle26_9 CANDLE_STATE 1
+scoreboard players set candle26_10 CANDLE_STATE 1
+scoreboard players set candle26_11 CANDLE_STATE 1
+scoreboard players set candle26_12 CANDLE_STATE 1
+scoreboard players set candle26_13 CANDLE_STATE 1
+scoreboard players set candle26_14 CANDLE_STATE 1
+scoreboard players set candle26_15 CANDLE_STATE 1
+scoreboard players set candle26_16 CANDLE_STATE 1
