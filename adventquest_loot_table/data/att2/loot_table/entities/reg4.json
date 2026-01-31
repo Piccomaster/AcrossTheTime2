@@ -1166,7 +1166,7 @@
           "type": "score",
           "target": "this",
           "score": "DropRolls",
-          "scale": 0.003
+          "scale": 0.0003
         }
       },
       "entries": [
