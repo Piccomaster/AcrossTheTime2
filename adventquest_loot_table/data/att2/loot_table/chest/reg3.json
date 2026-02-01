@@ -254,7 +254,7 @@
         "scale": 0.01,
         "target": {
           "type": "fixed",
-          "name": "#ConsumablesRollsRolls"
+          "name": "#ConsumablesRolls"
         }
       },
       "bonus_rolls": 0,
