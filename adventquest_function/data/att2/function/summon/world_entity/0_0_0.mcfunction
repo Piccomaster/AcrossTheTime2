@@ -15,3 +15,5 @@ execute in overworld positioned 0.0 0.0 0.0 run summon minecraft:armor_stand ~ ~
 execute in overworld positioned 0.0 0.0 0.0 run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Tags:["0_0_0","POS"],UUID:[I;3,333,3,333]}
 ##00000004-0000-01bc-0000-0004000001bc
 execute in overworld positioned 0.0 0.0 0.0 run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Tags:["0_0_0","POS"],UUID:[I;4,444,4,444]}
+##set container
+setblock 0 0 0 barrel replace
