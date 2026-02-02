@@ -3,7 +3,9 @@
 #Display a name by comparing max lvl with entity level	#
 #########################################################
 
-
+##if death
+execute if data entity @s {Health:0.0f} run return run function att2:gameplay/enemy_health/kill
+execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
 ##remove tag
 tag @s remove MasterMechanics
 ##add enchantments tick
