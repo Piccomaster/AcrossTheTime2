@@ -3,69 +3,46 @@
 #updatemonster level								#
 #####################################################
 
-execute as @s[scores={GAMELEVEL=..0}] run function att2:gameplay/leveling/monster/update/lvl0
-execute as @s[scores={GAMELEVEL=1}] run function att2:gameplay/leveling/monster/update/lvl1
-execute as @s[scores={GAMELEVEL=2}] run function att2:gameplay/leveling/monster/update/lvl2
-execute as @s[scores={GAMELEVEL=3}] run function att2:gameplay/leveling/monster/update/lvl3
-execute as @s[scores={GAMELEVEL=4}] run function att2:gameplay/leveling/monster/update/lvl4
-execute as @s[scores={GAMELEVEL=5}] run function att2:gameplay/leveling/monster/update/lvl5
-execute as @s[scores={GAMELEVEL=6}] run function att2:gameplay/leveling/monster/update/lvl6
-execute as @s[scores={GAMELEVEL=7}] run function att2:gameplay/leveling/monster/update/lvl7
-execute as @s[scores={GAMELEVEL=8}] run function att2:gameplay/leveling/monster/update/lvl8
-execute as @s[scores={GAMELEVEL=9}] run function att2:gameplay/leveling/monster/update/lvl9
-execute as @s[scores={GAMELEVEL=10}] run function att2:gameplay/leveling/monster/update/lvl10
-execute as @s[scores={GAMELEVEL=11}] run function att2:gameplay/leveling/monster/update/lvl11
-execute as @s[scores={GAMELEVEL=12}] run function att2:gameplay/leveling/monster/update/lvl12
-execute as @s[scores={GAMELEVEL=13}] run function att2:gameplay/leveling/monster/update/lvl13
-execute as @s[scores={GAMELEVEL=14}] run function att2:gameplay/leveling/monster/update/lvl14
-execute as @s[scores={GAMELEVEL=15}] run function att2:gameplay/leveling/monster/update/lvl15
-execute as @s[scores={GAMELEVEL=16}] run function att2:gameplay/leveling/monster/update/lvl16
-execute as @s[scores={GAMELEVEL=17}] run function att2:gameplay/leveling/monster/update/lvl17
-execute as @s[scores={GAMELEVEL=18}] run function att2:gameplay/leveling/monster/update/lvl18
-execute as @s[scores={GAMELEVEL=19}] run function att2:gameplay/leveling/monster/update/lvl19
-execute as @s[scores={GAMELEVEL=20}] run function att2:gameplay/leveling/monster/update/lvl20
-execute as @s[scores={GAMELEVEL=21}] run function att2:gameplay/leveling/monster/update/lvl21
-execute as @s[scores={GAMELEVEL=22}] run function att2:gameplay/leveling/monster/update/lvl22
-execute as @s[scores={GAMELEVEL=23}] run function att2:gameplay/leveling/monster/update/lvl23
-execute as @s[scores={GAMELEVEL=24}] run function att2:gameplay/leveling/monster/update/lvl24
-execute as @s[scores={GAMELEVEL=25}] run function att2:gameplay/leveling/monster/update/lvl25
-execute as @s[scores={GAMELEVEL=26}] run function att2:gameplay/leveling/monster/update/lvl26
-execute as @s[scores={GAMELEVEL=27}] run function att2:gameplay/leveling/monster/update/lvl27
-execute as @s[scores={GAMELEVEL=28}] run function att2:gameplay/leveling/monster/update/lvl28
-execute as @s[scores={GAMELEVEL=29}] run function att2:gameplay/leveling/monster/update/lvl29
-execute as @s[scores={GAMELEVEL=30}] run function att2:gameplay/leveling/monster/update/lvl30
-execute as @s[scores={GAMELEVEL=31}] run function att2:gameplay/leveling/monster/update/lvl31
-execute as @s[scores={GAMELEVEL=32}] run function att2:gameplay/leveling/monster/update/lvl32
-execute as @s[scores={GAMELEVEL=33}] run function att2:gameplay/leveling/monster/update/lvl33
-execute as @s[scores={GAMELEVEL=34}] run function att2:gameplay/leveling/monster/update/lvl34
-execute as @s[scores={GAMELEVEL=35}] run function att2:gameplay/leveling/monster/update/lvl35
-execute as @s[scores={GAMELEVEL=36}] run function att2:gameplay/leveling/monster/update/lvl36
-execute as @s[scores={GAMELEVEL=37}] run function att2:gameplay/leveling/monster/update/lvl37
-execute as @s[scores={GAMELEVEL=38}] run function att2:gameplay/leveling/monster/update/lvl38
-execute as @s[scores={GAMELEVEL=39}] run function att2:gameplay/leveling/monster/update/lvl39
-execute as @s[scores={GAMELEVEL=40}] run function att2:gameplay/leveling/monster/update/lvl40
-execute as @s[scores={GAMELEVEL=41}] run function att2:gameplay/leveling/monster/update/lvl41
-execute as @s[scores={GAMELEVEL=42}] run function att2:gameplay/leveling/monster/update/lvl42
-execute as @s[scores={GAMELEVEL=43}] run function att2:gameplay/leveling/monster/update/lvl43
-execute as @s[scores={GAMELEVEL=44}] run function att2:gameplay/leveling/monster/update/lvl44
-execute as @s[scores={GAMELEVEL=45}] run function att2:gameplay/leveling/monster/update/lvl45
-execute as @s[scores={GAMELEVEL=46}] run function att2:gameplay/leveling/monster/update/lvl46
-execute as @s[scores={GAMELEVEL=47}] run function att2:gameplay/leveling/monster/update/lvl47
-execute as @s[scores={GAMELEVEL=48}] run function att2:gameplay/leveling/monster/update/lvl48
-execute as @s[scores={GAMELEVEL=49}] run function att2:gameplay/leveling/monster/update/lvl49
-execute as @s[scores={GAMELEVEL=50}] run function att2:gameplay/leveling/monster/update/lvl50
-execute as @s[scores={GAMELEVEL=51}] run function att2:gameplay/leveling/monster/update/lvl51
-execute as @s[scores={GAMELEVEL=52}] run function att2:gameplay/leveling/monster/update/lvl52
-execute as @s[scores={GAMELEVEL=53}] run function att2:gameplay/leveling/monster/update/lvl53
-execute as @s[scores={GAMELEVEL=54}] run function att2:gameplay/leveling/monster/update/lvl54
-execute as @s[scores={GAMELEVEL=55}] run function att2:gameplay/leveling/monster/update/lvl55
-execute as @s[scores={GAMELEVEL=56}] run function att2:gameplay/leveling/monster/update/lvl56
-execute as @s[scores={GAMELEVEL=57}] run function att2:gameplay/leveling/monster/update/lvl57
-execute as @s[scores={GAMELEVEL=58}] run function att2:gameplay/leveling/monster/update/lvl58
-execute as @s[scores={GAMELEVEL=59}] run function att2:gameplay/leveling/monster/update/lvl59
-execute as @s[scores={GAMELEVEL=60}] run function att2:gameplay/leveling/monster/update/lvl60
-execute as @s[scores={GAMELEVEL=61}] run function att2:gameplay/leveling/monster/update/lvl61
-execute as @s[scores={GAMELEVEL=62}] run function att2:gameplay/leveling/monster/update/lvl62
-execute as @s[scores={GAMELEVEL=63}] run function att2:gameplay/leveling/monster/update/lvl63
-execute as @s[scores={GAMELEVEL=64}] run function att2:gameplay/leveling/monster/update/lvl64
-execute as @s[scores={GAMELEVEL=65..}] run function att2:gameplay/leveling/monster/update/lvl65
+##ATTACK(GAMELEVEL) = base_attack + (0.2 x base_attack + 80)/17900 × GAMELEVEL × (GAMELEVEL + 4)
+##HP(GAMELEVEL) = base_hp + (base_hp + 100)/17900 × GAMELEVEL × (2GAMELEVEL + 3)
+##get base hp/attack
+function att2:gameplay/leveling/monster/update/get_base_attack
+function att2:gameplay/leveling/monster/update/get_base_hp
+
+##reset
+data merge entity @s {attributes:[{id:attack_damage,base:7},{id:max_health,base:0,modifiers:[{id:"true_health",operation:add_value,amount:7}]}],Health:7}
+
+##cal attack
+scoreboard players operation #attack_damage CAL = #base_attack CAL
+
+scoreboard players operation #attack_damage CAL *= 2 CAL
+scoreboard players add #attack_damage CAL 8000
+
+scoreboard players operation #GAMELEVEL CAL = @s GAMELEVEL
+scoreboard players add #GAMELEVEL CAL 4
+scoreboard players operation #GAMELEVEL CAL *= @s GAMELEVEL
+
+scoreboard players operation #attack_damage CAL *= #GAMELEVEL CAL
+scoreboard players set #score CAL 17900
+scoreboard players operation #attack_damage CAL /= #score CAL
+scoreboard players operation #attack_damage CAL += #base_attack CAL
+##return attack damage
+execute store result entity @s attributes[{id:"minecraft:attack_damage"}].base double 0.01 run scoreboard players get #attack_damage CAL
+
+##cal hp
+scoreboard players operation #max_health CAL = #base_hp CAL
+
+scoreboard players add #max_health CAL 10000
+
+scoreboard players operation #GAMELEVEL CAL = @s GAMELEVEL
+scoreboard players operation #GAMELEVEL CAL *= 2 CAL
+scoreboard players add #GAMELEVEL CAL 3
+scoreboard players operation #GAMELEVEL CAL *= @s GAMELEVEL
+
+scoreboard players operation #max_health CAL *= #GAMELEVEL CAL
+scoreboard players set #score CAL 17900
+scoreboard players operation #max_health CAL /= #score CAL
+
+scoreboard players operation #max_health CAL += #base_hp CAL
+##return attack damage
+execute store result entity @s attributes[{id:"minecraft:max_health"}].modifiers[{id:"minecraft:true_health"}].amount double 0.01 run scoreboard players get #max_health CAL
