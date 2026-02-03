@@ -7,7 +7,7 @@
 #############################################################
 
 #remove
-item replace entity @s inventory.$(slotid) with air
+$item replace entity @s inventory.$(slotid) with air
 
 ##add score
 scoreboard players add phoenix_dailyquest_3_submit_book DAILYQUEST 1

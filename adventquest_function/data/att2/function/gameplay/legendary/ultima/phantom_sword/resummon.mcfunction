@@ -9,7 +9,7 @@ data modify storage att2:ultima slot set value []
 data modify storage att2:ultima slot set from entity @s equipment.saddle.components."minecraft:custom_data".ultima.slot
 
 ##snyc score
-execute store result score @s ULTIMA_PS_COUNT run data get storage att2:ultima slot 
+execute store result score @s ULTIMA_PS_COUNT run data get storage att2:ultima slot
 #add tag
 tag @s add Ultima
 #get player score

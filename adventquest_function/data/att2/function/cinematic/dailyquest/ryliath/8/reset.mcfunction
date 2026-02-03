@@ -11,4 +11,4 @@ scoreboard players reset ryliath_dailyquest_8_timer DAILYQUEST
 scoreboard players reset ryliath_dailyquest_8 DAILYQUEST
 
 ##Others: Black Market experience + 100
-Ecaille Souveraine du Chaos + 10
+#Ecaille Souveraine du Chaos + 10

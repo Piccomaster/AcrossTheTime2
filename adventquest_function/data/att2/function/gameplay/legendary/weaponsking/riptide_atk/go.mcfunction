@@ -8,7 +8,7 @@ execute store result storage att2:damage value int 1 run scoreboard players get 
 execute store result storage att2:damage owner int 1 run scoreboard players get @s NUMEROJOUEUR
 #motion
 #make damage
-execute at @s positioned ~-1.5 ~-1.5 ~-1.5 @e[dx=3,dy=3,dz=3,team=hostile,scores={GAMELEVEL=0..},tag=!WK_RE_ATKED] at @s run function att2:gameplay/legendary/weaponsking/riptide_atk/effect with storage att2:damage
+execute at @s positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=3,dy=3,dz=3,team=hostile,scores={GAMELEVEL=0..},tag=!WK_RE_ATKED] at @s run function att2:gameplay/legendary/weaponsking/riptide_atk/effect with storage att2:damage
 #keep particle
 function att2:gameplay/legendary/weaponsking/particle/riptide_keep
 #reduce score

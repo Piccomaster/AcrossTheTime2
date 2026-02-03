@@ -7,7 +7,7 @@
 #############################################################
 
 #remove
-item replace entity @s inventory.$(slotid) with air
+$item replace entity @s inventory.$(slotid) with air
 
 ##add score
 scoreboard players add eolorion_dailyquest_4_submit_leg_equipment DAILYQUEST 1

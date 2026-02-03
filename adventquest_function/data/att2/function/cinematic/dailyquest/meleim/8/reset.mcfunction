@@ -11,4 +11,4 @@ scoreboard players reset meleim_dailyquest_8_timer DAILYQUEST
 scoreboard players reset meleim_dailyquest_8 DAILYQUEST
 
 ##Others: Black Market experience + 200
-Ecaille Souveraine du Chaos + 15
+#Ecaille Souveraine du Chaos + 15

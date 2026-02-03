@@ -4,10 +4,10 @@
 #################################################
 
 ##test if owner
-execute at @s on attacker unless score @s NUMEROJOUEUR = @n[type=allay] OWNER run return run fail
+execute at @s on attacker unless score @s NUMEROJOUEUR = @n[type=allay] OWNER run return fail
 
 ##test cooldown
-execute unless score @s COOLDOWN35 matches ..0 on on attacker at @s run return run function att2:gameplay/dahal/action/spell35/cooldown_limit
+execute unless score @s COOLDOWN35 matches ..0 on attacker at @s run return run function att2:gameplay/dahal/action/spell35/cooldown_limit
 
 ##limit
 execute as @s[tag=Start] run return fail
