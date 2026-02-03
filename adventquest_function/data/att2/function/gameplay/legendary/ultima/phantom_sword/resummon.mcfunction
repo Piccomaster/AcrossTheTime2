@@ -15,8 +15,8 @@ tag @s add Ultima
 #get player score
 function att2:gameplay/score/player
 ##clear old
-kill @e[type=item_display,tag=UltimaPhantom,predicate=att2_pre:score/owner,predicate=!att2_pre:has_passenger]
-scoreboard players set @e[type=armor_stand,tag=UltimaPhantom,predicate=att2_pre:score/owner,scores={LIFETIME=..9999}] LIFETIME 10010
+kill @e[tag=UltimaPhantom,predicate=att2_pre:score/owner,predicate=!att2_pre:has_passenger,type=item_display]
+scoreboard players set @e[tag=UltimaPhantom,predicate=att2_pre:score/owner,scores={LIFETIME=..9999},type=armor_stand] LIFETIME 10010
 ##player score ->
 scoreboard players set #summon CAL 1
 execute if score @s ULTIMA_PS_COUNT matches 1.. run function att2:gameplay/legendary/ultima/phantom_sword/resummon_ps
@@ -34,4 +34,4 @@ scoreboard players set #summon CAL 7
 execute if score @s ULTIMA_PS_COUNT matches 7.. run function att2:gameplay/legendary/ultima/phantom_sword/resummon_ps
 scoreboard players set #summon CAL 8
 execute if score @s ULTIMA_PS_COUNT matches 8.. run function att2:gameplay/legendary/ultima/phantom_sword/resummon_ps
-execute if score @s ULTIMA_PS_COUNT matches 8.. as @e[type=item_display,tag=UltimaPhantom,predicate=att2_pre:score/owner] run data modify entity @s Glowing set value true
+execute if score @s ULTIMA_PS_COUNT matches 8.. as @e[tag=UltimaPhantom,predicate=att2_pre:score/owner,type=item_display] run data modify entity @s Glowing set value true
