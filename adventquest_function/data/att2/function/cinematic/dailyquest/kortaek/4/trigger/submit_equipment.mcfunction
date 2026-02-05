@@ -7,7 +7,7 @@
 #############################################################
 
 #remove
-item replace entity @s inventory.$(slotid) with air
+$item replace entity @s inventory.$(slotid) with air
 
 ##add score
 scoreboard players add kortaek_dailyquest_4_submit_ult_equipment DAILYQUEST 1

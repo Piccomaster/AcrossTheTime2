@@ -7,7 +7,7 @@
 #############################################################
 
 #remove
-item replace entity @s inventory.$(slotid) with air
+$item replace entity @s inventory.$(slotid) with air
 
 ##add score
 scoreboard players add meleim_dailyquest_8_submit_epi_set_equipment DAILYQUEST 1

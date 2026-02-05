@@ -7,7 +7,7 @@
 #############################################################
 
 #remove
-item replace entity @s inventory.$(slotid) with air
+$item replace entity @s inventory.$(slotid) with air
 
 ##add score
 scoreboard players add ryliath_dailyquest_8_submit_epi_equipment DAILYQUEST 1

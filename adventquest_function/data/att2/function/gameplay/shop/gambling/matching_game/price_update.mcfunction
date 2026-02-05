@@ -35,7 +35,8 @@ scoreboard players operation lock MatchingGamePrice *= -1 CAL
 scoreboard players operation lock MatchingGamePrice /= 4 CAL
 
 #random cal
-execute if score @s MatchingGameId matches 1 store result score RngPrice MatchingGamePrice run random value 1..1
+#You can't roll a value of 1..1, since its always 1
+execute if score @s MatchingGameId matches 1 run scoreboard players set RngPrice MatchingGamePrice 1
 execute if score @s MatchingGameId matches 2 store result score RngPrice MatchingGamePrice run random value 1..2
 execute if score @s MatchingGameId matches 3 store result score RngPrice MatchingGamePrice run random value 1..3
 execute if score @s MatchingGameId matches 4 store result score RngPrice MatchingGamePrice run random value 1..4

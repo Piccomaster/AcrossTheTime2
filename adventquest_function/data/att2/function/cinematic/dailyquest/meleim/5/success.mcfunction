@@ -8,7 +8,7 @@
 #############################################################
 
 ##reset text_display
-execute as @n[distance=..10,type=interaction,tag=Accepted,nbt={data:{questid:5}}] at @s run function att2:cinematic/dailyquest/update_quest_board/accepted_reset
+execute as @n[distance=..10,tag=Accepted,nbt={data:{questid:5}},type=interaction] at @s run function att2:cinematic/dailyquest/update_quest_board/accepted_reset
 
 ##sound
 execute as @a at @s run function att2:sound/misc/quest_completed
@@ -50,7 +50,7 @@ scoreboard players set meleim_dailyquest_5_completed DAILYQUEST 1
 ##clear rune
 clear @s glowstone_dust[custom_name={translate:'item.rune.name.9'}] 1
 clear @s glowstone_dust[custom_name={translate:'item.rune.name.10'}] 1
-clear @s glowstone_dust[custom_name={translate:'item.rune.name.11'}] 1  
+clear @s glowstone_dust[custom_name={translate:'item.rune.name.11'}] 1
 
 ##rewards
 execute as @a run function att2:items/runes/words/rune_bundle_no_recipe

@@ -5,5 +5,5 @@
 
 team join missile @s
 tag @s remove UmbraMissile
-tag add UmbraVex
+tag @s add UmbraVex
 scoreboard players set @s LIFE_EXPECTANCY 80
