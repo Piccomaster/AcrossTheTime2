@@ -92,10 +92,38 @@ If you discover a bug or have an issue while playing the map, please report it t
 
 ---
 
+## Artificial Intelligence Usage Policy
+
+### Official Content Restriction
+
+As part of an explicit agreement within the development team, **the use of generative artificial intelligence is strictly prohibited** for the creation of **official content** related to *Across The Time 2: Time for Regrets*, regardless of version or language.
+
+This restriction applies, without exception, to the following asset categories:
+
+* **Voices** (narration, characters, ambient voices, any spoken content)
+* **Textures**
+* **Music and soundtracks**
+* **3D Models**
+
+All assets used in official releases of *Across The Time 2* must be **entirely handcrafted or produced through traditional creative workflows**, without the involvement of generative AI tools.
+
+### Scope of Application
+
+This policy applies to:
+* All **official releases** of the project
+* All **promotional materials**
+* Any **content distributed under the Across The Time 2 name**
+
+The use of AI tools for **internal experimentation, prototyping, or private development purposes** is tolerated **only if the resulting content is never included in any official or public release**.
+
+Any violation of this policy may result in the removal of the concerned content and appropriate actions as determined by the Adventquest Team.
+
+---
+
 ## License
 
 The source code in this repository is provided for public viewing and educational purposes only. It is **not licensed for redistribution, modification, or use in other projects** without explicit written permission from the original creators. All rights are reserved by the Adventquest Team.
 
 ---
 
-**© 2025 Adventquest Team**
+**© 2020-2026 Adventquest Team**
