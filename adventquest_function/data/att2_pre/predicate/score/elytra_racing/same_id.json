@@ -1,0 +1,53 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "ElytraRacingSelect": {
+          "min": {
+            "type": "score",
+            "score": "CAL",
+            "target": {
+              "type": "fixed",
+              "name": "#route_id"
+            }
+          },
+          "max": {
+            "type": "score",
+            "score": "CAL",
+            "target": {
+              "type": "fixed",
+              "name": "#route_id"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "ElytraRacing": {
+          "min": {
+            "type": "score",
+            "score": "CAL",
+            "target": {
+              "type": "fixed",
+              "name": "#id"
+            }
+          },
+          "max": {
+            "type": "score",
+            "score": "CAL",
+            "target": {
+              "type": "fixed",
+              "name": "#id"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

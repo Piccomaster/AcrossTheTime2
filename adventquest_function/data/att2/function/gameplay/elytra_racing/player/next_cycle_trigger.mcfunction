@@ -3,21 +3,37 @@
 #Initialize enchantment                    						#
 #################################################################
 
-##test SuperDash
-execute if score #rotation1 CAL matches -90..-80 run scoreboard players set @s ElytraRacingSprintTime 100
-#execute if score #rotation1 CAL matches -90..-80 run say 超级冲刺
+##trigger check point
+
+##test dash class
+
+##get particle id
+scoreboard players operation #particle_id ElytraRacingParticleId = @n[distance=..5,type=armor_stand,tag=ElytraRace,predicate=att2_pre:score/elytra_racing/same_id] ElytraRacingParticleId
+#super dash
+execute if score #particle_id ElytraRacingParticleId matches 2 run scoreboard players set @s ElytraRacingSprintTime 100
+execute if score #particle_id ElytraRacingParticleId matches 5 run scoreboard players set @s ElytraRacingSprintTime 100
+execute if score #particle_id ElytraRacingParticleId matches 8 run scoreboard players set @s ElytraRacingSprintTime 100
+#reverse dash
+execute if score #particle_id ElytraRacingParticleId matches 3 run scoreboard players set @s ElytraRacingSprintTime -100
+execute if score #particle_id ElytraRacingParticleId matches 6 run scoreboard players set @s ElytraRacingSprintTime -100
+execute if score #particle_id ElytraRacingParticleId matches 9 run scoreboard players set @s ElytraRacingSprintTime -100
+#normal dash
+execute if score #particle_id ElytraRacingParticleId matches 1 run scoreboard players set @s[scores={ElytraRacingSprintTime=..0}] ElytraRacingSprintTime 8
+execute if score #particle_id ElytraRacingParticleId matches 4 run scoreboard players set @s[scores={ElytraRacingSprintTime=..0}] ElytraRacingSprintTime 8
+execute if score #particle_id ElytraRacingParticleId matches 7 run scoreboard players set @s[scores={ElytraRacingSprintTime=..0}] ElytraRacingSprintTime 8
 
 #add score
 scoreboard players add @s ElytraRacing 1
 
-scoreboard players set @s[scores={ElytraRacingSprintTime=-100}] ElytraRacingSprintTime 6
-#scoreboard players set @s ElytraRacingTime 1000
-
 ##cal 50
 scoreboard players operation #count CAL = @s ElytraRacing
 scoreboard players operation #count CAL %= 50 CAL
-#execute if score #count CAL matches 0 run say 容错+1
 execute if score #count CAL matches 0 run scoreboard players add @s ElytraRacingMistake 1
+
+##summon next cycle
+scoreboard players operation #id ElytraRacing = @s ElytraRacing
+scoreboard players add #id ElytraRacing 4
+function att2:gameplay/elytra_racing/cycle/summon
 ##tip
 #tellraw @s [{nbt:"set",storage:"att2:id","interpret":true,color:"dark_red"},{text:" : "},{translate:att2.elytra_racing.next_cycle_trigger,with:[{score:{name:"@s",objective:"ElytraRacing"},color:green}]}]
 #sound

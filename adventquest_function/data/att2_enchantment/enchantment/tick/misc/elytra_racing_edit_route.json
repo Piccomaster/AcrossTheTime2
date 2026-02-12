@@ -1,0 +1,48 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": ""
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "tick": [
+      {
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/elytra_racing/edit_route/summon/following"
+        }
+      }
+    ],
+    "post_piercing_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/elytra_racing/edit_route/summon/operation/confirm"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

@@ -3,15 +3,11 @@
   "entity": "this",
   "scores": {
     "NUMEROJOUEUR": {
-      "min": {
-        "type": "storage",
-        "storage": "att2:score",
-        "path": "player"
-      },
-      "max": {
-        "type": "storage",
-        "storage": "att2:score",
-        "path": "player"
+      "type": "score",
+      "score": "CAL",
+      "target": {
+        "type": "fixed",
+        "name": "#player"
       }
     }
   }
