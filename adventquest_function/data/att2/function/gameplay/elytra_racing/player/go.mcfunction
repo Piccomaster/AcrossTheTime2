@@ -45,7 +45,7 @@ execute if score @s ElytraRacing matches 0.. run function att2:gameplay/elytra_r
 
 ##time out
 #tellraw @a {score:{name:"@s",objective:"ElytraRacingTime"}}
-execute unless score @s ElytraRacingTime matches ..0 run return fail
+execute if score @s ElytraRacingTime matches 0.. run return fail
 
 ##clear enchantments
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/elytra_racing_player":0}}

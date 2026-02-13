@@ -1,0 +1,1 @@
+function att2:gameplay/elytra_racing/edit_route/infor/show_start_dialog

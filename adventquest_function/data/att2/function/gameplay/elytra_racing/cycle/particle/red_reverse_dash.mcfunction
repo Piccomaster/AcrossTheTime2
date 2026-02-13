@@ -1,6 +1,6 @@
 #############################################################
 #Made by Adventquest                               			
-#red normal dash particle
+#blue normal dash particle
 #############################################################
 
 particle flame ^ ^ ^ 0.1 0.1 0.1 0 1 force @s
@@ -69,3 +69,36 @@ particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.
 particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^3.827761 ^-1.161139 ^0.000000 0.1 0.1 0.1 0 1 force @s
 particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^3.923141 ^-0.780361 ^0.000000 0.1 0.1 0.1 0 1 force @s
 particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^3.980739 ^-0.392069 ^0.000000 0.1 0.1 0.1 0 1 force @s
+
+##\
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-2.828427 ^2.828427 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-2.424528 ^2.424528 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-2.020629 ^2.020629 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-1.616730 ^1.616730 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-1.212831 ^1.212831 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-0.808932 ^0.808932 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-0.405033 ^0.405033 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^0.000000 ^0.000000 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^0.405033 ^-0.405033 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^0.808932 ^-0.808932 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^1.212831 ^-1.212831 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^1.616730 ^-1.616730 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^2.020629 ^-2.020629 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^2.424528 ^-2.424528 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^2.828427 ^-2.828427 ^0.000000 0.1 0.1 0.1 0 1 force @s
+##/
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^2.828427 ^2.828427 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^2.424528 ^2.424528 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^2.020629 ^2.020629 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^1.616730 ^1.616730 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^1.212831 ^1.212831 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^0.808932 ^0.808932 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^0.405033 ^0.405033 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^0.000000 ^0.000000 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-0.405033 ^-0.405033 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-0.808932 ^-0.808932 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-1.212831 ^-1.212831 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-1.616730 ^-1.616730 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-2.020629 ^-2.020629 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-2.424528 ^-2.424528 ^0.000000 0.1 0.1 0.1 0 1 force @s
+particle dust_color_transition{from_color:[0.9,0.39,0.12],to_color:[0.88,0.11,0.05],scale:1} ^-2.828427 ^-2.828427 ^0.000000 0.1 0.1 0.1 0 1 force @s

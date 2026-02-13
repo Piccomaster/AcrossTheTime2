@@ -8,7 +8,7 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 
 #update start score
 scoreboard players set @s ElytraRacing 0
-#scoreboard players set @s ElytraRacingTime 400
+scoreboard players set @s ElytraRacingTime 0
 scoreboard players set @s ElytraRacingSprintTime 10
 scoreboard players set @s HORSERACE_MUSIC 0
 

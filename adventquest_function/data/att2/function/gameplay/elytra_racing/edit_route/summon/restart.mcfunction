@@ -38,4 +38,5 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 
 ##add edit tag
 tag @s add EditRoute
+tag @s add EditRouteResummon
 tag @s remove ElytraRacing

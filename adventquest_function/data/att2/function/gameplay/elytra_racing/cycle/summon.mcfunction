@@ -4,7 +4,7 @@
 #################################################################
 
 ##summon
-summon armor_stand ~ ~ ~ {equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_cycle":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},Marker:true,Invisible:true,Tags:["ElytraRace","circle","New"]}
+summon armor_stand ~ ~ ~ {equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_cycle":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},Marker:true,Invisible:true,attributes:[{id:scale,base:0.01}],Tags:["ElytraRace","circle","New"]}
 
 ##sync score
 scoreboard players operation @e[distance=..10,type=armor_stand,tag=ElytraRace,tag=circle,tag=New] ElytraRacing = #id ElytraRacing

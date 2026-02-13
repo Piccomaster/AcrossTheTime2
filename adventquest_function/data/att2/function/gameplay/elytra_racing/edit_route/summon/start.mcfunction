@@ -39,6 +39,9 @@ $data modify storage att2:score name set value "$(name)"
 ##store name
 function att2:gameplay/elytra_racing/edit_route/list/store_route_name with storage att2:score
 function att2:gameplay/elytra_racing/edit_route/list/store_route_pos with storage att2:score
+function att2:gameplay/elytra_racing/edit_route/list/store_route_particle_id with storage att2:score
+##reset
+function att2:gameplay/elytra_racing/edit_route/list/reset_route_data with storage att2:score
 
 ##add enchantments tick
 #execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:tick/misc/elytra_racing_player":1}]

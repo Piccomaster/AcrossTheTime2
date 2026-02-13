@@ -14,6 +14,7 @@ data modify entity @s Rotation set from storage att2:elytra_racing temp.rotation
 execute store result score #dash_class ElytraRacingParticleId run data get storage att2:elytra_racing temp.dash_class
 execute if score #dash_class ElytraRacingParticleId matches 2 run scoreboard players add @s ElytraRacingParticleId 1
 execute if score #dash_class ElytraRacingParticleId matches 3 run scoreboard players add @s ElytraRacingParticleId 2
+execute if score #dash_class ElytraRacingParticleId matches 4 run scoreboard players add @s ElytraRacingParticleId 3
 
 
 ##test max/end

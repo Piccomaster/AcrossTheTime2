@@ -22,9 +22,9 @@ function att2:gameplay/elytra_racing/edit_route/list/get_temp_route_data with st
 function att2:gameplay/elytra_racing/edit_route/list/get_max with storage att2:score
 
 execute if score @s ElytraRacingMaxId > #list_max ElytraRacing run say end
-execute if score @s ElytraRacingMaxId > #list_max ElytraRacing run return run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/elytra_racing_edit_route":0}} 
+execute if score @s ElytraRacingMaxId > #list_max ElytraRacing run return run tag @s remove EditRouteResummon
 ##summon
-summon armor_stand ~ ~ ~ {equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_edit_route_cycle":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},Marker:true,Invisible:true,Tags:["showing","circle","New"]}
+summon armor_stand ~ ~ ~ {equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_edit_route_cycle":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},Marker:true,Invisible:true,attributes:[{id:scale,base:0.01}],Tags:["showing","circle","New"]}
 
 ##
 scoreboard players set @e[distance=..10,type=armor_stand,tag=showing,tag=circle,tag=New] ElytraRacingMaxId 0

@@ -3,6 +3,13 @@
 #Initialize enchantment                    						#
 #################################################################
 
+##sound
+playsound minecraft:entity.zombie.infect player @s ~ ~ ~ 150 0.5
+
+##add sprint score
+scoreboard players set @s ElytraRacingSprintTime 150
+execute if score @s ElytraRacingMistake matches ..0 run scoreboard players set @s ElytraRacingTime 0
+
 ##get now pos
 scoreboard players operation #id CAL = @s ElytraRacingSelect
 scoreboard players operation #now_pos CAL = @s ElytraRacing

@@ -28,11 +28,13 @@ item replace entity @n[distance=..10,type=armor_stand,predicate=att2_pre:score/o
 execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:1}] run scoreboard players set #dash_class ElytraRacingParticleId 1
 execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:2}] run scoreboard players set #dash_class ElytraRacingParticleId 2
 execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:3}] run scoreboard players set #dash_class ElytraRacingParticleId 3
+execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:4}] run scoreboard players set #dash_class ElytraRacingParticleId 4
 execute store result storage att2:score dash_class int 1 run scoreboard players get #dash_class ElytraRacingParticleId
 
 execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:1}] run tellraw @s [{translate:att2.elytra_racing.edit_route.confirmed_normal_dash,color:green}]
-execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:2}] run tellraw @s [{translate:att2.elytra_racing.edit_route.confirmed_super_dash,color:gold}]
-execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:3}] run tellraw @s [{translate:att2.elytra_racing.edit_route.confirmed_reverse_dash,color:red}]
+execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:2}] run tellraw @s [{translate:att2.elytra_racing.edit_route.confirmed_normal_super_dash,color:yellow}]
+execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:3}] run tellraw @s [{translate:att2.elytra_racing.edit_route.confirmed_super_dash,color:gold}]
+execute if items entity @s weapon.mainhand minecraft:copper_ingot[custom_data={elytra_racing_edit_route:true,dash_class:4}] run tellraw @s [{translate:att2.elytra_racing.edit_route.confirmed_reverse_dash,color:red}]
 ##get route id
 execute store result storage att2:score route_id int 1 run scoreboard players get @s ElytraRacingSelect
 ##update particle id
@@ -40,6 +42,7 @@ scoreboard players operation @n[type=armor_stand,tag=showing,tag=circle,tag=foll
 data modify entity @n[type=armor_stand,tag=showing,tag=circle,tag=following,predicate=att2_pre:score/owner] data.route_data.dash_class set from storage att2:score dash_class
 execute if score #dash_class ElytraRacingParticleId matches 2 run scoreboard players add @n[type=armor_stand,tag=showing,tag=circle,tag=following,predicate=att2_pre:score/owner] ElytraRacingParticleId 1
 execute if score #dash_class ElytraRacingParticleId matches 3 run scoreboard players add @n[type=armor_stand,tag=showing,tag=circle,tag=following,predicate=att2_pre:score/owner] ElytraRacingParticleId 2
+execute if score #dash_class ElytraRacingParticleId matches 4 run scoreboard players add @n[type=armor_stand,tag=showing,tag=circle,tag=following,predicate=att2_pre:score/owner] ElytraRacingParticleId 3
 
 ##store data
 

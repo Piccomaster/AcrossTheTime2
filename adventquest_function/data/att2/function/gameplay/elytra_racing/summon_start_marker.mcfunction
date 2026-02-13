@@ -6,10 +6,11 @@
 #kill @e[tag=ElytraRacingMarker]
 ##sylberland
 
+#worlest
+execute in overworld positioned -5261 71 -5127 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,2],Tags:["ElytraRacingMarker","Worlest"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{route_data:{ElytraRacing:713,ElytraRacingParticleId:5,dimension:"minecraft:overworld",id:1,name:{translate:"att2.elytra_racing.worlest.end"},pos:[-5260.5d,72.0d,-5126.5d]}}}
+
 #kert
 #execute in overworld positioned -5730 15 -4583 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,1],Tags:["ElytraRacingMarker","Desert"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-5730,16,-4583],Dimension:overworld}}
-#worlest
-#execute in overworld positioned -5261 71 -5127 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,2],Tags:["ElytraRacingMarker","Worlest"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-5261,71,-5127],Dimension:overworld}}
 
 #eolorion
 #execute in overworld positioned -5111 107 -6427 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,3],Tags:["ElytraRacingMarker","Eolorion"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-5111,107,-6427],Dimension:overworld}}

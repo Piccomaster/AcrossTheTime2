@@ -6,6 +6,7 @@
 ##remove all tag
 tag @s remove EditRouteSummon
 tag @s remove EditRoute
+tag @s remove EditRouteResummon
 
 ##get player score
 function att2:gameplay/score/player
@@ -31,3 +32,5 @@ scoreboard players reset @s ElytraRacingMaxId
 ##remove enchantments
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/elytra_racing_player":0}}
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/elytra_racing_edit_route":0}} 
+
+attribute @s minecraft:gravity base reset
