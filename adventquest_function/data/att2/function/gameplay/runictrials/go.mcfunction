@@ -51,3 +51,4 @@ execute if entity @a[x=-5602,y=64,z=-5074,distance=..77,gamemode=adventure] run 
 execute if entity @a[x=-5812,y=60,z=-4930,distance=..77,gamemode=adventure] run function att2:gameplay/runictrials/24/go
 execute if entity @a[x=-5679,y=45,z=-4722,distance=..77,gamemode=adventure] run function att2:gameplay/runictrials/25/go
 execute if entity @a[x=-5655,y=40,z=-4426,distance=..77,gamemode=adventure] run function att2:gameplay/runictrials/26/go
+execute if entity @a[x=-5456,y=50,z=-4352,distance=..100,gamemode=adventure] run function att2:gameplay/runictrials/27/go
