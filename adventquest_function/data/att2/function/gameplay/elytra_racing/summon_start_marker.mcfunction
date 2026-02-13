@@ -3,25 +3,26 @@
 #summon trigger marker                                          #
 #################################################################
 
-kill @e[tag=ElytraRacingMarker]
+#kill @e[tag=ElytraRacingMarker]
 ##sylberland
 
-#kert
-execute in overworld positioned -5730 15 -4583 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,1],Tags:["ElytraRacingMarker","Desert"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-5730,16,-4583],Dimension:overworld}}
 #worlest
-execute in overworld positioned -5261 71 -5127 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,2],Tags:["ElytraRacingMarker","Worlest"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-5261,71,-5127],Dimension:overworld}}
+execute in overworld positioned -5261 71 -5127 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,2],Tags:["ElytraRacingMarker","Worlest"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{route_data:{ElytraRacing:713,ElytraRacingParticleId:5,dimension:"minecraft:overworld",id:1,name:{translate:"att2.elytra_racing.worlest.end"},pos:[-5260.5d,72.0d,-5126.5d]}}}
+
+#kert
+#execute in overworld positioned -5730 15 -4583 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,1],Tags:["ElytraRacingMarker","Desert"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-5730,16,-4583],Dimension:overworld}}
 
 #eolorion
-execute in overworld positioned -5111 107 -6427 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,3],Tags:["ElytraRacingMarker","Eolorion"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-5111,107,-6427],Dimension:overworld}}
+#execute in overworld positioned -5111 107 -6427 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,3],Tags:["ElytraRacingMarker","Eolorion"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-5111,107,-6427],Dimension:overworld}}
 
 #asunark
-execute in overworld positioned -3599 69 -4872 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,4],Tags:["ElytraRacingMarker","Asunark"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-3599,69,-4872],Dimension:overworld}}
+#execute in overworld positioned -3599 69 -4872 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,4],Tags:["ElytraRacingMarker","Asunark"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-3599,69,-4872],Dimension:overworld}}
 
 #plain
-execute in overworld positioned -4312 69 -6118 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,5],Tags:["ElytraRacingMarker","Plain"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-4312,69,-6118],Dimension:overworld}}
+#execute in overworld positioned -4312 69 -6118 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,5],Tags:["ElytraRacingMarker","Plain"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-4312,69,-6118],Dimension:overworld}}
 
 #owsastr
-execute in overworld positioned -4863 69 -4516 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,6],Tags:["ElytraRacingMarker","Owsastr"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-4863,69,-4516],Dimension:overworld}}
+#execute in overworld positioned -4863 69 -4516 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,6],Tags:["ElytraRacingMarker","Owsastr"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[-4863,69,-4516],Dimension:overworld}}
 
 #whole world
 
@@ -30,7 +31,7 @@ execute in overworld positioned -4863 69 -4516 run summon armor_stand ~ ~ ~ {UUI
 
 
 ##1
-execute in the_nether positioned 3631 42 3980 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,8],Tags:["ElytraRacingMarker","Angband"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[3631,42,3980],Dimension:the_nether}}
+#execute in the_nether positioned 3631 42 3980 run summon armor_stand ~ ~ ~ {UUID:[I;697389,848265,82656769,8],Tags:["ElytraRacingMarker","Angband"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/elytra_racing_marker":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{Pos:[3631,42,3980],Dimension:the_nether}}
 ##2
 
 

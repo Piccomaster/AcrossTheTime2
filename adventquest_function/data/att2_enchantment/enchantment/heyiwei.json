@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": "何意味"
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+"supported_items": "#minecraft:potion",
+  "weight": 1,
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "hit_block": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/misc/charu"
+        }
+      }
+    ]
+  }
+}

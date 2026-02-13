@@ -3,15 +3,11 @@
   "entity": "this",
   "scores": {
     "OWNER": {
-      "min": {
-        "type": "storage",
-        "storage": "att2:score",
-        "path": "owner"
-      },
-      "max": {
-        "type": "storage",
-        "storage": "att2:score",
-        "path": "owner"
+      "type": "score",
+      "score": "CAL",
+      "target": {
+        "type": "fixed",
+        "name": "#owner"
       }
     }
   }

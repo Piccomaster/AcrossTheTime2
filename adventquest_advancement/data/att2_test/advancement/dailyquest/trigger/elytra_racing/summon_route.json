@@ -1,0 +1,19 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/elytra_racing/edit_route/summon/route"
+    },
+    "criteria": {
+        "using_a": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "elytra_racing_edit_route": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

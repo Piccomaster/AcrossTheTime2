@@ -21,15 +21,9 @@ tag @s add ElytraRacing
 ##sound
 playsound minecraft:entity.player.levelup ambient @a ~ ~ ~ 1 2
 
-##update marker
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Desert] run function att2:gameplay/elytra_racing/start/kert
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Worlest] run function att2:gameplay/elytra_racing/start/worlest
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Eolorion] run function att2:gameplay/elytra_racing/start/eolorion
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Asunark] run function att2:gameplay/elytra_racing/start/asunark
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Plain] run function att2:gameplay/elytra_racing/start/plain
+##start
+scoreboard players operation @s ElytraRacingSelect = @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker] ElytraRacingSelect
+scoreboard players operation @s ElytraRacingParticleId = @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker] ElytraRacingParticleId
 
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Owsastr] run function att2:gameplay/elytra_racing/start/owsastr
-
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Angband] run function att2:gameplay/elytra_racing/start/angband
-
-execute if entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker,tag=Billgart] run function att2:gameplay/elytra_racing/start/billgart
+##show base cycle
+function att2:gameplay/elytra_racing/player/start/show_base_cycle

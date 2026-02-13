@@ -29,4 +29,4 @@ execute unless predicate att2_pre:player/input/jump run return fail
 ##set score
 scoreboard players set @s ElytraRacingInputTime 5
 ##trigger
-execute if score @s ElytraRacingSprintTime matches -1.. run return run function att2:gameplay/elytra_racing/player/sprint/launch
+function att2:gameplay/elytra_racing/player/sprint/launch

@@ -1,0 +1,1 @@
+function att2:gameplay/elytra_racing/edit_route/summon/operation/remove_select_pos

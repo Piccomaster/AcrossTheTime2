@@ -3537,3 +3537,28 @@ execute if score @s ScoreTrigger matches 3472 run function att2:gameplay/dahal/a
 
 ##spell1 switch launch
 execute if score @s ScoreTrigger matches 3473 run function att2:gameplay/dahal/action/spell1/switch_launch
+
+##elytra_racing edit
+
+execute if score @s ScoreTrigger matches 3474 run function att2:gameplay/elytra_racing/edit_route/infor/show_start_dialog
+execute if score @s ScoreTrigger matches 3475 run function att2:gameplay/elytra_racing/edit_route/give_trigger
+execute if score @s ScoreTrigger matches 3476 run function att2:gameplay/elytra_racing/edit_route/summon/operation/select_pos
+execute if score @s ScoreTrigger matches 3477 run function att2:gameplay/elytra_racing/edit_route/summon/operation/reposition
+execute if score @s ScoreTrigger matches 3478 run function att2:gameplay/elytra_racing/edit_route/summon/operation/remove_select_pos
+
+execute if score @s ScoreTrigger matches 3479 run function att2:gameplay/elytra_racing/edit_route/summon/reset
+
+execute if score @s ScoreTrigger matches 3480 run function att2:gameplay/elytra_racing/edit_route/summon/operation/auto_align_run
+execute if score @s ScoreTrigger matches 3481 run function att2:gameplay/elytra_racing/edit_route/summon/operation/auto_align_stop
+
+
+execute if score @s ScoreTrigger matches 3482 run function att2:gameplay/elytra_racing/edit_route/summon/operation/append_pos
+execute if score @s ScoreTrigger matches 3483 run function att2:gameplay/elytra_racing/edit_route/summon/operation/prepend_pos
+
+
+execute if score @s ScoreTrigger matches 3484 run function att2:gameplay/elytra_racing/edit_route/summon/exit
+
+execute if score @s ScoreTrigger matches 3485 run function att2:gameplay/elytra_racing/edit_route/summon/restart
+
+execute if score @s ScoreTrigger matches 3486 run function att2:gameplay/elytra_racing/edit_route/summon/operation/update
+execute if score @s ScoreTrigger matches 3487 run function att2:gameplay/elytra_racing/edit_route/get_data

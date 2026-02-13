@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "ElytraRacing": {
+      "min": {
+        "type": "score",
+        "score": "CAL",
+        "target": {
+          "type": "fixed",
+          "name": "#min"
+        }
+      },
+      "max": {
+        "type": "score",
+        "score": "CAL",
+        "target": {
+          "type": "fixed",
+          "name": "#max"
+        }
+      }
+    }
+  }
+}
