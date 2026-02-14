@@ -4,7 +4,8 @@
 #################################################################
 
 ##reset world entity data
-data remove entity 00000002-0000-00de-0000-0002000000de equipment
+data remove block 0 0 0 Items
+#data remove entity 00000002-0000-00de-0000-0002000000de equipment
 
 ##test if have bundle
 execute unless items entity @s player.crafting.* blue_bundle[custom_data~{QuickSlot:true,EquipmentType:spell_bundle}] run return fail
@@ -12,7 +13,7 @@ function att2:gameplay/dahal/spell_bundle/bundle_data_get
 
 ##get data
 data modify storage att2:spell_bundle bundle_data set value []
-data modify storage att2:spell_bundle bundle set from entity 00000002-0000-00de-0000-0002000000de equipment.mainhand
+data modify storage att2:spell_bundle bundle set from block 0 0 0 container.0
 data modify storage att2:spell_bundle bundle_data set from storage att2:spell_bundle bundle.components."minecraft:bundle_contents"
 
 ##get spell data

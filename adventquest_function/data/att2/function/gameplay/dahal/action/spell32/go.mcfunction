@@ -15,6 +15,8 @@ execute if score Spell_Bundle_Slot_Test CAL matches 1 if predicate att2_pre:daha
 ##Prevent accidents
 execute if score @s COOLDOWN32 matches 1.. run return 0
 
+##get player score
+function att2:gameplay/score/player
 execute if score @s SPELL32_SET_OR_TP matches 1 run function att2:gameplay/dahal/action/spell32/set_a_go
 execute if score @s SPELL32_SET_OR_TP matches 2 run function att2:gameplay/dahal/action/spell32/set_b_go
 execute if score @s SPELL32_SET_OR_TP matches 3 run function att2:gameplay/dahal/action/spell32/tp_a_go
