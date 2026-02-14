@@ -1,0 +1,20 @@
+#########################################################################
+#Made by Adventquest													#
+#Process start of runic trial 4 	                                    #
+#########################################################################
+
+scoreboard players set state4 RUNICTRIAL 1
+
+# summon
+execute positioned -5077 85 -5579 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS4}
+execute positioned -5074 85 -5581 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS3}
+execute positioned -5077 85 -5584 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS3}
+execute positioned -5080 85 -5581 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS4}
+
+# effet
+execute as @a[x=-5077,y=93,z=-5581,distance=..15,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_start
+execute as @e[x=-5077,y=93,z=-5581,distance=..15,tag=NewInvo] run function att2:gameplay/invocation/action/summon
+summon minecraft:lightning_bolt -5077 94 -5575
+
+# checkpoint
+execute in minecraft:overworld run spawnpoint @a -5077 89 -5572

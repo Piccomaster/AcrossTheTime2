@@ -4,6 +4,7 @@
 #########################################################################
 
 scoreboard players set total_trial11 CANDLE_LIT -1
+scoreboard players set state11 RUNICTRIAL -1
 
 # summon
 execute positioned -4049 44 -5986 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS8}

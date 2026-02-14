@@ -7,6 +7,34 @@ scoreboard objectives add CANDLE_LIT dummy
 scoreboard objectives add CANDLE_STATE dummy
 scoreboard objectives add RUNICTRIAL dummy
 
+scoreboard players set state1 RUNICTRIAL 0
+scoreboard players set state2 RUNICTRIAL 0
+scoreboard players set state3 RUNICTRIAL 0
+scoreboard players set state4 RUNICTRIAL 0
+scoreboard players set state5 RUNICTRIAL 0
+scoreboard players set state6 RUNICTRIAL 0
+scoreboard players set state7 RUNICTRIAL 0
+scoreboard players set state8 RUNICTRIAL 0
+scoreboard players set state9 RUNICTRIAL 0
+scoreboard players set state10 RUNICTRIAL 0
+scoreboard players set state11 RUNICTRIAL 0
+scoreboard players set state12 RUNICTRIAL 0
+scoreboard players set state13 RUNICTRIAL 0
+scoreboard players set state14 RUNICTRIAL 0
+scoreboard players set state15 RUNICTRIAL 0
+scoreboard players set state16 RUNICTRIAL 0
+scoreboard players set state17 RUNICTRIAL 0
+scoreboard players set state18 RUNICTRIAL 0
+scoreboard players set state19 RUNICTRIAL 0
+scoreboard players set state20 RUNICTRIAL 0
+scoreboard players set state21 RUNICTRIAL 0
+scoreboard players set state22 RUNICTRIAL 0
+scoreboard players set state23 RUNICTRIAL 0
+scoreboard players set state24 RUNICTRIAL 0
+scoreboard players set state25 RUNICTRIAL 0
+scoreboard players set state26 RUNICTRIAL 0
+scoreboard players set state27 RUNICTRIAL 0
+
 scoreboard players set door1_trial2 RUNICTRIAL 0
 scoreboard players set door1_trial3 RUNICTRIAL 0
 scoreboard players set door1_trial4 RUNICTRIAL 0

@@ -4,6 +4,7 @@
 #########################################################################
 
 scoreboard players set total_trial25 CANDLE_LIT -1
+scoreboard players set state25 RUNICTRIAL -1
 
 # summon
 execute positioned -5751 34 -4722 run function att2:summon/reg_1/witherarchertrialminion_classx {class:CLASS20}

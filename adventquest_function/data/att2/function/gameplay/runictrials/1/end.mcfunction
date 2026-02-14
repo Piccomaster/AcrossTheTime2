@@ -4,6 +4,7 @@
 #########################################################################
 
 scoreboard players set total_trial1 CANDLE_LIT -1
+scoreboard players set state1 RUNICTRIAL -1
 
 # summon
 execute positioned -4778 54 -5374 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS4}
@@ -19,3 +20,6 @@ function att2:gameplay/runictrials/1/end_door_opened
 
 # dark resin spawned
 execute positioned -4766 54 -5374 run function att2:gameplay/runictrials/dark_resin_merge
+
+# checkpoint
+execute in minecraft:overworld run spawnpoint @a -4805 53 -5374
