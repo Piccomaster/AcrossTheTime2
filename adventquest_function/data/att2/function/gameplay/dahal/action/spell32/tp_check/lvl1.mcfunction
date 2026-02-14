@@ -1,0 +1,7 @@
+#################################################################
+#Made by 时空译站											     #
+#检测玩家距离盔甲架的范围和玩家身上的esc数量                        #
+#################################################################
+
+## lvl distance detection
+execute if entity @p[tag=TEMP,distance=..40] run return run scoreboard players set #DISTANCE CAL 1

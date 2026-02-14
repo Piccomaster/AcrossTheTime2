@@ -4,10 +4,9 @@
 #################################################################
 
 #replace item
-item replace entity 00000001-0000-006f-0000-00010000006f weapon.offhand from entity @s weapon.offhand
+execute in overworld run item replace block 0 0 0 container.0 from entity @s weapon.mainhand
+##replace
 item replace entity @s weapon.offhand with air
-item replace entity @s weapon.offhand from entity 00000001-0000-006f-0000-00010000006f weapon.offhand
-#set cooldown
-#$item modify entity @s weapon.offhand {function:"set_components", components:{"minecraft:use_cooldown":{cooldown_group:spell$(spell_id),seconds:$(seconds)}}}
+execute in overworld run item replace entity @s weapon.offhand from block 0 0 0 container.0
 #sound
 execute if score DAHAL_TEST CAL matches 1 run playsound minecraft:entity.fishing_bobber.throw block @s ~ ~ ~ 1 0.5

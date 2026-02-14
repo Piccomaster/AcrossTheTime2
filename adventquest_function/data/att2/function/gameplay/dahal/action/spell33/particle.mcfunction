@@ -13,4 +13,4 @@ execute if score @s SPELL33_CAP matches 6 run return run particle minecraft:dust
 execute if score @s SPELL33_CAP matches 7 run return run particle minecraft:dust{color:[0.65,0.05,1.0],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
 execute if score @s SPELL33_CAP matches 8 run return run particle minecraft:dust{color:[0.45,0.0,0.55],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
 execute if score @s SPELL33_CAP matches 9 run return run particle minecraft:dust{color:[1,0.45,0.1],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
-execute if score @s SPELL33_CAP matches 10 run return run particle minecraft:dust{color:[0.75,0.25,0.0],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5
+execute if score @s SPELL33_CAP matches 10 run return run particle minecraft:dust{color:[0.75,0.25,0.0],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal

@@ -35,7 +35,8 @@ execute if score @s INVASION matches 60 run function att2:gameplay/enveffect/mob
 execute if score @s INVASION matches 40 run function att2:gameplay/enveffect/mobs_invasion/chest_trigger/charging_effect4
 execute if score @s INVASION matches 20 run function att2:gameplay/enveffect/mobs_invasion/chest_trigger/charging_effect5
 
-
+##
+execute as @s[scores={INVASION=101..}] unless entity @n[distance=..30,team=hostile,scores={GAMELEVEL=0..},tag=Mobs_Invasion] run scoreboard players set @s INVASION 100
 
 ##clear
 execute if score @s INVASION matches 1.. run return 0
