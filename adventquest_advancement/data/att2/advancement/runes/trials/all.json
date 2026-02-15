@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:vault"
+        },
+        "title": {"translate":"att2.advancement.runes.title.trial_all"},
+        "description": {"translate":"att2.advancement.runes.description.trial_all"}
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "runic_trial_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

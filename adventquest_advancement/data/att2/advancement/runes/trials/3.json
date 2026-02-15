@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "id": [
+                        612384140,
+                        2051951641,
+                        -1696671780,
+                        1752508933
+                    ],
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTljNDBhZjdkOGVmZmEzYjQ5ZDIzYWJiYTJkZGE5YmRhMzQ1YzliZDU4YjhmMThjOGIyZTZjMDc1ZjRhNDQyNSJ9fX0="
+                        }
+                    ]
+                }
+            }
+        },
+        "title": {"translate":"att2.advancement.runes.title.trial_3"},
+        "description": {"translate":"att2.advancement.runes.description.trial_3"}
+    },
+    "parent": "att2:runes/trials/2",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 350
+                },
+    "criteria": {
+        "runic_trial_3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

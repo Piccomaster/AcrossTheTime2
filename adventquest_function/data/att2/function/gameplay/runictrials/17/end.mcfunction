@@ -5,6 +5,7 @@
 
 scoreboard players set total_trial17 CANDLE_LIT -1
 scoreboard players set state17 RUNICTRIAL -1
+advancement grant @a only att2:runes/trials/17
 
 # summon
 execute positioned -4490 35 -4448 run function att2:summon/reg_1/witherarchertrialminion_classx {class:CLASS7}
