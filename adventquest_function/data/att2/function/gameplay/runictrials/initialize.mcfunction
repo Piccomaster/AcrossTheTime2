@@ -7,6 +7,8 @@ scoreboard objectives add CANDLE_LIT dummy
 scoreboard objectives add CANDLE_STATE dummy
 scoreboard objectives add RUNICTRIAL dummy
 
+scoreboard players set exploit RUNICTRIAL 0
+
 scoreboard players set state1 RUNICTRIAL 0
 scoreboard players set state2 RUNICTRIAL 0
 scoreboard players set state3 RUNICTRIAL 0

@@ -5,7 +5,7 @@
 
 scoreboard players set total_trial12 CANDLE_LIT -1
 scoreboard players set state12 RUNICTRIAL -1
-advancement grant @a only att2:runes/trials/12
+scoreboard players add exploit RUNICTRIAL 1
 
 # summon
 execute positioned -4162 48 -5422 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS8}
