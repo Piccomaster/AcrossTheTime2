@@ -9,8 +9,9 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 #update start score
 scoreboard players set @s ElytraRacing 0
 scoreboard players set @s ElytraRacingTime 0
-scoreboard players set @s ElytraRacingSprintTime 10
+scoreboard players set @s ElytraRacingSprintTime 100
 scoreboard players set @s HORSERACE_MUSIC 0
+scoreboard players set @s ElytraRacingPoint 0
 
 
 ##cal ElytraRacingMistake
@@ -20,6 +21,7 @@ execute store result storage att2:score route_id int 1 run scoreboard players ge
 function att2:gameplay/elytra_racing/edit_route/list/get_max with storage att2:score
 scoreboard players operation #list_max ElytraRacing /= 100 CAL
 scoreboard players operation @s ElytraRacingMistake = #list_max ElytraRacing
+scoreboard players add @s ElytraRacingMistake 3
 
 ##tp
 tp @s ~ ~1 ~

@@ -11,3 +11,6 @@ title @s clear
 tag @s remove BookOpen
 #reset title
 title @s times 10 50 50
+
+##remove tick
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/book":0}}

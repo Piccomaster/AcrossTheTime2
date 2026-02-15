@@ -7,6 +7,7 @@ scoreboard players set elcheol_trigger PANORAMA -1
 execute if score elcheol PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
 scoreboard players set elcheol PANORAMA 1
 advancement grant @a only att2:journey/panorama_elcheol
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 setblock -5171 162 -6661 minecraft:air
 execute as @a[gamemode=spectator,scores={Performance=42}] run function att2:gameplay/speceffect/disincarnate/end

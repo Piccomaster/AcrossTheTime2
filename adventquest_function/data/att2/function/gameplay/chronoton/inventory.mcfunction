@@ -28,25 +28,25 @@ execute store result score diamond CHRONOTON run clear @s diamond[custom_data={E
 execute store result score ruby CHRONOTON run clear @s copper_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'ruby'}]
 execute store result score amethyst CHRONOTON run clear @s glow_ink_sac[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'amethyst'}]
 #cal small coin
-scoreboard players operation cal CHRONOTON = BonusChronoton RUNE
+scoreboard players operation cal CHRONOTON = #BonusChronoton RUNE
 scoreboard players operation cal CHRONOTON += 1 CAL
 scoreboard players operation small CHRONOTON *= cal CHRONOTON
 #cal big coin
-scoreboard players operation cal CHRONOTON = BonusChronoton RUNE
+scoreboard players operation cal CHRONOTON = #BonusChronoton RUNE
 scoreboard players operation cal CHRONOTON += 5 CAL
 scoreboard players operation big CHRONOTON *= cal CHRONOTON
 #cal diamond coin
-scoreboard players operation cal CHRONOTON = BonusChronoton RUNE
+scoreboard players operation cal CHRONOTON = #BonusChronoton RUNE
 scoreboard players operation cal CHRONOTON *= 10 CAL
 scoreboard players operation cal CHRONOTON += 50 CAL
 scoreboard players operation diamond CHRONOTON *= cal CHRONOTON
 #cal ruby coin
-scoreboard players operation cal CHRONOTON = BonusChronoton RUNE
+scoreboard players operation cal CHRONOTON = #BonusChronoton RUNE
 scoreboard players operation cal CHRONOTON *= 100 CAL
 scoreboard players operation cal CHRONOTON += 1000 CAL
 scoreboard players operation ruby CHRONOTON *= cal CHRONOTON
 #cal amethyst coin
-scoreboard players operation cal CHRONOTON = BonusChronoton RUNE
+scoreboard players operation cal CHRONOTON = #BonusChronoton RUNE
 scoreboard players operation cal CHRONOTON *= 50 CAL
 scoreboard players operation cal CHRONOTON += 500 CAL
 scoreboard players operation amethyst CHRONOTON *= cal CHRONOTON

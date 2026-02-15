@@ -7,6 +7,7 @@ scoreboard players set kert_trigger PANORAMA -1
 execute if score kert PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
 scoreboard players set kert PANORAMA 1
 advancement grant @a only att2:journey/panorama_kert
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 setblock -5552 163 -4766 minecraft:air
 execute as @a[gamemode=spectator,scores={Performance=49}] run function att2:gameplay/speceffect/disincarnate/end

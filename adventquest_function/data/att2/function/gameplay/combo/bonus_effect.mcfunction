@@ -18,4 +18,4 @@ execute store result storage att2:temp value int 1 run scoreboard players get To
 function att2:gameplay/leveling/monster/loot/xp_get with storage att2:temp
 tellraw @s [{translate:att2.combo.reward,with:[{score:{name:"@s",objective:"COMBO_COUNT"},color:"green"},{score:{name:"TotalXp",objective:"CAL"},color:"dark_green"}]}]
 #sound
-execute at @s run playsound minecraft:block.note_block.chime block @a ~ ~ ~ 150 0.5
+execute at @s run playsound minecraft:block.note_block.chime block @s ~ ~ ~ 150 0.5

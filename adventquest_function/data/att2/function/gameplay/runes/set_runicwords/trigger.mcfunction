@@ -52,7 +52,7 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {equipment:{mainhand:{id:"minecraft:glowstone_dust",components:{EquipmentType:"runic_word"}}}} run function att2:gameplay/runes/runicwords_name/incompleted
 #re cal
 
-scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
+scoreboard players operation @s MAX_HEALTH = #BonusHealthMax RUNE
 scoreboard players operation @s MAX_HEALTH *= 4 CAL
 scoreboard players operation @s MAX_HEALTH += @s GAMELEVEL
 scoreboard players operation @s MAX_HEALTH *= 12 CAL

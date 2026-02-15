@@ -4,7 +4,7 @@
 ##################################################
 
 effect give @s[scores={TIMER_HUN_TOT=..0}] minecraft:saturation 1 0 true
-scoreboard players operation @s[scores={TIMER_HUN_TOT=..0}] TIMER_HUN_TOT = bonus_5 HUN_DATA
+scoreboard players operation @s[scores={TIMER_HUN_TOT=..0}] TIMER_HUN_TOT = #bonus_5 HUN_DATA
 #get score
 scoreboard players operation #TIMER_HUN_TOT HUN_DATA = #bonus_5 HUN_DATA
 scoreboard players operation #TIMER_HUN_TOT HUN_DATA /= 20 CAL

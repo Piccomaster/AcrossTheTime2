@@ -20,12 +20,10 @@ execute store result storage att2:score player int 1 run scoreboard players get 
 ##get c/t
 
 execute store result score #C CAL run data get entity @s data.C
-tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}}]
+tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}},"  ","T:",{score:{name:"#T",objective:"CAL"}},"  ","Q:",{score:{name:"#Q",objective:"CAL"}}]
 execute store result score #T CAL run data get entity @s data.T
-tellraw @a ["T:",{score:{name:"#T",objective:"CAL"}}]
 ##get quest item
 execute store result score #Q CAL run data get entity @s data.Q
-tellraw @a ["Q:",{score:{name:"#Q",objective:"CAL"}}]
 ##get Dimension
 execute store result score #Dimension CAL run data get entity @s data.Dimension
 ##update player dropchance
@@ -41,10 +39,8 @@ execute if score #Dimension CAL matches 3 run data modify block ~ ~ ~ LootTable 
 execute if score #Dimension CAL matches 4 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg4"
 
 ##insert quick pick-up trigger
-execute if block ~ ~ ~ #minecraft:chest[type=left] run item replace block ~ ~ ~ container.26 with minecraft:player_head
-execute if block ~ ~ ~ #minecraft:chest[type=left] as @p[distance=..20,predicate=att2_pre:score/player] run item modify block ~ ~ ~ container.26 att2:qucik_pick_up
-
-
+#execute if block ~ ~ ~ #minecraft:chest[type=left] run item replace block ~ ~ ~ container.26 with minecraft:player_head
+#execute if block ~ ~ ~ #minecraft:chest[type=left] as @p[distance=..20,predicate=att2_pre:score/player] run item modify block ~ ~ ~ container.26 att2:qucik_pick_up
 
 ##test item rarity -> sound tip
 execute if items block ~ ~ ~ container.* gold_nugget[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 1.6

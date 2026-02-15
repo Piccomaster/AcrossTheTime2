@@ -15,3 +15,6 @@ tellraw @a[distance=..128] [{nbt:"set",storage:"att2:id","interpret":true,color:
 tellraw @a[distance=..128] [{translate:att2.chest.shulker.count,with:[{score:{name:"shulker",objective:"SECRET"},color:gold}]}]
 ##dailyquest trigger
 function att2:cinematic/dailyquest/trigger/shulker
+
+##advancement trigger
+function att2:advancement/test_all/secret

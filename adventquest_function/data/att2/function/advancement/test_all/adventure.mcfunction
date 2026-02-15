@@ -5,9 +5,9 @@
 
 
 ##HOUSE
-execute as @a run function att2:advancement/test_all/adventure/house
+#function att2:advancement/test_all/adventure/house
 ##INN
-function att2:advancement/test_all/adventure/inn
+#function att2:advancement/test_all/adventure/inn
 ##MYTHICAL SASTR
 execute as @a run function att2:advancement/test_all/adventure/sastr
 ##ENDER CHEST

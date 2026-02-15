@@ -15,4 +15,4 @@ advancement grant @a[scores={CHRONOTON=50000..}] only att2:treasure/chronotons_5
 advancement grant @a[scores={CHRONOTON=100000..}] only att2:treasure/chronotons_100000
 
 #MINING
-function att2:advancement/test_all/treasure/mining
+#function att2:advancement/test_all/treasure/mining

@@ -22,9 +22,9 @@ execute unless entity @a[predicate=att2_pre:score/elytra_racing/detection,tag=El
 ##summon light
 fill ~ ~ ~ ~ ~ ~ light[level=15] replace minecraft:air
 ##clear same
-tag @s add TEMP
-kill @e[distance=..0.5,type=armor_stand,predicate=att2_pre:score/elytra_racing/same_id,tag=!TEMP]
-tag @s remove TEMP
+#tag @s add TEMP
+#kill @e[distance=..0.5,type=armor_stand,predicate=att2_pre:score/elytra_racing/same_id,tag=!TEMP]
+#tag @s remove TEMP
 
 scoreboard players remove #max CAL 1
 ##show particle
@@ -41,7 +41,7 @@ execute if score @s ElytraRacingParticleId matches 6 as @a[distance=..50,predica
 execute if score @s ElytraRacingParticleId matches 7 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/green_super_dash
 execute if score @s ElytraRacingParticleId matches 8 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/green_reverse_dash
 ##ReverseDash particle
-execute if score @s ElytraRacingParticleId matches 7 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_normal_dash
-execute if score @s ElytraRacingParticleId matches 8 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_normal_super_dash
-execute if score @s ElytraRacingParticleId matches 8 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_super_dash
-execute if score @s ElytraRacingParticleId matches 9 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_reverse_dash
+execute if score @s ElytraRacingParticleId matches 9 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_normal_dash
+execute if score @s ElytraRacingParticleId matches 10 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_normal_super_dash
+execute if score @s ElytraRacingParticleId matches 11 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_super_dash
+execute if score @s ElytraRacingParticleId matches 12 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/detection] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_reverse_dash

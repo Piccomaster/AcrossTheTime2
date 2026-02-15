@@ -6,6 +6,7 @@
 ##test near
 #scoreboard players set @s ElytraRacingTime 1
 execute unless entity @n[distance=..5,type=armor_stand,tag=ElytraRacingMarker] run scoreboard players set @s ElytraRacingTime -1
+#execute unless entity @n[distance=5..20,type=armor_stand,tag=ElytraRacingMarker] run function att2:gameplay/elytra_racing/player/mistake/too_far
 
 #execute if score @s ElytraRacing matches 0.. run return fail
 ##test fiying effect

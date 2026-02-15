@@ -14,6 +14,9 @@ tp @n[type=armor_stand,tag=showing,tag=circle,tag=following,predicate=att2_pre:s
 
 
 ##
+execute as @s[tag=!EditRoute] run attribute @s minecraft:gravity base reset
+execute as @s[tag=!EditRoute] run return run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/elytra_racing_edit_route":0}} 
+
 execute as @s[gamemode=creative] run return run attribute @s minecraft:gravity base reset
 ##fly set
 attribute @s minecraft:gravity base set 0

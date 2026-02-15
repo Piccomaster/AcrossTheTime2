@@ -13,6 +13,7 @@ summon armor_stand ~ ~ ~ {equipment:{head:{id:"diamond_helmet",components:{encha
 
 ##add score
 scoreboard players add @s ElytraRacing 1
+scoreboard players add @s ElytraRacingMaxId 1
 
 ##add tag
 tag @s add EditRouteSummon

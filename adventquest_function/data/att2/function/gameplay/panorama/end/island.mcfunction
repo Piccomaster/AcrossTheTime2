@@ -7,6 +7,7 @@ scoreboard players set island_trigger PANORAMA -1
 execute if score island PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
 scoreboard players set island PANORAMA 1
 advancement grant @a only att2:journey/panorama_island
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 setblock -4031 129 -4357 minecraft:air
 execute as @a[gamemode=spectator,scores={Performance=47}] run function att2:gameplay/speceffect/disincarnate/end

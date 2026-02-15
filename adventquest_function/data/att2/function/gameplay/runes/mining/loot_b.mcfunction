@@ -9,7 +9,10 @@ loot spawn ~ ~ ~ loot att2:entities/runes_mining_c
 scoreboard players add #MiningCount_b RUNE 1
 scoreboard players add #MiningCountTotal RUNE 1
 
+##advancement trigger
 advancement grant @a only att2:treasure/mining_runic_medium
+function att2:advancement/test_all/treasure/mining
+
 ##sound
 playsound minecraft:block.deepslate.break master @a ~ ~ ~ 2 1
 ##spell34 clear

@@ -37,7 +37,7 @@ execute store result score #BonusRolls CAL run random value 10..15
 scoreboard players operation #BonusRolls CAL *= #luck CAL
 
 scoreboard players operation #ChronotonsRolls DropRolls += #BonusRolls CAL 
-tellraw @a ["Chronotons:",{score:{name:"#ChronotonsRolls",objective:"DropRolls"}}]
+tellraw @a ["§6Chronotons:",{score:{name:"#ChronotonsRolls",objective:"DropRolls"}},"  ","§6Consumables:",{score:{name:"#ConsumablesRolls",objective:"DropRolls"}},"  ","§6Equipment:",{score:{name:"#EquipmentsRolls",objective:"DropRolls"}},"  ","§6Runes:",{score:{name:"#RunesRolls",objective:"DropRolls"}}]
 ##cal Consumable DropBonusRolls
 execute store result score #ConsumablesRolls DropRolls run random value 14..28
 scoreboard players operation #ConsumablesRolls DropRolls *= #T CAL
@@ -46,7 +46,6 @@ execute store result score #BonusRolls CAL run random value 0..14
 scoreboard players operation #BonusRolls CAL *= #luck CAL
 
 scoreboard players operation #ConsumablesRolls DropRolls += #BonusRolls CAL 
-tellraw @a ["Consumables:",{score:{name:"#ConsumablesRolls",objective:"DropRolls"}}]
 
 ##cal Equipment DropBonusRolls
 execute store result score #EquipmentsRolls DropRolls run random value 23..41
@@ -55,8 +54,7 @@ scoreboard players operation #EquipmentsRolls DropRolls *= #T CAL
 execute store result score #BonusRolls CAL run random value 0..16
 scoreboard players operation #BonusRolls CAL *= #luck CAL
 
-scoreboard players operation #EquipmentsRolls DropRolls += #BonusRolls CAL 
-tellraw @a ["Equipment:",{score:{name:"#EquipmentsRolls",objective:"DropRolls"}}]
+scoreboard players operation #EquipmentsRolls DropRolls += #BonusRolls CAL
 
 ##cal Runes DropBonusRolls
 execute store result score #RunesRolls DropRolls run random value 20..40
@@ -65,8 +63,7 @@ scoreboard players operation #RunesRolls DropRolls *= #T CAL
 execute store result score #BonusRolls CAL run random value 0..20
 scoreboard players operation #BonusRolls CAL *= #luck CAL
 
-scoreboard players operation #RunesRolls DropRolls += #BonusRolls CAL 
-tellraw @a ["Runes:",{score:{name:"#RunesRolls",objective:"DropRolls"}}]
+scoreboard players operation #RunesRolls DropRolls += #BonusRolls CAL
 #Clamp range
 
 #luck effect

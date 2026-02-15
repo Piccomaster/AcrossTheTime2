@@ -9,3 +9,5 @@ stopsound @s music
 scoreboard players set @s MUSIC_B_TIMER 4800
 
 scoreboard players add @s statBATTLE 1
+##advancement trigger
+function att2:advancement/test_all/combat/battle

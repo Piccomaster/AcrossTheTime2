@@ -23,7 +23,7 @@ execute if score gps SYSTEM matches 1 run function att2:gameplay/gps/go
 execute if score healthbar SYSTEM matches 1 run function att2:gameplay/healthbar/go
 execute if score horse_racing SYSTEM matches 1 run function att2:gameplay/horse_racing/go
 execute if score leveling SYSTEM matches 1 run function att2:gameplay/leveling/go
-execute if score invocation SYSTEM matches 1 run function att2:gameplay/invocation/go
+#execute if score invocation SYSTEM matches 1 run function att2:gameplay/invocation/go
 execute if score item SYSTEM matches 1 run function att2:gameplay/item/go
 execute if score legendary SYSTEM matches 1 run function att2:gameplay/legendary/go
 execute if score panorama SYSTEM matches 1 run function att2:gameplay/panorama/go
@@ -47,6 +47,3 @@ execute if score clock SYSTEM matches 1 run function att2:clock/go
 execute if score cinematic SYSTEM matches 1 run function att2:cinematic/go
 execute if score spawner SYSTEM matches 1 run function att2:spawner/go
 execute if score worldborder_tp SYSTEM matches 1 run function att2:worldborder_tp/go
-
-
-execute as @a[tag=BookOpen] at @s run function att2:gameplay/book/go

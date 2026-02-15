@@ -22,6 +22,9 @@ scoreboard objectives add ElytraRacingParticleId dummy
 
 scoreboard objectives add ElytraRacingMaxId dummy
 
+
+scoreboard objectives add ElytraRacingPoint dummy
+
 ##initialize base route
 function att2:gameplay/elytra_racing/initialize_base_data
 

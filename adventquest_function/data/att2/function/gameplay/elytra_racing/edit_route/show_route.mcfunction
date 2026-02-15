@@ -35,7 +35,7 @@ execute if score @s ElytraRacingParticleId matches 6 as @a[distance=..50,predica
 execute if score @s ElytraRacingParticleId matches 7 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/green_super_dash
 execute if score @s ElytraRacingParticleId matches 8 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/green_reverse_dash
 ##ReverseDash particle
-execute if score @s ElytraRacingParticleId matches 7 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_normal_dash
-execute if score @s ElytraRacingParticleId matches 8 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_normal_super_dash
-execute if score @s ElytraRacingParticleId matches 8 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_super_dash
-execute if score @s ElytraRacingParticleId matches 9 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_reverse_dash
+execute if score @s ElytraRacingParticleId matches 9 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_normal_dash
+execute if score @s ElytraRacingParticleId matches 10 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_normal_super_dash
+execute if score @s ElytraRacingParticleId matches 11 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_super_dash
+execute if score @s ElytraRacingParticleId matches 12 as @a[distance=..50,predicate=att2_pre:score/elytra_racing/same_route_id] run return run function att2:gameplay/elytra_racing/cycle/particle/blue_reverse_dash

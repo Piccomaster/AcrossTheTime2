@@ -4,7 +4,7 @@
 #########################################################################
 
 #reset health
-execute as @a run scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
+execute as @a run scoreboard players operation @s MAX_HEALTH = #BonusHealthMax RUNE
 execute as @a run scoreboard players operation @s MAX_HEALTH *= 4 CAL
 execute as @a run scoreboard players operation @s MAX_HEALTH += @s GAMELEVEL
 execute as @a run scoreboard players operation @s MAX_HEALTH *= 12 CAL
