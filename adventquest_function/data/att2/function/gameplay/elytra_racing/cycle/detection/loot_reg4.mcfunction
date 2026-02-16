@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#loot reg4                                                      #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/cycle/detection/loot_reg4 
 #################################################################
 
 ######### particle / sound

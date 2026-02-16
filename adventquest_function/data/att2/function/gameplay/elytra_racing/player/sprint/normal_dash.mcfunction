@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#Initialize enchantment                    						#
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/player/sprint/normal_dash 
 #################################################################
 
 #say 普通冲刺

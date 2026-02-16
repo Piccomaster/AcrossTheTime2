@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			
-#blue normal dash particle
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/cycle/particle/end_detection
 #############################################################
 
 

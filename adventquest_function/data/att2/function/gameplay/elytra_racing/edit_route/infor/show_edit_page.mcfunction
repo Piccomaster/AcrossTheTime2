@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			
-#show edit page
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/edit_route/infor/show_edit_page
 #############################################################
 
 ##sound

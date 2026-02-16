@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#Initialize elytra_racing                    				    #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/initialize_base_data      
 #################################################################
 
 scoreboard players set #RouteId ElytraRacingSelect 4

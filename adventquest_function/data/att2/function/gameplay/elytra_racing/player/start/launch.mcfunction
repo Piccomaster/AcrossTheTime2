@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#Process miscelaneous actions 									#
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/player/start/launch       
 #################################################################
 
 ##add enchantments tick/effect

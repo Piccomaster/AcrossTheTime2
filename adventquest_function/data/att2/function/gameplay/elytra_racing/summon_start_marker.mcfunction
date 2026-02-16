@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#summon trigger marker                                          #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/summon_start_marker       
 #################################################################
 
 kill @e[type=armor_stand,tag=ElytraRacingMarker,scores={ElytraRacingSelect=1..6}]

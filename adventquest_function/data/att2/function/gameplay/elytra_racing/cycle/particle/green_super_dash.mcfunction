@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			
-#green super dash particle
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/cycle/particle/green_super_dash
 #############################################################
 
 particle copper_fire_flame ^ ^ ^ 0.1 0.1 0.1 0 1 force @s

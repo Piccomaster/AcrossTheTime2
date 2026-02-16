@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			
-#red normal dash particle
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/cycle/particle/red_normal_dash
 #############################################################
 
 particle flame ^ ^ ^ 0.1 0.1 0.1 0 1 force @s

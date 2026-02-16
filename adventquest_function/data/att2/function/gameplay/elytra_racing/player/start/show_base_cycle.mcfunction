@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#Initialize enchantment                    						#
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/player/start/show_base_cycle
 #################################################################
 
 ##get route data

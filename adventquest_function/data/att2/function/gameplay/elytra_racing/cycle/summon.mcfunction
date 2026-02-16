@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#summon cycle marker                                            #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/cycle/summon              
 #################################################################
 
 ##summon

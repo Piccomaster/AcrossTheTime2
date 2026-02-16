@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			
-#blue super dash particle
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/cycle/particle/blue_super_dash
 #############################################################
 
 particle soul_fire_flame ^ ^ ^ 0.1 0.1 0.1 0 1 force @s

@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#Initialize elytra_racing                    				    #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/bossbar/route_data        
 #################################################################
 
 ##get score

@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			#
-#summon route                                               #
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/edit_route/summon/route
 #############################################################
 
 advancement revoke @s only att2_test:dailyquest/trigger/elytra_racing/summon_route
