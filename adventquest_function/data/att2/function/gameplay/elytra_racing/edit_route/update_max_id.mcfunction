@@ -1,12 +1,14 @@
 #############################################################
-#Made by Adventquest                               			#
-#show particle/ detection check point                       #
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/edit_route/update_max_id
 #############################################################
 
 ##get now list id -> update ElytraRacing score
-#say update
-#get list id
 
+##get select id
+scoreboard players operation #route_id CAL = @s ElytraRacingSelect
+##get id
+scoreboard players operation #id CAL = @s ElytraRacing
 ##get select id and now list id
 execute store result storage att2:score route_id int 1 run scoreboard players get @s ElytraRacingSelect
 function att2:gameplay/elytra_racing/edit_route/list/store_temp with storage att2:score
@@ -29,7 +31,7 @@ data modify entity @s CustomName set from storage att2:elytra_racing show_id
 data modify entity @s CustomNameVisible set value true
 
 ##update max id
-scoreboard players operation @s ElytraRacingMaxId = @p[predicate=att2_pre:score/player] ElytraRacingMaxId
+scoreboard players operation @s ElytraRacingMaxId = @p[predicate=att2_pre:score/player,predicate=att2_pre:score/elytra_racing/same_route_id] ElytraRacingMaxId
 
 ##facing next
 execute if entity @p[tag=AutoAlign,predicate=att2_pre:score/player] run function att2:gameplay/elytra_racing/edit_route/summon/facing_next
@@ -39,5 +41,10 @@ execute store result storage att2:score count int 1 run data get entity @s data.
 execute store result storage att2:score route_id int 1 run scoreboard players get @s ElytraRacingSelect
 execute store result storage att2:score dash_class int 1 run data get entity @s data.route_data.dash_class
 function att2:gameplay/elytra_racing/edit_route/summon/operation/reupdate_data with storage att2:score
+
+##clear same
+tag @s add TEMP
+kill @e[distance=..0.5,type=armor_stand,predicate=att2_pre:score/elytra_racing/same_id,tag=!TEMP]
+tag @s remove TEMP
 
 say update

@@ -6,7 +6,7 @@
 execute store result score big CHRONOTON run data get entity @s Item.count
 
 #cal big coin
-scoreboard players operation cal CHRONOTON = BonusChronoton RUNE
+scoreboard players operation cal CHRONOTON = #BonusChronoton RUNE
 scoreboard players operation cal CHRONOTON += 5 CAL
 execute if predicate att2_pre:test_item/drop run scoreboard players set cal CHRONOTON 5
 scoreboard players operation big CHRONOTON *= cal CHRONOTON

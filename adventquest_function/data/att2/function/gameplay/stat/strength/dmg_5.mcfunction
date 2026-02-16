@@ -8,4 +8,4 @@ scoreboard players operation @s STR_DATA *= @s STR_DATA
 scoreboard players operation @s STR_DATA *= 4 CAL
 scoreboard players operation @s STR_DATA /= 100 CAL
 
-scoreboard players operation @s STR_DATA += 670 CAL
+scoreboard players add @s STR_DATA 670

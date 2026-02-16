@@ -18,6 +18,6 @@ execute unless score @s LIFETIME matches ..0 run return run scoreboard players r
 
 ##time limit
 scoreboard players reset @s LIFETIME
-execute on passengers run kill @s[type=minecraft:item_display]
+#execute on passengers run kill @s[type=minecraft:item_display]
 execute on vehicle run kill @s[type=#minecraft:arrows]
 kill @s

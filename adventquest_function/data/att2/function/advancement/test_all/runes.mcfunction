@@ -3,7 +3,7 @@
 #Process all test of Runes advancement 			                #
 #################################################################
 
-execute if score state1 RUNICTRIAL matches -1 if score state2 RUNICTRIAL matches -1 if score state3 RUNICTRIAL matches -1 if score state4 RUNICTRIAL matches -1 if score state5 RUNICTRIAL matches -1 if score state6 RUNICTRIAL matches -1 if score state7 RUNICTRIAL matches -1 if score state8 RUNICTRIAL matches -1 if score state9 RUNICTRIAL matches -1 if score state10 RUNICTRIAL matches -1 if score state11 RUNICTRIAL matches -1 if score state12 RUNICTRIAL matches -1 if score state13 RUNICTRIAL matches -1 if score state14 RUNICTRIAL matches -1 if score state15 RUNICTRIAL matches -1 if score state16 RUNICTRIAL matches -1 if score state17 RUNICTRIAL matches -1 if score state18 RUNICTRIAL matches -1 if score state19 RUNICTRIAL matches -1 if score state20 RUNICTRIAL matches -1 if score state21 RUNICTRIAL matches -1 if score state22 RUNICTRIAL matches -1 if score state23 RUNICTRIAL matches -1 if score state24 RUNICTRIAL matches -1 if score state25 RUNICTRIAL matches -1 if score state26 RUNICTRIAL matches -1 if score state27 RUNICTRIAL matches -1 run advancement grant @a only att2:runes/trials/all
+execute if score exploit RUNICTRIAL matches 27.. run advancement grant @a only att2:runes/trials/all
 
 execute if score exploit RUNICTRIAL matches 1.. run advancement grant @a only att2:runes/trials/1
 execute if score exploit RUNICTRIAL matches 2.. run advancement grant @a only att2:runes/trials/2

@@ -34,13 +34,10 @@ function att2:advancement/test_all/combat
 function att2:advancement/test_all/treasure
 
 # Secret
-function att2:advancement/test_all/secret
+#function att2:advancement/test_all/secret
 
 # Progress
 function att2:advancement/test_all/progress
 
 # Quest
 function att2:advancement/test_all/quest
-
-# Runes
-function att2:advancement/test_all/runes

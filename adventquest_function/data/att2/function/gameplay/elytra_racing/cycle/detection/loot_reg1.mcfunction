@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#loot reg1                                                      #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/cycle/detection/loot_reg1 
 #################################################################
 
 ######### particle / sound
@@ -15,8 +15,8 @@ scoreboard players operation #C CAL /= 40 CAL
 scoreboard players operation #C CAL > 1 CAL
 scoreboard players operation #C CAL < 10 CAL
 
-scoreboard players operation #T CAL = @s ElytraRacingMistake
-scoreboard players operation #T CAL /= 2 CAL
+scoreboard players operation #T CAL = @s ElytraRacingPoint
+scoreboard players operation #T CAL /= 50 CAL
 scoreboard players operation #T CAL > 1 CAL
 scoreboard players operation #T CAL < 10 CAL
 
@@ -37,15 +37,9 @@ execute if score @s LUC_TOT matches 6.. run loot spawn ~ ~ ~ loot att2:chest/reg
 execute if score @s LUC_TOT matches 8.. run loot spawn ~ ~ ~ loot att2:chest/reg1
 execute if score @s LUC_TOT matches 10.. run loot spawn ~ ~ ~ loot att2:chest/reg1
 ##mistake
-execute if score #T CAL matches 5.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 5.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 6.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 6.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 7.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 7.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 8.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 8.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 9.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 9.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 10.. run loot spawn ~ ~ ~ loot att2:chest/reg1
-execute if score #T CAL matches 10.. run loot spawn ~ ~ ~ loot att2:chest/reg1
+execute if score @s ElytraRacingMistake matches 5.. run loot spawn ~ ~ ~ loot att2:chest/reg1
+execute if score @s ElytraRacingMistake matches 6.. run loot spawn ~ ~ ~ loot att2:chest/reg1
+execute if score @s ElytraRacingMistake matches 7.. run loot spawn ~ ~ ~ loot att2:chest/reg1
+execute if score @s ElytraRacingMistake matches 8.. run loot spawn ~ ~ ~ loot att2:chest/reg1
+execute if score @s ElytraRacingMistake matches 9.. run loot spawn ~ ~ ~ loot att2:chest/reg1
+execute if score @s ElytraRacingMistake matches 10.. run loot spawn ~ ~ ~ loot att2:chest/reg1

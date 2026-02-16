@@ -11,6 +11,13 @@ scoreboard players operation @s RES_TOT += @s RES_EXT
 scoreboard players operation @s RES_TOT += @s RES_PO
 scoreboard players operation @s RES_TOT += @s RES_EH
 scoreboard players operation @s RES_TOT += @s RES_LE
+
+#CAL RES
+scoreboard players operation @s RES_DATA = @s RES_TOT
+scoreboard players operation @s RES_DATA *= 10 CAL
+#limit
+scoreboard players set @s[scores={RES_DATA=95..}] RES_DATA 95
+
 #effect assignement
 effect clear @s health_boost
 effect give @s[scores={RES_TOT=1..}] minecraft:health_boost infinite 0 true

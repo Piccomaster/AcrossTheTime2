@@ -1,7 +1,7 @@
 #############################################################
-#Made by Adventquest                               			
-#ryliath dailyquest : 9
-#preparing command
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/edit_route/get_data   
+#############################################################
 #Task requirements: #Time limit : 30 minutes
 #Achieve a top-three finish in the preliminary round of the horse racing competition.
 #Race route: ryliath -> Soquai forest.

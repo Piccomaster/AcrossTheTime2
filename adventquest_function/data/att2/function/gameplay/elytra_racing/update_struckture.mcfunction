@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#summon trigger marker                                          #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/update_struckture         
 #################################################################
 
 ##kert

@@ -7,6 +7,7 @@ scoreboard players set ouranos_tower_trigger PANORAMA -1
 execute if score ouranos_tower PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
 scoreboard players set ouranos_tower PANORAMA 1
 advancement grant @a only att2:journey/panorama_ouranos_tower
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 setblock 7645 191 6057 minecraft:air
 execute as @a[gamemode=spectator,scores={Performance=60}] run function att2:gameplay/speceffect/disincarnate/end

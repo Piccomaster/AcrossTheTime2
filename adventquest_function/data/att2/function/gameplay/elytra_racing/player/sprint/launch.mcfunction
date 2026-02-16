@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#Initialize enchantment                    						#
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/player/sprint/launch      
 #################################################################
 
 #limit
@@ -9,9 +9,9 @@ execute if score @s ElytraRacingSprintTime matches 0 run return run scoreboard p
 ##add enchantments tick/effect
 
 ##Normaldash
-execute if score @s ElytraRacingSprintTime matches 1..100 run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/forward":3}}
+execute if score @s ElytraRacingSprintTime matches ..100 run function att2:gameplay/elytra_racing/player/sprint/normal_dash
 ##NormalSuperDash
-execute if score @s ElytraRacingSprintTime matches 101..200 run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/forward":20}}
+execute if score @s ElytraRacingSprintTime matches 101..200 run function att2:gameplay/elytra_racing/player/sprint/normal_super_dash
 ##SuperDash
 execute if score @s ElytraRacingSprintTime matches 201..300 run function att2:gameplay/elytra_racing/player/sprint/super_dash
 ##ReverseDash

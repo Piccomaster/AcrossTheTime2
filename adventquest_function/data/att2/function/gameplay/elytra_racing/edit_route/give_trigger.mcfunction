@@ -1,7 +1,7 @@
-##################################################
-#Made by Adventquest                             #
-#detection progress                              #
-##################################################
+############################################################
+#Made by Adventquest                                       
+#function att2:gameplay/elytra_racing/edit_route/give_trigger
+############################################################
 
 #function att2:gameplay/elytra_racing/edit_route/give_trigger
 #function att2:gameplay/elytra_racing/edit_route/get_data

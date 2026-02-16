@@ -7,6 +7,7 @@ scoreboard players set volcano_trigger PANORAMA -1
 execute if score volcano PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
 scoreboard players set volcano PANORAMA 1
 advancement grant @a only att2:journey/panorama_volcano
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 setblock -5763 135 -5269 minecraft:air
 execute as @a[gamemode=spectator,scores={Performance=69}] run function att2:gameplay/speceffect/disincarnate/end

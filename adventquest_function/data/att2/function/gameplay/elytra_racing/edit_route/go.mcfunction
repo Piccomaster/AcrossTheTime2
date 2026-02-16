@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			#
-#elytra_racing : edit route start                           # 
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/edit_route/go         
 #############################################################
 
 ##show route

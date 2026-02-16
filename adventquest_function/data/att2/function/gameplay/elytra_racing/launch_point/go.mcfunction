@@ -1,10 +1,12 @@
 #################################################################
-#Made by Adventquest											#
-#launch point go                                                #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/launch_point/go           
 #################################################################
 
 ##test if unlock
 execute unless score @s ElytraRacing matches 0.. run return run function att2:gameplay/elytra_racing/launch_point/data_initialize
+execute unless score @s ElytraRacing matches 1.. run return run function att2:gameplay/elytra_racing/launch_point/unlock
+
 
 ##if player near
 execute unless entity @p[distance=..50] run return fail

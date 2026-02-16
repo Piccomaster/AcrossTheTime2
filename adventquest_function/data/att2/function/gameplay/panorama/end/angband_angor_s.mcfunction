@@ -7,6 +7,7 @@ scoreboard players set angband_angor_s_trigger PANORAMA -1
 execute if score angband_angor_s PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
 scoreboard players set angband_angor_s PANORAMA 1
 advancement grant @a only att2:journey/panorama_angor_south
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 setblock 3480 63 4249 minecraft:air
 execute as @a[gamemode=spectator,scores={Performance=33}] run function att2:gameplay/speceffect/disincarnate/end

@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			#
-#summon route                                               #
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/edit_route/summon/route
 #############################################################
 
 advancement revoke @s only att2_test:dailyquest/trigger/elytra_racing/summon_route
@@ -13,6 +13,7 @@ summon armor_stand ~ ~ ~ {equipment:{head:{id:"diamond_helmet",components:{encha
 
 ##add score
 scoreboard players add @s ElytraRacing 1
+scoreboard players add @s ElytraRacingMaxId 1
 
 ##add tag
 tag @s add EditRouteSummon

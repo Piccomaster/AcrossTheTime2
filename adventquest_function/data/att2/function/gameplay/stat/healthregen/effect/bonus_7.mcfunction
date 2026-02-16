@@ -4,7 +4,7 @@
 ##################################################
 
 effect give @s[scores={TIMER_HER_TOT=..0}] minecraft:regeneration 3 0 true
-scoreboard players operation @s[scores={TIMER_HER_TOT=..0}] TIMER_HER_TOT = bonus_7 HER_DATA
+scoreboard players operation @s[scores={TIMER_HER_TOT=..0}] TIMER_HER_TOT = #bonus_7 HER_DATA
 #get score
 scoreboard players operation #TIMER_HER_TOT HER_DATA = #bonus_7 HER_DATA
 scoreboard players operation #TIMER_HER_TOT HER_DATA /= 20 CAL

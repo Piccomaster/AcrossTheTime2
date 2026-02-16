@@ -10,6 +10,9 @@ effect give @s minecraft:blindness 3 1 true
 
 advancement grant @s only att2:adventure/inn_1
 
+##advancement trigger
+function att2:advancement/test_all/adventure/inn
+
 #add str
 scoreboard players set @s[scores={GAMELEVEL=1..15,STR_PO=..1}] STR_PO 1
 scoreboard players set @s[scores={GAMELEVEL=1..15,STR_PO=..1}] STR_PO 1

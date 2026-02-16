@@ -1,7 +1,7 @@
 #############################################################
-#Made by Adventquest                               			
-#Meleim dailyquest : 9
-#preparing command
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/ai/particle           
+#############################################################
 #Task requirements: #Time limit : 30 minutes
 #Achieve a top-three finish in the preliminary round of the horse racing competition.
 #Race route: Meleim -> Soquai forest.

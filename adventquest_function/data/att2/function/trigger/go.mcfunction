@@ -13,3 +13,5 @@ scoreboard players set @s ScoreTrigger 0
 
 ##player stat
 function att2:gameplay/stat/go
+##player_enter_game
+function att2:player_enter_game

@@ -7,6 +7,7 @@ scoreboard players set schestrow_trigger PANORAMA -1
 execute if score schestrow PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
 scoreboard players set schestrow PANORAMA 1
 advancement grant @a only att2:journey/panorama_schestrow
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 setblock -4397 127 -5086 minecraft:air
 execute as @a[gamemode=spectator,scores={Performance=65}] run function att2:gameplay/speceffect/disincarnate/end

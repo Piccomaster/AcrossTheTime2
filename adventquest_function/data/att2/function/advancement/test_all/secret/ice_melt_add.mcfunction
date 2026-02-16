@@ -8,3 +8,6 @@ scoreboard players add all SECRET 1
 
 ##dailyquest trigger
 function att2:cinematic/dailyquest/trigger/ice_secret
+
+##advancement trigger
+function att2:advancement/test_all/secret

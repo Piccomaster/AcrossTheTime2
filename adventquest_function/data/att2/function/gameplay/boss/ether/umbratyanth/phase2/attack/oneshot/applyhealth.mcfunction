@@ -3,7 +3,7 @@
 #Apply health boost for a given player							#
 #################################################################
 
-scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
+scoreboard players operation @s MAX_HEALTH = #BonusHealthMax RUNE
 scoreboard players operation @s MAX_HEALTH *= 4 CAL
 scoreboard players operation @s MAX_HEALTH += @s GAMELEVEL
 scoreboard players operation @s MAX_HEALTH *= 12 CAL

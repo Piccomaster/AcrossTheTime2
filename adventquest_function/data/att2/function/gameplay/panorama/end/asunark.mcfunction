@@ -7,6 +7,7 @@ scoreboard players set asunark_trigger PANORAMA -1
 execute if score asunark PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
 scoreboard players set asunark PANORAMA 1
 advancement grant @a only att2:journey/panorama_asunark
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 fill -3714 87 -4877 -3714 87 -4878 minecraft:air
 execute as @a[gamemode=spectator,scores={Performance=36}] run function att2:gameplay/speceffect/disincarnate/end

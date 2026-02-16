@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#Initialize enchantment                    						#
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/cycle/detection/go        
 #################################################################
 
 ##get player now score
@@ -51,8 +51,7 @@ scoreboard players operation #minute CAL /= 60 CAL
 execute store result storage att2:score route_id int 1 run scoreboard players get @s ElytraRacingSelect
 function att2:gameplay/elytra_racing/edit_route/list/get_name with storage att2:score
 ##show now time
-tellraw @a [{selector:"@s",color:"dark_red"},{text:" : "},{translate:att2.elytra_racing.end,color:"yellow",with:[{nbt:"name",storage:"att2:elytra_racing",interpret:true},{score:{name:"#minute",objective:"CAL"},color:green},{score:{name:"#second",objective:"CAL"},color:green},{score:{name:"#ms",objective:"CAL"},color:green}]}]
-
+tellraw @a [{selector:"@s",color:"dark_red"},{text:" : "},{translate:att2.elytra_racing.end,color:"yellow",with:[{nbt:"name",storage:"att2:elytra_racing",interpret:true},{score:{name:"#minute",objective:"CAL"},color:green},{score:{name:"#second",objective:"CAL"},color:green},{score:{name:"#ms",objective:"CAL"},color:green},{score:{name:"@s",objective:"ElytraRacingPoint"},color:green}]}]
 
 ###end effect
 

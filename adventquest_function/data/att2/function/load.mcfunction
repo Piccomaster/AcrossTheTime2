@@ -15,6 +15,7 @@ execute in overworld positioned 0.0 0.0 0.0 run forceload add ~ ~
 execute in overworld positioned 1.0 0.0 -1.0 run forceload add ~ ~
 execute in overworld positioned -1.0 0.0 1.0 run forceload add ~ ~
 execute in overworld positioned 1.0 0.0 1.0 run forceload add ~ ~
+function att2:summon/world_entity/0_0_0
 ##summon world entity
 
 ##clear redstone_block

@@ -1,6 +1,6 @@
 #############################################################
-#Made by Adventquest                               			
-#red super dash particle
+#Made by Adventquest                                        
+#function att2:gameplay/elytra_racing/cycle/particle/red_super_dash
 #############################################################
 
 particle flame ^ ^ ^ 0.1 0.1 0.1 0 1 force @s

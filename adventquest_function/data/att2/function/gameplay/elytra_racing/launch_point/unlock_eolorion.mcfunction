@@ -1,6 +1,6 @@
 #################################################################
-#Made by Adventquest											#
-#launch point go                                                #
+#Made by Adventquest                                            
+#function att2:gameplay/elytra_racing/launch_point/unlock_eolorion
 #################################################################
 
 ##unlock effect

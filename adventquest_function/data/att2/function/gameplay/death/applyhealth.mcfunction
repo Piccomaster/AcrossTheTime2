@@ -4,7 +4,7 @@
 #MAX_HEALTH=(4×BonusHealthMax+GAMELEVEL)×1.2+19                 #
 #################################################################
 
-scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
+scoreboard players operation @s MAX_HEALTH = #BonusHealthMax RUNE
 scoreboard players operation @s MAX_HEALTH *= 4 CAL
 scoreboard players operation @s MAX_HEALTH += @s GAMELEVEL
 scoreboard players operation @s MAX_HEALTH *= 12 CAL

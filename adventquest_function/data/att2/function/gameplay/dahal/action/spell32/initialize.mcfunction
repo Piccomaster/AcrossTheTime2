@@ -40,22 +40,37 @@ scoreboard players set @s SPELL32_CAP 1
 scoreboard players set cap1 SPELL32_LVL 0
 scoreboard players set cap2 SPELL32_LVL 200
 scoreboard players set cap3 SPELL32_LVL 400
-scoreboard players set cap4 SPELL32_LVL 800
-scoreboard players set cap5 SPELL32_LVL 1600
+scoreboard players set cap4 SPELL32_LVL 700
+scoreboard players set cap5 SPELL32_LVL 1100
+scoreboard players set cap6 SPELL32_LVL 1600
+scoreboard players set cap7 SPELL32_LVL 2200
+scoreboard players set cap8 SPELL32_LVL 2900
+scoreboard players set cap9 SPELL32_LVL 3700
+scoreboard players set cap10 SPELL32_LVL 4600
 
 
 #set cooldown score | cooldown/200 -> second
-scoreboard players set lvl1 COOLDOWN32 1600
-scoreboard players set lvl2 COOLDOWN32 1400
-scoreboard players set lvl3 COOLDOWN32 1200
-scoreboard players set lvl4 COOLDOWN32 1000
-scoreboard players set lvl5 COOLDOWN32 800
+scoreboard players set lvl1 COOLDOWN32 2600
+scoreboard players set lvl2 COOLDOWN32 2400
+scoreboard players set lvl3 COOLDOWN32 2200
+scoreboard players set lvl4 COOLDOWN32 2000
+scoreboard players set lvl5 COOLDOWN32 1800
+scoreboard players set lvl6 COOLDOWN32 1600
+scoreboard players set lvl7 COOLDOWN32 1400
+scoreboard players set lvl8 COOLDOWN32 1200
+scoreboard players set lvl9 COOLDOWN32 1000
+scoreboard players set lvl10 COOLDOWN32 800
 
 scoreboard players set SP32_1 DAHAL_COST 350
 scoreboard players set SP32_2 DAHAL_COST 350
 scoreboard players set SP32_3 DAHAL_COST 350
 scoreboard players set SP32_4 DAHAL_COST 350
 scoreboard players set SP32_5 DAHAL_COST 350
+scoreboard players set SP32_6 DAHAL_COST 350
+scoreboard players set SP32_7 DAHAL_COST 350
+scoreboard players set SP32_8 DAHAL_COST 350
+scoreboard players set SP32_9 DAHAL_COST 350
+scoreboard players set SP32_10 DAHAL_COST 350
 ##add spell cost dummy
 scoreboard objectives add SPELL32_COST dummy
 scoreboard objectives add CDPERCENT32 dummy

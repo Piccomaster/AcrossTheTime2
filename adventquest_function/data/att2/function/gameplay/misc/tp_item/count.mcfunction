@@ -3,8 +3,8 @@
 #discal item count                                          	#
 #################################################################
 
-execute store result score COUNT TP_ITEM_COUNT if entity @s run data get entity @s Item.count
-scoreboard players operation TOTAL TP_ITEM_COUNT += COUNT TP_ITEM_COUNT
+execute store result score #temp CAL if entity @s run data get entity @s Item.count
+scoreboard players operation #count CAL += #temp CAL
 
 ##tp
 tp @s ~ ~ ~

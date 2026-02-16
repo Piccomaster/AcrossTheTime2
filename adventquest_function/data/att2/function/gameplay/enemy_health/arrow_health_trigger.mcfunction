@@ -26,7 +26,7 @@ scoreboard players operation @s ENEMYHEALTH < #max_health CAL
 
 ##reset score
 execute unless score #reduce_health CAL matches 1.. run return fail
-execute as @s[tag=killed] run return fail
+execute as @s[tag=killed] run return run function att2:gameplay/enemy_health/kill
 ##tip
 execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_health_reduce/arrow
 ##update healthbar
@@ -35,6 +35,7 @@ scoreboard players set #reduce_health CAL 0
 execute if score @s ENEMYHEALTH matches ..0 run tag @s add killed
 execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run function att2:advancement/test_all/weapon/bow_kill
 execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run return run damage @n[distance=..0,tag=killed] 7777777777777777 att2_damage:arrow by @s
+execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
 
 ##make health trigger full
 effect clear @s absorption

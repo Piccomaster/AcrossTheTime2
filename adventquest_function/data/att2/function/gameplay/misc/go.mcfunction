@@ -53,7 +53,7 @@ execute if score tic TIMECOUNTER matches 15 if score Mainquest SIDEQUEST matches
 ##entity protect
 execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/entity_protect/go
 ##quick slot
-execute as @a at @s run function att2:gameplay/misc/quick_slot/go
+execute as @a in overworld run function att2:gameplay/misc/quick_slot/go
 #torch lightpredicate
 execute as @a at @s run function att2:gameplay/misc/move_light/go
 #super dash

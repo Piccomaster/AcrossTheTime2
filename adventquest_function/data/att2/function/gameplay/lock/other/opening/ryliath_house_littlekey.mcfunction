@@ -8,3 +8,6 @@ clear @s minecraft:brick[custom_name={translate:'item.quest.ryliath_house_key.na
 execute positioned -5103 112 -4956 run function att2:sound/door/simple_iron_door
 setblock -5103 112 -4956 minecraft:air
 setblock -5104 110 -4954 minecraft:white_wool
+
+##advancement trigger
+function att2:advancement/test_all/adventure/house

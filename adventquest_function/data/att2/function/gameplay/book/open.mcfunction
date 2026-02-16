@@ -16,3 +16,7 @@ tag @s add BookOpen
 function att2:gameplay/book/select with storage att2:book
 ##revoked test
 advancement revoke @s only att2_test:book/open
+
+##add tick
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty},enchantments={"att2_enchantment:tick/misc/book":1}]
+execute if items entity @s saddle diamond run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/book":1}}

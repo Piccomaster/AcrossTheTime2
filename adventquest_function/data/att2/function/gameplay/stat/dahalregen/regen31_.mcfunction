@@ -7,5 +7,3 @@
 scoreboard players operation @s OP_DAHAL = @s DAR_TOT
 scoreboard players operation @s OP_DAHAL *= 5 CAL
 scoreboard players operation @s OP_DAHAL > 1 CAL
-
-##liner max : 120

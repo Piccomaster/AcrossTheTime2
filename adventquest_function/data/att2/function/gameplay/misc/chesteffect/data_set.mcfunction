@@ -31,7 +31,7 @@ function att2:gameplay/misc/chesteffect/name/quest_name
 ##update name
 data modify block ~ ~ ~ CustomName set from entity @s data.customname
 ##clear error
-execute if data block ~ ~ ~ {lock:{}} unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
+execute if data block ~ ~ ~ {lock:{}} run return run kill @s[type=marker,tag=ChestMarker]
 #execute unless data block ~ ~ ~ LootTable unless block ~ ~ ~ minecraft:waxed_copper_chest run return run kill @s[type=marker,tag=ChestMarker]
 
 ##update chest -> empty texture (copperchest) waxed_copper_chest
