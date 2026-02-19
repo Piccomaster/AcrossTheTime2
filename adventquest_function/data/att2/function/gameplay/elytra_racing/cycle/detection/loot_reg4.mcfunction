@@ -11,7 +11,7 @@ summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:firework_ro
 
 ##rewards
 scoreboard players operation #C CAL = @s ElytraRacing
-scoreboard players operation #C CAL /= 40 CAL
+scoreboard players operation #C CAL /= 30 CAL
 scoreboard players operation #C CAL > 1 CAL
 scoreboard players operation #C CAL < 10 CAL
 
