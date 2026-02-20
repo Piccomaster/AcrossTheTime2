@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest                                            
-#function att2:gameplay/elytra_racing/launch_point/unlock_angband
+#function att2:gameplay/elytra_racing/launch_point/unlock_worlest
 #################################################################
 
 ##unlock effect
@@ -11,7 +11,7 @@
 particle cloud ~ ~2 ~ 1 1 1 0 10 normal
 particle dust{color:[1,1,1],scale:2.0} ~ ~2 ~ 1 1 1 0 10 normal
 particle explosion_emitter ~ ~2 ~ 1 1 1 0 10 normal
-particle dust_pillar{block_state:{Name:"netherrack"}} ~ ~2 ~ 1 3 1 0 200 normal
+particle dust_pillar{block_state:{Name:"green_concrete_powder"}} ~ ~2 ~ 1 3 1 0 200 normal
 particle dust_pillar{block_state:{Name:"obsidian"}} ~ ~2 ~ 1 3 1 0 200 normal
 
 #sound

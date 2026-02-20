@@ -3,6 +3,9 @@
 #function att2:gameplay/elytra_racing/edit_route/summon/route
 #############################################################
 
+function att2:gameplay/dahal/action/replace/mainhand
+function att2:gameplay/dahal/action/replace/offhand
+
 advancement revoke @s only att2_test:dailyquest/trigger/elytra_racing/summon_route
 
 ##if have -> limit
