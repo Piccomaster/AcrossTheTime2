@@ -3,7 +3,7 @@
 #function att2:gameplay/elytra_racing/initialize_base_data      
 #################################################################
 
-scoreboard players set #RouteId ElytraRacingSelect 4
+scoreboard players set #RouteId ElytraRacingSelect 9
 ##initialize route_data
 execute unless data storage att2:elytra_racing route_data run data modify storage att2:elytra_racing route_data set value []
 
