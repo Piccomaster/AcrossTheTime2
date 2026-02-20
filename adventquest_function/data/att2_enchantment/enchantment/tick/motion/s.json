@@ -24,7 +24,7 @@
           "type": "minecraft:apply_impulse",
           "coordinate_scale": [
             1.0,
-            1.0,
+            0.0,
             1.0
           ],
           "direction": [
@@ -42,7 +42,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/misc/motion/backward"
+          "function": "att2:gameplay/misc/motion/s"
         }
       }
     ]
