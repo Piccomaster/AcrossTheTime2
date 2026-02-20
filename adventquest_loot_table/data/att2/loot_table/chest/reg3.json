@@ -1589,7 +1589,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/netherite_hoe_344",
+          "value": "att2:item_data/weapon/ult/netherite_spear_344",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2021,7 +2021,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/leg/iron_hoe_269",
+          "value": "att2:item_data/weapon/leg/iron_spear_269",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2111,7 +2111,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/leg/netherite_hoe_317",
+          "value": "att2:item_data/weapon/leg/netherite_spear_317",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2633,7 +2633,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/epi/iron_hoe_268",
+          "value": "att2:item_data/weapon/epi/iron_spear_268",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2723,7 +2723,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/epi/netherite_hoe_312",
+          "value": "att2:item_data/weapon/epi/netherite_spear_312",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3317,7 +3317,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/iron_hoe_266",
+          "value": "att2:item_data/weapon/rar/iron_spear_266",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3335,7 +3335,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/iron_hoe_267",
+          "value": "att2:item_data/weapon/rar/iron_spear_267",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3497,7 +3497,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/netherite_hoe_306",
+          "value": "att2:item_data/weapon/rar/netherite_spear_306",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3515,7 +3515,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/netherite_hoe_307",
+          "value": "att2:item_data/weapon/rar/netherite_spear_307",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4253,7 +4253,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/iron_hoe_264",
+          "value": "att2:item_data/weapon/unc/iron_spear_264",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4271,7 +4271,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/iron_hoe_265",
+          "value": "att2:item_data/weapon/unc/iron_spear_265",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4433,7 +4433,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/netherite_hoe_296",
+          "value": "att2:item_data/weapon/unc/netherite_spear_296",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4451,7 +4451,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/netherite_hoe_297",
+          "value": "att2:item_data/weapon/unc/netherite_spear_297",
           "conditions": [
             {
               "condition": "random_chance",
@@ -5045,7 +5045,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/iron_hoe_262",
+          "value": "att2:item_data/weapon/com/iron_spear_262",
           "conditions": [
             {
               "condition": "random_chance",
@@ -5063,7 +5063,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/iron_hoe_263",
+          "value": "att2:item_data/weapon/com/iron_spear_263",
           "conditions": [
             {
               "condition": "random_chance",
@@ -5225,7 +5225,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/netherite_hoe_286",
+          "value": "att2:item_data/weapon/com/netherite_spear_286",
           "conditions": [
             {
               "condition": "random_chance",
@@ -5243,7 +5243,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/netherite_hoe_287",
+          "value": "att2:item_data/weapon/com/netherite_spear_287",
           "conditions": [
             {
               "condition": "random_chance",

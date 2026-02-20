@@ -414,7 +414,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/leg/wooden_hoe_261",
+                    "value": "att2:item_data/weapon/leg/wooden_spear_261",
                     "functions": [
                         {
                             "function": "reference",
@@ -469,7 +469,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/leg/iron_hoe_269",
+                    "value": "att2:item_data/weapon/leg/iron_spear_269",
                     "functions": [
                         {
                             "function": "reference",
@@ -524,7 +524,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/leg/diamond_hoe_277",
+                    "value": "att2:item_data/weapon/leg/diamond_spear_277",
                     "functions": [
                         {
                             "function": "reference",
@@ -579,7 +579,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/leg/netherite_hoe_317",
+                    "value": "att2:item_data/weapon/leg/netherite_spear_317",
                     "functions": [
                         {
                             "function": "reference",

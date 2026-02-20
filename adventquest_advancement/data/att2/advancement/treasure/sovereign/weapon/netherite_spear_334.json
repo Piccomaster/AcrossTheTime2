@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_spear"
+    },
+    "title": {
+      "translate": "att2.advancement.treasure.title.netherite_spear_334"
+    },
+    "description": {
+      "translate": "att2.advancement.treasure.description.netherite_spear_334"
+    },
+    "frame": "goal"
+  },
+  "parent": "att2:treasure/sovereign/weapon/iron_spear_335",
+  "rewards": {
+    "function": "att2:advancement/test_all/treasure/all_epi_esc",
+    "experience": 250
+  },
+  "criteria": {
+    "netherite_spear_334": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_spear",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Weapon": 334
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

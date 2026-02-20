@@ -26,11 +26,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/diamond_hoe_274"
+                    "value": "att2:item_data/weapon/rar/diamond_spear_274"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/diamond_hoe_275"
+                    "value": "att2:item_data/weapon/rar/diamond_spear_275"
                 },
                 {
                     "type": "minecraft:loot_table",

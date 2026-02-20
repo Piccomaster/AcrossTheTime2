@@ -140,12 +140,12 @@
         ]
       }
     },
-    "netherite_hoe_286": {
+    "netherite_spear_286": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon286.name"
@@ -155,12 +155,12 @@
         ]
       }
     },
-    "netherite_hoe_287": {
+    "netherite_spear_287": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon287.name"
@@ -290,12 +290,12 @@
         ]
       }
     },
-    "netherite_hoe_296": {
+    "netherite_spear_296": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon296.name"
@@ -305,12 +305,12 @@
         ]
       }
     },
-    "netherite_hoe_297": {
+    "netherite_spear_297": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon297.name"
@@ -440,12 +440,12 @@
         ]
       }
     },
-    "netherite_hoe_306": {
+    "netherite_spear_306": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon306.name"
@@ -455,12 +455,12 @@
         ]
       }
     },
-    "netherite_hoe_307": {
+    "netherite_spear_307": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon307.name"
@@ -530,12 +530,12 @@
         ]
       }
     },
-    "netherite_hoe_312": {
+    "netherite_spear_312": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon312.name"
@@ -605,12 +605,12 @@
         ]
       }
     },
-    "netherite_hoe_317": {
+    "netherite_spear_317": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon317.name"

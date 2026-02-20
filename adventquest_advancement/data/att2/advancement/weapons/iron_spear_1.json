@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:iron_hoe"
+            "id": "minecraft:iron_spear"
         },
         "title": {"translate": "att2.advancement.weapons.title.iron_spear_1"},
         "description": {"translate": "att2.advancement.weapons.description.iron_spear_1"}

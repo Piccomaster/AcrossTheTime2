@@ -30,11 +30,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/golden_hoe_322"
+                    "value": "att2:item_data/weapon/rar/golden_spear_322"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/golden_hoe_323"
+                    "value": "att2:item_data/weapon/rar/golden_spear_323"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -70,11 +70,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/wooden_hoe_258"
+                    "value": "att2:item_data/weapon/rar/wooden_spear_258"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/wooden_hoe_259"
+                    "value": "att2:item_data/weapon/rar/wooden_spear_259"
                 },
                 {
                     "type": "minecraft:loot_table",

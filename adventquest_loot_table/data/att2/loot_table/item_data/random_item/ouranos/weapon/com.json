@@ -14,11 +14,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/diamond_hoe_270"
+                    "value": "att2:item_data/weapon/com/diamond_spear_270"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/diamond_hoe_271"
+                    "value": "att2:item_data/weapon/com/diamond_spear_271"
                 },
                 {
                     "type": "minecraft:loot_table",

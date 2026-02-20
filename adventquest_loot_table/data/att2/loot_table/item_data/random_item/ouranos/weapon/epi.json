@@ -22,7 +22,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/diamond_hoe_276"
+                    "value": "att2:item_data/weapon/epi/diamond_spear_276"
                 },
                 {
                     "type": "minecraft:loot_table",

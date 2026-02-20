@@ -22,7 +22,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/diamond_hoe_273"
+                    "value": "att2:item_data/weapon/unc/diamond_spear_273"
                 },
                 {
                     "type": "minecraft:loot_table",

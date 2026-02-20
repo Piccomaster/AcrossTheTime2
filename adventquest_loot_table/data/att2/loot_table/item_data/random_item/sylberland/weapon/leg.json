@@ -22,7 +22,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/diamond_hoe_277"
+                    "value": "att2:item_data/weapon/leg/diamond_spear_277"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -42,7 +42,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/iron_hoe_269"
+                    "value": "att2:item_data/weapon/leg/iron_spear_269"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -62,7 +62,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/netherite_hoe_317"
+                    "value": "att2:item_data/weapon/leg/netherite_spear_317"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -86,7 +86,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/wooden_hoe_261"
+                    "value": "att2:item_data/weapon/leg/wooden_spear_261"
                 },
                 {
                     "type": "minecraft:loot_table",

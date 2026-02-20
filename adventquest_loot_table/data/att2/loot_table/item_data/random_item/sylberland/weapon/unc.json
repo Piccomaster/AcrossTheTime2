@@ -42,7 +42,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/diamond_hoe_273"
+                    "value": "att2:item_data/weapon/unc/diamond_spear_273"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -78,11 +78,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/iron_hoe_264"
+                    "value": "att2:item_data/weapon/unc/iron_spear_264"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/iron_hoe_265"
+                    "value": "att2:item_data/weapon/unc/iron_spear_265"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -118,11 +118,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/netherite_hoe_296"
+                    "value": "att2:item_data/weapon/unc/netherite_spear_296"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/netherite_hoe_297"
+                    "value": "att2:item_data/weapon/unc/netherite_spear_297"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -178,11 +178,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/wooden_hoe_256"
+                    "value": "att2:item_data/weapon/unc/wooden_spear_256"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/wooden_hoe_257"
+                    "value": "att2:item_data/weapon/unc/wooden_spear_257"
                 },
                 {
                     "type": "minecraft:loot_table",

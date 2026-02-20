@@ -18,11 +18,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/iron_hoe_264"
+                    "value": "att2:item_data/weapon/unc/iron_spear_264"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/iron_hoe_265"
+                    "value": "att2:item_data/weapon/unc/iron_spear_265"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -58,11 +58,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/netherite_hoe_296"
+                    "value": "att2:item_data/weapon/unc/netherite_spear_296"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/netherite_hoe_297"
+                    "value": "att2:item_data/weapon/unc/netherite_spear_297"
                 },
                 {
                     "type": "minecraft:loot_table",

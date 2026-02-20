@@ -10,7 +10,7 @@ function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/wooden_pickaxe_164
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/wooden_axe_165
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/iron_sword_166
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/iron_shovel_167
-function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/iron_hoe_335
+function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/iron_spear_335
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/netherite_axe_330
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/netherite_pickaxe_331
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/bow_172

@@ -26,7 +26,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/diamond_hoe_277"
+                    "value": "att2:item_data/weapon/leg/diamond_spear_277"
                 },
                 {
                     "weight": 1,

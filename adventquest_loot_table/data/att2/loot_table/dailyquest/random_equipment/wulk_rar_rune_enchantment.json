@@ -271,7 +271,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/rar/wooden_hoe_258",
+                    "value": "att2:item_data/weapon/rar/wooden_spear_258",
                     "functions": [
                         {
                             "function": "reference",
@@ -282,7 +282,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/rar/wooden_hoe_259",
+                    "value": "att2:item_data/weapon/rar/wooden_spear_259",
                     "functions": [
                         {
                             "function": "reference",
@@ -414,7 +414,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/rar/iron_hoe_266",
+                    "value": "att2:item_data/weapon/rar/iron_spear_266",
                     "functions": [
                         {
                             "function": "reference",
@@ -425,7 +425,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/rar/iron_hoe_267",
+                    "value": "att2:item_data/weapon/rar/iron_spear_267",
                     "functions": [
                         {
                             "function": "reference",

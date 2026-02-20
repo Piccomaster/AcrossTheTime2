@@ -24,8 +24,8 @@ execute if score @s SHOP_OP1 matches 169..210 at @e[name="RAMSAY TORK"] as @a[di
 execute if score @s SHOP_OP1 matches 211..252 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_shovel_133
 execute if score @s SHOP_OP1 matches 253..294 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_sword_134
 execute if score @s SHOP_OP1 matches 295..336 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_sword_135
-execute if score @s SHOP_OP1 matches 337..378 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_hoe_318
-execute if score @s SHOP_OP1 matches 379..420 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_hoe_319
+execute if score @s SHOP_OP1 matches 337..378 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_spear_318
+execute if score @s SHOP_OP1 matches 379..420 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_spear_319
 execute if score @s SHOP_OP1 matches 421..460 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/shield_160
 
 execute if score @s SHOP_OP1 matches 461..490 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_axe_136
@@ -36,8 +36,8 @@ execute if score @s SHOP_OP1 matches 581..610 at @e[name="RAMSAY TORK"] as @a[di
 execute if score @s SHOP_OP1 matches 611..640 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_shovel_141
 execute if score @s SHOP_OP1 matches 641..670 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_sword_142
 execute if score @s SHOP_OP1 matches 671..700 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_sword_143
-execute if score @s SHOP_OP1 matches 701..730 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_hoe_320
-execute if score @s SHOP_OP1 matches 731..760 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_hoe_321
+execute if score @s SHOP_OP1 matches 701..730 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_spear_320
+execute if score @s SHOP_OP1 matches 731..760 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_spear_321
 execute if score @s SHOP_OP1 matches 761..789 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/shield_161
 
 execute if score @s SHOP_OP1 matches 790..804 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_axe_144
@@ -48,19 +48,19 @@ execute if score @s SHOP_OP1 matches 850..864 at @e[name="RAMSAY TORK"] as @a[di
 execute if score @s SHOP_OP1 matches 865..879 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_shovel_149
 execute if score @s SHOP_OP1 matches 880..894 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_sword_150
 execute if score @s SHOP_OP1 matches 895..909 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_sword_151
-execute if score @s SHOP_OP1 matches 910..924 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_hoe_322
-execute if score @s SHOP_OP1 matches 925..939 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_hoe_323
+execute if score @s SHOP_OP1 matches 910..924 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_spear_322
+execute if score @s SHOP_OP1 matches 925..939 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_spear_323
 execute if score @s SHOP_OP1 matches 940..953 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/shield_162
 
 execute if score @s SHOP_OP1 matches 954..960 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_axe_152
 execute if score @s SHOP_OP1 matches 961..967 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_pickaxe_153
 execute if score @s SHOP_OP1 matches 968..974 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_shovel_154
 execute if score @s SHOP_OP1 matches 975..981 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_sword_155
-execute if score @s SHOP_OP1 matches 982..988 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_hoe_324
+execute if score @s SHOP_OP1 matches 982..988 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_spear_324
 
 execute if score @s SHOP_OP1 matches 989..990 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_axe_156
 execute if score @s SHOP_OP1 matches 991..992 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_pickaxe_157
 execute if score @s SHOP_OP1 matches 993..994 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_shovel_158
 execute if score @s SHOP_OP1 matches 995..996 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_sword_159
-execute if score @s SHOP_OP1 matches 997..998 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_hoe_325
+execute if score @s SHOP_OP1 matches 997..998 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_spear_325
 execute if score @s SHOP_OP1 matches 999..999 at @e[name="RAMSAY TORK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/shield_163

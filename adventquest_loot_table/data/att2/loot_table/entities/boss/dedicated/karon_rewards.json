@@ -59,7 +59,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/golden_hoe_324"
+                    "value": "att2:item_data/weapon/epi/golden_spear_324"
                 },
                 {
                     "weight": 1,

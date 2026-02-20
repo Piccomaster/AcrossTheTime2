@@ -73,7 +73,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/epi/iron_hoe_268",
+                    "value": "att2:item_data/weapon/epi/iron_spear_268",
                     "functions": [
                         {
                             "function": "reference",
@@ -128,7 +128,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/epi/diamond_hoe_276",
+                    "value": "att2:item_data/weapon/epi/diamond_spear_276",
                     "functions": [
                         {
                             "function": "reference",
@@ -183,7 +183,7 @@
                 {
                     "weight": 1,
                     "type": "loot_table",
-                    "value": "att2:item_data/weapon/epi/netherite_hoe_312",
+                    "value": "att2:item_data/weapon/epi/netherite_spear_312",
                     "functions": [
                         {
                             "function": "reference",

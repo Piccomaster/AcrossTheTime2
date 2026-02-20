@@ -10,7 +10,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/iron_hoe_268"
+                    "value": "att2:item_data/weapon/epi/iron_spear_268"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -30,7 +30,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/netherite_hoe_312"
+                    "value": "att2:item_data/weapon/epi/netherite_spear_312"
                 },
                 {
                     "type": "minecraft:loot_table",

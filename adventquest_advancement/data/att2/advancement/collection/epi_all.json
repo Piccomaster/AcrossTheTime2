@@ -620,12 +620,12 @@
         ]
       }
     },
-    "wooden_hoe_260": {
+    "wooden_spear_260": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon260.name"
@@ -635,12 +635,12 @@
         ]
       }
     },
-    "iron_hoe_268": {
+    "iron_spear_268": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_hoe",
+            "items": "minecraft:iron_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon268.name"
@@ -650,12 +650,12 @@
         ]
       }
     },
-    "diamond_hoe_276": {
+    "diamond_spear_276": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond_hoe",
+            "items": "minecraft:diamond_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon276.name"
@@ -725,12 +725,12 @@
         ]
       }
     },
-    "netherite_hoe_312": {
+    "netherite_spear_312": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon312.name"
@@ -740,12 +740,12 @@
         ]
       }
     },
-    "golden_hoe_324": {
+    "golden_spear_324": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_hoe",
+            "items": "minecraft:golden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon324.name"

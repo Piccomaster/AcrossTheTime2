@@ -1368,7 +1368,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/netherite_hoe_344",
+          "value": "att2:item_data/weapon/ult/netherite_spear_344",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1818,7 +1818,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/leg/golden_hoe_325",
+          "value": "att2:item_data/weapon/leg/golden_spear_325",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1893,7 +1893,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/leg/wooden_hoe_261",
+          "value": "att2:item_data/weapon/leg/wooden_spear_261",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2373,7 +2373,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/epi/golden_hoe_324",
+          "value": "att2:item_data/weapon/epi/golden_spear_324",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2448,7 +2448,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/epi/wooden_hoe_260",
+          "value": "att2:item_data/weapon/epi/wooden_spear_260",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3063,7 +3063,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/golden_hoe_322",
+          "value": "att2:item_data/weapon/rar/golden_spear_322",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3078,7 +3078,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/golden_hoe_323",
+          "value": "att2:item_data/weapon/rar/golden_spear_323",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3213,7 +3213,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/wooden_hoe_258",
+          "value": "att2:item_data/weapon/rar/wooden_spear_258",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3228,7 +3228,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/wooden_hoe_259",
+          "value": "att2:item_data/weapon/rar/wooden_spear_259",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3783,7 +3783,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/golden_hoe_320",
+          "value": "att2:item_data/weapon/unc/golden_spear_320",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3798,7 +3798,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/golden_hoe_321",
+          "value": "att2:item_data/weapon/unc/golden_spear_321",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3948,7 +3948,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/wooden_hoe_256",
+          "value": "att2:item_data/weapon/unc/wooden_spear_256",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3963,7 +3963,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/wooden_hoe_257",
+          "value": "att2:item_data/weapon/unc/wooden_spear_257",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4638,7 +4638,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/golden_hoe_318",
+          "value": "att2:item_data/weapon/com/golden_spear_318",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4653,7 +4653,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/golden_hoe_319",
+          "value": "att2:item_data/weapon/com/golden_spear_319",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4803,7 +4803,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/wooden_hoe_254",
+          "value": "att2:item_data/weapon/com/wooden_spear_254",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4818,7 +4818,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/wooden_hoe_255",
+          "value": "att2:item_data/weapon/com/wooden_spear_255",
           "conditions": [
             {
               "condition": "random_chance",

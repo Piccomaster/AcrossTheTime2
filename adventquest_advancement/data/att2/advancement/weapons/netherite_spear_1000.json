@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:netherite_hoe"
+            "id": "minecraft:netherite_spear"
         },
         "title": {"translate": "att2.advancement.weapons.title.netherite_spear_1000"},
         "description": {"translate": "att2.advancement.weapons.description.netherite_spear_1000"},

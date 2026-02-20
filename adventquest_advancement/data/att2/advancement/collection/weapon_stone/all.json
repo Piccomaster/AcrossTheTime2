@@ -500,12 +500,12 @@
         ]
       }
     },
-    "wooden_hoe_254": {
+    "wooden_spear_254": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon254.name"
@@ -515,12 +515,12 @@
         ]
       }
     },
-    "wooden_hoe_255": {
+    "wooden_spear_255": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon255.name"
@@ -530,12 +530,12 @@
         ]
       }
     },
-    "wooden_hoe_256": {
+    "wooden_spear_256": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon256.name"
@@ -545,12 +545,12 @@
         ]
       }
     },
-    "wooden_hoe_257": {
+    "wooden_spear_257": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon257.name"
@@ -560,12 +560,12 @@
         ]
       }
     },
-    "wooden_hoe_258": {
+    "wooden_spear_258": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon258.name"
@@ -575,12 +575,12 @@
         ]
       }
     },
-    "wooden_hoe_259": {
+    "wooden_spear_259": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon259.name"
@@ -590,12 +590,12 @@
         ]
       }
     },
-    "wooden_hoe_260": {
+    "wooden_spear_260": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon260.name"
@@ -605,12 +605,12 @@
         ]
       }
     },
-    "wooden_hoe_261": {
+    "wooden_spear_261": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon261.name"

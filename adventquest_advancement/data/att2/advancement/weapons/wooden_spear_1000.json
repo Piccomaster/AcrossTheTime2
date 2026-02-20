@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:wooden_hoe"
+            "id": "minecraft:wooden_spear"
         },
         "title": {"translate": "att2.advancement.weapons.title.wooden_spear_1000"},
         "description": {"translate": "att2.advancement.weapons.description.wooden_spear_1000"},

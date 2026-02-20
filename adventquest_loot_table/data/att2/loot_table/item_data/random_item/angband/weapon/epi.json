@@ -22,7 +22,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/golden_hoe_324"
+                    "value": "att2:item_data/weapon/epi/golden_spear_324"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -42,7 +42,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/wooden_hoe_260"
+                    "value": "att2:item_data/weapon/epi/wooden_spear_260"
                 },
                 {
                     "type": "minecraft:loot_table",

@@ -26,7 +26,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/ult/netherite_hoe_344"
+                    "value": "att2:item_data/weapon/ult/netherite_spear_344"
                 },
                 {
                     "type": "minecraft:loot_table",

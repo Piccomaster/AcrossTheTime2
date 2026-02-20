@@ -1010,12 +1010,12 @@
         ]
       }
     },
-    "wooden_hoe_258": {
+    "wooden_spear_258": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon258.name"
@@ -1025,12 +1025,12 @@
         ]
       }
     },
-    "wooden_hoe_259": {
+    "wooden_spear_259": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wooden_hoe",
+            "items": "minecraft:wooden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon259.name"
@@ -1040,12 +1040,12 @@
         ]
       }
     },
-    "iron_hoe_266": {
+    "iron_spear_266": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_hoe",
+            "items": "minecraft:iron_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon266.name"
@@ -1055,12 +1055,12 @@
         ]
       }
     },
-    "iron_hoe_267": {
+    "iron_spear_267": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_hoe",
+            "items": "minecraft:iron_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon267.name"
@@ -1070,12 +1070,12 @@
         ]
       }
     },
-    "diamond_hoe_274": {
+    "diamond_spear_274": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond_hoe",
+            "items": "minecraft:diamond_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon274.name"
@@ -1085,12 +1085,12 @@
         ]
       }
     },
-    "diamond_hoe_275": {
+    "diamond_spear_275": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond_hoe",
+            "items": "minecraft:diamond_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon275.name"
@@ -1220,12 +1220,12 @@
         ]
       }
     },
-    "netherite_hoe_306": {
+    "netherite_spear_306": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon306.name"
@@ -1235,12 +1235,12 @@
         ]
       }
     },
-    "netherite_hoe_307": {
+    "netherite_spear_307": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe",
+            "items": "minecraft:netherite_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon307.name"
@@ -1250,12 +1250,12 @@
         ]
       }
     },
-    "golden_hoe_322": {
+    "golden_spear_322": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_hoe",
+            "items": "minecraft:golden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon322.name"
@@ -1265,12 +1265,12 @@
         ]
       }
     },
-    "golden_hoe_323": {
+    "golden_spear_323": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_hoe",
+            "items": "minecraft:golden_spear",
             "components": {
               "minecraft:custom_name": {
                 "translate": "weapon323.name"

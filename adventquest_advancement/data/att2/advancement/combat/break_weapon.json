@@ -22,7 +22,8 @@
                     "minecraft:diamond_shovel",
                     "minecraft:diamond_axe",
                     "minecraft:diamond_pickaxe",
-                    "minecraft:diamond_hoe"
+                    "minecraft:diamond_hoe",
+                    "minecraft:diamond_spear"
                     ]
                 }
             }
@@ -37,7 +38,8 @@
                     "minecraft:iron_shovel",
                     "minecraft:iron_axe",
                     "minecraft:iron_pickaxe",
-                    "minecraft:iron_hoe"
+                    "minecraft:iron_hoe",
+                    "minecraft:iron_spear"
                     ]
                 }
             }
@@ -52,7 +54,8 @@
                     "minecraft:golden_shovel",
                     "minecraft:golden_axe",
                     "minecraft:golden_pickaxe",
-                    "minecraft:golden_hoe"
+                    "minecraft:golden_hoe",
+                    "minecraft:golden_spear"
                     ]
                 }
             }
@@ -67,7 +70,8 @@
                     "minecraft:netherite_shovel",
                     "minecraft:netherite_axe",
                     "minecraft:netherite_pickaxe",
-                    "minecraft:netherite_hoe"
+                    "minecraft:netherite_hoe",
+                    "minecraft:netherite_spear"
                     ]
                 }
             }
@@ -82,7 +86,8 @@
                     "minecraft:wooden_shovel",
                     "minecraft:wooden_axe",
                     "minecraft:wooden_pickaxe",
-                    "minecraft:wooden_hoe"
+                    "minecraft:wooden_hoe",
+                    "minecraft:wooden_spear"
                     ]
                 }
             }

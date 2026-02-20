@@ -37,7 +37,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/golden_hoe_325"
+                    "value": "att2:item_data/weapon/leg/golden_spear_325"
                 },
                 {
                     "weight": 1,

@@ -42,11 +42,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/diamond_hoe_270"
+                    "value": "att2:item_data/weapon/com/diamond_spear_270"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/diamond_hoe_271"
+                    "value": "att2:item_data/weapon/com/diamond_spear_271"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -82,11 +82,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/iron_hoe_262"
+                    "value": "att2:item_data/weapon/com/iron_spear_262"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/iron_hoe_263"
+                    "value": "att2:item_data/weapon/com/iron_spear_263"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -122,11 +122,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/netherite_hoe_286"
+                    "value": "att2:item_data/weapon/com/netherite_spear_286"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/netherite_hoe_287"
+                    "value": "att2:item_data/weapon/com/netherite_spear_287"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -170,11 +170,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/wooden_hoe_254"
+                    "value": "att2:item_data/weapon/com/wooden_spear_254"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/wooden_hoe_255"
+                    "value": "att2:item_data/weapon/com/wooden_spear_255"
                 },
                 {
                     "type": "minecraft:loot_table",
