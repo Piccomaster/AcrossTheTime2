@@ -505,7 +505,8 @@
 - Some previously empty containers now generate loot.
 
 #### **Items**
-- Removed health and knoback bonus on weapons.
+- Removed *health* and *knockback* bonus on **weapons**.
+- Decreased *Crossbow* durability.
 
 <br>
 
