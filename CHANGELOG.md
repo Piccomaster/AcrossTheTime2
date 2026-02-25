@@ -504,6 +504,9 @@
   - *Runes* (from invasions and maze encounters)
 - Some previously empty containers now generate loot.
 
+#### **Items**
+- Removed health and knoback bonus on weapons.
+
 <br>
 
 ### **Spell System**
