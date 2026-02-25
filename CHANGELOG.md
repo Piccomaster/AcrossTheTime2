@@ -187,6 +187,9 @@
 
 ### **Economy & Items**
 
+#### **Range of weapons**
+- All weapons now have an **attack_range** bonus or penalty depending on the *rarity* and *type* of the weapon.
+
 #### **Bank System Update**
 - Bank-stored *Chronotons* are now **shared among all players** (no longer private).
 
