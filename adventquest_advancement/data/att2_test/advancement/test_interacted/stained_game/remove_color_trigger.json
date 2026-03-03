@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/stained_game/color_staining/remove_trigger"
+  },
+  "criteria": {
+    "right": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:['StainedGame']}"
+        }
+      }
+    }
+  }
+}

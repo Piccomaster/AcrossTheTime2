@@ -16,5 +16,25 @@
     "mainhand"
   ],
   "supported_items": "#minecraft:pickaxes",
-  "weight": 1
+  "weight": 1,
+  "effects": {
+    "post_attack": [
+      {
+        "affected": "attacker",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/enchantment/groundslam/attack"
+        }
+      },
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/enchantment/groundslam/particle_detection"
+        }
+      }
+    ]
+  }
 }

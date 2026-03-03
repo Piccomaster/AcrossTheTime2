@@ -1,0 +1,30 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": 0,
+            "predicate": {
+                "fluid": {
+                    "fluids": "#minecraft:water"
+                }
+            }
+        },
+        {
+            "condition": "inverted",
+            "terms": {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": 1,
+                "offsetZ": 0,
+                "predicate": {
+                    "fluid": {
+                        "fluids": "#minecraft:water"
+                    }
+                }
+            }
+        }
+    ]
+}

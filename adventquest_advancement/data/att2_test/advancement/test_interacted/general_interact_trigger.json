@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/misc/interaction/general_interact_trigger"
+  },
+  "criteria": {
+    "general_interact_trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"General\"]}"
+        }
+      }
+    }
+  }
+}

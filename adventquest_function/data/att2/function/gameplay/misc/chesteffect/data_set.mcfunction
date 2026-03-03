@@ -64,3 +64,6 @@ execute if score @s CHESTEFFECT matches 10 run data modify entity @s data.glow_c
 execute if score @s CHESTEFFECT matches 11 run data modify entity @s data.glow_color_override set value 657980
 execute if score @s CHESTEFFECT matches 12 run data modify entity @s data.glow_color_override set value 20545
 execute if score @s CHESTEFFECT matches 13 run data modify entity @s data.glow_color_override set value 16460854
+
+##update chest
+execute as @s[tag=SETCHEST] run function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data

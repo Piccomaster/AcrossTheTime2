@@ -33,7 +33,7 @@
                 ],
                 "effect": {
                     "type": "run_function",
-                    "function": "att2:gameplay/enchantment/combohit/atk_trigger"
+                    "function": "att2:gameplay/enchantment/combohit/attack_trigger"
                 }
             }
         ]

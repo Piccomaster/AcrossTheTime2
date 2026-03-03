@@ -1,31 +1,31 @@
 {
   "anvil_cost": 7,
   "description": {
-    "translate": "何意味"
+    "translate": ""
   },
   "max_cost": {
     "base": 7,
     "per_level_above_first": 7
   },
-  "max_level": 1,
+  "max_level": 255,
   "min_cost": {
     "base": 7,
     "per_level_above_first": 7
   },
   "slots": [
-    "mainhand"
+    "any"
   ],
-"supported_items": "#minecraft:potion",
-  "weight": 1,
+  "supported_items": "#minecraft:enchantable/durability",
   "effects": {
     "minecraft:prevent_equipment_drop": {},
-    "hit_block": [
+    "tick": [
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/misc/charu"
+          "function": "att2:gameplay/dahal/action/spell42/persistence"
         }
       }
     ]
-  }
+  },
+  "weight": 1
 }

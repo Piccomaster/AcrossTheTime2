@@ -9,14 +9,13 @@ execute at @s as @n[distance=..0.1,type=item_display,tag=ChestDisplay,tag=Head] 
 execute at @s as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run data modify entity @s Glowing set value false
 
 ####reset score
-scoreboard players set #player_id CAL 0
+scoreboard players set #player CAL 0
 scoreboard players set #C CAL 0
 scoreboard players set #T CAL 0
 scoreboard players set #Dimension CAL 0
 scoreboard players set #Q CAL 0
 ##get player id
-execute store result score #player_id CAL run data get block ~ ~ ~ Items[0].components."minecraft:custom_model_data".floats
-execute store result storage att2:score player int 1 run scoreboard players get #player_id CAL
+execute store result score #player CAL run data get block ~ ~ ~ Items[0].components."minecraft:custom_model_data".floats
 ##get c/t
 
 execute store result score #C CAL run data get entity @s data.C

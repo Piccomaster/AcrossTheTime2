@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/misc/interaction/general_attack_trigger"
+  },
+  "criteria": {
+    "general_attack_trigger": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"General\"]}"
+        }
+      }
+    }
+  }
+}

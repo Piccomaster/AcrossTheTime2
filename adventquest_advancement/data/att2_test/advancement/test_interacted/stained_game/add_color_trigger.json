@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/stained_game/color_staining/add_trigger"
+  },
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"StainedGame\"]}"
+        }
+      }
+    }
+  }
+}
