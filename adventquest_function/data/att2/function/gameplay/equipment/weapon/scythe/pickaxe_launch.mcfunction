@@ -1,0 +1,22 @@
+#############################################################
+#Made by Adventquest						    			#
+#shield use trigger                                         #
+#############################################################
+
+##normal launch
+function att2:gameplay/equipment/weapon/shield/hand_launch
+
+##limit
+execute unless predicate att2_pre:player/onground run return fail
+execute if predicate att2_pre:player/in_water run return fail
+execute if predicate att2_pre:player/flying run return fail
+
+##motion
+function att2:gameplay/misc/motion/reset
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty}]
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/w":6}}
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/up":5}}
+
+##invulnerable time
+scoreboard players set @s Invulnerable 15
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/invulnerable":1}}

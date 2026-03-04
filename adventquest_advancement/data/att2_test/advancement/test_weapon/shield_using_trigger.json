@@ -1,0 +1,15 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/equipment/weapon/shield/using_trigger"
+    },
+    "criteria": {
+        "using_trigger": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:shield"
+                }
+            }
+        }
+    }
+}

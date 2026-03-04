@@ -44,6 +44,8 @@ function att2:gameplay/misc/fire_damage/damage with storage att2:score
 ##particle
 particle effect{color:[0.87,0.49,0.16],power:1} ~ ~1 ~ 0.1 0.5 0.1 1 5 normal
 
+particle lava ~ ~1 ~ 0.1 0.5 0.1 1 5 normal
+
 ##test end
 execute if score #time CAL matches 0 run data modify entity @s Fire set value 0
 execute if score #time CAL matches 0 run scoreboard players reset @s FIRE
