@@ -26,7 +26,6 @@ execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_heal
 ##update healthbar
 function att2:gameplay/healthbar/detection_enemy
 scoreboard players set #reduce_health CAL 0
-execute if score @s ENEMYHEALTH matches ..0 run tag @s add killed
 execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
 
 ##make health trigger full

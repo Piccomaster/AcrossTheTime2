@@ -7,3 +7,4 @@ function att2:gameplay/speceffect/black_fading/initialize
 function att2:gameplay/speceffect/shaking/initialize
 function att2:gameplay/speceffect/random/initialize
 function att2:gameplay/speceffect/disincarnate/initialize
+function att2:gameplay/speceffect/dizziness/initialize

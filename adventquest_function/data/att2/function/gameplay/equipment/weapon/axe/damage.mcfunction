@@ -4,7 +4,7 @@
 #################################################################
 
 ##facing
-rotate @n[distance=..10,type=marker,tag=Temp] facing entity @s eyes
+rotate @n[distance=..10,type=marker,tag=Temp] facing entity @s feet
 ##sync rotation
 data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @n[distance=..10,type=marker,tag=Temp] Rotation
 ##tp

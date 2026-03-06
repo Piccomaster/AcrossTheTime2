@@ -5,9 +5,12 @@
 
 ##limit
 ##
-execute if items entity @s weapon.mainhand #minecraft:pickaxes run return run function att2:gameplay/equipment/weapon/shield/pickaxe_launch
+execute if items entity @s weapon.mainhand #minecraft:pickaxes run return run function att2:gameplay/equipment/weapon/shield/launch/pickaxe
+execute if items entity @s weapon.mainhand #minecraft:swords run return run function att2:gameplay/equipment/weapon/shield/launch/sword
+execute if items entity @s weapon.mainhand #minecraft:axes run return run function att2:gameplay/equipment/weapon/shield/launch/axe
+execute if items entity @s weapon.mainhand #minecraft:shovels run return run function att2:gameplay/equipment/weapon/shield/launch/dagger
 
 
 
 ##end
-function att2:gameplay/equipment/weapon/shield/hand_launch
+function att2:gameplay/equipment/weapon/shield/launch/hand

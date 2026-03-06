@@ -3,13 +3,20 @@
 #shield use trigger                                         #
 #############################################################
 
-##normal launch
-function att2:gameplay/equipment/weapon/shield/hand_launch
 
 ##limit
 execute unless predicate att2_pre:player/onground run return fail
 execute if predicate att2_pre:player/in_water run return fail
 execute if predicate att2_pre:player/flying run return fail
+
+
+##base particle
+function att2:gameplay/equipment/weapon/shield/base_particle
+
+##cooldown/remove durability : 15 = 30/2
+function att2:gameplay/equipment/weapon/shield/cooldown {damage:30}
+##consume hunger
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/satiety_consume":20}}
 
 ##motion
 function att2:gameplay/misc/motion/reset

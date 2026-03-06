@@ -15,7 +15,6 @@ execute if data entity @s drop_chances if items entity @s armor.head diamond_hel
 
 ##Add damage detection trigger.
 item modify entity @s[type=!minecraft:bat] armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_tick":1}}
-
 ##prevent Drowning
 effect give @s water_breathing infinite 0 true
 effect give @s fire_resistance infinite 0 true
