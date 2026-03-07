@@ -10,7 +10,8 @@ function att2:gameplay/equipment/weapon/axe/damage_detection
 ##destroy
 execute if score #damage CAL >= #max_damage CAL run return run function att2:gameplay/equipment/weapon/axe/destroy
 
-
+##clear arrow
+kill @e[distance=0.1..1.5,type=#minecraft:arrows]
 particle minecraft:block_crumble{block_state:"minecraft:stone"} ~ ~ ~ 0.7 0.7 0.7 0 40 normal
 particle minecraft:dust_pillar{block_state:"minecraft:stone"} ~ ~ ~ 0.7 0.7 0.7 0 40 normal
 
@@ -25,7 +26,6 @@ playsound minecraft:item.trident.hit block @a ~ ~ ~ 1 2
 ##limit
 execute as @s[tag=Once] run return run function att2:gameplay/equipment/weapon/axe/land
 ##summon arrow
-#execute on passengers at @s run summon spectral_arrow ^ ^ ^ {Tags:["New","ThrowAxe","ThrowTrigger"],LeftOwner:false,PierceLevel:99b}
 summon spectral_arrow ~ ~ ~ {Tags:["New","ThrowAxe","Once"],SoundEvent:"intentionally_empty",LeftOwner:false,PierceLevel:99b,weapon:{id:"bow",components:{item_model:"nothing",enchantments:{"att2_enchantment:throw_axe":1}}}}
 
 ##sync data

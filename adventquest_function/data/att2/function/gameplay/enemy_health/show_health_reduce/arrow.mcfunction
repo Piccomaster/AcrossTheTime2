@@ -27,3 +27,10 @@ data modify entity @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] Motion set 
 tag @e[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] remove New
 tag @e[distance=..10,type=item,tag=New,tag=HPDISPLAY] remove New
 tag @e[distance=..10,type=armor_stand,tag=New,tag=HPDISPLAY] remove New
+
+##particle
+execute if score #reduce_health CAL matches ..10 run particle minecraft:item{item:"minecraft:arrow"} ~ ~1 ~ 0.5 0.5 0.5 0.1 15 normal
+execute if score #reduce_health CAL matches 11..30 run particle minecraft:item{item:"minecraft:arrow"} ~ ~1 ~ 0.5 0.5 0.5 0.1 25 normal
+execute if score #reduce_health CAL matches 31..50 run particle minecraft:item{item:"minecraft:arrow"} ~ ~1 ~ 0.5 0.5 0.5 0.1 45 normal
+execute if score #reduce_health CAL matches 51..90 run particle minecraft:item{item:"minecraft:arrow"} ~ ~1 ~ 0.5 0.5 0.5 0.1 75 normal
+execute if score #reduce_health CAL matches 91.. run particle minecraft:item{item:"minecraft:arrow"} ~ ~1 ~ 0.5 0.5 0.5 0.1 120 normal

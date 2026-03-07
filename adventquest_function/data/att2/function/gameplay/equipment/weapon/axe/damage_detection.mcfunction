@@ -27,3 +27,6 @@ execute on passengers if items entity @s container.0 *[custom_data~{Rarity:myt}]
 ##return data
 execute store result entity @s item.components."minecraft:damage" int 1 run scoreboard players get #damage CAL
 execute on passengers store result entity @s item.components."minecraft:damage" int 1 run scoreboard players get #damage CAL
+
+#tellraw @a [{score:{name:"#damage",objective:"CAL"}}]
+#tellraw @a [{score:{name:"#max_damage",objective:"CAL"}}]

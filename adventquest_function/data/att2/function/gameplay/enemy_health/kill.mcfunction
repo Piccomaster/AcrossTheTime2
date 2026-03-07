@@ -3,6 +3,9 @@
 #detect enemy health reduce                                     #
 #################################################################
 
+
+##add tag
+tag @s add killed
 ##clear enchantments
 data remove entity @s equipment.head.components."minecraft:enchantments"
 ##health 0
