@@ -185,10 +185,7 @@
 
 <br>
 
-### **Economy & Items**
-
-#### **Range of weapons**
-- All weapons now have an **attack_range** bonus or penalty depending on the *rarity* and *type* of the weapon.
+### **Economy**
 
 #### **Bank System Update**
 - Bank-stored *Chronotons* are now **shared among all players** (no longer private).
@@ -209,19 +206,32 @@
 
 <br>
 
-### **New Items**
+### **Items**
 
-#### **Rune Pouch**
+#### **New Rune Pouch**
 - **Obtain**: Craftable via recipes.
 - **Functions**:
   - Automatically stores *Rune materials* from inventory (unlimited capacity).
   - Right-click to eject all stored *Rune materials*.
 
-#### **Small Chairs**
+#### **New Small Chairs**
 - **Obtain**: Buy from NPC *Estelle*.
 - **Functions**:
   - **Right-click** to place and sit; **left-click chair legs** to pick up.
   - **Special**: When sitting on a chair, monsters will not spawn within 30 nearby tiles.
+
+#### **New Copper weapons and armor**
+- Over a hundred **new items** of all rarities :
+  - Added a **new category** of copper weapons.
+  - Added a **new category** of copper armor.
+  - Added two **new armor sets**: epic & legendary.
+  - Added a **new weapon type**: **scythes**.
+  
+#### **Range of weapons**
+- All weapons now have an **attack_range** bonus or penalty depending on the *rarity* and *type* of the weapon.
+
+#### **Weight of armor**
+- All armors now have a **weight** which gives a small bonus or penalty to **movement speed** depending on their *rarity* and *type*.
 
 <br>
 
