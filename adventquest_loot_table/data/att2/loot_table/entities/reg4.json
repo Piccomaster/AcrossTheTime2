@@ -113,6 +113,15 @@
                 "scale": 0.000000001
               }
             }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
           ]
         },
         {
@@ -1065,73 +1074,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/misc/arrow",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": 0.3
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/misc/arrow",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": 0.3
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/food/potato",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": 0.3
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/food/carrot",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": 0.3
-            }
-          ],
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/food/apple",
           "conditions": [
             {
               "condition": "random_chance",
