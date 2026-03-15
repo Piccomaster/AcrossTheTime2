@@ -2,8 +2,6 @@
 #Made By Adventquest										#
 #Set the drop of monster according to lvl, class and region	#
 #############################################################
-=NORM.DIST(L$120;$A121;$B$119*(1+2*L$120/12);0)*($D$119*(1 + 3/15*L$120))
-=NORM.DIST(L$177;($A178-1)*10/20+1;$B$176*(1+2*L$177/12);0)*($D$176*(1 + 3/18*L$177))
 
 ##set asunarkstone
 execute as @s[tag=Reg1,tag=asunarkstone] run scoreboard players set @s DropQuestItemId 65
