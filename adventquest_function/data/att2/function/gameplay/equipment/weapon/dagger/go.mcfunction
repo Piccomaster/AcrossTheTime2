@@ -4,8 +4,11 @@
 #############################################################
 
 ##reset components
-execute if score @s DAGGER_TIME matches ..100 if items entity @s weapon.mainhand #minecraft:shovels run item modify entity @s weapon.mainhand {function:set_components,components:{"!minimum_attack_charge":{},"!swing_animation":{},"!equippable":{}}}
+execute if score @s DAGGER_TIME matches ..100 if items entity @s weapon.mainhand #minecraft:shovels run item modify entity @s weapon.mainhand {function:set_components,components:{"minimum_attack_charge":0.3,"!swing_animation":{}}}
 execute if score @s DAGGER_TIME matches 100 run playsound minecraft:unsheathe1 master @a ~ ~ ~ 0.7 0.5
+
+
+execute if score @s DAGGER_TIME matches 100.. run function att2:gameplay/equipment/weapon/dagger/offhand
 
 ##add has
 scoreboard players add @s[scores={DAGGER_TIME=100..}] HAS_EQ 2

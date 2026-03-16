@@ -38,7 +38,7 @@ execute if entity @e[tag=GET,type=armor_stand,limit=1,predicate=att2_pre:enchant
 
 execute if entity @e[tag=GET,type=armor_stand,limit=1,predicate=att2_pre:enchantment/test_hold/axe] run data modify block -5033 104 -4929 Page set value 8
 
-execute if entity @e[tag=GET,type=armor_stand,limit=1,predicate=att2_pre:enchantment/test_hold/hoe] run data modify block -5033 104 -4929 Page set value 9
+execute if entity @e[tag=GET,type=armor_stand,limit=1,predicate=att2_pre:enchantment/test_hold/spear] run data modify block -5033 104 -4929 Page set value 9
 
 execute if entity @e[tag=GET,type=armor_stand,limit=1,predicate=att2_pre:enchantment/test_hold/ham] run data modify block -5033 104 -4929 Page set value 10
 

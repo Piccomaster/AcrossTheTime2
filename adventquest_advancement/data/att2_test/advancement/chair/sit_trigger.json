@@ -3,15 +3,12 @@
     "function": "att2:gameplay/misc/chair/sit_trigger"
   },
   "criteria": {
-    "sit_chair": {
-      "trigger": "minecraft:started_riding",
+    "sit_trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": {
-          "type": "minecraft:player",
-          "vehicle": {
-            "type": "minecraft:minecart",
-            "nbt": "{Tags:['CHAIR']}"
-          }
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:['CHAIR']}"
         }
       }
     }

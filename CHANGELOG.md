@@ -70,6 +70,34 @@
 - **Item Icon**: Colored border at bottom indicates quality tier.
 - **Tooltip**: Background color matches item quality.
 
+#### **Weapon mechanics**
+
+##### **Shield**
+- *The duration of raising the shield to block has been reduced to 3-5 seconds. While raising the shield, pressing the Shift key (crouch) can unleash different special effects, and the shield will then enter a 5-10 second cooldown.*
+
+###### **When the mainhand is holding a non-melee weapon.**
+- Repel nearby enemies.
+###### **When the mainhand is holding an axe.**
+- Stun nearby enemies for 1 second (half duration for bosses).
+###### **When the mainhand is holding an sword.**
+- Deal 60% of current attack damage as area-of-effect damage to nearby enemies.
+###### **When the mainhand is holding a dagger.**
+- Dash forward, and the next three melee attacks using this dagger will be extremely fast.
+###### **When the mainhand is holding a hammer**
+- Leap forward.
+###### **When the mainhand is holding a scythes.**
+- Leap forward.
+
+##### **Axe**
+- When holding an axe and pressing the F key (the item swap key), the axe is thrown. Upon hitting an enemy/block, it will bounce back and deal damage to nearby enemies. Each time it hits an enemy/block, the damage dealt is reduced by 50%, and the weapon's durability is also decreased.
+##### **Spear**
+- When attacking with a spear, if you are too close to the enemy, the attack damage is reduced by 50% to 70%. If the distance to the enemy is just right, the attack damage is increased by 10% to 50%.
+##### **Scythe**
+- When holding a scythe, you can see "weak points" on enemies. Aiming the crosshair at an enemy's weak point during an attack increases melee damage by 40% to 60%. If you do not hit the weak point, damage is reduced by 20% to 30%.
+##### **Dagger**
+- When dual-wielding daggers in both the main hand and off-hand during consecutive attacks, there is a 10% chance to make the next two attacks significantly faster. Additionally, the off-hand dagger's attributes provide half of their benefits.
+
+
 <br>
 
 ### **Mythical Weapons**
@@ -288,9 +316,15 @@
 - Decorated Pots have been scattered throughout the map.
 - They can be broken to obtain *Chronotons*, *Chaos Sovereign Scales*, and *Runes*.
 
+#### **Elytra Race**
+- Nine "launch points" have been added across the map. They are usually covered with rubble. After clearing the rubble, you can use "Pelzion" to soar with the wind.
+- Completing each section of the route will earn you additional rewards.
+
+
 #### **Monster HP Display**
 - Health bars now appear above monsters' heads.
 - Players can customize health bar settings.
+- When a monster's health decreases, the specific amount of health reduced will be displayed as a number, accompanied by a unique icon for differentiation.
 
 <br>
 

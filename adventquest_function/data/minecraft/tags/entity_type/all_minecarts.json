@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:spawner_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:minecart",
+    "minecraft:tnt_minecart",
+    "minecraft:chest_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:furnace_minecart"
+  ],
+  "replace": false
+}

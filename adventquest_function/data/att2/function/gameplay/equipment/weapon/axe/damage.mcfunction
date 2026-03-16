@@ -3,6 +3,8 @@
 #Initialize ham use    											#
 #################################################################
 
+##add durability Consumption
+scoreboard players add #damage CAL 1
 ##facing
 rotate @n[distance=..10,type=marker,tag=Temp] facing entity @s feet
 ##sync rotation

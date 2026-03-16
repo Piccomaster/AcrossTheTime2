@@ -4,9 +4,9 @@
 #########################################################
 
 ##particle
-particle minecraft:item{item:"minecraft:shield"} ~ ~ ~ 1 1 1 0.1 50 normal
-particle minecraft:item{item:"minecraft:iron_block"} ~ ~ ~ 1 1 1 1 50 normal
-particle minecraft:dust_plume ~ ~ ~ 1 1 1 0.1 50 normal
+particle minecraft:item{item:"minecraft:shield"} ~ ~ ~ 0.75 0.75 0.75 0.1 50 normal
+particle minecraft:item{item:"minecraft:iron_block"} ~ ~ ~ 0.75 0.75 0.75 1 50 normal
+particle minecraft:dust_plume ~ ~ ~ 1 1 1 0.1 25 normal
 
 
 ##sound

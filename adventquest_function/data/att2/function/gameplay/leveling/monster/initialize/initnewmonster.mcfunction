@@ -15,6 +15,12 @@ execute if data entity @s drop_chances if items entity @s armor.head diamond_hel
 
 ##Add damage detection trigger.
 item modify entity @s[type=!minecraft:bat] armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_tick":1}}
+##add shield
+execute if items entity @s weapon.offhand shield[!custom_data~{Shield:true}] run item modify entity @s weapon.offhand [{function:set_custom_data,tag:{"Shield":true}},{function:set_attributes,modifiers:[{attribute:knockback_resistance,id:knockback_resistance_shield,operation:add_value,amount:0.5,slot:offhand},{attribute:movement_speed,id:movement_speed_shield,operation:add_multiplied_total,amount:-0.1,slot:offhand}]},{function:set_components,components:{"minecraft:damage":0,"minecraft:max_damage":100}}]
+
+##entity id
+function att2:gameplay/score/entity_id_initialize
+
 ##prevent Drowning
 effect give @s water_breathing infinite 0 true
 effect give @s fire_resistance infinite 0 true

@@ -4,8 +4,8 @@
 #################################################################
 
 #auto_mending
-#execute if score tic TIMECOUNTER matches 1 run function att2:gameplay/enchantment/trigger_function/auto_mending
-#execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/enchantment/trigger_function/auto_mending
+execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enchantment/trigger_function/auto_mending
+execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/enchantment/trigger_function/auto_mending
 #greatsword
 function att2:gameplay/enchantment/trigger_function/greatsword
 #heart_protection
@@ -19,11 +19,11 @@ function att2:gameplay/enchantment/trigger_function/sscombo
 #empathy
 #function att2:gameplay/enchantment/trigger_function/empathy
 #forcepush
-function att2:gameplay/enchantment/trigger_function/forcepush
+#function att2:gameplay/enchantment/trigger_function/forcepush
 #armorbreak
 execute as @s[advancements={att2_test:enchantment/armorbreak=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/armorbreak
 #groundslam
-execute as @s[advancements={att2_test:enchantment/groundslam=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/groundslam
+#execute as @s[advancements={att2_test:enchantment/groundslam=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/groundslam
 #execute as @s[advancements={att2_test:enchantment/forcepush=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/armorbreak
 #combohit
 function att2:gameplay/enchantment/combohit/go

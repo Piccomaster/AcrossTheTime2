@@ -11,3 +11,6 @@ scoreboard players remove @s[scores={SCYTHE_FATIGUE=26..50}] HAS_EQ 2
 scoreboard players remove @s[scores={SCYTHE_FATIGUE=51..75}] HAS_EQ 4
 scoreboard players remove @s[scores={SCYTHE_FATIGUE=76..100}] HAS_EQ 6
 scoreboard players remove @s[scores={SCYTHE_FATIGUE=101..}] HAS_EQ 8
+
+
+##show

@@ -4,9 +4,9 @@
 #################################################################
 
 #get max/cost damage
-execute store result score temp_value_1 CAL run data get entity @s equipment.legs.components."minecraft:enchantments"."att2_enchantment:auto_mending"
-execute store result score temp_value_2 ENCHANTMENT run data get entity @s equipment.legs.components."minecraft:max_damage" 100
-execute store result score temp_value_3 ENCHANTMENT run data get entity @s equipment.legs.components."minecraft:damage" 100
+execute store result score temp_value_1 CAL run data get storage att2:equipment equipment.legs.components."minecraft:enchantments"."att2_enchantment:auto_mending"
+execute store result score temp_value_2 ENCHANTMENT run data get storage att2:equipment equipment.legs.components."minecraft:max_damage" 100
+execute store result score temp_value_3 ENCHANTMENT run data get storage att2:equipment equipment.legs.components."minecraft:damage" 100
 #cal percent damage
 scoreboard players operation temp_value_4 ENCHANTMENT = temp_value_2 ENCHANTMENT
 scoreboard players operation temp_value_4 ENCHANTMENT -= temp_value_3 ENCHANTMENT

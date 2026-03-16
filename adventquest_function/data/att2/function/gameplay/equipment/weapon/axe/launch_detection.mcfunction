@@ -41,7 +41,7 @@ scoreboard players operation @n[distance=..5,type=item_display,tag=New] OWNER = 
 scoreboard players operation @n[distance=..5,type=armor_stand,tag=New] OWNER = @s NUMEROJOUEUR
 data modify entity @n[distance=..5,type=spectral_arrow,tag=New] Owner set from entity @s UUID
 ##store damage
-execute store result score @n[distance=..5,type=spectral_arrow,tag=New] STR_DATA run attribute @s attack_damage base get
+execute store result score @n[distance=..5,type=spectral_arrow,tag=New] STR_DATA run attribute @s attack_damage base get 1.5
 ##sync rotation
 data modify entity 00000001-0000-006f-0000-00010000006f Rotation set from entity @s Rotation
 ##tp

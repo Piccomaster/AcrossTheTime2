@@ -15,6 +15,35 @@
     "slots": [
         "mainhand"
     ],
-    "supported_items": "#minecraft:hoes",
-    "weight": 1
+    "supported_items": "#minecraft:spears",
+    "weight": 1,
+    "effects": {
+        "post_attack": [
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "hostile"
+                        }
+                    }
+                ],
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/enchantment/forcepush/attack_trigger"
+                }
+            },
+            {
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/enchantment/forcepush/attack"
+                }
+            }
+        ]
+    }
 }
