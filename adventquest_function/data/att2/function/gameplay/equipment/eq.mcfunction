@@ -24,11 +24,10 @@ execute if predicate att2_pre:test_hold/equipment/offhand run function att2:game
 function att2:gameplay/enchantment/trigger_function/go
 
 ##weapon effect
+function att2:gameplay/equipment/weapon/attack_speed_penalty
 function att2:gameplay/equipment/weapon/hand_detection
-function att2:gameplay/equipment/weapon/scythe/go
 function att2:gameplay/equipment/weapon/dagger/go
 function att2:gameplay/equipment/weapon/axe/go
-function att2:gameplay/equipment/weapon/spear/go
 
 #test unless weapon
 attribute @s attack_damage modifier remove att2:attack_damage_limit

@@ -3,6 +3,9 @@
 #ham trigger
 #############################################################
 
+##AttackSpeedPenalty
+scoreboard players add @s AttackSpeedPenalty 8
+
 ##add score
 scoreboard players add @s DAGGER_TIME 40
 ##limit

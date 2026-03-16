@@ -5,4 +5,3 @@
 
 scoreboard objectives add SPEAR_FATIGUE dummy
 scoreboard players set @s SPEAR_FATIGUE 0
-scoreboard objectives add SPEARCOOLDOWN dummy

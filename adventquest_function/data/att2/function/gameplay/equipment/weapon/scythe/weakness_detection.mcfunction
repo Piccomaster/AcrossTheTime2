@@ -2,7 +2,7 @@
 #Made by Advestquest						    			#
 #ham trigger
 #############################################################
-say 饿
+
 ##summos temp marker
 execute positioned ^ ^ ^1 positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[distance=..10,dx=0.5,dy=0.5,dz=0.5] run scoreboard players set #TEST CAL 1
 execute positioned ^ ^ ^1.5 positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[distance=..10,dx=0.5,dy=0.5,dz=0.5] run scoreboard players set #TEST CAL 1
@@ -16,7 +16,7 @@ execute positioned ^ ^ ^5 positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[distance=
 execute positioned ^ ^ ^5.5 positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[distance=..10,dx=0.5,dy=0.5,dz=0.5] run scoreboard players set #TEST CAL 1
 execute positioned ^ ^ ^6 positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[distance=..10,dx=0.5,dy=0.5,dz=0.5] run scoreboard players set #TEST CAL 1
 
-#returs fail
+return fail
 ##summos temp marker
 execute positioned ^ ^ ^1 positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[distance=..10,dx=0.5,dy=0.5,dz=0.5] run say 有了1
 execute positioned ^ ^ ^1.5 positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[distance=..10,dx=0.5,dy=0.5,dz=0.5] run say 有了1.5

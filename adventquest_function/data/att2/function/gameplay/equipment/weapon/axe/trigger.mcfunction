@@ -3,6 +3,9 @@
 #axe trigger
 #############################################################
 
+##AttackSpeedPenalty
+scoreboard players add @s AttackSpeedPenalty 20
+
 ##particle
 execute if items entity @s weapon.mainhand minecraft:wooden_axe run return run function att2:gameplay/equipment/weapon/axe/particle_wooden
 execute if items entity @s weapon.mainhand minecraft:stone_axe run return run function att2:gameplay/equipment/weapon/axe/particle_stone
