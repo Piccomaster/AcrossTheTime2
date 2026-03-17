@@ -16,15 +16,5 @@
         "any"
     ],
     "supported_items": "#minecraft:enchantable/durability",
-    "weight": 1,
-    "effects": {
-        "tick": [
-            {
-                "effect": {
-                    "type": "run_function",
-                    "function": "att2:gameplay/enchantment/trigger_function/auto_mending"
-                }
-            }
-        ]
-    }
+    "weight": 1
 }

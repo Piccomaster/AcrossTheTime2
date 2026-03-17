@@ -1259,6 +1259,66 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/ult/leather_chestplate_362",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUlt",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/ult/leather_leggings_363",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUlt",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/ult/copper_boots_364",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUlt",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/ult/copper_helmet_365",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUlt",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/ult/bow_338",
           "conditions": [
             {
@@ -1358,6 +1418,21 @@
                 "target": "this",
                 "score": "DropChanceUlt",
                 "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/ult/copper_hoe_346",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUlt",
+                "scale": 0.000000001
               }
             }
           ]
@@ -1739,51 +1814,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/leg_armset/leather_boots_22",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceLeg",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/leg/leather_boots_55",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceLeg",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/leg/leather_chestplate_53",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceLeg",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/leg_armset/leather_helmet_19",
           "conditions": [
             {
@@ -1799,7 +1829,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/leg/leather_helmet_52",
+          "value": "att2:item_data/armor/leg_armset/leather_chestplate_20",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1829,7 +1859,67 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg_armset/leather_boots_22",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg/leather_helmet_52",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg/leather_chestplate_53",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/leg/leather_leggings_54",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg/leather_boots_55",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1898,6 +1988,126 @@
                 "target": "this",
                 "score": "DropChanceLeg",
                 "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg/copper_helmet_403",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg/copper_chestplate_404",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg/copper_leggings_405",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg/copper_boots_406",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg_armset/copper_helmet_407",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg_armset/copper_chestplate_408",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg_armset/copper_leggings_409",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg_armset/copper_boots_410",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
               }
             }
           ]
@@ -2024,6 +2234,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/diamond_hoe_378",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/leg/iron_axe_92",
           "conditions": [
             {
@@ -2099,6 +2324,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/iron_hoe_362",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/leg/netherite_axe_313",
           "conditions": [
             {
@@ -2160,6 +2400,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/leg/netherite_sword_316",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/netherite_hoe_386",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2250,6 +2505,111 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/leg/wooden_sword_32",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/wooden_hoe_354",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/copper_axe_423",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/copper_pickaxe_424",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/copper_shovel_425",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/copper_sword_426",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/copper_spear_453",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/copper_hoe_394",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2519,81 +2879,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/epi_set/leather_boots_17",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceEpi",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/epi/leather_boots_51",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceEpi",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/epi_set/leather_boots_67",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceEpi",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/epi/leather_chestplate_49",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceEpi",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/epi_set/leather_chestplate_65",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceEpi",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/epi_set/leather_helmet_14",
           "conditions": [
             {
@@ -2609,22 +2894,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/epi/leather_helmet_48",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceEpi",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/epi_set/leather_helmet_64",
+          "value": "att2:item_data/armor/epi_set/leather_chestplate_15",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2654,6 +2924,51 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/leather_boots_17",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi/leather_helmet_48",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi/leather_chestplate_49",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/epi/leather_leggings_50",
           "conditions": [
             {
@@ -2669,7 +2984,67 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi/leather_boots_51",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/leather_helmet_64",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/leather_chestplate_65",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/epi_set/leather_leggings_66",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/leather_boots_67",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2738,6 +3113,126 @@
                 "target": "this",
                 "score": "DropChanceEpi",
                 "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi/copper_helmet_390",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi/copper_chestplate_391",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi/copper_leggings_392",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi/copper_boots_393",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/copper_helmet_394",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/copper_chestplate_395",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/copper_leggings_396",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/copper_boots_397",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
               }
             }
           ]
@@ -2894,6 +3389,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/diamond_hoe_377",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/epi/iron_axe_88",
           "conditions": [
             {
@@ -2969,6 +3479,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/iron_hoe_361",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/epi/netherite_axe_308",
           "conditions": [
             {
@@ -3030,6 +3555,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/epi/netherite_sword_311",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/netherite_hoe_385",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3135,6 +3675,111 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/epi/wooden_sword_28",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/wooden_hoe_353",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/copper_axe_419",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/copper_pickaxe_420",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/copper_shovel_421",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/copper_sword_422",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/copper_spear_452",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/copper_hoe_393",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3494,112 +4139,52 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_boots_13",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_boots_46",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_boots_47",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_boots_59",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_chestplate_42",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_chestplate_43",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_chestplate_57",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/rar/leather_helmet_10",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_chestplate_11",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_leggings_12",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_boots_13",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3644,7 +4229,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_helmet_56",
+          "value": "att2:item_data/armor/rar/leather_chestplate_42",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3659,7 +4244,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/leather_leggings_12",
+          "value": "att2:item_data/armor/rar/leather_chestplate_43",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3704,7 +4289,82 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_boots_46",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_boots_47",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_helmet_56",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_chestplate_57",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/rar/leather_leggings_58",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_boots_59",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3833,6 +4493,126 @@
                 "target": "this",
                 "score": "DropChanceRar",
                 "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/copper_helmet_382",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/copper_helmet_383",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/copper_chestplate_384",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/copper_chestplate_385",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/copper_leggings_386",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/copper_leggings_387",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/copper_boots_388",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/copper_boots_389",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
               }
             }
           ]
@@ -4079,6 +4859,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/diamond_hoe_375",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/diamond_hoe_376",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/rar/iron_axe_80",
           "conditions": [
             {
@@ -4229,6 +5039,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/iron_hoe_359",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/iron_hoe_360",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/rar/netherite_axe_298",
           "conditions": [
             {
@@ -4365,6 +5205,36 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/rar/netherite_sword_305",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/netherite_hoe_383",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/netherite_hoe_384",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4560,6 +5430,216 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/rar/wooden_sword_24",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/wooden_hoe_351",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/wooden_hoe_352",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_axe_411",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_axe_412",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_pickaxe_413",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_pickaxe_414",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_shovel_415",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_shovel_416",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_sword_417",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_sword_418",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_spear_450",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_spear_451",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_hoe_391",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/copper_hoe_392",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4904,7 +5984,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_boots_38",
+          "value": "att2:item_data/armor/unc/leather_helmet_6",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4919,7 +5999,22 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_boots_39",
+          "value": "att2:item_data/armor/unc/leather_chestplate_7",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/leather_leggings_8",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4935,21 +6030,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/unc/leather_boots_9",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_chestplate_35",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4994,7 +6074,22 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_helmet_6",
+          "value": "att2:item_data/armor/unc/leather_chestplate_34",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/leather_chestplate_35",
           "conditions": [
             {
               "condition": "random_chance",
@@ -5039,7 +6134,22 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_leggings_8",
+          "value": "att2:item_data/armor/unc/leather_boots_38",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/leather_boots_39",
           "conditions": [
             {
               "condition": "random_chance",
@@ -5168,6 +6278,126 @@
                 "target": "this",
                 "score": "DropChanceUnc",
                 "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/copper_helmet_374",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/copper_helmet_375",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/copper_chestplate_376",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/copper_chestplate_377",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/copper_leggings_378",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/copper_leggings_379",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/copper_boots_380",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/copper_boots_381",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
               }
             }
           ]
@@ -5429,6 +6659,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/diamond_hoe_373",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/diamond_hoe_374",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/unc/iron_axe_72",
           "conditions": [
             {
@@ -5579,6 +6839,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/iron_hoe_357",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/iron_hoe_358",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/unc/netherite_axe_288",
           "conditions": [
             {
@@ -5715,6 +7005,36 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/unc/netherite_sword_295",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/netherite_hoe_381",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/netherite_hoe_382",
           "conditions": [
             {
               "condition": "random_chance",
@@ -5940,6 +7260,216 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/unc/wooden_sword_16",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/wooden_hoe_349",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/wooden_hoe_350",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_axe_403",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_axe_404",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_pickaxe_405",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_pickaxe_406",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_shovel_407",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_shovel_408",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_sword_409",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_sword_410",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_spear_448",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_spear_449",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_hoe_389",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/copper_hoe_390",
           "conditions": [
             {
               "condition": "random_chance",
@@ -6284,172 +7814,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_boots_30",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_boots_31",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_boots_5",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_26",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_27",
           "conditions": [
             {
               "condition": "random_chance",
@@ -6465,6 +7830,51 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/com/leather_helmet_2",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_chestplate_3",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_leggings_4",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_boots_5",
           "conditions": [
             {
               "condition": "random_chance",
@@ -6509,7 +7919,22 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_helmet_25",
+          "value": "att2:item_data/armor/com/leather_chestplate_26",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_chestplate_27",
           "conditions": [
             {
               "condition": "random_chance",
@@ -6554,7 +7979,22 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_leggings_4",
+          "value": "att2:item_data/armor/com/leather_boots_30",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_boots_31",
           "conditions": [
             {
               "condition": "random_chance",
@@ -6683,6 +8123,126 @@
                 "target": "this",
                 "score": "DropChanceCom",
                 "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/copper_helmet_366",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/copper_helmet_367",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/copper_chestplate_368",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/copper_chestplate_369",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/copper_leggings_370",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/copper_leggings_371",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/copper_boots_372",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/copper_boots_373",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
               }
             }
           ]
@@ -6944,7 +8504,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/iron_axe_64",
+          "value": "att2:item_data/weapon/com/diamond_hoe_371",
           "conditions": [
             {
               "condition": "random_chance",
@@ -6952,14 +8512,29 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.000000001
+                "scale": 0.00000000066666666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/iron_axe_65",
+          "value": "att2:item_data/weapon/com/diamond_hoe_372",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/iron_axe_64",
           "conditions": [
             {
               "condition": "random_chance",
@@ -7095,6 +8670,36 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/com/iron_sword_71",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/iron_hoe_355",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/iron_hoe_356",
           "conditions": [
             {
               "condition": "random_chance",
@@ -7259,6 +8864,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/netherite_hoe_379",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/netherite_hoe_380",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.00000000066666666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/com/shield_50",
           "conditions": [
             {
@@ -7305,6 +8940,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/com/wooden_axe_1",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/wooden_axe_2",
           "conditions": [
             {
               "condition": "random_chance",
@@ -7425,6 +9075,216 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/com/wooden_sword_8",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/wooden_hoe_347",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/wooden_hoe_348",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_axe_395",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_axe_396",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_pickaxe_397",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_pickaxe_398",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_shovel_399",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_shovel_400",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_sword_401",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_sword_402",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_hoe_387",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_hoe_388",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_spear_446",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/copper_spear_447",
           "conditions": [
             {
               "condition": "random_chance",

@@ -12,8 +12,8 @@ particle item{item:"minecraft:iron_block"} ~ ~1 ~ 1.5 0.3 1.5 0 30 normal
 particle item{item:"minecraft:dirt"} ~ ~1 ~ 1.5 0.3 1.5 0 30 normal
 particle dust_pillar{block_state:"minecraft:dirt"} ~ ~ ~ 1 0.3 1 0 30 normal
 #motion
-execute if score temp_value_1 CAL matches 1 as @e[distance=..1,team=hostile,scores={GAMELEVEL=0..}] at @s run data modify entity @s Motion[1] set value 0.2
-execute if score temp_value_1 CAL matches 2 as @e[distance=..1.5,team=hostile,scores={GAMELEVEL=0..}] at @s run data modify entity @s Motion[1] set value 0.25
-execute if score temp_value_1 CAL matches 3 as @e[distance=..2,team=hostile,scores={GAMELEVEL=0..}] at @s run data modify entity @s Motion[1] set value 0.3
-execute if score temp_value_1 CAL matches 4 as @e[distance=..2.5,team=hostile,scores={GAMELEVEL=0..}] at @s run data modify entity @s Motion[1] set value 0.35
-execute if score temp_value_1 CAL matches 5 as @e[distance=..3,team=hostile,scores={GAMELEVEL=0..}] at @s run data modify entity @s Motion[1] set value 0.4
+execute if score temp_value_1 CAL matches 1 as @e[distance=..1,team=hostile,scores={GAMELEVEL=0..}] run data modify entity @s Motion[1] set value 0.2
+execute if score temp_value_1 CAL matches 2 as @e[distance=..1.5,team=hostile,scores={GAMELEVEL=0..}] run data modify entity @s Motion[1] set value 0.25
+execute if score temp_value_1 CAL matches 3 as @e[distance=..2,team=hostile,scores={GAMELEVEL=0..}] run data modify entity @s Motion[1] set value 0.3
+execute if score temp_value_1 CAL matches 4 as @e[distance=..2.5,team=hostile,scores={GAMELEVEL=0..}] run data modify entity @s Motion[1] set value 0.35
+execute if score temp_value_1 CAL matches 5 as @e[distance=..3,team=hostile,scores={GAMELEVEL=0..}] run data modify entity @s Motion[1] set value 0.4

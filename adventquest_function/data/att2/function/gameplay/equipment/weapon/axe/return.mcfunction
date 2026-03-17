@@ -19,11 +19,11 @@ execute if score #TEST CAL matches 2 in overworld run item replace entity @p[pre
 
 ##limit
 execute if score #TEST CAL matches 1.. run scoreboard players add @p[predicate=att2_pre:score/player] AXETIMER 60
-execute if score #TEST CAL matches 1.. run scoreboard players set @p[predicate=att2_pre:score/player] AXECOOLDOWN 10
+execute if score #TEST CAL matches 1.. run scoreboard players set @p[predicate=att2_pre:score/player] AXECOOLDOWN 1
 execute if score #TEST CAL matches 1.. on vehicle run return run function att2:gameplay/equipment/weapon/axe/clear
 ##full
 execute on vehicle on vehicle run tp @s @p[predicate=att2_pre:score/player]
 
 execute on vehicle on vehicle run data modify entity @s pickup set value 1
-scoreboard players set @p[predicate=att2_pre:score/player] AXECOOLDOWN 10
+scoreboard players set @p[predicate=att2_pre:score/player] AXECOOLDOWN 1
 scoreboard players add @p[predicate=att2_pre:score/player] AXETIMER 60

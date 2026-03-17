@@ -21,7 +21,7 @@
             }
           ],
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/quest/all"
+          "value": "att2:item_data/quest/all_chest"
         }
       ]
     },

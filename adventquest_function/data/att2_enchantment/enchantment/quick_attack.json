@@ -1,0 +1,48 @@
+{
+    "anvil_cost": 7,
+    "description": {
+    "translate": "enchantment.att2.quick_attack"
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 1,
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": -0.4,
+                "attribute": "minecraft:attack_damage",
+                "id": "quick_attack",
+                "operation": "add_multiplied_total"
+            }
+        ],
+        "post_attack": [
+            {
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "minecraft:change_item_damage",
+                    "amount": 3.0
+                }
+            },
+            {
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/equipment/weapon/dagger/quick_attack_trigger"
+                }
+            }
+        ]
+    }
+}

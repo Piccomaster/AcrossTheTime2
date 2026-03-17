@@ -1,0 +1,98 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "text": ""
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1,
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": -1,
+        "attribute": "minecraft:attack_damage",
+        "id": "dizziness",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": -1,
+        "attribute": "minecraft:jump_strength",
+        "id": "dizziness",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": -1,
+        "attribute": "minecraft:movement_speed",
+        "id": "dizziness",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": -1,
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "dizziness",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": -1,
+        "attribute": "minecraft:follow_range",
+        "id": "dizziness",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": -1,
+        "attribute": "minecraft:flying_speed",
+        "id": "dizziness",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": -1,
+        "attribute": "minecraft:step_height",
+        "id": "dizziness",
+        "operation": "add_multiplied_total"
+      }
+    ],
+    "tick": [
+      {
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/speceffect/dizziness/player_go"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "hostile"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/speceffect/dizziness/other_go"
+        }
+      }
+    ]
+  }
+}

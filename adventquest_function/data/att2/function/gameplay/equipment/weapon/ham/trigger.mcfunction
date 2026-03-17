@@ -3,6 +3,9 @@
 #ham trigger
 #############################################################
 
+##AttackSpeedPenalty
+scoreboard players add @s AttackSpeedPenalty 20
+
 ##player detection (jump->sprint)
 
 execute if predicate att2_pre:player/onground run return fail

@@ -4,7 +4,7 @@
 #############################################################
 
 ##trigger
-execute if items entity @s weapon.offhand *[custom_data~{Mainhand:true}] unless items entity @s weapon.mainhand *[custom_data~{Mainhand:true}] run function att2:gameplay/equipment/weapon/switch_hand_trigger
+#execute if items entity @s weapon.offhand *[custom_data~{Mainhand:true}] unless items entity @s weapon.mainhand *[custom_data~{Mainhand:true}] run function att2:gameplay/equipment/weapon/switch_hand_trigger
 
 item modify entity @s weapon.mainhand {function:set_custom_data,tag:{"Mainhand":true}}
 item modify entity @s weapon.offhand {function:set_custom_data,tag:{"Mainhand":false}}

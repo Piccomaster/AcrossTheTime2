@@ -11,7 +11,7 @@ function att2:gameplay/equipment/weapon/axe/damage_detection
 execute if score #damage CAL >= #max_damage CAL run return run function att2:gameplay/equipment/weapon/axe/destroy
 
 ##clear arrow
-kill @e[distance=0.1..1.5,type=#minecraft:arrows]
+kill @e[distance=0.1..1.5,type=#minecraft:arrows,tag=!ThrowAxe,tag=!ThrowSpear]
 particle minecraft:block_crumble{block_state:"minecraft:stone"} ~ ~ ~ 0.7 0.7 0.7 0 40 normal
 particle minecraft:dust_pillar{block_state:"minecraft:stone"} ~ ~ ~ 0.7 0.7 0.7 0 40 normal
 

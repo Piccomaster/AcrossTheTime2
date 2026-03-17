@@ -1,29 +1,43 @@
 {
-    "condition":"any_of",
-    "terms":[
+    "condition": "all_of",
+    "terms": [
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:arrow\"},PickupDelay:0s}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{PickupDelay:0s}"
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:spectral_arrow\"},PickupDelay:0s}"
-            }
-        },
-        {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{components:{\"minecraft:custom_data\":{\"EquipmentType\":\"food\"}}},PickupDelay:0s}"
-            }
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "container.0": {
+                                "items": "#minecraft:arrows"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "container.0": {
+                                "predicates": {
+                                    "minecraft:custom_data": {
+                                        "EquipmentType": "food"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
         }
     ]
 }
