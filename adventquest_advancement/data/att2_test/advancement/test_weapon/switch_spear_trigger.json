@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/equipment/weapon/spear/launch_detection"
+    },
+    "criteria": {
+        "switch_axe_trigger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:spears"
+                    }
+                ]
+            }
+        }
+    }
+}
