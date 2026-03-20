@@ -5,7 +5,7 @@
 
 ##get difficult level
 #say 弓
-# -1 -> 0 | 0 -> 1 | 1 -> 2 | 2 -> 3
+# -1 -> 0 | 0 -> 0 | 1 -> 1 | 2 -> 2
 scoreboard players operation #count CAL = level DIFFICULTY
 scoreboard players operation #count CAL *= 10 CAL
 #limit

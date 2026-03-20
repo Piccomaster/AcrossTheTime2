@@ -20,7 +20,7 @@ scoreboard players set @s[scores={TIMER_HER_EH=..0}] HER_EH 0
 scoreboard players set @s[scores={TIMER_HER_LE=..0}] HER_LE 0
 scoreboard players set @s HER_FO 0
 #add extra her
-execute if score level DIFFICULTY matches -1 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 5
+execute if score #level DIFFICULTY matches -1 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 5
 
 execute if score #level DIFFICULTY matches 0 run scoreboard players add @s[scores={HER_FOOD=20}] HER_FO 3
 

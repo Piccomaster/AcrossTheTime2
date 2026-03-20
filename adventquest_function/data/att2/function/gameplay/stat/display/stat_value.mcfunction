@@ -3,9 +3,13 @@
 #Initialize all stats                            #
 ##################################################
 
+##get attribute
+#data modify storage att2:stat_display attributes set from entity @s attributes
 #cal stat value
 #attribute @s attack_damage modifier remove att2:attack_damage_limit
 execute store result score #STR_DATA CAL run attribute @s attack_damage get
+execute store result storage att2:stat_display stat.her double 0.01 run scoreboard players get @s HER_DATA
+
 #execute unless predicate att2_pre:test_hold/equipment/meleeweapon run attribute @s attack_damage modifier add att2:attack_damage_limit -0.90 add_multiplied_total
 #execute if score @s HAS_DISPLAY matches 1.. run function att2:gameplay/stat/haste/data_cal
 #execute if score @s HUN_DISPLAY matches 1.. run function att2:gameplay/stat/hunger/data_cal
@@ -30,8 +34,10 @@ execute if score @s SPD_DISPLAY matches 1.. unless score @s SPD_DATA matches 0..
 execute if score @s HAS_DISPLAY matches 1.. if score @s HAS_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.has.value.add,color:"gray",with:[{score:{name:"@s",objective:"HAS_DATA_INT"},color:green},{score:{name:"@s",objective:"HAS_DATA_FLOAT"},color:green}]}
 execute if score @s HAS_DISPLAY matches 1.. unless score @s HAS_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.has.value.reduce,color:"gray",with:[{score:{name:"@s",objective:"HAS_DATA_INT"},color:red},{score:{name:"@s",objective:"HAS_DATA_FLOAT"},color:red}]}
 #HER
-execute if score @s HER_DISPLAY matches 1.. if score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.add,color:"gray",with:[{score:{name:"@s",objective:"HER_DATA_TIMER"},color:green}]}
-execute if score @s HER_DISPLAY matches 1.. unless score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.reduce,color:"gray",with:[{score:{name:"@s",objective:"HER_DATA_TIMER"},color:red}]}
+execute if score @s HER_DISPLAY matches 1.. if score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.add,color:"gray",with:[{nbt:"stat.her",storage:"att2:stat_display","interpret":false,color:green}]}
+execute if score @s HER_DISPLAY matches 1.. unless score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.reduce,color:"gray",with:[{nbt:"stat.her",storage:"att2:stat_display","interpret":false,color:red}]}
+#execute if score @s HER_DISPLAY matches 1.. if score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.add,color:"gray",with:[{score:{name:"@s",objective:"HER_DATA_TIMER"},color:green}]}
+#execute if score @s HER_DISPLAY matches 1.. unless score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.reduce,color:"gray",with:[{score:{name:"@s",objective:"HER_DATA_TIMER"},color:red}]}
 #DAR
 execute if score @s DAR_DISPLAY matches 1.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.dar.value,color:"gray",with:[{score:{name:"@s",objective:"OP_DAHAL"},color:green}]}
 #HUN

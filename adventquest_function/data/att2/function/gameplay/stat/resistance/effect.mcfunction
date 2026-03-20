@@ -16,7 +16,7 @@ scoreboard players operation @s RES_TOT += @s RES_LE
 scoreboard players operation @s RES_DATA = @s RES_TOT
 scoreboard players operation @s RES_DATA *= 10 CAL
 #limit
-scoreboard players set @s[scores={RES_DATA=95..}] RES_DATA 95
+scoreboard players set @s[scores={RES_DATA=80..}] RES_DATA 80
 
 #effect assignement
 effect clear @s health_boost
