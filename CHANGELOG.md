@@ -429,15 +429,32 @@
 - Most attributes now **directly modify base stats** (no "status effects").
 - **Speed/Haste Attributes**: Each point affects movement speed and attack speed.
 - **Strength Attribute**:
-  - Removed level cap (previously 35).
-  - Removed damage limit (previously 756 max).
-  - Smoother scaling curve.
+  - Restructured the calculation method for the Strength attribute. 
+  - The melee attack damage increased by the Strength attribute now depends on the weapon's quality and type. 
+  - Higher-quality weapons yield higher melee damage increases, and different weapon types have different scaling effects. 
+  - For example, under the same quality, a hammer provides a greater melee damage increase than a dagger.
 - **Resistance Attribute**: 
   - Each point of defense provides 10% damage reduction.
-  - It can reduce damage by up to -95%, and when the attribute is negative, it increases damage taken (up to 50%).
+  - It can reduce damage by up to -80%, and when the attribute is negative, it increases damage taken (up to 50%).
+  - When the RES attribute exceeds 8 points, it provides 5 points of fixed damage reduction.
 
 - **Dahal Regen Attribute**: Dahal's regen now occurs every tick instead of once per second.
 - **Dahal Regen**: Dahal recovery is no longer percentage-based but instead increases linearly. The higher the DAR attribute points, the faster the linear growth.
+
+- **Hunger Attribute**
+  - When the hunger bar is at its maximum, the player gains additional STR points. 
+  - When the hunger bar is below half, the player loses some STR points. 
+  - The intensity of this effect varies depending on the game difficulty.
+
+- **Health Regen Attribute**
+  - Now, when the Health Regeneration attribute is 0, the player recovers 0.05 HP per second. 
+  - Each point of the HER attribute increases health regeneration by 0.05 HP per second.
+
+- **New attribute CRT(critical hit multiplier)**
+  - The CRT attribute increases the player's critical hit chance and critical damage. 
+  - Different melee weapons have different critical hit coefficients. 
+  - For example, daggers have a higher critical coefficient, while hammers have a lower one. This means that with the same CRT attribute, hammers will have a lower critical hit chance and lower critical damage.
+  - CRT also increases the critical damage and critical probability of bows/spells.
 
 #### **Empty Hand Penalty**
 - Now reduces attack damage by **99%** (no longer reduces attack speed).
