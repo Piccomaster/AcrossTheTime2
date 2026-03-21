@@ -15,3 +15,4 @@ function att2:gameplay/stat/resistance/initialize
 function att2:gameplay/stat/speed/initialize
 function att2:gameplay/stat/strength/initialize
 function att2:gameplay/stat/display/initialize
+function att2:gameplay/stat/critical/initialize

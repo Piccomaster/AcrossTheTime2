@@ -18,7 +18,6 @@ summon marker ~ ~ ~ {Tags:["Temp"]}
 ##remove more durability
 execute store result score #damage CAL run data get entity @s item.components."minecraft:damage"
 scoreboard players add #damage CAL 1
-execute store result score #max_damage CAL run data get entity @s item.components."minecraft:max_damage"
 
 ##health icon
 ##transfer weapon
@@ -30,7 +29,8 @@ scoreboard players set #ForceReplace ENEMYHEALTH 0
 #clear
 kill @e[distance=..10,type=marker,tag=Temp]
 
-
+##get max_damage
+execute store result score #max_damage CAL run data get entity @s item.components."minecraft:max_damage"
 ##test myt
 execute on passengers if items entity @s container.0 *[custom_data~{Rarity:myt}] run return run scoreboard players set #max_damage CAL 100000
 ##return data
