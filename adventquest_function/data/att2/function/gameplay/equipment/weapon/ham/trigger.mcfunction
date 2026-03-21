@@ -4,7 +4,7 @@
 #############################################################
 
 ##AttackSpeedPenalty
-scoreboard players add @s AttackSpeedPenalty 20
+scoreboard players add @s AttackSpeedPenalty 30
 
 ##player detection (jump->sprint)
 

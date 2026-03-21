@@ -11,6 +11,10 @@ scoreboard players set @s HER_FOOD 0
 
 scoreboard objectives add HER_DATA dummy
 
+scoreboard objectives add HER_DATA_DEC_1 dummy
+scoreboard objectives add HER_DATA_DEC_2 dummy
+scoreboard objectives add HER_DATA_INT dummy
+
 scoreboard objectives add HER_VALUE dummy
 
 scoreboard objectives add AddHealth dummy

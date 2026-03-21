@@ -24,6 +24,17 @@ scoreboard players operation #count CAL *= 20 CAL
 scoreboard players operation #count CAL /= 100 CAL
 scoreboard players operation @s HER_DATA = #count CAL
 
+#decimal_1
+scoreboard players operation @s HER_DATA_DEC_1 = #count CAL
+scoreboard players operation @s HER_DATA_DEC_1 /= 10 CAL
+scoreboard players operation @s HER_DATA_DEC_1 %= 10 CAL
+
+#decimal_2
+scoreboard players operation @s HER_DATA_DEC_2 = #count CAL
+scoreboard players operation @s HER_DATA_DEC_2 %= 10 CAL
+#int
+scoreboard players operation @s HER_DATA_INT = #count CAL
+scoreboard players operation @s HER_DATA_INT /= 100 CAL
 #scoreboard players operation @s HER_DATA /= 10000 CAL
 
 ##storage

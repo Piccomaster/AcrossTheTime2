@@ -1,7 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Initialize ham use    											#
+#speed burn enchantment effect                    				#
 #################################################################
 
-scoreboard objectives add SPEAR_FATIGUE dummy
-scoreboard players set @s SPEAR_FATIGUE 0
+scoreboard players add @s BACKSTAB 1

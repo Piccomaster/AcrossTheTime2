@@ -20,8 +20,12 @@ execute at @s positioned ~-3 ~-3 ~-3 as @e[dx=6,dy=6,dz=6,team=hostile,scores={G
 kill @e[distance=..10,type=marker,tag=Temp]
 ##--------------------------------
 
+##remove more damage
+scoreboard players set #count CAL 2
+execute if items entity @s weapon.mainhand #minecraft:swords[!custom_data~{Rarity:myt}] run function att2:gameplay/misc/durability/add_mainhand
+
 ##get damage data
-execute store result score #damage CAL run attribute @s attack_damage base get 0.6
+execute store result score #damage CAL run attribute @s attack_damage base get 1.5
 execute store result storage att2:damage value int 1 run scoreboard players get #damage CAL
 function att2:gameplay/score/player
 

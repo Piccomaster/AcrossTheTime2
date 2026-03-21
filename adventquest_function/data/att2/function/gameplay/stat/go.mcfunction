@@ -13,6 +13,9 @@ function att2:gameplay/stat/resistance/go
 function att2:gameplay/stat/speed/go
 function att2:gameplay/stat/strength/go
 
+function att2:gameplay/stat/critical/go
+#function att2:gameplay/stat/strength/go
+
 ##stat bossbar Display
 execute if score @s STAT_DISPLAY matches 1.. run function att2:gameplay/stat/display/go
 #temp jump safe
