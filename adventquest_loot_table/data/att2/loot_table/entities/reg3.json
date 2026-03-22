@@ -125,7 +125,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -140,7 +140,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -202,7 +202,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -217,7 +217,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -232,7 +232,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -247,7 +247,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -262,7 +262,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -277,7 +277,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -292,7 +292,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -307,7 +307,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -322,7 +322,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -337,7 +337,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -352,7 +352,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -367,7 +367,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -382,7 +382,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -397,7 +397,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -412,7 +412,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -427,7 +427,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -442,7 +442,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -457,7 +457,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -472,7 +472,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -487,7 +487,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -502,7 +502,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -517,7 +517,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -532,7 +532,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -547,7 +547,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -562,7 +562,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -577,7 +577,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -592,7 +592,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -607,7 +607,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -622,7 +622,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -637,7 +637,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -652,7 +652,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -667,7 +667,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -682,7 +682,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -697,7 +697,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -712,7 +712,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -727,7 +727,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -742,7 +742,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -757,7 +757,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -772,7 +772,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -787,7 +787,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -802,7 +802,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -817,7 +817,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -832,7 +832,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -847,7 +847,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -862,7 +862,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -877,7 +877,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -892,7 +892,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -907,7 +907,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -922,7 +922,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -937,7 +937,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -952,7 +952,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -967,7 +967,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -982,7 +982,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -997,7 +997,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1012,7 +1012,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1027,7 +1027,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1042,7 +1042,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1057,7 +1057,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1072,7 +1072,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1135,66 +1135,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/chainmail_helmet_357",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/chainmail_leggings_359",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/diamond_chestplate_354",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/diamond_helmet_361",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/ult/iron_boots_356",
           "conditions": [
             {
@@ -1233,7 +1173,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1248,14 +1188,14 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/bow_338",
+          "value": "att2:item_data/armor/ult/leather_chestplate_362",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1270,7 +1210,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/crossbow_339",
+          "value": "att2:item_data/armor/ult/leather_leggings_363",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1279,21 +1219,6 @@
                 "target": "this",
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/diamond_sword_341",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
               }
             }
           ]
@@ -1338,7 +1263,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1353,7 +1278,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1563,7 +1488,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1578,7 +1503,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1593,7 +1518,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1608,7 +1533,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1623,7 +1548,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1638,7 +1563,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1653,7 +1578,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1668,7 +1593,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/shield_196",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
               }
             }
           ]
@@ -1750,6 +1690,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/iron_hoe_362",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/leg/netherite_axe_313",
           "conditions": [
             {
@@ -1758,7 +1713,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1773,7 +1728,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1788,7 +1743,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1803,7 +1758,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1818,14 +1773,14 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/leg/shield_196",
+          "value": "att2:item_data/weapon/leg/netherite_hoe_386",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1833,7 +1788,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.000000001
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1871,6 +1826,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/leg/stone_sword_191",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/stone_hoe_437",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1953,7 +1923,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1968,7 +1938,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1983,7 +1953,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1998,7 +1968,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2013,7 +1983,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2028,7 +1998,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2043,7 +2013,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2058,7 +2028,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2073,7 +2043,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2088,7 +2058,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2103,7 +2073,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2118,7 +2088,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2133,7 +2103,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2148,7 +2118,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2163,7 +2133,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2178,7 +2148,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/shield_195",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
               }
             }
           ]
@@ -2260,6 +2245,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/iron_hoe_361",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/epi/netherite_axe_308",
           "conditions": [
             {
@@ -2268,7 +2268,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2283,7 +2283,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2298,7 +2298,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2313,7 +2313,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2328,14 +2328,14 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/epi/shield_195",
+          "value": "att2:item_data/weapon/epi/netherite_hoe_385",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2343,7 +2343,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.000000001
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2381,6 +2381,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/epi/stone_sword_188",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/stone_hoe_436",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2456,6 +2471,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/rar/iron_helmet_115",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/iron_helmet_116",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2568,7 +2598,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2583,7 +2613,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2598,7 +2628,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2613,7 +2643,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2628,7 +2658,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2643,7 +2673,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2658,7 +2688,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2673,7 +2703,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2688,7 +2718,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2703,7 +2733,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2718,7 +2748,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2733,7 +2763,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/shield_194",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
               }
             }
           ]
@@ -2890,6 +2935,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/iron_hoe_359",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/iron_hoe_360",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/rar/netherite_axe_298",
           "conditions": [
             {
@@ -2898,7 +2973,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2913,7 +2988,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2928,7 +3003,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2943,7 +3018,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2958,7 +3033,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2973,7 +3048,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2988,7 +3063,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3003,7 +3078,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3018,14 +3093,14 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/rar/shield_194",
+          "value": "att2:item_data/weapon/rar/netherite_hoe_383",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3033,7 +3108,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.000000001
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/netherite_hoe_384",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3086,6 +3176,36 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/rar/stone_sword_185",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/stone_hoe_434",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/stone_hoe_435",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3220,7 +3340,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_boots_229",
+          "value": "att2:item_data/armor/unc/leather_helmet_223",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3235,7 +3355,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_helmet_223",
+          "value": "att2:item_data/armor/unc/leather_chestplate_225",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3265,6 +3385,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/leather_boots_229",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/unc/netherite_boots_230",
           "conditions": [
             {
@@ -3273,7 +3408,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3288,7 +3423,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3303,7 +3438,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3318,7 +3453,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3333,7 +3468,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3348,7 +3483,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3363,7 +3498,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3378,7 +3513,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3393,7 +3528,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3408,7 +3543,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3423,7 +3558,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3438,7 +3573,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3453,7 +3588,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3468,7 +3603,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3483,7 +3618,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3498,7 +3633,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3506,6 +3641,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/unc/bow_197",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/shield_193",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3670,6 +3820,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/iron_hoe_357",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/iron_hoe_358",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/unc/netherite_axe_288",
           "conditions": [
             {
@@ -3678,7 +3858,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3693,7 +3873,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3708,7 +3888,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3723,7 +3903,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3738,7 +3918,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3753,7 +3933,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3768,7 +3948,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3783,7 +3963,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3798,7 +3978,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3813,14 +3993,14 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/unc/shield_193",
+          "value": "att2:item_data/weapon/unc/netherite_hoe_381",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3828,7 +4008,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.000000001
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/netherite_hoe_382",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3895,14 +4090,29 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/chainmail_chestplate_71",
+          "value": "att2:item_data/weapon/unc/stone_hoe_432",
           "conditions": [
             {
               "condition": "random_chance",
               "chance": {
                 "type": "score",
                 "target": "this",
-                "score": "DropChanceCom",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/stone_hoe_433",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
             }
@@ -4030,36 +4240,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_helmet_25",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/com/netherite_boots_271",
           "conditions": [
             {
@@ -4068,7 +4248,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4083,7 +4263,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4098,7 +4278,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4113,7 +4293,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4128,7 +4308,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4143,7 +4323,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4158,7 +4338,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4173,7 +4353,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/shield_192",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
               }
             }
           ]
@@ -4330,6 +4525,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/iron_hoe_355",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/iron_hoe_356",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/com/netherite_axe_278",
           "conditions": [
             {
@@ -4338,7 +4563,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4353,7 +4578,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4368,7 +4593,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4383,7 +4608,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4398,7 +4623,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4413,7 +4638,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4428,7 +4653,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4443,7 +4668,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4458,7 +4683,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4473,14 +4698,14 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/com/shield_192",
+          "value": "att2:item_data/weapon/com/netherite_hoe_379",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4488,7 +4713,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.000000001
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/netherite_hoe_380",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4511,6 +4751,36 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/com/stone_sword_177",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/stone_hoe_430",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/stone_hoe_431",
           "conditions": [
             {
               "condition": "random_chance",

@@ -134,7 +134,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -149,7 +149,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -211,7 +211,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -226,7 +226,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -241,7 +241,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -256,7 +256,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -271,7 +271,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -286,7 +286,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -301,7 +301,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -316,7 +316,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -331,7 +331,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -346,7 +346,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -361,7 +361,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -376,7 +376,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -391,7 +391,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -406,7 +406,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -421,7 +421,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -436,7 +436,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -451,7 +451,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -466,7 +466,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -481,7 +481,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -496,7 +496,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -511,7 +511,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -526,7 +526,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -541,7 +541,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -556,7 +556,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -571,7 +571,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -586,7 +586,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -601,7 +601,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -616,7 +616,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -631,7 +631,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -646,7 +646,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -661,7 +661,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -676,7 +676,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -691,7 +691,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -706,7 +706,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -721,7 +721,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -736,7 +736,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -751,7 +751,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -766,7 +766,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -781,7 +781,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -796,7 +796,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -811,7 +811,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -826,7 +826,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -841,7 +841,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -856,7 +856,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -871,7 +871,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -886,7 +886,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -901,7 +901,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -916,7 +916,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -931,7 +931,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -946,7 +946,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -961,7 +961,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -976,7 +976,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -991,7 +991,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1006,7 +1006,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1021,7 +1021,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1036,7 +1036,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1051,7 +1051,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1066,7 +1066,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000014285714286
+                "scale": 0.000000000142857
               }
             }
           ]
@@ -1129,36 +1129,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/chainmail_helmet_357",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/chainmail_leggings_359",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/ult/diamond_chestplate_354",
           "conditions": [
             {
@@ -1167,7 +1137,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1182,14 +1152,14 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/iron_boots_356",
+          "value": "att2:item_data/armor/ult/leather_chestplate_362",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1204,7 +1174,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/iron_chestplate_358",
+          "value": "att2:item_data/armor/ult/leather_leggings_363",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1213,36 +1183,6 @@
                 "target": "this",
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/netherite_boots_360",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/ult/netherite_leggings_355",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
               }
             }
           ]
@@ -1287,67 +1227,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/iron_axe_342",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/iron_pickaxe_343",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/netherite_spear_344",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/weapon/ult/netherite_shovel_345",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUlt",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1377,7 +1257,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1392,7 +1272,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1407,7 +1287,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1422,7 +1302,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1437,7 +1317,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1452,7 +1332,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1467,7 +1347,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1482,7 +1362,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1497,7 +1377,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1512,7 +1392,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1527,7 +1407,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1542,7 +1422,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1557,7 +1437,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1572,7 +1452,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1587,7 +1467,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1602,7 +1482,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1625,6 +1505,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/leg/leather_boots_55",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/leg_armset/leather_chestplate_20",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1752,7 +1647,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1767,7 +1662,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1782,7 +1677,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1797,7 +1692,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1812,7 +1707,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceLeg",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/diamond_hoe_378",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1864,6 +1774,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/leg/stone_spear_445",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceLeg",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/epi/diamond_boots_195",
           "conditions": [
             {
@@ -1872,7 +1797,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1887,7 +1812,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1902,7 +1827,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1917,7 +1842,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1932,7 +1857,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1947,7 +1872,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1962,7 +1887,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1977,7 +1902,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -1992,7 +1917,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2007,7 +1932,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2022,7 +1947,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2037,7 +1962,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2052,7 +1977,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2067,7 +1992,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2082,7 +2007,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2097,7 +2022,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2150,6 +2075,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/epi_set/leather_boots_67",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/epi_set/leather_chestplate_15",
           "conditions": [
             {
               "condition": "random_chance",
@@ -2367,7 +2307,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2382,7 +2322,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2397,7 +2337,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2412,7 +2352,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2427,7 +2367,22 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceEpi",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/diamond_hoe_377",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2479,6 +2434,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/epi/stone_spear_444",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceEpi",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/rar/diamond_boots_190",
           "conditions": [
             {
@@ -2487,7 +2457,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2502,7 +2472,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2517,7 +2487,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2532,7 +2502,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2547,7 +2517,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2562,7 +2532,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2577,7 +2547,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2592,7 +2562,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2607,7 +2577,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2622,7 +2592,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2637,7 +2607,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2652,7 +2622,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2667,7 +2637,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2682,7 +2652,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2697,22 +2667,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/diamond_leggings_254",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2727,7 +2682,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -2795,6 +2750,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/rar/leather_boots_59",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/rar/leather_chestplate_11",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3019,21 +2989,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/rar/netherite_boots_288",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/rar/bow_215",
           "conditions": [
             {
@@ -3087,7 +3042,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3102,7 +3057,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3117,7 +3072,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3132,7 +3087,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3147,7 +3102,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3162,7 +3117,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3177,7 +3132,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3192,7 +3147,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3207,7 +3162,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3222,7 +3177,37 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceRar",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/diamond_hoe_375",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/rar/diamond_hoe_376",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceRar",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3304,120 +3289,30 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_boots_182",
+          "value": "att2:item_data/weapon/rar/stone_spear_442",
           "conditions": [
             {
               "condition": "random_chance",
               "chance": {
                 "type": "score",
                 "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "score": "DropChanceRar",
+                "scale": 0.000000001
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_boots_183",
+          "value": "att2:item_data/weapon/rar/stone_spear_443",
           "conditions": [
             {
               "condition": "random_chance",
               "chance": {
                 "type": "score",
                 "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_boots_336",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_chestplate_178",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_chestplate_179",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_chestplate_338",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_helmet_176",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_helmet_177",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "score": "DropChanceRar",
+                "scale": 0.000000001
               }
             }
           ]
@@ -3432,14 +3327,14 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_helmet_337",
+          "value": "att2:item_data/armor/unc/diamond_chestplate_334",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3447,37 +3342,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_leggings_180",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/diamond_leggings_181",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3492,7 +3357,52 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_boots_336",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_helmet_337",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_chestplate_338",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3507,14 +3417,149 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_boots_38",
+          "value": "att2:item_data/armor/unc/diamond_boots_340",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_boots_182",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_boots_183",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_chestplate_178",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_chestplate_179",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_helmet_176",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_helmet_177",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_leggings_180",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/diamond_leggings_181",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/leather_helmet_6",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3529,7 +3574,22 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_boots_39",
+          "value": "att2:item_data/armor/unc/leather_chestplate_7",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/leather_leggings_8",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3545,21 +3605,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/unc/leather_boots_9",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceUnc",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_chestplate_35",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3604,7 +3649,22 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_helmet_6",
+          "value": "att2:item_data/armor/unc/leather_chestplate_34",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/leather_chestplate_35",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3649,7 +3709,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/unc/leather_leggings_8",
+          "value": "att2:item_data/armor/unc/leather_boots_38",
           "conditions": [
             {
               "condition": "random_chance",
@@ -3658,6 +3718,51 @@
                 "target": "this",
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/leather_boots_39",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/netherite_boots_279",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/unc/netherite_boots_280",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3702,7 +3807,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3717,7 +3822,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3732,7 +3837,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3747,7 +3852,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3762,7 +3867,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3777,7 +3882,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3792,7 +3897,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3807,7 +3912,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3822,7 +3927,37 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceUnc",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/diamond_hoe_373",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/diamond_hoe_374",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3904,6 +4039,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/stone_spear_440",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/unc/stone_spear_441",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceUnc",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/com/diamond_boots_174",
           "conditions": [
             {
@@ -3912,7 +4077,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3927,7 +4092,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3942,7 +4107,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3957,7 +4122,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3972,7 +4137,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -3987,7 +4152,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4002,7 +4167,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4017,52 +4182,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_boots_30",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_boots_31",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_boots_5",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4070,126 +4190,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_1",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_26",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": {
-                "type": "score",
-                "target": "this",
-                "score": "DropChanceCom",
-                "scale": 0.000000001
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_chestplate_27",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4205,6 +4205,51 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/com/leather_helmet_2",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_chestplate_3",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_leggings_4",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_boots_5",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4249,6 +4294,36 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_chestplate_26",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_chestplate_27",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/armor/com/leather_leggings_28",
           "conditions": [
             {
@@ -4279,7 +4354,22 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/armor/com/leather_leggings_4",
+          "value": "att2:item_data/armor/com/leather_boots_30",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/armor/com/leather_boots_31",
           "conditions": [
             {
               "condition": "random_chance",
@@ -4302,7 +4392,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4317,7 +4407,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4332,7 +4422,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4347,7 +4437,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4362,7 +4452,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4377,7 +4467,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4392,7 +4482,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4407,7 +4497,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4422,7 +4512,7 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4437,7 +4527,37 @@
                 "type": "score",
                 "target": "this",
                 "score": "DropChanceCom",
-                "scale": 0.00000000066666666667
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/diamond_hoe_371",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000000666667
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/diamond_hoe_372",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000000666667
               }
             }
           ]
@@ -4460,6 +4580,36 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/weapon/com/stone_shovel_199",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/stone_spear_438",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "target": "this",
+                "score": "DropChanceCom",
+                "scale": 0.000000001
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/weapon/com/stone_spear_439",
           "conditions": [
             {
               "condition": "random_chance",
