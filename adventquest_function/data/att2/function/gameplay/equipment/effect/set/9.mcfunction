@@ -1,6 +1,7 @@
 #####################################
 #Made by Adventquest                #
 #Process effect on player           #
+#STR:2 LUC:4                        #
 #####################################
 
 # NOBLESSE

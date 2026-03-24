@@ -42,3 +42,8 @@ scoreboard players operation @s LUC_EQ += LUC ATTRIBUTE
 execute store result score HUN ATTRIBUTE run data get storage att2:equipment equipment.offhand.components."minecraft:custom_data".HUN
 #return HUN number
 scoreboard players operation @s HUN_EQ += HUN ATTRIBUTE
+
+#get CRT number
+execute store result score CRT ATTRIBUTE run data get storage att2:equipment equipment.offhand.components."minecraft:custom_data".CRT
+#return CRT number
+scoreboard players operation @s CRT_EQ += CRT ATTRIBUTE

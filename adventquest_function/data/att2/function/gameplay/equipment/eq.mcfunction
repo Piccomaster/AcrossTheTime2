@@ -42,3 +42,4 @@ scoreboard players set @s TIMER_HAS_EQ 1
 scoreboard players set @s TIMER_DAR_EQ 1
 scoreboard players set @s TIMER_LUC_EQ 1
 scoreboard players set @s TIMER_HUN_EQ 1
+scoreboard players set @s TIMER_CRT_EQ 1

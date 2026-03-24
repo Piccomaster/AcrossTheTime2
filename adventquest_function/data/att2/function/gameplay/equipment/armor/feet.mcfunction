@@ -43,6 +43,11 @@ execute store result score HUN ATTRIBUTE run data get storage att2:equipment equ
 #return HUN number
 scoreboard players operation @s HUN_EQ += HUN ATTRIBUTE
 
+#get CRT number
+execute store result score CRT ATTRIBUTE run data get storage att2:equipment equipment.feet.components."minecraft:custom_data".CRT
+#return CRT number
+scoreboard players operation @s CRT_EQ += CRT ATTRIBUTE
+
 #get armor set number
 scoreboard players reset SetId_4 ATTRIBUTE
 execute store result score SetId_4 ATTRIBUTE run data get storage att2:equipment equipment.feet.components."minecraft:custom_data".SetId

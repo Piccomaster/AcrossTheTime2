@@ -1,6 +1,7 @@
 #####################################
 #Made by Adventquest                #
 #Process effect on player           #
+#STR:2 HAS:4 SPD:2                  #
 #####################################
 
 # LUNE

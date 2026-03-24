@@ -1,9 +1,10 @@
 #####################################
 #Made by Adventquest                #
 #Process effect on player           #
+#STR:4 RES:2                        #
 #####################################
 
-# S
+# S (ANGBAND)
 advancement grant @s only att2:adventure/s
 
 #get STR number

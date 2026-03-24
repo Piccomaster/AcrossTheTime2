@@ -22,6 +22,8 @@ scoreboard players operation @s DAR_EQ += 1 CAL
 scoreboard players operation @s LUC_EQ += 1 CAL
 #get HUN number
 scoreboard players operation @s HUN_EQ += 1 CAL
+#get CRT number
+scoreboard players operation @s CRT_EQ += 1 CAL
 
 #bonus
 function att2:gameplay/legendary/hermetique/bonus
