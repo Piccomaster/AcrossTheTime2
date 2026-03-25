@@ -16,5 +16,26 @@
     "mainhand"
   ],
   "supported_items": "#minecraft:axes",
-  "weight": 1
+  "weight": 1,
+  "effects": {
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "hostile"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/enchantment/armorbreak/trigger"
+        }
+      }
+    ]
+  }
 }

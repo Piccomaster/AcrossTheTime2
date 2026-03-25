@@ -18,6 +18,8 @@ execute in overworld run tp 00000001-0000-006f-0000-00010000006f 0.0 0.0 0.0
 ##particle
 particle minecraft:dust_pillar{block_state:"minecraft:redstone_block"} ~ ~ ~ 0.5 0.5 0.5 0 20 normal
 
+##test armorbreak
+execute if score #armorbreak CAL matches 1.. run function att2:gameplay/enchantment/armorbreak/trigger
 ##damage
 $damage @s $(value) att2_damage:player_attack by @p[predicate=att2_pre:score/player]
 ##detection health

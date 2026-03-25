@@ -19,7 +19,8 @@ scoreboard players operation @s SPELL41_SPD = SPELL41_SPD CAL
 ##other players
 execute at @s as @a[distance=0.1..2] run function att2:gameplay/dahal/action/spell41/other_player
 #effect other
-execute at @s as @e[type=#att2_entity:sp_effect_pet] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR at @s run function att2:gameplay/dahal/action/spell41/effect_other
+function att2:gameplay/score/player
+execute at @s as @e[distance=..50,type=#att2_entity:sp_effect_pet,predicate=att2_pre:score/owner] run function att2:gameplay/dahal/action/spell41/effect_other
 
 #dahal
 ##dahal_cost
@@ -28,7 +29,6 @@ scoreboard players operation #DAHAL_TICK_COST CAL = SP41_1 DAHAL_COST
 scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
 scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
 
-tag @a[distance=..2] add Cicatrization
 function att2:gameplay/dahal/action/spell41/cooldown
 scoreboard players add @s SPELL41_LVL 1
 function att2:gameplay/dahal/bonus_xp

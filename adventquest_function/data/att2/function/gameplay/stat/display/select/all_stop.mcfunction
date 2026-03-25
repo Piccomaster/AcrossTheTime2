@@ -5,6 +5,7 @@
 
 #
 scoreboard players set @s STR_DISPLAY 0
+scoreboard players set @s CRT_DISPLAY 0
 scoreboard players set @s RES_DISPLAY 0
 scoreboard players set @s SPD_DISPLAY 0
 scoreboard players set @s HAS_DISPLAY 0

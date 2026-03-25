@@ -9,6 +9,9 @@ data modify storage att2:stat_display show set value []
 #STR
 execute if score @s STR_DISPLAY matches 1.. if score @s STR_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"@s",objective:"STR_TOT"},color:green}]}
 execute if score @s STR_DISPLAY matches 1.. unless score @s STR_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"@s",objective:"STR_TOT"},color:red}]}
+#CRT
+execute if score @s CRT_DISPLAY matches 1.. if score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:green}]}
+execute if score @s CRT_DISPLAY matches 1.. unless score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:red}]}
 #RES
 execute if score @s RES_DISPLAY matches 1.. if score @s RES_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.res,color:"gray",with:[{score:{name:"@s",objective:"RES_TOT"},color:green}]}
 execute if score @s RES_DISPLAY matches 1.. unless score @s RES_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.res,color:"gray",with:[{score:{name:"@s",objective:"RES_TOT"},color:red}]}

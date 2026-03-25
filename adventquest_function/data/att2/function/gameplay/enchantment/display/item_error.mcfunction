@@ -3,9 +3,7 @@
 #put item interact                      						#
 #################################################################
 
-#player->SET
-item replace entity @e[tag=SET,limit=1,type=armor_stand] weapon.mainhand from entity @s weapon.mainhand
-#GET->player
-item replace entity @s weapon.mainhand from entity @e[tag=GET,limit=1,type=armor_stand] weapon.mainhand
-#SET->GET
-item replace entity @e[tag=GET,limit=1,type=armor_stand] weapon.mainhand from entity @e[tag=SET,limit=1,type=armor_stand] weapon.mainhand
+function att2:dialogs/gameplay/enchantment/item_error
+
+playsound block.beacon.deactivate ambient @a ~ ~ ~ 2 1.2
+execute at 0428dc94-000a-09dc-04a1-935c00000004 run particle witch ~ ~ ~ 0.5 0.5 0.5 0.2 50 normal

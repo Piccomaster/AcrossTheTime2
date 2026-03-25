@@ -15,10 +15,10 @@ scoreboard players operation @s ARR_POWER /= 100 CAL
 ##get tracking_arrow lvl
 execute store result score #lvl CAL run data get entity @s item.components."minecraft:custom_data".tracking_arrow
 
-##explosive damage = ARR_POWER * (100+lvl*30)/100
+##explosive damage = ARR_POWER * (100+lvl*5)/100
 ##get power score
 scoreboard players operation #percent CAL = #lvl CAL
-scoreboard players operation #percent CAL *= 20 CAL
+scoreboard players operation #percent CAL *= 5 CAL
 scoreboard players add #percent CAL 100
 scoreboard players operation #damage CAL = @s ARR_POWER
 scoreboard players operation #damage CAL *= #percent CAL

@@ -7,6 +7,7 @@ summon minecraft:armor_stand ~ ~ ~ {Marker:1,Invulnerable:1b,Invisible:1b,Tags:[
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellEarthquake] SPELL10_SLCT = @s SPELL10_SLCT
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellEarthquake] SPELL10_OWNER = @s NUMEROJOUEUR
 scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellEarthquake] DAHALBURST = @s DAHALBURST
+scoreboard players operation @e[type=minecraft:armor_stand,tag=SpellEarthquake] CRT_TOT = @s CRT_TOT
 ##if have nove/corruption ->Tags
 execute as @s[tag=Nova] run tag @e[type=minecraft:armor_stand,tag=SpellEarthquake] add Nova
 execute as @s[tag=Corrupted] run tag @e[type=minecraft:armor_stand,tag=SpellEarthquake] add Corrupted

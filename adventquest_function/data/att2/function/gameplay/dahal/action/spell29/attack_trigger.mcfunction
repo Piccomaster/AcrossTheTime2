@@ -6,4 +6,6 @@
 ##get attacker
 execute on attacker at @s on vehicle run function att2:gameplay/dahal/action/spell29/damage_cal
 ##range damage effect
-execute on attacker on vehicle at @s run function att2:gameplay/dahal/action/spell29/damage with storage att2:score
+function att2:gameplay/dahal/action/spell29/damage with storage att2:score
+scoreboard players set #CriticalSpellTrigger CAL 0
+scoreboard players set #ForceReplace ENEMYHEALTH 0

@@ -3,12 +3,12 @@
 #reduce elit pr en                                        	#
 #############################################################
 
-data modify entity @s equipment.head.components."minecraft:enchantments"."minecraft:protection" set from storage armor temp_value_6
-data modify entity @s equipment.chest.components."minecraft:enchantments"."minecraft:protection" set from storage armor temp_value_5
-data modify entity @s equipment.legs.components."minecraft:enchantments"."minecraft:protection" set from storage armor temp_value_6
-data modify entity @s equipment.feet.components."minecraft:enchantments"."minecraft:protection" set from storage armor temp_value_6
+item modify entity @s armor.head [{function:set_enchantments,enchantments:{"minecraft:protection":0}}]
+item modify entity @s armor.chest [{function:set_enchantments,enchantments:{"minecraft:protection":{type:score,target:{type:fixed,name:"#total"},score:"CAL",scale:1}}}]
+item modify entity @s armor.legs [{function:set_enchantments,enchantments:{"minecraft:protection":0}}]
+item modify entity @s armor.feet [{function:set_enchantments,enchantments:{"minecraft:protection":0}}]
 #reset
-scoreboard players reset temp_value_1 CAL
-scoreboard players reset temp_value_2 CAL
-scoreboard players reset temp_value_3 CAL
-scoreboard players reset temp_value_4 CAL
+scoreboard players reset #head CAL
+scoreboard players reset #chest CAL
+scoreboard players reset #legs CAL
+scoreboard players reset #feet CAL

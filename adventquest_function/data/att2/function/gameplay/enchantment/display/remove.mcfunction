@@ -85,3 +85,7 @@ execute if score remove ENCHANTMENT matches 2 if score abyssdiver ENCHANTMENT ma
 execute if score remove ENCHANTMENT matches 2 if score cooldownrush ENCHANTMENT matches 1.. run function att2:gameplay/enchantment/display/detection/cooldownrush_remove
 #treasurehunter_remove
 execute if score remove ENCHANTMENT matches 2 if score treasurehunter ENCHANTMENT matches 1.. run function att2:gameplay/enchantment/display/detection/treasurehunter_remove
+#wrath_accumulator_remove
+execute if score remove ENCHANTMENT matches 2 if score wrath_accumulator ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/wrath_accumulator_remove
+#bloodreaver_remove
+execute if score remove ENCHANTMENT matches 2 if score bloodreaver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/bloodreaver_remove

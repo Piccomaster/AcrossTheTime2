@@ -13,6 +13,7 @@ scoreboard players operation stock RUNE_POWDER -= rune_cost ENCHANTMENT
 function att2:dialogs/gameplay/enchantment/materials_reduce
 #advancement test
 function att2:advancement/test_all/enchantments/anchorshot
+item modify entity 0428dc94-000a-09dc-04a1-935c00000001 weapon.mainhand [{function:set_components,components:{use_effects:{can_sprint:false,speed_multiplier:0}}}]
 #add enchantment
-data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:anchorshot"
-$enchant @e[tag=GET,type=armor_stand,limit=1] att2_enchantment:anchorshot $(anchorshot)
+data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:anchorshot"
+$enchant 0428dc94-000a-09dc-04a1-935c00000001 att2_enchantment:anchorshot $(anchorshot)

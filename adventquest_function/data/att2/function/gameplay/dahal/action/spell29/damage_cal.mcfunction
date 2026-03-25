@@ -4,8 +4,12 @@
 #Damage=MinDamage+(MaxDamage−MinDamage)*[(SLCT_LVL-1)/(MAX_LVL-1)]^2   #
 #################################################################
 
+##select icon
+scoreboard players set #ForceReplace ENEMYHEALTH 1
+function att2:gameplay/enemy_health/select_icon/swords
 ##damage
 function att2:gameplay/score/owner
+
 ##damage cal
 ##get player damage
 execute store result score #damage CAL run attribute @p[predicate=att2_pre:score/player] attack_damage base get
@@ -19,6 +23,10 @@ scoreboard players operation #hold_damage CAL *= #str CAL
 scoreboard players operation #hold_damage CAL /= 2 CAL
 scoreboard players operation #hold_damage CAL *= 10 CAL
 scoreboard players operation #damage CAL += #hold_damage CAL
+
+##critical
+execute as @p[distance=..50,predicate=att2_pre:score/player] run function att2:gameplay/dahal/action/spell29/critical_detection
+
 execute store result storage att2:score damage int 0.1 run scoreboard players get #damage CAL
 
 ##add tag select

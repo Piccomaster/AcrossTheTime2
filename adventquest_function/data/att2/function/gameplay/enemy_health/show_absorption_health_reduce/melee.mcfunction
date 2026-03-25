@@ -15,7 +15,7 @@ execute at @s anchored eyes positioned ^ ^ ^ run summon item ~ ~ ~ {Tags:["Melee
 execute at @s on attacker run rotate @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] facing entity @s eyes
 execute as @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] at @s run tp @s ^ ^ ^0.4
 
-##update sprite icon
+##update sprite select_icon
 execute unless score #ForceReplace ENEMYHEALTH matches 1 on attacker run function att2:gameplay/enemy_health/select_icon/detection
 data modify entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[0].sprite set from storage att2:enemy_health icon
 ##set health

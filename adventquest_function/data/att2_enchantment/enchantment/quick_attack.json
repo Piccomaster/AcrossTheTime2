@@ -1,7 +1,7 @@
 {
     "anvil_cost": 7,
     "description": {
-    "translate": "enchantment.att2.quick_attack"
+        "translate": "enchantment.att2.quick_attack"
     },
     "max_cost": {
         "base": 7,
@@ -20,7 +20,11 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "amount": -0.4,
+                "amount": {
+                    "type": "linear",
+                    "base": -0.05,
+                    "per_level_above_first": -0.05
+                },
                 "attribute": "minecraft:attack_damage",
                 "id": "quick_attack",
                 "operation": "add_multiplied_total"
@@ -32,7 +36,7 @@
                 "enchanted": "attacker",
                 "effect": {
                     "type": "minecraft:change_item_damage",
-                    "amount": 3.0
+                    "amount": 4.0
                 }
             },
             {

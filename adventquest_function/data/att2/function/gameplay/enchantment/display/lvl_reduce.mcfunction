@@ -74,3 +74,7 @@ execute if score abyssdiver ENCHANTMENT matches 0.. run function att2:gameplay/e
 execute if score cooldownrush ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/cooldownrush_reduce
 #treasurehunter_reduce
 execute if score treasurehunter ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/treasurehunter_reduce
+#wrath_accumulator_reduce
+execute if score wrath_accumulator ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/wrath_accumulator_reduce
+#bloodreaver_reduce
+execute if score bloodreaver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/bloodreaver_reduce

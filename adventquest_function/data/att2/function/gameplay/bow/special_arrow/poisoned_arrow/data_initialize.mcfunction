@@ -4,7 +4,8 @@
 ##################################################
 
 ##7-9
-execute store result score @s SPECIALARROW run data get storage att2:bow data.item.components."minecraft:custom_data".poisoned_arrow
+execute store result score #lvl CAL run data get storage att2:bow data.item.components."minecraft:custom_data".poisoned_arrow
+scoreboard players operation @s SPECIALARROW = #lvl CAL
 scoreboard players add @s SPECIALARROW 6
 
 ##ride armor_stand
@@ -18,8 +19,7 @@ team join green @s
 data modify entity @s Glowing set value true
 
 ##set base score
-scoreboard players operation #LIFETIME CAL = @s SPECIALARROW
-scoreboard players remove #LIFETIME CAL 3
+scoreboard players operation #LIFETIME CAL = #lvl CAL
 scoreboard players operation #LIFETIME CAL *= 100 CAL
 scoreboard players operation @n[distance=..5,type=armor_stand,tag=New,tag=PoisonedArrow] LIFETIME = #LIFETIME CAL
 scoreboard players operation @n[distance=..5,type=armor_stand,tag=New,tag=PoisonedArrow] SPECIALARROW = @s SPECIALARROW
@@ -28,3 +28,7 @@ ride @n[distance=..5,type=armor_stand,tag=New,tag=PoisonedArrow] mount @s
 ##remove new
 tag @e[distance=..5,type=armor_stand,tag=New,tag=PoisonedArrow] remove New
 #tag @e[distance=..5,type=item_display,tag=New,tag=PoisonedArrow] remove New
+
+##remove more damage
+execute on origin if items entity @s weapon.mainhand #minecraft:bows run return run item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/mainhand":{type:score,target:{type:fixed,name:"#lvl"},score:"CAL"}}}]
+execute on origin if items entity @s weapon.offhand #minecraft:bows run item modify entity @s weapon.offhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/offhand":{type:score,target:{type:fixed,name:"#lvl"},score:"CAL"}}}]

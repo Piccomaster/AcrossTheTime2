@@ -69,15 +69,15 @@ scoreboard players set DISTANCE_LVL9 SPELL_DATA 9
 scoreboard players set DISTANCE_LVL10 SPELL_DATA 10
 ##HEALING cal
 scoreboard players set COUNT_LVL1 SPELL_DATA 4
-scoreboard players set COUNT_LVL2 SPELL_DATA 4
-scoreboard players set COUNT_LVL3 SPELL_DATA 8
-scoreboard players set COUNT_LVL4 SPELL_DATA 8
-scoreboard players set COUNT_LVL5 SPELL_DATA 16
-scoreboard players set COUNT_LVL6 SPELL_DATA 16
-scoreboard players set COUNT_LVL7 SPELL_DATA 32
-scoreboard players set COUNT_LVL8 SPELL_DATA 32
-scoreboard players set COUNT_LVL9 SPELL_DATA 64
-scoreboard players set COUNT_LVL10 SPELL_DATA 128
+scoreboard players set COUNT_LVL2 SPELL_DATA 12
+scoreboard players set COUNT_LVL3 SPELL_DATA 20
+scoreboard players set COUNT_LVL4 SPELL_DATA 28
+scoreboard players set COUNT_LVL5 SPELL_DATA 36
+scoreboard players set COUNT_LVL6 SPELL_DATA 44
+scoreboard players set COUNT_LVL7 SPELL_DATA 52
+scoreboard players set COUNT_LVL8 SPELL_DATA 60
+scoreboard players set COUNT_LVL9 SPELL_DATA 68
+scoreboard players set COUNT_LVL10 SPELL_DATA 80
 ##time cal
 scoreboard players operation TIMER_LVL1 SPELL_DATA = lvl1 SPELL42_TIMER
 scoreboard players operation TIMER_LVL1 SPELL_DATA /= 20 CAL

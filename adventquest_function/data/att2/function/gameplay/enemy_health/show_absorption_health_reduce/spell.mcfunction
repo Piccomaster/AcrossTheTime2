@@ -17,6 +17,11 @@ execute as @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] at @s run tp @s ^ ^
 
 ##update spell icon
 data modify entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[0].sprite set from storage att2:enemy_health spell_icon
+
+##particle
+execute if score #CriticalSpellTrigger CAL matches 1 at @s anchored eyes positioned ^ ^ ^ run function att2:gameplay/dahal/action/critical/particle
+execute if score #CriticalSpellTrigger CAL matches 1 on attacker at @s run function att2:gameplay/dahal/action/critical/sound
+
 ##set health
 #absorption
 execute store result entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[2].with[0] int 1 run scoreboard players get #absorption_health CAL

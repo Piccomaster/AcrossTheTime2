@@ -17,9 +17,9 @@ scoreboard players operation rune_return ENCHANTMENT = rune_cost ENCHANTMENT
 scoreboard players operation rune_return ENCHANTMENT *= 25 CAL
 scoreboard players operation rune_return ENCHANTMENT /= 100 CAL
 ##remove components
-data remove entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand.components."minecraft:blocks_attacks"
-data remove entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand.components."minecraft:use_cooldown"
-data remove entity @e[tag=GET,limit=1,type=armor_stand] equipment.mainhand.components."minecraft:consumable"
+data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:blocks_attacks"
+data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:use_cooldown"
+data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:consumable"
 #dialogs
 function att2:gameplay/enchantment/esc_return with storage att2:enchantment
 #add rune
@@ -32,4 +32,4 @@ scoreboard players reset rune_return ENCHANTMENT
 scoreboard players reset esc_cost ENCHANTMENT
 scoreboard players reset rune_cost ENCHANTMENT
 #remove enchantment
-data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:precisionblock"
+data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:precisionblock"

@@ -45,7 +45,7 @@ summon armor_stand ~ ~0.5 ~ {Tags:["New","Spell33","ATK"],Marker:true,Invisible:
 
 ##sync cap
 scoreboard players operation @n[distance=..2,type=armor_stand,tag=New,tag=Spell33,tag=ATK] SPELL33_SLCT = @s SPELL33_CAP
-
+scoreboard players operation @n[distance=..2,type=armor_stand,tag=New,tag=Spell33,tag=ATK] CRT_TOT = @s CRT_TOT
 ##remove tag
 tag @s remove New
 ##particle

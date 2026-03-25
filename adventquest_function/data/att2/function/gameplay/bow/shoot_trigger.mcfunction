@@ -24,6 +24,10 @@ scoreboard players add #percent CAL 20
 scoreboard players operation #percent CAL < 100 CAL
 ##100%
 #tellraw @a [{score:{name:"#motion0",objective:"CAL"}},{text:"\n"},{score:{name:"#motion1",objective:"CAL"}},{text:"\n"},{score:{name:"#motion2",objective:"CAL"}},{text:"\n"},{score:{name:"#TotalMotion",objective:"CAL"}},{text:"\n"},{score:{name:"#percent",objective:"CAL"}}]
+
+##color
+team join gray @s
+data modify entity @s Glowing set value true
 ##add once tag
 tag @s add SHOOTED
 ##get shoot weapon data
@@ -47,11 +51,20 @@ scoreboard players operation @s ARR_POWER /= 100 CAL
 scoreboard players operation @s ARR_POWER *= #percent CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL
 
-##anchorshot
-execute store result score #anchorshot CAL run data get storage att2:bow data.weapon.components."minecraft:enchantments"."att2_enchantment:anchorshot" 20
+#######################################################critical
+execute on origin run function att2:gameplay/bow/critical_detection
+execute if score #RNG CAL < #Critical CAL run tag @s add CRT_ARROW
+execute if score #RNG CAL < #Critical CAL run scoreboard players operation @s ARR_POWER *= #percent CAL
+execute if score #RNG CAL < #Critical CAL run scoreboard players operation @s ARR_POWER /= 100 CAL
+#######################################################critical
+
+
+########################################################anchorshot enchantment
+execute store result score #anchorshot CAL run data get storage att2:bow data.weapon.components."minecraft:enchantments"."att2_enchantment:anchorshot" 10
 scoreboard players add #anchorshot CAL 100
 scoreboard players operation @s ARR_POWER *= #anchorshot CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL
+########################################################anchorshot enchantment
 
 ##damage 0
 data modify entity @s damage set value -1

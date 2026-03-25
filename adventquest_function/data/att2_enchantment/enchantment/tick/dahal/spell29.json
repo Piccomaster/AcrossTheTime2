@@ -60,6 +60,24 @@
           "type": "run_function",
           "function": "att2:gameplay/dahal/action/spell29/attack_trigger"
         }
+      },
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "damage_source_properties",
+            "predicate": {
+              "source_entity": {
+                "type": "minecraft:vex"
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/dahal/action/spell29/attack_trigger"
+        }
       }
     ]
   },

@@ -3,6 +3,8 @@
 #shield use trigger                                         #
 #############################################################
 
+##enchantments detection
+execute if items entity @s weapon.mainhand #minecraft:swords[enchantments~[{enchantment:"att2_enchantment:sscombo"}]] run function att2:gameplay/enchantment/sscombo/block_trigger
 ##base particle
 function att2:gameplay/equipment/weapon/shield/base_particle
 

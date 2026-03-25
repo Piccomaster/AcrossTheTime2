@@ -4,6 +4,7 @@
 #################################################################
 
 ##test if cooldown not ready
+
 $execute if score @s COOLDOWN$(select) matches 1.. run return run scoreboard players add @s Spell_Bundle 1
 
 ##test if success -> next

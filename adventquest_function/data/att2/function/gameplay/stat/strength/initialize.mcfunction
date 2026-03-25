@@ -3,9 +3,6 @@
 #Initialize strength                             #
 ##################################################
 
-scoreboard objectives add STR dummy
-scoreboard players set @s STR 0
-
 scoreboard objectives add STR_DATA dummy
 scoreboard players set @s STR_DATA 0
 
@@ -14,6 +11,9 @@ scoreboard players set @s STR_TOT 0
 
 scoreboard objectives add STR_BASE dummy
 scoreboard players set @s STR_BASE 0
+
+scoreboard objectives add STR_FO dummy
+scoreboard players set @s STR_FO 0
 
 scoreboard objectives add STR_EQ dummy
 scoreboard players set @s STR_EQ 0
@@ -33,6 +33,7 @@ scoreboard players set @s STR_EXT 0
 scoreboard objectives add STR_LE dummy
 scoreboard players set @s STR_LE 0
 
+scoreboard objectives add TIMER_STR_FO dummy
 scoreboard objectives add TIMER_STR_SP dummy
 scoreboard objectives add TIMER_STR_EQ dummy
 scoreboard objectives add TIMER_STR_EXT dummy

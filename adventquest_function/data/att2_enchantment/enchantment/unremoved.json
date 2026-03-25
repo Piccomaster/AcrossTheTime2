@@ -13,9 +13,9 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "head"
+    "any"
   ],
-  "supported_items": "#minecraft:enchantable/head_armor",
+  "supported_items": "#minecraft:enchantable/durability",
   "weight": 1,
   "effects": {
     "minecraft:prevent_armor_change": {}

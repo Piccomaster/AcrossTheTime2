@@ -3,7 +3,7 @@
 #particle trail                                 #
 #################################################
 
-$particle trail{target:$(Pos),color:16740352,duration:10} ~ ~ ~ 0.3 0.3 0.3 0 5
+$particle trail{target:$(Pos),color:16740352,duration:10} ~ ~ ~ 0.3 0.3 0.3 0 10
 
 ##Kill
 execute store result score #count CAL run data get entity @s Item.count

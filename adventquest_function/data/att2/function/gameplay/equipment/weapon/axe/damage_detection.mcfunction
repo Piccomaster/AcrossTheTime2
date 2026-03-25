@@ -20,6 +20,11 @@ execute store result score #damage CAL run data get entity @s item.components."m
 scoreboard players add #damage CAL 1
 
 ##health icon
+
+#test armor break
+scoreboard players set #armorbreak CAL 0
+execute on passengers store result score #armorbreak CAL run data get entity @s item.components."minecraft:enchantments"."att2_enchantment:armorbreak"
+
 ##transfer weapon
 execute on passengers run item replace entity 00000001-0000-006f-0000-00010000006f weapon.mainhand from entity @s container.0
 execute as 00000001-0000-006f-0000-00010000006f at @s run function att2:gameplay/enemy_health/select_icon/axes

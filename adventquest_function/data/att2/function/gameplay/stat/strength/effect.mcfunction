@@ -11,6 +11,7 @@ scoreboard players operation @s STR_TOT += @s STR_EXT
 scoreboard players operation @s STR_TOT += @s STR_PO
 scoreboard players operation @s STR_TOT += @s STR_EH
 scoreboard players operation @s STR_TOT += @s STR_LE
+scoreboard players operation @s STR_TOT += @s STR_FO
 
 ##get weapon base attack|speed
 execute store result score #base_damage CAL run attribute @s minecraft:attack_damage modifier value get minecraft:attack_damage

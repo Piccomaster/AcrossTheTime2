@@ -51,6 +51,8 @@ scoreboard players reset speedsave ENCHANTMENT
 scoreboard players reset abyssdiver ENCHANTMENT
 scoreboard players reset cooldownrush ENCHANTMENT
 scoreboard players reset treasurehunter ENCHANTMENT
+scoreboard players reset wrath_accumulator ENCHANTMENT
+scoreboard players reset bloodreaver ENCHANTMENT
 
 
 scoreboard players reset rune_cost ENCHANTMENT

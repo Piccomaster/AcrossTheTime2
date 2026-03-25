@@ -277,3 +277,27 @@ scoreboard players set treasurehunter_esc_2 ENCHANTMENT_DATA 4
 scoreboard players set treasurehunter_rune_2 ENCHANTMENT_DATA 400
 scoreboard players set treasurehunter_esc_3 ENCHANTMENT_DATA 6
 scoreboard players set treasurehunter_rune_3 ENCHANTMENT_DATA 600
+
+#bloodreaver
+scoreboard players set bloodreaver_esc_1 ENCHANTMENT_DATA 3
+scoreboard players set bloodreaver_rune_1 ENCHANTMENT_DATA 200
+scoreboard players set bloodreaver_esc_2 ENCHANTMENT_DATA 5
+scoreboard players set bloodreaver_rune_2 ENCHANTMENT_DATA 400
+scoreboard players set bloodreaver_esc_3 ENCHANTMENT_DATA 7
+scoreboard players set bloodreaver_rune_3 ENCHANTMENT_DATA 600
+scoreboard players set bloodreaver_esc_4 ENCHANTMENT_DATA 9
+scoreboard players set bloodreaver_rune_4 ENCHANTMENT_DATA 800
+scoreboard players set bloodreaver_esc_5 ENCHANTMENT_DATA 12
+scoreboard players set bloodreaver_rune_5 ENCHANTMENT_DATA 1000
+
+#wrath_accumulator
+scoreboard players set wrath_accumulator_esc_1 ENCHANTMENT_DATA 2
+scoreboard players set wrath_accumulator_rune_1 ENCHANTMENT_DATA 200
+scoreboard players set wrath_accumulator_esc_2 ENCHANTMENT_DATA 4
+scoreboard players set wrath_accumulator_rune_2 ENCHANTMENT_DATA 400
+scoreboard players set wrath_accumulator_esc_3 ENCHANTMENT_DATA 6
+scoreboard players set wrath_accumulator_rune_3 ENCHANTMENT_DATA 600
+scoreboard players set wrath_accumulator_esc_4 ENCHANTMENT_DATA 8
+scoreboard players set wrath_accumulator_rune_4 ENCHANTMENT_DATA 800
+scoreboard players set wrath_accumulator_esc_5 ENCHANTMENT_DATA 10
+scoreboard players set wrath_accumulator_rune_5 ENCHANTMENT_DATA 1000

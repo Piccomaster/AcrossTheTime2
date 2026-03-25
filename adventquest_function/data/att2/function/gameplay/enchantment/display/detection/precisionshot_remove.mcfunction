@@ -29,4 +29,4 @@ scoreboard players reset rune_return ENCHANTMENT
 scoreboard players reset esc_cost ENCHANTMENT
 scoreboard players reset rune_cost ENCHANTMENT
 #remove enchantment
-data remove entity @e[tag=GET,type=armor_stand,limit=1] equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:precisionshot"
+data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:precisionshot"

@@ -1,0 +1,60 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.minecraft.thorns"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "att2_damage:player_attack",
+              "max_damage": {
+                "type": "linear",
+                "base": 8,
+                "per_level_above_first": 8
+              },
+              "min_damage": {
+                "type": "linear",
+                "base": 5,
+                "per_level_above_first": 5
+              }
+            },
+            {
+              "type": "minecraft:change_item_damage",
+              "amount": {
+                "type": "linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            },
+            {
+              "type": "run_function",
+              "function": "att2:gameplay/enemy_health/normal_trigger"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "primary_items": "#minecraft:enchantable/chest_armor",
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

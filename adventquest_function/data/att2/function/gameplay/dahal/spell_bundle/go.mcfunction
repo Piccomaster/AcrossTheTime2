@@ -13,7 +13,7 @@ function att2:gameplay/dahal/spell_bundle/bundle_data_get
 
 ##get data
 data modify storage att2:spell_bundle bundle_data set value []
-data modify storage att2:spell_bundle bundle set from block 0 0 0 container.0
+data modify storage att2:spell_bundle bundle set from block 0 0 0 Items[{Slot:0b}]
 data modify storage att2:spell_bundle bundle_data set from storage att2:spell_bundle bundle.components."minecraft:bundle_contents"
 
 ##get spell data
@@ -34,6 +34,7 @@ execute if data storage att2:spell_bundle bundle.components."minecraft:custom_da
 execute if data storage att2:spell_bundle bundle.components."minecraft:custom_data"{Spell_Bundle:3} run function att2:gameplay/dahal/spell_bundle/update_stack/size_3
 
 ###############launch
+scoreboard players set #Spell_Bundle_Slot CAL 0
 ##get list count
 execute store result score #Spell_Bundle_Slot CAL run data get storage att2:spell_bundle Spell_Bundle_Slot
 ##level limit

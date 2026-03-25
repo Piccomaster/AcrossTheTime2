@@ -11,7 +11,7 @@ scoreboard players operation @s ARR_POWER *= #percent CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL
 
 scoreboard players operation #percent CAL = @s ARR_POWER
-#tellraw @a [{score:{name:"#percent",objective:"CAL"}}]
+#
 #tellraw @a [{score:{name:"@s",objective:"ARR_POWER"}}]
 ##particle
 execute at @s anchored eyes positioned ^ ^ ^ run function att2:gameplay/enchantment/headhunter/arrow_effect

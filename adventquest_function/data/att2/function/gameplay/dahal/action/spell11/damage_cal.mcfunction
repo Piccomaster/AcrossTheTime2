@@ -46,3 +46,6 @@ execute store result storage att2:sp_dmg SP11 int 1 run scoreboard players get f
 #reset
 #scoreboard players reset slctlvl SPDG
 #scoreboard players reset finalDG SPDG
+
+##set spell icon
+data modify storage att2:enemy_health spell_icon set value "item/custom/spell_book/spell11"

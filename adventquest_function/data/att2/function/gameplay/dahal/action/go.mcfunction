@@ -33,7 +33,7 @@ function att2:gameplay/dahal/action/spell28/persistence
 #function att2:gameplay/dahal/action/spell31/persistence
 function att2:gameplay/dahal/action/spell32/persistence
 execute as @a[scores={SPELL34_CHEST=1}] at @s run function att2:gameplay/dahal/action/spell34/persistence
-execute as @a[scores={SPELL41_TIMER=0..},gamemode=adventure] at @s run function att2:gameplay/dahal/action/spell41/persistence
+#execute as @a[scores={SPELL41_TIMER=0..},gamemode=adventure] at @s run function att2:gameplay/dahal/action/spell41/persistence
 execute as @a[scores={SPELL42_TIMER=0..},gamemode=adventure] at @s run function att2:gameplay/dahal/action/spell42/persistence
 execute as @a[scores={SPELL44_TIMER=0..},tag=Elusive,gamemode=adventure] at @s run function att2:gameplay/dahal/action/spell44/persistence
 execute as @a[scores={SPELL45_TIMER=0..},tag=Berserk,gamemode=adventure] at @s run function att2:gameplay/dahal/action/spell45/persistence

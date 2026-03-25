@@ -4,7 +4,7 @@
 #############################################################
 
 ##AttackSpeedPenalty
-scoreboard players add @s AttackSpeedPenalty 10
+scoreboard players add @s AttackSpeedPenalty 20
 ##limit
 #scoreboard players set @s[scores={DAGGER_TIME=150..}] DAGGER_TIME 150
 
