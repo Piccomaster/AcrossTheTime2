@@ -9,9 +9,9 @@ execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/enchantme
 #greatsword
 function att2:gameplay/enchantment/trigger_function/greatsword
 #heart_protection
-function att2:gameplay/enchantment/trigger_function/heart_protection
+#function att2:gameplay/enchantment/trigger_function/heart_protection
 #sscombo
-function att2:gameplay/enchantment/trigger_function/sscombo
+#function att2:gameplay/enchantment/trigger_function/sscombo
 #speedsave
 #function att2:gameplay/enchantment/trigger_function/speedsave
 #speedburn
@@ -21,7 +21,7 @@ function att2:gameplay/enchantment/trigger_function/sscombo
 #forcepush
 #function att2:gameplay/enchantment/trigger_function/forcepush
 #armorbreak
-execute as @s[advancements={att2_test:enchantment/armorbreak=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/armorbreak
+#execute as @s[advancements={att2_test:enchantment/armorbreak=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/armorbreak
 #groundslam
 #execute as @s[advancements={att2_test:enchantment/groundslam=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/groundslam
 #execute as @s[advancements={att2_test:enchantment/forcepush=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/armorbreak
@@ -32,7 +32,7 @@ function att2:gameplay/enchantment/trigger_function/backstab
 #defensematrix
 function att2:gameplay/enchantment/trigger_function/defensematrix
 #anchorshot
-function att2:gameplay/enchantment/trigger_function/anchorshot
+#function att2:gameplay/enchantment/trigger_function/anchorshot
 #hpmax_ex_dahalmax
 function att2:gameplay/enchantment/trigger_function/hpmax_ex_dahalmax
 #dahalburst

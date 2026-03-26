@@ -1,0 +1,30 @@
+{
+    "anvil_cost": 7,
+    "description": {
+        "translate": "enchantment.att2.eternan"
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "legs"
+    ],
+    "supported_items": "minecraft:golden_leggings",
+    "weight": 1,
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/equipment/armor/eternan/legs"
+                }
+            }
+        ]
+    }
+}

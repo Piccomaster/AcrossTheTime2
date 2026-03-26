@@ -3,16 +3,11 @@
 #sscombo enchantment                    						#
 #################################################################
 
-#unless
-execute unless score @s SSCOMBO_SHIELD matches 0.. run scoreboard players set @s SSCOMBO_SHIELD 1
-#add/remove score
-scoreboard players remove @s[scores={SSCOMBO_SHIELD=1,SSCOMBO_TIMER=5..}] SSCOMBO_TIMER 5
-scoreboard players remove @s[scores={SSCOMBO_SHIELD=1,SSCOMBO=2..}] SSCOMBO 1
-scoreboard players add @s[scores={SSCOMBO_SWORD=1,SSCOMBO=..9}] SSCOMBO 1
-#add effect
-execute if score @s[scores={SSCOMBO_SWORD=1}] SSCOMBO matches 1.. run function att2:gameplay/enchantment/sscombo/block_effect
-#reset score
-scoreboard players set @s[scores={SSCOMBO_SWORD=0..}] SSCOMBO_SHIELD 1
-scoreboard players set @s[scores={SSCOMBO_SWORD=1..}] SSCOMBO_SWORD 0
-#reset
-advancement revoke @s only att2_test:enchantment/sscombo/block_trigger
+##set score
+scoreboard players set @s SSCOMBO 3
+##particle
+particle minecraft:trial_spawner_detection ~ ~ ~ 1 1 1 0.2 50 force
+
+playsound minecraft:unsheathe1 master @a ~ ~ ~ 1 1
+playsound minecraft:item.axe.wax_off master @a ~ ~ ~ 1 1
+playsound minecraft:item.trident.return master @a ~ ~ ~ 1 2

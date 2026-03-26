@@ -8,6 +8,11 @@ scoreboard players operation @s[scores={SPELL32_CAP=2}] COOLDOWN32 = lvl2 COOLDO
 scoreboard players operation @s[scores={SPELL32_CAP=3}] COOLDOWN32 = lvl3 COOLDOWN32
 scoreboard players operation @s[scores={SPELL32_CAP=4}] COOLDOWN32 = lvl4 COOLDOWN32
 scoreboard players operation @s[scores={SPELL32_CAP=5}] COOLDOWN32 = lvl5 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_CAP=6}] COOLDOWN32 = lvl6 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_CAP=7}] COOLDOWN32 = lvl7 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_CAP=8}] COOLDOWN32 = lvl8 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_CAP=9}] COOLDOWN32 = lvl9 COOLDOWN32
+scoreboard players operation @s[scores={SPELL32_CAP=10}] COOLDOWN32 = lvl10 COOLDOWN32
 #cooldown cal
 function att2:gameplay/dahal/action/cooldown_cal
 scoreboard players set @s CDPERCENT32 11

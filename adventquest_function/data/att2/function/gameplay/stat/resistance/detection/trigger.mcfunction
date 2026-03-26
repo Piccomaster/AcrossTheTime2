@@ -4,6 +4,9 @@
 #################################################################
 #execute store result storage att2:health max_health int 1 run scoreboard players get #max_health CAL
 #effect give @s instant_health 1 10 true
+
+##enchantments trigger
+execute if items entity @s armor.chest *[enchantments~[{enchantments:"att2_enchantment:wrath_accumulator"}]] run function att2:gameplay/enchantment/wrath_accumulator/trigger
 #get health
 execute store result score #temp_health_1 CAL run data get entity @s Health
 execute store result score #Health CAL run data get entity @s Health 100
@@ -19,11 +22,8 @@ scoreboard players operation #RES_TOT CAL += 100 CAL
 scoreboard players operation #Overflow CAL = @s RES_TOT
 scoreboard players operation #Overflow CAL -= 8 CAL
 scoreboard players operation #Overflow CAL *= 50 CAL
-#tellraw @a ["固定减少",{score:{name:"#Overflow",objective:"CAL"}}]
-#tellraw @a ["奸商之前",{score:{name:"@s",objective:"RES_DETECTION"}}]
 execute if score #Overflow CAL matches 1.. run scoreboard players operation @s RES_DETECTION -= #Overflow CAL
-#tellraw @a ["奸商之后",{score:{name:"@s",objective:"RES_DETECTION"}}]
-execute if score #Overflow CAL matches 1.. run scoreboard players operation @s RES_DETECTION > 10 CAL
+execute if score #Overflow CAL matches 1.. run scoreboard players operation @s RES_DETECTION > 1 CAL
 ##max reduce -80%
 scoreboard players operation #RES_TOT CAL > 20 CAL
 #remove health
@@ -54,7 +54,7 @@ scoreboard players operation #Health CAL += 100 CAL
 function att2:gameplay/stat/resistance/detection/reduce with storage att2:health
 #tigger
 execute if score #Health CAL <= #eh_lvl CAL as @s[tag=Spell35_Protect] run function att2:gameplay/dahal/action/spell35/protect_trigger
-execute if score #Health CAL <= #eh_lvl CAL if predicate att2_pre:enchantment/heart_protection/chest run function att2:gameplay/stat/resistance/detection/effect
+execute if score #Health CAL <= #eh_lvl CAL if predicate att2_pre:enchantment/heart_protection/chest run function att2:gameplay/enchantment/heart_protection/trigger
 ##if death 
 execute if score #Health CAL matches ..0 run kill @s
 #reset

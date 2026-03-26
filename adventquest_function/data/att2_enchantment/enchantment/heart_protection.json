@@ -18,24 +18,11 @@
     "supported_items": "#minecraft:enchantable/chest_armor",
     "weight": 1,
     "effects": {
-        "minecraft:post_attack": [
+        "tick": [
             {
-                "affected": "victim",
                 "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "att2:gameplay/enchantment/trigger_function/heart_protection"
-                },
-                "enchanted": "victim",
-                "requirements": {
-                    "condition": "minecraft:damage_source_properties",
-                    "predicate": {
-                        "tags": [
-                            {
-                                "expected": false,
-                                "id": "minecraft:bypasses_invulnerability"
-                            }
-                        ]
-                    }
+                    "type": "run_function",
+                    "function": "att2:gameplay/enchantment/heart_protection/go"
                 }
             }
         ]

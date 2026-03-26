@@ -20,7 +20,18 @@
     "minecraft:prevent_equipment_drop": {},
     "minecraft:damage_immunity": [
       {
-        "effect": {}
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": false,
+                "id": "minecraft:is_player_attack"
+              }
+            ]
+          }
+        }
       }
     ],
     "tick": [

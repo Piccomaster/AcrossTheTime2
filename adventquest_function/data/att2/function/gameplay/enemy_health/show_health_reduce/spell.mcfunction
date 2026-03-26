@@ -9,11 +9,17 @@ execute unless score show_health_reduce ENEMYHEALTH matches 1 run return fail
 execute if score display_count ENEMYHEALTH matches 50.. run return fail
 
 ##summon display
-execute at @s anchored eyes positioned ^ ^ ^ run summon item ~ ~ ~ {Tags:["SpellHealth","HPDISPLAY","New"],Age:-32768s,Invulnerable:true,PickupDelay:-1,Item:{id:"diamond",components:{item_model:"nothing"}},Passengers:[{id:"text_display",Tags:["SpellHealth","HPDISPLAY","New"],text:{text:"",extra:[{object:atlas,atlas:"blocks",sprite:"item/custom/nothing",shadow_color:0},{text:":",color:gray},{translate:att2.number,with:[""],color:red}]},transformation:{scale:[3.0f,3.0f,3.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:0,billboard:center,alignment:left,background:0,see_through:false,view_range:0.5,Passengers:[{id:"armor_stand",Tags:["SpellHealth","HPDISPLAY","New"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/hp_display":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}]}]}
+execute at @s anchored eyes positioned ^ ^ ^ run summon item ~ ~ ~ {Tags:["SpellHealth","HPDISPLAY","New"],Age:-32768s,Invulnerable:true,PickupDelay:-1,Item:{id:"diamond",components:{item_model:"nothing"}},Passengers:[{id:"text_display",Tags:["SpellHealth","HPDISPLAY","New"],text:{text:"",extra:[{object:atlas,atlas:"blocks",sprite:"item/custom/nothing",shadow_color:0},{text:":",color:gray},{translate:att2.number,with:[""],color:"#C0D8F0"}]},transformation:{scale:[3.0f,3.0f,3.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]},brightness:{block:15,sky:15},start_interpolation:0,interpolation_duration:0,teleport_duration:0,billboard:center,alignment:left,background:0,see_through:false,view_range:0.5,Passengers:[{id:"armor_stand",Tags:["SpellHealth","HPDISPLAY","New"],attributes:[{id:scale,base:0.01}],Invisible:true,Marker:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/hp_display":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}]}]}
 
 ##facing
 execute at @s on attacker run rotate @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] facing entity @s eyes
 execute as @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] at @s run tp @s ^ ^ ^0.4
+
+##Critical
+execute if score #CriticalSpellTrigger CAL matches 1 run data modify entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[2].color set value "#FFFFFF"
+##particle
+execute if score #CriticalSpellTrigger CAL matches 1 at @s anchored eyes positioned ^ ^ ^ run function att2:gameplay/dahal/action/critical/particle
+execute if score #CriticalSpellTrigger CAL matches 1 on attacker at @s run function att2:gameplay/dahal/action/critical/sound
 
 ##update spell icon
 data modify entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[0].sprite set from storage att2:enemy_health spell_icon

@@ -5,5 +5,4 @@
 
 execute in overworld positioned -5032.5 105 -4927.5 if entity @a[distance=..20] run function att2:gameplay/enchantment/effect/trigger
 
-execute if score tic TIMECOUNTER matches 1 in overworld positioned -5032.5 105 -4927.5 if entity @a[distance=..20] unless entity @e[distance=..1,tag=ENCHANTMENT,tag=INTERACT] run summon interaction -5032.5 105 -4927.5 {height:1.2,width:1.1,response:1,Tags:["ENCHANTMENT","INTERACT"]}
-execute if score tic TIMECOUNTER matches 1 in overworld positioned -5032.5 107 -4927.5 if entity @a[distance=..20] unless entity @e[type=item_display,distance=..1,tag=ENCHANTMENT,tag=ROTATION] run function att2:gameplay/enchantment/summon_base
+execute if score tic TIMECOUNTER matches 1 in overworld positioned -5032.5 105 -4927.5 if entity @a[distance=..20] unless entity 0428dc94-000a-09dc-04a1-935c00000003 run function att2:gameplay/enchantment/summon_base

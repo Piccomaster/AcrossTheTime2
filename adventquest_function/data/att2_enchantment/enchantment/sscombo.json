@@ -19,29 +19,30 @@
     "exclusive_set": "att2_enchantment:greatsword",
     "weight": 1,
     "effects": {
-        "minecraft:post_attack": [
+        "post_attack": [
             {
                 "affected": "attacker",
-                "effect": {
-                    "type": "minecraft:all_of",
-                    "effects": [
-                        {
-                            "type": "minecraft:run_function",
-                            "function": "att2:gameplay/enchantment/trigger_function/armorbreak"
-                        }
-                    ]
-                },
                 "enchanted": "attacker",
-                "requirements": {
-                    "condition": "minecraft:damage_source_properties",
-                    "predicate": {
-                        "tags": [
-                            {
-                                "expected": false,
-                                "id": "minecraft:bypasses_armor"
-                            }
-                        ]
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "hostile"
+                        }
                     }
+                ],
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/enchantment/sscombo/attack_trigger"
+                }
+            }
+        ],
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/enchantment/sscombo/go"
                 }
             }
         ]

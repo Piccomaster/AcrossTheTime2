@@ -23,4 +23,4 @@ execute if score @s SPELL31_CAP matches 10 run particle minecraft:dust{color:[0.
 #rewards
 execute if score @s spell31_count matches 1.. at @s run function att2:gameplay/dahal/action/spell31/rewards
 ##owner effect
-execute as @p[distance=..20,gamemode=adventure,predicate=att2_pre:score/player] at @s positioned ~ ~0.8 ~ if entity @e[type=item,distance=..5] run function att2:gameplay/dahal/action/spell31/test
+execute as @p[distance=..20,gamemode=adventure,predicate=att2_pre:score/player] at @s positioned ~ ~0.8 ~ if entity @n[type=item,distance=..5] run function att2:gameplay/dahal/action/spell31/test

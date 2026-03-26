@@ -12,9 +12,9 @@ function att2:gameplay/stat/healthregen/sum
 ##cal HER_TOT 20s -> 1 health | 1s -> 0.05 health | 1 tick -> 0.0025 25x 20 x 20
 scoreboard players operation #count CAL = @s HER_TOT
 ##normal
-scoreboard players operation #count CAL *= 25 CAL
+scoreboard players operation #count CAL *= 50 CAL
+scoreboard players add #count CAL 50
 ##min
-execute if score @s HER_TOT matches 0 run scoreboard players set #count CAL 20
 scoreboard players operation @s HER_VALUE += #count CAL
 execute if score @s HER_VALUE matches 10000.. run function att2:gameplay/stat/healthregen/bonus
 execute if score @s HER_VALUE matches ..-10000 run function att2:gameplay/stat/healthregen/malus

@@ -11,6 +11,7 @@ scoreboard objectives add ENCHANTMENT_ADVANCMENT dummy
 scoreboard objectives add TOTEM dummy
 #scoreboard objectives add HEART_PROTECTION minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add BACKSTAB dummy
+scoreboard objectives add ARMORBREAK dummy
 scoreboard objectives add BACKSTAB_STAT dummy
 scoreboard objectives add SPEARTOSS dummy
 scoreboard objectives add EMPATHY dummy
@@ -62,6 +63,9 @@ scoreboard objectives add SSCOMBO_SHIELD dummy
 scoreboard objectives add SSCOMBO_TIMER dummy
 scoreboard objectives add SSCOMBO_STAT dummy
 scoreboard objectives add SSCOMBO dummy
+
+scoreboard objectives add WrathAccumulator dummy
+
 
 scoreboard players set rotation ENCHANTMENT 1
 #price set

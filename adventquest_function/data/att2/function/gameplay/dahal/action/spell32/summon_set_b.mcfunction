@@ -16,6 +16,12 @@ kill @e[type=armor_stand,scores={SPELL32_DATA_B=0..},tag=SPELL32_SET_B,predicate
 
 ##summon
 summon minecraft:armor_stand ~ ~ ~ {Marker:1,CustomName:[{translate:att2.spell32.armor_stand.set_b.name,color:blue}],CustomNameVisible:true,Invulnerable:true,Invisible:true,NoGravity:true,Tags:["SPELL32_SET","SPELL32_SET_B","New"],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/dahal/spell32":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},attributes:[{id:scale,base:0.01}]}
+##set name
+item replace entity 00000001-0000-006f-0000-00010000006f armor.head with minecraft:player_head
+item modify entity 00000001-0000-006f-0000-00010000006f armor.head att2:set_player_head
+data modify storage att2:spell32 name set value [{translate:"att2.spell32.armor_stand.set_a.name",color:aqua},{text:"",color:red}]
+data modify storage att2:spell32 name[1].text set from entity 00000001-0000-006f-0000-00010000006f equipment.head.components."minecraft:profile".name
+data modify entity @n[distance=..10,type=armor_stand,tag=SPELL32_SET_B,tag=New] CustomName set from storage att2:spell32 name
 
 ##store pos data
 function att2:gameplay/dahal/action/spell32/store_pos_b with storage att2:score

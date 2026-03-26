@@ -6,9 +6,9 @@
 ##get count
 execute store result score #count CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."att2_enchantment:quick_attack"
 #remove score
-execute store result storage att2:score count int 1 run scoreboard players remove #count CAL 1
+scoreboard players remove #count CAL 1
 ##update enchantments tick
-item modify entity @s weapon.mainhand {function:set_enchantments,enchantments:{"att2_enchantment:quick_attack":{type:storage,storage:"att2:score",path:count}}}
+item modify entity @s weapon.mainhand {function:set_enchantments,enchantments:{"att2_enchantment:quick_attack":{type:score,target:{type:fixed,name:"#count"},score:"CAL"}}}
 
 ##clear
 execute if score #count CAL matches ..0 run item modify entity @s weapon.mainhand [{function:set_components,components:{"damage_type":"minecraft:player_attack"}},{function:set_enchantments,enchantments:{"att2_enchantment:quick_attack":0}}]

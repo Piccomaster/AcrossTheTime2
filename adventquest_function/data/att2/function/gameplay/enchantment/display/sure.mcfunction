@@ -78,3 +78,7 @@ execute if score sure ENCHANTMENT matches 2 if score abyssdiver ENCHANTMENT matc
 execute if score sure ENCHANTMENT matches 2 if score cooldownrush ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/cooldownrush_sure
 #treasurehunter_sure
 execute if score sure ENCHANTMENT matches 2 if score treasurehunter ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/treasurehunter_sure
+#wrath_accumulator_sure
+execute if score sure ENCHANTMENT matches 2 if score wrath_accumulator ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/wrath_accumulator_sure
+#bloodreaver_sure
+execute if score sure ENCHANTMENT matches 2 if score bloodreaver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/bloodreaver_sure

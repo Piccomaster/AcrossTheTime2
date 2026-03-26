@@ -8,4 +8,4 @@
 
 
 ##remove enchantments
-item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/add/head":0}}]
+item modify entity @s armor.head [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/add/head":0}}]

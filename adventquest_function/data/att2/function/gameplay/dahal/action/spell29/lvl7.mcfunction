@@ -9,6 +9,7 @@ function att2:gameplay/score/player
 execute as @e[type=#att2_entity:sp_follow_pet,predicate=att2_pre:score/owner,type=!vex] at @s run function att2:gameplay/dahal/pet/kill
 execute positioned ~ ~ ~ run function att2:summon/dahal/vex0_classx {class:CLASS14}
 scoreboard players operation @e[distance=..5,type=vex,tag=NewInvo,tag=Spell29] OWNER = @s NUMEROJOUEUR
+scoreboard players operation @e[distance=..5,type=wolf,tag=NewInvo,tag=Spell29] OWNER = @s NUMEROJOUEUR
 
 scoreboard players set #max CAL 1
 execute at @s as @e[type=minecraft:vex,tag=!NewInvo,predicate=att2_pre:score/owner] run function att2:gameplay/dahal/action/spell29/vex_max

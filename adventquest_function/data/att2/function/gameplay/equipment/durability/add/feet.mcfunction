@@ -8,4 +8,4 @@
 
 
 ##remove enchantments
-item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/add/feet":0}}]
+item modify entity @s armor.feet [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/add/feet":0}}]

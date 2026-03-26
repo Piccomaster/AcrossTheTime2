@@ -14,7 +14,6 @@ execute at @s anchored eyes positioned ^ ^ ^ run summon item ~ ~ ~ {Tags:["Arrow
 ##facing
 execute at @s on attacker run rotate @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] facing entity @s eyes
 execute as @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] at @s run tp @s ^ ^ ^0.4
-
 ##set health
 #absorption
 execute store result entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[2].with[0] int 1 run scoreboard players get #absorption_health CAL

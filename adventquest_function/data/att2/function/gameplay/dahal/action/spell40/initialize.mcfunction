@@ -40,10 +40,10 @@ scoreboard players set lvl3 SPELL40_STR 5
 scoreboard players set lvl4 SPELL40_STR 6
 scoreboard players set lvl5 SPELL40_STR 7
 scoreboard players set lvl6 SPELL40_STR 8
-scoreboard players set lvl7 SPELL40_STR 10
-scoreboard players set lvl8 SPELL40_STR 12
-scoreboard players set lvl9 SPELL40_STR 15
-scoreboard players set lvl10 SPELL40_STR 18
+scoreboard players set lvl7 SPELL40_STR 9
+scoreboard players set lvl8 SPELL40_STR 10
+scoreboard players set lvl9 SPELL40_STR 11
+scoreboard players set lvl10 SPELL40_STR 12
 #spd
 scoreboard players set lvl1 SPELL40_SPD 3
 scoreboard players set lvl2 SPELL40_SPD 3
@@ -53,27 +53,27 @@ scoreboard players set lvl5 SPELL40_SPD 4
 scoreboard players set lvl6 SPELL40_SPD 4
 scoreboard players set lvl7 SPELL40_SPD 5
 scoreboard players set lvl8 SPELL40_SPD 5
-scoreboard players set lvl9 SPELL40_SPD 6
-scoreboard players set lvl10 SPELL40_SPD 7
+scoreboard players set lvl9 SPELL40_SPD 5
+scoreboard players set lvl10 SPELL40_SPD 6
 #her
 scoreboard players set lvl1 SPELL40_HER 1
 scoreboard players set lvl2 SPELL40_HER 1
 scoreboard players set lvl3 SPELL40_HER 1
-scoreboard players set lvl4 SPELL40_HER 1
-scoreboard players set lvl5 SPELL40_HER 1
+scoreboard players set lvl4 SPELL40_HER 2
+scoreboard players set lvl5 SPELL40_HER 2
 scoreboard players set lvl6 SPELL40_HER 2
-scoreboard players set lvl7 SPELL40_HER 2
-scoreboard players set lvl8 SPELL40_HER 2
-scoreboard players set lvl9 SPELL40_HER 2
-scoreboard players set lvl10 SPELL40_HER 3
+scoreboard players set lvl7 SPELL40_HER 3
+scoreboard players set lvl8 SPELL40_HER 3
+scoreboard players set lvl9 SPELL40_HER 3
+scoreboard players set lvl10 SPELL40_HER 4
 #has
 scoreboard players set lvl1 SPELL40_HAS 1
 scoreboard players set lvl2 SPELL40_HAS 1
 scoreboard players set lvl3 SPELL40_HAS 1
-scoreboard players set lvl4 SPELL40_HAS 1
-scoreboard players set lvl5 SPELL40_HAS 1
+scoreboard players set lvl4 SPELL40_HAS 2
+scoreboard players set lvl5 SPELL40_HAS 2
 scoreboard players set lvl6 SPELL40_HAS 2
-scoreboard players set lvl7 SPELL40_HAS 2
+scoreboard players set lvl7 SPELL40_HAS 3
 scoreboard players set lvl8 SPELL40_HAS 3
 scoreboard players set lvl9 SPELL40_HAS 3
 scoreboard players set lvl10 SPELL40_HAS 4

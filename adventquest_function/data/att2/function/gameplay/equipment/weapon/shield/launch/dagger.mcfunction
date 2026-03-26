@@ -24,8 +24,10 @@ function att2:gameplay/equipment/weapon/shield/cooldown {damage:30}
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/satiety_consume":20}}
 
 ##motion
+rotate @s ~ 0
 function att2:gameplay/misc/motion/reset
 execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty}]
+
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/up":5}}
 
 ##invulnerable time

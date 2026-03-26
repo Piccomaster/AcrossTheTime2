@@ -23,6 +23,9 @@ data modify storage att2:stat_display show set value []
 #STR
 execute if score @s STR_DISPLAY matches 1.. if score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"#STR_DATA",objective:"CAL"},color:green}]}
 execute if score @s STR_DISPLAY matches 1.. unless score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"#STR_DATA",objective:"CAL"},color:red}]}
+#CRT
+execute if score @s CRT_DISPLAY matches 1.. if score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:green}]}
+execute if score @s CRT_DISPLAY matches 1.. unless score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:red}]}
 #RES
 execute if score @s RES_DISPLAY matches 1.. if score @s RES_DATA matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:green}]}
 execute if score @s RES_DISPLAY matches 1.. unless score @s RES_DATA matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:red}]}
@@ -35,8 +38,6 @@ execute if score @s HAS_DISPLAY matches 1.. unless score @s HAS_TOT matches 0.. 
 #HER
 execute if score @s HER_DISPLAY matches 1.. if score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.add,color:"gray",with:[{score:{name:"@s",objective:"HER_DATA_INT"},color:green},{score:{name:"@s",objective:"HER_DATA_DEC_1"},color:green},{score:{name:"@s",objective:"HER_DATA_DEC_2"},color:green}]}
 execute if score @s HER_DISPLAY matches 1.. unless score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.reduce,color:"gray",with:[{score:{name:"@s",objective:"HER_DATA_INT"},color:red},{score:{name:"@s",objective:"HER_DATA_DEC_1"},color:red},{score:{name:"@s",objective:"HER_DATA_DEC_2"},color:red}]}
-#execute if score @s HER_DISPLAY matches 1.. if score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.add,color:"gray",with:[{score:{name:"@s",objective:"HER_DATA_TIMER"},color:green}]}
-#execute if score @s HER_DISPLAY matches 1.. unless score @s HER_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.her.value.reduce,color:"gray",with:[{score:{name:"@s",objective:"HER_DATA_TIMER"},color:red}]}
 #DAR
 execute if score @s DAR_DISPLAY matches 1.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.dar.value,color:"gray",with:[{score:{name:"@s",objective:"OP_DAHAL"},color:green}]}
 #HUN

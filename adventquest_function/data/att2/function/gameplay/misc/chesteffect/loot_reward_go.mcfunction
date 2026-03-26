@@ -23,6 +23,7 @@ execute if score @s LIFETIME matches 1.. run return run scoreboard players remov
 ##reward cal
 execute store result score #C CAL run data get entity @s data.C
 execute store result score #T CAL run data get entity @s data.T
+execute store result score #Q CAL run data get entity @s data.Q
 
 ##update loot score
 function att2:gameplay/misc/chesteffect/other_dropchance

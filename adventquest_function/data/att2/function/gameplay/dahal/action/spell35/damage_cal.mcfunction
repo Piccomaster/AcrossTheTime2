@@ -48,6 +48,8 @@ execute as @s[tag=!Nova,tag=!Corrupted] run scoreboard players operation finalDG
 execute as @s[tag=Nova] run scoreboard players operation finalDG SPDG *= 50 CAL
 execute as @s[tag=Corrupted] run scoreboard players operation finalDG SPDG *= 70 CAL
 scoreboard players operation finalDG SPDG /= 100 CAL
+##critical detection
+function att2:gameplay/dahal/action/critical/spell35_detection
 #storage spell damage
 execute store result storage att2:sp_dmg SP4 int 1 run scoreboard players get finalDG SPDG
 #reset

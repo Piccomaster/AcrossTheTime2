@@ -7,3 +7,6 @@
 scoreboard players operation @s SPELL42_TIMER = SPELL42_TIMER CAL
 #RES
 scoreboard players operation @s SPELL42_RES = SPELL42_RES CAL
+##add hP
+scoreboard players operation #count CAL /= 2 CAL
+scoreboard players operation @s HER_VALUE += #count CAL

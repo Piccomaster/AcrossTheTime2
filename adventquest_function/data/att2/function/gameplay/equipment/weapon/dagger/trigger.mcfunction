@@ -4,7 +4,7 @@
 #############################################################
 
 ##AttackSpeedPenalty
-scoreboard players add @s AttackSpeedPenalty 8
+scoreboard players add @s AttackSpeedPenalty 10
 
 ##add score
 scoreboard players add @s DAGGER_TIME 40

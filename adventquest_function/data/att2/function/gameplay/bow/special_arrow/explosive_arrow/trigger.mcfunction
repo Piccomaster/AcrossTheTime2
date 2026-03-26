@@ -3,22 +3,13 @@
 #Process the arrow power assignement             #
 ##################################################
 
-##cal motion percent
-execute store result score #percent CAL run data get entity @s shake 100
-scoreboard players operation #percent CAL /= 40 CAL
-scoreboard players operation #percent CAL > 70 CAL
-##damage percent
-scoreboard players operation @s ARR_POWER = @s ARR_POWER
-scoreboard players operation @s ARR_POWER *= #percent CAL
-scoreboard players operation @s ARR_POWER /= 100 CAL
-
 ##get explosive_arrow lvl
 execute store result score #lvl CAL run data get entity @s item.components."minecraft:custom_data".explosive_arrow
 
-##explosive damage = ARR_POWER * (100+lvl*50)/100
+##explosive damage = ARR_POWER * (100+lvl*10)/100
 ##get power score
 scoreboard players operation #percent CAL = #lvl CAL
-scoreboard players operation #percent CAL *= 50 CAL
+scoreboard players operation #percent CAL *= 10 CAL
 scoreboard players add #percent CAL 100
 scoreboard players operation #damage CAL = @s ARR_POWER
 scoreboard players operation #damage CAL *= #percent CAL

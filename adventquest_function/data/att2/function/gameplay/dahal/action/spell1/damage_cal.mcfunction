@@ -51,8 +51,13 @@ execute as @s[tag=!Nova,tag=!Corrupted] run scoreboard players operation finalDG
 execute as @s[tag=Nova] run scoreboard players operation finalDG SPDG *= 50 CAL
 execute as @s[tag=Corrupted] run scoreboard players operation finalDG SPDG *= 70 CAL
 scoreboard players operation finalDG SPDG /= 100 CAL
+##critical detection
+function att2:gameplay/dahal/action/critical/spell1_detection
 #storage spell damage
 execute store result storage att2:sp_dmg SP1 int 1 run scoreboard players get finalDG SPDG
 #reset
 #scoreboard players reset slctlvl SPDG
 #scoreboard players reset finalDG SPDG
+
+##set spell icon
+data modify storage att2:enemy_health spell_icon set value "item/custom/spell_book/spell1"
