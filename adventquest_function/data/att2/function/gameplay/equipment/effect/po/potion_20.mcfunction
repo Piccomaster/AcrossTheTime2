@@ -8,9 +8,13 @@ advancement revoke @s only att2_test:test_potion/potion20
 
 ##
 scoreboard players set @s LUC_PO 1
-scoreboard players set @s TIMER_LUC_PO 20000
+scoreboard players set @s TIMER_LUC_PO 18000
+##
+scoreboard players set @s CRT_PO -1
+scoreboard players set @s TIMER_CRT_PO 18000
 
 function att2:gameplay/equipment/effect/po/time_bonus/luc
+function att2:gameplay/equipment/effect/po/time_bonus/crt_reduce
 
 function att2:gameplay/equipment/effect/po/time_cal
 function att2:dialogs/gameplay/potion_tip/potion_20

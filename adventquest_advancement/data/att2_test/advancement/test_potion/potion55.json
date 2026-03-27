@@ -1,6 +1,6 @@
 {
     "rewards": {
-        "function": "att2:gameplay/equipment/effect/po/str3_res1_luc2"
+        "function": "att2:gameplay/equipment/effect/po/potion_55"
     },
     "criteria": {
         "apple": {

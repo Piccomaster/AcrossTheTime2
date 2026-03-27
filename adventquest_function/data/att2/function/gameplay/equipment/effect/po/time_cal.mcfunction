@@ -30,3 +30,6 @@ scoreboard players operation LUC POTION_TIME /= 20 POTION_TIME
 
 scoreboard players operation HUN POTION_TIME = @s TIMER_HUN_PO
 scoreboard players operation HUN POTION_TIME /= 20 POTION_TIME
+
+scoreboard players operation CRT POTION_TIME = @s TIMER_CRT_PO
+scoreboard players operation CRT POTION_TIME /= 20 POTION_TIME

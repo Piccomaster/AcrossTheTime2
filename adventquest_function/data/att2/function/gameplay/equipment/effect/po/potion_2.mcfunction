@@ -12,15 +12,15 @@ scoreboard players set @s TIMER_STR_PO 12000
 
 ##
 scoreboard players set @s SPD_PO -1
-scoreboard players set @s TIMER_SPD_PO 10000
+scoreboard players set @s TIMER_SPD_PO 12000
 
 ##
 scoreboard players set @s HUN_PO -3
-scoreboard players set @s TIMER_HUN_PO 10000
+scoreboard players set @s TIMER_HUN_PO 12000
 
 ##
 scoreboard players set @s LUC_PO -2
-scoreboard players set @s TIMER_LUC_PO 24000
+scoreboard players set @s TIMER_LUC_PO 12000
 
 function att2:gameplay/equipment/effect/po/time_bonus/str
 function att2:gameplay/equipment/effect/po/time_bonus/spd_reduce

@@ -1,6 +1,6 @@
 {
     "rewards": {
-        "function": "att2:gameplay/equipment/effect/po/has4_spd2_dar2_hun2"
+        "function": "att2:gameplay/equipment/effect/po/potion_29"
     },
     "criteria": {
         "apple": {

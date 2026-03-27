@@ -15,7 +15,7 @@ scoreboard players set @s DAR_PO 1
 scoreboard players set @s TIMER_DAR_PO 3000
 
 ##
-scoreboard players set @s STR_PO -1
+scoreboard players set @s STR_PO -2
 scoreboard players set @s TIMER_STR_PO 3000
 
 function att2:gameplay/equipment/effect/po/time_bonus/spd
