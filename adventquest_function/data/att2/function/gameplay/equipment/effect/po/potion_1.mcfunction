@@ -22,5 +22,3 @@ function att2:dialogs/gameplay/potion_tip/potion_1
 
 #reset timer
 function att2:gameplay/potion/timer_reset
-
-"potion54.name": "§5Philtre magique", "potion54.lore.1": "§fDe quoi prouver la sincérité des intentions,", "potion54.lore.2": "§flouables à la création de ces infusions.", "potion54.stat": "§6§lAttribut§7: §e§lSTR§a+2 §e§lSPD§a+3 §e§lHUN§a+1 §e§lDAR§c-2",
