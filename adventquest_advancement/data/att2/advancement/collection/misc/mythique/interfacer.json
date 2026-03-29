@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:crossbow",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        10000100
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.collection_misc.mythique.title.interfacer"
+        },
+        "description": {
+            "translate": "att2.advancement.collection_misc.mythique.description.interfacer"
+        },
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:collection/misc/mythique",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/interfacer",
+        "experience": 5000
+    },
+  "criteria": {
+    "interfacer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crossbow",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "interfacer"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

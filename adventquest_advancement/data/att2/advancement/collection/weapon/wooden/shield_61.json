@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "white",
+        "minecraft:banner_patterns": [
+          {
+            "color": "black",
+            "pattern": "minecraft:cross"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:straight_cross"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "brown",
+            "pattern": "minecraft:curly_border"
+          }
+        ],
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.wooden.title.shield_61"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.wooden.description.shield_61"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/wooden/shield_60",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "shield_61": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon61.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_spear",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.stone.title.hoe_255"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.stone.description.hoe_255"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/stone/hoe_254",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "wooden_spear_255": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon255.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

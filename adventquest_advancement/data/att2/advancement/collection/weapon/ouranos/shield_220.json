@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "black",
+        "minecraft:banner_patterns": [
+          {
+            "color": "yellow",
+            "pattern": "minecraft:gradient"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:curly_border"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:curly_border"
+          },
+          {
+            "color": "gray",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:gradient_up"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:triangles_top"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:triangles_top"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:straight_cross"
+          }
+        ],
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.ouranos.title.shield_220"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.ouranos.description.shield_220"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/ouranos",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "shield_220": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon220.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

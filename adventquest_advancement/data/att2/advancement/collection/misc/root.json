@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:name_tag"
+        },
+        "title": {"translate": "att2.advancement.collection_misc.title.root"},
+        "description": {"translate": "att2.advancement.collection_misc.description.root"},
+        "background": "minecraft:block/diamond_block",
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Conscience": "book"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shield",
+            "components": {
+                "minecraft:banner_patterns": [
+                    {
+                        "color": "red",
+                        "pattern": "minecraft:cross"
+                    },
+                    {
+                        "color": "black",
+                        "pattern": "minecraft:flower"
+                    },
+                    {
+                        "color": "red",
+                        "pattern": "minecraft:curly_border"
+                    },
+                    {
+                        "color": "black",
+                        "pattern": "minecraft:stripe_middle"
+                    },
+                    {
+                        "color": "black",
+                        "pattern": "minecraft:stripe_center"
+                    },
+                    {
+                        "color": "red",
+                        "pattern": "minecraft:circle"
+                    },
+                    {
+                        "color": "light_gray",
+                        "pattern": "minecraft:triangles_bottom"
+                    },
+                    {
+                        "color": "light_gray",
+                        "pattern": "minecraft:triangles_top"
+                    },
+                    {
+                        "color": "gray",
+                        "pattern": "minecraft:curly_border"
+                    }
+                ]
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.collection_misc.mythique.title.aveugle_rempart"
+        },
+        "description": {
+            "translate": "att2.advancement.collection_misc.mythique.description.aveugle_rempart"
+        },
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:collection/misc/mythique",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/aveugle_rempart",
+        "experience": 5000
+    },
+  "criteria": {
+    "aveugle_rempart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "blindshield"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

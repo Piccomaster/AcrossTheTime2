@@ -1,0 +1,741 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stripped_bamboo_block"
+        },
+        "title": {
+            "translate": "att2.advancement.collection_misc.title.axe_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection_misc.description.axe_all"
+        },
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/misc/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+    },
+    "criteria": {
+        "wooden_axe_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon1.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon2.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_9": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon9.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_10": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon10.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_17": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon17.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_18": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon18.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_25": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon25.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_29": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon29.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_64": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon64.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_65": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon65.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_72": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon72.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_73": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon73.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_80": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon80.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_81": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon81.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_88": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon88.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_axe_92": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon92.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_axe_96": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon96.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_axe_97": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon97.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_axe_104": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon104.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_axe_105": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon105.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_axe_112": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon112.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_axe_113": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon113.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_axe_120": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon120.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_axe_124": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon124.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_axe_128": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon128.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_axe_129": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon129.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_axe_136": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon136.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_axe_137": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon137.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_axe_144": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon144.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_axe_145": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon145.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_axe_152": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon152.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_axe_156": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon156.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_198": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon198.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_200": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon200.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_201": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon201.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_204": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon204.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_205": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon205.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_208": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon208.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_209": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon209.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_axe_211": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon211.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_axe_278": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon278.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_axe_279": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon279.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_axe_288": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon288.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_axe_289": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon289.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_axe_298": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon298.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_axe_299": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon299.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_axe_308": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon308.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_axe_313": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon313.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

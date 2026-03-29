@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "red",
+        "minecraft:banner_patterns": [
+          {
+            "color": "orange",
+            "pattern": "minecraft:gradient_up"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "red",
+            "pattern": "minecraft:gradient_up"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:triangles_top"
+          },
+          {
+            "color": "brown",
+            "pattern": "minecraft:gradient"
+          }
+        ],
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.angband.title.shield_160"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.angband.description.shield_160"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/angband",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "shield_160": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon160.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

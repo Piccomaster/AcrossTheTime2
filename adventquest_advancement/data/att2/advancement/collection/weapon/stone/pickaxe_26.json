@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.stone.title.pickaxe_26"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.stone.description.pickaxe_26"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/stone/pickaxe_20",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "wooden_pickaxe_26": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon26.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,621 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:deepslate_gold_ore"
+        },
+        "title": {
+            "translate": "att2.advancement.collection_armor.angband.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection_armor.angband.description.all"
+        },
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/armor/angband",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+    },
+    "criteria": {
+        "golden_helmet_131": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor131.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_132": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor132.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_133": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor133.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_134": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor134.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_135": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor135.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_136": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor136.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_137": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor137.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_138": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor138.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_139": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor139.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_140": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor140.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_141": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor141.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_142": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor142.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_143": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor143.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_144": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor144.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_145": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor145.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_146": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor146.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_147": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor147.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_148": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor148.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_149": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor149.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_150": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor150.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_151": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor151.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_152": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor152.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_153": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor153.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_154": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor154.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_155": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor155.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_156": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor156.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_157": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor157.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_158": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor158.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_159": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor159.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_160": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor160.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_161": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor161.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_162": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor162.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_163": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor163.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_164": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor164.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_165": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor165.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_166": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor166.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_helmet_311": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor311.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_chestplate_312": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor312.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_leggings_313": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor313.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_boots_314": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor314.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,741 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stripped_mangrove_log"
+        },
+        "title": {
+            "translate": "att2.advancement.collection_misc.title.sword_all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection_misc.description.sword_all"
+        },
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/misc/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+    },
+    "criteria": {
+        "wooden_sword_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon7.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon8.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon15.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_16": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon16.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_23": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon23.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_24": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon24.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_28": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon28.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_32": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon32.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_70": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon70.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_71": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon71.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_78": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon78.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_79": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon79.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_86": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon86.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_87": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon87.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_91": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon91.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_sword_95": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon95.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_102": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon102.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_103": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon103.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_110": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon110.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_111": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon111.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_118": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon118.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_119": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon119.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_123": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon123.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword_127": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon127.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_134": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon134.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_135": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon135.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_142": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon142.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_143": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon143.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_150": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon150.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_151": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon151.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_155": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon155.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "golden_sword_159": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon159.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_177": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon177.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_180": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon180.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_181": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon181.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_184": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon184.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_185": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon185.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_188": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon188.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_190": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon190.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stone_sword_191": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon191.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_284": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon284.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_285": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon285.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_294": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon294.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_295": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon295.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_304": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon304.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_305": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon305.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_311": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon311.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword_316": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "weapon316.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg_armset/leg_armset"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_armor.leather.title.helmet_19"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_armor.leather.description.helmet_19"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor/leather/helmet_14",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "leather_helmet_19": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor19.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

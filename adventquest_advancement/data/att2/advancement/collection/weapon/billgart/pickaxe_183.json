@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.billgart.title.pickaxe_183"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.billgart.description.pickaxe_183"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/billgart/pickaxe_182",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "stone_pickaxe_183": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon183.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

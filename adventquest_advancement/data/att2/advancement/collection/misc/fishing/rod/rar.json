@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod",
+      "components":{
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_misc.fishing.rod.title.rar"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_misc.fishing.rod.description.rar"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/misc/fishing/rod/unc",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_rar"
+  },
+  "criteria": {
+    "rar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fishing_rod",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentType": "rod",
+                "Rarity": "rar"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

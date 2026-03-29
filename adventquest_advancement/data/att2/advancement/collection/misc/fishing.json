@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:fishing_rod"
+        },
+        "title": {"translate": "att2.advancement.collection_misc.title.fishing"},
+        "description": {"translate": "att2.advancement.collection_misc.description.fishing"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/misc/root",
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:fishing_rod"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

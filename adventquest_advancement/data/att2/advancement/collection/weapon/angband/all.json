@@ -1,0 +1,684 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_gold_ore",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.angband.title.all"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.angband.description.all"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/angband",
+  "rewards": {
+    "function": "att2:advancement/exploit_25",
+    "experience": 10000
+  },
+  "criteria": {
+    "golden_axe_128": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon128.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_129": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon129.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_130": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon130.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_131": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon131.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel_132": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon132.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel_133": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon133.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword_134": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon134.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword_135": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon135.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_136": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon136.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_137": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon137.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_138": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon138.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_139": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon139.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel_140": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon140.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel_141": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon141.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword_142": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon142.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword_143": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon143.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_144": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon144.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_145": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon145.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_146": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon146.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_147": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon147.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel_148": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon148.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel_149": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon149.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword_150": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon150.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword_151": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon151.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_152": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon152.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_153": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon153.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel_154": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon154.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword_155": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon155.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_156": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon156.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_157": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon157.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel_158": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon158.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword_159": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon159.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_160": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon160.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_161": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon161.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_162": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon162.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_163": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon163.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_spear_318": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon318.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_spear_319": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon319.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_spear_320": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon320.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_spear_321": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon321.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_spear_322": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon322.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_spear_323": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon323.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_spear_324": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon324.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_spear_325": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon325.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

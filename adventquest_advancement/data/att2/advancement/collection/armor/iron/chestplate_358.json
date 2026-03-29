@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/ult/ult"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_armor.supreme.title.iron_chestplate_358"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_armor.supreme.description.iron_chestplate_358"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/iron/chestplate_303",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "iron_chestplate_358": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor358.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

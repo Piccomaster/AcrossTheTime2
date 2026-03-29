@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/ult/ult"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_armor.supreme.title.iron_boots_356"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_armor.supreme.description.iron_boots_356"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/iron/boots_305",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "iron_boots_356": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor356.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

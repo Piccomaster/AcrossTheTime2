@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.diamond.title.pickaxe_125"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.diamond.description.pickaxe_125"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/diamond/pickaxe_121",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "diamond_pickaxe_125": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon125.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

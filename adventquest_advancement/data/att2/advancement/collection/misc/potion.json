@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:lapis_block"
+        },
+        "title": {"translate": "att2.advancement.collection_misc.title.potion"},
+        "description": {"translate": "att2.advancement.collection_misc.description.potion"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/misc/root",
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Conscience": "book"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:base_color": "white",
+        "minecraft:banner_patterns": [
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:half_horizontal"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:triangle_top"
+          },
+          {
+            "color": "white",
+            "pattern": "minecraft:gradient"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:stripe_middle"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "orange",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "yellow",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "blue",
+            "pattern": "minecraft:half_horizontal_bottom"
+          },
+          {
+            "color": "light_blue",
+            "pattern": "minecraft:stripe_bottom"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:triangles_bottom"
+          },
+          {
+            "color": "light_blue",
+            "pattern": "minecraft:triangles_bottom"
+          }
+        ],
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.wooden.title.shield_54"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.wooden.description.shield_54"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/wooden/shield_53",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_com_unc"
+  },
+  "criteria": {
+    "shield_54": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon54.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

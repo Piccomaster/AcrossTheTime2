@@ -1,0 +1,516 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:deepslate_iron_ore"
+        },
+        "title": {
+            "translate": "att2.advancement.collection_armor.chainmail.title.all"
+        },
+        "description": {
+            "translate": "att2.advancement.collection_armor.chainmail.description.all"
+        },
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/armor/chainmail",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+    },
+    "criteria": {
+        "chainmail_chestplate_70": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor70.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_71": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor71.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_72": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor72.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_73": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor73.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_74": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor74.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_75": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor75.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_76": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor76.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_77": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor77.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_78": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor78.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_79": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor79.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_80": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor80.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_81": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor81.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_82": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor82.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_83": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor83.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_84": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor84.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_85": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor85.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_86": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor86.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_87": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor87.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_88": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor88.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_89": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor89.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_90": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor90.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_91": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor91.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_92": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor92.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_93": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor93.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_94": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor94.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_95": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor95.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_96": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor96.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_97": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor97.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_98": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor98.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_helmet_297": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor297.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_chestplate_298": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor298.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_leggings_299": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor299.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "chainmail_boots_300": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots",
+                        "components": {
+                            "minecraft:custom_name": {
+                                "translate": "armor300.name"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

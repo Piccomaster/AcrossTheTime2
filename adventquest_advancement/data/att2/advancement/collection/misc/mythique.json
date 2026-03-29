@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:end_crystal"
+        },
+        "title": {"translate": "att2.advancement.collection_misc.title.mythique"},
+        "description": {"translate": "att2.advancement.collection_misc.description.mythique"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/misc/root",
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "Conscience": "book"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

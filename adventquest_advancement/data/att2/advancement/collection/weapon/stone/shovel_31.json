@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.stone.title.shovel_31"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.stone.description.shovel_31"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/stone/shovel_27",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_leg"
+  },
+  "criteria": {
+    "wooden_shovel_31": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon31.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

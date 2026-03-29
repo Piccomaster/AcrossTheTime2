@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi_set/epi_set"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_armor.leather.title.boots_67"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_armor.leather.description.boots_67"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/armor/leather/boots_51",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_epi"
+  },
+  "criteria": {
+    "leather_boots_67": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor67.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

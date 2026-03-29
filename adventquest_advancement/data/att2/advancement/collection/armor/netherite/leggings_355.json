@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/ult/ult"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_armor.supreme.title.netherite_leggings_355"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_armor.supreme.description.netherite_leggings_355"
+    },
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/netherite/leggings_295",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult"
+  },
+  "criteria": {
+    "netherite_leggings_355": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor355.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shulker_shell"
+        },
+        "title": {
+            "translate": "att2.advancement.collection_misc.mythique.title.interfacer_magazine"
+        },
+        "description": {
+            "translate": "att2.advancement.collection_misc.mythique.description.interfacer_magazine"
+        },
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:collection/misc/mythique/interfacer",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/interfacer_magazine",
+        "experience": 25000
+    },
+    "criteria": {
+        "interfacer_magazine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shulker_shell",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "IFDahalMagasin": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
