@@ -28,7 +28,8 @@ execute unless score @s CRT_TOT matches ..0 run scoreboard players operation #Cr
 execute unless score #RNG CAL < #Critical CAL run return fail
 
 ##add durability cost
-item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/mainhand":4}}]
+#scoreboard players add #durability_remove CAL 4
+#item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/mainhand":{type:score,target:{type:fixed,name:"#durability_remove"},score:"CAL"}}}]
 
 ##critical damage
 scoreboard players add #Critical CAL 100

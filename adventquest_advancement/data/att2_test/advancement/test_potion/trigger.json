@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/equipment/effect/po/trigger"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ]
+                }
+            }
+        }
+    }
+}
