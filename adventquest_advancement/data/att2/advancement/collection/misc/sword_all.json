@@ -11,7 +11,7 @@
         },
         "frame": "challenge"
     },
-    "parent": "att2:collection/misc/root",
+    "parent": "att2:collection/misc/dagger_all",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000

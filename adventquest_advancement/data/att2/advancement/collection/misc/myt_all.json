@@ -11,7 +11,7 @@
         },
         "frame": "challenge"
     },
-    "parent": "att2:collection/misc/leg_all",
+    "parent": "att2:collection/misc/ult_all",
     "rewards": {
         "function": "att2:advancement/exploit_100",
         "experience": 500000

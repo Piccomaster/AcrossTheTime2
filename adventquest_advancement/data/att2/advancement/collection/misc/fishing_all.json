@@ -11,7 +11,7 @@
         },
         "frame": "challenge"
     },
-    "parent": "att2:collection/misc/root",
+    "parent": "att2:collection/misc/fishing",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000
