@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_hoe",
+      "ultponents": {
+        "tooltip_style": "minecraft:rarity/ult/ult"
+      }
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.copper.title.hoe_346"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.copper.description.hoe_346"
+    },
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "att2:collection/weapon/copper/hoe_",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/test_ult_unc"
+  },
+  "criteria": {
+    "copper_hoe_346": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "ultponents": {
+              "minecraft:custom_name": {
+                "translate": "weapon346.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
