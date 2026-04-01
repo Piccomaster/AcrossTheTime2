@@ -351,6 +351,42 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/leg/potion_81",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceLeg",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/leg/potion_82",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceLeg",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/potion/epi/lingering_potion_44",
           "conditions": [
             {
@@ -478,6 +514,42 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/potion/epi/splash_potion_58",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceEpi",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/epi/potion_79",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceEpi",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/epi/potion_80",
           "conditions": [
             {
               "condition": "random_chance",
@@ -694,6 +766,60 @@
         {
           "type": "minecraft:loot_table",
           "value": "att2:item_data/potion/rar/splash_potion_57",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceRar",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/rar/potion_76",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceRar",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/rar/potion_77",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceRar",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/rar/potion_78",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1017,6 +1143,114 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/unc/potion_70",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/unc/potion_71",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/unc/potion_72",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/unc/potion_73",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/unc/potion_74",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/unc/potion_75",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceUnc",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "att2:item_data/potion/com/potion_1",
           "conditions": [
             {
@@ -1294,6 +1528,168 @@
               "chance": {
                 "type": "score",
                 "score": "DropChanceCom",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/com/potion_63",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceCom",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/com/potion_64",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceCom",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/com/potion_65",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceCom",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/com/potion_66",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceCom",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/com/potion_67",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceCom",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/com/potion_68",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceCom",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/com/potion_69",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceCom",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/ult/potion_83",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceUlt",
+                "scale": 0.000000000142857,
+                "target": {
+                  "type": "fixed",
+                  "name": "#Temp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "att2:item_data/potion/ult/potion_84",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "score",
+                "score": "DropChanceUlt",
                 "scale": 0.000000000142857,
                 "target": {
                   "type": "fixed",
