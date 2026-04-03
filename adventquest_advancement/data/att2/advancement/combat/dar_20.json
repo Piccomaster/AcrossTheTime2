@@ -5,7 +5,7 @@
         },
         "title": {"translate":"att2.advancement.combat.title.dar_20"},
         "description": {"translate":"att2.advancement.combat.description.dar_20"},
-		"frame": "goal"
+		"frame": "challenge"
     },
     "parent": "att2:combat/dar_12",
     "rewards": {

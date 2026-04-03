@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wooden_hoe"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.wooden_hoe_1"},
+        "description": {"translate": "att2.advancement.weapons.description.wooden_hoe_1"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "wooden_hoe_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

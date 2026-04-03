@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_chestplate"
+        },
+        "title": {"translate":"att2.advancement.combat.title.break_copper_armor"},
+        "description": {"translate":"att2.advancement.combat.description.break_copper_armor"}
+    },
+    "parent": "att2:combat/break_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+    },
+    "criteria": {
+        "break_copper_armor": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {"max": 5},
+                "item": {
+                    "items": [ 
+                    "minecraft:copper_helmet",
+                    "minecraft:copper_chestplate",
+                    "minecraft:copper_leggings",
+                    "minecraft:copper_boots"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_copper_armor"
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_pickaxe"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.copper_mace_50"},
+        "description": {"translate": "att2.advancement.weapons.description.copper_mace_50"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/copper_mace_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "copper_mace_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

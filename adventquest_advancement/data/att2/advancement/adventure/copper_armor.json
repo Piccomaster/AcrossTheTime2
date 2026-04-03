@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_chestplate"
+        },
+        "title": {"translate":"att2.advancement.adventure.title.copper_armor"},
+        "description": {"translate":"att2.advancement.adventure.description.copper_armor"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "copper_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:copper_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "copper_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:copper_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "copper_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:copper_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "copper_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:copper_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "copper_helmet",
+            "copper_chestplate",
+            "copper_leggings",
+            "copper_boots"
+        ]
+    ]
+}

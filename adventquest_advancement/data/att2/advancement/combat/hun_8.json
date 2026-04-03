@@ -4,7 +4,8 @@
             "id": "minecraft:redstone"
         },
         "title": {"translate":"att2.advancement.combat.title.hun_8"},
-        "description": {"translate":"att2.advancement.combat.description.hun_8"}
+        "description": {"translate":"att2.advancement.combat.description.hun_8"},
+		"frame": "goal"
     },
     "parent": "att2:combat/hun_4",
     "rewards": {

@@ -4,7 +4,8 @@
             "id": "minecraft:feather"
         },
         "title": {"translate":"att2.advancement.combat.title.spd_12"},
-        "description": {"translate":"att2.advancement.combat.description.spd_12"}
+        "description": {"translate":"att2.advancement.combat.description.spd_12"},
+		"frame": "goal"
     },
     "parent": "att2:combat/spd_6",
     "rewards": {

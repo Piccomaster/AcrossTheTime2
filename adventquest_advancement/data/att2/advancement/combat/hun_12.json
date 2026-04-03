@@ -5,7 +5,7 @@
         },
         "title": {"translate":"att2.advancement.combat.title.hun_12"},
         "description": {"translate":"att2.advancement.combat.description.hun_12"},
-		"frame": "goal"
+		"frame": "challenge"
     },
     "parent": "att2:combat/hun_8",
     "rewards": {

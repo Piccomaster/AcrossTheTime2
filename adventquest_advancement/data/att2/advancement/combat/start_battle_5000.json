@@ -4,7 +4,8 @@
             "id": "minecraft:wooden_hoe"
         },
         "title": {"translate":"att2.advancement.combat.title.start_battle_5000"},
-        "description": {"translate":"att2.advancement.combat.description.start_battle_5000"}
+        "description": {"translate":"att2.advancement.combat.description.start_battle_5000"},
+        "frame": "challenge"
     },
     "parent": "att2:combat/start_battle_2500",
     "rewards": {

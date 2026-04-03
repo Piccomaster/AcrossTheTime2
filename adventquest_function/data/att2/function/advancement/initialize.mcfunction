@@ -74,6 +74,7 @@ scoreboard objectives add statWOODDAG minecraft.used:minecraft.wooden_shovel
 scoreboard objectives add statWOODSPEAR minecraft.used:minecraft.wooden_spear
 scoreboard objectives add statSTONESWORD minecraft.used:minecraft.stone_sword
 scoreboard objectives add statSTONEAXE minecraft.used:minecraft.stone_axe
+scoreboard objectives add statSTONESCYTHE minecraft.used:minecraft.stone_hoe
 scoreboard objectives add statSTONEMACE minecraft.used:minecraft.stone_pickaxe
 scoreboard objectives add statSTONEDAG minecraft.used:minecraft.stone_shovel
 scoreboard objectives add statSTONESPEAR minecraft.used:minecraft.stone_spear
@@ -89,6 +90,12 @@ scoreboard objectives add statIRONSCYTHE minecraft.used:minecraft.iron_hoe
 scoreboard objectives add statIRONMACE minecraft.used:minecraft.iron_pickaxe
 scoreboard objectives add statIRONDAG minecraft.used:minecraft.iron_shovel
 scoreboard objectives add statIRONSPEAR minecraft.used:minecraft.iron_spear
+scoreboard objectives add statCOPPERSWORD minecraft.used:minecraft.copper_sword
+scoreboard objectives add statCOPPERAXE minecraft.used:minecraft.copper_axe
+scoreboard objectives add statCOPPERSCYTHE minecraft.used:minecraft.copper_hoe
+scoreboard objectives add statCOPPERMACE minecraft.used:minecraft.copper_pickaxe
+scoreboard objectives add statCOPPERDAG minecraft.used:minecraft.copper_shovel
+scoreboard objectives add statCOPPERSPEAR minecraft.used:minecraft.copper_spear
 scoreboard objectives add statDIAMONDSWORD minecraft.used:minecraft.diamond_sword
 scoreboard objectives add statDIAMONDAXE minecraft.used:minecraft.diamond_axe
 scoreboard objectives add statDIAMONDSCYTHE minecraft.used:minecraft.diamond_hoe
@@ -183,6 +190,7 @@ scoreboard players set @s statWOODMACE 0
 scoreboard players set @s statWOODDAG 0
 scoreboard players set @s statWOODSPEAR 0
 scoreboard players set @s statSTONESWORD 0
+scoreboard players set @s statSTONESCYTHE 0
 scoreboard players set @s statSTONEAXE 0
 scoreboard players set @s statSTONEMACE 0
 scoreboard players set @s statSTONEDAG 0
@@ -199,6 +207,12 @@ scoreboard players set @s statIRONSCYTHE 0
 scoreboard players set @s statIRONMACE 0
 scoreboard players set @s statIRONDAG 0
 scoreboard players set @s statIRONSPEAR 0
+scoreboard players set @s statCOPPERSWORD 0
+scoreboard players set @s statCOPPERAXE 0
+scoreboard players set @s statCOPPERSCYTHE 0
+scoreboard players set @s statCOPPERMACE 0
+scoreboard players set @s statCOPPERDAG 0
+scoreboard players set @s statCOPPERSPEAR 0
 scoreboard players set @s statDIAMONDSWORD 0
 scoreboard players set @s statDIAMONDAXE 0
 scoreboard players set @s statDIAMONDSCYTHE 0

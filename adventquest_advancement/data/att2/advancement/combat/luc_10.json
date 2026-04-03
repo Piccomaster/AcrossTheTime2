@@ -4,7 +4,8 @@
             "id": "minecraft:rabbit_foot"
         },
         "title": {"translate":"att2.advancement.combat.title.luc_10"},
-        "description": {"translate":"att2.advancement.combat.description.luc_10"}
+        "description": {"translate":"att2.advancement.combat.description.luc_10"},
+		"frame": "goal"
     },
     "parent": "att2:combat/luc_4",
     "rewards": {

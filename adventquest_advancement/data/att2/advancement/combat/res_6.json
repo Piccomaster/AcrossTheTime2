@@ -4,7 +4,8 @@
             "id": "minecraft:turtle_helmet"
         },
         "title": {"translate":"att2.advancement.combat.title.res_6"},
-        "description": {"translate":"att2.advancement.combat.description.res_6"}
+        "description": {"translate":"att2.advancement.combat.description.res_6"},
+		"frame": "goal"
     },
     "parent": "att2:combat/res_4",
     "rewards": {

@@ -4,7 +4,8 @@
             "id": "minecraft:redstone"
         },
         "title": {"translate":"att2.advancement.combat.title.her_10"},
-        "description": {"translate":"att2.advancement.combat.description.her_10"}
+        "description": {"translate":"att2.advancement.combat.description.her_10"},
+		"frame": "goal"
     },
     "parent": "att2:combat/her_5",
     "rewards": {

@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_sword"
+        },
+        "title": {"translate":"att2.advancement.combat.title.break_copper_weapon"},
+        "description": {"translate":"att2.advancement.combat.description.break_copper_weapon"}
+    },
+    "parent": "att2:combat/break_weapon",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "break_copper_weapon": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {"max": 2},
+                "item": {
+                    "items": [
+                    "minecraft:copper_sword",
+                    "minecraft:copper_shovel",
+                    "minecraft:copper_axe",
+                    "minecraft:copper_pickaxe",
+                    "minecraft:copper_hoe",
+                    "minecraft:copper_spear"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_copper_weapon"
+        ]
+    ]
+}

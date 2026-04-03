@@ -5,9 +5,9 @@
         },
         "title": {"translate":"att2.advancement.combat.title.str_25"},
         "description": {"translate":"att2.advancement.combat.description.str_25"},
-        "frame": "goal"
+        "frame": "challenge"
     },
-    "parent": "att2:combat/str_16",
+    "parent": "att2:combat/str_18",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 10000

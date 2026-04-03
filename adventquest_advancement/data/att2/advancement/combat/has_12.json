@@ -4,7 +4,8 @@
             "id": "minecraft:gunpowder"
         },
         "title": {"translate":"att2.advancement.combat.title.has_12"},
-        "description": {"translate":"att2.advancement.combat.description.has_12"}
+        "description": {"translate":"att2.advancement.combat.description.has_12"},
+		"frame": "goal"
     },
     "parent": "att2:combat/has_6",
     "rewards": {

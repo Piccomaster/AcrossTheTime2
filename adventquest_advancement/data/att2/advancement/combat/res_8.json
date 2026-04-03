@@ -5,7 +5,7 @@
         },
         "title": {"translate":"att2.advancement.combat.title.res_8"},
         "description": {"translate":"att2.advancement.combat.description.res_8"},
-		"frame": "goal"
+		"frame": "challenge"
     },
     "parent": "att2:combat/res_6",
     "rewards": {

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_spear"
+        },
+        "title": {"translate": "att2.advancement.weapons.title.copper_spear_1000"},
+        "description": {"translate": "att2.advancement.weapons.description.copper_spear_1000"},
+        "frame": "challenge"
+    },
+    "parent": "att2:weapons/copper_spear_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "copper_spear_1000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
