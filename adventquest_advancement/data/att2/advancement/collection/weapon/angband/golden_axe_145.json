@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "weapon145.name"
+    },
+    "description": [
+      {
+        "translate": "weapon145.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon145.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon145.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/weapon/angband/golden_axe_144",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/rar"
+  },
+  "criteria": {
+    "golden_axe_145": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon145.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

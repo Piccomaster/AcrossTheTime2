@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "armor111.name"
+    },
+    "description": [
+      {
+        "translate": "armor111.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor111.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor111.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/armor/iron/iron_leggings_104",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/unc"
+  },
+  "criteria": {
+    "iron_leggings_111": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor111.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

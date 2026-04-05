@@ -14,22 +14,33 @@
             "pattern": "minecraft:rhombus"
           }
         ],
-        "tooltip_style": "minecraft:rarity/unc/unc"
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.billgart.title.shield_194"
+      "translate": "weapon194.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.billgart.description.shield_194"
-    },
-    "frame": "goal",
+    "description": [
+      {
+        "translate": "weapon194.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon194.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon194.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "goal"
   },
   "parent": "att2:collection/weapon/billgart/shield_193",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_rar"
+    "function": "att2:advancement/test_all/collection/weapon/rar"
   },
   "criteria": {
     "shield_194": {

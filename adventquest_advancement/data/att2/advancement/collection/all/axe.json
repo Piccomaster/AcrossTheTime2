@@ -1,0 +1,1839 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
+    },
+    "title": {
+      "translate": "att2.advancement.collection_all.title.axe"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_all.description.axe"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/all/sword",
+  "rewards": {
+    "function": "att2:advancement/exploit_50",
+    "experience": 25000
+  },
+  "criteria": {
+    "wooden_axe_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon1.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon2.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon3.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon4.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon9.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe_10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon10.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon11.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon12.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe_17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon17.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe_18": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon18.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_19": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon19.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_20": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon20.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe_25": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon25.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_26": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon26.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe_29": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon29.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_30": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon30.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon64.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_65": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon65.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_66": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon66.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_67": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon67.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_72": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon72.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_73": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon73.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_74": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon74.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_75": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon75.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_80": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon80.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_81": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon81.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_82": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon82.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_83": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon83.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_88": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon88.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_89": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon89.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_92": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon92.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_93": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon93.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_96": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon96.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_97": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon97.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_98": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon98.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_99": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon99.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_104": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon104.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_105": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon105.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_106": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon106.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_107": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon107.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_112": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon112.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_113": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon113.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_114": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon114.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_115": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon115.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_120": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon120.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_121": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon121.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_124": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon124.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_125": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon125.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_128": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon128.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_129": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon129.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_130": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon130.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_131": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon131.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_136": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon136.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_137": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon137.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_138": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon138.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_139": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon139.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_144": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon144.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_145": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon145.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_146": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon146.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_147": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon147.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_152": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon152.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_153": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon153.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe_156": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon156.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe_157": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon157.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe_164": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon164.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe_165": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon165.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe_168": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon168.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe_169": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon169.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_176": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon176.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_178": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon178.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_179": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon179.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_182": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon182.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_183": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon183.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_186": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon186.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_187": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon187.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_189": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon189.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe_198": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon198.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe_200": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon200.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe_201": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon201.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe_204": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon204.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe_205": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon205.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe_208": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon208.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe_209": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon209.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe_211": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon211.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_278": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon278.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_279": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon279.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_280": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon280.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_281": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon281.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_288": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon288.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_289": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon289.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_290": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon290.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_291": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon291.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_298": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon298.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_299": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon299.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_300": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon300.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_301": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon301.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_308": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon308.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_309": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon309.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_313": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon313.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_314": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon314.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_axe_330": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon330.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe_331": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon331.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe_342": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon342.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe_343": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon343.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_395": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon395.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_396": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon396.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_397": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon397.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_398": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon398.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_403": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon403.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_404": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon404.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_405": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon405.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_406": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon406.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_411": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon411.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_412": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon412.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_413": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon413.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_414": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon414.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_419": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon419.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_420": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon420.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_423": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon423.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_424": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon424.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_429": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon429.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

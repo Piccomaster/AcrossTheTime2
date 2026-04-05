@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_spear",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "weapon449.name"
+    },
+    "description": [
+      {
+        "translate": "weapon449.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon449.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon449.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/copper/copper_spear_448",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/unc"
+  },
+  "criteria": {
+    "copper_spear_449": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon449.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/ult/ult",
+        "minecraft:dyed_color": 9584800
+      }
+    },
+    "title": {
+      "translate": "armor363.name"
+    },
+    "description": [
+      {
+        "translate": "armor363.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor363.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor363.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/leather/leather_leggings_21",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/ult"
+  },
+  "criteria": {
+    "leather_leggings_363": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor363.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

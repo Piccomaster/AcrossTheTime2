@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "armor185.name"
+    },
+    "description": [
+      {
+        "translate": "armor185.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor185.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor185.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/armor/diamond/diamond_helmet_184",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/rar"
+  },
+  "criteria": {
+    "diamond_helmet_185": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor185.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

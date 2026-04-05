@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_hoe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "weapon356.name"
+    },
+    "description": [
+      {
+        "translate": "weapon356.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon356.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon356.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/iron/iron_hoe_355",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/com"
+  },
+  "criteria": {
+    "iron_hoe_356": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon356.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

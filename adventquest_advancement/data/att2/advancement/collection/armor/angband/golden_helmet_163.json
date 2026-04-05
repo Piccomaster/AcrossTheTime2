@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg_armset/leg_armset"
+      }
+    },
+    "title": {
+      "translate": "armor163.name"
+    },
+    "description": [
+      {
+        "translate": "armor163.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor163.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor163.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/angband/golden_helmet_159",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg_armset"
+  },
+  "criteria": {
+    "golden_helmet_163": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor163.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

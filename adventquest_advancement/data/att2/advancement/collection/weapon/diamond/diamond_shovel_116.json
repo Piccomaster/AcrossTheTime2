@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "weapon116.name"
+    },
+    "description": [
+      {
+        "translate": "weapon116.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon116.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon116.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/weapon/diamond/diamond_shovel_109",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/rar"
+  },
+  "criteria": {
+    "diamond_shovel_116": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon116.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

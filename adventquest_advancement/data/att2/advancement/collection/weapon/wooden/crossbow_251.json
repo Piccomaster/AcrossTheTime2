@@ -7,18 +7,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.wooden.title.crossbow_251"
+      "translate": "weapon251.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.wooden.description.crossbow_251"
-    },
-    "frame": "goal",
+    "description": [
+      {
+        "translate": "weapon251.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon251.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon251.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "challenge"
   },
-  "parent": "att2:collection/weapon/wooden/crossbow_250",
+  "parent": "att2:collection/weapon/wooden/crossbow_336",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_epi"
+    "function": "att2:advancement/test_all/collection/weapon/epi"
   },
   "criteria": {
     "crossbow_251": {

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "weapon399.name"
+    },
+    "description": [
+      {
+        "translate": "weapon399.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon399.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon399.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/copper",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/com"
+  },
+  "criteria": {
+    "copper_shovel_399": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon399.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

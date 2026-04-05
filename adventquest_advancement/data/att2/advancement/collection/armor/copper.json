@@ -1,0 +1,714 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_block"
+    },
+    "title": {
+      "translate": "att2.advancement.collection_armor.title.copper"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_armor.description.copper"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/root",
+  "rewards": {
+    "function": "att2:advancement/exploit_25",
+    "experience": 10000
+  },
+  "criteria": {
+    "copper_boots_364": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor364.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_365": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor365.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_366": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor366.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_367": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor367.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_368": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor368.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_369": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor369.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_370": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor370.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_371": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor371.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_372": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor372.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_373": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor373.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_374": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor374.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_375": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor375.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_376": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor376.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_377": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor377.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_378": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor378.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_379": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor379.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_380": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor380.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_381": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor381.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_382": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor382.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_383": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor383.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_384": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor384.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_385": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor385.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_386": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor386.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_387": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor387.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_388": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor388.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_389": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor389.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_390": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor390.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_391": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor391.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_392": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor392.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_393": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor393.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_394": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor394.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_395": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor395.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_396": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor396.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_397": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor397.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_399": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor399.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_400": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor400.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_401": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor401.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_402": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor402.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_403": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor403.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_404": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor404.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_405": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor405.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_406": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor406.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_407": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor407.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_408": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor408.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_409": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor409.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_410": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor410.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

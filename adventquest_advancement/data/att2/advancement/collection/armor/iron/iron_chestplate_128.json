@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "armor128.name"
+    },
+    "description": [
+      {
+        "translate": "armor128.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor128.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor128.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/iron/iron_chestplate_124",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg"
+  },
+  "criteria": {
+    "iron_chestplate_128": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor128.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

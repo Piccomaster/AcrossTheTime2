@@ -30,22 +30,33 @@
             "pattern": "minecraft:gradient"
           }
         ],
-        "tooltip_style": "minecraft:rarity/rar/rar"
+        "tooltip_style": "minecraft:rarity/leg/leg"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.angband.title.shield_163"
+      "translate": "weapon163.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.angband.description.shield_163"
-    },
-    "frame": "challenge",
+    "description": [
+      {
+        "translate": "weapon163.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon163.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon163.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "challenge"
   },
   "parent": "att2:collection/weapon/angband/shield_162",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_leg"
+    "function": "att2:advancement/test_all/collection/weapon/leg"
   },
   "criteria": {
     "shield_163": {

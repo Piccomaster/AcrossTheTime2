@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 16743033
+        },
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "potion41.name"
+    },
+    "description": [
+      {
+        "translate": "potion41.lore.1"
+      },
+      "\n",
+      {
+        "translate": "potion41.lore.2"
+      },
+      "\n",
+      {
+        "translate": "potion41.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/potion/potion40",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/potion/unc"
+  },
+  "criteria": {
+    "lingering_potion_41": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lingering_potion",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "potion41.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

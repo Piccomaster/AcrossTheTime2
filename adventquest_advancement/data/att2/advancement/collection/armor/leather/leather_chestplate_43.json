@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar",
+        "minecraft:dyed_color": 14122608
+      }
+    },
+    "title": {
+      "translate": "armor43.name"
+    },
+    "description": [
+      {
+        "translate": "armor43.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor43.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor43.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/armor/leather/leather_chestplate_42",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/rar"
+  },
+  "criteria": {
+    "leather_chestplate_43": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor43.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

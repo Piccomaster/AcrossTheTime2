@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg_armset/leg_armset"
+      }
+    },
+    "title": {
+      "translate": "armor205.name"
+    },
+    "description": [
+      {
+        "translate": "armor205.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor205.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor205.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/diamond/diamond_helmet_196",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg_armset"
+  },
+  "criteria": {
+    "diamond_helmet_205": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor205.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "weapon368.name"
+    },
+    "description": [
+      {
+        "translate": "weapon368.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon368.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon368.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/weapon/angband/golden_hoe_367",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/rar"
+  },
+  "criteria": {
+    "golden_hoe_368": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon368.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

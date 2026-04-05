@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi_set/epi_set"
+      }
+    },
+    "title": {
+      "translate": "armor236.name"
+    },
+    "description": [
+      {
+        "translate": "armor236.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor236.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor236.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/billgart/netherite_chestplate_326",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/epi_set"
+  },
+  "criteria": {
+    "netherite_chestplate_236": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor236.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "armor162.name"
+    },
+    "description": [
+      {
+        "translate": "armor162.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor162.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor162.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/angband/golden_boots_314",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg"
+  },
+  "criteria": {
+    "golden_boots_162": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor162.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "weapon124.name"
+    },
+    "description": [
+      {
+        "translate": "weapon124.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon124.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon124.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/diamond/diamond_axe_120",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/leg"
+  },
+  "criteria": {
+    "diamond_axe_124": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon124.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

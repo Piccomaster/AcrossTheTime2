@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "weapon316.name"
+    },
+    "description": [
+      {
+        "translate": "weapon316.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon316.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon316.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/netherite/netherite_sword_311",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/leg"
+  },
+  "criteria": {
+    "netherite_sword_316": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon316.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "armor367.name"
+    },
+    "description": [
+      {
+        "translate": "armor367.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor367.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor367.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/armor/copper/copper_helmet_366",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/com"
+  },
+  "criteria": {
+    "copper_helmet_367": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor367.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

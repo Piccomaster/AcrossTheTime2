@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "weapon92.name"
+    },
+    "description": [
+      {
+        "translate": "weapon92.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon92.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon92.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/iron/iron_axe_88",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/leg"
+  },
+  "criteria": {
+    "iron_axe_92": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon92.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

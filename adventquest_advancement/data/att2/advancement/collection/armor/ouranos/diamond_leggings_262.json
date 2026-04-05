@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "armor262.name"
+    },
+    "description": [
+      {
+        "translate": "armor262.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor262.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor262.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/ouranos/diamond_leggings_347",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg"
+  },
+  "criteria": {
+    "diamond_leggings_262": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor262.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

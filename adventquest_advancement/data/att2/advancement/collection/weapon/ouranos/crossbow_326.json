@@ -7,17 +7,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.ouranos.title.crossbow_326"
+      "translate": "weapon326.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.ouranos.description.crossbow_326"
-    },
+    "description": [
+      {
+        "translate": "weapon326.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon326.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon326.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "task"
   },
   "parent": "att2:collection/weapon/ouranos",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_com_unc"
+    "function": "att2:advancement/test_all/collection/weapon/unc"
   },
   "criteria": {
     "crossbow_326": {

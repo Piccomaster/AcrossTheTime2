@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "armor142.name"
+    },
+    "description": [
+      {
+        "translate": "armor142.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor142.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor142.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/armor/angband/golden_chestplate_141",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/unc"
+  },
+  "criteria": {
+    "golden_chestplate_142": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor142.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

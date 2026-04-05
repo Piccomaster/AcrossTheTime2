@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_hoe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "weapon432.name"
+    },
+    "description": [
+      {
+        "translate": "weapon432.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon432.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon432.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/billgart/stone_hoe_431",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/unc"
+  },
+  "criteria": {
+    "stone_hoe_432": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon432.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_spear",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
+    },
+    "title": {
+      "translate": "weapon276.name"
+    },
+    "description": [
+      {
+        "translate": "weapon276.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon276.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon276.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/diamond/diamond_spear_275",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/epi"
+  },
+  "criteria": {
+    "diamond_spear_276": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon276.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

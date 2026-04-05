@@ -3,22 +3,33 @@
     "icon": {
       "id": "minecraft:bow",
       "components": {
-        "tooltip_style": "minecraft:rarity/unc/unc"
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.ouranos.title.bow_215"
+      "translate": "weapon215.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.ouranos.description.bow_215"
-    },
-    "frame": "goal",
+    "description": [
+      {
+        "translate": "weapon215.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon215.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon215.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "goal"
   },
   "parent": "att2:collection/weapon/ouranos/bow_214",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_rar"
+    "function": "att2:advancement/test_all/collection/weapon/rar"
   },
   "criteria": {
     "bow_215": {

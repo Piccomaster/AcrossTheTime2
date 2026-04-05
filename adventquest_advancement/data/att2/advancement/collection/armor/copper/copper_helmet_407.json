@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg_armset/leg_armset"
+      }
+    },
+    "title": {
+      "translate": "armor407.name"
+    },
+    "description": [
+      {
+        "translate": "armor407.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor407.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor407.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/copper/copper_helmet_403",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg_armset"
+  },
+  "criteria": {
+    "copper_helmet_407": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor407.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "weapon76.name"
+    },
+    "description": [
+      {
+        "translate": "weapon76.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon76.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon76.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/iron/iron_shovel_69",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/unc"
+  },
+  "criteria": {
+    "iron_shovel_76": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon76.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

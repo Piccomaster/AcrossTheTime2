@@ -1,29 +1,474 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:emerald_block"
-        },
-        "title": {"translate": "att2.advancement.collection_weapon.title.billgart"},
-        "description": {"translate": "att2.advancement.collection_weapon.description.billgart"},
-        "show_toast": false,
-        "announce_to_chat": false
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
     },
-    "parent": "att2:collection/weapon/root",
-    "criteria": {
-        "collection": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:written_book",
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "Conscience": "book"
-                            }
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "att2.advancement.collection_weapon.title.billgart"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.description.billgart"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/root",
+  "rewards": {
+    "function": "att2:advancement/exploit_25",
+    "experience": 10000
+  },
+  "criteria": {
+    "stone_pickaxe_176": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon176.name"
+              }
             }
-        }
+          }
+        ]
+      }
+    },
+    "stone_sword_177": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon177.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_178": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon178.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_179": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon179.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_sword_180": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon180.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_sword_181": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon181.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_182": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon182.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_183": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon183.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_sword_184": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon184.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_sword_185": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon185.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_186": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon186.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_187": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon187.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_sword_188": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon188.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe_189": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon189.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_sword_190": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon190.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_sword_191": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon191.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_192": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon192.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_193": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon193.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_194": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon194.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_195": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon195.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield_196": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon196.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bow_197": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bow",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon197.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_430": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon430.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_431": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon431.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_432": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon432.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_433": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon433.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_434": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon434.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_435": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon435.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_436": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon436.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_437": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon437.name"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

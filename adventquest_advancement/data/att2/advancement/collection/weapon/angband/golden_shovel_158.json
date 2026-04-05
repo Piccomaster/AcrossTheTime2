@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_shovel",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "weapon158.name"
+    },
+    "description": [
+      {
+        "translate": "weapon158.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon158.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon158.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/angband/golden_shovel_154",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/leg"
+  },
+  "criteria": {
+    "golden_shovel_158": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon158.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

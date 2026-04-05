@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
+    },
+    "title": {
+      "translate": "armor392.name"
+    },
+    "description": [
+      {
+        "translate": "armor392.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor392.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor392.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/copper/copper_leggings_401",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/epi"
+  },
+  "criteria": {
+    "copper_leggings_392": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor392.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

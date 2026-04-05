@@ -7,16 +7,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.supreme.title.bow_338"
+      "translate": "weapon338.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.supreme.description.bow_338"
-    },
+    "description": [
+      {
+        "translate": "weapon338.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon338.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon338.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
     "frame": "challenge"
   },
   "parent": "att2:collection/weapon/wooden/bow_49",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_ult"
+    "function": "att2:advancement/test_all/collection/weapon/ult"
   },
   "criteria": {
     "bow_338": {

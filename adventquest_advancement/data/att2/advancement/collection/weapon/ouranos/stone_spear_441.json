@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_spear",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "weapon441.name"
+    },
+    "description": [
+      {
+        "translate": "weapon441.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon441.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon441.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/ouranos/stone_spear_440",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/unc"
+  },
+  "criteria": {
+    "stone_spear_441": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon441.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

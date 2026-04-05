@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi_set/epi_set",
+        "minecraft:dyed_color": 8130571
+      }
+    },
+    "title": {
+      "translate": "armor64.name"
+    },
+    "description": [
+      {
+        "translate": "armor64.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor64.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor64.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/leather/leather_helmet_14",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/epi_set"
+  },
+  "criteria": {
+    "leather_helmet_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor64.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

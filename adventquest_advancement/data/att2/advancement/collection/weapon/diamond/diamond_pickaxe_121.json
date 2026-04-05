@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
+    },
+    "title": {
+      "translate": "weapon121.name"
+    },
+    "description": [
+      {
+        "translate": "weapon121.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon121.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon121.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/diamond/diamond_pickaxe_169",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/epi"
+  },
+  "criteria": {
+    "diamond_pickaxe_121": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon121.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

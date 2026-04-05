@@ -1,0 +1,804 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_block"
+    },
+    "title": {
+      "translate": "att2.advancement.collection_weapon.title.copper"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_weapon.description.copper"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/root",
+  "rewards": {
+    "function": "att2:advancement/exploit_25",
+    "experience": 10000
+  },
+  "criteria": {
+    "copper_hoe_346": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon346.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_387": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon387.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_388": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon388.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_389": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon389.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_390": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon390.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_391": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon391.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_392": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon392.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_393": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon393.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_394": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon394.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_395": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon395.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_396": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon396.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_397": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon397.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_398": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon398.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_shovel_399": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon399.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_shovel_400": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon400.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_sword_401": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon401.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_sword_402": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon402.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_403": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon403.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_404": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon404.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_405": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon405.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_406": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon406.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_shovel_407": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon407.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_shovel_408": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon408.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_sword_409": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon409.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_sword_410": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon410.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_411": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon411.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_412": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon412.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_413": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon413.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_414": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon414.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_shovel_415": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon415.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_shovel_416": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon416.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_sword_417": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon417.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_sword_418": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon418.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_419": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon419.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_420": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon420.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_shovel_421": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon421.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_sword_422": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon422.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_axe_423": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon423.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_424": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon424.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_shovel_425": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_shovel",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon425.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_sword_426": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon426.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_427": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon427.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_428": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon428.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_pickaxe_429": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon429.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_446": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon446.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_447": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon447.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_448": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon448.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_449": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon449.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_450": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon450.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_451": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon451.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_452": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon452.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_spear_453": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon453.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

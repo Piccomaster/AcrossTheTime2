@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi_esc/epi_esc"
+      }
+    },
+    "title": {
+      "translate": "weapon166.name"
+    },
+    "description": [
+      {
+        "translate": "weapon166.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon166.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon166.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/iron/iron_sword_87",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/epi_esc"
+  },
+  "criteria": {
+    "iron_sword_166": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon166.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "armor280.name"
+    },
+    "description": [
+      {
+        "translate": "armor280.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor280.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor280.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/armor/netherite/netherite_boots_279",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/unc"
+  },
+  "criteria": {
+    "netherite_boots_280": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor280.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

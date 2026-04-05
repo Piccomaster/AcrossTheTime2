@@ -34,16 +34,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.supreme.title.shield_340"
+      "translate": "weapon340.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.supreme.description.shield_340"
-    },
+    "description": [
+      {
+        "translate": "weapon340.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon340.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon340.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
     "frame": "challenge"
   },
   "parent": "att2:collection/weapon/wooden/shield_63",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_ult"
+    "function": "att2:advancement/test_all/collection/weapon/ult"
   },
   "criteria": {
     "shield_340": {

@@ -1,0 +1,429 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_dye"
+    },
+    "title": {
+      "translate": "att2.advancement.collection_all.title.epi_set"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_all.description.epi_set"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/all/epi",
+  "rewards": {
+    "function": "att2:advancement/exploit_50",
+    "experience": 25000
+  },
+  "criteria": {
+    "leather_helmet_14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor14.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_chestplate_15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor15.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_leggings_16": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor16.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_boots_17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor17.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_helmet_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor64.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_chestplate_65": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor65.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_leggings_66": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor66.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_boots_67": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor67.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_helmet_200": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor200.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_chestplate_201": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor201.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_leggings_202": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor202.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_boots_203": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor203.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_helmet_210": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor210.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_leggings_212": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor212.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_boots_213": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor213.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_helmet_235": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor235.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_chestplate_236": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor236.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_leggings_237": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor237.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_boots_238": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor238.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_helmet_311": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor311.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_chestplate_312": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor312.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_leggings_313": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor313.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_boots_314": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor314.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_helmet_394": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor394.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_chestplate_395": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor395.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_leggings_396": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor396.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_boots_397": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor397.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
