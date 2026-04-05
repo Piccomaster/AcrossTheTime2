@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg_armset/leg_armset"
+      }
+    },
+    "title": {
+      "translate": "armor298.name"
+    },
+    "description": [
+      {
+        "translate": "armor298.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor298.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor298.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/chainmail/chainmail_chestplate_96",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg_armset"
+  },
+  "criteria": {
+    "chainmail_chestplate_298": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chainmail_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor298.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

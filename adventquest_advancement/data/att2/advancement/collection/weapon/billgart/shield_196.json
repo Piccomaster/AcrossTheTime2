@@ -34,18 +34,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.billgart.title.shield_196"
+      "translate": "weapon196.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.billgart.description.shield_196"
-    },
-    "frame": "challenge",
+    "description": [
+      {
+        "translate": "weapon196.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon196.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon196.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "challenge"
   },
   "parent": "att2:collection/weapon/billgart/shield_195",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_leg"
+    "function": "att2:advancement/test_all/collection/weapon/leg"
   },
   "criteria": {
     "shield_196": {

@@ -7,18 +7,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.wooden.title.bow_47"
+      "translate": "weapon47.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.wooden.description.bow_47"
-    },
-    "frame": "goal",
+    "description": [
+      {
+        "translate": "weapon47.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon47.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon47.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "challenge"
   },
   "parent": "att2:collection/weapon/wooden/bow_46",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_epi"
+    "function": "att2:advancement/test_all/collection/weapon/epi"
   },
   "criteria": {
     "bow_47": {

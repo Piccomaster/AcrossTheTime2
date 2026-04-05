@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_hoe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "weapon354.name"
+    },
+    "description": [
+      {
+        "translate": "weapon354.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon354.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon354.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/stone/wooden_hoe_353",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/leg"
+  },
+  "criteria": {
+    "wooden_hoe_354": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon354.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

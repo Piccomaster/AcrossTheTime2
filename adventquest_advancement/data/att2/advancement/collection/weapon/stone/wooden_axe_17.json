@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "weapon17.name"
+    },
+    "description": [
+      {
+        "translate": "weapon17.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon17.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon17.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/weapon/stone/wooden_axe_10",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/rar"
+  },
+  "criteria": {
+    "wooden_axe_17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon17.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

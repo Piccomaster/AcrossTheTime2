@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "armor406.name"
+    },
+    "description": [
+      {
+        "translate": "armor406.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor406.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor406.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/copper/copper_boots_397",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg"
+  },
+  "criteria": {
+    "copper_boots_406": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor406.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_sword",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "weapon409.name"
+    },
+    "description": [
+      {
+        "translate": "weapon409.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon409.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon409.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/copper/copper_sword_402",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/unc"
+  },
+  "criteria": {
+    "copper_sword_409": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon409.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

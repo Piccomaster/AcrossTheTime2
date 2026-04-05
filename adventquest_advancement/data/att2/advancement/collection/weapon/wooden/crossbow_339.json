@@ -7,16 +7,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.supreme.title.crossbow_339"
+      "translate": "weapon339.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.supreme.description.crossbow_339"
-    },
+    "description": [
+      {
+        "translate": "weapon339.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon339.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon339.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
     "frame": "challenge"
   },
   "parent": "att2:collection/weapon/wooden/crossbow_253",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_ult"
+    "function": "att2:advancement/test_all/collection/weapon/ult"
   },
   "criteria": {
     "crossbow_339": {

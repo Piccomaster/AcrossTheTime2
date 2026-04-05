@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg_armset/leg_armset",
+        "minecraft:dyed_color": 0
+      }
+    },
+    "title": {
+      "translate": "armor21.name"
+    },
+    "description": [
+      {
+        "translate": "armor21.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor21.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor21.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/leather/leather_leggings_54",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg_armset"
+  },
+  "criteria": {
+    "leather_leggings_21": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor21.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

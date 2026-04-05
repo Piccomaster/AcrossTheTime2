@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "armor318.name"
+    },
+    "description": [
+      {
+        "translate": "armor318.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor318.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor318.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/armor/billgart/netherite_leggings_228",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/unc"
+  },
+  "criteria": {
+    "netherite_leggings_318": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor318.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

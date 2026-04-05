@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "armor147.name"
+    },
+    "description": [
+      {
+        "translate": "armor147.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor147.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor147.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/armor/angband/golden_helmet_140",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/rar"
+  },
+  "criteria": {
+    "golden_helmet_147": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor147.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

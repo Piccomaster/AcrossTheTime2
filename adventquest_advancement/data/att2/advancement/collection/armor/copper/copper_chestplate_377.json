@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chestplate",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "armor377.name"
+    },
+    "description": [
+      {
+        "translate": "armor377.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor377.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor377.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/armor/copper/copper_chestplate_376",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/unc"
+  },
+  "criteria": {
+    "copper_chestplate_377": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor377.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

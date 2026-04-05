@@ -1,0 +1,909 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "att2.advancement.collection_all.title.hoe"
+    },
+    "description": {
+      "translate": "att2.advancement.collection_all.description.hoe"
+    },
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/all/spear",
+  "rewards": {
+    "function": "att2:advancement/exploit_50",
+    "experience": 25000
+  },
+  "criteria": {
+    "copper_hoe_346": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon346.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_347": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon347.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_348": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon348.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_349": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon349.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_350": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon350.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_351": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon351.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_352": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon352.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_353": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon353.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_354": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon354.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_hoe_355": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon355.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_hoe_356": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon356.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_hoe_357": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon357.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_hoe_358": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon358.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_hoe_359": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon359.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_hoe_360": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon360.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_hoe_361": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon361.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_hoe_362": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon362.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe_363": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon363.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe_364": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon364.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe_365": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon365.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe_366": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon366.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe_367": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon367.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe_368": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon368.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe_369": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon369.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe_370": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon370.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe_371": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon371.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe_372": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon372.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe_373": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon373.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe_374": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon374.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe_375": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon375.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe_376": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon376.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe_377": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon377.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe_378": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon378.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_379": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon379.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_380": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon380.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_381": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon381.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_382": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon382.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_383": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon383.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_384": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon384.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_385": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon385.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_386": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon386.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_387": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon387.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_388": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon388.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_389": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon389.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_390": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon390.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_391": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon391.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_392": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon392.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_393": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon393.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_394": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon394.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_hoe_427": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon427.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_430": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon430.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_431": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon431.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_432": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon432.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_433": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon433.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_434": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon434.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_435": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon435.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_436": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon436.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_hoe_437": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon437.name"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe_454": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon454.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

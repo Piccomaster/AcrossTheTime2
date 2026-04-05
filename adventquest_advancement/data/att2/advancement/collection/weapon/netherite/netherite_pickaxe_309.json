@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
+    },
+    "title": {
+      "translate": "weapon309.name"
+    },
+    "description": [
+      {
+        "translate": "weapon309.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon309.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon309.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/netherite/netherite_pickaxe_331",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/epi"
+  },
+  "criteria": {
+    "netherite_pickaxe_309": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon309.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "weapon4.name"
+    },
+    "description": [
+      {
+        "translate": "weapon4.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon4.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon4.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/stone/wooden_pickaxe_3",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/com"
+  },
+  "criteria": {
+    "wooden_pickaxe_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon4.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

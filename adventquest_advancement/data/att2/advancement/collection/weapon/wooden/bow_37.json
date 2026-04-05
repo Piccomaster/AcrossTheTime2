@@ -3,21 +3,33 @@
     "icon": {
       "id": "minecraft:bow",
       "components": {
-        "tooltip_style": "minecraft:rarity/com/com"
+        "tooltip_style": "minecraft:rarity/unc/unc"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.wooden.title.bow_37"
+      "translate": "weapon37.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.wooden.description.bow_37"
-    },
+    "description": [
+      {
+        "translate": "weapon37.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon37.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon37.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "task"
   },
   "parent": "att2:collection/weapon/wooden/bow_36",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_com_unc"
+    "function": "att2:advancement/test_all/collection/weapon/unc"
   },
   "criteria": {
     "bow_37": {

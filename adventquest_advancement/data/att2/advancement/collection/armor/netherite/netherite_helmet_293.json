@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "armor293.name"
+    },
+    "description": [
+      {
+        "translate": "armor293.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor293.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor293.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/netherite/netherite_helmet_289",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/leg"
+  },
+  "criteria": {
+    "netherite_helmet_293": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_helmet",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor293.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

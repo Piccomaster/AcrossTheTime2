@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "weapon83.name"
+    },
+    "description": [
+      {
+        "translate": "weapon83.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon83.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon83.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/weapon/iron/iron_pickaxe_82",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/rar"
+  },
+  "criteria": {
+    "iron_pickaxe_83": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon83.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

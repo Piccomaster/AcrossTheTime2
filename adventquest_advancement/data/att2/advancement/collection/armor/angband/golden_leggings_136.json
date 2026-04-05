@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_leggings",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "armor136.name"
+    },
+    "description": [
+      {
+        "translate": "armor136.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor136.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor136.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/armor/angband/golden_leggings_135",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/com"
+  },
+  "criteria": {
+    "golden_leggings_136": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_leggings",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor136.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

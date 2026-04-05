@@ -30,18 +30,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.angband.title.shield_162"
+      "translate": "weapon162.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.angband.description.shield_162"
-    },
-    "frame": "goal",
+    "description": [
+      {
+        "translate": "weapon162.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon162.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon162.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "goal"
   },
   "parent": "att2:collection/weapon/angband/shield_161",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_rar"
+    "function": "att2:advancement/test_all/collection/weapon/rar"
   },
   "criteria": {
     "shield_162": {

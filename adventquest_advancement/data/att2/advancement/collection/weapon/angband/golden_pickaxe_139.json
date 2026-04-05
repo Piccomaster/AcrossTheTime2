@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc"
+      }
+    },
+    "title": {
+      "translate": "weapon139.name"
+    },
+    "description": [
+      {
+        "translate": "weapon139.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon139.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon139.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/angband/golden_pickaxe_138",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/unc"
+  },
+  "criteria": {
+    "golden_pickaxe_139": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon139.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -7,18 +7,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.ouranos.title.bow_216"
+      "translate": "weapon216.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.ouranos.description.bow_216"
-    },
-    "frame": "goal",
+    "description": [
+      {
+        "translate": "weapon216.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon216.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon216.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "goal"
   },
   "parent": "att2:collection/weapon/ouranos/bow_215",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_rar"
+    "function": "att2:advancement/test_all/collection/weapon/rar"
   },
   "criteria": {
     "bow_216": {

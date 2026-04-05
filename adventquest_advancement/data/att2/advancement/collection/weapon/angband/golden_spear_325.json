@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_spear",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "weapon325.name"
+    },
+    "description": [
+      {
+        "translate": "weapon325.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon325.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon325.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/angband/golden_spear_324",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/leg"
+  },
+  "criteria": {
+    "golden_spear_325": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon325.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -22,21 +22,33 @@
             "pattern": "minecraft:flower"
           }
         ],
-        "tooltip_style": "minecraft:rarity/com/com"
+        "tooltip_style": "minecraft:rarity/unc/unc"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.billgart.title.shield_193"
+      "translate": "weapon193.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.billgart.description.shield_193"
-    },
+    "description": [
+      {
+        "translate": "weapon193.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon193.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon193.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "task"
   },
   "parent": "att2:collection/weapon/billgart/shield_192",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_com_unc"
+    "function": "att2:advancement/test_all/collection/weapon/unc"
   },
   "criteria": {
     "shield_193": {

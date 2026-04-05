@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi_esc/epi_esc"
+      }
+    },
+    "title": {
+      "translate": "armor222.name"
+    },
+    "description": [
+      {
+        "translate": "armor222.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor222.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor222.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/armor/iron/iron_boots_122",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/epi_esc"
+  },
+  "criteria": {
+    "iron_boots_222": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor222.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

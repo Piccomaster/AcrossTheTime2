@@ -3,22 +3,33 @@
     "icon": {
       "id": "minecraft:crossbow",
       "components": {
-        "tooltip_style": "minecraft:rarity/unc/unc"
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.ouranos.title.crossbow_327"
+      "translate": "weapon327.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.ouranos.description.crossbow_327"
-    },
-    "frame": "goal",
+    "description": [
+      {
+        "translate": "weapon327.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon327.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon327.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "goal"
   },
   "parent": "att2:collection/weapon/ouranos/crossbow_326",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_rar"
+    "function": "att2:advancement/test_all/collection/weapon/rar"
   },
   "criteria": {
     "crossbow_327": {

@@ -38,21 +38,33 @@
             "pattern": "minecraft:curly_border"
           }
         ],
-        "tooltip_style": "minecraft:rarity/com/com"
+        "tooltip_style": "minecraft:rarity/unc/unc"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.angband.title.shield_161"
+      "translate": "weapon161.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.angband.description.shield_161"
-    },
+    "description": [
+      {
+        "translate": "weapon161.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon161.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon161.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "task"
   },
   "parent": "att2:collection/weapon/angband/shield_160",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_com_unc"
+    "function": "att2:advancement/test_all/collection/weapon/unc"
   },
   "criteria": {
     "shield_161": {

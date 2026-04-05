@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "weapon151.name"
+    },
+    "description": [
+      {
+        "translate": "weapon151.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon151.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon151.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/weapon/angband/golden_sword_150",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/rar"
+  },
+  "criteria": {
+    "golden_sword_151": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon151.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

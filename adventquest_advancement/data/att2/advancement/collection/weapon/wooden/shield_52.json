@@ -26,17 +26,29 @@
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.wooden.title.shield_52"
+      "translate": "weapon52.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.wooden.description.shield_52"
-    },
+    "description": [
+      {
+        "translate": "weapon52.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon52.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon52.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "task"
   },
   "parent": "att2:collection/weapon/wooden/shield_51",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_com_unc"
+    "function": "att2:advancement/test_all/collection/weapon/com"
   },
   "criteria": {
     "shield_52": {

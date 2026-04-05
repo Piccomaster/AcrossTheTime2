@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword",
+      "components": {
+        "tooltip_style": "minecraft:rarity/epi/epi"
+      }
+    },
+    "title": {
+      "translate": "weapon28.name"
+    },
+    "description": [
+      {
+        "translate": "weapon28.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon28.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon28.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/stone/wooden_sword_24",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/epi"
+  },
+  "criteria": {
+    "wooden_sword_28": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon28.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

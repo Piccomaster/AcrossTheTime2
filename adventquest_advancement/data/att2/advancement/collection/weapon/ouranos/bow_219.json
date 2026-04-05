@@ -3,22 +3,33 @@
     "icon": {
       "id": "minecraft:bow",
       "components": {
-        "tooltip_style": "minecraft:rarity/epi/epi"
+        "tooltip_style": "minecraft:rarity/leg/leg"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.ouranos.title.bow_219"
+      "translate": "weapon219.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.ouranos.description.bow_219"
-    },
-    "frame": "challenge",
+    "description": [
+      {
+        "translate": "weapon219.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon219.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon219.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "challenge"
   },
   "parent": "att2:collection/weapon/ouranos/bow_218",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_leg"
+    "function": "att2:advancement/test_all/collection/weapon/leg"
   },
   "criteria": {
     "bow_219": {

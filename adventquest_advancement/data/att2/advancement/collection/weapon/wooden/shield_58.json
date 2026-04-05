@@ -30,22 +30,33 @@
             "pattern": "minecraft:flower"
           }
         ],
-        "tooltip_style": "minecraft:rarity/unc/unc"
+        "tooltip_style": "minecraft:rarity/rar/rar"
       }
     },
     "title": {
-      "translate": "att2.advancement.collection_weapon.wooden.title.shield_58"
+      "translate": "weapon58.name"
     },
-    "description": {
-      "translate": "att2.advancement.collection_weapon.wooden.description.shield_58"
-    },
-    "frame": "goal",
+    "description": [
+      {
+        "translate": "weapon58.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon58.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon58.stat"
+      }
+    ],
+    "hidden": false,
     "show_toast": false,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "frame": "goal"
   },
   "parent": "att2:collection/weapon/wooden/shield_57",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/test_rar"
+    "function": "att2:advancement/test_all/collection/weapon/rar"
   },
   "criteria": {
     "shield_58": {

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "weapon376.name"
+    },
+    "description": [
+      {
+        "translate": "weapon376.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon376.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon376.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/weapon/diamond/diamond_hoe_375",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/rar"
+  },
+  "criteria": {
+    "diamond_hoe_376": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon376.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

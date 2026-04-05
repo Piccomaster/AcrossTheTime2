@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_spear",
+      "components": {
+        "tooltip_style": "minecraft:rarity/rar/rar"
+      }
+    },
+    "title": {
+      "translate": "weapon306.name"
+    },
+    "description": [
+      {
+        "translate": "weapon306.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon306.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon306.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "att2:collection/weapon/netherite/netherite_spear_297",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/rar"
+  },
+  "criteria": {
+    "netherite_spear_306": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_spear",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon306.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

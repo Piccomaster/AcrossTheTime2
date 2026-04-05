@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_hoe",
+      "components": {
+        "tooltip_style": "minecraft:rarity/leg/leg"
+      }
+    },
+    "title": {
+      "translate": "weapon394.name"
+    },
+    "description": [
+      {
+        "translate": "weapon394.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon394.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon394.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "att2:collection/weapon/copper/copper_hoe_393",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/leg"
+  },
+  "criteria": {
+    "copper_hoe_394": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_hoe",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon394.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

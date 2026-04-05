@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "tooltip_style": "minecraft:rarity/unc/unc",
+        "minecraft:dyed_color": 10894924
+      }
+    },
+    "title": {
+      "translate": "armor9.name"
+    },
+    "description": [
+      {
+        "translate": "armor9.lore.1"
+      },
+      "\n",
+      {
+        "translate": "armor9.lore.2"
+      },
+      "\n",
+      {
+        "translate": "armor9.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/armor/leather/leather_boots_31",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/armor/unc"
+  },
+  "criteria": {
+    "leather_boots_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_boots",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "armor9.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "tooltip_style": "minecraft:rarity/com/com"
+      }
+    },
+    "title": {
+      "translate": "weapon103.name"
+    },
+    "description": [
+      {
+        "translate": "weapon103.lore.1"
+      },
+      "\n",
+      {
+        "translate": "weapon103.lore.2"
+      },
+      "\n",
+      {
+        "translate": "weapon103.stat"
+      }
+    ],
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "att2:collection/weapon/diamond/diamond_sword_102",
+  "rewards": {
+    "function": "att2:advancement/test_all/collection/weapon/com"
+  },
+  "criteria": {
+    "diamond_sword_103": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_sword",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "weapon103.name"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
