@@ -1,1 +1,1 @@
-execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/unc/diamond_leggings_180
+execute at @e[tag=TRADER,distance=..7] anchored eyes positioned ^ ^ ^ run function att2:gameplay/shop/purchase/armor/unc/diamond_leggings_180
