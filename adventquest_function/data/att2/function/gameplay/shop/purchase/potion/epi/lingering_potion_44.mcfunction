@@ -1,10 +1,15 @@
 #####################################
 #Made by Adventquest                #
-#Use function to purchase lingering_potion_44			         #
+#Use function to purchase lingering_potion_44#
 #####################################
 
-#
-execute if score @s CHRONOTON < potion44 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if score @s CHRONOTON >= potion44 PRICES run function att2:gameplay/shop/effect
-execute if score @s CHRONOTON >= potion44 PRICES run function att2:items/potion/epi/lingering_potion_44
-execute if score @s CHRONOTON >= potion44 PRICES run scoreboard players operation @s CHRONOTON -= potion44 PRICES
+#error
+execute unless score @s CHRONOTON >= potion44 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
+##buy
+function att2:gameplay/shop/effect
+##remove CHRONOTON
+scoreboard players operation @s CHRONOTON -= potion44 PRICES
+##summon item
+loot spawn ~ ~ ~ loot att2:item_data/potion/epi/lingering_potion_44
+##motion item
+function att2:gameplay/misc/motion/item_shop_motion

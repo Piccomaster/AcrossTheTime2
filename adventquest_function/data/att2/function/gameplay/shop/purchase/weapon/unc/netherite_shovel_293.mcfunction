@@ -1,10 +1,17 @@
 #####################################
 #Made by Adventquest                #
-#Use function to purchase netherite_shovel_293			         #
+#Use function to purchase netherite_shovel_293#
 #####################################
 
-#
-execute if score @s CHRONOTON < weapon293 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if score @s CHRONOTON >= weapon293 PRICES run function att2:gameplay/shop/effect
-execute if score @s CHRONOTON >= weapon293 PRICES run function att2:items/weapon/unc/netherite_shovel_293
-execute if score @s CHRONOTON >= weapon293 PRICES run scoreboard players operation @s CHRONOTON -= weapon293 PRICES
+#error
+execute unless score @s CHRONOTON >= weapon293 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
+##buy
+function att2:gameplay/shop/effect
+##remove CHRONOTON
+scoreboard players operation @s CHRONOTON -= weapon293 PRICES
+##summon item
+loot spawn ~ ~ ~ loot att2:item_data/weapon/unc/netherite_shovel_293
+##motion item
+function att2:gameplay/misc/motion/item_shop_motion
+##add Smith level
+function att2:gameplay/shop/smith_leveling/add_buying_unc
