@@ -1,1 +1,1 @@
-﻿execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/ult/netherite_leggings_355
+execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/ult/netherite_leggings_355
