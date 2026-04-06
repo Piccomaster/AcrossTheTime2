@@ -1,10 +1,15 @@
 #####################################
 #Made by Adventquest                #
-#Use function to purchase potion_22			         #
+#Use function to purchase potion_22#
 #####################################
 
-#
-execute if score @s CHRONOTON < potion22 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if score @s CHRONOTON >= potion22 PRICES run function att2:gameplay/shop/effect
-execute if score @s CHRONOTON >= potion22 PRICES run function att2:items/potion/rar/potion_22
-execute if score @s CHRONOTON >= potion22 PRICES run scoreboard players operation @s CHRONOTON -= potion22 PRICES
+#error
+execute unless score @s CHRONOTON >= potion22 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
+##buy
+function att2:gameplay/shop/effect
+##remove CHRONOTON
+scoreboard players operation @s CHRONOTON -= potion22 PRICES
+##summon item
+loot spawn ~ ~ ~ loot att2:item_data/potion/rar/potion_22
+##motion item
+function att2:gameplay/misc/motion/item_shop_motion

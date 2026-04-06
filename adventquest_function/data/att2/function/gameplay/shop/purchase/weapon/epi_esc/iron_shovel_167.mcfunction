@@ -1,10 +1,17 @@
-#################################################################
-#Made by Adventquest											#
-#Use function to process the sell of iron_shovel_167 			#
-#################################################################
+#####################################
+#Made by Adventquest                #
+#Use function to purchase iron_shovel_167#
+#####################################
 
-execute as @s[scores={ESC=..14}] at @s run function att2:dialogs/gameplay/shop/not_enough_esc
-execute if entity @s[scores={ESC=15..}] run function att2:gameplay/shop/effect
-execute if entity @s[scores={ESC=15..}] run function att2:items/weapon/epi_esc/iron_shovel_167
-
-scoreboard players remove @s[scores={ESC=15..}] ESC 15
+#error
+execute unless score @s ESC >= weapon167 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_esc
+##buy
+function att2:gameplay/shop/effect
+##remove ESC
+scoreboard players operation @s ESC -= weapon167 PRICES
+##summon item
+loot spawn ~ ~ ~ loot att2:item_data/weapon/epi_esc/iron_shovel_167
+##motion item
+function att2:gameplay/misc/motion/item_shop_motion
+##add Smith level
+function att2:gameplay/shop/smith_leveling/add_buying_epi_esc

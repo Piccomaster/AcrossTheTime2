@@ -1,10 +1,17 @@
-#################################################################
-#Made by Adventquest											#
-#Use function to process the sell of wooden_pickaxe_164 		#
-#################################################################
+#####################################
+#Made by Adventquest                #
+#Use function to purchase wooden_pickaxe_164#
+#####################################
 
-execute as @s[scores={ESC=..10}] at @s run function att2:dialogs/gameplay/shop/not_enough_esc
-execute if entity @s[scores={ESC=11..}] run function att2:gameplay/shop/effect
-execute if entity @s[scores={ESC=11..}] run function att2:items/weapon/epi_esc/wooden_pickaxe_164
-
-scoreboard players remove @s[scores={ESC=11..}] ESC 11
+#error
+execute unless score @s ESC >= weapon164 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_esc
+##buy
+function att2:gameplay/shop/effect
+##remove ESC
+scoreboard players operation @s ESC -= weapon164 PRICES
+##summon item
+loot spawn ~ ~ ~ loot att2:item_data/weapon/epi_esc/wooden_pickaxe_164
+##motion item
+function att2:gameplay/misc/motion/item_shop_motion
+##add Smith level
+function att2:gameplay/shop/smith_leveling/add_buying_epi_esc

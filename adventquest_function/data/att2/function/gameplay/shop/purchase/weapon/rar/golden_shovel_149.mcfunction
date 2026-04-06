@@ -1,10 +1,17 @@
 #####################################
 #Made by Adventquest                #
-#Use function to purchase golden_shovel_149			         #
+#Use function to purchase golden_shovel_149#
 #####################################
 
-#
-execute if score @s CHRONOTON < weapon149 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if score @s CHRONOTON >= weapon149 PRICES run function att2:gameplay/shop/effect
-execute if score @s CHRONOTON >= weapon149 PRICES run function att2:items/weapon/rar/golden_shovel_149
-execute if score @s CHRONOTON >= weapon149 PRICES run scoreboard players operation @s CHRONOTON -= weapon149 PRICES
+#error
+execute unless score @s CHRONOTON >= weapon149 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
+##buy
+function att2:gameplay/shop/effect
+##remove CHRONOTON
+scoreboard players operation @s CHRONOTON -= weapon149 PRICES
+##summon item
+loot spawn ~ ~ ~ loot att2:item_data/weapon/rar/golden_shovel_149
+##motion item
+function att2:gameplay/misc/motion/item_shop_motion
+##add Smith level
+function att2:gameplay/shop/smith_leveling/add_buying_rar

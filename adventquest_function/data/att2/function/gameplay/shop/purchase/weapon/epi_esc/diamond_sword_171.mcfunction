@@ -1,10 +1,17 @@
-#################################################################
-#Made by Adventquest											#
-#Use function to process the sell of diamond_sword_171 			#
-#################################################################
+#####################################
+#Made by Adventquest                #
+#Use function to purchase diamond_sword_171#
+#####################################
 
-execute as @s[scores={ESC=..17}] at @s run function att2:dialogs/gameplay/shop/not_enough_esc
-execute if entity @s[scores={ESC=18..}] run function att2:gameplay/shop/effect
-execute if entity @s[scores={ESC=18..}] run function att2:items/weapon/epi_esc/diamond_sword_171
-
-scoreboard players remove @s[scores={ESC=18..}] ESC 18
+#error
+execute unless score @s ESC >= weapon171 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_esc
+##buy
+function att2:gameplay/shop/effect
+##remove ESC
+scoreboard players operation @s ESC -= weapon171 PRICES
+##summon item
+loot spawn ~ ~ ~ loot att2:item_data/weapon/epi_esc/diamond_sword_171
+##motion item
+function att2:gameplay/misc/motion/item_shop_motion
+##add Smith level
+function att2:gameplay/shop/smith_leveling/add_buying_epi_esc
