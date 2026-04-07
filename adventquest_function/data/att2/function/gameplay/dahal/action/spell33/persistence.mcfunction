@@ -35,6 +35,9 @@ execute if score @s SPELL33_CAP matches 10 run function att2:gameplay/dahal/acti
 ##attack effect
 execute unless score tic TIMECOUNTER matches 1 run return fail
 
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/spell33
+
 ##sound
 playsound block.conduit.ambient ambient @a ~ ~ ~ 1 1
 

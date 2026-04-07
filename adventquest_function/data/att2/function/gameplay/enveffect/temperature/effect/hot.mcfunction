@@ -6,7 +6,7 @@
 ##effect
 scoreboard players operation @s SPD_EXT = @s ENTEMPERATURE
 scoreboard players operation @s HAS_EXT = @s ENTEMPERATURE
-scoreboard players set @s TIMER_HAS_EXT 20
+scoreboard players set @s TIMER_SPD_EXT 20
 scoreboard players set @s TIMER_HAS_EXT 20
 ##remove score
 scoreboard players remove @s TEMPERATURE 1

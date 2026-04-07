@@ -7,6 +7,10 @@
 kill @s[scores={SPELL5_EFFECT=..-60}]
 ##TEST SPELL5_OP
 execute unless score @s SPELL5_OP matches 1 run return 0
+
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/spell5
+
 summon minecraft:lightning_bolt ~1.3 ~ ~-0.75
 summon minecraft:lightning_bolt ~-1.3 ~ ~-0.75
 summon minecraft:lightning_bolt ~ ~ ~1.5
