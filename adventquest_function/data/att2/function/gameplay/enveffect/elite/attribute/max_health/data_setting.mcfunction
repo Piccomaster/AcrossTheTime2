@@ -30,7 +30,7 @@ execute store result entity @s Health int 1 run scoreboard players get MAX_HEALT
 ##clear other effects
 effect give @s slowness infinite 0 true
 ##add scale
-attribute @s minecraft:scale base set 1.5
+attribute @s minecraft:scale base set 1.3
 #tellraw @a {score:{name:"MAX_HEALTH",objective:"CAL"}}
 ##reset
 scoreboard players reset MAX_HEALTH CAL
