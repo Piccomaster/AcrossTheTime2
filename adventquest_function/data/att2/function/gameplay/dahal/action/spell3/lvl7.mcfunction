@@ -41,3 +41,6 @@ scoreboard players operation @s SPELL3_LVL += @s BONUS_XP_SPELL
 scoreboard players add @s SPELLS_COUNT 1
 ##test SPELLS_COUNT
 function att2:advancement/test_all/spell/launch_count
+
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/spell3

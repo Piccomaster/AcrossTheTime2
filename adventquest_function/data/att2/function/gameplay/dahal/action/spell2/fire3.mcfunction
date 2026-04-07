@@ -11,3 +11,6 @@ execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..}
 execute if score true Fire_Melting matches 1 run function att2:gameplay/dahal/action/spell1/enable_fire_melting
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile,tag=!SP2_ATKED,type=!bat] run function att2:gameplay/dahal/action/spell2/damage with storage att2:sp_dmg
+
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/spell2

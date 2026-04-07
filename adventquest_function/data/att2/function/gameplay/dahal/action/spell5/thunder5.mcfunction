@@ -3,6 +3,9 @@
 #Manage thunder lvl5       						#
 #################################################
 
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/spell5
+
 summon minecraft:lightning_bolt ~1.3 ~ ~-0.75
 summon minecraft:lightning_bolt ~-1.3 ~ ~-0.75
 summon minecraft:lightning_bolt ~ ~ ~1.5

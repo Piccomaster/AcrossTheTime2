@@ -3,6 +3,9 @@
 #Manage thunder lvl3       						#
 #################################################
 
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/spell5
+
 summon minecraft:lightning_bolt ~1 ~ ~
 summon minecraft:lightning_bolt ~-1 ~ ~
 #damage cal

@@ -14,3 +14,4 @@ scoreboard players operation @s ENTEMPERATURE = #Total TEMPERATURE
 effect give @s minecraft:wither 3 1 true
 ##tip
 tellraw @s [{translate:"att2.temperature.overheating"}]
+tellraw @s ["Total",{score:{name:"#Total",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]

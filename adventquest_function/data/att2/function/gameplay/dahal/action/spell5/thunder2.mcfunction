@@ -3,6 +3,9 @@
 #Manage thunder lvl2       						#
 #################################################
 
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/spell5
+
 summon minecraft:lightning_bolt ~ ~ ~
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell5/damage_cal

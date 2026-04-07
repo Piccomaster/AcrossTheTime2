@@ -69,7 +69,7 @@ execute if score tic DAYTIME matches 1000..11000 run scoreboard players add #Tot
 execute if score tic DAYTIME matches 13000..23000 run scoreboard players remove #Total TEMPERATURE 1
 ##sum
 scoreboard players operation @s TEMPERATURE += #Total TEMPERATURE
-tellraw @s ["Total",{score:{name:"#Total",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]
+#tellraw @s ["Total",{score:{name:"#Total",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]
 ##add tag
 execute as @s[scores={TEMPERATURE=200..},tag=!Hot] run function att2:gameplay/enveffect/temperature/hot_tag
 execute as @s[scores={TEMPERATURE=..-200},tag=!Cool] run function att2:gameplay/enveffect/temperature/cool_tag
