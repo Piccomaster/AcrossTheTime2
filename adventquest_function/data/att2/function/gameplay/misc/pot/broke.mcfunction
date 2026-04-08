@@ -9,7 +9,7 @@
 
 
 ##break
-setblock ~ ~ ~ air destroy
+function att2:gameplay/misc/pot/summon_loot
 
 ##advancement
 #execute on origin at @s run function att2:advancement/test_all/

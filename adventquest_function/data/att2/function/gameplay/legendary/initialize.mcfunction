@@ -21,3 +21,4 @@ function att2:gameplay/legendary/sastr/initialize
 function att2:gameplay/legendary/ultima/initialize
 function att2:gameplay/legendary/warlord/initialize
 function att2:gameplay/legendary/weaponsking/initialize
+function att2:gameplay/legendary/finaljudgment/initialize

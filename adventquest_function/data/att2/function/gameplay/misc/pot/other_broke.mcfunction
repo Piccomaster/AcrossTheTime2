@@ -9,6 +9,6 @@ execute unless block ~ ~ ~ decorated_pot run return fail
 ##true
 playsound block.glass.break block @a ~ ~ ~ 1 1
 playsound block.decorated_pot.shatter block @a ~ ~ ~ 1 1
-setblock ~ ~ ~ air destroy
+function att2:gameplay/misc/pot/summon_loot
 ##advancement
 #function att2:advancement/test_all/
