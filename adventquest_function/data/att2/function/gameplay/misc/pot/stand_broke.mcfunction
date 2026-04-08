@@ -4,7 +4,7 @@
 ##################################################
 
 ##destroy pot
-execute if block ~ ~-1 ~ decorated_pot run setblock ~ ~-1 ~ air destroy
+execute positioned ~ ~-1 ~ if block ~ ~ ~ decorated_pot run function att2:gameplay/misc/pot/summon_loot
 
 tag @s remove PotBroke
 ##sound
