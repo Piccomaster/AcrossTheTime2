@@ -248,12 +248,17 @@
   - **Right-click** to place and sit; **left-click chair legs** to pick up.
   - **Special**: When sitting on a chair, monsters will not spawn within 30 nearby tiles.
 
-#### **New Copper weapons and armor**
-- Over a hundred **new items** of all rarities :
-  - Added a **new category** of copper weapons.
-  - Added a **new category** of copper armor.
-  - Added two **new armor sets**: epic & legendary.
-  - Added a **new weapon type**: **scythes**.
+#### **New Copper armor**
+- Added a new category of **copper armor** of all rarities.
+- Added two **armor sets**: epic & legendary.
+
+#### **New Copper weapons**
+- Added a new category of **copper weapons** of all rarities.
+- Added a **weapon type**: **scythes**.
+
+#### **New Potions**
+- Added **potions** of all rarities.
+- Added the **duration** of potion **effects** to their description.
   
 #### **Range of weapons**
 - All weapons now have an **attack_range** bonus or penalty depending on the *rarity* and *type* of the weapon.
@@ -384,6 +389,11 @@
 - **Fishing**: Triggers when a player catches a fish or purchases a fishing rod.
 - **Enchanting**: Triggers when a player performs an enchantment.
 - **Mimic Kill**: Triggers when a player kills a mimic chest.
+- **Armor/Weapons/Potions**: Triggered all new items loot added for collection.
+- **Scythe weapon**: Triggered when a player hit enemy with scythe.
+- **Copper weapons**: Triggered when a player hit enemy with copper weapons.
+- **Copper armors**: Triggered when a player break copper armor.
+- **CRT Attribut**: Triggered when a player reach some CRT attribut level.
 
 <br>
 
@@ -558,6 +568,8 @@
 #### **Economy**
 - Increased potion prices.
 - Increases the *Sovereign Chaos Scale* sell value to 200.
+- Increases the Sovereign rarity items sell value.
+- Balanced all Armors/Weapons Chronoton prices.
 
 #### **Food**
 - Slightly increased consumption speed.
@@ -569,6 +581,8 @@
 - Some previously empty containers now generate loot.
 
 #### **Items**
+- Balanced <Stats/Enchantments/Damage/Armor> of all items (Weapons/Armors/Potions).
+- Stats Improvement of all Sovereign items.
 - Removed *health* and *knockback* bonus on **weapons**.
 - Decreased *Crossbow* durability.
 
@@ -581,8 +595,10 @@
 
 <br>
 
-### **Exploits**
-- Maximum number of Exploit points increased to 20032.
+### **Advancements**
+
+- Reorganize Collection advancements category.
+- Increased Exploit points and now stands at **21223**.
 
 
 <br><br>
