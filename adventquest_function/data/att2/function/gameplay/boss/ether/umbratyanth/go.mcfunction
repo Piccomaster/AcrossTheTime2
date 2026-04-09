@@ -10,6 +10,9 @@
 #   -2 Boss had been finished                                     								#
 #################################################################################################
 
+##delay time
+execute if score umbratyanth_t BOSS_TIME matches ..-1 run return run scoreboard players add umbratyanth_t BOSS_TIME 1
+
 # Process go of all phases
 execute if score Boss UMBRATYANTH matches 1..2 run function att2:gameplay/boss/ether/umbratyanth/phase1/go
 execute if score Boss UMBRATYANTH matches 3 run function att2:gameplay/boss/ether/umbratyanth/phase2/go
@@ -68,7 +71,7 @@ execute if score Boss UMBRATYANTH matches -2 if score SQ46 SIDEQUEST matches 3..
 execute if score Boss UMBRATYANTH matches -2 if score SQ46 SIDEQUEST matches 3.. if entity @a[x=-5112,y=162,z=-6739,distance=..7,gamemode=adventure] unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run particle minecraft:dust{color:[5,5,5],scale:0.5} -5112 161.75 -6739 0.3 0.3 0.3 1 10 normal
 
 # Make challengers enters the arena
-execute if score SQ46 SIDEQUEST matches 3 if entity @a[x=-5114,y=163,z=-6738,dx=4,dy=4,dz=0,gamemode=adventure] unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure,tag=!Dead] as @a[distance=..100] run function att2:gameplay/boss/ether/umbratyanth/display_title
+#execute if score SQ46 SIDEQUEST matches 3 if entity @a[x=-5114,y=163,z=-6738,dx=4,dy=4,dz=0,gamemode=adventure] unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure,tag=!Dead] as @a[distance=..100] run function att2:gameplay/boss/ether/umbratyanth/display_title
 execute if score Boss UMBRATYANTH matches -1.. if score EnterArena UMBRATYANTH matches ..0 as @a[x=-5114,y=163,z=-6738,dx=4,dy=4,dz=0] run function att2:gameplay/boss/ether/umbratyanth/enter_arena
 execute if score Boss UMBRATYANTH matches -1.. if score EnterArena UMBRATYANTH matches 1.. run scoreboard players remove EnterArena UMBRATYANTH 1
 

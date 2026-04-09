@@ -14,6 +14,9 @@ execute if score Kum SQ53 matches 0.. run function att2:gameplay/boss/billgart/k
 execute if score Kum SQ53 matches -2.. run particle minecraft:dust{color:[1,0,0],scale:1} -1533 31 -605 0 1 1 1 2 normal
 execute if score Kum SQ53 matches -2.. run particle minecraft:dust{color:[1,0,0],scale:1} -1572 29 -605 0 1 1 1 2 normal
 
+##delay time
+execute if score kum_t BOSS_TIME matches ..-1 run return run scoreboard players add kum_t BOSS_TIME 1
+
 # Music management
 execute if score Kum SQ53 matches 0.. as @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Kum SQ53 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -23,7 +26,7 @@ execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=
 execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] store result bossbar minecraft:kum max run attribute 00000000-0000-021c-0000-00000000021c max_health get
 
 # Make challengers enters the arena
-execute if score SQ53 SIDEQUEST matches 1..99 as @a[x=-1532,y=30,z=-606,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/kum/display_title
+#execute if score SQ53 SIDEQUEST matches 1..99 as @a[x=-1532,y=30,z=-606,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/kum/display_title
 execute if score EnterArena SQ53 matches ..0 as @a[x=-1532,y=30,z=-606,dx=0,dy=2,dz=2,gamemode=adventure] run function att2:gameplay/boss/billgart/kum/enter_arena
 execute if score EnterArena SQ53 matches 1.. run scoreboard players remove EnterArena SQ53 1
 

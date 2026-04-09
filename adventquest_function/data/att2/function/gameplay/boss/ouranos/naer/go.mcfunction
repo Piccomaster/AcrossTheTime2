@@ -13,6 +13,9 @@ particle minecraft:dust{color:[1,0,0],scale:1} 7710 183.5 6091 1 1.5 0.1 0 5 nor
 particle minecraft:dust{color:[1,0,0],scale:1} 7704 183.5 5981 1 1.5 0.1 0 5 normal
 particle minecraft:dust{color:[1,0,0],scale:1} 7710 183.5 5981 1 1.5 0.1 0 5 normal
 
+##delay time
+execute if score naer_t BOSS_TIME matches ..-1 run return run scoreboard players add naer_t BOSS_TIME 1
+
 # Music management
 execute if score Naër OURANOS matches 0.. as @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
 execute if score Naër OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -22,7 +25,7 @@ execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=1
 execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] store result bossbar minecraft:naer max run attribute 00000000-0000-016b-0000-00000000016b max_health get
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 209 as @a[x=7711,y=182,z=6092,dx=-8,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/ouranos/naer/display_title
+#execute if score Mainquest SIDEQUEST matches 209 as @a[x=7711,y=182,z=6092,dx=-8,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/ouranos/naer/display_title
 execute if score EnterArena OURANOS matches ..0 as @a[x=7711,y=182,z=6092,dx=-8,dy=3,dz=0,gamemode=adventure] run function att2:gameplay/boss/ouranos/naer/enter_arena
 execute if score EnterArena OURANOS matches 1.. run scoreboard players remove EnterArena OURANOS 1
 

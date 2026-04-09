@@ -11,3 +11,6 @@ bossbar set minecraft:extratellur1 players @s
 bossbar set minecraft:extratellur2 players @s
 bossbar set minecraft:extratellur3 players @s
 bossbar set minecraft:extratellur4 players @s
+
+##show display_title
+function att2:gameplay/boss/silberland/extratellur/display_title

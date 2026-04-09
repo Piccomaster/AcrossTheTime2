@@ -24,6 +24,6 @@ scoreboard players operation test_t BOSS_TIME -= golem_rt BOSS_TIME
 execute if score newrecord BOSS_TIME matches 1 unless score test_t BOSS_TIME matches 0.. as @a at @s run function att2:gameplay/boss/billgart/golem/time/time_record
 execute if score newrecord BOSS_TIME matches 1 if score test_t BOSS_TIME matches 1.. as @a at @s run function att2:gameplay/boss/billgart/golem/time/time_show
 
-scoreboard players reset golem_t BOSS_TIME
+scoreboard players set golem_t BOSS_TIME -40
 scoreboard players reset golem_s BOSS_TIME
 scoreboard players reset golem_m BOSS_TIME

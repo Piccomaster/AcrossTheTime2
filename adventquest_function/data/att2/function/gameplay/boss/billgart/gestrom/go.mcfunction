@@ -11,6 +11,9 @@
 particle minecraft:dust{color:[1,0,0],scale:1} -1139 200 -679 0.1 1 1 0 5 force
 particle minecraft:dust{color:[1,0,0],scale:1} -1134.0 201 -668 0.8 1.2 0.1 0 5 force
 
+##delay time
+execute if score gestrom_t BOSS_TIME matches ..-1 run return run scoreboard players add gestrom_t BOSS_TIME 1
+
 # Music management
 execute if score Gestrom BILLGART matches 0.. in minecraft:the_end as @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
 execute if score Gestrom BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -20,7 +23,7 @@ execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[
 execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom max run attribute 00000000-0000-014b-0000-00000000014b max_health get
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 169 in minecraft:the_end as @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/gestrom/display_title
+#execute if score Mainquest SIDEQUEST matches 169 in minecraft:the_end as @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/gestrom/display_title
 execute if score EnterArena BILLGART matches ..0 in minecraft:the_end as @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] run function att2:gameplay/boss/billgart/gestrom/enter_arena
 execute if score EnterArena BILLGART matches 1.. run scoreboard players remove EnterArena BILLGART 1
 

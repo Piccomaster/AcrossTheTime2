@@ -1,489 +1,518 @@
 {
-    "title": "",
-    "type": "minecraft:notice",
-    "pause": false,
-    "columns": 1,
-    "body": [
+  "title": "",
+  "type": "minecraft:notice",
+  "pause": false,
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "consciousness.gametip.enchantment",
+        "color": "green"
+      }
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
         {
-            "type": "plain_message",
-            "contents": {
-                "translate": "consciousness.gametip.enchantment",
-                "color": "green"
-            }
+          "text": "1.",
+          "color": "#FA8C16"
         },
         {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "1.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.1",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "2.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.2",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "3.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.3",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "4.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.4",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "5.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.5",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "6.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.6",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "7.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.7",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "8.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.8",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "9.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.9",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "10.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.10",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "11.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.11",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "12.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.12",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "13.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.13",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "14.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.14",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "15.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.15",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "16.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.16",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "17.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.17",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "18.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.18",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "19.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.19",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "20.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.20",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "21.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.21",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "22.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.22",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "23.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.23",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "24.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.24",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "25.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.25"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "26.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.26",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "27.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.27",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "28.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.28",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "29.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.29",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "30.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.30",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "31.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.31",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "32.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.32",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "33.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.enchantment.33",
-                    "color": "#FA8C16"
-                }
-            ]
+          "translate": "att2.assist.enchantment.189",
+          "color": "#FA8C16"
         }
-    ],
-    "action": {
-        "label": {
-            "translate": "consciousness.menu.exit",
-            "color": "#45556C"
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "2.",
+          "color": "#FA8C16"
         },
-        "tooltip": {
-            "translate": "consciousness.menu.exit.tip"
-        },
-        "action": {
-            "type": "run_command",
-            "command": "/trigger ScoreTrigger set 2327"
+        {
+          "translate": "att2.assist.enchantment.190",
+          "color": "#FA8C16"
         }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "3.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.191",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "4.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.192",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "5.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.193",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "6.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.194",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "7.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.195",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "8.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.196",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "9.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.197",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "10.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.198",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "11.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.199",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "12.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.200",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "13.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.201",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "14.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.202",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "15.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.203",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "16.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.204",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "17.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.205",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "18.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.206",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "19.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.207",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "20.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.208",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "21.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.209",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "22.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.210",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "23.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.211",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "24.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.212",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "25.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.213",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "26.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.214",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "27.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.215",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "28.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.216",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "29.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.217",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "30.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.218",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "31.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.219",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "32.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.220",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "33.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.221",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "34.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.222",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "35.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.enchantment.223",
+          "color": "#FA8C16"
+        }
+      ]
     }
+  ],
+  "action": {
+    "label": {
+      "translate": "consciousness.menu.exit",
+      "color": "#45556C"
+    },
+    "tooltip": {
+      "translate": "consciousness.menu.exit.tip"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "/trigger ScoreTrigger set 2327"
+    }
+  }
 }

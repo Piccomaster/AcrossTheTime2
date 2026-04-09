@@ -10,6 +10,9 @@
 # Particules for entrance and exit of the arena
 execute if score Doom SQ56 matches -1.. run particle minecraft:dust{color:[1,0,0],scale:1} -5229 145.5 -6293 0.25 1 0.25 1 2 normal
 
+##delay time
+execute if score doom_t BOSS_TIME matches ..-1 run return run scoreboard players add doom_t BOSS_TIME 1
+
 # Music management
 execute if score Doom SQ56 matches 0.. as @a[x=-5229,y=47,z=-6293,distance=..25,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_secretboss
 execute if score Doom SQ56 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -20,7 +23,7 @@ execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distanc
 execute if score Doom SQ56 matches 0.. store result score 00000000-0000-026c-0000-00000000026c SQ56 run data get entity 00000000-0000-026c-0000-00000000026c Health 1
 
 # Make challengers enters the arena
-execute if score Doom SQ56 matches -1.. if score SQ56 SIDEQUEST matches 3 as @a[x=-5229,y=144,z=-6293,dx=0,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/doom/display_title
+#execute if score Doom SQ56 matches -1.. if score SQ56 SIDEQUEST matches 3 as @a[x=-5229,y=144,z=-6293,dx=0,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/doom/display_title
 execute if score Doom SQ56 matches -1.. if score EnterArena SQ56 matches ..0 as @a[x=-5229,y=144,z=-6293,dx=0,dy=2,dz=0,gamemode=adventure] run function att2:gameplay/boss/elcheol/doom/enter_arena
 execute if score Doom SQ56 matches -1.. if score EnterArena SQ56 matches 1.. run scoreboard players remove EnterArena SQ56 1
 

@@ -14,12 +14,15 @@ execute if score Somniophages SQ48 matches 0.. run function att2:gameplay/boss/o
 particle minecraft:dust{color:[1,0,0],scale:1} 6657.5 149.5 7058.0 0.1 1 1 0 2 normal
 particle minecraft:dust{color:[1,0,0],scale:1} 6748 129 7067 0.1 1 1 0 1 normal
 
+##delay time
+execute if score somniophages_t BOSS_TIME matches ..-1 run return run scoreboard players add somniophages_t BOSS_TIME 1
+
 # Music management
 execute if score Somniophages SQ48 matches 0.. as @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Somniophages SQ48 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Make challengers enters the arena
-execute if score SQ48 SIDEQUEST matches 1..99 as @a[x=6656,y=148,z=7056,dx=0,dy=3,dz=3,gamemode=adventure] at @s unless entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure,tag=!Dead] as @a[distance=..100] run function att2:gameplay/boss/ouranos/somniophages/display_title
+#execute if score SQ48 SIDEQUEST matches 1..99 as @a[x=6656,y=148,z=7056,dx=0,dy=3,dz=3,gamemode=adventure] at @s unless entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure,tag=!Dead] as @a[distance=..100] run function att2:gameplay/boss/ouranos/somniophages/display_title
 execute if score EnterArena SQ48 matches ..0 as @a[x=6656,y=148,z=7056,dx=0,dy=3,dz=3,gamemode=adventure] run function att2:gameplay/boss/ouranos/somniophages/enter_arena
 execute if score EnterArena SQ48 matches 1.. run scoreboard players remove EnterArena SQ48 1
 

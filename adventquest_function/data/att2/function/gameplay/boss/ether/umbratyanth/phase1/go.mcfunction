@@ -20,6 +20,9 @@
 #   1..200 ON                                						#
 #####################################################################
 
+
+attribute 00000000-0000-012c-0000-00000000012c max_health base set 1000
+
 # Minions counting
 execute if score Boss UMBRATYANTH matches 1 store result score Minions_counter UMBRATYANTH if entity @e[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider,tag=UmbraMinion]
 execute if score Boss UMBRATYANTH matches 1 if score Minions_counter UMBRATYANTH matches 0..29 run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_counting
@@ -27,6 +30,8 @@ execute if score Boss UMBRATYANTH matches 1 if score Minions_counter UMBRATYANTH
 # Counting security if all Minions is dead
 execute if score Boss UMBRATYANTH matches 1 unless entity @e[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,type=minecraft:spider,tag=UmbraMinion] run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_counting
 
+##clear error spider
+execute if score tic TIMECOUNTER matches 1 run tp @e[x=-5158,y=115,z=-6911,dx=82,dy=-100,dz=82,type=minecraft:spider,tag=UmbraMinion] ~ 0 ~
 # Process action
 execute if score Boss UMBRATYANTH matches 1 run function att2:gameplay/boss/ether/umbratyanth/phase1/action
 

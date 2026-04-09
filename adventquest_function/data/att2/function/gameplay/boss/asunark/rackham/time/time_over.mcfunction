@@ -25,6 +25,6 @@ execute if score newrecord BOSS_TIME matches 1 unless score test_t BOSS_TIME mat
 execute if score newrecord BOSS_TIME matches 1 if score test_t BOSS_TIME matches 1.. as @a at @s run function att2:gameplay/boss/asunark/rackham/time/time_show
 
 
-scoreboard players reset rackham_t BOSS_TIME
+scoreboard players set rackham_t BOSS_TIME -40
 scoreboard players reset rackham_s BOSS_TIME
 scoreboard players reset rackham_m BOSS_TIME

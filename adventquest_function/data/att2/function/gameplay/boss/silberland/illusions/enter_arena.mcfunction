@@ -10,3 +10,6 @@ scoreboard players set @s MUSIC_BOSS 0
 bossbar set minecraft:illusion1 players @s
 bossbar set minecraft:illusion2 players @s
 bossbar set minecraft:illusion3 players @s
+
+##show display_title
+function att2:gameplay/boss/silberland/illusions/display_title

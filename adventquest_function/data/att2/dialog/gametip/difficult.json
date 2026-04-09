@@ -1,126 +1,126 @@
 {
-    "title": "",
-    "type": "minecraft:notice",
-    "pause": false,
-    "columns": 1,
-    "body": [
+  "title": "",
+  "type": "minecraft:notice",
+  "pause": false,
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "consciousness.gametip.difficult",
+        "color": "green"
+      }
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
         {
-            "type": "plain_message",
-            "contents": {
-                "translate": "consciousness.gametip.difficult",
-                "color": "green"
-            }
+          "text": "1.",
+          "color": "#FA8C16"
         },
         {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "1.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.difficult.1",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "2.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.difficult.2",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "3.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.difficult.3",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "4.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.difficult.4",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "5.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.difficult.5",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "6.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.difficult.6",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "7.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.difficult.7",
-                    "color": "#FA8C16"
-                }
-            ]
+          "translate": "att2.assist.difficult.29",
+          "color": "#FA8C16"
         }
-    ],
-    "action": {
-        "label": {
-            "translate": "consciousness.menu.exit",
-            "color": "#45556C"
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "2.",
+          "color": "#FA8C16"
         },
-        "tooltip": {
-            "translate": "consciousness.menu.exit.tip"
-        },
-        "action": {
-            "type": "run_command",
-            "command": "/trigger ScoreTrigger set 2327"
+        {
+          "translate": "att2.assist.difficult.30",
+          "color": "#FA8C16"
         }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "3.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.difficult.31",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "4.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.difficult.32",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "5.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.difficult.33",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "6.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.difficult.34",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "7.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.difficult.35",
+          "color": "#FA8C16"
+        }
+      ]
     }
+  ],
+  "action": {
+    "label": {
+      "translate": "consciousness.menu.exit",
+      "color": "#45556C"
+    },
+    "tooltip": {
+      "translate": "consciousness.menu.exit.tip"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "/trigger ScoreTrigger set 2327"
+    }
+  }
 }

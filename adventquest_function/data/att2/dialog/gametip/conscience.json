@@ -1,322 +1,238 @@
 {
-    "title": "",
-    "type": "minecraft:notice",
-    "pause": false,
-    "columns": 1,
-    "body": [
+  "title": "",
+  "type": "minecraft:notice",
+  "pause": false,
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "consciousness.gametip.conscience",
+        "color": "green"
+      }
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
         {
-            "type": "plain_message",
-            "contents": {
-                "translate": "consciousness.gametip.conscience",
-                "color": "green"
-            }
+          "text": "1.",
+          "color": "#FA8C16"
         },
         {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "1.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.1",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n2.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.2",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n3.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.3",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n4.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.4",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n5.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.5",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n6.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.6",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n7.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.7",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n8.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.8",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n9.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.9",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n10.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.10",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n11.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.11",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n12.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.12",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n13.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.13",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n14.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.14",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n15.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.15",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n16.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.16",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n17.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.17",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n18.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.18",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n19.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.19",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n20.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.20",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 300,
-            "contents": [
-                {
-                    "text": "\n21.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.conscience.21",
-                    "color": "#FA8C16"
-                }
-            ]
+          "translate": "att2.assist.conscience.1",
+          "color": "#FA8C16"
         }
-    ],
-    "action": {
-        "label": {
-            "translate": "consciousness.menu.exit",
-            "color": "#45556C"
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "2.",
+          "color": "#FA8C16"
         },
-        "tooltip": {
-            "translate": "consciousness.menu.exit.tip"
-        },
-        "action": {
-            "type": "run_command",
-            "command": "/trigger ScoreTrigger set 2327"
+        {
+          "translate": "att2.assist.conscience.2",
+          "color": "#FA8C16"
         }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "3.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.3",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "4.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.4",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "5.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.5",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "6.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.6",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "7.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.7",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "8.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.8",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "9.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.9",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "10.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.10",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "11.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.11",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "12.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.12",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "13.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.13",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "14.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.14",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "15.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.conscience.15",
+          "color": "#FA8C16"
+        }
+      ]
     }
+  ],
+  "action": {
+    "label": {
+      "translate": "consciousness.menu.exit",
+      "color": "#45556C"
+    },
+    "tooltip": {
+      "translate": "consciousness.menu.exit.tip"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "/trigger ScoreTrigger set 2327"
+    }
+  }
 }

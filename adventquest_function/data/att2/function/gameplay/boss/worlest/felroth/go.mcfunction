@@ -11,6 +11,9 @@
 particle minecraft:dust{color:[1,0,0],scale:1} -4636 58 -5505 1.5 1.5 0 0 5 force
 particle minecraft:dust{color:[1,0,0],scale:1} -4636 59 -5537 1.5 1.5 0 0 5 force
 
+##delay time
+execute if score felroth_t BOSS_TIME matches ..-1 run return run scoreboard players add felroth_t BOSS_TIME 1
+
 # Music management
 execute if score Felroth WORLEST matches 0.. as @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
 execute if score Felroth WORLEST matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -20,7 +23,7 @@ execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,d
 execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] store result bossbar minecraft:felroth value run scoreboard players get 00000000-0000-001b-0000-00000000001b ENEMYHEALTH
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 14 as @a[x=-4635,y=57,z=-5538,dx=-2,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/worlest/felroth/display_title
+#execute if score Mainquest SIDEQUEST matches 14 as @a[x=-4635,y=57,z=-5538,dx=-2,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/worlest/felroth/display_title
 execute if score EnterArena WORLEST matches ..0 as @a[x=-4635,y=57,z=-5538,dx=-2,dy=3,dz=0,gamemode=adventure] run function att2:gameplay/boss/worlest/felroth/enter_arena
 execute if score EnterArena WORLEST matches 1.. run scoreboard players remove EnterArena WORLEST 1
 

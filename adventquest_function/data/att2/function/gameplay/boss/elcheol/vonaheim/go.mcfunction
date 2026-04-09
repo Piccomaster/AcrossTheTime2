@@ -12,6 +12,9 @@
 particle minecraft:dust{color:[1,0,0],scale:1.5} -5614 193.5 -6507 0.8 0.8 0 0 2 force
 particle minecraft:dust{color:[1,0,0],scale:1.5} -5614 190.5 -6529 0.8 0.8 0 0 2 force
 
+##delay time
+execute if score vonaheim_t BOSS_TIME matches ..-1 run return run scoreboard players add vonaheim_t BOSS_TIME 1
+
 # Music management
 execute if score Vonaheim VONAHEIM matches 0.. as @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
 execute if score Vonaheim VONAHEIM matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -25,7 +28,7 @@ execute if score Vonaheim VONAHEIM matches 0.. at @a[x=-5585,y=78,z=-6481,dx=-60
 execute if score Vonaheim VONAHEIM matches 0.. at @a[x=-5585,y=78,z=-6481,dx=-60,dy=2,dz=-60,gamemode=adventure] if block ~ ~-1 ~ minecraft:ice run function att2:physicmod/reg1/vonaheim/center_n/boss_player_icemelting
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 115 as @a[x=-5615,y=192,z=-6506,dx=2,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/vonaheim/display_title
+#execute if score Mainquest SIDEQUEST matches 115 as @a[x=-5615,y=192,z=-6506,dx=2,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/vonaheim/display_title
 execute if score EnterArena VONAHEIM matches ..0 as @a[x=-5615,y=192,z=-6506,dx=2,dy=2,dz=0] run function att2:gameplay/boss/elcheol/vonaheim/enter_arena
 execute if score EnterArena VONAHEIM matches 1.. run scoreboard players remove EnterArena VONAHEIM 1
 execute as @a[x=-5616,y=198,z=-6512,dx=4,dy=1,dz=4] at @s run tp @s ~ ~4 ~

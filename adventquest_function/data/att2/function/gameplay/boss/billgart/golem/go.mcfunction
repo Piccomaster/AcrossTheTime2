@@ -14,6 +14,9 @@ execute if score GolemBoss BILLGART matches 0.. run function att2:gameplay/boss/
 particle minecraft:dust{color:[1,0,0],scale:1} -1309 121 -549 1 1 0.1 0 5 force
 particle minecraft:dust{color:[1,0,0],scale:1} -1331 122 -584 0.1 1 1 0 5 force
 
+##delay time
+execute if score golem_t BOSS_TIME matches ..-1 run return run scoreboard players add golem_t BOSS_TIME 1
+
 # Music management
 execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end as @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
 execute if score GolemBoss BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -24,7 +27,7 @@ execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @
 execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end store result score 00000000-0000-009b-0000-00000000009b BILLGART run data get entity 00000000-0000-009b-0000-00000000009b Health 1
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 113 in minecraft:the_end as @a[x=-1309,y=122,z=-548,dx=-1,dy=-2,dz=0,gamemode=adventure] at @s unless entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/golem/display_title
+#execute if score Mainquest SIDEQUEST matches 113 in minecraft:the_end as @a[x=-1309,y=122,z=-548,dx=-1,dy=-2,dz=0,gamemode=adventure] at @s unless entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/golem/display_title
 execute if score EnterArena BILLGART matches ..0 in minecraft:the_end as @a[x=-1309,y=122,z=-548,dx=-1,dy=-2,dz=0,gamemode=adventure] at @s run function att2:gameplay/boss/billgart/golem/enter_arena
 execute if score EnterArena BILLGART matches 1.. run scoreboard players remove EnterArena BILLGART 1
 

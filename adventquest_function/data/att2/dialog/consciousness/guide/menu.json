@@ -38,20 +38,6 @@
                 "type": "run_command",
                 "command": "/trigger ScoreTrigger set 2859"
             }
-        },
-        {
-            "width": 150,
-            "label": {
-                "translate": "consciousness.menu.equipment_swap",
-                "color": "#21BCFF"
-            },
-            "tooltip": {
-                "translate": "consciousness.menu.equipment_swap.tip"
-            },
-            "action": {
-                "type": "run_command",
-                "command": "/trigger ScoreTrigger set 2859"
-            }
         }
     ],
     "exit_action": {

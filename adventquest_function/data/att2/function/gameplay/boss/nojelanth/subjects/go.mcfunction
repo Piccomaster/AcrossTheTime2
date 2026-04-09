@@ -15,6 +15,9 @@ particle minecraft:dust{color:[1,0,0],scale:1} -7431.0 114.0 -4358 0.7 0.7 0.1 0
 particle minecraft:dust{color:[1,0,0],scale:1} -7415 110 -4377 0.1 0.7 0.7 0 2 normal
 particle minecraft:dust{color:[1,0,0],scale:1} -7434 110 -4396 0.7 0.7 0.1 0 2 normal
 
+##delay time
+execute if score subjects_t BOSS_TIME matches ..-1 run return run scoreboard players add subjects_t BOSS_TIME 1
+
 # Music management
 execute if score Subjects NOJELANTH matches 0.. as @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
 execute if score Subjects NOJELANTH matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -38,10 +41,10 @@ execute if score Subjects NOJELANTH matches 0.. unless entity 00000000-0000-021b
 execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] store result bossbar minecraft:subject0482 max run attribute 00000000-0000-021b-0000-00000000021b max_health get
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7432,y=113,z=-4357,dx=1,dy=1,dz=0,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title
-execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7437,y=113,z=-4397,dx=1,dy=1,dz=0,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title
-execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7414,y=113,z=-4375,dx=0,dy=1,dz=1,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title
-execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7454,y=113,z=-4380,dx=1,dy=1,dz=1,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title
+#execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7432,y=113,z=-4357,dx=1,dy=1,dz=0,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title
+#execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7437,y=113,z=-4397,dx=1,dy=1,dz=0,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title
+#execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7414,y=113,z=-4375,dx=0,dy=1,dz=1,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title
+#execute if score Mainquest SIDEQUEST matches 238 as @a[x=-7454,y=113,z=-4380,dx=1,dy=1,dz=1,gamemode=adventure] at @s unless entity @a[x=-7452,y=115,z=-4359,dx=37,dy=-6,dz=-37,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/nojelanth/subjects/display_title
 execute if score EnterArena NOJELANTH matches ..0 as @a[x=-7432,y=113,z=-4357,dx=1,dy=1,dz=0,gamemode=adventure] run function att2:gameplay/boss/nojelanth/subjects/enter_arena1
 execute if score EnterArena NOJELANTH matches ..0 as @a[x=-7437,y=113,z=-4397,dx=1,dy=1,dz=0,gamemode=adventure] run function att2:gameplay/boss/nojelanth/subjects/enter_arena2
 execute if score EnterArena NOJELANTH matches ..0 as @a[x=-7414,y=113,z=-4375,dx=0,dy=1,dz=1,gamemode=adventure] run function att2:gameplay/boss/nojelanth/subjects/enter_arena3

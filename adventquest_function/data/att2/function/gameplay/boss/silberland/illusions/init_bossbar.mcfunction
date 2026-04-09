@@ -7,16 +7,16 @@ bossbar add minecraft:illusion1 {"selector":"00000000-0000-005c-0000-00000000005
 bossbar set minecraft:illusion1 style notched_12
 bossbar set minecraft:illusion1 players @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure]
 bossbar set minecraft:illusion1 color purple
-bossbar set minecraft:illusion1 name [{text:"Illusion",color:"red"}]
+bossbar set minecraft:illusion1 name [{translate:att2.boss.name.illusion,color:"red"}]
 
 bossbar add minecraft:illusion2 {"selector":"00000000-0000-006c-0000-00000000006c",color:"dark_red"}
 bossbar set minecraft:illusion2 style notched_12
 bossbar set minecraft:illusion2 players @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure]
 bossbar set minecraft:illusion2 color purple
-bossbar set minecraft:illusion2 name [{text:"Illusion",color:"red"}]
+bossbar set minecraft:illusion2 name [{translate:att2.boss.name.illusion,color:"red"}]
 
 bossbar add minecraft:illusion3 {"selector":"00000000-0000-007c-0000-00000000007c",color:"dark_red"}
 bossbar set minecraft:illusion3 style notched_12
 bossbar set minecraft:illusion3 players @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure]
 bossbar set minecraft:illusion3 color purple
-bossbar set minecraft:illusion3 name [{text:"Illusion",color:"red"}]
+bossbar set minecraft:illusion3 name [{translate:att2.boss.name.illusion,color:"red"}]

@@ -10,3 +10,6 @@ scoreboard players set @s MUSIC_BOSS 0
 
 ##show bossbar
 bossbar set minecraft:myrath players @s
+
+##show display_title
+function att2:gameplay/boss/adanoi/myrath/display_title

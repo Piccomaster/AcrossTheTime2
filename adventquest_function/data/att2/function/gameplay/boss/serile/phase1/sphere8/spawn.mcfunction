@@ -13,4 +13,4 @@ bossbar add minecraft:sphere8 {"selector":"00000000-0000-022b-0000-00000000008b"
 bossbar set minecraft:sphere8 style notched_12
 bossbar set minecraft:sphere8 players @a
 bossbar set minecraft:sphere8 color purple
-bossbar set minecraft:sphere8 name [{text:"☼",color:"red"}]
+bossbar set minecraft:sphere8 name [{translate:att2.boss.name.sphere1,color:"red"}]

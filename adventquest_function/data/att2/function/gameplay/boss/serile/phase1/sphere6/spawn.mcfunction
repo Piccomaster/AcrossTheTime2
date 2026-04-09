@@ -13,4 +13,4 @@ bossbar add minecraft:sphere6 {"selector":"00000000-0000-022b-0000-00000000006b"
 bossbar set minecraft:sphere6 style notched_12
 bossbar set minecraft:sphere6 players @a
 bossbar set minecraft:sphere6 color purple
-bossbar set minecraft:sphere6 name [{text:"☼",color:"red"}]
+bossbar set minecraft:sphere6 name [{translate:att2.boss.name.sphere1,color:"red"}]

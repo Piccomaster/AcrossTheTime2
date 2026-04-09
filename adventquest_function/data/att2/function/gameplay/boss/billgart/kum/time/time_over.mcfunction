@@ -24,6 +24,6 @@ scoreboard players operation test_t BOSS_TIME -= kum_rt BOSS_TIME
 execute if score newrecord BOSS_TIME matches 1 unless score test_t BOSS_TIME matches 0.. as @a at @s run function att2:gameplay/boss/billgart/kum/time/time_record
 execute if score newrecord BOSS_TIME matches 1 if score test_t BOSS_TIME matches 1.. as @a at @s run function att2:gameplay/boss/billgart/kum/time/time_show
 
-scoreboard players reset kum_t BOSS_TIME
+scoreboard players set kum_t BOSS_TIME -40
 scoreboard players reset kum_s BOSS_TIME
 scoreboard players reset kum_m BOSS_TIME

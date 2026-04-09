@@ -1,112 +1,126 @@
 {
-    "title": "",
-    "type": "minecraft:notice",
-    "pause": false,
-    "columns": 1,
-    "body": [
+  "title": "",
+  "type": "minecraft:notice",
+  "pause": false,
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "consciousness.gametip.leveling",
+        "color": "green"
+      }
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
         {
-            "type": "plain_message",
-            "contents": {
-                "translate": "consciousness.gametip.leveling",
-                "color": "green"
-            }
+          "text": "1.",
+          "color": "#FA8C16"
         },
         {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "1.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.leveling.1",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "2.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.leveling.2",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "3.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.leveling.3",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "4.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.leveling.4",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "5.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.leveling.5",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "6.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.leveling.6",
-                    "color": "#FA8C16"
-                }
-            ]
+          "translate": "att2.assist.leveling.160",
+          "color": "#FA8C16"
         }
-    ],
-    "action": {
-        "label": {
-            "translate": "consciousness.menu.exit",
-            "color": "#45556C"
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "2.",
+          "color": "#FA8C16"
         },
-        "tooltip": {
-            "translate": "consciousness.menu.exit.tip"
-        },
-        "action": {
-            "type": "run_command",
-            "command": "/trigger ScoreTrigger set 2327"
+        {
+          "translate": "att2.assist.leveling.161",
+          "color": "#FA8C16"
         }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "3.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.leveling.162",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "4.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.leveling.163",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "5.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.leveling.164",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "6.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.leveling.165",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "7.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.leveling.166",
+          "color": "#FA8C16"
+        }
+      ]
     }
+  ],
+  "action": {
+    "label": {
+      "translate": "consciousness.menu.exit",
+      "color": "#45556C"
+    },
+    "tooltip": {
+      "translate": "consciousness.menu.exit.tip"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "/trigger ScoreTrigger set 2327"
+    }
+  }
 }
