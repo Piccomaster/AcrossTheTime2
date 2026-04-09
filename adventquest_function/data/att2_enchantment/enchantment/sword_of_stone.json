@@ -1,0 +1,63 @@
+{
+    "anvil_cost": 7,
+    "description": {
+        "translate": "enchantment.att2.sword_of_stone"
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:swords",
+    "exclusive_set": [
+        "att2_enchantment:sword_of_jab",
+        "att2_enchantment:sscombo",
+        "att2_enchantment:greatsword"
+    ],
+    "weight": 1,
+    "effects": {
+        "post_attack": [
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "hostile"
+                        }
+                    }
+                ],
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/enchantment/sword_of_stone/kill_detection"
+                }
+            },
+            {
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "hostile"
+                        }
+                    }
+                ],
+                "effect": {
+                    "type": "run_function",
+                    "function": "att2:gameplay/enchantment/sword_of_stone/kill_trigger"
+                }
+            }
+        ]
+    }
+}

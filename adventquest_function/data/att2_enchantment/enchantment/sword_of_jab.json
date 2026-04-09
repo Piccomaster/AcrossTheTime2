@@ -1,0 +1,23 @@
+{
+    "anvil_cost": 7,
+    "description": {
+        "translate": "enchantment.att2.sword_of_jab"
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:swords",
+    "exclusive_set": [
+        "att2_enchantment:sword_of_stone"
+    ],
+    "weight": 1
+}
