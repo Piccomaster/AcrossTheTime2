@@ -1,0 +1,9 @@
+{
+  "function": "set_damage",
+  "damage": {
+    "type": "uniform",
+    "min": 0.1,
+    "max": 0.2
+  },
+  "add": false
+}
