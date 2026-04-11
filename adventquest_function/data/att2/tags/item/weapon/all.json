@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#att2:weapon/copper",
+    "#att2:weapon/diamond",
+    "#att2:weapon/golden",
+    "#att2:weapon/iron",
+    "#att2:weapon/netherite",
+    "#att2:weapon/stone",
+    "#att2:weapon/wooden"
+  ]
+}

@@ -15,6 +15,9 @@ particle minecraft:dust{color:[1,0,0],scale:1.5} -4028 39 -4279 0 1.5 1.5 0 3
 stopsound @a * minecraft:block.fire.ambient
 stopsound @a * minecraft:block.fire.extinguish
 
+##delay time
+execute if score rackham_t BOSS_TIME matches ..-1 run return run scoreboard players add rackham_t BOSS_TIME 1
+
 # Music management
 execute if score Rackham SQ41 matches 0.. as @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Rackham SQ41 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -24,7 +27,7 @@ execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=2
 execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] store result bossbar minecraft:rackham max run attribute 00000000-0000-010c-0000-00000000010c max_health get
 
 # Make challengers enters the arena
-execute if score SQ41 SIDEQUEST matches 1..99 as @a[x=-4002,y=37,z=-4281,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/asunark/rackham/display_title
+#execute if score SQ41 SIDEQUEST matches 1..99 as @a[x=-4002,y=37,z=-4281,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/asunark/rackham/display_title
 execute if score EnterArena SQ41 matches ..0 as @a[x=-4002,y=37,z=-4281,dx=0,dy=3,dz=4,gamemode=adventure] run function att2:gameplay/boss/asunark/rackham/enter_arena
 execute if score EnterArena SQ41 matches 1.. run scoreboard players remove EnterArena SQ41 1
 

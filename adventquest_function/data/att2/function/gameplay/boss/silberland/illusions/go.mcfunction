@@ -11,6 +11,9 @@
 particle minecraft:dust{color:[1,0,0],scale:1} -4264 58 -5620 0.1 1 1 0 2 normal
 particle minecraft:dust{color:[1,0,0],scale:1} -4232 18 -5621 0.1 1 1 0 2 normal
 
+##delay time
+execute if score illusions_t BOSS_TIME matches ..-1 run return run scoreboard players add illusions_t BOSS_TIME 1
+
 # Music management
 execute if score Illusions SILBERLAND matches 0.. as @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Illusions SILBERLAND matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -30,7 +33,7 @@ execute if score Illusions SILBERLAND matches 0.. unless entity 00000000-0000-00
 execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] store result bossbar minecraft:illusion3 max run attribute 00000000-0000-007c-0000-00000000007c max_health get
 
 # Make challengers enters the arena
-execute if score SQ33 SIDEQUEST matches 1..99 as @a[x=-4265,y=57,z=-5621,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/silberland/illusions/display_title
+#execute if score SQ33 SIDEQUEST matches 1..99 as @a[x=-4265,y=57,z=-5621,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/silberland/illusions/display_title
 execute if score EnterArena SILBERLAND matches ..0 as @a[x=-4265,y=57,z=-5621,dx=0,dy=2,dz=2,gamemode=adventure] run function att2:gameplay/boss/silberland/illusions/enter_arena
 execute if score EnterArena SILBERLAND matches 1.. run scoreboard players remove EnterArena SILBERLAND 1
 

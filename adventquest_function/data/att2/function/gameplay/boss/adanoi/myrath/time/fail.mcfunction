@@ -4,6 +4,6 @@
 #########################################################
 
 ##fail
-scoreboard players reset myrath_t BOSS_TIME
+scoreboard players set myrath_t BOSS_TIME -40
 scoreboard players reset myrath_s BOSS_TIME
 scoreboard players reset myrath_m BOSS_TIME

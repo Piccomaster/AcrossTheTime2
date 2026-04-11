@@ -8,3 +8,6 @@ stopsound @s
 tag @s add NoAutoMusic
 scoreboard players set @s MUSIC_BOSS 0
 bossbar set minecraft:miehanov players @s
+
+##show display_title
+function att2:gameplay/boss/elcheol/miehanov/display_title

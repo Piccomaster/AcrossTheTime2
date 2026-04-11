@@ -25,6 +25,6 @@ execute if score newrecord BOSS_TIME matches 1 unless score test_t BOSS_TIME mat
 execute if score newrecord BOSS_TIME matches 1 if score test_t BOSS_TIME matches 1.. as @a at @s run function att2:gameplay/boss/adanoi/myrath/time/time_show
 
 ##reset
-scoreboard players reset myrath_t BOSS_TIME
+scoreboard players set myrath_t BOSS_TIME -40
 scoreboard players reset myrath_s BOSS_TIME
 scoreboard players reset myrath_m BOSS_TIME

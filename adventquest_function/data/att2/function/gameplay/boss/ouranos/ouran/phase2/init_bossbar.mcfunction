@@ -7,4 +7,4 @@ bossbar add minecraft:swarm {"selector":"00000000-0000-017b-0000-00000000005b",c
 bossbar set minecraft:swarm style notched_12
 bossbar set minecraft:swarm players @a[scores={DIMENSION=4..5}]
 bossbar set minecraft:swarm color white
-bossbar set minecraft:swarm name [{text:"Swarm",color:"white"}]
+bossbar set minecraft:swarm name [{translate:att2.boss.name.swarm,color:"white"}]

@@ -11,6 +11,8 @@
 particle minecraft:dust{color:[1,0,0],scale:1} -3892 85 -5592 1 2 0 1 5 normal
 particle minecraft:dust{color:[1,0,0],scale:1} -3892 85 -5616 1 2 0 1 5 normal
 
+##delay time
+execute if score myrath_t BOSS_TIME matches ..-1 run return run scoreboard players add myrath_t BOSS_TIME 1
 # Music management
 execute if score Myrath SQ26 matches 0.. as @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Myrath SQ26 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -20,7 +22,7 @@ execute if score Myrath SQ26 matches 0.. if entity @a[x=-3881,y=83,z=-5592,dx=-2
 execute if score Myrath SQ26 matches 0.. if entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure] store result bossbar minecraft:myrath max run attribute 00000000-0000-001c-0000-00000000001c max_health get
 
 # Make challengers enters the arena
-execute if score SQ26 SIDEQUEST matches 5 as @a[x=-3890,y=85,z=-5591,dx=-4,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/adanoi/myrath/display_title
+#execute if score SQ26 SIDEQUEST matches 5 as @a[x=-3890,y=85,z=-5591,dx=-4,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/adanoi/myrath/display_title
 execute if score EnterArena SQ26 matches ..0 as @a[x=-3890,y=85,z=-5591,dx=-4,dy=3,dz=0,gamemode=adventure] run function att2:gameplay/boss/adanoi/myrath/enter_arena
 execute if score EnterArena SQ26 matches 1.. run scoreboard players remove EnterArena SQ26 1
 

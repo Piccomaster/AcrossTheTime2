@@ -3,5 +3,5 @@
 #Initialize bossbar Pool0 Arena2 Wave3							#
 #################################################################
 
-bossbar add minecraft:pool0_a2 {text:"Putrids",color:"dark_red"}
-bossbar set minecraft:pool0_a2 name [{text:"Putrids",color:"red"}]
+bossbar add minecraft:pool0_a2
+bossbar set minecraft:pool0_a2 name [{translate:att2.arena.name.pool0_a2_w3,color:"red"}]

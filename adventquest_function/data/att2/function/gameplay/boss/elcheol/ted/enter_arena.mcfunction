@@ -10,3 +10,6 @@ scoreboard players set @s MUSIC_BOSS 0
 bossbar set minecraft:ted players @s
 bossbar set minecraft:skrappy1 players @s
 bossbar set minecraft:skrappy2 players @s
+
+##show display_title
+function att2:gameplay/boss/elcheol/ted/display_title

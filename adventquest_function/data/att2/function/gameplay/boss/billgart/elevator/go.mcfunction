@@ -13,6 +13,9 @@ particle minecraft:dust{color:[1,0,0],scale:1} -1239 177 -620 1.5 2 0.1 0 5 forc
 particle minecraft:dust{color:[1,0,0],scale:1} -1244 177 -615 0.1 2 1.5 0 5 force
 particle minecraft:dust{color:[1,0,0],scale:1} -1234 177 -615 0.1 2 1.5 0 5 force
 
+##delay time
+execute if score elevator_t BOSS_TIME matches ..-1 run return run scoreboard players add elevator_t BOSS_TIME 1
+
 # Music management
 execute if score Elevator BILLGART matches 0.. in minecraft:the_end as @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
 execute if score Elevator BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1

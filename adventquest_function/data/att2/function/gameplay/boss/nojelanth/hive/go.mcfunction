@@ -11,6 +11,9 @@
 particle minecraft:dust{color:[1,0,0],scale:1} -7548 83.5 -4177 1 0 1 1 2 normal
 particle minecraft:dust{color:[1,0,0],scale:1} -7547 70.5 -4162 1 1 0 1 2 normal
 
+##delay time
+execute if score hive_t BOSS_TIME matches ..-1 run return run scoreboard players add hive_t BOSS_TIME 1
+
 # Sound security
 stopsound @a * minecraft:entity.bee.loop
 stopsound @a * minecraft:entity.bee.loop_aggressive
@@ -25,7 +28,7 @@ execute if score Hive SQ58 matches 0.. as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-11,
 execute if score Hive SQ58 matches 0.. if entity @a[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,gamemode=adventure] store result bossbar minecraft:hive value run scoreboard players get Bees_count SQ58
 
 # Make challengers enters the arena
-execute if score SQ58 SIDEQUEST matches 1..99 as @a[x=-7549,y=84,z=-4176,dx=2,dy=0,dz=-2,gamemode=adventure] at @s unless entity @a[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/nojelanth/hive/display_title
+#execute if score SQ58 SIDEQUEST matches 1..99 as @a[x=-7549,y=84,z=-4176,dx=2,dy=0,dz=-2,gamemode=adventure] at @s unless entity @a[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/nojelanth/hive/display_title
 execute if score EnterArena SQ58 matches ..0 as @a[x=-7549,y=84,z=-4176,dx=2,dy=0,dz=-2,gamemode=adventure] run function att2:gameplay/boss/nojelanth/hive/enter_arena
 execute if score EnterArena SQ58 matches 1.. run scoreboard players remove EnterArena SQ58 1
 

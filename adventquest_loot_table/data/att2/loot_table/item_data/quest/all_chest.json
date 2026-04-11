@@ -438,7 +438,7 @@
                         }
                     ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/quest/keys/score_key"
+                    "value": "att2:item_data/quest/keys/storage_key"
                 },
                 {
                     "conditions": [

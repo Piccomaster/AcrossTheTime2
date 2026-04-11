@@ -8,3 +8,6 @@ stopsound @s
 tag @s add NoAutoMusic
 scoreboard players set @s MUSIC_BOSS 0
 bossbar set minecraft:hive players @s
+
+##show display_title
+function att2:gameplay/boss/nojelanth/hive/display_title

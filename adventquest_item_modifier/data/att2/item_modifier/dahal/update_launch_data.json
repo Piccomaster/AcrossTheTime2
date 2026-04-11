@@ -1,0 +1,67 @@
+[
+  {
+    "function": "set_custom_model_data",
+    "floats": {
+      "mode": "replace_all",
+      "values": [
+        {
+          "type": "score",
+          "score": "CAL",
+          "target": {
+            "type": "fixed",
+            "name": "#cooldown_percent"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "condition": "value_check",
+        "value": {
+          "type": "score",
+          "score": "CAL",
+          "target": {
+            "type": "fixed",
+            "name": "#cooldown_percent"
+          }
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ],
+    "function": "set_components",
+    "components": {
+      "!minecraft:consumable": {}
+    }
+  },
+  {
+    "conditions": [
+      {
+        "condition": "value_check",
+        "value": {
+          "type": "score",
+          "score": "CAL",
+          "target": {
+            "type": "fixed",
+            "name": "#cooldown_percent"
+          }
+        },
+        "range": 0
+      }
+    ],
+    "function": "set_components",
+    "components": {
+      "minecraft:consumable": {
+        "animation": "trident",
+        "consume_seconds": 0.05,
+        "has_consume_particles": false,
+        "sound": {
+          "sound_id": ""
+        }
+      }
+    }
+  }
+]

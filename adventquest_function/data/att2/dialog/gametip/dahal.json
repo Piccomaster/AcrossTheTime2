@@ -1,546 +1,616 @@
 {
-    "title": "",
-    "type": "minecraft:notice",
-    "pause": false,
-    "columns": 1,
-    "body": [
+  "title": "",
+  "type": "minecraft:notice",
+  "pause": false,
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "consciousness.gametip.dahal",
+        "color": "green"
+      }
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
         {
-            "type": "plain_message",
-            "contents": {
-                "translate": "consciousness.gametip.dahal",
-                "color": "green"
-            }
+          "text": "1.",
+          "color": "#FA8C16"
         },
         {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "1.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.1",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "2.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.2",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "3.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.3",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "4.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.4",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "5.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.5",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "6.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.6",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "7.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.7",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "8.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.8",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "9.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.9",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "10.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.10",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "11.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.11",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "12.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.12",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "13.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.13",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "14.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.14",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "15.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.15",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "16.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.16",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "17.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.17",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "18.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.18",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "19.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.19",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "20.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.20",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "21.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.21",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "22.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.22",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "23.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.23",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "24.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.24",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "25.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.25",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "26.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.26",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "27.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.27",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "28.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.28",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "29.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.29",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "30.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.30",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "31.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.31",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "32.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.32",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "33.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.33",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "34.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.34",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "35.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.35",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "36.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.36",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "37.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.dahal.37",
-                    "color": "#FA8C16"
-                }
-            ]
+          "translate": "att2.assist.dahal.118",
+          "color": "#FA8C16"
         }
-    ],
-    "action": {
-        "label": {
-            "translate": "consciousness.menu.exit",
-            "color": "#45556C"
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "2.",
+          "color": "#FA8C16"
         },
-        "tooltip": {
-            "translate": "consciousness.menu.exit.tip"
-        },
-        "action": {
-            "type": "run_command",
-            "command": "/trigger ScoreTrigger set 2327"
+        {
+          "translate": "att2.assist.dahal.119",
+          "color": "#FA8C16"
         }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "3.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.120",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "4.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.121",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "5.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.122",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "6.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.123",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "7.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.124",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "8.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.125",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "9.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.126",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "10.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.127",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "11.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.128",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "12.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.129",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "13.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.130",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "14.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.131",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "15.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.132",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "16.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.133",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "17.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.134",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "18.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.135",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "19.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.136",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "20.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.137",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "21.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.138",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "22.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.139",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "23.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.140",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "24.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.141",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "25.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.142",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "26.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.143",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "27.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.144",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "28.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.145",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "29.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.146",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "30.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.147",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "31.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.148",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "32.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.149",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "33.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.150",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "34.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.151",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "35.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.152",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "36.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.153",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "37.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.154",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "38.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.155",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "39.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.156",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "40.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.157",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "41.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.158",
+          "color": "#FA8C16"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "42.",
+          "color": "#FA8C16"
+        },
+        {
+          "translate": "att2.assist.dahal.159",
+          "color": "#FA8C16"
+        }
+      ]
     }
+  ],
+  "action": {
+    "label": {
+      "translate": "consciousness.menu.exit",
+      "color": "#45556C"
+    },
+    "tooltip": {
+      "translate": "consciousness.menu.exit.tip"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "/trigger ScoreTrigger set 2327"
+    }
+  }
 }

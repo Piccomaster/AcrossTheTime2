@@ -7,4 +7,4 @@ bossbar add minecraft:miehanov {"selector":"00000000-0000-008b-0000-00000000008b
 bossbar set minecraft:miehanov style notched_12
 bossbar set minecraft:miehanov players @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure]
 bossbar set minecraft:miehanov color purple
-bossbar set minecraft:miehanov name [{text:"Miehanov",color:"red"}]
+bossbar set minecraft:miehanov name [{translate:att2.boss.name.miehanov,color:"red"}]

@@ -11,6 +11,9 @@
 execute if score Ted SQ55 matches -2.. run particle minecraft:dust{color:[1,0,0],scale:1} -5076 97 -6198 0 2 2 1 2 normal
 execute if score Ted SQ55 matches -2.. run particle minecraft:dust{color:[1,0,0],scale:1} -5126 110.5 -6198 0 1 1 1 2 normal
 
+##delay time
+execute if score ted_t BOSS_TIME matches ..-1 run return run scoreboard players add ted_t BOSS_TIME 1
+
 # Music management
 execute if score Ted SQ55 matches 0.. as @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Ted SQ55 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -29,7 +32,7 @@ execute if score Ted SQ55 matches 0.. unless entity 00000000-0000-025c-0000-0000
 execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] store result bossbar minecraft:skrappy2 max run attribute 00000000-0000-025c-0000-00000000025c max_health get
 
 # Make challengers enters the arena
-execute if score SQ55 SIDEQUEST matches 1..99 as @a[x=-5075,y=95,z=-6200,dx=0,dy=4,dz=4,gamemode=adventure] at @s unless entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/ted/display_title
+#execute if score SQ55 SIDEQUEST matches 1..99 as @a[x=-5075,y=95,z=-6200,dx=0,dy=4,dz=4,gamemode=adventure] at @s unless entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/ted/display_title
 execute if score EnterArena SQ55 matches ..0 as @a[x=-5075,y=95,z=-6200,dx=0,dy=4,dz=4,gamemode=adventure] run function att2:gameplay/boss/elcheol/ted/enter_arena
 execute if score EnterArena SQ55 matches 1.. run scoreboard players remove EnterArena SQ55 1
 

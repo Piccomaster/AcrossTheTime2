@@ -8,7 +8,7 @@ stopsound @s
 tag @s remove NoAutoMusic
 scoreboard players set @s MUSIC_TIMER 20
 scoreboard players set @s MUSIC_BOSS 0
-bossbar set minecraft:timer visible false
-bossbar remove minecraft:timer
+bossbar set minecraft:serile_timer visible false
+bossbar remove minecraft:serile_timer
 bossbar set minecraft:serile visible false
 bossbar remove minecraft:serile

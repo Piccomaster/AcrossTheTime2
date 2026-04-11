@@ -18,6 +18,9 @@ execute if score Shadow SQ38 matches 0.. if score ShadowSound SQ38 matches 300..
 execute if score SQ38 SIDEQUEST matches 3.. run particle minecraft:dust{color:[1,0,0],scale:1} -4362 55 -5054 0.1 1 1 0 3 normal
 execute if score SQ38 SIDEQUEST matches 3.. run particle minecraft:dust{color:[1,0,0],scale:1} -4388 55 -5054 0.1 1 1 0 3 normal
 
+##delay time
+execute if score shadow_t BOSS_TIME matches ..-1 run return run scoreboard players add shadow_t BOSS_TIME 1
+
 # Music management
 execute if score Shadow SQ38 matches 0.. as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_secretboss
 execute if score Shadow SQ38 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -27,7 +30,7 @@ execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-2
 execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] store result bossbar minecraft:shadow max run attribute 00000000-0000-008c-0000-00000000008c max_health get
 
 # Make challengers enters the arena
-execute if score SQ38 SIDEQUEST matches 3.. as @a[x=-4389,y=54,z=-5055,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/schestrown/shadow/display_title
+#execute if score SQ38 SIDEQUEST matches 3.. as @a[x=-4389,y=54,z=-5055,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/schestrown/shadow/display_title
 execute if score SQ38 SIDEQUEST matches 3.. if score EnterArena SQ38 matches ..0 as @a[x=-4389,y=54,z=-5055,dx=0,dy=2,dz=2,gamemode=adventure] run function att2:gameplay/boss/schestrown/shadow/enter_arena
 execute if score SQ38 SIDEQUEST matches 3.. if score EnterArena SQ38 matches 1.. run scoreboard players remove EnterArena SQ38 1
 

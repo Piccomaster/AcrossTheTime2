@@ -7,7 +7,7 @@ bossbar add minecraft:somniophages {text:"Somniophages",color:"dark_red"}
 bossbar set minecraft:somniophages style notched_12
 bossbar set minecraft:somniophages players @a
 bossbar set minecraft:somniophages color purple
-bossbar set minecraft:somniophages name [{text:"Somniophages",color:"red"}]
+bossbar set minecraft:somniophages name [{translate:att2.boss.name.somniophages,color:"red"}]
 bossbar set minecraft:somniophages max 10
 
 #bossbar add minecraft:somniophage1 {"selector":"00000000-0000-014c-0000-00000000014c",color:"dark_red"}

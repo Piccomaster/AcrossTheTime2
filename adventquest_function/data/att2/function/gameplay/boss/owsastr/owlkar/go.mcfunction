@@ -17,6 +17,9 @@ particle minecraft:end_rod -5037 79 -4368 0.1 5 0.1 0 5
 particle minecraft:end_rod -5063 79 -4368 0.1 5 0.1 0 5
 particle minecraft:end_rod -5063 81 -4394 0.1 5 0.1 0 5
 
+##delay time
+execute if score owlkar_t BOSS_TIME matches ..-1 run return run scoreboard players add owlkar_t BOSS_TIME 1
+
 # Music management
 execute if score Owlkar OWSASTR matches 0.. as @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
 execute if score Owlkar OWSASTR matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -36,7 +39,7 @@ execute if score Owlkar_button_wn OWSASTR matches 0 run function att2:gameplay/b
 execute if score Owlkar_button_wn OWSASTR matches 1 run function att2:gameplay/boss/owsastr/owlkar/mirror_wn_particle_in
 
 # Make challengers enters the arena (unless ray are not going to it)
-execute if score Mainquest SIDEQUEST matches 26 if score mech1 OWSASTR matches 7 if score wingN OWSASTR matches 3 as @a[x=-5025,y=76,z=-4383,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] as @a[distance=..30] run function att2:gameplay/boss/owsastr/owlkar/display_title
+#execute if score Mainquest SIDEQUEST matches 26 if score mech1 OWSASTR matches 7 if score wingN OWSASTR matches 3 as @a[x=-5025,y=76,z=-4383,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] as @a[distance=..30] run function att2:gameplay/boss/owsastr/owlkar/display_title
 execute if score EnterArena OWSASTR matches ..0 if score mech1 OWSASTR matches 7 if score wingN OWSASTR matches 3 unless score Mainquest SIDEQUEST matches 27 as @a[x=-5025,y=76,z=-4383,dx=0,dy=3,dz=4] run function att2:gameplay/boss/owsastr/owlkar/enter_arena
 execute if score EnterArena OWSASTR matches 1.. run scoreboard players remove EnterArena OWSASTR 1
 

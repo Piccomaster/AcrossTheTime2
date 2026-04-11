@@ -12,6 +12,9 @@ execute if score winge_mech3 ASUNARK matches 4 run particle minecraft:dust{color
 particle minecraft:dust{color:[1,0,0],scale:1.5} -3297 7.5 -4922 0.8 0.8 0 0 2 force
 particle minecraft:dust{color:[1,0,0],scale:1.5} -3297 7.5 -4962 0.8 0.8 0 0 2 force
 
+##delay time
+execute if score asurok_t BOSS_TIME matches ..-1 run return run scoreboard players add asurok_t BOSS_TIME 1
+
 # Sound security
 stopsound @a block minecraft:block.bubble_column.bubble_pop
 stopsound @a player minecraft:block.bubble_column.whirlpool_inside
@@ -28,7 +31,7 @@ execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=
 execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] store result bossbar minecraft:asurok max run attribute 00000000-0000-003b-0000-00000000003b max_health get
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 39 as @a[x=-3319,y=12,z=-4943,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/asunark/asurok/display_title
+#execute if score Mainquest SIDEQUEST matches 39 as @a[x=-3319,y=12,z=-4943,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/asunark/asurok/display_title
 execute if score EnterArena ASUNARK matches ..0 if score winge_mech3 ASUNARK matches 4 as @a[x=-3319,y=12,z=-4943,dx=0,dy=2,dz=2,gamemode=adventure] run function att2:gameplay/boss/asunark/asurok/enter_arena
 execute if score EnterArena ASUNARK matches 1.. run scoreboard players remove EnterArena ASUNARK 1
 

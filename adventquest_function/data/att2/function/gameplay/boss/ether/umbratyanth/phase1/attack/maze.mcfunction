@@ -15,5 +15,5 @@ execute if score Timer2 UMBRATYANTH matches 10 as @p[x=-5117,y=121,z=-6870] run 
 execute if score Timer2 UMBRATYANTH matches 20 run function att2:physicmod/reg1/ether/umbra_maze
 execute if score Timer2 UMBRATYANTH matches 25 run scoreboard players set Sonar UMBRATYANTH 0
 execute if score Timer2 UMBRATYANTH matches 30 as @e[type=minecraft:spider,tag=UmbraMinion,x=-5158,y=120,z=-6911,dx=82,dy=30,dz=82] at @s run tp @s ~ ~8 ~
-execute if score Timer2 UMBRATYANTH matches 50 as @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect give @s minecraft:wither 1000000 0 true
+execute if score Timer2 UMBRATYANTH matches 50 as @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect give @s minecraft:wither 10 0 true
 execute if score Timer2 UMBRATYANTH matches 750.. run function att2:gameplay/boss/ether/umbratyanth/phase1/attack_fail

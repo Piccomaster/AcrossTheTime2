@@ -11,6 +11,9 @@
 particle minecraft:dust{color:[1,0,0],scale:1} -7620 17 -4222 1 1 0 1 2 normal
 particle minecraft:dust{color:[1,0,0],scale:1} -7617 24.5 -4173 1 1 0 1 2 normal
 
+##delay time
+execute if score abmup_nomit_t BOSS_TIME matches ..-1 run return run scoreboard players add abmup_nomit_t BOSS_TIME 1
+
 # Music management
 execute if score Abmup_Nomit SQ58 matches 0.. as @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Abmup_Nomit SQ58 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -25,7 +28,7 @@ execute if score Abmup_Nomit SQ58 matches 0.. unless entity 00000000-0000-031c-0
 execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] store result bossbar minecraft:nomit max run attribute 00000000-0000-031c-0000-00000000031c max_health get
 
 # Make challengers enters the arena
-execute if score SQ58 SIDEQUEST matches 1..99 as @a[x=-7621,y=15,z=-4223,dx=2,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/nojelanth/abmup_nomit/display_title
+#execute if score SQ58 SIDEQUEST matches 1..99 as @a[x=-7621,y=15,z=-4223,dx=2,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/nojelanth/abmup_nomit/display_title
 execute if score EnterArena SQ58 matches ..0 as @a[x=-7621,y=15,z=-4223,dx=2,dy=3,dz=0,gamemode=adventure] run function att2:gameplay/boss/nojelanth/abmup_nomit/enter_arena
 execute if score EnterArena SQ58 matches 1.. run scoreboard players remove EnterArena SQ58 1
 

@@ -13,4 +13,4 @@ bossbar add minecraft:sphere4 {"selector":"00000000-0000-022b-0000-00000000004b"
 bossbar set minecraft:sphere4 style notched_12
 bossbar set minecraft:sphere4 players @a
 bossbar set minecraft:sphere4 color purple
-bossbar set minecraft:sphere4 name [{text:"☼",color:"red"}]
+bossbar set minecraft:sphere4 name [{translate:att2.boss.name.sphere1,color:"red"}]

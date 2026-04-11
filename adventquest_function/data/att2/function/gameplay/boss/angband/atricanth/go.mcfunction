@@ -14,6 +14,9 @@ execute if score Atricanth SQ57 matches 0.. run function att2:gameplay/boss/angb
 particle minecraft:dust{color:[1,0,0],scale:1} 3425 33.5 4303 1.5 0.1 1.5 0 5 force
 particle minecraft:dust{color:[1,0,0],scale:1} 3446 20.5 4303 0.1 1.2 1.2 0 5 force
 
+##delay time
+execute if score atricanth_t BOSS_TIME matches ..-1 run return run scoreboard players add atricanth_t BOSS_TIME 1
+
 # Music management
 execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether as @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Atricanth SQ57 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -33,7 +36,7 @@ execute if score Atricanth SQ57 matches 0.. unless entity 00000000-0000-029c-000
 execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth3 max run data get entity 00000000-0000-029c-0000-00000000029c attributes[{id:"minecraft:max_health"}].base
 
 # Make challengers enters the arena
-execute if score SQ57 SIDEQUEST matches 1..99 in minecraft:the_nether as @a[x=3422,y=34,z=4306,dx=6,dy=2,dz=-6,gamemode=adventure] at @s unless entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/angband/atricanth/display_title
+#execute if score SQ57 SIDEQUEST matches 1..99 in minecraft:the_nether as @a[x=3422,y=34,z=4306,dx=6,dy=2,dz=-6,gamemode=adventure] at @s unless entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/angband/atricanth/display_title
 execute if score EnterArena SQ57 matches ..0 in minecraft:the_nether as @a[x=3422,y=34,z=4306,dx=6,dy=2,dz=-6,gamemode=adventure] run function att2:gameplay/boss/angband/atricanth/enter_arena
 execute if score EnterArena SQ57 matches 1.. run scoreboard players remove EnterArena SQ57 1
 
