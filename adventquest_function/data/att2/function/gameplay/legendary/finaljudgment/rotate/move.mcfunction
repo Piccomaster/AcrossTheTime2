@@ -16,7 +16,7 @@ execute if score @s LIFETIME matches 41..99 run tp @s ^ ^ ^0.1
 ##return
 execute unless score @s LIFETIME matches 100.. run return fail
 
-rotate @s facing entity @p[distance=..40,predicate=att2_pre:score/player] eyes
+execute if score #time LIFETIME matches 0 run rotate @s facing entity @p[distance=..40,predicate=att2_pre:score/player] eyes
 
 execute if score #time LIFETIME matches 0 if score @s LIFETIME matches 100..200 run tp @s ^ ^0.2 ^0.18
 execute if score #time LIFETIME matches 1 if score @s LIFETIME matches 100..200 run tp @s ^ ^-0.2 ^0.22
@@ -25,4 +25,4 @@ execute if score #time LIFETIME matches 0 if score @s LIFETIME matches 201.. run
 execute if score #time LIFETIME matches 1 if score @s LIFETIME matches 201.. run tp @s ^ ^-0.3 ^0.25
 
 ##clear
-execute if entity @p[distance=..2,predicate=att2_pre:score/player] run function att2:gameplay/legendary/finaljudgment/rotate/clear
+execute if entity @p[dx=0.2,dy=0.2,dz=0.2,predicate=att2_pre:score/player] run function att2:gameplay/legendary/finaljudgment/rotate/clear

@@ -21,7 +21,7 @@ execute positioned ~-4 ~-2 ~-4 as @e[dx=8,dy=4,dz=8,team=hostile,scores={GAMELEV
 
 
 ##add invulnerable time
-execute as @p[distance=..5,predicate=att2_pre:score/player] run function att2:gameplay/legendary/finaljudgment/rotate/return_effect
+execute as @p[distance=..10,predicate=att2_pre:score/player] run function att2:gameplay/legendary/finaljudgment/rotate/return_effect
 ##clear entity
 execute on passengers run kill @s[type=item_display,tag=FinalJudgmentMarker]
 kill @s[type=armor_stand,tag=FinalJudgmentMarker]

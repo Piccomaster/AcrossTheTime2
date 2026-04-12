@@ -21,7 +21,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/legendary/finaljudgment/"
+          "function": "att2:gameplay/legendary/finaljudgment/left_attack/trigger"
         }
       }
     ],
@@ -40,7 +40,7 @@
         ],
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/legendary/finaljudgment/"
+          "function": "att2:gameplay/legendary/finaljudgment/left_attack/trigger"
         }
       }
     ],
