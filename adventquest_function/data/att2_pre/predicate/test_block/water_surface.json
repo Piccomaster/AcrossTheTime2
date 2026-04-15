@@ -1,5 +1,5 @@
 {
-    "condition": "all_of",
+    "condition": "minecraft:all_of",
     "terms": [
         {
             "condition": "minecraft:location_check",
@@ -13,8 +13,8 @@
             }
         },
         {
-            "condition": "inverted",
-            "terms": {
+            "condition": "minecraft:inverted",
+            "term": {
                 "condition": "minecraft:location_check",
                 "offsetX": 0,
                 "offsetY": 1,
