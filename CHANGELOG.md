@@ -173,6 +173,15 @@
   - Movement grants a speed boost but becomes difficult to control.
   - Damages enemies along the path of movement.
 
+#### **Kur-Hul Ud-Kud**
+
+- **Right-Click Action**:
+  - Throws a giant scythe forward. The scythe automatically moves forward and attacks nearby enemies. After some time, it slowly flies back to the player's location.
+  - Each time the scythe attacks an enemy, it grows larger, increasing both its attack range and damage. When it becomes sufficiently large or returns to the player, the scythe will unleash a more powerful attack and knockback effect on nearby enemies, while granting the player invincibility proportional to its size.
+
+- **Left-Click Attack**:
+  - Can knock back the returning scythe in front, causing it to move forward again and lock onto nearby enemies.
+
 <br>
 
 ### **Spell System**
@@ -321,10 +330,13 @@
 - Decorated Pots have been scattered throughout the map.
 - They can be broken to obtain *Chronotons*, *Chaos Sovereign Scales*, and *Runes*.
 
+#### **Buried Loot**
+- A large number of "Buried Loot" have been added to the map. They are usually hidden under weeds, rubble, or dirt, making them difficult to spot. Players need to right-click to clear the surface debris before they can pick them up.
+- Loot contents: *Chronotons*, *Chaos Sovereign Scales*, and *Runes
+
 #### **Elytra Race**
 - Nine "launch points" have been added across the map. They are usually covered with rubble. After clearing the rubble, you can use "Pelzion" to soar with the wind.
 - Completing each section of the route will earn you additional rewards.
-
 
 #### **Monster HP Display**
 - Health bars now appear above monsters' heads.
@@ -352,33 +364,37 @@
 
 #### **Elite Monster Mutations**
 
-##### **New hostile creature**
+- **Spawn Mechanism**:
+  - Lower probability of generating mutant elites; each mutant elite monster has only one special ability.
+  - No more than one mutant elite monster exists at the same time.
+
+- **How to Distinguish**: Players can identify mutant elite monsters by the icon above their heads.
+
+- **Attribute Mutations**:
+  - **Power Type**: Very high attack damage, low max health.
+  - **Speed Type**: Extremely fast movement, very low attack damage.
+  - **Health Type**: Massive max health, very slow movement.
+
+- **Death Mutations**:
+  - **Curse Type**: Inflicts mental debuffs on nearby players when killed.
+  - **Healer Type**: Restores 50% max HP to nearby monsters when killed.
+  - **Empower Type**: Grants nearby monsters 5 seconds of invulnerability when killed.
+
+- **Immunity Mutations**:
+  - **Melee Immunity**: Becomes invulnerable when players are within 5 blocks.
+  - **Projectile Immunity**: Destroys player-shot arrows within 5 blocks.
+  - **Magic Immunity**: Immune to all damaging Dahal spells.
+
+#### **Loot Rewards**
+- Killing mutant elites grants more experience and currency loot.
+
+#### **New hostile creature**
 - Zombie Nautilus, primarily found in ocean regions.
 
-##### **Spawn Mechanism**
-- Lower probability of generating mutant elites; each mutant elite monster has only one special ability.
-- No more than one mutant elite monster exists at the same time.
-
-##### **How to Distinguish**
-- Players can identify mutant elite monsters by the icon above their heads.
-
-##### **Attribute Mutations**
-- **Power Type**: Very high attack damage, low max health.
-- **Speed Type**: Extremely fast movement, very low attack damage.
-- **Health Type**: Massive max health, very slow movement.
-
-##### **Death Mutations**
-- **Curse Type**: Inflicts mental debuffs on nearby players when killed.
-- **Healer Type**: Restores 50% max HP to nearby monsters when killed.
-- **Empower Type**: Grants nearby monsters 5 seconds of invulnerability when killed.
-
-##### **Immunity Mutations**
-- **Melee Immunity**: Becomes invulnerable when players are within 5 blocks.
-- **Projectile Immunity**: Destroys player-shot arrows within 5 blocks.
-- **Magic Immunity**: Immune to all damaging Dahal spells.
-
-##### **Loot Rewards**
-- Killing mutant elites grants more experience and currency loot.
+#### **New special creature**
+- **Block Mimic**:
+  - Block mimics are randomly distributed across various dimensions. They disguise themselves as nearby blocks and are usually in a dormant state.
+  - Players need to attack them to wake them up. Once awakened, they will either attack or flee from the player. Attacking or killing them will grant additional rewards.
 
 <br>
 
@@ -394,6 +410,9 @@
 - **Copper weapons**: Triggered when a player hit enemy with copper weapons.
 - **Copper armors**: Triggered when a player break copper armor.
 - **CRT Attribut**: Triggered when a player reach some CRT attribut level.
+
+#### **Advancements structure optimization**
+- the progress structure in the `Collection` has now become clearer.
 
 <br>
 
@@ -666,6 +685,7 @@
 #### **Boss Health Bar Display Mechanics**
 - **Health Bar Visibility**: The health bar of most bosses is only displayed to players who have entered the corresponding boss room.
 - **Multiple Boss Management**: When multiple bosses are present, the health bar at the top of the screen is promptly removed once that specific boss is defeated.
+- When repeatedly entering/exiting a boss room within a very short period of time, the situation where no boss spawns but the player is still deemed victorious will no longer occur.
 
 #### **Game experience feedback optimization.**
 
@@ -675,6 +695,10 @@
 
 #### **Casino optimization.**
 - Refactored the casino drop process function, now supporting rapid betting on different tiers with multiple clicks in a short timeframe.
+
+## **Entity protection mechanism**
+- When a player uses the `kill @e` command or loses entities due to other unforeseen circumstances, the map will regenerate some important NPCs/entities.
+
 <br>
 
 ### **Minor Issues**
