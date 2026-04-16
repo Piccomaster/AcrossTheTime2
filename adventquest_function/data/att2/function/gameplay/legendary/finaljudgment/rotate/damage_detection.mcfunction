@@ -21,9 +21,9 @@ execute if score #id CAL matches 7 at @s anchored feet positioned ^-0.5 ^0.5 ^ r
 
 ##detection
 scoreboard players set #TEST CAL 0
-execute if score #count FinalJudgmentUsing matches ..20 at @n[distance=..10,type=armor_stand,tag=FinalJudgmentPos] positioned ~-1 ~-0.25 ~-1 if entity @n[dx=2,dy=0.5,dz=2,type=marker,tag=Temp,tag=ScytheWeakness] run scoreboard players set #TEST CAL 1
-execute if score #count FinalJudgmentUsing matches 21..40 at @n[distance=..10,type=armor_stand,tag=FinalJudgmentPos] positioned ~-2 ~-0.5 ~-3 if entity @n[dx=4,dy=1.0,dz=4,type=marker,tag=Temp,tag=ScytheWeakness] run scoreboard players set #TEST CAL 1
-execute if score #count FinalJudgmentUsing matches 41.. at @n[distance=..10,type=armor_stand,tag=FinalJudgmentPos] positioned ~-3 ~-0.75 ~-3 if entity @n[dx=6,dy=1.5,dz=6,type=marker,tag=Temp,tag=ScytheWeakness] run scoreboard players set #TEST CAL 1
+execute if score #count FinalJudgmentUsing matches ..20 at @n[distance=..10,type=armor_stand,tag=FinalJudgmentPos] positioned ~-1 ~-0.4 ~-1 if entity @n[dx=2,dy=0.8,dz=2,type=marker,tag=Temp,tag=ScytheWeakness] run scoreboard players set #TEST CAL 1
+execute if score #count FinalJudgmentUsing matches 21..40 at @n[distance=..10,type=armor_stand,tag=FinalJudgmentPos] positioned ~-2 ~-0.6 ~-3 if entity @n[dx=4,dy=1.2,dz=4,type=marker,tag=Temp,tag=ScytheWeakness] run scoreboard players set #TEST CAL 1
+execute if score #count FinalJudgmentUsing matches 41.. at @n[distance=..10,type=armor_stand,tag=FinalJudgmentPos] positioned ~-3 ~-0.8 ~-3 if entity @n[dx=6,dy=1.6,dz=6,type=marker,tag=Temp,tag=ScytheWeakness] run scoreboard players set #TEST CAL 1
 
 ##fail
 scoreboard players set #RNG CAL 100

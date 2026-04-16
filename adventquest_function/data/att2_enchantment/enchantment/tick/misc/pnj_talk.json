@@ -1,7 +1,7 @@
 {
   "anvil_cost": 7,
   "description": {
-    "translate": " "
+    "translate": ""
   },
   "max_cost": {
     "base": 7,
@@ -17,11 +17,12 @@
   ],
   "supported_items": "#minecraft:enchantable/durability",
   "effects": {
+    "minecraft:prevent_equipment_drop": {},
     "tick": [
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/legendary/ultima/ps_time"
+          "function": "att2:gameplay/talking/go"
         }
       }
     ]

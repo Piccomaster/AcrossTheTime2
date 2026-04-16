@@ -17,7 +17,7 @@ item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_
 ##damage
 #set base damage
 scoreboard players operation #damage CAL = #count FinalJudgmentUsing
-scoreboard players operation #damage CAL *= 15 CAL
+scoreboard players operation #damage CAL *= 20 CAL
 scoreboard players add #damage CAL 100
 function att2:gameplay/legendary/finaljudgment/rotate/damage_detection
 execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
