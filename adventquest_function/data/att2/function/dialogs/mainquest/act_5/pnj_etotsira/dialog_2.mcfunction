@@ -8,59 +8,59 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=0}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Prêt pour ton voyage de retour ?",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=0}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Prêt pour ton voyage de retour ?",color:"dark_aqua"}]}]
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=1}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Ready for your come back travel?",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=1}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Ready for your come back travel?",color:"dark_aqua"}]}]
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=2}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"準備好回去了嗎？ ",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=2}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"準備好回去了嗎？ ",color:"dark_aqua"}]}]
 
 
 #JAPANESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=3}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=3}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"帰りの旅の準備はできましたか？",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=3}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"帰りの旅の準備はできましたか？",color:"dark_aqua"}]}]
 
 
 #KOREAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=4}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=4}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"돌아갈 여행 준비가 되었습니까?",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=4}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"돌아갈 여행 준비가 되었습니까?",color:"dark_aqua"}]}]
 
 
 #ARABIC LANGUAGE
 
-tellraw @s[scores={LANGUAGE=5}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=5}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"هل أنت مستعد لرحلة العودة؟",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=5}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"هل أنت مستعد لرحلة العودة؟",color:"dark_aqua"}]}]
 
 
 #RUSSIAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=6}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=6}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Готов к обратному путешествию?",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=6}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Готов к обратному путешествию?",color:"dark_aqua"}]}]
 
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=7}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"¿Listo para tu viaje de regreso?",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=7}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"¿Listo para tu viaje de regreso?",color:"dark_aqua"}]}]
 
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=8}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Bereit für deine Rückreise?",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=8}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Bereit für deine Rückreise?",color:"dark_aqua"}]}]
 
 
 #HINDI LANGUAGE
 
-tellraw @s[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=9}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"क्या आप अपनी वापसी यात्रा के लिए तैयार हैं?",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"क्या आप अपनी वापसी यात्रा के लिए तैयार हैं?",color:"dark_aqua"}]}]
 
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=10}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Pronto para sua viagem de volta?",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"Pronto para sua viagem de volta?",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/tellraw @s[scores={LANGUAGE=11}] _o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"准备好返程了么？ ",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/etotsira_o_front"},{text:" °-° Etotsira : ",color:"blue",extra:[{text:"准备好返程了么？ ",color:"dark_aqua"}]}]
 
 function att2:dialogs/mainquest/act_5/pnj_etotsira/player_answer_proposal_2
