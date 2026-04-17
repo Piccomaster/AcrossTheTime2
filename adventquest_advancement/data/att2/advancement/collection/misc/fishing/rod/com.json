@@ -15,7 +15,7 @@
     "show_toast": false,
     "announce_to_chat": true
   },
-  "parent": "att2:collection/misc/fishing",
+  "parent": "att2:collection/misc/fishing/root",
   "rewards": {
     "function": "att2:advancement/test_all/collection/test_com_unc"
   },

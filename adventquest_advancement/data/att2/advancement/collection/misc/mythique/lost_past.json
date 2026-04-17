@@ -19,7 +19,7 @@
         "frame": "challenge",
         "hidden": true
     },
-    "parent": "att2:collection/misc/mythique",
+    "parent": "att2:collection/misc/mythique/root",
     "rewards": {
         "function": "att2:advancement/test_all/collection/lost_past",
         "experience": 5000
