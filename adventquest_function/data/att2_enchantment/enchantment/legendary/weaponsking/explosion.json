@@ -21,7 +21,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "att2:gameplay/legendary/weaponsking/throw_atk/explosion"
+          "function": "att2:gameplay/legendary/weaponsking/throw_atk/throw_explosion"
         }
       }
     ]

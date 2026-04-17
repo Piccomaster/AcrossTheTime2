@@ -3,7 +3,7 @@
 #Initialize bossbar health Pool3 Arena1							#
 #################################################################
 
-bossbar add minecraft:pool3_a1
+bossbar add minecraft:pool3_a1 ""
 bossbar set minecraft:pool3_a1 style notched_12
 bossbar set minecraft:pool3_a1 players @a
 bossbar set minecraft:pool3_a1 color purple

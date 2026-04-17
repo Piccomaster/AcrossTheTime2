@@ -3,7 +3,7 @@
 #Initialize bossbar health Pool2 Arena2							#
 #################################################################
 
-bossbar add minecraft:pool2_a2
+bossbar add minecraft:pool2_a2 ""
 bossbar set minecraft:pool2_a2 style notched_12
 bossbar set minecraft:pool2_a2 players @a
 bossbar set minecraft:pool2_a2 color purple

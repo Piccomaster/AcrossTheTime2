@@ -7,9 +7,8 @@
 scoreboard players add @s LIFETIME 1
 
 ##speed
-execute if score #LIFETIME LIFETIME matches ..20 run data modify entity @s teleport_duration set value 3
-execute if score #LIFETIME LIFETIME matches 21..40 run data modify entity @s teleport_duration set value 2
-execute if score #LIFETIME LIFETIME matches 41..100 run data modify entity @s teleport_duration set value 1
+execute if score #LIFETIME LIFETIME matches ..30 run data modify entity @s teleport_duration set value 3
+execute if score #LIFETIME LIFETIME matches 31..100 run data modify entity @s teleport_duration set value 2
 execute if score #LIFETIME LIFETIME matches 101.. run data modify entity @s teleport_duration set value 3
 ##Glowing
 execute if score #LIFETIME LIFETIME matches ..100 run data modify entity @s Glowing set value false
