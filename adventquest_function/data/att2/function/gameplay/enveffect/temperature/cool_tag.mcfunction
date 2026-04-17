@@ -13,5 +13,5 @@ scoreboard players operation @s ENTEMPERATURE = #Total TEMPERATURE
 ##effect health
 effect give @s minecraft:poison 5 0 true
 ##tip
-tellraw @s [{translate:"att2.temperature.overcooling"}]
+tellraw @s [{translate:"att2.temperature.overcooling",color:"#42D3F2"}]
 tellraw @s ["Total",{score:{name:"#Total",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]

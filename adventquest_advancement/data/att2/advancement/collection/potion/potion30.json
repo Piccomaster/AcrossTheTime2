@@ -30,7 +30,7 @@
     "announce_to_chat": true,
     "frame": "task"
   },
-  "parent": "att2:collection/potion/root",
+  "parent": "att2:collection/all/potion",
   "rewards": {
     "function": "att2:advancement/test_all/collection/potion/com"
   },

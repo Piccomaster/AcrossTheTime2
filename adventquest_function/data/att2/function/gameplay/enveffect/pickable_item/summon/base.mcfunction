@@ -35,6 +35,6 @@ execute if score #Rotation PickableItem matches 5 run function att2:gameplay/env
 execute if score #Rotation PickableItem matches 6 run function att2:gameplay/enveffect/pickable_item/summon/facing/west
 
 #clear
-execute at @n[distance=..10,type=interaction,tag=New,tag=PickableItem] as @e[distance=..1,type=minecraft:interaction,tag=!New,tag=PickableItem] run function att2:gameplay/enveffect/pickable_item/trigger/clear
+execute at @n[distance=..10,type=interaction,tag=New,tag=PickableItem] as @e[distance=..0.5,type=minecraft:interaction,tag=!New,tag=PickableItem] run function att2:gameplay/enveffect/pickable_item/trigger/clear
 ##remove tag
 tag @e[distance=..10,type=#minecraft:display_entity,tag=New,tag=PickableItem] remove New
