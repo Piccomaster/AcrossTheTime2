@@ -8,9 +8,9 @@
 ##################Ryliath
 
 ##TYRGOLS
-#execute in overworld positioned -5044.50 76.00 -5054.50 run kill @e[distance=..1,type=#minecraft:pnj]
-#execute in overworld positioned -5044.50 76.00 -5054.50 run kill @e[distance=..1,type=wolf]
-#execute in overworld positioned -5044.50 76.00 -5054.50 run kill @e[distance=..1,type=interaction]
+#execute in overworld positioned -4891.50 72.00 -5016.50 run kill @e[distance=..1,type=#minecraft:pnj]
+#execute in overworld positioned -4891.50 72.00 -5016.50 run kill @e[distance=..1,type=wolf]
+#execute in overworld positioned -4891.50 72.00 -5016.50 run kill @e[distance=..1,type=interaction]
 execute in overworld run summon minecraft:zombified_piglin -4891.50 72.00 -5016.50 {Rotation:[90.0f,0.0f],data:{rotation:[90.0f,0.0f]},UUID:[I;0,826,0,826],Tags:["PNJ"],NoAI:1b,Invulnerable:1b,CustomName:[{"translate":"att2.npc.name.tyrgols_gacko"}],CustomNameVisible:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:13723136}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:13723136}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:13723136}},head:{id:"minecraft:player_head",count:1,components:{enchantments:{"att2_enchantment:tick/misc/pnj_talk":1},enchantment_glint_override:false,profile:{id:[I;-481096585,61556639,-1324157328,-1808393356],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViNWIxMzQ4YzE4YzQ5YzUwNjMzNDkwZTNjMTU3YmUyMzIxZDE0ZDIxNDM1NzY1Mzg2NjI4ODMyYmVjMDhmOSJ9fX0="}]}}}}}
 
 ##PATRICK CORTH
@@ -585,6 +585,12 @@ execute in the_nether run summon minecraft:zombified_piglin 3904.50 53.00 3871.5
 execute in the_nether run summon minecraft:zombified_piglin 3895.50 49.00 3869.50 {Rotation:[0.0f,0.0f],data:{rotation:[0.0f,0.0f]},UUID:[I;0,1338,0,1338],Tags:["PNJ","QUEST"],NoAI:1b,Invulnerable:1b,CustomName:[{"translate":"att2.npc.name.garry_traskel"}],CustomNameVisible:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:9053440}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:9053440}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:9053440}},head:{id:"minecraft:player_head",count:1,components:{enchantments:{"att2_enchantment:tick/misc/pnj_talk":1},enchantment_glint_override:false,profile:{id:[I;248012302,-1691071199,-1330586621,-1754088314],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2NjJiYTkxZTk5N2RiMWU2NjA1Yzc3MzE2NmQ1ZWRiNGI0NWJmMmVmYzIxODIyNDFjY2VlMTgzZTNmMjk0ZSJ9fX0="}]}}}}}
 
 ##################Worlest
+
+##EMERALD
+#execute in overworld positioned -4329.50 71.00 -5206.50 run kill @e[distance=..1,type=#minecraft:pnj]
+#execute in overworld positioned -4329.50 71.00 -5206.50 run kill @e[distance=..1,type=wolf]
+#execute in overworld positioned -4329.50 71.00 -5206.50 run kill @e[distance=..1,type=interaction]
+execute in overworld run summon minecraft:zombified_piglin -4329.50 71.00 -5206.50 {UUID:[I;0,90,0,90],Tags:["PNJ","QUEST"],Rotation:[-130.0f,0.0f],data:{rotation:[-130.0f,0.0f]},NoAI:1b,Invulnerable:1b,CustomName:[{"translate":"att2.npc.name.emerald"}],CustomNameVisible:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:6245701}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:6245701}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:6245701}},head:{id:"minecraft:player_head",count:1,components:{enchantments:{"att2_enchantment:tick/misc/pnj_talk":1},enchantment_glint_override:false,profile:{id:[I;1439601294,-1264237626,-2020992982,1523136302],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJmN2UxNjNiOTM4Y2NjMjRjZTQ4ZDk5MmQ0OTM4OGQzODcyODgwYWMzNjlmZmQzYzQ0OGFkNTE3ZTZmMTUyIn19fQ=="}]}}}}}
 
 ##SAMAL EPH
 #execute in overworld positioned -4656.50 19.00 -5267.5 run kill @e[distance=..1,type=#minecraft:pnj]
