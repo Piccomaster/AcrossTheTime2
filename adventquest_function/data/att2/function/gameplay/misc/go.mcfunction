@@ -6,7 +6,7 @@
 function att2:gameplay/misc/assist/go
 function att2:gameplay/misc/skin/go
 execute if score tic TIMECOUNTER matches 10..20 run function att2:gameplay/misc/dummy/go
-function att2:gameplay/misc/quest_icon/go
+#function att2:gameplay/misc/quest_icon/go
 ##itemrarity_color
 function att2:gameplay/misc/itemrarity_color/go
 ##chest particle
