@@ -10,7 +10,7 @@ execute in minecraft:overworld positioned -5188 78 -5351 if block ~ ~ ~ minecraf
 execute in minecraft:overworld positioned -5194 68 -5337 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/worlest
 execute in minecraft:overworld positioned -5149 88 -5376 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/worlest
 execute in minecraft:overworld positioned -5052 77 -5317 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/worlest
-execute in minecraft:overworld positioned -5004 77 -5228 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/worlest
+execute in minecraft:overworld positioned -5004 74 -5230 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/worlest
 execute in minecraft:overworld positioned -4963 71 -5240 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/worlest
 execute in minecraft:overworld positioned -4893 43 -5294 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/worlest
 execute in minecraft:overworld positioned -4907 61 -5232 if block ~ ~ ~ minecraft:light[level=10] run function att2:gameplay/enveffect/symbol/detection/worlest

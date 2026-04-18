@@ -36,5 +36,8 @@ execute if score #Rotation PickableItem matches 6 run function att2:gameplay/env
 
 #clear
 execute at @n[distance=..10,type=interaction,tag=New,tag=PickableItem] as @e[distance=..0.5,type=minecraft:interaction,tag=!New,tag=PickableItem] run function att2:gameplay/enveffect/pickable_item/trigger/clear
+##set_light
+execute at @n[distance=..10,type=interaction,tag=New,tag=PickableItem] unless block ~ ~ ~ air anchored eyes positioned ^ ^ ^-1 run function att2:gameplay/enveffect/pickable_item/summon/set_light
+
 ##remove tag
 tag @e[distance=..10,type=#minecraft:display_entity,tag=New,tag=PickableItem] remove New
