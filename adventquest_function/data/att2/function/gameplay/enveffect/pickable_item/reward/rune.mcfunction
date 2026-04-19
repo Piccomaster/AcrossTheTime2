@@ -4,5 +4,4 @@
 #################################################################
 
 ##loot
-loot spawn ~ ~ ~ loot att2:entities/invasion_runes_1
-loot spawn ~ ~ ~ loot att2:entities/invasion_runes_1
+execute as @p[distance=..10,tag=PickableItem] run loot spawn ~ ~ ~ loot att2:pickable_item/rune

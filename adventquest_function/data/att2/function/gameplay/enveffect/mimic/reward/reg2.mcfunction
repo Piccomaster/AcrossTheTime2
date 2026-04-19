@@ -34,6 +34,8 @@ scoreboard players operation #T CAL = reward MIMIC
 scoreboard players operation #T CAL /= 10 CAL
 scoreboard players operation #T CAL < 10 CAL
 
+scoreboard players set #Q CAL 0
+
 function att2:gameplay/misc/chesteffect/other_dropchance
 
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg2

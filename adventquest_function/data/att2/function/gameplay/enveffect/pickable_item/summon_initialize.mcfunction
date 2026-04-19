@@ -1,7 +1,3 @@
-#################################################################
-#Made by Adventquest											#
-#Initialize enveffect											#
-#################################################################
 
 execute in overworld positioned -4103 69 -5634 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:1}}}
 execute in overworld positioned -4010 77 -5565 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:3}}}
@@ -331,3 +327,673 @@ execute in overworld positioned -5210 77 -5368 run summon armor_stand ~ ~ ~ {equ
 execute in overworld positioned -5191 74 -5355 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:2}}}
 execute in overworld positioned -5187 73 -5326 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:3}}}
 execute in overworld positioned -4602 74 -5537 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:6,item:2,overlay:3}}}
+execute in overworld positioned -4638 67 -5507 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:3}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+execute in the_nether positioned 3773 35 3681 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3655 39 3669 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:2,overlay:5}}}
+execute in the_nether positioned 3620 52 3674 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:3,overlay:5}}}
+execute in the_nether positioned 3567 40 3661 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3603 24 3742 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3508 31 3755 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3461 33 3772 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3441 30 3817 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3394 34 3772 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3395 37 3785 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3432 35 3722 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3468 46 3685 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:3,overlay:5}}}
+execute in the_nether positioned 3490 32 3710 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3459 31 3737 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3461 35 3707 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3409 29 3811 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3428 29 3823 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3495 54 3844 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:6,item:1,overlay:5}}}
+execute in the_nether positioned 3503 49 3905 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3510 55 3928 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:3,overlay:5}}}
+execute in the_nether positioned 3582 55 3903 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:6,item:3,overlay:5}}}
+execute in the_nether positioned 3588 45 3935 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:4,item:1,overlay:5}}}
+execute in the_nether positioned 3618 61 3935 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:6,item:2,overlay:5}}}
+execute in the_nether positioned 3632 54 3976 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:2,overlay:5}}}
+execute in the_nether positioned 3648 37 3996 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3716 65 3967 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:5,item:3,overlay:5}}}
+execute in the_nether positioned 3760 59 3951 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:3,item:2,overlay:5}}}
+execute in the_nether positioned 3813 36 3933 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3809 51 3895 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:2,overlay:5}}}
+execute in the_nether positioned 3881 54 3830 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3906 63 3803 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:5,item:3,overlay:5}}}
+execute in the_nether positioned 3925 85 3823 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:6,item:3,overlay:5}}}
+execute in the_nether positioned 3919 41 3814 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:3,overlay:5}}}
+execute in the_nether positioned 3933 31 3817 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3898 24 3843 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:5,item:1,overlay:5}}}
+execute in the_nether positioned 3913 26 3859 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:6,item:1,overlay:5}}}
+execute in the_nether positioned 3883 45 3868 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3873 55 3890 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:2,overlay:5}}}
+execute in the_nether positioned 3956 45 3889 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3930 46 3895 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3913 78 3877 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:3,item:1,overlay:5}}}
+execute in the_nether positioned 3920 47 3901 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:3,item:1,overlay:5}}}
+execute in the_nether positioned 3885 44 3900 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:2,overlay:5}}}
+execute in the_nether positioned 3919 93 4093 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:2,overlay:5}}}
+execute in the_nether positioned 3921 93 4096 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3736 72 3982 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:3,overlay:5}}}
+execute in the_nether positioned 3631 41 4026 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3637 45 4057 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:4,item:1,overlay:5}}}
+execute in the_nether positioned 3692 68 4076 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:4,item:2,overlay:5}}}
+execute in the_nether positioned 3604 42 4069 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3571 63 4066 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:4,item:2,overlay:5}}}
+execute in the_nether positioned 3514 40 4050 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:2,overlay:5}}}
+execute in the_nether positioned 3482 23 4024 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:4,item:2,overlay:5}}}
+execute in the_nether positioned 3536 41 4098 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3524 39 4164 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3529 39 4254 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3530 39 4334 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3525 39 4414 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3519 39 4455 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+execute in the_nether positioned 3445 70 4533 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:2,overlay:5}}}
+execute in the_nether positioned 3440 77 4516 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:3,overlay:5}}}
+execute in the_nether positioned 3618 72 4512 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:4,item:1,overlay:5}}}
+execute in the_nether positioned 3579 43 4558 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:5}}}
+execute in the_nether positioned 3657 78 4557 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:3,overlay:5}}}
+execute in the_nether positioned 3608 53 4528 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:5,item:1,overlay:5}}}
+execute in the_nether positioned 3662 71 4482 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:2,overlay:5}}}
+execute in the_nether positioned 3649 74 4570 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:6,item:3,overlay:5}}}
+execute in the_nether positioned 3637 60 4567 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:2,item:3,overlay:5}}}
+execute in the_nether positioned 3601 59 4574 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:4,item:1,overlay:5}}}
+execute in the_nether positioned 3576 45 4571 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:5,item:1,overlay:5}}}
+execute in the_nether positioned 3465 34 4480 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:5}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
