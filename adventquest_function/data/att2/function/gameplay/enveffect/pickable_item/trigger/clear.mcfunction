@@ -6,5 +6,4 @@
 ##sound
 playsound minecraft:entity.horse.saddle ambient @a ~ ~ ~ 1 0.5
 ##clear entity
-execute on passengers run kill @s[tag=PickableItem]
-kill @s[tag=PickableItem]
+kill @e[distance=..10,type=#minecraft:display_entity,tag=!New,tag=PickableItem]

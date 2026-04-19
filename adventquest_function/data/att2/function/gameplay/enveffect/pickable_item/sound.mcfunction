@@ -21,3 +21,9 @@ execute if score #Overlay CAL matches 5 run return run playsound minecraft:block
 execute if score #Overlay CAL matches 6 run return run playsound minecraft:block.stone.break block @a ~ ~ ~ 1 1
 ##ouranos_stone
 execute if score #Overlay CAL matches 7 run return run playsound minecraft:block.stone.break block @a ~ ~ ~ 1 1
+##yellow_sand
+execute if score #Overlay CAL matches 8 run return run playsound minecraft:block.sand.break block @a ~ ~ ~ 1 1
+##red_sand
+execute if score #Overlay CAL matches 9 run return run playsound minecraft:block.sand.break block @a ~ ~ ~ 1 1
+##brick
+execute if score #Overlay CAL matches 9 run return run playsound minecraft:block.stone.break block @a ~ ~ ~ 1 1

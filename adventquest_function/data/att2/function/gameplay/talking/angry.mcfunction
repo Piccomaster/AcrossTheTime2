@@ -3,7 +3,7 @@
 #Use function to process the update of Talking movement system 		#
 #####################################################################
 
-rotate @s facing entity @p[distance=..10] feet
+rotate @s facing entity @p[distance=..10,gamemode=adventure] feet
 
 execute at @s run rotate @s[scores={TALKING=109..111}] facing ^ ^0.052 ^1
 execute at @s run rotate @s[scores={TALKING=112..114}] facing ^-0.017 ^-0.069 ^1

@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/chronoton/esc"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": {
+                    "type": "score",
+                    "score": "LUC_TOT",
+                    "target": "this",
+                    "scale": 0.5
+                }
+            },
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 1
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/chronoton/esc"
+                }
+            ]
+        }
+    ]
+}

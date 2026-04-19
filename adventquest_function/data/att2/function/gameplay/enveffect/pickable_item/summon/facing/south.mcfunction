@@ -5,9 +5,9 @@
 
 ##rotate
 execute as @e[distance=..10,type=#minecraft:display_entity,tag=New,tag=PickableItem] run rotate @s 180 0
-##transformation
-execute as @e[distance=..10,type=minecraft:item_display,tag=New,tag=PickableItem] run data modify entity @s transformation set value {scale:[1.0f,1.0f,1.0f],translation:[0.0f,-0.5f,-0.5f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]}
 ##width/height
 data merge entity @n[distance=..10,type=minecraft:interaction,tag=New,tag=PickableItem] {height:1,width:1}
 ##position
 execute align xyz positioned ~0.5 ~ ~0.540 as @n[distance=..10,type=minecraft:interaction,tag=New,tag=PickableItem] run tp @s ~ ~ ~ 
+##tp item_display
+execute as @n[distance=..10,type=minecraft:interaction,tag=New,tag=PickableItem] at @s anchored eyes positioned ^ ^-0.35 ^-0.49 run tp @e[distance=..10,type=minecraft:item_display,tag=New,tag=PickableItem] ~ ~ ~ ~ ~

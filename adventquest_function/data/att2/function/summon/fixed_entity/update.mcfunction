@@ -3,12 +3,11 @@ execute as @s run scoreboard players set update_loop SYSTEM 0
 ##add score
 scoreboard players add update_loop SYSTEM 1
 ##loop
-execute if score update_loop SYSTEM matches 1..81 run schedule function att2:summon/fixed_entity/update 10t append
-
+execute if score update_loop SYSTEM matches 1..188 run schedule function att2:summon/fixed_entity/update 10t append
 ##update
 function att2:summon/fixed_entity/map_art
+function att2:summon/fixed_entity/pnj_clear
 
-##tp
 execute if score update_loop SYSTEM matches 1 in minecraft:overworld run tp @a -5056 76 -5055
 execute if score update_loop SYSTEM matches 2 in minecraft:overworld run tp @a -5046 78 -5049
 execute if score update_loop SYSTEM matches 3 in minecraft:overworld run tp @a -5078 80 -5038
@@ -91,8 +90,112 @@ execute if score update_loop SYSTEM matches 79 in minecraft:the_nether run tp @a
 execute if score update_loop SYSTEM matches 80 in minecraft:the_nether run tp @a 3444 40 3784
 execute if score update_loop SYSTEM matches 81 in minecraft:the_nether run tp @a -3818 88 -5800
 execute if score update_loop SYSTEM matches 82 in minecraft:the_nether run tp @a 3398 38 3758
+execute if score update_loop SYSTEM matches 83 in minecraft:overworld run tp @a -4892 72 -5016
+execute if score update_loop SYSTEM matches 84 in minecraft:overworld run tp @a -5044 76 -5054
+execute if score update_loop SYSTEM matches 85 in minecraft:overworld run tp @a -5082 77 -5030
+execute if score update_loop SYSTEM matches 86 in minecraft:overworld run tp @a -5100 77 -5052
+execute if score update_loop SYSTEM matches 87 in minecraft:overworld run tp @a -5120 77 -5042
+execute if score update_loop SYSTEM matches 88 in minecraft:overworld run tp @a -5134 77 -5032
+execute if score update_loop SYSTEM matches 89 in minecraft:overworld run tp @a -5102 78 -5020
+execute if score update_loop SYSTEM matches 90 in minecraft:overworld run tp @a -5070 82 -5008
+execute if score update_loop SYSTEM matches 91 in minecraft:overworld run tp @a -5076 88 -5020
+execute if score update_loop SYSTEM matches 92 in minecraft:overworld run tp @a -5028 91 -4964
+execute if score update_loop SYSTEM matches 93 in minecraft:overworld run tp @a -5002 91 -4990
+execute if score update_loop SYSTEM matches 94 in minecraft:overworld run tp @a -4916 90 -4966
+execute if score update_loop SYSTEM matches 95 in minecraft:overworld run tp @a -4912 90 -4988
+execute if score update_loop SYSTEM matches 96 in minecraft:overworld run tp @a -4928 83 -4994
+execute if score update_loop SYSTEM matches 97 in minecraft:overworld run tp @a -4962 77 -5018
+execute if score update_loop SYSTEM matches 98 in minecraft:overworld run tp @a -4980 78 -5034
+execute if score update_loop SYSTEM matches 99 in minecraft:overworld run tp @a -4972 77 -5030
+execute if score update_loop SYSTEM matches 100 in minecraft:overworld run tp @a -5005 76 -5032
+execute if score update_loop SYSTEM matches 101 in minecraft:overworld run tp @a -5024 75 -5054
+execute if score update_loop SYSTEM matches 102 in minecraft:overworld run tp @a -5052 75 -5076
+execute if score update_loop SYSTEM matches 103 in minecraft:overworld run tp @a -5128 73 -5130
+execute if score update_loop SYSTEM matches 104 in minecraft:overworld run tp @a -3758 104 -5809
+execute if score update_loop SYSTEM matches 105 in minecraft:overworld run tp @a -3762 95 -5804
+execute if score update_loop SYSTEM matches 106 in minecraft:overworld run tp @a -3816 85 -5808
+execute if score update_loop SYSTEM matches 107 in minecraft:overworld run tp @a -3806 70 -5824
+execute if score update_loop SYSTEM matches 108 in minecraft:overworld run tp @a -3806 70 -5858
+execute if score update_loop SYSTEM matches 109 in minecraft:overworld run tp @a -3796 71 -5878
+execute if score update_loop SYSTEM matches 110 in minecraft:overworld run tp @a -3782 80 -5902
+execute if score update_loop SYSTEM matches 111 in minecraft:overworld run tp @a -3774 94 -5906
+execute if score update_loop SYSTEM matches 112 in minecraft:overworld run tp @a -3760 98 -5908
+execute if score update_loop SYSTEM matches 113 in minecraft:overworld run tp @a -3882 102 -5914
+execute if score update_loop SYSTEM matches 114 in minecraft:overworld run tp @a -4180 70 -5974
+execute if score update_loop SYSTEM matches 115 in minecraft:overworld run tp @a -4386 69 -5810
+execute if score update_loop SYSTEM matches 116 in minecraft:overworld run tp @a -4712 71 -5666
+execute if score update_loop SYSTEM matches 117 in minecraft:overworld run tp @a -4962 81 -5662
+execute if score update_loop SYSTEM matches 118 in minecraft:overworld run tp @a -4972 100 -5782
+execute if score update_loop SYSTEM matches 119 in minecraft:overworld run tp @a -4968 95 -5802
+execute if score update_loop SYSTEM matches 120 in minecraft:overworld run tp @a -5250 101 -6222
+execute if score update_loop SYSTEM matches 121 in minecraft:overworld run tp @a -5272 101 -6236
+execute if score update_loop SYSTEM matches 122 in minecraft:overworld run tp @a -5288 101 -6234
+execute if score update_loop SYSTEM matches 123 in minecraft:overworld run tp @a -5270 101 -6230
+execute if score update_loop SYSTEM matches 124 in minecraft:overworld run tp @a -5288 101 -6218
+execute if score update_loop SYSTEM matches 125 in minecraft:overworld run tp @a -5272 101 -6210
+execute if score update_loop SYSTEM matches 126 in minecraft:overworld run tp @a -5298 93 -6194
+execute if score update_loop SYSTEM matches 127 in minecraft:overworld run tp @a -5272 98 -6188
+execute if score update_loop SYSTEM matches 128 in minecraft:overworld run tp @a -5306 102 -6204
+execute if score update_loop SYSTEM matches 129 in minecraft:overworld run tp @a -5326 108 -6236
+execute if score update_loop SYSTEM matches 130 in minecraft:overworld run tp @a -5328 105 -6266
+execute if score update_loop SYSTEM matches 131 in minecraft:overworld run tp @a -5346 108 -6296
+execute if score update_loop SYSTEM matches 132 in minecraft:overworld run tp @a -5276 105 -6326
+execute if score update_loop SYSTEM matches 133 in minecraft:overworld run tp @a -5296 111 -6286
+execute if score update_loop SYSTEM matches 134 in minecraft:overworld run tp @a -5304 111 -6296
+execute if score update_loop SYSTEM matches 135 in minecraft:overworld run tp @a -5286 111 -6298
+execute if score update_loop SYSTEM matches 136 in minecraft:overworld run tp @a -5278 126 -6334
+execute if score update_loop SYSTEM matches 137 in minecraft:overworld run tp @a -5262 105 -6284
+execute if score update_loop SYSTEM matches 138 in minecraft:overworld run tp @a -3592 72 -5014
+execute if score update_loop SYSTEM matches 139 in minecraft:overworld run tp @a -3690 75 -5006
+execute if score update_loop SYSTEM matches 140 in minecraft:overworld run tp @a -5464 52 -4706
+execute if score update_loop SYSTEM matches 141 in minecraft:overworld run tp @a -5474 76 -4726
+execute if score update_loop SYSTEM matches 142 in minecraft:overworld run tp @a -5456 62 -4770
+execute if score update_loop SYSTEM matches 143 in minecraft:overworld run tp @a -5426 66 -4752
+execute if score update_loop SYSTEM matches 144 in minecraft:overworld run tp @a -5404 66 -4738
+execute if score update_loop SYSTEM matches 145 in minecraft:overworld run tp @a -5388 61 -4688
+execute if score update_loop SYSTEM matches 146 in minecraft:overworld run tp @a -5408 49 -4658
+execute if score update_loop SYSTEM matches 147 in minecraft:overworld run tp @a -5418 49 -4650
+execute if score update_loop SYSTEM matches 148 in minecraft:overworld run tp @a -5440 49 -4666
+execute if score update_loop SYSTEM matches 149 in minecraft:overworld run tp @a -5472 49 -4644
+execute if score update_loop SYSTEM matches 150 in minecraft:overworld run tp @a -5428 55 -4716
+execute if score update_loop SYSTEM matches 151 in minecraft:the_nether run tp @a 3500 45 4494
+execute if score update_loop SYSTEM matches 152 in minecraft:the_nether run tp @a 3472 34 3716
+execute if score update_loop SYSTEM matches 153 in minecraft:the_nether run tp @a 3430 35 3730
+execute if score update_loop SYSTEM matches 154 in minecraft:the_nether run tp @a 3460 35 3722
+execute if score update_loop SYSTEM matches 155 in minecraft:the_nether run tp @a 3438 32 3746
+execute if score update_loop SYSTEM matches 156 in minecraft:the_nether run tp @a 3422 32 3744
+execute if score update_loop SYSTEM matches 157 in minecraft:the_nether run tp @a 3442 36 3792
+execute if score update_loop SYSTEM matches 158 in minecraft:the_nether run tp @a 3490 60 3772
+execute if score update_loop SYSTEM matches 159 in minecraft:the_nether run tp @a 3496 57 3764
+execute if score update_loop SYSTEM matches 160 in minecraft:the_nether run tp @a 3886 49 3892
+execute if score update_loop SYSTEM matches 161 in minecraft:the_nether run tp @a 3898 49 3908
+execute if score update_loop SYSTEM matches 162 in minecraft:the_nether run tp @a 3926 46 3904
+execute if score update_loop SYSTEM matches 163 in minecraft:the_nether run tp @a 3912 82 3872
+execute if score update_loop SYSTEM matches 164 in minecraft:the_nether run tp @a 3920 71 3878
+execute if score update_loop SYSTEM matches 165 in minecraft:the_nether run tp @a 3904 53 3872
+execute if score update_loop SYSTEM matches 166 in minecraft:the_nether run tp @a 3896 49 3870
+execute if score update_loop SYSTEM matches 167 in minecraft:overworld run tp @a -4330 71 -5206
+execute if score update_loop SYSTEM matches 168 in minecraft:overworld run tp @a -4656 19 -5268
+execute if score update_loop SYSTEM matches 169 in minecraft:overworld run tp @a -4720 72 -5120
+execute if score update_loop SYSTEM matches 170 in minecraft:overworld run tp @a -4612 72 -5454
+execute if score update_loop SYSTEM matches 171 in minecraft:overworld run tp @a -4578 74 -5426
+execute if score update_loop SYSTEM matches 172 in minecraft:overworld run tp @a -4678 72 -5438
+execute if score update_loop SYSTEM matches 173 in minecraft:overworld run tp @a -5548 71 -5154
+execute if score update_loop SYSTEM matches 174 in minecraft:overworld run tp @a -5458 72 -5074
+execute if score update_loop SYSTEM matches 175 in minecraft:overworld run tp @a -5520 76 -4986
+execute if score update_loop SYSTEM matches 176 in minecraft:overworld run tp @a 7600 107 6726
+execute if score update_loop SYSTEM matches 177 in minecraft:overworld run tp @a 7352 120 7366
+execute if score update_loop SYSTEM matches 178 in minecraft:overworld run tp @a 7350 120 7318
+execute if score update_loop SYSTEM matches 179 in minecraft:overworld run tp @a 7366 120 7340
+execute if score update_loop SYSTEM matches 180 in minecraft:overworld run tp @a 7208 145 7310
+execute if score update_loop SYSTEM matches 181 in minecraft:overworld run tp @a 7302 158 7222
+execute if score update_loop SYSTEM matches 182 in minecraft:overworld run tp @a 7154 99 7292
+execute if score update_loop SYSTEM matches 183 in minecraft:overworld run tp @a 30010 77 29944
+execute if score update_loop SYSTEM matches 184 in minecraft:overworld run tp @a 29998 91 30030
+execute if score update_loop SYSTEM matches 185 in minecraft:overworld run tp @a 29960 109 30050
+execute if score update_loop SYSTEM matches 186 in minecraft:the_end run tp @a -1050 24 -608
 
 #end
-execute if score update_loop SYSTEM matches 82.. run say Over
-execute if score update_loop SYSTEM matches 82.. run schedule clear function att2:summon/fixed_entity/update
-execute if score update_loop SYSTEM matches 82.. run scoreboard players set update_loop SYSTEM 0
+execute if score update_loop SYSTEM matches 190.. run say Over
+execute if score update_loop SYSTEM matches 190.. run schedule clear function att2:summon/fixed_entity/update
+execute if score update_loop SYSTEM matches 190.. run scoreboard players set update_loop SYSTEM 0

@@ -4,6 +4,4 @@
 #################################################################
 
 ##loot
-loot spawn ~ ~ ~ loot att2:entities/boss/coins_rewards
-loot spawn ~ ~ ~ loot att2:item_data/chronoton/small
-loot spawn ~ ~ ~ loot att2:item_data/chronoton/big
+execute as @p[distance=..10,tag=PickableItem] run loot spawn ~ ~ ~ loot att2:pickable_item/chronoton

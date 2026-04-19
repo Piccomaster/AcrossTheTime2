@@ -15,3 +15,10 @@ execute if score @s MIMIC matches 20..39 run particle dust{color:[0.333,0.333,1.
 execute if score @s MIMIC matches 40..59 run particle dust{color:[0.667,0.0,0.667],scale:0.4} ~ ~ ~ 0.5 0.5 0.5 0 20
 execute if score @s MIMIC matches 60..79 run particle dust{color:[1.0,0.667,0.0],scale:0.4} ~ ~ ~ 0.5 0.5 0.5 0 20
 execute if score @s MIMIC matches 80.. run particle dust{color:[0.333,1.0,0.333],scale:0.4} ~ ~ ~ 0.5 0.5 0.5 0 20
+
+
+##clear
+execute if entity @a[distance=..80] run return fail
+
+execute on passengers run kill @s
+kill @s

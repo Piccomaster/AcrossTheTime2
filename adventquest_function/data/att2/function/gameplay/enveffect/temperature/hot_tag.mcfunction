@@ -11,7 +11,9 @@ tag @s remove Cool
 ##snyc score
 scoreboard players operation @s ENTEMPERATURE = #Total TEMPERATURE
 ##effect health
-effect give @s minecraft:wither 3 1 true
+effect give @s minecraft:poison 5 0 true
+##remove health
+scoreboard players remove @s HER_VALUE 40000
 ##tip
 tellraw @s [{translate:"att2.temperature.overheating",color:"#F54927"}]
 tellraw @s ["Total",{score:{name:"#Total",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]
