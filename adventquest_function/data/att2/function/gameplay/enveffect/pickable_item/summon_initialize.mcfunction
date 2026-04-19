@@ -328,16 +328,16 @@ execute in overworld positioned -5191 74 -5355 run summon armor_stand ~ ~ ~ {equ
 execute in overworld positioned -5187 73 -5326 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:3}}}
 execute in overworld positioned -4602 74 -5537 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:6,item:2,overlay:3}}}
 execute in overworld positioned -4638 67 -5507 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:3}}}
-
-
-
-
-
-
-
-
-
-
+execute in overworld positioned -4529 59 -4552 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:3,overlay:1}}}
+execute in overworld positioned -4343 71 -5133 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:1}}}
+execute in overworld positioned -4357 92 -5026 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:3}}}
+execute in overworld positioned -4959 89 -5013 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:2}}}
+execute in overworld positioned -4935 90 -4977 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:2}}}
+execute in overworld positioned -4938 94 -4946 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:2}}}
+execute in overworld positioned -4994 103 -4964 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:1}}}
+execute in overworld positioned -5044 76 -5058 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:4,item:1,overlay:3}}}
+execute in overworld positioned -4924 71 -5007 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:3}}}
+execute in overworld positioned -4894 71 -5020 run summon armor_stand ~ ~ ~ {equipment:{head:{id:diamond,components:{item_model:"nothing",enchantments:{"att2_enchantment:tick/misc/pickable_item":1}}}},Marker:true,Invisible:true,attribute:[{id:scale,base:0.01}],data:{pickable_item:{rotation:1,item:1,overlay:3}}}
 
 
 

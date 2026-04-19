@@ -1,6 +1,16 @@
 {
     "pools": [
         {
+            "rolls": 3,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/chronoton/small"
+                }
+            ]
+        },
+        {
             "rolls": {
                 "min": {
                     "type": "score",
