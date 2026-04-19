@@ -10,4 +10,4 @@ execute as @e[distance=..10,type=minecraft:item_display,tag=New,tag=PickableItem
 ##width/height
 data merge entity @n[distance=..10,type=minecraft:interaction,tag=New,tag=PickableItem] {height:1,width:1}
 ##position
-execute align xyz positioned ~0.460 ~ ~0.5 as @n[distance=..10,type=minecraft:interaction,tag=New,tag=PickableItem] run tp @s ~ ~ ~ 
+execute align xyz positioned ~0.450 ~ ~0.5 as @n[distance=..10,type=minecraft:interaction,tag=New,tag=PickableItem] run tp @s ~ ~ ~ 
