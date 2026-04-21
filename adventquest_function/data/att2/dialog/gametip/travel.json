@@ -17,11 +17,11 @@
       "contents": [
         {
           "text": "1.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.travel.27",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "contents": [
         {
           "text": "2.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.travel.28",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     }

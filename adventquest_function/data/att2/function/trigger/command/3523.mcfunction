@@ -1,0 +1,1 @@
+function att2:gameplay/enchantment/show_interaction/wrath_accumulator

@@ -5,6 +5,8 @@
 
 ##add tag
 tag @s add Select
+tag @s add Show
+
 ##test open
 execute unless data block ~ ~ ~ LootTable run function att2:advancement/test_all/secret/shulker_test
 execute unless data block ~ ~ ~ LootTable run return run scoreboard players set @s CHESTEFFECT -100

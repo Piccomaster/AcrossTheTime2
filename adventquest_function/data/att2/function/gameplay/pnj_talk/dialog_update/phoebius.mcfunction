@@ -30,4 +30,5 @@ scoreboard players set 00000000-0000-050a-0000-00000000050a TALKING 1
 scoreboard players set 00000000-0000-050a-0000-00000000050a TALKING_TIMER 200
 
 
+scoreboard players set @s PNJID 111
 function att2:advancement/test_all/journey/pnj

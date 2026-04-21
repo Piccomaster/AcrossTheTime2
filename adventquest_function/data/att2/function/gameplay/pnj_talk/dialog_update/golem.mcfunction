@@ -12,4 +12,5 @@ execute if score golem_PNJ DIALOG matches 3 as @a[x=-863,y=70,z=-641,distance=..
 execute if score golem_PNJ DIALOG matches 2 as @a[x=-863,y=70,z=-641,distance=..10,gamemode=adventure] run function att2:dialogs/mainquest/act_4/pnj_golem/dialog_2
 execute if score golem_PNJ DIALOG matches 1 as @a[x=-863,y=70,z=-641,distance=..10,gamemode=adventure] run function att2:dialogs/mainquest/act_4/pnj_golem/dialog_1
 
+scoreboard players set @s PNJID 64
 function att2:advancement/test_all/journey/pnj
