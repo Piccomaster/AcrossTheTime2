@@ -62,14 +62,19 @@ scoreboard players set #Desert TEMPERATURE 0
 execute if score #Environment TEMPERATURE matches 100.. run scoreboard players set #Desert TEMPERATURE 1
 execute if score #Environment TEMPERATURE matches 100.. run scoreboard players remove #Environment TEMPERATURE 100
 execute if score tic DAYTIME matches 13000..23000 if score #Desert TEMPERATURE matches 1.. run scoreboard players operation #Environment TEMPERATURE *= -1 CAL
-scoreboard players operation #Total TEMPERATURE += #Environment TEMPERATURE
 # If day, highter temperature
-execute if score tic DAYTIME matches 1000..11000 run scoreboard players add #Total TEMPERATURE 1
+execute if score tic DAYTIME matches 0..5000 run scoreboard players add #Environment TEMPERATURE 1
+execute if score tic DAYTIME matches 5000..9000 run scoreboard players add #Environment TEMPERATURE 3
+execute if score tic DAYTIME matches 9000..11000 run scoreboard players add #Environment TEMPERATURE 2
 # If night, lower temperature
-execute if score tic DAYTIME matches 13000..23000 run scoreboard players remove #Total TEMPERATURE 1
+execute if score tic DAYTIME matches 11000..16000 run scoreboard players remove #Environment TEMPERATURE 1
+execute if score tic DAYTIME matches 16000..20000 run scoreboard players remove #Environment TEMPERATURE 3
+execute if score tic DAYTIME matches 20000..22000 run scoreboard players remove #Environment TEMPERATURE 2
+
 ##sum
+scoreboard players operation #Total TEMPERATURE += #Environment TEMPERATURE
 scoreboard players operation @s TEMPERATURE += #Total TEMPERATURE
 #tellraw @s ["Total",{score:{name:"#Total",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]
 ##add tag
-execute as @s[scores={TEMPERATURE=200..},tag=!Hot] run function att2:gameplay/enveffect/temperature/hot_tag
-execute as @s[scores={TEMPERATURE=..-200},tag=!Cool] run function att2:gameplay/enveffect/temperature/cool_tag
+execute as @s[scores={TEMPERATURE=250..},tag=!Hot] run function att2:gameplay/enveffect/temperature/hot_tag
+execute as @s[scores={TEMPERATURE=..-250},tag=!Cool] run function att2:gameplay/enveffect/temperature/cool_tag

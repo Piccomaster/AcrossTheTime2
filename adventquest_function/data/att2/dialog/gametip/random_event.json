@@ -17,11 +17,11 @@
       "contents": [
         {
           "text": "1.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.random_event.90",
-          "color": "#FA8C16"
+          "translate": "att2.assist.random_event.92",
+          "color": "gray"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "contents": [
         {
           "text": "2.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.random_event.91",
-          "color": "#FA8C16"
+          "translate": "att2.assist.random_event.93",
+          "color": "gray"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "contents": [
         {
           "text": "3.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.random_event.92",
-          "color": "#FA8C16"
+          "translate": "att2.assist.random_event.94",
+          "color": "gray"
         }
       ]
     },
@@ -59,11 +59,11 @@
       "contents": [
         {
           "text": "4.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.random_event.93",
-          "color": "#FA8C16"
+          "translate": "att2.assist.random_event.95",
+          "color": "gray"
         }
       ]
     }

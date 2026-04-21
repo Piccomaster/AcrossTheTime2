@@ -23,3 +23,5 @@ execute if score #Overlay PickableItem matches 8 run return run data modify enti
 execute if score #Overlay PickableItem matches 9 run return run data modify entity @n[distance=..10,type=item_display,tag=New,tag=PickableItem,tag=Overlay] item.components."minecraft:item_model" set value "pickable_item/overlay/red_sand"
 ##brick
 execute if score #Overlay PickableItem matches 10 run return run data modify entity @n[distance=..10,type=item_display,tag=New,tag=PickableItem,tag=Overlay] item.components."minecraft:item_model" set value "pickable_item/overlay/brick"
+##snow
+execute if score #Overlay PickableItem matches 11 run return run data modify entity @n[distance=..10,type=item_display,tag=New,tag=PickableItem,tag=Overlay] item.components."minecraft:item_model" set value "pickable_item/overlay/snow"

@@ -17,11 +17,11 @@
       "contents": [
         {
           "text": "1.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.106",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.108",
+          "color": "gray"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "contents": [
         {
           "text": "2.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.107",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.109",
+          "color": "gray"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "contents": [
         {
           "text": "3.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.108",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.110",
+          "color": "gray"
         }
       ]
     },
@@ -59,11 +59,11 @@
       "contents": [
         {
           "text": "4.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.109",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.111",
+          "color": "gray"
         }
       ]
     },
@@ -73,11 +73,11 @@
       "contents": [
         {
           "text": "5.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.110",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.112",
+          "color": "gray"
         }
       ]
     },
@@ -87,11 +87,11 @@
       "contents": [
         {
           "text": "6.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.111",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.113",
+          "color": "gray"
         }
       ]
     },
@@ -101,11 +101,11 @@
       "contents": [
         {
           "text": "7.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.112",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.114",
+          "color": "gray"
         }
       ]
     },
@@ -115,11 +115,11 @@
       "contents": [
         {
           "text": "8.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.113",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.115",
+          "color": "gray"
         }
       ]
     },
@@ -129,11 +129,11 @@
       "contents": [
         {
           "text": "9.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.114",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.116",
+          "color": "gray"
         }
       ]
     },
@@ -143,11 +143,11 @@
       "contents": [
         {
           "text": "10.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.115",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.117",
+          "color": "gray"
         }
       ]
     },
@@ -157,11 +157,11 @@
       "contents": [
         {
           "text": "11.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.116",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.118",
+          "color": "gray"
         }
       ]
     },
@@ -171,11 +171,25 @@
       "contents": [
         {
           "text": "12.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
-          "translate": "att2.assist.gameplay.117",
-          "color": "#FA8C16"
+          "translate": "att2.assist.gameplay.119",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "13.",
+          "color": "white"
+        },
+        {
+          "translate": "att2.assist.gameplay.120",
+          "color": "gray"
         }
       ]
     }

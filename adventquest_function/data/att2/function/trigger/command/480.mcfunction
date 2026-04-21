@@ -1,1 +1,1 @@
-execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/misc/health_arrow_2
+execute as @s at @e[distance=..7,type=#minecraft:pnj] if score @s PNJID = @n[distance=..0,type=#minecraft:pnj] PNJID run function att2:gameplay/shop/purchase/misc/health_arrow_2

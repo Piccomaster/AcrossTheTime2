@@ -1,1 +1,0 @@
-function att2:gameplay/shop/prisoner/dark_resin/trigger

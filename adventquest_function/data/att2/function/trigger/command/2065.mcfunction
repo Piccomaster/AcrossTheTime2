@@ -1,0 +1,1 @@
+execute as @s at @e[distance=..7,type=#minecraft:pnj] if score @s PNJID = @n[distance=..0,type=#minecraft:pnj] PNJID run function att2:gameplay/shop/purchase/weapon/epi/golden_shovel_154

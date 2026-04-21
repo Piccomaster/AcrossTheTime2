@@ -9,6 +9,14 @@
 #scoreboard players set #Environment TEMPERATURE 0
 
 # -- Location
+
+#Worlest
+execute if predicate att2_pre:location/sylberland/worlest run return run scoreboard players set #Environment TEMPERATURE -1
+#Asunark
+execute if predicate att2_pre:location/sylberland/asunark run return run scoreboard players set #Environment TEMPERATURE -1
+#Meleim
+execute if predicate att2_pre:location/sylberland/around_meleim run return run scoreboard players set #Environment TEMPERATURE -1
+
 # Elchéol Mountain
 execute as @s[x=-5381,y=158,z=-6300,distance=..350] run return run scoreboard players set #Environment TEMPERATURE -2
 # Eolorion

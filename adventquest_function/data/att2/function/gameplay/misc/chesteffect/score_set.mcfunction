@@ -7,12 +7,12 @@
 
 ##get c/t
 execute store result score #C CAL run data get entity @s data.C
-tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}}]
+#tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}}]
 execute store result score #T CAL run data get entity @s data.T
-tellraw @a ["T:",{score:{name:"#T",objective:"CAL"}}]
+#tellraw @a ["T:",{score:{name:"#T",objective:"CAL"}}]
 ##get quest item
 execute store result score #Q CAL run data get entity @s data.Q
-tellraw @a ["Q:",{score:{name:"#Q",objective:"CAL"}}]
+#tellraw @a ["Q:",{score:{name:"#Q",objective:"CAL"}}]
 ##get Dimension
 execute store result score #Dimension CAL run data get entity @s data.Dimension
 

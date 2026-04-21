@@ -1,84 +1,84 @@
 {
-    "title": "",
-    "type": "minecraft:notice",
-    "pause": false,
-    "columns": 1,
-    "body": [
+  "title": "",
+  "type": "minecraft:notice",
+  "pause": false,
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "consciousness.gametip.temperature",
+        "color": "green"
+      }
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
         {
-            "type": "plain_message",
-            "contents": {
-                "translate": "consciousness.gametip.temperature",
-                "color": "green"
-            }
+          "text": "1.",
+          "color": "white"
         },
         {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "1.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.temperature.1",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "2.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.temperature.2",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "3.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.temperature.3",
-                    "color": "#FA8C16"
-                }
-            ]
-        },
-        {
-            "type": "plain_message",
-            "width": 400,
-            "contents": [
-                {
-                    "text": "4.",
-                    "color": "#FA8C16"
-                },
-                {
-                    "translate": "att2.assist.temperature.4",
-                    "color": "#FA8C16"
-                }
-            ]
+          "translate": "att2.assist.temperature.227",
+          "color": "gray"
         }
-    ],
-    "action": {
-        "label": {
-            "translate": "consciousness.menu.exit",
-            "color": "#45556C"
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "2.",
+          "color": "white"
         },
-        "tooltip": {
-            "translate": "consciousness.menu.exit.tip"
-        },
-        "action": {
-            "type": "run_command",
-            "command": "/trigger ScoreTrigger set 2327"
+        {
+          "translate": "att2.assist.temperature.228",
+          "color": "gray"
         }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "3.",
+          "color": "white"
+        },
+        {
+          "translate": "att2.assist.temperature.229",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "plain_message",
+      "width": 400,
+      "contents": [
+        {
+          "text": "4.",
+          "color": "white"
+        },
+        {
+          "translate": "att2.assist.temperature.230",
+          "color": "gray"
+        }
+      ]
     }
+  ],
+  "action": {
+    "label": {
+      "translate": "consciousness.menu.exit",
+      "color": "#45556C"
+    },
+    "tooltip": {
+      "translate": "consciousness.menu.exit.tip"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "/trigger ScoreTrigger set 2327"
+    }
+  }
 }

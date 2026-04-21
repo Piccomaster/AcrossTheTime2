@@ -19,7 +19,7 @@ execute store result score #player CAL run data get block ~ ~ ~ Items[0].compone
 ##get c/t
 
 execute store result score #C CAL run data get entity @s data.C
-tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}},"  ","T:",{score:{name:"#T",objective:"CAL"}},"  ","Q:",{score:{name:"#Q",objective:"CAL"}}]
+#tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}},"  ","T:",{score:{name:"#T",objective:"CAL"}},"  ","Q:",{score:{name:"#Q",objective:"CAL"}}]
 execute store result score #T CAL run data get entity @s data.T
 ##get quest item
 execute store result score #Q CAL run data get entity @s data.Q
@@ -56,11 +56,7 @@ execute if items block ~ ~ ~ container.* #minecraft:diamond run playsound item.a
 execute if items block ~ ~ ~ container.* #minecraft:netherite run playsound item.armor.equip_netherite block @a ~ ~ ~ 1 1
 execute if items block ~ ~ ~ container.* #minecraft:potion run playsound item.bottle.fill block @a ~ ~ ~ 1 1.5
 
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi_set}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg_armset}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:ult}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 1 1.25
+execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi}|custom_data~{Rarity:epi_set}|custom_data~{Rarity:leg}|custom_data~{Rarity:leg_armset}|custom_data~{Rarity:ult}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 2 1.25
 ##particle tip
 #com
 execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:com}] run particle minecraft:dust{color:[0.5,0.5,0.5],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
