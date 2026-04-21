@@ -7,10 +7,12 @@ function att2:gameplay/pnj_talk/dialog_playsound/elziel_salvidam
 
 scoreboard players set elziel_salvidam_PNJ statDIALOG 1
 #test entity dialog
-execute as @a[distance=..7] if score elziel_salvidam_PNJ DIALOG matches 1..1 run function att2:dialogs/others/elziel_salvidam/dialog_1
+execute if score elziel_salvidam_PNJ DIALOG matches 1..1 run function att2:dialogs/others/elziel_salvidam/dialog_1
 
 #Activation entity head movement
 scoreboard players set 00000000-0000-023a-0000-00000000023a TALKING 1
+scoreboard players set 00000000-0000-023a-0000-00000000023a PNJID 41
 scoreboard players set 00000000-0000-023a-0000-00000000023a TALKING_TIMER 300
 
+scoreboard players set @s PNJID 41
 function att2:advancement/test_all/journey/pnj

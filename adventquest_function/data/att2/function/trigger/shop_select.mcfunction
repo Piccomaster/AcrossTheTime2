@@ -1,0 +1,1 @@
+$function att2:trigger/command/shop_items_showcase/$(select)

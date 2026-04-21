@@ -17,7 +17,7 @@ data modify storage att2:any_function function set from entity @n[distance=..20,
 ##execute function
 function att2:any_function/maco with storage att2:any_function
 #sound
-playsound minecraft:entity.item.pickup ambient @s ~ ~ ~ 1 0.5
+#playsound minecraft:entity.item.pickup ambient @s ~ ~ ~ 1 0.5
 
 ##revoke test
 advancement revoke @s only att2_test:test_interacted/general_attack_trigger

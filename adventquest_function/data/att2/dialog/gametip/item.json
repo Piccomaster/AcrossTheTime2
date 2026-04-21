@@ -17,11 +17,11 @@
       "contents": [
         {
           "text": "1.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.36",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "contents": [
         {
           "text": "2.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.37",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "contents": [
         {
           "text": "3.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.38",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -59,11 +59,11 @@
       "contents": [
         {
           "text": "4.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.39",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -73,11 +73,11 @@
       "contents": [
         {
           "text": "5.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.40",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -87,11 +87,11 @@
       "contents": [
         {
           "text": "6.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.41",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -101,11 +101,11 @@
       "contents": [
         {
           "text": "7.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.42",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -115,11 +115,11 @@
       "contents": [
         {
           "text": "8.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.43",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -129,11 +129,11 @@
       "contents": [
         {
           "text": "9.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.44",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -143,11 +143,11 @@
       "contents": [
         {
           "text": "10.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.45",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -157,11 +157,11 @@
       "contents": [
         {
           "text": "11.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.46",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -171,11 +171,11 @@
       "contents": [
         {
           "text": "12.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.47",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -185,11 +185,11 @@
       "contents": [
         {
           "text": "13.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.48",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -199,11 +199,11 @@
       "contents": [
         {
           "text": "14.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.49",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -213,11 +213,11 @@
       "contents": [
         {
           "text": "15.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.50",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -227,11 +227,11 @@
       "contents": [
         {
           "text": "16.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.51",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     },
@@ -241,11 +241,11 @@
       "contents": [
         {
           "text": "17.",
-          "color": "#FA8C16"
+          "color": "white"
         },
         {
           "translate": "att2.assist.item.52",
-          "color": "#FA8C16"
+          "color": "gray"
         }
       ]
     }

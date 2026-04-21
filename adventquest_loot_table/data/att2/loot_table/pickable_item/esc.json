@@ -26,7 +26,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 1
+                            "chance": 0.5
                         }
                     ],
                     "type": "minecraft:loot_table",

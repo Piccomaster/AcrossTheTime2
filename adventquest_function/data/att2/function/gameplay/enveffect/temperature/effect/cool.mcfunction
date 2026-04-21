@@ -6,8 +6,10 @@
 ##effect
 scoreboard players operation @s HER_EXT = @s ENTEMPERATURE
 scoreboard players operation @s HUN_EXT = @s ENTEMPERATURE
+scoreboard players operation @s RES_EXT = @s ENTEMPERATURE
 scoreboard players set @s TIMER_HER_EXT 20
 scoreboard players set @s TIMER_HUN_EXT 20
+scoreboard players set @s TIMER_RES_EXT 20
 ##remove score
 scoreboard players add @s TEMPERATURE 1
 particle minecraft:item{item:"minecraft:ice"} ~ ~1 ~ 0.25 0.25 0.25 0 5 normal @s

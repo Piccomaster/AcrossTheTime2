@@ -25,5 +25,7 @@ execute if score #Overlay CAL matches 7 run return run particle minecraft:block{
 execute if score #Overlay CAL matches 8 run return run particle minecraft:block{block_state:"minecraft:sand"} ~ ~ ~ 0.2 0.2 0.2 0.1 10
 ##red sand
 execute if score #Overlay CAL matches 9 run return run particle minecraft:block{block_state:"minecraft:red_sand"} ~ ~ ~ 0.2 0.2 0.2 0.1 10
-##red sand
-execute if score #Overlay CAL matches 10 run return run particle minecraft:block{block_state:"minecraft:brick"} ~ ~ ~ 0.2 0.2 0.2 0.1 10
+##brick
+execute if score #Overlay CAL matches 10 run return run particle minecraft:block{block_state:"minecraft:bricks"} ~ ~ ~ 0.2 0.2 0.2 0.1 10
+##snow
+execute if score #Overlay CAL matches 11 run return run particle minecraft:block{block_state:"minecraft:snow"} ~ ~ ~ 0.2 0.2 0.2 0.1 10

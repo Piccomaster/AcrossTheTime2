@@ -7,10 +7,12 @@ function att2:gameplay/pnj_talk/dialog_playsound/gaelle_ryliath
 
 scoreboard players set gaelle_ryliath_PNJ statDIALOG 1
 #test entity dialog
-execute as @a[distance=..7] if score gaelle_ryliath_PNJ DIALOG matches 1..1 run function att2:dialogs/others/gaelle_ryliath/dialog_1
+execute if score gaelle_ryliath_PNJ DIALOG matches 1..1 run function att2:dialogs/others/gaelle_ryliath/dialog_1
 
 #Activation entity head movement
 scoreboard players set 00000000-0000-073a-0000-00000000073a TALKING 1
+scoreboard players set 00000000-0000-073a-0000-00000000073a PNJID 60
 scoreboard players set 00000000-0000-073a-0000-00000000073a TALKING_TIMER 300
 
+scoreboard players set @s PNJID 60
 function att2:advancement/test_all/journey/pnj
