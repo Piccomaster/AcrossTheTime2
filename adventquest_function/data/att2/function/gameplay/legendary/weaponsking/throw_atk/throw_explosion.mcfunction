@@ -9,7 +9,7 @@ execute on origin unless function att2:gameplay/legendary/weaponsking/throw_atk/
 function att2:gameplay/score/owner
 #execute as @p[predicate=att2_pre:score/player] at @s run function att2:gameplay/legendary/weaponsking/throw_atk/reset_motion
 ##remove enchantment
-item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:legendary/weaponsking/throw_explosion":0}}
+item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:legendary/weaponsking/explosion":0}}
 #particle
 function att2:gameplay/legendary/weaponsking/particle/throw_atk
 #damage
