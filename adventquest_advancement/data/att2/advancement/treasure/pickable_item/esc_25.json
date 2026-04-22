@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:quartz",
+            "components": {
+                "item_model": "pickable_item/esc"
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.treasure.pickable_item.esc_25.title"
+        },
+        "description": {
+            "translate": "att2.advancement.treasure.pickable_item.esc_25.description"
+        },
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": true,
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/pickable_item/esc_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+    },
+    "criteria": {
+        "esc_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

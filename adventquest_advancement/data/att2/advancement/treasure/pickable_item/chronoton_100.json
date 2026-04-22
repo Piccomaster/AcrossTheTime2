@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:quartz",
+            "components": {
+                "item_model": "pickable_item/chronoton"
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.treasure.pickable_item.chronoton_100.title"
+        },
+        "description": {
+            "translate": "att2.advancement.treasure.pickable_item.chronoton_100.description"
+        },
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": true,
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/pickable_item/chronoton_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+    },
+    "criteria": {
+        "chronoton_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:sniffer_spawn_egg"
+        },
+        "title": {
+            "translate": "att2.advancement.treasure.pickable_item.total_1.title"
+        },
+        "description": {
+            "translate": "att2.advancement.treasure.pickable_item.total_1.description"
+        },
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": true,
+        "frame": "task"
+    },
+    "parent": "att2:treasure/pickable_item/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "total_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
