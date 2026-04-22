@@ -33,7 +33,8 @@ execute as @s[predicate=att2_pre:player/input/a] run item modify entity @s saddl
 execute as @s[predicate=att2_pre:player/input/s] run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/s":1}}
 execute as @s[predicate=att2_pre:player/input/d] run item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/d":1}}
 
-tp @s[tag=InputAny,predicate=!att2_pre:player/input/any] @s
+execute as @s[tag=InputAny,predicate=!att2_pre:player/input/any] run function att2:gameplay/misc/motion/reset
+#tp @s[tag=InputAny,predicate=!att2_pre:player/input/any] @s
 
 execute unless predicate att2_pre:player/input/any run tag @s remove InputAny
 execute if predicate att2_pre:player/input/any run tag @s add InputAny
