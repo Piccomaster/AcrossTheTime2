@@ -8,7 +8,11 @@
         },
         "description": {
             "translate": "att2.advancement.treasure.pickable_item.total_1000.description"
-        }
+        },
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge"
     },
     "parent": "att2:treasure/pickable_item/total_500",
     "rewards": {

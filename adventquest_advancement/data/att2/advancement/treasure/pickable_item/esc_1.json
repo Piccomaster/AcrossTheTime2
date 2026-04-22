@@ -11,7 +11,11 @@
         },
         "description": {
             "translate": "att2.advancement.treasure.pickable_item.esc_1.description"
-        }
+        },
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": true,
+        "frame": "task"
     },
     "parent": "att2:treasure/pickable_item/root",
     "rewards": {

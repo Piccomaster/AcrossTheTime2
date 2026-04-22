@@ -11,7 +11,11 @@
         },
         "description": {
             "translate": "att2.advancement.treasure.pickable_item.rune_50.description"
-        }
+        },
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": true,
+        "frame": "goal"
     },
     "parent": "att2:treasure/pickable_item/rune_25",
     "rewards": {
