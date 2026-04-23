@@ -17,5 +17,5 @@ tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.heart_p
 tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.dahalburst",hover_event:{action:show_text,value:[{translate:"enchantment.att2.dahalburst.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 221"}},{text:"】",color:dark_green}]
 # selflessaid
 tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.selflessaid",hover_event:{action:show_text,value:[{translate:"enchantment.att2.selflessaid.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 222"}},{text:"】",color:dark_green}]
-
-
+# wrath_accumulator
+tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.wrath_accumulator",hover_event:{action:show_text,value:[{translate:"enchantment.att2.wrath_accumulator.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 3526"}},{text:"】",color:dark_green}]

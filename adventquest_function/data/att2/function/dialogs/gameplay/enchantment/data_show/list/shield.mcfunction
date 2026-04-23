@@ -15,4 +15,5 @@ tellraw @s [{"translate":"enchantment.data.list.shield"}]
 tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.precisionblock",hover_event:{action:show_text,value:[{translate:"enchantment.att2.precisionblock.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 241"}},{text:"】",color:dark_green}]
 #defensematrix
 tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.defensematrix",hover_event:{action:show_text,value:[{translate:"enchantment.att2.defensematrix.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 242"}},{text:"】",color:dark_green}]
-
+#defensematrix
+tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.stand_breaking",hover_event:{action:show_text,value:[{translate:"enchantment.att2.stand_breaking.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 3531"}},{text:"】",color:dark_green}]
