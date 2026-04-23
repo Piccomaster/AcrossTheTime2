@@ -3,7 +3,7 @@
 #Process secret marker 							                #
 #################################################################
 
-execute if score @s SPELL34_SLCT matches 1 unless score @s LIMIT77 matches 7.. as @s[distance=..10] run summon minecraft:shulker ~ ~ ~ {Tags:["mineralsmarker"],NoAI:1,Silent:1,PersistenceRequired:1,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:10.0}],Health:10,active_effects:[{id:invisibility,amplifier:1,duration:480,show_particles:false},{id:wither,amplifier:10,duration:480,show_particles:false},{id:glowing,amplifier:0,duration:480,show_particles:false}],DeathLootTable:"att2:empty"}
+execute if score @s SPELL34_SLCT matches 1 unless score @s LIMIT77 matches 7.. as @s[distance=..10] run summon minecraft:shulker ~ ~ ~ {Tags:["mineralsmarker"],NoAI:1,Silent:1,PersistenceRequired:1,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:10.0}],Health:10,active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false},{id:wither,amplifier:10,duration:-1,show_particles:false},{id:glowing,amplifier:0,duration:480,show_particles:false}],DeathLootTable:"att2:empty"}
 execute if score @s SPELL34_SLCT matches 1 unless score @s LIMIT77 matches 8.. as @s[distance=..10] run scoreboard players add @s LIMIT77 1
 
 execute if score @s SPELL34_SLCT matches 2 unless score @s LIMIT77 matches 13.. as @s[distance=..20] run summon minecraft:shulker ~ ~ ~ {Tags:["mineralsmarker"],NoAI:1,Silent:1,PersistenceRequired:1,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:14.0}],Health:14,active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false},{id:wither,amplifier:10,duration:-1,show_particles:false},{id:glowing,amplifier:0,duration:480,show_particles:false}],DeathLootTable:"att2:empty"}
