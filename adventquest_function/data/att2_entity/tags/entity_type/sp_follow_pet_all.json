@@ -1,0 +1,14 @@
+{
+    "values": [
+      "minecraft:bat",
+      "minecraft:phantom",
+      "minecraft:parrot",
+      "minecraft:frog",
+      "minecraft:vex",
+      "minecraft:allay",
+      "minecraft:wolf",
+      "minecraft:iron_golem"
+    ],
+    "replace": false
+  }
+  

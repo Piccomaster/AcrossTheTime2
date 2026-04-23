@@ -43,20 +43,22 @@ data remove storage att2:cooldown slot
 scoreboard players set #Spell_Existence CAL 0
 scoreboard players set #id CAL 45
 execute store result score #Spell_Existence CAL run clear @s enchanted_book[custom_data~{Dahal:"launcher",Spell:45}] 0
+execute if score #Spell_Existence CAL matches 0 run scoreboard players set #Spell_Existence CAL -1
+execute if score #Spell_Existence CAL matches 2.. run clear @s enchanted_book[custom_data~{Dahal:"launcher",Spell:45}] 1
 execute if score #Spell_Existence CAL matches 1 store result storage att2:cooldown slot int 1 run data get storage att2:cooldown inventory[{id:"minecraft:enchanted_book",components:{"minecraft:custom_data":{Spell:45}}}].Slot
 execute store result score #Spell_Existence CAL run data get storage att2:cooldown slot
-execute if score #Spell_Existence CAL matches 1.. run function att2:gameplay/dahal/action/replace/cooldown/inventory with storage att2:cooldown
+execute if score #Spell_Existence CAL matches 0.. run function att2:gameplay/dahal/action/replace/cooldown/inventory with storage att2:cooldown
 ##offhand
-execute if score #Spell_Existence CAL matches 0 if items entity @s weapon.offhand enchanted_book[custom_data~{Dahal:"launcher",Spell:45}] run function att2:gameplay/dahal/action/replace/cooldown/offhand
+execute if score #Spell_Existence CAL matches -1 if items entity @s weapon.offhand enchanted_book[custom_data~{Dahal:"launcher",Spell:45}] run function att2:gameplay/dahal/action/replace/cooldown/offhand
 ##in player cursor
-execute if score #Spell_Existence CAL matches 0 if items entity @s player.cursor enchanted_book[custom_data~{Dahal:"launcher",Spell:45}] run function att2:gameplay/dahal/action/replace/cooldown/player_cursor
+execute if score #Spell_Existence CAL matches -1 if items entity @s player.cursor enchanted_book[custom_data~{Dahal:"launcher",Spell:45}] run function att2:gameplay/dahal/action/replace/cooldown/player_cursor
 ##player_crafting
-execute if score #Spell_Existence CAL matches 0 if items entity @s player.crafting.* enchanted_book[custom_data~{Dahal:"launcher",Spell:45}] run function att2:gameplay/dahal/action/replace/cooldown/player_crafting
+execute if score #Spell_Existence CAL matches -1 if items entity @s player.crafting.* enchanted_book[custom_data~{Dahal:"launcher",Spell:45}] run function att2:gameplay/dahal/action/replace/cooldown/player_crafting
 ##spell_bundle
-#execute if score #Spell_Existence CAL matches 0 if items entity @s player.crafting.* *[custom_data~{QuickSlot:true,EquipmentType:spell_bundle}] run function att2:gameplay/dahal/action/replace/cooldown/spell_bundle
+#execute if score #Spell_Existence CAL matches -1 if items entity @s player.crafting.* *[custom_data~{QuickSlot:true,EquipmentType:spell_bundle}] run function att2:gameplay/dahal/action/replace/cooldown/spell_bundle
 
 ##limit
-execute if score #Spell_Existence CAL matches 0 run return fail
+execute if score #Spell_Existence CAL matches -1 run return fail
 
 ##reset
 scoreboard players set @s[scores={COOLDOWN45=..0}] COOLDOWN45 -100

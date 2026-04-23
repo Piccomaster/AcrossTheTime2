@@ -24,5 +24,5 @@ kill @e[tag=invminecarts.custom_minecart]
 tag @e[tag=invminecarts.invisible_minecart] add invminecarts.not_this_minecart
 tag @e[tag=invminecarts.invisible_custom_minecart] add invminecarts.not_this_minecart
 
-tag @e remove invminecarts.invisible_minecart
-tag @e remove invminecarts.invisible_custom_minecart
+tag 00000000-0000-018a-0000-00000000018aremove invminecarts.invisible_minecart
+tag 00000000-0000-018a-0000-00000000018aremove invminecarts.invisible_custom_minecart

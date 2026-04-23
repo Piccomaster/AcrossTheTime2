@@ -8,6 +8,14 @@
 # -- Initial state
 #scoreboard players set #Environment TEMPERATURE 0
 
+##dimension
+##billgart
+execute as @s[scores={DIMENSION=7}] run return run scoreboard players set #Environment TEMPERATURE -2
+##Ouranos
+execute as @s[scores={DIMENSION=4..5}] run return run scoreboard players set #Environment TEMPERATURE 1
+##Angband
+execute as @s[scores={DIMENSION=6}] run return run scoreboard players set #Environment TEMPERATURE 2
+
 # -- Location
 
 #Worlest
@@ -18,26 +26,26 @@ execute if predicate att2_pre:location/sylberland/asunark run return run scorebo
 execute if predicate att2_pre:location/sylberland/around_meleim run return run scoreboard players set #Environment TEMPERATURE -1
 
 # Elchéol Mountain
-execute as @s[x=-5381,y=158,z=-6300,distance=..350] run return run scoreboard players set #Environment TEMPERATURE -2
+execute as @s[x=-5381,y=158,z=-6300,distance=..350] run return run scoreboard players set #Environment TEMPERATURE -4
 # Eolorion
-execute as @s[x=-5172,y=65,z=-6016,dx=-194,dy=87,dz=-333] run return run scoreboard players set #Environment TEMPERATURE -2
+execute as @s[x=-5172,y=65,z=-6016,dx=-194,dy=87,dz=-333] run return run scoreboard players set #Environment TEMPERATURE -4
 # Vonaheim Dungeon
-execute as @s[x=-5771,y=35,z=-6235,dx=-293,dy=131,dz=-303] run return run scoreboard players set #Environment TEMPERATURE -3
+execute as @s[x=-5771,y=35,z=-6235,dx=-293,dy=131,dz=-303] run return run scoreboard players set #Environment TEMPERATURE -5
 # Vonaheim Cave
-execute as @s[x=-5537,y=162,z=-6538,dx=208,dy=-100,dz=208] run return run scoreboard players set #Environment TEMPERATURE -4
-execute as @s[x=-5756,y=11,z=-6268,dx=108,dy=82,dz=-205] run return run scoreboard players set #Environment TEMPERATURE -4
+execute as @s[x=-5537,y=162,z=-6538,dx=208,dy=-100,dz=208] run return run scoreboard players set #Environment TEMPERATURE -6
+execute as @s[x=-5756,y=11,z=-6268,dx=108,dy=82,dz=-205] run return run scoreboard players set #Environment TEMPERATURE -6
 # Vonaheim High
-execute as @s[x=-5771,y=140,z=-6235,dx=-293,dy=105,dz=-303] run return run scoreboard players set #Environment TEMPERATURE -5
+execute as @s[x=-5771,y=140,z=-6235,dx=-293,dy=105,dz=-303] run return run scoreboard players set #Environment TEMPERATURE -7
 # Vonaheim Top
-execute as @s[x=-5642,y=201,z=-6487,dx=84,dy=35,dz=-64] run return run scoreboard players set #Environment TEMPERATURE -5
+execute as @s[x=-5642,y=201,z=-6487,dx=84,dy=35,dz=-64] run return run scoreboard players set #Environment TEMPERATURE -7
 # Temple
-execute as @s[x=-5057,y=66,z=-6465,dx=-391,dy=158,dz=-359] run return run scoreboard players set #Environment TEMPERATURE -5
+execute as @s[x=-5057,y=66,z=-6465,dx=-391,dy=158,dz=-359] run return run scoreboard players set #Environment TEMPERATURE -7
 # J'zargo
-execute as @s[x=-4984,y=200,z=-6306,dx=-80,dy=-50,dz=-80] run return run scoreboard players set #Environment TEMPERATURE -4
-execute as @s[x=-5056,y=168,z=-6652,dx=66,dy=-50,dz=110] run return run scoreboard players set #Environment TEMPERATURE -4
-execute as @s[x=-4989,y=188,z=-6643,dx=198,dy=-158,dz=453] run return run scoreboard players set #Environment TEMPERATURE -4
-execute as @s[x=-5006,y=191,z=-6306,dx=-145,dy=-40,dz=282] run return run scoreboard players set #Environment TEMPERATURE -4
-execute as @s[x=-5006,y=151,z=-6306,dx=-145,dy=-150,dz=282] run return run scoreboard players set #Environment TEMPERATURE -3
+execute as @s[x=-4984,y=200,z=-6306,dx=-80,dy=-50,dz=-80] run return run scoreboard players set #Environment TEMPERATURE -6
+execute as @s[x=-5056,y=168,z=-6652,dx=66,dy=-50,dz=110] run return run scoreboard players set #Environment TEMPERATURE -6
+execute as @s[x=-4989,y=188,z=-6643,dx=198,dy=-158,dz=453] run return run scoreboard players set #Environment TEMPERATURE -6
+execute as @s[x=-5006,y=191,z=-6306,dx=-145,dy=-40,dz=282] run return run scoreboard players set #Environment TEMPERATURE -6
+execute as @s[x=-5006,y=151,z=-6306,dx=-145,dy=-150,dz=282] run return run scoreboard players set #Environment TEMPERATURE -5
 
 # Nojélanth Plateau
 execute as @s[x=-5776,y=63,z=-4232,dx=-287,dy=100,dz=-366] run return run scoreboard players set #Environment TEMPERATURE 105
