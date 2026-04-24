@@ -3613,3 +3613,6 @@ execute if score @s ScoreTrigger matches 3529 run function att2:gameplay/stat/cr
 execute if score @s ScoreTrigger matches 3530 run function att2:gameplay/enchantment/show_interaction/stand_breaking
 
 execute if score @s ScoreTrigger matches 3531 run function att2:dialogs/gameplay/enchantment/data_show/stand_breaking
+
+
+execute if score @s ScoreTrigger matches 3532 run function att2:gameplay/shop/prisoner/runic_ore/trigger_items
