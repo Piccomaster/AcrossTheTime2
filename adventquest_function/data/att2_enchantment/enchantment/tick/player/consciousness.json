@@ -17,6 +17,14 @@
   ],
   "supported_items": "minecraft:book",
   "effects": {
+    "hit_block": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/dahal/action/spell20/block_catch/pick_up/detection"
+        }
+      }
+    ],
     "post_piercing_attack": [
       {
         "effect": {

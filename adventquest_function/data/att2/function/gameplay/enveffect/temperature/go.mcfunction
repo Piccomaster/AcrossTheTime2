@@ -51,6 +51,10 @@ execute if predicate att2_pre:player/sprinting run scoreboard players add #Total
 execute if predicate att2_pre:player/flying run scoreboard players remove #Total TEMPERATURE 3
 ##fire
 execute if predicate att2_pre:player/fire run scoreboard players add #Total TEMPERATURE 5
+##spell
+execute if score @s SPELL44_TIMER matches 1.. run scoreboard players remove #Total TEMPERATURE 2
+execute if score @s SPELL45_TIMER matches 1.. run scoreboard players add #Total TEMPERATURE 2
+
 
 ##weather
 execute if predicate {condition:"weather_check",raining:true} if predicate {condition:"location_check",predicate:{can_see_sky:true}} run scoreboard players remove #Total TEMPERATURE 3

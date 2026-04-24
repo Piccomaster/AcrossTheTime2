@@ -22,7 +22,3 @@ tellraw @s [{"translate":"enchantment.data.lvl",with:[{score:{name:"0",objective
 tellraw @s [{"translate":"enchantment.data.lvl",with:[{score:{name:"0",objective:"CAL"},color:green},{score:{name:"2",objective:"CAL"},color:green},{score:{name:"sscombo_esc_2",objective:"ENCHANTMENT_DATA"},color:green},{score:{name:"sscombo_rune_2",objective:"ENCHANTMENT_DATA"},color:green}]}]
 #lvl 3
 tellraw @s [{"translate":"enchantment.data.lvl",with:[{score:{name:"0",objective:"CAL"},color:green},{score:{name:"3",objective:"CAL"},color:green},{score:{name:"sscombo_esc_3",objective:"ENCHANTMENT_DATA"},color:green},{score:{name:"sscombo_rune_3",objective:"ENCHANTMENT_DATA"},color:green}]}]
-#lvl 4
-tellraw @s [{"translate":"enchantment.data.lvl",with:[{score:{name:"0",objective:"CAL"},color:green},{score:{name:"4",objective:"CAL"},color:green},{score:{name:"sscombo_esc_4",objective:"ENCHANTMENT_DATA"},color:green},{score:{name:"sscombo_rune_4",objective:"ENCHANTMENT_DATA"},color:green}]}]
-#lvl 5
-tellraw @s [{"translate":"enchantment.data.lvl",with:[{score:{name:"0",objective:"CAL"},color:green},{score:{name:"5",objective:"CAL"},color:green},{score:{name:"sscombo_esc_5",objective:"ENCHANTMENT_DATA"},color:green},{score:{name:"sscombo_rune_5",objective:"ENCHANTMENT_DATA"},color:green}]}]

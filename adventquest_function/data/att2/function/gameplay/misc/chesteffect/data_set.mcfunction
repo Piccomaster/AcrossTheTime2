@@ -42,7 +42,7 @@ execute if block ~ ~ ~ #minecraft:chest[facing=north] run function att2:gameplay
 #function att2:gameplay/misc/chesteffect/empty_chest/set with entity @s data
 ##score set
 ##set c score
-execute if score #C CAL matches 1..10 run scoreboard players operation @s CHESTEFFECT = #C CAL 
+execute if score #T CAL matches 1..10 run scoreboard players operation @s CHESTEFFECT = #T CAL 
 ##
 execute if score #Q CAL matches 66 run scoreboard players set @s CHESTEFFECT 11
 execute if score #Q CAL matches 67 run scoreboard players set @s CHESTEFFECT 12
