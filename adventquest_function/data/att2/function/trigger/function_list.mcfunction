@@ -3619,3 +3619,5 @@ execute if score @s ScoreTrigger matches 3533 run function att2:gameplay/shop/pr
 execute if score @s ScoreTrigger matches 3534 run function att2:gameplay/shop/prisoner/random_exchange/trigger_3
 
 execute if score @s ScoreTrigger matches 3535 run function att2:gameplay/shop/prisoner/random_exchange/display_list
+
+execute if score @s ScoreTrigger matches 3536 run function att2:gameplay/shop/prisoner/runic_ore/trigger_items

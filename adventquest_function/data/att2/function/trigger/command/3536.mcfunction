@@ -1,0 +1,1 @@
+function att2:gameplay/shop/prisoner/runic_ore/trigger_items
