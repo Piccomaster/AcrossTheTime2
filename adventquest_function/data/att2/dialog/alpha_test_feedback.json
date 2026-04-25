@@ -1,0 +1,67 @@
+{
+    "title": "",
+    "external_title": {
+        "translate": "att2.alpha_test_feedback.title",
+        "color":"gold"
+    },
+    "type": "minecraft:multi_action",
+    "pause": false,
+    "columns": 1,
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": {
+                "translate": "att2.alpha_test_feedback",
+                "color": "green"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "width": 200,
+            "label": {
+                "translate": "att2.alpha_test_feedback.chinese",
+                "color": "gold"
+            },
+            "action": {
+                "type": "open_url",
+                "url": "https://docs.qq.com/sheet/DWEFRWnhJVHV3bWJz?tab=5w4hwa"
+            }
+        },
+        {
+            "width": 200,
+            "label": {
+                "translate": "att2.alpha_test_feedback.discord",
+                "color": "gold"
+            },
+            "action": {
+                "type": "open_url",
+                "url": "https://discord.com/channels/315159036435890179/1034071733512192030"
+            }
+        },
+        {
+            "width": 200,
+            "label": {
+                "translate": "att2.alpha_test_feedback.google",
+                "color": "gold"
+            },
+            "action": {
+                "type": "open_url",
+                "url": "https://discord.com/channels/315159036435890179/1034071733512192030"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "att2.alpha_test_feedback.exit",
+            "color": "#45556C"
+        },
+        "tooltip": {
+            "translate": "att2.alpha_test_feedback.exit.tip"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "/trigger ScoreTrigger set 2310"
+        }
+    }
+}

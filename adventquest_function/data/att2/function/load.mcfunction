@@ -5,6 +5,7 @@
 
 ##text
 tellraw @a {translate:att2.datapack.reload,color:"dark_green"}
+tellraw @a [{translate:att2.alpha_test.enter_tip,color:"dark_green"}]
 execute as @a at @s run playsound minecraft:validation1 block @s ~ ~ ~ 150 1.5
 #force load keep
 execute in overworld positioned 787 77 796 run forceload add ~ ~

@@ -3614,5 +3614,10 @@ execute if score @s ScoreTrigger matches 3530 run function att2:gameplay/enchant
 
 execute if score @s ScoreTrigger matches 3531 run function att2:dialogs/gameplay/enchantment/data_show/stand_breaking
 
+execute if score @s ScoreTrigger matches 3532 run function att2:gameplay/shop/prisoner/random_exchange/trigger_1
+execute if score @s ScoreTrigger matches 3533 run function att2:gameplay/shop/prisoner/random_exchange/trigger_2
+execute if score @s ScoreTrigger matches 3534 run function att2:gameplay/shop/prisoner/random_exchange/trigger_3
 
-execute if score @s ScoreTrigger matches 3532 run function att2:gameplay/shop/prisoner/runic_ore/trigger_items
+execute if score @s ScoreTrigger matches 3535 run function att2:gameplay/shop/prisoner/random_exchange/display_list
+
+execute if score @s ScoreTrigger matches 3536 run function att2:gameplay/shop/prisoner/runic_ore/trigger_items
