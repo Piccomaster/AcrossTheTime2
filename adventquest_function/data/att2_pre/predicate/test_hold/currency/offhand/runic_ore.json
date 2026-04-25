@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": "minecraft:raw_iron",
+        "components": {
+          "minecraft:custom_name": {
+            "translate": "item.coin.runic_ore.name"
+          }
+        }
+      }
+    }
+  }
+}

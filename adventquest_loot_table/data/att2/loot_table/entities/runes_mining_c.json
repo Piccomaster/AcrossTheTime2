@@ -2,102 +2,15 @@
     "pools": [
         {
             "rolls": {
-                "min": 5,
-                "max": 10
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.03
-                        }
-                    ],
                     "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/0_gal"
-                },
-                {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.025
-                        }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/1_tha"
-                },
-                {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.02
-                        }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/2_fus"
-                },
-                {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.0175
-                        }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/3_org"
-                },
-                {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.015
-                        }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/4_jo"
-                },
-                {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.0125
-                        }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/5_ra"
-                },
-                {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.0105
-                        }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/6_nym"
-                },
-                {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.009
-                        }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/7_inu"
-                },
-                {
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.0075
-                        }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/8_hal"
+                    "value": "att2:item_data/chronoton/runic_ore"
                 }
             ]
         }
     ]
 }
-
