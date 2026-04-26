@@ -1,5 +1,5 @@
 #############################################################
-#Made by Adventquest                               			
+#Made by Adventquest                          			
 #Ryliath dailyquest : 11
 #go command
 #Task requirements: #Time limit : 30 minutes
@@ -11,7 +11,7 @@
 execute in overworld positioned -5034 75 -5067 run function att2:summon/pnj/helena_meli
 tp 00000000-0000-027a-0000-00000000027a -5034 75 -5067 -45 0
 execute unless entity 00000000-0000-027a-0000-00000000027a run return 0
-tag 00000000-0000-027a-0000-00000000027a remove rotation_store
+data modify entity 00000000-0000-027a-0000-00000000027a data.rotation set value [-45,0]
 ##summon interaction
 execute at 00000000-0000-027a-0000-00000000027a unless entity @e[distance=..2,type=interaction,tag=PNJ_TALK] run function att2:summon/pnj/_interaction
 

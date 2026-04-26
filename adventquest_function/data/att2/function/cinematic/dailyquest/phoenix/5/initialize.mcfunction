@@ -17,3 +17,5 @@ scoreboard players set phoenix_dailyquest_5_fail_chronoton DAILYQUEST 300
 scoreboard players set phoenix_dailyquest_5_fail_reputation DAILYQUEST 3
 
 ##other: no
+scoreboard players set phoenix_dailyquest_5_kill_karon DAILYQUEST 0
+scoreboard players set phoenix_dailyquest_5_kill_karon_requirement DAILYQUEST 1
