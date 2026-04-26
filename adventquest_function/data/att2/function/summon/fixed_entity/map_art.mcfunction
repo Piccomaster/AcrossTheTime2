@@ -692,6 +692,8 @@ execute in the_nether positioned 3442.5 39.5 3783.9375 run summon minecraft:item
 ## Lisa
 #clear
 execute in the_nether positioned -3817.5 88.5 -5800.5 run kill @e[distance=..4,type=minecraft:item_frame]
+execute in the_nether positioned 3392 36 3753 run kill @e[distance=..4,type=minecraft:item_frame]
+
 #summon
 execute in the_nether positioned 3397.5 38.5 3758.5 run summon minecraft:item_display ~ ~ ~ {UUID:[I;10997112,97114116,105100,263],Rotation:[-90.0f,0.0f],item:{components:{"minecraft:item_model":"minecraft:misc/item_frame"},count:1,id:"minecraft:item_frame"},view_range:0.5f}
 execute in the_nether positioned 3397.0625 38.5 3758.5 run summon minecraft:item_display ~ ~ ~ {UUID:[I;10997112,97114116,105100,264],Rotation:[-90.0f,0.0f],item:{count:1,id:"minecraft:beetroot_soup"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.5f,0.5f,0.5f],translation:[0.0f,0.0f,0.0f]},view_range:0.5f}
