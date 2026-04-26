@@ -1,6 +1,6 @@
-# Changelog - Upgrade 1.21.5
+# Changelog : Across The Time - Remastered
 
-**All improvements, additions, balances, and fixes from Across_the_time_2 map v5.0.1 to the Minecraft 1.21.5 version!**
+**All improvements, additions, balances, and fixes from "Across The Time 2 - Time for Regrets" v5.0.1 to "Across The Time 2 - Time for Remaster" v1.0.0 for Minecraft 1.21.11!**
 
 
 ---
@@ -13,7 +13,7 @@
 ### **Game Systems & Interfaces**
 
 #### **Daily Quest System**
-- **Access Point**: A [Daily Quest Board] has been added to each city (Ryliath,Meleim,Eolorion,Kortaek,Phoenix,Zirthion) for accepting and submitting daily quests
+- **Access Point**: A [*Daily Quest Board*] has been added to each city (*Ryliath*, *Meleim*, *Eolorion*, *Kortaek*, *Phoenix*, *Zirthion*) for accepting and submitting daily quests
 - **Content**: 60 new daily quests added
 - **Refresh Mechanism**: Daily quests randomly refresh at regular intervals (repeatable completion)
 - **Rewards**: Completing quests grants additional *Chronotons*, experience points, reputation points, or new items
@@ -22,14 +22,14 @@
 - **Access Method**: Press `G` to open The Book of Consciousness menu interface
 
 #### **Ender Chest Functionality Update**
-- **Absorption State**: Right-click to open the Ender Chest and activate its **Item Absorption State**, causing it to continuously absorb nearby dropped items.
-- **Release State**: Left-click to activate the **Item Release State**, causing the Ender Chest to eject stored items. When near a Recycler, items are automatically thrown onto the Recycler.
-- **Cooldown Mechanic**: Using the Ender Chest triggers a cooldown period, with duration based on the number of items absorbed/released in that operation.
+- **Absorption State**: Right-click to open the *Ender Chest* and activate its **Item Absorption State**, causing it to continuously absorb nearby dropped items.
+- **Release State**: Left-click to activate the **Item Release State**, causing the *Ender Chest* to eject stored items. When near a Recycler, items are automatically thrown onto the Recycler.
+- **Cooldown Mechanic**: Using the *Ender Chest* triggers a cooldown period, with duration based on the number of items absorbed/released in that operation.
 - **Expedited Cooldown**: During cooldown, players can spend *Chronotons* to instantly complete it. Cost is proportional to remaining cooldown time.
-- The storage limit is 777 items, but players cannot view the contents of the Ender Chest in real time.
+- The storage limit is 777 items, but players cannot view the contents of the *Ender Chest* in real time.
 
 #### **Player Limit Modification**
-- Supports "unlimited" player joins.
+- Supports "*unlimited*" player joins.
 - Players can join at any time during gameplay without restrictions.
 
 #### **Attribute Display System**
@@ -50,7 +50,7 @@
 - **Movement Bonus**: Grants Speed I effect while within city limits.
 
 #### **Mainplayer Name Modification**
-- Players can now manually change the "Mainplayer's name," supporting more characters and languages (not just limited to English).
+- Players can now manually change the "*Mainplayer's name*", supporting more characters and languages (not just limited to English).
 
 #### **Sidebar system**
 - The information bar on the right side of the screen will display some global information about the map.
@@ -93,7 +93,7 @@
 ##### **Spear**
 - When attacking with a spear, if you are too close to the enemy, the attack damage is reduced by 50% to 70%. If the distance to the enemy is just right, the attack damage is increased by 10% to 50%.
 ##### **Scythe**
-- When holding a scythe, you can see "weak points" on enemies. Aiming the crosshair at an enemy's weak point during an attack increases melee damage by 40% to 60%. If you do not hit the weak point, damage is reduced by 20% to 30%.
+- When holding a scythe, you can see "*weak points*" on enemies. Aiming the crosshair at an enemy's weak point during an attack increases melee damage by 40% to 60%. If you do not hit the weak point, damage is reduced by 20% to 30%.
 ##### **Dagger**
 - When dual-wielding daggers in both the main hand and off-hand during consecutive attacks, there is a 10% chance to make the next two attacks significantly faster. Additionally, the off-hand dagger's attributes provide half of their benefits.
 
@@ -121,8 +121,8 @@
 - The weapon's **base stats increase** as the player levels up.
 
 #### **Fenrir**
-- **Left Click**: Attacks inflict "Freeze" effect on enemies.
-- **Right Click (Hold)**: Releases "Frost Domain" that:
+- **Left Click**: Attacks inflict "*Freeze*" effect on enemies.
+- **Right Click (Hold)**: Releases "*Frost Domain*" that:
   - Freezes enemies within the area.
   - Blocks all incoming projectiles from outside.
 
@@ -137,7 +137,7 @@
   - Releases a long-range sword projectile.
 
 #### **Warlord**
-- **Arrow Hit**: Creates a "Lightning Field" on struck enemies that:
+- **Arrow Hit**: Creates a "*Lightning Field*" on struck enemies that:
   - Pulls in nearby enemies.
   - Deals continuous lightning damage.
 
@@ -151,7 +151,7 @@
 - **Left Attack**:
   - Knocks back hit enemies.
   - If knocked-back enemies collide with walls or other enemies:
-    - Deals AoE damage to nearby enemies.
+    - Deals "*AoE*" damage to nearby enemies.
     - Knocks back surrounding enemies.
     - User recoils backward.
 - **Right Attack**:
@@ -174,11 +174,9 @@
   - Damages enemies along the path of movement.
 
 #### **Kur-Hul Ud-Kud**
-
 - **Right-Click Action**:
   - Throws a giant scythe forward. The scythe automatically moves forward and attacks nearby enemies. After some time, it slowly flies back to the player's location.
   - Each time the scythe attacks an enemy, it grows larger, increasing both its attack range and damage. When it becomes sufficiently large or returns to the player, the scythe will unleash a more powerful attack and knockback effect on nearby enemies, while granting the player invincibility proportional to its size.
-
 - **Left-Click Attack**:
   - Can knock back the returning scythe in front, causing it to move forward again and lock onto nearby enemies.
 
@@ -300,9 +298,13 @@
 - 27 new runic trials spread throughout the **Sylberländ** region.
 - Each challenge consists of two puzzle/parkour rooms to solve in order to obtain a unique dark resin at the end.
 
-#### **New Merchant PNJ**
-- Added possibility to buy *Runes* with *Chronotons* but depends on the amount of dark resin brought.
-- Added possibility to sell *Runes powder* with *Sovereign Chaos Scale*.
+### **NPC**
+
+#### **New Merchant NPC in Ryliath: Eldric**
+- *Runes* can now be purchased with *Chronotons*, depending on the amount of *Dark Resin* provided.
+- *Runes* can now be purchased using random *Rune formulas*.
+- *Runic Ore* can now be traded for *Rune Powder*.
+- *Rune Powder* can now be traded for *Sovereign Chaos Scales*.
 
 <br>
 
@@ -314,7 +316,7 @@
 - Fishing tools can be purchased at shops that sell fish meat.
 
 #### **Map/Navigation System**
-- Players can unlock map regions of Sylberland through main and side quests.
+- Players can unlock *map regions* of Sylberland through main and side quests.
 - Additionally, they can unlock **40 small waypoints**.
 - Players can select a small waypoint and use their mount to **automatically travel** to the chosen destination.
 
@@ -322,25 +324,31 @@
 - Purchase town-specific mounts: **pigs, camels, horses, mules**.
 
 #### **Chest Display**
-- Chests at exploration point storages can now be right-clicked to instantly dump all loot inside the chest.
-- Most chests containing loot will now appear in an "open" state after being opened for the first time, and will display a glowing outline corresponding to their quality when approached.
-- Chests containing quest items or books will now display unique names.
+- *Chests* at exploration point storages can now be right-clicked to instantly dump all loot inside the chest.
+- Most chests containing loot will now appear in an *open state* after being opened for the first time, and will display a glowing outline corresponding to their quality when approached.
+- Chests containing quest items or books will now display *unique names*.
 
 #### **Decorated Pot**
 - Decorated Pots have been scattered throughout the map.
 - They can be broken to obtain *Chronotons*, *Chaos Sovereign Scales*, and *Runes*.
 
 #### **Buried Loot**
-- A large number of "Buried Loot" have been added to the map. They are usually hidden under weeds, rubble, or dirt, making them difficult to spot. Players need to right-click to clear the surface debris before they can pick them up.
-- Loot contents: *Chronotons*, *Chaos Sovereign Scales*, and *Runes
+- A large number of "*Buried Loot*" have been added to the map. They are usually hidden under weeds, rubble, or dirt, making them difficult to spot. Players need to right-click to clear the surface debris before they can pick them up.
+- Loot contents: *Chronotons*, *Chaos Sovereign Scales*, and *Runes*.
+
+#### **Chests**
+- Hundreds of *chests* have been added and distributed throughout the Sylberländ region.
+
+#### **Runic Ore**
+- *Runic ores* that can be mined no longer directly drops *Runes*, but *runic ores* which can be exchanged for *Runic Powder*.
 
 #### **Elytra Race**
-- Nine "launch points" have been added across the map. They are usually covered with rubble. After clearing the rubble, you can use "Pelzion" to soar with the wind.
+- Nine *launch points* have been added across the map. They are usually covered with rubble. After clearing the rubble, you can use *Pelzion* to soar with the wind.
 - Completing each section of the route will earn you additional rewards.
 
 #### **Monster HP Display**
-- Health bars now appear above monsters' heads.
-- Players can customize health bar settings.
+- *Health bars* now appear above monsters' heads.
+- Players can customize *health bar* settings.
 - When a monster's health decreases, the specific amount of health reduced will be displayed as a number, accompanied by a unique icon for differentiation.
 
 <br>
@@ -433,7 +441,7 @@
 <br>
 
 ### **Toolbar**
-- A new **toolbar** with four dedicated slots has been added. Players can assign tools like "Torches" and "Rune Pouches" to these slots, allowing them to quickly trigger the tool's **specific effect**.
+- A new **toolbar** with four dedicated slots has been added. Players can assign tools like *Torches* and *Rune Pouches* to these slots, allowing them to quickly trigger the tool's **specific effect**.
 - **Spell Pouch**: Can hold three casting implements. When placed in the toolbar, it automatically casts the corresponding spells.
 
 ### **Quick Equipment Swap**
@@ -455,7 +463,7 @@
 ### **Attributes & Stats**
 
 #### **Attribute System Update**
-- Most attributes now **directly modify base stats** (no "status effects").
+- Most attributes now **directly modify base stats** (no *status effects*).
 - **Speed/Haste Attributes**: Each point affects movement speed and attack speed.
 - **Strength Attribute**:
   - Restructured the calculation method for the Strength attribute. 
@@ -688,7 +696,6 @@
 - When repeatedly entering/exiting a boss room within a very short period of time, the situation where no boss spawns but the player is still deemed victorious will no longer occur.
 
 #### **Game experience feedback optimization.**
-
 - Item drops will display a glowing outline in the color corresponding to their quality and will also show the item's name.
 - When opening a new hidden shulker box, there will be an extra sound effect and a display showing the current number of shulker boxes discovered.
 - When opening a chest, additional sound effects will play based on the quality of the items inside, and particle effects in corresponding colors will be displayed.
@@ -703,3 +710,6 @@
 
 ### **Minor Issues**
 - Various minor bugs have been fixed.
+- Some inaccessible *chests* have been made accessible.
+- The game *credits* have been updated.
+- Blocks have been placed in certain locations to prevent the player from getting stuck or going off the map.
